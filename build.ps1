@@ -1,6 +1,4 @@
 Set-StrictMode -Version Latest
-$ErrorActionPreference = "Ignore"
-$PSDefaultParameterValues['*:ErrorAction']='Ignore'
 
 $NDKPath = Get-Content $PSScriptRoot/ndkpath.txt
 
