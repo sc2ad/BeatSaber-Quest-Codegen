@@ -28,13 +28,16 @@ jobs:
         cd ndk
         pwd > ${GITHUB_WORKSPACE}/ndkpath.txt
     - name: Get QPM
-      run: |
-        wget -q -O QPM.zip https://github.com/sc2ad/QuestPackageManager/suites/1010184158/artifacts/13163228
-        unzip -q QPM.zip
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+        workflow: main.yml
+        name: QPM-ubuntu-x64
+        path: ${GITHUB_WORKSPACE}/QPM
     - name: QPM Restore
       run: |
         cd ${GITHUB_WORKSPACE}
-        ../QPM/QPM restore
+        ./QPM/QPM restore
     - name: Build
       run: |
         cd ${GITHUB_WORKSPACE}
