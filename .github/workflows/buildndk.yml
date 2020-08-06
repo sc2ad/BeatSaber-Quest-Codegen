@@ -65,16 +65,16 @@ jobs:
         path: QPM
         repo: sc2ad/QuestPackageManager
         
-    - name: QPM Dependencies Cache
-      id: cache-qpm-deps
-      uses: actions/cache@v2
-      env:
-        cache-name: cache-qpm-deps
-      with:
-        path: ${GITHUB_WORKSPACE}/extern
-        key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('${GITHUB_WORKSPACE}/extern/*') }}
-        restore-keys: |
-          ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('${GITHUB_WORKSPACE}/extern/*') }}
+#     - name: QPM Dependencies Cache
+#       id: cache-qpm-deps
+#       uses: actions/cache@v2
+#       env:
+#         cache-name: cache-qpm-deps
+#       with:
+#         path: ${GITHUB_WORKSPACE}/extern
+#         key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('${GITHUB_WORKSPACE}/extern/*') }}
+#         restore-keys: |
+#           ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('${GITHUB_WORKSPACE}/extern/*') }}
       
     - name: QPM Restore
       if: steps.cache-qpm-deps.outputs.cache-hit != 'true'
