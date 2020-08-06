@@ -26,9 +26,9 @@ jobs:
         cache-name: cache-ndk
       with:
         path: ndk
-        key: ${{ runner.os }}-${{ env.cache_name }}
+        key: ${{ runner.os }}-${{ env.cache-name }}
         restore-keys: |
-          ${{ runner.os }}-${{ env.cache_name }}
+          ${{ runner.os }}-${{ env.cache-name }}
       
     - name: Install Android NDK
       if: steps.cache-ndk.outputs.cache-hit != 'true'
@@ -46,9 +46,9 @@ jobs:
         cache-name: cache-ndk
       with:
         path: ndk
-        key: ${{ runner.os }}-${{ env.cache_name }}
+        key: ${{ runner.os }}-${{ env.cache-name }}
         restore-keys: |
-          ${{ runner.os }}-${{ env.cache_name }}
+          ${{ runner.os }}-${{ env.cache-name }}
     - name: Create ndkpath.txt
       run: |
         cd ndk
@@ -61,9 +61,9 @@ jobs:
         cache-name: cache-qpm
       with:
         path: QPM
-        key: ${{ runner.os }}-${{ env.cache_name }}
+        key: ${{ runner.os }}-${{ env.cache-name }}
         restore-keys: |
-          ${{ runner.os }}-${{ env.cache_name }}
+          ${{ runner.os }}-${{ env.cache-name }}
 
     - name: Get QPM
       if: steps.cache-qpm.outputs.cache-hit != 'true'
@@ -82,9 +82,9 @@ jobs:
         cache-name: cache-qpm
       with:
         path: QPM
-        key: ${{ runner.os }}-${{ env.cache_name }}
+        key: ${{ runner.os }}-${{ env.cache-name }}
         restore-keys: |
-          ${{ runner.os }}-${{ env.cache_name }}
+          ${{ runner.os }}-${{ env.cache-name }}
       
     - name: QPM Restore
       run: |
