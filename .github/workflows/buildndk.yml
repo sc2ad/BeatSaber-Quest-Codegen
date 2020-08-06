@@ -1,0 +1,51 @@
+name: NDK build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+      name: Checkout
+      with:
+        submodules: true
+        lfs: true
+    - name: Install Powershell
+      run: sudo apt-get install -y powershell
+    - name: Install Android NDK
+      env:
+        ndkname: android-ndk-r20
+      run: |
+        wget -q -O ndk.zip https://dl.google.com/android/repository/${ndkname}-linux-x86_64.zip
+        unzip -q ndk.zip
+        mv ${ndkname} ndk
+        cd ndk
+        pwd > ${GITHUB_WORKSPACE}/ndkpath.txt
+    - name: Get QPM
+      run: |
+        wget -q -O QPM.zip https://github.com/sc2ad/QuestPackageManager/suites/1010184158/artifacts/13163228
+        unzip -q QPM.zip
+    - name: QPM Restore
+      run: |
+        cd ${GITHUB_WORKSPACE}
+        ../QPM/QPM restore
+    - name: Build
+      run: |
+        cd ${GITHUB_WORKSPACE}
+        pwsh -Command ./build.ps1
+    - name: Upload non-debug artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: libcodegen.so
+        path: ${GITHUB_WORKSPACE}/libs/arm64-v8a/libcodegen.so
+    - name: Upload debug artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: libcodegen_debug.so
+        path: ${GITHUB_WORKSPACE}/obj/local/arm64-v8a/libcodegen.so
