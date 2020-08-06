@@ -22,14 +22,14 @@ jobs:
       env:
         ndkname: android-ndk-r20
       run: |
-        wget -q -O ndk.zip https://dl.google.com/android/repository/${ndkname}-linux-x86_64.zip
+        wget -O ndk.zip https://dl.google.com/android/repository/${ndkname}-linux-x86_64.zip
         unzip -q ndk.zip
         mv ${ndkname} ndk
         cd ndk
         pwd > ${GITHUB_WORKSPACE}/ndkpath.txt
     - name: Get QPM
       run: |
-        wget -q -O QPM.zip https://github.com/sc2ad/QuestPackageManager/suites/1010184158/artifacts/13163228
+        wget -O QPM.zip https://github.com/sc2ad/QuestPackageManager/suites/1010184158/artifacts/13163228
         unzip -q QPM.zip
     - name: QPM Restore
       run: |
