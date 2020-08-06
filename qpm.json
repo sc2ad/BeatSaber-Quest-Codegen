@@ -1,0 +1,22 @@
+{
+  "sharedDir": "include",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "codegen",
+    "id": "codegen",
+    "version": "0.1.2",
+    "url": "https://github.com/sc2ad/BeatSaber-Quest-Codegen",
+    "additionalData": {
+      "soLink": "TODO",
+      "debugSoLink": "TODO"
+    }
+  },
+  "dependencies": [
+    {
+      "id": "beatsaber-hook",
+      "versionRange": "^0.3.5",
+      "additionalData": {}
+    }
+  ],
+  "additionalData": {}
+}
