@@ -33,12 +33,16 @@ jobs:
         github_token: ${{secrets.GITHUB_TOKEN}}
         workflow: main.yml
         name: QPM-ubuntu-x64
-        path: ${GITHUB_WORKSPACE}/QPM
+        path: QPM
         repo: sc2ad/QuestPackageManager
+    - name: pwdme
+      run: |
+        pwd
+        ls
     - name: QPM Restore
       run: |
         cd ${GITHUB_WORKSPACE}
-        ${GITHUB_WORKSPACE}/QPM/QPM restore
+        ../QPM/QPM restore
     - name: Build
       run: |
         cd ${GITHUB_WORKSPACE}
