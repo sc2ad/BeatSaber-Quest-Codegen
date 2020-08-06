@@ -38,11 +38,9 @@ jobs:
     - name: pwdme
       run: |
         pwd
-        ls
+        ls QPM
     - name: QPM Restore
-      run: |
-        cd ${GITHUB_WORKSPACE}
-        ../QPM/QPM restore
+      run: ./QPM/QPM restore
     - name: Build
       run: |
         cd ${GITHUB_WORKSPACE}
