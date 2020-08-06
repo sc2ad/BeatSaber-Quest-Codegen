@@ -18,16 +18,55 @@ jobs:
         lfs: true
     - name: Install Powershell
       run: sudo apt-get install -y powershell
+    
+    - name: Read Cached Android NDK
+      id: cache-ndk
+      uses: actions/cache@v2
+      env:
+        cache-name: cache-ndk
+      with:
+        path: ndk
+        key: ${{ runner.os }}-${{ env.cache_name }}
+        restore-keys: |
+          ${{ runner.os }}-${{ env.cache_name }}
+      
     - name: Install Android NDK
+      if: steps.cache-ndk.outputs.cache-hit != 'true'
       env:
         ndkname: android-ndk-r20
       run: |
         wget -q -O ndk.zip https://dl.google.com/android/repository/${ndkname}-linux-x86_64.zip
         unzip -q ndk.zip
         mv ${ndkname} ndk
+      
+    - name: Cache Android NDK
+      if: steps.cache-ndk.outputs.cache-hit != 'true'
+      uses: actions/cache@v2
+      env:
+        cache-name: cache-ndk
+      with:
+        path: ndk
+        key: ${{ runner.os }}-${{ env.cache_name }}
+        restore-keys: |
+          ${{ runner.os }}-${{ env.cache_name }}
+    - name: Create ndkpath.txt
+      run: |
         cd ndk
         pwd > ${GITHUB_WORKSPACE}/ndkpath.txt
+        
+    - name: Read Cached QPM
+      id: cache-qpm
+      uses: actions/cache@v2
+      env:
+        cache-name: cache-qpm
+      with:
+        path: QPM
+        key: ${{ runner.os }}-${{ env.cache_name }}
+        restore-keys: |
+          ${{ runner.os }}-${{ env.cache_name }}
+
     - name: Get QPM
+      if: steps.cache-qpm.outputs.cache-hit != 'true'
       uses: dawidd6/action-download-artifact@v2
       with:
         github_token: ${{secrets.GITHUB_TOKEN}}
@@ -35,12 +74,22 @@ jobs:
         name: QPM-ubuntu-x64
         path: QPM
         repo: sc2ad/QuestPackageManager
-    - name: pwdme
-      run: |
-        pwd
-        ls QPM
+      
+    - name: Cache QPM
+      if: steps.cache-qpm.outputs.cache-hit != 'true'
+      uses: actions/cache@v2
+      env:
+        cache-name: cache-qpm
+      with:
+        path: QPM
+        key: ${{ runner.os }}-${{ env.cache_name }}
+        restore-keys: |
+          ${{ runner.os }}-${{ env.cache_name }}
+      
     - name: QPM Restore
-      run: ./QPM/QPM restore
+      run: |
+        chmod +x ./QPM/QPM
+        ./QPM/QPM restore
     - name: Build
       run: |
         cd ${GITHUB_WORKSPACE}
