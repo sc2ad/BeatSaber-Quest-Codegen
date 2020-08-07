@@ -65,16 +65,16 @@ jobs:
         path: QPM
         repo: sc2ad/QuestPackageManager
         
-#     - name: QPM Dependencies Cache
-#       id: cache-qpm-deps
-#       uses: actions/cache@v2
-#       env:
-#         cache-name: cache-qpm-deps
-#       with:
-#         path: ${GITHUB_WORKSPACE}/extern
-#         key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('${GITHUB_WORKSPACE}/extern/*') }}
-#         restore-keys: |
-#           ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('${GITHUB_WORKSPACE}/extern/*') }}
+    - name: QPM Dependencies Cache
+      id: cache-qpm-deps
+      uses: actions/cache@v2
+      env:
+        cache-name: cache-qpm-deps
+      with:
+        path: ~/.config/QPM
+        key: ${{ runner.os }}-${{ env.cache-name }}
+        restore-keys: |
+          ${{ runner.os }}-${{ env.cache-name }}
       
     - name: QPM Restore
       if: steps.cache-qpm-deps.outputs.cache-hit != 'true'
@@ -88,10 +88,12 @@ jobs:
     - name: Upload non-debug artifact
       uses: actions/upload-artifact@v2
       with:
-        name: libcodegen.so
-        path: ${GITHUB_WORKSPACE}/libs/arm64-v8a/libil2cpp_codegen.so
+        name: libil2cpp_codegen.so
+        path: ./libs/arm64-v8a/libil2cpp_codegen.so
+        if-no-files-found: error
     - name: Upload debug artifact
       uses: actions/upload-artifact@v2
       with:
-        name: libcodegen_debug.so
-        path: ${GITHUB_WORKSPACE}/obj/local/arm64-v8a/libil2cpp_codegen.so
+        name: libil2cpp_codegen_debug.so
+        path: ./obj/local/arm64-v8a/libil2cpp_codegen.so
+        if-no-files-found: error
