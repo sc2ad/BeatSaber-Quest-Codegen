@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.Decoder
-#include "System\Text\Decoder.hpp"
+#include "System/Text/Decoder.hpp"
 // Including type: System.Text.Encoding
-#include "System\Text\Encoding.hpp"
+#include "System/Text/Encoding.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.Serialization.IObjectReference
-#include "System\Runtime\Serialization\IObjectReference.hpp"
+#include "System/Runtime/Serialization/IObjectReference.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization

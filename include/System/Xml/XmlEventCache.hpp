@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.XmlRawWriter
-#include "System\Xml\XmlRawWriter.hpp"
+#include "System/Xml/XmlRawWriter.hpp"
 // Including type: System.Xml.Xsl.Runtime.StringConcat
-#include "System\Xml\Xsl\Runtime\StringConcat.hpp"
+#include "System/Xml/Xsl/Runtime/StringConcat.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml

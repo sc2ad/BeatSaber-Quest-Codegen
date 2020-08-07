@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: TestLeaderboardsModel
-#include "GlobalNamespace\TestLeaderboardsModel.hpp"
+#include "GlobalNamespace/TestLeaderboardsModel.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder_1.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: OnlineServices.GetLeaderboardFilterData
-#include "OnlineServices\GetLeaderboardFilterData.hpp"
+#include "OnlineServices/GetLeaderboardFilterData.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
-#include "System\Runtime\CompilerServices\TaskAwaiter.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

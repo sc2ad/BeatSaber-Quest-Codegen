@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Cryptography.SHA1
-#include "System\Security\Cryptography\SHA1.hpp"
+#include "System/Security/Cryptography/SHA1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography

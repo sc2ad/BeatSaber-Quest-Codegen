@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PersistentSingleton`1
-#include "GlobalNamespace\PersistentSingleton_1.hpp"
+#include "GlobalNamespace/PersistentSingleton_1.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

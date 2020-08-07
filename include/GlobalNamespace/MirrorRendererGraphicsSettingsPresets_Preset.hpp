@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NamedPreset
-#include "GlobalNamespace\NamedPreset.hpp"
+#include "GlobalNamespace/NamedPreset.hpp"
 // Including type: MirrorRendererGraphicsSettingsPresets
-#include "GlobalNamespace\MirrorRendererGraphicsSettingsPresets.hpp"
+#include "GlobalNamespace/MirrorRendererGraphicsSettingsPresets.hpp"
 // Including type: UnityEngine.LayerMask
-#include "UnityEngine\LayerMask.hpp"
+#include "UnityEngine/LayerMask.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

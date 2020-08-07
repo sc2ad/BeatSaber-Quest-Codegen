@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.CompilerServices.CustomConstantAttribute
-#include "System\Runtime\CompilerServices\CustomConstantAttribute.hpp"
+#include "System/Runtime/CompilerServices/CustomConstantAttribute.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Completed includes
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {

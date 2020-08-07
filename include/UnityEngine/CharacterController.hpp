@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Collider
-#include "UnityEngine\Collider.hpp"
+#include "UnityEngine/Collider.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

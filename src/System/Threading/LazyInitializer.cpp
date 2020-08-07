@@ -4,8 +4,8 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.LazyInitializer
-#include "System\Threading\LazyInitializer.hpp"
+#include "System/Threading/LazyInitializer.hpp"
 // Including type: System.Func`1
-#include "System\Func_1.hpp"
+#include "System/Func_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.EncoderFallback
-#include "System\Text\EncoderFallback.hpp"
+#include "System/Text/EncoderFallback.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml

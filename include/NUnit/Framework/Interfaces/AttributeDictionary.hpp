@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Generic.Dictionary`2
-#include "System\Collections\Generic\Dictionary_2.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {

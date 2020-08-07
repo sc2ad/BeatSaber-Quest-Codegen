@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRDisplay
-#include "GlobalNamespace\OVRDisplay.hpp"
+#include "GlobalNamespace/OVRDisplay.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

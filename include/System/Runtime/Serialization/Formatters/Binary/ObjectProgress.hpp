@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryTypeEnum.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalObjectTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalObjectTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalMemberTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalMemberTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalMemberValueE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalMemberValueE.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

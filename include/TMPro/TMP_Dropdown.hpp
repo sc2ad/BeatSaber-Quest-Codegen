@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Selectable
-#include "UnityEngine\UI\Selectable.hpp"
+#include "UnityEngine/UI/Selectable.hpp"
 // Including type: UnityEngine.EventSystems.IPointerClickHandler
-#include "UnityEngine\EventSystems\IPointerClickHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerClickHandler.hpp"
 // Including type: UnityEngine.EventSystems.ISubmitHandler
-#include "UnityEngine\EventSystems\ISubmitHandler.hpp"
+#include "UnityEngine/EventSystems/ISubmitHandler.hpp"
 // Including type: UnityEngine.EventSystems.ICancelHandler
-#include "UnityEngine\EventSystems\ICancelHandler.hpp"
+#include "UnityEngine/EventSystems/ICancelHandler.hpp"
 // Including type: TMPro.FloatTween
-#include "TMPro\FloatTween.hpp"
+#include "TMPro/FloatTween.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

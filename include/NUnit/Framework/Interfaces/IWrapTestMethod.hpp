@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.ICommandWrapper
-#include "NUnit\Framework\Interfaces\ICommandWrapper.hpp"
+#include "NUnit/Framework/Interfaces/ICommandWrapper.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {

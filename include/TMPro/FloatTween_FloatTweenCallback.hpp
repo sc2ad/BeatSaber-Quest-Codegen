@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine\Events\UnityEvent_1.hpp"
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Including type: TMPro.FloatTween
-#include "TMPro\FloatTween.hpp"
+#include "TMPro/FloatTween.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {

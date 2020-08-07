@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Text.RegularExpressions.RegexOptions
-#include "System\Text\RegularExpressions\RegexOptions.hpp"
+#include "System/Text/RegularExpressions/RegexOptions.hpp"
 // Including type: System.TimeSpan
-#include "System\TimeSpan.hpp"
+#include "System/TimeSpan.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions

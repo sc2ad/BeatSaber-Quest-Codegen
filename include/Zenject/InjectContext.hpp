@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: Zenject.BindingId
-#include "Zenject\BindingId.hpp"
+#include "Zenject/BindingId.hpp"
 // Including type: Zenject.InjectSources
-#include "Zenject\InjectSources.hpp"
+#include "Zenject/InjectSources.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject

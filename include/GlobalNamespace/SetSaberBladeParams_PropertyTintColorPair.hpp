@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: SetSaberBladeParams
-#include "GlobalNamespace\SetSaberBladeParams.hpp"
+#include "GlobalNamespace/SetSaberBladeParams.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

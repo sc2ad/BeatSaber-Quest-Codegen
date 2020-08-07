@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.ProBuilder.EntityType
-#include "UnityEngine\ProBuilder\EntityType.hpp"
+#include "UnityEngine/ProBuilder/EntityType.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

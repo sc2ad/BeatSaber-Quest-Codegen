@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: NUnit.Framework.Constraints.NUnitEqualityComparer
-#include "NUnit\Framework\Constraints\NUnitEqualityComparer.hpp"
+#include "NUnit/Framework/Constraints/NUnitEqualityComparer.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {

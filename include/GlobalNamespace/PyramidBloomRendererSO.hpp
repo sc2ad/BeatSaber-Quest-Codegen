@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PersistentScriptableObject
-#include "GlobalNamespace\PersistentScriptableObject.hpp"
+#include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

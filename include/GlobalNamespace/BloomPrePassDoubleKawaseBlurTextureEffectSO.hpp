@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BloomPrePassEffectSO
-#include "GlobalNamespace\BloomPrePassEffectSO.hpp"
+#include "GlobalNamespace/BloomPrePassEffectSO.hpp"
 // Including type: KawaseBlurRendererSO/KernelSize
-#include "GlobalNamespace\KawaseBlurRendererSO_KernelSize.hpp"
+#include "GlobalNamespace/KawaseBlurRendererSO_KernelSize.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

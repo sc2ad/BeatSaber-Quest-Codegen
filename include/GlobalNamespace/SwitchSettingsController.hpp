@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: IncDecSettingsController
-#include "GlobalNamespace\IncDecSettingsController.hpp"
+#include "GlobalNamespace/IncDecSettingsController.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

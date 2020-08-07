@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Oculus.Platform.CAPI
-#include "Oculus\Platform\CAPI.hpp"
+#include "Oculus/Platform/CAPI.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

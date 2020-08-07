@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: System.Threading.SparselyPopulatedArrayAddInfo`1
-#include "System\Threading\SparselyPopulatedArrayAddInfo_1.hpp"
+#include "System/Threading/SparselyPopulatedArrayAddInfo_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

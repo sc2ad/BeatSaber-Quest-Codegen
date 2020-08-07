@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.FactoryArgumentsToChoiceBinder`4
-#include "Zenject\FactoryArgumentsToChoiceBinder_4.hpp"
+#include "Zenject/FactoryArgumentsToChoiceBinder_4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

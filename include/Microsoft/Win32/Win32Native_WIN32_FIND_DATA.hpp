@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Microsoft.Win32.Win32Native
-#include "Microsoft\Win32\Win32Native.hpp"
+#include "Microsoft/Win32/Win32Native.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

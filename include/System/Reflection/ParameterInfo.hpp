@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Reflection.ICustomAttributeProvider
-#include "System\Reflection\ICustomAttributeProvider.hpp"
+#include "System/Reflection/ICustomAttributeProvider.hpp"
 // Including type: System.Runtime.Serialization.IObjectReference
-#include "System\Runtime\Serialization\IObjectReference.hpp"
+#include "System/Runtime/Serialization/IObjectReference.hpp"
 // Including type: System.Runtime.InteropServices._ParameterInfo
-#include "System\Runtime\InteropServices\_ParameterInfo.hpp"
+#include "System/Runtime/InteropServices/_ParameterInfo.hpp"
 // Including type: System.Reflection.ParameterAttributes
-#include "System\Reflection\ParameterAttributes.hpp"
+#include "System/Reflection/ParameterAttributes.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

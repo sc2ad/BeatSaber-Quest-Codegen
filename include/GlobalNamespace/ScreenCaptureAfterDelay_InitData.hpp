@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: ScreenCaptureAfterDelay
-#include "GlobalNamespace\ScreenCaptureAfterDelay.hpp"
+#include "GlobalNamespace/ScreenCaptureAfterDelay.hpp"
 // Including type: ScreenCaptureCache/ScreenshotType
-#include "GlobalNamespace\ScreenCaptureCache.hpp"
+#include "GlobalNamespace/ScreenCaptureCache.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Globalization.Bootstring
-#include "System\Globalization\Bootstring.hpp"
+#include "System/Globalization/Bootstring.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {

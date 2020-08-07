@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.InteractionTrigger/Range
-#include "RootMotion\FinalIK\InteractionTrigger_Range.hpp"
+#include "RootMotion/FinalIK/InteractionTrigger_Range.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

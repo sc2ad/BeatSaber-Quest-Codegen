@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.RegularExpressions.Capture
-#include "System\Text\RegularExpressions\Capture.hpp"
+#include "System/Text/RegularExpressions/Capture.hpp"
 // Completed includes
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {

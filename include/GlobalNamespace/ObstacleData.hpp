@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapObjectData
-#include "GlobalNamespace\BeatmapObjectData.hpp"
+#include "GlobalNamespace/BeatmapObjectData.hpp"
 // Including type: ObstacleType
-#include "GlobalNamespace\ObstacleType.hpp"
+#include "GlobalNamespace/ObstacleType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

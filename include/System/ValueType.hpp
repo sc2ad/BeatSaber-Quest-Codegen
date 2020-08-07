@@ -6,7 +6,7 @@
 // Begin includes
 #include "System/Object.hpp"
 // Including type: System.Object
-#include "System\Object.hpp"
+// Already included the same include: System/Object.hpp
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

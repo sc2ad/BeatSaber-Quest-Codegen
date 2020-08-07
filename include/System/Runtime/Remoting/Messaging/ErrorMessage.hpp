@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMethodCallMessage
-#include "System\Runtime\Remoting\Messaging\IMethodCallMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

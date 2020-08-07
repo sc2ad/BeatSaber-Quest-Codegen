@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BoolSO
-#include "GlobalNamespace\BoolSO.hpp"
+#include "GlobalNamespace/BoolSO.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

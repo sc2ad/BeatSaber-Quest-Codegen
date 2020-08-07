@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.SearchResultHandler`1
-#include "System\IO\SearchResultHandler_1.hpp"
+#include "System/IO/SearchResultHandler_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Asset
-#include "TMPro\TMP_Asset.hpp"
+#include "TMPro/TMP_Asset.hpp"
 // Including type: TMPro.AtlasPopulationMode
-#include "TMPro\AtlasPopulationMode.hpp"
+#include "TMPro/AtlasPopulationMode.hpp"
 // Including type: UnityEngine.TextCore.FaceInfo
-#include "UnityEngine\TextCore\FaceInfo.hpp"
+#include "UnityEngine/TextCore/FaceInfo.hpp"
 // Including type: UnityEngine.TextCore.GlyphRect
-#include "UnityEngine\TextCore\GlyphRect.hpp"
+#include "UnityEngine/TextCore/GlyphRect.hpp"
 // Including type: UnityEngine.TextCore.LowLevel.GlyphRenderMode
-#include "UnityEngine\TextCore\LowLevel\GlyphRenderMode.hpp"
+#include "UnityEngine/TextCore/LowLevel/GlyphRenderMode.hpp"
 // Including type: TMPro.FontAssetCreationSettings
-#include "TMPro\FontAssetCreationSettings.hpp"
+#include "TMPro/FontAssetCreationSettings.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro

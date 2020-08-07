@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TextCore.Glyph
-#include "UnityEngine\TextCore\Glyph.hpp"
+#include "UnityEngine/TextCore/Glyph.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

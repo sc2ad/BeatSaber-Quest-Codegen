@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.PlayableAsset
-#include "UnityEngine\Playables\PlayableAsset.hpp"
+#include "UnityEngine/Playables/PlayableAsset.hpp"
 // Including type: UnityEngine.Timeline.IPropertyPreview
-#include "UnityEngine\Timeline\IPropertyPreview.hpp"
+#include "UnityEngine/Timeline/IPropertyPreview.hpp"
 // Including type: UnityEngine.Timeline.ITimelineClipAsset
-#include "UnityEngine\Timeline\ITimelineClipAsset.hpp"
+#include "UnityEngine/Timeline/ITimelineClipAsset.hpp"
 // Including type: UnityEngine.ExposedReference`1
-#include "UnityEngine\ExposedReference_1.hpp"
+#include "UnityEngine/ExposedReference_1.hpp"
 // Including type: UnityEngine.Timeline.ActivationControlPlayable/PostPlaybackState
-#include "UnityEngine\Timeline\ActivationControlPlayable.hpp"
+#include "UnityEngine/Timeline/ActivationControlPlayable.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Including type: UnityEngine.Playables.Playable
-#include "UnityEngine\Playables\Playable.hpp"
+#include "UnityEngine/Playables/Playable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

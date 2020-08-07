@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.FileSystemInfo
-#include "System\IO\FileSystemInfo.hpp"
+#include "System/IO/FileSystemInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

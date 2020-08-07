@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
-#include "NUnit\Framework\Internal\Commands\DelegatingTestCommand.hpp"
+#include "NUnit/Framework/Internal/Commands/DelegatingTestCommand.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
-#include "UnityEngine\TestRunner\NUnitExtensions\Runner\IEnumerableTestMethodCommand.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/IEnumerableTestMethodCommand.hpp"
 // Including type: System.Nullable`1
-#include "System\Nullable_1.hpp"
+#include "System/Nullable_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::NUnitExtensions::Runner

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.ContainerViewController
-#include "HMUI\ContainerViewController.hpp"
+#include "HMUI/ContainerViewController.hpp"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

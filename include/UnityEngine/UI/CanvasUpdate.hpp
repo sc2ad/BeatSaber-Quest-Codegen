@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

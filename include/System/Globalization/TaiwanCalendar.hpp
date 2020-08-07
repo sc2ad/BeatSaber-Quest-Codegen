@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Globalization.Calendar
-#include "System\Globalization\Calendar.hpp"
+#include "System/Globalization/Calendar.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization

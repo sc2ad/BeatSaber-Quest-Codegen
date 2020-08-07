@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.RagdollUtility
-#include "RootMotion\FinalIK\RagdollUtility.hpp"
+#include "RootMotion/FinalIK/RagdollUtility.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
-#include "UnityEngine\Quaternion.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

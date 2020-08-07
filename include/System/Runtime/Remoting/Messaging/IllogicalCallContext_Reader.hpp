@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IllogicalCallContext
-#include "System\Runtime\Remoting\Messaging\IllogicalCallContext.hpp"
+#include "System/Runtime/Remoting/Messaging/IllogicalCallContext.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {

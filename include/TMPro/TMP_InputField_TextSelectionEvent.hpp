@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Events.UnityEvent`3
-#include "UnityEngine\Events\UnityEvent_3.hpp"
+#include "UnityEngine/Events/UnityEvent_3.hpp"
 // Including type: TMPro.TMP_InputField
-#include "TMPro\TMP_InputField.hpp"
+#include "TMPro/TMP_InputField.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {

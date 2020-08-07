@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ObservableVariableSO`1
-#include "GlobalNamespace\ObservableVariableSO_1.hpp"
+#include "GlobalNamespace/ObservableVariableSO_1.hpp"
 // Including type: UnityEngine.Vector2Int
-#include "UnityEngine\Vector2Int.hpp"
+#include "UnityEngine/Vector2Int.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

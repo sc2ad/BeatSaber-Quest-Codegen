@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.PlayableBehaviour
-#include "UnityEngine\Playables\PlayableBehaviour.hpp"
+#include "UnityEngine/Playables/PlayableBehaviour.hpp"
 // Including type: System.Single
-#include "System\Single.hpp"
+#include "System/Single.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

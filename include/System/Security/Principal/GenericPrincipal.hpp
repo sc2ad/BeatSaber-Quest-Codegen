@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Claims.ClaimsPrincipal
-#include "System\Security\Claims\ClaimsPrincipal.hpp"
+#include "System/Security/Claims/ClaimsPrincipal.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Principal

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Transform
-#include "UnityEngine\Transform.hpp"
+#include "UnityEngine/Transform.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

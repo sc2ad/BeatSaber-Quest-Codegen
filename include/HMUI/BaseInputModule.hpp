@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.BaseInputModule
-#include "UnityEngine\EventSystems\BaseInputModule.hpp"
+#include "UnityEngine/EventSystems/BaseInputModule.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {

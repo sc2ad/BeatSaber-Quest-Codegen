@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Threading.ExecutionContext
-#include "System\Threading\ExecutionContext.hpp"
+#include "System/Threading/ExecutionContext.hpp"
 // Including type: System.Runtime.Remoting.Messaging.LogicalCallContext
-#include "System\Runtime\Remoting\Messaging\LogicalCallContext.hpp"
+#include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IllogicalCallContext
-#include "System\Runtime\Remoting\Messaging\IllogicalCallContext.hpp"
+#include "System/Runtime/Remoting/Messaging/IllogicalCallContext.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

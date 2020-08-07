@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IAsyncResult
-#include "System\IAsyncResult.hpp"
+#include "System/IAsyncResult.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMessageSink
-#include "System\Runtime\Remoting\Messaging\IMessageSink.hpp"
+#include "System/Runtime/Remoting/Messaging/IMessageSink.hpp"
 // Including type: System.Threading.IThreadPoolWorkItem
-#include "System\Threading\IThreadPoolWorkItem.hpp"
+#include "System/Threading/IThreadPoolWorkItem.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

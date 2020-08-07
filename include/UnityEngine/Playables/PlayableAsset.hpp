@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ScriptableObject
-#include "UnityEngine\ScriptableObject.hpp"
+#include "UnityEngine/ScriptableObject.hpp"
 // Including type: UnityEngine.Playables.IPlayableAsset
-#include "UnityEngine\Playables\IPlayableAsset.hpp"
+#include "UnityEngine/Playables/IPlayableAsset.hpp"
 // Including type: UnityEngine.Playables.PlayableBinding
-#include "UnityEngine\Playables\PlayableBinding.hpp"
+#include "UnityEngine/Playables/PlayableBinding.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

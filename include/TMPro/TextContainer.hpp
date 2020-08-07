@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.UIBehaviour
-#include "UnityEngine\EventSystems\UIBehaviour.hpp"
+#include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: TMPro.TextContainerAnchors
-#include "TMPro\TextContainerAnchors.hpp"
+#include "TMPro/TextContainerAnchors.hpp"
 // Including type: UnityEngine.Rect
-#include "UnityEngine\Rect.hpp"
+#include "UnityEngine/Rect.hpp"
 // Including type: UnityEngine.Vector4
-#include "UnityEngine\Vector4.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

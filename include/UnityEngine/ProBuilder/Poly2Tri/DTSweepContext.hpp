@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
-#include "UnityEngine\ProBuilder\Poly2Tri\TriangulationContext.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationContext.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::Poly2Tri

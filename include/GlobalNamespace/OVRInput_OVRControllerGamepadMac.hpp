@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRInput/OVRControllerBase
-#include "GlobalNamespace\OVRInput_OVRControllerBase.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: System.IO.FileSystemWatcher
-#include "System\IO\FileSystemWatcher.hpp"
+#include "System/IO/FileSystemWatcher.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {

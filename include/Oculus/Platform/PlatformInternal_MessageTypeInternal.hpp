@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: Oculus.Platform.PlatformInternal
-#include "Oculus\Platform\PlatformInternal.hpp"
+#include "Oculus/Platform/PlatformInternal.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: IAudioClipAsyncLoader
-#include "GlobalNamespace\IAudioClipAsyncLoader.hpp"
+#include "GlobalNamespace/IAudioClipAsyncLoader.hpp"
 // Including type: IImageAsyncLoader
-#include "GlobalNamespace\IImageAsyncLoader.hpp"
+#include "GlobalNamespace/IImageAsyncLoader.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Threading.CancellationToken
-#include "System\Threading\CancellationToken.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Including type: System.Threading.Tasks.TaskCreationOptions
-#include "System\Threading\Tasks\TaskCreationOptions.hpp"
+#include "System/Threading/Tasks/TaskCreationOptions.hpp"
 // Including type: System.Threading.Tasks.TaskContinuationOptions
-#include "System\Threading\Tasks\TaskContinuationOptions.hpp"
+#include "System/Threading/Tasks/TaskContinuationOptions.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

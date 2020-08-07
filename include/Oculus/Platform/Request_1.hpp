@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Request
-#include "Oculus\Platform\Request.hpp"
+#include "Oculus/Platform/Request.hpp"
 // Including type: Oculus.Platform.Message`1
-#include "Oculus\Platform\Message_1.hpp"
+#include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

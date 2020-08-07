@@ -5,13 +5,13 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin
-#include "GlobalNamespace\OVRPlugin.hpp"
+#include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: OVRPlugin/Vector2i
-#include "GlobalNamespace\OVRPlugin_Vector2i.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector2i.hpp"
 // Including type: OVRPlugin/Sizei
-#include "GlobalNamespace\OVRPlugin_Sizei.hpp"
+#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -6,9 +6,9 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Valve.VR.VRControllerAxis_t
-#include "Valve\VR\VRControllerAxis_t.hpp"
+#include "Valve/VR/VRControllerAxis_t.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR

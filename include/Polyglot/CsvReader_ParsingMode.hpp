@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: Polyglot.CsvReader
-#include "Polyglot\CsvReader.hpp"
+#include "Polyglot/CsvReader.hpp"
 // Completed includes
 // Type namespace: Polyglot
 namespace Polyglot {

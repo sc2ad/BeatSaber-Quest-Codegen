@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Motion
-#include "UnityEngine\Motion.hpp"
+#include "UnityEngine/Motion.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

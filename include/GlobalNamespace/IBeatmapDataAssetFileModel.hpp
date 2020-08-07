@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LevelDataAssetDownloadUpdate
-#include "GlobalNamespace\LevelDataAssetDownloadUpdate.hpp"
+#include "GlobalNamespace/LevelDataAssetDownloadUpdate.hpp"
 // Including type: GetAssetBundleFileResult
-#include "GlobalNamespace\GetAssetBundleFileResult.hpp"
+#include "GlobalNamespace/GetAssetBundleFileResult.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

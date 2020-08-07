@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LightWithId
-#include "GlobalNamespace\LightWithId.hpp"
+#include "GlobalNamespace/LightWithId.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

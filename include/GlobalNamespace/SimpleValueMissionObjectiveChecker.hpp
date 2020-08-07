@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MissionObjectiveChecker
-#include "GlobalNamespace\MissionObjectiveChecker.hpp"
+#include "GlobalNamespace/MissionObjectiveChecker.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::CompilerServices

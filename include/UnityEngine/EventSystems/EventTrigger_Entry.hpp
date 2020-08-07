@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.EventTrigger
-#include "UnityEngine\EventSystems\EventTrigger.hpp"
+#include "UnityEngine/EventSystems/EventTrigger.hpp"
 // Including type: UnityEngine.EventSystems.EventTriggerType
-#include "UnityEngine\EventSystems\EventTriggerType.hpp"
+#include "UnityEngine/EventSystems/EventTriggerType.hpp"
 // Completed includes
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {

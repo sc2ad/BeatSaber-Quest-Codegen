@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.DecoderNLS
-#include "System\Text\DecoderNLS.hpp"
+#include "System/Text/DecoderNLS.hpp"
 // Including type: System.Text.UTF7Encoding
-#include "System\Text\UTF7Encoding.hpp"
+#include "System/Text/UTF7Encoding.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization

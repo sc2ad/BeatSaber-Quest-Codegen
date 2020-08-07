@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.UIBehaviour
-#include "UnityEngine\EventSystems\UIBehaviour.hpp"
+#include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.EventSystems.IPointerClickHandler
-#include "UnityEngine\EventSystems\IPointerClickHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerClickHandler.hpp"
 // Including type: UnityEngine.EventSystems.ISubmitHandler
-#include "UnityEngine\EventSystems\ISubmitHandler.hpp"
+#include "UnityEngine/EventSystems/ISubmitHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerEnterHandler
-#include "UnityEngine\EventSystems\IPointerEnterHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerEnterHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerExitHandler
-#include "UnityEngine\EventSystems\IPointerExitHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerExitHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI

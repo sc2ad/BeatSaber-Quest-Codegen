@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: TMPro.TextAlignmentOptions
-#include "TMPro\TextAlignmentOptions.hpp"
+#include "TMPro/TextAlignmentOptions.hpp"
 // Including type: TMPro.Extents
-#include "TMPro\Extents.hpp"
+#include "TMPro/Extents.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {

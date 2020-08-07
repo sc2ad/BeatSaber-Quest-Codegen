@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.ParticleSystem
-#include "UnityEngine\ParticleSystem.hpp"
+#include "UnityEngine/ParticleSystem.hpp"
 // Including type: UnityEngine.ParticleSystem/ForceOverLifetimeModule
-#include "UnityEngine\ParticleSystem_ForceOverLifetimeModule.hpp"
+#include "UnityEngine/ParticleSystem_ForceOverLifetimeModule.hpp"
 // Including type: UnityEngine.ParticleSystem/EmitParams
-#include "UnityEngine\ParticleSystem_EmitParams.hpp"
+#include "UnityEngine/ParticleSystem_EmitParams.hpp"
 // Including type: UnityEngine.ParticleSystem/MinMaxCurve
-#include "UnityEngine\ParticleSystem_MinMaxCurve.hpp"
+#include "UnityEngine/ParticleSystem_MinMaxCurve.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

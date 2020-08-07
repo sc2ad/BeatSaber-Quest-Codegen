@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.PrefabResourceBindingFinalizer
-#include "Zenject\PrefabResourceBindingFinalizer.hpp"
+#include "Zenject/PrefabResourceBindingFinalizer.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject

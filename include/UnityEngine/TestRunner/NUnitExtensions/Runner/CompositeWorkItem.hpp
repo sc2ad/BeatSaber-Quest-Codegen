@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
-#include "UnityEngine\TestRunner\NUnitExtensions\Runner\UnityWorkItem.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/UnityWorkItem.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::NUnitExtensions::Runner

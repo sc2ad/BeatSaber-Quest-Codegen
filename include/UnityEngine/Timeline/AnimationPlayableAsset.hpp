@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.PlayableAsset
-#include "UnityEngine\Playables\PlayableAsset.hpp"
+#include "UnityEngine/Playables/PlayableAsset.hpp"
 // Including type: UnityEngine.Timeline.ITimelineClipAsset
-#include "UnityEngine\Timeline\ITimelineClipAsset.hpp"
+#include "UnityEngine/Timeline/ITimelineClipAsset.hpp"
 // Including type: UnityEngine.Timeline.IPropertyPreview
-#include "UnityEngine\Timeline\IPropertyPreview.hpp"
+#include "UnityEngine/Timeline/IPropertyPreview.hpp"
 // Including type: UnityEngine.ISerializationCallbackReceiver
-#include "UnityEngine\ISerializationCallbackReceiver.hpp"
+#include "UnityEngine/ISerializationCallbackReceiver.hpp"
 // Including type: UnityEngine.Timeline.MatchTargetFields
-#include "UnityEngine\Timeline\MatchTargetFields.hpp"
+#include "UnityEngine/Timeline/MatchTargetFields.hpp"
 // Including type: UnityEngine.Timeline.AppliedOffsetMode
-#include "UnityEngine\Timeline\AppliedOffsetMode.hpp"
+#include "UnityEngine/Timeline/AppliedOffsetMode.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline

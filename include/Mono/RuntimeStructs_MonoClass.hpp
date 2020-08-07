@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
-#include "Mono\RuntimeStructs.hpp"
+#include "Mono/RuntimeStructs.hpp"
 // Completed includes
 // Type namespace: Mono
 namespace Mono {

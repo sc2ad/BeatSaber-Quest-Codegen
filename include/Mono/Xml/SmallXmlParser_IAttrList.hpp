@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.Xml.SmallXmlParser
-#include "Mono\Xml\SmallXmlParser.hpp"
+#include "Mono/Xml/SmallXmlParser.hpp"
 // Completed includes
 // Type namespace: Mono.Xml
 namespace Mono::Xml {

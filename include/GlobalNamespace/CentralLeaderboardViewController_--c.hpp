@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: CentralLeaderboardViewController
-#include "GlobalNamespace\CentralLeaderboardViewController.hpp"
+#include "GlobalNamespace/CentralLeaderboardViewController.hpp"
 // Including type: HMUI.IconSegmentedControl
-#include "HMUI\IconSegmentedControl.hpp"
+#include "HMUI/IconSegmentedControl.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

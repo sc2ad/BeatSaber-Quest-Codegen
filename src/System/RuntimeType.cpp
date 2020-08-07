@@ -4,83 +4,83 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.RuntimeType
-#include "System\RuntimeType.hpp"
+#include "System/RuntimeType.hpp"
 // Including type: System.RuntimeType/MemberListType
-#include "System\RuntimeType_MemberListType.hpp"
+#include "System/RuntimeType_MemberListType.hpp"
 // Including type: System.RuntimeType/ListBuilder`1
-#include "System\RuntimeType_ListBuilder_1.hpp"
+#include "System/RuntimeType_ListBuilder_1.hpp"
 // Including type: System.MonoTypeInfo
-#include "System\MonoTypeInfo.hpp"
+#include "System/MonoTypeInfo.hpp"
 // Including type: System.Reflection.RuntimeConstructorInfo
-#include "System\Reflection\RuntimeConstructorInfo.hpp"
+#include "System/Reflection/RuntimeConstructorInfo.hpp"
 // Including type: System.Type
-#include "System\Type.hpp"
+#include "System/Type.hpp"
 // Including type: System.Reflection.MemberInfo
-#include "System\Reflection\MemberInfo.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Including type: System.Reflection.RuntimeMethodInfo
-#include "System\Reflection\RuntimeMethodInfo.hpp"
+#include "System/Reflection/RuntimeMethodInfo.hpp"
 // Including type: System.Reflection.CallingConventions
-#include "System\Reflection\CallingConventions.hpp"
+#include "System/Reflection/CallingConventions.hpp"
 // Including type: System.Reflection.MethodBase
-#include "System\Reflection\MethodBase.hpp"
+#include "System/Reflection/MethodBase.hpp"
 // Including type: System.Reflection.MethodInfo
-#include "System\Reflection\MethodInfo.hpp"
+#include "System/Reflection/MethodInfo.hpp"
 // Including type: System.Reflection.ConstructorInfo
-#include "System\Reflection\ConstructorInfo.hpp"
+#include "System/Reflection/ConstructorInfo.hpp"
 // Including type: System.Reflection.PropertyInfo
-#include "System\Reflection\PropertyInfo.hpp"
+#include "System/Reflection/PropertyInfo.hpp"
 // Including type: System.Reflection.EventInfo
-#include "System\Reflection\EventInfo.hpp"
+#include "System/Reflection/EventInfo.hpp"
 // Including type: System.Reflection.FieldInfo
-#include "System\Reflection\FieldInfo.hpp"
+#include "System/Reflection/FieldInfo.hpp"
 // Including type: System.Reflection.RuntimeModule
-#include "System\Reflection\RuntimeModule.hpp"
+#include "System/Reflection/RuntimeModule.hpp"
 // Including type: System.Reflection.RuntimeAssembly
-#include "System\Reflection\RuntimeAssembly.hpp"
+#include "System/Reflection/RuntimeAssembly.hpp"
 // Including type: System.Reflection.Binder
-#include "System\Reflection\Binder.hpp"
+#include "System/Reflection/Binder.hpp"
 // Including type: System.Globalization.CultureInfo
-#include "System\Globalization\CultureInfo.hpp"
+#include "System/Globalization/CultureInfo.hpp"
 // Including type: System.Threading.StackCrawlMark
-#include "System\Threading\StackCrawlMark.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
 // Including type: System.Reflection.MonoCMethod
-#include "System\Reflection\MonoCMethod.hpp"
+#include "System/Reflection/MonoCMethod.hpp"
 // Including type: System.TypeNameKind
-#include "System\TypeNameKind.hpp"
+#include "System/TypeNameKind.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: System.Reflection.RuntimePropertyInfo
-#include "System\Reflection\RuntimePropertyInfo.hpp"
+#include "System/Reflection/RuntimePropertyInfo.hpp"
 // Including type: System.TypeCode
-#include "System\TypeCode.hpp"
+#include "System/TypeCode.hpp"
 // Including type: System.Reflection.GenericParameterAttributes
-#include "System\Reflection\GenericParameterAttributes.hpp"
+#include "System/Reflection/GenericParameterAttributes.hpp"
 // Including type: System.Reflection.RuntimeFieldInfo
-#include "System\Reflection\RuntimeFieldInfo.hpp"
+#include "System/Reflection/RuntimeFieldInfo.hpp"
 // Including type: System.Reflection.RuntimeEventInfo
-#include "System\Reflection\RuntimeEventInfo.hpp"
+#include "System/Reflection/RuntimeEventInfo.hpp"
 // Including type: System.Reflection.ParameterModifier
-#include "System\Reflection\ParameterModifier.hpp"
+#include "System/Reflection/ParameterModifier.hpp"
 // Including type: System.Reflection.MemberTypes
-#include "System\Reflection\MemberTypes.hpp"
+#include "System/Reflection/MemberTypes.hpp"
 // Including type: System.Reflection.Module
-#include "System\Reflection\Module.hpp"
+#include "System/Reflection/Module.hpp"
 // Including type: System.Reflection.Assembly
-#include "System\Reflection\Assembly.hpp"
+#include "System/Reflection/Assembly.hpp"
 // Including type: System.RuntimeTypeHandle
-#include "System\RuntimeTypeHandle.hpp"
+#include "System/RuntimeTypeHandle.hpp"
 // Including type: System.Reflection.TypeAttributes
-#include "System\Reflection\TypeAttributes.hpp"
+#include "System/Reflection/TypeAttributes.hpp"
 // Including type: System.Array
-#include "System\Array.hpp"
+#include "System/Array.hpp"
 // Including type: System.Runtime.Serialization.SerializationInfo
-#include "System\Runtime\Serialization\SerializationInfo.hpp"
+#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Including type: System.Runtime.Serialization.StreamingContext
-#include "System\Runtime\Serialization\StreamingContext.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Including type: System.Collections.Generic.IList`1
-#include "System\Collections\Generic\IList_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Including type: System.Reflection.CustomAttributeData
-#include "System\Reflection\CustomAttributeData.hpp"
+#include "System/Reflection/CustomAttributeData.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated static field getter

@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior
-#include "UnityEngine\ProBuilder\KdTree\AddDuplicateBehavior.hpp"
+#include "UnityEngine/ProBuilder/KdTree/AddDuplicateBehavior.hpp"
 // Including type: UnityEngine.ProBuilder.KdTree.HyperRect`1
-#include "UnityEngine\ProBuilder\KdTree\HyperRect_1.hpp"
+#include "UnityEngine/ProBuilder/KdTree/HyperRect_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

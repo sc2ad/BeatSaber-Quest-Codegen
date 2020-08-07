@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.HtmlUtf8RawTextWriter
-#include "System\Xml\HtmlUtf8RawTextWriter.hpp"
+#include "System/Xml/HtmlUtf8RawTextWriter.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

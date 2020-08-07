@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.HitReaction/HitPointEffector
-#include "RootMotion\FinalIK\HitReaction_HitPointEffector.hpp"
+#include "RootMotion/FinalIK/HitReaction_HitPointEffector.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
-#include "RootMotion\FinalIK\FullBodyBipedEffector.hpp"
+#include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

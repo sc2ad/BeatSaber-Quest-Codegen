@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.Timeline.TrackAsset
-#include "UnityEngine\Timeline\TrackAsset.hpp"
+#include "UnityEngine/Timeline/TrackAsset.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {

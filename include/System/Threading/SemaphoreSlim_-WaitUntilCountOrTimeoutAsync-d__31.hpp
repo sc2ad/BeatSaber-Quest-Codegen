@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Threading.SemaphoreSlim
-#include "System\Threading\SemaphoreSlim.hpp"
+#include "System/Threading/SemaphoreSlim.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder_1.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: System.Threading.CancellationToken
-#include "System\Threading\CancellationToken.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter
-#include "System\Runtime\CompilerServices\ConfiguredTaskAwaitable_1.hpp"
+#include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

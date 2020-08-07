@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Including type: Valve.VR.EVREventType
-#include "Valve\VR\EVREventType.hpp"
+#include "Valve/VR/EVREventType.hpp"
 // Including type: Valve.VR.VREvent_t
-#include "Valve\VR\VREvent_t.hpp"
+#include "Valve/VR/VREvent_t.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

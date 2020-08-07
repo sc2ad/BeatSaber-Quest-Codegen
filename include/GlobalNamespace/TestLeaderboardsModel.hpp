@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OnlineServices.ILeaderboardsModel
-#include "OnlineServices\ILeaderboardsModel.hpp"
+#include "OnlineServices/ILeaderboardsModel.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

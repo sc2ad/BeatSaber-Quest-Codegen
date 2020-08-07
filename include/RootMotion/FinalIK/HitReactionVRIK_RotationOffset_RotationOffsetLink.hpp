@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.HitReactionVRIK/RotationOffset
-#include "RootMotion\FinalIK\HitReactionVRIK_RotationOffset.hpp"
+#include "RootMotion/FinalIK/HitReactionVRIK_RotationOffset.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR/RotationOffset
-#include "RootMotion\FinalIK\IKSolverVR_RotationOffset.hpp"
+#include "RootMotion/FinalIK/IKSolverVR_RotationOffset.hpp"
 // Including type: UnityEngine.Quaternion
-#include "UnityEngine\Quaternion.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

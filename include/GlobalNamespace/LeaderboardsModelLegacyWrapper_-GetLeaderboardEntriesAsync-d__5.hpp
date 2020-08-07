@@ -6,21 +6,21 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: LeaderboardsModelLegacyWrapper
-#include "GlobalNamespace\LeaderboardsModelLegacyWrapper.hpp"
+#include "GlobalNamespace/LeaderboardsModelLegacyWrapper.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
-#include "System\Runtime\CompilerServices\AsyncVoidMethodBuilder.hpp"
+#include "System/Runtime/CompilerServices/AsyncVoidMethodBuilder.hpp"
 // Including type: OnlineServices.GetLeaderboardFilterData
-#include "OnlineServices\GetLeaderboardFilterData.hpp"
+#include "OnlineServices/GetLeaderboardFilterData.hpp"
 // Including type: PlatformLeaderboardsModel
-#include "GlobalNamespace\PlatformLeaderboardsModel.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: OnlineServices.GetLeaderboardEntriesResult
-#include "OnlineServices\GetLeaderboardEntriesResult.hpp"
+#include "OnlineServices/GetLeaderboardEntriesResult.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

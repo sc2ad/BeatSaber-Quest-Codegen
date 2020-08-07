@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Filters.ValueMatchFilter
-#include "NUnit\Framework\Internal\Filters\ValueMatchFilter.hpp"
+#include "NUnit/Framework/Internal/Filters/ValueMatchFilter.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces

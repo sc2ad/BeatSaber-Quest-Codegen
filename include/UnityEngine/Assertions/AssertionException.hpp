@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Exception
-#include "System\Exception.hpp"
+#include "System/Exception.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Assertions
 namespace UnityEngine::Assertions {

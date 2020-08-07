@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MulticastDelegate
-#include "System\MulticastDelegate.hpp"
+#include "System/MulticastDelegate.hpp"
 // Including type: RootMotion.FinalIK.InteractionSystem
-#include "RootMotion\FinalIK\InteractionSystem.hpp"
+#include "RootMotion/FinalIK/InteractionSystem.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject
-#include "RootMotion\FinalIK\InteractionObject.hpp"
+#include "RootMotion/FinalIK/InteractionObject.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

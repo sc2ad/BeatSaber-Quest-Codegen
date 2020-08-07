@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Claims.ClaimsIdentity
-#include "System\Security\Claims\ClaimsIdentity.hpp"
+#include "System/Security/Claims/ClaimsIdentity.hpp"
 // Including type: System.Runtime.Serialization.IDeserializationCallback
-#include "System\Runtime\Serialization\IDeserializationCallback.hpp"
+#include "System/Runtime/Serialization/IDeserializationCallback.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: System.Security.Principal.WindowsAccountType
-#include "System\Security\Principal\WindowsAccountType.hpp"
+#include "System/Security/Principal/WindowsAccountType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization

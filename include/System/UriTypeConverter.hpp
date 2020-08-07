@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.TypeConverter
-#include "System\ComponentModel\TypeConverter.hpp"
+#include "System/ComponentModel/TypeConverter.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

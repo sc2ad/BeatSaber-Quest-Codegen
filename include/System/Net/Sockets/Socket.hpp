@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: System.Net.Sockets.AddressFamily
-#include "System\Net\Sockets\AddressFamily.hpp"
+#include "System/Net/Sockets/AddressFamily.hpp"
 // Including type: System.Net.Sockets.SocketType
-#include "System\Net\Sockets\SocketType.hpp"
+#include "System/Net/Sockets/SocketType.hpp"
 // Including type: System.Net.Sockets.ProtocolType
-#include "System\Net\Sockets\ProtocolType.hpp"
+#include "System/Net/Sockets/ProtocolType.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Including type: System.ArraySegment`1
-#include "System\ArraySegment_1.hpp"
+#include "System/ArraySegment_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Sockets

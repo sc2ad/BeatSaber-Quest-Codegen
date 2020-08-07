@@ -5,15 +5,15 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.IComparer
-#include "System\Collections\IComparer.hpp"
+#include "System/Collections/IComparer.hpp"
 // Including type: System.Collections.IEqualityComparer
-#include "System\Collections\IEqualityComparer.hpp"
+#include "System/Collections/IEqualityComparer.hpp"
 // Including type: System.Collections.Generic.IComparer`1
-#include "System\Collections\Generic\IComparer_1.hpp"
+#include "System/Collections/Generic/IComparer_1.hpp"
 // Including type: System.Collections.Generic.IEqualityComparer`1
-#include "System\Collections\Generic\IEqualityComparer_1.hpp"
+#include "System/Collections/Generic/IEqualityComparer_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

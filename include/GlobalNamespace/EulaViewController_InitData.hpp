@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: EulaViewController
-#include "GlobalNamespace\EulaViewController.hpp"
+#include "GlobalNamespace/EulaViewController.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

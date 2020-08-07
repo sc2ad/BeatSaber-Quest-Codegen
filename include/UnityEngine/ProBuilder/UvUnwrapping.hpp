@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.AutoUnwrapSettings
-#include "UnityEngine\ProBuilder\AutoUnwrapSettings.hpp"
+#include "UnityEngine/ProBuilder/AutoUnwrapSettings.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

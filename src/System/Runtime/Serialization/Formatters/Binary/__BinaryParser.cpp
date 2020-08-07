@@ -4,55 +4,55 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Serialization.Formatters.Binary.__BinaryParser
-#include "System\Runtime\Serialization\Formatters\Binary\__BinaryParser.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/__BinaryParser.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ObjectReader
-#include "System\Runtime\Serialization\Formatters\Binary\ObjectReader.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ObjectReader.hpp"
 // Including type: System.IO.Stream
-#include "System\IO\Stream.hpp"
+#include "System/IO/Stream.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.SizedArray
-#include "System\Runtime\Serialization\Formatters\Binary\SizedArray.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/SizedArray.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.SerStack
-#include "System\Runtime\Serialization\Formatters\Binary\SerStack.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/SerStack.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ParseRecord
-#include "System\Runtime\Serialization\Formatters\Binary\ParseRecord.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ParseRecord.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryAssemblyInfo.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryAssemblyInfo.hpp"
 // Including type: System.IO.BinaryReader
-#include "System\IO\BinaryReader.hpp"
+#include "System/IO/BinaryReader.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryObject
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryObject.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryObject.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryObjectWithMap.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryObjectWithMap.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryObjectWithMapTyped.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryObjectWithMapTyped.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryObjectString
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryObjectString.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryObjectString.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainString
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryCrossAppDomainString.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryCrossAppDomainString.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped
-#include "System\Runtime\Serialization\Formatters\Binary\MemberPrimitiveTyped.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/MemberPrimitiveTyped.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped
-#include "System\Runtime\Serialization\Formatters\Binary\MemberPrimitiveUnTyped.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/MemberPrimitiveUnTyped.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.MemberReference
-#include "System\Runtime\Serialization\Formatters\Binary\MemberReference.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/MemberReference.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ObjectNull
-#include "System\Runtime\Serialization\Formatters\Binary\ObjectNull.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ObjectNull.hpp"
 // Including type: System.Text.Encoding
-#include "System\Text\Encoding.hpp"
+#include "System/Text/Encoding.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.MessageEnd
-#include "System\Runtime\Serialization\Formatters\Binary\MessageEnd.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/MessageEnd.hpp"
 // Including type: System.Decimal
-#include "System\Decimal.hpp"
+#include "System/Decimal.hpp"
 // Including type: System.TimeSpan
-#include "System\TimeSpan.hpp"
+#include "System/TimeSpan.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryHeaderEnum.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryHeaderEnum.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalPrimitiveTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ObjectProgress
-#include "System\Runtime\Serialization\Formatters\Binary\ObjectProgress.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/ObjectProgress.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated static field getter

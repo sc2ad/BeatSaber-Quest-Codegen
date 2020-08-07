@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
-#include "System\Runtime\InteropServices\GCHandle.hpp"
+#include "System/Runtime/InteropServices/GCHandle.hpp"
 // Including type: System.Runtime.Serialization.StreamingContext
-#include "System\Runtime\Serialization\StreamingContext.hpp"
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

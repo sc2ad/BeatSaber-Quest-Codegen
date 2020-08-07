@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
-#include "UnityEngine\SceneManagement\Scene.hpp"
+#include "UnityEngine/SceneManagement/Scene.hpp"
 // Including type: UnityEngine.SceneManagement.LoadSceneMode
-#include "UnityEngine\SceneManagement\LoadSceneMode.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events

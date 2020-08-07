@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Scripting.PreserveAttribute
-#include "UnityEngine\Scripting\PreserveAttribute.hpp"
+#include "UnityEngine/Scripting/PreserveAttribute.hpp"
 // Including type: UnityEngine.RuntimeInitializeLoadType
-#include "UnityEngine\RuntimeInitializeLoadType.hpp"
+#include "UnityEngine/RuntimeInitializeLoadType.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

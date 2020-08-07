@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine\Events\UnityEvent_1.hpp"
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Including type: UnityEngine.EventSystems.EventTrigger
-#include "UnityEngine\EventSystems\EventTrigger.hpp"
+#include "UnityEngine/EventSystems/EventTrigger.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems

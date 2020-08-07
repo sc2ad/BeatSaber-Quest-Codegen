@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: HMUI.GradientImage
-#include "HMUI\GradientImage.hpp"
+#include "HMUI/GradientImage.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.HmdVector3_t
-#include "OVR\OpenVR\HmdVector3_t.hpp"
+#include "OVR/OpenVR/HmdVector3_t.hpp"
 // Including type: OVR.OpenVR.ETrackingUniverseOrigin
-#include "OVR\OpenVR\ETrackingUniverseOrigin.hpp"
+#include "OVR/OpenVR/ETrackingUniverseOrigin.hpp"
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

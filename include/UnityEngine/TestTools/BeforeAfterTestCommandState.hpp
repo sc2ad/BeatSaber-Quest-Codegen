@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ScriptableObject
-#include "UnityEngine\ScriptableObject.hpp"
+#include "UnityEngine/ScriptableObject.hpp"
 // Including type: NUnit.Framework.Interfaces.TestStatus
-#include "NUnit\Framework\Interfaces\TestStatus.hpp"
+#include "NUnit/Framework/Interfaces/TestStatus.hpp"
 // Including type: NUnit.Framework.Interfaces.FailureSite
-#include "NUnit\Framework\Interfaces\FailureSite.hpp"
+#include "NUnit/Framework/Interfaces/FailureSite.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal

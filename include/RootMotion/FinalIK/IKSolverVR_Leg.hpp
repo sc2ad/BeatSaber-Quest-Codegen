@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IKSolverVR/BodyPart
-#include "RootMotion\FinalIK\IKSolverVR_BodyPart.hpp"
+#include "RootMotion/FinalIK/IKSolverVR_BodyPart.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Collections.IEnumerator
-#include "System\Collections\IEnumerator.hpp"
+#include "System/Collections/IEnumerator.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections

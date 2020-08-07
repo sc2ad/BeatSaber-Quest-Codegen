@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.LayerMask
-#include "UnityEngine\LayerMask.hpp"
+#include "UnityEngine/LayerMask.hpp"
 // Including type: UnityEngine.RaycastHit
-#include "UnityEngine\RaycastHit.hpp"
+#include "UnityEngine/RaycastHit.hpp"
 // Including type: RootMotion.FinalIK.InteractionTrigger
-#include "RootMotion\FinalIK\InteractionTrigger.hpp"
+#include "RootMotion/FinalIK/InteractionTrigger.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.NonLazyBinder
-#include "Zenject\NonLazyBinder.hpp"
+#include "Zenject/NonLazyBinder.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

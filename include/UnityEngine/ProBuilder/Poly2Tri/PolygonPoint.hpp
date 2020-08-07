@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
-#include "UnityEngine\ProBuilder\Poly2Tri\TriangulationPoint.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {

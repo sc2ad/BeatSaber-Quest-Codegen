@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

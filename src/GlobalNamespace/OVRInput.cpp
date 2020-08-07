@@ -4,79 +4,79 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRInput
-#include "GlobalNamespace\OVRInput.hpp"
+#include "GlobalNamespace/OVRInput.hpp"
 // Including type: OVRInput/Button
-#include "GlobalNamespace\OVRInput_Button.hpp"
+#include "GlobalNamespace/OVRInput_Button.hpp"
 // Including type: OVRInput/RawButton
-#include "GlobalNamespace\OVRInput_RawButton.hpp"
+#include "GlobalNamespace/OVRInput_RawButton.hpp"
 // Including type: OVRInput/Touch
-#include "GlobalNamespace\OVRInput_Touch.hpp"
+#include "GlobalNamespace/OVRInput_Touch.hpp"
 // Including type: OVRInput/RawTouch
-#include "GlobalNamespace\OVRInput_RawTouch.hpp"
+#include "GlobalNamespace/OVRInput_RawTouch.hpp"
 // Including type: OVRInput/NearTouch
-#include "GlobalNamespace\OVRInput_NearTouch.hpp"
+#include "GlobalNamespace/OVRInput_NearTouch.hpp"
 // Including type: OVRInput/RawNearTouch
-#include "GlobalNamespace\OVRInput_RawNearTouch.hpp"
+#include "GlobalNamespace/OVRInput_RawNearTouch.hpp"
 // Including type: OVRInput/Axis1D
-#include "GlobalNamespace\OVRInput_Axis1D.hpp"
+#include "GlobalNamespace/OVRInput_Axis1D.hpp"
 // Including type: OVRInput/RawAxis1D
-#include "GlobalNamespace\OVRInput_RawAxis1D.hpp"
+#include "GlobalNamespace/OVRInput_RawAxis1D.hpp"
 // Including type: OVRInput/Axis2D
-#include "GlobalNamespace\OVRInput_Axis2D.hpp"
+#include "GlobalNamespace/OVRInput_Axis2D.hpp"
 // Including type: OVRInput/RawAxis2D
-#include "GlobalNamespace\OVRInput_RawAxis2D.hpp"
+#include "GlobalNamespace/OVRInput_RawAxis2D.hpp"
 // Including type: OVRInput/OpenVRButton
-#include "GlobalNamespace\OVRInput_OpenVRButton.hpp"
+#include "GlobalNamespace/OVRInput_OpenVRButton.hpp"
 // Including type: System.Version
-#include "System\Version.hpp"
+#include "System/Version.hpp"
 // Including type: OVRInput/Handedness
-#include "GlobalNamespace\OVRInput_Handedness.hpp"
+#include "GlobalNamespace/OVRInput_Handedness.hpp"
 // Including type: OVRInput/OpenVRController
-#include "GlobalNamespace\OVRInput_OpenVRController.hpp"
+#include "GlobalNamespace/OVRInput_OpenVRController.hpp"
 // Including type: OVRInput/OpenVRControllerDetails
-#include "GlobalNamespace\OVRInput_OpenVRControllerDetails.hpp"
+#include "GlobalNamespace/OVRInput_OpenVRControllerDetails.hpp"
 // Including type: OVRInput/HapticInfo
-#include "GlobalNamespace\OVRInput_HapticInfo.hpp"
+#include "GlobalNamespace/OVRInput_HapticInfo.hpp"
 // Including type: OVRInput/OVRControllerBase
-#include "GlobalNamespace\OVRInput_OVRControllerBase.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Including type: OVRInput/OVRControllerTouch
-#include "GlobalNamespace\OVRInput_OVRControllerTouch.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerTouch.hpp"
 // Including type: OVRInput/OVRControllerLTouch
-#include "GlobalNamespace\OVRInput_OVRControllerLTouch.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerLTouch.hpp"
 // Including type: OVRInput/OVRControllerRTouch
-#include "GlobalNamespace\OVRInput_OVRControllerRTouch.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerRTouch.hpp"
 // Including type: OVRInput/OVRControllerHands
-#include "GlobalNamespace\OVRInput_OVRControllerHands.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerHands.hpp"
 // Including type: OVRInput/OVRControllerLHand
-#include "GlobalNamespace\OVRInput_OVRControllerLHand.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerLHand.hpp"
 // Including type: OVRInput/OVRControllerRHand
-#include "GlobalNamespace\OVRInput_OVRControllerRHand.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerRHand.hpp"
 // Including type: OVRInput/OVRControllerRemote
-#include "GlobalNamespace\OVRInput_OVRControllerRemote.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerRemote.hpp"
 // Including type: OVRInput/OVRControllerGamepadPC
-#include "GlobalNamespace\OVRInput_OVRControllerGamepadPC.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerGamepadPC.hpp"
 // Including type: OVRInput/OVRControllerGamepadMac
-#include "GlobalNamespace\OVRInput_OVRControllerGamepadMac.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerGamepadMac.hpp"
 // Including type: OVRInput/OVRControllerGamepadAndroid
-#include "GlobalNamespace\OVRInput_OVRControllerGamepadAndroid.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerGamepadAndroid.hpp"
 // Including type: OVRInput/OVRControllerTouchpad
-#include "GlobalNamespace\OVRInput_OVRControllerTouchpad.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerTouchpad.hpp"
 // Including type: OVRInput/OVRControllerLTrackedRemote
-#include "GlobalNamespace\OVRInput_OVRControllerLTrackedRemote.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerLTrackedRemote.hpp"
 // Including type: OVRInput/OVRControllerRTrackedRemote
-#include "GlobalNamespace\OVRInput_OVRControllerRTrackedRemote.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerRTrackedRemote.hpp"
 // Including type: System.Collections.Generic.List`1
-#include "System\Collections\Generic\List_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
-#include "UnityEngine\Quaternion.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.XR.XRNode
-#include "UnityEngine\XR\XRNode.hpp"
+#include "UnityEngine/XR/XRNode.hpp"
 // Including type: OVR.OpenVR.ETrackedDeviceProperty
-#include "OVR\OpenVR\ETrackedDeviceProperty.hpp"
+#include "OVR/OpenVR/ETrackedDeviceProperty.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated static field getter

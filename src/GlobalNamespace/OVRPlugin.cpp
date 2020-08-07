@@ -4,239 +4,239 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
-#include "GlobalNamespace\OVRPlugin.hpp"
+#include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: OVRPlugin/GUID
-#include "GlobalNamespace\OVRPlugin_GUID.hpp"
+#include "GlobalNamespace/OVRPlugin_GUID.hpp"
 // Including type: OVRPlugin/Bool
-#include "GlobalNamespace\OVRPlugin_Bool.hpp"
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
 // Including type: OVRPlugin/Result
-#include "GlobalNamespace\OVRPlugin_Result.hpp"
+#include "GlobalNamespace/OVRPlugin_Result.hpp"
 // Including type: OVRPlugin/CameraStatus
-#include "GlobalNamespace\OVRPlugin_CameraStatus.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraStatus.hpp"
 // Including type: OVRPlugin/Eye
-#include "GlobalNamespace\OVRPlugin_Eye.hpp"
+#include "GlobalNamespace/OVRPlugin_Eye.hpp"
 // Including type: OVRPlugin/Tracker
-#include "GlobalNamespace\OVRPlugin_Tracker.hpp"
+#include "GlobalNamespace/OVRPlugin_Tracker.hpp"
 // Including type: OVRPlugin/Node
-#include "GlobalNamespace\OVRPlugin_Node.hpp"
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
 // Including type: OVRPlugin/Controller
-#include "GlobalNamespace\OVRPlugin_Controller.hpp"
+#include "GlobalNamespace/OVRPlugin_Controller.hpp"
 // Including type: OVRPlugin/Handedness
-#include "GlobalNamespace\OVRPlugin_Handedness.hpp"
+#include "GlobalNamespace/OVRPlugin_Handedness.hpp"
 // Including type: OVRPlugin/TrackingOrigin
-#include "GlobalNamespace\OVRPlugin_TrackingOrigin.hpp"
+#include "GlobalNamespace/OVRPlugin_TrackingOrigin.hpp"
 // Including type: OVRPlugin/RecenterFlags
-#include "GlobalNamespace\OVRPlugin_RecenterFlags.hpp"
+#include "GlobalNamespace/OVRPlugin_RecenterFlags.hpp"
 // Including type: OVRPlugin/BatteryStatus
-#include "GlobalNamespace\OVRPlugin_BatteryStatus.hpp"
+#include "GlobalNamespace/OVRPlugin_BatteryStatus.hpp"
 // Including type: OVRPlugin/EyeTextureFormat
-#include "GlobalNamespace\OVRPlugin_EyeTextureFormat.hpp"
+#include "GlobalNamespace/OVRPlugin_EyeTextureFormat.hpp"
 // Including type: OVRPlugin/PlatformUI
-#include "GlobalNamespace\OVRPlugin_PlatformUI.hpp"
+#include "GlobalNamespace/OVRPlugin_PlatformUI.hpp"
 // Including type: OVRPlugin/SystemRegion
-#include "GlobalNamespace\OVRPlugin_SystemRegion.hpp"
+#include "GlobalNamespace/OVRPlugin_SystemRegion.hpp"
 // Including type: OVRPlugin/SystemHeadset
-#include "GlobalNamespace\OVRPlugin_SystemHeadset.hpp"
+#include "GlobalNamespace/OVRPlugin_SystemHeadset.hpp"
 // Including type: OVRPlugin/OverlayShape
-#include "GlobalNamespace\OVRPlugin_OverlayShape.hpp"
+#include "GlobalNamespace/OVRPlugin_OverlayShape.hpp"
 // Including type: OVRPlugin/Step
-#include "GlobalNamespace\OVRPlugin_Step.hpp"
+#include "GlobalNamespace/OVRPlugin_Step.hpp"
 // Including type: OVRPlugin/CameraDevice
-#include "GlobalNamespace\OVRPlugin_CameraDevice.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraDevice.hpp"
 // Including type: OVRPlugin/CameraDeviceDepthSensingMode
-#include "GlobalNamespace\OVRPlugin_CameraDeviceDepthSensingMode.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraDeviceDepthSensingMode.hpp"
 // Including type: OVRPlugin/CameraDeviceDepthQuality
-#include "GlobalNamespace\OVRPlugin_CameraDeviceDepthQuality.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraDeviceDepthQuality.hpp"
 // Including type: OVRPlugin/FixedFoveatedRenderingLevel
-#include "GlobalNamespace\OVRPlugin_FixedFoveatedRenderingLevel.hpp"
+#include "GlobalNamespace/OVRPlugin_FixedFoveatedRenderingLevel.hpp"
 // Including type: OVRPlugin/TiledMultiResLevel
-#include "GlobalNamespace\OVRPlugin_TiledMultiResLevel.hpp"
+#include "GlobalNamespace/OVRPlugin_TiledMultiResLevel.hpp"
 // Including type: OVRPlugin/PerfMetrics
-#include "GlobalNamespace\OVRPlugin_PerfMetrics.hpp"
+#include "GlobalNamespace/OVRPlugin_PerfMetrics.hpp"
 // Including type: OVRPlugin/CameraDeviceIntrinsicsParameters
-#include "GlobalNamespace\OVRPlugin_CameraDeviceIntrinsicsParameters.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraDeviceIntrinsicsParameters.hpp"
 // Including type: OVRPlugin/OverlayFlag
-#include "GlobalNamespace\OVRPlugin_OverlayFlag.hpp"
+#include "GlobalNamespace/OVRPlugin_OverlayFlag.hpp"
 // Including type: OVRPlugin/Vector2f
-#include "GlobalNamespace\OVRPlugin_Vector2f.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
 // Including type: OVRPlugin/Vector4f
-#include "GlobalNamespace\OVRPlugin_Vector4f.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector4f.hpp"
 // Including type: OVRPlugin/Vector4s
-#include "GlobalNamespace\OVRPlugin_Vector4s.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector4s.hpp"
 // Including type: OVRPlugin/TextureRectMatrixf
-#include "GlobalNamespace\OVRPlugin_TextureRectMatrixf.hpp"
+#include "GlobalNamespace/OVRPlugin_TextureRectMatrixf.hpp"
 // Including type: OVRPlugin/PoseStatef
-#include "GlobalNamespace\OVRPlugin_PoseStatef.hpp"
+#include "GlobalNamespace/OVRPlugin_PoseStatef.hpp"
 // Including type: OVRPlugin/ControllerState4
-#include "GlobalNamespace\OVRPlugin_ControllerState4.hpp"
+#include "GlobalNamespace/OVRPlugin_ControllerState4.hpp"
 // Including type: OVRPlugin/ControllerState2
-#include "GlobalNamespace\OVRPlugin_ControllerState2.hpp"
+#include "GlobalNamespace/OVRPlugin_ControllerState2.hpp"
 // Including type: OVRPlugin/ControllerState
-#include "GlobalNamespace\OVRPlugin_ControllerState.hpp"
+#include "GlobalNamespace/OVRPlugin_ControllerState.hpp"
 // Including type: OVRPlugin/HapticsBuffer
-#include "GlobalNamespace\OVRPlugin_HapticsBuffer.hpp"
+#include "GlobalNamespace/OVRPlugin_HapticsBuffer.hpp"
 // Including type: OVRPlugin/HapticsState
-#include "GlobalNamespace\OVRPlugin_HapticsState.hpp"
+#include "GlobalNamespace/OVRPlugin_HapticsState.hpp"
 // Including type: OVRPlugin/HapticsDesc
-#include "GlobalNamespace\OVRPlugin_HapticsDesc.hpp"
+#include "GlobalNamespace/OVRPlugin_HapticsDesc.hpp"
 // Including type: OVRPlugin/AppPerfFrameStats
-#include "GlobalNamespace\OVRPlugin_AppPerfFrameStats.hpp"
+#include "GlobalNamespace/OVRPlugin_AppPerfFrameStats.hpp"
 // Including type: OVRPlugin/AppPerfStats
-#include "GlobalNamespace\OVRPlugin_AppPerfStats.hpp"
+#include "GlobalNamespace/OVRPlugin_AppPerfStats.hpp"
 // Including type: OVRPlugin/Sizei
-#include "GlobalNamespace\OVRPlugin_Sizei.hpp"
+#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
 // Including type: OVRPlugin/Sizef
-#include "GlobalNamespace\OVRPlugin_Sizef.hpp"
+#include "GlobalNamespace/OVRPlugin_Sizef.hpp"
 // Including type: OVRPlugin/Vector2i
-#include "GlobalNamespace\OVRPlugin_Vector2i.hpp"
+#include "GlobalNamespace/OVRPlugin_Vector2i.hpp"
 // Including type: OVRPlugin/Recti
-#include "GlobalNamespace\OVRPlugin_Recti.hpp"
+#include "GlobalNamespace/OVRPlugin_Recti.hpp"
 // Including type: OVRPlugin/Rectf
-#include "GlobalNamespace\OVRPlugin_Rectf.hpp"
+#include "GlobalNamespace/OVRPlugin_Rectf.hpp"
 // Including type: OVRPlugin/Frustumf
-#include "GlobalNamespace\OVRPlugin_Frustumf.hpp"
+#include "GlobalNamespace/OVRPlugin_Frustumf.hpp"
 // Including type: OVRPlugin/Frustumf2
-#include "GlobalNamespace\OVRPlugin_Frustumf2.hpp"
+#include "GlobalNamespace/OVRPlugin_Frustumf2.hpp"
 // Including type: OVRPlugin/BoundaryType
-#include "GlobalNamespace\OVRPlugin_BoundaryType.hpp"
+#include "GlobalNamespace/OVRPlugin_BoundaryType.hpp"
 // Including type: OVRPlugin/BoundaryTestResult
-#include "GlobalNamespace\OVRPlugin_BoundaryTestResult.hpp"
+#include "GlobalNamespace/OVRPlugin_BoundaryTestResult.hpp"
 // Including type: OVRPlugin/BoundaryGeometry
-#include "GlobalNamespace\OVRPlugin_BoundaryGeometry.hpp"
+#include "GlobalNamespace/OVRPlugin_BoundaryGeometry.hpp"
 // Including type: OVRPlugin/Colorf
-#include "GlobalNamespace\OVRPlugin_Colorf.hpp"
+#include "GlobalNamespace/OVRPlugin_Colorf.hpp"
 // Including type: OVRPlugin/Fovf
-#include "GlobalNamespace\OVRPlugin_Fovf.hpp"
+#include "GlobalNamespace/OVRPlugin_Fovf.hpp"
 // Including type: OVRPlugin/CameraIntrinsics
-#include "GlobalNamespace\OVRPlugin_CameraIntrinsics.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraIntrinsics.hpp"
 // Including type: OVRPlugin/CameraExtrinsics
-#include "GlobalNamespace\OVRPlugin_CameraExtrinsics.hpp"
+#include "GlobalNamespace/OVRPlugin_CameraExtrinsics.hpp"
 // Including type: OVRPlugin/LayerLayout
-#include "GlobalNamespace\OVRPlugin_LayerLayout.hpp"
+#include "GlobalNamespace/OVRPlugin_LayerLayout.hpp"
 // Including type: OVRPlugin/LayerFlags
-#include "GlobalNamespace\OVRPlugin_LayerFlags.hpp"
+#include "GlobalNamespace/OVRPlugin_LayerFlags.hpp"
 // Including type: OVRPlugin/LayerDesc
-#include "GlobalNamespace\OVRPlugin_LayerDesc.hpp"
+#include "GlobalNamespace/OVRPlugin_LayerDesc.hpp"
 // Including type: OVRPlugin/LayerSubmit
-#include "GlobalNamespace\OVRPlugin_LayerSubmit.hpp"
+#include "GlobalNamespace/OVRPlugin_LayerSubmit.hpp"
 // Including type: OVRPlugin/Hand
-#include "GlobalNamespace\OVRPlugin_Hand.hpp"
+#include "GlobalNamespace/OVRPlugin_Hand.hpp"
 // Including type: OVRPlugin/BoneId
-#include "GlobalNamespace\OVRPlugin_BoneId.hpp"
+#include "GlobalNamespace/OVRPlugin_BoneId.hpp"
 // Including type: OVRPlugin/HandFinger
-#include "GlobalNamespace\OVRPlugin_HandFinger.hpp"
+#include "GlobalNamespace/OVRPlugin_HandFinger.hpp"
 // Including type: OVRPlugin/HandState
-#include "GlobalNamespace\OVRPlugin_HandState.hpp"
+#include "GlobalNamespace/OVRPlugin_HandState.hpp"
 // Including type: System.String
-#include "System\String.hpp"
+#include "System/String.hpp"
 // Including type: OVRPlugin/BoneCapsule
-#include "GlobalNamespace\OVRPlugin_BoneCapsule.hpp"
+#include "GlobalNamespace/OVRPlugin_BoneCapsule.hpp"
 // Including type: OVRPlugin/Bone
-#include "GlobalNamespace\OVRPlugin_Bone.hpp"
+#include "GlobalNamespace/OVRPlugin_Bone.hpp"
 // Including type: OVRPlugin/SkeletonConstants
-#include "GlobalNamespace\OVRPlugin_SkeletonConstants.hpp"
+#include "GlobalNamespace/OVRPlugin_SkeletonConstants.hpp"
 // Including type: OVRPlugin/SkeletonType
-#include "GlobalNamespace\OVRPlugin_SkeletonType.hpp"
+#include "GlobalNamespace/OVRPlugin_SkeletonType.hpp"
 // Including type: OVRPlugin/Skeleton
-#include "GlobalNamespace\OVRPlugin_Skeleton.hpp"
+#include "GlobalNamespace/OVRPlugin_Skeleton.hpp"
 // Including type: OVRPlugin/MeshConstants
-#include "GlobalNamespace\OVRPlugin_MeshConstants.hpp"
+#include "GlobalNamespace/OVRPlugin_MeshConstants.hpp"
 // Including type: OVRPlugin/MeshType
-#include "GlobalNamespace\OVRPlugin_MeshType.hpp"
+#include "GlobalNamespace/OVRPlugin_MeshType.hpp"
 // Including type: OVRPlugin/Mesh
-#include "GlobalNamespace\OVRPlugin_Mesh.hpp"
+#include "GlobalNamespace/OVRPlugin_Mesh.hpp"
 // Including type: OVRPlugin/Media
-#include "GlobalNamespace\OVRPlugin_Media.hpp"
+#include "GlobalNamespace/OVRPlugin_Media.hpp"
 // Including type: OVRPlugin/OVRP_0_1_0
-#include "GlobalNamespace\OVRPlugin_OVRP_0_1_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_0_1_0.hpp"
 // Including type: OVRPlugin/OVRP_0_1_1
-#include "GlobalNamespace\OVRPlugin_OVRP_0_1_1.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_0_1_1.hpp"
 // Including type: OVRPlugin/OVRP_0_1_2
-#include "GlobalNamespace\OVRPlugin_OVRP_0_1_2.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_0_1_2.hpp"
 // Including type: OVRPlugin/OVRP_0_1_3
-#include "GlobalNamespace\OVRPlugin_OVRP_0_1_3.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_0_1_3.hpp"
 // Including type: OVRPlugin/OVRP_0_5_0
-#include "GlobalNamespace\OVRPlugin_OVRP_0_5_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_0_5_0.hpp"
 // Including type: OVRPlugin/OVRP_1_0_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_0_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_0_0.hpp"
 // Including type: OVRPlugin/OVRP_1_1_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_1_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_1_0.hpp"
 // Including type: OVRPlugin/OVRP_1_2_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_2_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_2_0.hpp"
 // Including type: OVRPlugin/OVRP_1_3_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_3_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_3_0.hpp"
 // Including type: OVRPlugin/OVRP_1_5_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_5_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_5_0.hpp"
 // Including type: OVRPlugin/OVRP_1_6_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_6_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_6_0.hpp"
 // Including type: OVRPlugin/OVRP_1_7_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_7_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_7_0.hpp"
 // Including type: OVRPlugin/OVRP_1_8_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_8_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_8_0.hpp"
 // Including type: OVRPlugin/OVRP_1_9_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_9_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_9_0.hpp"
 // Including type: OVRPlugin/OVRP_1_10_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_10_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_10_0.hpp"
 // Including type: OVRPlugin/OVRP_1_11_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_11_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_11_0.hpp"
 // Including type: OVRPlugin/OVRP_1_12_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_12_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_12_0.hpp"
 // Including type: OVRPlugin/OVRP_1_15_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_15_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_15_0.hpp"
 // Including type: OVRPlugin/OVRP_1_16_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_16_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_16_0.hpp"
 // Including type: OVRPlugin/OVRP_1_17_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_17_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_17_0.hpp"
 // Including type: OVRPlugin/OVRP_1_18_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_18_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_18_0.hpp"
 // Including type: OVRPlugin/OVRP_1_19_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_19_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_19_0.hpp"
 // Including type: OVRPlugin/OVRP_1_21_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_21_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_21_0.hpp"
 // Including type: OVRPlugin/OVRP_1_28_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_28_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_28_0.hpp"
 // Including type: OVRPlugin/OVRP_1_29_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_29_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_29_0.hpp"
 // Including type: OVRPlugin/OVRP_1_30_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_30_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_30_0.hpp"
 // Including type: OVRPlugin/OVRP_1_31_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_31_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_31_0.hpp"
 // Including type: OVRPlugin/OVRP_1_32_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_32_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_32_0.hpp"
 // Including type: OVRPlugin/OVRP_1_34_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_34_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_34_0.hpp"
 // Including type: OVRPlugin/OVRP_1_35_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_35_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_35_0.hpp"
 // Including type: OVRPlugin/OVRP_1_36_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_36_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_36_0.hpp"
 // Including type: OVRPlugin/OVRP_1_37_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_37_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_37_0.hpp"
 // Including type: OVRPlugin/OVRP_1_38_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_38_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_38_0.hpp"
 // Including type: OVRPlugin/OVRP_1_39_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_39_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_39_0.hpp"
 // Including type: OVRPlugin/OVRP_1_40_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_40_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_40_0.hpp"
 // Including type: OVRPlugin/OVRP_1_41_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_41_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_41_0.hpp"
 // Including type: OVRPlugin/OVRP_1_42_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_42_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_42_0.hpp"
 // Including type: OVRPlugin/OVRP_1_43_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_43_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_43_0.hpp"
 // Including type: OVRPlugin/OVRP_1_44_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_44_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_44_0.hpp"
 // Including type: OVRPlugin/OVRP_1_45_0
-#include "GlobalNamespace\OVRPlugin_OVRP_1_45_0.hpp"
+#include "GlobalNamespace/OVRPlugin_OVRP_1_45_0.hpp"
 // Including type: System.Version
-#include "System\Version.hpp"
+#include "System/Version.hpp"
 // Including type: OVRNativeBuffer
-#include "GlobalNamespace\OVRNativeBuffer.hpp"
+#include "GlobalNamespace/OVRNativeBuffer.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: UnityEngine.Vector4
-#include "UnityEngine\Vector4.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Including type: System.Nullable`1
-#include "System\Nullable_1.hpp"
+#include "System/Nullable_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated static field getter

@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.Matrix4x4
-#include "UnityEngine\Matrix4x4.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Including type: UnityEngine.Bounds
-#include "UnityEngine\Bounds.hpp"
+#include "UnityEngine/Bounds.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Experimental.U2D
 namespace UnityEngine::Experimental::U2D {

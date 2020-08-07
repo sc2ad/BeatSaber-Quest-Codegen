@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.TraceListener
-#include "System\Diagnostics\TraceListener.hpp"
+#include "System/Diagnostics/TraceListener.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {

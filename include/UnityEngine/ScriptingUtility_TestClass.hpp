@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.ScriptingUtility
-#include "UnityEngine\ScriptingUtility.hpp"
+#include "UnityEngine/ScriptingUtility.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

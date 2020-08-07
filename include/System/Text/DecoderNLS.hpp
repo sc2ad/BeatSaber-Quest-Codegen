@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.Decoder
-#include "System\Text\Decoder.hpp"
+#include "System/Text/Decoder.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text

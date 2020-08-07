@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: SteamVR_Utils
-#include "GlobalNamespace\SteamVR_Utils.hpp"
+#include "GlobalNamespace/SteamVR_Utils.hpp"
 // Including type: Valve.VR.ETextureType
-#include "Valve\VR\ETextureType.hpp"
+#include "Valve/VR/ETextureType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR

@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: NUnit.Framework.Internal.ITestExecutionContext
-#include "NUnit\Framework\Internal\ITestExecutionContext.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Including type: NUnit.Framework.Internal.TestExecutionStatus
-#include "NUnit\Framework\Internal\TestExecutionStatus.hpp"
+#include "NUnit/Framework/Internal/TestExecutionStatus.hpp"
 // Including type: NUnit.Framework.ParallelScope
-#include "NUnit\Framework\ParallelScope.hpp"
+#include "NUnit/Framework/ParallelScope.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal

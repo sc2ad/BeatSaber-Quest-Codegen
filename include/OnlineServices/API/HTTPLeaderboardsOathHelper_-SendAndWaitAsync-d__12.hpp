@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OnlineServices.API.HTTPLeaderboardsOathHelper
-#include "OnlineServices\API\HTTPLeaderboardsOathHelper.hpp"
+#include "OnlineServices/API/HTTPLeaderboardsOathHelper.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder.hpp"
 // Including type: System.Threading.CancellationToken
-#include "System\Threading\CancellationToken.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
-#include "System\Runtime\CompilerServices\TaskAwaiter.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking

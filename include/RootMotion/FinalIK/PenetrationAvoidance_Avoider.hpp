@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.PenetrationAvoidance
-#include "RootMotion\FinalIK\PenetrationAvoidance.hpp"
+#include "RootMotion/FinalIK/PenetrationAvoidance.hpp"
 // Including type: UnityEngine.LayerMask
-#include "UnityEngine\LayerMask.hpp"
+#include "UnityEngine/LayerMask.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

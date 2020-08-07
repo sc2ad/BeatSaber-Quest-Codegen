@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MeshImporter
-#include "UnityEngine\ProBuilder\MeshOperations\MeshImporter.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/MeshImporter.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

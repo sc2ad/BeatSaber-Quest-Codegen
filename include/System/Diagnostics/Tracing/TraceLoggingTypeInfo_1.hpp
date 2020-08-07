@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.TraceLoggingTypeInfo
-#include "System\Diagnostics\Tracing\TraceLoggingTypeInfo.hpp"
+#include "System/Diagnostics/Tracing/TraceLoggingTypeInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

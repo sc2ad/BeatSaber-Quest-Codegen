@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PersistentScriptableObject
-#include "GlobalNamespace\PersistentScriptableObject.hpp"
+#include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: IBeatmapLevelPack
-#include "GlobalNamespace\IBeatmapLevelPack.hpp"
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

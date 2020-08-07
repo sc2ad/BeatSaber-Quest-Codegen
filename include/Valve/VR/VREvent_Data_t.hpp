@@ -6,51 +6,51 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Valve.VR.VREvent_Reserved_t
-#include "Valve\VR\VREvent_Reserved_t.hpp"
+#include "Valve/VR/VREvent_Reserved_t.hpp"
 // Including type: Valve.VR.VREvent_Controller_t
-#include "Valve\VR\VREvent_Controller_t.hpp"
+#include "Valve/VR/VREvent_Controller_t.hpp"
 // Including type: Valve.VR.VREvent_Mouse_t
-#include "Valve\VR\VREvent_Mouse_t.hpp"
+#include "Valve/VR/VREvent_Mouse_t.hpp"
 // Including type: Valve.VR.VREvent_Scroll_t
-#include "Valve\VR\VREvent_Scroll_t.hpp"
+#include "Valve/VR/VREvent_Scroll_t.hpp"
 // Including type: Valve.VR.VREvent_Process_t
-#include "Valve\VR\VREvent_Process_t.hpp"
+#include "Valve/VR/VREvent_Process_t.hpp"
 // Including type: Valve.VR.VREvent_Notification_t
-#include "Valve\VR\VREvent_Notification_t.hpp"
+#include "Valve/VR/VREvent_Notification_t.hpp"
 // Including type: Valve.VR.VREvent_Overlay_t
-#include "Valve\VR\VREvent_Overlay_t.hpp"
+#include "Valve/VR/VREvent_Overlay_t.hpp"
 // Including type: Valve.VR.VREvent_Status_t
-#include "Valve\VR\VREvent_Status_t.hpp"
+#include "Valve/VR/VREvent_Status_t.hpp"
 // Including type: Valve.VR.VREvent_Ipd_t
-#include "Valve\VR\VREvent_Ipd_t.hpp"
+#include "Valve/VR/VREvent_Ipd_t.hpp"
 // Including type: Valve.VR.VREvent_Chaperone_t
-#include "Valve\VR\VREvent_Chaperone_t.hpp"
+#include "Valve/VR/VREvent_Chaperone_t.hpp"
 // Including type: Valve.VR.VREvent_PerformanceTest_t
-#include "Valve\VR\VREvent_PerformanceTest_t.hpp"
+#include "Valve/VR/VREvent_PerformanceTest_t.hpp"
 // Including type: Valve.VR.VREvent_TouchPadMove_t
-#include "Valve\VR\VREvent_TouchPadMove_t.hpp"
+#include "Valve/VR/VREvent_TouchPadMove_t.hpp"
 // Including type: Valve.VR.VREvent_SeatedZeroPoseReset_t
-#include "Valve\VR\VREvent_SeatedZeroPoseReset_t.hpp"
+#include "Valve/VR/VREvent_SeatedZeroPoseReset_t.hpp"
 // Including type: Valve.VR.VREvent_Screenshot_t
-#include "Valve\VR\VREvent_Screenshot_t.hpp"
+#include "Valve/VR/VREvent_Screenshot_t.hpp"
 // Including type: Valve.VR.VREvent_ScreenshotProgress_t
-#include "Valve\VR\VREvent_ScreenshotProgress_t.hpp"
+#include "Valve/VR/VREvent_ScreenshotProgress_t.hpp"
 // Including type: Valve.VR.VREvent_ApplicationLaunch_t
-#include "Valve\VR\VREvent_ApplicationLaunch_t.hpp"
+#include "Valve/VR/VREvent_ApplicationLaunch_t.hpp"
 // Including type: Valve.VR.VREvent_EditingCameraSurface_t
-#include "Valve\VR\VREvent_EditingCameraSurface_t.hpp"
+#include "Valve/VR/VREvent_EditingCameraSurface_t.hpp"
 // Including type: Valve.VR.VREvent_MessageOverlay_t
-#include "Valve\VR\VREvent_MessageOverlay_t.hpp"
+#include "Valve/VR/VREvent_MessageOverlay_t.hpp"
 // Including type: Valve.VR.VREvent_Property_t
-#include "Valve\VR\VREvent_Property_t.hpp"
+#include "Valve/VR/VREvent_Property_t.hpp"
 // Including type: Valve.VR.VREvent_DualAnalog_t
-#include "Valve\VR\VREvent_DualAnalog_t.hpp"
+#include "Valve/VR/VREvent_DualAnalog_t.hpp"
 // Including type: Valve.VR.VREvent_HapticVibration_t
-#include "Valve\VR\VREvent_HapticVibration_t.hpp"
+#include "Valve/VR/VREvent_HapticVibration_t.hpp"
 // Including type: Valve.VR.VREvent_Keyboard_t
-#include "Valve\VR\VREvent_Keyboard_t.hpp"
+#include "Valve/VR/VREvent_Keyboard_t.hpp"
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {

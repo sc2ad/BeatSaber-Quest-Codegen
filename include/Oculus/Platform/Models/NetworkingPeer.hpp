@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Oculus.Platform.PeerConnectionState
-#include "Oculus\Platform\PeerConnectionState.hpp"
+#include "Oculus/Platform/PeerConnectionState.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {

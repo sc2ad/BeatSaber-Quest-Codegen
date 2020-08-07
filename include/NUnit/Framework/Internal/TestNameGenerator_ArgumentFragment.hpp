@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.TestNameGenerator/NameFragment
-#include "NUnit\Framework\Internal\TestNameGenerator_NameFragment.hpp"
+#include "NUnit/Framework/Internal/TestNameGenerator_NameFragment.hpp"
 // Including type: NUnit.Framework.Internal.TestNameGenerator
-#include "NUnit\Framework\Internal\TestNameGenerator.hpp"
+#include "NUnit/Framework/Internal/TestNameGenerator.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

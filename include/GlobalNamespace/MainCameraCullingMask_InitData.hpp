@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: MainCameraCullingMask
-#include "GlobalNamespace\MainCameraCullingMask.hpp"
+#include "GlobalNamespace/MainCameraCullingMask.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

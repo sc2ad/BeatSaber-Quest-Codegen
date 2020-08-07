@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TutorialSongController/TutorialObjectSpawnData
-#include "GlobalNamespace\TutorialSongController_TutorialObjectSpawnData.hpp"
+#include "GlobalNamespace/TutorialSongController_TutorialObjectSpawnData.hpp"
 // Including type: NoteLineLayer
-#include "GlobalNamespace\NoteLineLayer.hpp"
+#include "GlobalNamespace/NoteLineLayer.hpp"
 // Including type: NoteCutDirection
-#include "GlobalNamespace\NoteCutDirection.hpp"
+#include "GlobalNamespace/NoteCutDirection.hpp"
 // Including type: NoteType
-#include "GlobalNamespace\NoteType.hpp"
+#include "GlobalNamespace/NoteType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

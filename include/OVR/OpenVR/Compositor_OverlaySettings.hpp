@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.HmdMatrix44_t
-#include "OVR\OpenVR\HmdMatrix44_t.hpp"
+#include "OVR/OpenVR/HmdMatrix44_t.hpp"
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

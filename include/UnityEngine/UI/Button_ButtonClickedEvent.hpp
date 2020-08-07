@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Events.UnityEvent
-#include "UnityEngine\Events\UnityEvent.hpp"
+#include "UnityEngine/Events/UnityEvent.hpp"
 // Including type: UnityEngine.UI.Button
-#include "UnityEngine\UI\Button.hpp"
+#include "UnityEngine/UI/Button.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: Zenject.IValidatable
-#include "Zenject\IValidatable.hpp"
+#include "Zenject/IValidatable.hpp"
 // Completed includes
 // Type namespace: Zenject
 namespace Zenject {

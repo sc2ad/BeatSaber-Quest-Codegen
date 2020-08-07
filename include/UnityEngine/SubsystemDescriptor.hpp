@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ISubsystemDescriptor
-#include "UnityEngine\ISubsystemDescriptor.hpp"
+#include "UnityEngine/ISubsystemDescriptor.hpp"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw
-#include "Microsoft\Win32\UnsafeNativeMethods_ManifestEtw.hpp"
+#include "Microsoft/Win32/UnsafeNativeMethods_ManifestEtw.hpp"
 // Completed includes
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {

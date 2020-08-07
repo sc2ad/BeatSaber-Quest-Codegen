@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.ProBuilder.Clipping
-#include "UnityEngine\ProBuilder\Clipping.hpp"
+#include "UnityEngine/ProBuilder/Clipping.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

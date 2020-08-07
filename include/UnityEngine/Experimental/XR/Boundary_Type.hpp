@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.Experimental.XR.Boundary
-#include "UnityEngine\Experimental\XR\Boundary.hpp"
+#include "UnityEngine/Experimental/XR/Boundary.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Experimental.XR
 namespace UnityEngine::Experimental::XR {

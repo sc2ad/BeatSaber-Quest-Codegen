@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRInput/Controller
-#include "GlobalNamespace\OVRInput.hpp"
+#include "GlobalNamespace/OVRInput.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

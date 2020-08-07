@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: AsyncHelper/<>c__DisplayClass1_0
-#include "GlobalNamespace\AsyncHelper_--c__DisplayClass1_0.hpp"
+#include "GlobalNamespace/AsyncHelper_--c__DisplayClass1_0.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
-#include "System\Runtime\CompilerServices\TaskAwaiter.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

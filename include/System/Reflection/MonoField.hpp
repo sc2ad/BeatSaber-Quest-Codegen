@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.RtFieldInfo
-#include "System\Reflection\RtFieldInfo.hpp"
+#include "System/Reflection/RtFieldInfo.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: System.RuntimeFieldHandle
-#include "System\RuntimeFieldHandle.hpp"
+#include "System/RuntimeFieldHandle.hpp"
 // Including type: System.Reflection.FieldAttributes
-#include "System\Reflection\FieldAttributes.hpp"
+#include "System/Reflection/FieldAttributes.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: PS4LevelProductsModelSO
-#include "GlobalNamespace\PS4LevelProductsModelSO.hpp"
+#include "GlobalNamespace/PS4LevelProductsModelSO.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

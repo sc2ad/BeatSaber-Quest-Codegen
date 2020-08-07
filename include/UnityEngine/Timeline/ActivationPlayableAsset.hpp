@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.PlayableAsset
-#include "UnityEngine\Playables\PlayableAsset.hpp"
+#include "UnityEngine/Playables/PlayableAsset.hpp"
 // Including type: UnityEngine.Timeline.ITimelineClipAsset
-#include "UnityEngine\Timeline\ITimelineClipAsset.hpp"
+#include "UnityEngine/Timeline/ITimelineClipAsset.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline

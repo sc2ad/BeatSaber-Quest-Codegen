@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

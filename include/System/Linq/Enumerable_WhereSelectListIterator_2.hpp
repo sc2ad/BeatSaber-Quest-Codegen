@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Linq.Enumerable/Iterator`1
-#include "System\Linq\Enumerable_Iterator_1.hpp"
+#include "System/Linq/Enumerable_Iterator_1.hpp"
 // Including type: System.Linq.Enumerable
-#include "System\Linq\Enumerable.hpp"
+#include "System/Linq/Enumerable.hpp"
 // Including type: System.Collections.Generic.List`1/Enumerator
-#include "System\Collections\Generic\List_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

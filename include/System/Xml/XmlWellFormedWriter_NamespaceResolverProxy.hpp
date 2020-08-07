@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Xml.XmlWellFormedWriter
-#include "System\Xml\XmlWellFormedWriter.hpp"
+#include "System/Xml/XmlWellFormedWriter.hpp"
 // Including type: System.Xml.IXmlNamespaceResolver
-#include "System\Xml\IXmlNamespaceResolver.hpp"
+#include "System/Xml/IXmlNamespaceResolver.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {

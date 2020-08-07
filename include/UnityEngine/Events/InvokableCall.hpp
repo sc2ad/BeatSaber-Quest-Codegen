@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Events.BaseInvokableCall
-#include "UnityEngine\Events\BaseInvokableCall.hpp"
+#include "UnityEngine/Events/BaseInvokableCall.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events

@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: Zenject.BindingInheritanceMethods
-#include "Zenject\BindingInheritanceMethods.hpp"
+#include "Zenject/BindingInheritanceMethods.hpp"
 // Including type: Zenject.InvalidBindResponses
-#include "Zenject\InvalidBindResponses.hpp"
+#include "Zenject/InvalidBindResponses.hpp"
 // Including type: Zenject.ToChoices
-#include "Zenject\ToChoices.hpp"
+#include "Zenject/ToChoices.hpp"
 // Including type: Zenject.ScopeTypes
-#include "Zenject\ScopeTypes.hpp"
+#include "Zenject/ScopeTypes.hpp"
 // Including type: Zenject.TypeValuePair
-#include "Zenject\TypeValuePair.hpp"
+#include "Zenject/TypeValuePair.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

@@ -6,23 +6,23 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: HTTPLeaderboardsModel
-#include "GlobalNamespace\HTTPLeaderboardsModel.hpp"
+#include "GlobalNamespace/HTTPLeaderboardsModel.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder_1.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: OnlineServices.SendLeaderboardEntryResult
-#include "OnlineServices\SendLeaderboardEntryResult.hpp"
+#include "OnlineServices/SendLeaderboardEntryResult.hpp"
 // Including type: OnlineServices.LevelScoreResultsData
-#include "OnlineServices\LevelScoreResultsData.hpp"
+#include "OnlineServices/LevelScoreResultsData.hpp"
 // Including type: System.Threading.CancellationToken
-#include "System\Threading\CancellationToken.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: OnlineServices.API.Response
-#include "OnlineServices\API\Response.hpp"
+#include "OnlineServices/API/Response.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

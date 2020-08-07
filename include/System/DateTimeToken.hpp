@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.DateTimeParse/DTT
-#include "System\DateTimeParse_DTT.hpp"
+#include "System/DateTimeParse_DTT.hpp"
 // Including type: System.TokenType
-#include "System\TokenType.hpp"
+#include "System/TokenType.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

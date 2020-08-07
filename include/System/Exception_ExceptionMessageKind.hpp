@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: System.Exception
-#include "System\Exception.hpp"
+#include "System/Exception.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

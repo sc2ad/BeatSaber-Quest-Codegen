@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: NoteCutSoundEffect
-#include "GlobalNamespace\NoteCutSoundEffect.hpp"
+#include "GlobalNamespace/NoteCutSoundEffect.hpp"
 // Including type: BeatmapObjectCallbackController
-#include "GlobalNamespace\BeatmapObjectCallbackController.hpp"
+#include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

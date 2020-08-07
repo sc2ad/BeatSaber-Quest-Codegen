@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.ICloneable
-#include "System\ICloneable.hpp"
+#include "System/ICloneable.hpp"
 // Including type: System.IFormatProvider
-#include "System\IFormatProvider.hpp"
+#include "System/IFormatProvider.hpp"
 // Including type: System.Globalization.DateTimeFormatFlags
-#include "System\Globalization\DateTimeFormatFlags.hpp"
+#include "System/Globalization/DateTimeFormatFlags.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Including type: System.Globalization.DateTimeStyles
-#include "System\Globalization\DateTimeStyles.hpp"
+#include "System/Globalization/DateTimeStyles.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization

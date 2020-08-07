@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Message`1
-#include "Oculus\Platform\Message_1.hpp"
+#include "Oculus/Platform/Message_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models

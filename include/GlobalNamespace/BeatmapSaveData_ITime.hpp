@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: BeatmapSaveData
-#include "GlobalNamespace\BeatmapSaveData.hpp"
+#include "GlobalNamespace/BeatmapSaveData.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

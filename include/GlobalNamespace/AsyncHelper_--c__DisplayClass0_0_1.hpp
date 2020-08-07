@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: AsyncHelper
-#include "GlobalNamespace\AsyncHelper.hpp"
+#include "GlobalNamespace/AsyncHelper.hpp"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

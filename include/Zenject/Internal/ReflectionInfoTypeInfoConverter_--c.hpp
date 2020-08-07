@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.Internal.ReflectionInfoTypeInfoConverter
-#include "Zenject\Internal\ReflectionInfoTypeInfoConverter.hpp"
+#include "Zenject/Internal/ReflectionInfoTypeInfoConverter.hpp"
 // Including type: Zenject.Internal.ReflectionTypeInfo
-#include "Zenject\Internal\ReflectionTypeInfo.hpp"
+#include "Zenject/Internal/ReflectionTypeInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

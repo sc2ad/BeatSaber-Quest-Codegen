@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.TestParameters
-#include "NUnit\Framework\Internal\TestParameters.hpp"
+#include "NUnit/Framework/Internal/TestParameters.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestCaseData
-#include "NUnit\Framework\Interfaces\ITestCaseData.hpp"
+#include "NUnit/Framework/Interfaces/ITestCaseData.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {

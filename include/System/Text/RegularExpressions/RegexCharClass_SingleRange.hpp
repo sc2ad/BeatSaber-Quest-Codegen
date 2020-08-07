@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Text.RegularExpressions.RegexCharClass
-#include "System\Text\RegularExpressions\RegexCharClass.hpp"
+#include "System/Text/RegularExpressions/RegexCharClass.hpp"
 // Completed includes
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-#include "System\Runtime\ConstrainedExecution\CriticalFinalizerObject.hpp"
+#include "System/Runtime/ConstrainedExecution/CriticalFinalizerObject.hpp"
 // Including type: System.Runtime.InteropServices._Thread
-#include "System\Runtime\InteropServices\_Thread.hpp"
+#include "System/Runtime/InteropServices/_Thread.hpp"
 // Including type: System.Threading.ExecutionContext
-#include "System\Threading\ExecutionContext.hpp"
+#include "System/Threading/ExecutionContext.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: LevelFilteringNavigationController
-#include "GlobalNamespace\LevelFilteringNavigationController.hpp"
+#include "GlobalNamespace/LevelFilteringNavigationController.hpp"
 // Including type: TabBarViewController
-#include "GlobalNamespace\TabBarViewController.hpp"
+#include "GlobalNamespace/TabBarViewController.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

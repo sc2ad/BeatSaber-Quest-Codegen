@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.IEventSystemHandler
-#include "UnityEngine\EventSystems\IEventSystemHandler.hpp"
+#include "UnityEngine/EventSystems/IEventSystemHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems

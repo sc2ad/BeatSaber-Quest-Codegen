@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: TMPro.TMP_Text
-#include "TMPro\TMP_Text.hpp"
+#include "TMPro/TMP_Text.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/AttributeValueCache
-#include "System\Xml\XmlWellFormedWriter_AttributeValueCache.hpp"
+#include "System/Xml/XmlWellFormedWriter_AttributeValueCache.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType
-#include "System\Xml\XmlWellFormedWriter_AttributeValueCache_ItemType.hpp"
+#include "System/Xml/XmlWellFormedWriter_AttributeValueCache_ItemType.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {

@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Collections.ICollection
-#include "System\Collections\ICollection.hpp"
+#include "System/Collections/ICollection.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Oculus.Platform.RoomJoinPolicy
-#include "Oculus\Platform\RoomJoinPolicy.hpp"
+#include "Oculus/Platform/RoomJoinPolicy.hpp"
 // Including type: Oculus.Platform.RoomJoinability
-#include "Oculus\Platform\RoomJoinability.hpp"
+#include "Oculus/Platform/RoomJoinability.hpp"
 // Including type: Oculus.Platform.RoomType
-#include "Oculus\Platform\RoomType.hpp"
+#include "Oculus/Platform/RoomType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

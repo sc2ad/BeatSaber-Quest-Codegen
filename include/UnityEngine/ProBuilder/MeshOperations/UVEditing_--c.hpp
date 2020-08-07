@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.UVEditing
-#include "UnityEngine\ProBuilder\MeshOperations\UVEditing.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
 // Including type: UnityEngine.Vector4
-#include "UnityEngine\Vector4.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
-#include "System\Collections\Generic\KeyValuePair_2.hpp"
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

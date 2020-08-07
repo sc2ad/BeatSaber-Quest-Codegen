@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.Playables.FrameData
-#include "UnityEngine\Playables\FrameData.hpp"
+#include "UnityEngine/Playables/FrameData.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {

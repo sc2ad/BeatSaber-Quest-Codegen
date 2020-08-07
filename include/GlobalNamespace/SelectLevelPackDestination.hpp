@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: MenuDestination
-#include "GlobalNamespace\MenuDestination.hpp"
+#include "GlobalNamespace/MenuDestination.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

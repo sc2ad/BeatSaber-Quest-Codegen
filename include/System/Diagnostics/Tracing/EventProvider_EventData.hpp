@@ -6,9 +6,9 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Diagnostics.Tracing.EventProvider
-#include "System\Diagnostics\Tracing\EventProvider.hpp"
+#include "System/Diagnostics/Tracing/EventProvider.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {

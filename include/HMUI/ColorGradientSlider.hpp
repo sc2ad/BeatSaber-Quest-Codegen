@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.TextSlider
-#include "HMUI\TextSlider.hpp"
+#include "HMUI/TextSlider.hpp"
 // Including type: ColorChangeUIEventType
-#include "GlobalNamespace\ColorChangeUIEventType.hpp"
+#include "GlobalNamespace/ColorChangeUIEventType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI

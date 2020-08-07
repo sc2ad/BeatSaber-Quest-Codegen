@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: BeatmapSaveData
-#include "GlobalNamespace\BeatmapSaveData.hpp"
+#include "GlobalNamespace/BeatmapSaveData.hpp"
 // Including type: BeatmapSaveData/ITime
-#include "GlobalNamespace\BeatmapSaveData_ITime.hpp"
+#include "GlobalNamespace/BeatmapSaveData_ITime.hpp"
 // Including type: NoteLineLayer
-#include "GlobalNamespace\NoteLineLayer.hpp"
+#include "GlobalNamespace/NoteLineLayer.hpp"
 // Including type: NoteType
-#include "GlobalNamespace\NoteType.hpp"
+#include "GlobalNamespace/NoteType.hpp"
 // Including type: NoteCutDirection
-#include "GlobalNamespace\NoteCutDirection.hpp"
+#include "GlobalNamespace/NoteCutDirection.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

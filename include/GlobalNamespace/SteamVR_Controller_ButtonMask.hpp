@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: SteamVR_Controller
-#include "GlobalNamespace\SteamVR_Controller.hpp"
+#include "GlobalNamespace/SteamVR_Controller.hpp"
 // Including type: System.UInt64
-#include "System\UInt64.hpp"
+#include "System/UInt64.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

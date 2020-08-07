@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.Task
-#include "System\Threading\Tasks\Task.hpp"
+#include "System/Threading/Tasks/Task.hpp"
 // Including type: System.Threading.Tasks.TaskCreationOptions
-#include "System\Threading\Tasks\TaskCreationOptions.hpp"
+#include "System/Threading/Tasks/TaskCreationOptions.hpp"
 // Including type: System.Threading.Tasks.InternalTaskOptions
-#include "System\Threading\Tasks\InternalTaskOptions.hpp"
+#include "System/Threading/Tasks/InternalTaskOptions.hpp"
 // Including type: System.Threading.StackCrawlMark
-#include "System\Threading\StackCrawlMark.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1
-#include "System\Runtime\CompilerServices\ConfiguredTaskAwaitable_1.hpp"
+#include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

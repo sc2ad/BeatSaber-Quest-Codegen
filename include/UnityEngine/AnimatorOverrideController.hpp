@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.RuntimeAnimatorController
-#include "UnityEngine\RuntimeAnimatorController.hpp"
+#include "UnityEngine/RuntimeAnimatorController.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: StandardLevelDetailViewController
-#include "GlobalNamespace\StandardLevelDetailViewController.hpp"
+#include "GlobalNamespace/StandardLevelDetailViewController.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
-#include "System\Runtime\CompilerServices\AsyncVoidMethodBuilder.hpp"
+#include "System/Runtime/CompilerServices/AsyncVoidMethodBuilder.hpp"
 // Including type: System.Threading.CancellationToken
-#include "System\Threading\CancellationToken.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: BeatmapLevelsModel/GetBeatmapLevelResult
-#include "GlobalNamespace\BeatmapLevelsModel.hpp"
+#include "GlobalNamespace/BeatmapLevelsModel.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

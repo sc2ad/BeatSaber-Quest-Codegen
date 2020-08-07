@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.IntegratedSubsystem`1
-#include "UnityEngine\IntegratedSubsystem_1.hpp"
+#include "UnityEngine/IntegratedSubsystem_1.hpp"
 // Including type: UnityEngine.XR.MeshGenerationResult
-#include "UnityEngine\XR\MeshGenerationResult.hpp"
+#include "UnityEngine/XR/MeshGenerationResult.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::XR

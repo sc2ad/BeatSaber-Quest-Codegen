@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.Stack
-#include "System\Collections\Stack.hpp"
+#include "System/Collections/Stack.hpp"
 // Including type: System.Collections.IEnumerator
-#include "System\Collections\IEnumerator.hpp"
+#include "System/Collections/IEnumerator.hpp"
 // Completed includes
 // Type namespace: System.Collections
 namespace System::Collections {

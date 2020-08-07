@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine\Events\UnityEvent_1.hpp"
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Including type: UnityEngine.UI.CoroutineTween.ColorTween
-#include "UnityEngine\UI\CoroutineTween\ColorTween.hpp"
+#include "UnityEngine/UI/CoroutineTween/ColorTween.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI.CoroutineTween
 namespace UnityEngine::UI::CoroutineTween {

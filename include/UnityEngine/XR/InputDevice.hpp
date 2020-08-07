@@ -6,9 +6,9 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OculusLevelProductsModelSO
-#include "GlobalNamespace\OculusLevelProductsModelSO.hpp"
+#include "GlobalNamespace/OculusLevelProductsModelSO.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

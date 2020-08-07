@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.Grounder
-#include "RootMotion\FinalIK\Grounder.hpp"
+#include "RootMotion/FinalIK/Grounder.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

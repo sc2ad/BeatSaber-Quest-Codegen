@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: TMPro.TMP_MaterialManager
-#include "TMPro\TMP_MaterialManager.hpp"
+#include "TMPro/TMP_MaterialManager.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

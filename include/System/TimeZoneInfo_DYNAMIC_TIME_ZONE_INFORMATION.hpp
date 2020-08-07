@@ -6,11 +6,11 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.TimeZoneInfo
-#include "System\TimeZoneInfo.hpp"
+#include "System/TimeZoneInfo.hpp"
 // Including type: System.TimeZoneInfo/TIME_ZONE_INFORMATION
-#include "System\TimeZoneInfo_TIME_ZONE_INFORMATION.hpp"
+#include "System/TimeZoneInfo_TIME_ZONE_INFORMATION.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;

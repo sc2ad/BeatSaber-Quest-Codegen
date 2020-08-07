@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: PlayerSaveDataV1_0_1
-#include "GlobalNamespace\PlayerSaveDataV1_0_1.hpp"
+#include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

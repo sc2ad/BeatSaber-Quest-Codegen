@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw
-#include "Microsoft\Win32\UnsafeNativeMethods_ManifestEtw.hpp"
+#include "Microsoft/Win32/UnsafeNativeMethods_ManifestEtw.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
-#include "System\Runtime\InteropServices\GCHandle.hpp"
+#include "System/Runtime/InteropServices/GCHandle.hpp"
 // Including type: System.Guid
-#include "System\Guid.hpp"
+#include "System/Guid.hpp"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics::Tracing

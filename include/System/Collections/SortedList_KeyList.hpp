@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.SortedList
-#include "System\Collections\SortedList.hpp"
+#include "System/Collections/SortedList.hpp"
 // Including type: System.Collections.IList
-#include "System\Collections\IList.hpp"
+#include "System/Collections/IList.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine\Events\UnityEvent_1.hpp"
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Including type: UnityEngine.UI.CoroutineTween.FloatTween
-#include "UnityEngine\UI\CoroutineTween\FloatTween.hpp"
+#include "UnityEngine/UI/CoroutineTween/FloatTween.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI.CoroutineTween
 namespace UnityEngine::UI::CoroutineTween {

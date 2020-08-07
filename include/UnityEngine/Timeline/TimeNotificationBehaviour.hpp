@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.PlayableBehaviour
-#include "UnityEngine\Playables\PlayableBehaviour.hpp"
+#include "UnityEngine/Playables/PlayableBehaviour.hpp"
 // Including type: UnityEngine.Playables.Playable
-#include "UnityEngine\Playables\Playable.hpp"
+#include "UnityEngine/Playables/Playable.hpp"
 // Including type: UnityEngine.Timeline.NotificationFlags
-#include "UnityEngine\Timeline\NotificationFlags.hpp"
+#include "UnityEngine/Timeline/NotificationFlags.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables

@@ -6,7 +6,7 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

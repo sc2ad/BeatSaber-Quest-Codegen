@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IK
-#include "RootMotion\FinalIK\IK.hpp"
+#include "RootMotion/FinalIK/IK.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion

@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
-#include "NUnit\Framework\Internal\Commands\DelegatingTestCommand.hpp"
+#include "NUnit/Framework/Internal/Commands/DelegatingTestCommand.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
-#include "UnityEngine\TestRunner\NUnitExtensions\Runner\IEnumerableTestMethodCommand.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/IEnumerableTestMethodCommand.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

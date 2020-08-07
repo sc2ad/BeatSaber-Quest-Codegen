@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: PlatformUserModelSO
-#include "GlobalNamespace\PlatformUserModelSO.hpp"
+#include "GlobalNamespace/PlatformUserModelSO.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Graphic
-#include "UnityEngine\UI\Graphic.hpp"
+#include "UnityEngine/UI/Graphic.hpp"
 // Including type: UnityEngine.UI.IClippable
-#include "UnityEngine\UI\IClippable.hpp"
+#include "UnityEngine/UI/IClippable.hpp"
 // Including type: UnityEngine.UI.IMaskable
-#include "UnityEngine\UI\IMaskable.hpp"
+#include "UnityEngine/UI/IMaskable.hpp"
 // Including type: UnityEngine.UI.IMaterialModifier
-#include "UnityEngine\UI\IMaterialModifier.hpp"
+#include "UnityEngine/UI/IMaterialModifier.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI

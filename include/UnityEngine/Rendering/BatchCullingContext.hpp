@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Unity.Collections.NativeArray`1
-#include "Unity\Collections\NativeArray_1.hpp"
+#include "Unity/Collections/NativeArray_1.hpp"
 // Including type: UnityEngine.Plane
-#include "UnityEngine\Plane.hpp"
+#include "UnityEngine/Plane.hpp"
 // Including type: UnityEngine.Rendering.BatchVisibility
-#include "UnityEngine\Rendering\BatchVisibility.hpp"
+#include "UnityEngine/Rendering/BatchVisibility.hpp"
 // Including type: UnityEngine.Rendering.LODParameters
-#include "UnityEngine\Rendering\LODParameters.hpp"
+#include "UnityEngine/Rendering/LODParameters.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {

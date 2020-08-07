@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: System.Runtime.InteropServices.CallingConvention
-#include "System\Runtime\InteropServices\CallingConvention.hpp"
+#include "System/Runtime/InteropServices/CallingConvention.hpp"
 // Including type: System.Runtime.InteropServices.CharSet
-#include "System\Runtime\InteropServices\CharSet.hpp"
+#include "System/Runtime/InteropServices/CharSet.hpp"
 // Completed includes
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {

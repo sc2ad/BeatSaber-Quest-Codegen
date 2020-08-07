@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.MonoKernel
-#include "Zenject\MonoKernel.hpp"
+#include "Zenject/MonoKernel.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject

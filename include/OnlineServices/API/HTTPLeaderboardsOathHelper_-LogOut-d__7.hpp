@@ -5,15 +5,15 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OnlineServices.API.HTTPLeaderboardsOathHelper
-#include "OnlineServices\API\HTTPLeaderboardsOathHelper.hpp"
+#include "OnlineServices/API/HTTPLeaderboardsOathHelper.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;

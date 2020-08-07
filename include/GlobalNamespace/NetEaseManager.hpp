@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: NetEase.Docker.ReceivedHighscoreData
-#include "NetEase\Docker\ReceivedHighscoreData.hpp"
+#include "NetEase/Docker/ReceivedHighscoreData.hpp"
 // Including type: NetEase.Docker.InitializeData
-#include "NetEase\Docker\InitializeData.hpp"
+#include "NetEase/Docker/InitializeData.hpp"
 // Including type: NetEase.Docker.LoginData
-#include "NetEase\Docker\LoginData.hpp"
+#include "NetEase/Docker/LoginData.hpp"
 // Including type: NetEase.Docker.LogoutData
-#include "NetEase\Docker\LogoutData.hpp"
+#include "NetEase/Docker/LogoutData.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

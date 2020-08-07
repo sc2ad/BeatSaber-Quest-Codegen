@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.DecoderFallbackBuffer
-#include "System\Text\DecoderFallbackBuffer.hpp"
+#include "System/Text/DecoderFallbackBuffer.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text

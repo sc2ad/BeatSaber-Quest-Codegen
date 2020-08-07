@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-#include "System\Runtime\ConstrainedExecution\CriticalFinalizerObject.hpp"
+#include "System/Runtime/ConstrainedExecution/CriticalFinalizerObject.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Completed includes
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {

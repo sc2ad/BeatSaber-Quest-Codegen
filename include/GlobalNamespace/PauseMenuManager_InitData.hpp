@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: PauseMenuManager
-#include "GlobalNamespace\PauseMenuManager.hpp"
+#include "GlobalNamespace/PauseMenuManager.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

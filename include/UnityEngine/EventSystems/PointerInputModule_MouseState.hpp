@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.PointerInputModule
-#include "UnityEngine\EventSystems\PointerInputModule.hpp"
+#include "UnityEngine/EventSystems/PointerInputModule.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData
-#include "UnityEngine\EventSystems\PointerEventData.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

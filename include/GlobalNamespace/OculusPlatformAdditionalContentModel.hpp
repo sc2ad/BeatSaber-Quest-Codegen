@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: AdditionalContentModel
-#include "GlobalNamespace\AdditionalContentModel.hpp"
+#include "GlobalNamespace/AdditionalContentModel.hpp"
 // Including type: AdditionalContentModel/UpdateEntitlementsResult
-#include "GlobalNamespace\AdditionalContentModel_UpdateEntitlementsResult.hpp"
+#include "GlobalNamespace/AdditionalContentModel_UpdateEntitlementsResult.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

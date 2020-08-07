@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MarshalByRefObject
-#include "System\MarshalByRefObject.hpp"
+#include "System/MarshalByRefObject.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

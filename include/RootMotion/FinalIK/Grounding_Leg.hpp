@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.Grounding
-#include "RootMotion\FinalIK\Grounding.hpp"
+#include "RootMotion/FinalIK/Grounding.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
-#include "UnityEngine\Quaternion.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Including type: UnityEngine.RaycastHit
-#include "UnityEngine\RaycastHit.hpp"
+#include "UnityEngine/RaycastHit.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

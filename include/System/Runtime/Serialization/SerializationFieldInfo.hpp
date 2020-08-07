@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.FieldInfo
-#include "System\Reflection\FieldInfo.hpp"
+#include "System/Reflection/FieldInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Playables.IPlayableOutput
-#include "UnityEngine\Playables\IPlayableOutput.hpp"
+#include "UnityEngine/Playables/IPlayableOutput.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Playables.PlayableOutputHandle
-#include "UnityEngine\Playables\PlayableOutputHandle.hpp"
+#include "UnityEngine/Playables/PlayableOutputHandle.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Playables

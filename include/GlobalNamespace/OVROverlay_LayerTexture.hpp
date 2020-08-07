@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVROverlay
-#include "GlobalNamespace\OVROverlay.hpp"
+#include "GlobalNamespace/OVROverlay.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

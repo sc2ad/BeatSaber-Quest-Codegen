@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Cryptography.HashAlgorithm
-#include "System\Security\Cryptography\HashAlgorithm.hpp"
+#include "System/Security/Cryptography/HashAlgorithm.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {

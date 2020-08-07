@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MulticastDelegate
-#include "System\MulticastDelegate.hpp"
+#include "System/MulticastDelegate.hpp"
 // Including type: Valve.VR.CVRRenderModels
-#include "Valve\VR\CVRRenderModels.hpp"
+#include "Valve/VR/CVRRenderModels.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

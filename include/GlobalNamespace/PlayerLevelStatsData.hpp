@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RankModel/Rank
-#include "GlobalNamespace\RankModel_Rank.hpp"
+#include "GlobalNamespace/RankModel_Rank.hpp"
 // Including type: BeatmapDifficulty
-#include "GlobalNamespace\BeatmapDifficulty.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

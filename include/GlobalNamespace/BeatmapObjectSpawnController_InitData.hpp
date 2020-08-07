@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: BeatmapObjectSpawnController
-#include "GlobalNamespace\BeatmapObjectSpawnController.hpp"
+#include "GlobalNamespace/BeatmapObjectSpawnController.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

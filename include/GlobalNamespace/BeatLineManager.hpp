@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatLine
-#include "GlobalNamespace\BeatLine.hpp"
+#include "GlobalNamespace/BeatLine.hpp"
 // Including type: UnityEngine.Vector4
-#include "UnityEngine\Vector4.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

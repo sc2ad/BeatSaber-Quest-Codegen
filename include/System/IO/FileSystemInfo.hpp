@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MarshalByRefObject
-#include "System\MarshalByRefObject.hpp"
+#include "System/MarshalByRefObject.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.IO.MonoIOStat
-#include "System\IO\MonoIOStat.hpp"
+#include "System/IO/MonoIOStat.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization

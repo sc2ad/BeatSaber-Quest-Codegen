@@ -6,23 +6,23 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Vector4
-#include "UnityEngine\Vector4.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Including type: System.UInt32
-#include "System\UInt32.hpp"
+#include "System/UInt32.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
-#include "System\Collections\Generic\KeyValuePair_2.hpp"
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
-#include "UnityEngine\ProBuilder\Edge.hpp"
+#include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Timeline.TrackAsset
-#include "UnityEngine\Timeline\TrackAsset.hpp"
+#include "UnityEngine/Timeline/TrackAsset.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: UnityEngine.Playables.PlayableBinding
-#include "UnityEngine\Playables\PlayableBinding.hpp"
+#include "UnityEngine/Playables/PlayableBinding.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {

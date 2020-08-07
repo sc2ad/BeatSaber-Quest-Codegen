@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: PlayerSaveDataV1_0_1
-#include "GlobalNamespace\PlayerSaveDataV1_0_1.hpp"
+#include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
 // Including type: BeatmapDifficulty
-#include "GlobalNamespace\BeatmapDifficulty.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Including type: RankModel/Rank
-#include "GlobalNamespace\RankModel_Rank.hpp"
+#include "GlobalNamespace/RankModel_Rank.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

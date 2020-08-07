@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: HMUI.ITableCellOwner
-#include "HMUI\ITableCellOwner.hpp"
+#include "HMUI/ITableCellOwner.hpp"
 // Including type: HMUI.TableViewSelectionType
-#include "HMUI\TableViewSelectionType.hpp"
+#include "HMUI/TableViewSelectionType.hpp"
 // Including type: HMUI.TableViewScroller
-#include "HMUI\TableViewScroller.hpp"
+#include "HMUI/TableViewScroller.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

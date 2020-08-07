@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.EventSystems.IPointerClickHandler
-#include "UnityEngine\EventSystems\IPointerClickHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerClickHandler.hpp"
 // Including type: UnityEngine.EventSystems.ISelectHandler
-#include "UnityEngine\EventSystems\ISelectHandler.hpp"
+#include "UnityEngine/EventSystems/ISelectHandler.hpp"
 // Including type: UnityEngine.EventSystems.IDeselectHandler
-#include "UnityEngine\EventSystems\IDeselectHandler.hpp"
+#include "UnityEngine/EventSystems/IDeselectHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems

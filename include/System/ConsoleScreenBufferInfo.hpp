@@ -6,11 +6,11 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Coord
-#include "System\Coord.hpp"
+#include "System/Coord.hpp"
 // Including type: System.SmallRect
-#include "System\SmallRect.hpp"
+#include "System/SmallRect.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

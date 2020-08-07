@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: BloomPrePassRenderDataSO
-#include "GlobalNamespace\BloomPrePassRenderDataSO.hpp"
+#include "GlobalNamespace/BloomPrePassRenderDataSO.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Matrix4x4
-#include "UnityEngine\Matrix4x4.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

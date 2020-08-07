@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: UnityEngine.UI.ILayoutController
-#include "UnityEngine\UI\ILayoutController.hpp"
+#include "UnityEngine/UI/ILayoutController.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

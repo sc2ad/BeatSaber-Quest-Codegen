@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Analytics.DataPrivacy
-#include "UnityEngine\Analytics\DataPrivacy.hpp"
+#include "UnityEngine/Analytics/DataPrivacy.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;

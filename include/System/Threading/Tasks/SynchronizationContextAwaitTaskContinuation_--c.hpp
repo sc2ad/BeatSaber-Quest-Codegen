@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation
-#include "System\Threading\Tasks\SynchronizationContextAwaitTaskContinuation.hpp"
+#include "System/Threading/Tasks/SynchronizationContextAwaitTaskContinuation.hpp"
 // Completed includes
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {

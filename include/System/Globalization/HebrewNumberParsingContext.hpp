@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Globalization.HebrewNumber/HS
-#include "System\Globalization\HebrewNumber_HS.hpp"
+#include "System/Globalization/HebrewNumber_HS.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {

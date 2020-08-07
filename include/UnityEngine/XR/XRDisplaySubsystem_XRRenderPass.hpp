@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.RenderTextureDescriptor
-#include "UnityEngine\RenderTextureDescriptor.hpp"
+#include "UnityEngine/RenderTextureDescriptor.hpp"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.XR.XRDisplaySubsystem
-#include "UnityEngine\XR\XRDisplaySubsystem.hpp"
+#include "UnityEngine/XR/XRDisplaySubsystem.hpp"
 // Including type: UnityEngine.Rendering.RenderTargetIdentifier
-#include "UnityEngine\Rendering\RenderTargetIdentifier.hpp"
+#include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.UIBehaviour
-#include "UnityEngine\EventSystems\UIBehaviour.hpp"
+#include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.ICanvasRaycastFilter
-#include "UnityEngine\ICanvasRaycastFilter.hpp"
+#include "UnityEngine/ICanvasRaycastFilter.hpp"
 // Including type: UnityEngine.UI.IMaterialModifier
-#include "UnityEngine\UI\IMaterialModifier.hpp"
+#include "UnityEngine/UI/IMaterialModifier.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

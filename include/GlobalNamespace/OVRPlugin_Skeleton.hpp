@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin
-#include "GlobalNamespace\OVRPlugin.hpp"
+#include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: OVRPlugin/SkeletonType
-#include "GlobalNamespace\OVRPlugin_SkeletonType.hpp"
+#include "GlobalNamespace/OVRPlugin_SkeletonType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

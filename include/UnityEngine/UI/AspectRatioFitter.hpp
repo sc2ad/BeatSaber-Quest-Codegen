@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.UIBehaviour
-#include "UnityEngine\EventSystems\UIBehaviour.hpp"
+#include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.UI.ILayoutSelfController
-#include "UnityEngine\UI\ILayoutSelfController.hpp"
+#include "UnityEngine/UI/ILayoutSelfController.hpp"
 // Including type: UnityEngine.DrivenRectTransformTracker
-#include "UnityEngine\DrivenRectTransformTracker.hpp"
+#include "UnityEngine/DrivenRectTransformTracker.hpp"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

@@ -5,13 +5,13 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Collections.Generic.IList`1
-#include "System\Collections\Generic\IList_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Including type: System.Collections.Generic.IReadOnlyList`1
-#include "System\Collections\Generic\IReadOnlyList_1.hpp"
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

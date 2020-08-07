@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.TextReader
-#include "System\IO\TextReader.hpp"
+#include "System/IO/TextReader.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

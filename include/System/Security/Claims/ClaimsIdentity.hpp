@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Security.Principal.IIdentity
-#include "System\Security\Principal\IIdentity.hpp"
+#include "System/Security/Principal/IIdentity.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Claims

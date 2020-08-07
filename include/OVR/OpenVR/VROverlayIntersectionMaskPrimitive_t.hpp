@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType
-#include "OVR\OpenVR\EVROverlayIntersectionMaskPrimitiveType.hpp"
+#include "OVR/OpenVR/EVROverlayIntersectionMaskPrimitiveType.hpp"
 // Including type: OVR.OpenVR.VROverlayIntersectionMaskPrimitive_Data_t
-#include "OVR\OpenVR\VROverlayIntersectionMaskPrimitive_Data_t.hpp"
+#include "OVR/OpenVR/VROverlayIntersectionMaskPrimitive_Data_t.hpp"
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

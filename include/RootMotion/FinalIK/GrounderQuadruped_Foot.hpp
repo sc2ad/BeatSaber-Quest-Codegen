@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: RootMotion.FinalIK.GrounderQuadruped
-#include "RootMotion\FinalIK\GrounderQuadruped.hpp"
+#include "RootMotion/FinalIK/GrounderQuadruped.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

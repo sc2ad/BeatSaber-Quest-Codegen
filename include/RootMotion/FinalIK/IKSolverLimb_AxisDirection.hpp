@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: RootMotion.FinalIK.IKSolverLimb
-#include "RootMotion\FinalIK\IKSolverLimb.hpp"
+#include "RootMotion/FinalIK/IKSolverLimb.hpp"
 // Completed includes
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {

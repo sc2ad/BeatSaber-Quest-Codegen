@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Selectable
-#include "UnityEngine\UI\Selectable.hpp"
+#include "UnityEngine/UI/Selectable.hpp"
 // Including type: UnityEngine.EventSystems.IPointerClickHandler
-#include "UnityEngine\EventSystems\IPointerClickHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerClickHandler.hpp"
 // Including type: UnityEngine.EventSystems.ISubmitHandler
-#include "UnityEngine\EventSystems\ISubmitHandler.hpp"
+#include "UnityEngine/EventSystems/ISubmitHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI

@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRMeshRenderer
-#include "GlobalNamespace\OVRMeshRenderer.hpp"
+#include "GlobalNamespace/OVRMeshRenderer.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

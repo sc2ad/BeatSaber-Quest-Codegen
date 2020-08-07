@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.FormatterTypeStyle
-#include "System\Runtime\Serialization\Formatters\FormatterTypeStyle.hpp"
+#include "System/Runtime/Serialization/Formatters/FormatterTypeStyle.hpp"
 // Including type: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
-#include "System\Runtime\Serialization\Formatters\FormatterAssemblyStyle.hpp"
+#include "System/Runtime/Serialization/Formatters/FormatterAssemblyStyle.hpp"
 // Including type: System.Runtime.Serialization.Formatters.TypeFilterLevel
-#include "System\Runtime\Serialization\Formatters\TypeFilterLevel.hpp"
+#include "System/Runtime/Serialization/Formatters/TypeFilterLevel.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalSerializerTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalSerializerTypeE.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {

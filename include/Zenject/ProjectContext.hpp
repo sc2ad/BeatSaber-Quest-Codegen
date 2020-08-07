@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.Context
-#include "Zenject\Context.hpp"
+#include "Zenject/Context.hpp"
 // Including type: Zenject.ReflectionBakingCoverageModes
-#include "Zenject\ReflectionBakingCoverageModes.hpp"
+#include "Zenject/ReflectionBakingCoverageModes.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: TMPro.TMP_InputField
-#include "TMPro\TMP_InputField.hpp"
+#include "TMPro/TMP_InputField.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Stack
-#include "System\Collections\Stack.hpp"
+#include "System/Collections/Stack.hpp"
 // Completed includes
 // Type namespace: UnityEngineInternal
 namespace UnityEngineInternal {

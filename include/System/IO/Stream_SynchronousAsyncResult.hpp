@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IO.Stream
-#include "System\IO\Stream.hpp"
+#include "System/IO/Stream.hpp"
 // Including type: System.IAsyncResult
-#include "System\IAsyncResult.hpp"
+#include "System/IAsyncResult.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

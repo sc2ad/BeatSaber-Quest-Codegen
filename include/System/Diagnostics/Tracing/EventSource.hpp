@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: System.Guid
-#include "System\Guid.hpp"
+#include "System/Guid.hpp"
 // Including type: System.Diagnostics.Tracing.EventSourceSettings
-#include "System\Diagnostics\Tracing\EventSourceSettings.hpp"
+#include "System/Diagnostics/Tracing/EventSourceSettings.hpp"
 // Including type: System.Diagnostics.Tracing.EventLevel
-#include "System\Diagnostics\Tracing\EventLevel.hpp"
+#include "System/Diagnostics/Tracing/EventLevel.hpp"
 // Including type: System.Diagnostics.Tracing.EventKeywords
-#include "System\Diagnostics\Tracing\EventKeywords.hpp"
+#include "System/Diagnostics/Tracing/EventKeywords.hpp"
 // Including type: System.Diagnostics.Tracing.SessionMask
-#include "System\Diagnostics\Tracing\SessionMask.hpp"
+#include "System/Diagnostics/Tracing/SessionMask.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics::Tracing

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Messaging.IMethodMessage
-#include "System\Runtime\Remoting\Messaging\IMethodMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/IMethodMessage.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.InjectAttributeBase
-#include "Zenject\InjectAttributeBase.hpp"
+#include "Zenject/InjectAttributeBase.hpp"
 // Completed includes
 // Type namespace: Zenject
 namespace Zenject {

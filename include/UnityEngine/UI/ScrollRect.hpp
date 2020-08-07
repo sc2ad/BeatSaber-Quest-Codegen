@@ -6,31 +6,31 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.UIBehaviour
-#include "UnityEngine\EventSystems\UIBehaviour.hpp"
+#include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.EventSystems.IInitializePotentialDragHandler
-#include "UnityEngine\EventSystems\IInitializePotentialDragHandler.hpp"
+#include "UnityEngine/EventSystems/IInitializePotentialDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IBeginDragHandler
-#include "UnityEngine\EventSystems\IBeginDragHandler.hpp"
+#include "UnityEngine/EventSystems/IBeginDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IEndDragHandler
-#include "UnityEngine\EventSystems\IEndDragHandler.hpp"
+#include "UnityEngine/EventSystems/IEndDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IDragHandler
-#include "UnityEngine\EventSystems\IDragHandler.hpp"
+#include "UnityEngine/EventSystems/IDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IScrollHandler
-#include "UnityEngine\EventSystems\IScrollHandler.hpp"
+#include "UnityEngine/EventSystems/IScrollHandler.hpp"
 // Including type: UnityEngine.UI.ICanvasElement
-#include "UnityEngine\UI\ICanvasElement.hpp"
+#include "UnityEngine/UI/ICanvasElement.hpp"
 // Including type: UnityEngine.UI.ILayoutElement
-#include "UnityEngine\UI\ILayoutElement.hpp"
+#include "UnityEngine/UI/ILayoutElement.hpp"
 // Including type: UnityEngine.UI.ILayoutGroup
-#include "UnityEngine\UI\ILayoutGroup.hpp"
+#include "UnityEngine/UI/ILayoutGroup.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Bounds
-#include "UnityEngine\Bounds.hpp"
+#include "UnityEngine/Bounds.hpp"
 // Including type: UnityEngine.DrivenRectTransformTracker
-#include "UnityEngine\DrivenRectTransformTracker.hpp"
+#include "UnityEngine/DrivenRectTransformTracker.hpp"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI

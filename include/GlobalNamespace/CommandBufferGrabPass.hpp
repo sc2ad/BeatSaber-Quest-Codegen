@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CommandBufferGOCore
-#include "GlobalNamespace\CommandBufferGOCore.hpp"
+#include "GlobalNamespace/CommandBufferGOCore.hpp"
 // Including type: UnityEngine.Rendering.CameraEvent
-#include "UnityEngine\Rendering\CameraEvent.hpp"
+#include "UnityEngine/Rendering/CameraEvent.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

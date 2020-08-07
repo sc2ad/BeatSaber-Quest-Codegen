@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Identity
-#include "System\Runtime\Remoting\Identity.hpp"
+#include "System/Runtime/Remoting/Identity.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

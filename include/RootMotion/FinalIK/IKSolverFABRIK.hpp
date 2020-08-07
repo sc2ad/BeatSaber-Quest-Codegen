@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IKSolverHeuristic
-#include "RootMotion\FinalIK\IKSolverHeuristic.hpp"
+#include "RootMotion/FinalIK/IKSolverHeuristic.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

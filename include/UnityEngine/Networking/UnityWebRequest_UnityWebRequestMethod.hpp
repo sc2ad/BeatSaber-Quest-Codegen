@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.Networking.UnityWebRequest
-#include "UnityEngine\Networking\UnityWebRequest.hpp"
+#include "UnityEngine/Networking/UnityWebRequest.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: VRControllerTransformOffset
-#include "GlobalNamespace\VRControllerTransformOffset.hpp"
+#include "GlobalNamespace/VRControllerTransformOffset.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

@@ -4,109 +4,109 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.CAPI
-#include "Oculus\Platform\CAPI.hpp"
+#include "Oculus/Platform/CAPI.hpp"
 // Including type: Oculus.Platform.CAPI/ovrKeyValuePair
-#include "Oculus\Platform\CAPI_ovrKeyValuePair.hpp"
+#include "Oculus/Platform/CAPI_ovrKeyValuePair.hpp"
 // Including type: Oculus.Platform.CAPI/ovrNetSyncVec3
-#include "Oculus\Platform\CAPI_ovrNetSyncVec3.hpp"
+#include "Oculus/Platform/CAPI_ovrNetSyncVec3.hpp"
 // Including type: Oculus.Platform.CAPI/ovrMatchmakingCriterion
-#include "Oculus\Platform\CAPI_ovrMatchmakingCriterion.hpp"
+#include "Oculus/Platform/CAPI_ovrMatchmakingCriterion.hpp"
 // Including type: Oculus.Platform.CAPI/ovrMatchmakingCustomQueryData
-#include "Oculus\Platform\CAPI_ovrMatchmakingCustomQueryData.hpp"
+#include "Oculus/Platform/CAPI_ovrMatchmakingCustomQueryData.hpp"
 // Including type: Oculus.Platform.CAPI/OculusInitParams
-#include "Oculus\Platform\CAPI_OculusInitParams.hpp"
+#include "Oculus/Platform/CAPI_OculusInitParams.hpp"
 // Including type: Oculus.Platform.CAPI/FilterCallback
-#include "Oculus\Platform\CAPI_FilterCallback.hpp"
+#include "Oculus/Platform/CAPI_FilterCallback.hpp"
 // Including type: System.String
-#include "System\String.hpp"
+#include "System/String.hpp"
 // Including type: System.Text.UTF8Encoding
-#include "System\Text\UTF8Encoding.hpp"
+#include "System/Text/UTF8Encoding.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: System.Array
-#include "System\Array.hpp"
+#include "System/Array.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
-#include "System\Collections\Generic\Dictionary_2.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Including type: Oculus.Platform.VoipMuteState
-#include "Oculus\Platform\VoipMuteState.hpp"
+#include "Oculus/Platform/VoipMuteState.hpp"
 // Including type: System.UIntPtr
-#include "System\UIntPtr.hpp"
+#include "System/UIntPtr.hpp"
 // Including type: Oculus.Platform.SendPolicy
-#include "Oculus\Platform\SendPolicy.hpp"
+#include "Oculus/Platform/SendPolicy.hpp"
 // Including type: Oculus.Platform.SystemVoipStatus
-#include "Oculus\Platform\SystemVoipStatus.hpp"
+#include "Oculus/Platform/SystemVoipStatus.hpp"
 // Including type: Oculus.Platform.VoipDtxState
-#include "Oculus\Platform\VoipDtxState.hpp"
+#include "Oculus/Platform/VoipDtxState.hpp"
 // Including type: Oculus.Platform.VoipBitrate
-#include "Oculus\Platform\VoipBitrate.hpp"
+#include "Oculus/Platform/VoipBitrate.hpp"
 // Including type: Oculus.Platform.VoipSampleRate
-#include "Oculus\Platform\VoipSampleRate.hpp"
+#include "Oculus/Platform/VoipSampleRate.hpp"
 // Including type: Oculus.Platform.LeaderboardFilterType
-#include "Oculus\Platform\LeaderboardFilterType.hpp"
+#include "Oculus/Platform/LeaderboardFilterType.hpp"
 // Including type: Oculus.Platform.LeaderboardStartAt
-#include "Oculus\Platform\LeaderboardStartAt.hpp"
+#include "Oculus/Platform/LeaderboardStartAt.hpp"
 // Including type: Oculus.Platform.LivestreamingAudience
-#include "Oculus\Platform\LivestreamingAudience.hpp"
+#include "Oculus/Platform/LivestreamingAudience.hpp"
 // Including type: Oculus.Platform.LivestreamingMicrophoneStatus
-#include "Oculus\Platform\LivestreamingMicrophoneStatus.hpp"
+#include "Oculus/Platform/LivestreamingMicrophoneStatus.hpp"
 // Including type: Oculus.Platform.MatchmakingStatApproach
-#include "Oculus\Platform\MatchmakingStatApproach.hpp"
+#include "Oculus/Platform/MatchmakingStatApproach.hpp"
 // Including type: Oculus.Platform.MediaContentType
-#include "Oculus\Platform\MediaContentType.hpp"
+#include "Oculus/Platform/MediaContentType.hpp"
 // Including type: Oculus.Platform.NetSyncVoipMicSource
-#include "Oculus\Platform\NetSyncVoipMicSource.hpp"
+#include "Oculus/Platform/NetSyncVoipMicSource.hpp"
 // Including type: Oculus.Platform.NetSyncVoipStreamMode
-#include "Oculus\Platform\NetSyncVoipStreamMode.hpp"
+#include "Oculus/Platform/NetSyncVoipStreamMode.hpp"
 // Including type: Oculus.Platform.RoomJoinPolicy
-#include "Oculus\Platform\RoomJoinPolicy.hpp"
+#include "Oculus/Platform/RoomJoinPolicy.hpp"
 // Including type: Oculus.Platform.RoomMembershipLockStatus
-#include "Oculus\Platform\RoomMembershipLockStatus.hpp"
+#include "Oculus/Platform/RoomMembershipLockStatus.hpp"
 // Including type: Oculus.Platform.PermissionType
-#include "Oculus\Platform\PermissionType.hpp"
+#include "Oculus/Platform/PermissionType.hpp"
 // Including type: Oculus.Platform.AchievementType
-#include "Oculus\Platform\AchievementType.hpp"
+#include "Oculus/Platform/AchievementType.hpp"
 // Including type: Oculus.Platform.CloudStorageDataStatus
-#include "Oculus\Platform\CloudStorageDataStatus.hpp"
+#include "Oculus/Platform/CloudStorageDataStatus.hpp"
 // Including type: Oculus.Platform.CloudStorageUpdateStatus
-#include "Oculus\Platform\CloudStorageUpdateStatus.hpp"
+#include "Oculus/Platform/CloudStorageUpdateStatus.hpp"
 // Including type: Oculus.Platform.LaunchType
-#include "Oculus\Platform\LaunchType.hpp"
+#include "Oculus/Platform/LaunchType.hpp"
 // Including type: Oculus.Platform.ServiceProvider
-#include "Oculus\Platform\ServiceProvider.hpp"
+#include "Oculus/Platform/ServiceProvider.hpp"
 // Including type: Oculus.Platform.LivestreamingStartStatus
-#include "Oculus\Platform\LivestreamingStartStatus.hpp"
+#include "Oculus/Platform/LivestreamingStartStatus.hpp"
 // Including type: Oculus.Platform.NetSyncDisconnectReason
-#include "Oculus\Platform\NetSyncDisconnectReason.hpp"
+#include "Oculus/Platform/NetSyncDisconnectReason.hpp"
 // Including type: Oculus.Platform.NetSyncConnectionStatus
-#include "Oculus\Platform\NetSyncConnectionStatus.hpp"
+#include "Oculus/Platform/NetSyncConnectionStatus.hpp"
 // Including type: Oculus.Platform.PeerConnectionState
-#include "Oculus\Platform\PeerConnectionState.hpp"
+#include "Oculus/Platform/PeerConnectionState.hpp"
 // Including type: Oculus.Platform.PartyUpdateAction
-#include "Oculus\Platform\PartyUpdateAction.hpp"
+#include "Oculus/Platform/PartyUpdateAction.hpp"
 // Including type: Oculus.Platform.PlatformInitializeResult
-#include "Oculus\Platform\PlatformInitializeResult.hpp"
+#include "Oculus/Platform/PlatformInitializeResult.hpp"
 // Including type: Oculus.Platform.RoomJoinability
-#include "Oculus\Platform\RoomJoinability.hpp"
+#include "Oculus/Platform/RoomJoinability.hpp"
 // Including type: Oculus.Platform.RoomType
-#include "Oculus\Platform\RoomType.hpp"
+#include "Oculus/Platform/RoomType.hpp"
 // Including type: Oculus.Platform.SdkAccountType
-#include "Oculus\Platform\SdkAccountType.hpp"
+#include "Oculus/Platform/SdkAccountType.hpp"
 // Including type: Oculus.Platform.ShareMediaStatus
-#include "Oculus\Platform\ShareMediaStatus.hpp"
+#include "Oculus/Platform/ShareMediaStatus.hpp"
 // Including type: Oculus.Platform.PermissionGrantStatus
-#include "Oculus\Platform\PermissionGrantStatus.hpp"
+#include "Oculus/Platform/PermissionGrantStatus.hpp"
 // Including type: Oculus.Platform.UserPresenceStatus
-#include "Oculus\Platform\UserPresenceStatus.hpp"
+#include "Oculus/Platform/UserPresenceStatus.hpp"
 // Including type: Oculus.Platform.AbuseReportType
-#include "Oculus\Platform\AbuseReportType.hpp"
+#include "Oculus/Platform/AbuseReportType.hpp"
 // Including type: Oculus.Platform.RichPresenceExtraContext
-#include "Oculus\Platform\RichPresenceExtraContext.hpp"
+#include "Oculus/Platform/RichPresenceExtraContext.hpp"
 // Including type: Oculus.Platform.UserOrdering
-#include "Oculus\Platform\UserOrdering.hpp"
+#include "Oculus/Platform/UserOrdering.hpp"
 // Including type: Oculus.Platform.TimeWindow
-#include "Oculus\Platform\TimeWindow.hpp"
+#include "Oculus/Platform/TimeWindow.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated static field getter

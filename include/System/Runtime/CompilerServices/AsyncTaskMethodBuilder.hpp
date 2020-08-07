@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder_1.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: System.Threading.Tasks.VoidTaskResult
-#include "System\Threading\Tasks\VoidTaskResult.hpp"
+#include "System/Threading/Tasks/VoidTaskResult.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

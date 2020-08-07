@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.IXmlNodeBuilder
-#include "NUnit\Framework\Interfaces\IXmlNodeBuilder.hpp"
+#include "NUnit/Framework/Interfaces/IXmlNodeBuilder.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces

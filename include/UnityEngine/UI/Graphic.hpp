@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.UIBehaviour
-#include "UnityEngine\EventSystems\UIBehaviour.hpp"
+#include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.UI.ICanvasElement
-#include "UnityEngine\UI\ICanvasElement.hpp"
+#include "UnityEngine/UI/ICanvasElement.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.UI.CoroutineTween.ColorTween
-#include "UnityEngine\UI\CoroutineTween\ColorTween.hpp"
+#include "UnityEngine/UI/CoroutineTween/ColorTween.hpp"
 // Including type: UnityEngine.UIVertex
-#include "UnityEngine\UIVertex.hpp"
+#include "UnityEngine/UIVertex.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

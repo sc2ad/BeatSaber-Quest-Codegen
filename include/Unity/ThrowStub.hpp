@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ObjectDisposedException
-#include "System\ObjectDisposedException.hpp"
+#include "System/ObjectDisposedException.hpp"
 // Completed includes
 // Type namespace: Unity
 namespace Unity {

@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.XR.MeshId
-#include "UnityEngine\XR\MeshId.hpp"
+#include "UnityEngine/XR/MeshId.hpp"
 // Including type: UnityEngine.XR.MeshGenerationStatus
-#include "UnityEngine\XR\MeshGenerationStatus.hpp"
+#include "UnityEngine/XR/MeshGenerationStatus.hpp"
 // Including type: UnityEngine.XR.MeshVertexAttributes
-#include "UnityEngine\XR\MeshVertexAttributes.hpp"
+#include "UnityEngine/XR/MeshVertexAttributes.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

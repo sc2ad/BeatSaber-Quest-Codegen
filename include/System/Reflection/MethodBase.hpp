@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.MemberInfo
-#include "System\Reflection\MemberInfo.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Including type: System.Runtime.InteropServices._MethodBase
-#include "System\Runtime\InteropServices\_MethodBase.hpp"
+#include "System/Runtime/InteropServices/_MethodBase.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

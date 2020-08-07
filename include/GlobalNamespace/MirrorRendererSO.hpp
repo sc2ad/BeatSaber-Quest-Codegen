@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PersistentScriptableObject
-#include "GlobalNamespace\PersistentScriptableObject.hpp"
+#include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: UnityEngine.LayerMask
-#include "UnityEngine\LayerMask.hpp"
+#include "UnityEngine/LayerMask.hpp"
 // Including type: UnityEngine.Rect
-#include "UnityEngine\Rect.hpp"
+#include "UnityEngine/Rect.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

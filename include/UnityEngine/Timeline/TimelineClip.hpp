@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Timeline.ICurvesOwner
-#include "UnityEngine\Timeline\ICurvesOwner.hpp"
+#include "UnityEngine/Timeline/ICurvesOwner.hpp"
 // Including type: UnityEngine.ISerializationCallbackReceiver
-#include "UnityEngine\ISerializationCallbackReceiver.hpp"
+#include "UnityEngine/ISerializationCallbackReceiver.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Including type: UnityEngine.Timeline.ClipCaps
-#include "UnityEngine\Timeline\ClipCaps.hpp"
+#include "UnityEngine/Timeline/ClipCaps.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline

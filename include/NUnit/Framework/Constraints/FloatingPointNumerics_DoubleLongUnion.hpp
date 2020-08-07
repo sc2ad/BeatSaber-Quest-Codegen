@@ -6,9 +6,9 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: NUnit.Framework.Constraints.FloatingPointNumerics
-#include "NUnit\Framework\Constraints\FloatingPointNumerics.hpp"
+#include "NUnit/Framework/Constraints/FloatingPointNumerics.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {

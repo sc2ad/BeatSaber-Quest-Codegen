@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRSystemPerfMetrics
-#include "GlobalNamespace\OVRSystemPerfMetrics.hpp"
+#include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
 // Including type: OVRNetwork
-#include "GlobalNamespace\OVRNetwork.hpp"
+#include "GlobalNamespace/OVRNetwork.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

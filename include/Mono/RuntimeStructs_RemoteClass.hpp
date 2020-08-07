@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
-#include "Mono\RuntimeStructs.hpp"
+#include "Mono/RuntimeStructs.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Completed includes
 // Type namespace: Mono
 namespace Mono {

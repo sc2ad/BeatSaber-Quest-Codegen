@@ -4,8 +4,8 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Generic.CollectionExtensions
-#include "System\Collections\Generic\CollectionExtensions.hpp"
+#include "System/Collections/Generic/CollectionExtensions.hpp"
 // Including type: System.Collections.Generic.IReadOnlyDictionary`2
-#include "System\Collections\Generic\IReadOnlyDictionary_2.hpp"
+#include "System/Collections/Generic/IReadOnlyDictionary_2.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

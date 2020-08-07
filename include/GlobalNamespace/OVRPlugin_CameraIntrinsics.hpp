@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin
-#include "GlobalNamespace\OVRPlugin.hpp"
+#include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: OVRPlugin/Bool
-#include "GlobalNamespace\OVRPlugin_Bool.hpp"
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
 // Including type: OVRPlugin/Fovf
-#include "GlobalNamespace\OVRPlugin_Fovf.hpp"
+#include "GlobalNamespace/OVRPlugin_Fovf.hpp"
 // Including type: OVRPlugin/Sizei
-#include "GlobalNamespace\OVRPlugin_Sizei.hpp"
+#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -6,9 +6,9 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.VRControllerAxis_t
-#include "OVR\OpenVR\VRControllerAxis_t.hpp"
+#include "OVR/OpenVR/VRControllerAxis_t.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR

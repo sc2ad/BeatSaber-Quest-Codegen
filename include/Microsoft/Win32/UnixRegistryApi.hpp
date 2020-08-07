@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Microsoft.Win32.IRegistryApi
-#include "Microsoft\Win32\IRegistryApi.hpp"
+#include "Microsoft/Win32/IRegistryApi.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Microsoft::Win32

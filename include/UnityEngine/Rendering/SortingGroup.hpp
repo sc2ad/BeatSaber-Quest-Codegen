@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Behaviour
-#include "UnityEngine\Behaviour.hpp"
+#include "UnityEngine/Behaviour.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {

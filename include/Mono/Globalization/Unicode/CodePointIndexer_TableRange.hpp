@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Mono.Globalization.Unicode.CodePointIndexer
-#include "Mono\Globalization\Unicode\CodePointIndexer.hpp"
+#include "Mono/Globalization/Unicode/CodePointIndexer.hpp"
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {

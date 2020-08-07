@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: HMUI.ViewController
-#include "HMUI\ViewController.hpp"
+#include "HMUI/ViewController.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {

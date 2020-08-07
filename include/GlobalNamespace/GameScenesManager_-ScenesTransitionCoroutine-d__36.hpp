@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: GameScenesManager
-#include "GlobalNamespace\GameScenesManager.hpp"
+#include "GlobalNamespace/GameScenesManager.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: GameScenesManager/ScenePresentType
-#include "GlobalNamespace\GameScenesManager_ScenePresentType.hpp"
+#include "GlobalNamespace/GameScenesManager_ScenePresentType.hpp"
 // Including type: GameScenesManager/SceneDismissType
-#include "GlobalNamespace\GameScenesManager_SceneDismissType.hpp"
+#include "GlobalNamespace/GameScenesManager_SceneDismissType.hpp"
 // Including type: System.Collections.Generic.List`1/Enumerator
-#include "System\Collections\Generic\List_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

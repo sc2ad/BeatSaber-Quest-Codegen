@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.Internal.ReflectionTypeAnalyzer
-#include "Zenject\Internal\ReflectionTypeAnalyzer.hpp"
+#include "Zenject/Internal/ReflectionTypeAnalyzer.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

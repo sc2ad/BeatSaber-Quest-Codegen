@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.TableCell
-#include "HMUI\TableCell.hpp"
+#include "HMUI/TableCell.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro

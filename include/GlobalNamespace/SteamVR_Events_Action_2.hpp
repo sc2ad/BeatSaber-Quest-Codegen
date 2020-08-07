@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SteamVR_Events/Action
-#include "GlobalNamespace\SteamVR_Events_Action.hpp"
+#include "GlobalNamespace/SteamVR_Events_Action.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

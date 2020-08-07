@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Assets.OVR.Scripts.Record
-#include "Assets\OVR\Scripts\Record.hpp"
+#include "Assets/OVR/Scripts/Record.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Assets::OVR::Scripts

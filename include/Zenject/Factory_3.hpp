@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.PlaceholderFactory`3
-#include "Zenject\PlaceholderFactory_3.hpp"
+#include "Zenject/PlaceholderFactory_3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Type namespace: Zenject

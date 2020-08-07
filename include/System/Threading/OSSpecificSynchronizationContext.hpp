@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.SynchronizationContext
-#include "System\Threading\SynchronizationContext.hpp"
+#include "System/Threading/SynchronizationContext.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

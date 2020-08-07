@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: SteamVR_TrackedObject/EIndex
-#include "GlobalNamespace\SteamVR_TrackedObject.hpp"
+#include "GlobalNamespace/SteamVR_TrackedObject.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

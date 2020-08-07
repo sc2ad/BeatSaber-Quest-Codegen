@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ScriptableObject
-#include "UnityEngine\ScriptableObject.hpp"
+#include "UnityEngine/ScriptableObject.hpp"
 // Including type: UnityEngine.ISerializationCallbackReceiver
-#include "UnityEngine\ISerializationCallbackReceiver.hpp"
+#include "UnityEngine/ISerializationCallbackReceiver.hpp"
 // Including type: UnityEngine.ProBuilder.IHasDefault
-#include "UnityEngine\ProBuilder\IHasDefault.hpp"
+#include "UnityEngine/ProBuilder/IHasDefault.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

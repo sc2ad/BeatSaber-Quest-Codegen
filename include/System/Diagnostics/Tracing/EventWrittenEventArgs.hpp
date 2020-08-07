@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.EventArgs
-#include "System\EventArgs.hpp"
+#include "System/EventArgs.hpp"
 // Including type: System.Guid
-#include "System\Guid.hpp"
+#include "System/Guid.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::ObjectModel

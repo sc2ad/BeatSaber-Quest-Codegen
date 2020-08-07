@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Net.Sockets.IPProtectionLevel
-#include "System\Net\Sockets\IPProtectionLevel.hpp"
+#include "System/Net/Sockets/IPProtectionLevel.hpp"
 // Completed includes
 // Type namespace: System.Net.Configuration
 namespace System::Net::Configuration {

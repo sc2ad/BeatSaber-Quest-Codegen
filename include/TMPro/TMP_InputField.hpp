@@ -6,29 +6,29 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Selectable
-#include "UnityEngine\UI\Selectable.hpp"
+#include "UnityEngine/UI/Selectable.hpp"
 // Including type: UnityEngine.EventSystems.IUpdateSelectedHandler
-#include "UnityEngine\EventSystems\IUpdateSelectedHandler.hpp"
+#include "UnityEngine/EventSystems/IUpdateSelectedHandler.hpp"
 // Including type: UnityEngine.EventSystems.IBeginDragHandler
-#include "UnityEngine\EventSystems\IBeginDragHandler.hpp"
+#include "UnityEngine/EventSystems/IBeginDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IDragHandler
-#include "UnityEngine\EventSystems\IDragHandler.hpp"
+#include "UnityEngine/EventSystems/IDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IEndDragHandler
-#include "UnityEngine\EventSystems\IEndDragHandler.hpp"
+#include "UnityEngine/EventSystems/IEndDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerClickHandler
-#include "UnityEngine\EventSystems\IPointerClickHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerClickHandler.hpp"
 // Including type: UnityEngine.EventSystems.ISubmitHandler
-#include "UnityEngine\EventSystems\ISubmitHandler.hpp"
+#include "UnityEngine/EventSystems/ISubmitHandler.hpp"
 // Including type: UnityEngine.UI.ICanvasElement
-#include "UnityEngine\UI\ICanvasElement.hpp"
+#include "UnityEngine/UI/ICanvasElement.hpp"
 // Including type: UnityEngine.UI.ILayoutElement
-#include "UnityEngine\UI\ILayoutElement.hpp"
+#include "UnityEngine/UI/ILayoutElement.hpp"
 // Including type: UnityEngine.EventSystems.IScrollHandler
-#include "UnityEngine\EventSystems\IScrollHandler.hpp"
+#include "UnityEngine/EventSystems/IScrollHandler.hpp"
 // Including type: UnityEngine.TouchScreenKeyboardType
-#include "UnityEngine\TouchScreenKeyboardType.hpp"
+#include "UnityEngine/TouchScreenKeyboardType.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

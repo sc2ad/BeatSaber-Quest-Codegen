@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: PlayerSaveData
-#include "GlobalNamespace\PlayerSaveData.hpp"
+#include "GlobalNamespace/PlayerSaveData.hpp"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: VRControllersRecorderData
-#include "GlobalNamespace\VRControllersRecorderData.hpp"
+#include "GlobalNamespace/VRControllersRecorderData.hpp"
 // Including type: UnityEngine.XR.XRNode
-#include "UnityEngine\XR\XRNode.hpp"
+#include "UnityEngine/XR/XRNode.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

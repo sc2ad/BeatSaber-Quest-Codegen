@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Graphic
-#include "UnityEngine\UI\Graphic.hpp"
+#include "UnityEngine/UI/Graphic.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI

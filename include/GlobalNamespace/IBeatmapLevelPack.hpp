@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: IAnnotatedBeatmapLevelCollection
-#include "GlobalNamespace\IAnnotatedBeatmapLevelCollection.hpp"
+#include "GlobalNamespace/IAnnotatedBeatmapLevelCollection.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;

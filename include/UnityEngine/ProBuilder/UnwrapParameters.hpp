@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Single
-#include "System\Single.hpp"
+#include "System/Single.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

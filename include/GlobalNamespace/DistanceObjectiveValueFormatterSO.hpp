@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ObjectiveValueFormatterSO
-#include "GlobalNamespace\ObjectiveValueFormatterSO.hpp"
+#include "GlobalNamespace/ObjectiveValueFormatterSO.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

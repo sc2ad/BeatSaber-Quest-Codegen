@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.StreamReader
-#include "System\IO\StreamReader.hpp"
+#include "System/IO/StreamReader.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {

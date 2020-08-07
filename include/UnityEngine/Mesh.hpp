@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Object
-#include "UnityEngine\Object.hpp"
+#include "UnityEngine/Object.hpp"
 // Including type: UnityEngine.Rendering.VertexAttribute
-#include "UnityEngine\Rendering\VertexAttribute.hpp"
+#include "UnityEngine/Rendering/VertexAttribute.hpp"
 // Including type: UnityEngine.Rendering.VertexAttributeFormat
-#include "UnityEngine\Rendering\VertexAttributeFormat.hpp"
+#include "UnityEngine/Rendering/VertexAttributeFormat.hpp"
 // Including type: UnityEngine.Vector4
-#include "UnityEngine\Vector4.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Color32
-#include "UnityEngine\Color32.hpp"
+#include "UnityEngine/Color32.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

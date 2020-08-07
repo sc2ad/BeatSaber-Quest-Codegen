@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.Generic.IList`1
-#include "System\Collections\Generic\IList_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Including type: System.Collections.IList
-#include "System\Collections\IList.hpp"
+#include "System/Collections/IList.hpp"
 // Including type: System.Collections.Generic.IReadOnlyList`1
-#include "System\Collections\Generic\IReadOnlyList_1.hpp"
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

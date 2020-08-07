@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.RuntimePropertyInfo
-#include "System\Reflection\RuntimePropertyInfo.hpp"
+#include "System/Reflection/RuntimePropertyInfo.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: System.Reflection.MonoPropertyInfo
-#include "System\Reflection\MonoPropertyInfo.hpp"
+#include "System/Reflection/MonoPropertyInfo.hpp"
 // Including type: System.Reflection.PInfo
-#include "System\Reflection\PInfo.hpp"
+#include "System/Reflection/PInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

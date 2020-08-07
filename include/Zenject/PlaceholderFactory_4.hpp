@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.PlaceholderFactoryBase`1
-#include "Zenject\PlaceholderFactoryBase_1.hpp"
+#include "Zenject/PlaceholderFactoryBase_1.hpp"
 // Including type: Zenject.IFactory`4
-#include "Zenject\IFactory_4.hpp"
+#include "Zenject/IFactory_4.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

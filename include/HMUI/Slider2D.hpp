@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Selectable
-#include "UnityEngine\UI\Selectable.hpp"
+#include "UnityEngine/UI/Selectable.hpp"
 // Including type: UnityEngine.EventSystems.IBeginDragHandler
-#include "UnityEngine\EventSystems\IBeginDragHandler.hpp"
+#include "UnityEngine/EventSystems/IBeginDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IDragHandler
-#include "UnityEngine\EventSystems\IDragHandler.hpp"
+#include "UnityEngine/EventSystems/IDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IInitializePotentialDragHandler
-#include "UnityEngine\EventSystems\IInitializePotentialDragHandler.hpp"
+#include "UnityEngine/EventSystems/IInitializePotentialDragHandler.hpp"
 // Including type: UnityEngine.UI.ICanvasElement
-#include "UnityEngine\UI\ICanvasElement.hpp"
+#include "UnityEngine/UI/ICanvasElement.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.DrivenRectTransformTracker
-#include "UnityEngine\DrivenRectTransformTracker.hpp"
+#include "UnityEngine/DrivenRectTransformTracker.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapObjectCallbackController
-#include "GlobalNamespace\BeatmapObjectCallbackController.hpp"
+#include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
 // Including type: System.Nullable`1
-#include "System\Nullable_1.hpp"
+#include "System/Nullable_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

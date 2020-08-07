@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Valve.VR.HmdMatrix34_t
-#include "Valve\VR\HmdMatrix34_t.hpp"
+#include "Valve/VR/HmdMatrix34_t.hpp"
 // Including type: Valve.VR.HmdVector3_t
-#include "Valve\VR\HmdVector3_t.hpp"
+#include "Valve/VR/HmdVector3_t.hpp"
 // Including type: Valve.VR.ETrackingResult
-#include "Valve\VR\ETrackingResult.hpp"
+#include "Valve/VR/ETrackingResult.hpp"
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {

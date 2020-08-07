@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: FadeInOnSceneTransitionFinished
-#include "GlobalNamespace\FadeInOnSceneTransitionFinished.hpp"
+#include "GlobalNamespace/FadeInOnSceneTransitionFinished.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

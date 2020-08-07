@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OnlineServices.API.HTTPApiLeaderboardsModel
-#include "OnlineServices\API\HTTPApiLeaderboardsModel.hpp"
+#include "OnlineServices/API/HTTPApiLeaderboardsModel.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder_1.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: OnlineServices.API.Response
-#include "OnlineServices\API\Response.hpp"
+#include "OnlineServices/API/Response.hpp"
 // Including type: System.Threading.CancellationToken
-#include "System\Threading\CancellationToken.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LeaderboardsDTO

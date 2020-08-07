@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR
-#include "RootMotion\FinalIK\IKSolverVR.hpp"
+#include "RootMotion/FinalIK/IKSolverVR.hpp"
 // Including type: RootMotion.InterpolationMode
-#include "RootMotion\InterpolationMode.hpp"
+#include "RootMotion/InterpolationMode.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.LayerMask
-#include "UnityEngine\LayerMask.hpp"
+#include "UnityEngine/LayerMask.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

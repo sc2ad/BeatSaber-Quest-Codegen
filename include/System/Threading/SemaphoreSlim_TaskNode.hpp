@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.Task`1
-#include "System\Threading\Tasks\Task_1.hpp"
+#include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.Threading.SemaphoreSlim
-#include "System\Threading\SemaphoreSlim.hpp"
+#include "System/Threading/SemaphoreSlim.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

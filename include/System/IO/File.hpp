@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Nullable`1
-#include "System\Nullable_1.hpp"
+#include "System/Nullable_1.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

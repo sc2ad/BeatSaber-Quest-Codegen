@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.EventFieldTags
-#include "System\Diagnostics\Tracing\EventFieldTags.hpp"
+#include "System/Diagnostics/Tracing/EventFieldTags.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics::Tracing

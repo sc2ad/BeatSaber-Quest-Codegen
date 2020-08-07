@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.RuntimeElement
-#include "UnityEngine\Timeline\RuntimeElement.hpp"
+#include "UnityEngine/Timeline/RuntimeElement.hpp"
 // Including type: UnityEngine.Playables.Playable
-#include "UnityEngine\Playables\Playable.hpp"
+#include "UnityEngine/Playables/Playable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables

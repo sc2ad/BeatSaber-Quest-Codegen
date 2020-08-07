@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Nullable`1
-#include "System\Nullable_1.hpp"
+#include "System/Nullable_1.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {

@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRSkeleton/IOVRSkeletonDataProvider
-#include "GlobalNamespace\OVRSkeleton_IOVRSkeletonDataProvider.hpp"
+#include "GlobalNamespace/OVRSkeleton_IOVRSkeletonDataProvider.hpp"
 // Including type: OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider
-#include "GlobalNamespace\OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider.hpp"
+#include "GlobalNamespace/OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider.hpp"
 // Including type: OVRMesh/IOVRMeshDataProvider
-#include "GlobalNamespace\OVRMesh_IOVRMeshDataProvider.hpp"
+#include "GlobalNamespace/OVRMesh_IOVRMeshDataProvider.hpp"
 // Including type: OVRMeshRenderer/IOVRMeshRendererDataProvider
-#include "GlobalNamespace\OVRMeshRenderer_IOVRMeshRendererDataProvider.hpp"
+#include "GlobalNamespace/OVRMeshRenderer_IOVRMeshRendererDataProvider.hpp"
 // Including type: OVRPlugin/HandState
-#include "GlobalNamespace\OVRPlugin_HandState.hpp"
+#include "GlobalNamespace/OVRPlugin_HandState.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

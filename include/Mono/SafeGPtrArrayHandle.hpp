@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: Mono.RuntimeGPtrArrayHandle
-#include "Mono\RuntimeGPtrArrayHandle.hpp"
+#include "Mono/RuntimeGPtrArrayHandle.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

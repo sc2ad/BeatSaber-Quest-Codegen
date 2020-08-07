@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.DefaultGameObjectParentInstaller
-#include "Zenject\DefaultGameObjectParentInstaller.hpp"
+#include "Zenject/DefaultGameObjectParentInstaller.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

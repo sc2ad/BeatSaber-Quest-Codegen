@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.EventArgs
-#include "System\EventArgs.hpp"
+#include "System/EventArgs.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Version
-#include "System\Version.hpp"
+#include "System/Version.hpp"
 // Including type: System.Version/ParseFailureKind
-#include "System\Version_ParseFailureKind.hpp"
+#include "System/Version_ParseFailureKind.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

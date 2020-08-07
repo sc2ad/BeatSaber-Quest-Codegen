@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.AudioBehaviour
-#include "UnityEngine\AudioBehaviour.hpp"
+#include "UnityEngine/AudioBehaviour.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

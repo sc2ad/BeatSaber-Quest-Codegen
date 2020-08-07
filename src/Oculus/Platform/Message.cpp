@@ -4,145 +4,145 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Message
-#include "Oculus\Platform\Message.hpp"
+#include "Oculus/Platform/Message.hpp"
 // Including type: Oculus.Platform.Message/Callback
-#include "Oculus\Platform\Message_Callback.hpp"
+#include "Oculus/Platform/Message_Callback.hpp"
 // Including type: Oculus.Platform.Models.Error
-#include "Oculus\Platform\Models\Error.hpp"
+#include "Oculus/Platform/Models/Error.hpp"
 // Including type: Oculus.Platform.Message/ExtraMessageTypesHandler
-#include "Oculus\Platform\Message_ExtraMessageTypesHandler.hpp"
+#include "Oculus/Platform/Message_ExtraMessageTypesHandler.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: Oculus.Platform.Models.PingResult
-#include "Oculus\Platform\Models\PingResult.hpp"
+#include "Oculus/Platform/Models/PingResult.hpp"
 // Including type: Oculus.Platform.Models.NetworkingPeer
-#include "Oculus\Platform\Models\NetworkingPeer.hpp"
+#include "Oculus/Platform/Models/NetworkingPeer.hpp"
 // Including type: Oculus.Platform.Models.HttpTransferUpdate
-#include "Oculus\Platform\Models\HttpTransferUpdate.hpp"
+#include "Oculus/Platform/Models/HttpTransferUpdate.hpp"
 // Including type: Oculus.Platform.Models.PlatformInitialize
-#include "Oculus\Platform\Models\PlatformInitialize.hpp"
+#include "Oculus/Platform/Models/PlatformInitialize.hpp"
 // Including type: Oculus.Platform.Models.AbuseReportRecording
-#include "Oculus\Platform\Models\AbuseReportRecording.hpp"
+#include "Oculus/Platform/Models/AbuseReportRecording.hpp"
 // Including type: Oculus.Platform.Models.AchievementDefinitionList
-#include "Oculus\Platform\Models\AchievementDefinitionList.hpp"
+#include "Oculus/Platform/Models/AchievementDefinitionList.hpp"
 // Including type: Oculus.Platform.Models.AchievementProgressList
-#include "Oculus\Platform\Models\AchievementProgressList.hpp"
+#include "Oculus/Platform/Models/AchievementProgressList.hpp"
 // Including type: Oculus.Platform.Models.AchievementUpdate
-#include "Oculus\Platform\Models\AchievementUpdate.hpp"
+#include "Oculus/Platform/Models/AchievementUpdate.hpp"
 // Including type: Oculus.Platform.Models.ApplicationVersion
-#include "Oculus\Platform\Models\ApplicationVersion.hpp"
+#include "Oculus/Platform/Models/ApplicationVersion.hpp"
 // Including type: Oculus.Platform.Models.AssetDetails
-#include "Oculus\Platform\Models\AssetDetails.hpp"
+#include "Oculus/Platform/Models/AssetDetails.hpp"
 // Including type: Oculus.Platform.Models.AssetDetailsList
-#include "Oculus\Platform\Models\AssetDetailsList.hpp"
+#include "Oculus/Platform/Models/AssetDetailsList.hpp"
 // Including type: Oculus.Platform.Models.AssetFileDeleteResult
-#include "Oculus\Platform\Models\AssetFileDeleteResult.hpp"
+#include "Oculus/Platform/Models/AssetFileDeleteResult.hpp"
 // Including type: Oculus.Platform.Models.AssetFileDownloadCancelResult
-#include "Oculus\Platform\Models\AssetFileDownloadCancelResult.hpp"
+#include "Oculus/Platform/Models/AssetFileDownloadCancelResult.hpp"
 // Including type: Oculus.Platform.Models.AssetFileDownloadResult
-#include "Oculus\Platform\Models\AssetFileDownloadResult.hpp"
+#include "Oculus/Platform/Models/AssetFileDownloadResult.hpp"
 // Including type: Oculus.Platform.Models.AssetFileDownloadUpdate
-#include "Oculus\Platform\Models\AssetFileDownloadUpdate.hpp"
+#include "Oculus/Platform/Models/AssetFileDownloadUpdate.hpp"
 // Including type: Oculus.Platform.Models.CalApplicationFinalized
-#include "Oculus\Platform\Models\CalApplicationFinalized.hpp"
+#include "Oculus/Platform/Models/CalApplicationFinalized.hpp"
 // Including type: Oculus.Platform.Models.CalApplicationProposed
-#include "Oculus\Platform\Models\CalApplicationProposed.hpp"
+#include "Oculus/Platform/Models/CalApplicationProposed.hpp"
 // Including type: Oculus.Platform.Models.CalApplicationSuggestionList
-#include "Oculus\Platform\Models\CalApplicationSuggestionList.hpp"
+#include "Oculus/Platform/Models/CalApplicationSuggestionList.hpp"
 // Including type: Oculus.Platform.Models.CloudStorageConflictMetadata
-#include "Oculus\Platform\Models\CloudStorageConflictMetadata.hpp"
+#include "Oculus/Platform/Models/CloudStorageConflictMetadata.hpp"
 // Including type: Oculus.Platform.Models.CloudStorageData
-#include "Oculus\Platform\Models\CloudStorageData.hpp"
+#include "Oculus/Platform/Models/CloudStorageData.hpp"
 // Including type: Oculus.Platform.Models.CloudStorageMetadata
-#include "Oculus\Platform\Models\CloudStorageMetadata.hpp"
+#include "Oculus/Platform/Models/CloudStorageMetadata.hpp"
 // Including type: Oculus.Platform.Models.CloudStorageMetadataList
-#include "Oculus\Platform\Models\CloudStorageMetadataList.hpp"
+#include "Oculus/Platform/Models/CloudStorageMetadataList.hpp"
 // Including type: Oculus.Platform.Models.CloudStorageUpdateResponse
-#include "Oculus\Platform\Models\CloudStorageUpdateResponse.hpp"
+#include "Oculus/Platform/Models/CloudStorageUpdateResponse.hpp"
 // Including type: Oculus.Platform.Models.DestinationList
-#include "Oculus\Platform\Models\DestinationList.hpp"
+#include "Oculus/Platform/Models/DestinationList.hpp"
 // Including type: Oculus.Platform.Models.InstalledApplicationList
-#include "Oculus\Platform\Models\InstalledApplicationList.hpp"
+#include "Oculus/Platform/Models/InstalledApplicationList.hpp"
 // Including type: Oculus.Platform.Models.LaunchBlockFlowResult
-#include "Oculus\Platform\Models\LaunchBlockFlowResult.hpp"
+#include "Oculus/Platform/Models/LaunchBlockFlowResult.hpp"
 // Including type: Oculus.Platform.Models.LaunchFriendRequestFlowResult
-#include "Oculus\Platform\Models\LaunchFriendRequestFlowResult.hpp"
+#include "Oculus/Platform/Models/LaunchFriendRequestFlowResult.hpp"
 // Including type: Oculus.Platform.Models.LaunchReportFlowResult
-#include "Oculus\Platform\Models\LaunchReportFlowResult.hpp"
+#include "Oculus/Platform/Models/LaunchReportFlowResult.hpp"
 // Including type: Oculus.Platform.Models.LaunchUnblockFlowResult
-#include "Oculus\Platform\Models\LaunchUnblockFlowResult.hpp"
+#include "Oculus/Platform/Models/LaunchUnblockFlowResult.hpp"
 // Including type: Oculus.Platform.Models.LeaderboardEntryList
-#include "Oculus\Platform\Models\LeaderboardEntryList.hpp"
+#include "Oculus/Platform/Models/LeaderboardEntryList.hpp"
 // Including type: Oculus.Platform.Models.LinkedAccountList
-#include "Oculus\Platform\Models\LinkedAccountList.hpp"
+#include "Oculus/Platform/Models/LinkedAccountList.hpp"
 // Including type: Oculus.Platform.Models.LivestreamingApplicationStatus
-#include "Oculus\Platform\Models\LivestreamingApplicationStatus.hpp"
+#include "Oculus/Platform/Models/LivestreamingApplicationStatus.hpp"
 // Including type: Oculus.Platform.Models.LivestreamingStartResult
-#include "Oculus\Platform\Models\LivestreamingStartResult.hpp"
+#include "Oculus/Platform/Models/LivestreamingStartResult.hpp"
 // Including type: Oculus.Platform.Models.LivestreamingStatus
-#include "Oculus\Platform\Models\LivestreamingStatus.hpp"
+#include "Oculus/Platform/Models/LivestreamingStatus.hpp"
 // Including type: Oculus.Platform.Models.LivestreamingVideoStats
-#include "Oculus\Platform\Models\LivestreamingVideoStats.hpp"
+#include "Oculus/Platform/Models/LivestreamingVideoStats.hpp"
 // Including type: Oculus.Platform.Models.MatchmakingAdminSnapshot
-#include "Oculus\Platform\Models\MatchmakingAdminSnapshot.hpp"
+#include "Oculus/Platform/Models/MatchmakingAdminSnapshot.hpp"
 // Including type: Oculus.Platform.Models.MatchmakingBrowseResult
-#include "Oculus\Platform\Models\MatchmakingBrowseResult.hpp"
+#include "Oculus/Platform/Models/MatchmakingBrowseResult.hpp"
 // Including type: Oculus.Platform.Models.MatchmakingEnqueueResult
-#include "Oculus\Platform\Models\MatchmakingEnqueueResult.hpp"
+#include "Oculus/Platform/Models/MatchmakingEnqueueResult.hpp"
 // Including type: Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom
-#include "Oculus\Platform\Models\MatchmakingEnqueueResultAndRoom.hpp"
+#include "Oculus/Platform/Models/MatchmakingEnqueueResultAndRoom.hpp"
 // Including type: Oculus.Platform.Models.MatchmakingStats
-#include "Oculus\Platform\Models\MatchmakingStats.hpp"
+#include "Oculus/Platform/Models/MatchmakingStats.hpp"
 // Including type: Oculus.Platform.Models.NetSyncConnection
-#include "Oculus\Platform\Models\NetSyncConnection.hpp"
+#include "Oculus/Platform/Models/NetSyncConnection.hpp"
 // Including type: Oculus.Platform.Models.NetSyncSessionList
-#include "Oculus\Platform\Models\NetSyncSessionList.hpp"
+#include "Oculus/Platform/Models/NetSyncSessionList.hpp"
 // Including type: Oculus.Platform.Models.NetSyncSessionsChangedNotification
-#include "Oculus\Platform\Models\NetSyncSessionsChangedNotification.hpp"
+#include "Oculus/Platform/Models/NetSyncSessionsChangedNotification.hpp"
 // Including type: Oculus.Platform.Models.NetSyncSetSessionPropertyResult
-#include "Oculus\Platform\Models\NetSyncSetSessionPropertyResult.hpp"
+#include "Oculus/Platform/Models/NetSyncSetSessionPropertyResult.hpp"
 // Including type: Oculus.Platform.Models.OrgScopedID
-#include "Oculus\Platform\Models\OrgScopedID.hpp"
+#include "Oculus/Platform/Models/OrgScopedID.hpp"
 // Including type: Oculus.Platform.Models.Party
-#include "Oculus\Platform\Models\Party.hpp"
+#include "Oculus/Platform/Models/Party.hpp"
 // Including type: Oculus.Platform.Models.PartyID
-#include "Oculus\Platform\Models\PartyID.hpp"
+#include "Oculus/Platform/Models/PartyID.hpp"
 // Including type: Oculus.Platform.Models.PartyUpdateNotification
-#include "Oculus\Platform\Models\PartyUpdateNotification.hpp"
+#include "Oculus/Platform/Models/PartyUpdateNotification.hpp"
 // Including type: Oculus.Platform.Models.PidList
-#include "Oculus\Platform\Models\PidList.hpp"
+#include "Oculus/Platform/Models/PidList.hpp"
 // Including type: Oculus.Platform.Models.ProductList
-#include "Oculus\Platform\Models\ProductList.hpp"
+#include "Oculus/Platform/Models/ProductList.hpp"
 // Including type: Oculus.Platform.Models.Purchase
-#include "Oculus\Platform\Models\Purchase.hpp"
+#include "Oculus/Platform/Models/Purchase.hpp"
 // Including type: Oculus.Platform.Models.PurchaseList
-#include "Oculus\Platform\Models\PurchaseList.hpp"
+#include "Oculus/Platform/Models/PurchaseList.hpp"
 // Including type: Oculus.Platform.Models.Room
-#include "Oculus\Platform\Models\Room.hpp"
+#include "Oculus/Platform/Models/Room.hpp"
 // Including type: Oculus.Platform.Models.RoomInviteNotification
-#include "Oculus\Platform\Models\RoomInviteNotification.hpp"
+#include "Oculus/Platform/Models/RoomInviteNotification.hpp"
 // Including type: Oculus.Platform.Models.RoomInviteNotificationList
-#include "Oculus\Platform\Models\RoomInviteNotificationList.hpp"
+#include "Oculus/Platform/Models/RoomInviteNotificationList.hpp"
 // Including type: Oculus.Platform.Models.RoomList
-#include "Oculus\Platform\Models\RoomList.hpp"
+#include "Oculus/Platform/Models/RoomList.hpp"
 // Including type: Oculus.Platform.Models.SdkAccountList
-#include "Oculus\Platform\Models\SdkAccountList.hpp"
+#include "Oculus/Platform/Models/SdkAccountList.hpp"
 // Including type: Oculus.Platform.Models.ShareMediaResult
-#include "Oculus\Platform\Models\ShareMediaResult.hpp"
+#include "Oculus/Platform/Models/ShareMediaResult.hpp"
 // Including type: Oculus.Platform.Models.SystemPermission
-#include "Oculus\Platform\Models\SystemPermission.hpp"
+#include "Oculus/Platform/Models/SystemPermission.hpp"
 // Including type: Oculus.Platform.Models.SystemVoipState
-#include "Oculus\Platform\Models\SystemVoipState.hpp"
+#include "Oculus/Platform/Models/SystemVoipState.hpp"
 // Including type: Oculus.Platform.Models.User
-#include "Oculus\Platform\Models\User.hpp"
+#include "Oculus/Platform/Models/User.hpp"
 // Including type: Oculus.Platform.Models.UserAndRoomList
-#include "Oculus\Platform\Models\UserAndRoomList.hpp"
+#include "Oculus/Platform/Models/UserAndRoomList.hpp"
 // Including type: Oculus.Platform.Models.UserList
-#include "Oculus\Platform\Models\UserList.hpp"
+#include "Oculus/Platform/Models/UserList.hpp"
 // Including type: Oculus.Platform.Models.UserProof
-#include "Oculus\Platform\Models\UserProof.hpp"
+#include "Oculus/Platform/Models/UserProof.hpp"
 // Including type: Oculus.Platform.Models.UserReportID
-#include "Oculus\Platform\Models\UserReportID.hpp"
+#include "Oculus/Platform/Models/UserReportID.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated static field getter

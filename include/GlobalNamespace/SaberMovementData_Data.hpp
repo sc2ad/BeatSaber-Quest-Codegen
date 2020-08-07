@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: SaberMovementData
-#include "GlobalNamespace\SaberMovementData.hpp"
+#include "GlobalNamespace/SaberMovementData.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

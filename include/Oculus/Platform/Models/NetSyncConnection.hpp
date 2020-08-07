@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Oculus.Platform.NetSyncDisconnectReason
-#include "Oculus\Platform\NetSyncDisconnectReason.hpp"
+#include "Oculus/Platform/NetSyncDisconnectReason.hpp"
 // Including type: Oculus.Platform.NetSyncConnectionStatus
-#include "Oculus\Platform\NetSyncConnectionStatus.hpp"
+#include "Oculus/Platform/NetSyncConnectionStatus.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

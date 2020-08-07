@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-#include "Microsoft\Win32\SafeHandles\SafeHandleZeroOrMinusOneIsInvalid.hpp"
+#include "Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

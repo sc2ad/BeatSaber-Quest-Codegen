@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestResult
-#include "NUnit\Framework\Interfaces\ITestResult.hpp"
+#include "NUnit/Framework/Interfaces/ITestResult.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text

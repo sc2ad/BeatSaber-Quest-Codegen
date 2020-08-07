@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Configuration.ConfigurationSection
-#include "System\Configuration\ConfigurationSection.hpp"
+#include "System/Configuration/ConfigurationSection.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Configuration

@@ -5,11 +5,11 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin
-#include "GlobalNamespace\OVRPlugin.hpp"
+#include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: OVRPlugin/Posef
-// Already included the same include: GlobalNamespace\OVRPlugin.hpp
+// Already included the same include: GlobalNamespace/OVRPlugin.hpp
 // Completed includes
 // Begin il2cpp-utils forward declares
 template<class T>

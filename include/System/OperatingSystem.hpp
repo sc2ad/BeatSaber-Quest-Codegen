@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.ICloneable
-#include "System\ICloneable.hpp"
+#include "System/ICloneable.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.PlatformID
-#include "System\PlatformID.hpp"
+#include "System/PlatformID.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

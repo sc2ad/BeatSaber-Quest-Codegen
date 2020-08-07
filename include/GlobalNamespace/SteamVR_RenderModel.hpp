@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: SteamVR_TrackedObject/EIndex
-#include "GlobalNamespace\SteamVR_TrackedObject.hpp"
+#include "GlobalNamespace/SteamVR_TrackedObject.hpp"
 // Including type: Valve.VR.RenderModel_ControllerMode_State_t
-#include "Valve\VR\RenderModel_ControllerMode_State_t.hpp"
+#include "Valve/VR/RenderModel_ControllerMode_State_t.hpp"
 // Including type: SteamVR_Events
-#include "GlobalNamespace\SteamVR_Events.hpp"
+#include "GlobalNamespace/SteamVR_Events.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

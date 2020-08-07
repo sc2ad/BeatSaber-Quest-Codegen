@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: VRUIControls.VRGraphicRaycaster
-#include "VRUIControls\VRGraphicRaycaster.hpp"
+#include "VRUIControls/VRGraphicRaycaster.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

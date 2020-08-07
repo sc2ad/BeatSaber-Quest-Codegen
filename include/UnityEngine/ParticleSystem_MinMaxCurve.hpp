@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem
-#include "UnityEngine\ParticleSystem.hpp"
+#include "UnityEngine/ParticleSystem.hpp"
 // Including type: UnityEngine.ParticleSystemCurveMode
-#include "UnityEngine\ParticleSystemCurveMode.hpp"
+#include "UnityEngine/ParticleSystemCurveMode.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

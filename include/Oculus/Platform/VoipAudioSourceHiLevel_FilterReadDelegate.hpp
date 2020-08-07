@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: Oculus.Platform.VoipAudioSourceHiLevel
-#include "Oculus\Platform\VoipAudioSourceHiLevel.hpp"
+#include "Oculus/Platform/VoipAudioSourceHiLevel.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

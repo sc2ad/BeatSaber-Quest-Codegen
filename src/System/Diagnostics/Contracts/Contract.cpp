@@ -4,10 +4,10 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Contracts.Contract
-#include "System\Diagnostics\Contracts\Contract.hpp"
+#include "System/Diagnostics/Contracts/Contract.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Predicate`1
-#include "System\Predicate_1.hpp"
+#include "System/Predicate_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.Internal.PreserveAttribute
-#include "Zenject\Internal\PreserveAttribute.hpp"
+#include "Zenject/Internal/PreserveAttribute.hpp"
 // Including type: Zenject.InjectSources
-#include "Zenject\InjectSources.hpp"
+#include "Zenject/InjectSources.hpp"
 // Completed includes
 // Type namespace: Zenject
 namespace Zenject {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.InteropServices.ExternalException
-#include "System\Runtime\InteropServices\ExternalException.hpp"
+#include "System/Runtime/InteropServices/ExternalException.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

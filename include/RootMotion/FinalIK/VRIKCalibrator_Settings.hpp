@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.VRIKCalibrator
-#include "RootMotion\FinalIK\VRIKCalibrator.hpp"
+#include "RootMotion/FinalIK/VRIKCalibrator.hpp"
 // Completed includes
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {

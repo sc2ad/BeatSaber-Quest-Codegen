@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.MaskableGraphic
-#include "UnityEngine\UI\MaskableGraphic.hpp"
+#include "UnityEngine/UI/MaskableGraphic.hpp"
 // Including type: UnityEngine.ISerializationCallbackReceiver
-#include "UnityEngine\ISerializationCallbackReceiver.hpp"
+#include "UnityEngine/ISerializationCallbackReceiver.hpp"
 // Including type: UnityEngine.UI.ILayoutElement
-#include "UnityEngine\UI\ILayoutElement.hpp"
+#include "UnityEngine/UI/ILayoutElement.hpp"
 // Including type: UnityEngine.ICanvasRaycastFilter
-#include "UnityEngine\ICanvasRaycastFilter.hpp"
+#include "UnityEngine/ICanvasRaycastFilter.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

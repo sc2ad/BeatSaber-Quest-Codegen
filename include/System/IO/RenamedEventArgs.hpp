@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.FileSystemEventArgs
-#include "System\IO\FileSystemEventArgs.hpp"
+#include "System/IO/FileSystemEventArgs.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Mono.Globalization.Unicode.SimpleCollator
-#include "Mono\Globalization\Unicode\SimpleCollator.hpp"
+#include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 // Including type: System.Globalization.CompareOptions
-#include "System\Globalization\CompareOptions.hpp"
+#include "System/Globalization/CompareOptions.hpp"
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {

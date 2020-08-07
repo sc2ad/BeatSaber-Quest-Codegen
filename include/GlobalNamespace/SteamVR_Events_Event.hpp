@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Events.UnityEvent
-#include "UnityEngine\Events\UnityEvent.hpp"
+#include "UnityEngine/Events/UnityEvent.hpp"
 // Including type: SteamVR_Events
-#include "GlobalNamespace\SteamVR_Events.hpp"
+#include "GlobalNamespace/SteamVR_Events.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events

@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRSimpleJSON.JSONNode
-#include "OVRSimpleJSON\JSONNode.hpp"
+#include "OVRSimpleJSON/JSONNode.hpp"
 // Including type: OVRSimpleJSON.JSONNode/Enumerator
-#include "OVRSimpleJSON\JSONNode_Enumerator.hpp"
+#include "OVRSimpleJSON/JSONNode_Enumerator.hpp"
 // Including type: System.Collections.Generic.List`1
-#include "System\Collections\Generic\List_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
-#include "System\Collections\Generic\Dictionary_2.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Completed includes
 // Type namespace: OVRSimpleJSON
 namespace OVRSimpleJSON {

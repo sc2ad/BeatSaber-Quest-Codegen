@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IKSolverTrigonometric
-#include "RootMotion\FinalIK\IKSolverTrigonometric.hpp"
+#include "RootMotion/FinalIK/IKSolverTrigonometric.hpp"
 // Including type: UnityEngine.AvatarIKGoal
-#include "UnityEngine\AvatarIKGoal.hpp"
+#include "UnityEngine/AvatarIKGoal.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

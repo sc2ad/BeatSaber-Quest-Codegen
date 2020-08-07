@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.Base64Encoder
-#include "System\Xml\Base64Encoder.hpp"
+#include "System/Xml/Base64Encoder.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml

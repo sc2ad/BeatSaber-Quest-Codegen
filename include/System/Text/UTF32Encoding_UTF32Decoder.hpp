@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.DecoderNLS
-#include "System\Text\DecoderNLS.hpp"
+#include "System/Text/DecoderNLS.hpp"
 // Including type: System.Text.UTF32Encoding
-#include "System\Text\UTF32Encoding.hpp"
+#include "System/Text/UTF32Encoding.hpp"
 // Completed includes
 // Type namespace: System.Text
 namespace System::Text {

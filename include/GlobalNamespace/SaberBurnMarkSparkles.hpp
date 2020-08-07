@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Plane
-#include "UnityEngine\Plane.hpp"
+#include "UnityEngine/Plane.hpp"
 // Including type: UnityEngine.ParticleSystem
-#include "UnityEngine\ParticleSystem.hpp"
+#include "UnityEngine/ParticleSystem.hpp"
 // Including type: UnityEngine.ParticleSystem/EmitParams
-#include "UnityEngine\ParticleSystem_EmitParams.hpp"
+#include "UnityEngine/ParticleSystem_EmitParams.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

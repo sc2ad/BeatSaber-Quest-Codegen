@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.SceneContext
-#include "Zenject\SceneContext.hpp"
+#include "Zenject/SceneContext.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
-#include "UnityEngine\SceneManagement\Scene.hpp"
+#include "UnityEngine/SceneManagement/Scene.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

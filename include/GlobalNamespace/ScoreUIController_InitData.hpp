@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: ScoreUIController
-#include "GlobalNamespace\ScoreUIController.hpp"
+#include "GlobalNamespace/ScoreUIController.hpp"
 // Including type: ScoreUIController/ScoreDisplayType
-#include "GlobalNamespace\ScoreUIController_ScoreDisplayType.hpp"
+#include "GlobalNamespace/ScoreUIController_ScoreDisplayType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

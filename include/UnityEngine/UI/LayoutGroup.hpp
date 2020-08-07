@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.UIBehaviour
-#include "UnityEngine\EventSystems\UIBehaviour.hpp"
+#include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.UI.ILayoutElement
-#include "UnityEngine\UI\ILayoutElement.hpp"
+#include "UnityEngine/UI/ILayoutElement.hpp"
 // Including type: UnityEngine.UI.ILayoutGroup
-#include "UnityEngine\UI\ILayoutGroup.hpp"
+#include "UnityEngine/UI/ILayoutGroup.hpp"
 // Including type: UnityEngine.TextAnchor
-#include "UnityEngine\TextAnchor.hpp"
+#include "UnityEngine/TextAnchor.hpp"
 // Including type: UnityEngine.DrivenRectTransformTracker
-#include "UnityEngine\DrivenRectTransformTracker.hpp"
+#include "UnityEngine/DrivenRectTransformTracker.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

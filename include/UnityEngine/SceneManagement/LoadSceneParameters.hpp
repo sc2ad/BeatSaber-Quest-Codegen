@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.SceneManagement.LoadSceneMode
-#include "UnityEngine\SceneManagement\LoadSceneMode.hpp"
+#include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
 // Including type: UnityEngine.SceneManagement.LocalPhysicsMode
-#include "UnityEngine\SceneManagement\LocalPhysicsMode.hpp"
+#include "UnityEngine/SceneManagement/LocalPhysicsMode.hpp"
 // Completed includes
 // Type namespace: UnityEngine.SceneManagement
 namespace UnityEngine::SceneManagement {

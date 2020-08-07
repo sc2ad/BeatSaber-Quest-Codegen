@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.CombiningStrategyAttribute
-#include "NUnit\Framework\CombiningStrategyAttribute.hpp"
+#include "NUnit/Framework/CombiningStrategyAttribute.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework
 namespace NUnit::Framework {

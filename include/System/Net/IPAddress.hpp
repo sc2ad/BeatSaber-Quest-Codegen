@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Net.Sockets.AddressFamily
-#include "System\Net\Sockets\AddressFamily.hpp"
+#include "System/Net/Sockets/AddressFamily.hpp"
 // Including type: System.Int64
-#include "System\Int64.hpp"
+#include "System/Int64.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {

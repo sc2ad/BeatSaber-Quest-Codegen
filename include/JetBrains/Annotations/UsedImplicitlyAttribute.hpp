@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: JetBrains.Annotations.ImplicitUseKindFlags
-#include "JetBrains\Annotations\ImplicitUseKindFlags.hpp"
+#include "JetBrains/Annotations/ImplicitUseKindFlags.hpp"
 // Including type: JetBrains.Annotations.ImplicitUseTargetFlags
-#include "JetBrains\Annotations\ImplicitUseTargetFlags.hpp"
+#include "JetBrains/Annotations/ImplicitUseTargetFlags.hpp"
 // Completed includes
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {

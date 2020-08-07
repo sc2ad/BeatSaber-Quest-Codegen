@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.ParseFlags
-#include "System\ParseFlags.hpp"
+#include "System/ParseFlags.hpp"
 // Including type: System.TimeSpan
-#include "System\TimeSpan.hpp"
+#include "System/TimeSpan.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Including type: System.ParseFailureKind
-#include "System\ParseFailureKind.hpp"
+#include "System/ParseFailureKind.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization

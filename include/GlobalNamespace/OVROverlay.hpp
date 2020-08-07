@@ -6,21 +6,21 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Rect
-#include "UnityEngine\Rect.hpp"
+#include "UnityEngine/Rect.hpp"
 // Including type: OVRPlugin/TextureRectMatrixf
-#include "GlobalNamespace\OVRPlugin_TextureRectMatrixf.hpp"
+#include "GlobalNamespace/OVRPlugin_TextureRectMatrixf.hpp"
 // Including type: OVRPlugin/LayerDesc
-#include "GlobalNamespace\OVRPlugin_LayerDesc.hpp"
+#include "GlobalNamespace/OVRPlugin_LayerDesc.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
-#include "System\Runtime\InteropServices\GCHandle.hpp"
+#include "System/Runtime/InteropServices/GCHandle.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: OVRManager/XRDevice
-#include "GlobalNamespace\OVRManager.hpp"
+#include "GlobalNamespace/OVRManager.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

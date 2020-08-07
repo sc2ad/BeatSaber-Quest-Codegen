@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.DescriptionAttribute
-#include "System\ComponentModel\DescriptionAttribute.hpp"
+#include "System/ComponentModel/DescriptionAttribute.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {

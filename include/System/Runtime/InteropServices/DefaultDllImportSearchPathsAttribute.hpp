@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: System.Runtime.InteropServices.DllImportSearchPath
-#include "System\Runtime\InteropServices\DllImportSearchPath.hpp"
+#include "System/Runtime/InteropServices/DllImportSearchPath.hpp"
 // Completed includes
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {

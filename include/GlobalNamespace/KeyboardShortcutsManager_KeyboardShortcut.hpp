@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: KeyboardShortcutsManager
-#include "GlobalNamespace\KeyboardShortcutsManager.hpp"
+#include "GlobalNamespace/KeyboardShortcutsManager.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

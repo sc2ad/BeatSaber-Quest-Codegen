@@ -4,14 +4,14 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.PlayableOutputExtensions
-#include "UnityEngine\Playables\PlayableOutputExtensions.hpp"
+#include "UnityEngine/Playables/PlayableOutputExtensions.hpp"
 // Including type: UnityEngine.Playables.IPlayableOutput
-#include "UnityEngine\Playables\IPlayableOutput.hpp"
+#include "UnityEngine/Playables/IPlayableOutput.hpp"
 // Including type: UnityEngine.Object
-#include "UnityEngine\Object.hpp"
+#include "UnityEngine/Object.hpp"
 // Including type: UnityEngine.Playables.INotification
-#include "UnityEngine\Playables\INotification.hpp"
+#include "UnityEngine/Playables/INotification.hpp"
 // Including type: UnityEngine.Playables.INotificationReceiver
-#include "UnityEngine\Playables\INotificationReceiver.hpp"
+#include "UnityEngine/Playables/INotificationReceiver.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

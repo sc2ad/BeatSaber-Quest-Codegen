@@ -6,27 +6,27 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.Generic.IDictionary`2
-#include "System\Collections\Generic\IDictionary_2.hpp"
+#include "System/Collections/Generic/IDictionary_2.hpp"
 // Including type: System.Collections.Generic.ICollection`1
-#include "System\Collections\Generic\ICollection_1.hpp"
+#include "System/Collections/Generic/ICollection_1.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.IDictionary
-#include "System\Collections\IDictionary.hpp"
+#include "System/Collections/IDictionary.hpp"
 // Including type: System.Collections.Generic.IReadOnlyDictionary`2
-#include "System\Collections\Generic\IReadOnlyDictionary_2.hpp"
+#include "System/Collections/Generic/IReadOnlyDictionary_2.hpp"
 // Including type: System.Collections.Generic.IReadOnlyCollection`1
-#include "System\Collections\Generic\IReadOnlyCollection_1.hpp"
+#include "System/Collections/Generic/IReadOnlyCollection_1.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Including type: System.Collections.IDictionaryEnumerator
-#include "System\Collections\IDictionaryEnumerator.hpp"
+#include "System/Collections/IDictionaryEnumerator.hpp"
 // Including type: System.Collections.DictionaryEntry
-#include "System\Collections\DictionaryEntry.hpp"
+#include "System/Collections/DictionaryEntry.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

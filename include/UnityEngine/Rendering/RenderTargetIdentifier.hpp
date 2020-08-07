@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Rendering.BuiltinRenderTextureType
-#include "UnityEngine\Rendering\BuiltinRenderTextureType.hpp"
+#include "UnityEngine/Rendering/BuiltinRenderTextureType.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: UnityEngine.CubemapFace
-#include "UnityEngine\CubemapFace.hpp"
+#include "UnityEngine/CubemapFace.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

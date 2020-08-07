@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.MemoryPoolBase`1
-#include "Zenject\MemoryPoolBase_1.hpp"
+#include "Zenject/MemoryPoolBase_1.hpp"
 // Including type: Zenject.IMemoryPool`1
-#include "Zenject\IMemoryPool_1.hpp"
+#include "Zenject/IMemoryPool_1.hpp"
 // Including type: Zenject.IFactory`1
-#include "Zenject\IFactory_1.hpp"
+#include "Zenject/IFactory_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Type namespace: Zenject

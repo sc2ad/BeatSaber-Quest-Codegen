@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRComposition
-#include "GlobalNamespace\OVRComposition.hpp"
+#include "GlobalNamespace/OVRComposition.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

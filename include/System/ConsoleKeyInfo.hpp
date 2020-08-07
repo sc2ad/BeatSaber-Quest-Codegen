@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.ConsoleKey
-#include "System\ConsoleKey.hpp"
+#include "System/ConsoleKey.hpp"
 // Including type: System.ConsoleModifiers
-#include "System\ConsoleModifiers.hpp"
+#include "System/ConsoleModifiers.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

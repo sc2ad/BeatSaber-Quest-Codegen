@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.MaskableGraphic
-#include "UnityEngine\UI\MaskableGraphic.hpp"
+#include "UnityEngine/UI/MaskableGraphic.hpp"
 // Including type: UnityEngine.UI.ILayoutElement
-#include "UnityEngine\UI\ILayoutElement.hpp"
+#include "UnityEngine/UI/ILayoutElement.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI

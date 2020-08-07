@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.ZenjectSettings
-#include "Zenject\ZenjectSettings.hpp"
+#include "Zenject/ZenjectSettings.hpp"
 // Including type: Zenject.SignalDefaultSyncModes
-#include "Zenject\SignalDefaultSyncModes.hpp"
+#include "Zenject/SignalDefaultSyncModes.hpp"
 // Including type: Zenject.SignalMissingHandlerResponses
-#include "Zenject\SignalMissingHandlerResponses.hpp"
+#include "Zenject/SignalMissingHandlerResponses.hpp"
 // Completed includes
 // Type namespace: Zenject
 namespace Zenject {

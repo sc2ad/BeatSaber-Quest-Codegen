@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Playables.IPlayable
-#include "UnityEngine\Playables\IPlayable.hpp"
+#include "UnityEngine/Playables/IPlayable.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Playables.PlayableHandle
-#include "UnityEngine\Playables\PlayableHandle.hpp"
+#include "UnityEngine/Playables/PlayableHandle.hpp"
 // Including type: UnityEngine.Playables.PlayableGraph
-#include "UnityEngine\Playables\PlayableGraph.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Including type: UnityEngine.Playables.Playable
-#include "UnityEngine\Playables\Playable.hpp"
+#include "UnityEngine/Playables/Playable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

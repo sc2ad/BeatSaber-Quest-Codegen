@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.TestResult
-#include "NUnit\Framework\Internal\TestResult.hpp"
+#include "NUnit/Framework/Internal/TestResult.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal

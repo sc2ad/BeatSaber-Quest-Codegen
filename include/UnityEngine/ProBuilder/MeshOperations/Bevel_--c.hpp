@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.Bevel
-#include "UnityEngine\ProBuilder\MeshOperations\Bevel.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/Bevel.hpp"
 // Including type: UnityEngine.ProBuilder.SimpleTuple`2
-#include "UnityEngine\ProBuilder\SimpleTuple_2.hpp"
+#include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

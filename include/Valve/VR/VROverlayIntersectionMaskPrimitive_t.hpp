@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Valve.VR.EVROverlayIntersectionMaskPrimitiveType
-#include "Valve\VR\EVROverlayIntersectionMaskPrimitiveType.hpp"
+#include "Valve/VR/EVROverlayIntersectionMaskPrimitiveType.hpp"
 // Including type: Valve.VR.VROverlayIntersectionMaskPrimitive_Data_t
-#include "Valve\VR\VROverlayIntersectionMaskPrimitive_Data_t.hpp"
+#include "Valve/VR/VROverlayIntersectionMaskPrimitive_Data_t.hpp"
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {

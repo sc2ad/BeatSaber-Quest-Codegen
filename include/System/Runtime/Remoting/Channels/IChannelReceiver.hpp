@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Runtime.Remoting.Channels.IChannel
-#include "System\Runtime\Remoting\Channels\IChannel.hpp"
+#include "System/Runtime/Remoting/Channels/IChannel.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

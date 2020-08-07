@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.IStructuralEquatable
-#include "System\Collections\IStructuralEquatable.hpp"
+#include "System/Collections/IStructuralEquatable.hpp"
 // Including type: System.Collections.IStructuralComparable
-#include "System\Collections\IStructuralComparable.hpp"
+#include "System/Collections/IStructuralComparable.hpp"
 // Including type: System.IComparable
-#include "System\IComparable.hpp"
+#include "System/IComparable.hpp"
 // Including type: System.ITupleInternal
-#include "System\ITupleInternal.hpp"
+#include "System/ITupleInternal.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

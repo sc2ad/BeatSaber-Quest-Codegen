@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.SharedVertex
-#include "UnityEngine\ProBuilder\SharedVertex.hpp"
+#include "UnityEngine/ProBuilder/SharedVertex.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
-#include "System\Collections\Generic\KeyValuePair_2.hpp"
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

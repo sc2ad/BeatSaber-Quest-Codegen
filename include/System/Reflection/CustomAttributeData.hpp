@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Reflection.CustomAttributeTypedArgument
-#include "System\Reflection\CustomAttributeTypedArgument.hpp"
+#include "System/Reflection/CustomAttributeTypedArgument.hpp"
 // Including type: System.Reflection.CustomAttributeNamedArgument
-#include "System\Reflection\CustomAttributeNamedArgument.hpp"
+#include "System/Reflection/CustomAttributeNamedArgument.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

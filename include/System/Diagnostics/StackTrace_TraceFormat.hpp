@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: System.Diagnostics.StackTrace
-#include "System\Diagnostics\StackTrace.hpp"
+#include "System/Diagnostics/StackTrace.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {

@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRSimpleJSON.JSONNode
-#include "OVRSimpleJSON\JSONNode.hpp"
+#include "OVRSimpleJSON/JSONNode.hpp"
 // Including type: System.Collections.Generic.Dictionary`2/Enumerator
-#include "System\Collections\Generic\Dictionary_2.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: System.Collections.Generic.List`1/Enumerator
-#include "System\Collections\Generic\List_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

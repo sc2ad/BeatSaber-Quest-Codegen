@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-#include "System\Runtime\ConstrainedExecution\CriticalFinalizerObject.hpp"
+#include "System/Runtime/ConstrainedExecution/CriticalFinalizerObject.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: System.Threading.ThreadState
-#include "System\Threading\ThreadState.hpp"
+#include "System/Threading/ThreadState.hpp"
 // Including type: System.UIntPtr
-#include "System\UIntPtr.hpp"
+#include "System/UIntPtr.hpp"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {

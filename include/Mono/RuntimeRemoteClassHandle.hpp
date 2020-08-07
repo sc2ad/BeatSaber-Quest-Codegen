@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
-#include "Mono\RuntimeStructs.hpp"
+#include "Mono/RuntimeStructs.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono

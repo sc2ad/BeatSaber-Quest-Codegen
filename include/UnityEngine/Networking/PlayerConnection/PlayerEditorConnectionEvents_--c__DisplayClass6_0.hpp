@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
-#include "UnityEngine\Networking\PlayerConnection\PlayerEditorConnectionEvents.hpp"
+#include "UnityEngine/Networking/PlayerConnection/PlayerEditorConnectionEvents.hpp"
 // Including type: System.Guid
-#include "System\Guid.hpp"
+#include "System/Guid.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Networking.PlayerConnection
 namespace UnityEngine::Networking::PlayerConnection {

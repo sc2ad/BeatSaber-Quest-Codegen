@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Xml.NewLineHandling
-#include "System\Xml\NewLineHandling.hpp"
+#include "System/Xml/NewLineHandling.hpp"
 // Including type: System.Xml.TriState
-#include "System\Xml\TriState.hpp"
+#include "System/Xml/TriState.hpp"
 // Including type: System.Xml.NamespaceHandling
-#include "System\Xml\NamespaceHandling.hpp"
+#include "System/Xml/NamespaceHandling.hpp"
 // Including type: System.Xml.ConformanceLevel
-#include "System\Xml\ConformanceLevel.hpp"
+#include "System/Xml/ConformanceLevel.hpp"
 // Including type: System.Xml.XmlOutputMethod
-#include "System\Xml\XmlOutputMethod.hpp"
+#include "System/Xml/XmlOutputMethod.hpp"
 // Including type: System.Xml.XmlStandalone
-#include "System\Xml\XmlStandalone.hpp"
+#include "System/Xml/XmlStandalone.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text

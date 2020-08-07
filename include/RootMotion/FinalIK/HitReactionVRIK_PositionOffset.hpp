@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.HitReactionVRIK/Offset
-#include "RootMotion\FinalIK\HitReactionVRIK_Offset.hpp"
+#include "RootMotion/FinalIK/HitReactionVRIK_Offset.hpp"
 // Including type: RootMotion.FinalIK.HitReactionVRIK
-#include "RootMotion\FinalIK\HitReactionVRIK.hpp"
+#include "RootMotion/FinalIK/HitReactionVRIK.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

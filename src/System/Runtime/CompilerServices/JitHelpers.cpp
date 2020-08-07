@@ -4,8 +4,8 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.CompilerServices.JitHelpers
-#include "System\Runtime\CompilerServices\JitHelpers.hpp"
+#include "System/Runtime/CompilerServices/JitHelpers.hpp"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

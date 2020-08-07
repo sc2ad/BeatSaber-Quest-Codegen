@@ -6,41 +6,41 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.EventSystems.IPointerEnterHandler
-#include "UnityEngine\EventSystems\IPointerEnterHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerEnterHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerExitHandler
-#include "UnityEngine\EventSystems\IPointerExitHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerExitHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerDownHandler
-#include "UnityEngine\EventSystems\IPointerDownHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerDownHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerUpHandler
-#include "UnityEngine\EventSystems\IPointerUpHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerUpHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerClickHandler
-#include "UnityEngine\EventSystems\IPointerClickHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerClickHandler.hpp"
 // Including type: UnityEngine.EventSystems.IInitializePotentialDragHandler
-#include "UnityEngine\EventSystems\IInitializePotentialDragHandler.hpp"
+#include "UnityEngine/EventSystems/IInitializePotentialDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IBeginDragHandler
-#include "UnityEngine\EventSystems\IBeginDragHandler.hpp"
+#include "UnityEngine/EventSystems/IBeginDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IDragHandler
-#include "UnityEngine\EventSystems\IDragHandler.hpp"
+#include "UnityEngine/EventSystems/IDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IEndDragHandler
-#include "UnityEngine\EventSystems\IEndDragHandler.hpp"
+#include "UnityEngine/EventSystems/IEndDragHandler.hpp"
 // Including type: UnityEngine.EventSystems.IDropHandler
-#include "UnityEngine\EventSystems\IDropHandler.hpp"
+#include "UnityEngine/EventSystems/IDropHandler.hpp"
 // Including type: UnityEngine.EventSystems.IScrollHandler
-#include "UnityEngine\EventSystems\IScrollHandler.hpp"
+#include "UnityEngine/EventSystems/IScrollHandler.hpp"
 // Including type: UnityEngine.EventSystems.IUpdateSelectedHandler
-#include "UnityEngine\EventSystems\IUpdateSelectedHandler.hpp"
+#include "UnityEngine/EventSystems/IUpdateSelectedHandler.hpp"
 // Including type: UnityEngine.EventSystems.ISelectHandler
-#include "UnityEngine\EventSystems\ISelectHandler.hpp"
+#include "UnityEngine/EventSystems/ISelectHandler.hpp"
 // Including type: UnityEngine.EventSystems.IDeselectHandler
-#include "UnityEngine\EventSystems\IDeselectHandler.hpp"
+#include "UnityEngine/EventSystems/IDeselectHandler.hpp"
 // Including type: UnityEngine.EventSystems.IMoveHandler
-#include "UnityEngine\EventSystems\IMoveHandler.hpp"
+#include "UnityEngine/EventSystems/IMoveHandler.hpp"
 // Including type: UnityEngine.EventSystems.ISubmitHandler
-#include "UnityEngine\EventSystems\ISubmitHandler.hpp"
+#include "UnityEngine/EventSystems/ISubmitHandler.hpp"
 // Including type: UnityEngine.EventSystems.ICancelHandler
-#include "UnityEngine\EventSystems\ICancelHandler.hpp"
+#include "UnityEngine/EventSystems/ICancelHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems

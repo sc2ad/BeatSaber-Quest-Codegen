@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.PhysicsRaycaster
-#include "UnityEngine\EventSystems\PhysicsRaycaster.hpp"
+#include "UnityEngine/EventSystems/PhysicsRaycaster.hpp"
 // Including type: System.Collections.Generic.IComparer`1
-#include "System\Collections\Generic\IComparer_1.hpp"
+#include "System/Collections/Generic/IComparer_1.hpp"
 // Including type: UnityEngine.RaycastHit
-#include "UnityEngine\RaycastHit.hpp"
+#include "UnityEngine/RaycastHit.hpp"
 // Completed includes
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {

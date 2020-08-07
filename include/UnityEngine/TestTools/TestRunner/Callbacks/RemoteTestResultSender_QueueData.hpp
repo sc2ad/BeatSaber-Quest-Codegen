@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
-#include "UnityEngine\TestTools\TestRunner\Callbacks\RemoteTestResultSender.hpp"
+#include "UnityEngine/TestTools/TestRunner/Callbacks/RemoteTestResultSender.hpp"
 // Including type: System.Guid
-#include "System\Guid.hpp"
+#include "System/Guid.hpp"
 // Completed includes
 // Type namespace: UnityEngine.TestTools.TestRunner.Callbacks
 namespace UnityEngine::TestTools::TestRunner::Callbacks {

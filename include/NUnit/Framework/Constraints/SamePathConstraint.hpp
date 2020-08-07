@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Constraints.PathConstraint
-#include "NUnit\Framework\Constraints\PathConstraint.hpp"
+#include "NUnit/Framework/Constraints/PathConstraint.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {

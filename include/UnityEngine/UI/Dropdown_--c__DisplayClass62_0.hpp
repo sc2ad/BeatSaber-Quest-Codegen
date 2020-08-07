@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.UI.Dropdown
-#include "UnityEngine\UI\Dropdown.hpp"
+#include "UnityEngine/UI/Dropdown.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.TokenType
-#include "System\TokenType.hpp"
+#include "System/TokenType.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {

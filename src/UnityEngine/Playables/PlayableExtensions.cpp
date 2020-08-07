@@ -4,6 +4,6 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.PlayableExtensions
-#include "UnityEngine\Playables\PlayableExtensions.hpp"
+#include "UnityEngine/Playables/PlayableExtensions.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

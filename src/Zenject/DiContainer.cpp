@@ -4,147 +4,147 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.DiContainer
-#include "Zenject\DiContainer.hpp"
+#include "Zenject/DiContainer.hpp"
 // Including type: Zenject.DiContainer/ProviderInfo
-#include "Zenject\DiContainer_ProviderInfo.hpp"
+#include "Zenject/DiContainer_ProviderInfo.hpp"
 // Including type: Zenject.DiContainer/<>c
-#include "Zenject\DiContainer_--c.hpp"
+#include "Zenject/DiContainer_--c.hpp"
 // Including type: Zenject.DiContainer/<>c__DisplayClass86_0
-#include "Zenject\DiContainer_--c__DisplayClass86_0.hpp"
+#include "Zenject/DiContainer_--c__DisplayClass86_0.hpp"
 // Including type: Zenject.DiContainer/<GetDependencyContracts>d__96
-#include "Zenject\DiContainer_-GetDependencyContracts-d__96.hpp"
+#include "Zenject/DiContainer_-GetDependencyContracts-d__96.hpp"
 // Including type: Zenject.DiContainer/<>c__DisplayClass178_0
-#include "Zenject\DiContainer_--c__DisplayClass178_0.hpp"
+#include "Zenject/DiContainer_--c__DisplayClass178_0.hpp"
 // Including type: Zenject.DiContainer/<>c__DisplayClass203_0`1
-#include "Zenject\DiContainer_--c__DisplayClass203_0_1.hpp"
+#include "Zenject/DiContainer_--c__DisplayClass203_0_1.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
-#include "System\Collections\Generic\Dictionary_2.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: System.Type
-#include "System\Type.hpp"
+#include "System/Type.hpp"
 // Including type: Zenject.Internal.IDecoratorProvider
-#include "Zenject\Internal\IDecoratorProvider.hpp"
+#include "Zenject/Internal/IDecoratorProvider.hpp"
 // Including type: System.Collections.Generic.List`1
-#include "System\Collections\Generic\List_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Collections.Generic.HashSet`1
-#include "System\Collections\Generic\HashSet_1.hpp"
+#include "System/Collections/Generic/HashSet_1.hpp"
 // Including type: Zenject.Internal.LookupId
-#include "Zenject\Internal\LookupId.hpp"
+#include "Zenject/Internal/LookupId.hpp"
 // Including type: Zenject.LazyInstanceInjector
-#include "Zenject\LazyInstanceInjector.hpp"
+#include "Zenject/LazyInstanceInjector.hpp"
 // Including type: Zenject.Internal.SingletonMarkRegistry
-#include "Zenject\Internal\SingletonMarkRegistry.hpp"
+#include "Zenject/Internal/SingletonMarkRegistry.hpp"
 // Including type: System.Collections.Generic.Queue`1
-#include "System\Collections\Generic\Queue_1.hpp"
+#include "System/Collections/Generic/Queue_1.hpp"
 // Including type: Zenject.BindStatement
-#include "Zenject\BindStatement.hpp"
+#include "Zenject/BindStatement.hpp"
 // Including type: Zenject.IValidatable
-#include "Zenject\IValidatable.hpp"
+#include "Zenject/IValidatable.hpp"
 // Including type: UnityEngine.Transform
-#include "UnityEngine\Transform.hpp"
+#include "UnityEngine/Transform.hpp"
 // Including type: Zenject.ZenjectSettings
-#include "Zenject\ZenjectSettings.hpp"
+#include "Zenject/ZenjectSettings.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: Zenject.IProvider
-#include "Zenject\IProvider.hpp"
+#include "Zenject/IProvider.hpp"
 // Including type: Zenject.InjectContext
-#include "Zenject\InjectContext.hpp"
+#include "Zenject/InjectContext.hpp"
 // Including type: Zenject.BindingCondition
-#include "Zenject\BindingCondition.hpp"
+#include "Zenject/BindingCondition.hpp"
 // Including type: Zenject.InjectSources
-#include "Zenject\InjectSources.hpp"
+#include "Zenject/InjectSources.hpp"
 // Including type: Zenject.Installer
-#include "Zenject\Installer.hpp"
+#include "Zenject/Installer.hpp"
 // Including type: System.Collections.IList
-#include "System\Collections\IList.hpp"
+#include "System/Collections/IList.hpp"
 // Including type: Zenject.DecoratorToChoiceFromBinder`1
-#include "Zenject\DecoratorToChoiceFromBinder_1.hpp"
+#include "Zenject/DecoratorToChoiceFromBinder_1.hpp"
 // Including type: System.Nullable`1
-#include "System\Nullable_1.hpp"
+#include "System/Nullable_1.hpp"
 // Including type: Zenject.InjectTypeInfo
-#include "Zenject\InjectTypeInfo.hpp"
+#include "Zenject/InjectTypeInfo.hpp"
 // Including type: UnityEngine.GameObject
-#include "UnityEngine\GameObject.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Including type: Zenject.GameObjectCreationParameters
-#include "Zenject\GameObjectCreationParameters.hpp"
+#include "Zenject/GameObjectCreationParameters.hpp"
 // Including type: UnityEngine.Object
-#include "UnityEngine\Object.hpp"
+#include "UnityEngine/Object.hpp"
 // Including type: UnityEngine.Component
-#include "UnityEngine\Component.hpp"
+#include "UnityEngine/Component.hpp"
 // Including type: Zenject.ConcreteBinderGeneric`1
-#include "Zenject\ConcreteBinderGeneric_1.hpp"
+#include "Zenject/ConcreteBinderGeneric_1.hpp"
 // Including type: Zenject.ConcreteBinderNonGeneric
-#include "Zenject\ConcreteBinderNonGeneric.hpp"
+#include "Zenject/ConcreteBinderNonGeneric.hpp"
 // Including type: Zenject.ConcreteIdBinderGeneric`1
-#include "Zenject\ConcreteIdBinderGeneric_1.hpp"
+#include "Zenject/ConcreteIdBinderGeneric_1.hpp"
 // Including type: Zenject.ConcreteIdBinderNonGeneric
-#include "Zenject\ConcreteIdBinderNonGeneric.hpp"
+#include "Zenject/ConcreteIdBinderNonGeneric.hpp"
 // Including type: Zenject.BindInfo
-#include "Zenject\BindInfo.hpp"
+#include "Zenject/BindInfo.hpp"
 // Including type: System.Action`1
-#include "System\Action_1.hpp"
+#include "System/Action_1.hpp"
 // Including type: Zenject.ConventionSelectTypesBinder
-#include "Zenject\ConventionSelectTypesBinder.hpp"
+#include "Zenject/ConventionSelectTypesBinder.hpp"
 // Including type: Zenject.FromBinderNonGeneric
-#include "Zenject\FromBinderNonGeneric.hpp"
+#include "Zenject/FromBinderNonGeneric.hpp"
 // Including type: Zenject.IdScopeConcreteIdArgConditionCopyNonLazyBinder
-#include "Zenject\IdScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
+#include "Zenject/IdScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 // Including type: Zenject.IFactory
-#include "Zenject\IFactory.hpp"
+#include "Zenject/IFactory.hpp"
 // Including type: Zenject.FactoryToChoiceIdBinder`1
-#include "Zenject\FactoryToChoiceIdBinder_1.hpp"
+#include "Zenject/FactoryToChoiceIdBinder_1.hpp"
 // Including type: Zenject.PlaceholderFactory`1
-#include "Zenject\PlaceholderFactory_1.hpp"
+#include "Zenject/PlaceholderFactory_1.hpp"
 // Including type: Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1
-#include "Zenject\MemoryPoolIdInitialSizeMaxSizeBinder_1.hpp"
+#include "Zenject/MemoryPoolIdInitialSizeMaxSizeBinder_1.hpp"
 // Including type: Zenject.IMemoryPool
-#include "Zenject\IMemoryPool.hpp"
+#include "Zenject/IMemoryPool.hpp"
 // Including type: Zenject.FactoryToChoiceIdBinder`2
-#include "Zenject\FactoryToChoiceIdBinder_2.hpp"
+#include "Zenject/FactoryToChoiceIdBinder_2.hpp"
 // Including type: Zenject.PlaceholderFactory`2
-#include "Zenject\PlaceholderFactory_2.hpp"
+#include "Zenject/PlaceholderFactory_2.hpp"
 // Including type: Zenject.FactoryToChoiceIdBinder`3
-#include "Zenject\FactoryToChoiceIdBinder_3.hpp"
+#include "Zenject/FactoryToChoiceIdBinder_3.hpp"
 // Including type: Zenject.PlaceholderFactory`3
-#include "Zenject\PlaceholderFactory_3.hpp"
+#include "Zenject/PlaceholderFactory_3.hpp"
 // Including type: Zenject.FactoryToChoiceIdBinder`4
-#include "Zenject\FactoryToChoiceIdBinder_4.hpp"
+#include "Zenject/FactoryToChoiceIdBinder_4.hpp"
 // Including type: Zenject.PlaceholderFactory`4
-#include "Zenject\PlaceholderFactory_4.hpp"
+#include "Zenject/PlaceholderFactory_4.hpp"
 // Including type: Zenject.FactoryToChoiceIdBinder`5
-#include "Zenject\FactoryToChoiceIdBinder_5.hpp"
+#include "Zenject/FactoryToChoiceIdBinder_5.hpp"
 // Including type: Zenject.PlaceholderFactory`5
-#include "Zenject\PlaceholderFactory_5.hpp"
+#include "Zenject/PlaceholderFactory_5.hpp"
 // Including type: Zenject.FactoryToChoiceIdBinder`6
-#include "Zenject\FactoryToChoiceIdBinder_6.hpp"
+#include "Zenject/FactoryToChoiceIdBinder_6.hpp"
 // Including type: Zenject.PlaceholderFactory`6
-#include "Zenject\PlaceholderFactory_6.hpp"
+#include "Zenject/PlaceholderFactory_6.hpp"
 // Including type: Zenject.FactoryToChoiceIdBinder`7
-#include "Zenject\FactoryToChoiceIdBinder_7.hpp"
+#include "Zenject/FactoryToChoiceIdBinder_7.hpp"
 // Including type: Zenject.PlaceholderFactory`7
-#include "Zenject\PlaceholderFactory_7.hpp"
+#include "Zenject/PlaceholderFactory_7.hpp"
 // Including type: Zenject.FactoryToChoiceIdBinder`11
-#include "Zenject\FactoryToChoiceIdBinder_11.hpp"
+#include "Zenject/FactoryToChoiceIdBinder_11.hpp"
 // Including type: Zenject.PlaceholderFactory`11
-#include "Zenject\PlaceholderFactory_11.hpp"
+#include "Zenject/PlaceholderFactory_11.hpp"
 // Including type: Zenject.ITickable
-#include "Zenject\ITickable.hpp"
+#include "Zenject/ITickable.hpp"
 // Including type: Zenject.CopyNonLazyBinder
-#include "Zenject\CopyNonLazyBinder.hpp"
+#include "Zenject/CopyNonLazyBinder.hpp"
 // Including type: Zenject.IInitializable
-#include "Zenject\IInitializable.hpp"
+#include "Zenject/IInitializable.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: Zenject.ILateDisposable
-#include "Zenject\ILateDisposable.hpp"
+#include "Zenject/ILateDisposable.hpp"
 // Including type: Zenject.IFixedTickable
-#include "Zenject\IFixedTickable.hpp"
+#include "Zenject/IFixedTickable.hpp"
 // Including type: Zenject.ILateTickable
-#include "Zenject\ILateTickable.hpp"
+#include "Zenject/ILateTickable.hpp"
 // Including type: Zenject.IPoolable
-#include "Zenject\IPoolable.hpp"
+#include "Zenject/IPoolable.hpp"
 // Including type: UnityEngine.ScriptableObject
-#include "UnityEngine\ScriptableObject.hpp"
+#include "UnityEngine/ScriptableObject.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated method: Zenject.DiContainer..ctor

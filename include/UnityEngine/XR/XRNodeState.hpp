@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.XR.XRNode
-#include "UnityEngine\XR\XRNode.hpp"
+#include "UnityEngine/XR/XRNode.hpp"
 // Including type: UnityEngine.XR.AvailableTrackingData
-#include "UnityEngine\XR\AvailableTrackingData.hpp"
+#include "UnityEngine/XR/AvailableTrackingData.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
-#include "UnityEngine\Quaternion.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

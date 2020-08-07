@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.ILogger
-#include "UnityEngine\ILogger.hpp"
+#include "UnityEngine/ILogger.hpp"
 // Including type: UnityEngine.LogType
-#include "UnityEngine\LogType.hpp"
+#include "UnityEngine/LogType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

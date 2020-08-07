@@ -5,11 +5,11 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.HmdVector3_t
-#include "OVR\OpenVR\HmdVector3_t.hpp"
+#include "OVR/OpenVR/HmdVector3_t.hpp"
 // Including type: OVR.OpenVR.HmdVector2_t
-#include "OVR\OpenVR\HmdVector2_t.hpp"
+#include "OVR/OpenVR/HmdVector2_t.hpp"
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

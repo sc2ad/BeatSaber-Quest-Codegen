@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.RuntimeType
-#include "System\RuntimeType.hpp"
+#include "System/RuntimeType.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

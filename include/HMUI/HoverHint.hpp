@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.EventSystems.IPointerEnterHandler
-#include "UnityEngine\EventSystems\IPointerEnterHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerEnterHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerExitHandler
-#include "UnityEngine\EventSystems\IPointerExitHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerExitHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

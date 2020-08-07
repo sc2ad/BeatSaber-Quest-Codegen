@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Callback/RequestCallback
-#include "Oculus\Platform\Callback_RequestCallback.hpp"
+#include "Oculus/Platform/Callback_RequestCallback.hpp"
 // Including type: Oculus.Platform.Callback
-#include "Oculus\Platform\Callback.hpp"
+#include "Oculus/Platform/Callback.hpp"
 // Including type: Oculus.Platform.Message`1
-#include "Oculus\Platform\Message_1.hpp"
+#include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

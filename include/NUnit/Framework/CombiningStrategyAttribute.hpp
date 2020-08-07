@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.NUnitAttribute
-#include "NUnit\Framework\NUnitAttribute.hpp"
+#include "NUnit/Framework/NUnitAttribute.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestBuilder
-#include "NUnit\Framework\Interfaces\ITestBuilder.hpp"
+#include "NUnit/Framework/Interfaces/ITestBuilder.hpp"
 // Including type: NUnit.Framework.Interfaces.IApplyToTest
-#include "NUnit\Framework\Interfaces\IApplyToTest.hpp"
+#include "NUnit/Framework/Interfaces/IApplyToTest.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal::Builders

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ConcreteBinderNonGeneric
-#include "Zenject\ConcreteBinderNonGeneric.hpp"
+#include "Zenject/ConcreteBinderNonGeneric.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject

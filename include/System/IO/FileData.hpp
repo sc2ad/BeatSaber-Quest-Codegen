@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IO.FileAttributes
-#include "System\IO\FileAttributes.hpp"
+#include "System/IO/FileAttributes.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.OffsetModifier
-#include "RootMotion\FinalIK\OffsetModifier.hpp"
+#include "RootMotion/FinalIK/OffsetModifier.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

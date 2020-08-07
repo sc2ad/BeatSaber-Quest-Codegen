@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Object
-#include "UnityEngine\Object.hpp"
+#include "UnityEngine/Object.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

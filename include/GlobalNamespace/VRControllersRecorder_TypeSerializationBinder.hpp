@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Serialization.SerializationBinder
-#include "System\Runtime\Serialization\SerializationBinder.hpp"
+#include "System/Runtime/Serialization/SerializationBinder.hpp"
 // Including type: VRControllersRecorder
-#include "GlobalNamespace\VRControllersRecorder.hpp"
+#include "GlobalNamespace/VRControllersRecorder.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

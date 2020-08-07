@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: NUnit.Framework.Interfaces.ITest
-#include "NUnit\Framework\Interfaces\ITest.hpp"
+#include "NUnit/Framework/Interfaces/ITest.hpp"
 // Including type: System.IComparable
-#include "System\IComparable.hpp"
+#include "System/IComparable.hpp"
 // Including type: NUnit.Framework.Interfaces.RunState
-#include "NUnit\Framework\Interfaces\RunState.hpp"
+#include "NUnit/Framework/Interfaces/RunState.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

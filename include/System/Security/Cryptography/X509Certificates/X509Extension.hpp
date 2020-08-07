@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Cryptography.AsnEncodedData
-#include "System\Security\Cryptography\AsnEncodedData.hpp"
+#include "System/Security/Cryptography/AsnEncodedData.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {

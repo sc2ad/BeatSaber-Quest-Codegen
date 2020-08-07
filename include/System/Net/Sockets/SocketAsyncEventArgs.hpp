@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.EventArgs
-#include "System\EventArgs.hpp"
+#include "System/EventArgs.hpp"
 // Including type: System.Net.Sockets.SocketError
-#include "System\Net\Sockets\SocketError.hpp"
+#include "System/Net/Sockets/SocketError.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net

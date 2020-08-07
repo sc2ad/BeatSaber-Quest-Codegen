@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.UInt32
-#include "System\UInt32.hpp"
+#include "System/UInt32.hpp"
 // Including type: System.UInt64
-#include "System\UInt64.hpp"
+#include "System/UInt64.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR

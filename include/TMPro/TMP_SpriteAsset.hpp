@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Asset
-#include "TMPro\TMP_Asset.hpp"
+#include "TMPro/TMP_Asset.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro

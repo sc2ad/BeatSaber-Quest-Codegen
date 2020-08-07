@@ -4,123 +4,123 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.FromBinder
-#include "Zenject\FromBinder.hpp"
+#include "Zenject/FromBinder.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass22_0
-#include "Zenject\FromBinder_--c__DisplayClass22_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass22_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass28_0`1
-#include "Zenject\FromBinder_--c__DisplayClass28_0_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass28_0_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass29_0
-#include "Zenject\FromBinder_--c__DisplayClass29_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass29_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass30_0
-#include "Zenject\FromBinder_--c__DisplayClass30_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass30_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass31_0
-#include "Zenject\FromBinder_--c__DisplayClass31_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass31_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass32_0
-#include "Zenject\FromBinder_--c__DisplayClass32_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass32_0.hpp"
 // Including type: Zenject.FromBinder/<>c
-#include "Zenject\FromBinder_--c.hpp"
+#include "Zenject/FromBinder_--c.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass35_0
-#include "Zenject\FromBinder_--c__DisplayClass35_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass35_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass36_0
-#include "Zenject\FromBinder_--c__DisplayClass36_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass36_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass53_0
-#include "Zenject\FromBinder_--c__DisplayClass53_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass53_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass56_0
-#include "Zenject\FromBinder_--c__DisplayClass56_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass56_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass57_0
-#include "Zenject\FromBinder_--c__DisplayClass57_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass57_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass58_0
-#include "Zenject\FromBinder_--c__DisplayClass58_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass58_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass59_0
-#include "Zenject\FromBinder_--c__DisplayClass59_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass59_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass59_1
-#include "Zenject\FromBinder_--c__DisplayClass59_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass59_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass60_0
-#include "Zenject\FromBinder_--c__DisplayClass60_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass60_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass60_1
-#include "Zenject\FromBinder_--c__DisplayClass60_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass60_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass60_2
-#include "Zenject\FromBinder_--c__DisplayClass60_2.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass60_2.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass61_0
-#include "Zenject\FromBinder_--c__DisplayClass61_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass61_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass61_1
-#include "Zenject\FromBinder_--c__DisplayClass61_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass61_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass61_2
-#include "Zenject\FromBinder_--c__DisplayClass61_2.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass61_2.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass62_0
-#include "Zenject\FromBinder_--c__DisplayClass62_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass62_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass62_1
-#include "Zenject\FromBinder_--c__DisplayClass62_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass62_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass62_2
-#include "Zenject\FromBinder_--c__DisplayClass62_2.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass62_2.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass63_0
-#include "Zenject\FromBinder_--c__DisplayClass63_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass63_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass64_0
-#include "Zenject\FromBinder_--c__DisplayClass64_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass64_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass64_1
-#include "Zenject\FromBinder_--c__DisplayClass64_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass64_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass65_0
-#include "Zenject\FromBinder_--c__DisplayClass65_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass65_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass65_1
-#include "Zenject\FromBinder_--c__DisplayClass65_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass65_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass65_2
-#include "Zenject\FromBinder_--c__DisplayClass65_2.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass65_2.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass66_0
-#include "Zenject\FromBinder_--c__DisplayClass66_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass66_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass66_1
-#include "Zenject\FromBinder_--c__DisplayClass66_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass66_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass66_2
-#include "Zenject\FromBinder_--c__DisplayClass66_2.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass66_2.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass67_0
-#include "Zenject\FromBinder_--c__DisplayClass67_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass67_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass68_0
-#include "Zenject\FromBinder_--c__DisplayClass68_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass68_0.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass69_0`1
-#include "Zenject\FromBinder_--c__DisplayClass69_0_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass69_0_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass70_0`1
-#include "Zenject\FromBinder_--c__DisplayClass70_0_1.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass70_0_1.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass71_0`2
-#include "Zenject\FromBinder_--c__DisplayClass71_0_2.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass71_0_2.hpp"
 // Including type: Zenject.FromBinder/<>c__DisplayClass72_0
-#include "Zenject\FromBinder_--c__DisplayClass72_0.hpp"
+#include "Zenject/FromBinder_--c__DisplayClass72_0.hpp"
 // Including type: Zenject.DiContainer
-#include "Zenject\DiContainer.hpp"
+#include "Zenject/DiContainer.hpp"
 // Including type: Zenject.BindStatement
-#include "Zenject\BindStatement.hpp"
+#include "Zenject/BindStatement.hpp"
 // Including type: Zenject.BindInfo
-#include "Zenject\BindInfo.hpp"
+#include "Zenject/BindInfo.hpp"
 // Including type: Zenject.IBindingFinalizer
-#include "Zenject\IBindingFinalizer.hpp"
+#include "Zenject/IBindingFinalizer.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Type
-#include "System\Type.hpp"
+#include "System/Type.hpp"
 // Including type: Zenject.IProvider
-#include "Zenject\IProvider.hpp"
+#include "Zenject/IProvider.hpp"
 // Including type: Zenject.SubContainerBinder
-#include "Zenject\SubContainerBinder.hpp"
+#include "Zenject/SubContainerBinder.hpp"
 // Including type: System.Action`1
-#include "System\Action_1.hpp"
+#include "System/Action_1.hpp"
 // Including type: Zenject.ConcreteBinderGeneric`1
-#include "Zenject\ConcreteBinderGeneric_1.hpp"
+#include "Zenject/ConcreteBinderGeneric_1.hpp"
 // Including type: Zenject.IFactory`1
-#include "Zenject\IFactory_1.hpp"
+#include "Zenject/IFactory_1.hpp"
 // Including type: UnityEngine.GameObject
-#include "UnityEngine\GameObject.hpp"
+#include "UnityEngine/GameObject.hpp"
 // Including type: System.Func`2
-#include "System\Func_2.hpp"
+#include "System/Func_2.hpp"
 // Including type: Zenject.InjectContext
-#include "Zenject\InjectContext.hpp"
+#include "Zenject/InjectContext.hpp"
 // Including type: Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder
-#include "Zenject\NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
+#include "Zenject/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 // Including type: Zenject.GameObjectCreationParameters
-#include "Zenject\GameObjectCreationParameters.hpp"
+#include "Zenject/GameObjectCreationParameters.hpp"
 // Including type: UnityEngine.Object
-#include "UnityEngine\Object.hpp"
+#include "UnityEngine/Object.hpp"
 // Including type: UnityEngine.ScriptableObject
-#include "UnityEngine\ScriptableObject.hpp"
+#include "UnityEngine/ScriptableObject.hpp"
 // Including type: UnityEngine.Component
-#include "UnityEngine\Component.hpp"
+#include "UnityEngine/Component.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated method: Zenject.FromBinder..ctor

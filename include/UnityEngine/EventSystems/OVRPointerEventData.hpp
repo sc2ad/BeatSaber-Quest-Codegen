@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.PointerEventData
-#include "UnityEngine\EventSystems\PointerEventData.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Including type: UnityEngine.Ray
-#include "UnityEngine\Ray.hpp"
+#include "UnityEngine/Ray.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems

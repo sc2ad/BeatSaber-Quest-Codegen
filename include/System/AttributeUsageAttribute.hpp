@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: System.AttributeTargets
-#include "System\AttributeTargets.hpp"
+#include "System/AttributeTargets.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

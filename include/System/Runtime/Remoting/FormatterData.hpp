@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.ProviderData
-#include "System\Runtime\Remoting\ProviderData.hpp"
+#include "System/Runtime/Remoting/ProviderData.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {

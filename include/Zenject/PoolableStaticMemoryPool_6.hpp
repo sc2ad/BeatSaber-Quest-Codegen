@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.StaticMemoryPool`6
-#include "Zenject\StaticMemoryPool_6.hpp"
+#include "Zenject/StaticMemoryPool_6.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

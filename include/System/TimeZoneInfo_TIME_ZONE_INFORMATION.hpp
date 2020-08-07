@@ -5,11 +5,11 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.TimeZoneInfo
-#include "System\TimeZoneInfo.hpp"
+#include "System/TimeZoneInfo.hpp"
 // Including type: System.TimeZoneInfo/SYSTEMTIME
-#include "System\TimeZoneInfo_SYSTEMTIME.hpp"
+#include "System/TimeZoneInfo_SYSTEMTIME.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;

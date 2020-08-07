@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.MonoMemoryPool`1
-#include "Zenject\MonoMemoryPool_1.hpp"
+#include "Zenject/MonoMemoryPool_1.hpp"
 // Including type: FireworkItemController
-#include "GlobalNamespace\FireworkItemController.hpp"
+#include "GlobalNamespace/FireworkItemController.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Unity.Collections.NativeArray`1
-#include "Unity\Collections\NativeArray_1.hpp"
+#include "Unity/Collections/NativeArray_1.hpp"
 // Including type: UnityEngine.TextureFormat
-#include "UnityEngine\TextureFormat.hpp"
+#include "UnityEngine/TextureFormat.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Profiling.Experimental
 namespace UnityEngine::Profiling::Experimental {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.DropdownWithTableView
-#include "HMUI\DropdownWithTableView.hpp"
+#include "HMUI/DropdownWithTableView.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro

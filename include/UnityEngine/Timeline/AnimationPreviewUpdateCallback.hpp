@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Timeline.ITimelineEvaluateCallback
-#include "UnityEngine\Timeline\ITimelineEvaluateCallback.hpp"
+#include "UnityEngine/Timeline/ITimelineEvaluateCallback.hpp"
 // Including type: UnityEngine.Animations.AnimationPlayableOutput
-#include "UnityEngine\Animations\AnimationPlayableOutput.hpp"
+#include "UnityEngine/Animations/AnimationPlayableOutput.hpp"
 // Including type: UnityEngine.Playables.PlayableGraph
-#include "UnityEngine\Playables\PlayableGraph.hpp"
+#include "UnityEngine/Playables/PlayableGraph.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

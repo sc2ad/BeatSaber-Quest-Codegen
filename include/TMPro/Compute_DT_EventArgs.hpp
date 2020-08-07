@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: TMPro.Compute_DistanceTransform_EventTypes
-#include "TMPro\Compute_DistanceTransform_EventTypes.hpp"
+#include "TMPro/Compute_DistanceTransform_EventTypes.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

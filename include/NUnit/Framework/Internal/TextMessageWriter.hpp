@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Constraints.MessageWriter
-#include "NUnit\Framework\Constraints\MessageWriter.hpp"
+#include "NUnit/Framework/Constraints/MessageWriter.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints

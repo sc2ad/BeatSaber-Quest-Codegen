@@ -6,37 +6,37 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.MaskableGraphic
-#include "UnityEngine\UI\MaskableGraphic.hpp"
+#include "UnityEngine/UI/MaskableGraphic.hpp"
 // Including type: TMPro.TMP_RichTextTagStack`1
-#include "TMPro\TMP_RichTextTagStack_1.hpp"
+#include "TMPro/TMP_RichTextTagStack_1.hpp"
 // Including type: TMPro.MaterialReference
-#include "TMPro\MaterialReference.hpp"
+#include "TMPro/MaterialReference.hpp"
 // Including type: TMPro.ColorMode
-#include "TMPro\ColorMode.hpp"
+#include "TMPro/ColorMode.hpp"
 // Including type: TMPro.VertexGradient
-#include "TMPro\VertexGradient.hpp"
+#include "TMPro/VertexGradient.hpp"
 // Including type: TMPro.FontWeight
-#include "TMPro\FontWeight.hpp"
+#include "TMPro/FontWeight.hpp"
 // Including type: TMPro.FontStyles
-#include "TMPro\FontStyles.hpp"
+#include "TMPro/FontStyles.hpp"
 // Including type: TMPro.TMP_FontStyleStack
-#include "TMPro\TMP_FontStyleStack.hpp"
+#include "TMPro/TMP_FontStyleStack.hpp"
 // Including type: TMPro.TextAlignmentOptions
-#include "TMPro\TextAlignmentOptions.hpp"
+#include "TMPro/TextAlignmentOptions.hpp"
 // Including type: TMPro.TextOverflowModes
-#include "TMPro\TextOverflowModes.hpp"
+#include "TMPro/TextOverflowModes.hpp"
 // Including type: TMPro.TextureMappingOptions
-#include "TMPro\TextureMappingOptions.hpp"
+#include "TMPro/TextureMappingOptions.hpp"
 // Including type: TMPro.TextRenderFlags
-#include "TMPro\TextRenderFlags.hpp"
+#include "TMPro/TextRenderFlags.hpp"
 // Including type: TMPro.VertexSortingOrder
-#include "TMPro\VertexSortingOrder.hpp"
+#include "TMPro/VertexSortingOrder.hpp"
 // Including type: UnityEngine.Matrix4x4
-#include "UnityEngine\Matrix4x4.hpp"
+#include "UnityEngine/Matrix4x4.hpp"
 // Including type: TMPro.WordWrapState
-#include "TMPro\WordWrapState.hpp"
+#include "TMPro/WordWrapState.hpp"
 // Including type: TMPro.TMP_TextElementType
-#include "TMPro\TMP_TextElementType.hpp"
+#include "TMPro/TMP_TextElementType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

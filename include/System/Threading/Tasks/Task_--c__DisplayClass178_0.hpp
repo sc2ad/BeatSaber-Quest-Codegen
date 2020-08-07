@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Threading.Tasks.Task
-#include "System\Threading\Tasks\Task.hpp"
+#include "System/Threading/Tasks/Task.hpp"
 // Including type: System.Threading.Tasks.TaskCreationOptions
-#include "System\Threading\Tasks\TaskCreationOptions.hpp"
+#include "System/Threading/Tasks/TaskCreationOptions.hpp"
 // Including type: System.Threading.Tasks.InternalTaskOptions
-#include "System\Threading\Tasks\InternalTaskOptions.hpp"
+#include "System/Threading/Tasks/InternalTaskOptions.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

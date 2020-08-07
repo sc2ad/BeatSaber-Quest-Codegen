@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.DeserializableList`1
-#include "Oculus\Platform\Models\DeserializableList_1.hpp"
+#include "Oculus/Platform/Models/DeserializableList_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models

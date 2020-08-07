@@ -4,75 +4,75 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.Task
-#include "System\Threading\Tasks\Task.hpp"
+#include "System/Threading/Tasks/Task.hpp"
 // Including type: System.Threading.Tasks.Task/ContingentProperties
-#include "System\Threading\Tasks\Task_ContingentProperties.hpp"
+#include "System/Threading/Tasks/Task_ContingentProperties.hpp"
 // Including type: System.Threading.Tasks.Task/SetOnInvokeMres
-#include "System\Threading\Tasks\Task_SetOnInvokeMres.hpp"
+#include "System/Threading/Tasks/Task_SetOnInvokeMres.hpp"
 // Including type: System.Threading.Tasks.Task/DelayPromise
-#include "System\Threading\Tasks\Task_DelayPromise.hpp"
+#include "System/Threading/Tasks/Task_DelayPromise.hpp"
 // Including type: System.Threading.Tasks.Task/<>c__DisplayClass178_0
-#include "System\Threading\Tasks\Task_--c__DisplayClass178_0.hpp"
+#include "System/Threading/Tasks/Task_--c__DisplayClass178_0.hpp"
 // Including type: System.Threading.Tasks.Task/<>c
-#include "System\Threading\Tasks\Task_--c.hpp"
+#include "System/Threading/Tasks/Task_--c.hpp"
 // Including type: System.Threading.Tasks.TaskScheduler
-#include "System\Threading\Tasks\TaskScheduler.hpp"
+#include "System/Threading/Tasks/TaskScheduler.hpp"
 // Including type: System.Threading.Tasks.StackGuard
-#include "System\Threading\Tasks\StackGuard.hpp"
+#include "System/Threading/Tasks/StackGuard.hpp"
 // Including type: System.Threading.Tasks.TaskFactory
-#include "System\Threading\Tasks\TaskFactory.hpp"
+#include "System/Threading/Tasks/TaskFactory.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
-#include "System\Collections\Generic\Dictionary_2.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: System.Action`1
-#include "System\Action_1.hpp"
+#include "System/Action_1.hpp"
 // Including type: System.Func`1
-#include "System\Func_1.hpp"
+#include "System/Func_1.hpp"
 // Including type: System.Predicate`1
-#include "System\Predicate_1.hpp"
+#include "System/Predicate_1.hpp"
 // Including type: System.Threading.ContextCallback
-#include "System\Threading\ContextCallback.hpp"
+#include "System/Threading/ContextCallback.hpp"
 // Including type: System.Threading.Tasks.TaskCreationOptions
-#include "System\Threading\Tasks\TaskCreationOptions.hpp"
+#include "System/Threading/Tasks/TaskCreationOptions.hpp"
 // Including type: System.Delegate
-#include "System\Delegate.hpp"
+#include "System/Delegate.hpp"
 // Including type: System.Threading.Tasks.InternalTaskOptions
-#include "System\Threading\Tasks\InternalTaskOptions.hpp"
+#include "System/Threading/Tasks/InternalTaskOptions.hpp"
 // Including type: System.Threading.Tasks.TaskContinuation
-#include "System\Threading\Tasks\TaskContinuation.hpp"
+#include "System/Threading/Tasks/TaskContinuation.hpp"
 // Including type: System.Threading.StackCrawlMark
-#include "System\Threading\StackCrawlMark.hpp"
+#include "System/Threading/StackCrawlMark.hpp"
 // Including type: System.AggregateException
-#include "System\AggregateException.hpp"
+#include "System/AggregateException.hpp"
 // Including type: System.Threading.Tasks.TaskStatus
-#include "System\Threading\Tasks\TaskStatus.hpp"
+#include "System/Threading/Tasks/TaskStatus.hpp"
 // Including type: System.Threading.ManualResetEventSlim
-#include "System\Threading\ManualResetEventSlim.hpp"
+#include "System/Threading/ManualResetEventSlim.hpp"
 // Including type: System.Threading.ExecutionContext
-#include "System\Threading\ExecutionContext.hpp"
+#include "System/Threading/ExecutionContext.hpp"
 // Including type: System.Collections.ObjectModel.ReadOnlyCollection`1
-#include "System\Collections\ObjectModel\ReadOnlyCollection_1.hpp"
+#include "System/Collections/ObjectModel/ReadOnlyCollection_1.hpp"
 // Including type: System.Runtime.ExceptionServices.ExceptionDispatchInfo
-#include "System\Runtime\ExceptionServices\ExceptionDispatchInfo.hpp"
+#include "System/Runtime/ExceptionServices/ExceptionDispatchInfo.hpp"
 // Including type: System.Exception
-#include "System\Exception.hpp"
+#include "System/Exception.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
-#include "System\Runtime\CompilerServices\TaskAwaiter.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Including type: System.Action
-#include "System\Action.hpp"
+#include "System/Action.hpp"
 // Including type: System.Runtime.CompilerServices.YieldAwaitable
-#include "System\Runtime\CompilerServices\YieldAwaitable.hpp"
+#include "System/Runtime/CompilerServices/YieldAwaitable.hpp"
 // Including type: System.Threading.Tasks.TaskContinuationOptions
-#include "System\Threading\Tasks\TaskContinuationOptions.hpp"
+#include "System/Threading/Tasks/TaskContinuationOptions.hpp"
 // Including type: System.Action`2
-#include "System\Action_2.hpp"
+#include "System/Action_2.hpp"
 // Including type: System.Threading.Tasks.ITaskCompletionAction
-#include "System\Threading\Tasks\ITaskCompletionAction.hpp"
+#include "System/Threading/Tasks/ITaskCompletionAction.hpp"
 // Including type: System.Threading.Tasks.Task`1
-#include "System\Threading\Tasks\Task_1.hpp"
+#include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.Threading.WaitHandle
-#include "System\Threading\WaitHandle.hpp"
+#include "System/Threading/WaitHandle.hpp"
 // Including type: System.Threading.ThreadAbortException
-#include "System\Threading\ThreadAbortException.hpp"
+#include "System/Threading/ThreadAbortException.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated static field getter

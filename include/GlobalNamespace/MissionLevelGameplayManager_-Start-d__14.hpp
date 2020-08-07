@@ -5,11 +5,11 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: MissionLevelGameplayManager
-#include "GlobalNamespace\MissionLevelGameplayManager.hpp"
+#include "GlobalNamespace/MissionLevelGameplayManager.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

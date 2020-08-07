@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMAutoincrementedRequestId
-#include "GlobalNamespace\HMAutoincrementedRequestId.hpp"
+#include "GlobalNamespace/HMAutoincrementedRequestId.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

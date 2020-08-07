@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.BaseNumberConverter
-#include "System\ComponentModel\BaseNumberConverter.hpp"
+#include "System/ComponentModel/BaseNumberConverter.hpp"
 // Completed includes
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {

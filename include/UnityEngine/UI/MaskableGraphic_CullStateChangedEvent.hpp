@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine\Events\UnityEvent_1.hpp"
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Including type: UnityEngine.UI.MaskableGraphic
-#include "UnityEngine\UI\MaskableGraphic.hpp"
+#include "UnityEngine/UI/MaskableGraphic.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

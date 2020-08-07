@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OnlineServices.PlatformUserNamesLoader
-#include "OnlineServices\PlatformUserNamesLoader.hpp"
+#include "OnlineServices/PlatformUserNamesLoader.hpp"
 // Including type: System.Threading.CancellationToken
-#include "System\Threading\CancellationToken.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Including type: PlatformUserModelSO
-#include "GlobalNamespace\PlatformUserModelSO.hpp"
+#include "GlobalNamespace/PlatformUserModelSO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks

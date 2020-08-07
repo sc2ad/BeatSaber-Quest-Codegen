@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
-#include "RootMotion\FinalIK\FullBodyBipedEffector.hpp"
+#include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject/WeightCurve
-#include "RootMotion\FinalIK\InteractionObject.hpp"
+#include "RootMotion/FinalIK/InteractionObject.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

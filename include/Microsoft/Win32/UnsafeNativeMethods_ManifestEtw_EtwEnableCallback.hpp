@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MulticastDelegate
-#include "System\MulticastDelegate.hpp"
+#include "System/MulticastDelegate.hpp"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw
-#include "Microsoft\Win32\UnsafeNativeMethods_ManifestEtw.hpp"
+#include "Microsoft/Win32/UnsafeNativeMethods_ManifestEtw.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

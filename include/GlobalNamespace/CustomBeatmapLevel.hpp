@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CustomPreviewBeatmapLevel
-#include "GlobalNamespace\CustomPreviewBeatmapLevel.hpp"
+#include "GlobalNamespace/CustomPreviewBeatmapLevel.hpp"
 // Including type: IBeatmapLevel
-#include "GlobalNamespace\IBeatmapLevel.hpp"
+#include "GlobalNamespace/IBeatmapLevel.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

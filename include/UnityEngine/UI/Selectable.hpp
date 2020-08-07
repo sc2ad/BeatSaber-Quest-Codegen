@@ -6,27 +6,27 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.UIBehaviour
-#include "UnityEngine\EventSystems\UIBehaviour.hpp"
+#include "UnityEngine/EventSystems/UIBehaviour.hpp"
 // Including type: UnityEngine.EventSystems.IMoveHandler
-#include "UnityEngine\EventSystems\IMoveHandler.hpp"
+#include "UnityEngine/EventSystems/IMoveHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerDownHandler
-#include "UnityEngine\EventSystems\IPointerDownHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerDownHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerUpHandler
-#include "UnityEngine\EventSystems\IPointerUpHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerUpHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerEnterHandler
-#include "UnityEngine\EventSystems\IPointerEnterHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerEnterHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerExitHandler
-#include "UnityEngine\EventSystems\IPointerExitHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerExitHandler.hpp"
 // Including type: UnityEngine.EventSystems.ISelectHandler
-#include "UnityEngine\EventSystems\ISelectHandler.hpp"
+#include "UnityEngine/EventSystems/ISelectHandler.hpp"
 // Including type: UnityEngine.EventSystems.IDeselectHandler
-#include "UnityEngine\EventSystems\IDeselectHandler.hpp"
+#include "UnityEngine/EventSystems/IDeselectHandler.hpp"
 // Including type: UnityEngine.UI.Navigation
-#include "UnityEngine\UI\Navigation.hpp"
+#include "UnityEngine/UI/Navigation.hpp"
 // Including type: UnityEngine.UI.ColorBlock
-#include "UnityEngine\UI\ColorBlock.hpp"
+#include "UnityEngine/UI/ColorBlock.hpp"
 // Including type: UnityEngine.UI.SpriteState
-#include "UnityEngine\UI\SpriteState.hpp"
+#include "UnityEngine/UI/SpriteState.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI

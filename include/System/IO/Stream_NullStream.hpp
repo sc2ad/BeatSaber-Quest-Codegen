@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.Stream
-#include "System\IO\Stream.hpp"
+#include "System/IO/Stream.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

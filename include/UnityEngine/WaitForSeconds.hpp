@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.YieldInstruction
-#include "UnityEngine\YieldInstruction.hpp"
+#include "UnityEngine/YieldInstruction.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

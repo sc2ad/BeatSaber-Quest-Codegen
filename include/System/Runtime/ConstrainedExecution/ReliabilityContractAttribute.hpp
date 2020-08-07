@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: System.Runtime.ConstrainedExecution.Consistency
-#include "System\Runtime\ConstrainedExecution\Consistency.hpp"
+#include "System/Runtime/ConstrainedExecution/Consistency.hpp"
 // Including type: System.Runtime.ConstrainedExecution.Cer
-#include "System\Runtime\ConstrainedExecution\Cer.hpp"
+#include "System/Runtime/ConstrainedExecution/Cer.hpp"
 // Completed includes
 // Type namespace: System.Runtime.ConstrainedExecution
 namespace System::Runtime::ConstrainedExecution {

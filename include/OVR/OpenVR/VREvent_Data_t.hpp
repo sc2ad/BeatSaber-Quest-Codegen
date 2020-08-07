@@ -6,57 +6,57 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.VREvent_Reserved_t
-#include "OVR\OpenVR\VREvent_Reserved_t.hpp"
+#include "OVR/OpenVR/VREvent_Reserved_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Controller_t
-#include "OVR\OpenVR\VREvent_Controller_t.hpp"
+#include "OVR/OpenVR/VREvent_Controller_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Mouse_t
-#include "OVR\OpenVR\VREvent_Mouse_t.hpp"
+#include "OVR/OpenVR/VREvent_Mouse_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Scroll_t
-#include "OVR\OpenVR\VREvent_Scroll_t.hpp"
+#include "OVR/OpenVR/VREvent_Scroll_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Process_t
-#include "OVR\OpenVR\VREvent_Process_t.hpp"
+#include "OVR/OpenVR/VREvent_Process_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Notification_t
-#include "OVR\OpenVR\VREvent_Notification_t.hpp"
+#include "OVR/OpenVR/VREvent_Notification_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Overlay_t
-#include "OVR\OpenVR\VREvent_Overlay_t.hpp"
+#include "OVR/OpenVR/VREvent_Overlay_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Status_t
-#include "OVR\OpenVR\VREvent_Status_t.hpp"
+#include "OVR/OpenVR/VREvent_Status_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Ipd_t
-#include "OVR\OpenVR\VREvent_Ipd_t.hpp"
+#include "OVR/OpenVR/VREvent_Ipd_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Chaperone_t
-#include "OVR\OpenVR\VREvent_Chaperone_t.hpp"
+#include "OVR/OpenVR/VREvent_Chaperone_t.hpp"
 // Including type: OVR.OpenVR.VREvent_PerformanceTest_t
-#include "OVR\OpenVR\VREvent_PerformanceTest_t.hpp"
+#include "OVR/OpenVR/VREvent_PerformanceTest_t.hpp"
 // Including type: OVR.OpenVR.VREvent_TouchPadMove_t
-#include "OVR\OpenVR\VREvent_TouchPadMove_t.hpp"
+#include "OVR/OpenVR/VREvent_TouchPadMove_t.hpp"
 // Including type: OVR.OpenVR.VREvent_SeatedZeroPoseReset_t
-#include "OVR\OpenVR\VREvent_SeatedZeroPoseReset_t.hpp"
+#include "OVR/OpenVR/VREvent_SeatedZeroPoseReset_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Screenshot_t
-#include "OVR\OpenVR\VREvent_Screenshot_t.hpp"
+#include "OVR/OpenVR/VREvent_Screenshot_t.hpp"
 // Including type: OVR.OpenVR.VREvent_ScreenshotProgress_t
-#include "OVR\OpenVR\VREvent_ScreenshotProgress_t.hpp"
+#include "OVR/OpenVR/VREvent_ScreenshotProgress_t.hpp"
 // Including type: OVR.OpenVR.VREvent_ApplicationLaunch_t
-#include "OVR\OpenVR\VREvent_ApplicationLaunch_t.hpp"
+#include "OVR/OpenVR/VREvent_ApplicationLaunch_t.hpp"
 // Including type: OVR.OpenVR.VREvent_EditingCameraSurface_t
-#include "OVR\OpenVR\VREvent_EditingCameraSurface_t.hpp"
+#include "OVR/OpenVR/VREvent_EditingCameraSurface_t.hpp"
 // Including type: OVR.OpenVR.VREvent_MessageOverlay_t
-#include "OVR\OpenVR\VREvent_MessageOverlay_t.hpp"
+#include "OVR/OpenVR/VREvent_MessageOverlay_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Property_t
-#include "OVR\OpenVR\VREvent_Property_t.hpp"
+#include "OVR/OpenVR/VREvent_Property_t.hpp"
 // Including type: OVR.OpenVR.VREvent_DualAnalog_t
-#include "OVR\OpenVR\VREvent_DualAnalog_t.hpp"
+#include "OVR/OpenVR/VREvent_DualAnalog_t.hpp"
 // Including type: OVR.OpenVR.VREvent_HapticVibration_t
-#include "OVR\OpenVR\VREvent_HapticVibration_t.hpp"
+#include "OVR/OpenVR/VREvent_HapticVibration_t.hpp"
 // Including type: OVR.OpenVR.VREvent_WebConsole_t
-#include "OVR\OpenVR\VREvent_WebConsole_t.hpp"
+#include "OVR/OpenVR/VREvent_WebConsole_t.hpp"
 // Including type: OVR.OpenVR.VREvent_InputBindingLoad_t
-#include "OVR\OpenVR\VREvent_InputBindingLoad_t.hpp"
+#include "OVR/OpenVR/VREvent_InputBindingLoad_t.hpp"
 // Including type: OVR.OpenVR.VREvent_SpatialAnchor_t
-#include "OVR\OpenVR\VREvent_SpatialAnchor_t.hpp"
+#include "OVR/OpenVR/VREvent_SpatialAnchor_t.hpp"
 // Including type: OVR.OpenVR.VREvent_Keyboard_t
-#include "OVR\OpenVR\VREvent_Keyboard_t.hpp"
+#include "OVR/OpenVR/VREvent_Keyboard_t.hpp"
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

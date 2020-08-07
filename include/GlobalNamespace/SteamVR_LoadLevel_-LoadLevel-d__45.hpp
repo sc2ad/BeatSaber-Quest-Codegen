@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: SteamVR_LoadLevel
-#include "GlobalNamespace\SteamVR_LoadLevel.hpp"
+#include "GlobalNamespace/SteamVR_LoadLevel.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: SteamVR_Controller
-#include "GlobalNamespace\SteamVR_Controller.hpp"
+#include "GlobalNamespace/SteamVR_Controller.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR

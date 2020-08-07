@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.XmlUtf8RawTextWriter
-#include "System\Xml\XmlUtf8RawTextWriter.hpp"
+#include "System/Xml/XmlUtf8RawTextWriter.hpp"
 // Including type: System.Xml.ElementProperties
-#include "System\Xml\ElementProperties.hpp"
+#include "System/Xml/ElementProperties.hpp"
 // Including type: System.Xml.AttributeProperties
-#include "System\Xml\AttributeProperties.hpp"
+#include "System/Xml/AttributeProperties.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml

@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Experimental.Rendering.GraphicsFormat
-#include "UnityEngine\Experimental\Rendering\GraphicsFormat.hpp"
+#include "UnityEngine/Experimental/Rendering/GraphicsFormat.hpp"
 // Including type: UnityEngine.Rendering.TextureDimension
-#include "UnityEngine\Rendering\TextureDimension.hpp"
+#include "UnityEngine/Rendering/TextureDimension.hpp"
 // Including type: UnityEngine.Rendering.ShadowSamplingMode
-#include "UnityEngine\Rendering\ShadowSamplingMode.hpp"
+#include "UnityEngine/Rendering/ShadowSamplingMode.hpp"
 // Including type: UnityEngine.VRTextureUsage
-#include "UnityEngine\VRTextureUsage.hpp"
+#include "UnityEngine/VRTextureUsage.hpp"
 // Including type: UnityEngine.RenderTextureCreationFlags
-#include "UnityEngine\RenderTextureCreationFlags.hpp"
+#include "UnityEngine/RenderTextureCreationFlags.hpp"
 // Including type: UnityEngine.RenderTextureMemoryless
-#include "UnityEngine\RenderTextureMemoryless.hpp"
+#include "UnityEngine/RenderTextureMemoryless.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

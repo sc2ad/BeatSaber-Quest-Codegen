@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.CompilerServices.StateMachineAttribute
-#include "System\Runtime\CompilerServices\StateMachineAttribute.hpp"
+#include "System/Runtime/CompilerServices/StateMachineAttribute.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

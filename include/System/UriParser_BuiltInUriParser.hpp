@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.UriParser
-#include "System\UriParser.hpp"
+#include "System/UriParser.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

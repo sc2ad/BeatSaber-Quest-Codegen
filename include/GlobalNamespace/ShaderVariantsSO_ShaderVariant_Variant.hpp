@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: ShaderVariantsSO/ShaderVariant
-#include "GlobalNamespace\ShaderVariantsSO_ShaderVariant.hpp"
+#include "GlobalNamespace/ShaderVariantsSO_ShaderVariant.hpp"
 // Including type: UnityEngine.Rendering.PassType
-#include "UnityEngine\Rendering\PassType.hpp"
+#include "UnityEngine/Rendering/PassType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

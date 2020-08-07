@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Random
-#include "System\Random.hpp"
+#include "System/Random.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

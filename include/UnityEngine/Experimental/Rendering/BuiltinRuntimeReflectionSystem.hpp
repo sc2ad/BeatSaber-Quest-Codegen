@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem
-#include "UnityEngine\Experimental\Rendering\IScriptableRuntimeReflectionSystem.hpp"
+#include "UnityEngine/Experimental/Rendering/IScriptableRuntimeReflectionSystem.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Experimental.Rendering
 namespace UnityEngine::Experimental::Rendering {

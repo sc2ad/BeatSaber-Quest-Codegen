@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IOAsyncResult
-#include "System\IOAsyncResult.hpp"
+#include "System/IOAsyncResult.hpp"
 // Including type: System.Net.Sockets.SocketOperation
-#include "System\Net\Sockets\SocketOperation.hpp"
+#include "System/Net/Sockets/SocketOperation.hpp"
 // Including type: System.Net.Sockets.SocketFlags
-#include "System\Net\Sockets\SocketFlags.hpp"
+#include "System/Net/Sockets/SocketFlags.hpp"
 // Including type: System.ArraySegment`1
-#include "System\ArraySegment_1.hpp"
+#include "System/ArraySegment_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Sockets

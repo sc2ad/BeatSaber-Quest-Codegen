@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OnlineServices.LevelScoreUploader
-#include "OnlineServices\LevelScoreUploader.hpp"
+#include "OnlineServices/LevelScoreUploader.hpp"
 // Including type: OnlineServices.LevelScoreResultsData
-#include "OnlineServices\LevelScoreResultsData.hpp"
+#include "OnlineServices/LevelScoreResultsData.hpp"
 // Completed includes
 // Type namespace: OnlineServices
 namespace OnlineServices {

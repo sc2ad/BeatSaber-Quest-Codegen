@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Collections.ICollection
-#include "System\Collections\ICollection.hpp"
+#include "System/Collections/ICollection.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections

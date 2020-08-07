@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Bindings.NativeMethodAttribute
-#include "UnityEngine\Bindings\NativeMethodAttribute.hpp"
+#include "UnityEngine/Bindings/NativeMethodAttribute.hpp"
 // Including type: UnityEngine.Bindings.TargetType
-#include "UnityEngine\Bindings\TargetType.hpp"
+#include "UnityEngine/Bindings/TargetType.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {

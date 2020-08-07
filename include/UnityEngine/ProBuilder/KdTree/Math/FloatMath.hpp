@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
-#include "UnityEngine\ProBuilder\KdTree\Math\TypeMath_1.hpp"
+#include "UnityEngine/ProBuilder/KdTree/Math/TypeMath_1.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.KdTree.Math
 namespace UnityEngine::ProBuilder::KdTree::Math {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.PointerInputModule
-#include "UnityEngine\EventSystems\PointerInputModule.hpp"
+#include "UnityEngine/EventSystems/PointerInputModule.hpp"
 // Including type: OVRInput/Button
-#include "GlobalNamespace\OVRInput_Button.hpp"
+#include "GlobalNamespace/OVRInput_Button.hpp"
 // Including type: UnityEngine.KeyCode
-#include "UnityEngine\KeyCode.hpp"
+#include "UnityEngine/KeyCode.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems

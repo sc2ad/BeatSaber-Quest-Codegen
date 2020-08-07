@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.RotationLimitPolygonal
-#include "RootMotion\FinalIK\RotationLimitPolygonal.hpp"
+#include "RootMotion/FinalIK/RotationLimitPolygonal.hpp"
 // Completed includes
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {

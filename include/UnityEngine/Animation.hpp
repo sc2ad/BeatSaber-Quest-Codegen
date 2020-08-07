@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Behaviour
-#include "UnityEngine\Behaviour.hpp"
+#include "UnityEngine/Behaviour.hpp"
 // Including type: System.Collections.IEnumerable
-#include "System\Collections\IEnumerable.hpp"
+#include "System/Collections/IEnumerable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

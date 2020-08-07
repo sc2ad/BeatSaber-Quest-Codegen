@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Threading.IAsyncLocal
-#include "System\Threading\IAsyncLocal.hpp"
+#include "System/Threading/IAsyncLocal.hpp"
 // Including type: System.Threading.AsyncLocalValueChangedArgs`1
-#include "System\Threading\AsyncLocalValueChangedArgs_1.hpp"
+#include "System/Threading/AsyncLocalValueChangedArgs_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

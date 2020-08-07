@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: LeaderboardScoreUploader
-#include "GlobalNamespace\LeaderboardScoreUploader.hpp"
+#include "GlobalNamespace/LeaderboardScoreUploader.hpp"
 // Including type: PlatformLeaderboardsModel
-#include "GlobalNamespace\PlatformLeaderboardsModel.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-#include "UnityEngine\TextCore\LowLevel\GlyphAdjustmentRecord.hpp"
+#include "UnityEngine/TextCore/LowLevel/GlyphAdjustmentRecord.hpp"
 // Completed includes
 // Type namespace: UnityEngine.TextCore.LowLevel
 namespace UnityEngine::TextCore::LowLevel {

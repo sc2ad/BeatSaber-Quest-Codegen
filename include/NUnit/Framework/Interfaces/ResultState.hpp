@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: NUnit.Framework.Interfaces.TestStatus
-#include "NUnit\Framework\Interfaces\TestStatus.hpp"
+#include "NUnit/Framework/Interfaces/TestStatus.hpp"
 // Including type: NUnit.Framework.Interfaces.FailureSite
-#include "NUnit\Framework\Interfaces\FailureSite.hpp"
+#include "NUnit/Framework/Interfaces/FailureSite.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {

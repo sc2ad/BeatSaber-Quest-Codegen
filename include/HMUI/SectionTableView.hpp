@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.TableView
-#include "HMUI\TableView.hpp"
+#include "HMUI/TableView.hpp"
 // Including type: HMUI.TableView/IDataSource
-#include "HMUI\TableView_IDataSource.hpp"
+#include "HMUI/TableView_IDataSource.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI

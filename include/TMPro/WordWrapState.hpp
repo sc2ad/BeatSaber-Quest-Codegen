@@ -6,21 +6,21 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: TMPro.FontStyles
-#include "TMPro\FontStyles.hpp"
+#include "TMPro/FontStyles.hpp"
 // Including type: TMPro.TMP_LineInfo
-#include "TMPro\TMP_LineInfo.hpp"
+#include "TMPro/TMP_LineInfo.hpp"
 // Including type: UnityEngine.Color32
-#include "UnityEngine\Color32.hpp"
+#include "UnityEngine/Color32.hpp"
 // Including type: TMPro.TMP_FontStyleStack
-#include "TMPro\TMP_FontStyleStack.hpp"
+#include "TMPro/TMP_FontStyleStack.hpp"
 // Including type: TMPro.TMP_RichTextTagStack`1
-#include "TMPro\TMP_RichTextTagStack_1.hpp"
+#include "TMPro/TMP_RichTextTagStack_1.hpp"
 // Including type: TMPro.FontWeight
-#include "TMPro\FontWeight.hpp"
+#include "TMPro/FontWeight.hpp"
 // Including type: TMPro.MaterialReference
-#include "TMPro\MaterialReference.hpp"
+#include "TMPro/MaterialReference.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro

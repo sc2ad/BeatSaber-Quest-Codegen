@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Constraints.IResolveConstraint
-#include "NUnit\Framework\Constraints\IResolveConstraint.hpp"
+#include "NUnit/Framework/Constraints/IResolveConstraint.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints

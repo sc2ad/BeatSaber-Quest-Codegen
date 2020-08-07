@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.Hashtable
-#include "System\Collections\Hashtable.hpp"
+#include "System/Collections/Hashtable.hpp"
 // Completed includes
 // Type namespace: System.Collections
 namespace System::Collections {

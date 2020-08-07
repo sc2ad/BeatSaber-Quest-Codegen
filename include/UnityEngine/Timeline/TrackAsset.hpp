@@ -6,23 +6,23 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.PlayableAsset
-#include "UnityEngine\Playables\PlayableAsset.hpp"
+#include "UnityEngine/Playables/PlayableAsset.hpp"
 // Including type: UnityEngine.ISerializationCallbackReceiver
-#include "UnityEngine\ISerializationCallbackReceiver.hpp"
+#include "UnityEngine/ISerializationCallbackReceiver.hpp"
 // Including type: UnityEngine.Timeline.IPropertyPreview
-#include "UnityEngine\Timeline\IPropertyPreview.hpp"
+#include "UnityEngine/Timeline/IPropertyPreview.hpp"
 // Including type: UnityEngine.Timeline.ICurvesOwner
-#include "UnityEngine\Timeline\ICurvesOwner.hpp"
+#include "UnityEngine/Timeline/ICurvesOwner.hpp"
 // Including type: UnityEngine.Timeline.DiscreteTime
-#include "UnityEngine\Timeline\DiscreteTime.hpp"
+#include "UnityEngine/Timeline/DiscreteTime.hpp"
 // Including type: System.Nullable`1
-#include "System\Nullable_1.hpp"
+#include "System/Nullable_1.hpp"
 // Including type: UnityEngine.Timeline.MarkerList
-#include "UnityEngine\Timeline\MarkerList.hpp"
+#include "UnityEngine/Timeline/MarkerList.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Including type: UnityEngine.Playables.Playable
-#include "UnityEngine\Playables\Playable.hpp"
+#include "UnityEngine/Playables/Playable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

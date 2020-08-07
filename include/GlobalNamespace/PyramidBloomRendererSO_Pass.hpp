@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: PyramidBloomRendererSO
-#include "GlobalNamespace\PyramidBloomRendererSO.hpp"
+#include "GlobalNamespace/PyramidBloomRendererSO.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

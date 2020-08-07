@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MarshalByRefObject
-#include "System\MarshalByRefObject.hpp"
+#include "System/MarshalByRefObject.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {

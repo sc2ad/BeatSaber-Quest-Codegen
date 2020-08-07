@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: RootMotion.FinalIK.IKMappingLimb
-#include "RootMotion\FinalIK\IKMappingLimb.hpp"
+#include "RootMotion/FinalIK/IKMappingLimb.hpp"
 // Completed includes
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {

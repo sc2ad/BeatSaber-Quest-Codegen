@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRDisplay
-#include "GlobalNamespace\OVRDisplay.hpp"
+#include "GlobalNamespace/OVRDisplay.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: OVRDisplay/EyeFov
-#include "GlobalNamespace\OVRDisplay_EyeFov.hpp"
+#include "GlobalNamespace/OVRDisplay_EyeFov.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

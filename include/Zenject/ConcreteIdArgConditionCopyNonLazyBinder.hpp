@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ArgConditionCopyNonLazyBinder
-#include "Zenject\ArgConditionCopyNonLazyBinder.hpp"
+#include "Zenject/ArgConditionCopyNonLazyBinder.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject

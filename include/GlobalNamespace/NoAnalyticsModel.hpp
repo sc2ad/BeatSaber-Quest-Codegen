@@ -6,9 +6,9 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: IAnalyticsModel
-#include "GlobalNamespace\IAnalyticsModel.hpp"
+#include "GlobalNamespace/IAnalyticsModel.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

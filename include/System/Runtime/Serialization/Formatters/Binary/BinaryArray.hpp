@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryTypeEnum.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryHeaderEnum.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryHeaderEnum.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum
-#include "System\Runtime\Serialization\Formatters\Binary\BinaryArrayTypeEnum.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryArrayTypeEnum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary

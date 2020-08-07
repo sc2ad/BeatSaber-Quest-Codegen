@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.FontStyle
-#include "UnityEngine\FontStyle.hpp"
+#include "UnityEngine/FontStyle.hpp"
 // Including type: UnityEngine.TextAnchor
-#include "UnityEngine\TextAnchor.hpp"
+#include "UnityEngine/TextAnchor.hpp"
 // Including type: UnityEngine.VerticalWrapMode
-#include "UnityEngine\VerticalWrapMode.hpp"
+#include "UnityEngine/VerticalWrapMode.hpp"
 // Including type: UnityEngine.HorizontalWrapMode
-#include "UnityEngine\HorizontalWrapMode.hpp"
+#include "UnityEngine/HorizontalWrapMode.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

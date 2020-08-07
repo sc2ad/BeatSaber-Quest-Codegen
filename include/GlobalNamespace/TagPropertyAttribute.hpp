@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: UnityEngine.PropertyAttribute
-#include "UnityEngine\PropertyAttribute.hpp"
+#include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

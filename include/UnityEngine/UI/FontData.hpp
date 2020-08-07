@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.ISerializationCallbackReceiver
-#include "UnityEngine\ISerializationCallbackReceiver.hpp"
+#include "UnityEngine/ISerializationCallbackReceiver.hpp"
 // Including type: UnityEngine.FontStyle
-#include "UnityEngine\FontStyle.hpp"
+#include "UnityEngine/FontStyle.hpp"
 // Including type: UnityEngine.TextAnchor
-#include "UnityEngine\TextAnchor.hpp"
+#include "UnityEngine/TextAnchor.hpp"
 // Including type: UnityEngine.HorizontalWrapMode
-#include "UnityEngine\HorizontalWrapMode.hpp"
+#include "UnityEngine/HorizontalWrapMode.hpp"
 // Including type: UnityEngine.VerticalWrapMode
-#include "UnityEngine\VerticalWrapMode.hpp"
+#include "UnityEngine/VerticalWrapMode.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

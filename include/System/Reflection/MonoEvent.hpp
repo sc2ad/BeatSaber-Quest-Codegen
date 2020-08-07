@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.RuntimeEventInfo
-#include "System\Reflection\RuntimeEventInfo.hpp"
+#include "System/Reflection/RuntimeEventInfo.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

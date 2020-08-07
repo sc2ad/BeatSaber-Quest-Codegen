@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.IComparable
-#include "System\IComparable.hpp"
+#include "System/IComparable.hpp"
 // Including type: System.Double
-#include "System\Double.hpp"
+#include "System/Double.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {

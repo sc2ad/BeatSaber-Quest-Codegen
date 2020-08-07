@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PlatformAchievementsHandler
-#include "GlobalNamespace\PlatformAchievementsHandler.hpp"
+#include "GlobalNamespace/PlatformAchievementsHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

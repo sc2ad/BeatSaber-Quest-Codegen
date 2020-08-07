@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IO.SearchPattern2
-#include "System\IO\SearchPattern2.hpp"
+#include "System/IO/SearchPattern2.hpp"
 // Including type: System.IO.SearchPattern2/OpCode
-#include "System\IO\SearchPattern2_OpCode.hpp"
+#include "System/IO/SearchPattern2_OpCode.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {

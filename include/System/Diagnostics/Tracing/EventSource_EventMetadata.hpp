@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.EventDescriptor
-#include "System\Diagnostics\Tracing\EventDescriptor.hpp"
+#include "System/Diagnostics/Tracing/EventDescriptor.hpp"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource
-#include "System\Diagnostics\Tracing\EventSource.hpp"
+#include "System/Diagnostics/Tracing/EventSource.hpp"
 // Including type: System.Diagnostics.Tracing.EventTags
-#include "System\Diagnostics\Tracing\EventTags.hpp"
+#include "System/Diagnostics/Tracing/EventTags.hpp"
 // Including type: System.Diagnostics.Tracing.EventActivityOptions
-#include "System\Diagnostics\Tracing\EventActivityOptions.hpp"
+#include "System/Diagnostics/Tracing/EventActivityOptions.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

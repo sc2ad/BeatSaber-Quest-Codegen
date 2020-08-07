@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Mono.Xml.SmallXmlParser
-#include "Mono\Xml\SmallXmlParser.hpp"
+#include "Mono/Xml/SmallXmlParser.hpp"
 // Including type: Mono.Xml.SmallXmlParser/IAttrList
-#include "Mono\Xml\SmallXmlParser_IAttrList.hpp"
+#include "Mono/Xml/SmallXmlParser_IAttrList.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

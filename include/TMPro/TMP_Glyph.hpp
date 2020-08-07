@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_TextElement_Legacy
-#include "TMPro\TMP_TextElement_Legacy.hpp"
+#include "TMPro/TMP_TextElement_Legacy.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {

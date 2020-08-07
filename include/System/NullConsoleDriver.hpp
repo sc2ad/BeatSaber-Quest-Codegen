@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IConsoleDriver
-#include "System\IConsoleDriver.hpp"
+#include "System/IConsoleDriver.hpp"
 // Including type: System.ConsoleKeyInfo
-#include "System\ConsoleKeyInfo.hpp"
+#include "System/ConsoleKeyInfo.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

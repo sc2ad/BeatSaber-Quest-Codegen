@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NetEase.Docker.InitializeData
-#include "NetEase\Docker\InitializeData.hpp"
+#include "NetEase/Docker/InitializeData.hpp"
 // Including type: NetEase.Docker.LoginData
-#include "NetEase\Docker\LoginData.hpp"
+#include "NetEase/Docker/LoginData.hpp"
 // Including type: NetEase.Docker.LogoutData
-#include "NetEase\Docker\LogoutData.hpp"
+#include "NetEase/Docker/LogoutData.hpp"
 // Including type: NetEase.Docker.ReceivedHighscoreData
-#include "NetEase\Docker\ReceivedHighscoreData.hpp"
+#include "NetEase/Docker/ReceivedHighscoreData.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

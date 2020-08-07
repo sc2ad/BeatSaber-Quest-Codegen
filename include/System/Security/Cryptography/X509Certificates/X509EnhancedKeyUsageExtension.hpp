@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Cryptography.X509Certificates.X509Extension
-#include "System\Security\Cryptography\X509Certificates\X509Extension.hpp"
+#include "System/Security/Cryptography/X509Certificates/X509Extension.hpp"
 // Including type: System.Security.Cryptography.AsnDecodeStatus
-#include "System\Security\Cryptography\AsnDecodeStatus.hpp"
+#include "System/Security/Cryptography/AsnDecodeStatus.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography

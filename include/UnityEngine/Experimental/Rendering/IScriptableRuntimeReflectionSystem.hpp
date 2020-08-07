@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Experimental.Rendering
 namespace UnityEngine::Experimental::Rendering {

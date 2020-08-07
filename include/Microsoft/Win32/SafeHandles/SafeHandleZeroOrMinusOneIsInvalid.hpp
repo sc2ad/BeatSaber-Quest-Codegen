@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.InteropServices.SafeHandle
-#include "System\Runtime\InteropServices\SafeHandle.hpp"
+#include "System/Runtime/InteropServices/SafeHandle.hpp"
 // Completed includes
 // Type namespace: Microsoft.Win32.SafeHandles
 namespace Microsoft::Win32::SafeHandles {

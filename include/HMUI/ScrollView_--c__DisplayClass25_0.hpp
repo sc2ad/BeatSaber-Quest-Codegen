@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: HMUI.ScrollView
-#include "HMUI\ScrollView.hpp"
+#include "HMUI/ScrollView.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

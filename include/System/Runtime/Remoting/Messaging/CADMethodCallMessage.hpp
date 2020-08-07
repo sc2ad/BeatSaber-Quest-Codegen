@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Messaging.CADMessageBase
-#include "System\Runtime\Remoting\Messaging\CADMessageBase.hpp"
+#include "System/Runtime/Remoting/Messaging/CADMessageBase.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging

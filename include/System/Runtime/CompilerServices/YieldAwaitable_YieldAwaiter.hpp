@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.YieldAwaitable
-#include "System\Runtime\CompilerServices\YieldAwaitable.hpp"
+#include "System/Runtime/CompilerServices/YieldAwaitable.hpp"
 // Including type: System.Runtime.CompilerServices.ICriticalNotifyCompletion
-#include "System\Runtime\CompilerServices\ICriticalNotifyCompletion.hpp"
+#include "System/Runtime/CompilerServices/ICriticalNotifyCompletion.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

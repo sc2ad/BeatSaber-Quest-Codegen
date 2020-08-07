@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1
-#include "UnityEngine\ProBuilder\Poly2Tri\FixedArray3_1.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/FixedArray3_1.hpp"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3
-#include "UnityEngine\ProBuilder\Poly2Tri\FixedBitArray3.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/FixedBitArray3.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::Poly2Tri

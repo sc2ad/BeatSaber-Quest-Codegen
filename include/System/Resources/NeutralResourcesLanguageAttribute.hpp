@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: System.Resources.UltimateResourceFallbackLocation
-#include "System\Resources\UltimateResourceFallbackLocation.hpp"
+#include "System/Resources/UltimateResourceFallbackLocation.hpp"
 // Completed includes
 // Type namespace: System.Resources
 namespace System::Resources {

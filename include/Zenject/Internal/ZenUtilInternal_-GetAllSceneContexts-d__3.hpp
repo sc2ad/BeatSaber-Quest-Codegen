@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.Internal.ZenUtilInternal
-#include "Zenject\Internal\ZenUtilInternal.hpp"
+#include "Zenject/Internal/ZenUtilInternal.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
-#include "UnityEngine\SceneManagement\Scene.hpp"
+#include "UnityEngine/SceneManagement/Scene.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject

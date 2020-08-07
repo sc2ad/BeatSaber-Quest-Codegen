@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: System.Uri
-#include "System\Uri.hpp"
+#include "System/Uri.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

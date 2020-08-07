@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.ITickable
-#include "Zenject\ITickable.hpp"
+#include "Zenject/ITickable.hpp"
 // Including type: IPauseTrigger
-#include "GlobalNamespace\IPauseTrigger.hpp"
+#include "GlobalNamespace/IPauseTrigger.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

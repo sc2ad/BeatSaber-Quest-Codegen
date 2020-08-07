@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.ProBuilder.RectSelectMode
-#include "UnityEngine\ProBuilder\RectSelectMode.hpp"
+#include "UnityEngine/ProBuilder/RectSelectMode.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

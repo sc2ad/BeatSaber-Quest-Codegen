@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SubContainerCreatorByNewPrefabDynamicContext
-#include "Zenject\SubContainerCreatorByNewPrefabDynamicContext.hpp"
+#include "Zenject/SubContainerCreatorByNewPrefabDynamicContext.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

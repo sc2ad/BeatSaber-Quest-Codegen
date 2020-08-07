@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: TMPro.TMP_GlyphAdjustmentRecord
-#include "TMPro\TMP_GlyphAdjustmentRecord.hpp"
+#include "TMPro/TMP_GlyphAdjustmentRecord.hpp"
 // Including type: TMPro.FontFeatureLookupFlags
-#include "TMPro\FontFeatureLookupFlags.hpp"
+#include "TMPro/FontFeatureLookupFlags.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TextCore::LowLevel

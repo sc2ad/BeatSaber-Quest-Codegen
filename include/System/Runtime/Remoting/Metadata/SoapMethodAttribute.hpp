@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Metadata.SoapAttribute
-#include "System\Runtime\Remoting\Metadata\SoapAttribute.hpp"
+#include "System/Runtime/Remoting/Metadata/SoapAttribute.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Metadata
 namespace System::Runtime::Remoting::Metadata {

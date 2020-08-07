@@ -4,36 +4,36 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.FactoryFromBinder5Extensions
-#include "Zenject\FactoryFromBinder5Extensions.hpp"
+#include "Zenject/FactoryFromBinder5Extensions.hpp"
 // Including type: Zenject.FactoryFromBinder5Extensions/<>c__DisplayClass0_0`6
-#include "Zenject\FactoryFromBinder5Extensions_--c__DisplayClass0_0_6.hpp"
+#include "Zenject/FactoryFromBinder5Extensions_--c__DisplayClass0_0_6.hpp"
 // Including type: Zenject.FactoryFromBinder5Extensions/<>c__1`6
-#include "Zenject\FactoryFromBinder5Extensions_--c__1_6.hpp"
+#include "Zenject/FactoryFromBinder5Extensions_--c__1_6.hpp"
 // Including type: Zenject.FactoryFromBinder5Extensions/<>c__3`6
-#include "Zenject\FactoryFromBinder5Extensions_--c__3_6.hpp"
+#include "Zenject/FactoryFromBinder5Extensions_--c__3_6.hpp"
 // Including type: Zenject.FactoryFromBinder5Extensions/<>c__5`7
-#include "Zenject\FactoryFromBinder5Extensions_--c__5_7.hpp"
+#include "Zenject/FactoryFromBinder5Extensions_--c__5_7.hpp"
 // Including type: Zenject.FactoryFromBinder5Extensions/<>c__DisplayClass6_0`7
-#include "Zenject\FactoryFromBinder5Extensions_--c__DisplayClass6_0_7.hpp"
+#include "Zenject/FactoryFromBinder5Extensions_--c__DisplayClass6_0_7.hpp"
 // Including type: Zenject.ArgConditionCopyNonLazyBinder
-#include "Zenject\ArgConditionCopyNonLazyBinder.hpp"
+#include "Zenject/ArgConditionCopyNonLazyBinder.hpp"
 // Including type: Zenject.FactoryFromBinder`6
-#include "Zenject\FactoryFromBinder_6.hpp"
+#include "Zenject/FactoryFromBinder_6.hpp"
 // Including type: System.Action`1
-#include "System\Action_1.hpp"
+#include "System/Action_1.hpp"
 // Including type: Zenject.ConcreteBinderGeneric`1
-#include "Zenject\ConcreteBinderGeneric_1.hpp"
+#include "Zenject/ConcreteBinderGeneric_1.hpp"
 // Including type: Zenject.IFactory`6
-#include "Zenject\IFactory_6.hpp"
+#include "Zenject/IFactory_6.hpp"
 // Including type: Zenject.IPoolable`6
-#include "Zenject\IPoolable_6.hpp"
+#include "Zenject/IPoolable_6.hpp"
 // Including type: Zenject.IMemoryPool
-#include "Zenject\IMemoryPool.hpp"
+#include "Zenject/IMemoryPool.hpp"
 // Including type: Zenject.MemoryPoolInitialSizeMaxSizeBinder`1
-#include "Zenject\MemoryPoolInitialSizeMaxSizeBinder_1.hpp"
+#include "Zenject/MemoryPoolInitialSizeMaxSizeBinder_1.hpp"
 // Including type: UnityEngine.Component
-#include "UnityEngine\Component.hpp"
+#include "UnityEngine/Component.hpp"
 // Including type: Zenject.MemoryPool`7
-#include "Zenject\MemoryPool_7.hpp"
+#include "Zenject/MemoryPool_7.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.BaseEventData
-#include "UnityEngine\EventSystems\BaseEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.EventSystems.MoveDirection
-#include "UnityEngine\EventSystems\MoveDirection.hpp"
+#include "UnityEngine/EventSystems/MoveDirection.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems

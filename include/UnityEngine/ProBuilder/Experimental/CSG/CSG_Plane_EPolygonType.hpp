@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.ProBuilder.Experimental.CSG.CSG_Plane
-#include "UnityEngine\ProBuilder\Experimental\CSG\CSG_Plane.hpp"
+#include "UnityEngine/ProBuilder/Experimental/CSG/CSG_Plane.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.Experimental.CSG
 namespace UnityEngine::ProBuilder::Experimental::CSG {

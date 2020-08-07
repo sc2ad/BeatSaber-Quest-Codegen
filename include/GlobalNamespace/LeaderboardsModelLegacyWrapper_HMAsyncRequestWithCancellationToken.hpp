@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMAsyncRequest
-#include "GlobalNamespace\HMAsyncRequest.hpp"
+#include "GlobalNamespace/HMAsyncRequest.hpp"
 // Including type: LeaderboardsModelLegacyWrapper
-#include "GlobalNamespace\LeaderboardsModelLegacyWrapper.hpp"
+#include "GlobalNamespace/LeaderboardsModelLegacyWrapper.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

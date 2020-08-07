@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OVRInput/OVRControllerBase
-#include "GlobalNamespace\OVRInput_OVRControllerBase.hpp"
+#include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Including type: OVRInput/RawAxis2D
-#include "GlobalNamespace\OVRInput_RawAxis2D.hpp"
+#include "GlobalNamespace/OVRInput_RawAxis2D.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

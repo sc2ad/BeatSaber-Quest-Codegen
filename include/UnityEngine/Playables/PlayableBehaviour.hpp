@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Playables.IPlayableBehaviour
-#include "UnityEngine\Playables\IPlayableBehaviour.hpp"
+#include "UnityEngine/Playables/IPlayableBehaviour.hpp"
 // Including type: System.ICloneable
-#include "System\ICloneable.hpp"
+#include "System/ICloneable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables

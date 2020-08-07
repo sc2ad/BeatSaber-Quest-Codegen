@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: TMPro.TMP_TextElementType
-#include "TMPro\TMP_TextElementType.hpp"
+#include "TMPro/TMP_TextElementType.hpp"
 // Including type: TMPro.TMP_Vertex
-#include "TMPro\TMP_Vertex.hpp"
+#include "TMPro/TMP_Vertex.hpp"
 // Including type: TMPro.FontStyles
-#include "TMPro\FontStyles.hpp"
+#include "TMPro/FontStyles.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro

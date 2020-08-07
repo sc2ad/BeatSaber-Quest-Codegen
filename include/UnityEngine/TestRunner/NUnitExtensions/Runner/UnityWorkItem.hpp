@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: NUnit.Framework.Internal.Execution.WorkItemState
-#include "NUnit\Framework\Internal\Execution\WorkItemState.hpp"
+#include "NUnit/Framework/Internal/Execution/WorkItemState.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::NUnitExtensions::Runner

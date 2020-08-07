@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.UI.DefaultControls
-#include "UnityEngine\UI\DefaultControls.hpp"
+#include "UnityEngine/UI/DefaultControls.hpp"
 // Including type: UnityEngine.UI.DefaultControls/IFactoryControls
-#include "UnityEngine\UI\DefaultControls_IFactoryControls.hpp"
+#include "UnityEngine/UI/DefaultControls_IFactoryControls.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

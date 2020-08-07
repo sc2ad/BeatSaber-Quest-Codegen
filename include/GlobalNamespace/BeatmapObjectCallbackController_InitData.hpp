@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: BeatmapObjectCallbackController
-#include "GlobalNamespace\BeatmapObjectCallbackController.hpp"
+#include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

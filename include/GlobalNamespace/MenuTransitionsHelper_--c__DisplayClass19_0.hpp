@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: MenuTransitionsHelper
-#include "GlobalNamespace\MenuTransitionsHelper.hpp"
+#include "GlobalNamespace/MenuTransitionsHelper.hpp"
 // Including type: TutorialScenesTransitionSetupDataSO/TutorialEndStateType
-#include "GlobalNamespace\TutorialScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/TutorialScenesTransitionSetupDataSO.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

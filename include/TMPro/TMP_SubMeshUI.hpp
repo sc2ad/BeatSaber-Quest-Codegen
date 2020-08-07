@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.MaskableGraphic
-#include "UnityEngine\UI\MaskableGraphic.hpp"
+#include "UnityEngine/UI/MaskableGraphic.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro

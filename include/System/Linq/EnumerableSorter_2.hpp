@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Linq.EnumerableSorter`1
-#include "System\Linq\EnumerableSorter_1.hpp"
+#include "System/Linq/EnumerableSorter_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

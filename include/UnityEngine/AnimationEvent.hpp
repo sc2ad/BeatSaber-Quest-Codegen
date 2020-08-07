@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.AnimationEventSource
-#include "UnityEngine\AnimationEventSource.hpp"
+#include "UnityEngine/AnimationEventSource.hpp"
 // Including type: UnityEngine.AnimatorStateInfo
-#include "UnityEngine\AnimatorStateInfo.hpp"
+#include "UnityEngine/AnimatorStateInfo.hpp"
 // Including type: UnityEngine.AnimatorClipInfo
-#include "UnityEngine\AnimatorClipInfo.hpp"
+#include "UnityEngine/AnimatorClipInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OnlineServices.API.HTTPAdminLeaderboardsHelper
-#include "OnlineServices\API\HTTPAdminLeaderboardsHelper.hpp"
+#include "OnlineServices/API/HTTPAdminLeaderboardsHelper.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

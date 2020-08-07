@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.RegularExpressions.Match
-#include "System\Text\RegularExpressions\Match.hpp"
+#include "System/Text/RegularExpressions/Match.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections

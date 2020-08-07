@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.TestSuite
-#include "NUnit\Framework\Internal\TestSuite.hpp"
+#include "NUnit/Framework/Internal/TestSuite.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces

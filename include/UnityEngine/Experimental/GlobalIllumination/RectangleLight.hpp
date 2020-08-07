@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightMode
-#include "UnityEngine\Experimental\GlobalIllumination\LightMode.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/LightMode.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
-#include "UnityEngine\Quaternion.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LinearColor
-#include "UnityEngine\Experimental\GlobalIllumination\LinearColor.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/LinearColor.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.FalloffType
-#include "UnityEngine\Experimental\GlobalIllumination\FalloffType.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/FalloffType.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Experimental.GlobalIllumination
 namespace UnityEngine::Experimental::GlobalIllumination {

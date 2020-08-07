@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Constraints.ConstraintResult
-#include "NUnit\Framework\Constraints\ConstraintResult.hpp"
+#include "NUnit/Framework/Constraints/ConstraintResult.hpp"
 // Including type: NUnit.Framework.Constraints.NUnitEqualityComparer
-#include "NUnit\Framework\Constraints\NUnitEqualityComparer.hpp"
+#include "NUnit/Framework/Constraints/NUnitEqualityComparer.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: NUnit.Framework.Internal.TypeHelper
-#include "NUnit\Framework\Internal\TypeHelper.hpp"
+#include "NUnit/Framework/Internal/TypeHelper.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {

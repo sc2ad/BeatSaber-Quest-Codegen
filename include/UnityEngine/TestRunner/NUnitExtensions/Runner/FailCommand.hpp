@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.TestCommand
-#include "NUnit\Framework\Internal\Commands\TestCommand.hpp"
+#include "NUnit/Framework/Internal/Commands/TestCommand.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
-#include "UnityEngine\TestRunner\NUnitExtensions\Runner\IEnumerableTestMethodCommand.hpp"
+#include "UnityEngine/TestRunner/NUnitExtensions/Runner/IEnumerableTestMethodCommand.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::NUnitExtensions::Runner

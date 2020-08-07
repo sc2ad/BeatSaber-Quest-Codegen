@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.ListDictionaryInternal/NodeKeyValueCollection
-#include "System\Collections\ListDictionaryInternal_NodeKeyValueCollection.hpp"
+#include "System/Collections/ListDictionaryInternal_NodeKeyValueCollection.hpp"
 // Including type: System.Collections.IEnumerator
-#include "System\Collections\IEnumerator.hpp"
+#include "System/Collections/IEnumerator.hpp"
 // Including type: System.Collections.ListDictionaryInternal
-#include "System\Collections\ListDictionaryInternal.hpp"
+#include "System/Collections/ListDictionaryInternal.hpp"
 // Completed includes
 // Type namespace: System.Collections
 namespace System::Collections {

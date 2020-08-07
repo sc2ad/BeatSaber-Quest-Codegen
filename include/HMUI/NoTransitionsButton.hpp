@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Button
-#include "UnityEngine\UI\Button.hpp"
+#include "UnityEngine/UI/Button.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI

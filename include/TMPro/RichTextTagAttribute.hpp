@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: TMPro.TagValueType
-#include "TMPro\TagValueType.hpp"
+#include "TMPro/TagValueType.hpp"
 // Including type: TMPro.TagUnitType
-#include "TMPro\TagUnitType.hpp"
+#include "TMPro/TagUnitType.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {

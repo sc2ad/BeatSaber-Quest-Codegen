@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: JetBrains.Annotations.CollectionAccessType
-#include "JetBrains\Annotations\CollectionAccessType.hpp"
+#include "JetBrains/Annotations/CollectionAccessType.hpp"
 // Completed includes
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {

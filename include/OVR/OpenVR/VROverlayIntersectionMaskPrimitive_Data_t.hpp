@@ -5,11 +5,11 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.IntersectionMaskRectangle_t
-#include "OVR\OpenVR\IntersectionMaskRectangle_t.hpp"
+#include "OVR/OpenVR/IntersectionMaskRectangle_t.hpp"
 // Including type: OVR.OpenVR.IntersectionMaskCircle_t
-#include "OVR\OpenVR\IntersectionMaskCircle_t.hpp"
+#include "OVR/OpenVR/IntersectionMaskCircle_t.hpp"
 // Completed includes
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

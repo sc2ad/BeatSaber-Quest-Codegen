@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.AndroidJavaProxy
-#include "UnityEngine\AndroidJavaProxy.hpp"
+#include "UnityEngine/AndroidJavaProxy.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

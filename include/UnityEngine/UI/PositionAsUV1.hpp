@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.BaseMeshEffect
-#include "UnityEngine\UI\BaseMeshEffect.hpp"
+#include "UnityEngine/UI/BaseMeshEffect.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI

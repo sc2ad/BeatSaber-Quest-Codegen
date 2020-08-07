@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: UnityEngine.PropertyAttribute
-#include "UnityEngine\PropertyAttribute.hpp"
+#include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;

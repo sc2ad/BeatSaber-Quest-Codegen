@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Char
-#include "System\Char.hpp"
+#include "System/Char.hpp"
 // Including type: AlphabetScrollInfo
-#include "GlobalNamespace\AlphabetScrollInfo.hpp"
+#include "GlobalNamespace/AlphabetScrollInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

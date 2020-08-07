@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
-#include "Zenject\ScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
+#include "Zenject/ScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 // Including type: System.Guid
-#include "System\Guid.hpp"
+#include "System/Guid.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

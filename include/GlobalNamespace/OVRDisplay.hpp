@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OVRPose
-#include "GlobalNamespace\OVRPose.hpp"
+#include "GlobalNamespace/OVRPose.hpp"
 // Including type: OVRManager/TrackingOrigin
-#include "GlobalNamespace\OVRManager.hpp"
+#include "GlobalNamespace/OVRManager.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

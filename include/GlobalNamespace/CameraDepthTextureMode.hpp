@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.DepthTextureMode
-#include "UnityEngine\DepthTextureMode.hpp"
+#include "UnityEngine/DepthTextureMode.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -4,10 +4,10 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: DifficultyBeatmapSetExtensions
-#include "GlobalNamespace\DifficultyBeatmapSetExtensions.hpp"
+#include "GlobalNamespace/DifficultyBeatmapSetExtensions.hpp"
 // Including type: IDifficultyBeatmapSet
-#include "GlobalNamespace\IDifficultyBeatmapSet.hpp"
+#include "GlobalNamespace/IDifficultyBeatmapSet.hpp"
 // Including type: PreviewDifficultyBeatmapSet
-#include "GlobalNamespace\PreviewDifficultyBeatmapSet.hpp"
+#include "GlobalNamespace/PreviewDifficultyBeatmapSet.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

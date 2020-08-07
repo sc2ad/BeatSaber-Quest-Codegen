@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Globalization::Unicode

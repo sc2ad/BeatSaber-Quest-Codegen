@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Including type: System.IComparable`1
-#include "System\IComparable_1.hpp"
+#include "System/IComparable_1.hpp"
 // Including type: System.IComparable
-#include "System\IComparable.hpp"
+#include "System/IComparable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

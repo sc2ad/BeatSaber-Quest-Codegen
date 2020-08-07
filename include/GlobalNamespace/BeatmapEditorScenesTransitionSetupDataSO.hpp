@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SingleFixedSceneScenesTransitionSetupDataSO
-#include "GlobalNamespace\SingleFixedSceneScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/SingleFixedSceneScenesTransitionSetupDataSO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

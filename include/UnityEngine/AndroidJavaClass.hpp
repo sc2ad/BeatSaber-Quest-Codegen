@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.AndroidJavaObject
-#include "UnityEngine\AndroidJavaObject.hpp"
+#include "UnityEngine/AndroidJavaObject.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.KdTree.ITypeMath`1
-#include "UnityEngine\ProBuilder\KdTree\ITypeMath_1.hpp"
+#include "UnityEngine/ProBuilder/KdTree/ITypeMath_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.KdTree.Math

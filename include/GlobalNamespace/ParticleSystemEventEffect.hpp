@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapEventType
-#include "GlobalNamespace\BeatmapEventType.hpp"
+#include "GlobalNamespace/BeatmapEventType.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.ParticleSystem/MainModule
-#include "UnityEngine\ParticleSystem_MainModule.hpp"
+#include "UnityEngine/ParticleSystem_MainModule.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

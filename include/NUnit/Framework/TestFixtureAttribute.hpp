@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.NUnitAttribute
-#include "NUnit\Framework\NUnitAttribute.hpp"
+#include "NUnit/Framework/NUnitAttribute.hpp"
 // Including type: NUnit.Framework.Interfaces.IFixtureBuilder
-#include "NUnit\Framework\Interfaces\IFixtureBuilder.hpp"
+#include "NUnit/Framework/Interfaces/IFixtureBuilder.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestFixtureData
-#include "NUnit\Framework\Interfaces\ITestFixtureData.hpp"
+#include "NUnit/Framework/Interfaces/ITestFixtureData.hpp"
 // Including type: NUnit.Framework.Interfaces.RunState
-#include "NUnit\Framework\Interfaces\RunState.hpp"
+#include "NUnit/Framework/Interfaces/RunState.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework

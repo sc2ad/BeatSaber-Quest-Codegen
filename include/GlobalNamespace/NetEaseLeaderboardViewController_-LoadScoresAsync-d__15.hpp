@@ -5,17 +5,17 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: NetEaseLeaderboardViewController
-#include "GlobalNamespace\NetEaseLeaderboardViewController.hpp"
+#include "GlobalNamespace/NetEaseLeaderboardViewController.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
-#include "System\Runtime\CompilerServices\AsyncVoidMethodBuilder.hpp"
+#include "System/Runtime/CompilerServices/AsyncVoidMethodBuilder.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: NetEase.Docker.ReceivedHighscoreData
-#include "NetEase\Docker\ReceivedHighscoreData.hpp"
+#include "NetEase/Docker/ReceivedHighscoreData.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

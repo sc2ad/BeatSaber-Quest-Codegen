@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PersistentScriptableObject
-#include "GlobalNamespace\PersistentScriptableObject.hpp"
+#include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: IValue`1
-#include "GlobalNamespace\IValue_1.hpp"
+#include "GlobalNamespace/IValue_1.hpp"
 // Including type: IObservableChange
-#include "GlobalNamespace\IObservableChange.hpp"
+#include "GlobalNamespace/IObservableChange.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

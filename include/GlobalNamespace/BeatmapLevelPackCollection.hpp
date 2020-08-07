@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: IBeatmapLevelPackCollection
-#include "GlobalNamespace\IBeatmapLevelPackCollection.hpp"
+#include "GlobalNamespace/IBeatmapLevelPackCollection.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: KawaseBlurRendererSO
-#include "GlobalNamespace\KawaseBlurRendererSO.hpp"
+#include "GlobalNamespace/KawaseBlurRendererSO.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

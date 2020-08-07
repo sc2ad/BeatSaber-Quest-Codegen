@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.IO.FileAttributes
-#include "System\IO\FileAttributes.hpp"
+#include "System/IO/FileAttributes.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {

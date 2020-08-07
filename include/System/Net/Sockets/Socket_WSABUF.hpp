@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Net.Sockets.Socket
-#include "System\Net\Sockets\Socket.hpp"
+#include "System/Net/Sockets/Socket.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Completed includes
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {

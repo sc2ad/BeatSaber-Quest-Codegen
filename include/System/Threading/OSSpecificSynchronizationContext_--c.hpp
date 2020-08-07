@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Threading.OSSpecificSynchronizationContext
-#include "System\Threading\OSSpecificSynchronizationContext.hpp"
+#include "System/Threading/OSSpecificSynchronizationContext.hpp"
 // Including type: System.Runtime.CompilerServices.ConditionalWeakTable`2
-#include "System\Runtime\CompilerServices\ConditionalWeakTable_2.hpp"
+#include "System/Runtime/CompilerServices/ConditionalWeakTable_2.hpp"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {

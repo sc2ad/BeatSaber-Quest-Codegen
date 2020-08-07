@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRInput
-#include "GlobalNamespace\OVRInput.hpp"
+#include "GlobalNamespace/OVRInput.hpp"
 // Including type: OVR.OpenVR.VRControllerState_t
-#include "OVR\OpenVR\VRControllerState_t.hpp"
+#include "OVR/OpenVR/VRControllerState_t.hpp"
 // Including type: OVRInput/OpenVRController
-#include "GlobalNamespace\OVRInput_OpenVRController.hpp"
+#include "GlobalNamespace/OVRInput_OpenVRController.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
-#include "UnityEngine\Quaternion.hpp"
+#include "UnityEngine/Quaternion.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

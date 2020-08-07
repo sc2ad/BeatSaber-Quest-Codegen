@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.ActivityTracker
-#include "System\Diagnostics\Tracing\ActivityTracker.hpp"
+#include "System/Diagnostics/Tracing/ActivityTracker.hpp"
 // Including type: System.Guid
-#include "System\Guid.hpp"
+#include "System/Guid.hpp"
 // Including type: System.Diagnostics.Tracing.EventActivityOptions
-#include "System\Diagnostics\Tracing\EventActivityOptions.hpp"
+#include "System/Diagnostics/Tracing/EventActivityOptions.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {

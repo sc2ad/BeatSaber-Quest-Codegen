@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.AddToGameObjectComponentProviderBase
-#include "Zenject\AddToGameObjectComponentProviderBase.hpp"
+#include "Zenject/AddToGameObjectComponentProviderBase.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SceneSetupData
-#include "GlobalNamespace\SceneSetupData.hpp"
+#include "GlobalNamespace/SceneSetupData.hpp"
 // Including type: AppInitScenesTransitionSetupDataSO
-#include "GlobalNamespace\AppInitScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/AppInitScenesTransitionSetupDataSO.hpp"
 // Including type: AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType
-#include "GlobalNamespace\AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType.hpp"
+#include "GlobalNamespace/AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

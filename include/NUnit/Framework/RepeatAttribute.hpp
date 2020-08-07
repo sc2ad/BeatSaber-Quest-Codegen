@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.PropertyAttribute
-#include "NUnit\Framework\PropertyAttribute.hpp"
+#include "NUnit/Framework/PropertyAttribute.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework

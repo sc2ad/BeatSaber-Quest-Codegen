@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.SystemException
-#include "System\SystemException.hpp"
+#include "System/SystemException.hpp"
 // Completed includes
 // Type namespace: Mono.Xml
 namespace Mono::Xml {

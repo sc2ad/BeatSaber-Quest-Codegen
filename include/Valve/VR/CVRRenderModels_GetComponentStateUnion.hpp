@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Valve.VR.CVRRenderModels
-#include "Valve\VR\CVRRenderModels.hpp"
+#include "Valve/VR/CVRRenderModels.hpp"
 // Including type: Valve.VR.IVRRenderModels
-#include "Valve\VR\IVRRenderModels.hpp"
+#include "Valve/VR/IVRRenderModels.hpp"
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {

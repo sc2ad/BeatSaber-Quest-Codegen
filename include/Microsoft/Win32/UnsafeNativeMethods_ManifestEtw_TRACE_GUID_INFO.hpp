@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw
-#include "Microsoft\Win32\UnsafeNativeMethods_ManifestEtw.hpp"
+#include "Microsoft/Win32/UnsafeNativeMethods_ManifestEtw.hpp"
 // Completed includes
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {

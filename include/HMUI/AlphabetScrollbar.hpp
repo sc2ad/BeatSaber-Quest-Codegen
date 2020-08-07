@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.Interactable
-#include "HMUI\Interactable.hpp"
+#include "HMUI/Interactable.hpp"
 // Including type: UnityEngine.EventSystems.IPointerDownHandler
-#include "UnityEngine\EventSystems\IPointerDownHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerDownHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerUpHandler
-#include "UnityEngine\EventSystems\IPointerUpHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerUpHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerEnterHandler
-#include "UnityEngine\EventSystems\IPointerEnterHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerEnterHandler.hpp"
 // Including type: UnityEngine.EventSystems.IPointerExitHandler
-#include "UnityEngine\EventSystems\IPointerExitHandler.hpp"
+#include "UnityEngine/EventSystems/IPointerExitHandler.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Including type: AlphabetScrollInfo
-#include "GlobalNamespace\AlphabetScrollInfo.hpp"
+#include "GlobalNamespace/AlphabetScrollInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI

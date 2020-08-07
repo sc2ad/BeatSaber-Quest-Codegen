@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Api.DefaultTestAssemblyBuilder
-#include "NUnit\Framework\Api\DefaultTestAssemblyBuilder.hpp"
+#include "NUnit/Framework/Api/DefaultTestAssemblyBuilder.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::NUnitExtensions

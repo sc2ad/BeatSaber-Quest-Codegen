@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapObjectExecutionRating
-#include "GlobalNamespace\BeatmapObjectExecutionRating.hpp"
+#include "GlobalNamespace/BeatmapObjectExecutionRating.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

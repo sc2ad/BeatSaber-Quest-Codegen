@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: PlayerStatisticsViewController
-#include "GlobalNamespace\PlayerStatisticsViewController.hpp"
+#include "GlobalNamespace/PlayerStatisticsViewController.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

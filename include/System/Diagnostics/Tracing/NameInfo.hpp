@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.ConcurrentSetItem`2
-#include "System\Diagnostics\Tracing\ConcurrentSetItem_2.hpp"
+#include "System/Diagnostics/Tracing/ConcurrentSetItem_2.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
-#include "System\Collections\Generic\KeyValuePair_2.hpp"
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Including type: System.Diagnostics.Tracing.EventTags
-#include "System\Diagnostics\Tracing\EventTags.hpp"
+#include "System/Diagnostics/Tracing/EventTags.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {

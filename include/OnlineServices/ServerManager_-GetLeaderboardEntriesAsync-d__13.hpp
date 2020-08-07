@@ -6,21 +6,21 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OnlineServices.ServerManager
-#include "OnlineServices\ServerManager.hpp"
+#include "OnlineServices/ServerManager.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder_1.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: System.Threading.CancellationToken
-#include "System\Threading\CancellationToken.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Including type: OnlineServices.GetLeaderboardFilterData
-#include "OnlineServices\GetLeaderboardFilterData.hpp"
+#include "OnlineServices/GetLeaderboardFilterData.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: OnlineServices.GetLeaderboardEntriesResult
-#include "OnlineServices\GetLeaderboardEntriesResult.hpp"
+#include "OnlineServices/GetLeaderboardEntriesResult.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OnlineServices

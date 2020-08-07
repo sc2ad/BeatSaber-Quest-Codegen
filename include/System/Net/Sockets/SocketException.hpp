@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.Win32Exception
-#include "System\ComponentModel\Win32Exception.hpp"
+#include "System/ComponentModel/Win32Exception.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net

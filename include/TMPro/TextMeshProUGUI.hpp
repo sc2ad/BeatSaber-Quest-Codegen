@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Text
-#include "TMPro\TMP_Text.hpp"
+#include "TMPro/TMP_Text.hpp"
 // Including type: UnityEngine.UI.ILayoutElement
-#include "UnityEngine\UI\ILayoutElement.hpp"
+#include "UnityEngine/UI/ILayoutElement.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro

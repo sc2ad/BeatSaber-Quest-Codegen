@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MemoryPoolWithActiveItems`1
-#include "GlobalNamespace\MemoryPoolWithActiveItems_1.hpp"
+#include "GlobalNamespace/MemoryPoolWithActiveItems_1.hpp"
 // Including type: BombCutSoundEffect
-#include "GlobalNamespace\BombCutSoundEffect.hpp"
+#include "GlobalNamespace/BombCutSoundEffect.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

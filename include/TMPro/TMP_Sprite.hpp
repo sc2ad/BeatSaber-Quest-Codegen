@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_TextElement_Legacy
-#include "TMPro\TMP_TextElement_Legacy.hpp"
+#include "TMPro/TMP_TextElement_Legacy.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

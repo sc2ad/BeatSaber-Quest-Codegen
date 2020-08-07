@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.IEnumerator
-#include "System\Collections\IEnumerator.hpp"
+#include "System/Collections/IEnumerator.hpp"
 // Including type: System.ICloneable
-#include "System\ICloneable.hpp"
+#include "System/ICloneable.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

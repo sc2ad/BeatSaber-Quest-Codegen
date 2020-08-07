@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Reflection.ICustomAttributeProvider
-#include "System\Reflection\ICustomAttributeProvider.hpp"
+#include "System/Reflection/ICustomAttributeProvider.hpp"
 // Including type: System.Runtime.InteropServices._Module
-#include "System\Runtime\InteropServices\_Module.hpp"
+#include "System/Runtime/InteropServices/_Module.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: System.Reflection.BindingFlags
-#include "System\Reflection\BindingFlags.hpp"
+#include "System/Reflection/BindingFlags.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

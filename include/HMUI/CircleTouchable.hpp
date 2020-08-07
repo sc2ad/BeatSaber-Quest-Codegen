@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.Touchable
-#include "HMUI\Touchable.hpp"
+#include "HMUI/Touchable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: SteamVR_Overlay
-#include "GlobalNamespace\SteamVR_Overlay.hpp"
+#include "GlobalNamespace/SteamVR_Overlay.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

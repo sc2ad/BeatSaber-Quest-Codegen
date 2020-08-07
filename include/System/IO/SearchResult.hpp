@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Microsoft.Win32.Win32Native
-#include "Microsoft\Win32\Win32Native.hpp"
+#include "Microsoft/Win32/Win32Native.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {

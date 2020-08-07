@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.TypeInfo
-#include "System\Reflection\TypeInfo.hpp"
+#include "System/Reflection/TypeInfo.hpp"
 // Including type: System.ICloneable
-#include "System\ICloneable.hpp"
+#include "System/ICloneable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

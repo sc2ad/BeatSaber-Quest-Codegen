@@ -4,63 +4,63 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Linq.Enumerable
-#include "System\Linq\Enumerable.hpp"
+#include "System/Linq/Enumerable.hpp"
 // Including type: System.Linq.Enumerable/Iterator`1
-#include "System\Linq\Enumerable_Iterator_1.hpp"
+#include "System/Linq/Enumerable_Iterator_1.hpp"
 // Including type: System.Linq.Enumerable/WhereEnumerableIterator`1
-#include "System\Linq\Enumerable_WhereEnumerableIterator_1.hpp"
+#include "System/Linq/Enumerable_WhereEnumerableIterator_1.hpp"
 // Including type: System.Linq.Enumerable/WhereArrayIterator`1
-#include "System\Linq\Enumerable_WhereArrayIterator_1.hpp"
+#include "System/Linq/Enumerable_WhereArrayIterator_1.hpp"
 // Including type: System.Linq.Enumerable/WhereListIterator`1
-#include "System\Linq\Enumerable_WhereListIterator_1.hpp"
+#include "System/Linq/Enumerable_WhereListIterator_1.hpp"
 // Including type: System.Linq.Enumerable/WhereSelectEnumerableIterator`2
-#include "System\Linq\Enumerable_WhereSelectEnumerableIterator_2.hpp"
+#include "System/Linq/Enumerable_WhereSelectEnumerableIterator_2.hpp"
 // Including type: System.Linq.Enumerable/WhereSelectArrayIterator`2
-#include "System\Linq\Enumerable_WhereSelectArrayIterator_2.hpp"
+#include "System/Linq/Enumerable_WhereSelectArrayIterator_2.hpp"
 // Including type: System.Linq.Enumerable/WhereSelectListIterator`2
-#include "System\Linq\Enumerable_WhereSelectListIterator_2.hpp"
+#include "System/Linq/Enumerable_WhereSelectListIterator_2.hpp"
 // Including type: System.Linq.Enumerable/<>c__DisplayClass6_0`1
-#include "System\Linq\Enumerable_--c__DisplayClass6_0_1.hpp"
+#include "System/Linq/Enumerable_--c__DisplayClass6_0_1.hpp"
 // Including type: System.Linq.Enumerable/<>c__DisplayClass7_0`3
-#include "System\Linq\Enumerable_--c__DisplayClass7_0_3.hpp"
+#include "System/Linq/Enumerable_--c__DisplayClass7_0_3.hpp"
 // Including type: System.Linq.Enumerable/<SelectManyIterator>d__17`2
-#include "System\Linq\Enumerable_-SelectManyIterator-d__17_2.hpp"
+#include "System/Linq/Enumerable_-SelectManyIterator-d__17_2.hpp"
 // Including type: System.Linq.Enumerable/<TakeIterator>d__25`1
-#include "System\Linq\Enumerable_-TakeIterator-d__25_1.hpp"
+#include "System/Linq/Enumerable_-TakeIterator-d__25_1.hpp"
 // Including type: System.Linq.Enumerable/<SkipIterator>d__31`1
-#include "System\Linq\Enumerable_-SkipIterator-d__31_1.hpp"
+#include "System/Linq/Enumerable_-SkipIterator-d__31_1.hpp"
 // Including type: System.Linq.Enumerable/<ConcatIterator>d__59`1
-#include "System\Linq\Enumerable_-ConcatIterator-d__59_1.hpp"
+#include "System/Linq/Enumerable_-ConcatIterator-d__59_1.hpp"
 // Including type: System.Linq.Enumerable/<DistinctIterator>d__68`1
-#include "System\Linq\Enumerable_-DistinctIterator-d__68_1.hpp"
+#include "System/Linq/Enumerable_-DistinctIterator-d__68_1.hpp"
 // Including type: System.Linq.Enumerable/<ExceptIterator>d__77`1
-#include "System\Linq\Enumerable_-ExceptIterator-d__77_1.hpp"
+#include "System/Linq/Enumerable_-ExceptIterator-d__77_1.hpp"
 // Including type: System.Linq.Enumerable/<ReverseIterator>d__79`1
-#include "System\Linq\Enumerable_-ReverseIterator-d__79_1.hpp"
+#include "System/Linq/Enumerable_-ReverseIterator-d__79_1.hpp"
 // Including type: System.Linq.Enumerable/<DefaultIfEmptyIterator>d__95`1
-#include "System\Linq\Enumerable_-DefaultIfEmptyIterator-d__95_1.hpp"
+#include "System/Linq/Enumerable_-DefaultIfEmptyIterator-d__95_1.hpp"
 // Including type: System.Linq.Enumerable/<OfTypeIterator>d__97`1
-#include "System\Linq\Enumerable_-OfTypeIterator-d__97_1.hpp"
+#include "System/Linq/Enumerable_-OfTypeIterator-d__97_1.hpp"
 // Including type: System.Linq.Enumerable/<CastIterator>d__99`1
-#include "System\Linq\Enumerable_-CastIterator-d__99_1.hpp"
+#include "System/Linq/Enumerable_-CastIterator-d__99_1.hpp"
 // Including type: System.Linq.Enumerable/<RepeatIterator>d__117`1
-#include "System\Linq\Enumerable_-RepeatIterator-d__117_1.hpp"
+#include "System/Linq/Enumerable_-RepeatIterator-d__117_1.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Func`2
-#include "System\Func_2.hpp"
+#include "System/Func_2.hpp"
 // Including type: System.Linq.IOrderedEnumerable`1
-#include "System\Linq\IOrderedEnumerable_1.hpp"
+#include "System/Linq/IOrderedEnumerable_1.hpp"
 // Including type: System.Linq.IGrouping`2
-#include "System\Linq\IGrouping_2.hpp"
+#include "System/Linq/IGrouping_2.hpp"
 // Including type: System.Collections.Generic.IEqualityComparer`1
-#include "System\Collections\Generic\IEqualityComparer_1.hpp"
+#include "System/Collections/Generic/IEqualityComparer_1.hpp"
 // Including type: System.Collections.Generic.List`1
-#include "System\Collections\Generic\List_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
-#include "System\Collections\Generic\Dictionary_2.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: System.Collections.IEnumerable
-#include "System\Collections\IEnumerable.hpp"
+#include "System/Collections/IEnumerable.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated method: System.Linq.Enumerable.Sum

@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.TimeZoneInfo
-#include "System\TimeZoneInfo.hpp"
+#include "System/TimeZoneInfo.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Including type: System.TimeZoneInfo/TransitionTime
-#include "System\TimeZoneInfo_TransitionTime.hpp"
+#include "System/TimeZoneInfo_TransitionTime.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization

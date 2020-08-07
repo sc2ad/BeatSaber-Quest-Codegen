@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.GetLeaderboardEntriesResult
-#include "OnlineServices\GetLeaderboardEntriesResult.hpp"
+#include "OnlineServices/GetLeaderboardEntriesResult.hpp"
 // Including type: OnlineServices.SendLeaderboardEntryResult
-#include "OnlineServices\SendLeaderboardEntryResult.hpp"
+#include "OnlineServices/SendLeaderboardEntryResult.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.XmlRawWriter
-#include "System\Xml\XmlRawWriter.hpp"
+#include "System/Xml/XmlRawWriter.hpp"
 // Including type: System.Xml.XmlCharType
-#include "System\Xml\XmlCharType.hpp"
+#include "System/Xml/XmlCharType.hpp"
 // Including type: System.Xml.NewLineHandling
-#include "System\Xml\NewLineHandling.hpp"
+#include "System/Xml/NewLineHandling.hpp"
 // Including type: System.Xml.XmlStandalone
-#include "System\Xml\XmlStandalone.hpp"
+#include "System/Xml/XmlStandalone.hpp"
 // Including type: System.Xml.XmlOutputMethod
-#include "System\Xml\XmlOutputMethod.hpp"
+#include "System/Xml/XmlOutputMethod.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.ReadOnlyCollectionBase
-#include "System\Collections\ReadOnlyCollectionBase.hpp"
+#include "System/Collections/ReadOnlyCollectionBase.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {

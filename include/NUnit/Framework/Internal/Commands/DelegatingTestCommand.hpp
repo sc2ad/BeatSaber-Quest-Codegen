@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.TestCommand
-#include "NUnit\Framework\Internal\Commands\TestCommand.hpp"
+#include "NUnit/Framework/Internal/Commands/TestCommand.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Internal.Commands
 namespace NUnit::Framework::Internal::Commands {

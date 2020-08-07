@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.Serialization.IDeserializationCallback
-#include "System\Runtime\Serialization\IDeserializationCallback.hpp"
+#include "System/Runtime/Serialization/IDeserializationCallback.hpp"
 // Including type: System.TimeSpan
-#include "System\TimeSpan.hpp"
+#include "System/TimeSpan.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
-#include "System\Collections\Generic\KeyValuePair_2.hpp"
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

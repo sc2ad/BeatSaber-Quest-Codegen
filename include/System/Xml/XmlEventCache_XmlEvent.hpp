@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Xml.XmlEventCache
-#include "System\Xml\XmlEventCache.hpp"
+#include "System/Xml/XmlEventCache.hpp"
 // Including type: System.Xml.XmlEventCache/XmlEventType
-#include "System\Xml\XmlEventCache_XmlEventType.hpp"
+#include "System/Xml/XmlEventCache_XmlEventType.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {

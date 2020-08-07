@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.EventSystems.StandaloneInputModule
-#include "UnityEngine\EventSystems\StandaloneInputModule.hpp"
+#include "UnityEngine/EventSystems/StandaloneInputModule.hpp"
 // Completed includes
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Uri
-#include "System\Uri.hpp"
+#include "System/Uri.hpp"
 // Including type: System.Uri/Offset
-#include "System\Uri_Offset.hpp"
+#include "System/Uri_Offset.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

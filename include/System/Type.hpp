@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.MemberInfo
-#include "System\Reflection\MemberInfo.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Including type: System.Runtime.InteropServices._Type
-#include "System\Runtime\InteropServices\_Type.hpp"
+#include "System/Runtime/InteropServices/_Type.hpp"
 // Including type: System.RuntimeTypeHandle
-#include "System\RuntimeTypeHandle.hpp"
+#include "System/RuntimeTypeHandle.hpp"
 // Including type: System.Reflection.BindingFlags
-#include "System\Reflection\BindingFlags.hpp"
+#include "System/Reflection/BindingFlags.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

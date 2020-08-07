@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: System.Diagnostics.Tracing.EventFieldTags
-#include "System\Diagnostics\Tracing\EventFieldTags.hpp"
+#include "System/Diagnostics/Tracing/EventFieldTags.hpp"
 // Including type: System.Diagnostics.Tracing.EventFieldFormat
-#include "System\Diagnostics\Tracing\EventFieldFormat.hpp"
+#include "System/Diagnostics/Tracing/EventFieldFormat.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {

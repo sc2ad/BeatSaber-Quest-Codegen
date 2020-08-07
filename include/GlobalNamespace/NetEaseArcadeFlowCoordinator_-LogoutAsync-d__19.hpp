@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: NetEaseArcadeFlowCoordinator
-#include "GlobalNamespace\NetEaseArcadeFlowCoordinator.hpp"
+#include "GlobalNamespace/NetEaseArcadeFlowCoordinator.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
-#include "System\Runtime\CompilerServices\AsyncVoidMethodBuilder.hpp"
+#include "System/Runtime/CompilerServices/AsyncVoidMethodBuilder.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: NetEase.Docker.LogoutData
-#include "NetEase\Docker\LogoutData.hpp"
+#include "NetEase/Docker/LogoutData.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

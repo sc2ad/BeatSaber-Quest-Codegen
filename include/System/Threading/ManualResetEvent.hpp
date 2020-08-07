@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.EventWaitHandle
-#include "System\Threading\EventWaitHandle.hpp"
+#include "System/Threading/EventWaitHandle.hpp"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.ReferenceConverter
-#include "System\ComponentModel\ReferenceConverter.hpp"
+#include "System/ComponentModel/ReferenceConverter.hpp"
 // Completed includes
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {

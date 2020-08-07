@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestCaseBuilder
-#include "NUnit\Framework\Interfaces\ITestCaseBuilder.hpp"
+#include "NUnit/Framework/Interfaces/ITestCaseBuilder.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal::Builders

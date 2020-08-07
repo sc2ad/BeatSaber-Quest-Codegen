@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Events.PersistentListenerMode
-#include "UnityEngine\Events\PersistentListenerMode.hpp"
+#include "UnityEngine/Events/PersistentListenerMode.hpp"
 // Including type: UnityEngine.Events.UnityEventCallState
-#include "UnityEngine\Events\UnityEventCallState.hpp"
+#include "UnityEngine/Events/UnityEventCallState.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

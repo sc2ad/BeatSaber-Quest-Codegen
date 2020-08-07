@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ProviderBindingFinalizer
-#include "Zenject\ProviderBindingFinalizer.hpp"
+#include "Zenject/ProviderBindingFinalizer.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

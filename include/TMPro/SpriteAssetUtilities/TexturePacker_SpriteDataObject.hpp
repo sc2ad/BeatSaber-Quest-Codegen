@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: TMPro.SpriteAssetUtilities.TexturePacker
-#include "TMPro\SpriteAssetUtilities\TexturePacker.hpp"
+#include "TMPro/SpriteAssetUtilities/TexturePacker.hpp"
 // Including type: TMPro.SpriteAssetUtilities.TexturePacker/SpriteData
-#include "TMPro\SpriteAssetUtilities\TexturePacker_SpriteData.hpp"
+#include "TMPro/SpriteAssetUtilities/TexturePacker_SpriteData.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

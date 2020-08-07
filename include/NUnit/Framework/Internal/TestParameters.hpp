@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestData
-#include "NUnit\Framework\Interfaces\ITestData.hpp"
+#include "NUnit/Framework/Interfaces/ITestData.hpp"
 // Including type: NUnit.Framework.Interfaces.IApplyToTest
-#include "NUnit\Framework\Interfaces\IApplyToTest.hpp"
+#include "NUnit/Framework/Interfaces/IApplyToTest.hpp"
 // Including type: NUnit.Framework.Interfaces.RunState
-#include "NUnit\Framework\Interfaces\RunState.hpp"
+#include "NUnit/Framework/Interfaces/RunState.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces

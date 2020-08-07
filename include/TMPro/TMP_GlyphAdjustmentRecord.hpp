@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: TMPro.TMP_GlyphValueRecord
-#include "TMPro\TMP_GlyphValueRecord.hpp"
+#include "TMPro/TMP_GlyphValueRecord.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TextCore::LowLevel

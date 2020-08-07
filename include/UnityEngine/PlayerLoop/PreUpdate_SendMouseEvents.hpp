@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.PlayerLoop.PreUpdate
-#include "UnityEngine\PlayerLoop\PreUpdate.hpp"
+#include "UnityEngine/PlayerLoop/PreUpdate.hpp"
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Oculus.Platform.VoipMuteState
-#include "Oculus\Platform\VoipMuteState.hpp"
+#include "Oculus/Platform/VoipMuteState.hpp"
 // Including type: Oculus.Platform.SystemVoipStatus
-#include "Oculus\Platform\SystemVoipStatus.hpp"
+#include "Oculus/Platform/SystemVoipStatus.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

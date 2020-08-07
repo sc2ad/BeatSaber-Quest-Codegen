@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: OVRSkeleton
-#include "GlobalNamespace\OVRSkeleton.hpp"
+#include "GlobalNamespace/OVRSkeleton.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

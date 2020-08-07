@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: System.Decimal
-#include "System\Decimal.hpp"
+#include "System/Decimal.hpp"
 // Completed includes
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {

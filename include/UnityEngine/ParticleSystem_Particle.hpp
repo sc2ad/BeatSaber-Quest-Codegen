@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem
-#include "UnityEngine\ParticleSystem.hpp"
+#include "UnityEngine/ParticleSystem.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Color32
-#include "UnityEngine\Color32.hpp"
+#include "UnityEngine/Color32.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: AppInitScenesTransitionSetupDataSO
-#include "GlobalNamespace\AppInitScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/AppInitScenesTransitionSetupDataSO.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

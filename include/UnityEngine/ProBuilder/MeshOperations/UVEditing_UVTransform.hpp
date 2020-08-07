@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.UVEditing
-#include "UnityEngine\ProBuilder\MeshOperations\UVEditing.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {

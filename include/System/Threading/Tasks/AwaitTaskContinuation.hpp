@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.TaskContinuation
-#include "System\Threading\Tasks\TaskContinuation.hpp"
+#include "System/Threading/Tasks/TaskContinuation.hpp"
 // Including type: System.Threading.IThreadPoolWorkItem
-#include "System\Threading\IThreadPoolWorkItem.hpp"
+#include "System/Threading/IThreadPoolWorkItem.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks

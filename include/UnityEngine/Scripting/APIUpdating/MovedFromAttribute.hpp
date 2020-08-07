@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
-#include "UnityEngine\Scripting\APIUpdating\MovedFromAttributeData.hpp"
+#include "UnityEngine/Scripting/APIUpdating/MovedFromAttributeData.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Scripting.APIUpdating
 namespace UnityEngine::Scripting::APIUpdating {

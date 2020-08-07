@@ -6,21 +6,21 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalParseTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalParseTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalObjectTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalObjectTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalArrayTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalArrayTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalMemberTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalMemberTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalMemberValueE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalMemberValueE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalObjectPositionE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalObjectPositionE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
-#include "System\Runtime\Serialization\Formatters\Binary\InternalPrimitiveTypeE.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

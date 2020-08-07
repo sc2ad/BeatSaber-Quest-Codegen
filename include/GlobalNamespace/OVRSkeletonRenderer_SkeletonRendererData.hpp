@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OVRSkeletonRenderer
-#include "GlobalNamespace\OVRSkeletonRenderer.hpp"
+#include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

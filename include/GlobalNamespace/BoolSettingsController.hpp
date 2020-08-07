@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SwitchSettingsController
-#include "GlobalNamespace\SwitchSettingsController.hpp"
+#include "GlobalNamespace/SwitchSettingsController.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

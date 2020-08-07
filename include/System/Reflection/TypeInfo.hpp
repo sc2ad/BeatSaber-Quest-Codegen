@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Type
-#include "System\Type.hpp"
+#include "System/Type.hpp"
 // Completed includes
 // Type namespace: System.Reflection
 namespace System::Reflection {

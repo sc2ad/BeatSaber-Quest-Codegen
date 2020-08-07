@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem
-#include "UnityEngine\ParticleSystem.hpp"
+#include "UnityEngine/ParticleSystem.hpp"
 // Including type: UnityEngine.ParticleSystemGradientMode
-#include "UnityEngine\ParticleSystemGradientMode.hpp"
+#include "UnityEngine/ParticleSystemGradientMode.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

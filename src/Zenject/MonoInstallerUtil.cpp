@@ -4,10 +4,10 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.MonoInstallerUtil
-#include "Zenject\MonoInstallerUtil.hpp"
+#include "Zenject/MonoInstallerUtil.hpp"
 // Including type: Zenject.MonoInstallerBase
-#include "Zenject\MonoInstallerBase.hpp"
+#include "Zenject/MonoInstallerBase.hpp"
 // Including type: Zenject.DiContainer
-#include "Zenject\DiContainer.hpp"
+#include "Zenject/DiContainer.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

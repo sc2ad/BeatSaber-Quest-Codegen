@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMAutoincrementedRequestId
-#include "GlobalNamespace\HMAutoincrementedRequestId.hpp"
+#include "GlobalNamespace/HMAutoincrementedRequestId.hpp"
 // Including type: ISaberMovementDataProcessor
-#include "GlobalNamespace\ISaberMovementDataProcessor.hpp"
+#include "GlobalNamespace/ISaberMovementDataProcessor.hpp"
 // Including type: UnityEngine.Vector3
-#include "UnityEngine\Vector3.hpp"
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Plane
-#include "UnityEngine\Plane.hpp"
+#include "UnityEngine/Plane.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

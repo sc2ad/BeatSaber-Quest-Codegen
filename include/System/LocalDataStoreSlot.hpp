@@ -6,7 +6,7 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

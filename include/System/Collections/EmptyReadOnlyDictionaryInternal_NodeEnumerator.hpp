@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.EmptyReadOnlyDictionaryInternal
-#include "System\Collections\EmptyReadOnlyDictionaryInternal.hpp"
+#include "System/Collections/EmptyReadOnlyDictionaryInternal.hpp"
 // Including type: System.Collections.IDictionaryEnumerator
-#include "System\Collections\IDictionaryEnumerator.hpp"
+#include "System/Collections/IDictionaryEnumerator.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections

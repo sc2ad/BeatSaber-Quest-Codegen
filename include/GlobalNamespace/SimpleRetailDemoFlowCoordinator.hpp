@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.FlowCoordinator
-#include "HMUI\FlowCoordinator.hpp"
+#include "HMUI/FlowCoordinator.hpp"
 // Including type: BeatmapDifficulty
-#include "GlobalNamespace\BeatmapDifficulty.hpp"
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Including type: SimpleRetailDemoViewController
-#include "GlobalNamespace\SimpleRetailDemoViewController.hpp"
+#include "GlobalNamespace/SimpleRetailDemoViewController.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: SteamVR_Controller
-#include "GlobalNamespace\SteamVR_Controller.hpp"
+#include "GlobalNamespace/SteamVR_Controller.hpp"
 // Including type: Valve.VR.VRControllerState_t
-#include "Valve\VR\VRControllerState_t.hpp"
+#include "Valve/VR/VRControllerState_t.hpp"
 // Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve\VR\TrackedDevicePose_t.hpp"
+#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: SteamVR_Utils
-#include "GlobalNamespace\SteamVR_Utils.hpp"
+#include "GlobalNamespace/SteamVR_Utils.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

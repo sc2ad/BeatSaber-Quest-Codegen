@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PlatformLeaderboardsHandler
-#include "GlobalNamespace\PlatformLeaderboardsHandler.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

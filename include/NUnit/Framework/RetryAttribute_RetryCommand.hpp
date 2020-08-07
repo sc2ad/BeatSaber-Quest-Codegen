@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
-#include "NUnit\Framework\Internal\Commands\DelegatingTestCommand.hpp"
+#include "NUnit/Framework/Internal/Commands/DelegatingTestCommand.hpp"
 // Including type: NUnit.Framework.RetryAttribute
-#include "NUnit\Framework\RetryAttribute.hpp"
+#include "NUnit/Framework/RetryAttribute.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal

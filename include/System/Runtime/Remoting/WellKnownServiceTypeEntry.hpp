@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.TypeEntry
-#include "System\Runtime\Remoting\TypeEntry.hpp"
+#include "System/Runtime/Remoting/TypeEntry.hpp"
 // Including type: System.Runtime.Remoting.WellKnownObjectMode
-#include "System\Runtime\Remoting\WellKnownObjectMode.hpp"
+#include "System/Runtime/Remoting/WellKnownObjectMode.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

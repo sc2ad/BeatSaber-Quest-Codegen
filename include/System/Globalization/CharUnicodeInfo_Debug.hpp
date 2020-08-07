@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Globalization.CharUnicodeInfo
-#include "System\Globalization\CharUnicodeInfo.hpp"
+#include "System/Globalization/CharUnicodeInfo.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {

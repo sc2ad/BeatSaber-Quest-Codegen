@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SaberMovementData
-#include "GlobalNamespace\SaberMovementData.hpp"
+#include "GlobalNamespace/SaberMovementData.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

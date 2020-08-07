@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.UnmanagedMemoryStream
-#include "System\IO\UnmanagedMemoryStream.hpp"
+#include "System/IO/UnmanagedMemoryStream.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
-#include "System\Runtime\InteropServices\GCHandle.hpp"
+#include "System/Runtime/InteropServices/GCHandle.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {

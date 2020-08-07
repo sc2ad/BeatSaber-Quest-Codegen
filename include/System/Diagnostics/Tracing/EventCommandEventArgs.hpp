@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.EventArgs
-#include "System\EventArgs.hpp"
+#include "System/EventArgs.hpp"
 // Including type: System.Diagnostics.Tracing.EventCommand
-#include "System\Diagnostics\Tracing\EventCommand.hpp"
+#include "System/Diagnostics/Tracing/EventCommand.hpp"
 // Including type: System.Diagnostics.Tracing.EventLevel
-#include "System\Diagnostics\Tracing\EventLevel.hpp"
+#include "System/Diagnostics/Tracing/EventLevel.hpp"
 // Including type: System.Diagnostics.Tracing.EventKeywords
-#include "System\Diagnostics\Tracing\EventKeywords.hpp"
+#include "System/Diagnostics/Tracing/EventKeywords.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

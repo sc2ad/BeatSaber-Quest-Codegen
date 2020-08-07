@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TutorialSongController/TutorialObjectSpawnData
-#include "GlobalNamespace\TutorialSongController_TutorialObjectSpawnData.hpp"
+#include "GlobalNamespace/TutorialSongController_TutorialObjectSpawnData.hpp"
 // Including type: ObstacleType
-#include "GlobalNamespace\ObstacleType.hpp"
+#include "GlobalNamespace/ObstacleType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.Component
-#include "System\ComponentModel\Component.hpp"
+#include "System/ComponentModel/Component.hpp"
 // Including type: System.IO.NotifyFilters
-#include "System\IO\NotifyFilters.hpp"
+#include "System/IO/NotifyFilters.hpp"
 // Including type: System.IO.WaitForChangedResult
-#include "System\IO\WaitForChangedResult.hpp"
+#include "System/IO/WaitForChangedResult.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO

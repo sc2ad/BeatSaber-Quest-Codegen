@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.FlowCoordinator
-#include "HMUI\FlowCoordinator.hpp"
+#include "HMUI/FlowCoordinator.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI

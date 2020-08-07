@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: TMPro.TMP_SpriteAnimator
-#include "TMPro\TMP_SpriteAnimator.hpp"
+#include "TMPro/TMP_SpriteAnimator.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: TMPro.TMP_CharacterInfo
-#include "TMPro\TMP_CharacterInfo.hpp"
+#include "TMPro/TMP_CharacterInfo.hpp"
 // Including type: TMPro.TMP_MeshInfo
-#include "TMPro\TMP_MeshInfo.hpp"
+#include "TMPro/TMP_MeshInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro

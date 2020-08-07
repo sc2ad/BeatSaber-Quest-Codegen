@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.HorizontalOrVerticalLayoutGroup
-#include "UnityEngine\UI\HorizontalOrVerticalLayoutGroup.hpp"
+#include "UnityEngine/UI/HorizontalOrVerticalLayoutGroup.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

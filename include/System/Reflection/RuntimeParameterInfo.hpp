@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.ParameterInfo
-#include "System\Reflection\ParameterInfo.hpp"
+#include "System/Reflection/ParameterInfo.hpp"
 // Completed includes
 // Type namespace: System.Reflection
 namespace System::Reflection {

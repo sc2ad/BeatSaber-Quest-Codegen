@@ -4,6 +4,6 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility
-#include "Unity\Collections\LowLevel\Unsafe\NativeArrayUnsafeUtility.hpp"
+#include "Unity/Collections/LowLevel/Unsafe/NativeArrayUnsafeUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

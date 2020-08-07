@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ComponentModel.Design.IDesigner
-#include "System\ComponentModel\Design\IDesigner.hpp"
+#include "System/ComponentModel/Design/IDesigner.hpp"
 // Completed includes
 // Type namespace: System.ComponentModel.Design
 namespace System::ComponentModel::Design {

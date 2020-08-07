@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MainEffectSO
-#include "GlobalNamespace\MainEffectSO.hpp"
+#include "GlobalNamespace/MainEffectSO.hpp"
 // Including type: PyramidBloomRendererSO/Pass
-#include "GlobalNamespace\PyramidBloomRendererSO_Pass.hpp"
+#include "GlobalNamespace/PyramidBloomRendererSO_Pass.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

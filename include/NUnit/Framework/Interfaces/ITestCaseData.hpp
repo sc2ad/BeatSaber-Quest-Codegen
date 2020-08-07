@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.ITestData
-#include "NUnit\Framework\Interfaces\ITestData.hpp"
+#include "NUnit/Framework/Interfaces/ITestData.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {

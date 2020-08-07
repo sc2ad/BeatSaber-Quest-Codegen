@@ -6,17 +6,17 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Linq.IGrouping`2
-#include "System\Linq\IGrouping_2.hpp"
+#include "System/Linq/IGrouping_2.hpp"
 // Including type: System.Collections.Generic.IList`1
-#include "System\Collections\Generic\IList_1.hpp"
+#include "System/Collections/Generic/IList_1.hpp"
 // Including type: System.Collections.Generic.ICollection`1
-#include "System\Collections\Generic\ICollection_1.hpp"
+#include "System/Collections/Generic/ICollection_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
-#include "System\Collections\Generic\IEnumerator_1.hpp"
+#include "System/Collections/Generic/IEnumerator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

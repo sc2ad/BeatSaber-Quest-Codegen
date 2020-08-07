@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Remoting.Channels.IChannel
-#include "System\Runtime\Remoting\Channels\IChannel.hpp"
+#include "System/Runtime/Remoting/Channels/IChannel.hpp"
 // Including type: System.Runtime.Remoting.Channels.IChannelSender
-#include "System\Runtime\Remoting\Channels\IChannelSender.hpp"
+#include "System/Runtime/Remoting/Channels/IChannelSender.hpp"
 // Including type: System.Runtime.Remoting.Channels.IChannelReceiver
-#include "System\Runtime\Remoting\Channels\IChannelReceiver.hpp"
+#include "System/Runtime/Remoting/Channels/IChannelReceiver.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging

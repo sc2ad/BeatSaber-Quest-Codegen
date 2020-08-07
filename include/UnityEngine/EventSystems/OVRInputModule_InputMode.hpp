@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.EventSystems.OVRInputModule
-#include "UnityEngine\EventSystems\OVRInputModule.hpp"
+#include "UnityEngine/EventSystems/OVRInputModule.hpp"
 // Completed includes
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {

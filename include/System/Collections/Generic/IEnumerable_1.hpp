@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Collections.IEnumerable
-#include "System\Collections\IEnumerable.hpp"
+#include "System/Collections/IEnumerable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

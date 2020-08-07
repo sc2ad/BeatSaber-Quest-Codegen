@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Hashtable
-#include "System\Collections\Hashtable.hpp"
+#include "System/Collections/Hashtable.hpp"
 // Including type: System.Collections.IEnumerable
-#include "System\Collections\IEnumerable.hpp"
+#include "System/Collections/IEnumerable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization

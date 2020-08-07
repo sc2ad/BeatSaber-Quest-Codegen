@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.Animation
-#include "UnityEngine\Animation.hpp"
+#include "UnityEngine/Animation.hpp"
 // Including type: System.Collections.IEnumerator
-#include "System\Collections\IEnumerator.hpp"
+#include "System/Collections/IEnumerator.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

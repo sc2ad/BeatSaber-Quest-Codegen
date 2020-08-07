@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OnlineServices.API.HTTPLeaderboardsOathHelper
-#include "OnlineServices\API\HTTPLeaderboardsOathHelper.hpp"
+#include "OnlineServices/API/HTTPLeaderboardsOathHelper.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking

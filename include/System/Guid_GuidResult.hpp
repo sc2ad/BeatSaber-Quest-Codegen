@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Guid
-#include "System\Guid.hpp"
+#include "System/Guid.hpp"
 // Including type: System.Guid/GuidParseThrowStyle
-#include "System\Guid_GuidParseThrowStyle.hpp"
+#include "System/Guid_GuidParseThrowStyle.hpp"
 // Including type: System.Guid/ParseFailureKind
-#include "System\Guid_ParseFailureKind.hpp"
+#include "System/Guid_ParseFailureKind.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Component
-#include "UnityEngine\Component.hpp"
+#include "UnityEngine/Component.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

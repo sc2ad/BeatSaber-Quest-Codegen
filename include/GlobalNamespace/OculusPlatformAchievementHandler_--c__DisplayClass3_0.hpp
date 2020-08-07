@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OculusPlatformAchievementHandler
-#include "GlobalNamespace\OculusPlatformAchievementHandler.hpp"
+#include "GlobalNamespace/OculusPlatformAchievementHandler.hpp"
 // Including type: PlatformAchievementsModelSO
-#include "GlobalNamespace\PlatformAchievementsModelSO.hpp"
+#include "GlobalNamespace/PlatformAchievementsModelSO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform

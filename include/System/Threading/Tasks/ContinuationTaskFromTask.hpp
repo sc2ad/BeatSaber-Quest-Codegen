@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.Task
-#include "System\Threading\Tasks\Task.hpp"
+#include "System/Threading/Tasks/Task.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

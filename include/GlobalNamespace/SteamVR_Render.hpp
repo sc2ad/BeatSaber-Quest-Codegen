@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: Valve.VR.ETrackingUniverseOrigin
-#include "Valve\VR\ETrackingUniverseOrigin.hpp"
+#include "Valve/VR/ETrackingUniverseOrigin.hpp"
 // Including type: Valve.VR.EVREye
-#include "Valve\VR\EVREye.hpp"
+#include "Valve/VR/EVREye.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

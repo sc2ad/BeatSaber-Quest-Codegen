@@ -6,21 +6,21 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: UnityEngine.TextGenerationSettings
-#include "UnityEngine\TextGenerationSettings.hpp"
+#include "UnityEngine/TextGenerationSettings.hpp"
 // Including type: UnityEngine.TextGenerationError
-#include "UnityEngine\TextGenerationError.hpp"
+#include "UnityEngine/TextGenerationError.hpp"
 // Including type: UnityEngine.UIVertex
-#include "UnityEngine\UIVertex.hpp"
+#include "UnityEngine/UIVertex.hpp"
 // Including type: UnityEngine.UICharInfo
-#include "UnityEngine\UICharInfo.hpp"
+#include "UnityEngine/UICharInfo.hpp"
 // Including type: UnityEngine.UILineInfo
-#include "UnityEngine\UILineInfo.hpp"
+#include "UnityEngine/UILineInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

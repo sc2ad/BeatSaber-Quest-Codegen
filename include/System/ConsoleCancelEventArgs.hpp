@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.EventArgs
-#include "System\EventArgs.hpp"
+#include "System/EventArgs.hpp"
 // Including type: System.ConsoleSpecialKey
-#include "System\ConsoleSpecialKey.hpp"
+#include "System/ConsoleSpecialKey.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

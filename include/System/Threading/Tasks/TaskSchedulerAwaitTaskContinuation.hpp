@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.AwaitTaskContinuation
-#include "System\Threading\Tasks\AwaitTaskContinuation.hpp"
+#include "System/Threading/Tasks/AwaitTaskContinuation.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks

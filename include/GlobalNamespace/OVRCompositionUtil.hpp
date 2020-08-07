@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: OVRPlugin
-#include "GlobalNamespace\OVRPlugin.hpp"
+#include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: OVRManager
-#include "GlobalNamespace\OVRManager.hpp"
+#include "GlobalNamespace/OVRManager.hpp"
 // Including type: OVRBoundary
-#include "GlobalNamespace\OVRBoundary.hpp"
+#include "GlobalNamespace/OVRBoundary.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

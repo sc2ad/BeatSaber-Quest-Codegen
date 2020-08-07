@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.ViewController
-#include "HMUI\ViewController.hpp"
+#include "HMUI/ViewController.hpp"
 // Including type: PlayerAllOverallStatsData
-#include "GlobalNamespace\PlayerAllOverallStatsData.hpp"
+#include "GlobalNamespace/PlayerAllOverallStatsData.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

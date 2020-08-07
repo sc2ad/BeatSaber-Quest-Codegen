@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MarshalByRefObject
-#include "System\MarshalByRefObject.hpp"
+#include "System/MarshalByRefObject.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: System.Int64
-#include "System\Int64.hpp"
+#include "System/Int64.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

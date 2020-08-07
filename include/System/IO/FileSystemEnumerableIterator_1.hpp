@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.Iterator`1
-#include "System\IO\Iterator_1.hpp"
+#include "System/IO/Iterator_1.hpp"
 // Including type: System.IO.Directory
-#include "System\IO\Directory.hpp"
+#include "System/IO/Directory.hpp"
 // Including type: System.IO.SearchOption
-#include "System\IO\SearchOption.hpp"
+#include "System/IO/SearchOption.hpp"
 // Including type: Microsoft.Win32.Win32Native
-#include "Microsoft\Win32\Win32Native.hpp"
+#include "Microsoft/Win32/Win32Native.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

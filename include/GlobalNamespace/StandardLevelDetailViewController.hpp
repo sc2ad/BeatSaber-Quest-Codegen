@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.ViewController
-#include "HMUI\ViewController.hpp"
+#include "HMUI/ViewController.hpp"
 // Including type: BeatmapLevelsModel
-#include "GlobalNamespace\BeatmapLevelsModel.hpp"
+#include "GlobalNamespace/BeatmapLevelsModel.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

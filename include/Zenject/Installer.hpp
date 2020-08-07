@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.InstallerBase
-#include "Zenject\InstallerBase.hpp"
+#include "Zenject/InstallerBase.hpp"
 // Completed includes
 // Type namespace: Zenject
 namespace Zenject {

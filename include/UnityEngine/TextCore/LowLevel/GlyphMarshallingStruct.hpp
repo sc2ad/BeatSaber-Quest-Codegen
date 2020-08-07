@@ -5,11 +5,11 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.TextCore.GlyphMetrics
-#include "UnityEngine\TextCore\GlyphMetrics.hpp"
+#include "UnityEngine/TextCore/GlyphMetrics.hpp"
 // Including type: UnityEngine.TextCore.GlyphRect
-#include "UnityEngine\TextCore\GlyphRect.hpp"
+#include "UnityEngine/TextCore/GlyphRect.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TextCore

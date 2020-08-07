@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.TypeNames
-#include "System\TypeNames.hpp"
+#include "System/TypeNames.hpp"
 // Including type: System.TypeName
-#include "System\TypeName.hpp"
+#include "System/TypeName.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

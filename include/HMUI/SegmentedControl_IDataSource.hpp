@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: HMUI.SegmentedControl
-#include "HMUI\SegmentedControl.hpp"
+#include "HMUI/SegmentedControl.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI

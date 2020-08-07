@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: RootMotion.BipedReferences
-#include "RootMotion\BipedReferences.hpp"
+#include "RootMotion/BipedReferences.hpp"
 // Completed includes
 // Type namespace: RootMotion
 namespace RootMotion {

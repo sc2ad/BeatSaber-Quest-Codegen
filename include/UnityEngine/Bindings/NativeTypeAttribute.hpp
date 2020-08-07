@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: UnityEngine.Bindings.CodegenOptions
-#include "UnityEngine\Bindings\CodegenOptions.hpp"
+#include "UnityEngine/Bindings/CodegenOptions.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {

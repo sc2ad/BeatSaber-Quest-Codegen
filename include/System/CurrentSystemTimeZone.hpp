@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.TimeZone
-#include "System\TimeZone.hpp"
+#include "System/TimeZone.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

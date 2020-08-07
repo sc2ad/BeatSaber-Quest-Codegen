@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: SceneSetupData
-#include "GlobalNamespace\SceneSetupData.hpp"
+#include "GlobalNamespace/SceneSetupData.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;

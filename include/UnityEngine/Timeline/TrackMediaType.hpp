@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: UnityEngine.Timeline.TimelineAsset/MediaType
-#include "UnityEngine\Timeline\TimelineAsset_MediaType.hpp"
+#include "UnityEngine/Timeline/TimelineAsset_MediaType.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {

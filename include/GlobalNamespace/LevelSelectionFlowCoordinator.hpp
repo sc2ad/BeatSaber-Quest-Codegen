@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.FlowCoordinator
-#include "HMUI\FlowCoordinator.hpp"
+#include "HMUI/FlowCoordinator.hpp"
 // Including type: StandardLevelDetailViewController
-#include "GlobalNamespace\StandardLevelDetailViewController.hpp"
+#include "GlobalNamespace/StandardLevelDetailViewController.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

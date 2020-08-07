@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: InstancingValuesTester
-#include "GlobalNamespace\InstancingValuesTester.hpp"
+#include "GlobalNamespace/InstancingValuesTester.hpp"
 // Including type: UnityEngine.Vector4
-#include "UnityEngine\Vector4.hpp"
+#include "UnityEngine/Vector4.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
-#include "UnityEngine\TestTools\TestRunner\Callbacks\TestResultRenderer.hpp"
+#include "UnityEngine/TestTools/TestRunner/Callbacks/TestResultRenderer.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

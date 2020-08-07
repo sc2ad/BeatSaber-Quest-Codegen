@@ -5,11 +5,11 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Valve.VR.IntersectionMaskRectangle_t
-#include "Valve\VR\IntersectionMaskRectangle_t.hpp"
+#include "Valve/VR/IntersectionMaskRectangle_t.hpp"
 // Including type: Valve.VR.IntersectionMaskCircle_t
-#include "Valve\VR\IntersectionMaskCircle_t.hpp"
+#include "Valve/VR/IntersectionMaskCircle_t.hpp"
 // Completed includes
 // Type namespace: Valve.VR
 namespace Valve::VR {

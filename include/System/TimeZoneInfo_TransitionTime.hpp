@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.TimeZoneInfo
-#include "System\TimeZoneInfo.hpp"
+#include "System/TimeZoneInfo.hpp"
 // Including type: System.IEquatable`1
-#include "System\IEquatable_1.hpp"
+#include "System/IEquatable_1.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.Serialization.IDeserializationCallback
-#include "System\Runtime\Serialization\IDeserializationCallback.hpp"
+#include "System/Runtime/Serialization/IDeserializationCallback.hpp"
 // Including type: System.DateTime
-#include "System\DateTime.hpp"
+#include "System/DateTime.hpp"
 // Including type: System.DayOfWeek
-#include "System\DayOfWeek.hpp"
+#include "System/DayOfWeek.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization

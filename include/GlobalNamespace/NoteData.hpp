@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapObjectData
-#include "GlobalNamespace\BeatmapObjectData.hpp"
+#include "GlobalNamespace/BeatmapObjectData.hpp"
 // Including type: NoteType
-#include "GlobalNamespace\NoteType.hpp"
+#include "GlobalNamespace/NoteType.hpp"
 // Including type: NoteCutDirection
-#include "GlobalNamespace\NoteCutDirection.hpp"
+#include "GlobalNamespace/NoteCutDirection.hpp"
 // Including type: NoteLineLayer
-#include "GlobalNamespace\NoteLineLayer.hpp"
+#include "GlobalNamespace/NoteLineLayer.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Collections.IEqualityComparer
-#include "System\Collections\IEqualityComparer.hpp"
+#include "System/Collections/IEqualityComparer.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

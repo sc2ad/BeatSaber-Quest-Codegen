@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Constraints.Constraint
-#include "NUnit\Framework\Constraints\Constraint.hpp"
+#include "NUnit/Framework/Constraints/Constraint.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints

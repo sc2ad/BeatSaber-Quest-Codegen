@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.RangeValuesTextSlider
-#include "HMUI\RangeValuesTextSlider.hpp"
+#include "HMUI/RangeValuesTextSlider.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {

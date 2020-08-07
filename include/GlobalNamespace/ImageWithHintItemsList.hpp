@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.UIItemsList`1
-#include "HMUI\UIItemsList_1.hpp"
+#include "HMUI/UIItemsList_1.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI

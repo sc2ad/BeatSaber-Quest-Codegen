@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.ManualResetEventSlim
-#include "System\Threading\ManualResetEventSlim.hpp"
+#include "System/Threading/ManualResetEventSlim.hpp"
 // Including type: System.Threading.Tasks.Task
-#include "System\Threading\Tasks\Task.hpp"
+#include "System/Threading/Tasks/Task.hpp"
 // Including type: System.Threading.Tasks.ITaskCompletionAction
-#include "System\Threading\Tasks\ITaskCompletionAction.hpp"
+#include "System/Threading/Tasks/ITaskCompletionAction.hpp"
 // Completed includes
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {

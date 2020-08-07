@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LightWithIds
-#include "GlobalNamespace\LightWithIds.hpp"
+#include "GlobalNamespace/LightWithIds.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

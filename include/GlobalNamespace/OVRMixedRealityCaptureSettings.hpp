@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ScriptableObject
-#include "UnityEngine\ScriptableObject.hpp"
+#include "UnityEngine/ScriptableObject.hpp"
 // Including type: UnityEngine.LayerMask
-#include "UnityEngine\LayerMask.hpp"
+#include "UnityEngine/LayerMask.hpp"
 // Including type: OVRManager/CompositionMethod
-#include "GlobalNamespace\OVRManager.hpp"
+#include "GlobalNamespace/OVRManager.hpp"
 // Including type: UnityEngine.Color
-#include "UnityEngine\Color.hpp"
+#include "UnityEngine/Color.hpp"
 // Including type: OVRManager/CameraDevice
-// Already included the same include: GlobalNamespace\OVRManager.hpp
+// Already included the same include: GlobalNamespace/OVRManager.hpp
 // Including type: OVRManager/DepthQuality
-// Already included the same include: GlobalNamespace\OVRManager.hpp
+// Already included the same include: GlobalNamespace/OVRManager.hpp
 // Including type: OVRManager/VirtualGreenScreenType
-// Already included the same include: GlobalNamespace\OVRManager.hpp
+// Already included the same include: GlobalNamespace/OVRManager.hpp
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

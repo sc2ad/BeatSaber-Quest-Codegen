@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: OVRPlugin/Media
-#include "GlobalNamespace\OVRPlugin_Media.hpp"
+#include "GlobalNamespace/OVRPlugin_Media.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

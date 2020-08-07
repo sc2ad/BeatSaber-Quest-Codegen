@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: System.Diagnostics.Tracing.EventProvider
-#include "System\Diagnostics\Tracing\EventProvider.hpp"
+#include "System/Diagnostics/Tracing/EventProvider.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

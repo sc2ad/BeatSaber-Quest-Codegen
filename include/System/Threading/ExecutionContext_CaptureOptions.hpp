@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: System.Threading.ExecutionContext
-#include "System\Threading\ExecutionContext.hpp"
+#include "System/Threading/ExecutionContext.hpp"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {

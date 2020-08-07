@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MulticastDelegate
-#include "System\MulticastDelegate.hpp"
+#include "System/MulticastDelegate.hpp"
 // Including type: OVR.OpenVR.IVRInput
-#include "OVR\OpenVR\IVRInput.hpp"
+#include "OVR/OpenVR/IVRInput.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

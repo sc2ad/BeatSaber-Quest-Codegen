@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TextureEffectSO
-#include "GlobalNamespace\TextureEffectSO.hpp"
+#include "GlobalNamespace/TextureEffectSO.hpp"
 // Including type: IBloomPrePassParams
-#include "GlobalNamespace\IBloomPrePassParams.hpp"
+#include "GlobalNamespace/IBloomPrePassParams.hpp"
 // Including type: UnityEngine.Vector2
-#include "UnityEngine\Vector2.hpp"
+#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

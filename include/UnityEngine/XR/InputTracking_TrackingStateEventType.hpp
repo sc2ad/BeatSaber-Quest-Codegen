@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.XR.InputTracking
-#include "UnityEngine\XR\InputTracking.hpp"
+#include "UnityEngine/XR/InputTracking.hpp"
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

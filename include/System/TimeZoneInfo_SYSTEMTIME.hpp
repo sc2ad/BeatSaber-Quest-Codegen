@@ -6,9 +6,9 @@
 // Begin includes
 #include <stdint.h>
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.TimeZoneInfo
-#include "System\TimeZoneInfo.hpp"
+#include "System/TimeZoneInfo.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

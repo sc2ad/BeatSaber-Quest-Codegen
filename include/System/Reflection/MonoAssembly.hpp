@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.RuntimeAssembly
-#include "System\Reflection\RuntimeAssembly.hpp"
+#include "System/Reflection/RuntimeAssembly.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

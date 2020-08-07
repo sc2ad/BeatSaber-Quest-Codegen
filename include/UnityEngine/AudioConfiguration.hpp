@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.AudioSpeakerMode
-#include "UnityEngine\AudioSpeakerMode.hpp"
+#include "UnityEngine/AudioSpeakerMode.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

@@ -5,9 +5,9 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: PyramidBloomRendererSO
-#include "GlobalNamespace\PyramidBloomRendererSO.hpp"
+#include "GlobalNamespace/PyramidBloomRendererSO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

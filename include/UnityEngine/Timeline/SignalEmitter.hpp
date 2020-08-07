@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.Marker
-#include "UnityEngine\Timeline\Marker.hpp"
+#include "UnityEngine/Timeline/Marker.hpp"
 // Including type: UnityEngine.Playables.INotification
-#include "UnityEngine\Playables\INotification.hpp"
+#include "UnityEngine/Playables/INotification.hpp"
 // Including type: UnityEngine.Timeline.INotificationOptionProvider
-#include "UnityEngine\Timeline\INotificationOptionProvider.hpp"
+#include "UnityEngine/Timeline/INotificationOptionProvider.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline

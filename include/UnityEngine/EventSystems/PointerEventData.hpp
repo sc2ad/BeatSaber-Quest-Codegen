@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.BaseEventData
-#include "UnityEngine\EventSystems\BaseEventData.hpp"
+#include "UnityEngine/EventSystems/BaseEventData.hpp"
 // Including type: UnityEngine.EventSystems.RaycastResult
-#include "UnityEngine\EventSystems\RaycastResult.hpp"
+#include "UnityEngine/EventSystems/RaycastResult.hpp"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems

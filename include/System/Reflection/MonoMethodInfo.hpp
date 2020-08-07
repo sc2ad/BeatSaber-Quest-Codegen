@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: System.Reflection.MethodAttributes
-#include "System\Reflection\MethodAttributes.hpp"
+#include "System/Reflection/MethodAttributes.hpp"
 // Including type: System.Reflection.MethodImplAttributes
-#include "System\Reflection\MethodImplAttributes.hpp"
+#include "System/Reflection/MethodImplAttributes.hpp"
 // Including type: System.Reflection.CallingConventions
-#include "System\Reflection\CallingConventions.hpp"
+#include "System/Reflection/CallingConventions.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

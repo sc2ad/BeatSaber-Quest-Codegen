@@ -5,11 +5,11 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: KawaseBlurRendererSO
-#include "GlobalNamespace\KawaseBlurRendererSO.hpp"
+#include "GlobalNamespace/KawaseBlurRendererSO.hpp"
 // Including type: KawaseBlurRendererSO/KernelSize
-#include "GlobalNamespace\KawaseBlurRendererSO_KernelSize.hpp"
+#include "GlobalNamespace/KawaseBlurRendererSO_KernelSize.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;

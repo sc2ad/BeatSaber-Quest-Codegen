@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.NoTransitionInstaller
-#include "Zenject\NoTransitionInstaller.hpp"
+#include "Zenject/NoTransitionInstaller.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

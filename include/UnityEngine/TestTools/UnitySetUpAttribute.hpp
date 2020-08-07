@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.NUnitAttribute
-#include "NUnit\Framework\NUnitAttribute.hpp"
+#include "NUnit/Framework/NUnitAttribute.hpp"
 // Completed includes
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {

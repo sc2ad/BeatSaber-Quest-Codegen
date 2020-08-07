@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IO.Stream
-#include "System\IO\Stream.hpp"
+#include "System/IO/Stream.hpp"
 // Including type: System.IO.FileAccess
-#include "System\IO\FileAccess.hpp"
+#include "System/IO/FileAccess.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::InteropServices

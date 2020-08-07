@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: UnityEngine.UI.StencilMaterial
-#include "UnityEngine\UI\StencilMaterial.hpp"
+#include "UnityEngine/UI/StencilMaterial.hpp"
 // Including type: UnityEngine.Rendering.StencilOp
-#include "UnityEngine\Rendering\StencilOp.hpp"
+#include "UnityEngine/Rendering/StencilOp.hpp"
 // Including type: UnityEngine.Rendering.CompareFunction
-#include "UnityEngine\Rendering\CompareFunction.hpp"
+#include "UnityEngine/Rendering/CompareFunction.hpp"
 // Including type: UnityEngine.Rendering.ColorWriteMask
-#include "UnityEngine\Rendering\ColorWriteMask.hpp"
+#include "UnityEngine/Rendering/ColorWriteMask.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

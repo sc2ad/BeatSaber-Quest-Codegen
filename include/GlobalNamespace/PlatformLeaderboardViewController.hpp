@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LeaderboardViewController
-#include "GlobalNamespace\LeaderboardViewController.hpp"
+#include "GlobalNamespace/LeaderboardViewController.hpp"
 // Including type: LeaderboardTableView
-#include "GlobalNamespace\LeaderboardTableView.hpp"
+#include "GlobalNamespace/LeaderboardTableView.hpp"
 // Including type: PlatformLeaderboardsModel
-#include "GlobalNamespace\PlatformLeaderboardsModel.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 // Including type: PlatformLeaderboardsModel/ScoresScope
-#include "GlobalNamespace\PlatformLeaderboardsModel_ScoresScope.hpp"
+#include "GlobalNamespace/PlatformLeaderboardsModel_ScoresScope.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

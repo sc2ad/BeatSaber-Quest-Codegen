@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.__Il2CppComObject
-#include "System\__Il2CppComObject.hpp"
+#include "System/__Il2CppComObject.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: System.Xml.XmlEventCache
-#include "System\Xml\XmlEventCache.hpp"
+#include "System/Xml/XmlEventCache.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {

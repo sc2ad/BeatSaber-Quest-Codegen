@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.IInitializable
-#include "Zenject\IInitializable.hpp"
+#include "Zenject/IInitializable.hpp"
 // Including type: System.IDisposable
-#include "System\IDisposable.hpp"
+#include "System/IDisposable.hpp"
 // Including type: Zenject.ITickable
-#include "Zenject\ITickable.hpp"
+#include "Zenject/ITickable.hpp"
 // Including type: Zenject.ILateTickable
-#include "Zenject\ILateTickable.hpp"
+#include "Zenject/ILateTickable.hpp"
 // Including type: Zenject.IFixedTickable
-#include "Zenject\IFixedTickable.hpp"
+#include "Zenject/IFixedTickable.hpp"
 // Including type: Zenject.ILateDisposable
-#include "Zenject\ILateDisposable.hpp"
+#include "Zenject/ILateDisposable.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject

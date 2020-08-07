@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: Zenject.IInstantiator
-#include "Zenject\IInstantiator.hpp"
+#include "Zenject/IInstantiator.hpp"
 // Including type: Zenject.BindingId
-#include "Zenject\BindingId.hpp"
+#include "Zenject/BindingId.hpp"
 // Including type: Zenject.TypeValuePair
-#include "Zenject\TypeValuePair.hpp"
+#include "Zenject/TypeValuePair.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

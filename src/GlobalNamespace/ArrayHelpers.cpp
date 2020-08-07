@@ -4,6 +4,6 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ArrayHelpers
-#include "GlobalNamespace\ArrayHelpers.hpp"
+#include "GlobalNamespace/ArrayHelpers.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

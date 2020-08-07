@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Messaging.MethodCall
-#include "System\Runtime\Remoting\Messaging\MethodCall.hpp"
+#include "System/Runtime/Remoting/Messaging/MethodCall.hpp"
 // Including type: System.Runtime.Remoting.Activation.IConstructionCallMessage
-#include "System\Runtime\Remoting\Activation\IConstructionCallMessage.hpp"
+#include "System/Runtime/Remoting/Activation/IConstructionCallMessage.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Activation

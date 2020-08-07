@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.BaseInputModule
-#include "UnityEngine\EventSystems\BaseInputModule.hpp"
+#include "UnityEngine/EventSystems/BaseInputModule.hpp"
 // Including type: System.Int32
-#include "System\Int32.hpp"
+#include "System/Int32.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData
-#include "UnityEngine\EventSystems\PointerEventData.hpp"
+#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems

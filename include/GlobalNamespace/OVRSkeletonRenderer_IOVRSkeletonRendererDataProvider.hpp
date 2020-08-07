@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRSkeletonRenderer
-#include "GlobalNamespace\OVRSkeletonRenderer.hpp"
+#include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

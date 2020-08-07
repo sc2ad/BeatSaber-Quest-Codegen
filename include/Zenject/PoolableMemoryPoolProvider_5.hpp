@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.PoolableMemoryPoolProviderBase`1
-#include "Zenject\PoolableMemoryPoolProviderBase_1.hpp"
+#include "Zenject/PoolableMemoryPoolProviderBase_1.hpp"
 // Including type: Zenject.IValidatable
-#include "Zenject\IValidatable.hpp"
+#include "Zenject/IValidatable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

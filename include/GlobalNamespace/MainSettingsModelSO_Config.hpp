@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: MainSettingsModelSO
-#include "GlobalNamespace\MainSettingsModelSO.hpp"
+#include "GlobalNamespace/MainSettingsModelSO.hpp"
 // Including type: MainSettingsModelSO/WindowMode
-#include "GlobalNamespace\MainSettingsModelSO_WindowMode.hpp"
+#include "GlobalNamespace/MainSettingsModelSO_WindowMode.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

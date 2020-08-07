@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
-#include "System\Enum.hpp"
+#include "System/Enum.hpp"
 // Including type: UnityEngine.TextEditor
-#include "UnityEngine\TextEditor.hpp"
+#include "UnityEngine/TextEditor.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {

@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.LayoutGroup
-#include "UnityEngine\UI\LayoutGroup.hpp"
+#include "UnityEngine/UI/LayoutGroup.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {

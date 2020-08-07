@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMethodReturnMessage
-#include "System\Runtime\Remoting\Messaging\IMethodReturnMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/IMethodReturnMessage.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
-#include "System\Runtime\Serialization\ISerializable.hpp"
+#include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IInternalMessage
-#include "System\Runtime\Remoting\Messaging\IInternalMessage.hpp"
+#include "System/Runtime/Remoting/Messaging/IInternalMessage.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

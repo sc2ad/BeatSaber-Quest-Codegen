@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: SteamVR_TrackedCamera
-#include "GlobalNamespace\SteamVR_TrackedCamera.hpp"
+#include "GlobalNamespace/SteamVR_TrackedCamera.hpp"
 // Including type: Valve.VR.VRTextureBounds_t
-#include "Valve\VR\VRTextureBounds_t.hpp"
+#include "Valve/VR/VRTextureBounds_t.hpp"
 // Including type: Valve.VR.CameraVideoStreamFrameHeader_t
-#include "Valve\VR\CameraVideoStreamFrameHeader_t.hpp"
+#include "Valve/VR/CameraVideoStreamFrameHeader_t.hpp"
 // Including type: SteamVR_Utils
-#include "GlobalNamespace\SteamVR_Utils.hpp"
+#include "GlobalNamespace/SteamVR_Utils.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

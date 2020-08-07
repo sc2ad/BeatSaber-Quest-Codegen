@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.ResultStateException
-#include "NUnit\Framework\ResultStateException.hpp"
+#include "NUnit/Framework/ResultStateException.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::Logging

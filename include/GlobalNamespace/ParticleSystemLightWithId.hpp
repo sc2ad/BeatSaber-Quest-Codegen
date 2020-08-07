@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LightWithId
-#include "GlobalNamespace\LightWithId.hpp"
+#include "GlobalNamespace/LightWithId.hpp"
 // Including type: UnityEngine.ParticleSystem/MainModule
-#include "UnityEngine\ParticleSystem_MainModule.hpp"
+#include "UnityEngine/ParticleSystem_MainModule.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

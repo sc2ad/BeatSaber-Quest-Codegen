@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.WaitHandle
-#include "System\Threading\WaitHandle.hpp"
+#include "System/Threading/WaitHandle.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

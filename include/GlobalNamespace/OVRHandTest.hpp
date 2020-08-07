@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRPlugin/HandState
-#include "GlobalNamespace\OVRPlugin_HandState.hpp"
+#include "GlobalNamespace/OVRPlugin_HandState.hpp"
 // Including type: OVRPlugin/Skeleton
-#include "GlobalNamespace\OVRPlugin_Skeleton.hpp"
+#include "GlobalNamespace/OVRPlugin_Skeleton.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

@@ -6,13 +6,13 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: Oculus.Platform.CAPI
-#include "Oculus\Platform\CAPI.hpp"
+#include "Oculus/Platform/CAPI.hpp"
 // Including type: Oculus.Platform.MatchmakingCriterionImportance
-#include "Oculus\Platform\MatchmakingCriterionImportance.hpp"
+#include "Oculus/Platform/MatchmakingCriterionImportance.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

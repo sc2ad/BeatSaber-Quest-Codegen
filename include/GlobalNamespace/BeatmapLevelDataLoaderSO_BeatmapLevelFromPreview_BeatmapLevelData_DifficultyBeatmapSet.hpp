@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData
-#include "GlobalNamespace\BeatmapLevelDataLoaderSO_BeatmapLevelFromPreview_BeatmapLevelData.hpp"
+#include "GlobalNamespace/BeatmapLevelDataLoaderSO_BeatmapLevelFromPreview_BeatmapLevelData.hpp"
 // Including type: IDifficultyBeatmapSet
-#include "GlobalNamespace\IDifficultyBeatmapSet.hpp"
+#include "GlobalNamespace/IDifficultyBeatmapSet.hpp"
 // Including type: BeatmapLevelSO
-#include "GlobalNamespace\BeatmapLevelSO.hpp"
+#include "GlobalNamespace/BeatmapLevelSO.hpp"
 // Including type: BeatmapLevelDataSO
-#include "GlobalNamespace\BeatmapLevelDataSO.hpp"
+#include "GlobalNamespace/BeatmapLevelDataSO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

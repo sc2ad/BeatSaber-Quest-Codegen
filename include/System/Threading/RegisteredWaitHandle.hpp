@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MarshalByRefObject
-#include "System\MarshalByRefObject.hpp"
+#include "System/MarshalByRefObject.hpp"
 // Including type: System.TimeSpan
-#include "System\TimeSpan.hpp"
+#include "System/TimeSpan.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.API.ApiResponse`1
-#include "OnlineServices\API\ApiResponse_1.hpp"
+#include "OnlineServices/API/ApiResponse_1.hpp"
 // Including type: LeaderboardsDTO.LeaderboardEntriesDTO
-#include "LeaderboardsDTO\LeaderboardEntriesDTO.hpp"
+#include "LeaderboardsDTO/LeaderboardEntriesDTO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks

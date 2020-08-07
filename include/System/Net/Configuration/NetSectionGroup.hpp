@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Configuration.ConfigurationSectionGroup
-#include "System\Configuration\ConfigurationSectionGroup.hpp"
+#include "System/Configuration/ConfigurationSectionGroup.hpp"
 // Completed includes
 // Type namespace: System.Net.Configuration
 namespace System::Net::Configuration {

@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Reflection.ICustomAttributeProvider
-#include "System\Reflection\ICustomAttributeProvider.hpp"
+#include "System/Reflection/ICustomAttributeProvider.hpp"
 // Including type: System.Runtime.InteropServices._MemberInfo
-#include "System\Runtime\InteropServices\_MemberInfo.hpp"
+#include "System/Runtime/InteropServices/_MemberInfo.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection

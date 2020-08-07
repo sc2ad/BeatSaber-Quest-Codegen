@@ -6,19 +6,19 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
-#include "System\ValueType.hpp"
+#include "System/ValueType.hpp"
 // Including type: OnlineServices.API.TestApiLeaderboardsModel
-#include "OnlineServices\API\TestApiLeaderboardsModel.hpp"
+#include "OnlineServices/API/TestApiLeaderboardsModel.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
-#include "System\Runtime\CompilerServices\IAsyncStateMachine.hpp"
+#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
-#include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder_1.hpp"
+#include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: OnlineServices.API.ApiResponse`1
-#include "OnlineServices\API\ApiResponse_1.hpp"
+#include "OnlineServices/API/ApiResponse_1.hpp"
 // Including type: LeaderboardsDTO.LeaderboardEntriesDTO
-#include "LeaderboardsDTO\LeaderboardEntriesDTO.hpp"
+#include "LeaderboardsDTO/LeaderboardEntriesDTO.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
-#include "System\Runtime\CompilerServices\TaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Completed includes
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {

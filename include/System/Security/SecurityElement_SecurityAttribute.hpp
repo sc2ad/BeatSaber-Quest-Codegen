@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Security.SecurityElement
-#include "System\Security\SecurityElement.hpp"
+#include "System/Security/SecurityElement.hpp"
 // Completed includes
 // Type namespace: System.Security
 namespace System::Security {

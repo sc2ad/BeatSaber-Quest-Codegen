@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.RegularExpressions.Group
-#include "System\Text\RegularExpressions\Group.hpp"
+#include "System/Text/RegularExpressions/Group.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions

@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.MonoInstaller
-#include "Zenject\MonoInstaller.hpp"
+#include "Zenject/MonoInstaller.hpp"
 // Including type: AppInitScenesTransitionSetupDataSO
-#include "GlobalNamespace\AppInitScenesTransitionSetupDataSO.hpp"
+#include "GlobalNamespace/AppInitScenesTransitionSetupDataSO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

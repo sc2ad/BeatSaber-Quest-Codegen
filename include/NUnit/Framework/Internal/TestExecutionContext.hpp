@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Compatibility.LongLivedMarshalByRefObject
-#include "NUnit\Compatibility\LongLivedMarshalByRefObject.hpp"
+#include "NUnit/Compatibility/LongLivedMarshalByRefObject.hpp"
 // Including type: NUnit.Framework.Internal.ITestExecutionContext
-#include "NUnit\Framework\Internal\ITestExecutionContext.hpp"
+#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces

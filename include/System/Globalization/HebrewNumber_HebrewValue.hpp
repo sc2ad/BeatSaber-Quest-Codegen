@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Object
-#include "System\Object.hpp"
+#include "System/Object.hpp"
 // Including type: System.Globalization.HebrewNumber
-#include "System\Globalization\HebrewNumber.hpp"
+#include "System/Globalization/HebrewNumber.hpp"
 // Including type: System.Globalization.HebrewNumber/HebrewToken
-#include "System\Globalization\HebrewNumber_HebrewToken.hpp"
+#include "System/Globalization/HebrewNumber_HebrewToken.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {

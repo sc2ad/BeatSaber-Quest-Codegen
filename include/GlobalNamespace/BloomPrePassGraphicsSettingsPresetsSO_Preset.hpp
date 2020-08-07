@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NamedPreset
-#include "GlobalNamespace\NamedPreset.hpp"
+#include "GlobalNamespace/NamedPreset.hpp"
 // Including type: BloomPrePassGraphicsSettingsPresetsSO
-#include "GlobalNamespace\BloomPrePassGraphicsSettingsPresetsSO.hpp"
+#include "GlobalNamespace/BloomPrePassGraphicsSettingsPresetsSO.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

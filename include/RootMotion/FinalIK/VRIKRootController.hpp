@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine\MonoBehaviour.hpp"
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: RootMotion.FinalIK.VRIKCalibrator
-#include "RootMotion\FinalIK\VRIKCalibrator.hpp"
+#include "RootMotion/FinalIK/VRIKCalibrator.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

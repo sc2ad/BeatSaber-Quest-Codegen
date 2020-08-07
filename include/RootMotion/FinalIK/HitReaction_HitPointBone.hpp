@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.HitReaction/HitPoint
-#include "RootMotion\FinalIK\HitReaction_HitPoint.hpp"
+#include "RootMotion/FinalIK/HitReaction_HitPoint.hpp"
 // Including type: RootMotion.FinalIK.HitReaction
-#include "RootMotion\FinalIK\HitReaction.hpp"
+#include "RootMotion/FinalIK/HitReaction.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK

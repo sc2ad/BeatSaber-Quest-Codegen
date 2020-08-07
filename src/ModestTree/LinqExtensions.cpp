@@ -4,14 +4,14 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ModestTree.LinqExtensions
-#include "ModestTree\LinqExtensions.hpp"
+#include "ModestTree/LinqExtensions.hpp"
 // Including type: ModestTree.LinqExtensions/<Yield>d__0`1
-#include "ModestTree\LinqExtensions_-Yield-d__0_1.hpp"
+#include "ModestTree/LinqExtensions_-Yield-d__0_1.hpp"
 // Including type: ModestTree.LinqExtensions/<>c__7`1
-#include "ModestTree\LinqExtensions_--c__7_1.hpp"
+#include "ModestTree/LinqExtensions_--c__7_1.hpp"
 // Including type: ModestTree.LinqExtensions/<>c__DisplayClass9_0`1
-#include "ModestTree\LinqExtensions_--c__DisplayClass9_0_1.hpp"
+#include "ModestTree/LinqExtensions_--c__DisplayClass9_0_1.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
-#include "System\Collections\Generic\IEnumerable_1.hpp"
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

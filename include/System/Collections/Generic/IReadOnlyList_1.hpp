@@ -5,7 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 // Including type: System.Collections.Generic.IReadOnlyCollection`1
-#include "System\Collections\Generic\IReadOnlyCollection_1.hpp"
+#include "System/Collections/Generic/IReadOnlyCollection_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Type namespace: System.Collections.Generic

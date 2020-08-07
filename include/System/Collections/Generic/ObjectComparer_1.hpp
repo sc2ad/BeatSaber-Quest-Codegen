@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Generic.Comparer`1
-#include "System\Collections\Generic\Comparer_1.hpp"
+#include "System/Collections/Generic/Comparer_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Type namespace: System.Collections.Generic

@@ -4,75 +4,75 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.EventDescriptor
-#include "System\Diagnostics\Tracing\EventDescriptor.hpp"
+#include "System/Diagnostics/Tracing/EventDescriptor.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource
-#include "System\Diagnostics\Tracing\EventSource.hpp"
+#include "System/Diagnostics/Tracing/EventSource.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource/EventData
-#include "System\Diagnostics\Tracing\EventSource_EventData.hpp"
+#include "System/Diagnostics/Tracing/EventSource_EventData.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource/Sha1ForNonSecretPurposes
-#include "System\Diagnostics\Tracing\EventSource_Sha1ForNonSecretPurposes.hpp"
+#include "System/Diagnostics/Tracing/EventSource_Sha1ForNonSecretPurposes.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource/OverideEventProvider
-#include "System\Diagnostics\Tracing\EventSource_OverideEventProvider.hpp"
+#include "System/Diagnostics/Tracing/EventSource_OverideEventProvider.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource/EventMetadata
-#include "System\Diagnostics\Tracing\EventSource_EventMetadata.hpp"
+#include "System/Diagnostics/Tracing/EventSource_EventMetadata.hpp"
 // Including type: System.EventHandler`1
-#include "System\EventHandler_1.hpp"
+#include "System/EventHandler_1.hpp"
 // Including type: System.Diagnostics.Tracing.EventCommandEventArgs
-#include "System\Diagnostics\Tracing\EventCommandEventArgs.hpp"
+#include "System/Diagnostics/Tracing/EventCommandEventArgs.hpp"
 // Including type: System.Diagnostics.Tracing.EventDispatcher
-#include "System\Diagnostics\Tracing\EventDispatcher.hpp"
+#include "System/Diagnostics/Tracing/EventDispatcher.hpp"
 // Including type: System.Exception
-#include "System\Exception.hpp"
+#include "System/Exception.hpp"
 // Including type: System.Diagnostics.Tracing.EtwSession
-#include "System\Diagnostics\Tracing\EtwSession.hpp"
+#include "System/Diagnostics/Tracing/EtwSession.hpp"
 // Including type: System.Collections.Generic.List`1
-#include "System\Collections\Generic\List_1.hpp"
+#include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Diagnostics.Tracing.ActivityTracker
-#include "System\Diagnostics\Tracing\ActivityTracker.hpp"
+#include "System/Diagnostics/Tracing/ActivityTracker.hpp"
 // Including type: System.Action`1
-#include "System\Action_1.hpp"
+#include "System/Action_1.hpp"
 // Including type: System.Diagnostics.Tracing.EventSourceOptions
-#include "System\Diagnostics\Tracing\EventSourceOptions.hpp"
+#include "System/Diagnostics/Tracing/EventSourceOptions.hpp"
 // Including type: System.Diagnostics.Tracing.TraceLoggingEventTypes
-#include "System\Diagnostics\Tracing\TraceLoggingEventTypes.hpp"
+#include "System/Diagnostics/Tracing/TraceLoggingEventTypes.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
-#include "System\Runtime\InteropServices\GCHandle.hpp"
+#include "System/Runtime/InteropServices/GCHandle.hpp"
 // Including type: System.Diagnostics.Tracing.NameInfo
-#include "System\Diagnostics\Tracing\NameInfo.hpp"
+#include "System/Diagnostics/Tracing/NameInfo.hpp"
 // Including type: System.Diagnostics.Tracing.EventChannel
-#include "System\Diagnostics\Tracing\EventChannel.hpp"
+#include "System/Diagnostics/Tracing/EventChannel.hpp"
 // Including type: System.Type
-#include "System\Type.hpp"
+#include "System/Type.hpp"
 // Including type: System.Diagnostics.Tracing.EventListener
-#include "System\Diagnostics\Tracing\EventListener.hpp"
+#include "System/Diagnostics/Tracing/EventListener.hpp"
 // Including type: System.IntPtr
-#include "System\IntPtr.hpp"
+#include "System/IntPtr.hpp"
 // Including type: System.Diagnostics.Tracing.EventManifestOptions
-#include "System\Diagnostics\Tracing\EventManifestOptions.hpp"
+#include "System/Diagnostics/Tracing/EventManifestOptions.hpp"
 // Including type: System.Reflection.ParameterInfo
-#include "System\Reflection\ParameterInfo.hpp"
+#include "System/Reflection/ParameterInfo.hpp"
 // Including type: System.Diagnostics.Tracing.EventWrittenEventArgs
-#include "System\Diagnostics\Tracing\EventWrittenEventArgs.hpp"
+#include "System/Diagnostics/Tracing/EventWrittenEventArgs.hpp"
 // Including type: System.Diagnostics.Tracing.EventOpcode
-#include "System\Diagnostics\Tracing\EventOpcode.hpp"
+#include "System/Diagnostics/Tracing/EventOpcode.hpp"
 // Including type: System.Diagnostics.Tracing.EventCommand
-#include "System\Diagnostics\Tracing\EventCommand.hpp"
+#include "System/Diagnostics/Tracing/EventCommand.hpp"
 // Including type: System.Collections.Generic.IDictionary`2
-#include "System\Collections\Generic\IDictionary_2.hpp"
+#include "System/Collections/Generic/IDictionary_2.hpp"
 // Including type: System.Attribute
-#include "System\Attribute.hpp"
+#include "System/Attribute.hpp"
 // Including type: System.Reflection.MemberInfo
-#include "System\Reflection\MemberInfo.hpp"
+#include "System/Reflection/MemberInfo.hpp"
 // Including type: System.Diagnostics.Tracing.ManifestBuilder
-#include "System\Diagnostics\Tracing\ManifestBuilder.hpp"
+#include "System/Diagnostics/Tracing/ManifestBuilder.hpp"
 // Including type: System.Reflection.FieldInfo
-#include "System\Reflection\FieldInfo.hpp"
+#include "System/Reflection/FieldInfo.hpp"
 // Including type: System.Diagnostics.Tracing.EventAttribute
-#include "System\Diagnostics\Tracing\EventAttribute.hpp"
+#include "System/Diagnostics/Tracing/EventAttribute.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
-#include "System\Collections\Generic\Dictionary_2.hpp"
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: System.Reflection.MethodInfo
-#include "System\Reflection\MethodInfo.hpp"
+#include "System/Reflection/MethodInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Autogenerated static field getter

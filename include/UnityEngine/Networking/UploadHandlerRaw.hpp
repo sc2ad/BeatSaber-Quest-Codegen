@@ -6,7 +6,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Networking.UploadHandler
-#include "UnityEngine\Networking\UploadHandler.hpp"
+#include "UnityEngine/Networking/UploadHandler.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

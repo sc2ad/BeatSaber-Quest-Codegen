@@ -6,11 +6,11 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MulticastDelegate
-#include "System\MulticastDelegate.hpp"
+#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.Lightmapping
-#include "UnityEngine\Experimental\GlobalIllumination\Lightmapping.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/Lightmapping.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightDataGI
-#include "UnityEngine\Experimental\GlobalIllumination\LightDataGI.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/LightDataGI.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

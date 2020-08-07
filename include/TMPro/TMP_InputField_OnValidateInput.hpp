@@ -6,9 +6,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MulticastDelegate
-#include "System\MulticastDelegate.hpp"
+#include "System/MulticastDelegate.hpp"
 // Including type: TMPro.TMP_InputField
-#include "TMPro\TMP_InputField.hpp"
+#include "TMPro/TMP_InputField.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

@@ -6,15 +6,15 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.Task`1
-#include "System\Threading\Tasks\Task_1.hpp"
+#include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.Threading.Tasks.Task
-#include "System\Threading\Tasks\Task.hpp"
+#include "System/Threading/Tasks/Task.hpp"
 // Including type: System.Threading.Tasks.VoidTaskResult
-#include "System\Threading\Tasks\VoidTaskResult.hpp"
+#include "System/Threading/Tasks/VoidTaskResult.hpp"
 // Including type: System.Threading.CancellationToken
-#include "System\Threading\CancellationToken.hpp"
+#include "System/Threading/CancellationToken.hpp"
 // Including type: System.Threading.CancellationTokenRegistration
-#include "System\Threading\CancellationTokenRegistration.hpp"
+#include "System/Threading/CancellationTokenRegistration.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
