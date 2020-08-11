@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     public:
     // private System.String _argument
     // Offset: 0x18
-    ::Il2CppString* argument;
+    ::CsString* argument;
     // private UnityEngine.Behaviour _component
     // Offset: 0x20
     UnityEngine::Behaviour* component;

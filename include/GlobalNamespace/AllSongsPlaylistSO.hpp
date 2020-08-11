@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     public:
     // private System.String _playListLocalizedName
     // Offset: 0x18
-    ::Il2CppString* playListLocalizedName;
+    ::CsString* playListLocalizedName;
     // private UnityEngine.Sprite _coverImage
     // Offset: 0x20
     UnityEngine::Sprite* coverImage;
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x1969E70
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
-    ::Il2CppString* get_collectionName();
+    ::CsString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0x1969E7C
     // Implemented from: IAnnotatedBeatmapLevelCollection

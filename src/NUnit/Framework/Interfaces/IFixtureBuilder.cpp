@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.IFixtureBuilder
 #include "NUnit/Framework/Interfaces/IFixtureBuilder.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1

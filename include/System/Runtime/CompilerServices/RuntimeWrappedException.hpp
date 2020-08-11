@@ -24,10 +24,10 @@ namespace System::Runtime::CompilerServices {
     public:
     // private System.Object m_wrappedException
     // Offset: 0x88
-    ::Il2CppObject* m_wrappedException;
+    ::CsObject* m_wrappedException;
     // private System.Void .ctor(System.Object thrownObject)
     // Offset: 0x114FDB4
-    static RuntimeWrappedException* New_ctor(::Il2CppObject* thrownObject);
+    static RuntimeWrappedException* New_ctor(::CsObject* thrownObject);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x114FE6C
     // Implemented from: System.Exception

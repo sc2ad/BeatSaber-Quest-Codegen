@@ -38,7 +38,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xD7E6DC
     // Implemented from: System.Diagnostics.Tracing.EventProvider
     // Base method: System.Void EventProvider::OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId)
-    void OnControllerCommand(System::Diagnostics::Tracing::ControllerCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, int perEventSourceSessionId, int etwSessionId);
+    void OnControllerCommand(System::Diagnostics::Tracing::ControllerCommand command, System::Collections::Generic::IDictionary_2<::CsString*, ::CsString*>* arguments, int perEventSourceSessionId, int etwSessionId);
   }; // System.Diagnostics.Tracing.EventSource/OverideEventProvider
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

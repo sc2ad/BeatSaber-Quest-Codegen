@@ -56,15 +56,15 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier
-    static ::Il2CppString* _get_kCellIdentifier();
+    static ::CsString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::Il2CppString* value);
+    static void _set_kCellIdentifier(::CsString* value);
     // static field const value: static private System.String kNonSelectableCellIdentifier
     static constexpr const char* kNonSelectableCellIdentifier = "NonSelectableCell";
     // Get static field: static private System.String kNonSelectableCellIdentifier
-    static ::Il2CppString* _get_kNonSelectableCellIdentifier();
+    static ::CsString* _get_kNonSelectableCellIdentifier();
     // Set static field: static private System.String kNonSelectableCellIdentifier
-    static void _set_kNonSelectableCellIdentifier(::Il2CppString* value);
+    static void _set_kNonSelectableCellIdentifier(::CsString* value);
     // private IDifficultyBeatmap[] _difficultyBeatmaps
     // Offset: 0x40
     ::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps;

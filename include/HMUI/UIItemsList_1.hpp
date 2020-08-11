@@ -59,7 +59,7 @@ namespace HMUI {
       using declaring_type = UIItemsList_1<T>*;
       // public System.Void .ctor(System.Object object, System.IntPtr method)
       // Offset: 0xFFFFFFFF
-      static typename UIItemsList_1<T>::DataCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
+      static typename UIItemsList_1<T>::DataCallback* New_ctor(::CsObject* object, System::IntPtr method) {
         return (typename UIItemsList_1<T>::DataCallback*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename UIItemsList_1<T>::DataCallback*>::get(), object, method));
       }
       // public System.Void Invoke(System.Int32 idx, T item)
@@ -69,7 +69,7 @@ namespace HMUI {
       }
       // public System.IAsyncResult BeginInvoke(System.Int32 idx, T item, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
-      System::IAsyncResult* BeginInvoke(int idx, T item, System::AsyncCallback* callback, ::Il2CppObject* object) {
+      System::IAsyncResult* BeginInvoke(int idx, T item, System::AsyncCallback* callback, ::CsObject* object) {
         return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", idx, item, callback, object));
       }
       // public System.Void EndInvoke(System.IAsyncResult result)

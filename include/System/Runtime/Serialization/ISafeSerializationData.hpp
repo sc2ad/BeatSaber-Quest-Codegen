@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
@@ -15,7 +15,7 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Void CompleteDeserialization(System.Object deserialized)
     // Offset: 0xFFFFFFFF
-    void CompleteDeserialization(::Il2CppObject* deserialized);
+    void CompleteDeserialization(::CsObject* deserialized);
   }; // System.Runtime.Serialization.ISafeSerializationData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

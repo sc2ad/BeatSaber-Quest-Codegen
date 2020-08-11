@@ -9,7 +9,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
@@ -18,7 +18,7 @@ namespace NetEase::Docker {
     public:
     // private System.String <Name>k__BackingField
     // Offset: 0x0
-    ::Il2CppString* Name;
+    ::CsString* Name;
     // private System.Int32 <Score>k__BackingField
     // Offset: 0x8
     int Score;
@@ -26,13 +26,13 @@ namespace NetEase::Docker {
     // Offset: 0x10
     int64_t TimeStamp;
     // Creating value type constructor for type: ScoreData
-    ScoreData(::Il2CppString* Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
+    ScoreData(::CsString* Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
     // public System.String get_Name()
     // Offset: 0xA5CCE4
-    ::Il2CppString* get_Name();
+    ::CsString* get_Name();
     // public System.Void set_Name(System.String value)
     // Offset: 0xA5CCEC
-    void set_Name(::Il2CppString* value);
+    void set_Name(::CsString* value);
     // public System.Int32 get_Score()
     // Offset: 0xA5CCF4
     int get_Score();

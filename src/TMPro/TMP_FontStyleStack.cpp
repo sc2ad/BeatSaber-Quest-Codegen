@@ -2,7 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 // Including type: TMPro.TMP_FontStyleStack
 #include "TMPro/TMP_FontStyleStack.hpp"
 // Including type: TMPro.FontStyles

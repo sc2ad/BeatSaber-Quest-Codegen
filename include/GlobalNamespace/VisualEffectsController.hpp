@@ -31,9 +31,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kDepthTextureEnabledKeyword
     static constexpr const char* kDepthTextureEnabledKeyword = "DEPTH_TEXTURE_ENABLED";
     // Get static field: static private System.String kDepthTextureEnabledKeyword
-    static ::Il2CppString* _get_kDepthTextureEnabledKeyword();
+    static ::CsString* _get_kDepthTextureEnabledKeyword();
     // Set static field: static private System.String kDepthTextureEnabledKeyword
-    static void _set_kDepthTextureEnabledKeyword(::Il2CppString* value);
+    static void _set_kDepthTextureEnabledKeyword(::CsString* value);
     // protected System.Void Awake()
     // Offset: 0x18FBF40
     void Awake();
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     void OnPreRender();
     // private System.Void SetShaderKeyword(System.String keyword, System.Boolean value)
     // Offset: 0x18FC044
-    void SetShaderKeyword(::Il2CppString* keyword, bool value);
+    void SetShaderKeyword(::CsString* keyword, bool value);
     // public System.Void .ctor()
     // Offset: 0x18FC058
     // Implemented from: UnityEngine.MonoBehaviour

@@ -18,19 +18,19 @@ namespace Mono::Xml {
     int get_Length();
     // public System.String GetName(System.Int32 i)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetName(int i);
+    ::CsString* GetName(int i);
     // public System.String GetValue(System.Int32 i)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetValue(int i);
+    ::CsString* GetValue(int i);
     // public System.String GetValue(System.String name)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetValue(::Il2CppString* name);
+    ::CsString* GetValue(::CsString* name);
     // public System.String[] get_Names()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppString*>* get_Names();
+    ::Array<::CsString*>* get_Names();
     // public System.String[] get_Values()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppString*>* get_Values();
+    ::Array<::CsString*>* get_Values();
   }; // Mono.Xml.SmallXmlParser/IAttrList
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

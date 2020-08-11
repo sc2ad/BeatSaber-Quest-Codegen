@@ -2,7 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 // Including type: UnityEngine.Timeline.InfiniteRuntimeClip
 #include "UnityEngine/Timeline/InfiniteRuntimeClip.hpp"
 // Including type: UnityEngine.Playables.FrameData

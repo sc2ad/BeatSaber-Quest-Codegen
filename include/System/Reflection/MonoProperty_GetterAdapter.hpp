@@ -27,16 +27,16 @@ namespace System::Reflection {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x113EF18
-    static MonoProperty::GetterAdapter* New_ctor(::Il2CppObject* object, System::IntPtr method);
+    static MonoProperty::GetterAdapter* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Object Invoke(System.Object _this)
     // Offset: 0x113EF2C
-    ::Il2CppObject* Invoke(::Il2CppObject* _this);
+    ::CsObject* Invoke(::CsObject* _this);
     // public System.IAsyncResult BeginInvoke(System.Object _this, System.AsyncCallback callback, System.Object object)
     // Offset: 0x113F2EC
-    System::IAsyncResult* BeginInvoke(::Il2CppObject* _this, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::CsObject* _this, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
     // Offset: 0x113F310
-    ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
+    ::CsObject* EndInvoke(System::IAsyncResult* result);
   }; // System.Reflection.MonoProperty/GetterAdapter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

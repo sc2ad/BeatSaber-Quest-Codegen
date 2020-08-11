@@ -40,13 +40,13 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x12F6570
-    static Lightmapping::RequestLightsDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
+    static Lightmapping::RequestLightsDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
     // Offset: 0x12F6064
     void Invoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput, System.AsyncCallback callback, System.Object object)
     // Offset: 0x12F6928
-    System::IAsyncResult* BeginInvoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x12F69C4
     void EndInvoke(System::IAsyncResult* result);

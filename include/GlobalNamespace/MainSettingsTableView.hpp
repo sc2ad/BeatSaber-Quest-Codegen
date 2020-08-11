@@ -53,9 +53,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier
-    static ::Il2CppString* _get_kCellIdentifier();
+    static ::CsString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::Il2CppString* value);
+    static void _set_kCellIdentifier(::CsString* value);
     // private SettingsSubMenuInfo[] _settingsSubMenuInfos
     // Offset: 0x38
     ::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos;

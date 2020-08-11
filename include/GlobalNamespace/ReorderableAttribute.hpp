@@ -8,7 +8,7 @@
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     public:
     // private System.String <ElementHeader>k__BackingField
     // Offset: 0x10
-    ::Il2CppString* ElementHeader;
+    ::CsString* ElementHeader;
     // private System.Boolean <HeaderZeroIndex>k__BackingField
     // Offset: 0x18
     bool HeaderZeroIndex;
@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     bool ElementSingleLine;
     // public System.String get_ElementHeader()
     // Offset: 0xCA59E0
-    ::Il2CppString* get_ElementHeader();
+    ::CsString* get_ElementHeader();
     // protected System.Void set_ElementHeader(System.String value)
     // Offset: 0xCA59E8
-    void set_ElementHeader(::Il2CppString* value);
+    void set_ElementHeader(::CsString* value);
     // public System.Boolean get_HeaderZeroIndex()
     // Offset: 0xCA59F0
     bool get_HeaderZeroIndex();
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     void set_ElementSingleLine(bool value);
     // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
     // Offset: 0xCA5A88
-    static ReorderableAttribute* New_ctor(::Il2CppString* headerString, bool isZeroIndex, bool isSingleLine);
+    static ReorderableAttribute* New_ctor(::CsString* headerString, bool isZeroIndex, bool isSingleLine);
     // public System.Void .ctor()
     // Offset: 0xCA5A18
     // Implemented from: UnityEngine.PropertyAttribute

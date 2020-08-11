@@ -28,7 +28,7 @@ namespace Zenject {
     public:
     // public Zenject.FactoryArgumentsToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithId(System.Object identifier)
     // Offset: 0xFFFFFFFF
-    Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithId(::Il2CppObject* identifier) {
+    Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithId(::CsObject* identifier) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*>(this, "WithId", identifier)));
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)

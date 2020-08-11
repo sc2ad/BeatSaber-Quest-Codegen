@@ -308,15 +308,15 @@ namespace System {
     // static field const value: static private System.String TicksField
     static constexpr const char* TicksField = "ticks";
     // Get static field: static private System.String TicksField
-    static ::Il2CppString* _get_TicksField();
+    static ::CsString* _get_TicksField();
     // Set static field: static private System.String TicksField
-    static void _set_TicksField(::Il2CppString* value);
+    static void _set_TicksField(::CsString* value);
     // static field const value: static private System.String DateDataField
     static constexpr const char* DateDataField = "dateData";
     // Get static field: static private System.String DateDataField
-    static ::Il2CppString* _get_DateDataField();
+    static ::CsString* _get_DateDataField();
     // Set static field: static private System.String DateDataField
-    static void _set_DateDataField(::Il2CppString* value);
+    static void _set_DateDataField(::CsString* value);
     // private System.UInt64 dateData
     // Offset: 0x0
     uint64_t dateData;
@@ -456,7 +456,7 @@ namespace System {
     static bool IsLeapYear(int year);
     // static public System.DateTime Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0x10B7144
-    static System::DateTime Parse(::Il2CppString* s, System::IFormatProvider* provider);
+    static System::DateTime Parse(::CsString* s, System::IFormatProvider* provider);
     // public System.TimeSpan Subtract(System.DateTime value)
     // Offset: 0xA3D3EC
     System::TimeSpan Subtract(System::DateTime value);
@@ -471,7 +471,7 @@ namespace System {
     System::DateTime ToLocalTime(bool throwOnOverflow);
     // public System.String ToString(System.String format)
     // Offset: 0xA3D428
-    ::Il2CppString* ToString(::Il2CppString* format);
+    ::CsString* ToString(::CsString* format);
     // public System.DateTime ToUniversalTime()
     // Offset: 0xA3D440
     System::DateTime ToUniversalTime();
@@ -485,10 +485,10 @@ namespace System {
     // Offset: 0xA3D1C0
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
-    int CompareTo(::Il2CppObject* value);
+    int CompareTo(::CsObject* value);
     // Creating proxy method: System_IComparable_CompareTo
     // Maps to method: CompareTo
-    int System_IComparable_CompareTo(::Il2CppObject* value);
+    int System_IComparable_CompareTo(::CsObject* value);
     // public System.Int32 CompareTo(System.DateTime value)
     // Offset: 0xA3D1C8
     // Implemented from: System.IComparable`1
@@ -498,7 +498,7 @@ namespace System {
     // Offset: 0xA3D1E4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
-    bool Equals(::Il2CppObject* value);
+    bool Equals(::CsObject* value);
     // public System.Boolean Equals(System.DateTime value)
     // Offset: 0xA3D1EC
     // Implemented from: System.IEquatable`1
@@ -518,17 +518,17 @@ namespace System {
     // Offset: 0xA3D420
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0xA3D430
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::CsString* ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0xA3D438
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
-    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
+    ::CsString* ToString(::CsString* format, System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
     // Offset: 0xA3D450
     // Implemented from: System.IConvertible
@@ -608,7 +608,7 @@ namespace System {
     // Offset: 0xA3D4FC
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
-    ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
+    ::CsObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.DateTime
   // static public System.DateTime op_Addition(System.DateTime d, System.TimeSpan t)
   // Offset: 0x10BC8B0

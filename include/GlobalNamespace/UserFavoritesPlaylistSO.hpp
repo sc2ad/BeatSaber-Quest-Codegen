@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     public:
     // private System.String _playListLocalizedName
     // Offset: 0x18
-    ::Il2CppString* playListLocalizedName;
+    ::CsString* playListLocalizedName;
     // private UnityEngine.Sprite _coverImage
     // Offset: 0x20
     UnityEngine::Sprite* coverImage;
@@ -46,12 +46,12 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
     // public System.Void SetupFromLevelPackCollection(System.Collections.Generic.HashSet`1<System.String> userFavoritesBeatmapLevelIds, IBeatmapLevelPackCollection beatmapLevelPackCollection)
     // Offset: 0xC38C84
-    void SetupFromLevelPackCollection(System::Collections::Generic::HashSet_1<::Il2CppString*>* userFavoritesBeatmapLevelIds, GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection);
+    void SetupFromLevelPackCollection(System::Collections::Generic::HashSet_1<::CsString*>* userFavoritesBeatmapLevelIds, GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection);
     // public System.String get_collectionName()
     // Offset: 0xC38C68
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
-    ::Il2CppString* get_collectionName();
+    ::CsString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0xC38C74
     // Implemented from: IAnnotatedBeatmapLevelCollection

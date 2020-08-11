@@ -63,10 +63,10 @@ namespace UnityEngine {
     void GetComponentFastPath(System::Type* type, System::IntPtr oneFurtherThanResultValue);
     // UnityEngine.Component GetComponentByName(System.String type)
     // Offset: 0x12F7658
-    UnityEngine::Component* GetComponentByName(::Il2CppString* type);
+    UnityEngine::Component* GetComponentByName(::CsString* type);
     // public UnityEngine.Component GetComponent(System.String type)
     // Offset: 0x12F76A8
-    UnityEngine::Component* GetComponent(::Il2CppString* type);
+    UnityEngine::Component* GetComponent(::CsString* type);
     // public UnityEngine.Component GetComponentInChildren(System.Type type, System.Boolean includeInactive)
     // Offset: 0x12EF3E4
     UnityEngine::Component* GetComponentInChildren(System::Type* type, bool includeInactive);
@@ -90,7 +90,7 @@ namespace UnityEngine {
     UnityEngine::Component* GetComponentInParent(System::Type* type);
     // private System.Array GetComponentsInternal(System.Type type, System.Boolean useSearchTypeAsArrayReturnType, System.Boolean recursive, System.Boolean includeInactive, System.Boolean reverse, System.Object resultList)
     // Offset: 0x12F774C
-    System::Array* GetComponentsInternal(System::Type* type, bool useSearchTypeAsArrayReturnType, bool recursive, bool includeInactive, bool reverse, ::Il2CppObject* resultList);
+    System::Array* GetComponentsInternal(System::Type* type, bool useSearchTypeAsArrayReturnType, bool recursive, bool includeInactive, bool reverse, ::CsObject* resultList);
     // public UnityEngine.Component[] GetComponents(System.Type type)
     // Offset: 0x12EF7AC
     ::Array<UnityEngine::Component*>* GetComponents(System::Type* type);
@@ -175,34 +175,34 @@ namespace UnityEngine {
     bool get_activeInHierarchy();
     // public System.String get_tag()
     // Offset: 0x12EF988
-    ::Il2CppString* get_tag();
+    ::CsString* get_tag();
     // public System.Void set_tag(System.String value)
     // Offset: 0x12EFA4C
-    void set_tag(::Il2CppString* value);
+    void set_tag(::CsString* value);
     // public System.Boolean CompareTag(System.String tag)
     // Offset: 0x12EFB20
-    bool CompareTag(::Il2CppString* tag);
+    bool CompareTag(::CsString* tag);
     // static public UnityEngine.GameObject[] FindGameObjectsWithTag(System.String tag)
     // Offset: 0x12F7A14
-    static ::Array<UnityEngine::GameObject*>* FindGameObjectsWithTag(::Il2CppString* tag);
+    static ::Array<UnityEngine::GameObject*>* FindGameObjectsWithTag(::CsString* tag);
     // public System.Void SendMessage(System.String methodName, System.Object value, UnityEngine.SendMessageOptions options)
     // Offset: 0x12F7A54
-    void SendMessage(::Il2CppString* methodName, ::Il2CppObject* value, UnityEngine::SendMessageOptions options);
+    void SendMessage(::CsString* methodName, ::CsObject* value, UnityEngine::SendMessageOptions options);
     // public System.Void BroadcastMessage(System.String methodName, System.Object parameter, UnityEngine.SendMessageOptions options)
     // Offset: 0x12F7ABC
-    void BroadcastMessage(::Il2CppString* methodName, ::Il2CppObject* parameter, UnityEngine::SendMessageOptions options);
+    void BroadcastMessage(::CsString* methodName, ::CsObject* parameter, UnityEngine::SendMessageOptions options);
     // public System.Void .ctor(System.String name)
     // Offset: 0x12F7B24
-    static GameObject* New_ctor(::Il2CppString* name);
+    static GameObject* New_ctor(::CsString* name);
     // public System.Void .ctor(System.String name, System.Type[] components)
     // Offset: 0x12F7CA8
-    static GameObject* New_ctor(::Il2CppString* name, ::Array<System::Type*>* components);
+    static GameObject* New_ctor(::CsString* name, ::Array<System::Type*>* components);
     // static private System.Void Internal_CreateGameObject(UnityEngine.GameObject self, System.String name)
     // Offset: 0x12F7BC4
-    static void Internal_CreateGameObject(UnityEngine::GameObject* self, ::Il2CppString* name);
+    static void Internal_CreateGameObject(UnityEngine::GameObject* self, ::CsString* name);
     // static public UnityEngine.GameObject Find(System.String name)
     // Offset: 0x12F7DD8
-    static UnityEngine::GameObject* Find(::Il2CppString* name);
+    static UnityEngine::GameObject* Find(::CsString* name);
     // public UnityEngine.SceneManagement.Scene get_scene()
     // Offset: 0x12F7E18
     UnityEngine::SceneManagement::Scene get_scene();

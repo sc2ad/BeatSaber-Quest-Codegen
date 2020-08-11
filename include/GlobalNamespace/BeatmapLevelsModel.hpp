@@ -128,7 +128,7 @@ namespace GlobalNamespace {
       }; // BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState
       // public readonly System.String levelID
       // Offset: 0x0
-      ::Il2CppString* levelID;
+      ::CsString* levelID;
       // public readonly System.UInt32 bytesTotal
       // Offset: 0x8
       uint bytesTotal;
@@ -139,10 +139,10 @@ namespace GlobalNamespace {
       // Offset: 0x10
       GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState;
       // Creating value type constructor for type: LevelDownloadingUpdate
-      LevelDownloadingUpdate(::Il2CppString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState_ = {}) : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, downloadingState{downloadingState_} {}
+      LevelDownloadingUpdate(::CsString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState_ = {}) : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, downloadingState{downloadingState_} {}
       // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState downloadingState)
       // Offset: 0xA26B28
-      static BeatmapLevelsModel::LevelDownloadingUpdate* New_ctor(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState);
+      static BeatmapLevelsModel::LevelDownloadingUpdate* New_ctor(::CsString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState);
     }; // BeatmapLevelsModel/LevelDownloadingUpdate
     // private BeatmapLevelPackCollectionContainerSO _dlcLevelPackCollectionContainer
     // Offset: 0x18
@@ -173,10 +173,10 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelPackCollection* customLevelPackCollection;
     // private HMCache`2<System.String,IBeatmapLevel> _loadedBeatmapLevels
     // Offset: 0x60
-    GlobalNamespace::HMCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>* loadedBeatmapLevels;
+    GlobalNamespace::HMCache_2<::CsString*, GlobalNamespace::IBeatmapLevel*>* loadedBeatmapLevels;
     // private System.Collections.Generic.Dictionary`2<System.String,IPreviewBeatmapLevel> _loadedPreviewBeatmapLevels
     // Offset: 0x68
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IPreviewBeatmapLevel*>* loadedPreviewBeatmapLevels;
+    System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::IPreviewBeatmapLevel*>* loadedPreviewBeatmapLevels;
     // private BeatmapLevelLoader _beatmapLevelLoader
     // Offset: 0x70
     GlobalNamespace::BeatmapLevelLoader* beatmapLevelLoader;
@@ -215,19 +215,19 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelPackCollection*>* GetCustomLevelPackCollectionAsync(System::Threading::CancellationToken cancellationToken);
     // public IBeatmapLevelPack GetLevelPackForLevelId(System.String levelId)
     // Offset: 0xB550FC
-    GlobalNamespace::IBeatmapLevelPack* GetLevelPackForLevelId(::Il2CppString* levelId);
+    GlobalNamespace::IBeatmapLevelPack* GetLevelPackForLevelId(::CsString* levelId);
     // public IBeatmapLevelPack GetLevelPack(System.String levePacklId)
     // Offset: 0xB553B4
-    GlobalNamespace::IBeatmapLevelPack* GetLevelPack(::Il2CppString* levePacklId);
+    GlobalNamespace::IBeatmapLevelPack* GetLevelPack(::CsString* levePacklId);
     // public System.Boolean IsBeatmapLevelLoaded(System.String levelId)
     // Offset: 0xB55544
-    bool IsBeatmapLevelLoaded(::Il2CppString* levelId);
+    bool IsBeatmapLevelLoaded(::CsString* levelId);
     // public IBeatmapLevel GetBeatmapLevelIfLoaded(System.String levelId)
     // Offset: 0xB55610
-    GlobalNamespace::IBeatmapLevel* GetBeatmapLevelIfLoaded(::Il2CppString* levelId);
+    GlobalNamespace::IBeatmapLevel* GetBeatmapLevelIfLoaded(::CsString* levelId);
     // public System.Threading.Tasks.Task`1<BeatmapLevelsModel/GetBeatmapLevelResult> GetBeatmapLevelAsync(System.String levelID, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xB55704
-    System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>* GetBeatmapLevelAsync(::Il2CppString* levelID, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>* GetBeatmapLevelAsync(::CsString* levelID, System::Threading::CancellationToken cancellationToken);
     // private System.Void HandleLevelDataAssetDownloadUpdate(LevelDataAssetDownloadUpdate update)
     // Offset: 0xB55850
     void HandleLevelDataAssetDownloadUpdate(GlobalNamespace::LevelDataAssetDownloadUpdate update);

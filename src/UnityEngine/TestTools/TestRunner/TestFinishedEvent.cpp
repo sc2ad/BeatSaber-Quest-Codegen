@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestTools.TestRunner.TestFinishedEvent
 #include "UnityEngine/TestTools/TestRunner/TestFinishedEvent.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestResult

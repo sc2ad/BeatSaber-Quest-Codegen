@@ -36,7 +36,7 @@ namespace System::IO {
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static DirectoryNotFoundException* New_ctor(::Il2CppString* message);
+    static DirectoryNotFoundException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x111CA44
     // Implemented from: System.IO.IOException

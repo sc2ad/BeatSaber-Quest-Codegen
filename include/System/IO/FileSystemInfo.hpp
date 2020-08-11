@@ -43,22 +43,22 @@ namespace System::IO {
     int dataInitialised;
     // protected System.String FullPath
     // Offset: 0x48
-    ::Il2CppString* FullPath;
+    ::CsString* FullPath;
     // protected System.String OriginalPath
     // Offset: 0x50
-    ::Il2CppString* OriginalPath;
+    ::CsString* OriginalPath;
     // private System.String _displayPath
     // Offset: 0x58
-    ::Il2CppString* displayPath;
+    ::CsString* displayPath;
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x111C600
     static FileSystemInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.String get_FullName()
     // Offset: 0x11240E8
-    ::Il2CppString* get_FullName();
+    ::CsString* get_FullName();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name();
+    ::CsString* get_Name();
     // public System.Boolean get_Exists()
     // Offset: 0xFFFFFFFF
     bool get_Exists();
@@ -82,10 +82,10 @@ namespace System::IO {
     System::IO::FileAttributes get_Attributes();
     // System.String get_DisplayPath()
     // Offset: 0x11243D8
-    ::Il2CppString* get_DisplayPath();
+    ::CsString* get_DisplayPath();
     // System.Void set_DisplayPath(System.String value)
     // Offset: 0x11243E0
-    void set_DisplayPath(::Il2CppString* value);
+    void set_DisplayPath(::CsString* value);
     // protected System.Void .ctor()
     // Offset: 0x111C170
     // Implemented from: System.MarshalByRefObject

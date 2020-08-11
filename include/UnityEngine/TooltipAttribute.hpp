@@ -8,7 +8,7 @@
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -17,10 +17,10 @@ namespace UnityEngine {
     public:
     // public readonly System.String tooltip
     // Offset: 0x10
-    ::Il2CppString* tooltip;
+    ::CsString* tooltip;
     // public System.Void .ctor(System.String tooltip)
     // Offset: 0x137C4D4
-    static TooltipAttribute* New_ctor(::Il2CppString* tooltip);
+    static TooltipAttribute* New_ctor(::CsString* tooltip);
   }; // UnityEngine.TooltipAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

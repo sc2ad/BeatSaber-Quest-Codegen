@@ -82,7 +82,7 @@ namespace System::Net {
     // Offset: 0xF576E4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public override System.Net.SocketAddress Serialize()
     // Offset: 0xF577A0
     // Implemented from: System.Net.EndPoint
@@ -97,7 +97,7 @@ namespace System::Net {
     // Offset: 0xF57C90
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
-    bool Equals(::Il2CppObject* comparand);
+    bool Equals(::CsObject* comparand);
     // public override System.Int32 GetHashCode()
     // Offset: 0xF57D80
     // Implemented from: System.Object

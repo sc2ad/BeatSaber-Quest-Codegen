@@ -15,7 +15,7 @@ namespace UnityEngine {
     public:
     // public System.String get_text()
     // Offset: 0x137996C
-    ::Il2CppString* get_text();
+    ::CsString* get_text();
     // public System.Byte[] get_bytes()
     // Offset: 0x13799AC
     ::Array<uint8_t>* get_bytes();
@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Offset: 0x13799EC
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // UnityEngine.TextAsset
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

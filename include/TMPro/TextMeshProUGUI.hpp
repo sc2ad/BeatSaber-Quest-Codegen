@@ -401,7 +401,7 @@ namespace TMPro {
     // Offset: 0x130D6E0
     // Implemented from: TMPro.TMP_Text
     // Base method: TMPro.TMP_TextInfo TMP_Text::GetTextInfo(System.String text)
-    TMPro::TMP_TextInfo* GetTextInfo(::Il2CppString* text);
+    TMPro::TMP_TextInfo* GetTextInfo(::CsString* text);
     // public override System.Void ClearMesh()
     // Offset: 0x130D7E8
     // Implemented from: TMPro.TMP_Text

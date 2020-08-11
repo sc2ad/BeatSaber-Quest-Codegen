@@ -126,7 +126,7 @@ namespace System::Net::Sockets {
     // Offset: 0xF59C80
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
-    System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* state);
+    System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::CsObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
     // Offset: 0xF5A150
     // Implemented from: System.IO.Stream
@@ -136,7 +136,7 @@ namespace System::Net::Sockets {
     // Offset: 0xF5A4F8
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
-    System::IAsyncResult* BeginWrite(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* state);
+    System::IAsyncResult* BeginWrite(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::CsObject* state);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
     // Offset: 0xF5A9C8
     // Implemented from: System.IO.Stream

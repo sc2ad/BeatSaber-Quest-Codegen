@@ -77,12 +77,12 @@ namespace System::IO {
     // Offset: 0xFF9008
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
-    void Write(::Il2CppString* value);
+    void Write(::CsString* value);
     // public override System.Void Write(System.String format, System.Object arg0)
     // Offset: 0xFF902C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String format, System.Object arg0)
-    void Write(::Il2CppString* format, ::Il2CppObject* arg0);
+    void Write(::CsString* format, ::CsObject* arg0);
     // public override System.Void WriteLine()
     // Offset: 0xFF9050
     // Implemented from: System.IO.TextWriter
@@ -102,22 +102,22 @@ namespace System::IO {
     // Offset: 0xFF90BC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String value)
-    void WriteLine(::Il2CppString* value);
+    void WriteLine(::CsString* value);
     // public override System.Void WriteLine(System.String format, System.Object arg0)
     // Offset: 0xFF90E0
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String format, System.Object arg0)
-    void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0);
+    void WriteLine(::CsString* format, ::CsObject* arg0);
     // public override System.Void WriteLine(System.String format, System.Object arg0, System.Object arg1)
     // Offset: 0xFF9104
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String format, System.Object arg0, System.Object arg1)
-    void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
+    void WriteLine(::CsString* format, ::CsObject* arg0, ::CsObject* arg1);
     // public override System.Void WriteLine(System.String format, System.Object[] arg)
     // Offset: 0xFF9128
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String format, System.Object[] arg)
-    void WriteLine(::Il2CppString* format, ::Array<::Il2CppObject*>* arg);
+    void WriteLine(::CsString* format, ::Array<::CsObject*>* arg);
   }; // System.IO.TextWriter/SyncTextWriter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

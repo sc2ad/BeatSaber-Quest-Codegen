@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     void set_enableInc(bool value);
     // protected System.Void set_text(System.String value)
     // Offset: 0xB44788
-    void set_text(::Il2CppString* value);
+    void set_text(::CsString* value);
     // protected System.Void OnEnable()
     // Offset: 0xB447A4
     void OnEnable();

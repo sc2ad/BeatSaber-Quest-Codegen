@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.XR.XRInputSubsystemDescriptor
 #include "UnityEngine/XR/XRInputSubsystemDescriptor.hpp"
 // Including type: UnityEngine.XR.XRInputSubsystem

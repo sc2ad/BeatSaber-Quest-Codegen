@@ -122,7 +122,7 @@ namespace VRUIControls {
     void DestroyLaserAndHit();
     // public System.String get_state()
     // Offset: 0x19220C8
-    ::Il2CppString* get_state();
+    ::CsString* get_state();
     // public System.Void Process(UnityEngine.EventSystems.PointerEventData pointerEventData)
     // Offset: 0x19210A4
     void Process(UnityEngine::EventSystems::PointerEventData* pointerEventData);

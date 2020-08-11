@@ -53,9 +53,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier
-    static ::Il2CppString* _get_kCellIdentifier();
+    static ::CsString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::Il2CppString* value);
+    static void _set_kCellIdentifier(::CsString* value);
     // private FileBrowserItem[] _items
     // Offset: 0x38
     ::Array<GlobalNamespace::FileBrowserItem*>* items;
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     void SetItems(::Array<GlobalNamespace::FileBrowserItem*>* items);
     // public System.Boolean SelectAndScrollRowToItemWithPath(System.String folderPath)
     // Offset: 0xBD821C
-    bool SelectAndScrollRowToItemWithPath(::Il2CppString* folderPath);
+    bool SelectAndScrollRowToItemWithPath(::CsString* folderPath);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
     // Offset: 0xBD84A4
     void HandleDidSelectRowEvent(HMUI::TableView* tableView, int row);

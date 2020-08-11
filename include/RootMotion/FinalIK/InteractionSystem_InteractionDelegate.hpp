@@ -34,13 +34,13 @@ namespace RootMotion::FinalIK {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x14391CC
-    static InteractionSystem::InteractionDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
+    static InteractionSystem::InteractionDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject)
     // Offset: 0x1432B90
     void Invoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject);
     // public System.IAsyncResult BeginInvoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, System.AsyncCallback callback, System.Object object)
     // Offset: 0x143A810
-    System::IAsyncResult* BeginInvoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x143A8A8
     void EndInvoke(System::IAsyncResult* result);

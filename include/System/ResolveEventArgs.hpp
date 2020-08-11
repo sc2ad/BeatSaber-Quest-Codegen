@@ -15,7 +15,7 @@ namespace System::Reflection {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -24,16 +24,16 @@ namespace System {
     public:
     // private System.String m_Name
     // Offset: 0x10
-    ::Il2CppString* m_Name;
+    ::CsString* m_Name;
     // private System.Reflection.Assembly m_Requesting
     // Offset: 0x18
     System::Reflection::Assembly* m_Requesting;
     // public System.Void .ctor(System.String name)
     // Offset: 0x1142530
-    static ResolveEventArgs* New_ctor(::Il2CppString* name);
+    static ResolveEventArgs* New_ctor(::CsString* name);
     // public System.Void .ctor(System.String name, System.Reflection.Assembly requestingAssembly)
     // Offset: 0x11425B4
-    static ResolveEventArgs* New_ctor(::Il2CppString* name, System::Reflection::Assembly* requestingAssembly);
+    static ResolveEventArgs* New_ctor(::CsString* name, System::Reflection::Assembly* requestingAssembly);
   }; // System.ResolveEventArgs
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

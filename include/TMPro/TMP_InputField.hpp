@@ -378,7 +378,7 @@ namespace TMPro {
     TMPro::TMP_InputField::CharacterValidation m_CharacterValidation;
     // private System.String m_RegexValue
     // Offset: 0x150
-    ::Il2CppString* m_RegexValue;
+    ::CsString* m_RegexValue;
     // private System.Single m_GlobalPointSize
     // Offset: 0x158
     float m_GlobalPointSize;
@@ -423,7 +423,7 @@ namespace TMPro {
     UnityEngine::Color m_SelectionColor;
     // protected System.String m_Text
     // Offset: 0x1D0
-    ::Il2CppString* m_Text;
+    ::CsString* m_Text;
     // private System.Single m_CaretBlinkRate
     // Offset: 0x1D8
     float m_CaretBlinkRate;
@@ -501,7 +501,7 @@ namespace TMPro {
     UnityEngine::Coroutine* m_DragCoroutine;
     // private System.String m_OriginalText
     // Offset: 0x240
-    ::Il2CppString* m_OriginalText;
+    ::CsString* m_OriginalText;
     // private System.Boolean m_WasCanceled
     // Offset: 0x248
     bool m_WasCanceled;
@@ -541,9 +541,9 @@ namespace TMPro {
     // static field const value: static private System.String kEmailSpecialCharacters
     static constexpr const char* kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
     // Get static field: static private System.String kEmailSpecialCharacters
-    static ::Il2CppString* _get_kEmailSpecialCharacters();
+    static ::CsString* _get_kEmailSpecialCharacters();
     // Set static field: static private System.String kEmailSpecialCharacters
-    static void _set_kEmailSpecialCharacters(::Il2CppString* value);
+    static void _set_kEmailSpecialCharacters(::CsString* value);
     // protected TMPro.TMP_FontAsset m_GlobalFontAsset
     // Offset: 0x270
     TMPro::TMP_FontAsset* m_GlobalFontAsset;
@@ -597,7 +597,7 @@ namespace TMPro {
     UnityEngine::EventSystems::BaseInput* get_inputSystem();
     // private System.String get_compositionString()
     // Offset: 0xB75B4C
-    ::Il2CppString* get_compositionString();
+    ::CsString* get_compositionString();
     // protected UnityEngine.Mesh get_mesh()
     // Offset: 0xB75FA0
     UnityEngine::Mesh* get_mesh();
@@ -618,16 +618,16 @@ namespace TMPro {
     bool isKeyboardUsingEvents();
     // public System.String get_text()
     // Offset: 0xB76304
-    ::Il2CppString* get_text();
+    ::CsString* get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0xB7630C
-    void set_text(::Il2CppString* value);
+    void set_text(::CsString* value);
     // public System.Void SetTextWithoutNotify(System.String input)
     // Offset: 0xB76450
-    void SetTextWithoutNotify(::Il2CppString* input);
+    void SetTextWithoutNotify(::CsString* input);
     // private System.Void SetText(System.String value, System.Boolean sendCallback)
     // Offset: 0xB76314
-    void SetText(::Il2CppString* value, bool sendCallback);
+    void SetText(::CsString* value, bool sendCallback);
     // public System.Boolean get_isFocused()
     // Offset: 0xB76944
     bool get_isFocused();
@@ -951,10 +951,10 @@ namespace TMPro {
     void MoveToStartOfLine(bool shift, bool ctrl);
     // static private System.String get_clipboard()
     // Offset: 0xB79A38
-    static ::Il2CppString* get_clipboard();
+    static ::CsString* get_clipboard();
     // static private System.Void set_clipboard(System.String value)
     // Offset: 0xB79A40
-    static void set_clipboard(::Il2CppString* value);
+    static void set_clipboard(::CsString* value);
     // private System.Boolean InPlaceEditing()
     // Offset: 0xB79A48
     bool InPlaceEditing();
@@ -981,7 +981,7 @@ namespace TMPro {
     void ProcessEvent(UnityEngine::Event* e);
     // private System.String GetSelectedString()
     // Offset: 0xB7C540
-    ::Il2CppString* GetSelectedString();
+    ::CsString* GetSelectedString();
     // private System.Int32 FindNextWordBegin()
     // Offset: 0xB7D5E0
     int FindNextWordBegin();
@@ -1041,7 +1041,7 @@ namespace TMPro {
     void Backspace();
     // protected System.Void Append(System.String input)
     // Offset: 0xB7EBB8
-    void Append(::Il2CppString* input);
+    void Append(::CsString* input);
     // protected System.Void Append(System.Char input)
     // Offset: 0xB7EC6C
     void Append(::Il2CppChar input);
@@ -1131,7 +1131,7 @@ namespace TMPro {
     void AdjustRectTransformRelativeToViewport(UnityEngine::Vector2 startPosition, float height, bool isCharVisible);
     // protected System.Char Validate(System.String text, System.Int32 pos, System.Char ch)
     // Offset: 0xB7A840
-    ::Il2CppChar Validate(::Il2CppString* text, int pos, ::Il2CppChar ch);
+    ::Il2CppChar Validate(::CsString* text, int pos, ::Il2CppChar ch);
     // public System.Void ActivateInputField()
     // Offset: 0xB80C80
     void ActivateInputField();

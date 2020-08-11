@@ -32,7 +32,7 @@ namespace NUnit::Framework {
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static AssertionException* New_ctor(::Il2CppString* message);
+    static AssertionException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x105DFB4
     // Implemented from: NUnit.Framework.ResultStateException

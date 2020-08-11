@@ -26,19 +26,19 @@ namespace System::Text::RegularExpressions {
     public:
     // private System.String regexInput
     // Offset: 0x88
-    ::Il2CppString* regexInput;
+    ::CsString* regexInput;
     // private System.String regexPattern
     // Offset: 0x90
-    ::Il2CppString* regexPattern;
+    ::CsString* regexPattern;
     // private System.TimeSpan matchTimeout
     // Offset: 0x98
     System::TimeSpan matchTimeout;
     // public System.Void .ctor(System.String regexInput, System.String regexPattern, System.TimeSpan matchTimeout)
     // Offset: 0x121572C
-    static RegexMatchTimeoutException* New_ctor(::Il2CppString* regexInput, ::Il2CppString* regexPattern, System::TimeSpan matchTimeout);
+    static RegexMatchTimeoutException* New_ctor(::CsString* regexInput, ::CsString* regexPattern, System::TimeSpan matchTimeout);
     // private System.Void Init(System.String input, System.String pattern, System.TimeSpan timeout)
     // Offset: 0x1215800
-    void Init(::Il2CppString* input, ::Il2CppString* pattern, System::TimeSpan timeout);
+    void Init(::CsString* input, ::CsString* pattern, System::TimeSpan timeout);
     // public System.Void .ctor()
     // Offset: 0x1215848
     // Implemented from: System.TimeoutException

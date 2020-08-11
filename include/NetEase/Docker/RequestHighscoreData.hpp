@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
@@ -17,21 +17,21 @@ namespace NetEase::Docker {
     public:
     // private System.String <Track>k__BackingField
     // Offset: 0x0
-    ::Il2CppString* Track;
+    ::CsString* Track;
     // private System.String <HighscoreType>k__BackingField
     // Offset: 0x8
-    ::Il2CppString* HighscoreType;
+    ::CsString* HighscoreType;
     // Creating value type constructor for type: RequestHighscoreData
-    RequestHighscoreData(::Il2CppString* Track_ = {}, ::Il2CppString* HighscoreType_ = {}) : Track{Track_}, HighscoreType{HighscoreType_} {}
+    RequestHighscoreData(::CsString* Track_ = {}, ::CsString* HighscoreType_ = {}) : Track{Track_}, HighscoreType{HighscoreType_} {}
     // public System.String get_Track()
     // Offset: 0xA5CC20
-    ::Il2CppString* get_Track();
+    ::CsString* get_Track();
     // public System.Void set_Track(System.String value)
     // Offset: 0xA5CC28
-    void set_Track(::Il2CppString* value);
+    void set_Track(::CsString* value);
     // public System.Void set_HighscoreType(System.String value)
     // Offset: 0xA5CC30
-    void set_HighscoreType(::Il2CppString* value);
+    void set_HighscoreType(::CsString* value);
   }; // NetEase.Docker.RequestHighscoreData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

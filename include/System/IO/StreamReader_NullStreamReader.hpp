@@ -45,12 +45,12 @@ namespace System::IO {
     // Offset: 0xFF51DC
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
-    ::Il2CppString* ReadLine();
+    ::CsString* ReadLine();
     // public override System.String ReadToEnd()
     // Offset: 0xFF51E4
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
-    ::Il2CppString* ReadToEnd();
+    ::CsString* ReadToEnd();
     // override System.Int32 ReadBuffer()
     // Offset: 0xFF5234
     // Implemented from: System.IO.StreamReader

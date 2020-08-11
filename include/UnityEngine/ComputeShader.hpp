@@ -15,7 +15,7 @@ namespace UnityEngine {
     public:
     // public System.Int32 FindKernel(System.String name)
     // Offset: 0x12EFB70
-    int FindKernel(::Il2CppString* name);
+    int FindKernel(::CsString* name);
   }; // UnityEngine.ComputeShader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

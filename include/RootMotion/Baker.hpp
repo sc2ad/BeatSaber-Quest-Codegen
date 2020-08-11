@@ -80,19 +80,19 @@ namespace RootMotion {
     ::Array<UnityEngine::AnimationClip*>* animationClips;
     // public System.String[] animationStates
     // Offset: 0x30
-    ::Array<::Il2CppString*>* animationStates;
+    ::Array<::CsString*>* animationStates;
     // public System.Boolean loop
     // Offset: 0x38
     bool loop;
     // public System.String saveToFolder
     // Offset: 0x40
-    ::Il2CppString* saveToFolder;
+    ::CsString* saveToFolder;
     // public System.String appendName
     // Offset: 0x48
-    ::Il2CppString* appendName;
+    ::CsString* appendName;
     // public System.String saveName
     // Offset: 0x50
-    ::Il2CppString* saveName;
+    ::CsString* saveName;
     // private System.Boolean <isBaking>k__BackingField
     // Offset: 0x58
     bool isBaking;

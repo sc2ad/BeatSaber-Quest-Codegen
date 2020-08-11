@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_ExternalCamera* externalCamera;
     // public System.String externalCameraConfigPath
     // Offset: 0x28
-    ::Il2CppString* externalCameraConfigPath;
+    ::CsString* externalCameraConfigPath;
     // public Valve.VR.ETrackingUniverseOrigin trackingSpace
     // Offset: 0x30
     Valve::VR::ETrackingUniverseOrigin trackingSpace;
@@ -149,7 +149,7 @@ namespace GlobalNamespace {
     void OnQuit(Valve::VR::VREvent_t vrEvent);
     // private System.String GetScreenshotFilename(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotPropertyFilenames screenshotPropertyFilename)
     // Offset: 0xD77380
-    ::Il2CppString* GetScreenshotFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
+    ::CsString* GetScreenshotFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
     // private System.Void OnRequestScreenshot(Valve.VR.VREvent_t vrEvent)
     // Offset: 0xD774CC
     void OnRequestScreenshot(Valve::VR::VREvent_t vrEvent);

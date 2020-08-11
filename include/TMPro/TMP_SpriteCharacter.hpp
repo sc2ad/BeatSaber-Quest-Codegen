@@ -22,16 +22,16 @@ namespace TMPro {
     public:
     // private System.String m_Name
     // Offset: 0x28
-    ::Il2CppString* m_Name;
+    ::CsString* m_Name;
     // private System.Int32 m_HashCode
     // Offset: 0x30
     int m_HashCode;
     // public System.String get_name()
     // Offset: 0xBA058C
-    ::Il2CppString* get_name();
+    ::CsString* get_name();
     // public System.Void set_name(System.String value)
     // Offset: 0xBA0390
-    void set_name(::Il2CppString* value);
+    void set_name(::CsString* value);
     // public System.Int32 get_hashCode()
     // Offset: 0xBA0594
     int get_hashCode();

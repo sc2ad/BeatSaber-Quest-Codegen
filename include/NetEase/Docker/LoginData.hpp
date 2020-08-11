@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
@@ -23,9 +23,9 @@ namespace NetEase::Docker {
     int LoginCode;
     // private System.String <UserName>k__BackingField
     // Offset: 0x8
-    ::Il2CppString* UserName;
+    ::CsString* UserName;
     // Creating value type constructor for type: LoginData
-    LoginData(bool LoginSuccessful_ = {}, int LoginCode_ = {}, ::Il2CppString* UserName_ = {}) : LoginSuccessful{LoginSuccessful_}, LoginCode{LoginCode_}, UserName{UserName_} {}
+    LoginData(bool LoginSuccessful_ = {}, int LoginCode_ = {}, ::CsString* UserName_ = {}) : LoginSuccessful{LoginSuccessful_}, LoginCode{LoginCode_}, UserName{UserName_} {}
     // public System.Boolean get_LoginSuccessful()
     // Offset: 0xA5CAB0
     bool get_LoginSuccessful();
@@ -37,10 +37,10 @@ namespace NetEase::Docker {
     void set_LoginCode(int value);
     // public System.String get_UserName()
     // Offset: 0xA5CACC
-    ::Il2CppString* get_UserName();
+    ::CsString* get_UserName();
     // public System.Void set_UserName(System.String value)
     // Offset: 0xA5CAD4
-    void set_UserName(::Il2CppString* value);
+    void set_UserName(::CsString* value);
   }; // NetEase.Docker.LoginData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

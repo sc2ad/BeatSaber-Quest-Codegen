@@ -17,22 +17,22 @@ namespace UnityEngine::Bindings {
     public:
     // private System.String <Name>k__BackingField
     // Offset: 0x10
-    ::Il2CppString* Name;
+    ::CsString* Name;
     // private UnityEngine.Bindings.StaticAccessorType <Type>k__BackingField
     // Offset: 0x18
     UnityEngine::Bindings::StaticAccessorType Type;
     // public System.Void set_Name(System.String value)
     // Offset: 0x1959424
-    void set_Name(::Il2CppString* value);
+    void set_Name(::CsString* value);
     // public System.Void set_Type(UnityEngine.Bindings.StaticAccessorType value)
     // Offset: 0x195942C
     void set_Type(UnityEngine::Bindings::StaticAccessorType value);
     // System.Void .ctor(System.String name)
     // Offset: 0x1959434
-    static StaticAccessorAttribute* New_ctor(::Il2CppString* name);
+    static StaticAccessorAttribute* New_ctor(::CsString* name);
     // public System.Void .ctor(System.String name, UnityEngine.Bindings.StaticAccessorType type)
     // Offset: 0x1959468
-    static StaticAccessorAttribute* New_ctor(::Il2CppString* name, UnityEngine::Bindings::StaticAccessorType type);
+    static StaticAccessorAttribute* New_ctor(::CsString* name, UnityEngine::Bindings::StaticAccessorType type);
   }; // UnityEngine.Bindings.StaticAccessorAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     GlobalNamespace::HealthWarningFlowCoordinator::InitData* initData;
     // private System.Collections.Generic.Dictionary`2<HMUI.ViewController,System.String> _viewControllerTitles
     // Offset: 0xF8
-    System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles;
+    System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::CsString*>* viewControllerTitles;
     // protected System.Void Update()
     // Offset: 0xB43590
     void Update();

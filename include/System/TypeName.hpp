@@ -8,7 +8,7 @@
 #include "System/IEquatable_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -17,7 +17,7 @@ namespace System {
     public:
     // public System.String get_DisplayName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_DisplayName();
+    ::CsString* get_DisplayName();
   }; // System.TypeName
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

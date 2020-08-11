@@ -67,9 +67,9 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Func_1<bool>* OnShortPress;
     // Get static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
-    static System::Collections::Generic::Stack_1<::Il2CppString*>* _get_sceneStack();
+    static System::Collections::Generic::Stack_1<::CsString*>* _get_sceneStack();
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
-    static void _set_sceneStack(System::Collections::Generic::Stack_1<::Il2CppString*>* value);
+    static void _set_sceneStack(System::Collections::Generic::Stack_1<::CsString*>* value);
     // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
     // Offset: 0xEE0B10
     GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();

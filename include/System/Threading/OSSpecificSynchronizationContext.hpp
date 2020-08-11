@@ -41,14 +41,14 @@ namespace System::Threading {
     class $$c;
     // private System.Object m_OSSynchronizationContext
     // Offset: 0x18
-    ::Il2CppObject* m_OSSynchronizationContext;
+    ::CsObject* m_OSSynchronizationContext;
     // Get static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache
-    static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Threading::OSSpecificSynchronizationContext*>* _get_s_ContextCache();
+    static System::Runtime::CompilerServices::ConditionalWeakTable_2<::CsObject*, System::Threading::OSSpecificSynchronizationContext*>* _get_s_ContextCache();
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache
-    static void _set_s_ContextCache(System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Threading::OSSpecificSynchronizationContext*>* value);
+    static void _set_s_ContextCache(System::Runtime::CompilerServices::ConditionalWeakTable_2<::CsObject*, System::Threading::OSSpecificSynchronizationContext*>* value);
     // private System.Void .ctor(System.Object osContext)
     // Offset: 0x13C6440
-    static OSSpecificSynchronizationContext* New_ctor(::Il2CppObject* osContext);
+    static OSSpecificSynchronizationContext* New_ctor(::CsObject* osContext);
     // static public System.Threading.OSSpecificSynchronizationContext Get()
     // Offset: 0x13C6474
     static System::Threading::OSSpecificSynchronizationContext* Get();
@@ -57,10 +57,10 @@ namespace System::Threading {
     static void InvocationEntry(System::IntPtr arg);
     // static private System.Object GetOSContext()
     // Offset: 0x13C65D0
-    static ::Il2CppObject* GetOSContext();
+    static ::CsObject* GetOSContext();
     // static private System.Void PostInternal(System.Object osSynchronizationContext, System.IntPtr callback, System.IntPtr arg)
     // Offset: 0x13C6848
-    static void PostInternal(::Il2CppObject* osSynchronizationContext, System::IntPtr callback, System::IntPtr arg);
+    static void PostInternal(::CsObject* osSynchronizationContext, System::IntPtr callback, System::IntPtr arg);
     // static private System.Void .cctor()
     // Offset: 0x13C6870
     static void _cctor();
@@ -73,12 +73,12 @@ namespace System::Threading {
     // Offset: 0x13C6648
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback d, System.Object state)
-    void Send(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
+    void Send(System::Threading::SendOrPostCallback* d, ::CsObject* state);
     // public override System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
     // Offset: 0x13C66A8
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback d, System.Object state)
-    void Post(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
+    void Post(System::Threading::SendOrPostCallback* d, ::CsObject* state);
   }; // System.Threading.OSSpecificSynchronizationContext
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

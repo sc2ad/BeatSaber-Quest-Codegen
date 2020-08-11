@@ -4,7 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.AwaitTaskContinuation
 #include "System/Threading/Tasks/AwaitTaskContinuation.hpp"
 // Completed includes

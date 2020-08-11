@@ -122,7 +122,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10790CC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object userData)
-    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* userData);
+    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::CsObject* userData);
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
     // Offset: 0x1079164
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

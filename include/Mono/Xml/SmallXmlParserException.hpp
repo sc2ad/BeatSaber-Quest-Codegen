@@ -21,7 +21,7 @@ namespace Mono::Xml {
     int column;
     // public System.Void .ctor(System.String msg, System.Int32 line, System.Int32 column)
     // Offset: 0x10A3F3C
-    static SmallXmlParserException* New_ctor(::Il2CppString* msg, int line, int column);
+    static SmallXmlParserException* New_ctor(::CsString* msg, int line, int column);
   }; // Mono.Xml.SmallXmlParserException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

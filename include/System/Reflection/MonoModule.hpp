@@ -48,7 +48,7 @@ namespace System::Reflection {
     // Offset: 0x113D6A4
     // Implemented from: System.Reflection.Module
     // Base method: System.String Module::get_ScopeName()
-    ::Il2CppString* get_ScopeName();
+    ::CsString* get_ScopeName();
     // public override System.Guid get_ModuleVersionId()
     // Offset: 0x113D6AC
     // Implemented from: System.Reflection.Module
@@ -63,7 +63,7 @@ namespace System::Reflection {
     // Offset: 0x113D6C0
     // Implemented from: System.Reflection.Module
     // Base method: System.Object[] Module::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::Array<::CsObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x113D740
     // Implemented from: System.Reflection.Module

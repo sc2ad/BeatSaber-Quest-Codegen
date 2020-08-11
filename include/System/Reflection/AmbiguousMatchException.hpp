@@ -34,7 +34,7 @@ namespace System::Reflection {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static AmbiguousMatchException* New_ctor(::Il2CppString* message);
+    static AmbiguousMatchException* New_ctor(::CsString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x134B078
     // Implemented from: System.SystemException

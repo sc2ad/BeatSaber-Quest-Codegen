@@ -51,19 +51,19 @@ namespace GlobalNamespace {
     struct $GetCoverImageTexture2DAsync$d__52;
     // private System.String _levelID
     // Offset: 0x18
-    ::Il2CppString* levelID;
+    ::CsString* levelID;
     // private System.String _songName
     // Offset: 0x20
-    ::Il2CppString* songName;
+    ::CsString* songName;
     // private System.String _songSubName
     // Offset: 0x28
-    ::Il2CppString* songSubName;
+    ::CsString* songSubName;
     // private System.String _songAuthorName
     // Offset: 0x30
-    ::Il2CppString* songAuthorName;
+    ::CsString* songAuthorName;
     // private System.String _levelAuthorName
     // Offset: 0x38
-    ::Il2CppString* levelAuthorName;
+    ::CsString* levelAuthorName;
     // private UnityEngine.AudioClip _previewAudioClip
     // Offset: 0x40
     UnityEngine::AudioClip* previewAudioClip;
@@ -113,27 +113,27 @@ namespace GlobalNamespace {
     // Offset: 0xC08690
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_levelID()
-    ::Il2CppString* get_levelID();
+    ::CsString* get_levelID();
     // public System.String get_songName()
     // Offset: 0xC08698
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_songName()
-    ::Il2CppString* get_songName();
+    ::CsString* get_songName();
     // public System.String get_songSubName()
     // Offset: 0xC086A0
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_songSubName()
-    ::Il2CppString* get_songSubName();
+    ::CsString* get_songSubName();
     // public System.String get_songAuthorName()
     // Offset: 0xC086A8
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_songAuthorName()
-    ::Il2CppString* get_songAuthorName();
+    ::CsString* get_songAuthorName();
     // public System.String get_levelAuthorName()
     // Offset: 0xC086B0
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_levelAuthorName()
-    ::Il2CppString* get_levelAuthorName();
+    ::CsString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
     // Offset: 0xC086B8
     // Implemented from: IPreviewBeatmapLevel

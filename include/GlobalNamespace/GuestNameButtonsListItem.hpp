@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     System::Action* buttonPressed;
     // public System.Void set_nameText(System.String value)
     // Offset: 0xB40C34
-    void set_nameText(::Il2CppString* value);
+    void set_nameText(::CsString* value);
     // public System.Void set_buttonPressed(System.Action value)
     // Offset: 0xB40C50
     void set_buttonPressed(System::Action* value);

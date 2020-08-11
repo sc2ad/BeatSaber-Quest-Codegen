@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
@@ -15,7 +15,7 @@ namespace System::Runtime::Remoting::Contexts {
     public:
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name();
+    ::CsString* get_Name();
   }; // System.Runtime.Remoting.Contexts.IDynamicProperty
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.PlatformOnlineServicesAvailabilityModel/<GetPlatformServicesAvailabilityInfo>d__4
 #include "OnlineServices/PlatformOnlineServicesAvailabilityModel_-GetPlatformServicesAvailabilityInfo-d__4.hpp"
 // Including type: OnlineServices.PlatformServicesAvailabilityInfo

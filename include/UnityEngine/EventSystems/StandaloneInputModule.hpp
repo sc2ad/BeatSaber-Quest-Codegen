@@ -49,16 +49,16 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
     // private System.String m_HorizontalAxis
     // Offset: 0x88
-    ::Il2CppString* m_HorizontalAxis;
+    ::CsString* m_HorizontalAxis;
     // private System.String m_VerticalAxis
     // Offset: 0x90
-    ::Il2CppString* m_VerticalAxis;
+    ::CsString* m_VerticalAxis;
     // private System.String m_SubmitButton
     // Offset: 0x98
-    ::Il2CppString* m_SubmitButton;
+    ::CsString* m_SubmitButton;
     // private System.String m_CancelButton
     // Offset: 0xA0
-    ::Il2CppString* m_CancelButton;
+    ::CsString* m_CancelButton;
     // private System.Single m_InputActionsPerSecond
     // Offset: 0xA8
     float m_InputActionsPerSecond;
@@ -97,28 +97,28 @@ namespace UnityEngine::EventSystems {
     void set_repeatDelay(float value);
     // public System.String get_horizontalAxis()
     // Offset: 0xDEAF90
-    ::Il2CppString* get_horizontalAxis();
+    ::CsString* get_horizontalAxis();
     // public System.Void set_horizontalAxis(System.String value)
     // Offset: 0xDEAF98
-    void set_horizontalAxis(::Il2CppString* value);
+    void set_horizontalAxis(::CsString* value);
     // public System.String get_verticalAxis()
     // Offset: 0xDEAFA0
-    ::Il2CppString* get_verticalAxis();
+    ::CsString* get_verticalAxis();
     // public System.Void set_verticalAxis(System.String value)
     // Offset: 0xDEAFA8
-    void set_verticalAxis(::Il2CppString* value);
+    void set_verticalAxis(::CsString* value);
     // public System.String get_submitButton()
     // Offset: 0xDEAFB0
-    ::Il2CppString* get_submitButton();
+    ::CsString* get_submitButton();
     // public System.Void set_submitButton(System.String value)
     // Offset: 0xDEAFB8
-    void set_submitButton(::Il2CppString* value);
+    void set_submitButton(::CsString* value);
     // public System.String get_cancelButton()
     // Offset: 0xDEAFC0
-    ::Il2CppString* get_cancelButton();
+    ::CsString* get_cancelButton();
     // public System.Void set_cancelButton(System.String value)
     // Offset: 0xDEAFC8
-    void set_cancelButton(::Il2CppString* value);
+    void set_cancelButton(::CsString* value);
     // private System.Boolean ShouldIgnoreEventsOnNoFocus()
     // Offset: 0xDEAFD0
     bool ShouldIgnoreEventsOnNoFocus();

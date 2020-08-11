@@ -69,15 +69,15 @@ namespace System {
     System::ParseFailureKind failure;
     // System.String failureMessageID
     // Offset: 0x48
-    ::Il2CppString* failureMessageID;
+    ::CsString* failureMessageID;
     // System.Object failureMessageFormatArgument
     // Offset: 0x50
-    ::Il2CppObject* failureMessageFormatArgument;
+    ::CsObject* failureMessageFormatArgument;
     // System.String failureArgumentName
     // Offset: 0x58
-    ::Il2CppString* failureArgumentName;
+    ::CsString* failureArgumentName;
     // Creating value type constructor for type: DateTimeResult
-    DateTimeResult(int Year_ = {}, int Month_ = {}, int Day_ = {}, int Hour_ = {}, int Minute_ = {}, int Second_ = {}, double fraction_ = {}, int era_ = {}, System::ParseFlags flags_ = {}, System::TimeSpan timeZoneOffset_ = {}, System::Globalization::Calendar* calendar_ = {}, System::DateTime parsedDate_ = {}, System::ParseFailureKind failure_ = {}, ::Il2CppString* failureMessageID_ = {}, ::Il2CppObject* failureMessageFormatArgument_ = {}, ::Il2CppString* failureArgumentName_ = {}) : Year{Year_}, Month{Month_}, Day{Day_}, Hour{Hour_}, Minute{Minute_}, Second{Second_}, fraction{fraction_}, era{era_}, flags{flags_}, timeZoneOffset{timeZoneOffset_}, calendar{calendar_}, parsedDate{parsedDate_}, failure{failure_}, failureMessageID{failureMessageID_}, failureMessageFormatArgument{failureMessageFormatArgument_}, failureArgumentName{failureArgumentName_} {}
+    DateTimeResult(int Year_ = {}, int Month_ = {}, int Day_ = {}, int Hour_ = {}, int Minute_ = {}, int Second_ = {}, double fraction_ = {}, int era_ = {}, System::ParseFlags flags_ = {}, System::TimeSpan timeZoneOffset_ = {}, System::Globalization::Calendar* calendar_ = {}, System::DateTime parsedDate_ = {}, System::ParseFailureKind failure_ = {}, ::CsString* failureMessageID_ = {}, ::CsObject* failureMessageFormatArgument_ = {}, ::CsString* failureArgumentName_ = {}) : Year{Year_}, Month{Month_}, Day{Day_}, Hour{Hour_}, Minute{Minute_}, Second{Second_}, fraction{fraction_}, era{era_}, flags{flags_}, timeZoneOffset{timeZoneOffset_}, calendar{calendar_}, parsedDate{parsedDate_}, failure{failure_}, failureMessageID{failureMessageID_}, failureMessageFormatArgument{failureMessageFormatArgument_}, failureArgumentName{failureArgumentName_} {}
     // System.Void Init()
     // Offset: 0xA282F0
     void Init();
@@ -86,10 +86,10 @@ namespace System {
     void SetDate(int year, int month, int day);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
     // Offset: 0xA2831C
-    void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
+    void SetFailure(System::ParseFailureKind failure, ::CsString* failureMessageID, ::CsObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
     // Offset: 0xA28358
-    void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName);
+    void SetFailure(System::ParseFailureKind failure, ::CsString* failureMessageID, ::CsObject* failureMessageFormatArgument, ::CsString* failureArgumentName);
   }; // System.DateTimeResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

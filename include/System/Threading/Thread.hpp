@@ -94,10 +94,10 @@ namespace System::Threading {
     System::Threading::InternalThread* internal_thread;
     // private System.Object m_ThreadStartArg
     // Offset: 0x18
-    ::Il2CppObject* m_ThreadStartArg;
+    ::CsObject* m_ThreadStartArg;
     // private System.Object pending_exception
     // Offset: 0x20
-    ::Il2CppObject* pending_exception;
+    ::CsObject* pending_exception;
     // private System.Security.Principal.IPrincipal principal
     // Offset: 0x28
     System::Security::Principal::IPrincipal* principal;
@@ -128,7 +128,7 @@ namespace System::Threading {
     void Start();
     // public System.Void Start(System.Object parameter)
     // Offset: 0xCD2974
-    void Start(::Il2CppObject* parameter);
+    void Start(::CsObject* parameter);
     // private System.Void Start(System.Threading.StackCrawlMark stackMark)
     // Offset: 0xCD2EE4
     void Start(System::Threading::StackCrawlMark& stackMark);
@@ -233,10 +233,10 @@ namespace System::Threading {
     void set_IsBackground(bool value);
     // static private System.Void SetName_internal(System.Threading.InternalThread thread, System.String name)
     // Offset: 0xCD3B10
-    static void SetName_internal(System::Threading::InternalThread* thread, ::Il2CppString* name);
+    static void SetName_internal(System::Threading::InternalThread* thread, ::CsString* name);
     // public System.Void set_Name(System.String value)
     // Offset: 0xCD3B14
-    void set_Name(::Il2CppString* value);
+    void set_Name(::CsString* value);
     // public System.Threading.ThreadState get_ThreadState()
     // Offset: 0xCCECBC
     System::Threading::ThreadState get_ThreadState();

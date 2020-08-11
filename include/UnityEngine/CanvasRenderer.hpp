@@ -128,13 +128,13 @@ namespace UnityEngine {
     static void AddUIVertexStream(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, System::Collections::Generic::List_1<UnityEngine::Vector3>* positions, System::Collections::Generic::List_1<UnityEngine::Color32>* colors, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv0S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv1S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv2S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv3S, System::Collections::Generic::List_1<UnityEngine::Vector3>* normals, System::Collections::Generic::List_1<UnityEngine::Vector4>* tangents);
     // static private System.Void SplitIndicesStreamsInternal(System.Object verts, System.Object indices)
     // Offset: 0x1954E2C
-    static void SplitIndicesStreamsInternal(::Il2CppObject* verts, ::Il2CppObject* indices);
+    static void SplitIndicesStreamsInternal(::CsObject* verts, ::CsObject* indices);
     // static private System.Void SplitUIVertexStreamsInternal(System.Object verts, System.Object positions, System.Object colors, System.Object uv0S, System.Object uv1S, System.Object uv2S, System.Object uv3S, System.Object normals, System.Object tangents)
     // Offset: 0x1954D8C
-    static void SplitUIVertexStreamsInternal(::Il2CppObject* verts, ::Il2CppObject* positions, ::Il2CppObject* colors, ::Il2CppObject* uv0S, ::Il2CppObject* uv1S, ::Il2CppObject* uv2S, ::Il2CppObject* uv3S, ::Il2CppObject* normals, ::Il2CppObject* tangents);
+    static void SplitUIVertexStreamsInternal(::CsObject* verts, ::CsObject* positions, ::CsObject* colors, ::CsObject* uv0S, ::CsObject* uv1S, ::CsObject* uv2S, ::CsObject* uv3S, ::CsObject* normals, ::CsObject* tangents);
     // static private System.Void CreateUIVertexStreamInternal(System.Object verts, System.Object positions, System.Object colors, System.Object uv0S, System.Object uv1S, System.Object uv2S, System.Object uv3S, System.Object normals, System.Object tangents, System.Object indices)
     // Offset: 0x1954F20
-    static void CreateUIVertexStreamInternal(::Il2CppObject* verts, ::Il2CppObject* positions, ::Il2CppObject* colors, ::Il2CppObject* uv0S, ::Il2CppObject* uv1S, ::Il2CppObject* uv2S, ::Il2CppObject* uv3S, ::Il2CppObject* normals, ::Il2CppObject* tangents, ::Il2CppObject* indices);
+    static void CreateUIVertexStreamInternal(::CsObject* verts, ::CsObject* positions, ::CsObject* colors, ::CsObject* uv0S, ::CsObject* uv1S, ::CsObject* uv2S, ::CsObject* uv3S, ::CsObject* normals, ::CsObject* tangents, ::CsObject* indices);
     // private System.Void SetColor_Injected(UnityEngine.Color color)
     // Offset: 0x1954718
     void SetColor_Injected(UnityEngine::Color& color);

@@ -52,7 +52,7 @@ namespace UnityEngine::UI {
     UnityEngine::UI::FontData* m_FontData;
     // protected System.String m_Text
     // Offset: 0xC8
-    ::Il2CppString* m_Text;
+    ::CsString* m_Text;
     // private UnityEngine.TextGenerator m_TextCache
     // Offset: 0xD0
     UnityEngine::TextGenerator* m_TextCache;
@@ -86,10 +86,10 @@ namespace UnityEngine::UI {
     void set_font(UnityEngine::Font* value);
     // public System.String get_text()
     // Offset: 0x191A298
-    ::Il2CppString* get_text();
+    ::CsString* get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x191A2A0
-    void set_text(::Il2CppString* value);
+    void set_text(::CsString* value);
     // public System.Boolean get_supportRichText()
     // Offset: 0x191A394
     bool get_supportRichText();

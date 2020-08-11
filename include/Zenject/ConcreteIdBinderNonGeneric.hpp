@@ -26,7 +26,7 @@ namespace Zenject {
     public:
     // public Zenject.ConcreteBinderNonGeneric WithId(System.Object identifier)
     // Offset: 0xD54E28
-    Zenject::ConcreteBinderNonGeneric* WithId(::Il2CppObject* identifier);
+    Zenject::ConcreteBinderNonGeneric* WithId(::CsObject* identifier);
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Offset: 0xD54E00
     // Implemented from: Zenject.ConcreteBinderNonGeneric

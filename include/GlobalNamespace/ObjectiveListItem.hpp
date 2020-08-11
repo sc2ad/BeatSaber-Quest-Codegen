@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* conditionText;
     // public System.Void set_title(System.String value)
     // Offset: 0xC1E098
-    void set_title(::Il2CppString* value);
+    void set_title(::CsString* value);
     // public System.Void set_conditionText(System.String value)
     // Offset: 0xC1E0B4
-    void set_conditionText(::Il2CppString* value);
+    void set_conditionText(::CsString* value);
     // public System.Void set_hideCondition(System.Boolean value)
     // Offset: 0xC1E0D0
     void set_hideCondition(bool value);

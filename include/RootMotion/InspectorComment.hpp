@@ -8,7 +8,7 @@
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: RootMotion
 namespace RootMotion {
@@ -17,16 +17,16 @@ namespace RootMotion {
     public:
     // public System.String name
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::CsString* name;
     // public System.String color
     // Offset: 0x18
-    ::Il2CppString* color;
+    ::CsString* color;
     // public System.Void .ctor(System.String name)
     // Offset: 0x122AEF4
-    static InspectorComment* New_ctor(::Il2CppString* name);
+    static InspectorComment* New_ctor(::CsString* name);
     // public System.Void .ctor(System.String name, System.String color)
     // Offset: 0x122AF84
-    static InspectorComment* New_ctor(::Il2CppString* name, ::Il2CppString* color);
+    static InspectorComment* New_ctor(::CsString* name, ::CsString* color);
   }; // RootMotion.InspectorComment
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

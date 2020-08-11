@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestTools.Utils.IAssemblyWrapper
 #include "UnityEngine/TestTools/Utils/IAssemblyWrapper.hpp"
 // Including type: System.Reflection.Assembly

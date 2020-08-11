@@ -63,34 +63,34 @@ namespace GlobalNamespace {
       public:
       // public System.Collections.Generic.List`1<System.String> scenes
       // Offset: 0x0
-      System::Collections::Generic::List_1<::Il2CppString*>* scenes;
+      System::Collections::Generic::List_1<::CsString*>* scenes;
       // public System.Int64 version
       // Offset: 0x8
       int64_t version;
       // Creating value type constructor for type: SceneInfo
-      SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* scenes_ = {}, int64_t version_ = {}) : scenes{scenes_}, version{version_} {}
+      SceneInfo(System::Collections::Generic::List_1<::CsString*>* scenes_ = {}, int64_t version_ = {}) : scenes{scenes_}, version{version_} {}
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
       // Offset: 0xA36D70
-      static OVRSceneLoader::SceneInfo* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* sceneList, int64_t currentSceneEpochVersion);
+      static OVRSceneLoader::SceneInfo* New_ctor(System::Collections::Generic::List_1<::CsString*>* sceneList, int64_t currentSceneEpochVersion);
     }; // OVRSceneLoader/SceneInfo
     // static field const value: static public System.String externalStoragePath
     static constexpr const char* externalStoragePath = "/sdcard/Android/data";
     // Get static field: static public System.String externalStoragePath
-    static ::Il2CppString* _get_externalStoragePath();
+    static ::CsString* _get_externalStoragePath();
     // Set static field: static public System.String externalStoragePath
-    static void _set_externalStoragePath(::Il2CppString* value);
+    static void _set_externalStoragePath(::CsString* value);
     // static field const value: static public System.String sceneLoadDataName
     static constexpr const char* sceneLoadDataName = "SceneLoadData.txt";
     // Get static field: static public System.String sceneLoadDataName
-    static ::Il2CppString* _get_sceneLoadDataName();
+    static ::CsString* _get_sceneLoadDataName();
     // Set static field: static public System.String sceneLoadDataName
-    static void _set_sceneLoadDataName(::Il2CppString* value);
+    static void _set_sceneLoadDataName(::CsString* value);
     // static field const value: static public System.String resourceBundleName
     static constexpr const char* resourceBundleName = "asset_resources";
     // Get static field: static public System.String resourceBundleName
-    static ::Il2CppString* _get_resourceBundleName();
+    static ::CsString* _get_resourceBundleName();
     // Set static field: static public System.String resourceBundleName
-    static void _set_resourceBundleName(::Il2CppString* value);
+    static void _set_resourceBundleName(::CsString* value);
     // public System.Single sceneCheckIntervalSeconds
     // Offset: 0x18
     float sceneCheckIntervalSeconds;
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     UnityEngine::AsyncOperation* loadSceneOperation;
     // private System.String formattedLogText
     // Offset: 0x38
-    ::Il2CppString* formattedLogText;
+    ::CsString* formattedLogText;
     // private System.Single closeLogTimer
     // Offset: 0x40
     float closeLogTimer;
@@ -120,10 +120,10 @@ namespace GlobalNamespace {
     bool canvasPosUpdated;
     // private System.String scenePath
     // Offset: 0x48
-    ::Il2CppString* scenePath;
+    ::CsString* scenePath;
     // private System.String sceneLoadDataPath
     // Offset: 0x50
-    ::Il2CppString* sceneLoadDataPath;
+    ::CsString* sceneLoadDataPath;
     // private System.Collections.Generic.List`1<UnityEngine.AssetBundle> loadedAssetBundles
     // Offset: 0x58
     System::Collections::Generic::List_1<UnityEngine::AssetBundle*>* loadedAssetBundles;

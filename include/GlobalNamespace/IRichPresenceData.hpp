@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -15,10 +15,10 @@ namespace GlobalNamespace {
     public:
     // public System.String get_apiName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_apiName();
+    ::CsString* get_apiName();
     // public System.String get_localizedDescription()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_localizedDescription();
+    ::CsString* get_localizedDescription();
   }; // IRichPresenceData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

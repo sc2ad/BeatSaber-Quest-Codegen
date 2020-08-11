@@ -221,18 +221,18 @@ namespace UnityEngine::Timeline {
     static void AddSubTracksRecursive(UnityEngine::Timeline::TrackAsset* track, System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*& allTracks);
     // public UnityEngine.Timeline.TrackAsset CreateTrack(System.Type type, UnityEngine.Timeline.TrackAsset parent, System.String name)
     // Offset: 0x108E4BC
-    UnityEngine::Timeline::TrackAsset* CreateTrack(System::Type* type, UnityEngine::Timeline::TrackAsset* parent, ::Il2CppString* name);
+    UnityEngine::Timeline::TrackAsset* CreateTrack(System::Type* type, UnityEngine::Timeline::TrackAsset* parent, ::CsString* name);
     // public T CreateTrack(UnityEngine.Timeline.TrackAsset parent, System.String trackName)
     // Offset: 0xFFFFFFFF
     template<class T>
-    T CreateTrack(UnityEngine::Timeline::TrackAsset* parent, ::Il2CppString* trackName) {
+    T CreateTrack(UnityEngine::Timeline::TrackAsset* parent, ::CsString* trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, parent, trackName)));
     }
     // public T CreateTrack(System.String trackName)
     // Offset: 0xFFFFFFFF
     template<class T>
-    T CreateTrack(::Il2CppString* trackName) {
+    T CreateTrack(::CsString* trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, trackName)));
     }
@@ -254,7 +254,7 @@ namespace UnityEngine::Timeline {
     void MoveLastTrackBefore(UnityEngine::Timeline::TrackAsset* asset);
     // UnityEngine.Timeline.TrackAsset AllocateTrack(UnityEngine.Timeline.TrackAsset trackAssetParent, System.String trackName, System.Type trackType)
     // Offset: 0x108E848
-    UnityEngine::Timeline::TrackAsset* AllocateTrack(UnityEngine::Timeline::TrackAsset* trackAssetParent, ::Il2CppString* trackName, System::Type* trackType);
+    UnityEngine::Timeline::TrackAsset* AllocateTrack(UnityEngine::Timeline::TrackAsset* trackAssetParent, ::CsString* trackName, System::Type* trackType);
     // private System.Void DeleteRecordedAnimation(UnityEngine.Timeline.TrackAsset track)
     // Offset: 0x108F298
     void DeleteRecordedAnimation(UnityEngine::Timeline::TrackAsset* track);

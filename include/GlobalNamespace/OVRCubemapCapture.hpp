@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     UnityEngine::KeyCode triggeredByKey;
     // public System.String pathName
     // Offset: 0x28
-    ::Il2CppString* pathName;
+    ::CsString* pathName;
     // public System.Int32 cubemapSize
     // Offset: 0x30
     int cubemapSize;
@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     void Update();
     // static public System.Void TriggerCubemapCapture(UnityEngine.Vector3 capturePos, System.Int32 cubemapSize, System.String pathName)
     // Offset: 0xCB6100
-    static void TriggerCubemapCapture(UnityEngine::Vector3 capturePos, int cubemapSize, ::Il2CppString* pathName);
+    static void TriggerCubemapCapture(UnityEngine::Vector3 capturePos, int cubemapSize, ::CsString* pathName);
     // static public System.Void RenderIntoCubemap(UnityEngine.Camera ownerCamera, UnityEngine.Cubemap outCubemap)
     // Offset: 0xCB6378
     static void RenderIntoCubemap(UnityEngine::Camera* ownerCamera, UnityEngine::Cubemap* outCubemap);
     // static public System.Boolean SaveCubemapCapture(UnityEngine.Cubemap cubemap, System.String pathName)
     // Offset: 0xCB69D4
-    static bool SaveCubemapCapture(UnityEngine::Cubemap* cubemap, ::Il2CppString* pathName);
+    static bool SaveCubemapCapture(UnityEngine::Cubemap* cubemap, ::CsString* pathName);
     // public System.Void .ctor()
     // Offset: 0xCB70CC
     // Implemented from: UnityEngine.MonoBehaviour

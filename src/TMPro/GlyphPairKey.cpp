@@ -2,7 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 // Including type: TMPro.GlyphPairKey
 #include "TMPro/GlyphPairKey.hpp"
 // Including type: TMPro.TMP_GlyphPairAdjustmentRecord

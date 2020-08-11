@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.ICommandWrapper
 #include "NUnit/Framework/Interfaces/ICommandWrapper.hpp"
 // Including type: NUnit.Framework.Internal.Commands.TestCommand

@@ -15,10 +15,10 @@ namespace GlobalNamespace {
     public:
     // private System.String _achievementId
     // Offset: 0x18
-    ::Il2CppString* achievementId;
+    ::CsString* achievementId;
     // public System.String get_achievementId()
     // Offset: 0x1967EF0
-    ::Il2CppString* get_achievementId();
+    ::CsString* get_achievementId();
     // public System.Void .ctor()
     // Offset: 0x1967EF8
     // Implemented from: PersistentScriptableObject

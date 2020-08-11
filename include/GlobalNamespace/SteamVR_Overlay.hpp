@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     static void set_instance(GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
     // Offset: 0xD7155C
-    static ::Il2CppString* get_key();
+    static ::CsString* get_key();
     // private System.Void OnEnable()
     // Offset: 0xD74F6C
     void OnEnable();

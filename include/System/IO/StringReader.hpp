@@ -15,7 +15,7 @@ namespace System::IO {
     public:
     // private System.String _s
     // Offset: 0x18
-    ::Il2CppString* s;
+    ::CsString* s;
     // private System.Int32 _pos
     // Offset: 0x20
     int pos;
@@ -24,7 +24,7 @@ namespace System::IO {
     int length;
     // public System.Void .ctor(System.String s)
     // Offset: 0xFF6660
-    static StringReader* New_ctor(::Il2CppString* s);
+    static StringReader* New_ctor(::CsString* s);
     // public override System.Void Close()
     // Offset: 0xFF6738
     // Implemented from: System.IO.TextReader
@@ -54,12 +54,12 @@ namespace System::IO {
     // Offset: 0xFF69E0
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
-    ::Il2CppString* ReadToEnd();
+    ::CsString* ReadToEnd();
     // public override System.String ReadLine()
     // Offset: 0xFF6A28
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
-    ::Il2CppString* ReadLine();
+    ::CsString* ReadLine();
   }; // System.IO.StringReader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

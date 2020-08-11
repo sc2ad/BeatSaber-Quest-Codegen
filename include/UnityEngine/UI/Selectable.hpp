@@ -287,7 +287,7 @@ namespace UnityEngine::UI {
     void DoSpriteSwap(UnityEngine::Sprite* newSprite);
     // private System.Void TriggerAnimation(System.String triggername)
     // Offset: 0x11FA940
-    void TriggerAnimation(::Il2CppString* triggername);
+    void TriggerAnimation(::CsString* triggername);
     // protected System.Boolean IsHighlighted()
     // Offset: 0x11FB408
     bool IsHighlighted();

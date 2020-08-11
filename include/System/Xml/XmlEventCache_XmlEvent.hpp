@@ -22,51 +22,51 @@ namespace System::Xml {
     System::Xml::XmlEventCache::XmlEventType eventType;
     // private System.String s1
     // Offset: 0x8
-    ::Il2CppString* s1;
+    ::CsString* s1;
     // private System.String s2
     // Offset: 0x10
-    ::Il2CppString* s2;
+    ::CsString* s2;
     // private System.String s3
     // Offset: 0x18
-    ::Il2CppString* s3;
+    ::CsString* s3;
     // private System.Object o
     // Offset: 0x20
-    ::Il2CppObject* o;
+    ::CsObject* o;
     // Creating value type constructor for type: XmlEvent
-    XmlEvent(System::Xml::XmlEventCache::XmlEventType eventType_ = {}, ::Il2CppString* s1_ = {}, ::Il2CppString* s2_ = {}, ::Il2CppString* s3_ = {}, ::Il2CppObject* o_ = {}) : eventType{eventType_}, s1{s1_}, s2{s2_}, s3{s3_}, o{o_} {}
+    XmlEvent(System::Xml::XmlEventCache::XmlEventType eventType_ = {}, ::CsString* s1_ = {}, ::CsString* s2_ = {}, ::CsString* s3_ = {}, ::CsObject* o_ = {}) : eventType{eventType_}, s1{s1_}, s2{s2_}, s3{s3_}, o{o_} {}
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType)
     // Offset: 0xA3F158
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1)
     // Offset: 0xA3F160
-    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1);
+    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsString* s1);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1, System.String s2)
     // Offset: 0xA3F170
-    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2);
+    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsString* s1, ::CsString* s2);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1, System.String s2, System.String s3)
     // Offset: 0xA3F1AC
-    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2, ::Il2CppString* s3);
+    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsString* s1, ::CsString* s2, ::CsString* s3);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1, System.String s2, System.String s3, System.Object o)
     // Offset: 0xA3F1B4
-    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2, ::Il2CppString* s3, ::Il2CppObject* o);
+    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsString* s1, ::CsString* s2, ::CsString* s3, ::CsObject* o);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.Object o)
     // Offset: 0xA3F1BC
-    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppObject* o);
+    void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsObject* o);
     // public System.Xml.XmlEventCache/XmlEventType get_EventType()
     // Offset: 0xA3F1CC
     System::Xml::XmlEventCache::XmlEventType get_EventType();
     // public System.String get_String1()
     // Offset: 0xA3F1D4
-    ::Il2CppString* get_String1();
+    ::CsString* get_String1();
     // public System.String get_String2()
     // Offset: 0xA3F1DC
-    ::Il2CppString* get_String2();
+    ::CsString* get_String2();
     // public System.String get_String3()
     // Offset: 0xA3F1E4
-    ::Il2CppString* get_String3();
+    ::CsString* get_String3();
     // public System.Object get_Object()
     // Offset: 0xA3F1EC
-    ::Il2CppObject* get_Object();
+    ::CsObject* get_Object();
   }; // System.Xml.XmlEventCache/XmlEvent
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

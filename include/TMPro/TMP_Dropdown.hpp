@@ -198,7 +198,7 @@ namespace TMPro {
     void AddOptions(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<System.String> options)
     // Offset: 0xB6C3E8
-    void AddOptions(System::Collections::Generic::List_1<::Il2CppString*>* options);
+    void AddOptions(System::Collections::Generic::List_1<::CsString*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<UnityEngine.Sprite> options)
     // Offset: 0xB6C514
     void AddOptions(System::Collections::Generic::List_1<UnityEngine::Sprite*>* options);

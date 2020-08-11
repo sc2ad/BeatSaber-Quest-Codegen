@@ -38,7 +38,7 @@ namespace System::IO {
     static CStreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, bool leaveOpen);
     // public System.Void InternalWriteString(System.String val)
     // Offset: 0x1119D18
-    void InternalWriteString(::Il2CppString* val);
+    void InternalWriteString(::CsString* val);
     // public System.Void InternalWriteChar(System.Char val)
     // Offset: 0x1119C44
     void InternalWriteChar(::Il2CppChar val);
@@ -64,7 +64,7 @@ namespace System::IO {
     // Offset: 0x1119EF4
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String val)
-    void Write(::Il2CppString* val);
+    void Write(::CsString* val);
   }; // System.IO.CStreamWriter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

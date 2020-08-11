@@ -38,7 +38,7 @@ namespace System {
     static OperationCanceledException* New_ctor(System::Threading::CancellationToken token);
     // public System.Void .ctor(System.String message, System.Threading.CancellationToken token)
     // Offset: 0x1347B60
-    static OperationCanceledException* New_ctor(::Il2CppString* message, System::Threading::CancellationToken token);
+    static OperationCanceledException* New_ctor(::CsString* message, System::Threading::CancellationToken token);
     // public System.Void .ctor()
     // Offset: 0x1347A88
     // Implemented from: System.SystemException
@@ -51,7 +51,7 @@ namespace System {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static OperationCanceledException* New_ctor(::Il2CppString* message);
+    static OperationCanceledException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1347BA8
     // Implemented from: System.SystemException

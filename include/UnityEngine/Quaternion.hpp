@@ -168,7 +168,7 @@ namespace UnityEngine {
     // Offset: 0xA45504
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::Il2CppObject* other);
+    bool Equals(::CsObject* other);
     // public System.Boolean Equals(UnityEngine.Quaternion other)
     // Offset: 0xA4550C
     // Implemented from: System.IEquatable`1
@@ -178,7 +178,7 @@ namespace UnityEngine {
     // Offset: 0xA45514
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // UnityEngine.Quaternion
   // static public UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
   // Offset: 0x1405D00

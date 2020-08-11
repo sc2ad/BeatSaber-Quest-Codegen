@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -15,7 +15,7 @@ namespace System::Threading {
     public:
     // public System.Void OnValueChanged(System.Object previousValue, System.Object currentValue, System.Boolean contextChanged)
     // Offset: 0xFFFFFFFF
-    void System_Threading_IAsyncLocal_OnValueChanged(::Il2CppObject* previousValue, ::Il2CppObject* currentValue, bool contextChanged);
+    void System_Threading_IAsyncLocal_OnValueChanged(::CsObject* previousValue, ::CsObject* currentValue, bool contextChanged);
   }; // System.Threading.IAsyncLocal
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

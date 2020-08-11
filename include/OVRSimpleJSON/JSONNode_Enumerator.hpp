@@ -59,12 +59,12 @@ namespace OVRSimpleJSON {
     OVRSimpleJSON::JSONNode::Enumerator::Type type;
     // private System.Collections.Generic.Dictionary`2/Enumerator<System.String,OVRSimpleJSON.JSONNode> m_Object
     // Offset: 0x8
-    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator m_Object;
+    typename System::Collections::Generic::Dictionary_2<::CsString*, OVRSimpleJSON::JSONNode*>::Enumerator m_Object;
     // private System.Collections.Generic.List`1/Enumerator<OVRSimpleJSON.JSONNode> m_Array
     // Offset: 0x30
     typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array;
     // Creating value type constructor for type: Enumerator
-    Enumerator(OVRSimpleJSON::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array_ = {}) : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
+    Enumerator(OVRSimpleJSON::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::CsString*, OVRSimpleJSON::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator m_Array_ = {}) : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
     // public System.Boolean get_IsValid()
     // Offset: 0xA36DDC
     bool get_IsValid();
@@ -73,10 +73,10 @@ namespace OVRSimpleJSON {
     static JSONNode::Enumerator* New_ctor(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
     // Offset: 0xA36E34
-    static JSONNode::Enumerator* New_ctor(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
+    static JSONNode::Enumerator* New_ctor(typename System::Collections::Generic::Dictionary_2<::CsString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
     // public System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> get_Current()
     // Offset: 0xA36E94
-    System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> get_Current();
+    System::Collections::Generic::KeyValuePair_2<::CsString*, OVRSimpleJSON::JSONNode*> get_Current();
     // public System.Boolean MoveNext()
     // Offset: 0xA36E9C
     bool MoveNext();

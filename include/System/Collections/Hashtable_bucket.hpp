@@ -17,15 +17,15 @@ namespace System::Collections {
     public:
     // public System.Object key
     // Offset: 0x0
-    ::Il2CppObject* key;
+    ::CsObject* key;
     // public System.Object val
     // Offset: 0x8
-    ::Il2CppObject* val;
+    ::CsObject* val;
     // public System.Int32 hash_coll
     // Offset: 0x10
     int hash_coll;
     // Creating value type constructor for type: bucket
-    bucket(::Il2CppObject* key_ = {}, ::Il2CppObject* val_ = {}, int hash_coll_ = {}) : key{key_}, val{val_}, hash_coll{hash_coll_} {}
+    bucket(::CsObject* key_ = {}, ::CsObject* val_ = {}, int hash_coll_ = {}) : key{key_}, val{val_}, hash_coll{hash_coll_} {}
   }; // System.Collections.Hashtable/bucket
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

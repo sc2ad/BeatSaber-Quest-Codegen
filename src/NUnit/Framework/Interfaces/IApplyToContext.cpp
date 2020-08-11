@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.IApplyToContext
 #include "NUnit/Framework/Interfaces/IApplyToContext.hpp"
 // Including type: NUnit.Framework.Internal.ITestExecutionContext

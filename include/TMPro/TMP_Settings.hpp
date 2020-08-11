@@ -78,7 +78,7 @@ namespace TMPro {
     TMPro::TMP_FontAsset* m_defaultFontAsset;
     // private System.String m_defaultFontAssetPath
     // Offset: 0x30
-    ::Il2CppString* m_defaultFontAssetPath;
+    ::CsString* m_defaultFontAssetPath;
     // private System.Single m_defaultFontSize
     // Offset: 0x38
     float m_defaultFontSize;
@@ -108,10 +108,10 @@ namespace TMPro {
     TMPro::TMP_SpriteAsset* m_defaultSpriteAsset;
     // private System.String m_defaultSpriteAssetPath
     // Offset: 0x70
-    ::Il2CppString* m_defaultSpriteAssetPath;
+    ::CsString* m_defaultSpriteAssetPath;
     // private System.String m_defaultColorGradientPresetsPath
     // Offset: 0x78
-    ::Il2CppString* m_defaultColorGradientPresetsPath;
+    ::CsString* m_defaultColorGradientPresetsPath;
     // private System.Boolean m_enableEmojiSupport
     // Offset: 0x80
     bool m_enableEmojiSupport;
@@ -129,7 +129,7 @@ namespace TMPro {
     TMPro::TMP_Settings::LineBreakingTable* m_linebreakingRules;
     // static public System.String get_version()
     // Offset: 0xB9D448
-    static ::Il2CppString* get_version();
+    static ::CsString* get_version();
     // static public System.Boolean get_enableWordWrapping()
     // Offset: 0xB9D490
     static bool get_enableWordWrapping();
@@ -165,7 +165,7 @@ namespace TMPro {
     static TMPro::TMP_FontAsset* get_defaultFontAsset();
     // static public System.String get_defaultFontAssetPath()
     // Offset: 0xB9D6C0
-    static ::Il2CppString* get_defaultFontAssetPath();
+    static ::CsString* get_defaultFontAssetPath();
     // static public System.Single get_defaultFontSize()
     // Offset: 0xB9D6E0
     static float get_defaultFontSize();
@@ -195,10 +195,10 @@ namespace TMPro {
     static TMPro::TMP_SpriteAsset* get_defaultSpriteAsset();
     // static public System.String get_defaultSpriteAssetPath()
     // Offset: 0xB9D800
-    static ::Il2CppString* get_defaultSpriteAssetPath();
+    static ::CsString* get_defaultSpriteAssetPath();
     // static public System.String get_defaultColorGradientPresetsPath()
     // Offset: 0xB9D820
-    static ::Il2CppString* get_defaultColorGradientPresetsPath();
+    static ::CsString* get_defaultColorGradientPresetsPath();
     // static public System.Boolean get_enableEmojiSupport()
     // Offset: 0xB9D840
     static bool get_enableEmojiSupport();

@@ -36,21 +36,21 @@ namespace System::ComponentModel {
     // Set static field: static private System.Boolean s_ErrorMessagesInitialized
     static void _set_s_ErrorMessagesInitialized(bool value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> s_ErrorMessage
-    static System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* _get_s_ErrorMessage();
+    static System::Collections::Generic::Dictionary_2<int, ::CsString*>* _get_s_ErrorMessage();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> s_ErrorMessage
-    static void _set_s_ErrorMessage(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* value);
+    static void _set_s_ErrorMessage(System::Collections::Generic::Dictionary_2<int, ::CsString*>* value);
     // public System.Void .ctor(System.Int32 error)
     // Offset: 0xF46934
     static Win32Exception* New_ctor(int error);
     // public System.Void .ctor(System.Int32 error, System.String message)
     // Offset: 0xF46AD4
-    static Win32Exception* New_ctor(int error, ::Il2CppString* message);
+    static Win32Exception* New_ctor(int error, ::CsString* message);
     // public System.Int32 get_NativeErrorCode()
     // Offset: 0xF46B9C
     int get_NativeErrorCode();
     // static System.String GetErrorMessage(System.Int32 error)
     // Offset: 0xF469BC
-    static ::Il2CppString* GetErrorMessage(int error);
+    static ::CsString* GetErrorMessage(int error);
     // static private System.Void InitializeErrorMessages()
     // Offset: 0xF46C70
     static void InitializeErrorMessages();

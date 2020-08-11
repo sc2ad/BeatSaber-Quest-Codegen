@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // public System.Void InitAndPresent(System.String text, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color, System.Single fontSize, System.Boolean shake)
     // Offset: 0xBDB9AC
-    void InitAndPresent(::Il2CppString* text, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color, float fontSize, bool shake);
+    void InitAndPresent(::CsString* text, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color, float fontSize, bool shake);
     // protected override System.Void ManualUpdate(System.Single t)
     // Offset: 0xBDBA20
     // Implemented from: FlyingObjectEffect

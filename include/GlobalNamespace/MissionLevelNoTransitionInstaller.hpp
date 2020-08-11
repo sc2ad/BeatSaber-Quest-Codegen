@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
     // private System.String _backButtonText
     // Offset: 0x50
-    ::Il2CppString* backButtonText;
+    ::CsString* backButtonText;
     // private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Offset: 0x58
     GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* scenesTransitionSetupData;

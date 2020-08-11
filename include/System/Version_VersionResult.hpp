@@ -32,24 +32,24 @@ namespace System {
     System::Version::ParseFailureKind m_failure;
     // System.String m_exceptionArgument
     // Offset: 0x10
-    ::Il2CppString* m_exceptionArgument;
+    ::CsString* m_exceptionArgument;
     // System.String m_argumentName
     // Offset: 0x18
-    ::Il2CppString* m_argumentName;
+    ::CsString* m_argumentName;
     // System.Boolean m_canThrow
     // Offset: 0x20
     bool m_canThrow;
     // Creating value type constructor for type: VersionResult
-    VersionResult(System::Version* m_parsedVersion_ = {}, System::Version::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_exceptionArgument_ = {}, ::Il2CppString* m_argumentName_ = {}, bool m_canThrow_ = {}) : m_parsedVersion{m_parsedVersion_}, m_failure{m_failure_}, m_exceptionArgument{m_exceptionArgument_}, m_argumentName{m_argumentName_}, m_canThrow{m_canThrow_} {}
+    VersionResult(System::Version* m_parsedVersion_ = {}, System::Version::ParseFailureKind m_failure_ = {}, ::CsString* m_exceptionArgument_ = {}, ::CsString* m_argumentName_ = {}, bool m_canThrow_ = {}) : m_parsedVersion{m_parsedVersion_}, m_failure{m_failure_}, m_exceptionArgument{m_exceptionArgument_}, m_argumentName{m_argumentName_}, m_canThrow{m_canThrow_} {}
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
     // Offset: 0xA53B20
-    void Init(::Il2CppString* argumentName, bool canThrow);
+    void Init(::CsString* argumentName, bool canThrow);
     // System.Void SetFailure(System.Version/ParseFailureKind failure)
     // Offset: 0xA53B30
     void SetFailure(System::Version::ParseFailureKind failure);
     // System.Void SetFailure(System.Version/ParseFailureKind failure, System.String argument)
     // Offset: 0xA53B38
-    void SetFailure(System::Version::ParseFailureKind failure, ::Il2CppString* argument);
+    void SetFailure(System::Version::ParseFailureKind failure, ::CsString* argument);
     // System.Exception GetVersionParseException()
     // Offset: 0xA53B40
     System::Exception* GetVersionParseException();

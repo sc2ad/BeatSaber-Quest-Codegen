@@ -53,7 +53,7 @@ namespace System::IO {
     System::IO::Directory::SearchData* searchData;
     // private System.String searchCriteria
     // Offset: 0x0
-    ::Il2CppString* searchCriteria;
+    ::CsString* searchCriteria;
     // private Microsoft.Win32.SafeHandles.SafeFindHandle _hnd
     // Offset: 0x0
     Microsoft::Win32::SafeHandles::SafeFindHandle* hnd;
@@ -65,22 +65,22 @@ namespace System::IO {
     bool empty;
     // private System.String userPath
     // Offset: 0x0
-    ::Il2CppString* userPath;
+    ::CsString* userPath;
     // private System.IO.SearchOption searchOption
     // Offset: 0x0
     System::IO::SearchOption searchOption;
     // private System.String fullPath
     // Offset: 0x0
-    ::Il2CppString* fullPath;
+    ::CsString* fullPath;
     // private System.String normalizedSearchPath
     // Offset: 0x0
-    ::Il2CppString* normalizedSearchPath;
+    ::CsString* normalizedSearchPath;
     // private System.Boolean _checkHost
     // Offset: 0x0
     bool checkHost;
     // System.Void .ctor(System.String path, System.String originalUserPath, System.String searchPattern, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1<TSource> resultHandler, System.Boolean checkHost)
     // Offset: 0xFFFFFFFF
-    static FileSystemEnumerableIterator_1<TSource>* New_ctor(::Il2CppString* path, ::Il2CppString* originalUserPath, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption, System::IO::SearchResultHandler_1<TSource>* resultHandler, bool checkHost) {
+    static FileSystemEnumerableIterator_1<TSource>* New_ctor(::CsString* path, ::CsString* originalUserPath, ::CsString* searchPattern, System::IO::SearchOption searchOption, System::IO::SearchResultHandler_1<TSource>* resultHandler, bool checkHost) {
       return (FileSystemEnumerableIterator_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), path, originalUserPath, searchPattern, searchOption, resultHandler, checkHost));
     }
     // private System.Void CommonInit()
@@ -90,7 +90,7 @@ namespace System::IO {
     }
     // private System.Void .ctor(System.String fullPath, System.String normalizedSearchPath, System.String searchCriteria, System.String userPath, System.IO.SearchOption searchOption, System.IO.SearchResultHandler`1<TSource> resultHandler, System.Boolean checkHost)
     // Offset: 0xFFFFFFFF
-    static FileSystemEnumerableIterator_1<TSource>* New_ctor(::Il2CppString* fullPath, ::Il2CppString* normalizedSearchPath, ::Il2CppString* searchCriteria, ::Il2CppString* userPath, System::IO::SearchOption searchOption, System::IO::SearchResultHandler_1<TSource>* resultHandler, bool checkHost) {
+    static FileSystemEnumerableIterator_1<TSource>* New_ctor(::CsString* fullPath, ::CsString* normalizedSearchPath, ::CsString* searchCriteria, ::CsString* userPath, System::IO::SearchOption searchOption, System::IO::SearchResultHandler_1<TSource>* resultHandler, bool checkHost) {
       return (FileSystemEnumerableIterator_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), fullPath, normalizedSearchPath, searchCriteria, userPath, searchOption, resultHandler, checkHost));
     }
     // private System.IO.SearchResult CreateSearchResult(System.IO.Directory/SearchData localSearchData, Microsoft.Win32.Win32Native/WIN32_FIND_DATA findData)
@@ -100,7 +100,7 @@ namespace System::IO {
     }
     // private System.Void HandleError(System.Int32 hr, System.String path)
     // Offset: 0xFFFFFFFF
-    void HandleError(int hr, ::Il2CppString* path) {
+    void HandleError(int hr, ::CsString* path) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "HandleError", hr, path));
     }
     // private System.Void AddSearchableDirsToStack(System.IO.Directory/SearchData localSearchData)
@@ -110,23 +110,23 @@ namespace System::IO {
     }
     // System.Void DoDemand(System.String fullPathToDemand)
     // Offset: 0xFFFFFFFF
-    void DoDemand(::Il2CppString* fullPathToDemand) {
+    void DoDemand(::CsString* fullPathToDemand) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "DoDemand", fullPathToDemand));
     }
     // static private System.String NormalizeSearchPattern(System.String searchPattern)
     // Offset: 0xFFFFFFFF
-    static ::Il2CppString* NormalizeSearchPattern(::Il2CppString* searchPattern) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "NormalizeSearchPattern", searchPattern));
+    static ::CsString* NormalizeSearchPattern(::CsString* searchPattern) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsString*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "NormalizeSearchPattern", searchPattern));
     }
     // static private System.String GetNormalizedSearchCriteria(System.String fullSearchString, System.String fullPathMod)
     // Offset: 0xFFFFFFFF
-    static ::Il2CppString* GetNormalizedSearchCriteria(::Il2CppString* fullSearchString, ::Il2CppString* fullPathMod) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "GetNormalizedSearchCriteria", fullSearchString, fullPathMod));
+    static ::CsString* GetNormalizedSearchCriteria(::CsString* fullSearchString, ::CsString* fullPathMod) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsString*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "GetNormalizedSearchCriteria", fullSearchString, fullPathMod));
     }
     // static private System.String GetFullSearchString(System.String fullPath, System.String searchPattern)
     // Offset: 0xFFFFFFFF
-    static ::Il2CppString* GetFullSearchString(::Il2CppString* fullPath, ::Il2CppString* searchPattern) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "GetFullSearchString", fullPath, searchPattern));
+    static ::CsString* GetFullSearchString(::CsString* fullPath, ::CsString* searchPattern) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsString*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FileSystemEnumerableIterator_1<TSource>*>::get(), "GetFullSearchString", fullPath, searchPattern));
     }
     // protected override System.IO.Iterator`1<TSource> Clone()
     // Offset: 0xFFFFFFFF

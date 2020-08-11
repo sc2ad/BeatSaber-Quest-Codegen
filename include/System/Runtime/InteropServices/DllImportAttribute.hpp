@@ -26,10 +26,10 @@ namespace System::Runtime::InteropServices {
     public:
     // System.String _val
     // Offset: 0x10
-    ::Il2CppString* val;
+    ::CsString* val;
     // public System.String EntryPoint
     // Offset: 0x18
-    ::Il2CppString* EntryPoint;
+    ::CsString* EntryPoint;
     // public System.Runtime.InteropServices.CharSet CharSet
     // Offset: 0x20
     System::Runtime::InteropServices::CharSet CharSet;
@@ -59,13 +59,13 @@ namespace System::Runtime::InteropServices {
     static bool IsDefined(System::Reflection::RuntimeMethodInfo* method);
     // System.Void .ctor(System.String dllName, System.String entryPoint, System.Runtime.InteropServices.CharSet charSet, System.Boolean exactSpelling, System.Boolean setLastError, System.Boolean preserveSig, System.Runtime.InteropServices.CallingConvention callingConvention, System.Boolean bestFitMapping, System.Boolean throwOnUnmappableChar)
     // Offset: 0x1150F04
-    static DllImportAttribute* New_ctor(::Il2CppString* dllName, ::Il2CppString* entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
+    static DllImportAttribute* New_ctor(::CsString* dllName, ::CsString* entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
     // public System.Void .ctor(System.String dllName)
     // Offset: 0x1150FE8
-    static DllImportAttribute* New_ctor(::Il2CppString* dllName);
+    static DllImportAttribute* New_ctor(::CsString* dllName);
     // public System.String get_Value()
     // Offset: 0x115101C
-    ::Il2CppString* get_Value();
+    ::CsString* get_Value();
   }; // System.Runtime.InteropServices.DllImportAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

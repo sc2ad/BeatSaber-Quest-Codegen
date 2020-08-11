@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -18,52 +18,52 @@ namespace System {
   struct ParamsArray : public System::ValueType {
     public:
     // Get static field: static private readonly System.Object[] oneArgArray
-    static ::Array<::Il2CppObject*>* _get_oneArgArray();
+    static ::Array<::CsObject*>* _get_oneArgArray();
     // Set static field: static private readonly System.Object[] oneArgArray
-    static void _set_oneArgArray(::Array<::Il2CppObject*>* value);
+    static void _set_oneArgArray(::Array<::CsObject*>* value);
     // Get static field: static private readonly System.Object[] twoArgArray
-    static ::Array<::Il2CppObject*>* _get_twoArgArray();
+    static ::Array<::CsObject*>* _get_twoArgArray();
     // Set static field: static private readonly System.Object[] twoArgArray
-    static void _set_twoArgArray(::Array<::Il2CppObject*>* value);
+    static void _set_twoArgArray(::Array<::CsObject*>* value);
     // Get static field: static private readonly System.Object[] threeArgArray
-    static ::Array<::Il2CppObject*>* _get_threeArgArray();
+    static ::Array<::CsObject*>* _get_threeArgArray();
     // Set static field: static private readonly System.Object[] threeArgArray
-    static void _set_threeArgArray(::Array<::Il2CppObject*>* value);
+    static void _set_threeArgArray(::Array<::CsObject*>* value);
     // private readonly System.Object arg0
     // Offset: 0x0
-    ::Il2CppObject* arg0;
+    ::CsObject* arg0;
     // private readonly System.Object arg1
     // Offset: 0x8
-    ::Il2CppObject* arg1;
+    ::CsObject* arg1;
     // private readonly System.Object arg2
     // Offset: 0x10
-    ::Il2CppObject* arg2;
+    ::CsObject* arg2;
     // private readonly System.Object[] args
     // Offset: 0x18
-    ::Array<::Il2CppObject*>* args;
+    ::Array<::CsObject*>* args;
     // Creating value type constructor for type: ParamsArray
-    ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::Array<::Il2CppObject*>* args_ = {}) : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
+    ParamsArray(::CsObject* arg0_ = {}, ::CsObject* arg1_ = {}, ::CsObject* arg2_ = {}, ::Array<::CsObject*>* args_ = {}) : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
     // public System.Void .ctor(System.Object arg0)
     // Offset: 0xA430A4
-    static ParamsArray* New_ctor(::Il2CppObject* arg0);
+    static ParamsArray* New_ctor(::CsObject* arg0);
     // public System.Void .ctor(System.Object arg0, System.Object arg1)
     // Offset: 0xA430AC
-    static ParamsArray* New_ctor(::Il2CppObject* arg0, ::Il2CppObject* arg1);
+    static ParamsArray* New_ctor(::CsObject* arg0, ::CsObject* arg1);
     // public System.Void .ctor(System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0xA430B4
-    static ParamsArray* New_ctor(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
+    static ParamsArray* New_ctor(::CsObject* arg0, ::CsObject* arg1, ::CsObject* arg2);
     // public System.Void .ctor(System.Object[] args)
     // Offset: 0xA430BC
-    static ParamsArray* New_ctor(::Array<::Il2CppObject*>* args);
+    static ParamsArray* New_ctor(::Array<::CsObject*>* args);
     // public System.Int32 get_Length()
     // Offset: 0xA430C4
     int get_Length();
     // public System.Object get_Item(System.Int32 index)
     // Offset: 0xA430E0
-    ::Il2CppObject* get_Item(int index);
+    ::CsObject* get_Item(int index);
     // private System.Object GetAtSlow(System.Int32 index)
     // Offset: 0xA430F4
-    ::Il2CppObject* GetAtSlow(int index);
+    ::CsObject* GetAtSlow(int index);
     // static private System.Void .cctor()
     // Offset: 0x134983C
     static void _cctor();

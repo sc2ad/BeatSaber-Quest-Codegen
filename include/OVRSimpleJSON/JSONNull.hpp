@@ -63,12 +63,12 @@ namespace OVRSimpleJSON {
     // Offset: 0xF41034
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.String JSONNode::get_Value()
-    ::Il2CppString* get_Value();
+    ::CsString* get_Value();
     // public override System.Void set_Value(System.String value)
     // Offset: 0xF4107C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Value(System.String value)
-    void set_Value(::Il2CppString* value);
+    void set_Value(::CsString* value);
     // public override System.Boolean get_AsBool()
     // Offset: 0xF41080
     // Implemented from: OVRSimpleJSON.JSONNode
@@ -83,7 +83,7 @@ namespace OVRSimpleJSON {
     // Offset: 0xF4108C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xF41128
     // Implemented from: OVRSimpleJSON.JSONNode

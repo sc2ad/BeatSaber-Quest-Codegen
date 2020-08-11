@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // public System.Void set_text(System.String value)
     // Offset: 0xBBCF08
-    void set_text(::Il2CppString* value);
+    void set_text(::CsString* value);
     // public System.String get_text()
     // Offset: 0xBBCF24
-    ::Il2CppString* get_text();
+    ::CsString* get_text();
     // private System.Void RefreshVisuals()
     // Offset: 0xBBCF44
     void RefreshVisuals();

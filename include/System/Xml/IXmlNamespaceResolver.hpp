@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -15,10 +15,10 @@ namespace System::Xml {
     public:
     // public System.String LookupNamespace(System.String prefix)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupNamespace(::Il2CppString* prefix);
+    ::CsString* System_Xml_IXmlNamespaceResolver_LookupNamespace(::CsString* prefix);
     // public System.String LookupPrefix(System.String namespaceName)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupPrefix(::Il2CppString* namespaceName);
+    ::CsString* System_Xml_IXmlNamespaceResolver_LookupPrefix(::CsString* namespaceName);
   }; // System.Xml.IXmlNamespaceResolver
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

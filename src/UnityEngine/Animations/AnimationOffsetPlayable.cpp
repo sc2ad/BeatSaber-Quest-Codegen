@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Animations.AnimationOffsetPlayable
 #include "UnityEngine/Animations/AnimationOffsetPlayable.hpp"
 // Including type: UnityEngine.Playables.PlayableGraph

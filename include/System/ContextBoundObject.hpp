@@ -4,7 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MarshalByRefObject
 #include "System/MarshalByRefObject.hpp"
 // Completed includes

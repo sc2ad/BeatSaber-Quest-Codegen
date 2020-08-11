@@ -53,10 +53,10 @@ namespace System::Diagnostics::Tracing {
     uint8_t TriggersActivityTracking;
     // public System.String Name
     // Offset: 0x18
-    ::Il2CppString* Name;
+    ::CsString* Name;
     // public System.String Message
     // Offset: 0x20
-    ::Il2CppString* Message;
+    ::CsString* Message;
     // public System.Reflection.ParameterInfo[] Parameters
     // Offset: 0x28
     ::Array<System::Reflection::ParameterInfo*>* Parameters;
@@ -67,7 +67,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x38
     System::Diagnostics::Tracing::EventActivityOptions ActivityOptions;
     // Creating value type constructor for type: EventMetadata
-    EventMetadata(System::Diagnostics::Tracing::EventDescriptor Descriptor_ = {}, System::Diagnostics::Tracing::EventTags Tags_ = {}, bool EnabledForAnyListener_ = {}, bool EnabledForETW_ = {}, bool HasRelatedActivityID_ = {}, uint8_t TriggersActivityTracking_ = {}, ::Il2CppString* Name_ = {}, ::Il2CppString* Message_ = {}, ::Array<System::Reflection::ParameterInfo*>* Parameters_ = {}, System::Diagnostics::Tracing::TraceLoggingEventTypes* TraceLoggingEventTypes_ = {}, System::Diagnostics::Tracing::EventActivityOptions ActivityOptions_ = {}) : Descriptor{Descriptor_}, Tags{Tags_}, EnabledForAnyListener{EnabledForAnyListener_}, EnabledForETW{EnabledForETW_}, HasRelatedActivityID{HasRelatedActivityID_}, TriggersActivityTracking{TriggersActivityTracking_}, Name{Name_}, Message{Message_}, Parameters{Parameters_}, TraceLoggingEventTypes{TraceLoggingEventTypes_}, ActivityOptions{ActivityOptions_} {}
+    EventMetadata(System::Diagnostics::Tracing::EventDescriptor Descriptor_ = {}, System::Diagnostics::Tracing::EventTags Tags_ = {}, bool EnabledForAnyListener_ = {}, bool EnabledForETW_ = {}, bool HasRelatedActivityID_ = {}, uint8_t TriggersActivityTracking_ = {}, ::CsString* Name_ = {}, ::CsString* Message_ = {}, ::Array<System::Reflection::ParameterInfo*>* Parameters_ = {}, System::Diagnostics::Tracing::TraceLoggingEventTypes* TraceLoggingEventTypes_ = {}, System::Diagnostics::Tracing::EventActivityOptions ActivityOptions_ = {}) : Descriptor{Descriptor_}, Tags{Tags_}, EnabledForAnyListener{EnabledForAnyListener_}, EnabledForETW{EnabledForETW_}, HasRelatedActivityID{HasRelatedActivityID_}, TriggersActivityTracking{TriggersActivityTracking_}, Name{Name_}, Message{Message_}, Parameters{Parameters_}, TraceLoggingEventTypes{TraceLoggingEventTypes_}, ActivityOptions{ActivityOptions_} {}
   }; // System.Diagnostics.Tracing.EventSource/EventMetadata
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

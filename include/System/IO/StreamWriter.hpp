@@ -87,25 +87,25 @@ namespace System::IO {
     static StreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, int bufferSize, bool leaveOpen);
     // public System.Void .ctor(System.String path)
     // Offset: 0xFF5898
-    static StreamWriter* New_ctor(::Il2CppString* path);
+    static StreamWriter* New_ctor(::CsString* path);
     // public System.Void .ctor(System.String path, System.Boolean append)
     // Offset: 0xFF592C
-    static StreamWriter* New_ctor(::Il2CppString* path, bool append);
+    static StreamWriter* New_ctor(::CsString* path, bool append);
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding)
     // Offset: 0xFF59B8
-    static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding);
+    static StreamWriter* New_ctor(::CsString* path, bool append, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize)
     // Offset: 0xFF5920
-    static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding, int bufferSize);
+    static StreamWriter* New_ctor(::CsString* path, bool append, System::Text::Encoding* encoding, int bufferSize);
     // System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize, System.Boolean checkHost)
     // Offset: 0xFF59C8
-    static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding, int bufferSize, bool checkHost);
+    static StreamWriter* New_ctor(::CsString* path, bool append, System::Text::Encoding* encoding, int bufferSize, bool checkHost);
     // private System.Void Init(System.IO.Stream streamArg, System.Text.Encoding encodingArg, System.Int32 bufferSize, System.Boolean shouldLeaveOpen)
     // Offset: 0xFF571C
     void Init(System::IO::Stream* streamArg, System::Text::Encoding* encodingArg, int bufferSize, bool shouldLeaveOpen);
     // static private System.IO.Stream CreateFile(System.String path, System.Boolean append, System.Boolean checkHost)
     // Offset: 0xFF5BB0
-    static System::IO::Stream* CreateFile(::Il2CppString* path, bool append, bool checkHost);
+    static System::IO::Stream* CreateFile(::CsString* path, bool append, bool checkHost);
     // private System.Void Flush(System.Boolean flushStream, System.Boolean flushEncoder)
     // Offset: 0xFF5EAC
     void Flush(bool flushStream, bool flushEncoder);
@@ -161,7 +161,7 @@ namespace System::IO {
     // Offset: 0xFF64C0
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
-    void Write(::Il2CppString* value);
+    void Write(::CsString* value);
     // static private System.Void .cctor()
     // Offset: 0xFF6594
     // Implemented from: System.IO.TextWriter

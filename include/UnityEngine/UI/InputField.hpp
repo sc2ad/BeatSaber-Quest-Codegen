@@ -339,7 +339,7 @@ namespace UnityEngine::UI {
     UnityEngine::Color m_SelectionColor;
     // protected System.String m_Text
     // Offset: 0x168
-    ::Il2CppString* m_Text;
+    ::CsString* m_Text;
     // private System.Single m_CaretBlinkRate
     // Offset: 0x170
     float m_CaretBlinkRate;
@@ -417,7 +417,7 @@ namespace UnityEngine::UI {
     UnityEngine::Coroutine* m_DragCoroutine;
     // private System.String m_OriginalText
     // Offset: 0x1E0
-    ::Il2CppString* m_OriginalText;
+    ::CsString* m_OriginalText;
     // private System.Boolean m_WasCanceled
     // Offset: 0x1E8
     bool m_WasCanceled;
@@ -433,9 +433,9 @@ namespace UnityEngine::UI {
     // static field const value: static private System.String kEmailSpecialCharacters
     static constexpr const char* kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
     // Get static field: static private System.String kEmailSpecialCharacters
-    static ::Il2CppString* _get_kEmailSpecialCharacters();
+    static ::CsString* _get_kEmailSpecialCharacters();
     // Set static field: static private System.String kEmailSpecialCharacters
-    static void _set_kEmailSpecialCharacters(::Il2CppString* value);
+    static void _set_kEmailSpecialCharacters(::CsString* value);
     // private UnityEngine.Event m_ProcessingEvent
     // Offset: 0x200
     UnityEngine::Event* m_ProcessingEvent;
@@ -450,7 +450,7 @@ namespace UnityEngine::UI {
     UnityEngine::EventSystems::BaseInput* get_input();
     // private System.String get_compositionString()
     // Offset: 0x1160664
-    ::Il2CppString* get_compositionString();
+    ::CsString* get_compositionString();
     // protected UnityEngine.Mesh get_mesh()
     // Offset: 0x1160978
     UnityEngine::Mesh* get_mesh();
@@ -468,16 +468,16 @@ namespace UnityEngine::UI {
     bool get_shouldActivateOnSelect();
     // public System.String get_text()
     // Offset: 0x1160B74
-    ::Il2CppString* get_text();
+    ::CsString* get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x1160B7C
-    void set_text(::Il2CppString* value);
+    void set_text(::CsString* value);
     // public System.Void SetTextWithoutNotify(System.String input)
     // Offset: 0x1160E70
-    void SetTextWithoutNotify(::Il2CppString* input);
+    void SetTextWithoutNotify(::CsString* input);
     // private System.Void SetText(System.String value, System.Boolean sendCallback)
     // Offset: 0x1160B84
-    void SetText(::Il2CppString* value, bool sendCallback);
+    void SetText(::CsString* value, bool sendCallback);
     // public System.Boolean get_isFocused()
     // Offset: 0x116137C
     bool get_isFocused();
@@ -663,10 +663,10 @@ namespace UnityEngine::UI {
     void MoveTextStart(bool shift);
     // static private System.String get_clipboard()
     // Offset: 0x1162CA8
-    static ::Il2CppString* get_clipboard();
+    static ::CsString* get_clipboard();
     // static private System.Void set_clipboard(System.String value)
     // Offset: 0x1162CB0
-    static void set_clipboard(::Il2CppString* value);
+    static void set_clipboard(::CsString* value);
     // private System.Boolean InPlaceEditing()
     // Offset: 0x1162CB8
     bool InPlaceEditing();
@@ -702,7 +702,7 @@ namespace UnityEngine::UI {
     void ProcessEvent(UnityEngine::Event* e);
     // private System.String GetSelectedString()
     // Offset: 0x116574C
-    ::Il2CppString* GetSelectedString();
+    ::CsString* GetSelectedString();
     // private System.Int32 FindtNextWordBegin()
     // Offset: 0x1165EFC
     int FindtNextWordBegin();
@@ -762,7 +762,7 @@ namespace UnityEngine::UI {
     void SendOnSubmit();
     // protected System.Void Append(System.String input)
     // Offset: 0x1166C98
-    void Append(::Il2CppString* input);
+    void Append(::CsString* input);
     // protected System.Void Append(System.Char input)
     // Offset: 0x1166D58
     void Append(::Il2CppChar input);
@@ -807,7 +807,7 @@ namespace UnityEngine::UI {
     void GenerateHighlight(UnityEngine::UI::VertexHelper* vbo, UnityEngine::Vector2 roundingOffset);
     // protected System.Char Validate(System.String text, System.Int32 pos, System.Char ch)
     // Offset: 0x1163B5C
-    ::Il2CppChar Validate(::Il2CppString* text, int pos, ::Il2CppChar ch);
+    ::Il2CppChar Validate(::CsString* text, int pos, ::Il2CppChar ch);
     // public System.Void ActivateInputField()
     // Offset: 0x11694F4
     void ActivateInputField();

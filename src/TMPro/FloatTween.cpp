@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.FloatTween
 #include "TMPro/FloatTween.hpp"
 // Including type: TMPro.FloatTween/FloatTweenCallback

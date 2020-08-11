@@ -27,13 +27,13 @@ namespace UnityEngine::UI {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x11E75B8
-    static InputField::OnValidateInput* New_ctor(::Il2CppObject* object, System::IntPtr method);
+    static InputField::OnValidateInput* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Char Invoke(System.String text, System.Int32 charIndex, System.Char addedChar)
     // Offset: 0x11E75CC
-    ::Il2CppChar Invoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar);
+    ::Il2CppChar Invoke(::CsString* text, int charIndex, ::Il2CppChar addedChar);
     // public System.IAsyncResult BeginInvoke(System.String text, System.Int32 charIndex, System.Char addedChar, System.AsyncCallback callback, System.Object object)
     // Offset: 0x11E7A24
-    System::IAsyncResult* BeginInvoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::CsString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Char EndInvoke(System.IAsyncResult result)
     // Offset: 0x11E7AE0
     ::Il2CppChar EndInvoke(System::IAsyncResult* result);

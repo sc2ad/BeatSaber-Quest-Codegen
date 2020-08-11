@@ -15,10 +15,10 @@ namespace Oculus::Platform {
     public:
     // private System.String ovrAppID
     // Offset: 0x18
-    ::Il2CppString* ovrAppID;
+    ::CsString* ovrAppID;
     // private System.String ovrMobileAppID
     // Offset: 0x20
-    ::Il2CppString* ovrMobileAppID;
+    ::CsString* ovrMobileAppID;
     // private System.Boolean ovrUseStandalonePlatform
     // Offset: 0x28
     bool ovrUseStandalonePlatform;
@@ -28,16 +28,16 @@ namespace Oculus::Platform {
     static void _set_instance(Oculus::Platform::PlatformSettings* value);
     // static public System.String get_AppID()
     // Offset: 0xE82B94
-    static ::Il2CppString* get_AppID();
+    static ::CsString* get_AppID();
     // static public System.Void set_AppID(System.String value)
     // Offset: 0xE965E4
-    static void set_AppID(::Il2CppString* value);
+    static void set_AppID(::CsString* value);
     // static public System.String get_MobileAppID()
     // Offset: 0xE82B74
-    static ::Il2CppString* get_MobileAppID();
+    static ::CsString* get_MobileAppID();
     // static public System.Void set_MobileAppID(System.String value)
     // Offset: 0xE96614
-    static void set_MobileAppID(::Il2CppString* value);
+    static void set_MobileAppID(::CsString* value);
     // static public System.Boolean get_UseStandalonePlatform()
     // Offset: 0xE82730
     static bool get_UseStandalonePlatform();

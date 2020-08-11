@@ -191,7 +191,7 @@ namespace HMUI {
     UnityEngine::Vector3 EvaluateSlideAnimation(HMUI::ViewController::SlideAnimationDirection slideAnimationDirection, HMUI::ViewController::SlideAnimationType slideAnimationType, float t);
     // static public System.Void Log(System.String message)
     // Offset: 0x10D77E4
-    static void Log(::Il2CppString* message);
+    static void Log(::CsString* message);
     // public System.Void .ctor()
     // Offset: 0x10D5BA0
     // Implemented from: UnityEngine.MonoBehaviour

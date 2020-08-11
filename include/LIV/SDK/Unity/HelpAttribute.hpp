@@ -8,7 +8,7 @@
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: LIV.SDK.Unity
 namespace LIV::SDK::Unity {
@@ -17,10 +17,10 @@ namespace LIV::SDK::Unity {
     public:
     // public readonly System.String text
     // Offset: 0x10
-    ::Il2CppString* text;
+    ::CsString* text;
     // public System.Void .ctor(System.String text)
     // Offset: 0x1967C58
-    static HelpAttribute* New_ctor(::Il2CppString* text);
+    static HelpAttribute* New_ctor(::CsString* text);
   }; // LIV.SDK.Unity.HelpAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

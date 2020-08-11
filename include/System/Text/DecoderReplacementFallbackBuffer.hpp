@@ -22,7 +22,7 @@ namespace System::Text {
     public:
     // private System.String strDefault
     // Offset: 0x20
-    ::Il2CppString* strDefault;
+    ::CsString* strDefault;
     // private System.Int32 fallbackCount
     // Offset: 0x28
     int fallbackCount;

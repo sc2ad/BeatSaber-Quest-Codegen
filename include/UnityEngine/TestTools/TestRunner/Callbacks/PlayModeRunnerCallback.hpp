@@ -52,7 +52,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // private System.Void LogRecieved(System.String message, System.String stacktrace, UnityEngine.LogType type)
     // Offset: 0xE2DD90
-    void LogRecieved(::Il2CppString* message, ::Il2CppString* stacktrace, UnityEngine::LogType type);
+    void LogRecieved(::CsString* message, ::CsString* stacktrace, UnityEngine::LogType type);
     // public System.Void .ctor()
     // Offset: 0xE2DE40
     // Implemented from: UnityEngine.MonoBehaviour

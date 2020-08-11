@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Serialization.ISurrogateSelector
 #include "System/Runtime/Serialization/ISurrogateSelector.hpp"
 // Including type: System.Runtime.Serialization.ISerializationSurrogate

@@ -36,7 +36,7 @@ namespace System::Text {
     // Offset: 0x12DF088
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.String s)
-    int GetByteCount(::Il2CppString* s);
+    int GetByteCount(::CsString* s);
     // public override System.Int32 GetByteCount(System.Char* chars, System.Int32 count)
     // Offset: 0x12DF138
     // Implemented from: System.Text.Encoding
@@ -46,7 +46,7 @@ namespace System::Text {
     // Offset: 0x12DF254
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.String s, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
-    int GetBytes(::Il2CppString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
+    int GetBytes(::CsString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     // Offset: 0x12DF4C4
     // Implemented from: System.Text.Encoding
@@ -81,7 +81,7 @@ namespace System::Text {
     // Offset: 0x12DFFBC
     // Implemented from: System.Text.Encoding
     // Base method: System.String Encoding::GetString(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    ::Il2CppString* GetString(::Array<uint8_t>* bytes, int index, int count);
+    ::CsString* GetString(::Array<uint8_t>* bytes, int index, int count);
     // public override System.Text.Decoder GetDecoder()
     // Offset: 0x12E0194
     // Implemented from: System.Text.Encoding

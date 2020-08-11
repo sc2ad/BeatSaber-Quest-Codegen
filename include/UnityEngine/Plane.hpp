@@ -66,7 +66,7 @@ namespace UnityEngine {
     // Offset: 0xA44E00
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // UnityEngine.Plane
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

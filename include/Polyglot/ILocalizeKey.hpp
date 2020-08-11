@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: Polyglot
 namespace Polyglot {
@@ -15,7 +15,7 @@ namespace Polyglot {
     public:
     // public System.String get_Key()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Key();
+    ::CsString* get_Key();
   }; // Polyglot.ILocalizeKey
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     void ChangeHighlight(bool value, bool ignoreCurrentValue);
     // public System.Void SetText(System.String text)
     // Offset: 0xBF4A84
-    void SetText(::Il2CppString* text);
+    void SetText(::CsString* text);
     // private System.Void InternalToggle()
     // Offset: 0xBF99BC
     void InternalToggle();

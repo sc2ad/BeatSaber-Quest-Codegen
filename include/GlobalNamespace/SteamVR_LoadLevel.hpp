@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     static void _set__active(GlobalNamespace::SteamVR_LoadLevel* value);
     // public System.String levelName
     // Offset: 0x18
-    ::Il2CppString* levelName;
+    ::CsString* levelName;
     // public System.String internalProcessPath
     // Offset: 0x20
-    ::Il2CppString* internalProcessPath;
+    ::CsString* internalProcessPath;
     // public System.String internalProcessArgs
     // Offset: 0x28
-    ::Il2CppString* internalProcessArgs;
+    ::CsString* internalProcessArgs;
     // public System.Boolean loadAdditive
     // Offset: 0x30
     bool loadAdditive;
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     void Trigger();
     // static public System.Void Begin(System.String levelName, System.Boolean showGrid, System.Single fadeOutTime, System.Single r, System.Single g, System.Single b, System.Single a)
     // Offset: 0xD70ABC
-    static void Begin(::Il2CppString* levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
+    static void Begin(::CsString* levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
     // private System.Void OnGUI()
     // Offset: 0xD70BD0
     void OnGUI();
@@ -170,7 +170,7 @@ namespace GlobalNamespace {
     System::Collections::IEnumerator* LoadLevel();
     // private System.UInt64 GetOverlayHandle(System.String overlayName, UnityEngine.Transform transform, System.Single widthInMeters)
     // Offset: 0xD7102C
-    uint64_t GetOverlayHandle(::Il2CppString* overlayName, UnityEngine::Transform* transform, float widthInMeters);
+    uint64_t GetOverlayHandle(::CsString* overlayName, UnityEngine::Transform* transform, float widthInMeters);
     // public System.Void .ctor()
     // Offset: 0xD71644
     // Implemented from: UnityEngine.MonoBehaviour

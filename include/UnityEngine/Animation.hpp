@@ -33,16 +33,16 @@ namespace UnityEngine {
     class Enumerator;
     // public UnityEngine.AnimationState get_Item(System.String name)
     // Offset: 0x1922430
-    UnityEngine::AnimationState* get_Item(::Il2CppString* name);
+    UnityEngine::AnimationState* get_Item(::CsString* name);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength, UnityEngine.PlayMode mode)
     // Offset: 0x19224D0
-    void CrossFade(::Il2CppString* animation, float fadeLength, UnityEngine::PlayMode mode);
+    void CrossFade(::CsString* animation, float fadeLength, UnityEngine::PlayMode mode);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength)
     // Offset: 0x1922538
-    void CrossFade(::Il2CppString* animation, float fadeLength);
+    void CrossFade(::CsString* animation, float fadeLength);
     // UnityEngine.AnimationState GetState(System.String name)
     // Offset: 0x1922480
-    UnityEngine::AnimationState* GetState(::Il2CppString* name);
+    UnityEngine::AnimationState* GetState(::CsString* name);
     // UnityEngine.AnimationState GetStateAtIndex(System.Int32 index)
     // Offset: 0x1922650
     UnityEngine::AnimationState* GetStateAtIndex(int index);

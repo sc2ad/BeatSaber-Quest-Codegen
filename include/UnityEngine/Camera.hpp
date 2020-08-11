@@ -250,7 +250,7 @@ namespace UnityEngine {
     void Render();
     // public System.Void RenderWithShader(UnityEngine.Shader shader, System.String replacementTag)
     // Offset: 0x12ED53C
-    void RenderWithShader(UnityEngine::Shader* shader, ::Il2CppString* replacementTag);
+    void RenderWithShader(UnityEngine::Shader* shader, ::CsString* replacementTag);
     // public System.Void CopyFrom(UnityEngine.Camera other)
     // Offset: 0x12ED594
     void CopyFrom(UnityEngine::Camera* other);

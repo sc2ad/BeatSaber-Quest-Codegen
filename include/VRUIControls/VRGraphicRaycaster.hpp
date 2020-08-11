@@ -73,7 +73,7 @@ namespace VRUIControls {
       // Offset: 0xA59DDC
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
-      ::Il2CppString* ToString();
+      ::CsString* ToString();
     }; // VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult
     // private UnityEngine.LayerMask _blockingMask
     // Offset: 0x20

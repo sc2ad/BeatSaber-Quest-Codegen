@@ -58,7 +58,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xDE3D54
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // protected override System.Void OnEnable()
     // Offset: 0xDE404C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour

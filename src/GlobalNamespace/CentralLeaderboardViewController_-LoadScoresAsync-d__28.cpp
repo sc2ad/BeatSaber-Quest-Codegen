@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CentralLeaderboardViewController/<LoadScoresAsync>d__28
 #include "GlobalNamespace/CentralLeaderboardViewController_-LoadScoresAsync-d__28.hpp"
 // Including type: IDifficultyBeatmap

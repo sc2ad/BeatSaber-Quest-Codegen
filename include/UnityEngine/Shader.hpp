@@ -28,19 +28,19 @@ namespace UnityEngine {
     public:
     // static public UnityEngine.Shader Find(System.String name)
     // Offset: 0x1376E98
-    static UnityEngine::Shader* Find(::Il2CppString* name);
+    static UnityEngine::Shader* Find(::CsString* name);
     // public System.Boolean get_isSupported()
     // Offset: 0x1376ED8
     bool get_isSupported();
     // static public System.Void EnableKeyword(System.String keyword)
     // Offset: 0x1376F18
-    static void EnableKeyword(::Il2CppString* keyword);
+    static void EnableKeyword(::CsString* keyword);
     // static public System.Void DisableKeyword(System.String keyword)
     // Offset: 0x1376F58
-    static void DisableKeyword(::Il2CppString* keyword);
+    static void DisableKeyword(::CsString* keyword);
     // static public System.Int32 PropertyToID(System.String name)
     // Offset: 0x1372588
-    static int PropertyToID(::Il2CppString* name);
+    static int PropertyToID(::CsString* name);
     // static private System.Void SetGlobalFloatImpl(System.Int32 name, System.Single value)
     // Offset: 0x1376F98
     static void SetGlobalFloatImpl(int name, float value);
@@ -76,7 +76,7 @@ namespace UnityEngine {
     static void SetGlobalMatrix(int nameID, UnityEngine::Matrix4x4 value);
     // static public System.Void SetGlobalTexture(System.String name, UnityEngine.Texture value)
     // Offset: 0x1377418
-    static void SetGlobalTexture(::Il2CppString* name, UnityEngine::Texture* value);
+    static void SetGlobalTexture(::CsString* name, UnityEngine::Texture* value);
     // static public System.Void SetGlobalTexture(System.Int32 nameID, UnityEngine.Texture value)
     // Offset: 0x1377494
     static void SetGlobalTexture(int nameID, UnityEngine::Texture* value);

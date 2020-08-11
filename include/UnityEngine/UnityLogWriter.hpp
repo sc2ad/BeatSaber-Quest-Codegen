@@ -22,10 +22,10 @@ namespace UnityEngine {
     public:
     // static public System.Void WriteStringToUnityLog(System.String s)
     // Offset: 0x137F980
-    static void WriteStringToUnityLog(::Il2CppString* s);
+    static void WriteStringToUnityLog(::CsString* s);
     // static private System.Void WriteStringToUnityLogImpl(System.String s)
     // Offset: 0x137F9C8
-    static void WriteStringToUnityLogImpl(::Il2CppString* s);
+    static void WriteStringToUnityLogImpl(::CsString* s);
     // static public System.Void Init()
     // Offset: 0x137FA08
     static void Init();
@@ -43,7 +43,7 @@ namespace UnityEngine {
     // Offset: 0x137FB54
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String s)
-    void Write(::Il2CppString* s);
+    void Write(::CsString* s);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x137FB9C
     // Implemented from: System.IO.TextWriter

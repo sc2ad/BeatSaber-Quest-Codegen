@@ -32,13 +32,13 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.Int32 DEFAULT_LINE_LENGTH
     static void _set_DEFAULT_LINE_LENGTH(int value);
     // Get static field: static public readonly System.String Pfx_Expected
-    static ::Il2CppString* _get_Pfx_Expected();
+    static ::CsString* _get_Pfx_Expected();
     // Set static field: static public readonly System.String Pfx_Expected
-    static void _set_Pfx_Expected(::Il2CppString* value);
+    static void _set_Pfx_Expected(::CsString* value);
     // Get static field: static public readonly System.String Pfx_Actual
-    static ::Il2CppString* _get_Pfx_Actual();
+    static ::CsString* _get_Pfx_Actual();
     // Set static field: static public readonly System.String Pfx_Actual
-    static void _set_Pfx_Actual(::Il2CppString* value);
+    static void _set_Pfx_Actual(::CsString* value);
     // Get static field: static public readonly System.Int32 PrefixLength
     static int _get_PrefixLength();
     // Set static field: static public readonly System.Int32 PrefixLength
@@ -48,22 +48,22 @@ namespace NUnit::Framework::Internal {
     int maxLineLength;
     // public System.Void .ctor(System.String userMessage, System.Object[] args)
     // Offset: 0x18DF23C
-    static TextMessageWriter* New_ctor(::Il2CppString* userMessage, ::Array<::Il2CppObject*>* args);
+    static TextMessageWriter* New_ctor(::CsString* userMessage, ::Array<::CsObject*>* args);
     // private System.Void WriteExpectedLine(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x18DF450
     void WriteExpectedLine(NUnit::Framework::Constraints::ConstraintResult* result);
     // private System.Void WriteExpectedLine(System.Object expected)
     // Offset: 0x18DF5EC
-    void WriteExpectedLine(::Il2CppObject* expected);
+    void WriteExpectedLine(::CsObject* expected);
     // private System.Void WriteExpectedLine(System.Object expected, NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x18DF6D8
-    void WriteExpectedLine(::Il2CppObject* expected, NUnit::Framework::Constraints::Tolerance* tolerance);
+    void WriteExpectedLine(::CsObject* expected, NUnit::Framework::Constraints::Tolerance* tolerance);
     // private System.Void WriteActualLine(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x18DF504
     void WriteActualLine(NUnit::Framework::Constraints::ConstraintResult* result);
     // private System.Void WriteActualLine(System.Object actual)
     // Offset: 0x18DF5F4
-    void WriteActualLine(::Il2CppObject* actual);
+    void WriteActualLine(::CsObject* actual);
     // private System.Void WriteCaretLine(System.Int32 mismatch)
     // Offset: 0x18DFAD0
     void WriteCaretLine(int mismatch);
@@ -76,7 +76,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18DF318
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteMessageLine(System.Int32 level, System.String message, System.Object[] args)
-    void WriteMessageLine(int level, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
+    void WriteMessageLine(int level, ::CsString* message, ::Array<::CsObject*>* args);
     // public override System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x18DF424
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
@@ -86,27 +86,27 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18DF5BC
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(System.Object expected, System.Object actual)
-    void DisplayDifferences(::Il2CppObject* expected, ::Il2CppObject* actual);
+    void DisplayDifferences(::CsObject* expected, ::CsObject* actual);
     // public override System.Void DisplayDifferences(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
     // Offset: 0x18DF6A8
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    void DisplayDifferences(::Il2CppObject* expected, ::Il2CppObject* actual, NUnit::Framework::Constraints::Tolerance* tolerance);
+    void DisplayDifferences(::CsObject* expected, ::CsObject* actual, NUnit::Framework::Constraints::Tolerance* tolerance);
     // public override System.Void DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
     // Offset: 0x18DF8AC
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
-    void DisplayStringDifferences(::Il2CppString* expected, ::Il2CppString* actual, int mismatch, bool ignoreCase, bool clipping);
+    void DisplayStringDifferences(::CsString* expected, ::CsString* actual, int mismatch, bool ignoreCase, bool clipping);
     // public override System.Void WriteActualValue(System.Object actual)
     // Offset: 0x18DFB80
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteActualValue(System.Object actual)
-    void WriteActualValue(::Il2CppObject* actual);
+    void WriteActualValue(::CsObject* actual);
     // public override System.Void WriteValue(System.Object val)
     // Offset: 0x18DFB90
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteValue(System.Object val)
-    void WriteValue(::Il2CppObject* val);
+    void WriteValue(::CsObject* val);
     // public override System.Void WriteCollectionElements(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
     // Offset: 0x18DFC1C
     // Implemented from: NUnit.Framework.Constraints.MessageWriter

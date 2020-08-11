@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* get_buyPackButton();
     // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
     // Offset: 0xB88778
-    void RefreshView(::Il2CppString* infoText, bool canBuyPack);
+    void RefreshView(::CsString* infoText, bool canBuyPack);
     // public System.Void .ctor()
     // Offset: 0xB887EC
     // Implemented from: UnityEngine.MonoBehaviour

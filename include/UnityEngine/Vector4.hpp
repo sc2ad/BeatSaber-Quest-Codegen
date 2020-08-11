@@ -94,7 +94,7 @@ namespace UnityEngine {
     static UnityEngine::Vector4 get_one();
     // public System.String ToString(System.String format)
     // Offset: 0xA43E2C
-    ::Il2CppString* ToString(::Il2CppString* format);
+    ::CsString* ToString(::CsString* format);
     // static private System.Void .cctor()
     // Offset: 0x13840DC
     static void _cctor();
@@ -107,7 +107,7 @@ namespace UnityEngine {
     // Offset: 0xA43DD0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::Il2CppObject* other);
+    bool Equals(::CsObject* other);
     // public System.Boolean Equals(UnityEngine.Vector4 other)
     // Offset: 0xA43DD8
     // Implemented from: System.IEquatable`1
@@ -117,7 +117,7 @@ namespace UnityEngine {
     // Offset: 0xA43E24
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // UnityEngine.Vector4
   // static public UnityEngine.Vector4 op_Addition(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
   // Offset: 0x1383B34

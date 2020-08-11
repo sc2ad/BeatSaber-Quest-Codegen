@@ -36,21 +36,21 @@ namespace System::Security::Cryptography::X509Certificates {
     // static field const value: static System.String oid
     static constexpr const char* oid = "2.5.29.14";
     // Get static field: static System.String oid
-    static ::Il2CppString* _get_oid();
+    static ::CsString* _get_oid();
     // Set static field: static System.String oid
-    static void _set_oid(::Il2CppString* value);
+    static void _set_oid(::CsString* value);
     // static field const value: static System.String friendlyName
     static constexpr const char* friendlyName = "Subject Key Identifier";
     // Get static field: static System.String friendlyName
-    static ::Il2CppString* _get_friendlyName();
+    static ::CsString* _get_friendlyName();
     // Set static field: static System.String friendlyName
-    static void _set_friendlyName(::Il2CppString* value);
+    static void _set_friendlyName(::CsString* value);
     // private System.Byte[] _subjectKeyIdentifier
     // Offset: 0x28
     ::Array<uint8_t>* subjectKeyIdentifier;
     // private System.String _ski
     // Offset: 0x30
-    ::Il2CppString* ski;
+    ::CsString* ski;
     // private System.Security.Cryptography.AsnDecodeStatus _status
     // Offset: 0x38
     System::Security::Cryptography::AsnDecodeStatus status;
@@ -62,7 +62,7 @@ namespace System::Security::Cryptography::X509Certificates {
     static X509SubjectKeyIdentifierExtension* New_ctor(::Array<uint8_t>* subjectKeyIdentifier, bool critical);
     // public System.Void .ctor(System.String subjectKeyIdentifier, System.Boolean critical)
     // Offset: 0x1205F24
-    static X509SubjectKeyIdentifierExtension* New_ctor(::Il2CppString* subjectKeyIdentifier, bool critical);
+    static X509SubjectKeyIdentifierExtension* New_ctor(::CsString* subjectKeyIdentifier, bool critical);
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.PublicKey key, System.Boolean critical)
     // Offset: 0x1206170
     static X509SubjectKeyIdentifierExtension* New_ctor(System::Security::Cryptography::X509Certificates::PublicKey* key, bool critical);
@@ -71,7 +71,7 @@ namespace System::Security::Cryptography::X509Certificates {
     static X509SubjectKeyIdentifierExtension* New_ctor(System::Security::Cryptography::X509Certificates::PublicKey* key, System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical);
     // public System.String get_SubjectKeyIdentifier()
     // Offset: 0x12064F8
-    ::Il2CppString* get_SubjectKeyIdentifier();
+    ::CsString* get_SubjectKeyIdentifier();
     // static System.Byte FromHexChar(System.Char c)
     // Offset: 0x120674C
     static uint8_t FromHexChar(::Il2CppChar c);
@@ -80,7 +80,7 @@ namespace System::Security::Cryptography::X509Certificates {
     static uint8_t FromHexChars(::Il2CppChar c1, ::Il2CppChar c2);
     // static System.Byte[] FromHex(System.String hex)
     // Offset: 0x1206068
-    static ::Array<uint8_t>* FromHex(::Il2CppString* hex);
+    static ::Array<uint8_t>* FromHex(::CsString* hex);
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
     // Offset: 0x1205BA4
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
@@ -103,7 +103,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1206830
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
-    ::Il2CppString* ToString(bool multiLine);
+    ::CsString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

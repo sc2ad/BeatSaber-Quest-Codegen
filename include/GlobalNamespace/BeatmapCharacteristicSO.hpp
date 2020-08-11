@@ -25,16 +25,16 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* icon;
     // private System.String _descriptionLocalizationKey
     // Offset: 0x20
-    ::Il2CppString* descriptionLocalizationKey;
+    ::CsString* descriptionLocalizationKey;
     // private System.String _characteristicNameLocalizationKey
     // Offset: 0x28
-    ::Il2CppString* characteristicNameLocalizationKey;
+    ::CsString* characteristicNameLocalizationKey;
     // private System.String _serializedName
     // Offset: 0x30
-    ::Il2CppString* serializedName;
+    ::CsString* serializedName;
     // private System.String _compoundIdPartName
     // Offset: 0x38
-    ::Il2CppString* compoundIdPartName;
+    ::CsString* compoundIdPartName;
     // private System.Int32 _sortingOrder
     // Offset: 0x40
     int sortingOrder;
@@ -49,16 +49,16 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
     // Offset: 0x197684C
-    ::Il2CppString* get_descriptionLocalizationKey();
+    ::CsString* get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
     // Offset: 0x1976854
-    ::Il2CppString* get_characteristicNameLocalizationKey();
+    ::CsString* get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
     // Offset: 0x197685C
-    ::Il2CppString* get_serializedName();
+    ::CsString* get_serializedName();
     // public System.String get_compoundIdPartName()
     // Offset: 0x1976864
-    ::Il2CppString* get_compoundIdPartName();
+    ::CsString* get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
     // Offset: 0x197686C
     int get_sortingOrder();

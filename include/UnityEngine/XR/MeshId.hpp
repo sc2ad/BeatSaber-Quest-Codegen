@@ -11,8 +11,8 @@
 #include "System/IEquatable_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
-struct Il2CppObject;
+struct CsString;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
@@ -38,7 +38,7 @@ namespace UnityEngine::XR {
     // Offset: 0xA5B4C8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0xA5B4D0
     // Implemented from: System.ValueType
@@ -48,7 +48,7 @@ namespace UnityEngine::XR {
     // Offset: 0xA5B50C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshId other)
     // Offset: 0xA5B514
     // Implemented from: System.IEquatable`1

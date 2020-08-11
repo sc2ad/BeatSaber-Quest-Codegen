@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Experimental.Animations.IAnimationWindowPreview
 #include "UnityEngine/Experimental/Animations/IAnimationWindowPreview.hpp"
 // Including type: UnityEngine.Playables.PlayableGraph

@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // private System.Collections.Generic.HashSet`1<System.String> _missionIds
     // Offset: 0x20
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* missionIds;
+    System::Collections::Generic::HashSet_1<::CsString*>* missionIds;
     // private System.String _finalMissionId
     // Offset: 0x28
-    ::Il2CppString* finalMissionId;
+    ::CsString* finalMissionId;
     // private System.Boolean _numberOfClearedMissionsDirty
     // Offset: 0x30
     bool numberOfClearedMissionsDirty;
@@ -49,28 +49,28 @@ namespace GlobalNamespace {
     void Awake();
     // public System.Boolean IsMissionRegistered(System.String missionId)
     // Offset: 0xB5F9E0
-    bool IsMissionRegistered(::Il2CppString* missionId);
+    bool IsMissionRegistered(::CsString* missionId);
     // public System.Void RegisterMissionId(System.String missionId)
     // Offset: 0xB5FA48
-    void RegisterMissionId(::Il2CppString* missionId);
+    void RegisterMissionId(::CsString* missionId);
     // public System.Boolean IsMissionCleared(System.String missionId)
     // Offset: 0xB5FABC
-    bool IsMissionCleared(::Il2CppString* missionId);
+    bool IsMissionCleared(::CsString* missionId);
     // public System.Boolean IsMissionFinal(System.String missionId)
     // Offset: 0xB5FAF0
-    bool IsMissionFinal(::Il2CppString* missionId);
+    bool IsMissionFinal(::CsString* missionId);
     // public System.Void SetFinalMissionId(System.String missionId)
     // Offset: 0xB5FAFC
-    void SetFinalMissionId(::Il2CppString* missionId);
+    void SetFinalMissionId(::CsString* missionId);
     // public System.Boolean WillFinishGameAfterThisMission(System.String missionId)
     // Offset: 0xB5F588
-    bool WillFinishGameAfterThisMission(::Il2CppString* missionId);
+    bool WillFinishGameAfterThisMission(::CsString* missionId);
     // public System.Void SetMissionCleared(System.String missionId)
     // Offset: 0xB5F5D4
-    void SetMissionCleared(::Il2CppString* missionId);
+    void SetMissionCleared(::CsString* missionId);
     // public System.Void __SetMissionCleared(System.String missionId, System.Boolean cleared)
     // Offset: 0xB5FB04
-    void __SetMissionCleared(::Il2CppString* missionId, bool cleared);
+    void __SetMissionCleared(::CsString* missionId, bool cleared);
     // private System.Int32 UpdateNumberOfClearedMissions()
     // Offset: 0xB5F83C
     int UpdateNumberOfClearedMissions();

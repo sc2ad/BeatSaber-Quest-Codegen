@@ -18,17 +18,17 @@ namespace NUnit::Framework::Constraints {
     // Implemented from: NUnit.Framework.Constraints.PathConstraint
     // Base method: System.Void PathConstraint::.ctor(System.String expected)
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
-    static SamePathConstraint* New_ctor(::Il2CppString* expected);
+    static SamePathConstraint* New_ctor(::CsString* expected);
     // public override System.String get_Description()
     // Offset: 0x106A400
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.String StringConstraint::get_Description()
-    ::Il2CppString* get_Description();
+    ::CsString* get_Description();
     // protected override System.Boolean Matches(System.String actual)
     // Offset: 0x106A484
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Boolean StringConstraint::Matches(System.String actual)
-    bool Matches(::Il2CppString* actual);
+    bool Matches(::CsString* actual);
   }; // NUnit.Framework.Constraints.SamePathConstraint
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

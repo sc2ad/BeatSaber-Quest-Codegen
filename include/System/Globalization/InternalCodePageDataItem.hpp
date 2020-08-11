@@ -9,7 +9,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -27,9 +27,9 @@ namespace System::Globalization {
     uint flags;
     // System.String Names
     // Offset: 0x8
-    ::Il2CppString* Names;
+    ::CsString* Names;
     // Creating value type constructor for type: InternalCodePageDataItem
-    InternalCodePageDataItem(uint16_t codePage_ = {}, uint16_t uiFamilyCodePage_ = {}, uint flags_ = {}, ::Il2CppString* Names_ = {}) : codePage{codePage_}, uiFamilyCodePage{uiFamilyCodePage_}, flags{flags_}, Names{Names_} {}
+    InternalCodePageDataItem(uint16_t codePage_ = {}, uint16_t uiFamilyCodePage_ = {}, uint flags_ = {}, ::CsString* Names_ = {}) : codePage{codePage_}, uiFamilyCodePage{uiFamilyCodePage_}, flags{flags_}, Names{Names_} {}
   }; // System.Globalization.InternalCodePageDataItem
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

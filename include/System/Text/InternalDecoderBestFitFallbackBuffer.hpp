@@ -33,12 +33,12 @@ namespace System::Text {
     // Offset: 0x30
     System::Text::InternalDecoderBestFitFallback* oFallback;
     // Get static field: static private System.Object s_InternalSyncObject
-    static ::Il2CppObject* _get_s_InternalSyncObject();
+    static ::CsObject* _get_s_InternalSyncObject();
     // Set static field: static private System.Object s_InternalSyncObject
-    static void _set_s_InternalSyncObject(::Il2CppObject* value);
+    static void _set_s_InternalSyncObject(::CsObject* value);
     // static private System.Object get_InternalSyncObject()
     // Offset: 0x12E052C
-    static ::Il2CppObject* get_InternalSyncObject();
+    static ::CsObject* get_InternalSyncObject();
     // public System.Void .ctor(System.Text.InternalDecoderBestFitFallback fallback)
     // Offset: 0x12E0324
     static InternalDecoderBestFitFallbackBuffer* New_ctor(System::Text::InternalDecoderBestFitFallback* fallback);

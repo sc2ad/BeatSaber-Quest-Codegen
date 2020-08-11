@@ -26,7 +26,7 @@ namespace System {
     // Offset: 0x177BEA8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
-    static TimeZoneNotFoundException* New_ctor(::Il2CppString* message, System::Exception* innerException);
+    static TimeZoneNotFoundException* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x177BF28
     // Implemented from: System.Exception

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.SpinLock
 #include "System/Threading/SpinLock.hpp"
 // Including type: System.Threading.SpinLock/SystemThreading_SpinLockDebugView

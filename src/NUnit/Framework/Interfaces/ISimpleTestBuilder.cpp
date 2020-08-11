@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.ISimpleTestBuilder
 #include "NUnit/Framework/Interfaces/ISimpleTestBuilder.hpp"
 // Including type: NUnit.Framework.Internal.TestMethod

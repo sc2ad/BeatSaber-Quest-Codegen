@@ -8,7 +8,7 @@
 #include "GlobalNamespace/SceneSetupData.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -17,19 +17,19 @@ namespace GlobalNamespace {
     public:
     // private System.String _levelDirPath
     // Offset: 0x10
-    ::Il2CppString* levelDirPath;
+    ::CsString* levelDirPath;
     // private System.String _levelAssetPath
     // Offset: 0x18
-    ::Il2CppString* levelAssetPath;
+    ::CsString* levelAssetPath;
     // public System.String get_levelDirPath()
     // Offset: 0x197A938
-    ::Il2CppString* get_levelDirPath();
+    ::CsString* get_levelDirPath();
     // public System.String get_levelAssetPath()
     // Offset: 0x197A940
-    ::Il2CppString* get_levelAssetPath();
+    ::CsString* get_levelAssetPath();
     // public System.Void .ctor(System.String levelDirPath, System.String levelAssetPath)
     // Offset: 0x197A948
-    static BeatmapEditorSceneSetupData* New_ctor(::Il2CppString* levelDirPath, ::Il2CppString* levelAssetPath);
+    static BeatmapEditorSceneSetupData* New_ctor(::CsString* levelDirPath, ::CsString* levelAssetPath);
   }; // BeatmapEditorSceneSetupData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

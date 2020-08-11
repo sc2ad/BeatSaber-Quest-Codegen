@@ -169,9 +169,9 @@ namespace UnityEngine::Timeline {
     // static field const value: static System.String kDefaultCurvesName
     static constexpr const char* kDefaultCurvesName = "Track Parameters";
     // Get static field: static System.String kDefaultCurvesName
-    static ::Il2CppString* _get_kDefaultCurvesName();
+    static ::CsString* _get_kDefaultCurvesName();
     // Set static field: static System.String kDefaultCurvesName
-    static void _set_kDefaultCurvesName(::Il2CppString* value);
+    static void _set_kDefaultCurvesName(::CsString* value);
     // Get static field: static private System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate
     static System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* _get_OnClipPlayableCreate();
     // Set static field: static private System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate
@@ -188,7 +188,7 @@ namespace UnityEngine::Timeline {
     bool m_Muted;
     // private System.String m_CustomPlayableFullTypename
     // Offset: 0x30
-    ::Il2CppString* m_CustomPlayableFullTypename;
+    ::CsString* m_CustomPlayableFullTypename;
     // private UnityEngine.AnimationClip m_Curves
     // Offset: 0x38
     UnityEngine::AnimationClip* m_Curves;
@@ -301,10 +301,10 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* GetChildTracks();
     // System.String get_customPlayableTypename()
     // Offset: 0x18EEEA0
-    ::Il2CppString* get_customPlayableTypename();
+    ::CsString* get_customPlayableTypename();
     // System.Void set_customPlayableTypename(System.String value)
     // Offset: 0x18EEEA8
-    void set_customPlayableTypename(::Il2CppString* value);
+    void set_customPlayableTypename(::CsString* value);
     // System.Void set_curves(UnityEngine.AnimationClip value)
     // Offset: 0x18EEEB8
     void set_curves(UnityEngine::AnimationClip* value);
@@ -533,7 +533,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18EEEC0
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: System.String ICurvesOwner::get_defaultCurvesName()
-    ::Il2CppString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
+    ::CsString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
     // private UnityEngine.Object UnityEngine.Timeline.ICurvesOwner.get_asset()
     // Offset: 0x18EEF08
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
@@ -553,7 +553,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18EF25C
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: System.Void ICurvesOwner::CreateCurves(System.String curvesClipName)
-    void CreateCurves(::Il2CppString* curvesClipName);
+    void CreateCurves(::CsString* curvesClipName);
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     // Offset: 0x18EF3AC
     // Implemented from: UnityEngine.Playables.PlayableAsset

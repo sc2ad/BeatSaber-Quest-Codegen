@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xC14980
-    static SaberSwingRatingCounter::DidChangeDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
+    static SaberSwingRatingCounter::DidChangeDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(SaberSwingRatingCounter afterCutRating, System.Single rating)
     // Offset: 0xC14560
     void Invoke(GlobalNamespace::SaberSwingRatingCounter* afterCutRating, float rating);
     // public System.IAsyncResult BeginInvoke(SaberSwingRatingCounter afterCutRating, System.Single rating, System.AsyncCallback callback, System.Object object)
     // Offset: 0xC14994
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::SaberSwingRatingCounter* afterCutRating, float rating, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::SaberSwingRatingCounter* afterCutRating, float rating, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xC14A30
     void EndInvoke(System::IAsyncResult* result);

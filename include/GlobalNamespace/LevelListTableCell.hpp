@@ -88,10 +88,10 @@ namespace GlobalNamespace {
     bool bought;
     // private System.String _refreshingAvailabilityLevelID
     // Offset: 0xC8
-    ::Il2CppString* refreshingAvailabilityLevelID;
+    ::CsString* refreshingAvailabilityLevelID;
     // private System.String _settingDataFromLevelId
     // Offset: 0xD0
-    ::Il2CppString* settingDataFromLevelId;
+    ::CsString* settingDataFromLevelId;
     // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
     // Offset: 0xB48FD4
     void SetDataFromLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     void RefreshVisuals();
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
     // Offset: 0xB490D0
-    void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel, ::Il2CppString* levelID);
+    void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel, ::CsString* levelID);
     // public System.Void CancelAsyncOperations()
     // Offset: 0xB496A4
     void CancelAsyncOperations();

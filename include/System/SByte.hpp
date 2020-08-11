@@ -64,24 +64,24 @@ namespace System {
     SByte(int8_t m_value_ = {}) : m_value{m_value_} {}
     // private System.String ToString(System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0xA2DC7C
-    ::Il2CppString* ToString(::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
+    ::CsString* ToString(::CsString* format, System::Globalization::NumberFormatInfo* info);
     // static public System.SByte Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0xDCE598
-    static int8_t Parse(::Il2CppString* s, System::IFormatProvider* provider);
+    static int8_t Parse(::CsString* s, System::IFormatProvider* provider);
     // static public System.SByte Parse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider)
     // Offset: 0xDCE750
-    static int8_t Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
+    static int8_t Parse(::CsString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
     // static private System.SByte Parse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info)
     // Offset: 0xDCE5CC
-    static int8_t Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
+    static int8_t Parse(::CsString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
     // public System.Int32 CompareTo(System.Object obj)
     // Offset: 0xA2DBA0
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
-    int CompareTo(::Il2CppObject* obj);
+    int CompareTo(::CsObject* obj);
     // Creating proxy method: System_IComparable_CompareTo
     // Maps to method: CompareTo
-    int System_IComparable_CompareTo(::Il2CppObject* obj);
+    int System_IComparable_CompareTo(::CsObject* obj);
     // public System.Int32 CompareTo(System.SByte value)
     // Offset: 0xA2DBA8
     // Implemented from: System.IComparable`1
@@ -91,7 +91,7 @@ namespace System {
     // Offset: 0xA2DBB4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public System.Boolean Equals(System.SByte obj)
     // Offset: 0xA2DBBC
     // Implemented from: System.IEquatable`1
@@ -106,17 +106,17 @@ namespace System {
     // Offset: 0xA2DBD8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0xA2DC0C
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::CsString* ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0xA2DC44
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
-    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
+    ::CsString* ToString(::CsString* format, System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
     // Offset: 0xA2DC84
     // Implemented from: System.IConvertible
@@ -196,7 +196,7 @@ namespace System {
     // Offset: 0xA2DD00
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
-    ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
+    ::CsObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.SByte
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

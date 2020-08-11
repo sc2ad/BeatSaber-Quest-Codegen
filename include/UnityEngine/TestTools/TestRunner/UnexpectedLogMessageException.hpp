@@ -33,7 +33,7 @@ namespace UnityEngine::TestTools::TestRunner {
     static UnexpectedLogMessageException* New_ctor(UnityEngine::TestTools::Logging::LogMatch* log);
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogMatch log)
     // Offset: 0xE321B8
-    static ::Il2CppString* BuildMessage(UnityEngine::TestTools::Logging::LogMatch* log);
+    static ::CsString* BuildMessage(UnityEngine::TestTools::Logging::LogMatch* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0xE3220C
     // Implemented from: NUnit.Framework.ResultStateException
@@ -43,7 +43,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0xE32274
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
-    ::Il2CppString* get_StackTrace();
+    ::CsString* get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnexpectedLogMessageException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

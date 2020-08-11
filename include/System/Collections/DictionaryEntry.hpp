@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -17,21 +17,21 @@ namespace System::Collections {
     public:
     // private System.Object _key
     // Offset: 0x0
-    ::Il2CppObject* key;
+    ::CsObject* key;
     // private System.Object _value
     // Offset: 0x8
-    ::Il2CppObject* value;
+    ::CsObject* value;
     // Creating value type constructor for type: DictionaryEntry
-    DictionaryEntry(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) : key{key_}, value{value_} {}
+    DictionaryEntry(::CsObject* key_ = {}, ::CsObject* value_ = {}) : key{key_}, value{value_} {}
     // public System.Void .ctor(System.Object key, System.Object value)
     // Offset: 0xA42C0C
-    static DictionaryEntry* New_ctor(::Il2CppObject* key, ::Il2CppObject* value);
+    static DictionaryEntry* New_ctor(::CsObject* key, ::CsObject* value);
     // public System.Object get_Key()
     // Offset: 0xA42C40
-    ::Il2CppObject* get_Key();
+    ::CsObject* get_Key();
     // public System.Object get_Value()
     // Offset: 0xA42C48
-    ::Il2CppObject* get_Value();
+    ::CsObject* get_Value();
   }; // System.Collections.DictionaryEntry
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -27,13 +27,13 @@ namespace UnityEngine {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x194CDA0
-    static Font::FontTextureRebuildCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
+    static Font::FontTextureRebuildCallback* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke()
     // Offset: 0x194CAF4
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
     // Offset: 0x194CDB4
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x194CDE0
     void EndInvoke(System::IAsyncResult* result);

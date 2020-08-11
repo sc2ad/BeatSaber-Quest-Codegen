@@ -196,7 +196,7 @@ namespace UnityEngine {
     static UnityEngine::Vector3 get_positiveInfinity();
     // public System.String ToString(System.String format)
     // Offset: 0xA43D94
-    ::Il2CppString* ToString(::Il2CppString* format);
+    ::CsString* ToString(::CsString* format);
     // static private System.Void .cctor()
     // Offset: 0x13833B0
     static void _cctor();
@@ -215,7 +215,7 @@ namespace UnityEngine {
     // Offset: 0xA43D1C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::Il2CppObject* other);
+    bool Equals(::CsObject* other);
     // public System.Boolean Equals(UnityEngine.Vector3 other)
     // Offset: 0xA43D24
     // Implemented from: System.IEquatable`1
@@ -225,7 +225,7 @@ namespace UnityEngine {
     // Offset: 0xA43D8C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // UnityEngine.Vector3
   // static public UnityEngine.Vector3 op_Addition(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
   // Offset: 0x137E1B4

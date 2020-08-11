@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.Int32Converter
 #include "System/ComponentModel/Int32Converter.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

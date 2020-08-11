@@ -35,7 +35,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xD7EF38
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
-    static EventSourceException* New_ctor(::Il2CppString* message, System::Exception* innerException);
+    static EventSourceException* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xD7F00C
     // Implemented from: System.Exception

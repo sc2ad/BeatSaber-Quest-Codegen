@@ -20,24 +20,24 @@ namespace System {
     int int32;
     // private readonly System.String _string
     // Offset: 0x8
-    ::Il2CppString* string;
+    ::CsString* string;
     // Creating value type constructor for type: FormatParam
-    FormatParam(int int32_ = {}, ::Il2CppString* string_ = {}) : int32{int32_}, string{string_} {}
+    FormatParam(int int32_ = {}, ::CsString* string_ = {}) : int32{int32_}, string{string_} {}
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0xA42FDC
     static ParameterizedStrings::FormatParam* New_ctor(int value);
     // private System.Void .ctor(System.Int32 intValue, System.String stringValue)
     // Offset: 0xA42FEC
-    static ParameterizedStrings::FormatParam* New_ctor(int intValue, ::Il2CppString* stringValue);
+    static ParameterizedStrings::FormatParam* New_ctor(int intValue, ::CsString* stringValue);
     // public System.Int32 get_Int32()
     // Offset: 0xA42FFC
     int get_Int32();
     // public System.String get_String()
     // Offset: 0xA43004
-    ::Il2CppString* get_String();
+    ::CsString* get_String();
     // public System.Object get_Object()
     // Offset: 0xA43060
-    ::Il2CppObject* get_Object();
+    ::CsObject* get_Object();
   }; // System.ParameterizedStrings/FormatParam
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

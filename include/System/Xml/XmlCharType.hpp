@@ -14,9 +14,9 @@ namespace System::Xml {
   struct XmlCharType : public System::ValueType {
     public:
     // Get static field: static private System.Object s_Lock
-    static ::Il2CppObject* _get_s_Lock();
+    static ::CsObject* _get_s_Lock();
     // Set static field: static private System.Object s_Lock
-    static void _set_s_Lock(::Il2CppObject* value);
+    static void _set_s_Lock(::CsObject* value);
     // Get static field: static private System.Byte[] s_CharProperties
     static ::Array<uint8_t>* _get_s_CharProperties();
     // Set static field: static private System.Byte[] s_CharProperties
@@ -28,13 +28,13 @@ namespace System::Xml {
     XmlCharType(::Array<uint8_t>* charProperties_ = {}) : charProperties{charProperties_} {}
     // static private System.Object get_StaticLock()
     // Offset: 0x118C85C
-    static ::Il2CppObject* get_StaticLock();
+    static ::CsObject* get_StaticLock();
     // static private System.Void InitInstance()
     // Offset: 0x118C8EC
     static void InitInstance();
     // static private System.Void SetProperties(System.String ranges, System.Byte value)
     // Offset: 0x118CAB0
-    static void SetProperties(::Il2CppString* ranges, uint8_t value);
+    static void SetProperties(::CsString* ranges, uint8_t value);
     // private System.Void .ctor(System.Byte[] charProperties)
     // Offset: 0xA3EEFC
     static XmlCharType* New_ctor(::Array<uint8_t>* charProperties);
@@ -67,16 +67,16 @@ namespace System::Xml {
     static int CombineSurrogateChar(int lowChar, int highChar);
     // System.Boolean IsOnlyWhitespace(System.String str)
     // Offset: 0xA3EF20
-    bool IsOnlyWhitespace(::Il2CppString* str);
+    bool IsOnlyWhitespace(::CsString* str);
     // System.Int32 IsOnlyWhitespaceWithPos(System.String str)
     // Offset: 0xA3EF40
-    int IsOnlyWhitespaceWithPos(::Il2CppString* str);
+    int IsOnlyWhitespaceWithPos(::CsString* str);
     // System.Int32 IsOnlyCharData(System.String str)
     // Offset: 0xA3EF48
-    int IsOnlyCharData(::Il2CppString* str);
+    int IsOnlyCharData(::CsString* str);
     // System.Int32 IsPublicId(System.String str)
     // Offset: 0xA3EF50
-    int IsPublicId(::Il2CppString* str);
+    int IsPublicId(::CsString* str);
     // static private System.Boolean InRange(System.Int32 value, System.Int32 start, System.Int32 end)
     // Offset: 0x118CD2C
     static bool InRange(int value, int start, int end);

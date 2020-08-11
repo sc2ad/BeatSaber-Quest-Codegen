@@ -30,7 +30,7 @@ namespace System::Text {
     int index;
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0x12D5E98
-    static DecoderFallbackException* New_ctor(::Il2CppString* message, ::Array<uint8_t>* bytesUnknown, int index);
+    static DecoderFallbackException* New_ctor(::CsString* message, ::Array<uint8_t>* bytesUnknown, int index);
     // public System.Void .ctor()
     // Offset: 0x12D669C
     // Implemented from: System.ArgumentException

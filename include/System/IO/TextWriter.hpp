@@ -44,33 +44,33 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.TextWriter Null
     static void _set_Null(System::IO::TextWriter* value);
     // Get static field: static private System.Action`1<System.Object> _WriteCharDelegate
-    static System::Action_1<::Il2CppObject*>* _get__WriteCharDelegate();
+    static System::Action_1<::CsObject*>* _get__WriteCharDelegate();
     // Set static field: static private System.Action`1<System.Object> _WriteCharDelegate
-    static void _set__WriteCharDelegate(System::Action_1<::Il2CppObject*>* value);
+    static void _set__WriteCharDelegate(System::Action_1<::CsObject*>* value);
     // Get static field: static private System.Action`1<System.Object> _WriteStringDelegate
-    static System::Action_1<::Il2CppObject*>* _get__WriteStringDelegate();
+    static System::Action_1<::CsObject*>* _get__WriteStringDelegate();
     // Set static field: static private System.Action`1<System.Object> _WriteStringDelegate
-    static void _set__WriteStringDelegate(System::Action_1<::Il2CppObject*>* value);
+    static void _set__WriteStringDelegate(System::Action_1<::CsObject*>* value);
     // Get static field: static private System.Action`1<System.Object> _WriteCharArrayRangeDelegate
-    static System::Action_1<::Il2CppObject*>* _get__WriteCharArrayRangeDelegate();
+    static System::Action_1<::CsObject*>* _get__WriteCharArrayRangeDelegate();
     // Set static field: static private System.Action`1<System.Object> _WriteCharArrayRangeDelegate
-    static void _set__WriteCharArrayRangeDelegate(System::Action_1<::Il2CppObject*>* value);
+    static void _set__WriteCharArrayRangeDelegate(System::Action_1<::CsObject*>* value);
     // Get static field: static private System.Action`1<System.Object> _WriteLineCharDelegate
-    static System::Action_1<::Il2CppObject*>* _get__WriteLineCharDelegate();
+    static System::Action_1<::CsObject*>* _get__WriteLineCharDelegate();
     // Set static field: static private System.Action`1<System.Object> _WriteLineCharDelegate
-    static void _set__WriteLineCharDelegate(System::Action_1<::Il2CppObject*>* value);
+    static void _set__WriteLineCharDelegate(System::Action_1<::CsObject*>* value);
     // Get static field: static private System.Action`1<System.Object> _WriteLineStringDelegate
-    static System::Action_1<::Il2CppObject*>* _get__WriteLineStringDelegate();
+    static System::Action_1<::CsObject*>* _get__WriteLineStringDelegate();
     // Set static field: static private System.Action`1<System.Object> _WriteLineStringDelegate
-    static void _set__WriteLineStringDelegate(System::Action_1<::Il2CppObject*>* value);
+    static void _set__WriteLineStringDelegate(System::Action_1<::CsObject*>* value);
     // Get static field: static private System.Action`1<System.Object> _WriteLineCharArrayRangeDelegate
-    static System::Action_1<::Il2CppObject*>* _get__WriteLineCharArrayRangeDelegate();
+    static System::Action_1<::CsObject*>* _get__WriteLineCharArrayRangeDelegate();
     // Set static field: static private System.Action`1<System.Object> _WriteLineCharArrayRangeDelegate
-    static void _set__WriteLineCharArrayRangeDelegate(System::Action_1<::Il2CppObject*>* value);
+    static void _set__WriteLineCharArrayRangeDelegate(System::Action_1<::CsObject*>* value);
     // Get static field: static private System.Action`1<System.Object> _FlushDelegate
-    static System::Action_1<::Il2CppObject*>* _get__FlushDelegate();
+    static System::Action_1<::CsObject*>* _get__FlushDelegate();
     // Set static field: static private System.Action`1<System.Object> _FlushDelegate
-    static void _set__FlushDelegate(System::Action_1<::Il2CppObject*>* value);
+    static void _set__FlushDelegate(System::Action_1<::CsObject*>* value);
     // protected System.Char[] CoreNewLine
     // Offset: 0x18
     ::Array<::Il2CppChar>* CoreNewLine;
@@ -79,7 +79,7 @@ namespace System::IO {
     System::IFormatProvider* InternalFormatProvider;
     // static private System.String get_InitialNewLine()
     // Offset: 0xFF7D00
-    static ::Il2CppString* get_InitialNewLine();
+    static ::CsString* get_InitialNewLine();
     // protected System.Void .ctor(System.IFormatProvider formatProvider)
     // Offset: 0xFF5444
     static TextWriter* New_ctor(System::IFormatProvider* formatProvider);
@@ -112,10 +112,10 @@ namespace System::IO {
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void Write(System.String value)
     // Offset: 0xFF824C
-    void Write(::Il2CppString* value);
+    void Write(::CsString* value);
     // public System.Void Write(System.String format, System.Object arg0)
     // Offset: 0xFF8290
-    void Write(::Il2CppString* format, ::Il2CppObject* arg0);
+    void Write(::CsString* format, ::CsObject* arg0);
     // public System.Void WriteLine()
     // Offset: 0xFF82F0
     void WriteLine();
@@ -127,16 +127,16 @@ namespace System::IO {
     void WriteLine(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void WriteLine(System.String value)
     // Offset: 0xFF8378
-    void WriteLine(::Il2CppString* value);
+    void WriteLine(::CsString* value);
     // public System.Void WriteLine(System.String format, System.Object arg0)
     // Offset: 0xFF8520
-    void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0);
+    void WriteLine(::CsString* format, ::CsObject* arg0);
     // public System.Void WriteLine(System.String format, System.Object arg0, System.Object arg1)
     // Offset: 0xFF8580
-    void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
+    void WriteLine(::CsString* format, ::CsObject* arg0, ::CsObject* arg1);
     // public System.Void WriteLine(System.String format, System.Object[] arg)
     // Offset: 0xFF85E8
-    void WriteLine(::Il2CppString* format, ::Array<::Il2CppObject*>* arg);
+    void WriteLine(::CsString* format, ::Array<::CsObject*>* arg);
     // static private System.Void .cctor()
     // Offset: 0xFF8648
     static void _cctor();

@@ -38,13 +38,13 @@ namespace System::Security {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static XmlSyntaxException* New_ctor(::Il2CppString* message);
+    static XmlSyntaxException* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception inner)
     // Offset: 0xDD8974
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
-    static XmlSyntaxException* New_ctor(::Il2CppString* message, System::Exception* inner);
+    static XmlSyntaxException* New_ctor(::CsString* message, System::Exception* inner);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xDD9524
     // Implemented from: System.SystemException

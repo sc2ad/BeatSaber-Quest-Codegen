@@ -25,7 +25,7 @@ namespace System::Threading {
     static EventWaitHandle* New_ctor(bool initialState, System::Threading::EventResetMode mode);
     // public System.Void .ctor(System.Boolean initialState, System.Threading.EventResetMode mode, System.String name)
     // Offset: 0x13C2D00
-    static EventWaitHandle* New_ctor(bool initialState, System::Threading::EventResetMode mode, ::Il2CppString* name);
+    static EventWaitHandle* New_ctor(bool initialState, System::Threading::EventResetMode mode, ::CsString* name);
     // public System.Boolean Reset()
     // Offset: 0x13C2FC8
     bool Reset();

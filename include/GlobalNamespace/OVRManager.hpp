@@ -485,13 +485,13 @@ namespace GlobalNamespace {
     // Offset: 0xDC
     GlobalNamespace::OVRManager::MrcActivationMode mrcActivationMode;
     // Get static field: static public System.String OCULUS_UNITY_NAME_STR
-    static ::Il2CppString* _get_OCULUS_UNITY_NAME_STR();
+    static ::CsString* _get_OCULUS_UNITY_NAME_STR();
     // Set static field: static public System.String OCULUS_UNITY_NAME_STR
-    static void _set_OCULUS_UNITY_NAME_STR(::Il2CppString* value);
+    static void _set_OCULUS_UNITY_NAME_STR(::CsString* value);
     // Get static field: static public System.String OPENVR_UNITY_NAME_STR
-    static ::Il2CppString* _get_OPENVR_UNITY_NAME_STR();
+    static ::CsString* _get_OPENVR_UNITY_NAME_STR();
     // Set static field: static public System.String OPENVR_UNITY_NAME_STR
-    static void _set_OPENVR_UNITY_NAME_STR(::Il2CppString* value);
+    static void _set_OPENVR_UNITY_NAME_STR(::CsString* value);
     // Get static field: static public OVRManager/XRDevice loadedXRDevice
     static GlobalNamespace::OVRManager::XRDevice _get_loadedXRDevice();
     // Set static field: static public OVRManager/XRDevice loadedXRDevice
@@ -560,21 +560,21 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean prevAudioInIdIsCached
     static void _set_prevAudioInIdIsCached(bool value);
     // Get static field: static private System.String prevAudioOutId
-    static ::Il2CppString* _get_prevAudioOutId();
+    static ::CsString* _get_prevAudioOutId();
     // Set static field: static private System.String prevAudioOutId
-    static void _set_prevAudioOutId(::Il2CppString* value);
+    static void _set_prevAudioOutId(::CsString* value);
     // Get static field: static private System.String prevAudioInId
-    static ::Il2CppString* _get_prevAudioInId();
+    static ::CsString* _get_prevAudioInId();
     // Set static field: static private System.String prevAudioInId
-    static void _set_prevAudioInId(::Il2CppString* value);
+    static void _set_prevAudioInId(::CsString* value);
     // Get static field: static private System.Boolean wasPositionTracked
     static bool _get_wasPositionTracked();
     // Set static field: static private System.Boolean wasPositionTracked
     static void _set_wasPositionTracked(bool value);
     // Get static field: static public System.String UnityAlphaOrBetaVersionWarningMessage
-    static ::Il2CppString* _get_UnityAlphaOrBetaVersionWarningMessage();
+    static ::CsString* _get_UnityAlphaOrBetaVersionWarningMessage();
     // Set static field: static public System.String UnityAlphaOrBetaVersionWarningMessage
-    static void _set_UnityAlphaOrBetaVersionWarningMessage(::Il2CppString* value);
+    static void _set_UnityAlphaOrBetaVersionWarningMessage(::CsString* value);
     // Get static field: static public System.Boolean OVRManagerinitialized
     static bool _get_OVRManagerinitialized();
     // Set static field: static public System.Boolean OVRManagerinitialized
@@ -713,10 +713,10 @@ namespace GlobalNamespace {
     static void set_isHmdPresent(bool value);
     // static public System.String get_audioOutId()
     // Offset: 0xE646F8
-    static ::Il2CppString* get_audioOutId();
+    static ::CsString* get_audioOutId();
     // static public System.String get_audioInId()
     // Offset: 0xE64758
-    static ::Il2CppString* get_audioInId();
+    static ::CsString* get_audioInId();
     // static public System.Boolean get_hasVrFocus()
     // Offset: 0xE647B8
     static bool get_hasVrFocus();

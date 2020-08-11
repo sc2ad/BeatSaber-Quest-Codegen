@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestRunner.ITestRunCallback
 #include "UnityEngine/TestRunner/ITestRunCallback.hpp"
 // Including type: NUnit.Framework.Interfaces.ITest

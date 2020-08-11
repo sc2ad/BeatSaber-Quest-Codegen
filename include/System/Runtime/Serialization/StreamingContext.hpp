@@ -17,18 +17,18 @@ namespace System::Runtime::Serialization {
     public:
     // System.Object m_additionalContext
     // Offset: 0x0
-    ::Il2CppObject* m_additionalContext;
+    ::CsObject* m_additionalContext;
     // System.Runtime.Serialization.StreamingContextStates m_state
     // Offset: 0x8
     System::Runtime::Serialization::StreamingContextStates m_state;
     // Creating value type constructor for type: StreamingContext
-    StreamingContext(::Il2CppObject* m_additionalContext_ = {}, System::Runtime::Serialization::StreamingContextStates m_state_ = {}) : m_additionalContext{m_additionalContext_}, m_state{m_state_} {}
+    StreamingContext(::CsObject* m_additionalContext_ = {}, System::Runtime::Serialization::StreamingContextStates m_state_ = {}) : m_additionalContext{m_additionalContext_}, m_state{m_state_} {}
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContextStates state)
     // Offset: 0xA3B6F0
     static StreamingContext* New_ctor(System::Runtime::Serialization::StreamingContextStates state);
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContextStates state, System.Object additional)
     // Offset: 0xA3B700
-    static StreamingContext* New_ctor(System::Runtime::Serialization::StreamingContextStates state, ::Il2CppObject* additional);
+    static StreamingContext* New_ctor(System::Runtime::Serialization::StreamingContextStates state, ::CsObject* additional);
     // public System.Runtime.Serialization.StreamingContextStates get_State()
     // Offset: 0xA3B720
     System::Runtime::Serialization::StreamingContextStates get_State();
@@ -36,7 +36,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0xA3B710
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3B718
     // Implemented from: System.ValueType

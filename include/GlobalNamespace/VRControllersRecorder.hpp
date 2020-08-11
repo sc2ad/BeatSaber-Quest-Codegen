@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     UnityEngine::TextAsset* recordingTextAsset;
     // private System.String _recordingFileName
     // Offset: 0x20
-    ::Il2CppString* recordingFileName;
+    ::CsString* recordingFileName;
     // private VRControllersRecorder/Mode _mode
     // Offset: 0x28
     GlobalNamespace::VRControllersRecorder::Mode mode;
@@ -155,10 +155,10 @@ namespace GlobalNamespace {
     UnityEngine::TextAsset* get_recordingTextAsset();
     // public System.Void set_recordingFileName(System.String value)
     // Offset: 0xC3AB64
-    void set_recordingFileName(::Il2CppString* value);
+    void set_recordingFileName(::CsString* value);
     // public System.String get_recordingFileName()
     // Offset: 0xC3AB6C
-    ::Il2CppString* get_recordingFileName();
+    ::CsString* get_recordingFileName();
     // public System.Void set_changeToNonVRCamera(System.Boolean value)
     // Offset: 0xC3AB74
     void set_changeToNonVRCamera(bool value);
@@ -200,7 +200,7 @@ namespace GlobalNamespace {
     void Load();
     // static public UnityEngine.AnimationClip CreateAnimationClipFromRecording(System.String recordingfilePath)
     // Offset: 0xC3C5F0
-    static UnityEngine::AnimationClip* CreateAnimationClipFromRecording(::Il2CppString* recordingfilePath);
+    static UnityEngine::AnimationClip* CreateAnimationClipFromRecording(::CsString* recordingfilePath);
     // public System.Void .ctor()
     // Offset: 0xC3D18C
     // Implemented from: UnityEngine.MonoBehaviour

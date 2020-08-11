@@ -47,7 +47,7 @@ namespace NUnit::Framework::Internal {
     System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>* tests;
     // private System.Object[] <Arguments>k__BackingField
     // Offset: 0x80
-    ::Array<::Il2CppObject*>* Arguments;
+    ::Array<::CsObject*>* Arguments;
     // private System.Boolean <MaintainTestOrder>k__BackingField
     // Offset: 0x88
     bool MaintainTestOrder;
@@ -59,10 +59,10 @@ namespace NUnit::Framework::Internal {
     void Add(NUnit::Framework::Internal::Test* test);
     // public System.Object[] get_Arguments()
     // Offset: 0x18DE5B0
-    ::Array<::Il2CppObject*>* get_Arguments();
+    ::Array<::CsObject*>* get_Arguments();
     // System.Void set_Arguments(System.Object[] value)
     // Offset: 0x18DE5B8
-    void set_Arguments(::Array<::Il2CppObject*>* value);
+    void set_Arguments(::Array<::CsObject*>* value);
     // protected System.Boolean get_MaintainTestOrder()
     // Offset: 0x18DE248
     bool get_MaintainTestOrder();
@@ -76,12 +76,12 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18D8A7C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(System.String name)
-    static TestSuite* New_ctor(::Il2CppString* name);
+    static TestSuite* New_ctor(::CsString* name);
     // public System.Void .ctor(System.String parentSuiteName, System.String name)
     // Offset: 0x18D58A4
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(System.String parentSuiteName, System.String name)
-    static TestSuite* New_ctor(::Il2CppString* parentSuiteName, ::Il2CppString* name);
+    static TestSuite* New_ctor(::CsString* parentSuiteName, ::CsString* name);
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     // Offset: 0x18D9E34
     // Implemented from: NUnit.Framework.Internal.Test
@@ -111,7 +111,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18DE730
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_XmlElementName()
-    ::Il2CppString* get_XmlElementName();
+    ::CsString* get_XmlElementName();
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     // Offset: 0x18DE778
     // Implemented from: NUnit.Framework.Internal.Test

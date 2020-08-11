@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     void ApplyValue(bool value);
     // protected System.String TextForValue(System.Boolean value)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* TextForValue(bool value);
+    ::CsString* TextForValue(bool value);
     // private System.Void RefreshUI()
     // Offset: 0xB93DF0
     void RefreshUI();

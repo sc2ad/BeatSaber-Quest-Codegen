@@ -34,7 +34,7 @@ namespace System::Threading {
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static WaitHandleCannotBeOpenedException* New_ctor(::Il2CppString* message);
+    static WaitHandleCannotBeOpenedException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xCD9214
     // Implemented from: System.ApplicationException

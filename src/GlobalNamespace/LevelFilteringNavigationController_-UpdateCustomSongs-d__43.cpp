@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LevelFilteringNavigationController/<UpdateCustomSongs>d__43
 #include "GlobalNamespace/LevelFilteringNavigationController_-UpdateCustomSongs-d__43.hpp"
 // Including type: IBeatmapLevelPackCollection

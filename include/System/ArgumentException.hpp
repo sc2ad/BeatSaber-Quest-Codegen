@@ -28,10 +28,10 @@ namespace System {
     public:
     // private System.String m_paramName
     // Offset: 0x88
-    ::Il2CppString* m_paramName;
+    ::CsString* m_paramName;
     // public System.Void .ctor(System.String message, System.String paramName)
     // Offset: 0x10A607C
-    static ArgumentException* New_ctor(::Il2CppString* message, ::Il2CppString* paramName);
+    static ArgumentException* New_ctor(::CsString* message, ::CsString* paramName);
     // public System.Void .ctor()
     // Offset: 0x1099950
     // Implemented from: System.SystemException
@@ -44,13 +44,13 @@ namespace System {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static ArgumentException* New_ctor(::Il2CppString* message);
+    static ArgumentException* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
     // Offset: 0x10A8D7C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
-    static ArgumentException* New_ctor(::Il2CppString* message, System::Exception* innerException);
+    static ArgumentException* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x10A8DB0
     // Implemented from: System.SystemException
@@ -61,7 +61,7 @@ namespace System {
     // Offset: 0x10A8E50
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::CsString* get_Message();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x10A8F70
     // Implemented from: System.Exception

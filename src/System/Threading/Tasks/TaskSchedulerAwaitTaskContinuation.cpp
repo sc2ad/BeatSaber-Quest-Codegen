@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation
 #include "System/Threading/Tasks/TaskSchedulerAwaitTaskContinuation.hpp"
 // Including type: System.Threading.Tasks.TaskSchedulerAwaitTaskContinuation/<>c

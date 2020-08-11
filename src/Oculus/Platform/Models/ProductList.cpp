@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.ProductList
 #include "Oculus/Platform/Models/ProductList.hpp"
 // Including type: Oculus.Platform.Models.Product

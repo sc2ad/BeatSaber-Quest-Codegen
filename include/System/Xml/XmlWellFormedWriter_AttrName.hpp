@@ -17,24 +17,24 @@ namespace System::Xml {
     public:
     // System.String prefix
     // Offset: 0x0
-    ::Il2CppString* prefix;
+    ::CsString* prefix;
     // System.String namespaceUri
     // Offset: 0x8
-    ::Il2CppString* namespaceUri;
+    ::CsString* namespaceUri;
     // System.String localName
     // Offset: 0x10
-    ::Il2CppString* localName;
+    ::CsString* localName;
     // System.Int32 prev
     // Offset: 0x18
     int prev;
     // Creating value type constructor for type: AttrName
-    AttrName(::Il2CppString* prefix_ = {}, ::Il2CppString* namespaceUri_ = {}, ::Il2CppString* localName_ = {}, int prev_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, localName{localName_}, prev{prev_} {}
+    AttrName(::CsString* prefix_ = {}, ::CsString* namespaceUri_ = {}, ::CsString* localName_ = {}, int prev_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, localName{localName_}, prev{prev_} {}
     // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri)
     // Offset: 0xA5A624
-    void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
+    void Set(::CsString* prefix, ::CsString* localName, ::CsString* namespaceUri);
     // System.Boolean IsDuplicate(System.String prefix, System.String localName, System.String namespaceUri)
     // Offset: 0xA5A62C
-    bool IsDuplicate(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
+    bool IsDuplicate(::CsString* prefix, ::CsString* localName, ::CsString* namespaceUri);
   }; // System.Xml.XmlWellFormedWriter/AttrName
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

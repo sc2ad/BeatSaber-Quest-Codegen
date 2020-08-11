@@ -38,15 +38,15 @@ namespace UnityEngine {
       System::Threading::SendOrPostCallback* m_DelagateCallback;
       // private readonly System.Object m_DelagateState
       // Offset: 0x8
-      ::Il2CppObject* m_DelagateState;
+      ::CsObject* m_DelagateState;
       // private readonly System.Threading.ManualResetEvent m_WaitHandle
       // Offset: 0x10
       System::Threading::ManualResetEvent* m_WaitHandle;
       // Creating value type constructor for type: WorkRequest
-      WorkRequest(System::Threading::SendOrPostCallback* m_DelagateCallback_ = {}, ::Il2CppObject* m_DelagateState_ = {}, System::Threading::ManualResetEvent* m_WaitHandle_ = {}) : m_DelagateCallback{m_DelagateCallback_}, m_DelagateState{m_DelagateState_}, m_WaitHandle{m_WaitHandle_} {}
+      WorkRequest(System::Threading::SendOrPostCallback* m_DelagateCallback_ = {}, ::CsObject* m_DelagateState_ = {}, System::Threading::ManualResetEvent* m_WaitHandle_ = {}) : m_DelagateCallback{m_DelagateCallback_}, m_DelagateState{m_DelagateState_}, m_WaitHandle{m_WaitHandle_} {}
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
       // Offset: 0xA43B90
-      static UnitySynchronizationContext::WorkRequest* New_ctor(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, System::Threading::ManualResetEvent* waitHandle);
+      static UnitySynchronizationContext::WorkRequest* New_ctor(System::Threading::SendOrPostCallback* callback, ::CsObject* state, System::Threading::ManualResetEvent* waitHandle);
       // public System.Void Invoke()
       // Offset: 0xA43B98
       void Invoke();
@@ -88,7 +88,7 @@ namespace UnityEngine {
     // Offset: 0x137FD5C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback callback, System.Object state)
-    void Send(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
+    void Send(System::Threading::SendOrPostCallback* callback, ::CsObject* state);
     // public override System.Void OperationStarted()
     // Offset: 0x1380034
     // Implemented from: System.Threading.SynchronizationContext
@@ -103,7 +103,7 @@ namespace UnityEngine {
     // Offset: 0x138004C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback callback, System.Object state)
-    void Post(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
+    void Post(System::Threading::SendOrPostCallback* callback, ::CsObject* state);
     // public override System.Threading.SynchronizationContext CreateCopy()
     // Offset: 0x1380144
     // Implemented from: System.Threading.SynchronizationContext

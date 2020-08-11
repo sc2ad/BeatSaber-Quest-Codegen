@@ -29,7 +29,7 @@ namespace System {
     static UnSafeCharBuffer* New_ctor(::Il2CppChar* buffer, int bufferSize);
     // public System.Void AppendString(System.String stringToAppend)
     // Offset: 0xA53AC8
-    void AppendString(::Il2CppString* stringToAppend);
+    void AppendString(::CsString* stringToAppend);
   }; // System.UnSafeCharBuffer
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

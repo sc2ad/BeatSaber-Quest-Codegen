@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.AssetBundle resourceBundle
     static void _set_resourceBundle(UnityEngine::AssetBundle* value);
     // Get static field: static private System.Collections.Generic.List`1<System.String> assetNames
-    static System::Collections::Generic::List_1<::Il2CppString*>* _get_assetNames();
+    static System::Collections::Generic::List_1<::CsString*>* _get_assetNames();
     // Set static field: static private System.Collections.Generic.List`1<System.String> assetNames
-    static void _set_assetNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    static void _set_assetNames(System::Collections::Generic::List_1<::CsString*>* value);
     // static public UnityEngine.Object Load(System.String path)
     // Offset: 0xF37114
-    static UnityEngine::Object* Load(::Il2CppString* path);
+    static UnityEngine::Object* Load(::CsString* path);
     // static public T Load(System.String path)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T Load(::Il2CppString* path) {
+    static T Load(::CsString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "OVRResources", "Load", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, path)));
     }

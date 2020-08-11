@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
@@ -17,12 +17,12 @@ namespace System::Runtime::CompilerServices {
     public:
     // System.Object key
     // Offset: 0x0
-    ::Il2CppObject* key;
+    ::CsObject* key;
     // System.Object value
     // Offset: 0x8
-    ::Il2CppObject* value;
+    ::CsObject* value;
     // Creating value type constructor for type: Ephemeron
-    Ephemeron(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) : key{key_}, value{value_} {}
+    Ephemeron(::CsObject* key_ = {}, ::CsObject* value_ = {}) : key{key_}, value{value_} {}
   }; // System.Runtime.CompilerServices.Ephemeron
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

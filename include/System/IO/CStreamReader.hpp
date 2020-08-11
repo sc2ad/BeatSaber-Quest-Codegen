@@ -57,12 +57,12 @@ namespace System::IO {
     // Offset: 0x111944C
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
-    ::Il2CppString* ReadLine();
+    ::CsString* ReadLine();
     // public override System.String ReadToEnd()
     // Offset: 0x1119518
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
-    ::Il2CppString* ReadToEnd();
+    ::CsString* ReadToEnd();
   }; // System.IO.CStreamReader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -7,7 +7,7 @@
 #include <stdint.h>
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventCategory, System.String eventAction, System.String eventLabel, System.Int64 value)
     // Offset: 0xFFFFFFFF
-    void LogEvent(::Il2CppString* eventCategory, ::Il2CppString* eventAction, ::Il2CppString* eventLabel, int64_t value);
+    void LogEvent(::CsString* eventCategory, ::CsString* eventAction, ::CsString* eventLabel, int64_t value);
   }; // IAnalyticsModel
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

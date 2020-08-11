@@ -23,7 +23,7 @@ namespace TMPro::SpriteAssetUtilities {
     public:
     // public System.String filename
     // Offset: 0x0
-    ::Il2CppString* filename;
+    ::CsString* filename;
     // public TMPro.SpriteAssetUtilities.TexturePacker/SpriteFrame frame
     // Offset: 0x8
     TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame frame;
@@ -43,7 +43,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Offset: 0x34
     UnityEngine::Vector2 pivot;
     // Creating value type constructor for type: SpriteData
-    SpriteData(::Il2CppString* filename_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame frame_ = {}, bool rotated_ = {}, bool trimmed_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame spriteSourceSize_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize sourceSize_ = {}, UnityEngine::Vector2 pivot_ = {}) : filename{filename_}, frame{frame_}, rotated{rotated_}, trimmed{trimmed_}, spriteSourceSize{spriteSourceSize_}, sourceSize{sourceSize_}, pivot{pivot_} {}
+    SpriteData(::CsString* filename_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame frame_ = {}, bool rotated_ = {}, bool trimmed_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame spriteSourceSize_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize sourceSize_ = {}, UnityEngine::Vector2 pivot_ = {}) : filename{filename_}, frame{frame_}, rotated{rotated_}, trimmed{trimmed_}, spriteSourceSize{spriteSourceSize_}, sourceSize{sourceSize_}, pivot{pivot_} {}
   }; // TMPro.SpriteAssetUtilities.TexturePacker/SpriteData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

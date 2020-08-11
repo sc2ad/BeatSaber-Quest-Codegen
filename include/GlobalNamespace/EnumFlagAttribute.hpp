@@ -8,7 +8,7 @@
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     public:
     // public System.String enumName
     // Offset: 0x10
-    ::Il2CppString* enumName;
+    ::CsString* enumName;
     // public System.Void .ctor(System.String name)
     // Offset: 0xC9A67C
-    static EnumFlagAttribute* New_ctor(::Il2CppString* name);
+    static EnumFlagAttribute* New_ctor(::CsString* name);
     // public System.Void .ctor()
     // Offset: 0xC9A674
     // Implemented from: UnityEngine.PropertyAttribute

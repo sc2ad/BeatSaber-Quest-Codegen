@@ -48,12 +48,12 @@ namespace System::IO {
     // Offset: 0xFF7CBC
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
-    ::Il2CppString* ReadLine();
+    ::CsString* ReadLine();
     // public override System.String ReadToEnd()
     // Offset: 0xFF7CE0
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
-    ::Il2CppString* ReadToEnd();
+    ::CsString* ReadToEnd();
   }; // System.IO.TextReader/SyncTextReader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

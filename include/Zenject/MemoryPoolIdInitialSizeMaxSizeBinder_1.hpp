@@ -30,7 +30,7 @@ namespace Zenject {
     public:
     // public Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract> WithId(System.Object identifier)
     // Offset: 0xFFFFFFFF
-    Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* WithId(::Il2CppObject* identifier) {
+    Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* WithId(::CsObject* identifier) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>(this, "WithId", identifier));
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)

@@ -29,7 +29,7 @@ namespace System::Diagnostics::Tracing {
     System::Diagnostics::Tracing::EventOpcode opcode;
     // private System.String <Name>k__BackingField
     // Offset: 0x18
-    ::Il2CppString* Name;
+    ::CsString* Name;
     // private System.Diagnostics.Tracing.EventKeywords <Keywords>k__BackingField
     // Offset: 0x20
     System::Diagnostics::Tracing::EventKeywords Keywords;
@@ -38,7 +38,7 @@ namespace System::Diagnostics::Tracing {
     System::Diagnostics::Tracing::EventTags Tags;
     // public System.String get_Name()
     // Offset: 0xC86590
-    ::Il2CppString* get_Name();
+    ::CsString* get_Name();
     // System.Diagnostics.Tracing.EventLevel get_Level()
     // Offset: 0xC86598
     System::Diagnostics::Tracing::EventLevel get_Level();

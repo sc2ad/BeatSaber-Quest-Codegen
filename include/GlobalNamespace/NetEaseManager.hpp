@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     struct $RequestHighscoreDataAsync$d__17;
     // private System.String _userName
     // Offset: 0x18
-    ::Il2CppString* userName;
+    ::CsString* userName;
     // private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.ReceivedHighscoreData> _requestHighscoreDataTaskCompletionSource
     // Offset: 0x20
     System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::ReceivedHighscoreData>* requestHighscoreDataTaskCompletionSource;
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     bool get_supportsLeaderboards();
     // public System.String get_userName()
     // Offset: 0xBFD6A4
-    ::Il2CppString* get_userName();
+    ::CsString* get_userName();
     // protected System.Void Awake()
     // Offset: 0xBFD6AC
     void Awake();
@@ -108,16 +108,16 @@ namespace GlobalNamespace {
     void HandleDidLogout(NetEase::Docker::LogoutData logoutData);
     // public System.Threading.Tasks.Task`1<NetEase.Docker.ReceivedHighscoreData> RequestHighscoreDataAsync(System.String leaderboardId)
     // Offset: 0xBFCC1C
-    System::Threading::Tasks::Task_1<NetEase::Docker::ReceivedHighscoreData>* RequestHighscoreDataAsync(::Il2CppString* leaderboardId);
+    System::Threading::Tasks::Task_1<NetEase::Docker::ReceivedHighscoreData>* RequestHighscoreDataAsync(::CsString* leaderboardId);
     // private System.Void HandleDidReceiveHighscore(NetEase.Docker.ReceivedHighscoreData highscoreData)
     // Offset: 0xBFD964
     void HandleDidReceiveHighscore(NetEase::Docker::ReceivedHighscoreData highscoreData);
     // public System.Void UploadHighscore(System.String leaderboardId, System.Int32 score)
     // Offset: 0xBFBAA8
-    void UploadHighscore(::Il2CppString* leaderboardId, int score);
+    void UploadHighscore(::CsString* leaderboardId, int score);
     // static public System.Void Log(System.String message)
     // Offset: 0xBFD9F0
-    static void Log(::Il2CppString* message);
+    static void Log(::CsString* message);
     // public System.Void .ctor()
     // Offset: 0xBFDA58
     // Implemented from: UnityEngine.MonoBehaviour

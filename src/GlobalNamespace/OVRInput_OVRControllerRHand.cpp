@@ -2,7 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 // Including type: OVRInput/OVRControllerRHand
 #include "GlobalNamespace/OVRInput_OVRControllerRHand.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

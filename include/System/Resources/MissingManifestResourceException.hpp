@@ -34,7 +34,7 @@ namespace System::Resources {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static MissingManifestResourceException* New_ctor(::Il2CppString* message);
+    static MissingManifestResourceException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1145E5C
     // Implemented from: System.SystemException

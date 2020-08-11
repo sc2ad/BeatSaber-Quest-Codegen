@@ -25,18 +25,18 @@ namespace GlobalNamespace {
     public:
     // private System.String <text>k__BackingField
     // Offset: 0x0
-    ::Il2CppString* text;
+    ::CsString* text;
     // private System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> <playerOverallStatsDataFunc>k__BackingField
     // Offset: 0x8
     System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc;
     // Creating value type constructor for type: StatsScopeData
-    StatsScopeData(::Il2CppString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
+    StatsScopeData(::CsString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
     // public System.String get_text()
     // Offset: 0xA27BAC
-    ::Il2CppString* get_text();
+    ::CsString* get_text();
     // private System.Void set_text(System.String value)
     // Offset: 0xA27BB4
-    void set_text(::Il2CppString* value);
+    void set_text(::CsString* value);
     // public System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> get_playerOverallStatsDataFunc()
     // Offset: 0xA27BBC
     System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     void set_playerOverallStatsDataFunc(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* value);
     // public System.Void .ctor(System.String text, System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> playerOverallStatsDataFunc)
     // Offset: 0xA27BCC
-    static PlayerStatisticsViewController::StatsScopeData* New_ctor(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
+    static PlayerStatisticsViewController::StatsScopeData* New_ctor(::CsString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
   }; // PlayerStatisticsViewController/StatsScopeData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -24,10 +24,10 @@ namespace System::Resources {
     public:
     // private System.String _cultureName
     // Offset: 0x88
-    ::Il2CppString* cultureName;
+    ::CsString* cultureName;
     // public System.Void .ctor(System.String message, System.String cultureName)
     // Offset: 0x1145D80
-    static MissingSatelliteAssemblyException* New_ctor(::Il2CppString* message, ::Il2CppString* cultureName);
+    static MissingSatelliteAssemblyException* New_ctor(::CsString* message, ::CsString* cultureName);
     // public System.Void .ctor()
     // Offset: 0x1145E64
     // Implemented from: System.SystemException

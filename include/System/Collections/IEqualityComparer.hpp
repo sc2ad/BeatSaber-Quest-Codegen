@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -15,10 +15,10 @@ namespace System::Collections {
     public:
     // public System.Boolean Equals(System.Object x, System.Object y)
     // Offset: 0xFFFFFFFF
-    bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
+    bool System_Collections_IEqualityComparer_Equals(::CsObject* x, ::CsObject* y);
     // public System.Int32 GetHashCode(System.Object obj)
     // Offset: 0xFFFFFFFF
-    int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
+    int System_Collections_IEqualityComparer_GetHashCode(::CsObject* obj);
   }; // System.Collections.IEqualityComparer
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x14046B4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String error)
-    static PlayerPrefsException* New_ctor(::Il2CppString* error);
+    static PlayerPrefsException* New_ctor(::CsString* error);
   }; // UnityEngine.PlayerPrefsException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

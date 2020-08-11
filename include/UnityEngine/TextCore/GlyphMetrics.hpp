@@ -10,7 +10,7 @@
 #include "System/IEquatable_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {
@@ -61,7 +61,7 @@ namespace UnityEngine::TextCore {
     // Offset: 0xA5AE04
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.TextCore.GlyphMetrics other)
     // Offset: 0xA5AE0C
     // Implemented from: System.IEquatable`1

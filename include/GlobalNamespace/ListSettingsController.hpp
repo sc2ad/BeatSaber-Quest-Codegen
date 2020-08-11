@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     void ApplyValue(int idx);
     // protected System.String TextForValue(System.Int32 idx)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* TextForValue(int idx);
+    ::CsString* TextForValue(int idx);
     // private System.Void RefreshUI()
     // Offset: 0xBE5FAC
     void RefreshUI();

@@ -55,7 +55,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 GetSpineOffsetTarget();
     // protected System.Void LogWarning(System.String message)
     // Offset: 0x1358E74
-    void LogWarning(::Il2CppString* message);
+    void LogWarning(::CsString* message);
     // private UnityEngine.Vector3 GetLegSpineBendVector(RootMotion.FinalIK.Grounding/Leg leg)
     // Offset: 0x1358CE4
     UnityEngine::Vector3 GetLegSpineBendVector(RootMotion::FinalIK::Grounding::Leg* leg);

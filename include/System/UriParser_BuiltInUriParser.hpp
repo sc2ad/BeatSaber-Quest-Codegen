@@ -21,7 +21,7 @@ namespace System {
     public:
     // System.Void .ctor(System.String lwrCaseScheme, System.Int32 defaultPort, System.UriSyntaxFlags syntaxFlags)
     // Offset: 0x193CED8
-    static UriParser::BuiltInUriParser* New_ctor(::Il2CppString* lwrCaseScheme, int defaultPort, System::UriSyntaxFlags syntaxFlags);
+    static UriParser::BuiltInUriParser* New_ctor(::CsString* lwrCaseScheme, int defaultPort, System::UriSyntaxFlags syntaxFlags);
   }; // System.UriParser/BuiltInUriParser
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

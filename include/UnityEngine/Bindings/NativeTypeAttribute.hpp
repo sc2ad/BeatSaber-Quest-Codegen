@@ -17,19 +17,19 @@ namespace UnityEngine::Bindings {
     public:
     // private System.String <Header>k__BackingField
     // Offset: 0x10
-    ::Il2CppString* Header;
+    ::CsString* Header;
     // private System.String <IntermediateScriptingStructName>k__BackingField
     // Offset: 0x18
-    ::Il2CppString* IntermediateScriptingStructName;
+    ::CsString* IntermediateScriptingStructName;
     // private UnityEngine.Bindings.CodegenOptions <CodegenOptions>k__BackingField
     // Offset: 0x20
     UnityEngine::Bindings::CodegenOptions CodegenOptions;
     // public System.Void set_Header(System.String value)
     // Offset: 0x1959238
-    void set_Header(::Il2CppString* value);
+    void set_Header(::CsString* value);
     // public System.Void set_IntermediateScriptingStructName(System.String value)
     // Offset: 0x1959240
-    void set_IntermediateScriptingStructName(::Il2CppString* value);
+    void set_IntermediateScriptingStructName(::CsString* value);
     // public System.Void set_CodegenOptions(UnityEngine.Bindings.CodegenOptions value)
     // Offset: 0x1959248
     void set_CodegenOptions(UnityEngine::Bindings::CodegenOptions value);
@@ -38,10 +38,10 @@ namespace UnityEngine::Bindings {
     static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions);
     // public System.Void .ctor(System.String header)
     // Offset: 0x19592A4
-    static NativeTypeAttribute* New_ctor(::Il2CppString* header);
+    static NativeTypeAttribute* New_ctor(::CsString* header);
     // public System.Void .ctor(UnityEngine.Bindings.CodegenOptions codegenOptions, System.String intermediateStructName)
     // Offset: 0x19593A0
-    static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::Il2CppString* intermediateStructName);
+    static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::CsString* intermediateStructName);
     // public System.Void .ctor()
     // Offset: 0x1959250
     // Implemented from: System.Attribute

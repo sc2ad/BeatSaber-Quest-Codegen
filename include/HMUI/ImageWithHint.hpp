@@ -44,7 +44,7 @@ namespace HMUI {
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
     // Offset: 0xED26A4
-    void set_hintText(::Il2CppString* value);
+    void set_hintText(::CsString* value);
     // public System.Void .ctor()
     // Offset: 0xED26C0
     // Implemented from: UnityEngine.MonoBehaviour

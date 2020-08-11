@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.IParameterDataProvider
 #include "NUnit/Framework/Interfaces/IParameterDataProvider.hpp"
 // Including type: System.Collections.IEnumerable

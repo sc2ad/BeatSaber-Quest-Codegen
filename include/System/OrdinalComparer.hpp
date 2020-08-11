@@ -8,8 +8,8 @@
 #include "System/StringComparer.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
-struct Il2CppObject;
+struct CsString;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -26,22 +26,22 @@ namespace System {
     // Offset: 0x1347C30
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
-    int Compare(::Il2CppString* x, ::Il2CppString* y);
+    int Compare(::CsString* x, ::CsString* y);
     // public override System.Boolean Equals(System.String x, System.String y)
     // Offset: 0x1347C88
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
-    bool Equals(::Il2CppString* x, ::Il2CppString* y);
+    bool Equals(::CsString* x, ::CsString* y);
     // public override System.Int32 GetHashCode(System.String obj)
     // Offset: 0x1347D08
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
-    int GetHashCode(::Il2CppString* obj);
+    int GetHashCode(::CsString* obj);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1347DC0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x1347E58
     // Implemented from: System.Object

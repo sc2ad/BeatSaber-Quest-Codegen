@@ -99,8 +99,8 @@ namespace Unity::Collections {
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
-      ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(*this, "System.Collections.IEnumerator.get_Current"));
+      ::CsObject* System_Collections_IEnumerator_get_Current() {
+        return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(*this, "System.Collections.IEnumerator.get_Current"));
       }
     }; // Unity.Collections.NativeArray`1/Enumerator
     // System.Void* m_Buffer
@@ -176,7 +176,7 @@ namespace Unity::Collections {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj) {
+    bool Equals(::CsObject* obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", obj));
     }
     // public override System.Int32 GetHashCode()

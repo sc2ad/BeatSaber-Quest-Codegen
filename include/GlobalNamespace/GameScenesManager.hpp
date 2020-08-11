@@ -127,13 +127,13 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::GameScenesManager::ScenesStackData*>* scenesStack;
     // private System.Collections.Generic.HashSet`1<System.String> _neverUnloadScenes
     // Offset: 0x58
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* neverUnloadScenes;
+    System::Collections::Generic::HashSet_1<::CsString*>* neverUnloadScenes;
     // static field const value: static private System.String kRootContainerGOName
     static constexpr const char* kRootContainerGOName = "RootContainer";
     // Get static field: static private System.String kRootContainerGOName
-    static ::Il2CppString* _get_kRootContainerGOName();
+    static ::CsString* _get_kRootContainerGOName();
     // Set static field: static private System.String kRootContainerGOName
-    static void _set_kRootContainerGOName(::Il2CppString* value);
+    static void _set_kRootContainerGOName(::CsString* value);
     // public System.Void add_transitionDidStartEvent(System.Action`1<System.Single> value)
     // Offset: 0xC9C9B0
     void add_transitionDidStartEvent(System::Action_1<float>* value);
@@ -169,10 +169,10 @@ namespace GlobalNamespace {
     UnityEngine::WaitUntil* get_waitUntilSceneTransitionFinish();
     // public System.Void MarkSceneAsPersistent(System.String sceneName)
     // Offset: 0xC9CFD0
-    void MarkSceneAsPersistent(::Il2CppString* sceneName);
+    void MarkSceneAsPersistent(::CsString* sceneName);
     // public System.Collections.Generic.List`1<System.String> GetCurrentlyLoadedSceneNames()
     // Offset: 0xC9D038
-    System::Collections::Generic::List_1<::Il2CppString*>* GetCurrentlyLoadedSceneNames();
+    System::Collections::Generic::List_1<::CsString*>* GetCurrentlyLoadedSceneNames();
     // public System.Void PushScenes(ScenesTransitionSetupDataSO scenesTransitionSetupData, System.Single minDuration, System.Action afterMinDurationCallback, System.Action finishCallback)
     // Offset: 0xC9D150
     void PushScenes(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float minDuration, System::Action* afterMinDurationCallback, System::Action* finishCallback);
@@ -187,28 +187,28 @@ namespace GlobalNamespace {
     void ClearAndOpenScenes(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float minDuration, System::Action* afterMinDurationCallback, System::Action* finishCallback, bool unloadAllScenes);
     // private System.Collections.IEnumerator ScenesTransitionCoroutine(System.Collections.Generic.List`1<System.String> scenesToPresent, GameScenesManager/ScenePresentType presentType, System.Collections.Generic.List`1<System.String> scenesToDismiss, GameScenesManager/SceneDismissType dismissType, System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> extraBindingsCallback, System.Action finishCallback)
     // Offset: 0xC9D528
-    System::Collections::IEnumerator* ScenesTransitionCoroutine(System::Collections::Generic::List_1<::Il2CppString*>* scenesToPresent, GlobalNamespace::GameScenesManager::ScenePresentType presentType, System::Collections::Generic::List_1<::Il2CppString*>* scenesToDismiss, GlobalNamespace::GameScenesManager::SceneDismissType dismissType, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* extraBindingsCallback, System::Action* finishCallback);
+    System::Collections::IEnumerator* ScenesTransitionCoroutine(System::Collections::Generic::List_1<::CsString*>* scenesToPresent, GlobalNamespace::GameScenesManager::ScenePresentType presentType, System::Collections::Generic::List_1<::CsString*>* scenesToDismiss, GlobalNamespace::GameScenesManager::SceneDismissType dismissType, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* extraBindingsCallback, System::Action* finishCallback);
     // private System.Boolean IsAnySceneInStack(System.Collections.Generic.List`1<System.String> sceneNames)
     // Offset: 0xC9DF6C
-    bool IsAnySceneInStack(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames);
+    bool IsAnySceneInStack(System::Collections::Generic::List_1<::CsString*>* sceneNames);
     // private System.Boolean IsSceneInStack(System.String searchSceneName)
     // Offset: 0xC9E074
-    bool IsSceneInStack(::Il2CppString* searchSceneName);
+    bool IsSceneInStack(::CsString* searchSceneName);
     // private System.Collections.Generic.List`1<System.String> SceneNamesFromSceneInfoArray(SceneInfo[] sceneInfos)
     // Offset: 0xC9D414
-    System::Collections::Generic::List_1<::Il2CppString*>* SceneNamesFromSceneInfoArray(::Array<GlobalNamespace::SceneInfo*>* sceneInfos);
+    System::Collections::Generic::List_1<::CsString*>* SceneNamesFromSceneInfoArray(::Array<GlobalNamespace::SceneInfo*>* sceneInfos);
     // private System.Void SetActiveRootObjectsInScenes(System.Collections.Generic.List`1<System.String> sceneNames, System.Boolean value)
     // Offset: 0xC9E2E4
-    void SetActiveRootObjectsInScenes(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames, bool value);
+    void SetActiveRootObjectsInScenes(System::Collections::Generic::List_1<::CsString*>* sceneNames, bool value);
     // private System.Void ReparentRootGameObjectsToDisabledGameObject(System.String sceneName)
     // Offset: 0xC9E548
-    void ReparentRootGameObjectsToDisabledGameObject(::Il2CppString* sceneName);
+    void ReparentRootGameObjectsToDisabledGameObject(::CsString* sceneName);
     // private System.Void MoveGameObjectsFromContainerToSceneRoot(System.String sceneName)
     // Offset: 0xC9E728
-    void MoveGameObjectsFromContainerToSceneRoot(::Il2CppString* sceneName);
+    void MoveGameObjectsFromContainerToSceneRoot(::CsString* sceneName);
     // static public System.Void Log(System.String message)
     // Offset: 0xC9E9AC
-    static void Log(::Il2CppString* message);
+    static void Log(::CsString* message);
     // private System.Boolean <get_waitUntilSceneTransitionFinish>b__22_0()
     // Offset: 0xC9EAC4
     bool $get_waitUntilSceneTransitionFinish$b__22_0();

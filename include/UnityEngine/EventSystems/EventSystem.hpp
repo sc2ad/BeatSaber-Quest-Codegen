@@ -183,7 +183,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xDE52B0
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // static private System.Void .cctor()
     // Offset: 0xDE53D4
     // Implemented from: UnityEngine.Object

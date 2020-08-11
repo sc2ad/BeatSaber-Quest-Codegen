@@ -44,7 +44,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA3813C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec3 p)
     // Offset: 0xA38144
     // Implemented from: System.IEquatable`1
@@ -54,7 +54,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA38154
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
-    bool Equals(::Il2CppObject* b);
+    bool Equals(::CsObject* b);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3815C
     // Implemented from: System.ValueType

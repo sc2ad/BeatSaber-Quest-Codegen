@@ -4,7 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.IntegratedSubsystemDescriptor`1
 #include "UnityEngine/IntegratedSubsystemDescriptor_1.hpp"
 // Completed includes

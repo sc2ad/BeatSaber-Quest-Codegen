@@ -15,12 +15,12 @@ namespace HMUI {
     public:
     // private System.String _formatString
     // Offset: 0x160
-    ::Il2CppString* formatString;
+    ::CsString* formatString;
     // protected override System.String TextForValue(System.Single value)
     // Offset: 0xEC3130
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
-    ::Il2CppString* TextForValue(float value);
+    ::CsString* TextForValue(float value);
     // public System.Void .ctor()
     // Offset: 0xEC31A8
     // Implemented from: HMUI.RangeValuesTextSlider

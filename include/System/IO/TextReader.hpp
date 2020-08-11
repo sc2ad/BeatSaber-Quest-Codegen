@@ -36,13 +36,13 @@ namespace System::IO {
     // Nested type: System::IO::TextReader::$$c
     class $$c;
     // Get static field: static private System.Func`2<System.Object,System.String> _ReadLineDelegate
-    static System::Func_2<::Il2CppObject*, ::Il2CppString*>* _get__ReadLineDelegate();
+    static System::Func_2<::CsObject*, ::CsString*>* _get__ReadLineDelegate();
     // Set static field: static private System.Func`2<System.Object,System.String> _ReadLineDelegate
-    static void _set__ReadLineDelegate(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
+    static void _set__ReadLineDelegate(System::Func_2<::CsObject*, ::CsString*>* value);
     // Get static field: static private System.Func`2<System.Object,System.Int32> _ReadDelegate
-    static System::Func_2<::Il2CppObject*, int>* _get__ReadDelegate();
+    static System::Func_2<::CsObject*, int>* _get__ReadDelegate();
     // Set static field: static private System.Func`2<System.Object,System.Int32> _ReadDelegate
-    static void _set__ReadDelegate(System::Func_2<::Il2CppObject*, int>* value);
+    static void _set__ReadDelegate(System::Func_2<::CsObject*, int>* value);
     // Get static field: static public readonly System.IO.TextReader Null
     static System::IO::TextReader* _get_Null();
     // Set static field: static public readonly System.IO.TextReader Null
@@ -64,10 +64,10 @@ namespace System::IO {
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public System.String ReadToEnd()
     // Offset: 0xFF74C4
-    ::Il2CppString* ReadToEnd();
+    ::CsString* ReadToEnd();
     // public System.String ReadLine()
     // Offset: 0xFF75BC
-    ::Il2CppString* ReadLine();
+    ::CsString* ReadLine();
     // static public System.IO.TextReader Synchronized(System.IO.TextReader reader)
     // Offset: 0xFF76C0
     static System::IO::TextReader* Synchronized(System::IO::TextReader* reader);

@@ -9,8 +9,8 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
-struct Il2CppString;
+struct CsObject;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -54,19 +54,19 @@ namespace System {
     }
     // static private System.Object Box(System.Nullable`1<T> o)
     // Offset: 0xFFFFFFFF
-    static ::Il2CppObject* Box(System::Nullable_1<T> o) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Box", o));
+    static ::CsObject* Box(System::Nullable_1<T> o) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Box", o));
     }
     // static private System.Nullable`1<T> Unbox(System.Object o)
     // Offset: 0xFFFFFFFF
-    static System::Nullable_1<T> Unbox(::Il2CppObject* o) {
+    static System::Nullable_1<T> Unbox(::CsObject* o) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Nullable_1<T>>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Unbox", o));
     }
     // public override System.Boolean Equals(System.Object other)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::Il2CppObject* other) {
+    bool Equals(::CsObject* other) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", other));
     }
     // public override System.Int32 GetHashCode()
@@ -80,8 +80,8 @@ namespace System {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(*this, "ToString"));
+    ::CsString* ToString() {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsString*>(*this, "ToString"));
     }
   }; // System.Nullable`1
 }

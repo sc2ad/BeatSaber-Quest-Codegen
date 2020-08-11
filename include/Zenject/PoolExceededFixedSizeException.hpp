@@ -17,7 +17,7 @@ namespace Zenject {
     // Offset: 0xFAD0B0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String errorMessage)
-    static PoolExceededFixedSizeException* New_ctor(::Il2CppString* errorMessage);
+    static PoolExceededFixedSizeException* New_ctor(::CsString* errorMessage);
   }; // Zenject.PoolExceededFixedSizeException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

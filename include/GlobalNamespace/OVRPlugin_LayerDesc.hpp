@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0xA358EC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // OVRPlugin/LayerDesc
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

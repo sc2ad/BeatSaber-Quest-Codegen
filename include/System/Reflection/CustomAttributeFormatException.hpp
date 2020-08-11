@@ -36,7 +36,7 @@ namespace System::Reflection {
     // Base method: System.Void FormatException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static CustomAttributeFormatException* New_ctor(::Il2CppString* message);
+    static CustomAttributeFormatException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x134F964
     // Implemented from: System.FormatException

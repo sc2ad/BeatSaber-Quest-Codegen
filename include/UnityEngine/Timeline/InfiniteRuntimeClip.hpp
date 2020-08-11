@@ -4,7 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 // Including type: UnityEngine.Timeline.RuntimeElement
 #include "UnityEngine/Timeline/RuntimeElement.hpp"
 // Including type: UnityEngine.Playables.Playable

@@ -33,7 +33,7 @@ namespace RootMotion::FinalIK {
     void StoreDefaultState();
     // private UnityEngine.Transform GetTargetNamed(System.String tName, UnityEngine.Transform[] array)
     // Offset: 0x1358674
-    UnityEngine::Transform* GetTargetNamed(::Il2CppString* tName, ::Array<UnityEngine::Transform*>* array);
+    UnityEngine::Transform* GetTargetNamed(::CsString* tName, ::Array<UnityEngine::Transform*>* array);
     // public override System.Void AutoMapping()
     // Offset: 0x1358420
     // Implemented from: RootMotion.FinalIK.Poser

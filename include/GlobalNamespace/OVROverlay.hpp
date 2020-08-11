@@ -311,7 +311,7 @@ namespace GlobalNamespace {
     void Awake();
     // static public System.String get_OpenVROverlayKey()
     // Offset: 0xEDF7E4
-    static ::Il2CppString* get_OpenVROverlayKey();
+    static ::CsString* get_OpenVROverlayKey();
     // private System.Void OnEnable()
     // Offset: 0xEDF85C
     void OnEnable();

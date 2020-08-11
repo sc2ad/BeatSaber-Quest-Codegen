@@ -61,7 +61,7 @@ namespace UnityEngine {
     bool HasCharacter(int c);
     // static private System.Void Internal_CreateFont(UnityEngine.Font self, System.String name)
     // Offset: 0x194CA1C
-    static void Internal_CreateFont(UnityEngine::Font* self, ::Il2CppString* name);
+    static void Internal_CreateFont(UnityEngine::Font* self, ::CsString* name);
     // public System.Void .ctor()
     // Offset: 0x194C988
     // Implemented from: UnityEngine.Object

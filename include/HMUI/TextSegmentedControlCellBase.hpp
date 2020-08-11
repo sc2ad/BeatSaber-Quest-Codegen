@@ -25,10 +25,10 @@ namespace HMUI {
     TMPro::TextMeshProUGUI* text;
     // public System.Void set_text(System.String value)
     // Offset: 0x10D45B4
-    void set_text(::Il2CppString* value);
+    void set_text(::CsString* value);
     // public System.String get_text()
     // Offset: 0x10D46E4
-    ::Il2CppString* get_text();
+    ::CsString* get_text();
     // public System.Void set_fontSize(System.Single value)
     // Offset: 0x10D4598
     void set_fontSize(float value);

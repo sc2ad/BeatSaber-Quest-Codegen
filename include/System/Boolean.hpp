@@ -58,34 +58,34 @@ namespace System {
     // static field const value: static System.String TrueLiteral
     static constexpr const char* TrueLiteral = "True";
     // Get static field: static System.String TrueLiteral
-    static ::Il2CppString* _get_TrueLiteral();
+    static ::CsString* _get_TrueLiteral();
     // Set static field: static System.String TrueLiteral
-    static void _set_TrueLiteral(::Il2CppString* value);
+    static void _set_TrueLiteral(::CsString* value);
     // static field const value: static System.String FalseLiteral
     static constexpr const char* FalseLiteral = "False";
     // Get static field: static System.String FalseLiteral
-    static ::Il2CppString* _get_FalseLiteral();
+    static ::CsString* _get_FalseLiteral();
     // Set static field: static System.String FalseLiteral
-    static void _set_FalseLiteral(::Il2CppString* value);
+    static void _set_FalseLiteral(::CsString* value);
     // Get static field: static public readonly System.String TrueString
-    static ::Il2CppString* _get_TrueString();
+    static ::CsString* _get_TrueString();
     // Set static field: static public readonly System.String TrueString
-    static void _set_TrueString(::Il2CppString* value);
+    static void _set_TrueString(::CsString* value);
     // Get static field: static public readonly System.String FalseString
-    static ::Il2CppString* _get_FalseString();
+    static ::CsString* _get_FalseString();
     // Set static field: static public readonly System.String FalseString
-    static void _set_FalseString(::Il2CppString* value);
+    static void _set_FalseString(::CsString* value);
     // Creating value type constructor for type: Boolean
     Boolean(bool m_value_ = {}) : m_value{m_value_} {}
     // static public System.Boolean Parse(System.String value)
     // Offset: 0x1318028
-    static bool Parse(::Il2CppString* value);
+    static bool Parse(::CsString* value);
     // static public System.Boolean TryParse(System.String value, System.Boolean result)
     // Offset: 0x131813C
-    static bool TryParse(::Il2CppString* value, bool& result);
+    static bool TryParse(::CsString* value, bool& result);
     // static private System.String TrimWhiteSpaceAndNull(System.String value)
     // Offset: 0x1318260
-    static ::Il2CppString* TrimWhiteSpaceAndNull(::Il2CppString* value);
+    static ::CsString* TrimWhiteSpaceAndNull(::CsString* value);
     // static private System.Void .cctor()
     // Offset: 0x1318BF8
     static void _cctor();
@@ -98,17 +98,17 @@ namespace System {
     // Offset: 0xA425E4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0xA42644
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::CsString* ToString(System::IFormatProvider* provider);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xA426A4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public System.Boolean Equals(System.Boolean obj)
     // Offset: 0xA426AC
     // Implemented from: System.IEquatable`1
@@ -118,10 +118,10 @@ namespace System {
     // Offset: 0xA426C0
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
-    int CompareTo(::Il2CppObject* obj);
+    int CompareTo(::CsObject* obj);
     // Creating proxy method: System_IComparable_CompareTo
     // Maps to method: CompareTo
-    int System_IComparable_CompareTo(::Il2CppObject* obj);
+    int System_IComparable_CompareTo(::CsObject* obj);
     // public System.Int32 CompareTo(System.Boolean value)
     // Offset: 0xA426C8
     // Implemented from: System.IComparable`1
@@ -206,7 +206,7 @@ namespace System {
     // Offset: 0xA42770
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
-    ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
+    ::CsObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Boolean
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

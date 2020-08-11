@@ -36,7 +36,7 @@ namespace System::IO {
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static PathTooLongException* New_ctor(::Il2CppString* message);
+    static PathTooLongException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFF0FA4
     // Implemented from: System.IO.IOException

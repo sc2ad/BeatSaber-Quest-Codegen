@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     GlobalNamespace::FillIndicator* fillIndicator;
     // public System.Void set_difficultyText(System.String value)
     // Offset: 0xBD1AC0
-    void set_difficultyText(::Il2CppString* value);
+    void set_difficultyText(::CsString* value);
     // public System.String get_difficultyText()
     // Offset: 0xBD1ADC
-    ::Il2CppString* get_difficultyText();
+    ::CsString* get_difficultyText();
     // public System.Void set_difficultyValue(System.Int32 value)
     // Offset: 0xBD1AF8
     void set_difficultyValue(int value);

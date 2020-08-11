@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PreviewBeatmapLevelSO/<GetCoverImageTexture2DAsync>d__52
 #include "GlobalNamespace/PreviewBeatmapLevelSO_-GetCoverImageTexture2DAsync-d__52.hpp"
 // Including type: UnityEngine.Texture2D

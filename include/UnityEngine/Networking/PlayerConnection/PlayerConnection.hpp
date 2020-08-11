@@ -118,7 +118,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     void DisconnectAll();
     // static private System.Void MessageCallbackInternal(System.IntPtr data, System.UInt64 size, System.UInt64 guid, System.String messageId)
     // Offset: 0x13FDCDC
-    static void MessageCallbackInternal(System::IntPtr data, uint64_t size, uint64_t guid, ::Il2CppString* messageId);
+    static void MessageCallbackInternal(System::IntPtr data, uint64_t size, uint64_t guid, ::CsString* messageId);
     // static private System.Void ConnectedCallbackInternal(System.Int32 playerId)
     // Offset: 0x13FE1CC
     static void ConnectedCallbackInternal(int playerId);

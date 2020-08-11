@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_ExternalCamera::Config config;
     // public System.String configPath
     // Offset: 0x68
-    ::Il2CppString* configPath;
+    ::CsString* configPath;
     // private System.IO.FileSystemWatcher watcher
     // Offset: 0x70
     System::IO::FileSystemWatcher* watcher;
@@ -146,7 +146,7 @@ namespace GlobalNamespace {
     void ReadConfig();
     // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
     // Offset: 0xD6CDF0
-    void OnChanged(::Il2CppObject* source, System::IO::FileSystemEventArgs* e);
+    void OnChanged(::CsObject* source, System::IO::FileSystemEventArgs* e);
     // public System.Void AttachToCamera(SteamVR_Camera vrcam)
     // Offset: 0xD6CDF4
     void AttachToCamera(GlobalNamespace::SteamVR_Camera* vrcam);

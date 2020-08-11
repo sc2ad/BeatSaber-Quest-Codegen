@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FloatSO* songTime;
     // private System.String _saveFilename
     // Offset: 0x20
-    ::Il2CppString* saveFilename;
+    ::CsString* saveFilename;
     // private VRTrackersRecorder/RecordMode _mode
     // Offset: 0x28
     GlobalNamespace::VRTrackersRecorder::RecordMode mode;

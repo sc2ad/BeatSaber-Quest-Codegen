@@ -83,15 +83,15 @@ namespace UnityEngine::Timeline {
     // static field const value: static private System.String k_DefaultInfiniteClipName
     static constexpr const char* k_DefaultInfiniteClipName = "Recorded";
     // Get static field: static private System.String k_DefaultInfiniteClipName
-    static ::Il2CppString* _get_k_DefaultInfiniteClipName();
+    static ::CsString* _get_k_DefaultInfiniteClipName();
     // Set static field: static private System.String k_DefaultInfiniteClipName
-    static void _set_k_DefaultInfiniteClipName(::Il2CppString* value);
+    static void _set_k_DefaultInfiniteClipName(::CsString* value);
     // static field const value: static private System.String k_DefaultRecordableClipName
     static constexpr const char* k_DefaultRecordableClipName = "Recorded";
     // Get static field: static private System.String k_DefaultRecordableClipName
-    static ::Il2CppString* _get_k_DefaultRecordableClipName();
+    static ::CsString* _get_k_DefaultRecordableClipName();
     // Set static field: static private System.String k_DefaultRecordableClipName
-    static void _set_k_DefaultRecordableClipName(::Il2CppString* value);
+    static void _set_k_DefaultRecordableClipName(::CsString* value);
     // private UnityEngine.Timeline.TimelineClip/ClipExtrapolation m_InfiniteClipPreExtrapolation
     // Offset: 0xA0
     UnityEngine::Timeline::TimelineClip::ClipExtrapolation m_InfiniteClipPreExtrapolation;
@@ -265,10 +265,10 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TimelineClip* CreateClip(UnityEngine::AnimationClip* clip);
     // public System.Void CreateInfiniteClip(System.String infiniteClipName)
     // Offset: 0x107BE40
-    void CreateInfiniteClip(::Il2CppString* infiniteClipName);
+    void CreateInfiniteClip(::CsString* infiniteClipName);
     // public UnityEngine.Timeline.TimelineClip CreateRecordableClip(System.String animClipName)
     // Offset: 0x107BF60
-    UnityEngine::Timeline::TimelineClip* CreateRecordableClip(::Il2CppString* animClipName);
+    UnityEngine::Timeline::TimelineClip* CreateRecordableClip(::CsString* animClipName);
     // System.Void UpdateClipOffsets()
     // Offset: 0x107BB3C
     void UpdateClipOffsets();

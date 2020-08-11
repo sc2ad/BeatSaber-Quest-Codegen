@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     void HandleSaberSwingRatingCounterDidChangeEvent(GlobalNamespace::SaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
     // Offset: 0xBDADDC
-    ::Il2CppString* GetScoreText(int score);
+    ::CsString* GetScoreText(int score);
     // protected override System.Void ManualUpdate(System.Single t)
     // Offset: 0xBDAEA4
     // Implemented from: FlyingObjectEffect

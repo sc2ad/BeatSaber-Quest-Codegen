@@ -55,13 +55,13 @@ namespace System::Globalization {
     static System::Globalization::Calendar* GetDefaultInstance();
     // static System.String[] EraNames()
     // Offset: 0x12B76B4
-    static ::Array<::Il2CppString*>* EraNames();
+    static ::Array<::CsString*>* EraNames();
     // static System.String[] AbbrevEraNames()
     // Offset: 0x12B77F0
-    static ::Array<::Il2CppString*>* AbbrevEraNames();
+    static ::Array<::CsString*>* AbbrevEraNames();
     // static System.String[] EnglishEraNames()
     // Offset: 0x12B792C
-    static ::Array<::Il2CppString*>* EnglishEraNames();
+    static ::Array<::CsString*>* EnglishEraNames();
     // static private System.Void .cctor()
     // Offset: 0x12B7AC8
     static void _cctor();

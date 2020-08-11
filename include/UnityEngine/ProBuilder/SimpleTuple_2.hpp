@@ -9,7 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
@@ -54,8 +54,8 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(*this, "ToString"));
+    ::CsString* ToString() {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsString*>(*this, "ToString"));
     }
   }; // UnityEngine.ProBuilder.SimpleTuple`2
 }

@@ -62,7 +62,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>* lateScriptableObjectInstallers;
     // private System.String _decoratedContractName
     // Offset: 0x58
-    ::Il2CppString* decoratedContractName;
+    ::CsString* decoratedContractName;
     // private Zenject.DiContainer _container
     // Offset: 0x60
     Zenject::DiContainer* container;
@@ -89,7 +89,7 @@ namespace Zenject {
     void set_LateScriptableObjectInstallers(System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>* value);
     // public System.String get_DecoratedContractName()
     // Offset: 0xFB61C4
-    ::Il2CppString* get_DecoratedContractName();
+    ::CsString* get_DecoratedContractName();
     // public System.Void Initialize(Zenject.DiContainer container)
     // Offset: 0xFB4AF4
     void Initialize(Zenject::DiContainer* container);

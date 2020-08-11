@@ -13,7 +13,7 @@ namespace System::Collections {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -22,7 +22,7 @@ namespace System::Collections {
     public:
     // public System.Boolean Equals(System.Object other, System.Collections.IEqualityComparer comparer)
     // Offset: 0xFFFFFFFF
-    bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, System::Collections::IEqualityComparer* comparer);
+    bool System_Collections_IStructuralEquatable_Equals(::CsObject* other, System::Collections::IEqualityComparer* comparer);
     // public System.Int32 GetHashCode(System.Collections.IEqualityComparer comparer)
     // Offset: 0xFFFFFFFF
     int System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer* comparer);

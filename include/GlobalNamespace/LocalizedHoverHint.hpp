@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     public:
     // protected System.Void SetText(HMUI.HoverHint hoverHint, System.String value)
     // Offset: 0xBE7ED8
-    void SetText(HMUI::HoverHint* hoverHint, ::Il2CppString* value);
+    void SetText(HMUI::HoverHint* hoverHint, ::CsString* value);
     // protected System.Void UpdateAlignment(HMUI.HoverHint hoverHint, Polyglot.LanguageDirection direction)
     // Offset: 0xBE7EF8
     void UpdateAlignment(HMUI::HoverHint* hoverHint, Polyglot::LanguageDirection direction);

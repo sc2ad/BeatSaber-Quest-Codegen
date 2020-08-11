@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // public System.Void SetScore(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean highlighted, System.Boolean showSeparator)
     // Offset: 0xB45AE8
-    void SetScore(int score, ::Il2CppString* playerName, int rank, bool highlighted, bool showSeparator);
+    void SetScore(int score, ::CsString* playerName, int rank, bool highlighted, bool showSeparator);
     // public System.Void .ctor()
     // Offset: 0xB45C88
     // Implemented from: UnityEngine.MonoBehaviour

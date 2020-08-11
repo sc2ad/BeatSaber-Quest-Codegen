@@ -38,7 +38,7 @@ namespace Mono::Xml {
     System::Collections::Stack* stack;
     // public System.Void LoadXml(System.String xml)
     // Offset: 0x10A3780
-    void LoadXml(::Il2CppString* xml);
+    void LoadXml(::CsString* xml);
     // public System.Security.SecurityElement ToXml()
     // Offset: 0x10A3A14
     System::Security::SecurityElement* ToXml();
@@ -57,27 +57,27 @@ namespace Mono::Xml {
     // Offset: 0x10A3A20
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnProcessingInstruction(System.String name, System.String text)
-    void OnProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
+    void OnProcessingInstruction(::CsString* name, ::CsString* text);
     // public System.Void OnIgnorableWhitespace(System.String s)
     // Offset: 0x10A3A24
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnIgnorableWhitespace(System.String s)
-    void OnIgnorableWhitespace(::Il2CppString* s);
+    void OnIgnorableWhitespace(::CsString* s);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
     // Offset: 0x10A3A28
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
-    void OnStartElement(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
+    void OnStartElement(::CsString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
     // Offset: 0x10A3CF8
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnEndElement(System.String name)
-    void OnEndElement(::Il2CppString* name);
+    void OnEndElement(::CsString* name);
     // public System.Void OnChars(System.String ch)
     // Offset: 0x10A3D88
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnChars(System.String ch)
-    void OnChars(::Il2CppString* ch);
+    void OnChars(::CsString* ch);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
     // Offset: 0x10A3E18
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler

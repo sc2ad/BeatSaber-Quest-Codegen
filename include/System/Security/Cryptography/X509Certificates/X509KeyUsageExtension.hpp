@@ -31,15 +31,15 @@ namespace System::Security::Cryptography::X509Certificates {
     // static field const value: static System.String oid
     static constexpr const char* oid = "2.5.29.15";
     // Get static field: static System.String oid
-    static ::Il2CppString* _get_oid();
+    static ::CsString* _get_oid();
     // Set static field: static System.String oid
-    static void _set_oid(::Il2CppString* value);
+    static void _set_oid(::CsString* value);
     // static field const value: static System.String friendlyName
     static constexpr const char* friendlyName = "Key Usage";
     // Get static field: static System.String friendlyName
-    static ::Il2CppString* _get_friendlyName();
+    static ::CsString* _get_friendlyName();
     // Set static field: static System.String friendlyName
-    static void _set_friendlyName(::Il2CppString* value);
+    static void _set_friendlyName(::CsString* value);
     // static field const value: static System.Security.Cryptography.X509Certificates.X509KeyUsageFlags all
     static constexpr const int all = 33023;
     // Get static field: static System.Security.Cryptography.X509Certificates.X509KeyUsageFlags all
@@ -86,7 +86,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1205684
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
-    ::Il2CppString* ToString(bool multiLine);
+    ::CsString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509KeyUsageExtension
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

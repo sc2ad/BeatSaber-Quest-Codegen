@@ -90,7 +90,7 @@ namespace System {
     // Offset: 0xA3D570
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
-    int System_IComparable_CompareTo(::Il2CppObject* obj);
+    int System_IComparable_CompareTo(::CsObject* obj);
     // public System.Int32 CompareTo(System.DateTimeOffset other)
     // Offset: 0xA3D578
     // Implemented from: System.IComparable`1
@@ -100,7 +100,7 @@ namespace System {
     // Offset: 0xA3D580
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public System.Boolean Equals(System.DateTimeOffset other)
     // Offset: 0xA3D588
     // Implemented from: System.IEquatable`1
@@ -110,7 +110,7 @@ namespace System {
     // Offset: 0xA3D590
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
-    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
+    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::CsObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xA3D598
     // Implemented from: System.Runtime.Serialization.ISerializable
@@ -125,12 +125,12 @@ namespace System {
     // Offset: 0xA3D5C8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public System.String ToString(System.String format, System.IFormatProvider formatProvider)
     // Offset: 0xA3D5D0
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider formatProvider)
-    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);
+    ::CsString* ToString(::CsString* format, System::IFormatProvider* formatProvider);
   }; // System.DateTimeOffset
   // static public System.TimeSpan op_Subtraction(System.DateTimeOffset left, System.DateTimeOffset right)
   // Offset: 0x10C0D8C

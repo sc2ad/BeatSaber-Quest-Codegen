@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     void OpenLevelPackProductStoreAsync();
     // private System.Void ShowContent(LevelPackDetailViewController/ContentType contentType, System.String errorText)
     // Offset: 0xBE0A48
-    void ShowContent(GlobalNamespace::LevelPackDetailViewController::ContentType contentType, ::Il2CppString* errorText);
+    void ShowContent(GlobalNamespace::LevelPackDetailViewController::ContentType contentType, ::CsString* errorText);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
     // Offset: 0xBE0DAC
     void HandleAdditionalContentModelDidInvalidateData();

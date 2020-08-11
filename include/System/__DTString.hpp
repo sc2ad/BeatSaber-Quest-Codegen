@@ -31,7 +31,7 @@ namespace System {
     public:
     // System.String Value
     // Offset: 0x0
-    ::Il2CppString* Value;
+    ::CsString* Value;
     // System.Int32 Index
     // Offset: 0x8
     int Index;
@@ -52,10 +52,10 @@ namespace System {
     // Set static field: static private System.Char[] WhiteSpaceChecks
     static void _set_WhiteSpaceChecks(::Array<::Il2CppChar>* value);
     // Creating value type constructor for type: __DTString
-    __DTString(::Il2CppString* Value_ = {}, int Index_ = {}, int len_ = {}, ::Il2CppChar m_current_ = {}, System::Globalization::CompareInfo* m_info_ = {}, bool m_checkDigitToken_ = {}) : Value{Value_}, Index{Index_}, len{len_}, m_current{m_current_}, m_info{m_info_}, m_checkDigitToken{m_checkDigitToken_} {}
+    __DTString(::CsString* Value_ = {}, int Index_ = {}, int len_ = {}, ::Il2CppChar m_current_ = {}, System::Globalization::CompareInfo* m_info_ = {}, bool m_checkDigitToken_ = {}) : Value{Value_}, Index{Index_}, len{len_}, m_current{m_current_}, m_info{m_info_}, m_checkDigitToken{m_checkDigitToken_} {}
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0xA53B84
-    static __DTString* New_ctor(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi);
+    static __DTString* New_ctor(::CsString* str, System::Globalization::DateTimeFormatInfo* dtfi);
     // System.Boolean GetNext()
     // Offset: 0xA53B8C
     bool GetNext();
@@ -73,7 +73,7 @@ namespace System {
     System::TokenType GetSeparatorToken(System::Globalization::DateTimeFormatInfo* dtfi, int& indexBeforeSeparator, ::Il2CppChar& charBeforeSeparator);
     // System.Boolean MatchSpecifiedWords(System.String target, System.Boolean checkWordBoundary, System.Int32 matchLength)
     // Offset: 0xA53BBC
-    bool MatchSpecifiedWords(::Il2CppString* target, bool checkWordBoundary, int& matchLength);
+    bool MatchSpecifiedWords(::CsString* target, bool checkWordBoundary, int& matchLength);
     // System.Boolean Match(System.Char ch)
     // Offset: 0xA53BC8
     bool Match(::Il2CppChar ch);

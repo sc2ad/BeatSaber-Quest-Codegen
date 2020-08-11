@@ -66,7 +66,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     System::Collections::Generic::Queue_1<UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*>* m_SendQueue;
     // private readonly System.Object m_LockQueue
     // Offset: 0x28
-    ::Il2CppObject* m_LockQueue;
+    ::CsObject* m_LockQueue;
     // private readonly UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory m_TestResultDataFactory
     // Offset: 0x30
     UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* m_TestResultDataFactory;
@@ -78,7 +78,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     void EditorProccessedTheResult(UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
     // private System.Byte[] SerializeObject(System.Object objectToSerialize)
     // Offset: 0xE2DFE4
-    ::Array<uint8_t>* SerializeObject(::Il2CppObject* objectToSerialize);
+    ::Array<uint8_t>* SerializeObject(::CsObject* objectToSerialize);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
     // Offset: 0xE2E034
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);

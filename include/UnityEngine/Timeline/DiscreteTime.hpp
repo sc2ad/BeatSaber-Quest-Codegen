@@ -105,20 +105,20 @@ namespace UnityEngine::Timeline {
     // Offset: 0xA3C8C0
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
-    int CompareTo(::Il2CppObject* obj);
+    int CompareTo(::CsObject* obj);
     // Creating proxy method: System_IComparable_CompareTo
     // Maps to method: CompareTo
-    int System_IComparable_CompareTo(::Il2CppObject* obj);
+    int System_IComparable_CompareTo(::CsObject* obj);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xA3C8D8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public override System.String ToString()
     // Offset: 0xA3C8E0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3C90C
     // Implemented from: System.ValueType

@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kScoresToUploadFileName
     static constexpr const char* kScoresToUploadFileName = "ScoresToUpload.dat";
     // Get static field: static private System.String kScoresToUploadFileName
-    static ::Il2CppString* _get_kScoresToUploadFileName();
+    static ::CsString* _get_kScoresToUploadFileName();
     // Set static field: static private System.String kScoresToUploadFileName
-    static void _set_kScoresToUploadFileName(::Il2CppString* value);
+    static void _set_kScoresToUploadFileName(::CsString* value);
     // private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUpload
     // Offset: 0x20
     System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* scoresToUpload;
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback;
     // private System.String _playerId
     // Offset: 0x38
-    ::Il2CppString* playerId;
+    ::CsString* playerId;
     // private System.Boolean _uploading
     // Offset: 0x40
     bool uploading;
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     void remove_allScoresDidUploadEvent(System::Action* value);
     // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
     // Offset: 0xB45F14
-    void Init(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::Il2CppString* playerId);
+    void Init(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::CsString* playerId);
     // private System.Void OnApplicationQuit()
     // Offset: 0xB45FF0
     void OnApplicationQuit();

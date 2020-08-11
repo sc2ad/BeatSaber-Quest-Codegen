@@ -123,7 +123,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x133A21C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(System.String message)
-    bool IsValid(::Il2CppString*& message);
+    bool IsValid(::CsString*& message);
     // protected override System.Void OnInitiate()
     // Offset: 0x133AE68
     // Implemented from: RootMotion.FinalIK.IKSolver

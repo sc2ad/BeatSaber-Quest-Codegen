@@ -61,15 +61,15 @@ namespace Zenject {
     // static field const value: static public System.String ProjectContextResourcePath
     static constexpr const char* ProjectContextResourcePath = "ProjectContext";
     // Get static field: static public System.String ProjectContextResourcePath
-    static ::Il2CppString* _get_ProjectContextResourcePath();
+    static ::CsString* _get_ProjectContextResourcePath();
     // Set static field: static public System.String ProjectContextResourcePath
-    static void _set_ProjectContextResourcePath(::Il2CppString* value);
+    static void _set_ProjectContextResourcePath(::CsString* value);
     // static field const value: static public System.String ProjectContextResourcePathOld
     static constexpr const char* ProjectContextResourcePathOld = "ProjectCompositionRoot";
     // Get static field: static public System.String ProjectContextResourcePathOld
-    static ::Il2CppString* _get_ProjectContextResourcePathOld();
+    static ::CsString* _get_ProjectContextResourcePathOld();
     // Set static field: static public System.String ProjectContextResourcePathOld
-    static void _set_ProjectContextResourcePathOld(::Il2CppString* value);
+    static void _set_ProjectContextResourcePathOld(::CsString* value);
     // Get static field: static private Zenject.ProjectContext _instance
     static Zenject::ProjectContext* _get__instance();
     // Set static field: static private Zenject.ProjectContext _instance

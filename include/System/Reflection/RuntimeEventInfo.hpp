@@ -4,7 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.EventInfo
 #include "System/Reflection/EventInfo.hpp"
 // Including type: System.Runtime.Serialization.ISerializable

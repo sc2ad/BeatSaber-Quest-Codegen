@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SteamVR_Events/ActionNoArgs
 #include "GlobalNamespace/SteamVR_Events_ActionNoArgs.hpp"
 // Including type: UnityEngine.Events.UnityAction

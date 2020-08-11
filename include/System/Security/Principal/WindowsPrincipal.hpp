@@ -4,7 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Claims.ClaimsPrincipal
 #include "System/Security/Claims/ClaimsPrincipal.hpp"
 // Completed includes

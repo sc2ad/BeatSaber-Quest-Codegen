@@ -17,12 +17,12 @@ namespace Zenject {
     // Offset: 0x1928B70
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
-    static ZenjectException* New_ctor(::Il2CppString* message);
+    static ZenjectException* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
     // Offset: 0x1928BE8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
-    static ZenjectException* New_ctor(::Il2CppString* message, System::Exception* innerException);
+    static ZenjectException* New_ctor(::CsString* message, System::Exception* innerException);
   }; // Zenject.ZenjectException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.CompilerServices.AsyncMethodBuilderCore
 #include "System/Runtime/CompilerServices/AsyncMethodBuilderCore.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner

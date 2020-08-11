@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // private System.String _songPlayerCrossfadignToLevelId
     // Offset: 0xB8
-    ::Il2CppString* songPlayerCrossfadignToLevelId;
+    ::CsString* songPlayerCrossfadignToLevelId;
     // private UnityEngine.GameObject _noDataInfoGO
     // Offset: 0xC0
     UnityEngine::GameObject* noDataInfoGO;
@@ -113,7 +113,7 @@ namespace GlobalNamespace {
     void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionViewController*>* value);
     // public System.Void SetData(IBeatmapLevelCollection beatmapLevelCollection, System.String headerText, UnityEngine.Sprite headerSprite, System.Boolean sortLevels, UnityEngine.GameObject noDataInfoPrefab)
     // Offset: 0xB49F1C
-    void SetData(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::Il2CppString* headerText, UnityEngine::Sprite* headerSprite, bool sortLevels, UnityEngine::GameObject* noDataInfoPrefab);
+    void SetData(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::CsString* headerText, UnityEngine::Sprite* headerSprite, bool sortLevels, UnityEngine::GameObject* noDataInfoPrefab);
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0xB4A21C
     void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: StandardLevelDetailViewController/<LoadBeatmapLevelAsync>d__47
 #include "GlobalNamespace/StandardLevelDetailViewController_-LoadBeatmapLevelAsync-d__47.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

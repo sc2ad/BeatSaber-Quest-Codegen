@@ -58,9 +58,9 @@ namespace Polyglot {
     // static field const value: static private System.String KeyNotFound
     static constexpr const char* KeyNotFound = "[{0}]";
     // Get static field: static private System.String KeyNotFound
-    static ::Il2CppString* _get_KeyNotFound();
+    static ::CsString* _get_KeyNotFound();
     // Set static field: static private System.String KeyNotFound
-    static void _set_KeyNotFound(::Il2CppString* value);
+    static void _set_KeyNotFound(::CsString* value);
     // private Polyglot.LocalizationDocument customDocument
     // Offset: 0x18
     Polyglot::LocalizationDocument* customDocument;
@@ -124,16 +124,16 @@ namespace Polyglot {
     void InvokeOnLocalize();
     // public System.Collections.Generic.List`1<System.String> get_EnglishLanguageNames()
     // Offset: 0x18FE090
-    System::Collections::Generic::List_1<::Il2CppString*>* get_EnglishLanguageNames();
+    System::Collections::Generic::List_1<::CsString*>* get_EnglishLanguageNames();
     // public System.Collections.Generic.List`1<System.String> get_LocalizedLanguageNames()
     // Offset: 0x18FE824
-    System::Collections::Generic::List_1<::Il2CppString*>* get_LocalizedLanguageNames();
+    System::Collections::Generic::List_1<::CsString*>* get_LocalizedLanguageNames();
     // public System.String get_EnglishLanguageName()
     // Offset: 0x18FE898
-    ::Il2CppString* get_EnglishLanguageName();
+    ::CsString* get_EnglishLanguageName();
     // public System.String get_LocalizedLanguageName()
     // Offset: 0x18FE910
-    ::Il2CppString* get_LocalizedLanguageName();
+    ::CsString* get_LocalizedLanguageName();
     // public System.Void SelectLanguage(System.Int32 selected)
     // Offset: 0x18FE958
     void SelectLanguage(int selected);
@@ -151,19 +151,19 @@ namespace Polyglot {
     void RemoveOnLocalizeEvent(Polyglot::ILocalize* localize);
     // static public System.String Get(System.String key)
     // Offset: 0x18FE8E0
-    static ::Il2CppString* Get(::Il2CppString* key);
+    static ::CsString* Get(::CsString* key);
     // static public System.String Get(System.String key, Polyglot.Language language)
     // Offset: 0x18FEB0C
-    static ::Il2CppString* Get(::Il2CppString* key, Polyglot::Language language);
+    static ::CsString* Get(::CsString* key, Polyglot::Language language);
     // static public System.Boolean KeyExist(System.String key)
     // Offset: 0x18FEF90
-    static bool KeyExist(::Il2CppString* key);
+    static bool KeyExist(::CsString* key);
     // static public System.Collections.Generic.List`1<System.String> GetKeys()
     // Offset: 0x18FF044
-    static System::Collections::Generic::List_1<::Il2CppString*>* GetKeys();
+    static System::Collections::Generic::List_1<::CsString*>* GetKeys();
     // static public System.String GetFormat(System.String key, System.Object[] arguments)
     // Offset: 0x18FF12C
-    static ::Il2CppString* GetFormat(::Il2CppString* key, ::Array<::Il2CppObject*>* arguments);
+    static ::CsString* GetFormat(::CsString* key, ::Array<::CsObject*>* arguments);
     // public System.Boolean InputFilesContains(Polyglot.LocalizationDocument doc)
     // Offset: 0x18FF184
     bool InputFilesContains(Polyglot::LocalizationDocument* doc);

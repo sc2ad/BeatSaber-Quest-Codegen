@@ -17,16 +17,16 @@ namespace System::Resources {
     public:
     // private System.String _culture
     // Offset: 0x10
-    ::Il2CppString* culture;
+    ::CsString* culture;
     // private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
     // Offset: 0x18
     System::Resources::UltimateResourceFallbackLocation fallbackLoc;
     // public System.Void .ctor(System.String cultureName)
     // Offset: 0x1145EE0
-    static NeutralResourcesLanguageAttribute* New_ctor(::Il2CppString* cultureName);
+    static NeutralResourcesLanguageAttribute* New_ctor(::CsString* cultureName);
     // public System.String get_CultureName()
     // Offset: 0x1145F8C
-    ::Il2CppString* get_CultureName();
+    ::CsString* get_CultureName();
     // public System.Resources.UltimateResourceFallbackLocation get_Location()
     // Offset: 0x1145F94
     System::Resources::UltimateResourceFallbackLocation get_Location();

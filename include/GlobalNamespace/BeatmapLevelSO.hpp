@@ -118,19 +118,19 @@ namespace GlobalNamespace {
     }; // BeatmapLevelSO/GetBeatmapLevelDataResult
     // private System.String _levelID
     // Offset: 0x18
-    ::Il2CppString* levelID;
+    ::CsString* levelID;
     // private System.String _songName
     // Offset: 0x20
-    ::Il2CppString* songName;
+    ::CsString* songName;
     // private System.String _songSubName
     // Offset: 0x28
-    ::Il2CppString* songSubName;
+    ::CsString* songSubName;
     // private System.String _songAuthorName
     // Offset: 0x30
-    ::Il2CppString* songAuthorName;
+    ::CsString* songAuthorName;
     // private System.String _levelAuthorName
     // Offset: 0x38
-    ::Il2CppString* levelAuthorName;
+    ::CsString* levelAuthorName;
     // private UnityEngine.AudioClip _audioClip
     // Offset: 0x40
     UnityEngine::AudioClip* audioClip;
@@ -193,7 +193,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void InitFull(System.String levelID, System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, UnityEngine.AudioClip audioClip, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, UnityEngine.Texture2D coverImageTexture2D, EnvironmentInfoSO environmentInfo, EnvironmentInfoSO allDirectionsEnvironmentInfo, BeatmapLevelSO/DifficultyBeatmapSet[] difficultyBeatmapSets)
     // Offset: 0xB53558
-    void InitFull(::Il2CppString* levelID, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, UnityEngine::AudioClip* audioClip, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, UnityEngine::Texture2D* coverImageTexture2D, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>* difficultyBeatmapSets);
+    void InitFull(::CsString* levelID, ::CsString* songName, ::CsString* songSubName, ::CsString* songAuthorName, ::CsString* levelAuthorName, UnityEngine::AudioClip* audioClip, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, UnityEngine::Texture2D* coverImageTexture2D, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>* difficultyBeatmapSets);
     // private System.Void InitData()
     // Offset: 0xB533EC
     void InitData();
@@ -207,27 +207,27 @@ namespace GlobalNamespace {
     // Offset: 0xB532F8
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_levelID()
-    ::Il2CppString* get_levelID();
+    ::CsString* get_levelID();
     // public System.String get_songName()
     // Offset: 0xB53300
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_songName()
-    ::Il2CppString* get_songName();
+    ::CsString* get_songName();
     // public System.String get_songSubName()
     // Offset: 0xB53308
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_songSubName()
-    ::Il2CppString* get_songSubName();
+    ::CsString* get_songSubName();
     // public System.String get_songAuthorName()
     // Offset: 0xB53310
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_songAuthorName()
-    ::Il2CppString* get_songAuthorName();
+    ::CsString* get_songAuthorName();
     // public System.String get_levelAuthorName()
     // Offset: 0xB53318
     // Implemented from: IPreviewBeatmapLevel
     // Base method: System.String IPreviewBeatmapLevel::get_levelAuthorName()
-    ::Il2CppString* get_levelAuthorName();
+    ::CsString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
     // Offset: 0xB53320
     // Implemented from: IPreviewBeatmapLevel

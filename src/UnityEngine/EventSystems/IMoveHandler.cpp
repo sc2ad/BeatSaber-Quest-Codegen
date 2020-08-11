@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.IMoveHandler
 #include "UnityEngine/EventSystems/IMoveHandler.hpp"
 // Including type: UnityEngine.EventSystems.AxisEventData

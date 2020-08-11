@@ -62,7 +62,7 @@ namespace UnityEngine::TestTools::TestRunner {
     System::Collections::IEnumerator* m_TestSteps;
     // private System.Collections.Generic.List`1<System.String> m_AssembliesWithTests
     // Offset: 0x20
-    System::Collections::Generic::List_1<::Il2CppString*>* m_AssembliesWithTests;
+    System::Collections::Generic::List_1<::CsString*>* m_AssembliesWithTests;
     // UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent
     // Offset: 0x28
     UnityEngine::TestTools::TestRunner::TestStartedEvent* testStartedEvent;
@@ -78,9 +78,9 @@ namespace UnityEngine::TestTools::TestRunner {
     // static field const value: static System.String kPlaymodeTestControllerName
     static constexpr const char* kPlaymodeTestControllerName = "Code-based tests runner";
     // Get static field: static System.String kPlaymodeTestControllerName
-    static ::Il2CppString* _get_kPlaymodeTestControllerName();
+    static ::CsString* _get_kPlaymodeTestControllerName();
     // Set static field: static System.String kPlaymodeTestControllerName
-    static void _set_kPlaymodeTestControllerName(::Il2CppString* value);
+    static void _set_kPlaymodeTestControllerName(::CsString* value);
     // public UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings settings
     // Offset: 0x48
     UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings* settings;
@@ -89,10 +89,10 @@ namespace UnityEngine::TestTools::TestRunner {
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner* m_Runner;
     // public System.Collections.Generic.List`1<System.String> get_AssembliesWithTests()
     // Offset: 0xE30B98
-    System::Collections::Generic::List_1<::Il2CppString*>* get_AssembliesWithTests();
+    System::Collections::Generic::List_1<::CsString*>* get_AssembliesWithTests();
     // public System.Void set_AssembliesWithTests(System.Collections.Generic.List`1<System.String> value)
     // Offset: 0xE30BA0
-    void set_AssembliesWithTests(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    void set_AssembliesWithTests(System::Collections::Generic::List_1<::CsString*>* value);
     // public System.Collections.IEnumerator Start()
     // Offset: 0xE30BA8
     System::Collections::IEnumerator* Start();

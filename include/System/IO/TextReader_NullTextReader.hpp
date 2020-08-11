@@ -29,7 +29,7 @@ namespace System::IO {
     // Offset: 0xFF7B64
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
-    ::Il2CppString* ReadLine();
+    ::CsString* ReadLine();
   }; // System.IO.TextReader/NullTextReader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

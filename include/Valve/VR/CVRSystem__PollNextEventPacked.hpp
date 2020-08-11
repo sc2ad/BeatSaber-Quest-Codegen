@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFD173C
-    static CVRSystem::_PollNextEventPacked* New_ctor(::Il2CppObject* object, System::IntPtr method);
+    static CVRSystem::_PollNextEventPacked* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Valve.VR.VREvent_t_Packed pEvent, System.UInt32 uncbVREvent)
     // Offset: 0xFD0648
     bool Invoke(Valve::VR::VREvent_t_Packed& pEvent, uint uncbVREvent);
     // public System.IAsyncResult BeginInvoke(Valve.VR.VREvent_t_Packed pEvent, System.UInt32 uncbVREvent, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFD1750
-    System::IAsyncResult* BeginInvoke(Valve::VR::VREvent_t_Packed& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::VREvent_t_Packed& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Boolean EndInvoke(Valve.VR.VREvent_t_Packed pEvent, System.IAsyncResult result)
     // Offset: 0xFD1804
     bool EndInvoke(Valve::VR::VREvent_t_Packed& pEvent, System::IAsyncResult* result);

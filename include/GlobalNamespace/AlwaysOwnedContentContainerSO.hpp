@@ -31,16 +31,16 @@ namespace GlobalNamespace {
     GlobalNamespace::AlwaysOwnedContentSO* alwaysOwnedContent;
     // private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedBeatmapLevelIds
     // Offset: 0x20
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedBeatmapLevelIds;
+    System::Collections::Generic::HashSet_1<::CsString*>* alwaysOwnedBeatmapLevelIds;
     // private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
     // Offset: 0x28
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedPacksIds;
+    System::Collections::Generic::HashSet_1<::CsString*>* alwaysOwnedPacksIds;
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
     // Offset: 0x1969B24
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedBeatmapLevelIds();
+    System::Collections::Generic::HashSet_1<::CsString*>* get_alwaysOwnedBeatmapLevelIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedPacksIds()
     // Offset: 0x1969DE0
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedPacksIds();
+    System::Collections::Generic::HashSet_1<::CsString*>* get_alwaysOwnedPacksIds();
     // private System.Void InitAlwaysOwnedItems()
     // Offset: 0x196A424
     void InitAlwaysOwnedItems();

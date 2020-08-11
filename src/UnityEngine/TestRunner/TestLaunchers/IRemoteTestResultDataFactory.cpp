@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
 #include "UnityEngine/TestRunner/TestLaunchers/IRemoteTestResultDataFactory.hpp"
 // Including type: UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData

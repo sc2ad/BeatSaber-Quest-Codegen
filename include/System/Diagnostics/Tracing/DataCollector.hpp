@@ -80,7 +80,7 @@ namespace System::Diagnostics::Tracing {
     void AddScalar(void* value, int size);
     // System.Void AddBinary(System.String value, System.Int32 size)
     // Offset: 0xA287CC
-    void AddBinary(::Il2CppString* value, int size);
+    void AddBinary(::CsString* value, int size);
     // System.Void AddBinary(System.Array value, System.Int32 size)
     // Offset: 0xA287D4
     void AddBinary(System::Array* value, int size);
@@ -110,7 +110,7 @@ namespace System::Diagnostics::Tracing {
     void GrowBuffer(int required);
     // private System.Void PinArray(System.Object value, System.Int32 size)
     // Offset: 0xA288B8
-    void PinArray(::Il2CppObject* value, int size);
+    void PinArray(::CsObject* value, int size);
     // private System.Void ScalarsBegin()
     // Offset: 0xA288C0
     void ScalarsBegin();

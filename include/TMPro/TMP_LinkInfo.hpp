@@ -48,10 +48,10 @@ namespace TMPro {
     void SetLinkID(::Array<::Il2CppChar>* text, int startIndex, int length);
     // public System.String GetLinkText()
     // Offset: 0xA27450
-    ::Il2CppString* GetLinkText();
+    ::CsString* GetLinkText();
     // public System.String GetLinkID()
     // Offset: 0xA27458
-    ::Il2CppString* GetLinkID();
+    ::CsString* GetLinkID();
   }; // TMPro.TMP_LinkInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

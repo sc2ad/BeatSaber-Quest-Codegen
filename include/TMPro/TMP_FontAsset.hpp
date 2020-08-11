@@ -86,10 +86,10 @@ namespace TMPro {
     class $$c;
     // private System.String m_Version
     // Offset: 0x30
-    ::Il2CppString* m_Version;
+    ::CsString* m_Version;
     // System.String m_SourceFontFileGUID
     // Offset: 0x38
-    ::Il2CppString* m_SourceFontFileGUID;
+    ::CsString* m_SourceFontFileGUID;
     // private UnityEngine.Font m_SourceFontFile
     // Offset: 0x40
     UnityEngine::Font* m_SourceFontFile;
@@ -217,10 +217,10 @@ namespace TMPro {
     static void _set_s_MissingCharacterList(System::Collections::Generic::List_1<uint>* value);
     // public System.String get_version()
     // Offset: 0xB6E91C
-    ::Il2CppString* get_version();
+    ::CsString* get_version();
     // System.Void set_version(System.String value)
     // Offset: 0xB6E924
-    void set_version(::Il2CppString* value);
+    void set_version(::CsString* value);
     // public UnityEngine.Font get_sourceFontFile()
     // Offset: 0xB6E92C
     UnityEngine::Font* get_sourceFontFile();
@@ -367,13 +367,13 @@ namespace TMPro {
     bool HasCharacter_Internal(::Il2CppChar character, bool searchFallbacks);
     // public System.Boolean HasCharacters(System.String text, System.Collections.Generic.List`1<System.Char> missingCharacters)
     // Offset: 0xB71820
-    bool HasCharacters(::Il2CppString* text, System::Collections::Generic::List_1<::Il2CppChar>*& missingCharacters);
+    bool HasCharacters(::CsString* text, System::Collections::Generic::List_1<::Il2CppChar>*& missingCharacters);
     // public System.Boolean HasCharacters(System.String text)
     // Offset: 0xB71974
-    bool HasCharacters(::Il2CppString* text);
+    bool HasCharacters(::CsString* text);
     // static public System.String GetCharacters(TMPro.TMP_FontAsset fontAsset)
     // Offset: 0xB71A38
-    static ::Il2CppString* GetCharacters(TMPro::TMP_FontAsset* fontAsset);
+    static ::CsString* GetCharacters(TMPro::TMP_FontAsset* fontAsset);
     // static public System.Int32[] GetCharactersArray(TMPro.TMP_FontAsset fontAsset)
     // Offset: 0xB71B18
     static ::Array<int>* GetCharactersArray(TMPro::TMP_FontAsset* fontAsset);
@@ -385,10 +385,10 @@ namespace TMPro {
     bool TryAddCharacters(::Array<uint>* unicodes, ::Array<uint>*& missingUnicodes);
     // public System.Boolean TryAddCharacters(System.String characters)
     // Offset: 0xB7239C
-    bool TryAddCharacters(::Il2CppString* characters);
+    bool TryAddCharacters(::CsString* characters);
     // public System.Boolean TryAddCharacters(System.String characters, System.String missingCharacters)
     // Offset: 0xB723C4
-    bool TryAddCharacters(::Il2CppString* characters, ::Il2CppString*& missingCharacters);
+    bool TryAddCharacters(::CsString* characters, ::CsString*& missingCharacters);
     // System.Boolean TryAddCharacter_Internal(System.UInt32 unicode)
     // Offset: 0xB72A50
     bool TryAddCharacter_Internal(uint unicode);

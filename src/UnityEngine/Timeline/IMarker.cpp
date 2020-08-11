@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.IMarker
 #include "UnityEngine/Timeline/IMarker.hpp"
 // Including type: UnityEngine.Timeline.TrackAsset

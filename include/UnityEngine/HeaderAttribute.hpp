@@ -8,7 +8,7 @@
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -17,10 +17,10 @@ namespace UnityEngine {
     public:
     // public readonly System.String header
     // Offset: 0x10
-    ::Il2CppString* header;
+    ::CsString* header;
     // public System.Void .ctor(System.String header)
     // Offset: 0x12FA3E4
-    static HeaderAttribute* New_ctor(::Il2CppString* header);
+    static HeaderAttribute* New_ctor(::CsString* header);
   }; // UnityEngine.HeaderAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

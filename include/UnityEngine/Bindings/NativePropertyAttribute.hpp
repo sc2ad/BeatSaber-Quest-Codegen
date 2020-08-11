@@ -23,7 +23,7 @@ namespace UnityEngine::Bindings {
     void set_TargetType(UnityEngine::Bindings::TargetType value);
     // public System.Void .ctor(System.String name, System.Boolean isFree, UnityEngine.Bindings.TargetType targetType)
     // Offset: 0x19591C4
-    static NativePropertyAttribute* New_ctor(::Il2CppString* name, bool isFree, UnityEngine::Bindings::TargetType targetType);
+    static NativePropertyAttribute* New_ctor(::CsString* name, bool isFree, UnityEngine::Bindings::TargetType targetType);
     // public System.Void .ctor()
     // Offset: 0x19591B8
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
@@ -35,7 +35,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x19591C0
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name)
-    static NativePropertyAttribute* New_ctor(::Il2CppString* name);
+    static NativePropertyAttribute* New_ctor(::CsString* name);
   }; // UnityEngine.Bindings.NativePropertyAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

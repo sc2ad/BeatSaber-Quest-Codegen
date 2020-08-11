@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -15,7 +15,7 @@ namespace System {
     public:
     // public System.Int32 CompareTo(System.Object obj)
     // Offset: 0xFFFFFFFF
-    int System_IComparable_CompareTo(::Il2CppObject* obj);
+    int System_IComparable_CompareTo(::CsObject* obj);
   }; // System.IComparable
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

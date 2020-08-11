@@ -68,7 +68,7 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<uint, int>* m_GlyphIndexLookup;
     // private System.String m_Version
     // Offset: 0x48
-    ::Il2CppString* m_Version;
+    ::CsString* m_Version;
     // public UnityEngine.Texture spriteSheet
     // Offset: 0x50
     UnityEngine::Texture* spriteSheet;
@@ -93,10 +93,10 @@ namespace TMPro {
     static void _set_k_searchedSpriteAssets(System::Collections::Generic::List_1<int>* value);
     // public System.String get_version()
     // Offset: 0xB9EBD8
-    ::Il2CppString* get_version();
+    ::CsString* get_version();
     // System.Void set_version(System.String value)
     // Offset: 0xB9EBE0
-    void set_version(::Il2CppString* value);
+    void set_version(::CsString* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> get_spriteCharacterTable()
     // Offset: 0xB9EB38
     System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* get_spriteCharacterTable();
@@ -126,7 +126,7 @@ namespace TMPro {
     int GetSpriteIndexFromUnicode(uint unicode);
     // public System.Int32 GetSpriteIndexFromName(System.String name)
     // Offset: 0xB9F6D0
-    int GetSpriteIndexFromName(::Il2CppString* name);
+    int GetSpriteIndexFromName(::CsString* name);
     // static public TMPro.TMP_SpriteAsset SearchForSpriteByUnicode(TMPro.TMP_SpriteAsset spriteAsset, System.UInt32 unicode, System.Boolean includeFallbacks, System.Int32 spriteIndex)
     // Offset: 0xB9F760
     static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicode(TMPro::TMP_SpriteAsset* spriteAsset, uint unicode, bool includeFallbacks, int& spriteIndex);

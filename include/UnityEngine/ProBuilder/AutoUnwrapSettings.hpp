@@ -229,7 +229,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA498B0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // UnityEngine.ProBuilder.AutoUnwrapSettings
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

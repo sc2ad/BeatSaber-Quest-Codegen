@@ -8,7 +8,7 @@
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -17,13 +17,13 @@ namespace UnityEngine {
     public:
     // public readonly System.String name
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::CsString* name;
     // public readonly System.String function
     // Offset: 0x18
-    ::Il2CppString* function;
+    ::CsString* function;
     // public System.Void .ctor(System.String name, System.String function)
     // Offset: 0x12EFCB4
-    static ContextMenuItemAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* function);
+    static ContextMenuItemAttribute* New_ctor(::CsString* name, ::CsString* function);
   }; // UnityEngine.ContextMenuItemAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

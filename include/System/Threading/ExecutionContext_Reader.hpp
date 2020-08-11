@@ -62,7 +62,7 @@ namespace System::Threading {
     System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
     // public System.Object GetLocalValue(System.Threading.IAsyncLocal local)
     // Offset: 0xA441D0
-    ::Il2CppObject* GetLocalValue(System::Threading::IAsyncLocal* local);
+    ::CsObject* GetLocalValue(System::Threading::IAsyncLocal* local);
     // public System.Boolean HasSameLocalValues(System.Threading.ExecutionContext other)
     // Offset: 0xA441D8
     bool HasSameLocalValues(System::Threading::ExecutionContext* other);

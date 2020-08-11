@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.InteropServices.ComDefaultInterfaceAttribute
 #include "System/Runtime/InteropServices/ComDefaultInterfaceAttribute.hpp"
 // Including type: System.Type

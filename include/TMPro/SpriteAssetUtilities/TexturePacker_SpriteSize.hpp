@@ -10,7 +10,7 @@
 #include "TMPro/SpriteAssetUtilities/TexturePacker.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: TMPro.SpriteAssetUtilities
 namespace TMPro::SpriteAssetUtilities {
@@ -29,7 +29,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Offset: 0xA270F4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // TMPro.SpriteAssetUtilities.TexturePacker/SpriteSize
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

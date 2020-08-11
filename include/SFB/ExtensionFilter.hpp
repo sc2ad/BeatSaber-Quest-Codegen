@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -19,15 +19,15 @@ namespace SFB {
     public:
     // public readonly System.String _name
     // Offset: 0x0
-    ::Il2CppString* name;
+    ::CsString* name;
     // public readonly System.String[] _extensions
     // Offset: 0x8
-    ::Array<::Il2CppString*>* extensions;
+    ::Array<::CsString*>* extensions;
     // Creating value type constructor for type: ExtensionFilter
-    ExtensionFilter(::Il2CppString* name_ = {}, ::Array<::Il2CppString*>* extensions_ = {}) : name{name_}, extensions{extensions_} {}
+    ExtensionFilter(::CsString* name_ = {}, ::Array<::CsString*>* extensions_ = {}) : name{name_}, extensions{extensions_} {}
     // public System.Void .ctor(System.String filterName, System.String[] filterExtensions)
     // Offset: 0xA27C5C
-    static ExtensionFilter* New_ctor(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions);
+    static ExtensionFilter* New_ctor(::CsString* filterName, ::Array<::CsString*>* filterExtensions);
   }; // SFB.ExtensionFilter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

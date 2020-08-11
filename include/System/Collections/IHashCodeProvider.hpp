@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -15,7 +15,7 @@ namespace System::Collections {
     public:
     // public System.Int32 GetHashCode(System.Object obj)
     // Offset: 0xFFFFFFFF
-    int GetHashCode(::Il2CppObject* obj);
+    int GetHashCode(::CsObject* obj);
   }; // System.Collections.IHashCodeProvider
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

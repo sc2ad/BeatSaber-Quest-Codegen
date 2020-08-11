@@ -143,15 +143,15 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kLoadingDataErrorNoInternetLocalizationKey
     static constexpr const char* kLoadingDataErrorNoInternetLocalizationKey = "ERROR_LOADING_DATA_NO_INTERNET_MESSAGE";
     // Get static field: static private System.String kLoadingDataErrorNoInternetLocalizationKey
-    static ::Il2CppString* _get_kLoadingDataErrorNoInternetLocalizationKey();
+    static ::CsString* _get_kLoadingDataErrorNoInternetLocalizationKey();
     // Set static field: static private System.String kLoadingDataErrorNoInternetLocalizationKey
-    static void _set_kLoadingDataErrorNoInternetLocalizationKey(::Il2CppString* value);
+    static void _set_kLoadingDataErrorNoInternetLocalizationKey(::CsString* value);
     // static field const value: static private System.String kLoadingDataErrorLocalizationKey
     static constexpr const char* kLoadingDataErrorLocalizationKey = "ERROR_LOADING_DATA";
     // Get static field: static private System.String kLoadingDataErrorLocalizationKey
-    static ::Il2CppString* _get_kLoadingDataErrorLocalizationKey();
+    static ::CsString* _get_kLoadingDataErrorLocalizationKey();
     // Set static field: static private System.String kLoadingDataErrorLocalizationKey
-    static void _set_kLoadingDataErrorLocalizationKey(::Il2CppString* value);
+    static void _set_kLoadingDataErrorLocalizationKey(::CsString* value);
     // private StandardLevelDetailView _standardLevelDetailView
     // Offset: 0x68
     GlobalNamespace::StandardLevelDetailView* standardLevelDetailView;
@@ -295,7 +295,7 @@ namespace GlobalNamespace {
     void RefreshAvailabilityAsync();
     // private System.Void ShowContent(StandardLevelDetailViewController/ContentType contentType, System.String errorText, System.Single downloadingProgress, System.String downloadingText)
     // Offset: 0xB8C3B0
-    void ShowContent(GlobalNamespace::StandardLevelDetailViewController::ContentType contentType, ::Il2CppString* errorText, float downloadingProgress, ::Il2CppString* downloadingText);
+    void ShowContent(GlobalNamespace::StandardLevelDetailViewController::ContentType contentType, ::CsString* errorText, float downloadingProgress, ::CsString* downloadingText);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
     // Offset: 0xB8C910
     void HandleAdditionalContentModelDidInvalidateData();

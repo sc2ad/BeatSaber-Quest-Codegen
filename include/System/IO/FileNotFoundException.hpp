@@ -24,19 +24,19 @@ namespace System::IO {
     public:
     // private System.String _fileName
     // Offset: 0x90
-    ::Il2CppString* fileName;
+    ::CsString* fileName;
     // private System.String _fusionLog
     // Offset: 0x98
-    ::Il2CppString* fusionLog;
+    ::CsString* fusionLog;
     // public System.Void .ctor(System.String message, System.String fileName)
     // Offset: 0x111DB34
-    static FileNotFoundException* New_ctor(::Il2CppString* message, ::Il2CppString* fileName);
+    static FileNotFoundException* New_ctor(::CsString* message, ::CsString* fileName);
     // private System.Void SetMessageField()
     // Offset: 0x111F58C
     void SetMessageField();
     // public System.String get_FusionLog()
     // Offset: 0x111FA4C
-    ::Il2CppString* get_FusionLog();
+    ::CsString* get_FusionLog();
     // public System.Void .ctor()
     // Offset: 0x111F498
     // Implemented from: System.IO.IOException
@@ -51,17 +51,17 @@ namespace System::IO {
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static FileNotFoundException* New_ctor(::Il2CppString* message);
+    static FileNotFoundException* New_ctor(::CsString* message);
     // public override System.String get_Message()
     // Offset: 0x111F568
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::CsString* get_Message();
     // public override System.String ToString()
     // Offset: 0x111F628
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x111F8F4
     // Implemented from: System.IO.IOException

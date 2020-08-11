@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_SpriteGlyph
 #include "TMPro/TMP_SpriteGlyph.hpp"
 // Including type: UnityEngine.Sprite

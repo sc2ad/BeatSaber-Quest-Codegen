@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.Configuration.ServicePointManagerElement
 #include "System/Net/Configuration/ServicePointManagerElement.hpp"
 // Including type: System.Configuration.ConfigurationPropertyCollection

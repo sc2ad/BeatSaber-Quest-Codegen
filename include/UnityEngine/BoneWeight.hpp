@@ -10,7 +10,7 @@
 #include "System/IEquatable_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -100,7 +100,7 @@ namespace UnityEngine {
     // Offset: 0xA41B24
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::Il2CppObject* other);
+    bool Equals(::CsObject* other);
     // public System.Boolean Equals(UnityEngine.BoneWeight other)
     // Offset: 0xA41B2C
     // Implemented from: System.IEquatable`1

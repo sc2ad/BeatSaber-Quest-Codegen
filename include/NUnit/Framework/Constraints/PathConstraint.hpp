@@ -19,7 +19,7 @@ namespace NUnit::Framework::Constraints {
     static void _set_DirectorySeparatorChars(::Array<::Il2CppChar>* value);
     // protected System.String Canonicalize(System.String path)
     // Offset: 0x106A048
-    ::Il2CppString* Canonicalize(::Il2CppString* path);
+    ::CsString* Canonicalize(::CsString* path);
     // static private System.Void .cctor()
     // Offset: 0x106A364
     static void _cctor();
@@ -27,12 +27,12 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x1069E40
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
-    static PathConstraint* New_ctor(::Il2CppString* expected);
+    static PathConstraint* New_ctor(::CsString* expected);
     // protected override System.String GetStringRepresentation()
     // Offset: 0x1069FAC
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::GetStringRepresentation()
-    ::Il2CppString* GetStringRepresentation();
+    ::CsString* GetStringRepresentation();
   }; // NUnit.Framework.Constraints.PathConstraint
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

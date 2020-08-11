@@ -21,13 +21,13 @@ namespace System::IO {
     public:
     // private System.String oldName
     // Offset: 0x28
-    ::Il2CppString* oldName;
+    ::CsString* oldName;
     // private System.String oldFullPath
     // Offset: 0x30
-    ::Il2CppString* oldFullPath;
+    ::CsString* oldFullPath;
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
     // Offset: 0xF51284
-    static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name, ::Il2CppString* oldName);
+    static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::CsString* directory, ::CsString* name, ::CsString* oldName);
   }; // System.IO.RenamedEventArgs
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

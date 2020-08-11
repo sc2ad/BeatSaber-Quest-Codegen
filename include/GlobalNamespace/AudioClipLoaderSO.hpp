@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     bool isLoading;
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
     // Offset: 0x196E5D8
-    void LoadAudioFile(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
+    void LoadAudioFile(::CsString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Collections.IEnumerator LoadAudioFileCoroutine(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
     // Offset: 0x196E698
-    System::Collections::IEnumerator* LoadAudioFileCoroutine(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
+    System::Collections::IEnumerator* LoadAudioFileCoroutine(::CsString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // protected override System.Void OnEnable()
     // Offset: 0x196E5B0
     // Implemented from: PersistentScriptableObject

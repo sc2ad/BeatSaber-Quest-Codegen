@@ -21,19 +21,19 @@ namespace Mono::Xml {
     void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
     // Offset: 0xFFFFFFFF
-    void OnStartElement(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
+    void OnStartElement(::CsString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
     // Offset: 0xFFFFFFFF
-    void OnEndElement(::Il2CppString* name);
+    void OnEndElement(::CsString* name);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
     // Offset: 0xFFFFFFFF
-    void OnProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
+    void OnProcessingInstruction(::CsString* name, ::CsString* text);
     // public System.Void OnChars(System.String text)
     // Offset: 0xFFFFFFFF
-    void OnChars(::Il2CppString* text);
+    void OnChars(::CsString* text);
     // public System.Void OnIgnorableWhitespace(System.String text)
     // Offset: 0xFFFFFFFF
-    void OnIgnorableWhitespace(::Il2CppString* text);
+    void OnIgnorableWhitespace(::CsString* text);
   }; // Mono.Xml.SmallXmlParser/IContentHandler
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

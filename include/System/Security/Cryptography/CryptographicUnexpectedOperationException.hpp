@@ -36,7 +36,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void CryptographicException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static CryptographicUnexpectedOperationException* New_ctor(::Il2CppString* message);
+    static CryptographicUnexpectedOperationException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xDD43C0
     // Implemented from: System.Security.Cryptography.CryptographicException

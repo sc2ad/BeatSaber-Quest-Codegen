@@ -15,7 +15,7 @@ namespace GlobalNamespace {
     public:
     // public System.String FormatValue(System.Int32 value)
     // Offset: 0xC1E168
-    ::Il2CppString* FormatValue(int value);
+    ::CsString* FormatValue(int value);
     // public System.Void .ctor()
     // Offset: 0xC1E190
     // Implemented from: PersistentScriptableObject

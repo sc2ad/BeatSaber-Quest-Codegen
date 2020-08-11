@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // private System.String _goStraightToMenuCommandArgument
     // Offset: 0x60
-    ::Il2CppString* goStraightToMenuCommandArgument;
+    ::CsString* goStraightToMenuCommandArgument;
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
     // Offset: 0xBBAF44
     // Implemented from: AppInit

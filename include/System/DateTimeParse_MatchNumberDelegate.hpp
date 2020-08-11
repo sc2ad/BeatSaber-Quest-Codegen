@@ -29,13 +29,13 @@ namespace System {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xC76310
-    static DateTimeParse::MatchNumberDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
+    static DateTimeParse::MatchNumberDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.__DTString str, System.Int32 digitLen, System.Int32 result)
     // Offset: 0xC76324
     bool Invoke(System::__DTString& str, int digitLen, int& result);
     // public System.IAsyncResult BeginInvoke(System.__DTString str, System.Int32 digitLen, System.Int32 result, System.AsyncCallback callback, System.Object object)
     // Offset: 0xC765B4
-    System::IAsyncResult* BeginInvoke(System::__DTString& str, int digitLen, int& result, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(System::__DTString& str, int digitLen, int& result, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Boolean EndInvoke(System.__DTString str, System.Int32 result, System.IAsyncResult __result)
     // Offset: 0xC76680
     bool EndInvoke(System::__DTString& str, int& result, System::IAsyncResult* __result);

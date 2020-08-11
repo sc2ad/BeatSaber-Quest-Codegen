@@ -32,7 +32,7 @@ namespace UnityEngine {
     // Offset: 0x137A264
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
-    static UnityException* New_ctor(::Il2CppString* message);
+    static UnityException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x137F8F0
     // Implemented from: System.Exception

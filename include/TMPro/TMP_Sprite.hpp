@@ -24,7 +24,7 @@ namespace TMPro {
     public:
     // public System.String name
     // Offset: 0x38
-    ::Il2CppString* name;
+    ::CsString* name;
     // public System.Int32 hashCode
     // Offset: 0x40
     int hashCode;

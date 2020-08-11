@@ -244,7 +244,7 @@ namespace UnityEngine::ProBuilder {
     bool m_PreserveMeshAssetOnDestroy;
     // System.String assetGuid
     // Offset: 0xA0
-    ::Il2CppString* assetGuid;
+    ::CsString* assetGuid;
     // private UnityEngine.MeshRenderer m_MeshRenderer
     // Offset: 0xA8
     UnityEngine::MeshRenderer* m_MeshRenderer;

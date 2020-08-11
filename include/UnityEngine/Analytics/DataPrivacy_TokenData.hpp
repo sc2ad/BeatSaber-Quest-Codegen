@@ -10,7 +10,7 @@
 #include "UnityEngine/Analytics/DataPrivacy.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Analytics
 namespace UnityEngine::Analytics {
@@ -19,12 +19,12 @@ namespace UnityEngine::Analytics {
     public:
     // public System.String url
     // Offset: 0x0
-    ::Il2CppString* url;
+    ::CsString* url;
     // public System.String token
     // Offset: 0x8
-    ::Il2CppString* token;
+    ::CsString* token;
     // Creating value type constructor for type: TokenData
-    TokenData(::Il2CppString* url_ = {}, ::Il2CppString* token_ = {}) : url{url_}, token{token_} {}
+    TokenData(::CsString* url_ = {}, ::CsString* token_ = {}) : url{url_}, token{token_} {}
   }; // UnityEngine.Analytics.DataPrivacy/TokenData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -32,7 +32,7 @@ namespace UnityEngine::Rendering {
     UnityEngine::Rendering::RenderPipeline* InternalCreatePipeline();
     // public System.String[] get_renderingLayerMaskNames()
     // Offset: 0x13730E0
-    ::Array<::Il2CppString*>* get_renderingLayerMaskNames();
+    ::Array<::CsString*>* get_renderingLayerMaskNames();
     // public UnityEngine.Material get_defaultMaterial()
     // Offset: 0x13730E8
     UnityEngine::Material* get_defaultMaterial();

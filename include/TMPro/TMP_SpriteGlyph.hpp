@@ -4,7 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TextCore.Glyph
 #include "UnityEngine/TextCore/Glyph.hpp"
 // Completed includes

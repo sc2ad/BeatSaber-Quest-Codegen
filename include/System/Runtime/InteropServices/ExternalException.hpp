@@ -34,7 +34,7 @@ namespace System::Runtime::InteropServices {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static ExternalException* New_ctor(::Il2CppString* message);
+    static ExternalException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1150C10
     // Implemented from: System.SystemException
@@ -45,7 +45,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1151098
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // System.Runtime.InteropServices.ExternalException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

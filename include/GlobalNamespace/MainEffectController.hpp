@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kMainEffectEnabledKeyword
     static constexpr const char* kMainEffectEnabledKeyword = "MAIN_EFFECT_ENABLED";
     // Get static field: static private System.String kMainEffectEnabledKeyword
-    static ::Il2CppString* _get_kMainEffectEnabledKeyword();
+    static ::CsString* _get_kMainEffectEnabledKeyword();
     // Set static field: static private System.String kMainEffectEnabledKeyword
-    static void _set_kMainEffectEnabledKeyword(::Il2CppString* value);
+    static void _set_kMainEffectEnabledKeyword(::CsString* value);
     // public System.Void add_afterImageEffectEvent(System.Action`1<UnityEngine.RenderTexture> value)
     // Offset: 0x18F7CF8
     void add_afterImageEffectEvent(System::Action_1<UnityEngine::RenderTexture*>* value);

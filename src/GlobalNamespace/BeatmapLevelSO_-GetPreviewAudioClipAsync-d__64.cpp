@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapLevelSO/<GetPreviewAudioClipAsync>d__64
 #include "GlobalNamespace/BeatmapLevelSO_-GetPreviewAudioClipAsync-d__64.hpp"
 // Including type: UnityEngine.AudioClip

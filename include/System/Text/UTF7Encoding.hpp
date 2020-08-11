@@ -82,7 +82,7 @@ namespace System::Text {
     // Offset: 0x13B5DD4
     // Implemented from: System.Text.Encoding
     // Base method: System.Boolean Encoding::Equals(System.Object value)
-    bool Equals(::Il2CppObject* value);
+    bool Equals(::CsObject* value);
     // public override System.Int32 GetHashCode()
     // Offset: 0x13B5EC8
     // Implemented from: System.Text.Encoding
@@ -97,7 +97,7 @@ namespace System::Text {
     // Offset: 0x13B610C
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.String s)
-    int GetByteCount(::Il2CppString* s);
+    int GetByteCount(::CsString* s);
     // public override System.Int32 GetByteCount(System.Char* chars, System.Int32 count)
     // Offset: 0x13B61BC
     // Implemented from: System.Text.Encoding
@@ -107,7 +107,7 @@ namespace System::Text {
     // Offset: 0x13B62D8
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.String s, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
-    int GetBytes(::Il2CppString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
+    int GetBytes(::CsString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     // Offset: 0x13B6548
     // Implemented from: System.Text.Encoding
@@ -142,7 +142,7 @@ namespace System::Text {
     // Offset: 0x13B7040
     // Implemented from: System.Text.Encoding
     // Base method: System.String Encoding::GetString(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    ::Il2CppString* GetString(::Array<uint8_t>* bytes, int index, int count);
+    ::CsString* GetString(::Array<uint8_t>* bytes, int index, int count);
     // override System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Text.EncoderNLS baseEncoder)
     // Offset: 0x13B7218
     // Implemented from: System.Text.Encoding

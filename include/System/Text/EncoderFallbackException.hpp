@@ -36,10 +36,10 @@ namespace System::Text {
     int index;
     // System.Void .ctor(System.String message, System.Char charUnknown, System.Int32 index)
     // Offset: 0x12D8190
-    static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknown, int index);
+    static EncoderFallbackException* New_ctor(::CsString* message, ::Il2CppChar charUnknown, int index);
     // System.Void .ctor(System.String message, System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     // Offset: 0x12D8554
-    static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
+    static EncoderFallbackException* New_ctor(::CsString* message, ::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public System.Void .ctor()
     // Offset: 0x12D8D40
     // Implemented from: System.ArgumentException

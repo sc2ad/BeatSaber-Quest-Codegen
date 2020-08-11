@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     GlobalNamespace::HMAsyncRequest* GetUserAuthToken(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserNamesForUserIds(System.String[] userIds, PlatformUserModelSO/GetUserNamesForUserIdsCompletionHandler completionHandler)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::HMAsyncRequest* GetUserNamesForUserIds(::Array<::Il2CppString*>* userIds, GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* completionHandler);
+    GlobalNamespace::HMAsyncRequest* GetUserNamesForUserIds(::Array<::CsString*>* userIds, GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* completionHandler);
   }; // IPlatformUserHandler
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

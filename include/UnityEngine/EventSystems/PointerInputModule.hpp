@@ -121,7 +121,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xDEA4EC
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // protected System.Void .ctor()
     // Offset: 0xDEA7BC
     // Implemented from: UnityEngine.EventSystems.BaseInputModule

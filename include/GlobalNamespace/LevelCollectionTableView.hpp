@@ -67,13 +67,13 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelListTableCell* levelCellPrefab;
     // private System.String _levelCellsReuseIdentifier
     // Offset: 0x30
-    ::Il2CppString* levelCellsReuseIdentifier;
+    ::CsString* levelCellsReuseIdentifier;
     // private LevelPackHeaderTableCell _packCellPrefab
     // Offset: 0x38
     GlobalNamespace::LevelPackHeaderTableCell* packCellPrefab;
     // private System.String _packCellsReuseIdentifier
     // Offset: 0x40
-    ::Il2CppString* packCellsReuseIdentifier;
+    ::CsString* packCellsReuseIdentifier;
     // private System.Single _cellHeight
     // Offset: 0x48
     float cellHeight;
@@ -100,13 +100,13 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* headerSprite;
     // private System.String _headerText
     // Offset: 0x80
-    ::Il2CppString* headerText;
+    ::CsString* headerText;
     // private System.Boolean _showLevelPackHeader
     // Offset: 0x88
     bool showLevelPackHeader;
     // private System.Collections.Generic.HashSet`1<System.String> _favoriteLevelIds
     // Offset: 0x90
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds;
+    System::Collections::Generic::HashSet_1<::CsString*>* favoriteLevelIds;
     // private System.Int32 _selectedRow
     // Offset: 0x98
     int selectedRow;
@@ -127,16 +127,16 @@ namespace GlobalNamespace {
     void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView*>* value);
     // public System.Void Init(System.String headerText, UnityEngine.Sprite headerSprite)
     // Offset: 0xB48628
-    void Init(::Il2CppString* headerText, UnityEngine::Sprite* headerSprite);
+    void Init(::CsString* headerText, UnityEngine::Sprite* headerSprite);
     // private System.Void Init()
     // Offset: 0xB48698
     void Init();
     // public System.Void SetData(IPreviewBeatmapLevel[] previewBeatmapLevels, System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds, System.Boolean beatmapLevelsAreSorted)
     // Offset: 0xB48760
-    void SetData(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds, bool beatmapLevelsAreSorted);
+    void SetData(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, System::Collections::Generic::HashSet_1<::CsString*>* favoriteLevelIds, bool beatmapLevelsAreSorted);
     // public System.Void RefreshFavorites(System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds)
     // Offset: 0xB48980
-    void RefreshFavorites(System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds);
+    void RefreshFavorites(System::Collections::Generic::HashSet_1<::CsString*>* favoriteLevelIds);
     // protected System.Void OnEnable()
     // Offset: 0xB48A50
     void OnEnable();

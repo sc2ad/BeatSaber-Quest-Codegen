@@ -40,7 +40,7 @@ namespace HMUI {
     public:
     // private System.String _textPrefix
     // Offset: 0x138
-    ::Il2CppString* textPrefix;
+    ::CsString* textPrefix;
     // private UnityEngine.Color _color0
     // Offset: 0x140
     UnityEngine::Color color0;
@@ -93,7 +93,7 @@ namespace HMUI {
     // Offset: 0xEC1A48
     // Implemented from: HMUI.TextSlider
     // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
-    ::Il2CppString* TextForNormalizedValue(float normalizedValue);
+    ::CsString* TextForNormalizedValue(float normalizedValue);
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0xEC1BCC
     // Implemented from: UnityEngine.UI.Selectable

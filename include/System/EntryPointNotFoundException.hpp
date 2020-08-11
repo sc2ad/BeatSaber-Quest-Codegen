@@ -36,7 +36,7 @@ namespace System {
     // Base method: System.Void TypeLoadException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static EntryPointNotFoundException* New_ctor(::Il2CppString* message);
+    static EntryPointNotFoundException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xD8B1AC
     // Implemented from: System.TypeLoadException

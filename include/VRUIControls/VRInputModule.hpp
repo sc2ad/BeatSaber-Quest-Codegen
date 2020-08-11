@@ -129,7 +129,7 @@ namespace VRUIControls {
     // Offset: 0x1920474
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public override System.Void Process()
     // Offset: 0x1920748
     // Implemented from: UnityEngine.EventSystems.BaseInputModule

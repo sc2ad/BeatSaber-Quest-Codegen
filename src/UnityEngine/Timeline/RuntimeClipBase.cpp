@@ -2,7 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 // Including type: UnityEngine.Timeline.RuntimeClipBase
 #include "UnityEngine/Timeline/RuntimeClipBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

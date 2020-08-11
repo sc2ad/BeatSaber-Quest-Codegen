@@ -84,7 +84,7 @@ namespace HMUI {
     float NormalizeValue(float rangeValue);
     // protected System.String TextForValue(System.Single value)
     // Offset: 0x10CA4EC
-    ::Il2CppString* TextForValue(float value);
+    ::CsString* TextForValue(float value);
     // private System.Void <Awake>b__17_0()
     // Offset: 0x10CA59C
     void $Awake$b__17_0();
@@ -105,7 +105,7 @@ namespace HMUI {
     // Offset: 0x10CA4C8
     // Implemented from: HMUI.TextSlider
     // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
-    ::Il2CppString* TextForNormalizedValue(float normalizedValue);
+    ::CsString* TextForNormalizedValue(float normalizedValue);
     // public System.Void .ctor()
     // Offset: 0x10C9C74
     // Implemented from: HMUI.TextSlider

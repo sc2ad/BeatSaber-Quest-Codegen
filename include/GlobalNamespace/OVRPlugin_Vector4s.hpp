@@ -11,7 +11,7 @@
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0xA36C48
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // OVRPlugin/Vector4s
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -118,7 +118,7 @@ namespace UnityEngine {
     static void _set_ms_Error(UnityEngine::GUIStyle* value);
     // private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> m_Styles
     // Offset: 0xE0
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>* m_Styles;
+    System::Collections::Generic::Dictionary_2<::CsString*, UnityEngine::GUIStyle*>* m_Styles;
     // Get static field: static UnityEngine.GUISkin/SkinChangedDelegate m_SkinChanged
     static UnityEngine::GUISkin::SkinChangedDelegate* _get_m_SkinChanged();
     // Set static field: static UnityEngine.GUISkin/SkinChangedDelegate m_SkinChanged
@@ -291,10 +291,10 @@ namespace UnityEngine {
     void BuildStyleCache();
     // public UnityEngine.GUIStyle GetStyle(System.String styleName)
     // Offset: 0x124F514
-    UnityEngine::GUIStyle* GetStyle(::Il2CppString* styleName);
+    UnityEngine::GUIStyle* GetStyle(::CsString* styleName);
     // public UnityEngine.GUIStyle FindStyle(System.String styleName)
     // Offset: 0x125C6C0
-    UnityEngine::GUIStyle* FindStyle(::Il2CppString* styleName);
+    UnityEngine::GUIStyle* FindStyle(::CsString* styleName);
     // System.Void MakeCurrent()
     // Offset: 0x124A4EC
     void MakeCurrent();

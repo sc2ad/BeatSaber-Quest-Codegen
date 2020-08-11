@@ -54,7 +54,7 @@ namespace System::Collections::Generic {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj) {
+    bool Equals(::CsObject* obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", obj));
     }
     // public override System.Int32 GetHashCode()

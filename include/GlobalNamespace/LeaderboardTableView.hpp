@@ -53,9 +53,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier
-    static ::Il2CppString* _get_kCellIdentifier();
+    static ::CsString* _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::Il2CppString* value);
+    static void _set_kCellIdentifier(::CsString* value);
     // private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
     // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores;

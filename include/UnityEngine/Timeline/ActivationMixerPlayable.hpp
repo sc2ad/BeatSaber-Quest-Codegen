@@ -61,7 +61,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x107945C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
+    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::CsObject* playerData);
     // public System.Void .ctor()
     // Offset: 0x1079638
     // Implemented from: UnityEngine.Playables.PlayableBehaviour

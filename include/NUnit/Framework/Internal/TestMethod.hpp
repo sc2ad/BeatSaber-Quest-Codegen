@@ -47,10 +47,10 @@ namespace NUnit::Framework::Internal {
     bool get_HasExpectedResult();
     // System.Object get_ExpectedResult()
     // Offset: 0x18DA2C4
-    ::Il2CppObject* get_ExpectedResult();
+    ::CsObject* get_ExpectedResult();
     // System.Object[] get_Arguments()
     // Offset: 0x18DA2DC
-    ::Array<::Il2CppObject*>* get_Arguments();
+    ::Array<::CsObject*>* get_Arguments();
     // public override NUnit.Framework.Internal.TestResult MakeTestResult()
     // Offset: 0x18DA2FC
     // Implemented from: NUnit.Framework.Internal.Test
@@ -75,12 +75,12 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18DA484
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_XmlElementName()
-    ::Il2CppString* get_XmlElementName();
+    ::CsString* get_XmlElementName();
     // public override System.String get_MethodName()
     // Offset: 0x18DA4CC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_MethodName()
-    ::Il2CppString* get_MethodName();
+    ::CsString* get_MethodName();
   }; // NUnit.Framework.Internal.TestMethod
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

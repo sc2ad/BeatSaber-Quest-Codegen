@@ -8,7 +8,7 @@
 #include "GlobalNamespace/SceneSetupData.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -20,19 +20,19 @@ namespace GlobalNamespace {
     bool autoRestart;
     // public readonly System.String songName
     // Offset: 0x18
-    ::Il2CppString* songName;
+    ::CsString* songName;
     // public readonly System.String songSubName
     // Offset: 0x20
-    ::Il2CppString* songSubName;
+    ::CsString* songSubName;
     // public readonly System.String difficultyName
     // Offset: 0x28
-    ::Il2CppString* difficultyName;
+    ::CsString* difficultyName;
     // public readonly System.String backButtonText
     // Offset: 0x30
-    ::Il2CppString* backButtonText;
+    ::CsString* backButtonText;
     // public System.Void .ctor(System.Boolean autoRestart, System.String songName, System.String songSubName, System.String difficultyName, System.String backButtonText)
     // Offset: 0xB881C8
-    static StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* difficultyName, ::Il2CppString* backButtonText);
+    static StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ::CsString* songName, ::CsString* songSubName, ::CsString* difficultyName, ::CsString* backButtonText);
   }; // StandardGameplaySceneSetupData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

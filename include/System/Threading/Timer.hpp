@@ -42,7 +42,7 @@ namespace System::Threading {
     System::Threading::TimerCallback* callback;
     // private System.Object state
     // Offset: 0x20
-    ::Il2CppObject* state;
+    ::CsObject* state;
     // private System.Int64 due_time_ms
     // Offset: 0x28
     int64_t due_time_ms;
@@ -63,13 +63,13 @@ namespace System::Threading {
     static void _set_MaxValue(int64_t value);
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.Int32 dueTime, System.Int32 period)
     // Offset: 0xCCFB58
-    static Timer* New_ctor(System::Threading::TimerCallback* callback, ::Il2CppObject* state, int dueTime, int period);
+    static Timer* New_ctor(System::Threading::TimerCallback* callback, ::CsObject* state, int dueTime, int period);
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.TimeSpan dueTime, System.TimeSpan period)
     // Offset: 0xCD6AC0
-    static Timer* New_ctor(System::Threading::TimerCallback* callback, ::Il2CppObject* state, System::TimeSpan dueTime, System::TimeSpan period);
+    static Timer* New_ctor(System::Threading::TimerCallback* callback, ::CsObject* state, System::TimeSpan dueTime, System::TimeSpan period);
     // private System.Void Init(System.Threading.TimerCallback callback, System.Object state, System.Int64 dueTime, System.Int64 period)
     // Offset: 0xCD69F0
-    void Init(System::Threading::TimerCallback* callback, ::Il2CppObject* state, int64_t dueTime, int64_t period);
+    void Init(System::Threading::TimerCallback* callback, ::CsObject* state, int64_t dueTime, int64_t period);
     // public System.Boolean Change(System.TimeSpan dueTime, System.TimeSpan period)
     // Offset: 0xCD6D7C
     bool Change(System::TimeSpan dueTime, System::TimeSpan period);

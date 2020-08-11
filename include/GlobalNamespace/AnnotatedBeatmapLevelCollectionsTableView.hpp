@@ -52,13 +52,13 @@ namespace GlobalNamespace {
     GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell* cellPrefab;
     // private System.String _cellReuseIdentifier
     // Offset: 0x28
-    ::Il2CppString* cellReuseIdentifier;
+    ::CsString* cellReuseIdentifier;
     // private System.Single _cellWidth
     // Offset: 0x30
     float cellWidth;
     // private System.String[] _promoPackIDStrings
     // Offset: 0x38
-    ::Array<::Il2CppString*>* promoPackIDStrings;
+    ::Array<::CsString*>* promoPackIDStrings;
     // private AdditionalContentModel _additionalContentModel
     // Offset: 0x40
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* didSelectAnnotatedBeatmapLevelCollectionEvent;
     // private System.Collections.Generic.HashSet`1<System.String> _promoPackIDs
     // Offset: 0x50
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* promoPackIDs;
+    System::Collections::Generic::HashSet_1<::CsString*>* promoPackIDs;
     // private IAnnotatedBeatmapLevelCollection[] _annotatedBeatmapLevelCollections
     // Offset: 0x58
     ::Array<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections;

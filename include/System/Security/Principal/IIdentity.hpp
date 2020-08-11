@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Security.Principal
 namespace System::Security::Principal {
@@ -15,10 +15,10 @@ namespace System::Security::Principal {
     public:
     // public System.String get_AuthenticationType()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_AuthenticationType();
+    ::CsString* get_AuthenticationType();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name();
+    ::CsString* get_Name();
   }; // System.Security.Principal.IIdentity
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

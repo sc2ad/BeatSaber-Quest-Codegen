@@ -48,18 +48,18 @@ namespace GlobalNamespace {
     System::Threading::CancellationToken cancellationToken;
     // private System.String <leaderboardId>5__2
     // Offset: 0x48
-    ::Il2CppString* $leaderboardId$5__2;
+    ::CsString* $leaderboardId$5__2;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]> <>u__1
     // Offset: 0x50
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::CsString*>*> $$u__1;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
     // Offset: 0x58
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::CsString*> $$u__2;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.API.ApiResponse`1<LeaderboardsDTO.LeaderboardEntriesDTO>> <>u__3
     // Offset: 0x60
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<LeaderboardsDTO::LeaderboardEntriesDTO>> $$u__3;
     // Creating value type constructor for type: $GetLeaderboardEntriesAsync$d__12
-    $GetLeaderboardEntriesAsync$d__12(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<LeaderboardsDTO::LeaderboardEntriesDTO>> $$u__3_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardFilterData{leaderboardFilterData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
+    $GetLeaderboardEntriesAsync$d__12(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::CsString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::CsString*>*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::CsString*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<LeaderboardsDTO::LeaderboardEntriesDTO>> $$u__3_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardFilterData{leaderboardFilterData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // private System.Void MoveNext()
     // Offset: 0xA266B8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

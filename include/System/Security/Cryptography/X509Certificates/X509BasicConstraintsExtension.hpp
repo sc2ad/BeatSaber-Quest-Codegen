@@ -29,15 +29,15 @@ namespace System::Security::Cryptography::X509Certificates {
     // static field const value: static System.String oid
     static constexpr const char* oid = "2.5.29.19";
     // Get static field: static System.String oid
-    static ::Il2CppString* _get_oid();
+    static ::CsString* _get_oid();
     // Set static field: static System.String oid
-    static void _set_oid(::Il2CppString* value);
+    static void _set_oid(::CsString* value);
     // static field const value: static System.String friendlyName
     static constexpr const char* friendlyName = "Basic Constraints";
     // Get static field: static System.String friendlyName
-    static ::Il2CppString* _get_friendlyName();
+    static ::CsString* _get_friendlyName();
     // Set static field: static System.String friendlyName
-    static void _set_friendlyName(::Il2CppString* value);
+    static void _set_friendlyName(::CsString* value);
     // private System.Boolean _certificateAuthority
     // Offset: 0x21
     bool certificateAuthority;
@@ -87,7 +87,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x12044AC
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
-    ::Il2CppString* ToString(bool multiLine);
+    ::CsString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

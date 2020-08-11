@@ -42,7 +42,7 @@ namespace OVRSimpleJSON {
     class $get_Children$d__23;
     // private System.Collections.Generic.Dictionary`2<System.String,OVRSimpleJSON.JSONNode> m_Dict
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>* m_Dict;
+    System::Collections::Generic::Dictionary_2<::CsString*, OVRSimpleJSON::JSONNode*>* m_Dict;
     // private System.Boolean inline
     // Offset: 0x18
     bool _inline;
@@ -75,12 +75,12 @@ namespace OVRSimpleJSON {
     // Offset: 0xF417A4
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode JSONNode::get_Item(System.String aKey)
-    OVRSimpleJSON::JSONNode* get_Item(::Il2CppString* aKey);
+    OVRSimpleJSON::JSONNode* get_Item(::CsString* aKey);
     // public override System.Void set_Item(System.String aKey, OVRSimpleJSON.JSONNode value)
     // Offset: 0xF41860
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Item(System.String aKey, OVRSimpleJSON.JSONNode value)
-    void set_Item(::Il2CppString* aKey, OVRSimpleJSON::JSONNode* value);
+    void set_Item(::CsString* aKey, OVRSimpleJSON::JSONNode* value);
     // public override OVRSimpleJSON.JSONNode get_Item(System.Int32 aIndex)
     // Offset: 0xF41974
     // Implemented from: OVRSimpleJSON.JSONNode
@@ -100,12 +100,12 @@ namespace OVRSimpleJSON {
     // Offset: 0xF41B80
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::Add(System.String aKey, OVRSimpleJSON.JSONNode aItem)
-    void Add(::Il2CppString* aKey, OVRSimpleJSON::JSONNode* aItem);
+    void Add(::CsString* aKey, OVRSimpleJSON::JSONNode* aItem);
     // public override OVRSimpleJSON.JSONNode Remove(System.String aKey)
     // Offset: 0xF41D04
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode JSONNode::Remove(System.String aKey)
-    OVRSimpleJSON::JSONNode* Remove(::Il2CppString* aKey);
+    OVRSimpleJSON::JSONNode* Remove(::CsString* aKey);
     // public override OVRSimpleJSON.JSONNode Remove(System.Int32 aIndex)
     // Offset: 0xF41DC0
     // Implemented from: OVRSimpleJSON.JSONNode

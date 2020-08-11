@@ -37,18 +37,18 @@ namespace System {
     System::Guid::ParseFailureKind m_failure;
     // System.String m_failureMessageID
     // Offset: 0x18
-    ::Il2CppString* m_failureMessageID;
+    ::CsString* m_failureMessageID;
     // System.Object m_failureMessageFormatArgument
     // Offset: 0x20
-    ::Il2CppObject* m_failureMessageFormatArgument;
+    ::CsObject* m_failureMessageFormatArgument;
     // System.String m_failureArgumentName
     // Offset: 0x28
-    ::Il2CppString* m_failureArgumentName;
+    ::CsString* m_failureArgumentName;
     // System.Exception m_innerException
     // Offset: 0x30
     System::Exception* m_innerException;
     // Creating value type constructor for type: GuidResult
-    GuidResult(System::Guid parsedGuid_ = {}, System::Guid::GuidParseThrowStyle throwStyle_ = {}, System::Guid::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, ::Il2CppString* m_failureArgumentName_ = {}, System::Exception* m_innerException_ = {}) : parsedGuid{parsedGuid_}, throwStyle{throwStyle_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_failureArgumentName{m_failureArgumentName_}, m_innerException{m_innerException_} {}
+    GuidResult(System::Guid parsedGuid_ = {}, System::Guid::GuidParseThrowStyle throwStyle_ = {}, System::Guid::ParseFailureKind m_failure_ = {}, ::CsString* m_failureMessageID_ = {}, ::CsObject* m_failureMessageFormatArgument_ = {}, ::CsString* m_failureArgumentName_ = {}, System::Exception* m_innerException_ = {}) : parsedGuid{parsedGuid_}, throwStyle{throwStyle_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_failureArgumentName{m_failureArgumentName_}, m_innerException{m_innerException_} {}
     // System.Void Init(System.Guid/GuidParseThrowStyle canThrow)
     // Offset: 0xA3DD5C
     void Init(System::Guid::GuidParseThrowStyle canThrow);
@@ -57,13 +57,13 @@ namespace System {
     void SetFailure(System::Exception* nativeException);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID)
     // Offset: 0xA3DD74
-    void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID);
+    void SetFailure(System::Guid::ParseFailureKind failure, ::CsString* failureMessageID);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
     // Offset: 0xA3DD88
-    void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
+    void SetFailure(System::Guid::ParseFailureKind failure, ::CsString* failureMessageID, ::CsObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName, System.Exception innerException)
     // Offset: 0xA3DD98
-    void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName, System::Exception* innerException);
+    void SetFailure(System::Guid::ParseFailureKind failure, ::CsString* failureMessageID, ::CsObject* failureMessageFormatArgument, ::CsString* failureArgumentName, System::Exception* innerException);
     // System.Exception GetGuidParseException()
     // Offset: 0xA3DDA0
     System::Exception* GetGuidParseException();

@@ -31,13 +31,13 @@ namespace OVRSimpleJSON {
     static JSONNode::KeyEnumerator* New_ctor(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
     // Offset: 0xA36F54
-    static JSONNode::KeyEnumerator* New_ctor(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
+    static JSONNode::KeyEnumerator* New_ctor(typename System::Collections::Generic::Dictionary_2<::CsString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(OVRSimpleJSON.JSONNode/Enumerator aEnumerator)
     // Offset: 0xA36FE4
     static JSONNode::KeyEnumerator* New_ctor(OVRSimpleJSON::JSONNode::Enumerator aEnumerator);
     // public System.String get_Current()
     // Offset: 0xA37014
-    ::Il2CppString* get_Current();
+    ::CsString* get_Current();
     // public System.Boolean MoveNext()
     // Offset: 0xA3701C
     bool MoveNext();

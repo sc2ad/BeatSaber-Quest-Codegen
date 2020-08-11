@@ -50,28 +50,28 @@ namespace System::Resources {
     static void _set_Version(int value);
     // private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* resCache;
+    System::Collections::Generic::Dictionary_2<::CsString*, System::Resources::ResourceLocator>* resCache;
     // private System.Resources.ResourceReader _defaultReader
     // Offset: 0x30
     System::Resources::ResourceReader* defaultReader;
     // private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _caseInsensitiveTable
     // Offset: 0x38
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* caseInsensitiveTable;
+    System::Collections::Generic::Dictionary_2<::CsString*, System::Resources::ResourceLocator>* caseInsensitiveTable;
     // private System.Boolean _haveReadFromReader
     // Offset: 0x40
     bool haveReadFromReader;
     // System.Void .ctor(System.String fileName)
     // Offset: 0x1143804
-    static RuntimeResourceSet* New_ctor(::Il2CppString* fileName);
+    static RuntimeResourceSet* New_ctor(::CsString* fileName);
     // System.Void .ctor(System.IO.Stream stream)
     // Offset: 0x1145530
     static RuntimeResourceSet* New_ctor(System::IO::Stream* stream);
     // private System.Object GetObject(System.String key, System.Boolean ignoreCase, System.Boolean isString)
     // Offset: 0x114D6D8
-    ::Il2CppObject* GetObject(::Il2CppString* key, bool ignoreCase, bool isString);
+    ::CsObject* GetObject(::CsString* key, bool ignoreCase, bool isString);
     // private System.Object ResolveResourceLocator(System.Resources.ResourceLocator resLocation, System.String key, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> copyOfCache, System.Boolean keyInWrongCase)
     // Offset: 0x114E0E0
-    ::Il2CppObject* ResolveResourceLocator(System::Resources::ResourceLocator resLocation, ::Il2CppString* key, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
+    ::CsObject* ResolveResourceLocator(System::Resources::ResourceLocator resLocation, ::CsString* key, System::Collections::Generic::Dictionary_2<::CsString*, System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0x114D3FC
     // Implemented from: System.Resources.ResourceSet
@@ -96,22 +96,22 @@ namespace System::Resources {
     // Offset: 0x114D658
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key)
-    ::Il2CppString* GetString(::Il2CppString* key);
+    ::CsString* GetString(::CsString* key);
     // public override System.String GetString(System.String key, System.Boolean ignoreCase)
     // Offset: 0x114E044
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key, System.Boolean ignoreCase)
-    ::Il2CppString* GetString(::Il2CppString* key, bool ignoreCase);
+    ::CsString* GetString(::CsString* key, bool ignoreCase);
     // public override System.Object GetObject(System.String key)
     // Offset: 0x114E0C8
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key)
-    ::Il2CppObject* GetObject(::Il2CppString* key);
+    ::CsObject* GetObject(::CsString* key);
     // public override System.Object GetObject(System.String key, System.Boolean ignoreCase)
     // Offset: 0x114E0D4
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key, System.Boolean ignoreCase)
-    ::Il2CppObject* GetObject(::Il2CppString* key, bool ignoreCase);
+    ::CsObject* GetObject(::CsString* key, bool ignoreCase);
   }; // System.Resources.RuntimeResourceSet
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -25,7 +25,7 @@ namespace System::ComponentModel {
     // Offset: 0xF46570
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xF4660C
     // Implemented from: System.Attribute

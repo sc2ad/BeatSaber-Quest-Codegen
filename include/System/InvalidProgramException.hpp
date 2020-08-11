@@ -34,7 +34,7 @@ namespace System {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static InvalidProgramException* New_ctor(::Il2CppString* message);
+    static InvalidProgramException* New_ctor(::CsString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFE378
     // Implemented from: System.SystemException

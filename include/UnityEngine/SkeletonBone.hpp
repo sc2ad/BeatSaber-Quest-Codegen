@@ -19,10 +19,10 @@ namespace UnityEngine {
     public:
     // public System.String name
     // Offset: 0x0
-    ::Il2CppString* name;
+    ::CsString* name;
     // System.String parentName
     // Offset: 0x8
-    ::Il2CppString* parentName;
+    ::CsString* parentName;
     // public UnityEngine.Vector3 position
     // Offset: 0x10
     UnityEngine::Vector3 position;
@@ -33,7 +33,7 @@ namespace UnityEngine {
     // Offset: 0x2C
     UnityEngine::Vector3 scale;
     // Creating value type constructor for type: SkeletonBone
-    SkeletonBone(::Il2CppString* name_ = {}, ::Il2CppString* parentName_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 scale_ = {}) : name{name_}, parentName{parentName_}, position{position_}, rotation{rotation_}, scale{scale_} {}
+    SkeletonBone(::CsString* name_ = {}, ::CsString* parentName_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 scale_ = {}) : name{name_}, parentName{parentName_}, position{position_}, rotation{rotation_}, scale{scale_} {}
   }; // UnityEngine.SkeletonBone
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

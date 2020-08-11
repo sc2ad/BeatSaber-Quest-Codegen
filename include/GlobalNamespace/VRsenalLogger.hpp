@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandlePlayerNameWasEntered(System.String playerName)
     // Offset: 0xC402B8
-    void HandlePlayerNameWasEntered(::Il2CppString* playerName);
+    void HandlePlayerNameWasEntered(::CsString* playerName);
     // public System.Void .ctor()
     // Offset: 0xC40340
     // Implemented from: UnityEngine.MonoBehaviour

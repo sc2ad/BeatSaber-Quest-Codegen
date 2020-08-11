@@ -41,7 +41,7 @@ namespace System::IO {
     // Offset: 0xFF8E44
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
-    void Write(::Il2CppString* value);
+    void Write(::CsString* value);
     // public override System.Void WriteLine()
     // Offset: 0xFF8E48
     // Implemented from: System.IO.TextWriter
@@ -51,7 +51,7 @@ namespace System::IO {
     // Offset: 0xFF8E4C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String value)
-    void WriteLine(::Il2CppString* value);
+    void WriteLine(::CsString* value);
   }; // System.IO.TextWriter/NullTextWriter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

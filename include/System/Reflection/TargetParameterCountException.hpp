@@ -34,7 +34,7 @@ namespace System::Reflection {
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static TargetParameterCountException* New_ctor(::Il2CppString* message);
+    static TargetParameterCountException* New_ctor(::CsString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1141F6C
     // Implemented from: System.ApplicationException

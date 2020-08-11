@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     ::Array<float>* values;
     // private System.String _formattingString
     // Offset: 0x48
-    ::Il2CppString* formattingString;
+    ::CsString* formattingString;
     // private FormattedFloatListSettingsValueController/ValueType valueType
     // Offset: 0x50
     GlobalNamespace::FormattedFloatListSettingsValueController::ValueType valueType;
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Offset: 0xBDC980
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
-    ::Il2CppString* TextForValue(int idx);
+    ::CsString* TextForValue(int idx);
     // public System.Void .ctor()
     // Offset: 0xBDCA6C
     // Implemented from: ListSettingsController

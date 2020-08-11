@@ -8,7 +8,7 @@
 #include "System/EventArgs.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -17,16 +17,16 @@ namespace System {
     public:
     // private System.Object _Exception
     // Offset: 0x10
-    ::Il2CppObject* Exception;
+    ::CsObject* Exception;
     // private System.Boolean _IsTerminating
     // Offset: 0x18
     bool IsTerminating;
     // public System.Void .ctor(System.Object exception, System.Boolean isTerminating)
     // Offset: 0x178516C
-    static UnhandledExceptionEventArgs* New_ctor(::Il2CppObject* exception, bool isTerminating);
+    static UnhandledExceptionEventArgs* New_ctor(::CsObject* exception, bool isTerminating);
     // public System.Object get_ExceptionObject()
     // Offset: 0x1785200
-    ::Il2CppObject* get_ExceptionObject();
+    ::CsObject* get_ExceptionObject();
     // public System.Boolean get_IsTerminating()
     // Offset: 0x1785208
     bool get_IsTerminating();

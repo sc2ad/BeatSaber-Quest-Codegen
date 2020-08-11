@@ -15,15 +15,15 @@ namespace UnityEngine {
     public:
     // private System.String mJavaStackTrace
     // Offset: 0x88
-    ::Il2CppString* mJavaStackTrace;
+    ::CsString* mJavaStackTrace;
     // System.Void .ctor(System.String message, System.String javaStackTrace)
     // Offset: 0x1906A50
-    static AndroidJavaException* New_ctor(::Il2CppString* message, ::Il2CppString* javaStackTrace);
+    static AndroidJavaException* New_ctor(::CsString* message, ::CsString* javaStackTrace);
     // public override System.String get_StackTrace()
     // Offset: 0x190A3E8
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
-    ::Il2CppString* get_StackTrace();
+    ::CsString* get_StackTrace();
   }; // UnityEngine.AndroidJavaException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

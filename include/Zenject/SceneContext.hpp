@@ -113,10 +113,10 @@ namespace Zenject {
     bool parentNewObjectsUnderSceneContext;
     // private System.Collections.Generic.List`1<System.String> _contractNames
     // Offset: 0x90
-    System::Collections::Generic::List_1<::Il2CppString*>* contractNames;
+    System::Collections::Generic::List_1<::CsString*>* contractNames;
     // private System.Collections.Generic.List`1<System.String> _parentContractNames
     // Offset: 0x98
-    System::Collections::Generic::List_1<::Il2CppString*>* parentContractNames;
+    System::Collections::Generic::List_1<::CsString*>* parentContractNames;
     // private Zenject.DiContainer _container
     // Offset: 0xA0
     Zenject::DiContainer* container;
@@ -164,16 +164,16 @@ namespace Zenject {
     bool get_IsValidating();
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ContractNames()
     // Offset: 0xFB3B54
-    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ContractNames();
+    System::Collections::Generic::IEnumerable_1<::CsString*>* get_ContractNames();
     // public System.Void set_ContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
     // Offset: 0xFB3B5C
-    void set_ContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
+    void set_ContractNames(System::Collections::Generic::IEnumerable_1<::CsString*>* value);
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ParentContractNames()
     // Offset: 0xFB3BDC
-    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ParentContractNames();
+    System::Collections::Generic::IEnumerable_1<::CsString*>* get_ParentContractNames();
     // public System.Void set_ParentContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
     // Offset: 0xFB3C64
-    void set_ParentContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
+    void set_ParentContractNames(System::Collections::Generic::IEnumerable_1<::CsString*>* value);
     // public System.Boolean get_ParentNewObjectsUnderSceneContext()
     // Offset: 0xFB3CD0
     bool get_ParentNewObjectsUnderSceneContext();

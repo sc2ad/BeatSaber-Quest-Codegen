@@ -52,7 +52,7 @@ namespace System::IO {
     // Offset: 0xFF9DAC
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String value)
-    void Write(::Il2CppString* value);
+    void Write(::CsString* value);
   }; // System.IO.UnexceptionalStreamWriter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

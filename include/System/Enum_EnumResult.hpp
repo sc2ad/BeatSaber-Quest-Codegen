@@ -26,7 +26,7 @@ namespace System {
     public:
     // System.Object parsedEnum
     // Offset: 0x0
-    ::Il2CppObject* parsedEnum;
+    ::CsObject* parsedEnum;
     // System.Boolean canThrow
     // Offset: 0x8
     bool canThrow;
@@ -35,18 +35,18 @@ namespace System {
     System::Enum::ParseFailureKind m_failure;
     // System.String m_failureMessageID
     // Offset: 0x10
-    ::Il2CppString* m_failureMessageID;
+    ::CsString* m_failureMessageID;
     // System.String m_failureParameter
     // Offset: 0x18
-    ::Il2CppString* m_failureParameter;
+    ::CsString* m_failureParameter;
     // System.Object m_failureMessageFormatArgument
     // Offset: 0x20
-    ::Il2CppObject* m_failureMessageFormatArgument;
+    ::CsObject* m_failureMessageFormatArgument;
     // System.Exception m_innerException
     // Offset: 0x28
     System::Exception* m_innerException;
     // Creating value type constructor for type: EnumResult
-    EnumResult(::Il2CppObject* parsedEnum_ = {}, bool canThrow_ = {}, System::Enum::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppString* m_failureParameter_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, System::Exception* m_innerException_ = {}) : parsedEnum{parsedEnum_}, canThrow{canThrow_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureParameter{m_failureParameter_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_innerException{m_innerException_} {}
+    EnumResult(::CsObject* parsedEnum_ = {}, bool canThrow_ = {}, System::Enum::ParseFailureKind m_failure_ = {}, ::CsString* m_failureMessageID_ = {}, ::CsString* m_failureParameter_ = {}, ::CsObject* m_failureMessageFormatArgument_ = {}, System::Exception* m_innerException_ = {}) : parsedEnum{parsedEnum_}, canThrow{canThrow_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureParameter{m_failureParameter_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_innerException{m_innerException_} {}
     // System.Void Init(System.Boolean canMethodThrow)
     // Offset: 0xA2B75C
     void Init(bool canMethodThrow);
@@ -55,10 +55,10 @@ namespace System {
     void SetFailure(System::Exception* unhandledException);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureParameter)
     // Offset: 0xA2B778
-    void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureParameter);
+    void SetFailure(System::Enum::ParseFailureKind failure, ::CsString* failureParameter);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
     // Offset: 0xA2B780
-    void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
+    void SetFailure(System::Enum::ParseFailureKind failure, ::CsString* failureMessageID, ::CsObject* failureMessageFormatArgument);
     // System.Exception GetEnumParseException()
     // Offset: 0xA2B788
     System::Exception* GetEnumParseException();

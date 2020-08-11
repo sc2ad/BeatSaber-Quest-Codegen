@@ -4,7 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.Task`1
 #include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.Threading.Tasks.Task

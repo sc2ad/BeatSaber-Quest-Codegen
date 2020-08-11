@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ParticleSystem/MainModule
 #include "UnityEngine/ParticleSystem_MainModule.hpp"
 // Including type: UnityEngine.ParticleSystem/MinMaxCurve

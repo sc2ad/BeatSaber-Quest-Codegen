@@ -9,10 +9,10 @@
 // Already included the same include: System/Object.hpp
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 template<class T>
 struct Array;
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -21,13 +21,13 @@ namespace System {
     public:
     // static private System.Boolean InternalEquals(System.Object o1, System.Object o2, System.Object[] fields)
     // Offset: 0x1786818
-    static bool InternalEquals(::Il2CppObject* o1, ::Il2CppObject* o2, ::Array<::Il2CppObject*>*& fields);
+    static bool InternalEquals(::CsObject* o1, ::CsObject* o2, ::Array<::CsObject*>*& fields);
     // static System.Boolean DefaultEquals(System.Object o1, System.Object o2)
     // Offset: 0x178681C
-    static bool DefaultEquals(::Il2CppObject* o1, ::Il2CppObject* o2);
+    static bool DefaultEquals(::CsObject* o1, ::CsObject* o2);
     // static System.Int32 InternalGetHashCode(System.Object o, System.Object[] fields)
     // Offset: 0x17869E8
-    static int InternalGetHashCode(::Il2CppObject* o, ::Array<::Il2CppObject*>*& fields);
+    static int InternalGetHashCode(::CsObject* o, ::Array<::CsObject*>*& fields);
     // protected System.Void .ctor()
     // Offset: 0x1786810
     // Implemented from: System.Object
@@ -37,7 +37,7 @@ namespace System {
     // Offset: 0x17869E4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
-    bool Equals(::Il2CppObject* obj);
+    bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x17869EC
     // Implemented from: System.Object
@@ -47,7 +47,7 @@ namespace System {
     // Offset: 0x1786A78
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // System.ValueType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

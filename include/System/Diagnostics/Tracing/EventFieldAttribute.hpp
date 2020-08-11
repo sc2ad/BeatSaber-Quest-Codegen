@@ -22,7 +22,7 @@ namespace System::Diagnostics::Tracing {
     System::Diagnostics::Tracing::EventFieldTags Tags;
     // private System.String <Name>k__BackingField
     // Offset: 0x18
-    ::Il2CppString* Name;
+    ::CsString* Name;
     // private System.Diagnostics.Tracing.EventFieldFormat <Format>k__BackingField
     // Offset: 0x20
     System::Diagnostics::Tracing::EventFieldFormat Format;
@@ -31,7 +31,7 @@ namespace System::Diagnostics::Tracing {
     System::Diagnostics::Tracing::EventFieldTags get_Tags();
     // System.String get_Name()
     // Offset: 0xC86A6C
-    ::Il2CppString* get_Name();
+    ::CsString* get_Name();
     // public System.Diagnostics.Tracing.EventFieldFormat get_Format()
     // Offset: 0xC86A74
     System::Diagnostics::Tracing::EventFieldFormat get_Format();

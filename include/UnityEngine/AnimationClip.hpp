@@ -49,7 +49,7 @@ namespace UnityEngine {
     void set_frameRate(float value);
     // public System.Void SetCurve(System.String relativePath, System.Type type, System.String propertyName, UnityEngine.AnimationCurve curve)
     // Offset: 0x1922AE4
-    void SetCurve(::Il2CppString* relativePath, System::Type* type, ::Il2CppString* propertyName, UnityEngine::AnimationCurve* curve);
+    void SetCurve(::CsString* relativePath, System::Type* type, ::CsString* propertyName, UnityEngine::AnimationCurve* curve);
     // public System.Void EnsureQuaternionContinuity()
     // Offset: 0x1922B54
     void EnsureQuaternionContinuity();

@@ -9,7 +9,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
@@ -18,7 +18,7 @@ namespace NetEase::Docker {
     public:
     // private System.String <Track>k__BackingField
     // Offset: 0x0
-    ::Il2CppString* Track;
+    ::CsString* Track;
     // private System.Int32 <Difficulty>k__BackingField
     // Offset: 0x8
     int Difficulty;
@@ -44,10 +44,10 @@ namespace NetEase::Docker {
     // Offset: 0x28
     int NoOfBombsHit;
     // Creating value type constructor for type: UploadScoreData
-    UploadScoreData(::Il2CppString* Track_ = {}, int Difficulty_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}, bool PlayedUntilEnd_ = {}, float AccuracyPercentage_ = {}, int NoOfHits_ = {}, int NoOfMisses_ = {}, int NoOfBombsHit_ = {}) : Track{Track_}, Difficulty{Difficulty_}, Score{Score_}, TimeStamp{TimeStamp_}, PlayedUntilEnd{PlayedUntilEnd_}, AccuracyPercentage{AccuracyPercentage_}, NoOfHits{NoOfHits_}, NoOfMisses{NoOfMisses_}, NoOfBombsHit{NoOfBombsHit_} {}
+    UploadScoreData(::CsString* Track_ = {}, int Difficulty_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}, bool PlayedUntilEnd_ = {}, float AccuracyPercentage_ = {}, int NoOfHits_ = {}, int NoOfMisses_ = {}, int NoOfBombsHit_ = {}) : Track{Track_}, Difficulty{Difficulty_}, Score{Score_}, TimeStamp{TimeStamp_}, PlayedUntilEnd{PlayedUntilEnd_}, AccuracyPercentage{AccuracyPercentage_}, NoOfHits{NoOfHits_}, NoOfMisses{NoOfMisses_}, NoOfBombsHit{NoOfBombsHit_} {}
     // public System.Void set_Track(System.String value)
     // Offset: 0xA5CE20
-    void set_Track(::Il2CppString* value);
+    void set_Track(::CsString* value);
     // public System.Void set_Score(System.Int32 value)
     // Offset: 0xA5CE28
     void set_Score(int value);

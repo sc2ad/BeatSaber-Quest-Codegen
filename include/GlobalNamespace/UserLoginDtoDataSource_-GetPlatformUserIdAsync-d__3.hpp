@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     int $$1__state;
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
     // Offset: 0x8
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder;
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::CsString*> $$t__builder;
     // public UserLoginDtoDataSource <>4__this
     // Offset: 0x20
     GlobalNamespace::UserLoginDtoDataSource* $$4__this;
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserModelSO::UserInfo*> $$u__1;
     // Creating value type constructor for type: $GetPlatformUserIdAsync$d__3
-    $GetPlatformUserIdAsync$d__3(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, GlobalNamespace::UserLoginDtoDataSource* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserModelSO::UserInfo*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
+    $GetPlatformUserIdAsync$d__3(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::CsString*> $$t__builder_ = {}, GlobalNamespace::UserLoginDtoDataSource* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserModelSO::UserInfo*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA27FF4
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

@@ -28,10 +28,10 @@ namespace HMUI {
     TMPro::TextMeshProUGUI* labelText;
     // public System.Void SetValueText(System.String text)
     // Offset: 0xED297C
-    void SetValueText(::Il2CppString* text);
+    void SetValueText(::CsString* text);
     // public System.Void SetLabelText(System.String text)
     // Offset: 0xED2998
-    void SetLabelText(::Il2CppString* text);
+    void SetLabelText(::CsString* text);
     // public System.Void .ctor()
     // Offset: 0xED29B4
     // Implemented from: HMUI.DropdownWithTableView

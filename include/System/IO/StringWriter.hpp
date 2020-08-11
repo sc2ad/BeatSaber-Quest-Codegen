@@ -86,12 +86,12 @@ namespace System::IO {
     // Offset: 0xFF7160
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
-    void Write(::Il2CppString* value);
+    void Write(::CsString* value);
     // public override System.String ToString()
     // Offset: 0xFF7198
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // System.IO.StringWriter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

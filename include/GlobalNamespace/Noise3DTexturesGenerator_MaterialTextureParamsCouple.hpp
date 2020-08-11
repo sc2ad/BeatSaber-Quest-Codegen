@@ -17,12 +17,12 @@ namespace GlobalNamespace {
     public:
     // public System.String globalPropertyName
     // Offset: 0x0
-    ::Il2CppString* globalPropertyName;
+    ::CsString* globalPropertyName;
     // public Noise3DTexturesGenerator/MaterialPropertyNameCouple[] materialPropertyNameCouples
     // Offset: 0x8
     ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>* materialPropertyNameCouples;
     // Creating value type constructor for type: MaterialTextureParamsCouple
-    MaterialTextureParamsCouple(::Il2CppString* globalPropertyName_ = {}, ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>* materialPropertyNameCouples_ = {}) : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
+    MaterialTextureParamsCouple(::CsString* globalPropertyName_ = {}, ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>* materialPropertyNameCouples_ = {}) : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
   }; // Noise3DTexturesGenerator/MaterialTextureParamsCouple
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

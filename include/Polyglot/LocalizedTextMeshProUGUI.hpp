@@ -28,7 +28,7 @@ namespace Polyglot {
     public:
     // protected System.Void SetText(TMPro.TextMeshProUGUI text, System.String value)
     // Offset: 0x1900D7C
-    void SetText(TMPro::TextMeshProUGUI* text, ::Il2CppString* value);
+    void SetText(TMPro::TextMeshProUGUI* text, ::CsString* value);
     // protected System.Void UpdateAlignment(TMPro.TextMeshProUGUI text, Polyglot.LanguageDirection direction)
     // Offset: 0x1900D9C
     void UpdateAlignment(TMPro::TextMeshProUGUI* text, Polyglot::LanguageDirection direction);

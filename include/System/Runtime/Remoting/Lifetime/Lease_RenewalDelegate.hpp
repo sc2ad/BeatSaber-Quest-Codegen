@@ -32,13 +32,13 @@ namespace System::Runtime::Remoting::Lifetime {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x104C2C8
-    static Lease::RenewalDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
+    static Lease::RenewalDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.TimeSpan Invoke(System.Runtime.Remoting.Lifetime.ILease lease)
     // Offset: 0x104C514
     System::TimeSpan Invoke(System::Runtime::Remoting::Lifetime::ILease* lease);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Remoting.Lifetime.ILease lease, System.AsyncCallback callback, System.Object object)
     // Offset: 0x104C2DC
-    System::IAsyncResult* BeginInvoke(System::Runtime::Remoting::Lifetime::ILease* lease, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(System::Runtime::Remoting::Lifetime::ILease* lease, System::AsyncCallback* callback, ::CsObject* object);
     // public System.TimeSpan EndInvoke(System.IAsyncResult result)
     // Offset: 0x104C4E8
     System::TimeSpan EndInvoke(System::IAsyncResult* result);

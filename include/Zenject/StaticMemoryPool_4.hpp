@@ -4,7 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.StaticMemoryPoolBase`1
 #include "Zenject/StaticMemoryPoolBase_1.hpp"
 // Including type: Zenject.IMemoryPool`4

@@ -8,7 +8,7 @@
 #include "System/Collections/ICollection.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppObject;
+struct CsObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -17,16 +17,16 @@ namespace System::Collections {
     public:
     // public System.Object get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* System_Collections_IList_get_Item(int index);
+    ::CsObject* System_Collections_IList_get_Item(int index);
     // public System.Void set_Item(System.Int32 index, System.Object value)
     // Offset: 0xFFFFFFFF
-    void System_Collections_IList_set_Item(int index, ::Il2CppObject* value);
+    void System_Collections_IList_set_Item(int index, ::CsObject* value);
     // public System.Int32 Add(System.Object value)
     // Offset: 0xFFFFFFFF
-    int System_Collections_IList_Add(::Il2CppObject* value);
+    int System_Collections_IList_Add(::CsObject* value);
     // public System.Boolean Contains(System.Object value)
     // Offset: 0xFFFFFFFF
-    bool System_Collections_IList_Contains(::Il2CppObject* value);
+    bool System_Collections_IList_Contains(::CsObject* value);
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void System_Collections_IList_Clear();
@@ -35,13 +35,13 @@ namespace System::Collections {
     bool System_Collections_IList_get_IsReadOnly();
     // public System.Int32 IndexOf(System.Object value)
     // Offset: 0xFFFFFFFF
-    int System_Collections_IList_IndexOf(::Il2CppObject* value);
+    int System_Collections_IList_IndexOf(::CsObject* value);
     // public System.Void Insert(System.Int32 index, System.Object value)
     // Offset: 0xFFFFFFFF
-    void System_Collections_IList_Insert(int index, ::Il2CppObject* value);
+    void System_Collections_IList_Insert(int index, ::CsObject* value);
     // public System.Void Remove(System.Object value)
     // Offset: 0xFFFFFFFF
-    void System_Collections_IList_Remove(::Il2CppObject* value);
+    void System_Collections_IList_Remove(::CsObject* value);
     // public System.Void RemoveAt(System.Int32 index)
     // Offset: 0xFFFFFFFF
     void System_Collections_IList_RemoveAt(int index);

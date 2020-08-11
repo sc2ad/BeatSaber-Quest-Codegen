@@ -40,7 +40,7 @@ namespace Oculus::Platform {
       using declaring_type = Message_1<T>*;
       // public System.Void .ctor(System.Object object, System.IntPtr method)
       // Offset: 0xFFFFFFFF
-      static typename Message_1<T>::Callback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
+      static typename Message_1<T>::Callback* New_ctor(::CsObject* object, System::IntPtr method) {
         return (typename Message_1<T>::Callback*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Message_1<T>::Callback*>::get(), object, method));
       }
       // public System.Void Invoke(Oculus.Platform.Message`1<T> message)
@@ -50,7 +50,7 @@ namespace Oculus::Platform {
       }
       // public System.IAsyncResult BeginInvoke(Oculus.Platform.Message`1<T> message, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
-      System::IAsyncResult* BeginInvoke(Oculus::Platform::Message_1<T>* message, System::AsyncCallback* callback, ::Il2CppObject* object) {
+      System::IAsyncResult* BeginInvoke(Oculus::Platform::Message_1<T>* message, System::AsyncCallback* callback, ::CsObject* object) {
         return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", message, callback, object));
       }
       // public System.Void EndInvoke(System.IAsyncResult result)

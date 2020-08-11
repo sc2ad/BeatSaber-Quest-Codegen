@@ -57,7 +57,7 @@ namespace System::IO {
     bool enableRaisingEvents;
     // private System.String filter
     // Offset: 0x30
-    ::Il2CppString* filter;
+    ::CsString* filter;
     // private System.Boolean includeSubdirectories
     // Offset: 0x38
     bool includeSubdirectories;
@@ -69,10 +69,10 @@ namespace System::IO {
     System::IO::NotifyFilters notifyFilter;
     // private System.String path
     // Offset: 0x48
-    ::Il2CppString* path;
+    ::CsString* path;
     // private System.String fullpath
     // Offset: 0x50
-    ::Il2CppString* fullpath;
+    ::CsString* fullpath;
     // private System.ComponentModel.ISynchronizeInvoke synchronizingObject
     // Offset: 0x58
     System::ComponentModel::ISynchronizeInvoke* synchronizingObject;
@@ -90,15 +90,15 @@ namespace System::IO {
     bool disposed;
     // private System.String mangledFilter
     // Offset: 0x98
-    ::Il2CppString* mangledFilter;
+    ::CsString* mangledFilter;
     // Get static field: static private System.IO.IFileWatcher watcher
     static System::IO::IFileWatcher* _get_watcher();
     // Set static field: static private System.IO.IFileWatcher watcher
     static void _set_watcher(System::IO::IFileWatcher* value);
     // Get static field: static private System.Object lockobj
-    static ::Il2CppObject* _get_lockobj();
+    static ::CsObject* _get_lockobj();
     // Set static field: static private System.Object lockobj
-    static void _set_lockobj(::Il2CppObject* value);
+    static void _set_lockobj(::CsObject* value);
     // private System.IO.FileSystemEventHandler Changed
     // Offset: 0xA0
     System::IO::FileSystemEventHandler* Changed;
@@ -116,7 +116,7 @@ namespace System::IO {
     System::IO::RenamedEventHandler* Renamed;
     // public System.Void .ctor(System.String path, System.String filter)
     // Offset: 0xF50780
-    static FileSystemWatcher* New_ctor(::Il2CppString* path, ::Il2CppString* filter);
+    static FileSystemWatcher* New_ctor(::CsString* path, ::CsString* filter);
     // private System.Void InitWatcher()
     // Offset: 0xF50928
     void InitWatcher();
@@ -128,13 +128,13 @@ namespace System::IO {
     void set_Waiting(bool value);
     // System.String get_MangledFilter()
     // Offset: 0xF4DBC8
-    ::Il2CppString* get_MangledFilter();
+    ::CsString* get_MangledFilter();
     // System.IO.SearchPattern2 get_Pattern()
     // Offset: 0xF4DB30
     System::IO::SearchPattern2* get_Pattern();
     // System.String get_FullPath()
     // Offset: 0xF4DA74
-    ::Il2CppString* get_FullPath();
+    ::CsString* get_FullPath();
     // public System.Void set_EnableRaisingEvents(System.Boolean value)
     // Offset: 0xF50C3C
     void set_EnableRaisingEvents(bool value);
@@ -161,7 +161,7 @@ namespace System::IO {
     void OnRenamed(System::IO::RenamedEventArgs* e);
     // System.Void DispatchEvents(System.IO.FileAction act, System.String filename, System.IO.RenamedEventArgs renamed)
     // Offset: 0xF4EA44
-    void DispatchEvents(System::IO::FileAction act, ::Il2CppString* filename, System::IO::RenamedEventArgs*& renamed);
+    void DispatchEvents(System::IO::FileAction act, ::CsString* filename, System::IO::RenamedEventArgs*& renamed);
     // private System.Void Start()
     // Offset: 0xF50C68
     void Start();

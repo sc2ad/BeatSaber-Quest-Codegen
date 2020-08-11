@@ -24,16 +24,16 @@ namespace System {
     public:
     // protected System.String ClassName
     // Offset: 0x88
-    ::Il2CppString* ClassName;
+    ::CsString* ClassName;
     // protected System.String MemberName
     // Offset: 0x90
-    ::Il2CppString* MemberName;
+    ::CsString* MemberName;
     // protected System.Byte[] Signature
     // Offset: 0x98
     ::Array<uint8_t>* Signature;
     // static System.String FormatSignature(System.Byte[] signature)
     // Offset: 0x1000A08
-    static ::Il2CppString* FormatSignature(::Array<uint8_t>* signature);
+    static ::CsString* FormatSignature(::Array<uint8_t>* signature);
     // public System.Void .ctor()
     // Offset: 0x1000A58
     // Implemented from: System.MemberAccessException
@@ -48,7 +48,7 @@ namespace System {
     // Base method: System.Void MemberAccessException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static MissingMemberException* New_ctor(::Il2CppString* message);
+    static MissingMemberException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1000618
     // Implemented from: System.MemberAccessException
@@ -60,7 +60,7 @@ namespace System {
     // Offset: 0x10008AC
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::CsString* get_Message();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1000AE4
     // Implemented from: System.Exception

@@ -83,7 +83,7 @@ namespace UnityEngine {
     // Offset: 0xA5C6FC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0xA5C704
     // Implemented from: System.ValueType
@@ -93,7 +93,7 @@ namespace UnityEngine {
     // Offset: 0xA5C70C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::Il2CppObject* other);
+    bool Equals(::CsObject* other);
     // public System.Boolean Equals(UnityEngine.PhysicsScene2D other)
     // Offset: 0xA5C714
     // Implemented from: System.IEquatable`1

@@ -96,7 +96,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xDEDD80
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.String PointerInputModule::ToString()
-    ::Il2CppString* ToString();
+    ::CsString* ToString();
   }; // UnityEngine.EventSystems.TouchInputModule
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

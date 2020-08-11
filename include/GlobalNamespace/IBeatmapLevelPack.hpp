@@ -8,7 +8,7 @@
 #include "GlobalNamespace/IAnnotatedBeatmapLevelCollection.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -17,13 +17,13 @@ namespace GlobalNamespace {
     public:
     // public System.String get_packID()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_packID();
+    ::CsString* get_packID();
     // public System.String get_packName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_packName();
+    ::CsString* get_packName();
     // public System.String get_shortPackName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_shortPackName();
+    ::CsString* get_shortPackName();
   }; // IBeatmapLevelPack
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

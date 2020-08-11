@@ -73,10 +73,10 @@ namespace System {
     System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::CsString* ToString(System::IFormatProvider* provider);
     // public System.Object ToType(System.Type conversionType, System.IFormatProvider provider)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* System_IConvertible_ToType(System::Type* conversionType, System::IFormatProvider* provider);
+    ::CsObject* System_IConvertible_ToType(System::Type* conversionType, System::IFormatProvider* provider);
   }; // System.IConvertible
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -2,7 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Unity.Collections.LowLevel.Unsafe.WriteAccessRequiredAttribute
 #include "Unity/Collections/LowLevel/Unsafe/WriteAccessRequiredAttribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

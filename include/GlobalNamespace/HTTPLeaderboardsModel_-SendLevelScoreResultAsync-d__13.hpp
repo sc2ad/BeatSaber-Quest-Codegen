@@ -46,12 +46,12 @@ namespace GlobalNamespace {
     System::Threading::CancellationToken cancellationToken;
     // private System.String <leaderboardId>5__2
     // Offset: 0x60
-    ::Il2CppString* $leaderboardId$5__2;
+    ::CsString* $leaderboardId$5__2;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.API.Response> <>u__1
     // Offset: 0x68
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response> $$u__1;
     // Creating value type constructor for type: $SendLevelScoreResultAsync$d__13
-    $SendLevelScoreResultAsync$d__13(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::SendLeaderboardEntryResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::LevelScoreResultsData levelResultsData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelResultsData{levelResultsData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_} {}
+    $SendLevelScoreResultAsync$d__13(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::SendLeaderboardEntryResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::LevelScoreResultsData levelResultsData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::CsString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelResultsData{levelResultsData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA266C8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

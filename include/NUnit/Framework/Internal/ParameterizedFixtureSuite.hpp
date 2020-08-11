@@ -33,7 +33,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18D5978
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
-    ::Il2CppString* get_TestType();
+    ::CsString* get_TestType();
   }; // NUnit.Framework.Internal.ParameterizedFixtureSuite
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

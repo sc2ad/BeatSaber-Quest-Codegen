@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
+struct CsString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Scripting.APIUpdating
 namespace UnityEngine::Scripting::APIUpdating {
@@ -17,13 +17,13 @@ namespace UnityEngine::Scripting::APIUpdating {
     public:
     // public System.String className
     // Offset: 0x0
-    ::Il2CppString* className;
+    ::CsString* className;
     // public System.String nameSpace
     // Offset: 0x8
-    ::Il2CppString* nameSpace;
+    ::CsString* nameSpace;
     // public System.String assembly
     // Offset: 0x10
-    ::Il2CppString* assembly;
+    ::CsString* assembly;
     // public System.Boolean classHasChanged
     // Offset: 0x18
     bool classHasChanged;
@@ -37,10 +37,10 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Offset: 0x1B
     bool autoUdpateAPI;
     // Creating value type constructor for type: MovedFromAttributeData
-    MovedFromAttributeData(::Il2CppString* className_ = {}, ::Il2CppString* nameSpace_ = {}, ::Il2CppString* assembly_ = {}, bool classHasChanged_ = {}, bool nameSpaceHasChanged_ = {}, bool assemblyHasChanged_ = {}, bool autoUdpateAPI_ = {}) : className{className_}, nameSpace{nameSpace_}, assembly{assembly_}, classHasChanged{classHasChanged_}, nameSpaceHasChanged{nameSpaceHasChanged_}, assemblyHasChanged{assemblyHasChanged_}, autoUdpateAPI{autoUdpateAPI_} {}
+    MovedFromAttributeData(::CsString* className_ = {}, ::CsString* nameSpace_ = {}, ::CsString* assembly_ = {}, bool classHasChanged_ = {}, bool nameSpaceHasChanged_ = {}, bool assemblyHasChanged_ = {}, bool autoUdpateAPI_ = {}) : className{className_}, nameSpace{nameSpace_}, assembly{assembly_}, classHasChanged{classHasChanged_}, nameSpaceHasChanged{nameSpaceHasChanged_}, assemblyHasChanged{assemblyHasChanged_}, autoUdpateAPI{autoUdpateAPI_} {}
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
     // Offset: 0xA43A50
-    void Set(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
+    void Set(bool autoUpdateAPI, ::CsString* sourceNamespace, ::CsString* sourceAssembly, ::CsString* sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
