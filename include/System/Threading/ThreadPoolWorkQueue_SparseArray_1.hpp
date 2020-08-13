@@ -8,6 +8,7 @@
 // Including type: System.Threading.ThreadPoolWorkQueue
 #include "System/Threading/ThreadPoolWorkQueue.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {

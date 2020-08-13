@@ -12,6 +12,7 @@
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform

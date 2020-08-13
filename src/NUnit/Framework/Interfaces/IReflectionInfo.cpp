@@ -5,5 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Interfaces.IReflectionInfo
 #include "NUnit/Framework/Interfaces/IReflectionInfo.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

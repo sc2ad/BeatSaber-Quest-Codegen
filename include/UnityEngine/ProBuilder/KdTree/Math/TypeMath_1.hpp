@@ -8,6 +8,7 @@
 // Including type: UnityEngine.ProBuilder.KdTree.ITypeMath`1
 #include "UnityEngine/ProBuilder/KdTree/ITypeMath_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.KdTree.Math
 namespace UnityEngine::ProBuilder::KdTree::Math {

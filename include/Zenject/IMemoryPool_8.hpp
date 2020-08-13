@@ -7,6 +7,7 @@
 // Including type: Zenject.IDespawnableMemoryPool`1
 #include "Zenject/IDespawnableMemoryPool_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Zenject
 namespace Zenject {

@@ -9,5 +9,6 @@
 #include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Predicate`1
 #include "System/Predicate_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

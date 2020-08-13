@@ -10,6 +10,7 @@
 // Including type: System.Nullable`1
 #include "System/Nullable_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

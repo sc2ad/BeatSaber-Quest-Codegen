@@ -8,6 +8,7 @@
 // Including type: UnityEngine.Events.InvokableCall`1
 #include "UnityEngine/Events/InvokableCall_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

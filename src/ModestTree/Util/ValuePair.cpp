@@ -11,5 +11,6 @@
 #include "ModestTree/Util/ValuePair_3.hpp"
 // Including type: ModestTree.Util.ValuePair`4
 #include "ModestTree/Util/ValuePair_4.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

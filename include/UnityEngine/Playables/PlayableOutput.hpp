@@ -13,6 +13,7 @@
 // Including type: UnityEngine.Playables.PlayableOutputHandle
 #include "UnityEngine/Playables/PlayableOutputHandle.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {

@@ -20,6 +20,7 @@
 // Including type: UnityEngine.Playables.Playable
 #include "UnityEngine/Playables/Playable.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline

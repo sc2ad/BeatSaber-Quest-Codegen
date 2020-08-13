@@ -8,6 +8,7 @@
 // Including type: System.Diagnostics.Tracing.TraceLoggingDataType
 #include "System/Diagnostics/Tracing/TraceLoggingDataType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics::Tracing

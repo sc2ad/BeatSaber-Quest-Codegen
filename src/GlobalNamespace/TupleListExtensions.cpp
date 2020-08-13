@@ -13,5 +13,6 @@
 #include "System/Tuple_3.hpp"
 // Including type: System.Tuple`4
 #include "System/Tuple_4.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

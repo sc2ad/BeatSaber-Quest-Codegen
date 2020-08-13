@@ -10,6 +10,7 @@
 // Including type: UnityEngine.Events.UnityEvent`2
 #include "UnityEngine/Events/UnityEvent_2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events

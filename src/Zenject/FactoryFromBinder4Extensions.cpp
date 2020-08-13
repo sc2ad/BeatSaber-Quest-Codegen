@@ -35,5 +35,6 @@
 #include "UnityEngine/Component.hpp"
 // Including type: Zenject.MemoryPool`6
 #include "Zenject/MemoryPool_6.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

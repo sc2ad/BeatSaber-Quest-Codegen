@@ -12,6 +12,7 @@
 // Including type: System.Collections.Generic.List`1/Enumerator
 #include "System/Collections/Generic/List_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic

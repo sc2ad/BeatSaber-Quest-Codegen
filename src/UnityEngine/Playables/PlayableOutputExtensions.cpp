@@ -13,5 +13,6 @@
 #include "UnityEngine/Playables/INotification.hpp"
 // Including type: UnityEngine.Playables.INotificationReceiver
 #include "UnityEngine/Playables/INotificationReceiver.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

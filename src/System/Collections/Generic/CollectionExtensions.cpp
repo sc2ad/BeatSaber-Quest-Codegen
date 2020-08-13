@@ -7,5 +7,6 @@
 #include "System/Collections/Generic/CollectionExtensions.hpp"
 // Including type: System.Collections.Generic.IReadOnlyDictionary`2
 #include "System/Collections/Generic/IReadOnlyDictionary_2.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

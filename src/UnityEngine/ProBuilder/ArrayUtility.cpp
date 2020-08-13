@@ -23,5 +23,6 @@
 #include "System/IComparable_1.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
 #include "System/Collections/Generic/Dictionary_2.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

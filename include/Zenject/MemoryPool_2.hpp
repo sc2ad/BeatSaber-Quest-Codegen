@@ -12,6 +12,7 @@
 // Including type: Zenject.IFactory`2
 #include "Zenject/IFactory_2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Zenject
 namespace Zenject {

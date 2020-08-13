@@ -14,6 +14,7 @@
 // Including type: System.Linq.Buffer`1
 #include "System/Linq/Buffer_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Linq
 namespace System::Linq {

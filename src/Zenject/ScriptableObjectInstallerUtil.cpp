@@ -9,5 +9,6 @@
 #include "Zenject/ScriptableObjectInstallerBase.hpp"
 // Including type: Zenject.DiContainer
 #include "Zenject/DiContainer.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

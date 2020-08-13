@@ -8,6 +8,7 @@
 // Including type: Zenject.FactoryFromBinder`6
 #include "Zenject/FactoryFromBinder_6.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject

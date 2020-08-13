@@ -13,5 +13,6 @@
 #include "ModestTree/LinqExtensions_--c__DisplayClass9_0_1.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

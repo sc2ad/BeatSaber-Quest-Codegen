@@ -35,5 +35,6 @@
 #include "Zenject/ConcreteBinderGeneric_1.hpp"
 // Including type: Zenject.IFactory`1
 #include "Zenject/IFactory_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

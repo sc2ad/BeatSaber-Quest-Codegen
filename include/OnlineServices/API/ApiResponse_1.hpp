@@ -10,6 +10,7 @@
 // Including type: OnlineServices.API.Response
 #include "OnlineServices/API/Response.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {

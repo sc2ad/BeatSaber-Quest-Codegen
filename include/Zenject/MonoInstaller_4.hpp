@@ -8,6 +8,7 @@
 // Including type: Zenject.MonoInstallerBase
 #include "Zenject/MonoInstallerBase.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject

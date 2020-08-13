@@ -7,6 +7,7 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct CsObject;

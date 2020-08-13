@@ -7,5 +7,6 @@
 #include "System/Threading/LazyInitializer.hpp"
 // Including type: System.Func`1
 #include "System/Func_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

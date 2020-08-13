@@ -13,6 +13,7 @@
 // Including type: UnityEngine.Playables.PlayableHandle
 #include "UnityEngine/Playables/PlayableHandle.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables

@@ -5,6 +5,7 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System
 namespace System {

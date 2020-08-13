@@ -8,6 +8,7 @@
 // Including type: NUnit.Framework.Interfaces.IParameterInfo
 #include "NUnit/Framework/Interfaces/IParameterInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces

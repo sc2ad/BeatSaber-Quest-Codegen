@@ -8,6 +8,7 @@
 // Including type: Zenject.PlaceholderFactory`4
 #include "Zenject/PlaceholderFactory_4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Zenject
 namespace Zenject {

@@ -9,5 +9,6 @@
 #include "GlobalNamespace/IDifficultyBeatmapSet.hpp"
 // Including type: PreviewDifficultyBeatmapSet
 #include "GlobalNamespace/PreviewDifficultyBeatmapSet.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
