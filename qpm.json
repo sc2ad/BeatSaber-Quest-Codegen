@@ -14,7 +14,7 @@
   "dependencies": [
     {
       "id": "beatsaber-hook",
-      "versionRange": "0.3.8",
+      "versionRange": "0.4.0",
       "additionalData": {}
     }
   ],
