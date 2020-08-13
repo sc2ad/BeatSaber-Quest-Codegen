@@ -48,19 +48,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected GameScenesManager get_gameScenesManager()
-    // Offset: 0x196D24C
+    // Offset: 0xB85548
     GlobalNamespace::GameScenesManager* get_gameScenesManager();
     // private System.Collections.IEnumerator StartCoroutine()
-    // Offset: 0x196D380
+    // Offset: 0xB8567C
     System::Collections::IEnumerator* StartCoroutine();
     // protected System.Void OnDestroy()
-    // Offset: 0x196D428
+    // Offset: 0xB85724
     void OnDestroy();
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0x196D4FC
+    // Offset: 0xB857F8
     void HandleBeforeDismissingScenes();
     // protected AppInit/AppStartType GetAppStartType()
-    // Offset: 0x196D328
+    // Offset: 0xB85624
     GlobalNamespace::AppInit::AppStartType GetAppStartType();
     // protected System.Void AppStartAndMultiSceneEditorSetup()
     // Offset: 0xFFFFFFFF
@@ -72,12 +72,12 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void TransitionToNextScene();
     // public override System.Void Start()
-    // Offset: 0x196D254
+    // Offset: 0xB85550
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::Start()
     void Start();
     // protected System.Void .ctor()
-    // Offset: 0x196D59C
+    // Offset: 0xB85898
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -89,6 +89,6 @@ namespace GlobalNamespace {
     static AppInit* New_ctor();
   }; // AppInit
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit*, "", "AppInit");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 // Completed includes
@@ -29,19 +27,19 @@ namespace Oculus::Platform {
   class Livestreaming : public ::CsObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> GetStatus()
-    // Offset: 0xE83DF0
+    // Offset: 0xE96834
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LivestreamingStatus*>* GetStatus();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> PauseStream()
-    // Offset: 0xE83EFC
+    // Offset: 0xE96940
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LivestreamingStatus*>* PauseStream();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> ResumeStream()
-    // Offset: 0xE84008
+    // Offset: 0xE96A4C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LivestreamingStatus*>* ResumeStream();
     // static public System.Void SetStatusUpdateNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.LivestreamingStatus> callback)
-    // Offset: 0xE84114
+    // Offset: 0xE96B58
     static void SetStatusUpdateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingStatus*>::Callback* callback);
   }; // Oculus.Platform.Livestreaming
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Livestreaming*, "Oculus.Platform", "Livestreaming");
 #pragma pack(pop)

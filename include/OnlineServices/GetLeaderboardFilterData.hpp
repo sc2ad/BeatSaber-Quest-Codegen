@@ -40,10 +40,10 @@ namespace OnlineServices {
     // Creating value type constructor for type: GetLeaderboardFilterData
     GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap_ = {}, int count_ = {}, int fromRank_ = {}, OnlineServices::ScoresScope scope_ = {}, bool includeScoreWithModifiers_ = {}) : beatmap{beatmap_}, count{count_}, fromRank{fromRank_}, scope{scope_}, includeScoreWithModifiers{includeScoreWithModifiers_} {}
     // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, System.Boolean includeScoreWithModifiers)
-    // Offset: 0xA27F2C
+    // Offset: 0xA27FA8
     static GetLeaderboardFilterData* New_ctor(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, OnlineServices::ScoresScope scope, bool includeScoreWithModifiers);
   }; // OnlineServices.GetLeaderboardFilterData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardFilterData, "OnlineServices", "GetLeaderboardFilterData");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Threading.CancellationToken
 #include "System/Threading/CancellationToken.hpp"
 // Including type: System.Threading.Tasks.TaskCreationOptions

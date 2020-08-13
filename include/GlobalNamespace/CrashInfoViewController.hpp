@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     TMPro::TextMeshProUGUI* text;
     // protected System.Void Start()
-    // Offset: 0xBCD408
+    // Offset: 0xBDFE4C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xBCD480
+    // Offset: 0xBDFEC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static CrashInfoViewController* New_ctor();
   }; // CrashInfoViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashInfoViewController*, "", "CrashInfoViewController");
 #pragma pack(pop)

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
       // Offset: 0x10
       ::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* keyframes;
       // public System.Void .ctor()
-      // Offset: 0xB85760
+      // Offset: 0xB971A4
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static SimpleVRNodeRecorder::SavedData* New_ctor();
@@ -117,25 +117,25 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Quaternion prevRot;
     // protected System.Void Awake()
-    // Offset: 0xB84B08
+    // Offset: 0xB9654C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB84F2C
+    // Offset: 0xB96970
     void OnDestroy();
     // private System.Void RecordNewKeyFrame()
-    // Offset: 0xB8507C
+    // Offset: 0xB96AC0
     void RecordNewKeyFrame();
     // protected System.Void Update()
-    // Offset: 0xB851E0
+    // Offset: 0xB96C24
     void Update();
     // private System.Void Save()
-    // Offset: 0xB84F3C
+    // Offset: 0xB96980
     void Save();
     // private System.Void Load()
-    // Offset: 0xB84C24
+    // Offset: 0xB96668
     void Load();
     // public System.Void .ctor()
-    // Offset: 0xB85768
+    // Offset: 0xB971AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -145,7 +145,7 @@ namespace GlobalNamespace {
     static SimpleVRNodeRecorder* New_ctor();
   }; // SimpleVRNodeRecorder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder*, "", "SimpleVRNodeRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData*, "", "SimpleVRNodeRecorder/SavedData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::RecordMode, "", "SimpleVRNodeRecorder/RecordMode");

@@ -32,22 +32,22 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<UnityEngine::Behaviour*>* components;
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xC9A344
+    // Offset: 0xCACD88
     void add_VisibilityChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xC9A3E8
+    // Offset: 0xCACE2C
     void remove_VisibilityChangedEvent(System::Action_1<bool>* value);
     // protected System.Void Awake()
-    // Offset: 0xC9A48C
+    // Offset: 0xCACED0
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0xC9A4FC
+    // Offset: 0xCACF40
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0xC9A5B4
+    // Offset: 0xCACFF8
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0xC9A66C
+    // Offset: 0xCAD0B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,6 +57,6 @@ namespace GlobalNamespace {
     static EnableOnVisible* New_ctor();
   }; // EnableOnVisible
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableOnVisible*, "", "EnableOnVisible");
 #pragma pack(pop)

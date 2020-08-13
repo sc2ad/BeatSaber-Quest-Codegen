@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
@@ -33,19 +31,19 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Single FltCompareResolution
     static void _set_FltCompareResolution(float value);
     // static private System.Int32 HashFloat(System.Single f)
-    // Offset: 0x18BBFF4
+    // Offset: 0x18CCA38
     static int HashFloat(float f);
     // static public System.Int32 GetHashCode(UnityEngine.Vector2 v)
-    // Offset: 0x18BC034
+    // Offset: 0x18CCA78
     static int GetHashCode(UnityEngine::Vector2 v);
     // static public System.Int32 GetHashCode(UnityEngine.Vector3 v)
-    // Offset: 0x18BC0B0
+    // Offset: 0x18CCAF4
     static int GetHashCode(UnityEngine::Vector3 v);
     // static public System.Int32 GetHashCode(UnityEngine.Vector4 v)
-    // Offset: 0x18BC160
+    // Offset: 0x18CCBA4
     static int GetHashCode(UnityEngine::Vector4 v);
   }; // UnityEngine.ProBuilder.VectorHash
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VectorHash*, "UnityEngine.ProBuilder", "VectorHash");
 #pragma pack(pop)

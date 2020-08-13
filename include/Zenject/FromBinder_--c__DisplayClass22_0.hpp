@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.FromBinder
 #include "Zenject/FromBinder.hpp"
 // Including type: Zenject.InjectSources
@@ -41,15 +39,15 @@ namespace Zenject {
     // Offset: 0x1C
     bool matchAll;
     // Zenject.IProvider <FromResolveInternal>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0xF20134
+    // Offset: 0xF30B78
     Zenject::IProvider* $FromResolveInternal$b__0(Zenject::DiContainer* container, System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0xF1CE84
+    // Offset: 0xF2D8C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass22_0* New_ctor();
   }; // Zenject.FromBinder/<>c__DisplayClass22_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass22_0*, "Zenject", "FromBinder/<>c__DisplayClass22_0");
 #pragma pack(pop)

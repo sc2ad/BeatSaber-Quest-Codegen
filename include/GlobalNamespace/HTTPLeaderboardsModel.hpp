@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OnlineServices.ILeaderboardsModel
 #include "OnlineServices/ILeaderboardsModel.hpp"
 // Completed includes
@@ -88,34 +86,34 @@ namespace GlobalNamespace {
     // Offset: 0x40
     OnlineServices::PlatformUserNamesLoader* platformUserNamesLoader;
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xB412E0
+    // Offset: 0xB3F2E0
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::CsString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xB41384
+    // Offset: 0xB3F384
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::CsString*>* value);
     // public System.Void .ctor(System.String hostName, PlatformUserModelSO platformUserModel, OnlineServices.PlatformUserNamesLoader platformUserNamesLoader)
-    // Offset: 0xB41428
+    // Offset: 0xB3F428
     static HTTPLeaderboardsModel* New_ctor(::CsString* hostName, GlobalNamespace::PlatformUserModelSO* platformUserModel, OnlineServices::PlatformUserNamesLoader* platformUserNamesLoader);
     // public System.Void LogoutAsync()
-    // Offset: 0xB41560
+    // Offset: 0xB3F560
     void LogoutAsync();
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xB41614
+    // Offset: 0xB3F614
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.String ILeaderboardsModel::GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
     ::CsString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xB418F4
+    // Offset: 0xB3F8F4
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> ILeaderboardsModel::GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelResultsData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xB41A58
+    // Offset: 0xB3FA58
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> ILeaderboardsModel::SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelResultsData, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(OnlineServices::LevelScoreResultsData levelResultsData, System::Threading::CancellationToken cancellationToken);
   }; // HTTPLeaderboardsModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel*, "", "HTTPLeaderboardsModel");
 #pragma pack(pop)

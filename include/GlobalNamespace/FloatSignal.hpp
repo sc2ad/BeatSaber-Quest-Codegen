@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class FloatSignal : public GlobalNamespace::GenericSignal_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC9C624
+    // Offset: 0xCAF068
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal`1::.ctor()
     // Base method: System.Void Signal::.ctor()
@@ -24,6 +24,6 @@ namespace GlobalNamespace {
     static FloatSignal* New_ctor();
   }; // FloatSignal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignal*, "", "FloatSignal");
 #pragma pack(pop)

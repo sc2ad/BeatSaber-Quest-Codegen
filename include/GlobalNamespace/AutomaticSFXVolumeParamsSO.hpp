@@ -38,31 +38,31 @@ namespace GlobalNamespace {
     // Offset: 0x34
     float volumeSmooth;
     // public System.Single get_musicVolumeMultiplier()
-    // Offset: 0x1970754
+    // Offset: 0xB88A50
     float get_musicVolumeMultiplier();
     // public System.Single get_threshold()
-    // Offset: 0x197075C
+    // Offset: 0xB88A58
     float get_threshold();
     // public System.Single get_impact()
-    // Offset: 0x1970764
+    // Offset: 0xB88A60
     float get_impact();
     // public System.Single get_attackTime()
-    // Offset: 0x197076C
+    // Offset: 0xB88A68
     float get_attackTime();
     // public System.Single get_releaseTime()
-    // Offset: 0x1970774
+    // Offset: 0xB88A70
     float get_releaseTime();
     // public System.Single get_minVolume()
-    // Offset: 0x197077C
+    // Offset: 0xB88A78
     float get_minVolume();
     // public System.Single get_maxVolume()
-    // Offset: 0x1970784
+    // Offset: 0xB88A80
     float get_maxVolume();
     // public System.Single get_volumeSmooth()
-    // Offset: 0x197078C
+    // Offset: 0xB88A88
     float get_volumeSmooth();
     // public System.Void .ctor()
-    // Offset: 0x1970794
+    // Offset: 0xB88A90
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -70,6 +70,6 @@ namespace GlobalNamespace {
     static AutomaticSFXVolumeParamsSO* New_ctor();
   }; // AutomaticSFXVolumeParamsSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolumeParamsSO*, "", "AutomaticSFXVolumeParamsSO");
 #pragma pack(pop)

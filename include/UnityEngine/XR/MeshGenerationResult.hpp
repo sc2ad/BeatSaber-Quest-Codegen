@@ -48,37 +48,37 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: MeshGenerationResult
     MeshGenerationResult(UnityEngine::XR::MeshId MeshId_ = {}, UnityEngine::Mesh* Mesh_ = {}, UnityEngine::MeshCollider* MeshCollider_ = {}, UnityEngine::XR::MeshGenerationStatus Status_ = {}, UnityEngine::XR::MeshVertexAttributes Attributes_ = {}) : MeshId{MeshId_}, Mesh{Mesh_}, MeshCollider{MeshCollider_}, Status{Status_}, Attributes{Attributes_} {}
     // public UnityEngine.XR.MeshId get_MeshId()
-    // Offset: 0xA5B454
+    // Offset: 0xA5B4D0
     UnityEngine::XR::MeshId get_MeshId();
     // public UnityEngine.Mesh get_Mesh()
-    // Offset: 0xA5B460
+    // Offset: 0xA5B4DC
     UnityEngine::Mesh* get_Mesh();
     // public UnityEngine.MeshCollider get_MeshCollider()
-    // Offset: 0xA5B468
+    // Offset: 0xA5B4E4
     UnityEngine::MeshCollider* get_MeshCollider();
     // public UnityEngine.XR.MeshGenerationStatus get_Status()
-    // Offset: 0xA5B470
+    // Offset: 0xA5B4EC
     UnityEngine::XR::MeshGenerationStatus get_Status();
     // public UnityEngine.XR.MeshVertexAttributes get_Attributes()
-    // Offset: 0xA5B478
+    // Offset: 0xA5B4F4
     UnityEngine::XR::MeshVertexAttributes get_Attributes();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5B480
+    // Offset: 0xA5B4FC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshGenerationResult other)
-    // Offset: 0xA5B488
+    // Offset: 0xA5B504
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.MeshGenerationResult other)
     bool Equals(UnityEngine::XR::MeshGenerationResult other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5B4C0
+    // Offset: 0xA5B53C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.MeshGenerationResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
 #pragma pack(pop)

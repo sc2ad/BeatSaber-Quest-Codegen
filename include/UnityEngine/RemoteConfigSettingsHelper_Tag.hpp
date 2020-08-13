@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.RemoteConfigSettingsHelper
 #include "UnityEngine/RemoteConfigSettingsHelper.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -88,6 +88,6 @@ namespace UnityEngine {
     Tag(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RemoteConfigSettingsHelper/Tag
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettingsHelper::Tag, "UnityEngine", "RemoteConfigSettingsHelper/Tag");
 #pragma pack(pop)

@@ -41,19 +41,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ILevelEndActions* levelEndActions;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xC40348
+    // Offset: 0xC51D8C
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC403F0
+    // Offset: 0xC51E34
     void OnDestroy();
     // private System.Void HandleLevelFinishedEvent()
-    // Offset: 0xC404E8
+    // Offset: 0xC51F2C
     void HandleLevelFinishedEvent();
     // private System.Void LogScore()
-    // Offset: 0xC404EC
+    // Offset: 0xC51F30
     void LogScore();
     // public System.Void .ctor()
-    // Offset: 0xC405EC
+    // Offset: 0xC52030
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     static VRsenalScoreLogger* New_ctor();
   }; // VRsenalScoreLogger
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalScoreLogger*, "", "VRsenalScoreLogger");
 #pragma pack(pop)

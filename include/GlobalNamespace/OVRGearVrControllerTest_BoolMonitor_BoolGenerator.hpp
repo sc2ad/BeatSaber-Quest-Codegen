@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: OVRGearVrControllerTest/BoolMonitor
 #include "GlobalNamespace/OVRGearVrControllerTest_BoolMonitor.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace GlobalNamespace {
   class OVRGearVrControllerTest::BoolMonitor::BoolGenerator : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xE50944
+    // Offset: 0xE63388
     static OVRGearVrControllerTest::BoolMonitor::BoolGenerator* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0xE5066C
+    // Offset: 0xE630B0
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xE50958
+    // Offset: 0xE6339C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0xE50984
+    // Offset: 0xE633C8
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVRGearVrControllerTest/BoolMonitor/BoolGenerator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGearVrControllerTest::BoolMonitor::BoolGenerator*, "", "OVRGearVrControllerTest/BoolMonitor/BoolGenerator");
 #pragma pack(pop)

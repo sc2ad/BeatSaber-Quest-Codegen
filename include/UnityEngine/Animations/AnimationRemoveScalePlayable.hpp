@@ -37,35 +37,35 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationRemoveScalePlayable
     AnimationRemoveScalePlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationRemoveScalePlayable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x1925344
+    // Offset: 0x1936D88
     static UnityEngine::Animations::AnimationRemoveScalePlayable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x19253EC
+    // Offset: 0x1936E30
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5A0C0
+    // Offset: 0xA5A13C
     static AnimationRemoveScalePlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x192559C
+    // Offset: 0x1936FE0
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::PlayableHandle& handle);
     // static private System.Void .cctor()
-    // Offset: 0x1925788
+    // Offset: 0x19371CC
     static void _cctor();
     // static private System.Boolean CreateHandleInternal_Injected(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1925738
+    // Offset: 0x193717C
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA5A0C8
+    // Offset: 0xA5A144
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationRemoveScalePlayable other)
-    // Offset: 0xA5A0D4
+    // Offset: 0xA5A150
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimationRemoveScalePlayable other)
     bool Equals(UnityEngine::Animations::AnimationRemoveScalePlayable other);
   }; // UnityEngine.Animations.AnimationRemoveScalePlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationRemoveScalePlayable, "UnityEngine.Animations", "AnimationRemoveScalePlayable");
 #pragma pack(pop)

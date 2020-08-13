@@ -81,6 +81,6 @@ namespace OVR::OpenVR {
     IVRSettings(OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum_ = {}, OVR::OpenVR::IVRSettings::_Sync* Sync_ = {}, OVR::OpenVR::IVRSettings::_SetBool* SetBool_ = {}, OVR::OpenVR::IVRSettings::_SetInt32* SetInt32_ = {}, OVR::OpenVR::IVRSettings::_SetFloat* SetFloat_ = {}, OVR::OpenVR::IVRSettings::_SetString* SetString_ = {}, OVR::OpenVR::IVRSettings::_GetBool* GetBool_ = {}, OVR::OpenVR::IVRSettings::_GetInt32* GetInt32_ = {}, OVR::OpenVR::IVRSettings::_GetFloat* GetFloat_ = {}, OVR::OpenVR::IVRSettings::_GetString* GetString_ = {}, OVR::OpenVR::IVRSettings::_RemoveSection* RemoveSection_ = {}, OVR::OpenVR::IVRSettings::_RemoveKeyInSection* RemoveKeyInSection_ = {}) : GetSettingsErrorNameFromEnum{GetSettingsErrorNameFromEnum_}, Sync{Sync_}, SetBool{SetBool_}, SetInt32{SetInt32_}, SetFloat{SetFloat_}, SetString{SetString_}, GetBool{GetBool_}, GetInt32{GetInt32_}, GetFloat{GetFloat_}, GetString{GetString_}, RemoveSection{RemoveSection_}, RemoveKeyInSection{RemoveKeyInSection_} {}
   }; // OVR.OpenVR.IVRSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSettings, "OVR.OpenVR", "IVRSettings");
 #pragma pack(pop)

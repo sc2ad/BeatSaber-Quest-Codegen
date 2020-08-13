@@ -62,23 +62,23 @@ namespace GlobalNamespace {
     // Offset: 0x88
     GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback;
     // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
-    // Offset: 0xBD416C
+    // Offset: 0xBE6BB0
     void Init(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);
     // private System.Void OkButtonPressed()
-    // Offset: 0xBD44A4
+    // Offset: 0xBE6EE8
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBD4174
+    // Offset: 0xBE6BB8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xBD43F0
+    // Offset: 0xBE6E34
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0xBD4968
+    // Offset: 0xBE73AC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -89,6 +89,6 @@ namespace GlobalNamespace {
     static EnterPlayerGuestNameViewController* New_ctor();
   }; // EnterPlayerGuestNameViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController*, "", "EnterPlayerGuestNameViewController");
 #pragma pack(pop)

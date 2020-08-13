@@ -23,6 +23,6 @@ namespace OVR::OpenVR {
     VREvent_Chaperone_t(uint64_t m_nPreviousUniverse_ = {}, uint64_t m_nCurrentUniverse_ = {}) : m_nPreviousUniverse{m_nPreviousUniverse_}, m_nCurrentUniverse{m_nCurrentUniverse_} {}
   }; // OVR.OpenVR.VREvent_Chaperone_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Chaperone_t, "OVR.OpenVR", "VREvent_Chaperone_t");
 #pragma pack(pop)

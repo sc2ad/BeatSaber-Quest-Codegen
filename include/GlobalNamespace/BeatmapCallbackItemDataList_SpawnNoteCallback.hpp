@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: BeatmapCallbackItemDataList
 #include "GlobalNamespace/BeatmapCallbackItemDataList.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -31,19 +31,19 @@ namespace GlobalNamespace {
   class BeatmapCallbackItemDataList::SpawnNoteCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19765C0
+    // Offset: 0xB8E8BC
     static BeatmapCallbackItemDataList::SpawnNoteCallback* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(NoteData noteData, System.Single cutDirectionAngleOffset)
-    // Offset: 0x1975A28
+    // Offset: 0xB8DD24
     void Invoke(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
     // public System.IAsyncResult BeginInvoke(NoteData noteData, System.Single cutDirectionAngleOffset, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19765D4
+    // Offset: 0xB8E8D0
     System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1976670
+    // Offset: 0xB8E96C
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/SpawnNoteCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::SpawnNoteCallback*, "", "BeatmapCallbackItemDataList/SpawnNoteCallback");
 #pragma pack(pop)

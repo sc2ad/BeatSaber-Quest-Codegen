@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -46,10 +44,10 @@ namespace System::Globalization {
     // Set static field: static public readonly System.Char[] range_a723_a78c
     static void _set_range_a723_a78c(::Array<::Il2CppChar>* value);
     // static private System.Void .cctor()
-    // Offset: 0x111180C
+    // Offset: 0x1122250
     static void _cctor();
   }; // System.Globalization.TextInfoToUpperData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfoToUpperData*, "System.Globalization", "TextInfoToUpperData");
 #pragma pack(pop)

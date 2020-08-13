@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.HitReactionVRIK
 #include "RootMotion/FinalIK/HitReactionVRIK.hpp"
 // Completed includes
@@ -60,34 +58,34 @@ namespace RootMotion::FinalIK {
     // Offset: 0x4C
     float lastTime;
     // protected System.Single get_crossFader()
-    // Offset: 0x1364E80
+    // Offset: 0x13778C4
     float get_crossFader();
     // private System.Void set_crossFader(System.Single value)
-    // Offset: 0x1364E88
+    // Offset: 0x13778CC
     void set_crossFader(float value);
     // protected System.Single get_timer()
-    // Offset: 0x1364E90
+    // Offset: 0x13778D4
     float get_timer();
     // private System.Void set_timer(System.Single value)
-    // Offset: 0x1364E98
+    // Offset: 0x13778DC
     void set_timer(float value);
     // protected UnityEngine.Vector3 get_force()
-    // Offset: 0x1364EA0
+    // Offset: 0x13778E4
     UnityEngine::Vector3 get_force();
     // private System.Void set_force(UnityEngine.Vector3 value)
-    // Offset: 0x1364EAC
+    // Offset: 0x13778F0
     void set_force(UnityEngine::Vector3 value);
     // protected UnityEngine.Vector3 get_point()
-    // Offset: 0x1364EB8
+    // Offset: 0x13778FC
     UnityEngine::Vector3 get_point();
     // private System.Void set_point(UnityEngine.Vector3 value)
-    // Offset: 0x1364EC4
+    // Offset: 0x1377908
     void set_point(UnityEngine::Vector3 value);
     // public System.Void Hit(UnityEngine.Vector3 force, UnityEngine.AnimationCurve[] curves, UnityEngine.Vector3 point)
-    // Offset: 0x1364D38
+    // Offset: 0x137777C
     void Hit(UnityEngine::Vector3 force, ::Array<UnityEngine::AnimationCurve*>* curves, UnityEngine::Vector3 point);
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
-    // Offset: 0x136499C
+    // Offset: 0x13773E0
     void Apply(RootMotion::FinalIK::VRIK* ik, ::Array<UnityEngine::AnimationCurve*>* curves, float weight);
     // protected System.Single GetLength(UnityEngine.AnimationCurve[] curves)
     // Offset: 0xFFFFFFFF
@@ -99,12 +97,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OnApply(RootMotion::FinalIK::VRIK* ik, ::Array<UnityEngine::AnimationCurve*>* curves, float weight);
     // protected System.Void .ctor()
-    // Offset: 0x1364ED0
+    // Offset: 0x1377914
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HitReactionVRIK::Offset* New_ctor();
   }; // RootMotion.FinalIK.HitReactionVRIK/Offset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::Offset*, "RootMotion.FinalIK", "HitReactionVRIK/Offset");
 #pragma pack(pop)

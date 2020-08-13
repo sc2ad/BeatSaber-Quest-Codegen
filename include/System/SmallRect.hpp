@@ -29,6 +29,6 @@ namespace System {
     SmallRect(int16_t Left_ = {}, int16_t Top_ = {}, int16_t Right_ = {}, int16_t Bottom_ = {}) : Left{Left_}, Top{Top_}, Right{Right_}, Bottom{Bottom_} {}
   }; // System.SmallRect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::SmallRect, "System", "SmallRect");
 #pragma pack(pop)

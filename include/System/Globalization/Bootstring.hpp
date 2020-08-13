@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -38,25 +36,25 @@ namespace System::Globalization {
     // Offset: 0x2C
     int initial_n;
     // public System.Void .ctor(System.Char delimiter, System.Int32 baseNum, System.Int32 tmin, System.Int32 tmax, System.Int32 skew, System.Int32 damp, System.Int32 initialBias, System.Int32 initialN)
-    // Offset: 0xD92208
+    // Offset: 0xDA5C4C
     static Bootstring* New_ctor(::Il2CppChar delimiter, int baseNum, int tmin, int tmax, int skew, int damp, int initialBias, int initialN);
     // public System.String Encode(System.String s, System.Int32 offset)
-    // Offset: 0xD92280
+    // Offset: 0xDA5CC4
     ::CsString* Encode(::CsString* s, int offset);
     // private System.Char EncodeDigit(System.Int32 d)
-    // Offset: 0xD925E0
+    // Offset: 0xDA6024
     ::Il2CppChar EncodeDigit(int d);
     // private System.Int32 DecodeDigit(System.Char c)
-    // Offset: 0xD92670
+    // Offset: 0xDA60B4
     int DecodeDigit(::Il2CppChar c);
     // private System.Int32 Adapt(System.Int32 delta, System.Int32 numPoints, System.Boolean firstTime)
-    // Offset: 0xD925F8
+    // Offset: 0xDA603C
     int Adapt(int delta, int numPoints, bool firstTime);
     // public System.String Decode(System.String s, System.Int32 offset)
-    // Offset: 0xD926B0
+    // Offset: 0xDA60F4
     ::CsString* Decode(::CsString* s, int offset);
   }; // System.Globalization.Bootstring
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Bootstring*, "System.Globalization", "Bootstring");
 #pragma pack(pop)

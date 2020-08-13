@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.InteropServices._Exception
@@ -110,89 +108,89 @@ namespace System {
     // Set static field: static private System.Int32 _COMPlusExceptionCode
     static void _set__COMPlusExceptionCode(int value);
     // private System.Void Init()
-    // Offset: 0xD90F10
+    // Offset: 0xDA4954
     void Init();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xD7EEFC
+    // Offset: 0xD92940
     static Exception* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0xD7EFB4
+    // Offset: 0xD929F8
     static Exception* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD7F098
+    // Offset: 0xD92ADC
     static Exception* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.String get_Message()
-    // Offset: 0xD90FDC
+    // Offset: 0xDA4A20
     ::CsString* get_Message();
     // public System.Collections.IDictionary get_Data()
-    // Offset: 0xD91128
+    // Offset: 0xDA4B6C
     System::Collections::IDictionary* get_Data();
     // static private System.Boolean IsImmutableAgileException(System.Exception e)
-    // Offset: 0xD911C0
+    // Offset: 0xDA4C04
     static bool IsImmutableAgileException(System::Exception* e);
     // private System.String GetClassName()
-    // Offset: 0xD910D0
+    // Offset: 0xDA4B14
     ::CsString* GetClassName();
     // public System.Exception get_InnerException()
-    // Offset: 0xD911D0
+    // Offset: 0xDA4C14
     System::Exception* get_InnerException();
     // public System.String get_StackTrace()
-    // Offset: 0xD911D8
+    // Offset: 0xDA4C1C
     ::CsString* get_StackTrace();
     // private System.String GetStackTrace(System.Boolean needFileInfo)
-    // Offset: 0xD911E0
+    // Offset: 0xDA4C24
     ::CsString* GetStackTrace(bool needFileInfo);
     // System.Void SetErrorCode(System.Int32 hr)
-    // Offset: 0xD89EA0
+    // Offset: 0xD9D8E4
     void SetErrorCode(int hr);
     // public System.String get_Source()
-    // Offset: 0xD91240
+    // Offset: 0xDA4C84
     ::CsString* get_Source();
     // private System.String ToString(System.Boolean needFileLineInfo, System.Boolean needMessage)
-    // Offset: 0xD91374
+    // Offset: 0xDA4DB8
     ::CsString* ToString(bool needFileLineInfo, bool needMessage);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD91A0C
+    // Offset: 0xDA5450
     void OnDeserialized(System::Runtime::Serialization::StreamingContext context);
     // System.Void InternalPreserveStackTrace()
-    // Offset: 0xD91AA4
+    // Offset: 0xDA54E8
     void InternalPreserveStackTrace();
     // private System.String StripFileInfo(System.String stackTrace, System.Boolean isRemoteStackTrace)
-    // Offset: 0xD91238
+    // Offset: 0xDA4C7C
     ::CsString* StripFileInfo(::CsString* stackTrace, bool isRemoteStackTrace);
     // System.Void RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo exceptionDispatchInfo)
-    // Offset: 0xD91B20
+    // Offset: 0xDA5564
     void RestoreExceptionDispatchInfo(System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionDispatchInfo);
     // public System.Int32 get_HResult()
-    // Offset: 0xD91BD4
+    // Offset: 0xDA5618
     int get_HResult();
     // protected System.Void set_HResult(System.Int32 value)
-    // Offset: 0xD91BDC
+    // Offset: 0xDA5620
     void set_HResult(int value);
     // static System.String GetMessageFromNativeResources(System.Exception/ExceptionMessageKind kind)
-    // Offset: 0xD91BE4
+    // Offset: 0xDA5628
     static ::CsString* GetMessageFromNativeResources(System::Exception::ExceptionMessageKind kind);
     // System.Exception FixRemotingException()
-    // Offset: 0xD91C40
+    // Offset: 0xDA5684
     System::Exception* FixRemotingException();
     // static System.Void ReportUnhandledException(System.Exception exception)
-    // Offset: 0xD91D3C
+    // Offset: 0xDA5780
     static void ReportUnhandledException(System::Exception* exception);
     // static private System.Void .cctor()
-    // Offset: 0xD91D40
+    // Offset: 0xDA5784
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xD90FB4
+    // Offset: 0xDA49F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Exception* New_ctor();
     // public override System.String ToString()
-    // Offset: 0xD91368
+    // Offset: 0xDA4DAC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD91634
+    // Offset: 0xDA5078
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -200,12 +198,12 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Type GetType()
-    // Offset: 0xD911C8
+    // Offset: 0xDA4C0C
     // Implemented from: System.Object
     // Base method: System.Type Object::GetType()
     System::Type* GetType();
   }; // System.Exception
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");
 #pragma pack(pop)

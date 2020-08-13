@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Uri
 #include "System/Uri.hpp"
 // Completed includes
@@ -34,12 +32,12 @@ namespace System {
     // Offset: 0x38
     ::CsString* RemoteUrl;
     // public System.Void .ctor()
-    // Offset: 0x14EC524
+    // Offset: 0x14FBF68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Uri::MoreInfo* New_ctor();
   }; // System.Uri/MoreInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::MoreInfo*, "System", "Uri/MoreInfo");
 #pragma pack(pop)

@@ -21,6 +21,6 @@ namespace UnityEngine::Animations {
     AnimationHumanStream(System::IntPtr stream_ = {}) : stream{stream_} {}
   }; // UnityEngine.Animations.AnimationHumanStream
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
 #pragma pack(pop)

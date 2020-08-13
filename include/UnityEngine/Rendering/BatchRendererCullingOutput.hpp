@@ -51,6 +51,6 @@ namespace UnityEngine::Rendering {
     BatchRendererCullingOutput(Unity::Jobs::JobHandle cullingJobsFence_ = {}, UnityEngine::Plane* cullingPlanes_ = {}, UnityEngine::Rendering::BatchVisibility* batchVisibility_ = {}, int* visibleIndices_ = {}, int cullingPlanesCount_ = {}, int batchVisibilityCount_ = {}, int visibleIndicesCount_ = {}) : cullingJobsFence{cullingJobsFence_}, cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, cullingPlanesCount{cullingPlanesCount_}, batchVisibilityCount{batchVisibilityCount_}, visibleIndicesCount{visibleIndicesCount_} {}
   }; // UnityEngine.Rendering.BatchRendererCullingOutput
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");
 #pragma pack(pop)

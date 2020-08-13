@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: RenderModel_TextureMap_t_Packed
     RenderModel_TextureMap_t_Packed(uint16_t unWidth_ = {}, uint16_t unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
     // public System.Void .ctor(OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xA28F58
+    // Offset: 0xA28FD4
     static RenderModel_TextureMap_t_Packed* New_ctor(OVR::OpenVR::RenderModel_TextureMap_t unpacked);
     // public System.Void Unpack(OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xA28F6C
+    // Offset: 0xA28FE8
     void Unpack(OVR::OpenVR::RenderModel_TextureMap_t& unpacked);
   }; // OVR.OpenVR.RenderModel_TextureMap_t_Packed
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");
 #pragma pack(pop)

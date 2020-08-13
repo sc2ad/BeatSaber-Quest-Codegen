@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Material* material;
     // protected System.Void Start()
-    // Offset: 0xBFA140
+    // Offset: 0xC0BB84
     void Start();
     // protected System.Void Update()
-    // Offset: 0xBFA1A8
+    // Offset: 0xC0BBEC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBFA2D8
+    // Offset: 0xC0BD1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -62,6 +62,6 @@ namespace GlobalNamespace {
     static MoveBackWall* New_ctor();
   }; // MoveBackWall
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MoveBackWall*, "", "MoveBackWall");
 #pragma pack(pop)

@@ -25,31 +25,31 @@ namespace UnityEngine::Bindings {
     // Offset: 0x20
     UnityEngine::Bindings::CodegenOptions CodegenOptions;
     // public System.Void set_Header(System.String value)
-    // Offset: 0x1959238
+    // Offset: 0x196AC7C
     void set_Header(::CsString* value);
     // public System.Void set_IntermediateScriptingStructName(System.String value)
-    // Offset: 0x1959240
+    // Offset: 0x196AC84
     void set_IntermediateScriptingStructName(::CsString* value);
     // public System.Void set_CodegenOptions(UnityEngine.Bindings.CodegenOptions value)
-    // Offset: 0x1959248
+    // Offset: 0x196AC8C
     void set_CodegenOptions(UnityEngine::Bindings::CodegenOptions value);
     // public System.Void .ctor(UnityEngine.Bindings.CodegenOptions codegenOptions)
-    // Offset: 0x1959278
+    // Offset: 0x196ACBC
     static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions);
     // public System.Void .ctor(System.String header)
-    // Offset: 0x19592A4
+    // Offset: 0x196ACE8
     static NativeTypeAttribute* New_ctor(::CsString* header);
     // public System.Void .ctor(UnityEngine.Bindings.CodegenOptions codegenOptions, System.String intermediateStructName)
-    // Offset: 0x19593A0
+    // Offset: 0x196ADE4
     static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::CsString* intermediateStructName);
     // public System.Void .ctor()
-    // Offset: 0x1959250
+    // Offset: 0x196AC94
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static NativeTypeAttribute* New_ctor();
   }; // UnityEngine.Bindings.NativeTypeAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeTypeAttribute*, "UnityEngine.Bindings", "NativeTypeAttribute");
 #pragma pack(pop)

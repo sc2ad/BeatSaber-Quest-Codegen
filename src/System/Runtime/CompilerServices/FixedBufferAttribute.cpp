@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.CompilerServices.FixedBufferAttribute
 #include "System/Runtime/CompilerServices/FixedBufferAttribute.hpp"
 // Including type: System.Type

@@ -43,44 +43,44 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xFFFFFFFF
     UnityEngine::Camera* get_eventCamera();
     // public System.Int32 get_priority()
-    // Offset: 0xDE3C64
+    // Offset: 0xDF66A8
     int get_priority();
     // public System.Int32 get_sortOrderPriority()
-    // Offset: 0xDE3C6C
+    // Offset: 0xDF66B0
     int get_sortOrderPriority();
     // public System.Int32 get_renderOrderPriority()
-    // Offset: 0xDE3C74
+    // Offset: 0xDF66B8
     int get_renderOrderPriority();
     // public UnityEngine.EventSystems.BaseRaycaster get_rootRaycaster()
-    // Offset: 0xDE3C7C
+    // Offset: 0xDF66C0
     UnityEngine::EventSystems::BaseRaycaster* get_rootRaycaster();
     // public override System.String ToString()
-    // Offset: 0xDE3D54
+    // Offset: 0xDF6798
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // protected override System.Void OnEnable()
-    // Offset: 0xDE404C
+    // Offset: 0xDF6A90
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xDE4180
+    // Offset: 0xDF6BC4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnCanvasHierarchyChanged()
-    // Offset: 0xDE42B4
+    // Offset: 0xDF6CF8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0xDE42C4
+    // Offset: 0xDF6D08
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnTransformParentChanged()
     void OnTransformParentChanged();
     // protected System.Void .ctor()
-    // Offset: 0xDE42D4
+    // Offset: 0xDF6D18
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -91,6 +91,6 @@ namespace UnityEngine::EventSystems {
     static BaseRaycaster* New_ctor();
   }; // UnityEngine.EventSystems.BaseRaycaster
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseRaycaster*, "UnityEngine.EventSystems", "BaseRaycaster");
 #pragma pack(pop)

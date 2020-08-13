@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.YieldInstruction
 #include "UnityEngine/YieldInstruction.hpp"
 // Including type: System.IntPtr
@@ -18,21 +19,21 @@ namespace UnityEngine {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // static private System.Void ReleaseCoroutine(System.IntPtr ptr)
-    // Offset: 0x12EFDA8
+    // Offset: 0x13027EC
     static void ReleaseCoroutine(System::IntPtr ptr);
     // private System.Void .ctor()
-    // Offset: 0x12EFD04
+    // Offset: 0x1302748
     // Implemented from: UnityEngine.YieldInstruction
     // Base method: System.Void YieldInstruction::.ctor()
     // Base method: System.Void Object::.ctor()
     static Coroutine* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x12EFD0C
+    // Offset: 0x1302750
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.Coroutine
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Coroutine*, "UnityEngine", "Coroutine");
 #pragma pack(pop)

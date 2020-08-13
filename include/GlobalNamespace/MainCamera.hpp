@@ -31,31 +31,31 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Transform* transform;
     // public UnityEngine.Camera get_camera()
-    // Offset: 0xBE8260
+    // Offset: 0xBF9CA4
     UnityEngine::Camera* get_camera();
     // public System.Void set_enableCamera(System.Boolean value)
-    // Offset: 0xBE8268
+    // Offset: 0xBF9CAC
     void set_enableCamera(bool value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0xBE829C
+    // Offset: 0xBF9CE0
     UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0xBE82B8
+    // Offset: 0xBF9CFC
     UnityEngine::Quaternion get_rotation();
     // protected System.Void Awake()
-    // Offset: 0xBE82D4
+    // Offset: 0xBF9D18
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xBE8350
+    // Offset: 0xBF9D94
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0xBE8354
+    // Offset: 0xBF9D98
     void Update();
     // protected System.Void OnDisable()
-    // Offset: 0xBE8358
+    // Offset: 0xBF9D9C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xBE835C
+    // Offset: 0xBF9DA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -65,6 +65,6 @@ namespace GlobalNamespace {
     static MainCamera* New_ctor();
   }; // MainCamera
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCamera*, "", "MainCamera");
 #pragma pack(pop)

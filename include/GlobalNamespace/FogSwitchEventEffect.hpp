@@ -49,22 +49,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kTransitionDuration
     static void _set_kTransitionDuration(float value);
     // protected System.Void Start()
-    // Offset: 0xBDBE84
+    // Offset: 0xBEE8C8
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xBDBF18
+    // Offset: 0xBEE95C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBDBFF0
+    // Offset: 0xBEEA34
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void AnimateToFog(System.Single duration, System.Single value)
-    // Offset: 0xBDC044
+    // Offset: 0xBEEA88
     void AnimateToFog(float duration, float value);
     // private System.Collections.IEnumerator AnimateToFogCoroutine(System.Single duration, System.Single value)
-    // Offset: 0xBDC094
+    // Offset: 0xBEEAD8
     System::Collections::IEnumerator* AnimateToFogCoroutine(float duration, float value);
     // public System.Void .ctor()
-    // Offset: 0xBDC150
+    // Offset: 0xBEEB94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,6 +74,6 @@ namespace GlobalNamespace {
     static FogSwitchEventEffect* New_ctor();
   }; // FogSwitchEventEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FogSwitchEventEffect*, "", "FogSwitchEventEffect");
 #pragma pack(pop)

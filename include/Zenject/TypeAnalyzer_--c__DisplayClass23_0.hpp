@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.TypeAnalyzer
 #include "Zenject/TypeAnalyzer.hpp"
 // Including type: Zenject.InjectTypeInfo
@@ -30,18 +28,18 @@ namespace Zenject {
     // Offset: 0x10
     System::Type* type;
     // Zenject.InjectTypeInfo/InjectMemberInfo <CreateTypeInfoFromReflection>b__0(Zenject.Internal.ReflectionTypeInfo/InjectFieldInfo x)
-    // Offset: 0x1928424
+    // Offset: 0x193AE68
     Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__0(Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* x);
     // Zenject.InjectTypeInfo/InjectMemberInfo <CreateTypeInfoFromReflection>b__1(Zenject.Internal.ReflectionTypeInfo/InjectPropertyInfo x)
-    // Offset: 0x1928430
+    // Offset: 0x193AE74
     Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__1(Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x192836C
+    // Offset: 0x193ADB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeAnalyzer::$$c__DisplayClass23_0* New_ctor();
   }; // Zenject.TypeAnalyzer/<>c__DisplayClass23_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeAnalyzer::$$c__DisplayClass23_0*, "Zenject", "TypeAnalyzer/<>c__DisplayClass23_0");
 #pragma pack(pop)

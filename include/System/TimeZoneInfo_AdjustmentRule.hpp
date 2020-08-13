@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.TimeZoneInfo
 #include "System/TimeZoneInfo.hpp"
 // Including type: System.IEquatable`1
@@ -47,59 +45,59 @@ namespace System {
     // Offset: 0x58
     System::TimeSpan m_baseUtcOffsetDelta;
     // public System.DateTime get_DateStart()
-    // Offset: 0x177A6A8
+    // Offset: 0x178B0EC
     System::DateTime get_DateStart();
     // public System.DateTime get_DateEnd()
-    // Offset: 0x177A6B0
+    // Offset: 0x178B0F4
     System::DateTime get_DateEnd();
     // public System.TimeSpan get_DaylightDelta()
-    // Offset: 0x177A6B8
+    // Offset: 0x178B0FC
     System::TimeSpan get_DaylightDelta();
     // public System.TimeZoneInfo/TransitionTime get_DaylightTransitionStart()
-    // Offset: 0x177A6C0
+    // Offset: 0x178B104
     System::TimeZoneInfo::TransitionTime get_DaylightTransitionStart();
     // public System.TimeZoneInfo/TransitionTime get_DaylightTransitionEnd()
-    // Offset: 0x177A6D4
+    // Offset: 0x178B118
     System::TimeZoneInfo::TransitionTime get_DaylightTransitionEnd();
     // static public System.TimeZoneInfo/AdjustmentRule CreateAdjustmentRule(System.DateTime dateStart, System.DateTime dateEnd, System.TimeSpan daylightDelta, System.TimeZoneInfo/TransitionTime daylightTransitionStart, System.TimeZoneInfo/TransitionTime daylightTransitionEnd)
-    // Offset: 0x177A978
+    // Offset: 0x178B3BC
     static System::TimeZoneInfo::AdjustmentRule* CreateAdjustmentRule(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::TimeZoneInfo::TransitionTime daylightTransitionStart, System::TimeZoneInfo::TransitionTime daylightTransitionEnd);
     // static System.TimeZoneInfo/AdjustmentRule CreateAdjustmentRule(System.DateTime dateStart, System.DateTime dateEnd, System.TimeSpan daylightDelta, System.TimeZoneInfo/TransitionTime daylightTransitionStart, System.TimeZoneInfo/TransitionTime daylightTransitionEnd, System.TimeSpan baseUtcOffsetDelta)
-    // Offset: 0x177ADF0
+    // Offset: 0x178B834
     static System::TimeZoneInfo::AdjustmentRule* CreateAdjustmentRule(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::TimeZoneInfo::TransitionTime daylightTransitionStart, System::TimeZoneInfo::TransitionTime daylightTransitionEnd, System::TimeSpan baseUtcOffsetDelta);
     // static private System.Void ValidateAdjustmentRule(System.DateTime dateStart, System.DateTime dateEnd, System.TimeSpan daylightDelta, System.TimeZoneInfo/TransitionTime daylightTransitionStart, System.TimeZoneInfo/TransitionTime daylightTransitionEnd)
-    // Offset: 0x177AA98
+    // Offset: 0x178B4DC
     static void ValidateAdjustmentRule(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::TimeZoneInfo::TransitionTime daylightTransitionStart, System::TimeZoneInfo::TransitionTime daylightTransitionEnd);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x177B13C
+    // Offset: 0x178BB80
     static TimeZoneInfo::AdjustmentRule* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Boolean Equals(System.TimeZoneInfo/AdjustmentRule other)
-    // Offset: 0x177A6E8
+    // Offset: 0x178B12C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(System.TimeZoneInfo/AdjustmentRule other)
     bool Equals(System::TimeZoneInfo::AdjustmentRule* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x177A964
+    // Offset: 0x178B3A8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // private System.Void .ctor()
-    // Offset: 0x177A970
+    // Offset: 0x178B3B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimeZoneInfo::AdjustmentRule* New_ctor();
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0x177AE4C
+    // Offset: 0x178B890
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::CsObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x177AF90
+    // Offset: 0x178B9D4
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.TimeZoneInfo/AdjustmentRule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::AdjustmentRule*, "System", "TimeZoneInfo/AdjustmentRule");
 #pragma pack(pop)

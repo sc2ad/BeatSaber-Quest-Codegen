@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithCalApplicationProposed : public Oculus::Platform::Message_1<Oculus::Platform::Models::CalApplicationProposed*> {
     public:
     // protected Oculus.Platform.Models.CalApplicationProposed GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8B798
+    // Offset: 0xE9E1DC
     Oculus::Platform::Models::CalApplicationProposed* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88260
+    // Offset: 0xE9ACA4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithCalApplicationProposed* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.CalApplicationProposed GetCalApplicationProposed()
-    // Offset: 0xE8B754
+    // Offset: 0xE9E198
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CalApplicationProposed Message::GetCalApplicationProposed()
     Oculus::Platform::Models::CalApplicationProposed* GetCalApplicationProposed();
   }; // Oculus.Platform.MessageWithCalApplicationProposed
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCalApplicationProposed*, "Oculus.Platform", "MessageWithCalApplicationProposed");
 #pragma pack(pop)

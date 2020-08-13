@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.ProviderData
 #include "System/Runtime/Remoting/ProviderData.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace System::Runtime::Remoting {
   class FormatterData : public System::Runtime::Remoting::ProviderData {
     public:
     // public System.Void .ctor()
-    // Offset: 0x10482A0
+    // Offset: 0x1057CE4
     // Implemented from: System.Runtime.Remoting.ProviderData
     // Base method: System.Void ProviderData::.ctor()
     // Base method: System.Void Object::.ctor()
     static FormatterData* New_ctor();
   }; // System.Runtime.Remoting.FormatterData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::FormatterData*, "System.Runtime.Remoting", "FormatterData");
 #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
@@ -16,10 +17,10 @@ namespace UnityEngine {
     // Offset: 0x10
     float height;
     // public System.Void .ctor(System.Single height)
-    // Offset: 0x13776C0
+    // Offset: 0x138A104
     static SpaceAttribute* New_ctor(float height);
     // public System.Void .ctor()
-    // Offset: 0x1377694
+    // Offset: 0x138A0D8
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -27,6 +28,6 @@ namespace UnityEngine {
     static SpaceAttribute* New_ctor();
   }; // UnityEngine.SpaceAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpaceAttribute*, "UnityEngine", "SpaceAttribute");
 #pragma pack(pop)

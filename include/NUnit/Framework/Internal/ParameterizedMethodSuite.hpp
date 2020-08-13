@@ -24,17 +24,17 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x89
     bool isTheory;
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x18D59D8
+    // Offset: 0x18E641C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.IMethodInfo method)
     static ParameterizedMethodSuite* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method);
     // public override System.String get_TestType()
-    // Offset: 0x18D5C6C
+    // Offset: 0x18E66B0
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::CsString* get_TestType();
   }; // NUnit.Framework.Internal.ParameterizedMethodSuite
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterizedMethodSuite*, "NUnit.Framework.Internal", "ParameterizedMethodSuite");
 #pragma pack(pop)

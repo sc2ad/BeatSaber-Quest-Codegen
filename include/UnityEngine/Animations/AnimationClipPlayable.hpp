@@ -38,56 +38,56 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationClipPlayable
     AnimationClipPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationClipPlayable Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip)
-    // Offset: 0x1922EA4
+    // Offset: 0x19348E8
     static UnityEngine::Animations::AnimationClipPlayable Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AnimationClip* clip);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip)
-    // Offset: 0x1922EE0
+    // Offset: 0x1934924
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AnimationClip* clip);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA59E20
+    // Offset: 0xA59E9C
     static AnimationClipPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetApplyFootIK(System.Boolean value)
-    // Offset: 0xA59E3C
+    // Offset: 0xA59EB8
     void SetApplyFootIK(bool value);
     // System.Void SetRemoveStartOffset(System.Boolean value)
-    // Offset: 0xA59E8C
+    // Offset: 0xA59F08
     void SetRemoveStartOffset(bool value);
     // System.Void SetOverrideLoopTime(System.Boolean value)
-    // Offset: 0xA59EDC
+    // Offset: 0xA59F58
     void SetOverrideLoopTime(bool value);
     // System.Void SetLoopTime(System.Boolean value)
-    // Offset: 0xA59F2C
+    // Offset: 0xA59FA8
     void SetLoopTime(bool value);
     // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip, UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1923060
+    // Offset: 0x1934AA4
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AnimationClip* clip, UnityEngine::Playables::PlayableHandle& handle);
     // static private System.Void SetApplyFootIKInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
-    // Offset: 0x19231E0
+    // Offset: 0x1934C24
     static void SetApplyFootIKInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Void SetRemoveStartOffsetInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
-    // Offset: 0x1923280
+    // Offset: 0x1934CC4
     static void SetRemoveStartOffsetInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Void SetOverrideLoopTimeInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
-    // Offset: 0x1923320
+    // Offset: 0x1934D64
     static void SetOverrideLoopTimeInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Void SetLoopTimeInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
-    // Offset: 0x19233C0
+    // Offset: 0x1934E04
     static void SetLoopTimeInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Boolean CreateHandleInternal_Injected(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AnimationClip clip, UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1923410
+    // Offset: 0x1934E54
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::AnimationClip* clip, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA59E28
+    // Offset: 0xA59EA4
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationClipPlayable other)
-    // Offset: 0xA59E34
+    // Offset: 0xA59EB0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimationClipPlayable other)
     bool Equals(UnityEngine::Animations::AnimationClipPlayable other);
   }; // UnityEngine.Animations.AnimationClipPlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationClipPlayable, "UnityEngine.Animations", "AnimationClipPlayable");
 #pragma pack(pop)

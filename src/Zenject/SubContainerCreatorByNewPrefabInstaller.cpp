@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SubContainerCreatorByNewPrefabInstaller
 #include "Zenject/SubContainerCreatorByNewPrefabInstaller.hpp"
 // Including type: Zenject.SubContainerCreatorByNewPrefabInstaller/<>c__DisplayClass3_0

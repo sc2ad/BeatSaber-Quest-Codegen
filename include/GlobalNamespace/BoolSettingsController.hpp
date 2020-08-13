@@ -30,22 +30,22 @@ namespace GlobalNamespace {
     // Offset: 0x48
     ::CsString* offLocalizedKey;
     // protected override System.Boolean GetInitValue()
-    // Offset: 0xB5E594
+    // Offset: 0xB5C594
     // Implemented from: SwitchSettingsController
     // Base method: System.Boolean SwitchSettingsController::GetInitValue()
     bool GetInitValue();
     // protected override System.Void ApplyValue(System.Boolean value)
-    // Offset: 0xB5E5E4
+    // Offset: 0xB5C5E4
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
     void ApplyValue(bool value);
     // protected override System.String TextForValue(System.Boolean value)
-    // Offset: 0xB5E64C
+    // Offset: 0xB5C64C
     // Implemented from: SwitchSettingsController
     // Base method: System.String SwitchSettingsController::TextForValue(System.Boolean value)
     ::CsString* TextForValue(bool value);
     // public System.Void .ctor()
-    // Offset: 0xB5E668
+    // Offset: 0xB5C668
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -57,6 +57,6 @@ namespace GlobalNamespace {
     static BoolSettingsController* New_ctor();
   }; // BoolSettingsController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSettingsController*, "", "BoolSettingsController");
 #pragma pack(pop)

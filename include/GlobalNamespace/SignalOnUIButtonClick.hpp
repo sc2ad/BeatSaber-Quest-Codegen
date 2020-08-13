@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Button* button;
     // private System.Void OnReset()
-    // Offset: 0xCA6F44
+    // Offset: 0xCB9988
     void OnReset();
     // protected System.Void Start()
-    // Offset: 0xCA6FA4
+    // Offset: 0xCB99E8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xCA703C
+    // Offset: 0xCB9A80
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xCA7118
+    // Offset: 0xCB9B5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static SignalOnUIButtonClick* New_ctor();
   }; // SignalOnUIButtonClick
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnUIButtonClick*, "", "SignalOnUIButtonClick");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UIKeyboard
 #include "GlobalNamespace/UIKeyboard.hpp"
 // Completed includes
@@ -22,15 +20,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::UIKeyboard* $$4__this;
     // System.Void <Awake>b__4()
-    // Offset: 0xC38958
+    // Offset: 0xC4A39C
     void $Awake$b__4();
     // public System.Void .ctor()
-    // Offset: 0xC38898
+    // Offset: 0xC4A2DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UIKeyboard::$$c__DisplayClass21_0* New_ctor();
   }; // UIKeyboard/<>c__DisplayClass21_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0*, "", "UIKeyboard/<>c__DisplayClass21_0");
 #pragma pack(pop)

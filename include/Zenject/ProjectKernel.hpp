@@ -31,16 +31,16 @@ namespace Zenject {
     // Offset: 0x40
     Zenject::SceneContextRegistry* contextRegistry;
     // public System.Void OnApplicationQuit()
-    // Offset: 0xFB1CE8
+    // Offset: 0xFC472C
     void OnApplicationQuit();
     // public System.Void DestroyEverythingInOrder()
-    // Offset: 0xFB1D0C
+    // Offset: 0xFC4750
     void DestroyEverythingInOrder();
     // public System.Void ForceUnloadAllScenes(System.Boolean immediate)
-    // Offset: 0xFB1DB4
+    // Offset: 0xFC47F8
     void ForceUnloadAllScenes(bool immediate);
     // public System.Void .ctor()
-    // Offset: 0xFB20E4
+    // Offset: 0xFC4B28
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -51,6 +51,6 @@ namespace Zenject {
     static ProjectKernel* New_ctor();
   }; // Zenject.ProjectKernel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
 #pragma pack(pop)

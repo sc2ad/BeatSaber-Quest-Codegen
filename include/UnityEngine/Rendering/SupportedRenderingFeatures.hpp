@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.LightmapBakeType
 #include "UnityEngine/LightmapBakeType.hpp"
 // Including type: UnityEngine.LightmapsMode
@@ -150,61 +148,61 @@ namespace UnityEngine::Rendering {
     // Offset: 0x30
     bool overridesMaximumLODLevel;
     // static public UnityEngine.Rendering.SupportedRenderingFeatures get_active()
-    // Offset: 0x13747F0
+    // Offset: 0x1387234
     static UnityEngine::Rendering::SupportedRenderingFeatures* get_active();
     // static public System.Void set_active(UnityEngine.Rendering.SupportedRenderingFeatures value)
-    // Offset: 0x13737FC
+    // Offset: 0x1386240
     static void set_active(UnityEngine::Rendering::SupportedRenderingFeatures* value);
     // public UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes get_defaultMixedLightingModes()
-    // Offset: 0x13748F0
+    // Offset: 0x1387334
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes get_defaultMixedLightingModes();
     // public UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes get_mixedLightingModes()
-    // Offset: 0x13748F8
+    // Offset: 0x138733C
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes get_mixedLightingModes();
     // public UnityEngine.LightmapBakeType get_lightmapBakeTypes()
-    // Offset: 0x1374900
+    // Offset: 0x1387344
     UnityEngine::LightmapBakeType get_lightmapBakeTypes();
     // public UnityEngine.LightmapsMode get_lightmapsModes()
-    // Offset: 0x1374908
+    // Offset: 0x138734C
     UnityEngine::LightmapsMode get_lightmapsModes();
     // public System.Boolean get_enlighten()
-    // Offset: 0x1374910
+    // Offset: 0x1387354
     bool get_enlighten();
     // static System.Void FallbackMixedLightingModeByRef(System.IntPtr fallbackModePtr)
-    // Offset: 0x1374918
+    // Offset: 0x138735C
     static void FallbackMixedLightingModeByRef(System::IntPtr fallbackModePtr);
     // static System.Boolean IsMixedLightingModeSupported(UnityEngine.MixedLightingMode mixedMode)
-    // Offset: 0x1374A7C
+    // Offset: 0x13874C0
     static bool IsMixedLightingModeSupported(UnityEngine::MixedLightingMode mixedMode);
     // static System.Void IsMixedLightingModeSupportedByRef(UnityEngine.MixedLightingMode mixedMode, System.IntPtr isSupportedPtr)
-    // Offset: 0x1374AF8
+    // Offset: 0x138753C
     static void IsMixedLightingModeSupportedByRef(UnityEngine::MixedLightingMode mixedMode, System::IntPtr isSupportedPtr);
     // static System.Boolean IsLightmapBakeTypeSupported(UnityEngine.LightmapBakeType bakeType)
-    // Offset: 0x1374C28
+    // Offset: 0x138766C
     static bool IsLightmapBakeTypeSupported(UnityEngine::LightmapBakeType bakeType);
     // static System.Void IsLightmapBakeTypeSupportedByRef(UnityEngine.LightmapBakeType bakeType, System.IntPtr isSupportedPtr)
-    // Offset: 0x1374CA4
+    // Offset: 0x13876E8
     static void IsLightmapBakeTypeSupportedByRef(UnityEngine::LightmapBakeType bakeType, System::IntPtr isSupportedPtr);
     // static System.Void IsLightmapsModeSupportedByRef(UnityEngine.LightmapsMode mode, System.IntPtr isSupportedPtr)
-    // Offset: 0x1374DF4
+    // Offset: 0x1387838
     static void IsLightmapsModeSupportedByRef(UnityEngine::LightmapsMode mode, System::IntPtr isSupportedPtr);
     // static System.Void IsLightmapperSupportedByRef(System.Int32 lightmapper, System.IntPtr isSupportedPtr)
-    // Offset: 0x1374E90
+    // Offset: 0x13878D4
     static void IsLightmapperSupportedByRef(int lightmapper, System::IntPtr isSupportedPtr);
     // static System.Void FallbackLightmapperByRef(System.IntPtr lightmapperPtr)
-    // Offset: 0x1374F58
+    // Offset: 0x138799C
     static void FallbackLightmapperByRef(System::IntPtr lightmapperPtr);
     // static private System.Void .cctor()
-    // Offset: 0x1374F78
+    // Offset: 0x13879BC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13737C0
+    // Offset: 0x1386204
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SupportedRenderingFeatures* New_ctor();
   }; // UnityEngine.Rendering.SupportedRenderingFeatures
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures*, "UnityEngine.Rendering", "SupportedRenderingFeatures");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/ReflectionProbeModes");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/LightmapMixedBakeModes");

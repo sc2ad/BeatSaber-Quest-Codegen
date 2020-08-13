@@ -89,16 +89,16 @@ namespace UnityEngine {
     // Creating value type constructor for type: TextGenerationSettings
     TextGenerationSettings(UnityEngine::Font* font_ = {}, UnityEngine::Color color_ = {}, int fontSize_ = {}, float lineSpacing_ = {}, bool richText_ = {}, float scaleFactor_ = {}, UnityEngine::FontStyle fontStyle_ = {}, UnityEngine::TextAnchor textAnchor_ = {}, bool alignByGeometry_ = {}, bool resizeTextForBestFit_ = {}, int resizeTextMinSize_ = {}, int resizeTextMaxSize_ = {}, bool updateBounds_ = {}, UnityEngine::VerticalWrapMode verticalOverflow_ = {}, UnityEngine::HorizontalWrapMode horizontalOverflow_ = {}, UnityEngine::Vector2 generationExtents_ = {}, UnityEngine::Vector2 pivot_ = {}, bool generateOutOfBounds_ = {}) : font{font_}, color{color_}, fontSize{fontSize_}, lineSpacing{lineSpacing_}, richText{richText_}, scaleFactor{scaleFactor_}, fontStyle{fontStyle_}, textAnchor{textAnchor_}, alignByGeometry{alignByGeometry_}, resizeTextForBestFit{resizeTextForBestFit_}, resizeTextMinSize{resizeTextMinSize_}, resizeTextMaxSize{resizeTextMaxSize_}, updateBounds{updateBounds_}, verticalOverflow{verticalOverflow_}, horizontalOverflow{horizontalOverflow_}, generationExtents{generationExtents_}, pivot{pivot_}, generateOutOfBounds{generateOutOfBounds_} {}
     // private System.Boolean CompareColors(UnityEngine.Color left, UnityEngine.Color right)
-    // Offset: 0xA5B754
+    // Offset: 0xA5B7D0
     bool CompareColors(UnityEngine::Color left, UnityEngine::Color right);
     // private System.Boolean CompareVector2(UnityEngine.Vector2 left, UnityEngine.Vector2 right)
-    // Offset: 0xA5B758
+    // Offset: 0xA5B7D4
     bool CompareVector2(UnityEngine::Vector2 left, UnityEngine::Vector2 right);
     // public System.Boolean Equals(UnityEngine.TextGenerationSettings other)
-    // Offset: 0xA5B75C
+    // Offset: 0xA5B7D8
     bool Equals(UnityEngine::TextGenerationSettings other);
   }; // UnityEngine.TextGenerationSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");
 #pragma pack(pop)

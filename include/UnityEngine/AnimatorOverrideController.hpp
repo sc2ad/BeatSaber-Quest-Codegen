@@ -24,10 +24,10 @@ namespace UnityEngine {
     // Offset: 0x18
     UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
     // static System.Void OnInvalidateOverrideController(UnityEngine.AnimatorOverrideController controller)
-    // Offset: 0x1926828
+    // Offset: 0x193826C
     static void OnInvalidateOverrideController(UnityEngine::AnimatorOverrideController* controller);
   }; // UnityEngine.AnimatorOverrideController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController*, "UnityEngine", "AnimatorOverrideController");
 #pragma pack(pop)

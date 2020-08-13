@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IO.Directory
 #include "System/IO/Directory.hpp"
 // Including type: System.IO.SearchOption
@@ -27,10 +25,10 @@ namespace System::IO {
     // Offset: 0x20
     System::IO::SearchOption searchOption;
     // public System.Void .ctor(System.String fullPath, System.String userPath, System.IO.SearchOption searchOption)
-    // Offset: 0x111C10C
+    // Offset: 0x112CB50
     static Directory::SearchData* New_ctor(::CsString* fullPath, ::CsString* userPath, System::IO::SearchOption searchOption);
   }; // System.IO.Directory/SearchData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Directory::SearchData*, "System.IO", "Directory/SearchData");
 #pragma pack(pop)

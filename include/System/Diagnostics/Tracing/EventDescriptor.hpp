@@ -43,47 +43,47 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventDescriptor
     EventDescriptor(int m_traceloggingId_ = {}, uint16_t m_id_ = {}, uint8_t m_version_ = {}, uint8_t m_channel_ = {}, uint8_t m_level_ = {}, uint8_t m_opcode_ = {}, uint16_t m_task_ = {}, int64_t m_keywords_ = {}) : m_traceloggingId{m_traceloggingId_}, m_id{m_id_}, m_version{m_version_}, m_channel{m_channel_}, m_level{m_level_}, m_opcode{m_opcode_}, m_task{m_task_}, m_keywords{m_keywords_} {}
     // public System.Void .ctor(System.Int32 traceloggingId, System.Byte level, System.Byte opcode, System.Int64 keywords)
-    // Offset: 0xA288D0
+    // Offset: 0xA2894C
     static EventDescriptor* New_ctor(int traceloggingId, uint8_t level, uint8_t opcode, int64_t keywords);
     // public System.Void .ctor(System.Int32 id, System.Byte version, System.Byte channel, System.Byte level, System.Byte opcode, System.Int32 task, System.Int64 keywords)
-    // Offset: 0xA288E8
+    // Offset: 0xA28964
     static EventDescriptor* New_ctor(int id, uint8_t version, uint8_t channel, uint8_t level, uint8_t opcode, int task, int64_t keywords);
     // public System.Int32 get_EventId()
-    // Offset: 0xA288F0
+    // Offset: 0xA2896C
     int get_EventId();
     // public System.Byte get_Version()
-    // Offset: 0xA288F8
+    // Offset: 0xA28974
     uint8_t get_Version();
     // public System.Byte get_Channel()
-    // Offset: 0xA28900
+    // Offset: 0xA2897C
     uint8_t get_Channel();
     // public System.Byte get_Level()
-    // Offset: 0xA28908
+    // Offset: 0xA28984
     uint8_t get_Level();
     // public System.Byte get_Opcode()
-    // Offset: 0xA28910
+    // Offset: 0xA2898C
     uint8_t get_Opcode();
     // public System.Int32 get_Task()
-    // Offset: 0xA28918
+    // Offset: 0xA28994
     int get_Task();
     // public System.Int64 get_Keywords()
-    // Offset: 0xA28920
+    // Offset: 0xA2899C
     int64_t get_Keywords();
     // public System.Boolean Equals(System.Diagnostics.Tracing.EventDescriptor other)
-    // Offset: 0xA28968
+    // Offset: 0xA289E4
     bool Equals(System::Diagnostics::Tracing::EventDescriptor other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA28928
+    // Offset: 0xA289A4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA28930
+    // Offset: 0xA289AC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Diagnostics.Tracing.EventDescriptor
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventDescriptor, "System.Diagnostics.Tracing", "EventDescriptor");
 #pragma pack(pop)

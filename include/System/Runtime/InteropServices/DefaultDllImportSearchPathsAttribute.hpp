@@ -19,10 +19,10 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Runtime::InteropServices::DllImportSearchPath paths;
     // public System.Void .ctor(System.Runtime.InteropServices.DllImportSearchPath paths)
-    // Offset: 0x1150EAC
+    // Offset: 0x11628F0
     static DefaultDllImportSearchPathsAttribute* New_ctor(System::Runtime::InteropServices::DllImportSearchPath paths);
   }; // System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*, "System.Runtime.InteropServices", "DefaultDllImportSearchPathsAttribute");
 #pragma pack(pop)

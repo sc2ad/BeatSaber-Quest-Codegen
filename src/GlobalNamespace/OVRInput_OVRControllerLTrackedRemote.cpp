@@ -2,7 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRInput/OVRControllerLTrackedRemote
 #include "GlobalNamespace/OVRInput_OVRControllerLTrackedRemote.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

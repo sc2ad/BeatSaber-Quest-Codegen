@@ -44,6 +44,6 @@ namespace OVR::OpenVR {
     InputAnalogActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, float x_ = {}, float y_ = {}, float z_ = {}, float deltaX_ = {}, float deltaY_ = {}, float deltaZ_ = {}, float fUpdateTime_ = {}) : bActive{bActive_}, activeOrigin{activeOrigin_}, x{x_}, y{y_}, z{z_}, deltaX{deltaX_}, deltaY{deltaY_}, deltaZ{deltaZ_}, fUpdateTime{fUpdateTime_} {}
   }; // OVR.OpenVR.InputAnalogActionData_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputAnalogActionData_t, "OVR.OpenVR", "InputAnalogActionData_t");
 #pragma pack(pop)

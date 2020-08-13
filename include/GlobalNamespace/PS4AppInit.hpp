@@ -49,27 +49,27 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xBBB6A8
+    // Offset: 0xBCE0EC
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xBBB714
+    // Offset: 0xBCE158
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xBBB760
+    // Offset: 0xBCE1A4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xBBB79C
+    // Offset: 0xBCE1E0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xBBB86C
+    // Offset: 0xBCE2B0
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -82,6 +82,6 @@ namespace GlobalNamespace {
     static PS4AppInit* New_ctor();
   }; // PS4AppInit
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AppInit*, "", "PS4AppInit");
 #pragma pack(pop)

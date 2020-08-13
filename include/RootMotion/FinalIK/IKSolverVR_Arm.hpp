@@ -5,6 +5,8 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: RootMotion.FinalIK.IKSolverVR
+#include "RootMotion/FinalIK/IKSolverVR.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR/BodyPart
 #include "RootMotion/FinalIK/IKSolverVR_BodyPart.hpp"
 // Including type: System.Enum
@@ -143,78 +145,78 @@ namespace RootMotion::FinalIK {
     // Set static field: static private System.Single pitchOffsetAngle
     static void _set_pitchOffsetAngle(float value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x1423624
+    // Offset: 0x1433068
     UnityEngine::Vector3 get_position();
     // private System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x1423630
+    // Offset: 0x1433074
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0x142363C
+    // Offset: 0x1433080
     UnityEngine::Quaternion get_rotation();
     // private System.Void set_rotation(UnityEngine.Quaternion value)
-    // Offset: 0x1423648
+    // Offset: 0x143308C
     void set_rotation(UnityEngine::Quaternion value);
     // private RootMotion.FinalIK.IKSolverVR/VirtualBone get_shoulder()
-    // Offset: 0x1423654
+    // Offset: 0x1433098
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_shoulder();
     // private RootMotion.FinalIK.IKSolverVR/VirtualBone get_upperArm()
-    // Offset: 0x1423688
+    // Offset: 0x14330CC
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_upperArm();
     // private RootMotion.FinalIK.IKSolverVR/VirtualBone get_forearm()
-    // Offset: 0x14236C8
+    // Offset: 0x143310C
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_forearm();
     // private RootMotion.FinalIK.IKSolverVR/VirtualBone get_hand()
-    // Offset: 0x1423714
+    // Offset: 0x1433158
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_hand();
     // private System.Void Stretching()
-    // Offset: 0x1424400
+    // Offset: 0x1433E44
     void Stretching();
     // public System.Void Solve(System.Boolean isLeft)
-    // Offset: 0x1424818
+    // Offset: 0x143425C
     void Solve(bool isLeft);
     // private System.Single DamperValue(System.Single value, System.Single min, System.Single max, System.Single weight)
-    // Offset: 0x1425D6C
+    // Offset: 0x14357B0
     float DamperValue(float value, float min, float max, float weight);
     // private UnityEngine.Vector3 GetBendNormal(UnityEngine.Vector3 dir)
-    // Offset: 0x1426078
+    // Offset: 0x1435ABC
     UnityEngine::Vector3 GetBendNormal(UnityEngine::Vector3 dir);
     // private System.Void Visualize(RootMotion.FinalIK.IKSolverVR/VirtualBone bone1, RootMotion.FinalIK.IKSolverVR/VirtualBone bone2, RootMotion.FinalIK.IKSolverVR/VirtualBone bone3, UnityEngine.Color color)
-    // Offset: 0x142700C
+    // Offset: 0x1436A50
     void Visualize(RootMotion::FinalIK::IKSolverVR::VirtualBone* bone1, RootMotion::FinalIK::IKSolverVR::VirtualBone* bone2, RootMotion::FinalIK::IKSolverVR::VirtualBone* bone3, UnityEngine::Color color);
     // protected override System.Void OnRead(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
-    // Offset: 0x1423760
+    // Offset: 0x14331A4
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::OnRead(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
     void OnRead(::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Quaternion>* rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
     // public override System.Void PreSolve()
-    // Offset: 0x1424160
+    // Offset: 0x1433BA4
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::PreSolve()
     void PreSolve();
     // public override System.Void ApplyOffsets()
-    // Offset: 0x1424354
+    // Offset: 0x1433D98
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::ApplyOffsets()
     void ApplyOffsets();
     // public override System.Void ResetOffsets()
-    // Offset: 0x1426D7C
+    // Offset: 0x14367C0
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::ResetOffsets()
     void ResetOffsets();
     // public override System.Void Write(UnityEngine.Vector3[] solvedPositions, UnityEngine.Quaternion[] solvedRotations)
-    // Offset: 0x1426DEC
+    // Offset: 0x1436830
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::Write(UnityEngine.Vector3[] solvedPositions, UnityEngine.Quaternion[] solvedRotations)
     void Write(::Array<UnityEngine::Vector3>*& solvedPositions, ::Array<UnityEngine::Quaternion>*& solvedRotations);
     // public System.Void .ctor()
-    // Offset: 0x1427134
+    // Offset: 0x1436B78
     // Implemented from: RootMotion.FinalIK.IKSolverVR/BodyPart
     // Base method: System.Void BodyPart::.ctor()
     // Base method: System.Void Object::.ctor()
     static IKSolverVR::Arm* New_ctor();
   }; // RootMotion.FinalIK.IKSolverVR/Arm
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Arm*, "RootMotion.FinalIK", "IKSolverVR/Arm");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode, "RootMotion.FinalIK", "IKSolverVR/Arm/ShoulderRotationMode");
 #pragma pack(pop)

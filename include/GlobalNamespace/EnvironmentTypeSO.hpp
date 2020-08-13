@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::CsString* typeNameLocalizationKey;
     // public System.String get_typeNameLocalizationKey()
-    // Offset: 0xBD60B8
+    // Offset: 0xBE8AFC
     ::CsString* get_typeNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0xBD60C0
+    // Offset: 0xBE8B04
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -28,6 +28,6 @@ namespace GlobalNamespace {
     static EnvironmentTypeSO* New_ctor();
   }; // EnvironmentTypeSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentTypeSO*, "", "EnvironmentTypeSO");
 #pragma pack(pop)

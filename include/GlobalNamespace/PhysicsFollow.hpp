@@ -38,13 +38,13 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Rigidbody2D* rigidBody2D;
     // protected System.Void Start()
-    // Offset: 0xCA54DC
+    // Offset: 0xCB7F20
     void Start();
     // private System.Void FixedUpdate()
-    // Offset: 0xCA55E0
+    // Offset: 0xCB8024
     void FixedUpdate();
     // public System.Void .ctor()
-    // Offset: 0xCA57C4
+    // Offset: 0xCB8208
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     static PhysicsFollow* New_ctor();
   }; // PhysicsFollow
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PhysicsFollow*, "", "PhysicsFollow");
 #pragma pack(pop)

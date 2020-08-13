@@ -23,7 +23,7 @@ namespace System {
   class MethodAccessException : public System::MemberAccessException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1000448
+    // Offset: 0x100FE8C
     // Implemented from: System.MemberAccessException
     // Base method: System.Void MemberAccessException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static MethodAccessException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x10004D4
+    // Offset: 0x100FF18
     // Implemented from: System.MemberAccessException
     // Base method: System.Void MemberAccessException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static MethodAccessException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1000520
+    // Offset: 0x100FF64
     // Implemented from: System.MemberAccessException
     // Base method: System.Void MemberAccessException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -46,6 +46,6 @@ namespace System {
     static MethodAccessException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.MethodAccessException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MethodAccessException*, "System", "MethodAccessException");
 #pragma pack(pop)

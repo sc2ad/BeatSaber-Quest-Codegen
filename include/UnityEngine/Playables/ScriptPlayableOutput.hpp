@@ -34,21 +34,21 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: ScriptPlayableOutput
     ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Playables.ScriptPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x1403D4C
+    // Offset: 0x1414790
     static UnityEngine::Playables::ScriptPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::CsString* name);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0xA453C8
+    // Offset: 0xA45444
     static ScriptPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Playables.ScriptPlayableOutput get_Null()
-    // Offset: 0x1403DCC
+    // Offset: 0x1414810
     static UnityEngine::Playables::ScriptPlayableOutput get_Null();
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xA453D0
+    // Offset: 0xA4544C
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Playables.ScriptPlayableOutput
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");
 #pragma pack(pop)

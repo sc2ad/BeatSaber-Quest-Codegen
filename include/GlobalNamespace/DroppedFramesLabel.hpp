@@ -45,16 +45,16 @@ namespace GlobalNamespace {
     // Offset: 0x38
     int frameCountInInterval;
     // protected System.Void Start()
-    // Offset: 0xC99BE8
+    // Offset: 0xCAC62C
     void Start();
     // protected System.Void Update()
-    // Offset: 0xC99C5C
+    // Offset: 0xCAC6A0
     void Update();
     // private System.Void RefreshText()
-    // Offset: 0xC99D48
+    // Offset: 0xCAC78C
     void RefreshText();
     // public System.Void .ctor()
-    // Offset: 0xC99E6C
+    // Offset: 0xCAC8B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -64,6 +64,6 @@ namespace GlobalNamespace {
     static DroppedFramesLabel* New_ctor();
   }; // DroppedFramesLabel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroppedFramesLabel*, "", "DroppedFramesLabel");
 #pragma pack(pop)

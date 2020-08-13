@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithProductList : public Oculus::Platform::Message_1<Oculus::Platform::Models::ProductList*> {
     public:
     // protected Oculus.Platform.Models.ProductList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE90BF4
+    // Offset: 0xEA3638
     Oculus::Platform::Models::ProductList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88AA0
+    // Offset: 0xE9B4E4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithProductList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.ProductList GetProductList()
-    // Offset: 0xE90BB0
+    // Offset: 0xEA35F4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.ProductList Message::GetProductList()
     Oculus::Platform::Models::ProductList* GetProductList();
   }; // Oculus.Platform.MessageWithProductList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithProductList*, "Oculus.Platform", "MessageWithProductList");
 #pragma pack(pop)

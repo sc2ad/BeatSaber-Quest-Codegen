@@ -73,40 +73,40 @@ namespace GlobalNamespace {
     // Offset: 0x58
     UnityEngine::Color noteColor;
     // public System.Void add_didInitEvent(System.Action`2<ColorNoteVisuals,NoteController> value)
-    // Offset: 0xB61BB8
+    // Offset: 0xB5FBB8
     void add_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteController*>* value);
     // public System.Void remove_didInitEvent(System.Action`2<ColorNoteVisuals,NoteController> value)
-    // Offset: 0xB61C5C
+    // Offset: 0xB5FC5C
     void remove_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteController*>* value);
     // public UnityEngine.Color get_noteColor()
-    // Offset: 0xB61D00
+    // Offset: 0xB5FD00
     UnityEngine::Color get_noteColor();
     // private System.Void set_showArrow(System.Boolean value)
-    // Offset: 0xB61D0C
+    // Offset: 0xB5FD0C
     void set_showArrow(bool value);
     // private System.Void set_showCircle(System.Boolean value)
-    // Offset: 0xB61D54
+    // Offset: 0xB5FD54
     void set_showCircle(bool value);
     // protected System.Void Awake()
-    // Offset: 0xB61D74
+    // Offset: 0xB5FD74
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB61E98
+    // Offset: 0xB5FE98
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInitEvent(NoteController noteController)
-    // Offset: 0xB61FB8
+    // Offset: 0xB5FFB8
     void HandleNoteControllerDidInitEvent(GlobalNamespace::NoteController* noteController);
     // private System.Boolean NoteIsOnDifferentSide(NoteData noteData)
-    // Offset: 0xB621BC
+    // Offset: 0xB601BC
     bool NoteIsOnDifferentSide(GlobalNamespace::NoteData* noteData);
     // private System.Void HandleNoteControllerNoteDidPassJumpThreeQuartersEvent(NoteController noteController)
-    // Offset: 0xB62204
+    // Offset: 0xB60204
     void HandleNoteControllerNoteDidPassJumpThreeQuartersEvent(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteDidStartDissolvingEvent(NoteController noteController, System.Single duration)
-    // Offset: 0xB6223C
+    // Offset: 0xB6023C
     void HandleNoteDidStartDissolvingEvent(GlobalNamespace::NoteController* noteController, float duration);
     // public System.Void .ctor()
-    // Offset: 0xB62280
+    // Offset: 0xB60280
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -115,12 +115,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ColorNoteVisuals* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xB62294
+    // Offset: 0xB60294
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ColorNoteVisuals
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoteVisuals*, "", "ColorNoteVisuals");
 #pragma pack(pop)

@@ -42,21 +42,21 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::Dictionary_2<int, ::CsString*>* trophyIdToAchievementId;
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
-    // Offset: 0xBBB2E4
+    // Offset: 0xBCDD28
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();
     // public System.Boolean GetTrophyId(System.String achievementId, System.Int32 trophyId)
-    // Offset: 0xBBB4AC
+    // Offset: 0xBCDEF0
     bool GetTrophyId(::CsString* achievementId, int& trophyId);
     // public System.Boolean GetAchievementId(System.Int32 trophyId, System.String achievementId)
-    // Offset: 0xBBB520
+    // Offset: 0xBCDF64
     bool GetAchievementId(int trophyId, ::CsString*& achievementId);
     // protected override System.Void OnEnable()
-    // Offset: 0xBBB2EC
+    // Offset: 0xBCDD30
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xBBB5AC
+    // Offset: 0xBCDFF0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -65,6 +65,6 @@ namespace GlobalNamespace {
     static PS4AchievementIdsModelSO* New_ctor();
   }; // PS4AchievementIdsModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO*, "", "PS4AchievementIdsModelSO");
 #pragma pack(pop)

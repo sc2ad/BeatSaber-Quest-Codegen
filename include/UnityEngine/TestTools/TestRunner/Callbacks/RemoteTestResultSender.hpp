@@ -71,37 +71,37 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x30
     UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* m_TestResultDataFactory;
     // public System.Void Start()
-    // Offset: 0xE2DE48
+    // Offset: 0xE4088C
     void Start();
     // private System.Void EditorProccessedTheResult(UnityEngine.Networking.PlayerConnection.MessageEventArgs arg0)
-    // Offset: 0xE2DF94
+    // Offset: 0xE409D8
     void EditorProccessedTheResult(UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
     // private System.Byte[] SerializeObject(System.Object objectToSerialize)
-    // Offset: 0xE2DFE4
+    // Offset: 0xE40A28
     ::Array<uint8_t>* SerializeObject(::CsObject* objectToSerialize);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0xE2E034
+    // Offset: 0xE40A78
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE2E1F8
+    // Offset: 0xE40C3C
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE2E3B0
+    // Offset: 0xE40DF4
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE2E56C
+    // Offset: 0xE40FB0
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Collections.IEnumerator SendDataRoutine()
-    // Offset: 0xE2DF18
+    // Offset: 0xE4095C
     System::Collections::IEnumerator* SendDataRoutine();
     // private System.Void SendAliveMessageIfNeeded()
-    // Offset: 0xE2E750
+    // Offset: 0xE41194
     void SendAliveMessageIfNeeded();
     // private System.Void ResetNextPlayerAliveMessageTime()
-    // Offset: 0xE2E850
+    // Offset: 0xE41294
     void ResetNextPlayerAliveMessageTime();
     // public System.Void .ctor()
-    // Offset: 0xE2E884
+    // Offset: 0xE412C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -111,6 +111,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     static RemoteTestResultSender* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender");
 #pragma pack(pop)

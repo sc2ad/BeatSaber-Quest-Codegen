@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -22,31 +20,31 @@ namespace System {
   class IPv6AddressHelper : public ::CsObject {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Boolean isLoopback, System.String scopeId)
-    // Offset: 0xF52E8C
+    // Offset: 0xF648D0
     static ::CsString* ParseCanonicalName(::CsString* str, int start, bool& isLoopback, ::CsString*& scopeId);
     // static System.String CreateCanonicalName(System.UInt16* numbers)
-    // Offset: 0xF53444
+    // Offset: 0xF64E88
     static ::CsString* CreateCanonicalName(uint16_t* numbers);
     // static private System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> FindCompressionRange(System.UInt16* numbers)
-    // Offset: 0xF53AE0
+    // Offset: 0xF65524
     static System::Collections::Generic::KeyValuePair_2<int, int> FindCompressionRange(uint16_t* numbers);
     // static private System.Boolean ShouldHaveIpv4Embedded(System.UInt16* numbers)
-    // Offset: 0xF53BB8
+    // Offset: 0xF655FC
     static bool ShouldHaveIpv4Embedded(uint16_t* numbers);
     // static private System.Boolean InternalIsValid(System.Char* name, System.Int32 start, System.Int32 end, System.Boolean validateStrictAddress)
-    // Offset: 0xF53C48
+    // Offset: 0xF6568C
     static bool InternalIsValid(::Il2CppChar* name, int start, int& end, bool validateStrictAddress);
     // static System.Boolean IsValid(System.Char* name, System.Int32 start, System.Int32 end)
-    // Offset: 0xF53F1C
+    // Offset: 0xF65960
     static bool IsValid(::Il2CppChar* name, int start, int& end);
     // static System.Boolean IsValidStrict(System.Char* name, System.Int32 start, System.Int32 end)
-    // Offset: 0xF53F24
+    // Offset: 0xF65968
     static bool IsValidStrict(::Il2CppChar* name, int start, int& end);
     // static System.Boolean Parse(System.String address, System.UInt16* numbers, System.Int32 start, System.String scopeId)
-    // Offset: 0xF52F50
+    // Offset: 0xF64994
     static bool Parse(::CsString* address, uint16_t* numbers, int start, ::CsString*& scopeId);
   }; // System.IPv6AddressHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IPv6AddressHelper*, "System", "IPv6AddressHelper");
 #pragma pack(pop)

@@ -32,13 +32,13 @@ namespace Zenject {
     // Offset: 0x20
     UnityEngine::Animator* animator;
     // public System.Void Construct(Zenject.DiContainer container)
-    // Offset: 0x1929868
+    // Offset: 0x193C2AC
     void Construct(Zenject::DiContainer* container);
     // public System.Void Start()
-    // Offset: 0x19298F0
+    // Offset: 0x193C334
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x19299E4
+    // Offset: 0x193C428
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace Zenject {
     static ZenjectStateMachineBehaviourAutoInjecter* New_ctor();
   }; // Zenject.ZenjectStateMachineBehaviourAutoInjecter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectStateMachineBehaviourAutoInjecter*, "Zenject", "ZenjectStateMachineBehaviourAutoInjecter");
 #pragma pack(pop)

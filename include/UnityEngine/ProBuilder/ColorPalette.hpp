@@ -41,33 +41,33 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x28
     System::Collections::Generic::List_1<UnityEngine::Color>* m_Colors;
     // public UnityEngine.Color get_current()
-    // Offset: 0x1519A18
+    // Offset: 0x152945C
     UnityEngine::Color get_current();
     // public System.Void set_current(UnityEngine.Color value)
-    // Offset: 0x1519A24
+    // Offset: 0x1529468
     void set_current(UnityEngine::Color value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color> get_colors()
-    // Offset: 0x1519A30
+    // Offset: 0x1529474
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Color>* get_colors();
     // public System.Void SetColors(System.Collections.Generic.IEnumerable`1<UnityEngine.Color> colors)
-    // Offset: 0x1519AA0
+    // Offset: 0x15294E4
     void SetColors(System::Collections::Generic::IEnumerable_1<UnityEngine::Color>* colors);
     // public UnityEngine.Color get_Item(System.Int32 i)
-    // Offset: 0x1519FB8
+    // Offset: 0x15299FC
     UnityEngine::Color get_Item(int i);
     // public System.Void set_Item(System.Int32 i, UnityEngine.Color value)
-    // Offset: 0x151A034
+    // Offset: 0x1529A78
     void set_Item(int i, UnityEngine::Color value);
     // public System.Int32 get_Count()
-    // Offset: 0x151A0CC
+    // Offset: 0x1529B10
     int get_Count();
     // public System.Void SetDefaultValues()
-    // Offset: 0x1519B4C
+    // Offset: 0x1529590
     // Implemented from: UnityEngine.ProBuilder.IHasDefault
     // Base method: System.Void IHasDefault::SetDefaultValues()
     void SetDefaultValues();
     // public System.Void .ctor()
-    // Offset: 0x151A11C
+    // Offset: 0x1529B60
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -75,6 +75,6 @@ namespace UnityEngine::ProBuilder {
     static ColorPalette* New_ctor();
   }; // UnityEngine.ProBuilder.ColorPalette
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColorPalette*, "UnityEngine.ProBuilder", "ColorPalette");
 #pragma pack(pop)

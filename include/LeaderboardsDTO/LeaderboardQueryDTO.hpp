@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -57,13 +55,13 @@ namespace LeaderboardsDTO {
     // Offset: 0x30
     bool includedScoreWithModifiers;
     // public System.Void .ctor()
-    // Offset: 0xB42554
+    // Offset: 0xB40554
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardQueryDTO* New_ctor();
   }; // LeaderboardsDTO.LeaderboardQueryDTO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO*, "LeaderboardsDTO", "LeaderboardQueryDTO");
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope, "LeaderboardsDTO", "LeaderboardQueryDTO/ScoresScope");
 #pragma pack(pop)

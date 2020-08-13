@@ -37,19 +37,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Transform* headTransform;
     // public VRController get_leftController()
-    // Offset: 0xBECFC4
+    // Offset: 0xBFEA08
     GlobalNamespace::VRController* get_leftController();
     // public VRController get_rightController()
-    // Offset: 0xBECFCC
+    // Offset: 0xBFEA10
     GlobalNamespace::VRController* get_rightController();
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0xBECFD4
+    // Offset: 0xBFEA18
     UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0xBECFF0
+    // Offset: 0xBFEA34
     UnityEngine::Quaternion get_headRot();
     // public System.Void .ctor()
-    // Offset: 0xBED00C
+    // Offset: 0xBFEA50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -59,6 +59,6 @@ namespace GlobalNamespace {
     static MenuPlayerController* New_ctor();
   }; // MenuPlayerController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuPlayerController*, "", "MenuPlayerController");
 #pragma pack(pop)

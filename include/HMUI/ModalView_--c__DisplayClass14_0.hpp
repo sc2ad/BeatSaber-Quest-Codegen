@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HMUI.ModalView
 #include "HMUI/ModalView.hpp"
 // Completed includes
@@ -29,15 +27,15 @@ namespace HMUI {
     // Offset: 0x18
     System::Action* finishedCallback;
     // System.Void <Hide>b__0()
-    // Offset: 0x10C80F0
+    // Offset: 0x10D8B34
     void $Hide$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10C80E8
+    // Offset: 0x10D8B2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ModalView::$$c__DisplayClass14_0* New_ctor();
   }; // HMUI.ModalView/<>c__DisplayClass14_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass14_0*, "HMUI", "ModalView/<>c__DisplayClass14_0");
 #pragma pack(pop)

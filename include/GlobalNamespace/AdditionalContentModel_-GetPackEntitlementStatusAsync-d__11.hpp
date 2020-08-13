@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: AdditionalContentModel
 #include "GlobalNamespace/AdditionalContentModel.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $GetPackEntitlementStatusAsync$d__11
     $GetPackEntitlementStatusAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$t__builder_ = {}, GlobalNamespace::AdditionalContentModel* $$4__this_ = {}, ::CsString* levelPackId_ = {}, System::Threading::CancellationToken token_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelPackId{levelPackId_}, token{token_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xADA60C
+    // Offset: 0xA272A8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xADA614
+    // Offset: 0xA272B0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AdditionalContentModel/<GetPackEntitlementStatusAsync>d__11
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::$GetPackEntitlementStatusAsync$d__11, "", "AdditionalContentModel/<GetPackEntitlementStatusAsync>d__11");
 #pragma pack(pop)

@@ -61,15 +61,15 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // private System.Boolean UseOneSaberOnly(BeatmapCharacteristicSO beatmapCharacteristic, PlayerSpecificSettings playerSpecificSettings, SaberType saberType)
-    // Offset: 0xB3E1C0
+    // Offset: 0xB3C1C0
     bool UseOneSaberOnly(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::SaberType& saberType);
     // public override System.Void InstallBindings()
-    // Offset: 0xB3D22C
+    // Offset: 0xB3B22C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xB3E278
+    // Offset: 0xB3C278
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -81,6 +81,6 @@ namespace GlobalNamespace {
     static GameplayCoreSceneSetup* New_ctor();
   }; // GameplayCoreSceneSetup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayCoreSceneSetup*, "", "GameplayCoreSceneSetup");
 #pragma pack(pop)

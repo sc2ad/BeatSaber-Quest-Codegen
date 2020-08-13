@@ -127,46 +127,46 @@ namespace UnityEngine::UI {
     // Offset: 0x74
     int m_ConstraintCount;
     // public UnityEngine.UI.GridLayoutGroup/Corner get_startCorner()
-    // Offset: 0x1158110
+    // Offset: 0x1169B54
     UnityEngine::UI::GridLayoutGroup::Corner get_startCorner();
     // public System.Void set_startCorner(UnityEngine.UI.GridLayoutGroup/Corner value)
-    // Offset: 0x1158118
+    // Offset: 0x1169B5C
     void set_startCorner(UnityEngine::UI::GridLayoutGroup::Corner value);
     // public UnityEngine.UI.GridLayoutGroup/Axis get_startAxis()
-    // Offset: 0x115817C
+    // Offset: 0x1169BC0
     UnityEngine::UI::GridLayoutGroup::Axis get_startAxis();
     // public System.Void set_startAxis(UnityEngine.UI.GridLayoutGroup/Axis value)
-    // Offset: 0x1158184
+    // Offset: 0x1169BC8
     void set_startAxis(UnityEngine::UI::GridLayoutGroup::Axis value);
     // public UnityEngine.Vector2 get_cellSize()
-    // Offset: 0x11581E8
+    // Offset: 0x1169C2C
     UnityEngine::Vector2 get_cellSize();
     // public System.Void set_cellSize(UnityEngine.Vector2 value)
-    // Offset: 0x11581F0
+    // Offset: 0x1169C34
     void set_cellSize(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_spacing()
-    // Offset: 0x115825C
+    // Offset: 0x1169CA0
     UnityEngine::Vector2 get_spacing();
     // public System.Void set_spacing(UnityEngine.Vector2 value)
-    // Offset: 0x1158264
+    // Offset: 0x1169CA8
     void set_spacing(UnityEngine::Vector2 value);
     // public UnityEngine.UI.GridLayoutGroup/Constraint get_constraint()
-    // Offset: 0x11582D0
+    // Offset: 0x1169D14
     UnityEngine::UI::GridLayoutGroup::Constraint get_constraint();
     // public System.Void set_constraint(UnityEngine.UI.GridLayoutGroup/Constraint value)
-    // Offset: 0x11582D8
+    // Offset: 0x1169D1C
     void set_constraint(UnityEngine::UI::GridLayoutGroup::Constraint value);
     // public System.Int32 get_constraintCount()
-    // Offset: 0x115833C
+    // Offset: 0x1169D80
     int get_constraintCount();
     // public System.Void set_constraintCount(System.Int32 value)
-    // Offset: 0x1158344
+    // Offset: 0x1169D88
     void set_constraintCount(int value);
     // private System.Void SetCellsAlongAxis(System.Int32 axis)
-    // Offset: 0x1158810
+    // Offset: 0x116A254
     void SetCellsAlongAxis(int axis);
     // protected System.Void .ctor()
-    // Offset: 0x11583DC
+    // Offset: 0x1169E20
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -177,28 +177,28 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static GridLayoutGroup* New_ctor();
     // public override System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x1158488
+    // Offset: 0x1169ECC
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public override System.Void CalculateLayoutInputVertical()
-    // Offset: 0x1158624
+    // Offset: 0x116A068
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public override System.Void SetLayoutHorizontal()
-    // Offset: 0x1158808
+    // Offset: 0x116A24C
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public override System.Void SetLayoutVertical()
-    // Offset: 0x1158EA0
+    // Offset: 0x116A8E4
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();
   }; // UnityEngine.UI.GridLayoutGroup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup*, "UnityEngine.UI", "GridLayoutGroup");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Corner, "UnityEngine.UI", "GridLayoutGroup/Corner");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Axis, "UnityEngine.UI", "GridLayoutGroup/Axis");

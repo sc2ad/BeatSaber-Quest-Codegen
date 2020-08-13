@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithNetSyncSessionsChangedNotification : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification*> {
     public:
     // protected Oculus.Platform.Models.NetSyncSessionsChangedNotification GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8F788
+    // Offset: 0xEA21CC
     Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE888C0
+    // Offset: 0xE9B304
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithNetSyncSessionsChangedNotification* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.NetSyncSessionsChangedNotification GetNetSyncSessionsChangedNotification()
-    // Offset: 0xE8F744
+    // Offset: 0xEA2188
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.NetSyncSessionsChangedNotification Message::GetNetSyncSessionsChangedNotification()
     Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetNetSyncSessionsChangedNotification();
   }; // Oculus.Platform.MessageWithNetSyncSessionsChangedNotification
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncSessionsChangedNotification*, "Oculus.Platform", "MessageWithNetSyncSessionsChangedNotification");
 #pragma pack(pop)

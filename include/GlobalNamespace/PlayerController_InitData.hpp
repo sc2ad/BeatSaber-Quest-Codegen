@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PlayerController
 #include "GlobalNamespace/PlayerController.hpp"
 // Including type: SaberType
@@ -24,10 +22,10 @@ namespace GlobalNamespace {
     // Offset: 0x14
     GlobalNamespace::SaberType oneSaberType;
     // public System.Void .ctor(System.Boolean oneSaberMode, SaberType oneSaberType)
-    // Offset: 0xBC4E80
+    // Offset: 0xBD78C4
     static PlayerController::InitData* New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType);
   }; // PlayerController/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerController::InitData*, "", "PlayerController/InitData");
 #pragma pack(pop)

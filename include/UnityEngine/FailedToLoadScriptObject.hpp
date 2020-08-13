@@ -14,6 +14,6 @@ namespace UnityEngine {
   class FailedToLoadScriptObject : public UnityEngine::Object {
   }; // UnityEngine.FailedToLoadScriptObject
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FailedToLoadScriptObject*, "UnityEngine", "FailedToLoadScriptObject");
 #pragma pack(pop)

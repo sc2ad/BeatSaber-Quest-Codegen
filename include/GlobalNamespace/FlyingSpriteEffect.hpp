@@ -45,15 +45,15 @@ namespace GlobalNamespace {
     // Offset: 0x90
     UnityEngine::Color color;
     // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Sprite sprite, UnityEngine.Material material, UnityEngine.Color color, System.Boolean shake)
-    // Offset: 0xBDB460
+    // Offset: 0xBEDEA4
     void InitAndPresent(float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Sprite* sprite, UnityEngine::Material* material, UnityEngine::Color color, bool shake);
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0xBDB524
+    // Offset: 0xBEDF68
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0xBDB598
+    // Offset: 0xBEDFDC
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -64,6 +64,6 @@ namespace GlobalNamespace {
     static FlyingSpriteEffect* New_ctor();
   }; // FlyingSpriteEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteEffect*, "", "FlyingSpriteEffect");
 #pragma pack(pop)

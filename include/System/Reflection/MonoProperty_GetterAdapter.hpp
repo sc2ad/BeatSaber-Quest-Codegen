@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: System.Reflection.MonoProperty
 #include "System/Reflection/MonoProperty.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace System::Reflection {
   class MonoProperty::GetterAdapter : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x113EF18
+    // Offset: 0x115095C
     static MonoProperty::GetterAdapter* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Object Invoke(System.Object _this)
-    // Offset: 0x113EF2C
+    // Offset: 0x1150970
     ::CsObject* Invoke(::CsObject* _this);
     // public System.IAsyncResult BeginInvoke(System.Object _this, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x113F2EC
+    // Offset: 0x1150D30
     System::IAsyncResult* BeginInvoke(::CsObject* _this, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x113F310
+    // Offset: 0x1150D54
     ::CsObject* EndInvoke(System::IAsyncResult* result);
   }; // System.Reflection.MonoProperty/GetterAdapter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty::GetterAdapter*, "System.Reflection", "MonoProperty/GetterAdapter");
 #pragma pack(pop)

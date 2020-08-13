@@ -25,25 +25,25 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::InjectSources Source;
     // public System.Boolean get_Optional()
-    // Offset: 0x1945ABC
+    // Offset: 0x1958500
     bool get_Optional();
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x1945AC4
+    // Offset: 0x1958508
     void set_Optional(bool value);
     // public System.Object get_Id()
-    // Offset: 0x1945AD0
+    // Offset: 0x1958514
     ::CsObject* get_Id();
     // public System.Void set_Id(System.Object value)
-    // Offset: 0x1945AD8
+    // Offset: 0x195851C
     void set_Id(::CsObject* value);
     // public Zenject.InjectSources get_Source()
-    // Offset: 0x1945AE0
+    // Offset: 0x1958524
     Zenject::InjectSources get_Source();
     // public System.Void set_Source(Zenject.InjectSources value)
-    // Offset: 0x1945AE8
+    // Offset: 0x195852C
     void set_Source(Zenject::InjectSources value);
     // protected System.Void .ctor()
-    // Offset: 0x1945AB4
+    // Offset: 0x19584F8
     // Implemented from: Zenject.Internal.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -51,6 +51,6 @@ namespace Zenject {
     static InjectAttributeBase* New_ctor();
   }; // Zenject.InjectAttributeBase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");
 #pragma pack(pop)

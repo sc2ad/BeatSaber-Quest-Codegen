@@ -20,17 +20,17 @@ namespace Microsoft::Win32::SafeHandles {
   class SafeWaitHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
     // public System.Void .ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
-    // Offset: 0x109768C
+    // Offset: 0x10A80D0
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
     static SafeWaitHandle* New_ctor(System::IntPtr existingHandle, bool ownsHandle);
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x10976B8
+    // Offset: 0x10A80FC
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // Microsoft.Win32.SafeHandles.SafeWaitHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeWaitHandle*, "Microsoft.Win32.SafeHandles", "SafeWaitHandle");
 #pragma pack(pop)

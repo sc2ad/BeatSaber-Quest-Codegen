@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.EventKeywords
 #include "System/Diagnostics/Tracing/EventKeywords.hpp"
 // Including type: System.Diagnostics.Tracing.EventLevel
@@ -56,28 +54,28 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x30
     System::Type* dataType;
     // System.Void .ctor(System.Type dataType)
-    // Offset: 0xD88C98
+    // Offset: 0xD9C6DC
     static TraceLoggingTypeInfo* New_ctor(System::Type* dataType);
     // System.Void .ctor(System.Type dataType, System.String name, System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventOpcode opcode, System.Diagnostics.Tracing.EventKeywords keywords, System.Diagnostics.Tracing.EventTags tags)
-    // Offset: 0xD88D9C
+    // Offset: 0xD9C7E0
     static TraceLoggingTypeInfo* New_ctor(System::Type* dataType, ::CsString* name, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventOpcode opcode, System::Diagnostics::Tracing::EventKeywords keywords, System::Diagnostics::Tracing::EventTags tags);
     // public System.String get_Name()
-    // Offset: 0xD88F00
+    // Offset: 0xD9C944
     ::CsString* get_Name();
     // public System.Diagnostics.Tracing.EventLevel get_Level()
-    // Offset: 0xD88F08
+    // Offset: 0xD9C94C
     System::Diagnostics::Tracing::EventLevel get_Level();
     // public System.Diagnostics.Tracing.EventOpcode get_Opcode()
-    // Offset: 0xD88F10
+    // Offset: 0xD9C954
     System::Diagnostics::Tracing::EventOpcode get_Opcode();
     // public System.Diagnostics.Tracing.EventKeywords get_Keywords()
-    // Offset: 0xD88F18
+    // Offset: 0xD9C95C
     System::Diagnostics::Tracing::EventKeywords get_Keywords();
     // public System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0xD88F20
+    // Offset: 0xD9C964
     System::Diagnostics::Tracing::EventTags get_Tags();
     // System.Type get_DataType()
-    // Offset: 0xD88F28
+    // Offset: 0xD9C96C
     System::Type* get_DataType();
     // public System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     // Offset: 0xFFFFFFFF
@@ -86,10 +84,10 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     void WriteObjectData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::CsObject* value);
     // public System.Object GetData(System.Object value)
-    // Offset: 0xD8709C
+    // Offset: 0xD9AAE0
     ::CsObject* GetData(::CsObject* value);
   }; // System.Diagnostics.Tracing.TraceLoggingTypeInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingTypeInfo*, "System.Diagnostics.Tracing", "TraceLoggingTypeInfo");
 #pragma pack(pop)

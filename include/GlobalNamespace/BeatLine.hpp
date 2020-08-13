@@ -78,27 +78,27 @@ namespace GlobalNamespace {
     // Offset: 0x68
     float rotation;
     // public System.Boolean get_isFinished()
-    // Offset: 0x197398C
+    // Offset: 0xB8BC88
     bool get_isFinished();
     // public System.Single get_rotation()
-    // Offset: 0x19739E4
+    // Offset: 0xB8BCE0
     float get_rotation();
     // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
-    // Offset: 0x19739EC
+    // Offset: 0xB8BCE8
     void Init(UnityEngine::Vector3 position, float rotation);
     // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
-    // Offset: 0x1973B04
+    // Offset: 0xB8BE00
     void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x1973B88
+    // Offset: 0xB8BE84
     void ManualUpdate(float songTime);
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1973AF8
+    // Offset: 0xB8BDF4
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1973CFC
+    // Offset: 0xB8BFF8
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     static BeatLine* New_ctor();
   }; // BeatLine
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine*, "", "BeatLine");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine::HighlightData, "", "BeatLine/HighlightData");
 #pragma pack(pop)

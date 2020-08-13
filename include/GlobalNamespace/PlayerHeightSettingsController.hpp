@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Offset: 0x48
     HMUI::ButtonBinder* buttonBinder;
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0xBC96B8
+    // Offset: 0xBDC0FC
     void set_interactable(bool value);
     // protected System.Void Awake()
-    // Offset: 0xBC9750
+    // Offset: 0xBDC194
     void Awake();
     // public System.Void Init(PlayerSpecificSettings playerSettings)
-    // Offset: 0xBC9814
+    // Offset: 0xBDC258
     void Init(GlobalNamespace::PlayerSpecificSettings* playerSettings);
     // private System.Void AutoSetHeight()
-    // Offset: 0xBC98E0
+    // Offset: 0xBDC324
     void AutoSetHeight();
     // private System.Void RefreshUI()
-    // Offset: 0xBC983C
+    // Offset: 0xBDC280
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0xBC998C
+    // Offset: 0xBDC3D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -91,6 +91,6 @@ namespace GlobalNamespace {
     static PlayerHeightSettingsController* New_ctor();
   }; // PlayerHeightSettingsController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightSettingsController*, "", "PlayerHeightSettingsController");
 #pragma pack(pop)

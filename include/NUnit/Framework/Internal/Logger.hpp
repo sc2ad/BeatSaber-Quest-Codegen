@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Internal.InternalTraceLevel
 #include "NUnit/Framework/Internal/InternalTraceLevel.hpp"
 // Completed includes
@@ -43,31 +41,31 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x28
     System::IO::TextWriter* writer;
     // public System.Void .ctor(System.String name, NUnit.Framework.Internal.InternalTraceLevel level, System.IO.TextWriter writer)
-    // Offset: 0x18D4590
+    // Offset: 0x18E4FD4
     static Logger* New_ctor(::CsString* name, NUnit::Framework::Internal::InternalTraceLevel level, System::IO::TextWriter* writer);
     // public System.Void Error(System.String message)
-    // Offset: 0x18D4900
+    // Offset: 0x18E5344
     void Error(::CsString* message);
     // public System.Void Debug(System.String message)
-    // Offset: 0x18D4940
+    // Offset: 0x18E5384
     void Debug(::CsString* message);
     // public System.Void Debug(System.String message, System.Object[] args)
-    // Offset: 0x18D4964
+    // Offset: 0x18E53A8
     void Debug(::CsString* message, ::Array<::CsObject*>* args);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x18D4924
+    // Offset: 0x18E5368
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::CsString* message);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, System.Object[] args)
-    // Offset: 0x18D4974
+    // Offset: 0x18E53B8
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::CsString* format, ::Array<::CsObject*>* args);
     // private System.Void WriteLog(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x18D49C0
+    // Offset: 0x18E5404
     void WriteLog(NUnit::Framework::Internal::InternalTraceLevel level, ::CsString* message);
     // static private System.Void .cctor()
-    // Offset: 0x18D4C80
+    // Offset: 0x18E56C4
     static void _cctor();
   }; // NUnit.Framework.Internal.Logger
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Logger*, "NUnit.Framework.Internal", "Logger");
 #pragma pack(pop)

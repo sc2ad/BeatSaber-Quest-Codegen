@@ -27,28 +27,28 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: InputDevice
     InputDevice(uint64_t m_DeviceId_ = {}, bool m_Initialized_ = {}) : m_DeviceId{m_DeviceId_}, m_Initialized{m_Initialized_} {}
     // System.Void .ctor(System.UInt64 deviceId)
-    // Offset: 0xA5B274
+    // Offset: 0xA5B2F0
     static InputDevice* New_ctor(uint64_t deviceId);
     // private System.UInt64 get_deviceId()
-    // Offset: 0xA5B284
+    // Offset: 0xA5B300
     uint64_t get_deviceId();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5B29C
+    // Offset: 0xA5B318
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.InputDevice other)
-    // Offset: 0xA5B2A4
+    // Offset: 0xA5B320
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.InputDevice other)
     bool Equals(UnityEngine::XR::InputDevice other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5B2CC
+    // Offset: 0xA5B348
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.InputDevice
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");
 #pragma pack(pop)

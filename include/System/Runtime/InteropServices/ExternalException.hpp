@@ -23,31 +23,31 @@ namespace System::Runtime::InteropServices {
   class ExternalException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1151024
+    // Offset: 0x1162A68
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static ExternalException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1150BD4
+    // Offset: 0x1162618
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static ExternalException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1150C10
+    // Offset: 0x1162654
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ExternalException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x1151098
+    // Offset: 0x1162ADC
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::CsString* ToString();
   }; // System.Runtime.InteropServices.ExternalException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ExternalException*, "System.Runtime.InteropServices", "ExternalException");
 #pragma pack(pop)

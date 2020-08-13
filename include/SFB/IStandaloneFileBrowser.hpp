@@ -48,6 +48,6 @@ namespace SFB {
     void SaveFilePanelAsync(::CsString* title, ::CsString* directory, ::CsString* defaultName, ::Array<SFB::ExtensionFilter>* extensions, System::Action_1<::CsString*>* cb);
   }; // SFB.IStandaloneFileBrowser
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(SFB::IStandaloneFileBrowser*, "SFB", "IStandaloneFileBrowser");
 #pragma pack(pop)

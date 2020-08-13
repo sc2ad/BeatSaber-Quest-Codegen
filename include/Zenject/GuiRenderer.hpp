@@ -24,13 +24,13 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::GuiRenderableManager* renderableManager;
     // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
-    // Offset: 0xF24704
+    // Offset: 0xF35148
     void Construct(Zenject::GuiRenderableManager* renderableManager);
     // public System.Void OnGUI()
-    // Offset: 0xF2470C
+    // Offset: 0xF35150
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0xF24724
+    // Offset: 0xF35168
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -40,6 +40,6 @@ namespace Zenject {
     static GuiRenderer* New_ctor();
   }; // Zenject.GuiRenderer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderer*, "Zenject", "GuiRenderer");
 #pragma pack(pop)

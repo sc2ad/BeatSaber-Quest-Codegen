@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: AudioTimeSyncController
 #include "GlobalNamespace/AudioTimeSyncController.hpp"
 // Completed includes
@@ -35,10 +33,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float timeScale;
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0x1970304
+    // Offset: 0xB88600
     static AudioTimeSyncController::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale);
   }; // AudioTimeSyncController/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController::InitData*, "", "AudioTimeSyncController/InitData");
 #pragma pack(pop)

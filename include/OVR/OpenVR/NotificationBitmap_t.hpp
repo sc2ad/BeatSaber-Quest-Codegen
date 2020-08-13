@@ -30,6 +30,6 @@ namespace OVR::OpenVR {
     NotificationBitmap_t(System::IntPtr m_pImageData_ = {}, int m_nWidth_ = {}, int m_nHeight_ = {}, int m_nBytesPerPixel_ = {}) : m_pImageData{m_pImageData_}, m_nWidth{m_nWidth_}, m_nHeight{m_nHeight_}, m_nBytesPerPixel{m_nBytesPerPixel_} {}
   }; // OVR.OpenVR.NotificationBitmap_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::NotificationBitmap_t, "OVR.OpenVR", "NotificationBitmap_t");
 #pragma pack(pop)

@@ -29,10 +29,10 @@ namespace System::Text {
     // Offset: 0x98
     int index;
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x12D5E98
+    // Offset: 0x12E78DC
     static DecoderFallbackException* New_ctor(::CsString* message, ::Array<uint8_t>* bytesUnknown, int index);
     // public System.Void .ctor()
-    // Offset: 0x12D669C
+    // Offset: 0x12E80E0
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -40,7 +40,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     static DecoderFallbackException* New_ctor();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12D6710
+    // Offset: 0x12E8154
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -48,6 +48,6 @@ namespace System::Text {
     static DecoderFallbackException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Text.DecoderFallbackException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackException*, "System.Text", "DecoderFallbackException");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TMPro.TMP_FontAsset
 #include "TMPro/TMP_FontAsset.hpp"
 // Completed includes
@@ -49,21 +47,21 @@ namespace TMPro {
     // Set static field: static public System.Func`2<UnityEngine.TextCore.Glyph,System.UInt32> <>9__101_0
     static void _set_$$9__101_0(System::Func_2<UnityEngine::TextCore::Glyph*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB74214
+    // Offset: 0xB72214
     static void _cctor();
     // System.UInt32 <SortCharacterTable>b__100_0(TMPro.TMP_Character c)
-    // Offset: 0xB74284
+    // Offset: 0xB72284
     uint $SortCharacterTable$b__100_0(TMPro::TMP_Character* c);
     // System.UInt32 <SortGlyphTable>b__101_0(UnityEngine.TextCore.Glyph c)
-    // Offset: 0xB7429C
+    // Offset: 0xB7229C
     uint $SortGlyphTable$b__101_0(UnityEngine::TextCore::Glyph* c);
     // public System.Void .ctor()
-    // Offset: 0xB7427C
+    // Offset: 0xB7227C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_FontAsset::$$c* New_ctor();
   }; // TMPro.TMP_FontAsset/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset::$$c*, "TMPro", "TMP_FontAsset/<>c");
 #pragma pack(pop)

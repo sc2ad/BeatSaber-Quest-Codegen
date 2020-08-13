@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: RootMotion.FinalIK.IKSolverLimb
 #include "RootMotion/FinalIK/IKSolverLimb.hpp"
 // Completed includes
@@ -27,10 +25,10 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: AxisDirection
     AxisDirection(UnityEngine::Vector3 direction_ = {}, UnityEngine::Vector3 axis_ = {}, float dot_ = {}) : direction{direction_}, axis{axis_}, dot{dot_} {}
     // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
-    // Offset: 0xA42EA8
+    // Offset: 0xA42F24
     static IKSolverLimb::AxisDirection* New_ctor(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis);
   }; // RootMotion.FinalIK.IKSolverLimb/AxisDirection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::AxisDirection, "RootMotion.FinalIK", "IKSolverLimb/AxisDirection");
 #pragma pack(pop)

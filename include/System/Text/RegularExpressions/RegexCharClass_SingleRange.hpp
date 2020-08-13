@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Text.RegularExpressions.RegexCharClass
 #include "System/Text/RegularExpressions/RegexCharClass.hpp"
 // Completed includes
@@ -22,10 +20,10 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x12
     ::Il2CppChar last;
     // System.Void .ctor(System.Char first, System.Char last)
-    // Offset: 0x1210444
+    // Offset: 0x1222E88
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last);
   }; // System.Text.RegularExpressions.RegexCharClass/SingleRange
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
 #pragma pack(pop)

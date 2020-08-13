@@ -31,6 +31,6 @@ namespace TMPro {
     TMP_PageInfo(int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, float ascender_ = {}, float baseLine_ = {}, float descender_ = {}) : firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, ascender{ascender_}, baseLine{baseLine_}, descender{descender_} {}
   }; // TMPro.TMP_PageInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_PageInfo, "TMPro", "TMP_PageInfo");
 #pragma pack(pop)

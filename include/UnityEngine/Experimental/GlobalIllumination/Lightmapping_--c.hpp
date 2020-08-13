@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.Lightmapping
 #include "UnityEngine/Experimental/GlobalIllumination/Lightmapping.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightDataGI
@@ -35,18 +33,18 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static public readonly UnityEngine.Experimental.GlobalIllumination.Lightmapping/<>c <>9
     static void _set_$$9(UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x12F6584
+    // Offset: 0x1308FC8
     static void _cctor();
     // System.Void <.cctor>b__7_0(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
-    // Offset: 0x12F65F4
+    // Offset: 0x1309038
     void $_cctor$b__7_0(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.Void .ctor()
-    // Offset: 0x12F65EC
+    // Offset: 0x1309030
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Lightmapping::$$c* New_ctor();
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c*, "UnityEngine.Experimental.GlobalIllumination", "Lightmapping/<>c");
 #pragma pack(pop)

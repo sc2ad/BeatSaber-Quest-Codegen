@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
@@ -31,42 +29,42 @@ namespace GlobalNamespace {
     // Offset: 0x18
     bool startInAdvanceAndClearNotes;
     // public System.Single get_startSongTime()
-    // Offset: 0xC0771C
+    // Offset: 0xC19160
     float get_startSongTime();
     // public System.Void set_startSongTime(System.Single value)
-    // Offset: 0xC07724
+    // Offset: 0xC19168
     void set_startSongTime(float value);
     // public System.Single get_songSpeedMul()
-    // Offset: 0xC0772C
+    // Offset: 0xC19170
     float get_songSpeedMul();
     // public System.Void set_songSpeedMul(System.Single value)
-    // Offset: 0xC07734
+    // Offset: 0xC19178
     void set_songSpeedMul(float value);
     // public System.Boolean get_startInAdvanceAndClearNotes()
-    // Offset: 0xC0773C
+    // Offset: 0xC19180
     bool get_startInAdvanceAndClearNotes();
     // public System.Void set_startInAdvanceAndClearNotes(System.Boolean value)
-    // Offset: 0xC07744
+    // Offset: 0xC19188
     void set_startInAdvanceAndClearNotes(bool value);
     // static public PracticeSettings get_defaultPracticeSettings()
-    // Offset: 0xC07750
+    // Offset: 0xC19194
     static GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
     // public System.Void .ctor(PracticeSettings practiceSettings)
-    // Offset: 0xC07818
+    // Offset: 0xC1925C
     static PracticeSettings* New_ctor(GlobalNamespace::PracticeSettings* practiceSettings);
     // public System.Void .ctor(System.Single startSongTime, System.Single songSpeedMul)
-    // Offset: 0xC0786C
+    // Offset: 0xC192B0
     static PracticeSettings* New_ctor(float startSongTime, float songSpeedMul);
     // public System.Void ResetToDefault()
-    // Offset: 0xC07800
+    // Offset: 0xC19244
     void ResetToDefault();
     // public System.Void .ctor()
-    // Offset: 0xC077C4
+    // Offset: 0xC19208
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PracticeSettings* New_ctor();
   }; // PracticeSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeSettings*, "", "PracticeSettings");
 #pragma pack(pop)

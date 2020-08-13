@@ -115,22 +115,22 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Mesh* mesh;
     // protected System.Void Awake()
-    // Offset: 0xB928EC
+    // Offset: 0xBA4330
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB92ABC
+    // Offset: 0xBA4500
     void OnDestroy();
     // private UnityEngine.Mesh CreateBox()
-    // Offset: 0xB9297C
+    // Offset: 0xBA43C0
     UnityEngine::Mesh* CreateBox();
     // private System.Void RecalculateUVs(UnityEngine.Vector2[] uvs)
-    // Offset: 0xB92AC8
+    // Offset: 0xBA450C
     void RecalculateUVs(::Array<UnityEngine::Vector2>* uvs);
     // public System.Void RefreshUVs()
-    // Offset: 0xB92DA0
+    // Offset: 0xBA47E4
     void RefreshUVs();
     // public System.Void .ctor()
-    // Offset: 0xB92E44
+    // Offset: 0xBA4888
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -139,12 +139,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StretchableCube* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xB92E4C
+    // Offset: 0xBA4890
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // StretchableCube
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableCube*, "", "StretchableCube");
 #pragma pack(pop)

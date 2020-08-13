@@ -18,10 +18,10 @@ namespace UnityEngine {
     // Creating value type constructor for type: SortingLayer
     SortingLayer(int m_Id_ = {}) : m_Id{m_Id_} {}
     // static public System.Int32 GetLayerValueFromID(System.Int32 id)
-    // Offset: 0x1377654
+    // Offset: 0x138A098
     static int GetLayerValueFromID(int id);
   }; // UnityEngine.SortingLayer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SortingLayer, "UnityEngine", "SortingLayer");
 #pragma pack(pop)

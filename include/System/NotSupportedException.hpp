@@ -23,26 +23,26 @@ namespace System {
   class NotSupportedException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFF9C4
+    // Offset: 0x100F408
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static NotSupportedException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xFFA2B4
+    // Offset: 0x1009CF8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static NotSupportedException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1003C04
+    // Offset: 0x1013648
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static NotSupportedException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.NotSupportedException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::NotSupportedException*, "System", "NotSupportedException");
 #pragma pack(pop)

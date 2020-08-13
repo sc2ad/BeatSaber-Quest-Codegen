@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -94,28 +92,28 @@ namespace TMPro {
     // Offset: 0x68
     ::Array<TMPro::TMP_MeshInfo>* m_CachedMeshInfo;
     // public System.Void .ctor(TMPro.TMP_Text textComponent)
-    // Offset: 0xDAAF20
+    // Offset: 0xDBD964
     static TMP_TextInfo* New_ctor(TMPro::TMP_Text* textComponent);
     // public System.Void Clear()
-    // Offset: 0xDAB0B4
+    // Offset: 0xDBDAF8
     void Clear();
     // public System.Void ClearMeshInfo(System.Boolean updateMesh)
-    // Offset: 0xDAB118
+    // Offset: 0xDBDB5C
     void ClearMeshInfo(bool updateMesh);
     // public System.Void ClearAllMeshInfo()
-    // Offset: 0xDAB198
+    // Offset: 0xDBDBDC
     void ClearAllMeshInfo();
     // public System.Void ResetVertexLayout(System.Boolean isVolumetric)
-    // Offset: 0xDAB214
+    // Offset: 0xDBDC58
     void ResetVertexLayout(bool isVolumetric);
     // public System.Void ClearUnusedVertices(TMPro.MaterialReference[] materials)
-    // Offset: 0xDAB298
+    // Offset: 0xDBDCDC
     void ClearUnusedVertices(::Array<TMPro::MaterialReference>* materials);
     // public System.Void ClearLineInfo()
-    // Offset: 0xDAB314
+    // Offset: 0xDBDD58
     void ClearLineInfo();
     // public TMPro.TMP_MeshInfo[] CopyMeshInfoVertexData()
-    // Offset: 0xDAB524
+    // Offset: 0xDBDF68
     ::Array<TMPro::TMP_MeshInfo>* CopyMeshInfoVertexData();
     // static public System.Void Resize(T[] array, System.Int32 size)
     // Offset: 0xFFFFFFFF
@@ -130,10 +128,10 @@ namespace TMPro {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("TMPro", "TMP_TextInfo", "Resize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array, size, isBlockAllocated));
     }
     // static private System.Void .cctor()
-    // Offset: 0xDAB950
+    // Offset: 0xDBE394
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xDAAE00
+    // Offset: 0xDBD844
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextInfo* New_ctor();

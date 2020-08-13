@@ -31,10 +31,10 @@ namespace Zenject {
     // Creating value type constructor for type: TypeValuePair
     TypeValuePair(System::Type* Type_ = {}, ::CsObject* Value_ = {}) : Type{Type_}, Value{Value_} {}
     // public System.Void .ctor(System.Type type, System.Object value)
-    // Offset: 0xA5A4F4
+    // Offset: 0xA5A570
     static TypeValuePair* New_ctor(System::Type* type, ::CsObject* value);
   }; // Zenject.TypeValuePair
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeValuePair, "Zenject", "TypeValuePair");
 #pragma pack(pop)

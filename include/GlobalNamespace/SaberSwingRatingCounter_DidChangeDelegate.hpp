@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: SaberSwingRatingCounter
 #include "GlobalNamespace/SaberSwingRatingCounter.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace GlobalNamespace {
   class SaberSwingRatingCounter::DidChangeDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xC14980
+    // Offset: 0xC263C4
     static SaberSwingRatingCounter::DidChangeDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(SaberSwingRatingCounter afterCutRating, System.Single rating)
-    // Offset: 0xC14560
+    // Offset: 0xC25FA4
     void Invoke(GlobalNamespace::SaberSwingRatingCounter* afterCutRating, float rating);
     // public System.IAsyncResult BeginInvoke(SaberSwingRatingCounter afterCutRating, System.Single rating, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xC14994
+    // Offset: 0xC263D8
     System::IAsyncResult* BeginInvoke(GlobalNamespace::SaberSwingRatingCounter* afterCutRating, float rating, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xC14A30
+    // Offset: 0xC26474
     void EndInvoke(System::IAsyncResult* result);
   }; // SaberSwingRatingCounter/DidChangeDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRatingCounter::DidChangeDelegate*, "", "SaberSwingRatingCounter/DidChangeDelegate");
 #pragma pack(pop)

@@ -25,6 +25,6 @@ namespace OVR::OpenVR {
     HmdVector3d_t(double v0_ = {}, double v1_ = {}, double v2_ = {}) : v0{v0_}, v1{v1_}, v2{v2_} {}
   }; // OVR.OpenVR.HmdVector3d_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdVector3d_t, "OVR.OpenVR", "HmdVector3d_t");
 #pragma pack(pop)

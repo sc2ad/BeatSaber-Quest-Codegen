@@ -200,36 +200,36 @@ namespace GlobalNamespace {
     // Offset: 0x12B
     bool isLoaded;
     // public System.Boolean get_createScreenshotDuringTheGame()
-    // Offset: 0xBEB6E0
+    // Offset: 0xBFD124
     bool get_createScreenshotDuringTheGame();
     // private System.Void set_createScreenshotDuringTheGame(System.Boolean value)
-    // Offset: 0xBEB6E8
+    // Offset: 0xBFD12C
     void set_createScreenshotDuringTheGame(bool value);
     // public System.Boolean get_playingForTheFirstTime()
-    // Offset: 0xBEB6F4
+    // Offset: 0xBFD138
     bool get_playingForTheFirstTime();
     // private System.Void set_playingForTheFirstTime(System.Boolean value)
-    // Offset: 0xBEB6FC
+    // Offset: 0xBFD140
     void set_playingForTheFirstTime(bool value);
     // public System.Void Save()
-    // Offset: 0xBE93AC
+    // Offset: 0xBFADF0
     void Save();
     // public System.Void Load(System.Boolean forced)
-    // Offset: 0xBEB7CC
+    // Offset: 0xBFD210
     void Load(bool forced);
     // public System.Void __DeleteSettingsFiles()
-    // Offset: 0xBEBDC8
+    // Offset: 0xBFD80C
     void __DeleteSettingsFiles();
     // protected System.Void OnDisable()
-    // Offset: 0xBEBF94
+    // Offset: 0xBFD9D8
     void OnDisable();
     // protected override System.Void OnEnable()
-    // Offset: 0xBEBF00
+    // Offset: 0xBFD944
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xBEBF98
+    // Offset: 0xBFD9DC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -238,6 +238,6 @@ namespace GlobalNamespace {
     static MainSettingsModelSO* New_ctor();
   }; // MainSettingsModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO*, "", "MainSettingsModelSO");
 #pragma pack(pop)

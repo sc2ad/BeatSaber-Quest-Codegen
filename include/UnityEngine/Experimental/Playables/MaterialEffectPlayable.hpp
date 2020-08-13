@@ -24,17 +24,17 @@ namespace UnityEngine::Experimental::Playables {
     // Creating value type constructor for type: MaterialEffectPlayable
     MaterialEffectPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA422A0
+    // Offset: 0xA4231C
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Experimental.Playables.MaterialEffectPlayable other)
-    // Offset: 0xA422AC
+    // Offset: 0xA42328
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Experimental.Playables.MaterialEffectPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::MaterialEffectPlayable other);
   }; // UnityEngine.Experimental.Playables.MaterialEffectPlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");
 #pragma pack(pop)

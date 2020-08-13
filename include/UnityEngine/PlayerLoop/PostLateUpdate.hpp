@@ -105,6 +105,6 @@ namespace UnityEngine::PlayerLoop {
     PostLateUpdate() {}
   }; // UnityEngine.PlayerLoop.PostLateUpdate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PostLateUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate");
 #pragma pack(pop)

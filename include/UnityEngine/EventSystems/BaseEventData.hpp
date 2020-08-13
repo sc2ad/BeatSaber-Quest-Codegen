@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.AbstractEventData
 #include "UnityEngine/EventSystems/AbstractEventData.hpp"
 // Completed includes
@@ -30,19 +31,19 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18
     UnityEngine::EventSystems::EventSystem* m_EventSystem;
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0xDE28B8
+    // Offset: 0xDF52FC
     static BaseEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem);
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()
-    // Offset: 0xDE28EC
+    // Offset: 0xDF5330
     UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
     // public UnityEngine.GameObject get_selectedObject()
-    // Offset: 0xDE2908
+    // Offset: 0xDF534C
     UnityEngine::GameObject* get_selectedObject();
     // public System.Void set_selectedObject(UnityEngine.GameObject value)
-    // Offset: 0xDE2924
+    // Offset: 0xDF5368
     void set_selectedObject(UnityEngine::GameObject* value);
   }; // UnityEngine.EventSystems.BaseEventData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseEventData*, "UnityEngine.EventSystems", "BaseEventData");
 #pragma pack(pop)

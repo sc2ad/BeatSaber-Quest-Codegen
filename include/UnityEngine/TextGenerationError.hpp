@@ -44,6 +44,6 @@ namespace UnityEngine {
     TextGenerationError(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextGenerationError
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationError, "UnityEngine", "TextGenerationError");
 #pragma pack(pop)

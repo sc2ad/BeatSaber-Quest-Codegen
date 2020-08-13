@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -37,42 +35,42 @@ namespace TMPro {
     // Set static field: static private System.String k_LookupStringU
     static void _set_k_LookupStringU(::CsString* value);
     // static private System.Void .cctor()
-    // Offset: 0xDAB9F0
+    // Offset: 0xDBE434
     static void _cctor();
     // static public TMPro.TMP_TextParsingUtilities get_instance()
-    // Offset: 0xDABA60
+    // Offset: 0xDBE4A4
     static TMPro::TMP_TextParsingUtilities* get_instance();
     // static public System.UInt32 GetHashCode(System.String s)
-    // Offset: 0xDABAC8
+    // Offset: 0xDBE50C
     static uint GetHashCode(::CsString* s);
     // static public System.Int32 GetHashCodeCaseSensitive(System.String s)
-    // Offset: 0xDABC18
+    // Offset: 0xDBE65C
     static int GetHashCodeCaseSensitive(::CsString* s);
     // static public System.Char ToLowerASCIIFast(System.Char c)
-    // Offset: 0xDABC90
+    // Offset: 0xDBE6D4
     static ::Il2CppChar ToLowerASCIIFast(::Il2CppChar c);
     // static public System.Char ToUpperASCIIFast(System.Char c)
-    // Offset: 0xDABB9C
+    // Offset: 0xDBE5E0
     static ::Il2CppChar ToUpperASCIIFast(::Il2CppChar c);
     // static public System.UInt32 ToUpperASCIIFast(System.UInt32 c)
-    // Offset: 0xDABD0C
+    // Offset: 0xDBE750
     static uint ToUpperASCIIFast(uint c);
     // static public System.UInt32 ToLowerASCIIFast(System.UInt32 c)
-    // Offset: 0xDABD88
+    // Offset: 0xDBE7CC
     static uint ToLowerASCIIFast(uint c);
     // static public System.Boolean IsHighSurrogate(System.UInt32 c)
-    // Offset: 0xDABE04
+    // Offset: 0xDBE848
     static bool IsHighSurrogate(uint c);
     // static public System.Boolean IsLowSurrogate(System.UInt32 c)
-    // Offset: 0xDABE18
+    // Offset: 0xDBE85C
     static bool IsLowSurrogate(uint c);
     // public System.Void .ctor()
-    // Offset: 0xDABA58
+    // Offset: 0xDBE49C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextParsingUtilities* New_ctor();
   }; // TMPro.TMP_TextParsingUtilities
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextParsingUtilities*, "TMPro", "TMP_TextParsingUtilities");
 #pragma pack(pop)

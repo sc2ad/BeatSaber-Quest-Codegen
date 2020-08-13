@@ -105,45 +105,45 @@ namespace System::Net::Sockets {
     // Offset: 0xA0
     int EndCalled;
     // public System.IntPtr get_Handle()
-    // Offset: 0x11FFE74
+    // Offset: 0x12128B8
     System::IntPtr get_Handle();
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x11FFECC
+    // Offset: 0x1212910
     static SocketAsyncResult* New_ctor(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::CsObject* state, System::Net::Sockets::SocketOperation operation);
     // public System.Net.Sockets.SocketError get_ErrorCode()
-    // Offset: 0x11FFF1C
+    // Offset: 0x1212960
     System::Net::Sockets::SocketError get_ErrorCode();
     // public System.Void CheckIfThrowDelayedException()
-    // Offset: 0x11FFFA4
+    // Offset: 0x12129E8
     void CheckIfThrowDelayedException();
     // public System.Void Complete()
-    // Offset: 0x11FE678
+    // Offset: 0x12110BC
     void Complete();
     // public System.Void Complete(System.Boolean synch)
-    // Offset: 0x1200060
+    // Offset: 0x1212AA4
     void Complete(bool synch);
     // public System.Void Complete(System.Int32 total)
-    // Offset: 0x11FF09C
+    // Offset: 0x1211AE0
     void Complete(int total);
     // public System.Void Complete(System.Exception e, System.Boolean synch)
-    // Offset: 0x120006C
+    // Offset: 0x1212AB0
     void Complete(System::Exception* e, bool synch);
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x11FDDB0
+    // Offset: 0x12107F4
     void Complete(System::Exception* e);
     // public System.Void Complete(System.Net.Sockets.Socket s)
-    // Offset: 0x11FDDD8
+    // Offset: 0x121081C
     void Complete(System::Net::Sockets::Socket* s);
     // public System.Void Complete(System.Net.Sockets.Socket s, System.Int32 total)
-    // Offset: 0x11FE0D8
+    // Offset: 0x1210B1C
     void Complete(System::Net::Sockets::Socket* s, int total);
     // override System.Void CompleteDisposed()
-    // Offset: 0x120005C
+    // Offset: 0x1212AA0
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::CompleteDisposed()
     void CompleteDisposed();
   }; // System.Net.Sockets.SocketAsyncResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.GUISkin
 #include "UnityEngine/GUISkin.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace UnityEngine {
   class GUISkin::SkinChangedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x125CA0C
+    // Offset: 0x126F450
     static GUISkin::SkinChangedDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x125C750
+    // Offset: 0x126F194
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x125CA20
+    // Offset: 0x126F464
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x125CA4C
+    // Offset: 0x126F490
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUISkin/SkinChangedDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin::SkinChangedDelegate*, "UnityEngine", "GUISkin/SkinChangedDelegate");
 #pragma pack(pop)

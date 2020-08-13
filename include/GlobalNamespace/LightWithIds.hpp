@@ -52,19 +52,19 @@ namespace GlobalNamespace {
     // Offset: 0x48
     int lastRefreshColorFrameNum;
     // protected System.Void Start()
-    // Offset: 0x1813928
+    // Offset: 0x182436C
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x1813A1C
+    // Offset: 0x1824460
     void OnValidate();
     // protected UnityEngine.Color RefreshAndGetColor()
-    // Offset: 0x180BCA4
+    // Offset: 0x181C6E8
     UnityEngine::Color RefreshAndGetColor();
     // private System.Void RefreshLightColor()
-    // Offset: 0x1813ACC
+    // Offset: 0x1824510
     void RefreshLightColor();
     // protected System.Void .ctor()
-    // Offset: 0x180BD04
+    // Offset: 0x181C748
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,6 +74,6 @@ namespace GlobalNamespace {
     static LightWithIds* New_ctor();
   }; // LightWithIds
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIds*, "", "LightWithIds");
 #pragma pack(pop)

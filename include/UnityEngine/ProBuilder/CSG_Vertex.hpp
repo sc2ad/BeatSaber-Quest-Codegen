@@ -60,109 +60,109 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: CSG_Vertex
     CSG_Vertex(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Color m_Color_ = {}, UnityEngine::Vector3 m_Normal_ = {}, UnityEngine::Vector4 m_Tangent_ = {}, UnityEngine::Vector2 m_UV0_ = {}, UnityEngine::Vector2 m_UV2_ = {}, UnityEngine::Vector4 m_UV3_ = {}, UnityEngine::Vector4 m_UV4_ = {}, UnityEngine::ProBuilder::MeshArrays m_Attributes_ = {}) : m_Position{m_Position_}, m_Color{m_Color_}, m_Normal{m_Normal_}, m_Tangent{m_Tangent_}, m_UV0{m_UV0_}, m_UV2{m_UV2_}, m_UV3{m_UV3_}, m_UV4{m_UV4_}, m_Attributes{m_Attributes_} {}
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0xA49928
+    // Offset: 0xA499A4
     UnityEngine::Vector3 get_position();
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0xA49934
+    // Offset: 0xA499B0
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xA4994C
+    // Offset: 0xA499C8
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xA49958
+    // Offset: 0xA499D4
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0xA49970
+    // Offset: 0xA499EC
     UnityEngine::Vector3 get_normal();
     // public System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0xA4997C
+    // Offset: 0xA499F8
     void set_normal(UnityEngine::Vector3 value);
     // public UnityEngine.Vector4 get_tangent()
-    // Offset: 0xA49994
+    // Offset: 0xA49A10
     UnityEngine::Vector4 get_tangent();
     // public System.Void set_tangent(UnityEngine.Vector4 value)
-    // Offset: 0xA499A0
+    // Offset: 0xA49A1C
     void set_tangent(UnityEngine::Vector4 value);
     // public UnityEngine.Vector2 get_uv0()
-    // Offset: 0xA499B8
+    // Offset: 0xA49A34
     UnityEngine::Vector2 get_uv0();
     // public System.Void set_uv0(UnityEngine.Vector2 value)
-    // Offset: 0xA499C0
+    // Offset: 0xA49A3C
     void set_uv0(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_uv2()
-    // Offset: 0xA499D4
+    // Offset: 0xA49A50
     UnityEngine::Vector2 get_uv2();
     // public System.Void set_uv2(UnityEngine.Vector2 value)
-    // Offset: 0xA499DC
+    // Offset: 0xA49A58
     void set_uv2(UnityEngine::Vector2 value);
     // public UnityEngine.Vector4 get_uv3()
-    // Offset: 0xA499F0
+    // Offset: 0xA49A6C
     UnityEngine::Vector4 get_uv3();
     // public System.Void set_uv3(UnityEngine.Vector4 value)
-    // Offset: 0xA499FC
+    // Offset: 0xA49A78
     void set_uv3(UnityEngine::Vector4 value);
     // public UnityEngine.Vector4 get_uv4()
-    // Offset: 0xA49A14
+    // Offset: 0xA49A90
     UnityEngine::Vector4 get_uv4();
     // public System.Void set_uv4(UnityEngine.Vector4 value)
-    // Offset: 0xA49A20
+    // Offset: 0xA49A9C
     void set_uv4(UnityEngine::Vector4 value);
     // public System.Boolean HasArrays(UnityEngine.ProBuilder.MeshArrays attribute)
-    // Offset: 0xA49A38
+    // Offset: 0xA49AB4
     bool HasArrays(UnityEngine::ProBuilder::MeshArrays attribute);
     // public System.Boolean get_hasPosition()
-    // Offset: 0xA49A48
+    // Offset: 0xA49AC4
     bool get_hasPosition();
     // private System.Void set_hasPosition(System.Boolean value)
-    // Offset: 0xA49A54
+    // Offset: 0xA49AD0
     void set_hasPosition(bool value);
     // public System.Boolean get_hasColor()
-    // Offset: 0xA49A70
+    // Offset: 0xA49AEC
     bool get_hasColor();
     // private System.Void set_hasColor(System.Boolean value)
-    // Offset: 0xA49A7C
+    // Offset: 0xA49AF8
     void set_hasColor(bool value);
     // public System.Boolean get_hasNormal()
-    // Offset: 0xA49A98
+    // Offset: 0xA49B14
     bool get_hasNormal();
     // private System.Void set_hasNormal(System.Boolean value)
-    // Offset: 0xA49AA4
+    // Offset: 0xA49B20
     void set_hasNormal(bool value);
     // public System.Boolean get_hasTangent()
-    // Offset: 0xA49AC0
+    // Offset: 0xA49B3C
     bool get_hasTangent();
     // private System.Void set_hasTangent(System.Boolean value)
-    // Offset: 0xA49ACC
+    // Offset: 0xA49B48
     void set_hasTangent(bool value);
     // public System.Boolean get_hasUV0()
-    // Offset: 0xA49AE8
+    // Offset: 0xA49B64
     bool get_hasUV0();
     // private System.Void set_hasUV0(System.Boolean value)
-    // Offset: 0xA49AF4
+    // Offset: 0xA49B70
     void set_hasUV0(bool value);
     // public System.Boolean get_hasUV2()
-    // Offset: 0xA49B10
+    // Offset: 0xA49B8C
     bool get_hasUV2();
     // private System.Void set_hasUV2(System.Boolean value)
-    // Offset: 0xA49B1C
+    // Offset: 0xA49B98
     void set_hasUV2(bool value);
     // public System.Boolean get_hasUV3()
-    // Offset: 0xA49B38
+    // Offset: 0xA49BB4
     bool get_hasUV3();
     // private System.Void set_hasUV3(System.Boolean value)
-    // Offset: 0xA49B44
+    // Offset: 0xA49BC0
     void set_hasUV3(bool value);
     // public System.Boolean get_hasUV4()
-    // Offset: 0xA49B60
+    // Offset: 0xA49BDC
     bool get_hasUV4();
     // private System.Void set_hasUV4(System.Boolean value)
-    // Offset: 0xA49B6C
+    // Offset: 0xA49BE8
     void set_hasUV4(bool value);
     // public System.Void Flip()
-    // Offset: 0xA49B88
+    // Offset: 0xA49C04
     void Flip();
   }; // UnityEngine.ProBuilder.CSG_Vertex
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::CSG_Vertex, "UnityEngine.ProBuilder", "CSG_Vertex");
 #pragma pack(pop)

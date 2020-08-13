@@ -14,6 +14,6 @@ namespace System::Reflection::Emit {
   class ModuleBuilder : public System::Reflection::Module {
   }; // System.Reflection.Emit.ModuleBuilder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::ModuleBuilder*, "System.Reflection.Emit", "ModuleBuilder");
 #pragma pack(pop)

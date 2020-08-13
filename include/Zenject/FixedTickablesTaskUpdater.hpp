@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.TaskUpdater`1
 #include "Zenject/TaskUpdater_1.hpp"
 // Completed includes
@@ -20,16 +21,16 @@ namespace Zenject {
   class FixedTickablesTaskUpdater : public Zenject::TaskUpdater_1<Zenject::IFixedTickable*> {
     public:
     // protected System.Void UpdateItem(Zenject.IFixedTickable task)
-    // Offset: 0xF1CA30
+    // Offset: 0xF2D474
     void UpdateItem(Zenject::IFixedTickable* task);
     // public System.Void .ctor()
-    // Offset: 0xF1CADC
+    // Offset: 0xF2D520
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: System.Void TaskUpdater`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static FixedTickablesTaskUpdater* New_ctor();
   }; // Zenject.FixedTickablesTaskUpdater
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FixedTickablesTaskUpdater*, "Zenject", "FixedTickablesTaskUpdater");
 #pragma pack(pop)

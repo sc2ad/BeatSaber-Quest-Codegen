@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: UnityEngine.Events.UnityEvent`3
-#include "UnityEngine/Events/UnityEvent_3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SteamVR_Events
 #include "GlobalNamespace/SteamVR_Events.hpp"
+// Including type: UnityEngine.Events.UnityEvent`3
+#include "UnityEngine/Events/UnityEvent_3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

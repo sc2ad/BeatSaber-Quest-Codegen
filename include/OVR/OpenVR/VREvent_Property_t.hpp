@@ -25,6 +25,6 @@ namespace OVR::OpenVR {
     VREvent_Property_t(uint64_t container_ = {}, OVR::OpenVR::ETrackedDeviceProperty prop_ = {}) : container{container_}, prop{prop_} {}
   }; // OVR.OpenVR.VREvent_Property_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Property_t, "OVR.OpenVR", "VREvent_Property_t");
 #pragma pack(pop)

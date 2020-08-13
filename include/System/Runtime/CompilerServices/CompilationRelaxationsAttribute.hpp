@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -23,16 +24,16 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     int m_relaxations;
     // public System.Void .ctor(System.Int32 relaxations)
-    // Offset: 0x114FA68
+    // Offset: 0x11614AC
     static CompilationRelaxationsAttribute* New_ctor(int relaxations);
     // public System.Void .ctor(System.Runtime.CompilerServices.CompilationRelaxations relaxations)
-    // Offset: 0x114FA94
+    // Offset: 0x11614D8
     static CompilationRelaxationsAttribute* New_ctor(System::Runtime::CompilerServices::CompilationRelaxations relaxations);
     // public System.Int32 get_CompilationRelaxations()
-    // Offset: 0x114FAC0
+    // Offset: 0x1161504
     int get_CompilationRelaxations();
   }; // System.Runtime.CompilerServices.CompilationRelaxationsAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxationsAttribute*, "System.Runtime.CompilerServices", "CompilationRelaxationsAttribute");
 #pragma pack(pop)

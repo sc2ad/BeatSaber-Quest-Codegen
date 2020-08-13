@@ -38,6 +38,6 @@ namespace UnityEngine::ProBuilder {
     PivotPoint(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.PivotPoint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PivotPoint, "UnityEngine.ProBuilder", "PivotPoint");
 #pragma pack(pop)

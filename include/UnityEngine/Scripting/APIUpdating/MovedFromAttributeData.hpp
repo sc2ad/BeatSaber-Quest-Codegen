@@ -39,10 +39,10 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Creating value type constructor for type: MovedFromAttributeData
     MovedFromAttributeData(::CsString* className_ = {}, ::CsString* nameSpace_ = {}, ::CsString* assembly_ = {}, bool classHasChanged_ = {}, bool nameSpaceHasChanged_ = {}, bool assemblyHasChanged_ = {}, bool autoUdpateAPI_ = {}) : className{className_}, nameSpace{nameSpace_}, assembly{assembly_}, classHasChanged{classHasChanged_}, nameSpaceHasChanged{nameSpaceHasChanged_}, assemblyHasChanged{assemblyHasChanged_}, autoUdpateAPI{autoUdpateAPI_} {}
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0xA43A50
+    // Offset: 0xA43ACC
     void Set(bool autoUpdateAPI, ::CsString* sourceNamespace, ::CsString* sourceAssembly, ::CsString* sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");
 #pragma pack(pop)

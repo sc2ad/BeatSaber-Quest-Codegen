@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.IntegratedSubsystem`1
 #include "UnityEngine/IntegratedSubsystem_1.hpp"
 // Completed includes
@@ -34,10 +35,10 @@ namespace UnityEngine::XR {
     // Set static field: static private System.Action`1<System.Boolean> displayFocusChanged
     static void _set_displayFocusChanged(System::Action_1<bool>* value);
     // static private System.Void InvokeDisplayFocusChanged(System.Boolean focus)
-    // Offset: 0x194C0E8
+    // Offset: 0x195EB2C
     static void InvokeDisplayFocusChanged(bool focus);
     // public System.Void .ctor()
-    // Offset: 0x194C15C
+    // Offset: 0x195EBA0
     // Implemented from: UnityEngine.IntegratedSubsystem`1
     // Base method: System.Void IntegratedSubsystem`1::.ctor()
     // Base method: System.Void IntegratedSubsystem::.ctor()
@@ -45,6 +46,6 @@ namespace UnityEngine::XR {
     static XRDisplaySubsystem* New_ctor();
   }; // UnityEngine.XR.XRDisplaySubsystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem*, "UnityEngine.XR", "XRDisplaySubsystem");
 #pragma pack(pop)

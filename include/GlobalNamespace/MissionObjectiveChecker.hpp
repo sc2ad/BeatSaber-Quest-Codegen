@@ -94,49 +94,49 @@ namespace GlobalNamespace {
     // Offset: 0x40
     bool disableChecking;
     // public System.Void add_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0xBF5C40
+    // Offset: 0xC07684
     void add_statusDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void remove_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0xBF5CE4
+    // Offset: 0xC07728
     void remove_statusDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void add_checkedValueDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0xBF5D88
+    // Offset: 0xC077CC
     void add_checkedValueDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void remove_checkedValueDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0xBF5E2C
+    // Offset: 0xC07870
     void remove_checkedValueDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public MissionObjectiveTypeSO get_missionObjectiveType()
-    // Offset: 0xBF5ED0
+    // Offset: 0xC07914
     GlobalNamespace::MissionObjectiveTypeSO* get_missionObjectiveType();
     // public MissionObjective get_missionObjective()
-    // Offset: 0xBF5ED8
+    // Offset: 0xC0791C
     GlobalNamespace::MissionObjective* get_missionObjective();
     // public System.Boolean get_disableChecking()
-    // Offset: 0xBF5EE0
+    // Offset: 0xC07924
     bool get_disableChecking();
     // public System.Void set_disableChecking(System.Boolean value)
-    // Offset: 0xBF5EE8
+    // Offset: 0xC0792C
     void set_disableChecking(bool value);
     // public MissionObjectiveChecker/Status get_status()
-    // Offset: 0xBF5EF4
+    // Offset: 0xC07938
     GlobalNamespace::MissionObjectiveChecker::Status get_status();
     // protected System.Void set_status(MissionObjectiveChecker/Status value)
-    // Offset: 0xBF5EFC
+    // Offset: 0xC07940
     void set_status(GlobalNamespace::MissionObjectiveChecker::Status value);
     // public System.Int32 get_checkedValue()
-    // Offset: 0xBF5F88
+    // Offset: 0xC079CC
     int get_checkedValue();
     // protected System.Void set_checkedValue(System.Int32 value)
-    // Offset: 0xBF5F90
+    // Offset: 0xC079D4
     void set_checkedValue(int value);
     // public System.Void SetCheckedMissionObjective(MissionObjective missionObjective)
-    // Offset: 0xBF601C
+    // Offset: 0xC07A60
     void SetCheckedMissionObjective(GlobalNamespace::MissionObjective* missionObjective);
     // protected System.Void Init()
     // Offset: 0xFFFFFFFF
     void Init();
     // protected System.Void .ctor()
-    // Offset: 0xBF604C
+    // Offset: 0xC07A90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -146,7 +146,7 @@ namespace GlobalNamespace {
     static MissionObjectiveChecker* New_ctor();
   }; // MissionObjectiveChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker*, "", "MissionObjectiveChecker");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker::Status, "", "MissionObjectiveChecker/Status");
 #pragma pack(pop)

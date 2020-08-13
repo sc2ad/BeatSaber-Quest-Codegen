@@ -55,19 +55,19 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker;
     // protected System.Void Start()
-    // Offset: 0xB5D6B0
+    // Offset: 0xB5B6B0
     void Start();
     // private System.Void HandleNoteWasCut(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xB5D780
+    // Offset: 0xB5B780
     void HandleNoteWasCut(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // protected System.Void OnDestroy()
-    // Offset: 0xB5D9B4
+    // Offset: 0xB5B9B4
     void OnDestroy();
     // private System.Void HandleBombCutSoundEffectDidFinish(BombCutSoundEffect bombCutSoundEffect)
-    // Offset: 0xB5DA88
+    // Offset: 0xB5BA88
     void HandleBombCutSoundEffectDidFinish(GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
     // public System.Void .ctor()
-    // Offset: 0xB5DB34
+    // Offset: 0xB5BB34
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -77,6 +77,6 @@ namespace GlobalNamespace {
     static BombCutSoundEffectManager* New_ctor();
   }; // BombCutSoundEffectManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombCutSoundEffectManager*, "", "BombCutSoundEffectManager");
 #pragma pack(pop)

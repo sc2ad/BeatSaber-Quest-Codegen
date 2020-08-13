@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -16,16 +17,16 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     bool CreateConstructorReferences;
     // public System.Boolean get_CreateConstructorReferences()
-    // Offset: 0x19451E4
+    // Offset: 0x1957C28
     bool get_CreateConstructorReferences();
     // private System.Void set_CreateConstructorReferences(System.Boolean value)
-    // Offset: 0x19451EC
+    // Offset: 0x1957C30
     void set_CreateConstructorReferences(bool value);
     // public System.Void .ctor(System.Boolean createConstructorReferences)
-    // Offset: 0x19451F8
+    // Offset: 0x1957C3C
     static AspTypePropertyAttribute* New_ctor(bool createConstructorReferences);
   }; // JetBrains.Annotations.AspTypePropertyAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspTypePropertyAttribute*, "JetBrains.Annotations", "AspTypePropertyAttribute");
 #pragma pack(pop)

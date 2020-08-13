@@ -67,21 +67,21 @@ namespace HMUI {
     // Offset: 0x100
     HMUI::NoTransitionsButton::SelectionState selectionState;
     // public HMUI.NoTransitionsButton/SelectionState get_selectionState()
-    // Offset: 0x10C91D0
+    // Offset: 0x10D9C14
     HMUI::NoTransitionsButton::SelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/SelectionState> value)
-    // Offset: 0x10C91D8
+    // Offset: 0x10D9C1C
     void add_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/SelectionState> value)
-    // Offset: 0x10C927C
+    // Offset: 0x10D9CC0
     void remove_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x10C9320
+    // Offset: 0x10D9D64
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void .ctor()
-    // Offset: 0x10C93B4
+    // Offset: 0x10D9DF8
     // Implemented from: UnityEngine.UI.Button
     // Base method: System.Void Button::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -94,7 +94,7 @@ namespace HMUI {
     static NoTransitionsButton* New_ctor();
   }; // HMUI.NoTransitionsButton
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton::SelectionState, "HMUI", "NoTransitionsButton/SelectionState");
 #pragma pack(pop)

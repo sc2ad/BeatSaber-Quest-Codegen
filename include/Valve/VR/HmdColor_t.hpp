@@ -28,6 +28,6 @@ namespace Valve::VR {
     HmdColor_t(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) : r{r_}, g{g_}, b{b_}, a{a_} {}
   }; // Valve.VR.HmdColor_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdColor_t, "Valve.VR", "HmdColor_t");
 #pragma pack(pop)

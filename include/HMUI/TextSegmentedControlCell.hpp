@@ -27,17 +27,17 @@ namespace HMUI {
     // Offset: 0x48
     UnityEngine::UI::Image* highlightImage;
     // protected override System.Void SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x10D4600
+    // Offset: 0x10E5044
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x10D4698
+    // Offset: 0x10E50DC
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x10D46D4
+    // Offset: 0x10E5118
     // Implemented from: HMUI.TextSegmentedControlCellBase
     // Base method: System.Void TextSegmentedControlCellBase::.ctor()
     // Base method: System.Void SegmentedControlCell::.ctor()
@@ -50,6 +50,6 @@ namespace HMUI {
     static TextSegmentedControlCell* New_ctor();
   }; // HMUI.TextSegmentedControlCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControlCell*, "HMUI", "TextSegmentedControlCell");
 #pragma pack(pop)

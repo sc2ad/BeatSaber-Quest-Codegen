@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject
 #include "RootMotion/FinalIK/InteractionObject.hpp"
 // Completed includes
@@ -46,15 +44,15 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     UnityEngine::Events::UnityEvent* unityEvent;
     // public System.Void Activate(UnityEngine.Transform t)
-    // Offset: 0x1434D54
+    // Offset: 0x1444798
     void Activate(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x1436DCC
+    // Offset: 0x1446810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionObject::InteractionEvent* New_ctor();
   }; // RootMotion.FinalIK.InteractionObject/InteractionEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::InteractionEvent*, "RootMotion.FinalIK", "InteractionObject/InteractionEvent");
 #pragma pack(pop)

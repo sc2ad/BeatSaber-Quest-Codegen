@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Animation
 #include "UnityEngine/Animation.hpp"
 // Including type: System.Collections.IEnumerator
@@ -24,10 +22,10 @@ namespace UnityEngine {
     // Offset: 0x18
     int m_CurrentIndex;
     // System.Void .ctor(UnityEngine.Animation outer)
-    // Offset: 0x1922614
+    // Offset: 0x1934058
     static Animation::Enumerator* New_ctor(UnityEngine::Animation* outer);
     // public System.Object get_Current()
-    // Offset: 0x1922720
+    // Offset: 0x1934164
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* get_Current();
@@ -35,12 +33,12 @@ namespace UnityEngine {
     // Maps to method: get_Current
     ::CsObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x1922778
+    // Offset: 0x19341BC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x19227E4
+    // Offset: 0x1934228
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -49,6 +47,6 @@ namespace UnityEngine {
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.Animation/Enumerator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation::Enumerator*, "UnityEngine", "Animation/Enumerator");
 #pragma pack(pop)

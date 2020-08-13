@@ -44,22 +44,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::PlatformAchievementsHandler* platformAchievementsHandler;
     // private PlatformAchievementsHandler get_platformAchievementsHandler()
-    // Offset: 0xBBFDB8
+    // Offset: 0xBD27FC
     GlobalNamespace::PlatformAchievementsHandler* get_platformAchievementsHandler();
     // public System.Void Initialize()
-    // Offset: 0xBBFE7C
+    // Offset: 0xBD28C0
     void Initialize();
     // private System.Void CreatePlatformAchievementsHandler()
-    // Offset: 0xBBFDE8
+    // Offset: 0xBD282C
     void CreatePlatformAchievementsHandler();
     // public HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0xBBFE80
+    // Offset: 0xBD28C4
     GlobalNamespace::HMAsyncRequest* UnlockAchievement(::CsString* achievementId, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0xBC0164
+    // Offset: 0xBD2BA8
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
     // public System.Void .ctor()
-    // Offset: 0xBC0454
+    // Offset: 0xBD2E98
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -68,6 +68,6 @@ namespace GlobalNamespace {
     static PlatformAchievementsModelSO* New_ctor();
   }; // PlatformAchievementsModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO*, "", "PlatformAchievementsModelSO");
 #pragma pack(pop)

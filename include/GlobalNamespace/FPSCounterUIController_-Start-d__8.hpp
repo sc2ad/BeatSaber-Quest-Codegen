@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: FPSCounterUIController
 #include "GlobalNamespace/FPSCounterUIController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -27,35 +25,35 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::FPSCounterUIController* $$4__this;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xBD7018
+    // Offset: 0xBE9A5C
     static FPSCounterUIController::$Start$d__8* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xBD7144
+    // Offset: 0xBE9B88
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xBD7148
+    // Offset: 0xBE9B8C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xBD7208
+    // Offset: 0xBE9C4C
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xBD7210
+    // Offset: 0xBE9C54
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xBD7270
+    // Offset: 0xBE9CB4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // FPSCounterUIController/<Start>d__8
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController::$Start$d__8*, "", "FPSCounterUIController/<Start>d__8");
 #pragma pack(pop)

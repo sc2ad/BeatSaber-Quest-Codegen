@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::DepthTextureMode depthTextureMode;
     // protected System.Void Awake()
-    // Offset: 0xC981B8
+    // Offset: 0xCAABFC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xC9821C
+    // Offset: 0xCAAC60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -32,6 +32,6 @@ namespace GlobalNamespace {
     static CameraDepthTextureMode* New_ctor();
   }; // CameraDepthTextureMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraDepthTextureMode*, "", "CameraDepthTextureMode");
 #pragma pack(pop)

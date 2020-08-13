@@ -40,88 +40,88 @@ namespace UnityEngine {
     // Nested type: UnityEngine::ParticleSystem::ForceOverLifetimeModule
     struct ForceOverLifetimeModule;
     // public System.Void Emit(UnityEngine.Vector3 position, UnityEngine.Vector3 velocity, System.Single size, System.Single lifetime, UnityEngine.Color32 color)
-    // Offset: 0x1951C58
+    // Offset: 0x196469C
     void Emit(UnityEngine::Vector3 position, UnityEngine::Vector3 velocity, float size, float lifetime, UnityEngine::Color32 color);
     // public System.Void Emit(UnityEngine.ParticleSystem/Particle particle)
-    // Offset: 0x1951FE4
+    // Offset: 0x1964A28
     void Emit(UnityEngine::ParticleSystem::Particle particle);
     // public System.Int32 get_particleCount()
-    // Offset: 0x1952034
+    // Offset: 0x1964A78
     int get_particleCount();
     // public System.Single get_time()
-    // Offset: 0x1952074
+    // Offset: 0x1964AB8
     float get_time();
     // public System.UInt32 get_randomSeed()
-    // Offset: 0x19520B4
+    // Offset: 0x1964AF8
     uint get_randomSeed();
     // public System.Void set_randomSeed(System.UInt32 value)
-    // Offset: 0x19520F4
+    // Offset: 0x1964B38
     void set_randomSeed(uint value);
     // public System.Boolean get_useAutoRandomSeed()
-    // Offset: 0x1952144
+    // Offset: 0x1964B88
     bool get_useAutoRandomSeed();
     // public System.Void set_useAutoRandomSeed(System.Boolean value)
-    // Offset: 0x1952184
+    // Offset: 0x1964BC8
     void set_useAutoRandomSeed(bool value);
     // public System.Void SetParticles(UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size, System.Int32 offset)
-    // Offset: 0x19521D4
+    // Offset: 0x1964C18
     void SetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles, int size, int offset);
     // public System.Void SetParticles(UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size)
-    // Offset: 0x195223C
+    // Offset: 0x1964C80
     void SetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles, int size);
     // public System.Int32 GetParticles(UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size, System.Int32 offset)
-    // Offset: 0x1952298
+    // Offset: 0x1964CDC
     int GetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles, int size, int offset);
     // public System.Int32 GetParticles(UnityEngine.ParticleSystem/Particle[] particles, System.Int32 size)
-    // Offset: 0x1952300
+    // Offset: 0x1964D44
     int GetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles, int size);
     // public System.Int32 GetParticles(UnityEngine.ParticleSystem/Particle[] particles)
-    // Offset: 0x195235C
+    // Offset: 0x1964DA0
     int GetParticles(::Array<UnityEngine::ParticleSystem::Particle>*& particles);
     // public System.Void Simulate(System.Single t, System.Boolean withChildren, System.Boolean restart, System.Boolean fixedTimeStep)
-    // Offset: 0x19523B4
+    // Offset: 0x1964DF8
     void Simulate(float t, bool withChildren, bool restart, bool fixedTimeStep);
     // public System.Void Simulate(System.Single t, System.Boolean withChildren, System.Boolean restart)
-    // Offset: 0x195242C
+    // Offset: 0x1964E70
     void Simulate(float t, bool withChildren, bool restart);
     // public System.Void Stop(System.Boolean withChildren, UnityEngine.ParticleSystemStopBehavior stopBehavior)
-    // Offset: 0x1952498
+    // Offset: 0x1964EDC
     void Stop(bool withChildren, UnityEngine::ParticleSystemStopBehavior stopBehavior);
     // public System.Void Clear(System.Boolean withChildren)
-    // Offset: 0x19524F0
+    // Offset: 0x1964F34
     void Clear(bool withChildren);
     // public System.Void Clear()
-    // Offset: 0x1952540
+    // Offset: 0x1964F84
     void Clear();
     // public System.Void Emit(System.Int32 count)
-    // Offset: 0x1952584
+    // Offset: 0x1964FC8
     void Emit(int count);
     // private System.Void Emit_Internal(System.Int32 count)
-    // Offset: 0x19525D4
+    // Offset: 0x1965018
     void Emit_Internal(int count);
     // public System.Void Emit(UnityEngine.ParticleSystem/EmitParams emitParams, System.Int32 count)
-    // Offset: 0x1952624
+    // Offset: 0x1965068
     void Emit(UnityEngine::ParticleSystem::EmitParams emitParams, int count);
     // private System.Void EmitOld_Internal(UnityEngine.ParticleSystem/Particle particle)
-    // Offset: 0x1951F94
+    // Offset: 0x19649D8
     void EmitOld_Internal(UnityEngine::ParticleSystem::Particle& particle);
     // public UnityEngine.ParticleSystem/MainModule get_main()
-    // Offset: 0x19526D4
+    // Offset: 0x1965118
     UnityEngine::ParticleSystem::MainModule get_main();
     // public UnityEngine.ParticleSystem/EmissionModule get_emission()
-    // Offset: 0x1952708
+    // Offset: 0x196514C
     UnityEngine::ParticleSystem::EmissionModule get_emission();
     // public UnityEngine.ParticleSystem/ShapeModule get_shape()
-    // Offset: 0x195273C
+    // Offset: 0x1965180
     UnityEngine::ParticleSystem::ShapeModule get_shape();
     // public UnityEngine.ParticleSystem/ForceOverLifetimeModule get_forceOverLifetime()
-    // Offset: 0x1952770
+    // Offset: 0x19651B4
     UnityEngine::ParticleSystem::ForceOverLifetimeModule get_forceOverLifetime();
     // private System.Void Emit_Injected(UnityEngine.ParticleSystem/EmitParams emitParams, System.Int32 count)
-    // Offset: 0x195267C
+    // Offset: 0x19650C0
     void Emit_Injected(UnityEngine::ParticleSystem::EmitParams& emitParams, int count);
   }; // UnityEngine.ParticleSystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem*, "UnityEngine", "ParticleSystem");
 #pragma pack(pop)

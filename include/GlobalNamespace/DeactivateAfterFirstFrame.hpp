@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0
     class $Start$d__0;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xBD0620
+    // Offset: 0xBE3064
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xBD06C8
+    // Offset: 0xBE310C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -39,6 +39,6 @@ namespace GlobalNamespace {
     static DeactivateAfterFirstFrame* New_ctor();
   }; // DeactivateAfterFirstFrame
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAfterFirstFrame*, "", "DeactivateAfterFirstFrame");
 #pragma pack(pop)

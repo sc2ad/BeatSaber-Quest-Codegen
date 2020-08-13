@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRResources
 #include "GlobalNamespace/OVRResources.hpp"
 // Completed includes
@@ -19,15 +17,15 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::CsString* path;
     // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0xF373C4
+    // Offset: 0xF47E08
     bool $Load$b__0(::CsString* s);
     // public System.Void .ctor()
-    // Offset: 0xF372E8
+    // Offset: 0xF47D2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRResources::$$c__DisplayClass2_0* New_ctor();
   }; // OVRResources/<>c__DisplayClass2_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources::$$c__DisplayClass2_0*, "", "OVRResources/<>c__DisplayClass2_0");
 #pragma pack(pop)

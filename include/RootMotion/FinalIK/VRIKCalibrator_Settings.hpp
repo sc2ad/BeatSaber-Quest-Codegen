@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.VRIKCalibrator
 #include "RootMotion/FinalIK/VRIKCalibrator.hpp"
 // Completed includes
@@ -64,12 +62,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0x9C
     float pelvisRotationWeight;
     // public System.Void .ctor()
-    // Offset: 0x12281A4
+    // Offset: 0x1239BE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRIKCalibrator::Settings* New_ctor();
   }; // RootMotion.FinalIK.VRIKCalibrator/Settings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::Settings*, "RootMotion.FinalIK", "VRIKCalibrator/Settings");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Text.RegularExpressions.RegexOptions
 #include "System/Text/RegularExpressions/RegexOptions.hpp"
 // Completed includes
@@ -49,10 +47,10 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x3C
     int captop;
     // System.Void .ctor(System.Text.RegularExpressions.RegexNode root, System.Collections.Hashtable caps, System.Int32[] capnumlist, System.Int32 captop, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexOptions opts)
-    // Offset: 0x14E196C
+    // Offset: 0x14F13B0
     static RegexTree* New_ctor(System::Text::RegularExpressions::RegexNode* root, System::Collections::Hashtable* caps, ::Array<int>* capnumlist, int captop, System::Collections::Hashtable* capnames, ::Array<::CsString*>* capslist, System::Text::RegularExpressions::RegexOptions opts);
   }; // System.Text.RegularExpressions.RegexTree
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexTree*, "System.Text.RegularExpressions", "RegexTree");
 #pragma pack(pop)

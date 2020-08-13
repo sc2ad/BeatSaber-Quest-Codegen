@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.NonLazyBinder
 #include "Zenject/NonLazyBinder.hpp"
 // Completed includes
@@ -31,31 +32,31 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::List_1<Zenject::BindInfo*>* secondaryBindInfos;
     // System.Void AddSecondaryCopyBindInfo(Zenject.BindInfo bindInfo)
-    // Offset: 0xD58CA8
+    // Offset: 0xD6C6EC
     void AddSecondaryCopyBindInfo(Zenject::BindInfo* bindInfo);
     // public Zenject.NonLazyBinder CopyIntoAllSubContainers()
-    // Offset: 0xD58D4C
+    // Offset: 0xD6C790
     Zenject::NonLazyBinder* CopyIntoAllSubContainers();
     // public Zenject.NonLazyBinder CopyIntoDirectSubContainers()
-    // Offset: 0xD58E7C
+    // Offset: 0xD6C8C0
     Zenject::NonLazyBinder* CopyIntoDirectSubContainers();
     // public Zenject.NonLazyBinder MoveIntoAllSubContainers()
-    // Offset: 0xD58EA4
+    // Offset: 0xD6C8E8
     Zenject::NonLazyBinder* MoveIntoAllSubContainers();
     // public Zenject.NonLazyBinder MoveIntoDirectSubContainers()
-    // Offset: 0xD58ECC
+    // Offset: 0xD6C910
     Zenject::NonLazyBinder* MoveIntoDirectSubContainers();
     // private System.Void SetInheritanceMethod(Zenject.BindingInheritanceMethods method)
-    // Offset: 0xD58D74
+    // Offset: 0xD6C7B8
     void SetInheritanceMethod(Zenject::BindingInheritanceMethods method);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0xD54E64
+    // Offset: 0xD688A8
     // Implemented from: Zenject.NonLazyBinder
     // Base method: System.Void NonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void IfNotBoundBinder::.ctor(Zenject.BindInfo bindInfo)
     static CopyNonLazyBinder* New_ctor(Zenject::BindInfo* bindInfo);
   }; // Zenject.CopyNonLazyBinder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::CopyNonLazyBinder*, "Zenject", "CopyNonLazyBinder");
 #pragma pack(pop)

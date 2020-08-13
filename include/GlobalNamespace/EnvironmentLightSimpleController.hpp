@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::LightWithIdManager* lightManager;
     // protected System.Void LateUpdate()
-    // Offset: 0xBD4E1C
+    // Offset: 0xBE7860
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xBD4E48
+    // Offset: 0xBE788C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static EnvironmentLightSimpleController* New_ctor();
   }; // EnvironmentLightSimpleController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentLightSimpleController*, "", "EnvironmentLightSimpleController");
 #pragma pack(pop)

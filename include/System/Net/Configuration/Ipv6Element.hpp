@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Configuration.ConfigurationElement
 #include "System/Configuration/ConfigurationElement.hpp"
 // Completed includes
@@ -20,17 +21,17 @@ namespace System::Net::Configuration {
   class Ipv6Element : public System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF54FD8
+    // Offset: 0xF66A1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Ipv6Element* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0xF55018
+    // Offset: 0xF66A5C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
   }; // System.Net.Configuration.Ipv6Element
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::Ipv6Element*, "System.Net.Configuration", "Ipv6Element");
 #pragma pack(pop)

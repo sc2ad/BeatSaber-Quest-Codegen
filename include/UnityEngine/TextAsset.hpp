@@ -14,18 +14,18 @@ namespace UnityEngine {
   class TextAsset : public UnityEngine::Object {
     public:
     // public System.String get_text()
-    // Offset: 0x137996C
+    // Offset: 0x138C3B0
     ::CsString* get_text();
     // public System.Byte[] get_bytes()
-    // Offset: 0x13799AC
+    // Offset: 0x138C3F0
     ::Array<uint8_t>* get_bytes();
     // public override System.String ToString()
-    // Offset: 0x13799EC
+    // Offset: 0x138C430
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // UnityEngine.TextAsset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAsset*, "UnityEngine", "TextAsset");
 #pragma pack(pop)

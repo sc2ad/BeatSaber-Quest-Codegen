@@ -17,12 +17,12 @@ namespace GlobalNamespace {
     // Offset: 0x21
     bool defaultValue;
     // protected override System.Void OnEnable()
-    // Offset: 0xC98114
+    // Offset: 0xCAAB58
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xC981B4
+    // Offset: 0xCAABF8
     // Implemented from: BoolSO
     // Base method: System.Void BoolSO::.ctor()
     // Base method: System.Void ObservableVariableSO`1::.ctor()
@@ -33,6 +33,6 @@ namespace GlobalNamespace {
     static BoolWithDefaultValueSO* New_ctor();
   }; // BoolWithDefaultValueSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolWithDefaultValueSO*, "", "BoolWithDefaultValueSO");
 #pragma pack(pop)

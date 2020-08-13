@@ -26,25 +26,25 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::CsString* TextForValue(bool value);
     // private System.Void RefreshUI()
-    // Offset: 0xB93DF0
+    // Offset: 0xBA5834
     void RefreshUI();
     // protected override System.Void OnEnable()
-    // Offset: 0xB93D9C
+    // Offset: 0xBA57E0
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::OnEnable()
     void OnEnable();
     // public override System.Void IncButtonPressed()
-    // Offset: 0xB93E50
+    // Offset: 0xBA5894
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::IncButtonPressed()
     void IncButtonPressed();
     // public override System.Void DecButtonPressed()
-    // Offset: 0xB93E88
+    // Offset: 0xBA58CC
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::DecButtonPressed()
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0xB93EBC
+    // Offset: 0xBA5900
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static SwitchSettingsController* New_ctor();
   }; // SwitchSettingsController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SwitchSettingsController*, "", "SwitchSettingsController");
 #pragma pack(pop)

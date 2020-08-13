@@ -35,22 +35,22 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     GlobalNamespace::SaberType oneSaberType;
     // protected System.Void Update()
-    // Offset: 0xC12BC8
+    // Offset: 0xC2460C
     void Update();
     // protected System.Void OnDisable()
-    // Offset: 0xC12C44
+    // Offset: 0xC24688
     void OnDisable();
     // protected System.Void OnEnable()
-    // Offset: 0xC12D5C
+    // Offset: 0xC247A0
     void OnEnable();
     // public System.Void AllowOnlyOneSaber(SaberType saberType)
-    // Offset: 0xC12D60
+    // Offset: 0xC247A4
     void AllowOnlyOneSaber(GlobalNamespace::SaberType saberType);
     // private System.Void RefreshSabers()
-    // Offset: 0xC12C48
+    // Offset: 0xC2468C
     void RefreshSabers();
     // public System.Void .ctor()
-    // Offset: 0xC12D70
+    // Offset: 0xC247B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -60,6 +60,6 @@ namespace GlobalNamespace {
     static SaberManager* New_ctor();
   }; // SaberManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager*, "", "SaberManager");
 #pragma pack(pop)

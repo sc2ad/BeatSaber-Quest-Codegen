@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
@@ -19,10 +20,10 @@ namespace UnityEngine {
     // Offset: 0x14
     float max;
     // public System.Void .ctor(System.Single min, System.Single max)
-    // Offset: 0x1406FC8
+    // Offset: 0x1417A0C
     static RangeAttribute* New_ctor(float min, float max);
   }; // UnityEngine.RangeAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeAttribute*, "UnityEngine", "RangeAttribute");
 #pragma pack(pop)

@@ -26,18 +26,18 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // protected System.Void OnDestroy()
-    // Offset: 0xBEE12C
+    // Offset: 0xBFFB70
     void OnDestroy();
     // private System.Void HandleNoteWasMissed(INoteController noteController)
-    // Offset: 0xBEE208
+    // Offset: 0xBFFC4C
     void HandleNoteWasMissed(GlobalNamespace::INoteController* noteController);
     // protected override System.Void Init()
-    // Offset: 0xBEE02C
+    // Offset: 0xBFFA70
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xBEE2F0
+    // Offset: 0xBFFD34
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     static MissMissionObjectiveChecker* New_ctor();
   }; // MissMissionObjectiveChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissMissionObjectiveChecker*, "", "MissMissionObjectiveChecker");
 #pragma pack(pop)

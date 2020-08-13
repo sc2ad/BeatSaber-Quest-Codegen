@@ -25,21 +25,21 @@ namespace System::Diagnostics::Tracing {
   class SByteArrayTypeInfo : public System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::Array<int8_t>*> {
     public:
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.SByte[] value)
-    // Offset: 0xD8605C
+    // Offset: 0xD99AA0
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Array<int8_t>*& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0xD85F1C
+    // Offset: 0xD99960
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::CsString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public System.Void .ctor()
-    // Offset: 0xD860E8
+    // Offset: 0xD99B2C
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static SByteArrayTypeInfo* New_ctor();
   }; // System.Diagnostics.Tracing.SByteArrayTypeInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::SByteArrayTypeInfo*, "System.Diagnostics.Tracing", "SByteArrayTypeInfo");
 #pragma pack(pop)

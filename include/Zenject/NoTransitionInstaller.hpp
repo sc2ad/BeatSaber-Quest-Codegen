@@ -21,10 +21,10 @@ namespace Zenject {
   class NoTransitionInstaller : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0xFACAB8
+    // Offset: 0xFBF4FC
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xFACABC
+    // Offset: 0xFBF500
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -34,6 +34,6 @@ namespace Zenject {
     static NoTransitionInstaller* New_ctor();
   }; // Zenject.NoTransitionInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionInstaller*, "Zenject", "NoTransitionInstaller");
 #pragma pack(pop)

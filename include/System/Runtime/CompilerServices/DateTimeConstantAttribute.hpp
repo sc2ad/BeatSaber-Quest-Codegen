@@ -19,12 +19,12 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::DateTime date;
     // public override System.Object get_Value()
-    // Offset: 0x114FAD8
+    // Offset: 0x116151C
     // Implemented from: System.Runtime.CompilerServices.CustomConstantAttribute
     // Base method: System.Object CustomConstantAttribute::get_Value()
     ::CsObject* get_Value();
   }; // System.Runtime.CompilerServices.DateTimeConstantAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DateTimeConstantAttribute*, "System.Runtime.CompilerServices", "DateTimeConstantAttribute");
 #pragma pack(pop)

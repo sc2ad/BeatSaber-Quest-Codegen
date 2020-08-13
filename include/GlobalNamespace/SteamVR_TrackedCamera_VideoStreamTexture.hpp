@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: SteamVR_TrackedCamera
 #include "GlobalNamespace/SteamVR_TrackedCamera.hpp"
 // Including type: Valve.VR.VRTextureBounds_t
@@ -57,61 +55,61 @@ namespace GlobalNamespace {
     // Offset: 0x40
     Valve::VR::CameraVideoStreamFrameHeader_t header;
     // public System.Void .ctor(System.UInt32 deviceIndex, System.Boolean undistorted)
-    // Offset: 0xFBF44C
+    // Offset: 0xFD0E90
     static SteamVR_TrackedCamera::VideoStreamTexture* New_ctor(uint deviceIndex, bool undistorted);
     // public System.Boolean get_undistorted()
-    // Offset: 0xFBF9CC
+    // Offset: 0xFD1410
     bool get_undistorted();
     // private System.Void set_undistorted(System.Boolean value)
-    // Offset: 0xFBF9D4
+    // Offset: 0xFD1418
     void set_undistorted(bool value);
     // public System.UInt32 get_deviceIndex()
-    // Offset: 0xFBF9E0
+    // Offset: 0xFD1424
     uint get_deviceIndex();
     // public System.Boolean get_hasCamera()
-    // Offset: 0xFBF9FC
+    // Offset: 0xFD1440
     bool get_hasCamera();
     // public System.Boolean get_hasTracking()
-    // Offset: 0xFBFA18
+    // Offset: 0xFD145C
     bool get_hasTracking();
     // public System.UInt32 get_frameId()
-    // Offset: 0xFBFDB8
+    // Offset: 0xFD17FC
     uint get_frameId();
     // public Valve.VR.VRTextureBounds_t get_frameBounds()
-    // Offset: 0xFBFDDC
+    // Offset: 0xFD1820
     Valve::VR::VRTextureBounds_t get_frameBounds();
     // private System.Void set_frameBounds(Valve.VR.VRTextureBounds_t value)
-    // Offset: 0xFBFDE8
+    // Offset: 0xFD182C
     void set_frameBounds(Valve::VR::VRTextureBounds_t value);
     // public Valve.VR.EVRTrackedCameraFrameType get_frameType()
-    // Offset: 0xFBFDF4
+    // Offset: 0xFD1838
     Valve::VR::EVRTrackedCameraFrameType get_frameType();
     // public UnityEngine.Texture2D get_texture()
-    // Offset: 0xFBFDFC
+    // Offset: 0xFD1840
     UnityEngine::Texture2D* get_texture();
     // public SteamVR_Utils/RigidTransform get_transform()
-    // Offset: 0xFBFE20
+    // Offset: 0xFD1864
     GlobalNamespace::SteamVR_Utils::RigidTransform get_transform();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0xFC0094
+    // Offset: 0xFD1AD8
     UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0xFC00E4
+    // Offset: 0xFD1B28
     UnityEngine::Vector3 get_angularVelocity();
     // public Valve.VR.TrackedDevicePose_t GetPose()
-    // Offset: 0xFC0138
+    // Offset: 0xFD1B7C
     Valve::VR::TrackedDevicePose_t GetPose();
     // public System.UInt64 Acquire()
-    // Offset: 0xFC0168
+    // Offset: 0xFD1BAC
     uint64_t Acquire();
     // public System.UInt64 Release()
-    // Offset: 0xFC0180
+    // Offset: 0xFD1BC4
     uint64_t Release();
     // private System.Void Update()
-    // Offset: 0xFBFA3C
+    // Offset: 0xFD1480
     void Update();
   }; // SteamVR_TrackedCamera/VideoStreamTexture
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*, "", "SteamVR_TrackedCamera/VideoStreamTexture");
 #pragma pack(pop)

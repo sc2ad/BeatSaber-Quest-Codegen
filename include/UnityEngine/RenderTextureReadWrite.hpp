@@ -38,6 +38,6 @@ namespace UnityEngine {
     RenderTextureReadWrite(int value_ = {}) : value{value_} {}
   }; // UnityEngine.RenderTextureReadWrite
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureReadWrite, "UnityEngine", "RenderTextureReadWrite");
 #pragma pack(pop)

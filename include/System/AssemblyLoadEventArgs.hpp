@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.EventArgs
 #include "System/EventArgs.hpp"
 // Completed includes
@@ -23,10 +24,10 @@ namespace System {
     // Offset: 0x10
     System::Reflection::Assembly* m_loadedAssembly;
     // public System.Void .ctor(System.Reflection.Assembly loadedAssembly)
-    // Offset: 0x13147D0
+    // Offset: 0x1328214
     static AssemblyLoadEventArgs* New_ctor(System::Reflection::Assembly* loadedAssembly);
   }; // System.AssemblyLoadEventArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::AssemblyLoadEventArgs*, "System", "AssemblyLoadEventArgs");
 #pragma pack(pop)

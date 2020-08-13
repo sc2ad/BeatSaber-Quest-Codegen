@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: LeaderboardScoreUploader
 #include "GlobalNamespace/LeaderboardScoreUploader.hpp"
 // Completed includes
@@ -61,70 +59,70 @@ namespace GlobalNamespace {
     // Offset: 0x48
     int currentUploadAttemptCount;
     // public System.String get_playerId()
-    // Offset: 0xB46C74
+    // Offset: 0xB44C74
     ::CsString* get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0xB46C7C
+    // Offset: 0xB44C7C
     void set_playerId(::CsString* value);
     // public IDifficultyBeatmap get_beatmap()
-    // Offset: 0xB46C84
+    // Offset: 0xB44C84
     GlobalNamespace::IDifficultyBeatmap* get_beatmap();
     // private System.Void set_beatmap(IDifficultyBeatmap value)
-    // Offset: 0xB46C8C
+    // Offset: 0xB44C8C
     void set_beatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xB46C94
+    // Offset: 0xB44C94
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0xB46C9C
+    // Offset: 0xB44C9C
     void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Int32 get_rawScore()
-    // Offset: 0xB46CA4
+    // Offset: 0xB44CA4
     int get_rawScore();
     // private System.Void set_rawScore(System.Int32 value)
-    // Offset: 0xB46CAC
+    // Offset: 0xB44CAC
     void set_rawScore(int value);
     // public System.Int32 get_modifiedScore()
-    // Offset: 0xB46CB4
+    // Offset: 0xB44CB4
     int get_modifiedScore();
     // private System.Void set_modifiedScore(System.Int32 value)
-    // Offset: 0xB46CBC
+    // Offset: 0xB44CBC
     void set_modifiedScore(int value);
     // public System.Boolean get_fullCombo()
-    // Offset: 0xB46CC4
+    // Offset: 0xB44CC4
     bool get_fullCombo();
     // private System.Void set_fullCombo(System.Boolean value)
-    // Offset: 0xB46CCC
+    // Offset: 0xB44CCC
     void set_fullCombo(bool value);
     // public System.Int32 get_goodCutsCount()
-    // Offset: 0xB46CD8
+    // Offset: 0xB44CD8
     int get_goodCutsCount();
     // private System.Void set_goodCutsCount(System.Int32 value)
-    // Offset: 0xB46CE0
+    // Offset: 0xB44CE0
     void set_goodCutsCount(int value);
     // public System.Int32 get_badCutsCount()
-    // Offset: 0xB46CE8
+    // Offset: 0xB44CE8
     int get_badCutsCount();
     // private System.Void set_badCutsCount(System.Int32 value)
-    // Offset: 0xB46CF0
+    // Offset: 0xB44CF0
     void set_badCutsCount(int value);
     // public System.Int32 get_missedCount()
-    // Offset: 0xB46CF8
+    // Offset: 0xB44CF8
     int get_missedCount();
     // private System.Void set_missedCount(System.Int32 value)
-    // Offset: 0xB46D00
+    // Offset: 0xB44D00
     void set_missedCount(int value);
     // public System.Int32 get_maxCombo()
-    // Offset: 0xB46D08
+    // Offset: 0xB44D08
     int get_maxCombo();
     // private System.Void set_maxCombo(System.Int32 value)
-    // Offset: 0xB46D10
+    // Offset: 0xB44D10
     void set_maxCombo(int value);
     // public System.Void .ctor(System.String playerId, IDifficultyBeatmap beatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
-    // Offset: 0xB46D18
+    // Offset: 0xB44D18
     static LeaderboardScoreUploader::ScoreData* New_ctor(::CsString* playerId, GlobalNamespace::IDifficultyBeatmap* beatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // LeaderboardScoreUploader/ScoreData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, "", "LeaderboardScoreUploader/ScoreData");
 #pragma pack(pop)

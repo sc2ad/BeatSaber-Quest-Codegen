@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Offset: 0x170
     UnityEngine::ParticleSystem::MinMaxCurve sparklesLifetimeMinMaxCurve;
     // protected System.Void Awake()
-    // Offset: 0xC01A3C
+    // Offset: 0xC13480
     void Awake();
     // public System.Void SpawnParticles(UnityEngine.Vector3 pos, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 moveVec, UnityEngine.Color32 color, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount, System.Single lifetimeMultiplier, SaberType saberType)
-    // Offset: 0xC00B78
+    // Offset: 0xC125BC
     void SpawnParticles(UnityEngine::Vector3 pos, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 moveVec, UnityEngine::Color32 color, int sparkleParticlesCount, int explosionParticlesCount, float lifetimeMultiplier, GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0xC01C2C
+    // Offset: 0xC13670
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -80,6 +80,6 @@ namespace GlobalNamespace {
     static NoteCutParticlesEffect* New_ctor();
   }; // NoteCutParticlesEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutParticlesEffect*, "", "NoteCutParticlesEffect");
 #pragma pack(pop)

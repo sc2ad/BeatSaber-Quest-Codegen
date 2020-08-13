@@ -43,179 +43,179 @@ namespace UnityEngine {
   class RenderTexture : public UnityEngine::Texture {
     public:
     // public UnityEngine.Experimental.Rendering.GraphicsFormat get_graphicsFormat()
-    // Offset: 0x1409CF8
+    // Offset: 0x141A73C
     UnityEngine::Experimental::Rendering::GraphicsFormat get_graphicsFormat();
     // public System.Void set_graphicsFormat(UnityEngine.Experimental.Rendering.GraphicsFormat value)
-    // Offset: 0x1409D38
+    // Offset: 0x141A77C
     void set_graphicsFormat(UnityEngine::Experimental::Rendering::GraphicsFormat value);
     // public UnityEngine.VRTextureUsage get_vrUsage()
-    // Offset: 0x1409D88
+    // Offset: 0x141A7CC
     UnityEngine::VRTextureUsage get_vrUsage();
     // public UnityEngine.RenderTextureFormat get_format()
-    // Offset: 0x1409DC8
+    // Offset: 0x141A80C
     UnityEngine::RenderTextureFormat get_format();
     // public System.Int32 get_antiAliasing()
-    // Offset: 0x1409E10
+    // Offset: 0x141A854
     int get_antiAliasing();
     // public System.Void set_antiAliasing(System.Int32 value)
-    // Offset: 0x1409E50
+    // Offset: 0x141A894
     void set_antiAliasing(int value);
     // static private UnityEngine.RenderTexture GetActive()
-    // Offset: 0x1409EA0
+    // Offset: 0x141A8E4
     static UnityEngine::RenderTexture* GetActive();
     // static private System.Void SetActive(UnityEngine.RenderTexture rt)
-    // Offset: 0x1409ED4
+    // Offset: 0x141A918
     static void SetActive(UnityEngine::RenderTexture* rt);
     // static public UnityEngine.RenderTexture get_active()
-    // Offset: 0x1409F14
+    // Offset: 0x141A958
     static UnityEngine::RenderTexture* get_active();
     // static public System.Void set_active(UnityEngine.RenderTexture value)
-    // Offset: 0x1409F48
+    // Offset: 0x141A98C
     static void set_active(UnityEngine::RenderTexture* value);
     // private UnityEngine.RenderBuffer GetColorBuffer()
-    // Offset: 0x1409F88
+    // Offset: 0x141A9CC
     UnityEngine::RenderBuffer GetColorBuffer();
     // private UnityEngine.RenderBuffer GetDepthBuffer()
-    // Offset: 0x140A030
+    // Offset: 0x141AA74
     UnityEngine::RenderBuffer GetDepthBuffer();
     // public UnityEngine.RenderBuffer get_colorBuffer()
-    // Offset: 0x140A0D8
+    // Offset: 0x141AB1C
     UnityEngine::RenderBuffer get_colorBuffer();
     // public UnityEngine.RenderBuffer get_depthBuffer()
-    // Offset: 0x140A0DC
+    // Offset: 0x141AB20
     UnityEngine::RenderBuffer get_depthBuffer();
     // public System.Void DiscardContents(System.Boolean discardColor, System.Boolean discardDepth)
-    // Offset: 0x140A0E0
+    // Offset: 0x141AB24
     void DiscardContents(bool discardColor, bool discardDepth);
     // public System.Void DiscardContents()
-    // Offset: 0x140A138
+    // Offset: 0x141AB7C
     void DiscardContents();
     // public System.Boolean Create()
-    // Offset: 0x140A180
+    // Offset: 0x141ABC4
     bool Create();
     // public System.Void Release()
-    // Offset: 0x140A1C0
+    // Offset: 0x141AC04
     void Release();
     // public System.Boolean IsCreated()
-    // Offset: 0x140A200
+    // Offset: 0x141AC44
     bool IsCreated();
     // System.Void SetSRGBReadWrite(System.Boolean srgb)
-    // Offset: 0x140A240
+    // Offset: 0x141AC84
     void SetSRGBReadWrite(bool srgb);
     // static private System.Void Internal_Create(UnityEngine.RenderTexture rt)
-    // Offset: 0x140A290
+    // Offset: 0x141ACD4
     static void Internal_Create(UnityEngine::RenderTexture* rt);
     // private System.Void SetRenderTextureDescriptor(UnityEngine.RenderTextureDescriptor desc)
-    // Offset: 0x140A2D0
+    // Offset: 0x141AD14
     void SetRenderTextureDescriptor(UnityEngine::RenderTextureDescriptor desc);
     // private UnityEngine.RenderTextureDescriptor GetDescriptor()
-    // Offset: 0x140A370
+    // Offset: 0x141ADB4
     UnityEngine::RenderTextureDescriptor GetDescriptor();
     // static private UnityEngine.RenderTexture GetTemporary_Internal(UnityEngine.RenderTextureDescriptor desc)
-    // Offset: 0x140A44C
+    // Offset: 0x141AE90
     static UnityEngine::RenderTexture* GetTemporary_Internal(UnityEngine::RenderTextureDescriptor desc);
     // static public System.Void ReleaseTemporary(UnityEngine.RenderTexture temp)
-    // Offset: 0x140A4CC
+    // Offset: 0x141AF10
     static void ReleaseTemporary(UnityEngine::RenderTexture* temp);
     // public System.Void set_depth(System.Int32 value)
-    // Offset: 0x140A50C
+    // Offset: 0x141AF50
     void set_depth(int value);
     // public System.Void .ctor(UnityEngine.RenderTextureDescriptor desc)
-    // Offset: 0x140A5C4
+    // Offset: 0x141B008
     static RenderTexture* New_ctor(UnityEngine::RenderTextureDescriptor desc);
     // public System.Void .ctor(UnityEngine.RenderTexture textureToCopy)
-    // Offset: 0x140A900
+    // Offset: 0x141B344
     static RenderTexture* New_ctor(UnityEngine::RenderTexture* textureToCopy);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.DefaultFormat format)
-    // Offset: 0x140AB18
+    // Offset: 0x141B55C
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::DefaultFormat format);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format)
-    // Offset: 0x140AB68
+    // Offset: 0x141B5AC
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, System.Int32 mipCount)
-    // Offset: 0x140AD24
+    // Offset: 0x141B768
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, int mipCount);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.RenderTextureFormat format, UnityEngine.RenderTextureReadWrite readWrite)
-    // Offset: 0x140B088
+    // Offset: 0x141BACC
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.RenderTextureFormat format)
-    // Offset: 0x140B220
+    // Offset: 0x141BC64
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::RenderTextureFormat format);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth)
-    // Offset: 0x140B270
+    // Offset: 0x141BCB4
     static RenderTexture* New_ctor(int width, int height, int depth);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.RenderTextureFormat format, System.Int32 mipCount)
-    // Offset: 0x140B2C0
+    // Offset: 0x141BD04
     static RenderTexture* New_ctor(int width, int height, int depth, UnityEngine::RenderTextureFormat format, int mipCount);
     // public UnityEngine.RenderTextureDescriptor get_descriptor()
-    // Offset: 0x140AA68
+    // Offset: 0x141B4AC
     UnityEngine::RenderTextureDescriptor get_descriptor();
     // public System.Void set_descriptor(UnityEngine.RenderTextureDescriptor value)
-    // Offset: 0x140AFFC
+    // Offset: 0x141BA40
     void set_descriptor(UnityEngine::RenderTextureDescriptor value);
     // static private System.Void ValidateRenderTextureDesc(UnityEngine.RenderTextureDescriptor desc)
-    // Offset: 0x140A6D0
+    // Offset: 0x141B114
     static void ValidateRenderTextureDesc(UnityEngine::RenderTextureDescriptor desc);
     // static UnityEngine.Experimental.Rendering.GraphicsFormat GetCompatibleFormat(UnityEngine.RenderTextureFormat renderTextureFormat, UnityEngine.RenderTextureReadWrite readWrite)
-    // Offset: 0x140B0D8
+    // Offset: 0x141BB1C
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetCompatibleFormat(UnityEngine::RenderTextureFormat renderTextureFormat, UnityEngine::RenderTextureReadWrite readWrite);
     // static public UnityEngine.RenderTexture GetTemporary(UnityEngine.RenderTextureDescriptor desc)
-    // Offset: 0x140B3C0
+    // Offset: 0x141BE04
     static UnityEngine::RenderTexture* GetTemporary(UnityEngine::RenderTextureDescriptor desc);
     // static private UnityEngine.RenderTexture GetTemporaryImpl(System.Int32 width, System.Int32 height, System.Int32 depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat format, System.Int32 antiAliasing, UnityEngine.RenderTextureMemoryless memorylessMode, UnityEngine.VRTextureUsage vrUsage, System.Boolean useDynamicScale)
-    // Offset: 0x140B468
+    // Offset: 0x141BEAC
     static UnityEngine::RenderTexture* GetTemporaryImpl(int width, int height, int depthBuffer, UnityEngine::Experimental::Rendering::GraphicsFormat format, int antiAliasing, UnityEngine::RenderTextureMemoryless memorylessMode, UnityEngine::VRTextureUsage vrUsage, bool useDynamicScale);
     // static public UnityEngine.RenderTexture GetTemporary(System.Int32 width, System.Int32 height, System.Int32 depthBuffer, UnityEngine.RenderTextureFormat format, UnityEngine.RenderTextureReadWrite readWrite, System.Int32 antiAliasing)
-    // Offset: 0x140B5C4
+    // Offset: 0x141C008
     static UnityEngine::RenderTexture* GetTemporary(int width, int height, int depthBuffer, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite, int antiAliasing);
     // static public UnityEngine.RenderTexture GetTemporary(System.Int32 width, System.Int32 height, System.Int32 depthBuffer, UnityEngine.RenderTextureFormat format, UnityEngine.RenderTextureReadWrite readWrite)
-    // Offset: 0x140B62C
+    // Offset: 0x141C070
     static UnityEngine::RenderTexture* GetTemporary(int width, int height, int depthBuffer, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite);
     // static public UnityEngine.RenderTexture GetTemporary(System.Int32 width, System.Int32 height)
-    // Offset: 0x140B690
+    // Offset: 0x141C0D4
     static UnityEngine::RenderTexture* GetTemporary(int width, int height);
     // private System.Void GetColorBuffer_Injected(UnityEngine.RenderBuffer ret)
-    // Offset: 0x1409FE0
+    // Offset: 0x141AA24
     void GetColorBuffer_Injected(UnityEngine::RenderBuffer& ret);
     // private System.Void GetDepthBuffer_Injected(UnityEngine.RenderBuffer ret)
-    // Offset: 0x140A088
+    // Offset: 0x141AACC
     void GetDepthBuffer_Injected(UnityEngine::RenderBuffer& ret);
     // private System.Void SetRenderTextureDescriptor_Injected(UnityEngine.RenderTextureDescriptor desc)
-    // Offset: 0x140A320
+    // Offset: 0x141AD64
     void SetRenderTextureDescriptor_Injected(UnityEngine::RenderTextureDescriptor& desc);
     // private System.Void GetDescriptor_Injected(UnityEngine.RenderTextureDescriptor ret)
-    // Offset: 0x140A3FC
+    // Offset: 0x141AE40
     void GetDescriptor_Injected(UnityEngine::RenderTextureDescriptor& ret);
     // static private UnityEngine.RenderTexture GetTemporary_Internal_Injected(UnityEngine.RenderTextureDescriptor desc)
-    // Offset: 0x140A48C
+    // Offset: 0x141AED0
     static UnityEngine::RenderTexture* GetTemporary_Internal_Injected(UnityEngine::RenderTextureDescriptor& desc);
     // public override System.Int32 get_width()
-    // Offset: 0x1409B88
+    // Offset: 0x141A5CC
     // Implemented from: UnityEngine.Texture
     // Base method: System.Int32 Texture::get_width()
     int get_width();
     // public override System.Void set_width(System.Int32 value)
-    // Offset: 0x1409BC8
+    // Offset: 0x141A60C
     // Implemented from: UnityEngine.Texture
     // Base method: System.Void Texture::set_width(System.Int32 value)
     void set_width(int value);
     // public override System.Int32 get_height()
-    // Offset: 0x1409C18
+    // Offset: 0x141A65C
     // Implemented from: UnityEngine.Texture
     // Base method: System.Int32 Texture::get_height()
     int get_height();
     // public override System.Void set_height(System.Int32 value)
-    // Offset: 0x1409C58
+    // Offset: 0x141A69C
     // Implemented from: UnityEngine.Texture
     // Base method: System.Void Texture::set_height(System.Int32 value)
     void set_height(int value);
     // public override System.Void set_dimension(UnityEngine.Rendering.TextureDimension value)
-    // Offset: 0x1409CA8
+    // Offset: 0x141A6EC
     // Implemented from: UnityEngine.Texture
     // Base method: System.Void Texture::set_dimension(UnityEngine.Rendering.TextureDimension value)
     void set_dimension(UnityEngine::Rendering::TextureDimension value);
     // protected internal System.Void .ctor()
-    // Offset: 0x140A55C
+    // Offset: 0x141AFA0
     // Implemented from: UnityEngine.Texture
     // Base method: System.Void Texture::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -223,6 +223,6 @@ namespace UnityEngine {
     static RenderTexture* New_ctor();
   }; // UnityEngine.RenderTexture
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTexture*, "UnityEngine", "RenderTexture");
 #pragma pack(pop)

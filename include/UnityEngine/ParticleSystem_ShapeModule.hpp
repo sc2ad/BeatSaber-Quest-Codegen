@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,22 +27,22 @@ namespace UnityEngine {
     // Creating value type constructor for type: ShapeModule
     ShapeModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) : m_ParticleSystem{m_ParticleSystem_} {}
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xA5C218
+    // Offset: 0xA5C294
     static ParticleSystem::ShapeModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0xA5C220
+    // Offset: 0xA5C29C
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_rotation(UnityEngine.Vector3 value)
-    // Offset: 0xA5C228
+    // Offset: 0xA5C2A4
     void set_rotation(UnityEngine::Vector3 value);
     // static private System.Void set_position_Injected(UnityEngine.ParticleSystem/ShapeModule _unity_self, UnityEngine.Vector3 value)
-    // Offset: 0x1953614
+    // Offset: 0x1966058
     static void set_position_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
     // static private System.Void set_rotation_Injected(UnityEngine.ParticleSystem/ShapeModule _unity_self, UnityEngine.Vector3 value)
-    // Offset: 0x19536BC
+    // Offset: 0x1966100
     static void set_rotation_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
   }; // UnityEngine.ParticleSystem/ShapeModule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ShapeModule, "UnityEngine", "ParticleSystem/ShapeModule");
 #pragma pack(pop)

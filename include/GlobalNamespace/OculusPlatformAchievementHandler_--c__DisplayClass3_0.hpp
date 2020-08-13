@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OculusPlatformAchievementHandler
 #include "GlobalNamespace/OculusPlatformAchievementHandler.hpp"
 // Including type: PlatformAchievementsModelSO
@@ -37,15 +35,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::OculusPlatformAchievementHandler* $$4__this;
     // System.Void <GetUnlockedAchievements>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AchievementProgressList> message)
-    // Offset: 0xC24C30
+    // Offset: 0xC36674
     void $GetUnlockedAchievements$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementProgressList*>* message);
     // public System.Void .ctor()
-    // Offset: 0xC24BD4
+    // Offset: 0xC36618
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformAchievementHandler::$$c__DisplayClass3_0* New_ctor();
   }; // OculusPlatformAchievementHandler/<>c__DisplayClass3_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_0*, "", "OculusPlatformAchievementHandler/<>c__DisplayClass3_0");
 #pragma pack(pop)

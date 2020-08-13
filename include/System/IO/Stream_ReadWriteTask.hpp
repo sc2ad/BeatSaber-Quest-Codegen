@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Threading.Tasks.Task`1
-#include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.IO.Stream
 #include "System/IO/Stream.hpp"
+// Including type: System.Threading.Tasks.Task`1
+#include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.Threading.Tasks.ITaskCompletionAction
 #include "System/Threading/Tasks/ITaskCompletionAction.hpp"
 // Completed includes
@@ -64,21 +64,21 @@ namespace System::IO {
     // Set static field: static private System.Threading.ContextCallback s_invokeAsyncCallback
     static void _set_s_invokeAsyncCallback(System::Threading::ContextCallback* value);
     // System.Void ClearBeginState()
-    // Offset: 0xFF2D0C
+    // Offset: 0x1002750
     void ClearBeginState();
     // public System.Void .ctor(System.Boolean isRead, System.Func`2<System.Object,System.Int32> function, System.Object state, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback)
-    // Offset: 0xFF1A30
+    // Offset: 0x1001474
     static Stream::ReadWriteTask* New_ctor(bool isRead, System::Func_2<::CsObject*, int>* function, ::CsObject* state, System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback);
     // static private System.Void InvokeAsyncCallback(System.Object completedTask)
-    // Offset: 0xFF3164
+    // Offset: 0x1002BA8
     static void InvokeAsyncCallback(::CsObject* completedTask);
     // private System.Void System.Threading.Tasks.ITaskCompletionAction.Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0xFF31F0
+    // Offset: 0x1002C34
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);
   }; // System.IO.Stream/ReadWriteTask
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteTask*, "System.IO", "Stream/ReadWriteTask");
 #pragma pack(pop)

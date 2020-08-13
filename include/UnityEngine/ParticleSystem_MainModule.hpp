@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -20,76 +20,76 @@ namespace UnityEngine {
     // Creating value type constructor for type: MainModule
     MainModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) : m_ParticleSystem{m_ParticleSystem_} {}
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xA5BC60
+    // Offset: 0xA5BCDC
     static ParticleSystem::MainModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
     // public System.Single get_duration()
-    // Offset: 0xA5BC68
+    // Offset: 0xA5BCE4
     float get_duration();
     // public System.Boolean get_loop()
-    // Offset: 0xA5BCA8
+    // Offset: 0xA5BD24
     bool get_loop();
     // public UnityEngine.ParticleSystem/MinMaxCurve get_startDelay()
-    // Offset: 0xA5BCE8
+    // Offset: 0xA5BD64
     UnityEngine::ParticleSystem::MinMaxCurve get_startDelay();
     // public UnityEngine.ParticleSystem/MinMaxCurve get_startLifetime()
-    // Offset: 0xA5BD54
+    // Offset: 0xA5BDD0
     UnityEngine::ParticleSystem::MinMaxCurve get_startLifetime();
     // public System.Void set_startLifetime(UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0xA5BDC0
+    // Offset: 0xA5BE3C
     void set_startLifetime(UnityEngine::ParticleSystem::MinMaxCurve value);
     // public UnityEngine.ParticleSystem/MinMaxCurve get_startSpeed()
-    // Offset: 0xA5BE18
+    // Offset: 0xA5BE94
     UnityEngine::ParticleSystem::MinMaxCurve get_startSpeed();
     // public System.Void set_startSpeedMultiplier(System.Single value)
-    // Offset: 0xA5BE84
+    // Offset: 0xA5BF00
     void set_startSpeedMultiplier(float value);
     // public UnityEngine.ParticleSystem/MinMaxGradient get_startColor()
-    // Offset: 0xA5BED4
+    // Offset: 0xA5BF50
     UnityEngine::ParticleSystem::MinMaxGradient get_startColor();
     // public System.Void set_startColor(UnityEngine.ParticleSystem/MinMaxGradient value)
-    // Offset: 0xA5BF58
+    // Offset: 0xA5BFD4
     void set_startColor(UnityEngine::ParticleSystem::MinMaxGradient value);
     // public System.Int32 get_maxParticles()
-    // Offset: 0xA5BFC0
+    // Offset: 0xA5C03C
     int get_maxParticles();
     // public System.Void set_maxParticles(System.Int32 value)
-    // Offset: 0xA5C000
+    // Offset: 0xA5C07C
     void set_maxParticles(int value);
     // static private System.Single get_duration_Injected(UnityEngine.ParticleSystem/MainModule _unity_self)
-    // Offset: 0x1952BDC
+    // Offset: 0x1965620
     static float get_duration_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self);
     // static private System.Boolean get_loop_Injected(UnityEngine.ParticleSystem/MainModule _unity_self)
-    // Offset: 0x1952C5C
+    // Offset: 0x19656A0
     static bool get_loop_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self);
     // static private System.Void get_startDelay_Injected(UnityEngine.ParticleSystem/MainModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve ret)
-    // Offset: 0x1952D08
+    // Offset: 0x196574C
     static void get_startDelay_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& ret);
     // static private System.Void get_startLifetime_Injected(UnityEngine.ParticleSystem/MainModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve ret)
-    // Offset: 0x1952DC4
+    // Offset: 0x1965808
     static void get_startLifetime_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& ret);
     // static private System.Void set_startLifetime_Injected(UnityEngine.ParticleSystem/MainModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0x1952E64
+    // Offset: 0x19658A8
     static void set_startLifetime_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
     // static private System.Void get_startSpeed_Injected(UnityEngine.ParticleSystem/MainModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve ret)
-    // Offset: 0x1952F20
+    // Offset: 0x1965964
     static void get_startSpeed_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& ret);
     // static private System.Void set_startSpeedMultiplier_Injected(UnityEngine.ParticleSystem/MainModule _unity_self, System.Single value)
-    // Offset: 0x1952FC0
+    // Offset: 0x1965A04
     static void set_startSpeedMultiplier_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, float value);
     // static private System.Void get_startColor_Injected(UnityEngine.ParticleSystem/MainModule _unity_self, UnityEngine.ParticleSystem/MinMaxGradient ret)
-    // Offset: 0x1953094
+    // Offset: 0x1965AD8
     static void get_startColor_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, UnityEngine::ParticleSystem::MinMaxGradient& ret);
     // static private System.Void set_startColor_Injected(UnityEngine.ParticleSystem/MainModule _unity_self, UnityEngine.ParticleSystem/MinMaxGradient value)
-    // Offset: 0x1953134
+    // Offset: 0x1965B78
     static void set_startColor_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, UnityEngine::ParticleSystem::MinMaxGradient& value);
     // static private System.Int32 get_maxParticles_Injected(UnityEngine.ParticleSystem/MainModule _unity_self)
-    // Offset: 0x19531C4
+    // Offset: 0x1965C08
     static int get_maxParticles_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self);
     // static private System.Void set_maxParticles_Injected(UnityEngine.ParticleSystem/MainModule _unity_self, System.Int32 value)
-    // Offset: 0x1953254
+    // Offset: 0x1965C98
     static void set_maxParticles_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, int value);
   }; // UnityEngine.ParticleSystem/MainModule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MainModule, "UnityEngine", "ParticleSystem/MainModule");
 #pragma pack(pop)

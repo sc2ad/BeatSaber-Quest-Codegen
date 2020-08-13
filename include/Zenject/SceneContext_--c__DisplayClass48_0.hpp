@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.SceneContext
 #include "Zenject/SceneContext.hpp"
 // Completed includes
@@ -36,18 +34,18 @@ namespace Zenject {
     // Offset: 0x18
     System::Func_2<::CsString*, bool>* $$9__4;
     // System.Boolean <GetParentContainers>b__2(Zenject.SceneContext sceneContext)
-    // Offset: 0xFB5780
+    // Offset: 0xFC81C4
     bool $GetParentContainers$b__2(Zenject::SceneContext* sceneContext);
     // System.Boolean <GetParentContainers>b__4(System.String x)
-    // Offset: 0xFB584C
+    // Offset: 0xFC8290
     bool $GetParentContainers$b__4(::CsString* x);
     // public System.Void .ctor()
-    // Offset: 0xFB4838
+    // Offset: 0xFC727C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SceneContext::$$c__DisplayClass48_0* New_ctor();
   }; // Zenject.SceneContext/<>c__DisplayClass48_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext::$$c__DisplayClass48_0*, "Zenject", "SceneContext/<>c__DisplayClass48_0");
 #pragma pack(pop)

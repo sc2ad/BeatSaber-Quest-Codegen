@@ -35,22 +35,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::NoteTrailParticleSystem* noteTrailParticleSystem;
     // protected System.Void Awake()
-    // Offset: 0xC1D9A8
+    // Offset: 0xC2F3EC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC1DA88
+    // Offset: 0xC2F4CC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xC1DB90
+    // Offset: 0xC2F5D4
     void Update();
     // private System.Void HandleNoteMovementDidInit()
-    // Offset: 0xC1DD4C
+    // Offset: 0xC2F790
     void HandleNoteMovementDidInit();
     // private System.Void HandleNoteDidStartJump()
-    // Offset: 0xC1DD58
+    // Offset: 0xC2F79C
     void HandleNoteDidStartJump();
     // public System.Void .ctor()
-    // Offset: 0xC1DD64
+    // Offset: 0xC2F7A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -60,6 +60,6 @@ namespace GlobalNamespace {
     static NoteTrailEffect* New_ctor();
   }; // NoteTrailEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailEffect*, "", "NoteTrailEffect");
 #pragma pack(pop)

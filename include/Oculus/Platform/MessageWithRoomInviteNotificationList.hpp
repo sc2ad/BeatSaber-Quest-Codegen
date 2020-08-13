@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithRoomInviteNotificationList : public Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotificationList*> {
     public:
     // protected Oculus.Platform.Models.RoomInviteNotificationList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE9160C
+    // Offset: 0xEA4050
     Oculus::Platform::Models::RoomInviteNotificationList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88DA0
+    // Offset: 0xE9B7E4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithRoomInviteNotificationList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.RoomInviteNotificationList GetRoomInviteNotificationList()
-    // Offset: 0xE915C8
+    // Offset: 0xEA400C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.RoomInviteNotificationList Message::GetRoomInviteNotificationList()
     Oculus::Platform::Models::RoomInviteNotificationList* GetRoomInviteNotificationList();
   }; // Oculus.Platform.MessageWithRoomInviteNotificationList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithRoomInviteNotificationList*, "Oculus.Platform", "MessageWithRoomInviteNotificationList");
 #pragma pack(pop)

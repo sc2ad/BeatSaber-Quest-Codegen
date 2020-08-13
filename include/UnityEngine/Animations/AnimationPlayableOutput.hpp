@@ -39,33 +39,33 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationPlayableOutput
     AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.Animator target)
-    // Offset: 0x1924CD8
+    // Offset: 0x193671C
     static UnityEngine::Animations::AnimationPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::CsString* name, UnityEngine::Animator* target);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0xA5A000
+    // Offset: 0xA5A07C
     static AnimationPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Animations.AnimationPlayableOutput get_Null()
-    // Offset: 0x1924E68
+    // Offset: 0x19368AC
     static UnityEngine::Animations::AnimationPlayableOutput get_Null();
     // public UnityEngine.Animator GetTarget()
-    // Offset: 0xA5A014
+    // Offset: 0xA5A090
     UnityEngine::Animator* GetTarget();
     // public System.Void SetTarget(UnityEngine.Animator value)
-    // Offset: 0xA5A054
+    // Offset: 0xA5A0D0
     void SetTarget(UnityEngine::Animator* value);
     // static private UnityEngine.Animator InternalGetTarget(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0x1925090
+    // Offset: 0x1936AD4
     static UnityEngine::Animator* InternalGetTarget(UnityEngine::Playables::PlayableOutputHandle& handle);
     // static private System.Void InternalSetTarget(UnityEngine.Playables.PlayableOutputHandle handle, UnityEngine.Animator target)
-    // Offset: 0x19250D0
+    // Offset: 0x1936B14
     static void InternalSetTarget(UnityEngine::Playables::PlayableOutputHandle& handle, UnityEngine::Animator* target);
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xA5A008
+    // Offset: 0xA5A084
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Animations.AnimationPlayableOutput
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");
 #pragma pack(pop)

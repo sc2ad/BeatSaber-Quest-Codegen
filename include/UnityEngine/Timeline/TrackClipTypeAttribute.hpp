@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -26,13 +27,13 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     bool allowAutoCreate;
     // public System.Void .ctor(System.Type clipClass)
-    // Offset: 0x18F4684
+    // Offset: 0x19050C8
     static TrackClipTypeAttribute* New_ctor(System::Type* clipClass);
     // public System.Void .ctor(System.Type clipClass, System.Boolean allowAutoCreate)
-    // Offset: 0x18F46C4
+    // Offset: 0x1905108
     static TrackClipTypeAttribute* New_ctor(System::Type* clipClass, bool allowAutoCreate);
   }; // UnityEngine.Timeline.TrackClipTypeAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackClipTypeAttribute*, "UnityEngine.Timeline", "TrackClipTypeAttribute");
 #pragma pack(pop)

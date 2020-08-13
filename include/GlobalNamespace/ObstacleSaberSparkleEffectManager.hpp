@@ -86,37 +86,37 @@ namespace GlobalNamespace {
     // Offset: 0x78
     ::Array<UnityEngine::Vector3>* burnMarkPositions;
     // public System.Void add_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0xC1F7C4
+    // Offset: 0xC31208
     void add_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0xC1FA28
+    // Offset: 0xC3146C
     void remove_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // public System.Void add_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0xC1F868
+    // Offset: 0xC312AC
     void add_sparkleEffectDidEndEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0xC1FACC
+    // Offset: 0xC31510
     void remove_sparkleEffectDidEndEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // protected System.Void Start()
-    // Offset: 0xC20174
+    // Offset: 0xC31BB8
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0xC20480
+    // Offset: 0xC31EC4
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0xC2053C
+    // Offset: 0xC31F80
     void Update();
     // private UnityEngine.Quaternion GetEffectRotation(UnityEngine.Vector3 pos, UnityEngine.Transform transform, UnityEngine.Bounds bounds)
-    // Offset: 0xC20E08
+    // Offset: 0xC3284C
     UnityEngine::Quaternion GetEffectRotation(UnityEngine::Vector3 pos, UnityEngine::Transform* transform, UnityEngine::Bounds bounds);
     // public UnityEngine.Vector3 BurnMarkPosForSaberType(SaberType saberType)
-    // Offset: 0xC1FCB4
+    // Offset: 0xC316F8
     UnityEngine::Vector3 BurnMarkPosForSaberType(GlobalNamespace::SaberType saberType);
     // private System.Boolean GetBurnMarkPos(UnityEngine.Bounds bounds, UnityEngine.Transform transform, UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0xC20BB0
+    // Offset: 0xC325F4
     bool GetBurnMarkPos(UnityEngine::Bounds bounds, UnityEngine::Transform* transform, UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // public System.Void .ctor()
-    // Offset: 0xC20FC0
+    // Offset: 0xC32A04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -126,6 +126,6 @@ namespace GlobalNamespace {
     static ObstacleSaberSparkleEffectManager* New_ctor();
   }; // ObstacleSaberSparkleEffectManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffectManager*, "", "ObstacleSaberSparkleEffectManager");
 #pragma pack(pop)

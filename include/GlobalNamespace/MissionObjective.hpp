@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -68,38 +66,38 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     int referenceValue;
     // public MissionObjectiveTypeSO get_type()
-    // Offset: 0xBF59B8
+    // Offset: 0xC073FC
     GlobalNamespace::MissionObjectiveTypeSO* get_type();
     // public MissionObjective/ReferenceValueComparisonType get_referenceValueComparisonType()
-    // Offset: 0xBF59C0
+    // Offset: 0xC07404
     GlobalNamespace::MissionObjective::ReferenceValueComparisonType get_referenceValueComparisonType();
     // public System.Int32 get_referenceValue()
-    // Offset: 0xBF59C8
+    // Offset: 0xC0740C
     int get_referenceValue();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xBF5AB8
+    // Offset: 0xC074FC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xBF5BC8
+    // Offset: 0xC0760C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Void .ctor()
-    // Offset: 0xBF5C38
+    // Offset: 0xC0767C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionObjective* New_ctor();
   }; // MissionObjective
   // static public System.Boolean op_Equality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0xBF59D0
+  // Offset: 0xC07414
   bool operator ==(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
   // static public System.Boolean op_Inequality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0xBF5A9C
+  // Offset: 0xC074E0
   bool operator !=(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective*, "", "MissionObjective");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective::ReferenceValueComparisonType, "", "MissionObjective/ReferenceValueComparisonType");
 #pragma pack(pop)

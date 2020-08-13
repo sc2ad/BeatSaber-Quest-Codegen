@@ -38,6 +38,6 @@ namespace Valve::VR {
     ETrackedControllerRole(int value_ = {}) : value{value_} {}
   }; // Valve.VR.ETrackedControllerRole
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::ETrackedControllerRole, "Valve.VR", "ETrackedControllerRole");
 #pragma pack(pop)

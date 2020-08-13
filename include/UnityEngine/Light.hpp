@@ -37,49 +37,49 @@ namespace UnityEngine {
     // Offset: 0x18
     int m_BakedIndex;
     // public UnityEngine.LightType get_type()
-    // Offset: 0x12F68E8
+    // Offset: 0x130932C
     UnityEngine::LightType get_type();
     // public System.Single get_spotAngle()
-    // Offset: 0x12F55C0
+    // Offset: 0x1308004
     float get_spotAngle();
     // public UnityEngine.Color get_color()
-    // Offset: 0x12F531C
+    // Offset: 0x1307D60
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x12FA6C4
+    // Offset: 0x130D108
     void set_color(UnityEngine::Color value);
     // public System.Single get_intensity()
-    // Offset: 0x12F5378
+    // Offset: 0x1307DBC
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x12FA76C
+    // Offset: 0x130D1B0
     void set_intensity(float value);
     // public System.Single get_bounceIntensity()
-    // Offset: 0x12F53B8
+    // Offset: 0x1307DFC
     float get_bounceIntensity();
     // public System.Single get_range()
-    // Offset: 0x12F58DC
+    // Offset: 0x1308320
     float get_range();
     // public UnityEngine.LightShadows get_shadows()
-    // Offset: 0x12F5734
+    // Offset: 0x1308178
     UnityEngine::LightShadows get_shadows();
     // public System.Void AddCommandBuffer(UnityEngine.Rendering.LightEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
-    // Offset: 0x12FA7BC
+    // Offset: 0x130D200
     void AddCommandBuffer(UnityEngine::Rendering::LightEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
     // public System.Void AddCommandBuffer(UnityEngine.Rendering.LightEvent evt, UnityEngine.Rendering.CommandBuffer buffer, UnityEngine.Rendering.ShadowMapPass shadowPassMask)
-    // Offset: 0x12FA818
+    // Offset: 0x130D25C
     void AddCommandBuffer(UnityEngine::Rendering::LightEvent evt, UnityEngine::Rendering::CommandBuffer* buffer, UnityEngine::Rendering::ShadowMapPass shadowPassMask);
     // public System.Void RemoveCommandBuffer(UnityEngine.Rendering.LightEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
-    // Offset: 0x12FA880
+    // Offset: 0x130D2C4
     void RemoveCommandBuffer(UnityEngine::Rendering::LightEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
     // private System.Void get_color_Injected(UnityEngine.Color ret)
-    // Offset: 0x12FA674
+    // Offset: 0x130D0B8
     void get_color_Injected(UnityEngine::Color& ret);
     // private System.Void set_color_Injected(UnityEngine.Color value)
-    // Offset: 0x12FA71C
+    // Offset: 0x130D160
     void set_color_Injected(UnityEngine::Color& value);
   }; // UnityEngine.Light
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Light*, "UnityEngine", "Light");
 #pragma pack(pop)

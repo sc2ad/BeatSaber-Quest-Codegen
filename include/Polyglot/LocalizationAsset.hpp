@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Polyglot.GoogleDriveDownloadFormat
 #include "Polyglot/GoogleDriveDownloadFormat.hpp"
 // Completed includes
@@ -29,24 +27,24 @@ namespace Polyglot {
     // Offset: 0x18
     Polyglot::GoogleDriveDownloadFormat format;
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x18FF35C
+    // Offset: 0x190DDA0
     UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x18FF364
+    // Offset: 0x190DDA8
     void set_TextAsset(UnityEngine::TextAsset* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x18FF36C
+    // Offset: 0x190DDB0
     Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x18FF374
+    // Offset: 0x190DDB8
     void set_Format(Polyglot::GoogleDriveDownloadFormat value);
     // public System.Void .ctor()
-    // Offset: 0x18FF37C
+    // Offset: 0x190DDC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalizationAsset* New_ctor();
   }; // Polyglot.LocalizationAsset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationAsset*, "Polyglot", "LocalizationAsset");
 #pragma pack(pop)

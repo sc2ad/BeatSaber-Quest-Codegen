@@ -114,25 +114,25 @@ namespace RootMotion::FinalIK {
     // Offset: 0xB4
     float turnToTargetMlpV;
     // private System.Void Start()
-    // Offset: 0x1391530
+    // Offset: 0x13A2F74
     void Start();
     // private System.Void LateUpdate()
-    // Offset: 0x139177C
+    // Offset: 0x13A31C0
     void LateUpdate();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x1391630
+    // Offset: 0x13A3074
     UnityEngine::Vector3 get_pivot();
     // private System.Void ApplyMinDistance()
-    // Offset: 0x1391EC0
+    // Offset: 0x13A3904
     void ApplyMinDistance();
     // private System.Void RootRotation()
-    // Offset: 0x139205C
+    // Offset: 0x13A3AA0
     void RootRotation();
     // private System.Collections.IEnumerator TurnToTarget()
-    // Offset: 0x13923CC
+    // Offset: 0x13A3E10
     System::Collections::IEnumerator* TurnToTarget();
     // public System.Void .ctor()
-    // Offset: 0x1392474
+    // Offset: 0x13A3EB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -142,6 +142,6 @@ namespace RootMotion::FinalIK {
     static AimController* New_ctor();
   }; // RootMotion.FinalIK.AimController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController*, "RootMotion.FinalIK", "AimController");
 #pragma pack(pop)

@@ -60,13 +60,13 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::FlyingSpriteEffect::Pool* flyingSpriteEffectPool;
     // public System.Void SpawnFlyingSprite(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation)
-    // Offset: 0xBDB630
+    // Offset: 0xBEE074
     void SpawnFlyingSprite(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation);
     // private System.Void HandleFlyingSpriteEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0xBDB868
+    // Offset: 0xBEE2AC
     void HandleFlyingSpriteEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0xBDB94C
+    // Offset: 0xBEE390
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -76,6 +76,6 @@ namespace GlobalNamespace {
     static FlyingSpriteSpawner* New_ctor();
   }; // FlyingSpriteSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteSpawner*, "", "FlyingSpriteSpawner");
 #pragma pack(pop)

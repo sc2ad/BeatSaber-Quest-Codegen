@@ -4,8 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.YieldAwaitable
 #include "System/Runtime/CompilerServices/YieldAwaitable.hpp"
 // Including type: System.Runtime.CompilerServices.ICriticalNotifyCompletion
@@ -44,27 +42,27 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: YieldAwaiter
     YieldAwaiter() {}
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xA3E974
+    // Offset: 0xA3E9F0
     bool get_IsCompleted();
     // static private System.Void QueueContinuation(System.Action continuation, System.Boolean flowContext)
-    // Offset: 0x11505A0
+    // Offset: 0x1161FE4
     static void QueueContinuation(System::Action* continuation, bool flowContext);
     // static private System.Void RunAction(System.Object state)
-    // Offset: 0x1150874
+    // Offset: 0x11622B8
     static void RunAction(::CsObject* state);
     // public System.Void GetResult()
-    // Offset: 0xA3E980
+    // Offset: 0xA3E9FC
     void GetResult();
     // static private System.Void .cctor()
-    // Offset: 0x11508E4
+    // Offset: 0x1162328
     static void _cctor();
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xA3E97C
+    // Offset: 0xA3E9F8
     // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
     // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
     void UnsafeOnCompleted(System::Action* continuation);
   }; // System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter, "System.Runtime.CompilerServices", "YieldAwaitable/YieldAwaiter");
 #pragma pack(pop)

@@ -21,36 +21,36 @@ namespace UnityEngine {
   class UnityLogWriter : public System::IO::TextWriter {
     public:
     // static public System.Void WriteStringToUnityLog(System.String s)
-    // Offset: 0x137F980
+    // Offset: 0x13923C4
     static void WriteStringToUnityLog(::CsString* s);
     // static private System.Void WriteStringToUnityLogImpl(System.String s)
-    // Offset: 0x137F9C8
+    // Offset: 0x139240C
     static void WriteStringToUnityLogImpl(::CsString* s);
     // static public System.Void Init()
-    // Offset: 0x137FA08
+    // Offset: 0x139244C
     static void Init();
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x137FAEC
+    // Offset: 0x1392530
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char value)
-    // Offset: 0x137FAF4
+    // Offset: 0x1392538
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.String s)
-    // Offset: 0x137FB54
+    // Offset: 0x1392598
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String s)
     void Write(::CsString* s);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x137FB9C
+    // Offset: 0x13925E0
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void .ctor()
-    // Offset: 0x137FA84
+    // Offset: 0x13924C8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -58,6 +58,6 @@ namespace UnityEngine {
     static UnityLogWriter* New_ctor();
   }; // UnityEngine.UnityLogWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityLogWriter*, "UnityEngine", "UnityLogWriter");
 #pragma pack(pop)

@@ -19,13 +19,13 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::Decimal dec;
     // public System.Void .ctor(System.Byte scale, System.Byte sign, System.UInt32 hi, System.UInt32 mid, System.UInt32 low)
-    // Offset: 0x114FB3C
+    // Offset: 0x1161580
     static DecimalConstantAttribute* New_ctor(uint8_t scale, uint8_t sign, uint hi, uint mid, uint low);
     // public System.Decimal get_Value()
-    // Offset: 0x114FBBC
+    // Offset: 0x1161600
     System::Decimal get_Value();
   }; // System.Runtime.CompilerServices.DecimalConstantAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DecimalConstantAttribute*, "System.Runtime.CompilerServices", "DecimalConstantAttribute");
 #pragma pack(pop)

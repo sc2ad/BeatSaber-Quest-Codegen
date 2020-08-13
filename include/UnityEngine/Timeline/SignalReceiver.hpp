@@ -46,48 +46,48 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     UnityEngine::Timeline::SignalReceiver::EventKeyValue* m_Events;
     // public System.Void AddReaction(UnityEngine.Timeline.SignalAsset asset, UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x10899EC
+    // Offset: 0x1099430
     void AddReaction(UnityEngine::Timeline::SignalAsset* asset, UnityEngine::Events::UnityEvent* reaction);
     // public System.Int32 AddEmptyReaction(UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1089B9C
+    // Offset: 0x10995E0
     int AddEmptyReaction(UnityEngine::Events::UnityEvent* reaction);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset asset)
-    // Offset: 0x1089C18
+    // Offset: 0x109965C
     void Remove(UnityEngine::Timeline::SignalAsset* asset);
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.SignalAsset> GetRegisteredSignals()
-    // Offset: 0x1089D94
+    // Offset: 0x10997D8
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::SignalAsset*>* GetRegisteredSignals();
     // public UnityEngine.Events.UnityEvent GetReaction(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x1089DB0
+    // Offset: 0x10997F4
     UnityEngine::Events::UnityEvent* GetReaction(UnityEngine::Timeline::SignalAsset* key);
     // public System.Int32 Count()
-    // Offset: 0x1089DEC
+    // Offset: 0x1099830
     int Count();
     // public System.Void ChangeSignalAtIndex(System.Int32 idx, UnityEngine.Timeline.SignalAsset newKey)
-    // Offset: 0x1089E44
+    // Offset: 0x1099888
     void ChangeSignalAtIndex(int idx, UnityEngine::Timeline::SignalAsset* newKey);
     // public System.Void RemoveAtIndex(System.Int32 idx)
-    // Offset: 0x108A06C
+    // Offset: 0x1099AB0
     void RemoveAtIndex(int idx);
     // public System.Void ChangeReactionAtIndex(System.Int32 idx, UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x108A1B0
+    // Offset: 0x1099BF4
     void ChangeReactionAtIndex(int idx, UnityEngine::Events::UnityEvent* reaction);
     // public UnityEngine.Events.UnityEvent GetReactionAtIndex(System.Int32 idx)
-    // Offset: 0x108A26C
+    // Offset: 0x1099CB0
     UnityEngine::Events::UnityEvent* GetReactionAtIndex(int idx);
     // public UnityEngine.Timeline.SignalAsset GetSignalAssetAtIndex(System.Int32 idx)
-    // Offset: 0x108A32C
+    // Offset: 0x1099D70
     UnityEngine::Timeline::SignalAsset* GetSignalAssetAtIndex(int idx);
     // private System.Void OnEnable()
-    // Offset: 0x108A3EC
+    // Offset: 0x1099E30
     void OnEnable();
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x10897FC
+    // Offset: 0x1099240
     // Implemented from: UnityEngine.Playables.INotificationReceiver
     // Base method: System.Void INotificationReceiver::OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::CsObject* context);
     // public System.Void .ctor()
-    // Offset: 0x108A3F0
+    // Offset: 0x1099E34
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -97,6 +97,6 @@ namespace UnityEngine::Timeline {
     static SignalReceiver* New_ctor();
   }; // UnityEngine.Timeline.SignalReceiver
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver*, "UnityEngine.Timeline", "SignalReceiver");
 #pragma pack(pop)

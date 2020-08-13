@@ -26,15 +26,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>* presets;
     // public MainEffectGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0xBE8364
+    // Offset: 0xBF9DA8
     ::Array<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0xBE836C
+    // Offset: 0xBF9DB0
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0xBE8374
+    // Offset: 0xBF9DB8
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -44,6 +44,6 @@ namespace GlobalNamespace {
     static MainEffectGraphicsSettingsPresetsSO* New_ctor();
   }; // MainEffectGraphicsSettingsPresetsSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*, "", "MainEffectGraphicsSettingsPresetsSO");
 #pragma pack(pop)

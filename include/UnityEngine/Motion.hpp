@@ -17,16 +17,16 @@ namespace UnityEngine {
     // Offset: 0x18
     bool isAnimatorMotion;
     // public System.Boolean get_isLooping()
-    // Offset: 0x19273A4
+    // Offset: 0x1938DE8
     bool get_isLooping();
     // protected System.Void .ctor()
-    // Offset: 0x1922834
+    // Offset: 0x1934278
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static Motion* New_ctor();
   }; // UnityEngine.Motion
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Motion*, "UnityEngine", "Motion");
 #pragma pack(pop)

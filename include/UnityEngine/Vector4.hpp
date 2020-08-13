@@ -63,81 +63,81 @@ namespace UnityEngine {
     // Creating value type constructor for type: Vector4
     Vector4(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
     // public System.Single get_Item(System.Int32 index)
-    // Offset: 0xA43D9C
+    // Offset: 0xA43E18
     float get_Item(int index);
     // public System.Void set_Item(System.Int32 index, System.Single value)
-    // Offset: 0xA43DA4
+    // Offset: 0xA43E20
     void set_Item(int index, float value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
-    // Offset: 0xA43DAC
+    // Offset: 0xA43E28
     static Vector4* New_ctor(float x, float y, float z, float w);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
-    // Offset: 0xA43DB8
+    // Offset: 0xA43E34
     static Vector4* New_ctor(float x, float y, float z);
     // public System.Void Normalize()
-    // Offset: 0xA43E14
+    // Offset: 0xA43E90
     void Normalize();
     // static public System.Single Dot(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
-    // Offset: 0x1383A14
+    // Offset: 0x1396458
     static float Dot(UnityEngine::Vector4 a, UnityEngine::Vector4 b);
     // static public System.Single Magnitude(UnityEngine.Vector4 a)
-    // Offset: 0x13838B8
+    // Offset: 0x13962FC
     static float Magnitude(UnityEngine::Vector4 a);
     // public System.Single get_sqrMagnitude()
-    // Offset: 0xA43E1C
+    // Offset: 0xA43E98
     float get_sqrMagnitude();
     // static public UnityEngine.Vector4 get_zero()
-    // Offset: 0x13839A8
+    // Offset: 0x13963EC
     static UnityEngine::Vector4 get_zero();
     // static public UnityEngine.Vector4 get_one()
-    // Offset: 0x1383AC8
+    // Offset: 0x139650C
     static UnityEngine::Vector4 get_one();
     // public System.String ToString(System.String format)
-    // Offset: 0xA43E2C
+    // Offset: 0xA43EA8
     ::CsString* ToString(::CsString* format);
     // static private System.Void .cctor()
-    // Offset: 0x13840DC
+    // Offset: 0x1396B20
     static void _cctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA43DC8
+    // Offset: 0xA43E44
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA43DD0
+    // Offset: 0xA43E4C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::CsObject* other);
     // public System.Boolean Equals(UnityEngine.Vector4 other)
-    // Offset: 0xA43DD8
+    // Offset: 0xA43E54
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Vector4 other)
     bool Equals(UnityEngine::Vector4 other);
     // public override System.String ToString()
-    // Offset: 0xA43E24
+    // Offset: 0xA43EA0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // UnityEngine.Vector4
   // static public UnityEngine.Vector4 op_Addition(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
-  // Offset: 0x1383B34
+  // Offset: 0x1396578
   UnityEngine::Vector4 operator+(const UnityEngine::Vector4& a, const UnityEngine::Vector4& b);
   // static public UnityEngine.Vector4 op_Subtraction(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
-  // Offset: 0x1383B48
+  // Offset: 0x139658C
   UnityEngine::Vector4 operator-(const UnityEngine::Vector4& a, const UnityEngine::Vector4& b);
   // static public UnityEngine.Vector4 op_Multiply(UnityEngine.Vector4 a, System.Single d)
-  // Offset: 0x1383B5C
+  // Offset: 0x13965A0
   UnityEngine::Vector4 operator*(const UnityEngine::Vector4& a, const float& d);
   // static public UnityEngine.Vector4 op_Division(UnityEngine.Vector4 a, System.Single d)
-  // Offset: 0x1383994
+  // Offset: 0x13963D8
   UnityEngine::Vector4 operator/(const UnityEngine::Vector4& a, const float& d);
   // static public System.Boolean op_Equality(UnityEngine.Vector4 lhs, UnityEngine.Vector4 rhs)
-  // Offset: 0x1383B70
+  // Offset: 0x13965B4
   bool operator ==(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Vector4 lhs, UnityEngine.Vector4 rhs)
-  // Offset: 0x1383BB0
+  // Offset: 0x13965F4
   bool operator !=(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector4, "UnityEngine", "Vector4");
 #pragma pack(pop)

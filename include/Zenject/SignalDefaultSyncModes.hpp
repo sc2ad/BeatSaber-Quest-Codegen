@@ -32,6 +32,6 @@ namespace Zenject {
     SignalDefaultSyncModes(int value_ = {}) : value{value_} {}
   }; // Zenject.SignalDefaultSyncModes
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalDefaultSyncModes, "Zenject", "SignalDefaultSyncModes");
 #pragma pack(pop)

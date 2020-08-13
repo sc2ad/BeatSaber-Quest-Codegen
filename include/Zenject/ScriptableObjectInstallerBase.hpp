@@ -26,20 +26,20 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::DiContainer* container;
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0xFB684C
+    // Offset: 0xFC9290
     Zenject::DiContainer* get_Container();
     // private System.Boolean Zenject.IInstaller.get_IsEnabled()
-    // Offset: 0xFB6854
+    // Offset: 0xFC9298
     // Implemented from: Zenject.IInstaller
     // Base method: System.Boolean IInstaller::get_IsEnabled()
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0xFB685C
+    // Offset: 0xFC92A0
     // Implemented from: Zenject.IInstaller
     // Base method: System.Void IInstaller::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFB6844
+    // Offset: 0xFC9288
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -47,6 +47,6 @@ namespace Zenject {
     static ScriptableObjectInstallerBase* New_ctor();
   }; // Zenject.ScriptableObjectInstallerBase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstallerBase*, "Zenject", "ScriptableObjectInstallerBase");
 #pragma pack(pop)

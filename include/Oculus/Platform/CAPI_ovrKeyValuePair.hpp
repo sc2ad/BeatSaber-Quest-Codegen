@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: Oculus.Platform.CAPI
 #include "Oculus/Platform/CAPI.hpp"
 // Including type: Oculus.Platform.KeyValuePairType
@@ -35,16 +33,16 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: ovrKeyValuePair
     ovrKeyValuePair(::CsString* key_ = {}, Oculus::Platform::KeyValuePairType valueType_ = {}, ::CsString* stringValue_ = {}, int intValue_ = {}, double doubleValue_ = {}) : key{key_}, valueType{valueType_}, stringValue{stringValue_}, intValue{intValue_}, doubleValue{doubleValue_} {}
     // public System.Void .ctor(System.String key, System.String value)
-    // Offset: 0xA2FD60
+    // Offset: 0xA2FDDC
     static CAPI::ovrKeyValuePair* New_ctor(::CsString* key, ::CsString* value);
     // public System.Void .ctor(System.String key, System.Int32 value)
-    // Offset: 0xA2FDA4
+    // Offset: 0xA2FE20
     static CAPI::ovrKeyValuePair* New_ctor(::CsString* key, int value);
     // public System.Void .ctor(System.String key, System.Double value)
-    // Offset: 0xA2FDEC
+    // Offset: 0xA2FE68
     static CAPI::ovrKeyValuePair* New_ctor(::CsString* key, double value);
   }; // Oculus.Platform.CAPI/ovrKeyValuePair
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");
 #pragma pack(pop)

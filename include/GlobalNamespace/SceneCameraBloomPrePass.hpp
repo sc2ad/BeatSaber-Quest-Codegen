@@ -41,17 +41,17 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::RenderTexture* bloomPrePassRenderTexture;
     // public System.Void OnCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x1817040
+    // Offset: 0x1827A84
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPreRender(UnityEngine.Camera camera)
     void OnCameraPreRender(UnityEngine::Camera* camera);
     // public System.Void OnCameraPostRender(UnityEngine.Camera camera)
-    // Offset: 0x1817044
+    // Offset: 0x1827A88
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPostRender(UnityEngine.Camera camera)
     void OnCameraPostRender(UnityEngine::Camera* camera);
     // public System.Void .ctor()
-    // Offset: 0x1817048
+    // Offset: 0x1827A8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -61,6 +61,6 @@ namespace GlobalNamespace {
     static SceneCameraBloomPrePass* New_ctor();
   }; // SceneCameraBloomPrePass
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneCameraBloomPrePass*, "", "SceneCameraBloomPrePass");
 #pragma pack(pop)

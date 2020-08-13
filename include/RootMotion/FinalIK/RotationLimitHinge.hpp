@@ -32,27 +32,27 @@ namespace RootMotion::FinalIK {
     // Offset: 0x58
     float lastAngle;
     // private System.Void OpenUserManual()
-    // Offset: 0x121FB18
+    // Offset: 0x123155C
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x121FB64
+    // Offset: 0x12315A8
     void OpenScriptReference();
     // private System.Void SupportGroup()
-    // Offset: 0x121FBB0
+    // Offset: 0x12315F4
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x121FBFC
+    // Offset: 0x1231640
     void ASThread();
     // private UnityEngine.Quaternion LimitHinge(UnityEngine.Quaternion rotation)
-    // Offset: 0x121FC70
+    // Offset: 0x12316B4
     UnityEngine::Quaternion LimitHinge(UnityEngine::Quaternion rotation);
     // protected override UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x121FC48
+    // Offset: 0x123168C
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: UnityEngine.Quaternion RotationLimit::LimitRotation(UnityEngine.Quaternion rotation)
     UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x121FF70
+    // Offset: 0x12319B4
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: System.Void RotationLimit::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -63,6 +63,6 @@ namespace RootMotion::FinalIK {
     static RotationLimitHinge* New_ctor();
   }; // RootMotion.FinalIK.RotationLimitHinge
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitHinge*, "RootMotion.FinalIK", "RotationLimitHinge");
 #pragma pack(pop)

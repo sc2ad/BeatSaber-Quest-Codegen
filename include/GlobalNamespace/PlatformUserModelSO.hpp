@@ -46,27 +46,27 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::IPlatformUserHandler* platformUserHandler;
     // public PlatformInfo get_platformInfo()
-    // Offset: 0xBC2E50
+    // Offset: 0xBD5894
     GlobalNamespace::PlatformInfo* get_platformInfo();
     // public HMAsyncRequest GetUserInfo(PlatformUserModelSO/GetUserInfoCompletionHandler completionHandler)
-    // Offset: 0xBC1CD8
+    // Offset: 0xBD471C
     GlobalNamespace::HMAsyncRequest* GetUserInfo(GlobalNamespace::PlatformUserModelSO::GetUserInfoCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserFriendsUserIds(System.Boolean cached, PlatformUserModelSO/GetUserFriendsUserIdsCompletionHandler completionHandler)
-    // Offset: 0xBC2F74
+    // Offset: 0xBD59B8
     GlobalNamespace::HMAsyncRequest* GetUserFriendsUserIds(bool cached, GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserAuthToken(PlatformUserModelSO/GetUserAuthTokenCompletionHandler completionHandler)
-    // Offset: 0xBC3040
+    // Offset: 0xBD5A84
     GlobalNamespace::HMAsyncRequest* GetUserAuthToken(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserNamesForUserIds(System.String[] userIds, PlatformUserModelSO/GetUserNamesForUserIdsCompletionHandler completionHandler)
-    // Offset: 0xBB9AC4
+    // Offset: 0xBCC508
     GlobalNamespace::HMAsyncRequest* GetUserNamesForUserIds(::Array<::CsString*>* userIds, GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* completionHandler);
     // protected override System.Void OnEnable()
-    // Offset: 0xBC2F00
+    // Offset: 0xBD5944
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xBC3104
+    // Offset: 0xBD5B48
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -75,6 +75,6 @@ namespace GlobalNamespace {
     static PlatformUserModelSO* New_ctor();
   }; // PlatformUserModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserModelSO*, "", "PlatformUserModelSO");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OnlineServices.API.IApiLeaderboardsModel
 #include "OnlineServices/API/IApiLeaderboardsModel.hpp"
 // Including type: OnlineServices.API.ApiResponse`1
@@ -50,27 +48,27 @@ namespace OnlineServices::API {
     // Nested type: OnlineServices::API::TestApiLeaderboardsModel::$SendLevelScoreResultAsync$d__2
     struct $SendLevelScoreResultAsync$d__2;
     // public System.Void LogoutAsync()
-    // Offset: 0xC2DC58
+    // Offset: 0xC3F69C
     // Implemented from: OnlineServices.API.IApiLeaderboardsModel
     // Base method: System.Void IApiLeaderboardsModel::LogoutAsync()
     void LogoutAsync();
     // public System.Threading.Tasks.Task`1<OnlineServices.API.ApiResponse`1<LeaderboardsDTO.LeaderboardEntriesDTO>> GetLeaderboardEntriesAsync(LeaderboardsDTO.LeaderboardQueryDTO leaderboardQueryDTO, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC2DD10
+    // Offset: 0xC3F754
     // Implemented from: OnlineServices.API.IApiLeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.API.ApiResponse`1<LeaderboardsDTO.LeaderboardEntriesDTO>> IApiLeaderboardsModel::GetLeaderboardEntriesAsync(LeaderboardsDTO.LeaderboardQueryDTO leaderboardQueryDTO, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::API::ApiResponse_1<LeaderboardsDTO::LeaderboardEntriesDTO>>* GetLeaderboardEntriesAsync(LeaderboardsDTO::LeaderboardQueryDTO* leaderboardQueryDTO, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.Response> SendLevelScoreResultAsync(LeaderboardsDTO.LevelScoreResultDTO levelScoreResultDto, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC2DE1C
+    // Offset: 0xC3F860
     // Implemented from: OnlineServices.API.IApiLeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.API.Response> IApiLeaderboardsModel::SendLevelScoreResultAsync(LeaderboardsDTO.LevelScoreResultDTO levelScoreResultDto, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::API::Response>* SendLevelScoreResultAsync(LeaderboardsDTO::LevelScoreResultDTO* levelScoreResultDto, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0xC2DF28
+    // Offset: 0xC3F96C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestApiLeaderboardsModel* New_ctor();
   }; // OnlineServices.API.TestApiLeaderboardsModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel*, "OnlineServices.API", "TestApiLeaderboardsModel");
 #pragma pack(pop)

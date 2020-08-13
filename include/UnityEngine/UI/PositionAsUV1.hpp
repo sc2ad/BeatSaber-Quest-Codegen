@@ -21,7 +21,7 @@ namespace UnityEngine::UI {
   class PositionAsUV1 : public UnityEngine::UI::BaseMeshEffect {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x11EF120
+    // Offset: 0x1200B64
     // Implemented from: UnityEngine.UI.BaseMeshEffect
     // Base method: System.Void BaseMeshEffect::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -32,12 +32,12 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static PositionAsUV1* New_ctor();
     // public override System.Void ModifyMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x11EF128
+    // Offset: 0x1200B6C
     // Implemented from: UnityEngine.UI.BaseMeshEffect
     // Base method: System.Void BaseMeshEffect::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
   }; // UnityEngine.UI.PositionAsUV1
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::PositionAsUV1*, "UnityEngine.UI", "PositionAsUV1");
 #pragma pack(pop)

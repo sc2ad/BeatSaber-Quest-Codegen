@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.EventTrigger
 #include "UnityEngine/EventSystems/EventTrigger.hpp"
 // Including type: UnityEngine.EventSystems.EventTriggerType
@@ -24,12 +22,12 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18
     UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback;
     // public System.Void .ctor()
-    // Offset: 0xDE56E4
+    // Offset: 0xDF8128
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EventTrigger::Entry* New_ctor();
   }; // UnityEngine.EventSystems.EventTrigger/Entry
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::Entry*, "UnityEngine.EventSystems", "EventTrigger/Entry");
 #pragma pack(pop)

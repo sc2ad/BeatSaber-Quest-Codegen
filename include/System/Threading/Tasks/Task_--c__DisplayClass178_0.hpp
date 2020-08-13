@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Threading.Tasks.Task
 #include "System/Threading/Tasks/Task.hpp"
 // Including type: System.Threading.Tasks.TaskCreationOptions
@@ -43,15 +41,15 @@ namespace System::Threading::Tasks {
     // Offset: 0x2C
     System::Threading::Tasks::InternalTaskOptions internalOptionsForReplicas;
     // System.Void <ExecuteSelfReplicating>b__0(System.Object $p0$)
-    // Offset: 0xCD0378
+    // Offset: 0xCE2DBC
     void $ExecuteSelfReplicating$b__0(::CsObject* $p0$);
     // public System.Void .ctor()
-    // Offset: 0xCCD880
+    // Offset: 0xCE02C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Task::$$c__DisplayClass178_0* New_ctor();
   }; // System.Threading.Tasks.Task/<>c__DisplayClass178_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c__DisplayClass178_0*, "System.Threading.Tasks", "Task/<>c__DisplayClass178_0");
 #pragma pack(pop)

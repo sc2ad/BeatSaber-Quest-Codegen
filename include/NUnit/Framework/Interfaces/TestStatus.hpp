@@ -44,6 +44,6 @@ namespace NUnit::Framework::Interfaces {
     TestStatus(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Interfaces.TestStatus
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestStatus, "NUnit.Framework.Interfaces", "TestStatus");
 #pragma pack(pop)

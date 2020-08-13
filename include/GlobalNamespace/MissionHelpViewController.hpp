@@ -46,27 +46,27 @@ namespace GlobalNamespace {
     // Offset: 0x80
     GlobalNamespace::MissionHelpSO* missionHelp;
     // public System.Void add_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0xBEF934
+    // Offset: 0xC01378
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0xBEF9D8
+    // Offset: 0xC0141C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void Setup(MissionHelpSO missionHelp)
-    // Offset: 0xBEFA7C
+    // Offset: 0xC014C0
     void Setup(GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void RefreshContent()
-    // Offset: 0xBEFAC0
+    // Offset: 0xC01504
     void RefreshContent();
     // private System.Void OkButtonPressed()
-    // Offset: 0xBEFC54
+    // Offset: 0xC01698
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBEFBB0
+    // Offset: 0xC015F4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xBEFCB8
+    // Offset: 0xC016FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -77,6 +77,6 @@ namespace GlobalNamespace {
     static MissionHelpViewController* New_ctor();
   }; // MissionHelpViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController*, "", "MissionHelpViewController");
 #pragma pack(pop)

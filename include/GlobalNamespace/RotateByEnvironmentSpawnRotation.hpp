@@ -28,16 +28,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation;
     // protected System.Void Start()
-    // Offset: 0xC0CF58
+    // Offset: 0xC1E99C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC0CFEC
+    // Offset: 0xC1EA30
     void OnDestroy();
     // private System.Void HandleEnvironmentSpawnRotationDidRotate(UnityEngine.Quaternion rotation)
-    // Offset: 0xC0D080
+    // Offset: 0xC1EAC4
     void HandleEnvironmentSpawnRotationDidRotate(UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0xC0D0D4
+    // Offset: 0xC1EB18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -47,6 +47,6 @@ namespace GlobalNamespace {
     static RotateByEnvironmentSpawnRotation* New_ctor();
   }; // RotateByEnvironmentSpawnRotation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RotateByEnvironmentSpawnRotation*, "", "RotateByEnvironmentSpawnRotation");
 #pragma pack(pop)

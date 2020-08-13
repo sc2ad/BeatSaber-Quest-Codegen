@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Security.SecurityElement
 #include "System/Security/SecurityElement.hpp"
 // Completed includes
@@ -22,16 +20,16 @@ namespace System::Security {
     // Offset: 0x18
     ::CsString* value;
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0xDD8364
+    // Offset: 0xDEADA8
     static SecurityElement::SecurityAttribute* New_ctor(::CsString* name, ::CsString* value);
     // public System.String get_Name()
-    // Offset: 0xDD91F4
+    // Offset: 0xDEBC38
     ::CsString* get_Name();
     // public System.String get_Value()
-    // Offset: 0xDD91FC
+    // Offset: 0xDEBC40
     ::CsString* get_Value();
   }; // System.Security.SecurityElement/SecurityAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement::SecurityAttribute*, "System.Security", "SecurityElement/SecurityAttribute");
 #pragma pack(pop)

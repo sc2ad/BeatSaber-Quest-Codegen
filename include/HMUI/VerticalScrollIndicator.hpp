@@ -30,25 +30,25 @@ namespace HMUI {
     // Offset: 0x24
     float normalizedPageHeight;
     // public System.Void set_progress(System.Single value)
-    // Offset: 0x10CC268
+    // Offset: 0x10DCCAC
     void set_progress(float value);
     // public System.Single get_progress()
-    // Offset: 0x10D6494
+    // Offset: 0x10E6ED8
     float get_progress();
     // public System.Void set_normalizedPageHeight(System.Single value)
-    // Offset: 0x10CBE2C
+    // Offset: 0x10DC870
     void set_normalizedPageHeight(float value);
     // public System.Single get_normalizedPageHeight()
-    // Offset: 0x10D649C
+    // Offset: 0x10E6EE0
     float get_normalizedPageHeight();
     // protected System.Void Awake()
-    // Offset: 0x10D64A4
+    // Offset: 0x10E6EE8
     void Awake();
     // private System.Void RefreshHandle()
-    // Offset: 0x10D6380
+    // Offset: 0x10E6DC4
     void RefreshHandle();
     // public System.Void .ctor()
-    // Offset: 0x10D64A8
+    // Offset: 0x10E6EEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -58,6 +58,6 @@ namespace HMUI {
     static VerticalScrollIndicator* New_ctor();
   }; // HMUI.VerticalScrollIndicator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::VerticalScrollIndicator*, "HMUI", "VerticalScrollIndicator");
 #pragma pack(pop)

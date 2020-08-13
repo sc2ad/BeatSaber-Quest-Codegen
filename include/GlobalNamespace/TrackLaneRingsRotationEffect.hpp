@@ -56,31 +56,31 @@ namespace GlobalNamespace {
     // Offset: 0x40
     System::Collections::Generic::List_1<int>* ringRotationEffectsToDelete;
     // protected System.Void Awake()
-    // Offset: 0xC3239C
+    // Offset: 0xC43DE0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xC324D0
+    // Offset: 0xC43F14
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0xC3257C
+    // Offset: 0xC43FC0
     void FixedUpdate();
     // public System.Void AddRingRotationEffect(System.Single angle, System.Single step, System.Int32 propagationSpeed, System.Single flexySpeed)
-    // Offset: 0xC324E0
+    // Offset: 0xC43F24
     void AddRingRotationEffect(float angle, float step, int propagationSpeed, float flexySpeed);
     // public System.Single GetFirstRingRotationAngle()
-    // Offset: 0xC32800
+    // Offset: 0xC44244
     float GetFirstRingRotationAngle();
     // public System.Single GetFirstRingDestinationRotationAngle()
-    // Offset: 0xC32844
+    // Offset: 0xC44288
     float GetFirstRingDestinationRotationAngle();
     // private TrackLaneRingsRotationEffect/RingRotationEffect SpawnRingRotationEffect()
-    // Offset: 0xC32768
+    // Offset: 0xC441AC
     GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* SpawnRingRotationEffect();
     // private System.Void RecycleRingRotationEffect(TrackLaneRingsRotationEffect/RingRotationEffect ringRotationEffect)
-    // Offset: 0xC32700
+    // Offset: 0xC44144
     void RecycleRingRotationEffect(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* ringRotationEffect);
     // public System.Void .ctor()
-    // Offset: 0xC32888
+    // Offset: 0xC442CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,6 +90,6 @@ namespace GlobalNamespace {
     static TrackLaneRingsRotationEffect* New_ctor();
   }; // TrackLaneRingsRotationEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect*, "", "TrackLaneRingsRotationEffect");
 #pragma pack(pop)

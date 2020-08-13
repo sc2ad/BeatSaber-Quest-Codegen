@@ -130,34 +130,34 @@ namespace GlobalNamespace {
     // Offset: 0xAC
     bool useTestAudioClips;
     // public System.Boolean get_handleWrongSaberTypeAsGood()
-    // Offset: 0xC02824
+    // Offset: 0xC14268
     bool get_handleWrongSaberTypeAsGood();
     // public System.Void set_handleWrongSaberTypeAsGood(System.Boolean value)
-    // Offset: 0xC0282C
+    // Offset: 0xC14270
     void set_handleWrongSaberTypeAsGood(bool value);
     // protected System.Void Start()
-    // Offset: 0xC02838
+    // Offset: 0xC1427C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC02A44
+    // Offset: 0xC14488
     void OnDestroy();
     // private System.Void BeatmapObjectCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0xC02B5C
+    // Offset: 0xC145A0
     void BeatmapObjectCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // private System.Void HandleNoteWasCut(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC03014
+    // Offset: 0xC14A58
     void HandleNoteWasCut(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void HandleCutSoundEffectDidFinish(NoteCutSoundEffect cutSoundEffect)
-    // Offset: 0xC03130
+    // Offset: 0xC14B74
     void HandleCutSoundEffectDidFinish(GlobalNamespace::NoteCutSoundEffect* cutSoundEffect);
     // public System.Void Pause()
-    // Offset: 0xC031DC
+    // Offset: 0xC14C20
     void Pause();
     // public System.Void Resume()
-    // Offset: 0xC032D8
+    // Offset: 0xC14D1C
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0xC0341C
+    // Offset: 0xC14E60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -167,6 +167,6 @@ namespace GlobalNamespace {
     static NoteCutSoundEffectManager* New_ctor();
   }; // NoteCutSoundEffectManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager*, "", "NoteCutSoundEffectManager");
 #pragma pack(pop)

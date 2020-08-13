@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -16,10 +17,10 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     int val;
     // public System.Void .ctor(System.Int32 offset)
-    // Offset: 0x1151248
+    // Offset: 0x1162C8C
     static FieldOffsetAttribute* New_ctor(int offset);
   }; // System.Runtime.InteropServices.FieldOffsetAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::FieldOffsetAttribute*, "System.Runtime.InteropServices", "FieldOffsetAttribute");
 #pragma pack(pop)

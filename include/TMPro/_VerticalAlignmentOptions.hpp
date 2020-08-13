@@ -56,6 +56,6 @@ namespace TMPro {
     _VerticalAlignmentOptions(int value_ = {}) : value{value_} {}
   }; // TMPro._VerticalAlignmentOptions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::_VerticalAlignmentOptions, "TMPro", "_VerticalAlignmentOptions");
 #pragma pack(pop)

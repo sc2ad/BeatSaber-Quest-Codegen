@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithPurchaseList : public Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*> {
     public:
     // protected Oculus.Platform.Models.PurchaseList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE91094
+    // Offset: 0xEA3AD8
     Oculus::Platform::Models::PurchaseList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88B60
+    // Offset: 0xE9B5A4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPurchaseList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.PurchaseList GetPurchaseList()
-    // Offset: 0xE91050
+    // Offset: 0xEA3A94
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PurchaseList Message::GetPurchaseList()
     Oculus::Platform::Models::PurchaseList* GetPurchaseList();
   }; // Oculus.Platform.MessageWithPurchaseList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPurchaseList*, "Oculus.Platform", "MessageWithPurchaseList");
 #pragma pack(pop)

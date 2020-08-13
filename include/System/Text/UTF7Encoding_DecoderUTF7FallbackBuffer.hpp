@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Text.DecoderFallbackBuffer
-#include "System/Text/DecoderFallbackBuffer.hpp"
 // Including type: System.Text.UTF7Encoding
 #include "System/Text/UTF7Encoding.hpp"
+// Including type: System.Text.DecoderFallbackBuffer
+#include "System/Text/DecoderFallbackBuffer.hpp"
 // Completed includes
 // Type namespace: System.Text
 namespace System::Text {
@@ -25,30 +25,30 @@ namespace System::Text {
     // Offset: 0x28
     int iSize;
     // public System.Void .ctor(System.Text.UTF7Encoding/DecoderUTF7Fallback fallback)
-    // Offset: 0x13B7F00
+    // Offset: 0x13C8944
     static UTF7Encoding::DecoderUTF7FallbackBuffer* New_ctor(System::Text::UTF7Encoding::DecoderUTF7Fallback* fallback);
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x13B7F84
+    // Offset: 0x13C89C8
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x13B7FD0
+    // Offset: 0x13C8A14
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Void Reset()
-    // Offset: 0x13B7FF0
+    // Offset: 0x13C8A34
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::Reset()
     void Reset();
     // override System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x13B8000
+    // Offset: 0x13C8A44
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
   }; // System.Text.UTF7Encoding/DecoderUTF7FallbackBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*, "System.Text", "UTF7Encoding/DecoderUTF7FallbackBuffer");
 #pragma pack(pop)

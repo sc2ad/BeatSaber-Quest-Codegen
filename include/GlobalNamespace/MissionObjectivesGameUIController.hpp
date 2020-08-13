@@ -52,19 +52,19 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* missionObjectiveGameUIViews;
     // protected System.Void Start()
-    // Offset: 0xBF73C4
+    // Offset: 0xC08E08
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBF77BC
+    // Offset: 0xC09200
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
-    // Offset: 0xBF788C
+    // Offset: 0xC092D0
     void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
     // private System.Void CreateUIElements()
-    // Offset: 0xBF7454
+    // Offset: 0xC08E98
     void CreateUIElements();
     // public System.Void .ctor()
-    // Offset: 0xBF7890
+    // Offset: 0xC092D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,6 +74,6 @@ namespace GlobalNamespace {
     static MissionObjectivesGameUIController* New_ctor();
   }; // MissionObjectivesGameUIController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectivesGameUIController*, "", "MissionObjectivesGameUIController");
 #pragma pack(pop)

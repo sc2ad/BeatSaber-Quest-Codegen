@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     EOverlayDirection(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EOverlayDirection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EOverlayDirection, "OVR.OpenVR", "EOverlayDirection");
 #pragma pack(pop)

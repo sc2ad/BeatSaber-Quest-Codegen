@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.PeerConnectionState
 #include "Oculus/Platform/PeerConnectionState.hpp"
 // Completed includes
@@ -22,22 +20,22 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     Oculus::Platform::PeerConnectionState State;
     // public System.Void .ctor(System.UInt64 id, Oculus.Platform.PeerConnectionState state)
-    // Offset: 0xE8FBE0
+    // Offset: 0xEA2624
     static NetworkingPeer* New_ctor(uint64_t id, Oculus::Platform::PeerConnectionState state);
     // public System.UInt64 get_ID()
-    // Offset: 0xE93F7C
+    // Offset: 0xEA69C0
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0xE93F84
+    // Offset: 0xEA69C8
     void set_ID(uint64_t value);
     // public Oculus.Platform.PeerConnectionState get_State()
-    // Offset: 0xE93F8C
+    // Offset: 0xEA69D0
     Oculus::Platform::PeerConnectionState get_State();
     // private System.Void set_State(Oculus.Platform.PeerConnectionState value)
-    // Offset: 0xE93F94
+    // Offset: 0xEA69D8
     void set_State(Oculus::Platform::PeerConnectionState value);
   }; // Oculus.Platform.Models.NetworkingPeer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetworkingPeer*, "Oculus.Platform.Models", "NetworkingPeer");
 #pragma pack(pop)

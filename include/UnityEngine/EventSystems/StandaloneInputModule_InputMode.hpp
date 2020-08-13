@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.EventSystems.StandaloneInputModule
 #include "UnityEngine/EventSystems/StandaloneInputModule.hpp"
 // Completed includes
@@ -34,6 +32,6 @@ namespace UnityEngine::EventSystems {
     InputMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.EventSystems.StandaloneInputModule/InputMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule::InputMode, "UnityEngine.EventSystems", "StandaloneInputModule/InputMode");
 #pragma pack(pop)

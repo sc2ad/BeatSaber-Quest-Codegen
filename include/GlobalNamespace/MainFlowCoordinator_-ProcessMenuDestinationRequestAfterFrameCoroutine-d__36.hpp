@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MainFlowCoordinator
 #include "GlobalNamespace/MainFlowCoordinator.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -37,35 +35,35 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::MenuDestination* destination;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xBE9CAC
+    // Offset: 0xBFB6F0
     static MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__36* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xBE9E70
+    // Offset: 0xBFB8B4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xBE9E74
+    // Offset: 0xBFB8B8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xBE9EE4
+    // Offset: 0xBFB928
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xBE9EEC
+    // Offset: 0xBFB930
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xBE9F4C
+    // Offset: 0xBFB990
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // MainFlowCoordinator/<ProcessMenuDestinationRequestAfterFrameCoroutine>d__36
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__36*, "", "MainFlowCoordinator/<ProcessMenuDestinationRequestAfterFrameCoroutine>d__36");
 #pragma pack(pop)

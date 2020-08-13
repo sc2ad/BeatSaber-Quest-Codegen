@@ -62,6 +62,6 @@ namespace System::Runtime::InteropServices {
     DllImportSearchPath(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.DllImportSearchPath
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportSearchPath, "System.Runtime.InteropServices", "DllImportSearchPath");
 #pragma pack(pop)

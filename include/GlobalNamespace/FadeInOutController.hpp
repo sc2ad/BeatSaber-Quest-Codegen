@@ -56,25 +56,25 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::Coroutine* coroutine;
     // public System.Void FadeOutInstant()
-    // Offset: 0xC9AC4C
+    // Offset: 0xCAD690
     void FadeOutInstant();
     // public System.Void FadeIn()
-    // Offset: 0xC9AD24
+    // Offset: 0xCAD768
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0xC9AE04
+    // Offset: 0xCAD848
     void FadeOut();
     // public System.Void FadeIn(System.Single duration)
-    // Offset: 0xC9AD2C
+    // Offset: 0xCAD770
     void FadeIn(float duration);
     // public System.Void FadeOut(System.Single duration)
-    // Offset: 0xC9AC54
+    // Offset: 0xCAD698
     void FadeOut(float duration);
     // private System.Collections.IEnumerator Fade(System.Single fromValue, System.Single toValue, System.Single duration, System.Single startDelay, UnityEngine.AnimationCurve curve)
-    // Offset: 0xC9AE0C
+    // Offset: 0xCAD850
     System::Collections::IEnumerator* Fade(float fromValue, float toValue, float duration, float startDelay, UnityEngine::AnimationCurve* curve);
     // public System.Void .ctor()
-    // Offset: 0xC9AEFC
+    // Offset: 0xCAD940
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -84,6 +84,6 @@ namespace GlobalNamespace {
     static FadeInOutController* New_ctor();
   }; // FadeInOutController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController*, "", "FadeInOutController");
 #pragma pack(pop)

@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<::CsString*>* strings;
     // public System.String[] get_strings()
-    // Offset: 0xCA7FE8
+    // Offset: 0xCBAA2C
     ::Array<::CsString*>* get_strings();
     // public System.Void .ctor()
-    // Offset: 0xCA7FF0
+    // Offset: 0xCBAA34
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -29,6 +29,6 @@ namespace GlobalNamespace {
     static StringListSO* New_ctor();
   }; // StringListSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringListSO*, "", "StringListSO");
 #pragma pack(pop)

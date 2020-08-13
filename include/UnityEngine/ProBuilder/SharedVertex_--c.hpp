@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.SharedVertex
 #include "UnityEngine/ProBuilder/SharedVertex.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
@@ -34,18 +32,18 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>,System.Boolean> <>9__26_0
     static void _set_$$9__26_0(System::Func_2<System::Collections::Generic::KeyValuePair_2<int, int>, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18B49C4
+    // Offset: 0x18C5408
     static void _cctor();
     // System.Boolean <SortedRemoveAndShift>b__26_0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x18B4A34
+    // Offset: 0x18C5478
     bool $SortedRemoveAndShift$b__26_0(System::Collections::Generic::KeyValuePair_2<int, int> x);
     // public System.Void .ctor()
-    // Offset: 0x18B4A2C
+    // Offset: 0x18C5470
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SharedVertex::$$c* New_ctor();
   }; // UnityEngine.ProBuilder.SharedVertex/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SharedVertex::$$c*, "UnityEngine.ProBuilder", "SharedVertex/<>c");
 #pragma pack(pop)

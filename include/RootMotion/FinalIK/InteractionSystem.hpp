@@ -129,178 +129,178 @@ namespace RootMotion::FinalIK {
     // Offset: 0xE8
     UnityEngine::Collider* c;
     // private System.Void OpenUserManual()
-    // Offset: 0x1436DF4
+    // Offset: 0x1446838
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x1436E40
+    // Offset: 0x1446884
     void OpenScriptReference();
     // private System.Void OpenTutorial1()
-    // Offset: 0x1436E8C
+    // Offset: 0x14468D0
     void OpenTutorial1();
     // private System.Void OpenTutorial2()
-    // Offset: 0x1436ED8
+    // Offset: 0x144691C
     void OpenTutorial2();
     // private System.Void OpenTutorial3()
-    // Offset: 0x1436F24
+    // Offset: 0x1446968
     void OpenTutorial3();
     // private System.Void OpenTutorial4()
-    // Offset: 0x1436F70
+    // Offset: 0x14469B4
     void OpenTutorial4();
     // private System.Void SupportGroup()
-    // Offset: 0x1436FBC
+    // Offset: 0x1446A00
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1437008
+    // Offset: 0x1446A4C
     void ASThread();
     // public System.Boolean get_inInteraction()
-    // Offset: 0x1437054
+    // Offset: 0x1446A98
     bool get_inInteraction();
     // public System.Boolean IsInInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x14371E4
+    // Offset: 0x1446C28
     bool IsInInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Boolean IsPaused(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x14372B0
+    // Offset: 0x1446CF4
     bool IsPaused(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Boolean IsPaused()
-    // Offset: 0x143737C
+    // Offset: 0x1446DC0
     bool IsPaused();
     // public System.Boolean IsInSync()
-    // Offset: 0x1437428
+    // Offset: 0x1446E6C
     bool IsInSync();
     // public System.Boolean StartInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, System.Boolean interrupt)
-    // Offset: 0x1437520
+    // Offset: 0x1446F64
     bool StartInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, bool interrupt);
     // public System.Boolean PauseInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x143763C
+    // Offset: 0x1447080
     bool PauseInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Boolean ResumeInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x14376CC
+    // Offset: 0x1447110
     bool ResumeInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Boolean StopInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x143775C
+    // Offset: 0x14471A0
     bool StopInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Void PauseAll()
-    // Offset: 0x14377EC
+    // Offset: 0x1447230
     void PauseAll();
     // public System.Void ResumeAll()
-    // Offset: 0x1437860
+    // Offset: 0x14472A4
     void ResumeAll();
     // public System.Void StopAll()
-    // Offset: 0x14378D4
+    // Offset: 0x1447318
     void StopAll();
     // public RootMotion.FinalIK.InteractionObject GetInteractionObject(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x143793C
+    // Offset: 0x1447380
     RootMotion::FinalIK::InteractionObject* GetInteractionObject(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Single GetProgress(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x14379C8
+    // Offset: 0x144740C
     float GetProgress(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Single GetMinActiveProgress()
-    // Offset: 0x1437A7C
+    // Offset: 0x14474C0
     float GetMinActiveProgress();
     // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt)
-    // Offset: 0x1437B60
+    // Offset: 0x14475A4
     bool TriggerInteraction(int index, bool interrupt);
     // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt, RootMotion.FinalIK.InteractionObject interactionObject)
-    // Offset: 0x1437E04
+    // Offset: 0x1447848
     bool TriggerInteraction(int index, bool interrupt, RootMotion::FinalIK::InteractionObject*& interactionObject);
     // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt, RootMotion.FinalIK.InteractionTarget interactionTarget)
-    // Offset: 0x1437FF4
+    // Offset: 0x1447A38
     bool TriggerInteraction(int index, bool interrupt, RootMotion::FinalIK::InteractionTarget*& interactionTarget);
     // public RootMotion.FinalIK.InteractionTrigger/Range GetClosestInteractionRange()
-    // Offset: 0x1438278
+    // Offset: 0x1447CBC
     RootMotion::FinalIK::InteractionTrigger::Range* GetClosestInteractionRange();
     // public RootMotion.FinalIK.InteractionObject GetClosestInteractionObjectInRange()
-    // Offset: 0x143856C
+    // Offset: 0x1447FB0
     RootMotion::FinalIK::InteractionObject* GetClosestInteractionObjectInRange();
     // public RootMotion.FinalIK.InteractionTarget GetClosestInteractionTargetInRange()
-    // Offset: 0x14385B0
+    // Offset: 0x1447FF4
     RootMotion::FinalIK::InteractionTarget* GetClosestInteractionTargetInRange();
     // public RootMotion.FinalIK.InteractionObject[] GetClosestInteractionObjectsInRange()
-    // Offset: 0x1438628
+    // Offset: 0x144806C
     ::Array<RootMotion::FinalIK::InteractionObject*>* GetClosestInteractionObjectsInRange();
     // public RootMotion.FinalIK.InteractionTarget[] GetClosestInteractionTargetsInRange()
-    // Offset: 0x1438760
+    // Offset: 0x14481A4
     ::Array<RootMotion::FinalIK::InteractionTarget*>* GetClosestInteractionTargetsInRange();
     // public System.Boolean TriggerEffectorsReady(System.Int32 index)
-    // Offset: 0x14388D8
+    // Offset: 0x144831C
     bool TriggerEffectorsReady(int index);
     // public RootMotion.FinalIK.InteractionTrigger/Range GetTriggerRange(System.Int32 index)
-    // Offset: 0x1438B80
+    // Offset: 0x14485C4
     RootMotion::FinalIK::InteractionTrigger::Range* GetTriggerRange(int index);
     // public System.Int32 GetClosestTriggerIndex()
-    // Offset: 0x1438378
+    // Offset: 0x1447DBC
     int GetClosestTriggerIndex();
     // public RootMotion.FinalIK.FullBodyBipedIK get_ik()
-    // Offset: 0x1438CAC
+    // Offset: 0x14486F0
     RootMotion::FinalIK::FullBodyBipedIK* get_ik();
     // public System.Void set_ik(RootMotion.FinalIK.FullBodyBipedIK value)
-    // Offset: 0x1438CB4
+    // Offset: 0x14486F8
     void set_ik(RootMotion::FinalIK::FullBodyBipedIK* value);
     // public System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> get_triggersInRange()
-    // Offset: 0x1438CBC
+    // Offset: 0x1448700
     System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* get_triggersInRange();
     // private System.Void set_triggersInRange(System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> value)
-    // Offset: 0x1438CC4
+    // Offset: 0x1448708
     void set_triggersInRange(System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* value);
     // public System.Void Start()
-    // Offset: 0x1438CCC
+    // Offset: 0x1448710
     void Start();
     // private System.Void InteractionPause(RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionObject interactionObject)
-    // Offset: 0x1439480
+    // Offset: 0x1448EC4
     void InteractionPause(RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionObject* interactionObject);
     // private System.Void InteractionResume(RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionObject interactionObject)
-    // Offset: 0x14394A0
+    // Offset: 0x1448EE4
     void InteractionResume(RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionObject* interactionObject);
     // private System.Void InteractionStop(RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionObject interactionObject)
-    // Offset: 0x14394BC
+    // Offset: 0x1448F00
     void InteractionStop(RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionObject* interactionObject);
     // private System.Void LookAtInteraction(RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionObject interactionObject)
-    // Offset: 0x14394D8
+    // Offset: 0x1448F1C
     void LookAtInteraction(RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionObject* interactionObject);
     // public System.Void OnTriggerEnter(UnityEngine.Collider c)
-    // Offset: 0x1439538
+    // Offset: 0x1448F7C
     void OnTriggerEnter(UnityEngine::Collider* c);
     // public System.Void OnTriggerExit(UnityEngine.Collider c)
-    // Offset: 0x1439654
+    // Offset: 0x1449098
     void OnTriggerExit(UnityEngine::Collider* c);
     // private System.Boolean ContactIsInRange(System.Int32 index, System.Int32 bestRangeIndex)
-    // Offset: 0x1439750
+    // Offset: 0x1449194
     bool ContactIsInRange(int index, int& bestRangeIndex);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x14398F8
+    // Offset: 0x144933C
     void OnDrawGizmosSelected();
     // public System.Void Update()
-    // Offset: 0x1439A10
+    // Offset: 0x1449454
     void Update();
     // private System.Void Raycasting()
-    // Offset: 0x1439C5C
+    // Offset: 0x14496A0
     void Raycasting();
     // private System.Void UpdateTriggerEventBroadcasting()
-    // Offset: 0x14391E0
+    // Offset: 0x1448C24
     void UpdateTriggerEventBroadcasting();
     // private System.Void UpdateEffectors()
-    // Offset: 0x1439D9C
+    // Offset: 0x14497E0
     void UpdateEffectors();
     // private System.Void OnPreFBBIK()
-    // Offset: 0x1439EC8
+    // Offset: 0x144990C
     void OnPreFBBIK();
     // private System.Void OnPostFBBIK()
-    // Offset: 0x1439F60
+    // Offset: 0x14499A4
     void OnPostFBBIK();
     // private System.Void OnFixTransforms()
-    // Offset: 0x143A038
+    // Offset: 0x1449A7C
     void OnFixTransforms();
     // private System.Void OnDestroy()
-    // Offset: 0x143A050
+    // Offset: 0x1449A94
     void OnDestroy();
     // private System.Boolean IsValid(System.Boolean log)
-    // Offset: 0x1437100
+    // Offset: 0x1446B44
     bool IsValid(bool log);
     // private System.Boolean TriggerIndexIsValid(System.Int32 index)
-    // Offset: 0x1437D00
+    // Offset: 0x1447744
     bool TriggerIndexIsValid(int index);
     // public System.Void .ctor()
-    // Offset: 0x143A414
+    // Offset: 0x1449E58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -310,6 +310,6 @@ namespace RootMotion::FinalIK {
     static InteractionSystem* New_ctor();
   }; // RootMotion.FinalIK.InteractionSystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem*, "RootMotion.FinalIK", "InteractionSystem");
 #pragma pack(pop)

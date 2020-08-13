@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.RotationLimitPolygonal
 #include "RootMotion/FinalIK/RotationLimitPolygonal.hpp"
 // Including type: UnityEngine.Vector3
@@ -24,12 +22,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1C
     float tangentWeight;
     // public System.Void .ctor()
-    // Offset: 0x1221150
+    // Offset: 0x1232B94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RotationLimitPolygonal::LimitPoint* New_ctor();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/LimitPoint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*, "RootMotion.FinalIK", "RotationLimitPolygonal/LimitPoint");
 #pragma pack(pop)

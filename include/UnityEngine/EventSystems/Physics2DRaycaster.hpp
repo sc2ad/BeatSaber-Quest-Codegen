@@ -35,7 +35,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x40
     ::Array<UnityEngine::RaycastHit2D>* m_Hits;
     // protected System.Void .ctor()
-    // Offset: 0xDE7614
+    // Offset: 0xDFA058
     // Implemented from: UnityEngine.EventSystems.PhysicsRaycaster
     // Base method: System.Void PhysicsRaycaster::.ctor()
     // Base method: System.Void BaseRaycaster::.ctor()
@@ -47,12 +47,12 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static Physics2DRaycaster* New_ctor();
     // public override System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
-    // Offset: 0xDE767C
+    // Offset: 0xDFA0C0
     // Implemented from: UnityEngine.EventSystems.PhysicsRaycaster
     // Base method: System.Void PhysicsRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
   }; // UnityEngine.EventSystems.Physics2DRaycaster
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::Physics2DRaycaster*, "UnityEngine.EventSystems", "Physics2DRaycaster");
 #pragma pack(pop)

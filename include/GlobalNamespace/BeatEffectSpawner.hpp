@@ -44,19 +44,19 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::SongController* songController;
     // protected System.Void Start()
-    // Offset: 0x1973518
+    // Offset: 0xB8B814
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x19735AC
+    // Offset: 0xB8B8A8
     void OnDestroy();
     // private System.Void HandleNoteDidStartJumpEvent(NoteController noteController)
-    // Offset: 0x1973684
+    // Offset: 0xB8B980
     void HandleNoteDidStartJumpEvent(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleBeatEffectDidFinish(BeatEffect beatEffect)
-    // Offset: 0x19738D0
+    // Offset: 0xB8BBCC
     void HandleBeatEffectDidFinish(GlobalNamespace::BeatEffect* beatEffect);
     // public System.Void .ctor()
-    // Offset: 0x197397C
+    // Offset: 0xB8BC78
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace GlobalNamespace {
     static BeatEffectSpawner* New_ctor();
   }; // BeatEffectSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffectSpawner*, "", "BeatEffectSpawner");
 #pragma pack(pop)

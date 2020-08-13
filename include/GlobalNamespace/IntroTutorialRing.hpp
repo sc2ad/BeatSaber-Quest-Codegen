@@ -79,40 +79,40 @@ namespace GlobalNamespace {
     // Offset: 0x68
     bool sabersInsideAfterOnEnable;
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0xB45298
+    // Offset: 0xB43298
     void set_alpha(float value);
     // public System.Boolean get_fullyActivated()
-    // Offset: 0xB44FF4
+    // Offset: 0xB42FF4
     bool get_fullyActivated();
     // public SaberType get_saberType()
-    // Offset: 0xB4545C
+    // Offset: 0xB4345C
     GlobalNamespace::SaberType get_saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0xB45464
+    // Offset: 0xB43464
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0xB4546C
+    // Offset: 0xB4346C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xB45504
+    // Offset: 0xB43504
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0xB4555C
+    // Offset: 0xB4355C
     void Update();
     // private System.Void SetProgressImagesfillAmount(System.Single fillAmount)
-    // Offset: 0xB456CC
+    // Offset: 0xB436CC
     void SetProgressImagesfillAmount(float fillAmount);
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0xB45748
+    // Offset: 0xB43748
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0xB4584C
+    // Offset: 0xB4384C
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0xB45950
+    // Offset: 0xB43950
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0xB45A60
+    // Offset: 0xB43A60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -122,6 +122,6 @@ namespace GlobalNamespace {
     static IntroTutorialRing* New_ctor();
   }; // IntroTutorialRing
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialRing*, "", "IntroTutorialRing");
 #pragma pack(pop)

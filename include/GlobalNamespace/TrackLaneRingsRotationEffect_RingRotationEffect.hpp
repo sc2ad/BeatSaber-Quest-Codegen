@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TrackLaneRingsRotationEffect
 #include "GlobalNamespace/TrackLaneRingsRotationEffect.hpp"
 // Completed includes
@@ -31,12 +29,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int progressPos;
     // public System.Void .ctor()
-    // Offset: 0xC324C8
+    // Offset: 0xC43F0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TrackLaneRingsRotationEffect::RingRotationEffect* New_ctor();
   }; // TrackLaneRingsRotationEffect/RingRotationEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*, "", "TrackLaneRingsRotationEffect/RingRotationEffect");
 #pragma pack(pop)

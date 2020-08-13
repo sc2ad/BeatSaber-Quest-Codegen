@@ -74,13 +74,13 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::BeatmapLevelSO* anyBeatmapLevelSO;
     // public System.Void Init()
-    // Offset: 0xBEC39C
+    // Offset: 0xBFDDE0
     void Init();
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0xBEC744
+    // Offset: 0xBFE188
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xBEC818
+    // Offset: 0xBFE25C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,6 +90,6 @@ namespace GlobalNamespace {
     static MainSystemInit* New_ctor();
   }; // MainSystemInit
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSystemInit*, "", "MainSystemInit");
 #pragma pack(pop)

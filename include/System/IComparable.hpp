@@ -18,6 +18,6 @@ namespace System {
     int System_IComparable_CompareTo(::CsObject* obj);
   }; // System.IComparable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IComparable*, "System", "IComparable");
 #pragma pack(pop)

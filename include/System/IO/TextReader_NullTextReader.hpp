@@ -14,24 +14,24 @@ namespace System::IO {
   class TextReader::NullTextReader : public System::IO::TextReader {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFF7930
+    // Offset: 0x1007374
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextReader::NullTextReader* New_ctor();
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF7B5C
+    // Offset: 0x10075A0
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0xFF7B64
+    // Offset: 0x10075A8
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::CsString* ReadLine();
   }; // System.IO.TextReader/NullTextReader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::NullTextReader*, "System.IO", "TextReader/NullTextReader");
 #pragma pack(pop)

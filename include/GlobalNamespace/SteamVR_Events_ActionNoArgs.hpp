@@ -4,6 +4,9 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: SteamVR_Events
+#include "GlobalNamespace/SteamVR_Events.hpp"
 // Including type: SteamVR_Events/Action
 #include "GlobalNamespace/SteamVR_Events_Action.hpp"
 // Completed includes
@@ -26,15 +29,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Events::UnityAction* action;
     // public System.Void .ctor(SteamVR_Events/Event _event, UnityEngine.Events.UnityAction action)
-    // Offset: 0xD6BA4C
+    // Offset: 0xD7F490
     static SteamVR_Events::ActionNoArgs* New_ctor(GlobalNamespace::SteamVR_Events::Event* _event, UnityEngine::Events::UnityAction* action);
     // public override System.Void Enable(System.Boolean enabled)
-    // Offset: 0xD6C494
+    // Offset: 0xD7FED8
     // Implemented from: SteamVR_Events/Action
     // Base method: System.Void Action::Enable(System.Boolean enabled)
     void Enable(bool enabled);
   }; // SteamVR_Events/ActionNoArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::ActionNoArgs*, "", "SteamVR_Events/ActionNoArgs");
 #pragma pack(pop)

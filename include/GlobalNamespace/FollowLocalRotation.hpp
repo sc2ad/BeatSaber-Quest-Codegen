@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Transform* transform;
     // protected System.Void Awake()
-    // Offset: 0xC9C86C
+    // Offset: 0xCAF2B0
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xC9C89C
+    // Offset: 0xCAF2E0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC9C8DC
+    // Offset: 0xCAF320
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -43,6 +43,6 @@ namespace GlobalNamespace {
     static FollowLocalRotation* New_ctor();
   }; // FollowLocalRotation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FollowLocalRotation*, "", "FollowLocalRotation");
 #pragma pack(pop)

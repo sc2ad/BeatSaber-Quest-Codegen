@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.BaseNumberConverter
 #include "System/ComponentModel/BaseNumberConverter.hpp"
 // Completed includes
@@ -13,7 +14,7 @@ namespace System::ComponentModel {
   class SingleConverter : public System::ComponentModel::BaseNumberConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF466D4
+    // Offset: 0xF58118
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()
@@ -21,6 +22,6 @@ namespace System::ComponentModel {
     static SingleConverter* New_ctor();
   }; // System.ComponentModel.SingleConverter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::SingleConverter*, "System.ComponentModel", "SingleConverter");
 #pragma pack(pop)

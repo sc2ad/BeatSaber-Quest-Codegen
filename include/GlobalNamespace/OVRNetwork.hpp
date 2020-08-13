@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: System.UInt32
@@ -47,12 +45,12 @@ namespace GlobalNamespace {
     // Set static field: static public System.UInt32 FrameHeaderMagicIdentifier
     static void _set_FrameHeaderMagicIdentifier(uint value);
     // public System.Void .ctor()
-    // Offset: 0xED8524
+    // Offset: 0xEE9F68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRNetwork* New_ctor();
   }; // OVRNetwork
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork*, "", "OVRNetwork");
 #pragma pack(pop)

@@ -24,21 +24,21 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::GameEnergyCounter* energyCounter;
     // protected System.Void OnDestroy()
-    // Offset: 0xBD3D9C
+    // Offset: 0xBE67E0
     void OnDestroy();
     // private System.Void HandleEnergyDidChange(System.Single energy)
-    // Offset: 0xBD3F14
+    // Offset: 0xBE6958
     void HandleEnergyDidChange(float energy);
     // private System.Void CheckAndUpdateStatus()
-    // Offset: 0xBD3F4C
+    // Offset: 0xBE6990
     void CheckAndUpdateStatus();
     // protected override System.Void Init()
-    // Offset: 0xBD3FC8
+    // Offset: 0xBE6A0C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xBD4164
+    // Offset: 0xBE6BA8
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     static EnergyMissionObjectiveChecker* New_ctor();
   }; // EnergyMissionObjectiveChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnergyMissionObjectiveChecker*, "", "EnergyMissionObjectiveChecker");
 #pragma pack(pop)

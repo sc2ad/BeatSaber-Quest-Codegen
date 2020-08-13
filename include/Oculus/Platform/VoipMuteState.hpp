@@ -38,6 +38,6 @@ namespace Oculus::Platform {
     VoipMuteState(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.VoipMuteState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipMuteState, "Oculus.Platform", "VoipMuteState");
 #pragma pack(pop)

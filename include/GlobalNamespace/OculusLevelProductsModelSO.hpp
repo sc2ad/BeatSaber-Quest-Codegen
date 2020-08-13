@@ -47,24 +47,24 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Collections::Generic::Dictionary_2<::CsString*, ::CsString*>* assetFileToSku;
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0xC24588
+    // Offset: 0xC35FCC
     ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0xC22B8C
+    // Offset: 0xC345D0
     GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::CsString* levelId);
     // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0xC24710
+    // Offset: 0xC36154
     GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::CsString* levelPackId);
     // public System.String GetLevelSku(System.String assetFile)
-    // Offset: 0xC24790
+    // Offset: 0xC361D4
     ::CsString* GetLevelSku(::CsString* assetFile);
     // protected override System.Void OnEnable()
-    // Offset: 0xC24590
+    // Offset: 0xC35FD4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xC24810
+    // Offset: 0xC36254
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -73,6 +73,6 @@ namespace GlobalNamespace {
     static OculusLevelProductsModelSO* New_ctor();
   }; // OculusLevelProductsModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO*, "", "OculusLevelProductsModelSO");
 #pragma pack(pop)

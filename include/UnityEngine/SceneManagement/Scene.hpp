@@ -37,56 +37,56 @@ namespace UnityEngine::SceneManagement {
     // Creating value type constructor for type: Scene
     Scene(int m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static private System.Boolean IsValidInternal(System.Int32 sceneHandle)
-    // Offset: 0x1375558
+    // Offset: 0x1387F9C
     static bool IsValidInternal(int sceneHandle);
     // static private System.String GetNameInternal(System.Int32 sceneHandle)
-    // Offset: 0x1375598
+    // Offset: 0x1387FDC
     static ::CsString* GetNameInternal(int sceneHandle);
     // static private System.Boolean GetIsLoadedInternal(System.Int32 sceneHandle)
-    // Offset: 0x13755D8
+    // Offset: 0x138801C
     static bool GetIsLoadedInternal(int sceneHandle);
     // static private System.Int32 GetRootCountInternal(System.Int32 sceneHandle)
-    // Offset: 0x1375618
+    // Offset: 0x138805C
     static int GetRootCountInternal(int sceneHandle);
     // static private System.Void GetRootGameObjectsInternal(System.Int32 sceneHandle, System.Object resultRootList)
-    // Offset: 0x1375658
+    // Offset: 0x138809C
     static void GetRootGameObjectsInternal(int sceneHandle, ::CsObject* resultRootList);
     // public System.Int32 get_handle()
-    // Offset: 0xA437C0
+    // Offset: 0xA4383C
     int get_handle();
     // public System.Boolean IsValid()
-    // Offset: 0xA437C8
+    // Offset: 0xA43844
     bool IsValid();
     // public System.String get_name()
-    // Offset: 0xA43808
+    // Offset: 0xA43884
     ::CsString* get_name();
     // public System.Boolean get_isLoaded()
-    // Offset: 0xA43848
+    // Offset: 0xA438C4
     bool get_isLoaded();
     // public System.Int32 get_rootCount()
-    // Offset: 0xA43888
+    // Offset: 0xA43904
     int get_rootCount();
     // public UnityEngine.GameObject[] GetRootGameObjects()
-    // Offset: 0xA438C8
+    // Offset: 0xA43944
     ::Array<UnityEngine::GameObject*>* GetRootGameObjects();
     // public System.Void GetRootGameObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> rootGameObjects)
-    // Offset: 0xA438D0
+    // Offset: 0xA4394C
     void GetRootGameObjects(System::Collections::Generic::List_1<UnityEngine::GameObject*>* rootGameObjects);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA438D8
+    // Offset: 0xA43954
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA438E0
+    // Offset: 0xA4395C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::CsObject* other);
   }; // UnityEngine.SceneManagement.Scene
   // static public System.Boolean op_Equality(UnityEngine.SceneManagement.Scene lhs, UnityEngine.SceneManagement.Scene rhs)
-  // Offset: 0x1375AA4
+  // Offset: 0x13884E8
   bool operator ==(const UnityEngine::SceneManagement::Scene& lhs, const UnityEngine::SceneManagement::Scene& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::Scene, "UnityEngine.SceneManagement", "Scene");
 #pragma pack(pop)

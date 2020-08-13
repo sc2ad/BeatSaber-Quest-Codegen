@@ -22,6 +22,6 @@ namespace UnityEngine::TestTools {
     System::Collections::IEnumerator* Perform();
   }; // UnityEngine.TestTools.IEditModeTestYieldInstruction
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::IEditModeTestYieldInstruction*, "UnityEngine.TestTools", "IEditModeTestYieldInstruction");
 #pragma pack(pop)

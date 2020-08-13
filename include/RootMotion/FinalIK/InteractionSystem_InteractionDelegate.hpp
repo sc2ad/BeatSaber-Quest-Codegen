@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: RootMotion.FinalIK.InteractionSystem
 #include "RootMotion/FinalIK/InteractionSystem.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -33,19 +33,19 @@ namespace RootMotion::FinalIK {
   class InteractionSystem::InteractionDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14391CC
+    // Offset: 0x1448C10
     static InteractionSystem::InteractionDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject)
-    // Offset: 0x1432B90
+    // Offset: 0x14425D4
     void Invoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject);
     // public System.IAsyncResult BeginInvoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x143A810
+    // Offset: 0x144A254
     System::IAsyncResult* BeginInvoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x143A8A8
+    // Offset: 0x144A2EC
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.InteractionSystem/InteractionDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem::InteractionDelegate*, "RootMotion.FinalIK", "InteractionSystem/InteractionDelegate");
 #pragma pack(pop)

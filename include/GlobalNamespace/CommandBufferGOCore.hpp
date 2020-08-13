@@ -53,13 +53,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Mesh* mesh;
     // protected System.Void OnEnable()
-    // Offset: 0x18F5FC0
+    // Offset: 0x1905A04
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x18F6410
+    // Offset: 0x1905E54
     void OnDisable();
     // protected System.Void OnWillRenderObject()
-    // Offset: 0x18F6790
+    // Offset: 0x19061D4
     void OnWillRenderObject();
     // protected UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
     // Offset: 0xFFFFFFFF
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected System.Void .ctor()
-    // Offset: 0x18F5F40
+    // Offset: 0x1905984
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -81,6 +81,6 @@ namespace GlobalNamespace {
     static CommandBufferGOCore* New_ctor();
   }; // CommandBufferGOCore
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGOCore*, "", "CommandBufferGOCore");
 #pragma pack(pop)

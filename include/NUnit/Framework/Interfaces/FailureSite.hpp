@@ -50,6 +50,6 @@ namespace NUnit::Framework::Interfaces {
     FailureSite(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Interfaces.FailureSite
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::FailureSite, "NUnit.Framework.Interfaces", "FailureSite");
 #pragma pack(pop)

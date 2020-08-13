@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVROverlay
 #include "GlobalNamespace/OVROverlay.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
@@ -43,6 +43,6 @@ namespace GlobalNamespace {
     LayerTexture(UnityEngine::Texture* appTexture_ = {}, System::IntPtr appTexturePtr_ = {}, ::Array<UnityEngine::Texture*>* swapChain_ = {}, ::Array<System::IntPtr>* swapChainPtr_ = {}) : appTexture{appTexture_}, appTexturePtr{appTexturePtr_}, swapChain{swapChain_}, swapChainPtr{swapChainPtr_} {}
   }; // OVROverlay/LayerTexture
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::LayerTexture, "", "OVROverlay/LayerTexture");
 #pragma pack(pop)

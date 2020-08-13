@@ -39,25 +39,25 @@ namespace GlobalNamespace {
     // Offset: 0x40
     TMPro::TextMeshProUGUI* bombsCountText;
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xBE1A90
+    // Offset: 0xBF34D4
     void set_duration(float value);
     // public System.Void set_notesPerSecond(System.Single value)
-    // Offset: 0xBE1AC8
+    // Offset: 0xBF350C
     void set_notesPerSecond(float value);
     // public System.Void set_bpm(System.Single value)
-    // Offset: 0xBE1B48
+    // Offset: 0xBF358C
     void set_bpm(float value);
     // public System.Void set_notesCount(System.Int32 value)
-    // Offset: 0xBE1B8C
+    // Offset: 0xBF35D0
     void set_notesCount(int value);
     // public System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0xBE1BD0
+    // Offset: 0xBF3614
     void set_obstaclesCount(int value);
     // public System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0xBE1C14
+    // Offset: 0xBF3658
     void set_bombsCount(int value);
     // public System.Void .ctor()
-    // Offset: 0xBE1C58
+    // Offset: 0xBF369C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -67,6 +67,6 @@ namespace GlobalNamespace {
     static LevelParamsPanel* New_ctor();
   }; // LevelParamsPanel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelParamsPanel*, "", "LevelParamsPanel");
 #pragma pack(pop)

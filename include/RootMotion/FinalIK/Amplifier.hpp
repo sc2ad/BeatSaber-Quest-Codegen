@@ -24,12 +24,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::Amplifier::Body*>* bodies;
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1392D58
+    // Offset: 0x13A479C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x13932FC
+    // Offset: 0x13A4D40
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -40,6 +40,6 @@ namespace RootMotion::FinalIK {
     static Amplifier* New_ctor();
   }; // RootMotion.FinalIK.Amplifier
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");
 #pragma pack(pop)

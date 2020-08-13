@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PS4AchievementIdsModelSO
 #include "GlobalNamespace/PS4AchievementIdsModelSO.hpp"
 // Completed includes
@@ -29,18 +27,18 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::AchievementSO* achievement;
     // public System.Int32 get_ps4TrophyId()
-    // Offset: 0xBBB690
+    // Offset: 0xBCE0D4
     int get_ps4TrophyId();
     // public System.String get_achievementId()
-    // Offset: 0xBBB490
+    // Offset: 0xBCDED4
     ::CsString* get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0xBBB698
+    // Offset: 0xBCE0DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PS4AchievementIdsModelSO::AchievementIdData* New_ctor();
   }; // PS4AchievementIdsModelSO/AchievementIdData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*, "", "PS4AchievementIdsModelSO/AchievementIdData");
 #pragma pack(pop)

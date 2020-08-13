@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Threading.ExecutionContext
 #include "System/Threading/ExecutionContext.hpp"
 // Including type: System.Runtime.Remoting.Messaging.LogicalCallContext
@@ -34,40 +32,40 @@ namespace System::Threading {
     // Creating value type constructor for type: Reader
     Reader(System::Threading::ExecutionContext* m_ec_ = {}) : m_ec{m_ec_} {}
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
-    // Offset: 0xA44138
+    // Offset: 0xA441B4
     static ExecutionContext::Reader* New_ctor(System::Threading::ExecutionContext* ec);
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
-    // Offset: 0xA44140
+    // Offset: 0xA441BC
     System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
     // public System.Boolean get_IsNull()
-    // Offset: 0xA44148
+    // Offset: 0xA441C4
     bool get_IsNull();
     // public System.Boolean IsDefaultFTContext(System.Boolean ignoreSyncCtx)
-    // Offset: 0xA44158
+    // Offset: 0xA441D4
     bool IsDefaultFTContext(bool ignoreSyncCtx);
     // public System.Boolean get_IsFlowSuppressed()
-    // Offset: 0xA44174
+    // Offset: 0xA441F0
     bool get_IsFlowSuppressed();
     // public System.Threading.SynchronizationContext get_SynchronizationContext()
-    // Offset: 0xA44190
+    // Offset: 0xA4420C
     System::Threading::SynchronizationContext* get_SynchronizationContext();
     // public System.Threading.SynchronizationContext get_SynchronizationContextNoFlow()
-    // Offset: 0xA441A8
+    // Offset: 0xA44224
     System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext/Reader get_LogicalCallContext()
-    // Offset: 0xA441C0
+    // Offset: 0xA4423C
     System::Runtime::Remoting::Messaging::LogicalCallContext::Reader get_LogicalCallContext();
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader get_IllogicalCallContext()
-    // Offset: 0xA441C8
+    // Offset: 0xA44244
     System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
     // public System.Object GetLocalValue(System.Threading.IAsyncLocal local)
-    // Offset: 0xA441D0
+    // Offset: 0xA4424C
     ::CsObject* GetLocalValue(System::Threading::IAsyncLocal* local);
     // public System.Boolean HasSameLocalValues(System.Threading.ExecutionContext other)
-    // Offset: 0xA441D8
+    // Offset: 0xA44254
     bool HasSameLocalValues(System::Threading::ExecutionContext* other);
   }; // System.Threading.ExecutionContext/Reader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");
 #pragma pack(pop)

@@ -72,28 +72,28 @@ namespace UnityEngine::UI {
     // Offset: 0x28
     UnityEngine::DrivenRectTransformTracker m_Tracker;
     // public UnityEngine.UI.ContentSizeFitter/FitMode get_horizontalFit()
-    // Offset: 0xDF1A98
+    // Offset: 0xE044DC
     UnityEngine::UI::ContentSizeFitter::FitMode get_horizontalFit();
     // public System.Void set_horizontalFit(UnityEngine.UI.ContentSizeFitter/FitMode value)
-    // Offset: 0xDF1AA0
+    // Offset: 0xE044E4
     void set_horizontalFit(UnityEngine::UI::ContentSizeFitter::FitMode value);
     // public UnityEngine.UI.ContentSizeFitter/FitMode get_verticalFit()
-    // Offset: 0xDF1BB4
+    // Offset: 0xE045F8
     UnityEngine::UI::ContentSizeFitter::FitMode get_verticalFit();
     // public System.Void set_verticalFit(UnityEngine.UI.ContentSizeFitter/FitMode value)
-    // Offset: 0xDF1BBC
+    // Offset: 0xE04600
     void set_verticalFit(UnityEngine::UI::ContentSizeFitter::FitMode value);
     // private UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0xDF1C38
+    // Offset: 0xE0467C
     UnityEngine::RectTransform* get_rectTransform();
     // private System.Void HandleSelfFittingAlongAxis(System.Int32 axis)
-    // Offset: 0xDF1D78
+    // Offset: 0xE047BC
     void HandleSelfFittingAlongAxis(int axis);
     // protected System.Void SetDirty()
-    // Offset: 0xDF1B1C
+    // Offset: 0xE04560
     void SetDirty();
     // protected System.Void .ctor()
-    // Offset: 0xDF1CE4
+    // Offset: 0xE04728
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -103,33 +103,33 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static ContentSizeFitter* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0xDF1CEC
+    // Offset: 0xE04730
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xDF1CF0
+    // Offset: 0xE04734
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0xDF1D74
+    // Offset: 0xE047B8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0xDF1E48
+    // Offset: 0xE0488C
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0xDF1E78
+    // Offset: 0xE048BC
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();
   }; // UnityEngine.UI.ContentSizeFitter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter*, "UnityEngine.UI", "ContentSizeFitter");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter::FitMode, "UnityEngine.UI", "ContentSizeFitter/FitMode");
 #pragma pack(pop)

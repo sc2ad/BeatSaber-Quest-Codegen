@@ -58,62 +58,62 @@ namespace HMUI {
     // Offset: 0x31
     bool highlighted;
     // public System.Int32 get_cellNumber()
-    // Offset: 0x10CF4E8
+    // Offset: 0x10DFF2C
     int get_cellNumber();
     // public System.Void SegmentedControlSetup(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x10CF190
+    // Offset: 0x10DFBD4
     void SegmentedControlSetup(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // public System.Boolean get_selected()
-    // Offset: 0x10CF540
+    // Offset: 0x10DFF84
     bool get_selected();
     // public System.Void set_selected(System.Boolean value)
-    // Offset: 0x10CF548
+    // Offset: 0x10DFF8C
     void set_selected(bool value);
     // public System.Boolean get_highlighted()
-    // Offset: 0x10CF55C
+    // Offset: 0x10DFFA0
     bool get_highlighted();
     // public System.Void ChangeSelection(System.Boolean value, HMUI.SegmentedControlCell/TransitionType transitionType, System.Boolean useCallback, System.Boolean ignoreCurrentValue)
-    // Offset: 0x10CF1C0
+    // Offset: 0x10DFC04
     void ChangeSelection(bool value, HMUI::SegmentedControlCell::TransitionType transitionType, bool useCallback, bool ignoreCurrentValue);
     // public System.Void ChangeHighlight(System.Boolean value, HMUI.SegmentedControlCell/TransitionType transitionType, System.Boolean ignoreCurrentValue)
-    // Offset: 0x10CF23C
+    // Offset: 0x10DFC80
     void ChangeHighlight(bool value, HMUI::SegmentedControlCell::TransitionType transitionType, bool ignoreCurrentValue);
     // private System.Void InternalToggle()
-    // Offset: 0x10CF564
+    // Offset: 0x10DFFA8
     void InternalToggle();
     // protected System.Void SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x10CF5B8
+    // Offset: 0x10DFFFC
     void SelectionDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // protected System.Void HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x10CF5BC
+    // Offset: 0x10E0000
     void HighlightDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // protected override System.Void Start()
-    // Offset: 0x10CF4F0
+    // Offset: 0x10DFF34
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10CF5C0
+    // Offset: 0x10E0004
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x10CF67C
+    // Offset: 0x10E00C0
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10CF71C
+    // Offset: 0x10E0160
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10CF744
+    // Offset: 0x10E0188
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x10CF768
+    // Offset: 0x10E01AC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -124,6 +124,6 @@ namespace HMUI {
     static SegmentedControlCell* New_ctor();
   }; // HMUI.SegmentedControlCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControlCell*, "HMUI", "SegmentedControlCell");
 #pragma pack(pop)

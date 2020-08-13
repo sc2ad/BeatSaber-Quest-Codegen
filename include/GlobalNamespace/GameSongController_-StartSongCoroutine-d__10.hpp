@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: GameSongController
 #include "GlobalNamespace/GameSongController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -27,35 +25,35 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::GameSongController* $$4__this;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xB3CD04
+    // Offset: 0xB3AD04
     static GameSongController::$StartSongCoroutine$d__10* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xB3CED8
+    // Offset: 0xB3AED8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xB3CEDC
+    // Offset: 0xB3AEDC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xB3CF68
+    // Offset: 0xB3AF68
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xB3CF70
+    // Offset: 0xB3AF70
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xB3CFD0
+    // Offset: 0xB3AFD0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // GameSongController/<StartSongCoroutine>d__10
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameSongController::$StartSongCoroutine$d__10*, "", "GameSongController/<StartSongCoroutine>d__10");
 #pragma pack(pop)

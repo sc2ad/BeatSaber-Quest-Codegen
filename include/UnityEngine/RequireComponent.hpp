@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -29,13 +30,13 @@ namespace UnityEngine {
     // Offset: 0x20
     System::Type* m_Type2;
     // public System.Void .ctor(System.Type requiredComponent)
-    // Offset: 0x1375014
+    // Offset: 0x1387A58
     static RequireComponent* New_ctor(System::Type* requiredComponent);
     // public System.Void .ctor(System.Type requiredComponent, System.Type requiredComponent2)
-    // Offset: 0x1375048
+    // Offset: 0x1387A8C
     static RequireComponent* New_ctor(System::Type* requiredComponent, System::Type* requiredComponent2);
   }; // UnityEngine.RequireComponent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RequireComponent*, "UnityEngine", "RequireComponent");
 #pragma pack(pop)

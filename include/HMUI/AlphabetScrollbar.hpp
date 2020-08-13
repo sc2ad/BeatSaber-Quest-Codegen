@@ -91,48 +91,48 @@ namespace HMUI {
     // Offset: 0x6C
     bool pointerIsDown;
     // protected System.Void Awake()
-    // Offset: 0xEBF0D4
+    // Offset: 0xED1B18
     void Awake();
     // public System.Void SetData(AlphabetScrollInfo/Data[] characterScrollData)
-    // Offset: 0xEBF0F4
+    // Offset: 0xED1B38
     void SetData(::Array<GlobalNamespace::AlphabetScrollInfo::Data*>* characterScrollData);
     // private System.Void PrepareTransforms()
-    // Offset: 0xEBF37C
+    // Offset: 0xED1DC0
     void PrepareTransforms();
     // private System.Void RefreshHighlight()
-    // Offset: 0xEBF9E4
+    // Offset: 0xED2428
     void RefreshHighlight();
     // private System.Collections.IEnumerator PointerMoveInsideCoroutine(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xEBF91C
+    // Offset: 0xED2360
     System::Collections::IEnumerator* PointerMoveInsideCoroutine(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Int32 GetPointerCharacterIndex(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xEBF764
+    // Offset: 0xED21A8
     int GetPointerCharacterIndex(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Void InitText(TMPro.TextMeshProUGUI text, System.Char character)
-    // Offset: 0xEBF27C
+    // Offset: 0xED1CC0
     void InitText(TMPro::TextMeshProUGUI* text, ::Il2CppChar character);
     // public System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xEBF6F4
+    // Offset: 0xED2138
     // Implemented from: UnityEngine.EventSystems.IPointerDownHandler
     // Base method: System.Void IPointerDownHandler::OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xEBF8E8
+    // Offset: 0xED232C
     // Implemented from: UnityEngine.EventSystems.IPointerUpHandler
     // Base method: System.Void IPointerUpHandler::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xEBF8F0
+    // Offset: 0xED2334
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xEBF9B4
+    // Offset: 0xED23F8
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xEBFB00
+    // Offset: 0xED2544
     // Implemented from: HMUI.Interactable
     // Base method: System.Void Interactable::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -143,6 +143,6 @@ namespace HMUI {
     static AlphabetScrollbar* New_ctor();
   }; // HMUI.AlphabetScrollbar
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AlphabetScrollbar*, "HMUI", "AlphabetScrollbar");
 #pragma pack(pop)

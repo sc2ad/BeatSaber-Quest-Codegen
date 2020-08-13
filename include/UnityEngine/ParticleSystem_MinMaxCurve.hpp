@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystemCurveMode
 #include "UnityEngine/ParticleSystemCurveMode.hpp"
 // Completed includes
@@ -45,31 +45,31 @@ namespace UnityEngine {
     // Creating value type constructor for type: MinMaxCurve
     MinMaxCurve(UnityEngine::ParticleSystemCurveMode m_Mode_ = {}, float m_CurveMultiplier_ = {}, UnityEngine::AnimationCurve* m_CurveMin_ = {}, UnityEngine::AnimationCurve* m_CurveMax_ = {}, float m_ConstantMin_ = {}, float m_ConstantMax_ = {}) : m_Mode{m_Mode_}, m_CurveMultiplier{m_CurveMultiplier_}, m_CurveMin{m_CurveMin_}, m_CurveMax{m_CurveMax_}, m_ConstantMin{m_ConstantMin_}, m_ConstantMax{m_ConstantMax_} {}
     // public System.Void .ctor(System.Single constant)
-    // Offset: 0xA5C050
+    // Offset: 0xA5C0CC
     static ParticleSystem::MinMaxCurve* New_ctor(float constant);
     // public System.Void .ctor(System.Single min, System.Single max)
-    // Offset: 0xA5C0A0
+    // Offset: 0xA5C11C
     static ParticleSystem::MinMaxCurve* New_ctor(float min, float max);
     // public UnityEngine.ParticleSystemCurveMode get_mode()
-    // Offset: 0xA5C0F4
+    // Offset: 0xA5C170
     UnityEngine::ParticleSystemCurveMode get_mode();
     // public System.Void set_constantMax(System.Single value)
-    // Offset: 0xA5C0FC
+    // Offset: 0xA5C178
     void set_constantMax(float value);
     // public System.Void set_constantMin(System.Single value)
-    // Offset: 0xA5C104
+    // Offset: 0xA5C180
     void set_constantMin(float value);
     // public System.Single get_constant()
-    // Offset: 0xA5C10C
+    // Offset: 0xA5C188
     float get_constant();
     // public System.Single Evaluate(System.Single time)
-    // Offset: 0xA5C114
+    // Offset: 0xA5C190
     float Evaluate(float time);
     // public System.Single Evaluate(System.Single time, System.Single lerpFactor)
-    // Offset: 0xA5C120
+    // Offset: 0xA5C19C
     float Evaluate(float time, float lerpFactor);
   }; // UnityEngine.ParticleSystem/MinMaxCurve
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");
 #pragma pack(pop)

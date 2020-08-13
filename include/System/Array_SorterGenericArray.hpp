@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Array
 #include "System/Array.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -33,37 +34,37 @@ namespace System {
     // Creating value type constructor for type: SorterGenericArray
     SorterGenericArray(System::Array* keys_ = {}, System::Array* items_ = {}, System::Collections::IComparer* comparer_ = {}) : keys{keys_}, items{items_}, comparer{comparer_} {}
     // System.Void .ctor(System.Array keys, System.Array items, System.Collections.IComparer comparer)
-    // Offset: 0xA424F8
+    // Offset: 0xA42574
     static Array::SorterGenericArray* New_ctor(System::Array* keys, System::Array* items, System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
-    // Offset: 0xA42500
+    // Offset: 0xA4257C
     void SwapIfGreaterWithItems(int a, int b);
     // private System.Void Swap(System.Int32 i, System.Int32 j)
-    // Offset: 0xA42508
+    // Offset: 0xA42584
     void Swap(int i, int j);
     // System.Void Sort(System.Int32 left, System.Int32 length)
-    // Offset: 0xA42510
+    // Offset: 0xA4258C
     void Sort(int left, int length);
     // private System.Void IntrospectiveSort(System.Int32 left, System.Int32 length)
-    // Offset: 0xA42518
+    // Offset: 0xA42594
     void IntrospectiveSort(int left, int length);
     // private System.Void IntroSort(System.Int32 lo, System.Int32 hi, System.Int32 depthLimit)
-    // Offset: 0xA42520
+    // Offset: 0xA4259C
     void IntroSort(int lo, int hi, int depthLimit);
     // private System.Int32 PickPivotAndPartition(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xA42528
+    // Offset: 0xA425A4
     int PickPivotAndPartition(int lo, int hi);
     // private System.Void Heapsort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xA42530
+    // Offset: 0xA425AC
     void Heapsort(int lo, int hi);
     // private System.Void DownHeap(System.Int32 i, System.Int32 n, System.Int32 lo)
-    // Offset: 0xA42538
+    // Offset: 0xA425B4
     void DownHeap(int i, int n, int lo);
     // private System.Void InsertionSort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xA42540
+    // Offset: 0xA425BC
     void InsertionSort(int lo, int hi);
   }; // System.Array/SorterGenericArray
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterGenericArray, "System", "Array/SorterGenericArray");
 #pragma pack(pop)

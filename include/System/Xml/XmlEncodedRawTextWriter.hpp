@@ -141,227 +141,227 @@ namespace System::Xml {
     // Offset: 0xB5
     bool mergeCDataSections;
     // protected System.Void .ctor(System.Xml.XmlWriterSettings settings)
-    // Offset: 0x118DECC
+    // Offset: 0x119E910
     static XmlEncodedRawTextWriter* New_ctor(System::Xml::XmlWriterSettings* settings);
     // public System.Void .ctor(System.IO.TextWriter writer, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x1182BCC
+    // Offset: 0x1193610
     static XmlEncodedRawTextWriter* New_ctor(System::IO::TextWriter* writer, System::Xml::XmlWriterSettings* settings);
     // public System.Void .ctor(System.IO.Stream stream, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x1182E98
+    // Offset: 0x11938DC
     static XmlEncodedRawTextWriter* New_ctor(System::IO::Stream* stream, System::Xml::XmlWriterSettings* settings);
     // protected System.Void FlushBuffer()
-    // Offset: 0x1185D94
+    // Offset: 0x11967D8
     void FlushBuffer();
     // private System.Void EncodeChars(System.Int32 startOffset, System.Int32 endOffset, System.Boolean writeAllToStream)
-    // Offset: 0x118FE48
+    // Offset: 0x11A088C
     void EncodeChars(int startOffset, int endOffset, bool writeAllToStream);
     // private System.Void FlushEncoder()
-    // Offset: 0x118FD38
+    // Offset: 0x11A077C
     void FlushEncoder();
     // protected System.Void WriteAttributeTextBlock(System.Char* pSrc, System.Char* pSrcEnd)
-    // Offset: 0x1184924
+    // Offset: 0x1195368
     void WriteAttributeTextBlock(::Il2CppChar* pSrc, ::Il2CppChar* pSrcEnd);
     // protected System.Void WriteElementTextBlock(System.Char* pSrc, System.Char* pSrcEnd)
-    // Offset: 0x1184C18
+    // Offset: 0x119565C
     void WriteElementTextBlock(::Il2CppChar* pSrc, ::Il2CppChar* pSrcEnd);
     // protected System.Void RawText(System.String s)
-    // Offset: 0x1183414
+    // Offset: 0x1193E58
     void RawText(::CsString* s);
     // protected System.Void RawText(System.Char* pSrcBegin, System.Char* pSrcEnd)
-    // Offset: 0x1184EFC
+    // Offset: 0x1195940
     void RawText(::Il2CppChar* pSrcBegin, ::Il2CppChar* pSrcEnd);
     // protected System.Void WriteRawWithCharChecking(System.Char* pSrcBegin, System.Char* pSrcEnd)
-    // Offset: 0x118F88C
+    // Offset: 0x11A02D0
     void WriteRawWithCharChecking(::Il2CppChar* pSrcBegin, ::Il2CppChar* pSrcEnd);
     // protected System.Void WriteCommentOrPi(System.String text, System.Int32 stopChar)
-    // Offset: 0x1184368
+    // Offset: 0x1194DAC
     void WriteCommentOrPi(::CsString* text, int stopChar);
     // protected System.Void WriteCDataSection(System.String text)
-    // Offset: 0x118ECBC
+    // Offset: 0x119F700
     void WriteCDataSection(::CsString* text);
     // static private System.Char* EncodeSurrogate(System.Char* pSrc, System.Char* pSrcEnd, System.Char* pDst)
-    // Offset: 0x118FFDC
+    // Offset: 0x11A0A20
     static ::Il2CppChar* EncodeSurrogate(::Il2CppChar* pSrc, ::Il2CppChar* pSrcEnd, ::Il2CppChar* pDst);
     // private System.Char* InvalidXmlChar(System.Int32 ch, System.Char* pDst, System.Boolean entitize)
-    // Offset: 0x1190134
+    // Offset: 0x11A0B78
     ::Il2CppChar* InvalidXmlChar(int ch, ::Il2CppChar* pDst, bool entitize);
     // System.Void EncodeChar(System.Char* pSrc, System.Char* pSrcEnd, System.Char* pDst)
-    // Offset: 0x1185784
+    // Offset: 0x11961C8
     void EncodeChar(::Il2CppChar*& pSrc, ::Il2CppChar* pSrcEnd, ::Il2CppChar*& pDst);
     // protected System.Void ChangeTextContentMark(System.Boolean value)
-    // Offset: 0x118338C
+    // Offset: 0x1193DD0
     void ChangeTextContentMark(bool value);
     // private System.Void GrowTextContentMarks()
-    // Offset: 0x119036C
+    // Offset: 0x11A0DB0
     void GrowTextContentMarks();
     // protected System.Char* WriteNewLine(System.Char* pDst)
-    // Offset: 0x11901FC
+    // Offset: 0x11A0C40
     ::Il2CppChar* WriteNewLine(::Il2CppChar* pDst);
     // static protected System.Char* LtEntity(System.Char* pDst)
-    // Offset: 0x118FF84
+    // Offset: 0x11A09C8
     static ::Il2CppChar* LtEntity(::Il2CppChar* pDst);
     // static protected System.Char* GtEntity(System.Char* pDst)
-    // Offset: 0x118FF9C
+    // Offset: 0x11A09E0
     static ::Il2CppChar* GtEntity(::Il2CppChar* pDst);
     // static protected System.Char* AmpEntity(System.Char* pDst)
-    // Offset: 0x11856E0
+    // Offset: 0x1196124
     static ::Il2CppChar* AmpEntity(::Il2CppChar* pDst);
     // static protected System.Char* QuoteEntity(System.Char* pDst)
-    // Offset: 0x1185708
+    // Offset: 0x119614C
     static ::Il2CppChar* QuoteEntity(::Il2CppChar* pDst);
     // static protected System.Char* TabEntity(System.Char* pDst)
-    // Offset: 0x118FFB4
+    // Offset: 0x11A09F8
     static ::Il2CppChar* TabEntity(::Il2CppChar* pDst);
     // static protected System.Char* LineFeedEntity(System.Char* pDst)
-    // Offset: 0x118575C
+    // Offset: 0x11961A0
     static ::Il2CppChar* LineFeedEntity(::Il2CppChar* pDst);
     // static protected System.Char* CarriageReturnEntity(System.Char* pDst)
-    // Offset: 0x1185734
+    // Offset: 0x1196178
     static ::Il2CppChar* CarriageReturnEntity(::Il2CppChar* pDst);
     // static private System.Char* CharEntity(System.Char* pDst, System.Char ch)
-    // Offset: 0x11902B4
+    // Offset: 0x11A0CF8
     static ::Il2CppChar* CharEntity(::Il2CppChar* pDst, ::Il2CppChar ch);
     // static protected System.Char* RawStartCData(System.Char* pDst)
-    // Offset: 0x119027C
+    // Offset: 0x11A0CC0
     static ::Il2CppChar* RawStartCData(::Il2CppChar* pDst);
     // static protected System.Char* RawEndCData(System.Char* pDst)
-    // Offset: 0x119025C
+    // Offset: 0x11A0CA0
     static ::Il2CppChar* RawEndCData(::Il2CppChar* pDst);
     // protected System.Void ValidateContentChars(System.String chars, System.String propertyName, System.Boolean allowOnlyWhitespace)
-    // Offset: 0x118DFD8
+    // Offset: 0x119EA1C
     void ValidateContentChars(::CsString* chars, ::CsString* propertyName, bool allowOnlyWhitespace);
     // override System.Void WriteXmlDeclaration(System.Xml.XmlStandalone standalone)
-    // Offset: 0x118E35C
+    // Offset: 0x119EDA0
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteXmlDeclaration(System.Xml.XmlStandalone standalone)
     void WriteXmlDeclaration(System::Xml::XmlStandalone standalone);
     // override System.Void WriteXmlDeclaration(System.String xmldecl)
-    // Offset: 0x118E498
+    // Offset: 0x119EEDC
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteXmlDeclaration(System.String xmldecl)
     void WriteXmlDeclaration(::CsString* xmldecl);
     // public override System.Void WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    // Offset: 0x118E524
+    // Offset: 0x119EF68
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
     void WriteDocType(::CsString* name, ::CsString* pubid, ::CsString* sysid, ::CsString* subset);
     // public override System.Void WriteStartElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x11836C0
+    // Offset: 0x1194104
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartElement(System.String prefix, System.String localName, System.String ns)
     void WriteStartElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
     // override System.Void StartElementContent()
-    // Offset: 0x118E71C
+    // Offset: 0x119F160
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::StartElementContent()
     void StartElementContent();
     // override System.Void WriteEndElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x11839F0
+    // Offset: 0x1194434
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteEndElement(System.String prefix, System.String localName, System.String ns)
     void WriteEndElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
     // override System.Void WriteFullEndElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1183C94
+    // Offset: 0x11946D8
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteFullEndElement(System.String prefix, System.String localName, System.String ns)
     void WriteFullEndElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
     // public override System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1183F58
+    // Offset: 0x119499C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     void WriteStartAttribute(::CsString* prefix, ::CsString* localName, ::CsString* ns);
     // public override System.Void WriteEndAttribute()
-    // Offset: 0x118E770
+    // Offset: 0x119F1B4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEndAttribute()
     void WriteEndAttribute();
     // override System.Void WriteNamespaceDeclaration(System.String prefix, System.String namespaceName)
-    // Offset: 0x118E7F0
+    // Offset: 0x119F234
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteNamespaceDeclaration(System.String prefix, System.String namespaceName)
     void WriteNamespaceDeclaration(::CsString* prefix, ::CsString* namespaceName);
     // override System.Boolean get_SupportsNamespaceDeclarationInChunks()
-    // Offset: 0x118E848
+    // Offset: 0x119F28C
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Boolean XmlRawWriter::get_SupportsNamespaceDeclarationInChunks()
     bool get_SupportsNamespaceDeclarationInChunks();
     // override System.Void WriteStartNamespaceDeclaration(System.String prefix)
-    // Offset: 0x118E850
+    // Offset: 0x119F294
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteStartNamespaceDeclaration(System.String prefix)
     void WriteStartNamespaceDeclaration(::CsString* prefix);
     // override System.Void WriteEndNamespaceDeclaration()
-    // Offset: 0x118E994
+    // Offset: 0x119F3D8
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteEndNamespaceDeclaration()
     void WriteEndNamespaceDeclaration();
     // public override System.Void WriteCData(System.String text)
-    // Offset: 0x118EA14
+    // Offset: 0x119F458
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteCData(System.String text)
     void WriteCData(::CsString* text);
     // public override System.Void WriteComment(System.String text)
-    // Offset: 0x118EFCC
+    // Offset: 0x119FA10
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteComment(System.String text)
     void WriteComment(::CsString* text);
     // public override System.Void WriteProcessingInstruction(System.String name, System.String text)
-    // Offset: 0x118F15C
+    // Offset: 0x119FBA0
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteProcessingInstruction(System.String name, System.String text)
     void WriteProcessingInstruction(::CsString* name, ::CsString* text);
     // public override System.Void WriteEntityRef(System.String name)
-    // Offset: 0x118F2BC
+    // Offset: 0x119FD00
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEntityRef(System.String name)
     void WriteEntityRef(::CsString* name);
     // public override System.Void WriteCharEntity(System.Char ch)
-    // Offset: 0x118F398
+    // Offset: 0x119FDDC
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteCharEntity(System.Char ch)
     void WriteCharEntity(::Il2CppChar ch);
     // public override System.Void WriteWhitespace(System.String ws)
-    // Offset: 0x118F58C
+    // Offset: 0x119FFD0
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteWhitespace(System.String ws)
     void WriteWhitespace(::CsString* ws);
     // public override System.Void WriteString(System.String text)
-    // Offset: 0x118F5FC
+    // Offset: 0x11A0040
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteString(System.String text)
     void WriteString(::CsString* text);
     // public override System.Void WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
-    // Offset: 0x118F66C
+    // Offset: 0x11A00B0
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // public override System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x118F7F8
+    // Offset: 0x11A023C
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void WriteChars(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x118A760
+    // Offset: 0x119B1A4
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void WriteRaw(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void WriteRaw(System.String data)
-    // Offset: 0x118A6B4
+    // Offset: 0x119B0F8
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteRaw(System.String data)
     void WriteRaw(::CsString* data);
     // public override System.Void Close()
-    // Offset: 0x118FAB0
+    // Offset: 0x11A04F4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::Close()
     void Close();
     // public override System.Void Flush()
-    // Offset: 0x118FDE0
+    // Offset: 0x11A0824
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::Flush()
     void Flush();
   }; // System.Xml.XmlEncodedRawTextWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEncodedRawTextWriter*, "System.Xml", "XmlEncodedRawTextWriter");
 #pragma pack(pop)

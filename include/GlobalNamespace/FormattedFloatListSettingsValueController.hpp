@@ -70,22 +70,22 @@ namespace GlobalNamespace {
     // Offset: 0x58
     float max;
     // protected override System.Boolean GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
-    // Offset: 0xBDC7CC
+    // Offset: 0xBEF210
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xBDC8F4
+    // Offset: 0xBEF338
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0xBDC980
+    // Offset: 0xBEF3C4
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::CsString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xBDCA6C
+    // Offset: 0xBEF4B0
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     static FormattedFloatListSettingsValueController* New_ctor();
   }; // FormattedFloatListSettingsValueController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController*, "", "FormattedFloatListSettingsValueController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController::ValueType, "", "FormattedFloatListSettingsValueController/ValueType");
 #pragma pack(pop)

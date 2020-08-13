@@ -14,10 +14,10 @@ namespace UnityEngine {
   class PreloadData : public UnityEngine::Object {
     public:
     // System.Void PreloadDataDontStripMe()
-    // Offset: 0x14048F8
+    // Offset: 0x141533C
     void PreloadDataDontStripMe();
   }; // UnityEngine.PreloadData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PreloadData*, "UnityEngine", "PreloadData");
 #pragma pack(pop)

@@ -63,40 +63,40 @@ namespace GlobalNamespace {
     // Offset: 0x78
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // public System.Void set_showNewRibbon(System.Boolean value)
-    // Offset: 0x196A854
+    // Offset: 0xB82B50
     void set_showNewRibbon(bool value);
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x196A8D0
+    // Offset: 0xB82BCC
     void SetData(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
     // private System.Void RefreshVisuals()
-    // Offset: 0x196AC18
+    // Offset: 0xB82F14
     void RefreshVisuals();
     // private System.String GetInfoText(System.String name, System.Int32 songs, System.Int32 purchased)
-    // Offset: 0x196AB2C
+    // Offset: 0xB82E28
     ::CsString* GetInfoText(::CsString* name, int songs, int purchased);
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel)
-    // Offset: 0x196ACF4
+    // Offset: 0xB82FF0
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x196ACE0
+    // Offset: 0xB82FDC
     void CancelAsyncOperations();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x196AC14
+    // Offset: 0xB82F10
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x196ACC8
+    // Offset: 0xB82FC4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x196ACCC
+    // Offset: 0xB82FC8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();
     // public System.Void .ctor()
-    // Offset: 0x196ADE4
+    // Offset: 0xB830E0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -108,6 +108,6 @@ namespace GlobalNamespace {
     static AnnotatedBeatmapLevelCollectionTableCell* New_ctor();
   }; // AnnotatedBeatmapLevelCollectionTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell*, "", "AnnotatedBeatmapLevelCollectionTableCell");
 #pragma pack(pop)

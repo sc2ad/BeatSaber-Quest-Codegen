@@ -35,12 +35,12 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     float minIntensity;
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x18100EC
+    // Offset: 0x1820B30
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x18101A8
+    // Offset: 0x1820BEC
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static DirectionalLightWithId* New_ctor();
   }; // DirectionalLightWithId
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithId*, "", "DirectionalLightWithId");
 #pragma pack(pop)

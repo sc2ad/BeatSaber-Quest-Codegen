@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: Zenject.MonoMemoryPool`1
-#include "Zenject/MonoMemoryPool_1.hpp"
 // Including type: FireworkItemController
 #include "GlobalNamespace/FireworkItemController.hpp"
+// Including type: Zenject.MonoMemoryPool`1
+#include "Zenject/MonoMemoryPool_1.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class FireworkItemController::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::FireworkItemController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBD8EAC
+    // Offset: 0xBEB8F0
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool`1::.ctor()
     // Base method: System.Void MemoryPool`1::.ctor()
@@ -25,6 +25,6 @@ namespace GlobalNamespace {
     static FireworkItemController::Pool* New_ctor();
   }; // FireworkItemController/Pool
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::Pool*, "", "FireworkItemController/Pool");
 #pragma pack(pop)

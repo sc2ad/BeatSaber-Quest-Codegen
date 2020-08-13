@@ -44,19 +44,19 @@ namespace GlobalNamespace {
     // Offset: 0x24
     float targetFrequency;
     // protected System.Void Start()
-    // Offset: 0xBE8088
+    // Offset: 0xBF9ACC
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0xBE80C8
+    // Offset: 0xBF9B0C
     void LateUpdate();
     // public System.Void ResumeNormalSound()
-    // Offset: 0xBE81D4
+    // Offset: 0xBF9C18
     void ResumeNormalSound();
     // public System.Void TriggerLowPass()
-    // Offset: 0xBE8208
+    // Offset: 0xBF9C4C
     void TriggerLowPass();
     // public System.Void .ctor()
-    // Offset: 0xBE8250
+    // Offset: 0xBF9C94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace GlobalNamespace {
     static MainAudioEffects* New_ctor();
   }; // MainAudioEffects
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainAudioEffects*, "", "MainAudioEffects");
 #pragma pack(pop)

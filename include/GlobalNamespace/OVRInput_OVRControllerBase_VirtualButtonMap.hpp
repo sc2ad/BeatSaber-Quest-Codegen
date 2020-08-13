@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRInput/OVRControllerBase
 #include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Including type: OVRInput/RawButton
@@ -117,15 +115,15 @@ namespace GlobalNamespace {
     // Offset: 0x90
     GlobalNamespace::OVRInput::RawButton Right;
     // public OVRInput/RawButton ToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0xE5E5B0
+    // Offset: 0xE70FF4
     GlobalNamespace::OVRInput::RawButton ToRawMask(GlobalNamespace::OVRInput::Button virtualMask);
     // public System.Void .ctor()
-    // Offset: 0xE5DA78
+    // Offset: 0xE704BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualButtonMap* New_ctor();
   }; // OVRInput/OVRControllerBase/VirtualButtonMap
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*, "", "OVRInput/OVRControllerBase/VirtualButtonMap");
 #pragma pack(pop)

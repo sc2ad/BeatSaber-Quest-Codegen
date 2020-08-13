@@ -37,13 +37,13 @@ namespace System::Threading {
     // Creating value type constructor for type: ExecutionContextSwitcher
     ExecutionContextSwitcher(System::Threading::ExecutionContext::Reader outerEC_ = {}, bool outerECBelongsToScope_ = {}, ::CsObject* hecsw_ = {}, System::Threading::Thread* thread_ = {}) : outerEC{outerEC_}, outerECBelongsToScope{outerECBelongsToScope_}, hecsw{hecsw_}, thread{thread_} {}
     // System.Boolean UndoNoThrow()
-    // Offset: 0xA4423C
+    // Offset: 0xA442B8
     bool UndoNoThrow();
     // System.Void Undo()
-    // Offset: 0xA44244
+    // Offset: 0xA442C0
     void Undo();
   }; // System.Threading.ExecutionContextSwitcher
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");
 #pragma pack(pop)

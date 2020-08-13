@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem
 #include "UnityEngine/TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -48,51 +46,51 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x40
     System::Collections::IEnumerator* $enumerator$5__4;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xE1DA64
+    // Offset: 0xE304A8
     static DefaultTestWorkItem::$PerformWork$d__2* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xE1DBD4
+    // Offset: 0xE30618
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0xE1DB08
+    // Offset: 0xE3054C
     void $$m__Finally2();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xE1DA9C
+    // Offset: 0xE304E0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xE1DBF8
+    // Offset: 0xE3063C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xE1E3D4
+    // Offset: 0xE30E18
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xE1E3DC
+    // Offset: 0xE30E20
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xE1E43C
+    // Offset: 0xE30E80
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-    // Offset: 0xE1E444
+    // Offset: 0xE30E88
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<::CsObject*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xE1E4F8
+    // Offset: 0xE30F3C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem/<PerformWork>d__2
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::$PerformWork$d__2*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "DefaultTestWorkItem/<PerformWork>d__2");
 #pragma pack(pop)

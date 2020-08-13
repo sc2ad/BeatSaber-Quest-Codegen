@@ -49,6 +49,6 @@ namespace TMPro {
     static TMP_GlyphAdjustmentRecord* New_ctor(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord);
   }; // TMPro.TMP_GlyphAdjustmentRecord
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");
 #pragma pack(pop)

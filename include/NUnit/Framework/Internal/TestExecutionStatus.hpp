@@ -38,6 +38,6 @@ namespace NUnit::Framework::Internal {
     TestExecutionStatus(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Internal.TestExecutionStatus
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionStatus, "NUnit.Framework.Internal", "TestExecutionStatus");
 #pragma pack(pop)

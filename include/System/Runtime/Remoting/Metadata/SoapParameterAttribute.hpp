@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.Metadata.SoapAttribute
 #include "System/Runtime/Remoting/Metadata/SoapAttribute.hpp"
 // Completed includes
@@ -13,7 +14,7 @@ namespace System::Runtime::Remoting::Metadata {
   class SoapParameterAttribute : public System::Runtime::Remoting::Metadata::SoapAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xDFD688
+    // Offset: 0xE100CC
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -21,6 +22,6 @@ namespace System::Runtime::Remoting::Metadata {
     static SoapParameterAttribute* New_ctor();
   }; // System.Runtime.Remoting.Metadata.SoapParameterAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapParameterAttribute*, "System.Runtime.Remoting.Metadata", "SoapParameterAttribute");
 #pragma pack(pop)

@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithCloudStorageMetadataUnderLocal : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageMetadata*> {
     public:
     // protected Oculus.Platform.Models.CloudStorageMetadata GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8C2A4
+    // Offset: 0xE9ECE8
     Oculus::Platform::Models::CloudStorageMetadata* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88380
+    // Offset: 0xE9ADC4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithCloudStorageMetadataUnderLocal* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.CloudStorageMetadata GetCloudStorageMetadata()
-    // Offset: 0xE8C260
+    // Offset: 0xE9ECA4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageMetadata Message::GetCloudStorageMetadata()
     Oculus::Platform::Models::CloudStorageMetadata* GetCloudStorageMetadata();
   }; // Oculus.Platform.MessageWithCloudStorageMetadataUnderLocal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal*, "Oculus.Platform", "MessageWithCloudStorageMetadataUnderLocal");
 #pragma pack(pop)

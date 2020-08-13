@@ -104,13 +104,13 @@ namespace GlobalNamespace {
     // Offset: 0x94
     float virtualGreenScreenDepthTolerance;
     // public System.Void ReadFrom(OVRManager manager)
-    // Offset: 0xED62B0
+    // Offset: 0xEE7CF4
     void ReadFrom(GlobalNamespace::OVRManager* manager);
     // public System.Void ApplyTo(OVRManager manager)
-    // Offset: 0xED6384
+    // Offset: 0xEE7DC8
     void ApplyTo(GlobalNamespace::OVRManager* manager);
     // public System.Void .ctor()
-    // Offset: 0xED6458
+    // Offset: 0xEE7E9C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -118,6 +118,6 @@ namespace GlobalNamespace {
     static OVRMixedRealityCaptureSettings* New_ctor();
   }; // OVRMixedRealityCaptureSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureSettings*, "", "OVRMixedRealityCaptureSettings");
 #pragma pack(pop)

@@ -17,13 +17,13 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1E
     bool inited;
     // public System.Void AcquirePointer(System.Byte* pointer)
-    // Offset: 0x103BDD8
+    // Offset: 0x104B81C
     void AcquirePointer(uint8_t*& pointer);
     // public System.Void ReleasePointer()
-    // Offset: 0x103BF6C
+    // Offset: 0x104B9B0
     void ReleasePointer();
   }; // System.Runtime.InteropServices.SafeBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeBuffer*, "System.Runtime.InteropServices", "SafeBuffer");
 #pragma pack(pop)

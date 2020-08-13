@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.Configuration.NetSectionGroup
 #include "System/Net/Configuration/NetSectionGroup.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: ShowcaseFlowCoordinator
 #include "GlobalNamespace/ShowcaseFlowCoordinator.hpp"
 // Completed includes
@@ -39,15 +37,15 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool practice;
     // System.Void <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0(EnterPlayerGuestNameViewController viewController, System.String playerName)
-    // Offset: 0xB82D9C
+    // Offset: 0xB947E0
     void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::CsString* playerName);
     // public System.Void .ctor()
-    // Offset: 0xB82A2C
+    // Offset: 0xB94470
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ShowcaseFlowCoordinator::$$c__DisplayClass23_0* New_ctor();
   }; // ShowcaseFlowCoordinator/<>c__DisplayClass23_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass23_0*, "", "ShowcaseFlowCoordinator/<>c__DisplayClass23_0");
 #pragma pack(pop)

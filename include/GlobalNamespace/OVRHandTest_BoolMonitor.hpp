@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRHandTest
 #include "GlobalNamespace/OVRHandTest.hpp"
 // Completed includes
@@ -49,16 +47,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float m_displayTimer;
     // public System.Void .ctor(System.String name, OVRHandTest/BoolMonitor/BoolGenerator generator, System.Single displayTimeout)
-    // Offset: 0xE547EC
+    // Offset: 0xE67230
     static OVRHandTest::BoolMonitor* New_ctor(::CsString* name, GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* generator, float displayTimeout);
     // public System.Void Update()
-    // Offset: 0xE55370
+    // Offset: 0xE67DB4
     void Update();
     // public System.Void AppendToStringBuilder(System.Text.StringBuilder sb)
-    // Offset: 0xE55414
+    // Offset: 0xE67E58
     void AppendToStringBuilder(System::Text::StringBuilder*& sb);
   }; // OVRHandTest/BoolMonitor
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::BoolMonitor*, "", "OVRHandTest/BoolMonitor");
 #pragma pack(pop)

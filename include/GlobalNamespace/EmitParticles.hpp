@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::ParticleSystem* particleSystem;
     // public System.Void Emit(System.Int32 count)
-    // Offset: 0xBD3D0C
+    // Offset: 0xBE6750
     void Emit(int count);
     // public System.Void .ctor()
-    // Offset: 0xBD3D28
+    // Offset: 0xBE676C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -37,6 +37,6 @@ namespace GlobalNamespace {
     static EmitParticles* New_ctor();
   }; // EmitParticles
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmitParticles*, "", "EmitParticles");
 #pragma pack(pop)

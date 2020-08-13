@@ -92,73 +92,73 @@ namespace GlobalNamespace {
     // Offset: 0x6A
     bool failOnSaberClash;
     // public System.Void add_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0xBDDD80
+    // Offset: 0xBF07C4
     void add_gameEnergyDidReach0Event(System::Action* value);
     // public System.Void remove_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0xBDDE24
+    // Offset: 0xBF0868
     void remove_gameEnergyDidReach0Event(System::Action* value);
     // public System.Void add_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xBD40C0
+    // Offset: 0xBE6B04
     void add_gameEnergyDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xBD3E70
+    // Offset: 0xBE68B4
     void remove_gameEnergyDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_energy()
-    // Offset: 0xBDDEC8
+    // Offset: 0xBF090C
     float get_energy();
     // private System.Void set_energy(System.Single value)
-    // Offset: 0xBDDED0
+    // Offset: 0xBF0914
     void set_energy(float value);
     // public System.Int32 get_batteryEnergy()
-    // Offset: 0xBDDED8
+    // Offset: 0xBF091C
     int get_batteryEnergy();
     // public System.Int32 get_batteryLives()
-    // Offset: 0xBDDF5C
+    // Offset: 0xBF09A0
     int get_batteryLives();
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0xBDDF64
+    // Offset: 0xBF09A8
     GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // private System.Void set_energyType(GameplayModifiers/EnergyType value)
-    // Offset: 0xBDDF6C
+    // Offset: 0xBF09B0
     void set_energyType(GlobalNamespace::GameplayModifiers::EnergyType value);
     // public System.Boolean get_noFail()
-    // Offset: 0xBDDF74
+    // Offset: 0xBF09B8
     bool get_noFail();
     // private System.Void set_noFail(System.Boolean value)
-    // Offset: 0xBDDF7C
+    // Offset: 0xBF09C0
     void set_noFail(bool value);
     // public System.Boolean get_instaFail()
-    // Offset: 0xBDDF88
+    // Offset: 0xBF09CC
     bool get_instaFail();
     // private System.Void set_instaFail(System.Boolean value)
-    // Offset: 0xBDDF90
+    // Offset: 0xBF09D4
     void set_instaFail(bool value);
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0xBDDF9C
+    // Offset: 0xBF09E0
     bool get_failOnSaberClash();
     // private System.Void set_failOnSaberClash(System.Boolean value)
-    // Offset: 0xBDDFA4
+    // Offset: 0xBF09E8
     void set_failOnSaberClash(bool value);
     // protected System.Void Start()
-    // Offset: 0xBDDFB0
+    // Offset: 0xBF09F4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBDE100
+    // Offset: 0xBF0B44
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBDE228
+    // Offset: 0xBF0C6C
     void Update();
     // private System.Void HandleNoteWasCutEvent(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xBDE3F8
+    // Offset: 0xBF0E3C
     void HandleNoteWasCutEvent(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void HandleNoteWasMissedEvent(INoteController noteController)
-    // Offset: 0xBDE518
+    // Offset: 0xBF0F5C
     void HandleNoteWasMissedEvent(GlobalNamespace::INoteController* noteController);
     // private System.Void AddEnergy(System.Single value)
-    // Offset: 0xBDE2D4
+    // Offset: 0xBF0D18
     void AddEnergy(float value);
     // public System.Void .ctor()
-    // Offset: 0xBDE600
+    // Offset: 0xBF1044
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -168,6 +168,6 @@ namespace GlobalNamespace {
     static GameEnergyCounter* New_ctor();
   }; // GameEnergyCounter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter*, "", "GameEnergyCounter");
 #pragma pack(pop)

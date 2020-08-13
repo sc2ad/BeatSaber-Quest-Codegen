@@ -31,6 +31,6 @@ namespace Valve::VR {
     IVRResources(Valve::VR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, Valve::VR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
   }; // Valve.VR.IVRResources
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRResources, "Valve.VR", "IVRResources");
 #pragma pack(pop)

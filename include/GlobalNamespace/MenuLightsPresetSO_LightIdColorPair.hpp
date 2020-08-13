@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MenuLightsPresetSO
 #include "GlobalNamespace/MenuLightsPresetSO.hpp"
 // Completed includes
@@ -37,15 +35,15 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float intensity;
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0xBECC6C
+    // Offset: 0xBFE6B0
     UnityEngine::Color get_lightColor();
     // public System.Void .ctor()
-    // Offset: 0xBECFBC
+    // Offset: 0xBFEA00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuLightsPresetSO::LightIdColorPair* New_ctor();
   }; // MenuLightsPresetSO/LightIdColorPair
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*, "", "MenuLightsPresetSO/LightIdColorPair");
 #pragma pack(pop)

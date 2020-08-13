@@ -56,6 +56,6 @@ namespace Valve::VR {
     IVRScreenshots(Valve::VR::IVRScreenshots::_RequestScreenshot* RequestScreenshot_ = {}, Valve::VR::IVRScreenshots::_HookScreenshot* HookScreenshot_ = {}, Valve::VR::IVRScreenshots::_GetScreenshotPropertyType* GetScreenshotPropertyType_ = {}, Valve::VR::IVRScreenshots::_GetScreenshotPropertyFilename* GetScreenshotPropertyFilename_ = {}, Valve::VR::IVRScreenshots::_UpdateScreenshotProgress* UpdateScreenshotProgress_ = {}, Valve::VR::IVRScreenshots::_TakeStereoScreenshot* TakeStereoScreenshot_ = {}, Valve::VR::IVRScreenshots::_SubmitScreenshot* SubmitScreenshot_ = {}) : RequestScreenshot{RequestScreenshot_}, HookScreenshot{HookScreenshot_}, GetScreenshotPropertyType{GetScreenshotPropertyType_}, GetScreenshotPropertyFilename{GetScreenshotPropertyFilename_}, UpdateScreenshotProgress{UpdateScreenshotProgress_}, TakeStereoScreenshot{TakeStereoScreenshot_}, SubmitScreenshot{SubmitScreenshot_} {}
   }; // Valve.VR.IVRScreenshots
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots, "Valve.VR", "IVRScreenshots");
 #pragma pack(pop)

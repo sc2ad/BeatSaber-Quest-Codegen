@@ -80,16 +80,16 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // protected System.Void Start()
-    // Offset: 0xC32918
+    // Offset: 0xC4435C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC329AC
+    // Offset: 0xC443F0
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xC32A84
+    // Offset: 0xC444C8
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xC32B80
+    // Offset: 0xC445C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     static TrackLaneRingsRotationEffectSpawner* New_ctor();
   }; // TrackLaneRingsRotationEffectSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*, "", "TrackLaneRingsRotationEffectSpawner");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
 #pragma pack(pop)

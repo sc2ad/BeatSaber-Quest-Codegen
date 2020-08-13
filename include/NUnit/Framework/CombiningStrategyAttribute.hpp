@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.NUnitAttribute
 #include "NUnit/Framework/NUnitAttribute.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestBuilder
@@ -55,20 +56,20 @@ namespace NUnit::Framework {
     // Offset: 0x20
     NUnit::Framework::Interfaces::IParameterDataProvider* dataProvider;
     // protected System.Void .ctor(NUnit.Framework.Interfaces.ICombiningStrategy strategy, NUnit.Framework.Interfaces.IParameterDataProvider provider)
-    // Offset: 0x105E0C0
+    // Offset: 0x106DB04
     static CombiningStrategyAttribute* New_ctor(NUnit::Framework::Interfaces::ICombiningStrategy* strategy, NUnit::Framework::Interfaces::IParameterDataProvider* provider);
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
-    // Offset: 0x105E20C
+    // Offset: 0x106DC50
     // Implemented from: NUnit.Framework.Interfaces.ITestBuilder
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> ITestBuilder::BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>* BuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
     // public System.Void ApplyToTest(NUnit.Framework.Internal.Test test)
-    // Offset: 0x105EC8C
+    // Offset: 0x106E6D0
     // Implemented from: NUnit.Framework.Interfaces.IApplyToTest
     // Base method: System.Void IApplyToTest::ApplyToTest(NUnit.Framework.Internal.Test test)
     void ApplyToTest(NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.CombiningStrategyAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::CombiningStrategyAttribute*, "NUnit.Framework", "CombiningStrategyAttribute");
 #pragma pack(pop)

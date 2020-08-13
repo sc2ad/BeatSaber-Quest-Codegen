@@ -32,6 +32,6 @@ namespace OVR::OpenVR {
     EVRControllerEventOutputType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRControllerEventOutputType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRControllerEventOutputType, "OVR.OpenVR", "EVRControllerEventOutputType");
 #pragma pack(pop)

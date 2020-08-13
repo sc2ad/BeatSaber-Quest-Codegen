@@ -24,13 +24,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     RootMotion::FinalIK::IK* ik;
     // private System.Void Start()
-    // Offset: 0x1395670
+    // Offset: 0x13A70B4
     void Start();
     // private System.Void Update()
-    // Offset: 0x1395718
+    // Offset: 0x13A715C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13957E8
+    // Offset: 0x13A722C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -40,6 +40,6 @@ namespace RootMotion::FinalIK {
     static EditorIK* New_ctor();
   }; // RootMotion.FinalIK.EditorIK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::EditorIK*, "RootMotion.FinalIK", "EditorIK");
 #pragma pack(pop)

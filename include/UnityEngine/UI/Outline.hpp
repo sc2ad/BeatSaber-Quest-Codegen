@@ -21,7 +21,7 @@ namespace UnityEngine::UI {
   class Outline : public UnityEngine::UI::Shadow {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x11EEC24
+    // Offset: 0x1200668
     // Implemented from: UnityEngine.UI.Shadow
     // Base method: System.Void Shadow::.ctor()
     // Base method: System.Void BaseMeshEffect::.ctor()
@@ -33,12 +33,12 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Outline* New_ctor();
     // public override System.Void ModifyMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x11EECA8
+    // Offset: 0x12006EC
     // Implemented from: UnityEngine.UI.Shadow
     // Base method: System.Void Shadow::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
   }; // UnityEngine.UI.Outline
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Outline*, "UnityEngine.UI", "Outline");
 #pragma pack(pop)

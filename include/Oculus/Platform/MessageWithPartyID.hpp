@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithPartyID : public Oculus::Platform::Message_1<Oculus::Platform::Models::PartyID*> {
     public:
     // protected Oculus.Platform.Models.PartyID GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE90204
+    // Offset: 0xEA2C48
     Oculus::Platform::Models::PartyID* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE90160
+    // Offset: 0xEA2BA4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPartyID* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.PartyID GetPartyID()
-    // Offset: 0xE901C0
+    // Offset: 0xEA2C04
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PartyID Message::GetPartyID()
     Oculus::Platform::Models::PartyID* GetPartyID();
   }; // Oculus.Platform.MessageWithPartyID
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPartyID*, "Oculus.Platform", "MessageWithPartyID");
 #pragma pack(pop)

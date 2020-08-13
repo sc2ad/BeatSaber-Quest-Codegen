@@ -76,25 +76,25 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
     // public UnityEngine.UI.Button get_buyButton()
-    // Offset: 0xB887F4
+    // Offset: 0xB9A238
     UnityEngine::UI::Button* get_buyButton();
     // public System.Void SetContent(IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0xB887FC
+    // Offset: 0xB9A240
     void SetContent(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     // protected System.Void OnEnable()
-    // Offset: 0xB88944
+    // Offset: 0xB9A388
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xB8894C
+    // Offset: 0xB9A390
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xB88984
+    // Offset: 0xB9A3C8
     void OnDestroy();
     // public System.Void LoadDataAsync(IPreviewBeatmapLevel level)
-    // Offset: 0xB88858
+    // Offset: 0xB9A29C
     void LoadDataAsync(GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void .ctor()
-    // Offset: 0xB88A6C
+    // Offset: 0xB9A4B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -104,6 +104,6 @@ namespace GlobalNamespace {
     static StandardLevelBuyView* New_ctor();
   }; // StandardLevelBuyView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyView*, "", "StandardLevelBuyView");
 #pragma pack(pop)

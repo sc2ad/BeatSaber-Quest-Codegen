@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin/Bool
 #include "GlobalNamespace/OVRPlugin_Bool.hpp"
 // Including type: OVRPlugin/Vector3f
@@ -35,6 +35,6 @@ namespace GlobalNamespace {
     BoundaryTestResult(GlobalNamespace::OVRPlugin::Bool IsTriggering_ = {}, float ClosestDistance_ = {}, GlobalNamespace::OVRPlugin::Vector3f ClosestPoint_ = {}, GlobalNamespace::OVRPlugin::Vector3f ClosestPointNormal_ = {}) : IsTriggering{IsTriggering_}, ClosestDistance{ClosestDistance_}, ClosestPoint{ClosestPoint_}, ClosestPointNormal{ClosestPointNormal_} {}
   }; // OVRPlugin/BoundaryTestResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoundaryTestResult, "", "OVRPlugin/BoundaryTestResult");
 #pragma pack(pop)

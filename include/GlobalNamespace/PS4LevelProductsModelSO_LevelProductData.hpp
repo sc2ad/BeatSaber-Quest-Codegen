@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PS4LevelProductsModelSO
 #include "GlobalNamespace/PS4LevelProductsModelSO.hpp"
 // Completed includes
@@ -25,21 +23,21 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::CsString* levelId;
     // public System.String get_entitlementLabel()
-    // Offset: 0xBBCA40
+    // Offset: 0xBCF484
     ::CsString* get_entitlementLabel();
     // public System.String get_productLabel()
-    // Offset: 0xBBCA48
+    // Offset: 0xBCF48C
     ::CsString* get_productLabel();
     // public System.String get_levelId()
-    // Offset: 0xBBCA50
+    // Offset: 0xBCF494
     ::CsString* get_levelId();
     // public System.Void .ctor()
-    // Offset: 0xBBCA58
+    // Offset: 0xBCF49C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PS4LevelProductsModelSO::LevelProductData* New_ctor();
   }; // PS4LevelProductsModelSO/LevelProductData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*, "", "PS4LevelProductsModelSO/LevelProductData");
 #pragma pack(pop)

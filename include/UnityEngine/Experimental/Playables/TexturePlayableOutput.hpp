@@ -22,12 +22,12 @@ namespace UnityEngine::Experimental::Playables {
     // Creating value type constructor for type: TexturePlayableOutput
     TexturePlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xA422C8
+    // Offset: 0xA42344
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Experimental.Playables.TexturePlayableOutput
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");
 #pragma pack(pop)

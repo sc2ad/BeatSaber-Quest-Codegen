@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Including type: UnityEngine.Vector2
@@ -73,43 +71,43 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Color s_TextColor
     static void _set_s_TextColor(UnityEngine::Color value);
     // static private UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size)
-    // Offset: 0xB69998
+    // Offset: 0xB67998
     static UnityEngine::GameObject* CreateUIElementRoot(::CsString* name, UnityEngine::Vector2 size);
     // static private UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent)
-    // Offset: 0xB69A3C
+    // Offset: 0xB67A3C
     static UnityEngine::GameObject* CreateUIObject(::CsString* name, UnityEngine::GameObject* parent);
     // static private System.Void SetDefaultTextValues(TMPro.TMP_Text lbl)
-    // Offset: 0xB69C00
+    // Offset: 0xB67C00
     static void SetDefaultTextValues(TMPro::TMP_Text* lbl);
     // static private System.Void SetDefaultColorTransitionValues(UnityEngine.UI.Selectable slider)
-    // Offset: 0xB69C98
+    // Offset: 0xB67C98
     static void SetDefaultColorTransitionValues(UnityEngine::UI::Selectable* slider);
     // static private System.Void SetParentAndAlign(UnityEngine.GameObject child, UnityEngine.GameObject parent)
-    // Offset: 0xB69AF4
+    // Offset: 0xB67AF4
     static void SetParentAndAlign(UnityEngine::GameObject* child, UnityEngine::GameObject* parent);
     // static private System.Void SetLayerRecursively(UnityEngine.GameObject go, System.Int32 layer)
-    // Offset: 0xB69D18
+    // Offset: 0xB67D18
     static void SetLayerRecursively(UnityEngine::GameObject* go, int layer);
     // static public UnityEngine.GameObject CreateScrollbar(TMPro.TMP_DefaultControls/Resources resources)
-    // Offset: 0xB69E14
+    // Offset: 0xB67E14
     static UnityEngine::GameObject* CreateScrollbar(TMPro::TMP_DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateButton(TMPro.TMP_DefaultControls/Resources resources)
-    // Offset: 0xB6A0B8
+    // Offset: 0xB680B8
     static UnityEngine::GameObject* CreateButton(TMPro::TMP_DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateText(TMPro.TMP_DefaultControls/Resources resources)
-    // Offset: 0xB6A2D4
+    // Offset: 0xB682D4
     static UnityEngine::GameObject* CreateText(TMPro::TMP_DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateInputField(TMPro.TMP_DefaultControls/Resources resources)
-    // Offset: 0xB6A390
+    // Offset: 0xB68390
     static UnityEngine::GameObject* CreateInputField(TMPro::TMP_DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateDropdown(TMPro.TMP_DefaultControls/Resources resources)
-    // Offset: 0xB6AA2C
+    // Offset: 0xB68A2C
     static UnityEngine::GameObject* CreateDropdown(TMPro::TMP_DefaultControls::Resources resources);
     // static private System.Void .cctor()
-    // Offset: 0xB6BA84
+    // Offset: 0xB69A84
     static void _cctor();
   }; // TMPro.TMP_DefaultControls
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls*, "TMPro", "TMP_DefaultControls");
 #pragma pack(pop)

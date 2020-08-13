@@ -60,40 +60,40 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     UnityEngine::Transform* lastPivot;
     // private System.Void OpenUserManual()
-    // Offset: 0x143A974
+    // Offset: 0x144A3B8
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x143A9C0
+    // Offset: 0x144A404
     void OpenScriptReference();
     // private System.Void OpenTutorial1()
-    // Offset: 0x143AA0C
+    // Offset: 0x144A450
     void OpenTutorial1();
     // private System.Void OpenTutorial2()
-    // Offset: 0x143AA58
+    // Offset: 0x144A49C
     void OpenTutorial2();
     // private System.Void OpenTutorial3()
-    // Offset: 0x143AAA4
+    // Offset: 0x144A4E8
     void OpenTutorial3();
     // private System.Void OpenTutorial4()
-    // Offset: 0x143AAF0
+    // Offset: 0x144A534
     void OpenTutorial4();
     // private System.Void SupportGroup()
-    // Offset: 0x143AB3C
+    // Offset: 0x144A580
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x143AB88
+    // Offset: 0x144A5CC
     void ASThread();
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/WeightCurve/Type curveType)
-    // Offset: 0x14361D8
+    // Offset: 0x1445C1C
     float GetValue(RootMotion::FinalIK::InteractionObject::WeightCurve::Type curveType);
     // public System.Void ResetRotation()
-    // Offset: 0x1435158
+    // Offset: 0x1444B9C
     void ResetRotation();
     // public System.Void RotateTo(UnityEngine.Vector3 position)
-    // Offset: 0x14334F0
+    // Offset: 0x1442F34
     void RotateTo(UnityEngine::Vector3 position);
     // public System.Void .ctor()
-    // Offset: 0x143ABD4
+    // Offset: 0x144A618
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,6 +103,6 @@ namespace RootMotion::FinalIK {
     static InteractionTarget* New_ctor();
   }; // RootMotion.FinalIK.InteractionTarget
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTarget*, "RootMotion.FinalIK", "InteractionTarget");
 #pragma pack(pop)

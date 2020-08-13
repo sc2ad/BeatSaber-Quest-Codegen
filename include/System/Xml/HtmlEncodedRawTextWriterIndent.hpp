@@ -40,57 +40,57 @@ namespace System::Xml {
     // Offset: 0xF8
     bool newLineOnAttributes;
     // private System.Void WriteIndent()
-    // Offset: 0x1185B84
+    // Offset: 0x11965C8
     void WriteIndent();
     // public System.Void .ctor(System.IO.TextWriter writer, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x11858DC
+    // Offset: 0x1196320
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::.ctor(System.IO.TextWriter writer, System.Xml.XmlWriterSettings settings)
     // Base method: System.Void XmlEncodedRawTextWriter::.ctor(System.IO.TextWriter writer, System.Xml.XmlWriterSettings settings)
     static HtmlEncodedRawTextWriterIndent* New_ctor(System::IO::TextWriter* writer, System::Xml::XmlWriterSettings* settings);
     // public System.Void .ctor(System.IO.Stream stream, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x1185958
+    // Offset: 0x119639C
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::.ctor(System.IO.Stream stream, System.Xml.XmlWriterSettings settings)
     // Base method: System.Void XmlEncodedRawTextWriter::.ctor(System.IO.Stream stream, System.Xml.XmlWriterSettings settings)
     static HtmlEncodedRawTextWriterIndent* New_ctor(System::IO::Stream* stream, System::Xml::XmlWriterSettings* settings);
     // public override System.Void WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    // Offset: 0x1185990
+    // Offset: 0x11963D4
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
     void WriteDocType(::CsString* name, ::CsString* pubid, ::CsString* sysid, ::CsString* subset);
     // public override System.Void WriteStartElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x11859B8
+    // Offset: 0x11963FC
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::WriteStartElement(System.String prefix, System.String localName, System.String ns)
     void WriteStartElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
     // override System.Void StartElementContent()
-    // Offset: 0x1185BD0
+    // Offset: 0x1196614
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::StartElementContent()
     void StartElementContent();
     // override System.Void WriteEndElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1185C58
+    // Offset: 0x119669C
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::WriteEndElement(System.String prefix, System.String localName, System.String ns)
     void WriteEndElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
     // public override System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1185CF8
+    // Offset: 0x119673C
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     void WriteStartAttribute(::CsString* prefix, ::CsString* localName, ::CsString* ns);
     // protected override System.Void FlushBuffer()
-    // Offset: 0x1185D6C
+    // Offset: 0x11967B0
     // Implemented from: System.Xml.XmlEncodedRawTextWriter
     // Base method: System.Void XmlEncodedRawTextWriter::FlushBuffer()
     void FlushBuffer();
     // private System.Void Init(System.Xml.XmlWriterSettings settings)
-    // Offset: 0x1185914
+    // Offset: 0x1196358
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::Init(System.Xml.XmlWriterSettings settings)
     void Init(System::Xml::XmlWriterSettings* settings);
   }; // System.Xml.HtmlEncodedRawTextWriterIndent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriterIndent*, "System.Xml", "HtmlEncodedRawTextWriterIndent");
 #pragma pack(pop)

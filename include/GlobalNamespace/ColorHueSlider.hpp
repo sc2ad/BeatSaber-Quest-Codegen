@@ -38,36 +38,36 @@ namespace GlobalNamespace {
     // Offset: 0x140
     System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* colorHueDidChangeEvent;
     // public System.Void add_colorHueDidChangeEvent(System.Action`3<ColorHueSlider,System.Single,ColorChangeUIEventType> value)
-    // Offset: 0xB613E8
+    // Offset: 0xB5F3E8
     void add_colorHueDidChangeEvent(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorHueDidChangeEvent(System.Action`3<ColorHueSlider,System.Single,ColorChangeUIEventType> value)
-    // Offset: 0xB61490
+    // Offset: 0xB5F490
     void remove_colorHueDidChangeEvent(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* value);
     // private System.Void HandleNormalizedValueDidChange(HMUI.CircleSlider slider, System.Single normalizedValue)
-    // Offset: 0xB616E4
+    // Offset: 0xB5F6E4
     void HandleNormalizedValueDidChange(HMUI::CircleSlider* slider, float normalizedValue);
     // protected override System.Void Awake()
-    // Offset: 0xB61538
+    // Offset: 0xB5F538
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0xB615C4
+    // Offset: 0xB5F5C4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void UpdateVisuals()
-    // Offset: 0xB61650
+    // Offset: 0xB5F650
     // Implemented from: HMUI.CircleSlider
     // Base method: System.Void CircleSlider::UpdateVisuals()
     void UpdateVisuals();
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xB61760
+    // Offset: 0xB5F760
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xB617EC
+    // Offset: 0xB5F7EC
     // Implemented from: HMUI.CircleSlider
     // Base method: System.Void CircleSlider::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -80,6 +80,6 @@ namespace GlobalNamespace {
     static ColorHueSlider* New_ctor();
   }; // ColorHueSlider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorHueSlider*, "", "ColorHueSlider");
 #pragma pack(pop)

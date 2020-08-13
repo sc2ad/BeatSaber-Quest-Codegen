@@ -32,19 +32,19 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos;
     // public EnvironmentInfoSO[] get_environmentInfos()
-    // Offset: 0xBD60C8
+    // Offset: 0xBE8B0C
     ::Array<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public EnvironmentInfoSO GetEnviromentInfoBySerializedName(System.String environmentSerializedName)
-    // Offset: 0xBD60D0
+    // Offset: 0xBE8B14
     GlobalNamespace::EnvironmentInfoSO* GetEnviromentInfoBySerializedName(::CsString* environmentSerializedName);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> GetAllEnvironmentInfosWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0xBD50EC
+    // Offset: 0xBE7B30
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* GetAllEnvironmentInfosWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public EnvironmentInfoSO GetFirstEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0xBD615C
+    // Offset: 0xBE8BA0
     GlobalNamespace::EnvironmentInfoSO* GetFirstEnvironmentInfoWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0xBD61D4
+    // Offset: 0xBE8C18
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -53,6 +53,6 @@ namespace GlobalNamespace {
     static EnvironmentsListSO* New_ctor();
   }; // EnvironmentsListSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentsListSO*, "", "EnvironmentsListSO");
 #pragma pack(pop)

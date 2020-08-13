@@ -49,22 +49,22 @@ namespace GlobalNamespace {
     // Offset: 0x34
     float targetVolume;
     // protected System.Void Awake()
-    // Offset: 0xC1F6D0
+    // Offset: 0xC31114
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC1F90C
+    // Offset: 0xC31350
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0xC1FB70
+    // Offset: 0xC315B4
     void LateUpdate();
     // private System.Void HandleSparkleEffectDidStart(SaberType saberType)
-    // Offset: 0xC1FD4C
+    // Offset: 0xC31790
     void HandleSparkleEffectDidStart(GlobalNamespace::SaberType saberType);
     // private System.Void HandleSparkleEffecDidEnd(SaberType saberType)
-    // Offset: 0xC1FE84
+    // Offset: 0xC318C8
     void HandleSparkleEffecDidEnd(GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0xC1FE98
+    // Offset: 0xC318DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,6 +74,6 @@ namespace GlobalNamespace {
     static ObstacleSaberSoundEffect* New_ctor();
   }; // ObstacleSaberSoundEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSoundEffect*, "", "ObstacleSaberSoundEffect");
 #pragma pack(pop)

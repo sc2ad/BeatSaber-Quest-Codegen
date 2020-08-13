@@ -23,6 +23,6 @@ namespace Valve::VR {
     VREvent_Reserved_t(uint64_t reserved0_ = {}, uint64_t reserved1_ = {}) : reserved0{reserved0_}, reserved1{reserved1_} {}
   }; // Valve.VR.VREvent_Reserved_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Reserved_t, "Valve.VR", "VREvent_Reserved_t");
 #pragma pack(pop)

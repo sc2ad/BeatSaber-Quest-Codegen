@@ -44,22 +44,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::BeatmapDataLoader* beatmapDataLoader;
     // public BeatmapData get_beatmapData()
-    // Offset: 0x1979DD8
+    // Offset: 0xB920D4
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void set_beatmapData(BeatmapData value)
-    // Offset: 0x1979E60
+    // Offset: 0xB9215C
     void set_beatmapData(GlobalNamespace::BeatmapData* value);
     // public System.Void SetJsonData(System.String jsonData)
-    // Offset: 0x1979E68
+    // Offset: 0xB92164
     void SetJsonData(::CsString* jsonData);
     // public System.Void SetRequiredDataForLoad(System.Single beatsPerMinute, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x1979E70
+    // Offset: 0xB9216C
     void SetRequiredDataForLoad(float beatsPerMinute, float shuffle, float shufflePeriod);
     // public System.Void Load()
-    // Offset: 0x1979E08
+    // Offset: 0xB92104
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x1979E84
+    // Offset: 0xB92180
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -68,6 +68,6 @@ namespace GlobalNamespace {
     static BeatmapDataSO* New_ctor();
   }; // BeatmapDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataSO*, "", "BeatmapDataSO");
 #pragma pack(pop)

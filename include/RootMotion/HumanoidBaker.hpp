@@ -82,38 +82,38 @@ namespace RootMotion {
     // Offset: 0x108
     UnityEngine::Quaternion lastBodyRotation;
     // private System.Void Awake()
-    // Offset: 0x122A164
+    // Offset: 0x123BBA8
     void Awake();
     // private System.Void UpdateHumanPose()
-    // Offset: 0x122AD58
+    // Offset: 0x123C79C
     void UpdateHumanPose();
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x122A648
+    // Offset: 0x123C08C
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x122A664
+    // Offset: 0x123C0A8
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x122A784
+    // Offset: 0x123C1C8
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(UnityEngine.AnimationClip clip)
-    // Offset: 0x122A860
+    // Offset: 0x123C2A4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(UnityEngine.AnimationClip clip)
     void OnSetCurves(UnityEngine::AnimationClip*& clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x122AA30
+    // Offset: 0x123C474
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);
     // public System.Void .ctor()
-    // Offset: 0x122AE34
+    // Offset: 0x123C878
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -124,6 +124,6 @@ namespace RootMotion {
     static HumanoidBaker* New_ctor();
   }; // RootMotion.HumanoidBaker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::HumanoidBaker*, "RootMotion", "HumanoidBaker");
 #pragma pack(pop)

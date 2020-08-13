@@ -43,6 +43,6 @@ namespace Valve::VR {
     VRControllerState_t(uint unPacketNum_ = {}, uint64_t ulButtonPressed_ = {}, uint64_t ulButtonTouched_ = {}, Valve::VR::VRControllerAxis_t rAxis0_ = {}, Valve::VR::VRControllerAxis_t rAxis1_ = {}, Valve::VR::VRControllerAxis_t rAxis2_ = {}, Valve::VR::VRControllerAxis_t rAxis3_ = {}, Valve::VR::VRControllerAxis_t rAxis4_ = {}) : unPacketNum{unPacketNum_}, ulButtonPressed{ulButtonPressed_}, ulButtonTouched{ulButtonTouched_}, rAxis0{rAxis0_}, rAxis1{rAxis1_}, rAxis2{rAxis2_}, rAxis3{rAxis3_}, rAxis4{rAxis4_} {}
   }; // Valve.VR.VRControllerState_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t, "Valve.VR", "VRControllerState_t");
 #pragma pack(pop)

@@ -45,37 +45,37 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::BeatmapLevelCollectionSO* beatmapLevelCollection;
     // public System.String get_packID()
-    // Offset: 0xB532C0
+    // Offset: 0xB512C0
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_packID()
     ::CsString* get_packID();
     // public System.String get_packName()
-    // Offset: 0xB532C8
+    // Offset: 0xB512C8
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_packName()
     ::CsString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0xB532D0
+    // Offset: 0xB512D0
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_shortPackName()
     ::CsString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0xB532D8
+    // Offset: 0xB512D8
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
     ::CsString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0xB532E0
+    // Offset: 0xB512E0
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0xB532E8
+    // Offset: 0xB512E8
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0xB532F0
+    // Offset: 0xB512F0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -84,6 +84,6 @@ namespace GlobalNamespace {
     static BeatmapLevelPackSO* New_ctor();
   }; // BeatmapLevelPackSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackSO*, "", "BeatmapLevelPackSO");
 #pragma pack(pop)

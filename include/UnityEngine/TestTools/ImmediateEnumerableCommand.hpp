@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
 #include "NUnit/Framework/Internal/Commands/DelegatingTestCommand.hpp"
 // Completed includes
@@ -26,17 +27,17 @@ namespace UnityEngine::TestTools {
   class ImmediateEnumerableCommand : public NUnit::Framework::Internal::Commands::DelegatingTestCommand {
     public:
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0xE1F558
+    // Offset: 0xE31F9C
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     static ImmediateEnumerableCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0xE2A5FC
+    // Offset: 0xE3D040
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.ImmediateEnumerableCommand
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::ImmediateEnumerableCommand*, "UnityEngine.TestTools", "ImmediateEnumerableCommand");
 #pragma pack(pop)

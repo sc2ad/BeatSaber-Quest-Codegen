@@ -40,62 +40,62 @@ namespace System::Threading {
     // Creating value type constructor for type: CancellationToken
     CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) : m_source{m_source_} {}
     // static public System.Threading.CancellationToken get_None()
-    // Offset: 0x13C07F4
+    // Offset: 0x13D1238
     static System::Threading::CancellationToken get_None();
     // public System.Boolean get_IsCancellationRequested()
-    // Offset: 0xA43F54
+    // Offset: 0xA43FD0
     bool get_IsCancellationRequested();
     // public System.Boolean get_CanBeCanceled()
-    // Offset: 0xA43F8C
+    // Offset: 0xA44008
     bool get_CanBeCanceled();
     // System.Void .ctor(System.Threading.CancellationTokenSource source)
-    // Offset: 0xA43FC4
+    // Offset: 0xA44040
     static CancellationToken* New_ctor(System::Threading::CancellationTokenSource* source);
     // static private System.Void ActionToActionObjShunt(System.Object obj)
-    // Offset: 0x13C08C4
+    // Offset: 0x13D1308
     static void ActionToActionObjShunt(::CsObject* obj);
     // System.Threading.CancellationTokenRegistration InternalRegisterWithoutEC(System.Action`1<System.Object> callback, System.Object state)
-    // Offset: 0xA43FCC
+    // Offset: 0xA44048
     System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(System::Action_1<::CsObject*>* callback, ::CsObject* state);
     // private System.Threading.CancellationTokenRegistration Register(System.Action`1<System.Object> callback, System.Object state, System.Boolean useSynchronizationContext, System.Boolean useExecutionContext)
-    // Offset: 0xA43FDC
+    // Offset: 0xA44058
     System::Threading::CancellationTokenRegistration Register(System::Action_1<::CsObject*>* callback, ::CsObject* state, bool useSynchronizationContext, bool useExecutionContext);
     // public System.Boolean Equals(System.Threading.CancellationToken other)
-    // Offset: 0xA43FEC
+    // Offset: 0xA44068
     bool Equals(System::Threading::CancellationToken other);
     // public System.Void ThrowIfCancellationRequested()
-    // Offset: 0xA44004
+    // Offset: 0xA44080
     void ThrowIfCancellationRequested();
     // System.Void ThrowIfSourceDisposed()
-    // Offset: 0xA4400C
+    // Offset: 0xA44088
     void ThrowIfSourceDisposed();
     // private System.Void ThrowOperationCanceledException()
-    // Offset: 0xA44014
+    // Offset: 0xA44090
     void ThrowOperationCanceledException();
     // static private System.Void ThrowObjectDisposedException()
-    // Offset: 0x13C1358
+    // Offset: 0x13D1D9C
     static void ThrowObjectDisposedException();
     // static private System.Void .cctor()
-    // Offset: 0x13C13DC
+    // Offset: 0x13D1E20
     static void _cctor();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA43FF4
+    // Offset: 0xA44070
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::CsObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA43FFC
+    // Offset: 0xA44078
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Threading.CancellationToken
   // static public System.Boolean op_Equality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
-  // Offset: 0x13C11C4
+  // Offset: 0x13D1C08
   bool operator ==(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
   // static public System.Boolean op_Inequality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
-  // Offset: 0x13C11EC
+  // Offset: 0x13D1C30
   bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
 #pragma pack(pop)

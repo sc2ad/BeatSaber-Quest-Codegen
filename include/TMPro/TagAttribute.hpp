@@ -25,6 +25,6 @@ namespace TMPro {
     TagAttribute(int startIndex_ = {}, int length_ = {}, int hashCode_ = {}) : startIndex{startIndex_}, length{length_}, hashCode{hashCode_} {}
   }; // TMPro.TagAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TagAttribute, "TMPro", "TagAttribute");
 #pragma pack(pop)

@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::CsString* stateName;
     // protected System.Void Start()
-    // Offset: 0xCA57D8
+    // Offset: 0xCB821C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xCA581C
+    // Offset: 0xCB8260
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -40,6 +40,6 @@ namespace GlobalNamespace {
     static RandomAnimationStartTime* New_ctor();
   }; // RandomAnimationStartTime
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomAnimationStartTime*, "", "RandomAnimationStartTime");
 #pragma pack(pop)

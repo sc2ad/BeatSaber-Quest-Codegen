@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRInput/OVRControllerBase
 #include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Including type: OVRInput/RawNearTouch
@@ -33,15 +31,15 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::OVRInput::RawNearTouch SecondaryThumbButtons;
     // public OVRInput/RawNearTouch ToRawMask(OVRInput/NearTouch virtualMask)
-    // Offset: 0xE5E898
+    // Offset: 0xE712DC
     GlobalNamespace::OVRInput::RawNearTouch ToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public System.Void .ctor()
-    // Offset: 0xE5DA88
+    // Offset: 0xE704CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualNearTouchMap* New_ctor();
   }; // OVRInput/OVRControllerBase/VirtualNearTouchMap
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*, "", "OVRInput/OVRControllerBase/VirtualNearTouchMap");
 #pragma pack(pop)

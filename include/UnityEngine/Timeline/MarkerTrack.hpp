@@ -22,12 +22,12 @@ namespace UnityEngine::Timeline {
   class MarkerTrack : public UnityEngine::Timeline::TrackAsset {
     public:
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x10869BC
+    // Offset: 0x1096400
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> TrackAsset::get_outputs()
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
-    // Offset: 0x1086B28
+    // Offset: 0x109656C
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()
@@ -37,6 +37,6 @@ namespace UnityEngine::Timeline {
     static MarkerTrack* New_ctor();
   }; // UnityEngine.Timeline.MarkerTrack
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerTrack*, "UnityEngine.Timeline", "MarkerTrack");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility
 #include "UnityEngine/ProBuilder/MeshOperations/InternalMeshUtility.hpp"
 // Completed includes
@@ -75,36 +73,36 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<System.Boolean,System.Boolean> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<bool, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10069C4
+    // Offset: 0x1016408
     static void _cctor();
     // UnityEngine.Vector3[] <CreateMeshWithTransform>b__1_0(UnityEngine.Mesh x)
-    // Offset: 0x1006A34
+    // Offset: 0x1016478
     ::Array<UnityEngine::Vector3>* $CreateMeshWithTransform$b__1_0(UnityEngine::Mesh* x);
     // UnityEngine.Color[] <CreateMeshWithTransform>b__1_1(UnityEngine.Mesh x)
-    // Offset: 0x1006A50
+    // Offset: 0x1016494
     ::Array<UnityEngine::Color>* $CreateMeshWithTransform$b__1_1(UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <CreateMeshWithTransform>b__1_2(UnityEngine.Mesh x)
-    // Offset: 0x1006A6C
+    // Offset: 0x10164B0
     ::Array<UnityEngine::Vector2>* $CreateMeshWithTransform$b__1_2(UnityEngine::Mesh* x);
     // UnityEngine.Vector3[] <ResetPbObjectWithMeshFilter>b__2_0(UnityEngine.Mesh x)
-    // Offset: 0x1006A88
+    // Offset: 0x10164CC
     ::Array<UnityEngine::Vector3>* $ResetPbObjectWithMeshFilter$b__2_0(UnityEngine::Mesh* x);
     // UnityEngine.Color[] <ResetPbObjectWithMeshFilter>b__2_1(UnityEngine.Mesh x)
-    // Offset: 0x1006AA4
+    // Offset: 0x10164E8
     ::Array<UnityEngine::Color>* $ResetPbObjectWithMeshFilter$b__2_1(UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <ResetPbObjectWithMeshFilter>b__2_2(UnityEngine.Mesh x)
-    // Offset: 0x1006AC0
+    // Offset: 0x1016504
     ::Array<UnityEngine::Vector2>* $ResetPbObjectWithMeshFilter$b__2_2(UnityEngine::Mesh* x);
     // System.Boolean <FilterUnusedSubmeshIndexes>b__3_0(System.Boolean x)
-    // Offset: 0x1006ADC
+    // Offset: 0x1016520
     bool $FilterUnusedSubmeshIndexes$b__3_0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x1006A2C
+    // Offset: 0x1016470
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InternalMeshUtility::$$c* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*, "UnityEngine.ProBuilder.MeshOperations", "InternalMeshUtility/<>c");
 #pragma pack(pop)

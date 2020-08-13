@@ -21,10 +21,10 @@ namespace UnityEngine {
   class ParticleSystemRenderer : public UnityEngine::Renderer {
     public:
     // public System.Int32 GetMeshes(UnityEngine.Mesh[] meshes)
-    // Offset: 0x195370C
+    // Offset: 0x1966150
     int GetMeshes(::Array<UnityEngine::Mesh*>*& meshes);
   }; // UnityEngine.ParticleSystemRenderer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemRenderer*, "UnityEngine", "ParticleSystemRenderer");
 #pragma pack(pop)

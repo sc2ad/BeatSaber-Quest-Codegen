@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryHeaderEnum.hpp"
 // Completed includes
@@ -46,27 +44,27 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x28
     int minorVersion;
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum, System.Int32 topId, System.Int32 headerId, System.Int32 majorVersion, System.Int32 minorVersion)
-    // Offset: 0xFDAE00
+    // Offset: 0xFEB844
     static SerializationHeaderRecord* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int topId, int headerId, int majorVersion, int minorVersion);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xFDAE5C
+    // Offset: 0xFEB8A0
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static private System.Int32 GetInt32(System.Byte[] buffer, System.Int32 index)
-    // Offset: 0xFDAF54
+    // Offset: 0xFEB998
     static int GetInt32(::Array<uint8_t>* buffer, int index);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xFDAFD4
+    // Offset: 0xFEBA18
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xFDB1AC
+    // Offset: 0xFEBBF0
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xFDADF0
+    // Offset: 0xFEB834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SerializationHeaderRecord* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord*, "System.Runtime.Serialization.Formatters.Binary", "SerializationHeaderRecord");
 #pragma pack(pop)

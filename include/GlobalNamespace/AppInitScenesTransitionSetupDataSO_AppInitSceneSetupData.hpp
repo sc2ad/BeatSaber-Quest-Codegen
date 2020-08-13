@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: SceneSetupData
-#include "GlobalNamespace/SceneSetupData.hpp"
 // Including type: AppInitScenesTransitionSetupDataSO
 #include "GlobalNamespace/AppInitScenesTransitionSetupDataSO.hpp"
+// Including type: SceneSetupData
+#include "GlobalNamespace/SceneSetupData.hpp"
 // Including type: AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType
 #include "GlobalNamespace/AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType.hpp"
 // Completed includes
@@ -21,16 +21,16 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType;
     // public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType get_appInitOverrideStartType()
-    // Offset: 0x196DA40
+    // Offset: 0xB85D3C
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType get_appInitOverrideStartType();
     // private System.Void set_appInitOverrideStartType(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType value)
-    // Offset: 0x196DA48
+    // Offset: 0xB85D44
     void set_appInitOverrideStartType(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
     // public System.Void .ctor(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType)
-    // Offset: 0x196D614
+    // Offset: 0xB85910
     static AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* New_ctor(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType);
   }; // AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*, "", "AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData");
 #pragma pack(pop)

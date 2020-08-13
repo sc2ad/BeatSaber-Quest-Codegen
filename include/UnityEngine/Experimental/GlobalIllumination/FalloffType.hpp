@@ -50,6 +50,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     FalloffType(uint8_t value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.FalloffType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::FalloffType, "UnityEngine.Experimental.GlobalIllumination", "FalloffType");
 #pragma pack(pop)

@@ -21,19 +21,19 @@ namespace UnityEngine {
     // Creating value type constructor for type: LayerMask
     LayerMask(int m_Mask_ = {}) : m_Mask{m_Mask_} {}
     // public System.Int32 get_value()
-    // Offset: 0xA423B8
+    // Offset: 0xA42434
     int get_value();
     // public System.Void set_value(System.Int32 value)
-    // Offset: 0xA423C0
+    // Offset: 0xA4243C
     void set_value(int value);
     // static public System.String LayerToName(System.Int32 layer)
-    // Offset: 0x12FA5F4
+    // Offset: 0x130D038
     static ::CsString* LayerToName(int layer);
     // static public System.Int32 NameToLayer(System.String layerName)
-    // Offset: 0x12FA634
+    // Offset: 0x130D078
     static int NameToLayer(::CsString* layerName);
   }; // UnityEngine.LayerMask
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LayerMask, "UnityEngine", "LayerMask");
 #pragma pack(pop)

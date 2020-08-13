@@ -38,6 +38,6 @@ namespace UnityEngine::ProBuilder {
     ColliderType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.ColliderType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColliderType, "UnityEngine.ProBuilder", "ColliderType");
 #pragma pack(pop)

@@ -5,6 +5,8 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: TutorialSongController
+#include "GlobalNamespace/TutorialSongController.hpp"
 // Including type: TutorialSongController/TutorialObjectSpawnData
 #include "GlobalNamespace/TutorialSongController_TutorialObjectSpawnData.hpp"
 // Including type: NoteLineLayer
@@ -39,10 +41,10 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     GlobalNamespace::NoteType noteType;
     // public System.Void .ctor(Signal gameEvent, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 line, NoteLineLayer noteLineLayer, NoteCutDirection cutDirection, NoteType noteType)
-    // Offset: 0xC361A8
+    // Offset: 0xC47BEC
     static TutorialSongController::TutorialNoteSpawnData* New_ctor(GlobalNamespace::Signal* gameEvent, int firstTimeBeatOffset, int beatOffset, int line, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::NoteType noteType);
   }; // TutorialSongController/TutorialNoteSpawnData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialNoteSpawnData*, "", "TutorialSongController/TutorialNoteSpawnData");
 #pragma pack(pop)

@@ -24,12 +24,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::StandardGameplaySceneSetupData* sceneSetupData;
     // public override System.Void InstallBindings()
-    // Offset: 0xB88048
+    // Offset: 0xB99A8C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xB881C0
+    // Offset: 0xB99C04
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -41,6 +41,6 @@ namespace GlobalNamespace {
     static StandardGameplaySceneSetup* New_ctor();
   }; // StandardGameplaySceneSetup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardGameplaySceneSetup*, "", "StandardGameplaySceneSetup");
 #pragma pack(pop)

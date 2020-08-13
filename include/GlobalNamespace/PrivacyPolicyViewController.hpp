@@ -32,12 +32,12 @@ namespace GlobalNamespace {
     // Offset: 0x70
     UnityEngine::TextAsset* privacyPolicyTextAsset;
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC0950C
+    // Offset: 0xC1AF50
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xC09560
+    // Offset: 0xC1AFA4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static PrivacyPolicyViewController* New_ctor();
   }; // PrivacyPolicyViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrivacyPolicyViewController*, "", "PrivacyPolicyViewController");
 #pragma pack(pop)

@@ -45,78 +45,78 @@ namespace RootMotion::FinalIK {
     // Offset: 0x84
     float chainLength;
     // public System.Boolean SetChain(UnityEngine.Transform[] hierarchy, UnityEngine.Transform root)
-    // Offset: 0x1333D50
+    // Offset: 0x1347794
     bool SetChain(::Array<UnityEngine::Transform*>* hierarchy, UnityEngine::Transform* root);
     // public System.Void AddBone(UnityEngine.Transform bone)
-    // Offset: 0x1333F04
+    // Offset: 0x1347948
     void AddBone(UnityEngine::Transform* bone);
     // protected System.Int32 get_minBones()
-    // Offset: 0x13345E8
+    // Offset: 0x134802C
     int get_minBones();
     // protected System.Boolean get_boneLengthCanBeZero()
-    // Offset: 0x13345F0
+    // Offset: 0x1348034
     bool get_boneLengthCanBeZero();
     // protected System.Boolean get_allowCommonParent()
-    // Offset: 0x13345F8
+    // Offset: 0x134803C
     bool get_allowCommonParent();
     // protected System.Void InitiateBones()
-    // Offset: 0x132A474
+    // Offset: 0x133DEB8
     void InitiateBones();
     // protected UnityEngine.Vector3 get_localDirection()
-    // Offset: 0x1334608
+    // Offset: 0x134804C
     UnityEngine::Vector3 get_localDirection();
     // protected System.Single get_positionOffset()
-    // Offset: 0x132B090
+    // Offset: 0x133EAD4
     float get_positionOffset();
     // protected UnityEngine.Vector3 GetSingularityOffset()
-    // Offset: 0x132ACEC
+    // Offset: 0x133E730
     UnityEngine::Vector3 GetSingularityOffset();
     // private System.Boolean SingularityDetected()
-    // Offset: 0x133473C
+    // Offset: 0x1348180
     bool SingularityDetected();
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x1334068
+    // Offset: 0x1347AAC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x13340D4
+    // Offset: 0x1347B18
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // public override System.Boolean IsValid(System.String message)
-    // Offset: 0x1334154
+    // Offset: 0x1347B98
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(System.String message)
     bool IsValid(::CsString*& message);
     // public override RootMotion.FinalIK.IKSolver/Point[] GetPoints()
-    // Offset: 0x13344EC
+    // Offset: 0x1347F30
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/Point[] IKSolver::GetPoints()
     ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
     // public override RootMotion.FinalIK.IKSolver/Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x13344F4
+    // Offset: 0x1347F38
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/Point IKSolver::GetPoint(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
     // protected override System.Void OnInitiate()
-    // Offset: 0x1334600
+    // Offset: 0x1348044
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1334604
+    // Offset: 0x1348048
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();
     // public System.Void .ctor()
-    // Offset: 0x132930C
+    // Offset: 0x133CD50
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()
     static IKSolverHeuristic* New_ctor();
   }; // RootMotion.FinalIK.IKSolverHeuristic
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverHeuristic*, "RootMotion.FinalIK", "IKSolverHeuristic");
 #pragma pack(pop)

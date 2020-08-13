@@ -35,33 +35,33 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Material* fadeMaterial;
     // protected System.Void OnDisable()
-    // Offset: 0x18FA07C
+    // Offset: 0x1909AC0
     void OnDisable();
     // public System.Void DrawFadeQuad(System.Single alpha)
-    // Offset: 0x18FA108
+    // Offset: 0x1909B4C
     void DrawFadeQuad(float alpha);
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x18F9FD8
+    // Offset: 0x1909A1C
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x18F9FE0
+    // Offset: 0x1909A24
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x18FA088
+    // Offset: 0x1909ACC
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void PostRender(System.Single fade)
-    // Offset: 0x18FA0FC
+    // Offset: 0x1909B40
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
     void PostRender(float fade);
     // public System.Void .ctor()
-    // Offset: 0x18FA21C
+    // Offset: 0x1909C60
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -71,6 +71,6 @@ namespace GlobalNamespace {
     static NoPostProcessMainEffectSO* New_ctor();
   }; // NoPostProcessMainEffectSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoPostProcessMainEffectSO*, "", "NoPostProcessMainEffectSO");
 #pragma pack(pop)

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void SetCursorStartDest(UnityEngine::Vector3 start, UnityEngine::Vector3 dest, UnityEngine::Vector3 normal);
     // protected System.Void .ctor()
-    // Offset: 0xCB70F4
+    // Offset: 0xCCAB38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -38,6 +38,6 @@ namespace GlobalNamespace {
     static OVRCursor* New_ctor();
   }; // OVRCursor
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCursor*, "", "OVRCursor");
 #pragma pack(pop)

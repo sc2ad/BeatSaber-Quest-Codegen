@@ -52,25 +52,25 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x24
     int sortOrder;
     // public System.Int32 get_depth()
-    // Offset: 0x18EA384
+    // Offset: 0x18FADC8
     int get_depth();
     // public System.Int32 get_finalEventMask()
-    // Offset: 0x18EA44C
+    // Offset: 0x18FAE90
     int get_finalEventMask();
     // public UnityEngine.LayerMask get_eventMask()
-    // Offset: 0x18EA520
+    // Offset: 0x18FAF64
     UnityEngine::LayerMask get_eventMask();
     // public System.Void set_eventMask(UnityEngine.LayerMask value)
-    // Offset: 0x18EA528
+    // Offset: 0x18FAF6C
     void set_eventMask(UnityEngine::LayerMask value);
     // public System.Void Spherecast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList, System.Single radius)
-    // Offset: 0x18E9198
+    // Offset: 0x18F9BDC
     void Spherecast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList, float radius);
     // public UnityEngine.Vector2 GetScreenPos(UnityEngine.Vector3 worldPosition)
-    // Offset: 0x18E94F4
+    // Offset: 0x18F9F38
     UnityEngine::Vector2 GetScreenPos(UnityEngine::Vector3 worldPosition);
     // protected System.Void .ctor()
-    // Offset: 0x18EA2F0
+    // Offset: 0x18FAD34
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -81,22 +81,22 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static OVRPhysicsRaycaster* New_ctor();
     // public override UnityEngine.Camera get_eventCamera()
-    // Offset: 0x18EA324
+    // Offset: 0x18FAD68
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: UnityEngine.Camera BaseRaycaster::get_eventCamera()
     UnityEngine::Camera* get_eventCamera();
     // public override System.Int32 get_sortOrderPriority()
-    // Offset: 0x18EA444
+    // Offset: 0x18FAE88
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Int32 BaseRaycaster::get_sortOrderPriority()
     int get_sortOrderPriority();
     // public override System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
-    // Offset: 0x18EA530
+    // Offset: 0x18FAF74
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
   }; // UnityEngine.EventSystems.OVRPhysicsRaycaster
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPhysicsRaycaster*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster");
 #pragma pack(pop)

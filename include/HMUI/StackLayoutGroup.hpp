@@ -20,25 +20,25 @@ namespace HMUI {
     // Offset: 0x59
     bool m_ChildForceExpandHeight;
     // public System.Boolean get_childForceExpandWidth()
-    // Offset: 0x10D04AC
+    // Offset: 0x10E0EF0
     bool get_childForceExpandWidth();
     // public System.Void set_childForceExpandWidth(System.Boolean value)
-    // Offset: 0x10D04B4
+    // Offset: 0x10E0EF8
     void set_childForceExpandWidth(bool value);
     // public System.Boolean get_childForceExpandHeight()
-    // Offset: 0x10D0518
+    // Offset: 0x10E0F5C
     bool get_childForceExpandHeight();
     // public System.Void set_childForceExpandHeight(System.Boolean value)
-    // Offset: 0x10D0520
+    // Offset: 0x10E0F64
     void set_childForceExpandHeight(bool value);
     // private System.Void CalcAlongAxis(System.Int32 axis)
-    // Offset: 0x10D05C0
+    // Offset: 0x10E1004
     void CalcAlongAxis(int axis);
     // private System.Void SetChildrenAlongAxis(System.Int32 axis)
-    // Offset: 0x10D07D8
+    // Offset: 0x10E121C
     void SetChildrenAlongAxis(int axis);
     // protected System.Void .ctor()
-    // Offset: 0x10D0584
+    // Offset: 0x10E0FC8
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -49,27 +49,27 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static StackLayoutGroup* New_ctor();
     // public override System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x10D0594
+    // Offset: 0x10E0FD8
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public override System.Void CalculateLayoutInputVertical()
-    // Offset: 0x10D07C8
+    // Offset: 0x10E120C
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public override System.Void SetLayoutHorizontal()
-    // Offset: 0x10D07D0
+    // Offset: 0x10E1214
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public override System.Void SetLayoutVertical()
-    // Offset: 0x10D09F0
+    // Offset: 0x10E1434
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();
   }; // HMUI.StackLayoutGroup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");
 #pragma pack(pop)

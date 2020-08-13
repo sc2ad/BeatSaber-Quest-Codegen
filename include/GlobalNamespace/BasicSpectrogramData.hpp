@@ -50,22 +50,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Collections::Generic::List_1<float>* processedSamples;
     // public System.Single[] get_Samples()
-    // Offset: 0x1971460
+    // Offset: 0xB8975C
     ::Array<float>* get_Samples();
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0x1971508
+    // Offset: 0xB89804
     System::Collections::Generic::List_1<float>* get_ProcessedSamples();
     // protected System.Void Awake()
-    // Offset: 0x1971730
+    // Offset: 0xB89A2C
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0x19717AC
+    // Offset: 0xB89AA8
     void LateUpdate();
     // private System.Void ProcessSamples(System.Single[] sourceSamples, System.Collections.Generic.List`1<System.Single> processedSamples)
-    // Offset: 0x1971554
+    // Offset: 0xB89850
     void ProcessSamples(::Array<float>* sourceSamples, System::Collections::Generic::List_1<float>* processedSamples);
     // public System.Void .ctor()
-    // Offset: 0x19717B4
+    // Offset: 0xB89AB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -75,6 +75,6 @@ namespace GlobalNamespace {
     static BasicSpectrogramData* New_ctor();
   }; // BasicSpectrogramData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicSpectrogramData*, "", "BasicSpectrogramData");
 #pragma pack(pop)

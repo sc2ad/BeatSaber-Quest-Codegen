@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HTTPLeaderboardsModel
 #include "GlobalNamespace/HTTPLeaderboardsModel.hpp"
 // Completed includes
@@ -37,18 +35,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<LeaderboardsDTO.LeaderboardEntryDTO,System.String> <>9__12_0
     static void _set_$$9__12_0(System::Func_2<LeaderboardsDTO::LeaderboardEntryDTO*, ::CsString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB41BC0
+    // Offset: 0xB3FBC0
     static void _cctor();
     // System.String <GetLeaderboardEntriesAsync>b__12_0(LeaderboardsDTO.LeaderboardEntryDTO x)
-    // Offset: 0xB41C30
+    // Offset: 0xB3FC30
     ::CsString* $GetLeaderboardEntriesAsync$b__12_0(LeaderboardsDTO::LeaderboardEntryDTO* x);
     // public System.Void .ctor()
-    // Offset: 0xB41C28
+    // Offset: 0xB3FC28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HTTPLeaderboardsModel::$$c* New_ctor();
   }; // HTTPLeaderboardsModel/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel::$$c*, "", "HTTPLeaderboardsModel/<>c");
 #pragma pack(pop)

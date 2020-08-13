@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: GameplaySetupViewController
 #include "GlobalNamespace/GameplaySetupViewController.hpp"
 // Completed includes
@@ -37,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::GameObject* gameObject;
     // public System.Void .ctor(System.String title, IRefreshable refreshable, UnityEngine.GameObject gameObject)
-    // Offset: 0xB4080C
+    // Offset: 0xB3E80C
     static GameplaySetupViewController::Panel* New_ctor(::CsString* title, GlobalNamespace::IRefreshable* refreshable, UnityEngine::GameObject* gameObject);
   }; // GameplaySetupViewController/Panel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController::Panel*, "", "GameplaySetupViewController/Panel");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -43,34 +41,34 @@ namespace System::Globalization {
     // Set static field: static private System.UInt16[] s_pDigitValues
     static void _set_s_pDigitValues(::Array<uint16_t>* value);
     // static System.Int32 InternalConvertToUtf32(System.String s, System.Int32 index)
-    // Offset: 0xD95068
+    // Offset: 0xDA8AAC
     static int InternalConvertToUtf32(::CsString* s, int index);
     // static System.Boolean IsWhiteSpace(System.String s, System.Int32 index)
-    // Offset: 0xD9513C
+    // Offset: 0xDA8B80
     static bool IsWhiteSpace(::CsString* s, int index);
     // static System.Boolean IsWhiteSpace(System.Char c)
-    // Offset: 0xD952B8
+    // Offset: 0xDA8CFC
     static bool IsWhiteSpace(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char ch)
-    // Offset: 0xD9532C
+    // Offset: 0xDA8D70
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar ch);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
-    // Offset: 0xD951CC
+    // Offset: 0xDA8C10
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::CsString* s, int index);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.Int32 ch)
-    // Offset: 0xD95390
+    // Offset: 0xDA8DD4
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(int ch);
     // static System.Byte InternalGetCategoryValue(System.Int32 ch, System.Int32 offset)
-    // Offset: 0xD95480
+    // Offset: 0xDA8EC4
     static uint8_t InternalGetCategoryValue(int ch, int offset);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.String value, System.Int32 index)
-    // Offset: 0xD95400
+    // Offset: 0xDA8E44
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::CsString* value, int index);
     // static private System.Void .cctor()
-    // Offset: 0xD95574
+    // Offset: 0xDA8FB8
     static void _cctor();
   }; // System.Globalization.CharUnicodeInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo*, "System.Globalization", "CharUnicodeInfo");
 #pragma pack(pop)

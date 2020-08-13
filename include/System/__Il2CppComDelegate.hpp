@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.__Il2CppComObject
 #include "System/__Il2CppComObject.hpp"
 // Completed includes
@@ -13,12 +14,12 @@ namespace System {
   class __Il2CppComDelegate : public System::__Il2CppComObject {
     public:
     // protected override System.Void Finalize()
-    // Offset: 0x178A16C
+    // Offset: 0x179ABB0
     // Implemented from: System.__Il2CppComObject
     // Base method: System.Void __Il2CppComObject::Finalize()
     void Finalize();
   }; // System.__Il2CppComDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::__Il2CppComDelegate*, "System", "__Il2CppComDelegate");
 #pragma pack(pop)

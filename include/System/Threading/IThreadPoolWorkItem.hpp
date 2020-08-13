@@ -25,6 +25,6 @@ namespace System::Threading {
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.IThreadPoolWorkItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::IThreadPoolWorkItem*, "System.Threading", "IThreadPoolWorkItem");
 #pragma pack(pop)

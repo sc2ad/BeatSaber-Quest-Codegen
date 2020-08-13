@@ -14,16 +14,16 @@ namespace GlobalNamespace {
   class MonobehaviourCallbacksOrderDebuger : public UnityEngine::MonoBehaviour {
     public:
     // protected System.Void Awake()
-    // Offset: 0xCA2C20
+    // Offset: 0xCB5664
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xCA2CC8
+    // Offset: 0xCB570C
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0xCA2D70
+    // Offset: 0xCB57B4
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xCA2E18
+    // Offset: 0xCB585C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -33,6 +33,6 @@ namespace GlobalNamespace {
     static MonobehaviourCallbacksOrderDebuger* New_ctor();
   }; // MonobehaviourCallbacksOrderDebuger
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonobehaviourCallbacksOrderDebuger*, "", "MonobehaviourCallbacksOrderDebuger");
 #pragma pack(pop)

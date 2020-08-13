@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.AndroidJavaProxy
 #include "UnityEngine/AndroidJavaProxy.hpp"
 // Completed includes
@@ -23,13 +24,13 @@ namespace UnityEngine {
     // Offset: 0x20
     UnityEngine::AndroidJavaRunnable* mRunnable;
     // public System.Void .ctor(UnityEngine.AndroidJavaRunnable runnable)
-    // Offset: 0x190D5BC
+    // Offset: 0x191D000
     static AndroidJavaRunnableProxy* New_ctor(UnityEngine::AndroidJavaRunnable* runnable);
     // public System.Void run()
-    // Offset: 0x190D648
+    // Offset: 0x191D08C
     void run();
   }; // UnityEngine.AndroidJavaRunnableProxy
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaRunnableProxy*, "UnityEngine", "AndroidJavaRunnableProxy");
 #pragma pack(pop)

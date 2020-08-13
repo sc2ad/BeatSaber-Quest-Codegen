@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -30,6 +31,6 @@ namespace GlobalNamespace {
     Fovf(float UpTan_ = {}, float DownTan_ = {}, float LeftTan_ = {}, float RightTan_ = {}) : UpTan{UpTan_}, DownTan{DownTan_}, LeftTan{LeftTan_}, RightTan{RightTan_} {}
   }; // OVRPlugin/Fovf
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Fovf, "", "OVRPlugin/Fovf");
 #pragma pack(pop)

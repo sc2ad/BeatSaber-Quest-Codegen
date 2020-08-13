@@ -25,41 +25,41 @@ namespace GlobalNamespace {
     // Offset: 0x28
     int width;
     // public ObstacleType get_obstacleType()
-    // Offset: 0xC1F2F4
+    // Offset: 0xC30D38
     GlobalNamespace::ObstacleType get_obstacleType();
     // private System.Void set_obstacleType(ObstacleType value)
-    // Offset: 0xC1F2FC
+    // Offset: 0xC30D40
     void set_obstacleType(GlobalNamespace::ObstacleType value);
     // public System.Single get_duration()
-    // Offset: 0xC1F304
+    // Offset: 0xC30D48
     float get_duration();
     // private System.Void set_duration(System.Single value)
-    // Offset: 0xC1F30C
+    // Offset: 0xC30D50
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0xC1F314
+    // Offset: 0xC30D58
     int get_width();
     // private System.Void set_width(System.Int32 value)
-    // Offset: 0xC1F31C
+    // Offset: 0xC30D60
     void set_width(int value);
     // public System.Void .ctor(System.Int32 id, System.Single time, System.Int32 lineIndex, ObstacleType obstacleType, System.Single duration, System.Int32 width)
-    // Offset: 0xC1F324
+    // Offset: 0xC30D68
     static ObstacleData* New_ctor(int id, float time, int lineIndex, GlobalNamespace::ObstacleType obstacleType, float duration, int width);
     // public System.Void UpdateDuration(System.Single duration)
-    // Offset: 0xC1F37C
+    // Offset: 0xC30DC0
     void UpdateDuration(float duration);
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0xC1F384
+    // Offset: 0xC30DC8
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
     // public override System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0xC1F424
+    // Offset: 0xC30E68
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);
   }; // ObstacleData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleData*, "", "ObstacleData");
 #pragma pack(pop)

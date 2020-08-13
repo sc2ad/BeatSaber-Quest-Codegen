@@ -30,13 +30,13 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers;
     // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> handlers)
-    // Offset: 0xD505A0
+    // Offset: 0xD63FE4
     void Construct(System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler*>* handlers);
     // public System.Void OnAnimatorMove()
-    // Offset: 0xD505A8
+    // Offset: 0xD63FEC
     void OnAnimatorMove();
     // public System.Void .ctor()
-    // Offset: 0xD50708
+    // Offset: 0xD6414C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -46,6 +46,6 @@ namespace Zenject {
     static AnimatorMoveHandlerManager* New_ctor();
   }; // Zenject.AnimatorMoveHandlerManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorMoveHandlerManager*, "Zenject", "AnimatorMoveHandlerManager");
 #pragma pack(pop)

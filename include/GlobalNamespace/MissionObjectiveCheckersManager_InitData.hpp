@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MissionObjectiveCheckersManager
 #include "GlobalNamespace/MissionObjectiveCheckersManager.hpp"
 // Completed includes
@@ -26,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Array<GlobalNamespace::MissionObjective*>* missionObjectives;
     // public System.Void .ctor(MissionObjective[] missionObjectives)
-    // Offset: 0xBF6F50
+    // Offset: 0xC08994
     static MissionObjectiveCheckersManager::InitData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives);
   }; // MissionObjectiveCheckersManager/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager::InitData*, "", "MissionObjectiveCheckersManager/InitData");
 #pragma pack(pop)

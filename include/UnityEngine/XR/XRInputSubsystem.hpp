@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.IntegratedSubsystem`1
 #include "UnityEngine/IntegratedSubsystem_1.hpp"
 // Completed includes
@@ -33,13 +34,13 @@ namespace UnityEngine::XR {
     // Offset: 0x28
     System::Action_1<UnityEngine::XR::XRInputSubsystem*>* boundaryChanged;
     // static private System.Void InvokeTrackingOriginUpdatedEvent(System.IntPtr internalPtr)
-    // Offset: 0x194C1FC
+    // Offset: 0x195EC40
     static void InvokeTrackingOriginUpdatedEvent(System::IntPtr internalPtr);
     // static private System.Void InvokeBoundaryChangedEvent(System.IntPtr internalPtr)
-    // Offset: 0x194C2C4
+    // Offset: 0x195ED08
     static void InvokeBoundaryChangedEvent(System::IntPtr internalPtr);
     // public System.Void .ctor()
-    // Offset: 0x194C38C
+    // Offset: 0x195EDD0
     // Implemented from: UnityEngine.IntegratedSubsystem`1
     // Base method: System.Void IntegratedSubsystem`1::.ctor()
     // Base method: System.Void IntegratedSubsystem::.ctor()
@@ -47,6 +48,6 @@ namespace UnityEngine::XR {
     static XRInputSubsystem* New_ctor();
   }; // UnityEngine.XR.XRInputSubsystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRInputSubsystem*, "UnityEngine.XR", "XRInputSubsystem");
 #pragma pack(pop)

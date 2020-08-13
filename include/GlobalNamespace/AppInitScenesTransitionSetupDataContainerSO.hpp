@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::AppInitScenesTransitionSetupDataSO* appInitScenesTransitionSetupData;
     // public System.Void .ctor()
-    // Offset: 0x196D948
+    // Offset: 0xB85C44
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -33,6 +33,6 @@ namespace GlobalNamespace {
     static AppInitScenesTransitionSetupDataContainerSO* New_ctor();
   }; // AppInitScenesTransitionSetupDataContainerSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*, "", "AppInitScenesTransitionSetupDataContainerSO");
 #pragma pack(pop)

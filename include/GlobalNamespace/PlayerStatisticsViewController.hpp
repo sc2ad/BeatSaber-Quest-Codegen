@@ -79,35 +79,35 @@ namespace GlobalNamespace {
     // Offset: 0xD0
     ::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>* statsScopeDatas;
     // private System.Void UpdateView(PlayerAllOverallStatsData/PlayerOverallStatsData playerOverallStatsData)
-    // Offset: 0xC068E4
+    // Offset: 0xC18328
     void UpdateView(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* playerOverallStatsData);
     // private System.Void HandleStatsScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0xC06EF4
+    // Offset: 0xC18938
     void HandleStatsScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_0()
-    // Offset: 0xC06F90
+    // Offset: 0xC189D4
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_0();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_1()
-    // Offset: 0xC06FC0
+    // Offset: 0xC18A04
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_1();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_2()
-    // Offset: 0xC06FF0
+    // Offset: 0xC18A34
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_2();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_3()
-    // Offset: 0xC07020
+    // Offset: 0xC18A64
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC06460
+    // Offset: 0xC17EA4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xC06E48
+    // Offset: 0xC1888C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0xC06F88
+    // Offset: 0xC189CC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -118,6 +118,6 @@ namespace GlobalNamespace {
     static PlayerStatisticsViewController* New_ctor();
   }; // PlayerStatisticsViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController*, "", "PlayerStatisticsViewController");
 #pragma pack(pop)

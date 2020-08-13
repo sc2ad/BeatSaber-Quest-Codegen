@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Globalization.CharUnicodeInfo
 #include "System/Globalization/CharUnicodeInfo.hpp"
 // Completed includes
@@ -16,10 +14,10 @@ namespace System::Globalization {
   class CharUnicodeInfo::Debug : public ::CsObject {
     public:
     // static System.Void Assert(System.Boolean condition, System.String message)
-    // Offset: 0xD95138
+    // Offset: 0xDA8B7C
     static void Assert_(bool condition, ::CsString* message);
   }; // System.Globalization.CharUnicodeInfo/Debug
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo::Debug*, "System.Globalization", "CharUnicodeInfo/Debug");
 #pragma pack(pop)

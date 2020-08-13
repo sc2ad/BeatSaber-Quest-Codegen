@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: TMPro.TMP_Text
 #include "TMPro/TMP_Text.hpp"
 // Completed includes
@@ -28,6 +26,6 @@ namespace TMPro {
     UnicodeChar(int unicode_ = {}, int stringIndex_ = {}, int length_ = {}) : unicode{unicode_}, stringIndex{stringIndex_}, length{length_} {}
   }; // TMPro.TMP_Text/UnicodeChar
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::UnicodeChar, "TMPro", "TMP_Text/UnicodeChar");
 #pragma pack(pop)

@@ -35,28 +35,28 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float feverTextRectWidth;
     // protected System.Void Start()
-    // Offset: 0xBD740C
+    // Offset: 0xBE9E50
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBD75A4
+    // Offset: 0xBE9FE8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBD76FC
+    // Offset: 0xBEA140
     void Update();
     // private System.Void SetProgress(System.Single progress)
-    // Offset: 0xBD7540
+    // Offset: 0xBE9F84
     void SetProgress(float progress);
     // private System.Void HandleFeverModeDidStart()
-    // Offset: 0xBD774C
+    // Offset: 0xBEA190
     void HandleFeverModeDidStart();
     // private System.Void HandleFeverModeDidFinish()
-    // Offset: 0xBD7754
+    // Offset: 0xBEA198
     void HandleFeverModeDidFinish();
     // private System.Void HandleFeverModeChargeProgressDidChange(System.Single progress)
-    // Offset: 0xBD775C
+    // Offset: 0xBEA1A0
     void HandleFeverModeChargeProgressDidChange(float progress);
     // public System.Void .ctor()
-    // Offset: 0xBD7760
+    // Offset: 0xBEA1A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace GlobalNamespace {
     static FeverModeUIPanel* New_ctor();
   }; // FeverModeUIPanel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FeverModeUIPanel*, "", "FeverModeUIPanel");
 #pragma pack(pop)

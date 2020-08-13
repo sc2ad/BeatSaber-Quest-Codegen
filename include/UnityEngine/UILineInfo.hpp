@@ -28,6 +28,6 @@ namespace UnityEngine {
     UILineInfo(int startCharIdx_ = {}, int height_ = {}, float topY_ = {}, float leading_ = {}) : startCharIdx{startCharIdx_}, height{height_}, topY{topY_}, leading{leading_} {}
   }; // UnityEngine.UILineInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UILineInfo, "UnityEngine", "UILineInfo");
 #pragma pack(pop)

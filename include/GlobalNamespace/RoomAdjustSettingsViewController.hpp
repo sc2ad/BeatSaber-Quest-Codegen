@@ -100,51 +100,51 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void Move(UnityEngine.Vector3 move)
-    // Offset: 0xC0CB34
+    // Offset: 0xC1E578
     void Move(UnityEngine::Vector3 move);
     // private System.Void Rotate(System.Single rotation)
-    // Offset: 0xC0CC04
+    // Offset: 0xC1E648
     void Rotate(float rotation);
     // private System.Void ResetRoom()
-    // Offset: 0xC0CC78
+    // Offset: 0xC1E6BC
     void ResetRoom();
     // private System.Void RefreshTexts()
-    // Offset: 0xC0C9B8
+    // Offset: 0xC1E3FC
     void RefreshTexts();
     // private System.Void <DidActivate>b__18_0()
-    // Offset: 0xC0CD34
+    // Offset: 0xC1E778
     void $DidActivate$b__18_0();
     // private System.Void <DidActivate>b__18_1()
-    // Offset: 0xC0CD8C
+    // Offset: 0xC1E7D0
     void $DidActivate$b__18_1();
     // private System.Void <DidActivate>b__18_2()
-    // Offset: 0xC0CDE4
+    // Offset: 0xC1E828
     void $DidActivate$b__18_2();
     // private System.Void <DidActivate>b__18_3()
-    // Offset: 0xC0CE3C
+    // Offset: 0xC1E880
     void $DidActivate$b__18_3();
     // private System.Void <DidActivate>b__18_4()
-    // Offset: 0xC0CE94
+    // Offset: 0xC1E8D8
     void $DidActivate$b__18_4();
     // private System.Void <DidActivate>b__18_5()
-    // Offset: 0xC0CEEC
+    // Offset: 0xC1E930
     void $DidActivate$b__18_5();
     // private System.Void <DidActivate>b__18_6()
-    // Offset: 0xC0CF44
+    // Offset: 0xC1E988
     void $DidActivate$b__18_6();
     // private System.Void <DidActivate>b__18_7()
-    // Offset: 0xC0CF4C
+    // Offset: 0xC1E990
     void $DidActivate$b__18_7();
     // private System.Void <DidActivate>b__18_8()
-    // Offset: 0xC0CF54
+    // Offset: 0xC1E998
     void $DidActivate$b__18_8();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC0C6EC
+    // Offset: 0xC1E130
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xC0CD2C
+    // Offset: 0xC1E770
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -155,6 +155,6 @@ namespace GlobalNamespace {
     static RoomAdjustSettingsViewController* New_ctor();
   }; // RoomAdjustSettingsViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RoomAdjustSettingsViewController*, "", "RoomAdjustSettingsViewController");
 #pragma pack(pop)

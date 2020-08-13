@@ -35,40 +35,40 @@ namespace UnityEngine::TextCore {
     // Creating value type constructor for type: GlyphMetrics
     GlyphMetrics(float m_Width_ = {}, float m_Height_ = {}, float m_HorizontalBearingX_ = {}, float m_HorizontalBearingY_ = {}, float m_HorizontalAdvance_ = {}) : m_Width{m_Width_}, m_Height{m_Height_}, m_HorizontalBearingX{m_HorizontalBearingX_}, m_HorizontalBearingY{m_HorizontalBearingY_}, m_HorizontalAdvance{m_HorizontalAdvance_} {}
     // public System.Single get_width()
-    // Offset: 0xA5ADC4
+    // Offset: 0xA5AE40
     float get_width();
     // public System.Single get_height()
-    // Offset: 0xA5ADCC
+    // Offset: 0xA5AE48
     float get_height();
     // public System.Single get_horizontalBearingX()
-    // Offset: 0xA5ADD4
+    // Offset: 0xA5AE50
     float get_horizontalBearingX();
     // public System.Single get_horizontalBearingY()
-    // Offset: 0xA5ADDC
+    // Offset: 0xA5AE58
     float get_horizontalBearingY();
     // public System.Single get_horizontalAdvance()
-    // Offset: 0xA5ADE4
+    // Offset: 0xA5AE60
     float get_horizontalAdvance();
     // public System.Void .ctor(System.Single width, System.Single height, System.Single bearingX, System.Single bearingY, System.Single advance)
-    // Offset: 0xA5ADEC
+    // Offset: 0xA5AE68
     static GlyphMetrics* New_ctor(float width, float height, float bearingX, float bearingY, float advance);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5ADFC
+    // Offset: 0xA5AE78
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5AE04
+    // Offset: 0xA5AE80
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.TextCore.GlyphMetrics other)
-    // Offset: 0xA5AE0C
+    // Offset: 0xA5AE88
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.TextCore.GlyphMetrics other)
     bool Equals(UnityEngine::TextCore::GlyphMetrics other);
   }; // UnityEngine.TextCore.GlyphMetrics
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");
 #pragma pack(pop)

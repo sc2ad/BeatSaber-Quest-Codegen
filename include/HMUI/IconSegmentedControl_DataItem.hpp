@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HMUI.IconSegmentedControl
 #include "HMUI/IconSegmentedControl.hpp"
 // Completed includes
@@ -29,22 +27,22 @@ namespace HMUI {
     // Offset: 0x18
     ::CsString* hintText;
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0xECCC68
+    // Offset: 0xEDF6AC
     UnityEngine::Sprite* get_icon();
     // private System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0xECCC70
+    // Offset: 0xEDF6B4
     void set_icon(UnityEngine::Sprite* value);
     // public System.String get_hintText()
-    // Offset: 0xECCC78
+    // Offset: 0xEDF6BC
     ::CsString* get_hintText();
     // private System.Void set_hintText(System.String value)
-    // Offset: 0xECCC80
+    // Offset: 0xEDF6C4
     void set_hintText(::CsString* value);
     // public System.Void .ctor(UnityEngine.Sprite icon, System.String hintText)
-    // Offset: 0xECCC88
+    // Offset: 0xEDF6CC
     static IconSegmentedControl::DataItem* New_ctor(UnityEngine::Sprite* icon, ::CsString* hintText);
   }; // HMUI.IconSegmentedControl/DataItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl::DataItem*, "HMUI", "IconSegmentedControl/DataItem");
 #pragma pack(pop)

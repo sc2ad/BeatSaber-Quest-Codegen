@@ -14,13 +14,13 @@ namespace System::Reflection {
   class RuntimeParameterInfo : public System::Reflection::ParameterInfo {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x113DA28
+    // Offset: 0x114F46C
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Void ParameterInfo::.ctor()
     // Base method: System.Void Object::.ctor()
     static RuntimeParameterInfo* New_ctor();
   }; // System.Reflection.RuntimeParameterInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeParameterInfo*, "System.Reflection", "RuntimeParameterInfo");
 #pragma pack(pop)

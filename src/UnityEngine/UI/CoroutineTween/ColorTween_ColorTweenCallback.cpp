@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback
 #include "UnityEngine/UI/CoroutineTween/ColorTween_ColorTweenCallback.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

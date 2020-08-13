@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float smooth;
     // protected System.Void Update()
-    // Offset: 0xC9C3E8
+    // Offset: 0xCAEE2C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC9C5C4
+    // Offset: 0xCAF008
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -40,6 +40,6 @@ namespace GlobalNamespace {
     static FlexyFollowAndRotate* New_ctor();
   }; // FlexyFollowAndRotate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollowAndRotate*, "", "FlexyFollowAndRotate");
 #pragma pack(pop)

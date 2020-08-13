@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Reflection.ResourceLocation
 #include "System/Reflection/ResourceLocation.hpp"
 // Completed includes
@@ -32,19 +30,19 @@ namespace System::Reflection {
     // Offset: 0x20
     System::Reflection::ResourceLocation resourceLocation;
     // public System.Void .ctor(System.Reflection.Assembly containingAssembly, System.String containingFileName, System.Reflection.ResourceLocation resourceLocation)
-    // Offset: 0x134C79C
+    // Offset: 0x135F1E0
     static ManifestResourceInfo* New_ctor(System::Reflection::Assembly* containingAssembly, ::CsString* containingFileName, System::Reflection::ResourceLocation resourceLocation);
     // public System.Reflection.Assembly get_ReferencedAssembly()
-    // Offset: 0x1353E88
+    // Offset: 0x13668CC
     System::Reflection::Assembly* get_ReferencedAssembly();
     // public System.String get_FileName()
-    // Offset: 0x1353E90
+    // Offset: 0x13668D4
     ::CsString* get_FileName();
     // public System.Reflection.ResourceLocation get_ResourceLocation()
-    // Offset: 0x1353E98
+    // Offset: 0x13668DC
     System::Reflection::ResourceLocation get_ResourceLocation();
   }; // System.Reflection.ManifestResourceInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ManifestResourceInfo*, "System.Reflection", "ManifestResourceInfo");
 #pragma pack(pop)

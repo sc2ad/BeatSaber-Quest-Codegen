@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PauseMenuManager
 #include "GlobalNamespace/PauseMenuManager.hpp"
 // Completed includes
@@ -28,10 +26,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::CsString* difficultyName;
     // public System.Void .ctor(System.String backButtonText, System.String songName, System.String songSubName, System.String difficultyName)
-    // Offset: 0xBBFD30
+    // Offset: 0xBD2774
     static PauseMenuManager::InitData* New_ctor(::CsString* backButtonText, ::CsString* songName, ::CsString* songSubName, ::CsString* difficultyName);
   }; // PauseMenuManager/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager::InitData*, "", "PauseMenuManager/InitData");
 #pragma pack(pop)

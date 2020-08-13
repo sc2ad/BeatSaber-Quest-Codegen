@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::PointLight* pointLight;
     // protected System.Void LateUpdate()
-    // Offset: 0x1816574
+    // Offset: 0x1826FB8
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x18165A4
+    // Offset: 0x1826FE8
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -38,6 +38,6 @@ namespace GlobalNamespace {
     static PointLightWithIds* New_ctor();
   }; // PointLightWithIds
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PointLightWithIds*, "", "PointLightWithIds");
 #pragma pack(pop)

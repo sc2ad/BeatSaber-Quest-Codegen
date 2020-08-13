@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     HMUI::HierarchyManager* hierarchyManager;
     // public System.Collections.IEnumerator Start()
-    // Offset: 0xB43AFC
+    // Offset: 0xB41AFC
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xB43BA4
+    // Offset: 0xB41BA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,6 +57,6 @@ namespace GlobalNamespace {
     static HealthWarningSceneStart* New_ctor();
   }; // HealthWarningSceneStart
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneStart*, "", "HealthWarningSceneStart");
 #pragma pack(pop)

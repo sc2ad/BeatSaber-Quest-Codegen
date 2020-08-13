@@ -74,6 +74,6 @@ namespace System::Xml {
     ElementProperties(uint value_ = {}) : value{value_} {}
   }; // System.Xml.ElementProperties
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ElementProperties, "System.Xml", "ElementProperties");
 #pragma pack(pop)

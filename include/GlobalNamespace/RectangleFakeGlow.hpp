@@ -45,25 +45,25 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _sizeParamsID
     static void _set__sizeParamsID(int value);
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xC0A58C
+    // Offset: 0xC1BFD0
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xC0A668
+    // Offset: 0xC1C0AC
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0xC0A674
+    // Offset: 0xC1C0B8
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xC0A6EC
+    // Offset: 0xC1C130
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC0A8EC
+    // Offset: 0xC1C330
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0xC0A76C
+    // Offset: 0xC1C1B0
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0xC0A964
+    // Offset: 0xC1C3A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -72,12 +72,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RectangleFakeGlow* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xC0A9C8
+    // Offset: 0xC1C40C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // RectangleFakeGlow
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlow*, "", "RectangleFakeGlow");
 #pragma pack(pop)

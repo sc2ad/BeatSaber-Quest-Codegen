@@ -44,6 +44,6 @@ namespace Oculus::Platform {
     KeyValuePairType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.KeyValuePairType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::KeyValuePairType, "Oculus.Platform", "KeyValuePairType");
 #pragma pack(pop)

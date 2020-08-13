@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.RootResolveMethods
 #include "Zenject/RootResolveMethods.hpp"
 // Including type: Zenject.ValidationErrorResponses
@@ -44,33 +42,33 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::ZenjectSettings::SignalSettings* signalSettings;
     // public System.Void .ctor(Zenject.ValidationErrorResponses validationErrorResponse, Zenject.RootResolveMethods validationRootResolveMethod, System.Boolean displayWarningWhenResolvingDuringInstall, System.Boolean ensureDeterministicDestructionOrderOnApplicationQuit, Zenject.ZenjectSettings/SignalSettings signalSettings)
-    // Offset: 0x19295B8
+    // Offset: 0x193BFFC
     static ZenjectSettings* New_ctor(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::ZenjectSettings::SignalSettings* signalSettings);
     // public Zenject.ZenjectSettings/SignalSettings get_Signals()
-    // Offset: 0x1929698
+    // Offset: 0x193C0DC
     Zenject::ZenjectSettings::SignalSettings* get_Signals();
     // public Zenject.ValidationErrorResponses get_ValidationErrorResponse()
-    // Offset: 0x19296A0
+    // Offset: 0x193C0E4
     Zenject::ValidationErrorResponses get_ValidationErrorResponse();
     // public Zenject.RootResolveMethods get_ValidationRootResolveMethod()
-    // Offset: 0x19296A8
+    // Offset: 0x193C0EC
     Zenject::RootResolveMethods get_ValidationRootResolveMethod();
     // public System.Boolean get_DisplayWarningWhenResolvingDuringInstall()
-    // Offset: 0x19296B0
+    // Offset: 0x193C0F4
     bool get_DisplayWarningWhenResolvingDuringInstall();
     // public System.Boolean get_EnsureDeterministicDestructionOrderOnApplicationQuit()
-    // Offset: 0x19296B8
+    // Offset: 0x193C0FC
     bool get_EnsureDeterministicDestructionOrderOnApplicationQuit();
     // static private System.Void .cctor()
-    // Offset: 0x19296C0
+    // Offset: 0x193C104
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1929680
+    // Offset: 0x193C0C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ZenjectSettings* New_ctor();
   }; // Zenject.ZenjectSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings*, "Zenject", "ZenjectSettings");
 #pragma pack(pop)

@@ -21,19 +21,19 @@ namespace System::Threading {
   class EventWaitHandle : public System::Threading::WaitHandle {
     public:
     // public System.Void .ctor(System.Boolean initialState, System.Threading.EventResetMode mode)
-    // Offset: 0x13C2CF4
+    // Offset: 0x13D3738
     static EventWaitHandle* New_ctor(bool initialState, System::Threading::EventResetMode mode);
     // public System.Void .ctor(System.Boolean initialState, System.Threading.EventResetMode mode, System.String name)
-    // Offset: 0x13C2D00
+    // Offset: 0x13D3744
     static EventWaitHandle* New_ctor(bool initialState, System::Threading::EventResetMode mode, ::CsString* name);
     // public System.Boolean Reset()
-    // Offset: 0x13C2FC8
+    // Offset: 0x13D3A0C
     bool Reset();
     // public System.Boolean Set()
-    // Offset: 0x13C1F24
+    // Offset: 0x13D2968
     bool Set();
   }; // System.Threading.EventWaitHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::EventWaitHandle*, "System.Threading", "EventWaitHandle");
 #pragma pack(pop)

@@ -78,35 +78,35 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 _selectedSettingsSubMenuInfoIdx
     static void _set__selectedSettingsSubMenuInfoIdx(int value);
     // public System.Void add_didFinishEvent(System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> value)
-    // Offset: 0xC18A38
+    // Offset: 0xC2A47C
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> value)
-    // Offset: 0xC18ADC
+    // Offset: 0xC2A520
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);
     // private System.Void HandleDidSelectSettingsSubMenu(SettingsSubMenuInfo settingsSubMenuInfo, System.Int32 idx)
-    // Offset: 0xC19048
+    // Offset: 0xC2AA8C
     void HandleDidSelectSettingsSubMenu(GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int idx);
     // private System.Void HandleSettingsNavigationControllerDidFinish(SettingsNavigationController/FinishAction finishAction)
-    // Offset: 0xC19110
+    // Offset: 0xC2AB54
     void HandleSettingsNavigationControllerDidFinish(GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
     // private System.Void ApplySettings()
-    // Offset: 0xC191EC
+    // Offset: 0xC2AC30
     void ApplySettings();
     // private System.Void CancelSettings()
-    // Offset: 0xC1922C
+    // Offset: 0xC2AC70
     void CancelSettings();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xC18B80
+    // Offset: 0xC2A5C4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    // Offset: 0xC18EB0
+    // Offset: 0xC2A8F4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
     void DidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0xC1924C
+    // Offset: 0xC2AC90
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -116,13 +116,13 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SettingsFlowCoordinator* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xC19254
+    // Offset: 0xC2AC98
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SettingsFlowCoordinator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator*, "", "SettingsFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator::FinishAction, "", "SettingsFlowCoordinator/FinishAction");
 #pragma pack(pop)

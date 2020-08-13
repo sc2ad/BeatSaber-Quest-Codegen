@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.TestCommand
 #include "NUnit/Framework/Internal/Commands/TestCommand.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
@@ -43,23 +44,23 @@ namespace UnityEngine::TestTools {
     // Offset: 0x18
     NUnit::Framework::Internal::TestMethod* testMethod;
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0xE1EA74
+    // Offset: 0xE314B8
     static EnumerableTestMethodCommand* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod);
     // static private System.Collections.IEnumerator ExecuteEnumerableAndRecordExceptions(System.Collections.IEnumerator enumerator, NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0xE29588
+    // Offset: 0xE3BFCC
     static System::Collections::IEnumerator* ExecuteEnumerableAndRecordExceptions(System::Collections::IEnumerator* enumerator, NUnit::Framework::Internal::ITestExecutionContext* context);
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0xE294A8
+    // Offset: 0xE3BEEC
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
     // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0xE2964C
+    // Offset: 0xE3C090
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.EnumerableTestMethodCommand
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableTestMethodCommand*, "UnityEngine.TestTools", "EnumerableTestMethodCommand");
 #pragma pack(pop)

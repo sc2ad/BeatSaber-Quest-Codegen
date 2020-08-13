@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.PenetrationAvoidance
 #include "RootMotion/FinalIK/PenetrationAvoidance.hpp"
 // Including type: UnityEngine.LayerMask
@@ -62,21 +60,21 @@ namespace RootMotion::FinalIK {
     // Offset: 0x54
     UnityEngine::Vector3 offsetV;
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x121B4B0
+    // Offset: 0x122CEF4
     void Solve(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // private UnityEngine.Vector3 GetOffsetTarget(RootMotion.FinalIK.IKSolverFullBodyBiped solver)
-    // Offset: 0x121B6BC
+    // Offset: 0x122D100
     UnityEngine::Vector3 GetOffsetTarget(RootMotion::FinalIK::IKSolverFullBodyBiped* solver);
     // private UnityEngine.Vector3 Raycast(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
-    // Offset: 0x121B854
+    // Offset: 0x122D298
     UnityEngine::Vector3 Raycast(UnityEngine::Vector3 from, UnityEngine::Vector3 to);
     // public System.Void .ctor()
-    // Offset: 0x121BAC8
+    // Offset: 0x122D50C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PenetrationAvoidance::Avoider* New_ctor();
   }; // RootMotion.FinalIK.PenetrationAvoidance/Avoider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance::Avoider*, "RootMotion.FinalIK", "PenetrationAvoidance/Avoider");
 #pragma pack(pop)

@@ -29,33 +29,33 @@ namespace UnityEngine::Timeline {
     // Offset: 0x20
     UnityEngine::Timeline::TrackAsset* parent;
     // private System.Void set_parent(UnityEngine.Timeline.TrackAsset value)
-    // Offset: 0x1085C80
+    // Offset: 0x10956C4
     void set_parent(UnityEngine::Timeline::TrackAsset* value);
     // public System.Void OnInitialize(UnityEngine.Timeline.TrackAsset aPent)
-    // Offset: 0x1085E84
+    // Offset: 0x10958C8
     void OnInitialize(UnityEngine::Timeline::TrackAsset* aPent);
     // public UnityEngine.Timeline.TrackAsset get_parent()
-    // Offset: 0x1085C78
+    // Offset: 0x10956BC
     // Implemented from: UnityEngine.Timeline.IMarker
     // Base method: UnityEngine.Timeline.TrackAsset IMarker::get_parent()
     UnityEngine::Timeline::TrackAsset* get_parent();
     // public System.Double get_time()
-    // Offset: 0x1085C88
+    // Offset: 0x10956CC
     // Implemented from: UnityEngine.Timeline.IMarker
     // Base method: System.Double IMarker::get_time()
     double get_time();
     // public System.Void set_time(System.Double value)
-    // Offset: 0x1085C90
+    // Offset: 0x10956D4
     // Implemented from: UnityEngine.Timeline.IMarker
     // Base method: System.Void IMarker::set_time(System.Double value)
     void set_time(double value);
     // private System.Void UnityEngine.Timeline.IMarker.Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x1085D10
+    // Offset: 0x1095754
     // Implemented from: UnityEngine.Timeline.IMarker
     // Base method: System.Void IMarker::Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
     void UnityEngine_Timeline_IMarker_Initialize(UnityEngine::Timeline::TrackAsset* parentTrack);
     // protected System.Void .ctor()
-    // Offset: 0x1085E88
+    // Offset: 0x10958CC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -63,6 +63,6 @@ namespace UnityEngine::Timeline {
     static Marker* New_ctor();
   }; // UnityEngine.Timeline.Marker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Marker*, "UnityEngine.Timeline", "Marker");
 #pragma pack(pop)

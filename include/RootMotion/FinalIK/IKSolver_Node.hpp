@@ -5,6 +5,8 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: RootMotion.FinalIK.IKSolver
+#include "RootMotion/FinalIK/IKSolver.hpp"
 // Including type: RootMotion.FinalIK.IKSolver/Point
 #include "RootMotion/FinalIK/IKSolver_Point.hpp"
 // Completed includes
@@ -33,19 +35,19 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     UnityEngine::Vector3 offset;
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x136EC5C
+    // Offset: 0x13816A0
     static IKSolver::Node* New_ctor(UnityEngine::Transform* transform);
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x136EC8C
+    // Offset: 0x13816D0
     static IKSolver::Node* New_ctor(UnityEngine::Transform* transform, float weight);
     // public System.Void .ctor()
-    // Offset: 0x136EC58
+    // Offset: 0x138169C
     // Implemented from: RootMotion.FinalIK.IKSolver/Point
     // Base method: System.Void Point::.ctor()
     // Base method: System.Void Object::.ctor()
     static IKSolver::Node* New_ctor();
   }; // RootMotion.FinalIK.IKSolver/Node
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Node*, "RootMotion.FinalIK", "IKSolver/Node");
 #pragma pack(pop)

@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::ObstacleExecutionRating::Rating rating;
     // public ObstacleExecutionRating/Rating get_rating()
-    // Offset: 0xC1F67C
+    // Offset: 0xC310C0
     GlobalNamespace::ObstacleExecutionRating::Rating get_rating();
     // public System.Void set_rating(ObstacleExecutionRating/Rating value)
-    // Offset: 0xC1F684
+    // Offset: 0xC310C8
     void set_rating(GlobalNamespace::ObstacleExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, ObstacleExecutionRating/Rating rating)
-    // Offset: 0xC1F68C
+    // Offset: 0xC310D0
     static ObstacleExecutionRating* New_ctor(float time, GlobalNamespace::ObstacleExecutionRating::Rating rating);
   }; // ObstacleExecutionRating
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating*, "", "ObstacleExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating::Rating, "", "ObstacleExecutionRating/Rating");
 #pragma pack(pop)

@@ -32,6 +32,6 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*, "UnityEngine.TestRunner.TestLaunchers", "IRemoteTestResultDataFactory");
 #pragma pack(pop)

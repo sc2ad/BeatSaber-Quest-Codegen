@@ -29,22 +29,22 @@ namespace GlobalNamespace {
     // Offset: 0x40
     ::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>* textValuePairs;
     // protected override System.Boolean GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
-    // Offset: 0xBFA6F4
+    // Offset: 0xC0C138
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0xBFA7DC
+    // Offset: 0xC0C220
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0xBFA870
+    // Offset: 0xC0C2B4
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::CsString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0xBFA8C4
+    // Offset: 0xC0C308
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -56,6 +56,6 @@ namespace GlobalNamespace {
     static NamedIntListSettingsController* New_ctor();
   }; // NamedIntListSettingsController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController*, "", "NamedIntListSettingsController");
 #pragma pack(pop)

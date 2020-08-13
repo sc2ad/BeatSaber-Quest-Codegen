@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: SimpleFileLogger
 #include "GlobalNamespace/SimpleFileLogger.hpp"
+// Including type: UnityEngine.MonoBehaviour
+#include "UnityEngine/MonoBehaviour.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -27,16 +27,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::List_1<::CsString*>* lines;
     // protected System.Void OnDestroy()
-    // Offset: 0xCA775C
+    // Offset: 0xCBA1A0
     void OnDestroy();
     // public System.Void Log(System.String text)
-    // Offset: 0xCA7490
+    // Offset: 0xCB9ED4
     void Log(::CsString* text);
     // public System.Void Clear()
-    // Offset: 0xCA76E8
+    // Offset: 0xCBA12C
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0xCA77B0
+    // Offset: 0xCBA1F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -46,6 +46,6 @@ namespace GlobalNamespace {
     static SimpleFileLogger::MonoLogger* New_ctor();
   }; // SimpleFileLogger/MonoLogger
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleFileLogger::MonoLogger*, "", "SimpleFileLogger/MonoLogger");
 #pragma pack(pop)

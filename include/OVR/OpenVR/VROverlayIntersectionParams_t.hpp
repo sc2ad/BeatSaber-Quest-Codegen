@@ -30,6 +30,6 @@ namespace OVR::OpenVR {
     VROverlayIntersectionParams_t(OVR::OpenVR::HmdVector3_t vSource_ = {}, OVR::OpenVR::HmdVector3_t vDirection_ = {}, OVR::OpenVR::ETrackingUniverseOrigin eOrigin_ = {}) : vSource{vSource_}, vDirection{vDirection_}, eOrigin{eOrigin_} {}
   }; // OVR.OpenVR.VROverlayIntersectionParams_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionParams_t, "OVR.OpenVR", "VROverlayIntersectionParams_t");
 #pragma pack(pop)

@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.Globalization.Unicode.CodePointIndexer
 #include "Mono/Globalization/Unicode/CodePointIndexer.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
@@ -32,10 +33,10 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: TableRange
     TableRange(int Start_ = {}, int End_ = {}, int Count_ = {}, int IndexStart_ = {}, int IndexEnd_ = {}) : Start{Start_}, End{End_}, Count{Count_}, IndexStart{IndexStart_}, IndexEnd{IndexEnd_} {}
     // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
-    // Offset: 0xA3CADC
+    // Offset: 0xA3CB58
     static CodePointIndexer::TableRange* New_ctor(int start, int end, int indexStart);
   }; // Mono.Globalization.Unicode.CodePointIndexer/TableRange
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer::TableRange, "Mono.Globalization.Unicode", "CodePointIndexer/TableRange");
 #pragma pack(pop)

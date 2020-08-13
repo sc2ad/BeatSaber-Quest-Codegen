@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Mono.Globalization.Unicode.MSCompatUnicodeTable
 #include "Mono/Globalization/Unicode/MSCompatUnicodeTable.hpp"
 // Completed includes
@@ -37,18 +35,18 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static public System.Comparison`1<Mono.Globalization.Unicode.Level2Map> <>9__17_0
     static void _set_$$9__17_0(System::Comparison_1<Mono::Globalization::Unicode::Level2Map*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x109BB5C
+    // Offset: 0x10AC5A0
     static void _cctor();
     // System.Int32 <BuildTailoringTables>b__17_0(Mono.Globalization.Unicode.Level2Map a, Mono.Globalization.Unicode.Level2Map b)
-    // Offset: 0x109BBCC
+    // Offset: 0x10AC610
     int $BuildTailoringTables$b__17_0(Mono::Globalization::Unicode::Level2Map* a, Mono::Globalization::Unicode::Level2Map* b);
     // public System.Void .ctor()
-    // Offset: 0x109BBC4
+    // Offset: 0x10AC608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MSCompatUnicodeTable::$$c* New_ctor();
   }; // Mono.Globalization.Unicode.MSCompatUnicodeTable/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");
 #pragma pack(pop)

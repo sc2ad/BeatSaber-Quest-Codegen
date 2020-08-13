@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: System.IO.SearchPattern2
 #include "System/IO/SearchPattern2.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -52,6 +52,6 @@ namespace System::IO {
     OpCode(int value_ = {}) : value{value_} {}
   }; // System.IO.SearchPattern2/OpCode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2::OpCode, "System.IO", "SearchPattern2/OpCode");
 #pragma pack(pop)

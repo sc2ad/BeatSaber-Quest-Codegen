@@ -38,6 +38,6 @@ namespace System::Threading::Tasks {
     CausalitySynchronousWork(int value_ = {}) : value{value_} {}
   }; // System.Threading.Tasks.CausalitySynchronousWork
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CausalitySynchronousWork, "System.Threading.Tasks", "CausalitySynchronousWork");
 #pragma pack(pop)

@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::MeshRenderer* meshRenderer;
     // protected System.Void OnEnable()
-    // Offset: 0x18144EC
+    // Offset: 0x1824F30
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1814938
+    // Offset: 0x182537C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x181498C
+    // Offset: 0x18253D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     static OnWillRenderObjectTrigger* New_ctor();
   }; // OnWillRenderObjectTrigger
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnWillRenderObjectTrigger*, "", "OnWillRenderObjectTrigger");
 #pragma pack(pop)

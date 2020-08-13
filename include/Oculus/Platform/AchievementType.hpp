@@ -44,6 +44,6 @@ namespace Oculus::Platform {
     AchievementType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.AchievementType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AchievementType, "Oculus.Platform", "AchievementType");
 #pragma pack(pop)

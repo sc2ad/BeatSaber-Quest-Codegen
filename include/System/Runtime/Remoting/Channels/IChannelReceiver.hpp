@@ -23,6 +23,6 @@ namespace System::Runtime::Remoting::Channels {
     void StartListening(::CsObject* data);
   }; // System.Runtime.Remoting.Channels.IChannelReceiver
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelReceiver*, "System.Runtime.Remoting.Channels", "IChannelReceiver");
 #pragma pack(pop)

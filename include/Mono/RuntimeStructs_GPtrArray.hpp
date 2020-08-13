@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -31,6 +32,6 @@ namespace Mono {
     GPtrArray(System::IntPtr* data_ = {}, int len_ = {}) : data{data_}, len{len_} {}
   }; // Mono.RuntimeStructs/GPtrArray
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GPtrArray, "Mono", "RuntimeStructs/GPtrArray");
 #pragma pack(pop)

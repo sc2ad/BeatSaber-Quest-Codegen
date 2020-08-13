@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OculusBeatmapDataAssetFileModel
 #include "GlobalNamespace/OculusBeatmapDataAssetFileModel.hpp"
 // Completed includes
@@ -33,10 +31,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS;
     // public System.Void .ctor(System.String levelId, System.String assetBundlePath)
-    // Offset: 0xC21908
+    // Offset: 0xC3334C
     static OculusBeatmapDataAssetFileModel::LevelDownloadingData* New_ctor(::CsString* levelId, ::CsString* assetBundlePath);
   }; // OculusBeatmapDataAssetFileModel/LevelDownloadingData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData*, "", "OculusBeatmapDataAssetFileModel/LevelDownloadingData");
 #pragma pack(pop)

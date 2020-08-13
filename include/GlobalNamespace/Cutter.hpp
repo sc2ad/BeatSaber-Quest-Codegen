@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -49,15 +47,15 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::Cutter::CuttableBySaberSortParamsComparer* comparer;
     // public System.Void Cut(Saber saber, UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, UnityEngine.Vector3 prevTopPos, UnityEngine.Vector3 prevBottomPos)
-    // Offset: 0xBCFE40
+    // Offset: 0xBE2884
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, UnityEngine::Vector3 prevTopPos, UnityEngine::Vector3 prevBottomPos);
     // public System.Void .ctor()
-    // Offset: 0xBCFCCC
+    // Offset: 0xBE2710
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Cutter* New_ctor();
   }; // Cutter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Cutter*, "", "Cutter");
 #pragma pack(pop)

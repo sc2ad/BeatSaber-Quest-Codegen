@@ -86,13 +86,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>* animationHashes;
     // protected System.Void Awake()
-    // Offset: 0x10D8720
+    // Offset: 0x10E9164
     void Awake();
     // public System.Void StartAnimation(ScreenBackButtonAnimationController/AnimationType animationType)
-    // Offset: 0x10CB5C4
+    // Offset: 0x10DC008
     void StartAnimation(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType animationType);
     // public System.Void .ctor()
-    // Offset: 0x10D8740
+    // Offset: 0x10E9184
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     static ScreenBackButtonAnimationController* New_ctor();
   }; // ScreenBackButtonAnimationController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController*, "", "ScreenBackButtonAnimationController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");
 #pragma pack(pop)

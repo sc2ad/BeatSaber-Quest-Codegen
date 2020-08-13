@@ -45,16 +45,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles;
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0xBC8E44
+    // Offset: 0xBDB888
     UnityEngine::Vector3 get_headPos();
     // public System.Collections.Generic.List`1<ObstacleController> get_intersectingObstacles()
-    // Offset: 0xBC8E64
+    // Offset: 0xBDB8A8
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_intersectingObstacles();
     // public System.Void GetObstaclesCointainingPoint(UnityEngine.Vector3 worldPos, System.Collections.Generic.List`1<ObstacleController> obstacleControllers)
-    // Offset: 0xBC8ED4
+    // Offset: 0xBDB918
     void GetObstaclesCointainingPoint(UnityEngine::Vector3 worldPos, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* obstacleControllers);
     // public System.Void .ctor()
-    // Offset: 0xBC908C
+    // Offset: 0xBDBAD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -64,6 +64,6 @@ namespace GlobalNamespace {
     static PlayerHeadAndObstacleInteraction* New_ctor();
   }; // PlayerHeadAndObstacleInteraction
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeadAndObstacleInteraction*, "", "PlayerHeadAndObstacleInteraction");
 #pragma pack(pop)

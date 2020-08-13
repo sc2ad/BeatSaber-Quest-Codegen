@@ -27,36 +27,36 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float duration;
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0xBE7F4C
+    // Offset: 0xBF9990
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0xBE7F54
+    // Offset: 0xBF9998
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public NoteType get_noteType()
-    // Offset: 0xBE7F5C
+    // Offset: 0xBF99A0
     GlobalNamespace::NoteType get_noteType();
     // private System.Void set_noteType(NoteType value)
-    // Offset: 0xBE7F64
+    // Offset: 0xBF99A8
     void set_noteType(GlobalNamespace::NoteType value);
     // public System.Single get_duration()
-    // Offset: 0xBE7F6C
+    // Offset: 0xBF99B0
     float get_duration();
     // private System.Void set_duration(System.Single value)
-    // Offset: 0xBE7F74
+    // Offset: 0xBF99B8
     void set_duration(float value);
     // public System.Void .ctor(System.Int32 id, System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteType noteType, System.Single duration)
-    // Offset: 0xBE7F7C
+    // Offset: 0xBF99C0
     static LongNoteData* New_ctor(int id, float time, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteType noteType, float duration);
     // public System.Void UpdateDuration(System.Single duration)
-    // Offset: 0xBE7FD0
+    // Offset: 0xBF9A14
     void UpdateDuration(float duration);
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0xBE7FD8
+    // Offset: 0xBF9A1C
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
   }; // LongNoteData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LongNoteData*, "", "LongNoteData");
 #pragma pack(pop)

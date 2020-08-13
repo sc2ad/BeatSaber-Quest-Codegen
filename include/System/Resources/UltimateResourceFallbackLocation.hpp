@@ -32,6 +32,6 @@ namespace System::Resources {
     UltimateResourceFallbackLocation(int value_ = {}) : value{value_} {}
   }; // System.Resources.UltimateResourceFallbackLocation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::UltimateResourceFallbackLocation, "System.Resources", "UltimateResourceFallbackLocation");
 #pragma pack(pop)

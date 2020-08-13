@@ -24,23 +24,23 @@ namespace Microsoft::Win32::SafeHandles {
     // Set static field: static Microsoft.Win32.SafeHandles.SafeProcessHandle InvalidHandle
     static void _set_InvalidHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
     // System.Void .ctor(System.IntPtr handle)
-    // Offset: 0xF44C50
+    // Offset: 0xF56694
     static SafeProcessHandle* New_ctor(System::IntPtr handle);
     // static private System.Void .cctor()
-    // Offset: 0xF44C88
+    // Offset: 0xF566CC
     static void _cctor();
     // public System.Void .ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
-    // Offset: 0xF44A84
+    // Offset: 0xF564C8
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
     static SafeProcessHandle* New_ctor(System::IntPtr existingHandle, bool ownsHandle);
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0xF44C80
+    // Offset: 0xF566C4
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // Microsoft.Win32.SafeHandles.SafeProcessHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeProcessHandle*, "Microsoft.Win32.SafeHandles", "SafeProcessHandle");
 #pragma pack(pop)

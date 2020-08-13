@@ -42,13 +42,13 @@ namespace UnityEngine::Playables {
   class PlayableAsset : public UnityEngine::ScriptableObject, public UnityEngine::Playables::IPlayableAsset {
     public:
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x14009E4
+    // Offset: 0x1411428
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // static System.Void Internal_CreatePlayable(UnityEngine.Playables.PlayableAsset asset, UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.IntPtr ptr)
-    // Offset: 0x1400A4C
+    // Offset: 0x1411490
     static void Internal_CreatePlayable(UnityEngine::Playables::PlayableAsset* asset, UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, System::IntPtr ptr);
     // static System.Void Internal_GetPlayableAssetDuration(UnityEngine.Playables.PlayableAsset asset, System.IntPtr ptrToDouble)
-    // Offset: 0x1400B2C
+    // Offset: 0x1411570
     static void Internal_GetPlayableAssetDuration(UnityEngine::Playables::PlayableAsset* asset, System::IntPtr ptrToDouble);
     // public UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     // Offset: 0xFFFFFFFF
@@ -56,12 +56,12 @@ namespace UnityEngine::Playables {
     // Base method: UnityEngine.Playables.Playable IPlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* owner);
     // public System.Double get_duration()
-    // Offset: 0x140097C
+    // Offset: 0x14113C0
     // Implemented from: UnityEngine.Playables.IPlayableAsset
     // Base method: System.Double IPlayableAsset::get_duration()
     double get_duration();
     // protected System.Void .ctor()
-    // Offset: 0x1400B60
+    // Offset: 0x14115A4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -69,6 +69,6 @@ namespace UnityEngine::Playables {
     static PlayableAsset* New_ctor();
   }; // UnityEngine.Playables.PlayableAsset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableAsset*, "UnityEngine.Playables", "PlayableAsset");
 #pragma pack(pop)

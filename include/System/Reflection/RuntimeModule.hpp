@@ -14,13 +14,13 @@ namespace System::Reflection {
   class RuntimeModule : public System::Reflection::Module {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x113D900
+    // Offset: 0x114F344
     // Implemented from: System.Reflection.Module
     // Base method: System.Void Module::.ctor()
     // Base method: System.Void Object::.ctor()
     static RuntimeModule* New_ctor();
   }; // System.Reflection.RuntimeModule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeModule*, "System.Reflection", "RuntimeModule");
 #pragma pack(pop)

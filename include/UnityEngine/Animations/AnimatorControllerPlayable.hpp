@@ -28,26 +28,26 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimatorControllerPlayable
     AnimatorControllerPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5A0F8
+    // Offset: 0xA5A174
     static AnimatorControllerPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetHandle(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5A10C
+    // Offset: 0xA5A188
     void SetHandle(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
-    // Offset: 0x1925C24
+    // Offset: 0x1937668
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA5A100
+    // Offset: 0xA5A17C
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimatorControllerPlayable other)
-    // Offset: 0xA5A114
+    // Offset: 0xA5A190
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimatorControllerPlayable other)
     bool Equals(UnityEngine::Animations::AnimatorControllerPlayable other);
   }; // UnityEngine.Animations.AnimatorControllerPlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimatorControllerPlayable, "UnityEngine.Animations", "AnimatorControllerPlayable");
 #pragma pack(pop)

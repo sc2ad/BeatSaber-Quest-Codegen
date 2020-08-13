@@ -54,6 +54,6 @@ namespace OnlineServices {
     System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(OnlineServices::LevelScoreResultsData levelScoreResultsData, System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.ILeaderboardsModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ILeaderboardsModel*, "OnlineServices", "ILeaderboardsModel");
 #pragma pack(pop)

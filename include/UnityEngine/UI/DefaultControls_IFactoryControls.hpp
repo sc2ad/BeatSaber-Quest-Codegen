@@ -30,6 +30,6 @@ namespace UnityEngine::UI {
     UnityEngine::GameObject* CreateGameObject(::CsString* name, ::Array<System::Type*>* components);
   }; // UnityEngine.UI.DefaultControls/IFactoryControls
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls::IFactoryControls*, "UnityEngine.UI", "DefaultControls/IFactoryControls");
 #pragma pack(pop)

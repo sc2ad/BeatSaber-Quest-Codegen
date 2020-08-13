@@ -26,21 +26,21 @@ namespace Polyglot {
     // Offset: 0x18
     UnityEngine::UI::Dropdown* dropdown;
     // public System.Void Reset()
-    // Offset: 0x18FDBF4
+    // Offset: 0x190C638
     void Reset();
     // public System.Void Start()
-    // Offset: 0x18FDC54
+    // Offset: 0x190C698
     void Start();
     // private System.Void CreateDropdown()
-    // Offset: 0x18FDC84
+    // Offset: 0x190C6C8
     void CreateDropdown();
     // public System.Void OnLocalize()
-    // Offset: 0x18FE174
+    // Offset: 0x190CBB8
     // Implemented from: Polyglot.ILocalize
     // Base method: System.Void ILocalize::OnLocalize()
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x18FE2A8
+    // Offset: 0x190CCEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -50,6 +50,6 @@ namespace Polyglot {
     static LanguageDropdown* New_ctor();
   }; // Polyglot.LanguageDropdown
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageDropdown*, "Polyglot", "LanguageDropdown");
 #pragma pack(pop)

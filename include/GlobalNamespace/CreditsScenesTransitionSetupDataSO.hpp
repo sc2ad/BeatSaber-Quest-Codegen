@@ -25,16 +25,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0xBCDA84
+    // Offset: 0xBE04C8
     void add_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0xBCDB28
+    // Offset: 0xBE056C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void Finish()
-    // Offset: 0xBCD7E4
+    // Offset: 0xBE0228
     void Finish();
     // public System.Void .ctor()
-    // Offset: 0xBCDBCC
+    // Offset: 0xBE0610
     // Implemented from: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
@@ -46,6 +46,6 @@ namespace GlobalNamespace {
     static CreditsScenesTransitionSetupDataSO* New_ctor();
   }; // CreditsScenesTransitionSetupDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsScenesTransitionSetupDataSO*, "", "CreditsScenesTransitionSetupDataSO");
 #pragma pack(pop)

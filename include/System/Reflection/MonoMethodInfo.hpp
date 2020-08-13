@@ -53,37 +53,37 @@ namespace System::Reflection {
     // Creating value type constructor for type: MonoMethodInfo
     MonoMethodInfo(System::Type* parent_ = {}, System::Type* ret_ = {}, System::Reflection::MethodAttributes attrs_ = {}, System::Reflection::MethodImplAttributes iattrs_ = {}, System::Reflection::CallingConventions callconv_ = {}) : parent{parent_}, ret{ret_}, attrs{attrs_}, iattrs{iattrs_}, callconv{callconv_} {}
     // static private System.Void get_method_info(System.IntPtr handle, System.Reflection.MonoMethodInfo info)
-    // Offset: 0x113D690
+    // Offset: 0x114F0D4
     static void get_method_info(System::IntPtr handle, System::Reflection::MonoMethodInfo& info);
     // static private System.Int32 get_method_attributes(System.IntPtr handle)
-    // Offset: 0x113D694
+    // Offset: 0x114F0D8
     static int get_method_attributes(System::IntPtr handle);
     // static System.Reflection.MonoMethodInfo GetMethodInfo(System.IntPtr handle)
-    // Offset: 0x113CF98
+    // Offset: 0x114E9DC
     static System::Reflection::MonoMethodInfo GetMethodInfo(System::IntPtr handle);
     // static System.Type GetDeclaringType(System.IntPtr handle)
-    // Offset: 0x113B76C
+    // Offset: 0x114D1B0
     static System::Type* GetDeclaringType(System::IntPtr handle);
     // static System.Type GetReturnType(System.IntPtr handle)
-    // Offset: 0x113C828
+    // Offset: 0x114E26C
     static System::Type* GetReturnType(System::IntPtr handle);
     // static System.Reflection.MethodAttributes GetAttributes(System.IntPtr handle)
-    // Offset: 0x113B6A4
+    // Offset: 0x114D0E8
     static System::Reflection::MethodAttributes GetAttributes(System::IntPtr handle);
     // static System.Reflection.CallingConventions GetCallingConvention(System.IntPtr handle)
-    // Offset: 0x113B6D8
+    // Offset: 0x114D11C
     static System::Reflection::CallingConventions GetCallingConvention(System::IntPtr handle);
     // static System.Reflection.MethodImplAttributes GetMethodImplementationFlags(System.IntPtr handle)
-    // Offset: 0x113AE54
+    // Offset: 0x114C898
     static System::Reflection::MethodImplAttributes GetMethodImplementationFlags(System::IntPtr handle);
     // static private System.Reflection.ParameterInfo[] get_parameter_info(System.IntPtr handle, System.Reflection.MemberInfo member)
-    // Offset: 0x113D698
+    // Offset: 0x114F0DC
     static ::Array<System::Reflection::ParameterInfo*>* get_parameter_info(System::IntPtr handle, System::Reflection::MemberInfo* member);
     // static System.Reflection.ParameterInfo[] GetParametersInfo(System.IntPtr handle, System.Reflection.MemberInfo member)
-    // Offset: 0x113AE8C
+    // Offset: 0x114C8D0
     static ::Array<System::Reflection::ParameterInfo*>* GetParametersInfo(System::IntPtr handle, System::Reflection::MemberInfo* member);
   }; // System.Reflection.MonoMethodInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethodInfo, "System.Reflection", "MonoMethodInfo");
 #pragma pack(pop)

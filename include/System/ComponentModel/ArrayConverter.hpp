@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.CollectionConverter
 #include "System/ComponentModel/CollectionConverter.hpp"
 // Completed includes
@@ -13,7 +14,7 @@ namespace System::ComponentModel {
   class ArrayConverter : public System::ComponentModel::CollectionConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF44D84
+    // Offset: 0xF567C8
     // Implemented from: System.ComponentModel.CollectionConverter
     // Base method: System.Void CollectionConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()
@@ -21,6 +22,6 @@ namespace System::ComponentModel {
     static ArrayConverter* New_ctor();
   }; // System.ComponentModel.ArrayConverter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ArrayConverter*, "System.ComponentModel", "ArrayConverter");
 #pragma pack(pop)

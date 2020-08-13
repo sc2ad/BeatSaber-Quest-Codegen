@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.ActivityFilter
 #include "System/Diagnostics/Tracing/ActivityFilter.hpp"
 // Including type: System.Guid
@@ -29,15 +27,15 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x10
     int tickNow;
     // System.Int32 <TrimActiveActivityStore>b__0(System.Collections.Generic.KeyValuePair`2<System.Guid,System.Int32> x, System.Collections.Generic.KeyValuePair`2<System.Guid,System.Int32> y)
-    // Offset: 0xC82F5C
+    // Offset: 0xC949A0
     int $TrimActiveActivityStore$b__0(System::Collections::Generic::KeyValuePair_2<System::Guid, int> x, System::Collections::Generic::KeyValuePair_2<System::Guid, int> y);
     // public System.Void .ctor()
-    // Offset: 0xC82E98
+    // Offset: 0xC948DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ActivityFilter::$$c__DisplayClass13_0* New_ctor();
   }; // System.Diagnostics.Tracing.ActivityFilter/<>c__DisplayClass13_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityFilter::$$c__DisplayClass13_0*, "System.Diagnostics.Tracing", "ActivityFilter/<>c__DisplayClass13_0");
 #pragma pack(pop)

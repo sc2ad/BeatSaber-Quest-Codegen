@@ -34,37 +34,37 @@ namespace System::IO {
     // Offset: 0x68
     System::TermInfoDriver* driver;
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x1118FE4
+    // Offset: 0x1129A28
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     static CStreamReader* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding);
     // public override System.Int32 Peek()
-    // Offset: 0x11190E0
+    // Offset: 0x1129B24
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x11191A0
+    // Offset: 0x1129BE4
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
     // public override System.Int32 Read(System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x1119280
+    // Offset: 0x1129CC4
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(System.Char[] dest, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& dest, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x111944C
+    // Offset: 0x1129E90
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
     ::CsString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x1119518
+    // Offset: 0x1129F5C
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
     ::CsString* ReadToEnd();
   }; // System.IO.CStreamReader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamReader*, "System.IO", "CStreamReader");
 #pragma pack(pop)

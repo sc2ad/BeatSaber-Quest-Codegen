@@ -24,6 +24,6 @@ namespace UnityEngine::EventSystems {
     void OnSelect(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.ISelectHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ISelectHandler*, "UnityEngine.EventSystems", "ISelectHandler");
 #pragma pack(pop)

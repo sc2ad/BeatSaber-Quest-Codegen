@@ -25,6 +25,6 @@ namespace System::Runtime::Serialization {
     ::CsObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Serialization.IObjectReference
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IObjectReference*, "System.Runtime.Serialization", "IObjectReference");
 #pragma pack(pop)

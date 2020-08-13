@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SceneSetupData
 #include "GlobalNamespace/SceneSetupData.hpp"
 // Completed includes
@@ -23,16 +24,16 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ColorScheme* colorScheme;
     // public ColorScheme get_colorScheme()
-    // Offset: 0xBDDD3C
+    // Offset: 0xBF0780
     GlobalNamespace::ColorScheme* get_colorScheme();
     // private System.Void set_colorScheme(ColorScheme value)
-    // Offset: 0xBDDD44
+    // Offset: 0xBF0788
     void set_colorScheme(GlobalNamespace::ColorScheme* value);
     // public System.Void .ctor(ColorScheme colorScheme)
-    // Offset: 0xBDDD4C
+    // Offset: 0xBF0790
     static GameCoreSceneSetupData* New_ctor(GlobalNamespace::ColorScheme* colorScheme);
   }; // GameCoreSceneSetupData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetupData*, "", "GameCoreSceneSetupData");
 #pragma pack(pop)

@@ -14,13 +14,13 @@ namespace GlobalNamespace {
   class OVRAutoDestroyInMRC : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void Start()
-    // Offset: 0xCB17F8
+    // Offset: 0xCC523C
     void Start();
     // private System.Void Update()
-    // Offset: 0xCB191C
+    // Offset: 0xCC5360
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCB1920
+    // Offset: 0xCC5364
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -30,6 +30,6 @@ namespace GlobalNamespace {
     static OVRAutoDestroyInMRC* New_ctor();
   }; // OVRAutoDestroyInMRC
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAutoDestroyInMRC*, "", "OVRAutoDestroyInMRC");
 #pragma pack(pop)

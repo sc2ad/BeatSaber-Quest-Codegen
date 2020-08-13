@@ -35,17 +35,17 @@ namespace UnityEngine::Timeline {
   class ActivationPlayableAsset : public UnityEngine::Playables::PlayableAsset, public UnityEngine::Timeline::ITimelineClipAsset {
     public:
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1079640
+    // Offset: 0x1089084
     // Implemented from: UnityEngine.Timeline.ITimelineClipAsset
     // Base method: UnityEngine.Timeline.ClipCaps ITimelineClipAsset::get_clipCaps()
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1079648
+    // Offset: 0x108908C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void .ctor()
-    // Offset: 0x10796C4
+    // Offset: 0x1089108
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -54,6 +54,6 @@ namespace UnityEngine::Timeline {
     static ActivationPlayableAsset* New_ctor();
   }; // UnityEngine.Timeline.ActivationPlayableAsset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationPlayableAsset*, "UnityEngine.Timeline", "ActivationPlayableAsset");
 #pragma pack(pop)

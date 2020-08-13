@@ -33,6 +33,6 @@ namespace System::Threading {
     NativeOverlapped(System::IntPtr InternalLow_ = {}, System::IntPtr InternalHigh_ = {}, int OffsetLow_ = {}, int OffsetHigh_ = {}, System::IntPtr EventHandle_ = {}) : InternalLow{InternalLow_}, InternalHigh{InternalHigh_}, OffsetLow{OffsetLow_}, OffsetHigh{OffsetHigh_}, EventHandle{EventHandle_} {}
   }; // System.Threading.NativeOverlapped
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeOverlapped, "System.Threading", "NativeOverlapped");
 #pragma pack(pop)

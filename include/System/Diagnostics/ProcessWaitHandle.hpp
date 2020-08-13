@@ -21,10 +21,10 @@ namespace System::Diagnostics {
   class ProcessWaitHandle : public System::Threading::WaitHandle {
     public:
     // System.Void .ctor(Microsoft.Win32.SafeHandles.SafeProcessHandle processHandle)
-    // Offset: 0xF49604
+    // Offset: 0xF5B048
     static ProcessWaitHandle* New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
   }; // System.Diagnostics.ProcessWaitHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessWaitHandle*, "System.Diagnostics", "ProcessWaitHandle");
 #pragma pack(pop)

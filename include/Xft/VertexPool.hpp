@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -85,19 +83,19 @@ namespace Xft {
     // Offset: 0x50
     UnityEngine::Mesh* mesh;
     // public System.Void .ctor(UnityEngine.Mesh mesh)
-    // Offset: 0xC4286C
+    // Offset: 0xC542B0
     static VertexPool* New_ctor(UnityEngine::Mesh* mesh);
     // public Xft.VertexPool/VertexSegment GetVertices(System.Int32 vcount, System.Int32 icount)
-    // Offset: 0xC429A4
+    // Offset: 0xC543E8
     Xft::VertexPool::VertexSegment* GetVertices(int vcount, int icount);
     // public System.Void EnlargeArrays(System.Int32 count, System.Int32 icount)
-    // Offset: 0xC42AF4
+    // Offset: 0xC54538
     void EnlargeArrays(int count, int icount);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0xC42CE0
+    // Offset: 0xC54724
     void ManualUpdate(float deltaTime);
   }; // Xft.VertexPool
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Xft::VertexPool*, "Xft", "VertexPool");
 #pragma pack(pop)

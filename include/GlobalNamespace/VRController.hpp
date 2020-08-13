@@ -49,43 +49,43 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Vector3 lastTrackedPosition;
     // public UnityEngine.XR.XRNode get_node()
-    // Offset: 0xCA8E90
+    // Offset: 0xCBB8D4
     UnityEngine::XR::XRNode get_node();
     // public System.Void set_node(UnityEngine.XR.XRNode value)
-    // Offset: 0xCA8E98
+    // Offset: 0xCBB8DC
     void set_node(UnityEngine::XR::XRNode value);
     // public System.Int32 get_nodeIdx()
-    // Offset: 0xCA8EA0
+    // Offset: 0xCBB8E4
     int get_nodeIdx();
     // public System.Void set_nodeIdx(System.Int32 value)
-    // Offset: 0xCA8EA8
+    // Offset: 0xCBB8EC
     void set_nodeIdx(int value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0xCA8EB0
+    // Offset: 0xCBB8F4
     UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0xCA8ED4
+    // Offset: 0xCBB918
     UnityEngine::Quaternion get_rotation();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0xCA8EF8
+    // Offset: 0xCBB93C
     UnityEngine::Vector3 get_forward();
     // public System.Single get_triggerValue()
-    // Offset: 0xCA8F1C
+    // Offset: 0xCBB960
     float get_triggerValue();
     // public System.Single get_verticalAxisValue()
-    // Offset: 0xCA9058
+    // Offset: 0xCBBA9C
     float get_verticalAxisValue();
     // public System.Single get_horizontalAxisValue()
-    // Offset: 0xCA90F0
+    // Offset: 0xCBBB34
     float get_horizontalAxisValue();
     // public System.Boolean get_active()
-    // Offset: 0xCA9188
+    // Offset: 0xCBBBCC
     bool get_active();
     // protected System.Void Update()
-    // Offset: 0xCA91AC
+    // Offset: 0xCBBBF0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCA99C4
+    // Offset: 0xCBC408
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -95,6 +95,6 @@ namespace GlobalNamespace {
     static VRController* New_ctor();
   }; // VRController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRController*, "", "VRController");
 #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -26,10 +27,10 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     int levels;
     // public System.Void .ctor(System.Type childType, System.Int32 levels)
-    // Offset: 0x108A524
+    // Offset: 0x1099F68
     static SupportsChildTracksAttribute* New_ctor(System::Type* childType, int levels);
   }; // UnityEngine.Timeline.SupportsChildTracksAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SupportsChildTracksAttribute*, "UnityEngine.Timeline", "SupportsChildTracksAttribute");
 #pragma pack(pop)

@@ -29,15 +29,15 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::BloomPrePassBGLight* bloomPrePassBGLight;
     // public UnityEngine.Color get_color()
-    // Offset: 0x180D6A8
+    // Offset: 0x181E0EC
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x180D6C8
+    // Offset: 0x181E10C
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x180D6E8
+    // Offset: 0x181E12C
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static BloomPrePassBGLightWithId* New_ctor();
   }; // BloomPrePassBGLightWithId
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBGLightWithId*, "", "BloomPrePassBGLightWithId");
 #pragma pack(pop)

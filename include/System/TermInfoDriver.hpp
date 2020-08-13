@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IConsoleDriver
 #include "System/IConsoleDriver.hpp"
 // Including type: System.ConsoleColor
@@ -179,111 +177,111 @@ namespace System {
     // Offset: 0x118
     int echon;
     // static private System.String TryTermInfoDir(System.String dir, System.String term)
-    // Offset: 0x12CD8A4
+    // Offset: 0x12DF2E8
     static ::CsString* TryTermInfoDir(::CsString* dir, ::CsString* term);
     // static private System.String SearchTerminfo(System.String term)
-    // Offset: 0x12CD9C8
+    // Offset: 0x12DF40C
     static ::CsString* SearchTerminfo(::CsString* term);
     // private System.Void WriteConsole(System.String str)
-    // Offset: 0x12CDB50
+    // Offset: 0x12DF594
     void WriteConsole(::CsString* str);
     // public System.Void .ctor(System.String term)
-    // Offset: 0x12CDB74
+    // Offset: 0x12DF5B8
     static TermInfoDriver* New_ctor(::CsString* term);
     // public System.Boolean get_Initialized()
-    // Offset: 0x12CE248
+    // Offset: 0x12DFC8C
     bool get_Initialized();
     // public System.Void Init()
-    // Offset: 0x12CE250
+    // Offset: 0x12DFC94
     void Init();
     // private System.Void IncrementX()
-    // Offset: 0x12CEDD4
+    // Offset: 0x12E0818
     void IncrementX();
     // public System.Void WriteSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x12CEEB4
+    // Offset: 0x12E08F8
     void WriteSpecialKey(System::ConsoleKeyInfo key);
     // public System.Void WriteSpecialKey(System.Char c)
-    // Offset: 0x12CF1B0
+    // Offset: 0x12E0BF4
     void WriteSpecialKey(::Il2CppChar c);
     // public System.Boolean IsSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x12CF368
+    // Offset: 0x12E0DAC
     bool IsSpecialKey(System::ConsoleKeyInfo key);
     // public System.Boolean IsSpecialKey(System.Char c)
-    // Offset: 0x12CF3F0
+    // Offset: 0x12E0E34
     bool IsSpecialKey(::Il2CppChar c);
     // private System.Void GetCursorPosition()
-    // Offset: 0x12CEB24
+    // Offset: 0x12E0568
     void GetCursorPosition();
     // private System.Void CheckWindowDimensions()
-    // Offset: 0x12CF53C
+    // Offset: 0x12E0F80
     void CheckWindowDimensions();
     // public System.Int32 get_WindowHeight()
-    // Offset: 0x12CEE7C
+    // Offset: 0x12E08C0
     int get_WindowHeight();
     // public System.Int32 get_WindowWidth()
-    // Offset: 0x12CEE44
+    // Offset: 0x12E0888
     int get_WindowWidth();
     // private System.Void AddToBuffer(System.Int32 b)
-    // Offset: 0x12CF424
+    // Offset: 0x12E0E68
     void AddToBuffer(int b);
     // private System.Void AdjustBuffer()
-    // Offset: 0x12CF69C
+    // Offset: 0x12E10E0
     void AdjustBuffer();
     // private System.ConsoleKeyInfo CreateKeyInfoFromInt(System.Int32 n, System.Boolean alt)
-    // Offset: 0x12CF1E4
+    // Offset: 0x12E0C28
     System::ConsoleKeyInfo CreateKeyInfoFromInt(int n, bool alt);
     // private System.Object GetKeyFromBuffer(System.Boolean cooked)
-    // Offset: 0x12CF6B0
+    // Offset: 0x12E10F4
     ::CsObject* GetKeyFromBuffer(bool cooked);
     // private System.ConsoleKeyInfo ReadKeyInternal(System.Boolean fresh)
-    // Offset: 0x12CF99C
+    // Offset: 0x12E13E0
     System::ConsoleKeyInfo ReadKeyInternal(bool& fresh);
     // private System.Boolean InputPending()
-    // Offset: 0x12CFCEC
+    // Offset: 0x12E1730
     bool InputPending();
     // private System.Void QueueEcho(System.Char c)
-    // Offset: 0x12CFD1C
+    // Offset: 0x12E1760
     void QueueEcho(::Il2CppChar c);
     // private System.Void Echo(System.ConsoleKeyInfo key)
-    // Offset: 0x12CFE28
+    // Offset: 0x12E186C
     void Echo(System::ConsoleKeyInfo key);
     // private System.Void EchoFlush()
-    // Offset: 0x12CFE8C
+    // Offset: 0x12E18D0
     void EchoFlush();
     // public System.Int32 Read(System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x12CFECC
+    // Offset: 0x12E1910
     int Read(::Array<::Il2CppChar>*& dest, int index, int count);
     // public System.String ReadLine()
-    // Offset: 0x12D0550
+    // Offset: 0x12E1F94
     ::CsString* ReadLine();
     // public System.String ReadToEnd()
-    // Offset: 0x12D0724
+    // Offset: 0x12E2168
     ::CsString* ReadToEnd();
     // private System.String ReadUntilConditionInternal(System.Boolean haltOnNewLine)
-    // Offset: 0x12D0558
+    // Offset: 0x12E1F9C
     ::CsString* ReadUntilConditionInternal(bool haltOnNewLine);
     // public System.Void SetCursorPosition(System.Int32 left, System.Int32 top)
-    // Offset: 0x12CEFDC
+    // Offset: 0x12E0A20
     void SetCursorPosition(int left, int top);
     // private System.Void CreateKeyMap()
-    // Offset: 0x12D072C
+    // Offset: 0x12E2170
     void CreateKeyMap();
     // private System.Void InitKeys()
-    // Offset: 0x12CFB70
+    // Offset: 0x12E15B4
     void InitKeys();
     // private System.Void AddStringMapping(System.TermInfoStrings s)
-    // Offset: 0x12D25C4
+    // Offset: 0x12E4008
     void AddStringMapping(System::TermInfoStrings s);
     // static private System.Void .cctor()
-    // Offset: 0x12D26B0
+    // Offset: 0x12E40F4
     static void _cctor();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x12D04E8
+    // Offset: 0x12E1F2C
     // Implemented from: System.IConsoleDriver
     // Base method: System.ConsoleKeyInfo IConsoleDriver::ReadKey(System.Boolean intercept)
     System::ConsoleKeyInfo ReadKey(bool intercept);
   }; // System.TermInfoDriver
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoDriver*, "System", "TermInfoDriver");
 #pragma pack(pop)

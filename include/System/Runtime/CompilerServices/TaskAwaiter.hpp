@@ -32,33 +32,33 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: TaskAwaiter
     TaskAwaiter(System::Threading::Tasks::Task* m_task_ = {}) : m_task{m_task_} {}
     // System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0xA3E92C
+    // Offset: 0xA3E9A8
     static TaskAwaiter* New_ctor(System::Threading::Tasks::Task* task);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xA3E934
+    // Offset: 0xA3E9B0
     bool get_IsCompleted();
     // public System.Void GetResult()
-    // Offset: 0xA3E960
+    // Offset: 0xA3E9DC
     void GetResult();
     // static System.Void ValidateEnd(System.Threading.Tasks.Task task)
-    // Offset: 0x11501CC
+    // Offset: 0x1161C10
     static void ValidateEnd(System::Threading::Tasks::Task* task);
     // static private System.Void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task task)
-    // Offset: 0x115021C
+    // Offset: 0x1161C60
     static void HandleNonSuccessAndDebuggerNotification(System::Threading::Tasks::Task* task);
     // static private System.Void ThrowForNonSuccess(System.Threading.Tasks.Task task)
-    // Offset: 0x115028C
+    // Offset: 0x1161CD0
     static void ThrowForNonSuccess(System::Threading::Tasks::Task* task);
     // static System.Void OnCompletedInternal(System.Threading.Tasks.Task task, System.Action continuation, System.Boolean continueOnCapturedContext, System.Boolean flowExecutionContext)
-    // Offset: 0x11500F8
+    // Offset: 0x1161B3C
     static void OnCompletedInternal(System::Threading::Tasks::Task* task, System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xA3E950
+    // Offset: 0xA3E9CC
     // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
     // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
     void UnsafeOnCompleted(System::Action* continuation);
   }; // System.Runtime.CompilerServices.TaskAwaiter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
 #pragma pack(pop)

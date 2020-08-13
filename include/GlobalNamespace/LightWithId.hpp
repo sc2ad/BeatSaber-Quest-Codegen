@@ -35,25 +35,25 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool isRegistered;
     // public System.Int32 get_id()
-    // Offset: 0x181315C
+    // Offset: 0x1823BA0
     int get_id();
     // public System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1813164
+    // Offset: 0x1823BA8
     void ColorWasSet(UnityEngine::Color color);
     // protected System.Void OnEnable()
-    // Offset: 0x1813168
+    // Offset: 0x1823BAC
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x1813210
+    // Offset: 0x1823C54
     void Start();
     // private System.Void RegisterLight()
-    // Offset: 0x181316C
+    // Offset: 0x1823BB0
     void RegisterLight();
     // protected System.Void OnDisable()
-    // Offset: 0x18133A4
+    // Offset: 0x1823DE8
     void OnDisable();
     // protected System.Void .ctor()
-    // Offset: 0x180D6F8
+    // Offset: 0x181E13C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     static LightWithId* New_ctor();
   }; // LightWithId
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithId*, "", "LightWithId");
 #pragma pack(pop)

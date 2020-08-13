@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Completed includes
@@ -59,28 +57,28 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static private UnityEngine.ProBuilder.Poly2Tri.TriangulationContext s_TriangulationContext
     static void _set_s_TriangulationContext(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
     // static private UnityEngine.ProBuilder.Poly2Tri.TriangulationContext get_triangulationContext()
-    // Offset: 0x100E2F8
+    // Offset: 0x101DD3C
     static UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* get_triangulationContext();
     // static public System.Boolean SortAndTriangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, System.Collections.Generic.List`1<System.Int32> indexes, System.Boolean convex)
-    // Offset: 0x100E388
+    // Offset: 0x101DDCC
     static bool SortAndTriangulate(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::List_1<int>*& indexes, bool convex);
     // static public System.Boolean TriangulateVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<System.Int32> triangles, System.Boolean unordered, System.Boolean convex)
-    // Offset: 0x100F018
+    // Offset: 0x101EA5C
     static bool TriangulateVertices(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::List_1<int>*& triangles, bool unordered, bool convex);
     // static public System.Boolean TriangulateVertices(UnityEngine.Vector3[] vertices, System.Collections.Generic.List`1<System.Int32> triangles, UnityEngine.Vector3[][] holes)
-    // Offset: 0x100F384
+    // Offset: 0x101EDC8
     static bool TriangulateVertices(::Array<UnityEngine::Vector3>* vertices, System::Collections::Generic::List_1<int>*& triangles, ::Array<::Array<UnityEngine::Vector3>*>* holes);
     // static public System.Boolean TriangulateVertices(UnityEngine.Vector3[] vertices, System.Collections.Generic.List`1<System.Int32> triangles, System.Boolean unordered, System.Boolean convex)
-    // Offset: 0x100F23C
+    // Offset: 0x101EC80
     static bool TriangulateVertices(::Array<UnityEngine::Vector3>* vertices, System::Collections::Generic::List_1<int>*& triangles, bool unordered, bool convex);
     // static public System.Boolean Triangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, System.Collections.Generic.List`1<System.Int32> indexes, System.Boolean convex)
-    // Offset: 0x100E654
+    // Offset: 0x101E098
     static bool Triangulate(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::List_1<int>*& indexes, bool convex);
     // static public System.Boolean Triangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, System.Collections.Generic.IList`1<System.Collections.Generic.IList`1<UnityEngine.Vector2>> holes, System.Collections.Generic.List`1<System.Int32> indexes)
-    // Offset: 0x100F568
+    // Offset: 0x101EFAC
     static bool Triangulate(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::IList_1<System::Collections::Generic::IList_1<UnityEngine::Vector2>*>* holes, System::Collections::Generic::List_1<int>*& indexes);
   }; // UnityEngine.ProBuilder.MeshOperations.Triangulation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Triangulation*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation");
 #pragma pack(pop)

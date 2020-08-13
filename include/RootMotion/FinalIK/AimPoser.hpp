@@ -31,13 +31,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x20
     ::Array<RootMotion::FinalIK::AimPoser::Pose*>* poses;
     // public RootMotion.FinalIK.AimPoser/Pose GetPose(UnityEngine.Vector3 localDirection)
-    // Offset: 0x13928E0
+    // Offset: 0x13A4324
     RootMotion::FinalIK::AimPoser::Pose* GetPose(UnityEngine::Vector3 localDirection);
     // public System.Void SetPoseActive(RootMotion.FinalIK.AimPoser/Pose pose)
-    // Offset: 0x1392C54
+    // Offset: 0x13A4698
     void SetPoseActive(RootMotion::FinalIK::AimPoser::Pose* pose);
     // public System.Void .ctor()
-    // Offset: 0x1392CC0
+    // Offset: 0x13A4704
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -47,6 +47,6 @@ namespace RootMotion::FinalIK {
     static AimPoser* New_ctor();
   }; // RootMotion.FinalIK.AimPoser
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser*, "RootMotion.FinalIK", "AimPoser");
 #pragma pack(pop)

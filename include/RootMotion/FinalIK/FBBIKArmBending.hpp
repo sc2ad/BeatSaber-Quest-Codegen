@@ -45,16 +45,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x70
     bool initiated;
     // private System.Void LateUpdate()
-    // Offset: 0x1396178
+    // Offset: 0x13A7BBC
     void LateUpdate();
     // private System.Void OnPostFBBIK()
-    // Offset: 0x13966F4
+    // Offset: 0x13A8138
     void OnPostFBBIK();
     // private System.Void OnDestroy()
-    // Offset: 0x13968B4
+    // Offset: 0x13A82F8
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x13969D0
+    // Offset: 0x13A8414
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -64,6 +64,6 @@ namespace RootMotion::FinalIK {
     static FBBIKArmBending* New_ctor();
   }; // RootMotion.FinalIK.FBBIKArmBending
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKArmBending*, "RootMotion.FinalIK", "FBBIKArmBending");
 #pragma pack(pop)

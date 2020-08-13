@@ -142,21 +142,21 @@ namespace GlobalNamespace {
     // Offset: 0xD8
     GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel;
     // private System.Void InstallRichPresence()
-    // Offset: 0x196D068
+    // Offset: 0xB85364
     void InstallRichPresence();
     // private System.Void InstallOculusDestinationBindings()
-    // Offset: 0x196CF84
+    // Offset: 0xB85280
     void InstallOculusDestinationBindings();
     // private System.Void InstallOldPlatformLeaderboardsModel()
-    // Offset: 0x196D120
+    // Offset: 0xB8541C
     void InstallOldPlatformLeaderboardsModel();
     // public override System.Void InstallBindings()
-    // Offset: 0x196CBD8
+    // Offset: 0xB84ED4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x196D244
+    // Offset: 0xB85540
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -168,6 +168,6 @@ namespace GlobalNamespace {
     static AppCoreInstaller* New_ctor();
   }; // AppCoreInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppCoreInstaller*, "", "AppCoreInstaller");
 #pragma pack(pop)

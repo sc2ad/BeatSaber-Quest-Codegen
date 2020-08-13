@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Threading.SynchronizationContextProperties
 #include "System/Threading/SynchronizationContextProperties.hpp"
 // Completed includes
@@ -51,39 +49,39 @@ namespace System::Threading {
     // Set static field: static private System.Type s_cachedPreparedType5
     static void _set_s_cachedPreparedType5(System::Type* value);
     // public System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0xCC7764
+    // Offset: 0xCDA1A8
     void Send(System::Threading::SendOrPostCallback* d, ::CsObject* state);
     // public System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0xCC7780
+    // Offset: 0xCDA1C4
     void Post(System::Threading::SendOrPostCallback* d, ::CsObject* state);
     // public System.Void OperationStarted()
-    // Offset: 0xCC780C
+    // Offset: 0xCDA250
     void OperationStarted();
     // public System.Void OperationCompleted()
-    // Offset: 0xCC7810
+    // Offset: 0xCDA254
     void OperationCompleted();
     // static public System.Void SetSynchronizationContext(System.Threading.SynchronizationContext syncContext)
-    // Offset: 0xCC7814
+    // Offset: 0xCDA258
     static void SetSynchronizationContext(System::Threading::SynchronizationContext* syncContext);
     // static public System.Threading.SynchronizationContext get_Current()
-    // Offset: 0xCC7910
+    // Offset: 0xCDA354
     static System::Threading::SynchronizationContext* get_Current();
     // static System.Threading.SynchronizationContext get_CurrentNoFlow()
-    // Offset: 0xCC79F0
+    // Offset: 0xCDA434
     static System::Threading::SynchronizationContext* get_CurrentNoFlow();
     // static private System.Threading.SynchronizationContext GetThreadLocalContext()
-    // Offset: 0xCC7990
+    // Offset: 0xCDA3D4
     static System::Threading::SynchronizationContext* GetThreadLocalContext();
     // public System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0xCC7A44
+    // Offset: 0xCDA488
     System::Threading::SynchronizationContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0xCC775C
+    // Offset: 0xCDA1A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SynchronizationContext* New_ctor();
   }; // System.Threading.SynchronizationContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContext*, "System.Threading", "SynchronizationContext");
 #pragma pack(pop)

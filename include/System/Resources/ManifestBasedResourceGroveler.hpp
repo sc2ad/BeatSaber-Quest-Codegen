@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Resources.IResourceGroveler
 #include "System/Resources/IResourceGroveler.hpp"
 // Including type: System.Resources.ResourceManager
@@ -57,48 +55,48 @@ namespace System::Resources {
     // Offset: 0x10
     System::Resources::ResourceManager::ResourceManagerMediator* mediator;
     // public System.Void .ctor(System.Resources.ResourceManager/ResourceManagerMediator mediator)
-    // Offset: 0x114392C
+    // Offset: 0x1155370
     static ManifestBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator);
     // private System.Globalization.CultureInfo UltimateFallbackFixup(System.Globalization.CultureInfo lookForCulture)
-    // Offset: 0x1143BE8
+    // Offset: 0x115562C
     System::Globalization::CultureInfo* UltimateFallbackFixup(System::Globalization::CultureInfo* lookForCulture);
     // static System.Globalization.CultureInfo GetNeutralResourcesLanguage(System.Reflection.Assembly a, System.Resources.UltimateResourceFallbackLocation fallbackLocation)
-    // Offset: 0x1144FF8
+    // Offset: 0x1156A3C
     static System::Globalization::CultureInfo* GetNeutralResourcesLanguage(System::Reflection::Assembly* a, System::Resources::UltimateResourceFallbackLocation& fallbackLocation);
     // System.Resources.ResourceSet CreateResourceSet(System.IO.Stream store, System.Reflection.Assembly assembly)
-    // Offset: 0x1144384
+    // Offset: 0x1155DC8
     System::Resources::ResourceSet* CreateResourceSet(System::IO::Stream* store, System::Reflection::Assembly* assembly);
     // private System.IO.Stream GetManifestResourceStream(System.Reflection.RuntimeAssembly satellite, System.String fileName, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x11442A8
+    // Offset: 0x1155CEC
     System::IO::Stream* GetManifestResourceStream(System::Reflection::RuntimeAssembly* satellite, ::CsString* fileName, System::Threading::StackCrawlMark& stackMark);
     // private System.IO.Stream CaseInsensitiveManifestResourceStreamLookup(System.Reflection.RuntimeAssembly satellite, System.String name)
-    // Offset: 0x1145648
+    // Offset: 0x115708C
     System::IO::Stream* CaseInsensitiveManifestResourceStreamLookup(System::Reflection::RuntimeAssembly* satellite, ::CsString* name);
     // private System.Reflection.RuntimeAssembly GetSatelliteAssembly(System.Globalization.CultureInfo lookForCulture, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1143DB0
+    // Offset: 0x11557F4
     System::Reflection::RuntimeAssembly* GetSatelliteAssembly(System::Globalization::CultureInfo* lookForCulture, System::Threading::StackCrawlMark& stackMark);
     // private System.Boolean CanUseDefaultResourceClasses(System.String readerTypeName, System.String resSetTypeName)
-    // Offset: 0x11453C4
+    // Offset: 0x1156E08
     bool CanUseDefaultResourceClasses(::CsString* readerTypeName, ::CsString* resSetTypeName);
     // private System.String GetSatelliteAssemblyName()
-    // Offset: 0x1145A98
+    // Offset: 0x11574DC
     ::CsString* GetSatelliteAssemblyName();
     // private System.Void HandleSatelliteMissing()
-    // Offset: 0x1143F5C
+    // Offset: 0x11559A0
     void HandleSatelliteMissing();
     // private System.Void HandleResourceStreamMissing(System.String fileName)
-    // Offset: 0x1144CE8
+    // Offset: 0x115672C
     void HandleResourceStreamMissing(::CsString* fileName);
     // static private System.Boolean GetNeutralResourcesLanguageAttribute(System.Reflection.Assembly assembly, System.String cultureName, System.Int16 fallbackLocation)
-    // Offset: 0x114533C
+    // Offset: 0x1156D80
     static bool GetNeutralResourcesLanguageAttribute(System::Reflection::Assembly* assembly, ::CsString*& cultureName, int16_t& fallbackLocation);
     // public System.Resources.ResourceSet GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1143960
+    // Offset: 0x11553A4
     // Implemented from: System.Resources.IResourceGroveler
     // Base method: System.Resources.ResourceSet IResourceGroveler::GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, System.Threading.StackCrawlMark stackMark)
     System::Resources::ResourceSet* GrovelForResourceSet(System::Globalization::CultureInfo* culture, System::Collections::Generic::Dictionary_2<::CsString*, System::Resources::ResourceSet*>* localResourceSets, bool tryParents, bool createIfNotExists, System::Threading::StackCrawlMark& stackMark);
   }; // System.Resources.ManifestBasedResourceGroveler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ManifestBasedResourceGroveler*, "System.Resources", "ManifestBasedResourceGroveler");
 #pragma pack(pop)

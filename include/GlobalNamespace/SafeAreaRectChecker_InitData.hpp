@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: SafeAreaRectChecker
 #include "GlobalNamespace/SafeAreaRectChecker.hpp"
 // Completed includes
@@ -19,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     bool checkingEnabled;
     // public System.Void .ctor(System.Boolean checkingEnabled)
-    // Offset: 0xC14DAC
+    // Offset: 0xC267F0
     static SafeAreaRectChecker::InitData* New_ctor(bool checkingEnabled);
   }; // SafeAreaRectChecker/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SafeAreaRectChecker::InitData*, "", "SafeAreaRectChecker/InitData");
 #pragma pack(pop)

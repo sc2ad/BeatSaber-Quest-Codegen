@@ -4,7 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.DeserializableList`1
 #include "Oculus/Platform/Models/DeserializableList_1.hpp"
 // Completed includes
@@ -29,10 +29,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0x28
     uint64_t TotalCount;
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xE8D720
+    // Offset: 0xEA0164
     static LeaderboardEntryList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.LeaderboardEntryList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntryList*, "Oculus.Platform.Models", "LeaderboardEntryList");
 #pragma pack(pop)

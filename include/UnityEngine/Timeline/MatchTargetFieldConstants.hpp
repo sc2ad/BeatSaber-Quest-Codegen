@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Timeline.MatchTargetFields
 #include "UnityEngine/Timeline/MatchTargetFields.hpp"
 // Completed includes
@@ -32,16 +30,16 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.MatchTargetFields Rotation
     static void _set_Rotation(UnityEngine::Timeline::MatchTargetFields value);
     // static public System.Boolean HasAny(UnityEngine.Timeline.MatchTargetFields me, UnityEngine.Timeline.MatchTargetFields fields)
-    // Offset: 0x1086B90
+    // Offset: 0x10965D4
     static bool HasAny(UnityEngine::Timeline::MatchTargetFields me, UnityEngine::Timeline::MatchTargetFields fields);
     // static public UnityEngine.Timeline.MatchTargetFields Toggle(UnityEngine.Timeline.MatchTargetFields me, UnityEngine.Timeline.MatchTargetFields flag)
-    // Offset: 0x1086C14
+    // Offset: 0x1096658
     static UnityEngine::Timeline::MatchTargetFields Toggle(UnityEngine::Timeline::MatchTargetFields me, UnityEngine::Timeline::MatchTargetFields flag);
     // static private System.Void .cctor()
-    // Offset: 0x1086C1C
+    // Offset: 0x1096660
     static void _cctor();
   }; // UnityEngine.Timeline.MatchTargetFieldConstants
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFieldConstants*, "UnityEngine.Timeline", "MatchTargetFieldConstants");
 #pragma pack(pop)

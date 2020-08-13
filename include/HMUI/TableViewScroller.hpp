@@ -38,43 +38,43 @@ namespace HMUI {
     // Offset: 0x28
     float targetPosition;
     // public System.Void add_positionDidChangeEvent(System.Action`2<HMUI.TableViewScroller,System.Single> value)
-    // Offset: 0x10D36F4
+    // Offset: 0x10E4138
     void add_positionDidChangeEvent(System::Action_2<HMUI::TableViewScroller*, float>* value);
     // public System.Void remove_positionDidChangeEvent(System.Action`2<HMUI.TableViewScroller,System.Single> value)
-    // Offset: 0x10D3798
+    // Offset: 0x10E41DC
     void remove_positionDidChangeEvent(System::Action_2<HMUI::TableViewScroller*, float>* value);
     // public System.Single get_position()
-    // Offset: 0x10D2734
+    // Offset: 0x10E3178
     float get_position();
     // private System.Void set_position(System.Single value)
-    // Offset: 0x10D383C
+    // Offset: 0x10E4280
     void set_position(float value);
     // public System.Single get_targetPosition()
-    // Offset: 0x10D390C
+    // Offset: 0x10E4350
     float get_targetPosition();
     // public System.Single get_scrollableSize()
-    // Offset: 0x10D1FC8
+    // Offset: 0x10E2A0C
     float get_scrollableSize();
     // public System.Void Init(HMUI.TableView tableView)
-    // Offset: 0x10D1B68
+    // Offset: 0x10E25AC
     void Init(HMUI::TableView* tableView);
     // public System.Void ScrollToCellWithIdx(System.Int32 idx, HMUI.TableViewScroller/ScrollPositionType scrollPositionType, System.Boolean animated)
-    // Offset: 0x10D311C
+    // Offset: 0x10E3B60
     void ScrollToCellWithIdx(int idx, HMUI::TableViewScroller::ScrollPositionType scrollPositionType, bool animated);
     // protected System.Void Update()
-    // Offset: 0x10D3914
+    // Offset: 0x10E4358
     void Update();
     // private System.Single GetNumberOfVisibleCells()
-    // Offset: 0x10D3A24
+    // Offset: 0x10E4468
     float GetNumberOfVisibleCells();
     // public System.Void PageScrollUp()
-    // Offset: 0x10D32F8
+    // Offset: 0x10E3D3C
     void PageScrollUp();
     // public System.Void PageScrollDown()
-    // Offset: 0x10D3440
+    // Offset: 0x10E3E84
     void PageScrollDown();
     // public System.Void .ctor()
-    // Offset: 0x10D3AF8
+    // Offset: 0x10E453C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -84,6 +84,6 @@ namespace HMUI {
     static TableViewScroller* New_ctor();
   }; // HMUI.TableViewScroller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableViewScroller*, "HMUI", "TableViewScroller");
 #pragma pack(pop)

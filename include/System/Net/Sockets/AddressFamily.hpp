@@ -206,6 +206,6 @@ namespace System::Net::Sockets {
     AddressFamily(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.AddressFamily
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::AddressFamily, "System.Net.Sockets", "AddressFamily");
 #pragma pack(pop)

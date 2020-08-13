@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BeatmapObjectType
 #include "GlobalNamespace/BeatmapObjectType.hpp"
 // Completed includes
@@ -28,40 +26,40 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     int id;
     // public BeatmapObjectType get_beatmapObjectType()
-    // Offset: 0xB579D0
+    // Offset: 0xB559D0
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // private System.Void set_beatmapObjectType(BeatmapObjectType value)
-    // Offset: 0xB579D8
+    // Offset: 0xB559D8
     void set_beatmapObjectType(GlobalNamespace::BeatmapObjectType value);
     // public System.Single get_time()
-    // Offset: 0xB579E0
+    // Offset: 0xB559E0
     float get_time();
     // private System.Void set_time(System.Single value)
-    // Offset: 0xB579E8
+    // Offset: 0xB559E8
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0xB579F0
+    // Offset: 0xB559F0
     int get_lineIndex();
     // protected System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0xB579F8
+    // Offset: 0xB559F8
     void set_lineIndex(int value);
     // public System.Int32 get_id()
-    // Offset: 0xB57A00
+    // Offset: 0xB55A00
     int get_id();
     // private System.Void set_id(System.Int32 value)
-    // Offset: 0xB57A08
+    // Offset: 0xB55A08
     void set_id(int value);
     // public System.Void .ctor(BeatmapObjectType beatmapObjectType, System.Int32 id, System.Single time, System.Int32 lineIndex)
-    // Offset: 0xB57A10
+    // Offset: 0xB55A10
     static BeatmapObjectData* New_ctor(GlobalNamespace::BeatmapObjectType beatmapObjectType, int id, float time, int lineIndex);
     // public System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0xB57A60
+    // Offset: 0xB55A60
     void MirrorLineIndex(int lineCount);
     // public BeatmapObjectData GetCopy()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::BeatmapObjectData* GetCopy();
   }; // BeatmapObjectData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectData*, "", "BeatmapObjectData");
 #pragma pack(pop)

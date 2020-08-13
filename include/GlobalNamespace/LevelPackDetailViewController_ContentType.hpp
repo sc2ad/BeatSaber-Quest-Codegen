@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: LevelPackDetailViewController
 #include "GlobalNamespace/LevelPackDetailViewController.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -46,6 +46,6 @@ namespace GlobalNamespace {
     ContentType(int value_ = {}) : value{value_} {}
   }; // LevelPackDetailViewController/ContentType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::ContentType, "", "LevelPackDetailViewController/ContentType");
 #pragma pack(pop)

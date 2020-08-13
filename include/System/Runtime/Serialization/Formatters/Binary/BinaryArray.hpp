@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
@@ -56,24 +54,24 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x40
     System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum;
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0xE0D058
+    // Offset: 0xE1FA9C
     static BinaryArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // System.Void Set(System.Int32 objectId, System.Int32 rank, System.Int32[] lengthA, System.Int32[] lowerBoundA, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Object typeInformation, System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum, System.Int32 assemId)
-    // Offset: 0xE0D084
+    // Offset: 0xE1FAC8
     void Set(int objectId, int rank, ::Array<int>* lengthA, ::Array<int>* lowerBoundA, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::CsObject* typeInformation, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE0D138
+    // Offset: 0xE1FB7C
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xE0D5B0
+    // Offset: 0xE1FFF4
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // System.Void .ctor()
-    // Offset: 0xE0D050
+    // Offset: 0xE1FA94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryArray* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryArray
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryArray*, "System.Runtime.Serialization.Formatters.Binary", "BinaryArray");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: SteamVR_Controller
 #include "GlobalNamespace/SteamVR_Controller.hpp"
 // Including type: System.UInt64
@@ -78,12 +76,12 @@ namespace GlobalNamespace {
     // Set static field: static public System.UInt64 Trigger
     static void _set_Trigger(uint64_t value);
     // public System.Void .ctor()
-    // Offset: 0xD69628
+    // Offset: 0xD7D06C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SteamVR_Controller::ButtonMask* New_ctor();
   }; // SteamVR_Controller/ButtonMask
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::ButtonMask*, "", "SteamVR_Controller/ButtonMask");
 #pragma pack(pop)

@@ -31,12 +31,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // public System.Void RestartLevel()
-    // Offset: 0xBF1FE4
+    // Offset: 0xC03A28
     // Implemented from: ILevelRestartController
     // Base method: System.Void ILevelRestartController::RestartLevel()
     void RestartLevel();
     // public System.Void .ctor()
-    // Offset: 0xBF20F8
+    // Offset: 0xC03B3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -46,6 +46,6 @@ namespace GlobalNamespace {
     static MissionLevelRestartController* New_ctor();
   }; // MissionLevelRestartController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelRestartController*, "", "MissionLevelRestartController");
 #pragma pack(pop)

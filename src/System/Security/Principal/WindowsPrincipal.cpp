@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Principal.WindowsPrincipal
 #include "System/Security/Principal/WindowsPrincipal.hpp"
 // Including type: System.Security.Principal.WindowsIdentity

@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: MemoryPoolWithActiveItems`1
-#include "GlobalNamespace/MemoryPoolWithActiveItems_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: FlyingScoreEffect
 #include "GlobalNamespace/FlyingScoreEffect.hpp"
+// Including type: MemoryPoolWithActiveItems`1
+#include "GlobalNamespace/MemoryPoolWithActiveItems_1.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -15,7 +16,7 @@ namespace GlobalNamespace {
   class FlyingScoreEffect::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::FlyingScoreEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBDB034
+    // Offset: 0xBEDA78
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()
@@ -25,6 +26,6 @@ namespace GlobalNamespace {
     static FlyingScoreEffect::Pool* New_ctor();
   }; // FlyingScoreEffect/Pool
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect::Pool*, "", "FlyingScoreEffect/Pool");
 #pragma pack(pop)

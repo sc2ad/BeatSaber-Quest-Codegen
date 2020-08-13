@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: FadeInOutController
 #include "GlobalNamespace/FadeInOutController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -52,35 +50,35 @@ namespace GlobalNamespace {
     // Offset: 0x44
     float $elapsedTime$5__2;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xC9AED0
+    // Offset: 0xCAD914
     static FadeInOutController::$Fade$d__12* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xC9AF18
+    // Offset: 0xCAD95C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xC9AF1C
+    // Offset: 0xCAD960
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xC9B0E4
+    // Offset: 0xCADB28
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xC9B0EC
+    // Offset: 0xCADB30
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xC9B14C
+    // Offset: 0xCADB90
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // FadeInOutController/<Fade>d__12
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController::$Fade$d__12*, "", "FadeInOutController/<Fade>d__12");
 #pragma pack(pop)

@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
-#include "NUnit/Framework/Internal/Commands/DelegatingTestCommand.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.RepeatAttribute
 #include "NUnit/Framework/RepeatAttribute.hpp"
+// Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
+#include "NUnit/Framework/Internal/Commands/DelegatingTestCommand.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -27,12 +28,12 @@ namespace NUnit::Framework {
     // Offset: 0x20
     int repeatCount;
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x18E1D78
+    // Offset: 0x18F27BC
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.RepeatAttribute/RepeatedTestCommand
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*, "NUnit.Framework", "RepeatAttribute/RepeatedTestCommand");
 #pragma pack(pop)

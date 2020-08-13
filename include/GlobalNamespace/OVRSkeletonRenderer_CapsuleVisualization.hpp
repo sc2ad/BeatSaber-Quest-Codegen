@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRSkeletonRenderer
 #include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 // Including type: UnityEngine.Vector3
@@ -52,13 +50,13 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::Material* SystemGestureMaterial;
     // public System.Void .ctor(UnityEngine.GameObject rootGO, UnityEngine.Material renderMat, UnityEngine.Material systemGestureMat, System.Single scale, OVRBoneCapsule boneCapsule)
-    // Offset: 0x18E4558
+    // Offset: 0x18F4F9C
     static OVRSkeletonRenderer::CapsuleVisualization* New_ctor(UnityEngine::GameObject* rootGO, UnityEngine::Material* renderMat, UnityEngine::Material* systemGestureMat, float scale, GlobalNamespace::OVRBoneCapsule* boneCapsule);
     // public System.Void Update(System.Single scale, System.Boolean shouldRender, System.Boolean shouldUseSystemGestureMaterial, OVRSkeletonRenderer/ConfidenceBehavior confidenceBehavior, OVRSkeletonRenderer/SystemGestureBehavior systemGestureBehavior)
-    // Offset: 0x18E4B10
+    // Offset: 0x18F5554
     void Update(float scale, bool shouldRender, bool shouldUseSystemGestureMaterial, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior confidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior systemGestureBehavior);
   }; // OVRSkeletonRenderer/CapsuleVisualization
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*, "", "OVRSkeletonRenderer/CapsuleVisualization");
 #pragma pack(pop)

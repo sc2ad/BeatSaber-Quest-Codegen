@@ -29,26 +29,26 @@ namespace Oculus::Platform {
   class MessageWithMatchmakingBrowseResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingBrowseResult*> {
     public:
     // protected Oculus.Platform.Models.MatchmakingBrowseResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8E60C
+    // Offset: 0xEA1050
     Oculus::Platform::Models::MatchmakingBrowseResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE886E0
+    // Offset: 0xE9B124
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithMatchmakingBrowseResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.MatchmakingEnqueueResult GetMatchmakingEnqueueResult()
-    // Offset: 0xE8E56C
+    // Offset: 0xEA0FB0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.MatchmakingEnqueueResult Message::GetMatchmakingEnqueueResult()
     Oculus::Platform::Models::MatchmakingEnqueueResult* GetMatchmakingEnqueueResult();
     // public override Oculus.Platform.Models.RoomList GetRoomList()
-    // Offset: 0xE8E5BC
+    // Offset: 0xEA1000
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.RoomList Message::GetRoomList()
     Oculus::Platform::Models::RoomList* GetRoomList();
   }; // Oculus.Platform.MessageWithMatchmakingBrowseResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingBrowseResult*, "Oculus.Platform", "MessageWithMatchmakingBrowseResult");
 #pragma pack(pop)

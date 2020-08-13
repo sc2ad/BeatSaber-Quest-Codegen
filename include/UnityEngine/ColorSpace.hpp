@@ -38,6 +38,6 @@ namespace UnityEngine {
     ColorSpace(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ColorSpace
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ColorSpace, "UnityEngine", "ColorSpace");
 #pragma pack(pop)

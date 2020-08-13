@@ -23,7 +23,7 @@ namespace System {
   class PlatformNotSupportedException : public System::NotSupportedException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x134A918
+    // Offset: 0x135D35C
     // Implemented from: System.NotSupportedException
     // Base method: System.Void NotSupportedException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static PlatformNotSupportedException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x134A98C
+    // Offset: 0x135D3D0
     // Implemented from: System.NotSupportedException
     // Base method: System.Void NotSupportedException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static PlatformNotSupportedException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x134A9C0
+    // Offset: 0x135D404
     // Implemented from: System.NotSupportedException
     // Base method: System.Void NotSupportedException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -46,6 +46,6 @@ namespace System {
     static PlatformNotSupportedException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.PlatformNotSupportedException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::PlatformNotSupportedException*, "System", "PlatformNotSupportedException");
 #pragma pack(pop)

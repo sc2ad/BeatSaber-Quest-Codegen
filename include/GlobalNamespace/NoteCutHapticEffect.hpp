@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // public System.Void HitNote(SaberType saberType)
-    // Offset: 0xC00B20
+    // Offset: 0xC12564
     void HitNote(GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0xC01778
+    // Offset: 0xC131BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -39,6 +39,6 @@ namespace GlobalNamespace {
     static NoteCutHapticEffect* New_ctor();
   }; // NoteCutHapticEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutHapticEffect*, "", "NoteCutHapticEffect");
 #pragma pack(pop)

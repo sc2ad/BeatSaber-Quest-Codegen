@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource
 #include "System/Diagnostics/Tracing/EventSource.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {
@@ -27,31 +27,31 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: Sha1ForNonSecretPurposes
     Sha1ForNonSecretPurposes(int64_t length_ = {}, ::Array<uint>* w_ = {}, int pos_ = {}) : length{length_}, w{w_}, pos{pos_} {}
     // public System.Void Start()
-    // Offset: 0xA2B4B8
+    // Offset: 0xA2B534
     void Start();
     // public System.Void Append(System.Byte input)
-    // Offset: 0xA2B4C0
+    // Offset: 0xA2B53C
     void Append(uint8_t input);
     // public System.Void Append(System.Byte[] input)
-    // Offset: 0xA2B4C8
+    // Offset: 0xA2B544
     void Append(::Array<uint8_t>* input);
     // public System.Void Finish(System.Byte[] output)
-    // Offset: 0xA2B4D0
+    // Offset: 0xA2B54C
     void Finish(::Array<uint8_t>* output);
     // private System.Void Drain()
-    // Offset: 0xA2B4D8
+    // Offset: 0xA2B554
     void Drain();
     // static private System.UInt32 Rol1(System.UInt32 input)
-    // Offset: 0xD7EDC4
+    // Offset: 0xD92808
     static uint Rol1(uint input);
     // static private System.UInt32 Rol5(System.UInt32 input)
-    // Offset: 0xD7EDCC
+    // Offset: 0xD92810
     static uint Rol5(uint input);
     // static private System.UInt32 Rol30(System.UInt32 input)
-    // Offset: 0xD7EDD4
+    // Offset: 0xD92818
     static uint Rol30(uint input);
   }; // System.Diagnostics.Tracing.EventSource/Sha1ForNonSecretPurposes
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource::Sha1ForNonSecretPurposes, "System.Diagnostics.Tracing", "EventSource/Sha1ForNonSecretPurposes");
 #pragma pack(pop)

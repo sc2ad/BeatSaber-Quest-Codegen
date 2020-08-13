@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -26,18 +24,18 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);
     // System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x118194C
+    // Offset: 0x1192390
     void Encode(::Array<uint8_t>* buffer, int index, int count);
     // System.Void Flush()
-    // Offset: 0x1181C94
+    // Offset: 0x11926D8
     void Flush();
     // System.Void .ctor()
-    // Offset: 0x11818E0
+    // Offset: 0x1192324
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Base64Encoder* New_ctor();
   }; // System.Xml.Base64Encoder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Base64Encoder*, "System.Xml", "Base64Encoder");
 #pragma pack(pop)

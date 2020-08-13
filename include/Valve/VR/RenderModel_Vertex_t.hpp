@@ -30,6 +30,6 @@ namespace Valve::VR {
     RenderModel_Vertex_t(Valve::VR::HmdVector3_t vPosition_ = {}, Valve::VR::HmdVector3_t vNormal_ = {}, float rfTextureCoord0_ = {}, float rfTextureCoord1_ = {}) : vPosition{vPosition_}, vNormal{vNormal_}, rfTextureCoord0{rfTextureCoord0_}, rfTextureCoord1{rfTextureCoord1_} {}
   }; // Valve.VR.RenderModel_Vertex_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_Vertex_t, "Valve.VR", "RenderModel_Vertex_t");
 #pragma pack(pop)

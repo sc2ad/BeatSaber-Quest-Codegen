@@ -43,35 +43,35 @@ namespace GlobalNamespace {
     // Offset: 0x80
     int selectedBeatmapCharacteristicNum;
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x1977EE4
+    // Offset: 0xB901E0
     void add_didSelectBeatmapCharacteristicEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x1977F88
+    // Offset: 0xB90284
     void remove_didSelectBeatmapCharacteristicEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public BeatmapCharacteristicCollectionSO get_beatmapCharacteristicCollection()
-    // Offset: 0x197802C
+    // Offset: 0xB90328
     GlobalNamespace::BeatmapCharacteristicCollectionSO* get_beatmapCharacteristicCollection();
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x1978034
+    // Offset: 0xB90330
     GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void SetData(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.Int32 selectedCharacteristicNum)
-    // Offset: 0x1978254
+    // Offset: 0xB90550
     void SetData(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, int selectedCharacteristicNum);
     // private System.Void HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x19782D0
+    // Offset: 0xB905CC
     void HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0x19780F4
+    // Offset: 0xB903F0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0x19781AC
+    // Offset: 0xB904A8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0x19783EC
+    // Offset: 0xB906E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -82,6 +82,6 @@ namespace GlobalNamespace {
     static BeatmapCharacteristicsViewController* New_ctor();
   }; // BeatmapCharacteristicsViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsViewController*, "", "BeatmapCharacteristicsViewController");
 #pragma pack(pop)

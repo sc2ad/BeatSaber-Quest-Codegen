@@ -56,6 +56,6 @@ namespace UnityEngine {
     FFTWindow(int value_ = {}) : value{value_} {}
   }; // UnityEngine.FFTWindow
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FFTWindow, "UnityEngine", "FFTWindow");
 #pragma pack(pop)

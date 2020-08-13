@@ -116,6 +116,6 @@ namespace System::IO {
     FileAttributes(int value_ = {}) : value{value_} {}
   }; // System.IO.FileAttributes
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileAttributes, "System.IO", "FileAttributes");
 #pragma pack(pop)

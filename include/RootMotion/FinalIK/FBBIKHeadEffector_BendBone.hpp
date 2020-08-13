@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.FBBIKHeadEffector
 #include "RootMotion/FinalIK/FBBIKHeadEffector.hpp"
 // Completed includes
@@ -32,21 +30,21 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1C
     UnityEngine::Quaternion defaultLocalRotation;
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x1399BE0
+    // Offset: 0x13AB624
     static FBBIKHeadEffector::BendBone* New_ctor(UnityEngine::Transform* transform, float weight);
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1397220
+    // Offset: 0x13A8C64
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x1397624
+    // Offset: 0x13A9068
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1399B60
+    // Offset: 0x13AB5A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FBBIKHeadEffector::BendBone* New_ctor();
   }; // RootMotion.FinalIK.FBBIKHeadEffector/BendBone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector::BendBone*, "RootMotion.FinalIK", "FBBIKHeadEffector/BendBone");
 #pragma pack(pop)

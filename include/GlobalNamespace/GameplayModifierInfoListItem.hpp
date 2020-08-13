@@ -43,19 +43,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::UI::Image* separatorImage;
     // public System.Void set_modifierName(System.String value)
-    // Offset: 0xB3E364
+    // Offset: 0xB3C364
     void set_modifierName(::CsString* value);
     // public System.Void set_modifierDescription(System.String value)
-    // Offset: 0xB3E380
+    // Offset: 0xB3C380
     void set_modifierDescription(::CsString* value);
     // public System.Void set_modifierIcon(UnityEngine.Sprite value)
-    // Offset: 0xB3E39C
+    // Offset: 0xB3C39C
     void set_modifierIcon(UnityEngine::Sprite* value);
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0xB3E3B8
+    // Offset: 0xB3C3B8
     void set_showSeparator(bool value);
     // public System.Void .ctor()
-    // Offset: 0xB3E3D8
+    // Offset: 0xB3C3D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -65,6 +65,6 @@ namespace GlobalNamespace {
     static GameplayModifierInfoListItem* New_ctor();
   }; // GameplayModifierInfoListItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItem*, "", "GameplayModifierInfoListItem");
 #pragma pack(pop)

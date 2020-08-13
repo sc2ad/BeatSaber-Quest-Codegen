@@ -55,25 +55,25 @@ namespace System::Net::Sockets {
     // Offset: 0x38
     System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* Completed;
     // public System.Net.Sockets.Socket get_AcceptSocket()
-    // Offset: 0x11FFDE8
+    // Offset: 0x121282C
     System::Net::Sockets::Socket* get_AcceptSocket();
     // public System.Void set_AcceptSocket(System.Net.Sockets.Socket value)
-    // Offset: 0x11FFDF0
+    // Offset: 0x1212834
     void set_AcceptSocket(System::Net::Sockets::Socket* value);
     // System.Void set_BytesTransferred(System.Int32 value)
-    // Offset: 0x11FFDF8
+    // Offset: 0x121283C
     void set_BytesTransferred(int value);
     // public System.Void set_SocketError(System.Net.Sockets.SocketError value)
-    // Offset: 0x11FFE00
+    // Offset: 0x1212844
     void set_SocketError(System::Net::Sockets::SocketError value);
     // System.Void Complete()
-    // Offset: 0x11FDC58
+    // Offset: 0x121069C
     void Complete();
     // protected System.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x11FFE08
+    // Offset: 0x121284C
     void OnCompleted(System::Net::Sockets::SocketAsyncEventArgs* e);
   }; // System.Net.Sockets.SocketAsyncEventArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncEventArgs*, "System.Net.Sockets", "SocketAsyncEventArgs");
 #pragma pack(pop)

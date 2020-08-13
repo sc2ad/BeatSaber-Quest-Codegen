@@ -62,6 +62,6 @@ namespace Microsoft::Win32 {
     RegistryHive(int value_ = {}) : value{value_} {}
   }; // Microsoft.Win32.RegistryHive
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryHive, "Microsoft.Win32", "RegistryHive");
 #pragma pack(pop)

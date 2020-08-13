@@ -93,40 +93,40 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     GlobalNamespace::MovementHistoryRecorder* handMovementHistoryRecorder;
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xC0EF80
+    // Offset: 0xC209C4
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xC0F024
+    // Offset: 0xC20A68
     void remove_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0xC0F0C8
+    // Offset: 0xC20B0C
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0xC0F0D0
+    // Offset: 0xC20B14
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0xC0F0D8
+    // Offset: 0xC20B1C
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0xC0F0E0
+    // Offset: 0xC20B24
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0xC08440
+    // Offset: 0xC19E84
     GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0xC0845C
+    // Offset: 0xC19EA0
     GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // protected System.Void Awake()
-    // Offset: 0xC0F0E8
+    // Offset: 0xC20B2C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xC0F1BC
+    // Offset: 0xC20C00
     void Start();
     // protected System.Void Update()
-    // Offset: 0xC0F20C
+    // Offset: 0xC20C50
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC0F610
+    // Offset: 0xC21054
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -136,6 +136,6 @@ namespace GlobalNamespace {
     static SaberActivityCounter* New_ctor();
   }; // SaberActivityCounter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityCounter*, "", "SaberActivityCounter");
 #pragma pack(pop)

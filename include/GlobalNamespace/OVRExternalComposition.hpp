@@ -86,46 +86,46 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     int cachedChannels;
     // public System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0xCBACA4
+    // Offset: 0xCCE6E8
     static OVRExternalComposition* New_ctor(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // private System.Void RefreshCameraObjects(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0xCBAFCC
+    // Offset: 0xCCEA10
     void RefreshCameraObjects(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // private System.Void RefreshAudioFilter()
-    // Offset: 0xCBB850
+    // Offset: 0xCCF294
     void RefreshAudioFilter();
     // private System.Int32 CastMrcFrame(System.Int32 castTextureIndex)
-    // Offset: 0xCBBFF0
+    // Offset: 0xCCFA34
     int CastMrcFrame(int castTextureIndex);
     // private System.Void SetCameraTargetTexture(System.Int32 drawTextureIndex)
-    // Offset: 0xCBC370
+    // Offset: 0xCCFDB4
     void SetCameraTargetTexture(int drawTextureIndex);
     // private System.Void CleanupAudioFilter()
-    // Offset: 0xCBBE54
+    // Offset: 0xCCF898
     void CleanupAudioFilter();
     // public System.Void CacheAudioData(System.Single[] data, System.Int32 channels)
-    // Offset: 0xCBCF54
+    // Offset: 0xCD0998
     void CacheAudioData(::Array<float>* data, int channels);
     // public System.Void GetAndResetAudioData(System.Single[] audioData, System.Int32 audioFrames, System.Int32 channels)
-    // Offset: 0xCBC1C8
+    // Offset: 0xCCFC0C
     void GetAndResetAudioData(::Array<float>*& audioData, int& audioFrames, int& channels);
     // public override OVRManager/CompositionMethod CompositionMethod()
-    // Offset: 0xCBAC9C
+    // Offset: 0xCCE6E0
     // Implemented from: OVRComposition
     // Base method: OVRManager/CompositionMethod OVRComposition::CompositionMethod()
     GlobalNamespace::OVRManager::CompositionMethod CompositionMethod();
     // public override System.Void Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0xCBC4AC
+    // Offset: 0xCCFEF0
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
     void Update(UnityEngine::GameObject* gameObject, UnityEngine::Camera* mainCamera, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // public override System.Void Cleanup()
-    // Offset: 0xCBCDEC
+    // Offset: 0xCD0830
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Cleanup()
     void Cleanup();
   }; // OVRExternalComposition
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExternalComposition*, "", "OVRExternalComposition");
 #pragma pack(pop)

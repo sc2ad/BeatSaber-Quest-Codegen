@@ -157,97 +157,97 @@ namespace GlobalNamespace {
     // Offset: 0x68
     System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates;
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCA9C04
+    // Offset: 0xCBC648
     void add_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCA9CA8
+    // Offset: 0xCBC6EC
     void remove_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCA9D4C
+    // Offset: 0xCBC790
     void add_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCA9DF0
+    // Offset: 0xCBC834
     void remove_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_dashboardWasActivatedEvent(System.Action value)
-    // Offset: 0xCA9E94
+    // Offset: 0xCBC8D8
     void add_dashboardWasActivatedEvent(System::Action* value);
     // public System.Void remove_dashboardWasActivatedEvent(System.Action value)
-    // Offset: 0xCA9F38
+    // Offset: 0xCBC97C
     void remove_dashboardWasActivatedEvent(System::Action* value);
     // public System.Void add_dashboardWasDectivatedEvent(System.Action value)
-    // Offset: 0xCA9FDC
+    // Offset: 0xCBCA20
     void add_dashboardWasDectivatedEvent(System::Action* value);
     // public System.Void remove_dashboardWasDectivatedEvent(System.Action value)
-    // Offset: 0xCAA080
+    // Offset: 0xCBCAC4
     void remove_dashboardWasDectivatedEvent(System::Action* value);
     // public System.Void add_hmdUnmountedEvent(System.Action value)
-    // Offset: 0xCAA124
+    // Offset: 0xCBCB68
     void add_hmdUnmountedEvent(System::Action* value);
     // public System.Void remove_hmdUnmountedEvent(System.Action value)
-    // Offset: 0xCAA1C8
+    // Offset: 0xCBCC0C
     void remove_hmdUnmountedEvent(System::Action* value);
     // public System.Void add_hmdMountedEvent(System.Action value)
-    // Offset: 0xCAA26C
+    // Offset: 0xCBCCB0
     void add_hmdMountedEvent(System::Action* value);
     // public System.Void remove_hmdMountedEvent(System.Action value)
-    // Offset: 0xCAA310
+    // Offset: 0xCBCD54
     void remove_hmdMountedEvent(System::Action* value);
     // public VRPlatformHelper/VRPlatformSDK get_vrPlatformSDK()
-    // Offset: 0xCAA3B4
+    // Offset: 0xCBCDF8
     GlobalNamespace::VRPlatformHelper::VRPlatformSDK get_vrPlatformSDK();
     // private System.Void set_vrPlatformSDK(VRPlatformHelper/VRPlatformSDK value)
-    // Offset: 0xCAA3BC
+    // Offset: 0xCBCE00
     void set_vrPlatformSDK(GlobalNamespace::VRPlatformHelper::VRPlatformSDK value);
     // public VRPlatformHelper/XRDeviceModel get_currentXRDeviceModel()
-    // Offset: 0xCAA3C4
+    // Offset: 0xCBCE08
     GlobalNamespace::VRPlatformHelper::XRDeviceModel get_currentXRDeviceModel();
     // private System.Void set_currentXRDeviceModel(VRPlatformHelper/XRDeviceModel value)
-    // Offset: 0xCAA3CC
+    // Offset: 0xCBCE10
     void set_currentXRDeviceModel(GlobalNamespace::VRPlatformHelper::XRDeviceModel value);
     // public System.Boolean get_isAlwaysWireless()
-    // Offset: 0xCAA3D4
+    // Offset: 0xCBCE18
     bool get_isAlwaysWireless();
     // protected System.Void Awake()
-    // Offset: 0xCAA3E4
+    // Offset: 0xCBCE28
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xCAA6D4
+    // Offset: 0xCBD118
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0xCAA6F4
+    // Offset: 0xCBD138
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0xCAA704
+    // Offset: 0xCBD148
     void LateUpdate();
     // private System.Void HandleInputFocusWasCaptured()
-    // Offset: 0xCAA730
+    // Offset: 0xCBD174
     void HandleInputFocusWasCaptured();
     // private System.Void HandleInputFocusWasReleased()
-    // Offset: 0xCAA744
+    // Offset: 0xCBD188
     void HandleInputFocusWasReleased();
     // private System.Void HandleHMDMounted()
-    // Offset: 0xCAA758
+    // Offset: 0xCBD19C
     void HandleHMDMounted();
     // private System.Void HandleHMDUnmounted()
-    // Offset: 0xCAA76C
+    // Offset: 0xCBD1B0
     void HandleHMDUnmounted();
     // private System.Void HandleDashboardWasActivated()
-    // Offset: 0xCAA780
+    // Offset: 0xCBD1C4
     void HandleDashboardWasActivated();
     // private System.Void HandleDashboardWasDectivated()
-    // Offset: 0xCAA794
+    // Offset: 0xCBD1D8
     void HandleDashboardWasDectivated();
     // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0xCA9430
+    // Offset: 0xCBBE74
     bool GetNodePose(UnityEngine::XR::XRNode nodeType, int idx, UnityEngine::Vector3& pos, UnityEngine::Quaternion& rot);
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single strength)
-    // Offset: 0xCA15E4
+    // Offset: 0xCB4028
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float strength);
     // public System.Void AdjustPlatformSpecificControllerTransform(UnityEngine.XR.XRNode node, UnityEngine.Transform transform, UnityEngine.Vector3 addPosition, UnityEngine.Vector3 addRotation)
-    // Offset: 0xCA9700
+    // Offset: 0xCBC144
     void AdjustPlatformSpecificControllerTransform(UnityEngine::XR::XRNode node, UnityEngine::Transform* transform, UnityEngine::Vector3 addPosition, UnityEngine::Vector3 addRotation);
     // public System.Void .ctor()
-    // Offset: 0xCAA878
+    // Offset: 0xCBD2BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -257,7 +257,7 @@ namespace GlobalNamespace {
     static VRPlatformHelper* New_ctor();
   }; // VRPlatformHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRPlatformHelper*, "", "VRPlatformHelper");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRPlatformHelper::VRPlatformSDK, "", "VRPlatformHelper/VRPlatformSDK");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRPlatformHelper::XRDeviceModel, "", "VRPlatformHelper/XRDeviceModel");

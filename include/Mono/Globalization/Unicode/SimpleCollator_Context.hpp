@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: Mono.Globalization.Unicode.SimpleCollator
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 // Including type: System.Globalization.CompareOptions
@@ -41,10 +39,10 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: Context
     Context(System::Globalization::CompareOptions Option_ = {}, uint8_t* NeverMatchFlags_ = {}, uint8_t* AlwaysMatchFlags_ = {}, uint8_t* Buffer1_ = {}, uint8_t* Buffer2_ = {}, int PrevCode_ = {}, uint8_t* PrevSortKey_ = {}) : Option{Option_}, NeverMatchFlags{NeverMatchFlags_}, AlwaysMatchFlags{AlwaysMatchFlags_}, Buffer1{Buffer1_}, Buffer2{Buffer2_}, PrevCode{PrevCode_}, PrevSortKey{PrevSortKey_} {}
     // public System.Void .ctor(System.Globalization.CompareOptions opt, System.Byte* alwaysMatchFlags, System.Byte* neverMatchFlags, System.Byte* buffer1, System.Byte* buffer2, System.Byte* prev1)
-    // Offset: 0xA3CAF4
+    // Offset: 0xA3CB70
     static SimpleCollator::Context* New_ctor(System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1, uint8_t* buffer2, uint8_t* prev1);
   }; // Mono.Globalization.Unicode.SimpleCollator/Context
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Context, "Mono.Globalization.Unicode", "SimpleCollator/Context");
 #pragma pack(pop)

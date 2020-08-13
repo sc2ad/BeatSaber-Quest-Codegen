@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Material* material;
     // public System.Int32 get_renderingPriority()
-    // Offset: 0x180DD68
+    // Offset: 0x181E7AC
     int get_renderingPriority();
     // public UnityEngine.Material get_material()
-    // Offset: 0x180DD70
+    // Offset: 0x181E7B4
     UnityEngine::Material* get_material();
     // public System.Void .ctor()
-    // Offset: 0x180DD78
+    // Offset: 0x181E7BC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     static BloomPrePassLightTypeSO* New_ctor();
   }; // BloomPrePassLightTypeSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLightTypeSO*, "", "BloomPrePassLightTypeSO");
 #pragma pack(pop)

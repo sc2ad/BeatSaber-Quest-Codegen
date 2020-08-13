@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin/Sizef
 #include "GlobalNamespace/OVRPlugin_Sizef.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

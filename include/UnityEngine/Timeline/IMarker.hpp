@@ -31,6 +31,6 @@ namespace UnityEngine::Timeline {
     void UnityEngine_Timeline_IMarker_Initialize(UnityEngine::Timeline::TrackAsset* parent);
   }; // UnityEngine.Timeline.IMarker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IMarker*, "UnityEngine.Timeline", "IMarker");
 #pragma pack(pop)

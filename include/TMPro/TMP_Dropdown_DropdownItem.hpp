@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: TMPro.TMP_Dropdown
 #include "TMPro/TMP_Dropdown.hpp"
 // Completed includes
@@ -54,41 +52,41 @@ namespace TMPro {
     // Offset: 0x30
     UnityEngine::UI::Toggle* m_Toggle;
     // public TMPro.TMP_Text get_text()
-    // Offset: 0xB6E724
+    // Offset: 0xB6C724
     TMPro::TMP_Text* get_text();
     // public System.Void set_text(TMPro.TMP_Text value)
-    // Offset: 0xB6E72C
+    // Offset: 0xB6C72C
     void set_text(TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0xB6E734
+    // Offset: 0xB6C734
     UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0xB6E73C
+    // Offset: 0xB6C73C
     void set_image(UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0xB6E744
+    // Offset: 0xB6C744
     UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0xB6E74C
+    // Offset: 0xB6C74C
     void set_rectTransform(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0xB6E754
+    // Offset: 0xB6C754
     UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0xB6E75C
+    // Offset: 0xB6C75C
     void set_toggle(UnityEngine::UI::Toggle* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xB6E764
+    // Offset: 0xB6C764
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xB6E7F0
+    // Offset: 0xB6C7F0
     // Implemented from: UnityEngine.EventSystems.ICancelHandler
     // Base method: System.Void ICancelHandler::OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xB6E894
+    // Offset: 0xB6C894
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -98,6 +96,6 @@ namespace TMPro {
     static TMP_Dropdown::DropdownItem* New_ctor();
   }; // TMPro.TMP_Dropdown/DropdownItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::DropdownItem*, "TMPro", "TMP_Dropdown/DropdownItem");
 #pragma pack(pop)

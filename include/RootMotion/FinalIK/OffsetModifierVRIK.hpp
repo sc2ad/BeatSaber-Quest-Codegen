@@ -37,25 +37,25 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     float lastTime;
     // protected System.Single get_deltaTime()
-    // Offset: 0x121AA00
+    // Offset: 0x122C444
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
     // Offset: 0xFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x121AA2C
+    // Offset: 0x122C470
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x121AA58
+    // Offset: 0x122C49C
     System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x121AB00
+    // Offset: 0x122C544
     void ModifyOffset();
     // protected System.Void OnDestroy()
-    // Offset: 0x121AC0C
+    // Offset: 0x122C650
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x121AD28
+    // Offset: 0x122C76C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -65,6 +65,6 @@ namespace RootMotion::FinalIK {
     static OffsetModifierVRIK* New_ctor();
   }; // RootMotion.FinalIK.OffsetModifierVRIK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifierVRIK*, "RootMotion.FinalIK", "OffsetModifierVRIK");
 #pragma pack(pop)

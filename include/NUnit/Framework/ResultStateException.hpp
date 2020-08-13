@@ -31,17 +31,17 @@ namespace NUnit::Framework {
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x18E1F70
+    // Offset: 0x18F29B4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static ResultStateException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18E1FE8
+    // Offset: 0x18F2A2C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ResultStateException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // NUnit.Framework.ResultStateException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ResultStateException*, "NUnit.Framework", "ResultStateException");
 #pragma pack(pop)

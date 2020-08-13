@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapSaveData
 #include "GlobalNamespace/BeatmapSaveData.hpp"
 // Completed includes
@@ -20,6 +21,6 @@ namespace GlobalNamespace {
     void MoveTime(float offset);
   }; // BeatmapSaveData/ITime
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ITime*, "", "BeatmapSaveData/ITime");
 #pragma pack(pop)

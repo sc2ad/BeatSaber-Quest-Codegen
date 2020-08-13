@@ -66,28 +66,28 @@ namespace GlobalNamespace {
     // Offset: 0x4C
     float lastReportedHeight;
     // public System.Void add_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xBC9114
+    // Offset: 0xBDBB58
     void add_playerHeightDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xBC91B8
+    // Offset: 0xBDBBFC
     void remove_playerHeightDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_playerHeight()
-    // Offset: 0xBC925C
+    // Offset: 0xBDBCA0
     float get_playerHeight();
     // protected System.Void Start()
-    // Offset: 0xBC9264
+    // Offset: 0xBDBCA8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBC9384
+    // Offset: 0xBDBDC8
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0xBC9418
+    // Offset: 0xBDBE5C
     void LateUpdate();
     // private System.Void BeatmapObjectSpawnCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0xBC959C
+    // Offset: 0xBDBFE0
     void BeatmapObjectSpawnCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void .ctor()
-    // Offset: 0xBC969C
+    // Offset: 0xBDC0E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -97,6 +97,6 @@ namespace GlobalNamespace {
     static PlayerHeightDetector* New_ctor();
   }; // PlayerHeightDetector
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightDetector*, "", "PlayerHeightDetector");
 #pragma pack(pop)

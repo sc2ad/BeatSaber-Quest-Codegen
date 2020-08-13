@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Collections.IDictionary
 #include "System/Collections/IDictionary.hpp"
 // Including type: System.ICloneable
@@ -80,57 +78,57 @@ namespace System::Collections {
     // Set static field: static private System.Object[] emptyArray
     static void _set_emptyArray(::Array<::CsObject*>* value);
     // private System.Void Init()
-    // Offset: 0x10AAA28
+    // Offset: 0x10BB46C
     void Init();
     // public System.Void .ctor(System.Int32 initialCapacity)
-    // Offset: 0x10AAB24
+    // Offset: 0x10BB568
     static SortedList* New_ctor(int initialCapacity);
     // public System.Void .ctor(System.Collections.IComparer comparer)
-    // Offset: 0x10AAC7C
+    // Offset: 0x10BB6C0
     static SortedList* New_ctor(System::Collections::IComparer* comparer);
     // public System.Void .ctor(System.Collections.IComparer comparer, System.Int32 capacity)
-    // Offset: 0x10AACC8
+    // Offset: 0x10BB70C
     static SortedList* New_ctor(System::Collections::IComparer* comparer, int capacity);
     // public System.Void Add(System.Object key, System.Object value)
-    // Offset: 0x10AAD00
+    // Offset: 0x10BB744
     void Add(::CsObject* key, ::CsObject* value);
     // public System.Int32 get_Capacity()
-    // Offset: 0x10AAFF4
+    // Offset: 0x10BBA38
     int get_Capacity();
     // public System.Void set_Capacity(System.Int32 value)
-    // Offset: 0x10AB010
+    // Offset: 0x10BBA54
     void set_Capacity(int value);
     // private System.Void EnsureCapacity(System.Int32 min)
-    // Offset: 0x10AB564
+    // Offset: 0x10BBFA8
     void EnsureCapacity(int min);
     // public System.Object GetByIndex(System.Int32 index)
-    // Offset: 0x10AB5B0
+    // Offset: 0x10BBFF4
     ::CsObject* GetByIndex(int index);
     // public System.Object GetKey(System.Int32 index)
-    // Offset: 0x10AB810
+    // Offset: 0x10BC254
     ::CsObject* GetKey(int index);
     // public System.Collections.IList GetKeyList()
-    // Offset: 0x10AB904
+    // Offset: 0x10BC348
     System::Collections::IList* GetKeyList();
     // public System.Int32 IndexOfKey(System.Object key)
-    // Offset: 0x10ABB88
+    // Offset: 0x10BC5CC
     int IndexOfKey(::CsObject* key);
     // private System.Void Insert(System.Int32 index, System.Object key, System.Object value)
-    // Offset: 0x10AAEA8
+    // Offset: 0x10BB8EC
     void Insert(int index, ::CsObject* key, ::CsObject* value);
     // public System.Void RemoveAt(System.Int32 index)
-    // Offset: 0x10ABC58
+    // Offset: 0x10BC69C
     void RemoveAt(int index);
     // static private System.Void .cctor()
-    // Offset: 0x10ABDDC
+    // Offset: 0x10BC820
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x10AAA00
+    // Offset: 0x10BB444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SortedList* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x10AB1E8
+    // Offset: 0x10BBC2C
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -138,7 +136,7 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Collections.ICollection get_Keys()
-    // Offset: 0x10AB1F0
+    // Offset: 0x10BBC34
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.ICollection IDictionary::get_Keys()
     System::Collections::ICollection* get_Keys();
@@ -146,12 +144,12 @@ namespace System::Collections {
     // Maps to method: get_Keys
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // public System.Object Clone()
-    // Offset: 0x10AB200
+    // Offset: 0x10BBC44
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::CsObject* Clone();
     // public System.Boolean Contains(System.Object key)
-    // Offset: 0x10AB2CC
+    // Offset: 0x10BBD10
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Boolean IDictionary::Contains(System.Object key)
     bool Contains(::CsObject* key);
@@ -159,7 +157,7 @@ namespace System::Collections {
     // Maps to method: Contains
     bool System_Collections_IDictionary_Contains(::CsObject* key);
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x10AB2F4
+    // Offset: 0x10BBD38
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 arrayIndex)
     void CopyTo(System::Array* array, int arrayIndex);
@@ -167,12 +165,12 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int arrayIndex);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x10AB6A4
+    // Offset: 0x10BC0E8
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x10AB798
+    // Offset: 0x10BC1DC
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.IDictionaryEnumerator IDictionary::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
@@ -180,7 +178,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
     // public System.Object get_Item(System.Object key)
-    // Offset: 0x10AB9CC
+    // Offset: 0x10BC410
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Object IDictionary::get_Item(System.Object key)
     ::CsObject* get_Item(::CsObject* key);
@@ -188,7 +186,7 @@ namespace System::Collections {
     // Maps to method: get_Item
     ::CsObject* System_Collections_IDictionary_get_Item(::CsObject* key);
     // public System.Void set_Item(System.Object key, System.Object value)
-    // Offset: 0x10ABA30
+    // Offset: 0x10BC474
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::set_Item(System.Object key, System.Object value)
     void set_Item(::CsObject* key, ::CsObject* value);
@@ -197,6 +195,6 @@ namespace System::Collections {
     void System_Collections_IDictionary_set_Item(::CsObject* key, ::CsObject* value);
   }; // System.Collections.SortedList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList*, "System.Collections", "SortedList");
 #pragma pack(pop)

@@ -14,13 +14,13 @@ namespace GlobalNamespace {
   class LostDBFix : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void OnPreRender()
-    // Offset: 0xBE8078
+    // Offset: 0xBF9ABC
     void OnPreRender();
     // private System.Void OnPostRender()
-    // Offset: 0xBE807C
+    // Offset: 0xBF9AC0
     void OnPostRender();
     // public System.Void .ctor()
-    // Offset: 0xBE8080
+    // Offset: 0xBF9AC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -30,6 +30,6 @@ namespace GlobalNamespace {
     static LostDBFix* New_ctor();
   }; // LostDBFix
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LostDBFix*, "", "LostDBFix");
 #pragma pack(pop)

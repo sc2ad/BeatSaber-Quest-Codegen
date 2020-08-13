@@ -29,40 +29,40 @@ namespace System::Threading {
     // Creating value type constructor for type: SpinLock
     SpinLock(int m_owner_ = {}) : m_owner{m_owner_} {}
     // public System.Void .ctor(System.Boolean enableThreadOwnerTracking)
-    // Offset: 0xA29124
+    // Offset: 0xA291A0
     static SpinLock* New_ctor(bool enableThreadOwnerTracking);
     // public System.Void Enter(System.Boolean lockTaken)
-    // Offset: 0xA29130
+    // Offset: 0xA291AC
     void Enter(bool& lockTaken);
     // public System.Void TryEnter(System.Int32 millisecondsTimeout, System.Boolean lockTaken)
-    // Offset: 0xA29138
+    // Offset: 0xA291B4
     void TryEnter(int millisecondsTimeout, bool& lockTaken);
     // private System.Void ContinueTryEnter(System.Int32 millisecondsTimeout, System.Boolean lockTaken)
-    // Offset: 0xA29140
+    // Offset: 0xA291BC
     void ContinueTryEnter(int millisecondsTimeout, bool& lockTaken);
     // private System.Void DecrementWaiters()
-    // Offset: 0xA29148
+    // Offset: 0xA291C4
     void DecrementWaiters();
     // private System.Void ContinueTryEnterWithThreadTracking(System.Int32 millisecondsTimeout, System.UInt32 startTime, System.Boolean lockTaken)
-    // Offset: 0xA29150
+    // Offset: 0xA291CC
     void ContinueTryEnterWithThreadTracking(int millisecondsTimeout, uint startTime, bool& lockTaken);
     // public System.Void Exit(System.Boolean useMemoryBarrier)
-    // Offset: 0xA29158
+    // Offset: 0xA291D4
     void Exit(bool useMemoryBarrier);
     // private System.Void ExitSlowPath(System.Boolean useMemoryBarrier)
-    // Offset: 0xA29164
+    // Offset: 0xA291E0
     void ExitSlowPath(bool useMemoryBarrier);
     // public System.Boolean get_IsHeldByCurrentThread()
-    // Offset: 0xA29170
+    // Offset: 0xA291EC
     bool get_IsHeldByCurrentThread();
     // public System.Boolean get_IsThreadOwnerTrackingEnabled()
-    // Offset: 0xA29178
+    // Offset: 0xA291F4
     bool get_IsThreadOwnerTrackingEnabled();
     // static private System.Void .cctor()
-    // Offset: 0xCC7708
+    // Offset: 0xCDA14C
     static void _cctor();
   }; // System.Threading.SpinLock
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
 #pragma pack(pop)

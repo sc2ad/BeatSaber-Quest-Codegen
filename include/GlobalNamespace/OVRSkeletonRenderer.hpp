@@ -160,46 +160,46 @@ namespace GlobalNamespace {
     // Offset: 0x87
     bool ShouldUseSystemGestureMaterial;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x18E3A6C
+    // Offset: 0x18F44B0
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x18E3A74
+    // Offset: 0x18F44B8
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x18E3A80
+    // Offset: 0x18F44C4
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x18E3A88
+    // Offset: 0x18F44CC
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x18E3A94
+    // Offset: 0x18F44D8
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x18E3A9C
+    // Offset: 0x18F44E0
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x18E3AA8
+    // Offset: 0x18F44EC
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x18E3AB0
+    // Offset: 0x18F44F4
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0x18E3ABC
+    // Offset: 0x18F4500
     void Awake();
     // private System.Void Start()
-    // Offset: 0x18E3BA0
+    // Offset: 0x18F45E4
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x18E3C34
+    // Offset: 0x18F4678
     void Initialize();
     // public System.Void Update()
-    // Offset: 0x18E4768
+    // Offset: 0x18F51AC
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x18E4E68
+    // Offset: 0x18F58AC
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x18E4FD8
+    // Offset: 0x18F5A1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -208,13 +208,13 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRSkeletonRenderer* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18E4FE8
+    // Offset: 0x18F5A2C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRSkeletonRenderer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer*, "", "OVRSkeletonRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, "", "OVRSkeletonRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior, "", "OVRSkeletonRenderer/SystemGestureBehavior");

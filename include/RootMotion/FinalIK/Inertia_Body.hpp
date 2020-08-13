@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.Inertia
 #include "RootMotion/FinalIK/Inertia.hpp"
 // Completed includes
@@ -63,18 +61,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     bool firstUpdate;
     // public System.Void Reset()
-    // Offset: 0x1431CF8
+    // Offset: 0x144173C
     void Reset();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, System.Single deltaTime)
-    // Offset: 0x1431E90
+    // Offset: 0x14418D4
     void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x1432210
+    // Offset: 0x1441C54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Inertia::Body* New_ctor();
   }; // RootMotion.FinalIK.Inertia/Body
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia::Body*, "RootMotion.FinalIK", "Inertia/Body");
 #pragma pack(pop)

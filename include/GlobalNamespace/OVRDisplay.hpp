@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRPose
 #include "GlobalNamespace/OVRPose.hpp"
 // Including type: OVRManager/TrackingOrigin
@@ -64,63 +62,63 @@ namespace GlobalNamespace {
     // Offset: 0x48
     System::Action* RecenteredPose;
     // public System.Void Update()
-    // Offset: 0xCB9364
+    // Offset: 0xCCCDA8
     void Update();
     // public System.Void add_RecenteredPose(System.Action value)
-    // Offset: 0xCB9650
+    // Offset: 0xCCD094
     void add_RecenteredPose(System::Action* value);
     // public System.Void remove_RecenteredPose(System.Action value)
-    // Offset: 0xCB96F4
+    // Offset: 0xCCD138
     void remove_RecenteredPose(System::Action* value);
     // public System.Void RecenterPose()
-    // Offset: 0xCB9798
+    // Offset: 0xCCD1DC
     void RecenterPose();
     // public UnityEngine.Vector3 get_acceleration()
-    // Offset: 0xCB9814
+    // Offset: 0xCCD258
     UnityEngine::Vector3 get_acceleration();
     // public UnityEngine.Vector3 get_angularAcceleration()
-    // Offset: 0xCB9940
+    // Offset: 0xCCD384
     UnityEngine::Vector3 get_angularAcceleration();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0xCB9A6C
+    // Offset: 0xCCD4B0
     UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0xCB9B98
+    // Offset: 0xCCD5DC
     UnityEngine::Vector3 get_angularVelocity();
     // public OVRDisplay/EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0xCB912C
+    // Offset: 0xCCCB70
     GlobalNamespace::OVRDisplay::EyeRenderDesc GetEyeRenderDesc(UnityEngine::XR::XRNode eye);
     // public OVRDisplay/LatencyData get_latency()
-    // Offset: 0xCB9CC4
+    // Offset: 0xCCD708
     GlobalNamespace::OVRDisplay::LatencyData get_latency();
     // public System.Single get_appFramerate()
-    // Offset: 0xCB9E90
+    // Offset: 0xCCD8D4
     float get_appFramerate();
     // public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0xCB9F2C
+    // Offset: 0xCCD970
     int get_recommendedMSAALevel();
     // public System.Single[] get_displayFrequenciesAvailable()
-    // Offset: 0xCB9F98
+    // Offset: 0xCCD9DC
     ::Array<float>* get_displayFrequenciesAvailable();
     // public System.Single get_displayFrequency()
-    // Offset: 0xCB9FF8
+    // Offset: 0xCCDA3C
     float get_displayFrequency();
     // public System.Void set_displayFrequency(System.Single value)
-    // Offset: 0xCBA058
+    // Offset: 0xCCDA9C
     void set_displayFrequency(float value);
     // private System.Void UpdateTextures()
-    // Offset: 0xCB9338
+    // Offset: 0xCCCD7C
     void UpdateTextures();
     // private System.Void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0xCBA0C8
+    // Offset: 0xCCDB0C
     void ConfigureEyeDesc(UnityEngine::XR::XRNode eye);
     // public System.Void .ctor()
-    // Offset: 0xCB9188
+    // Offset: 0xCCCBCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRDisplay* New_ctor();
   }; // OVRDisplay
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay*, "", "OVRDisplay");
 #pragma pack(pop)

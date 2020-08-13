@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: HTTPLeaderboardsModel
 #include "GlobalNamespace/HTTPLeaderboardsModel.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
@@ -64,6 +64,6 @@ namespace GlobalNamespace {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // HTTPLeaderboardsModel/<SendLevelScoreResultAsync>d__13
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__13, "", "HTTPLeaderboardsModel/<SendLevelScoreResultAsync>d__13");
 #pragma pack(pop)

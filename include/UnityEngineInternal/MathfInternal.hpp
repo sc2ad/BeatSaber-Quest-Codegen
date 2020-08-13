@@ -27,10 +27,10 @@ namespace UnityEngineInternal {
     // Creating value type constructor for type: MathfInternal
     MathfInternal() {}
     // static private System.Void .cctor()
-    // Offset: 0x138477C
+    // Offset: 0x13971C0
     static void _cctor();
   }; // UnityEngineInternal.MathfInternal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::MathfInternal, "UnityEngineInternal", "MathfInternal");
 #pragma pack(pop)

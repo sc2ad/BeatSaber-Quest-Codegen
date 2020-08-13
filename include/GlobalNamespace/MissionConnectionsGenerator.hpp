@@ -48,22 +48,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* missionNodes;
     // private MissionNode get__rootMissionNode()
-    // Offset: 0xBEEE18
+    // Offset: 0xC0085C
     GlobalNamespace::MissionNode* get__rootMissionNode();
     // private System.Void CreateNodeConnections()
-    // Offset: 0xBEEE34
+    // Offset: 0xC00878
     void CreateNodeConnections();
     // private System.Void RemoveOldConnections()
-    // Offset: 0xBEEEC8
+    // Offset: 0xC0090C
     void RemoveOldConnections();
     // private System.Void CreateConnections(MissionNode missionNode, System.Collections.Generic.List`1<MissionNode> visitedNodes)
-    // Offset: 0xBEF284
+    // Offset: 0xC00CC8
     void CreateConnections(GlobalNamespace::MissionNode* missionNode, System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* visitedNodes);
     // private MissionNodeConnection CreateConnectionBetweenNodes(MissionNode parentMissionNode, MissionNode childMissionNode)
-    // Offset: 0xBEF400
+    // Offset: 0xC00E44
     GlobalNamespace::MissionNodeConnection* CreateConnectionBetweenNodes(GlobalNamespace::MissionNode* parentMissionNode, GlobalNamespace::MissionNode* childMissionNode);
     // public System.Void .ctor()
-    // Offset: 0xBEF4D4
+    // Offset: 0xC00F18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -73,6 +73,6 @@ namespace GlobalNamespace {
     static MissionConnectionsGenerator* New_ctor();
   }; // MissionConnectionsGenerator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionConnectionsGenerator*, "", "MissionConnectionsGenerator");
 #pragma pack(pop)

@@ -2,7 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.LeaderboardEntryList
 #include "Oculus/Platform/Models/LeaderboardEntryList.hpp"
 // Including type: Oculus.Platform.Models.LeaderboardEntry

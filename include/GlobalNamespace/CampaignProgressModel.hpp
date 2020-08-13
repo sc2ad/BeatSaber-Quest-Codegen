@@ -42,40 +42,40 @@ namespace GlobalNamespace {
     // Offset: 0x34
     int numberOfClearedMissions;
     // public System.Int32 get_numberOfClearedMissions()
-    // Offset: 0xB5F808
+    // Offset: 0xB5D808
     int get_numberOfClearedMissions();
     // protected System.Void Awake()
-    // Offset: 0xB5F970
+    // Offset: 0xB5D970
     void Awake();
     // public System.Boolean IsMissionRegistered(System.String missionId)
-    // Offset: 0xB5F9E0
+    // Offset: 0xB5D9E0
     bool IsMissionRegistered(::CsString* missionId);
     // public System.Void RegisterMissionId(System.String missionId)
-    // Offset: 0xB5FA48
+    // Offset: 0xB5DA48
     void RegisterMissionId(::CsString* missionId);
     // public System.Boolean IsMissionCleared(System.String missionId)
-    // Offset: 0xB5FABC
+    // Offset: 0xB5DABC
     bool IsMissionCleared(::CsString* missionId);
     // public System.Boolean IsMissionFinal(System.String missionId)
-    // Offset: 0xB5FAF0
+    // Offset: 0xB5DAF0
     bool IsMissionFinal(::CsString* missionId);
     // public System.Void SetFinalMissionId(System.String missionId)
-    // Offset: 0xB5FAFC
+    // Offset: 0xB5DAFC
     void SetFinalMissionId(::CsString* missionId);
     // public System.Boolean WillFinishGameAfterThisMission(System.String missionId)
-    // Offset: 0xB5F588
+    // Offset: 0xB5D588
     bool WillFinishGameAfterThisMission(::CsString* missionId);
     // public System.Void SetMissionCleared(System.String missionId)
-    // Offset: 0xB5F5D4
+    // Offset: 0xB5D5D4
     void SetMissionCleared(::CsString* missionId);
     // public System.Void __SetMissionCleared(System.String missionId, System.Boolean cleared)
-    // Offset: 0xB5FB04
+    // Offset: 0xB5DB04
     void __SetMissionCleared(::CsString* missionId, bool cleared);
     // private System.Int32 UpdateNumberOfClearedMissions()
-    // Offset: 0xB5F83C
+    // Offset: 0xB5D83C
     int UpdateNumberOfClearedMissions();
     // public System.Void .ctor()
-    // Offset: 0xB5FB54
+    // Offset: 0xB5DB54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -85,6 +85,6 @@ namespace GlobalNamespace {
     static CampaignProgressModel* New_ctor();
   }; // CampaignProgressModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignProgressModel*, "", "CampaignProgressModel");
 #pragma pack(pop)

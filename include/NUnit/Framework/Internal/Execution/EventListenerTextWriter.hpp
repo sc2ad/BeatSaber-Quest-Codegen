@@ -27,33 +27,33 @@ namespace NUnit::Framework::Internal::Execution {
     // Offset: 0x30
     ::CsString* streamName;
     // public System.Void .ctor(System.String streamName, System.IO.TextWriter defaultWriter)
-    // Offset: 0x10756C0
+    // Offset: 0x1085104
     static EventListenerTextWriter* New_ctor(::CsString* streamName, System::IO::TextWriter* defaultWriter);
     // private System.Boolean TrySendToListener(System.String text)
-    // Offset: 0x10757B0
+    // Offset: 0x10851F4
     bool TrySendToListener(::CsString* text);
     // public override System.Void Write(System.Char aChar)
-    // Offset: 0x1075758
+    // Offset: 0x108519C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char aChar)
     void Write(::Il2CppChar aChar);
     // public override System.Void Write(System.String aString)
-    // Offset: 0x107592C
+    // Offset: 0x1085370
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String aString)
     void Write(::CsString* aString);
     // public override System.Void WriteLine(System.String aString)
-    // Offset: 0x107597C
+    // Offset: 0x10853C0
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String aString)
     void WriteLine(::CsString* aString);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x10759EC
+    // Offset: 0x1085430
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
   }; // NUnit.Framework.Internal.Execution.EventListenerTextWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::EventListenerTextWriter*, "NUnit.Framework.Internal.Execution", "EventListenerTextWriter");
 #pragma pack(pop)

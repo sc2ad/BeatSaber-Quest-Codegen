@@ -37,22 +37,22 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x28
     System::Diagnostics::Tracing::EventTags Tags;
     // public System.String get_Name()
-    // Offset: 0xC86590
+    // Offset: 0xC97FD4
     ::CsString* get_Name();
     // System.Diagnostics.Tracing.EventLevel get_Level()
-    // Offset: 0xC86598
+    // Offset: 0xC97FDC
     System::Diagnostics::Tracing::EventLevel get_Level();
     // System.Diagnostics.Tracing.EventOpcode get_Opcode()
-    // Offset: 0xC865A0
+    // Offset: 0xC97FE4
     System::Diagnostics::Tracing::EventOpcode get_Opcode();
     // System.Diagnostics.Tracing.EventKeywords get_Keywords()
-    // Offset: 0xC865A8
+    // Offset: 0xC97FEC
     System::Diagnostics::Tracing::EventKeywords get_Keywords();
     // System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0xC865B0
+    // Offset: 0xC97FF4
     System::Diagnostics::Tracing::EventTags get_Tags();
   }; // System.Diagnostics.Tracing.EventDataAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventDataAttribute*, "System.Diagnostics.Tracing", "EventDataAttribute");
 #pragma pack(pop)

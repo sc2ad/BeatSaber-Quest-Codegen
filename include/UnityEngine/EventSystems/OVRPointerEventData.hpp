@@ -29,18 +29,18 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x148
     UnityEngine::Vector2 swipeStart;
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x18E88E8
+    // Offset: 0x18F932C
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.Void PointerEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     static OVRPointerEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem);
     // public override System.String ToString()
-    // Offset: 0x18EAA14
+    // Offset: 0x18FB458
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.String PointerEventData::ToString()
     ::CsString* ToString();
   }; // UnityEngine.EventSystems.OVRPointerEventData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPointerEventData*, "UnityEngine.EventSystems", "OVRPointerEventData");
 #pragma pack(pop)

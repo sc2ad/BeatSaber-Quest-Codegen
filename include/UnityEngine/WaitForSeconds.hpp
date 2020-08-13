@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.YieldInstruction
 #include "UnityEngine/YieldInstruction.hpp"
 // Completed includes
@@ -16,10 +17,10 @@ namespace UnityEngine {
     // Offset: 0x10
     float m_Seconds;
     // public System.Void .ctor(System.Single seconds)
-    // Offset: 0x1384168
+    // Offset: 0x1396BAC
     static WaitForSeconds* New_ctor(float seconds);
   }; // UnityEngine.WaitForSeconds
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSeconds*, "UnityEngine", "WaitForSeconds");
 #pragma pack(pop)

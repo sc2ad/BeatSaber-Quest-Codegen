@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: NUnit.Framework.Internal.TestNameGenerator/NameFragment
-#include "NUnit/Framework/Internal/TestNameGenerator_NameFragment.hpp"
 // Including type: NUnit.Framework.Internal.TestNameGenerator
 #include "NUnit/Framework/Internal/TestNameGenerator.hpp"
+// Including type: NUnit.Framework.Internal.TestNameGenerator/NameFragment
+#include "NUnit/Framework/Internal/TestNameGenerator_NameFragment.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -23,18 +23,18 @@ namespace NUnit::Framework::Internal {
   class TestNameGenerator::NamespaceFragment : public NUnit::Framework::Internal::TestNameGenerator::NameFragment {
     public:
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x18DC1EC
+    // Offset: 0x18ECC30
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::CsString* GetText(System::Reflection::MethodInfo* method, ::Array<::CsObject*>* args);
     // public System.Void .ctor()
-    // Offset: 0x18DAF40
+    // Offset: 0x18EB984
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.Void NameFragment::.ctor()
     // Base method: System.Void Object::.ctor()
     static TestNameGenerator::NamespaceFragment* New_ctor();
   }; // NUnit.Framework.Internal.TestNameGenerator/NamespaceFragment
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::NamespaceFragment*, "NUnit.Framework.Internal", "TestNameGenerator/NamespaceFragment");
 #pragma pack(pop)

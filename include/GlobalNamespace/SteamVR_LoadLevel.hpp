@@ -142,37 +142,37 @@ namespace GlobalNamespace {
     // Offset: 0xF0
     bool autoTriggerOnEnable;
     // static public System.Boolean get_loading()
-    // Offset: 0xD70714
+    // Offset: 0xD84158
     static bool get_loading();
     // static public System.Single get_progress()
-    // Offset: 0xD707AC
+    // Offset: 0xD841F0
     static float get_progress();
     // static public UnityEngine.Texture get_progressTexture()
-    // Offset: 0xD708C0
+    // Offset: 0xD84304
     static UnityEngine::Texture* get_progressTexture();
     // private System.Void OnEnable()
-    // Offset: 0xD70998
+    // Offset: 0xD843DC
     void OnEnable();
     // public System.Void Trigger()
-    // Offset: 0xD709A8
+    // Offset: 0xD843EC
     void Trigger();
     // static public System.Void Begin(System.String levelName, System.Boolean showGrid, System.Single fadeOutTime, System.Single r, System.Single g, System.Single b, System.Single a)
-    // Offset: 0xD70ABC
+    // Offset: 0xD84500
     static void Begin(::CsString* levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
     // private System.Void OnGUI()
-    // Offset: 0xD70BD0
+    // Offset: 0xD84614
     void OnGUI();
     // private System.Void Update()
-    // Offset: 0xD713C8
+    // Offset: 0xD84E0C
     void Update();
     // private System.Collections.IEnumerator LoadLevel()
-    // Offset: 0xD70A40
+    // Offset: 0xD84484
     System::Collections::IEnumerator* LoadLevel();
     // private System.UInt64 GetOverlayHandle(System.String overlayName, UnityEngine.Transform transform, System.Single widthInMeters)
-    // Offset: 0xD7102C
+    // Offset: 0xD84A70
     uint64_t GetOverlayHandle(::CsString* overlayName, UnityEngine::Transform* transform, float widthInMeters);
     // public System.Void .ctor()
-    // Offset: 0xD71644
+    // Offset: 0xD85088
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -181,12 +181,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_LoadLevel* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xD716A8
+    // Offset: 0xD850EC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SteamVR_LoadLevel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_LoadLevel*, "", "SteamVR_LoadLevel");
 #pragma pack(pop)

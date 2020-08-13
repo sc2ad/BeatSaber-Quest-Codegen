@@ -50,6 +50,6 @@ namespace Zenject {
     BindingInheritanceMethods(int value_ = {}) : value{value_} {}
   }; // Zenject.BindingInheritanceMethods
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingInheritanceMethods, "Zenject", "BindingInheritanceMethods");
 #pragma pack(pop)

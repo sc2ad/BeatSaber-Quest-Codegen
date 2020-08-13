@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BloomPrePassRendererSO
 #include "GlobalNamespace/BloomPrePassRendererSO.hpp"
 // Completed includes
@@ -29,12 +27,12 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int preallocateCount;
     // public System.Void .ctor()
-    // Offset: 0x180EF2C
+    // Offset: 0x181F970
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BloomPrePassRendererSO::PreallocationData* New_ctor();
   }; // BloomPrePassRendererSO/PreallocationData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO::PreallocationData*, "", "BloomPrePassRendererSO/PreallocationData");
 #pragma pack(pop)

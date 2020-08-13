@@ -41,26 +41,26 @@ namespace GlobalNamespace {
     // Offset: 0x10
     OnlineServices::ILeaderboardsModel* leaderboardsModel;
     // public System.Void .ctor(OnlineServices.ILeaderboardsModel leaderboardsModel)
-    // Offset: 0xB475EC
+    // Offset: 0xB455EC
     static LeaderboardsModelLegacyWrapper* New_ctor(OnlineServices::ILeaderboardsModel* leaderboardsModel);
     // private System.Void GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0xB47774
+    // Offset: 0xB45774
     void GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* asyncRequest, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // private System.Void SendLevelScoreResutlAsync(OnlineServices.LevelScoreResultsData levelScoreResultsData, LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken asyncRequest, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0xB47970
+    // Offset: 0xB45970
     void SendLevelScoreResutlAsync(OnlineServices::LevelScoreResultsData levelScoreResultsData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* asyncRequest, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
     // public override HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0xB47620
+    // Offset: 0xB45620
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, ::CsString* referencePlayerId, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public override HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0xB478A0
+    // Offset: 0xB458A0
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
   }; // LeaderboardsModelLegacyWrapper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper*, "", "LeaderboardsModelLegacyWrapper");
 #pragma pack(pop)

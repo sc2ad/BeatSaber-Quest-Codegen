@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.UserList
 #include "Oculus/Platform/Models/UserList.hpp"
 // Including type: Oculus.Platform.Models.User

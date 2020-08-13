@@ -92,6 +92,6 @@ namespace OVR::OpenVR {
     EVRCompositorError(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRCompositorError
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRCompositorError, "OVR.OpenVR", "EVRCompositorError");
 #pragma pack(pop)

@@ -14,16 +14,16 @@ namespace NUnit::Framework::Interfaces {
   class AttributeDictionary : public System::Collections::Generic::Dictionary_2<::CsString*, ::CsString*> {
     public:
     // public System.String get_Item(System.String key)
-    // Offset: 0x106AA34
+    // Offset: 0x107A478
     ::CsString* get_Item(::CsString* key);
     // public System.Void .ctor()
-    // Offset: 0x106AAAC
+    // Offset: 0x107A4F0
     // Implemented from: System.Collections.Generic.Dictionary`2
     // Base method: System.Void Dictionary`2::.ctor()
     // Base method: System.Void Object::.ctor()
     static AttributeDictionary* New_ctor();
   }; // NUnit.Framework.Interfaces.AttributeDictionary
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::AttributeDictionary*, "NUnit.Framework.Interfaces", "AttributeDictionary");
 #pragma pack(pop)

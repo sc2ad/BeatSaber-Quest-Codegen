@@ -27,6 +27,6 @@ namespace OVR::OpenVR {
     RenderModel_ComponentState_t(OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel_ = {}, OVR::OpenVR::HmdMatrix34_t mTrackingToComponentLocal_ = {}, uint uProperties_ = {}) : mTrackingToComponentRenderModel{mTrackingToComponentRenderModel_}, mTrackingToComponentLocal{mTrackingToComponentLocal_}, uProperties{uProperties_} {}
   }; // OVR.OpenVR.RenderModel_ComponentState_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_ComponentState_t, "OVR.OpenVR", "RenderModel_ComponentState_t");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Collections.Generic.ICollection`1
 #include "System/Collections/Generic/ICollection_1.hpp"
 // Including type: System.Collections.ICollection

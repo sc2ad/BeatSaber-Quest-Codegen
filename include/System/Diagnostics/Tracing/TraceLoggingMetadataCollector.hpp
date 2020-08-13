@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.EventFieldTags
 #include "System/Diagnostics/Tracing/EventFieldTags.hpp"
 // Completed includes
@@ -39,57 +37,57 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x24
     System::Diagnostics::Tracing::EventFieldTags Tags;
     // private System.Void .ctor(System.Diagnostics.Tracing.TraceLoggingMetadataCollector other, System.Diagnostics.Tracing.FieldMetadata group)
-    // Offset: 0xD886C4
+    // Offset: 0xD9C108
     static TraceLoggingMetadataCollector* New_ctor(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* other, System::Diagnostics::Tracing::FieldMetadata* group);
     // System.Diagnostics.Tracing.EventFieldTags get_Tags()
-    // Offset: 0xD88724
+    // Offset: 0xD9C168
     System::Diagnostics::Tracing::EventFieldTags get_Tags();
     // System.Void set_Tags(System.Diagnostics.Tracing.EventFieldTags value)
-    // Offset: 0xD8872C
+    // Offset: 0xD9C170
     void set_Tags(System::Diagnostics::Tracing::EventFieldTags value);
     // System.Int32 get_ScratchSize()
-    // Offset: 0xD88504
+    // Offset: 0xD9BF48
     int get_ScratchSize();
     // System.Int32 get_DataCount()
-    // Offset: 0xD88520
+    // Offset: 0xD9BF64
     int get_DataCount();
     // System.Int32 get_PinCount()
-    // Offset: 0xD8853C
+    // Offset: 0xD9BF80
     int get_PinCount();
     // private System.Boolean get_BeginningBufferedArray()
-    // Offset: 0xD88734
+    // Offset: 0xD9C178
     bool get_BeginningBufferedArray();
     // public System.Diagnostics.Tracing.TraceLoggingMetadataCollector AddGroup(System.String name)
-    // Offset: 0xD88744
+    // Offset: 0xD9C188
     System::Diagnostics::Tracing::TraceLoggingMetadataCollector* AddGroup(::CsString* name);
     // public System.Void AddScalar(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType type)
-    // Offset: 0xD7FFCC
+    // Offset: 0xD93A10
     void AddScalar(::CsString* name, System::Diagnostics::Tracing::TraceLoggingDataType type);
     // public System.Void AddBinary(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType type)
-    // Offset: 0xD86EB4
+    // Offset: 0xD9A8F8
     void AddBinary(::CsString* name, System::Diagnostics::Tracing::TraceLoggingDataType type);
     // public System.Void AddArray(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType type)
-    // Offset: 0xD7FD08
+    // Offset: 0xD9374C
     void AddArray(::CsString* name, System::Diagnostics::Tracing::TraceLoggingDataType type);
     // public System.Void BeginBufferedArray()
-    // Offset: 0xD889E0
+    // Offset: 0xD9C424
     void BeginBufferedArray();
     // public System.Void EndBufferedArray()
-    // Offset: 0xD88ACC
+    // Offset: 0xD9C510
     void EndBufferedArray();
     // System.Byte[] GetMetadata()
-    // Offset: 0xD8847C
+    // Offset: 0xD9BEC0
     ::Array<uint8_t>* GetMetadata();
     // private System.Void AddField(System.Diagnostics.Tracing.FieldMetadata fieldMetadata)
-    // Offset: 0xD88818
+    // Offset: 0xD9C25C
     void AddField(System::Diagnostics::Tracing::FieldMetadata* fieldMetadata);
     // System.Void .ctor()
-    // Offset: 0xD88404
+    // Offset: 0xD9BE48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TraceLoggingMetadataCollector* New_ctor();
   }; // System.Diagnostics.Tracing.TraceLoggingMetadataCollector
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingMetadataCollector*, "System.Diagnostics.Tracing", "TraceLoggingMetadataCollector");
 #pragma pack(pop)

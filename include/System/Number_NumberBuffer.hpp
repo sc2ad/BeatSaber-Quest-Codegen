@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Number
 #include "System/Number.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -37,16 +37,16 @@ namespace System {
     // Creating value type constructor for type: NumberBuffer
     NumberBuffer(uint8_t* baseAddress_ = {}, ::Il2CppChar* digits_ = {}, int precision_ = {}, int scale_ = {}, bool sign_ = {}) : baseAddress{baseAddress_}, digits{digits_}, precision{precision_}, scale{scale_}, sign{sign_} {}
     // public System.Void .ctor(System.Byte* stackBuffer)
-    // Offset: 0xA42F14
+    // Offset: 0xA42F90
     static Number::NumberBuffer* New_ctor(uint8_t* stackBuffer);
     // public System.Byte* PackForNative()
-    // Offset: 0xA42F28
+    // Offset: 0xA42FA4
     uint8_t* PackForNative();
     // static private System.Void .cctor()
-    // Offset: 0x1341930
+    // Offset: 0x1354374
     static void _cctor();
   }; // System.Number/NumberBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Number::NumberBuffer, "System", "Number/NumberBuffer");
 #pragma pack(pop)

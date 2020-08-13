@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource
 #include "System/Diagnostics/Tracing/EventSource.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -34,19 +34,19 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventData
     EventData(int64_t m_Ptr_ = {}, int m_Size_ = {}, int m_Reserved_ = {}) : m_Ptr{m_Ptr_}, m_Size{m_Size_}, m_Reserved{m_Reserved_} {}
     // public System.IntPtr get_DataPointer()
-    // Offset: 0xA2B348
+    // Offset: 0xA2B3C4
     System::IntPtr get_DataPointer();
     // public System.Void set_DataPointer(System.IntPtr value)
-    // Offset: 0xA2B354
+    // Offset: 0xA2B3D0
     void set_DataPointer(System::IntPtr value);
     // public System.Void set_Size(System.Int32 value)
-    // Offset: 0xA2B380
+    // Offset: 0xA2B3FC
     void set_Size(int value);
     // System.Void SetMetadata(System.Byte* pointer, System.Int32 size, System.Int32 reserved)
-    // Offset: 0xA2B388
+    // Offset: 0xA2B404
     void SetMetadata(uint8_t* pointer, int size, int reserved);
   }; // System.Diagnostics.Tracing.EventSource/EventData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource::EventData, "System.Diagnostics.Tracing", "EventSource/EventData");
 #pragma pack(pop)

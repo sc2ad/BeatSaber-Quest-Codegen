@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Timeline.IntervalTreeNode
 #include "UnityEngine/Timeline/IntervalTreeNode.hpp"
 // Including type: System.Int32

@@ -22,10 +22,10 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     bool monoscopic;
     // private System.Void Update()
-    // Offset: 0xED80A4
+    // Offset: 0xEE9AE8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xED81B8
+    // Offset: 0xEE9BFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -35,6 +35,6 @@ namespace GlobalNamespace {
     static OVRMonoscopic* New_ctor();
   }; // OVRMonoscopic
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMonoscopic*, "", "OVRMonoscopic");
 #pragma pack(pop)

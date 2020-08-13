@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
     // public System.Void Init(System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0xCA2FBC
+    // Offset: 0xCB5A00
     void Init(System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // public System.Void .ctor()
-    // Offset: 0xCA31FC
+    // Offset: 0xCB5C40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -50,6 +50,6 @@ namespace GlobalNamespace {
     static OculusMRCManager* New_ctor();
   }; // OculusMRCManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager*, "", "OculusMRCManager");
 #pragma pack(pop)

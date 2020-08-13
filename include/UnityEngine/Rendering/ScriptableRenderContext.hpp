@@ -32,43 +32,43 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: ScriptableRenderContext
     ScriptableRenderContext(System::IntPtr m_Ptr_ = {}) : m_Ptr{m_Ptr_} {}
     // private System.Int32 GetNumberOfCameras_Internal()
-    // Offset: 0xA43620
+    // Offset: 0xA4369C
     int GetNumberOfCameras_Internal();
     // private UnityEngine.Camera GetCamera_Internal(System.Int32 index)
-    // Offset: 0xA43660
+    // Offset: 0xA436DC
     UnityEngine::Camera* GetCamera_Internal(int index);
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xA436B0
+    // Offset: 0xA4372C
     static ScriptableRenderContext* New_ctor(System::IntPtr ptr);
     // System.Int32 GetNumberOfCameras()
-    // Offset: 0xA436B8
+    // Offset: 0xA43734
     int GetNumberOfCameras();
     // UnityEngine.Camera GetCamera(System.Int32 index)
-    // Offset: 0xA436F8
+    // Offset: 0xA43774
     UnityEngine::Camera* GetCamera(int index);
     // static private System.Int32 GetNumberOfCameras_Internal_Injected(UnityEngine.Rendering.ScriptableRenderContext _unity_self)
-    // Offset: 0x13745D0
+    // Offset: 0x1387014
     static int GetNumberOfCameras_Internal_Injected(UnityEngine::Rendering::ScriptableRenderContext& _unity_self);
     // static private UnityEngine.Camera GetCamera_Internal_Injected(UnityEngine.Rendering.ScriptableRenderContext _unity_self, System.Int32 index)
-    // Offset: 0x1374660
+    // Offset: 0x13870A4
     static UnityEngine::Camera* GetCamera_Internal_Injected(UnityEngine::Rendering::ScriptableRenderContext& _unity_self, int index);
     // public System.Boolean Equals(UnityEngine.Rendering.ScriptableRenderContext other)
-    // Offset: 0xA43748
+    // Offset: 0xA437C4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Rendering.ScriptableRenderContext other)
     bool Equals(UnityEngine::Rendering::ScriptableRenderContext other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA43750
+    // Offset: 0xA437CC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA43758
+    // Offset: 0xA437D4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Rendering.ScriptableRenderContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");
 #pragma pack(pop)

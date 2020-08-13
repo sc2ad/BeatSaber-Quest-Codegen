@@ -86,6 +86,6 @@ namespace UnityEngine::XR {
     InputFeatureType(uint value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.InputFeatureType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureType, "UnityEngine.XR", "InputFeatureType");
 #pragma pack(pop)

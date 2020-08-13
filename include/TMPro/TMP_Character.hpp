@@ -21,19 +21,19 @@ namespace TMPro {
   class TMP_Character : public TMPro::TMP_TextElement {
     public:
     // public System.Void .ctor(System.UInt32 unicode, UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0xB696B4
+    // Offset: 0xB676B4
     static TMP_Character* New_ctor(uint unicode, UnityEngine::TextCore::Glyph* glyph);
     // System.Void .ctor(System.UInt32 unicode, System.UInt32 glyphIndex)
-    // Offset: 0xB69720
+    // Offset: 0xB67720
     static TMP_Character* New_ctor(uint unicode, uint glyphIndex);
     // public System.Void .ctor()
-    // Offset: 0xB69680
+    // Offset: 0xB67680
     // Implemented from: TMPro.TMP_TextElement
     // Base method: System.Void TMP_TextElement::.ctor()
     // Base method: System.Void Object::.ctor()
     static TMP_Character* New_ctor();
   }; // TMPro.TMP_Character
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Character*, "TMPro", "TMP_Character");
 #pragma pack(pop)

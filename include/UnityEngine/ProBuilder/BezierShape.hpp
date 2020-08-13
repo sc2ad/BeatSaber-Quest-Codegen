@@ -53,25 +53,25 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x38
     UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
     // public System.Boolean get_isEditing()
-    // Offset: 0x15146F4
+    // Offset: 0x1524138
     bool get_isEditing();
     // public System.Void set_isEditing(System.Boolean value)
-    // Offset: 0x15146FC
+    // Offset: 0x1524140
     void set_isEditing(bool value);
     // public UnityEngine.ProBuilder.ProBuilderMesh get_mesh()
-    // Offset: 0x1514708
+    // Offset: 0x152414C
     UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.ProBuilder.ProBuilderMesh value)
-    // Offset: 0x15147B4
+    // Offset: 0x15241F8
     void set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // public System.Void Init()
-    // Offset: 0x15147BC
+    // Offset: 0x1524200
     void Init();
     // public System.Void Refresh()
-    // Offset: 0x15149F0
+    // Offset: 0x1524434
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1514AC0
+    // Offset: 0x1524504
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -81,6 +81,6 @@ namespace UnityEngine::ProBuilder {
     static BezierShape* New_ctor();
   }; // UnityEngine.ProBuilder.BezierShape
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierShape*, "UnityEngine.ProBuilder", "BezierShape");
 #pragma pack(pop)

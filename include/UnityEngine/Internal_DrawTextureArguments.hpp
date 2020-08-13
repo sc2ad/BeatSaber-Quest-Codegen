@@ -83,6 +83,6 @@ namespace UnityEngine {
     Internal_DrawTextureArguments(UnityEngine::Rect screenRect_ = {}, UnityEngine::Rect sourceRect_ = {}, int leftBorder_ = {}, int rightBorder_ = {}, int topBorder_ = {}, int bottomBorder_ = {}, UnityEngine::Color leftBorderColor_ = {}, UnityEngine::Color rightBorderColor_ = {}, UnityEngine::Color topBorderColor_ = {}, UnityEngine::Color bottomBorderColor_ = {}, UnityEngine::Color color_ = {}, UnityEngine::Vector4 borderWidths_ = {}, UnityEngine::Vector4 cornerRadiuses_ = {}, bool smoothCorners_ = {}, int pass_ = {}, UnityEngine::Texture* texture_ = {}, UnityEngine::Material* mat_ = {}) : screenRect{screenRect_}, sourceRect{sourceRect_}, leftBorder{leftBorder_}, rightBorder{rightBorder_}, topBorder{topBorder_}, bottomBorder{bottomBorder_}, leftBorderColor{leftBorderColor_}, rightBorderColor{rightBorderColor_}, topBorderColor{topBorderColor_}, bottomBorderColor{bottomBorderColor_}, color{color_}, borderWidths{borderWidths_}, cornerRadiuses{cornerRadiuses_}, smoothCorners{smoothCorners_}, pass{pass_}, texture{texture_}, mat{mat_} {}
   }; // UnityEngine.Internal_DrawTextureArguments
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_DrawTextureArguments, "UnityEngine", "Internal_DrawTextureArguments");
 #pragma pack(pop)

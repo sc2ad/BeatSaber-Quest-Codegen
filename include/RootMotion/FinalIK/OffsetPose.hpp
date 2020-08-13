@@ -30,13 +30,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>* effectorLinks;
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x121AF08
+    // Offset: 0x122C94C
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x121B300
+    // Offset: 0x122CD44
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x121B3B8
+    // Offset: 0x122CDFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -46,6 +46,6 @@ namespace RootMotion::FinalIK {
     static OffsetPose* New_ctor();
   }; // RootMotion.FinalIK.OffsetPose
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose*, "RootMotion.FinalIK", "OffsetPose");
 #pragma pack(pop)

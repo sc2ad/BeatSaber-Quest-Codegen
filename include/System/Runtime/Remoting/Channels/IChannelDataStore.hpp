@@ -11,6 +11,6 @@ namespace System::Runtime::Remoting::Channels {
   class IChannelDataStore {
   }; // System.Runtime.Remoting.Channels.IChannelDataStore
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelDataStore*, "System.Runtime.Remoting.Channels", "IChannelDataStore");
 #pragma pack(pop)

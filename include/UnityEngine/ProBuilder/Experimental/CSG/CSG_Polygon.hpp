@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.CSG_Vertex
 #include "UnityEngine/ProBuilder/CSG_Vertex.hpp"
 // Completed includes
@@ -35,18 +33,18 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x18
     UnityEngine::ProBuilder::Experimental::CSG::CSG_Plane* plane;
     // public System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.ProBuilder.CSG_Vertex> list)
-    // Offset: 0xF7D970
+    // Offset: 0xF8F3B4
     static CSG_Polygon* New_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::CSG_Vertex>* list);
     // public System.Void Flip()
-    // Offset: 0xF7E738
+    // Offset: 0xF9017C
     void Flip();
     // public override System.String ToString()
-    // Offset: 0xF7F8CC
+    // Offset: 0xF91310
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*, "UnityEngine.ProBuilder.Experimental.CSG", "CSG_Polygon");
 #pragma pack(pop)

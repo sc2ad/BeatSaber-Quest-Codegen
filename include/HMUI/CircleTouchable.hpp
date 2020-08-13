@@ -34,26 +34,26 @@ namespace HMUI {
     // Offset: 0x98
     UnityEngine::RectTransform* containerRect;
     // private System.Void UpdateCachedReferences()
-    // Offset: 0xEC1064
+    // Offset: 0xED3AA8
     void UpdateCachedReferences();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0xEC11B4
+    // Offset: 0xED3BF8
     void OnDrawGizmosSelected();
     // private System.Void DrawGizmoCircle(UnityEngine.Vector3 center, System.Single radius, System.Int32 steps)
-    // Offset: 0xEC1334
+    // Offset: 0xED3D78
     void DrawGizmoCircle(UnityEngine::Vector3 center, float radius, int steps);
     // protected override System.Void OnEnable()
-    // Offset: 0xEC103C
+    // Offset: 0xED3A80
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnEnable()
     void OnEnable();
     // public override System.Boolean Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0xEC10DC
+    // Offset: 0xED3B20
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Boolean Graphic::Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     bool Raycast(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
     // public System.Void .ctor()
-    // Offset: 0xEC1510
+    // Offset: 0xED3F54
     // Implemented from: HMUI.Touchable
     // Base method: System.Void Touchable::.ctor()
     // Base method: System.Void Graphic::.ctor()
@@ -66,6 +66,6 @@ namespace HMUI {
     static CircleTouchable* New_ctor();
   }; // HMUI.CircleTouchable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleTouchable*, "HMUI", "CircleTouchable");
 #pragma pack(pop)

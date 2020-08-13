@@ -61,6 +61,6 @@ namespace OVR::OpenVR {
     IVRChaperone(OVR::OpenVR::IVRChaperone::_GetCalibrationState* GetCalibrationState_ = {}, OVR::OpenVR::IVRChaperone::_GetPlayAreaSize* GetPlayAreaSize_ = {}, OVR::OpenVR::IVRChaperone::_GetPlayAreaRect* GetPlayAreaRect_ = {}, OVR::OpenVR::IVRChaperone::_ReloadInfo* ReloadInfo_ = {}, OVR::OpenVR::IVRChaperone::_SetSceneColor* SetSceneColor_ = {}, OVR::OpenVR::IVRChaperone::_GetBoundsColor* GetBoundsColor_ = {}, OVR::OpenVR::IVRChaperone::_AreBoundsVisible* AreBoundsVisible_ = {}, OVR::OpenVR::IVRChaperone::_ForceBoundsVisible* ForceBoundsVisible_ = {}) : GetCalibrationState{GetCalibrationState_}, GetPlayAreaSize{GetPlayAreaSize_}, GetPlayAreaRect{GetPlayAreaRect_}, ReloadInfo{ReloadInfo_}, SetSceneColor{SetSceneColor_}, GetBoundsColor{GetBoundsColor_}, AreBoundsVisible{AreBoundsVisible_}, ForceBoundsVisible{ForceBoundsVisible_} {}
   }; // OVR.OpenVR.IVRChaperone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone, "OVR.OpenVR", "IVRChaperone");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Polyglot.LocalizationImporter
 #include "Polyglot/LocalizationImporter.hpp"
 // Completed includes
@@ -26,15 +24,15 @@ namespace Polyglot {
     // Offset: 0x10
     Polyglot::Localization* settings;
     // System.Void <ImportFromGoogle>b__0(System.String s)
-    // Offset: 0x1900598
+    // Offset: 0x190EFDC
     void $ImportFromGoogle$b__0(::CsString* s);
     // public System.Void .ctor()
-    // Offset: 0x18FF788
+    // Offset: 0x190E1CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalizationImporter::$$c__DisplayClass5_0* New_ctor();
   }; // Polyglot.LocalizationImporter/<>c__DisplayClass5_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter::$$c__DisplayClass5_0*, "Polyglot", "LocalizationImporter/<>c__DisplayClass5_0");
 #pragma pack(pop)

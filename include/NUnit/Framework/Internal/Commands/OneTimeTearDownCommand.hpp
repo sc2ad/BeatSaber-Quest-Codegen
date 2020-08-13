@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.TestCommand
 #include "NUnit/Framework/Internal/Commands/TestCommand.hpp"
 // Completed includes
@@ -48,15 +49,15 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x20
     System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions;
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDownItems, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
-    // Offset: 0x1072A1C
+    // Offset: 0x1082460
     static OneTimeTearDownCommand* New_ctor(NUnit::Framework::Internal::TestSuite* suite, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDownItems, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1072A80
+    // Offset: 0x10824C4
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.OneTimeTearDownCommand
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand");
 #pragma pack(pop)

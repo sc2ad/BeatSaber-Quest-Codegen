@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: AlphabetScrollInfo
 #include "GlobalNamespace/AlphabetScrollInfo.hpp"
 // Completed includes
@@ -22,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x14
     int cellIdx;
     // public System.Void .ctor(System.Char character, System.Int32 cellIdx)
-    // Offset: 0xC97A54
+    // Offset: 0xCAA498
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx);
   }; // AlphabetScrollInfo/Data
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollInfo::Data*, "", "AlphabetScrollInfo/Data");
 #pragma pack(pop)

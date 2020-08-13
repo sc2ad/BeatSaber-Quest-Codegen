@@ -58,34 +58,34 @@ namespace HMUI {
     // Offset: 0x28
     bool isHiding;
     // protected System.Void Awake()
-    // Offset: 0xECBBD0
+    // Offset: 0xEDE614
     void Awake();
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0xECBCB0
+    // Offset: 0xEDE6F4
     void OnApplicationFocus(bool hasFocus);
     // public System.Void ShowHint(HMUI.HoverHint hoverHint)
-    // Offset: 0xECBA34
+    // Offset: 0xEDE478
     void ShowHint(HMUI::HoverHint* hoverHint);
     // public System.Void HideHint()
-    // Offset: 0xECBAE4
+    // Offset: 0xEDE528
     void HideHint();
     // public System.Void HideHintInstant()
-    // Offset: 0xECBB40
+    // Offset: 0xEDE584
     void HideHintInstant();
     // private System.Collections.IEnumerator ShowHintAfterDelay(HMUI.HoverHint hoverHint, System.Single delay)
-    // Offset: 0xECBE8C
+    // Offset: 0xEDE8D0
     System::Collections::IEnumerator* ShowHintAfterDelay(HMUI::HoverHint* hoverHint, float delay);
     // private System.Collections.IEnumerator HideHintAfterDelay(System.Single delay)
-    // Offset: 0xECBF34
+    // Offset: 0xEDE978
     System::Collections::IEnumerator* HideHintAfterDelay(float delay);
     // private System.Void SetupAndShowHintPanel(HMUI.HoverHint hoverHint)
-    // Offset: 0xECBCD8
+    // Offset: 0xEDE71C
     void SetupAndShowHintPanel(HMUI::HoverHint* hoverHint);
     // private UnityEngine.Transform GetScreenTransformForHoverHint(HMUI.HoverHint hoverHint)
-    // Offset: 0xECC018
+    // Offset: 0xEDEA5C
     UnityEngine::Transform* GetScreenTransformForHoverHint(HMUI::HoverHint* hoverHint);
     // public System.Void .ctor()
-    // Offset: 0xECC3AC
+    // Offset: 0xEDEDF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -95,6 +95,6 @@ namespace HMUI {
     static HoverHintController* New_ctor();
   }; // HMUI.HoverHintController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController*, "HMUI", "HoverHintController");
 #pragma pack(pop)

@@ -38,19 +38,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::UI::Button* buyPackButton;
     // public UnityEngine.UI.Button get_buyLevelButton()
-    // Offset: 0xB88760
+    // Offset: 0xB9A1A4
     UnityEngine::UI::Button* get_buyLevelButton();
     // public UnityEngine.UI.Button get_openPackButton()
-    // Offset: 0xB88768
+    // Offset: 0xB9A1AC
     UnityEngine::UI::Button* get_openPackButton();
     // public UnityEngine.UI.Button get_buyPackButton()
-    // Offset: 0xB88770
+    // Offset: 0xB9A1B4
     UnityEngine::UI::Button* get_buyPackButton();
     // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
-    // Offset: 0xB88778
+    // Offset: 0xB9A1BC
     void RefreshView(::CsString* infoText, bool canBuyPack);
     // public System.Void .ctor()
-    // Offset: 0xB887EC
+    // Offset: 0xB9A230
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -60,6 +60,6 @@ namespace GlobalNamespace {
     static StandardLevelBuyInfoView* New_ctor();
   }; // StandardLevelBuyInfoView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyInfoView*, "", "StandardLevelBuyInfoView");
 #pragma pack(pop)

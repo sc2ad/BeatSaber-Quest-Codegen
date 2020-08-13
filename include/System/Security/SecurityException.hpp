@@ -30,32 +30,32 @@ namespace System::Security {
     // Offset: 0x88
     ::CsString* permissionState;
     // public System.Void .ctor()
-    // Offset: 0xDD9204
+    // Offset: 0xDEBC48
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static SecurityException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xDD9274
+    // Offset: 0xDEBCB8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static SecurityException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDD92A4
+    // Offset: 0xDEBCE8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static SecurityException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0xDD93C4
+    // Offset: 0xDEBE08
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     static SecurityException* New_ctor(::CsString* message, System::Exception* inner);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDD93F4
+    // Offset: 0xDEBE38
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -63,12 +63,12 @@ namespace System::Security {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0xDD9508
+    // Offset: 0xDEBF4C
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::CsString* ToString();
   }; // System.Security.SecurityException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityException*, "System.Security", "SecurityException");
 #pragma pack(pop)

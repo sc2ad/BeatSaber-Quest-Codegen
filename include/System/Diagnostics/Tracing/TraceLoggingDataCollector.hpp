@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -29,114 +27,114 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static readonly System.Diagnostics.Tracing.TraceLoggingDataCollector Instance
     static void _set_Instance(System::Diagnostics::Tracing::TraceLoggingDataCollector* value);
     // public System.Int32 BeginBufferedArray()
-    // Offset: 0xD873E4
+    // Offset: 0xD9AE28
     int BeginBufferedArray();
     // public System.Void EndBufferedArray(System.Int32 bookmark, System.Int32 count)
-    // Offset: 0xD87434
+    // Offset: 0xD9AE78
     void EndBufferedArray(int bookmark, int count);
     // public System.Void AddScalar(System.Boolean value)
-    // Offset: 0xD8749C
+    // Offset: 0xD9AEE0
     void AddScalar(bool value);
     // public System.Void AddScalar(System.SByte value)
-    // Offset: 0xD861E0
+    // Offset: 0xD99C24
     void AddScalar(int8_t value);
     // public System.Void AddScalar(System.Byte value)
-    // Offset: 0xD87500
+    // Offset: 0xD9AF44
     void AddScalar(uint8_t value);
     // public System.Void AddScalar(System.Int16 value)
-    // Offset: 0xD8045C
+    // Offset: 0xD93EA0
     void AddScalar(int16_t value);
     // public System.Void AddScalar(System.UInt16 value)
-    // Offset: 0xD87560
+    // Offset: 0xD9AFA4
     void AddScalar(uint16_t value);
     // public System.Void AddScalar(System.Int32 value)
-    // Offset: 0xD807D4
+    // Offset: 0xD94218
     void AddScalar(int value);
     // public System.Void AddScalar(System.UInt32 value)
-    // Offset: 0xD875C0
+    // Offset: 0xD9B004
     void AddScalar(uint value);
     // public System.Void AddScalar(System.Int64 value)
-    // Offset: 0xD80B24
+    // Offset: 0xD94568
     void AddScalar(int64_t value);
     // public System.Void AddScalar(System.UInt64 value)
-    // Offset: 0xD87620
+    // Offset: 0xD9B064
     void AddScalar(uint64_t value);
     // public System.Void AddScalar(System.IntPtr value)
-    // Offset: 0xD80EBC
+    // Offset: 0xD94900
     void AddScalar(System::IntPtr value);
     // public System.Void AddScalar(System.UIntPtr value)
-    // Offset: 0xD87680
+    // Offset: 0xD9B0C4
     void AddScalar(System::UIntPtr value);
     // public System.Void AddScalar(System.Single value)
-    // Offset: 0xD8653C
+    // Offset: 0xD99F80
     void AddScalar(float value);
     // public System.Void AddScalar(System.Double value)
-    // Offset: 0xD87710
+    // Offset: 0xD9B154
     void AddScalar(double value);
     // public System.Void AddScalar(System.Char value)
-    // Offset: 0xD87770
+    // Offset: 0xD9B1B4
     void AddScalar(::Il2CppChar value);
     // public System.Void AddScalar(System.Guid value)
-    // Offset: 0xD800F4
+    // Offset: 0xD93B38
     void AddScalar(System::Guid value);
     // public System.Void AddBinary(System.String value)
-    // Offset: 0xD86FD4
+    // Offset: 0xD9AA18
     void AddBinary(::CsString* value);
     // public System.Void AddBinary(System.Byte[] value)
-    // Offset: 0xD877D0
+    // Offset: 0xD9B214
     void AddBinary(::Array<uint8_t>* value);
     // public System.Void AddArray(System.Boolean[] value)
-    // Offset: 0xD87840
+    // Offset: 0xD9B284
     void AddArray(::Array<bool>* value);
     // public System.Void AddArray(System.SByte[] value)
-    // Offset: 0xD86074
+    // Offset: 0xD99AB8
     void AddArray(::Array<int8_t>* value);
     // public System.Void AddArray(System.Int16[] value)
-    // Offset: 0xD802F0
+    // Offset: 0xD93D34
     void AddArray(::Array<int16_t>* value);
     // public System.Void AddArray(System.UInt16[] value)
-    // Offset: 0xD878B4
+    // Offset: 0xD9B2F8
     void AddArray(::Array<uint16_t>* value);
     // public System.Void AddArray(System.Int32[] value)
-    // Offset: 0xD80668
+    // Offset: 0xD940AC
     void AddArray(::Array<int>* value);
     // public System.Void AddArray(System.UInt32[] value)
-    // Offset: 0xD87928
+    // Offset: 0xD9B36C
     void AddArray(::Array<uint>* value);
     // public System.Void AddArray(System.Int64[] value)
-    // Offset: 0xD809B8
+    // Offset: 0xD943FC
     void AddArray(::Array<int64_t>* value);
     // public System.Void AddArray(System.UInt64[] value)
-    // Offset: 0xD8799C
+    // Offset: 0xD9B3E0
     void AddArray(::Array<uint64_t>* value);
     // public System.Void AddArray(System.IntPtr[] value)
-    // Offset: 0xD80D28
+    // Offset: 0xD9476C
     void AddArray(::Array<System::IntPtr>* value);
     // public System.Void AddArray(System.UIntPtr[] value)
-    // Offset: 0xD87A10
+    // Offset: 0xD9B454
     void AddArray(::Array<System::UIntPtr>* value);
     // public System.Void AddArray(System.Single[] value)
-    // Offset: 0xD863D0
+    // Offset: 0xD99E14
     void AddArray(::Array<float>* value);
     // public System.Void AddArray(System.Double[] value)
-    // Offset: 0xD87AC4
+    // Offset: 0xD9B508
     void AddArray(::Array<double>* value);
     // public System.Void AddArray(System.Char[] value)
-    // Offset: 0xD87B38
+    // Offset: 0xD9B57C
     void AddArray(::Array<::Il2CppChar>* value);
     // public System.Void AddArray(System.Guid[] value)
-    // Offset: 0xD7FE80
+    // Offset: 0xD938C4
     void AddArray(::Array<System::Guid>* value);
     // static private System.Void .cctor()
-    // Offset: 0xD87BAC
+    // Offset: 0xD9B5F0
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0xD873DC
+    // Offset: 0xD9AE20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TraceLoggingDataCollector* New_ctor();
   }; // System.Diagnostics.Tracing.TraceLoggingDataCollector
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingDataCollector*, "System.Diagnostics.Tracing", "TraceLoggingDataCollector");
 #pragma pack(pop)

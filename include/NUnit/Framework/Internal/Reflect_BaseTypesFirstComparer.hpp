@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Internal.Reflect
 #include "NUnit/Framework/Internal/Reflect.hpp"
 // Including type: System.Collections.Generic.IComparer`1
@@ -25,17 +23,17 @@ namespace NUnit::Framework::Internal {
   class Reflect::BaseTypesFirstComparer : public ::CsObject, public System::Collections::Generic::IComparer_1<System::Reflection::MethodInfo*> {
     public:
     // public System.Int32 Compare(System.Reflection.MethodInfo m1, System.Reflection.MethodInfo m2)
-    // Offset: 0x18D7574
+    // Offset: 0x18E7FB8
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(System.Reflection.MethodInfo m1, System.Reflection.MethodInfo m2)
     int Compare(System::Reflection::MethodInfo* m1, System::Reflection::MethodInfo* m2);
     // public System.Void .ctor()
-    // Offset: 0x18D6DB4
+    // Offset: 0x18E77F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Reflect::BaseTypesFirstComparer* New_ctor();
   }; // NUnit.Framework.Internal.Reflect/BaseTypesFirstComparer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer*, "NUnit.Framework.Internal", "Reflect/BaseTypesFirstComparer");
 #pragma pack(pop)

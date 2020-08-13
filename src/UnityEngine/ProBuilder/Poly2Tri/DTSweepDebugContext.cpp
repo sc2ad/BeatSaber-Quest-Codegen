@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.DTSweepDebugContext
 #include "UnityEngine/ProBuilder/Poly2Tri/DTSweepDebugContext.hpp"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle

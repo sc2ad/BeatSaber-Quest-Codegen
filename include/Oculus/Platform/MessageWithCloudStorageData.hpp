@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithCloudStorageData : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageData*> {
     public:
     // protected Oculus.Platform.Models.CloudStorageData GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8BDEC
+    // Offset: 0xE9E830
     Oculus::Platform::Models::CloudStorageData* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88320
+    // Offset: 0xE9AD64
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithCloudStorageData* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.CloudStorageData GetCloudStorageData()
-    // Offset: 0xE8BDA8
+    // Offset: 0xE9E7EC
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageData Message::GetCloudStorageData()
     Oculus::Platform::Models::CloudStorageData* GetCloudStorageData();
   }; // Oculus.Platform.MessageWithCloudStorageData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageData*, "Oculus.Platform", "MessageWithCloudStorageData");
 #pragma pack(pop)

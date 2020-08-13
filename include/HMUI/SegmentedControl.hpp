@@ -66,34 +66,34 @@ namespace HMUI {
     // Offset: 0x48
     int selectedCellNumber;
     // public System.Void add_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x10CE910
+    // Offset: 0x10DF354
     void add_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);
     // public System.Void remove_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x10CE9B4
+    // Offset: 0x10DF3F8
     void remove_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);
     // public HMUI.SegmentedControl/IDataSource get_dataSource()
-    // Offset: 0x10CEA58
+    // Offset: 0x10DF49C
     HMUI::SegmentedControl::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SegmentedControl/IDataSource value)
-    // Offset: 0x10CEA60
+    // Offset: 0x10DF4A4
     void set_dataSource(HMUI::SegmentedControl::IDataSource* value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x10CEDAC
+    // Offset: 0x10DF7F0
     int get_selectedCellNumber();
     // private System.Void CreateCells()
-    // Offset: 0x10CEDB4
+    // Offset: 0x10DF7F8
     void CreateCells();
     // public System.Void CellSelectionStateDidChange(HMUI.SegmentedControlCell changedCell)
-    // Offset: 0x10CF278
+    // Offset: 0x10DFCBC
     void CellSelectionStateDidChange(HMUI::SegmentedControlCell* changedCell);
     // public System.Void ReloadData()
-    // Offset: 0x10CEA88
+    // Offset: 0x10DF4CC
     void ReloadData();
     // public System.Void SelectCellWithNumber(System.Int32 selectCellNumber)
-    // Offset: 0x10CF350
+    // Offset: 0x10DFD94
     void SelectCellWithNumber(int selectCellNumber);
     // public System.Void .ctor()
-    // Offset: 0x10CF430
+    // Offset: 0x10DFE74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,6 +103,6 @@ namespace HMUI {
     static SegmentedControl* New_ctor();
   }; // HMUI.SegmentedControl
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl*, "HMUI", "SegmentedControl");
 #pragma pack(pop)

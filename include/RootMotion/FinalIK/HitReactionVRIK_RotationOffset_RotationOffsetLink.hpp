@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.HitReactionVRIK/RotationOffset
 #include "RootMotion/FinalIK/HitReactionVRIK_RotationOffset.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR/RotationOffset
@@ -39,18 +37,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     UnityEngine::Quaternion current;
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x1365924
+    // Offset: 0x1378368
     void Apply(RootMotion::FinalIK::VRIK* ik, UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x13655F8
+    // Offset: 0x137803C
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x1365A60
+    // Offset: 0x13784A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HitReactionVRIK::RotationOffset::RotationOffsetLink* New_ctor();
   }; // RootMotion.FinalIK.HitReactionVRIK/RotationOffset/RotationOffsetLink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*, "RootMotion.FinalIK", "HitReactionVRIK/RotationOffset/RotationOffsetLink");
 #pragma pack(pop)

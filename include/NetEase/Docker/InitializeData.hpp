@@ -21,16 +21,16 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: InitializeData
     InitializeData(bool InitializeSuccessful_ = {}, int InitializeCode_ = {}) : InitializeSuccessful{InitializeSuccessful_}, InitializeCode{InitializeCode_} {}
     // public System.Boolean get_InitializeSuccessful()
-    // Offset: 0xA5C9EC
+    // Offset: 0xA5CA68
     bool get_InitializeSuccessful();
     // public System.Void set_InitializeSuccessful(System.Boolean value)
-    // Offset: 0xA5C9F4
+    // Offset: 0xA5CA70
     void set_InitializeSuccessful(bool value);
     // public System.Void set_InitializeCode(System.Int32 value)
-    // Offset: 0xA5CA00
+    // Offset: 0xA5CA7C
     void set_InitializeCode(int value);
   }; // NetEase.Docker.InitializeData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "InitializeData");
 #pragma pack(pop)

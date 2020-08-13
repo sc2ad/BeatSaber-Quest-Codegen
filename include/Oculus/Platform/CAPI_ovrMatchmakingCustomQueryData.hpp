@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.CAPI
 #include "Oculus/Platform/CAPI.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
@@ -32,6 +33,6 @@ namespace Oculus::Platform {
     ovrMatchmakingCustomQueryData(System::IntPtr dataArray_ = {}, uint dataArrayCount_ = {}, System::IntPtr criterionArray_ = {}, uint criterionArrayCount_ = {}) : dataArray{dataArray_}, dataArrayCount{dataArrayCount_}, criterionArray{criterionArray_}, criterionArrayCount{criterionArrayCount_} {}
   }; // Oculus.Platform.CAPI/ovrMatchmakingCustomQueryData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCustomQueryData, "Oculus.Platform", "CAPI/ovrMatchmakingCustomQueryData");
 #pragma pack(pop)

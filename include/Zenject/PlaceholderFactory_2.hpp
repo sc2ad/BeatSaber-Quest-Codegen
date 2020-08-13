@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.PlaceholderFactoryBase`1
 #include "Zenject/PlaceholderFactoryBase_1.hpp"
 // Including type: Zenject.IFactory`2

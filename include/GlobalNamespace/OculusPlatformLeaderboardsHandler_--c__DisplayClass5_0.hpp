@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OculusPlatformLeaderboardsHandler
 #include "GlobalNamespace/OculusPlatformLeaderboardsHandler.hpp"
 // Including type: PlatformLeaderboardsModel
@@ -40,15 +38,15 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::CsString* referencePlayerId;
     // System.Void <GetScores>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
-    // Offset: 0xC28448
+    // Offset: 0xC39E8C
     void $GetScores$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>* message);
     // public System.Void .ctor()
-    // Offset: 0xC28210
+    // Offset: 0xC39C54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0* New_ctor();
   }; // OculusPlatformLeaderboardsHandler/<>c__DisplayClass5_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0*, "", "OculusPlatformLeaderboardsHandler/<>c__DisplayClass5_0");
 #pragma pack(pop)

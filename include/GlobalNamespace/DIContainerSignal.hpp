@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class DIContainerSignal : public GlobalNamespace::GenericSignal_1<Zenject::DiContainer*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC9996C
+    // Offset: 0xCAC3B0
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal`1::.ctor()
     // Base method: System.Void Signal::.ctor()
@@ -31,6 +31,6 @@ namespace GlobalNamespace {
     static DIContainerSignal* New_ctor();
   }; // DIContainerSignal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DIContainerSignal*, "", "DIContainerSignal");
 #pragma pack(pop)

@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Toggle* toggle;
     // private System.Void OnReset()
-    // Offset: 0xCA7120
+    // Offset: 0xCB9B64
     void OnReset();
     // protected System.Void Start()
-    // Offset: 0xCA7180
+    // Offset: 0xCB9BC4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xCA7228
+    // Offset: 0xCB9C6C
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xCA7314
+    // Offset: 0xCB9D58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static SignalOnUIToggleValueChanged* New_ctor();
   }; // SignalOnUIToggleValueChanged
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnUIToggleValueChanged*, "", "SignalOnUIToggleValueChanged");
 #pragma pack(pop)

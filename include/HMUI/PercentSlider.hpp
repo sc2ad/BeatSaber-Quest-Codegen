@@ -14,12 +14,12 @@ namespace HMUI {
   class PercentSlider : public HMUI::RangeValuesTextSlider {
     public:
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x10C9BD8
+    // Offset: 0x10DA61C
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::CsString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x10C9C68
+    // Offset: 0x10DA6AC
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -33,6 +33,6 @@ namespace HMUI {
     static PercentSlider* New_ctor();
   }; // HMUI.PercentSlider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PercentSlider*, "HMUI", "PercentSlider");
 #pragma pack(pop)

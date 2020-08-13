@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Int64
@@ -272,22 +270,22 @@ namespace System::Globalization {
     // Offset: 0x18
     int twoDigitYearMax;
     // public System.DateTime get_MinSupportedDateTime()
-    // Offset: 0xD9299C
+    // Offset: 0xDA63E0
     System::DateTime get_MinSupportedDateTime();
     // public System.DateTime get_MaxSupportedDateTime()
-    // Offset: 0xD92A04
+    // Offset: 0xDA6448
     System::DateTime get_MaxSupportedDateTime();
     // System.Int32 get_ID()
-    // Offset: 0xD92A80
+    // Offset: 0xDA64C4
     int get_ID();
     // System.Int32 get_BaseCalendarID()
-    // Offset: 0xD92A88
+    // Offset: 0xDA64CC
     int get_BaseCalendarID();
     // System.Void SetReadOnlyState(System.Boolean readOnly)
-    // Offset: 0xD92B24
+    // Offset: 0xDA6568
     void SetReadOnlyState(bool readOnly);
     // System.Int32 get_CurrentEraValue()
-    // Offset: 0xD92B30
+    // Offset: 0xDA6574
     int get_CurrentEraValue();
     // public System.Int32 GetDayOfMonth(System.DateTime time)
     // Offset: 0xFFFFFFFF
@@ -314,7 +312,7 @@ namespace System::Globalization {
     // Offset: 0xFFFFFFFF
     int GetYear(System::DateTime time);
     // public System.Boolean IsLeapYear(System.Int32 year)
-    // Offset: 0xD92C80
+    // Offset: 0xDA66C4
     bool IsLeapYear(int year);
     // public System.Boolean IsLeapYear(System.Int32 year, System.Int32 era)
     // Offset: 0xFFFFFFFF
@@ -323,38 +321,38 @@ namespace System::Globalization {
     // Offset: 0xFFFFFFFF
     System::DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
     // System.Boolean TryToDateTime(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.Int32 era, System.DateTime result)
-    // Offset: 0xD92C94
+    // Offset: 0xDA66D8
     bool TryToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era, System::DateTime& result);
     // System.Boolean IsValidYear(System.Int32 year, System.Int32 era)
-    // Offset: 0xD92E0C
+    // Offset: 0xDA6850
     bool IsValidYear(int year, int era);
     // System.Boolean IsValidMonth(System.Int32 year, System.Int32 month, System.Int32 era)
-    // Offset: 0xD92E94
+    // Offset: 0xDA68D8
     bool IsValidMonth(int year, int month, int era);
     // System.Boolean IsValidDay(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 era)
-    // Offset: 0xD92F10
+    // Offset: 0xDA6954
     bool IsValidDay(int year, int month, int day, int era);
     // public System.Int32 get_TwoDigitYearMax()
-    // Offset: 0xD92F9C
+    // Offset: 0xDA69E0
     int get_TwoDigitYearMax();
     // public System.Int32 ToFourDigitYear(System.Int32 year)
-    // Offset: 0xD92FA4
+    // Offset: 0xDA69E8
     int ToFourDigitYear(int year);
     // static System.Int32 GetSystemTwoDigitYearSetting(System.Int32 CalID, System.Int32 defaultYearValue)
-    // Offset: 0xD930B8
+    // Offset: 0xDA6AFC
     static int GetSystemTwoDigitYearSetting(int CalID, int defaultYearValue);
     // protected System.Void .ctor()
-    // Offset: 0xD92A6C
+    // Offset: 0xDA64B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Calendar* New_ctor();
     // public System.Object Clone()
-    // Offset: 0xD92A94
+    // Offset: 0xDA64D8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::CsObject* Clone();
   }; // System.Globalization.Calendar
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Calendar*, "System.Globalization", "Calendar");
 #pragma pack(pop)

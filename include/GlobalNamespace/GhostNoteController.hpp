@@ -24,12 +24,12 @@ namespace GlobalNamespace {
     // Offset: 0x78
     UnityEngine::GameObject* wrapperGO;
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0xB40924
+    // Offset: 0xB3E924
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public System.Void .ctor()
-    // Offset: 0xB40948
+    // Offset: 0xB3E948
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -40,6 +40,6 @@ namespace GlobalNamespace {
     static GhostNoteController* New_ctor();
   }; // GhostNoteController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostNoteController*, "", "GhostNoteController");
 #pragma pack(pop)

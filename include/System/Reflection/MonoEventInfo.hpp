@@ -56,13 +56,13 @@ namespace System::Reflection {
     // Creating value type constructor for type: MonoEventInfo
     MonoEventInfo(System::Type* declaring_type_ = {}, System::Type* reflected_type_ = {}, ::CsString* name_ = {}, System::Reflection::MethodInfo* add_method_ = {}, System::Reflection::MethodInfo* remove_method_ = {}, System::Reflection::MethodInfo* raise_method_ = {}, System::Reflection::EventAttributes attrs_ = {}, ::Array<System::Reflection::MethodInfo*>* other_methods_ = {}) : declaring_type{declaring_type_}, reflected_type{reflected_type_}, name{name_}, add_method{add_method_}, remove_method{remove_method_}, raise_method{raise_method_}, attrs{attrs_}, other_methods{other_methods_} {}
     // static private System.Void get_event_info(System.Reflection.MonoEvent ev, System.Reflection.MonoEventInfo info)
-    // Offset: 0x113C004
+    // Offset: 0x114DA48
     static void get_event_info(System::Reflection::MonoEvent* ev, System::Reflection::MonoEventInfo& info);
     // static System.Reflection.MonoEventInfo GetEventInfo(System.Reflection.MonoEvent ev)
-    // Offset: 0x113BC14
+    // Offset: 0x114D658
     static System::Reflection::MonoEventInfo GetEventInfo(System::Reflection::MonoEvent* ev);
   }; // System.Reflection.MonoEventInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");
 #pragma pack(pop)

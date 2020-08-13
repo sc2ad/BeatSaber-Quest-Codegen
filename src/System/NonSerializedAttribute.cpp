@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.NonSerializedAttribute
 #include "System/NonSerializedAttribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

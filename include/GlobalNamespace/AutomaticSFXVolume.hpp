@@ -55,25 +55,25 @@ namespace GlobalNamespace {
     // Offset: 0x48
     float releaseCoef;
     // protected System.Void Start()
-    // Offset: 0x1970360
+    // Offset: 0xB8865C
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x1970440
+    // Offset: 0xB8873C
     void OnDisable();
     // protected System.Void OnValidate()
-    // Offset: 0x19704D4
+    // Offset: 0xB887D0
     void OnValidate();
     // private System.Void RecalculateParams()
-    // Offset: 0x1970364
+    // Offset: 0xB88660
     void RecalculateParams();
     // protected System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x19704D8
+    // Offset: 0xB887D4
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // protected System.Void Update()
-    // Offset: 0x19706D8
+    // Offset: 0xB889D4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x197070C
+    // Offset: 0xB88A08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -83,6 +83,6 @@ namespace GlobalNamespace {
     static AutomaticSFXVolume* New_ctor();
   }; // AutomaticSFXVolume
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume*, "", "AutomaticSFXVolume");
 #pragma pack(pop)

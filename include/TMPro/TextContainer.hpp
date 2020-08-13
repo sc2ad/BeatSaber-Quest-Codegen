@@ -75,114 +75,114 @@ namespace TMPro {
     // Offset: 0x68
     TMPro::TextMeshPro* m_textMeshPro;
     // public System.Boolean get_hasChanged()
-    // Offset: 0xDB208C
+    // Offset: 0xDC4AD0
     bool get_hasChanged();
     // public System.Void set_hasChanged(System.Boolean value)
-    // Offset: 0xDB2094
+    // Offset: 0xDC4AD8
     void set_hasChanged(bool value);
     // public UnityEngine.Vector2 get_pivot()
-    // Offset: 0xDB20A0
+    // Offset: 0xDC4AE4
     UnityEngine::Vector2 get_pivot();
     // public System.Void set_pivot(UnityEngine.Vector2 value)
-    // Offset: 0xDB20A8
+    // Offset: 0xDC4AEC
     void set_pivot(UnityEngine::Vector2 value);
     // public TMPro.TextContainerAnchors get_anchorPosition()
-    // Offset: 0xDB25D4
+    // Offset: 0xDC5018
     TMPro::TextContainerAnchors get_anchorPosition();
     // public System.Void set_anchorPosition(TMPro.TextContainerAnchors value)
-    // Offset: 0xDB25DC
+    // Offset: 0xDC5020
     void set_anchorPosition(TMPro::TextContainerAnchors value);
     // public UnityEngine.Rect get_rect()
-    // Offset: 0xDB2730
+    // Offset: 0xDC5174
     UnityEngine::Rect get_rect();
     // public System.Void set_rect(UnityEngine.Rect value)
-    // Offset: 0xDB273C
+    // Offset: 0xDC5180
     void set_rect(UnityEngine::Rect value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0xDB27C8
+    // Offset: 0xDC520C
     UnityEngine::Vector2 get_size();
     // public System.Void set_size(UnityEngine.Vector2 value)
-    // Offset: 0xDB282C
+    // Offset: 0xDC5270
     void set_size(UnityEngine::Vector2 value);
     // public System.Single get_width()
-    // Offset: 0xDB299C
+    // Offset: 0xDC53E0
     float get_width();
     // public System.Void set_width(System.Single value)
-    // Offset: 0xDB29A8
+    // Offset: 0xDC53EC
     void set_width(float value);
     // public System.Single get_height()
-    // Offset: 0xDB2A1C
+    // Offset: 0xDC5460
     float get_height();
     // public System.Void set_height(System.Single value)
-    // Offset: 0xDB2A28
+    // Offset: 0xDC546C
     void set_height(float value);
     // public System.Boolean get_isDefaultWidth()
-    // Offset: 0xDB2A98
+    // Offset: 0xDC54DC
     bool get_isDefaultWidth();
     // public System.Boolean get_isDefaultHeight()
-    // Offset: 0xDB2AA0
+    // Offset: 0xDC54E4
     bool get_isDefaultHeight();
     // public System.Boolean get_isAutoFitting()
-    // Offset: 0xDB2AA8
+    // Offset: 0xDC54EC
     bool get_isAutoFitting();
     // public System.Void set_isAutoFitting(System.Boolean value)
-    // Offset: 0xDB2AB0
+    // Offset: 0xDC54F4
     void set_isAutoFitting(bool value);
     // public UnityEngine.Vector3[] get_corners()
-    // Offset: 0xDB2ABC
+    // Offset: 0xDC5500
     ::Array<UnityEngine::Vector3>* get_corners();
     // public UnityEngine.Vector3[] get_worldCorners()
-    // Offset: 0xDB2AC4
+    // Offset: 0xDC5508
     ::Array<UnityEngine::Vector3>* get_worldCorners();
     // public UnityEngine.Vector4 get_margins()
-    // Offset: 0xDB2ACC
+    // Offset: 0xDC5510
     UnityEngine::Vector4 get_margins();
     // public System.Void set_margins(UnityEngine.Vector4 value)
-    // Offset: 0xDB2AD8
+    // Offset: 0xDC551C
     void set_margins(UnityEngine::Vector4 value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0xDB2BCC
+    // Offset: 0xDC5610
     UnityEngine::RectTransform* get_rectTransform();
     // public TMPro.TextMeshPro get_textMeshPro()
-    // Offset: 0xDB2C78
+    // Offset: 0xDC56BC
     TMPro::TextMeshPro* get_textMeshPro();
     // private System.Void OnContainerChanged()
-    // Offset: 0xDB2498
+    // Offset: 0xDC4EDC
     void OnContainerChanged();
     // private System.Void SetRect(UnityEngine.Vector2 size)
-    // Offset: 0xDB2918
+    // Offset: 0xDC535C
     void SetRect(UnityEngine::Vector2 size);
     // private System.Void UpdateCorners()
-    // Offset: 0xDB2DE4
+    // Offset: 0xDC5828
     void UpdateCorners();
     // private UnityEngine.Vector2 GetPivot(TMPro.TextContainerAnchors anchor)
-    // Offset: 0xDB2620
+    // Offset: 0xDC5064
     UnityEngine::Vector2 GetPivot(TMPro::TextContainerAnchors anchor);
     // private TMPro.TextContainerAnchors GetAnchorPosition(UnityEngine.Vector2 pivot)
-    // Offset: 0xDB2174
+    // Offset: 0xDC4BB8
     TMPro::TextContainerAnchors GetAnchorPosition(UnityEngine::Vector2 pivot);
     // protected override System.Void Awake()
-    // Offset: 0xDB2D24
+    // Offset: 0xDC5768
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Awake()
     void Awake();
     // protected override System.Void OnEnable()
-    // Offset: 0xDB2DDC
+    // Offset: 0xDC5820
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xDB2DE0
+    // Offset: 0xDC5824
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0xDB3054
+    // Offset: 0xDC5A98
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public System.Void .ctor()
-    // Offset: 0xDB31F0
+    // Offset: 0xDC5C34
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -192,12 +192,12 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TextContainer* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xDB3280
+    // Offset: 0xDC5CC4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TextContainer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainer*, "TMPro", "TextContainer");
 #pragma pack(pop)

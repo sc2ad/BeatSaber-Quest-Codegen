@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: EnterPlayerGuestNameViewController
 #include "GlobalNamespace/EnterPlayerGuestNameViewController.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace GlobalNamespace {
   class EnterPlayerGuestNameViewController::FinishDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xBD4AB4
+    // Offset: 0xBE74F8
     static EnterPlayerGuestNameViewController::FinishDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(EnterPlayerGuestNameViewController viewController, System.String playerName)
-    // Offset: 0xBD4564
+    // Offset: 0xBE6FA8
     void Invoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::CsString* playerName);
     // public System.IAsyncResult BeginInvoke(EnterPlayerGuestNameViewController viewController, System.String playerName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xBD4AC8
+    // Offset: 0xBE750C
     System::IAsyncResult* BeginInvoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::CsString* playerName, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xBD4AF8
+    // Offset: 0xBE753C
     void EndInvoke(System::IAsyncResult* result);
   }; // EnterPlayerGuestNameViewController/FinishDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*, "", "EnterPlayerGuestNameViewController/FinishDelegate");
 #pragma pack(pop)

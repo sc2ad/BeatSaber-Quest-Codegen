@@ -34,31 +34,31 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // protected System.Void Awake()
-    // Offset: 0xC3A5F8
+    // Offset: 0xC4C03C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xC3A65C
+    // Offset: 0xC4C0A0
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xC3A82C
+    // Offset: 0xC4C270
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC3A904
+    // Offset: 0xC4C348
     void OnDisable();
     // private System.Void HandleRoomCenterDidChange()
-    // Offset: 0xC3A9DC
+    // Offset: 0xC4C420
     void HandleRoomCenterDidChange();
     // private System.Void HandleRoomRotationDidChange()
-    // Offset: 0xC3AA54
+    // Offset: 0xC4C498
     void HandleRoomRotationDidChange();
     // protected System.Void Update()
-    // Offset: 0xC3AB00
+    // Offset: 0xC4C544
     void Update();
     // public System.Void ResetRoom()
-    // Offset: 0xC3A780
+    // Offset: 0xC4C1C4
     void ResetRoom();
     // public System.Void .ctor()
-    // Offset: 0xC3AB3C
+    // Offset: 0xC4C580
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -68,6 +68,6 @@ namespace GlobalNamespace {
     static VRCenterAdjust* New_ctor();
   }; // VRCenterAdjust
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRCenterAdjust*, "", "VRCenterAdjust");
 #pragma pack(pop)

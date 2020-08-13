@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -21,13 +19,13 @@ namespace System::Xml {
   class BinHexEncoder : public ::CsObject {
     public:
     // static System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Xml.XmlWriter writer)
-    // Offset: 0x1181D4C
+    // Offset: 0x1192790
     static void Encode(::Array<uint8_t>* buffer, int index, int count, System::Xml::XmlWriter* writer);
     // static private System.Int32 Encode(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 count, System.Char[] outArray)
-    // Offset: 0x1181ED8
+    // Offset: 0x119291C
     static int Encode(::Array<uint8_t>* inArray, int offsetIn, int count, ::Array<::Il2CppChar>* outArray);
   }; // System.Xml.BinHexEncoder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BinHexEncoder*, "System.Xml", "BinHexEncoder");
 #pragma pack(pop)

@@ -48,14 +48,14 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode;
     // public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode get_useEditMode()
-    // Offset: 0x108A7F8
+    // Offset: 0x109A23C
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode get_useEditMode();
     // public System.Void .ctor(UnityEngine.Timeline.TimeFieldAttribute/UseEditMode useEditMode)
-    // Offset: 0x108A800
+    // Offset: 0x109A244
     static TimeFieldAttribute* New_ctor(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode);
   }; // UnityEngine.Timeline.TimeFieldAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute*, "UnityEngine.Timeline", "TimeFieldAttribute");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode, "UnityEngine.Timeline", "TimeFieldAttribute/UseEditMode");
 #pragma pack(pop)

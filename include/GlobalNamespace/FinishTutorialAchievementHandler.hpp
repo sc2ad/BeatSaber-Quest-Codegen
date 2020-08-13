@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::AchievementSO* finishTutorialAchievement;
     // protected System.Void Start()
-    // Offset: 0xBD8658
+    // Offset: 0xBEB09C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBD86E4
+    // Offset: 0xBEB128
     void OnDestroy();
     // private System.Void HandleTutorialFinished()
-    // Offset: 0xBD8770
+    // Offset: 0xBEB1B4
     void HandleTutorialFinished();
     // public System.Void .ctor()
-    // Offset: 0xBD8794
+    // Offset: 0xBEB1D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -53,6 +53,6 @@ namespace GlobalNamespace {
     static FinishTutorialAchievementHandler* New_ctor();
   }; // FinishTutorialAchievementHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FinishTutorialAchievementHandler*, "", "FinishTutorialAchievementHandler");
 #pragma pack(pop)

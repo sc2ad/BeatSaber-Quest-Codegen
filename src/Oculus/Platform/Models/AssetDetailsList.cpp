@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.AssetDetailsList
 #include "Oculus/Platform/Models/AssetDetailsList.hpp"
 // Including type: Oculus.Platform.Models.AssetDetails

@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithShareMediaResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::ShareMediaResult*> {
     public:
     // protected Oculus.Platform.Models.ShareMediaResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE92084
+    // Offset: 0xEA4AC8
     Oculus::Platform::Models::ShareMediaResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88E60
+    // Offset: 0xE9B8A4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithShareMediaResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.ShareMediaResult GetShareMediaResult()
-    // Offset: 0xE92040
+    // Offset: 0xEA4A84
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.ShareMediaResult Message::GetShareMediaResult()
     Oculus::Platform::Models::ShareMediaResult* GetShareMediaResult();
   }; // Oculus.Platform.MessageWithShareMediaResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithShareMediaResult*, "Oculus.Platform", "MessageWithShareMediaResult");
 #pragma pack(pop)

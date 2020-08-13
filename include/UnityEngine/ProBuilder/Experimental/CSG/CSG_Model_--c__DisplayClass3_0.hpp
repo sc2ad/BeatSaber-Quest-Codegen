@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.Experimental.CSG.CSG_Model
 #include "UnityEngine/ProBuilder/Experimental/CSG/CSG_Model.hpp"
 // Completed includes
@@ -30,15 +28,15 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // UnityEngine.ProBuilder.CSG_Vertex <.ctor>b__0(UnityEngine.ProBuilder.CSG_Vertex x)
-    // Offset: 0xF7DD94
+    // Offset: 0xF8F7D8
     UnityEngine::ProBuilder::CSG_Vertex $_ctor$b__0(UnityEngine::ProBuilder::CSG_Vertex x);
     // public System.Void .ctor()
-    // Offset: 0xF7D460
+    // Offset: 0xF8EEA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CSG_Model::$$c__DisplayClass3_0* New_ctor();
   }; // UnityEngine.ProBuilder.Experimental.CSG.CSG_Model/<>c__DisplayClass3_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Experimental::CSG::CSG_Model::$$c__DisplayClass3_0*, "UnityEngine.ProBuilder.Experimental.CSG", "CSG_Model/<>c__DisplayClass3_0");
 #pragma pack(pop)

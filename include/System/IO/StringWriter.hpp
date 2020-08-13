@@ -40,60 +40,60 @@ namespace System::IO {
     // Offset: 0x30
     bool isOpen;
     // public System.Void .ctor(System.Text.StringBuilder sb)
-    // Offset: 0xFF6E34
+    // Offset: 0x1006878
     static StringWriter* New_ctor(System::Text::StringBuilder* sb);
     // public System.Void .ctor(System.Text.StringBuilder sb, System.IFormatProvider formatProvider)
-    // Offset: 0xFF6CCC
+    // Offset: 0x1006710
     static StringWriter* New_ctor(System::Text::StringBuilder* sb, System::IFormatProvider* formatProvider);
     // public System.Void .ctor()
-    // Offset: 0xFF6C3C
+    // Offset: 0x1006680
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static StringWriter* New_ctor();
     // public System.Void .ctor(System.IFormatProvider formatProvider)
-    // Offset: 0xFF6DC0
+    // Offset: 0x1006804
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor(System.IFormatProvider formatProvider)
     static StringWriter* New_ctor(System::IFormatProvider* formatProvider);
     // public override System.Void Close()
-    // Offset: 0xFF6EB4
+    // Offset: 0x10068F8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xFF6EC4
+    // Offset: 0x1006908
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0xFF6ECC
+    // Offset: 0x1006910
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char value)
-    // Offset: 0xFF6F74
+    // Offset: 0x10069B8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF6FA0
+    // Offset: 0x10069E4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0xFF7160
+    // Offset: 0x1006BA4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::CsString* value);
     // public override System.String ToString()
-    // Offset: 0xFF7198
+    // Offset: 0x1006BDC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.IO.StringWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringWriter*, "System.IO", "StringWriter");
 #pragma pack(pop)

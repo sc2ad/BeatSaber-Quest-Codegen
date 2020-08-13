@@ -24,18 +24,18 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::ScoreController* scoreController;
     // protected System.Void OnDestroy()
-    // Offset: 0xBCC180
+    // Offset: 0xBDEBC4
     void OnDestroy();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0xBCC25C
+    // Offset: 0xBDECA0
     void HandleComboDidChange(int combo);
     // protected override System.Void Init()
-    // Offset: 0xBCC080
+    // Offset: 0xBDEAC4
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xBCC298
+    // Offset: 0xBDECDC
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -47,6 +47,6 @@ namespace GlobalNamespace {
     static ComboMissionObjectiveChecker* New_ctor();
   }; // ComboMissionObjectiveChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboMissionObjectiveChecker*, "", "ComboMissionObjectiveChecker");
 #pragma pack(pop)

@@ -11,6 +11,6 @@ namespace System::Security::Principal {
   class IPrincipal {
   }; // System.Security.Principal.IPrincipal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::IPrincipal*, "System.Security.Principal", "IPrincipal");
 #pragma pack(pop)

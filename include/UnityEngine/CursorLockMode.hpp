@@ -38,6 +38,6 @@ namespace UnityEngine {
     CursorLockMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.CursorLockMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CursorLockMode, "UnityEngine", "CursorLockMode");
 #pragma pack(pop)

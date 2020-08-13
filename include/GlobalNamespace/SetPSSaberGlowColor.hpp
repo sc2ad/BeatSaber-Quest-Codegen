@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::ParticleSystem* particleSystem;
     // protected System.Void Start()
-    // Offset: 0xC18258
+    // Offset: 0xC29C9C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xC182EC
+    // Offset: 0xC29D30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -50,6 +50,6 @@ namespace GlobalNamespace {
     static SetPSSaberGlowColor* New_ctor();
   }; // SetPSSaberGlowColor
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetPSSaberGlowColor*, "", "SetPSSaberGlowColor");
 #pragma pack(pop)

@@ -24,6 +24,6 @@ namespace System::Collections {
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.IEnumerator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IEnumerator*, "System.Collections", "IEnumerator");
 #pragma pack(pop)

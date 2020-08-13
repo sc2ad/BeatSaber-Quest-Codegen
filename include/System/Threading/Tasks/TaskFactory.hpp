@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Threading.CancellationToken
 #include "System/Threading/CancellationToken.hpp"
 // Including type: System.Threading.Tasks.TaskCreationOptions
@@ -57,27 +55,27 @@ namespace System::Threading::Tasks {
     // Offset: 0x24
     System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
     // public System.Void .ctor(System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskContinuationOptions continuationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0xCD18A4
+    // Offset: 0xCE42E8
     static TaskFactory* New_ctor(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler* scheduler);
     // static System.Void CheckCreationOptions(System.Threading.Tasks.TaskCreationOptions creationOptions)
-    // Offset: 0xCD1A28
+    // Offset: 0xCE446C
     static void CheckCreationOptions(System::Threading::Tasks::TaskCreationOptions creationOptions);
     // public System.Threading.Tasks.Task StartNew(System.Action action, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0xCD1AB0
+    // Offset: 0xCE44F4
     System::Threading::Tasks::Task* StartNew(System::Action* action, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskScheduler* scheduler);
     // static System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> CommonCWAnyLogic(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0xCCFBB4
+    // Offset: 0xCE25F8
     static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* CommonCWAnyLogic(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* tasks);
     // static System.Void CheckMultiTaskContinuationOptions(System.Threading.Tasks.TaskContinuationOptions continuationOptions)
-    // Offset: 0xCD191C
+    // Offset: 0xCE4360
     static void CheckMultiTaskContinuationOptions(System::Threading::Tasks::TaskContinuationOptions continuationOptions);
     // public System.Void .ctor()
-    // Offset: 0xCD006C
+    // Offset: 0xCE2AB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskFactory* New_ctor();
   }; // System.Threading.Tasks.TaskFactory
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory*, "System.Threading.Tasks", "TaskFactory");
 #pragma pack(pop)

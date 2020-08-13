@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: VRControllersRecorderData
 #include "GlobalNamespace/VRControllersRecorderData.hpp"
 // Including type: UnityEngine.XR.XRNode
@@ -24,10 +22,10 @@ namespace GlobalNamespace {
     // Offset: 0x14
     int nodeIdx;
     // public System.Void .ctor(UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0xC3D810
+    // Offset: 0xC4F254
     static VRControllersRecorderData::NodeInfo* New_ctor(UnityEngine::XR::XRNode nodeType, int nodeIdx);
   }; // VRControllersRecorderData/NodeInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::NodeInfo*, "", "VRControllersRecorderData/NodeInfo");
 #pragma pack(pop)

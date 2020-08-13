@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: TMPro.TMP_TextUtilities
 #include "TMPro/TMP_TextUtilities.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
@@ -26,10 +26,10 @@ namespace TMPro {
     // Creating value type constructor for type: LineSegment
     LineSegment(UnityEngine::Vector3 Point1_ = {}, UnityEngine::Vector3 Point2_ = {}) : Point1{Point1_}, Point2{Point2_} {}
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0xA2DAC0
+    // Offset: 0xA2DB3C
     static TMP_TextUtilities::LineSegment* New_ctor(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
   }; // TMPro.TMP_TextUtilities/LineSegment
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities::LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");
 #pragma pack(pop)

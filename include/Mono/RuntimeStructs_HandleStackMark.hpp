@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
@@ -29,6 +30,6 @@ namespace Mono {
     HandleStackMark(int size_ = {}, int interior_size_ = {}, System::IntPtr chunk_ = {}) : size{size_}, interior_size{interior_size_}, chunk{chunk_} {}
   }; // Mono.RuntimeStructs/HandleStackMark
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::HandleStackMark, "Mono", "RuntimeStructs/HandleStackMark");
 #pragma pack(pop)

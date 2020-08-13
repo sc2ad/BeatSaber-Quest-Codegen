@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: OVRInput
 #include "GlobalNamespace/OVRInput.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -58,6 +58,6 @@ namespace GlobalNamespace {
     Axis2D(int value_ = {}) : value{value_} {}
   }; // OVRInput/Axis2D
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Axis2D, "", "OVRInput/Axis2D");
 #pragma pack(pop)

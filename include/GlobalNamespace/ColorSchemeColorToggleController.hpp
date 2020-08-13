@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Toggle* toggle;
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0xB627A4
+    // Offset: 0xB607A4
     UnityEngine::UI::Toggle* get_toggle();
     // public UnityEngine.Color get_color()
-    // Offset: 0xB627AC
+    // Offset: 0xB607AC
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xB627F0
+    // Offset: 0xB607F0
     void set_color(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0xB62894
+    // Offset: 0xB60894
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -53,6 +53,6 @@ namespace GlobalNamespace {
     static ColorSchemeColorToggleController* New_ctor();
   }; // ColorSchemeColorToggleController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorToggleController*, "", "ColorSchemeColorToggleController");
 #pragma pack(pop)

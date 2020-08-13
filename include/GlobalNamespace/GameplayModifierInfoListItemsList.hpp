@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class GameplayModifierInfoListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::GameplayModifierInfoListItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB3E3E0
+    // Offset: 0xB3C3E0
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList`1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -32,6 +32,6 @@ namespace GlobalNamespace {
     static GameplayModifierInfoListItemsList* New_ctor();
   }; // GameplayModifierInfoListItemsList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItemsList*, "", "GameplayModifierInfoListItemsList");
 #pragma pack(pop)

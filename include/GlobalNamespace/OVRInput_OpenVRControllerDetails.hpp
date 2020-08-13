@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRInput
 #include "GlobalNamespace/OVRInput.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.VRControllerState_t
 #include "OVR/OpenVR/VRControllerState_t.hpp"
 // Including type: OVRInput/OpenVRController
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     OpenVRControllerDetails(OVR::OpenVR::VRControllerState_t state_ = {}, GlobalNamespace::OVRInput::OpenVRController controllerType_ = {}, uint deviceID_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localOrientation_ = {}) : state{state_}, controllerType{controllerType_}, deviceID{deviceID_}, localPosition{localPosition_}, localOrientation{localOrientation_} {}
   }; // OVRInput/OpenVRControllerDetails
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRControllerDetails, "", "OVRInput/OpenVRControllerDetails");
 #pragma pack(pop)

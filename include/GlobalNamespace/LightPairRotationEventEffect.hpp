@@ -83,22 +83,22 @@ namespace GlobalNamespace {
     // Offset: 0x68
     float randomDirection;
     // protected System.Void Start()
-    // Offset: 0xBE4EA8
+    // Offset: 0xBF68EC
     void Start();
     // protected System.Void Update()
-    // Offset: 0xBE5068
+    // Offset: 0xBF6AAC
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0xBE5150
+    // Offset: 0xBF6B94
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBE5228
+    // Offset: 0xBF6C6C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void UpdateRotationData(System.Int32 beatmapEventDataValue, LightPairRotationEventEffect/RotationData rotationData, System.Single startRotationOffset, System.Single direction)
-    // Offset: 0xBE53C0
+    // Offset: 0xBF6E04
     void UpdateRotationData(int beatmapEventDataValue, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationData, float startRotationOffset, float direction);
     // public System.Void .ctor()
-    // Offset: 0xBE5494
+    // Offset: 0xBF6ED8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -108,6 +108,6 @@ namespace GlobalNamespace {
     static LightPairRotationEventEffect* New_ctor();
   }; // LightPairRotationEventEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect*, "", "LightPairRotationEventEffect");
 #pragma pack(pop)

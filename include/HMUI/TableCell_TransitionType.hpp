@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: HMUI.TableCell
 #include "HMUI/TableCell.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {
@@ -34,6 +34,6 @@ namespace HMUI {
     TransitionType(int value_ = {}) : value{value_} {}
   }; // HMUI.TableCell/TransitionType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableCell::TransitionType, "HMUI", "TableCell/TransitionType");
 #pragma pack(pop)

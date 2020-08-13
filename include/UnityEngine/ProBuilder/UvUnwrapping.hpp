@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.AutoUnwrapSettings
@@ -49,31 +47,31 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private readonly System.Collections.Generic.List`1<System.Int32> s_IndexBuffer
     static void _set_s_IndexBuffer(System::Collections::Generic::List_1<int>* value);
     // static System.Void Unwrap(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face, UnityEngine.Vector3 projection)
-    // Offset: 0x18B9F64
+    // Offset: 0x18CA9A8
     static void Unwrap(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face, UnityEngine::Vector3 projection);
     // static System.Void CopyUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face source, UnityEngine.ProBuilder.Face dest)
-    // Offset: 0x18BA93C
+    // Offset: 0x18CB380
     static void CopyUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* source, UnityEngine::ProBuilder::Face* dest);
     // static System.Void ProjectTextureGroup(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 group, UnityEngine.ProBuilder.AutoUnwrapSettings unwrapSettings)
-    // Offset: 0x18BAA60
+    // Offset: 0x18CB4A4
     static void ProjectTextureGroup(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int group, UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
     // static private System.Void ApplyUVSettings(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.ProBuilder.AutoUnwrapSettings uvSettings)
-    // Offset: 0x18BA0D0
+    // Offset: 0x18CAB14
     static void ApplyUVSettings(::Array<UnityEngine::Vector2>* uvs, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::ProBuilder::AutoUnwrapSettings uvSettings);
     // static private System.Void StretchUVs(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x18BAE7C
+    // Offset: 0x18CB8C0
     static void StretchUVs(::Array<UnityEngine::Vector2>* uvs, System::Collections::Generic::IList_1<int>* indexes);
     // static private System.Void FitUVs(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x18BAC10
+    // Offset: 0x18CB654
     static void FitUVs(::Array<UnityEngine::Vector2>* uvs, System::Collections::Generic::IList_1<int>* indexes);
     // static private System.Void ApplyUVAnchor(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor anchor)
-    // Offset: 0x18BB0B0
+    // Offset: 0x18CBAF4
     static void ApplyUVAnchor(::Array<UnityEngine::Vector2>* uvs, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor anchor);
     // static private System.Void .cctor()
-    // Offset: 0x18BB4C0
+    // Offset: 0x18CBF04
     static void _cctor();
   }; // UnityEngine.ProBuilder.UvUnwrapping
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UvUnwrapping*, "UnityEngine.ProBuilder", "UvUnwrapping");
 #pragma pack(pop)

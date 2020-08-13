@@ -4,7 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.RuntimeElement
 #include "UnityEngine/Timeline/RuntimeElement.hpp"
 // Completed includes
@@ -20,23 +20,23 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     double get_duration();
     // public override System.Int64 get_intervalStart()
-    // Offset: 0x1088E64
+    // Offset: 0x10988A8
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalStart()
     int64_t get_intervalStart();
     // public override System.Int64 get_intervalEnd()
-    // Offset: 0x1088EE4
+    // Offset: 0x1098928
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalEnd()
     int64_t get_intervalEnd();
     // protected System.Void .ctor()
-    // Offset: 0x1088568
+    // Offset: 0x1097FAC
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::.ctor()
     // Base method: System.Void Object::.ctor()
     static RuntimeClipBase* New_ctor();
   }; // UnityEngine.Timeline.RuntimeClipBase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClipBase*, "UnityEngine.Timeline", "RuntimeClipBase");
 #pragma pack(pop)

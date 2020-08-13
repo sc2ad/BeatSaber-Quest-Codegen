@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.NumberFormatter
 #include "System/NumberFormatter.hpp"
 // Completed includes
@@ -70,21 +68,21 @@ namespace System {
     // Offset: 0x44
     int Permilles;
     // static public System.Void GetActiveSection(System.String format, System.Boolean positive, System.Boolean zero, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1345A84
+    // Offset: 0x13584C8
     static void GetActiveSection(::CsString* format, bool& positive, bool zero, int& offset, int& length);
     // static public System.NumberFormatter/CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1345D70
+    // Offset: 0x13587B4
     static System::NumberFormatter::CustomInfo* Parse(::CsString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
-    // Offset: 0x134658C
+    // Offset: 0x1358FD0
     ::CsString* Format(::CsString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi, bool positive, System::Text::StringBuilder* sb_int, System::Text::StringBuilder* sb_dec, System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
-    // Offset: 0x1346F48
+    // Offset: 0x135998C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NumberFormatter::CustomInfo* New_ctor();
   }; // System.NumberFormatter/CustomInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter::CustomInfo*, "System", "NumberFormatter/CustomInfo");
 #pragma pack(pop)

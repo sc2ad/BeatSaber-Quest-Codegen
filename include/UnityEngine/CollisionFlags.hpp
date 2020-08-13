@@ -62,6 +62,6 @@ namespace UnityEngine {
     CollisionFlags(int value_ = {}) : value{value_} {}
   }; // UnityEngine.CollisionFlags
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CollisionFlags, "UnityEngine", "CollisionFlags");
 #pragma pack(pop)

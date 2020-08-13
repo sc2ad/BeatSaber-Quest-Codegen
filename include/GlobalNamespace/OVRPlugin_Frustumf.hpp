@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -30,6 +31,6 @@ namespace GlobalNamespace {
     Frustumf(float zNear_ = {}, float zFar_ = {}, float fovX_ = {}, float fovY_ = {}) : zNear{zNear_}, zFar{zFar_}, fovX{fovX_}, fovY{fovY_} {}
   }; // OVRPlugin/Frustumf
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Frustumf, "", "OVRPlugin/Frustumf");
 #pragma pack(pop)

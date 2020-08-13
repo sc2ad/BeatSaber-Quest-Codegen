@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: System.Globalization.TimeSpanFormat
 #include "System/Globalization/TimeSpanFormat.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -40,6 +40,6 @@ namespace System::Globalization {
     Pattern(int value_ = {}) : value{value_} {}
   }; // System.Globalization.TimeSpanFormat/Pattern
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat::Pattern, "System.Globalization", "TimeSpanFormat/Pattern");
 #pragma pack(pop)

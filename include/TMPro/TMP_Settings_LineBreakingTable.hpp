@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TMPro.TMP_Settings
 #include "TMPro/TMP_Settings.hpp"
 // Completed includes
@@ -30,12 +28,12 @@ namespace TMPro {
     // Offset: 0x18
     System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* followingCharacters;
     // public System.Void .ctor()
-    // Offset: 0xB9DDA8
+    // Offset: 0xBAF7EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_Settings::LineBreakingTable* New_ctor();
   }; // TMPro.TMP_Settings/LineBreakingTable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings::LineBreakingTable*, "TMPro", "TMP_Settings/LineBreakingTable");
 #pragma pack(pop)

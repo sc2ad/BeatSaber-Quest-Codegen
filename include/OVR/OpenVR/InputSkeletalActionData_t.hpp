@@ -26,6 +26,6 @@ namespace OVR::OpenVR {
     InputSkeletalActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, uint boneCount_ = {}) : bActive{bActive_}, activeOrigin{activeOrigin_}, boneCount{boneCount_} {}
   }; // OVR.OpenVR.InputSkeletalActionData_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputSkeletalActionData_t, "OVR.OpenVR", "InputSkeletalActionData_t");
 #pragma pack(pop)

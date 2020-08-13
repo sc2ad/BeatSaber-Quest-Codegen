@@ -21,6 +21,6 @@ namespace OVR::OpenVR {
     SpatialAnchorPose_t(OVR::OpenVR::HmdMatrix34_t mAnchorToAbsoluteTracking_ = {}) : mAnchorToAbsoluteTracking{mAnchorToAbsoluteTracking_} {}
   }; // OVR.OpenVR.SpatialAnchorPose_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::SpatialAnchorPose_t, "OVR.OpenVR", "SpatialAnchorPose_t");
 #pragma pack(pop)

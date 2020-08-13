@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.StreamingContext
 #include "System/Runtime/Serialization/StreamingContext.hpp"
 // Completed includes
@@ -29,20 +27,20 @@ namespace System::Runtime::Serialization {
     // Offset: 0x18
     System::Runtime::Serialization::StreamingContext context;
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0xFE28D8
+    // Offset: 0xFF331C
     static MemberHolder* New_ctor(System::Type* type, System::Runtime::Serialization::StreamingContext ctx);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFE2930
+    // Offset: 0xFF3374
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFE2950
+    // Offset: 0xFF3394
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
   }; // System.Runtime.Serialization.MemberHolder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::MemberHolder*, "System.Runtime.Serialization", "MemberHolder");
 #pragma pack(pop)

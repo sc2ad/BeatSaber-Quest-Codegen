@@ -43,28 +43,28 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::MissionNodeVisualController* selectedNode;
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xBF3DF0
+    // Offset: 0xC05834
     void add_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xBF3E94
+    // Offset: 0xC058D8
     void remove_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0xBF3F38
+    // Offset: 0xC0597C
     void DeselectSelectedNode();
     // protected System.Void Start()
-    // Offset: 0xBF4008
+    // Offset: 0xC05A4C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBF4298
+    // Offset: 0xC05CDC
     void OnDestroy();
     // private System.Void HandleNodeWasSelect(MissionNodeVisualController missionNode)
-    // Offset: 0xBF4544
+    // Offset: 0xC05F88
     void HandleNodeWasSelect(GlobalNamespace::MissionNodeVisualController* missionNode);
     // private System.Void HandleNodeWasDisplayed(MissionNodeVisualController missionNode)
-    // Offset: 0xBF4618
+    // Offset: 0xC0605C
     void HandleNodeWasDisplayed(GlobalNamespace::MissionNodeVisualController* missionNode);
     // public System.Void .ctor()
-    // Offset: 0xBF46A8
+    // Offset: 0xC060EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,6 +74,6 @@ namespace GlobalNamespace {
     static MissionNodeSelectionManager* New_ctor();
   }; // MissionNodeSelectionManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeSelectionManager*, "", "MissionNodeSelectionManager");
 #pragma pack(pop)

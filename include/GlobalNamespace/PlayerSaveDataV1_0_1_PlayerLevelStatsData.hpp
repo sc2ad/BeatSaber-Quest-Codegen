@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PlayerSaveDataV1_0_1
 #include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
 // Including type: BeatmapDifficulty
@@ -44,12 +42,12 @@ namespace GlobalNamespace {
     // Offset: 0x30
     int playCount;
     // public System.Void .ctor()
-    // Offset: 0xC05804
+    // Offset: 0xC17248
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::PlayerLevelStatsData* New_ctor();
   }; // PlayerSaveDataV1_0_1/PlayerLevelStatsData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*, "", "PlayerSaveDataV1_0_1/PlayerLevelStatsData");
 #pragma pack(pop)

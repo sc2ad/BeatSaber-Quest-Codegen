@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.RoomJoinPolicy
 #include "Oculus/Platform/RoomJoinPolicy.hpp"
 // Including type: Oculus.Platform.RoomJoinability
@@ -107,10 +105,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0xA8
     uint Version;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE8ECB0
+    // Offset: 0xEA16F4
     static Room* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Room
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Room*, "Oculus.Platform.Models", "Room");
 #pragma pack(pop)

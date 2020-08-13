@@ -40,22 +40,22 @@ namespace System::ComponentModel {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> s_ErrorMessage
     static void _set_s_ErrorMessage(System::Collections::Generic::Dictionary_2<int, ::CsString*>* value);
     // public System.Void .ctor(System.Int32 error)
-    // Offset: 0xF46934
+    // Offset: 0xF58378
     static Win32Exception* New_ctor(int error);
     // public System.Void .ctor(System.Int32 error, System.String message)
-    // Offset: 0xF46AD4
+    // Offset: 0xF58518
     static Win32Exception* New_ctor(int error, ::CsString* message);
     // public System.Int32 get_NativeErrorCode()
-    // Offset: 0xF46B9C
+    // Offset: 0xF585E0
     int get_NativeErrorCode();
     // static System.String GetErrorMessage(System.Int32 error)
-    // Offset: 0xF469BC
+    // Offset: 0xF58400
     static ::CsString* GetErrorMessage(int error);
     // static private System.Void InitializeErrorMessages()
-    // Offset: 0xF46C70
+    // Offset: 0xF586B4
     static void InitializeErrorMessages();
     // public System.Void .ctor()
-    // Offset: 0xF468C4
+    // Offset: 0xF58308
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -63,14 +63,14 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     static Win32Exception* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xF46B04
+    // Offset: 0xF58548
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static Win32Exception* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xF46BA4
+    // Offset: 0xF585E8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -78,12 +78,12 @@ namespace System::ComponentModel {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Void .cctor()
-    // Offset: 0xF47DB4
+    // Offset: 0xF597F8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.cctor()
     static void _cctor();
   }; // System.ComponentModel.Win32Exception
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Win32Exception*, "System.ComponentModel", "Win32Exception");
 #pragma pack(pop)

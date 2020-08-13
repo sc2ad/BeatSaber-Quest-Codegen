@@ -24,18 +24,18 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::SaberActivityCounter* saberActivityCounter;
     // protected System.Void OnDestroy()
-    // Offset: 0xB429B8
+    // Offset: 0xB409B8
     void OnDestroy();
     // private System.Void HandleTotalDistanceDidChange(System.Single distance)
-    // Offset: 0xB42A94
+    // Offset: 0xB40A94
     void HandleTotalDistanceDidChange(float distance);
     // protected override System.Void Init()
-    // Offset: 0xB42AC4
+    // Offset: 0xB40AC4
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xB42B88
+    // Offset: 0xB40B88
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -47,6 +47,6 @@ namespace GlobalNamespace {
     static HandsMovementMissionObjectiveChecker* New_ctor();
   }; // HandsMovementMissionObjectiveChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HandsMovementMissionObjectiveChecker*, "", "HandsMovementMissionObjectiveChecker");
 #pragma pack(pop)

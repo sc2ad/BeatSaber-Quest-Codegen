@@ -56,6 +56,6 @@ namespace OVR::OpenVR {
     IVRScreenshots(OVR::OpenVR::IVRScreenshots::_RequestScreenshot* RequestScreenshot_ = {}, OVR::OpenVR::IVRScreenshots::_HookScreenshot* HookScreenshot_ = {}, OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType* GetScreenshotPropertyType_ = {}, OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyFilename* GetScreenshotPropertyFilename_ = {}, OVR::OpenVR::IVRScreenshots::_UpdateScreenshotProgress* UpdateScreenshotProgress_ = {}, OVR::OpenVR::IVRScreenshots::_TakeStereoScreenshot* TakeStereoScreenshot_ = {}, OVR::OpenVR::IVRScreenshots::_SubmitScreenshot* SubmitScreenshot_ = {}) : RequestScreenshot{RequestScreenshot_}, HookScreenshot{HookScreenshot_}, GetScreenshotPropertyType{GetScreenshotPropertyType_}, GetScreenshotPropertyFilename{GetScreenshotPropertyFilename_}, UpdateScreenshotProgress{UpdateScreenshotProgress_}, TakeStereoScreenshot{TakeStereoScreenshot_}, SubmitScreenshot{SubmitScreenshot_} {}
   }; // OVR.OpenVR.IVRScreenshots
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots, "OVR.OpenVR", "IVRScreenshots");
 #pragma pack(pop)

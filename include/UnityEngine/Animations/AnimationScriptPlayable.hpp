@@ -28,23 +28,23 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationScriptPlayable
     AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5A0DC
+    // Offset: 0xA5A158
     static AnimationScriptPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
-    // Offset: 0x1925974
+    // Offset: 0x19373B8
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA5A0E4
+    // Offset: 0xA5A160
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationScriptPlayable other)
-    // Offset: 0xA5A0F0
+    // Offset: 0xA5A16C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimationScriptPlayable other)
     bool Equals(UnityEngine::Animations::AnimationScriptPlayable other);
   }; // UnityEngine.Animations.AnimationScriptPlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationScriptPlayable, "UnityEngine.Animations", "AnimationScriptPlayable");
 #pragma pack(pop)

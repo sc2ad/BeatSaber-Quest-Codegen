@@ -60,6 +60,6 @@ namespace Valve::VR {
     Compositor_OverlaySettings(uint size_ = {}, bool curved_ = {}, bool antialias_ = {}, float scale_ = {}, float distance_ = {}, float alpha_ = {}, float uOffset_ = {}, float vOffset_ = {}, float uScale_ = {}, float vScale_ = {}, float gridDivs_ = {}, float gridWidth_ = {}, float gridScale_ = {}, Valve::VR::HmdMatrix44_t transform_ = {}) : size{size_}, curved{curved_}, antialias{antialias_}, scale{scale_}, distance{distance_}, alpha{alpha_}, uOffset{uOffset_}, vOffset{vOffset_}, uScale{uScale_}, vScale{vScale_}, gridDivs{gridDivs_}, gridWidth{gridWidth_}, gridScale{gridScale_}, transform{transform_} {}
   }; // Valve.VR.Compositor_OverlaySettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_OverlaySettings, "Valve.VR", "Compositor_OverlaySettings");
 #pragma pack(pop)

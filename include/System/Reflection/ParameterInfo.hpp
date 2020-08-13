@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Reflection.ICustomAttributeProvider
 #include "System/Reflection/ICustomAttributeProvider.hpp"
 // Including type: System.Runtime.Serialization.IObjectReference
@@ -72,64 +70,64 @@ namespace System::Reflection {
     // Offset: 0x38
     System::Runtime::InteropServices::MarshalAsAttribute* marshalAs;
     // static System.Void FormatParameters(System.Text.StringBuilder sb, System.Reflection.ParameterInfo[] p, System.Reflection.CallingConventions callingConvention, System.Boolean serialization)
-    // Offset: 0x113F4F8
+    // Offset: 0x1150F3C
     static void FormatParameters(System::Text::StringBuilder* sb, ::Array<System::Reflection::ParameterInfo*>* p, System::Reflection::CallingConventions callingConvention, bool serialization);
     // public System.Type get_ParameterType()
-    // Offset: 0x113F6F8
+    // Offset: 0x115113C
     System::Type* get_ParameterType();
     // public System.Reflection.ParameterAttributes get_Attributes()
-    // Offset: 0x113F700
+    // Offset: 0x1151144
     System::Reflection::ParameterAttributes get_Attributes();
     // public System.Boolean get_IsIn()
-    // Offset: 0x113F708
+    // Offset: 0x115114C
     bool get_IsIn();
     // public System.Boolean get_IsOptional()
-    // Offset: 0x113F728
+    // Offset: 0x115116C
     bool get_IsOptional();
     // public System.Boolean get_IsOut()
-    // Offset: 0x113F748
+    // Offset: 0x115118C
     bool get_IsOut();
     // public System.Boolean get_IsRetval()
-    // Offset: 0x113F4D8
+    // Offset: 0x1150F1C
     bool get_IsRetval();
     // public System.Reflection.MemberInfo get_Member()
-    // Offset: 0x113F768
+    // Offset: 0x11511AC
     System::Reflection::MemberInfo* get_Member();
     // public System.String get_Name()
-    // Offset: 0x113F770
+    // Offset: 0x11511B4
     ::CsString* get_Name();
     // public System.Int32 get_Position()
-    // Offset: 0x113F778
+    // Offset: 0x11511BC
     int get_Position();
     // System.Object[] GetPseudoCustomAttributes()
-    // Offset: 0x113F780
+    // Offset: 0x11511C4
     ::Array<::CsObject*>* GetPseudoCustomAttributes();
     // System.Object GetDefaultValueImpl()
-    // Offset: 0x113F9FC
+    // Offset: 0x1151440
     ::CsObject* GetDefaultValueImpl();
     // public System.Object get_DefaultValue()
-    // Offset: 0x113FA04
+    // Offset: 0x1151448
     ::CsObject* get_DefaultValue();
     // static System.Reflection.ParameterInfo New(System.Reflection.ParameterInfo pinfo, System.Reflection.MemberInfo member)
-    // Offset: 0x113E43C
+    // Offset: 0x114FE80
     static System::Reflection::ParameterInfo* New(System::Reflection::ParameterInfo* pinfo, System::Reflection::MemberInfo* member);
     // protected System.Void .ctor()
-    // Offset: 0x113F31C
+    // Offset: 0x1150D60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ParameterInfo* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x113F324
+    // Offset: 0x1150D68
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x113FA64
+    // Offset: 0x11514A8
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Object[] ICustomAttributeProvider::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::CsObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x113FAB0
+    // Offset: 0x11514F4
     // Implemented from: System.Runtime.Serialization.IObjectReference
     // Base method: System.Object IObjectReference::GetRealObject(System.Runtime.Serialization.StreamingContext context)
     ::CsObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
@@ -137,12 +135,12 @@ namespace System::Reflection {
     // Maps to method: GetRealObject
     ::CsObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x113FB10
+    // Offset: 0x1151554
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Boolean ICustomAttributeProvider::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.ParameterInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterInfo*, "System.Reflection", "ParameterInfo");
 #pragma pack(pop)

@@ -17,13 +17,13 @@ namespace HMUI {
     // Offset: 0x18
     bool interactable;
     // public System.Boolean get_interactable()
-    // Offset: 0xED2960
+    // Offset: 0xEE53A4
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0xED2968
+    // Offset: 0xEE53AC
     void set_interactable(bool value);
     // public System.Void .ctor()
-    // Offset: 0xEBFB70
+    // Offset: 0xED25B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -33,6 +33,6 @@ namespace HMUI {
     static Interactable* New_ctor();
   }; // HMUI.Interactable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Interactable*, "HMUI", "Interactable");
 #pragma pack(pop)

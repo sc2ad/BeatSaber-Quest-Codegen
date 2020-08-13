@@ -29,10 +29,10 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: PlayableOutput
     PlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Playables.PlayableOutput get_Null()
-    // Offset: 0x1400ED4
+    // Offset: 0x1411918
     static UnityEngine::Playables::PlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0xA45310
+    // Offset: 0xA4538C
     static PlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
     // public System.Boolean IsPlayableOutputOfType()
     // Offset: 0xFFFFFFFF
@@ -42,15 +42,15 @@ namespace UnityEngine::Playables {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOutputOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14030CC
+    // Offset: 0x1413B10
     static void _cctor();
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xA45318
+    // Offset: 0xA45394
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Playables.PlayableOutput other)
-    // Offset: 0xA45324
+    // Offset: 0xA453A0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Playables.PlayableOutput other)
     bool Equals(UnityEngine::Playables::PlayableOutput other);

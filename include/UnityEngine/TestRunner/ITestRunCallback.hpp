@@ -33,6 +33,6 @@ namespace UnityEngine::TestRunner {
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestRunner.ITestRunCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::ITestRunCallback*, "UnityEngine.TestRunner", "ITestRunCallback");
 #pragma pack(pop)

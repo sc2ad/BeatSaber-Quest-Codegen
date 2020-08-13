@@ -23,7 +23,7 @@ namespace System::Reflection {
   class CustomAttributeFormatException : public System::FormatException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x134F8FC
+    // Offset: 0x1362340
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     static CustomAttributeFormatException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x134F95C
+    // Offset: 0x13623A0
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static CustomAttributeFormatException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x134F964
+    // Offset: 0x13623A8
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -46,6 +46,6 @@ namespace System::Reflection {
     static CustomAttributeFormatException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.CustomAttributeFormatException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeFormatException*, "System.Reflection", "CustomAttributeFormatException");
 #pragma pack(pop)

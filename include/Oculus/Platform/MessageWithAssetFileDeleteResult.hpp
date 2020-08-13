@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithAssetFileDeleteResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*> {
     public:
     // protected Oculus.Platform.Models.AssetFileDeleteResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8AF8C
+    // Offset: 0xE9D9D0
     Oculus::Platform::Models::AssetFileDeleteResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88080
+    // Offset: 0xE9AAC4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithAssetFileDeleteResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.AssetFileDeleteResult GetAssetFileDeleteResult()
-    // Offset: 0xE8AF48
+    // Offset: 0xE9D98C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AssetFileDeleteResult Message::GetAssetFileDeleteResult()
     Oculus::Platform::Models::AssetFileDeleteResult* GetAssetFileDeleteResult();
   }; // Oculus.Platform.MessageWithAssetFileDeleteResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetFileDeleteResult*, "Oculus.Platform", "MessageWithAssetFileDeleteResult");
 #pragma pack(pop)

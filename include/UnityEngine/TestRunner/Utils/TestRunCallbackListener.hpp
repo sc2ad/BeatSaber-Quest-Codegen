@@ -50,25 +50,25 @@ namespace UnityEngine::TestRunner::Utils {
     // Offset: 0x18
     ::Array<UnityEngine::TestRunner::ITestRunCallback*>* m_Callbacks;
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0xE268B8
+    // Offset: 0xE392FC
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // static private UnityEngine.TestRunner.ITestRunCallback[] GetAllCallbacks()
-    // Offset: 0xE26B04
+    // Offset: 0xE39548
     static ::Array<UnityEngine::TestRunner::ITestRunCallback*>* GetAllCallbacks();
     // private System.Void InvokeAllCallbacks(System.Action`1<UnityEngine.TestRunner.ITestRunCallback> invoker)
-    // Offset: 0xE2697C
+    // Offset: 0xE393C0
     void InvokeAllCallbacks(System::Action_1<UnityEngine::TestRunner::ITestRunCallback*>* invoker);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE26DB0
+    // Offset: 0xE397F4
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE26E74
+    // Offset: 0xE398B8
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE26F38
+    // Offset: 0xE3997C
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0xE26FFC
+    // Offset: 0xE39A40
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -76,6 +76,6 @@ namespace UnityEngine::TestRunner::Utils {
     static TestRunCallbackListener* New_ctor();
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener");
 #pragma pack(pop)

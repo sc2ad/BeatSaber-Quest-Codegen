@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: SteamVR_RenderModel
 #include "GlobalNamespace/SteamVR_RenderModel.hpp"
 // Completed includes
@@ -31,22 +29,22 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Material* material;
     // public System.Void .ctor(UnityEngine.Mesh mesh, UnityEngine.Material material)
-    // Offset: 0xD7AAB4
+    // Offset: 0xD8E4F8
     static SteamVR_RenderModel::RenderModel* New_ctor(UnityEngine::Mesh* mesh, UnityEngine::Material* material);
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0xD7BD20
+    // Offset: 0xD8F764
     UnityEngine::Mesh* get_mesh();
     // private System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0xD7BD28
+    // Offset: 0xD8F76C
     void set_mesh(UnityEngine::Mesh* value);
     // public UnityEngine.Material get_material()
-    // Offset: 0xD7BD30
+    // Offset: 0xD8F774
     UnityEngine::Material* get_material();
     // private System.Void set_material(UnityEngine.Material value)
-    // Offset: 0xD7BD38
+    // Offset: 0xD8F77C
     void set_material(UnityEngine::Material* value);
   }; // SteamVR_RenderModel/RenderModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::RenderModel*, "", "SteamVR_RenderModel/RenderModel");
 #pragma pack(pop)

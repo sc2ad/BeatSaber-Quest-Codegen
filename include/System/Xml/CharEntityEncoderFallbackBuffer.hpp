@@ -30,43 +30,43 @@ namespace System::Xml {
     // Offset: 0x40
     int charEntityIndex;
     // System.Void .ctor(System.Xml.CharEntityEncoderFallback parent)
-    // Offset: 0x1182488
+    // Offset: 0x1192ECC
     static CharEntityEncoderFallbackBuffer* New_ctor(System::Xml::CharEntityEncoderFallback* parent);
     // private System.Int32 SurrogateCharToUtf32(System.Char highSurrogate, System.Char lowSurrogate)
-    // Offset: 0x1182AB8
+    // Offset: 0x11934FC
     int SurrogateCharToUtf32(::Il2CppChar highSurrogate, ::Il2CppChar lowSurrogate);
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x11825C0
+    // Offset: 0x1193004
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x11827B8
+    // Offset: 0x11931FC
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1182AD4
+    // Offset: 0x1193518
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x1182B28
+    // Offset: 0x119356C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
     bool MovePrevious();
     // public override System.Int32 get_Remaining()
-    // Offset: 0x1182B48
+    // Offset: 0x119358C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();
     // public override System.Void Reset()
-    // Offset: 0x1182B7C
+    // Offset: 0x11935C0
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();
   }; // System.Xml.CharEntityEncoderFallbackBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallbackBuffer*, "System.Xml", "CharEntityEncoderFallbackBuffer");
 #pragma pack(pop)

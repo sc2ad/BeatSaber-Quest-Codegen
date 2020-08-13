@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HealthWarningFlowCoordinator
 #include "GlobalNamespace/HealthWarningFlowCoordinator.hpp"
 // Completed includes
@@ -26,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0xB43898
+    // Offset: 0xB41898
     static HealthWarningFlowCoordinator::InitData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
   }; // HealthWarningFlowCoordinator/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator::InitData*, "", "HealthWarningFlowCoordinator/InitData");
 #pragma pack(pop)

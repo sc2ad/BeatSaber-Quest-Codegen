@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Rect
 #include "UnityEngine/Rect.hpp"
 // Including type: UnityEngine.Vector4
@@ -38,15 +38,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TextureRectMatrixf
     TextureRectMatrixf(UnityEngine::Rect leftRect_ = {}, UnityEngine::Rect rightRect_ = {}, UnityEngine::Vector4 leftScaleBias_ = {}, UnityEngine::Vector4 rightScaleBias_ = {}) : leftRect{leftRect_}, rightRect{rightRect_}, leftScaleBias{leftScaleBias_}, rightScaleBias{rightScaleBias_} {}
     // static private System.Void .cctor()
-    // Offset: 0xF34604
+    // Offset: 0xF45048
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xA36C30
+    // Offset: 0xA37CAC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // OVRPlugin/TextureRectMatrixf
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TextureRectMatrixf, "", "OVRPlugin/TextureRectMatrixf");
 #pragma pack(pop)

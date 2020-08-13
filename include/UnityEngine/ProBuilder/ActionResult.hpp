@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -63,38 +61,38 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     ::CsString* notification;
     // public UnityEngine.ProBuilder.ActionResult/Status get_status()
-    // Offset: 0x1512A30
+    // Offset: 0x1522474
     UnityEngine::ProBuilder::ActionResult::Status get_status();
     // private System.Void set_status(UnityEngine.ProBuilder.ActionResult/Status value)
-    // Offset: 0x1512A38
+    // Offset: 0x152247C
     void set_status(UnityEngine::ProBuilder::ActionResult::Status value);
     // public System.String get_notification()
-    // Offset: 0x1512A40
+    // Offset: 0x1522484
     ::CsString* get_notification();
     // private System.Void set_notification(System.String value)
-    // Offset: 0x1512A48
+    // Offset: 0x152248C
     void set_notification(::CsString* value);
     // public System.Void .ctor(UnityEngine.ProBuilder.ActionResult/Status status, System.String notification)
-    // Offset: 0x1512A50
+    // Offset: 0x1522494
     static ActionResult* New_ctor(UnityEngine::ProBuilder::ActionResult::Status status, ::CsString* notification);
     // public System.Boolean ToBool()
-    // Offset: 0x1512AA8
+    // Offset: 0x15224EC
     bool ToBool();
     // static public System.Boolean FromBool(System.Boolean success)
-    // Offset: 0x1512AB8
+    // Offset: 0x15224FC
     static bool FromBool(bool success);
     // static public UnityEngine.ProBuilder.ActionResult get_Success()
-    // Offset: 0x1512B60
+    // Offset: 0x15225A4
     static UnityEngine::ProBuilder::ActionResult* get_Success();
     // static public UnityEngine.ProBuilder.ActionResult get_NoSelection()
-    // Offset: 0x1512BDC
+    // Offset: 0x1522620
     static UnityEngine::ProBuilder::ActionResult* get_NoSelection();
     // static public UnityEngine.ProBuilder.ActionResult get_UserCanceled()
-    // Offset: 0x1512C5C
+    // Offset: 0x15226A0
     static UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
   }; // UnityEngine.ProBuilder.ActionResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult::Status, "UnityEngine.ProBuilder", "ActionResult/Status");
 #pragma pack(pop)

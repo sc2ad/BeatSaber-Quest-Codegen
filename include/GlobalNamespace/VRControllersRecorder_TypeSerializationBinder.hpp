@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Runtime.Serialization.SerializationBinder
-#include "System/Runtime/Serialization/SerializationBinder.hpp"
 // Including type: VRControllersRecorder
 #include "GlobalNamespace/VRControllersRecorder.hpp"
+// Including type: System.Runtime.Serialization.SerializationBinder
+#include "System/Runtime/Serialization/SerializationBinder.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -23,18 +23,18 @@ namespace GlobalNamespace {
   class VRControllersRecorder::TypeSerializationBinder : public System::Runtime::Serialization::SerializationBinder {
     public:
     // public override System.Type BindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0xC3D208
+    // Offset: 0xC4EC4C
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
     System::Type* BindToType(::CsString* assemblyName, ::CsString* typeName);
     // public System.Void .ctor()
-    // Offset: 0xC3C5D8
+    // Offset: 0xC4E01C
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Void SerializationBinder::.ctor()
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorder::TypeSerializationBinder* New_ctor();
   }; // VRControllersRecorder/TypeSerializationBinder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::TypeSerializationBinder*, "", "VRControllersRecorder/TypeSerializationBinder");
 #pragma pack(pop)

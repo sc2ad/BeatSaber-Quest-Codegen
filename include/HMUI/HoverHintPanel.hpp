@@ -48,25 +48,25 @@ namespace HMUI {
     // Offset: 0x38
     bool isShown;
     // public System.Boolean get_isShown()
-    // Offset: 0xECC680
+    // Offset: 0xEDF0C4
     bool get_isShown();
     // private System.Void set_isShown(System.Boolean value)
-    // Offset: 0xECC688
+    // Offset: 0xEDF0CC
     void set_isShown(bool value);
     // protected System.Void Awake()
-    // Offset: 0xECC694
+    // Offset: 0xEDF0D8
     void Awake();
     // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
-    // Offset: 0xECC11C
+    // Offset: 0xEDEB60
     void Show(::CsString* text, UnityEngine::Transform* parent, UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect);
     // public System.Void Hide()
-    // Offset: 0xECBC84
+    // Offset: 0xEDE6C8
     void Hide();
     // private UnityEngine.Vector2 CalculatePanelPosition(UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect, UnityEngine.Vector2 panelSize)
-    // Offset: 0xECC79C
+    // Offset: 0xEDF1E0
     UnityEngine::Vector2 CalculatePanelPosition(UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect, UnityEngine::Vector2 panelSize);
     // public System.Void .ctor()
-    // Offset: 0xECC8C8
+    // Offset: 0xEDF30C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -76,6 +76,6 @@ namespace HMUI {
     static HoverHintPanel* New_ctor();
   }; // HMUI.HoverHintPanel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintPanel*, "HMUI", "HoverHintPanel");
 #pragma pack(pop)

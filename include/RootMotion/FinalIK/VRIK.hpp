@@ -31,41 +31,41 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     RootMotion::FinalIK::IKSolverVR* solver;
     // private System.Void OpenSetupTutorial()
-    // Offset: 0x1223B50
+    // Offset: 0x1235594
     void OpenSetupTutorial();
     // public System.Void AutoDetectReferences()
-    // Offset: 0x1223B9C
+    // Offset: 0x12355E0
     void AutoDetectReferences();
     // public System.Void GuessHandOrientations()
-    // Offset: 0x1224044
+    // Offset: 0x1235A88
     void GuessHandOrientations();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x1223AB8
+    // Offset: 0x12354FC
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x1223B04
+    // Offset: 0x1235548
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenScriptReference()
     void OpenScriptReference();
     // public override RootMotion.FinalIK.IKSolver GetIKSolver()
-    // Offset: 0x122406C
+    // Offset: 0x1235AB0
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: RootMotion.FinalIK.IKSolver IK::GetIKSolver()
     RootMotion::FinalIK::IKSolver* GetIKSolver();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x1224074
+    // Offset: 0x1235AB8
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x12249E0
+    // Offset: 0x1236424
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::UpdateSolver()
     void UpdateSolver();
     // public System.Void .ctor()
-    // Offset: 0x1224B58
+    // Offset: 0x123659C
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -77,6 +77,6 @@ namespace RootMotion::FinalIK {
     static VRIK* New_ctor();
   }; // RootMotion.FinalIK.VRIK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK*, "RootMotion.FinalIK", "VRIK");
 #pragma pack(pop)

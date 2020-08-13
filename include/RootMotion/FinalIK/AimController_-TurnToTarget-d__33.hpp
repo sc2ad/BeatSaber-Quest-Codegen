@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.AimController
 #include "RootMotion/FinalIK/AimController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -27,35 +25,35 @@ namespace RootMotion::FinalIK {
     // Offset: 0x20
     RootMotion::FinalIK::AimController* $$4__this;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0x1392448
+    // Offset: 0x13A3E8C
     static AimController::$TurnToTarget$d__33* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1392548
+    // Offset: 0x13A3F8C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x139254C
+    // Offset: 0x13A3F90
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1392678
+    // Offset: 0x13A40BC
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1392680
+    // Offset: 0x13A40C4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13926E0
+    // Offset: 0x13A4124
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // RootMotion.FinalIK.AimController/<TurnToTarget>d__33
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController::$TurnToTarget$d__33*, "RootMotion.FinalIK", "AimController/<TurnToTarget>d__33");
 #pragma pack(pop)

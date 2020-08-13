@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Serialization.OnSerializingAttribute
 #include "System/Runtime/Serialization/OnSerializingAttribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

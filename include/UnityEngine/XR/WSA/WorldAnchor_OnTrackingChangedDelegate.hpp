@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.XR.WSA.WorldAnchor
 #include "UnityEngine/XR/WSA/WorldAnchor.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace UnityEngine::XR::WSA {
   class WorldAnchor::OnTrackingChangedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19626E0
+    // Offset: 0x1975124
     static WorldAnchor::OnTrackingChangedDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located)
-    // Offset: 0x1962298
+    // Offset: 0x1974CDC
     void Invoke(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located);
     // public System.IAsyncResult BeginInvoke(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19626F4
+    // Offset: 0x1975138
     System::IAsyncResult* BeginInvoke(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1962794
+    // Offset: 0x19751D8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.XR.WSA.WorldAnchor/OnTrackingChangedDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*, "UnityEngine.XR.WSA", "WorldAnchor/OnTrackingChangedDelegate");
 #pragma pack(pop)

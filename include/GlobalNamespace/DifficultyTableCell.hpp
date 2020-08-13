@@ -43,26 +43,26 @@ namespace GlobalNamespace {
     // Offset: 0x68
     GlobalNamespace::FillIndicator* fillIndicator;
     // public System.Void set_difficultyText(System.String value)
-    // Offset: 0xBD1AC0
+    // Offset: 0xBE4504
     void set_difficultyText(::CsString* value);
     // public System.String get_difficultyText()
-    // Offset: 0xBD1ADC
+    // Offset: 0xBE4520
     ::CsString* get_difficultyText();
     // public System.Void set_difficultyValue(System.Int32 value)
-    // Offset: 0xBD1AF8
+    // Offset: 0xBE453C
     void set_difficultyValue(int value);
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBD1BE0
+    // Offset: 0xBE4624
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBD1C78
+    // Offset: 0xBE46BC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xBD1CB4
+    // Offset: 0xBE46F8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -74,6 +74,6 @@ namespace GlobalNamespace {
     static DifficultyTableCell* New_ctor();
   }; // DifficultyTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableCell*, "", "DifficultyTableCell");
 #pragma pack(pop)

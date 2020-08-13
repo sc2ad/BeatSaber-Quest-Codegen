@@ -26,31 +26,31 @@ namespace RootMotion::FinalIK {
     // Offset: 0x38
     RootMotion::FinalIK::IKSolverAim* solver;
     // private System.Void OpenSetupTutorial()
-    // Offset: 0x1392780
+    // Offset: 0x13A41C4
     void OpenSetupTutorial();
     // private System.Void SupportGroup()
-    // Offset: 0x13927CC
+    // Offset: 0x13A4210
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1392818
+    // Offset: 0x13A425C
     void ASThread();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x13926E8
+    // Offset: 0x13A412C
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x1392734
+    // Offset: 0x13A4178
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenScriptReference()
     void OpenScriptReference();
     // public override RootMotion.FinalIK.IKSolver GetIKSolver()
-    // Offset: 0x1392864
+    // Offset: 0x13A42A8
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: RootMotion.FinalIK.IKSolver IK::GetIKSolver()
     RootMotion::FinalIK::IKSolver* GetIKSolver();
     // public System.Void .ctor()
-    // Offset: 0x139286C
+    // Offset: 0x13A42B0
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -62,6 +62,6 @@ namespace RootMotion::FinalIK {
     static AimIK* New_ctor();
   }; // RootMotion.FinalIK.AimIK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimIK*, "RootMotion.FinalIK", "AimIK");
 #pragma pack(pop)

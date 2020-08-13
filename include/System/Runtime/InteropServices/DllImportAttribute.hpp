@@ -52,22 +52,22 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x2D
     bool ThrowOnUnmappableChar;
     // static System.Attribute GetCustomAttribute(System.Reflection.RuntimeMethodInfo method)
-    // Offset: 0x113CFD4
+    // Offset: 0x114EA18
     static System::Attribute* GetCustomAttribute(System::Reflection::RuntimeMethodInfo* method);
     // static System.Boolean IsDefined(System.Reflection.RuntimeMethodInfo method)
-    // Offset: 0x1150FBC
+    // Offset: 0x1162A00
     static bool IsDefined(System::Reflection::RuntimeMethodInfo* method);
     // System.Void .ctor(System.String dllName, System.String entryPoint, System.Runtime.InteropServices.CharSet charSet, System.Boolean exactSpelling, System.Boolean setLastError, System.Boolean preserveSig, System.Runtime.InteropServices.CallingConvention callingConvention, System.Boolean bestFitMapping, System.Boolean throwOnUnmappableChar)
-    // Offset: 0x1150F04
+    // Offset: 0x1162948
     static DllImportAttribute* New_ctor(::CsString* dllName, ::CsString* entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
     // public System.Void .ctor(System.String dllName)
-    // Offset: 0x1150FE8
+    // Offset: 0x1162A2C
     static DllImportAttribute* New_ctor(::CsString* dllName);
     // public System.String get_Value()
-    // Offset: 0x115101C
+    // Offset: 0x1162A60
     ::CsString* get_Value();
   }; // System.Runtime.InteropServices.DllImportAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");
 #pragma pack(pop)

@@ -27,6 +27,6 @@ namespace System::Collections {
     int System_Collections_ICollection_get_Count();
   }; // System.Collections.ICollection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ICollection*, "System.Collections", "ICollection");
 #pragma pack(pop)

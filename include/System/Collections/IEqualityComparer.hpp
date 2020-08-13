@@ -21,6 +21,6 @@ namespace System::Collections {
     int System_Collections_IEqualityComparer_GetHashCode(::CsObject* obj);
   }; // System.Collections.IEqualityComparer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IEqualityComparer*, "System.Collections", "IEqualityComparer");
 #pragma pack(pop)

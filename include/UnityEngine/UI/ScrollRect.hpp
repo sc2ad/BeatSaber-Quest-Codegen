@@ -235,205 +235,205 @@ namespace UnityEngine::UI {
     // Offset: 0x120
     ::Array<UnityEngine::Vector3>* m_Corners;
     // public UnityEngine.RectTransform get_content()
-    // Offset: 0x11F3370
+    // Offset: 0x1204DB4
     UnityEngine::RectTransform* get_content();
     // public System.Void set_content(UnityEngine.RectTransform value)
-    // Offset: 0x11F3378
+    // Offset: 0x1204DBC
     void set_content(UnityEngine::RectTransform* value);
     // public System.Boolean get_horizontal()
-    // Offset: 0x11F3380
+    // Offset: 0x1204DC4
     bool get_horizontal();
     // public System.Void set_horizontal(System.Boolean value)
-    // Offset: 0x11F3388
+    // Offset: 0x1204DCC
     void set_horizontal(bool value);
     // public System.Boolean get_vertical()
-    // Offset: 0x11F3394
+    // Offset: 0x1204DD8
     bool get_vertical();
     // public System.Void set_vertical(System.Boolean value)
-    // Offset: 0x11F339C
+    // Offset: 0x1204DE0
     void set_vertical(bool value);
     // public UnityEngine.UI.ScrollRect/MovementType get_movementType()
-    // Offset: 0x11F33A8
+    // Offset: 0x1204DEC
     UnityEngine::UI::ScrollRect::MovementType get_movementType();
     // public System.Void set_movementType(UnityEngine.UI.ScrollRect/MovementType value)
-    // Offset: 0x11F33B0
+    // Offset: 0x1204DF4
     void set_movementType(UnityEngine::UI::ScrollRect::MovementType value);
     // public System.Single get_elasticity()
-    // Offset: 0x11F33B8
+    // Offset: 0x1204DFC
     float get_elasticity();
     // public System.Void set_elasticity(System.Single value)
-    // Offset: 0x11F33C0
+    // Offset: 0x1204E04
     void set_elasticity(float value);
     // public System.Boolean get_inertia()
-    // Offset: 0x11F33C8
+    // Offset: 0x1204E0C
     bool get_inertia();
     // public System.Void set_inertia(System.Boolean value)
-    // Offset: 0x11F33D0
+    // Offset: 0x1204E14
     void set_inertia(bool value);
     // public System.Single get_decelerationRate()
-    // Offset: 0x11F33DC
+    // Offset: 0x1204E20
     float get_decelerationRate();
     // public System.Void set_decelerationRate(System.Single value)
-    // Offset: 0x11F33E4
+    // Offset: 0x1204E28
     void set_decelerationRate(float value);
     // public System.Single get_scrollSensitivity()
-    // Offset: 0x11F33EC
+    // Offset: 0x1204E30
     float get_scrollSensitivity();
     // public System.Void set_scrollSensitivity(System.Single value)
-    // Offset: 0x11F33F4
+    // Offset: 0x1204E38
     void set_scrollSensitivity(float value);
     // public UnityEngine.RectTransform get_viewport()
-    // Offset: 0x11F33FC
+    // Offset: 0x1204E40
     UnityEngine::RectTransform* get_viewport();
     // public System.Void set_viewport(UnityEngine.RectTransform value)
-    // Offset: 0x11F3404
+    // Offset: 0x1204E48
     void set_viewport(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Scrollbar get_horizontalScrollbar()
-    // Offset: 0x11F34FC
+    // Offset: 0x1204F40
     UnityEngine::UI::Scrollbar* get_horizontalScrollbar();
     // public System.Void set_horizontalScrollbar(UnityEngine.UI.Scrollbar value)
-    // Offset: 0x11F3504
+    // Offset: 0x1204F48
     void set_horizontalScrollbar(UnityEngine::UI::Scrollbar* value);
     // public UnityEngine.UI.Scrollbar get_verticalScrollbar()
-    // Offset: 0x11F368C
+    // Offset: 0x12050D0
     UnityEngine::UI::Scrollbar* get_verticalScrollbar();
     // public System.Void set_verticalScrollbar(UnityEngine.UI.Scrollbar value)
-    // Offset: 0x11F3694
+    // Offset: 0x12050D8
     void set_verticalScrollbar(UnityEngine::UI::Scrollbar* value);
     // public UnityEngine.UI.ScrollRect/ScrollbarVisibility get_horizontalScrollbarVisibility()
-    // Offset: 0x11F381C
+    // Offset: 0x1205260
     UnityEngine::UI::ScrollRect::ScrollbarVisibility get_horizontalScrollbarVisibility();
     // public System.Void set_horizontalScrollbarVisibility(UnityEngine.UI.ScrollRect/ScrollbarVisibility value)
-    // Offset: 0x11F3824
+    // Offset: 0x1205268
     void set_horizontalScrollbarVisibility(UnityEngine::UI::ScrollRect::ScrollbarVisibility value);
     // public UnityEngine.UI.ScrollRect/ScrollbarVisibility get_verticalScrollbarVisibility()
-    // Offset: 0x11F382C
+    // Offset: 0x1205270
     UnityEngine::UI::ScrollRect::ScrollbarVisibility get_verticalScrollbarVisibility();
     // public System.Void set_verticalScrollbarVisibility(UnityEngine.UI.ScrollRect/ScrollbarVisibility value)
-    // Offset: 0x11F3834
+    // Offset: 0x1205278
     void set_verticalScrollbarVisibility(UnityEngine::UI::ScrollRect::ScrollbarVisibility value);
     // public System.Single get_horizontalScrollbarSpacing()
-    // Offset: 0x11F383C
+    // Offset: 0x1205280
     float get_horizontalScrollbarSpacing();
     // public System.Void set_horizontalScrollbarSpacing(System.Single value)
-    // Offset: 0x11F3844
+    // Offset: 0x1205288
     void set_horizontalScrollbarSpacing(float value);
     // public System.Single get_verticalScrollbarSpacing()
-    // Offset: 0x11F38E0
+    // Offset: 0x1205324
     float get_verticalScrollbarSpacing();
     // public System.Void set_verticalScrollbarSpacing(System.Single value)
-    // Offset: 0x11F38E8
+    // Offset: 0x120532C
     void set_verticalScrollbarSpacing(float value);
     // public UnityEngine.UI.ScrollRect/ScrollRectEvent get_onValueChanged()
-    // Offset: 0x11F38F0
+    // Offset: 0x1205334
     UnityEngine::UI::ScrollRect::ScrollRectEvent* get_onValueChanged();
     // public System.Void set_onValueChanged(UnityEngine.UI.ScrollRect/ScrollRectEvent value)
-    // Offset: 0x11F38F8
+    // Offset: 0x120533C
     void set_onValueChanged(UnityEngine::UI::ScrollRect::ScrollRectEvent* value);
     // protected UnityEngine.RectTransform get_viewRect()
-    // Offset: 0x11F3900
+    // Offset: 0x1205344
     UnityEngine::RectTransform* get_viewRect();
     // public UnityEngine.Vector2 get_velocity()
-    // Offset: 0x11F3A0C
+    // Offset: 0x1205450
     UnityEngine::Vector2 get_velocity();
     // public System.Void set_velocity(UnityEngine.Vector2 value)
-    // Offset: 0x11F3A14
+    // Offset: 0x1205458
     void set_velocity(UnityEngine::Vector2 value);
     // private UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x11F3A1C
+    // Offset: 0x1205460
     UnityEngine::RectTransform* get_rectTransform();
     // private System.Void UpdateCachedData()
-    // Offset: 0x11F3CD0
+    // Offset: 0x1205714
     void UpdateCachedData();
     // private System.Void EnsureLayoutHasRebuilt()
-    // Offset: 0x11F4D54
+    // Offset: 0x1206798
     void EnsureLayoutHasRebuilt();
     // public System.Void StopMovement()
-    // Offset: 0x11F4DD8
+    // Offset: 0x120681C
     void StopMovement();
     // protected System.Void SetContentAnchoredPosition(UnityEngine.Vector2 position)
-    // Offset: 0x11F55F8
+    // Offset: 0x120703C
     void SetContentAnchoredPosition(UnityEngine::Vector2 position);
     // protected System.Void LateUpdate()
-    // Offset: 0x11F5710
+    // Offset: 0x1207154
     void LateUpdate();
     // protected System.Void UpdatePrevData()
-    // Offset: 0x11F4830
+    // Offset: 0x1206274
     void UpdatePrevData();
     // private System.Void UpdateScrollbars(UnityEngine.Vector2 offset)
-    // Offset: 0x11F4618
+    // Offset: 0x120605C
     void UpdateScrollbars(UnityEngine::Vector2 offset);
     // public UnityEngine.Vector2 get_normalizedPosition()
-    // Offset: 0x11F5DA4
+    // Offset: 0x12077E8
     UnityEngine::Vector2 get_normalizedPosition();
     // public System.Void set_normalizedPosition(UnityEngine.Vector2 value)
-    // Offset: 0x11F6198
+    // Offset: 0x1207BDC
     void set_normalizedPosition(UnityEngine::Vector2 value);
     // public System.Single get_horizontalNormalizedPosition()
-    // Offset: 0x11F5EF0
+    // Offset: 0x1207934
     float get_horizontalNormalizedPosition();
     // public System.Void set_horizontalNormalizedPosition(System.Single value)
-    // Offset: 0x11F61EC
+    // Offset: 0x1207C30
     void set_horizontalNormalizedPosition(float value);
     // public System.Single get_verticalNormalizedPosition()
-    // Offset: 0x11F6048
+    // Offset: 0x1207A8C
     float get_verticalNormalizedPosition();
     // public System.Void set_verticalNormalizedPosition(System.Single value)
-    // Offset: 0x11F6200
+    // Offset: 0x1207C44
     void set_verticalNormalizedPosition(float value);
     // private System.Void SetHorizontalNormalizedPosition(System.Single value)
-    // Offset: 0x11F6214
+    // Offset: 0x1207C58
     void SetHorizontalNormalizedPosition(float value);
     // private System.Void SetVerticalNormalizedPosition(System.Single value)
-    // Offset: 0x11F6228
+    // Offset: 0x1207C6C
     void SetVerticalNormalizedPosition(float value);
     // protected System.Void SetNormalizedPosition(System.Single value, System.Int32 axis)
-    // Offset: 0x11F623C
+    // Offset: 0x1207C80
     void SetNormalizedPosition(float value, int axis);
     // static private System.Single RubberDelta(System.Single overStretching, System.Single viewSize)
-    // Offset: 0x11F554C
+    // Offset: 0x1206F90
     static float RubberDelta(float overStretching, float viewSize);
     // private System.Boolean get_hScrollingNeeded()
-    // Offset: 0x11F6458
+    // Offset: 0x1207E9C
     bool get_hScrollingNeeded();
     // private System.Boolean get_vScrollingNeeded()
-    // Offset: 0x11F64C0
+    // Offset: 0x1207F04
     bool get_vScrollingNeeded();
     // private System.Void UpdateScrollbarVisibility()
-    // Offset: 0x11F5DFC
+    // Offset: 0x1207840
     void UpdateScrollbarVisibility();
     // static private System.Void UpdateOneScrollbarVisibility(System.Boolean xScrollingNeeded, System.Boolean xAxisEnabled, UnityEngine.UI.ScrollRect/ScrollbarVisibility scrollbarVisibility, UnityEngine.UI.Scrollbar scrollbar)
-    // Offset: 0x11F70B0
+    // Offset: 0x1208AF4
     static void UpdateOneScrollbarVisibility(bool xScrollingNeeded, bool xAxisEnabled, UnityEngine::UI::ScrollRect::ScrollbarVisibility scrollbarVisibility, UnityEngine::UI::Scrollbar* scrollbar);
     // private System.Void UpdateScrollbarLayout()
-    // Offset: 0x11F6D88
+    // Offset: 0x12087CC
     void UpdateScrollbarLayout();
     // protected System.Void UpdateBounds()
-    // Offset: 0x11F40BC
+    // Offset: 0x1205B00
     void UpdateBounds();
     // static System.Void AdjustBounds(UnityEngine.Bounds viewBounds, UnityEngine.Vector2 contentPivot, UnityEngine.Vector3 contentSize, UnityEngine.Vector3 contentPos)
-    // Offset: 0x11F71B4
+    // Offset: 0x1208BF8
     static void AdjustBounds(UnityEngine::Bounds& viewBounds, UnityEngine::Vector2& contentPivot, UnityEngine::Vector3& contentSize, UnityEngine::Vector3& contentPos);
     // private UnityEngine.Bounds GetBounds()
-    // Offset: 0x11F6B38
+    // Offset: 0x120857C
     UnityEngine::Bounds GetBounds();
     // static UnityEngine.Bounds InternalGetBounds(UnityEngine.Vector3[] corners, UnityEngine.Matrix4x4 viewWorldToLocalMatrix)
-    // Offset: 0x11F72F4
+    // Offset: 0x1208D38
     static UnityEngine::Bounds InternalGetBounds(::Array<UnityEngine::Vector3>* corners, UnityEngine::Matrix4x4& viewWorldToLocalMatrix);
     // private UnityEngine.Vector2 CalculateOffset(UnityEngine.Vector2 delta)
-    // Offset: 0x11F50F0
+    // Offset: 0x1206B34
     UnityEngine::Vector2 CalculateOffset(UnityEngine::Vector2 delta);
     // static UnityEngine.Vector2 InternalCalculateOffset(UnityEngine.Bounds viewBounds, UnityEngine.Bounds contentBounds, System.Boolean horizontal, System.Boolean vertical, UnityEngine.UI.ScrollRect/MovementType movementType, UnityEngine.Vector2 delta)
-    // Offset: 0x11F74F8
+    // Offset: 0x1208F3C
     static UnityEngine::Vector2 InternalCalculateOffset(UnityEngine::Bounds& viewBounds, UnityEngine::Bounds& contentBounds, bool horizontal, bool vertical, UnityEngine::UI::ScrollRect::MovementType movementType, UnityEngine::Vector2& delta);
     // protected System.Void SetDirty()
-    // Offset: 0x11F384C
+    // Offset: 0x1205290
     void SetDirty();
     // protected System.Void SetDirtyCaching()
-    // Offset: 0x11F342C
+    // Offset: 0x1204E70
     void SetDirtyCaching();
     // protected System.Void .ctor()
-    // Offset: 0x11F3AC8
+    // Offset: 0x120550C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -443,128 +443,128 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static ScrollRect* New_ctor();
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
-    // Offset: 0x11F3C1C
+    // Offset: 0x1205660
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::Rebuild(UnityEngine.UI.CanvasUpdate executing)
     void Rebuild(UnityEngine::UI::CanvasUpdate executing);
     // public System.Void LayoutComplete()
-    // Offset: 0x11F490C
+    // Offset: 0x1206350
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::LayoutComplete()
     void LayoutComplete();
     // public System.Void GraphicUpdateComplete()
-    // Offset: 0x11F4910
+    // Offset: 0x1206354
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::GraphicUpdateComplete()
     void GraphicUpdateComplete();
     // protected override System.Void OnEnable()
-    // Offset: 0x11F4914
+    // Offset: 0x1206358
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x11F4AB4
+    // Offset: 0x12064F8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // public override System.Boolean IsActive()
-    // Offset: 0x11F4CC4
+    // Offset: 0x1206708
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Boolean UIBehaviour::IsActive()
     bool IsActive();
     // public System.Void OnScroll(UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x11F4E44
+    // Offset: 0x1206888
     // Implemented from: UnityEngine.EventSystems.IScrollHandler
     // Base method: System.Void IScrollHandler::OnScroll(UnityEngine.EventSystems.PointerEventData data)
     void OnScroll(UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11F512C
+    // Offset: 0x1206B70
     // Implemented from: UnityEngine.EventSystems.IInitializePotentialDragHandler
     // Base method: System.Void IInitializePotentialDragHandler::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11F51B4
+    // Offset: 0x1206BF8
     // Implemented from: UnityEngine.EventSystems.IBeginDragHandler
     // Base method: System.Void IBeginDragHandler::OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnBeginDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnEndDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11F52E4
+    // Offset: 0x1206D28
     // Implemented from: UnityEngine.EventSystems.IEndDragHandler
     // Base method: System.Void IEndDragHandler::OnEndDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnEndDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11F5308
+    // Offset: 0x1206D4C
     // Implemented from: UnityEngine.EventSystems.IDragHandler
     // Base method: System.Void IDragHandler::OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x11F6454
+    // Offset: 0x1207E98
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x11F6528
+    // Offset: 0x1207F6C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public System.Void CalculateLayoutInputVertical()
-    // Offset: 0x11F652C
+    // Offset: 0x1207F70
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public System.Single get_minWidth()
-    // Offset: 0x11F6530
+    // Offset: 0x1207F74
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minWidth()
     float get_minWidth();
     // public System.Single get_preferredWidth()
-    // Offset: 0x11F6538
+    // Offset: 0x1207F7C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredWidth()
     float get_preferredWidth();
     // public System.Single get_flexibleWidth()
-    // Offset: 0x11F6540
+    // Offset: 0x1207F84
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleWidth()
     float get_flexibleWidth();
     // public System.Single get_minHeight()
-    // Offset: 0x11F6548
+    // Offset: 0x1207F8C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minHeight()
     float get_minHeight();
     // public System.Single get_preferredHeight()
-    // Offset: 0x11F6550
+    // Offset: 0x1207F94
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredHeight()
     float get_preferredHeight();
     // public System.Single get_flexibleHeight()
-    // Offset: 0x11F6558
+    // Offset: 0x1207F9C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleHeight()
     float get_flexibleHeight();
     // public System.Int32 get_layoutPriority()
-    // Offset: 0x11F6560
+    // Offset: 0x1207FA4
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Int32 ILayoutElement::get_layoutPriority()
     int get_layoutPriority();
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0x11F6568
+    // Offset: 0x1207FAC
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0x11F6C2C
+    // Offset: 0x1208670
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();
     // private UnityEngine.Transform UnityEngine.UI.ICanvasElement.get_transform()
-    // Offset: 0x11F76EC
+    // Offset: 0x1209130
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.ScrollRect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect*, "UnityEngine.UI", "ScrollRect");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::MovementType, "UnityEngine.UI", "ScrollRect/MovementType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::ScrollbarVisibility, "UnityEngine.UI", "ScrollRect/ScrollbarVisibility");

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Constraints.NUnitEqualityComparer
 #include "NUnit/Framework/Constraints/NUnitEqualityComparer.hpp"
 // Completed includes
@@ -31,12 +29,12 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x29
     bool ActualHasData;
     // public System.Void .ctor()
-    // Offset: 0x1068A18
+    // Offset: 0x107845C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NUnitEqualityComparer::FailurePoint* New_ctor();
   }; // NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, "NUnit.Framework.Constraints", "NUnitEqualityComparer/FailurePoint");
 #pragma pack(pop)

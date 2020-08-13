@@ -38,6 +38,6 @@ namespace UnityEngine::TestTools {
     TestPlatform(uint8_t value_ = {}) : value{value_} {}
   }; // UnityEngine.TestTools.TestPlatform
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestPlatform, "UnityEngine.TestTools", "TestPlatform");
 #pragma pack(pop)

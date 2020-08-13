@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.ProBuilder.Experimental.CSG.CSG_Plane
 #include "UnityEngine/ProBuilder/Experimental/CSG/CSG_Plane.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.Experimental.CSG
 namespace UnityEngine::ProBuilder::Experimental::CSG {
@@ -46,6 +46,6 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     EPolygonType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.Experimental.CSG.CSG_Plane/EPolygonType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Experimental::CSG::CSG_Plane::EPolygonType, "UnityEngine.ProBuilder.Experimental.CSG", "CSG_Plane/EPolygonType");
 #pragma pack(pop)

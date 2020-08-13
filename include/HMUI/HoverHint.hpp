@@ -45,32 +45,32 @@ namespace HMUI {
     // Offset: 0x28
     HMUI::HoverHintController* hoverHintController;
     // public System.String get_text()
-    // Offset: 0xECB7E8
+    // Offset: 0xEDE22C
     ::CsString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0xECB7F0
+    // Offset: 0xEDE234
     void set_text(::CsString* value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0xECB7F8
+    // Offset: 0xEDE23C
     UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0xECB890
+    // Offset: 0xEDE2D4
     UnityEngine::Vector3 get_worldCenter();
     // private System.Void OnDisable()
-    // Offset: 0xECBB30
+    // Offset: 0xEDE574
     void OnDisable();
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xECBA18
+    // Offset: 0xEDE45C
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xECBACC
+    // Offset: 0xEDE510
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xECBB64
+    // Offset: 0xEDE5A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -80,6 +80,6 @@ namespace HMUI {
     static HoverHint* New_ctor();
   }; // HMUI.HoverHint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHint*, "HMUI", "HoverHint");
 #pragma pack(pop)

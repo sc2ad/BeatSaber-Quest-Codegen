@@ -35,19 +35,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::UI::Button* incButton;
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0xB44748
+    // Offset: 0xB42748
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0xB44768
+    // Offset: 0xB42768
     void set_enableInc(bool value);
     // protected System.Void set_text(System.String value)
-    // Offset: 0xB44788
+    // Offset: 0xB42788
     void set_text(::CsString* value);
     // protected System.Void OnEnable()
-    // Offset: 0xB447A4
+    // Offset: 0xB427A4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xB44874
+    // Offset: 0xB42874
     void OnDisable();
     // public System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFF
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0xB44944
+    // Offset: 0xB42944
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace GlobalNamespace {
     static IncDecSettingsController* New_ctor();
   }; // IncDecSettingsController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IncDecSettingsController*, "", "IncDecSettingsController");
 #pragma pack(pop)

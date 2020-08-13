@@ -58,31 +58,31 @@ namespace GlobalNamespace {
     // Offset: 0x30
     int lastColorChangeFrameNum;
     // public System.Void add_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x18134E0
+    // Offset: 0x1823F24
     void add_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
     // public System.Void remove_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1813584
+    // Offset: 0x1823FC8
     void remove_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
     // public System.Nullable`1<UnityEngine.Color>[] get_colors()
-    // Offset: 0x1813628
+    // Offset: 0x182406C
     ::Array<System::Nullable_1<UnityEngine::Color>>* get_colors();
     // public System.Int32 get_lastColorChangeFrameNum()
-    // Offset: 0x1813630
+    // Offset: 0x1824074
     int get_lastColorChangeFrameNum();
     // public System.Void RegisterLight(LightWithId light)
-    // Offset: 0x1813214
+    // Offset: 0x1823C58
     void RegisterLight(GlobalNamespace::LightWithId* light);
     // public System.Void UnregisterLight(LightWithId light)
-    // Offset: 0x1813434
+    // Offset: 0x1823E78
     void UnregisterLight(GlobalNamespace::LightWithId* light);
     // public System.Void SetColorForId(System.Int32 id, UnityEngine.Color color)
-    // Offset: 0x1813638
+    // Offset: 0x182407C
     void SetColorForId(int id, UnityEngine::Color color);
     // public UnityEngine.Color GetColorForId(System.Int32 id)
-    // Offset: 0x18137E0
+    // Offset: 0x1824224
     UnityEngine::Color GetColorForId(int id);
     // public System.Void .ctor()
-    // Offset: 0x1813890
+    // Offset: 0x18242D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -92,6 +92,6 @@ namespace GlobalNamespace {
     static LightWithIdManager* New_ctor();
   }; // LightWithIdManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdManager*, "", "LightWithIdManager");
 #pragma pack(pop)

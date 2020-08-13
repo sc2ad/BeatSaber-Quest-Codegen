@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Net.Sockets.AddressFamily
 #include "System/Net/Sockets/AddressFamily.hpp"
 // Including type: System.Int64
@@ -90,61 +88,61 @@ namespace System::Net {
     // Set static field: static System.Int32 NumberOfLabels
     static void _set_NumberOfLabels(int value);
     // public System.Void .ctor(System.Int64 newAddress)
-    // Offset: 0xF562D8
+    // Offset: 0xF67D1C
     static IPAddress* New_ctor(int64_t newAddress);
     // public System.Void .ctor(System.Byte[] address, System.Int64 scopeid)
-    // Offset: 0xF563A4
+    // Offset: 0xF67DE8
     static IPAddress* New_ctor(::Array<uint8_t>* address, int64_t scopeid);
     // private System.Void .ctor(System.UInt16[] address, System.UInt32 scopeid)
-    // Offset: 0xF5657C
+    // Offset: 0xF67FC0
     static IPAddress* New_ctor(::Array<uint16_t>* address, uint scopeid);
     // System.Void .ctor(System.Int32 newAddress)
-    // Offset: 0xF56628
+    // Offset: 0xF6806C
     static IPAddress* New_ctor(int newAddress);
     // static public System.Boolean TryParse(System.String ipString, System.Net.IPAddress address)
-    // Offset: 0xF55D60
+    // Offset: 0xF677A4
     static bool TryParse(::CsString* ipString, System::Net::IPAddress*& address);
     // static public System.Net.IPAddress Parse(System.String ipString)
-    // Offset: 0xF5590C
+    // Offset: 0xF67350
     static System::Net::IPAddress* Parse(::CsString* ipString);
     // static private System.Net.IPAddress InternalParse(System.String ipString, System.Boolean tryParse)
-    // Offset: 0xF566B4
+    // Offset: 0xF680F8
     static System::Net::IPAddress* InternalParse(::CsString* ipString, bool tryParse);
     // public System.Byte[] GetAddressBytes()
-    // Offset: 0xF569E0
+    // Offset: 0xF68424
     ::Array<uint8_t>* GetAddressBytes();
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0xF56B28
+    // Offset: 0xF6856C
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public System.Int64 get_ScopeId()
-    // Offset: 0xF56B30
+    // Offset: 0xF68574
     int64_t get_ScopeId();
     // System.Boolean Equals(System.Object comparandObj, System.Boolean compareScopeId)
-    // Offset: 0xF570C0
+    // Offset: 0xF68B04
     bool Equals(::CsObject* comparandObj, bool compareScopeId);
     // public System.Net.IPAddress MapToIPv6()
-    // Offset: 0xF57304
+    // Offset: 0xF68D48
     System::Net::IPAddress* MapToIPv6();
     // static private System.Void .cctor()
-    // Offset: 0xF573E8
+    // Offset: 0xF68E2C
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xF56BB4
+    // Offset: 0xF685F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0xF57200
+    // Offset: 0xF68C44
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::CsObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF57208
+    // Offset: 0xF68C4C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Net.IPAddress
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPAddress*, "System.Net", "IPAddress");
 #pragma pack(pop)

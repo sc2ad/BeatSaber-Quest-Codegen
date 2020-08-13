@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OculusLevelProductsModelSO
 #include "GlobalNamespace/OculusLevelProductsModelSO.hpp"
 // Completed includes
@@ -25,21 +23,21 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::CsString* assetFile;
     // public System.String get_sku()
-    // Offset: 0xC2499C
+    // Offset: 0xC363E0
     ::CsString* get_sku();
     // public System.String get_levelId()
-    // Offset: 0xC249A4
+    // Offset: 0xC363E8
     ::CsString* get_levelId();
     // public System.String get_assetFile()
-    // Offset: 0xC249AC
+    // Offset: 0xC363F0
     ::CsString* get_assetFile();
     // public System.Void .ctor()
-    // Offset: 0xC249B4
+    // Offset: 0xC363F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusLevelProductsModelSO::LevelProductData* New_ctor();
   }; // OculusLevelProductsModelSO/LevelProductData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*, "", "OculusLevelProductsModelSO/LevelProductData");
 #pragma pack(pop)

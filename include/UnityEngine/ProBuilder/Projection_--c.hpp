@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.Projection
 #include "UnityEngine/ProBuilder/Projection.hpp"
 // Including type: UnityEngine.ProBuilder.SimpleTuple`2
@@ -41,21 +39,21 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>,UnityEngine.Vector2> <>9__6_1
     static void _set_$$9__6_1(System::Func_2<UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>, UnityEngine::Vector2>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1029E04
+    // Offset: 0x1039848
     static void _cctor();
     // System.Int32 <Sort>b__6_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> a, UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> b)
-    // Offset: 0x1029E74
+    // Offset: 0x10398B8
     int $Sort$b__6_0(UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2> a, UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2> b);
     // UnityEngine.Vector2 <Sort>b__6_1(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> x)
-    // Offset: 0x1029ECC
+    // Offset: 0x1039910
     UnityEngine::Vector2 $Sort$b__6_1(UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2> x);
     // public System.Void .ctor()
-    // Offset: 0x1029E6C
+    // Offset: 0x10398B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Projection::$$c* New_ctor();
   }; // UnityEngine.ProBuilder.Projection/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Projection::$$c*, "UnityEngine.ProBuilder", "Projection/<>c");
 #pragma pack(pop)

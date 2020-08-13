@@ -30,29 +30,29 @@ namespace System {
     // Offset: 0x88
     ::CsString* typeName;
     // public System.String get_TypeName()
-    // Offset: 0x17802F8
+    // Offset: 0x1790D3C
     ::CsString* get_TypeName();
     // private System.Void .ctor()
-    // Offset: 0x17800E0
+    // Offset: 0x1790B24
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TypeInitializationException* New_ctor();
     // public System.Void .ctor(System.String fullTypeName, System.Exception innerException)
-    // Offset: 0x1780154
+    // Offset: 0x1790B98
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String fullTypeName, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String fullTypeName, System.Exception innerException)
     static TypeInitializationException* New_ctor(::CsString* fullTypeName, System::Exception* innerException);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1780258
+    // Offset: 0x1790C9C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static TypeInitializationException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1780354
+    // Offset: 0x1790D98
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -61,6 +61,6 @@ namespace System {
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.TypeInitializationException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeInitializationException*, "System", "TypeInitializationException");
 #pragma pack(pop)

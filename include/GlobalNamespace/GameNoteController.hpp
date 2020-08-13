@@ -57,57 +57,57 @@ namespace GlobalNamespace {
     // Offset: 0xA1
     bool ghostNote;
     // public System.Boolean get_ghostNote()
-    // Offset: 0xB3BF4C
+    // Offset: 0xB39F4C
     bool get_ghostNote();
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Boolean disappearingArrow, System.Boolean ghostNote, System.Single cutDirectionAngleOffset)
-    // Offset: 0xB3C04C
+    // Offset: 0xB3A04C
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, bool disappearingArrow, bool ghostNote, float cutDirectionAngleOffset);
     // private System.Void HandleBigWasCutBySaberEvent(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xB3C390
+    // Offset: 0xB3A390
     void HandleBigWasCutBySaberEvent(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleSmallWasCutBySaberEvent(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xB3C730
+    // Offset: 0xB3A730
     void HandleSmallWasCutBySaberEvent(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleCut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec, System.Boolean allowBadCut)
-    // Offset: 0xB3C3A8
+    // Offset: 0xB3A3A8
     void HandleCut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec, bool allowBadCut);
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0xB3BF54
+    // Offset: 0xB39F54
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // protected override System.Void Awake()
-    // Offset: 0xB3BF78
+    // Offset: 0xB39F78
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0xB3C134
+    // Offset: 0xB3A134
     // Implemented from: NoteController
     // Base method: System.Void NoteController::OnDestroy()
     void OnDestroy();
     // protected override System.Void Update()
-    // Offset: 0xB3C288
+    // Offset: 0xB3A288
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Update()
     void Update();
     // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0xB3C2EC
+    // Offset: 0xB3A2EC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidPassMissedMarker()
     void NoteDidPassMissedMarker();
     // protected override System.Void NoteDidStartDissolving()
-    // Offset: 0xB3C344
+    // Offset: 0xB3A344
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidStartDissolving()
     void NoteDidStartDissolving();
     // protected override System.Void NoteDidStartJump()
-    // Offset: 0xB3C748
+    // Offset: 0xB3A748
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidStartJump()
     void NoteDidStartJump();
     // public System.Void .ctor()
-    // Offset: 0xB3C794
+    // Offset: 0xB3A794
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -118,6 +118,6 @@ namespace GlobalNamespace {
     static GameNoteController* New_ctor();
   }; // GameNoteController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameNoteController*, "", "GameNoteController");
 #pragma pack(pop)

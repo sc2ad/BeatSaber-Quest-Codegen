@@ -37,13 +37,13 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_t_Packed
     VREvent_t_Packed(uint eventType_ = {}, uint trackedDeviceIndex_ = {}, float eventAgeSeconds_ = {}, Valve::VR::VREvent_Data_t data_ = {}) : eventType{eventType_}, trackedDeviceIndex{trackedDeviceIndex_}, eventAgeSeconds{eventAgeSeconds_}, data{data_} {}
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
-    // Offset: 0xA59BF0
+    // Offset: 0xA59C6C
     static VREvent_t_Packed* New_ctor(Valve::VR::VREvent_t unpacked);
     // public System.Void Unpack(Valve.VR.VREvent_t unpacked)
-    // Offset: 0xA59C40
+    // Offset: 0xA59CBC
     void Unpack(Valve::VR::VREvent_t& unpacked);
   }; // Valve.VR.VREvent_t_Packed
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_t_Packed, "Valve.VR", "VREvent_t_Packed");
 #pragma pack(pop)

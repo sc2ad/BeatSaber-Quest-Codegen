@@ -75,22 +75,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     float fade;
     // protected System.Void Awake()
-    // Offset: 0xC31424
+    // Offset: 0xC42E68
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xC31588
+    // Offset: 0xC42FCC
     void Update();
     // private System.Void RefreshState()
-    // Offset: 0xC3158C
+    // Offset: 0xC42FD0
     void RefreshState();
     // private System.Void RefreshTextAlpha()
-    // Offset: 0xC314A0
+    // Offset: 0xC42EE4
     void RefreshTextAlpha();
     // public System.Void ShowText(System.String text)
-    // Offset: 0xC31728
+    // Offset: 0xC4316C
     void ShowText(::CsString* text);
     // public System.Void .ctor()
-    // Offset: 0xC317B0
+    // Offset: 0xC431F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     static TextFadeTransitions* New_ctor();
   }; // TextFadeTransitions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions*, "", "TextFadeTransitions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions::State, "", "TextFadeTransitions/State");
 #pragma pack(pop)

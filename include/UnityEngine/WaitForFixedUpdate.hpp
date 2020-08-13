@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.YieldInstruction
 #include "UnityEngine/YieldInstruction.hpp"
 // Completed includes
@@ -13,6 +14,6 @@ namespace UnityEngine {
   class WaitForFixedUpdate : public UnityEngine::YieldInstruction {
   }; // UnityEngine.WaitForFixedUpdate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForFixedUpdate*, "UnityEngine", "WaitForFixedUpdate");
 #pragma pack(pop)

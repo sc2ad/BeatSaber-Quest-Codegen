@@ -53,73 +53,73 @@ namespace GlobalNamespace {
     // Offset: 0x3B
     bool interactable;
     // public System.Void add_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xBF4150
+    // Offset: 0xC05B94
     void add_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xBF43FC
+    // Offset: 0xC05E40
     void remove_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void add_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xBF41F4
+    // Offset: 0xC05C38
     void add_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0xBF44A0
+    // Offset: 0xC05EE4
     void remove_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public MissionNode get_missionNode()
-    // Offset: 0xBF46B8
+    // Offset: 0xC060FC
     GlobalNamespace::MissionNode* get_missionNode();
     // public System.Boolean get_selected()
-    // Offset: 0xBF46C0
+    // Offset: 0xC06104
     bool get_selected();
     // public System.Boolean get_isInitialized()
-    // Offset: 0xBF46C8
+    // Offset: 0xC0610C
     bool get_isInitialized();
     // public System.Boolean get_cleared()
-    // Offset: 0xBF46D0
+    // Offset: 0xC06114
     bool get_cleared();
     // public System.Boolean get_interactable()
-    // Offset: 0xBF46D8
+    // Offset: 0xC0611C
     bool get_interactable();
     // public System.Void SetSelected(System.Boolean value)
-    // Offset: 0xBF3FDC
+    // Offset: 0xC05A20
     void SetSelected(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0xBF46F0
+    // Offset: 0xC06134
     void OnEnable();
     // protected System.Void Awake()
-    // Offset: 0xBF4754
+    // Offset: 0xC06198
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xBF48A8
+    // Offset: 0xC062EC
     void Start();
     // public System.Void Reset()
-    // Offset: 0xBF4904
+    // Offset: 0xC06348
     void Reset();
     // protected System.Void OnDestroy()
-    // Offset: 0xBF490C
+    // Offset: 0xC06350
     void OnDestroy();
     // public System.Void Init()
-    // Offset: 0xBF48AC
+    // Offset: 0xC062F0
     void Init();
     // public System.Void Setup(System.Boolean cleared, System.Boolean interactable)
-    // Offset: 0xBF4AFC
+    // Offset: 0xC06540
     void Setup(bool cleared, bool interactable);
     // private System.Void SetupToggle()
-    // Offset: 0xBF4AA0
+    // Offset: 0xC064E4
     void SetupToggle();
     // public System.Void SetMissionCleared()
-    // Offset: 0xBF2D30
+    // Offset: 0xC04774
     void SetMissionCleared();
     // public System.Void SetInteractable()
-    // Offset: 0xBF35BC
+    // Offset: 0xC05000
     void SetInteractable();
     // public System.Void ChangeNodeSelection(System.Boolean selected)
-    // Offset: 0xBF4AD8
+    // Offset: 0xC0651C
     void ChangeNodeSelection(bool selected);
     // private System.Void HandleMissionToggleSelectionDidChange(MissionToggle toggle)
-    // Offset: 0xBF4BD4
+    // Offset: 0xC06618
     void HandleMissionToggleSelectionDidChange(GlobalNamespace::MissionToggle* toggle);
     // public System.Void .ctor()
-    // Offset: 0xBF4C58
+    // Offset: 0xC0669C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -129,6 +129,6 @@ namespace GlobalNamespace {
     static MissionNodeVisualController* New_ctor();
   }; // MissionNodeVisualController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeVisualController*, "", "MissionNodeVisualController");
 #pragma pack(pop)

@@ -23,28 +23,28 @@ namespace System {
   class ApplicationException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x10A8AB8
+    // Offset: 0x10B94FC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static ApplicationException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x10A8B54
+    // Offset: 0x10B9598
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static ApplicationException* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x10A8BE0
+    // Offset: 0x10B9624
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static ApplicationException* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10A8C74
+    // Offset: 0x10B96B8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ApplicationException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ApplicationException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ApplicationException*, "System", "ApplicationException");
 #pragma pack(pop)

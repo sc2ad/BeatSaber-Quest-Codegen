@@ -63,45 +63,45 @@ namespace GlobalNamespace {
     // Offset: 0x91
     bool hasScoresData;
     // private System.Void HandleLoadingControlDidPressRefreshButton()
-    // Offset: 0xBFC550
+    // Offset: 0xC0DF94
     void HandleLoadingControlDidPressRefreshButton();
     // public System.Void Refresh()
-    // Offset: 0xBFBB00
+    // Offset: 0xC0D544
     void Refresh();
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0xBFC1F4
+    // Offset: 0xC0DC38
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0xBFC5D0
+    // Offset: 0xC0E014
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void LoadScoresAsync()
-    // Offset: 0xBFC698
+    // Offset: 0xC0E0DC
     void LoadScoresAsync();
     // private System.Void ClearContent()
-    // Offset: 0xBFC55C
+    // Offset: 0xC0DFA0
     void ClearContent();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xBFC194
+    // Offset: 0xC0DBD8
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBFC384
+    // Offset: 0xC0DDC8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xBFC448
+    // Offset: 0xC0DE8C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // protected override System.Void OnDestroy()
-    // Offset: 0xBFC474
+    // Offset: 0xC0DEB8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xBFC774
+    // Offset: 0xC0E1B8
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -113,6 +113,6 @@ namespace GlobalNamespace {
     static NetEaseLeaderboardViewController* New_ctor();
   }; // NetEaseLeaderboardViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController*, "", "NetEaseLeaderboardViewController");
 #pragma pack(pop)

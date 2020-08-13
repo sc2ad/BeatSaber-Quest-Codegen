@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: System.Single
@@ -73,21 +71,21 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxDistanceForDistanceToCenterScore
     static void _set_kMaxDistanceForDistanceToCenterScore(float value);
     // static public System.Int32 MaxRawScoreForNumberOfNotes(System.Int32 noteCount)
-    // Offset: 0xC16A38
+    // Offset: 0xC2847C
     static int MaxRawScoreForNumberOfNotes(int noteCount);
     // static public System.Void RawScoreWithoutMultiplier(NoteCutInfo noteCutInfo, System.Int32 beforeCutRawScore, System.Int32 afterCutRawScore, System.Int32 cutDistanceRawScore)
-    // Offset: 0xC173F8
+    // Offset: 0xC28E3C
     static void RawScoreWithoutMultiplier(GlobalNamespace::NoteCutInfo* noteCutInfo, int& beforeCutRawScore, int& afterCutRawScore, int& cutDistanceRawScore);
     // static public System.Int32 GetModifiedScoreForGameplayModifiersScoreMultiplier(System.Int32 rawScore, System.Single gameplayModifiersScoreMultiplier)
-    // Offset: 0xC161A8
+    // Offset: 0xC27BEC
     static int GetModifiedScoreForGameplayModifiersScoreMultiplier(int rawScore, float gameplayModifiersScoreMultiplier);
     // public System.Void .ctor()
-    // Offset: 0xC1754C
+    // Offset: 0xC28F90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScoreModel* New_ctor();
   }; // ScoreModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreModel*, "", "ScoreModel");
 #pragma pack(pop)

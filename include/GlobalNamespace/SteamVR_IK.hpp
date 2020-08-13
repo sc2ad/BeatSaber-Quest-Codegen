@@ -52,13 +52,13 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Transform* endXform;
     // private System.Void LateUpdate()
-    // Offset: 0xD6F804
+    // Offset: 0xD83248
     void LateUpdate();
     // static public System.Boolean Solve(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Vector3 poleVector, System.Single jointDist, System.Single targetDist, UnityEngine.Vector3 result, UnityEngine.Vector3 forward, UnityEngine.Vector3 up)
-    // Offset: 0xD701EC
+    // Offset: 0xD83C30
     static bool Solve(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Vector3 poleVector, float jointDist, float targetDist, UnityEngine::Vector3& result, UnityEngine::Vector3& forward, UnityEngine::Vector3& up);
     // public System.Void .ctor()
-    // Offset: 0xD70704
+    // Offset: 0xD84148
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -68,6 +68,6 @@ namespace GlobalNamespace {
     static SteamVR_IK* New_ctor();
   }; // SteamVR_IK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_IK*, "", "SteamVR_IK");
 #pragma pack(pop)

@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Camera* mrcForegroundCameraPrefab;
     // private System.Void Init(ExternalCamerasManager/InitData initData)
-    // Offset: 0x18F6E0C
+    // Offset: 0x1906850
     void Init(GlobalNamespace::ExternalCamerasManager::InitData* initData);
     // private UnityEngine.GameObject InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine.Camera mainCamera)
-    // Offset: 0x18F6EF4
+    // Offset: 0x1906938
     UnityEngine::GameObject* InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine::Camera* mainCamera);
     // private UnityEngine.GameObject InstantiateMixedRealityForegroundCameraGameObject(UnityEngine.Camera mainCamera)
-    // Offset: 0x18F6F78
+    // Offset: 0x19069BC
     UnityEngine::GameObject* InstantiateMixedRealityForegroundCameraGameObject(UnityEngine::Camera* mainCamera);
     // public System.Void .ctor()
-    // Offset: 0x18F6FFC
+    // Offset: 0x1906A40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -58,6 +58,6 @@ namespace GlobalNamespace {
     static ExternalCamerasManager* New_ctor();
   }; // ExternalCamerasManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager*, "", "ExternalCamerasManager");
 #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
 #include "NUnit/Framework/Internal/Commands/DelegatingTestCommand.hpp"
 // Completed includes
@@ -26,17 +27,17 @@ namespace NUnit::Framework::Internal::Commands {
   class TheoryResultCommand : public NUnit::Framework::Internal::Commands::DelegatingTestCommand {
     public:
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand command)
-    // Offset: 0x1073D84
+    // Offset: 0x10837C8
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand command)
     static TheoryResultCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* command);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1073D88
+    // Offset: 0x10837CC
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.TheoryResultCommand
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TheoryResultCommand*, "NUnit.Framework.Internal.Commands", "TheoryResultCommand");
 #pragma pack(pop)

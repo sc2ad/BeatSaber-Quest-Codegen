@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: AutomaticSFXVolume
 #include "GlobalNamespace/AutomaticSFXVolume.hpp"
 // Completed includes
@@ -19,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     float volumeOffset;
     // public System.Void .ctor(System.Single volumeOffset)
-    // Offset: 0x1970720
+    // Offset: 0xB88A1C
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset);
   }; // AutomaticSFXVolume/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume::InitData*, "", "AutomaticSFXVolume/InitData");
 #pragma pack(pop)

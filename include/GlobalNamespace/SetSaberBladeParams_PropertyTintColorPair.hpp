@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: SetSaberBladeParams
 #include "GlobalNamespace/SetSaberBladeParams.hpp"
 // Including type: UnityEngine.Color
@@ -24,12 +22,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::CsString* property;
     // public System.Void .ctor()
-    // Offset: 0xC18408
+    // Offset: 0xC29E4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SetSaberBladeParams::PropertyTintColorPair* New_ctor();
   }; // SetSaberBladeParams/PropertyTintColorPair
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*, "", "SetSaberBladeParams/PropertyTintColorPair");
 #pragma pack(pop)

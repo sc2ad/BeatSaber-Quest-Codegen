@@ -52,18 +52,18 @@ namespace GlobalNamespace {
     // Offset: 0x88
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0xBF173C
+    // Offset: 0xC03180
     void Setup(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void RefreshContent()
-    // Offset: 0xBF1780
+    // Offset: 0xC031C4
     void RefreshContent();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBF18E0
+    // Offset: 0xC03324
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xBF18EC
+    // Offset: 0xC03330
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -74,6 +74,6 @@ namespace GlobalNamespace {
     static MissionLevelModifiersViewController* New_ctor();
   }; // MissionLevelModifiersViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController*, "", "MissionLevelModifiersViewController");
 #pragma pack(pop)

@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.XR.XRDisplaySubsystem
 #include "UnityEngine/XR/XRDisplaySubsystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
@@ -32,6 +32,6 @@ namespace UnityEngine::XR {
     XRMirrorViewBlitDesc(System::IntPtr displaySubsystemInstance_ = {}, bool nativeBlitAvailable_ = {}, bool nativeBlitInvalidStates_ = {}, int blitParamsCount_ = {}) : displaySubsystemInstance{displaySubsystemInstance_}, nativeBlitAvailable{nativeBlitAvailable_}, nativeBlitInvalidStates{nativeBlitInvalidStates_}, blitParamsCount{blitParamsCount_} {}
   }; // UnityEngine.XR.XRDisplaySubsystem/XRMirrorViewBlitDesc
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRMirrorViewBlitDesc, "UnityEngine.XR", "XRDisplaySubsystem/XRMirrorViewBlitDesc");
 #pragma pack(pop)

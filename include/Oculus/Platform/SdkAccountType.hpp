@@ -38,6 +38,6 @@ namespace Oculus::Platform {
     SdkAccountType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.SdkAccountType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::SdkAccountType, "Oculus.Platform", "SdkAccountType");
 #pragma pack(pop)

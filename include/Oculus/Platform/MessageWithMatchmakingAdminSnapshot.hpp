@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithMatchmakingAdminSnapshot : public Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingAdminSnapshot*> {
     public:
     // protected Oculus.Platform.Models.MatchmakingAdminSnapshot GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8E408
+    // Offset: 0xEA0E4C
     Oculus::Platform::Models::MatchmakingAdminSnapshot* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88680
+    // Offset: 0xE9B0C4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithMatchmakingAdminSnapshot* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.MatchmakingAdminSnapshot GetMatchmakingAdminSnapshot()
-    // Offset: 0xE8E3C4
+    // Offset: 0xEA0E08
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.MatchmakingAdminSnapshot Message::GetMatchmakingAdminSnapshot()
     Oculus::Platform::Models::MatchmakingAdminSnapshot* GetMatchmakingAdminSnapshot();
   }; // Oculus.Platform.MessageWithMatchmakingAdminSnapshot
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingAdminSnapshot*, "Oculus.Platform", "MessageWithMatchmakingAdminSnapshot");
 #pragma pack(pop)

@@ -17,22 +17,22 @@ namespace Oculus::Platform {
     // Offset: 0x18
     bool IsPersistantBetweenSceneLoads;
     // static private System.Void ovr_UnityResetTestPlatform()
-    // Offset: 0xE81250
+    // Offset: 0xE93C94
     static void ovr_UnityResetTestPlatform();
     // private System.Void Awake()
-    // Offset: 0xE812C0
+    // Offset: 0xE93D04
     void Awake();
     // private System.Void Update()
-    // Offset: 0xE813BC
+    // Offset: 0xE93E00
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0xE81448
+    // Offset: 0xE93E8C
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0xE8144C
+    // Offset: 0xE93E90
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0xE814A8
+    // Offset: 0xE93EEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -42,6 +42,6 @@ namespace Oculus::Platform {
     static CallbackRunner* New_ctor();
   }; // Oculus.Platform.CallbackRunner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CallbackRunner*, "Oculus.Platform", "CallbackRunner");
 #pragma pack(pop)

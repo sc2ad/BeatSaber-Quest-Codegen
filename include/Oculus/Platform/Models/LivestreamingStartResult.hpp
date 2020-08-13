@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.LivestreamingStartStatus
 #include "Oculus/Platform/LivestreamingStartStatus.hpp"
 // Completed includes
@@ -26,10 +24,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0x10
     Oculus::Platform::LivestreamingStartStatus StreamingResult;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE8DF94
+    // Offset: 0xEA09D8
     static LivestreamingStartResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LivestreamingStartResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStartResult*, "Oculus.Platform.Models", "LivestreamingStartResult");
 #pragma pack(pop)

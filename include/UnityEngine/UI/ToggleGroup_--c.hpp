@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.UI.ToggleGroup
 #include "UnityEngine/UI/ToggleGroup.hpp"
 // Completed includes
@@ -44,21 +42,21 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.Toggle,System.Boolean> <>9__13_0
     static void _set_$$9__13_0(System::Func_2<UnityEngine::UI::Toggle*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x191CA20
+    // Offset: 0x192D464
     static void _cctor();
     // System.Boolean <AnyTogglesOn>b__12_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x191CA90
+    // Offset: 0x192D4D4
     bool $AnyTogglesOn$b__12_0(UnityEngine::UI::Toggle* x);
     // System.Boolean <ActiveToggles>b__13_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x191CAA8
+    // Offset: 0x192D4EC
     bool $ActiveToggles$b__13_0(UnityEngine::UI::Toggle* x);
     // public System.Void .ctor()
-    // Offset: 0x191CA88
+    // Offset: 0x192D4CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ToggleGroup::$$c* New_ctor();
   }; // UnityEngine.UI.ToggleGroup/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup::$$c*, "UnityEngine.UI", "ToggleGroup/<>c");
 #pragma pack(pop)

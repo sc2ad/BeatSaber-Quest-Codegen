@@ -73,16 +73,16 @@ namespace GlobalNamespace {
     // Offset: 0x48
     UnityEngine::Bounds bounds;
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0xB937D0
+    // Offset: 0xBA5214
     UnityEngine::Bounds get_bounds();
     // public System.Void SetSizeAndColor(System.Single width, System.Single height, System.Single length, UnityEngine.Color color)
-    // Offset: 0xB937E4
+    // Offset: 0xBA5228
     void SetSizeAndColor(float width, float height, float length, UnityEngine::Color color);
     // protected System.Void OnValidate()
-    // Offset: 0xB93C78
+    // Offset: 0xBA56BC
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0xB93CE4
+    // Offset: 0xBA5728
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -91,12 +91,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StretchableObstacle* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xB93CF8
+    // Offset: 0xBA573C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // StretchableObstacle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableObstacle*, "", "StretchableObstacle");
 #pragma pack(pop)

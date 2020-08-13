@@ -23,7 +23,7 @@ namespace System {
   class DivideByZeroException : public System::ArithmeticException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xD89E3C
+    // Offset: 0xD9D880
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,7 +31,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static DivideByZeroException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD89EA8
+    // Offset: 0xD9D8EC
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -39,6 +39,6 @@ namespace System {
     static DivideByZeroException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.DivideByZeroException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DivideByZeroException*, "System", "DivideByZeroException");
 #pragma pack(pop)

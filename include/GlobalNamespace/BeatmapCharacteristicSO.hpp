@@ -45,31 +45,31 @@ namespace GlobalNamespace {
     // Offset: 0x45
     bool requires360Movement;
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x1976844
+    // Offset: 0xB8EB40
     UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x197684C
+    // Offset: 0xB8EB48
     ::CsString* get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
-    // Offset: 0x1976854
+    // Offset: 0xB8EB50
     ::CsString* get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
-    // Offset: 0x197685C
+    // Offset: 0xB8EB58
     ::CsString* get_serializedName();
     // public System.String get_compoundIdPartName()
-    // Offset: 0x1976864
+    // Offset: 0xB8EB60
     ::CsString* get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x197686C
+    // Offset: 0xB8EB68
     int get_sortingOrder();
     // public System.Boolean get_containsRotationEvents()
-    // Offset: 0x1976874
+    // Offset: 0xB8EB70
     bool get_containsRotationEvents();
     // public System.Boolean get_requires360Movement()
-    // Offset: 0x197687C
+    // Offset: 0xB8EB78
     bool get_requires360Movement();
     // public System.Void .ctor()
-    // Offset: 0x1976884
+    // Offset: 0xB8EB80
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -78,6 +78,6 @@ namespace GlobalNamespace {
     static BeatmapCharacteristicSO* New_ctor();
   }; // BeatmapCharacteristicSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSO*, "", "BeatmapCharacteristicSO");
 #pragma pack(pop)

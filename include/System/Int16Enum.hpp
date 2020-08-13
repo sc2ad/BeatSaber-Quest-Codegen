@@ -20,6 +20,6 @@ namespace System {
     Int16Enum(int16_t value_ = {}) : value{value_} {}
   }; // System.Int16Enum
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Int16Enum, "System", "Int16Enum");
 #pragma pack(pop)

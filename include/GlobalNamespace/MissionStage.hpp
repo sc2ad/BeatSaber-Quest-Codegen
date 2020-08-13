@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::RectTransform* rectTransform;
     // public System.Int32 get_minimumMissionsToUnlock()
-    // Offset: 0xBF921C
+    // Offset: 0xC0AC60
     int get_minimumMissionsToUnlock();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0xBF5910
+    // Offset: 0xC07354
     UnityEngine::Vector2 get_position();
     // public System.Void .ctor()
-    // Offset: 0xBF9224
+    // Offset: 0xC0AC68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static MissionStage* New_ctor();
   }; // MissionStage
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStage*, "", "MissionStage");
 #pragma pack(pop)

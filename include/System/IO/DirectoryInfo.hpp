@@ -29,51 +29,51 @@ namespace System::IO {
     // Offset: 0x68
     ::CsString* parent;
     // public System.Void .ctor(System.String path)
-    // Offset: 0x111C168
+    // Offset: 0x112CBAC
     static DirectoryInfo* New_ctor(::CsString* path);
     // System.Void .ctor(System.String path, System.Boolean simpleOriginalPath)
-    // Offset: 0x111A9EC
+    // Offset: 0x112B430
     static DirectoryInfo* New_ctor(::CsString* path, bool simpleOriginalPath);
     // private System.Void Initialize()
-    // Offset: 0x111C32C
+    // Offset: 0x112CD70
     void Initialize();
     // public System.IO.DirectoryInfo get_Parent()
-    // Offset: 0x111AAEC
+    // Offset: 0x112B530
     System::IO::DirectoryInfo* get_Parent();
     // public System.Void Create()
-    // Offset: 0x111AB68
+    // Offset: 0x112B5AC
     void Create();
     // public System.IO.DirectoryInfo[] GetDirectories()
-    // Offset: 0x111C7D8
+    // Offset: 0x112D21C
     ::Array<System::IO::DirectoryInfo*>* GetDirectories();
     // public System.IO.DirectoryInfo[] GetDirectories(System.String searchPattern)
-    // Offset: 0x111C828
+    // Offset: 0x112D26C
     ::Array<System::IO::DirectoryInfo*>* GetDirectories(::CsString* searchPattern);
     // System.Void CheckPath(System.String path)
-    // Offset: 0x111C1D8
+    // Offset: 0x112CC1C
     void CheckPath(::CsString* path);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x111C5DC
+    // Offset: 0x112D020
     // Implemented from: System.IO.FileSystemInfo
     // Base method: System.Void FileSystemInfo::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static DirectoryInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean get_Exists()
-    // Offset: 0x111C744
+    // Offset: 0x112D188
     // Implemented from: System.IO.FileSystemInfo
     // Base method: System.Boolean FileSystemInfo::get_Exists()
     bool get_Exists();
     // public override System.String get_Name()
-    // Offset: 0x111C7D0
+    // Offset: 0x112D214
     // Implemented from: System.IO.FileSystemInfo
     // Base method: System.String FileSystemInfo::get_Name()
     ::CsString* get_Name();
     // public override System.String ToString()
-    // Offset: 0x111C9B4
+    // Offset: 0x112D3F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.IO.DirectoryInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DirectoryInfo*, "System.IO", "DirectoryInfo");
 #pragma pack(pop)

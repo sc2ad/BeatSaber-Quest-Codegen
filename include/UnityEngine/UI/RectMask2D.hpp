@@ -85,25 +85,25 @@ namespace UnityEngine::UI {
     // Offset: 0x68
     ::Array<UnityEngine::Vector3>* m_Corners;
     // private UnityEngine.Canvas get_Canvas()
-    // Offset: 0x11EFB68
+    // Offset: 0x12015AC
     UnityEngine::Canvas* get_Canvas();
     // public UnityEngine.Rect get_canvasRect()
-    // Offset: 0x11EFCB4
+    // Offset: 0x12016F8
     UnityEngine::Rect get_canvasRect();
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x11EFD00
+    // Offset: 0x1201744
     UnityEngine::RectTransform* get_rectTransform();
     // private UnityEngine.Rect get_rootCanvasRect()
-    // Offset: 0x11F026C
+    // Offset: 0x1201CB0
     UnityEngine::Rect get_rootCanvasRect();
     // public System.Void AddClippable(UnityEngine.UI.IClippable clippable)
-    // Offset: 0x11EE3F0
+    // Offset: 0x11FFE34
     void AddClippable(UnityEngine::UI::IClippable* clippable);
     // public System.Void RemoveClippable(UnityEngine.UI.IClippable clippable)
-    // Offset: 0x11EE268
+    // Offset: 0x11FFCAC
     void RemoveClippable(UnityEngine::UI::IClippable* clippable);
     // protected System.Void .ctor()
-    // Offset: 0x11EFF08
+    // Offset: 0x120194C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -113,37 +113,37 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static RectMask2D* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x11F00C0
+    // Offset: 0x1201B04
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x11F00FC
+    // Offset: 0x1201B40
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x11F01A4
+    // Offset: 0x1201BE8
     // Implemented from: UnityEngine.ICanvasRaycastFilter
     // Base method: System.Boolean ICanvasRaycastFilter::IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
     // public System.Void PerformClipping()
-    // Offset: 0x11F03A0
+    // Offset: 0x1201DE4
     // Implemented from: UnityEngine.UI.IClipper
     // Base method: System.Void IClipper::PerformClipping()
     void PerformClipping();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x11F0AB4
+    // Offset: 0x12024F8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnTransformParentChanged()
     void OnTransformParentChanged();
     // protected override System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x11F0AE0
+    // Offset: 0x1202524
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();
   }; // UnityEngine.UI.RectMask2D
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectMask2D*, "UnityEngine.UI", "RectMask2D");
 #pragma pack(pop)

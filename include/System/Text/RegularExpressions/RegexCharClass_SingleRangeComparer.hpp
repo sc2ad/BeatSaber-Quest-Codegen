@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Text.RegularExpressions.RegexCharClass
 #include "System/Text/RegularExpressions/RegexCharClass.hpp"
 // Including type: System.Collections.Generic.IComparer`1
@@ -18,17 +16,17 @@ namespace System::Text::RegularExpressions {
   class RegexCharClass::SingleRangeComparer : public ::CsObject, public System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*> {
     public:
     // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange x, System.Text.RegularExpressions.RegexCharClass/SingleRange y)
-    // Offset: 0x1212144
+    // Offset: 0x1224B88
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange x, System.Text.RegularExpressions.RegexCharClass/SingleRange y)
     int Compare(System::Text::RegularExpressions::RegexCharClass::SingleRange* x, System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
     // public System.Void .ctor()
-    // Offset: 0x121213C
+    // Offset: 0x1224B80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RegexCharClass::SingleRangeComparer* New_ctor();
   }; // System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");
 #pragma pack(pop)

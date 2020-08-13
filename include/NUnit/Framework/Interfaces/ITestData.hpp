@@ -35,6 +35,6 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
   }; // NUnit.Framework.Interfaces.ITestData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestData*, "NUnit.Framework.Interfaces", "ITestData");
 #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory
 #include "UnityEngine/TestRunner/NUnitExtensions/Runner/WorkItemFactory.hpp"
 // Completed includes
@@ -32,18 +33,18 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class PlaymodeWorkItemFactory : public UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory {
     public:
     // protected override UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
-    // Offset: 0xE1E9F4
+    // Offset: 0xE31438
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory
     // Base method: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem WorkItemFactory::Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(NUnit::Framework::Internal::TestMethod* method, NUnit::Framework::Interfaces::ITestFilter* filter, NUnit::Framework::Interfaces::ITest* loadedTest);
     // public System.Void .ctor()
-    // Offset: 0xE1EA64
+    // Offset: 0xE314A8
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory
     // Base method: System.Void WorkItemFactory::.ctor()
     // Base method: System.Void Object::.ctor()
     static PlaymodeWorkItemFactory* New_ctor();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.PlaymodeWorkItemFactory
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "PlaymodeWorkItemFactory");
 #pragma pack(pop)

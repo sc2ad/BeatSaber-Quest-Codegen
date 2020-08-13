@@ -49,6 +49,6 @@ namespace UnityEngine::LowLevel {
     PlayerLoopSystem(System::Type* type_ = {}, ::Array<UnityEngine::LowLevel::PlayerLoopSystem>* subSystemList_ = {}, UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}) : type{type_}, subSystemList{subSystemList_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_} {}
   }; // UnityEngine.LowLevel.PlayerLoopSystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystem, "UnityEngine.LowLevel", "PlayerLoopSystem");
 #pragma pack(pop)

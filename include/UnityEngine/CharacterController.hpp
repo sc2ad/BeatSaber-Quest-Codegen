@@ -22,28 +22,28 @@ namespace UnityEngine {
   class CharacterController : public UnityEngine::Collider {
     public:
     // public UnityEngine.CollisionFlags Move(UnityEngine.Vector3 motion)
-    // Offset: 0x19470C8
+    // Offset: 0x1959B0C
     UnityEngine::CollisionFlags Move(UnityEngine::Vector3 motion);
     // public System.Boolean get_isGrounded()
-    // Offset: 0x1947170
+    // Offset: 0x1959BB4
     bool get_isGrounded();
     // public System.Single get_height()
-    // Offset: 0x19471B0
+    // Offset: 0x1959BF4
     float get_height();
     // public UnityEngine.Vector3 get_center()
-    // Offset: 0x19471F0
+    // Offset: 0x1959C34
     UnityEngine::Vector3 get_center();
     // public System.Single get_stepOffset()
-    // Offset: 0x19472A0
+    // Offset: 0x1959CE4
     float get_stepOffset();
     // private UnityEngine.CollisionFlags Move_Injected(UnityEngine.Vector3 motion)
-    // Offset: 0x1947120
+    // Offset: 0x1959B64
     UnityEngine::CollisionFlags Move_Injected(UnityEngine::Vector3& motion);
     // private System.Void get_center_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x1947250
+    // Offset: 0x1959C94
     void get_center_Injected(UnityEngine::Vector3& ret);
   }; // UnityEngine.CharacterController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CharacterController*, "UnityEngine", "CharacterController");
 #pragma pack(pop)

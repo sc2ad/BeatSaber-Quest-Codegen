@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::BlocksBlade* blocksBlade;
     // protected System.Void Start()
-    // Offset: 0xC181D0
+    // Offset: 0xC29C14
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xC1821C
+    // Offset: 0xC29C60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -47,6 +47,6 @@ namespace GlobalNamespace {
     static SetBlocksBladeSaberGlowColor* New_ctor();
   }; // SetBlocksBladeSaberGlowColor
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetBlocksBladeSaberGlowColor*, "", "SetBlocksBladeSaberGlowColor");
 #pragma pack(pop)

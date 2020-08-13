@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: ScoreUIController
 #include "GlobalNamespace/ScoreUIController.hpp"
 // Including type: ScoreUIController/ScoreDisplayType
@@ -21,10 +19,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType;
     // public System.Void .ctor(ScoreUIController/ScoreDisplayType scoreDisplayType)
-    // Offset: 0xC18038
+    // Offset: 0xC29A7C
     static ScoreUIController::InitData* New_ctor(GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType);
   }; // ScoreUIController/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreUIController::InitData*, "", "ScoreUIController/InitData");
 #pragma pack(pop)

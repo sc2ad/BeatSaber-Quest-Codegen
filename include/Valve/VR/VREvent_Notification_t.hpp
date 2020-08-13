@@ -23,6 +23,6 @@ namespace Valve::VR {
     VREvent_Notification_t(uint64_t ulUserValue_ = {}, uint notificationId_ = {}) : ulUserValue{ulUserValue_}, notificationId{notificationId_} {}
   }; // Valve.VR.VREvent_Notification_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Notification_t, "Valve.VR", "VREvent_Notification_t");
 #pragma pack(pop)

@@ -50,6 +50,6 @@ namespace OVR::OpenVR {
     ETrackingResult(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.ETrackingResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackingResult, "OVR.OpenVR", "ETrackingResult");
 #pragma pack(pop)

@@ -17,15 +17,15 @@ namespace UnityEngine {
     // Offset: 0x88
     ::CsString* mJavaStackTrace;
     // System.Void .ctor(System.String message, System.String javaStackTrace)
-    // Offset: 0x1906A50
+    // Offset: 0x1916494
     static AndroidJavaException* New_ctor(::CsString* message, ::CsString* javaStackTrace);
     // public override System.String get_StackTrace()
-    // Offset: 0x190A3E8
+    // Offset: 0x1919E2C
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::CsString* get_StackTrace();
   }; // UnityEngine.AndroidJavaException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException*, "UnityEngine", "AndroidJavaException");
 #pragma pack(pop)

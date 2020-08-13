@@ -21,13 +21,13 @@ namespace NUnit::Framework::Interfaces {
   class NodeList : public System::Collections::Generic::List_1<NUnit::Framework::Interfaces::TNode*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x106AAFC
+    // Offset: 0x107A540
     // Implemented from: System.Collections.Generic.List`1
     // Base method: System.Void List`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static NodeList* New_ctor();
   }; // NUnit.Framework.Interfaces.NodeList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::NodeList*, "NUnit.Framework.Interfaces", "NodeList");
 #pragma pack(pop)

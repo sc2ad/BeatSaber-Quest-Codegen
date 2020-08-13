@@ -29,6 +29,6 @@ namespace OVR::OpenVR {
     VREvent_Reserved_t(uint64_t reserved0_ = {}, uint64_t reserved1_ = {}, uint64_t reserved2_ = {}, uint64_t reserved3_ = {}) : reserved0{reserved0_}, reserved1{reserved1_}, reserved2{reserved2_}, reserved3{reserved3_} {}
   }; // OVR.OpenVR.VREvent_Reserved_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Reserved_t, "OVR.OpenVR", "VREvent_Reserved_t");
 #pragma pack(pop)

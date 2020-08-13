@@ -74,19 +74,19 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Color color;
     // public System.Void add_didFinishEvent(System.Action`1<BeatEffect> value)
-    // Offset: 0x19730B0
+    // Offset: 0xB8B3AC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BeatEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BeatEffect> value)
-    // Offset: 0x1973154
+    // Offset: 0xB8B450
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BeatEffect*>* value);
     // public System.Void Init(UnityEngine.Color color, System.Single animationDuration, UnityEngine.Quaternion rotation)
-    // Offset: 0x19731F8
+    // Offset: 0xB8B4F4
     void Init(UnityEngine::Color color, float animationDuration, UnityEngine::Quaternion rotation);
     // protected System.Void Update()
-    // Offset: 0x19732F0
+    // Offset: 0xB8B5EC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x19734C0
+    // Offset: 0xB8B7BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -96,6 +96,6 @@ namespace GlobalNamespace {
     static BeatEffect* New_ctor();
   }; // BeatEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffect*, "", "BeatEffect");
 #pragma pack(pop)

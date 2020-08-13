@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -13,6 +14,6 @@ namespace System::Diagnostics::Tracing {
   class EventIgnoreAttribute : public System::Attribute {
   }; // System.Diagnostics.Tracing.EventIgnoreAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventIgnoreAttribute*, "System.Diagnostics.Tracing", "EventIgnoreAttribute");
 #pragma pack(pop)

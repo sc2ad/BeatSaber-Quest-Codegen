@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -75,31 +73,31 @@ namespace OnlineServices {
     // Offset: 0x38
     OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel;
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xBB830C
+    // Offset: 0xBCAD50
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::CsString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0xBB83B0
+    // Offset: 0xBCADF4
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::CsString*>* value);
     // public System.Void .ctor(HTTPLeaderboardsModel leaderboardsModel, OnlineServices.PlatformOnlineServicesAvailabilityModel platformOnlineServicesAvailabilityModel)
-    // Offset: 0xBB8454
+    // Offset: 0xBCAE98
     static LevelScoreUploader* New_ctor(GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel, OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel);
     // public System.Void SendLevelScoreResult(OnlineServices.LevelScoreResultsData levelScoreResultsData)
-    // Offset: 0xBB852C
+    // Offset: 0xBCAF70
     void SendLevelScoreResult(OnlineServices::LevelScoreResultsData levelScoreResultsData);
     // public System.Void TrySendPreviouslyUnsuccessfullySentResults()
-    // Offset: 0xBB871C
+    // Offset: 0xBCB160
     void TrySendPreviouslyUnsuccessfullySentResults();
     // private System.Void SendLevelScoreResultAsync()
-    // Offset: 0xBB864C
+    // Offset: 0xBCB090
     void SendLevelScoreResultAsync();
     // private System.Void AddUnsuccessfullySentResults()
-    // Offset: 0xBB8740
+    // Offset: 0xBCB184
     void AddUnsuccessfullySentResults();
     // protected System.Void OnDestroy()
-    // Offset: 0xBB87B4
+    // Offset: 0xBCB1F8
     void OnDestroy();
   }; // OnlineServices.LevelScoreUploader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader*, "OnlineServices", "LevelScoreUploader");
 #pragma pack(pop)

@@ -74,33 +74,33 @@ namespace GlobalNamespace {
     // Offset: 0x58
     UnityEngine::Material* mainEffectMaterial;
     // protected System.Void OnDisable()
-    // Offset: 0x18F75B4
+    // Offset: 0x1906FF8
     void OnDisable();
     // private System.Void LazyInitializeMaterials()
-    // Offset: 0x18F7450
+    // Offset: 0x1906E94
     void LazyInitializeMaterials();
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x18F7420
+    // Offset: 0x1906E64
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x18F7428
+    // Offset: 0x1906E6C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x18F7608
+    // Offset: 0x190704C
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x18F7714
+    // Offset: 0x1907158
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void .ctor()
-    // Offset: 0x18F7990
+    // Offset: 0x19073D4
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -109,12 +109,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static KawaseBloomMainEffectSO* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18F79C0
+    // Offset: 0x1907404
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // KawaseBloomMainEffectSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBloomMainEffectSO*, "", "KawaseBloomMainEffectSO");
 #pragma pack(pop)

@@ -103,61 +103,61 @@ namespace GlobalNamespace {
     // Offset: 0x98
     bool ignoreFirstFrameVRControllerInteraction;
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0xBBECA0
+    // Offset: 0xBD16E4
     void add_didPressContinueButtonEvent(System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0xBBF208
+    // Offset: 0xBD1C4C
     void remove_didPressContinueButtonEvent(System::Action* value);
     // public System.Void add_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0xBBEDE8
+    // Offset: 0xBD182C
     void add_didPressMenuButtonEvent(System::Action* value);
     // public System.Void remove_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0xBBF350
+    // Offset: 0xBD1D94
     void remove_didPressMenuButtonEvent(System::Action* value);
     // public System.Void add_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0xBBED44
+    // Offset: 0xBD1788
     void add_didPressRestartButtonEvent(System::Action* value);
     // public System.Void remove_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0xBBF2AC
+    // Offset: 0xBD1CF0
     void remove_didPressRestartButtonEvent(System::Action* value);
     // public System.Void add_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0xBBEBFC
+    // Offset: 0xBD1640
     void add_didFinishResumeAnimationEvent(System::Action* value);
     // public System.Void remove_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0xBBF164
+    // Offset: 0xBD1BA8
     void remove_didFinishResumeAnimationEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xBBF868
+    // Offset: 0xBD22AC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xBBFA00
+    // Offset: 0xBD2444
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBBFB20
+    // Offset: 0xBD2564
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBBFC00
+    // Offset: 0xBD2644
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0xBBF504
+    // Offset: 0xBD1F48
     void ShowMenu();
     // public System.Void StartResumeAnimation()
-    // Offset: 0xBBF6B4
+    // Offset: 0xBD20F8
     void StartResumeAnimation();
     // private System.Void HandleResumeFromPauseAnimationDidFinish()
-    // Offset: 0xBBFC94
+    // Offset: 0xBD26D8
     void HandleResumeFromPauseAnimationDidFinish();
     // private System.Void MenuButtonPressed()
-    // Offset: 0xBBFCA8
+    // Offset: 0xBD26EC
     void MenuButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0xBBFCE8
+    // Offset: 0xBD272C
     void RestartButtonPressed();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0xBBFC54
+    // Offset: 0xBD2698
     void ContinueButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0xBBFD28
+    // Offset: 0xBD276C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -167,6 +167,6 @@ namespace GlobalNamespace {
     static PauseMenuManager* New_ctor();
   }; // PauseMenuManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager*, "", "PauseMenuManager");
 #pragma pack(pop)

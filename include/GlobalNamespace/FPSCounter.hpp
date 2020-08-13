@@ -29,31 +29,31 @@ namespace GlobalNamespace {
     // Offset: 0x28
     int frameCounter;
     // public System.Int32 get_currentFPS()
-    // Offset: 0xBD6DF8
+    // Offset: 0xBE983C
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0xBD6E00
+    // Offset: 0xBE9844
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0xBD6E08
+    // Offset: 0xBE984C
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0xBD6E10
+    // Offset: 0xBE9854
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0xBD6E18
+    // Offset: 0xBE985C
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0xBD6E20
+    // Offset: 0xBE9864
     void set_highestFPS(int value);
     // protected System.Void Awake()
-    // Offset: 0xBD6E28
+    // Offset: 0xBE986C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xBD6E38
+    // Offset: 0xBE987C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBD6F1C
+    // Offset: 0xBE9960
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     static FPSCounter* New_ctor();
   }; // FPSCounter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounter*, "", "FPSCounter");
 #pragma pack(pop)

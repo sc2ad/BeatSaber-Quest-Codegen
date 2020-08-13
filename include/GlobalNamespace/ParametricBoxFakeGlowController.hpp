@@ -61,22 +61,22 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _sizeParamsID
     static void _set__sizeParamsID(int value);
     // public System.Void set_localPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1815A20
+    // Offset: 0x1826464
     void set_localPosition(UnityEngine::Vector3 value);
     // protected System.Void Awake()
-    // Offset: 0x1815A6C
+    // Offset: 0x18264B0
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x1815A8C
+    // Offset: 0x18264D0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1815C40
+    // Offset: 0x1826684
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x1815AC0
+    // Offset: 0x1826504
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1815C60
+    // Offset: 0x18266A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -85,12 +85,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ParametricBoxFakeGlowController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1815C7C
+    // Offset: 0x18266C0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ParametricBoxFakeGlowController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFakeGlowController*, "", "ParametricBoxFakeGlowController");
 #pragma pack(pop)

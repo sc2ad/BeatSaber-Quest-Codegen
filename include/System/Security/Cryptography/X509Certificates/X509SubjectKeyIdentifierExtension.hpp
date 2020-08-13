@@ -55,57 +55,57 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x38
     System::Security::Cryptography::AsnDecodeStatus status;
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedSubjectKeyIdentifier, System.Boolean critical)
-    // Offset: 0x120252C
+    // Offset: 0x1214F70
     static X509SubjectKeyIdentifierExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedSubjectKeyIdentifier, bool critical);
     // public System.Void .ctor(System.Byte[] subjectKeyIdentifier, System.Boolean critical)
-    // Offset: 0x1205D28
+    // Offset: 0x121876C
     static X509SubjectKeyIdentifierExtension* New_ctor(::Array<uint8_t>* subjectKeyIdentifier, bool critical);
     // public System.Void .ctor(System.String subjectKeyIdentifier, System.Boolean critical)
-    // Offset: 0x1205F24
+    // Offset: 0x1218968
     static X509SubjectKeyIdentifierExtension* New_ctor(::CsString* subjectKeyIdentifier, bool critical);
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.PublicKey key, System.Boolean critical)
-    // Offset: 0x1206170
+    // Offset: 0x1218BB4
     static X509SubjectKeyIdentifierExtension* New_ctor(System::Security::Cryptography::X509Certificates::PublicKey* key, bool critical);
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.PublicKey key, System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm algorithm, System.Boolean critical)
-    // Offset: 0x120617C
+    // Offset: 0x1218BC0
     static X509SubjectKeyIdentifierExtension* New_ctor(System::Security::Cryptography::X509Certificates::PublicKey* key, System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical);
     // public System.String get_SubjectKeyIdentifier()
-    // Offset: 0x12064F8
+    // Offset: 0x1218F3C
     ::CsString* get_SubjectKeyIdentifier();
     // static System.Byte FromHexChar(System.Char c)
-    // Offset: 0x120674C
+    // Offset: 0x1219190
     static uint8_t FromHexChar(::Il2CppChar c);
     // static System.Byte FromHexChars(System.Char c1, System.Char c2)
-    // Offset: 0x1206794
+    // Offset: 0x12191D8
     static uint8_t FromHexChars(::Il2CppChar c1, ::Il2CppChar c2);
     // static System.Byte[] FromHex(System.String hex)
-    // Offset: 0x1206068
+    // Offset: 0x1218AAC
     static ::Array<uint8_t>* FromHex(::CsString* hex);
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x1205BA4
+    // Offset: 0x12185E8
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // System.Byte[] Encode()
-    // Offset: 0x1205EA8
+    // Offset: 0x12188EC
     ::Array<uint8_t>* Encode();
     // public System.Void .ctor()
-    // Offset: 0x1205B1C
+    // Offset: 0x1218560
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::.ctor()
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
     static X509SubjectKeyIdentifierExtension* New_ctor();
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x12065B0
+    // Offset: 0x1218FF4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1206830
+    // Offset: 0x1219274
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::CsString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*, "System.Security.Cryptography.X509Certificates", "X509SubjectKeyIdentifierExtension");
 #pragma pack(pop)

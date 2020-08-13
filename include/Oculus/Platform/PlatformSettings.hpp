@@ -27,31 +27,31 @@ namespace Oculus::Platform {
     // Set static field: static private Oculus.Platform.PlatformSettings instance
     static void _set_instance(Oculus::Platform::PlatformSettings* value);
     // static public System.String get_AppID()
-    // Offset: 0xE82B94
+    // Offset: 0xE955D8
     static ::CsString* get_AppID();
     // static public System.Void set_AppID(System.String value)
-    // Offset: 0xE965E4
+    // Offset: 0xEA9028
     static void set_AppID(::CsString* value);
     // static public System.String get_MobileAppID()
-    // Offset: 0xE82B74
+    // Offset: 0xE955B8
     static ::CsString* get_MobileAppID();
     // static public System.Void set_MobileAppID(System.String value)
-    // Offset: 0xE96614
+    // Offset: 0xEA9058
     static void set_MobileAppID(::CsString* value);
     // static public System.Boolean get_UseStandalonePlatform()
-    // Offset: 0xE82730
+    // Offset: 0xE95174
     static bool get_UseStandalonePlatform();
     // static public System.Void set_UseStandalonePlatform(System.Boolean value)
-    // Offset: 0xE96644
+    // Offset: 0xEA9088
     static void set_UseStandalonePlatform(bool value);
     // static public Oculus.Platform.PlatformSettings get_Instance()
-    // Offset: 0xE964B8
+    // Offset: 0xEA8EFC
     static Oculus::Platform::PlatformSettings* get_Instance();
     // static public System.Void set_Instance(Oculus.Platform.PlatformSettings value)
-    // Offset: 0xE96674
+    // Offset: 0xEA90B8
     static void set_Instance(Oculus::Platform::PlatformSettings* value);
     // public System.Void .ctor()
-    // Offset: 0xE966CC
+    // Offset: 0xEA9110
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -59,6 +59,6 @@ namespace Oculus::Platform {
     static PlatformSettings* New_ctor();
   }; // Oculus.Platform.PlatformSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformSettings*, "Oculus.Platform", "PlatformSettings");
 #pragma pack(pop)

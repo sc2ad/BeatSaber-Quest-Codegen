@@ -47,22 +47,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Transform* pointer;
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0xD7C390
+    // Offset: 0xD8FDD4
     void OnDeviceConnected(int index, bool connected);
     // private System.Void OnEnable()
-    // Offset: 0xD7C994
+    // Offset: 0xD903D8
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD7CA58
+    // Offset: 0xD9049C
     void OnDisable();
     // private System.Void PrintControllerStatus(System.Int32 index)
-    // Offset: 0xD7C544
+    // Offset: 0xD8FF88
     void PrintControllerStatus(int index);
     // private System.Void Update()
-    // Offset: 0xD7CB1C
+    // Offset: 0xD90560
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xD7D46C
+    // Offset: 0xD90EB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -72,6 +72,6 @@ namespace GlobalNamespace {
     static SteamVR_TestController* New_ctor();
   }; // SteamVR_TestController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TestController*, "", "SteamVR_TestController");
 #pragma pack(pop)

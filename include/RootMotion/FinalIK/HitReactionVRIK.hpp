@@ -42,15 +42,15 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>* rotationOffsets;
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1364AF0
+    // Offset: 0x1377534
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x13648D0
+    // Offset: 0x1377314
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1364E78
+    // Offset: 0x13778BC
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -61,6 +61,6 @@ namespace RootMotion::FinalIK {
     static HitReactionVRIK* New_ctor();
   }; // RootMotion.FinalIK.HitReactionVRIK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK*, "RootMotion.FinalIK", "HitReactionVRIK");
 #pragma pack(pop)

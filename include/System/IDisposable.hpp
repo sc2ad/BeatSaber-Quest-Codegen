@@ -15,6 +15,6 @@ namespace System {
     void System_IDisposable_Dispose();
   }; // System.IDisposable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IDisposable*, "System", "IDisposable");
 #pragma pack(pop)

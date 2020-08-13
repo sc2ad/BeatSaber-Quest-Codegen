@@ -63,44 +63,44 @@ namespace HMUI {
     // Offset: 0x190
     System::Text::StringBuilder* stringBuilder;
     // public System.Void add_colorDidChangeEvent(System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xEC1524
+    // Offset: 0xED3F68
     void add_colorDidChangeEvent(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`3<HMUI.ColorGradientSlider,UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xEC15CC
+    // Offset: 0xED4010
     void remove_colorDidChangeEvent(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void SetColors(UnityEngine.Color color0, UnityEngine.Color color1)
-    // Offset: 0xEC179C
+    // Offset: 0xED41E0
     void SetColors(UnityEngine::Color color0, UnityEngine::Color color1);
     // private System.Void HandleNormalizedValueDidChange(HMUI.TextSlider slider, System.Single normalizedValue)
-    // Offset: 0xEC1B18
+    // Offset: 0xED455C
     void HandleNormalizedValueDidChange(HMUI::TextSlider* slider, float normalizedValue);
     // protected override System.Void Awake()
-    // Offset: 0xEC1674
+    // Offset: 0xED40B8
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0xEC1710
+    // Offset: 0xED4154
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void UpdateVisuals()
-    // Offset: 0xEC17CC
+    // Offset: 0xED4210
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::UpdateVisuals()
     void UpdateVisuals();
     // protected override System.String TextForNormalizedValue(System.Single normalizedValue)
-    // Offset: 0xEC1A48
+    // Offset: 0xED448C
     // Implemented from: HMUI.TextSlider
     // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
     ::CsString* TextForNormalizedValue(float normalizedValue);
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xEC1BCC
+    // Offset: 0xED4610
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xEC1CEC
+    // Offset: 0xED4730
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -113,6 +113,6 @@ namespace HMUI {
     static ColorGradientSlider* New_ctor();
   }; // HMUI.ColorGradientSlider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ColorGradientSlider*, "HMUI", "ColorGradientSlider");
 #pragma pack(pop)

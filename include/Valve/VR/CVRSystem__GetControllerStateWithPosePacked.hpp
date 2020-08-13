@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: Valve.VR.CVRSystem
 #include "Valve/VR/CVRSystem.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -35,19 +35,19 @@ namespace Valve::VR {
   class CVRSystem::_GetControllerStateWithPosePacked : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFD15E8
+    // Offset: 0xFE302C
     static CVRSystem::_GetControllerStateWithPosePacked* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Valve.VR.ETrackingUniverseOrigin eOrigin, System.UInt32 unControllerDeviceIndex, Valve.VR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize, Valve.VR.TrackedDevicePose_t pTrackedDevicePose)
-    // Offset: 0xFD0FC4
+    // Offset: 0xFE2A08
     bool Invoke(Valve::VR::ETrackingUniverseOrigin eOrigin, uint unControllerDeviceIndex, Valve::VR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackingUniverseOrigin eOrigin, System.UInt32 unControllerDeviceIndex, Valve.VR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize, Valve.VR.TrackedDevicePose_t pTrackedDevicePose, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFD15FC
+    // Offset: 0xFE3040
     System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eOrigin, uint unControllerDeviceIndex, Valve::VR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Boolean EndInvoke(Valve.VR.VRControllerState_t_Packed pControllerState, Valve.VR.TrackedDevicePose_t pTrackedDevicePose, System.IAsyncResult result)
-    // Offset: 0xFD1704
+    // Offset: 0xFE3148
     bool EndInvoke(Valve::VR::VRControllerState_t_Packed& pControllerState, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, System::IAsyncResult* result);
   }; // Valve.VR.CVRSystem/_GetControllerStateWithPosePacked
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem::_GetControllerStateWithPosePacked*, "Valve.VR", "CVRSystem/_GetControllerStateWithPosePacked");
 #pragma pack(pop)

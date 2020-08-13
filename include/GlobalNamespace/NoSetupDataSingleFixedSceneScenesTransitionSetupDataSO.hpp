@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO : public GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
     // public System.Void Init()
-    // Offset: 0xCA2E20
+    // Offset: 0xCB5864
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xCA2F48
+    // Offset: 0xCB598C
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
@@ -28,6 +28,6 @@ namespace GlobalNamespace {
     static NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO* New_ctor();
   }; // NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO*, "", "NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO");
 #pragma pack(pop)

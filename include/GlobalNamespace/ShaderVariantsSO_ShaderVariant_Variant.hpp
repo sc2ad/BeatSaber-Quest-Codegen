@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: ShaderVariantsSO/ShaderVariant
 #include "GlobalNamespace/ShaderVariantsSO_ShaderVariant.hpp"
 // Including type: UnityEngine.Rendering.PassType
@@ -24,16 +22,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::CsString* keywords;
     // public UnityEngine.Rendering.PassType get_passType()
-    // Offset: 0x18FB898
+    // Offset: 0x190B2DC
     UnityEngine::Rendering::PassType get_passType();
     // public System.String get_keywords()
-    // Offset: 0x18FB8A0
+    // Offset: 0x190B2E4
     ::CsString* get_keywords();
     // public System.Void .ctor(UnityEngine.Rendering.PassType passType, System.String keywords)
-    // Offset: 0x18FB8A8
+    // Offset: 0x190B2EC
     static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(UnityEngine::Rendering::PassType passType, ::CsString* keywords);
   }; // ShaderVariantsSO/ShaderVariant/Variant
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*, "", "ShaderVariantsSO/ShaderVariant/Variant");
 #pragma pack(pop)

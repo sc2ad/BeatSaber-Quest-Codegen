@@ -38,37 +38,37 @@ namespace UnityEngine::UI {
     // Offset: 0x20
     System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* m_Toggles;
     // public System.Boolean get_allowSwitchOff()
-    // Offset: 0x191C618
+    // Offset: 0x192D05C
     bool get_allowSwitchOff();
     // public System.Void set_allowSwitchOff(System.Boolean value)
-    // Offset: 0x191C620
+    // Offset: 0x192D064
     void set_allowSwitchOff(bool value);
     // private System.Void ValidateToggleIsInGroup(UnityEngine.UI.Toggle toggle)
-    // Offset: 0x191C6D0
+    // Offset: 0x192D114
     void ValidateToggleIsInGroup(UnityEngine::UI::Toggle* toggle);
     // public System.Void NotifyToggleOn(UnityEngine.UI.Toggle toggle, System.Boolean sendCallback)
-    // Offset: 0x191C2FC
+    // Offset: 0x192CD40
     void NotifyToggleOn(UnityEngine::UI::Toggle* toggle, bool sendCallback);
     // public System.Void UnregisterToggle(UnityEngine.UI.Toggle toggle)
-    // Offset: 0x191C1CC
+    // Offset: 0x192CC10
     void UnregisterToggle(UnityEngine::UI::Toggle* toggle);
     // public System.Void RegisterToggle(UnityEngine.UI.Toggle toggle)
-    // Offset: 0x191C264
+    // Offset: 0x192CCA8
     void RegisterToggle(UnityEngine::UI::Toggle* toggle);
     // public System.Void EnsureValidState()
-    // Offset: 0x191BE3C
+    // Offset: 0x192C880
     void EnsureValidState();
     // public System.Boolean AnyTogglesOn()
-    // Offset: 0x191C448
+    // Offset: 0x192CE8C
     bool AnyTogglesOn();
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.UI.Toggle> ActiveToggles()
-    // Offset: 0x191C824
+    // Offset: 0x192D268
     System::Collections::Generic::IEnumerable_1<UnityEngine::UI::Toggle*>* ActiveToggles();
     // public System.Void SetAllTogglesOff(System.Boolean sendCallback)
-    // Offset: 0x191C91C
+    // Offset: 0x192D360
     void SetAllTogglesOff(bool sendCallback);
     // protected System.Void .ctor()
-    // Offset: 0x191C62C
+    // Offset: 0x192D070
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -78,12 +78,12 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static ToggleGroup* New_ctor();
     // protected override System.Void Start()
-    // Offset: 0x191C6A8
+    // Offset: 0x192D0EC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();
   }; // UnityEngine.UI.ToggleGroup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup*, "UnityEngine.UI", "ToggleGroup");
 #pragma pack(pop)

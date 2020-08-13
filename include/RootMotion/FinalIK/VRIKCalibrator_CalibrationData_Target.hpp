@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.VRIKCalibrator/CalibrationData
 #include "RootMotion/FinalIK/VRIKCalibrator_CalibrationData.hpp"
 // Including type: UnityEngine.Vector3
@@ -36,13 +34,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x20
     UnityEngine::Quaternion localRotation;
     // public System.Void .ctor(UnityEngine.Transform t)
-    // Offset: 0x12271D0
+    // Offset: 0x1238C14
     static VRIKCalibrator::CalibrationData::Target* New_ctor(UnityEngine::Transform* t);
     // public System.Void SetTo(UnityEngine.Transform t)
-    // Offset: 0x1227D44
+    // Offset: 0x1239788
     void SetTo(UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.VRIKCalibrator/CalibrationData/Target
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData/Target");
 #pragma pack(pop)

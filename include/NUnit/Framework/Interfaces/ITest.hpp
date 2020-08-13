@@ -72,6 +72,6 @@ namespace NUnit::Framework::Interfaces {
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* get_Tests();
   }; // NUnit.Framework.Interfaces.ITest
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITest*, "NUnit.Framework.Interfaces", "ITest");
 #pragma pack(pop)

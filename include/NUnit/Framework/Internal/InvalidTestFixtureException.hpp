@@ -23,23 +23,23 @@ namespace NUnit::Framework::Internal {
   class InvalidTestFixtureException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18D4790
+    // Offset: 0x18E51D4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidTestFixtureException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x18D47F8
+    // Offset: 0x18E523C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static InvalidTestFixtureException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18D4870
+    // Offset: 0x18E52B4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static InvalidTestFixtureException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // NUnit.Framework.Internal.InvalidTestFixtureException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InvalidTestFixtureException*, "NUnit.Framework.Internal", "InvalidTestFixtureException");
 #pragma pack(pop)

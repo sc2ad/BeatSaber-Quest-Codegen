@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.UI.StencilMaterial
 #include "UnityEngine/UI/StencilMaterial.hpp"
 // Including type: UnityEngine.Rendering.StencilOp
@@ -59,12 +57,12 @@ namespace UnityEngine::UI {
     // Offset: 0x3C
     UnityEngine::Rendering::ColorWriteMask colorMask;
     // public System.Void .ctor()
-    // Offset: 0x191993C
+    // Offset: 0x192A380
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StencilMaterial::MatEntry* New_ctor();
   }; // UnityEngine.UI.StencilMaterial/MatEntry
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial::MatEntry*, "UnityEngine.UI", "StencilMaterial/MatEntry");
 #pragma pack(pop)

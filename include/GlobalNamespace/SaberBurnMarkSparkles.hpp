@@ -73,19 +73,19 @@ namespace GlobalNamespace {
     // Offset: 0x78
     UnityEngine::ParticleSystem::EmitParams sparklesEmitParams;
     // protected System.Void Start()
-    // Offset: 0xC11464
+    // Offset: 0xC22EA8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC11920
+    // Offset: 0xC23364
     void OnDestroy();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0xC11A2C
+    // Offset: 0xC23470
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // protected System.Void LateUpdate()
-    // Offset: 0xC11CC4
+    // Offset: 0xC23708
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC121AC
+    // Offset: 0xC23BF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -95,6 +95,6 @@ namespace GlobalNamespace {
     static SaberBurnMarkSparkles* New_ctor();
   }; // SaberBurnMarkSparkles
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkSparkles*, "", "SaberBurnMarkSparkles");
 #pragma pack(pop)

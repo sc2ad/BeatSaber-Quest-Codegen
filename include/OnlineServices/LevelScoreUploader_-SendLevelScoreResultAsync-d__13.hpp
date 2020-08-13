@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OnlineServices.LevelScoreUploader
 #include "OnlineServices/LevelScoreUploader.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
@@ -66,17 +66,17 @@ namespace OnlineServices {
     // Creating value type constructor for type: $SendLevelScoreResultAsync$d__13
     $SendLevelScoreResultAsync$d__13(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, OnlineServices::LevelScoreUploader* $$4__this_ = {}, System::Threading::CancellationToken $cancellationToken$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*> $$u__1_ = {}, OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo* $levelScoreResultsDataUploadInfo$5__3_ = {}, OnlineServices::LevelScoreResultsData $levelScoreResultToUpload$5__4_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__3_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $cancellationToken$5__2{$cancellationToken$5__2_}, $$u__1{$$u__1_}, $levelScoreResultsDataUploadInfo$5__3{$levelScoreResultsDataUploadInfo$5__3_}, $levelScoreResultToUpload$5__4{$levelScoreResultToUpload$5__4_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // private System.Void MoveNext()
-    // Offset: 0xA275CC
+    // Offset: 0xA27648
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xA275D4
+    // Offset: 0xA27650
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.LevelScoreUploader/<SendLevelScoreResultAsync>d__13
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13, "OnlineServices", "LevelScoreUploader/<SendLevelScoreResultAsync>d__13");
 #pragma pack(pop)

@@ -21,39 +21,39 @@ namespace System::IO {
   class TextWriter::NullTextWriter : public System::IO::TextWriter {
     public:
     // System.Void .ctor()
-    // Offset: 0xFF88D0
+    // Offset: 0x1008314
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextWriter::NullTextWriter* New_ctor();
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0xFF8E38
+    // Offset: 0x100887C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF8E40
+    // Offset: 0x1008884
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0xFF8E44
+    // Offset: 0x1008888
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::CsString* value);
     // public override System.Void WriteLine()
-    // Offset: 0xFF8E48
+    // Offset: 0x100888C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine()
     void WriteLine();
     // public override System.Void WriteLine(System.String value)
-    // Offset: 0xFF8E4C
+    // Offset: 0x1008890
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String value)
     void WriteLine(::CsString* value);
   }; // System.IO.TextWriter/NullTextWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::NullTextWriter*, "System.IO", "TextWriter/NullTextWriter");
 #pragma pack(pop)

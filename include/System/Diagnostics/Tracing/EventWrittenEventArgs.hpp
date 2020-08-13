@@ -53,28 +53,28 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x48
     System::Collections::ObjectModel::ReadOnlyCollection_1<::CsString*>* m_payloadNames;
     // System.Void set_EventName(System.String value)
-    // Offset: 0xD7F610
+    // Offset: 0xD93054
     void set_EventName(::CsString* value);
     // System.Void set_EventId(System.Int32 value)
-    // Offset: 0xD7F618
+    // Offset: 0xD9305C
     void set_EventId(int value);
     // System.Void set_RelatedActivityId(System.Guid value)
-    // Offset: 0xD7F620
+    // Offset: 0xD93064
     void set_RelatedActivityId(System::Guid value);
     // System.Void set_Payload(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object> value)
-    // Offset: 0xD7F62C
+    // Offset: 0xD93070
     void set_Payload(System::Collections::ObjectModel::ReadOnlyCollection_1<::CsObject*>* value);
     // System.Void set_PayloadNames(System.Collections.ObjectModel.ReadOnlyCollection`1<System.String> value)
-    // Offset: 0xD7F634
+    // Offset: 0xD93078
     void set_PayloadNames(System::Collections::ObjectModel::ReadOnlyCollection_1<::CsString*>* value);
     // System.Void set_Message(System.String value)
-    // Offset: 0xD7F63C
+    // Offset: 0xD93080
     void set_Message(::CsString* value);
     // System.Void .ctor(System.Diagnostics.Tracing.EventSource eventSource)
-    // Offset: 0xD7F644
+    // Offset: 0xD93088
     static EventWrittenEventArgs* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource);
   }; // System.Diagnostics.Tracing.EventWrittenEventArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventWrittenEventArgs*, "System.Diagnostics.Tracing", "EventWrittenEventArgs");
 #pragma pack(pop)

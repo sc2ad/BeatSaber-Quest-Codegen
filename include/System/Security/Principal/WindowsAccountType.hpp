@@ -44,6 +44,6 @@ namespace System::Security::Principal {
     WindowsAccountType(int value_ = {}) : value{value_} {}
   }; // System.Security.Principal.WindowsAccountType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsAccountType, "System.Security.Principal", "WindowsAccountType");
 #pragma pack(pop)

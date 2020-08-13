@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.IProvider
 #include "Zenject/IProvider.hpp"
 // Including type: Zenject.InjectSources
@@ -61,33 +59,33 @@ namespace Zenject {
     // Offset: 0x30
     bool matchAll;
     // public System.Void .ctor(System.Type contractType, Zenject.DiContainer container, System.Object identifier, System.Boolean isOptional, Zenject.InjectSources source, System.Boolean matchAll)
-    // Offset: 0xFB3010
+    // Offset: 0xFC5A54
     static ResolveProvider* New_ctor(System::Type* contractType, Zenject::DiContainer* container, ::CsObject* identifier, bool isOptional, Zenject::InjectSources source, bool matchAll);
     // private Zenject.InjectContext GetSubContext(Zenject.InjectContext parent)
-    // Offset: 0xFB320C
+    // Offset: 0xFC5C50
     Zenject::InjectContext* GetSubContext(Zenject::InjectContext* parent);
     // public System.Boolean get_IsCached()
-    // Offset: 0xFB30A8
+    // Offset: 0xFC5AEC
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0xFB30B0
+    // Offset: 0xFC5AF4
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0xFB30B8
+    // Offset: 0xFC5AFC
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0xFB30C0
+    // Offset: 0xFC5B04
     // Implemented from: Zenject.IProvider
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::CsObject*>* buffer);
   }; // Zenject.ResolveProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ResolveProvider*, "Zenject", "ResolveProvider");
 #pragma pack(pop)

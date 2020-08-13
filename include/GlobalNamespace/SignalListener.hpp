@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Events::UnityEvent* unityEvent;
     // protected System.Void OnEnable()
-    // Offset: 0xCA6E04
+    // Offset: 0xCB9848
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xCA6E98
+    // Offset: 0xCB98DC
     void OnDisable();
     // private System.Void HandleEvent()
-    // Offset: 0xCA6F20
+    // Offset: 0xCB9964
     void HandleEvent();
     // public System.Void .ctor()
-    // Offset: 0xCA6F3C
+    // Offset: 0xCB9980
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static SignalListener* New_ctor();
   }; // SignalListener
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalListener*, "", "SignalListener");
 #pragma pack(pop)

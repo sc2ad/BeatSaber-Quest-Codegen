@@ -39,12 +39,12 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xC33160
+    // Offset: 0xC44BA4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xC3336C
+    // Offset: 0xC44DB0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -56,6 +56,6 @@ namespace GlobalNamespace {
     static TutorialBeatmapObjectPoolsInstaller* New_ctor();
   }; // TutorialBeatmapObjectPoolsInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectPoolsInstaller*, "", "TutorialBeatmapObjectPoolsInstaller");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OnlineServices.ServerManager
 #include "OnlineServices/ServerManager.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
@@ -60,17 +58,17 @@ namespace OnlineServices {
     // Creating value type constructor for type: $GetLeaderboardEntriesAsync$d__13
     $GetLeaderboardEntriesAsync$d__13(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::LeaderboardEntriesResult*> $$t__builder_ = {}, OnlineServices::ServerManager* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult> $$u__2_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, leaderboardFilterData{leaderboardFilterData_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
-    // Offset: 0xA27600
+    // Offset: 0xA2767C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xA27608
+    // Offset: 0xA27684
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.ServerManager/<GetLeaderboardEntriesAsync>d__13
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ServerManager::$GetLeaderboardEntriesAsync$d__13, "OnlineServices", "ServerManager/<GetLeaderboardEntriesAsync>d__13");
 #pragma pack(pop)

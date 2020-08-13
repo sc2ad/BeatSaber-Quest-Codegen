@@ -110,35 +110,35 @@ namespace GlobalNamespace {
     // Offset: 0x128
     bool quittingApplication;
     // private System.Void HandleSimpleDemoViewControllerDidFinish(SimpleRetailDemoViewController viewController, SimpleRetailDemoViewController/MenuButton menuButton)
-    // Offset: 0xB83C4C
+    // Offset: 0xB95690
     void HandleSimpleDemoViewControllerDidFinish(GlobalNamespace::SimpleRetailDemoViewController* viewController, GlobalNamespace::SimpleRetailDemoViewController::MenuButton menuButton);
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xB83E0C
+    // Offset: 0xB95850
     void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Collections.IEnumerator QuitApplicationCoroutine()
-    // Offset: 0xB83E4C
+    // Offset: 0xB95890
     System::Collections::IEnumerator* QuitApplicationCoroutine();
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xB83EF4
+    // Offset: 0xB95938
     void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Void StartLevel(System.Action beforeSceneSwitchCallback)
-    // Offset: 0xB83CF4
+    // Offset: 0xB95738
     void StartLevel(System::Action* beforeSceneSwitchCallback);
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xB83FC0
+    // Offset: 0xB95A04
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xB8380C
+    // Offset: 0xB95250
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    // Offset: 0xB83A88
+    // Offset: 0xB954CC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
     void DidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0xB84058
+    // Offset: 0xB95A9C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -149,6 +149,6 @@ namespace GlobalNamespace {
     static SimpleRetailDemoFlowCoordinator* New_ctor();
   }; // SimpleRetailDemoFlowCoordinator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator*, "", "SimpleRetailDemoFlowCoordinator");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin/Bool
 #include "GlobalNamespace/OVRPlugin_Bool.hpp"
 // Including type: OVRPlugin/CameraStatus
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     CameraExtrinsics(GlobalNamespace::OVRPlugin::Bool IsValid_ = {}, double LastChangedTimeSeconds_ = {}, GlobalNamespace::OVRPlugin::CameraStatus CameraStatusData_ = {}, GlobalNamespace::OVRPlugin::Node AttachedToNode_ = {}, GlobalNamespace::OVRPlugin::Posef RelativePose_ = {}) : IsValid{IsValid_}, LastChangedTimeSeconds{LastChangedTimeSeconds_}, CameraStatusData{CameraStatusData_}, AttachedToNode{AttachedToNode_}, RelativePose{RelativePose_} {}
   }; // OVRPlugin/CameraExtrinsics
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraExtrinsics, "", "OVRPlugin/CameraExtrinsics");
 #pragma pack(pop)

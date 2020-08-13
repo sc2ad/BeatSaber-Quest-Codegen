@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Rect
 #include "UnityEngine/Rect.hpp"
 // Including type: UnityEngine.Vector2
@@ -33,12 +31,12 @@ namespace UnityEngine {
     // Offset: 0x48
     bool apply;
     // public System.Void .ctor()
-    // Offset: 0x125F8C4
+    // Offset: 0x1272308
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScrollViewState* New_ctor();
   }; // UnityEngine.ScrollViewState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScrollViewState*, "UnityEngine", "ScrollViewState");
 #pragma pack(pop)

@@ -56,6 +56,6 @@ namespace System::Security::Cryptography {
     AsnDecodeStatus(int value_ = {}) : value{value_} {}
   }; // System.Security.Cryptography.AsnDecodeStatus
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsnDecodeStatus, "System.Security.Cryptography", "AsnDecodeStatus");
 #pragma pack(pop)

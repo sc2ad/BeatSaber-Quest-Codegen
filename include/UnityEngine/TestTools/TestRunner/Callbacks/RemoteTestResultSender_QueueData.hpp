@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 #include "UnityEngine/TestTools/TestRunner/Callbacks/RemoteTestResultSender.hpp"
 // Including type: System.Guid
@@ -24,24 +22,24 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x20
     ::Array<uint8_t>* data;
     // public System.Guid get_id()
-    // Offset: 0xE2ED48
+    // Offset: 0xE4178C
     System::Guid get_id();
     // public System.Void set_id(System.Guid value)
-    // Offset: 0xE2ED54
+    // Offset: 0xE41798
     void set_id(System::Guid value);
     // public System.Byte[] get_data()
-    // Offset: 0xE2ED5C
+    // Offset: 0xE417A0
     ::Array<uint8_t>* get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0xE2ED64
+    // Offset: 0xE417A8
     void set_data(::Array<uint8_t>* value);
     // public System.Void .ctor()
-    // Offset: 0xE2E1F0
+    // Offset: 0xE40C34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RemoteTestResultSender::QueueData* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender/QueueData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender/QueueData");
 #pragma pack(pop)

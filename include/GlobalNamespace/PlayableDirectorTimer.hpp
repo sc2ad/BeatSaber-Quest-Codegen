@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // protected System.Void Update()
-    // Offset: 0xBC4100
+    // Offset: 0xBD6B44
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBC414C
+    // Offset: 0xBD6B90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static PlayableDirectorTimer* New_ctor();
   }; // PlayableDirectorTimer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayableDirectorTimer*, "", "PlayableDirectorTimer");
 #pragma pack(pop)

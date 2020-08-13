@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.Canvas
 #include "UnityEngine/Canvas.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace UnityEngine {
   class Canvas::WillRenderCanvases : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19541B4
+    // Offset: 0x1966BF8
     static Canvas::WillRenderCanvases* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1953FA0
+    // Offset: 0x19669E4
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19541C8
+    // Offset: 0x1966C0C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19541F4
+    // Offset: 0x1966C38
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Canvas/WillRenderCanvases
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Canvas::WillRenderCanvases*, "UnityEngine", "Canvas/WillRenderCanvases");
 #pragma pack(pop)

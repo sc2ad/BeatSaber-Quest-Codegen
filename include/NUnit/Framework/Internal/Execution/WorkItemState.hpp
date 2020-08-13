@@ -38,6 +38,6 @@ namespace NUnit::Framework::Internal::Execution {
     WorkItemState(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Internal.Execution.WorkItemState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::WorkItemState, "NUnit.Framework.Internal.Execution", "WorkItemState");
 #pragma pack(pop)

@@ -14,6 +14,6 @@ namespace System {
   class MonoType : public System::RuntimeType {
   }; // System.MonoType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MonoType*, "System", "MonoType");
 #pragma pack(pop)

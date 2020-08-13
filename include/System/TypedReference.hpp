@@ -38,29 +38,29 @@ namespace System {
     // Creating value type constructor for type: TypedReference
     TypedReference(System::RuntimeTypeHandle type_ = {}, System::IntPtr Value_ = {}, System::IntPtr Type_ = {}) : type{type_}, Value{Value_}, Type{Type_} {}
     // static public System.TypedReference MakeTypedReference(System.Object target, System.Reflection.FieldInfo[] flds)
-    // Offset: 0x178282C
+    // Offset: 0x1793270
     static System::TypedReference MakeTypedReference(::CsObject* target, ::Array<System::Reflection::FieldInfo*>* flds);
     // static private System.TypedReference MakeTypedReferenceInternal(System.Object target, System.Reflection.FieldInfo[] fields)
-    // Offset: 0x1782C1C
+    // Offset: 0x1793660
     static System::TypedReference MakeTypedReferenceInternal(::CsObject* target, ::Array<System::Reflection::FieldInfo*>* fields);
     // System.Boolean get_IsNull()
-    // Offset: 0xA5355C
+    // Offset: 0xA535D8
     bool get_IsNull();
     // static public System.Void SetTypedReference(System.TypedReference target, System.Object value)
-    // Offset: 0x1782D94
+    // Offset: 0x17937D8
     static void SetTypedReference(System::TypedReference target, ::CsObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA53548
+    // Offset: 0xA535C4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0xA53550
+    // Offset: 0xA535CC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::CsObject* o);
   }; // System.TypedReference
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");
 #pragma pack(pop)

@@ -35,26 +35,26 @@ namespace System::ComponentModel {
     // Offset: 0x10
     System::ComponentModel::DesignerSerializationVisibility visibility;
     // public System.Void .ctor(System.ComponentModel.DesignerSerializationVisibility visibility)
-    // Offset: 0xF46380
+    // Offset: 0xF57DC4
     static DesignerSerializationVisibilityAttribute* New_ctor(System::ComponentModel::DesignerSerializationVisibility visibility);
     // public System.ComponentModel.DesignerSerializationVisibility get_Visibility()
-    // Offset: 0xF463AC
+    // Offset: 0xF57DF0
     System::ComponentModel::DesignerSerializationVisibility get_Visibility();
     // static private System.Void .cctor()
-    // Offset: 0xF46458
+    // Offset: 0xF57E9C
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF463B4
+    // Offset: 0xF57DF8
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF46450
+    // Offset: 0xF57E94
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DesignerSerializationVisibilityAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerSerializationVisibilityAttribute*, "System.ComponentModel", "DesignerSerializationVisibilityAttribute");
 #pragma pack(pop)

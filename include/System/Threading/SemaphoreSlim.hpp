@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Int32
@@ -80,61 +78,61 @@ namespace System::Threading {
     // Set static field: static private System.Action`1<System.Object> s_cancellationTokenCanceledEventHandler
     static void _set_s_cancellationTokenCanceledEventHandler(System::Action_1<::CsObject*>* value);
     // public System.Void .ctor(System.Int32 initialCount, System.Int32 maxCount)
-    // Offset: 0xCC4448
+    // Offset: 0xCD6E8C
     static SemaphoreSlim* New_ctor(int initialCount, int maxCount);
     // public System.Void Wait()
-    // Offset: 0xCC4610
+    // Offset: 0xCD7054
     void Wait();
     // public System.Boolean Wait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCC461C
+    // Offset: 0xCD7060
     bool Wait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // private System.Boolean WaitUntilCountOrTimeout(System.Int32 millisecondsTimeout, System.UInt32 startTime, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCC4F9C
+    // Offset: 0xCD79E0
     bool WaitUntilCountOrTimeout(int millisecondsTimeout, uint startTime, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task WaitAsync()
-    // Offset: 0xCC5074
+    // Offset: 0xCD7AB8
     System::Threading::Tasks::Task* WaitAsync();
     // public System.Threading.Tasks.Task WaitAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCC5080
+    // Offset: 0xCD7AC4
     System::Threading::Tasks::Task* WaitAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> WaitAsync(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCC4CB8
+    // Offset: 0xCD76FC
     System::Threading::Tasks::Task_1<bool>* WaitAsync(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.SemaphoreSlim/TaskNode CreateAndAddAsyncWaiter()
-    // Offset: 0xCC508C
+    // Offset: 0xCD7AD0
     System::Threading::SemaphoreSlim::TaskNode* CreateAndAddAsyncWaiter();
     // private System.Boolean RemoveAsyncWaiter(System.Threading.SemaphoreSlim/TaskNode task)
-    // Offset: 0xCC531C
+    // Offset: 0xCD7D60
     bool RemoveAsyncWaiter(System::Threading::SemaphoreSlim::TaskNode* task);
     // private System.Threading.Tasks.Task`1<System.Boolean> WaitUntilCountOrTimeoutAsync(System.Threading.SemaphoreSlim/TaskNode asyncWaiter, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCC5144
+    // Offset: 0xCD7B88
     System::Threading::Tasks::Task_1<bool>* WaitUntilCountOrTimeoutAsync(System::Threading::SemaphoreSlim::TaskNode* asyncWaiter, int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // public System.Int32 Release()
-    // Offset: 0xCC5408
+    // Offset: 0xCD7E4C
     int Release();
     // public System.Int32 Release(System.Int32 releaseCount)
-    // Offset: 0xCC5410
+    // Offset: 0xCD7E54
     int Release(int releaseCount);
     // static private System.Void QueueWaiterTask(System.Threading.SemaphoreSlim/TaskNode waiterTask)
-    // Offset: 0xCC56E4
+    // Offset: 0xCD8128
     static void QueueWaiterTask(System::Threading::SemaphoreSlim::TaskNode* waiterTask);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xCC57F4
+    // Offset: 0xCD8238
     void Dispose(bool disposing);
     // static private System.Void CancellationTokenCanceledEventHandler(System.Object obj)
-    // Offset: 0xCC58A0
+    // Offset: 0xCD82E4
     static void CancellationTokenCanceledEventHandler(::CsObject* obj);
     // private System.Void CheckDispose()
-    // Offset: 0xCC4AEC
+    // Offset: 0xCD7530
     void CheckDispose();
     // static private System.String GetResourceString(System.String str)
-    // Offset: 0xCC4608
+    // Offset: 0xCD704C
     static ::CsString* GetResourceString(::CsString* str);
     // static private System.Void .cctor()
-    // Offset: 0xCC59A4
+    // Offset: 0xCD83E8
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0xCC5778
+    // Offset: 0xCD81BC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -143,6 +141,6 @@ namespace System::Threading {
     void System_IDisposable_Dispose();
   }; // System.Threading.SemaphoreSlim
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim*, "System.Threading", "SemaphoreSlim");
 #pragma pack(pop)

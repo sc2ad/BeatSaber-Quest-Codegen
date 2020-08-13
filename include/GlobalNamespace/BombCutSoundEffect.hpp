@@ -45,22 +45,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::Saber* saber;
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0xB5D358
+    // Offset: 0xB5B358
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0xB5D3FC
+    // Offset: 0xB5B3FC
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void Init(UnityEngine.AudioClip audioClip, Saber saber, System.Single volume)
-    // Offset: 0xB5D4A0
+    // Offset: 0xB5B4A0
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::Saber* saber, float volume);
     // protected System.Void LateUpdate()
-    // Offset: 0xB5D530
+    // Offset: 0xB5B530
     void LateUpdate();
     // private System.Void StopPlayingAndFinish()
-    // Offset: 0xB5D5D0
+    // Offset: 0xB5B5D0
     void StopPlayingAndFinish();
     // public System.Void .ctor()
-    // Offset: 0xB5D658
+    // Offset: 0xB5B658
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,6 +70,6 @@ namespace GlobalNamespace {
     static BombCutSoundEffect* New_ctor();
   }; // BombCutSoundEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombCutSoundEffect*, "", "BombCutSoundEffect");
 #pragma pack(pop)

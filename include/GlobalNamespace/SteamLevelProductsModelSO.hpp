@@ -41,21 +41,21 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
     // public SteamLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0xB90914
+    // Offset: 0xBA2358
     ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public SteamLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0xB90A74
+    // Offset: 0xBA24B8
     GlobalNamespace::SteamLevelProductsModelSO::LevelProductData* GetLevelProductData(::CsString* levelId);
     // public SteamLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0xB90AF4
+    // Offset: 0xBA2538
     GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::CsString* levelPackId);
     // protected override System.Void OnEnable()
-    // Offset: 0xB9091C
+    // Offset: 0xBA2360
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xB90B74
+    // Offset: 0xBA25B8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -64,6 +64,6 @@ namespace GlobalNamespace {
     static SteamLevelProductsModelSO* New_ctor();
   }; // SteamLevelProductsModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO*, "", "SteamLevelProductsModelSO");
 #pragma pack(pop)

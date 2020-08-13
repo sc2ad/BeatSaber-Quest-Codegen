@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.TestRunner.Utils.TestRunCallbackListener
 #include "UnityEngine/TestRunner/Utils/TestRunCallbackListener.hpp"
 // Completed includes
@@ -31,15 +29,15 @@ namespace UnityEngine::TestRunner::Utils {
     // Offset: 0x10
     NUnit::Framework::Interfaces::ITest* testsToRun;
     // System.Void <RunStarted>b__0(UnityEngine.TestRunner.ITestRunCallback callback)
-    // Offset: 0xE272A8
+    // Offset: 0xE39CEC
     void $RunStarted$b__0(UnityEngine::TestRunner::ITestRunCallback* callback);
     // public System.Void .ctor()
-    // Offset: 0xE26974
+    // Offset: 0xE393B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestRunCallbackListener::$$c__DisplayClass1_0* New_ctor();
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/<>c__DisplayClass1_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass1_0*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c__DisplayClass1_0");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IComparable
 #include "System/IComparable.hpp"
 // Including type: System.ICloneable
@@ -116,472 +114,472 @@ namespace System {
     // Set static field: static private System.Int32 alignConst
     static void _set_alignConst(int value);
     // static public System.String Join(System.String separator, System.String[] value)
-    // Offset: 0xDDA370
+    // Offset: 0xDECDB4
     static ::CsString* Join(::CsString* separator, ::Array<::CsString*>* value);
     // static public System.String Join(System.String separator, System.String[] value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDDA40C
+    // Offset: 0xDECE50
     static ::CsString* Join(::CsString* separator, ::Array<::CsString*>* value, int startIndex, int count);
     // static private System.Int32 CompareOrdinalIgnoreCaseHelper(System.String strA, System.String strB)
-    // Offset: 0xDDA6B0
+    // Offset: 0xDED0F4
     static int CompareOrdinalIgnoreCaseHelper(::CsString* strA, ::CsString* strB);
     // static private System.Boolean EqualsHelper(System.String strA, System.String strB)
-    // Offset: 0xDDA79C
+    // Offset: 0xDED1E0
     static bool EqualsHelper(::CsString* strA, ::CsString* strB);
     // static private System.Int32 CompareOrdinalHelper(System.String strA, System.String strB)
-    // Offset: 0xDDA8E8
+    // Offset: 0xDED32C
     static int CompareOrdinalHelper(::CsString* strA, ::CsString* strB);
     // public System.Boolean Equals(System.String value, System.StringComparison comparisonType)
-    // Offset: 0xDDAB58
+    // Offset: 0xDED59C
     bool Equals(::CsString* value, System::StringComparison comparisonType);
     // static public System.Boolean Equals(System.String a, System.String b)
-    // Offset: 0xDDAE4C
+    // Offset: 0xDED890
     static bool Equals(::CsString* a, ::CsString* b);
     // static public System.Boolean Equals(System.String a, System.String b, System.StringComparison comparisonType)
-    // Offset: 0xDD1280
+    // Offset: 0xDE3CC4
     static bool Equals(::CsString* a, ::CsString* b, System::StringComparison comparisonType);
     // public System.Char get_Chars(System.Int32 index)
-    // Offset: 0xDCE504
+    // Offset: 0xDE0F48
     ::Il2CppChar get_Chars(int index);
     // public System.Void CopyTo(System.Int32 sourceIndex, System.Char[] destination, System.Int32 destinationIndex, System.Int32 count)
-    // Offset: 0xDDAE88
+    // Offset: 0xDED8CC
     void CopyTo(int sourceIndex, ::Array<::Il2CppChar>* destination, int destinationIndex, int count);
     // public System.Char[] ToCharArray()
-    // Offset: 0xDDB074
+    // Offset: 0xDEDAB8
     ::Array<::Il2CppChar>* ToCharArray();
     // static public System.Boolean IsNullOrEmpty(System.String value)
-    // Offset: 0xDCF0A8
+    // Offset: 0xDE1AEC
     static bool IsNullOrEmpty(::CsString* value);
     // static public System.Boolean IsNullOrWhiteSpace(System.String value)
-    // Offset: 0xDDB10C
+    // Offset: 0xDEDB50
     static bool IsNullOrWhiteSpace(::CsString* value);
     // System.Int32 GetLegacyNonRandomizedHashCode()
-    // Offset: 0xDDB240
+    // Offset: 0xDEDC84
     int GetLegacyNonRandomizedHashCode();
     // public System.String[] Split(System.Char[] separator)
-    // Offset: 0xDD40E0
+    // Offset: 0xDE6B24
     ::Array<::CsString*>* Split(::Array<::Il2CppChar>* separator);
     // public System.String[] Split(System.Char[] separator, System.Int32 count)
-    // Offset: 0xDDB524
+    // Offset: 0xDEDF68
     ::Array<::CsString*>* Split(::Array<::Il2CppChar>* separator, int count);
     // public System.String[] Split(System.Char[] separator, System.StringSplitOptions options)
-    // Offset: 0xDDB52C
+    // Offset: 0xDEDF70
     ::Array<::CsString*>* Split(::Array<::Il2CppChar>* separator, System::StringSplitOptions options);
     // System.String[] SplitInternal(System.Char[] separator, System.Int32 count, System.StringSplitOptions options)
-    // Offset: 0xDDB2B8
+    // Offset: 0xDEDCFC
     ::Array<::CsString*>* SplitInternal(::Array<::Il2CppChar>* separator, int count, System::StringSplitOptions options);
     // private System.String[] InternalSplitKeepEmptyEntries(System.Int32[] sepList, System.Int32[] lengthList, System.Int32 numReplaces, System.Int32 count)
-    // Offset: 0xDDBA18
+    // Offset: 0xDEE45C
     ::Array<::CsString*>* InternalSplitKeepEmptyEntries(::Array<int>* sepList, ::Array<int>* lengthList, int numReplaces, int count);
     // private System.String[] InternalSplitOmitEmptyEntries(System.Int32[] sepList, System.Int32[] lengthList, System.Int32 numReplaces, System.Int32 count)
-    // Offset: 0xDDB704
+    // Offset: 0xDEE148
     ::Array<::CsString*>* InternalSplitOmitEmptyEntries(::Array<int>* sepList, ::Array<int>* lengthList, int numReplaces, int count);
     // private System.Int32 MakeSeparatorList(System.Char[] separator, System.Int32[] sepList)
-    // Offset: 0xDDB538
+    // Offset: 0xDEDF7C
     int MakeSeparatorList(::Array<::Il2CppChar>* separator, ::Array<int>*& sepList);
     // public System.String Substring(System.Int32 startIndex)
-    // Offset: 0xDCAFBC
+    // Offset: 0xDDDA00
     ::CsString* Substring(int startIndex);
     // public System.String Substring(System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDC39B8
+    // Offset: 0xDD63FC
     ::CsString* Substring(int startIndex, int length);
     // private System.String InternalSubString(System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDDBC54
+    // Offset: 0xDEE698
     ::CsString* InternalSubString(int startIndex, int length);
     // public System.String Trim(System.Char[] trimChars)
-    // Offset: 0xDDBCB0
+    // Offset: 0xDEE6F4
     ::CsString* Trim(::Array<::Il2CppChar>* trimChars);
     // public System.String TrimStart(System.Char[] trimChars)
-    // Offset: 0xDDBF7C
+    // Offset: 0xDEE9C0
     ::CsString* TrimStart(::Array<::Il2CppChar>* trimChars);
     // public System.String TrimEnd(System.Char[] trimChars)
-    // Offset: 0xDDBF98
+    // Offset: 0xDEE9DC
     ::CsString* TrimEnd(::Array<::Il2CppChar>* trimChars);
     // public System.Void .ctor(System.Char* value)
-    // Offset: 0xDDBFB4
+    // Offset: 0xDEE9F8
     static ::CsString* New_ctor(::Il2CppChar* value);
     // public System.Void .ctor(System.Char* value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDDBFB8
+    // Offset: 0xDEE9FC
     static ::CsString* New_ctor(::Il2CppChar* value, int startIndex, int length);
     // public System.Void .ctor(System.SByte* value, System.Int32 startIndex, System.Int32 length, System.Text.Encoding enc)
-    // Offset: 0xDDBFBC
+    // Offset: 0xDEEA00
     static ::CsString* New_ctor(int8_t* value, int startIndex, int length, System::Text::Encoding* enc);
     // static System.String CreateStringFromEncoding(System.Byte* bytes, System.Int32 byteLength, System.Text.Encoding encoding)
-    // Offset: 0xDDBFC0
+    // Offset: 0xDEEA04
     static ::CsString* CreateStringFromEncoding(uint8_t* bytes, int byteLength, System::Text::Encoding* encoding);
     // public System.String Normalize(System.Text.NormalizationForm normalizationForm)
-    // Offset: 0xDDC098
+    // Offset: 0xDEEADC
     ::CsString* Normalize(System::Text::NormalizationForm normalizationForm);
     // static System.String FastAllocateString(System.Int32 length)
-    // Offset: 0xDDA6AC
+    // Offset: 0xDED0F0
     static ::CsString* FastAllocateString(int length);
     // static private System.Void FillStringChecked(System.String dest, System.Int32 destPos, System.String src)
-    // Offset: 0xDDC170
+    // Offset: 0xDEEBB4
     static void FillStringChecked(::CsString* dest, int destPos, ::CsString* src);
     // public System.Void .ctor(System.Char[] value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDDC224
+    // Offset: 0xDEEC68
     static ::CsString* New_ctor(::Array<::Il2CppChar>* value, int startIndex, int length);
     // public System.Void .ctor(System.Char[] value)
-    // Offset: 0xDDC228
+    // Offset: 0xDEEC6C
     static ::CsString* New_ctor(::Array<::Il2CppChar>* value);
     // static System.Void wstrcpy(System.Char* dmem, System.Char* smem, System.Int32 charCount)
-    // Offset: 0xDDB068
+    // Offset: 0xDEDAAC
     static void wstrcpy(::Il2CppChar* dmem, ::Il2CppChar* smem, int charCount);
     // private System.String CtorCharArray(System.Char[] value)
-    // Offset: 0xDDC22C
+    // Offset: 0xDEEC70
     ::CsString* CtorCharArray(::Array<::Il2CppChar>* value);
     // private System.String CtorCharArrayStartLength(System.Char[] value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDDC2D0
+    // Offset: 0xDEED14
     ::CsString* CtorCharArrayStartLength(::Array<::Il2CppChar>* value, int startIndex, int length);
     // static private System.Int32 wcslen(System.Char* ptr)
-    // Offset: 0xDDC480
+    // Offset: 0xDEEEC4
     static int wcslen(::Il2CppChar* ptr);
     // private System.String CtorCharPtr(System.Char* ptr)
-    // Offset: 0xDDC4F8
+    // Offset: 0xDEEF3C
     ::CsString* CtorCharPtr(::Il2CppChar* ptr);
     // private System.String CtorCharPtrStartLength(System.Char* ptr, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDDC6AC
+    // Offset: 0xDEF0F0
     ::CsString* CtorCharPtrStartLength(::Il2CppChar* ptr, int startIndex, int length);
     // public System.Void .ctor(System.Char c, System.Int32 count)
-    // Offset: 0xDDC8DC
+    // Offset: 0xDEF320
     static ::CsString* New_ctor(::Il2CppChar c, int count);
     // static public System.Int32 Compare(System.String strA, System.String strB)
-    // Offset: 0xDDC8E0
+    // Offset: 0xDEF324
     static int Compare(::CsString* strA, ::CsString* strB);
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase)
-    // Offset: 0xDDC980
+    // Offset: 0xDEF3C4
     static int Compare(::CsString* strA, ::CsString* strB, bool ignoreCase);
     // static public System.Int32 Compare(System.String strA, System.String strB, System.StringComparison comparisonType)
-    // Offset: 0xDDCA68
+    // Offset: 0xDEF4AC
     static int Compare(::CsString* strA, ::CsString* strB, System::StringComparison comparisonType);
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase, System.Globalization.CultureInfo culture)
-    // Offset: 0xDDCD70
+    // Offset: 0xDEF7B4
     static int Compare(::CsString* strA, ::CsString* strB, bool ignoreCase, System::Globalization::CultureInfo* culture);
     // static public System.Int32 Compare(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length)
-    // Offset: 0xDDCE38
+    // Offset: 0xDEF87C
     static int Compare(::CsString* strA, int indexA, ::CsString* strB, int indexB, int length);
     // static public System.Int32 Compare(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length, System.Globalization.CultureInfo culture, System.Globalization.CompareOptions options)
-    // Offset: 0xDDCF38
+    // Offset: 0xDEF97C
     static int Compare(::CsString* strA, int indexA, ::CsString* strB, int indexB, int length, System::Globalization::CultureInfo* culture, System::Globalization::CompareOptions options);
     // static public System.Int32 Compare(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length, System.StringComparison comparisonType)
-    // Offset: 0xDDD060
+    // Offset: 0xDEFAA4
     static int Compare(::CsString* strA, int indexA, ::CsString* strB, int indexB, int length, System::StringComparison comparisonType);
     // static public System.Int32 CompareOrdinal(System.String strA, System.String strB)
-    // Offset: 0xDDD77C
+    // Offset: 0xDF01C0
     static int CompareOrdinal(::CsString* strA, ::CsString* strB);
     // static public System.Int32 CompareOrdinal(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length)
-    // Offset: 0xDDD7C4
+    // Offset: 0xDF0208
     static int CompareOrdinal(::CsString* strA, int indexA, ::CsString* strB, int indexB, int length);
     // public System.Boolean Contains(System.String value)
-    // Offset: 0xDDD7F0
+    // Offset: 0xDF0234
     bool Contains(::CsString* value);
     // public System.Boolean EndsWith(System.String value)
-    // Offset: 0xDDD828
+    // Offset: 0xDF026C
     bool EndsWith(::CsString* value);
     // public System.Boolean EndsWith(System.String value, System.StringComparison comparisonType)
-    // Offset: 0xDC3D00
+    // Offset: 0xDD6744
     bool EndsWith(::CsString* value, System::StringComparison comparisonType);
     // System.Boolean EndsWith(System.Char value)
-    // Offset: 0xDDD830
+    // Offset: 0xDF0274
     bool EndsWith(::Il2CppChar value);
     // public System.Int32 IndexOf(System.Char value)
-    // Offset: 0xDDD874
+    // Offset: 0xDF02B8
     int IndexOf(::Il2CppChar value);
     // public System.Int32 IndexOf(System.Char value, System.Int32 startIndex)
-    // Offset: 0xDDD9C8
+    // Offset: 0xDF040C
     int IndexOf(::Il2CppChar value, int startIndex);
     // public System.Int32 IndexOfAny(System.Char[] anyOf)
-    // Offset: 0xDD878C
+    // Offset: 0xDEB1D0
     int IndexOfAny(::Array<::Il2CppChar>* anyOf);
     // public System.Int32 IndexOfAny(System.Char[] anyOf, System.Int32 startIndex)
-    // Offset: 0xDDDAEC
+    // Offset: 0xDF0530
     int IndexOfAny(::Array<::Il2CppChar>* anyOf, int startIndex);
     // public System.Int32 IndexOf(System.String value)
-    // Offset: 0xDDDAF8
+    // Offset: 0xDF053C
     int IndexOf(::CsString* value);
     // public System.Int32 IndexOf(System.String value, System.Int32 startIndex)
-    // Offset: 0xDDDB08
+    // Offset: 0xDF054C
     int IndexOf(::CsString* value, int startIndex);
     // public System.Int32 IndexOf(System.String value, System.StringComparison comparisonType)
-    // Offset: 0xDDD818
+    // Offset: 0xDF025C
     int IndexOf(::CsString* value, System::StringComparison comparisonType);
     // public System.Int32 IndexOf(System.String value, System.Int32 startIndex, System.StringComparison comparisonType)
-    // Offset: 0xDDDB18
+    // Offset: 0xDF055C
     int IndexOf(::CsString* value, int startIndex, System::StringComparison comparisonType);
     // public System.Int32 IndexOf(System.String value, System.Int32 startIndex, System.Int32 count, System.StringComparison comparisonType)
-    // Offset: 0xDDDB28
+    // Offset: 0xDF056C
     int IndexOf(::CsString* value, int startIndex, int count, System::StringComparison comparisonType);
     // public System.Int32 LastIndexOf(System.Char value)
-    // Offset: 0xDDDECC
+    // Offset: 0xDF0910
     int LastIndexOf(::Il2CppChar value);
     // public System.Int32 LastIndexOf(System.Char value, System.Int32 startIndex)
-    // Offset: 0xDDE020
+    // Offset: 0xDF0A64
     int LastIndexOf(::Il2CppChar value, int startIndex);
     // public System.Int32 LastIndexOfAny(System.Char[] anyOf)
-    // Offset: 0xDDE028
+    // Offset: 0xDF0A6C
     int LastIndexOfAny(::Array<::Il2CppChar>* anyOf);
     // public System.Int32 LastIndexOfAny(System.Char[] anyOf, System.Int32 startIndex)
-    // Offset: 0xDDE198
+    // Offset: 0xDF0BDC
     int LastIndexOfAny(::Array<::Il2CppChar>* anyOf, int startIndex);
     // public System.Int32 LastIndexOf(System.String value)
-    // Offset: 0xDDE1A0
+    // Offset: 0xDF0BE4
     int LastIndexOf(::CsString* value);
     // public System.Int32 LastIndexOf(System.String value, System.StringComparison comparisonType)
-    // Offset: 0xDC39A8
+    // Offset: 0xDD63EC
     int LastIndexOf(::CsString* value, System::StringComparison comparisonType);
     // public System.Int32 LastIndexOf(System.String value, System.Int32 startIndex, System.Int32 count, System.StringComparison comparisonType)
-    // Offset: 0xDDE1B0
+    // Offset: 0xDF0BF4
     int LastIndexOf(::CsString* value, int startIndex, int count, System::StringComparison comparisonType);
     // public System.String PadLeft(System.Int32 totalWidth, System.Char paddingChar)
-    // Offset: 0xDDE5C4
+    // Offset: 0xDF1008
     ::CsString* PadLeft(int totalWidth, ::Il2CppChar paddingChar);
     // public System.String PadRight(System.Int32 totalWidth, System.Char paddingChar)
-    // Offset: 0xDDE71C
+    // Offset: 0xDF1160
     ::CsString* PadRight(int totalWidth, ::Il2CppChar paddingChar);
     // public System.Boolean StartsWith(System.String value)
-    // Offset: 0xDDE724
+    // Offset: 0xDF1168
     bool StartsWith(::CsString* value);
     // public System.Boolean StartsWith(System.String value, System.StringComparison comparisonType)
-    // Offset: 0xDC4090
+    // Offset: 0xDD6AD4
     bool StartsWith(::CsString* value, System::StringComparison comparisonType);
     // public System.String ToLower()
-    // Offset: 0xDDE7BC
+    // Offset: 0xDF1200
     ::CsString* ToLower();
     // public System.String ToLower(System.Globalization.CultureInfo culture)
-    // Offset: 0xDC3C50
+    // Offset: 0xDD6694
     ::CsString* ToLower(System::Globalization::CultureInfo* culture);
     // public System.String ToLowerInvariant()
-    // Offset: 0xDDE82C
+    // Offset: 0xDF1270
     ::CsString* ToLowerInvariant();
     // public System.String ToUpper()
-    // Offset: 0xDDE89C
+    // Offset: 0xDF12E0
     ::CsString* ToUpper();
     // public System.String ToUpper(System.Globalization.CultureInfo culture)
-    // Offset: 0xDDE90C
+    // Offset: 0xDF1350
     ::CsString* ToUpper(System::Globalization::CultureInfo* culture);
     // public System.String ToUpperInvariant()
-    // Offset: 0xDDE9BC
+    // Offset: 0xDF1400
     ::CsString* ToUpperInvariant();
     // static private System.Boolean IsBOMWhitespace(System.Char c)
-    // Offset: 0xDDEA38
+    // Offset: 0xDF147C
     static bool IsBOMWhitespace(::Il2CppChar c);
     // public System.String Trim()
-    // Offset: 0xDD9B1C
+    // Offset: 0xDEC560
     ::CsString* Trim();
     // private System.String TrimHelper(System.Int32 trimType)
-    // Offset: 0xDDBCCC
+    // Offset: 0xDEE710
     ::CsString* TrimHelper(int trimType);
     // private System.String TrimHelper(System.Char[] trimChars, System.Int32 trimType)
-    // Offset: 0xDDBE30
+    // Offset: 0xDEE874
     ::CsString* TrimHelper(::Array<::Il2CppChar>* trimChars, int trimType);
     // private System.String CreateTrimmedString(System.Int32 start, System.Int32 end)
-    // Offset: 0xDDEA40
+    // Offset: 0xDF1484
     ::CsString* CreateTrimmedString(int start, int end);
     // public System.String Insert(System.Int32 startIndex, System.String value)
-    // Offset: 0xDDEAD8
+    // Offset: 0xDF151C
     ::CsString* Insert(int startIndex, ::CsString* value);
     // public System.String Replace(System.Char oldChar, System.Char newChar)
-    // Offset: 0xDDEC38
+    // Offset: 0xDF167C
     ::CsString* Replace(::Il2CppChar oldChar, ::Il2CppChar newChar);
     // public System.String Replace(System.String oldValue, System.String newValue)
-    // Offset: 0xDDED2C
+    // Offset: 0xDF1770
     ::CsString* Replace(::CsString* oldValue, ::CsString* newValue);
     // public System.String Remove(System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDDEECC
+    // Offset: 0xDF1910
     ::CsString* Remove(int startIndex, int count);
     // public System.String Remove(System.Int32 startIndex)
-    // Offset: 0xDDF04C
+    // Offset: 0xDF1A90
     ::CsString* Remove(int startIndex);
     // static public System.String Format(System.String format, System.Object arg0)
-    // Offset: 0xDDF11C
+    // Offset: 0xDF1B60
     static ::CsString* Format(::CsString* format, ::CsObject* arg0);
     // static public System.String Format(System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0xDDF254
+    // Offset: 0xDF1C98
     static ::CsString* Format(::CsString* format, ::CsObject* arg0, ::CsObject* arg1);
     // static public System.String Format(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0xDDF2A4
+    // Offset: 0xDF1CE8
     static ::CsString* Format(::CsString* format, ::CsObject* arg0, ::CsObject* arg1, ::CsObject* arg2);
     // static public System.String Format(System.String format, System.Object[] args)
-    // Offset: 0xDDF2F4
+    // Offset: 0xDF1D38
     static ::CsString* Format(::CsString* format, ::Array<::CsObject*>* args);
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0)
-    // Offset: 0xDDF3CC
+    // Offset: 0xDF1E10
     static ::CsString* Format(System::IFormatProvider* provider, ::CsString* format, ::CsObject* arg0);
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0xDCC910
+    // Offset: 0xDDF354
     static ::CsString* Format(System::IFormatProvider* provider, ::CsString* format, ::CsObject* arg0, ::CsObject* arg1);
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0xDDF424
+    // Offset: 0xDF1E68
     static ::CsString* Format(System::IFormatProvider* provider, ::CsString* format, ::CsObject* arg0, ::CsObject* arg1, ::CsObject* arg2);
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object[] args)
-    // Offset: 0xDCBC98
+    // Offset: 0xDDE6DC
     static ::CsString* Format(System::IFormatProvider* provider, ::CsString* format, ::Array<::CsObject*>* args);
     // static private System.String FormatHelper(System.IFormatProvider provider, System.String format, System.ParamsArray args)
-    // Offset: 0xDDF16C
+    // Offset: 0xDF1BB0
     static ::CsString* FormatHelper(System::IFormatProvider* provider, ::CsString* format, System::ParamsArray args);
     // static public System.String Copy(System.String str)
-    // Offset: 0xDDF484
+    // Offset: 0xDF1EC8
     static ::CsString* Copy(::CsString* str);
     // static public System.String Concat(System.Object arg0)
-    // Offset: 0xDDF53C
+    // Offset: 0xDF1F80
     static ::CsString* Concat(::CsObject* arg0);
     // static public System.String Concat(System.Object arg0, System.Object arg1)
-    // Offset: 0xDDF5AC
+    // Offset: 0xDF1FF0
     static ::CsString* Concat(::CsObject* arg0, ::CsObject* arg1);
     // static public System.String Concat(System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0xDDF670
+    // Offset: 0xDF20B4
     static ::CsString* Concat(::CsObject* arg0, ::CsObject* arg1, ::CsObject* arg2);
     // static public System.String Concat(System.Object[] args)
-    // Offset: 0xDDF770
+    // Offset: 0xDF21B4
     static ::CsString* Concat(::Array<::CsObject*>* args);
     // static public System.String Concat(System.String str0, System.String str1)
-    // Offset: 0xDCC438
+    // Offset: 0xDDEE7C
     static ::CsString* Concat(::CsString* str0, ::CsString* str1);
     // static public System.String Concat(System.String str0, System.String str1, System.String str2)
-    // Offset: 0xDD7840
+    // Offset: 0xDEA284
     static ::CsString* Concat(::CsString* str0, ::CsString* str1, ::CsString* str2);
     // static public System.String Concat(System.String str0, System.String str1, System.String str2, System.String str3)
-    // Offset: 0xDDFA28
+    // Offset: 0xDF246C
     static ::CsString* Concat(::CsString* str0, ::CsString* str1, ::CsString* str2, ::CsString* str3);
     // static private System.String ConcatArray(System.String[] values, System.Int32 totalLength)
-    // Offset: 0xDDF980
+    // Offset: 0xDF23C4
     static ::CsString* ConcatArray(::Array<::CsString*>* values, int totalLength);
     // static public System.String Concat(System.String[] values)
-    // Offset: 0xDDFB94
+    // Offset: 0xDF25D8
     static ::CsString* Concat(::Array<::CsString*>* values);
     // public System.Int32 get_Length()
-    // Offset: 0xDE051C
+    // Offset: 0xDF2F60
     int get_Length();
     // static System.Int32 CompareOrdinalUnchecked(System.String strA, System.Int32 indexA, System.Int32 lenA, System.String strB, System.Int32 indexB, System.Int32 lenB)
-    // Offset: 0xDE0524
+    // Offset: 0xDF2F68
     static int CompareOrdinalUnchecked(::CsString* strA, int indexA, int lenA, ::CsString* strB, int indexB, int lenB);
     // public System.Int32 IndexOf(System.Char value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDDD880
+    // Offset: 0xDF02C4
     int IndexOf(::Il2CppChar value, int startIndex, int count);
     // System.Int32 IndexOfUnchecked(System.Char value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDE06A8
+    // Offset: 0xDF30EC
     int IndexOfUnchecked(::Il2CppChar value, int startIndex, int count);
     // System.Int32 IndexOfUnchecked(System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDE0864
+    // Offset: 0xDF32A8
     int IndexOfUnchecked(::CsString* value, int startIndex, int count);
     // public System.Int32 IndexOfAny(System.Char[] anyOf, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDDD9D4
+    // Offset: 0xDF0418
     int IndexOfAny(::Array<::Il2CppChar>* anyOf, int startIndex, int count);
     // private System.Int32 IndexOfAnyUnchecked(System.Char[] anyOf, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDE0984
+    // Offset: 0xDF33C8
     int IndexOfAnyUnchecked(::Array<::Il2CppChar>* anyOf, int startIndex, int count);
     // public System.Int32 LastIndexOf(System.Char value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDDDED8
+    // Offset: 0xDF091C
     int LastIndexOf(::Il2CppChar value, int startIndex, int count);
     // System.Int32 LastIndexOfUnchecked(System.Char value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDE0A74
+    // Offset: 0xDF34B8
     int LastIndexOfUnchecked(::Il2CppChar value, int startIndex, int count);
     // public System.Int32 LastIndexOfAny(System.Char[] anyOf, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDDE034
+    // Offset: 0xDF0A78
     int LastIndexOfAny(::Array<::Il2CppChar>* anyOf, int startIndex, int count);
     // private System.Int32 LastIndexOfAnyUnchecked(System.Char[] anyOf, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xDE0C38
+    // Offset: 0xDF367C
     int LastIndexOfAnyUnchecked(::Array<::Il2CppChar>* anyOf, int startIndex, int count);
     // static System.Int32 nativeCompareOrdinalEx(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 count)
-    // Offset: 0xDDD478
+    // Offset: 0xDEFEBC
     static int nativeCompareOrdinalEx(::CsString* strA, int indexA, ::CsString* strB, int indexB, int count);
     // private System.String ReplaceInternal(System.Char oldChar, System.Char newChar)
-    // Offset: 0xDDEC3C
+    // Offset: 0xDF1680
     ::CsString* ReplaceInternal(::Il2CppChar oldChar, ::Il2CppChar newChar);
     // System.String ReplaceInternal(System.String oldValue, System.String newValue)
-    // Offset: 0xDDEDC8
+    // Offset: 0xDF180C
     ::CsString* ReplaceInternal(::CsString* oldValue, ::CsString* newValue);
     // private System.String ReplaceUnchecked(System.String oldValue, System.String newValue)
-    // Offset: 0xDE0D24
+    // Offset: 0xDF3768
     ::CsString* ReplaceUnchecked(::CsString* oldValue, ::CsString* newValue);
     // private System.String ReplaceFallback(System.String oldValue, System.String newValue, System.Int32 testedCount)
-    // Offset: 0xDE10B0
+    // Offset: 0xDF3AF4
     ::CsString* ReplaceFallback(::CsString* oldValue, ::CsString* newValue, int testedCount);
     // private System.String PadHelper(System.Int32 totalWidth, System.Char paddingChar, System.Boolean isRightPadded)
-    // Offset: 0xDDE5CC
+    // Offset: 0xDF1010
     ::CsString* PadHelper(int totalWidth, ::Il2CppChar paddingChar, bool isRightPadded);
     // System.Boolean StartsWithOrdinalUnchecked(System.String value)
-    // Offset: 0xDE1204
+    // Offset: 0xDF3C48
     bool StartsWithOrdinalUnchecked(::CsString* value);
     // System.Boolean IsAscii()
-    // Offset: 0xDDAE0C
+    // Offset: 0xDED850
     bool IsAscii();
     // static System.Void CharCopy(System.Char* dest, System.Char* src, System.Int32 count)
-    // Offset: 0xDE0CDC
+    // Offset: 0xDF3720
     static void CharCopy(::Il2CppChar* dest, ::Il2CppChar* src, int count);
     // static private System.Void memset(System.Byte* dest, System.Int32 val, System.Int32 len)
-    // Offset: 0xDE1250
+    // Offset: 0xDF3C94
     static void memset(uint8_t* dest, int val, int len);
     // static private System.Void memcpy(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0xDE130C
+    // Offset: 0xDF3D50
     static void memcpy(uint8_t* dest, uint8_t* src, int size);
     // static System.Void bzero(System.Byte* dest, System.Int32 len)
-    // Offset: 0xDE1314
+    // Offset: 0xDF3D58
     static void bzero_(uint8_t* dest, int len);
     // static System.Void bzero_aligned_1(System.Byte* dest, System.Int32 len)
-    // Offset: 0xDE1320
+    // Offset: 0xDF3D64
     static void bzero_aligned_1(uint8_t* dest, int len);
     // static System.Void bzero_aligned_2(System.Byte* dest, System.Int32 len)
-    // Offset: 0xDE1328
+    // Offset: 0xDF3D6C
     static void bzero_aligned_2(uint8_t* dest, int len);
     // static System.Void bzero_aligned_4(System.Byte* dest, System.Int32 len)
-    // Offset: 0xDE1330
+    // Offset: 0xDF3D74
     static void bzero_aligned_4(uint8_t* dest, int len);
     // static System.Void bzero_aligned_8(System.Byte* dest, System.Int32 len)
-    // Offset: 0xDE1338
+    // Offset: 0xDF3D7C
     static void bzero_aligned_8(uint8_t* dest, int len);
     // static System.Void memcpy_aligned_1(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0xDE1340
+    // Offset: 0xDF3D84
     static void memcpy_aligned_1(uint8_t* dest, uint8_t* src, int size);
     // static System.Void memcpy_aligned_2(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0xDE134C
+    // Offset: 0xDF3D90
     static void memcpy_aligned_2(uint8_t* dest, uint8_t* src, int size);
     // static System.Void memcpy_aligned_4(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0xDE1358
+    // Offset: 0xDF3D9C
     static void memcpy_aligned_4(uint8_t* dest, uint8_t* src, int size);
     // static System.Void memcpy_aligned_8(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0xDE1364
+    // Offset: 0xDF3DA8
     static void memcpy_aligned_8(uint8_t* dest, uint8_t* src, int size);
     // private System.String CreateString(System.SByte* value)
-    // Offset: 0xDE1370
+    // Offset: 0xDF3DB4
     ::CsString* CreateString(int8_t* value);
     // private System.String CreateString(System.SByte* value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDE16D8
+    // Offset: 0xDF411C
     ::CsString* CreateString(int8_t* value, int startIndex, int length);
     // private System.String CreateString(System.Char* value)
-    // Offset: 0xDE16E0
+    // Offset: 0xDF4124
     ::CsString* CreateString(::Il2CppChar* value);
     // private System.String CreateString(System.Char* value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDE16E4
+    // Offset: 0xDF4128
     ::CsString* CreateString(::Il2CppChar* value, int startIndex, int length);
     // private System.String CreateString(System.Char[] val, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0xDE16E8
+    // Offset: 0xDF412C
     ::CsString* CreateString(::Array<::Il2CppChar>* val, int startIndex, int length);
     // private System.String CreateString(System.Char[] val)
-    // Offset: 0xDE16EC
+    // Offset: 0xDF4130
     ::CsString* CreateString(::Array<::Il2CppChar>* val);
     // private System.String CreateString(System.Char c, System.Int32 count)
-    // Offset: 0xDE16F0
+    // Offset: 0xDF4134
     ::CsString* CreateString(::Il2CppChar c, int count);
     // private System.String CreateString(System.SByte* value, System.Int32 startIndex, System.Int32 length, System.Text.Encoding enc)
-    // Offset: 0xDE1404
+    // Offset: 0xDF3E48
     ::CsString* CreateString(int8_t* value, int startIndex, int length, System::Text::Encoding* enc);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xDDAA78
+    // Offset: 0xDED4BC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(System.String value)
-    // Offset: 0xDC4644
+    // Offset: 0xDD7088
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(System.String value)
     bool Equals(::CsString* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xDDB1C8
+    // Offset: 0xDEDC0C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Int32 CompareTo(System.Object value)
-    // Offset: 0xDDD5EC
+    // Offset: 0xDF0030
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
     int CompareTo(::CsObject* value);
@@ -589,123 +587,123 @@ namespace System {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::CsObject* value);
     // public System.Int32 CompareTo(System.String strB)
-    // Offset: 0xDDD6C4
+    // Offset: 0xDF0108
     // Implemented from: System.IComparable`1
     // Base method: System.Int32 IComparable`1::CompareTo(System.String strB)
     int CompareTo(::CsString* strB);
     // public override System.String ToString()
-    // Offset: 0xDDEA2C
+    // Offset: 0xDF1470
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
-    // Offset: 0xDDEA30
+    // Offset: 0xDF1474
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
     ::CsString* ToString(System::IFormatProvider* provider);
     // public System.Object Clone()
-    // Offset: 0xDDEA34
+    // Offset: 0xDF1478
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::CsObject* Clone();
     // public System.TypeCode GetTypeCode()
-    // Offset: 0xDDFD3C
+    // Offset: 0xDF2780
     // Implemented from: System.IConvertible
     // Base method: System.TypeCode IConvertible::GetTypeCode()
     System::TypeCode GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
-    // Offset: 0xDDFD44
+    // Offset: 0xDF2788
     // Implemented from: System.IConvertible
     // Base method: System.Boolean IConvertible::ToBoolean(System.IFormatProvider provider)
     bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
-    // Offset: 0xDDFDBC
+    // Offset: 0xDF2800
     // Implemented from: System.IConvertible
     // Base method: System.Char IConvertible::ToChar(System.IFormatProvider provider)
     ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
-    // Offset: 0xDDFE34
+    // Offset: 0xDF2878
     // Implemented from: System.IConvertible
     // Base method: System.SByte IConvertible::ToSByte(System.IFormatProvider provider)
     int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
-    // Offset: 0xDDFEAC
+    // Offset: 0xDF28F0
     // Implemented from: System.IConvertible
     // Base method: System.Byte IConvertible::ToByte(System.IFormatProvider provider)
     uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
-    // Offset: 0xDDFF24
+    // Offset: 0xDF2968
     // Implemented from: System.IConvertible
     // Base method: System.Int16 IConvertible::ToInt16(System.IFormatProvider provider)
     int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
-    // Offset: 0xDDFF9C
+    // Offset: 0xDF29E0
     // Implemented from: System.IConvertible
     // Base method: System.UInt16 IConvertible::ToUInt16(System.IFormatProvider provider)
     uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
-    // Offset: 0xDE0014
+    // Offset: 0xDF2A58
     // Implemented from: System.IConvertible
     // Base method: System.Int32 IConvertible::ToInt32(System.IFormatProvider provider)
     int System_IConvertible_ToInt32(System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
-    // Offset: 0xDE008C
+    // Offset: 0xDF2AD0
     // Implemented from: System.IConvertible
     // Base method: System.UInt32 IConvertible::ToUInt32(System.IFormatProvider provider)
     uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
-    // Offset: 0xDE0104
+    // Offset: 0xDF2B48
     // Implemented from: System.IConvertible
     // Base method: System.Int64 IConvertible::ToInt64(System.IFormatProvider provider)
     int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
-    // Offset: 0xDE017C
+    // Offset: 0xDF2BC0
     // Implemented from: System.IConvertible
     // Base method: System.UInt64 IConvertible::ToUInt64(System.IFormatProvider provider)
     uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
-    // Offset: 0xDE01F4
+    // Offset: 0xDF2C38
     // Implemented from: System.IConvertible
     // Base method: System.Single IConvertible::ToSingle(System.IFormatProvider provider)
     float System_IConvertible_ToSingle(System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
-    // Offset: 0xDE026C
+    // Offset: 0xDF2CB0
     // Implemented from: System.IConvertible
     // Base method: System.Double IConvertible::ToDouble(System.IFormatProvider provider)
     double System_IConvertible_ToDouble(System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
-    // Offset: 0xDE02E4
+    // Offset: 0xDF2D28
     // Implemented from: System.IConvertible
     // Base method: System.Decimal IConvertible::ToDecimal(System.IFormatProvider provider)
     System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
-    // Offset: 0xDE035C
+    // Offset: 0xDF2DA0
     // Implemented from: System.IConvertible
     // Base method: System.DateTime IConvertible::ToDateTime(System.IFormatProvider provider)
     System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type type, System.IFormatProvider provider)
-    // Offset: 0xDE03D4
+    // Offset: 0xDF2E18
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::CsObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
     // private System.Collections.Generic.IEnumerator`1<System.Char> System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator()
-    // Offset: 0xDE0454
+    // Offset: 0xDF2E98
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<::Il2CppChar>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xDE04B8
+    // Offset: 0xDF2EFC
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.String
   // static public System.Boolean op_Equality(System.String a, System.String b)
-  // Offset: 0xDD20CC
+  // Offset: 0xDE4B10
   bool operator ==(::CsString* a, ::CsString& b);
   // static public System.Boolean op_Inequality(System.String a, System.String b)
-  // Offset: 0xDC5560
+  // Offset: 0xDD7FA4
   bool operator !=(::CsString* a, ::CsString& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::String*, "System", "String");
 #pragma pack(pop)

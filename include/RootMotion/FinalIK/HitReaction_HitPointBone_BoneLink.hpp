@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.HitReaction/HitPointBone
 #include "RootMotion/FinalIK/HitReaction_HitPointBone.hpp"
 // Including type: UnityEngine.Quaternion
@@ -42,18 +40,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x2C
     UnityEngine::Quaternion current;
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x13641A4
+    // Offset: 0x1376BE8
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x1363F2C
+    // Offset: 0x1376970
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x1364314
+    // Offset: 0x1376D58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HitReaction::HitPointBone::BoneLink* New_ctor();
   }; // RootMotion.FinalIK.HitReaction/HitPointBone/BoneLink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*, "RootMotion.FinalIK", "HitReaction/HitPointBone/BoneLink");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.InjectContext
 #include "Zenject/InjectContext.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -35,48 +33,48 @@ namespace Zenject {
     // Offset: 0x30
     System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* $$7__wrap1;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xF25C7C
+    // Offset: 0xF366C0
     static InjectContext::$get_ParentContexts$d__52* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xF2690C
+    // Offset: 0xF37350
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xF268F0
+    // Offset: 0xF37334
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xF269CC
+    // Offset: 0xF37410
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private Zenject.InjectContext System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current()
-    // Offset: 0xF26CB4
+    // Offset: 0xF376F8
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     Zenject::InjectContext* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xF26CBC
+    // Offset: 0xF37700
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xF26D1C
+    // Offset: 0xF37760
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator()
-    // Offset: 0xF26D24
+    // Offset: 0xF37768
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xF26DD8
+    // Offset: 0xF3781C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Zenject.InjectContext/<get_ParentContexts>d__52
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext::$get_ParentContexts$d__52*, "Zenject", "InjectContext/<get_ParentContexts>d__52");
 #pragma pack(pop)

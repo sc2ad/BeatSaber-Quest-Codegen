@@ -63,49 +63,49 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::ColorScheme* colorScheme;
     // public System.Void add_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0xB6289C
+    // Offset: 0xB6089C
     void add_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0xB62940
+    // Offset: 0xB60940
     void remove_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xB629E4
+    // Offset: 0xB609E4
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xB629FC
+    // Offset: 0xB609FC
     void set_color(UnityEngine::Color value);
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0xB62A14
+    // Offset: 0xB60A14
     void SetColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Awake()
-    // Offset: 0xB62B14
+    // Offset: 0xB60B14
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB62D4C
+    // Offset: 0xB60D4C
     void OnDestroy();
     // private System.Void HandleToggleWasSelected(ColorSchemeColorToggleController toggleController, System.Boolean isOn)
-    // Offset: 0xB62D68
+    // Offset: 0xB60D68
     void HandleToggleWasSelected(GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
     // public ColorScheme CreateColorSchemeFromEditedColors()
-    // Offset: 0xB62E04
+    // Offset: 0xB60E04
     GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
     // private System.Void <Awake>b__15_0(System.Boolean isOn)
-    // Offset: 0xB62F68
+    // Offset: 0xB60F68
     void $Awake$b__15_0(bool isOn);
     // private System.Void <Awake>b__15_1(System.Boolean isOn)
-    // Offset: 0xB62F78
+    // Offset: 0xB60F78
     void $Awake$b__15_1(bool isOn);
     // private System.Void <Awake>b__15_2(System.Boolean isOn)
-    // Offset: 0xB62F88
+    // Offset: 0xB60F88
     void $Awake$b__15_2(bool isOn);
     // private System.Void <Awake>b__15_3(System.Boolean isOn)
-    // Offset: 0xB62F98
+    // Offset: 0xB60F98
     void $Awake$b__15_3(bool isOn);
     // private System.Void <Awake>b__15_4(System.Boolean isOn)
-    // Offset: 0xB62FA8
+    // Offset: 0xB60FA8
     void $Awake$b__15_4(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0xB62F60
+    // Offset: 0xB60F60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -115,6 +115,6 @@ namespace GlobalNamespace {
     static ColorSchemeColorsToggleGroup* New_ctor();
   }; // ColorSchemeColorsToggleGroup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorsToggleGroup*, "", "ColorSchemeColorsToggleGroup");
 #pragma pack(pop)

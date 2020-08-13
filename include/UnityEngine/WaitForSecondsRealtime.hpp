@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.CustomYieldInstruction
 #include "UnityEngine/CustomYieldInstruction.hpp"
 // Completed includes
@@ -19,21 +20,21 @@ namespace UnityEngine {
     // Offset: 0x14
     float m_WaitUntilTime;
     // public System.Single get_waitTime()
-    // Offset: 0x138419C
+    // Offset: 0x1396BE0
     float get_waitTime();
     // public System.Void set_waitTime(System.Single value)
-    // Offset: 0x13841A4
+    // Offset: 0x1396BE8
     void set_waitTime(float value);
     // public System.Void .ctor(System.Single time)
-    // Offset: 0x138423C
+    // Offset: 0x1396C80
     static WaitForSecondsRealtime* New_ctor(float time);
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x13841AC
+    // Offset: 0x1396BF0
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();
   }; // UnityEngine.WaitForSecondsRealtime
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSecondsRealtime*, "UnityEngine", "WaitForSecondsRealtime");
 #pragma pack(pop)

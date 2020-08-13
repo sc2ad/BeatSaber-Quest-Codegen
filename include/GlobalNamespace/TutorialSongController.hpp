@@ -128,69 +128,69 @@ namespace GlobalNamespace {
     // Offset: 0xD0
     ::Array<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>* specialModeTutorialObjectsSpawnData;
     // public System.Boolean get_specialTutorialMode()
-    // Offset: 0xC35A48
+    // Offset: 0xC4748C
     bool get_specialTutorialMode();
     // public System.Void set_specialTutorialMode(System.Boolean value)
-    // Offset: 0xC35A50
+    // Offset: 0xC47494
     void set_specialTutorialMode(bool value);
     // protected System.Void Awake()
-    // Offset: 0xC35A5C
+    // Offset: 0xC474A0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xC362AC
+    // Offset: 0xC47CF0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC363E8
+    // Offset: 0xC47E2C
     void OnDestroy();
     // private System.Collections.IEnumerator StartSongCoroutine()
-    // Offset: 0xC3680C
+    // Offset: 0xC48250
     System::Collections::IEnumerator* StartSongCoroutine();
     // private System.Void HandleNoteWasCutEvent(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC36938
+    // Offset: 0xC4837C
     void HandleNoteWasCutEvent(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void HandleNoteWasMissed(INoteController noteController)
-    // Offset: 0xC36AD0
+    // Offset: 0xC48514
     void HandleNoteWasMissed(GlobalNamespace::INoteController* noteController);
     // private System.Void HandleObstacleDidPassThreeQuartersOfMove2(ObstacleController obstacleController)
-    // Offset: 0xC36CB8
+    // Offset: 0xC486FC
     void HandleObstacleDidPassThreeQuartersOfMove2(GlobalNamespace::ObstacleController* obstacleController);
     // protected System.Void UpdateBeatmapData(System.Single noteTime)
-    // Offset: 0xC36564
+    // Offset: 0xC47FA8
     void UpdateBeatmapData(float noteTime);
     // private System.Single GetNextBeatmapObjectTime(System.Int32 beatOffset)
-    // Offset: 0xC36CCC
+    // Offset: 0xC48710
     float GetNextBeatmapObjectTime(int beatOffset);
     // private BeatmapLineData[] CreateBeatmapLinesData(System.Single time, TutorialSongController/TutorialObstacleSpawnData tutorialObstacleSpawnData)
-    // Offset: 0xC36E80
+    // Offset: 0xC488C4
     ::Array<GlobalNamespace::BeatmapLineData*>* CreateBeatmapLinesData(float time, GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData* tutorialObstacleSpawnData);
     // private BeatmapLineData[] CreateBeatmapLinesData(System.Single time, TutorialSongController/TutorialNoteSpawnData tutorialNoteSpawnData)
-    // Offset: 0xC36D24
+    // Offset: 0xC48768
     ::Array<GlobalNamespace::BeatmapLineData*>* CreateBeatmapLinesData(float time, GlobalNamespace::TutorialSongController::TutorialNoteSpawnData* tutorialNoteSpawnData);
     // private BeatmapLineData[] CreateBeatmapLines(System.Int32 lineCount, System.Int32 activeLineIndex)
-    // Offset: 0xC36FDC
+    // Offset: 0xC48A20
     ::Array<GlobalNamespace::BeatmapLineData*>* CreateBeatmapLines(int lineCount, int activeLineIndex);
     // public override System.Void StartSong()
-    // Offset: 0xC36514
+    // Offset: 0xC47F58
     // Implemented from: SongController
     // Base method: System.Void SongController::StartSong()
     void StartSong();
     // public override System.Void StopSong()
-    // Offset: 0xC368B4
+    // Offset: 0xC482F8
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0xC368E8
+    // Offset: 0xC4832C
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0xC3691C
+    // Offset: 0xC48360
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0xC3712C
+    // Offset: 0xC48B70
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -201,6 +201,6 @@ namespace GlobalNamespace {
     static TutorialSongController* New_ctor();
   }; // TutorialSongController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController*, "", "TutorialSongController");
 #pragma pack(pop)

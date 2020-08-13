@@ -30,7 +30,7 @@ namespace TMPro {
     // Offset: 0x28
     int materialHashCode;
     // public System.Void .ctor()
-    // Offset: 0xB69678
+    // Offset: 0xB67678
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -38,6 +38,6 @@ namespace TMPro {
     static TMP_Asset* New_ctor();
   }; // TMPro.TMP_Asset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Asset*, "TMPro", "TMP_Asset");
 #pragma pack(pop)

@@ -30,6 +30,6 @@ namespace System::Reflection {
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.ICustomAttributeProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ICustomAttributeProvider*, "System.Reflection", "ICustomAttributeProvider");
 #pragma pack(pop)

@@ -48,40 +48,40 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.TextReader Null
     static void _set_Null(System::IO::TextReader* value);
     // public System.Void Close()
-    // Offset: 0xFF71B8
+    // Offset: 0x1006BFC
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xFF414C
+    // Offset: 0x1003B90
     void Dispose(bool disposing);
     // public System.Int32 Peek()
-    // Offset: 0xFF72B0
+    // Offset: 0x1006CF4
     int Peek();
     // public System.Int32 Read()
-    // Offset: 0xFF72B8
+    // Offset: 0x1006CFC
     int Read();
     // public System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF72C0
+    // Offset: 0x1006D04
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public System.String ReadToEnd()
-    // Offset: 0xFF74C4
+    // Offset: 0x1006F08
     ::CsString* ReadToEnd();
     // public System.String ReadLine()
-    // Offset: 0xFF75BC
+    // Offset: 0x1007000
     ::CsString* ReadLine();
     // static public System.IO.TextReader Synchronized(System.IO.TextReader reader)
-    // Offset: 0xFF76C0
+    // Offset: 0x1007104
     static System::IO::TextReader* Synchronized(System::IO::TextReader* reader);
     // static private System.Void .cctor()
-    // Offset: 0xFF77F4
+    // Offset: 0x1007238
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0xFF3840
+    // Offset: 0x1003284
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextReader* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0xFF7234
+    // Offset: 0x1006C78
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -90,6 +90,6 @@ namespace System::IO {
     void System_IDisposable_Dispose();
   }; // System.IO.TextReader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader*, "System.IO", "TextReader");
 #pragma pack(pop)

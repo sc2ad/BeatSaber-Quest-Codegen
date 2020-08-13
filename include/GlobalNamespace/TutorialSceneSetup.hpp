@@ -40,12 +40,12 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xC35484
+    // Offset: 0xC46EC8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xC358E8
+    // Offset: 0xC4732C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -57,6 +57,6 @@ namespace GlobalNamespace {
     static TutorialSceneSetup* New_ctor();
   }; // TutorialSceneSetup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSceneSetup*, "", "TutorialSceneSetup");
 #pragma pack(pop)

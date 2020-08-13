@@ -4,8 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.PlayerLoop.FixedUpdate
 #include "UnityEngine/PlayerLoop/FixedUpdate.hpp"
 // Completed includes
@@ -17,6 +15,6 @@ namespace UnityEngine::PlayerLoop {
     ClearLines() {}
   }; // UnityEngine.PlayerLoop.FixedUpdate/ClearLines
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::FixedUpdate::ClearLines, "UnityEngine.PlayerLoop", "FixedUpdate/ClearLines");
 #pragma pack(pop)

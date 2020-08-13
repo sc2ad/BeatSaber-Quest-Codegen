@@ -24,6 +24,6 @@ namespace UnityEngine {
     RenderBuffer(int m_RenderTextureInstanceID_ = {}, System::IntPtr m_BufferPtr_ = {}) : m_RenderTextureInstanceID{m_RenderTextureInstanceID_}, m_BufferPtr{m_BufferPtr_} {}
   }; // UnityEngine.RenderBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderBuffer, "UnityEngine", "RenderBuffer");
 #pragma pack(pop)

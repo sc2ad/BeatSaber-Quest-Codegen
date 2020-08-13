@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.UInt32
 #include "System/UInt32.hpp"
 // Including type: System.Single
@@ -37,22 +35,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single RescaleFactor
     static void _set_RescaleFactor(float value);
     // static public System.Void Save(System.String filepath, UnityEngine.AudioClip clip, System.Single start, System.Single duration)
-    // Offset: 0xC14DDC
+    // Offset: 0xC26820
     static void Save(::CsString* filepath, UnityEngine::AudioClip* clip, float start, float duration);
     // static public System.Byte[] GetWav(UnityEngine.AudioClip clip, System.UInt32 length, System.Single start, System.Single duration)
-    // Offset: 0xC1509C
+    // Offset: 0xC26AE0
     static ::Array<uint8_t>* GetWav(UnityEngine::AudioClip* clip, uint& length, float start, float duration);
     // static private System.Byte[] ConvertAndWrite(UnityEngine.AudioClip clip, System.UInt32 length, System.UInt32 samplesAfterTrimming, System.Single start, System.Single duration)
-    // Offset: 0xC150E8
+    // Offset: 0xC26B2C
     static ::Array<uint8_t>* ConvertAndWrite(UnityEngine::AudioClip* clip, uint& length, uint& samplesAfterTrimming, float start, float duration);
     // static private System.Void AddDataToBuffer(System.Byte[] buffer, System.UInt32 offset, System.Byte[] addBytes)
-    // Offset: 0xC1559C
+    // Offset: 0xC26FE0
     static void AddDataToBuffer(::Array<uint8_t>* buffer, uint& offset, ::Array<uint8_t>* addBytes);
     // static private System.Void WriteHeader(System.Byte[] stream, UnityEngine.AudioClip clip, System.UInt32 length, System.UInt32 samples)
-    // Offset: 0xC1530C
+    // Offset: 0xC26D50
     static void WriteHeader(::Array<uint8_t>* stream, UnityEngine::AudioClip* clip, uint length, uint samples);
   }; // SavWav
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SavWav*, "", "SavWav");
 #pragma pack(pop)

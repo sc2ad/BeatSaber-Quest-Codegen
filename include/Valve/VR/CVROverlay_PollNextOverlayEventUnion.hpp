@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Valve.VR.CVROverlay
 #include "Valve/VR/CVROverlay.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: Valve.VR.IVROverlay
 #include "Valve/VR/IVROverlay.hpp"
 // Completed includes
@@ -26,6 +27,6 @@ namespace Valve::VR {
     PollNextOverlayEventUnion(Valve::VR::IVROverlay::_PollNextOverlayEvent* pPollNextOverlayEvent_ = {}, Valve::VR::CVROverlay::_PollNextOverlayEventPacked* pPollNextOverlayEventPacked_ = {}) : pPollNextOverlayEvent{pPollNextOverlayEvent_}, pPollNextOverlayEventPacked{pPollNextOverlayEventPacked_} {}
   }; // Valve.VR.CVROverlay/PollNextOverlayEventUnion
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay::PollNextOverlayEventUnion, "Valve.VR", "CVROverlay/PollNextOverlayEventUnion");
 #pragma pack(pop)

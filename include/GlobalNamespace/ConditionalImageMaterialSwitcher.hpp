@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::UI::Image* image;
     // public System.Void Awake()
-    // Offset: 0xBCC6F0
+    // Offset: 0xBDF134
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xBCC778
+    // Offset: 0xBDF1BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -56,6 +56,6 @@ namespace GlobalNamespace {
     static ConditionalImageMaterialSwitcher* New_ctor();
   }; // ConditionalImageMaterialSwitcher
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalImageMaterialSwitcher*, "", "ConditionalImageMaterialSwitcher");
 #pragma pack(pop)

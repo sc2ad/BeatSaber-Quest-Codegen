@@ -41,24 +41,24 @@ namespace RootMotion::FinalIK {
     // Offset: 0x6C
     bool initiated;
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x13955CC
+    // Offset: 0x13A7010
     static ConstraintRotationOffset* New_ctor(UnityEngine::Transform* transform);
     // private System.Boolean get_rotationChanged()
-    // Offset: 0x13954F4
+    // Offset: 0x13A6F38
     bool get_rotationChanged();
     // public override System.Void UpdateConstraint()
-    // Offset: 0x1395354
+    // Offset: 0x13A6D98
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::UpdateConstraint()
     void UpdateConstraint();
     // public System.Void .ctor()
-    // Offset: 0x13955C4
+    // Offset: 0x13A7008
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::.ctor()
     // Base method: System.Void Object::.ctor()
     static ConstraintRotationOffset* New_ctor();
   }; // RootMotion.FinalIK.ConstraintRotationOffset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintRotationOffset*, "RootMotion.FinalIK", "ConstraintRotationOffset");
 #pragma pack(pop)

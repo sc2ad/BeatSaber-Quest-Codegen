@@ -19,16 +19,16 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     UnityEngine::ProBuilder::EntityType m_EntityType;
     // public UnityEngine.ProBuilder.EntityType get_entityType()
-    // Offset: 0xF7C27C
+    // Offset: 0xF8DCC0
     UnityEngine::ProBuilder::EntityType get_entityType();
     // public System.Void Awake()
-    // Offset: 0xF7C284
+    // Offset: 0xF8DCC8
     void Awake();
     // public System.Void SetEntity(UnityEngine.ProBuilder.EntityType t)
-    // Offset: 0xF7C344
+    // Offset: 0xF8DD88
     void SetEntity(UnityEngine::ProBuilder::EntityType t);
     // public System.Void .ctor()
-    // Offset: 0xF7C34C
+    // Offset: 0xF8DD90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -38,6 +38,6 @@ namespace UnityEngine::ProBuilder {
     static Entity* New_ctor();
   }; // UnityEngine.ProBuilder.Entity
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Entity*, "UnityEngine.ProBuilder", "Entity");
 #pragma pack(pop)

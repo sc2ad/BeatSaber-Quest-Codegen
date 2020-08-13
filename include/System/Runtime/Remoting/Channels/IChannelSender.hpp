@@ -28,6 +28,6 @@ namespace System::Runtime::Remoting::Channels {
     System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::CsString* url, ::CsObject* remoteChannelData, ::CsString*& objectURI);
   }; // System.Runtime.Remoting.Channels.IChannelSender
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelSender*, "System.Runtime.Remoting.Channels", "IChannelSender");
 #pragma pack(pop)

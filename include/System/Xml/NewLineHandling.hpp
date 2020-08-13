@@ -38,6 +38,6 @@ namespace System::Xml {
     NewLineHandling(int value_ = {}) : value{value_} {}
   }; // System.Xml.NewLineHandling
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::NewLineHandling, "System.Xml", "NewLineHandling");
 #pragma pack(pop)

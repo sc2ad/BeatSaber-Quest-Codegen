@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRPose
 #include "GlobalNamespace/OVRPose.hpp"
 // Including type: OVRManager
@@ -50,7 +48,7 @@ namespace GlobalNamespace {
     // Offset: 0x24
     GlobalNamespace::OVRPose lastAttachedNodePose;
     // protected System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera)
-    // Offset: 0xCB49C8
+    // Offset: 0xCC840C
     static OVRComposition* New_ctor(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera);
     // public OVRManager/CompositionMethod CompositionMethod()
     // Offset: 0xFFFFFFFF
@@ -62,19 +60,19 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Cleanup();
     // public System.Void RecenterPose()
-    // Offset: 0xCB4BC0
+    // Offset: 0xCC8604
     void RecenterPose();
     // public System.Void RefreshCameraRig(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera)
-    // Offset: 0xCB4A08
+    // Offset: 0xCC844C
     void RefreshCameraRig(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera);
     // public OVRPose ComputeCameraWorldSpacePose(OVRPlugin/CameraExtrinsics extrinsics, OVRPlugin/Posef calibrationRawPose)
-    // Offset: 0xCB4BC4
+    // Offset: 0xCC8608
     GlobalNamespace::OVRPose ComputeCameraWorldSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics, GlobalNamespace::OVRPlugin::Posef calibrationRawPose);
     // public OVRPose ComputeCameraTrackingSpacePose(OVRPlugin/CameraExtrinsics extrinsics, OVRPlugin/Posef calibrationRawPose)
-    // Offset: 0xCB4C2C
+    // Offset: 0xCC8670
     GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics, GlobalNamespace::OVRPlugin::Posef calibrationRawPose);
   }; // OVRComposition
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRComposition*, "", "OVRComposition");
 #pragma pack(pop)

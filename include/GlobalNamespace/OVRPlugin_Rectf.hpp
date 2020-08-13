@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin/Vector2f
 #include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
 // Including type: OVRPlugin/Sizef
@@ -28,6 +29,6 @@ namespace GlobalNamespace {
     Rectf(GlobalNamespace::OVRPlugin::Vector2f Pos_ = {}, GlobalNamespace::OVRPlugin::Sizef Size_ = {}) : Pos{Pos_}, Size{Size_} {}
   }; // OVRPlugin/Rectf
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Rectf, "", "OVRPlugin/Rectf");
 #pragma pack(pop)

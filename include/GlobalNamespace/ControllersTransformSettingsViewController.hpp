@@ -68,23 +68,23 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xBCD17C
+    // Offset: 0xBDFBC0
     void HandlePositionSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleRotationSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xBCD258
+    // Offset: 0xBDFC9C
     void HandleRotationSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBCC9E0
+    // Offset: 0xBDF424
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void OnDestroy()
-    // Offset: 0xBCCE50
+    // Offset: 0xBDF894
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xBCD328
+    // Offset: 0xBDFD6C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -95,6 +95,6 @@ namespace GlobalNamespace {
     static ControllersTransformSettingsViewController* New_ctor();
   }; // ControllersTransformSettingsViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ControllersTransformSettingsViewController*, "", "ControllersTransformSettingsViewController");
 #pragma pack(pop)

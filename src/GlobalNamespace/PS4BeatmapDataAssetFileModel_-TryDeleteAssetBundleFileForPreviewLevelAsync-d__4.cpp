@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PS4BeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForPreviewLevelAsync>d__4
 #include "GlobalNamespace/PS4BeatmapDataAssetFileModel_-TryDeleteAssetBundleFileForPreviewLevelAsync-d__4.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

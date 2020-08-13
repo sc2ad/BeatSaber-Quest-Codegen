@@ -47,40 +47,40 @@ namespace System::Threading {
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache
     static void _set_s_ContextCache(System::Runtime::CompilerServices::ConditionalWeakTable_2<::CsObject*, System::Threading::OSSpecificSynchronizationContext*>* value);
     // private System.Void .ctor(System.Object osContext)
-    // Offset: 0x13C6440
+    // Offset: 0x13D6E84
     static OSSpecificSynchronizationContext* New_ctor(::CsObject* osContext);
     // static public System.Threading.OSSpecificSynchronizationContext Get()
-    // Offset: 0x13C6474
+    // Offset: 0x13D6EB8
     static System::Threading::OSSpecificSynchronizationContext* Get();
     // static private System.Void InvocationEntry(System.IntPtr arg)
-    // Offset: 0x13C62E4
+    // Offset: 0x13D6D28
     static void InvocationEntry(System::IntPtr arg);
     // static private System.Object GetOSContext()
-    // Offset: 0x13C65D0
+    // Offset: 0x13D7014
     static ::CsObject* GetOSContext();
     // static private System.Void PostInternal(System.Object osSynchronizationContext, System.IntPtr callback, System.IntPtr arg)
-    // Offset: 0x13C6848
+    // Offset: 0x13D728C
     static void PostInternal(::CsObject* osSynchronizationContext, System::IntPtr callback, System::IntPtr arg);
     // static private System.Void .cctor()
-    // Offset: 0x13C6870
+    // Offset: 0x13D72B4
     static void _cctor();
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x13C65D4
+    // Offset: 0x13D7018
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     System::Threading::SynchronizationContext* CreateCopy();
     // public override System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x13C6648
+    // Offset: 0x13D708C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback d, System.Object state)
     void Send(System::Threading::SendOrPostCallback* d, ::CsObject* state);
     // public override System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x13C66A8
+    // Offset: 0x13D70EC
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback d, System.Object state)
     void Post(System::Threading::SendOrPostCallback* d, ::CsObject* state);
   }; // System.Threading.OSSpecificSynchronizationContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext*, "System.Threading", "OSSpecificSynchronizationContext");
 #pragma pack(pop)

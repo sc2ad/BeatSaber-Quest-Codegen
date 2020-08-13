@@ -38,6 +38,6 @@ namespace Oculus::Platform {
     PermissionType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.PermissionType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PermissionType, "Oculus.Platform", "PermissionType");
 #pragma pack(pop)

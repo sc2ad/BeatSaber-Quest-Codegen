@@ -34,13 +34,13 @@ namespace Valve::VR {
     // Creating value type constructor for type: RenderModel_TextureMap_t_Packed
     RenderModel_TextureMap_t_Packed(::Il2CppChar unWidth_ = {}, ::Il2CppChar unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
     // public System.Void .ctor(Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xA59B40
+    // Offset: 0xA59BBC
     static RenderModel_TextureMap_t_Packed* New_ctor(Valve::VR::RenderModel_TextureMap_t unpacked);
     // public System.Void Unpack(Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xA59B54
+    // Offset: 0xA59BD0
     void Unpack(Valve::VR::RenderModel_TextureMap_t& unpacked);
   }; // Valve.VR.RenderModel_TextureMap_t_Packed
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t_Packed, "Valve.VR", "RenderModel_TextureMap_t_Packed");
 #pragma pack(pop)

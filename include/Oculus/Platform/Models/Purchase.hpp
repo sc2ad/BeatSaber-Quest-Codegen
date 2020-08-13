@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Completed includes
@@ -35,10 +33,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0x28
     ::CsString* Sku;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE90F90
+    // Offset: 0xEA39D4
     static Purchase* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Purchase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Purchase*, "Oculus.Platform.Models", "Purchase");
 #pragma pack(pop)

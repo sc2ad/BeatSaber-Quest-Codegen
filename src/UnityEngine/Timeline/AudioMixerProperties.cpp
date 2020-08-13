@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.AudioMixerProperties
 #include "UnityEngine/Timeline/AudioMixerProperties.hpp"
 // Including type: UnityEngine.Playables.Playable

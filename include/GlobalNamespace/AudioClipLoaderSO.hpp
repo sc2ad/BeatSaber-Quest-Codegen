@@ -40,18 +40,18 @@ namespace GlobalNamespace {
     // Offset: 0x18
     bool isLoading;
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x196E5D8
+    // Offset: 0xB868D4
     void LoadAudioFile(::CsString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Collections.IEnumerator LoadAudioFileCoroutine(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x196E698
+    // Offset: 0xB86994
     System::Collections::IEnumerator* LoadAudioFileCoroutine(::CsString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // protected override System.Void OnEnable()
-    // Offset: 0x196E5B0
+    // Offset: 0xB868AC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x196E770
+    // Offset: 0xB86A6C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -60,6 +60,6 @@ namespace GlobalNamespace {
     static AudioClipLoaderSO* New_ctor();
   }; // AudioClipLoaderSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipLoaderSO*, "", "AudioClipLoaderSO");
 #pragma pack(pop)

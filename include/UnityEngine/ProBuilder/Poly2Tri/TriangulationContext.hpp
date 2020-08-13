@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.TriangulationMode
 #include "UnityEngine/ProBuilder/Poly2Tri/TriangulationMode.hpp"
 // Completed includes
@@ -63,54 +61,54 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x3C
     bool IsDebugEnabled;
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext get_DebugContext()
-    // Offset: 0x1918B78
+    // Offset: 0x19295BC
     UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* get_DebugContext();
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
-    // Offset: 0x1918B80
+    // Offset: 0x19295C4
     UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
     // protected System.Void set_TriangulationMode(UnityEngine.ProBuilder.Poly2Tri.TriangulationMode value)
-    // Offset: 0x1918B88
+    // Offset: 0x19295CC
     void set_TriangulationMode(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
     // public UnityEngine.ProBuilder.Poly2Tri.Triangulatable get_Triangulatable()
-    // Offset: 0x1918B90
+    // Offset: 0x19295D4
     UnityEngine::ProBuilder::Poly2Tri::Triangulatable* get_Triangulatable();
     // private System.Void set_Triangulatable(UnityEngine.ProBuilder.Poly2Tri.Triangulatable value)
-    // Offset: 0x1918B98
+    // Offset: 0x19295DC
     void set_Triangulatable(UnityEngine::ProBuilder::Poly2Tri::Triangulatable* value);
     // public System.Int32 get_StepCount()
-    // Offset: 0x1918BA0
+    // Offset: 0x19295E4
     int get_StepCount();
     // private System.Void set_StepCount(System.Int32 value)
-    // Offset: 0x1918BA8
+    // Offset: 0x19295EC
     void set_StepCount(int value);
     // public System.Void Done()
-    // Offset: 0x1912D50
+    // Offset: 0x1923794
     void Done();
     // public System.Void PrepareTriangulation(UnityEngine.ProBuilder.Poly2Tri.Triangulatable t)
-    // Offset: 0x1917160
+    // Offset: 0x1927BA4
     void PrepareTriangulation(UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint NewConstraint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b)
     // Offset: 0xFFFFFFFF
     UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
     // public System.Void Update(System.String message)
-    // Offset: 0x1913150
+    // Offset: 0x1923B94
     void Update(::CsString* message);
     // public System.Void Clear()
-    // Offset: 0x1916EAC
+    // Offset: 0x19278F0
     void Clear();
     // public System.Boolean get_IsDebugEnabled()
-    // Offset: 0x1918BB0
+    // Offset: 0x19295F4
     bool get_IsDebugEnabled();
     // public UnityEngine.ProBuilder.Poly2Tri.DTSweepDebugContext get_DTDebugContext()
-    // Offset: 0x1912E94
+    // Offset: 0x19238D8
     UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* get_DTDebugContext();
     // protected System.Void .ctor()
-    // Offset: 0x1916C64
+    // Offset: 0x19276A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TriangulationContext* New_ctor();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationContext");
 #pragma pack(pop)

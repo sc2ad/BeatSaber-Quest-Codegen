@@ -65,24 +65,24 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: RaycastResult
     RaycastResult(UnityEngine::GameObject* m_GameObject_ = {}, UnityEngine::EventSystems::BaseRaycaster* module_ = {}, float distance_ = {}, float index_ = {}, int depth_ = {}, int sortingLayer_ = {}, int sortingOrder_ = {}, UnityEngine::Vector3 worldPosition_ = {}, UnityEngine::Vector3 worldNormal_ = {}, UnityEngine::Vector2 screenPosition_ = {}, int displayIndex_ = {}) : m_GameObject{m_GameObject_}, module{module_}, distance{distance_}, index{index_}, depth{depth_}, sortingLayer{sortingLayer_}, sortingOrder{sortingOrder_}, worldPosition{worldPosition_}, worldNormal{worldNormal_}, screenPosition{screenPosition_}, displayIndex{displayIndex_} {}
     // public UnityEngine.GameObject get_gameObject()
-    // Offset: 0xA2DF88
+    // Offset: 0xA2E004
     UnityEngine::GameObject* get_gameObject();
     // public System.Void set_gameObject(UnityEngine.GameObject value)
-    // Offset: 0xA2DF90
+    // Offset: 0xA2E00C
     void set_gameObject(UnityEngine::GameObject* value);
     // public System.Boolean get_isValid()
-    // Offset: 0xA2DF98
+    // Offset: 0xA2E014
     bool get_isValid();
     // public System.Void Clear()
-    // Offset: 0xA2DFA0
+    // Offset: 0xA2E01C
     void Clear();
     // public override System.String ToString()
-    // Offset: 0xA2DFA8
+    // Offset: 0xA2E024
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // UnityEngine.EventSystems.RaycastResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");
 #pragma pack(pop)

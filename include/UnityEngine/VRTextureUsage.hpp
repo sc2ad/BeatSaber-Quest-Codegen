@@ -44,6 +44,6 @@ namespace UnityEngine {
     VRTextureUsage(int value_ = {}) : value{value_} {}
   }; // UnityEngine.VRTextureUsage
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::VRTextureUsage, "UnityEngine", "VRTextureUsage");
 #pragma pack(pop)

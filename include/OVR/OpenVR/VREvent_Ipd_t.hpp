@@ -19,6 +19,6 @@ namespace OVR::OpenVR {
     VREvent_Ipd_t(float ipdMeters_ = {}) : ipdMeters{ipdMeters_} {}
   }; // OVR.OpenVR.VREvent_Ipd_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Ipd_t, "OVR.OpenVR", "VREvent_Ipd_t");
 #pragma pack(pop)

@@ -48,38 +48,38 @@ namespace GlobalNamespace {
     // Offset: 0x88
     bool shouldReloadData;
     // public System.Void set_sizeToFit(System.Boolean value)
-    // Offset: 0xB93EC4
+    // Offset: 0xBA5908
     void set_sizeToFit(bool value);
     // public System.Boolean get_sizeToFit()
-    // Offset: 0xB93EE4
+    // Offset: 0xBA5928
     bool get_sizeToFit();
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0xB93F00
+    // Offset: 0xBA5944
     int get_selectedCellNumber();
     // public System.Void Setup(TabBarViewController/TabBarItem[] items)
-    // Offset: 0xB824BC
+    // Offset: 0xB93F00
     void Setup(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items);
     // public System.Void SelectItem(System.Int32 index)
-    // Offset: 0xB93F1C
+    // Offset: 0xBA5960
     void SelectItem(int index);
     // public System.Void Clear()
-    // Offset: 0xB82808
+    // Offset: 0xB9424C
     void Clear();
     // private System.Void HandleDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0xB940EC
+    // Offset: 0xBA5B30
     void HandleDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB93F38
+    // Offset: 0xBA597C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void OnDestroy()
-    // Offset: 0xB94008
+    // Offset: 0xBA5A4C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xB94140
+    // Offset: 0xBA5B84
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -90,6 +90,6 @@ namespace GlobalNamespace {
     static TabBarViewController* New_ctor();
   }; // TabBarViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController*, "", "TabBarViewController");
 #pragma pack(pop)

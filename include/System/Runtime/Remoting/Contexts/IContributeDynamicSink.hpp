@@ -22,6 +22,6 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Contexts::IDynamicMessageSink* GetDynamicSink();
   }; // System.Runtime.Remoting.Contexts.IContributeDynamicSink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeDynamicSink*, "System.Runtime.Remoting.Contexts", "IContributeDynamicSink");
 #pragma pack(pop)

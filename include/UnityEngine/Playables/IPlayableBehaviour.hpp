@@ -48,6 +48,6 @@ namespace UnityEngine::Playables {
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::CsObject* playerData);
   }; // UnityEngine.Playables.IPlayableBehaviour
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayableBehaviour*, "UnityEngine.Playables", "IPlayableBehaviour");
 #pragma pack(pop)

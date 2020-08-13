@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // public MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData()
-    // Offset: 0xBD10A4
+    // Offset: 0xBE3AE8
     GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();
     // public System.Void TransitionToNextScene(System.Boolean goStraightToMenu)
-    // Offset: 0xBD10AC
+    // Offset: 0xBE3AF0
     void TransitionToNextScene(bool goStraightToMenu);
     // public System.Void .ctor()
-    // Offset: 0xBD119C
+    // Offset: 0xBE3BE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static DefaultScenesTransitionsFromInit* New_ctor();
   }; // DefaultScenesTransitionsFromInit
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit*, "", "DefaultScenesTransitionsFromInit");
 #pragma pack(pop)

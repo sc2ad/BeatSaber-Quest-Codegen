@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // protected System.Void OnEnable()
-    // Offset: 0xBBCA60
+    // Offset: 0xBCF4A4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xBBCB48
+    // Offset: 0xBCF58C
     void OnDisable();
     // private System.Void HandlePS4HelperDidGoToBackgroundExecution()
-    // Offset: 0xBBCC40
+    // Offset: 0xBCF684
     void HandlePS4HelperDidGoToBackgroundExecution();
     // public System.Void .ctor()
-    // Offset: 0xBBCCA8
+    // Offset: 0xBCF6EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -53,6 +53,6 @@ namespace GlobalNamespace {
     static PS4OnGoingToBackgroundSaveHandler* New_ctor();
   }; // PS4OnGoingToBackgroundSaveHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4OnGoingToBackgroundSaveHandler*, "", "PS4OnGoingToBackgroundSaveHandler");
 #pragma pack(pop)

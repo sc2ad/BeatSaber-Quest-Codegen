@@ -35,6 +35,6 @@ namespace NUnit::Framework::Interfaces {
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>* BuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
   }; // NUnit.Framework.Interfaces.ITestBuilder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestBuilder*, "NUnit.Framework.Interfaces", "ITestBuilder");
 #pragma pack(pop)

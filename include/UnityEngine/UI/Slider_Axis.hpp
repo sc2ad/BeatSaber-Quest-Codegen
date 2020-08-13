@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.UI.Slider
 #include "UnityEngine/UI/Slider.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
@@ -34,6 +34,6 @@ namespace UnityEngine::UI {
     Axis(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UI.Slider/Axis
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::Axis, "UnityEngine.UI", "Slider/Axis");
 #pragma pack(pop)

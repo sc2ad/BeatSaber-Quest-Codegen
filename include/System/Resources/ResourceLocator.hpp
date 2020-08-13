@@ -31,22 +31,22 @@ namespace System::Resources {
     // Creating value type constructor for type: ResourceLocator
     ResourceLocator(::CsObject* value_ = {}, int dataPos_ = {}) : value{value_}, dataPos{dataPos_} {}
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
-    // Offset: 0xA3E590
+    // Offset: 0xA3E60C
     static ResourceLocator* New_ctor(int dataPos, ::CsObject* value);
     // System.Int32 get_DataPosition()
-    // Offset: 0xA3E5A0
+    // Offset: 0xA3E61C
     int get_DataPosition();
     // System.Object get_Value()
-    // Offset: 0xA3E5A8
+    // Offset: 0xA3E624
     ::CsObject* get_Value();
     // System.Void set_Value(System.Object value)
-    // Offset: 0xA3E5B0
+    // Offset: 0xA3E62C
     void set_Value(::CsObject* value);
     // static System.Boolean CanCache(System.Resources.ResourceTypeCode value)
-    // Offset: 0x11463D4
+    // Offset: 0x1157E18
     static bool CanCache(System::Resources::ResourceTypeCode value);
   }; // System.Resources.ResourceLocator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");
 #pragma pack(pop)

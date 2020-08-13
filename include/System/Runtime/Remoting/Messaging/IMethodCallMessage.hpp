@@ -13,6 +13,6 @@ namespace System::Runtime::Remoting::Messaging {
   class IMethodCallMessage : public System::Runtime::Remoting::Messaging::IMethodMessage, public System::Runtime::Remoting::Messaging::IMessage {
   }; // System.Runtime.Remoting.Messaging.IMethodCallMessage
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMethodCallMessage*, "System.Runtime.Remoting.Messaging", "IMethodCallMessage");
 #pragma pack(pop)

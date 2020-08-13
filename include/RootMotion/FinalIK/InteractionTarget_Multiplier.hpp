@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.InteractionTarget
 #include "RootMotion/FinalIK/InteractionTarget.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject/WeightCurve/Type
@@ -24,12 +22,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0x14
     float multiplier;
     // public System.Void .ctor()
-    // Offset: 0x1217AF0
+    // Offset: 0x1229534
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionTarget::Multiplier* New_ctor();
   }; // RootMotion.FinalIK.InteractionTarget/Multiplier
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTarget::Multiplier*, "RootMotion.FinalIK", "InteractionTarget/Multiplier");
 #pragma pack(pop)

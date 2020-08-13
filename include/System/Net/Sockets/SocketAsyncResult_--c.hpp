@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Net.Sockets.SocketAsyncResult
 #include "System/Net/Sockets/SocketAsyncResult.hpp"
 // Completed includes
@@ -31,18 +29,18 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Threading.WaitCallback <>9__27_0
     static void _set_$$9__27_0(System::Threading::WaitCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x12000A0
+    // Offset: 0x1212AE4
     static void _cctor();
     // System.Void <Complete>b__27_0(System.Object state)
-    // Offset: 0x1200110
+    // Offset: 0x1212B54
     void $Complete$b__27_0(::CsObject* state);
     // public System.Void .ctor()
-    // Offset: 0x1200108
+    // Offset: 0x1212B4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SocketAsyncResult::$$c* New_ctor();
   }; // System.Net.Sockets.SocketAsyncResult/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult::$$c*, "System.Net.Sockets", "SocketAsyncResult/<>c");
 #pragma pack(pop)

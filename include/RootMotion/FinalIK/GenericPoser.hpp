@@ -29,33 +29,33 @@ namespace RootMotion::FinalIK {
     // Offset: 0x50
     ::Array<RootMotion::FinalIK::GenericPoser::Map*>* maps;
     // private System.Void StoreDefaultState()
-    // Offset: 0x135876C
+    // Offset: 0x136B1B0
     void StoreDefaultState();
     // private UnityEngine.Transform GetTargetNamed(System.String tName, UnityEngine.Transform[] array)
-    // Offset: 0x1358674
+    // Offset: 0x136B0B8
     UnityEngine::Transform* GetTargetNamed(::CsString* tName, ::Array<UnityEngine::Transform*>* array);
     // public override System.Void AutoMapping()
-    // Offset: 0x1358420
+    // Offset: 0x136AE64
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x13587D4
+    // Offset: 0x136B218
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x13587D8
+    // Offset: 0x136B21C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1358A80
+    // Offset: 0x136B4C4
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1358B84
+    // Offset: 0x136B5C8
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -67,6 +67,6 @@ namespace RootMotion::FinalIK {
     static GenericPoser* New_ctor();
   }; // RootMotion.FinalIK.GenericPoser
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser*, "RootMotion.FinalIK", "GenericPoser");
 #pragma pack(pop)

@@ -19,16 +19,16 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     JetBrains::Annotations::CollectionAccessType CollectionAccessType;
     // public System.Void .ctor(JetBrains.Annotations.CollectionAccessType collectionAccessType)
-    // Offset: 0x19452C0
+    // Offset: 0x1957D04
     static CollectionAccessAttribute* New_ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType);
     // public JetBrains.Annotations.CollectionAccessType get_CollectionAccessType()
-    // Offset: 0x19452EC
+    // Offset: 0x1957D30
     JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
     // private System.Void set_CollectionAccessType(JetBrains.Annotations.CollectionAccessType value)
-    // Offset: 0x19452F4
+    // Offset: 0x1957D38
     void set_CollectionAccessType(JetBrains::Annotations::CollectionAccessType value);
   }; // JetBrains.Annotations.CollectionAccessAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetBrains.Annotations", "CollectionAccessAttribute");
 #pragma pack(pop)

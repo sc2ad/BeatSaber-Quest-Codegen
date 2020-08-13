@@ -38,16 +38,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     HMUI::ImageView* image;
     // public System.Void SetStartSprite()
-    // Offset: 0xB906D4
+    // Offset: 0xBA2118
     void SetStartSprite();
     // public System.Void SetMiddleSprite()
-    // Offset: 0xB906F8
+    // Offset: 0xBA213C
     void SetMiddleSprite();
     // public System.Void SetEndSprite()
-    // Offset: 0xB9071C
+    // Offset: 0xBA2160
     void SetEndSprite();
     // public System.Void .ctor()
-    // Offset: 0xB90740
+    // Offset: 0xBA2184
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,6 +57,6 @@ namespace GlobalNamespace {
     static StartMiddleEndButtonBackgroundController* New_ctor();
   }; // StartMiddleEndButtonBackgroundController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonBackgroundController*, "", "StartMiddleEndButtonBackgroundController");
 #pragma pack(pop)

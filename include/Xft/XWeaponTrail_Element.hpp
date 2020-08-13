@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Xft.XWeaponTrail
 #include "Xft/XWeaponTrail.hpp"
 // Completed includes
@@ -22,18 +20,18 @@ namespace Xft {
     // Offset: 0x1C
     UnityEngine::Vector3 pointEnd;
     // public UnityEngine.Vector3 get_pos()
-    // Offset: 0xC444AC
+    // Offset: 0xC55EF0
     UnityEngine::Vector3 get_pos();
     // public System.Void .ctor(UnityEngine.Vector3 start, UnityEngine.Vector3 end)
-    // Offset: 0xC43988
+    // Offset: 0xC553CC
     static XWeaponTrail::Element* New_ctor(UnityEngine::Vector3 start, UnityEngine::Vector3 end);
     // public System.Void .ctor()
-    // Offset: 0xC44784
+    // Offset: 0xC561C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static XWeaponTrail::Element* New_ctor();
   }; // Xft.XWeaponTrail/Element
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Xft::XWeaponTrail::Element*, "Xft", "XWeaponTrail/Element");
 #pragma pack(pop)

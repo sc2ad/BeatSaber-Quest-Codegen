@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.BezierPoint
 #include "UnityEngine/ProBuilder/BezierPoint.hpp"
 // Completed includes
@@ -41,25 +39,25 @@ namespace UnityEngine::ProBuilder {
   class Spline : public ::CsObject {
     public:
     // static UnityEngine.ProBuilder.ProBuilderMesh Extrude(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint> points, System.Single radius, System.Int32 columns, System.Int32 rows, System.Boolean closeLoop, System.Boolean smooth)
-    // Offset: 0x18B60DC
+    // Offset: 0x18C6B20
     static UnityEngine::ProBuilder::ProBuilderMesh* Extrude(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>* points, float radius, int columns, int rows, bool closeLoop, bool smooth);
     // static System.Void Extrude(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint> bezierPoints, System.Single radius, System.Int32 columns, System.Int32 rows, System.Boolean closeLoop, System.Boolean smooth, UnityEngine.ProBuilder.ProBuilderMesh target)
-    // Offset: 0x18B610C
+    // Offset: 0x18C6B50
     static void Extrude(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>* bezierPoints, float radius, int columns, int rows, bool closeLoop, bool smooth, UnityEngine::ProBuilder::ProBuilderMesh*& target);
     // static System.Collections.Generic.List`1<UnityEngine.Vector3> GetControlPoints(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.BezierPoint> bezierPoints, System.Int32 subdivisionsPerSegment, System.Boolean closeLoop, System.Collections.Generic.List`1<UnityEngine.Quaternion> rotations)
-    // Offset: 0x18B61D8
+    // Offset: 0x18C6C1C
     static System::Collections::Generic::List_1<UnityEngine::Vector3>* GetControlPoints(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>* bezierPoints, int subdivisionsPerSegment, bool closeLoop, System::Collections::Generic::List_1<UnityEngine::Quaternion>* rotations);
     // static System.Void Extrude(System.Collections.Generic.IList`1<UnityEngine.Vector3> points, System.Single radius, System.Int32 radiusRows, System.Boolean closeLoop, System.Boolean smooth, UnityEngine.ProBuilder.ProBuilderMesh target, System.Collections.Generic.IList`1<UnityEngine.Quaternion> pointRotations)
-    // Offset: 0x18B666C
+    // Offset: 0x18C70B0
     static void Extrude(System::Collections::Generic::IList_1<UnityEngine::Vector3>* points, float radius, int radiusRows, bool closeLoop, bool smooth, UnityEngine::ProBuilder::ProBuilderMesh*& target, System::Collections::Generic::IList_1<UnityEngine::Quaternion>* pointRotations);
     // static private UnityEngine.Quaternion GetRingRotation(System.Collections.Generic.IList`1<UnityEngine.Vector3> points, System.Int32 i, System.Boolean closeLoop, System.Single secant)
-    // Offset: 0x18B6F68
+    // Offset: 0x18C79AC
     static UnityEngine::Quaternion GetRingRotation(System::Collections::Generic::IList_1<UnityEngine::Vector3>* points, int i, bool closeLoop, float& secant);
     // static private UnityEngine.Vector3[] VertexRing(UnityEngine.Quaternion orientation, UnityEngine.Vector3 offset, System.Single radius, System.Int32 segments)
-    // Offset: 0x18B76A0
+    // Offset: 0x18C80E4
     static ::Array<UnityEngine::Vector3>* VertexRing(UnityEngine::Quaternion orientation, UnityEngine::Vector3 offset, float radius, int segments);
   }; // UnityEngine.ProBuilder.Spline
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Spline*, "UnityEngine.ProBuilder", "Spline");
 #pragma pack(pop)

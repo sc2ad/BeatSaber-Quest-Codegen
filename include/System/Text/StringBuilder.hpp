@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Int32
@@ -87,190 +85,190 @@ namespace System::Text {
     // Set static field: static System.Int32 MaxChunkSize
     static void _set_MaxChunkSize(int value);
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x12D5D20
+    // Offset: 0x12E7764
     static StringBuilder* New_ctor(int capacity);
     // public System.Void .ctor(System.String value)
-    // Offset: 0x12E3844
+    // Offset: 0x12F5288
     static StringBuilder* New_ctor(::CsString* value);
     // public System.Void .ctor(System.String value, System.Int32 capacity)
-    // Offset: 0x12E3818
+    // Offset: 0x12F525C
     static StringBuilder* New_ctor(::CsString* value, int capacity);
     // public System.Void .ctor(System.String value, System.Int32 startIndex, System.Int32 length, System.Int32 capacity)
-    // Offset: 0x12E384C
+    // Offset: 0x12F5290
     static StringBuilder* New_ctor(::CsString* value, int startIndex, int length, int capacity);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12E3BC4
+    // Offset: 0x12F5608
     static StringBuilder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Int32 get_Capacity()
-    // Offset: 0x12E3F98
+    // Offset: 0x12F59DC
     int get_Capacity();
     // public System.Void set_Capacity(System.Int32 value)
-    // Offset: 0x12E3FBC
+    // Offset: 0x12F5A00
     void set_Capacity(int value);
     // public System.Int32 get_MaxCapacity()
-    // Offset: 0x12E4108
+    // Offset: 0x12F5B4C
     int get_MaxCapacity();
     // public System.String ToString(System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x12E425C
+    // Offset: 0x12F5CA0
     ::CsString* ToString(int startIndex, int length);
     // public System.Text.StringBuilder Clear()
-    // Offset: 0x12E449C
+    // Offset: 0x12F5EE0
     System::Text::StringBuilder* Clear();
     // public System.Int32 get_Length()
-    // Offset: 0x12D01F0
+    // Offset: 0x12E1C34
     int get_Length();
     // public System.Void set_Length(System.Int32 value)
-    // Offset: 0x12D025C
+    // Offset: 0x12E1CA0
     void set_Length(int value);
     // public System.Char get_Chars(System.Int32 index)
-    // Offset: 0x12D041C
+    // Offset: 0x12E1E60
     ::Il2CppChar get_Chars(int index);
     // public System.Void set_Chars(System.Int32 index, System.Char value)
-    // Offset: 0x12E2718
+    // Offset: 0x12F415C
     void set_Chars(int index, ::Il2CppChar value);
     // public System.Text.StringBuilder Append(System.Char value, System.Int32 repeatCount)
-    // Offset: 0x12E44C4
+    // Offset: 0x12F5F08
     System::Text::StringBuilder* Append(::Il2CppChar value, int repeatCount);
     // public System.Text.StringBuilder Append(System.Char[] value, System.Int32 startIndex, System.Int32 charCount)
-    // Offset: 0x12E47C8
+    // Offset: 0x12F620C
     System::Text::StringBuilder* Append(::Array<::Il2CppChar>* value, int startIndex, int charCount);
     // public System.Text.StringBuilder Append(System.String value)
-    // Offset: 0x12D5D88
+    // Offset: 0x12E77CC
     System::Text::StringBuilder* Append(::CsString* value);
     // private System.Void AppendHelper(System.String value)
-    // Offset: 0x12E4AAC
+    // Offset: 0x12F64F0
     void AppendHelper(::CsString* value);
     // public System.Text.StringBuilder Append(System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x12E2D70
+    // Offset: 0x12F47B4
     System::Text::StringBuilder* Append(::CsString* value, int startIndex, int count);
     // public System.Text.StringBuilder AppendLine()
-    // Offset: 0x12E4AE8
+    // Offset: 0x12F652C
     System::Text::StringBuilder* AppendLine();
     // public System.Text.StringBuilder AppendLine(System.String value)
-    // Offset: 0x12E4B14
+    // Offset: 0x12F6558
     System::Text::StringBuilder* AppendLine(::CsString* value);
     // public System.Text.StringBuilder Insert(System.Int32 index, System.String value, System.Int32 count)
-    // Offset: 0x12E4B44
+    // Offset: 0x12F6588
     System::Text::StringBuilder* Insert(int index, ::CsString* value, int count);
     // public System.Text.StringBuilder Remove(System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x12E2814
+    // Offset: 0x12F4258
     System::Text::StringBuilder* Remove(int startIndex, int length);
     // public System.Text.StringBuilder Append(System.Byte value)
-    // Offset: 0x12E52A4
+    // Offset: 0x12F6CE8
     System::Text::StringBuilder* Append(uint8_t value);
     // public System.Text.StringBuilder Append(System.Char value)
-    // Offset: 0x12D01FC
+    // Offset: 0x12E1C40
     System::Text::StringBuilder* Append(::Il2CppChar value);
     // public System.Text.StringBuilder Append(System.Int32 value)
-    // Offset: 0x12E5334
+    // Offset: 0x12F6D78
     System::Text::StringBuilder* Append(int value);
     // public System.Text.StringBuilder Append(System.Int64 value)
-    // Offset: 0x12E53C4
+    // Offset: 0x12F6E08
     System::Text::StringBuilder* Append(int64_t value);
     // public System.Text.StringBuilder Append(System.Double value)
-    // Offset: 0x12E5454
+    // Offset: 0x12F6E98
     System::Text::StringBuilder* Append(double value);
     // public System.Text.StringBuilder Append(System.Object value)
-    // Offset: 0x12E54E4
+    // Offset: 0x12F6F28
     System::Text::StringBuilder* Append(::CsObject* value);
     // public System.Text.StringBuilder Insert(System.Int32 index, System.String value)
-    // Offset: 0x12E5530
+    // Offset: 0x12F6F74
     System::Text::StringBuilder* Insert(int index, ::CsString* value);
     // public System.Text.StringBuilder Insert(System.Int32 index, System.Char value)
-    // Offset: 0x12E5724
+    // Offset: 0x12F7168
     System::Text::StringBuilder* Insert(int index, ::Il2CppChar value);
     // public System.Text.StringBuilder AppendFormat(System.String format, System.Object arg0)
-    // Offset: 0x12E5754
+    // Offset: 0x12F7198
     System::Text::StringBuilder* AppendFormat(::CsString* format, ::CsObject* arg0);
     // public System.Text.StringBuilder AppendFormat(System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0x12E5F98
+    // Offset: 0x12F79DC
     System::Text::StringBuilder* AppendFormat(::CsString* format, ::CsObject* arg0, ::CsObject* arg1);
     // public System.Text.StringBuilder AppendFormat(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0x12E5FF8
+    // Offset: 0x12F7A3C
     System::Text::StringBuilder* AppendFormat(::CsString* format, ::CsObject* arg0, ::CsObject* arg1, ::CsObject* arg2);
     // public System.Text.StringBuilder AppendFormat(System.String format, System.Object[] args)
-    // Offset: 0x12E605C
+    // Offset: 0x12F7AA0
     System::Text::StringBuilder* AppendFormat(::CsString* format, ::Array<::CsObject*>* args);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object arg0)
-    // Offset: 0x12E613C
+    // Offset: 0x12F7B80
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::CsString* format, ::CsObject* arg0);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0x12E61A4
+    // Offset: 0x12F7BE8
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::CsString* format, ::CsObject* arg0, ::CsObject* arg1);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object[] args)
-    // Offset: 0x12E6210
+    // Offset: 0x12F7C54
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::CsString* format, ::Array<::CsObject*>* args);
     // static private System.Void FormatError()
-    // Offset: 0x12E62FC
+    // Offset: 0x12F7D40
     static void FormatError();
     // System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider provider, System.String format, System.ParamsArray args)
-    // Offset: 0x12E57B0
+    // Offset: 0x12F71F4
     System::Text::StringBuilder* AppendFormatHelper(System::IFormatProvider* provider, ::CsString* format, System::ParamsArray args);
     // public System.Text.StringBuilder Replace(System.String oldValue, System.String newValue)
-    // Offset: 0x12E637C
+    // Offset: 0x12F7DC0
     System::Text::StringBuilder* Replace(::CsString* oldValue, ::CsString* newValue);
     // public System.Text.StringBuilder Replace(System.String oldValue, System.String newValue, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x12E638C
+    // Offset: 0x12F7DD0
     System::Text::StringBuilder* Replace(::CsString* oldValue, ::CsString* newValue, int startIndex, int count);
     // public System.Text.StringBuilder Append(System.Char* value, System.Int32 valueCount)
-    // Offset: 0x12E4974
+    // Offset: 0x12F63B8
     System::Text::StringBuilder* Append(::Il2CppChar* value, int valueCount);
     // private System.Void Insert(System.Int32 index, System.Char* value, System.Int32 valueCount)
-    // Offset: 0x12E5610
+    // Offset: 0x12F7054
     void Insert(int index, ::Il2CppChar* value, int valueCount);
     // private System.Void ReplaceAllInChunk(System.Int32[] replacements, System.Int32 replacementsCount, System.Text.StringBuilder sourceChunk, System.Int32 removeCount, System.String value)
-    // Offset: 0x12E67B0
+    // Offset: 0x12F81F4
     void ReplaceAllInChunk(::Array<int>* replacements, int replacementsCount, System::Text::StringBuilder* sourceChunk, int removeCount, ::CsString* value);
     // private System.Boolean StartsWith(System.Text.StringBuilder chunk, System.Int32 indexInChunk, System.Int32 count, System.String value)
-    // Offset: 0x12E66C8
+    // Offset: 0x12F810C
     bool StartsWith(System::Text::StringBuilder* chunk, int indexInChunk, int count, ::CsString* value);
     // private System.Void ReplaceInPlaceAtChunk(System.Text.StringBuilder chunk, System.Int32 indexInChunk, System.Char* value, System.Int32 count)
-    // Offset: 0x12E5018
+    // Offset: 0x12F6A5C
     void ReplaceInPlaceAtChunk(System::Text::StringBuilder*& chunk, int& indexInChunk, ::Il2CppChar* value, int count);
     // static private System.Void ThreadSafeCopy(System.Char* sourcePtr, System.Char[] destination, System.Int32 destinationIndex, System.Int32 count)
-    // Offset: 0x12E3AA8
+    // Offset: 0x12F54EC
     static void ThreadSafeCopy(::Il2CppChar* sourcePtr, ::Array<::Il2CppChar>* destination, int destinationIndex, int count);
     // static private System.Void ThreadSafeCopy(System.Char[] source, System.Int32 sourceIndex, System.Char[] destination, System.Int32 destinationIndex, System.Int32 count)
-    // Offset: 0x12E69C0
+    // Offset: 0x12F8404
     static void ThreadSafeCopy(::Array<::Il2CppChar>* source, int sourceIndex, ::Array<::Il2CppChar>* destination, int destinationIndex, int count);
     // private System.Text.StringBuilder FindChunkForIndex(System.Int32 index)
-    // Offset: 0x12E45EC
+    // Offset: 0x12F6030
     System::Text::StringBuilder* FindChunkForIndex(int index);
     // private System.Text.StringBuilder Next(System.Text.StringBuilder chunk)
-    // Offset: 0x12E697C
+    // Offset: 0x12F83C0
     System::Text::StringBuilder* Next(System::Text::StringBuilder* chunk);
     // private System.Void ExpandByABlock(System.Int32 minBlockCharCount)
-    // Offset: 0x12E4614
+    // Offset: 0x12F6058
     void ExpandByABlock(int minBlockCharCount);
     // private System.Void .ctor(System.Text.StringBuilder from)
-    // Offset: 0x12E6AE0
+    // Offset: 0x12F8524
     static StringBuilder* New_ctor(System::Text::StringBuilder* from);
     // private System.Void MakeRoom(System.Int32 index, System.Int32 count, System.Text.StringBuilder chunk, System.Int32 indexInChunk, System.Boolean doneMoveFollowingChars)
-    // Offset: 0x12E4D04
+    // Offset: 0x12F6748
     void MakeRoom(int index, int count, System::Text::StringBuilder*& chunk, int& indexInChunk, bool doneMoveFollowingChars);
     // private System.Void .ctor(System.Int32 size, System.Int32 maxCapacity, System.Text.StringBuilder previousBlock)
-    // Offset: 0x12E6B48
+    // Offset: 0x12F858C
     static StringBuilder* New_ctor(int size, int maxCapacity, System::Text::StringBuilder* previousBlock);
     // private System.Void Remove(System.Int32 startIndex, System.Int32 count, System.Text.StringBuilder chunk, System.Int32 indexInChunk)
-    // Offset: 0x12E513C
+    // Offset: 0x12F6B80
     void Remove(int startIndex, int count, System::Text::StringBuilder*& chunk, int& indexInChunk);
     // public System.Void .ctor()
-    // Offset: 0x12D01E8
+    // Offset: 0x12E1C2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StringBuilder* New_ctor();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12E3E7C
+    // Offset: 0x12F58C0
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x12E4110
+    // Offset: 0x12F5B54
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.Text.StringBuilder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilder*, "System.Text", "StringBuilder");
 #pragma pack(pop)

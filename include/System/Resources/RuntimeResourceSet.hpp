@@ -61,59 +61,59 @@ namespace System::Resources {
     // Offset: 0x40
     bool haveReadFromReader;
     // System.Void .ctor(System.String fileName)
-    // Offset: 0x1143804
+    // Offset: 0x1155248
     static RuntimeResourceSet* New_ctor(::CsString* fileName);
     // System.Void .ctor(System.IO.Stream stream)
-    // Offset: 0x1145530
+    // Offset: 0x1156F74
     static RuntimeResourceSet* New_ctor(System::IO::Stream* stream);
     // private System.Object GetObject(System.String key, System.Boolean ignoreCase, System.Boolean isString)
-    // Offset: 0x114D6D8
+    // Offset: 0x115F11C
     ::CsObject* GetObject(::CsString* key, bool ignoreCase, bool isString);
     // private System.Object ResolveResourceLocator(System.Resources.ResourceLocator resLocation, System.String key, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> copyOfCache, System.Boolean keyInWrongCase)
-    // Offset: 0x114E0E0
+    // Offset: 0x115FB24
     ::CsObject* ResolveResourceLocator(System::Resources::ResourceLocator resLocation, ::CsString* key, System::Collections::Generic::Dictionary_2<::CsString*, System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x114D3FC
+    // Offset: 0x115EE40
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Void ResourceSet::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x114D53C
+    // Offset: 0x115EF80
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Collections.IDictionaryEnumerator ResourceSet::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x114D654
+    // Offset: 0x115F098
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // private System.Collections.IDictionaryEnumerator GetEnumeratorHelper()
-    // Offset: 0x114D540
+    // Offset: 0x115EF84
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Collections.IDictionaryEnumerator ResourceSet::GetEnumeratorHelper()
     System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
     // public override System.String GetString(System.String key)
-    // Offset: 0x114D658
+    // Offset: 0x115F09C
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key)
     ::CsString* GetString(::CsString* key);
     // public override System.String GetString(System.String key, System.Boolean ignoreCase)
-    // Offset: 0x114E044
+    // Offset: 0x115FA88
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key, System.Boolean ignoreCase)
     ::CsString* GetString(::CsString* key, bool ignoreCase);
     // public override System.Object GetObject(System.String key)
-    // Offset: 0x114E0C8
+    // Offset: 0x115FB0C
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key)
     ::CsObject* GetObject(::CsString* key);
     // public override System.Object GetObject(System.String key, System.Boolean ignoreCase)
-    // Offset: 0x114E0D4
+    // Offset: 0x115FB18
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key, System.Boolean ignoreCase)
     ::CsObject* GetObject(::CsString* key, bool ignoreCase);
   }; // System.Resources.RuntimeResourceSet
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::RuntimeResourceSet*, "System.Resources", "RuntimeResourceSet");
 #pragma pack(pop)

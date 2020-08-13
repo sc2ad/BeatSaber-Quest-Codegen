@@ -45,22 +45,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams;
     // protected System.Void Awake()
-    // Offset: 0xBED36C
+    // Offset: 0xBFEDB0
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xBED37C
+    // Offset: 0xBFEDC0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xBED450
+    // Offset: 0xBFEE94
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0xBED524
+    // Offset: 0xBFEF68
     void HandleButtonClickEvent();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0xBED558
+    // Offset: 0xBFEF9C
     void SpawnShockwave(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0xBED608
+    // Offset: 0xBFF04C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,6 +70,6 @@ namespace GlobalNamespace {
     static MenuShockwave* New_ctor();
   }; // MenuShockwave
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuShockwave*, "", "MenuShockwave");
 #pragma pack(pop)

@@ -20,6 +20,6 @@ namespace System::Runtime::Remoting {
     ::Array<::CsObject*>* get_ChannelData();
   }; // System.Runtime.Remoting.IChannelInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IChannelInfo*, "System.Runtime.Remoting", "IChannelInfo");
 #pragma pack(pop)

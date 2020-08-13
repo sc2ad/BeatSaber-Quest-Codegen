@@ -82,22 +82,22 @@ namespace GlobalNamespace {
     // Offset: 0x98
     GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker;
     // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0xBF6F84
+    // Offset: 0xC089C8
     void SetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0xBF7358
+    // Offset: 0xC08D9C
     void HandleMissionObjectiveStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveCheckedValueDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0xBF735C
+    // Offset: 0xC08DA0
     void HandleMissionObjectiveCheckedValueDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void RefreshIcon()
-    // Offset: 0xBF71E8
+    // Offset: 0xC08C2C
     void RefreshIcon();
     // private System.Void RefreshValue()
-    // Offset: 0xBF72FC
+    // Offset: 0xC08D40
     void RefreshValue();
     // public System.Void .ctor()
-    // Offset: 0xBF7360
+    // Offset: 0xC08DA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -107,6 +107,6 @@ namespace GlobalNamespace {
     static MissionObjectiveGameUIView* New_ctor();
   }; // MissionObjectiveGameUIView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveGameUIView*, "", "MissionObjectiveGameUIView");
 #pragma pack(pop)

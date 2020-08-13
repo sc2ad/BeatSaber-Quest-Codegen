@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SceneSetupData
 #include "GlobalNamespace/SceneSetupData.hpp"
 // Completed includes
@@ -41,40 +42,40 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool useTestNoteCutSoundEffects;
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0xB3E280
+    // Offset: 0xB3C280
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0xB3E288
+    // Offset: 0xB3C288
     void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xB3E290
+    // Offset: 0xB3C290
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0xB3E298
+    // Offset: 0xB3C298
     void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0xB3E2A0
+    // Offset: 0xB3C2A0
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // private System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
-    // Offset: 0xB3E2A8
+    // Offset: 0xB3C2A8
     void set_playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0xB3E2B0
+    // Offset: 0xB3C2B0
     GlobalNamespace::PracticeSettings* get_practiceSettings();
     // private System.Void set_practiceSettings(PracticeSettings value)
-    // Offset: 0xB3E2B8
+    // Offset: 0xB3C2B8
     void set_practiceSettings(GlobalNamespace::PracticeSettings* value);
     // public System.Boolean get_useTestNoteCutSoundEffects()
-    // Offset: 0xB3E2C0
+    // Offset: 0xB3C2C0
     bool get_useTestNoteCutSoundEffects();
     // private System.Void set_useTestNoteCutSoundEffects(System.Boolean value)
-    // Offset: 0xB3E2C8
+    // Offset: 0xB3C2C8
     void set_useTestNoteCutSoundEffects(bool value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects)
-    // Offset: 0xB3E2D4
+    // Offset: 0xB3C2D4
     static GameplayCoreSceneSetupData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects);
   }; // GameplayCoreSceneSetupData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayCoreSceneSetupData*, "", "GameplayCoreSceneSetupData");
 #pragma pack(pop)

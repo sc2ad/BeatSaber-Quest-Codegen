@@ -78,34 +78,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBackupFileName
     static void _set_kBackupFileName(::CsString* value);
     // public System.Void Save(PlayerData playerData)
-    // Offset: 0xBC60EC
+    // Offset: 0xBD8B30
     void Save(GlobalNamespace::PlayerData* playerData);
     // public PlayerData Load()
-    // Offset: 0xBC7090
+    // Offset: 0xBD9AD4
     GlobalNamespace::PlayerData* Load();
     // private PlayerData LoadFromJSONString(System.String jsonString)
-    // Offset: 0xBC716C
+    // Offset: 0xBD9BB0
     GlobalNamespace::PlayerData* LoadFromJSONString(::CsString* jsonString);
     // private PlayerData LoadFromCurrentVersion(PlayerSaveData playerSaveData)
-    // Offset: 0xBC79DC
+    // Offset: 0xBDA420
     GlobalNamespace::PlayerData* LoadFromCurrentVersion(GlobalNamespace::PlayerSaveData* playerSaveData);
     // private PlayerData LoadFromVersionV1_0_1(PlayerSaveDataV1_0_1 playerDataModelSaveData)
-    // Offset: 0xBC73A8
+    // Offset: 0xBD9DEC
     GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
     // public PlayerData CreateDefaultPlayerData()
-    // Offset: 0xBC72DC
+    // Offset: 0xBD9D20
     GlobalNamespace::PlayerData* CreateDefaultPlayerData();
     // static public System.String GetLevelIdFromV_1_0_1LevelId(System.String oldLevelId, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xBC889C
+    // Offset: 0xBDB2E0
     static ::CsString* GetLevelIdFromV_1_0_1LevelId(::CsString* oldLevelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // static public BeatmapCharacteristicSO GetBeatmapCharacteristicFromV_1_0_1LevelId(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.String levelId)
-    // Offset: 0xBC8774
+    // Offset: 0xBDB1B8
     static GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::CsString* levelId);
     // private OverrideEnvironmentSettings CreateDefaultOverrideEnvironmentSettings()
-    // Offset: 0xBC8908
+    // Offset: 0xBDB34C
     GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
     // public System.Void .ctor()
-    // Offset: 0xBC89C8
+    // Offset: 0xBDB40C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -114,6 +114,6 @@ namespace GlobalNamespace {
     static PlayerDataFileManagerSO* New_ctor();
   }; // PlayerDataFileManagerSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataFileManagerSO*, "", "PlayerDataFileManagerSO");
 #pragma pack(pop)

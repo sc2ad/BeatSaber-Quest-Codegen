@@ -27,28 +27,28 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: Eyes
     Eyes(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
     // System.UInt64 get_deviceId()
-    // Offset: 0xA5B1B8
+    // Offset: 0xA5B234
     uint64_t get_deviceId();
     // System.UInt32 get_featureIndex()
-    // Offset: 0xA5B1C0
+    // Offset: 0xA5B23C
     uint get_featureIndex();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5B1C8
+    // Offset: 0xA5B244
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.Eyes other)
-    // Offset: 0xA5B1D0
+    // Offset: 0xA5B24C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.Eyes other)
     bool Equals(UnityEngine::XR::Eyes other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5B1F4
+    // Offset: 0xA5B270
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.Eyes
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");
 #pragma pack(pop)

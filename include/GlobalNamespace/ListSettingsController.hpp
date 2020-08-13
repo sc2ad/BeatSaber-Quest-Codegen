@@ -29,28 +29,28 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::CsString* TextForValue(int idx);
     // private System.Void RefreshUI()
-    // Offset: 0xBE5FAC
+    // Offset: 0xBF79F0
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0xBE6018
+    // Offset: 0xBF7A5C
     void Refresh(bool applyValue);
     // protected override System.Void OnEnable()
-    // Offset: 0xBE5F48
+    // Offset: 0xBF798C
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::OnEnable()
     void OnEnable();
     // public override System.Void IncButtonPressed()
-    // Offset: 0xBE6078
+    // Offset: 0xBF7ABC
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::IncButtonPressed()
     void IncButtonPressed();
     // public override System.Void DecButtonPressed()
-    // Offset: 0xBE60C4
+    // Offset: 0xBF7B08
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::DecButtonPressed()
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0xBE6108
+    // Offset: 0xBF7B4C
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -61,6 +61,6 @@ namespace GlobalNamespace {
     static ListSettingsController* New_ctor();
   }; // ListSettingsController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListSettingsController*, "", "ListSettingsController");
 #pragma pack(pop)

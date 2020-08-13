@@ -82,51 +82,51 @@ namespace GlobalNamespace {
     // Offset: 0xF8
     System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::CsString*>* viewControllerTitles;
     // protected System.Void Update()
-    // Offset: 0xB43590
+    // Offset: 0xB41590
     void Update();
     // private System.Void HandleEulaViewControllerdidFinish(System.Boolean agreed)
-    // Offset: 0xB435D0
+    // Offset: 0xB415D0
     void HandleEulaViewControllerdidFinish(bool agreed);
     // private System.Void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed()
-    // Offset: 0xB43644
+    // Offset: 0xB41644
     void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed()
-    // Offset: 0xB43658
+    // Offset: 0xB41658
     void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerdidFinish()
-    // Offset: 0xB435CC
+    // Offset: 0xB415CC
     void HandleHealthWarningViewControllerdidFinish();
     // private System.Void HandleOnlineServicesViewControllerDidFinish(System.Boolean value)
-    // Offset: 0xB43764
+    // Offset: 0xB41764
     void HandleOnlineServicesViewControllerDidFinish(bool value);
     // private System.Void GoToNextScene()
-    // Offset: 0xB43728
+    // Offset: 0xB41728
     void GoToNextScene();
     // private System.Void <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__18_0(System.Int32 button)
-    // Offset: 0xB43884
+    // Offset: 0xB41884
     void $HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__18_0(int button);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xB42C40
+    // Offset: 0xB40C40
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    // Offset: 0xB4313C
+    // Offset: 0xB4113C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
     void DidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
-    // Offset: 0xB434CC
+    // Offset: 0xB414CC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, bool immediately);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xB437D4
+    // Offset: 0xB417D4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0xB4387C
+    // Offset: 0xB4187C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -137,6 +137,6 @@ namespace GlobalNamespace {
     static HealthWarningFlowCoordinator* New_ctor();
   }; // HealthWarningFlowCoordinator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator*, "", "HealthWarningFlowCoordinator");
 #pragma pack(pop)

@@ -40,12 +40,12 @@ namespace HMUI {
     // Offset: 0x160
     HMUI::TimeSlider::TimeType timeType;
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x10D59B8
+    // Offset: 0x10E63FC
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::CsString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x10D5B70
+    // Offset: 0x10E65B4
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -59,7 +59,7 @@ namespace HMUI {
     static TimeSlider* New_ctor();
   }; // HMUI.TimeSlider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider*, "HMUI", "TimeSlider");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider::TimeType, "HMUI", "TimeSlider/TimeType");
 #pragma pack(pop)

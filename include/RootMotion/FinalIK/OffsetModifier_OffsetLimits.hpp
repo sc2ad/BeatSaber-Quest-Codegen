@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.OffsetModifier
 #include "RootMotion/FinalIK/OffsetModifier.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -63,21 +61,21 @@ namespace RootMotion::FinalIK {
     // Offset: 0x30
     float maxZ;
     // public System.Void Apply(RootMotion.FinalIK.IKEffector e, UnityEngine.Quaternion rootRotation)
-    // Offset: 0x121A394
+    // Offset: 0x122BDD8
     void Apply(RootMotion::FinalIK::IKEffector* e, UnityEngine::Quaternion rootRotation);
     // private System.Single SpringAxis(System.Single value, System.Single min, System.Single max)
-    // Offset: 0x121A8F0
+    // Offset: 0x122C334
     float SpringAxis(float value, float min, float max);
     // private System.Single Spring(System.Single value, System.Single limit, System.Boolean negative)
-    // Offset: 0x121A920
+    // Offset: 0x122C364
     float Spring(float value, float limit, bool negative);
     // public System.Void .ctor()
-    // Offset: 0x121A9F8
+    // Offset: 0x122C43C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OffsetModifier::OffsetLimits* New_ctor();
   }; // RootMotion.FinalIK.OffsetModifier/OffsetLimits
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
 #pragma pack(pop)

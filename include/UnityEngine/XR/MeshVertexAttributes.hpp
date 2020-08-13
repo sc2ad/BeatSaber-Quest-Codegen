@@ -50,6 +50,6 @@ namespace UnityEngine::XR {
     MeshVertexAttributes(int value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.MeshVertexAttributes
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshVertexAttributes, "UnityEngine.XR", "MeshVertexAttributes");
 #pragma pack(pop)

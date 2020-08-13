@@ -29,19 +29,19 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect;
     // protected System.Void Awake()
-    // Offset: 0xC1F43C
+    // Offset: 0xC30E80
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC1F514
+    // Offset: 0xC30F58
     void OnDestroy();
     // private System.Void HandleObstacleDidInitEvent(ObstacleController obstacleController)
-    // Offset: 0xC1F630
+    // Offset: 0xC31074
     void HandleObstacleDidInitEvent(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObcstacleDidStartDissolvingEvent(ObstacleController obstacleController, System.Single duration)
-    // Offset: 0xC1F64C
+    // Offset: 0xC31090
     void HandleObcstacleDidStartDissolvingEvent(GlobalNamespace::ObstacleController* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0xC1F674
+    // Offset: 0xC310B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static ObstacleDissolve* New_ctor();
   }; // ObstacleDissolve
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleDissolve*, "", "ObstacleDissolve");
 #pragma pack(pop)

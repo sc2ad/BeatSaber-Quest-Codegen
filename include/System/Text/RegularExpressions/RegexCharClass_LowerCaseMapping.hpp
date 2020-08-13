@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Text.RegularExpressions.RegexCharClass
 #include "System/Text/RegularExpressions/RegexCharClass.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
@@ -30,10 +30,10 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: LowerCaseMapping
     LowerCaseMapping(::Il2CppChar chMin_ = {}, ::Il2CppChar chMax_ = {}, int lcOp_ = {}, int data_ = {}) : chMin{chMin_}, chMax{chMax_}, lcOp{lcOp_}, data{data_} {}
     // System.Void .ctor(System.Char chMin, System.Char chMax, System.Int32 lcOp, System.Int32 data)
-    // Offset: 0xA3FA08
+    // Offset: 0xA3FA84
     static RegexCharClass::LowerCaseMapping* New_ctor(::Il2CppChar chMin, ::Il2CppChar chMax, int lcOp, int data);
   }; // System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping, "System.Text.RegularExpressions", "RegexCharClass/LowerCaseMapping");
 #pragma pack(pop)

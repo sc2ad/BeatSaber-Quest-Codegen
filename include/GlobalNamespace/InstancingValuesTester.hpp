@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     ::Array<GlobalNamespace::InstancingValuesTester::PropertyNameColorValuePair*>* colors;
     // protected System.Void Start()
-    // Offset: 0x181083C
+    // Offset: 0x1821280
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x1810AAC
+    // Offset: 0x18214F0
     void OnValidate();
     // private System.Void ApplyParams()
-    // Offset: 0x1810840
+    // Offset: 0x1821284
     void ApplyParams();
     // public System.Void .ctor()
-    // Offset: 0x1810B98
+    // Offset: 0x18215DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -58,6 +58,6 @@ namespace GlobalNamespace {
     static InstancingValuesTester* New_ctor();
   }; // InstancingValuesTester
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstancingValuesTester*, "", "InstancingValuesTester");
 #pragma pack(pop)

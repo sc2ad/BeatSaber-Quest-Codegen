@@ -90,13 +90,13 @@ namespace GlobalNamespace {
     // Set static field: static private OVRHandTest/BoolMonitor controllers
     static void _set_controllers(GlobalNamespace::OVRHandTest::BoolMonitor* value);
     // private System.Void Start()
-    // Offset: 0xE54490
+    // Offset: 0xE66ED4
     void Start();
     // private System.Void Update()
-    // Offset: 0xE54894
+    // Offset: 0xE672D8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xE554D4
+    // Offset: 0xE67F18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -105,12 +105,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRHandTest* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xE55574
+    // Offset: 0xE67FB8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRHandTest
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest*, "", "OVRHandTest");
 #pragma pack(pop)

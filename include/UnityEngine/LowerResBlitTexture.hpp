@@ -14,10 +14,10 @@ namespace UnityEngine {
   class LowerResBlitTexture : public UnityEngine::Object {
     public:
     // System.Void LowerResBlitTextureDontStripMe()
-    // Offset: 0x12FB690
+    // Offset: 0x130E0D4
     void LowerResBlitTextureDontStripMe();
   }; // UnityEngine.LowerResBlitTexture
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowerResBlitTexture*, "UnityEngine", "LowerResBlitTexture");
 #pragma pack(pop)

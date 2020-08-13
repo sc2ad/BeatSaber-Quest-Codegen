@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: ScreenCaptureAfterDelay
 #include "GlobalNamespace/ScreenCaptureAfterDelay.hpp"
 // Including type: ScreenCaptureCache/ScreenshotType
@@ -30,10 +28,10 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     int pixelsHeight;
     // public System.Void .ctor(ScreenCaptureCache/ScreenshotType screenshotType, System.Single screenCaptureTime, System.Int32 pixelsWidth, System.Int32 pixelsHeight)
-    // Offset: 0x18FB6C0
+    // Offset: 0x190B104
     static ScreenCaptureAfterDelay::InitData* New_ctor(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, float screenCaptureTime, int pixelsWidth, int pixelsHeight);
   }; // ScreenCaptureAfterDelay/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay::InitData*, "", "ScreenCaptureAfterDelay/InitData");
 #pragma pack(pop)

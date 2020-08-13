@@ -47,6 +47,6 @@ namespace OnlineServices::API {
     System::Threading::Tasks::Task_1<::CsString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.IUserLoginDtoDataSource
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::IUserLoginDtoDataSource*, "OnlineServices.API", "IUserLoginDtoDataSource");
 #pragma pack(pop)

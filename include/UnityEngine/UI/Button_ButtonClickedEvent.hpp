@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: UnityEngine.Events.UnityEvent
-#include "UnityEngine/Events/UnityEvent.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Button
 #include "UnityEngine/UI/Button.hpp"
+// Including type: UnityEngine.Events.UnityEvent
+#include "UnityEngine/Events/UnityEvent.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
@@ -15,7 +16,7 @@ namespace UnityEngine::UI {
   class Button::ButtonClickedEvent : public UnityEngine::Events::UnityEvent {
     public:
     // public System.Void .ctor()
-    // Offset: 0xDEEC68
+    // Offset: 0xE016AC
     // Implemented from: UnityEngine.Events.UnityEvent
     // Base method: System.Void UnityEvent::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -23,6 +24,6 @@ namespace UnityEngine::UI {
     static Button::ButtonClickedEvent* New_ctor();
   }; // UnityEngine.UI.Button/ButtonClickedEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button::ButtonClickedEvent*, "UnityEngine.UI", "Button/ButtonClickedEvent");
 #pragma pack(pop)

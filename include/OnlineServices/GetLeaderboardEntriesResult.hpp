@@ -35,13 +35,13 @@ namespace OnlineServices {
     // Creating value type constructor for type: GetLeaderboardEntriesResult
     GetLeaderboardEntriesResult(bool isError_ = {}, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0xA27EB4
+    // Offset: 0xA27F30
     static GetLeaderboardEntriesResult* New_ctor(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex);
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0xC2E7AC
+    // Offset: 0xC401F0
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
   }; // OnlineServices.GetLeaderboardEntriesResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardEntriesResult, "OnlineServices", "GetLeaderboardEntriesResult");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.PermissionGrantStatus
 #include "Oculus/Platform/PermissionGrantStatus.hpp"
 // Completed includes
@@ -29,10 +27,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0x14
     Oculus::Platform::PermissionGrantStatus PermissionGrantStatus;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE92394
+    // Offset: 0xEA4DD8
     static SystemPermission* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.SystemPermission
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SystemPermission*, "Oculus.Platform.Models", "SystemPermission");
 #pragma pack(pop)

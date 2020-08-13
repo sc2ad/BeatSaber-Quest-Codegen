@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: InternetConnectionChecker/<IsConnectedToInternetAsync>d__0
 #include "GlobalNamespace/InternetConnectionChecker_-IsConnectedToInternetAsync-d__0.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

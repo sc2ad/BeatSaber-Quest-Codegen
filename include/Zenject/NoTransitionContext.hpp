@@ -32,13 +32,13 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::NoTransitionInstaller* noScenesTransitionInstaller;
     // public System.Action`1<Zenject.DiContainer> get_installMethod()
-    // Offset: 0xFAC9B0
+    // Offset: 0xFBF3F4
     System::Action_1<Zenject::DiContainer*>* get_installMethod();
     // protected System.Void Awake()
-    // Offset: 0xFACA30
+    // Offset: 0xFBF474
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xFACAB0
+    // Offset: 0xFBF4F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace Zenject {
     static NoTransitionContext* New_ctor();
   }; // Zenject.NoTransitionContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionContext*, "Zenject", "NoTransitionContext");
 #pragma pack(pop)

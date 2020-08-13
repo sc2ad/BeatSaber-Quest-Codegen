@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: LevelFilteringNavigationController
 #include "GlobalNamespace/LevelFilteringNavigationController.hpp"
 // Completed includes
@@ -40,15 +38,15 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections;
     // public IAnnotatedBeatmapLevelCollection get_selectedAnnotatedBeatmapLevelCollections()
-    // Offset: 0xB4C714
+    // Offset: 0xB4A714
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_selectedAnnotatedBeatmapLevelCollections();
     // public System.Void .ctor()
-    // Offset: 0xB4C438
+    // Offset: 0xB4A438
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelFilteringNavigationController::TabBarData* New_ctor();
   }; // LevelFilteringNavigationController/TabBarData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::TabBarData*, "", "LevelFilteringNavigationController/TabBarData");
 #pragma pack(pop)

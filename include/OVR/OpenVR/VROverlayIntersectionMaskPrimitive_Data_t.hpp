@@ -26,6 +26,6 @@ namespace OVR::OpenVR {
     VROverlayIntersectionMaskPrimitive_Data_t(OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle_ = {}, OVR::OpenVR::IntersectionMaskCircle_t m_Circle_ = {}) : m_Rectangle{m_Rectangle_}, m_Circle{m_Circle_} {}
   }; // OVR.OpenVR.VROverlayIntersectionMaskPrimitive_Data_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t, "OVR.OpenVR", "VROverlayIntersectionMaskPrimitive_Data_t");
 #pragma pack(pop)

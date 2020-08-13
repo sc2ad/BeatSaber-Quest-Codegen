@@ -25,10 +25,10 @@ namespace System::IO {
     // Offset: 0x20
     ::CsString* name;
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name)
-    // Offset: 0xF50284
+    // Offset: 0xF61CC8
     static FileSystemEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::CsString* directory, ::CsString* name);
   }; // System.IO.FileSystemEventArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEventArgs*, "System.IO", "FileSystemEventArgs");
 #pragma pack(pop)

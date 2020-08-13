@@ -34,6 +34,6 @@ namespace UnityEngine {
     TouchScreenKeyboard_InternalConstructorHelperArguments(uint keyboardType_ = {}, uint autocorrection_ = {}, uint multiline_ = {}, uint secure_ = {}, uint alert_ = {}, int characterLimit_ = {}) : keyboardType{keyboardType_}, autocorrection{autocorrection_}, multiline{multiline_}, secure{secure_}, alert{alert_}, characterLimit{characterLimit_} {}
   }; // UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments, "UnityEngine", "TouchScreenKeyboard_InternalConstructorHelperArguments");
 #pragma pack(pop)

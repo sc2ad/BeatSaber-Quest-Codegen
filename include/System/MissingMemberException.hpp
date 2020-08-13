@@ -32,10 +32,10 @@ namespace System {
     // Offset: 0x98
     ::Array<uint8_t>* Signature;
     // static System.String FormatSignature(System.Byte[] signature)
-    // Offset: 0x1000A08
+    // Offset: 0x101044C
     static ::CsString* FormatSignature(::Array<uint8_t>* signature);
     // public System.Void .ctor()
-    // Offset: 0x1000A58
+    // Offset: 0x101049C
     // Implemented from: System.MemberAccessException
     // Base method: System.Void MemberAccessException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -43,26 +43,26 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static MissingMemberException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1000598
+    // Offset: 0x100FFDC
     // Implemented from: System.MemberAccessException
     // Base method: System.Void MemberAccessException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static MissingMemberException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1000618
+    // Offset: 0x101005C
     // Implemented from: System.MemberAccessException
     // Base method: System.Void MemberAccessException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static MissingMemberException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String get_Message()
-    // Offset: 0x10008AC
+    // Offset: 0x10102F0
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::CsString* get_Message();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1000AE4
+    // Offset: 0x1010528
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -71,6 +71,6 @@ namespace System {
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.MissingMemberException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMemberException*, "System", "MissingMemberException");
 #pragma pack(pop)

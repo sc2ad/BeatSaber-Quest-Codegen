@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -16,10 +17,10 @@ namespace UnityEngine::TestTools {
     // Offset: 0x10
     bool MustExpect;
     // public System.Boolean get_MustExpect()
-    // Offset: 0xE2D5AC
+    // Offset: 0xE3FFF0
     bool get_MustExpect();
   }; // UnityEngine.TestTools.TestMustExpectAllLogsAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestMustExpectAllLogsAttribute*, "UnityEngine.TestTools", "TestMustExpectAllLogsAttribute");
 #pragma pack(pop)

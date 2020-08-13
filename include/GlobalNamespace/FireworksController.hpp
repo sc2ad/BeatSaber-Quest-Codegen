@@ -40,19 +40,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::FireworkItemController::Pool* fireworkItemPool;
     // protected System.Void OnEnable()
-    // Offset: 0xBD8EFC
+    // Offset: 0xBEB940
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0xBD8F28
+    // Offset: 0xBEB96C
     System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0xBD8FD0
+    // Offset: 0xBEBA14
     void HandleFireworkItemControllerDidFinish(GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0xBD907C
+    // Offset: 0xBEBAC0
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0xBD9100
+    // Offset: 0xBEBB44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -62,6 +62,6 @@ namespace GlobalNamespace {
     static FireworksController* New_ctor();
   }; // FireworksController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworksController*, "", "FireworksController");
 #pragma pack(pop)

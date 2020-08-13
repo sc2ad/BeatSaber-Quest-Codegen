@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xC19448
+    // Offset: 0xC2AE8C
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xC194F0
+    // Offset: 0xC2AF34
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     static ShaderWarmupSceneSetup* New_ctor();
   }; // ShaderWarmupSceneSetup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetup*, "", "ShaderWarmupSceneSetup");
 #pragma pack(pop)

@@ -30,19 +30,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ObjectiveValueFormatterSO* objectiveValueFormater;
     // public System.String get_objectiveName()
-    // Offset: 0xBF73A4
+    // Offset: 0xC08DE8
     ::CsString* get_objectiveName();
     // public System.String get_objectiveNameLocalized()
-    // Offset: 0xBF71DC
+    // Offset: 0xC08C20
     ::CsString* get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
-    // Offset: 0xBF73AC
+    // Offset: 0xC08DF0
     bool get_noConditionValue();
     // public ObjectiveValueFormatterSO get_objectiveValueFormater()
-    // Offset: 0xBF73B4
+    // Offset: 0xC08DF8
     GlobalNamespace::ObjectiveValueFormatterSO* get_objectiveValueFormater();
     // public System.Void .ctor()
-    // Offset: 0xBF73BC
+    // Offset: 0xC08E00
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static MissionObjectiveTypeSO* New_ctor();
   }; // MissionObjectiveTypeSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveTypeSO*, "", "MissionObjectiveTypeSO");
 #pragma pack(pop)

@@ -53,6 +53,6 @@ namespace NUnit::Framework::Internal {
     void IncrementAssertCount();
   }; // NUnit.Framework.Internal.ITestExecutionContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ITestExecutionContext*, "NUnit.Framework.Internal", "ITestExecutionContext");
 #pragma pack(pop)

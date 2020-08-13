@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRSimpleJSON.JSONContainerType
 #include "OVRSimpleJSON/JSONContainerType.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
@@ -101,73 +99,73 @@ namespace OVRSimpleJSON {
     // Offset: 0xFFFFFFFF
     OVRSimpleJSON::JSONNodeType get_Tag();
     // public OVRSimpleJSON.JSONNode get_Item(System.Int32 aIndex)
-    // Offset: 0xF3C51C
+    // Offset: 0xF4CF60
     OVRSimpleJSON::JSONNode* get_Item(int aIndex);
     // public System.Void set_Item(System.Int32 aIndex, OVRSimpleJSON.JSONNode value)
-    // Offset: 0xF3C524
+    // Offset: 0xF4CF68
     void set_Item(int aIndex, OVRSimpleJSON::JSONNode* value);
     // public OVRSimpleJSON.JSONNode get_Item(System.String aKey)
-    // Offset: 0xF3C528
+    // Offset: 0xF4CF6C
     OVRSimpleJSON::JSONNode* get_Item(::CsString* aKey);
     // public System.Void set_Item(System.String aKey, OVRSimpleJSON.JSONNode value)
-    // Offset: 0xF3C530
+    // Offset: 0xF4CF74
     void set_Item(::CsString* aKey, OVRSimpleJSON::JSONNode* value);
     // public System.String get_Value()
-    // Offset: 0xF3C534
+    // Offset: 0xF4CF78
     ::CsString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0xF3C57C
+    // Offset: 0xF4CFC0
     void set_Value(::CsString* value);
     // public System.Int32 get_Count()
-    // Offset: 0xF3C580
+    // Offset: 0xF4CFC4
     int get_Count();
     // public System.Boolean get_IsNumber()
-    // Offset: 0xF3C588
+    // Offset: 0xF4CFCC
     bool get_IsNumber();
     // public System.Boolean get_IsString()
-    // Offset: 0xF3C590
+    // Offset: 0xF4CFD4
     bool get_IsString();
     // public System.Boolean get_IsBoolean()
-    // Offset: 0xF3C598
+    // Offset: 0xF4CFDC
     bool get_IsBoolean();
     // public System.Boolean get_IsNull()
-    // Offset: 0xF3C5A0
+    // Offset: 0xF4CFE4
     bool get_IsNull();
     // public System.Boolean get_IsArray()
-    // Offset: 0xF3C5A8
+    // Offset: 0xF4CFEC
     bool get_IsArray();
     // public System.Boolean get_IsObject()
-    // Offset: 0xF3C5B0
+    // Offset: 0xF4CFF4
     bool get_IsObject();
     // public System.Boolean get_Inline()
-    // Offset: 0xF3C5B8
+    // Offset: 0xF4CFFC
     bool get_Inline();
     // public System.Void set_Inline(System.Boolean value)
-    // Offset: 0xF3C5C0
+    // Offset: 0xF4D004
     void set_Inline(bool value);
     // public System.Void Add(System.String aKey, OVRSimpleJSON.JSONNode aItem)
-    // Offset: 0xF3C5C4
+    // Offset: 0xF4D008
     void Add(::CsString* aKey, OVRSimpleJSON::JSONNode* aItem);
     // public System.Void Add(OVRSimpleJSON.JSONNode aItem)
-    // Offset: 0xF3C5C8
+    // Offset: 0xF4D00C
     void Add(OVRSimpleJSON::JSONNode* aItem);
     // public OVRSimpleJSON.JSONNode Remove(System.String aKey)
-    // Offset: 0xF3C634
+    // Offset: 0xF4D078
     OVRSimpleJSON::JSONNode* Remove(::CsString* aKey);
     // public OVRSimpleJSON.JSONNode Remove(System.Int32 aIndex)
-    // Offset: 0xF3C63C
+    // Offset: 0xF4D080
     OVRSimpleJSON::JSONNode* Remove(int aIndex);
     // public OVRSimpleJSON.JSONNode Remove(OVRSimpleJSON.JSONNode aNode)
-    // Offset: 0xF3C644
+    // Offset: 0xF4D088
     OVRSimpleJSON::JSONNode* Remove(OVRSimpleJSON::JSONNode* aNode);
     // public System.Collections.Generic.IEnumerable`1<OVRSimpleJSON.JSONNode> get_Children()
-    // Offset: 0xF3C64C
+    // Offset: 0xF4D090
     System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>* get_Children();
     // public System.Collections.Generic.IEnumerable`1<OVRSimpleJSON.JSONNode> get_DeepChildren()
-    // Offset: 0xF3C6F4
+    // Offset: 0xF4D138
     System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>* get_DeepChildren();
     // public System.String ToString(System.Int32 aIndent)
-    // Offset: 0xF3C84C
+    // Offset: 0xF4D290
     ::CsString* ToString(int aIndent);
     // System.Void WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
     // Offset: 0xFFFFFFFF
@@ -176,162 +174,162 @@ namespace OVRSimpleJSON {
     // Offset: 0xFFFFFFFF
     OVRSimpleJSON::JSONNode::Enumerator GetEnumerator();
     // public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode>> get_Linq()
-    // Offset: 0xF3C8EC
+    // Offset: 0xF4D330
     System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::CsString*, OVRSimpleJSON::JSONNode*>>* get_Linq();
     // public OVRSimpleJSON.JSONNode/KeyEnumerator get_Keys()
-    // Offset: 0xF3CA30
+    // Offset: 0xF4D474
     OVRSimpleJSON::JSONNode::KeyEnumerator get_Keys();
     // public OVRSimpleJSON.JSONNode/ValueEnumerator get_Values()
-    // Offset: 0xF3CA84
+    // Offset: 0xF4D4C8
     OVRSimpleJSON::JSONNode::ValueEnumerator get_Values();
     // public System.Double get_AsDouble()
-    // Offset: 0xF3CAD8
+    // Offset: 0xF4D51C
     double get_AsDouble();
     // public System.Void set_AsDouble(System.Double value)
-    // Offset: 0xF3CBB4
+    // Offset: 0xF4D5F8
     void set_AsDouble(double value);
     // public System.Int32 get_AsInt()
-    // Offset: 0xF3CC4C
+    // Offset: 0xF4D690
     int get_AsInt();
     // public System.Void set_AsInt(System.Int32 value)
-    // Offset: 0xF3CC70
+    // Offset: 0xF4D6B4
     void set_AsInt(int value);
     // public System.Single get_AsFloat()
-    // Offset: 0xF3CC88
+    // Offset: 0xF4D6CC
     float get_AsFloat();
     // public System.Void set_AsFloat(System.Single value)
-    // Offset: 0xF3CCAC
+    // Offset: 0xF4D6F0
     void set_AsFloat(float value);
     // public System.Boolean get_AsBool()
-    // Offset: 0xF3CCC0
+    // Offset: 0xF4D704
     bool get_AsBool();
     // public System.Void set_AsBool(System.Boolean value)
-    // Offset: 0xF3CD88
+    // Offset: 0xF4D7CC
     void set_AsBool(bool value);
     // public System.Int64 get_AsLong()
-    // Offset: 0xF3CE04
+    // Offset: 0xF4D848
     int64_t get_AsLong();
     // public System.Void set_AsLong(System.Int64 value)
-    // Offset: 0xF3CE44
+    // Offset: 0xF4D888
     void set_AsLong(int64_t value);
     // public OVRSimpleJSON.JSONArray get_AsArray()
-    // Offset: 0xF3CE84
+    // Offset: 0xF4D8C8
     OVRSimpleJSON::JSONArray* get_AsArray();
     // public OVRSimpleJSON.JSONObject get_AsObject()
-    // Offset: 0xF3CF04
+    // Offset: 0xF4D948
     OVRSimpleJSON::JSONObject* get_AsObject();
     // static System.Text.StringBuilder get_EscapeBuilder()
-    // Offset: 0xF3D6A8
+    // Offset: 0xF4E0EC
     static System::Text::StringBuilder* get_EscapeBuilder();
     // static System.String Escape(System.String aText)
-    // Offset: 0xF3D780
+    // Offset: 0xF4E1C4
     static ::CsString* Escape(::CsString* aText);
     // static private OVRSimpleJSON.JSONNode ParseElement(System.String token, System.Boolean quoted)
-    // Offset: 0xF3DA20
+    // Offset: 0xF4E464
     static OVRSimpleJSON::JSONNode* ParseElement(::CsString* token, bool quoted);
     // static public OVRSimpleJSON.JSONNode Parse(System.String aJSON)
-    // Offset: 0xF3A054
+    // Offset: 0xF4AA98
     static OVRSimpleJSON::JSONNode* Parse(::CsString* aJSON);
     // static private OVRSimpleJSON.JSONNode GetContainer(OVRSimpleJSON.JSONContainerType aType)
-    // Offset: 0xF3DC24
+    // Offset: 0xF4E668
     static OVRSimpleJSON::JSONNode* GetContainer(OVRSimpleJSON::JSONContainerType aType);
     // public UnityEngine.Vector2 ReadVector2(UnityEngine.Vector2 aDefault)
-    // Offset: 0xF3EFA4
+    // Offset: 0xF4F9E8
     UnityEngine::Vector2 ReadVector2(UnityEngine::Vector2 aDefault);
     // public UnityEngine.Vector2 ReadVector2(System.String aXName, System.String aYName)
-    // Offset: 0xF3F100
+    // Offset: 0xF4FB44
     UnityEngine::Vector2 ReadVector2(::CsString* aXName, ::CsString* aYName);
     // public UnityEngine.Vector2 ReadVector2()
-    // Offset: 0xF3ED08
+    // Offset: 0xF4F74C
     UnityEngine::Vector2 ReadVector2();
     // public OVRSimpleJSON.JSONNode WriteVector2(UnityEngine.Vector2 aVec, System.String aXName, System.String aYName)
-    // Offset: 0xF3DD44
+    // Offset: 0xF4E788
     OVRSimpleJSON::JSONNode* WriteVector2(UnityEngine::Vector2 aVec, ::CsString* aXName, ::CsString* aYName);
     // public UnityEngine.Vector3 ReadVector3(UnityEngine.Vector3 aDefault)
-    // Offset: 0xF3F214
+    // Offset: 0xF4FC58
     UnityEngine::Vector3 ReadVector3(UnityEngine::Vector3 aDefault);
     // public UnityEngine.Vector3 ReadVector3(System.String aXName, System.String aYName, System.String aZName)
-    // Offset: 0xF3F3EC
+    // Offset: 0xF4FE30
     UnityEngine::Vector3 ReadVector3(::CsString* aXName, ::CsString* aYName, ::CsString* aZName);
     // public UnityEngine.Vector3 ReadVector3()
-    // Offset: 0xF3ED88
+    // Offset: 0xF4F7CC
     UnityEngine::Vector3 ReadVector3();
     // public OVRSimpleJSON.JSONNode WriteVector3(UnityEngine.Vector3 aVec, System.String aXName, System.String aYName, System.String aZName)
-    // Offset: 0xF3DF40
+    // Offset: 0xF4E984
     OVRSimpleJSON::JSONNode* WriteVector3(UnityEngine::Vector3 aVec, ::CsString* aXName, ::CsString* aYName, ::CsString* aZName);
     // public UnityEngine.Vector4 ReadVector4(UnityEngine.Vector4 aDefault)
-    // Offset: 0xF3F550
+    // Offset: 0xF4FF94
     UnityEngine::Vector4 ReadVector4(UnityEngine::Vector4 aDefault);
     // public UnityEngine.Vector4 ReadVector4()
-    // Offset: 0xF3EE08
+    // Offset: 0xF4F84C
     UnityEngine::Vector4 ReadVector4();
     // public OVRSimpleJSON.JSONNode WriteVector4(UnityEngine.Vector4 aVec)
-    // Offset: 0xF3E188
+    // Offset: 0xF4EBCC
     OVRSimpleJSON::JSONNode* WriteVector4(UnityEngine::Vector4 aVec);
     // public UnityEngine.Quaternion ReadQuaternion(UnityEngine.Quaternion aDefault)
-    // Offset: 0xF3F78C
+    // Offset: 0xF501D0
     UnityEngine::Quaternion ReadQuaternion(UnityEngine::Quaternion aDefault);
     // public UnityEngine.Quaternion ReadQuaternion()
-    // Offset: 0xF3EE88
+    // Offset: 0xF4F8CC
     UnityEngine::Quaternion ReadQuaternion();
     // public OVRSimpleJSON.JSONNode WriteQuaternion(UnityEngine.Quaternion aRot)
-    // Offset: 0xF3E460
+    // Offset: 0xF4EEA4
     OVRSimpleJSON::JSONNode* WriteQuaternion(UnityEngine::Quaternion aRot);
     // public UnityEngine.Rect ReadRect(UnityEngine.Rect aDefault)
-    // Offset: 0xF3F9C8
+    // Offset: 0xF5040C
     UnityEngine::Rect ReadRect(UnityEngine::Rect aDefault);
     // public UnityEngine.Rect ReadRect()
-    // Offset: 0xF3EF18
+    // Offset: 0xF4F95C
     UnityEngine::Rect ReadRect();
     // public OVRSimpleJSON.JSONNode WriteRect(UnityEngine.Rect aRect)
-    // Offset: 0xF3E738
+    // Offset: 0xF4F17C
     OVRSimpleJSON::JSONNode* WriteRect(UnityEngine::Rect aRect);
     // public UnityEngine.RectOffset ReadRectOffset(UnityEngine.RectOffset aDefault)
-    // Offset: 0xF3FC04
+    // Offset: 0xF50648
     UnityEngine::RectOffset* ReadRectOffset(UnityEngine::RectOffset* aDefault);
     // public UnityEngine.RectOffset ReadRectOffset()
-    // Offset: 0xF3EF40
+    // Offset: 0xF4F984
     UnityEngine::RectOffset* ReadRectOffset();
     // public OVRSimpleJSON.JSONNode WriteRectOffset(UnityEngine.RectOffset aRect)
-    // Offset: 0xF3EA44
+    // Offset: 0xF4F488
     OVRSimpleJSON::JSONNode* WriteRectOffset(UnityEngine::RectOffset* aRect);
     // public UnityEngine.Matrix4x4 ReadMatrix()
-    // Offset: 0xF3FE5C
+    // Offset: 0xF508A0
     UnityEngine::Matrix4x4 ReadMatrix();
     // public OVRSimpleJSON.JSONNode WriteMatrix(UnityEngine.Matrix4x4 aMatrix)
-    // Offset: 0xF3FF6C
+    // Offset: 0xF509B0
     OVRSimpleJSON::JSONNode* WriteMatrix(UnityEngine::Matrix4x4 aMatrix);
     // static private System.Void .cctor()
-    // Offset: 0xF4001C
+    // Offset: 0xF50A60
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xF3C7B8
+    // Offset: 0xF4D1FC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF3D694
+    // Offset: 0xF4E0D8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF3D6A0
+    // Offset: 0xF4E0E4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // protected System.Void .ctor()
-    // Offset: 0xF3B25C
+    // Offset: 0xF4BCA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static JSONNode* New_ctor();
   }; // OVRSimpleJSON.JSONNode
   // static public System.Boolean op_Equality(OVRSimpleJSON.JSONNode a, System.Object b)
-  // Offset: 0xF3AA08
+  // Offset: 0xF4B44C
   bool operator ==(OVRSimpleJSON::JSONNode* a, ::CsObject& b);
   // static public System.Boolean op_Inequality(OVRSimpleJSON.JSONNode a, System.Object b)
-  // Offset: 0xF3D614
+  // Offset: 0xF4E058
   bool operator !=(OVRSimpleJSON::JSONNode* a, ::CsObject& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode*, "OVRSimpleJSON", "JSONNode");
 #pragma pack(pop)

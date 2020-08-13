@@ -21,10 +21,10 @@ namespace UnityEngine::U2D {
   class SpriteAtlas : public UnityEngine::Object {
     public:
     // public System.Boolean CanBindTo(UnityEngine.Sprite sprite)
-    // Offset: 0x137F198
+    // Offset: 0x1391BDC
     bool CanBindTo(UnityEngine::Sprite* sprite);
   }; // UnityEngine.U2D.SpriteAtlas
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteAtlas*, "UnityEngine.U2D", "SpriteAtlas");
 #pragma pack(pop)

@@ -80,34 +80,34 @@ namespace GlobalNamespace {
     // Offset: 0x74
     bool dontTickThisFrame;
     // public System.Void set_tickerColor(UnityEngine.Color value)
-    // Offset: 0xC40DA0
+    // Offset: 0xC527E4
     void set_tickerColor(UnityEngine::Color value);
     // public System.Void set_movingTickerColor(UnityEngine.Color value)
-    // Offset: 0xC40DC4
+    // Offset: 0xC52808
     void set_movingTickerColor(UnityEngine::Color value);
     // public System.Void set_zeroOffset(System.Single value)
-    // Offset: 0xC40DE8
+    // Offset: 0xC5282C
     void set_zeroOffset(float value);
     // public System.Single get_zeroOffset()
-    // Offset: 0xC40DF8
+    // Offset: 0xC5283C
     float get_zeroOffset();
     // protected System.Void Awake()
-    // Offset: 0xC40E00
+    // Offset: 0xC52844
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xC40F10
+    // Offset: 0xC52954
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC40F64
+    // Offset: 0xC529A8
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0xC40FB8
+    // Offset: 0xC529FC
     void Update();
     // private System.Void SetMovingTickerNormalizedPosition(System.Single t)
-    // Offset: 0xC4117C
+    // Offset: 0xC52BC0
     void SetMovingTickerNormalizedPosition(float t);
     // public System.Void .ctor()
-    // Offset: 0xC41240
+    // Offset: 0xC52C84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -117,6 +117,6 @@ namespace GlobalNamespace {
     static VisualMetronome* New_ctor();
   }; // VisualMetronome
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualMetronome*, "", "VisualMetronome");
 #pragma pack(pop)

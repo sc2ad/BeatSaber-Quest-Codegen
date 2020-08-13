@@ -20,17 +20,17 @@ namespace Microsoft::Win32::SafeHandles {
   class SafeRegistryHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
     // public System.Void .ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
-    // Offset: 0x1096C8C
+    // Offset: 0x10A76D0
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
     static SafeRegistryHandle* New_ctor(System::IntPtr preexistingHandle, bool ownsHandle);
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1097684
+    // Offset: 0x10A80C8
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // Microsoft.Win32.SafeHandles.SafeRegistryHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeRegistryHandle*, "Microsoft.Win32.SafeHandles", "SafeRegistryHandle");
 #pragma pack(pop)

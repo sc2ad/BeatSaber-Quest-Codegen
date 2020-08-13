@@ -49,6 +49,6 @@ namespace NUnit::Framework::Interfaces {
     System::Collections::Generic::ICollection_1<::CsString*>* get_Keys();
   }; // NUnit.Framework.Interfaces.IPropertyBag
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IPropertyBag*, "NUnit.Framework.Interfaces", "IPropertyBag");
 #pragma pack(pop)

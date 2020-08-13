@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Texture2D* defaultPackCoverTexture2D;
     // public System.Void .ctor()
-    // Offset: 0xBCDFF0
+    // Offset: 0xBE0A34
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static CustomLevelLoader* New_ctor();
   }; // CustomLevelLoader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomLevelLoader*, "", "CustomLevelLoader");
 #pragma pack(pop)

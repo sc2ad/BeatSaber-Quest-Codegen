@@ -43,12 +43,12 @@ namespace GlobalNamespace {
     // Offset: 0x80
     UnityEngine::TextAsset* firstTextAsset;
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC0AFFC
+    // Offset: 0xC1CA40
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xC0B068
+    // Offset: 0xC1CAAC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -59,6 +59,6 @@ namespace GlobalNamespace {
     static ReleaseInfoViewController* New_ctor();
   }; // ReleaseInfoViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReleaseInfoViewController*, "", "ReleaseInfoViewController");
 #pragma pack(pop)

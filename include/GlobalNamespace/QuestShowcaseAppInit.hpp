@@ -44,27 +44,27 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xC09B84
+    // Offset: 0xC1B5C8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xC09BA0
+    // Offset: 0xC1B5E4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xC09BEC
+    // Offset: 0xC1B630
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xC09C38
+    // Offset: 0xC1B67C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xC09CC4
+    // Offset: 0xC1B708
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -77,6 +77,6 @@ namespace GlobalNamespace {
     static QuestShowcaseAppInit* New_ctor();
   }; // QuestShowcaseAppInit
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuestShowcaseAppInit*, "", "QuestShowcaseAppInit");
 #pragma pack(pop)

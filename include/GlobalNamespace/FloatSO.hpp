@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class FloatSO : public GlobalNamespace::ObservableVariableSO_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC9C5D4
+    // Offset: 0xCAF018
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO`1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -24,6 +24,6 @@ namespace GlobalNamespace {
     static FloatSO* New_ctor();
   }; // FloatSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSO*, "", "FloatSO");
 #pragma pack(pop)

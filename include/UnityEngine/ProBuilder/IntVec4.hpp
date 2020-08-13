@@ -23,54 +23,54 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: IntVec4
     IntVec4(UnityEngine::Vector4 value_ = {}) : value{value_} {}
     // public System.Single get_x()
-    // Offset: 0xA3816C
+    // Offset: 0xA391E8
     float get_x();
     // public System.Single get_y()
-    // Offset: 0xA38174
+    // Offset: 0xA391F0
     float get_y();
     // public System.Single get_z()
-    // Offset: 0xA3817C
+    // Offset: 0xA391F8
     float get_z();
     // public System.Single get_w()
-    // Offset: 0xA38184
+    // Offset: 0xA39200
     float get_w();
     // public System.Void .ctor(UnityEngine.Vector4 vector)
-    // Offset: 0xA3818C
+    // Offset: 0xA39208
     static IntVec4* New_ctor(UnityEngine::Vector4 vector);
     // public System.Boolean Equals(UnityEngine.Vector4 p)
-    // Offset: 0xA381A8
+    // Offset: 0xA39224
     bool Equals(UnityEngine::Vector4 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0xF87544
+    // Offset: 0xF98F88
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0xA38198
+    // Offset: 0xA39214
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec4 p)
-    // Offset: 0xA381A0
+    // Offset: 0xA3921C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.ProBuilder.IntVec4 p)
     bool Equals(UnityEngine::ProBuilder::IntVec4 p);
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0xA381B0
+    // Offset: 0xA3922C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::CsObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA381B8
+    // Offset: 0xA39234
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.IntVec4
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0xF87410
+  // Offset: 0xF98E54
   bool operator ==(const UnityEngine::ProBuilder::IntVec4& a, const UnityEngine::ProBuilder::IntVec4& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0xF87504
+  // Offset: 0xF98F48
   bool operator !=(const UnityEngine::ProBuilder::IntVec4& a, const UnityEngine::ProBuilder::IntVec4& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec4, "UnityEngine.ProBuilder", "IntVec4");
 #pragma pack(pop)

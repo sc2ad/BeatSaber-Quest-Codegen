@@ -24,18 +24,18 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x89
     bool genericFixture;
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x18D5700
+    // Offset: 0x18E6144
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     static ParameterizedFixtureSuite* New_ctor(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public override System.String get_TestType()
-    // Offset: 0x18D5978
+    // Offset: 0x18E63BC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::CsString* get_TestType();
   }; // NUnit.Framework.Internal.ParameterizedFixtureSuite
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterizedFixtureSuite*, "NUnit.Framework.Internal", "ParameterizedFixtureSuite");
 #pragma pack(pop)

@@ -23,6 +23,6 @@ namespace System {
     Coord(int16_t X_ = {}, int16_t Y_ = {}) : X{X_}, Y{Y_} {}
   }; // System.Coord
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Coord, "System", "Coord");
 #pragma pack(pop)

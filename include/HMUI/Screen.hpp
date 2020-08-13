@@ -43,19 +43,19 @@ namespace HMUI {
     // Offset: 0x34
     bool initialized;
     // public HMUI.ViewController get_rootViewController()
-    // Offset: 0x10CA968
+    // Offset: 0x10DB3AC
     HMUI::ViewController* get_rootViewController();
     // private System.Void Init()
-    // Offset: 0x10CA970
+    // Offset: 0x10DB3B4
     void Init();
     // public System.Void SetRootViewController(HMUI.ViewController newRootViewController, System.Boolean immediately)
-    // Offset: 0x10CA9EC
+    // Offset: 0x10DB430
     void SetRootViewController(HMUI::ViewController* newRootViewController, bool immediately);
     // private System.Collections.IEnumerator AnimationCoroutine()
-    // Offset: 0x10CAFB4
+    // Offset: 0x10DB9F8
     System::Collections::IEnumerator* AnimationCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x10CB05C
+    // Offset: 0x10DBAA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -65,6 +65,6 @@ namespace HMUI {
     static Screen* New_ctor();
   }; // HMUI.Screen
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen*, "HMUI", "Screen");
 #pragma pack(pop)

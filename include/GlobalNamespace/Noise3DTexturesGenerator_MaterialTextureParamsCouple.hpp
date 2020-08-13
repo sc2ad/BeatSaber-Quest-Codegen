@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: Noise3DTexturesGenerator
 #include "GlobalNamespace/Noise3DTexturesGenerator.hpp"
 // Completed includes
@@ -25,6 +23,6 @@ namespace GlobalNamespace {
     MaterialTextureParamsCouple(::CsString* globalPropertyName_ = {}, ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>* materialPropertyNameCouples_ = {}) : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
   }; // Noise3DTexturesGenerator/MaterialTextureParamsCouple
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple, "", "Noise3DTexturesGenerator/MaterialTextureParamsCouple");
 #pragma pack(pop)

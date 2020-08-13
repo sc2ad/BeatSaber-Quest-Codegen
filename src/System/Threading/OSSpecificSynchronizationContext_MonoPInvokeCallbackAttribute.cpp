@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.OSSpecificSynchronizationContext/MonoPInvokeCallbackAttribute
 #include "System/Threading/OSSpecificSynchronizationContext_MonoPInvokeCallbackAttribute.hpp"
 // Including type: System.Type

@@ -25,10 +25,10 @@ namespace Zenject {
   class ConcreteIdBinderNonGeneric : public Zenject::ConcreteBinderNonGeneric {
     public:
     // public Zenject.ConcreteBinderNonGeneric WithId(System.Object identifier)
-    // Offset: 0xD54E28
+    // Offset: 0xD6886C
     Zenject::ConcreteBinderNonGeneric* WithId(::CsObject* identifier);
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
-    // Offset: 0xD54E00
+    // Offset: 0xD68844
     // Implemented from: Zenject.ConcreteBinderNonGeneric
     // Base method: System.Void ConcreteBinderNonGeneric::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Base method: System.Void FromBinderNonGeneric::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
@@ -36,6 +36,6 @@ namespace Zenject {
     static ConcreteIdBinderNonGeneric* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::BindStatement* bindStatement);
   }; // Zenject.ConcreteIdBinderNonGeneric
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteIdBinderNonGeneric*, "Zenject", "ConcreteIdBinderNonGeneric");
 #pragma pack(pop)

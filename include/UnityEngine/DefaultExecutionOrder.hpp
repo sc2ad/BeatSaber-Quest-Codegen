@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -16,13 +17,13 @@ namespace UnityEngine {
     // Offset: 0x10
     int m_Order;
     // public System.Void .ctor(System.Int32 order)
-    // Offset: 0x12F2314
+    // Offset: 0x1304D58
     static DefaultExecutionOrder* New_ctor(int order);
     // public System.Int32 get_order()
-    // Offset: 0x12EA794
+    // Offset: 0x12FD1D8
     int get_order();
   }; // UnityEngine.DefaultExecutionOrder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DefaultExecutionOrder*, "UnityEngine", "DefaultExecutionOrder");
 #pragma pack(pop)

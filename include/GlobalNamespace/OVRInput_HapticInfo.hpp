@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRInput
 #include "GlobalNamespace/OVRInput.hpp"
 // Including type: UnityEngine.XR.XRNode
@@ -33,12 +31,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::XR::XRNode node;
     // public System.Void .ctor()
-    // Offset: 0xE5D330
+    // Offset: 0xE6FD74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::HapticInfo* New_ctor();
   }; // OVRInput/HapticInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::HapticInfo*, "", "OVRInput/HapticInfo");
 #pragma pack(pop)

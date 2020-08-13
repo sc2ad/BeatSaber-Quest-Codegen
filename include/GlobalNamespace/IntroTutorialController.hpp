@@ -82,40 +82,40 @@ namespace GlobalNamespace {
     // Offset: 0x62
     bool blueRingWrapperActive;
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0xB44AE8
+    // Offset: 0xB42AE8
     void add_introTutorialDidFinishEvent(System::Action* value);
     // public System.Void remove_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0xB44B8C
+    // Offset: 0xB42B8C
     void remove_introTutorialDidFinishEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0xB44C30
+    // Offset: 0xB42C30
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB44DB4
+    // Offset: 0xB42DB4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xB44F54
+    // Offset: 0xB42F54
     void Update();
     // private System.Void CleanUp()
-    // Offset: 0xB44DB8
+    // Offset: 0xB42DB8
     void CleanUp();
     // private System.Void HandleGameDidPause()
-    // Offset: 0xB450A4
+    // Offset: 0xB430A4
     void HandleGameDidPause();
     // private System.Void HandlegameDidResume()
-    // Offset: 0xB45120
+    // Offset: 0xB43120
     void HandlegameDidResume();
     // private System.Void ShowFinishAnimation()
-    // Offset: 0xB45018
+    // Offset: 0xB43018
     void ShowFinishAnimation();
     // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
-    // Offset: 0xB45164
+    // Offset: 0xB43164
     System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
     // private System.Void SetFinishAnimationParams(System.Single progress)
-    // Offset: 0xB4520C
+    // Offset: 0xB4320C
     void SetFinishAnimationParams(float progress);
     // public System.Void .ctor()
-    // Offset: 0xB452B4
+    // Offset: 0xB432B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -125,6 +125,6 @@ namespace GlobalNamespace {
     static IntroTutorialController* New_ctor();
   }; // IntroTutorialController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialController*, "", "IntroTutorialController");
 #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.GUILayoutGroup
 #include "UnityEngine/GUILayoutGroup.hpp"
 // Completed includes
@@ -56,33 +57,33 @@ namespace UnityEngine {
     // Offset: 0xB8
     UnityEngine::GUIStyle* verticalScrollbar;
     // public System.Void .ctor()
-    // Offset: 0x125ACB4
+    // Offset: 0x126D6F8
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::.ctor()
     // Base method: System.Void Object::.ctor()
     static GUIScrollGroup* New_ctor();
     // public override System.Void CalcWidth()
-    // Offset: 0x125ACC0
+    // Offset: 0x126D704
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x125AD50
+    // Offset: 0x126D794
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x125AE80
+    // Offset: 0x126D8C4
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x125AF88
+    // Offset: 0x126D9CC
     // Implemented from: UnityEngine.GUILayoutGroup
     // Base method: System.Void GUILayoutGroup::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);
   }; // UnityEngine.GUIScrollGroup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIScrollGroup*, "UnityEngine", "GUIScrollGroup");
 #pragma pack(pop)

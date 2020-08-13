@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Net.Sockets.AddressFamily
@@ -49,40 +47,40 @@ namespace System::Net::Sockets {
     // Offset: 0x2C
     bool m_CleanedUp;
     // public System.Void .ctor(System.Net.Sockets.AddressFamily family)
-    // Offset: 0x12003B8
+    // Offset: 0x1212DFC
     static TcpClient* New_ctor(System::Net::Sockets::AddressFamily family);
     // System.Void .ctor(System.Net.Sockets.Socket acceptedSocket)
-    // Offset: 0x1200558
+    // Offset: 0x1212F9C
     static TcpClient* New_ctor(System::Net::Sockets::Socket* acceptedSocket);
     // public System.Net.Sockets.Socket get_Client()
-    // Offset: 0x12005D0
+    // Offset: 0x1213014
     System::Net::Sockets::Socket* get_Client();
     // public System.Void set_Client(System.Net.Sockets.Socket value)
-    // Offset: 0x12005D8
+    // Offset: 0x121301C
     void set_Client(System::Net::Sockets::Socket* value);
     // public System.Boolean get_Connected()
-    // Offset: 0x12005E0
+    // Offset: 0x1213024
     bool get_Connected();
     // public System.IAsyncResult BeginConnect(System.String host, System.Int32 port, System.AsyncCallback requestCallback, System.Object state)
-    // Offset: 0x12005FC
+    // Offset: 0x1213040
     System::IAsyncResult* BeginConnect(::CsString* host, int port, System::AsyncCallback* requestCallback, ::CsObject* state);
     // public System.Void EndConnect(System.IAsyncResult asyncResult)
-    // Offset: 0x120067C
+    // Offset: 0x12130C0
     void EndConnect(System::IAsyncResult* asyncResult);
     // public System.Net.Sockets.NetworkStream GetStream()
-    // Offset: 0x12006E8
+    // Offset: 0x121312C
     System::Net::Sockets::NetworkStream* GetStream();
     // public System.Void Close()
-    // Offset: 0x1200830
+    // Offset: 0x1213274
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x12008D4
+    // Offset: 0x1213318
     void Dispose(bool disposing);
     // private System.Void initialize()
-    // Offset: 0x12004D0
+    // Offset: 0x1212F14
     void initialize();
     // public System.Void Dispose()
-    // Offset: 0x1200A4C
+    // Offset: 0x1213490
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -90,12 +88,12 @@ namespace System::Net::Sockets {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x1200A5C
+    // Offset: 0x12134A0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Net.Sockets.TcpClient
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpClient*, "System.Net.Sockets", "TcpClient");
 #pragma pack(pop)

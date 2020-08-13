@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TextCore.Glyph
 #include "UnityEngine/TextCore/Glyph.hpp"
 // Completed includes
@@ -28,21 +29,21 @@ namespace TMPro {
     // Offset: 0x40
     UnityEngine::Sprite* sprite;
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex, UnityEngine.Sprite sprite)
-    // Offset: 0xBA0688
+    // Offset: 0xBB20CC
     static TMP_SpriteGlyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex, UnityEngine::Sprite* sprite);
     // public System.Void .ctor()
-    // Offset: 0xBA0318
+    // Offset: 0xBB1D5C
     // Implemented from: UnityEngine.TextCore.Glyph
     // Base method: System.Void Glyph::.ctor()
     // Base method: System.Void Object::.ctor()
     static TMP_SpriteGlyph* New_ctor();
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
-    // Offset: 0xBA05C8
+    // Offset: 0xBB200C
     // Implemented from: UnityEngine.TextCore.Glyph
     // Base method: System.Void Glyph::.ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
     static TMP_SpriteGlyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex);
   }; // TMPro.TMP_SpriteGlyph
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteGlyph*, "TMPro", "TMP_SpriteGlyph");
 #pragma pack(pop)

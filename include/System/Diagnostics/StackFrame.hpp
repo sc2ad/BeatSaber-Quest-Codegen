@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -56,50 +54,50 @@ namespace System::Diagnostics {
     // Offset: 0x40
     ::CsString* internalMethodName;
     // static private System.Boolean get_frame_info(System.Int32 skip, System.Boolean needFileInfo, System.Reflection.MethodBase method, System.Int32 iloffset, System.Int32 native_offset, System.String file, System.Int32 line, System.Int32 column)
-    // Offset: 0xC80670
+    // Offset: 0xC920B4
     static bool get_frame_info(int skip, bool needFileInfo, System::Reflection::MethodBase*& method, int& iloffset, int& native_offset, ::CsString*& file, int& line, int& column);
     // public System.Void .ctor(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0xC806D4
+    // Offset: 0xC92118
     static StackFrame* New_ctor(int skipFrames, bool fNeedFileInfo);
     // public System.Int32 GetFileLineNumber()
-    // Offset: 0xC80740
+    // Offset: 0xC92184
     int GetFileLineNumber();
     // public System.String GetFileName()
-    // Offset: 0xC80748
+    // Offset: 0xC9218C
     ::CsString* GetFileName();
     // System.String GetSecureFileName()
-    // Offset: 0xC80750
+    // Offset: 0xC92194
     ::CsString* GetSecureFileName();
     // public System.Int32 GetILOffset()
-    // Offset: 0xC8082C
+    // Offset: 0xC92270
     int GetILOffset();
     // public System.Reflection.MethodBase GetMethod()
-    // Offset: 0xC80834
+    // Offset: 0xC92278
     System::Reflection::MethodBase* GetMethod();
     // public System.Int32 GetNativeOffset()
-    // Offset: 0xC8083C
+    // Offset: 0xC92280
     int GetNativeOffset();
     // System.Int64 GetMethodAddress()
-    // Offset: 0xC80844
+    // Offset: 0xC92288
     int64_t GetMethodAddress();
     // System.UInt32 GetMethodIndex()
-    // Offset: 0xC8084C
+    // Offset: 0xC92290
     uint GetMethodIndex();
     // System.String GetInternalMethodName()
-    // Offset: 0xC80854
+    // Offset: 0xC92298
     ::CsString* GetInternalMethodName();
     // public System.Void .ctor()
-    // Offset: 0xC80678
+    // Offset: 0xC920BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StackFrame* New_ctor();
     // public override System.String ToString()
-    // Offset: 0xC8085C
+    // Offset: 0xC922A0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.Diagnostics.StackFrame
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
 #pragma pack(pop)

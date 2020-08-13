@@ -56,25 +56,25 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::OVRGridCube* gridCube;
     // private System.Void Awake()
-    // Offset: 0xF38D6C
+    // Offset: 0xF497B0
     void Awake();
     // private System.Void Start()
-    // Offset: 0xF38F14
+    // Offset: 0xF49958
     void Start();
     // private System.Void Update()
-    // Offset: 0xF39010
+    // Offset: 0xF49A54
     void Update();
     // private System.Void UpdateVisionMode()
-    // Offset: 0xF391C0
+    // Offset: 0xF49C04
     void UpdateVisionMode();
     // private System.Void UpdateSpeedAndRotationScaleMultiplier()
-    // Offset: 0xF392A4
+    // Offset: 0xF49CE8
     void UpdateSpeedAndRotationScaleMultiplier();
     // private System.Void UpdateRecenterPose()
-    // Offset: 0xF390F4
+    // Offset: 0xF49B38
     void UpdateRecenterPose();
     // public System.Void .ctor()
-    // Offset: 0xF39398
+    // Offset: 0xF49DDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -84,6 +84,6 @@ namespace GlobalNamespace {
     static OVRSceneSampleController* New_ctor();
   }; // OVRSceneSampleController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneSampleController*, "", "OVRSceneSampleController");
 #pragma pack(pop)

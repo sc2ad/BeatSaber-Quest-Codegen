@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OculusPlatformLeaderboardsHandler
 #include "GlobalNamespace/OculusPlatformLeaderboardsHandler.hpp"
 // Including type: Oculus.Platform.Message`1
@@ -37,18 +35,18 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.LeaderboardEntryList> <>9__2_0
     static void _set_$$9__2_0(typename Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0xC28368
+    // Offset: 0xC39DAC
     static void _cctor();
     // System.Void <.ctor>b__2_0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
-    // Offset: 0xC283D8
+    // Offset: 0xC39E1C
     void $_ctor$b__2_0(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>* message);
     // public System.Void .ctor()
-    // Offset: 0xC283D0
+    // Offset: 0xC39E14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformLeaderboardsHandler::$$c* New_ctor();
   }; // OculusPlatformLeaderboardsHandler/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*, "", "OculusPlatformLeaderboardsHandler/<>c");
 #pragma pack(pop)

@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::SceneInfo*>* sceneInfos;
     // public System.Void Init()
-    // Offset: 0xC9C050
+    // Offset: 0xCAEA94
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xC9C0BC
+    // Offset: 0xCAEB00
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -37,6 +37,6 @@ namespace GlobalNamespace {
     static FixedScenesScenesTransitionSetupDataSO* New_ctor();
   }; // FixedScenesScenesTransitionSetupDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FixedScenesScenesTransitionSetupDataSO*, "", "FixedScenesScenesTransitionSetupDataSO");
 #pragma pack(pop)

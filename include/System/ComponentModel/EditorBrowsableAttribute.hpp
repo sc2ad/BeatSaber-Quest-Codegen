@@ -19,20 +19,20 @@ namespace System::ComponentModel {
     // Offset: 0x10
     System::ComponentModel::EditorBrowsableState browsableState;
     // public System.Void .ctor(System.ComponentModel.EditorBrowsableState state)
-    // Offset: 0xF46544
+    // Offset: 0xF57F88
     static EditorBrowsableAttribute* New_ctor(System::ComponentModel::EditorBrowsableState state);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF46570
+    // Offset: 0xF57FB4
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF4660C
+    // Offset: 0xF58050
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.EditorBrowsableAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorBrowsableAttribute*, "System.ComponentModel", "EditorBrowsableAttribute");
 #pragma pack(pop)

@@ -23,23 +23,23 @@ namespace RootMotion::FinalIK {
     // Offset: 0x88
     RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration;
     // public System.Void FadeOutBoneWeights()
-    // Offset: 0x132A344
+    // Offset: 0x133DD88
     void FadeOutBoneWeights();
     // protected System.Void Solve(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x132B154
+    // Offset: 0x133EB98
     void Solve(UnityEngine::Vector3 targetPosition);
     // protected override System.Void OnInitiate()
-    // Offset: 0x132A3F4
+    // Offset: 0x133DE38
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x132A9F4
+    // Offset: 0x133E438
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnUpdate()
     void OnUpdate();
     // public System.Void .ctor()
-    // Offset: 0x132B8B8
+    // Offset: 0x133F2FC
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -47,6 +47,6 @@ namespace RootMotion::FinalIK {
     static IKSolverCCD* New_ctor();
   }; // RootMotion.FinalIK.IKSolverCCD
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverCCD*, "RootMotion.FinalIK", "IKSolverCCD");
 #pragma pack(pop)

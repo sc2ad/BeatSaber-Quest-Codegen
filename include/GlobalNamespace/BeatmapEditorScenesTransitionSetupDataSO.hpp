@@ -25,19 +25,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x197A998
+    // Offset: 0xB92C94
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x197AA3C
+    // Offset: 0xB92D38
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void Init()
-    // Offset: 0x197AAE0
+    // Offset: 0xB92DDC
     void Init();
     // public System.Void Finish()
-    // Offset: 0x197AB4C
+    // Offset: 0xB92E48
     void Finish();
     // public System.Void .ctor()
-    // Offset: 0x197ABB0
+    // Offset: 0xB92EAC
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static BeatmapEditorScenesTransitionSetupDataSO* New_ctor();
   }; // BeatmapEditorScenesTransitionSetupDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*, "", "BeatmapEditorScenesTransitionSetupDataSO");
 #pragma pack(pop)

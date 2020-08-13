@@ -66,11 +66,11 @@ namespace System::Diagnostics {
     // Offset: 0x10
     System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes;
     // public System.Void .ctor(System.Diagnostics.DebuggableAttribute/DebuggingModes modes)
-    // Offset: 0xC8032C
+    // Offset: 0xC91D70
     static DebuggableAttribute* New_ctor(System::Diagnostics::DebuggableAttribute::DebuggingModes modes);
   }; // System.Diagnostics.DebuggableAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggableAttribute*, "System.Diagnostics", "DebuggableAttribute");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggableAttribute::DebuggingModes, "System.Diagnostics", "DebuggableAttribute/DebuggingModes");
 #pragma pack(pop)

@@ -96,44 +96,44 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     GlobalNamespace::IBeatmapLevel* level;
     // public System.Void add_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0xC078B0
+    // Offset: 0xC192F4
     void add_didPressPlayButtonEvent(System::Action* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0xC07954
+    // Offset: 0xC19398
     void remove_didPressPlayButtonEvent(System::Action* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0xC079F8
+    // Offset: 0xC1943C
     GlobalNamespace::PracticeSettings* get_practiceSettings();
     // public System.Void Init(IBeatmapLevel level)
-    // Offset: 0xC07A00
+    // Offset: 0xC19444
     void Init(GlobalNamespace::IBeatmapLevel* level);
     // private System.Void PlayPreview()
-    // Offset: 0xC07F38
+    // Offset: 0xC1997C
     void PlayPreview();
     // private System.Void RefreshUI()
-    // Offset: 0xC07DF0
+    // Offset: 0xC19834
     void RefreshUI();
     // private System.Void HandleSpeedSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xC080A0
+    // Offset: 0xC19AE4
     void HandleSpeedSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleSongStartSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0xC080BC
+    // Offset: 0xC19B00
     void HandleSongStartSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void PlayButtonPressed()
-    // Offset: 0xC08160
+    // Offset: 0xC19BA4
     void PlayButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC07C14
+    // Offset: 0xC19658
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xC07E44
+    // Offset: 0xC19888
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0xC0820C
+    // Offset: 0xC19C50
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -144,6 +144,6 @@ namespace GlobalNamespace {
     static PracticeViewController* New_ctor();
   }; // PracticeViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeViewController*, "", "PracticeViewController");
 #pragma pack(pop)

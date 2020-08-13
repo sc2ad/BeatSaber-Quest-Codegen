@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Button* button;
     // public UnityEngine.UI.Text get_text()
-    // Offset: 0xC3140C
+    // Offset: 0xC42E50
     UnityEngine::UI::Text* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0xC31414
+    // Offset: 0xC42E58
     UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0xC3141C
+    // Offset: 0xC42E60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static TextButton* New_ctor();
   }; // TextButton
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextButton*, "", "TextButton");
 #pragma pack(pop)

@@ -44,6 +44,6 @@ namespace System::Threading::Tasks {
     AsyncCausalityStatus(int value_ = {}) : value{value_} {}
   }; // System.Threading.Tasks.AsyncCausalityStatus
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AsyncCausalityStatus, "System.Threading.Tasks", "AsyncCausalityStatus");
 #pragma pack(pop)

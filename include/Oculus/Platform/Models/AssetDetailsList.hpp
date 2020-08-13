@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.DeserializableList`1
 #include "Oculus/Platform/Models/DeserializableList_1.hpp"
 // Completed includes
@@ -25,10 +26,10 @@ namespace Oculus::Platform::Models {
   class AssetDetailsList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AssetDetails*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xE8AD70
+    // Offset: 0xE9D7B4
     static AssetDetailsList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.AssetDetailsList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetDetailsList*, "Oculus.Platform.Models", "AssetDetailsList");
 #pragma pack(pop)

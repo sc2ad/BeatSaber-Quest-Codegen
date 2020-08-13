@@ -5,6 +5,8 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: RootMotion.FinalIK.IKSolver
+#include "RootMotion/FinalIK/IKSolver.hpp"
 // Including type: RootMotion.FinalIK.IKSolver/Point
 #include "RootMotion/FinalIK/IKSolver_Point.hpp"
 // Completed includes
@@ -41,37 +43,37 @@ namespace RootMotion::FinalIK {
     // Offset: 0x70
     bool isLimited;
     // public RootMotion.FinalIK.RotationLimit get_rotationLimit()
-    // Offset: 0x136DD28
+    // Offset: 0x138076C
     RootMotion::FinalIK::RotationLimit* get_rotationLimit();
     // public System.Void set_rotationLimit(RootMotion.FinalIK.RotationLimit value)
-    // Offset: 0x136DE24
+    // Offset: 0x1380868
     void set_rotationLimit(RootMotion::FinalIK::RotationLimit* value);
     // public System.Void Swing(UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x136DEB8
+    // Offset: 0x13808FC
     void Swing(UnityEngine::Vector3 swingTarget, float weight);
     // static public System.Void SolverSwing(RootMotion.FinalIK.IKSolver/Bone[] bones, System.Int32 index, UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x136E178
+    // Offset: 0x1380BBC
     static void SolverSwing(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones, int index, UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void Swing2D(UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x136E458
+    // Offset: 0x1380E9C
     void Swing2D(UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void SetToSolverPosition()
-    // Offset: 0x136E6C0
+    // Offset: 0x1381104
     void SetToSolverPosition();
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x136E7EC
+    // Offset: 0x1381230
     static IKSolver::Bone* New_ctor(UnityEngine::Transform* transform);
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x136E88C
+    // Offset: 0x13812D0
     static IKSolver::Bone* New_ctor(UnityEngine::Transform* transform, float weight);
     // public System.Void .ctor()
-    // Offset: 0x136E6E8
+    // Offset: 0x138112C
     // Implemented from: RootMotion.FinalIK.IKSolver/Point
     // Base method: System.Void Point::.ctor()
     // Base method: System.Void Object::.ctor()
     static IKSolver::Bone* New_ctor();
   }; // RootMotion.FinalIK.IKSolver/Bone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Bone*, "RootMotion.FinalIK", "IKSolver/Bone");
 #pragma pack(pop)

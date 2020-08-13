@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
 #include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
 // Completed includes
@@ -13,12 +14,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class PolygonPoint : public UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint {
     public:
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
-    // Offset: 0x1918B38
+    // Offset: 0x192957C
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
     // Base method: System.Void TriangulationPoint::.ctor(System.Double x, System.Double y, System.Int32 index)
     static PolygonPoint* New_ctor(double x, double y, int index);
   }; // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*, "UnityEngine.ProBuilder.Poly2Tri", "PolygonPoint");
 #pragma pack(pop)

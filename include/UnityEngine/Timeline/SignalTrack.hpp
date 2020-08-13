@@ -14,7 +14,7 @@ namespace UnityEngine::Timeline {
   class SignalTrack : public UnityEngine::Timeline::MarkerTrack {
     public:
     // public System.Void .ctor()
-    // Offset: 0x108A520
+    // Offset: 0x1099F64
     // Implemented from: UnityEngine.Timeline.MarkerTrack
     // Base method: System.Void MarkerTrack::.ctor()
     // Base method: System.Void TrackAsset::.ctor()
@@ -25,6 +25,6 @@ namespace UnityEngine::Timeline {
     static SignalTrack* New_ctor();
   }; // UnityEngine.Timeline.SignalTrack
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalTrack*, "UnityEngine.Timeline", "SignalTrack");
 #pragma pack(pop)

@@ -20,15 +20,15 @@ namespace Microsoft::Win32::SafeHandles {
   class SafeFindHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
     // System.Void .ctor(System.IntPtr preexistingHandle)
-    // Offset: 0x109758C
+    // Offset: 0x10A7FD0
     static SafeFindHandle* New_ctor(System::IntPtr preexistingHandle);
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x10975B8
+    // Offset: 0x10A7FFC
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // Microsoft.Win32.SafeHandles.SafeFindHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeFindHandle*, "Microsoft.Win32.SafeHandles", "SafeFindHandle");
 #pragma pack(pop)

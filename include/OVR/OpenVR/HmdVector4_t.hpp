@@ -28,6 +28,6 @@ namespace OVR::OpenVR {
     HmdVector4_t(float v0_ = {}, float v1_ = {}, float v2_ = {}, float v3_ = {}) : v0{v0_}, v1{v1_}, v2{v2_}, v3{v3_} {}
   }; // OVR.OpenVR.HmdVector4_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdVector4_t, "OVR.OpenVR", "HmdVector4_t");
 #pragma pack(pop)

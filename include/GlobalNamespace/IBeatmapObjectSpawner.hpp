@@ -35,6 +35,6 @@ namespace GlobalNamespace {
     void SpawnBasicNote(GlobalNamespace::NoteData* noteData, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float rotation, bool disappearingArrow, bool ghostNote, float cutDirectionAngleOffset);
   }; // IBeatmapObjectSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapObjectSpawner*, "", "IBeatmapObjectSpawner");
 #pragma pack(pop)

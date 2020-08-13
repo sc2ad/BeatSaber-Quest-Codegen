@@ -32,6 +32,6 @@ namespace OVRSimpleJSON {
     JSONTextMode(int value_ = {}) : value{value_} {}
   }; // OVRSimpleJSON.JSONTextMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONTextMode, "OVRSimpleJSON", "JSONTextMode");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PlatformLeaderboardsModel
 #include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 // Completed includes
@@ -31,12 +29,12 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
     // protected System.Void .ctor()
-    // Offset: 0xBC1B90
+    // Offset: 0xBD45D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlatformLeaderboardsHandler* New_ctor();
   }; // PlatformLeaderboardsHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsHandler*, "", "PlatformLeaderboardsHandler");
 #pragma pack(pop)

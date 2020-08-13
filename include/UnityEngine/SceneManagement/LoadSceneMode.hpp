@@ -32,6 +32,6 @@ namespace UnityEngine::SceneManagement {
     LoadSceneMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.SceneManagement.LoadSceneMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneMode, "UnityEngine.SceneManagement", "LoadSceneMode");
 #pragma pack(pop)

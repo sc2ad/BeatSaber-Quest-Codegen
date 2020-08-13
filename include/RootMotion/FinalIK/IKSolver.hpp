@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
@@ -63,37 +61,37 @@ namespace RootMotion::FinalIK {
     // Offset: 0x50
     UnityEngine::Transform* root;
     // public System.Boolean IsValid()
-    // Offset: 0x136D650
+    // Offset: 0x1380094
     bool IsValid();
     // public System.Boolean IsValid(System.String message)
     // Offset: 0xFFFFFFFF
     bool IsValid(::CsString*& message);
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x1365C4C
+    // Offset: 0x1378690
     void Initiate(UnityEngine::Transform* root);
     // public System.Void Update()
-    // Offset: 0x1365B6C
+    // Offset: 0x13785B0
     void Update();
     // public UnityEngine.Vector3 GetIKPosition()
-    // Offset: 0x136D6CC
+    // Offset: 0x1380110
     UnityEngine::Vector3 GetIKPosition();
     // public System.Void SetIKPosition(UnityEngine.Vector3 position)
-    // Offset: 0x136D6D8
+    // Offset: 0x138011C
     void SetIKPosition(UnityEngine::Vector3 position);
     // public System.Single GetIKPositionWeight()
-    // Offset: 0x136D6E4
+    // Offset: 0x1380128
     float GetIKPositionWeight();
     // public System.Void SetIKPositionWeight(System.Single weight)
-    // Offset: 0x136D6EC
+    // Offset: 0x1380130
     void SetIKPositionWeight(float weight);
     // public UnityEngine.Transform GetRoot()
-    // Offset: 0x136D770
+    // Offset: 0x13801B4
     UnityEngine::Transform* GetRoot();
     // public System.Boolean get_initiated()
-    // Offset: 0x136D778
+    // Offset: 0x13801BC
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x136D780
+    // Offset: 0x13801C4
     void set_initiated(bool value);
     // public RootMotion.FinalIK.IKSolver/Point[] GetPoints()
     // Offset: 0xFFFFFFFF
@@ -114,24 +112,24 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OnUpdate();
     // protected System.Void LogWarning(System.String message)
-    // Offset: 0x136D78C
+    // Offset: 0x13801D0
     void LogWarning(::CsString* message);
     // static public UnityEngine.Transform ContainsDuplicateBone(RootMotion.FinalIK.IKSolver/Bone[] bones)
-    // Offset: 0x136D7A4
+    // Offset: 0x13801E8
     static UnityEngine::Transform* ContainsDuplicateBone(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones);
     // static public System.Boolean HierarchyIsValid(RootMotion.FinalIK.IKSolver/Bone[] bones)
-    // Offset: 0x136D8E0
+    // Offset: 0x1380324
     static bool HierarchyIsValid(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones);
     // static protected System.Single PreSolveBones(RootMotion.FinalIK.IKSolver/Bone[] bones)
-    // Offset: 0x136D98C
+    // Offset: 0x13803D0
     static float PreSolveBones(::Array<RootMotion::FinalIK::IKSolver::Bone*>*& bones);
     // protected System.Void .ctor()
-    // Offset: 0x136DD10
+    // Offset: 0x1380754
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKSolver* New_ctor();
   }; // RootMotion.FinalIK.IKSolver
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver*, "RootMotion.FinalIK", "IKSolver");
 #pragma pack(pop)

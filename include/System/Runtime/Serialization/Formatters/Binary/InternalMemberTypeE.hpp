@@ -44,6 +44,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     InternalMemberTypeE(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalMemberTypeE");
 #pragma pack(pop)

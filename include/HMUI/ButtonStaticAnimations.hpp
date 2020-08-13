@@ -41,22 +41,22 @@ namespace HMUI {
     // Offset: 0x40
     bool didStart;
     // protected System.Void Awake()
-    // Offset: 0xEC016C
+    // Offset: 0xED2BB0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xEC0200
+    // Offset: 0xED2C44
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xEC02C4
+    // Offset: 0xED2D08
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0xEC02E0
+    // Offset: 0xED2D24
     void OnDestroy();
     // private System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/SelectionState state)
-    // Offset: 0xEC0224
+    // Offset: 0xED2C68
     void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0xEC03BC
+    // Offset: 0xED2E00
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace HMUI {
     static ButtonStaticAnimations* New_ctor();
   }; // HMUI.ButtonStaticAnimations
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonStaticAnimations*, "HMUI", "ButtonStaticAnimations");
 #pragma pack(pop)

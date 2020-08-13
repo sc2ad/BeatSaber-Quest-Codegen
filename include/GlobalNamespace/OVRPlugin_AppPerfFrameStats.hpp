@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -60,6 +61,6 @@ namespace GlobalNamespace {
     AppPerfFrameStats(int HmdVsyncIndex_ = {}, int AppFrameIndex_ = {}, int AppDroppedFrameCount_ = {}, float AppMotionToPhotonLatency_ = {}, float AppQueueAheadTime_ = {}, float AppCpuElapsedTime_ = {}, float AppGpuElapsedTime_ = {}, int CompositorFrameIndex_ = {}, int CompositorDroppedFrameCount_ = {}, float CompositorLatency_ = {}, float CompositorCpuElapsedTime_ = {}, float CompositorGpuElapsedTime_ = {}, float CompositorCpuStartToGpuEndElapsedTime_ = {}, float CompositorGpuEndToVsyncElapsedTime_ = {}) : HmdVsyncIndex{HmdVsyncIndex_}, AppFrameIndex{AppFrameIndex_}, AppDroppedFrameCount{AppDroppedFrameCount_}, AppMotionToPhotonLatency{AppMotionToPhotonLatency_}, AppQueueAheadTime{AppQueueAheadTime_}, AppCpuElapsedTime{AppCpuElapsedTime_}, AppGpuElapsedTime{AppGpuElapsedTime_}, CompositorFrameIndex{CompositorFrameIndex_}, CompositorDroppedFrameCount{CompositorDroppedFrameCount_}, CompositorLatency{CompositorLatency_}, CompositorCpuElapsedTime{CompositorCpuElapsedTime_}, CompositorGpuElapsedTime{CompositorGpuElapsedTime_}, CompositorCpuStartToGpuEndElapsedTime{CompositorCpuStartToGpuEndElapsedTime_}, CompositorGpuEndToVsyncElapsedTime{CompositorGpuEndToVsyncElapsedTime_} {}
   }; // OVRPlugin/AppPerfFrameStats
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfFrameStats, "", "OVRPlugin/AppPerfFrameStats");
 #pragma pack(pop)

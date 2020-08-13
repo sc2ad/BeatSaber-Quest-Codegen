@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace System::Diagnostics::Tracing {
   class NonEventAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xD85E94
+    // Offset: 0xD998D8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static NonEventAttribute* New_ctor();
   }; // System.Diagnostics.Tracing.NonEventAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::NonEventAttribute*, "System.Diagnostics.Tracing", "NonEventAttribute");
 #pragma pack(pop)

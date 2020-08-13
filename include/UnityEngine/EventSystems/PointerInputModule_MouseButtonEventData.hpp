@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.PointerInputModule
 #include "UnityEngine/EventSystems/PointerInputModule.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData/FramePressState
@@ -30,18 +28,18 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18
     UnityEngine::EventSystems::PointerEventData* buttonData;
     // public System.Boolean PressedThisFrame()
-    // Offset: 0xDEA900
+    // Offset: 0xDFD344
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0xDEA914
+    // Offset: 0xDFD358
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0xDEA928
+    // Offset: 0xDFD36C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PointerInputModule::MouseButtonEventData* New_ctor();
   }; // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*, "UnityEngine.EventSystems", "PointerInputModule/MouseButtonEventData");
 #pragma pack(pop)

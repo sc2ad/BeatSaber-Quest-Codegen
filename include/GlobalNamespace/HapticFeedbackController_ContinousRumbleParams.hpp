@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HapticFeedbackController
 #include "GlobalNamespace/HapticFeedbackController.hpp"
 // Completed includes
@@ -22,12 +20,12 @@ namespace GlobalNamespace {
     // Offset: 0x14
     float intervalTimeCounter;
     // public System.Void .ctor()
-    // Offset: 0xCA1478
+    // Offset: 0xCB3EBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HapticFeedbackController::ContinousRumbleParams* New_ctor();
   }; // HapticFeedbackController/ContinousRumbleParams
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController::ContinousRumbleParams*, "", "HapticFeedbackController/ContinousRumbleParams");
 #pragma pack(pop)

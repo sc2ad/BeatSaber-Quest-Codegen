@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.Threading.Tasks.Task`1
-#include "System/Threading/Tasks/Task_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.Task
 #include "System/Threading/Tasks/Task.hpp"
+// Including type: System.Threading.Tasks.Task`1
+#include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.Threading.Tasks.VoidTaskResult
 #include "System/Threading/Tasks/VoidTaskResult.hpp"
 // Including type: System.Threading.CancellationToken
@@ -37,13 +38,13 @@ namespace System::Threading::Tasks {
     // Offset: 0x78
     System::Threading::Timer* Timer;
     // System.Void .ctor(System.Threading.CancellationToken token)
-    // Offset: 0xCCFA5C
+    // Offset: 0xCE24A0
     static Task::DelayPromise* New_ctor(System::Threading::CancellationToken token);
     // System.Void Complete()
-    // Offset: 0xCD0158
+    // Offset: 0xCE2B9C
     void Complete();
   }; // System.Threading.Tasks.Task/DelayPromise
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::DelayPromise*, "System.Threading.Tasks", "Task/DelayPromise");
 #pragma pack(pop)

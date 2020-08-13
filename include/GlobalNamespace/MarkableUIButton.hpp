@@ -30,19 +30,19 @@ namespace GlobalNamespace {
     // Offset: 0x24
     int markedTriggerId;
     // public System.Boolean get_marked()
-    // Offset: 0xCA2AE0
+    // Offset: 0xCB5524
     bool get_marked();
     // public System.Void set_marked(System.Boolean value)
-    // Offset: 0xCA2AE8
+    // Offset: 0xCB552C
     void set_marked(bool value);
     // protected System.Void Awake()
-    // Offset: 0xCA2B14
+    // Offset: 0xCB5558
     void Awake();
     // public System.Void ToggleMarked()
-    // Offset: 0xCA2B6C
+    // Offset: 0xCB55B0
     void ToggleMarked();
     // public System.Void .ctor()
-    // Offset: 0xCA2B7C
+    // Offset: 0xCB55C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -52,6 +52,6 @@ namespace GlobalNamespace {
     static MarkableUIButton* New_ctor();
   }; // MarkableUIButton
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkableUIButton*, "", "MarkableUIButton");
 #pragma pack(pop)

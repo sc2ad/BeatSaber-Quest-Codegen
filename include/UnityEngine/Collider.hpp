@@ -24,37 +24,37 @@ namespace UnityEngine {
   class Collider : public UnityEngine::Component {
     public:
     // public System.Boolean get_enabled()
-    // Offset: 0x19472E0
+    // Offset: 0x1959D24
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x1947320
+    // Offset: 0x1959D64
     void set_enabled(bool value);
     // public UnityEngine.Rigidbody get_attachedRigidbody()
-    // Offset: 0x1947370
+    // Offset: 0x1959DB4
     UnityEngine::Rigidbody* get_attachedRigidbody();
     // public System.Boolean get_isTrigger()
-    // Offset: 0x19473B0
+    // Offset: 0x1959DF4
     bool get_isTrigger();
     // public System.Void set_isTrigger(System.Boolean value)
-    // Offset: 0x19473F0
+    // Offset: 0x1959E34
     void set_isTrigger(bool value);
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x1947440
+    // Offset: 0x1959E84
     UnityEngine::Bounds get_bounds();
     // private System.Void Internal_ClosestPointOnBounds(UnityEngine.Vector3 point, UnityEngine.Vector3 outPos, System.Single distance)
-    // Offset: 0x19474FC
+    // Offset: 0x1959F40
     void Internal_ClosestPointOnBounds(UnityEngine::Vector3 point, UnityEngine::Vector3& outPos, float& distance);
     // public UnityEngine.Vector3 ClosestPointOnBounds(UnityEngine.Vector3 position)
-    // Offset: 0x19475D4
+    // Offset: 0x195A018
     UnityEngine::Vector3 ClosestPointOnBounds(UnityEngine::Vector3 position);
     // private System.Void get_bounds_Injected(UnityEngine.Bounds ret)
-    // Offset: 0x19474AC
+    // Offset: 0x1959EF0
     void get_bounds_Injected(UnityEngine::Bounds& ret);
     // private System.Void Internal_ClosestPointOnBounds_Injected(UnityEngine.Vector3 point, UnityEngine.Vector3 outPos, System.Single distance)
-    // Offset: 0x194756C
+    // Offset: 0x1959FB0
     void Internal_ClosestPointOnBounds_Injected(UnityEngine::Vector3& point, UnityEngine::Vector3& outPos, float& distance);
   }; // UnityEngine.Collider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collider*, "UnityEngine", "Collider");
 #pragma pack(pop)

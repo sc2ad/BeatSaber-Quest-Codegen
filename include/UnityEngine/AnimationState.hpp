@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TrackedReference
 #include "UnityEngine/TrackedReference.hpp"
 // Completed includes
@@ -13,19 +14,19 @@ namespace UnityEngine {
   class AnimationState : public UnityEngine::TrackedReference {
     public:
     // public System.Void set_normalizedTime(System.Single value)
-    // Offset: 0x1922DFC
+    // Offset: 0x1934840
     void set_normalizedTime(float value);
     // public System.Void set_layer(System.Int32 value)
-    // Offset: 0x1922E4C
+    // Offset: 0x1934890
     void set_layer(int value);
     // public System.Void .ctor()
-    // Offset: 0x1922E9C
+    // Offset: 0x19348E0
     // Implemented from: UnityEngine.TrackedReference
     // Base method: System.Void TrackedReference::.ctor()
     // Base method: System.Void Object::.ctor()
     static AnimationState* New_ctor();
   }; // UnityEngine.AnimationState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationState*, "UnityEngine", "AnimationState");
 #pragma pack(pop)

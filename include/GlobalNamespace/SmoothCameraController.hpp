@@ -37,22 +37,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     LIV::SDK::Unity::LIV* liv;
     // protected System.Void Start()
-    // Offset: 0xB85CC0
+    // Offset: 0xB97704
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB85E50
+    // Offset: 0xB97894
     void OnDestroy();
     // private System.Void HandleLIVDidActivate()
-    // Offset: 0xB85E54
+    // Offset: 0xB97898
     void HandleLIVDidActivate();
     // private System.Void HandleLIVDidDeactivate()
-    // Offset: 0xB85EA4
+    // Offset: 0xB978E8
     void HandleLIVDidDeactivate();
     // private System.Void ActivateSmoothCameraIfNeeded()
-    // Offset: 0xB85CC4
+    // Offset: 0xB97708
     void ActivateSmoothCameraIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0xB85EA8
+    // Offset: 0xB978EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -62,6 +62,6 @@ namespace GlobalNamespace {
     static SmoothCameraController* New_ctor();
   }; // SmoothCameraController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCameraController*, "", "SmoothCameraController");
 #pragma pack(pop)

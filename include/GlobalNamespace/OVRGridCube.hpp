@@ -61,22 +61,22 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::OVRCameraRig* CameraController;
     // private System.Void Update()
-    // Offset: 0xE534F4
+    // Offset: 0xE65F38
     void Update();
     // public System.Void SetOVRCameraController(OVRCameraRig cameraController)
-    // Offset: 0xE5375C
+    // Offset: 0xE661A0
     void SetOVRCameraController(GlobalNamespace::OVRCameraRig*& cameraController);
     // private System.Void UpdateCubeGrid()
-    // Offset: 0xE534F8
+    // Offset: 0xE65F3C
     void UpdateCubeGrid();
     // private System.Void CreateCubeGrid()
-    // Offset: 0xE53768
+    // Offset: 0xE661AC
     void CreateCubeGrid();
     // private System.Void CubeGridSwitchColor(System.Boolean CubeSwitchColor)
-    // Offset: 0xE53B28
+    // Offset: 0xE6656C
     void CubeGridSwitchColor(bool CubeSwitchColor);
     // public System.Void .ctor()
-    // Offset: 0xE53EDC
+    // Offset: 0xE66920
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -86,6 +86,6 @@ namespace GlobalNamespace {
     static OVRGridCube* New_ctor();
   }; // OVRGridCube
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGridCube*, "", "OVRGridCube");
 #pragma pack(pop)

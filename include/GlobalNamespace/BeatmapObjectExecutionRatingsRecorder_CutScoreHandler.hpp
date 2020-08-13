@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BeatmapObjectExecutionRatingsRecorder
 #include "GlobalNamespace/BeatmapObjectExecutionRatingsRecorder.hpp"
 // Completed includes
@@ -38,16 +36,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::NoteCutInfo* noteCutInfo;
     // public System.Void .ctor(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback finishCallback)
-    // Offset: 0xB57E5C
+    // Offset: 0xB55E5C
     static BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* New_ctor(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback* finishCallback);
     // public System.Void Set(NoteCutInfo noteCutInfo, NoteExecutionRating noteExecutionRating, SaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0xB585D0
+    // Offset: 0xB565D0
     void Set(GlobalNamespace::NoteCutInfo* noteCutInfo, GlobalNamespace::NoteExecutionRating* noteExecutionRating, GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter);
     // private System.Void HandleSwingRatingCounterDidFinishEvent(SaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0xB58898
+    // Offset: 0xB56898
     void HandleSwingRatingCounterDidFinishEvent(GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter);
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*, "", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler");
 #pragma pack(pop)

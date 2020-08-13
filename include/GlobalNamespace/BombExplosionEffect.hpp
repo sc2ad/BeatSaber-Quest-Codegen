@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Offset: 0xC0
     UnityEngine::ParticleSystem::EmitParams explosionPSEmitParams;
     // protected System.Void Awake()
-    // Offset: 0xB5DB58
+    // Offset: 0xB5BB58
     void Awake();
     // public System.Void SpawnExplosion(UnityEngine.Vector3 pos)
-    // Offset: 0xB5DB90
+    // Offset: 0xB5BB90
     void SpawnExplosion(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0xB5DC58
+    // Offset: 0xB5BC58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,6 +57,6 @@ namespace GlobalNamespace {
     static BombExplosionEffect* New_ctor();
   }; // BombExplosionEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExplosionEffect*, "", "BombExplosionEffect");
 #pragma pack(pop)

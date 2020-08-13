@@ -34,13 +34,13 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x98
     System::TimeSpan matchTimeout;
     // public System.Void .ctor(System.String regexInput, System.String regexPattern, System.TimeSpan matchTimeout)
-    // Offset: 0x121572C
+    // Offset: 0x1228170
     static RegexMatchTimeoutException* New_ctor(::CsString* regexInput, ::CsString* regexPattern, System::TimeSpan matchTimeout);
     // private System.Void Init(System.String input, System.String pattern, System.TimeSpan timeout)
-    // Offset: 0x1215800
+    // Offset: 0x1228244
     void Init(::CsString* input, ::CsString* pattern, System::TimeSpan timeout);
     // public System.Void .ctor()
-    // Offset: 0x1215848
+    // Offset: 0x122828C
     // Implemented from: System.TimeoutException
     // Base method: System.Void TimeoutException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -48,24 +48,24 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static RegexMatchTimeoutException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1215970
+    // Offset: 0x12283B4
     // Implemented from: System.TimeoutException
     // Base method: System.Void TimeoutException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static RegexMatchTimeoutException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1215A9C
+    // Offset: 0x12284E0
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* si, System::Runtime::Serialization::StreamingContext context);
     // private System.Void Init()
-    // Offset: 0x12158C8
+    // Offset: 0x122830C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::Init()
     void Init();
   }; // System.Text.RegularExpressions.RegexMatchTimeoutException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexMatchTimeoutException*, "System.Text.RegularExpressions", "RegexMatchTimeoutException");
 #pragma pack(pop)

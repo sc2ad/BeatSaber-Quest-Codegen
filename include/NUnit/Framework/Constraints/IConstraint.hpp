@@ -36,6 +36,6 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::CsObject* actual);
   }; // NUnit.Framework.Constraints.IConstraint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::IConstraint*, "NUnit.Framework.Constraints", "IConstraint");
 #pragma pack(pop)

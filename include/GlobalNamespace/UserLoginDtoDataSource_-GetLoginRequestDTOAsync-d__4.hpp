@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UserLoginDtoDataSource
 #include "GlobalNamespace/UserLoginDtoDataSource.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
@@ -64,17 +64,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $GetLoginRequestDTOAsync$d__4
     $GetLoginRequestDTOAsync$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<LeaderboardsDTO::LoginRequestDTO*> $$t__builder_ = {}, GlobalNamespace::UserLoginDtoDataSource* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::PlatformUserModelSO::UserInfo* $userInfo$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserModelSO::UserInfo*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::CsString*>*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformTokenInfo*> $$u__3_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $userInfo$5__2{$userInfo$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // private System.Void MoveNext()
-    // Offset: 0xA27FE4
+    // Offset: 0xA28060
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xA27FEC
+    // Offset: 0xA28068
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // UserLoginDtoDataSource/<GetLoginRequestDTOAsync>d__4
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource::$GetLoginRequestDTOAsync$d__4, "", "UserLoginDtoDataSource/<GetLoginRequestDTOAsync>d__4");
 #pragma pack(pop)

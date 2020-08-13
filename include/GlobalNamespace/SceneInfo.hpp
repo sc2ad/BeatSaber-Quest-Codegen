@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     bool disabledRootObjects;
     // public System.String get_sceneName()
-    // Offset: 0xCA5D84
+    // Offset: 0xCB87C8
     ::CsString* get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0xCA5D8C
+    // Offset: 0xCB87D0
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0xCA5D94
+    // Offset: 0xCB87D8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -35,6 +35,6 @@ namespace GlobalNamespace {
     static SceneInfo* New_ctor();
   }; // SceneInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneInfo*, "", "SceneInfo");
 #pragma pack(pop)

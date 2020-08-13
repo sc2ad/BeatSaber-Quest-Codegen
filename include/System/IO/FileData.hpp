@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IO.FileAttributes
 #include "System/IO/FileAttributes.hpp"
 // Including type: System.DateTime
@@ -33,12 +31,12 @@ namespace System::IO {
     // Offset: 0x28
     System::DateTime LastWriteTime;
     // public System.Void .ctor()
-    // Offset: 0xF4FDBC
+    // Offset: 0xF61800
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FileData* New_ctor();
   }; // System.IO.FileData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileData*, "System.IO", "FileData");
 #pragma pack(pop)

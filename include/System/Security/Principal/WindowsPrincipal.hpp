@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Claims.ClaimsPrincipal
 #include "System/Security/Claims/ClaimsPrincipal.hpp"
 // Completed includes
@@ -23,10 +24,10 @@ namespace System::Security::Principal {
     // Offset: 0x28
     System::Security::Principal::WindowsIdentity* identity;
     // public System.Void .ctor(System.Security.Principal.WindowsIdentity ntIdentity)
-    // Offset: 0xDD759C
+    // Offset: 0xDE9FE0
     static WindowsPrincipal* New_ctor(System::Security::Principal::WindowsIdentity* ntIdentity);
   }; // System.Security.Principal.WindowsPrincipal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsPrincipal*, "System.Security.Principal", "WindowsPrincipal");
 #pragma pack(pop)

@@ -20,34 +20,34 @@ namespace UnityEngine {
   class Avatar : public UnityEngine::Object {
     public:
     // public System.Boolean get_isValid()
-    // Offset: 0x1926B08
+    // Offset: 0x193854C
     bool get_isValid();
     // public System.Boolean get_isHuman()
-    // Offset: 0x1926B48
+    // Offset: 0x193858C
     bool get_isHuman();
     // System.Single GetAxisLength(System.Int32 humanId)
-    // Offset: 0x1926B88
+    // Offset: 0x19385CC
     float GetAxisLength(int humanId);
     // UnityEngine.Quaternion GetPostRotation(System.Int32 humanId)
-    // Offset: 0x1926C54
+    // Offset: 0x1938698
     UnityEngine::Quaternion GetPostRotation(int humanId);
     // System.Single Internal_GetAxisLength(System.Int32 humanId)
-    // Offset: 0x1926C04
+    // Offset: 0x1938648
     float Internal_GetAxisLength(int humanId);
     // UnityEngine.Quaternion Internal_GetPostRotation(System.Int32 humanId)
-    // Offset: 0x1926CAC
+    // Offset: 0x19386F0
     UnityEngine::Quaternion Internal_GetPostRotation(int humanId);
     // private System.Void Internal_GetPostRotation_Injected(System.Int32 humanId, UnityEngine.Quaternion ret)
-    // Offset: 0x1926D18
+    // Offset: 0x193875C
     void Internal_GetPostRotation_Injected(int humanId, UnityEngine::Quaternion& ret);
     // private System.Void .ctor()
-    // Offset: 0x1926AA0
+    // Offset: 0x19384E4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static Avatar* New_ctor();
   }; // UnityEngine.Avatar
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Avatar*, "UnityEngine", "Avatar");
 #pragma pack(pop)

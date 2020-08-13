@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OculusPlatformAdditionalContentModel
 #include "GlobalNamespace/OculusPlatformAdditionalContentModel.hpp"
 // Including type: System.Threading.CancellationToken
@@ -54,18 +52,18 @@ namespace GlobalNamespace {
     // Offset: 0x28
     typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback* $$9__1;
     // System.Void <CheckForNewEntitlementsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0xC25CC4
+    // Offset: 0xC37708
     void $CheckForNewEntitlementsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // System.Void <CheckForNewEntitlementsAsync>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.PurchaseList> getPurchasesMsg)
-    // Offset: 0xC2611C
+    // Offset: 0xC37B60
     void $CheckForNewEntitlementsAsync$b__1(Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>* getPurchasesMsg);
     // public System.Void .ctor()
-    // Offset: 0xC25CBC
+    // Offset: 0xC37700
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0* New_ctor();
   }; // OculusPlatformAdditionalContentModel/<>c__DisplayClass12_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0*, "", "OculusPlatformAdditionalContentModel/<>c__DisplayClass12_0");
 #pragma pack(pop)

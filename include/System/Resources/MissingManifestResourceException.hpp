@@ -23,26 +23,26 @@ namespace System::Resources {
   class MissingManifestResourceException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1145DE8
+    // Offset: 0x115782C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static MissingManifestResourceException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x11434D8
+    // Offset: 0x1154F1C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static MissingManifestResourceException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1145E5C
+    // Offset: 0x11578A0
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static MissingManifestResourceException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Resources.MissingManifestResourceException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::MissingManifestResourceException*, "System.Resources", "MissingManifestResourceException");
 #pragma pack(pop)

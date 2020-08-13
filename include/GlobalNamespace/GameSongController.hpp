@@ -49,45 +49,45 @@ namespace GlobalNamespace {
     // Offset: 0x38
     bool songDidFinish;
     // public System.Single get_songLength()
-    // Offset: 0xB3CBA8
+    // Offset: 0xB3ABA8
     float get_songLength();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0xB3CBC4
+    // Offset: 0xB3ABC4
     UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // protected System.Void LateUpdate()
-    // Offset: 0xB3CBE0
+    // Offset: 0xB3ABE0
     void LateUpdate();
     // private System.Collections.IEnumerator StartSongCoroutine()
-    // Offset: 0xB3CC88
+    // Offset: 0xB3AC88
     System::Collections::IEnumerator* StartSongCoroutine();
     // public System.Void FailStopSong()
-    // Offset: 0xB3CDB4
+    // Offset: 0xB3ADB4
     void FailStopSong();
     // private System.Void <FailStopSong>b__14_0()
-    // Offset: 0xB3CEBC
+    // Offset: 0xB3AEBC
     void $FailStopSong$b__14_0();
     // public override System.Void StartSong()
-    // Offset: 0xB3CC58
+    // Offset: 0xB3AC58
     // Implemented from: SongController
     // Base method: System.Void SongController::StartSong()
     void StartSong();
     // public override System.Void StopSong()
-    // Offset: 0xB3CD30
+    // Offset: 0xB3AD30
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0xB3CD64
+    // Offset: 0xB3AD64
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0xB3CD98
+    // Offset: 0xB3AD98
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0xB3CEB4
+    // Offset: 0xB3AEB4
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -98,6 +98,6 @@ namespace GlobalNamespace {
     static GameSongController* New_ctor();
   }; // GameSongController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameSongController*, "", "GameSongController");
 #pragma pack(pop)

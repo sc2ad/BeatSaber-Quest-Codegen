@@ -57,22 +57,22 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _colorID
     static void _set__colorID(int value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x181568C
+    // Offset: 0x18260D0
     static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0x18156F8
+    // Offset: 0x182613C
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x1815718
+    // Offset: 0x182615C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1815980
+    // Offset: 0x18263C4
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x181574C
+    // Offset: 0x1826190
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x18159A0
+    // Offset: 0x18263E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -81,12 +81,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ParametricBoxController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18159BC
+    // Offset: 0x1826400
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ParametricBoxController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxController*, "", "ParametricBoxController");
 #pragma pack(pop)

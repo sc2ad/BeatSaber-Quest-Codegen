@@ -14,13 +14,13 @@ namespace UnityEngine::ProBuilder::KdTree {
   class DuplicateNodeError : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1967828
+    // Offset: 0x197B26C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static DuplicateNodeError* New_ctor();
   }; // UnityEngine.ProBuilder.KdTree.DuplicateNodeError
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::DuplicateNodeError*, "UnityEngine.ProBuilder.KdTree", "DuplicateNodeError");
 #pragma pack(pop)

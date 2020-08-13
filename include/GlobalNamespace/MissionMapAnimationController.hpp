@@ -74,28 +74,28 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::MenuShockwave* shockwaveEffect;
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0xBF22F4
+    // Offset: 0xC03D38
     bool get_animatedUpdateIsRequired();
     // public System.Void ScrollToTopMostNotClearedMission()
-    // Offset: 0xBF243C
+    // Offset: 0xC03E80
     void ScrollToTopMostNotClearedMission();
     // public System.Void UpdateMissionMapAfterMissionWasCleared(System.Boolean animated, System.Action finishCallback)
-    // Offset: 0xBF267C
+    // Offset: 0xC040C0
     void UpdateMissionMapAfterMissionWasCleared(bool animated, System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateMissionMapCoroutine(MissionNode lastClearedMissionNode, System.Action finishCallback)
-    // Offset: 0xBF27B8
+    // Offset: 0xC041FC
     System::Collections::IEnumerator* UpdateMissionMapCoroutine(GlobalNamespace::MissionNode* lastClearedMissionNode, System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateClearedNodeStateCoroutine(MissionNode lastClearedMissionNode)
-    // Offset: 0xBF2890
+    // Offset: 0xC042D4
     System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(GlobalNamespace::MissionNode* lastClearedMissionNode);
     // private System.Collections.IEnumerator UpdateStageCoroutine()
-    // Offset: 0xBF2954
+    // Offset: 0xC04398
     System::Collections::IEnumerator* UpdateStageCoroutine();
     // private System.Collections.IEnumerator UpdateNodesAndConnectionCoroutine()
-    // Offset: 0xBF29FC
+    // Offset: 0xC04440
     System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
     // public System.Void .ctor()
-    // Offset: 0xBF2AA4
+    // Offset: 0xC044E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -105,6 +105,6 @@ namespace GlobalNamespace {
     static MissionMapAnimationController* New_ctor();
   }; // MissionMapAnimationController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController*, "", "MissionMapAnimationController");
 #pragma pack(pop)

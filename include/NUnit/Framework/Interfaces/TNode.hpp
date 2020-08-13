@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -60,79 +58,79 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static private System.Text.RegularExpressions.MatchEvaluator CS$<>9__CachedAnonymousMethodDelegate1
     static void _set_CS$$$9__CachedAnonymousMethodDelegate1(System::Text::RegularExpressions::MatchEvaluator* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x106B2B8
+    // Offset: 0x107ACFC
     static TNode* New_ctor(::CsString* name);
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x106B36C
+    // Offset: 0x107ADB0
     static TNode* New_ctor(::CsString* name, ::CsString* value);
     // public System.Void .ctor(System.String name, System.String value, System.Boolean valueIsCDATA)
-    // Offset: 0x106B3A4
+    // Offset: 0x107ADE8
     static TNode* New_ctor(::CsString* name, ::CsString* value, bool valueIsCDATA);
     // public System.String get_Name()
-    // Offset: 0x106B3EC
+    // Offset: 0x107AE30
     ::CsString* get_Name();
     // private System.Void set_Name(System.String value)
-    // Offset: 0x106B3F4
+    // Offset: 0x107AE38
     void set_Name(::CsString* value);
     // public System.String get_Value()
-    // Offset: 0x106B3FC
+    // Offset: 0x107AE40
     ::CsString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x106B404
+    // Offset: 0x107AE48
     void set_Value(::CsString* value);
     // public System.Boolean get_ValueIsCDATA()
-    // Offset: 0x106B40C
+    // Offset: 0x107AE50
     bool get_ValueIsCDATA();
     // private System.Void set_ValueIsCDATA(System.Boolean value)
-    // Offset: 0x106B414
+    // Offset: 0x107AE58
     void set_ValueIsCDATA(bool value);
     // public NUnit.Framework.Interfaces.AttributeDictionary get_Attributes()
-    // Offset: 0x106B420
+    // Offset: 0x107AE64
     NUnit::Framework::Interfaces::AttributeDictionary* get_Attributes();
     // private System.Void set_Attributes(NUnit.Framework.Interfaces.AttributeDictionary value)
-    // Offset: 0x106B428
+    // Offset: 0x107AE6C
     void set_Attributes(NUnit::Framework::Interfaces::AttributeDictionary* value);
     // public NUnit.Framework.Interfaces.NodeList get_ChildNodes()
-    // Offset: 0x106B430
+    // Offset: 0x107AE74
     NUnit::Framework::Interfaces::NodeList* get_ChildNodes();
     // private System.Void set_ChildNodes(NUnit.Framework.Interfaces.NodeList value)
-    // Offset: 0x106B438
+    // Offset: 0x107AE7C
     void set_ChildNodes(NUnit::Framework::Interfaces::NodeList* value);
     // public System.String get_OuterXml()
-    // Offset: 0x106B440
+    // Offset: 0x107AE84
     ::CsString* get_OuterXml();
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name)
-    // Offset: 0x106B7F8
+    // Offset: 0x107B23C
     NUnit::Framework::Interfaces::TNode* AddElement(::CsString* name);
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name, System.String value)
-    // Offset: 0x106B884
+    // Offset: 0x107B2C8
     NUnit::Framework::Interfaces::TNode* AddElement(::CsString* name, ::CsString* value);
     // public NUnit.Framework.Interfaces.TNode AddElementWithCDATA(System.String name, System.String value)
-    // Offset: 0x106BA70
+    // Offset: 0x107B4B4
     NUnit::Framework::Interfaces::TNode* AddElementWithCDATA(::CsString* name, ::CsString* value);
     // public System.Void AddAttribute(System.String name, System.String value)
-    // Offset: 0x106BB40
+    // Offset: 0x107B584
     void AddAttribute(::CsString* name, ::CsString* value);
     // public System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x106B5B8
+    // Offset: 0x107AFFC
     void WriteTo(System::Xml::XmlWriter* writer);
     // static private System.String EscapeInvalidXmlCharacters(System.String str)
-    // Offset: 0x106B950
+    // Offset: 0x107B394
     static ::CsString* EscapeInvalidXmlCharacters(::CsString* str);
     // static private System.String CharToUnicodeSequence(System.Char symbol)
-    // Offset: 0x106BCFC
+    // Offset: 0x107B740
     static ::CsString* CharToUnicodeSequence(::Il2CppChar symbol);
     // private System.Void WriteCDataTo(System.Xml.XmlWriter writer)
-    // Offset: 0x106BBDC
+    // Offset: 0x107B620
     void WriteCDataTo(System::Xml::XmlWriter* writer);
     // static private System.String <EscapeInvalidXmlCharacters>b__0(System.Text.RegularExpressions.Match match)
-    // Offset: 0x106BD80
+    // Offset: 0x107B7C4
     static ::CsString* $EscapeInvalidXmlCharacters$b__0(System::Text::RegularExpressions::Match* match);
     // static private System.Void .cctor()
-    // Offset: 0x106BE10
+    // Offset: 0x107B854
     static void _cctor();
   }; // NUnit.Framework.Interfaces.TNode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode*, "NUnit.Framework.Interfaces", "TNode");
 #pragma pack(pop)

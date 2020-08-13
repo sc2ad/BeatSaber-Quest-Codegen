@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Diagnostics.Tracing.EventProvider
-#include "System/Diagnostics/Tracing/EventProvider.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource
 #include "System/Diagnostics/Tracing/EventSource.hpp"
+// Including type: System.Diagnostics.Tracing.EventProvider
+#include "System/Diagnostics/Tracing/EventProvider.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics::Tracing
@@ -32,15 +32,15 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x60
     System::Diagnostics::Tracing::EventSource* m_eventSource;
     // public System.Void .ctor(System.Diagnostics.Tracing.EventSource eventSource)
-    // Offset: 0xD7E658
+    // Offset: 0xD9209C
     static EventSource::OverideEventProvider* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource);
     // protected override System.Void OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId)
-    // Offset: 0xD7E6DC
+    // Offset: 0xD92120
     // Implemented from: System.Diagnostics.Tracing.EventProvider
     // Base method: System.Void EventProvider::OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId)
     void OnControllerCommand(System::Diagnostics::Tracing::ControllerCommand command, System::Collections::Generic::IDictionary_2<::CsString*, ::CsString*>* arguments, int perEventSourceSessionId, int etwSessionId);
   }; // System.Diagnostics.Tracing.EventSource/OverideEventProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource::OverideEventProvider*, "System.Diagnostics.Tracing", "EventSource/OverideEventProvider");
 #pragma pack(pop)

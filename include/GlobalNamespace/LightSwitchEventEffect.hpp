@@ -85,25 +85,25 @@ namespace GlobalNamespace {
     // Offset: 0x95
     bool initialized;
     // public System.Int32 get_LightsID()
-    // Offset: 0xBE58E8
+    // Offset: 0xBF732C
     int get_LightsID();
     // protected System.Void Start()
-    // Offset: 0xBE58F0
+    // Offset: 0xBF7334
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xBE5984
+    // Offset: 0xBF73C8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBE5A5C
+    // Offset: 0xBF74A0
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBE5C04
+    // Offset: 0xBF7648
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0xBE5BE0
+    // Offset: 0xBF7624
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0xBE5EE8
+    // Offset: 0xBF792C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -113,6 +113,6 @@ namespace GlobalNamespace {
     static LightSwitchEventEffect* New_ctor();
   }; // LightSwitchEventEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightSwitchEventEffect*, "", "LightSwitchEventEffect");
 #pragma pack(pop)

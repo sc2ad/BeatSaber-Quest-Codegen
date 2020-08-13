@@ -169,136 +169,136 @@ namespace HMUI {
     // Offset: 0xB0
     bool refreshScrollButtonsIsScheduled;
     // public System.Void set_selectionType(HMUI.TableViewSelectionType value)
-    // Offset: 0x10D0FD8
+    // Offset: 0x10E1A1C
     void set_selectionType(HMUI::TableViewSelectionType value);
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`2<HMUI.TableView,System.Int32> value)
-    // Offset: 0x10D0FE0
+    // Offset: 0x10E1A24
     void add_didSelectCellWithIdxEvent(System::Action_2<HMUI::TableView*, int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`2<HMUI.TableView,System.Int32> value)
-    // Offset: 0x10D1084
+    // Offset: 0x10E1AC8
     void remove_didSelectCellWithIdxEvent(System::Action_2<HMUI::TableView*, int>* value);
     // public System.Void add_cellWasPressedEvent(System.Action`2<HMUI.TableView,HMUI.TableCell> value)
-    // Offset: 0x10D1128
+    // Offset: 0x10E1B6C
     void add_cellWasPressedEvent(System::Action_2<HMUI::TableView*, HMUI::TableCell*>* value);
     // public System.Void remove_cellWasPressedEvent(System.Action`2<HMUI.TableView,HMUI.TableCell> value)
-    // Offset: 0x10D11CC
+    // Offset: 0x10E1C10
     void remove_cellWasPressedEvent(System::Action_2<HMUI::TableView*, HMUI::TableCell*>* value);
     // public HMUI.TableView/IDataSource get_dataSource()
-    // Offset: 0x10D1270
+    // Offset: 0x10E1CB4
     HMUI::TableView::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.TableView/IDataSource value)
-    // Offset: 0x10D1278
+    // Offset: 0x10E1CBC
     void set_dataSource(HMUI::TableView::IDataSource* value);
     // public System.Collections.Generic.IEnumerable`1<HMUI.TableCell> get_visibleCells()
-    // Offset: 0x10D12C0
+    // Offset: 0x10E1D04
     System::Collections::Generic::IEnumerable_1<HMUI::TableCell*>* get_visibleCells();
     // public UnityEngine.RectTransform get_scrollRectTransform()
-    // Offset: 0x10D12C8
+    // Offset: 0x10E1D0C
     UnityEngine::RectTransform* get_scrollRectTransform();
     // public UnityEngine.RectTransform get_contentTransform()
-    // Offset: 0x10D12D0
+    // Offset: 0x10E1D14
     UnityEngine::RectTransform* get_contentTransform();
     // public System.Int32 get_numberOfCells()
-    // Offset: 0x10D12D8
+    // Offset: 0x10E1D1C
     int get_numberOfCells();
     // public System.Single get_cellSize()
-    // Offset: 0x10D12E0
+    // Offset: 0x10E1D24
     float get_cellSize();
     // public HMUI.TableView/TableType get_tableType()
-    // Offset: 0x10D12E8
+    // Offset: 0x10E1D2C
     HMUI::TableView::TableType get_tableType();
     // protected System.Void Awake()
-    // Offset: 0x10D12F0
+    // Offset: 0x10E1D34
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x10D1A58
+    // Offset: 0x10E249C
     void OnEnable();
     // private System.Void Init()
-    // Offset: 0x10D1300
+    // Offset: 0x10E1D44
     void Init();
     // protected System.Void OnDestroy()
-    // Offset: 0x10D1B98
+    // Offset: 0x10E25DC
     void OnDestroy();
     // public System.Void Hide()
-    // Offset: 0x10D1BB4
+    // Offset: 0x10E25F8
     void Hide();
     // public System.Void Show()
-    // Offset: 0x10D1D04
+    // Offset: 0x10E2748
     void Show();
     // private System.Void RefreshScrollButtons(System.Boolean instant)
-    // Offset: 0x10D1D4C
+    // Offset: 0x10E2790
     void RefreshScrollButtons(bool instant);
     // private System.Collections.IEnumerator RefreshScrollButtonsCoroutine()
-    // Offset: 0x10D20A4
+    // Offset: 0x10E2AE8
     System::Collections::IEnumerator* RefreshScrollButtonsCoroutine();
     // private System.Void RefreshContentSize()
-    // Offset: 0x10D214C
+    // Offset: 0x10E2B90
     void RefreshContentSize();
     // public System.Void RefreshCellsContent()
-    // Offset: 0x10D21C4
+    // Offset: 0x10E2C08
     void RefreshCellsContent();
     // private System.Void RefreshCells(System.Boolean forcedVisualsRefresh, System.Boolean forcedContentRefresh)
-    // Offset: 0x10D21D0
+    // Offset: 0x10E2C14
     void RefreshCells(bool forcedVisualsRefresh, bool forcedContentRefresh);
     // private System.Void LayoutCellForIdx(HMUI.TableCell cell, System.Int32 idx, System.Single offset)
-    // Offset: 0x10D2864
+    // Offset: 0x10E32A8
     void LayoutCellForIdx(HMUI::TableCell* cell, int idx, float offset);
     // private System.Void AddCellToReusableCells(HMUI.TableCell cell)
-    // Offset: 0x10D2774
+    // Offset: 0x10E31B8
     void AddCellToReusableCells(HMUI::TableCell* cell);
     // private System.Void HandleScrollRectValueChanged(UnityEngine.Vector2 pos)
-    // Offset: 0x10D2AAC
+    // Offset: 0x10E34F0
     void HandleScrollRectValueChanged(UnityEngine::Vector2 pos);
     // protected System.Void DidSelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x10D2D28
+    // Offset: 0x10E376C
     void DidSelectCellWithIdx(int idx);
     // public System.Void ReloadData()
-    // Offset: 0x10CDB1C
+    // Offset: 0x10DE560
     void ReloadData();
     // public System.Void InsertCells(System.Int32 idx, System.Int32 count)
-    // Offset: 0x10CE0CC
+    // Offset: 0x10DEB10
     void InsertCells(int idx, int count);
     // public System.Void DeleteCells(System.Int32 idx, System.Int32 count)
-    // Offset: 0x10CE4A8
+    // Offset: 0x10DEEEC
     void DeleteCells(int idx, int count);
     // public HMUI.TableCell DequeueReusableCellForIdentifier(System.String identifier)
-    // Offset: 0x10D2DA0
+    // Offset: 0x10E37E4
     HMUI::TableCell* DequeueReusableCellForIdentifier(::CsString* identifier);
     // public System.Void SelectCellWithIdx(System.Int32 idx, System.Boolean callbackTable)
-    // Offset: 0x10D2E54
+    // Offset: 0x10E3898
     void SelectCellWithIdx(int idx, bool callbackTable);
     // public System.Void ClearSelection()
-    // Offset: 0x10D2FC4
+    // Offset: 0x10E3A08
     void ClearSelection();
     // public System.Void ClearHighlights()
-    // Offset: 0x10D1A5C
+    // Offset: 0x10E24A0
     void ClearHighlights();
     // public System.Void ScrollToCellWithIdx(System.Int32 idx, HMUI.TableViewScroller/ScrollPositionType scrollPositionType, System.Boolean animated)
-    // Offset: 0x10CE7F8
+    // Offset: 0x10DF23C
     void ScrollToCellWithIdx(int idx, HMUI::TableViewScroller::ScrollPositionType scrollPositionType, bool animated);
     // private System.Void <Init>b__50_0()
-    // Offset: 0x10D32C4
+    // Offset: 0x10E3D08
     void $Init$b__50_0();
     // private System.Void <Init>b__50_1()
-    // Offset: 0x10D340C
+    // Offset: 0x10E3E50
     void $Init$b__50_1();
     // public HMUI.TableViewSelectionType get_selectionType()
-    // Offset: 0x10D0FD0
+    // Offset: 0x10E1A14
     // Implemented from: HMUI.ITableCellOwner
     // Base method: HMUI.TableViewSelectionType ITableCellOwner::get_selectionType()
     HMUI::TableViewSelectionType get_selectionType();
     // public System.Void CellWasPressed(HMUI.TableCell cell)
-    // Offset: 0x10D2AB8
+    // Offset: 0x10E34FC
     // Implemented from: HMUI.ITableCellOwner
     // Base method: System.Void ITableCellOwner::CellWasPressed(HMUI.TableCell cell)
     void CellWasPressed(HMUI::TableCell* cell);
     // public System.Void CellSelectionStateDidChange(HMUI.TableCell changedCell)
-    // Offset: 0x10D2B30
+    // Offset: 0x10E3574
     // Implemented from: HMUI.ITableCellOwner
     // Base method: System.Void ITableCellOwner::CellSelectionStateDidChange(HMUI.TableCell changedCell)
     void CellSelectionStateDidChange(HMUI::TableCell* changedCell);
     // public System.Void .ctor()
-    // Offset: 0x10CE84C
+    // Offset: 0x10DF290
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -308,7 +308,7 @@ namespace HMUI {
     static TableView* New_ctor();
   }; // HMUI.TableView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView*, "HMUI", "TableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::TableType, "HMUI", "TableView/TableType");
 #pragma pack(pop)

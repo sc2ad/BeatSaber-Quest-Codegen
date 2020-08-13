@@ -24,6 +24,6 @@ namespace UnityEngine::EventSystems {
     void OnEndDrag(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IEndDragHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IEndDragHandler*, "UnityEngine.EventSystems", "IEndDragHandler");
 #pragma pack(pop)

@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithPartyUnderCurrentParty : public Oculus::Platform::Message_1<Oculus::Platform::Models::Party*> {
     public:
     // protected Oculus.Platform.Models.Party GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE9036C
+    // Offset: 0xEA2DB0
     Oculus::Platform::Models::Party* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88980
+    // Offset: 0xE9B3C4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPartyUnderCurrentParty* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.Party GetParty()
-    // Offset: 0xE90328
+    // Offset: 0xEA2D6C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.Party Message::GetParty()
     Oculus::Platform::Models::Party* GetParty();
   }; // Oculus.Platform.MessageWithPartyUnderCurrentParty
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPartyUnderCurrentParty*, "Oculus.Platform", "MessageWithPartyUnderCurrentParty");
 #pragma pack(pop)

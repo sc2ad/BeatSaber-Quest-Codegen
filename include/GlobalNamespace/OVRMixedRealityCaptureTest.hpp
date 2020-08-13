@@ -66,19 +66,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::OVRPlugin::Fovf defaultFov;
     // private System.Void Start()
-    // Offset: 0xED64EC
+    // Offset: 0xEE7F30
     void Start();
     // private System.Void Initialize()
-    // Offset: 0xED659C
+    // Offset: 0xEE7FE0
     void Initialize();
     // private System.Void UpdateDefaultExternalCamera()
-    // Offset: 0xED6B04
+    // Offset: 0xEE8548
     void UpdateDefaultExternalCamera();
     // private System.Void Update()
-    // Offset: 0xED7180
+    // Offset: 0xEE8BC4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xED7D30
+    // Offset: 0xEE9774
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     static OVRMixedRealityCaptureTest* New_ctor();
   }; // OVRMixedRealityCaptureTest
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest*, "", "OVRMixedRealityCaptureTest");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");
 #pragma pack(pop)

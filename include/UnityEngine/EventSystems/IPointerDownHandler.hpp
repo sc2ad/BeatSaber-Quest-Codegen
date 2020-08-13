@@ -24,6 +24,6 @@ namespace UnityEngine::EventSystems {
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IPointerDownHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IPointerDownHandler*, "UnityEngine.EventSystems", "IPointerDownHandler");
 #pragma pack(pop)

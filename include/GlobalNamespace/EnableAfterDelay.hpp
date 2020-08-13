@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::MonoBehaviour* component;
     // private System.Collections.IEnumerator Start()
-    // Offset: 0xC99E88
+    // Offset: 0xCAC8CC
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xC99F30
+    // Offset: 0xCAC974
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     static EnableAfterDelay* New_ctor();
   }; // EnableAfterDelay
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableAfterDelay*, "", "EnableAfterDelay");
 #pragma pack(pop)

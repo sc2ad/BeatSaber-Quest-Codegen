@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::AnimationCurve* gainCurve;
     // private System.Collections.IEnumerator StartEffectCoroutine(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x196F79C
+    // Offset: 0xB87A98
     System::Collections::IEnumerator* StartEffectCoroutine(float volumeScale, System::Action* finishCallback);
     // public System.Void StartEffect(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x196F870
+    // Offset: 0xB87B6C
     void StartEffect(float volumeScale, System::Action* finishCallback);
     // public System.Void .ctor()
-    // Offset: 0x196F89C
+    // Offset: 0xB87B98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace GlobalNamespace {
     static AudioPitchGainEffect* New_ctor();
   }; // AudioPitchGainEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPitchGainEffect*, "", "AudioPitchGainEffect");
 #pragma pack(pop)

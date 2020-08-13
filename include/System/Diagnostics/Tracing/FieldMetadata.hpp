@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.EventFieldTags
 #include "System/Diagnostics/Tracing/EventFieldTags.hpp"
 // Completed includes
@@ -44,19 +42,19 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x2B
     uint8_t outType;
     // public System.Void .ctor(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType type, System.Diagnostics.Tracing.EventFieldTags tags, System.Boolean variableCount)
-    // Offset: 0xD7F6C8
+    // Offset: 0xD9310C
     static FieldMetadata* New_ctor(::CsString* name, System::Diagnostics::Tracing::TraceLoggingDataType type, System::Diagnostics::Tracing::EventFieldTags tags, bool variableCount);
     // private System.Void .ctor(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType dataType, System.Diagnostics.Tracing.EventFieldTags tags, System.Byte countFlags, System.UInt16 fixedCount, System.Byte[] custom)
-    // Offset: 0xD7F6F0
+    // Offset: 0xD93134
     static FieldMetadata* New_ctor(::CsString* name, System::Diagnostics::Tracing::TraceLoggingDataType dataType, System::Diagnostics::Tracing::EventFieldTags tags, uint8_t countFlags, uint16_t fixedCount, ::Array<uint8_t>* custom);
     // public System.Void IncrementStructFieldCount()
-    // Offset: 0xD7F978
+    // Offset: 0xD933BC
     void IncrementStructFieldCount();
     // public System.Void Encode(System.Int32 pos, System.Byte[] metadata)
-    // Offset: 0xD7FA18
+    // Offset: 0xD9345C
     void Encode(int& pos, ::Array<uint8_t>* metadata);
   }; // System.Diagnostics.Tracing.FieldMetadata
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::FieldMetadata*, "System.Diagnostics.Tracing", "FieldMetadata");
 #pragma pack(pop)

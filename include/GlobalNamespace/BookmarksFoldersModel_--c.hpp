@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BookmarksFoldersModel
 #include "GlobalNamespace/BookmarksFoldersModel.hpp"
 // Including type: System.Environment/SpecialFolder
@@ -34,18 +32,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Environment/SpecialFolder,System.String> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<System::Environment::SpecialFolder, ::CsString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB5E518
+    // Offset: 0xB5C518
     static void _cctor();
     // System.String <get_bookmarksFolders>b__3_0(System.Environment/SpecialFolder specialFolder)
-    // Offset: 0xB5E588
+    // Offset: 0xB5C588
     ::CsString* $get_bookmarksFolders$b__3_0(System::Environment::SpecialFolder specialFolder);
     // public System.Void .ctor()
-    // Offset: 0xB5E580
+    // Offset: 0xB5C580
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BookmarksFoldersModel::$$c* New_ctor();
   }; // BookmarksFoldersModel/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel::$$c*, "", "BookmarksFoldersModel/<>c");
 #pragma pack(pop)

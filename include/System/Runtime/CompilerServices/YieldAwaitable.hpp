@@ -22,10 +22,10 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: YieldAwaitable
     YieldAwaitable() {}
     // public System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter GetAwaiter()
-    // Offset: 0xA3E96C
+    // Offset: 0xA3E9E8
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.YieldAwaitable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::YieldAwaitable, "System.Runtime.CompilerServices", "YieldAwaitable");
 #pragma pack(pop)

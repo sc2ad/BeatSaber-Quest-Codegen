@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PlatformTokenInfo
 #include "GlobalNamespace/PlatformTokenInfo.hpp"
 // Including type: System.Enum
@@ -65,23 +63,23 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::CsString* serializedName;
     // private System.Void .ctor(PlatformTokenInfo/PlatformEnvironmentInfo/PlatformEnvironment platformEnvironment, System.String serializedName)
-    // Offset: 0xBC2C10
+    // Offset: 0xBD5654
     static PlatformTokenInfo::PlatformEnvironmentInfo* New_ctor(GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo::PlatformEnvironment platformEnvironment, ::CsString* serializedName);
     // static public PlatformTokenInfo/PlatformEnvironmentInfo TestPlatformEnvironmentInfo()
-    // Offset: 0xBC2C54
+    // Offset: 0xBD5698
     static GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* TestPlatformEnvironmentInfo();
     // static public PlatformTokenInfo/PlatformEnvironmentInfo DevelopmentPlatformEnvironmentInfo()
-    // Offset: 0xBC2CD0
+    // Offset: 0xBD5714
     static GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* DevelopmentPlatformEnvironmentInfo();
     // static public PlatformTokenInfo/PlatformEnvironmentInfo CertificationPlatformEnvironmentInfo()
-    // Offset: 0xBC2D50
+    // Offset: 0xBD5794
     static GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* CertificationPlatformEnvironmentInfo();
     // static public PlatformTokenInfo/PlatformEnvironmentInfo LivePlatformEnvironmentInfo()
-    // Offset: 0xBC2DD0
+    // Offset: 0xBD5814
     static GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* LivePlatformEnvironmentInfo();
   }; // PlatformTokenInfo/PlatformEnvironmentInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo*, "", "PlatformTokenInfo/PlatformEnvironmentInfo");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo::PlatformEnvironment, "", "PlatformTokenInfo/PlatformEnvironmentInfo/PlatformEnvironment");
 #pragma pack(pop)

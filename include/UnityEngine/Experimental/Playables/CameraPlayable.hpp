@@ -24,17 +24,17 @@ namespace UnityEngine::Experimental::Playables {
     // Creating value type constructor for type: CameraPlayable
     CameraPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA4228C
+    // Offset: 0xA42308
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Experimental.Playables.CameraPlayable other)
-    // Offset: 0xA42298
+    // Offset: 0xA42314
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Experimental.Playables.CameraPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::CameraPlayable other);
   }; // UnityEngine.Experimental.Playables.CameraPlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::CameraPlayable, "UnityEngine.Experimental.Playables", "CameraPlayable");
 #pragma pack(pop)

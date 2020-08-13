@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: Oculus.Platform.VoipAudioSourceHiLevel
 #include "Oculus/Platform/VoipAudioSourceHiLevel.hpp"
 // Completed includes
@@ -22,13 +20,13 @@ namespace Oculus::Platform {
     // Offset: 0x20
     ::Array<float>* scratchBuffer;
     // private System.Void Awake()
-    // Offset: 0x1950CB0
+    // Offset: 0x19636F4
     void Awake();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x1950D70
+    // Offset: 0x19637B4
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0x1951268
+    // Offset: 0x1963CAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -38,6 +36,6 @@ namespace Oculus::Platform {
     static VoipAudioSourceHiLevel::FilterReadDelegate* New_ctor();
   }; // Oculus.Platform.VoipAudioSourceHiLevel/FilterReadDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate*, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");
 #pragma pack(pop)

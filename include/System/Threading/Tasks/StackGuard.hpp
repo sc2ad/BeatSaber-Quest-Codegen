@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -25,21 +23,21 @@ namespace System::Threading::Tasks {
     // Set static field: static private System.Int32 MAX_UNCHECKED_INLINING_DEPTH
     static void _set_MAX_UNCHECKED_INLINING_DEPTH(int value);
     // System.Boolean TryBeginInliningScope()
-    // Offset: 0xCC8F9C
+    // Offset: 0xCDB9E0
     bool TryBeginInliningScope();
     // System.Void EndInliningScope()
-    // Offset: 0xCC8FBC
+    // Offset: 0xCDBA00
     void EndInliningScope();
     // private System.Boolean CheckForSufficientStack()
-    // Offset: 0xCC8FB4
+    // Offset: 0xCDB9F8
     bool CheckForSufficientStack();
     // public System.Void .ctor()
-    // Offset: 0xCC8FD0
+    // Offset: 0xCDBA14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StackGuard* New_ctor();
   }; // System.Threading.Tasks.StackGuard
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");
 #pragma pack(pop)

@@ -11,6 +11,6 @@ namespace System::Runtime::InteropServices {
   class _MethodBase {
   }; // System.Runtime.InteropServices._MethodBase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::_MethodBase*, "System.Runtime.InteropServices", "_MethodBase");
 #pragma pack(pop)

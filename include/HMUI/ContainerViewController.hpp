@@ -61,60 +61,60 @@ namespace HMUI {
     // Offset: 0x70
     System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers;
     // public UnityEngine.RectTransform get_controllersContainer()
-    // Offset: 0xEC1D64
+    // Offset: 0xED47A8
     UnityEngine::RectTransform* get_controllersContainer();
     // public System.Collections.Generic.List`1<HMUI.ViewController> get_viewControllers()
-    // Offset: 0xEC1E10
+    // Offset: 0xED4854
     System::Collections::Generic::List_1<HMUI::ViewController*>* get_viewControllers();
     // protected System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
     // Offset: 0xFFFFFFFF
     void LayoutViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers);
     // public System.Void ClearChildViewControllers()
-    // Offset: 0xEC2264
+    // Offset: 0xED4CA8
     void ClearChildViewControllers();
     // public System.Void SetChildViewController(HMUI.ViewController viewController)
-    // Offset: 0xEC2388
+    // Offset: 0xED4DCC
     void SetChildViewController(HMUI::ViewController* viewController);
     // public System.Void SetChildViewControllers(HMUI.ViewController[] viewControllers)
-    // Offset: 0xEC2444
+    // Offset: 0xED4E88
     void SetChildViewControllers(::Array<HMUI::ViewController*>* viewControllers);
     // protected System.Void AddViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter, System.Boolean immediately)
-    // Offset: 0xEC25B8
+    // Offset: 0xED4FFC
     void AddViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, System::Action_2<float, ::Array<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // private System.Collections.IEnumerator AddViewControllerCoroutine(HMUI.ViewController newViewController, System.Action finishedCallback, System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter, System.Boolean immediately)
-    // Offset: 0xEC26CC
+    // Offset: 0xED5110
     System::Collections::IEnumerator* AddViewControllerCoroutine(HMUI::ViewController* newViewController, System::Action* finishedCallback, System::Action_2<float, ::Array<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // protected System.Void RemoveViewControllers(HMUI.ViewController[] viewControllers, System.Action finishedCallback, System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter, System.Boolean immediately)
-    // Offset: 0xEC27CC
+    // Offset: 0xED5210
     void RemoveViewControllers(::Array<HMUI::ViewController*>* viewControllers, System::Action* finishedCallback, System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // private System.Collections.IEnumerator RemoveViewControllersCoroutine(HMUI.ViewController[] viewControllersToRemove, System.Action finishedCallback, System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter, System.Boolean immediately)
-    // Offset: 0xEC2838
+    // Offset: 0xED527C
     System::Collections::IEnumerator* RemoveViewControllersCoroutine(::Array<HMUI::ViewController*>* viewControllersToRemove, System::Action* finishedCallback, System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // private System.Single[] GetNewXPositionsForViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers, System.Int32 exludeFromEndCount)
-    // Offset: 0xEC2938
+    // Offset: 0xED537C
     ::Array<float>* GetNewXPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, int exludeFromEndCount);
     // public override System.Void __Init(HMUI.Screen screen, HMUI.ViewController parentViewController, HMUI.ContainerViewController containerViewController)
-    // Offset: 0xEC1E18
+    // Offset: 0xED485C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::__Init(HMUI.Screen screen, HMUI.ViewController parentViewController, HMUI.ContainerViewController containerViewController)
     void __Init(HMUI::Screen* screen, HMUI::ViewController* parentViewController, HMUI::ContainerViewController* containerViewController);
     // public override System.Void __Activate(HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xEC1EF8
+    // Offset: 0xED493C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::__Activate(HMUI.ViewController/ActivationType activationType)
     void __Activate(HMUI::ViewController::ActivationType activationType);
     // public override System.Void __Deactivate(HMUI.ViewController/DeactivationType deactivationType, System.Boolean deactivateGameObject)
-    // Offset: 0xEC2028
+    // Offset: 0xED4A6C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::__Deactivate(HMUI.ViewController/DeactivationType deactivationType, System.Boolean deactivateGameObject)
     void __Deactivate(HMUI::ViewController::DeactivationType deactivationType, bool deactivateGameObject);
     // protected override System.Void DeactivateGameObject()
-    // Offset: 0xEC2150
+    // Offset: 0xED4B94
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DeactivateGameObject()
     void DeactivateGameObject();
     // protected System.Void .ctor()
-    // Offset: 0xEC2B6C
+    // Offset: 0xED55B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -125,6 +125,6 @@ namespace HMUI {
     static ContainerViewController* New_ctor();
   }; // HMUI.ContainerViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController*, "HMUI", "ContainerViewController");
 #pragma pack(pop)

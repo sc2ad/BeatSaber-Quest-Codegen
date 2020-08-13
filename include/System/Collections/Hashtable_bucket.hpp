@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Collections.Hashtable
 #include "System/Collections/Hashtable.hpp"
 // Completed includes
@@ -28,6 +26,6 @@ namespace System::Collections {
     bucket(::CsObject* key_ = {}, ::CsObject* val_ = {}, int hash_coll_ = {}) : key{key_}, val{val_}, hash_coll{hash_coll_} {}
   }; // System.Collections.Hashtable/bucket
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::bucket, "System.Collections", "Hashtable/bucket");
 #pragma pack(pop)

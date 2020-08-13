@@ -37,16 +37,16 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Texture3D _texture
     static void _set__texture(UnityEngine::Texture3D* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x18FA22C
+    // Offset: 0x1909C70
     static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0x18FA298
+    // Offset: 0x1909CDC
     void Awake();
     // private UnityEngine.Color32[] CreateNoisePixels(System.Int32 width, System.Int32 height, System.Int32 depth, System.Single scale, System.Int32 repeat, System.Single contrast)
-    // Offset: 0x18FA52C
+    // Offset: 0x1909F70
     ::Array<UnityEngine::Color32>* CreateNoisePixels(int width, int height, int depth, float scale, int repeat, float contrast);
     // public System.Void .ctor()
-    // Offset: 0x18FA7B8
+    // Offset: 0x190A1FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,12 +55,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Noise3DTexturesGenerator* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18FA7C0
+    // Offset: 0x190A204
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Noise3DTexturesGenerator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator*, "", "Noise3DTexturesGenerator");
 #pragma pack(pop)

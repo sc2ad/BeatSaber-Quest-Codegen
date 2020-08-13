@@ -46,19 +46,19 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _cutoutTexOffsetPropertyID
     static void _set__cutoutTexOffsetPropertyID(int value);
     // public System.Boolean get_useRandomCutoutOffset()
-    // Offset: 0xBCF1F0
+    // Offset: 0xBE1C34
     bool get_useRandomCutoutOffset();
     // protected System.Void Start()
-    // Offset: 0xBCF240
+    // Offset: 0xBE1C84
     void Start();
     // public System.Void SetCutout(System.Single cutout)
-    // Offset: 0xBCEE8C
+    // Offset: 0xBE18D0
     void SetCutout(float cutout);
     // public System.Void SetCutout(System.Single cutout, UnityEngine.Vector3 cutoutOffset)
-    // Offset: 0xBCF2F0
+    // Offset: 0xBE1D34
     void SetCutout(float cutout, UnityEngine::Vector3 cutoutOffset);
     // public System.Void .ctor()
-    // Offset: 0xBCF414
+    // Offset: 0xBE1E58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -67,12 +67,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CutoutEffect* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xBCF41C
+    // Offset: 0xBE1E60
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // CutoutEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutEffect*, "", "CutoutEffect");
 #pragma pack(pop)

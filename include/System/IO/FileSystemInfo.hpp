@@ -51,10 +51,10 @@ namespace System::IO {
     // Offset: 0x58
     ::CsString* displayPath;
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x111C600
+    // Offset: 0x112D044
     static FileSystemInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.String get_FullName()
-    // Offset: 0x11240E8
+    // Offset: 0x1134B2C
     ::CsString* get_FullName();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
@@ -63,37 +63,37 @@ namespace System::IO {
     // Offset: 0xFFFFFFFF
     bool get_Exists();
     // public System.DateTime get_CreationTime()
-    // Offset: 0x11240F0
+    // Offset: 0x1134B34
     System::DateTime get_CreationTime();
     // public System.DateTime get_CreationTimeUtc()
-    // Offset: 0x112411C
+    // Offset: 0x1134B60
     System::DateTime get_CreationTimeUtc();
     // public System.DateTime get_LastAccessTime()
-    // Offset: 0x11241C4
+    // Offset: 0x1134C08
     System::DateTime get_LastAccessTime();
     // public System.DateTime get_LastAccessTimeUtc()
-    // Offset: 0x11241F0
+    // Offset: 0x1134C34
     System::DateTime get_LastAccessTimeUtc();
     // public System.Void Refresh()
-    // Offset: 0x111C79C
+    // Offset: 0x112D1E0
     void Refresh();
     // public System.IO.FileAttributes get_Attributes()
-    // Offset: 0x1124298
+    // Offset: 0x1134CDC
     System::IO::FileAttributes get_Attributes();
     // System.String get_DisplayPath()
-    // Offset: 0x11243D8
+    // Offset: 0x1134E1C
     ::CsString* get_DisplayPath();
     // System.Void set_DisplayPath(System.String value)
-    // Offset: 0x11243E0
+    // Offset: 0x1134E24
     void set_DisplayPath(::CsString* value);
     // protected System.Void .ctor()
-    // Offset: 0x111C170
+    // Offset: 0x112CBB4
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static FileSystemInfo* New_ctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x11242F4
+    // Offset: 0x1134D38
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -102,6 +102,6 @@ namespace System::IO {
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.FileSystemInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemInfo*, "System.IO", "FileSystemInfo");
 #pragma pack(pop)

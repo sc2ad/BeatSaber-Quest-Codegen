@@ -43,6 +43,6 @@ namespace UnityEngine {
     AnimatorStateInfo(int m_Name_ = {}, int m_Path_ = {}, int m_FullPath_ = {}, float m_NormalizedTime_ = {}, float m_Length_ = {}, float m_Speed_ = {}, float m_SpeedMultiplier_ = {}, int m_Tag_ = {}, int m_Loop_ = {}) : m_Name{m_Name_}, m_Path{m_Path_}, m_FullPath{m_FullPath_}, m_NormalizedTime{m_NormalizedTime_}, m_Length{m_Length_}, m_Speed{m_Speed_}, m_SpeedMultiplier{m_SpeedMultiplier_}, m_Tag{m_Tag_}, m_Loop{m_Loop_} {}
   }; // UnityEngine.AnimatorStateInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorStateInfo, "UnityEngine", "AnimatorStateInfo");
 #pragma pack(pop)

@@ -56,6 +56,6 @@ namespace System::IO {
     FileShare(int value_ = {}) : value{value_} {}
   }; // System.IO.FileShare
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileShare, "System.IO", "FileShare");
 #pragma pack(pop)

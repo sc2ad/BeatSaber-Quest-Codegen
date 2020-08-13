@@ -75,25 +75,25 @@ namespace GlobalNamespace {
     // Offset: 0x48
     HMUI::ButtonBinder* buttonBinder;
     // public System.Void add_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0xBD1390
+    // Offset: 0xBE3DD4
     void add_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // public System.Void remove_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0xBD1434
+    // Offset: 0xBE3E78
     void remove_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // protected System.Void Start()
-    // Offset: 0xBD14D8
+    // Offset: 0xBE3F1C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBD1580
+    // Offset: 0xBE3FC4
     void OnDestroy();
     // public System.Void Init(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xBD1594
+    // Offset: 0xBE3FD8
     void Init(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void PlayButtonWasPressed()
-    // Offset: 0xBD17D0
+    // Offset: 0xBE4214
     void PlayButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0xBD1834
+    // Offset: 0xBE4278
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,6 +103,6 @@ namespace GlobalNamespace {
     static DemoMenuLevelPanelView* New_ctor();
   }; // DemoMenuLevelPanelView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DemoMenuLevelPanelView*, "", "DemoMenuLevelPanelView");
 #pragma pack(pop)

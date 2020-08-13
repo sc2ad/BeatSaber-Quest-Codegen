@@ -22,16 +22,16 @@ namespace System::Resources {
     // Offset: 0x18
     System::Resources::UltimateResourceFallbackLocation fallbackLoc;
     // public System.Void .ctor(System.String cultureName)
-    // Offset: 0x1145EE0
+    // Offset: 0x1157924
     static NeutralResourcesLanguageAttribute* New_ctor(::CsString* cultureName);
     // public System.String get_CultureName()
-    // Offset: 0x1145F8C
+    // Offset: 0x11579D0
     ::CsString* get_CultureName();
     // public System.Resources.UltimateResourceFallbackLocation get_Location()
-    // Offset: 0x1145F94
+    // Offset: 0x11579D8
     System::Resources::UltimateResourceFallbackLocation get_Location();
   }; // System.Resources.NeutralResourcesLanguageAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::NeutralResourcesLanguageAttribute*, "System.Resources", "NeutralResourcesLanguageAttribute");
 #pragma pack(pop)

@@ -61,6 +61,6 @@ namespace Valve::VR {
     IVRChaperone(Valve::VR::IVRChaperone::_GetCalibrationState* GetCalibrationState_ = {}, Valve::VR::IVRChaperone::_GetPlayAreaSize* GetPlayAreaSize_ = {}, Valve::VR::IVRChaperone::_GetPlayAreaRect* GetPlayAreaRect_ = {}, Valve::VR::IVRChaperone::_ReloadInfo* ReloadInfo_ = {}, Valve::VR::IVRChaperone::_SetSceneColor* SetSceneColor_ = {}, Valve::VR::IVRChaperone::_GetBoundsColor* GetBoundsColor_ = {}, Valve::VR::IVRChaperone::_AreBoundsVisible* AreBoundsVisible_ = {}, Valve::VR::IVRChaperone::_ForceBoundsVisible* ForceBoundsVisible_ = {}) : GetCalibrationState{GetCalibrationState_}, GetPlayAreaSize{GetPlayAreaSize_}, GetPlayAreaRect{GetPlayAreaRect_}, ReloadInfo{ReloadInfo_}, SetSceneColor{SetSceneColor_}, GetBoundsColor{GetBoundsColor_}, AreBoundsVisible{AreBoundsVisible_}, ForceBoundsVisible{ForceBoundsVisible_} {}
   }; // Valve.VR.IVRChaperone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone, "Valve.VR", "IVRChaperone");
 #pragma pack(pop)

@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Networking.UnityWebRequestAsyncOperation
 #include "UnityEngine/Networking/UnityWebRequestAsyncOperation.hpp"
 // Including type: UnityEngine.Networking.UnityWebRequest

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: Zenject.BindingInheritanceMethods
@@ -106,18 +104,18 @@ namespace Zenject {
     // Offset: 0x78
     System::Action_2<Zenject::InjectContext*, ::CsObject*>* InstantiatedCallback;
     // public System.Void SetContextInfo(System.String contextInfo)
-    // Offset: 0xD50D5C
+    // Offset: 0xD647A0
     void SetContextInfo(::CsString* contextInfo);
     // public System.Void Reset()
-    // Offset: 0xD50BF4
+    // Offset: 0xD64638
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0xD50B10
+    // Offset: 0xD64554
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BindInfo* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0xD50CF4
+    // Offset: 0xD64738
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -126,6 +124,6 @@ namespace Zenject {
     void System_IDisposable_Dispose();
   }; // Zenject.BindInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindInfo*, "Zenject", "BindInfo");
 #pragma pack(pop)

@@ -70,22 +70,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool IsInitialized;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0xED430C
+    // Offset: 0xEE5D50
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0xED4314
+    // Offset: 0xEE5D58
     void set_IsInitialized(bool value);
     // public UnityEngine.Mesh get_Mesh()
-    // Offset: 0xED4320
+    // Offset: 0xEE5D64
     UnityEngine::Mesh* get_Mesh();
     // private System.Void Awake()
-    // Offset: 0xED4328
+    // Offset: 0xEE5D6C
     void Awake();
     // private System.Void Initialize(OVRMesh/MeshType meshType)
-    // Offset: 0xED4438
+    // Offset: 0xEE5E7C
     void Initialize(GlobalNamespace::OVRMesh::MeshType meshType);
     // public System.Void .ctor()
-    // Offset: 0xED4B54
+    // Offset: 0xEE6598
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     static OVRMesh* New_ctor();
   }; // OVRMesh
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh*, "", "OVRMesh");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::MeshType, "", "OVRMesh/MeshType");
 #pragma pack(pop)

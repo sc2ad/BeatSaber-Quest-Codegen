@@ -87,40 +87,40 @@ namespace GlobalNamespace {
     // Offset: 0x8C
     bool savedCursorVisible;
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0xD72A7C
+    // Offset: 0xD864C0
     UnityEngine::RenderTexture* get_texture();
     // public System.Single get_scale()
-    // Offset: 0xD72B48
+    // Offset: 0xD8658C
     float get_scale();
     // private System.Void set_scale(System.Single value)
-    // Offset: 0xD72B50
+    // Offset: 0xD86594
     void set_scale(float value);
     // private System.Void Awake()
-    // Offset: 0xD72B58
+    // Offset: 0xD8659C
     void Awake();
     // private System.Void OnGUI()
-    // Offset: 0xD72CE4
+    // Offset: 0xD86728
     void OnGUI();
     // public System.Void ShowMenu()
-    // Offset: 0xD748C4
+    // Offset: 0xD88308
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0xD747A4
+    // Offset: 0xD881E8
     void HideMenu();
     // private System.Void Update()
-    // Offset: 0xD74CA0
+    // Offset: 0xD886E4
     void Update();
     // private System.Void SetScale(System.Single scale)
-    // Offset: 0xD746B8
+    // Offset: 0xD880FC
     void SetScale(float scale);
     // private System.Void SaveCursorState()
-    // Offset: 0xD74C38
+    // Offset: 0xD8867C
     void SaveCursorState();
     // private System.Void RestoreCursorState()
-    // Offset: 0xD74C70
+    // Offset: 0xD886B4
     void RestoreCursorState();
     // public System.Void .ctor()
-    // Offset: 0xD74E70
+    // Offset: 0xD888B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -130,6 +130,6 @@ namespace GlobalNamespace {
     static SteamVR_Menu* New_ctor();
   }; // SteamVR_Menu
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Menu*, "", "SteamVR_Menu");
 #pragma pack(pop)

@@ -30,23 +30,23 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x30
     System::Security::Cryptography::AsnDecodeStatus status;
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedEnhancedKeyUsages, System.Boolean critical)
-    // Offset: 0x120238C
+    // Offset: 0x1214DD0
     static X509EnhancedKeyUsageExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical);
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x12047D8
+    // Offset: 0x121721C
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1204A38
+    // Offset: 0x121747C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1204BD4
+    // Offset: 0x1217618
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::CsString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*, "System.Security.Cryptography.X509Certificates", "X509EnhancedKeyUsageExtension");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: TMPro.TMP_DefaultControls
 #include "TMPro/TMP_DefaultControls.hpp"
 // Completed includes
@@ -47,6 +45,6 @@ namespace TMPro {
     Resources(UnityEngine::Sprite* standard_ = {}, UnityEngine::Sprite* background_ = {}, UnityEngine::Sprite* inputField_ = {}, UnityEngine::Sprite* knob_ = {}, UnityEngine::Sprite* checkmark_ = {}, UnityEngine::Sprite* dropdown_ = {}, UnityEngine::Sprite* mask_ = {}) : standard{standard_}, background{background_}, inputField{inputField_}, knob{knob_}, checkmark{checkmark_}, dropdown{dropdown_}, mask{mask_} {}
   }; // TMPro.TMP_DefaultControls/Resources
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls::Resources, "TMPro", "TMP_DefaultControls/Resources");
 #pragma pack(pop)

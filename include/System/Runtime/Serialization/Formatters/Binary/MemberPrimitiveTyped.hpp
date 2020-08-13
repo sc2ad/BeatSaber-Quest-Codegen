@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Completed includes
@@ -31,24 +29,24 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     ::CsObject* value;
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE primitiveTypeEnum, System.Object value)
-    // Offset: 0xE12EAC
+    // Offset: 0xE258F0
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum, ::CsObject* value);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE12EBC
+    // Offset: 0xE25900
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xE12F14
+    // Offset: 0xE25958
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xE12F68
+    // Offset: 0xE259AC
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xE12EA4
+    // Offset: 0xE258E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemberPrimitiveTyped* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveTyped");
 #pragma pack(pop)

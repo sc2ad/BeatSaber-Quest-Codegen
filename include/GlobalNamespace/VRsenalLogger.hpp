@@ -47,19 +47,19 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected System.Void Awake()
-    // Offset: 0xC3FF90
+    // Offset: 0xC519D4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC40078
+    // Offset: 0xC51ABC
     void OnDestroy();
     // private System.Void HandleGameScenesManagerInstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0xC40160
+    // Offset: 0xC51BA4
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandlePlayerNameWasEntered(System.String playerName)
-    // Offset: 0xC402B8
+    // Offset: 0xC51CFC
     void HandlePlayerNameWasEntered(::CsString* playerName);
     // public System.Void .ctor()
-    // Offset: 0xC40340
+    // Offset: 0xC51D84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -69,6 +69,6 @@ namespace GlobalNamespace {
     static VRsenalLogger* New_ctor();
   }; // VRsenalLogger
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalLogger*, "", "VRsenalLogger");
 #pragma pack(pop)

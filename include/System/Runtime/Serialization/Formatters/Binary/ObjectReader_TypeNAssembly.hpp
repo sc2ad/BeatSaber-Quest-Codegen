@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ObjectReader
 #include "System/Runtime/Serialization/Formatters/Binary/ObjectReader.hpp"
 // Completed includes
@@ -29,12 +27,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     ::CsString* assemblyName;
     // public System.Void .ctor()
-    // Offset: 0xFD47F0
+    // Offset: 0xFE5234
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjectReader::TypeNAssembly* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeNAssembly
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TypeNAssembly*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader/TypeNAssembly");
 #pragma pack(pop)

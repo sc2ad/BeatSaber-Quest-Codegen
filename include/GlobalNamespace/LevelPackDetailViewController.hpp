@@ -95,40 +95,40 @@ namespace GlobalNamespace {
     // Offset: 0xC0
     UnityEngine::Sprite* blurredPackArtwork;
     // public System.Void SetData(IBeatmapLevelPack pack)
-    // Offset: 0xBE0230
+    // Offset: 0xBF1C74
     void SetData(GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Void RefreshAvailabilityAsync()
-    // Offset: 0xBE0508
+    // Offset: 0xBF1F4C
     void RefreshAvailabilityAsync();
     // private System.Void OpenLevelPackProductStoreAsync()
-    // Offset: 0xBE096C
+    // Offset: 0xBF23B0
     void OpenLevelPackProductStoreAsync();
     // private System.Void ShowContent(LevelPackDetailViewController/ContentType contentType, System.String errorText)
-    // Offset: 0xBE0A48
+    // Offset: 0xBF248C
     void ShowContent(GlobalNamespace::LevelPackDetailViewController::ContentType contentType, ::CsString* errorText);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0xBE0DAC
+    // Offset: 0xBF27F0
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void <DidActivate>b__14_0()
-    // Offset: 0xBE0E24
+    // Offset: 0xBF2868
     void $DidActivate$b__14_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBE05E4
+    // Offset: 0xBF2028
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xBE07A4
+    // Offset: 0xBF21E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // protected override System.Void OnDestroy()
-    // Offset: 0xBE0850
+    // Offset: 0xBF2294
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xBE0DB0
+    // Offset: 0xBF27F4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -139,6 +139,6 @@ namespace GlobalNamespace {
     static LevelPackDetailViewController* New_ctor();
   }; // LevelPackDetailViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController*, "", "LevelPackDetailViewController");
 #pragma pack(pop)

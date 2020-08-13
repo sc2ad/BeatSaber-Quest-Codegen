@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.EventArgs
 #include "System/EventArgs.hpp"
 // Completed includes
@@ -26,10 +27,10 @@ namespace System::Threading::Tasks {
     // Offset: 0x18
     bool m_observed;
     // public System.Void .ctor(System.AggregateException exception)
-    // Offset: 0xCD1008
+    // Offset: 0xCE3A4C
     static UnobservedTaskExceptionEventArgs* New_ctor(System::AggregateException* exception);
   }; // System.Threading.Tasks.UnobservedTaskExceptionEventArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::UnobservedTaskExceptionEventArgs*, "System.Threading.Tasks", "UnobservedTaskExceptionEventArgs");
 #pragma pack(pop)

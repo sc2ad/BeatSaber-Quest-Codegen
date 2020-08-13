@@ -49,19 +49,19 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker;
     // protected System.Void Start()
-    // Offset: 0x1971858
+    // Offset: 0xB89B54
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x19718E0
+    // Offset: 0xB89BDC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x19719B4
+    // Offset: 0xB89CB0
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x1971A88
+    // Offset: 0xB89D84
     void HandleButtonClickEvent();
     // public System.Void .ctor()
-    // Offset: 0x1971B68
+    // Offset: 0xB89E64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -71,6 +71,6 @@ namespace GlobalNamespace {
     static BasicUIAudioManager* New_ctor();
   }; // BasicUIAudioManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicUIAudioManager*, "", "BasicUIAudioManager");
 #pragma pack(pop)

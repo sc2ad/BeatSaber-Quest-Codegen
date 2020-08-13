@@ -14,12 +14,12 @@ namespace System::Globalization {
   class Punycode : public System::Globalization::Bootstring {
     public:
     // public System.Void .ctor()
-    // Offset: 0x110E634
+    // Offset: 0x111F078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Punycode* New_ctor();
   }; // System.Globalization.Punycode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Punycode*, "System.Globalization", "Punycode");
 #pragma pack(pop)

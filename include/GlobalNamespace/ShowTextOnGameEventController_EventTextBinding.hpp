@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: ShowTextOnGameEventController
 #include "GlobalNamespace/ShowTextOnGameEventController.hpp"
 // Completed includes
@@ -34,21 +32,21 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::TextFadeTransitions* textFadeTransitions;
     // public System.Void Init(TextFadeTransitions textFadeTransitions)
-    // Offset: 0xC198D0
+    // Offset: 0xC2B314
     void Init(GlobalNamespace::TextFadeTransitions* textFadeTransitions);
     // public System.Void Deinit()
-    // Offset: 0xC199D8
+    // Offset: 0xC2B41C
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0xC19A6C
+    // Offset: 0xC2B4B0
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0xC19AA8
+    // Offset: 0xC2B4EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ShowTextOnGameEventController::EventTextBinding* New_ctor();
   }; // ShowTextOnGameEventController/EventTextBinding
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*, "", "ShowTextOnGameEventController/EventTextBinding");
 #pragma pack(pop)

@@ -38,16 +38,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     RootMotion::FinalIK::VRIK* ik;
     // private System.Void Start()
-    // Offset: 0x122829C
+    // Offset: 0x1239CE0
     void Start();
     // private System.Void Update()
-    // Offset: 0x12282FC
+    // Offset: 0x1239D40
     void Update();
     // private System.Int32 GetLODLevel()
-    // Offset: 0x1228330
+    // Offset: 0x1239D74
     int GetLODLevel();
     // public System.Void .ctor()
-    // Offset: 0x12284B8
+    // Offset: 0x1239EFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,6 +57,6 @@ namespace RootMotion::FinalIK {
     static VRIKLODController* New_ctor();
   }; // RootMotion.FinalIK.VRIKLODController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKLODController*, "RootMotion.FinalIK", "VRIKLODController");
 #pragma pack(pop)

@@ -24,6 +24,6 @@ namespace UnityEngine {
     UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, bool& idValid);
   }; // UnityEngine.IExposedPropertyTable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IExposedPropertyTable*, "UnityEngine", "IExposedPropertyTable");
 #pragma pack(pop)

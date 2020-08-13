@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.ShareMediaStatus
 #include "Oculus/Platform/ShareMediaStatus.hpp"
 // Completed includes
@@ -26,10 +24,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0x10
     Oculus::Platform::ShareMediaStatus Status;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE92120
+    // Offset: 0xEA4B64
     static ShareMediaResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.ShareMediaResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ShareMediaResult*, "Oculus.Platform.Models", "ShareMediaResult");
 #pragma pack(pop)

@@ -20,18 +20,18 @@ namespace GlobalNamespace {
   class DynamicBonePlaneCollider : public GlobalNamespace::DynamicBoneColliderBase {
     public:
     // private System.Void OnValidate()
-    // Offset: 0x1937498
+    // Offset: 0x194BEDC
     void OnValidate();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x1937688
+    // Offset: 0x194C0CC
     void OnDrawGizmosSelected();
     // public override System.Void Collide(UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x193749C
+    // Offset: 0x194BEE0
     // Implemented from: DynamicBoneColliderBase
     // Base method: System.Void DynamicBoneColliderBase::Collide(UnityEngine.Vector3 particlePosition, System.Single particleRadius)
     void Collide(UnityEngine::Vector3& particlePosition, float particleRadius);
     // public System.Void .ctor()
-    // Offset: 0x193784C
+    // Offset: 0x194C290
     // Implemented from: DynamicBoneColliderBase
     // Base method: System.Void DynamicBoneColliderBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     static DynamicBonePlaneCollider* New_ctor();
   }; // DynamicBonePlaneCollider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBonePlaneCollider*, "", "DynamicBonePlaneCollider");
 #pragma pack(pop)

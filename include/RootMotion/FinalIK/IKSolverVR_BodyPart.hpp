@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR
 #include "RootMotion/FinalIK/IKSolverVR.hpp"
 // Including type: UnityEngine.Vector3
@@ -66,51 +64,51 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void ResetOffsets();
     // public System.Single get_sqrMag()
-    // Offset: 0x142730C
+    // Offset: 0x1436D50
     float get_sqrMag();
     // private System.Void set_sqrMag(System.Single value)
-    // Offset: 0x1427314
+    // Offset: 0x1436D58
     void set_sqrMag(float value);
     // public System.Single get_mag()
-    // Offset: 0x142731C
+    // Offset: 0x1436D60
     float get_mag();
     // private System.Void set_mag(System.Single value)
-    // Offset: 0x1427324
+    // Offset: 0x1436D68
     void set_mag(float value);
     // public System.Void SetLOD(System.Int32 LOD)
-    // Offset: 0x142732C
+    // Offset: 0x1436D70
     void SetLOD(int LOD);
     // public System.Void Read(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
-    // Offset: 0x1427334
+    // Offset: 0x1436D78
     void Read(::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Quaternion>* rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
     // public System.Void MovePosition(UnityEngine.Vector3 position)
-    // Offset: 0x14276F0
+    // Offset: 0x1437134
     void MovePosition(UnityEngine::Vector3 position);
     // public System.Void MoveRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x142785C
+    // Offset: 0x14372A0
     void MoveRotation(UnityEngine::Quaternion rotation);
     // public System.Void Translate(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1427AEC
+    // Offset: 0x1437530
     void Translate(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void TranslateRoot(UnityEngine.Vector3 newRootPos, UnityEngine.Quaternion newRootRot)
-    // Offset: 0x1427B40
+    // Offset: 0x1437584
     void TranslateRoot(UnityEngine::Vector3 newRootPos, UnityEngine::Quaternion newRootRot);
     // public System.Void RotateTo(RootMotion.FinalIK.IKSolverVR/VirtualBone bone, UnityEngine.Quaternion rotation, System.Single weight)
-    // Offset: 0x1426BDC
+    // Offset: 0x1436620
     void RotateTo(RootMotion::FinalIK::IKSolverVR::VirtualBone* bone, UnityEngine::Quaternion rotation, float weight);
     // public System.Void Visualize(UnityEngine.Color color)
-    // Offset: 0x1427D2C
+    // Offset: 0x1437770
     void Visualize(UnityEngine::Color color);
     // public System.Void Visualize()
-    // Offset: 0x1427E70
+    // Offset: 0x14378B4
     void Visualize();
     // protected System.Void .ctor()
-    // Offset: 0x1427268
+    // Offset: 0x1436CAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKSolverVR::BodyPart* New_ctor();
   }; // RootMotion.FinalIK.IKSolverVR/BodyPart
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::BodyPart*, "RootMotion.FinalIK", "IKSolverVR/BodyPart");
 #pragma pack(pop)

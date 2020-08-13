@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float mipMapBias;
     // protected System.Void Start()
-    // Offset: 0xCA2B84
+    // Offset: 0xCB55C8
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xCA2C0C
+    // Offset: 0xCB5650
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -40,6 +40,6 @@ namespace GlobalNamespace {
     static MipMapBiasSpriteSetter* New_ctor();
   }; // MipMapBiasSpriteSetter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MipMapBiasSpriteSetter*, "", "MipMapBiasSpriteSetter");
 #pragma pack(pop)

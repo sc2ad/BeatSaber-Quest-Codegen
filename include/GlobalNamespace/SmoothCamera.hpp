@@ -47,19 +47,19 @@ namespace GlobalNamespace {
     // Offset: 0x48
     float positionSmooth;
     // public System.Void Init(System.Single fieldOfView, System.Single positionSmooth, System.Single rotationSmooth, System.Boolean thirdPersonEnabled, UnityEngine.Vector3 thirdPersonPosition, UnityEngine.Vector3 thirdPersonEulerAngles)
-    // Offset: 0xB85890
+    // Offset: 0xB972D4
     void Init(float fieldOfView, float positionSmooth, float rotationSmooth, bool thirdPersonEnabled, UnityEngine::Vector3 thirdPersonPosition, UnityEngine::Vector3 thirdPersonEulerAngles);
     // protected System.Void OnEnable()
-    // Offset: 0xB85A3C
+    // Offset: 0xB97480
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xB85A5C
+    // Offset: 0xB974A0
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xB85A7C
+    // Offset: 0xB974C0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xB85CB8
+    // Offset: 0xB976FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -69,6 +69,6 @@ namespace GlobalNamespace {
     static SmoothCamera* New_ctor();
   }; // SmoothCamera
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCamera*, "", "SmoothCamera");
 #pragma pack(pop)

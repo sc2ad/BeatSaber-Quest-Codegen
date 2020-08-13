@@ -69,7 +69,7 @@ namespace Mono {
     MonoAssemblyName(System::IntPtr name_ = {}, System::IntPtr culture_ = {}, System::IntPtr hash_value_ = {}, System::IntPtr public_key_ = {}, Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer public_key_token_ = {}, uint hash_alg_ = {}, uint hash_len_ = {}, uint flags_ = {}, uint16_t major_ = {}, uint16_t minor_ = {}, uint16_t build_ = {}, uint16_t revision_ = {}, uint16_t arch_ = {}) : name{name_}, culture{culture_}, hash_value{hash_value_}, public_key{public_key_}, public_key_token{public_key_token_}, hash_alg{hash_alg_}, hash_len{hash_len_}, flags{flags_}, major{major_}, minor{minor_}, build{build_}, revision{revision_}, arch{arch_} {}
   }; // Mono.MonoAssemblyName
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName, "Mono", "MonoAssemblyName");
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer, "Mono", "MonoAssemblyName/<public_key_token>e__FixedBuffer");
 #pragma pack(pop)

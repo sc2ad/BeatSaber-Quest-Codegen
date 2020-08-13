@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class IntSO : public GlobalNamespace::ObservableVariableSO_1<int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCA1D00
+    // Offset: 0xCB4744
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO`1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -24,6 +24,6 @@ namespace GlobalNamespace {
     static IntSO* New_ctor();
   }; // IntSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntSO*, "", "IntSO");
 #pragma pack(pop)

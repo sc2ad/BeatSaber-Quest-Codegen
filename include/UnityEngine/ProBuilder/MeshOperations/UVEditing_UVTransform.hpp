@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.UVEditing
 #include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
 // Completed includes
@@ -27,12 +25,12 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: UVTransform
     UVTransform(UnityEngine::Vector2 translation_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) : translation{translation_}, rotation{rotation_}, scale{scale_} {}
     // public override System.String ToString()
-    // Offset: 0xA3C3A8
+    // Offset: 0xA3C424
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UVTransform
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/UVTransform");
 #pragma pack(pop)

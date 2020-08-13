@@ -70,37 +70,37 @@ namespace GlobalNamespace {
     // Offset: 0x58
     HMUI::ButtonBinder* buttonBinder;
     // public System.Void add_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0xBE0E54
+    // Offset: 0xBF2898
     void add_didPressRefreshButtonEvent(System::Action* value);
     // public System.Void remove_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0xBE0F24
+    // Offset: 0xBF2968
     void remove_didPressRefreshButtonEvent(System::Action* value);
     // public System.Boolean get_isLoading()
-    // Offset: 0xBE6110
+    // Offset: 0xBF7B54
     bool get_isLoading();
     // protected System.Void Awake()
-    // Offset: 0xBE612C
+    // Offset: 0xBF7B70
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xBE61F0
+    // Offset: 0xBF7C34
     void OnDestroy();
     // public System.Void ShowLoading()
-    // Offset: 0xBE0C60
+    // Offset: 0xBF26A4
     void ShowLoading();
     // public System.Void ShowText(System.String text, System.Boolean showRefreshButton)
-    // Offset: 0xBE0CD0
+    // Offset: 0xBF2714
     void ShowText(::CsString* text, bool showRefreshButton);
     // public System.Void ShowDownloadingProgress(System.String text, System.Single downloadingProgress)
-    // Offset: 0xBE620C
+    // Offset: 0xBF7C50
     void ShowDownloadingProgress(::CsString* text, float downloadingProgress);
     // public System.Void Hide()
-    // Offset: 0xBE0D84
+    // Offset: 0xBF27C8
     void Hide();
     // private System.Void <Awake>b__13_0()
-    // Offset: 0xBE62BC
+    // Offset: 0xBF7D00
     void $Awake$b__13_0();
     // public System.Void .ctor()
-    // Offset: 0xBE62B4
+    // Offset: 0xBF7CF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -110,6 +110,6 @@ namespace GlobalNamespace {
     static LoadingControl* New_ctor();
   }; // LoadingControl
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LoadingControl*, "", "LoadingControl");
 #pragma pack(pop)

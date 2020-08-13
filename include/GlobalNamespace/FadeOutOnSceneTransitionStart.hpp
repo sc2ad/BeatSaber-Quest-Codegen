@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected System.Void Start()
-    // Offset: 0x18F728C
+    // Offset: 0x1906CD0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x18F7320
+    // Offset: 0x1906D64
     void OnDestroy();
     // private System.Void HandleGameScenesManagerTransitionDidStart(System.Single duration)
-    // Offset: 0x18F73FC
+    // Offset: 0x1906E40
     void HandleGameScenesManagerTransitionDidStart(float duration);
     // public System.Void .ctor()
-    // Offset: 0x18F7418
+    // Offset: 0x1906E5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static FadeOutOnSceneTransitionStart* New_ctor();
   }; // FadeOutOnSceneTransitionStart
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutOnSceneTransitionStart*, "", "FadeOutOnSceneTransitionStart");
 #pragma pack(pop)

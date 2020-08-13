@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.LaunchType
 #include "Oculus/Platform/LaunchType.hpp"
 // Completed includes
@@ -49,10 +47,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0x40
     Oculus::Platform::Models::UserList* Users;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE935F8
+    // Offset: 0xEA603C
     static LaunchDetails* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LaunchDetails
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchDetails*, "Oculus.Platform.Models", "LaunchDetails");
 #pragma pack(pop)

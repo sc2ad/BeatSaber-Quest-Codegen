@@ -54,7 +54,7 @@ namespace System::Diagnostics::Tracing {
     ManifestEnvelope(System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats Format_ = {}, uint8_t MajorVersion_ = {}, uint8_t MinorVersion_ = {}, uint8_t Magic_ = {}, uint16_t TotalChunks_ = {}, uint16_t ChunkNumber_ = {}) : Format{Format_}, MajorVersion{MajorVersion_}, MinorVersion{MinorVersion_}, Magic{Magic_}, TotalChunks{TotalChunks_}, ChunkNumber{ChunkNumber_} {}
   }; // System.Diagnostics.Tracing.ManifestEnvelope
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestEnvelope, "System.Diagnostics.Tracing", "ManifestEnvelope");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats, "System.Diagnostics.Tracing", "ManifestEnvelope/ManifestFormats");
 #pragma pack(pop)

@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithMatchmakingStatsUnderMatchmakingStats : public Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingStats*> {
     public:
     // protected Oculus.Platform.Models.MatchmakingStats GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8F108
+    // Offset: 0xEA1B4C
     Oculus::Platform::Models::MatchmakingStats* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88800
+    // Offset: 0xE9B244
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithMatchmakingStatsUnderMatchmakingStats* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.MatchmakingStats GetMatchmakingStats()
-    // Offset: 0xE8F0C4
+    // Offset: 0xEA1B08
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.MatchmakingStats Message::GetMatchmakingStats()
     Oculus::Platform::Models::MatchmakingStats* GetMatchmakingStats();
   }; // Oculus.Platform.MessageWithMatchmakingStatsUnderMatchmakingStats
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingStatsUnderMatchmakingStats*, "Oculus.Platform", "MessageWithMatchmakingStatsUnderMatchmakingStats");
 #pragma pack(pop)

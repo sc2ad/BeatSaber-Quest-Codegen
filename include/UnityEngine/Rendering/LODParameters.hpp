@@ -35,22 +35,22 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: LODParameters
     LODParameters(int m_IsOrthographic_ = {}, UnityEngine::Vector3 m_CameraPosition_ = {}, float m_FieldOfView_ = {}, float m_OrthoSize_ = {}, int m_CameraPixelHeight_ = {}) : m_IsOrthographic{m_IsOrthographic_}, m_CameraPosition{m_CameraPosition_}, m_FieldOfView{m_FieldOfView_}, m_OrthoSize{m_OrthoSize_}, m_CameraPixelHeight{m_CameraPixelHeight_} {}
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
-    // Offset: 0xA434B0
+    // Offset: 0xA4352C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Rendering.LODParameters other)
     bool Equals(UnityEngine::Rendering::LODParameters other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA434E8
+    // Offset: 0xA43564
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA434F0
+    // Offset: 0xA4356C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Rendering.LODParameters
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::LODParameters, "UnityEngine.Rendering", "LODParameters");
 #pragma pack(pop)

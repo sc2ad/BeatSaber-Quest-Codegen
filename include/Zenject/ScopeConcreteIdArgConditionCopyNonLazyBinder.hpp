@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ConcreteIdArgConditionCopyNonLazyBinder
 #include "Zenject/ConcreteIdArgConditionCopyNonLazyBinder.hpp"
 // Completed includes
@@ -20,16 +21,16 @@ namespace Zenject {
   class ScopeConcreteIdArgConditionCopyNonLazyBinder : public Zenject::ConcreteIdArgConditionCopyNonLazyBinder {
     public:
     // public Zenject.ConcreteIdArgConditionCopyNonLazyBinder AsCached()
-    // Offset: 0xFB67FC
+    // Offset: 0xFC9240
     Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsCached();
     // public Zenject.ConcreteIdArgConditionCopyNonLazyBinder AsSingle()
-    // Offset: 0xFB1CA4
+    // Offset: 0xFC46E8
     Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsSingle();
     // public Zenject.ConcreteIdArgConditionCopyNonLazyBinder AsTransient()
-    // Offset: 0xFB681C
+    // Offset: 0xFC9260
     Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsTransient();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0xFB67F4
+    // Offset: 0xFC9238
     // Implemented from: Zenject.ConcreteIdArgConditionCopyNonLazyBinder
     // Base method: System.Void ConcreteIdArgConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void ArgConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
@@ -41,6 +42,6 @@ namespace Zenject {
     static ScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::BindInfo* bindInfo);
   }; // Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "ScopeConcreteIdArgConditionCopyNonLazyBinder");
 #pragma pack(pop)

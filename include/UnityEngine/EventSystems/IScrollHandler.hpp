@@ -24,6 +24,6 @@ namespace UnityEngine::EventSystems {
     void OnScroll(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IScrollHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IScrollHandler*, "UnityEngine.EventSystems", "IScrollHandler");
 #pragma pack(pop)

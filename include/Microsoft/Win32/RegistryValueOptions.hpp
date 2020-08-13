@@ -32,6 +32,6 @@ namespace Microsoft::Win32 {
     RegistryValueOptions(int value_ = {}) : value{value_} {}
   }; // Microsoft.Win32.RegistryValueOptions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryValueOptions, "Microsoft.Win32", "RegistryValueOptions");
 #pragma pack(pop)

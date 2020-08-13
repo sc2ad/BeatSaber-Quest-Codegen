@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.AndroidJavaProxy
 #include "UnityEngine/AndroidJavaProxy.hpp"
 // Completed includes
@@ -19,12 +20,12 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void onFailure();
     // public System.Void .ctor()
-    // Offset: 0xEDC090
+    // Offset: 0xEEDAD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVROnCompleteListener* New_ctor();
   }; // OVROnCompleteListener
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROnCompleteListener*, "", "OVROnCompleteListener");
 #pragma pack(pop)

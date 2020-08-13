@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::LightWithIdManager* lightWithIdManager;
     // protected System.Void Update()
-    // Offset: 0xC294A0
+    // Offset: 0xC3AEE4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC29510
+    // Offset: 0xC3AF54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static OneTimeLightColorEffect* New_ctor();
   }; // OneTimeLightColorEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OneTimeLightColorEffect*, "", "OneTimeLightColorEffect");
 #pragma pack(pop)

@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::SaberType saberType;
     // public SaberType get_saberType()
-    // Offset: 0xC14A80
+    // Offset: 0xC264C4
     GlobalNamespace::SaberType get_saberType();
     // public System.Void .ctor()
-    // Offset: 0xC14A88
+    // Offset: 0xC264CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -32,6 +32,6 @@ namespace GlobalNamespace {
     static SaberTypeObject* New_ctor();
   }; // SaberTypeObject
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeObject*, "", "SaberTypeObject");
 #pragma pack(pop)

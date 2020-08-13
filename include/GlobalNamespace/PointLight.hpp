@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<PointLight> _lights
     static void _set__lights(System::Collections::Generic::List_1<GlobalNamespace::PointLight*>* value);
     // static public System.Collections.Generic.List`1<PointLight> get_lights()
-    // Offset: 0x18162EC
+    // Offset: 0x1826D30
     static System::Collections::Generic::List_1<GlobalNamespace::PointLight*>* get_lights();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1816354
+    // Offset: 0x1826D98
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x18163E8
+    // Offset: 0x1826E2C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x181646C
+    // Offset: 0x1826EB0
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x18164F0
+    // Offset: 0x1826F34
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,12 +63,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PointLight* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18164F8
+    // Offset: 0x1826F3C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // PointLight
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PointLight*, "", "PointLight");
 #pragma pack(pop)

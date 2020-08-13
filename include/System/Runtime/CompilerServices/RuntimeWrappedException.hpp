@@ -26,10 +26,10 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x88
     ::CsObject* m_wrappedException;
     // private System.Void .ctor(System.Object thrownObject)
-    // Offset: 0x114FDB4
+    // Offset: 0x11617F8
     static RuntimeWrappedException* New_ctor(::CsObject* thrownObject);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x114FE6C
+    // Offset: 0x11618B0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -37,18 +37,18 @@ namespace System::Runtime::CompilerServices {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x114FF78
+    // Offset: 0x11619BC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static RuntimeWrappedException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor()
-    // Offset: 0x1150074
+    // Offset: 0x1161AB8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static RuntimeWrappedException* New_ctor();
   }; // System.Runtime.CompilerServices.RuntimeWrappedException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeWrappedException*, "System.Runtime.CompilerServices", "RuntimeWrappedException");
 #pragma pack(pop)

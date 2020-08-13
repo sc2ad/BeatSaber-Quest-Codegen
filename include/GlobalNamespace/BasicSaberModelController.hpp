@@ -61,12 +61,12 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::ColorManager* colorManager;
     // public System.Void Init(UnityEngine.Transform parent, SaberType saberType)
-    // Offset: 0x1971118
+    // Offset: 0xB89414
     // Implemented from: ISaberModelController
     // Base method: System.Void ISaberModelController::Init(UnityEngine.Transform parent, SaberType saberType)
     void Init(UnityEngine::Transform* parent, GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0x1971364
+    // Offset: 0xB89660
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -76,6 +76,6 @@ namespace GlobalNamespace {
     static BasicSaberModelController* New_ctor();
   }; // BasicSaberModelController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicSaberModelController*, "", "BasicSaberModelController");
 #pragma pack(pop)

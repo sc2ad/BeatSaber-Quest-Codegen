@@ -24,6 +24,6 @@ namespace Valve::VR {
     HmdRect2_t(Valve::VR::HmdVector2_t vTopLeft_ = {}, Valve::VR::HmdVector2_t vBottomRight_ = {}) : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
   }; // Valve.VR.HmdRect2_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdRect2_t, "Valve.VR", "HmdRect2_t");
 #pragma pack(pop)

@@ -4,8 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.PlayerLoop.PreUpdate
 #include "UnityEngine/PlayerLoop/PreUpdate.hpp"
 // Completed includes
@@ -17,6 +15,6 @@ namespace UnityEngine::PlayerLoop {
     PhysicsUpdate() {}
   }; // UnityEngine.PlayerLoop.PreUpdate/PhysicsUpdate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PreUpdate::PhysicsUpdate, "UnityEngine.PlayerLoop", "PreUpdate/PhysicsUpdate");
 #pragma pack(pop)

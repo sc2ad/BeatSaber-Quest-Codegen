@@ -44,6 +44,6 @@ namespace Oculus::Platform {
     CloudStorageUpdateStatus(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.CloudStorageUpdateStatus
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorageUpdateStatus, "Oculus.Platform", "CloudStorageUpdateStatus");
 #pragma pack(pop)

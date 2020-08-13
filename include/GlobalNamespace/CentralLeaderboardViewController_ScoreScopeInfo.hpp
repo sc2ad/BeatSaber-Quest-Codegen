@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: CentralLeaderboardViewController
 #include "GlobalNamespace/CentralLeaderboardViewController.hpp"
 // Including type: OnlineServices.ScoresScope
@@ -37,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     int playerScorePos;
     // public System.Void .ctor(OnlineServices.ScoresScope scoreScope, UnityEngine.Sprite icon, System.String localizedTitle)
-    // Offset: 0xB604A0
+    // Offset: 0xB5E4A0
     static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(OnlineServices::ScoresScope scoreScope, UnityEngine::Sprite* icon, ::CsString* localizedTitle);
   }; // CentralLeaderboardViewController/ScoreScopeInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, "", "CentralLeaderboardViewController/ScoreScopeInfo");
 #pragma pack(pop)

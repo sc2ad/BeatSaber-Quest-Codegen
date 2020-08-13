@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
@@ -142,270 +140,270 @@ namespace System {
     // Set static field: static private System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo> systemTimeZones
     static void _set_systemTimeZones(System::Collections::ObjectModel::ReadOnlyCollection_1<System::TimeZoneInfo*>* value);
     // static System.Boolean UtcOffsetOutOfRange(System.TimeSpan offset)
-    // Offset: 0xCDAA74
+    // Offset: 0xCED4B8
     static bool UtcOffsetOutOfRange(System::TimeSpan offset);
     // static private System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule> CreateAdjustmentRule(System.Int32 year, System.Int64[] data, System.String[] names, System.String standardNameCurrentYear, System.String daylightNameCurrentYear)
-    // Offset: 0xCDAAA4
+    // Offset: 0xCED4E8
     static System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* CreateAdjustmentRule(int year, ::Array<int64_t>*& data, ::Array<::CsString*>*& names, ::CsString* standardNameCurrentYear, ::CsString* daylightNameCurrentYear);
     // static private System.TimeZoneInfo CreateLocalUnity()
-    // Offset: 0xCDB19C
+    // Offset: 0xCEDBE0
     static System::TimeZoneInfo* CreateLocalUnity();
     // static System.UInt32 EnumDynamicTimeZoneInformation(System.UInt32 dwIndex, System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION lpTimeZoneInformation)
-    // Offset: 0xCDB638
+    // Offset: 0xCEE07C
     static uint EnumDynamicTimeZoneInformation(uint dwIndex, System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION& lpTimeZoneInformation);
     // static System.UInt32 GetDynamicTimeZoneInformation(System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION pTimeZoneInformation)
-    // Offset: 0xCDB728
+    // Offset: 0xCEE16C
     static uint GetDynamicTimeZoneInformation(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION& pTimeZoneInformation);
     // static System.UInt32 GetDynamicTimeZoneInformationWin32(System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION pTimeZoneInformation)
-    // Offset: 0xCDB808
+    // Offset: 0xCEE24C
     static uint GetDynamicTimeZoneInformationWin32(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION& pTimeZoneInformation);
     // static System.UInt32 GetDynamicTimeZoneInformationEffectiveYears(System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION lpTimeZoneInformation, System.UInt32 FirstYear, System.UInt32 LastYear)
-    // Offset: 0xCDB8E8
+    // Offset: 0xCEE32C
     static uint GetDynamicTimeZoneInformationEffectiveYears(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION& lpTimeZoneInformation, uint& FirstYear, uint& LastYear);
     // static System.Boolean GetTimeZoneInformationForYear(System.UInt16 wYear, System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION pdtzi, System.TimeZoneInfo/TIME_ZONE_INFORMATION ptzi)
-    // Offset: 0xCDB9EC
+    // Offset: 0xCEE430
     static bool GetTimeZoneInformationForYear(uint16_t wYear, System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION& pdtzi, System::TimeZoneInfo::TIME_ZONE_INFORMATION& ptzi);
     // static System.TimeZoneInfo/AdjustmentRule CreateAdjustmentRuleFromTimeZoneInformation(System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation, System.DateTime startDate, System.DateTime endDate, System.Int32 defaultBaseUtcOffset)
-    // Offset: 0xCDBB44
+    // Offset: 0xCEE588
     static System::TimeZoneInfo::AdjustmentRule* CreateAdjustmentRuleFromTimeZoneInformation(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION& timeZoneInformation, System::DateTime startDate, System::DateTime endDate, int defaultBaseUtcOffset);
     // static private System.Boolean TransitionTimeFromTimeZoneInformation(System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation, System.TimeZoneInfo/TransitionTime transitionTime, System.Boolean readStartDate)
-    // Offset: 0xCDBDD8
+    // Offset: 0xCEE81C
     static bool TransitionTimeFromTimeZoneInformation(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation, System::TimeZoneInfo::TransitionTime& transitionTime, bool readStartDate);
     // static System.TimeZoneInfo TryCreateTimeZone(System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation)
-    // Offset: 0xCDBF6C
+    // Offset: 0xCEE9B0
     static System::TimeZoneInfo* TryCreateTimeZone(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation);
     // static System.TimeZoneInfo GetLocalTimeZoneInfoWinRTFallback()
-    // Offset: 0xCDC8F4
+    // Offset: 0xCEF338
     static System::TimeZoneInfo* GetLocalTimeZoneInfoWinRTFallback();
     // static System.String GetLocalTimeZoneKeyNameWin32Fallback()
-    // Offset: 0xCDCAA0
+    // Offset: 0xCEF4E4
     static ::CsString* GetLocalTimeZoneKeyNameWin32Fallback();
     // static System.TimeZoneInfo FindSystemTimeZoneByIdWinRTFallback(System.String id)
-    // Offset: 0xCDCBB0
+    // Offset: 0xCEF5F4
     static System::TimeZoneInfo* FindSystemTimeZoneByIdWinRTFallback(::CsString* id);
     // static System.Collections.Generic.List`1<System.TimeZoneInfo> GetSystemTimeZonesWinRTFallback()
-    // Offset: 0xCDCF30
+    // Offset: 0xCEF974
     static System::Collections::Generic::List_1<System::TimeZoneInfo*>* GetSystemTimeZonesWinRTFallback();
     // public System.TimeSpan get_BaseUtcOffset()
-    // Offset: 0xCDD164
+    // Offset: 0xCEFBA8
     System::TimeSpan get_BaseUtcOffset();
     // public System.String get_DisplayName()
-    // Offset: 0xCDD16C
+    // Offset: 0xCEFBB0
     ::CsString* get_DisplayName();
     // public System.String get_Id()
-    // Offset: 0xCDD174
+    // Offset: 0xCEFBB8
     ::CsString* get_Id();
     // static public System.TimeZoneInfo get_Local()
-    // Offset: 0xCDD0AC
+    // Offset: 0xCEFAF0
     static System::TimeZoneInfo* get_Local();
     // static private System.Int32 readlink(System.String path, System.Byte[] buffer, System.Int32 buflen)
-    // Offset: 0xCDD658
+    // Offset: 0xCF009C
     static int readlink(::CsString* path, ::Array<uint8_t>* buffer, int buflen);
     // static private System.String readlink(System.String path)
-    // Offset: 0xCDD710
+    // Offset: 0xCF0154
     static ::CsString* readlink(::CsString* path);
     // static private System.Boolean TryGetNameFromPath(System.String path, System.String name)
-    // Offset: 0xCDD8C0
+    // Offset: 0xCF0304
     static bool TryGetNameFromPath(::CsString* path, ::CsString*& name);
     // static private System.TimeZoneInfo CreateLocal()
-    // Offset: 0xCDD17C
+    // Offset: 0xCEFBC0
     static System::TimeZoneInfo* CreateLocal();
     // static private System.TimeZoneInfo FindSystemTimeZoneByIdCore(System.String id)
-    // Offset: 0xCDE1A4
+    // Offset: 0xCF0BE8
     static System::TimeZoneInfo* FindSystemTimeZoneByIdCore(::CsString* id);
     // static private System.Void GetSystemTimeZonesCore(System.Collections.Generic.List`1<System.TimeZoneInfo> systemTimeZones)
-    // Offset: 0xCDE228
+    // Offset: 0xCF0C6C
     static void GetSystemTimeZonesCore(System::Collections::Generic::List_1<System::TimeZoneInfo*>* systemTimeZones);
     // public System.Boolean get_SupportsDaylightSavingTime()
-    // Offset: 0xCDED34
+    // Offset: 0xCF1778
     bool get_SupportsDaylightSavingTime();
     // static public System.TimeZoneInfo get_Utc()
-    // Offset: 0xCDCA00
+    // Offset: 0xCEF444
     static System::TimeZoneInfo* get_Utc();
     // static private System.String get_TimeZoneDirectory()
-    // Offset: 0xCDDB20
+    // Offset: 0xCF0564
     static ::CsString* get_TimeZoneDirectory();
     // static private System.Boolean get_IsWindows()
-    // Offset: 0xCDDB98
+    // Offset: 0xCF05DC
     static bool get_IsWindows();
     // static private System.String TrimSpecial(System.String str)
-    // Offset: 0xCDDD28
+    // Offset: 0xCF076C
     static ::CsString* TrimSpecial(::CsString* str);
     // static private Microsoft.Win32.RegistryKey get_TimeZoneKey()
-    // Offset: 0xCDEBF0
+    // Offset: 0xCF1634
     static Microsoft::Win32::RegistryKey* get_TimeZoneKey();
     // static private Microsoft.Win32.RegistryKey get_LocalZoneKey()
-    // Offset: 0xCDDBE4
+    // Offset: 0xCF0628
     static Microsoft::Win32::RegistryKey* get_LocalZoneKey();
     // static private System.Boolean TryAddTicks(System.DateTime date, System.Int64 ticks, System.DateTime result, System.DateTimeKind kind)
-    // Offset: 0xCDED4C
+    // Offset: 0xCF1790
     static bool TryAddTicks(System::DateTime date, int64_t ticks, System::DateTime& result, System::DateTimeKind kind);
     // static public System.DateTime ConvertTime(System.DateTime dateTime, System.TimeZoneInfo sourceTimeZone, System.TimeZoneInfo destinationTimeZone)
-    // Offset: 0xCDEEC8
+    // Offset: 0xCF190C
     static System::DateTime ConvertTime(System::DateTime dateTime, System::TimeZoneInfo* sourceTimeZone, System::TimeZoneInfo* destinationTimeZone);
     // private System.DateTime ConvertTimeFromUtc(System.DateTime dateTime)
-    // Offset: 0xCDF2C8
+    // Offset: 0xCF1D0C
     System::DateTime ConvertTimeFromUtc(System::DateTime dateTime);
     // static public System.DateTime ConvertTimeFromUtc(System.DateTime dateTime, System.TimeZoneInfo destinationTimeZone)
-    // Offset: 0xCDF234
+    // Offset: 0xCF1C78
     static System::DateTime ConvertTimeFromUtc(System::DateTime dateTime, System::TimeZoneInfo* destinationTimeZone);
     // static System.DateTime ConvertTimeToUtc(System.DateTime dateTime, System.TimeZoneInfoOptions flags)
-    // Offset: 0xCDF44C
+    // Offset: 0xCF1E90
     static System::DateTime ConvertTimeToUtc(System::DateTime dateTime, System::TimeZoneInfoOptions flags);
     // static public System.DateTime ConvertTimeToUtc(System.DateTime dateTime, System.TimeZoneInfo sourceTimeZone)
-    // Offset: 0xCDF22C
+    // Offset: 0xCF1C70
     static System::DateTime ConvertTimeToUtc(System::DateTime dateTime, System::TimeZoneInfo* sourceTimeZone);
     // static private System.DateTime ConvertTimeToUtc(System.DateTime dateTime, System.TimeZoneInfo sourceTimeZone, System.TimeZoneInfoOptions flags)
-    // Offset: 0xCDF47C
+    // Offset: 0xCF1EC0
     static System::DateTime ConvertTimeToUtc(System::DateTime dateTime, System::TimeZoneInfo* sourceTimeZone, System::TimeZoneInfoOptions flags);
     // static System.TimeSpan GetDateTimeNowUtcOffsetFromUtc(System.DateTime time, System.Boolean isAmbiguousLocalDst)
-    // Offset: 0xCDF6EC
+    // Offset: 0xCF2130
     static System::TimeSpan GetDateTimeNowUtcOffsetFromUtc(System::DateTime time, bool& isAmbiguousLocalDst);
     // static public System.TimeZoneInfo CreateCustomTimeZone(System.String id, System.TimeSpan baseUtcOffset, System.String displayName, System.String standardDisplayName)
-    // Offset: 0xCDED3C
+    // Offset: 0xCF1780
     static System::TimeZoneInfo* CreateCustomTimeZone(::CsString* id, System::TimeSpan baseUtcOffset, ::CsString* displayName, ::CsString* standardDisplayName);
     // static public System.TimeZoneInfo CreateCustomTimeZone(System.String id, System.TimeSpan baseUtcOffset, System.String displayName, System.String standardDisplayName, System.String daylightDisplayName, System.TimeZoneInfo/AdjustmentRule[] adjustmentRules)
-    // Offset: 0xCDF794
+    // Offset: 0xCF21D8
     static System::TimeZoneInfo* CreateCustomTimeZone(::CsString* id, System::TimeSpan baseUtcOffset, ::CsString* displayName, ::CsString* standardDisplayName, ::CsString* daylightDisplayName, ::Array<System::TimeZoneInfo::AdjustmentRule*>* adjustmentRules);
     // static public System.TimeZoneInfo CreateCustomTimeZone(System.String id, System.TimeSpan baseUtcOffset, System.String displayName, System.String standardDisplayName, System.String daylightDisplayName, System.TimeZoneInfo/AdjustmentRule[] adjustmentRules, System.Boolean disableDaylightSavingTime)
-    // Offset: 0xCDB588
+    // Offset: 0xCEDFCC
     static System::TimeZoneInfo* CreateCustomTimeZone(::CsString* id, System::TimeSpan baseUtcOffset, ::CsString* displayName, ::CsString* standardDisplayName, ::CsString* daylightDisplayName, ::Array<System::TimeZoneInfo::AdjustmentRule*>* adjustmentRules, bool disableDaylightSavingTime);
     // static public System.TimeZoneInfo FindSystemTimeZoneById(System.String id)
-    // Offset: 0xCDDE9C
+    // Offset: 0xCF08E0
     static System::TimeZoneInfo* FindSystemTimeZoneById(::CsString* id);
     // static private System.TimeZoneInfo FindSystemTimeZoneByFileName(System.String id, System.String filepath)
-    // Offset: 0xCDDFE8
+    // Offset: 0xCF0A2C
     static System::TimeZoneInfo* FindSystemTimeZoneByFileName(::CsString* id, ::CsString* filepath);
     // static private System.TimeZoneInfo FromRegistryKey(System.String id, Microsoft.Win32.RegistryKey key)
-    // Offset: 0xCDF9E8
+    // Offset: 0xCF242C
     static System::TimeZoneInfo* FromRegistryKey(::CsString* id, Microsoft::Win32::RegistryKey* key);
     // static private System.Void ParseRegTzi(System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule> adjustmentRules, System.Int32 start_year, System.Int32 end_year, System.Byte[] buffer)
-    // Offset: 0xCDFF10
+    // Offset: 0xCF2954
     static void ParseRegTzi(System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* adjustmentRules, int start_year, int end_year, ::Array<uint8_t>* buffer);
     // public System.TimeZoneInfo/AdjustmentRule[] GetAdjustmentRules()
-    // Offset: 0xCE0440
+    // Offset: 0xCF2E84
     ::Array<System::TimeZoneInfo::AdjustmentRule*>* GetAdjustmentRules();
     // static public System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo> GetSystemTimeZones()
-    // Offset: 0xCDCE5C
+    // Offset: 0xCEF8A0
     static System::Collections::ObjectModel::ReadOnlyCollection_1<System::TimeZoneInfo*>* GetSystemTimeZones();
     // public System.TimeSpan GetUtcOffset(System.DateTime dateTime)
-    // Offset: 0xCDF428
+    // Offset: 0xCF1E6C
     System::TimeSpan GetUtcOffset(System::DateTime dateTime);
     // private System.TimeSpan GetUtcOffset(System.DateTime dateTime, System.Boolean isDST)
-    // Offset: 0xCDF61C
+    // Offset: 0xCF2060
     System::TimeSpan GetUtcOffset(System::DateTime dateTime, bool& isDST);
     // static private System.TimeSpan GetUtcOffsetHelper(System.DateTime dateTime, System.TimeZoneInfo tz, System.Boolean isDST)
-    // Offset: 0xCE06E8
+    // Offset: 0xCF312C
     static System::TimeSpan GetUtcOffsetHelper(System::DateTime dateTime, System::TimeZoneInfo* tz, bool& isDST);
     // public System.Boolean HasSameRules(System.TimeZoneInfo other)
-    // Offset: 0xCDF860
+    // Offset: 0xCF22A4
     bool HasSameRules(System::TimeZoneInfo* other);
     // public System.Boolean IsAmbiguousTime(System.DateTime dateTime)
-    // Offset: 0xCE0DFC
+    // Offset: 0xCF3840
     bool IsAmbiguousTime(System::DateTime dateTime);
     // private System.Boolean IsInDST(System.TimeZoneInfo/AdjustmentRule rule, System.DateTime dateTime)
-    // Offset: 0xCE0D5C
+    // Offset: 0xCF37A0
     bool IsInDST(System::TimeZoneInfo::AdjustmentRule* rule, System::DateTime dateTime);
     // private System.Boolean IsInDSTForYear(System.TimeZoneInfo/AdjustmentRule rule, System.DateTime dateTime, System.Int32 year)
-    // Offset: 0xCE11AC
+    // Offset: 0xCF3BF0
     bool IsInDSTForYear(System::TimeZoneInfo::AdjustmentRule* rule, System::DateTime dateTime, int year);
     // public System.Boolean IsInvalidTime(System.DateTime dateTime)
-    // Offset: 0xCDF0D8
+    // Offset: 0xCF1B1C
     bool IsInvalidTime(System::DateTime dateTime);
     // static private System.Void Validate(System.String id, System.TimeSpan baseUtcOffset, System.TimeZoneInfo/AdjustmentRule[] adjustmentRules)
-    // Offset: 0xCE14E0
+    // Offset: 0xCF3F24
     static void Validate(::CsString* id, System::TimeSpan baseUtcOffset, ::Array<System::TimeZoneInfo::AdjustmentRule*>* adjustmentRules);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xCE1918
+    // Offset: 0xCF435C
     static TimeZoneInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void .ctor(System.String id, System.TimeSpan baseUtcOffset, System.String displayName, System.String standardDisplayName, System.String daylightDisplayName, System.TimeZoneInfo/AdjustmentRule[] adjustmentRules, System.Boolean disableDaylightSavingTime)
-    // Offset: 0xCDC410
+    // Offset: 0xCEEE54
     static TimeZoneInfo* New_ctor(::CsString* id, System::TimeSpan baseUtcOffset, ::CsString* displayName, ::CsString* standardDisplayName, ::CsString* daylightDisplayName, ::Array<System::TimeZoneInfo::AdjustmentRule*>* adjustmentRules, bool disableDaylightSavingTime);
     // private System.TimeZoneInfo/AdjustmentRule GetApplicableRule(System.DateTime dateTime)
-    // Offset: 0xCE0BA0
+    // Offset: 0xCF35E4
     System::TimeZoneInfo::AdjustmentRule* GetApplicableRule(System::DateTime dateTime);
     // private System.Boolean TryGetTransitionOffset(System.DateTime dateTime, System.TimeSpan offset, System.Boolean isDst)
-    // Offset: 0xCE0980
+    // Offset: 0xCF33C4
     bool TryGetTransitionOffset(System::DateTime dateTime, System::TimeSpan& offset, bool& isDst);
     // static private System.DateTime TransitionPoint(System.TimeZoneInfo/TransitionTime transition, System.Int32 year)
-    // Offset: 0xCE0FE8
+    // Offset: 0xCF3A2C
     static System::DateTime TransitionPoint(System::TimeZoneInfo::TransitionTime transition, int year);
     // static private System.TimeZoneInfo/AdjustmentRule[] ValidateRules(System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule> adjustmentRules)
-    // Offset: 0xCE02FC
+    // Offset: 0xCF2D40
     static ::Array<System::TimeZoneInfo::AdjustmentRule*>* ValidateRules(System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* adjustmentRules);
     // static private System.TimeZoneInfo BuildFromStream(System.String id, System.IO.Stream stream)
-    // Offset: 0xCDFD5C
+    // Offset: 0xCF27A0
     static System::TimeZoneInfo* BuildFromStream(::CsString* id, System::IO::Stream* stream);
     // static private System.Boolean ValidTZFile(System.Byte[] buffer, System.Int32 length)
-    // Offset: 0xCE1C64
+    // Offset: 0xCF46A8
     static bool ValidTZFile(::Array<uint8_t>* buffer, int length);
     // static private System.Int32 SwapInt32(System.Int32 i)
-    // Offset: 0xCE2650
+    // Offset: 0xCF5094
     static int SwapInt32(int i);
     // static private System.Int32 ReadBigEndianInt32(System.Byte[] buffer, System.Int32 start)
-    // Offset: 0xCE2658
+    // Offset: 0xCF509C
     static int ReadBigEndianInt32(::Array<uint8_t>* buffer, int start);
     // static private System.TimeZoneInfo ParseTZBuffer(System.String id, System.Byte[] buffer, System.Int32 length)
-    // Offset: 0xCE1D54
+    // Offset: 0xCF4798
     static System::TimeZoneInfo* ParseTZBuffer(::CsString* id, ::Array<uint8_t>* buffer, int length);
     // static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> ParseAbbreviations(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xCE26EC
+    // Offset: 0xCF5130
     static System::Collections::Generic::Dictionary_2<int, ::CsString*>* ParseAbbreviations(::Array<uint8_t>* buffer, int index, int count);
     // static private System.Collections.Generic.Dictionary`2<System.Int32,System.TimeType> ParseTimesTypes(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Collections.Generic.Dictionary`2<System.Int32,System.String> abbreviations)
-    // Offset: 0xCE28BC
+    // Offset: 0xCF5300
     static System::Collections::Generic::Dictionary_2<int, System::TimeType*>* ParseTimesTypes(::Array<uint8_t>* buffer, int index, int count, System::Collections::Generic::Dictionary_2<int, ::CsString*>* abbreviations);
     // static private System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeType>> ParseTransitions(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Collections.Generic.Dictionary`2<System.Int32,System.TimeType> time_types)
-    // Offset: 0xCE2A60
+    // Offset: 0xCF54A4
     static System::Collections::Generic::List_1<System::Collections::Generic::KeyValuePair_2<System::DateTime, System::TimeType*>>* ParseTransitions(::Array<uint8_t>* buffer, int index, int count, System::Collections::Generic::Dictionary_2<int, System::TimeType*>* time_types);
     // static private System.DateTime DateTimeFromUnixTime(System.Int64 unix_time)
-    // Offset: 0xCE2BBC
+    // Offset: 0xCF5600
     static System::DateTime DateTimeFromUnixTime(int64_t unix_time);
     // static System.TimeSpan GetLocalUtcOffset(System.DateTime dateTime, System.TimeZoneInfoOptions flags)
-    // Offset: 0xCE2C04
+    // Offset: 0xCF5648
     static System::TimeSpan GetLocalUtcOffset(System::DateTime dateTime, System::TimeZoneInfoOptions flags);
     // System.TimeSpan GetUtcOffset(System.DateTime dateTime, System.TimeZoneInfoOptions flags)
-    // Offset: 0xCE2C3C
+    // Offset: 0xCF5680
     System::TimeSpan GetUtcOffset(System::DateTime dateTime, System::TimeZoneInfoOptions flags);
     // static System.TimeSpan GetUtcOffsetFromUtc(System.DateTime time, System.TimeZoneInfo zone, System.Boolean isDaylightSavings, System.Boolean isAmbiguousLocalDst)
-    // Offset: 0xCDF730
+    // Offset: 0xCF2174
     static System::TimeSpan GetUtcOffsetFromUtc(System::DateTime time, System::TimeZoneInfo* zone, bool& isDaylightSavings, bool& isAmbiguousLocalDst);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xCDF79C
+    // Offset: 0xCF21E0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(System.TimeZoneInfo other)
-    // Offset: 0xCDF810
+    // Offset: 0xCF2254
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(System.TimeZoneInfo other)
     bool Equals(System::TimeZoneInfo* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xCE04D8
+    // Offset: 0xCF2F1C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xCE057C
+    // Offset: 0xCF2FC0
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0xCE13E4
+    // Offset: 0xCF3E28
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::CsObject* sender);
     // public override System.String ToString()
-    // Offset: 0xCE1910
+    // Offset: 0xCF4354
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // System.Void .ctor()
-    // Offset: 0xCE2C60
+    // Offset: 0xCF56A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimeZoneInfo* New_ctor();
   }; // System.TimeZoneInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo*, "System", "TimeZoneInfo");
 #pragma pack(pop)

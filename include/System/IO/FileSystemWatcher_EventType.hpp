@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: System.IO.FileSystemWatcher
 #include "System/IO/FileSystemWatcher.hpp"
 // Completed includes
@@ -40,6 +38,6 @@ namespace System::IO {
     EventType(int value_ = {}) : value{value_} {}
   }; // System.IO.FileSystemWatcher/EventType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemWatcher::EventType, "System.IO", "FileSystemWatcher/EventType");
 #pragma pack(pop)

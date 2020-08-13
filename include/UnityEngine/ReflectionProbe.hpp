@@ -64,14 +64,14 @@ namespace UnityEngine {
     // Set static field: static private System.Action`1<UnityEngine.Cubemap> defaultReflectionSet
     static void _set_defaultReflectionSet(System::Action_1<UnityEngine::Cubemap*>* value);
     // static private System.Void CallReflectionProbeEvent(UnityEngine.ReflectionProbe probe, UnityEngine.ReflectionProbe/ReflectionProbeEvent probeEvent)
-    // Offset: 0x14099FC
+    // Offset: 0x141A440
     static void CallReflectionProbeEvent(UnityEngine::ReflectionProbe* probe, UnityEngine::ReflectionProbe::ReflectionProbeEvent probeEvent);
     // static private System.Void CallSetDefaultReflection(UnityEngine.Cubemap defaultReflectionCubemap)
-    // Offset: 0x1409A84
+    // Offset: 0x141A4C8
     static void CallSetDefaultReflection(UnityEngine::Cubemap* defaultReflectionCubemap);
   }; // UnityEngine.ReflectionProbe
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe*, "UnityEngine", "ReflectionProbe");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe::ReflectionProbeEvent, "UnityEngine", "ReflectionProbe/ReflectionProbeEvent");
 #pragma pack(pop)

@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CutScoreBuffer
 #include "GlobalNamespace/CutScoreBuffer.hpp"
 // Including type: System.Action`1

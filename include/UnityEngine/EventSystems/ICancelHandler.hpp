@@ -24,6 +24,6 @@ namespace UnityEngine::EventSystems {
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.ICancelHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ICancelHandler*, "UnityEngine.EventSystems", "ICancelHandler");
 #pragma pack(pop)

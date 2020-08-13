@@ -14,13 +14,13 @@ namespace GlobalNamespace {
   class DisableGCWhileEnabled : public UnityEngine::MonoBehaviour {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0xC999BC
+    // Offset: 0xCAC400
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC999C8
+    // Offset: 0xCAC40C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xC999D4
+    // Offset: 0xCAC418
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -30,6 +30,6 @@ namespace GlobalNamespace {
     static DisableGCWhileEnabled* New_ctor();
   }; // DisableGCWhileEnabled
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableGCWhileEnabled*, "", "DisableGCWhileEnabled");
 #pragma pack(pop)

@@ -46,6 +46,6 @@ namespace UnityEngine {
     jvalue(bool z_ = {}, int8_t b_ = {}, ::Il2CppChar c_ = {}, int16_t s_ = {}, int i_ = {}, int64_t j_ = {}, float f_ = {}, double d_ = {}, System::IntPtr l_ = {}) : z{z_}, b{b_}, c{c_}, s{s_}, i{i_}, j{j_}, f{f_}, d{d_}, l{l_} {}
   }; // UnityEngine.jvalue
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::jvalue, "UnityEngine", "jvalue");
 #pragma pack(pop)

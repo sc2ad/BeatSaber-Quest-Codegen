@@ -36,43 +36,43 @@ namespace UnityEngine::TextCore {
     // Creating value type constructor for type: GlyphRect
     GlyphRect(int m_X_ = {}, int m_Y_ = {}, int m_Width_ = {}, int m_Height_ = {}) : m_X{m_X_}, m_Y{m_Y_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // public System.Int32 get_x()
-    // Offset: 0xA5AE44
+    // Offset: 0xA5AEC0
     int get_x();
     // public System.Int32 get_y()
-    // Offset: 0xA5AE4C
+    // Offset: 0xA5AEC8
     int get_y();
     // public System.Int32 get_width()
-    // Offset: 0xA5AE54
+    // Offset: 0xA5AED0
     int get_width();
     // public System.Int32 get_height()
-    // Offset: 0xA5AE5C
+    // Offset: 0xA5AED8
     int get_height();
     // static public UnityEngine.TextCore.GlyphRect get_zero()
-    // Offset: 0x193E9B0
+    // Offset: 0x19513F4
     static UnityEngine::TextCore::GlyphRect get_zero();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height)
-    // Offset: 0xA5AE64
+    // Offset: 0xA5AEE0
     static GlyphRect* New_ctor(int x, int y, int width, int height);
     // static private System.Void .cctor()
-    // Offset: 0x193EBC4
+    // Offset: 0x1951608
     static void _cctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5AE70
+    // Offset: 0xA5AEEC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5AE78
+    // Offset: 0xA5AEF4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.TextCore.GlyphRect other)
-    // Offset: 0xA5AE80
+    // Offset: 0xA5AEFC
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.TextCore.GlyphRect other)
     bool Equals(UnityEngine::TextCore::GlyphRect other);
   }; // UnityEngine.TextCore.GlyphRect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
 #pragma pack(pop)

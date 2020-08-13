@@ -60,24 +60,24 @@ namespace GlobalNamespace {
     // Offset: 0x90
     GlobalNamespace::EulaViewController::InitData* initData;
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xBD63B0
+    // Offset: 0xBE8DF4
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0xBD6454
+    // Offset: 0xBE8E98
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0xBD664C
+    // Offset: 0xBE9090
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0xBD66B0
+    // Offset: 0xBE90F4
     void $DidActivate$b__9_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBD64F8
+    // Offset: 0xBE8F3C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xBD6644
+    // Offset: 0xBE9088
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -88,6 +88,6 @@ namespace GlobalNamespace {
     static EulaViewController* New_ctor();
   }; // EulaViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaViewController*, "", "EulaViewController");
 #pragma pack(pop)

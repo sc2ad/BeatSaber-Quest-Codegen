@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.TextEditor
 #include "UnityEngine/TextEditor.hpp"
 // Completed includes
@@ -46,6 +44,6 @@ namespace UnityEngine {
     CharacterType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextEditor/CharacterType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::CharacterType, "UnityEngine", "TextEditor/CharacterType");
 #pragma pack(pop)

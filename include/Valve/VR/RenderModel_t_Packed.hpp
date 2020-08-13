@@ -39,13 +39,13 @@ namespace Valve::VR {
     // Creating value type constructor for type: RenderModel_t_Packed
     RenderModel_t_Packed(System::IntPtr rVertexData_ = {}, uint unVertexCount_ = {}, System::IntPtr rIndexData_ = {}, uint unTriangleCount_ = {}, int diffuseTextureId_ = {}) : rVertexData{rVertexData_}, unVertexCount{unVertexCount_}, rIndexData{rIndexData_}, unTriangleCount{unTriangleCount_}, diffuseTextureId{diffuseTextureId_} {}
     // public System.Void .ctor(Valve.VR.RenderModel_t unpacked)
-    // Offset: 0xA59B70
+    // Offset: 0xA59BEC
     static RenderModel_t_Packed* New_ctor(Valve::VR::RenderModel_t unpacked);
     // public System.Void Unpack(Valve.VR.RenderModel_t unpacked)
-    // Offset: 0xA59B90
+    // Offset: 0xA59C0C
     void Unpack(Valve::VR::RenderModel_t& unpacked);
   }; // Valve.VR.RenderModel_t_Packed
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_t_Packed, "Valve.VR", "RenderModel_t_Packed");
 #pragma pack(pop)

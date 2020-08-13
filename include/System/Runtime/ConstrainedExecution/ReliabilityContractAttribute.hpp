@@ -24,10 +24,10 @@ namespace System::Runtime::ConstrainedExecution {
     // Offset: 0x14
     System::Runtime::ConstrainedExecution::Cer cer;
     // public System.Void .ctor(System.Runtime.ConstrainedExecution.Consistency consistencyGuarantee, System.Runtime.ConstrainedExecution.Cer cer)
-    // Offset: 0x11509B4
+    // Offset: 0x11623F8
     static ReliabilityContractAttribute* New_ctor(System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, System::Runtime::ConstrainedExecution::Cer cer);
   }; // System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*, "System.Runtime.ConstrainedExecution", "ReliabilityContractAttribute");
 #pragma pack(pop)

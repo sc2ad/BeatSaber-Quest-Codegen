@@ -102,31 +102,31 @@ namespace GlobalNamespace {
     // Offset: 0x64
     UnityEngine::Quaternion loadedOriginRot;
     // protected System.Void Awake()
-    // Offset: 0xC3ED78
+    // Offset: 0xC507BC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC3F490
+    // Offset: 0xC50ED4
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0xC3F7FC
+    // Offset: 0xC51240
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC3F820
+    // Offset: 0xC51264
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0xC3F844
+    // Offset: 0xC51288
     void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
     // protected System.Void Update()
-    // Offset: 0xC3FAC4
+    // Offset: 0xC51508
     void Update();
     // private System.Void Save()
-    // Offset: 0xC3F4A0
+    // Offset: 0xC50EE4
     void Save();
     // private System.Void Load()
-    // Offset: 0xC3EF44
+    // Offset: 0xC50988
     void Load();
     // public System.Void .ctor()
-    // Offset: 0xC3FF28
+    // Offset: 0xC5196C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -136,7 +136,7 @@ namespace GlobalNamespace {
     static VRTrackersRecorder* New_ctor();
   }; // VRTrackersRecorder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder*, "", "VRTrackersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::RecordMode, "", "VRTrackersRecorder/RecordMode");
 #pragma pack(pop)

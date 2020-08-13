@@ -53,22 +53,22 @@ namespace GlobalNamespace {
     // Offset: 0x40
     int activeBatteryLifeSegmentsCount;
     // protected System.Void Start()
-    // Offset: 0xB3B588
+    // Offset: 0xB39588
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB3BC00
+    // Offset: 0xB39C00
     void OnDestroy();
     // private System.Void Cleanup()
-    // Offset: 0xB3B6B0
+    // Offset: 0xB396B0
     void Cleanup();
     // private System.Void HandleGameEnergyDidChange(System.Single energy)
-    // Offset: 0xB3BA8C
+    // Offset: 0xB39A8C
     void HandleGameEnergyDidChange(float energy);
     // public System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
-    // Offset: 0xB3B78C
+    // Offset: 0xB3978C
     void CreateUIForBatteryEnergyType(int batteryLives);
     // public System.Void .ctor()
-    // Offset: 0xB3BC04
+    // Offset: 0xB39C04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -78,6 +78,6 @@ namespace GlobalNamespace {
     static GameEnergyUIPanel* New_ctor();
   }; // GameEnergyUIPanel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyUIPanel*, "", "GameEnergyUIPanel");
 #pragma pack(pop)

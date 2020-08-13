@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.LogType
 #include "UnityEngine/LogType.hpp"
 // Completed includes
@@ -28,41 +26,41 @@ namespace UnityEngine::TestTools::Logging {
     // Offset: 0x24
     bool IsHandled;
     // public System.String get_Message()
-    // Offset: 0xE2AA00
+    // Offset: 0xE3D444
     ::CsString* get_Message();
     // public System.Void set_Message(System.String value)
-    // Offset: 0xE2AA08
+    // Offset: 0xE3D44C
     void set_Message(::CsString* value);
     // public System.String get_StackTrace()
-    // Offset: 0xE2AA10
+    // Offset: 0xE3D454
     ::CsString* get_StackTrace();
     // public System.Void set_StackTrace(System.String value)
-    // Offset: 0xE2AA18
+    // Offset: 0xE3D45C
     void set_StackTrace(::CsString* value);
     // public UnityEngine.LogType get_LogType()
-    // Offset: 0xE2AA20
+    // Offset: 0xE3D464
     UnityEngine::LogType get_LogType();
     // public System.Void set_LogType(UnityEngine.LogType value)
-    // Offset: 0xE2AA28
+    // Offset: 0xE3D46C
     void set_LogType(UnityEngine::LogType value);
     // public System.Boolean get_IsHandled()
-    // Offset: 0xE2AA30
+    // Offset: 0xE3D474
     bool get_IsHandled();
     // public System.Void set_IsHandled(System.Boolean value)
-    // Offset: 0xE2AA38
+    // Offset: 0xE3D47C
     void set_IsHandled(bool value);
     // public override System.String ToString()
-    // Offset: 0xE2AA44
+    // Offset: 0xE3D488
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // public System.Void .ctor()
-    // Offset: 0xE2AAC8
+    // Offset: 0xE3D50C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LogEvent* New_ctor();
   }; // UnityEngine.TestTools.Logging.LogEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");
 #pragma pack(pop)

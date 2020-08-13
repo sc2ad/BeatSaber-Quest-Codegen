@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR
 #include "RootMotion/FinalIK/IKSolverVR.hpp"
 // Including type: UnityEngine.Vector3
@@ -74,34 +72,34 @@ namespace RootMotion::FinalIK {
     // Offset: 0xA0
     float supportLegWV;
     // public System.Boolean get_isStepping()
-    // Offset: 0x1427E98
+    // Offset: 0x14378DC
     bool get_isStepping();
     // public System.Single get_stepProgress()
-    // Offset: 0x1427EAC
+    // Offset: 0x14378F0
     float get_stepProgress();
     // private System.Void set_stepProgress(System.Single value)
-    // Offset: 0x1427EB4
+    // Offset: 0x14378F8
     void set_stepProgress(float value);
     // public System.Void .ctor(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation, UnityEngine.Vector3 characterSpaceOffset)
-    // Offset: 0x1427EBC
+    // Offset: 0x1437900
     static IKSolverVR::Footstep* New_ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset);
     // public System.Void Reset(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation)
-    // Offset: 0x142804C
+    // Offset: 0x1437A90
     void Reset(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation);
     // public System.Void StepTo(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single stepThreshold)
-    // Offset: 0x1428094
+    // Offset: 0x1437AD8
     void StepTo(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float stepThreshold);
     // public System.Void UpdateStepping(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single speed)
-    // Offset: 0x1428254
+    // Offset: 0x1437C98
     void UpdateStepping(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float speed);
     // public System.Void UpdateStanding(UnityEngine.Quaternion rootRotation, System.Single minAngle, System.Single speed)
-    // Offset: 0x142842C
+    // Offset: 0x1437E70
     void UpdateStanding(UnityEngine::Quaternion rootRotation, float minAngle, float speed);
     // public System.Void Update(RootMotion.InterpolationMode interpolation, UnityEngine.Events.UnityEvent onStep)
-    // Offset: 0x1428618
+    // Offset: 0x143805C
     void Update(RootMotion::InterpolationMode interpolation, UnityEngine::Events::UnityEvent* onStep);
   }; // RootMotion.FinalIK.IKSolverVR/Footstep
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Footstep*, "RootMotion.FinalIK", "IKSolverVR/Footstep");
 #pragma pack(pop)

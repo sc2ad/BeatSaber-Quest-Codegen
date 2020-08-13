@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Completed includes
@@ -43,10 +41,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0x30
     Oculus::Platform::Models::User* User;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE93758
+    // Offset: 0xEA619C
     static LeaderboardEntry* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LeaderboardEntry
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntry*, "Oculus.Platform.Models", "LeaderboardEntry");
 #pragma pack(pop)

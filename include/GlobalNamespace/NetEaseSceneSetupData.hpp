@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SceneSetupData
 #include "GlobalNamespace/SceneSetupData.hpp"
 // Completed includes
@@ -23,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
-    // Offset: 0xBFE57C
+    // Offset: 0xC0FFC0
     GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0xBFE584
+    // Offset: 0xC0FFC8
     static NetEaseSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
   }; // NetEaseSceneSetupData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseSceneSetupData*, "", "NetEaseSceneSetupData");
 #pragma pack(pop)

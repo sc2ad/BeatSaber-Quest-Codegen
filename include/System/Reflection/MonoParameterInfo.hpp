@@ -27,25 +27,25 @@ namespace System::Reflection {
   class MonoParameterInfo : public System::Reflection::RuntimeParameterInfo {
     public:
     // System.Void .ctor(System.Reflection.ParameterInfo pinfo, System.Reflection.MemberInfo member)
-    // Offset: 0x113D968
+    // Offset: 0x114F3AC
     static MonoParameterInfo* New_ctor(System::Reflection::ParameterInfo* pinfo, System::Reflection::MemberInfo* member);
     // public override System.Object get_DefaultValue()
-    // Offset: 0x113DA30
+    // Offset: 0x114F474
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Object ParameterInfo::get_DefaultValue()
     ::CsObject* get_DefaultValue();
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x113DC74
+    // Offset: 0x114F6B8
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Object[] ParameterInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::CsObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x113DCF4
+    // Offset: 0x114F738
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Boolean ParameterInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.MonoParameterInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoParameterInfo*, "System.Reflection", "MonoParameterInfo");
 #pragma pack(pop)

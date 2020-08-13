@@ -72,63 +72,63 @@ namespace GlobalNamespace {
     // Offset: 0x138
     System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<LevelSelectionFlowCoordinator> value)
-    // Offset: 0xBBD730
+    // Offset: 0xBD0174
     void add_didFinishEvent(System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<LevelSelectionFlowCoordinator> value)
-    // Offset: 0xBBD7D8
+    // Offset: 0xBD021C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator*>* value);
     // private System.Boolean WillScoreGoToLeaderboard(LevelCompletionResults levelCompletionResults, System.String leaderboardId, System.Boolean practice)
-    // Offset: 0xBBDDA4
+    // Offset: 0xBD07E8
     bool WillScoreGoToLeaderboard(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::CsString* leaderboardId, bool practice);
     // private System.Boolean IsNewHighScore(LevelCompletionResults levelCompletionResults, System.String leaderboardId)
-    // Offset: 0xBBDDF8
+    // Offset: 0xBD083C
     bool IsNewHighScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::CsString* leaderboardId);
     // private System.Void ProcessScore(LevelCompletionResults levelCompletionResults, System.String leaderboardId, System.String playerName)
-    // Offset: 0xBBDE48
+    // Offset: 0xBD088C
     void ProcessScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::CsString* leaderboardId, ::CsString* playerName);
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xBBDEDC
+    // Offset: 0xBD0920
     void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xBBDF20
+    // Offset: 0xBD0964
     void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // protected override LeaderboardViewController get_leaderboardViewController()
-    // Offset: 0xBBD880
+    // Offset: 0xBD02C4
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: LeaderboardViewController LevelSelectionFlowCoordinator::get_leaderboardViewController()
     GlobalNamespace::LeaderboardViewController* get_leaderboardViewController();
     // protected override System.Boolean get_showPlayerStatsInDetailView()
-    // Offset: 0xBBD888
+    // Offset: 0xBD02CC
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_showPlayerStatsInDetailView()
     bool get_showPlayerStatsInDetailView();
     // protected override System.Boolean get_showBackButtonForMainViewController()
-    // Offset: 0xBBD890
+    // Offset: 0xBD02D4
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_showBackButtonForMainViewController()
     bool get_showBackButtonForMainViewController();
     // protected override System.Void LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xBBD898
+    // Offset: 0xBD02DC
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // protected override System.Void LevelSelectionFlowCoordinatorDidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    // Offset: 0xBBD9E0
+    // Offset: 0xBD0424
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
     void LevelSelectionFlowCoordinatorDidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
     // protected override System.Void ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xBBDB24
+    // Offset: 0xBD0568
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
     void ProcessLevelCompletionResultsAfterLevelDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xBBE000
+    // Offset: 0xBD0A44
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0xBBE0BC
+    // Offset: 0xBD0B00
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::.ctor()
     // Base method: System.Void FlowCoordinator::.ctor()
@@ -140,6 +140,6 @@ namespace GlobalNamespace {
     static PartyFreePlayFlowCoordinator* New_ctor();
   }; // PartyFreePlayFlowCoordinator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator*, "", "PartyFreePlayFlowCoordinator");
 #pragma pack(pop)

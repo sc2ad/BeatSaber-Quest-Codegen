@@ -31,76 +31,76 @@ namespace UnityEngine {
     // Offset: 0x20
     UnityEngine::AudioClip::PCMSetPositionCallback* m_PCMSetPositionCallback;
     // static private System.Boolean GetData(UnityEngine.AudioClip clip, System.Single[] data, System.Int32 numSamples, System.Int32 samplesOffset)
-    // Offset: 0x194235C
+    // Offset: 0x1954DA0
     static bool GetData(UnityEngine::AudioClip* clip, ::Array<float>*& data, int numSamples, int samplesOffset);
     // static private System.Boolean SetData(UnityEngine.AudioClip clip, System.Single[] data, System.Int32 numsamples, System.Int32 samplesOffset)
-    // Offset: 0x19423C4
+    // Offset: 0x1954E08
     static bool SetData(UnityEngine::AudioClip* clip, ::Array<float>* data, int numsamples, int samplesOffset);
     // static private UnityEngine.AudioClip Construct_Internal()
-    // Offset: 0x194242C
+    // Offset: 0x1954E70
     static UnityEngine::AudioClip* Construct_Internal();
     // private System.String GetName()
-    // Offset: 0x1942460
+    // Offset: 0x1954EA4
     ::CsString* GetName();
     // private System.Void CreateUserSound(System.String name, System.Int32 lengthSamples, System.Int32 channels, System.Int32 frequency, System.Boolean stream)
-    // Offset: 0x19424A0
+    // Offset: 0x1954EE4
     void CreateUserSound(::CsString* name, int lengthSamples, int channels, int frequency, bool stream);
     // public System.Single get_length()
-    // Offset: 0x194120C
+    // Offset: 0x1953C50
     float get_length();
     // public System.Int32 get_samples()
-    // Offset: 0x1942520
+    // Offset: 0x1954F64
     int get_samples();
     // public System.Int32 get_channels()
-    // Offset: 0x1942560
+    // Offset: 0x1954FA4
     int get_channels();
     // public System.Int32 get_frequency()
-    // Offset: 0x19425A0
+    // Offset: 0x1954FE4
     int get_frequency();
     // public System.Boolean LoadAudioData()
-    // Offset: 0x19425E0
+    // Offset: 0x1955024
     bool LoadAudioData();
     // public UnityEngine.AudioDataLoadState get_loadState()
-    // Offset: 0x1942620
+    // Offset: 0x1955064
     UnityEngine::AudioDataLoadState get_loadState();
     // public System.Boolean GetData(System.Single[] data, System.Int32 offsetSamples)
-    // Offset: 0x1942660
+    // Offset: 0x19550A4
     bool GetData(::Array<float>* data, int offsetSamples);
     // public System.Boolean SetData(System.Single[] data, System.Int32 offsetSamples)
-    // Offset: 0x19427EC
+    // Offset: 0x1955230
     bool SetData(::Array<float>* data, int offsetSamples);
     // static public UnityEngine.AudioClip Create(System.String name, System.Int32 lengthSamples, System.Int32 channels, System.Int32 frequency, System.Boolean stream)
-    // Offset: 0x1942A04
+    // Offset: 0x1955448
     static UnityEngine::AudioClip* Create(::CsString* name, int lengthSamples, int channels, int frequency, bool stream);
     // static public UnityEngine.AudioClip Create(System.String name, System.Int32 lengthSamples, System.Int32 channels, System.Int32 frequency, System.Boolean stream, UnityEngine.AudioClip/PCMReaderCallback pcmreadercallback, UnityEngine.AudioClip/PCMSetPositionCallback pcmsetpositioncallback)
-    // Offset: 0x1942A14
+    // Offset: 0x1955458
     static UnityEngine::AudioClip* Create(::CsString* name, int lengthSamples, int channels, int frequency, bool stream, UnityEngine::AudioClip::PCMReaderCallback* pcmreadercallback, UnityEngine::AudioClip::PCMSetPositionCallback* pcmsetpositioncallback);
     // private System.Void add_m_PCMReaderCallback(UnityEngine.AudioClip/PCMReaderCallback value)
-    // Offset: 0x1942BD0
+    // Offset: 0x1955614
     void add_m_PCMReaderCallback(UnityEngine::AudioClip::PCMReaderCallback* value);
     // private System.Void remove_m_PCMReaderCallback(UnityEngine.AudioClip/PCMReaderCallback value)
-    // Offset: 0x1942D18
+    // Offset: 0x195575C
     void remove_m_PCMReaderCallback(UnityEngine::AudioClip::PCMReaderCallback* value);
     // private System.Void add_m_PCMSetPositionCallback(UnityEngine.AudioClip/PCMSetPositionCallback value)
-    // Offset: 0x1942C74
+    // Offset: 0x19556B8
     void add_m_PCMSetPositionCallback(UnityEngine::AudioClip::PCMSetPositionCallback* value);
     // private System.Void remove_m_PCMSetPositionCallback(UnityEngine.AudioClip/PCMSetPositionCallback value)
-    // Offset: 0x1942DBC
+    // Offset: 0x1955800
     void remove_m_PCMSetPositionCallback(UnityEngine::AudioClip::PCMSetPositionCallback* value);
     // private System.Void InvokePCMReaderCallback_Internal(System.Single[] data)
-    // Offset: 0x1942E60
+    // Offset: 0x19558A4
     void InvokePCMReaderCallback_Internal(::Array<float>* data);
     // private System.Void InvokePCMSetPositionCallback_Internal(System.Int32 position)
-    // Offset: 0x1943228
+    // Offset: 0x1955C6C
     void InvokePCMSetPositionCallback_Internal(int position);
     // private System.Void .ctor()
-    // Offset: 0x19422D4
+    // Offset: 0x1954D18
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static AudioClip* New_ctor();
   }; // UnityEngine.AudioClip
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip*, "UnityEngine", "AudioClip");
 #pragma pack(pop)

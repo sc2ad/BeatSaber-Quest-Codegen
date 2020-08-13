@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.OffsetPose
 #include "RootMotion/FinalIK/OffsetPose.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -41,15 +39,15 @@ namespace RootMotion::FinalIK {
     // Offset: 0x2C
     UnityEngine::Vector3 pinWeight;
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x121AFC8
+    // Offset: 0x122CA0C
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x121B424
+    // Offset: 0x122CE68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OffsetPose::EffectorLink* New_ctor();
   }; // RootMotion.FinalIK.OffsetPose/EffectorLink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose::EffectorLink*, "RootMotion.FinalIK", "OffsetPose/EffectorLink");
 #pragma pack(pop)

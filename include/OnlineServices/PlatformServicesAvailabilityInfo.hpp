@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -51,17 +49,17 @@ namespace OnlineServices {
     // Offset: 0x18
     ::CsString* localizedMessage;
     // private System.Void .ctor(OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability availability, System.String localizedMessage)
-    // Offset: 0xBB94D0
+    // Offset: 0xBCBF14
     static PlatformServicesAvailabilityInfo* New_ctor(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::CsString* localizedMessage);
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()
-    // Offset: 0xBB9400
+    // Offset: 0xBCBE44
     static OnlineServices::PlatformServicesAvailabilityInfo* get_everythingOK();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_onlineServicesUnavailableError()
-    // Offset: 0xBB9514
+    // Offset: 0xBCBF58
     static OnlineServices::PlatformServicesAvailabilityInfo* get_onlineServicesUnavailableError();
   }; // OnlineServices.PlatformServicesAvailabilityInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo*, "OnlineServices", "PlatformServicesAvailabilityInfo");
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, "OnlineServices", "PlatformServicesAvailabilityInfo/OnlineServicesAvailability");
 #pragma pack(pop)

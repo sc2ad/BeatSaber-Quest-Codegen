@@ -35,16 +35,16 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: SerializationEntry
     SerializationEntry(System::Type* m_type_ = {}, ::CsObject* m_value_ = {}, ::CsString* m_name_ = {}) : m_type{m_type_}, m_value{m_value_}, m_name{m_name_} {}
     // public System.Object get_Value()
-    // Offset: 0xA3B520
+    // Offset: 0xA3B59C
     ::CsObject* get_Value();
     // public System.String get_Name()
-    // Offset: 0xA3B528
+    // Offset: 0xA3B5A4
     ::CsString* get_Name();
     // System.Void .ctor(System.String entryName, System.Object entryValue, System.Type entryType)
-    // Offset: 0xA3B530
+    // Offset: 0xA3B5AC
     static SerializationEntry* New_ctor(::CsString* entryName, ::CsObject* entryValue, System::Type* entryType);
   }; // System.Runtime.Serialization.SerializationEntry
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");
 #pragma pack(pop)

@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::BloomFogEnvironmentParams* fog1Params;
     // protected System.Void Awake()
-    // Offset: 0x180BD1C
+    // Offset: 0x181C760
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x180BD94
+    // Offset: 0x181C7D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static BloomFogEnvironment* New_ctor();
   }; // BloomFogEnvironment
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironment*, "", "BloomFogEnvironment");
 #pragma pack(pop)

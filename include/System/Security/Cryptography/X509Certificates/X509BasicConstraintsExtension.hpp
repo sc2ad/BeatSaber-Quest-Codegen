@@ -51,45 +51,45 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x28
     System::Security::Cryptography::AsnDecodeStatus status;
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedBasicConstraints, System.Boolean critical)
-    // Offset: 0x12022BC
+    // Offset: 0x1214D00
     static X509BasicConstraintsExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedBasicConstraints, bool critical);
     // public System.Void .ctor(System.Boolean certificateAuthority, System.Boolean hasPathLengthConstraint, System.Int32 pathLengthConstraint, System.Boolean critical)
-    // Offset: 0x1203ED8
+    // Offset: 0x121691C
     static X509BasicConstraintsExtension* New_ctor(bool certificateAuthority, bool hasPathLengthConstraint, int pathLengthConstraint, bool critical);
     // public System.Boolean get_CertificateAuthority()
-    // Offset: 0x1204160
+    // Offset: 0x1216BA4
     bool get_CertificateAuthority();
     // public System.Boolean get_HasPathLengthConstraint()
-    // Offset: 0x12041F0
+    // Offset: 0x1216C34
     bool get_HasPathLengthConstraint();
     // public System.Int32 get_PathLengthConstraint()
-    // Offset: 0x1204280
+    // Offset: 0x1216CC4
     int get_PathLengthConstraint();
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x1203CF4
+    // Offset: 0x1216738
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // System.Byte[] Encode()
-    // Offset: 0x1203FF4
+    // Offset: 0x1216A38
     ::Array<uint8_t>* Encode();
     // public System.Void .ctor()
-    // Offset: 0x1203C64
+    // Offset: 0x12166A8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::.ctor()
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
     static X509BasicConstraintsExtension* New_ctor();
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1204310
+    // Offset: 0x1216D54
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x12044AC
+    // Offset: 0x1216EF0
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::CsString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension*, "System.Security.Cryptography.X509Certificates", "X509BasicConstraintsExtension");
 #pragma pack(pop)

@@ -27,6 +27,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "IEnumerableTestMethodCommand");
 #pragma pack(pop)

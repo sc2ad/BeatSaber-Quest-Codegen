@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryHeaderEnum.hpp"
 // Completed includes
@@ -54,24 +52,24 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x48
     int assemId;
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0xE106F8
+    // Offset: 0xE2313C
     static BinaryObjectWithMapTyped* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // System.Void Set(System.Int32 objectId, System.String name, System.Int32 numMembers, System.String[] memberNames, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA, System.Object[] typeInformationA, System.Int32[] memberAssemIds, System.Int32 assemId)
-    // Offset: 0xE10724
+    // Offset: 0xE23168
     void Set(int objectId, ::CsString* name, int numMembers, ::Array<::CsString*>* memberNames, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA, ::Array<::CsObject*>* typeInformationA, ::Array<int>* memberAssemIds, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE107E0
+    // Offset: 0xE23224
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xE10984
+    // Offset: 0xE233C8
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // System.Void .ctor()
-    // Offset: 0xE106F0
+    // Offset: 0xE23134
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryObjectWithMapTyped* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectWithMapTyped");
 #pragma pack(pop)

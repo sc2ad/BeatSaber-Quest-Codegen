@@ -68,19 +68,19 @@ namespace HMUI {
     // Offset: 0x5C
     float contentMinY;
     // protected System.Void Start()
-    // Offset: 0x10CC6D0
+    // Offset: 0x10DD114
     void Start();
     // protected System.Void Update()
-    // Offset: 0x10CCDE0
+    // Offset: 0x10DD824
     void Update();
     // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x10CCC28
+    // Offset: 0x10DD66C
     void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
     // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x10CCED0
+    // Offset: 0x10DD914
     void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
     // public System.Void .ctor()
-    // Offset: 0x10CD074
+    // Offset: 0x10DDAB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,6 +90,6 @@ namespace HMUI {
     static ScrollViewItemsVisibilityController* New_ctor();
   }; // HMUI.ScrollViewItemsVisibilityController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController*, "HMUI", "ScrollViewItemsVisibilityController");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.PoolExpandMethods
 #include "Zenject/PoolExpandMethods.hpp"
 // Completed includes
@@ -25,30 +23,30 @@ namespace Zenject {
     // Offset: 0x18
     int MaxSize;
     // public Zenject.PoolExpandMethods get_ExpandMethod()
-    // Offset: 0xFABEF8
+    // Offset: 0xFBE93C
     Zenject::PoolExpandMethods get_ExpandMethod();
     // public System.Void set_ExpandMethod(Zenject.PoolExpandMethods value)
-    // Offset: 0xFABF00
+    // Offset: 0xFBE944
     void set_ExpandMethod(Zenject::PoolExpandMethods value);
     // public System.Int32 get_InitialSize()
-    // Offset: 0xFABF08
+    // Offset: 0xFBE94C
     int get_InitialSize();
     // public System.Void set_InitialSize(System.Int32 value)
-    // Offset: 0xFABF10
+    // Offset: 0xFBE954
     void set_InitialSize(int value);
     // public System.Int32 get_MaxSize()
-    // Offset: 0xFABF18
+    // Offset: 0xFBE95C
     int get_MaxSize();
     // public System.Void set_MaxSize(System.Int32 value)
-    // Offset: 0xFABF20
+    // Offset: 0xFBE964
     void set_MaxSize(int value);
     // public System.Void .ctor()
-    // Offset: 0xFABEC8
+    // Offset: 0xFBE90C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemoryPoolBindInfo* New_ctor();
   }; // Zenject.MemoryPoolBindInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
 #pragma pack(pop)

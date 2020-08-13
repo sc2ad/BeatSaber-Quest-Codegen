@@ -45,19 +45,19 @@ namespace HMUI {
     // Offset: 0x38
     UnityEngine::AnimationCurve* parentAlphaAnimationCurve;
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go)
-    // Offset: 0x10C9A1C
+    // Offset: 0x10DA460
     void ExecuteAnimation(UnityEngine::GameObject* go);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, System.Action finishedCallback)
-    // Offset: 0x10C9AEC
+    // Offset: 0x10DA530
     void ExecuteAnimation(UnityEngine::GameObject* go, System::Action* finishedCallback);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Action finishedCallback)
-    // Offset: 0x10C9AFC
+    // Offset: 0x10DA540
     void ExecuteAnimation(UnityEngine::GameObject* go, UnityEngine::CanvasGroup* parentCanvasGroup, System::Action* finishedCallback);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Boolean instant, System.Action finishedCallback)
-    // Offset: 0x10C9A2C
+    // Offset: 0x10DA470
     void ExecuteAnimation(UnityEngine::GameObject* go, UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, System::Action* finishedCallback);
     // public System.Void .ctor()
-    // Offset: 0x10C9B08
+    // Offset: 0x10DA54C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -65,6 +65,6 @@ namespace HMUI {
     static PanelAnimationSO* New_ctor();
   }; // HMUI.PanelAnimationSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimationSO*, "HMUI", "PanelAnimationSO");
 #pragma pack(pop)

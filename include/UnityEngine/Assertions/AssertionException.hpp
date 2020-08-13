@@ -17,15 +17,15 @@ namespace UnityEngine::Assertions {
     // Offset: 0x88
     ::CsString* m_UserMessage;
     // public System.Void .ctor(System.String message, System.String userMessage)
-    // Offset: 0x12E95B8
+    // Offset: 0x12FBFFC
     static AssertionException* New_ctor(::CsString* message, ::CsString* userMessage);
     // public override System.String get_Message()
-    // Offset: 0x12E99FC
+    // Offset: 0x12FC440
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::CsString* get_Message();
   }; // UnityEngine.Assertions.AssertionException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionException*, "UnityEngine.Assertions", "AssertionException");
 #pragma pack(pop)

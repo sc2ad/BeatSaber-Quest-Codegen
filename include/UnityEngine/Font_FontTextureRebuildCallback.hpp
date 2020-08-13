@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.Font
 #include "UnityEngine/Font.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace UnityEngine {
   class Font::FontTextureRebuildCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x194CDA0
+    // Offset: 0x195F7E4
     static Font::FontTextureRebuildCallback* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x194CAF4
+    // Offset: 0x195F538
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x194CDB4
+    // Offset: 0x195F7F8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x194CDE0
+    // Offset: 0x195F824
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Font/FontTextureRebuildCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Font::FontTextureRebuildCallback*, "UnityEngine", "Font/FontTextureRebuildCallback");
 #pragma pack(pop)

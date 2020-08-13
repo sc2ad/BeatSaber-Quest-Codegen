@@ -37,18 +37,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x38
     ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* boneHitPoints;
     // public System.Boolean get_inProgress()
-    // Offset: 0x136375C
+    // Offset: 0x13761A0
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1363A4C
+    // Offset: 0x1376490
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x136382C
+    // Offset: 0x1376270
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1363DB8
+    // Offset: 0x13767FC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -59,6 +59,6 @@ namespace RootMotion::FinalIK {
     static HitReaction* New_ctor();
   }; // RootMotion.FinalIK.HitReaction
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction*, "RootMotion.FinalIK", "HitReaction");
 #pragma pack(pop)

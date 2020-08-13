@@ -38,6 +38,6 @@ namespace System::Runtime::InteropServices {
     ClassInterfaceType(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.ClassInterfaceType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ClassInterfaceType, "System.Runtime.InteropServices", "ClassInterfaceType");
 #pragma pack(pop)

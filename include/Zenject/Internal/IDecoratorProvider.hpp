@@ -33,6 +33,6 @@ namespace Zenject::Internal {
     void GetAllInstances(Zenject::IProvider* provider, Zenject::InjectContext* context, System::Collections::Generic::List_1<::CsObject*>* buffer);
   }; // Zenject.Internal.IDecoratorProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::IDecoratorProvider*, "Zenject.Internal", "IDecoratorProvider");
 #pragma pack(pop)

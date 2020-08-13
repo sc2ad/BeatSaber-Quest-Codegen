@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.ParameterizedStrings
 #include "System/ParameterizedStrings.hpp"
 // Completed includes
@@ -22,21 +20,21 @@ namespace System {
     // Offset: 0x18
     int count;
     // public System.ParameterizedStrings/FormatParam Pop()
-    // Offset: 0x1348BE4
+    // Offset: 0x135B628
     System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/FormatParam item)
-    // Offset: 0x1348F80
+    // Offset: 0x135B9C4
     void Push(System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
-    // Offset: 0x1348218
+    // Offset: 0x135AC5C
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x13481B8
+    // Offset: 0x135ABFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ParameterizedStrings::LowLevelStack* New_ctor();
   }; // System.ParameterizedStrings/LowLevelStack
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
 #pragma pack(pop)

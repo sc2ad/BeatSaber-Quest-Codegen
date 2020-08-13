@@ -73,19 +73,19 @@ namespace GlobalNamespace {
     // Offset: 0x40
     System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0xC358F8
+    // Offset: 0xC4733C
     void add_didFinishEvent(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0xC3599C
+    // Offset: 0xC473E0
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void Init()
-    // Offset: 0xC33B68
+    // Offset: 0xC455AC
     void Init();
     // public System.Void Finish(TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState)
-    // Offset: 0xC33A40
+    // Offset: 0xC45484
     void Finish(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState);
     // public System.Void .ctor()
-    // Offset: 0xC35A40
+    // Offset: 0xC47484
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     static TutorialScenesTransitionSetupDataSO* New_ctor();
   }; // TutorialScenesTransitionSetupDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO*, "", "TutorialScenesTransitionSetupDataSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType, "", "TutorialScenesTransitionSetupDataSO/TutorialEndStateType");
 #pragma pack(pop)

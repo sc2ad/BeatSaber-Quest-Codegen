@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: ImageEffectController
 #include "GlobalNamespace/ImageEffectController.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -31,19 +31,19 @@ namespace GlobalNamespace {
   class ImageEffectController::RenderImageCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1810634
+    // Offset: 0x1821078
     static ImageEffectController::RenderImageCallback* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1810228
+    // Offset: 0x1820C6C
     void Invoke(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.IAsyncResult BeginInvoke(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1810648
+    // Offset: 0x182108C
     System::IAsyncResult* BeginInvoke(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1810678
+    // Offset: 0x18210BC
     void EndInvoke(System::IAsyncResult* result);
   }; // ImageEffectController/RenderImageCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageEffectController::RenderImageCallback*, "", "ImageEffectController/RenderImageCallback");
 #pragma pack(pop)

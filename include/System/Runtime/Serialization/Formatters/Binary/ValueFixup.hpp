@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum
 #include "System/Runtime/Serialization/Formatters/Binary/ValueFixupEnum.hpp"
 // Completed includes
@@ -60,16 +58,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x40
     ::CsString* memberName;
     // System.Void .ctor(System.Array arrayObj, System.Int32[] indexMap)
-    // Offset: 0xFDB878
+    // Offset: 0xFEC2BC
     static ValueFixup* New_ctor(System::Array* arrayObj, ::Array<int>* indexMap);
     // System.Void .ctor(System.Object memberObject, System.String memberName, System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo)
-    // Offset: 0xFDB8D0
+    // Offset: 0xFEC314
     static ValueFixup* New_ctor(::CsObject* memberObject, ::CsString* memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
     // System.Void Fixup(System.Runtime.Serialization.Formatters.Binary.ParseRecord record, System.Runtime.Serialization.Formatters.Binary.ParseRecord parent)
-    // Offset: 0xFDB93C
+    // Offset: 0xFEC380
     void Fixup(System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
   }; // System.Runtime.Serialization.Formatters.Binary.ValueFixup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ValueFixup*, "System.Runtime.Serialization.Formatters.Binary", "ValueFixup");
 #pragma pack(pop)

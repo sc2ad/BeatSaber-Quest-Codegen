@@ -19,13 +19,13 @@ namespace UnityEngine {
     // Offset: 0x10
     UnityEngine::RuntimeInitializeLoadType m_LoadType;
     // public System.Void .ctor(UnityEngine.RuntimeInitializeLoadType loadType)
-    // Offset: 0x1375524
+    // Offset: 0x1387F68
     static RuntimeInitializeOnLoadMethodAttribute* New_ctor(UnityEngine::RuntimeInitializeLoadType loadType);
     // private System.Void set_loadType(UnityEngine.RuntimeInitializeLoadType value)
-    // Offset: 0x137551C
+    // Offset: 0x1387F60
     void set_loadType(UnityEngine::RuntimeInitializeLoadType value);
     // public System.Void .ctor()
-    // Offset: 0x13754EC
+    // Offset: 0x1387F30
     // Implemented from: UnityEngine.Scripting.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -33,6 +33,6 @@ namespace UnityEngine {
     static RuntimeInitializeOnLoadMethodAttribute* New_ctor();
   }; // UnityEngine.RuntimeInitializeOnLoadMethodAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeInitializeOnLoadMethodAttribute*, "UnityEngine", "RuntimeInitializeOnLoadMethodAttribute");
 #pragma pack(pop)

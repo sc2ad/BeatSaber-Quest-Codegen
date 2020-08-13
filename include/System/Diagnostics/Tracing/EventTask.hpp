@@ -26,6 +26,6 @@ namespace System::Diagnostics::Tracing {
     EventTask(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventTask
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventTask, "System.Diagnostics.Tracing", "EventTask");
 #pragma pack(pop)

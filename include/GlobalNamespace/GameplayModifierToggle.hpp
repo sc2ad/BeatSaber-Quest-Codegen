@@ -53,16 +53,16 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::UI::Toggle* toggle;
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0xB3E460
+    // Offset: 0xB3C460
     UnityEngine::UI::Toggle* get_toggle();
     // public GameplayModifierParamsSO get_gameplayModifier()
-    // Offset: 0xB3E468
+    // Offset: 0xB3C468
     GlobalNamespace::GameplayModifierParamsSO* get_gameplayModifier();
     // protected System.Void Start()
-    // Offset: 0xB3E470
+    // Offset: 0xB3C470
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xB3E5B0
+    // Offset: 0xB3C5B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -72,6 +72,6 @@ namespace GlobalNamespace {
     static GameplayModifierToggle* New_ctor();
   }; // GameplayModifierToggle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierToggle*, "", "GameplayModifierToggle");
 #pragma pack(pop)

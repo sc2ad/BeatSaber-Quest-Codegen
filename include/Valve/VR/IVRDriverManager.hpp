@@ -31,6 +31,6 @@ namespace Valve::VR {
     IVRDriverManager(Valve::VR::IVRDriverManager::_GetDriverCount* GetDriverCount_ = {}, Valve::VR::IVRDriverManager::_GetDriverName* GetDriverName_ = {}) : GetDriverCount{GetDriverCount_}, GetDriverName{GetDriverName_} {}
   }; // Valve.VR.IVRDriverManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRDriverManager, "Valve.VR", "IVRDriverManager");
 #pragma pack(pop)

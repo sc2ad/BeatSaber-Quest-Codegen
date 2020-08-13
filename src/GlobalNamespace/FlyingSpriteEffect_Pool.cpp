@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: FlyingSpriteEffect/Pool
 #include "GlobalNamespace/FlyingSpriteEffect_Pool.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

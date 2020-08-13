@@ -23,7 +23,7 @@ namespace System::Runtime::InteropServices {
   class COMException : public System::Runtime::InteropServices::ExternalException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1150B4C
+    // Offset: 0x1162590
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,19 +31,19 @@ namespace System::Runtime::InteropServices {
     // Base method: System.Void Object::.ctor()
     static COMException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1150C08
+    // Offset: 0x116264C
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static COMException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x1150C18
+    // Offset: 0x116265C
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.String ExternalException::ToString()
     ::CsString* ToString();
   }; // System.Runtime.InteropServices.COMException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::COMException*, "System.Runtime.InteropServices", "COMException");
 #pragma pack(pop)

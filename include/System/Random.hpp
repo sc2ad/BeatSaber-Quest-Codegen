@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -43,27 +41,27 @@ namespace System {
     // Offset: 0x18
     ::Array<int>* SeedArray;
     // public System.Void .ctor(System.Int32 Seed)
-    // Offset: 0x134AAF4
+    // Offset: 0x135D538
     static Random* New_ctor(int Seed);
     // protected System.Double Sample()
-    // Offset: 0x134AD58
+    // Offset: 0x135D79C
     double Sample();
     // private System.Int32 InternalSample()
-    // Offset: 0x134AD7C
+    // Offset: 0x135D7C0
     int InternalSample();
     // public System.Int32 Next()
-    // Offset: 0x134AE18
+    // Offset: 0x135D85C
     int Next();
     // public System.Int32 Next(System.Int32 maxValue)
-    // Offset: 0x134AE1C
+    // Offset: 0x135D860
     int Next(int maxValue);
     // public System.Void .ctor()
-    // Offset: 0x134AAC8
+    // Offset: 0x135D50C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Random* New_ctor();
   }; // System.Random
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Random*, "System", "Random");
 #pragma pack(pop)

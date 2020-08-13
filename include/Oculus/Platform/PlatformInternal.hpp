@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.Message
 #include "Oculus/Platform/Message.hpp"
 // Completed includes
@@ -40,16 +38,16 @@ namespace Oculus::Platform {
     // Nested type: Oculus::Platform::PlatformInternal::Users
     class Users;
     // static public System.Void CrashApplication()
-    // Offset: 0xE95EF4
+    // Offset: 0xEA8938
     static void CrashApplication();
     // static Oculus.Platform.Message ParseMessageHandle(System.IntPtr messageHandle, Oculus.Platform.Message/MessageType messageType)
-    // Offset: 0xE892E0
+    // Offset: 0xE9BD24
     static Oculus::Platform::Message* ParseMessageHandle(System::IntPtr messageHandle, Oculus::Platform::Message::MessageType messageType);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> InitializeStandaloneAsync(System.UInt64 appID, System.String accessToken)
-    // Offset: 0xE95F54
+    // Offset: 0xEA8998
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::CsString* accessToken);
   }; // Oculus.Platform.PlatformInternal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal*, "Oculus.Platform", "PlatformInternal");
 #pragma pack(pop)

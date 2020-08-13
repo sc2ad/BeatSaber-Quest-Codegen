@@ -34,25 +34,25 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::MissionStage* firstLockedMissionStage;
     // public MissionStage get_firstLockedMissionStage()
-    // Offset: 0xBF9448
+    // Offset: 0xC0AE8C
     GlobalNamespace::MissionStage* get_firstLockedMissionStage();
     // public System.Void UpdateFirtsLockedMissionStage(System.Int32 numberOfClearedMissions)
-    // Offset: 0xBF5638
+    // Offset: 0xC0707C
     void UpdateFirtsLockedMissionStage(int numberOfClearedMissions);
     // public System.Void InitStages()
-    // Offset: 0xBF9450
+    // Offset: 0xC0AE94
     void InitStages();
     // public System.Void UpdateStageLockPosition()
-    // Offset: 0xBF5904
+    // Offset: 0xC07348
     void UpdateStageLockPosition();
     // public System.Void UpdateStageLockPositionAnimated(System.Boolean animated, System.Single animationDuration)
-    // Offset: 0xBF37D4
+    // Offset: 0xC05218
     void UpdateStageLockPositionAnimated(bool animated, float animationDuration);
     // public System.Void UpdateStageLockText(System.Int32 numberOfClearedMissions)
-    // Offset: 0xBF56F0
+    // Offset: 0xC07134
     void UpdateStageLockText(int numberOfClearedMissions);
     // public System.Void .ctor()
-    // Offset: 0xBF9598
+    // Offset: 0xC0AFDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -62,6 +62,6 @@ namespace GlobalNamespace {
     static MissionStagesManager* New_ctor();
   }; // MissionStagesManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager*, "", "MissionStagesManager");
 #pragma pack(pop)

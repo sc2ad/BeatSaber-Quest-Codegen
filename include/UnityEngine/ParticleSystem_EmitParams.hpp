@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem/Particle
 #include "UnityEngine/ParticleSystem_Particle.hpp"
 // Completed includes
@@ -63,19 +63,19 @@ namespace UnityEngine {
     // Creating value type constructor for type: EmitParams
     EmitParams(UnityEngine::ParticleSystem::Particle m_Particle_ = {}, bool m_PositionSet_ = {}, bool m_VelocitySet_ = {}, bool m_AxisOfRotationSet_ = {}, bool m_RotationSet_ = {}, bool m_AngularVelocitySet_ = {}, bool m_StartSizeSet_ = {}, bool m_StartColorSet_ = {}, bool m_RandomSeedSet_ = {}, bool m_StartLifetimeSet_ = {}, bool m_MeshIndexSet_ = {}, bool m_ApplyShapeToPosition_ = {}) : m_Particle{m_Particle_}, m_PositionSet{m_PositionSet_}, m_VelocitySet{m_VelocitySet_}, m_AxisOfRotationSet{m_AxisOfRotationSet_}, m_RotationSet{m_RotationSet_}, m_AngularVelocitySet{m_AngularVelocitySet_}, m_StartSizeSet{m_StartSizeSet_}, m_StartColorSet{m_StartColorSet_}, m_RandomSeedSet{m_RandomSeedSet_}, m_StartLifetimeSet{m_StartLifetimeSet_}, m_MeshIndexSet{m_MeshIndexSet_}, m_ApplyShapeToPosition{m_ApplyShapeToPosition_} {}
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0xA5BA2C
+    // Offset: 0xA5BAA8
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_applyShapeToPosition(System.Boolean value)
-    // Offset: 0xA5BA40
+    // Offset: 0xA5BABC
     void set_applyShapeToPosition(bool value);
     // public System.Void set_rotation3D(UnityEngine.Vector3 value)
-    // Offset: 0xA5BA4C
+    // Offset: 0xA5BAC8
     void set_rotation3D(UnityEngine::Vector3 value);
     // public System.Void set_startColor(UnityEngine.Color32 value)
-    // Offset: 0xA5BA78
+    // Offset: 0xA5BAF4
     void set_startColor(UnityEngine::Color32 value);
   }; // UnityEngine.ParticleSystem/EmitParams
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmitParams, "UnityEngine", "ParticleSystem/EmitParams");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRDisplay
 #include "GlobalNamespace/OVRDisplay.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Including type: OVRDisplay/EyeFov
@@ -32,6 +32,6 @@ namespace GlobalNamespace {
     EyeRenderDesc(UnityEngine::Vector2 resolution_ = {}, UnityEngine::Vector2 fov_ = {}, GlobalNamespace::OVRDisplay::EyeFov fullFov_ = {}) : resolution{resolution_}, fov{fov_}, fullFov{fullFov_} {}
   }; // OVRDisplay/EyeRenderDesc
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -57,16 +55,16 @@ namespace System::Diagnostics {
     // Offset: 0x48
     ::CsObject* syncObject;
     // public System.Void Close()
-    // Offset: 0xF47E38
+    // Offset: 0xF5987C
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xF47E48
+    // Offset: 0xF5988C
     void Dispose(bool disposing);
     // System.Void CancelOperation()
-    // Offset: 0xF47F90
+    // Offset: 0xF599D4
     void CancelOperation();
   }; // System.Diagnostics.AsyncStreamReader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::AsyncStreamReader*, "System.Diagnostics", "AsyncStreamReader");
 #pragma pack(pop)

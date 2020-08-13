@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::DirectionalLight* directionalLight;
     // protected System.Void LateUpdate()
-    // Offset: 0x18101C0
+    // Offset: 0x1820C04
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x18101F0
+    // Offset: 0x1820C34
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -38,6 +38,6 @@ namespace GlobalNamespace {
     static DirectionalLightWithIds* New_ctor();
   }; // DirectionalLightWithIds
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithIds*, "", "DirectionalLightWithIds");
 #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
 #include "Zenject/ScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -28,10 +29,10 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::SubContainerCreatorBindInfo* subContainerBindInfo;
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x1928764
+    // Offset: 0x193B1A8
     static WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::BindInfo* bindInfo);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0x192879C
+    // Offset: 0x193B1E0
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
     // Offset: 0xFFFFFFFF

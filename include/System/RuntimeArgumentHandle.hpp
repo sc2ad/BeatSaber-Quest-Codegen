@@ -21,6 +21,6 @@ namespace System {
     RuntimeArgumentHandle(System::IntPtr args_ = {}) : args{args_} {}
   }; // System.RuntimeArgumentHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeArgumentHandle, "System", "RuntimeArgumentHandle");
 #pragma pack(pop)

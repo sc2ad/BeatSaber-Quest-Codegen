@@ -4,11 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include <stdint.h>
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Constraints.FloatingPointNumerics
 #include "NUnit/Framework/Constraints/FloatingPointNumerics.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
@@ -28,6 +28,6 @@ namespace NUnit::Framework::Constraints {
     DoubleLongUnion(double Double_ = {}, int64_t Long_ = {}, uint64_t ULong_ = {}) : Double{Double_}, Long{Long_}, ULong{ULong_} {}
   }; // NUnit.Framework.Constraints.FloatingPointNumerics/DoubleLongUnion
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics::DoubleLongUnion, "NUnit.Framework.Constraints", "FloatingPointNumerics/DoubleLongUnion");
 #pragma pack(pop)

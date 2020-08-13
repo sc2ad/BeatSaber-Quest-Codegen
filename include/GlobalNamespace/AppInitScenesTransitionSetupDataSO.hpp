@@ -23,13 +23,13 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData
     class AppInitSceneSetupData;
     // public System.Void Init()
-    // Offset: 0x196D950
+    // Offset: 0xB85C4C
     void Init();
     // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType)
-    // Offset: 0x196D9C0
+    // Offset: 0xB85CBC
     void __Init(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType);
     // public System.Void .ctor()
-    // Offset: 0x196DA38
+    // Offset: 0xB85D34
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
@@ -40,6 +40,6 @@ namespace GlobalNamespace {
     static AppInitScenesTransitionSetupDataSO* New_ctor();
   }; // AppInitScenesTransitionSetupDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO*, "", "AppInitScenesTransitionSetupDataSO");
 #pragma pack(pop)

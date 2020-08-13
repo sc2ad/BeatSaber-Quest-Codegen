@@ -25,6 +25,6 @@ namespace Valve::VR {
     IntersectionMaskCircle_t(float m_flCenterX_ = {}, float m_flCenterY_ = {}, float m_flRadius_ = {}) : m_flCenterX{m_flCenterX_}, m_flCenterY{m_flCenterY_}, m_flRadius{m_flRadius_} {}
   }; // Valve.VR.IntersectionMaskCircle_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IntersectionMaskCircle_t, "Valve.VR", "IntersectionMaskCircle_t");
 #pragma pack(pop)

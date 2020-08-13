@@ -24,19 +24,19 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* beatmapCharacteristics;
     // public BeatmapCharacteristicSO[] get_beatmapCharacteristics()
-    // Offset: 0x19766C0
+    // Offset: 0xB8E9BC
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* get_beatmapCharacteristics();
     // public System.Void set_beatmapCharacteristics(BeatmapCharacteristicSO[] value)
-    // Offset: 0x19766C8
+    // Offset: 0xB8E9C4
     void set_beatmapCharacteristics(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public BeatmapCharacteristicSO GetBeatmapCharacteristicBySerializedName(System.String serializedName)
-    // Offset: 0x19766D0
+    // Offset: 0xB8E9CC
     GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicBySerializedName(::CsString* serializedName);
     // public System.Boolean ContainsBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x197675C
+    // Offset: 0xB8EA58
     bool ContainsBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void .ctor()
-    // Offset: 0x197683C
+    // Offset: 0xB8EB38
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static BeatmapCharacteristicCollectionSO* New_ctor();
   }; // BeatmapCharacteristicCollectionSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicCollectionSO*, "", "BeatmapCharacteristicCollectionSO");
 #pragma pack(pop)

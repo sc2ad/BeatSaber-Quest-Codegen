@@ -42,28 +42,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     RootMotion::FinalIK::VRIK* ik;
     // public UnityEngine.Vector3 get_pelvisTargetRight()
-    // Offset: 0x12284D0
+    // Offset: 0x1239F14
     UnityEngine::Vector3 get_pelvisTargetRight();
     // private System.Void set_pelvisTargetRight(UnityEngine.Vector3 value)
-    // Offset: 0x12284DC
+    // Offset: 0x1239F20
     void set_pelvisTargetRight(UnityEngine::Vector3 value);
     // private System.Void Awake()
-    // Offset: 0x12284E8
+    // Offset: 0x1239F2C
     void Awake();
     // public System.Void Calibrate()
-    // Offset: 0x1226F74
+    // Offset: 0x12389B8
     void Calibrate();
     // public System.Void Calibrate(RootMotion.FinalIK.VRIKCalibrator/CalibrationData data)
-    // Offset: 0x1227FFC
+    // Offset: 0x1239A40
     void Calibrate(RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data);
     // private System.Void OnPreUpdate()
-    // Offset: 0x12285E4
+    // Offset: 0x123A028
     void OnPreUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x1228A88
+    // Offset: 0x123A4CC
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1228BA4
+    // Offset: 0x123A5E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -73,6 +73,6 @@ namespace RootMotion::FinalIK {
     static VRIKRootController* New_ctor();
   }; // RootMotion.FinalIK.VRIKRootController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKRootController*, "RootMotion.FinalIK", "VRIKRootController");
 #pragma pack(pop)

@@ -33,19 +33,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float targetVolume;
     // protected System.Void Start()
-    // Offset: 0x196EDA4
+    // Offset: 0xB870A0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x196EE40
+    // Offset: 0xB8713C
     void Update();
     // public System.Void FadeOut()
-    // Offset: 0x196EF80
+    // Offset: 0xB8727C
     void FadeOut();
     // public System.Void FadeIn()
-    // Offset: 0x196EE10
+    // Offset: 0xB8710C
     void FadeIn();
     // public System.Void .ctor()
-    // Offset: 0x196EFAC
+    // Offset: 0xB872A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static AudioFading* New_ctor();
   }; // AudioFading
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioFading*, "", "AudioFading");
 #pragma pack(pop)

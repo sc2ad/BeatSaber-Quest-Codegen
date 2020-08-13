@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLifeTimeOffset
     static void _set_kLifeTimeOffset(float value);
     // public System.Void SpawnDebris(NoteCutInfo noteCutInfo, INoteController noteController, UnityEngine.Vector3 moveVec)
-    // Offset: 0xC01010
+    // Offset: 0xC12A54
     void SpawnDebris(GlobalNamespace::NoteCutInfo* noteCutInfo, GlobalNamespace::INoteController* noteController, UnityEngine::Vector3 moveVec);
     // private System.Void HandleNoteDebrisDidFinish(NoteDebris noteDebris)
-    // Offset: 0xC044E8
+    // Offset: 0xC15F2C
     void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris* noteDebris);
     // public System.Void .ctor()
-    // Offset: 0xC04594
+    // Offset: 0xC15FD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace GlobalNamespace {
     static NoteDebrisSpawner* New_ctor();
   }; // NoteDebrisSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisSpawner*, "", "NoteDebrisSpawner");
 #pragma pack(pop)

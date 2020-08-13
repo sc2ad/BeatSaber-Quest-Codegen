@@ -33,6 +33,6 @@ namespace NUnit::Framework {
     NUnit::Framework::ActionTargets get_Targets();
   }; // NUnit.Framework.ITestAction
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ITestAction*, "NUnit.Framework", "ITestAction");
 #pragma pack(pop)

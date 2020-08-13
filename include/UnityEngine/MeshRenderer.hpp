@@ -21,13 +21,13 @@ namespace UnityEngine {
   class MeshRenderer : public UnityEngine::Renderer {
     public:
     // private System.Void DontStripMeshRenderer()
-    // Offset: 0x13FBE3C
+    // Offset: 0x140C880
     void DontStripMeshRenderer();
     // public UnityEngine.Mesh get_additionalVertexStreams()
-    // Offset: 0x13FBE40
+    // Offset: 0x140C884
     UnityEngine::Mesh* get_additionalVertexStreams();
   }; // UnityEngine.MeshRenderer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshRenderer*, "UnityEngine", "MeshRenderer");
 #pragma pack(pop)

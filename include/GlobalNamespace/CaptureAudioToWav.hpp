@@ -36,25 +36,25 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::IO::FileStream* fileStream;
     // protected System.Void Awake()
-    // Offset: 0xC98224
+    // Offset: 0xCAAC68
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xC9825C
+    // Offset: 0xCAACA0
     void Update();
     // private System.Void StartWriting(System.String name)
-    // Offset: 0xC9830C
+    // Offset: 0xCAAD50
     void StartWriting(::CsString* name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0xC987B4
+    // Offset: 0xCAB1F8
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // private System.Void ConvertAndWrite(System.Single[] dataSource)
-    // Offset: 0xC987C4
+    // Offset: 0xCAB208
     void ConvertAndWrite(::Array<float>* dataSource);
     // private System.Void WriteHeader()
-    // Offset: 0xC983D0
+    // Offset: 0xCAAE14
     void WriteHeader();
     // public System.Void .ctor()
-    // Offset: 0xC98960
+    // Offset: 0xCAB3A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -64,6 +64,6 @@ namespace GlobalNamespace {
     static CaptureAudioToWav* New_ctor();
   }; // CaptureAudioToWav
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CaptureAudioToWav*, "", "CaptureAudioToWav");
 #pragma pack(pop)

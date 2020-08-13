@@ -62,30 +62,30 @@ namespace GlobalNamespace {
     // Offset: 0x48
     bool changingGameplayModifierToggles;
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xB3FA8C
+    // Offset: 0xB3DA8C
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void SetData(GameplayModifiers gameplayModifiers)
-    // Offset: 0xB3FA94
+    // Offset: 0xB3DA94
     void SetData(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // protected System.Void Awake()
-    // Offset: 0xB3FA9C
+    // Offset: 0xB3DA9C
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0xB3FC40
+    // Offset: 0xB3DC40
     void OnDestroy();
     // private System.Void DisableTogglesWithGameplayModifier(GameplayModifierParamsSO gameplayModifier)
-    // Offset: 0xB3FC54
+    // Offset: 0xB3DC54
     void DisableTogglesWithGameplayModifier(GlobalNamespace::GameplayModifierParamsSO* gameplayModifier);
     // private System.Void RefreshTotalMultiplierAndRankUI()
-    // Offset: 0xB3FDE0
+    // Offset: 0xB3DDE0
     void RefreshTotalMultiplierAndRankUI();
     // public System.Void Refresh()
-    // Offset: 0xB3FD40
+    // Offset: 0xB3DD40
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0xB3FEB8
+    // Offset: 0xB3DEB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -95,6 +95,6 @@ namespace GlobalNamespace {
     static GameplayModifiersPanelController* New_ctor();
   }; // GameplayModifiersPanelController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersPanelController*, "", "GameplayModifiersPanelController");
 #pragma pack(pop)

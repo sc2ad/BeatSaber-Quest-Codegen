@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Completed includes
@@ -31,27 +29,27 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     ::CsObject* value;
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation, System.Object value)
-    // Offset: 0xE12F74
+    // Offset: 0xE259B8
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::CsObject* value);
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation)
-    // Offset: 0xE12F84
+    // Offset: 0xE259C8
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE12F8C
+    // Offset: 0xE259D0
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xE12FB4
+    // Offset: 0xE259F8
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xE12FF8
+    // Offset: 0xE25A3C
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xE12F6C
+    // Offset: 0xE259B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemberPrimitiveUnTyped* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveUnTyped");
 #pragma pack(pop)

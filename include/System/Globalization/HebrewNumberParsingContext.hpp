@@ -24,10 +24,10 @@ namespace System::Globalization {
     // Creating value type constructor for type: HebrewNumberParsingContext
     HebrewNumberParsingContext(System::Globalization::HebrewNumber::HS state_ = {}, int result_ = {}) : state{state_}, result{result_} {}
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0xA3FF1C
+    // Offset: 0xA3FF98
     static HebrewNumberParsingContext* New_ctor(int result);
   }; // System.Globalization.HebrewNumberParsingContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumberParsingContext, "System.Globalization", "HebrewNumberParsingContext");
 #pragma pack(pop)

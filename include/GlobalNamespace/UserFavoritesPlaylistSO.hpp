@@ -45,25 +45,25 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
     // public System.Void SetupFromLevelPackCollection(System.Collections.Generic.HashSet`1<System.String> userFavoritesBeatmapLevelIds, IBeatmapLevelPackCollection beatmapLevelPackCollection)
-    // Offset: 0xC38C84
+    // Offset: 0xC4A6C8
     void SetupFromLevelPackCollection(System::Collections::Generic::HashSet_1<::CsString*>* userFavoritesBeatmapLevelIds, GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection);
     // public System.String get_collectionName()
-    // Offset: 0xC38C68
+    // Offset: 0xC4A6AC
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
     ::CsString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0xC38C74
+    // Offset: 0xC4A6B8
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0xC38C7C
+    // Offset: 0xC4A6C0
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0xC38CCC
+    // Offset: 0xC4A710
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -71,6 +71,6 @@ namespace GlobalNamespace {
     static UserFavoritesPlaylistSO* New_ctor();
   }; // UserFavoritesPlaylistSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserFavoritesPlaylistSO*, "", "UserFavoritesPlaylistSO");
 #pragma pack(pop)

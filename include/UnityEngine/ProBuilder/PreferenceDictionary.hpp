@@ -121,7 +121,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA0
     System::Collections::Generic::List_1<UnityEngine::Material*>* m_Material_values;
     // public System.Boolean HasKey(System.String key)
-    // Offset: 0x101C094
+    // Offset: 0x102BAD8
     bool HasKey(::CsString* key);
     // public System.Boolean HasKey(System.String key)
     // Offset: 0xFFFFFFFF
@@ -130,7 +130,7 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "HasKey", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key)));
     }
     // public System.Void DeleteKey(System.String key)
-    // Offset: 0x101C1B0
+    // Offset: 0x102BBF4
     void DeleteKey(::CsString* key);
     // public T Get(System.String key, T fallback)
     // Offset: 0xFFFFFFFF
@@ -145,64 +145,64 @@ namespace UnityEngine::ProBuilder {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "Set", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key, value));
     }
     // public System.Boolean GetBool(System.String key, System.Boolean fallback)
-    // Offset: 0x101C374
+    // Offset: 0x102BDB8
     bool GetBool(::CsString* key, bool fallback);
     // public System.Int32 GetInt(System.String key, System.Int32 fallback)
-    // Offset: 0x101C40C
+    // Offset: 0x102BE50
     int GetInt(::CsString* key, int fallback);
     // public System.Single GetFloat(System.String key, System.Single fallback)
-    // Offset: 0x101C498
+    // Offset: 0x102BEDC
     float GetFloat(::CsString* key, float fallback);
     // public System.String GetString(System.String key, System.String fallback)
-    // Offset: 0x101C52C
+    // Offset: 0x102BF70
     ::CsString* GetString(::CsString* key, ::CsString* fallback);
     // public UnityEngine.Color GetColor(System.String key, UnityEngine.Color fallback)
-    // Offset: 0x101C5B8
+    // Offset: 0x102BFFC
     UnityEngine::Color GetColor(::CsString* key, UnityEngine::Color fallback);
     // public UnityEngine.Material GetMaterial(System.String key, UnityEngine.Material fallback)
-    // Offset: 0x101C670
+    // Offset: 0x102C0B4
     UnityEngine::Material* GetMaterial(::CsString* key, UnityEngine::Material* fallback);
     // public System.Void SetBool(System.String key, System.Boolean value)
-    // Offset: 0x101C6FC
+    // Offset: 0x102C140
     void SetBool(::CsString* key, bool value);
     // public System.Void SetInt(System.String key, System.Int32 value)
-    // Offset: 0x101C7B8
+    // Offset: 0x102C1FC
     void SetInt(::CsString* key, int value);
     // public System.Void SetFloat(System.String key, System.Single value)
-    // Offset: 0x101C874
+    // Offset: 0x102C2B8
     void SetFloat(::CsString* key, float value);
     // public System.Void SetString(System.String key, System.String value)
-    // Offset: 0x101C93C
+    // Offset: 0x102C380
     void SetString(::CsString* key, ::CsString* value);
     // public System.Void SetColor(System.String key, UnityEngine.Color value)
-    // Offset: 0x101C9F8
+    // Offset: 0x102C43C
     void SetColor(::CsString* key, UnityEngine::Color value);
     // public System.Void SetMaterial(System.String key, UnityEngine.Material value)
-    // Offset: 0x101CAF0
+    // Offset: 0x102C534
     void SetMaterial(::CsString* key, UnityEngine::Material* value);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Boolean> GetBoolDictionary()
-    // Offset: 0x101CBAC
+    // Offset: 0x102C5F0
     System::Collections::Generic::Dictionary_2<::CsString*, bool>* GetBoolDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,System.Int32> GetIntDictionary()
-    // Offset: 0x101CBB4
+    // Offset: 0x102C5F8
     System::Collections::Generic::Dictionary_2<::CsString*, int>* GetIntDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,System.Single> GetFloatDictionary()
-    // Offset: 0x101CBBC
+    // Offset: 0x102C600
     System::Collections::Generic::Dictionary_2<::CsString*, float>* GetFloatDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,System.String> GetStringDictionary()
-    // Offset: 0x101CBC4
+    // Offset: 0x102C608
     System::Collections::Generic::Dictionary_2<::CsString*, ::CsString*>* GetStringDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Color> GetColorDictionary()
-    // Offset: 0x101CBCC
+    // Offset: 0x102C610
     System::Collections::Generic::Dictionary_2<::CsString*, UnityEngine::Color>* GetColorDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Material> GetMaterialDictionary()
-    // Offset: 0x101CBD4
+    // Offset: 0x102C618
     System::Collections::Generic::Dictionary_2<::CsString*, UnityEngine::Material*>* GetMaterialDictionary();
     // public System.Void Clear()
-    // Offset: 0x101CBDC
+    // Offset: 0x102C620
     void Clear();
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x101B924
+    // Offset: 0x102B368
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void OnBeforeSerialize();
@@ -210,7 +210,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: OnBeforeSerialize
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x101BC08
+    // Offset: 0x102B64C
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void OnAfterDeserialize();
@@ -218,12 +218,12 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: OnAfterDeserialize
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void SetDefaultValues()
-    // Offset: 0x101BFC4
+    // Offset: 0x102BA08
     // Implemented from: UnityEngine.ProBuilder.IHasDefault
     // Base method: System.Void IHasDefault::SetDefaultValues()
     void SetDefaultValues();
     // public System.Void .ctor()
-    // Offset: 0x101CC94
+    // Offset: 0x102C6D8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

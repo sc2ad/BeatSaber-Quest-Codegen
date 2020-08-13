@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: Oculus.Platform.CAPI
 #include "Oculus/Platform/CAPI.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: Oculus.Platform.MatchmakingCriterionImportance
 #include "Oculus/Platform/MatchmakingCriterionImportance.hpp"
 // Including type: System.IntPtr
@@ -34,10 +34,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: ovrMatchmakingCriterion
     ovrMatchmakingCriterion(::CsString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::IntPtr parameterArray_ = {}, uint parameterArrayCount_ = {}) : key{key_}, importance{importance_}, parameterArray{parameterArray_}, parameterArrayCount{parameterArrayCount_} {}
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
-    // Offset: 0xA2FEF8
+    // Offset: 0xA2FF74
     static CAPI::ovrMatchmakingCriterion* New_ctor(::CsString* key, Oculus::Platform::MatchmakingCriterionImportance importance);
   }; // Oculus.Platform.CAPI/ovrMatchmakingCriterion
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");
 #pragma pack(pop)

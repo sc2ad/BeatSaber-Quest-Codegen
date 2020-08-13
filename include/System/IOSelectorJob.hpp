@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Threading.IThreadPoolWorkItem
 #include "System/Threading/IThreadPoolWorkItem.hpp"
 // Including type: System.IOOperation
@@ -41,23 +39,23 @@ namespace System {
     // Offset: 0x20
     System::IOAsyncResult* state;
     // public System.Void .ctor(System.IOOperation operation, System.IOAsyncCallback callback, System.IOAsyncResult state)
-    // Offset: 0xF524E0
+    // Offset: 0xF63F24
     static IOSelectorJob* New_ctor(System::IOOperation operation, System::IOAsyncCallback* callback, System::IOAsyncResult* state);
     // public System.Void MarkDisposed()
-    // Offset: 0xF5255C
+    // Offset: 0xF63FA0
     void MarkDisposed();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0xF52538
+    // Offset: 0xF63F7C
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0xF52558
+    // Offset: 0xF63F9C
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.IOSelectorJob
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
 #pragma pack(pop)

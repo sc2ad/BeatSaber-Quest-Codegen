@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IO.TextWriter
 #include "System/IO/TextWriter.hpp"
 // Completed includes
@@ -20,36 +18,36 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.TextWriter/<>c <>9
     static void _set_$$9(System::IO::TextWriter::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0xFF8968
+    // Offset: 0x10083AC
     static void _cctor();
     // System.Void <.cctor>b__73_0(System.Object state)
-    // Offset: 0xFF89D8
+    // Offset: 0x100841C
     void $_cctor$b__73_0(::CsObject* state);
     // System.Void <.cctor>b__73_1(System.Object state)
-    // Offset: 0xFF8A70
+    // Offset: 0x10084B4
     void $_cctor$b__73_1(::CsObject* state);
     // System.Void <.cctor>b__73_2(System.Object state)
-    // Offset: 0xFF8B0C
+    // Offset: 0x1008550
     void $_cctor$b__73_2(::CsObject* state);
     // System.Void <.cctor>b__73_3(System.Object state)
-    // Offset: 0xFF8BAC
+    // Offset: 0x10085F0
     void $_cctor$b__73_3(::CsObject* state);
     // System.Void <.cctor>b__73_4(System.Object state)
-    // Offset: 0xFF8C48
+    // Offset: 0x100868C
     void $_cctor$b__73_4(::CsObject* state);
     // System.Void <.cctor>b__73_5(System.Object state)
-    // Offset: 0xFF8CE4
+    // Offset: 0x1008728
     void $_cctor$b__73_5(::CsObject* state);
     // System.Void <.cctor>b__73_6(System.Object state)
-    // Offset: 0xFF8D84
+    // Offset: 0x10087C8
     void $_cctor$b__73_6(::CsObject* state);
     // public System.Void .ctor()
-    // Offset: 0xFF89D0
+    // Offset: 0x1008414
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TextWriter::$$c* New_ctor();
   }; // System.IO.TextWriter/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::$$c*, "System.IO", "TextWriter/<>c");
 #pragma pack(pop)

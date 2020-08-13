@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TestPlatformAdditionalContentModel
 #include "GlobalNamespace/TestPlatformAdditionalContentModel.hpp"
 // Completed includes
@@ -22,12 +20,12 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::AdditionalContentModel::EntitlementStatus status;
     // public System.Void .ctor()
-    // Offset: 0xC303D0
+    // Offset: 0xC41E14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestPlatformAdditionalContentModel::Entitlement* New_ctor();
   }; // TestPlatformAdditionalContentModel/Entitlement
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*, "", "TestPlatformAdditionalContentModel/Entitlement");
 #pragma pack(pop)

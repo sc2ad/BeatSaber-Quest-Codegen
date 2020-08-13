@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithLinkedAccountList : public Oculus::Platform::Message_1<Oculus::Platform::Models::LinkedAccountList*> {
     public:
     // protected Oculus.Platform.Models.LinkedAccountList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8DA14
+    // Offset: 0xEA0458
     Oculus::Platform::Models::LinkedAccountList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE8D970
+    // Offset: 0xEA03B4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithLinkedAccountList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.LinkedAccountList GetLinkedAccountList()
-    // Offset: 0xE8D9D0
+    // Offset: 0xEA0414
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LinkedAccountList Message::GetLinkedAccountList()
     Oculus::Platform::Models::LinkedAccountList* GetLinkedAccountList();
   }; // Oculus.Platform.MessageWithLinkedAccountList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLinkedAccountList*, "Oculus.Platform", "MessageWithLinkedAccountList");
 #pragma pack(pop)

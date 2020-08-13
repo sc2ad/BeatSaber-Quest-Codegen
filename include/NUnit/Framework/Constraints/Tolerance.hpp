@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Constraints.ToleranceMode
 #include "NUnit/Framework/Constraints/ToleranceMode.hpp"
 // Completed includes
@@ -22,28 +20,28 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x18
     ::CsObject* amount;
     // static public NUnit.Framework.Constraints.Tolerance get_Default()
-    // Offset: 0x105F158
+    // Offset: 0x106EB9C
     static NUnit::Framework::Constraints::Tolerance* get_Default();
     // static public NUnit.Framework.Constraints.Tolerance get_Exact()
-    // Offset: 0x1066EF4
+    // Offset: 0x1076938
     static NUnit::Framework::Constraints::Tolerance* get_Exact();
     // public System.Void .ctor(System.Object amount)
-    // Offset: 0x1069E00
+    // Offset: 0x1079844
     static Tolerance* New_ctor(::CsObject* amount);
     // private System.Void .ctor(System.Object amount, NUnit.Framework.Constraints.ToleranceMode mode)
-    // Offset: 0x106A6AC
+    // Offset: 0x107A0F0
     static Tolerance* New_ctor(::CsObject* amount, NUnit::Framework::Constraints::ToleranceMode mode);
     // public NUnit.Framework.Constraints.ToleranceMode get_Mode()
-    // Offset: 0x10612A4
+    // Offset: 0x1070CE8
     NUnit::Framework::Constraints::ToleranceMode get_Mode();
     // public System.Object get_Value()
-    // Offset: 0x106129C
+    // Offset: 0x1070CE0
     ::CsObject* get_Value();
     // public System.Boolean get_IsUnsetOrDefault()
-    // Offset: 0x106128C
+    // Offset: 0x1070CD0
     bool get_IsUnsetOrDefault();
   }; // NUnit.Framework.Constraints.Tolerance
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMethodCallMessage
 #include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMethodReturnMessage
@@ -106,80 +104,80 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static System.String UriKey
     static void _set_UriKey(::CsString* value);
     // System.Void InitMessage(System.Reflection.MonoMethod method, System.Object[] out_args)
-    // Offset: 0x1059460
+    // Offset: 0x1068EA4
     void InitMessage(System::Reflection::MonoMethod* method, ::Array<::CsObject*>* out_args);
     // public System.Void .ctor(System.Reflection.MethodBase method, System.Object[] out_args)
-    // Offset: 0x105973C
+    // Offset: 0x1069180
     static MonoMethodMessage* New_ctor(System::Reflection::MethodBase* method, ::Array<::CsObject*>* out_args);
     // System.Void .ctor(System.Reflection.MethodInfo minfo, System.Object[] in_args, System.Object[] out_args)
-    // Offset: 0x1059814
+    // Offset: 0x1069258
     static MonoMethodMessage* New_ctor(System::Reflection::MethodInfo* minfo, ::Array<::CsObject*>* in_args, ::Array<::CsObject*>* out_args);
     // static private System.Reflection.MethodInfo GetMethodInfo(System.Type type, System.String methodName)
-    // Offset: 0x1059974
+    // Offset: 0x10693B8
     static System::Reflection::MethodInfo* GetMethodInfo(System::Type* type, ::CsString* methodName);
     // public System.Void .ctor(System.Type type, System.String methodName, System.Object[] in_args)
-    // Offset: 0x1059A54
+    // Offset: 0x1069498
     static MonoMethodMessage* New_ctor(System::Type* type, ::CsString* methodName, ::Array<::CsObject*>* in_args);
     // public System.Void set_LogicalCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext value)
-    // Offset: 0x1059C50
+    // Offset: 0x1069694
     void set_LogicalCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* value);
     // public System.Int32 get_OutArgCount()
-    // Offset: 0x1059F1C
+    // Offset: 0x1069960
     int get_OutArgCount();
     // public System.Runtime.Remoting.Messaging.AsyncResult get_AsyncResult()
-    // Offset: 0x105A0F8
+    // Offset: 0x1069B3C
     System::Runtime::Remoting::Messaging::AsyncResult* get_AsyncResult();
     // System.Runtime.Remoting.Messaging.CallType get_CallType()
-    // Offset: 0x1059BB4
+    // Offset: 0x10695F8
     System::Runtime::Remoting::Messaging::CallType get_CallType();
     // public System.Boolean NeedsOutProcessing(System.Int32 outCount)
-    // Offset: 0x105A100
+    // Offset: 0x1069B44
     bool NeedsOutProcessing(int& outCount);
     // static private System.Void .cctor()
-    // Offset: 0x105A19C
+    // Offset: 0x1069BE0
     static void _cctor();
     // public System.Collections.IDictionary get_Properties()
-    // Offset: 0x1059AEC
+    // Offset: 0x1069530
     // Implemented from: System.Runtime.Remoting.Messaging.IMessage
     // Base method: System.Collections.IDictionary IMessage::get_Properties()
     System::Collections::IDictionary* get_Properties();
     // public System.Int32 get_ArgCount()
-    // Offset: 0x1059B70
+    // Offset: 0x10695B4
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodMessage
     // Base method: System.Int32 IMethodMessage::get_ArgCount()
     int get_ArgCount();
     // public System.Object[] get_Args()
-    // Offset: 0x1059C40
+    // Offset: 0x1069684
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodMessage
     // Base method: System.Object[] IMethodMessage::get_Args()
     ::Array<::CsObject*>* get_Args();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
-    // Offset: 0x1059C48
+    // Offset: 0x106968C
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodMessage
     // Base method: System.Runtime.Remoting.Messaging.LogicalCallContext IMethodMessage::get_LogicalCallContext()
     System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
     // public System.Reflection.MethodBase get_MethodBase()
-    // Offset: 0x1059C58
+    // Offset: 0x106969C
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodMessage
     // Base method: System.Reflection.MethodBase IMethodMessage::get_MethodBase()
     System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
-    // Offset: 0x1059C60
+    // Offset: 0x10696A4
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodMessage
     // Base method: System.String IMethodMessage::get_MethodName()
     ::CsString* get_MethodName();
     // public System.Object get_MethodSignature()
-    // Offset: 0x1059CE8
+    // Offset: 0x106972C
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodMessage
     // Base method: System.Object IMethodMessage::get_MethodSignature()
     ::CsObject* get_MethodSignature();
     // public System.String get_TypeName()
-    // Offset: 0x1059E2C
+    // Offset: 0x1069870
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodMessage
     // Base method: System.String IMethodMessage::get_TypeName()
     ::CsString* get_TypeName();
     // public System.String get_Uri()
-    // Offset: 0x1059EC8
+    // Offset: 0x106990C
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodMessage
     // Base method: System.String IMethodMessage::get_Uri()
     // Base method: System.String IInternalMessage::get_Uri()
@@ -188,7 +186,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_Uri
     ::CsString* System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri();
     // public System.Void set_Uri(System.String value)
-    // Offset: 0x1059ED0
+    // Offset: 0x1069914
     // Implemented from: System.Runtime.Remoting.Messaging.IInternalMessage
     // Base method: System.Void IInternalMessage::set_Uri(System.String value)
     void set_Uri(::CsString* value);
@@ -196,37 +194,37 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: set_Uri
     void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::CsString* value);
     // public System.Object GetArg(System.Int32 arg_num)
-    // Offset: 0x1059ED8
+    // Offset: 0x106991C
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodMessage
     // Base method: System.Object IMethodMessage::GetArg(System.Int32 arg_num)
     ::CsObject* GetArg(int arg_num);
     // public System.Exception get_Exception()
-    // Offset: 0x1059F14
+    // Offset: 0x1069958
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodReturnMessage
     // Base method: System.Exception IMethodReturnMessage::get_Exception()
     System::Exception* get_Exception();
     // public System.Object[] get_OutArgs()
-    // Offset: 0x1059F94
+    // Offset: 0x10699D8
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodReturnMessage
     // Base method: System.Object[] IMethodReturnMessage::get_OutArgs()
     ::Array<::CsObject*>* get_OutArgs();
     // public System.Object get_ReturnValue()
-    // Offset: 0x105A0E0
+    // Offset: 0x1069B24
     // Implemented from: System.Runtime.Remoting.Messaging.IMethodReturnMessage
     // Base method: System.Object IMethodReturnMessage::get_ReturnValue()
     ::CsObject* get_ReturnValue();
     // private System.Runtime.Remoting.Identity System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity()
-    // Offset: 0x105A0E8
+    // Offset: 0x1069B2C
     // Implemented from: System.Runtime.Remoting.Messaging.IInternalMessage
     // Base method: System.Runtime.Remoting.Identity IInternalMessage::get_TargetIdentity()
     System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
     // private System.Void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(System.Runtime.Remoting.Identity value)
-    // Offset: 0x105A0F0
+    // Offset: 0x1069B34
     // Implemented from: System.Runtime.Remoting.Messaging.IInternalMessage
     // Base method: System.Void IInternalMessage::set_TargetIdentity(System.Runtime.Remoting.Identity value)
     void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(System::Runtime::Remoting::Identity* value);
   }; // System.Runtime.Remoting.Messaging.MonoMethodMessage
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MonoMethodMessage*, "System.Runtime.Remoting.Messaging", "MonoMethodMessage");
 #pragma pack(pop)

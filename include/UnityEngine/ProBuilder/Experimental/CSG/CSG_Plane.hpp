@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
@@ -37,24 +35,24 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x1C
     float w;
     // public System.Void .ctor(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c)
-    // Offset: 0xF7F03C
+    // Offset: 0xF90A80
     static CSG_Plane* New_ctor(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c);
     // public System.Boolean Valid()
-    // Offset: 0xF7E8C0
+    // Offset: 0xF90304
     bool Valid();
     // public System.Void Flip()
-    // Offset: 0xF7E820
+    // Offset: 0xF90264
     void Flip();
     // public System.Void SplitPolygon(UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon polygon, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> coplanarFront, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> coplanarBack, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> front, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> back)
-    // Offset: 0xF7E964
+    // Offset: 0xF903A8
     void SplitPolygon(UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon* polygon, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* coplanarFront, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* coplanarBack, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* front, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* back);
     // public System.Void .ctor()
-    // Offset: 0xF7E8E4
+    // Offset: 0xF90328
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CSG_Plane* New_ctor();
   }; // UnityEngine.ProBuilder.Experimental.CSG.CSG_Plane
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Experimental::CSG::CSG_Plane*, "UnityEngine.ProBuilder.Experimental.CSG", "CSG_Plane");
 #pragma pack(pop)

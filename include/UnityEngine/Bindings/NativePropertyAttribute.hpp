@@ -19,25 +19,25 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1C
     UnityEngine::Bindings::TargetType TargetType;
     // public System.Void set_TargetType(UnityEngine.Bindings.TargetType value)
-    // Offset: 0x19591B0
+    // Offset: 0x196ABF4
     void set_TargetType(UnityEngine::Bindings::TargetType value);
     // public System.Void .ctor(System.String name, System.Boolean isFree, UnityEngine.Bindings.TargetType targetType)
-    // Offset: 0x19591C4
+    // Offset: 0x196AC08
     static NativePropertyAttribute* New_ctor(::CsString* name, bool isFree, UnityEngine::Bindings::TargetType targetType);
     // public System.Void .ctor()
-    // Offset: 0x19591B8
+    // Offset: 0x196ABFC
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static NativePropertyAttribute* New_ctor();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x19591C0
+    // Offset: 0x196AC04
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name)
     static NativePropertyAttribute* New_ctor(::CsString* name);
   }; // UnityEngine.Bindings.NativePropertyAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativePropertyAttribute*, "UnityEngine.Bindings", "NativePropertyAttribute");
 #pragma pack(pop)

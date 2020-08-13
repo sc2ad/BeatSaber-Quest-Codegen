@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     float nextActionTime;
     // private System.Void Start()
-    // Offset: 0xCB1530
+    // Offset: 0xCC4F74
     void Start();
     // private System.Void Update()
-    // Offset: 0xCB1624
+    // Offset: 0xCC5068
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCB17E8
+    // Offset: 0xCC522C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -36,6 +36,6 @@ namespace GlobalNamespace {
     static OVRAudioSourceTest* New_ctor();
   }; // OVRAudioSourceTest
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAudioSourceTest*, "", "OVRAudioSourceTest");
 #pragma pack(pop)

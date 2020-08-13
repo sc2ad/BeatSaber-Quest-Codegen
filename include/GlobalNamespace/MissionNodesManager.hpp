@@ -67,73 +67,73 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool isInitialized;
     // public MissionNode get_rootMissionNode()
-    // Offset: 0xBF510C
+    // Offset: 0xC06B50
     GlobalNamespace::MissionNode* get_rootMissionNode();
     // public MissionNode get_finalMissionNode()
-    // Offset: 0xBF5114
+    // Offset: 0xC06B58
     GlobalNamespace::MissionNode* get_finalMissionNode();
     // public MissionStagesManager get_missionStagesManager()
-    // Offset: 0xBF511C
+    // Offset: 0xC06B60
     GlobalNamespace::MissionStagesManager* get_missionStagesManager();
     // public CampaignProgressModel get_missionProgressModel()
-    // Offset: 0xBF5124
+    // Offset: 0xC06B68
     GlobalNamespace::CampaignProgressModel* get_missionProgressModel();
     // public MissionNode[] get_allMissionNodes()
-    // Offset: 0xBF512C
+    // Offset: 0xC06B70
     ::Array<GlobalNamespace::MissionNode*>* get_allMissionNodes();
     // public System.Boolean get_IsInitialized()
-    // Offset: 0xBF5134
+    // Offset: 0xC06B78
     bool get_IsInitialized();
     // protected System.Void Awake()
-    // Offset: 0xBF513C
+    // Offset: 0xC06B80
     void Awake();
     // public System.Void SetupNodeMap()
-    // Offset: 0xBF2770
+    // Offset: 0xC041B4
     void SetupNodeMap();
     // public System.Boolean MissionWasCleared(MissionNode missionNode)
-    // Offset: 0xBF55C8
+    // Offset: 0xC0700C
     bool MissionWasCleared(GlobalNamespace::MissionNode* missionNode);
     // public MissionNode GetMissionNodeWithModelClearedStateInconsistency()
-    // Offset: 0xBF2378
+    // Offset: 0xC03DBC
     GlobalNamespace::MissionNode* GetMissionNodeWithModelClearedStateInconsistency();
     // public System.Boolean DidFirstLockedMissionStageChange()
-    // Offset: 0xBF3728
+    // Offset: 0xC0516C
     bool DidFirstLockedMissionStageChange();
     // public System.Void UpdateStageLockText()
-    // Offset: 0xBF36E8
+    // Offset: 0xC0512C
     void UpdateStageLockText();
     // public MissionNode GetTopMostNotClearedMissionNode()
-    // Offset: 0xBF2518
+    // Offset: 0xC03F5C
     GlobalNamespace::MissionNode* GetTopMostNotClearedMissionNode();
     // private System.Void GetAllMissionNodes()
-    // Offset: 0xBF5174
+    // Offset: 0xC06BB8
     void GetAllMissionNodes();
     // private System.Collections.Generic.HashSet`1<MissionNode> GetAllMissionNodes(MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visited)
-    // Offset: 0xBF57B0
+    // Offset: 0xC071F4
     System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* GetAllMissionNodes(GlobalNamespace::MissionNode* node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* visited);
     // public MissionNodeConnection[] GetNewEnabledConnection()
-    // Offset: 0xBF33C0
+    // Offset: 0xC04E04
     ::Array<GlobalNamespace::MissionNodeConnection*>* GetNewEnabledConnection();
     // private System.Void ResetAllNodes()
-    // Offset: 0xBF52EC
+    // Offset: 0xC06D30
     void ResetAllNodes();
     // private System.Void SetupStages()
-    // Offset: 0xBF5354
+    // Offset: 0xC06D98
     void SetupStages();
     // private System.Void RegisterAllNodes()
-    // Offset: 0xBF5210
+    // Offset: 0xC06C54
     void RegisterAllNodes();
     // private System.Void SetupNodeTree(MissionNodeVisualController node, System.Boolean parentCleared)
-    // Offset: 0xBF53BC
+    // Offset: 0xC06E00
     void SetupNodeTree(GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
     // private System.Boolean IsNodeInteractable(MissionNodeVisualController node, System.Boolean parentCleared)
-    // Offset: 0xBF58A0
+    // Offset: 0xC072E4
     bool IsNodeInteractable(GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
     // private System.Void SetupNodeConnections()
-    // Offset: 0xBF54EC
+    // Offset: 0xC06F30
     void SetupNodeConnections();
     // public System.Void .ctor()
-    // Offset: 0xBF59B0
+    // Offset: 0xC073F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -143,6 +143,6 @@ namespace GlobalNamespace {
     static MissionNodesManager* New_ctor();
   }; // MissionNodesManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodesManager*, "", "MissionNodesManager");
 #pragma pack(pop)

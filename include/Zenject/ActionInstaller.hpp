@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.Installer`1
 #include "Zenject/Installer_1.hpp"
 // Completed includes
@@ -29,15 +30,15 @@ namespace Zenject {
     // Offset: 0x18
     System::Action_1<Zenject::DiContainer*>* installMethod;
     // public System.Void .ctor(System.Action`1<Zenject.DiContainer> installMethod)
-    // Offset: 0xD4F228
+    // Offset: 0xD62C6C
     static ActionInstaller* New_ctor(System::Action_1<Zenject::DiContainer*>* installMethod);
     // public override System.Void InstallBindings()
-    // Offset: 0xD4F294
+    // Offset: 0xD62CD8
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
   }; // Zenject.ActionInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ActionInstaller*, "Zenject", "ActionInstaller");
 #pragma pack(pop)

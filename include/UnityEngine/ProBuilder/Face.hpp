@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.AutoUnwrapSettings
 #include "UnityEngine/ProBuilder/AutoUnwrapSettings.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
@@ -76,134 +74,134 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x60
     ::Array<UnityEngine::ProBuilder::Edge>* m_Edges;
     // public System.Boolean get_manualUV()
-    // Offset: 0xF80318
+    // Offset: 0xF91D5C
     bool get_manualUV();
     // public System.Void set_manualUV(System.Boolean value)
-    // Offset: 0xF80320
+    // Offset: 0xF91D64
     void set_manualUV(bool value);
     // public System.Int32 get_textureGroup()
-    // Offset: 0xF8032C
+    // Offset: 0xF91D70
     int get_textureGroup();
     // public System.Void set_textureGroup(System.Int32 value)
-    // Offset: 0xF80334
+    // Offset: 0xF91D78
     void set_textureGroup(int value);
     // System.Int32[] get_indexesInternal()
-    // Offset: 0xF8033C
+    // Offset: 0xF91D80
     ::Array<int>* get_indexesInternal();
     // System.Void set_indexesInternal(System.Int32[] value)
-    // Offset: 0xF80344
+    // Offset: 0xF91D88
     void set_indexesInternal(::Array<int>* value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> get_indexes()
-    // Offset: 0xF80488
+    // Offset: 0xF91ECC
     System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_indexes();
     // public System.Void SetIndexes(System.Collections.Generic.IEnumerable`1<System.Int32> indices)
-    // Offset: 0xF804F8
+    // Offset: 0xF91F3C
     void SetIndexes(System::Collections::Generic::IEnumerable_1<int>* indices);
     // System.Int32[] get_distinctIndexesInternal()
-    // Offset: 0xF7BD9C
+    // Offset: 0xF8D7E0
     ::Array<int>* get_distinctIndexesInternal();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> get_distinctIndexes()
-    // Offset: 0xF806C0
+    // Offset: 0xF92104
     System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_distinctIndexes();
     // UnityEngine.ProBuilder.Edge[] get_edgesInternal()
-    // Offset: 0xF7C260
+    // Offset: 0xF8DCA4
     ::Array<UnityEngine::ProBuilder::Edge>* get_edgesInternal();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.Edge> get_edges()
-    // Offset: 0xF80944
+    // Offset: 0xF92388
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge>* get_edges();
     // public System.Int32 get_smoothingGroup()
-    // Offset: 0xF809C4
+    // Offset: 0xF92408
     int get_smoothingGroup();
     // public System.Void set_smoothingGroup(System.Int32 value)
-    // Offset: 0xF809CC
+    // Offset: 0xF92410
     void set_smoothingGroup(int value);
     // public UnityEngine.Material get_material()
-    // Offset: 0xF809D4
+    // Offset: 0xF92418
     UnityEngine::Material* get_material();
     // public System.Void set_material(UnityEngine.Material value)
-    // Offset: 0xF809DC
+    // Offset: 0xF92420
     void set_material(UnityEngine::Material* value);
     // public System.Int32 get_submeshIndex()
-    // Offset: 0xF809E4
+    // Offset: 0xF92428
     int get_submeshIndex();
     // public System.Void set_submeshIndex(System.Int32 value)
-    // Offset: 0xF809EC
+    // Offset: 0xF92430
     void set_submeshIndex(int value);
     // public UnityEngine.ProBuilder.AutoUnwrapSettings get_uv()
-    // Offset: 0xF809F4
+    // Offset: 0xF92438
     UnityEngine::ProBuilder::AutoUnwrapSettings get_uv();
     // public System.Void set_uv(UnityEngine.ProBuilder.AutoUnwrapSettings value)
-    // Offset: 0xF80A04
+    // Offset: 0xF92448
     void set_uv(UnityEngine::ProBuilder::AutoUnwrapSettings value);
     // public System.Int32 get_Item(System.Int32 i)
-    // Offset: 0xF80A14
+    // Offset: 0xF92458
     int get_Item(int i);
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Int32> indices)
-    // Offset: 0xF80A78
+    // Offset: 0xF924BC
     static Face* New_ctor(System::Collections::Generic::IEnumerable_1<int>* indices);
     // System.Void .ctor(System.Int32[] triangles, UnityEngine.Material m, UnityEngine.ProBuilder.AutoUnwrapSettings u, System.Int32 smoothing, System.Int32 texture, System.Int32 element, System.Boolean manualUVs)
-    // Offset: 0xF80B44
+    // Offset: 0xF92588
     static Face* New_ctor(::Array<int>* triangles, UnityEngine::Material* m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs);
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Int32> triangles, System.Int32 submeshIndex, UnityEngine.ProBuilder.AutoUnwrapSettings u, System.Int32 smoothing, System.Int32 texture, System.Int32 element, System.Boolean manualUVs)
-    // Offset: 0xF80C00
+    // Offset: 0xF92644
     static Face* New_ctor(System::Collections::Generic::IEnumerable_1<int>* triangles, int submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs);
     // public System.Void .ctor(UnityEngine.ProBuilder.Face other)
-    // Offset: 0xF80CAC
+    // Offset: 0xF926F0
     static Face* New_ctor(UnityEngine::ProBuilder::Face* other);
     // public System.Void CopyFrom(UnityEngine.ProBuilder.Face other)
-    // Offset: 0xF80CDC
+    // Offset: 0xF92720
     void CopyFrom(UnityEngine::ProBuilder::Face* other);
     // System.Void InvalidateCache()
-    // Offset: 0xF80454
+    // Offset: 0xF91E98
     void InvalidateCache();
     // private UnityEngine.ProBuilder.Edge[] CacheEdges()
-    // Offset: 0xF80740
+    // Offset: 0xF92184
     ::Array<UnityEngine::ProBuilder::Edge>* CacheEdges();
     // private System.Int32[] CacheDistinctIndexes()
-    // Offset: 0xF80620
+    // Offset: 0xF92064
     ::Array<int>* CacheDistinctIndexes();
     // public System.Boolean Contains(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0xF80E44
+    // Offset: 0xF92888
     bool Contains(int a, int b, int c);
     // public System.Boolean IsQuad()
-    // Offset: 0xF80EE4
+    // Offset: 0xF92928
     bool IsQuad();
     // public System.Int32[] ToQuad()
-    // Offset: 0xF80F38
+    // Offset: 0xF9297C
     ::Array<int>* ToQuad();
     // public System.Void ShiftIndexes(System.Int32 offset)
-    // Offset: 0xF8147C
+    // Offset: 0xF92EC0
     void ShiftIndexes(int offset);
     // private System.Int32 SmallestIndexValue()
-    // Offset: 0xF81510
+    // Offset: 0xF92F54
     int SmallestIndexValue();
     // public System.Void ShiftIndexesToZero()
-    // Offset: 0xF81570
+    // Offset: 0xF92FB4
     void ShiftIndexesToZero();
     // public System.Void Reverse()
-    // Offset: 0xF815F8
+    // Offset: 0xF9303C
     void Reverse();
     // static System.Void GetIndices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.List`1<System.Int32> indices)
-    // Offset: 0xF8163C
+    // Offset: 0xF93080
     static void GetIndices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::List_1<int>* indices);
     // static System.Void GetDistinctIndices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.List`1<System.Int32> indices)
-    // Offset: 0xF81944
+    // Offset: 0xF93388
     static void GetDistinctIndices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::List_1<int>* indices);
     // System.Boolean TryGetNextEdge(UnityEngine.ProBuilder.Edge source, System.Int32 index, UnityEngine.ProBuilder.Edge nextEdge, System.Int32 nextIndex)
-    // Offset: 0xF81C70
+    // Offset: 0xF936B4
     bool TryGetNextEdge(UnityEngine::ProBuilder::Edge source, int index, UnityEngine::ProBuilder::Edge& nextEdge, int& nextIndex);
     // public System.Void .ctor()
-    // Offset: 0xF80A50
+    // Offset: 0xF92494
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Face* New_ctor();
     // public override System.String ToString()
-    // Offset: 0xF812BC
+    // Offset: 0xF92D00
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // UnityEngine.ProBuilder.Face
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");
 #pragma pack(pop)

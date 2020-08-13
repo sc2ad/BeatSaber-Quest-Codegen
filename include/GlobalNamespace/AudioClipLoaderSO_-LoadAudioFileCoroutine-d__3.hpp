@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: AudioClipLoaderSO
 #include "GlobalNamespace/AudioClipLoaderSO.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -54,38 +52,38 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Networking::UnityWebRequest* $www$5__2;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0x196E744
+    // Offset: 0xB86A40
     static AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0x196E794
+    // Offset: 0xB86A90
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x196E778
+    // Offset: 0xB86A74
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x196E854
+    // Offset: 0xB86B50
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x196EAB0
+    // Offset: 0xB86DAC
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x196EAB8
+    // Offset: 0xB86DB4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x196EB18
+    // Offset: 0xB86E14
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // AudioClipLoaderSO/<LoadAudioFileCoroutine>d__3
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3*, "", "AudioClipLoaderSO/<LoadAudioFileCoroutine>d__3");
 #pragma pack(pop)

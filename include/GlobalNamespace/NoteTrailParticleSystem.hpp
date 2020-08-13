@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::ParticleSystem::EmitParams emitParams;
     // protected System.Void Awake()
-    // Offset: 0xC1DD78
+    // Offset: 0xC2F7BC
     void Awake();
     // public System.Void Emit(UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Int32 count)
-    // Offset: 0xC1DBF4
+    // Offset: 0xC2F638
     void Emit(UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, int count);
     // public System.Void .ctor()
-    // Offset: 0xC1DD88
+    // Offset: 0xC2F7CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static NoteTrailParticleSystem* New_ctor();
   }; // NoteTrailParticleSystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailParticleSystem*, "", "NoteTrailParticleSystem");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Enum/ParseFailureKind
 #include "System/Enum_ParseFailureKind.hpp"
 // Completed includes
@@ -48,22 +48,22 @@ namespace System {
     // Creating value type constructor for type: EnumResult
     EnumResult(::CsObject* parsedEnum_ = {}, bool canThrow_ = {}, System::Enum::ParseFailureKind m_failure_ = {}, ::CsString* m_failureMessageID_ = {}, ::CsString* m_failureParameter_ = {}, ::CsObject* m_failureMessageFormatArgument_ = {}, System::Exception* m_innerException_ = {}) : parsedEnum{parsedEnum_}, canThrow{canThrow_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureParameter{m_failureParameter_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_innerException{m_innerException_} {}
     // System.Void Init(System.Boolean canMethodThrow)
-    // Offset: 0xA2B75C
+    // Offset: 0xA2B7D8
     void Init(bool canMethodThrow);
     // System.Void SetFailure(System.Exception unhandledException)
-    // Offset: 0xA2B768
+    // Offset: 0xA2B7E4
     void SetFailure(System::Exception* unhandledException);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureParameter)
-    // Offset: 0xA2B778
+    // Offset: 0xA2B7F4
     void SetFailure(System::Enum::ParseFailureKind failure, ::CsString* failureParameter);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0xA2B780
+    // Offset: 0xA2B7FC
     void SetFailure(System::Enum::ParseFailureKind failure, ::CsString* failureMessageID, ::CsObject* failureMessageFormatArgument);
     // System.Exception GetEnumParseException()
-    // Offset: 0xA2B788
+    // Offset: 0xA2B804
     System::Exception* GetEnumParseException();
   }; // System.Enum/EnumResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::EnumResult, "System", "Enum/EnumResult");
 #pragma pack(pop)

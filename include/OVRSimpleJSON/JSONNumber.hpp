@@ -31,76 +31,76 @@ namespace OVRSimpleJSON {
     // Offset: 0x10
     double m_Data;
     // public System.Void .ctor(System.Double aData)
-    // Offset: 0xF3BDB0
+    // Offset: 0xF4C7F4
     static JSONNumber* New_ctor(double aData);
     // public System.Void .ctor(System.String aData)
-    // Offset: 0xF41398
+    // Offset: 0xF51DDC
     static JSONNumber* New_ctor(::CsString* aData);
     // static private System.Boolean IsNumeric(System.Object value)
-    // Offset: 0xF41460
+    // Offset: 0xF51EA4
     static bool IsNumeric(::CsObject* value);
     // public override OVRSimpleJSON.JSONNodeType get_Tag()
-    // Offset: 0xF41204
+    // Offset: 0xF51C48
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNodeType JSONNode::get_Tag()
     OVRSimpleJSON::JSONNodeType get_Tag();
     // public override System.Boolean get_IsNumber()
-    // Offset: 0xF4120C
+    // Offset: 0xF51C50
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::get_IsNumber()
     bool get_IsNumber();
     // public override OVRSimpleJSON.JSONNode/Enumerator GetEnumerator()
-    // Offset: 0xF41214
+    // Offset: 0xF51C58
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode/Enumerator JSONNode::GetEnumerator()
     OVRSimpleJSON::JSONNode::Enumerator GetEnumerator();
     // public override System.String get_Value()
-    // Offset: 0xF41234
+    // Offset: 0xF51C78
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.String JSONNode::get_Value()
     ::CsString* get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0xF412AC
+    // Offset: 0xF51CF0
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Value(System.String value)
     void set_Value(::CsString* value);
     // public override System.Double get_AsDouble()
-    // Offset: 0xF41370
+    // Offset: 0xF51DB4
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Double JSONNode::get_AsDouble()
     double get_AsDouble();
     // public override System.Void set_AsDouble(System.Double value)
-    // Offset: 0xF41378
+    // Offset: 0xF51DBC
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_AsDouble(System.Double value)
     void set_AsDouble(double value);
     // public override System.Int64 get_AsLong()
-    // Offset: 0xF41380
+    // Offset: 0xF51DC4
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Int64 JSONNode::get_AsLong()
     int64_t get_AsLong();
     // public override System.Void set_AsLong(System.Int64 value)
-    // Offset: 0xF4138C
+    // Offset: 0xF51DD0
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_AsLong(System.Int64 value)
     void set_AsLong(int64_t value);
     // override System.Void WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
-    // Offset: 0xF41420
+    // Offset: 0xF51E64
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
     void WriteToStringBuilder(System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, OVRSimpleJSON::JSONTextMode aMode);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF41590
+    // Offset: 0xF51FD4
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF416BC
+    // Offset: 0xF52100
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();
   }; // OVRSimpleJSON.JSONNumber
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNumber*, "OVRSimpleJSON", "JSONNumber");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalParseTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE
@@ -171,18 +169,18 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x118
     int PRnullCount;
     // System.Void Init()
-    // Offset: 0xFD8AB8
+    // Offset: 0xFE94FC
     void Init();
     // static private System.Void .cctor()
-    // Offset: 0xFD8C24
+    // Offset: 0xFE9668
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0xFD8AB0
+    // Offset: 0xFE94F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ParseRecord* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.ParseRecord
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ParseRecord*, "System.Runtime.Serialization.Formatters.Binary", "ParseRecord");
 #pragma pack(pop)

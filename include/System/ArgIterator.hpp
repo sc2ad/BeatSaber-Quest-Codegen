@@ -32,17 +32,17 @@ namespace System {
     // Creating value type constructor for type: ArgIterator
     ArgIterator(System::IntPtr sig_ = {}, System::IntPtr args_ = {}, int next_arg_ = {}, int num_args_ = {}) : sig{sig_}, args{args_}, next_arg{next_arg_}, num_args{num_args_} {}
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0xA3CF38
+    // Offset: 0xA3CFB4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::CsObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3CF44
+    // Offset: 0xA3CFC0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.ArgIterator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ArgIterator, "System", "ArgIterator");
 #pragma pack(pop)

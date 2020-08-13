@@ -42,28 +42,28 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool animating;
     // public System.Boolean get_animating()
-    // Offset: 0xBCED2C
+    // Offset: 0xBE1770
     bool get_animating();
     // private System.Void set_animating(System.Boolean value)
-    // Offset: 0xBCED34
+    // Offset: 0xBE1778
     void set_animating(bool value);
     // protected System.Void Start()
-    // Offset: 0xBCED40
+    // Offset: 0xBE1784
     void Start();
     // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0xBCEDC0
+    // Offset: 0xBE1804
     System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
     // private System.Void SetCutout(System.Single cutout)
-    // Offset: 0xBCED48
+    // Offset: 0xBE178C
     void SetCutout(float cutout);
     // public System.Void ResetEffect()
-    // Offset: 0xBCEF54
+    // Offset: 0xBE1998
     void ResetEffect();
     // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0xBCEF84
+    // Offset: 0xBE19C8
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0xBCEFE4
+    // Offset: 0xBE1A28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -73,6 +73,6 @@ namespace GlobalNamespace {
     static CutoutAnimateEffect* New_ctor();
   }; // CutoutAnimateEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect*, "", "CutoutAnimateEffect");
 #pragma pack(pop)

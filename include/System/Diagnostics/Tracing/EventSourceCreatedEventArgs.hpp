@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.EventArgs
 #include "System/EventArgs.hpp"
 // Completed includes
@@ -23,16 +24,16 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x10
     System::Diagnostics::Tracing::EventSource* EventSource;
     // System.Void set_EventSource(System.Diagnostics.Tracing.EventSource value)
-    // Offset: 0xD7EE0C
+    // Offset: 0xD92850
     void set_EventSource(System::Diagnostics::Tracing::EventSource* value);
     // public System.Void .ctor()
-    // Offset: 0xD7EE14
+    // Offset: 0xD92858
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()
     static EventSourceCreatedEventArgs* New_ctor();
   }; // System.Diagnostics.Tracing.EventSourceCreatedEventArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSourceCreatedEventArgs*, "System.Diagnostics.Tracing", "EventSourceCreatedEventArgs");
 #pragma pack(pop)

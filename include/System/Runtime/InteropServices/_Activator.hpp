@@ -11,6 +11,6 @@ namespace System::Runtime::InteropServices {
   class _Activator {
   }; // System.Runtime.InteropServices._Activator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::_Activator*, "System.Runtime.InteropServices", "_Activator");
 #pragma pack(pop)

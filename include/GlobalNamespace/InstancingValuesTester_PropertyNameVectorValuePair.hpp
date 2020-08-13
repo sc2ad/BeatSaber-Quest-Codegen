@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: InstancingValuesTester
 #include "GlobalNamespace/InstancingValuesTester.hpp"
 // Including type: UnityEngine.Vector4
@@ -24,12 +22,12 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Vector4 vector;
     // public System.Void .ctor()
-    // Offset: 0x1810BB0
+    // Offset: 0x18215F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InstancingValuesTester::PropertyNameVectorValuePair* New_ctor();
   }; // InstancingValuesTester/PropertyNameVectorValuePair
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstancingValuesTester::PropertyNameVectorValuePair*, "", "InstancingValuesTester/PropertyNameVectorValuePair");
 #pragma pack(pop)

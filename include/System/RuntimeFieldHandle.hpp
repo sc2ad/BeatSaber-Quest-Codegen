@@ -48,25 +48,25 @@ namespace System {
     // Creating value type constructor for type: RuntimeFieldHandle
     RuntimeFieldHandle(System::IntPtr value_ = {}) : value{value_} {}
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0xA3B728
+    // Offset: 0xA3B7A4
     static RuntimeFieldHandle* New_ctor(System::IntPtr v);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xA3B730
+    // Offset: 0xA3B7AC
     static RuntimeFieldHandle* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.IntPtr get_Value()
-    // Offset: 0xA3B738
+    // Offset: 0xA3B7B4
     System::IntPtr get_Value();
     // static private System.Void SetValueInternal(System.Reflection.FieldInfo fi, System.Object obj, System.Object value)
-    // Offset: 0xFEBD08
+    // Offset: 0xFFC74C
     static void SetValueInternal(System::Reflection::FieldInfo* fi, ::CsObject* obj, ::CsObject* value);
     // static System.Void SetValue(System.Reflection.RtFieldInfo field, System.Object obj, System.Object value, System.RuntimeType fieldType, System.Reflection.FieldAttributes fieldAttr, System.RuntimeType declaringType, System.Boolean domainInitialized)
-    // Offset: 0xFEBD0C
+    // Offset: 0xFFC750
     static void SetValue(System::Reflection::RtFieldInfo* field, ::CsObject* obj, ::CsObject* value, System::RuntimeType* fieldType, System::Reflection::FieldAttributes fieldAttr, System::RuntimeType* declaringType, bool& domainInitialized);
     // static System.Void SetValueDirect(System.Reflection.RtFieldInfo field, System.RuntimeType fieldType, System.Void* pTypedRef, System.Object value, System.RuntimeType contextType)
-    // Offset: 0xFEBD10
+    // Offset: 0xFFC754
     static void SetValueDirect(System::Reflection::RtFieldInfo* field, System::RuntimeType* fieldType, void* pTypedRef, ::CsObject* value, System::RuntimeType* contextType);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xA3B740
+    // Offset: 0xA3B7BC
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -74,17 +74,17 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA3B748
+    // Offset: 0xA3B7C4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3B750
+    // Offset: 0xA3B7CC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.RuntimeFieldHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeFieldHandle, "System", "RuntimeFieldHandle");
 #pragma pack(pop)

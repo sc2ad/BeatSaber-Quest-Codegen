@@ -32,28 +32,28 @@ namespace UnityEngine::Rendering {
   class GraphicsSettings : public UnityEngine::Object {
     public:
     // static public System.Boolean get_lightsUseLinearIntensity()
-    // Offset: 0x137275C
+    // Offset: 0x13851A0
     static bool get_lightsUseLinearIntensity();
     // static System.Boolean AllowEnlightenSupportForUpgradedProject()
-    // Offset: 0x1372790
+    // Offset: 0x13851D4
     static bool AllowEnlightenSupportForUpgradedProject();
     // static public UnityEngine.Rendering.RenderPipelineAsset get_renderPipelineAsset()
-    // Offset: 0x13727C4
+    // Offset: 0x1385208
     static UnityEngine::Rendering::RenderPipelineAsset* get_renderPipelineAsset();
     // static private UnityEngine.ScriptableObject get_INTERNAL_defaultRenderPipeline()
-    // Offset: 0x1372868
+    // Offset: 0x13852AC
     static UnityEngine::ScriptableObject* get_INTERNAL_defaultRenderPipeline();
     // static public UnityEngine.Rendering.RenderPipelineAsset get_defaultRenderPipeline()
-    // Offset: 0x13727C8
+    // Offset: 0x138520C
     static UnityEngine::Rendering::RenderPipelineAsset* get_defaultRenderPipeline();
     // static public System.Void SetShaderMode(UnityEngine.Rendering.BuiltinShaderType type, UnityEngine.Rendering.BuiltinShaderMode mode)
-    // Offset: 0x137289C
+    // Offset: 0x13852E0
     static void SetShaderMode(UnityEngine::Rendering::BuiltinShaderType type, UnityEngine::Rendering::BuiltinShaderMode mode);
     // static public System.Void SetCustomShader(UnityEngine.Rendering.BuiltinShaderType type, UnityEngine.Shader shader)
-    // Offset: 0x13728EC
+    // Offset: 0x1385330
     static void SetCustomShader(UnityEngine::Rendering::BuiltinShaderType type, UnityEngine::Shader* shader);
   }; // UnityEngine.Rendering.GraphicsSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::GraphicsSettings*, "UnityEngine.Rendering", "GraphicsSettings");
 #pragma pack(pop)

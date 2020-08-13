@@ -44,31 +44,31 @@ namespace System {
     // Creating value type constructor for type: ParamsArray
     ParamsArray(::CsObject* arg0_ = {}, ::CsObject* arg1_ = {}, ::CsObject* arg2_ = {}, ::Array<::CsObject*>* args_ = {}) : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
     // public System.Void .ctor(System.Object arg0)
-    // Offset: 0xA430A4
+    // Offset: 0xA43120
     static ParamsArray* New_ctor(::CsObject* arg0);
     // public System.Void .ctor(System.Object arg0, System.Object arg1)
-    // Offset: 0xA430AC
+    // Offset: 0xA43128
     static ParamsArray* New_ctor(::CsObject* arg0, ::CsObject* arg1);
     // public System.Void .ctor(System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0xA430B4
+    // Offset: 0xA43130
     static ParamsArray* New_ctor(::CsObject* arg0, ::CsObject* arg1, ::CsObject* arg2);
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0xA430BC
+    // Offset: 0xA43138
     static ParamsArray* New_ctor(::Array<::CsObject*>* args);
     // public System.Int32 get_Length()
-    // Offset: 0xA430C4
+    // Offset: 0xA43140
     int get_Length();
     // public System.Object get_Item(System.Int32 index)
-    // Offset: 0xA430E0
+    // Offset: 0xA4315C
     ::CsObject* get_Item(int index);
     // private System.Object GetAtSlow(System.Int32 index)
-    // Offset: 0xA430F4
+    // Offset: 0xA43170
     ::CsObject* GetAtSlow(int index);
     // static private System.Void .cctor()
-    // Offset: 0x134983C
+    // Offset: 0x135C280
     static void _cctor();
   }; // System.ParamsArray
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParamsArray, "System", "ParamsArray");
 #pragma pack(pop)

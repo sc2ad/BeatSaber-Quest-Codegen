@@ -71,28 +71,28 @@ namespace HMUI {
     // Offset: 0x60
     float contentHeight;
     // protected System.Void Start()
-    // Offset: 0x10D3B00
+    // Offset: 0x10E4544
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10D3C20
+    // Offset: 0x10E4664
     void OnDestroy();
     // public System.Void SetText(System.String text)
-    // Offset: 0x10D3C34
+    // Offset: 0x10E4678
     void SetText(::CsString* text);
     // protected System.Void Update()
-    // Offset: 0x10D3F60
+    // Offset: 0x10E49A4
     void Update();
     // private System.Void PageUpButtonPressed()
-    // Offset: 0x10D40F4
+    // Offset: 0x10E4B38
     void PageUpButtonPressed();
     // private System.Void PageDownButtonPressed()
-    // Offset: 0x10D4188
+    // Offset: 0x10E4BCC
     void PageDownButtonPressed();
     // private System.Void RefreshButtonsInteractibility()
-    // Offset: 0x10D3EC4
+    // Offset: 0x10E4908
     void RefreshButtonsInteractibility();
     // public System.Void .ctor()
-    // Offset: 0x10D4264
+    // Offset: 0x10E4CA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -102,6 +102,6 @@ namespace HMUI {
     static TextPageScrollView* New_ctor();
   }; // HMUI.TextPageScrollView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextPageScrollView*, "HMUI", "TextPageScrollView");
 #pragma pack(pop)

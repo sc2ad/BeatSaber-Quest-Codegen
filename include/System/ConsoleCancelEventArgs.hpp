@@ -22,19 +22,19 @@ namespace System {
     // Offset: 0x14
     bool cancel;
     // System.Void .ctor(System.ConsoleSpecialKey type)
-    // Offset: 0x10AE730
+    // Offset: 0x10BF174
     static ConsoleCancelEventArgs* New_ctor(System::ConsoleSpecialKey type);
     // public System.Boolean get_Cancel()
-    // Offset: 0x10AF330
+    // Offset: 0x10BFD74
     bool get_Cancel();
     // System.Void .ctor()
-    // Offset: 0x10AF338
+    // Offset: 0x10BFD7C
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()
     static ConsoleCancelEventArgs* New_ctor();
   }; // System.ConsoleCancelEventArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventArgs*, "System", "ConsoleCancelEventArgs");
 #pragma pack(pop)

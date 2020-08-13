@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.Triangulation
 #include "UnityEngine/ProBuilder/MeshOperations/Triangulation.hpp"
 // Including type: UnityEngine.Vector2
@@ -37,18 +35,18 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x18
     System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* $$9__1;
     // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint <Triangulate>b__0(UnityEngine.Vector2 x)
-    // Offset: 0x10100E4
+    // Offset: 0x101FB28
     UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__0(UnityEngine::Vector2 x);
     // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint <Triangulate>b__1(UnityEngine.Vector2 x)
-    // Offset: 0x101016C
+    // Offset: 0x101FBB0
     UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__1(UnityEngine::Vector2 x);
     // public System.Void .ctor()
-    // Offset: 0x100FFCC
+    // Offset: 0x101FA10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Triangulation::$$c__DisplayClass8_0* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass8_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass8_0*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation/<>c__DisplayClass8_0");
 #pragma pack(pop)

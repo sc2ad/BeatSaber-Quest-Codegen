@@ -32,20 +32,20 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::AchievementIdsModelSO* achievementIdsModel;
     // public System.Void .ctor(AchievementIdsModelSO achievementIdsModel)
-    // Offset: 0xC249BC
+    // Offset: 0xC36400
     static OculusPlatformAchievementHandler* New_ctor(GlobalNamespace::AchievementIdsModelSO* achievementIdsModel);
     // public override HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0xC249F0
+    // Offset: 0xC36434
     // Implemented from: PlatformAchievementsHandler
     // Base method: HMAsyncRequest PlatformAchievementsHandler::UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UnlockAchievement(::CsString* achievementId, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public override HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0xC24AE0
+    // Offset: 0xC36524
     // Implemented from: PlatformAchievementsHandler
     // Base method: HMAsyncRequest PlatformAchievementsHandler::GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
   }; // OculusPlatformAchievementHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler*, "", "OculusPlatformAchievementHandler");
 #pragma pack(pop)

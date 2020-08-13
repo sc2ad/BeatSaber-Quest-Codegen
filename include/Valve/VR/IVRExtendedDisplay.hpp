@@ -36,6 +36,6 @@ namespace Valve::VR {
     IVRExtendedDisplay(Valve::VR::IVRExtendedDisplay::_GetWindowBounds* GetWindowBounds_ = {}, Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport* GetEyeOutputViewport_ = {}, Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo_ = {}) : GetWindowBounds{GetWindowBounds_}, GetEyeOutputViewport{GetEyeOutputViewport_}, GetDXGIOutputInfo{GetDXGIOutputInfo_} {}
   }; // Valve.VR.IVRExtendedDisplay
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay, "Valve.VR", "IVRExtendedDisplay");
 #pragma pack(pop)

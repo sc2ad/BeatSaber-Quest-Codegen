@@ -35,13 +35,13 @@ namespace HMUI {
     // Offset: 0x20
     UnityEngine::Canvas* canvas;
     // protected System.Void Awake()
-    // Offset: 0x10CA644
+    // Offset: 0x10DB088
     void Awake();
     // public System.Boolean get_isOnTop()
-    // Offset: 0x10CA6CC
+    // Offset: 0x10DB110
     bool get_isOnTop();
     // public System.Void .ctor()
-    // Offset: 0x10CA8EC
+    // Offset: 0x10DB330
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -51,6 +51,6 @@ namespace HMUI {
     static RaycastUITopLevelChecker* New_ctor();
   }; // HMUI.RaycastUITopLevelChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::RaycastUITopLevelChecker*, "HMUI", "RaycastUITopLevelChecker");
 #pragma pack(pop)

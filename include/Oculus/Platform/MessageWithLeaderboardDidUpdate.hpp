@@ -20,21 +20,21 @@ namespace Oculus::Platform {
   class MessageWithLeaderboardDidUpdate : public Oculus::Platform::Message_1<bool> {
     public:
     // protected System.Boolean GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8D5C8
+    // Offset: 0xEA000C
     bool GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE885C0
+    // Offset: 0xE9B004
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithLeaderboardDidUpdate* New_ctor(System::IntPtr c_message);
     // public override System.Boolean GetLeaderboardDidUpdate()
-    // Offset: 0xE8D584
+    // Offset: 0xE9FFC8
     // Implemented from: Oculus.Platform.Message
     // Base method: System.Boolean Message::GetLeaderboardDidUpdate()
     bool GetLeaderboardDidUpdate();
   }; // Oculus.Platform.MessageWithLeaderboardDidUpdate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLeaderboardDidUpdate*, "Oculus.Platform", "MessageWithLeaderboardDidUpdate");
 #pragma pack(pop)

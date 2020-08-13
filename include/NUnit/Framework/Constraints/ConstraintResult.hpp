@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Constraints.ConstraintStatus
 #include "NUnit/Framework/Constraints/ConstraintStatus.hpp"
 // Completed includes
@@ -34,37 +32,37 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x20
     NUnit::Framework::Constraints::ConstraintStatus Status;
     // public System.Void .ctor(NUnit.Framework.Constraints.IConstraint constraint, System.Object actualValue)
-    // Offset: 0x1060A28
+    // Offset: 0x107046C
     static ConstraintResult* New_ctor(NUnit::Framework::Constraints::IConstraint* constraint, ::CsObject* actualValue);
     // public System.Void .ctor(NUnit.Framework.Constraints.IConstraint constraint, System.Object actualValue, System.Boolean isSuccess)
-    // Offset: 0x1060A78
+    // Offset: 0x10704BC
     static ConstraintResult* New_ctor(NUnit::Framework::Constraints::IConstraint* constraint, ::CsObject* actualValue, bool isSuccess);
     // public System.Object get_ActualValue()
-    // Offset: 0x1060AB4
+    // Offset: 0x10704F8
     ::CsObject* get_ActualValue();
     // private System.Void set_ActualValue(System.Object value)
-    // Offset: 0x1060ABC
+    // Offset: 0x1070500
     void set_ActualValue(::CsObject* value);
     // public NUnit.Framework.Constraints.ConstraintStatus get_Status()
-    // Offset: 0x1060AC4
+    // Offset: 0x1070508
     NUnit::Framework::Constraints::ConstraintStatus get_Status();
     // public System.Void set_Status(NUnit.Framework.Constraints.ConstraintStatus value)
-    // Offset: 0x1060ACC
+    // Offset: 0x1070510
     void set_Status(NUnit::Framework::Constraints::ConstraintStatus value);
     // public System.Boolean get_IsSuccess()
-    // Offset: 0x1060AD4
+    // Offset: 0x1070518
     bool get_IsSuccess();
     // public System.String get_Description()
-    // Offset: 0x1060AE4
+    // Offset: 0x1070528
     ::CsString* get_Description();
     // public System.Void WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x1060B94
+    // Offset: 0x10705D8
     void WriteMessageTo(NUnit::Framework::Constraints::MessageWriter* writer);
     // public System.Void WriteActualValueTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x1060BC0
+    // Offset: 0x1070604
     void WriteActualValueTo(NUnit::Framework::Constraints::MessageWriter* writer);
   }; // NUnit.Framework.Constraints.ConstraintResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintResult*, "NUnit.Framework.Constraints", "ConstraintResult");
 #pragma pack(pop)

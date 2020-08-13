@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE
@@ -64,24 +62,24 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x44
     bool NIsealedStatusChecked;
     // System.Void Init()
-    // Offset: 0xE13290
+    // Offset: 0xE25CD4
     void Init();
     // public System.Boolean get_IsSealed()
-    // Offset: 0xE132E0
+    // Offset: 0xE25D24
     bool get_IsSealed();
     // public System.String get_NIname()
-    // Offset: 0xE13338
+    // Offset: 0xE25D7C
     ::CsString* get_NIname();
     // public System.Void set_NIname(System.String value)
-    // Offset: 0xE13390
+    // Offset: 0xE25DD4
     void set_NIname(::CsString* value);
     // System.Void .ctor()
-    // Offset: 0xE13288
+    // Offset: 0xE25CCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NameInfo* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.NameInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameInfo*, "System.Runtime.Serialization.Formatters.Binary", "NameInfo");
 #pragma pack(pop)

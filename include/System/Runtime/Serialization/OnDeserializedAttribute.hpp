@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace System::Runtime::Serialization {
   class OnDeserializedAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFE7DC4
+    // Offset: 0xFF8808
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static OnDeserializedAttribute* New_ctor();
   }; // System.Runtime.Serialization.OnDeserializedAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OnDeserializedAttribute*, "System.Runtime.Serialization", "OnDeserializedAttribute");
 #pragma pack(pop)

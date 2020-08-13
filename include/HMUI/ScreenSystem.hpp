@@ -73,46 +73,46 @@ namespace HMUI {
     // Offset: 0x68
     HMUI::ButtonBinder* buttonBinder;
     // public HMUI.TitleViewController get_titleViewController()
-    // Offset: 0x10CB2F0
+    // Offset: 0x10DBD34
     HMUI::TitleViewController* get_titleViewController();
     // public HMUI.Screen get_mainScreen()
-    // Offset: 0x10CB2F8
+    // Offset: 0x10DBD3C
     HMUI::Screen* get_mainScreen();
     // public HMUI.Screen get_leftScreen()
-    // Offset: 0x10CB300
+    // Offset: 0x10DBD44
     HMUI::Screen* get_leftScreen();
     // public HMUI.Screen get_rightScreen()
-    // Offset: 0x10CB308
+    // Offset: 0x10DBD4C
     HMUI::Screen* get_rightScreen();
     // public HMUI.Screen get_bottomScreen()
-    // Offset: 0x10CB310
+    // Offset: 0x10DBD54
     HMUI::Screen* get_bottomScreen();
     // public HMUI.Screen get_topScreen()
-    // Offset: 0x10CB318
+    // Offset: 0x10DBD5C
     HMUI::Screen* get_topScreen();
     // public System.Void add_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10CB320
+    // Offset: 0x10DBD64
     void add_backButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10CB3C4
+    // Offset: 0x10DBE08
     void remove_backButtonWasPressedEvent(System::Action* value);
     // private System.Void Awake()
-    // Offset: 0x10CB468
+    // Offset: 0x10DBEAC
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x10CB52C
+    // Offset: 0x10DBF70
     void OnDestroy();
     // public System.Void BackButtonPush(System.Boolean show)
-    // Offset: 0x10CB548
+    // Offset: 0x10DBF8C
     void BackButtonPush(bool show);
     // public System.Void BackButtonPop(System.Boolean show)
-    // Offset: 0x10CB644
+    // Offset: 0x10DC088
     void BackButtonPop(bool show);
     // private System.Void <Awake>b__25_0()
-    // Offset: 0x10CB6C4
+    // Offset: 0x10DC108
     void $Awake$b__25_0();
     // public System.Void .ctor()
-    // Offset: 0x10CB6BC
+    // Offset: 0x10DC100
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -122,6 +122,6 @@ namespace HMUI {
     static ScreenSystem* New_ctor();
   }; // HMUI.ScreenSystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenSystem*, "HMUI", "ScreenSystem");
 #pragma pack(pop)

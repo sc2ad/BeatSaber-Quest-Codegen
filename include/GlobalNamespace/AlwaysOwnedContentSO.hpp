@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::BeatmapLevelSO*>* alwaysOwnedBeatmapLevels;
     // public BeatmapLevelPackSO[] get_alwaysOwnedPacks()
-    // Offset: 0x196A720
+    // Offset: 0xB82A1C
     ::Array<GlobalNamespace::BeatmapLevelPackSO*>* get_alwaysOwnedPacks();
     // public BeatmapLevelSO[] get_alwaysOwnedBeatmapLevels()
-    // Offset: 0x196A728
+    // Offset: 0xB82A24
     ::Array<GlobalNamespace::BeatmapLevelSO*>* get_alwaysOwnedBeatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x196A730
+    // Offset: 0xB82A2C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -44,6 +44,6 @@ namespace GlobalNamespace {
     static AlwaysOwnedContentSO* New_ctor();
   }; // AlwaysOwnedContentSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentSO*, "", "AlwaysOwnedContentSO");
 #pragma pack(pop)

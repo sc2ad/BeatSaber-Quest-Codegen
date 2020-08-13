@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Int32
@@ -114,73 +112,73 @@ namespace System::Threading {
     // Set static field: static private System.Action`1<System.Object> s_cancellationTokenCallback
     static void _set_s_cancellationTokenCallback(System::Action_1<::CsObject*>* value);
     // public System.Threading.WaitHandle get_WaitHandle()
-    // Offset: 0x13C4C4C
+    // Offset: 0x13D5690
     System::Threading::WaitHandle* get_WaitHandle();
     // public System.Boolean get_IsSet()
-    // Offset: 0x13C4E90
+    // Offset: 0x13D58D4
     bool get_IsSet();
     // private System.Void set_IsSet(System.Boolean value)
-    // Offset: 0x13C4F04
+    // Offset: 0x13D5948
     void set_IsSet(bool value);
     // public System.Int32 get_SpinCount()
-    // Offset: 0x13C4FC8
+    // Offset: 0x13D5A0C
     int get_SpinCount();
     // private System.Void set_SpinCount(System.Int32 value)
-    // Offset: 0x13C5040
+    // Offset: 0x13D5A84
     void set_SpinCount(int value);
     // private System.Int32 get_Waiters()
-    // Offset: 0x13C5080
+    // Offset: 0x13D5AC4
     int get_Waiters();
     // private System.Void set_Waiters(System.Int32 value)
-    // Offset: 0x13C50EC
+    // Offset: 0x13D5B30
     void set_Waiters(int value);
     // public System.Void .ctor(System.Boolean initialState)
-    // Offset: 0x13C51D0
+    // Offset: 0x13D5C14
     static ManualResetEventSlim* New_ctor(bool initialState);
     // public System.Void .ctor(System.Boolean initialState, System.Int32 spinCount)
-    // Offset: 0x13C527C
+    // Offset: 0x13D5CC0
     static ManualResetEventSlim* New_ctor(bool initialState, int spinCount);
     // private System.Void Initialize(System.Boolean initialState, System.Int32 spinCount)
-    // Offset: 0x13C5204
+    // Offset: 0x13D5C48
     void Initialize(bool initialState, int spinCount);
     // private System.Void EnsureLockObjectCreated()
-    // Offset: 0x13C53C0
+    // Offset: 0x13D5E04
     void EnsureLockObjectCreated();
     // private System.Boolean LazyInitializeEvent()
-    // Offset: 0x13C4D28
+    // Offset: 0x13D576C
     bool LazyInitializeEvent();
     // public System.Void Set()
-    // Offset: 0x13C5468
+    // Offset: 0x13D5EAC
     void Set();
     // private System.Void Set(System.Boolean duringCancellation)
-    // Offset: 0x13C5470
+    // Offset: 0x13D5EB4
     void Set(bool duringCancellation);
     // public System.Boolean Wait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13C569C
+    // Offset: 0x13D60E0
     bool Wait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x13C5BE0
+    // Offset: 0x13D6624
     void Dispose(bool disposing);
     // private System.Void ThrowIfDisposed()
-    // Offset: 0x13C4C8C
+    // Offset: 0x13D56D0
     void ThrowIfDisposed();
     // static private System.Void CancellationTokenCallback(System.Object obj)
-    // Offset: 0x13C5CC8
+    // Offset: 0x13D670C
     static void CancellationTokenCallback(::CsObject* obj);
     // private System.Void UpdateStateAtomically(System.Int32 newBits, System.Int32 updateBitsMask)
-    // Offset: 0x13C4F28
+    // Offset: 0x13D596C
     void UpdateStateAtomically(int newBits, int updateBitsMask);
     // static private System.Int32 ExtractStatePortionAndShiftRight(System.Int32 state, System.Int32 mask, System.Int32 rightBitShiftCount)
-    // Offset: 0x13C5034
+    // Offset: 0x13D5A78
     static int ExtractStatePortionAndShiftRight(int state, int mask, int rightBitShiftCount);
     // static private System.Int32 ExtractStatePortion(System.Int32 state, System.Int32 mask)
-    // Offset: 0x13C4EFC
+    // Offset: 0x13D5940
     static int ExtractStatePortion(int state, int mask);
     // static private System.Void .cctor()
-    // Offset: 0x13C5DCC
+    // Offset: 0x13D6810
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x13C5B64
+    // Offset: 0x13D65A8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -189,6 +187,6 @@ namespace System::Threading {
     void System_IDisposable_Dispose();
   }; // System.Threading.ManualResetEventSlim
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEventSlim*, "System.Threading", "ManualResetEventSlim");
 #pragma pack(pop)

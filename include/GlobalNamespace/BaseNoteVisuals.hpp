@@ -29,22 +29,22 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect;
     // protected System.Void Awake()
-    // Offset: 0x1970E24
+    // Offset: 0xB89120
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1970F04
+    // Offset: 0xB89200
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInitEvent(NoteController noteController)
-    // Offset: 0x1971028
+    // Offset: 0xB89324
     void HandleNoteControllerDidInitEvent(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteDidStartDissolvingEvent(NoteController noteController, System.Single duration)
-    // Offset: 0x1971054
+    // Offset: 0xB89350
     void HandleNoteDidStartDissolvingEvent(GlobalNamespace::NoteController* noteController, float duration);
     // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x1971064
+    // Offset: 0xB89360
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x197108C
+    // Offset: 0xB89388
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     static BaseNoteVisuals* New_ctor();
   }; // BaseNoteVisuals
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNoteVisuals*, "", "BaseNoteVisuals");
 #pragma pack(pop)

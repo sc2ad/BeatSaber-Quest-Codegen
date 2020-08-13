@@ -44,6 +44,6 @@ namespace System::Runtime::InteropServices {
     GCHandleType(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.GCHandleType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GCHandleType, "System.Runtime.InteropServices", "GCHandleType");
 #pragma pack(pop)

@@ -22,16 +22,16 @@ namespace UnityEngine {
   class Joint : public UnityEngine::Component {
     public:
     // public UnityEngine.Rigidbody get_connectedBody()
-    // Offset: 0x1947698
+    // Offset: 0x195A0DC
     UnityEngine::Rigidbody* get_connectedBody();
     // public System.Void set_connectedAnchor(UnityEngine.Vector3 value)
-    // Offset: 0x19476D8
+    // Offset: 0x195A11C
     void set_connectedAnchor(UnityEngine::Vector3 value);
     // private System.Void set_connectedAnchor_Injected(UnityEngine.Vector3 value)
-    // Offset: 0x1947730
+    // Offset: 0x195A174
     void set_connectedAnchor_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.Joint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Joint*, "UnityEngine", "Joint");
 #pragma pack(pop)

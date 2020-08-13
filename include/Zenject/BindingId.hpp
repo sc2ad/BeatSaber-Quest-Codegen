@@ -34,48 +34,48 @@ namespace Zenject {
     // Creating value type constructor for type: BindingId
     BindingId(System::Type* type_ = {}, ::CsObject* identifier_ = {}) : type{type_}, identifier{identifier_} {}
     // public System.Void .ctor(System.Type type, System.Object identifier)
-    // Offset: 0xA2B0FC
+    // Offset: 0xA2B178
     static BindingId* New_ctor(System::Type* type, ::CsObject* identifier);
     // public System.Type get_Type()
-    // Offset: 0xA2B130
+    // Offset: 0xA2B1AC
     System::Type* get_Type();
     // public System.Void set_Type(System.Type value)
-    // Offset: 0xA2B138
+    // Offset: 0xA2B1B4
     void set_Type(System::Type* value);
     // public System.Object get_Identifier()
-    // Offset: 0xA2B140
+    // Offset: 0xA2B1BC
     ::CsObject* get_Identifier();
     // public System.Void set_Identifier(System.Object value)
-    // Offset: 0xA2B148
+    // Offset: 0xA2B1C4
     void set_Identifier(::CsObject* value);
     // public override System.String ToString()
-    // Offset: 0xA2B150
+    // Offset: 0xA2B1CC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA2B158
+    // Offset: 0xA2B1D4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA2B160
+    // Offset: 0xA2B1DC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::CsObject* other);
     // public System.Boolean Equals(Zenject.BindingId that)
-    // Offset: 0xA2B168
+    // Offset: 0xA2B1E4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(Zenject.BindingId that)
     bool Equals(Zenject::BindingId that);
   }; // Zenject.BindingId
   // static public System.Boolean op_Equality(Zenject.BindingId left, Zenject.BindingId right)
-  // Offset: 0xD51900
+  // Offset: 0xD65344
   bool operator ==(const Zenject::BindingId& left, const Zenject::BindingId& right);
   // static public System.Boolean op_Inequality(Zenject.BindingId left, Zenject.BindingId right)
-  // Offset: 0xD519CC
+  // Offset: 0xD65410
   bool operator !=(const Zenject::BindingId& left, const Zenject::BindingId& right);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingId, "Zenject", "BindingId");
 #pragma pack(pop)

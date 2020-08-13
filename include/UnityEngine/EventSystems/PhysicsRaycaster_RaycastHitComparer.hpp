@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.PhysicsRaycaster
 #include "UnityEngine/EventSystems/PhysicsRaycaster.hpp"
 // Including type: System.Collections.Generic.IComparer`1
@@ -24,20 +22,20 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.PhysicsRaycaster/RaycastHitComparer instance
     static void _set_instance(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0xDE861C
+    // Offset: 0xDFB060
     static void _cctor();
     // public System.Int32 Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
-    // Offset: 0xDE85D0
+    // Offset: 0xDFB014
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
     int Compare(UnityEngine::RaycastHit x, UnityEngine::RaycastHit y);
     // public System.Void .ctor()
-    // Offset: 0xDE8614
+    // Offset: 0xDFB058
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PhysicsRaycaster::RaycastHitComparer* New_ctor();
   }; // UnityEngine.EventSystems.PhysicsRaycaster/RaycastHitComparer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");
 #pragma pack(pop)

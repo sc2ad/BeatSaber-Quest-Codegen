@@ -24,6 +24,6 @@ namespace UnityEngine::EventSystems {
     void OnUpdateSelected(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.IUpdateSelectedHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IUpdateSelectedHandler*, "UnityEngine.EventSystems", "IUpdateSelectedHandler");
 #pragma pack(pop)

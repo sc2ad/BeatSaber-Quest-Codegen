@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.Configuration.WebProxyScriptElement
 #include "System/Net/Configuration/WebProxyScriptElement.hpp"
 // Including type: System.Configuration.ConfigurationPropertyCollection

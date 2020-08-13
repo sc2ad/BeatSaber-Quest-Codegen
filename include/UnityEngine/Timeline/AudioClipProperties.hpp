@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Playables.PlayableBehaviour
 #include "UnityEngine/Playables/PlayableBehaviour.hpp"
 // Completed includes
@@ -16,13 +17,13 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     float volume;
     // public System.Void .ctor()
-    // Offset: 0x107EA94
+    // Offset: 0x108E4D8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
     static AudioClipProperties* New_ctor();
   }; // UnityEngine.Timeline.AudioClipProperties
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioClipProperties*, "UnityEngine.Timeline", "AudioClipProperties");
 #pragma pack(pop)

@@ -38,60 +38,60 @@ namespace System {
     // Creating value type constructor for type: IntPtr
     IntPtr(void* m_value_ = {}) : m_value{m_value_} {}
     // public System.Void .ctor(System.Int32 value)
-    // Offset: 0xA3BC8C
+    // Offset: 0xA3BD08
     static IntPtr* New_ctor(int value);
     // public System.Void .ctor(System.Int64 value)
-    // Offset: 0xA3BC98
+    // Offset: 0xA3BD14
     static IntPtr* New_ctor(int64_t value);
     // public System.Void .ctor(System.Void* value)
-    // Offset: 0xA3BCA0
+    // Offset: 0xA3BD1C
     static IntPtr* New_ctor(void* value);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xA3BCA8
+    // Offset: 0xA3BD24
     static IntPtr* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static public System.Int32 get_Size()
-    // Offset: 0xFFDFA8
+    // Offset: 0x100D9EC
     static int get_Size();
     // public System.Int64 ToInt64()
-    // Offset: 0xA3BCC8
+    // Offset: 0xA3BD44
     int64_t ToInt64();
     // public System.Void* ToPointer()
-    // Offset: 0xA3BCD0
+    // Offset: 0xA3BD4C
     void* ToPointer();
     // public System.String ToString(System.String format)
-    // Offset: 0xA3BD0C
+    // Offset: 0xA3BD88
     ::CsString* ToString(::CsString* format);
     // System.Boolean IsNull()
-    // Offset: 0xA3BD44
+    // Offset: 0xA3BDC0
     bool IsNull();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xA3BCB0
+    // Offset: 0xA3BD2C
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA3BCB8
+    // Offset: 0xA3BD34
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3BCC0
+    // Offset: 0xA3BD3C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xA3BCD8
+    // Offset: 0xA3BD54
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // System.IntPtr
   // static public System.Boolean op_Equality(System.IntPtr value1, System.IntPtr value2)
-  // Offset: 0xFFE160
+  // Offset: 0x100DBA4
   bool operator ==(const System::IntPtr& value1, const System::IntPtr& value2);
   // static public System.Boolean op_Inequality(System.IntPtr value1, System.IntPtr value2)
-  // Offset: 0xFFE16C
+  // Offset: 0x100DBB0
   bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");
 #pragma pack(pop)

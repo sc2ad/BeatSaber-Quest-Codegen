@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Completed includes
@@ -51,6 +49,6 @@ namespace UnityEngine {
     ::Array<UnityEngine::ContactPoint2D>* m_LegacyContacts;
   }; // UnityEngine.Collision2D
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision2D*, "UnityEngine", "Collision2D");
 #pragma pack(pop)

@@ -26,23 +26,23 @@ namespace System::Resources {
     // Offset: 0x88
     ::CsString* cultureName;
     // public System.Void .ctor(System.String message, System.String cultureName)
-    // Offset: 0x1145D80
+    // Offset: 0x11577C4
     static MissingSatelliteAssemblyException* New_ctor(::CsString* message, ::CsString* cultureName);
     // public System.Void .ctor()
-    // Offset: 0x1145E64
+    // Offset: 0x11578A8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static MissingSatelliteAssemblyException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1145ED8
+    // Offset: 0x115791C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static MissingSatelliteAssemblyException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Resources.MissingSatelliteAssemblyException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::MissingSatelliteAssemblyException*, "System.Resources", "MissingSatelliteAssemblyException");
 #pragma pack(pop)

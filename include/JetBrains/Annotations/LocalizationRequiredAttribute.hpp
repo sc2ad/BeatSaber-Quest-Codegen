@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -16,22 +17,22 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     bool Required;
     // public System.Void .ctor(System.Boolean required)
-    // Offset: 0x194548C
+    // Offset: 0x1957ED0
     static LocalizationRequiredAttribute* New_ctor(bool required);
     // public System.Boolean get_Required()
-    // Offset: 0x19454BC
+    // Offset: 0x1957F00
     bool get_Required();
     // private System.Void set_Required(System.Boolean value)
-    // Offset: 0x19454C4
+    // Offset: 0x1957F08
     void set_Required(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1945460
+    // Offset: 0x1957EA4
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static LocalizationRequiredAttribute* New_ctor();
   }; // JetBrains.Annotations.LocalizationRequiredAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::LocalizationRequiredAttribute*, "JetBrains.Annotations", "LocalizationRequiredAttribute");
 #pragma pack(pop)

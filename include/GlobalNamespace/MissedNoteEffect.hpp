@@ -56,22 +56,22 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     float startAnimationTime;
     // public System.Void add_didFinishEvent(System.Action`1<MissedNoteEffect> value)
-    // Offset: 0xBEE2F8
+    // Offset: 0xBFFD3C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MissedNoteEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MissedNoteEffect> value)
-    // Offset: 0xBEE39C
+    // Offset: 0xBFFDE0
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::MissedNoteEffect*>* value);
     // protected System.Void Awake()
-    // Offset: 0xBEE440
+    // Offset: 0xBFFE84
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xBEE444
+    // Offset: 0xBFFE88
     void Update();
     // public System.Void Init(NoteData noteData, System.Single animationDuration, System.Single startAnimationTime)
-    // Offset: 0xBEE56C
+    // Offset: 0xBFFFB0
     void Init(GlobalNamespace::NoteData* noteData, float animationDuration, float startAnimationTime);
     // public System.Void .ctor()
-    // Offset: 0xBEE5AC
+    // Offset: 0xBFFFF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -81,6 +81,6 @@ namespace GlobalNamespace {
     static MissedNoteEffect* New_ctor();
   }; // MissedNoteEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissedNoteEffect*, "", "MissedNoteEffect");
 #pragma pack(pop)

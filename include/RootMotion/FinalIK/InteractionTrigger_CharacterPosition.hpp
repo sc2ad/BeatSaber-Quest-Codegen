@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.InteractionTrigger
 #include "RootMotion/FinalIK/InteractionTrigger.hpp"
 // Including type: UnityEngine.Vector2
@@ -48,21 +46,21 @@ namespace RootMotion::FinalIK {
     // Offset: 0x29
     bool fixYAxis;
     // public UnityEngine.Vector3 get_offset3D()
-    // Offset: 0x121858C
+    // Offset: 0x1229FD0
     UnityEngine::Vector3 get_offset3D();
     // public UnityEngine.Vector3 get_direction3D()
-    // Offset: 0x12185C8
+    // Offset: 0x122A00C
     UnityEngine::Vector3 get_direction3D();
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform trigger, System.Single error)
-    // Offset: 0x12186C0
+    // Offset: 0x122A104
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* trigger, float& error);
     // public System.Void .ctor()
-    // Offset: 0x1218D3C
+    // Offset: 0x122A780
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionTrigger::CharacterPosition* New_ctor();
   }; // RootMotion.FinalIK.InteractionTrigger/CharacterPosition
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*, "RootMotion.FinalIK", "InteractionTrigger/CharacterPosition");
 #pragma pack(pop)

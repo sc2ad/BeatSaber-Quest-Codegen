@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -94,118 +92,118 @@ namespace System::Runtime::Serialization {
     // Offset: 0x5A
     bool requireSameTokenInPartialTrust;
     // public System.Void .ctor(System.Type type, System.Runtime.Serialization.IFormatterConverter converter)
-    // Offset: 0xFDA5DC
+    // Offset: 0xFEB020
     static SerializationInfo* New_ctor(System::Type* type, System::Runtime::Serialization::IFormatterConverter* converter);
     // public System.Void .ctor(System.Type type, System.Runtime.Serialization.IFormatterConverter converter, System.Boolean requireSameTokenInPartialTrust)
-    // Offset: 0xFDC89C
+    // Offset: 0xFED2E0
     static SerializationInfo* New_ctor(System::Type* type, System::Runtime::Serialization::IFormatterConverter* converter, bool requireSameTokenInPartialTrust);
     // public System.String get_FullTypeName()
-    // Offset: 0xFE9E70
+    // Offset: 0xFFA8B4
     ::CsString* get_FullTypeName();
     // public System.String get_AssemblyName()
-    // Offset: 0xFE9E78
+    // Offset: 0xFFA8BC
     ::CsString* get_AssemblyName();
     // public System.Void SetType(System.Type type)
-    // Offset: 0xFE86B4
+    // Offset: 0xFF90F8
     void SetType(System::Type* type);
     // static private System.Boolean Compare(System.Byte[] a, System.Byte[] b)
-    // Offset: 0xFE9E84
+    // Offset: 0xFFA8C8
     static bool Compare(::Array<uint8_t>* a, ::Array<uint8_t>* b);
     // static System.Void DemandForUnsafeAssemblyNameAssignments(System.String originalAssemblyName, System.String newAssemblyName)
-    // Offset: 0xFE9E80
+    // Offset: 0xFFA8C4
     static void DemandForUnsafeAssemblyNameAssignments(::CsString* originalAssemblyName, ::CsString* newAssemblyName);
     // static System.Boolean IsAssemblyNameAssignmentSafe(System.String originalAssemblyName, System.String newAssemblyName)
-    // Offset: 0xFDD584
+    // Offset: 0xFEDFC8
     static bool IsAssemblyNameAssignmentSafe(::CsString* originalAssemblyName, ::CsString* newAssemblyName);
     // public System.Int32 get_MemberCount()
-    // Offset: 0xFE9F10
+    // Offset: 0xFFA954
     int get_MemberCount();
     // public System.Type get_ObjectType()
-    // Offset: 0xFE9F18
+    // Offset: 0xFFA95C
     System::Type* get_ObjectType();
     // public System.Boolean get_IsFullTypeNameSetExplicit()
-    // Offset: 0xFE9F20
+    // Offset: 0xFFA964
     bool get_IsFullTypeNameSetExplicit();
     // public System.Boolean get_IsAssemblyNameSetExplicit()
-    // Offset: 0xFE9F28
+    // Offset: 0xFFA96C
     bool get_IsAssemblyNameSetExplicit();
     // public System.Runtime.Serialization.SerializationInfoEnumerator GetEnumerator()
-    // Offset: 0xFDD278
+    // Offset: 0xFEDCBC
     System::Runtime::Serialization::SerializationInfoEnumerator* GetEnumerator();
     // private System.Void ExpandArrays()
-    // Offset: 0xFE9FB4
+    // Offset: 0xFFA9F8
     void ExpandArrays();
     // public System.Void AddValue(System.String name, System.Object value, System.Type type)
-    // Offset: 0xFE85E8
+    // Offset: 0xFF902C
     void AddValue(::CsString* name, ::CsObject* value, System::Type* type);
     // public System.Void AddValue(System.String name, System.Object value)
-    // Offset: 0xFDA438
+    // Offset: 0xFEAE7C
     void AddValue(::CsString* name, ::CsObject* value);
     // public System.Void AddValue(System.String name, System.Boolean value)
-    // Offset: 0xFEA2E0
+    // Offset: 0xFFAD24
     void AddValue(::CsString* name, bool value);
     // public System.Void AddValue(System.String name, System.Char value)
-    // Offset: 0xFEA3A4
+    // Offset: 0xFFADE8
     void AddValue(::CsString* name, ::Il2CppChar value);
     // public System.Void AddValue(System.String name, System.Byte value)
-    // Offset: 0xFEA468
+    // Offset: 0xFFAEAC
     void AddValue(::CsString* name, uint8_t value);
     // public System.Void AddValue(System.String name, System.Int16 value)
-    // Offset: 0xFEA52C
+    // Offset: 0xFFAF70
     void AddValue(::CsString* name, int16_t value);
     // public System.Void AddValue(System.String name, System.Int32 value)
-    // Offset: 0xFEA5F0
+    // Offset: 0xFFB034
     void AddValue(::CsString* name, int value);
     // public System.Void AddValue(System.String name, System.Int64 value)
-    // Offset: 0xFEA6B4
+    // Offset: 0xFFB0F8
     void AddValue(::CsString* name, int64_t value);
     // public System.Void AddValue(System.String name, System.UInt64 value)
-    // Offset: 0xFEA778
+    // Offset: 0xFFB1BC
     void AddValue(::CsString* name, uint64_t value);
     // public System.Void AddValue(System.String name, System.Single value)
-    // Offset: 0xFEA83C
+    // Offset: 0xFFB280
     void AddValue(::CsString* name, float value);
     // public System.Void AddValue(System.String name, System.DateTime value)
-    // Offset: 0xFEA900
+    // Offset: 0xFFB344
     void AddValue(::CsString* name, System::DateTime value);
     // System.Void AddValueInternal(System.String name, System.Object value, System.Type type)
-    // Offset: 0xFEA0F0
+    // Offset: 0xFFAB34
     void AddValueInternal(::CsString* name, ::CsObject* value, System::Type* type);
     // System.Void UpdateValue(System.String name, System.Object value, System.Type type)
-    // Offset: 0xFE5CD8
+    // Offset: 0xFF671C
     void UpdateValue(::CsString* name, ::CsObject* value, System::Type* type);
     // private System.Int32 FindElement(System.String name)
-    // Offset: 0xFEA9C4
+    // Offset: 0xFFB408
     int FindElement(::CsString* name);
     // private System.Object GetElement(System.String name, System.Type foundType)
-    // Offset: 0xFEAA84
+    // Offset: 0xFFB4C8
     ::CsObject* GetElement(::CsString* name, System::Type*& foundType);
     // private System.Object GetElementNoThrow(System.String name, System.Type foundType)
-    // Offset: 0xFEABCC
+    // Offset: 0xFFB610
     ::CsObject* GetElementNoThrow(::CsString* name, System::Type*& foundType);
     // public System.Object GetValue(System.String name, System.Type type)
-    // Offset: 0xFE8250
+    // Offset: 0xFF8C94
     ::CsObject* GetValue(::CsString* name, System::Type* type);
     // System.Object GetValueNoThrow(System.String name, System.Type type)
-    // Offset: 0xFE8130
+    // Offset: 0xFF8B74
     ::CsObject* GetValueNoThrow(::CsString* name, System::Type* type);
     // public System.Boolean GetBoolean(System.String name)
-    // Offset: 0xFEAC74
+    // Offset: 0xFFB6B8
     bool GetBoolean(::CsString* name);
     // public System.Int32 GetInt32(System.String name)
-    // Offset: 0xFEADE8
+    // Offset: 0xFFB82C
     int GetInt32(::CsString* name);
     // public System.Int64 GetInt64(System.String name)
-    // Offset: 0xFEAF50
+    // Offset: 0xFFB994
     int64_t GetInt64(::CsString* name);
     // public System.Single GetSingle(System.String name)
-    // Offset: 0xFEB0B8
+    // Offset: 0xFFBAFC
     float GetSingle(::CsString* name);
     // public System.String GetString(System.String name)
-    // Offset: 0xFEB220
+    // Offset: 0xFFBC64
     ::CsString* GetString(::CsString* name);
   }; // System.Runtime.Serialization.SerializationInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationInfo*, "System.Runtime.Serialization", "SerializationInfo");
 #pragma pack(pop)

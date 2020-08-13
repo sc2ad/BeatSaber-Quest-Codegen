@@ -38,9 +38,9 @@ namespace TMPro {
     static GlyphValueRecord_Legacy* New_ctor(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.GlyphValueRecord_Legacy
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
-  // Offset: 0xB64F88
+  // Offset: 0xB62F88
   TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");
 #pragma pack(pop)

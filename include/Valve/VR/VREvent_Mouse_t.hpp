@@ -25,6 +25,6 @@ namespace Valve::VR {
     VREvent_Mouse_t(float x_ = {}, float y_ = {}, uint button_ = {}) : x{x_}, y{y_}, button{button_} {}
   }; // Valve.VR.VREvent_Mouse_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Mouse_t, "Valve.VR", "VREvent_Mouse_t");
 #pragma pack(pop)

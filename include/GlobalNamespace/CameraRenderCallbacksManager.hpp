@@ -45,31 +45,31 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Camera* camera;
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x180F410
+    // Offset: 0x181FE54
     static void NoDomainReloadInit();
     // static public System.Void RegisterForCameraCallbacks(UnityEngine.Camera camera, CameraRenderCallbacksManager/ICameraRenderCallbacks observer)
-    // Offset: 0x180F4A0
+    // Offset: 0x181FEE4
     static void RegisterForCameraCallbacks(UnityEngine::Camera* camera, GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks* observer);
     // static public System.Void UnregisterFromCameraCallbacks(CameraRenderCallbacksManager/ICameraRenderCallbacks observer)
-    // Offset: 0x180F698
+    // Offset: 0x18200DC
     static void UnregisterFromCameraCallbacks(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks* observer);
     // private System.Void RegisterForCameraCallbacks(CameraRenderCallbacksManager/ICameraRenderCallbacks observer)
-    // Offset: 0x180F630
+    // Offset: 0x1820074
     void RegisterForCameraCallbacks(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks* observer);
     // private System.Void UnregisterFromCameraCallbacksInternal(CameraRenderCallbacksManager/ICameraRenderCallbacks observer)
-    // Offset: 0x180F958
+    // Offset: 0x182039C
     void UnregisterFromCameraCallbacksInternal(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks* observer);
     // protected System.Void Awake()
-    // Offset: 0x180FA0C
+    // Offset: 0x1820450
     void Awake();
     // private System.Void OnPreRender()
-    // Offset: 0x180FA8C
+    // Offset: 0x18204D0
     void OnPreRender();
     // private System.Void OnPostRender()
-    // Offset: 0x180FC00
+    // Offset: 0x1820644
     void OnPostRender();
     // public System.Void .ctor()
-    // Offset: 0x180FD70
+    // Offset: 0x18207B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -78,12 +78,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CameraRenderCallbacksManager* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x180FDEC
+    // Offset: 0x1820830
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // CameraRenderCallbacksManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraRenderCallbacksManager*, "", "CameraRenderCallbacksManager");
 #pragma pack(pop)

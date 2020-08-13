@@ -21,13 +21,13 @@ namespace UnityEngine {
   class RenderSettings : public UnityEngine::Object {
     public:
     // static public System.Void set_ambientLight(UnityEngine.Color value)
-    // Offset: 0x1409AF8
+    // Offset: 0x141A53C
     static void set_ambientLight(UnityEngine::Color value);
     // static private System.Void set_ambientLight_Injected(UnityEngine.Color value)
-    // Offset: 0x1409B48
+    // Offset: 0x141A58C
     static void set_ambientLight_Injected(UnityEngine::Color& value);
   }; // UnityEngine.RenderSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderSettings*, "UnityEngine", "RenderSettings");
 #pragma pack(pop)

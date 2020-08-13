@@ -87,54 +87,54 @@ namespace GlobalNamespace {
     // Offset: 0xB9
     bool enableClear;
     // public LocalLeaderboardsModel get_leaderboardsModel()
-    // Offset: 0xBE64A0
+    // Offset: 0xBF7EE4
     GlobalNamespace::LocalLeaderboardsModel* get_leaderboardsModel();
     // public System.Void Setup(System.Boolean enableClear)
-    // Offset: 0xBE64A8
+    // Offset: 0xBF7EEC
     void Setup(bool enableClear);
     // private System.Void RefreshScopeSegmentedControl()
-    // Offset: 0xBE6754
+    // Offset: 0xBF8198
     void RefreshScopeSegmentedControl();
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0xBE6BD8
+    // Offset: 0xBF861C
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void ClearLeaderboards()
-    // Offset: 0xBE6D58
+    // Offset: 0xBF879C
     void ClearLeaderboards();
     // private System.Void SetContent(System.String leaderboardID, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0xBE6EF0
+    // Offset: 0xBF8934
     void SetContent(::CsString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Void HandleNewScoreWasAddedToLeaderboard(System.String leaderboardID, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0xBE702C
+    // Offset: 0xBF8A70
     void HandleNewScoreWasAddedToLeaderboard(::CsString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Void Refresh()
-    // Offset: 0xBE6510
+    // Offset: 0xBF7F54
     void Refresh();
     // private System.Void <DidActivate>b__18_0()
-    // Offset: 0xBE7108
+    // Offset: 0xBF8B4C
     void $DidActivate$b__18_0();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0xBE64B4
+    // Offset: 0xBF7EF8
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBE65A4
+    // Offset: 0xBF7FE8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xBE69A4
+    // Offset: 0xBF83E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // protected override System.Void OnDestroy()
-    // Offset: 0xBE6B3C
+    // Offset: 0xBF8580
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xBE70F4
+    // Offset: 0xBF8B38
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -145,12 +145,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalLeaderboardViewController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xBE7104
+    // Offset: 0xBF8B48
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LocalLeaderboardViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardViewController*, "", "LocalLeaderboardViewController");
 #pragma pack(pop)

@@ -46,34 +46,34 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Color color;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xC09CCC
+    // Offset: 0xC1B710
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xC09D70
+    // Offset: 0xC1B7B4
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xC09E14
+    // Offset: 0xC1B858
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xC09E20
+    // Offset: 0xC1B864
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0xC0A020
+    // Offset: 0xC1BA64
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC0A124
+    // Offset: 0xC1BB68
     void OnDestroy();
     // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xC0A2F8
+    // Offset: 0xC1BD3C
     void HandleSliderColorDidChange(HMUI::ColorGradientSlider* slider, UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0xC09FC8
+    // Offset: 0xC1BA0C
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0xC09E4C
+    // Offset: 0xC1B890
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0xC0A39C
+    // Offset: 0xC1BDE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -83,6 +83,6 @@ namespace GlobalNamespace {
     static RGBPanelController* New_ctor();
   }; // RGBPanelController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RGBPanelController*, "", "RGBPanelController");
 #pragma pack(pop)

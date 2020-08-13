@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BeatmapEventType
 #include "GlobalNamespace/BeatmapEventType.hpp"
 // Completed includes
@@ -34,25 +32,25 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapEventType kBPMChangeEvent
     static void _set_kBPMChangeEvent(GlobalNamespace::BeatmapEventType value);
     // static public System.Boolean IsBPMChangeEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x1979790
+    // Offset: 0xB91A8C
     static bool IsBPMChangeEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x1972254
+    // Offset: 0xB8A550
     static bool IsRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x197ADF8
+    // Offset: 0xB930F4
     static bool IsEarlyRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsLateRotationEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x197AE04
+    // Offset: 0xB93100
     static bool IsLateRotationEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsEarlyEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x19753FC
+    // Offset: 0xB8D6F8
     static bool IsEarlyEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
     // static public System.Boolean IsSpawnAffectingEvent(BeatmapEventType beatmapEventType)
-    // Offset: 0x197AE10
+    // Offset: 0xB9310C
     static bool IsSpawnAffectingEvent(GlobalNamespace::BeatmapEventType beatmapEventType);
   }; // BeatmapEventTypeExtensions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventTypeExtensions*, "", "BeatmapEventTypeExtensions");
 #pragma pack(pop)

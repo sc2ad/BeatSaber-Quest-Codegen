@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
 // Completed includes
@@ -26,10 +27,10 @@ namespace System::ComponentModel {
     // Offset: 0x18
     System::Type* type;
     // public System.Void .ctor(System.Type type)
-    // Offset: 0xF46614
+    // Offset: 0xF58058
     static EnumConverter* New_ctor(System::Type* type);
   }; // System.ComponentModel.EnumConverter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EnumConverter*, "System.ComponentModel", "EnumConverter");
 #pragma pack(pop)

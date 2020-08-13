@@ -64,25 +64,25 @@ namespace GlobalNamespace {
     // Offset: 0x30
     int continousRumbleIntervalCounter;
     // protected System.Void Awake()
-    // Offset: 0xCA13A0
+    // Offset: 0xCB3DE4
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0xCA1480
+    // Offset: 0xCB3EC4
     void LateUpdate();
     // public System.Void ContinuousRumble(UnityEngine.XR.XRNode node)
-    // Offset: 0xCA160C
+    // Offset: 0xCB4050
     void ContinuousRumble(UnityEngine::XR::XRNode node);
     // public System.Void HitNote(UnityEngine.XR.XRNode node)
-    // Offset: 0xCA16A8
+    // Offset: 0xCB40EC
     void HitNote(UnityEngine::XR::XRNode node);
     // private System.Void Rumble(UnityEngine.XR.XRNode node, System.Single duration, System.Single impulseStrength, System.Single intervalDuration)
-    // Offset: 0xCA16BC
+    // Offset: 0xCB4100
     void Rumble(UnityEngine::XR::XRNode node, float duration, float impulseStrength, float intervalDuration);
     // private System.Collections.IEnumerator OneShotRumbleCoroutine(UnityEngine.XR.XRNode node, System.Single duration, System.Single impulseStrength, System.Single intervalDuration)
-    // Offset: 0xCA1774
+    // Offset: 0xCB41B8
     System::Collections::IEnumerator* OneShotRumbleCoroutine(UnityEngine::XR::XRNode node, float duration, float impulseStrength, float intervalDuration);
     // public System.Void .ctor()
-    // Offset: 0xCA1850
+    // Offset: 0xCB4294
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -92,6 +92,6 @@ namespace GlobalNamespace {
     static HapticFeedbackController* New_ctor();
   }; // HapticFeedbackController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController*, "", "HapticFeedbackController");
 #pragma pack(pop)

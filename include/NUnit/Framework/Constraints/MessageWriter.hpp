@@ -31,7 +31,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     int get_MaxLineLength();
     // public System.Void WriteMessageLine(System.String message, System.Object[] args)
-    // Offset: 0x1062188
+    // Offset: 0x1071BCC
     void WriteMessageLine(::CsString* message, ::Array<::CsObject*>* args);
     // public System.Void WriteMessageLine(System.Int32 level, System.String message, System.Object[] args)
     // Offset: 0xFFFFFFFF
@@ -58,7 +58,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     void WriteCollectionElements(System::Collections::IEnumerable* collection, int64_t start, int max);
     // protected System.Void .ctor()
-    // Offset: 0x1063258
+    // Offset: 0x1072C9C
     // Implemented from: System.IO.StringWriter
     // Base method: System.Void StringWriter::.ctor()
     // Base method: System.Void TextWriter::.ctor()
@@ -67,6 +67,6 @@ namespace NUnit::Framework::Constraints {
     static MessageWriter* New_ctor();
   }; // NUnit.Framework.Constraints.MessageWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MessageWriter*, "NUnit.Framework.Constraints", "MessageWriter");
 #pragma pack(pop)

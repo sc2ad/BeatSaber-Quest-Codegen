@@ -23,26 +23,26 @@ namespace System::Security::Cryptography {
   class CryptographicException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xDD42E0
+    // Offset: 0xDE6D24
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static CryptographicException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xDD4354
+    // Offset: 0xDE6D98
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static CryptographicException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDD4388
+    // Offset: 0xDE6DCC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static CryptographicException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Security.Cryptography.CryptographicException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptographicException*, "System.Security.Cryptography", "CryptographicException");
 #pragma pack(pop)

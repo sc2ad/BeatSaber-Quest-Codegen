@@ -27,16 +27,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     TMPro::TextMeshProUGUI* conditionText;
     // public System.Void set_title(System.String value)
-    // Offset: 0xC1E098
+    // Offset: 0xC2FADC
     void set_title(::CsString* value);
     // public System.Void set_conditionText(System.String value)
-    // Offset: 0xC1E0B4
+    // Offset: 0xC2FAF8
     void set_conditionText(::CsString* value);
     // public System.Void set_hideCondition(System.Boolean value)
-    // Offset: 0xC1E0D0
+    // Offset: 0xC2FB14
     void set_hideCondition(bool value);
     // public System.Void .ctor()
-    // Offset: 0xC1E110
+    // Offset: 0xC2FB54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -46,6 +46,6 @@ namespace GlobalNamespace {
     static ObjectiveListItem* New_ctor();
   }; // ObjectiveListItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveListItem*, "", "ObjectiveListItem");
 #pragma pack(pop)

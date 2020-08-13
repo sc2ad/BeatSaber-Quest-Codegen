@@ -39,49 +39,49 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     RootMotion::FinalIK::IKSolverFullBodyBiped* solver;
     // private System.Void OpenSetupTutorial()
-    // Offset: 0x1357BC0
+    // Offset: 0x136A604
     void OpenSetupTutorial();
     // private System.Void OpenInspectorTutorial()
-    // Offset: 0x1357C0C
+    // Offset: 0x136A650
     void OpenInspectorTutorial();
     // private System.Void SupportGroup()
-    // Offset: 0x1357C58
+    // Offset: 0x136A69C
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1357CA4
+    // Offset: 0x136A6E8
     void ASThread();
     // public System.Void SetReferences(RootMotion.BipedReferences references, UnityEngine.Transform rootNode)
-    // Offset: 0x1357CF0
+    // Offset: 0x136A734
     void SetReferences(RootMotion::BipedReferences* references, UnityEngine::Transform* rootNode);
     // public System.Boolean ReferencesError(System.String errorMessage)
-    // Offset: 0x1357D3C
+    // Offset: 0x136A780
     bool ReferencesError(::CsString*& errorMessage);
     // public System.Boolean ReferencesWarning(System.String warningMessage)
-    // Offset: 0x1357F04
+    // Offset: 0x136A948
     bool ReferencesWarning(::CsString*& warningMessage);
     // private System.Void Reinitiate()
-    // Offset: 0x1358264
+    // Offset: 0x136ACA8
     void Reinitiate();
     // private System.Void AutoDetectReferences()
-    // Offset: 0x1358284
+    // Offset: 0x136ACC8
     void AutoDetectReferences();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x1357B28
+    // Offset: 0x136A56C
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x1357B74
+    // Offset: 0x136A5B8
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenScriptReference()
     void OpenScriptReference();
     // public override RootMotion.FinalIK.IKSolver GetIKSolver()
-    // Offset: 0x1357D34
+    // Offset: 0x136A778
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: RootMotion.FinalIK.IKSolver IK::GetIKSolver()
     RootMotion::FinalIK::IKSolver* GetIKSolver();
     // public System.Void .ctor()
-    // Offset: 0x1358378
+    // Offset: 0x136ADBC
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -93,6 +93,6 @@ namespace RootMotion::FinalIK {
     static FullBodyBipedIK* New_ctor();
   }; // RootMotion.FinalIK.FullBodyBipedIK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedIK*, "RootMotion.FinalIK", "FullBodyBipedIK");
 #pragma pack(pop)

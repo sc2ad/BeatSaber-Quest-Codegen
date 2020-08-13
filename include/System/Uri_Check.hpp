@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: System.Uri
 #include "System/Uri.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -76,6 +76,6 @@ namespace System {
     Check(int value_ = {}) : value{value_} {}
   }; // System.Uri/Check
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::Check, "System", "Uri/Check");
 #pragma pack(pop)

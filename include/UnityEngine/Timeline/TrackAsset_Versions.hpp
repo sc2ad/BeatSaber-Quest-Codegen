@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.Timeline.TrackAsset
 #include "UnityEngine/Timeline/TrackAsset.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
@@ -46,6 +46,6 @@ namespace UnityEngine::Timeline {
     Versions(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Timeline.TrackAsset/Versions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::Versions, "UnityEngine.Timeline", "TrackAsset/Versions");
 #pragma pack(pop)

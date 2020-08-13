@@ -47,78 +47,78 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x34
     int maxLineLength;
     // public System.Void .ctor(System.String userMessage, System.Object[] args)
-    // Offset: 0x18DF23C
+    // Offset: 0x18EFC80
     static TextMessageWriter* New_ctor(::CsString* userMessage, ::Array<::CsObject*>* args);
     // private System.Void WriteExpectedLine(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0x18DF450
+    // Offset: 0x18EFE94
     void WriteExpectedLine(NUnit::Framework::Constraints::ConstraintResult* result);
     // private System.Void WriteExpectedLine(System.Object expected)
-    // Offset: 0x18DF5EC
+    // Offset: 0x18F0030
     void WriteExpectedLine(::CsObject* expected);
     // private System.Void WriteExpectedLine(System.Object expected, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x18DF6D8
+    // Offset: 0x18F011C
     void WriteExpectedLine(::CsObject* expected, NUnit::Framework::Constraints::Tolerance* tolerance);
     // private System.Void WriteActualLine(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0x18DF504
+    // Offset: 0x18EFF48
     void WriteActualLine(NUnit::Framework::Constraints::ConstraintResult* result);
     // private System.Void WriteActualLine(System.Object actual)
-    // Offset: 0x18DF5F4
+    // Offset: 0x18F0038
     void WriteActualLine(::CsObject* actual);
     // private System.Void WriteCaretLine(System.Int32 mismatch)
-    // Offset: 0x18DFAD0
+    // Offset: 0x18F0514
     void WriteCaretLine(int mismatch);
     // public override System.Int32 get_MaxLineLength()
-    // Offset: 0x18DF310
+    // Offset: 0x18EFD54
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Int32 MessageWriter::get_MaxLineLength()
     int get_MaxLineLength();
     // public override System.Void WriteMessageLine(System.Int32 level, System.String message, System.Object[] args)
-    // Offset: 0x18DF318
+    // Offset: 0x18EFD5C
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteMessageLine(System.Int32 level, System.String message, System.Object[] args)
     void WriteMessageLine(int level, ::CsString* message, ::Array<::CsObject*>* args);
     // public override System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0x18DF424
+    // Offset: 0x18EFE68
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     void DisplayDifferences(NUnit::Framework::Constraints::ConstraintResult* result);
     // public override System.Void DisplayDifferences(System.Object expected, System.Object actual)
-    // Offset: 0x18DF5BC
+    // Offset: 0x18F0000
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(System.Object expected, System.Object actual)
     void DisplayDifferences(::CsObject* expected, ::CsObject* actual);
     // public override System.Void DisplayDifferences(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x18DF6A8
+    // Offset: 0x18F00EC
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
     void DisplayDifferences(::CsObject* expected, ::CsObject* actual, NUnit::Framework::Constraints::Tolerance* tolerance);
     // public override System.Void DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
-    // Offset: 0x18DF8AC
+    // Offset: 0x18F02F0
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
     void DisplayStringDifferences(::CsString* expected, ::CsString* actual, int mismatch, bool ignoreCase, bool clipping);
     // public override System.Void WriteActualValue(System.Object actual)
-    // Offset: 0x18DFB80
+    // Offset: 0x18F05C4
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteActualValue(System.Object actual)
     void WriteActualValue(::CsObject* actual);
     // public override System.Void WriteValue(System.Object val)
-    // Offset: 0x18DFB90
+    // Offset: 0x18F05D4
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteValue(System.Object val)
     void WriteValue(::CsObject* val);
     // public override System.Void WriteCollectionElements(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
-    // Offset: 0x18DFC1C
+    // Offset: 0x18F0660
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteCollectionElements(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
     void WriteCollectionElements(System::Collections::IEnumerable* collection, int64_t start, int max);
     // static private System.Void .cctor()
-    // Offset: 0x18DFCC0
+    // Offset: 0x18F0704
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.cctor()
     static void _cctor();
   }; // NUnit.Framework.Internal.TextMessageWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TextMessageWriter*, "NUnit.Framework.Internal", "TextMessageWriter");
 #pragma pack(pop)

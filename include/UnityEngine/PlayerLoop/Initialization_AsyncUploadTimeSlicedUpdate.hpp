@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.PlayerLoop.Initialization
 #include "UnityEngine/PlayerLoop/Initialization.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
@@ -17,6 +17,6 @@ namespace UnityEngine::PlayerLoop {
     AsyncUploadTimeSlicedUpdate() {}
   }; // UnityEngine.PlayerLoop.Initialization/AsyncUploadTimeSlicedUpdate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::Initialization::AsyncUploadTimeSlicedUpdate, "UnityEngine.PlayerLoop", "Initialization/AsyncUploadTimeSlicedUpdate");
 #pragma pack(pop)

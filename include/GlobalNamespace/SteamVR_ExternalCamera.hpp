@@ -142,34 +142,34 @@ namespace GlobalNamespace {
     // Offset: 0xB8
     float sceneResolutionScale;
     // public System.Void ReadConfig()
-    // Offset: 0xD6C4CC
+    // Offset: 0xD7FF10
     void ReadConfig();
     // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
-    // Offset: 0xD6CDF0
+    // Offset: 0xD80834
     void OnChanged(::CsObject* source, System::IO::FileSystemEventArgs* e);
     // public System.Void AttachToCamera(SteamVR_Camera vrcam)
-    // Offset: 0xD6CDF4
+    // Offset: 0xD80838
     void AttachToCamera(GlobalNamespace::SteamVR_Camera* vrcam);
     // public System.Single GetTargetDistance()
-    // Offset: 0xD6D3FC
+    // Offset: 0xD80E40
     float GetTargetDistance();
     // public System.Void RenderNear()
-    // Offset: 0xD6D6A8
+    // Offset: 0xD810EC
     void RenderNear();
     // public System.Void RenderFar()
-    // Offset: 0xD6DE00
+    // Offset: 0xD81844
     void RenderFar();
     // private System.Void OnGUI()
-    // Offset: 0xD6DF20
+    // Offset: 0xD81964
     void OnGUI();
     // private System.Void OnEnable()
-    // Offset: 0xD6DF24
+    // Offset: 0xD81968
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD6E1A0
+    // Offset: 0xD81BE4
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xD6E30C
+    // Offset: 0xD81D50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -179,7 +179,7 @@ namespace GlobalNamespace {
     static SteamVR_ExternalCamera* New_ctor();
   }; // SteamVR_ExternalCamera
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera*, "", "SteamVR_ExternalCamera");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera::Config, "", "SteamVR_ExternalCamera/Config");
 #pragma pack(pop)

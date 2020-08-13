@@ -67,13 +67,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Transform* transform;
     // protected System.Void Awake()
-    // Offset: 0xC97EEC
+    // Offset: 0xCAA930
     void Awake();
     // private System.Void OnWillRenderObject()
-    // Offset: 0xC97F1C
+    // Offset: 0xCAA960
     void OnWillRenderObject();
     // public System.Void .ctor()
-    // Offset: 0xC9806C
+    // Offset: 0xCAAAB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     static Billboard* New_ctor();
   }; // Billboard
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard*, "", "Billboard");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard::RotationMode, "", "Billboard/RotationMode");
 #pragma pack(pop)

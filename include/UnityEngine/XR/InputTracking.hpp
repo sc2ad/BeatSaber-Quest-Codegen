@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.XR.XRNodeState
 #include "UnityEngine/XR/XRNodeState.hpp"
 // Completed includes
@@ -52,22 +50,22 @@ namespace UnityEngine::XR {
     // Set static field: static private System.Action`1<UnityEngine.XR.XRNodeState> nodeRemoved
     static void _set_nodeRemoved(System::Action_1<UnityEngine::XR::XRNodeState>* value);
     // static private System.Void InvokeTrackingEvent(UnityEngine.XR.InputTracking/TrackingStateEventType eventType, UnityEngine.XR.XRNode nodeType, System.Int64 uniqueID, System.Boolean tracked)
-    // Offset: 0x194B7E0
+    // Offset: 0x195E224
     static void InvokeTrackingEvent(UnityEngine::XR::InputTracking::TrackingStateEventType eventType, UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
     // static public System.Void Recenter()
-    // Offset: 0x194BA00
+    // Offset: 0x195E444
     static void Recenter();
     // static public System.Void GetNodeStates(System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> nodeStates)
-    // Offset: 0x194BA34
+    // Offset: 0x195E478
     static void GetNodeStates(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates);
     // static private System.Void GetNodeStates_Internal(System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> nodeStates)
-    // Offset: 0x194BB0C
+    // Offset: 0x195E550
     static void GetNodeStates_Internal(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates);
     // static private System.Void .cctor()
-    // Offset: 0x194BB4C
+    // Offset: 0x195E590
     static void _cctor();
   }; // UnityEngine.XR.InputTracking
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputTracking*, "UnityEngine.XR", "InputTracking");
 #pragma pack(pop)

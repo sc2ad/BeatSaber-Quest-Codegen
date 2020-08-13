@@ -17,12 +17,12 @@ namespace HMUI {
     // Offset: 0x160
     ::CsString* formatString;
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0xEC3130
+    // Offset: 0xED5B74
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::CsString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0xEC31A8
+    // Offset: 0xED5BEC
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -36,6 +36,6 @@ namespace HMUI {
     static CustomFormatRangeValuesSlider* New_ctor();
   }; // HMUI.CustomFormatRangeValuesSlider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CustomFormatRangeValuesSlider*, "HMUI", "CustomFormatRangeValuesSlider");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryHeaderEnum.hpp"
 // Completed includes
@@ -43,27 +41,27 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x30
     int assemId;
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0xE10400
+    // Offset: 0xE22E44
     static BinaryObjectWithMap* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // System.Void Set(System.Int32 objectId, System.String name, System.Int32 numMembers, System.String[] memberNames, System.Int32 assemId)
-    // Offset: 0xE1042C
+    // Offset: 0xE22E70
     void Set(int objectId, ::CsString* name, int numMembers, ::Array<::CsString*>* memberNames, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE10494
+    // Offset: 0xE22ED8
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xE1057C
+    // Offset: 0xE22FC0
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xE106EC
+    // Offset: 0xE23130
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xE103F8
+    // Offset: 0xE22E3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryObjectWithMap* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectWithMap");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: SaberMovementData
 #include "GlobalNamespace/SaberMovementData.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
@@ -36,6 +36,6 @@ namespace GlobalNamespace {
     Data(float time_ = {}, float segmentAngle_ = {}, UnityEngine::Vector3 topPos_ = {}, UnityEngine::Vector3 bottomPos_ = {}, UnityEngine::Vector3 segmentNormal_ = {}) : time{time_}, segmentAngle{segmentAngle_}, topPos{topPos_}, bottomPos{bottomPos_}, segmentNormal{segmentNormal_} {}
   }; // SaberMovementData/Data
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberMovementData::Data, "", "SaberMovementData/Data");
 #pragma pack(pop)

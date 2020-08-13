@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: VRPlatformHelper
 #include "GlobalNamespace/VRPlatformHelper.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
@@ -32,6 +32,6 @@ namespace GlobalNamespace {
     VRNodeTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}, bool valid_ = {}) : pos{pos_}, rot{rot_}, valid{valid_} {}
   }; // VRPlatformHelper/VRNodeTransform
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRPlatformHelper::VRNodeTransform, "", "VRPlatformHelper/VRNodeTransform");
 #pragma pack(pop)

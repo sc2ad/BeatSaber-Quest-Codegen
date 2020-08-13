@@ -81,27 +81,27 @@ namespace GlobalNamespace {
     // Offset: 0x64
     float maxDistance;
     // protected System.Void Awake()
-    // Offset: 0xBD2AB0
+    // Offset: 0xBE54F4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xBD2C28
+    // Offset: 0xBE566C
     void OnDestroy();
     // private System.Void HandleNoteMovementDidInit()
-    // Offset: 0xBD2FB4
+    // Offset: 0xBE59F8
     void HandleNoteMovementDidInit();
     // private System.Void HandleColorNoteVisualsDidInitEvent(ColorNoteVisuals colorNoteVisuals, NoteController noteController)
-    // Offset: 0xBD30C4
+    // Offset: 0xBE5B08
     void HandleColorNoteVisualsDidInitEvent(GlobalNamespace::ColorNoteVisuals* colorNoteVisuals, GlobalNamespace::NoteController* noteController);
     // private System.Void SetArrowTransparency(System.Single arrowTransparency)
-    // Offset: 0xBD2E1C
+    // Offset: 0xBE5860
     void SetArrowTransparency(float arrowTransparency);
     // public System.Void ManualUpdate()
-    // Offset: 0xBD2D78
+    // Offset: 0xBE57BC
     // Implemented from: IManualUpdate
     // Base method: System.Void IManualUpdate::ManualUpdate()
     void ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0xBD3234
+    // Offset: 0xBE5C78
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -111,6 +111,6 @@ namespace GlobalNamespace {
     static DisappearingArrowController* New_ctor();
   }; // DisappearingArrowController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisappearingArrowController*, "", "DisappearingArrowController");
 #pragma pack(pop)

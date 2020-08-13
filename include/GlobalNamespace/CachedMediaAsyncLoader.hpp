@@ -64,20 +64,20 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::AsyncCachedLoader_2<::CsString*, UnityEngine::Texture2D*>* texture2DCachedAsyncLoader;
     // public System.Void ClearCache()
-    // Offset: 0x1937850
+    // Offset: 0x194C294
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x19378C8
+    // Offset: 0x194C30C
     // Implemented from: IAudioClipAsyncLoader
     // Base method: System.Threading.Tasks.Task`1<UnityEngine.AudioClip> IAudioClipAsyncLoader::LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::CsString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadImageAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1937A2C
+    // Offset: 0x194C470
     // Implemented from: IImageAsyncLoader
     // Base method: System.Threading.Tasks.Task`1<UnityEngine.Texture2D> IImageAsyncLoader::LoadImageAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadImageAsync(::CsString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1937B90
+    // Offset: 0x194C5D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -87,6 +87,6 @@ namespace GlobalNamespace {
     static CachedMediaAsyncLoader* New_ctor();
   }; // CachedMediaAsyncLoader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CachedMediaAsyncLoader*, "", "CachedMediaAsyncLoader");
 #pragma pack(pop)

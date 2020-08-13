@@ -14,7 +14,7 @@ namespace Zenject {
   class InjectLocalAttribute : public Zenject::InjectAttributeBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1945AF8
+    // Offset: 0x195853C
     // Implemented from: Zenject.InjectAttributeBase
     // Base method: System.Void InjectAttributeBase::.ctor()
     // Base method: System.Void PreserveAttribute::.ctor()
@@ -23,6 +23,6 @@ namespace Zenject {
     static InjectLocalAttribute* New_ctor();
   }; // Zenject.InjectLocalAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectLocalAttribute*, "Zenject", "InjectLocalAttribute");
 #pragma pack(pop)

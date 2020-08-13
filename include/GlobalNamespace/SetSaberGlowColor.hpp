@@ -52,22 +52,22 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::SaberType saberType;
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0xC18660
+    // Offset: 0xC2A0A4
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0xC187E8
+    // Offset: 0xC2A22C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC188C4
+    // Offset: 0xC2A308
     void OnDestroy();
     // private System.Void HandleColorManagerColorsDidChange()
-    // Offset: 0xC18998
+    // Offset: 0xC2A3DC
     void HandleColorManagerColorsDidChange();
     // private System.Void SetColors()
-    // Offset: 0xC18694
+    // Offset: 0xC2A0D8
     void SetColors();
     // public System.Void .ctor()
-    // Offset: 0xC1899C
+    // Offset: 0xC2A3E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -77,6 +77,6 @@ namespace GlobalNamespace {
     static SetSaberGlowColor* New_ctor();
   }; // SetSaberGlowColor
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberGlowColor*, "", "SetSaberGlowColor");
 #pragma pack(pop)

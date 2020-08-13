@@ -36,6 +36,6 @@ namespace UnityEngine {
     SkeletonBone(::CsString* name_ = {}, ::CsString* parentName_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 scale_ = {}) : name{name_}, parentName{parentName_}, position{position_}, rotation{rotation_}, scale{scale_} {}
   }; // UnityEngine.SkeletonBone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");
 #pragma pack(pop)

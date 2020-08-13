@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class SteamInit : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void Init()
-    // Offset: 0xB90908
+    // Offset: 0xBA234C
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xB9090C
+    // Offset: 0xBA2350
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -27,6 +27,6 @@ namespace GlobalNamespace {
     static SteamInit* New_ctor();
   }; // SteamInit
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamInit*, "", "SteamInit");
 #pragma pack(pop)

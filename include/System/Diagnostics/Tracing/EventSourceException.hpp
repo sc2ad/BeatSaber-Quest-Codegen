@@ -23,26 +23,26 @@ namespace System::Diagnostics::Tracing {
   class EventSourceException : public System::Exception {
     public:
     // System.Void .ctor(System.Exception innerException)
-    // Offset: 0xD7F488
+    // Offset: 0xD92ECC
     static EventSourceException* New_ctor(System::Exception* innerException);
     // public System.Void .ctor()
-    // Offset: 0xD7EE84
+    // Offset: 0xD928C8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static EventSourceException* New_ctor();
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0xD7EF38
+    // Offset: 0xD9297C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static EventSourceException* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD7F00C
+    // Offset: 0xD92A50
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static EventSourceException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Diagnostics.Tracing.EventSourceException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSourceException*, "System.Diagnostics.Tracing", "EventSourceException");
 #pragma pack(pop)

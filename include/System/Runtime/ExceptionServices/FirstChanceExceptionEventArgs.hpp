@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.EventArgs
 #include "System/EventArgs.hpp"
 // Completed includes
@@ -13,6 +14,6 @@ namespace System::Runtime::ExceptionServices {
   class FirstChanceExceptionEventArgs : public System::EventArgs {
   }; // System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*, "System.Runtime.ExceptionServices", "FirstChanceExceptionEventArgs");
 #pragma pack(pop)

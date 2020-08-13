@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: AnnotatedBeatmapLevelCollectionTableCell
 #include "GlobalNamespace/AnnotatedBeatmapLevelCollectionTableCell.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
@@ -66,17 +64,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $RefreshAvailabilityAsync$d__14
     $RefreshAvailabilityAsync$d__14(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell* $$4__this_ = {}, GlobalNamespace::AdditionalContentModel* contentModel_ = {}, System::Threading::CancellationToken $cancellationToken$5__2_ = {}, int $numberOfOwnedLevels$5__3_ = {}, bool $error$5__4_ = {}, ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* $$7__wrap4_ = {}, int $$7__wrap5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, contentModel{contentModel_}, $cancellationToken$5__2{$cancellationToken$5__2_}, $numberOfOwnedLevels$5__3{$numberOfOwnedLevels$5__3_}, $error$5__4{$error$5__4_}, $$7__wrap4{$$7__wrap4_}, $$7__wrap5{$$7__wrap5_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xADA61C
+    // Offset: 0xA272B8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xADA624
+    // Offset: 0xA272C0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AnnotatedBeatmapLevelCollectionTableCell/<RefreshAvailabilityAsync>d__14
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell::$RefreshAvailabilityAsync$d__14, "", "AnnotatedBeatmapLevelCollectionTableCell/<RefreshAvailabilityAsync>d__14");
 #pragma pack(pop)

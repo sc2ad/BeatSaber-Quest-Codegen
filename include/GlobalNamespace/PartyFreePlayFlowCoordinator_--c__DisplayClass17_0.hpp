@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PartyFreePlayFlowCoordinator
 #include "GlobalNamespace/PartyFreePlayFlowCoordinator.hpp"
 // Completed includes
@@ -42,15 +40,15 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool practice;
     // System.Void <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0(EnterPlayerGuestNameViewController viewController, System.String playerName)
-    // Offset: 0xBBE0C4
+    // Offset: 0xBD0B08
     void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::CsString* playerName);
     // public System.Void .ctor()
-    // Offset: 0xBBDD0C
+    // Offset: 0xBD0750
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PartyFreePlayFlowCoordinator::$$c__DisplayClass17_0* New_ctor();
   }; // PartyFreePlayFlowCoordinator/<>c__DisplayClass17_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass17_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass17_0");
 #pragma pack(pop)

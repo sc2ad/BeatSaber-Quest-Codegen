@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.UVEditing
 #include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
 // Including type: UnityEngine.Vector4
@@ -82,36 +80,36 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__20_0
     static void _set_$$9__20_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10144C8
+    // Offset: 0x1023F0C
     static void _cctor();
     // System.Boolean <SetAutoUV>b__0_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1014538
+    // Offset: 0x1023F7C
     bool $SetAutoUV$b__0_0(UnityEngine::ProBuilder::Face* x);
     // UnityEngine.Vector2 <GetUVs>b__11_0(UnityEngine.Vector4 x)
-    // Offset: 0x1014550
+    // Offset: 0x1023F94
     UnityEngine::Vector2 $GetUVs$b__11_0(UnityEngine::Vector4 x);
     // System.Int32 <SewUVs>b__13_1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x10145E0
+    // Offset: 0x1024024
     int $SewUVs$b__13_1(System::Collections::Generic::KeyValuePair_2<int, int> y);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1014624
+    // Offset: 0x1024068
     System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_0(UnityEngine::ProBuilder::Face* x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_1(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1014640
+    // Offset: 0x1024084
     System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_1(UnityEngine::ProBuilder::Face* x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__18_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x101465C
+    // Offset: 0x10240A0
     System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__18_0(UnityEngine::ProBuilder::Face* x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__20_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1014678
+    // Offset: 0x10240BC
     System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__20_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x1014530
+    // Offset: 0x1023F74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UVEditing::$$c* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c");
 #pragma pack(pop)

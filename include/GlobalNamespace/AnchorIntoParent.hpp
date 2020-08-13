@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Vector3 positionOffset;
     // protected System.Void Start()
-    // Offset: 0x196A738
+    // Offset: 0xB82A34
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x196A84C
+    // Offset: 0xB82B48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -40,6 +40,6 @@ namespace GlobalNamespace {
     static AnchorIntoParent* New_ctor();
   }; // AnchorIntoParent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnchorIntoParent*, "", "AnchorIntoParent");
 #pragma pack(pop)

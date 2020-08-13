@@ -108,51 +108,51 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::StandardLevelGameplayManager::GameState gameState;
     // protected System.Void Awake()
-    // Offset: 0xB8ED6C
+    // Offset: 0xBA07B0
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0xB8ED74
+    // Offset: 0xBA07B8
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB8EE1C
+    // Offset: 0xBA0860
     void OnDestroy();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0xB8F05C
+    // Offset: 0xBA0AA0
     void HandleGameEnergyDidReach0();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0xB8F08C
+    // Offset: 0xBA0AD0
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0xB8F0BC
+    // Offset: 0xBA0B00
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0xB8F138
+    // Offset: 0xBA0B7C
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0xB8F150
+    // Offset: 0xBA0B94
     void HandlePauseControllerDidResume();
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0xB8EADC
+    // Offset: 0xBA0520
     // Implemented from: ILevelEndActions
     // Base method: System.Void ILevelEndActions::add_levelFailedEvent(System.Action value)
     void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0xB8EB80
+    // Offset: 0xBA05C4
     // Implemented from: ILevelEndActions
     // Base method: System.Void ILevelEndActions::remove_levelFailedEvent(System.Action value)
     void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0xB8EC24
+    // Offset: 0xBA0668
     // Implemented from: ILevelEndActions
     // Base method: System.Void ILevelEndActions::add_levelFinishedEvent(System.Action value)
     void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0xB8ECC8
+    // Offset: 0xBA070C
     // Implemented from: ILevelEndActions
     // Base method: System.Void ILevelEndActions::remove_levelFinishedEvent(System.Action value)
     void remove_levelFinishedEvent(System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0xB8F168
+    // Offset: 0xBA0BAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -162,7 +162,7 @@ namespace GlobalNamespace {
     static StandardLevelGameplayManager* New_ctor();
   }; // StandardLevelGameplayManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager*, "", "StandardLevelGameplayManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager::GameState, "", "StandardLevelGameplayManager/GameState");
 #pragma pack(pop)

@@ -62,25 +62,25 @@ namespace GlobalNamespace {
     // Offset: 0x48
     UnityEngine::Color graphicsColor;
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0xC09180
+    // Offset: 0xC1ABC4
     void add_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0xC09224
+    // Offset: 0xC1AC68
     void remove_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // protected System.Void Awake()
-    // Offset: 0xC092C8
+    // Offset: 0xC1AD0C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC0938C
+    // Offset: 0xC1ADD0
     void OnDestroy();
     // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0xC093A8
+    // Offset: 0xC1ADEC
     void AddColor(UnityEngine::Color color);
     // private System.Void <Awake>b__9_0()
-    // Offset: 0xC094A4
+    // Offset: 0xC1AEE8
     void $Awake$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0xC09460
+    // Offset: 0xC1AEA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,6 +90,6 @@ namespace GlobalNamespace {
     static PreviousColorPanelController* New_ctor();
   }; // PreviousColorPanelController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviousColorPanelController*, "", "PreviousColorPanelController");
 #pragma pack(pop)

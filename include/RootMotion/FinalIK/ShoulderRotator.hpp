@@ -37,22 +37,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     bool skip;
     // private System.Void Start()
-    // Offset: 0x1222624
+    // Offset: 0x1234068
     void Start();
     // private System.Void RotateShoulders()
-    // Offset: 0x1222718
+    // Offset: 0x123415C
     void RotateShoulders();
     // private System.Void RotateShoulder(RootMotion.FinalIK.FullBodyBipedChain chain, System.Single weight, System.Single offset)
-    // Offset: 0x1222804
+    // Offset: 0x1234248
     void RotateShoulder(RootMotion::FinalIK::FullBodyBipedChain chain, float weight, float offset);
     // private RootMotion.FinalIK.IKMapping/BoneMap GetParentBoneMap(RootMotion.FinalIK.FullBodyBipedChain chain)
-    // Offset: 0x1222C4C
+    // Offset: 0x1234690
     RootMotion::FinalIK::IKMapping::BoneMap* GetParentBoneMap(RootMotion::FinalIK::FullBodyBipedChain chain);
     // private System.Void OnDestroy()
-    // Offset: 0x1222C84
+    // Offset: 0x12346C8
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1222DA0
+    // Offset: 0x12347E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -62,6 +62,6 @@ namespace RootMotion::FinalIK {
     static ShoulderRotator* New_ctor();
   }; // RootMotion.FinalIK.ShoulderRotator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ShoulderRotator*, "RootMotion.FinalIK", "ShoulderRotator");
 #pragma pack(pop)

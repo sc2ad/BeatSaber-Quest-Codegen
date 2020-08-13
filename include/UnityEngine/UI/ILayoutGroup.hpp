@@ -13,6 +13,6 @@ namespace UnityEngine::UI {
   class ILayoutGroup : public UnityEngine::UI::ILayoutController {
   }; // UnityEngine.UI.ILayoutGroup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutGroup*, "UnityEngine.UI", "ILayoutGroup");
 #pragma pack(pop)

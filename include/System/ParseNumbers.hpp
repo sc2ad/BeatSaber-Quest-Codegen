@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -21,31 +19,31 @@ namespace System {
   class ParseNumbers : public ::CsObject {
     public:
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags)
-    // Offset: 0x13498F0
+    // Offset: 0x135C334
     static int StringToInt(::CsString* value, int fromBase, int flags);
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x13498F8
+    // Offset: 0x135C33C
     static int StringToInt(::CsString* value, int fromBase, int flags, int* parsePos);
     // static public System.Int64 StringToLong(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x1349D14
+    // Offset: 0x135C758
     static int64_t StringToLong(::CsString* value, int fromBase, int flags, int* parsePos);
     // static public System.String IntToString(System.Int32 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
-    // Offset: 0x134A15C
+    // Offset: 0x135CBA0
     static ::CsString* IntToString(int value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static private System.Void EndianSwap(System.Byte[] value)
-    // Offset: 0x134A84C
+    // Offset: 0x135D290
     static void EndianSwap(::Array<uint8_t>*& value);
     // static private System.Text.StringBuilder ConvertToBase2(System.Byte[] value)
-    // Offset: 0x134A384
+    // Offset: 0x135CDC8
     static System::Text::StringBuilder* ConvertToBase2(::Array<uint8_t>* value);
     // static private System.Text.StringBuilder ConvertToBase8(System.Byte[] value)
-    // Offset: 0x134A4C0
+    // Offset: 0x135CF04
     static System::Text::StringBuilder* ConvertToBase8(::Array<uint8_t>* value);
     // static private System.Text.StringBuilder ConvertToBase16(System.Byte[] value)
-    // Offset: 0x134A698
+    // Offset: 0x135D0DC
     static System::Text::StringBuilder* ConvertToBase16(::Array<uint8_t>* value);
   }; // System.ParseNumbers
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParseNumbers*, "System", "ParseNumbers");
 #pragma pack(pop)

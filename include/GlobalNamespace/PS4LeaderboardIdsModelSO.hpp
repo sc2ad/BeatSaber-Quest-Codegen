@@ -36,18 +36,18 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Collections::Generic::Dictionary_2<::CsString*, uint>* leaderboardIdToPs4Id;
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
-    // Offset: 0xBBC3B4
+    // Offset: 0xBCEDF8
     System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();
     // public System.Boolean GetPS4LeaderboardId(System.String leaderboardId, System.UInt32 ps4LeaderboardId)
-    // Offset: 0xBBC500
+    // Offset: 0xBCEF44
     bool GetPS4LeaderboardId(::CsString* leaderboardId, uint& ps4LeaderboardId);
     // protected override System.Void OnEnable()
-    // Offset: 0xBBC3BC
+    // Offset: 0xBCEE00
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xBBC574
+    // Offset: 0xBCEFB8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -56,6 +56,6 @@ namespace GlobalNamespace {
     static PS4LeaderboardIdsModelSO* New_ctor();
   }; // PS4LeaderboardIdsModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO*, "", "PS4LeaderboardIdsModelSO");
 #pragma pack(pop)

@@ -79,62 +79,62 @@ namespace GlobalNamespace {
     // Set static field: static private OVRGazePointer _instance
     static void _set__instance(GlobalNamespace::OVRGazePointer* value);
     // public System.Boolean get_hidden()
-    // Offset: 0xCBD06C
+    // Offset: 0xCD0AB0
     bool get_hidden();
     // private System.Void set_hidden(System.Boolean value)
-    // Offset: 0xCBD074
+    // Offset: 0xCD0AB8
     void set_hidden(bool value);
     // public System.Single get_currentScale()
-    // Offset: 0xCBD080
+    // Offset: 0xCD0AC4
     float get_currentScale();
     // private System.Void set_currentScale(System.Single value)
-    // Offset: 0xCBD088
+    // Offset: 0xCD0ACC
     void set_currentScale(float value);
     // static public OVRGazePointer get_instance()
-    // Offset: 0xCBD090
+    // Offset: 0xCD0AD4
     static GlobalNamespace::OVRGazePointer* get_instance();
     // public System.Single get_visibilityStrength()
-    // Offset: 0xCBD270
+    // Offset: 0xCD0CB4
     float get_visibilityStrength();
     // public System.Single get_SelectionProgress()
-    // Offset: 0xCBD380
+    // Offset: 0xCD0DC4
     float get_SelectionProgress();
     // public System.Void set_SelectionProgress(System.Single value)
-    // Offset: 0xCBD408
+    // Offset: 0xCD0E4C
     void set_SelectionProgress(float value);
     // public System.Void Awake()
-    // Offset: 0xCBD498
+    // Offset: 0xCD0EDC
     void Awake();
     // private System.Void Update()
-    // Offset: 0xCBD620
+    // Offset: 0xCD1064
     void Update();
     // private System.Void LateUpdate()
-    // Offset: 0xCBE07C
+    // Offset: 0xCD1AC0
     void LateUpdate();
     // public System.Void RequestHide()
-    // Offset: 0xCBE240
+    // Offset: 0xCD1C84
     void RequestHide();
     // public System.Void RequestShow()
-    // Offset: 0xCBE04C
+    // Offset: 0xCD1A90
     void RequestShow();
     // private System.Void Hide()
-    // Offset: 0xCBD858
+    // Offset: 0xCD129C
     void Hide();
     // private System.Void Show()
-    // Offset: 0xCBDB40
+    // Offset: 0xCD1584
     void Show();
     // public override System.Void SetCursorStartDest(UnityEngine.Vector3 _, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0xCBDE24
+    // Offset: 0xCD1868
     // Implemented from: OVRCursor
     // Base method: System.Void OVRCursor::SetCursorStartDest(UnityEngine.Vector3 _, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
     void SetCursorStartDest(UnityEngine::Vector3 _, UnityEngine::Vector3 pos, UnityEngine::Vector3 normal);
     // public override System.Void SetCursorRay(UnityEngine.Transform ray)
-    // Offset: 0xCBE078
+    // Offset: 0xCD1ABC
     // Implemented from: OVRCursor
     // Base method: System.Void OVRCursor::SetCursorRay(UnityEngine.Transform ray)
     void SetCursorRay(UnityEngine::Transform* ray);
     // public System.Void .ctor()
-    // Offset: 0xCBE278
+    // Offset: 0xCD1CBC
     // Implemented from: OVRCursor
     // Base method: System.Void OVRCursor::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -145,6 +145,6 @@ namespace GlobalNamespace {
     static OVRGazePointer* New_ctor();
   }; // OVRGazePointer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGazePointer*, "", "OVRGazePointer");
 #pragma pack(pop)

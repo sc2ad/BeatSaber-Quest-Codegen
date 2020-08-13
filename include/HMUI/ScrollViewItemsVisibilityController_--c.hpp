@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HMUI.ScrollViewItemsVisibilityController
 #include "HMUI/ScrollViewItemsVisibilityController.hpp"
 // Completed includes
@@ -44,21 +42,21 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>,System.Single> <>9__11_1
     static void _set_$$9__11_1(System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10CD0E0
+    // Offset: 0x10DDB24
     static void _cctor();
     // System.Single <Start>b__11_0(System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single> item)
-    // Offset: 0x10CD150
+    // Offset: 0x10DDB94
     float $Start$b__11_0(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>* item);
     // System.Single <Start>b__11_1(System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single> item)
-    // Offset: 0x10CD19C
+    // Offset: 0x10DDBE0
     float $Start$b__11_1(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>* item);
     // public System.Void .ctor()
-    // Offset: 0x10CD148
+    // Offset: 0x10DDB8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScrollViewItemsVisibilityController::$$c* New_ctor();
   }; // HMUI.ScrollViewItemsVisibilityController/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController::$$c*, "HMUI", "ScrollViewItemsVisibilityController/<>c");
 #pragma pack(pop)

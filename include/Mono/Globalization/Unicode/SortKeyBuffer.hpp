@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Globalization.CompareOptions
 #include "System/Globalization/CompareOptions.hpp"
 // Completed includes
@@ -89,40 +87,40 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x82
     bool frenchSorted;
     // public System.Void .ctor(System.Int32 lcid)
-    // Offset: 0x109D718
+    // Offset: 0x10AE15C
     static SortKeyBuffer* New_ctor(int lcid);
     // public System.Void Reset()
-    // Offset: 0x10A1D64
+    // Offset: 0x10B27A8
     void Reset();
     // System.Void Initialize(System.Globalization.CompareOptions options, System.Int32 lcid, System.String s, System.Boolean frenchSort)
-    // Offset: 0x109D720
+    // Offset: 0x10AE164
     void Initialize(System::Globalization::CompareOptions options, int lcid, ::CsString* s, bool frenchSort);
     // System.Void AppendCJKExtension(System.Byte lv1msb, System.Byte lv1lsb)
-    // Offset: 0x109E288
+    // Offset: 0x10AECCC
     void AppendCJKExtension(uint8_t lv1msb, uint8_t lv1lsb);
     // System.Void AppendKana(System.Byte category, System.Byte lv1, System.Byte lv2, System.Byte lv3, System.Boolean isSmallKana, System.Byte markType, System.Boolean isKatakana, System.Boolean isHalfWidth)
-    // Offset: 0x109E3E0
+    // Offset: 0x10AEE24
     void AppendKana(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3, bool isSmallKana, uint8_t markType, bool isKatakana, bool isHalfWidth);
     // System.Void AppendNormal(System.Byte category, System.Byte lv1, System.Byte lv2, System.Byte lv3)
-    // Offset: 0x109E138
+    // Offset: 0x10AEB7C
     void AppendNormal(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3);
     // private System.Void AppendLevel5(System.Byte category, System.Byte lv1)
-    // Offset: 0x10A1E64
+    // Offset: 0x10B28A8
     void AppendLevel5(uint8_t category, uint8_t lv1);
     // private System.Void AppendBufferPrimitive(System.Byte value, System.Byte[] buf, System.Int32 bidx)
-    // Offset: 0x10A1D74
+    // Offset: 0x10B27B8
     void AppendBufferPrimitive(uint8_t value, ::Array<uint8_t>*& buf, int& bidx);
     // public System.Globalization.SortKey GetResultAndReset()
-    // Offset: 0x109DD10
+    // Offset: 0x10AE754
     System::Globalization::SortKey* GetResultAndReset();
     // private System.Int32 GetOptimizedLength(System.Byte[] data, System.Int32 len, System.Byte defaultValue)
-    // Offset: 0x10A23E8
+    // Offset: 0x10B2E2C
     int GetOptimizedLength(::Array<uint8_t>* data, int len, uint8_t defaultValue);
     // public System.Globalization.SortKey GetResult()
-    // Offset: 0x10A1F08
+    // Offset: 0x10B294C
     System::Globalization::SortKey* GetResult();
   }; // Mono.Globalization.Unicode.SortKeyBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globalization.Unicode", "SortKeyBuffer");
 #pragma pack(pop)

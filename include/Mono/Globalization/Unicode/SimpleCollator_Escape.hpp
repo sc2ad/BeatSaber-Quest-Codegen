@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: Mono.Globalization.Unicode.SimpleCollator
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
@@ -34,6 +34,6 @@ namespace Mono::Globalization::Unicode {
     Escape(::CsString* Source_ = {}, int Index_ = {}, int Start_ = {}, int End_ = {}, int Optional_ = {}) : Source{Source_}, Index{Index_}, Start{Start_}, End{End_}, Optional{Optional_} {}
   }; // Mono.Globalization.Unicode.SimpleCollator/Escape
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Escape, "Mono.Globalization.Unicode", "SimpleCollator/Escape");
 #pragma pack(pop)

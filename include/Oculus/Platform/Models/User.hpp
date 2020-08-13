@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.UserPresenceStatus
 #include "Oculus/Platform/UserPresenceStatus.hpp"
 // Completed includes
@@ -50,10 +48,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0x50
     ::CsString* SmallImageUrl;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE92688
+    // Offset: 0xEA50CC
     static User* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.User
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::User*, "Oculus.Platform.Models", "User");
 #pragma pack(pop)

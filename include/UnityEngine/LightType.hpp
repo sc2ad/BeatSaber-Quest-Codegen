@@ -56,6 +56,6 @@ namespace UnityEngine {
     LightType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.LightType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightType, "UnityEngine", "LightType");
 #pragma pack(pop)

@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float horizontalFOV;
     // protected System.Void Awake()
-    // Offset: 0xCA1B04
+    // Offset: 0xCB4548
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xCA1BF0
+    // Offset: 0xCB4634
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -30,6 +30,6 @@ namespace GlobalNamespace {
     static HorizontalCameraFov* New_ctor();
   }; // HorizontalCameraFov
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HorizontalCameraFov*, "", "HorizontalCameraFov");
 #pragma pack(pop)

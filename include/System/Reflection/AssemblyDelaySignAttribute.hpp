@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -16,10 +17,10 @@ namespace System::Reflection {
     // Offset: 0x10
     bool m_delaySign;
     // public System.Void .ctor(System.Boolean delaySign)
-    // Offset: 0x134CB88
+    // Offset: 0x135F5CC
     static AssemblyDelaySignAttribute* New_ctor(bool delaySign);
   }; // System.Reflection.AssemblyDelaySignAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDelaySignAttribute*, "System.Reflection", "AssemblyDelaySignAttribute");
 #pragma pack(pop)

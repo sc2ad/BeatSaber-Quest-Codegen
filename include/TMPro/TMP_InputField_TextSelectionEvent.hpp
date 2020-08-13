@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: UnityEngine.Events.UnityEvent`3
-#include "UnityEngine/Events/UnityEvent_3.hpp"
 // Including type: TMPro.TMP_InputField
 #include "TMPro/TMP_InputField.hpp"
+// Including type: UnityEngine.Events.UnityEvent`3
+#include "UnityEngine/Events/UnityEvent_3.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -16,7 +16,7 @@ namespace TMPro {
   class TMP_InputField::TextSelectionEvent : public UnityEngine::Events::UnityEvent_3<::CsString*, int, int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB97664
+    // Offset: 0xBA90A8
     // Implemented from: UnityEngine.Events.UnityEvent`3
     // Base method: System.Void UnityEvent`3::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -24,6 +24,6 @@ namespace TMPro {
     static TMP_InputField::TextSelectionEvent* New_ctor();
   }; // TMPro.TMP_InputField/TextSelectionEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::TextSelectionEvent*, "TMPro", "TMP_InputField/TextSelectionEvent");
 #pragma pack(pop)

@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Cryptography.SHA1
 #include "System/Security/Cryptography/SHA1.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

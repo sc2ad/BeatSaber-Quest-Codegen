@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Completed includes
@@ -20,13 +18,13 @@ namespace UnityEngine {
     // Set static field: static private readonly System.DateTime s_Epoch
     static void _set_s_Epoch(System::DateTime value);
     // static public System.DateTime get_now()
-    // Offset: 0x1379254
+    // Offset: 0x138BC98
     static System::DateTime get_now();
     // static private System.Void .cctor()
-    // Offset: 0x13792B4
+    // Offset: 0x138BCF8
     static void _cctor();
   }; // UnityEngine.SystemClock
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemClock*, "UnityEngine", "SystemClock");
 #pragma pack(pop)

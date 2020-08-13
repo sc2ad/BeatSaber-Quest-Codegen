@@ -20,34 +20,34 @@ namespace UnityEngine {
   class CapsuleCollider : public UnityEngine::Collider {
     public:
     // public UnityEngine.Vector3 get_center()
-    // Offset: 0x1946E00
+    // Offset: 0x1959844
     UnityEngine::Vector3 get_center();
     // public System.Void set_center(UnityEngine.Vector3 value)
-    // Offset: 0x1946EB0
+    // Offset: 0x19598F4
     void set_center(UnityEngine::Vector3 value);
     // public System.Single get_radius()
-    // Offset: 0x1946F58
+    // Offset: 0x195999C
     float get_radius();
     // public System.Void set_radius(System.Single value)
-    // Offset: 0x1946F98
+    // Offset: 0x19599DC
     void set_radius(float value);
     // public System.Single get_height()
-    // Offset: 0x1946FE8
+    // Offset: 0x1959A2C
     float get_height();
     // public System.Void set_height(System.Single value)
-    // Offset: 0x1947028
+    // Offset: 0x1959A6C
     void set_height(float value);
     // public System.Void set_direction(System.Int32 value)
-    // Offset: 0x1947078
+    // Offset: 0x1959ABC
     void set_direction(int value);
     // private System.Void get_center_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x1946E60
+    // Offset: 0x19598A4
     void get_center_Injected(UnityEngine::Vector3& ret);
     // private System.Void set_center_Injected(UnityEngine.Vector3 value)
-    // Offset: 0x1946F08
+    // Offset: 0x195994C
     void set_center_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.CapsuleCollider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CapsuleCollider*, "UnityEngine", "CapsuleCollider");
 #pragma pack(pop)

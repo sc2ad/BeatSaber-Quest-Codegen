@@ -43,25 +43,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 fadeMaterialColorID
     static void _set_fadeMaterialColorID(int value);
     // static public System.Void Start(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0xD6E314
+    // Offset: 0xD81D58
     static void Start(UnityEngine::Color newColor, float duration, bool fadeOverlay);
     // static public System.Void View(UnityEngine.Color newColor, System.Single duration)
-    // Offset: 0xD6E3D8
+    // Offset: 0xD81E1C
     static void View(UnityEngine::Color newColor, float duration);
     // public System.Void OnStartFade(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0xD6E4A0
+    // Offset: 0xD81EE4
     void OnStartFade(UnityEngine::Color newColor, float duration, bool fadeOverlay);
     // private System.Void OnEnable()
-    // Offset: 0xD6E508
+    // Offset: 0xD81F4C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD6E6D0
+    // Offset: 0xD82114
     void OnDisable();
     // private System.Void OnPostRender()
-    // Offset: 0xD6E794
+    // Offset: 0xD821D8
     void OnPostRender();
     // public System.Void .ctor()
-    // Offset: 0xD6EABC
+    // Offset: 0xD82500
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,12 +70,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_Fade* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xD6EB64
+    // Offset: 0xD825A8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SteamVR_Fade
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Fade*, "", "SteamVR_Fade");
 #pragma pack(pop)

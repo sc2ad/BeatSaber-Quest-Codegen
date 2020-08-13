@@ -30,16 +30,16 @@ namespace System::IO {
     // Creating value type constructor for type: WaitForChangedResult
     WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::CsString* name_ = {}, ::CsString* oldName_ = {}, bool timedOut_ = {}) : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
-    // Offset: 0xA37500
+    // Offset: 0xA3857C
     void set_ChangeType(System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0xA37508
+    // Offset: 0xA38584
     void set_Name(::CsString* value);
     // public System.Void set_OldName(System.String value)
-    // Offset: 0xA37510
+    // Offset: 0xA3858C
     void set_OldName(::CsString* value);
   }; // System.IO.WaitForChangedResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");
 #pragma pack(pop)

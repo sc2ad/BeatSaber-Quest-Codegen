@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Completed includes
@@ -25,18 +23,18 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1C
     UnityEngine::Vector2 scale;
     // public System.Void .ctor(UnityEngine.Vector2 position, System.Single rotation, UnityEngine.Vector2 scale)
-    // Offset: 0x18B890C
+    // Offset: 0x18C9350
     static Transform2D* New_ctor(UnityEngine::Vector2 position, float rotation, UnityEngine::Vector2 scale);
     // public UnityEngine.Vector2 TransformPoint(UnityEngine.Vector2 p)
-    // Offset: 0x18B8968
+    // Offset: 0x18C93AC
     UnityEngine::Vector2 TransformPoint(UnityEngine::Vector2 p);
     // public override System.String ToString()
-    // Offset: 0x18B8A3C
+    // Offset: 0x18C9480
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // UnityEngine.ProBuilder.Transform2D
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Transform2D*, "UnityEngine.ProBuilder", "Transform2D");
 #pragma pack(pop)

@@ -23,26 +23,26 @@ namespace System {
   class InvalidProgramException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFE2D0
+    // Offset: 0x100DD14
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidProgramException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xFFE344
+    // Offset: 0x100DD88
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static InvalidProgramException* New_ctor(::CsString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFFE378
+    // Offset: 0x100DDBC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static InvalidProgramException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.InvalidProgramException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::InvalidProgramException*, "System", "InvalidProgramException");
 #pragma pack(pop)

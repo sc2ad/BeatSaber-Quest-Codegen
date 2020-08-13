@@ -71,34 +71,34 @@ namespace GlobalNamespace {
     // Offset: 0x40
     bool uploading;
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0xB45DCC
+    // Offset: 0xB43DCC
     void add_allScoresDidUploadEvent(System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0xB45E70
+    // Offset: 0xB43E70
     void remove_allScoresDidUploadEvent(System::Action* value);
     // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
-    // Offset: 0xB45F14
+    // Offset: 0xB43F14
     void Init(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::CsString* playerId);
     // private System.Void OnApplicationQuit()
-    // Offset: 0xB45FF0
+    // Offset: 0xB43FF0
     void OnApplicationQuit();
     // private System.Collections.IEnumerator UploadScoresCoroutine()
-    // Offset: 0xB45F74
+    // Offset: 0xB43F74
     System::Collections::IEnumerator* UploadScoresCoroutine();
     // private System.Void LoadScoresToUploadFromFile()
-    // Offset: 0xB46020
+    // Offset: 0xB44020
     void LoadScoresToUploadFromFile();
     // private System.Void SaveScoresToUploadToFile()
-    // Offset: 0xB46228
+    // Offset: 0xB44228
     void SaveScoresToUploadToFile();
     // public System.Void AddScore(LeaderboardScoreUploader/ScoreData scoreData)
-    // Offset: 0xB4633C
+    // Offset: 0xB4433C
     void AddScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData);
     // private System.Boolean <UploadScoresCoroutine>b__14_1()
-    // Offset: 0xB464B8
+    // Offset: 0xB444B8
     bool $UploadScoresCoroutine$b__14_1();
     // public System.Void .ctor()
-    // Offset: 0xB46410
+    // Offset: 0xB44410
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -108,6 +108,6 @@ namespace GlobalNamespace {
     static LeaderboardScoreUploader* New_ctor();
   }; // LeaderboardScoreUploader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader*, "", "LeaderboardScoreUploader");
 #pragma pack(pop)

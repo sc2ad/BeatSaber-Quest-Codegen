@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.AsyncOperation
 #include "UnityEngine/AsyncOperation.hpp"
 // Completed includes
@@ -23,10 +24,10 @@ namespace UnityEngine::Networking {
     // Offset: 0x20
     UnityEngine::Networking::UnityWebRequest* webRequest;
     // System.Void set_webRequest(UnityEngine.Networking.UnityWebRequest value)
-    // Offset: 0x192E508
+    // Offset: 0x1942F4C
     void set_webRequest(UnityEngine::Networking::UnityWebRequest* value);
     // public System.Void .ctor()
-    // Offset: 0x192E510
+    // Offset: 0x1942F54
     // Implemented from: UnityEngine.AsyncOperation
     // Base method: System.Void AsyncOperation::.ctor()
     // Base method: System.Void YieldInstruction::.ctor()
@@ -34,6 +35,6 @@ namespace UnityEngine::Networking {
     static UnityWebRequestAsyncOperation* New_ctor();
   }; // UnityEngine.Networking.UnityWebRequestAsyncOperation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
 #pragma pack(pop)

@@ -20,7 +20,7 @@ namespace System {
   class ReflectionOnlyType : public System::RuntimeType {
     public:
     // private System.Void .ctor()
-    // Offset: 0x1142448
+    // Offset: 0x1153E8C
     // Implemented from: System.RuntimeType
     // Base method: System.Void RuntimeType::.ctor()
     // Base method: System.Void TypeInfo::.ctor()
@@ -29,12 +29,12 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ReflectionOnlyType* New_ctor();
     // public override System.RuntimeTypeHandle get_TypeHandle()
-    // Offset: 0x11424B0
+    // Offset: 0x1153EF4
     // Implemented from: System.RuntimeType
     // Base method: System.RuntimeTypeHandle RuntimeType::get_TypeHandle()
     System::RuntimeTypeHandle get_TypeHandle();
   }; // System.ReflectionOnlyType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ReflectionOnlyType*, "System", "ReflectionOnlyType");
 #pragma pack(pop)

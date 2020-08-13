@@ -54,19 +54,19 @@ namespace GlobalNamespace {
     // Offset: 0x48
     float rotationSpeed;
     // protected System.Void Start()
-    // Offset: 0xBE551C
+    // Offset: 0xBF6F60
     void Start();
     // protected System.Void Update()
-    // Offset: 0xBE55F4
+    // Offset: 0xBF7038
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0xBE565C
+    // Offset: 0xBF70A0
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBE5734
+    // Offset: 0xBF7178
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xBE5870
+    // Offset: 0xBF72B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -76,6 +76,6 @@ namespace GlobalNamespace {
     static LightRotationEventEffect* New_ctor();
   }; // LightRotationEventEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightRotationEventEffect*, "", "LightRotationEventEffect");
 #pragma pack(pop)

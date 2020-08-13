@@ -44,35 +44,35 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationOffsetPlayable
     AnimationOffsetPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationOffsetPlayable Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Int32 inputCount)
-    // Offset: 0x19245B0
+    // Offset: 0x1935FF4
     static UnityEngine::Animations::AnimationOffsetPlayable Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, int inputCount);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Int32 inputCount)
-    // Offset: 0x19246B0
+    // Offset: 0x19360F4
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, int inputCount);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA59FE4
+    // Offset: 0xA5A060
     static AnimationOffsetPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x19248B8
+    // Offset: 0x19362FC
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Playables::PlayableHandle& handle);
     // static private System.Void .cctor()
-    // Offset: 0x1924AD4
+    // Offset: 0x1936518
     static void _cctor();
     // static private System.Boolean CreateHandleInternal_Injected(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1924A6C
+    // Offset: 0x19364B0
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::Vector3& position, UnityEngine::Quaternion& rotation, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA59FEC
+    // Offset: 0xA5A068
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationOffsetPlayable other)
-    // Offset: 0xA59FF8
+    // Offset: 0xA5A074
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimationOffsetPlayable other)
     bool Equals(UnityEngine::Animations::AnimationOffsetPlayable other);
   }; // UnityEngine.Animations.AnimationOffsetPlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationOffsetPlayable, "UnityEngine.Animations", "AnimationOffsetPlayable");
 #pragma pack(pop)

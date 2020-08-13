@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SubContainerCreatorDynamicContext
 #include "Zenject/SubContainerCreatorDynamicContext.hpp"
 // Completed includes
@@ -30,15 +31,15 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::GameObjectCreationParameters* gameObjectBindInfo;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo)
-    // Offset: 0xFBA3BC
+    // Offset: 0xFCCE00
     static SubContainerCreatorByNewGameObjectDynamicContext* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo);
     // protected override UnityEngine.GameObject CreateGameObject(System.Boolean shouldMakeActive)
-    // Offset: 0xFBA440
+    // Offset: 0xFCCE84
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
     // Base method: UnityEngine.GameObject SubContainerCreatorDynamicContext::CreateGameObject(System.Boolean shouldMakeActive)
     UnityEngine::GameObject* CreateGameObject(bool& shouldMakeActive);
   }; // Zenject.SubContainerCreatorByNewGameObjectDynamicContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectDynamicContext*, "Zenject", "SubContainerCreatorByNewGameObjectDynamicContext");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -57,25 +55,25 @@ namespace GlobalNamespace {
     // Offset: 0x14
     float time;
     // public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType get_beatmapObjectRatingType()
-    // Offset: 0xB57A74
+    // Offset: 0xB55A74
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType get_beatmapObjectRatingType();
     // public System.Void set_beatmapObjectRatingType(BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType value)
-    // Offset: 0xB57A7C
+    // Offset: 0xB55A7C
     void set_beatmapObjectRatingType(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
     // public System.Single get_time()
-    // Offset: 0xB57A84
+    // Offset: 0xB55A84
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0xB57A8C
+    // Offset: 0xB55A8C
     void set_time(float value);
     // public System.Void .ctor()
-    // Offset: 0xB57A94
+    // Offset: 0xB55A94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectExecutionRating* New_ctor();
   }; // BeatmapObjectExecutionRating
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating*, "", "BeatmapObjectExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType, "", "BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType");
 #pragma pack(pop)

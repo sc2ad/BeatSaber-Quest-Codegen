@@ -36,15 +36,15 @@ namespace System::Threading::Tasks {
     // Offset: 0x50
     System::Threading::Tasks::Task* m_antecedent;
     // public System.Void .ctor(System.Threading.Tasks.Task antecedent, System.Delegate action, System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0xCC8C58
+    // Offset: 0xCDB69C
     static ContinuationTaskFromTask* New_ctor(System::Threading::Tasks::Task* antecedent, System::Delegate* action, ::CsObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::StackCrawlMark& stackMark);
     // override System.Void InnerInvoke()
-    // Offset: 0xCC8E6C
+    // Offset: 0xCDB8B0
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Void Task::InnerInvoke()
     void InnerInvoke();
   }; // System.Threading.Tasks.ContinuationTaskFromTask
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ContinuationTaskFromTask*, "System.Threading.Tasks", "ContinuationTaskFromTask");
 #pragma pack(pop)

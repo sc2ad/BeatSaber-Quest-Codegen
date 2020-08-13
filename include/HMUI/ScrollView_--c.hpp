@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HMUI.ScrollView
 #include "HMUI/ScrollView.hpp"
 // Completed includes
@@ -32,18 +30,18 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Single,System.Single> <>9__21_1
     static void _set_$$9__21_1(System::Func_2<float, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10CC5C4
+    // Offset: 0x10DD008
     static void _cctor();
     // System.Single <ComputeScrollFocusPosY>b__21_1(System.Single i)
-    // Offset: 0x10CC634
+    // Offset: 0x10DD078
     float $ComputeScrollFocusPosY$b__21_1(float i);
     // public System.Void .ctor()
-    // Offset: 0x10CC62C
+    // Offset: 0x10DD070
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScrollView::$$c* New_ctor();
   }; // HMUI.ScrollView/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c*, "HMUI", "ScrollView/<>c");
 #pragma pack(pop)

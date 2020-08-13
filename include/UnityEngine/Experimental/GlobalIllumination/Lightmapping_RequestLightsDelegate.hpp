@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.Lightmapping
 #include "UnityEngine/Experimental/GlobalIllumination/Lightmapping.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightDataGI
 #include "UnityEngine/Experimental/GlobalIllumination/LightDataGI.hpp"
 // Completed includes
@@ -39,19 +39,19 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   class Lightmapping::RequestLightsDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x12F6570
+    // Offset: 0x1308FB4
     static Lightmapping::RequestLightsDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
-    // Offset: 0x12F6064
+    // Offset: 0x1308AA8
     void Invoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x12F6928
+    // Offset: 0x130936C
     System::IAsyncResult* BeginInvoke(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x12F69C4
+    // Offset: 0x1309408
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping/RequestLightsDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate*, "UnityEngine.Experimental.GlobalIllumination", "Lightmapping/RequestLightsDelegate");
 #pragma pack(pop)

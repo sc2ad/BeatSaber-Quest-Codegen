@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IDisposable
@@ -29,16 +30,16 @@ namespace Mono {
     // Creating value type constructor for type: SafeGPtrArrayHandle
     SafeGPtrArrayHandle(Mono::RuntimeGPtrArrayHandle handle_ = {}) : handle{handle_} {}
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xA3CD88
+    // Offset: 0xA3CE04
     static SafeGPtrArrayHandle* New_ctor(System::IntPtr ptr);
     // System.Int32 get_Length()
-    // Offset: 0xA3CDDC
+    // Offset: 0xA3CE58
     int get_Length();
     // System.IntPtr get_Item(System.Int32 i)
-    // Offset: 0xA3CDF8
+    // Offset: 0xA3CE74
     System::IntPtr get_Item(int i);
     // public System.Void Dispose()
-    // Offset: 0xA3CDB4
+    // Offset: 0xA3CE30
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -47,6 +48,6 @@ namespace Mono {
     void System_IDisposable_Dispose();
   }; // Mono.SafeGPtrArrayHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");
 #pragma pack(pop)

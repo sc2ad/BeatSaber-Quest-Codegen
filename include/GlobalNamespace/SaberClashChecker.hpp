@@ -41,31 +41,31 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::Saber* rightSaber;
     // public System.Boolean get_sabersAreClashing()
-    // Offset: 0xC121B4
+    // Offset: 0xC23BF8
     bool get_sabersAreClashing();
     // private System.Void set_sabersAreClashing(System.Boolean value)
-    // Offset: 0xC121BC
+    // Offset: 0xC23C00
     void set_sabersAreClashing(bool value);
     // public UnityEngine.Vector3 get_clashingPoint()
-    // Offset: 0xC121C8
+    // Offset: 0xC23C0C
     UnityEngine::Vector3 get_clashingPoint();
     // private System.Void set_clashingPoint(UnityEngine.Vector3 value)
-    // Offset: 0xC121D4
+    // Offset: 0xC23C18
     void set_clashingPoint(UnityEngine::Vector3 value);
     // protected System.Void Start()
-    // Offset: 0xC121E0
+    // Offset: 0xC23C24
     void Start();
     // protected System.Void Update()
-    // Offset: 0xC12230
+    // Offset: 0xC23C74
     void Update();
     // protected System.Void OnDisable()
-    // Offset: 0xC128BC
+    // Offset: 0xC24300
     void OnDisable();
     // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, UnityEngine.Vector3 inbetweenPoint)
-    // Offset: 0xC12410
+    // Offset: 0xC23E54
     float SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, UnityEngine::Vector3& inbetweenPoint);
     // public System.Void .ctor()
-    // Offset: 0xC128C4
+    // Offset: 0xC24308
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -75,6 +75,6 @@ namespace GlobalNamespace {
     static SaberClashChecker* New_ctor();
   }; // SaberClashChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashChecker*, "", "SaberClashChecker");
 #pragma pack(pop)

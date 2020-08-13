@@ -72,30 +72,30 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0xC18E0C
+    // Offset: 0xC2A850
     void add_didFinishEvent(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0xC18FA4
+    // Offset: 0xC2A9E8
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* value);
     // private System.Void HandleFinishButton(SettingsNavigationController/FinishAction finishAction)
-    // Offset: 0xC19398
+    // Offset: 0xC2ADDC
     void HandleFinishButton(GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0xC19414
+    // Offset: 0xC2AE58
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0xC1941C
+    // Offset: 0xC2AE60
     void $DidActivate$b__7_1();
     // private System.Void <DidActivate>b__7_2()
-    // Offset: 0xC19424
+    // Offset: 0xC2AE68
     void $DidActivate$b__7_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC19258
+    // Offset: 0xC2AC9C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xC1940C
+    // Offset: 0xC2AE50
     // Implemented from: HMUI.NavigationController
     // Base method: System.Void NavigationController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     static SettingsNavigationController* New_ctor();
   }; // SettingsNavigationController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController*, "", "SettingsNavigationController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController::FinishAction, "", "SettingsNavigationController/FinishAction");
 #pragma pack(pop)

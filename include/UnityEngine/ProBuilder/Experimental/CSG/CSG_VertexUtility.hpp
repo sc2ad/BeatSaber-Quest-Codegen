@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.CSG_Vertex
 #include "UnityEngine/ProBuilder/CSG_Vertex.hpp"
 // Completed includes
@@ -41,25 +39,25 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
   class CSG_VertexUtility : public ::CsObject {
     public:
     // static public System.Void GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.CSG_Vertex> vertices, UnityEngine.Vector3[] position, UnityEngine.Color[] color, UnityEngine.Vector2[] uv0, UnityEngine.Vector3[] normal, UnityEngine.Vector4[] tangent, UnityEngine.Vector2[] uv2, System.Collections.Generic.List`1<UnityEngine.Vector4> uv3, System.Collections.Generic.List`1<UnityEngine.Vector4> uv4)
-    // Offset: 0xF7F960
+    // Offset: 0xF913A4
     static void GetArrays(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::CSG_Vertex>* vertices, ::Array<UnityEngine::Vector3>*& position, ::Array<UnityEngine::Color>*& color, ::Array<UnityEngine::Vector2>*& uv0, ::Array<UnityEngine::Vector3>*& normal, ::Array<UnityEngine::Vector4>*& tangent, ::Array<UnityEngine::Vector2>*& uv2, System::Collections::Generic::List_1<UnityEngine::Vector4>*& uv3, System::Collections::Generic::List_1<UnityEngine::Vector4>*& uv4);
     // static public System.Void GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.CSG_Vertex> vertices, UnityEngine.Vector3[] position, UnityEngine.Color[] color, UnityEngine.Vector2[] uv0, UnityEngine.Vector3[] normal, UnityEngine.Vector4[] tangent, UnityEngine.Vector2[] uv2, System.Collections.Generic.List`1<UnityEngine.Vector4> uv3, System.Collections.Generic.List`1<UnityEngine.Vector4> uv4, UnityEngine.ProBuilder.MeshArrays attributes)
-    // Offset: 0xF7F98C
+    // Offset: 0xF913D0
     static void GetArrays(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::CSG_Vertex>* vertices, ::Array<UnityEngine::Vector3>*& position, ::Array<UnityEngine::Color>*& color, ::Array<UnityEngine::Vector2>*& uv0, ::Array<UnityEngine::Vector3>*& normal, ::Array<UnityEngine::Vector4>*& tangent, ::Array<UnityEngine::Vector2>*& uv2, System::Collections::Generic::List_1<UnityEngine::Vector4>*& uv3, System::Collections::Generic::List_1<UnityEngine::Vector4>*& uv4, UnityEngine::ProBuilder::MeshArrays attributes);
     // static public UnityEngine.ProBuilder.CSG_Vertex[] GetVertices(UnityEngine.Mesh mesh)
-    // Offset: 0xF7D468
+    // Offset: 0xF8EEAC
     static ::Array<UnityEngine::ProBuilder::CSG_Vertex>* GetVertices(UnityEngine::Mesh* mesh);
     // static public System.Void SetMesh(UnityEngine.Mesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.CSG_Vertex> vertices)
-    // Offset: 0xF7DAA8
+    // Offset: 0xF8F4EC
     static void SetMesh(UnityEngine::Mesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::CSG_Vertex>* vertices);
     // static public UnityEngine.ProBuilder.CSG_Vertex Mix(UnityEngine.ProBuilder.CSG_Vertex x, UnityEngine.ProBuilder.CSG_Vertex y, System.Single weight)
-    // Offset: 0xF7F180
+    // Offset: 0xF90BC4
     static UnityEngine::ProBuilder::CSG_Vertex Mix(UnityEngine::ProBuilder::CSG_Vertex x, UnityEngine::ProBuilder::CSG_Vertex y, float weight);
     // static public UnityEngine.ProBuilder.CSG_Vertex TransformVertex(UnityEngine.Transform transform, UnityEngine.ProBuilder.CSG_Vertex vertex)
-    // Offset: 0xF7DDD8
+    // Offset: 0xF8F81C
     static UnityEngine::ProBuilder::CSG_Vertex TransformVertex(UnityEngine::Transform* transform, UnityEngine::ProBuilder::CSG_Vertex vertex);
   }; // UnityEngine.ProBuilder.Experimental.CSG.CSG_VertexUtility
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Experimental::CSG::CSG_VertexUtility*, "UnityEngine.ProBuilder.Experimental.CSG", "CSG_VertexUtility");
 #pragma pack(pop)

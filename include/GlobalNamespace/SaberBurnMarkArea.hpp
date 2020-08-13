@@ -105,22 +105,22 @@ namespace GlobalNamespace {
     // Offset: 0x130
     UnityEngine::Material* fadeOutMaterial;
     // protected System.Void Start()
-    // Offset: 0xC0FDCC
+    // Offset: 0xC21810
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC106A4
+    // Offset: 0xC220E8
     void OnDestroy();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0xC10918
+    // Offset: 0xC2235C
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // private UnityEngine.Vector3 WorldToCameraBurnMarkPos(UnityEngine.Vector3 pos)
-    // Offset: 0xC10BA8
+    // Offset: 0xC225EC
     UnityEngine::Vector3 WorldToCameraBurnMarkPos(UnityEngine::Vector3 pos);
     // protected System.Void LateUpdate()
-    // Offset: 0xC10CD0
+    // Offset: 0xC22714
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC11438
+    // Offset: 0xC22E7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -130,6 +130,6 @@ namespace GlobalNamespace {
     static SaberBurnMarkArea* New_ctor();
   }; // SaberBurnMarkArea
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkArea*, "", "SaberBurnMarkArea");
 #pragma pack(pop)

@@ -15,6 +15,6 @@ namespace Zenject {
     void Zenject_IValidatable_Validate();
   }; // Zenject.IValidatable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IValidatable*, "Zenject", "IValidatable");
 #pragma pack(pop)

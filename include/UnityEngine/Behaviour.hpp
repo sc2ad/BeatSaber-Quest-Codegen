@@ -14,16 +14,16 @@ namespace UnityEngine {
   class Behaviour : public UnityEngine::Component {
     public:
     // public System.Boolean get_enabled()
-    // Offset: 0x12EAC00
+    // Offset: 0x12FD644
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x12EAC40
+    // Offset: 0x12FD684
     void set_enabled(bool value);
     // public System.Boolean get_isActiveAndEnabled()
-    // Offset: 0x12EAC90
+    // Offset: 0x12FD6D4
     bool get_isActiveAndEnabled();
     // public System.Void .ctor()
-    // Offset: 0x12EACD0
+    // Offset: 0x12FD714
     // Implemented from: UnityEngine.Component
     // Base method: System.Void Component::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -31,6 +31,6 @@ namespace UnityEngine {
     static Behaviour* New_ctor();
   }; // UnityEngine.Behaviour
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Behaviour*, "UnityEngine", "Behaviour");
 #pragma pack(pop)

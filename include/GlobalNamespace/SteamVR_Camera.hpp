@@ -75,55 +75,55 @@ namespace GlobalNamespace {
     // Set static field: static private System.String originSuffix
     static void _set_originSuffix(::CsString* value);
     // public UnityEngine.Transform get_head()
-    // Offset: 0xD674EC
+    // Offset: 0xD7AF30
     UnityEngine::Transform* get_head();
     // public UnityEngine.Transform get_offset()
-    // Offset: 0xD674F4
+    // Offset: 0xD7AF38
     UnityEngine::Transform* get_offset();
     // public UnityEngine.Transform get_origin()
-    // Offset: 0xD674FC
+    // Offset: 0xD7AF40
     UnityEngine::Transform* get_origin();
     // public UnityEngine.Camera get_camera()
-    // Offset: 0xD67518
+    // Offset: 0xD7AF5C
     UnityEngine::Camera* get_camera();
     // private System.Void set_camera(UnityEngine.Camera value)
-    // Offset: 0xD67520
+    // Offset: 0xD7AF64
     void set_camera(UnityEngine::Camera* value);
     // public UnityEngine.Transform get_ears()
-    // Offset: 0xD67528
+    // Offset: 0xD7AF6C
     UnityEngine::Transform* get_ears();
     // public UnityEngine.Ray GetRay()
-    // Offset: 0xD67530
+    // Offset: 0xD7AF74
     UnityEngine::Ray GetRay();
     // static public System.Single get_sceneResolutionScale()
-    // Offset: 0xD675B8
+    // Offset: 0xD7AFFC
     static float get_sceneResolutionScale();
     // static public System.Void set_sceneResolutionScale(System.Single value)
-    // Offset: 0xD675C0
+    // Offset: 0xD7B004
     static void set_sceneResolutionScale(float value);
     // private System.Void OnDisable()
-    // Offset: 0xD675C8
+    // Offset: 0xD7B00C
     void OnDisable();
     // private System.Void OnEnable()
-    // Offset: 0xD67678
+    // Offset: 0xD7B0BC
     void OnEnable();
     // private System.Void Awake()
-    // Offset: 0xD681E4
+    // Offset: 0xD7BC28
     void Awake();
     // public System.Void ForceLast()
-    // Offset: 0xD6824C
+    // Offset: 0xD7BC90
     void ForceLast();
     // public System.String get_baseName()
-    // Offset: 0xD68884
+    // Offset: 0xD7C2C8
     ::CsString* get_baseName();
     // public System.Void Expand()
-    // Offset: 0xD67A04
+    // Offset: 0xD7B448
     void Expand();
     // public System.Void Collapse()
-    // Offset: 0xD68954
+    // Offset: 0xD7C398
     void Collapse();
     // public System.Void .ctor()
-    // Offset: 0xD68D90
+    // Offset: 0xD7C7D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -133,6 +133,6 @@ namespace GlobalNamespace {
     static SteamVR_Camera* New_ctor();
   }; // SteamVR_Camera
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Camera*, "", "SteamVR_Camera");
 #pragma pack(pop)

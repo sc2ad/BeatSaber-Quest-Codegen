@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Xml.XmlWellFormedWriter
 #include "System/Xml/XmlWellFormedWriter.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/NamespaceKind
 #include "System/Xml/XmlWellFormedWriter_NamespaceKind.hpp"
 // Completed includes
@@ -41,13 +41,13 @@ namespace System::Xml {
     // Creating value type constructor for type: Namespace
     Namespace(::CsString* prefix_ = {}, ::CsString* namespaceUri_ = {}, System::Xml::XmlWellFormedWriter::NamespaceKind kind_ = {}, int prevNsIndex_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, kind{kind_}, prevNsIndex{prevNsIndex_} {}
     // System.Void Set(System.String prefix, System.String namespaceUri, System.Xml.XmlWellFormedWriter/NamespaceKind kind)
-    // Offset: 0xA5A860
+    // Offset: 0xA5A8DC
     void Set(::CsString* prefix, ::CsString* namespaceUri, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
     // System.Void WriteDecl(System.Xml.XmlWriter writer, System.Xml.XmlRawWriter rawWriter)
-    // Offset: 0xA5A8AC
+    // Offset: 0xA5A928
     void WriteDecl(System::Xml::XmlWriter* writer, System::Xml::XmlRawWriter* rawWriter);
   }; // System.Xml.XmlWellFormedWriter/Namespace
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Namespace, "System.Xml", "XmlWellFormedWriter/Namespace");
 #pragma pack(pop)

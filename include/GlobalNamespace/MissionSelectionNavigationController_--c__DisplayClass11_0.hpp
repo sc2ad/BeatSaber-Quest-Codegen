@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MissionSelectionNavigationController
 #include "GlobalNamespace/MissionSelectionNavigationController.hpp"
 // Completed includes
@@ -35,18 +33,18 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Action* $$9__1;
     // System.Void <PresentMissionClearedIfNeeded>b__0()
-    // Offset: 0xBF90F0
+    // Offset: 0xC0AB34
     void $PresentMissionClearedIfNeeded$b__0();
     // System.Void <PresentMissionClearedIfNeeded>b__1()
-    // Offset: 0xBF91B8
+    // Offset: 0xC0ABFC
     void $PresentMissionClearedIfNeeded$b__1();
     // public System.Void .ctor()
-    // Offset: 0xBF90E0
+    // Offset: 0xC0AB24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionSelectionNavigationController::$$c__DisplayClass11_0* New_ctor();
   }; // MissionSelectionNavigationController/<>c__DisplayClass11_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0*, "", "MissionSelectionNavigationController/<>c__DisplayClass11_0");
 #pragma pack(pop)

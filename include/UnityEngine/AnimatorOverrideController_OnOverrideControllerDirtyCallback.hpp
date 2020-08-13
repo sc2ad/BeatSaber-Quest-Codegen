@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.AnimatorOverrideController
 #include "UnityEngine/AnimatorOverrideController.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace UnityEngine {
   class AnimatorOverrideController::OnOverrideControllerDirtyCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1926A54
+    // Offset: 0x1938498
     static AnimatorOverrideController::OnOverrideControllerDirtyCallback* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1926848
+    // Offset: 0x193828C
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1926A68
+    // Offset: 0x19384AC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1926A94
+    // Offset: 0x19384D8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*, "UnityEngine", "AnimatorOverrideController/OnOverrideControllerDirtyCallback");
 #pragma pack(pop)

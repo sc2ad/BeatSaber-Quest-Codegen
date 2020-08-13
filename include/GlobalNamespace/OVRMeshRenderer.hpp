@@ -118,43 +118,43 @@ namespace GlobalNamespace {
     // Offset: 0x53
     bool ShouldUseSystemGestureMaterial;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0xED4B64
+    // Offset: 0xEE65A8
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0xED4B6C
+    // Offset: 0xEE65B0
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xED4B78
+    // Offset: 0xEE65BC
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xED4B80
+    // Offset: 0xEE65C4
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xED4B8C
+    // Offset: 0xEE65D0
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xED4B94
+    // Offset: 0xEE65D8
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0xED4BA0
+    // Offset: 0xEE65E4
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0xED4BA8
+    // Offset: 0xEE65EC
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0xED4BB4
+    // Offset: 0xEE65F8
     void Awake();
     // private System.Void Start()
-    // Offset: 0xED4CF0
+    // Offset: 0xEE6734
     void Start();
     // private System.Void Initialize()
-    // Offset: 0xED4D84
+    // Offset: 0xEE67C8
     void Initialize();
     // private System.Void Update()
-    // Offset: 0xED5250
+    // Offset: 0xEE6C94
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xED552C
+    // Offset: 0xEE6F70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -164,7 +164,7 @@ namespace GlobalNamespace {
     static OVRMeshRenderer* New_ctor();
   }; // OVRMeshRenderer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer*, "", "OVRMeshRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior, "", "OVRMeshRenderer/SystemGestureBehavior");

@@ -27,18 +27,18 @@ namespace UnityEngine {
     // Creating value type constructor for type: Resolution
     Resolution(int m_Width_ = {}, int m_Height_ = {}, int m_RefreshRate_ = {}) : m_Width{m_Width_}, m_Height{m_Height_}, m_RefreshRate{m_RefreshRate_} {}
     // public System.Int32 get_width()
-    // Offset: 0xA43764
+    // Offset: 0xA437E0
     int get_width();
     // public System.Int32 get_height()
-    // Offset: 0xA4376C
+    // Offset: 0xA437E8
     int get_height();
     // public override System.String ToString()
-    // Offset: 0xA43774
+    // Offset: 0xA437F0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // UnityEngine.Resolution
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Resolution, "UnityEngine", "Resolution");
 #pragma pack(pop)

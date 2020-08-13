@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Text.DecoderNLS
-#include "System/Text/DecoderNLS.hpp"
 // Including type: System.Text.UTF32Encoding
 #include "System/Text/UTF32Encoding.hpp"
+// Including type: System.Text.DecoderNLS
+#include "System/Text/DecoderNLS.hpp"
 // Completed includes
 // Type namespace: System.Text
 namespace System::Text {
@@ -22,20 +22,20 @@ namespace System::Text {
     // Offset: 0x34
     int readByteCount;
     // public System.Void .ctor(System.Text.UTF32Encoding encoding)
-    // Offset: 0x13B5460
+    // Offset: 0x13C5EA4
     static UTF32Encoding::UTF32Decoder* New_ctor(System::Text::UTF32Encoding* encoding);
     // public override System.Void Reset()
-    // Offset: 0x13B5958
+    // Offset: 0x13C639C
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x13B5978
+    // Offset: 0x13C63BC
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
   }; // System.Text.UTF32Encoding/UTF32Decoder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding::UTF32Decoder*, "System.Text", "UTF32Encoding/UTF32Decoder");
 #pragma pack(pop)

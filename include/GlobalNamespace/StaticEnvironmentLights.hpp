@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<UnityEngine::Material*>* materials;
     // protected System.Void Awake()
-    // Offset: 0xB90858
+    // Offset: 0xBA229C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xB90900
+    // Offset: 0xBA2344
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     static StaticEnvironmentLights* New_ctor();
   }; // StaticEnvironmentLights
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticEnvironmentLights*, "", "StaticEnvironmentLights");
 #pragma pack(pop)

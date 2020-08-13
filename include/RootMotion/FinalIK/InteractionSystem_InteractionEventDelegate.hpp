@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: RootMotion.FinalIK.InteractionSystem
 #include "RootMotion/FinalIK/InteractionSystem.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject
 #include "RootMotion/FinalIK/InteractionObject.hpp"
 // Completed includes
@@ -33,19 +33,19 @@ namespace RootMotion::FinalIK {
   class InteractionSystem::InteractionEventDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x143A8B4
+    // Offset: 0x144A2F8
     static InteractionSystem::InteractionEventDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, RootMotion.FinalIK.InteractionObject/InteractionEvent interactionEvent)
-    // Offset: 0x1434E24
+    // Offset: 0x1444868
     void Invoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, RootMotion::FinalIK::InteractionObject::InteractionEvent* interactionEvent);
     // public System.IAsyncResult BeginInvoke(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, RootMotion.FinalIK.InteractionObject/InteractionEvent interactionEvent, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x143A8C8
+    // Offset: 0x144A30C
     System::IAsyncResult* BeginInvoke(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, RootMotion::FinalIK::InteractionObject::InteractionEvent* interactionEvent, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x143A968
+    // Offset: 0x144A3AC
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.InteractionSystem/InteractionEventDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*, "RootMotion.FinalIK", "InteractionSystem/InteractionEventDelegate");
 #pragma pack(pop)

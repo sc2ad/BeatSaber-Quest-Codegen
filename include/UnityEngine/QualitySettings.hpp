@@ -21,22 +21,22 @@ namespace UnityEngine {
   class QualitySettings : public UnityEngine::Object {
     public:
     // static public System.Void set_vSyncCount(System.Int32 value)
-    // Offset: 0x1405014
+    // Offset: 0x1415A58
     static void set_vSyncCount(int value);
     // static public System.Int32 get_antiAliasing()
-    // Offset: 0x1405054
+    // Offset: 0x1415A98
     static int get_antiAliasing();
     // static public System.Void set_antiAliasing(System.Int32 value)
-    // Offset: 0x1405088
+    // Offset: 0x1415ACC
     static void set_antiAliasing(int value);
     // static public System.Void set_maxQueuedFrames(System.Int32 value)
-    // Offset: 0x14050C8
+    // Offset: 0x1415B0C
     static void set_maxQueuedFrames(int value);
     // static public UnityEngine.ColorSpace get_activeColorSpace()
-    // Offset: 0x1405108
+    // Offset: 0x1415B4C
     static UnityEngine::ColorSpace get_activeColorSpace();
   }; // UnityEngine.QualitySettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::QualitySettings*, "UnityEngine", "QualitySettings");
 #pragma pack(pop)

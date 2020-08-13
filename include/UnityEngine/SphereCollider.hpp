@@ -14,10 +14,10 @@ namespace UnityEngine {
   class SphereCollider : public UnityEngine::Collider {
     public:
     // public System.Single get_radius()
-    // Offset: 0x194B0E4
+    // Offset: 0x195DB28
     float get_radius();
   }; // UnityEngine.SphereCollider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SphereCollider*, "UnityEngine", "SphereCollider");
 #pragma pack(pop)

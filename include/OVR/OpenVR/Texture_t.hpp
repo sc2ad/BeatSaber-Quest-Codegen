@@ -32,6 +32,6 @@ namespace OVR::OpenVR {
     Texture_t(System::IntPtr handle_ = {}, OVR::OpenVR::ETextureType eType_ = {}, OVR::OpenVR::EColorSpace eColorSpace_ = {}) : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
   }; // OVR.OpenVR.Texture_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Texture_t, "OVR.OpenVR", "Texture_t");
 #pragma pack(pop)

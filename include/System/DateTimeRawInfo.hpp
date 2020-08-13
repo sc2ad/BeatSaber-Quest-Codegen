@@ -48,16 +48,16 @@ namespace System {
     // Creating value type constructor for type: DateTimeRawInfo
     DateTimeRawInfo(int* num_ = {}, int numCount_ = {}, int month_ = {}, int year_ = {}, int dayOfWeek_ = {}, int era_ = {}, System::DateTimeParse::TM timeMark_ = {}, double fraction_ = {}, bool hasSameDateAndTimeSeparators_ = {}, bool timeZone_ = {}) : num{num_}, numCount{numCount_}, month{month_}, year{year_}, dayOfWeek{dayOfWeek_}, era{era_}, timeMark{timeMark_}, fraction{fraction_}, hasSameDateAndTimeSeparators{hasSameDateAndTimeSeparators_}, timeZone{timeZone_} {}
     // System.Void Init(System.Int32* numberBuffer)
-    // Offset: 0xA2826C
+    // Offset: 0xA282E8
     void Init(int* numberBuffer);
     // System.Void AddNumber(System.Int32 value)
-    // Offset: 0xA28290
+    // Offset: 0xA2830C
     void AddNumber(int value);
     // System.Int32 GetNumber(System.Int32 index)
-    // Offset: 0xA282A8
+    // Offset: 0xA28324
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");
 #pragma pack(pop)

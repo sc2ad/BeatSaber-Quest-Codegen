@@ -26,6 +26,6 @@ namespace UnityEngine {
     CullingGroupEvent(int m_Index_ = {}, uint8_t m_PrevState_ = {}, uint8_t m_ThisState_ = {}) : m_Index{m_Index_}, m_PrevState{m_PrevState_}, m_ThisState{m_ThisState_} {}
   }; // UnityEngine.CullingGroupEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroupEvent, "UnityEngine", "CullingGroupEvent");
 #pragma pack(pop)

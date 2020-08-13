@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.EventKeywords
 #include "System/Diagnostics/Tracing/EventKeywords.hpp"
 // Including type: System.Diagnostics.Tracing.EventLevel
@@ -60,10 +58,10 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x30
     System::Diagnostics::Tracing::EventTags tags;
     // public System.Void .ctor(System.Type dataType, System.Diagnostics.Tracing.EventDataAttribute eventAttrib, System.Collections.Generic.List`1<System.Type> recursionCheck)
-    // Offset: 0xD88F30
+    // Offset: 0xD9C974
     static TypeAnalysis* New_ctor(System::Type* dataType, System::Diagnostics::Tracing::EventDataAttribute* eventAttrib, System::Collections::Generic::List_1<System::Type*>* recursionCheck);
   }; // System.Diagnostics.Tracing.TypeAnalysis
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TypeAnalysis*, "System.Diagnostics.Tracing", "TypeAnalysis");
 #pragma pack(pop)

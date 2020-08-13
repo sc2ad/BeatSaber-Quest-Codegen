@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Xml.XmlWellFormedWriter
 #include "System/Xml/XmlWellFormedWriter.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Xml.XmlSpace
 #include "System/Xml/XmlSpace.hpp"
 // Completed includes
@@ -45,16 +45,16 @@ namespace System::Xml {
     // Creating value type constructor for type: ElementScope
     ElementScope(int prevNSTop_ = {}, ::CsString* prefix_ = {}, ::CsString* localName_ = {}, ::CsString* namespaceUri_ = {}, System::Xml::XmlSpace xmlSpace_ = {}, ::CsString* xmlLang_ = {}) : prevNSTop{prevNSTop_}, prefix{prefix_}, localName{localName_}, namespaceUri{namespaceUri_}, xmlSpace{xmlSpace_}, xmlLang{xmlLang_} {}
     // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri, System.Int32 prevNSTop)
-    // Offset: 0xA5A76C
+    // Offset: 0xA5A7E8
     void Set(::CsString* prefix, ::CsString* localName, ::CsString* namespaceUri, int prevNSTop);
     // System.Void WriteEndElement(System.Xml.XmlRawWriter rawWriter)
-    // Offset: 0xA5A774
+    // Offset: 0xA5A7F0
     void WriteEndElement(System::Xml::XmlRawWriter* rawWriter);
     // System.Void WriteFullEndElement(System.Xml.XmlRawWriter rawWriter)
-    // Offset: 0xA5A77C
+    // Offset: 0xA5A7F8
     void WriteFullEndElement(System::Xml::XmlRawWriter* rawWriter);
   }; // System.Xml.XmlWellFormedWriter/ElementScope
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::ElementScope, "System.Xml", "XmlWellFormedWriter/ElementScope");
 #pragma pack(pop)

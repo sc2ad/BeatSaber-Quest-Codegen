@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithLivestreamingVideoStats : public Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingVideoStats*> {
     public:
     // protected Oculus.Platform.Models.LivestreamingVideoStats GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8E278
+    // Offset: 0xEA0CBC
     Oculus::Platform::Models::LivestreamingVideoStats* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE8E1D4
+    // Offset: 0xEA0C18
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithLivestreamingVideoStats* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.LivestreamingVideoStats GetLivestreamingVideoStats()
-    // Offset: 0xE8E234
+    // Offset: 0xEA0C78
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LivestreamingVideoStats Message::GetLivestreamingVideoStats()
     Oculus::Platform::Models::LivestreamingVideoStats* GetLivestreamingVideoStats();
   }; // Oculus.Platform.MessageWithLivestreamingVideoStats
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLivestreamingVideoStats*, "Oculus.Platform", "MessageWithLivestreamingVideoStats");
 #pragma pack(pop)

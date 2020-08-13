@@ -67,19 +67,19 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Material* offMaterial;
     // protected System.Void Start()
-    // Offset: 0xBD9AC0
+    // Offset: 0xBEC504
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xBD9B08
+    // Offset: 0xBEC54C
     void OnEnable();
     // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0xBD9B34
+    // Offset: 0xBEC578
     System::Collections::IEnumerator* FlickeringCoroutine();
     // private System.Void SetOn(System.Boolean on)
-    // Offset: 0xBD9BDC
+    // Offset: 0xBEC620
     void SetOn(bool on);
     // public System.Void .ctor()
-    // Offset: 0xBD9C88
+    // Offset: 0xBEC6CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -89,6 +89,6 @@ namespace GlobalNamespace {
     static FlickeringNeonSign* New_ctor();
   }; // FlickeringNeonSign
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign*, "", "FlickeringNeonSign");
 #pragma pack(pop)

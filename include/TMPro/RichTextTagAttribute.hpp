@@ -39,6 +39,6 @@ namespace TMPro {
     RichTextTagAttribute(int nameHashCode_ = {}, int valueHashCode_ = {}, TMPro::TagValueType valueType_ = {}, int valueStartIndex_ = {}, int valueLength_ = {}, TMPro::TagUnitType unitType_ = {}) : nameHashCode{nameHashCode_}, valueHashCode{valueHashCode_}, valueType{valueType_}, valueStartIndex{valueStartIndex_}, valueLength{valueLength_}, unitType{unitType_} {}
   }; // TMPro.RichTextTagAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::RichTextTagAttribute, "TMPro", "RichTextTagAttribute");
 #pragma pack(pop)

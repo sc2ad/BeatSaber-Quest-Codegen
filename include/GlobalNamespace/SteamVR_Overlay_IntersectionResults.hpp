@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: SteamVR_Overlay
 #include "GlobalNamespace/SteamVR_Overlay.hpp"
 // Completed includes
@@ -31,6 +29,6 @@ namespace GlobalNamespace {
     IntersectionResults(UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector2 UVs_ = {}, float distance_ = {}) : point{point_}, normal{normal_}, UVs{UVs_}, distance{distance_} {}
   }; // SteamVR_Overlay/IntersectionResults
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay::IntersectionResults, "", "SteamVR_Overlay/IntersectionResults");
 #pragma pack(pop)

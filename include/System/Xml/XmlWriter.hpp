@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Completed includes
@@ -41,7 +39,7 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteStartElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
     // public System.Void WriteStartElement(System.String localName)
-    // Offset: 0x192AE88
+    // Offset: 0x193E8CC
     void WriteStartElement(::CsString* localName);
     // public System.Void WriteEndElement()
     // Offset: 0xFFFFFFFF
@@ -50,10 +48,10 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteFullEndElement();
     // public System.Void WriteAttributeString(System.String localName, System.String value)
-    // Offset: 0x192AEA0
+    // Offset: 0x193E8E4
     void WriteAttributeString(::CsString* localName, ::CsString* value);
     // public System.Void WriteAttributeString(System.String prefix, System.String localName, System.String ns, System.String value)
-    // Offset: 0x192AEFC
+    // Offset: 0x193E940
     void WriteAttributeString(::CsString* prefix, ::CsString* localName, ::CsString* ns, ::CsString* value);
     // public System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     // Offset: 0xFFFFFFFF
@@ -98,13 +96,13 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteBase64(::Array<uint8_t>* buffer, int index, int count);
     // public System.Void WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x192AF4C
+    // Offset: 0x193E990
     void WriteBinHex(::Array<uint8_t>* buffer, int index, int count);
     // public System.Xml.WriteState get_WriteState()
     // Offset: 0xFFFFFFFF
     System::Xml::WriteState get_WriteState();
     // public System.Void Close()
-    // Offset: 0x192AF68
+    // Offset: 0x193E9AC
     void Close();
     // public System.Void Flush()
     // Offset: 0xFFFFFFFF
@@ -113,19 +111,19 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     ::CsString* LookupPrefix(::CsString* ns);
     // public System.Void WriteValue(System.String value)
-    // Offset: 0x192AF6C
+    // Offset: 0x193E9B0
     void WriteValue(::CsString* value);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x192AF98
+    // Offset: 0x193E9DC
     void Dispose(bool disposing);
     // static public System.Xml.XmlWriter Create(System.IO.Stream output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x192AFEC
+    // Offset: 0x193EA30
     static System::Xml::XmlWriter* Create(System::IO::Stream* output, System::Xml::XmlWriterSettings* settings);
     // static public System.Xml.XmlWriter Create(System.IO.TextWriter output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x192B4A8
+    // Offset: 0x193EEEC
     static System::Xml::XmlWriter* Create(System::IO::TextWriter* output, System::Xml::XmlWriterSettings* settings);
     // public System.Void Dispose()
-    // Offset: 0x192AF84
+    // Offset: 0x193E9C8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -133,12 +131,12 @@ namespace System::Xml {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x192B7B0
+    // Offset: 0x193F1F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static XmlWriter* New_ctor();
   }; // System.Xml.XmlWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriter*, "System.Xml", "XmlWriter");
 #pragma pack(pop)

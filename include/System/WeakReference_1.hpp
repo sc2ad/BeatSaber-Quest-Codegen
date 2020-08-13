@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle

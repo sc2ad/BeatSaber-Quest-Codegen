@@ -27,6 +27,6 @@ namespace OVR::OpenVR {
     D3D12TextureData_t(System::IntPtr m_pResource_ = {}, System::IntPtr m_pCommandQueue_ = {}, uint m_nNodeMask_ = {}) : m_pResource{m_pResource_}, m_pCommandQueue{m_pCommandQueue_}, m_nNodeMask{m_nNodeMask_} {}
   }; // OVR.OpenVR.D3D12TextureData_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::D3D12TextureData_t, "OVR.OpenVR", "D3D12TextureData_t");
 #pragma pack(pop)

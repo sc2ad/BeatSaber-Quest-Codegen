@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Offset: 0x38
     bool rotatingLasers;
     // protected System.Void Awake()
-    // Offset: 0xBD6744
+    // Offset: 0xBE9188
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xBD6974
+    // Offset: 0xBE93B8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBD6C04
+    // Offset: 0xBE9648
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -65,6 +65,6 @@ namespace GlobalNamespace {
     static EventsTestGameplayManager* New_ctor();
   }; // EventsTestGameplayManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestGameplayManager*, "", "EventsTestGameplayManager");
 #pragma pack(pop)

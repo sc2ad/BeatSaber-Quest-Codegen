@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::KeyCode keyCode;
     // private System.Void Update()
-    // Offset: 0xCA5AE0
+    // Offset: 0xCB8524
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCA5B0C
+    // Offset: 0xCB8550
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -32,6 +32,6 @@ namespace GlobalNamespace {
     static ResetPlayerPrefsOnButton* New_ctor();
   }; // ResetPlayerPrefsOnButton
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPlayerPrefsOnButton*, "", "ResetPlayerPrefsOnButton");
 #pragma pack(pop)

@@ -53,21 +53,21 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x58
     NUnit::Framework::Internal::Commands::TestCommand* m_Command;
     // static public UnityEngine.MonoBehaviour get_monoBehaviourCoroutineRunner()
-    // Offset: 0xE1C764
+    // Offset: 0xE2F1A8
     static UnityEngine::MonoBehaviour* get_monoBehaviourCoroutineRunner();
     // static public System.Void set_monoBehaviourCoroutineRunner(UnityEngine.MonoBehaviour value)
-    // Offset: 0xE1C830
+    // Offset: 0xE2F274
     static void set_monoBehaviourCoroutineRunner(UnityEngine::MonoBehaviour* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0xE1C888
+    // Offset: 0xE2F2CC
     static CoroutineTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter);
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0xE1D144
+    // Offset: 0xE2FB88
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CoroutineTestWorkItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem");
 #pragma pack(pop)

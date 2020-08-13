@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OnlineServices.API.IUserLoginDtoDataSource
 #include "OnlineServices/API/IUserLoginDtoDataSource.hpp"
 // Including type: PlatformUserModelSO
@@ -80,31 +78,31 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::PlatformUserModelSO* platformUserModel;
     // public System.Void .ctor(PlatformUserModelSO platformUserModel)
-    // Offset: 0xC38CD4
+    // Offset: 0xC4A718
     static UserLoginDtoDataSource* New_ctor(GlobalNamespace::PlatformUserModelSO* platformUserModel);
     // private System.Threading.Tasks.Task`1<PlatformUserModelSO/UserInfo> GetUserInfo(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC38F90
+    // Offset: 0xC4A9D4
     System::Threading::Tasks::Task_1<GlobalNamespace::PlatformUserModelSO::UserInfo*>* GetUserInfo(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<PlatformTokenInfo> GetUserAuthToken(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC39228
+    // Offset: 0xC4AC6C
     System::Threading::Tasks::Task_1<GlobalNamespace::PlatformTokenInfo*>* GetUserAuthToken(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC38D08
+    // Offset: 0xC4A74C
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<System.String> IUserLoginDtoDataSource::GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<::CsString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<LeaderboardsDTO.LoginRequestDTO> GetLoginRequestDTOAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC38E58
+    // Offset: 0xC4A89C
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<LeaderboardsDTO.LoginRequestDTO> IUserLoginDtoDataSource::GetLoginRequestDTOAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<LeaderboardsDTO::LoginRequestDTO*>* GetLoginRequestDTOAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC390DC
+    // Offset: 0xC4AB20
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<System.String[]> IUserLoginDtoDataSource::GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<::Array<::CsString*>*>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
   }; // UserLoginDtoDataSource
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource*, "", "UserLoginDtoDataSource");
 #pragma pack(pop)

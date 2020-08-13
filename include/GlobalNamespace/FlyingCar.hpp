@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Vector3 pos;
     // protected System.Void Start()
-    // Offset: 0xBDA1FC
+    // Offset: 0xBECC40
     void Start();
     // protected System.Void Update()
-    // Offset: 0xBDA35C
+    // Offset: 0xBECDA0
     void Update();
     // protected System.Void UpdatePos()
-    // Offset: 0xBDA2AC
+    // Offset: 0xBECCF0
     void UpdatePos();
     // public System.Void .ctor()
-    // Offset: 0xBDA420
+    // Offset: 0xBECE64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static FlyingCar* New_ctor();
   }; // FlyingCar
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingCar*, "", "FlyingCar");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Xml.XmlWellFormedWriter
 #include "System/Xml/XmlWellFormedWriter.hpp"
 // Completed includes
@@ -49,57 +47,57 @@ namespace System::Xml {
     // Offset: 0x2C
     int lastItem;
     // System.String get_StringValue()
-    // Offset: 0x1929AC0
+    // Offset: 0x193D504
     ::CsString* get_StringValue();
     // System.Void WriteEntityRef(System.String name)
-    // Offset: 0x1929AF0
+    // Offset: 0x193D534
     void WriteEntityRef(::CsString* name);
     // System.Void WriteCharEntity(System.Char ch)
-    // Offset: 0x1929E70
+    // Offset: 0x193D8B4
     void WriteCharEntity(::Il2CppChar ch);
     // System.Void WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
-    // Offset: 0x1929F0C
+    // Offset: 0x193D950
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // System.Void WriteWhitespace(System.String ws)
-    // Offset: 0x1929FE0
+    // Offset: 0x193DA24
     void WriteWhitespace(::CsString* ws);
     // System.Void WriteString(System.String text)
-    // Offset: 0x192A034
+    // Offset: 0x193DA78
     void WriteString(::CsString* text);
     // System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x192A0AC
+    // Offset: 0x193DAF0
     void WriteChars(::Array<::Il2CppChar>* buffer, int index, int count);
     // System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x192A1C0
+    // Offset: 0x193DC04
     void WriteRaw(::Array<::Il2CppChar>* buffer, int index, int count);
     // System.Void WriteRaw(System.String data)
-    // Offset: 0x192A288
+    // Offset: 0x193DCCC
     void WriteRaw(::CsString* data);
     // System.Void WriteValue(System.String value)
-    // Offset: 0x192A2DC
+    // Offset: 0x193DD20
     void WriteValue(::CsString* value);
     // System.Void Replay(System.Xml.XmlWriter writer)
-    // Offset: 0x192A330
+    // Offset: 0x193DD74
     void Replay(System::Xml::XmlWriter* writer);
     // System.Void Trim()
-    // Offset: 0x192A63C
+    // Offset: 0x193E080
     void Trim();
     // System.Void Clear()
-    // Offset: 0x192AAF8
+    // Offset: 0x193E53C
     void Clear();
     // private System.Void StartComplexValue()
-    // Offset: 0x1929C6C
+    // Offset: 0x193D6B0
     void StartComplexValue();
     // private System.Void AddItem(System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType type, System.Object data)
-    // Offset: 0x1929CC0
+    // Offset: 0x193D704
     void AddItem(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::CsObject* data);
     // public System.Void .ctor()
-    // Offset: 0x192AB58
+    // Offset: 0x193E59C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static XmlWellFormedWriter::AttributeValueCache* New_ctor();
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache");
 #pragma pack(pop)

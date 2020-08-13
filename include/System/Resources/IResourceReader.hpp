@@ -29,6 +29,6 @@ namespace System::Resources {
     System::Collections::IDictionaryEnumerator* GetEnumerator();
   }; // System.Resources.IResourceReader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::IResourceReader*, "System.Resources", "IResourceReader");
 #pragma pack(pop)

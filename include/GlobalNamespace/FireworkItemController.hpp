@@ -82,31 +82,31 @@ namespace GlobalNamespace {
     // Offset: 0x60
     System::Action_1<GlobalNamespace::FireworkItemController*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0xBD879C
+    // Offset: 0xBEB1E0
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0xBD8840
+    // Offset: 0xBEB284
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // protected System.Void Awake()
-    // Offset: 0xBD88E4
+    // Offset: 0xBEB328
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0xBD896C
+    // Offset: 0xBEB3B0
     void OnDisable();
     // public System.Void Fire()
-    // Offset: 0xBD8AA8
+    // Offset: 0xBEB4EC
     void Fire();
     // private System.Collections.IEnumerator FireCoroutine()
-    // Offset: 0xBD8AD4
+    // Offset: 0xBEB518
     System::Collections::IEnumerator* FireCoroutine();
     // private System.Void SetLightsColor(System.Single intensity)
-    // Offset: 0xBD89F0
+    // Offset: 0xBEB434
     void SetLightsColor(float intensity);
     // private System.Void PlayExplosionSound()
-    // Offset: 0xBD8B7C
+    // Offset: 0xBEB5C0
     void PlayExplosionSound();
     // public System.Void .ctor()
-    // Offset: 0xBD8C68
+    // Offset: 0xBEB6AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -116,6 +116,6 @@ namespace GlobalNamespace {
     static FireworkItemController* New_ctor();
   }; // FireworkItemController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController*, "", "FireworkItemController");
 #pragma pack(pop)

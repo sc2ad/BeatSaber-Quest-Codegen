@@ -36,40 +36,40 @@ namespace UnityEngine {
     // Offset: 0x18
     UnityEngine::Font::FontTextureRebuildCallback* m_FontTextureRebuildCallback;
     // static public System.Void add_textureRebuilt(System.Action`1<UnityEngine.Font> value)
-    // Offset: 0x194C760
+    // Offset: 0x195F1A4
     static void add_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
     // static public System.Void remove_textureRebuilt(System.Action`1<UnityEngine.Font> value)
-    // Offset: 0x194C814
+    // Offset: 0x195F258
     static void remove_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
     // public UnityEngine.Material get_material()
-    // Offset: 0x194C8C8
+    // Offset: 0x195F30C
     UnityEngine::Material* get_material();
     // public System.Boolean get_dynamic()
-    // Offset: 0x194C908
+    // Offset: 0x195F34C
     bool get_dynamic();
     // public System.Int32 get_fontSize()
-    // Offset: 0x194C948
+    // Offset: 0x195F38C
     int get_fontSize();
     // static System.Void InvokeTextureRebuilt_Internal(UnityEngine.Font font)
-    // Offset: 0x194CA6C
+    // Offset: 0x195F4B0
     static void InvokeTextureRebuilt_Internal(UnityEngine::Font* font);
     // public System.Boolean HasCharacter(System.Char c)
-    // Offset: 0x194CD00
+    // Offset: 0x195F744
     bool HasCharacter(::Il2CppChar c);
     // private System.Boolean HasCharacter(System.Int32 c)
-    // Offset: 0x194CD50
+    // Offset: 0x195F794
     bool HasCharacter(int c);
     // static private System.Void Internal_CreateFont(UnityEngine.Font self, System.String name)
-    // Offset: 0x194CA1C
+    // Offset: 0x195F460
     static void Internal_CreateFont(UnityEngine::Font* self, ::CsString* name);
     // public System.Void .ctor()
-    // Offset: 0x194C988
+    // Offset: 0x195F3CC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static Font* New_ctor();
   }; // UnityEngine.Font
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Font*, "UnityEngine", "Font");
 #pragma pack(pop)

@@ -23,22 +23,22 @@ namespace UnityEngine {
   class SpriteRenderer : public UnityEngine::Renderer {
     public:
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x13784F4
+    // Offset: 0x138AF38
     void set_sprite(UnityEngine::Sprite* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1378544
+    // Offset: 0x138AF88
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x13785F0
+    // Offset: 0x138B034
     void set_color(UnityEngine::Color value);
     // private System.Void get_color_Injected(UnityEngine.Color ret)
-    // Offset: 0x13785A0
+    // Offset: 0x138AFE4
     void get_color_Injected(UnityEngine::Color& ret);
     // private System.Void set_color_Injected(UnityEngine.Color value)
-    // Offset: 0x1378648
+    // Offset: 0x138B08C
     void set_color_Injected(UnityEngine::Color& value);
   }; // UnityEngine.SpriteRenderer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpriteRenderer*, "UnityEngine", "SpriteRenderer");
 #pragma pack(pop)

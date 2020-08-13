@@ -38,19 +38,19 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     bool isInitialized;
     // public UnityEngine.Color get_color()
-    // Offset: 0x181069C
+    // Offset: 0x18210E0
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1814454
+    // Offset: 0x1824E98
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1814494
+    // Offset: 0x1824ED8
     void InitIfNeeded();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1810790
+    // Offset: 0x18211D4
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x18144D4
+    // Offset: 0x1824F18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -60,6 +60,6 @@ namespace GlobalNamespace {
     static MaterialPropertyBlockColorSetter* New_ctor();
   }; // MaterialPropertyBlockColorSetter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorSetter*, "", "MaterialPropertyBlockColorSetter");
 #pragma pack(pop)

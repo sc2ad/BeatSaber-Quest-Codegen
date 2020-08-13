@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -16,16 +17,16 @@ namespace UnityEngine::Bindings {
     // Offset: 0x10
     bool WritableSelf;
     // public System.Void set_WritableSelf(System.Boolean value)
-    // Offset: 0x19593E4
+    // Offset: 0x196AE28
     void set_WritableSelf(bool value);
     // public System.Void .ctor()
-    // Offset: 0x19593F0
+    // Offset: 0x196AE34
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static NativeWritableSelfAttribute* New_ctor();
   }; // UnityEngine.Bindings.NativeWritableSelfAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");
 #pragma pack(pop)

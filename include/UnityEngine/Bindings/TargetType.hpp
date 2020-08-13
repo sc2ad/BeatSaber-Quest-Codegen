@@ -32,6 +32,6 @@ namespace UnityEngine::Bindings {
     TargetType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Bindings.TargetType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::TargetType, "UnityEngine.Bindings", "TargetType");
 #pragma pack(pop)

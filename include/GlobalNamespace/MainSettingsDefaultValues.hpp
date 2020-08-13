@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Including type: System.Int32
@@ -183,15 +181,15 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
     // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0xBEAFC4
+    // Offset: 0xBFCA08
     static void SetFixedDefaultValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0xBEB11C
+    // Offset: 0xBFCB60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MainSettingsDefaultValues* New_ctor();
   }; // MainSettingsDefaultValues
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsDefaultValues*, "", "MainSettingsDefaultValues");
 #pragma pack(pop)

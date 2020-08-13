@@ -45,12 +45,12 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPauseButtonPressDurationMultiplier
     static void _set_kPauseButtonPressDurationMultiplier(float value);
     // public override System.Void InstallBindings()
-    // Offset: 0xBDD8FC
+    // Offset: 0xBF0340
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xBDDD34
+    // Offset: 0xBF0778
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -62,6 +62,6 @@ namespace GlobalNamespace {
     static GameCoreSceneSetup* New_ctor();
   }; // GameCoreSceneSetup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetup*, "", "GameCoreSceneSetup");
 #pragma pack(pop)

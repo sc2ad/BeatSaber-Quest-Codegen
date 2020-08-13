@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
@@ -24,10 +22,10 @@ namespace RootMotion {
     // Offset: 0x1C
     UnityEngine::Quaternion q;
     // public System.Void .ctor(UnityEngine.Vector3 translation, UnityEngine.Quaternion rotation)
-    // Offset: 0x122D8B8
+    // Offset: 0x123F2FC
     static TQ* New_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation);
   }; // RootMotion.TQ
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TQ*, "RootMotion", "TQ");
 #pragma pack(pop)

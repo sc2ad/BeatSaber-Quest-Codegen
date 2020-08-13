@@ -26,13 +26,13 @@ namespace System::Runtime::InteropServices {
     // Creating value type constructor for type: HandleRef
     HandleRef(::CsObject* m_wrapper_ = {}, System::IntPtr m_handle_ = {}) : m_wrapper{m_wrapper_}, m_handle{m_handle_} {}
     // public System.Void .ctor(System.Object wrapper, System.IntPtr handle)
-    // Offset: 0xA3C518
+    // Offset: 0xA3C594
     static HandleRef* New_ctor(::CsObject* wrapper, System::IntPtr handle);
     // public System.IntPtr get_Handle()
-    // Offset: 0xA3C548
+    // Offset: 0xA3C5C4
     System::IntPtr get_Handle();
   }; // System.Runtime.InteropServices.HandleRef
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::HandleRef, "System.Runtime.InteropServices", "HandleRef");
 #pragma pack(pop)

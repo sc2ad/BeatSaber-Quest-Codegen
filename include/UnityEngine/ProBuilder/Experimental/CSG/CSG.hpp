@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
@@ -31,21 +29,21 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Set static field: static public System.Single EPSILON
     static void _set_EPSILON(float value);
     // static public UnityEngine.Mesh Union(UnityEngine.GameObject lhs, UnityEngine.GameObject rhs)
-    // Offset: 0xF7C440
+    // Offset: 0xF8DE84
     static UnityEngine::Mesh* Union(UnityEngine::GameObject* lhs, UnityEngine::GameObject* rhs);
     // static public UnityEngine.Mesh Subtract(UnityEngine.GameObject lhs, UnityEngine.GameObject rhs)
-    // Offset: 0xF7CF38
+    // Offset: 0xF8E97C
     static UnityEngine::Mesh* Subtract(UnityEngine::GameObject* lhs, UnityEngine::GameObject* rhs);
     // static public UnityEngine.Mesh Intersect(UnityEngine.GameObject lhs, UnityEngine.GameObject rhs)
-    // Offset: 0xF7D174
+    // Offset: 0xF8EBB8
     static UnityEngine::Mesh* Intersect(UnityEngine::GameObject* lhs, UnityEngine::GameObject* rhs);
     // public System.Void .ctor()
-    // Offset: 0xF7D3A8
+    // Offset: 0xF8EDEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CSG* New_ctor();
   }; // UnityEngine.ProBuilder.Experimental.CSG.CSG
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Experimental::CSG::CSG*, "UnityEngine.ProBuilder.Experimental.CSG", "CSG");
 #pragma pack(pop)

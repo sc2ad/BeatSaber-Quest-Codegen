@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _globalNoiseTextureID
     static void _set__globalNoiseTextureID(int value);
     // public System.Void SetBlueNoiseShaderParams(System.Int32 cameraPixelWidth, System.Int32 cameraPixelHeight)
-    // Offset: 0x180EF3C
+    // Offset: 0x181F980
     void SetBlueNoiseShaderParams(int cameraPixelWidth, int cameraPixelHeight);
     // public System.Void .ctor()
-    // Offset: 0x180F05C
+    // Offset: 0x181FAA0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -43,12 +43,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BlueNoiseDithering* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x180F064
+    // Offset: 0x181FAA8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BlueNoiseDithering
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithering");
 #pragma pack(pop)

@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.PlaymodeWorkItemFactory
 #include "UnityEngine/TestRunner/NUnitExtensions/Runner/PlaymodeWorkItemFactory.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem

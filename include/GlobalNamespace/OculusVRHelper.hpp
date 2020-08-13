@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: VRPlatformHelper
 #include "GlobalNamespace/VRPlatformHelper.hpp"
 // Completed includes
@@ -56,49 +54,49 @@ namespace GlobalNamespace {
     // Offset: 0x3A
     bool hasVrFocus;
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCA3204
+    // Offset: 0xCB5C48
     void add_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCA32A8
+    // Offset: 0xCB5CEC
     void remove_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCA334C
+    // Offset: 0xCB5D90
     void add_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCA33F0
+    // Offset: 0xCB5E34
     void remove_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_hmdUnmountedEvent(System.Action value)
-    // Offset: 0xCA3494
+    // Offset: 0xCB5ED8
     void add_hmdUnmountedEvent(System::Action* value);
     // public System.Void remove_hmdUnmountedEvent(System.Action value)
-    // Offset: 0xCA3538
+    // Offset: 0xCB5F7C
     void remove_hmdUnmountedEvent(System::Action* value);
     // public System.Void add_hmdMountedEvent(System.Action value)
-    // Offset: 0xCA35DC
+    // Offset: 0xCB6020
     void add_hmdMountedEvent(System::Action* value);
     // public System.Void remove_hmdMountedEvent(System.Action value)
-    // Offset: 0xCA3680
+    // Offset: 0xCB60C4
     void remove_hmdMountedEvent(System::Action* value);
     // private System.Boolean get__isOVRManagerPresent()
-    // Offset: 0xCA3724
+    // Offset: 0xCB6168
     bool get__isOVRManagerPresent();
     // public System.Void .ctor(VRPlatformHelper/XRDeviceModel currentXRDeviceModel)
-    // Offset: 0xCA37F8
+    // Offset: 0xCB623C
     static OculusVRHelper* New_ctor(GlobalNamespace::VRPlatformHelper::XRDeviceModel currentXRDeviceModel);
     // public System.Void Update()
-    // Offset: 0xCA3AC4
+    // Offset: 0xCB6508
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0xCA3CB4
+    // Offset: 0xCB66F8
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0xCA3D28
+    // Offset: 0xCB676C
     void LateUpdate();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single strength)
-    // Offset: 0xCA3D9C
+    // Offset: 0xCB67E0
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float strength);
   }; // OculusVRHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusVRHelper*, "", "OculusVRHelper");
 #pragma pack(pop)

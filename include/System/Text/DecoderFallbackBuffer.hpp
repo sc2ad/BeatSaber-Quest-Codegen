@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: System.Text
 namespace System::Text {
@@ -26,30 +24,30 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     ::Il2CppChar GetNextChar();
     // public System.Void Reset()
-    // Offset: 0x12D6108
+    // Offset: 0x12E7B4C
     void Reset();
     // System.Void InternalReset()
-    // Offset: 0x12D5138
+    // Offset: 0x12E6B7C
     void InternalReset();
     // System.Void InternalInitialize(System.Byte* byteStart, System.Char* charEnd)
-    // Offset: 0x12D4E08
+    // Offset: 0x12E684C
     void InternalInitialize(uint8_t* byteStart, ::Il2CppChar* charEnd);
     // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, System.Char* chars)
-    // Offset: 0x12D613C
+    // Offset: 0x12E7B80
     bool InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes, ::Il2CppChar*& chars);
     // System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x12D62E8
+    // Offset: 0x12E7D2C
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
     // System.Void ThrowLastBytesRecursive(System.Byte[] bytesUnknown)
-    // Offset: 0x12D647C
+    // Offset: 0x12E7EC0
     void ThrowLastBytesRecursive(::Array<uint8_t>* bytesUnknown);
     // protected System.Void .ctor()
-    // Offset: 0x12D5EE0
+    // Offset: 0x12E7924
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DecoderFallbackBuffer* New_ctor();
   }; // System.Text.DecoderFallbackBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackBuffer*, "System.Text", "DecoderFallbackBuffer");
 #pragma pack(pop)

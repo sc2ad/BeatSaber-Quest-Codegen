@@ -64,26 +64,26 @@ namespace System::Net::Sockets {
     // Set static field: static private System.Boolean THROW_ON_ABORT_RETRIES
     static void _set_THROW_ON_ABORT_RETRIES(bool value);
     // public System.Void RegisterForBlockingSyscall()
-    // Offset: 0xF5B358
+    // Offset: 0xF6CD9C
     void RegisterForBlockingSyscall();
     // public System.Void UnRegisterForBlockingSyscall()
-    // Offset: 0xF5B5FC
+    // Offset: 0xF6D040
     void UnRegisterForBlockingSyscall();
     // static private System.Void .cctor()
-    // Offset: 0xF5B79C
+    // Offset: 0xF6D1E0
     static void _cctor();
     // public System.Void .ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
-    // Offset: 0xF5AD74
+    // Offset: 0xF6C7B8
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
     static SafeSocketHandle* New_ctor(System::IntPtr preexistingHandle, bool ownsHandle);
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0xF5AE48
+    // Offset: 0xF6C88C
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // System.Net.Sockets.SafeSocketHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SafeSocketHandle*, "System.Net.Sockets", "SafeSocketHandle");
 #pragma pack(pop)

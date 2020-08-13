@@ -40,19 +40,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Action* buttonPressed;
     // public System.Void set_nameText(System.String value)
-    // Offset: 0xB40C34
+    // Offset: 0xB3EC34
     void set_nameText(::CsString* value);
     // public System.Void set_buttonPressed(System.Action value)
-    // Offset: 0xB40C50
+    // Offset: 0xB3EC50
     void set_buttonPressed(System::Action* value);
     // private System.Void Awake()
-    // Offset: 0xB40C58
+    // Offset: 0xB3EC58
     void Awake();
     // private System.Void <Awake>b__7_0()
-    // Offset: 0xB40CF4
+    // Offset: 0xB3ECF4
     void $Awake$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0xB40CEC
+    // Offset: 0xB3ECEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -62,6 +62,6 @@ namespace GlobalNamespace {
     static GuestNameButtonsListItem* New_ctor();
   }; // GuestNameButtonsListItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GuestNameButtonsListItem*, "", "GuestNameButtonsListItem");
 #pragma pack(pop)

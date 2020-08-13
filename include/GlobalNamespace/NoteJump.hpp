@@ -134,52 +134,52 @@ namespace GlobalNamespace {
     // Offset: 0xFC
     UnityEngine::Quaternion inverseWorldRotation;
     // public System.Void add_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0xC1B174
+    // Offset: 0xC2CBB8
     void add_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void remove_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0xC1B218
+    // Offset: 0xC2CC5C
     void remove_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0xC1B2BC
+    // Offset: 0xC2CD00
     void add_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0xC1B360
+    // Offset: 0xC2CDA4
     void remove_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0xC1B404
+    // Offset: 0xC2CE48
     void add_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void remove_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0xC1B4A8
+    // Offset: 0xC2CEEC
     void remove_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void add_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0xC1B54C
+    // Offset: 0xC2CF90
     void add_noteJumpDidPassHalfEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0xC1B5F0
+    // Offset: 0xC2D034
     void remove_noteJumpDidPassHalfEvent(System::Action* value);
     // public System.Single get_distanceToPlayer()
-    // Offset: 0xC1B694
+    // Offset: 0xC2D0D8
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0xC1B784
+    // Offset: 0xC2D1C8
     UnityEngine::Vector3 get_beatPos();
     // public System.Single get_jumpDuration()
-    // Offset: 0xC1B830
+    // Offset: 0xC2D274
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_moveVec()
-    // Offset: 0xC1B838
+    // Offset: 0xC2D27C
     UnityEngine::Vector3 get_moveVec();
     // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single jumpDuration, System.Single gravity, System.Single flipYSide, NoteCutDirection cutDirection, System.Single cutDirectionAngleOffset)
-    // Offset: 0xC1B844
+    // Offset: 0xC2D288
     void Init(float beatTime, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float jumpDuration, float gravity, float flipYSide, GlobalNamespace::NoteCutDirection cutDirection, float cutDirectionAngleOffset);
     // private System.Single EaseInOutQuad(System.Single t)
-    // Offset: 0xC1BB8C
+    // Offset: 0xC2D5D0
     float EaseInOutQuad(float t);
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0xC1BBBC
+    // Offset: 0xC2D600
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC1C204
+    // Offset: 0xC2DC48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -189,6 +189,6 @@ namespace GlobalNamespace {
     static NoteJump* New_ctor();
   }; // NoteJump
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJump*, "", "NoteJump");
 #pragma pack(pop)

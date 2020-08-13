@@ -54,31 +54,31 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::BeatmapDifficulty selectedDifficulty;
     // public System.Void add_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x197A01C
+    // Offset: 0xB92318
     void add_didSelectDifficultyEvent(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x197A0C0
+    // Offset: 0xB923BC
     void remove_didSelectDifficultyEvent(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* value);
     // public BeatmapDifficulty get_selectedDifficulty()
-    // Offset: 0x197A164
+    // Offset: 0xB92460
     GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
     // protected System.Void Awake()
-    // Offset: 0x197A16C
+    // Offset: 0xB92468
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x197A200
+    // Offset: 0xB924FC
     void OnDestroy();
     // private System.Int32 GetClosestDifficultyIndex(BeatmapDifficulty searchDifficulty)
-    // Offset: 0x197A2DC
+    // Offset: 0xB925D8
     int GetClosestDifficultyIndex(GlobalNamespace::BeatmapDifficulty searchDifficulty);
     // private System.Void HandleDifficultySegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x197A3E4
+    // Offset: 0xB926E0
     void HandleDifficultySegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void SetData(IDifficultyBeatmap[] difficultyBeatmaps, BeatmapDifficulty selectedDifficulty)
-    // Offset: 0x197A488
+    // Offset: 0xB92784
     void SetData(::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps, GlobalNamespace::BeatmapDifficulty selectedDifficulty);
     // public System.Void .ctor()
-    // Offset: 0x197A718
+    // Offset: 0xB92A14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -88,6 +88,6 @@ namespace GlobalNamespace {
     static BeatmapDifficultySegmentedControlController* New_ctor();
   }; // BeatmapDifficultySegmentedControlController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySegmentedControlController*, "", "BeatmapDifficultySegmentedControlController");
 #pragma pack(pop)

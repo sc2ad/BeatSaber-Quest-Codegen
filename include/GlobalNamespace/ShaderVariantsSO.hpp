@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* shaderVariants;
     // public ShaderVariantsSO/ShaderVariant[] get_shaderVariants()
-    // Offset: 0x18FB820
+    // Offset: 0x190B264
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* get_shaderVariants();
     // public System.Void Init(ShaderVariantsSO/ShaderVariant[] shaderVariants)
-    // Offset: 0x18FB828
+    // Offset: 0x190B26C
     void Init(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>* shaderVariants);
     // public System.Void .ctor()
-    // Offset: 0x18FB830
+    // Offset: 0x190B274
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -39,6 +39,6 @@ namespace GlobalNamespace {
     static ShaderVariantsSO* New_ctor();
   }; // ShaderVariantsSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO*, "", "ShaderVariantsSO");
 #pragma pack(pop)

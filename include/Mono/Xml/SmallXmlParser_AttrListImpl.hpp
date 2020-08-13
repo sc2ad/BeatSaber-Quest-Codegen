@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Mono.Xml.SmallXmlParser
 #include "Mono/Xml/SmallXmlParser.hpp"
 // Including type: Mono.Xml.SmallXmlParser/IAttrList
@@ -32,48 +30,48 @@ namespace Mono::Xml {
     // Offset: 0x18
     System::Collections::Generic::List_1<::CsString*>* attrValues;
     // System.Void Clear()
-    // Offset: 0x10A5254
+    // Offset: 0x10B5C98
     void Clear();
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x10A57B4
+    // Offset: 0x10B61F8
     void Add(::CsString* name, ::CsString* value);
     // public System.Int32 get_Length()
-    // Offset: 0x10A5834
+    // Offset: 0x10B6278
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.Int32 IAttrList::get_Length()
     int get_Length();
     // public System.String GetName(System.Int32 i)
-    // Offset: 0x10A5884
+    // Offset: 0x10B62C8
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String IAttrList::GetName(System.Int32 i)
     ::CsString* GetName(int i);
     // public System.String GetValue(System.Int32 i)
-    // Offset: 0x10A58FC
+    // Offset: 0x10B6340
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String IAttrList::GetValue(System.Int32 i)
     ::CsString* GetValue(int i);
     // public System.String GetValue(System.String name)
-    // Offset: 0x10A5974
+    // Offset: 0x10B63B8
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String IAttrList::GetValue(System.String name)
     ::CsString* GetValue(::CsString* name);
     // public System.String[] get_Names()
-    // Offset: 0x10A5A48
+    // Offset: 0x10B648C
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String[] IAttrList::get_Names()
     ::Array<::CsString*>* get_Names();
     // public System.String[] get_Values()
-    // Offset: 0x10A5AA0
+    // Offset: 0x10B64E4
     // Implemented from: Mono.Xml.SmallXmlParser/IAttrList
     // Base method: System.String[] IAttrList::get_Values()
     ::Array<::CsString*>* get_Values();
     // public System.Void .ctor()
-    // Offset: 0x10A3E1C
+    // Offset: 0x10B4860
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SmallXmlParser::AttrListImpl* New_ctor();
   }; // Mono.Xml.SmallXmlParser/AttrListImpl
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::AttrListImpl*, "Mono.Xml", "SmallXmlParser/AttrListImpl");
 #pragma pack(pop)

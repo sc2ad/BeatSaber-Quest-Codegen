@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Security.Cryptography.OidGroup
 #include "System/Security/Cryptography/OidGroup.hpp"
 // Completed includes
@@ -25,25 +23,25 @@ namespace System::Security::Cryptography {
     // Offset: 0x20
     System::Security::Cryptography::OidGroup m_group;
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x1203620
+    // Offset: 0x1216064
     static Oid* New_ctor(::CsString* oid);
     // System.Void .ctor(System.String oid, System.Security.Cryptography.OidGroup group, System.Boolean lookupFriendlyName)
-    // Offset: 0x120362C
+    // Offset: 0x1216070
     static Oid* New_ctor(::CsString* oid, System::Security::Cryptography::OidGroup group, bool lookupFriendlyName);
     // public System.Void .ctor(System.String value, System.String friendlyName)
-    // Offset: 0x12036F8
+    // Offset: 0x121613C
     static Oid* New_ctor(::CsString* value, ::CsString* friendlyName);
     // public System.Void .ctor(System.Security.Cryptography.Oid oid)
-    // Offset: 0x1201278
+    // Offset: 0x1213CBC
     static Oid* New_ctor(System::Security::Cryptography::Oid* oid);
     // public System.String get_Value()
-    // Offset: 0x1203748
+    // Offset: 0x121618C
     ::CsString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x1203750
+    // Offset: 0x1216194
     void set_Value(::CsString* value);
   }; // System.Security.Cryptography.Oid
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Oid*, "System.Security.Cryptography", "Oid");
 #pragma pack(pop)

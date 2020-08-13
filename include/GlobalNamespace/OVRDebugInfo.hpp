@@ -105,58 +105,58 @@ namespace GlobalNamespace {
     // Offset: 0xCC
     bool showVRVars;
     // private System.Void Awake()
-    // Offset: 0xCB7A14
+    // Offset: 0xCCB458
     void Awake();
     // private System.Void Update()
-    // Offset: 0xCB7C28
+    // Offset: 0xCCB66C
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0xCB83F4
+    // Offset: 0xCCBE38
     void OnDestroy();
     // private System.Void InitUIComponents()
-    // Offset: 0xCB7CF0
+    // Offset: 0xCCB734
     void InitUIComponents();
     // private System.Void UpdateVariable()
-    // Offset: 0xCB814C
+    // Offset: 0xCCBB90
     void UpdateVariable();
     // private System.Void UpdateStrings()
-    // Offset: 0xCB8190
+    // Offset: 0xCCBBD4
     void UpdateStrings();
     // private System.Void RiftPresentGUI(UnityEngine.GameObject guiMainOBj)
-    // Offset: 0xCB8C30
+    // Offset: 0xCCC674
     void RiftPresentGUI(UnityEngine::GameObject* guiMainOBj);
     // private System.Void UpdateDeviceDetection()
-    // Offset: 0xCB810C
+    // Offset: 0xCCBB50
     void UpdateDeviceDetection();
     // private UnityEngine.GameObject VariableObjectManager(UnityEngine.GameObject gameObject, System.String name, System.Single posY, System.String str, System.Int32 fontSize)
-    // Offset: 0xCB83FC
+    // Offset: 0xCCBE40
     UnityEngine::GameObject* VariableObjectManager(UnityEngine::GameObject* gameObject, ::CsString* name, float posY, ::CsString* str, int fontSize);
     // private UnityEngine.GameObject ComponentComposition(UnityEngine.GameObject GO)
-    // Offset: 0xCB8DF8
+    // Offset: 0xCCC83C
     UnityEngine::GameObject* ComponentComposition(UnityEngine::GameObject* GO);
     // private System.Void UpdateIPD()
-    // Offset: 0xCB85DC
+    // Offset: 0xCCC020
     void UpdateIPD();
     // private System.Void UpdateEyeHeightOffset()
-    // Offset: 0xCB86AC
+    // Offset: 0xCCC0F0
     void UpdateEyeHeightOffset();
     // private System.Void UpdateEyeDepthOffset()
-    // Offset: 0xCB8770
+    // Offset: 0xCCC1B4
     void UpdateEyeDepthOffset();
     // private System.Void UpdateFOV()
-    // Offset: 0xCB8834
+    // Offset: 0xCCC278
     void UpdateFOV();
     // private System.Void UpdateResolutionEyeTexture()
-    // Offset: 0xCB8948
+    // Offset: 0xCCC38C
     void UpdateResolutionEyeTexture();
     // private System.Void UpdateLatencyValues()
-    // Offset: 0xCB8B3C
+    // Offset: 0xCCC580
     void UpdateLatencyValues();
     // private System.Void UpdateFPS()
-    // Offset: 0xCB8B40
+    // Offset: 0xCCC584
     void UpdateFPS();
     // public System.Void .ctor()
-    // Offset: 0xCB9170
+    // Offset: 0xCCCBB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -166,6 +166,6 @@ namespace GlobalNamespace {
     static OVRDebugInfo* New_ctor();
   }; // OVRDebugInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugInfo*, "", "OVRDebugInfo");
 #pragma pack(pop)

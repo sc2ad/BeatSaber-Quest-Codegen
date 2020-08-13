@@ -18,23 +18,23 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static private readonly System.Char[] DirectorySeparatorChars
     static void _set_DirectorySeparatorChars(::Array<::Il2CppChar>* value);
     // protected System.String Canonicalize(System.String path)
-    // Offset: 0x106A048
+    // Offset: 0x1079A8C
     ::CsString* Canonicalize(::CsString* path);
     // static private System.Void .cctor()
-    // Offset: 0x106A364
+    // Offset: 0x1079DA8
     static void _cctor();
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x1069E40
+    // Offset: 0x1079884
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
     static PathConstraint* New_ctor(::CsString* expected);
     // protected override System.String GetStringRepresentation()
-    // Offset: 0x1069FAC
+    // Offset: 0x10799F0
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::GetStringRepresentation()
     ::CsString* GetStringRepresentation();
   }; // NUnit.Framework.Constraints.PathConstraint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::PathConstraint*, "NUnit.Framework.Constraints", "PathConstraint");
 #pragma pack(pop)

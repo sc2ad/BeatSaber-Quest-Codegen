@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -22,10 +20,10 @@ namespace System {
     // Offset: 0x18
     ::Array<::CsString*>* Names;
     // public System.Void .ctor(System.UInt64[] values, System.String[] names)
-    // Offset: 0xD8B318
+    // Offset: 0xD9ED5C
     static Enum::ValuesAndNames* New_ctor(::Array<uint64_t>* values, ::Array<::CsString*>* names);
   }; // System.Enum/ValuesAndNames
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::ValuesAndNames*, "System", "Enum/ValuesAndNames");
 #pragma pack(pop)

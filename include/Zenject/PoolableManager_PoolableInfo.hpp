@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.PoolableManager
 #include "Zenject/PoolableManager.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -30,10 +31,10 @@ namespace Zenject {
     // Creating value type constructor for type: PoolableInfo
     PoolableInfo(Zenject::IPoolable* Poolable_ = {}, int Priority_ = {}) : Poolable{Poolable_}, Priority{Priority_} {}
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
-    // Offset: 0xA385E8
+    // Offset: 0xA39664
     static PoolableManager::PoolableInfo* New_ctor(Zenject::IPoolable* poolable, int priority);
   }; // Zenject.PoolableManager/PoolableInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");
 #pragma pack(pop)

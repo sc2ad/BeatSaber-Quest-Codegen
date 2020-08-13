@@ -24,16 +24,16 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: RequestHighscoreData
     RequestHighscoreData(::CsString* Track_ = {}, ::CsString* HighscoreType_ = {}) : Track{Track_}, HighscoreType{HighscoreType_} {}
     // public System.String get_Track()
-    // Offset: 0xA5CC20
+    // Offset: 0xA5CC9C
     ::CsString* get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0xA5CC28
+    // Offset: 0xA5CCA4
     void set_Track(::CsString* value);
     // public System.Void set_HighscoreType(System.String value)
-    // Offset: 0xA5CC30
+    // Offset: 0xA5CCAC
     void set_HighscoreType(::CsString* value);
   }; // NetEase.Docker.RequestHighscoreData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::RequestHighscoreData, "NetEase.Docker", "RequestHighscoreData");
 #pragma pack(pop)

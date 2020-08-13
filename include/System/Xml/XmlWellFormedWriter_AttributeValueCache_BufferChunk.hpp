@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/AttributeValueCache
 #include "System/Xml/XmlWellFormedWriter_AttributeValueCache.hpp"
 // Completed includes
@@ -25,10 +23,10 @@ namespace System::Xml {
     // Offset: 0x1C
     int count;
     // System.Void .ctor(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x192A174
+    // Offset: 0x193DBB8
     static XmlWellFormedWriter::AttributeValueCache::BufferChunk* New_ctor(::Array<::Il2CppChar>* buffer, int index, int count);
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/BufferChunk
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/BufferChunk");
 #pragma pack(pop)

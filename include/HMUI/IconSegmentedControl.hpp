@@ -57,26 +57,26 @@ namespace HMUI {
     // Offset: 0x80
     bool isInitialized;
     // protected System.Void Init()
-    // Offset: 0xECC944
+    // Offset: 0xEDF388
     void Init();
     // public System.Void SetData(HMUI.IconSegmentedControl/DataItem[] dataItems)
-    // Offset: 0xECC964
+    // Offset: 0xEDF3A8
     void SetData(::Array<HMUI::IconSegmentedControl::DataItem*>* dataItems);
     // private HMUI.IconSegmentedControlCell InstantiateCell(UnityEngine.Object prefab)
-    // Offset: 0xECCACC
+    // Offset: 0xEDF510
     HMUI::IconSegmentedControlCell* InstantiateCell(UnityEngine::Object* prefab);
     // public System.Int32 NumberOfCells()
-    // Offset: 0xECC9BC
+    // Offset: 0xEDF400
     // Implemented from: HMUI.SegmentedControl/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
-    // Offset: 0xECC9D4
+    // Offset: 0xEDF418
     // Implemented from: HMUI.SegmentedControl/IDataSource
     // Base method: HMUI.SegmentedControlCell IDataSource::CellForCellNumber(System.Int32 cellNumber)
     HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
     // public System.Void .ctor()
-    // Offset: 0xECCC60
+    // Offset: 0xEDF6A4
     // Implemented from: HMUI.SegmentedControl
     // Base method: System.Void SegmentedControl::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -87,6 +87,6 @@ namespace HMUI {
     static IconSegmentedControl* New_ctor();
   }; // HMUI.IconSegmentedControl
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl*, "HMUI", "IconSegmentedControl");
 #pragma pack(pop)

@@ -62,40 +62,40 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Quaternion headRot;
     // public Saber get_leftSaber()
-    // Offset: 0xBC4B84
+    // Offset: 0xBD75C8
     GlobalNamespace::Saber* get_leftSaber();
     // public Saber get_rightSaber()
-    // Offset: 0xBC4B8C
+    // Offset: 0xBD75D0
     GlobalNamespace::Saber* get_rightSaber();
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0xBC4B94
+    // Offset: 0xBD75D8
     UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0xBC4BA0
+    // Offset: 0xBD75E4
     UnityEngine::Quaternion get_headRot();
     // public Saber SaberForType(SaberType saberType)
-    // Offset: 0xBC4BAC
+    // Offset: 0xBD75F0
     GlobalNamespace::Saber* SaberForType(GlobalNamespace::SaberType saberType);
     // public System.Void set_disableSabers(System.Boolean value)
-    // Offset: 0xBC4C1C
+    // Offset: 0xBD7660
     void set_disableSabers(bool value);
     // public System.Boolean get_disableSabers()
-    // Offset: 0xBC4C4C
+    // Offset: 0xBD7690
     bool get_disableSabers();
     // public System.Void OverrideHeadPos(UnityEngine.Vector3 pos)
-    // Offset: 0xBBAF28
+    // Offset: 0xBCD96C
     void OverrideHeadPos(UnityEngine::Vector3 pos);
     // protected System.Void Start()
-    // Offset: 0xBC4C54
+    // Offset: 0xBD7698
     void Start();
     // protected System.Void Update()
-    // Offset: 0xBC4C90
+    // Offset: 0xBD76D4
     void Update();
     // public System.Single MoveTowardsHead(System.Single start, System.Single end, UnityEngine.Quaternion noteInverseWorldRotation, System.Single t)
-    // Offset: 0xBC4CE8
+    // Offset: 0xBD772C
     float MoveTowardsHead(float start, float end, UnityEngine::Quaternion noteInverseWorldRotation, float t);
     // public System.Void .ctor()
-    // Offset: 0xBC4E04
+    // Offset: 0xBD7848
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -105,6 +105,6 @@ namespace GlobalNamespace {
     static PlayerController* New_ctor();
   }; // PlayerController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerController*, "", "PlayerController");
 #pragma pack(pop)

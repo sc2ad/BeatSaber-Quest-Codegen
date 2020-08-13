@@ -23,45 +23,45 @@ namespace System::IO {
     // Offset: 0x24
     int length;
     // public System.Void .ctor(System.String s)
-    // Offset: 0xFF6660
+    // Offset: 0x10060A4
     static StringReader* New_ctor(::CsString* s);
     // public override System.Void Close()
-    // Offset: 0xFF6738
+    // Offset: 0x100617C
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xFF6748
+    // Offset: 0x100618C
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0xFF6778
+    // Offset: 0x10061BC
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0xFF67B8
+    // Offset: 0x10061FC
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF6800
+    // Offset: 0x1006244
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadToEnd()
-    // Offset: 0xFF69E0
+    // Offset: 0x1006424
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
     ::CsString* ReadToEnd();
     // public override System.String ReadLine()
-    // Offset: 0xFF6A28
+    // Offset: 0x100646C
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::CsString* ReadLine();
   }; // System.IO.StringReader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringReader*, "System.IO", "StringReader");
 #pragma pack(pop)

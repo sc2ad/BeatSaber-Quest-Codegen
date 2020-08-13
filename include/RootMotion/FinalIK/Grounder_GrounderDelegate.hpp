@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: RootMotion.FinalIK.Grounder
 #include "RootMotion/FinalIK/Grounder.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace RootMotion::FinalIK {
   class Grounder::GrounderDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13591D0
+    // Offset: 0x136BC14
     static Grounder::GrounderDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x13591E4
+    // Offset: 0x136BC28
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13593F0
+    // Offset: 0x136BE34
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x135941C
+    // Offset: 0x136BE60
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.Grounder/GrounderDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounder::GrounderDelegate*, "RootMotion.FinalIK", "Grounder/GrounderDelegate");
 #pragma pack(pop)

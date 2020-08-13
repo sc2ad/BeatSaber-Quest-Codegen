@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.MeshTopology
 #include "UnityEngine/MeshTopology.hpp"
 // Completed includes
@@ -48,45 +46,45 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1C
     int m_SubmeshIndex;
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indexes()
-    // Offset: 0x18B79B0
+    // Offset: 0x18C83F4
     System::Collections::Generic::IEnumerable_1<int>* get_indexes();
     // public System.Void set_indexes(System.Collections.Generic.IEnumerable`1<System.Int32> value)
-    // Offset: 0x18B7A20
+    // Offset: 0x18C8464
     void set_indexes(System::Collections::Generic::IEnumerable_1<int>* value);
     // public UnityEngine.MeshTopology get_topology()
-    // Offset: 0x18B7A8C
+    // Offset: 0x18C84D0
     UnityEngine::MeshTopology get_topology();
     // public System.Void set_topology(UnityEngine.MeshTopology value)
-    // Offset: 0x18B7A94
+    // Offset: 0x18C84D8
     void set_topology(UnityEngine::MeshTopology value);
     // public System.Int32 get_submeshIndex()
-    // Offset: 0x18B7A9C
+    // Offset: 0x18C84E0
     int get_submeshIndex();
     // public System.Void set_submeshIndex(System.Int32 value)
-    // Offset: 0x18B7AA4
+    // Offset: 0x18C84E8
     void set_submeshIndex(int value);
     // public System.Void .ctor(System.Int32 submeshIndex, UnityEngine.MeshTopology topology, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
-    // Offset: 0x18B7AAC
+    // Offset: 0x18C84F0
     static Submesh* New_ctor(int submeshIndex, UnityEngine::MeshTopology topology, System::Collections::Generic::IEnumerable_1<int>* indexes);
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 subMeshIndex)
-    // Offset: 0x18B7B7C
+    // Offset: 0x18C85C0
     static Submesh* New_ctor(UnityEngine::Mesh* mesh, int subMeshIndex);
     // static System.Int32 GetSubmeshCount(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x18B7D88
+    // Offset: 0x18C87CC
     static int GetSubmeshCount(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public UnityEngine.ProBuilder.Submesh[] GetSubmeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Int32 submeshCount, UnityEngine.MeshTopology preferredTopology)
-    // Offset: 0x18B7E0C
+    // Offset: 0x18C8850
     static ::Array<UnityEngine::ProBuilder::Submesh*>* GetSubmeshes(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, int submeshCount, UnityEngine::MeshTopology preferredTopology);
     // static System.Void MapFaceMaterialsToSubmeshIndex(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x18B87BC
+    // Offset: 0x18C9200
     static void MapFaceMaterialsToSubmeshIndex(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // public override System.String ToString()
-    // Offset: 0x18B7C84
+    // Offset: 0x18C86C8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // UnityEngine.ProBuilder.Submesh
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Submesh*, "UnityEngine.ProBuilder", "Submesh");
 #pragma pack(pop)

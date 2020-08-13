@@ -42,16 +42,16 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0xB87CD0
+    // Offset: 0xB99714
     static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0xB87D3C
+    // Offset: 0xB99780
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xB87DF8
+    // Offset: 0xB9983C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB87F18
+    // Offset: 0xB9995C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -60,12 +60,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Spectrogram* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xB87F20
+    // Offset: 0xB99964
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Spectrogram
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Spectrogram*, "", "Spectrogram");
 #pragma pack(pop)

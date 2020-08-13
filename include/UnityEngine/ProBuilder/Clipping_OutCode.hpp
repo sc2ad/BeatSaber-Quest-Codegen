@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.ProBuilder.Clipping
 #include "UnityEngine/ProBuilder/Clipping.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
@@ -52,6 +52,6 @@ namespace UnityEngine::ProBuilder {
     OutCode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.Clipping/OutCode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Clipping::OutCode, "UnityEngine.ProBuilder", "Clipping/OutCode");
 #pragma pack(pop)

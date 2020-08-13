@@ -32,6 +32,6 @@ namespace UnityEngine::Experimental::Rendering {
     DefaultFormat(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.Rendering.DefaultFormat
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::DefaultFormat, "UnityEngine.Experimental.Rendering", "DefaultFormat");
 #pragma pack(pop)

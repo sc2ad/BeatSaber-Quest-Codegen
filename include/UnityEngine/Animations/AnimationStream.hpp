@@ -39,6 +39,6 @@ namespace UnityEngine::Animations {
     AnimationStream(uint m_AnimatorBindingsVersion_ = {}, System::IntPtr constant_ = {}, System::IntPtr input_ = {}, System::IntPtr output_ = {}, System::IntPtr workspace_ = {}, System::IntPtr inputStreamAccessor_ = {}, System::IntPtr animationHandleBinder_ = {}) : m_AnimatorBindingsVersion{m_AnimatorBindingsVersion_}, constant{constant_}, input{input_}, output{output_}, workspace{workspace_}, inputStreamAccessor{inputStreamAccessor_}, animationHandleBinder{animationHandleBinder_} {}
   }; // UnityEngine.Animations.AnimationStream
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationStream, "UnityEngine.Animations", "AnimationStream");
 #pragma pack(pop)

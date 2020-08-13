@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Timeline.AnimationTrack
 #include "UnityEngine/Timeline/AnimationTrack.hpp"
 // Completed includes
@@ -16,16 +14,16 @@ namespace UnityEngine::Timeline {
   class AnimationTrack::AnimationTrackUpgrade : public ::CsObject {
     public:
     // static public System.Void ConvertRotationsToEuler(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x107E5E4
+    // Offset: 0x108E028
     static void ConvertRotationsToEuler(UnityEngine::Timeline::AnimationTrack* track);
     // static public System.Void ConvertRootMotion(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x107E630
+    // Offset: 0x108E074
     static void ConvertRootMotion(UnityEngine::Timeline::AnimationTrack* track);
     // static public System.Void ConvertInfiniteTrack(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x107E6C8
+    // Offset: 0x108E10C
     static void ConvertInfiniteTrack(UnityEngine::Timeline::AnimationTrack* track);
   }; // UnityEngine.Timeline.AnimationTrack/AnimationTrackUpgrade
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack::AnimationTrackUpgrade*, "UnityEngine.Timeline", "AnimationTrack/AnimationTrackUpgrade");
 #pragma pack(pop)

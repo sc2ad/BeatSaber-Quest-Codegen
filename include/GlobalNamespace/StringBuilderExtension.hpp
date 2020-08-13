@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -25,19 +23,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Char[] charToInt
     static void _set_charToInt(::Array<::Il2CppChar>* value);
     // static public System.Void Swap(System.Text.StringBuilder sb, System.Int32 startIndex, System.Int32 endIndex)
-    // Offset: 0xCA7C3C
+    // Offset: 0xCBA680
     static void Swap(System::Text::StringBuilder* sb, int startIndex, int endIndex);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.Int32 number)
-    // Offset: 0xCA7CF4
+    // Offset: 0xCBA738
     static void AppendNumber(System::Text::StringBuilder* sb, int number);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.UInt32 unumber)
-    // Offset: 0xCA7E3C
+    // Offset: 0xCBA880
     static void AppendNumber(System::Text::StringBuilder* sb, uint unumber);
     // static private System.Void .cctor()
-    // Offset: 0xCA7F68
+    // Offset: 0xCBA9AC
     static void _cctor();
   }; // StringBuilderExtension
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringBuilderExtension*, "", "StringBuilderExtension");
 #pragma pack(pop)

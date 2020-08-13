@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Text.EncoderNLS
-#include "System/Text/EncoderNLS.hpp"
 // Including type: System.Text.UTF7Encoding
 #include "System/Text/UTF7Encoding.hpp"
+// Including type: System.Text.EncoderNLS
+#include "System/Text/EncoderNLS.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -31,30 +31,30 @@ namespace System::Text {
     // Offset: 0x3C
     int bitCount;
     // public System.Void .ctor(System.Text.UTF7Encoding encoding)
-    // Offset: 0x13B79A4
+    // Offset: 0x13C83E8
     static UTF7Encoding::Encoder* New_ctor(System::Text::UTF7Encoding* encoding);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13B80B0
+    // Offset: 0x13C8AF4
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static UTF7Encoding::Encoder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13B82A4
+    // Offset: 0x13C8CE8
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void Reset()
-    // Offset: 0x13B8380
+    // Offset: 0x13C8DC4
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x13B83A4
+    // Offset: 0x13C8DE8
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Boolean EncoderNLS::get_HasState()
     bool get_HasState();
   }; // System.Text.UTF7Encoding/Encoder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::Encoder*, "System.Text", "UTF7Encoding/Encoder");
 #pragma pack(pop)

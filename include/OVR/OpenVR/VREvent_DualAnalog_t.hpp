@@ -34,6 +34,6 @@ namespace OVR::OpenVR {
     VREvent_DualAnalog_t(float x_ = {}, float y_ = {}, float transformedX_ = {}, float transformedY_ = {}, OVR::OpenVR::EDualAnalogWhich which_ = {}) : x{x_}, y{y_}, transformedX{transformedX_}, transformedY{transformedY_}, which{which_} {}
   }; // OVR.OpenVR.VREvent_DualAnalog_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_DualAnalog_t, "OVR.OpenVR", "VREvent_DualAnalog_t");
 #pragma pack(pop)

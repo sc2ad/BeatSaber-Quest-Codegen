@@ -21,16 +21,16 @@ namespace UnityEngine::Audio {
   class AudioMixer : public UnityEngine::Object {
     public:
     // public System.Void set_updateMode(UnityEngine.Audio.AudioMixerUpdateMode value)
-    // Offset: 0x1941944
+    // Offset: 0x1954388
     void set_updateMode(UnityEngine::Audio::AudioMixerUpdateMode value);
     // public System.Boolean SetFloat(System.String name, System.Single value)
-    // Offset: 0x1941994
+    // Offset: 0x19543D8
     bool SetFloat(::CsString* name, float value);
     // public System.Boolean GetFloat(System.String name, System.Single value)
-    // Offset: 0x19419F4
+    // Offset: 0x1954438
     bool GetFloat(::CsString* name, float& value);
   }; // UnityEngine.Audio.AudioMixer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixer*, "UnityEngine.Audio", "AudioMixer");
 #pragma pack(pop)

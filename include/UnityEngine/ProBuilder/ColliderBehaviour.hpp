@@ -23,22 +23,22 @@ namespace UnityEngine::ProBuilder {
   class ColliderBehaviour : public UnityEngine::ProBuilder::EntityBehaviour {
     public:
     // public override System.Void Initialize()
-    // Offset: 0x1519738
+    // Offset: 0x152917C
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::Initialize()
     void Initialize();
     // public override System.Void OnEnterPlayMode()
-    // Offset: 0x15198B0
+    // Offset: 0x15292F4
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::OnEnterPlayMode()
     void OnEnterPlayMode();
     // public override System.Void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x1519960
+    // Offset: 0x15293A4
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode);
     // public System.Void .ctor()
-    // Offset: 0x1519A10
+    // Offset: 0x1529454
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -49,6 +49,6 @@ namespace UnityEngine::ProBuilder {
     static ColliderBehaviour* New_ctor();
   }; // UnityEngine.ProBuilder.ColliderBehaviour
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColliderBehaviour*, "UnityEngine.ProBuilder", "ColliderBehaviour");
 #pragma pack(pop)

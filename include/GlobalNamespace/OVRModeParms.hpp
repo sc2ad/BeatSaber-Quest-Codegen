@@ -19,16 +19,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::OVRInput::RawButton resetButton;
     // private System.Void Start()
-    // Offset: 0xED7D38
+    // Offset: 0xEE977C
     void Start();
     // private System.Void Update()
-    // Offset: 0xED7DD8
+    // Offset: 0xEE981C
     void Update();
     // private System.Void TestPowerStateMode()
-    // Offset: 0xED7F58
+    // Offset: 0xEE999C
     void TestPowerStateMode();
     // public System.Void .ctor()
-    // Offset: 0xED8094
+    // Offset: 0xEE9AD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -38,6 +38,6 @@ namespace GlobalNamespace {
     static OVRModeParms* New_ctor();
   }; // OVRModeParms
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRModeParms*, "", "OVRModeParms");
 #pragma pack(pop)

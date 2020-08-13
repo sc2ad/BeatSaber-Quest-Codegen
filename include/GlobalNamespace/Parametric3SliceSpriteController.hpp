@@ -94,34 +94,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 _instanceCount
     static void _set__instanceCount(int value);
     // static private System.Void RuntimeInit()
-    // Offset: 0x1814994
+    // Offset: 0x18253D8
     static void RuntimeInit();
     // protected System.Void Awake()
-    // Offset: 0x1814A1C
+    // Offset: 0x1825460
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1815150
+    // Offset: 0x1825B94
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x18151D0
+    // Offset: 0x1825C14
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1815484
+    // Offset: 0x1825EC8
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1815540
+    // Offset: 0x1825F84
     void OnDestroy();
     // private System.Void Init()
-    // Offset: 0x1814BA8
+    // Offset: 0x18255EC
     void Init();
     // private UnityEngine.Mesh CreateMesh()
-    // Offset: 0x1814C48
+    // Offset: 0x182568C
     UnityEngine::Mesh* CreateMesh();
     // public System.Void Refresh()
-    // Offset: 0x1815264
+    // Offset: 0x1825CA8
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x18155E0
+    // Offset: 0x1826024
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -130,12 +130,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Parametric3SliceSpriteController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18155FC
+    // Offset: 0x1826040
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Parametric3SliceSpriteController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Parametric3SliceSpriteController*, "", "Parametric3SliceSpriteController");
 #pragma pack(pop)

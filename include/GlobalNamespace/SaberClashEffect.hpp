@@ -55,16 +55,16 @@ namespace GlobalNamespace {
     // Offset: 0x50
     bool sabersAreClashing;
     // protected System.Void Start()
-    // Offset: 0xC128D8
+    // Offset: 0xC2431C
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0xC12AB4
+    // Offset: 0xC244F8
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xC12AC4
+    // Offset: 0xC24508
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC12BC0
+    // Offset: 0xC24604
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,6 +74,6 @@ namespace GlobalNamespace {
     static SaberClashEffect* New_ctor();
   }; // SaberClashEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashEffect*, "", "SaberClashEffect");
 #pragma pack(pop)

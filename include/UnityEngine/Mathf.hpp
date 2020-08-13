@@ -23,124 +23,124 @@ namespace UnityEngine {
     // Creating value type constructor for type: Mathf
     Mathf() {}
     // static public System.Int32 NextPowerOfTwo(System.Int32 value)
-    // Offset: 0x13F6C78
+    // Offset: 0x14076BC
     static int NextPowerOfTwo(int value);
     // static public System.Single GammaToLinearSpace(System.Single value)
-    // Offset: 0x13F6CB8
+    // Offset: 0x14076FC
     static float GammaToLinearSpace(float value);
     // static public System.Single Sin(System.Single f)
-    // Offset: 0x13F6CFC
+    // Offset: 0x1407740
     static float Sin(float f);
     // static public System.Single Cos(System.Single f)
-    // Offset: 0x13F6D70
+    // Offset: 0x14077B4
     static float Cos(float f);
     // static public System.Single Tan(System.Single f)
-    // Offset: 0x13F6DE4
+    // Offset: 0x1407828
     static float Tan(float f);
     // static public System.Single Asin(System.Single f)
-    // Offset: 0x13F6E58
+    // Offset: 0x140789C
     static float Asin(float f);
     // static public System.Single Acos(System.Single f)
-    // Offset: 0x13F6ECC
+    // Offset: 0x1407910
     static float Acos(float f);
     // static public System.Single Atan(System.Single f)
-    // Offset: 0x13F6F40
+    // Offset: 0x1407984
     static float Atan(float f);
     // static public System.Single Atan2(System.Single y, System.Single x)
-    // Offset: 0x13F6FB4
+    // Offset: 0x14079F8
     static float Atan2(float y, float x);
     // static public System.Single Sqrt(System.Single f)
-    // Offset: 0x13F7030
+    // Offset: 0x1407A74
     static float Sqrt(float f);
     // static public System.Single Abs(System.Single f)
-    // Offset: 0x13F70B8
+    // Offset: 0x1407AFC
     static float Abs(float f);
     // static public System.Int32 Abs(System.Int32 value)
-    // Offset: 0x13F7124
+    // Offset: 0x1407B68
     static int Abs(int value);
     // static public System.Single Min(System.Single a, System.Single b)
-    // Offset: 0x13F718C
+    // Offset: 0x1407BD0
     static float Min(float a, float b);
     // static public System.Int32 Min(System.Int32 a, System.Int32 b)
-    // Offset: 0x13F7198
+    // Offset: 0x1407BDC
     static int Min(int a, int b);
     // static public System.Single Max(System.Single a, System.Single b)
-    // Offset: 0x13F71A4
+    // Offset: 0x1407BE8
     static float Max(float a, float b);
     // static public System.Single Max(System.Single[] values)
-    // Offset: 0x13F71B0
+    // Offset: 0x1407BF4
     static float Max(::Array<float>* values);
     // static public System.Int32 Max(System.Int32 a, System.Int32 b)
-    // Offset: 0x13F7204
+    // Offset: 0x1407C48
     static int Max(int a, int b);
     // static public System.Single Pow(System.Single f, System.Single p)
-    // Offset: 0x13F7210
+    // Offset: 0x1407C54
     static float Pow(float f, float p);
     // static public System.Single Log(System.Single f, System.Single p)
-    // Offset: 0x13F7290
+    // Offset: 0x1407CD4
     static float Log(float f, float p);
     // static public System.Single Ceil(System.Single f)
-    // Offset: 0x13F7310
+    // Offset: 0x1407D54
     static float Ceil(float f);
     // static public System.Single Floor(System.Single f)
-    // Offset: 0x13F737C
+    // Offset: 0x1407DC0
     static float Floor(float f);
     // static public System.Single Round(System.Single f)
-    // Offset: 0x13F73E8
+    // Offset: 0x1407E2C
     static float Round(float f);
     // static public System.Int32 CeilToInt(System.Single f)
-    // Offset: 0x13F74C0
+    // Offset: 0x1407F04
     static int CeilToInt(float f);
     // static public System.Int32 FloorToInt(System.Single f)
-    // Offset: 0x13F752C
+    // Offset: 0x1407F70
     static int FloorToInt(float f);
     // static public System.Int32 RoundToInt(System.Single f)
-    // Offset: 0x13F7598
+    // Offset: 0x1407FDC
     static int RoundToInt(float f);
     // static public System.Single Sign(System.Single f)
-    // Offset: 0x13F7670
+    // Offset: 0x14080B4
     static float Sign(float f);
     // static public System.Single Clamp(System.Single value, System.Single min, System.Single max)
-    // Offset: 0x13F7684
+    // Offset: 0x14080C8
     static float Clamp(float value, float min, float max);
     // static public System.Int32 Clamp(System.Int32 value, System.Int32 min, System.Int32 max)
-    // Offset: 0x13F76A0
+    // Offset: 0x14080E4
     static int Clamp(int value, int min, int max);
     // static public System.Single Clamp01(System.Single value)
-    // Offset: 0x13F76BC
+    // Offset: 0x1408100
     static float Clamp01(float value);
     // static public System.Single Lerp(System.Single a, System.Single b, System.Single t)
-    // Offset: 0x13F76D8
+    // Offset: 0x140811C
     static float Lerp(float a, float b, float t);
     // static public System.Single LerpUnclamped(System.Single a, System.Single b, System.Single t)
-    // Offset: 0x13F7770
+    // Offset: 0x14081B4
     static float LerpUnclamped(float a, float b, float t);
     // static public System.Single MoveTowards(System.Single current, System.Single target, System.Single maxDelta)
-    // Offset: 0x13F7780
+    // Offset: 0x14081C4
     static float MoveTowards(float current, float target, float maxDelta);
     // static public System.Boolean Approximately(System.Single a, System.Single b)
-    // Offset: 0x13F783C
+    // Offset: 0x1408280
     static bool Approximately(float a, float b);
     // static public System.Single SmoothDamp(System.Single current, System.Single target, System.Single currentVelocity, System.Single smoothTime)
-    // Offset: 0x13F78EC
+    // Offset: 0x1408330
     static float SmoothDamp(float current, float target, float& currentVelocity, float smoothTime);
     // static public System.Single SmoothDamp(System.Single current, System.Single target, System.Single currentVelocity, System.Single smoothTime, System.Single maxSpeed, System.Single deltaTime)
-    // Offset: 0x13F7990
+    // Offset: 0x14083D4
     static float SmoothDamp(float current, float target, float& currentVelocity, float smoothTime, float maxSpeed, float deltaTime);
     // static public System.Single Repeat(System.Single t, System.Single length)
-    // Offset: 0x13F7AE4
+    // Offset: 0x1408528
     static float Repeat(float t, float length);
     // static public System.Single InverseLerp(System.Single a, System.Single b, System.Single value)
-    // Offset: 0x13F7B74
+    // Offset: 0x14085B8
     static float InverseLerp(float a, float b, float value);
     // static public System.Single DeltaAngle(System.Single current, System.Single target)
-    // Offset: 0x13F7C18
+    // Offset: 0x140865C
     static float DeltaAngle(float current, float target);
     // static private System.Void .cctor()
-    // Offset: 0x13F7CB0
+    // Offset: 0x14086F4
     static void _cctor();
   }; // UnityEngine.Mathf
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mathf, "UnityEngine", "Mathf");
 #pragma pack(pop)

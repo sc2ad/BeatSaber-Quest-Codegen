@@ -32,6 +32,6 @@ namespace System::Xml {
     ExceptionType(int value_ = {}) : value{value_} {}
   }; // System.Xml.ExceptionType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ExceptionType, "System.Xml", "ExceptionType");
 #pragma pack(pop)

@@ -57,28 +57,28 @@ namespace GlobalNamespace {
     // Offset: 0x40
     float progressTarget;
     // protected System.Void Start()
-    // Offset: 0xC17554
+    // Offset: 0xC28F98
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xC17748
+    // Offset: 0xC2918C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC1774C
+    // Offset: 0xC29190
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0xC17634
+    // Offset: 0xC29078
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0xC17750
+    // Offset: 0xC29194
     void UnregisterFromEvents();
     // protected System.Void Update()
-    // Offset: 0xC17828
+    // Offset: 0xC2926C
     void Update();
     // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single progress)
-    // Offset: 0xC17934
+    // Offset: 0xC29378
     void HandleMultiplierDidChange(int multiplier, float progress);
     // public System.Void .ctor()
-    // Offset: 0xC17A14
+    // Offset: 0xC29458
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -88,6 +88,6 @@ namespace GlobalNamespace {
     static ScoreMultiplierUIController* New_ctor();
   }; // ScoreMultiplierUIController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMultiplierUIController*, "", "ScoreMultiplierUIController");
 #pragma pack(pop)

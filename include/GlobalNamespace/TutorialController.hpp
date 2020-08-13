@@ -71,31 +71,31 @@ namespace GlobalNamespace {
     // Offset: 0x51
     bool doingOutroTransition;
     // protected System.Void Start()
-    // Offset: 0xC33374
+    // Offset: 0xC44DB8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC33514
+    // Offset: 0xC44F58
     void OnDestroy();
     // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0xC33758
+    // Offset: 0xC4519C
     void HandleIntroTutorialDidFinishEvent();
     // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0xC33778
+    // Offset: 0xC451BC
     void HandleTutorialSongControllerSongDidFinishEvent();
     // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0xC337C4
+    // Offset: 0xC45208
     System::Collections::IEnumerator* OutroCoroutine();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0xC3386C
+    // Offset: 0xC452B0
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0xC338F8
+    // Offset: 0xC4533C
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0xC33904
+    // Offset: 0xC45348
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0xC3390C
+    // Offset: 0xC45350
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -105,6 +105,6 @@ namespace GlobalNamespace {
     static TutorialController* New_ctor();
   }; // TutorialController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialController*, "", "TutorialController");
 #pragma pack(pop)

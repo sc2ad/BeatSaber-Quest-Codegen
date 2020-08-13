@@ -38,6 +38,6 @@ namespace UnityEngine::SceneManagement {
     LocalPhysicsMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.SceneManagement.LocalPhysicsMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LocalPhysicsMode, "UnityEngine.SceneManagement", "LocalPhysicsMode");
 #pragma pack(pop)

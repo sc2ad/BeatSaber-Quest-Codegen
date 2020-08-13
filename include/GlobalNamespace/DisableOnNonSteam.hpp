@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class DisableOnNonSteam : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void Awake()
-    // Offset: 0xBD2A78
+    // Offset: 0xBE54BC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xBD2AA0
+    // Offset: 0xBE54E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -27,6 +27,6 @@ namespace GlobalNamespace {
     static DisableOnNonSteam* New_ctor();
   }; // DisableOnNonSteam
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableOnNonSteam*, "", "DisableOnNonSteam");
 #pragma pack(pop)

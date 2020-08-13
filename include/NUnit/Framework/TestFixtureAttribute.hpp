@@ -70,32 +70,32 @@ namespace NUnit::Framework {
     // Offset: 0x30
     ::Array<System::Type*>* TypeArgs;
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0x18E2590
+    // Offset: 0x18F2FD4
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: NUnit.Framework.Interfaces.RunState ITestData::get_RunState()
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Object[] get_Arguments()
-    // Offset: 0x18E2598
+    // Offset: 0x18F2FDC
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: System.Object[] ITestData::get_Arguments()
     ::Array<::CsObject*>* get_Arguments();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0x18E25A0
+    // Offset: 0x18F2FE4
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: NUnit.Framework.Interfaces.IPropertyBag ITestData::get_Properties()
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // public System.Type[] get_TypeArgs()
-    // Offset: 0x18E25A8
+    // Offset: 0x18F2FEC
     // Implemented from: NUnit.Framework.Interfaces.ITestFixtureData
     // Base method: System.Type[] ITestFixtureData::get_TypeArgs()
     ::Array<System::Type*>* get_TypeArgs();
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x18E25B0
+    // Offset: 0x18F2FF4
     // Implemented from: NUnit.Framework.Interfaces.IFixtureBuilder
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> IFixtureBuilder::BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
   }; // NUnit.Framework.TestFixtureAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute*, "NUnit.Framework", "TestFixtureAttribute");
 #pragma pack(pop)

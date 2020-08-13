@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.GenericPoser
 #include "RootMotion/FinalIK/GenericPoser.hpp"
 // Completed includes
@@ -35,19 +33,19 @@ namespace RootMotion::FinalIK {
     // Offset: 0x2C
     UnityEngine::Quaternion defaultLocalRotation;
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform target)
-    // Offset: 0x1358714
+    // Offset: 0x136B158
     static GenericPoser::Map* New_ctor(UnityEngine::Transform* bone, UnityEngine::Transform* target);
     // public System.Void StoreDefaultState()
-    // Offset: 0x1358B34
+    // Offset: 0x136B578
     void StoreDefaultState();
     // public System.Void FixTransform()
-    // Offset: 0x1358AE8
+    // Offset: 0x136B52C
     void FixTransform();
     // public System.Void Update(System.Single localRotationWeight, System.Single localPositionWeight)
-    // Offset: 0x13588E0
+    // Offset: 0x136B324
     void Update(float localRotationWeight, float localPositionWeight);
   }; // RootMotion.FinalIK.GenericPoser/Map
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser::Map*, "RootMotion.FinalIK", "GenericPoser/Map");
 #pragma pack(pop)

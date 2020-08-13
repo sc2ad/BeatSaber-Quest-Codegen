@@ -46,19 +46,19 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     int showAnimatorParam;
     // public System.Void set_Show(System.Boolean value)
-    // Offset: 0xCA6880
+    // Offset: 0xCB92C4
     void set_Show(bool value);
     // public System.Boolean get_Show()
-    // Offset: 0xCA69E0
+    // Offset: 0xCB9424
     bool get_Show();
     // protected System.Void Awake()
-    // Offset: 0xCA69E8
+    // Offset: 0xCB942C
     void Awake();
     // private System.Collections.IEnumerator DeactivateSelfAfterDelayCoroutine(System.Single delay)
-    // Offset: 0xCA6A64
+    // Offset: 0xCB94A8
     System::Collections::IEnumerator* DeactivateSelfAfterDelayCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0xCA6B1C
+    // Offset: 0xCB9560
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -68,6 +68,6 @@ namespace GlobalNamespace {
     static ShowHideAnimationController* New_ctor();
   }; // ShowHideAnimationController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowHideAnimationController*, "", "ShowHideAnimationController");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
@@ -125,51 +123,51 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     UnityEngine::Vector3 centerPos;
     // public System.Single get_spawnAheadTime()
-    // Offset: 0xB5C0C0
+    // Offset: 0xB5A0C0
     float get_spawnAheadTime();
     // public System.Single get_moveDuration()
-    // Offset: 0xB5C0C8
+    // Offset: 0xB5A0C8
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0xB5C0D0
+    // Offset: 0xB5A0D0
     float get_jumpDuration();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0xB5C0D8
+    // Offset: 0xB5A0D8
     float get_noteLinesDistance();
     // public System.Void Init(System.Int32 noteLinesCount, System.Single startNoteJumpMovementSpeed, System.Single startBPM, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY, UnityEngine.Vector3 centerPos, UnityEngine.Vector3 rightVec, UnityEngine.Vector3 forwardVec)
-    // Offset: 0xB5AEDC
+    // Offset: 0xB58EDC
     void Init(int noteLinesCount, float startNoteJumpMovementSpeed, float startBPM, float noteJumpStartBeatOffset, float jumpOffsetY, UnityEngine::Vector3 centerPos, UnityEngine::Vector3 rightVec, UnityEngine::Vector3 forwardVec);
     // public System.Void Update(System.Single bpm, System.Single jumpOffsetY)
-    // Offset: 0xB5BA20
+    // Offset: 0xB59A20
     void Update(float bpm, float jumpOffsetY);
     // public System.Void GetObstacleSpawnMovementData(ObstacleData obstacleData, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight)
-    // Offset: 0xB5B2E8
+    // Offset: 0xB592E8
     void GetObstacleSpawnMovementData(GlobalNamespace::ObstacleData* obstacleData, UnityEngine::Vector3& moveStartPos, UnityEngine::Vector3& moveEndPos, UnityEngine::Vector3& jumpEndPos, float& obstacleHeight);
     // public System.Void GetNoteSpawnMovementData(NoteData noteData, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity)
-    // Offset: 0xB5B7A4
+    // Offset: 0xB597A4
     void GetNoteSpawnMovementData(GlobalNamespace::NoteData* noteData, UnityEngine::Vector3& moveStartPos, UnityEngine::Vector3& moveEndPos, UnityEngine::Vector3& jumpEndPos, float& jumpGravity);
     // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0xB5C0E0
+    // Offset: 0xB5A0E0
     UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0xB5B0B8
+    // Offset: 0xB590B8
     UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // private System.Single HighestJumpPosYForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0xB5C32C
+    // Offset: 0xB5A32C
     float HighestJumpPosYForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single LineYPosForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0xB5C304
+    // Offset: 0xB5A304
     float LineYPosForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer startLineLayer)
-    // Offset: 0xB5C214
+    // Offset: 0xB5A214
     float NoteJumpGravityForLineLayer(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer startLineLayer);
     // public System.Void .ctor()
-    // Offset: 0xB5BDAC
+    // Offset: 0xB59DAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectSpawnMovementData* New_ctor();
   }; // BeatmapObjectSpawnMovementData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData*, "", "BeatmapObjectSpawnMovementData");
 #pragma pack(pop)

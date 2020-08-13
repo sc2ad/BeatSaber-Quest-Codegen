@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Completed includes
@@ -72,40 +70,40 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Nested type: UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c
     class $$c;
     // static public UnityEngine.ProBuilder.Face[] ToTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x100C8DC
+    // Offset: 0x101C320
     static ::Array<UnityEngine::ProBuilder::Face*>* ToTriangles(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* faces);
     // static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.FaceRebuildData> BreakFaceIntoTris(UnityEngine.ProBuilder.Face face, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup)
-    // Offset: 0x100CD80
+    // Offset: 0x101C7C4
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::FaceRebuildData*>* BreakFaceIntoTris(UnityEngine::ProBuilder::Face* face, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::Dictionary_2<int, int>* lookup);
     // static public UnityEngine.ProBuilder.WindingOrder GetWindingOrder(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x100D154
+    // Offset: 0x101CB98
     static UnityEngine::ProBuilder::WindingOrder GetWindingOrder(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // static private UnityEngine.ProBuilder.WindingOrder GetWindingOrder(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x100D430
+    // Offset: 0x101CE74
     static UnityEngine::ProBuilder::WindingOrder GetWindingOrder(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.ProBuilder.WindingOrder GetWindingOrder(System.Collections.Generic.IList`1<UnityEngine.Vector2> points)
-    // Offset: 0x100D198
+    // Offset: 0x101CBDC
     static UnityEngine::ProBuilder::WindingOrder GetWindingOrder(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points);
     // static public System.Boolean FlipEdge(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x100D5B0
+    // Offset: 0x101CFF4
     static bool FlipEdge(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // static public UnityEngine.ProBuilder.ActionResult ConformNormals(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x100D938
+    // Offset: 0x101D37C
     static UnityEngine::ProBuilder::ActionResult* ConformNormals(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static private System.Void GetWindingFlags(UnityEngine.ProBuilder.WingedEdge edge, System.Boolean flag, System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Boolean> flags)
-    // Offset: 0x100DD80
+    // Offset: 0x101D7C4
     static void GetWindingFlags(UnityEngine::ProBuilder::WingedEdge* edge, bool flag, System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, bool>* flags);
     // static UnityEngine.ProBuilder.ActionResult ConformOppositeNormal(UnityEngine.ProBuilder.WingedEdge source)
-    // Offset: 0x100DFDC
+    // Offset: 0x101DA20
     static UnityEngine::ProBuilder::ActionResult* ConformOppositeNormal(UnityEngine::ProBuilder::WingedEdge* source);
     // static private UnityEngine.ProBuilder.Edge GetCommonEdgeInWindingOrder(UnityEngine.ProBuilder.WingedEdge wing)
-    // Offset: 0x100DE70
+    // Offset: 0x101D8B4
     static UnityEngine::ProBuilder::Edge GetCommonEdgeInWindingOrder(UnityEngine::ProBuilder::WingedEdge* wing);
     // static System.Void MatchNormal(UnityEngine.ProBuilder.Face source, UnityEngine.ProBuilder.Face target, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup)
-    // Offset: 0x100E0DC
+    // Offset: 0x101DB20
     static void MatchNormal(UnityEngine::ProBuilder::Face* source, UnityEngine::ProBuilder::Face* target, System::Collections::Generic::Dictionary_2<int, int>* lookup);
   }; // UnityEngine.ProBuilder.MeshOperations.SurfaceTopology
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*, "UnityEngine.ProBuilder.MeshOperations", "SurfaceTopology");
 #pragma pack(pop)

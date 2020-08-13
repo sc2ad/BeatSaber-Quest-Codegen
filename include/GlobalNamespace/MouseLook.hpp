@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 // Completed includes
@@ -56,30 +54,30 @@ namespace GlobalNamespace {
     // Offset: 0x50
     bool cursorIsLocked;
     // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0xBF9C14
+    // Offset: 0xC0B658
     void Init(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0xBF9CAC
+    // Offset: 0xC0B6F0
     void LookRotation(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void SetCursorLock(System.Boolean value)
-    // Offset: 0xBFA05C
+    // Offset: 0xC0BAA0
     void SetCursorLock(bool value);
     // public System.Void UpdateCursorLock()
-    // Offset: 0xBFA04C
+    // Offset: 0xC0BA90
     void UpdateCursorLock();
     // private System.Void InternalLockUpdate()
-    // Offset: 0xBFA090
+    // Offset: 0xC0BAD4
     void InternalLockUpdate();
     // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
-    // Offset: 0xBF9F84
+    // Offset: 0xC0B9C8
     UnityEngine::Quaternion ClampRotationAroundXAxis(UnityEngine::Quaternion q);
     // public System.Void .ctor()
-    // Offset: 0xBFA10C
+    // Offset: 0xC0BB50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MouseLook* New_ctor();
   }; // MouseLook
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MouseLook*, "", "MouseLook");
 #pragma pack(pop)

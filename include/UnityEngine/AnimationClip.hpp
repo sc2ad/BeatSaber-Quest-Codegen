@@ -30,55 +30,55 @@ namespace UnityEngine {
   class AnimationClip : public UnityEngine::Motion {
     public:
     // static private System.Void Internal_CreateAnimationClip(UnityEngine.AnimationClip self)
-    // Offset: 0x192289C
+    // Offset: 0x19342E0
     static void Internal_CreateAnimationClip(UnityEngine::AnimationClip* self);
     // public System.Void SampleAnimation(UnityEngine.GameObject go, System.Single time)
-    // Offset: 0x19228DC
+    // Offset: 0x1934320
     void SampleAnimation(UnityEngine::GameObject* go, float time);
     // static System.Void SampleAnimation(UnityEngine.GameObject go, UnityEngine.AnimationClip clip, System.Single inTime, UnityEngine.WrapMode wrapMode)
-    // Offset: 0x19229AC
+    // Offset: 0x19343F0
     static void SampleAnimation(UnityEngine::GameObject* go, UnityEngine::AnimationClip* clip, float inTime, UnityEngine::WrapMode wrapMode);
     // public System.Single get_length()
-    // Offset: 0x1922A14
+    // Offset: 0x1934458
     float get_length();
     // public System.Single get_frameRate()
-    // Offset: 0x1922A54
+    // Offset: 0x1934498
     float get_frameRate();
     // public System.Void set_frameRate(System.Single value)
-    // Offset: 0x1922A94
+    // Offset: 0x19344D8
     void set_frameRate(float value);
     // public System.Void SetCurve(System.String relativePath, System.Type type, System.String propertyName, UnityEngine.AnimationCurve curve)
-    // Offset: 0x1922AE4
+    // Offset: 0x1934528
     void SetCurve(::CsString* relativePath, System::Type* type, ::CsString* propertyName, UnityEngine::AnimationCurve* curve);
     // public System.Void EnsureQuaternionContinuity()
-    // Offset: 0x1922B54
+    // Offset: 0x1934598
     void EnsureQuaternionContinuity();
     // public UnityEngine.WrapMode get_wrapMode()
-    // Offset: 0x192296C
+    // Offset: 0x19343B0
     UnityEngine::WrapMode get_wrapMode();
     // public System.Boolean get_legacy()
-    // Offset: 0x1922B94
+    // Offset: 0x19345D8
     bool get_legacy();
     // public System.Void set_legacy(System.Boolean value)
-    // Offset: 0x1922BD4
+    // Offset: 0x1934618
     void set_legacy(bool value);
     // public System.Boolean get_empty()
-    // Offset: 0x1922C24
+    // Offset: 0x1934668
     bool get_empty();
     // public System.Boolean get_hasGenericRootTransform()
-    // Offset: 0x1922C64
+    // Offset: 0x19346A8
     bool get_hasGenericRootTransform();
     // public System.Boolean get_hasMotionCurves()
-    // Offset: 0x1922CA4
+    // Offset: 0x19346E8
     bool get_hasMotionCurves();
     // public System.Boolean get_hasRootCurves()
-    // Offset: 0x1922CE4
+    // Offset: 0x1934728
     bool get_hasRootCurves();
     // System.Boolean get_hasRootMotion()
-    // Offset: 0x1922D24
+    // Offset: 0x1934768
     bool get_hasRootMotion();
     // public System.Void .ctor()
-    // Offset: 0x19227F0
+    // Offset: 0x1934234
     // Implemented from: UnityEngine.Motion
     // Base method: System.Void Motion::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -86,6 +86,6 @@ namespace UnityEngine {
     static AnimationClip* New_ctor();
   }; // UnityEngine.AnimationClip
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationClip*, "UnityEngine", "AnimationClip");
 #pragma pack(pop)

@@ -67,40 +67,40 @@ namespace GlobalNamespace {
     // Offset: 0x54
     float currentAlpha;
     // public System.Single get_currentAlpha()
-    // Offset: 0xF39414
+    // Offset: 0xF49E58
     float get_currentAlpha();
     // private System.Void set_currentAlpha(System.Single value)
-    // Offset: 0xF3941C
+    // Offset: 0xF49E60
     void set_currentAlpha(float value);
     // private System.Void Start()
-    // Offset: 0xF39424
+    // Offset: 0xF49E68
     void Start();
     // public System.Void FadeOut()
-    // Offset: 0xF399EC
+    // Offset: 0xF4A430
     void FadeOut();
     // private System.Void OnLevelFinishedLoading(System.Int32 level)
-    // Offset: 0xF39A20
+    // Offset: 0xF4A464
     void OnLevelFinishedLoading(int level);
     // private System.Void OnEnable()
-    // Offset: 0xF39A54
+    // Offset: 0xF4A498
     void OnEnable();
     // private System.Void OnDestroy()
-    // Offset: 0xF39A68
+    // Offset: 0xF4A4AC
     void OnDestroy();
     // public System.Void SetUIFade(System.Single level)
-    // Offset: 0xF39BCC
+    // Offset: 0xF4A610
     void SetUIFade(float level);
     // public System.Void SetFadeLevel(System.Single level)
-    // Offset: 0xF39954
+    // Offset: 0xF4A398
     void SetFadeLevel(float level);
     // private System.Collections.IEnumerator Fade(System.Single startAlpha, System.Single endAlpha)
-    // Offset: 0xF3995C
+    // Offset: 0xF4A3A0
     System::Collections::IEnumerator* Fade(float startAlpha, float endAlpha);
     // private System.Void SetMaterialAlpha()
-    // Offset: 0xF39C4C
+    // Offset: 0xF4A690
     void SetMaterialAlpha();
     // public System.Void .ctor()
-    // Offset: 0xF39DCC
+    // Offset: 0xF4A810
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -110,6 +110,6 @@ namespace GlobalNamespace {
     static OVRScreenFade* New_ctor();
   }; // OVRScreenFade
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade*, "", "OVRScreenFade");
 #pragma pack(pop)

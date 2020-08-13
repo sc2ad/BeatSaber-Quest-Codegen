@@ -70,16 +70,16 @@ namespace GlobalNamespace {
     // Offset: 0x50
     System::Collections::Generic::Queue_1<float>* pointsValues2;
     // protected System.Void Awake()
-    // Offset: 0xC0F630
+    // Offset: 0xC21074
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xC0F82C
+    // Offset: 0xC21270
     void Start();
     // private System.Collections.IEnumerator UpdateGraphCoroutine()
-    // Offset: 0xC0F858
+    // Offset: 0xC2129C
     System::Collections::IEnumerator* UpdateGraphCoroutine();
     // public System.Void .ctor()
-    // Offset: 0xC0F900
+    // Offset: 0xC21344
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -89,6 +89,6 @@ namespace GlobalNamespace {
     static SaberActivityLineGraph* New_ctor();
   }; // SaberActivityLineGraph
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityLineGraph*, "", "SaberActivityLineGraph");
 #pragma pack(pop)

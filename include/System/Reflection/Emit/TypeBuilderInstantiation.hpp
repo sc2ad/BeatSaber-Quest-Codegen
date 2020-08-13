@@ -20,10 +20,10 @@ namespace System::Reflection::Emit {
   class TypeBuilderInstantiation : public System::Reflection::TypeInfo {
     public:
     // static System.Type MakeGenericType(System.Type type, System.Type[] typeArguments)
-    // Offset: 0x1352C98
+    // Offset: 0x13656DC
     static System::Type* MakeGenericType(System::Type* type, ::Array<System::Type*>* typeArguments);
   }; // System.Reflection.Emit.TypeBuilderInstantiation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::TypeBuilderInstantiation*, "System.Reflection.Emit", "TypeBuilderInstantiation");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HMUI.NavigationController
 #include "HMUI/NavigationController.hpp"
 // Completed includes
@@ -34,15 +32,15 @@ namespace HMUI {
     // Offset: 0x28
     ::Array<float>* endPositions;
     // System.Void <PushViewController>b__0(System.Single t, HMUI.ViewController[] viewControllers)
-    // Offset: 0x10C8EBC
+    // Offset: 0x10D9900
     void $PushViewController$b__0(float t, ::Array<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x10C88C0
+    // Offset: 0x10D9304
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NavigationController::$$c__DisplayClass8_0* New_ctor();
   }; // HMUI.NavigationController/<>c__DisplayClass8_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::$$c__DisplayClass8_0*, "HMUI", "NavigationController/<>c__DisplayClass8_0");
 #pragma pack(pop)

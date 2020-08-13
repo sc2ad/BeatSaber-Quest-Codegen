@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -35,25 +33,25 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x19
     bool caseInsensitive;
     // System.Void .ctor(System.Boolean nullable)
-    // Offset: 0x12122E4
+    // Offset: 0x1224D28
     static RegexFC* New_ctor(bool nullable);
     // System.Void .ctor(System.Char ch, System.Boolean not, System.Boolean nullable, System.Boolean caseInsensitive)
-    // Offset: 0x121236C
+    // Offset: 0x1224DB0
     static RegexFC* New_ctor(::Il2CppChar ch, bool _not, bool nullable, bool caseInsensitive);
     // System.Void .ctor(System.String charClass, System.Boolean nullable, System.Boolean caseInsensitive)
-    // Offset: 0x1212474
+    // Offset: 0x1224EB8
     static RegexFC* New_ctor(::CsString* charClass, bool nullable, bool caseInsensitive);
     // System.Boolean AddFC(System.Text.RegularExpressions.RegexFC fc, System.Boolean concatenate)
-    // Offset: 0x1212524
+    // Offset: 0x1224F68
     bool AddFC(System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
     // System.String GetFirstChars(System.Globalization.CultureInfo culture)
-    // Offset: 0x12125C0
+    // Offset: 0x1225004
     ::CsString* GetFirstChars(System::Globalization::CultureInfo* culture);
     // System.Boolean IsCaseInsensitive()
-    // Offset: 0x12125FC
+    // Offset: 0x1225040
     bool IsCaseInsensitive();
   }; // System.Text.RegularExpressions.RegexFC
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC*, "System.Text.RegularExpressions", "RegexFC");
 #pragma pack(pop)

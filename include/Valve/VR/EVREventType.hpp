@@ -836,6 +836,6 @@ namespace Valve::VR {
     EVREventType(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVREventType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVREventType, "Valve.VR", "EVREventType");
 #pragma pack(pop)

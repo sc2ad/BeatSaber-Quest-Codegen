@@ -29,19 +29,19 @@ namespace UnityEngine {
   class AssetBundle : public UnityEngine::Object {
     public:
     // static UnityEngine.AssetBundleCreateRequest LoadFromFileAsync_Internal(System.String path, System.UInt32 crc, System.UInt64 offset)
-    // Offset: 0x1962D1C
+    // Offset: 0x1975760
     static UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync_Internal(::CsString* path, uint crc, uint64_t offset);
     // static public UnityEngine.AssetBundleCreateRequest LoadFromFileAsync(System.String path)
-    // Offset: 0x1962D74
+    // Offset: 0x19757B8
     static UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync(::CsString* path);
     // static UnityEngine.AssetBundle LoadFromFile_Internal(System.String path, System.UInt32 crc, System.UInt64 offset)
-    // Offset: 0x1962DBC
+    // Offset: 0x1975800
     static UnityEngine::AssetBundle* LoadFromFile_Internal(::CsString* path, uint crc, uint64_t offset);
     // static public UnityEngine.AssetBundle LoadFromFile(System.String path)
-    // Offset: 0x1962E14
+    // Offset: 0x1975858
     static UnityEngine::AssetBundle* LoadFromFile(::CsString* path);
     // public UnityEngine.Object LoadAsset(System.String name)
-    // Offset: 0x1962E5C
+    // Offset: 0x19758A0
     UnityEngine::Object* LoadAsset(::CsString* name);
     // public T LoadAsset(System.String name)
     // Offset: 0xFFFFFFFF
@@ -51,10 +51,10 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "LoadAsset", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name)));
     }
     // public UnityEngine.Object LoadAsset(System.String name, System.Type type)
-    // Offset: 0x1962EEC
+    // Offset: 0x1975930
     UnityEngine::Object* LoadAsset(::CsString* name, System::Type* type);
     // private UnityEngine.Object LoadAsset_Internal(System.String name, System.Type type)
-    // Offset: 0x1962FFC
+    // Offset: 0x1975A40
     UnityEngine::Object* LoadAsset_Internal(::CsString* name, System::Type* type);
     // public UnityEngine.AssetBundleRequest LoadAssetAsync(System.String name)
     // Offset: 0xFFFFFFFF
@@ -63,22 +63,22 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::AssetBundleRequest*>(this, "LoadAssetAsync", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name)));
     }
     // public UnityEngine.AssetBundleRequest LoadAssetAsync(System.String name, System.Type type)
-    // Offset: 0x1963054
+    // Offset: 0x1975A98
     UnityEngine::AssetBundleRequest* LoadAssetAsync(::CsString* name, System::Type* type);
     // private UnityEngine.AssetBundleRequest LoadAssetAsync_Internal(System.String name, System.Type type)
-    // Offset: 0x1963164
+    // Offset: 0x1975BA8
     UnityEngine::AssetBundleRequest* LoadAssetAsync_Internal(::CsString* name, System::Type* type);
     // public System.Void Unload(System.Boolean unloadAllLoadedObjects)
-    // Offset: 0x19631BC
+    // Offset: 0x1975C00
     void Unload(bool unloadAllLoadedObjects);
     // public System.String[] GetAllAssetNames()
-    // Offset: 0x196320C
+    // Offset: 0x1975C50
     ::Array<::CsString*>* GetAllAssetNames();
     // public System.String[] GetAllScenePaths()
-    // Offset: 0x196324C
+    // Offset: 0x1975C90
     ::Array<::CsString*>* GetAllScenePaths();
     // private System.Void .ctor()
-    // Offset: 0x1962CB4
+    // Offset: 0x19756F8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

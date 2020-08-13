@@ -18,6 +18,6 @@ namespace GlobalNamespace {
     void ProcessNewData(GlobalNamespace::SaberMovementData::Data newData, GlobalNamespace::SaberMovementData::Data prevData, bool prevDataAreValid);
   }; // ISaberMovementDataProcessor
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberMovementDataProcessor*, "", "ISaberMovementDataProcessor");
 #pragma pack(pop)

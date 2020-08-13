@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Vector4
@@ -56,74 +54,74 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x20
     UnityEngine::Vector2 m_Extents;
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0x1514B58
+    // Offset: 0x152459C
     UnityEngine::Vector2 get_size();
     // public System.Void set_size(UnityEngine.Vector2 value)
-    // Offset: 0x1514B60
+    // Offset: 0x15245A4
     void set_size(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_extents()
-    // Offset: 0x1514B78
+    // Offset: 0x15245BC
     UnityEngine::Vector2 get_extents();
     // public UnityEngine.Vector2[] get_corners()
-    // Offset: 0x1514B80
+    // Offset: 0x15245C4
     ::Array<UnityEngine::Vector2>* get_corners();
     // public System.Void .ctor(UnityEngine.Vector2 center, UnityEngine.Vector2 size)
-    // Offset: 0x1514D50
+    // Offset: 0x1524794
     static Bounds2D* New_ctor(UnityEngine::Vector2 center, UnityEngine::Vector2 size);
     // public System.Void .ctor(System.Collections.Generic.IList`1<UnityEngine.Vector2> points)
-    // Offset: 0x1514E18
+    // Offset: 0x152485C
     static Bounds2D* New_ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points);
     // public System.Void .ctor(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x15151D8
+    // Offset: 0x1524C1C
     static Bounds2D* New_ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::IList_1<int>* indexes);
     // System.Void .ctor(UnityEngine.Vector3[] points, UnityEngine.ProBuilder.Edge[] edges)
-    // Offset: 0x1515820
+    // Offset: 0x1525264
     static Bounds2D* New_ctor(::Array<UnityEngine::Vector3>* points, ::Array<UnityEngine::ProBuilder::Edge>* edges);
     // public System.Void .ctor(UnityEngine.Vector2[] points, System.Int32 length)
-    // Offset: 0x1515BB4
+    // Offset: 0x15255F8
     static Bounds2D* New_ctor(::Array<UnityEngine::Vector2>* points, int length);
     // public System.Boolean ContainsPoint(UnityEngine.Vector2 point)
-    // Offset: 0x1515E1C
+    // Offset: 0x1525860
     bool ContainsPoint(UnityEngine::Vector2 point);
     // public System.Boolean IntersectsLineSegment(UnityEngine.Vector2 lineStart, UnityEngine.Vector2 lineEnd)
-    // Offset: 0x1515E70
+    // Offset: 0x15258B4
     bool IntersectsLineSegment(UnityEngine::Vector2 lineStart, UnityEngine::Vector2 lineEnd);
     // public System.Boolean Intersects(UnityEngine.ProBuilder.Bounds2D bounds)
-    // Offset: 0x1516008
+    // Offset: 0x1525A4C
     bool Intersects(UnityEngine::ProBuilder::Bounds2D* bounds);
     // public System.Boolean Intersects(UnityEngine.Rect rect)
-    // Offset: 0x1516130
+    // Offset: 0x1525B74
     bool Intersects(UnityEngine::Rect rect);
     // public System.Void SetWithPoints(System.Collections.Generic.IList`1<UnityEngine.Vector2> points)
-    // Offset: 0x1514EBC
+    // Offset: 0x1524900
     void SetWithPoints(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points);
     // public System.Void SetWithPoints(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1515284
+    // Offset: 0x1524CC8
     void SetWithPoints(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.Vector2 Center(System.Collections.Generic.IList`1<UnityEngine.Vector2> points)
-    // Offset: 0x1516278
+    // Offset: 0x1525CBC
     static UnityEngine::Vector2 Center(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points);
     // static public UnityEngine.Vector2 Center(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1516564
+    // Offset: 0x1525FA8
     static UnityEngine::Vector2 Center(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.Vector2 Size(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1516A18
+    // Offset: 0x152645C
     static UnityEngine::Vector2 Size(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Vector2 Center(System.Collections.Generic.IList`1<UnityEngine.Vector4> points, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
-    // Offset: 0x1516EC0
+    // Offset: 0x1526904
     static UnityEngine::Vector2 Center(System::Collections::Generic::IList_1<UnityEngine::Vector4>* points, System::Collections::Generic::IEnumerable_1<int>* indexes);
     // public System.Void .ctor()
-    // Offset: 0x1514CC4
+    // Offset: 0x1524708
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Bounds2D* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x151738C
+    // Offset: 0x1526DD0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // UnityEngine.ProBuilder.Bounds2D
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Bounds2D*, "UnityEngine.ProBuilder", "Bounds2D");
 #pragma pack(pop)

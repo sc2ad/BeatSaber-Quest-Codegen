@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {
@@ -46,6 +46,6 @@ namespace HMUI {
     SlideAnimationDirection(int value_ = {}) : value{value_} {}
   }; // HMUI.ViewController/SlideAnimationDirection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::SlideAnimationDirection, "HMUI", "ViewController/SlideAnimationDirection");
 #pragma pack(pop)

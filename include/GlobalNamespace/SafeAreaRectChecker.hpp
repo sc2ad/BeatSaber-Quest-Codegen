@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::SafeAreaRectChecker::InitData* initData;
     // public System.Void Start()
-    // Offset: 0xC14A90
+    // Offset: 0xC264D4
     void Start();
     // protected System.Void Update()
-    // Offset: 0xC14B04
+    // Offset: 0xC26548
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC14D34
+    // Offset: 0xC26778
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -77,6 +77,6 @@ namespace GlobalNamespace {
     static SafeAreaRectChecker* New_ctor();
   }; // SafeAreaRectChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SafeAreaRectChecker*, "", "SafeAreaRectChecker");
 #pragma pack(pop)

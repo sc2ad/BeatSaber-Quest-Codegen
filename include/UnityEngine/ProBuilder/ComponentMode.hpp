@@ -38,6 +38,6 @@ namespace UnityEngine::ProBuilder {
     ComponentMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.ComponentMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ComponentMode, "UnityEngine.ProBuilder", "ComponentMode");
 #pragma pack(pop)

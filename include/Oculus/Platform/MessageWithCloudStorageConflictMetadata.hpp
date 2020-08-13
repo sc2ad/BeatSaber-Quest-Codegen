@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithCloudStorageConflictMetadata : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageConflictMetadata*> {
     public:
     // protected Oculus.Platform.Models.CloudStorageConflictMetadata GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8BC18
+    // Offset: 0xE9E65C
     Oculus::Platform::Models::CloudStorageConflictMetadata* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE882C0
+    // Offset: 0xE9AD04
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithCloudStorageConflictMetadata* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.CloudStorageConflictMetadata GetCloudStorageConflictMetadata()
-    // Offset: 0xE8BBD4
+    // Offset: 0xE9E618
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageConflictMetadata Message::GetCloudStorageConflictMetadata()
     Oculus::Platform::Models::CloudStorageConflictMetadata* GetCloudStorageConflictMetadata();
   }; // Oculus.Platform.MessageWithCloudStorageConflictMetadata
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageConflictMetadata*, "Oculus.Platform", "MessageWithCloudStorageConflictMetadata");
 #pragma pack(pop)

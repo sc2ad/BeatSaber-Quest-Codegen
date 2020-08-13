@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.ActivityTracker
 #include "System/Diagnostics/Tracing/ActivityTracker.hpp"
 // Including type: System.Guid
@@ -50,39 +48,39 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x58
     System::Guid m_activityIdToRestore;
     // public System.Void .ctor(System.String name, System.Int64 uniqueId, System.Diagnostics.Tracing.ActivityTracker/ActivityInfo creator, System.Guid activityIDToRestore, System.Diagnostics.Tracing.EventActivityOptions options)
-    // Offset: 0xC83BA8
+    // Offset: 0xC955EC
     static ActivityTracker::ActivityInfo* New_ctor(::CsString* name, int64_t uniqueId, System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* creator, System::Guid activityIDToRestore, System::Diagnostics::Tracing::EventActivityOptions options);
     // public System.Guid get_ActivityId()
-    // Offset: 0xC840C4
+    // Offset: 0xC95B08
     System::Guid get_ActivityId();
     // static public System.String Path(System.Diagnostics.Tracing.ActivityTracker/ActivityInfo activityInfo)
-    // Offset: 0xC840D0
+    // Offset: 0xC95B14
     static ::CsString* Path(System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* activityInfo);
     // static public System.String LiveActivities(System.Diagnostics.Tracing.ActivityTracker/ActivityInfo list)
-    // Offset: 0xC837C8
+    // Offset: 0xC9520C
     static ::CsString* LiveActivities(System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* list);
     // public System.Boolean CanBeOrphan()
-    // Offset: 0xC83C50
+    // Offset: 0xC95694
     bool CanBeOrphan();
     // private System.Void CreateActivityPathGuid(System.Guid idRet, System.Int32 activityPathGuidOffset)
-    // Offset: 0xC8402C
+    // Offset: 0xC95A70
     void CreateActivityPathGuid(System::Guid& idRet, int& activityPathGuidOffset);
     // private System.Void CreateOverflowGuid(System.Guid* outPtr)
-    // Offset: 0xC84494
+    // Offset: 0xC95ED8
     void CreateOverflowGuid(System::Guid* outPtr);
     // static private System.Int32 AddIdToGuid(System.Guid* outPtr, System.Int32 whereToAddId, System.UInt32 id, System.Boolean overflow)
-    // Offset: 0xC84348
+    // Offset: 0xC95D8C
     static int AddIdToGuid(System::Guid* outPtr, int whereToAddId, uint id, bool overflow);
     // static private System.Void WriteNibble(System.Byte* ptr, System.Byte* endPtr, System.UInt32 value)
-    // Offset: 0xC844FC
+    // Offset: 0xC95F40
     static void WriteNibble(uint8_t*& ptr, uint8_t* endPtr, uint value);
     // public override System.String ToString()
-    // Offset: 0xC84170
+    // Offset: 0xC95BB4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.Diagnostics.Tracing.ActivityTracker/ActivityInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityTracker::ActivityInfo*, "System.Diagnostics.Tracing", "ActivityTracker/ActivityInfo");
 #pragma pack(pop)

@@ -128,28 +128,28 @@ namespace GlobalNamespace {
     // Offset: 0x70
     UnityEngine::RenderTexture* cameraRenderTexture;
     // protected System.Void OnEnable()
-    // Offset: 0xCA60CC
+    // Offset: 0xCB8B10
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xCA628C
+    // Offset: 0xCB8CD0
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xCA6360
+    // Offset: 0xCB8DA4
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0xCA64C4
+    // Offset: 0xCB8F08
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0xCA6430
+    // Offset: 0xCB8E74
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0xCA6600
+    // Offset: 0xCB9044
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0xCA64DC
+    // Offset: 0xCB8F20
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0xCA6710
+    // Offset: 0xCB9154
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -159,7 +159,7 @@ namespace GlobalNamespace {
     static ScreenshotRecorder* New_ctor();
   }; // ScreenshotRecorder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder*, "", "ScreenshotRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder::RecordingType, "", "ScreenshotRecorder/RecordingType");
 #pragma pack(pop)

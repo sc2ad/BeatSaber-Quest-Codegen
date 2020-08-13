@@ -94,49 +94,49 @@ namespace Xft {
     // Offset: 0x88
     int frameNum;
     // public UnityEngine.Vector3 get_curHeadPos()
-    // Offset: 0xC42F08
+    // Offset: 0xC5494C
     UnityEngine::Vector3 get_curHeadPos();
     // public UnityEngine.Color get_color()
-    // Offset: 0xC42FE4
+    // Offset: 0xC54A28
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xC42FF0
+    // Offset: 0xC54A34
     void set_color(UnityEngine::Color value);
     // protected System.Void Start()
-    // Offset: 0xC42FFC
+    // Offset: 0xC54A40
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xC435C4
+    // Offset: 0xC55008
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC435CC
+    // Offset: 0xC55010
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xC43660
+    // Offset: 0xC550A4
     void LateUpdate();
     // protected System.Void OnDestroy()
-    // Offset: 0xC441DC
+    // Offset: 0xC55C20
     void OnDestroy();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0xC442A8
+    // Offset: 0xC55CEC
     void OnDrawGizmosSelected();
     // private System.Void RefreshSpline()
-    // Offset: 0xC43BD4
+    // Offset: 0xC55618
     void RefreshSpline();
     // protected System.Void UpdateVertices()
-    // Offset: 0xC43DDC
+    // Offset: 0xC55820
     void UpdateVertices();
     // protected System.Void UpdateIndices()
-    // Offset: 0xC43368
+    // Offset: 0xC54DAC
     void UpdateIndices();
     // protected System.Void UpdateHeadElem()
-    // Offset: 0xC439E8
+    // Offset: 0xC5542C
     void UpdateHeadElem();
     // private System.Void RecordCurElem()
-    // Offset: 0xC43AA4
+    // Offset: 0xC554E8
     void RecordCurElem();
     // public System.Void .ctor()
-    // Offset: 0xC446B8
+    // Offset: 0xC560FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -146,6 +146,6 @@ namespace Xft {
     static XWeaponTrail* New_ctor();
   }; // Xft.XWeaponTrail
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Xft::XWeaponTrail*, "Xft", "XWeaponTrail");
 #pragma pack(pop)

@@ -86,22 +86,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0x94
     bool lastSmoothTowardsTarget;
     // private System.Void Start()
-    // Offset: 0x12190C0
+    // Offset: 0x122AB04
     void Start();
     // private System.Void LateUpdate()
-    // Offset: 0x12192F4
+    // Offset: 0x122AD38
     void LateUpdate();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x12191A8
+    // Offset: 0x122ABEC
     UnityEngine::Vector3 get_pivot();
     // private System.Void ApplyMinDistance()
-    // Offset: 0x12199B4
+    // Offset: 0x122B3F8
     void ApplyMinDistance();
     // private System.Void RootRotation()
-    // Offset: 0x1219B50
+    // Offset: 0x122B594
     void RootRotation();
     // public System.Void .ctor()
-    // Offset: 0x1219E6C
+    // Offset: 0x122B8B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -111,6 +111,6 @@ namespace RootMotion::FinalIK {
     static LookAtController* New_ctor();
   }; // RootMotion.FinalIK.LookAtController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtController*, "RootMotion.FinalIK", "LookAtController");
 #pragma pack(pop)

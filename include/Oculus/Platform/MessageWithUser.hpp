@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithUser : public Oculus::Platform::Message_1<Oculus::Platform::Models::User*> {
     public:
     // protected Oculus.Platform.Models.User GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE925EC
+    // Offset: 0xEA5030
     Oculus::Platform::Models::User* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88F80
+    // Offset: 0xE9B9C4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithUser* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.User GetUser()
-    // Offset: 0xE925A8
+    // Offset: 0xEA4FEC
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.User Message::GetUser()
     Oculus::Platform::Models::User* GetUser();
   }; // Oculus.Platform.MessageWithUser
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUser*, "Oculus.Platform", "MessageWithUser");
 #pragma pack(pop)

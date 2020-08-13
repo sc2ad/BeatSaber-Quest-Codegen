@@ -14,12 +14,12 @@ namespace Zenject {
   class PoolExceededFixedSizeException : public System::Exception {
     public:
     // public System.Void .ctor(System.String errorMessage)
-    // Offset: 0xFAD0B0
+    // Offset: 0xFBFAF4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String errorMessage)
     static PoolExceededFixedSizeException* New_ctor(::CsString* errorMessage);
   }; // Zenject.PoolExceededFixedSizeException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolExceededFixedSizeException*, "Zenject", "PoolExceededFixedSizeException");
 #pragma pack(pop)

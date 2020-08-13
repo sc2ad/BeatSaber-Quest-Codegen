@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: LeaderboardScoreUploader
 #include "GlobalNamespace/LeaderboardScoreUploader.hpp"
 // Including type: PlatformLeaderboardsModel
@@ -24,15 +22,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::LeaderboardScoreUploader* $$4__this;
     // System.Void <UploadScoresCoroutine>b__0(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0xB464D0
+    // Offset: 0xB444D0
     void $UploadScoresCoroutine$b__0(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
     // public System.Void .ctor()
-    // Offset: 0xB464C8
+    // Offset: 0xB444C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardScoreUploader::$$c__DisplayClass14_0* New_ctor();
   }; // LeaderboardScoreUploader/<>c__DisplayClass14_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0*, "", "LeaderboardScoreUploader/<>c__DisplayClass14_0");
 #pragma pack(pop)

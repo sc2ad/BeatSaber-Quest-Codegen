@@ -70,6 +70,6 @@ namespace TMPro {
     static FontAssetCreationSettings* New_ctor(::CsString* sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::CsString* characterSet, int renderMode);
   }; // TMPro.FontAssetCreationSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");
 #pragma pack(pop)

@@ -93,34 +93,34 @@ namespace GlobalNamespace {
     // Offset: 0xD0
     ::CsString* settingDataFromLevelId;
     // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
-    // Offset: 0xB48FD4
+    // Offset: 0xB46FD4
     void SetDataFromLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
     // private System.Void RefreshVisuals()
-    // Offset: 0xB4CEEC
+    // Offset: 0xB4AEEC
     void RefreshVisuals();
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
-    // Offset: 0xB490D0
+    // Offset: 0xB470D0
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel, ::CsString* levelID);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0xB496A4
+    // Offset: 0xB476A4
     void CancelAsyncOperations();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xB4CEE8
+    // Offset: 0xB4AEE8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xB4D1BC
+    // Offset: 0xB4B1BC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0xB4D1C0
+    // Offset: 0xB4B1C0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();
     // public System.Void .ctor()
-    // Offset: 0xB4D1C4
+    // Offset: 0xB4B1C4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -132,6 +132,6 @@ namespace GlobalNamespace {
     static LevelListTableCell* New_ctor();
   }; // LevelListTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelListTableCell*, "", "LevelListTableCell");
 #pragma pack(pop)

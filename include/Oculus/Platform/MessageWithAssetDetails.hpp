@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithAssetDetails : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetails*> {
     public:
     // protected Oculus.Platform.Models.AssetDetails GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8AA50
+    // Offset: 0xE9D494
     Oculus::Platform::Models::AssetDetails* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE87FC0
+    // Offset: 0xE9AA04
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithAssetDetails* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.AssetDetails GetAssetDetails()
-    // Offset: 0xE8AA0C
+    // Offset: 0xE9D450
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AssetDetails Message::GetAssetDetails()
     Oculus::Platform::Models::AssetDetails* GetAssetDetails();
   }; // Oculus.Platform.MessageWithAssetDetails
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetDetails*, "Oculus.Platform", "MessageWithAssetDetails");
 #pragma pack(pop)

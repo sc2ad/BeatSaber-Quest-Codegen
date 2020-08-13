@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: UnityEngine.Events.UnityEvent
-#include "UnityEngine/Events/UnityEvent.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SteamVR_Events
 #include "GlobalNamespace/SteamVR_Events.hpp"
+// Including type: UnityEngine.Events.UnityEvent
+#include "UnityEngine/Events/UnityEvent.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events
@@ -22,16 +23,16 @@ namespace GlobalNamespace {
   class SteamVR_Events::Event : public UnityEngine::Events::UnityEvent {
     public:
     // public System.Void Listen(UnityEngine.Events.UnityAction action)
-    // Offset: 0xD6B788
+    // Offset: 0xD7F1CC
     void Listen(UnityEngine::Events::UnityAction* action);
     // public System.Void Remove(UnityEngine.Events.UnityAction action)
-    // Offset: 0xD6B85C
+    // Offset: 0xD7F2A0
     void Remove(UnityEngine::Events::UnityAction* action);
     // public System.Void Send()
-    // Offset: 0xD6C4C4
+    // Offset: 0xD7FF08
     void Send();
     // public System.Void .ctor()
-    // Offset: 0xD6C484
+    // Offset: 0xD7FEC8
     // Implemented from: UnityEngine.Events.UnityEvent
     // Base method: System.Void UnityEvent::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -39,6 +40,6 @@ namespace GlobalNamespace {
     static SteamVR_Events::Event* New_ctor();
   }; // SteamVR_Events/Event
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::Event*, "", "SteamVR_Events/Event");
 #pragma pack(pop)

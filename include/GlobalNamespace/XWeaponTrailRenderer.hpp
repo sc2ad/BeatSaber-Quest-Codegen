@@ -34,22 +34,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Mesh* mesh;
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0xC41728
+    // Offset: 0xC5316C
     UnityEngine::Mesh* get_mesh();
     // protected System.Void OnDestroy()
-    // Offset: 0xC417F4
+    // Offset: 0xC53238
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0xC41800
+    // Offset: 0xC53244
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0xC41928
+    // Offset: 0xC5336C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC41948
+    // Offset: 0xC5338C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xC419DC
+    // Offset: 0xC53420
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -59,6 +59,6 @@ namespace GlobalNamespace {
     static XWeaponTrailRenderer* New_ctor();
   }; // XWeaponTrailRenderer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::XWeaponTrailRenderer*, "", "XWeaponTrailRenderer");
 #pragma pack(pop)

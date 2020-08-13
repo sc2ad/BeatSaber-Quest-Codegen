@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
 // Including type: System.ICloneable
@@ -29,20 +27,20 @@ namespace System {
     // Offset: 0x1C
     ::Il2CppChar currentElement;
     // System.Void .ctor(System.String str)
-    // Offset: 0x131C9B4
+    // Offset: 0x13303F8
     static CharEnumerator* New_ctor(::CsString* str);
     // public System.Object Clone()
-    // Offset: 0x131C9F4
+    // Offset: 0x1330438
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::CsObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x131C9FC
+    // Offset: 0x1330440
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Void Dispose()
-    // Offset: 0x131CA5C
+    // Offset: 0x13304A0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -50,12 +48,12 @@ namespace System {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x131CA7C
+    // Offset: 0x13304C0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
     // public System.Char get_Current()
-    // Offset: 0x131CB60
+    // Offset: 0x13305A4
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::Il2CppChar get_Current();
@@ -63,7 +61,7 @@ namespace System {
     // Maps to method: get_Current
     ::Il2CppChar System_Collections_Generic_IEnumerator_1_get_Current();
     // public System.Void Reset()
-    // Offset: 0x131CC24
+    // Offset: 0x1330668
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -71,12 +69,12 @@ namespace System {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // System.Void .ctor()
-    // Offset: 0x131CC34
+    // Offset: 0x1330678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CharEnumerator* New_ctor();
   }; // System.CharEnumerator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::CharEnumerator*, "System", "CharEnumerator");
 #pragma pack(pop)

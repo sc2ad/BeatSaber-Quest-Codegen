@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.OVRPhysicsRaycaster
 #include "UnityEngine/EventSystems/OVRPhysicsRaycaster.hpp"
 // Including type: UnityEngine.RaycastHit
@@ -38,21 +36,21 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public System.Comparison`1<UnityEngine.RaycastHit> <>9__16_0
     static void _set_$$9__16_0(System::Comparison_1<UnityEngine::RaycastHit>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18EA91C
+    // Offset: 0x18FB360
     static void _cctor();
     // System.Int32 <Raycast>b__15_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x18EA98C
+    // Offset: 0x18FB3D0
     int $Raycast$b__15_0(UnityEngine::RaycastHit r1, UnityEngine::RaycastHit r2);
     // System.Int32 <Spherecast>b__16_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x18EA9D0
+    // Offset: 0x18FB414
     int $Spherecast$b__16_0(UnityEngine::RaycastHit r1, UnityEngine::RaycastHit r2);
     // public System.Void .ctor()
-    // Offset: 0x18EA984
+    // Offset: 0x18FB3C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRPhysicsRaycaster::$$c* New_ctor();
   }; // UnityEngine.EventSystems.OVRPhysicsRaycaster/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster/<>c");
 #pragma pack(pop)

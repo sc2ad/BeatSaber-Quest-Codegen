@@ -36,16 +36,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // protected System.Void Start()
-    // Offset: 0xBFFCB4
+    // Offset: 0xC116F8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBFFD48
+    // Offset: 0xC1178C
     void OnDestroy();
     // private System.Void HandleNoteWasCut(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xBFFDDC
+    // Offset: 0xC11820
     void HandleNoteWasCut(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0xBFFE2C
+    // Offset: 0xC11870
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static NoteCutDeviationText* New_ctor();
   }; // NoteCutDeviationText
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutDeviationText*, "", "NoteCutDeviationText");
 #pragma pack(pop)

@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin/ControllerState2
 #include "GlobalNamespace/OVRPlugin_ControllerState2.hpp"
 // Including type: OVRPlugin/ControllerState

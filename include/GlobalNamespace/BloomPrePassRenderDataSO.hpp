@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BloomPrePassRenderDataSO::Data* data;
     // public System.Void .ctor()
-    // Offset: 0x180DD80
+    // Offset: 0x181E7C4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -33,6 +33,6 @@ namespace GlobalNamespace {
     static BloomPrePassRenderDataSO* New_ctor();
   }; // BloomPrePassRenderDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO*, "", "BloomPrePassRenderDataSO");
 #pragma pack(pop)

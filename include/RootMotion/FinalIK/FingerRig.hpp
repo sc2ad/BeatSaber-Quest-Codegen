@@ -35,52 +35,52 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     bool initiated;
     // public System.Boolean get_initiated()
-    // Offset: 0x1357120
+    // Offset: 0x1369B64
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1357128
+    // Offset: 0x1369B6C
     void set_initiated(bool value);
     // public System.Boolean IsValid(System.String errorMessage)
-    // Offset: 0x1357134
+    // Offset: 0x1369B78
     bool IsValid(::CsString*& errorMessage);
     // public System.Void AutoDetect()
-    // Offset: 0x13571C0
+    // Offset: 0x1369C04
     void AutoDetect();
     // public System.Void AddFinger(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform tip, UnityEngine.Transform target)
-    // Offset: 0x1357530
+    // Offset: 0x1369F74
     void AddFinger(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, UnityEngine::Transform* tip, UnityEngine::Transform* target);
     // public System.Void RemoveFinger(System.Int32 index)
-    // Offset: 0x13576F0
+    // Offset: 0x136A134
     void RemoveFinger(int index);
     // private System.Void AddChildrenRecursive(UnityEngine.Transform parent, UnityEngine.Transform[] array)
-    // Offset: 0x1357420
+    // Offset: 0x1369E64
     void AddChildrenRecursive(UnityEngine::Transform* parent, ::Array<UnityEngine::Transform*>*& array);
     // public System.Void UpdateFingerSolvers()
-    // Offset: 0x135793C
+    // Offset: 0x136A380
     void UpdateFingerSolvers();
     // public System.Void FixFingerTransforms()
-    // Offset: 0x13579B8
+    // Offset: 0x136A3FC
     void FixFingerTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1357A30
+    // Offset: 0x136A474
     void StoreDefaultLocalState();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x1357874
+    // Offset: 0x136A2B8
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x1357A9C
+    // Offset: 0x136A4E0
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x1357AA0
+    // Offset: 0x136A4E4
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1357AB4
+    // Offset: 0x136A4F8
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -91,6 +91,6 @@ namespace RootMotion::FinalIK {
     static FingerRig* New_ctor();
   }; // RootMotion.FinalIK.FingerRig
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FingerRig*, "RootMotion.FinalIK", "FingerRig");
 #pragma pack(pop)

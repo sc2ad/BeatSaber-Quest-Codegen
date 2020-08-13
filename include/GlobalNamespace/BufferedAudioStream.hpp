@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Boolean
 #include "System/Boolean.hpp"
 // Including type: System.Single
@@ -70,19 +68,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float remainingBufferTime;
     // public System.Void .ctor(UnityEngine.AudioSource audio)
-    // Offset: 0x157C320
+    // Offset: 0x158AD64
     static BufferedAudioStream* New_ctor(UnityEngine::AudioSource* audio);
     // public System.Void Update()
-    // Offset: 0x157C44C
+    // Offset: 0x158AE90
     void Update();
     // private System.Void Stop()
-    // Offset: 0x157C3FC
+    // Offset: 0x158AE40
     void Stop();
     // public System.Void AddData(System.Single[] samples)
-    // Offset: 0x157C624
+    // Offset: 0x158B068
     void AddData(::Array<float>* samples);
   }; // BufferedAudioStream
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BufferedAudioStream*, "", "BufferedAudioStream");
 #pragma pack(pop)

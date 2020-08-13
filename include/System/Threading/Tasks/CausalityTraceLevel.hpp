@@ -38,6 +38,6 @@ namespace System::Threading::Tasks {
     CausalityTraceLevel(int value_ = {}) : value{value_} {}
   }; // System.Threading.Tasks.CausalityTraceLevel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CausalityTraceLevel, "System.Threading.Tasks", "CausalityTraceLevel");
 #pragma pack(pop)

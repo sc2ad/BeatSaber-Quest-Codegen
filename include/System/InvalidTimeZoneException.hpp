@@ -23,28 +23,28 @@ namespace System {
   class InvalidTimeZoneException : public System::Exception {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0xFFE380
+    // Offset: 0x100DDC4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static InvalidTimeZoneException* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0xFFE3F8
+    // Offset: 0x100DE3C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static InvalidTimeZoneException* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFFE478
+    // Offset: 0x100DEBC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static InvalidTimeZoneException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor()
-    // Offset: 0xFFE508
+    // Offset: 0x100DF4C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidTimeZoneException* New_ctor();
   }; // System.InvalidTimeZoneException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::InvalidTimeZoneException*, "System", "InvalidTimeZoneException");
 #pragma pack(pop)

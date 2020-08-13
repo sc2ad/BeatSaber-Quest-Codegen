@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.Amplifier/Body
 #include "RootMotion/FinalIK/Amplifier_Body.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -24,12 +22,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0x14
     float weight;
     // public System.Void .ctor()
-    // Offset: 0x139332C
+    // Offset: 0x13A4D70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Amplifier::Body::EffectorLink* New_ctor();
   }; // RootMotion.FinalIK.Amplifier/Body/EffectorLink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier::Body::EffectorLink*, "RootMotion.FinalIK", "Amplifier/Body/EffectorLink");
 #pragma pack(pop)

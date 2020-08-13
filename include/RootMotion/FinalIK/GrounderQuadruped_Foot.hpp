@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: RootMotion.FinalIK.GrounderQuadruped
 #include "RootMotion/FinalIK/GrounderQuadruped.hpp"
 // Completed includes
@@ -42,10 +40,10 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Foot
     Foot(RootMotion::FinalIK::IKSolver* solver_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Quaternion rotation_ = {}, RootMotion::FinalIK::Grounding::Leg* leg_ = {}) : solver{solver_}, transform{transform_}, rotation{rotation_}, leg{leg_} {}
     // public System.Void .ctor(RootMotion.FinalIK.IKSolver solver, UnityEngine.Transform transform)
-    // Offset: 0xA43380
+    // Offset: 0xA433FC
     static GrounderQuadruped::Foot* New_ctor(RootMotion::FinalIK::IKSolver* solver, UnityEngine::Transform* transform);
   }; // RootMotion.FinalIK.GrounderQuadruped/Foot
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderQuadruped::Foot, "RootMotion.FinalIK", "GrounderQuadruped/Foot");
 #pragma pack(pop)

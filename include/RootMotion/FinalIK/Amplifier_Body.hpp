@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.Amplifier
 #include "RootMotion/FinalIK/Amplifier.hpp"
 // Completed includes
@@ -57,18 +55,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x4C
     bool firstUpdate;
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single w, System.Single deltaTime)
-    // Offset: 0x1392E98
+    // Offset: 0x13A48DC
     void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float w, float deltaTime);
     // static private UnityEngine.Vector3 Multiply(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2)
-    // Offset: 0x1393304
+    // Offset: 0x13A4D48
     static UnityEngine::Vector3 Multiply(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2);
     // public System.Void .ctor()
-    // Offset: 0x1393314
+    // Offset: 0x13A4D58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Amplifier::Body* New_ctor();
   }; // RootMotion.FinalIK.Amplifier/Body
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier::Body*, "RootMotion.FinalIK", "Amplifier/Body");
 #pragma pack(pop)

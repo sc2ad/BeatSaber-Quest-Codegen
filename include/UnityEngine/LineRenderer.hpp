@@ -22,40 +22,40 @@ namespace UnityEngine {
   class LineRenderer : public UnityEngine::Renderer {
     public:
     // public System.Void set_startWidth(System.Single value)
-    // Offset: 0x12FA8D8
+    // Offset: 0x130D31C
     void set_startWidth(float value);
     // public System.Void set_endWidth(System.Single value)
-    // Offset: 0x12FA928
+    // Offset: 0x130D36C
     void set_endWidth(float value);
     // public System.Void set_useWorldSpace(System.Boolean value)
-    // Offset: 0x12FA978
+    // Offset: 0x130D3BC
     void set_useWorldSpace(bool value);
     // public System.Void set_startColor(UnityEngine.Color value)
-    // Offset: 0x12FA9C8
+    // Offset: 0x130D40C
     void set_startColor(UnityEngine::Color value);
     // public System.Void set_endColor(UnityEngine.Color value)
-    // Offset: 0x12FAA70
+    // Offset: 0x130D4B4
     void set_endColor(UnityEngine::Color value);
     // public System.Void set_positionCount(System.Int32 value)
-    // Offset: 0x12FAB18
+    // Offset: 0x130D55C
     void set_positionCount(int value);
     // public System.Void SetPosition(System.Int32 index, UnityEngine.Vector3 position)
-    // Offset: 0x12FAB68
+    // Offset: 0x130D5AC
     void SetPosition(int index, UnityEngine::Vector3 position);
     // public System.Void SetPositions(UnityEngine.Vector3[] positions)
-    // Offset: 0x12FAC28
+    // Offset: 0x130D66C
     void SetPositions(::Array<UnityEngine::Vector3>* positions);
     // private System.Void set_startColor_Injected(UnityEngine.Color value)
-    // Offset: 0x12FAA20
+    // Offset: 0x130D464
     void set_startColor_Injected(UnityEngine::Color& value);
     // private System.Void set_endColor_Injected(UnityEngine.Color value)
-    // Offset: 0x12FAAC8
+    // Offset: 0x130D50C
     void set_endColor_Injected(UnityEngine::Color& value);
     // private System.Void SetPosition_Injected(System.Int32 index, UnityEngine.Vector3 position)
-    // Offset: 0x12FABD0
+    // Offset: 0x130D614
     void SetPosition_Injected(int index, UnityEngine::Vector3& position);
   }; // UnityEngine.LineRenderer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LineRenderer*, "UnityEngine", "LineRenderer");
 #pragma pack(pop)

@@ -151,88 +151,88 @@ namespace GlobalNamespace {
     // Offset: 0xCD
     bool playerControllerEnabled;
     // public System.Void add_TransformUpdated(System.Action`1<UnityEngine.Transform> value)
-    // Offset: 0xEE0F70
+    // Offset: 0xEF29B4
     void add_TransformUpdated(System::Action_1<UnityEngine::Transform*>* value);
     // public System.Void remove_TransformUpdated(System.Action`1<UnityEngine.Transform> value)
-    // Offset: 0xEE1014
+    // Offset: 0xEF2A58
     void remove_TransformUpdated(System::Action_1<UnityEngine::Transform*>* value);
     // public System.Void add_CameraUpdated(System.Action value)
-    // Offset: 0xEE10B8
+    // Offset: 0xEF2AFC
     void add_CameraUpdated(System::Action* value);
     // public System.Void remove_CameraUpdated(System.Action value)
-    // Offset: 0xEE115C
+    // Offset: 0xEF2BA0
     void remove_CameraUpdated(System::Action* value);
     // public System.Void add_PreCharacterMove(System.Action value)
-    // Offset: 0xEE1200
+    // Offset: 0xEF2C44
     void add_PreCharacterMove(System::Action* value);
     // public System.Void remove_PreCharacterMove(System.Action value)
-    // Offset: 0xEE12A4
+    // Offset: 0xEF2CE8
     void remove_PreCharacterMove(System::Action* value);
     // public System.Single get_InitialYRotation()
-    // Offset: 0xEE1348
+    // Offset: 0xEF2D8C
     float get_InitialYRotation();
     // private System.Void set_InitialYRotation(System.Single value)
-    // Offset: 0xEE1350
+    // Offset: 0xEF2D94
     void set_InitialYRotation(float value);
     // private System.Void Start()
-    // Offset: 0xEE1358
+    // Offset: 0xEF2D9C
     void Start();
     // private System.Void Awake()
-    // Offset: 0xEE142C
+    // Offset: 0xEF2E70
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0xEE1604
+    // Offset: 0xEF3048
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xEE1608
+    // Offset: 0xEF304C
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0xEE178C
+    // Offset: 0xEF31D0
     void Update();
     // protected System.Void UpdateController()
-    // Offset: 0xEE1978
+    // Offset: 0xEF33BC
     void UpdateController();
     // public System.Void UpdateMovement()
-    // Offset: 0xEE2204
+    // Offset: 0xEF3C48
     void UpdateMovement();
     // public System.Void UpdateTransform(OVRCameraRig rig)
-    // Offset: 0xEE3198
+    // Offset: 0xEF4BDC
     void UpdateTransform(GlobalNamespace::OVRCameraRig* rig);
     // public System.Boolean Jump()
-    // Offset: 0xEE3344
+    // Offset: 0xEF4D88
     bool Jump();
     // public System.Void Stop()
-    // Offset: 0xEE3448
+    // Offset: 0xEF4E8C
     void Stop();
     // public System.Void GetMoveScaleMultiplier(System.Single moveScaleMultiplier)
-    // Offset: 0xEE34DC
+    // Offset: 0xEF4F20
     void GetMoveScaleMultiplier(float& moveScaleMultiplier);
     // public System.Void SetMoveScaleMultiplier(System.Single moveScaleMultiplier)
-    // Offset: 0xEE34E8
+    // Offset: 0xEF4F2C
     void SetMoveScaleMultiplier(float moveScaleMultiplier);
     // public System.Void GetRotationScaleMultiplier(System.Single rotationScaleMultiplier)
-    // Offset: 0xEE34F0
+    // Offset: 0xEF4F34
     void GetRotationScaleMultiplier(float& rotationScaleMultiplier);
     // public System.Void SetRotationScaleMultiplier(System.Single rotationScaleMultiplier)
-    // Offset: 0xEE34FC
+    // Offset: 0xEF4F40
     void SetRotationScaleMultiplier(float rotationScaleMultiplier);
     // public System.Void GetSkipMouseRotation(System.Boolean skipMouseRotation)
-    // Offset: 0xEE3504
+    // Offset: 0xEF4F48
     void GetSkipMouseRotation(bool& skipMouseRotation);
     // public System.Void SetSkipMouseRotation(System.Boolean skipMouseRotation)
-    // Offset: 0xEE3510
+    // Offset: 0xEF4F54
     void SetSkipMouseRotation(bool skipMouseRotation);
     // public System.Void GetHaltUpdateMovement(System.Boolean haltUpdateMovement)
-    // Offset: 0xEE351C
+    // Offset: 0xEF4F60
     void GetHaltUpdateMovement(bool& haltUpdateMovement);
     // public System.Void SetHaltUpdateMovement(System.Boolean haltUpdateMovement)
-    // Offset: 0xEE3528
+    // Offset: 0xEF4F6C
     void SetHaltUpdateMovement(bool haltUpdateMovement);
     // public System.Void ResetOrientation()
-    // Offset: 0xEE3534
+    // Offset: 0xEF4F78
     void ResetOrientation();
     // public System.Void .ctor()
-    // Offset: 0xEE3634
+    // Offset: 0xEF5078
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -242,6 +242,6 @@ namespace GlobalNamespace {
     static OVRPlayerController* New_ctor();
   }; // OVRPlayerController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlayerController*, "", "OVRPlayerController");
 #pragma pack(pop)

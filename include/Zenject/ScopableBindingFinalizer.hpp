@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ProviderBindingFinalizer
 #include "Zenject/ProviderBindingFinalizer.hpp"
 // Completed includes
@@ -45,21 +46,21 @@ namespace Zenject {
     // Offset: 0x18
     System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFactory)
-    // Offset: 0xFB63A0
+    // Offset: 0xFC8DE4
     static ScopableBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory);
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
-    // Offset: 0xFB65A0
+    // Offset: 0xFC8FE4
     void FinalizeBindingConcrete(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes);
     // private System.Void FinalizeBindingSelf(Zenject.DiContainer container)
-    // Offset: 0xFB6488
+    // Offset: 0xFC8ECC
     void FinalizeBindingSelf(Zenject::DiContainer* container);
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0xFB63F0
+    // Offset: 0xFC8E34
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);
   }; // Zenject.ScopableBindingFinalizer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopableBindingFinalizer*, "Zenject", "ScopableBindingFinalizer");
 #pragma pack(pop)

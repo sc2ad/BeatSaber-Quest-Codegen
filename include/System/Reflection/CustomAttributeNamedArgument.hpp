@@ -34,31 +34,31 @@ namespace System::Reflection {
     // Creating value type constructor for type: CustomAttributeNamedArgument
     CustomAttributeNamedArgument(System::Reflection::CustomAttributeTypedArgument typedArgument_ = {}, System::Reflection::MemberInfo* memberInfo_ = {}) : typedArgument{typedArgument_}, memberInfo{memberInfo_} {}
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo, System.Object value)
-    // Offset: 0xA431B0
+    // Offset: 0xA4322C
     static CustomAttributeNamedArgument* New_ctor(System::Reflection::MemberInfo* memberInfo, ::CsObject* value);
     // public System.Reflection.MemberInfo get_MemberInfo()
-    // Offset: 0xA431B8
+    // Offset: 0xA43234
     System::Reflection::MemberInfo* get_MemberInfo();
     // public System.Reflection.CustomAttributeTypedArgument get_TypedValue()
-    // Offset: 0xA431C0
+    // Offset: 0xA4323C
     System::Reflection::CustomAttributeTypedArgument get_TypedValue();
     // public override System.String ToString()
-    // Offset: 0xA431CC
+    // Offset: 0xA43248
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA431D4
+    // Offset: 0xA43250
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA431DC
+    // Offset: 0xA43258
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.CustomAttributeNamedArgument
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeNamedArgument, "System.Reflection", "CustomAttributeNamedArgument");
 #pragma pack(pop)

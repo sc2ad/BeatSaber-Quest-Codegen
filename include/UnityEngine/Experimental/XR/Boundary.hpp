@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
@@ -29,28 +27,28 @@ namespace UnityEngine::Experimental::XR {
     // Nested type: UnityEngine::Experimental::XR::Boundary::Type
     struct Type;
     // static public System.Boolean TryGetDimensions(UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
-    // Offset: 0x1961F90
+    // Offset: 0x19749D4
     static bool TryGetDimensions(UnityEngine::Vector3& dimensionsOut, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static private System.Boolean TryGetDimensionsInternal(UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
-    // Offset: 0x1961FE0
+    // Offset: 0x1974A24
     static bool TryGetDimensionsInternal(UnityEngine::Vector3& dimensionsOut, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static public System.Boolean get_visible()
-    // Offset: 0x1962030
+    // Offset: 0x1974A74
     static bool get_visible();
     // static public System.Void set_visible(System.Boolean value)
-    // Offset: 0x1962064
+    // Offset: 0x1974AA8
     static void set_visible(bool value);
     // static public System.Boolean get_configured()
-    // Offset: 0x19620A4
+    // Offset: 0x1974AE8
     static bool get_configured();
     // static public System.Boolean TryGetGeometry(System.Collections.Generic.List`1<UnityEngine.Vector3> geometry, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
-    // Offset: 0x19620D8
+    // Offset: 0x1974B1C
     static bool TryGetGeometry(System::Collections::Generic::List_1<UnityEngine::Vector3>* geometry, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static private System.Boolean TryGetGeometryScriptingInternal(System.Collections.Generic.List`1<UnityEngine.Vector3> geometry, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
-    // Offset: 0x19621A0
+    // Offset: 0x1974BE4
     static bool TryGetGeometryScriptingInternal(System::Collections::Generic::List_1<UnityEngine::Vector3>* geometry, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
   }; // UnityEngine.Experimental.XR.Boundary
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary*, "UnityEngine.Experimental.XR", "Boundary");
 #pragma pack(pop)

@@ -21,19 +21,19 @@ namespace UnityEngine {
   class MeshFilter : public UnityEngine::Component {
     public:
     // private System.Void DontStripMeshFilter()
-    // Offset: 0x13FBD58
+    // Offset: 0x140C79C
     void DontStripMeshFilter();
     // public UnityEngine.Mesh get_sharedMesh()
-    // Offset: 0x13FBD5C
+    // Offset: 0x140C7A0
     UnityEngine::Mesh* get_sharedMesh();
     // public System.Void set_sharedMesh(UnityEngine.Mesh value)
-    // Offset: 0x13FBD9C
+    // Offset: 0x140C7E0
     void set_sharedMesh(UnityEngine::Mesh* value);
     // public System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x13FBDEC
+    // Offset: 0x140C830
     void set_mesh(UnityEngine::Mesh* value);
   }; // UnityEngine.MeshFilter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshFilter*, "UnityEngine", "MeshFilter");
 #pragma pack(pop)

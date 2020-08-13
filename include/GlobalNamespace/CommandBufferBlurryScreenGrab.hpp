@@ -58,25 +58,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     static void _set__cameras(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x18F5D2C
+    // Offset: 0x1905770
     static void NoDomainReloadInit();
     // protected override UnityEngine.Rendering.CommandBuffer CreateCommandBuffer(UnityEngine.Camera camera)
-    // Offset: 0x18F5DBC
+    // Offset: 0x1905800
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CommandBuffer CommandBufferGOCore::CreateCommandBuffer(UnityEngine.Camera camera)
     UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(UnityEngine::Camera* camera);
     // protected override System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CamerasDict()
-    // Offset: 0x18F5EBC
+    // Offset: 0x1905900
     // Implemented from: CommandBufferGOCore
     // Base method: System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> CommandBufferGOCore::CamerasDict()
     System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected override UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
-    // Offset: 0x18F5F24
+    // Offset: 0x1905968
     // Implemented from: CommandBufferGOCore
     // Base method: UnityEngine.Rendering.CameraEvent CommandBufferGOCore::CommandBufferCameraEvent()
     UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
     // public System.Void .ctor()
-    // Offset: 0x18F5F2C
+    // Offset: 0x1905970
     // Implemented from: CommandBufferGOCore
     // Base method: System.Void CommandBufferGOCore::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -86,12 +86,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CommandBufferBlurryScreenGrab* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18F5F48
+    // Offset: 0x190598C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // CommandBufferBlurryScreenGrab
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferBlurryScreenGrab*, "", "CommandBufferBlurryScreenGrab");
 #pragma pack(pop)

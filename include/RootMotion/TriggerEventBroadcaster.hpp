@@ -26,16 +26,16 @@ namespace RootMotion {
     // Offset: 0x18
     UnityEngine::GameObject* target;
     // private System.Void OnTriggerEnter(UnityEngine.Collider collider)
-    // Offset: 0x122D928
+    // Offset: 0x123F36C
     void OnTriggerEnter(UnityEngine::Collider* collider);
     // private System.Void OnTriggerStay(UnityEngine.Collider collider)
-    // Offset: 0x122D9E0
+    // Offset: 0x123F424
     void OnTriggerStay(UnityEngine::Collider* collider);
     // private System.Void OnTriggerExit(UnityEngine.Collider collider)
-    // Offset: 0x122DA98
+    // Offset: 0x123F4DC
     void OnTriggerExit(UnityEngine::Collider* collider);
     // public System.Void .ctor()
-    // Offset: 0x122DB50
+    // Offset: 0x123F594
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace RootMotion {
     static TriggerEventBroadcaster* New_ctor();
   }; // RootMotion.TriggerEventBroadcaster
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TriggerEventBroadcaster*, "RootMotion", "TriggerEventBroadcaster");
 #pragma pack(pop)

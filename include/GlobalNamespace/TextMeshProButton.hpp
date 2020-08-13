@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Button* button;
     // public TMPro.TextMeshProUGUI get_text()
-    // Offset: 0xC317C4
+    // Offset: 0xC43208
     TMPro::TextMeshProUGUI* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0xC317CC
+    // Offset: 0xC43210
     UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0xC317D4
+    // Offset: 0xC43218
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static TextMeshProButton* New_ctor();
   }; // TextMeshProButton
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProButton*, "", "TextMeshProButton");
 #pragma pack(pop)

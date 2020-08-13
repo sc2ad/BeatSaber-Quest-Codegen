@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Offset: 0x30
     float yAngle;
     // protected System.Void Start()
-    // Offset: 0xBDA43C
+    // Offset: 0xBECE80
     void Start();
     // protected System.Void Update()
-    // Offset: 0xBDA4B8
+    // Offset: 0xBECEFC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBDA6A4
+    // Offset: 0xBED0E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static FlyingGameHUDRotation* New_ctor();
   }; // FlyingGameHUDRotation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingGameHUDRotation*, "", "FlyingGameHUDRotation");
 #pragma pack(pop)

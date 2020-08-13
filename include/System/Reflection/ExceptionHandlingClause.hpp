@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Reflection.ExceptionHandlingClauseOptions
 #include "System/Reflection/ExceptionHandlingClauseOptions.hpp"
 // Completed includes
@@ -44,17 +42,17 @@ namespace System::Reflection {
     // Offset: 0x2C
     int handler_length;
     // protected System.Void .ctor()
-    // Offset: 0x13533B4
+    // Offset: 0x1365DF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ExceptionHandlingClause* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x13533B8
+    // Offset: 0x1365DFC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.Reflection.ExceptionHandlingClause
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");
 #pragma pack(pop)

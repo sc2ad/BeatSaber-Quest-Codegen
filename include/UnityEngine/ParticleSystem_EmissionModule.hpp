@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -20,22 +20,22 @@ namespace UnityEngine {
     // Creating value type constructor for type: EmissionModule
     EmissionModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) : m_ParticleSystem{m_ParticleSystem_} {}
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xA5B828
+    // Offset: 0xA5B8A4
     static ParticleSystem::EmissionModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
     // public System.Boolean get_enabled()
-    // Offset: 0xA5B830
+    // Offset: 0xA5B8AC
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0xA5B870
+    // Offset: 0xA5B8EC
     void set_enabled(bool value);
     // static private System.Boolean get_enabled_Injected(UnityEngine.ParticleSystem/EmissionModule _unity_self)
-    // Offset: 0x19527E4
+    // Offset: 0x1965228
     static bool get_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self);
     // static private System.Void set_enabled_Injected(UnityEngine.ParticleSystem/EmissionModule _unity_self, System.Boolean value)
-    // Offset: 0x1952874
+    // Offset: 0x19652B8
     static void set_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/EmissionModule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmissionModule, "UnityEngine", "ParticleSystem/EmissionModule");
 #pragma pack(pop)

@@ -51,16 +51,16 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     GlobalNamespace::RankModel::Rank prevImmediateRank;
     // protected System.Void Start()
-    // Offset: 0xB444B0
+    // Offset: 0xB424B0
     void Start();
     // protected System.Void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange()
-    // Offset: 0xB44730
+    // Offset: 0xB42730
     void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
     // private System.Void RefreshUI()
-    // Offset: 0xB44574
+    // Offset: 0xB42574
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0xB44734
+    // Offset: 0xB42734
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,6 +70,6 @@ namespace GlobalNamespace {
     static ImmediateRankUIPanel* New_ctor();
   }; // ImmediateRankUIPanel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImmediateRankUIPanel*, "", "ImmediateRankUIPanel");
 #pragma pack(pop)

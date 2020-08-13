@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -30,19 +28,19 @@ namespace System::Globalization {
     // Set static field: static private readonly System.Char[] sep
     static void _set_sep(::Array<::Il2CppChar>* value);
     // System.Void .ctor(System.Int32 dataIndex)
-    // Offset: 0xD956E4
+    // Offset: 0xDA9128
     static CodePageDataItem* New_ctor(int dataIndex);
     // static System.String CreateString(System.String pStrings, System.UInt32 index)
-    // Offset: 0xD957C0
+    // Offset: 0xDA9204
     static ::CsString* CreateString(::CsString* pStrings, uint index);
     // public System.String get_WebName()
-    // Offset: 0xD95894
+    // Offset: 0xDA92D8
     ::CsString* get_WebName();
     // static private System.Void .cctor()
-    // Offset: 0xD95980
+    // Offset: 0xDA93C4
     static void _cctor();
   }; // System.Globalization.CodePageDataItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -83,39 +81,39 @@ namespace System::Globalization {
     // Set static field: static System.Globalization.CalendarData Invariant
     static void _set_Invariant(System::Globalization::CalendarData* value);
     // static private System.Void .cctor()
-    // Offset: 0xD93134
+    // Offset: 0xDA6B78
     static void _cctor();
     // System.Void .ctor(System.String localeName, System.Int32 calendarId, System.Boolean bUseUserOverrides)
-    // Offset: 0xD94208
+    // Offset: 0xDA7C4C
     static CalendarData* New_ctor(::CsString* localeName, int calendarId, bool bUseUserOverrides);
     // private System.Void InitializeEraNames(System.String localeName, System.Int32 calendarId)
-    // Offset: 0xD948E0
+    // Offset: 0xDA8324
     void InitializeEraNames(::CsString* localeName, int calendarId);
     // private System.Void InitializeAbbreviatedEraNames(System.String localeName, System.Int32 calendarId)
-    // Offset: 0xD94CD8
+    // Offset: 0xDA871C
     void InitializeAbbreviatedEraNames(::CsString* localeName, int calendarId);
     // static System.Globalization.CalendarData GetCalendarData(System.Int32 calendarId)
-    // Offset: 0xD92BCC
+    // Offset: 0xDA6610
     static System::Globalization::CalendarData* GetCalendarData(int calendarId);
     // static private System.String CalendarIdToCultureName(System.Int32 calendarId)
-    // Offset: 0xD94FFC
+    // Offset: 0xDA8A40
     static ::CsString* CalendarIdToCultureName(int calendarId);
     // static public System.Int32 nativeGetTwoDigitYearMax(System.Int32 calID)
-    // Offset: 0xD9311C
+    // Offset: 0xDA6B60
     static int nativeGetTwoDigitYearMax(int calID);
     // static private System.Boolean nativeGetCalendarData(System.Globalization.CalendarData data, System.String localeName, System.Int32 calendarId)
-    // Offset: 0xD9489C
+    // Offset: 0xDA82E0
     static bool nativeGetCalendarData(System::Globalization::CalendarData* data, ::CsString* localeName, int calendarId);
     // private System.Boolean fill_calendar_data(System.String localeName, System.Int32 datetimeIndex)
-    // Offset: 0xD95064
+    // Offset: 0xDA8AA8
     bool fill_calendar_data(::CsString* localeName, int datetimeIndex);
     // private System.Void .ctor()
-    // Offset: 0xD93124
+    // Offset: 0xDA6B68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CalendarData* New_ctor();
   }; // System.Globalization.CalendarData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData*, "System.Globalization", "CalendarData");
 #pragma pack(pop)

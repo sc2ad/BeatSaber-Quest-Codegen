@@ -23,7 +23,7 @@ namespace System {
   class FieldAccessException : public System::MemberAccessException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xD91E4C
+    // Offset: 0xDA5890
     // Implemented from: System.MemberAccessException
     // Base method: System.Void MemberAccessException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static FieldAccessException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xD91EB0
+    // Offset: 0xDA58F4
     // Implemented from: System.MemberAccessException
     // Base method: System.Void MemberAccessException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static FieldAccessException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD91EE0
+    // Offset: 0xDA5924
     // Implemented from: System.MemberAccessException
     // Base method: System.Void MemberAccessException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -46,6 +46,6 @@ namespace System {
     static FieldAccessException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.FieldAccessException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::FieldAccessException*, "System", "FieldAccessException");
 #pragma pack(pop)

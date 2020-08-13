@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Completed includes
@@ -59,16 +57,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x68
     ::Array<uint64_t>* uint64A;
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0xFD8C78
+    // Offset: 0xFE96BC
     static PrimitiveArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array);
     // System.Void Init(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0xFD8CB8
+    // Offset: 0xFE96FC
     void Init(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array);
     // System.Void SetValue(System.String value, System.Int32 index)
-    // Offset: 0xFD8F80
+    // Offset: 0xFE99C4
     void SetValue(::CsString* value, int index);
   }; // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");
 #pragma pack(pop)

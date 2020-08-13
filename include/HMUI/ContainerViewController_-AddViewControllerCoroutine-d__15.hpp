@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HMUI.ContainerViewController
 #include "HMUI/ContainerViewController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -62,35 +60,35 @@ namespace HMUI {
     // Offset: 0x54
     float $elapsedTime$5__4;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xEC27A0
+    // Offset: 0xED51E4
     static ContainerViewController::$AddViewControllerCoroutine$d__15* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xEC2BE8
+    // Offset: 0xED562C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xEC2BEC
+    // Offset: 0xED5630
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xEC2DB4
+    // Offset: 0xED57F8
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xEC2DBC
+    // Offset: 0xED5800
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xEC2E1C
+    // Offset: 0xED5860
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.ContainerViewController/<AddViewControllerCoroutine>d__15
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController::$AddViewControllerCoroutine$d__15*, "HMUI", "ContainerViewController/<AddViewControllerCoroutine>d__15");
 #pragma pack(pop)

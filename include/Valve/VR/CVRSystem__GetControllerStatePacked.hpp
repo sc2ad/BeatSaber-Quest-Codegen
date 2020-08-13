@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: Valve.VR.CVRSystem
 #include "Valve/VR/CVRSystem.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -31,19 +31,19 @@ namespace Valve::VR {
   class CVRSystem::_GetControllerStatePacked : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFD14D0
+    // Offset: 0xFE2F14
     static CVRSystem::_GetControllerStatePacked* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt32 unControllerDeviceIndex, Valve.VR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize)
-    // Offset: 0xFD0B40
+    // Offset: 0xFE2584
     bool Invoke(uint unControllerDeviceIndex, Valve::VR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unControllerDeviceIndex, Valve.VR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFD14E4
+    // Offset: 0xFE2F28
     System::IAsyncResult* BeginInvoke(uint unControllerDeviceIndex, Valve::VR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Boolean EndInvoke(Valve.VR.VRControllerState_t_Packed pControllerState, System.IAsyncResult result)
-    // Offset: 0xFD15B0
+    // Offset: 0xFE2FF4
     bool EndInvoke(Valve::VR::VRControllerState_t_Packed& pControllerState, System::IAsyncResult* result);
   }; // Valve.VR.CVRSystem/_GetControllerStatePacked
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem::_GetControllerStatePacked*, "Valve.VR", "CVRSystem/_GetControllerStatePacked");
 #pragma pack(pop)

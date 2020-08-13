@@ -60,26 +60,26 @@ namespace GlobalNamespace {
     // Offset: 0x90
     System::Action_1<int>* didFinishAction;
     // public System.Void Init(System.String title, System.String message, System.String buttonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0xB82FE4
+    // Offset: 0xB94A28
     void Init(::CsString* title, ::CsString* message, ::CsString* buttonText, System::Action_1<int>* didFinishAction);
     // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0xB831F0
+    // Offset: 0xB94C34
     void Init(::CsString* title, ::CsString* message, ::CsString* firstButtonText, ::CsString* secondButtonText, System::Action_1<int>* didFinishAction);
     // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.String thirdButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0xB82FF4
+    // Offset: 0xB94A38
     void Init(::CsString* title, ::CsString* message, ::CsString* firstButtonText, ::CsString* secondButtonText, ::CsString* thirdButtonText, System::Action_1<int>* didFinishAction);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB82E94
+    // Offset: 0xB948D8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xB82FD0
+    // Offset: 0xB94A14
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0xB831FC
+    // Offset: 0xB94C40
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -90,6 +90,6 @@ namespace GlobalNamespace {
     static SimpleDialogPromptViewController* New_ctor();
   }; // SimpleDialogPromptViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleDialogPromptViewController*, "", "SimpleDialogPromptViewController");
 #pragma pack(pop)

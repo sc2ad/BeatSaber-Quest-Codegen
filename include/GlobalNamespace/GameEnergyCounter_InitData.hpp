@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: GameEnergyCounter
 #include "GlobalNamespace/GameEnergyCounter.hpp"
 // Completed includes
@@ -28,10 +26,10 @@ namespace GlobalNamespace {
     // Offset: 0x16
     bool failOnSaberClash;
     // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFail, System.Boolean instaFail, System.Boolean failOnSaberClash)
-    // Offset: 0xBDE624
+    // Offset: 0xBF1068
     static GameEnergyCounter::InitData* New_ctor(GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash);
   }; // GameEnergyCounter/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter::InitData*, "", "GameEnergyCounter/InitData");
 #pragma pack(pop)

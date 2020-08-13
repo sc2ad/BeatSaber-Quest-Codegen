@@ -4,11 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include <stdint.h>
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.TimeZoneInfo
 #include "System/TimeZoneInfo.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -43,6 +43,6 @@ namespace System {
     SYSTEMTIME(uint16_t wYear_ = {}, uint16_t wMonth_ = {}, uint16_t wDayOfWeek_ = {}, uint16_t wDay_ = {}, uint16_t wHour_ = {}, uint16_t wMinute_ = {}, uint16_t wSecond_ = {}, uint16_t wMilliseconds_ = {}) : wYear{wYear_}, wMonth{wMonth_}, wDayOfWeek{wDayOfWeek_}, wDay{wDay_}, wHour{wHour_}, wMinute{wMinute_}, wSecond{wSecond_}, wMilliseconds{wMilliseconds_} {}
   }; // System.TimeZoneInfo/SYSTEMTIME
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::SYSTEMTIME, "System", "TimeZoneInfo/SYSTEMTIME");
 #pragma pack(pop)

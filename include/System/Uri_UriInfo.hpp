@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Uri
 #include "System/Uri.hpp"
 // Including type: System.Uri/Offset
@@ -36,12 +34,12 @@ namespace System {
     // Offset: 0x40
     System::Uri::MoreInfo* MoreInfo;
     // public System.Void .ctor()
-    // Offset: 0x14F02B0
+    // Offset: 0x14FFCF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Uri::UriInfo* New_ctor();
   }; // System.Uri/UriInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::UriInfo*, "System", "Uri/UriInfo");
 #pragma pack(pop)

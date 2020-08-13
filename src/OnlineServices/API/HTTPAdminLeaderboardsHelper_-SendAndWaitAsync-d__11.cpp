@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OnlineServices.API.HTTPAdminLeaderboardsHelper/<SendAndWaitAsync>d__11
 #include "OnlineServices/API/HTTPAdminLeaderboardsHelper_-SendAndWaitAsync-d__11.hpp"
 // Including type: UnityEngine.Networking.UnityWebRequest

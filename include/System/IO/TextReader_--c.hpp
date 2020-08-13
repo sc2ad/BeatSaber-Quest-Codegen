@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IO.TextReader
 #include "System/IO/TextReader.hpp"
 // Completed includes
@@ -20,21 +18,21 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.TextReader/<>c <>9
     static void _set_$$9(System::IO::TextReader::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0xFF7998
+    // Offset: 0x10073DC
     static void _cctor();
     // System.String <.cctor>b__22_0(System.Object state)
-    // Offset: 0xFF7A08
+    // Offset: 0x100744C
     ::CsString* $_cctor$b__22_0(::CsObject* state);
     // System.Int32 <.cctor>b__22_1(System.Object state)
-    // Offset: 0xFF7AC0
+    // Offset: 0x1007504
     int $_cctor$b__22_1(::CsObject* state);
     // public System.Void .ctor()
-    // Offset: 0xFF7A00
+    // Offset: 0x1007444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TextReader::$$c* New_ctor();
   }; // System.IO.TextReader/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::$$c*, "System.IO", "TextReader/<>c");
 #pragma pack(pop)

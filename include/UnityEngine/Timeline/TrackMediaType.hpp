@@ -19,10 +19,10 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     UnityEngine::Timeline::TimelineAsset::MediaType m_MediaType;
     // public System.Void .ctor(UnityEngine.Timeline.TimelineAsset/MediaType mt)
-    // Offset: 0x18F4770
+    // Offset: 0x19051B4
     static TrackMediaType* New_ctor(UnityEngine::Timeline::TimelineAsset::MediaType mt);
   }; // UnityEngine.Timeline.TrackMediaType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackMediaType*, "UnityEngine.Timeline", "TrackMediaType");
 #pragma pack(pop)

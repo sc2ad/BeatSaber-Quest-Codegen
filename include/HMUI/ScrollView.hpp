@@ -83,55 +83,55 @@ namespace HMUI {
     // Offset: 0x68
     ::Array<float>* scrollFocusPosYs;
     // protected System.Void Awake()
-    // Offset: 0x10CB6D8
+    // Offset: 0x10DC11C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10CBA60
+    // Offset: 0x10DC4A4
     void OnDestroy();
     // public System.Void ScrollDown(System.Boolean animated)
-    // Offset: 0x10CBA74
+    // Offset: 0x10DC4B8
     void ScrollDown(bool animated);
     // public System.Void ScrollToWorldPosition(UnityEngine.Vector3 worldPosition, System.Single pageRelativePosition, System.Boolean animated)
-    // Offset: 0x10CBB60
+    // Offset: 0x10DC5A4
     void ScrollToWorldPosition(UnityEngine::Vector3 worldPosition, float pageRelativePosition, bool animated);
     // public System.Void ScrollToWorldPositionIfOutsideArea(UnityEngine.Vector3 worldPosition, System.Single pageRelativePosition, System.Single relativeBoundaryStart, System.Single relativeBoundaryEnd, System.Boolean animated)
-    // Offset: 0x10CBCD0
+    // Offset: 0x10DC714
     void ScrollToWorldPositionIfOutsideArea(UnityEngine::Vector3 worldPosition, float pageRelativePosition, float relativeBoundaryStart, float relativeBoundaryEnd, bool animated);
     // public System.Void ScrollAt(System.Single dstPosY, System.Boolean animated)
-    // Offset: 0x10CBAE4
+    // Offset: 0x10DC528
     void ScrollAt(float dstPosY, bool animated);
     // private System.Void Setup()
-    // Offset: 0x10CB808
+    // Offset: 0x10DC24C
     void Setup();
     // private UnityEngine.Vector2 WorldPositionToScrollViewPosition(UnityEngine.Vector3 worldPosition)
-    // Offset: 0x10CBBA4
+    // Offset: 0x10DC5E8
     UnityEngine::Vector2 WorldPositionToScrollViewPosition(UnityEngine::Vector3 worldPosition);
     // private System.Void ComputeScrollFocusPosY()
-    // Offset: 0x10CBEC8
+    // Offset: 0x10DC90C
     void ComputeScrollFocusPosY();
     // protected System.Void Update()
-    // Offset: 0x10CC064
+    // Offset: 0x10DCAA8
     void Update();
     // private System.Void SetDstPosY(System.Single value)
-    // Offset: 0x10CBD58
+    // Offset: 0x10DC79C
     void SetDstPosY(float value);
     // private System.Void UpdateVerticalScrollIndicator(System.Single posY)
-    // Offset: 0x10CC194
+    // Offset: 0x10DCBD8
     void UpdateVerticalScrollIndicator(float posY);
     // private System.Void PageUpButtonPressed()
-    // Offset: 0x10CC304
+    // Offset: 0x10DCD48
     void PageUpButtonPressed();
     // private System.Void PageDownButtonPressed()
-    // Offset: 0x10CC424
+    // Offset: 0x10DCE68
     void PageDownButtonPressed();
     // private System.Void RefreshButtonsInteractibility()
-    // Offset: 0x10CB9C4
+    // Offset: 0x10DC408
     void RefreshButtonsInteractibility();
     // private System.Single <ComputeScrollFocusPosY>b__21_0(HMUI.ItemForFocussedScrolling item)
-    // Offset: 0x10CC57C
+    // Offset: 0x10DCFC0
     float $ComputeScrollFocusPosY$b__21_0(HMUI::ItemForFocussedScrolling* item);
     // public System.Void .ctor()
-    // Offset: 0x10CC55C
+    // Offset: 0x10DCFA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -141,6 +141,6 @@ namespace HMUI {
     static ScrollView* New_ctor();
   }; // HMUI.ScrollView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView*, "HMUI", "ScrollView");
 #pragma pack(pop)

@@ -29,18 +29,18 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BoolSO* postProcessEnabled;
     // public MainEffectSO get_mainEffect()
-    // Offset: 0x18F7BD8
+    // Offset: 0x190761C
     GlobalNamespace::MainEffectSO* get_mainEffect();
     // public System.Void Init(MainEffectSO mainEffect)
-    // Offset: 0x18F7C60
+    // Offset: 0x19076A4
     void Init(GlobalNamespace::MainEffectSO* mainEffect);
     // protected override System.Void OnEnable()
-    // Offset: 0x18F7BE0
+    // Offset: 0x1907624
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x18F7CF0
+    // Offset: 0x1907734
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     static MainEffectContainerSO* New_ctor();
   }; // MainEffectContainerSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectContainerSO*, "", "MainEffectContainerSO");
 #pragma pack(pop)

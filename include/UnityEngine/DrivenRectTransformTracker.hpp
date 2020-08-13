@@ -26,13 +26,13 @@ namespace UnityEngine {
     // Creating value type constructor for type: DrivenRectTransformTracker
     DrivenRectTransformTracker() {}
     // public System.Void Add(UnityEngine.Object driver, UnityEngine.RectTransform rectTransform, UnityEngine.DrivenTransformProperties drivenProperties)
-    // Offset: 0xA41E3C
+    // Offset: 0xA41EB8
     void Add(UnityEngine::Object* driver, UnityEngine::RectTransform* rectTransform, UnityEngine::DrivenTransformProperties drivenProperties);
     // public System.Void Clear()
-    // Offset: 0xA41E40
+    // Offset: 0xA41EBC
     void Clear();
   }; // UnityEngine.DrivenRectTransformTracker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenRectTransformTracker, "UnityEngine", "DrivenRectTransformTracker");
 #pragma pack(pop)

@@ -56,13 +56,13 @@ namespace GlobalNamespace {
     // Set static field: static private OVRGearVrControllerTest/BoolMonitor controllers
     static void _set_controllers(GlobalNamespace::OVRGearVrControllerTest::BoolMonitor* value);
     // private System.Void Start()
-    // Offset: 0xCBE2A4
+    // Offset: 0xCD1CE8
     void Start();
     // private System.Void Update()
-    // Offset: 0xCC0100
+    // Offset: 0xCD3B44
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCC0A9C
+    // Offset: 0xCD44E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -71,12 +71,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRGearVrControllerTest* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xCC0AA4
+    // Offset: 0xCD44E8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRGearVrControllerTest
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGearVrControllerTest*, "", "OVRGearVrControllerTest");
 #pragma pack(pop)

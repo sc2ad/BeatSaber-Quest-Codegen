@@ -29,16 +29,16 @@ namespace System::IO {
     // Offset: 0x98
     ::CsString* fusionLog;
     // public System.Void .ctor(System.String message, System.String fileName)
-    // Offset: 0x111DB34
+    // Offset: 0x112E578
     static FileNotFoundException* New_ctor(::CsString* message, ::CsString* fileName);
     // private System.Void SetMessageField()
-    // Offset: 0x111F58C
+    // Offset: 0x112FFD0
     void SetMessageField();
     // public System.String get_FusionLog()
-    // Offset: 0x111FA4C
+    // Offset: 0x1130490
     ::CsString* get_FusionLog();
     // public System.Void .ctor()
-    // Offset: 0x111F498
+    // Offset: 0x112FEDC
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -46,31 +46,31 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     static FileNotFoundException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x111F520
+    // Offset: 0x112FF64
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static FileNotFoundException* New_ctor(::CsString* message);
     // public override System.String get_Message()
-    // Offset: 0x111F568
+    // Offset: 0x112FFAC
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::CsString* get_Message();
     // public override System.String ToString()
-    // Offset: 0x111F628
+    // Offset: 0x113006C
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::CsString* ToString();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x111F8F4
+    // Offset: 0x1130338
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static FileNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x111FA54
+    // Offset: 0x1130498
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -79,6 +79,6 @@ namespace System::IO {
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.FileNotFoundException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileNotFoundException*, "System.IO", "FileNotFoundException");
 #pragma pack(pop)

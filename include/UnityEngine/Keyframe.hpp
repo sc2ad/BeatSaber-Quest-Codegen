@@ -36,37 +36,37 @@ namespace UnityEngine {
     // Creating value type constructor for type: Keyframe
     Keyframe(float m_Time_ = {}, float m_Value_ = {}, float m_InTangent_ = {}, float m_OutTangent_ = {}, int m_WeightedMode_ = {}, float m_InWeight_ = {}, float m_OutWeight_ = {}) : m_Time{m_Time_}, m_Value{m_Value_}, m_InTangent{m_InTangent_}, m_OutTangent{m_OutTangent_}, m_WeightedMode{m_WeightedMode_}, m_InWeight{m_InWeight_}, m_OutWeight{m_OutWeight_} {}
     // public System.Void .ctor(System.Single time, System.Single value)
-    // Offset: 0xA42354
+    // Offset: 0xA423D0
     static Keyframe* New_ctor(float time, float value);
     // public System.Void .ctor(System.Single time, System.Single value, System.Single inTangent, System.Single outTangent)
-    // Offset: 0xA42364
+    // Offset: 0xA423E0
     static Keyframe* New_ctor(float time, float value, float inTangent, float outTangent);
     // public System.Single get_time()
-    // Offset: 0xA42378
+    // Offset: 0xA423F4
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0xA42380
+    // Offset: 0xA423FC
     void set_time(float value);
     // public System.Single get_value()
-    // Offset: 0xA42388
+    // Offset: 0xA42404
     float get_value();
     // public System.Void set_value(System.Single value)
-    // Offset: 0xA42390
+    // Offset: 0xA4240C
     void set_value(float value);
     // public System.Single get_inTangent()
-    // Offset: 0xA42398
+    // Offset: 0xA42414
     float get_inTangent();
     // public System.Void set_inTangent(System.Single value)
-    // Offset: 0xA423A0
+    // Offset: 0xA4241C
     void set_inTangent(float value);
     // public System.Single get_outTangent()
-    // Offset: 0xA423A8
+    // Offset: 0xA42424
     float get_outTangent();
     // public System.Void set_outTangent(System.Single value)
-    // Offset: 0xA423B0
+    // Offset: 0xA4242C
     void set_outTangent(float value);
   }; // UnityEngine.Keyframe
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Keyframe, "UnityEngine", "Keyframe");
 #pragma pack(pop)

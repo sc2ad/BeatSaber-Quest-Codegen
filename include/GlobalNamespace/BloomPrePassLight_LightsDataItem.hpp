@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BloomPrePassLight
 #include "GlobalNamespace/BloomPrePassLight.hpp"
 // Completed includes
@@ -35,10 +33,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights;
     // public System.Void .ctor(BloomPrePassLightTypeSO lightType, System.Collections.Generic.HashSet`1<BloomPrePassLight> lights)
-    // Offset: 0x180DC58
+    // Offset: 0x181E69C
     static BloomPrePassLight::LightsDataItem* New_ctor(GlobalNamespace::BloomPrePassLightTypeSO* lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights);
   }; // BloomPrePassLight/LightsDataItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight::LightsDataItem*, "", "BloomPrePassLight/LightsDataItem");
 #pragma pack(pop)

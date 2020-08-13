@@ -22,6 +22,6 @@ namespace UnityEngine::Playables {
     UnityEngine::Playables::PlayableHandle GetHandle();
   }; // UnityEngine.Playables.IPlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayable*, "UnityEngine.Playables", "IPlayable");
 #pragma pack(pop)

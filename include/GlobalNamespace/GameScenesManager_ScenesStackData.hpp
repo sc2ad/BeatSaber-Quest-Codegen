@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: GameScenesManager
 #include "GlobalNamespace/GameScenesManager.hpp"
 // Completed includes
@@ -35,25 +33,25 @@ namespace GlobalNamespace {
     // Offset: 0x18
     Zenject::DiContainer* container;
     // public System.Collections.Generic.List`1<System.String> get_sceneNames()
-    // Offset: 0xC9FF1C
+    // Offset: 0xCB2960
     System::Collections::Generic::List_1<::CsString*>* get_sceneNames();
     // private System.Void set_sceneNames(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0xC9FF24
+    // Offset: 0xCB2968
     void set_sceneNames(System::Collections::Generic::List_1<::CsString*>* value);
     // public Zenject.DiContainer get_container()
-    // Offset: 0xC9FF2C
+    // Offset: 0xCB2970
     Zenject::DiContainer* get_container();
     // private System.Void set_container(Zenject.DiContainer value)
-    // Offset: 0xC9FF34
+    // Offset: 0xCB2978
     void set_container(Zenject::DiContainer* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneNames)
-    // Offset: 0xC9D4F4
+    // Offset: 0xCAFF38
     static GameScenesManager::ScenesStackData* New_ctor(System::Collections::Generic::List_1<::CsString*>* sceneNames);
     // public System.Void SetDiContainer(Zenject.DiContainer container)
-    // Offset: 0xC9EB7C
+    // Offset: 0xCB15C0
     void SetDiContainer(Zenject::DiContainer* container);
   }; // GameScenesManager/ScenesStackData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::ScenesStackData*, "", "GameScenesManager/ScenesStackData");
 #pragma pack(pop)

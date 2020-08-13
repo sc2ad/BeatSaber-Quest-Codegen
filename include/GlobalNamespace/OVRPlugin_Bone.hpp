@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin/BoneId
 #include "GlobalNamespace/OVRPlugin_BoneId.hpp"
 // Completed includes
@@ -30,6 +30,6 @@ namespace GlobalNamespace {
     Bone(GlobalNamespace::OVRPlugin::BoneId Id_ = {}, int16_t ParentBoneIndex_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}) : Id{Id_}, ParentBoneIndex{ParentBoneIndex_}, Pose{Pose_} {}
   }; // OVRPlugin/Bone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Bone, "", "OVRPlugin/Bone");
 #pragma pack(pop)

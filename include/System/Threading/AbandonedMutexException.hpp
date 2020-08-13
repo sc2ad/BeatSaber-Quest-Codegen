@@ -36,26 +36,26 @@ namespace System::Threading {
     // Offset: 0x90
     System::Threading::Mutex* m_Mutex;
     // public System.Void .ctor(System.Int32 location, System.Threading.WaitHandle handle)
-    // Offset: 0x13C0370
+    // Offset: 0x13D0DB4
     static AbandonedMutexException* New_ctor(int location, System::Threading::WaitHandle* handle);
     // private System.Void SetupException(System.Int32 location, System.Threading.WaitHandle handle)
-    // Offset: 0x13C040C
+    // Offset: 0x13D0E50
     void SetupException(int location, System::Threading::WaitHandle* handle);
     // public System.Void .ctor()
-    // Offset: 0x13C02F4
+    // Offset: 0x13D0D38
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static AbandonedMutexException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13C0494
+    // Offset: 0x13D0ED8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static AbandonedMutexException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Threading.AbandonedMutexException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AbandonedMutexException*, "System.Threading", "AbandonedMutexException");
 #pragma pack(pop)

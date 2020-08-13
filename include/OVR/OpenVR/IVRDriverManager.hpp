@@ -36,6 +36,6 @@ namespace OVR::OpenVR {
     IVRDriverManager(OVR::OpenVR::IVRDriverManager::_GetDriverCount* GetDriverCount_ = {}, OVR::OpenVR::IVRDriverManager::_GetDriverName* GetDriverName_ = {}, OVR::OpenVR::IVRDriverManager::_GetDriverHandle* GetDriverHandle_ = {}) : GetDriverCount{GetDriverCount_}, GetDriverName{GetDriverName_}, GetDriverHandle{GetDriverHandle_} {}
   }; // OVR.OpenVR.IVRDriverManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRDriverManager, "OVR.OpenVR", "IVRDriverManager");
 #pragma pack(pop)

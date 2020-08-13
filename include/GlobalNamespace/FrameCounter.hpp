@@ -17,13 +17,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int numberOfFrames;
     // private System.Void Update()
-    // Offset: 0xC9C8E4
+    // Offset: 0xCAF328
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0xC9C8F4
+    // Offset: 0xCAF338
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xC9C9A8
+    // Offset: 0xCAF3EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -33,6 +33,6 @@ namespace GlobalNamespace {
     static FrameCounter* New_ctor();
   }; // FrameCounter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FrameCounter*, "", "FrameCounter");
 #pragma pack(pop)

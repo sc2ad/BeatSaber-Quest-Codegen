@@ -35,25 +35,25 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     bool fixedFrame;
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x1368E5C
+    // Offset: 0x137B8A0
     bool get_animatePhysics();
     // private System.Void Start()
-    // Offset: 0x1368EF8
+    // Offset: 0x137B93C
     void Start();
     // private System.Void Update()
-    // Offset: 0x1368F68
+    // Offset: 0x137B9AC
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0x1369024
+    // Offset: 0x137BA68
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1369060
+    // Offset: 0x137BAA4
     void LateUpdate();
     // private System.Void FixTransforms()
-    // Offset: 0x1368F9C
+    // Offset: 0x137B9E0
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x13690EC
+    // Offset: 0x137BB30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,6 +63,6 @@ namespace RootMotion::FinalIK {
     static IKExecutionOrder* New_ctor();
   }; // RootMotion.FinalIK.IKExecutionOrder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKExecutionOrder*, "RootMotion.FinalIK", "IKExecutionOrder");
 #pragma pack(pop)

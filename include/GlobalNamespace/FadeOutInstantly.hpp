@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::FadeInOutController* fadeInOut;
     // protected System.Void Start()
-    // Offset: 0x18F7268
+    // Offset: 0x1906CAC
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x18F7284
+    // Offset: 0x1906CC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -37,6 +37,6 @@ namespace GlobalNamespace {
     static FadeOutInstantly* New_ctor();
   }; // FadeOutInstantly
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutInstantly*, "", "FadeOutInstantly");
 #pragma pack(pop)

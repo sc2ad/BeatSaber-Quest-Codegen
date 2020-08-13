@@ -23,23 +23,23 @@ namespace Mono {
     // Creating value type constructor for type: RuntimePropertyHandle
     RuntimePropertyHandle(System::IntPtr value_ = {}) : value{value_} {}
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0xA3CD48
+    // Offset: 0xA3CDC4
     static RuntimePropertyHandle* New_ctor(System::IntPtr v);
     // public System.IntPtr get_Value()
-    // Offset: 0xA3CD50
+    // Offset: 0xA3CDCC
     System::IntPtr get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA3CD58
+    // Offset: 0xA3CDD4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3CD60
+    // Offset: 0xA3CDDC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // Mono.RuntimePropertyHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimePropertyHandle, "Mono", "RuntimePropertyHandle");
 #pragma pack(pop)

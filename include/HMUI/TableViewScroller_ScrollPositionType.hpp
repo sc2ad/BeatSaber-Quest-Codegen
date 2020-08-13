@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: HMUI.TableViewScroller
 #include "HMUI/TableViewScroller.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {
@@ -40,6 +40,6 @@ namespace HMUI {
     ScrollPositionType(int value_ = {}) : value{value_} {}
   }; // HMUI.TableViewScroller/ScrollPositionType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableViewScroller::ScrollPositionType, "HMUI", "TableViewScroller/ScrollPositionType");
 #pragma pack(pop)

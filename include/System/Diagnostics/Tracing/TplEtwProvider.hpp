@@ -29,30 +29,30 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.TplEtwProvider Log
     static void _set_Log(System::Diagnostics::Tracing::TplEtwProvider* value);
     // public System.Boolean get_Debug()
-    // Offset: 0xD871E4
+    // Offset: 0xD9AC28
     bool get_Debug();
     // public System.Void DebugFacilityMessage(System.String Facility, System.String Message)
-    // Offset: 0xD871F4
+    // Offset: 0xD9AC38
     void DebugFacilityMessage(::CsString* Facility, ::CsString* Message);
     // public System.Void DebugFacilityMessage1(System.String Facility, System.String Message, System.String Arg)
-    // Offset: 0xD87208
+    // Offset: 0xD9AC4C
     void DebugFacilityMessage1(::CsString* Facility, ::CsString* Message, ::CsString* Arg);
     // public System.Void SetActivityId(System.Guid Id)
-    // Offset: 0xD87220
+    // Offset: 0xD9AC64
     void SetActivityId(System::Guid Id);
     // public System.Void .ctor()
-    // Offset: 0xD87310
+    // Offset: 0xD9AD54
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.ctor()
     // Base method: System.Void Object::.ctor()
     static TplEtwProvider* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xD87378
+    // Offset: 0xD9ADBC
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.cctor()
     static void _cctor();
   }; // System.Diagnostics.Tracing.TplEtwProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TplEtwProvider*, "System.Diagnostics.Tracing", "TplEtwProvider");
 #pragma pack(pop)

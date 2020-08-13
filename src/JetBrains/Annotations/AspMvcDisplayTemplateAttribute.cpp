@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: JetBrains.Annotations.AspMvcDisplayTemplateAttribute
 #include "JetBrains/Annotations/AspMvcDisplayTemplateAttribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

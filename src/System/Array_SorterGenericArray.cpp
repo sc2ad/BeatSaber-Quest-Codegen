@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Array/SorterGenericArray
 #include "System/Array_SorterGenericArray.hpp"
 // Including type: System.Collections.IComparer

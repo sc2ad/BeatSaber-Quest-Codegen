@@ -27,28 +27,28 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: Hand
     Hand(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
     // System.UInt64 get_deviceId()
-    // Offset: 0xA5B1FC
+    // Offset: 0xA5B278
     uint64_t get_deviceId();
     // System.UInt32 get_featureIndex()
-    // Offset: 0xA5B204
+    // Offset: 0xA5B280
     uint get_featureIndex();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5B20C
+    // Offset: 0xA5B288
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.Hand other)
-    // Offset: 0xA5B214
+    // Offset: 0xA5B290
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.Hand other)
     bool Equals(UnityEngine::XR::Hand other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5B238
+    // Offset: 0xA5B2B4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.Hand
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");
 #pragma pack(pop)

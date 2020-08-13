@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.Recoil
 #include "RootMotion/FinalIK/Recoil.hpp"
 // Completed includes
@@ -47,18 +45,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x3C
     UnityEngine::Vector3 lastOffset;
     // public System.Void Start()
-    // Offset: 0x121DA3C
+    // Offset: 0x122F480
     void Start();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion rotation, System.Single masterWeight, System.Single length, System.Single timeLeft)
-    // Offset: 0x121E5F0
+    // Offset: 0x1230034
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
     // public System.Void .ctor()
-    // Offset: 0x121ED38
+    // Offset: 0x123077C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Recoil::RecoilOffset* New_ctor();
   }; // RootMotion.FinalIK.Recoil/RecoilOffset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset*, "RootMotion.FinalIK", "Recoil/RecoilOffset");
 #pragma pack(pop)

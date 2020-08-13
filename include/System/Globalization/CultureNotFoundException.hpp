@@ -31,22 +31,22 @@ namespace System::Globalization {
     // Offset: 0x98
     System::Nullable_1<int> m_invalidCultureId;
     // public System.Void .ctor(System.String paramName, System.String invalidCultureName, System.String message)
-    // Offset: 0x12A1AD4
+    // Offset: 0x12B3518
     static CultureNotFoundException* New_ctor(::CsString* paramName, ::CsString* invalidCultureName, ::CsString* message);
     // public System.Nullable`1<System.Int32> get_InvalidCultureId()
-    // Offset: 0x12A1DF4
+    // Offset: 0x12B3838
     System::Nullable_1<int> get_InvalidCultureId();
     // public System.String get_InvalidCultureName()
-    // Offset: 0x12A1DFC
+    // Offset: 0x12B3840
     ::CsString* get_InvalidCultureName();
     // static private System.String get_DefaultMessage()
-    // Offset: 0x12A1A88
+    // Offset: 0x12B34CC
     static ::CsString* get_DefaultMessage();
     // private System.String get_FormatedInvalidCultureId()
-    // Offset: 0x12A1E04
+    // Offset: 0x12B3848
     ::CsString* get_FormatedInvalidCultureId();
     // public System.Void .ctor()
-    // Offset: 0x12A1A5C
+    // Offset: 0x12B34A0
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -54,19 +54,19 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     static CultureNotFoundException* New_ctor();
     // public System.Void .ctor(System.String paramName, System.String message)
-    // Offset: 0x129E8F0
+    // Offset: 0x12B0334
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     static CultureNotFoundException* New_ctor(::CsString* paramName, ::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12A1B10
+    // Offset: 0x12B3554
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static CultureNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12A1C8C
+    // Offset: 0x12B36D0
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -74,12 +74,12 @@ namespace System::Globalization {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String get_Message()
-    // Offset: 0x12A1F0C
+    // Offset: 0x12B3950
     // Implemented from: System.ArgumentException
     // Base method: System.String ArgumentException::get_Message()
     ::CsString* get_Message();
   }; // System.Globalization.CultureNotFoundException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureNotFoundException*, "System.Globalization", "CultureNotFoundException");
 #pragma pack(pop)

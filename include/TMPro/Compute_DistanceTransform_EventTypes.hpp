@@ -32,6 +32,6 @@ namespace TMPro {
     Compute_DistanceTransform_EventTypes(int value_ = {}) : value{value_} {}
   }; // TMPro.Compute_DistanceTransform_EventTypes
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DistanceTransform_EventTypes, "TMPro", "Compute_DistanceTransform_EventTypes");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.TplEtwProvider
 #include "System/Diagnostics/Tracing/TplEtwProvider.hpp"
 // Completed includes
@@ -23,6 +21,6 @@ namespace System::Diagnostics::Tracing {
     static void _set_Debug(System::Diagnostics::Tracing::EventKeywords value);
   }; // System.Diagnostics.Tracing.TplEtwProvider/Keywords
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TplEtwProvider::Keywords*, "System.Diagnostics.Tracing", "TplEtwProvider/Keywords");
 #pragma pack(pop)

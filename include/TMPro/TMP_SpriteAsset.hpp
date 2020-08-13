@@ -92,73 +92,73 @@ namespace TMPro {
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedSpriteAssets
     static void _set_k_searchedSpriteAssets(System::Collections::Generic::List_1<int>* value);
     // public System.String get_version()
-    // Offset: 0xB9EBD8
+    // Offset: 0xBB061C
     ::CsString* get_version();
     // System.Void set_version(System.String value)
-    // Offset: 0xB9EBE0
+    // Offset: 0xBB0624
     void set_version(::CsString* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> get_spriteCharacterTable()
-    // Offset: 0xB9EB38
+    // Offset: 0xBB057C
     System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* get_spriteCharacterTable();
     // System.Void set_spriteCharacterTable(System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> value)
-    // Offset: 0xB9F004
+    // Offset: 0xBB0A48
     void set_spriteCharacterTable(System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_SpriteGlyph> get_spriteGlyphTable()
-    // Offset: 0xB9F00C
+    // Offset: 0xBB0A50
     System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* get_spriteGlyphTable();
     // System.Void set_spriteGlyphTable(System.Collections.Generic.List`1<TMPro.TMP_SpriteGlyph> value)
-    // Offset: 0xB9F014
+    // Offset: 0xBB0A58
     void set_spriteGlyphTable(System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>* value);
     // private System.Void Awake()
-    // Offset: 0xB9F01C
+    // Offset: 0xBB0A60
     void Awake();
     // private UnityEngine.Material GetDefaultSpriteMaterial()
-    // Offset: 0xB9F4CC
+    // Offset: 0xBB0F10
     UnityEngine::Material* GetDefaultSpriteMaterial();
     // public System.Void UpdateLookupTables()
-    // Offset: 0xB9EBE8
+    // Offset: 0xBB062C
     void UpdateLookupTables();
     // public System.Int32 GetSpriteIndexFromHashcode(System.Int32 hashCode)
-    // Offset: 0xB9F5B0
+    // Offset: 0xBB0FF4
     int GetSpriteIndexFromHashcode(int hashCode);
     // public System.Int32 GetSpriteIndexFromUnicode(System.UInt32 unicode)
-    // Offset: 0xB9F640
+    // Offset: 0xBB1084
     int GetSpriteIndexFromUnicode(uint unicode);
     // public System.Int32 GetSpriteIndexFromName(System.String name)
-    // Offset: 0xB9F6D0
+    // Offset: 0xBB1114
     int GetSpriteIndexFromName(::CsString* name);
     // static public TMPro.TMP_SpriteAsset SearchForSpriteByUnicode(TMPro.TMP_SpriteAsset spriteAsset, System.UInt32 unicode, System.Boolean includeFallbacks, System.Int32 spriteIndex)
-    // Offset: 0xB9F760
+    // Offset: 0xBB11A4
     static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicode(TMPro::TMP_SpriteAsset* spriteAsset, uint unicode, bool includeFallbacks, int& spriteIndex);
     // static private TMPro.TMP_SpriteAsset SearchForSpriteByUnicodeInternal(System.Collections.Generic.List`1<TMPro.TMP_SpriteAsset> spriteAssets, System.UInt32 unicode, System.Boolean includeFallbacks, System.Int32 spriteIndex)
-    // Offset: 0xB9F978
+    // Offset: 0xBB13BC
     static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>* spriteAssets, uint unicode, bool includeFallbacks, int& spriteIndex);
     // static private TMPro.TMP_SpriteAsset SearchForSpriteByUnicodeInternal(TMPro.TMP_SpriteAsset spriteAsset, System.UInt32 unicode, System.Boolean includeFallbacks, System.Int32 spriteIndex)
-    // Offset: 0xB9FB24
+    // Offset: 0xBB1568
     static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(TMPro::TMP_SpriteAsset* spriteAsset, uint unicode, bool includeFallbacks, int& spriteIndex);
     // static public TMPro.TMP_SpriteAsset SearchForSpriteByHashCode(TMPro.TMP_SpriteAsset spriteAsset, System.Int32 hashCode, System.Boolean includeFallbacks, System.Int32 spriteIndex)
-    // Offset: 0xB9FBE8
+    // Offset: 0xBB162C
     static TMPro::TMP_SpriteAsset* SearchForSpriteByHashCode(TMPro::TMP_SpriteAsset* spriteAsset, int hashCode, bool includeFallbacks, int& spriteIndex);
     // static private TMPro.TMP_SpriteAsset SearchForSpriteByHashCodeInternal(System.Collections.Generic.List`1<TMPro.TMP_SpriteAsset> spriteAssets, System.Int32 hashCode, System.Boolean searchFallbacks, System.Int32 spriteIndex)
-    // Offset: 0xB9FE00
+    // Offset: 0xBB1844
     static TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>* spriteAssets, int hashCode, bool searchFallbacks, int& spriteIndex);
     // static private TMPro.TMP_SpriteAsset SearchForSpriteByHashCodeInternal(TMPro.TMP_SpriteAsset spriteAsset, System.Int32 hashCode, System.Boolean searchFallbacks, System.Int32 spriteIndex)
-    // Offset: 0xB9FFAC
+    // Offset: 0xBB19F0
     static TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(TMPro::TMP_SpriteAsset* spriteAsset, int hashCode, bool searchFallbacks, int& spriteIndex);
     // public System.Void SortGlyphTable()
-    // Offset: 0xBA0070
+    // Offset: 0xBB1AB4
     void SortGlyphTable();
     // System.Void SortCharacterTable()
-    // Offset: 0xBA01B0
+    // Offset: 0xBB1BF4
     void SortCharacterTable();
     // System.Void SortGlyphAndCharacterTables()
-    // Offset: 0xBA02F4
+    // Offset: 0xBB1D38
     void SortGlyphAndCharacterTables();
     // private System.Void UpgradeSpriteAsset()
-    // Offset: 0xB9F0B4
+    // Offset: 0xBB0AF8
     void UpgradeSpriteAsset();
     // public System.Void .ctor()
-    // Offset: 0xBA0438
+    // Offset: 0xBB1E7C
     // Implemented from: TMPro.TMP_Asset
     // Base method: System.Void TMP_Asset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -167,6 +167,6 @@ namespace TMPro {
     static TMP_SpriteAsset* New_ctor();
   }; // TMPro.TMP_SpriteAsset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset*, "TMPro", "TMP_SpriteAsset");
 #pragma pack(pop)

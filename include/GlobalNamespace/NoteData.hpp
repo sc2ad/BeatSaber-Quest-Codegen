@@ -44,89 +44,89 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     float timeToPrevBasicNote;
     // public NoteType get_noteType()
-    // Offset: 0xC034EC
+    // Offset: 0xC14F30
     GlobalNamespace::NoteType get_noteType();
     // private System.Void set_noteType(NoteType value)
-    // Offset: 0xC034F4
+    // Offset: 0xC14F38
     void set_noteType(GlobalNamespace::NoteType value);
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0xC034FC
+    // Offset: 0xC14F40
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // private System.Void set_cutDirection(NoteCutDirection value)
-    // Offset: 0xC03504
+    // Offset: 0xC14F48
     void set_cutDirection(GlobalNamespace::NoteCutDirection value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0xC0350C
+    // Offset: 0xC14F50
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0xC03514
+    // Offset: 0xC14F58
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public NoteLineLayer get_startNoteLineLayer()
-    // Offset: 0xC0351C
+    // Offset: 0xC14F60
     GlobalNamespace::NoteLineLayer get_startNoteLineLayer();
     // private System.Void set_startNoteLineLayer(NoteLineLayer value)
-    // Offset: 0xC03524
+    // Offset: 0xC14F68
     void set_startNoteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public System.Int32 get_flipLineIndex()
-    // Offset: 0xC0352C
+    // Offset: 0xC14F70
     int get_flipLineIndex();
     // private System.Void set_flipLineIndex(System.Int32 value)
-    // Offset: 0xC03534
+    // Offset: 0xC14F78
     void set_flipLineIndex(int value);
     // public System.Single get_flipYSide()
-    // Offset: 0xC0353C
+    // Offset: 0xC14F80
     float get_flipYSide();
     // private System.Void set_flipYSide(System.Single value)
-    // Offset: 0xC03544
+    // Offset: 0xC14F88
     void set_flipYSide(float value);
     // public System.Single get_timeToNextBasicNote()
-    // Offset: 0xC0354C
+    // Offset: 0xC14F90
     float get_timeToNextBasicNote();
     // public System.Void set_timeToNextBasicNote(System.Single value)
-    // Offset: 0xC03554
+    // Offset: 0xC14F98
     void set_timeToNextBasicNote(float value);
     // public System.Single get_timeToPrevBasicNote()
-    // Offset: 0xC0355C
+    // Offset: 0xC14FA0
     float get_timeToPrevBasicNote();
     // private System.Void set_timeToPrevBasicNote(System.Single value)
-    // Offset: 0xC03564
+    // Offset: 0xC14FA8
     void set_timeToPrevBasicNote(float value);
     // public System.Void .ctor(System.Int32 id, System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteLineLayer startNoteLineLayer, NoteType noteType, NoteCutDirection cutDirection, System.Single timeToNextBasicNote, System.Single timeToPrevBasicNote)
-    // Offset: 0xC036A0
+    // Offset: 0xC150E4
     static NoteData* New_ctor(int id, float time, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteLineLayer startNoteLineLayer, GlobalNamespace::NoteType noteType, GlobalNamespace::NoteCutDirection cutDirection, float timeToNextBasicNote, float timeToPrevBasicNote);
     // public System.Void .ctor(System.Int32 id, System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteLineLayer startNoteLineLayer, NoteType noteType, NoteCutDirection cutDirection, System.Single timeToNextBasicNote, System.Single timeToPrevBasicNote, System.Int32 flipLineIndex, System.Single flipYSide)
-    // Offset: 0xC0361C
+    // Offset: 0xC15060
     static NoteData* New_ctor(int id, float time, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteLineLayer startNoteLineLayer, GlobalNamespace::NoteType noteType, GlobalNamespace::NoteCutDirection cutDirection, float timeToNextBasicNote, float timeToPrevBasicNote, int flipLineIndex, float flipYSide);
     // public System.Void SetNoteFlipToNote(NoteData targetNote)
-    // Offset: 0xC03714
+    // Offset: 0xC15158
     void SetNoteFlipToNote(GlobalNamespace::NoteData* targetNote);
     // public System.Void SwitchNoteType()
-    // Offset: 0xC03790
+    // Offset: 0xC151D4
     void SwitchNoteType();
     // public System.Void MirrorTransformCutDirection()
-    // Offset: 0xC037B4
+    // Offset: 0xC151F8
     void MirrorTransformCutDirection();
     // public System.Void SetNoteToAnyCutDirection()
-    // Offset: 0xC037D8
+    // Offset: 0xC1521C
     void SetNoteToAnyCutDirection();
     // public System.Void TransformNoteAOrBToRandomType()
-    // Offset: 0xC037E4
+    // Offset: 0xC15228
     void TransformNoteAOrBToRandomType();
     // public System.Void SetNoteStartLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0xC03844
+    // Offset: 0xC15288
     void SetNoteStartLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0xC0356C
+    // Offset: 0xC14FB0
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
     // public override System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0xC0384C
+    // Offset: 0xC15290
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);
   }; // NoteData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteData*, "", "NoteData");
 #pragma pack(pop)

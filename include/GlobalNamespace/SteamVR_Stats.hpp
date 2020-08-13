@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class SteamVR_Stats : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void Awake()
-    // Offset: 0xD7C2EC
+    // Offset: 0xD8FD30
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xD7C388
+    // Offset: 0xD8FDCC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -27,6 +27,6 @@ namespace GlobalNamespace {
     static SteamVR_Stats* New_ctor();
   }; // SteamVR_Stats
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Stats*, "", "SteamVR_Stats");
 #pragma pack(pop)

@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithUserAndRoomList : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*> {
     public:
     // protected Oculus.Platform.Models.UserAndRoomList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE92824
+    // Offset: 0xEA5268
     Oculus::Platform::Models::UserAndRoomList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88FE0
+    // Offset: 0xE9BA24
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithUserAndRoomList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.UserAndRoomList GetUserAndRoomList()
-    // Offset: 0xE927E0
+    // Offset: 0xEA5224
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserAndRoomList Message::GetUserAndRoomList()
     Oculus::Platform::Models::UserAndRoomList* GetUserAndRoomList();
   }; // Oculus.Platform.MessageWithUserAndRoomList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserAndRoomList*, "Oculus.Platform", "MessageWithUserAndRoomList");
 #pragma pack(pop)

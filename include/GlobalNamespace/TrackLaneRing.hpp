@@ -51,31 +51,31 @@ namespace GlobalNamespace {
     // Offset: 0x48
     UnityEngine::Transform* transform;
     // public System.Single get_destRotZ()
-    // Offset: 0xC317DC
+    // Offset: 0xC43220
     float get_destRotZ();
     // public System.Void Init(UnityEngine.Vector3 position, UnityEngine.Vector3 positionOffset)
-    // Offset: 0xC317E4
+    // Offset: 0xC43228
     void Init(UnityEngine::Vector3 position, UnityEngine::Vector3 positionOffset);
     // public System.Void FixedUpdateRing(System.Single fixedDeltaTime)
-    // Offset: 0xC318D8
+    // Offset: 0xC4331C
     void FixedUpdateRing(float fixedDeltaTime);
     // public System.Void LateUpdateRing(System.Single interpolationFactor)
-    // Offset: 0xC31998
+    // Offset: 0xC433DC
     void LateUpdateRing(float interpolationFactor);
     // public System.Void SetDestRotation(System.Single destRotZ, System.Single rotateSpeed)
-    // Offset: 0xC31A58
+    // Offset: 0xC4349C
     void SetDestRotation(float destRotZ, float rotateSpeed);
     // public System.Single GetRotation()
-    // Offset: 0xC31A60
+    // Offset: 0xC434A4
     float GetRotation();
     // public System.Single GetDestinationRotation()
-    // Offset: 0xC31A68
+    // Offset: 0xC434AC
     float GetDestinationRotation();
     // public System.Void SetPosition(System.Single destPosZ, System.Single moveSpeed)
-    // Offset: 0xC31A70
+    // Offset: 0xC434B4
     void SetPosition(float destPosZ, float moveSpeed);
     // public System.Void .ctor()
-    // Offset: 0xC31A78
+    // Offset: 0xC434BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -85,6 +85,6 @@ namespace GlobalNamespace {
     static TrackLaneRing* New_ctor();
   }; // TrackLaneRing
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRing*, "", "TrackLaneRing");
 #pragma pack(pop)

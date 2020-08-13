@@ -30,6 +30,6 @@ namespace System::Runtime::Remoting::Contexts {
     bool IsContextOK(System::Runtime::Remoting::Contexts::Context* ctx, System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
   }; // System.Runtime.Remoting.Contexts.IContextAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextAttribute*, "System.Runtime.Remoting.Contexts", "IContextAttribute");
 #pragma pack(pop)

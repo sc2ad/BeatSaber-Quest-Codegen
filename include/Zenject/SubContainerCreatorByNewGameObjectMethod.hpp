@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.SubContainerCreatorByNewGameObjectDynamicContext
 #include "Zenject/SubContainerCreatorByNewGameObjectDynamicContext.hpp"
 // Completed includes
@@ -39,15 +40,15 @@ namespace Zenject {
     // Offset: 0x20
     System::Action_1<Zenject::DiContainer*>* installerMethod;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`1<Zenject.DiContainer> installerMethod)
-    // Offset: 0xFB8B00
+    // Offset: 0xFCB544
     static SubContainerCreatorByNewGameObjectMethod* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Action_1<Zenject::DiContainer*>* installerMethod);
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
-    // Offset: 0xFBA6F0
+    // Offset: 0xFCD134
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
     // Base method: System.Void SubContainerCreatorDynamicContext::AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context);
   }; // Zenject.SubContainerCreatorByNewGameObjectMethod
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectMethod*, "Zenject", "SubContainerCreatorByNewGameObjectMethod");
 #pragma pack(pop)

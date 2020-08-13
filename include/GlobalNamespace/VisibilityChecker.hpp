@@ -27,25 +27,25 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Action* OnBecameInvisibleEvent;
     // public System.Void add_OnBecameVisibleEvent(System.Action value)
-    // Offset: 0xCAAA94
+    // Offset: 0xCBD4D8
     void add_OnBecameVisibleEvent(System::Action* value);
     // public System.Void remove_OnBecameVisibleEvent(System.Action value)
-    // Offset: 0xCAAB38
+    // Offset: 0xCBD57C
     void remove_OnBecameVisibleEvent(System::Action* value);
     // public System.Void add_OnBecameInvisibleEvent(System.Action value)
-    // Offset: 0xCAABDC
+    // Offset: 0xCBD620
     void add_OnBecameInvisibleEvent(System::Action* value);
     // public System.Void remove_OnBecameInvisibleEvent(System.Action value)
-    // Offset: 0xCAAC80
+    // Offset: 0xCBD6C4
     void remove_OnBecameInvisibleEvent(System::Action* value);
     // private System.Void OnBecameVisible()
-    // Offset: 0xCAAD24
+    // Offset: 0xCBD768
     void OnBecameVisible();
     // private System.Void OnBecameInvisible()
-    // Offset: 0xCAAD38
+    // Offset: 0xCBD77C
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0xCAAD4C
+    // Offset: 0xCBD790
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static VisibilityChecker* New_ctor();
   }; // VisibilityChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisibilityChecker*, "", "VisibilityChecker");
 #pragma pack(pop)

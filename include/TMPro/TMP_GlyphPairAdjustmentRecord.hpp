@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TMPro.TMP_GlyphAdjustmentRecord
 #include "TMPro/TMP_GlyphAdjustmentRecord.hpp"
 // Including type: TMPro.FontFeatureLookupFlags
@@ -34,31 +32,31 @@ namespace TMPro {
     // Offset: 0x38
     TMPro::FontFeatureLookupFlags m_FeatureLookupFlags;
     // public TMPro.TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord()
-    // Offset: 0xB7594C
+    // Offset: 0xB7394C
     TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord();
     // public System.Void set_firstAdjustmentRecord(TMPro.TMP_GlyphAdjustmentRecord value)
-    // Offset: 0xB75960
+    // Offset: 0xB73960
     void set_firstAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value);
     // public TMPro.TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord()
-    // Offset: 0xB75974
+    // Offset: 0xB73974
     TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord();
     // public System.Void set_secondAdjustmentRecord(TMPro.TMP_GlyphAdjustmentRecord value)
-    // Offset: 0xB75988
+    // Offset: 0xB73988
     void set_secondAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value);
     // public TMPro.FontFeatureLookupFlags get_featureLookupFlags()
-    // Offset: 0xB7599C
+    // Offset: 0xB7399C
     TMPro::FontFeatureLookupFlags get_featureLookupFlags();
     // public System.Void set_featureLookupFlags(TMPro.FontFeatureLookupFlags value)
-    // Offset: 0xB759A4
+    // Offset: 0xB739A4
     void set_featureLookupFlags(TMPro::FontFeatureLookupFlags value);
     // public System.Void .ctor(TMPro.TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro.TMP_GlyphAdjustmentRecord secondAdjustmentRecord)
-    // Offset: 0xB73F0C
+    // Offset: 0xB71F0C
     static TMP_GlyphPairAdjustmentRecord* New_ctor(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)
-    // Offset: 0xB738D4
+    // Offset: 0xB718D4
     static TMP_GlyphPairAdjustmentRecord* New_ctor(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord);
   }; // TMPro.TMP_GlyphPairAdjustmentRecord
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord*, "TMPro", "TMP_GlyphPairAdjustmentRecord");
 #pragma pack(pop)

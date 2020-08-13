@@ -21,12 +21,12 @@ namespace TMPro {
   class TMP_SelectionCaret : public UnityEngine::UI::MaskableGraphic {
     public:
     // public override System.Void Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0xB9D43C
+    // Offset: 0xBAEE80
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
     void Cull(UnityEngine::Rect clipRect, bool validRect);
     // public System.Void .ctor()
-    // Offset: 0xB9D440
+    // Offset: 0xBAEE84
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::.ctor()
     // Base method: System.Void Graphic::.ctor()
@@ -39,6 +39,6 @@ namespace TMPro {
     static TMP_SelectionCaret* New_ctor();
   }; // TMPro.TMP_SelectionCaret
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SelectionCaret*, "TMPro", "TMP_SelectionCaret");
 #pragma pack(pop)

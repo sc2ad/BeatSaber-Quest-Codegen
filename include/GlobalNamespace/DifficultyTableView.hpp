@@ -69,46 +69,46 @@ namespace GlobalNamespace {
     // Offset: 0x40
     ::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps;
     // public System.Void add_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
-    // Offset: 0xBD1CBC
+    // Offset: 0xBE4700
     void add_didSelectRow(System::Action_2<GlobalNamespace::DifficultyTableView*, int>* value);
     // public System.Void remove_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
-    // Offset: 0xBD1D60
+    // Offset: 0xBE47A4
     void remove_didSelectRow(System::Action_2<GlobalNamespace::DifficultyTableView*, int>* value);
     // public System.Void Init(IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0xBD1E04
+    // Offset: 0xBE4848
     void Init(::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps);
     // public System.Void SetDifficultyBeatmaps(IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0xBD1F00
+    // Offset: 0xBE4944
     void SetDifficultyBeatmaps(::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0xBD22D4
+    // Offset: 0xBE4D18
     void HandleDidSelectRowEvent(HMUI::TableView* tableView, int row);
     // public System.Void SelectRow(System.Int32 row, System.Boolean callbackTable)
-    // Offset: 0xBD237C
+    // Offset: 0xBE4DC0
     void SelectRow(int row, bool callbackTable);
     // public System.Void SelectRow(IDifficultyBeatmap difficultyBeatmap, System.Boolean callbackTable)
-    // Offset: 0xBD239C
+    // Offset: 0xBE4DE0
     void SelectRow(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool callbackTable);
     // public System.Void ClearSelection()
-    // Offset: 0xBD242C
+    // Offset: 0xBE4E70
     void ClearSelection();
     // public System.Single CellSize()
-    // Offset: 0xBD1F3C
+    // Offset: 0xBE4980
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xBD1F44
+    // Offset: 0xBE4988
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0xBD1F64
+    // Offset: 0xBE49A8
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 row)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // public System.Void .ctor()
-    // Offset: 0xBD2448
+    // Offset: 0xBE4E8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -118,6 +118,6 @@ namespace GlobalNamespace {
     static DifficultyTableView* New_ctor();
   }; // DifficultyTableView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableView*, "", "DifficultyTableView");
 #pragma pack(pop)

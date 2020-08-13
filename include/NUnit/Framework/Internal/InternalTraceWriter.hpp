@@ -24,12 +24,12 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x28
     System::IO::TextWriter* writer;
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x18D4678
+    // Offset: 0x18E50BC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
   }; // NUnit.Framework.Internal.InternalTraceWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTraceWriter*, "NUnit.Framework.Internal", "InternalTraceWriter");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: NamedPreset
-#include "GlobalNamespace/NamedPreset.hpp"
 // Including type: MainEffectGraphicsSettingsPresetsSO
 #include "GlobalNamespace/MainEffectGraphicsSettingsPresetsSO.hpp"
+// Including type: NamedPreset
+#include "GlobalNamespace/NamedPreset.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -26,13 +26,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MainEffectSO* mainEffect;
     // public System.Void .ctor()
-    // Offset: 0xBE837C
+    // Offset: 0xBF9DC0
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()
     static MainEffectGraphicsSettingsPresetsSO::Preset* New_ctor();
   }; // MainEffectGraphicsSettingsPresetsSO/Preset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*, "", "MainEffectGraphicsSettingsPresetsSO/Preset");
 #pragma pack(pop)

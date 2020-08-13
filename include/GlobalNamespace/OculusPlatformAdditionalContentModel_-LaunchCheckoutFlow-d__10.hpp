@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OculusPlatformAdditionalContentModel
 #include "GlobalNamespace/OculusPlatformAdditionalContentModel.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.IAsyncStateMachine
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 // Including type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
@@ -51,17 +51,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $LaunchCheckoutFlow$d__10
     $LaunchCheckoutFlow$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*> $$t__builder_ = {}, ::CsString* sku_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, sku{sku_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
-    // Offset: 0xA27D20
+    // Offset: 0xA27D9C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xA27D28
+    // Offset: 0xA27DA4
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<LaunchCheckoutFlow>d__10
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$LaunchCheckoutFlow$d__10, "", "OculusPlatformAdditionalContentModel/<LaunchCheckoutFlow>d__10");
 #pragma pack(pop)

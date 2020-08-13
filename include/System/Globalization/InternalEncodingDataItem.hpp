@@ -26,6 +26,6 @@ namespace System::Globalization {
     InternalEncodingDataItem(::CsString* webName_ = {}, uint16_t codePage_ = {}) : webName{webName_}, codePage{codePage_} {}
   }; // System.Globalization.InternalEncodingDataItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalEncodingDataItem, "System.Globalization", "InternalEncodingDataItem");
 #pragma pack(pop)

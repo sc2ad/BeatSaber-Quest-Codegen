@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -24,6 +25,6 @@ namespace GlobalNamespace {
     HapticsState(int SamplesAvailable_ = {}, int SamplesQueued_ = {}) : SamplesAvailable{SamplesAvailable_}, SamplesQueued{SamplesQueued_} {}
   }; // OVRPlugin/HapticsState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HapticsState, "", "OVRPlugin/HapticsState");
 #pragma pack(pop)

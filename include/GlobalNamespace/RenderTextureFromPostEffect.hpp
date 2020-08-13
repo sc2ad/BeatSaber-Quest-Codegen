@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Camera* camera;
     // public UnityEngine.RenderTexture get_targetTexture()
-    // Offset: 0x18FAD5C
+    // Offset: 0x190A7A0
     UnityEngine::RenderTexture* get_targetTexture();
     // protected System.Void Awake()
-    // Offset: 0x18FAD64
+    // Offset: 0x190A7A8
     void Awake();
     // private System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dst)
-    // Offset: 0x18FADC4
+    // Offset: 0x190A808
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dst);
     // public System.Void .ctor()
-    // Offset: 0x18FAFE8
+    // Offset: 0x190AA2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static RenderTextureFromPostEffect* New_ctor();
   }; // RenderTextureFromPostEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureFromPostEffect*, "", "RenderTextureFromPostEffect");
 #pragma pack(pop)

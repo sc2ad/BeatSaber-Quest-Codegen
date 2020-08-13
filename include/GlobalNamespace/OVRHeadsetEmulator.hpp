@@ -120,19 +120,19 @@ namespace GlobalNamespace {
     // Offset: 0x55
     bool emulatorHasInitialized;
     // private System.Void Start()
-    // Offset: 0xE585F4
+    // Offset: 0xE6B038
     void Start();
     // private System.Void Update()
-    // Offset: 0xE585F8
+    // Offset: 0xE6B03C
     void Update();
     // private System.Boolean IsEmulationActivated()
-    // Offset: 0xE589D8
+    // Offset: 0xE6B41C
     bool IsEmulationActivated();
     // private System.Boolean IsTweakingPitch()
-    // Offset: 0xE58CF4
+    // Offset: 0xE6B738
     bool IsTweakingPitch();
     // public System.Void .ctor()
-    // Offset: 0xE58D84
+    // Offset: 0xE6B7C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -142,7 +142,7 @@ namespace GlobalNamespace {
     static OVRHeadsetEmulator* New_ctor();
   }; // OVRHeadsetEmulator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator*, "", "OVRHeadsetEmulator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator::OpMode, "", "OVRHeadsetEmulator/OpMode");
 #pragma pack(pop)

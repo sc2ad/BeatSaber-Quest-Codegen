@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestData
 #include "NUnit/Framework/Interfaces/ITestData.hpp"
 // Including type: NUnit.Framework.Interfaces.IApplyToTest
@@ -47,56 +45,56 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x30
     ::Array<::CsObject*>* OriginalArguments;
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x18D8CB0
+    // Offset: 0x18E96F4
     static TestParameters* New_ctor(::Array<::CsObject*>* args);
     // private System.Void InitializeAguments(System.Object[] args)
-    // Offset: 0x18DC284
+    // Offset: 0x18ECCC8
     void InitializeAguments(::Array<::CsObject*>* args);
     // public System.Void set_RunState(NUnit.Framework.Interfaces.RunState value)
-    // Offset: 0x18DC328
+    // Offset: 0x18ECD6C
     void set_RunState(NUnit::Framework::Interfaces::RunState value);
     // System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x18DC330
+    // Offset: 0x18ECD74
     void set_Arguments(::Array<::CsObject*>* value);
     // public System.String get_TestName()
-    // Offset: 0x18DC338
+    // Offset: 0x18ECD7C
     ::CsString* get_TestName();
     // private System.Void set_Properties(NUnit.Framework.Interfaces.IPropertyBag value)
-    // Offset: 0x18DC348
+    // Offset: 0x18ECD8C
     void set_Properties(NUnit::Framework::Interfaces::IPropertyBag* value);
     // public System.Object[] get_OriginalArguments()
-    // Offset: 0x18DCA18
+    // Offset: 0x18ED45C
     ::Array<::CsObject*>* get_OriginalArguments();
     // private System.Void set_OriginalArguments(System.Object[] value)
-    // Offset: 0x18DCA20
+    // Offset: 0x18ED464
     void set_OriginalArguments(::Array<::CsObject*>* value);
     // public System.Void .ctor()
-    // Offset: 0x18D8C34
+    // Offset: 0x18E9678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestParameters* New_ctor();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0x18DC320
+    // Offset: 0x18ECD64
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: NUnit.Framework.Interfaces.RunState ITestData::get_RunState()
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Object[] get_Arguments()
-    // Offset: 0x18DA2F4
+    // Offset: 0x18EAD38
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: System.Object[] ITestData::get_Arguments()
     ::Array<::CsObject*>* get_Arguments();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0x18DC340
+    // Offset: 0x18ECD84
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: NUnit.Framework.Interfaces.IPropertyBag ITestData::get_Properties()
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // public System.Void ApplyToTest(NUnit.Framework.Internal.Test test)
-    // Offset: 0x18DC350
+    // Offset: 0x18ECD94
     // Implemented from: NUnit.Framework.Interfaces.IApplyToTest
     // Base method: System.Void IApplyToTest::ApplyToTest(NUnit.Framework.Internal.Test test)
     void ApplyToTest(NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.Internal.TestParameters
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestParameters*, "NUnit.Framework.Internal", "TestParameters");
 #pragma pack(pop)

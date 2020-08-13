@@ -56,6 +56,6 @@ namespace UnityEngine::ProBuilder {
     Axis(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.Axis
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Axis, "UnityEngine.ProBuilder", "Axis");
 #pragma pack(pop)

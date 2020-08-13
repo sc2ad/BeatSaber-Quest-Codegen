@@ -40,22 +40,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::EnvironmentTypeSO* environmentType;
     // public SceneInfo get_sceneInfo()
-    // Offset: 0xBD4DEC
+    // Offset: 0xBE7830
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0xBD4DF4
+    // Offset: 0xBE7838
     ::CsString* get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0xBD4DFC
+    // Offset: 0xBE7840
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0xBD4E04
+    // Offset: 0xBE7848
     ::CsString* get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0xBD4E0C
+    // Offset: 0xBE7850
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public System.Void .ctor()
-    // Offset: 0xBD4E14
+    // Offset: 0xBE7858
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -64,6 +64,6 @@ namespace GlobalNamespace {
     static EnvironmentInfoSO* New_ctor();
   }; // EnvironmentInfoSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentInfoSO*, "", "EnvironmentInfoSO");
 #pragma pack(pop)

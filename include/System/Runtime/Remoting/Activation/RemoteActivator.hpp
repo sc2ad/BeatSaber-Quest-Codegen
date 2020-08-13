@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.MarshalByRefObject
 #include "System/MarshalByRefObject.hpp"
 // Completed includes
@@ -13,6 +14,6 @@ namespace System::Runtime::Remoting::Activation {
   class RemoteActivator : public System::MarshalByRefObject {
   }; // System.Runtime.Remoting.Activation.RemoteActivator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::RemoteActivator*, "System.Runtime.Remoting.Activation", "RemoteActivator");
 #pragma pack(pop)

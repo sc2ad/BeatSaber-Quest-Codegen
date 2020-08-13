@@ -32,6 +32,6 @@ namespace OVR::OpenVR {
     VRActiveActionSet_t(uint64_t ulActionSet_ = {}, uint64_t ulRestrictedToDevice_ = {}, uint64_t ulSecondaryActionSet_ = {}, uint unPadding_ = {}, int nPriority_ = {}) : ulActionSet{ulActionSet_}, ulRestrictedToDevice{ulRestrictedToDevice_}, ulSecondaryActionSet{ulSecondaryActionSet_}, unPadding{unPadding_}, nPriority{nPriority_} {}
   }; // OVR.OpenVR.VRActiveActionSet_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRActiveActionSet_t, "OVR.OpenVR", "VRActiveActionSet_t");
 #pragma pack(pop)

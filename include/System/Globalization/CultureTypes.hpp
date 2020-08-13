@@ -68,6 +68,6 @@ namespace System::Globalization {
     CultureTypes(int value_ = {}) : value{value_} {}
   }; // System.Globalization.CultureTypes
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureTypes, "System.Globalization", "CultureTypes");
 #pragma pack(pop)

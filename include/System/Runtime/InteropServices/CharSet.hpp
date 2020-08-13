@@ -44,6 +44,6 @@ namespace System::Runtime::InteropServices {
     CharSet(int value_ = {}) : value{value_} {}
   }; // System.Runtime.InteropServices.CharSet
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::CharSet, "System.Runtime.InteropServices", "CharSet");
 #pragma pack(pop)

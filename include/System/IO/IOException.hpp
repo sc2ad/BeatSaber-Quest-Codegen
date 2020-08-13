@@ -30,38 +30,38 @@ namespace System::IO {
     // Offset: 0x88
     ::CsString* maybeFullPath;
     // public System.Void .ctor(System.String message, System.Int32 hresult)
-    // Offset: 0x11243E8
+    // Offset: 0x1134E2C
     static IOException* New_ctor(::CsString* message, int hresult);
     // System.Void .ctor(System.String message, System.Int32 hresult, System.String maybeFullPath)
-    // Offset: 0x112441C
+    // Offset: 0x1134E60
     static IOException* New_ctor(::CsString* message, int hresult, ::CsString* maybeFullPath);
     // public System.Void .ctor()
-    // Offset: 0x11235F4
+    // Offset: 0x1134038
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static IOException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1117690
+    // Offset: 0x11280D4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static IOException* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x11172D8
+    // Offset: 0x1127D1C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static IOException* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x111CA4C
+    // Offset: 0x112D490
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static IOException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.IOException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IOException*, "System.IO", "IOException");
 #pragma pack(pop)

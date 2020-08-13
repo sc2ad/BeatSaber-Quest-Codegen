@@ -52,29 +52,29 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // private System.Void AddOculusRequest(Oculus.Platform.Request oculusRequest, HMAsyncRequest asyncRequest)
-    // Offset: 0xC27EAC
+    // Offset: 0xC398F0
     void AddOculusRequest(Oculus::Platform::Request* oculusRequest, GlobalNamespace::HMAsyncRequest* asyncRequest);
     // private System.Boolean CheckMessageForValidRequest(Oculus.Platform.Message message)
-    // Offset: 0xC27FC8
+    // Offset: 0xC39A0C
     bool CheckMessageForValidRequest(Oculus::Platform::Message* message);
     // public System.Void .ctor()
-    // Offset: 0xC27D80
+    // Offset: 0xC397C4
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: System.Void PlatformLeaderboardsHandler::.ctor()
     // Base method: System.Void Object::.ctor()
     static OculusPlatformLeaderboardsHandler* New_ctor();
     // public override HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0xC28064
+    // Offset: 0xC39AA8
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, ::CsString* referencePlayerId, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public override HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0xC28218
+    // Offset: 0xC39C5C
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
   }; // OculusPlatformLeaderboardsHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler*, "", "OculusPlatformLeaderboardsHandler");
 #pragma pack(pop)

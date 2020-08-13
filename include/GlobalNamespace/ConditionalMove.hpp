@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool activateOnFalse;
     // protected System.Void Awake()
-    // Offset: 0xBCC804
+    // Offset: 0xBDF248
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xBCC928
+    // Offset: 0xBDF36C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -43,6 +43,6 @@ namespace GlobalNamespace {
     static ConditionalMove* New_ctor();
   }; // ConditionalMove
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalMove*, "", "ConditionalMove");
 #pragma pack(pop)

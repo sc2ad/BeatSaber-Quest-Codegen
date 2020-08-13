@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Behaviour* component;
     // private System.Void Awake()
-    // Offset: 0xC9A068
+    // Offset: 0xCACAAC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xC9A104
+    // Offset: 0xCACB48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -39,6 +39,6 @@ namespace GlobalNamespace {
     static EnableComponentWithCommandArgument* New_ctor();
   }; // EnableComponentWithCommandArgument
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableComponentWithCommandArgument*, "", "EnableComponentWithCommandArgument");
 #pragma pack(pop)

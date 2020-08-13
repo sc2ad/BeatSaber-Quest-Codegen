@@ -13,6 +13,6 @@ namespace System::Runtime::Remoting::Activation {
   class IConstructionReturnMessage : public System::Runtime::Remoting::Messaging::IMethodReturnMessage, public System::Runtime::Remoting::Messaging::IMethodMessage, public System::Runtime::Remoting::Messaging::IMessage {
   }; // System.Runtime.Remoting.Activation.IConstructionReturnMessage
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::IConstructionReturnMessage*, "System.Runtime.Remoting.Activation", "IConstructionReturnMessage");
 #pragma pack(pop)

@@ -70,22 +70,22 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x50
     System::Diagnostics::Tracing::EventCommandEventArgs* nextCommand;
     // public System.Diagnostics.Tracing.EventCommand get_Command()
-    // Offset: 0xC86478
+    // Offset: 0xC97EBC
     System::Diagnostics::Tracing::EventCommand get_Command();
     // System.Void set_Command(System.Diagnostics.Tracing.EventCommand value)
-    // Offset: 0xC86480
+    // Offset: 0xC97EC4
     void set_Command(System::Diagnostics::Tracing::EventCommand value);
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Arguments()
-    // Offset: 0xC86488
+    // Offset: 0xC97ECC
     System::Collections::Generic::IDictionary_2<::CsString*, ::CsString*>* get_Arguments();
     // System.Void set_Arguments(System.Collections.Generic.IDictionary`2<System.String,System.String> value)
-    // Offset: 0xC86490
+    // Offset: 0xC97ED4
     void set_Arguments(System::Collections::Generic::IDictionary_2<::CsString*, ::CsString*>* value);
     // System.Void .ctor(System.Diagnostics.Tracing.EventCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Diagnostics.Tracing.EventSource eventSource, System.Diagnostics.Tracing.EventListener listener, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId, System.Boolean enable, System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventKeywords matchAnyKeyword)
-    // Offset: 0xC86498
+    // Offset: 0xC97EDC
     static EventCommandEventArgs* New_ctor(System::Diagnostics::Tracing::EventCommand command, System::Collections::Generic::IDictionary_2<::CsString*, ::CsString*>* arguments, System::Diagnostics::Tracing::EventSource* eventSource, System::Diagnostics::Tracing::EventListener* listener, int perEventSourceSessionId, int etwSessionId, bool enable, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords matchAnyKeyword);
   }; // System.Diagnostics.Tracing.EventCommandEventArgs
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventCommandEventArgs*, "System.Diagnostics.Tracing", "EventCommandEventArgs");
 #pragma pack(pop)

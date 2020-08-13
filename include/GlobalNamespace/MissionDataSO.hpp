@@ -49,28 +49,28 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::MissionHelpSO* missionHelp;
     // public MissionObjective[] get_missionObjectives()
-    // Offset: 0xBEF548
+    // Offset: 0xC00F8C
     ::Array<GlobalNamespace::MissionObjective*>* get_missionObjectives();
     // public BeatmapLevelSO get_level()
-    // Offset: 0xBEF550
+    // Offset: 0xC00F94
     GlobalNamespace::BeatmapLevelSO* get_level();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0xBEF558
+    // Offset: 0xC00F9C
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0xBEF560
+    // Offset: 0xC00FA4
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xBEF568
+    // Offset: 0xC00FAC
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public MissionHelpSO get_missionHelp()
-    // Offset: 0xBEF570
+    // Offset: 0xC00FB4
     GlobalNamespace::MissionHelpSO* get_missionHelp();
     // private System.Void OnValidate()
-    // Offset: 0xBEF578
+    // Offset: 0xC00FBC
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0xBEF61C
+    // Offset: 0xC01060
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -79,6 +79,6 @@ namespace GlobalNamespace {
     static MissionDataSO* New_ctor();
   }; // MissionDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataSO*, "", "MissionDataSO");
 #pragma pack(pop)

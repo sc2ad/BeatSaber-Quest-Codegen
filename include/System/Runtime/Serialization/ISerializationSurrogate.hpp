@@ -32,6 +32,6 @@ namespace System::Runtime::Serialization {
     ::CsObject* SetObjectData(::CsObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector* selector);
   }; // System.Runtime.Serialization.ISerializationSurrogate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISerializationSurrogate*, "System.Runtime.Serialization", "ISerializationSurrogate");
 #pragma pack(pop)

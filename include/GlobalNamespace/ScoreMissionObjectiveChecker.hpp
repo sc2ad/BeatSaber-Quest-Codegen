@@ -24,18 +24,18 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::ScoreController* scoreController;
     // protected System.Void OnDestroy()
-    // Offset: 0xC171F4
+    // Offset: 0xC28C38
     void OnDestroy();
     // private System.Void HandleScoreDidChange(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0xC172CC
+    // Offset: 0xC28D10
     void HandleScoreDidChange(int rawScore, int modifiedScore);
     // protected override System.Void Init()
-    // Offset: 0xC172F8
+    // Offset: 0xC28D3C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xC173F0
+    // Offset: 0xC28E34
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -47,6 +47,6 @@ namespace GlobalNamespace {
     static ScoreMissionObjectiveChecker* New_ctor();
   }; // ScoreMissionObjectiveChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMissionObjectiveChecker*, "", "ScoreMissionObjectiveChecker");
 #pragma pack(pop)

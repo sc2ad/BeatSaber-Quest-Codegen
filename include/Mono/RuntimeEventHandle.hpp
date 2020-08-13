@@ -23,23 +23,23 @@ namespace Mono {
     // Creating value type constructor for type: RuntimeEventHandle
     RuntimeEventHandle(System::IntPtr value_ = {}) : value{value_} {}
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0xA3CC6C
+    // Offset: 0xA3CCE8
     static RuntimeEventHandle* New_ctor(System::IntPtr v);
     // public System.IntPtr get_Value()
-    // Offset: 0xA3CC74
+    // Offset: 0xA3CCF0
     System::IntPtr get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA3CC7C
+    // Offset: 0xA3CCF8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3CC84
+    // Offset: 0xA3CD00
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // Mono.RuntimeEventHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeEventHandle, "Mono", "RuntimeEventHandle");
 #pragma pack(pop)

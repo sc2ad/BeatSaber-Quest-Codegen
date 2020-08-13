@@ -52,6 +52,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     PointLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float range_ = {}, float sphereRadius_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}) : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, position{position_}, color{color_}, indirectColor{indirectColor_}, range{range_}, sphereRadius{sphereRadius_}, falloff{falloff_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.PointLight
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::PointLight, "UnityEngine.Experimental.GlobalIllumination", "PointLight");
 #pragma pack(pop)

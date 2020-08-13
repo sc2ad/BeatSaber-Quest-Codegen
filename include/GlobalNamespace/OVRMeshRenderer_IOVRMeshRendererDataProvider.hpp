@@ -18,6 +18,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRMeshRenderer::MeshRendererData GlobalNamespace_OVRMeshRenderer_IOVRMeshRendererDataProvider_GetMeshRendererData();
   }; // OVRMeshRenderer/IOVRMeshRendererDataProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*, "", "OVRMeshRenderer/IOVRMeshRendererDataProvider");
 #pragma pack(pop)

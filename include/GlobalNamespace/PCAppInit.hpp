@@ -47,27 +47,27 @@ namespace GlobalNamespace {
     // Offset: 0x60
     ::CsString* goStraightToMenuCommandArgument;
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xBBAF44
+    // Offset: 0xBCD988
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xBBAFC8
+    // Offset: 0xBCDA0C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xBBB014
+    // Offset: 0xBCDA58
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xBBB064
+    // Offset: 0xBCDAA8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xBBB0FC
+    // Offset: 0xBCDB40
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -80,6 +80,6 @@ namespace GlobalNamespace {
     static PCAppInit* New_ctor();
   }; // PCAppInit
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCAppInit*, "", "PCAppInit");
 #pragma pack(pop)

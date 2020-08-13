@@ -25,21 +25,21 @@ namespace System::Diagnostics::Tracing {
   class DoubleArrayTypeInfo : public System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::Array<double>*> {
     public:
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Double[] value)
-    // Offset: 0xC85A84
+    // Offset: 0xC974C8
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Array<double>*& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0xC859EC
+    // Offset: 0xC97430
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::CsString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public System.Void .ctor()
-    // Offset: 0xC85AA4
+    // Offset: 0xC974E8
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo`1::.ctor()
     // Base method: System.Void Object::.ctor()
     static DoubleArrayTypeInfo* New_ctor();
   }; // System.Diagnostics.Tracing.DoubleArrayTypeInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::DoubleArrayTypeInfo*, "System.Diagnostics.Tracing", "DoubleArrayTypeInfo");
 #pragma pack(pop)

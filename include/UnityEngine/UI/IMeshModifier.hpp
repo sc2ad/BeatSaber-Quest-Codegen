@@ -30,6 +30,6 @@ namespace UnityEngine::UI {
     void ModifyMesh(UnityEngine::UI::VertexHelper* verts);
   }; // UnityEngine.UI.IMeshModifier
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMeshModifier*, "UnityEngine.UI", "IMeshModifier");
 #pragma pack(pop)

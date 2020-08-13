@@ -38,6 +38,6 @@ namespace System::Runtime::CompilerServices {
     LoadHint(int value_ = {}) : value{value_} {}
   }; // System.Runtime.CompilerServices.LoadHint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::LoadHint, "System.Runtime.CompilerServices", "LoadHint");
 #pragma pack(pop)

@@ -55,10 +55,10 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x44
     int16_t SizeParamIndex;
     // System.Runtime.InteropServices.MarshalAsAttribute Copy()
-    // Offset: 0x103BCA4
+    // Offset: 0x104B6E8
     System::Runtime::InteropServices::MarshalAsAttribute* Copy();
   }; // System.Runtime.InteropServices.MarshalAsAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");
 #pragma pack(pop)

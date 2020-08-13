@@ -14,7 +14,7 @@ namespace System::Reflection {
   class TypeInfo : public System::Type {
     public:
     // System.Void .ctor()
-    // Offset: 0x11423E0
+    // Offset: 0x1153E24
     // Implemented from: System.Type
     // Base method: System.Void Type::.ctor()
     // Base method: System.Void MemberInfo::.ctor()
@@ -22,6 +22,6 @@ namespace System::Reflection {
     static TypeInfo* New_ctor();
   }; // System.Reflection.TypeInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeInfo*, "System.Reflection", "TypeInfo");
 #pragma pack(pop)

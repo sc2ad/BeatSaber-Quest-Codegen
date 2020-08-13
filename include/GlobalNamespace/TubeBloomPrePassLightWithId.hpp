@@ -29,15 +29,15 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // public UnityEngine.Color get_color()
-    // Offset: 0x18187EC
+    // Offset: 0x1829230
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x181880C
+    // Offset: 0x1829250
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1818824
+    // Offset: 0x1829268
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static TubeBloomPrePassLightWithId* New_ctor();
   }; // TubeBloomPrePassLightWithId
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLightWithId*, "", "TubeBloomPrePassLightWithId");
 #pragma pack(pop)

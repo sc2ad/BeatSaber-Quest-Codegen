@@ -50,6 +50,6 @@ namespace NUnit::Framework::Interfaces {
     RunState(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Interfaces.RunState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::RunState, "NUnit.Framework.Interfaces", "RunState");
 #pragma pack(pop)

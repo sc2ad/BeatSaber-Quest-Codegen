@@ -170,46 +170,46 @@ namespace RootMotion::FinalIK {
     // Offset: 0x16C
     int chestBonesCount;
     // private System.Void Start()
-    // Offset: 0x13969D8
+    // Offset: 0x13A841C
     void Start();
     // private System.Void OnStoreDefaultLocalState()
-    // Offset: 0x1396D5C
+    // Offset: 0x13A87A0
     void OnStoreDefaultLocalState();
     // private System.Void OnFixTransforms()
-    // Offset: 0x1397258
+    // Offset: 0x13A8C9C
     void OnFixTransforms();
     // private System.Void OnPreRead()
-    // Offset: 0x139764C
+    // Offset: 0x13A9090
     void OnPreRead();
     // private System.Void SpineBend()
-    // Offset: 0x1397FC4
+    // Offset: 0x13A9A08
     void SpineBend();
     // private System.Void CCDPass()
-    // Offset: 0x1398310
+    // Offset: 0x13A9D54
     void CCDPass();
     // private System.Void Iterate(System.Int32 iteration)
-    // Offset: 0x13986AC
+    // Offset: 0x13AA0F0
     void Iterate(int iteration);
     // private System.Void OnPostUpdate()
-    // Offset: 0x1399118
+    // Offset: 0x13AAB5C
     void OnPostUpdate();
     // private System.Void ChestDirection()
-    // Offset: 0x1397CF0
+    // Offset: 0x13A9734
     void ChestDirection();
     // private System.Void PostStretching()
-    // Offset: 0x1399328
+    // Offset: 0x13AAD6C
     void PostStretching();
     // private System.Void LerpSolverPosition(RootMotion.FinalIK.IKEffector effector, UnityEngine.Vector3 position, System.Single weight, UnityEngine.Vector3 offset)
-    // Offset: 0x1398FD4
+    // Offset: 0x13AAA18
     void LerpSolverPosition(RootMotion::FinalIK::IKEffector* effector, UnityEngine::Vector3 position, float weight, UnityEngine::Vector3 offset);
     // private System.Void Solve(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single nominalDistance)
-    // Offset: 0x1398E38
+    // Offset: 0x13AA87C
     void Solve(UnityEngine::Vector3& pos1, UnityEngine::Vector3& pos2, float nominalDistance);
     // private System.Void OnDestroy()
-    // Offset: 0x1399694
+    // Offset: 0x13AB0D8
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1399978
+    // Offset: 0x13AB3BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -219,6 +219,6 @@ namespace RootMotion::FinalIK {
     static FBBIKHeadEffector* New_ctor();
   }; // RootMotion.FinalIK.FBBIKHeadEffector
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector*, "RootMotion.FinalIK", "FBBIKHeadEffector");
 #pragma pack(pop)

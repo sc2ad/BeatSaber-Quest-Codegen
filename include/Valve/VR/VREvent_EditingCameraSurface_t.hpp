@@ -23,6 +23,6 @@ namespace Valve::VR {
     VREvent_EditingCameraSurface_t(uint64_t overlayHandle_ = {}, uint nVisualMode_ = {}) : overlayHandle{overlayHandle_}, nVisualMode{nVisualMode_} {}
   }; // Valve.VR.VREvent_EditingCameraSurface_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_EditingCameraSurface_t, "Valve.VR", "VREvent_EditingCameraSurface_t");
 #pragma pack(pop)

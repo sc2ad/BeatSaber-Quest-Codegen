@@ -42,19 +42,19 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: MultiplierValue
       MultiplierValue(int multiplier_ = {}, float time_ = {}) : multiplier{multiplier_}, time{time_} {}
       // public System.Int32 get_multiplier()
-      // Offset: 0xA27A1C
+      // Offset: 0xA27A98
       int get_multiplier();
       // private System.Void set_multiplier(System.Int32 value)
-      // Offset: 0xA27A24
+      // Offset: 0xA27AA0
       void set_multiplier(int value);
       // public System.Single get_time()
-      // Offset: 0xA27A2C
+      // Offset: 0xA27AA8
       float get_time();
       // private System.Void set_time(System.Single value)
-      // Offset: 0xA27A34
+      // Offset: 0xA27AB0
       void set_time(float value);
       // public System.Void .ctor(System.Int32 multiplier, System.Single time)
-      // Offset: 0xA27A3C
+      // Offset: 0xA27AB8
       static MultiplierValuesRecorder::MultiplierValue* New_ctor(int multiplier, float time);
     }; // MultiplierValuesRecorder/MultiplierValue
     // private ScoreController _scoreController
@@ -67,19 +67,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* multiplierValues;
     // public System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> get_multiplierValues()
-    // Offset: 0xBFA470
+    // Offset: 0xC0BEB4
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* get_multiplierValues();
     // protected System.Void Start()
-    // Offset: 0xBFA478
+    // Offset: 0xC0BEBC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBFA50C
+    // Offset: 0xC0BF50
     void OnDestroy();
     // private System.Void HandleScoreControllerMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0xBFA5A0
+    // Offset: 0xC0BFE4
     void HandleScoreControllerMultiplierDidChange(int multiplier, float multiplierProgress);
     // public System.Void .ctor()
-    // Offset: 0xBFA654
+    // Offset: 0xC0C098
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     static MultiplierValuesRecorder* New_ctor();
   }; // MultiplierValuesRecorder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder*, "", "MultiplierValuesRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder::MultiplierValue, "", "MultiplierValuesRecorder/MultiplierValue");
 #pragma pack(pop)

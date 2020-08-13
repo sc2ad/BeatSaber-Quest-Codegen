@@ -27,32 +27,32 @@ namespace System {
   class ExecutionEngineException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xD91DB0
+    // Offset: 0xDA57F4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static ExecutionEngineException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xD91E14
+    // Offset: 0xDA5858
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static ExecutionEngineException* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0xD9091C
+    // Offset: 0xDA4360
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static ExecutionEngineException* New_ctor(::CsString* message, System::Exception* innerException);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD91E44
+    // Offset: 0xDA5888
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ExecutionEngineException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ExecutionEngineException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ExecutionEngineException*, "System", "ExecutionEngineException");
 #pragma pack(pop)

@@ -25,6 +25,6 @@ namespace UnityEngine {
     CastHelper_1(T t_ = {}, System::IntPtr onePointerFurtherThanT_ = {}) : t{t_}, onePointerFurtherThanT{onePointerFurtherThanT_} {}
   }; // UnityEngine.CastHelper`1
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::CastHelper_1, "UnityEngine", "CastHelper`1");
 #pragma pack(pop)

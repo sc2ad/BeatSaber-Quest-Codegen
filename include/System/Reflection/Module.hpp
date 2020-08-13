@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Reflection.ICustomAttributeProvider
@@ -84,42 +82,42 @@ namespace System::Reflection {
     // Set static field: static private System.Reflection.BindingFlags defaultBindingFlags
     static void _set_defaultBindingFlags(System::Reflection::BindingFlags value);
     // System.Guid GetModuleVersionId()
-    // Offset: 0x113A444
+    // Offset: 0x114BE88
     System::Guid GetModuleVersionId();
     // static private System.Boolean filter_by_type_name(System.Type m, System.Object filterCriteria)
-    // Offset: 0x113A47C
+    // Offset: 0x114BEC0
     static bool filter_by_type_name(System::Type* m, ::CsObject* filterCriteria);
     // static private System.Boolean filter_by_type_name_ignore_case(System.Type m, System.Object filterCriteria)
-    // Offset: 0x113A580
+    // Offset: 0x114BFC4
     static bool filter_by_type_name_ignore_case(System::Type* m, ::CsObject* filterCriteria);
     // private System.String GetGuidInternal()
-    // Offset: 0x113A478
+    // Offset: 0x114BEBC
     ::CsString* GetGuidInternal();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x113A6F8
+    // Offset: 0x114C13C
     System::Reflection::Assembly* get_Assembly();
     // public System.String get_ScopeName()
-    // Offset: 0x113A7C4
+    // Offset: 0x114C208
     ::CsString* get_ScopeName();
     // public System.Guid get_ModuleVersionId()
-    // Offset: 0x113A828
+    // Offset: 0x114C26C
     System::Guid get_ModuleVersionId();
     // static private System.Exception CreateNIE()
-    // Offset: 0x113A75C
+    // Offset: 0x114C1A0
     static System::Exception* CreateNIE();
     // public System.Boolean IsResource()
-    // Offset: 0x113A88C
+    // Offset: 0x114C2D0
     bool IsResource();
     // static private System.Void .cctor()
-    // Offset: 0x113A9B8
+    // Offset: 0x114C3FC
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x113A3D4
+    // Offset: 0x114BE18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Module* New_ctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x113A3DC
+    // Offset: 0x114BE20
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -127,35 +125,35 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x113A43C
+    // Offset: 0x114BE80
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x113A698
+    // Offset: 0x114C0DC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::CsObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x113A6A4
+    // Offset: 0x114C0E8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x113A8F0
+    // Offset: 0x114C334
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Object[] ICustomAttributeProvider::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::CsObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x113A954
+    // Offset: 0x114C398
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Boolean ICustomAttributeProvider::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.Module
   // static public System.Boolean op_Equality(System.Reflection.Module left, System.Reflection.Module right)
-  // Offset: 0x113A6AC
+  // Offset: 0x114C0F0
   bool operator ==(System::Reflection::Module* left, System::Reflection::Module& right);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Module*, "System.Reflection", "Module");
 #pragma pack(pop)

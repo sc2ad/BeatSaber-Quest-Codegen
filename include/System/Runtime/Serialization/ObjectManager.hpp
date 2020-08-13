@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.StreamingContext
 #include "System/Runtime/Serialization/StreamingContext.hpp"
 // Completed includes
@@ -73,94 +71,94 @@ namespace System::Runtime::Serialization {
     // Offset: 0x48
     System::Runtime::Serialization::StreamingContext m_context;
     // System.Void .ctor(System.Runtime.Serialization.ISurrogateSelector selector, System.Runtime.Serialization.StreamingContext context, System.Boolean checkSecurity, System.Boolean isCrossAppDomain)
-    // Offset: 0xFE4920
+    // Offset: 0xFF5364
     static ObjectManager* New_ctor(System::Runtime::Serialization::ISurrogateSelector* selector, System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain);
     // private System.Boolean CanCallGetType(System.Object obj)
-    // Offset: 0xFE49CC
+    // Offset: 0xFF5410
     bool CanCallGetType(::CsObject* obj);
     // System.Void set_TopObject(System.Object value)
-    // Offset: 0xFE49D4
+    // Offset: 0xFF5418
     void set_TopObject(::CsObject* value);
     // System.Object get_TopObject()
-    // Offset: 0xFE49DC
+    // Offset: 0xFF5420
     ::CsObject* get_TopObject();
     // System.Runtime.Serialization.ObjectHolderList get_SpecialFixupObjects()
-    // Offset: 0xFE49E4
+    // Offset: 0xFF5428
     System::Runtime::Serialization::ObjectHolderList* get_SpecialFixupObjects();
     // System.Runtime.Serialization.ObjectHolder FindObjectHolder(System.Int64 objectID)
-    // Offset: 0xFE4A5C
+    // Offset: 0xFF54A0
     System::Runtime::Serialization::ObjectHolder* FindObjectHolder(int64_t objectID);
     // System.Runtime.Serialization.ObjectHolder FindOrCreateObjectHolder(System.Int64 objectID)
-    // Offset: 0xFE3184
+    // Offset: 0xFF3BC8
     System::Runtime::Serialization::ObjectHolder* FindOrCreateObjectHolder(int64_t objectID);
     // private System.Void AddObjectHolder(System.Runtime.Serialization.ObjectHolder holder)
-    // Offset: 0xFE4AC0
+    // Offset: 0xFF5504
     void AddObjectHolder(System::Runtime::Serialization::ObjectHolder* holder);
     // private System.Boolean GetCompletionInfo(System.Runtime.Serialization.FixupHolder fixup, System.Runtime.Serialization.ObjectHolder holder, System.Object member, System.Boolean bThrowIfMissing)
-    // Offset: 0xFE4C24
+    // Offset: 0xFF5668
     bool GetCompletionInfo(System::Runtime::Serialization::FixupHolder* fixup, System::Runtime::Serialization::ObjectHolder*& holder, ::CsObject*& member, bool bThrowIfMissing);
     // private System.Void FixupSpecialObject(System.Runtime.Serialization.ObjectHolder holder)
-    // Offset: 0xFE4EF4
+    // Offset: 0xFF5938
     void FixupSpecialObject(System::Runtime::Serialization::ObjectHolder* holder);
     // private System.Boolean ResolveObjectReference(System.Runtime.Serialization.ObjectHolder holder)
-    // Offset: 0xFE5A40
+    // Offset: 0xFF6484
     bool ResolveObjectReference(System::Runtime::Serialization::ObjectHolder* holder);
     // private System.Boolean DoValueTypeFixup(System.Reflection.FieldInfo memberToFix, System.Runtime.Serialization.ObjectHolder holder, System.Object value)
-    // Offset: 0xFE53EC
+    // Offset: 0xFF5E30
     bool DoValueTypeFixup(System::Reflection::FieldInfo* memberToFix, System::Runtime::Serialization::ObjectHolder* holder, ::CsObject* value);
     // System.Void CompleteObject(System.Runtime.Serialization.ObjectHolder holder, System.Boolean bObjectFullyComplete)
-    // Offset: 0xFE372C
+    // Offset: 0xFF4170
     void CompleteObject(System::Runtime::Serialization::ObjectHolder* holder, bool bObjectFullyComplete);
     // private System.Void DoNewlyRegisteredObjectFixups(System.Runtime.Serialization.ObjectHolder holder)
-    // Offset: 0xFE5964
+    // Offset: 0xFF63A8
     void DoNewlyRegisteredObjectFixups(System::Runtime::Serialization::ObjectHolder* holder);
     // public System.Object GetObject(System.Int64 objectID)
-    // Offset: 0xFE5DD4
+    // Offset: 0xFF6818
     ::CsObject* GetObject(int64_t objectID);
     // System.Void RegisterString(System.String obj, System.Int64 objectID, System.Runtime.Serialization.SerializationInfo info, System.Int64 idOfContainingObj, System.Reflection.MemberInfo member)
-    // Offset: 0xFE5EBC
+    // Offset: 0xFF6900
     void RegisterString(::CsString* obj, int64_t objectID, System::Runtime::Serialization::SerializationInfo* info, int64_t idOfContainingObj, System::Reflection::MemberInfo* member);
     // public System.Void RegisterObject(System.Object obj, System.Int64 objectID, System.Runtime.Serialization.SerializationInfo info, System.Int64 idOfContainingObj, System.Reflection.MemberInfo member, System.Int32[] arrayIndex)
-    // Offset: 0xFE5FB0
+    // Offset: 0xFF69F4
     void RegisterObject(::CsObject* obj, int64_t objectID, System::Runtime::Serialization::SerializationInfo* info, int64_t idOfContainingObj, System::Reflection::MemberInfo* member, ::Array<int>* arrayIndex);
     // System.Void CompleteISerializableObject(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFE517C
+    // Offset: 0xFF5BC0
     void CompleteISerializableObject(::CsObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static System.Reflection.RuntimeConstructorInfo GetConstructor(System.RuntimeType t)
-    // Offset: 0xFE6514
+    // Offset: 0xFF6F58
     static System::Reflection::RuntimeConstructorInfo* GetConstructor(System::RuntimeType* t);
     // public System.Void DoFixups()
-    // Offset: 0xFE6688
+    // Offset: 0xFF70CC
     void DoFixups();
     // private System.Void RegisterFixup(System.Runtime.Serialization.FixupHolder fixup, System.Int64 objectToBeFixed, System.Int64 objectRequired)
-    // Offset: 0xFE6978
+    // Offset: 0xFF73BC
     void RegisterFixup(System::Runtime::Serialization::FixupHolder* fixup, int64_t objectToBeFixed, int64_t objectRequired);
     // public System.Void RecordFixup(System.Int64 objectToBeFixed, System.Reflection.MemberInfo member, System.Int64 objectRequired)
-    // Offset: 0xFE6A84
+    // Offset: 0xFF74C8
     void RecordFixup(int64_t objectToBeFixed, System::Reflection::MemberInfo* member, int64_t objectRequired);
     // public System.Void RecordDelayedFixup(System.Int64 objectToBeFixed, System.String memberName, System.Int64 objectRequired)
-    // Offset: 0xFE6CF0
+    // Offset: 0xFF7734
     void RecordDelayedFixup(int64_t objectToBeFixed, ::CsString* memberName, int64_t objectRequired);
     // public System.Void RecordArrayElementFixup(System.Int64 arrayToBeFixed, System.Int32[] indices, System.Int64 objectRequired)
-    // Offset: 0xFE6E44
+    // Offset: 0xFF7888
     void RecordArrayElementFixup(int64_t arrayToBeFixed, ::Array<int>* indices, int64_t objectRequired);
     // public System.Void RaiseDeserializationEvent()
-    // Offset: 0xFE6F98
+    // Offset: 0xFF79DC
     void RaiseDeserializationEvent();
     // System.Void AddOnDeserialization(System.Runtime.Serialization.DeserializationEventHandler handler)
-    // Offset: 0xFE725C
+    // Offset: 0xFF7CA0
     void AddOnDeserialization(System::Runtime::Serialization::DeserializationEventHandler* handler);
     // System.Void AddOnDeserialized(System.Object obj)
-    // Offset: 0xFE72EC
+    // Offset: 0xFF7D30
     void AddOnDeserialized(::CsObject* obj);
     // System.Void RaiseOnDeserializedEvent(System.Object obj)
-    // Offset: 0xFE782C
+    // Offset: 0xFF8270
     void RaiseOnDeserializedEvent(::CsObject* obj);
     // public System.Void RaiseOnDeserializingEvent(System.Object obj)
-    // Offset: 0xFE7AF8
+    // Offset: 0xFF853C
     void RaiseOnDeserializingEvent(::CsObject* obj);
   }; // System.Runtime.Serialization.ObjectManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectManager*, "System.Runtime.Serialization", "ObjectManager");
 #pragma pack(pop)

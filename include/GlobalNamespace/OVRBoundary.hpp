@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
@@ -50,36 +48,36 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::Vector3>* cachedGeometryList;
     // public System.Boolean GetConfigured()
-    // Offset: 0xCB1A2C
+    // Offset: 0xCC5470
     bool GetConfigured();
     // public OVRBoundary/BoundaryTestResult TestNode(OVRBoundary/Node node, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCB1AD0
+    // Offset: 0xCC5514
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(GlobalNamespace::OVRBoundary::Node node, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public OVRBoundary/BoundaryTestResult TestPoint(UnityEngine.Vector3 point, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCB1BAC
+    // Offset: 0xCC55F0
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(UnityEngine::Vector3 point, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3[] GetGeometry(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCB1CAC
+    // Offset: 0xCC56F0
     ::Array<UnityEngine::Vector3>* GetGeometry(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3 GetDimensions(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCB20CC
+    // Offset: 0xCC5B10
     UnityEngine::Vector3 GetDimensions(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public System.Boolean GetVisible()
-    // Offset: 0xCB21D0
+    // Offset: 0xCC5C14
     bool GetVisible();
     // public System.Void SetVisible(System.Boolean value)
-    // Offset: 0xCB2274
+    // Offset: 0xCC5CB8
     void SetVisible(bool value);
     // static private System.Void .cctor()
-    // Offset: 0xCB23A0
+    // Offset: 0xCC5DE4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xCB2324
+    // Offset: 0xCC5D68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRBoundary* New_ctor();
   }; // OVRBoundary
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary*, "", "OVRBoundary");
 #pragma pack(pop)

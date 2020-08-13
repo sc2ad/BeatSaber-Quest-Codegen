@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.PlayerLoop.EarlyUpdate
 #include "UnityEngine/PlayerLoop/EarlyUpdate.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
@@ -17,6 +17,6 @@ namespace UnityEngine::PlayerLoop {
     ProcessRemoteInput() {}
   }; // UnityEngine.PlayerLoop.EarlyUpdate/ProcessRemoteInput
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::ProcessRemoteInput, "UnityEngine.PlayerLoop", "EarlyUpdate/ProcessRemoteInput");
 #pragma pack(pop)

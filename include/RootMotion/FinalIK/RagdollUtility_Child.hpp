@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.RagdollUtility
 #include "RootMotion/FinalIK/RagdollUtility.hpp"
 // Including type: UnityEngine.Vector3
@@ -36,16 +34,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x24
     UnityEngine::Quaternion localRotation;
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x121C390
+    // Offset: 0x122DDD4
     static RagdollUtility::Child* New_ctor(UnityEngine::Transform* transform);
     // public System.Void FixTransform(System.Single weight)
-    // Offset: 0x121CFF0
+    // Offset: 0x122EA34
     void FixTransform(float weight);
     // public System.Void StoreLocalState()
-    // Offset: 0x121CFA0
+    // Offset: 0x122E9E4
     void StoreLocalState();
   }; // RootMotion.FinalIK.RagdollUtility/Child
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Child*, "RootMotion.FinalIK", "RagdollUtility/Child");
 #pragma pack(pop)

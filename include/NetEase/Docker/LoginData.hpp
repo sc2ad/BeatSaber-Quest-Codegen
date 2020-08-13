@@ -27,22 +27,22 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: LoginData
     LoginData(bool LoginSuccessful_ = {}, int LoginCode_ = {}, ::CsString* UserName_ = {}) : LoginSuccessful{LoginSuccessful_}, LoginCode{LoginCode_}, UserName{UserName_} {}
     // public System.Boolean get_LoginSuccessful()
-    // Offset: 0xA5CAB0
+    // Offset: 0xA5CB2C
     bool get_LoginSuccessful();
     // public System.Void set_LoginSuccessful(System.Boolean value)
-    // Offset: 0xA5CAB8
+    // Offset: 0xA5CB34
     void set_LoginSuccessful(bool value);
     // public System.Void set_LoginCode(System.Int32 value)
-    // Offset: 0xA5CAC4
+    // Offset: 0xA5CB40
     void set_LoginCode(int value);
     // public System.String get_UserName()
-    // Offset: 0xA5CACC
+    // Offset: 0xA5CB48
     ::CsString* get_UserName();
     // public System.Void set_UserName(System.String value)
-    // Offset: 0xA5CAD4
+    // Offset: 0xA5CB50
     void set_UserName(::CsString* value);
   }; // NetEase.Docker.LoginData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LoginData, "NetEase.Docker", "LoginData");
 #pragma pack(pop)

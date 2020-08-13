@@ -29,13 +29,13 @@ namespace TMPro {
     // Creating value type constructor for type: VertexGradient
     VertexGradient(UnityEngine::Color topLeft_ = {}, UnityEngine::Color topRight_ = {}, UnityEngine::Color bottomLeft_ = {}, UnityEngine::Color bottomRight_ = {}) : topLeft{topLeft_}, topRight{topRight_}, bottomLeft{bottomLeft_}, bottomRight{bottomRight_} {}
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0xA4244C
+    // Offset: 0xA424C8
     static VertexGradient* New_ctor(UnityEngine::Color color);
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0xA42470
+    // Offset: 0xA424EC
     static VertexGradient* New_ctor(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3);
   }; // TMPro.VertexGradient
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::VertexGradient, "TMPro", "VertexGradient");
 #pragma pack(pop)

@@ -57,25 +57,25 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     UnityEngine::UI::Image* separatorImage;
     // public System.Void set_rank(System.Int32 value)
-    // Offset: 0xB46E28
+    // Offset: 0xB44E28
     void set_rank(int value);
     // public System.Void set_playerName(System.String value)
-    // Offset: 0xB46E6C
+    // Offset: 0xB44E6C
     void set_playerName(::CsString* value);
     // public System.Void set_score(System.Int32 value)
-    // Offset: 0xB46E88
+    // Offset: 0xB44E88
     void set_score(int value);
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0xB46F2C
+    // Offset: 0xB44F2C
     void set_showSeparator(bool value);
     // public System.Void set_showFullCombo(System.Boolean value)
-    // Offset: 0xB46F4C
+    // Offset: 0xB44F4C
     void set_showFullCombo(bool value);
     // public System.Void set_specialScore(System.Boolean value)
-    // Offset: 0xB46F6C
+    // Offset: 0xB44F6C
     void set_specialScore(bool value);
     // public System.Void .ctor()
-    // Offset: 0xB470CC
+    // Offset: 0xB450CC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -87,6 +87,6 @@ namespace GlobalNamespace {
     static LeaderboardTableCell* New_ctor();
   }; // LeaderboardTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableCell*, "", "LeaderboardTableCell");
 #pragma pack(pop)

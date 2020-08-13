@@ -50,6 +50,6 @@ namespace UnityEngine::TextCore::LowLevel {
     GlyphPackingMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextCore.LowLevel.GlyphPackingMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPackingMode, "UnityEngine.TextCore.LowLevel", "GlyphPackingMode");
 #pragma pack(pop)

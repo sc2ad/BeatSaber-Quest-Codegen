@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* wasCutBySaberEvent;
     // public System.Void add_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0xBCF4A0
+    // Offset: 0xBE1EE4
     void add_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // public System.Void remove_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0xBCF544
+    // Offset: 0xBE1F88
     void remove_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // protected System.Void CallWasCutBySaberEvent(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xBCF5E8
+    // Offset: 0xBE202C
     void CallWasCutBySaberEvent(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.Boolean get_canBeCut()
     // Offset: 0xFFFFFFFF
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // protected System.Void .ctor()
-    // Offset: 0xBCFBBC
+    // Offset: 0xBE2600
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -62,6 +62,6 @@ namespace GlobalNamespace {
     static CuttableBySaber* New_ctor();
   }; // CuttableBySaber
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttableBySaber*, "", "CuttableBySaber");
 #pragma pack(pop)

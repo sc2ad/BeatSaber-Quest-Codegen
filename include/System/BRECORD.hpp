@@ -24,6 +24,6 @@ namespace System {
     BRECORD(System::IntPtr pvRecord_ = {}, System::IntPtr pRecInfo_ = {}) : pvRecord{pvRecord_}, pRecInfo{pRecInfo_} {}
   }; // System.BRECORD
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::BRECORD, "System", "BRECORD");
 #pragma pack(pop)

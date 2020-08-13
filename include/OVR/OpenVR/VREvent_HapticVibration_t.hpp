@@ -32,6 +32,6 @@ namespace OVR::OpenVR {
     VREvent_HapticVibration_t(uint64_t containerHandle_ = {}, uint64_t componentHandle_ = {}, float fDurationSeconds_ = {}, float fFrequency_ = {}, float fAmplitude_ = {}) : containerHandle{containerHandle_}, componentHandle{componentHandle_}, fDurationSeconds{fDurationSeconds_}, fFrequency{fFrequency_}, fAmplitude{fAmplitude_} {}
   }; // OVR.OpenVR.VREvent_HapticVibration_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_HapticVibration_t, "OVR.OpenVR", "VREvent_HapticVibration_t");
 #pragma pack(pop)

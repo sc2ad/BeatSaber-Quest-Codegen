@@ -28,22 +28,22 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: ScoreData
     ScoreData(::CsString* Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
     // public System.String get_Name()
-    // Offset: 0xA5CCE4
+    // Offset: 0xA5CD60
     ::CsString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0xA5CCEC
+    // Offset: 0xA5CD68
     void set_Name(::CsString* value);
     // public System.Int32 get_Score()
-    // Offset: 0xA5CCF4
+    // Offset: 0xA5CD70
     int get_Score();
     // public System.Void set_Score(System.Int32 value)
-    // Offset: 0xA5CCFC
+    // Offset: 0xA5CD78
     void set_Score(int value);
     // public System.Void set_TimeStamp(System.Int64 value)
-    // Offset: 0xA5CD04
+    // Offset: 0xA5CD80
     void set_TimeStamp(int64_t value);
   }; // NetEase.Docker.ScoreData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ScoreData, "NetEase.Docker", "ScoreData");
 #pragma pack(pop)

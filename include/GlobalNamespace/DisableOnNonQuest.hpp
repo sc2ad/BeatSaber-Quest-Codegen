@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class DisableOnNonQuest : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBD2A70
+    // Offset: 0xBE54B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -24,6 +24,6 @@ namespace GlobalNamespace {
     static DisableOnNonQuest* New_ctor();
   }; // DisableOnNonQuest
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableOnNonQuest*, "", "DisableOnNonQuest");
 #pragma pack(pop)

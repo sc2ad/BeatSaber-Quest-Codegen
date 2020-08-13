@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MissionStagesManager
 #include "GlobalNamespace/MissionStagesManager.hpp"
 // Completed includes
@@ -37,18 +35,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MissionStage,System.Int32> <>9__6_0
     static void _set_$$9__6_0(System::Func_2<GlobalNamespace::MissionStage*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xBF95A0
+    // Offset: 0xC0AFE4
     static void _cctor();
     // System.Int32 <InitStages>b__6_0(MissionStage stage)
-    // Offset: 0xBF9610
+    // Offset: 0xC0B054
     int $InitStages$b__6_0(GlobalNamespace::MissionStage* stage);
     // public System.Void .ctor()
-    // Offset: 0xBF9608
+    // Offset: 0xC0B04C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionStagesManager::$$c* New_ctor();
   }; // MissionStagesManager/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager::$$c*, "", "MissionStagesManager/<>c");
 #pragma pack(pop)

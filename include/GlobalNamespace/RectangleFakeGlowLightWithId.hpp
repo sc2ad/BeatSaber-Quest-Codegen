@@ -35,15 +35,15 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::RectangleFakeGlow* rectangleFakeGlow;
     // public UnityEngine.Color get_color()
-    // Offset: 0xC0AA4C
+    // Offset: 0xC1C490
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0xC0AA6C
+    // Offset: 0xC1C4B0
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0xC0AA98
+    // Offset: 0xC1C4DC
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     static RectangleFakeGlowLightWithId* New_ctor();
   }; // RectangleFakeGlowLightWithId
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlowLightWithId*, "", "RectangleFakeGlowLightWithId");
 #pragma pack(pop)

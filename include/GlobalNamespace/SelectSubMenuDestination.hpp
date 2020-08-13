@@ -72,11 +72,11 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::SelectSubMenuDestination::Destination menuDestination;
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
-    // Offset: 0xC1810C
+    // Offset: 0xC29B50
     static SelectSubMenuDestination* New_ctor(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination);
   }; // SelectSubMenuDestination
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination*, "", "SelectSubMenuDestination");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination::Destination, "", "SelectSubMenuDestination/Destination");
 #pragma pack(pop)

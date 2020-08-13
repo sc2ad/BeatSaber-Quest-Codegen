@@ -50,6 +50,6 @@ namespace System::Diagnostics::Tracing {
     EventManifestOptions(int value_ = {}) : value{value_} {}
   }; // System.Diagnostics.Tracing.EventManifestOptions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventManifestOptions, "System.Diagnostics.Tracing", "EventManifestOptions");
 #pragma pack(pop)

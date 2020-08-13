@@ -31,24 +31,24 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x28
     UnityEngine::EventSystems::MoveDirection moveDir;
     // public UnityEngine.Vector2 get_moveVector()
-    // Offset: 0xDE27FC
+    // Offset: 0xDF5240
     UnityEngine::Vector2 get_moveVector();
     // public System.Void set_moveVector(UnityEngine.Vector2 value)
-    // Offset: 0xDE2804
+    // Offset: 0xDF5248
     void set_moveVector(UnityEngine::Vector2 value);
     // public UnityEngine.EventSystems.MoveDirection get_moveDir()
-    // Offset: 0xDE280C
+    // Offset: 0xDF5250
     UnityEngine::EventSystems::MoveDirection get_moveDir();
     // public System.Void set_moveDir(UnityEngine.EventSystems.MoveDirection value)
-    // Offset: 0xDE2814
+    // Offset: 0xDF5258
     void set_moveDir(UnityEngine::EventSystems::MoveDirection value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0xDE281C
+    // Offset: 0xDF5260
     // Implemented from: UnityEngine.EventSystems.BaseEventData
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     static AxisEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem);
   }; // UnityEngine.EventSystems.AxisEventData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AxisEventData*, "UnityEngine.EventSystems", "AxisEventData");
 #pragma pack(pop)

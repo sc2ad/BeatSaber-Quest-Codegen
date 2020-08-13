@@ -30,6 +30,6 @@ namespace OVR::OpenVR {
     HmdQuad_t(OVR::OpenVR::HmdVector3_t vCorners0_ = {}, OVR::OpenVR::HmdVector3_t vCorners1_ = {}, OVR::OpenVR::HmdVector3_t vCorners2_ = {}, OVR::OpenVR::HmdVector3_t vCorners3_ = {}) : vCorners0{vCorners0_}, vCorners1{vCorners1_}, vCorners2{vCorners2_}, vCorners3{vCorners3_} {}
   }; // OVR.OpenVR.HmdQuad_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdQuad_t, "OVR.OpenVR", "HmdQuad_t");
 #pragma pack(pop)

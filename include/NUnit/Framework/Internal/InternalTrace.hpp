@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Internal.InternalTraceLevel
 #include "NUnit/Framework/Internal/InternalTraceLevel.hpp"
 // Completed includes
@@ -38,13 +36,13 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private NUnit.Framework.Internal.InternalTraceWriter traceWriter
     static void _set_traceWriter(NUnit::Framework::Internal::InternalTraceWriter* value);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.String name)
-    // Offset: 0x18D4508
+    // Offset: 0x18E4F4C
     static NUnit::Framework::Internal::Logger* GetLogger(::CsString* name);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.Type type)
-    // Offset: 0x18D4650
+    // Offset: 0x18E5094
     static NUnit::Framework::Internal::Logger* GetLogger(System::Type* type);
   }; // NUnit.Framework.Internal.InternalTrace
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTrace*, "NUnit.Framework.Internal", "InternalTrace");
 #pragma pack(pop)

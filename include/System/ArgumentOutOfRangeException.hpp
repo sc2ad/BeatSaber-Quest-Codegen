@@ -30,13 +30,13 @@ namespace System {
     // Offset: 0x90
     ::CsObject* m_actualValue;
     // static private System.String get_RangeMessage()
-    // Offset: 0x10A9140
+    // Offset: 0x10B9B84
     static ::CsString* get_RangeMessage();
     // public System.Void .ctor(System.String paramName, System.Object actualValue, System.String message)
-    // Offset: 0x10A9274
+    // Offset: 0x10B9CB8
     static ArgumentOutOfRangeException* New_ctor(::CsString* paramName, ::CsObject* actualValue, ::CsString* message);
     // public System.Void .ctor()
-    // Offset: 0x10A91DC
+    // Offset: 0x10B9C20
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -44,24 +44,24 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ArgumentOutOfRangeException* New_ctor();
     // public System.Void .ctor(System.String paramName)
-    // Offset: 0x10A9230
+    // Offset: 0x10B9C74
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName)
     // Base method: System.Void SystemException::.ctor(System.String paramName)
     // Base method: System.Void Exception::.ctor(System.String paramName)
     static ArgumentOutOfRangeException* New_ctor(::CsString* paramName);
     // public System.Void .ctor(System.String paramName, System.String message)
-    // Offset: 0x10A2B50
+    // Offset: 0x10B3594
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     static ArgumentOutOfRangeException* New_ctor(::CsString* paramName, ::CsString* message);
     // public override System.String get_Message()
-    // Offset: 0x10A92C0
+    // Offset: 0x10B9D04
     // Implemented from: System.ArgumentException
     // Base method: System.String ArgumentException::get_Message()
     ::CsString* get_Message();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10A93F0
+    // Offset: 0x10B9E34
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -69,7 +69,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10A94F4
+    // Offset: 0x10B9F38
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -77,6 +77,6 @@ namespace System {
     static ArgumentOutOfRangeException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ArgumentOutOfRangeException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentOutOfRangeException*, "System", "ArgumentOutOfRangeException");
 #pragma pack(pop)

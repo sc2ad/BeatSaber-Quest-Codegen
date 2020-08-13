@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithPurchase : public Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*> {
     public:
     // protected Oculus.Platform.Models.Purchase GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE90EF4
+    // Offset: 0xEA3938
     Oculus::Platform::Models::Purchase* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88B00
+    // Offset: 0xE9B544
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPurchase* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.Purchase GetPurchase()
-    // Offset: 0xE90EB0
+    // Offset: 0xEA38F4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.Purchase Message::GetPurchase()
     Oculus::Platform::Models::Purchase* GetPurchase();
   }; // Oculus.Platform.MessageWithPurchase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPurchase*, "Oculus.Platform", "MessageWithPurchase");
 #pragma pack(pop)

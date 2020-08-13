@@ -39,6 +39,6 @@ namespace GlobalNamespace {
     GlobalNamespace::HMAsyncRequest* GetUserNamesForUserIds(::Array<::CsString*>* userIds, GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* completionHandler);
   }; // IPlatformUserHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPlatformUserHandler*, "", "IPlatformUserHandler");
 #pragma pack(pop)

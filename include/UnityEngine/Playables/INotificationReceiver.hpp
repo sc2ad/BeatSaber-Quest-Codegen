@@ -27,6 +27,6 @@ namespace UnityEngine::Playables {
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::CsObject* context);
   }; // UnityEngine.Playables.INotificationReceiver
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::INotificationReceiver*, "UnityEngine.Playables", "INotificationReceiver");
 #pragma pack(pop)

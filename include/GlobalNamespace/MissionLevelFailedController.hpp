@@ -71,19 +71,19 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // protected System.Void Start()
-    // Offset: 0xBF0570
+    // Offset: 0xC01FB4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBF0658
+    // Offset: 0xC0209C
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0xBF0750
+    // Offset: 0xC02194
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0xBF077C
+    // Offset: 0xC021C0
     System::Collections::IEnumerator* LevelFailedCoroutine();
     // public System.Void .ctor()
-    // Offset: 0xBF0824
+    // Offset: 0xC02268
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -93,6 +93,6 @@ namespace GlobalNamespace {
     static MissionLevelFailedController* New_ctor();
   }; // MissionLevelFailedController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController*, "", "MissionLevelFailedController");
 #pragma pack(pop)

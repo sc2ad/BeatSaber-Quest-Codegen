@@ -39,19 +39,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::ILevelEndActions* gameplayManager;
     // protected System.Void Start()
-    // Offset: 0xBF0A30
+    // Offset: 0xC02474
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBF0B1C
+    // Offset: 0xC02560
     void OnDestroy();
     // private System.Void HandleLevelFinished()
-    // Offset: 0xBF0C14
+    // Offset: 0xC02658
     void HandleLevelFinished();
     // private System.Void StartLevelFinished()
-    // Offset: 0xBF0C18
+    // Offset: 0xC0265C
     void StartLevelFinished();
     // public System.Void .ctor()
-    // Offset: 0xBF0CCC
+    // Offset: 0xC02710
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -61,6 +61,6 @@ namespace GlobalNamespace {
     static MissionLevelFinishedController* New_ctor();
   }; // MissionLevelFinishedController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFinishedController*, "", "MissionLevelFinishedController");
 #pragma pack(pop)

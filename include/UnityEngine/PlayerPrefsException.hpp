@@ -14,12 +14,12 @@ namespace UnityEngine {
   class PlayerPrefsException : public System::Exception {
     public:
     // public System.Void .ctor(System.String error)
-    // Offset: 0x14046B4
+    // Offset: 0x14150F8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String error)
     static PlayerPrefsException* New_ctor(::CsString* error);
   }; // UnityEngine.PlayerPrefsException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerPrefsException*, "UnityEngine", "PlayerPrefsException");
 #pragma pack(pop)

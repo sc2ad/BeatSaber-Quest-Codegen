@@ -92,40 +92,40 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x31
     bool isOnGrid;
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3> get_controlPoints()
-    // Offset: 0x101B6D4
+    // Offset: 0x102B118
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Vector3>* get_controlPoints();
     // public System.Void SetControlPoints(System.Collections.Generic.IList`1<UnityEngine.Vector3> points)
-    // Offset: 0x101B744
+    // Offset: 0x102B188
     void SetControlPoints(System::Collections::Generic::IList_1<UnityEngine::Vector3>* points);
     // public System.Single get_extrude()
-    // Offset: 0x101B7B0
+    // Offset: 0x102B1F4
     float get_extrude();
     // public System.Void set_extrude(System.Single value)
-    // Offset: 0x101B7B8
+    // Offset: 0x102B1FC
     void set_extrude(float value);
     // public UnityEngine.ProBuilder.PolyShape/PolyEditMode get_polyEditMode()
-    // Offset: 0x101B7C0
+    // Offset: 0x102B204
     UnityEngine::ProBuilder::PolyShape::PolyEditMode get_polyEditMode();
     // public System.Void set_polyEditMode(UnityEngine.ProBuilder.PolyShape/PolyEditMode value)
-    // Offset: 0x101B7C8
+    // Offset: 0x102B20C
     void set_polyEditMode(UnityEngine::ProBuilder::PolyShape::PolyEditMode value);
     // public System.Boolean get_flipNormals()
-    // Offset: 0x101B7D0
+    // Offset: 0x102B214
     bool get_flipNormals();
     // public System.Void set_flipNormals(System.Boolean value)
-    // Offset: 0x101B7D8
+    // Offset: 0x102B21C
     void set_flipNormals(bool value);
     // public UnityEngine.ProBuilder.ProBuilderMesh get_mesh()
-    // Offset: 0x101B7E4
+    // Offset: 0x102B228
     UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.ProBuilder.ProBuilderMesh value)
-    // Offset: 0x101B890
+    // Offset: 0x102B2D4
     void set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // private System.Boolean IsSnapEnabled()
-    // Offset: 0x101B898
+    // Offset: 0x102B2DC
     bool IsSnapEnabled();
     // public System.Void .ctor()
-    // Offset: 0x101B8A0
+    // Offset: 0x102B2E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -135,7 +135,7 @@ namespace UnityEngine::ProBuilder {
     static PolyShape* New_ctor();
   }; // UnityEngine.ProBuilder.PolyShape
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape*, "UnityEngine.ProBuilder", "PolyShape");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape::PolyEditMode, "UnityEngine.ProBuilder", "PolyShape/PolyEditMode");
 #pragma pack(pop)

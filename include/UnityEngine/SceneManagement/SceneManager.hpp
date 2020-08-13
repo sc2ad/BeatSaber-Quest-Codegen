@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
 #include "UnityEngine/SceneManagement/Scene.hpp"
 // Including type: UnityEngine.SceneManagement.LoadSceneMode
@@ -58,109 +56,109 @@ namespace UnityEngine::SceneManagement {
     // Set static field: static private UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> activeSceneChanged
     static void _set_activeSceneChanged(UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::Scene>* value);
     // static public System.Int32 get_sceneCount()
-    // Offset: 0x1375B40
+    // Offset: 0x1388584
     static int get_sceneCount();
     // static public System.Int32 get_sceneCountInBuildSettings()
-    // Offset: 0x1375B74
+    // Offset: 0x13885B8
     static int get_sceneCountInBuildSettings();
     // static public UnityEngine.SceneManagement.Scene GetActiveScene()
-    // Offset: 0x1375BA8
+    // Offset: 0x13885EC
     static UnityEngine::SceneManagement::Scene GetActiveScene();
     // static public System.Boolean SetActiveScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1375C30
+    // Offset: 0x1388674
     static bool SetActiveScene(UnityEngine::SceneManagement::Scene scene);
     // static public UnityEngine.SceneManagement.Scene GetSceneByName(System.String name)
-    // Offset: 0x1375CB8
+    // Offset: 0x13886FC
     static UnityEngine::SceneManagement::Scene GetSceneByName(::CsString* name);
     // static public UnityEngine.SceneManagement.Scene GetSceneAt(System.Int32 index)
-    // Offset: 0x1375D60
+    // Offset: 0x13887A4
     static UnityEngine::SceneManagement::Scene GetSceneAt(int index);
     // static private UnityEngine.AsyncOperation UnloadSceneAsyncInternal(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.UnloadSceneOptions options)
-    // Offset: 0x1375E08
+    // Offset: 0x138884C
     static UnityEngine::AsyncOperation* UnloadSceneAsyncInternal(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::UnloadSceneOptions options);
     // static private UnityEngine.AsyncOperation LoadSceneAsyncNameIndexInternal(System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters, System.Boolean mustCompleteNextFrame)
-    // Offset: 0x1375EAC
+    // Offset: 0x13888F0
     static UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::CsString* sceneName, int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters parameters, bool mustCompleteNextFrame);
     // static private UnityEngine.AsyncOperation UnloadSceneNameIndexInternal(System.String sceneName, System.Int32 sceneBuildIndex, System.Boolean immediately, UnityEngine.SceneManagement.UnloadSceneOptions options, System.Boolean outSuccess)
-    // Offset: 0x1375F80
+    // Offset: 0x13889C4
     static UnityEngine::AsyncOperation* UnloadSceneNameIndexInternal(::CsString* sceneName, int sceneBuildIndex, bool immediately, UnityEngine::SceneManagement::UnloadSceneOptions options, bool& outSuccess);
     // static public System.Void MoveGameObjectToScene(UnityEngine.GameObject go, UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1375FF0
+    // Offset: 0x1388A34
     static void MoveGameObjectToScene(UnityEngine::GameObject* go, UnityEngine::SceneManagement::Scene scene);
     // static public System.Void add_sceneLoaded(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> value)
-    // Offset: 0x1376094
+    // Offset: 0x1388AD8
     static void add_sceneLoaded(UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode>* value);
     // static public System.Void remove_sceneLoaded(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> value)
-    // Offset: 0x1376148
+    // Offset: 0x1388B8C
     static void remove_sceneLoaded(UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode>* value);
     // static public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x13761FC
+    // Offset: 0x1388C40
     static void LoadScene(::CsString* sceneName, UnityEngine::SceneManagement::LoadSceneMode mode);
     // static public System.Void LoadScene(System.String sceneName)
-    // Offset: 0x13762BC
+    // Offset: 0x1388D00
     static void LoadScene(::CsString* sceneName);
     // static public UnityEngine.SceneManagement.Scene LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneParameters parameters)
-    // Offset: 0x1376204
+    // Offset: 0x1388C48
     static UnityEngine::SceneManagement::Scene LoadScene(::CsString* sceneName, UnityEngine::SceneManagement::LoadSceneParameters parameters);
     // static public System.Void LoadScene(System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x13762C4
+    // Offset: 0x1388D08
     static void LoadScene(int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneMode mode);
     // static public UnityEngine.SceneManagement.Scene LoadScene(System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters)
-    // Offset: 0x13762CC
+    // Offset: 0x1388D10
     static UnityEngine::SceneManagement::Scene LoadScene(int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters parameters);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x1376384
+    // Offset: 0x1388DC8
     static UnityEngine::AsyncOperation* LoadSceneAsync(int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneMode mode);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters)
-    // Offset: 0x13763E4
+    // Offset: 0x1388E28
     static UnityEngine::AsyncOperation* LoadSceneAsync(int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters parameters);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x1376440
+    // Offset: 0x1388E84
     static UnityEngine::AsyncOperation* LoadSceneAsync(::CsString* sceneName, UnityEngine::SceneManagement::LoadSceneMode mode);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName)
-    // Offset: 0x13764FC
+    // Offset: 0x1388F40
     static UnityEngine::AsyncOperation* LoadSceneAsync(::CsString* sceneName);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneParameters parameters)
-    // Offset: 0x13764A0
+    // Offset: 0x1388EE4
     static UnityEngine::AsyncOperation* LoadSceneAsync(::CsString* sceneName, UnityEngine::SceneManagement::LoadSceneParameters parameters);
     // static public UnityEngine.AsyncOperation UnloadSceneAsync(System.String sceneName)
-    // Offset: 0x1376558
+    // Offset: 0x1388F9C
     static UnityEngine::AsyncOperation* UnloadSceneAsync(::CsString* sceneName);
     // static public UnityEngine.AsyncOperation UnloadSceneAsync(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x13765B8
+    // Offset: 0x1388FFC
     static UnityEngine::AsyncOperation* UnloadSceneAsync(UnityEngine::SceneManagement::Scene scene);
     // static private System.Void Internal_SceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x1376600
+    // Offset: 0x1389044
     static void Internal_SceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode);
     // static private System.Void Internal_SceneUnloaded(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1376688
+    // Offset: 0x13890CC
     static void Internal_SceneUnloaded(UnityEngine::SceneManagement::Scene scene);
     // static private System.Void Internal_ActiveSceneChanged(UnityEngine.SceneManagement.Scene previousActiveScene, UnityEngine.SceneManagement.Scene newActiveScene)
-    // Offset: 0x13766FC
+    // Offset: 0x1389140
     static void Internal_ActiveSceneChanged(UnityEngine::SceneManagement::Scene previousActiveScene, UnityEngine::SceneManagement::Scene newActiveScene);
     // static private System.Void GetActiveScene_Injected(UnityEngine.SceneManagement.Scene ret)
-    // Offset: 0x1375BF0
+    // Offset: 0x1388634
     static void GetActiveScene_Injected(UnityEngine::SceneManagement::Scene& ret);
     // static private System.Boolean SetActiveScene_Injected(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1375C78
+    // Offset: 0x13886BC
     static bool SetActiveScene_Injected(UnityEngine::SceneManagement::Scene& scene);
     // static private System.Void GetSceneByName_Injected(System.String name, UnityEngine.SceneManagement.Scene ret)
-    // Offset: 0x1375D10
+    // Offset: 0x1388754
     static void GetSceneByName_Injected(::CsString* name, UnityEngine::SceneManagement::Scene& ret);
     // static private System.Void GetSceneAt_Injected(System.Int32 index, UnityEngine.SceneManagement.Scene ret)
-    // Offset: 0x1375DB8
+    // Offset: 0x13887FC
     static void GetSceneAt_Injected(int index, UnityEngine::SceneManagement::Scene& ret);
     // static private UnityEngine.AsyncOperation UnloadSceneAsyncInternal_Injected(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.UnloadSceneOptions options)
-    // Offset: 0x1375E5C
+    // Offset: 0x13888A0
     static UnityEngine::AsyncOperation* UnloadSceneAsyncInternal_Injected(UnityEngine::SceneManagement::Scene& scene, UnityEngine::SceneManagement::UnloadSceneOptions options);
     // static private UnityEngine.AsyncOperation LoadSceneAsyncNameIndexInternal_Injected(System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters, System.Boolean mustCompleteNextFrame)
-    // Offset: 0x1375F18
+    // Offset: 0x138895C
     static UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal_Injected(::CsString* sceneName, int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters& parameters, bool mustCompleteNextFrame);
     // static private System.Void MoveGameObjectToScene_Injected(UnityEngine.GameObject go, UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1376044
+    // Offset: 0x1388A88
     static void MoveGameObjectToScene_Injected(UnityEngine::GameObject* go, UnityEngine::SceneManagement::Scene& scene);
   }; // UnityEngine.SceneManagement.SceneManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManager*, "UnityEngine.SceneManagement", "SceneManager");
 #pragma pack(pop)

@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class SteamVR_CameraMask : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void Awake()
-    // Offset: 0xD68E3C
+    // Offset: 0xD7C880
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xD68ED8
+    // Offset: 0xD7C91C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -27,6 +27,6 @@ namespace GlobalNamespace {
     static SteamVR_CameraMask* New_ctor();
   }; // SteamVR_CameraMask
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_CameraMask*, "", "SteamVR_CameraMask");
 #pragma pack(pop)

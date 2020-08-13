@@ -26,28 +26,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x38
     RootMotion::FinalIK::IKSolverTrigonometric* solver;
     // private System.Void SupportGroup()
-    // Offset: 0x1222E4C
+    // Offset: 0x1234890
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1222E98
+    // Offset: 0x12348DC
     void ASThread();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x1222DB4
+    // Offset: 0x12347F8
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x1222E00
+    // Offset: 0x1234844
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenScriptReference()
     void OpenScriptReference();
     // public override RootMotion.FinalIK.IKSolver GetIKSolver()
-    // Offset: 0x1222EE4
+    // Offset: 0x1234928
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: RootMotion.FinalIK.IKSolver IK::GetIKSolver()
     RootMotion::FinalIK::IKSolver* GetIKSolver();
     // public System.Void .ctor()
-    // Offset: 0x1222EEC
+    // Offset: 0x1234930
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -59,6 +59,6 @@ namespace RootMotion::FinalIK {
     static TrigonometricIK* New_ctor();
   }; // RootMotion.FinalIK.TrigonometricIK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TrigonometricIK*, "RootMotion.FinalIK", "TrigonometricIK");
 #pragma pack(pop)

@@ -23,7 +23,7 @@ namespace System {
   class ArgumentNullException : public System::ArgumentException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x10A9078
+    // Offset: 0x10B9ABC
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,19 +31,19 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ArgumentNullException* New_ctor();
     // public System.Void .ctor(System.String paramName)
-    // Offset: 0x1096E00
+    // Offset: 0x10A7844
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName)
     // Base method: System.Void SystemException::.ctor(System.String paramName)
     // Base method: System.Void Exception::.ctor(System.String paramName)
     static ArgumentNullException* New_ctor(::CsString* paramName);
     // public System.Void .ctor(System.String paramName, System.String message)
-    // Offset: 0x10A9100
+    // Offset: 0x10B9B44
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     static ArgumentNullException* New_ctor(::CsString* paramName, ::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10A913C
+    // Offset: 0x10B9B80
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -51,6 +51,6 @@ namespace System {
     static ArgumentNullException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ArgumentNullException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentNullException*, "System", "ArgumentNullException");
 #pragma pack(pop)

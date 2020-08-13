@@ -26,16 +26,16 @@ namespace UnityEngine::Timeline {
     // Set static field: static private System.Action`1<UnityEngine.Timeline.SignalAsset> OnEnableCallback
     static void _set_OnEnableCallback(System::Action_1<UnityEngine::Timeline::SignalAsset*>* value);
     // static System.Void add_OnEnableCallback(System.Action`1<UnityEngine.Timeline.SignalAsset> value)
-    // Offset: 0x10894EC
+    // Offset: 0x1098F30
     static void add_OnEnableCallback(System::Action_1<UnityEngine::Timeline::SignalAsset*>* value);
     // static System.Void remove_OnEnableCallback(System.Action`1<UnityEngine.Timeline.SignalAsset> value)
-    // Offset: 0x10895A0
+    // Offset: 0x1098FE4
     static void remove_OnEnableCallback(System::Action_1<UnityEngine::Timeline::SignalAsset*>* value);
     // private System.Void OnEnable()
-    // Offset: 0x1089654
+    // Offset: 0x1099098
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x10896C8
+    // Offset: 0x109910C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -43,6 +43,6 @@ namespace UnityEngine::Timeline {
     static SignalAsset* New_ctor();
   }; // UnityEngine.Timeline.SignalAsset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalAsset*, "UnityEngine.Timeline", "SignalAsset");
 #pragma pack(pop)

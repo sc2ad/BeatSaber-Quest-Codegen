@@ -56,34 +56,34 @@ namespace GlobalNamespace {
     // Offset: 0x40
     float currentRotation;
     // public System.Void add_didRotateEvent(System.Action`1<UnityEngine.Quaternion> value)
-    // Offset: 0xBD5898
+    // Offset: 0xBE82DC
     void add_didRotateEvent(System::Action_1<UnityEngine::Quaternion>* value);
     // public System.Void remove_didRotateEvent(System.Action`1<UnityEngine.Quaternion> value)
-    // Offset: 0xBD593C
+    // Offset: 0xBE8380
     void remove_didRotateEvent(System::Action_1<UnityEngine::Quaternion>* value);
     // public System.Single get_targetRotation()
-    // Offset: 0xBD59E0
+    // Offset: 0xBE8424
     float get_targetRotation();
     // public System.Single get_currentRotation()
-    // Offset: 0xBD59FC
+    // Offset: 0xBE8440
     float get_currentRotation();
     // protected System.Void Awake()
-    // Offset: 0xBD5A04
+    // Offset: 0xBE8448
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xBD5A24
+    // Offset: 0xBE8468
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBD5B68
+    // Offset: 0xBE85AC
     void OnDestroy();
     // private System.Void BeatmapEventAtNoteSpawnCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0xBD5B8C
+    // Offset: 0xBE85D0
     void BeatmapEventAtNoteSpawnCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // protected System.Void Update()
-    // Offset: 0xBD5C84
+    // Offset: 0xBE86C8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBD5E68
+    // Offset: 0xBE88AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -92,12 +92,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnvironmentSpawnRotation* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xBD5EDC
+    // Offset: 0xBE8920
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // EnvironmentSpawnRotation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSpawnRotation*, "", "EnvironmentSpawnRotation");
 #pragma pack(pop)

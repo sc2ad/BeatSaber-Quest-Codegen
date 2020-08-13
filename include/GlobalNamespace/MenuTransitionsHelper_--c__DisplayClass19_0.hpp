@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MenuTransitionsHelper
 #include "GlobalNamespace/MenuTransitionsHelper.hpp"
 // Including type: TutorialScenesTransitionSetupDataSO/TutorialEndStateType
@@ -24,15 +22,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MenuTransitionsHelper* $$4__this;
     // System.Void <HandleTutorialSceneDidFinish>b__0()
-    // Offset: 0xBEDFA0
+    // Offset: 0xBFF9E4
     void $HandleTutorialSceneDidFinish$b__0();
     // public System.Void .ctor()
-    // Offset: 0xBEDD04
+    // Offset: 0xBFF748
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuTransitionsHelper::$$c__DisplayClass19_0* New_ctor();
   }; // MenuTransitionsHelper/<>c__DisplayClass19_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass19_0*, "", "MenuTransitionsHelper/<>c__DisplayClass19_0");
 #pragma pack(pop)

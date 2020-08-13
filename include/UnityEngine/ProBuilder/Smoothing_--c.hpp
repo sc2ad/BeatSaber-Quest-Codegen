@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.Smoothing
 #include "UnityEngine/ProBuilder/Smoothing.hpp"
 // Completed includes
@@ -41,21 +39,21 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__9_0
     static void _set_$$9__9_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18B603C
+    // Offset: 0x18C6A80
     static void _cctor();
     // System.Int32 <GetUnusedSmoothingGroup>b__5_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x18B60AC
+    // Offset: 0x18C6AF0
     int $GetUnusedSmoothingGroup$b__5_0(UnityEngine::ProBuilder::Face* x);
     // System.Int32 <ApplySmoothingGroups>b__9_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x18B60C4
+    // Offset: 0x18C6B08
     int $ApplySmoothingGroups$b__9_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x18B60A4
+    // Offset: 0x18C6AE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Smoothing::$$c* New_ctor();
   }; // UnityEngine.ProBuilder.Smoothing/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Smoothing::$$c*, "UnityEngine.ProBuilder", "Smoothing/<>c");
 #pragma pack(pop)

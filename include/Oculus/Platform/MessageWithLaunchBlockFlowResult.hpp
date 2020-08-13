@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithLaunchBlockFlowResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LaunchBlockFlowResult*> {
     public:
     // protected Oculus.Platform.Models.LaunchBlockFlowResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8CF0C
+    // Offset: 0xE9F950
     Oculus::Platform::Models::LaunchBlockFlowResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE8CE68
+    // Offset: 0xE9F8AC
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithLaunchBlockFlowResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.LaunchBlockFlowResult GetLaunchBlockFlowResult()
-    // Offset: 0xE8CEC8
+    // Offset: 0xE9F90C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LaunchBlockFlowResult Message::GetLaunchBlockFlowResult()
     Oculus::Platform::Models::LaunchBlockFlowResult* GetLaunchBlockFlowResult();
   }; // Oculus.Platform.MessageWithLaunchBlockFlowResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchBlockFlowResult*, "Oculus.Platform", "MessageWithLaunchBlockFlowResult");
 #pragma pack(pop)

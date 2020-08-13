@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -20,34 +20,34 @@ namespace UnityEngine {
     // Creating value type constructor for type: ForceOverLifetimeModule
     ForceOverLifetimeModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) : m_ParticleSystem{m_ParticleSystem_} {}
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xA5BAC4
+    // Offset: 0xA5BB40
     static ParticleSystem::ForceOverLifetimeModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0xA5BACC
+    // Offset: 0xA5BB48
     void set_enabled(bool value);
     // public System.Void set_x(UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0xA5BB1C
+    // Offset: 0xA5BB98
     void set_x(UnityEngine::ParticleSystem::MinMaxCurve value);
     // public System.Void set_y(UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0xA5BB74
+    // Offset: 0xA5BBF0
     void set_y(UnityEngine::ParticleSystem::MinMaxCurve value);
     // public System.Void set_z(UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0xA5BBCC
+    // Offset: 0xA5BC48
     void set_z(UnityEngine::ParticleSystem::MinMaxCurve value);
     // static private System.Void set_enabled_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, System.Boolean value)
-    // Offset: 0x195296C
+    // Offset: 0x19653B0
     static void set_enabled_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, bool value);
     // static private System.Void set_x_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0x1952A0C
+    // Offset: 0x1965450
     static void set_x_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
     // static private System.Void set_y_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0x1952AAC
+    // Offset: 0x19654F0
     static void set_y_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
     // static private System.Void set_z_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0x1952B4C
+    // Offset: 0x1965590
     static void set_z_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
   }; // UnityEngine.ParticleSystem/ForceOverLifetimeModule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ForceOverLifetimeModule, "UnityEngine", "ParticleSystem/ForceOverLifetimeModule");
 #pragma pack(pop)

@@ -43,49 +43,49 @@ namespace RootMotion {
     // Offset: 0x32
     bool skipSolverUpdate;
     // public System.Void Disable()
-    // Offset: 0x122D290
+    // Offset: 0x123ECD4
     void Disable();
     // protected System.Void InitiateSolver()
-    // Offset: 0x122D328
+    // Offset: 0x123ED6C
     void InitiateSolver();
     // protected System.Void UpdateSolver()
-    // Offset: 0x122D32C
+    // Offset: 0x123ED70
     void UpdateSolver();
     // protected System.Void FixTransforms()
-    // Offset: 0x122D330
+    // Offset: 0x123ED74
     void FixTransforms();
     // private System.Void OnDisable()
-    // Offset: 0x122D334
+    // Offset: 0x123ED78
     void OnDisable();
     // private System.Void Start()
-    // Offset: 0x122D3C4
+    // Offset: 0x123EE08
     void Start();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x122D3C8
+    // Offset: 0x123EE0C
     bool get_animatePhysics();
     // private System.Void Initiate()
-    // Offset: 0x122D36C
+    // Offset: 0x123EDB0
     void Initiate();
     // private System.Void Update()
-    // Offset: 0x122D6B0
+    // Offset: 0x123F0F4
     void Update();
     // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
-    // Offset: 0x122D4B8
+    // Offset: 0x123EEFC
     void FindAnimatorRecursive(UnityEngine::Transform* t, bool findInChildren);
     // private System.Boolean get_isAnimated()
-    // Offset: 0x122D6FC
+    // Offset: 0x123F140
     bool get_isAnimated();
     // private System.Void FixedUpdate()
-    // Offset: 0x122D7B8
+    // Offset: 0x123F1FC
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x122D814
+    // Offset: 0x123F258
     void LateUpdate();
     // public System.Void UpdateSolverExternal()
-    // Offset: 0x122D870
+    // Offset: 0x123F2B4
     void UpdateSolverExternal();
     // public System.Void .ctor()
-    // Offset: 0x121BBB0
+    // Offset: 0x122D5F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -95,6 +95,6 @@ namespace RootMotion {
     static SolverManager* New_ctor();
   }; // RootMotion.SolverManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::SolverManager*, "RootMotion", "SolverManager");
 #pragma pack(pop)

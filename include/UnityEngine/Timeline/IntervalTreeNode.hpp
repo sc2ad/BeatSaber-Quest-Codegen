@@ -32,6 +32,6 @@ namespace UnityEngine::Timeline {
     IntervalTreeNode(int64_t center_ = {}, int first_ = {}, int last_ = {}, int left_ = {}, int right_ = {}) : center{center_}, first{first_}, last{last_}, left{left_}, right{right_} {}
   }; // UnityEngine.Timeline.IntervalTreeNode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IntervalTreeNode, "UnityEngine.Timeline", "IntervalTreeNode");
 #pragma pack(pop)

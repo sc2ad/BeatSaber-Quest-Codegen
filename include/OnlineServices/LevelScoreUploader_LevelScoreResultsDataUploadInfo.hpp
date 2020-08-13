@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OnlineServices.LevelScoreUploader
 #include "OnlineServices/LevelScoreUploader.hpp"
 // Including type: OnlineServices.LevelScoreResultsData
@@ -24,12 +22,12 @@ namespace OnlineServices {
     // Offset: 0x40
     int uploadAttemptCountLeft;
     // public System.Void .ctor()
-    // Offset: 0xBB863C
+    // Offset: 0xBCB080
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelScoreUploader::LevelScoreResultsDataUploadInfo* New_ctor();
   }; // OnlineServices.LevelScoreUploader/LevelScoreResultsDataUploadInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*, "OnlineServices", "LevelScoreUploader/LevelScoreResultsDataUploadInfo");
 #pragma pack(pop)

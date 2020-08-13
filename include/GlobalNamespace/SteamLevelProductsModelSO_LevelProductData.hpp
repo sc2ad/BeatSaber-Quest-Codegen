@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: SteamLevelProductsModelSO
 #include "GlobalNamespace/SteamLevelProductsModelSO.hpp"
 // Completed includes
@@ -22,18 +20,18 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::CsString* levelId;
     // public System.UInt32 get_appId()
-    // Offset: 0xB90CCC
+    // Offset: 0xBA2710
     uint get_appId();
     // public System.String get_levelId()
-    // Offset: 0xB90CD4
+    // Offset: 0xBA2718
     ::CsString* get_levelId();
     // public System.Void .ctor()
-    // Offset: 0xB90CDC
+    // Offset: 0xBA2720
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SteamLevelProductsModelSO::LevelProductData* New_ctor();
   }; // SteamLevelProductsModelSO/LevelProductData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*, "", "SteamLevelProductsModelSO/LevelProductData");
 #pragma pack(pop)

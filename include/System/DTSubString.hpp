@@ -33,10 +33,10 @@ namespace System {
     // Creating value type constructor for type: DTSubString
     DTSubString(::CsString* s_ = {}, int index_ = {}, int length_ = {}, System::DTSubStringType type_ = {}, int value_ = {}) : s{s_}, index{index_}, length{length_}, type{type_}, value{value_} {}
     // System.Char get_Item(System.Int32 relativeIndex)
-    // Offset: 0xA3D0FC
+    // Offset: 0xA3D178
     ::Il2CppChar get_Item(int relativeIndex);
   }; // System.DTSubString
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DTSubString, "System", "DTSubString");
 #pragma pack(pop)

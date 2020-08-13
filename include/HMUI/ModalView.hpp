@@ -69,34 +69,34 @@ namespace HMUI {
     // Offset: 0x48
     UnityEngine::GameObject* blockerGO;
     // public System.Void add__blockerClickedEvent(System.Action value)
-    // Offset: 0xEC34F0
+    // Offset: 0xED5F34
     void add__blockerClickedEvent(System::Action* value);
     // public System.Void remove__blockerClickedEvent(System.Action value)
-    // Offset: 0xEC37A8
+    // Offset: 0xED61EC
     void remove__blockerClickedEvent(System::Action* value);
     // protected System.Void OnDisable()
-    // Offset: 0xED29BC
+    // Offset: 0xEE5400
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xED29C8
+    // Offset: 0xEE540C
     void OnDestroy();
     // private System.Void SetupView()
-    // Offset: 0xED2A78
+    // Offset: 0xEE54BC
     void SetupView();
     // public System.Void Hide(System.Boolean animated, System.Action finishedCallback)
-    // Offset: 0xEC3950
+    // Offset: 0xED6394
     void Hide(bool animated, System::Action* finishedCallback);
     // public System.Void Show(System.Boolean animated, System.Boolean moveToCenter, System.Action finishedCallback)
-    // Offset: 0xEC3AA4
+    // Offset: 0xED64E8
     void Show(bool animated, bool moveToCenter, System::Action* finishedCallback);
     // private UnityEngine.GameObject CreateBlocker(UnityEngine.Canvas rootCanvas)
-    // Offset: 0xED2DEC
+    // Offset: 0xEE5830
     UnityEngine::GameObject* CreateBlocker(UnityEngine::Canvas* rootCanvas);
     // private System.Void HandleBlockerButtonClicked()
-    // Offset: 0xED31FC
+    // Offset: 0xEE5C40
     void HandleBlockerButtonClicked();
     // public System.Void .ctor()
-    // Offset: 0xED3210
+    // Offset: 0xEE5C54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -106,6 +106,6 @@ namespace HMUI {
     static ModalView* New_ctor();
   }; // HMUI.ModalView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView*, "HMUI", "ModalView");
 #pragma pack(pop)

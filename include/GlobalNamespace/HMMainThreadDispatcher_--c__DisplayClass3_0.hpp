@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: HMMainThreadDispatcher
 #include "GlobalNamespace/HMMainThreadDispatcher.hpp"
 // Completed includes
@@ -29,15 +27,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::IEnumerator* action;
     // System.Void <Enqueue>b__0()
-    // Offset: 0xCA0F68
+    // Offset: 0xCB39AC
     void $Enqueue$b__0();
     // public System.Void .ctor()
-    // Offset: 0xCA0DA8
+    // Offset: 0xCB37EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HMMainThreadDispatcher::$$c__DisplayClass3_0* New_ctor();
   }; // HMMainThreadDispatcher/<>c__DisplayClass3_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass3_0*, "", "HMMainThreadDispatcher/<>c__DisplayClass3_0");
 #pragma pack(pop)

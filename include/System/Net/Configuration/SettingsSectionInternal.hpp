@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Net.Sockets.IPProtectionLevel
 #include "System/Net/Sockets/IPProtectionLevel.hpp"
 // Completed includes
@@ -26,21 +24,21 @@ namespace System::Net::Configuration {
     // Offset: 0x14
     System::Net::Sockets::IPProtectionLevel IPProtectionLevel;
     // static System.Net.Configuration.SettingsSectionInternal get_Section()
-    // Offset: 0xF55298
+    // Offset: 0xF66CDC
     static System::Net::Configuration::SettingsSectionInternal* get_Section();
     // System.Boolean get_Ipv6Enabled()
-    // Offset: 0xF55300
+    // Offset: 0xF66D44
     bool get_Ipv6Enabled();
     // static private System.Void .cctor()
-    // Offset: 0xF55320
+    // Offset: 0xF66D64
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xF55308
+    // Offset: 0xF66D4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SettingsSectionInternal* New_ctor();
   }; // System.Net.Configuration.SettingsSectionInternal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal*, "System.Net.Configuration", "SettingsSectionInternal");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.InteractionTrigger
 #include "RootMotion/FinalIK/InteractionTrigger.hpp"
 // Including type: UnityEngine.Vector3
@@ -46,18 +44,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x2C
     bool fixYAxis;
     // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x1218078
+    // Offset: 0x1229ABC
     UnityEngine::Quaternion GetRotation();
     // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, System.Single error)
-    // Offset: 0x1218220
+    // Offset: 0x1229C64
     bool IsInRange(UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit hit, UnityEngine::Transform* trigger, float& error);
     // public System.Void .ctor()
-    // Offset: 0x1218500
+    // Offset: 0x1229F44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionTrigger::CameraPosition* New_ctor();
   }; // RootMotion.FinalIK.InteractionTrigger/CameraPosition
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CameraPosition*, "RootMotion.FinalIK", "InteractionTrigger/CameraPosition");
 #pragma pack(pop)

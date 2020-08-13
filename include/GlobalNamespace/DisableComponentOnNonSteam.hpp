@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::MonoBehaviour* component;
     // private System.Void Awake()
-    // Offset: 0xBD2A48
+    // Offset: 0xBE548C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xBD2A68
+    // Offset: 0xBE54AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -30,6 +30,6 @@ namespace GlobalNamespace {
     static DisableComponentOnNonSteam* New_ctor();
   }; // DisableComponentOnNonSteam
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableComponentOnNonSteam*, "", "DisableComponentOnNonSteam");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BloomPrePassRenderDataSO
 #include "GlobalNamespace/BloomPrePassRenderDataSO.hpp"
 // Including type: UnityEngine.Vector2
@@ -42,12 +40,12 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     float stereoCameraEyeOffset;
     // public System.Void .ctor()
-    // Offset: 0x180C2CC
+    // Offset: 0x181CD10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BloomPrePassRenderDataSO::Data* New_ctor();
   }; // BloomPrePassRenderDataSO/Data
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO::Data*, "", "BloomPrePassRenderDataSO/Data");
 #pragma pack(pop)

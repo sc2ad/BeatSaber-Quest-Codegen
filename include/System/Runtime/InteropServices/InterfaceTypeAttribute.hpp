@@ -19,10 +19,10 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Runtime::InteropServices::ComInterfaceType val;
     // public System.Void .ctor(System.Runtime.InteropServices.ComInterfaceType interfaceType)
-    // Offset: 0x103B714
+    // Offset: 0x104B158
     static InterfaceTypeAttribute* New_ctor(System::Runtime::InteropServices::ComInterfaceType interfaceType);
   }; // System.Runtime.InteropServices.InterfaceTypeAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::InterfaceTypeAttribute*, "System.Runtime.InteropServices", "InterfaceTypeAttribute");
 #pragma pack(pop)

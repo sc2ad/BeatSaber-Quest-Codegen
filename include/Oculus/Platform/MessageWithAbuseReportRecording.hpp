@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithAbuseReportRecording : public Oculus::Platform::Message_1<Oculus::Platform::Models::AbuseReportRecording*> {
     public:
     // protected Oculus.Platform.Models.AbuseReportRecording GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE89FB0
+    // Offset: 0xE9C9F4
     Oculus::Platform::Models::AbuseReportRecording* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE89F0C
+    // Offset: 0xE9C950
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithAbuseReportRecording* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.AbuseReportRecording GetAbuseReportRecording()
-    // Offset: 0xE89F6C
+    // Offset: 0xE9C9B0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AbuseReportRecording Message::GetAbuseReportRecording()
     Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
   }; // Oculus.Platform.MessageWithAbuseReportRecording
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAbuseReportRecording*, "Oculus.Platform", "MessageWithAbuseReportRecording");
 #pragma pack(pop)

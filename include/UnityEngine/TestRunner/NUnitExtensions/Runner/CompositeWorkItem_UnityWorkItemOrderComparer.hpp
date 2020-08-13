@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem
 #include "UnityEngine/TestRunner/NUnitExtensions/Runner/CompositeWorkItem.hpp"
 // Including type: System.Collections.Generic.IComparer`1
@@ -24,17 +22,17 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class CompositeWorkItem::UnityWorkItemOrderComparer : public ::CsObject, public System::Collections::Generic::IComparer_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*> {
     public:
     // public System.Int32 Compare(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem x, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem y)
-    // Offset: 0xE1C370
+    // Offset: 0xE2EDB4
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem x, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem y)
     int Compare(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* x, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* y);
     // public System.Void .ctor()
-    // Offset: 0xE19FD0
+    // Offset: 0xE2CA14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CompositeWorkItem::UnityWorkItemOrderComparer* New_ctor();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/UnityWorkItemOrderComparer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::UnityWorkItemOrderComparer*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem/UnityWorkItemOrderComparer");
 #pragma pack(pop)

@@ -25,6 +25,6 @@ namespace TMPro {
     TMP_SpriteInfo(int spriteIndex_ = {}, int characterIndex_ = {}, int vertexIndex_ = {}) : spriteIndex{spriteIndex_}, characterIndex{characterIndex_}, vertexIndex{vertexIndex_} {}
   }; // TMPro.TMP_SpriteInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteInfo, "TMPro", "TMP_SpriteInfo");
 #pragma pack(pop)

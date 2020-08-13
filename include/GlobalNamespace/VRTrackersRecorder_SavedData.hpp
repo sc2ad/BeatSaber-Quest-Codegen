@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: VRTrackersRecorder
 #include "GlobalNamespace/VRTrackersRecorder.hpp"
 // Completed includes
@@ -26,12 +24,12 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>* keyframes;
     // public System.Void .ctor()
-    // Offset: 0xC3FF10
+    // Offset: 0xC51954
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRTrackersRecorder::SavedData* New_ctor();
   }; // VRTrackersRecorder/SavedData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::SavedData*, "", "VRTrackersRecorder/SavedData");
 #pragma pack(pop)

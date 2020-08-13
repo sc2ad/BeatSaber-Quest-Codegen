@@ -51,22 +51,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Vector3 targetPos;
     // public System.Void set_TargetPos(UnityEngine.Vector3 value)
-    // Offset: 0xCA892C
+    // Offset: 0xCBB370
     void set_TargetPos(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_TargetPos()
-    // Offset: 0xCA8ABC
+    // Offset: 0xCBB500
     UnityEngine::Vector3 get_TargetPos();
     // protected System.Void Awake()
-    // Offset: 0xCA8AC8
+    // Offset: 0xCBB50C
     void Awake();
     // private System.Void AnimateToNewPos(UnityEngine.Vector3 pos)
-    // Offset: 0xCA8A0C
+    // Offset: 0xCBB450
     void AnimateToNewPos(UnityEngine::Vector3 pos);
     // private System.Collections.IEnumerator AnimateToNewPosCoroutine(UnityEngine.Vector3 pos)
-    // Offset: 0xCA8AF8
+    // Offset: 0xCBB53C
     System::Collections::IEnumerator* AnimateToNewPosCoroutine(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0xCA8BA0
+    // Offset: 0xCBB5E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -76,6 +76,6 @@ namespace GlobalNamespace {
     static TweenPosition* New_ctor();
   }; // TweenPosition
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition*, "", "TweenPosition");
 #pragma pack(pop)

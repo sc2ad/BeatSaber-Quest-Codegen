@@ -23,7 +23,7 @@ namespace System {
   class DllNotFoundException : public System::TypeLoadException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xD89EB0
+    // Offset: 0xD9D8F4
     // Implemented from: System.TypeLoadException
     // Base method: System.Void TypeLoadException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static DllNotFoundException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xD89F14
+    // Offset: 0xD9D958
     // Implemented from: System.TypeLoadException
     // Base method: System.Void TypeLoadException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static DllNotFoundException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD89F44
+    // Offset: 0xD9D988
     // Implemented from: System.TypeLoadException
     // Base method: System.Void TypeLoadException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -46,6 +46,6 @@ namespace System {
     static DllNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.DllNotFoundException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DllNotFoundException*, "System", "DllNotFoundException");
 #pragma pack(pop)

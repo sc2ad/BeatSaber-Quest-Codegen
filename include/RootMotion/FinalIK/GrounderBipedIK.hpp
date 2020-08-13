@@ -56,46 +56,46 @@ namespace RootMotion::FinalIK {
     // Offset: 0x84
     float lastWeight;
     // private System.Boolean IsReadyToInitiate()
-    // Offset: 0x13595C4
+    // Offset: 0x136C008
     bool IsReadyToInitiate();
     // private System.Void Update()
-    // Offset: 0x1359674
+    // Offset: 0x136C0B8
     void Update();
     // private System.Void Initiate()
-    // Offset: 0x1359728
+    // Offset: 0x136C16C
     void Initiate();
     // private System.Void OnDisable()
-    // Offset: 0x1359CF0
+    // Offset: 0x136C734
     void OnDisable();
     // private System.Void OnSolverUpdate()
-    // Offset: 0x1359D44
+    // Offset: 0x136C788
     void OnSolverUpdate();
     // private System.Void SetLegIK(RootMotion.FinalIK.IKSolverLimb limb, System.Int32 index)
-    // Offset: 0x135A4F8
+    // Offset: 0x136CF3C
     void SetLegIK(RootMotion::FinalIK::IKSolverLimb* limb, int index);
     // private System.Void OnPostSolverUpdate()
-    // Offset: 0x135A658
+    // Offset: 0x136D09C
     void OnPostSolverUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x135A7E8
+    // Offset: 0x136D22C
     void OnDestroy();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x1359428
+    // Offset: 0x136BE6C
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x1359474
+    // Offset: 0x136BEB8
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenScriptReference()
     void OpenScriptReference();
     // public override System.Void ResetPosition()
-    // Offset: 0x13594C0
+    // Offset: 0x136BF04
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::ResetPosition()
     void ResetPosition();
     // public System.Void .ctor()
-    // Offset: 0x135A98C
+    // Offset: 0x136D3D0
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -106,6 +106,6 @@ namespace RootMotion::FinalIK {
     static GrounderBipedIK* New_ctor();
   }; // RootMotion.FinalIK.GrounderBipedIK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderBipedIK*, "RootMotion.FinalIK", "GrounderBipedIK");
 #pragma pack(pop)

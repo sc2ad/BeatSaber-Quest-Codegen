@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRSystemPerfMetrics
 #include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
 // Completed includes
@@ -97,18 +95,18 @@ namespace GlobalNamespace {
     // Offset: 0x78
     int deviceGpuClockLevel;
     // public System.String ToJSON()
-    // Offset: 0x18E5544
+    // Offset: 0x18F5F88
     ::CsString* ToJSON();
     // public System.Boolean LoadFromJSON(System.String json)
-    // Offset: 0x18E5A7C
+    // Offset: 0x18F64C0
     bool LoadFromJSON(::CsString* json);
     // public System.Void .ctor()
-    // Offset: 0x18E59F4
+    // Offset: 0x18F6438
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRSystemPerfMetrics::PerfMetrics* New_ctor();
   }; // OVRSystemPerfMetrics/PerfMetrics
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*, "", "OVRSystemPerfMetrics/PerfMetrics");
 #pragma pack(pop)

@@ -50,6 +50,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     InternalArrayTypeE(int value_ = {}) : value{value_} {}
   }; // System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalArrayTypeE");
 #pragma pack(pop)

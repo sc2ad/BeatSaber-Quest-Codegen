@@ -56,58 +56,58 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x3C
     bool m_opcodeSet;
     // public System.Void .ctor(System.Int32 eventId)
-    // Offset: 0xC863BC
+    // Offset: 0xC97E00
     static EventAttribute* New_ctor(int eventId);
     // public System.Int32 get_EventId()
-    // Offset: 0xC863F0
+    // Offset: 0xC97E34
     int get_EventId();
     // private System.Void set_EventId(System.Int32 value)
-    // Offset: 0xC863F8
+    // Offset: 0xC97E3C
     void set_EventId(int value);
     // public System.Diagnostics.Tracing.EventLevel get_Level()
-    // Offset: 0xC86400
+    // Offset: 0xC97E44
     System::Diagnostics::Tracing::EventLevel get_Level();
     // public System.Void set_Level(System.Diagnostics.Tracing.EventLevel value)
-    // Offset: 0xC86408
+    // Offset: 0xC97E4C
     void set_Level(System::Diagnostics::Tracing::EventLevel value);
     // public System.Diagnostics.Tracing.EventKeywords get_Keywords()
-    // Offset: 0xC86410
+    // Offset: 0xC97E54
     System::Diagnostics::Tracing::EventKeywords get_Keywords();
     // public System.Diagnostics.Tracing.EventOpcode get_Opcode()
-    // Offset: 0xC86418
+    // Offset: 0xC97E5C
     System::Diagnostics::Tracing::EventOpcode get_Opcode();
     // public System.Void set_Opcode(System.Diagnostics.Tracing.EventOpcode value)
-    // Offset: 0xC86420
+    // Offset: 0xC97E64
     void set_Opcode(System::Diagnostics::Tracing::EventOpcode value);
     // System.Boolean get_IsOpcodeSet()
-    // Offset: 0xC86430
+    // Offset: 0xC97E74
     bool get_IsOpcodeSet();
     // public System.Diagnostics.Tracing.EventTask get_Task()
-    // Offset: 0xC86438
+    // Offset: 0xC97E7C
     System::Diagnostics::Tracing::EventTask get_Task();
     // public System.Void set_Task(System.Diagnostics.Tracing.EventTask value)
-    // Offset: 0xC86440
+    // Offset: 0xC97E84
     void set_Task(System::Diagnostics::Tracing::EventTask value);
     // public System.Byte get_Version()
-    // Offset: 0xC86448
+    // Offset: 0xC97E8C
     uint8_t get_Version();
     // public System.String get_Message()
-    // Offset: 0xC86450
+    // Offset: 0xC97E94
     ::CsString* get_Message();
     // public System.Void set_Message(System.String value)
-    // Offset: 0xC86458
+    // Offset: 0xC97E9C
     void set_Message(::CsString* value);
     // public System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0xC86460
+    // Offset: 0xC97EA4
     System::Diagnostics::Tracing::EventTags get_Tags();
     // public System.Diagnostics.Tracing.EventActivityOptions get_ActivityOptions()
-    // Offset: 0xC86468
+    // Offset: 0xC97EAC
     System::Diagnostics::Tracing::EventActivityOptions get_ActivityOptions();
     // public System.Void set_ActivityOptions(System.Diagnostics.Tracing.EventActivityOptions value)
-    // Offset: 0xC86470
+    // Offset: 0xC97EB4
     void set_ActivityOptions(System::Diagnostics::Tracing::EventActivityOptions value);
   }; // System.Diagnostics.Tracing.EventAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventAttribute*, "System.Diagnostics.Tracing", "EventAttribute");
 #pragma pack(pop)

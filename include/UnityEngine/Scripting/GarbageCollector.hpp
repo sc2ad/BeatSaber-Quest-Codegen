@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -55,17 +53,17 @@ namespace UnityEngine::Scripting {
     // Set static field: static private System.Action`1<UnityEngine.Scripting.GarbageCollector/Mode> GCModeChanged
     static void _set_GCModeChanged(System::Action_1<UnityEngine::Scripting::GarbageCollector::Mode>* value);
     // static public System.Void set_GCMode(UnityEngine.Scripting.GarbageCollector/Mode value)
-    // Offset: 0x1376AD0
+    // Offset: 0x1389514
     static void set_GCMode(UnityEngine::Scripting::GarbageCollector::Mode value);
     // static private System.Void SetMode(UnityEngine.Scripting.GarbageCollector/Mode mode)
-    // Offset: 0x1376BCC
+    // Offset: 0x1389610
     static void SetMode(UnityEngine::Scripting::GarbageCollector::Mode mode);
     // static private UnityEngine.Scripting.GarbageCollector/Mode GetMode()
-    // Offset: 0x1376B98
+    // Offset: 0x13895DC
     static UnityEngine::Scripting::GarbageCollector::Mode GetMode();
   }; // UnityEngine.Scripting.GarbageCollector
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GarbageCollector*, "UnityEngine.Scripting", "GarbageCollector");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GarbageCollector::Mode, "UnityEngine.Scripting", "GarbageCollector/Mode");
 #pragma pack(pop)

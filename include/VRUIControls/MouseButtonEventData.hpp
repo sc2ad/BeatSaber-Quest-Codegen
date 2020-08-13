@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData/FramePressState
 #include "UnityEngine/EventSystems/PointerEventData_FramePressState.hpp"
 // Completed includes
@@ -28,18 +26,18 @@ namespace VRUIControls {
     // Offset: 0x18
     UnityEngine::EventSystems::PointerEventData* buttonData;
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x191DE14
+    // Offset: 0x192E858
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x191DE28
+    // Offset: 0x192E86C
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0x191DE3C
+    // Offset: 0x192E880
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MouseButtonEventData* New_ctor();
   }; // VRUIControls.MouseButtonEventData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");
 #pragma pack(pop)

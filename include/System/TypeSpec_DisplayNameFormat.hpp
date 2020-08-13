@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: System.TypeSpec
 #include "System/TypeSpec.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -40,6 +40,6 @@ namespace System {
     DisplayNameFormat(int value_ = {}) : value{value_} {}
   }; // System.TypeSpec/DisplayNameFormat
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeSpec::DisplayNameFormat, "System", "TypeSpec/DisplayNameFormat");
 #pragma pack(pop)

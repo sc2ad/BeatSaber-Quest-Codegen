@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Threading.Tasks.Task`1
-#include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.Threading.Tasks.TaskFactory
 #include "System/Threading/Tasks/TaskFactory.hpp"
+// Including type: System.Threading.Tasks.Task`1
+#include "System/Threading/Tasks/Task_1.hpp"
 // Including type: System.Threading.Tasks.ITaskCompletionAction
 #include "System/Threading/Tasks/ITaskCompletionAction.hpp"
 // Completed includes
@@ -36,10 +36,10 @@ namespace System::Threading::Tasks {
     // Offset: 0x60
     int m_firstTaskAlreadyCompleted;
     // public System.Void .ctor(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0xCD1B64
+    // Offset: 0xCE45A8
     static TaskFactory::CompleteOnInvokePromise* New_ctor(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* tasks);
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0xCD1C4C
+    // Offset: 0xCE4690
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void Invoke(System::Threading::Tasks::Task* completingTask);
@@ -48,6 +48,6 @@ namespace System::Threading::Tasks {
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);
   }; // System.Threading.Tasks.TaskFactory/CompleteOnInvokePromise
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise*, "System.Threading.Tasks", "TaskFactory/CompleteOnInvokePromise");
 #pragma pack(pop)

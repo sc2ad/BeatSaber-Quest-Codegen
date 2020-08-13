@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRNetwork
 #include "GlobalNamespace/OVRNetwork.hpp"
 // Completed includes
@@ -33,13 +31,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FrameHeader
     FrameHeader(uint protocolIdentifier_ = {}, int payloadType_ = {}, int payloadLength_ = {}) : protocolIdentifier{protocolIdentifier_}, payloadType{payloadType_}, payloadLength{payloadLength_} {}
     // public System.Byte[] ToBytes()
-    // Offset: 0xA34E4C
+    // Offset: 0xA34EC8
     ::Array<uint8_t>* ToBytes();
     // static public OVRNetwork/FrameHeader FromBytes(System.Byte[] arr)
-    // Offset: 0xED8630
+    // Offset: 0xEEA074
     static GlobalNamespace::OVRNetwork::FrameHeader FromBytes(::Array<uint8_t>* arr);
   }; // OVRNetwork/FrameHeader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::FrameHeader, "", "OVRNetwork/FrameHeader");
 #pragma pack(pop)

@@ -18,6 +18,6 @@ namespace UnityEngine {
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
   }; // UnityEngine.ISerializationCallbackReceiver
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ISerializationCallbackReceiver*, "UnityEngine", "ISerializationCallbackReceiver");
 #pragma pack(pop)

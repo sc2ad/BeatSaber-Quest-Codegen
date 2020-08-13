@@ -24,10 +24,10 @@ namespace HMUI {
     // Offset: 0x68
     TMPro::TextMeshProUGUI* text;
     // public System.Void SetText(System.String text)
-    // Offset: 0x10D5B7C
+    // Offset: 0x10E65C0
     void SetText(::CsString* text);
     // public System.Void .ctor()
-    // Offset: 0x10D5B98
+    // Offset: 0x10E65DC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -38,6 +38,6 @@ namespace HMUI {
     static TitleViewController* New_ctor();
   }; // HMUI.TitleViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TitleViewController*, "HMUI", "TitleViewController");
 #pragma pack(pop)

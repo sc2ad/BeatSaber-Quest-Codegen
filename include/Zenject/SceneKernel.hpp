@@ -14,7 +14,7 @@ namespace Zenject {
   class SceneKernel : public Zenject::MonoKernel {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFB6398
+    // Offset: 0xFC8DDC
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -25,6 +25,6 @@ namespace Zenject {
     static SceneKernel* New_ctor();
   }; // Zenject.SceneKernel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneKernel*, "Zenject", "SceneKernel");
 #pragma pack(pop)

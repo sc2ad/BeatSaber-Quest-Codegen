@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithAchievementDefinitions : public Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementDefinitionList*> {
     public:
     // protected Oculus.Platform.Models.AchievementDefinitionList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8A120
+    // Offset: 0xE9CB64
     Oculus::Platform::Models::AchievementDefinitionList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE87E40
+    // Offset: 0xE9A884
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithAchievementDefinitions* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.AchievementDefinitionList GetAchievementDefinitions()
-    // Offset: 0xE8A0DC
+    // Offset: 0xE9CB20
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AchievementDefinitionList Message::GetAchievementDefinitions()
     Oculus::Platform::Models::AchievementDefinitionList* GetAchievementDefinitions();
   }; // Oculus.Platform.MessageWithAchievementDefinitions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAchievementDefinitions*, "Oculus.Platform", "MessageWithAchievementDefinitions");
 #pragma pack(pop)

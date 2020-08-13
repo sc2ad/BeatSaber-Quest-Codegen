@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
@@ -86,45 +84,45 @@ namespace RootMotion::FinalIK {
     // Offset: 0x85
     bool limbOrientationsSet;
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolverFullBody solver, RootMotion.Warning/Logger logger)
-    // Offset: 0x1365E0C
+    // Offset: 0x1378850
     bool IsValid(RootMotion::FinalIK::IKSolverFullBody* solver, RootMotion::Warning::Logger* logger);
     // public System.Boolean get_initiated()
-    // Offset: 0x1365FD4
+    // Offset: 0x1378A18
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1365FDC
+    // Offset: 0x1378A20
     void set_initiated(bool value);
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3)
-    // Offset: 0x136606C
+    // Offset: 0x1378AB0
     static IKConstraintBend* New_ctor(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3);
     // public System.Void SetBones(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3)
-    // Offset: 0x1366120
+    // Offset: 0x1378B64
     void SetBones(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1366170
+    // Offset: 0x1378BB4
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SetLimbOrientation(UnityEngine.Vector3 upper, UnityEngine.Vector3 lower, UnityEngine.Vector3 last)
-    // Offset: 0x1366660
+    // Offset: 0x13790A4
     void SetLimbOrientation(UnityEngine::Vector3 upper, UnityEngine::Vector3 lower, UnityEngine::Vector3 last);
     // public System.Void LimitBend(System.Single solverWeight, System.Single positionWeight)
-    // Offset: 0x1366898
+    // Offset: 0x13792DC
     void LimitBend(float solverWeight, float positionWeight);
     // public UnityEngine.Vector3 GetDir(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1366D34
+    // Offset: 0x1379778
     UnityEngine::Vector3 GetDir(RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 OrthoToLimb(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Vector3 tangent)
-    // Offset: 0x1366420
+    // Offset: 0x1378E64
     UnityEngine::Vector3 OrthoToLimb(RootMotion::FinalIK::IKSolverFullBody* solver, UnityEngine::Vector3 tangent);
     // private UnityEngine.Vector3 OrthoToBone1(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Vector3 tangent)
-    // Offset: 0x1366540
+    // Offset: 0x1378F84
     UnityEngine::Vector3 OrthoToBone1(RootMotion::FinalIK::IKSolverFullBody* solver, UnityEngine::Vector3 tangent);
     // public System.Void .ctor()
-    // Offset: 0x1365FE8
+    // Offset: 0x1378A2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKConstraintBend* New_ctor();
   }; // RootMotion.FinalIK.IKConstraintBend
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend*, "RootMotion.FinalIK", "IKConstraintBend");
 #pragma pack(pop)

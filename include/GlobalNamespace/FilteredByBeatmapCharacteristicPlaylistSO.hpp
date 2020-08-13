@@ -44,28 +44,28 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0xBD85E4
+    // Offset: 0xBEB028
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Void SetupFromLevelPackCollection(IBeatmapLevelPackCollection beatmapLevelPackCollection)
-    // Offset: 0xBD8608
+    // Offset: 0xBEB04C
     void SetupFromLevelPackCollection(GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection);
     // public System.String get_collectionName()
-    // Offset: 0xBD85EC
+    // Offset: 0xBEB030
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
     ::CsString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0xBD85F8
+    // Offset: 0xBEB03C
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0xBD8600
+    // Offset: 0xBEB044
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0xBD8650
+    // Offset: 0xBEB094
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -73,6 +73,6 @@ namespace GlobalNamespace {
     static FilteredByBeatmapCharacteristicPlaylistSO* New_ctor();
   }; // FilteredByBeatmapCharacteristicPlaylistSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FilteredByBeatmapCharacteristicPlaylistSO*, "", "FilteredByBeatmapCharacteristicPlaylistSO");
 #pragma pack(pop)

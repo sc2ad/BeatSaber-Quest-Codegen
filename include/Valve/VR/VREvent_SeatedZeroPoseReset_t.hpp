@@ -19,6 +19,6 @@ namespace Valve::VR {
     VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu_ = {}) : bResetBySystemMenu{bResetBySystemMenu_} {}
   }; // Valve.VR.VREvent_SeatedZeroPoseReset_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_SeatedZeroPoseReset_t, "Valve.VR", "VREvent_SeatedZeroPoseReset_t");
 #pragma pack(pop)

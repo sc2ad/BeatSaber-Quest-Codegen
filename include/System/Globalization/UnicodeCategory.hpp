@@ -200,6 +200,6 @@ namespace System::Globalization {
     UnicodeCategory(int value_ = {}) : value{value_} {}
   }; // System.Globalization.UnicodeCategory
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::UnicodeCategory, "System.Globalization", "UnicodeCategory");
 #pragma pack(pop)

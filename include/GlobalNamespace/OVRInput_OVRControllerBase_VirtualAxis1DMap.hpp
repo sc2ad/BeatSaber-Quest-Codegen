@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRInput/OVRControllerBase
 #include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Including type: OVRInput/RawAxis1D
@@ -33,15 +31,15 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::OVRInput::RawAxis1D SecondaryHandTrigger;
     // public OVRInput/RawAxis1D ToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0xE5E8EC
+    // Offset: 0xE71330
     GlobalNamespace::OVRInput::RawAxis1D ToRawMask(GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public System.Void .ctor()
-    // Offset: 0xE5DA90
+    // Offset: 0xE704D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualAxis1DMap* New_ctor();
   }; // OVRInput/OVRControllerBase/VirtualAxis1DMap
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*, "", "OVRInput/OVRControllerBase/VirtualAxis1DMap");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Net.Sockets.Socket
 #include "System/Net/Sockets/Socket.hpp"
 // Including type: System.IntPtr
@@ -27,6 +25,6 @@ namespace System::Net::Sockets {
     WSABUF(int len_ = {}, System::IntPtr buf_ = {}) : len{len_}, buf{buf_} {}
   }; // System.Net.Sockets.Socket/WSABUF
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::WSABUF, "System.Net.Sockets", "Socket/WSABUF");
 #pragma pack(pop)

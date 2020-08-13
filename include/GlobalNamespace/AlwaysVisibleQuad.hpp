@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Mesh* mesh;
     // protected System.Void OnEnable()
-    // Offset: 0x18F5950
+    // Offset: 0x1905394
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x18F5C34
+    // Offset: 0x1905678
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x18F5C40
+    // Offset: 0x1905684
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -40,6 +40,6 @@ namespace GlobalNamespace {
     static AlwaysVisibleQuad* New_ctor();
   }; // AlwaysVisibleQuad
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysVisibleQuad*, "", "AlwaysVisibleQuad");
 #pragma pack(pop)

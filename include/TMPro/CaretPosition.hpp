@@ -38,6 +38,6 @@ namespace TMPro {
     CaretPosition(int value_ = {}) : value{value_} {}
   }; // TMPro.CaretPosition
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretPosition, "TMPro", "CaretPosition");
 #pragma pack(pop)

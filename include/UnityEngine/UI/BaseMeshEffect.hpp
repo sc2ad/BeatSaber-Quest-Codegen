@@ -33,25 +33,25 @@ namespace UnityEngine::UI {
     // Offset: 0x18
     UnityEngine::UI::Graphic* m_Graphic;
     // protected UnityEngine.UI.Graphic get_graphic()
-    // Offset: 0xDEE7C8
+    // Offset: 0xE0120C
     UnityEngine::UI::Graphic* get_graphic();
     // protected override System.Void OnEnable()
-    // Offset: 0xDEE874
+    // Offset: 0xE012B8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xDEE920
+    // Offset: 0xE01364
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0xDEE9CC
+    // Offset: 0xE01410
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // public System.Void ModifyMesh(UnityEngine.Mesh mesh)
-    // Offset: 0xDEEA78
+    // Offset: 0xE014BC
     // Implemented from: UnityEngine.UI.IMeshModifier
     // Base method: System.Void IMeshModifier::ModifyMesh(UnityEngine.Mesh mesh)
     void ModifyMesh(UnityEngine::Mesh* mesh);
@@ -61,7 +61,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void IMeshModifier::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
     // protected System.Void .ctor()
-    // Offset: 0xDEEBC4
+    // Offset: 0xE01608
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -72,6 +72,6 @@ namespace UnityEngine::UI {
     static BaseMeshEffect* New_ctor();
   }; // UnityEngine.UI.BaseMeshEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseMeshEffect*, "UnityEngine.UI", "BaseMeshEffect");
 #pragma pack(pop)

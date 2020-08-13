@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
@@ -52,47 +50,47 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1C
     float m_AreaError;
     // public System.Single get_hardAngle()
-    // Offset: 0x18B9C38
+    // Offset: 0x18CA67C
     float get_hardAngle();
     // public System.Void set_hardAngle(System.Single value)
-    // Offset: 0x18B9C40
+    // Offset: 0x18CA684
     void set_hardAngle(float value);
     // public System.Single get_packMargin()
-    // Offset: 0x18B9C48
+    // Offset: 0x18CA68C
     float get_packMargin();
     // public System.Void set_packMargin(System.Single value)
-    // Offset: 0x18B9C50
+    // Offset: 0x18CA694
     void set_packMargin(float value);
     // public System.Single get_angleError()
-    // Offset: 0x18B9C58
+    // Offset: 0x18CA69C
     float get_angleError();
     // public System.Void set_angleError(System.Single value)
-    // Offset: 0x18B9C60
+    // Offset: 0x18CA6A4
     void set_angleError(float value);
     // public System.Single get_areaError()
-    // Offset: 0x18B9C68
+    // Offset: 0x18CA6AC
     float get_areaError();
     // public System.Void set_areaError(System.Single value)
-    // Offset: 0x18B9C70
+    // Offset: 0x18CA6B4
     void set_areaError(float value);
     // public System.Void .ctor(UnityEngine.ProBuilder.UnwrapParameters other)
-    // Offset: 0x18B9CCC
+    // Offset: 0x18CA710
     static UnwrapParameters* New_ctor(UnityEngine::ProBuilder::UnwrapParameters* other);
     // public System.Void Reset()
-    // Offset: 0x18B9CBC
+    // Offset: 0x18CA700
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x18B9C78
+    // Offset: 0x18CA6BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnwrapParameters* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x18B9D90
+    // Offset: 0x18CA7D4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // UnityEngine.ProBuilder.UnwrapParameters
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnwrapParameters*, "UnityEngine.ProBuilder", "UnwrapParameters");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Xml.XmlEventCache
 #include "System/Xml/XmlEventCache.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Xml.XmlEventCache/XmlEventType
 #include "System/Xml/XmlEventCache_XmlEventType.hpp"
 // Completed includes
@@ -35,40 +35,40 @@ namespace System::Xml {
     // Creating value type constructor for type: XmlEvent
     XmlEvent(System::Xml::XmlEventCache::XmlEventType eventType_ = {}, ::CsString* s1_ = {}, ::CsString* s2_ = {}, ::CsString* s3_ = {}, ::CsObject* o_ = {}) : eventType{eventType_}, s1{s1_}, s2{s2_}, s3{s3_}, o{o_} {}
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType)
-    // Offset: 0xA3F158
+    // Offset: 0xA3F1D4
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1)
-    // Offset: 0xA3F160
+    // Offset: 0xA3F1DC
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsString* s1);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1, System.String s2)
-    // Offset: 0xA3F170
+    // Offset: 0xA3F1EC
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsString* s1, ::CsString* s2);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1, System.String s2, System.String s3)
-    // Offset: 0xA3F1AC
+    // Offset: 0xA3F228
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsString* s1, ::CsString* s2, ::CsString* s3);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1, System.String s2, System.String s3, System.Object o)
-    // Offset: 0xA3F1B4
+    // Offset: 0xA3F230
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsString* s1, ::CsString* s2, ::CsString* s3, ::CsObject* o);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.Object o)
-    // Offset: 0xA3F1BC
+    // Offset: 0xA3F238
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::CsObject* o);
     // public System.Xml.XmlEventCache/XmlEventType get_EventType()
-    // Offset: 0xA3F1CC
+    // Offset: 0xA3F248
     System::Xml::XmlEventCache::XmlEventType get_EventType();
     // public System.String get_String1()
-    // Offset: 0xA3F1D4
+    // Offset: 0xA3F250
     ::CsString* get_String1();
     // public System.String get_String2()
-    // Offset: 0xA3F1DC
+    // Offset: 0xA3F258
     ::CsString* get_String2();
     // public System.String get_String3()
-    // Offset: 0xA3F1E4
+    // Offset: 0xA3F260
     ::CsString* get_String3();
     // public System.Object get_Object()
-    // Offset: 0xA3F1EC
+    // Offset: 0xA3F268
     ::CsObject* get_Object();
   }; // System.Xml.XmlEventCache/XmlEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEvent, "System.Xml", "XmlEventCache/XmlEvent");
 #pragma pack(pop)

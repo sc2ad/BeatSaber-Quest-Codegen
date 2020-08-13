@@ -83,30 +83,30 @@ namespace GlobalNamespace {
     // Offset: 0xB8
     GlobalNamespace::MissionNode* missionNode;
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0xBEFCC8
+    // Offset: 0xC0170C
     void add_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0xBEFD6C
+    // Offset: 0xC017B0
     void remove_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public MissionNode get_missionNode()
-    // Offset: 0xBEFE10
+    // Offset: 0xC01854
     GlobalNamespace::MissionNode* get_missionNode();
     // public System.Void Setup(MissionNode missionNode)
-    // Offset: 0xBEFE18
+    // Offset: 0xC0185C
     void Setup(GlobalNamespace::MissionNode* missionNode);
     // public System.Void RefreshContent()
-    // Offset: 0xBEFE5C
+    // Offset: 0xC018A0
     void RefreshContent();
     // private System.Void PlayButtonPressed()
-    // Offset: 0xBF01F8
+    // Offset: 0xC01C3C
     void PlayButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBF014C
+    // Offset: 0xC01B90
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xBF025C
+    // Offset: 0xC01CA0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -117,6 +117,6 @@ namespace GlobalNamespace {
     static MissionLevelDetailViewController* New_ctor();
   }; // MissionLevelDetailViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelDetailViewController*, "", "MissionLevelDetailViewController");
 #pragma pack(pop)

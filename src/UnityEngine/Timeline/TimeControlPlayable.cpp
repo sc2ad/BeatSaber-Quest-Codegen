@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.TimeControlPlayable
 #include "UnityEngine/Timeline/TimeControlPlayable.hpp"
 // Including type: UnityEngine.Timeline.ITimeControl

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.UI.InputField
 #include "UnityEngine/UI/InputField.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace UnityEngine::UI {
   class InputField::OnValidateInput : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11E75B8
+    // Offset: 0x11F8FFC
     static InputField::OnValidateInput* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Char Invoke(System.String text, System.Int32 charIndex, System.Char addedChar)
-    // Offset: 0x11E75CC
+    // Offset: 0x11F9010
     ::Il2CppChar Invoke(::CsString* text, int charIndex, ::Il2CppChar addedChar);
     // public System.IAsyncResult BeginInvoke(System.String text, System.Int32 charIndex, System.Char addedChar, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11E7A24
+    // Offset: 0x11F9468
     System::IAsyncResult* BeginInvoke(::CsString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Char EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11E7AE0
+    // Offset: 0x11F9524
     ::Il2CppChar EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.InputField/OnValidateInput
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::OnValidateInput*, "UnityEngine.UI", "InputField/OnValidateInput");
 #pragma pack(pop)

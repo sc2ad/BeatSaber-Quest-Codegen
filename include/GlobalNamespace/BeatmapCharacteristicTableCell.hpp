@@ -51,23 +51,23 @@ namespace GlobalNamespace {
     // Offset: 0x80
     UnityEngine::Color bgHighlightColor;
     // public System.Void SetData(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x19776A8
+    // Offset: 0xB8F9A4
     void SetData(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1977710
+    // Offset: 0xB8FA0C
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x197770C
+    // Offset: 0xB8FA08
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x1977798
+    // Offset: 0xB8FA94
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x197779C
+    // Offset: 0xB8FA98
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -79,6 +79,6 @@ namespace GlobalNamespace {
     static BeatmapCharacteristicTableCell* New_ctor();
   }; // BeatmapCharacteristicTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicTableCell*, "", "BeatmapCharacteristicTableCell");
 #pragma pack(pop)

@@ -18,10 +18,10 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: LogoutData
     LogoutData(int LogoutCode_ = {}) : LogoutCode{LogoutCode_} {}
     // public System.Void set_LogoutCode(System.Int32 value)
-    // Offset: 0xA5CADC
+    // Offset: 0xA5CB58
     void set_LogoutCode(int value);
   }; // NetEase.Docker.LogoutData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
 #pragma pack(pop)

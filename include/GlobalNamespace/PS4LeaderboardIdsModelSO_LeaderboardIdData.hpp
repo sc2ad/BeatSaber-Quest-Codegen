@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PS4LeaderboardIdsModelSO
 #include "GlobalNamespace/PS4LeaderboardIdsModelSO.hpp"
 // Completed includes
@@ -22,16 +20,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::CsString* leaderboardId;
     // public System.UInt32 get_ps4LeaderboardId()
-    // Offset: 0xBBC624
+    // Offset: 0xBCF068
     uint get_ps4LeaderboardId();
     // public System.String get_leaderboardId()
-    // Offset: 0xBBC62C
+    // Offset: 0xBCF070
     ::CsString* get_leaderboardId();
     // public System.Void .ctor(System.UInt32 ps4LeaderboardId, System.String leaderboardId)
-    // Offset: 0xBBC634
+    // Offset: 0xBCF078
     static PS4LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(uint ps4LeaderboardId, ::CsString* leaderboardId);
   }; // PS4LeaderboardIdsModelSO/LeaderboardIdData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*, "", "PS4LeaderboardIdsModelSO/LeaderboardIdData");
 #pragma pack(pop)

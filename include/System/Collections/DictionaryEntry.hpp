@@ -24,16 +24,16 @@ namespace System::Collections {
     // Creating value type constructor for type: DictionaryEntry
     DictionaryEntry(::CsObject* key_ = {}, ::CsObject* value_ = {}) : key{key_}, value{value_} {}
     // public System.Void .ctor(System.Object key, System.Object value)
-    // Offset: 0xA42C0C
+    // Offset: 0xA42C88
     static DictionaryEntry* New_ctor(::CsObject* key, ::CsObject* value);
     // public System.Object get_Key()
-    // Offset: 0xA42C40
+    // Offset: 0xA42CBC
     ::CsObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0xA42C48
+    // Offset: 0xA42CC4
     ::CsObject* get_Value();
   }; // System.Collections.DictionaryEntry
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::DictionaryEntry, "System.Collections", "DictionaryEntry");
 #pragma pack(pop)

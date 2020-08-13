@@ -32,6 +32,6 @@ namespace UnityEngine::ProBuilder {
     PivotLocation(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.PivotLocation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PivotLocation, "UnityEngine.ProBuilder", "PivotLocation");
 #pragma pack(pop)

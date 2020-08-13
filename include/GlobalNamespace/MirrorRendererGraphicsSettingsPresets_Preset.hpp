@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: NamedPreset
-#include "GlobalNamespace/NamedPreset.hpp"
 // Including type: MirrorRendererGraphicsSettingsPresets
 #include "GlobalNamespace/MirrorRendererGraphicsSettingsPresets.hpp"
+// Including type: NamedPreset
+#include "GlobalNamespace/NamedPreset.hpp"
 // Including type: UnityEngine.LayerMask
 #include "UnityEngine/LayerMask.hpp"
 // Completed includes
@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool enableBloomPrePassFog;
     // public System.Void .ctor()
-    // Offset: 0xBEDFE4
+    // Offset: 0xBFFA28
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()
     static MirrorRendererGraphicsSettingsPresets::Preset* New_ctor();
   }; // MirrorRendererGraphicsSettingsPresets/Preset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*, "", "MirrorRendererGraphicsSettingsPresets/Preset");
 #pragma pack(pop)

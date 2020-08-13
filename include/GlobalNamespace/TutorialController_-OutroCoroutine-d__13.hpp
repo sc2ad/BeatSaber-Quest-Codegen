@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TutorialController
 #include "GlobalNamespace/TutorialController.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -27,35 +25,35 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::TutorialController* $$4__this;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xC33840
+    // Offset: 0xC45284
     static TutorialController::$OutroCoroutine$d__13* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xC33914
+    // Offset: 0xC45358
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xC33918
+    // Offset: 0xC4535C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xC33AB8
+    // Offset: 0xC454FC
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xC33AC0
+    // Offset: 0xC45504
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xC33B20
+    // Offset: 0xC45564
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // TutorialController/<OutroCoroutine>d__13
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialController::$OutroCoroutine$d__13*, "", "TutorialController/<OutroCoroutine>d__13");
 #pragma pack(pop)

@@ -65,37 +65,37 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool pause;
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0xB3C79C
+    // Offset: 0xB3A79C
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::add_didPauseEvent(System.Action value)
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0xB3C840
+    // Offset: 0xB3A840
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::remove_didPauseEvent(System.Action value)
     void remove_didPauseEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0xB3C8E4
+    // Offset: 0xB3A8E4
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::add_didResumeEvent(System.Action value)
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0xB3C988
+    // Offset: 0xB3A988
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::remove_didResumeEvent(System.Action value)
     void remove_didResumeEvent(System::Action* value);
     // public System.Void Pause()
-    // Offset: 0xB3CA2C
+    // Offset: 0xB3AA2C
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::Pause()
     void Pause();
     // public System.Void Resume()
-    // Offset: 0xB3CAE8
+    // Offset: 0xB3AAE8
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::Resume()
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0xB3CBA0
+    // Offset: 0xB3ABA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -105,6 +105,6 @@ namespace GlobalNamespace {
     static GamePause* New_ctor();
   }; // GamePause
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GamePause*, "", "GamePause");
 #pragma pack(pop)

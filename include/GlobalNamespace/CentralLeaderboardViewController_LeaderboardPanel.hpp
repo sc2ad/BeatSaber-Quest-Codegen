@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: CentralLeaderboardViewController
 #include "GlobalNamespace/CentralLeaderboardViewController.hpp"
 // Completed includes
@@ -22,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     bool includeScoreWithModifiers;
     // public System.Void .ctor(System.String title, System.Boolean includeScoreWithModifiers)
-    // Offset: 0xB60454
+    // Offset: 0xB5E454
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::CsString* title, bool includeScoreWithModifiers);
   }; // CentralLeaderboardViewController/LeaderboardPanel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, "", "CentralLeaderboardViewController/LeaderboardPanel");
 #pragma pack(pop)

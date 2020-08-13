@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace System::Runtime::ExceptionServices {
   class HandleProcessCorruptedStateExceptionsAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1150B44
+    // Offset: 0x1162588
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static HandleProcessCorruptedStateExceptionsAttribute* New_ctor();
   }; // System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*, "System.Runtime.ExceptionServices", "HandleProcessCorruptedStateExceptionsAttribute");
 #pragma pack(pop)

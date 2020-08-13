@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Unity.Collections.NativeArray`1
 #include "Unity/Collections/NativeArray_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

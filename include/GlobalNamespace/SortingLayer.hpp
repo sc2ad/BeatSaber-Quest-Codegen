@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Renderer* renderer;
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0xCA7BCC
+    // Offset: 0xCBA610
     UnityEngine::Renderer* get_renderer();
     // private System.Void Reset()
-    // Offset: 0xCA7BD4
+    // Offset: 0xCBA618
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0xCA7C34
+    // Offset: 0xCBA678
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -40,6 +40,6 @@ namespace GlobalNamespace {
     static SortingLayer* New_ctor();
   }; // SortingLayer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SortingLayer*, "", "SortingLayer");
 #pragma pack(pop)

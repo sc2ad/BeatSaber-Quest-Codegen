@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
@@ -42,37 +40,37 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Single k_MaxRaySnapDistance
     static void _set_k_MaxRaySnapDistance(float value);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, System.Single snpVal)
-    // Offset: 0x1025FF0
+    // Offset: 0x1035A34
     static UnityEngine::Vector3 SnapValue(UnityEngine::Vector3 vertex, float snpVal);
     // static public System.Single SnapValue(System.Single val, System.Single snpVal)
-    // Offset: 0x1026204
+    // Offset: 0x1035C48
     static float SnapValue(float val, float snpVal);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, UnityEngine.Vector3 snap)
-    // Offset: 0x1026318
+    // Offset: 0x1035D5C
     static UnityEngine::Vector3 SnapValue(UnityEngine::Vector3 vertex, UnityEngine::Vector3 snap);
     // static public UnityEngine.Vector3 Floor(UnityEngine.Vector3 vertex, UnityEngine.Vector3 snap)
-    // Offset: 0x10265F4
+    // Offset: 0x1036038
     static UnityEngine::Vector3 Floor(UnityEngine::Vector3 vertex, UnityEngine::Vector3 snap);
     // static public UnityEngine.Vector3 Ceil(UnityEngine.Vector3 vertex, UnityEngine.Vector3 snap)
-    // Offset: 0x1026780
+    // Offset: 0x10361C4
     static UnityEngine::Vector3 Ceil(UnityEngine::Vector3 vertex, UnityEngine::Vector3 snap);
     // static public UnityEngine.Vector3 Ceil(UnityEngine.Vector3 vertex, System.Single snpVal)
-    // Offset: 0x102690C
+    // Offset: 0x1036350
     static UnityEngine::Vector3 Ceil(UnityEngine::Vector3 vertex, float snpVal);
     // static public UnityEngine.Vector3 Floor(UnityEngine.Vector3 vertex, System.Single snpVal)
-    // Offset: 0x10269D0
+    // Offset: 0x1036414
     static UnityEngine::Vector3 Floor(UnityEngine::Vector3 vertex, float snpVal);
     // static public System.Void SnapVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes, UnityEngine.Vector3 snap)
-    // Offset: 0x1026A94
+    // Offset: 0x10364D8
     static void SnapVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes, UnityEngine::Vector3 snap);
     // static UnityEngine.Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine.Vector3 normal)
-    // Offset: 0x1026E08
+    // Offset: 0x103684C
     static UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine::Vector3 normal);
     // static UnityEngine.Vector3 SnapValueOnRay(UnityEngine.Ray ray, System.Single distance, System.Single snap, UnityEngine.ProBuilder.Vector3Mask mask)
-    // Offset: 0x1026F40
+    // Offset: 0x1036984
     static UnityEngine::Vector3 SnapValueOnRay(UnityEngine::Ray ray, float distance, float snap, UnityEngine::ProBuilder::Vector3Mask mask);
   }; // UnityEngine.ProBuilder.ProGridsSnapping
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProGridsSnapping*, "UnityEngine.ProBuilder", "ProGridsSnapping");
 #pragma pack(pop)

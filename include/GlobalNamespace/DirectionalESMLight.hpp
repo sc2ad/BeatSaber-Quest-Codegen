@@ -40,16 +40,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Material* esmBlitMaterial;
     // protected System.Void OnEnable()
-    // Offset: 0xBD2458
+    // Offset: 0xBE4E9C
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0xBD25B4
+    // Offset: 0xBE4FF8
     void Update();
     // protected System.Void OnDisable()
-    // Offset: 0xBD2980
+    // Offset: 0xBE53C4
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xBD2A38
+    // Offset: 0xBE547C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -59,6 +59,6 @@ namespace GlobalNamespace {
     static DirectionalESMLight* New_ctor();
   }; // DirectionalESMLight
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalESMLight*, "", "DirectionalESMLight");
 #pragma pack(pop)

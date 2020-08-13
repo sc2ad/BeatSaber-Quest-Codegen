@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: Oculus.Platform.PlatformInternal
 #include "Oculus/Platform/PlatformInternal.hpp"
 // Completed includes
@@ -346,6 +344,6 @@ namespace Oculus::Platform {
     MessageTypeInternal(uint value_ = {}) : value{value_} {}
   }; // Oculus.Platform.PlatformInternal/MessageTypeInternal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::MessageTypeInternal, "Oculus.Platform", "PlatformInternal/MessageTypeInternal");
 #pragma pack(pop)

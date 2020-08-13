@@ -32,6 +32,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     AngularFalloffType(uint8_t value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.AngularFalloffType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType, "UnityEngine.Experimental.GlobalIllumination", "AngularFalloffType");
 #pragma pack(pop)

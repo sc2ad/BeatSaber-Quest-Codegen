@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: VRControllersRecorderSaveData
 #include "GlobalNamespace/VRControllersRecorderSaveData.hpp"
 // Including type: UnityEngine.XR.XRNode
@@ -24,12 +22,12 @@ namespace GlobalNamespace {
     // Offset: 0x14
     int nodeIdx;
     // public System.Void .ctor()
-    // Offset: 0xC3E1B0
+    // Offset: 0xC4FBF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorderSaveData::NodeInfo* New_ctor();
   }; // VRControllersRecorderSaveData/NodeInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*, "", "VRControllersRecorderSaveData/NodeInfo");
 #pragma pack(pop)

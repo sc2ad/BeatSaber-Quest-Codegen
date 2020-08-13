@@ -25,6 +25,6 @@ namespace System {
     ::CsString* System_ITupleInternal_ToString(System::Text::StringBuilder* sb);
   }; // System.ITupleInternal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ITupleInternal*, "System", "ITupleInternal");
 #pragma pack(pop)

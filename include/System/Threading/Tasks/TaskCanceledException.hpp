@@ -31,10 +31,10 @@ namespace System::Threading::Tasks {
     // Offset: 0x90
     System::Threading::Tasks::Task* m_canceledTask;
     // public System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0xCCC200
+    // Offset: 0xCDEC44
     static TaskCanceledException* New_ctor(System::Threading::Tasks::Task* task);
     // public System.Void .ctor()
-    // Offset: 0xCD07D8
+    // Offset: 0xCE321C
     // Implemented from: System.OperationCanceledException
     // Base method: System.Void OperationCanceledException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -42,7 +42,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     static TaskCanceledException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xCD0838
+    // Offset: 0xCE327C
     // Implemented from: System.OperationCanceledException
     // Base method: System.Void OperationCanceledException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -50,6 +50,6 @@ namespace System::Threading::Tasks {
     static TaskCanceledException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Threading.Tasks.TaskCanceledException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskCanceledException*, "System.Threading.Tasks", "TaskCanceledException");
 #pragma pack(pop)

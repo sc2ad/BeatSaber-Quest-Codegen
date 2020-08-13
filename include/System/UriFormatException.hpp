@@ -23,7 +23,7 @@ namespace System {
   class UriFormatException : public System::FormatException, public System::Runtime::Serialization::ISerializable {
     public:
     // public System.Void .ctor()
-    // Offset: 0x193A640
+    // Offset: 0x194E084
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,26 +31,26 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static UriFormatException* New_ctor();
     // public System.Void .ctor(System.String textString)
-    // Offset: 0x193A648
+    // Offset: 0x194E08C
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.String textString)
     // Base method: System.Void SystemException::.ctor(System.String textString)
     // Base method: System.Void Exception::.ctor(System.String textString)
     static UriFormatException* New_ctor(::CsString* textString);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x193A650
+    // Offset: 0x194E094
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     static UriFormatException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x193A658
+    // Offset: 0x194E09C
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
   }; // System.UriFormatException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriFormatException*, "System", "UriFormatException");
 #pragma pack(pop)

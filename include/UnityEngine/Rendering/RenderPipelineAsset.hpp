@@ -28,73 +28,73 @@ namespace UnityEngine::Rendering {
   class RenderPipelineAsset : public UnityEngine::ScriptableObject {
     public:
     // UnityEngine.Rendering.RenderPipeline InternalCreatePipeline()
-    // Offset: 0x1372DF0
+    // Offset: 0x1385834
     UnityEngine::Rendering::RenderPipeline* InternalCreatePipeline();
     // public System.String[] get_renderingLayerMaskNames()
-    // Offset: 0x13730E0
+    // Offset: 0x1385B24
     ::Array<::CsString*>* get_renderingLayerMaskNames();
     // public UnityEngine.Material get_defaultMaterial()
-    // Offset: 0x13730E8
+    // Offset: 0x1385B2C
     UnityEngine::Material* get_defaultMaterial();
     // public UnityEngine.Shader get_autodeskInteractiveShader()
-    // Offset: 0x13730F0
+    // Offset: 0x1385B34
     UnityEngine::Shader* get_autodeskInteractiveShader();
     // public UnityEngine.Shader get_autodeskInteractiveTransparentShader()
-    // Offset: 0x13730F8
+    // Offset: 0x1385B3C
     UnityEngine::Shader* get_autodeskInteractiveTransparentShader();
     // public UnityEngine.Shader get_autodeskInteractiveMaskedShader()
-    // Offset: 0x1373100
+    // Offset: 0x1385B44
     UnityEngine::Shader* get_autodeskInteractiveMaskedShader();
     // public UnityEngine.Shader get_terrainDetailLitShader()
-    // Offset: 0x1373108
+    // Offset: 0x1385B4C
     UnityEngine::Shader* get_terrainDetailLitShader();
     // public UnityEngine.Shader get_terrainDetailGrassShader()
-    // Offset: 0x1373110
+    // Offset: 0x1385B54
     UnityEngine::Shader* get_terrainDetailGrassShader();
     // public UnityEngine.Shader get_terrainDetailGrassBillboardShader()
-    // Offset: 0x1373118
+    // Offset: 0x1385B5C
     UnityEngine::Shader* get_terrainDetailGrassBillboardShader();
     // public UnityEngine.Material get_defaultParticleMaterial()
-    // Offset: 0x1373120
+    // Offset: 0x1385B64
     UnityEngine::Material* get_defaultParticleMaterial();
     // public UnityEngine.Material get_defaultLineMaterial()
-    // Offset: 0x1373128
+    // Offset: 0x1385B6C
     UnityEngine::Material* get_defaultLineMaterial();
     // public UnityEngine.Material get_defaultTerrainMaterial()
-    // Offset: 0x1373130
+    // Offset: 0x1385B74
     UnityEngine::Material* get_defaultTerrainMaterial();
     // public UnityEngine.Material get_defaultUIMaterial()
-    // Offset: 0x1373138
+    // Offset: 0x1385B7C
     UnityEngine::Material* get_defaultUIMaterial();
     // public UnityEngine.Material get_defaultUIOverdrawMaterial()
-    // Offset: 0x1373140
+    // Offset: 0x1385B84
     UnityEngine::Material* get_defaultUIOverdrawMaterial();
     // public UnityEngine.Material get_defaultUIETC1SupportedMaterial()
-    // Offset: 0x1373148
+    // Offset: 0x1385B8C
     UnityEngine::Material* get_defaultUIETC1SupportedMaterial();
     // public UnityEngine.Material get_default2DMaterial()
-    // Offset: 0x1373150
+    // Offset: 0x1385B94
     UnityEngine::Material* get_default2DMaterial();
     // public UnityEngine.Shader get_defaultShader()
-    // Offset: 0x1373158
+    // Offset: 0x1385B9C
     UnityEngine::Shader* get_defaultShader();
     // public UnityEngine.Shader get_defaultSpeedTree7Shader()
-    // Offset: 0x1373160
+    // Offset: 0x1385BA4
     UnityEngine::Shader* get_defaultSpeedTree7Shader();
     // public UnityEngine.Shader get_defaultSpeedTree8Shader()
-    // Offset: 0x1373168
+    // Offset: 0x1385BAC
     UnityEngine::Shader* get_defaultSpeedTree8Shader();
     // protected UnityEngine.Rendering.RenderPipeline CreatePipeline()
     // Offset: 0xFFFFFFFF
     UnityEngine::Rendering::RenderPipeline* CreatePipeline();
     // protected System.Void OnValidate()
-    // Offset: 0x1373170
+    // Offset: 0x1385BB4
     void OnValidate();
     // protected System.Void OnDisable()
-    // Offset: 0x1373418
+    // Offset: 0x1385E5C
     void OnDisable();
     // protected System.Void .ctor()
-    // Offset: 0x1373474
+    // Offset: 0x1385EB8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -102,6 +102,6 @@ namespace UnityEngine::Rendering {
     static RenderPipelineAsset* New_ctor();
   }; // UnityEngine.Rendering.RenderPipelineAsset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipelineAsset*, "UnityEngine.Rendering", "RenderPipelineAsset");
 #pragma pack(pop)

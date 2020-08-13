@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.PenetrationAvoidance/Avoider
 #include "RootMotion/FinalIK/PenetrationAvoidance_Avoider.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -24,12 +22,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0x14
     float weight;
     // public System.Void .ctor()
-    // Offset: 0x121BADC
+    // Offset: 0x122D520
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PenetrationAvoidance::Avoider::EffectorLink* New_ctor();
   }; // RootMotion.FinalIK.PenetrationAvoidance/Avoider/EffectorLink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*, "RootMotion.FinalIK", "PenetrationAvoidance/Avoider/EffectorLink");
 #pragma pack(pop)

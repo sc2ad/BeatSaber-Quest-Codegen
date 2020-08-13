@@ -23,6 +23,6 @@ namespace UnityEngine::ProBuilder::KdTree {
     ItemPriority_2(TItem Item_ = {}, TPriority Priority_ = {}) : Item{Item_}, Priority{Priority_} {}
   }; // UnityEngine.ProBuilder.KdTree.ItemPriority`2
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::KdTree::ItemPriority_2, "UnityEngine.ProBuilder.KdTree", "ItemPriority`2");
 #pragma pack(pop)

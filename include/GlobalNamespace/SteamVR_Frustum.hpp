@@ -37,19 +37,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     float farZ;
     // public System.Void UpdateModel()
-    // Offset: 0xD6EBCC
+    // Offset: 0xD82610
     void UpdateModel();
     // private System.Void OnDeviceConnected(System.Int32 i, System.Boolean connected)
-    // Offset: 0xD6F3B4
+    // Offset: 0xD82DF8
     void OnDeviceConnected(int i, bool connected);
     // private System.Void OnEnable()
-    // Offset: 0xD6F570
+    // Offset: 0xD82FB4
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD6F658
+    // Offset: 0xD8309C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xD6F740
+    // Offset: 0xD83184
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -59,6 +59,6 @@ namespace GlobalNamespace {
     static SteamVR_Frustum* New_ctor();
   }; // SteamVR_Frustum
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Frustum*, "", "SteamVR_Frustum");
 #pragma pack(pop)

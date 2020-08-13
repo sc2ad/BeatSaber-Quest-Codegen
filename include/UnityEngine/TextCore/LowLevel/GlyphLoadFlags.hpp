@@ -80,6 +80,6 @@ namespace UnityEngine::TextCore::LowLevel {
     GlyphLoadFlags(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextCore.LowLevel.GlyphLoadFlags
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphLoadFlags, "UnityEngine.TextCore.LowLevel", "GlyphLoadFlags");
 #pragma pack(pop)

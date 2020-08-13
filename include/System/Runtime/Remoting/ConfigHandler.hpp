@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Mono.Xml.SmallXmlParser/IContentHandler
 #include "Mono/Xml/SmallXmlParser_IContentHandler.hpp"
 // Completed includes
@@ -61,93 +59,93 @@ namespace System::Runtime::Remoting {
     // Offset: 0x48
     bool onlyDelayedChannels;
     // public System.Void .ctor(System.Boolean onlyDelayedChannels)
-    // Offset: 0x1044F68
+    // Offset: 0x10549AC
     static ConfigHandler* New_ctor(bool onlyDelayedChannels);
     // private System.Void ValidatePath(System.String element, System.String[] paths)
-    // Offset: 0x1045030
+    // Offset: 0x1054A74
     void ValidatePath(::CsString* element, ::Array<::CsString*>* paths);
     // private System.Boolean CheckPath(System.String path)
-    // Offset: 0x104513C
+    // Offset: 0x1054B80
     bool CheckPath(::CsString* path);
     // public System.Void ParseElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x10453DC
+    // Offset: 0x1054E20
     void ParseElement(::CsString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadCustomProviderData(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x1046430
+    // Offset: 0x1055E74
     void ReadCustomProviderData(::CsString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadLifetine(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x10467A0
+    // Offset: 0x10561E4
     void ReadLifetine(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.TimeSpan ParseTime(System.String s)
-    // Offset: 0x1047E44
+    // Offset: 0x1057888
     System::TimeSpan ParseTime(::CsString* s);
     // private System.Void ReadChannel(Mono.Xml.SmallXmlParser/IAttrList attrs, System.Boolean isTemplate)
-    // Offset: 0x1046D54
+    // Offset: 0x1056798
     void ReadChannel(Mono::Xml::SmallXmlParser::IAttrList* attrs, bool isTemplate);
     // private System.Runtime.Remoting.ProviderData ReadProvider(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs, System.Boolean isTemplate)
-    // Offset: 0x1047124
+    // Offset: 0x1056B68
     System::Runtime::Remoting::ProviderData* ReadProvider(::CsString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs, bool isTemplate);
     // private System.Void ReadClientActivated(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x1047784
+    // Offset: 0x10571C8
     void ReadClientActivated(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadServiceActivated(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x10478AC
+    // Offset: 0x10572F0
     void ReadServiceActivated(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadClientWellKnown(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x10474F8
+    // Offset: 0x1056F3C
     void ReadClientWellKnown(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadServiceWellKnown(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x10475DC
+    // Offset: 0x1057020
     void ReadServiceWellKnown(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadInteropXml(Mono.Xml.SmallXmlParser/IAttrList attrs, System.Boolean isElement)
-    // Offset: 0x1047970
+    // Offset: 0x10573B4
     void ReadInteropXml(Mono::Xml::SmallXmlParser::IAttrList* attrs, bool isElement);
     // private System.Void ReadPreload(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x1047B3C
+    // Offset: 0x1057580
     void ReadPreload(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.String GetNotNull(Mono.Xml.SmallXmlParser/IAttrList attrs, System.String name)
-    // Offset: 0x10482A8
+    // Offset: 0x1057CEC
     ::CsString* GetNotNull(Mono::Xml::SmallXmlParser::IAttrList* attrs, ::CsString* name);
     // private System.String ExtractAssembly(System.String type)
-    // Offset: 0x10483E4
+    // Offset: 0x1057E28
     ::CsString* ExtractAssembly(::CsString*& type);
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x1045220
+    // Offset: 0x1054C64
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnStartParsing(Mono.Xml.SmallXmlParser parser)
     void OnStartParsing(Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
-    // Offset: 0x1045224
+    // Offset: 0x1054C68
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnProcessingInstruction(System.String name, System.String text)
     void OnProcessingInstruction(::CsString* name, ::CsString* text);
     // public System.Void OnIgnorableWhitespace(System.String s)
-    // Offset: 0x1045228
+    // Offset: 0x1054C6C
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnIgnorableWhitespace(System.String s)
     void OnIgnorableWhitespace(::CsString* s);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x104522C
+    // Offset: 0x1054C70
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
     void OnStartElement(::CsString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
-    // Offset: 0x1047DA0
+    // Offset: 0x10577E4
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnEndElement(System.String name)
     void OnEndElement(::CsString* name);
     // public System.Void OnChars(System.String ch)
-    // Offset: 0x10484C0
+    // Offset: 0x1057F04
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnChars(System.String ch)
     void OnChars(::CsString* ch);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x10484C4
+    // Offset: 0x1057F08
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnEndParsing(Mono.Xml.SmallXmlParser parser)
     void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
   }; // System.Runtime.Remoting.ConfigHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ConfigHandler*, "System.Runtime.Remoting", "ConfigHandler");
 #pragma pack(pop)

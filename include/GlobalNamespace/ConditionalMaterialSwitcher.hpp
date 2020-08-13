@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Renderer* renderer;
     // public System.Void Awake()
-    // Offset: 0xBCC780
+    // Offset: 0xBDF1C4
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xBCC7FC
+    // Offset: 0xBDF240
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -53,6 +53,6 @@ namespace GlobalNamespace {
     static ConditionalMaterialSwitcher* New_ctor();
   }; // ConditionalMaterialSwitcher
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalMaterialSwitcher*, "", "ConditionalMaterialSwitcher");
 #pragma pack(pop)

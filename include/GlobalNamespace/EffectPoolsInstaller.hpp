@@ -62,12 +62,12 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::NoteDebris* noteDebrisLWPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xBD3AD4
+    // Offset: 0xBE6518
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xBD3D04
+    // Offset: 0xBE6748
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -79,6 +79,6 @@ namespace GlobalNamespace {
     static EffectPoolsInstaller* New_ctor();
   }; // EffectPoolsInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EffectPoolsInstaller*, "", "EffectPoolsInstaller");
 #pragma pack(pop)

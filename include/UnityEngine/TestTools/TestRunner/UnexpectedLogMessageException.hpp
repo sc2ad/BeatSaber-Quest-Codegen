@@ -29,23 +29,23 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x88
     UnityEngine::TestTools::Logging::LogMatch* LogEvent;
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogMatch log)
-    // Offset: 0xE209C8
+    // Offset: 0xE3340C
     static UnexpectedLogMessageException* New_ctor(UnityEngine::TestTools::Logging::LogMatch* log);
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogMatch log)
-    // Offset: 0xE321B8
+    // Offset: 0xE44BFC
     static ::CsString* BuildMessage(UnityEngine::TestTools::Logging::LogMatch* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0xE3220C
+    // Offset: 0xE44C50
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public override System.String get_StackTrace()
-    // Offset: 0xE32274
+    // Offset: 0xE44CB8
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::CsString* get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnexpectedLogMessageException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnexpectedLogMessageException");
 #pragma pack(pop)

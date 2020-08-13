@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: Zenject.MonoMemoryPool`1
-#include "Zenject/MonoMemoryPool_1.hpp"
 // Including type: BeatLine
 #include "GlobalNamespace/BeatLine.hpp"
+// Including type: Zenject.MonoMemoryPool`1
+#include "Zenject/MonoMemoryPool_1.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class BeatLine::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BeatLine*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1973DE0
+    // Offset: 0xB8C0DC
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool`1::.ctor()
     // Base method: System.Void MemoryPool`1::.ctor()
@@ -25,6 +25,6 @@ namespace GlobalNamespace {
     static BeatLine::Pool* New_ctor();
   }; // BeatLine/Pool
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine::Pool*, "", "BeatLine/Pool");
 #pragma pack(pop)

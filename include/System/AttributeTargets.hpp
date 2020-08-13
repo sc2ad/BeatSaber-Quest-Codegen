@@ -116,6 +116,6 @@ namespace System {
     AttributeTargets(int value_ = {}) : value{value_} {}
   }; // System.AttributeTargets
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::AttributeTargets, "System", "AttributeTargets");
 #pragma pack(pop)

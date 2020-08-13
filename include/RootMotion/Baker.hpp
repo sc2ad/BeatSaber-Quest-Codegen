@@ -109,28 +109,28 @@ namespace RootMotion {
     // Offset: 0x70
     float clipLength;
     // private System.Void OpenUserManual()
-    // Offset: 0x1386950
+    // Offset: 0x1398394
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x138699C
+    // Offset: 0x13983E0
     void OpenScriptReference();
     // private System.Void SupportGroup()
-    // Offset: 0x13869E8
+    // Offset: 0x139842C
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1386A34
+    // Offset: 0x1398478
     void ASThread();
     // public System.Boolean get_isBaking()
-    // Offset: 0x1386A80
+    // Offset: 0x13984C4
     bool get_isBaking();
     // private System.Void set_isBaking(System.Boolean value)
-    // Offset: 0x1386A88
+    // Offset: 0x13984CC
     void set_isBaking(bool value);
     // public System.Single get_bakingProgress()
-    // Offset: 0x1386A94
+    // Offset: 0x13984D8
     float get_bakingProgress();
     // private System.Void set_bakingProgress(System.Single value)
-    // Offset: 0x1386A9C
+    // Offset: 0x13984E0
     void set_bakingProgress(float value);
     // protected UnityEngine.Transform GetCharacterRoot()
     // Offset: 0xFFFFFFFF
@@ -148,22 +148,22 @@ namespace RootMotion {
     // Offset: 0xFFFFFFFF
     void OnSetKeyframes(float time, bool lastFrame);
     // protected System.Single get_clipLength()
-    // Offset: 0x1386AA4
+    // Offset: 0x13984E8
     float get_clipLength();
     // private System.Void set_clipLength(System.Single value)
-    // Offset: 0x1386AAC
+    // Offset: 0x13984F0
     void set_clipLength(float value);
     // public System.Void BakeClip()
-    // Offset: 0x1386AB4
+    // Offset: 0x13984F8
     void BakeClip();
     // public System.Void StartBaking()
-    // Offset: 0x1386AB8
+    // Offset: 0x13984FC
     void StartBaking();
     // public System.Void StopBaking()
-    // Offset: 0x1386ABC
+    // Offset: 0x1398500
     void StopBaking();
     // protected System.Void .ctor()
-    // Offset: 0x1386AC0
+    // Offset: 0x1398504
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -173,7 +173,7 @@ namespace RootMotion {
     static Baker* New_ctor();
   }; // RootMotion.Baker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker*, "RootMotion", "Baker");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker::Mode, "RootMotion", "Baker/Mode");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security
@@ -65,69 +63,69 @@ namespace System::Security {
     // Set static field: static private readonly System.Char[] invalid_chars
     static void _set_invalid_chars(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.String tag)
-    // Offset: 0xDD7664
+    // Offset: 0xDEA0A8
     static SecurityElement* New_ctor(::CsString* tag);
     // public System.Void .ctor(System.String tag, System.String text)
-    // Offset: 0xDD766C
+    // Offset: 0xDEA0B0
     static SecurityElement* New_ctor(::CsString* tag, ::CsString* text);
     // public System.Collections.Hashtable get_Attributes()
-    // Offset: 0xDD7A64
+    // Offset: 0xDEA4A8
     System::Collections::Hashtable* get_Attributes();
     // public System.Collections.ArrayList get_Children()
-    // Offset: 0xDD7D30
+    // Offset: 0xDEA774
     System::Collections::ArrayList* get_Children();
     // public System.String get_Tag()
-    // Offset: 0xDD7D38
+    // Offset: 0xDEA77C
     ::CsString* get_Tag();
     // public System.String get_Text()
-    // Offset: 0xDD7D40
+    // Offset: 0xDEA784
     ::CsString* get_Text();
     // public System.Void set_Text(System.String value)
-    // Offset: 0xDD7950
+    // Offset: 0xDEA394
     void set_Text(::CsString* value);
     // public System.Void AddAttribute(System.String name, System.String value)
-    // Offset: 0xDD7F14
+    // Offset: 0xDEA958
     void AddAttribute(::CsString* name, ::CsString* value);
     // public System.Void AddChild(System.Security.SecurityElement child)
-    // Offset: 0xDD84D4
+    // Offset: 0xDEAF18
     void AddChild(System::Security::SecurityElement* child);
     // static public System.String Escape(System.String str)
-    // Offset: 0xDD85B0
+    // Offset: 0xDEAFF4
     static ::CsString* Escape(::CsString* str);
     // static private System.String Unescape(System.String str)
-    // Offset: 0xDD7DD8
+    // Offset: 0xDEA81C
     static ::CsString* Unescape(::CsString* str);
     // static public System.Security.SecurityElement FromString(System.String xml)
-    // Offset: 0xDD8798
+    // Offset: 0xDEB1DC
     static System::Security::SecurityElement* FromString(::CsString* xml);
     // static public System.Boolean IsValidAttributeName(System.String name)
-    // Offset: 0xDD897C
+    // Offset: 0xDEB3C0
     static bool IsValidAttributeName(::CsString* name);
     // static public System.Boolean IsValidAttributeValue(System.String value)
-    // Offset: 0xDD8A0C
+    // Offset: 0xDEB450
     static bool IsValidAttributeValue(::CsString* value);
     // static public System.Boolean IsValidTag(System.String tag)
-    // Offset: 0xDD77B0
+    // Offset: 0xDEA1F4
     static bool IsValidTag(::CsString* tag);
     // static public System.Boolean IsValidText(System.String text)
-    // Offset: 0xDD7D48
+    // Offset: 0xDEA78C
     static bool IsValidText(::CsString* text);
     // private System.Void ToXml(System.Text.StringBuilder s, System.Int32 level)
-    // Offset: 0xDD8B2C
+    // Offset: 0xDEB570
     void ToXml(System::Text::StringBuilder*& s, int level);
     // System.Security.SecurityElement/SecurityAttribute GetAttribute(System.String name)
-    // Offset: 0xDD80A0
+    // Offset: 0xDEAAE4
     System::Security::SecurityElement::SecurityAttribute* GetAttribute(::CsString* name);
     // static private System.Void .cctor()
-    // Offset: 0xDD9078
+    // Offset: 0xDEBABC
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xDD8A9C
+    // Offset: 0xDEB4E0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.Security.SecurityElement
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement*, "System.Security", "SecurityElement");
 #pragma pack(pop)

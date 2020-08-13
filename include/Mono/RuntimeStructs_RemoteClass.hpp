@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
@@ -35,6 +36,6 @@ namespace Mono {
     RemoteClass(System::IntPtr default_vtable_ = {}, System::IntPtr xdomain_vtable_ = {}, Mono::RuntimeStructs::MonoClass* proxy_class_ = {}, System::IntPtr proxy_class_name_ = {}, uint interface_count_ = {}) : default_vtable{default_vtable_}, xdomain_vtable{xdomain_vtable_}, proxy_class{proxy_class_}, proxy_class_name{proxy_class_name_}, interface_count{interface_count_} {}
   }; // Mono.RuntimeStructs/RemoteClass
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::RemoteClass, "Mono", "RuntimeStructs/RemoteClass");
 #pragma pack(pop)

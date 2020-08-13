@@ -30,30 +30,30 @@ namespace System::Text {
     // Offset: 0x2C
     int fallbackIndex;
     // public System.Void .ctor(System.Text.DecoderReplacementFallback fallback)
-    // Offset: 0x12D72E8
+    // Offset: 0x12E8D2C
     static DecoderReplacementFallbackBuffer* New_ctor(System::Text::DecoderReplacementFallback* fallback);
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x12D73FC
+    // Offset: 0x12E8E40
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x12D7444
+    // Offset: 0x12E8E88
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Void Reset()
-    // Offset: 0x12D7490
+    // Offset: 0x12E8ED4
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::Reset()
     void Reset();
     // override System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x12D74A0
+    // Offset: 0x12E8EE4
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
   }; // System.Text.DecoderReplacementFallbackBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderReplacementFallbackBuffer*, "System.Text", "DecoderReplacementFallbackBuffer");
 #pragma pack(pop)

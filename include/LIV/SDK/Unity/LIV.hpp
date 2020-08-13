@@ -37,7 +37,7 @@ namespace LIV::SDK::Unity {
     // Offset: 0x2C
     UnityEngine::LayerMask SpectatorLayerMask;
     // public System.Void .ctor()
-    // Offset: 0x1967C8C
+    // Offset: 0x197B6D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -47,6 +47,6 @@ namespace LIV::SDK::Unity {
     static LIV* New_ctor();
   }; // LIV.SDK.Unity.LIV
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::LIV*, "LIV.SDK.Unity", "LIV");
 #pragma pack(pop)

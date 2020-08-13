@@ -22,13 +22,13 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     bool chromatic;
     // private System.Void Start()
-    // Offset: 0xCB47E4
+    // Offset: 0xCC8228
     void Start();
     // private System.Void Update()
-    // Offset: 0xCB48A4
+    // Offset: 0xCC82E8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCB49B8
+    // Offset: 0xCC83FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -38,6 +38,6 @@ namespace GlobalNamespace {
     static OVRChromaticAberration* New_ctor();
   }; // OVRChromaticAberration
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRChromaticAberration*, "", "OVRChromaticAberration");
 #pragma pack(pop)

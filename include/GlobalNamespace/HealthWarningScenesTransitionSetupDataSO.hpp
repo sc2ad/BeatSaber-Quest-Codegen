@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class HealthWarningScenesTransitionSetupDataSO : public GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
     // public System.Void Init(HealthWarningSceneSetupData healthWarningSceneSetupData)
-    // Offset: 0xB43914
+    // Offset: 0xB41914
     void Init(GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0xB43CB0
+    // Offset: 0xB41CB0
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
@@ -35,6 +35,6 @@ namespace GlobalNamespace {
     static HealthWarningScenesTransitionSetupDataSO* New_ctor();
   }; // HealthWarningScenesTransitionSetupDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*, "", "HealthWarningScenesTransitionSetupDataSO");
 #pragma pack(pop)

@@ -49,13 +49,13 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VRControllerState_t_Packed
     VRControllerState_t_Packed(uint unPacketNum_ = {}, uint64_t ulButtonPressed_ = {}, uint64_t ulButtonTouched_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis0_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis1_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis2_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis3_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis4_ = {}) : unPacketNum{unPacketNum_}, ulButtonPressed{ulButtonPressed_}, ulButtonTouched{ulButtonTouched_}, rAxis0{rAxis0_}, rAxis1{rAxis1_}, rAxis2{rAxis2_}, rAxis3{rAxis3_}, rAxis4{rAxis4_} {}
     // public System.Void .ctor(OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0xA28FD4
+    // Offset: 0xA29050
     static VRControllerState_t_Packed* New_ctor(OVR::OpenVR::VRControllerState_t unpacked);
     // public System.Void Unpack(OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0xA29000
+    // Offset: 0xA2907C
     void Unpack(OVR::OpenVR::VRControllerState_t& unpacked);
   }; // OVR.OpenVR.VRControllerState_t_Packed
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerState_t_Packed, "OVR.OpenVR", "VRControllerState_t_Packed");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -79,14 +77,14 @@ namespace GlobalNamespace {
     // Set static field: static public readonly PlatformInfo ps4PlatformInfo
     static void _set_ps4PlatformInfo(GlobalNamespace::PlatformInfo* value);
     // private System.Void .ctor(PlatformInfo/Platform platform, System.String serialzedName)
-    // Offset: 0xBC05C0
+    // Offset: 0xBD3004
     static PlatformInfo* New_ctor(GlobalNamespace::PlatformInfo::Platform platform, ::CsString* serialzedName);
     // static private System.Void .cctor()
-    // Offset: 0xBC0604
+    // Offset: 0xBD3048
     static void _cctor();
   }; // PlatformInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformInfo*, "", "PlatformInfo");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformInfo::Platform, "", "PlatformInfo/Platform");
 #pragma pack(pop)

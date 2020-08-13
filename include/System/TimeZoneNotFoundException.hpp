@@ -23,23 +23,23 @@ namespace System {
   class TimeZoneNotFoundException : public System::Exception {
     public:
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x177BEA8
+    // Offset: 0x178C8EC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static TimeZoneNotFoundException* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x177BF28
+    // Offset: 0x178C96C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static TimeZoneNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor()
-    // Offset: 0x177BFB8
+    // Offset: 0x178C9FC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TimeZoneNotFoundException* New_ctor();
   }; // System.TimeZoneNotFoundException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneNotFoundException*, "System", "TimeZoneNotFoundException");
 #pragma pack(pop)

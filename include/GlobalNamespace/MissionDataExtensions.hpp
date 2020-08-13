@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MissionObjective
 #include "GlobalNamespace/MissionObjective.hpp"
 // Completed includes
@@ -16,10 +14,10 @@ namespace GlobalNamespace {
   class MissionDataExtensions : public ::CsObject {
     public:
     // static public System.String Name(MissionObjective/ReferenceValueComparisonType comparisonType)
-    // Offset: 0xBEF4DC
+    // Offset: 0xC00F20
     static ::CsString* Name(GlobalNamespace::MissionObjective::ReferenceValueComparisonType comparisonType);
   }; // MissionDataExtensions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataExtensions*, "", "MissionDataExtensions");
 #pragma pack(pop)

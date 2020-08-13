@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: PlayerStatisticsViewController
 #include "GlobalNamespace/PlayerStatisticsViewController.hpp"
 // Completed includes
@@ -32,22 +30,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StatsScopeData
     StatsScopeData(::CsString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
     // public System.String get_text()
-    // Offset: 0xA27BAC
+    // Offset: 0xA27C28
     ::CsString* get_text();
     // private System.Void set_text(System.String value)
-    // Offset: 0xA27BB4
+    // Offset: 0xA27C30
     void set_text(::CsString* value);
     // public System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> get_playerOverallStatsDataFunc()
-    // Offset: 0xA27BBC
+    // Offset: 0xA27C38
     System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
     // private System.Void set_playerOverallStatsDataFunc(System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> value)
-    // Offset: 0xA27BC4
+    // Offset: 0xA27C40
     void set_playerOverallStatsDataFunc(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* value);
     // public System.Void .ctor(System.String text, System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> playerOverallStatsDataFunc)
-    // Offset: 0xA27BCC
+    // Offset: 0xA27C48
     static PlayerStatisticsViewController::StatsScopeData* New_ctor(::CsString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
   }; // PlayerStatisticsViewController/StatsScopeData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController::StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");
 #pragma pack(pop)

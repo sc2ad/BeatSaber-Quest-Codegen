@@ -31,40 +31,40 @@ namespace NUnit::Framework::Internal {
   class TestCaseResult : public NUnit::Framework::Internal::TestResult {
     public:
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test)
-    // Offset: 0x18D8D50
+    // Offset: 0x18E9794
     static TestCaseResult* New_ctor(NUnit::Framework::Internal::TestMethod* test);
     // public override System.Int32 get_FailCount()
-    // Offset: 0x18D8EF0
+    // Offset: 0x18E9934
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_FailCount()
     int get_FailCount();
     // public override System.Int32 get_PassCount()
-    // Offset: 0x18D8F24
+    // Offset: 0x18E9968
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_PassCount()
     int get_PassCount();
     // public override System.Int32 get_SkipCount()
-    // Offset: 0x18D8F50
+    // Offset: 0x18E9994
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_SkipCount()
     int get_SkipCount();
     // public override System.Int32 get_InconclusiveCount()
-    // Offset: 0x18D8F7C
+    // Offset: 0x18E99C0
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_InconclusiveCount()
     int get_InconclusiveCount();
     // public override System.Boolean get_HasChildren()
-    // Offset: 0x18D8FA8
+    // Offset: 0x18E99EC
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Boolean TestResult::get_HasChildren()
     bool get_HasChildren();
     // public override System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> get_Children()
-    // Offset: 0x18D8FB0
+    // Offset: 0x18E99F4
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> TestResult::get_Children()
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();
   }; // NUnit.Framework.Internal.TestCaseResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestCaseResult*, "NUnit.Framework.Internal", "TestCaseResult");
 #pragma pack(pop)

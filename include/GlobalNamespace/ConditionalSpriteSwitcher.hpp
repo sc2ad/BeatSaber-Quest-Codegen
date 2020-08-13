@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::SpriteRenderer* spriteRenderer;
     // public System.Void Awake()
-    // Offset: 0xBCC930
+    // Offset: 0xBDF374
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xBCC9D8
+    // Offset: 0xBDF41C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -61,6 +61,6 @@ namespace GlobalNamespace {
     static ConditionalSpriteSwitcher* New_ctor();
   }; // ConditionalSpriteSwitcher
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalSpriteSwitcher*, "", "ConditionalSpriteSwitcher");
 #pragma pack(pop)

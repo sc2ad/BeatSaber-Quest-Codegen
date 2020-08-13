@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithSystemPermission : public Oculus::Platform::Message_1<Oculus::Platform::Models::SystemPermission*> {
     public:
     // protected Oculus.Platform.Models.SystemPermission GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE922F8
+    // Offset: 0xEA4D3C
     Oculus::Platform::Models::SystemPermission* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE92254
+    // Offset: 0xEA4C98
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithSystemPermission* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.SystemPermission GetSystemPermission()
-    // Offset: 0xE922B4
+    // Offset: 0xEA4CF8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.SystemPermission Message::GetSystemPermission()
     Oculus::Platform::Models::SystemPermission* GetSystemPermission();
   }; // Oculus.Platform.MessageWithSystemPermission
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithSystemPermission*, "Oculus.Platform", "MessageWithSystemPermission");
 #pragma pack(pop)

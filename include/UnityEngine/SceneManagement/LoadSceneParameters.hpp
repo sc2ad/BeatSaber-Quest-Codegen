@@ -26,10 +26,10 @@ namespace UnityEngine::SceneManagement {
     // Creating value type constructor for type: LoadSceneParameters
     LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode_ = {}, UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode_ = {}) : m_LoadSceneMode{m_LoadSceneMode_}, m_LocalPhysicsMode{m_LocalPhysicsMode_} {}
     // public System.Void .ctor(UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0xA437B8
+    // Offset: 0xA43834
     static LoadSceneParameters* New_ctor(UnityEngine::SceneManagement::LoadSceneMode mode);
   }; // UnityEngine.SceneManagement.LoadSceneParameters
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");
 #pragma pack(pop)

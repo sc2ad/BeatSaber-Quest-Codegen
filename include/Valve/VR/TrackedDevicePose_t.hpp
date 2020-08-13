@@ -41,6 +41,6 @@ namespace Valve::VR {
     TrackedDevicePose_t(Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}, Valve::VR::HmdVector3_t vVelocity_ = {}, Valve::VR::HmdVector3_t vAngularVelocity_ = {}, Valve::VR::ETrackingResult eTrackingResult_ = {}, bool bPoseIsValid_ = {}, bool bDeviceIsConnected_ = {}) : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_}, vVelocity{vVelocity_}, vAngularVelocity{vAngularVelocity_}, eTrackingResult{eTrackingResult_}, bPoseIsValid{bPoseIsValid_}, bDeviceIsConnected{bDeviceIsConnected_} {}
   }; // Valve.VR.TrackedDevicePose_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::TrackedDevicePose_t, "Valve.VR", "TrackedDevicePose_t");
 #pragma pack(pop)

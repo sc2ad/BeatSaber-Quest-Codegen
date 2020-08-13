@@ -27,25 +27,25 @@ namespace TMPro {
     // Offset: 0x30
     int m_HashCode;
     // public System.String get_name()
-    // Offset: 0xBA058C
+    // Offset: 0xBB1FD0
     ::CsString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0xBA0390
+    // Offset: 0xBB1DD4
     void set_name(::CsString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0xBA0594
+    // Offset: 0xBB1FD8
     int get_hashCode();
     // public System.Void .ctor(System.UInt32 unicode, TMPro.TMP_SpriteGlyph glyph)
-    // Offset: 0xBA0320
+    // Offset: 0xBB1D64
     static TMP_SpriteCharacter* New_ctor(uint unicode, TMPro::TMP_SpriteGlyph* glyph);
     // public System.Void .ctor()
-    // Offset: 0xBA059C
+    // Offset: 0xBB1FE0
     // Implemented from: TMPro.TMP_TextElement
     // Base method: System.Void TMP_TextElement::.ctor()
     // Base method: System.Void Object::.ctor()
     static TMP_SpriteCharacter* New_ctor();
   }; // TMPro.TMP_SpriteCharacter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteCharacter*, "TMPro", "TMP_SpriteCharacter");
 #pragma pack(pop)

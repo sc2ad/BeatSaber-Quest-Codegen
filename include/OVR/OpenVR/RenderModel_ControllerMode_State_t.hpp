@@ -19,6 +19,6 @@ namespace OVR::OpenVR {
     RenderModel_ControllerMode_State_t(bool bScrollWheelVisible_ = {}) : bScrollWheelVisible{bScrollWheelVisible_} {}
   }; // OVR.OpenVR.RenderModel_ControllerMode_State_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_ControllerMode_State_t, "OVR.OpenVR", "RenderModel_ControllerMode_State_t");
 #pragma pack(pop)

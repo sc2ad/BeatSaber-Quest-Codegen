@@ -41,10 +41,10 @@ namespace UnityEngine::TextCore::LowLevel {
     // Creating value type constructor for type: GlyphMarshallingStruct
     GlyphMarshallingStruct(uint index_ = {}, UnityEngine::TextCore::GlyphMetrics metrics_ = {}, UnityEngine::TextCore::GlyphRect glyphRect_ = {}, float scale_ = {}, int atlasIndex_ = {}) : index{index_}, metrics{metrics_}, glyphRect{glyphRect_}, scale{scale_}, atlasIndex{atlasIndex_} {}
     // public System.Void .ctor(UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0xA5AE9C
+    // Offset: 0xA5AF18
     static GlyphMarshallingStruct* New_ctor(UnityEngine::TextCore::Glyph* glyph);
   }; // UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");
 #pragma pack(pop)

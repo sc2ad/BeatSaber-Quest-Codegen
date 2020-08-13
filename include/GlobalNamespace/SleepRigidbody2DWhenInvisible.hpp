@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Rigidbody2D* rigidbody2D;
     // protected System.Void Awake()
-    // Offset: 0xCA7834
+    // Offset: 0xCBA278
     void Awake();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0xCA7838
+    // Offset: 0xCBA27C
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0xCA7854
+    // Offset: 0xCBA298
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -40,6 +40,6 @@ namespace GlobalNamespace {
     static SleepRigidbody2DWhenInvisible* New_ctor();
   }; // SleepRigidbody2DWhenInvisible
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SleepRigidbody2DWhenInvisible*, "", "SleepRigidbody2DWhenInvisible");
 #pragma pack(pop)

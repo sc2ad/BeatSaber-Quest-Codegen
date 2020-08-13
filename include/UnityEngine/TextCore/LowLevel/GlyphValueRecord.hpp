@@ -27,19 +27,19 @@ namespace UnityEngine::TextCore::LowLevel {
     // Creating value type constructor for type: GlyphValueRecord
     GlyphValueRecord(float m_XPlacement_ = {}, float m_YPlacement_ = {}, float m_XAdvance_ = {}, float m_YAdvance_ = {}) : m_XPlacement{m_XPlacement_}, m_YPlacement{m_YPlacement_}, m_XAdvance{m_XAdvance_}, m_YAdvance{m_YAdvance_} {}
     // public System.Single get_xPlacement()
-    // Offset: 0xA5AECC
+    // Offset: 0xA5AF48
     float get_xPlacement();
     // public System.Single get_yPlacement()
-    // Offset: 0xA5AED4
+    // Offset: 0xA5AF50
     float get_yPlacement();
     // public System.Single get_xAdvance()
-    // Offset: 0xA5AEDC
+    // Offset: 0xA5AF58
     float get_xAdvance();
     // public System.Single get_yAdvance()
-    // Offset: 0xA5AEE4
+    // Offset: 0xA5AF60
     float get_yAdvance();
   }; // UnityEngine.TextCore.LowLevel.GlyphValueRecord
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");
 #pragma pack(pop)

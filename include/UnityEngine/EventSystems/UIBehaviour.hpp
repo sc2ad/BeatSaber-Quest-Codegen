@@ -14,46 +14,46 @@ namespace UnityEngine::EventSystems {
   class UIBehaviour : public UnityEngine::MonoBehaviour {
     public:
     // protected System.Void Awake()
-    // Offset: 0xDEDF4C
+    // Offset: 0xE00990
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xDE2EC0
+    // Offset: 0xDF5904
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0xDEDF50
+    // Offset: 0xE00994
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0xDE3028
+    // Offset: 0xDF5A6C
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xDEDF54
+    // Offset: 0xE00998
     void OnDestroy();
     // public System.Boolean IsActive()
-    // Offset: 0xDEDF58
+    // Offset: 0xE0099C
     bool IsActive();
     // protected System.Void OnRectTransformDimensionsChange()
-    // Offset: 0xDEDF60
+    // Offset: 0xE009A4
     void OnRectTransformDimensionsChange();
     // protected System.Void OnBeforeTransformParentChanged()
-    // Offset: 0xDEDF64
+    // Offset: 0xE009A8
     void OnBeforeTransformParentChanged();
     // protected System.Void OnTransformParentChanged()
-    // Offset: 0xDE42D0
+    // Offset: 0xDF6D14
     void OnTransformParentChanged();
     // protected System.Void OnDidApplyAnimationProperties()
-    // Offset: 0xDEDF68
+    // Offset: 0xE009AC
     void OnDidApplyAnimationProperties();
     // protected System.Void OnCanvasGroupChanged()
-    // Offset: 0xDEDF6C
+    // Offset: 0xE009B0
     void OnCanvasGroupChanged();
     // protected System.Void OnCanvasHierarchyChanged()
-    // Offset: 0xDE42C0
+    // Offset: 0xDF6D04
     void OnCanvasHierarchyChanged();
     // public System.Boolean IsDestroyed()
-    // Offset: 0xDEDF70
+    // Offset: 0xE009B4
     bool IsDestroyed();
     // protected System.Void .ctor()
-    // Offset: 0xDE2BF8
+    // Offset: 0xDF563C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,6 +63,6 @@ namespace UnityEngine::EventSystems {
     static UIBehaviour* New_ctor();
   }; // UnityEngine.EventSystems.UIBehaviour
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UIBehaviour*, "UnityEngine.EventSystems", "UIBehaviour");
 #pragma pack(pop)

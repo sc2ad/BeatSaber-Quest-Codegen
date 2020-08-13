@@ -20,10 +20,10 @@ namespace Mono::Xml {
     // Offset: 0x8C
     int column;
     // public System.Void .ctor(System.String msg, System.Int32 line, System.Int32 column)
-    // Offset: 0x10A3F3C
+    // Offset: 0x10B4980
     static SmallXmlParserException* New_ctor(::CsString* msg, int line, int column);
   }; // Mono.Xml.SmallXmlParserException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParserException*, "Mono.Xml", "SmallXmlParserException");
 #pragma pack(pop)

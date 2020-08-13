@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.IntegratedSubsystemDescriptor`1
 #include "UnityEngine/IntegratedSubsystemDescriptor_1.hpp"
 // Completed includes
@@ -20,7 +21,7 @@ namespace UnityEngine::XR {
   class XRDisplaySubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRDisplaySubsystem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x194C1AC
+    // Offset: 0x195EBF0
     // Implemented from: UnityEngine.IntegratedSubsystemDescriptor`1
     // Base method: System.Void IntegratedSubsystemDescriptor`1::.ctor()
     // Base method: System.Void IntegratedSubsystemDescriptor::.ctor()
@@ -28,6 +29,6 @@ namespace UnityEngine::XR {
     static XRDisplaySubsystemDescriptor* New_ctor();
   }; // UnityEngine.XR.XRDisplaySubsystemDescriptor
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystemDescriptor*, "UnityEngine.XR", "XRDisplaySubsystemDescriptor");
 #pragma pack(pop)

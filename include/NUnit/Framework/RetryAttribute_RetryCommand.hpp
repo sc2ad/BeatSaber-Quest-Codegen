@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
-#include "NUnit/Framework/Internal/Commands/DelegatingTestCommand.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.RetryAttribute
 #include "NUnit/Framework/RetryAttribute.hpp"
+// Including type: NUnit.Framework.Internal.Commands.DelegatingTestCommand
+#include "NUnit/Framework/Internal/Commands/DelegatingTestCommand.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -27,12 +28,12 @@ namespace NUnit::Framework {
     // Offset: 0x20
     int retryCount;
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x18E2078
+    // Offset: 0x18F2ABC
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.RetryAttribute/RetryCommand
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RetryAttribute::RetryCommand*, "NUnit.Framework", "RetryAttribute/RetryCommand");
 #pragma pack(pop)

@@ -46,6 +46,6 @@ namespace OVR::OpenVR {
     IVRIOBuffer(OVR::OpenVR::IVRIOBuffer::_Open* Open_ = {}, OVR::OpenVR::IVRIOBuffer::_Close* Close_ = {}, OVR::OpenVR::IVRIOBuffer::_Read* Read_ = {}, OVR::OpenVR::IVRIOBuffer::_Write* Write_ = {}, OVR::OpenVR::IVRIOBuffer::_PropertyContainer* PropertyContainer_ = {}) : Open{Open_}, Close{Close_}, Read{Read_}, Write{Write_}, PropertyContainer{PropertyContainer_} {}
   }; // OVR.OpenVR.IVRIOBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer, "OVR.OpenVR", "IVRIOBuffer");
 #pragma pack(pop)

@@ -51,44 +51,44 @@ namespace GlobalNamespace {
     // Offset: 0x90
     ::Array<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections;
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`1<IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x196C650
+    // Offset: 0xB8494C
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`1<IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x196C6F4
+    // Offset: 0xB849F0
     void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public IAnnotatedBeatmapLevelCollection get_selectedAnnotatedBeatmapLevelCollection()
-    // Offset: 0x196C798
+    // Offset: 0xB84A94
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_selectedAnnotatedBeatmapLevelCollection();
     // public System.Int32 get_selectedItemIndex()
-    // Offset: 0x196C7E0
+    // Offset: 0xB84ADC
     int get_selectedItemIndex();
     // public System.Void RefreshAvailability()
-    // Offset: 0x196C8DC
+    // Offset: 0xB84BD8
     void RefreshAvailability();
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection[] annotatedBeatmapLevelCollections, System.Int32 selectedItemIndex, System.Boolean hideIfOneOrNoPacks)
-    // Offset: 0x196C9D8
+    // Offset: 0xB84CD4
     void SetData(::Array<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections, int selectedItemIndex, bool hideIfOneOrNoPacks);
     // public System.Void ShowLoading()
-    // Offset: 0x196CAAC
+    // Offset: 0xB84DA8
     void ShowLoading();
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x196CAF0
+    // Offset: 0xB84DEC
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void handleDidSelectAnnotatedBeatmapLevelCollection(AnnotatedBeatmapLevelCollectionsTableView levelPacksTableView, IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x196CB08
+    // Offset: 0xB84E04
     void handleDidSelectAnnotatedBeatmapLevelCollection(GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView* levelPacksTableView, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0x196C7E8
+    // Offset: 0xB84AE4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0x196C8F4
+    // Offset: 0xB84BF0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0x196CBD0
+    // Offset: 0xB84ECC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -99,6 +99,6 @@ namespace GlobalNamespace {
     static AnnotatedBeatmapLevelCollectionsViewController* New_ctor();
   }; // AnnotatedBeatmapLevelCollectionsViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*, "", "AnnotatedBeatmapLevelCollectionsViewController");
 #pragma pack(pop)

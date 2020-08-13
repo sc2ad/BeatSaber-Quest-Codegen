@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: NamedPreset
-#include "GlobalNamespace/NamedPreset.hpp"
 // Including type: BloomPrePassGraphicsSettingsPresetsSO
 #include "GlobalNamespace/BloomPrePassGraphicsSettingsPresetsSO.hpp"
+// Including type: NamedPreset
+#include "GlobalNamespace/NamedPreset.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -26,13 +26,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect;
     // public System.Void .ctor()
-    // Offset: 0xB5D350
+    // Offset: 0xB5B350
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()
     static BloomPrePassGraphicsSettingsPresetsSO::Preset* New_ctor();
   }; // BloomPrePassGraphicsSettingsPresetsSO/Preset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*, "", "BloomPrePassGraphicsSettingsPresetsSO/Preset");
 #pragma pack(pop)

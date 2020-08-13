@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
@@ -16,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x10
     int lines;
     // public System.Void .ctor()
-    // Offset: 0x13FCA14
+    // Offset: 0x140D458
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -24,6 +25,6 @@ namespace UnityEngine {
     static MultilineAttribute* New_ctor();
   }; // UnityEngine.MultilineAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MultilineAttribute*, "UnityEngine", "MultilineAttribute");
 #pragma pack(pop)

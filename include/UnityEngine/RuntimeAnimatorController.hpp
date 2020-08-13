@@ -14,13 +14,13 @@ namespace UnityEngine {
   class RuntimeAnimatorController : public UnityEngine::Object {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x19273E4
+    // Offset: 0x1938E28
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static RuntimeAnimatorController* New_ctor();
   }; // UnityEngine.RuntimeAnimatorController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeAnimatorController*, "UnityEngine", "RuntimeAnimatorController");
 #pragma pack(pop)

@@ -56,22 +56,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     UnityEngine::Vector3 axisRelativeToChildDefault;
     // public System.Void Relax()
-    // Offset: 0x1222F60
+    // Offset: 0x12349A4
     void Relax();
     // private System.Void Start()
-    // Offset: 0x1223340
+    // Offset: 0x1234D84
     void Start();
     // private System.Void OnPostUpdate()
-    // Offset: 0x12237EC
+    // Offset: 0x1235230
     void OnPostUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1223874
+    // Offset: 0x12352B8
     void LateUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x12238FC
+    // Offset: 0x1235340
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1223A24
+    // Offset: 0x1235468
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -81,6 +81,6 @@ namespace RootMotion::FinalIK {
     static TwistRelaxer* New_ctor();
   }; // RootMotion.FinalIK.TwistRelaxer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TwistRelaxer*, "RootMotion.FinalIK", "TwistRelaxer");
 #pragma pack(pop)

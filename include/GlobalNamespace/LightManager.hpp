@@ -56,32 +56,32 @@ namespace GlobalNamespace {
     // Offset: 0x38
     int lastRefreshFrameNum;
     // protected System.Void OnDisable()
-    // Offset: 0x18127EC
+    // Offset: 0x1823230
     void OnDisable();
     // private System.Void OnWillRenderObject()
-    // Offset: 0x1812850
+    // Offset: 0x1823294
     void OnWillRenderObject();
     // private System.Void OnBecameInvisible()
-    // Offset: 0x18128C8
+    // Offset: 0x182330C
     void OnBecameInvisible();
     // protected System.Void OnDestroy()
-    // Offset: 0x1812E50
+    // Offset: 0x1823894
     void OnDestroy();
     // private System.Void ResetColors()
-    // Offset: 0x1812E54
+    // Offset: 0x1823898
     void ResetColors();
     // public System.Void OnCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x181292C
+    // Offset: 0x1823370
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPreRender(UnityEngine.Camera camera)
     void OnCameraPreRender(UnityEngine::Camera* camera);
     // public System.Void OnCameraPostRender(UnityEngine.Camera camera)
-    // Offset: 0x1812E4C
+    // Offset: 0x1823890
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPostRender(UnityEngine.Camera camera)
     void OnCameraPostRender(UnityEngine::Camera* camera);
     // public System.Void .ctor()
-    // Offset: 0x1812FD0
+    // Offset: 0x1823A14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,12 +90,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LightManager* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1813098
+    // Offset: 0x1823ADC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LightManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightManager*, "", "LightManager");
 #pragma pack(pop)

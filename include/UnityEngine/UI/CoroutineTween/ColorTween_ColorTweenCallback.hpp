@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine/Events/UnityEvent_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.CoroutineTween.ColorTween
 #include "UnityEngine/UI/CoroutineTween/ColorTween.hpp"
+// Including type: UnityEngine.Events.UnityEvent`1
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
 // Completed includes
@@ -17,7 +18,7 @@ namespace UnityEngine::UI::CoroutineTween {
   class ColorTween::ColorTweenCallback : public UnityEngine::Events::UnityEvent_1<UnityEngine::Color> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xDF2054
+    // Offset: 0xE04A98
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -25,6 +26,6 @@ namespace UnityEngine::UI::CoroutineTween {
     static ColorTween::ColorTweenCallback* New_ctor();
   }; // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback*, "UnityEngine.UI.CoroutineTween", "ColorTween/ColorTweenCallback");
 #pragma pack(pop)

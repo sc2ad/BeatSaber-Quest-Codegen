@@ -43,6 +43,6 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 get_jumpMoveVec();
   }; // INoteController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteController*, "", "INoteController");
 #pragma pack(pop)

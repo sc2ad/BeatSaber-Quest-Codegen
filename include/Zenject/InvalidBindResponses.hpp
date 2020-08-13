@@ -32,6 +32,6 @@ namespace Zenject {
     InvalidBindResponses(int value_ = {}) : value{value_} {}
   }; // Zenject.InvalidBindResponses
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InvalidBindResponses, "Zenject", "InvalidBindResponses");
 #pragma pack(pop)

@@ -91,42 +91,42 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     bool isInitialized;
     // public PlayerSpecificSettings get_playerSettings()
-    // Offset: 0xB3FFAC
+    // Offset: 0xB3DFAC
     GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xB3FFD4
+    // Offset: 0xB3DFD4
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public OverrideEnvironmentSettings get_environmentOverrideSettings()
-    // Offset: 0xB3FFFC
+    // Offset: 0xB3DFFC
     GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0xB40024
+    // Offset: 0xB3E024
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void Setup(System.Boolean showModifiers, System.Boolean showEnvironmentOverrideSettings, System.Boolean showColorSchemesSettings)
-    // Offset: 0xB4004C
+    // Offset: 0xB3E04C
     void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings);
     // private System.Void Init()
-    // Offset: 0xB400C0
+    // Offset: 0xB3E0C0
     void Init();
     // private System.Void HandleSelectionSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0xB40718
+    // Offset: 0xB3E718
     void HandleSelectionSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private System.Void SetActivePanel(System.Int32 panelIdx)
-    // Offset: 0xB40660
+    // Offset: 0xB3E660
     void SetActivePanel(int panelIdx);
     // private System.Void RefreshContent()
-    // Offset: 0xB40174
+    // Offset: 0xB3E174
     void RefreshContent();
     // private System.Void RefreshActivePanel()
-    // Offset: 0xB40720
+    // Offset: 0xB3E720
     void RefreshActivePanel();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB4058C
+    // Offset: 0xB3E58C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB40870
+    // Offset: 0xB3E870
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -137,6 +137,6 @@ namespace GlobalNamespace {
     static GameplaySetupViewController* New_ctor();
   }; // GameplaySetupViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController*, "", "GameplaySetupViewController");
 #pragma pack(pop)

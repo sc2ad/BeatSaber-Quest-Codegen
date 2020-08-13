@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UserLoginDtoDataSource
 #include "GlobalNamespace/UserLoginDtoDataSource.hpp"
 // Including type: System.Threading.CancellationToken
@@ -34,15 +32,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Threading::Tasks::TaskCompletionSource_1<::Array<::CsString*>*>* tcs;
     // System.Void <GetUserFriendsUserIds>b__0(PlatformUserModelSO/GetUserFriendsUserIdsResult result, System.String[] friendsUserIds)
-    // Offset: 0xC39438
+    // Offset: 0xC4AE7C
     void $GetUserFriendsUserIds$b__0(GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsResult result, ::Array<::CsString*>* friendsUserIds);
     // public System.Void .ctor()
-    // Offset: 0xC39430
+    // Offset: 0xC4AE74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserLoginDtoDataSource::$$c__DisplayClass6_0* New_ctor();
   }; // UserLoginDtoDataSource/<>c__DisplayClass6_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource::$$c__DisplayClass6_0*, "", "UserLoginDtoDataSource/<>c__DisplayClass6_0");
 #pragma pack(pop)

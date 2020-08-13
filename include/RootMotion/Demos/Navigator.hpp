@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: System.Enum
@@ -105,46 +103,46 @@ namespace RootMotion::Demos {
     // Offset: 0x68
     float nextPathTime;
     // public UnityEngine.Vector3 get_normalizedDeltaPosition()
-    // Offset: 0x1390AD8
+    // Offset: 0x13A251C
     UnityEngine::Vector3 get_normalizedDeltaPosition();
     // private System.Void set_normalizedDeltaPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1390AE4
+    // Offset: 0x13A2528
     void set_normalizedDeltaPosition(UnityEngine::Vector3 value);
     // public RootMotion.Demos.Navigator/State get_state()
-    // Offset: 0x1390AF0
+    // Offset: 0x13A2534
     RootMotion::Demos::Navigator::State get_state();
     // private System.Void set_state(RootMotion.Demos.Navigator/State value)
-    // Offset: 0x1390AF8
+    // Offset: 0x13A253C
     void set_state(RootMotion::Demos::Navigator::State value);
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x1390B00
+    // Offset: 0x13A2544
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1390BF8
+    // Offset: 0x13A263C
     void Update(UnityEngine::Vector3 targetPosition);
     // private System.Void CalculatePath(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1391150
+    // Offset: 0x13A2B94
     void CalculatePath(UnityEngine::Vector3 targetPosition);
     // private System.Boolean Find(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x13911C0
+    // Offset: 0x13A2C04
     bool Find(UnityEngine::Vector3 targetPosition);
     // private System.Void Stop()
-    // Offset: 0x1391018
+    // Offset: 0x13A2A5C
     void Stop();
     // private System.Single HorDistance(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x139108C
+    // Offset: 0x13A2AD0
     float HorDistance(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public System.Void Visualize()
-    // Offset: 0x1391308
+    // Offset: 0x13A2D4C
     void Visualize();
     // public System.Void .ctor()
-    // Offset: 0x13914B8
+    // Offset: 0x13A2EFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Navigator* New_ctor();
   }; // RootMotion.Demos.Navigator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator*, "RootMotion.Demos", "Navigator");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator::State, "RootMotion.Demos", "Navigator/State");
 #pragma pack(pop)

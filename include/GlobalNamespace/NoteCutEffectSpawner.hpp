@@ -85,22 +85,22 @@ namespace GlobalNamespace {
     // Offset: 0x70
     GlobalNamespace::ScoreController* scoreController;
     // protected System.Void Start()
-    // Offset: 0xBFFFD4
+    // Offset: 0xC11A18
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC00068
+    // Offset: 0xC11AAC
     void OnDestroy();
     // private System.Void HandleNoteWasCutEvent(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC00144
+    // Offset: 0xC11B88
     void HandleNoteWasCutEvent(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnNoteCutEffect(UnityEngine.Vector3 pos, INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC00510
+    // Offset: 0xC11F54
     void SpawnNoteCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnBombCutEffect(UnityEngine.Vector3 pos, INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC0033C
+    // Offset: 0xC11D80
     void SpawnBombCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0xC01720
+    // Offset: 0xC13164
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -110,6 +110,6 @@ namespace GlobalNamespace {
     static NoteCutEffectSpawner* New_ctor();
   }; // NoteCutEffectSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutEffectSpawner*, "", "NoteCutEffectSpawner");
 #pragma pack(pop)

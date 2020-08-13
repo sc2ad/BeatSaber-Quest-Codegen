@@ -19,10 +19,10 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::Runtime::CompilerServices::LoadHint loadHint;
     // public System.Void .ctor(System.Runtime.CompilerServices.LoadHint loadHintArgument)
-    // Offset: 0x114FBC8
+    // Offset: 0x116160C
     static DefaultDependencyAttribute* New_ctor(System::Runtime::CompilerServices::LoadHint loadHintArgument);
   }; // System.Runtime.CompilerServices.DefaultDependencyAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DefaultDependencyAttribute*, "System.Runtime.CompilerServices", "DefaultDependencyAttribute");
 #pragma pack(pop)

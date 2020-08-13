@@ -70,106 +70,106 @@ namespace UnityEngine::UI {
     // Offset: 0xE8
     ::Array<UnityEngine::UIVertex>* m_TempVerts;
     // public UnityEngine.TextGenerator get_cachedTextGenerator()
-    // Offset: 0x1919D58
+    // Offset: 0x192A79C
     UnityEngine::TextGenerator* get_cachedTextGenerator();
     // public UnityEngine.TextGenerator get_cachedTextGeneratorForLayout()
-    // Offset: 0x1919E00
+    // Offset: 0x192A844
     UnityEngine::TextGenerator* get_cachedTextGeneratorForLayout();
     // public System.Void FontTextureChanged()
-    // Offset: 0x191A07C
+    // Offset: 0x192AAC0
     void FontTextureChanged();
     // public UnityEngine.Font get_font()
-    // Offset: 0x191A060
+    // Offset: 0x192AAA4
     UnityEngine::Font* get_font();
     // public System.Void set_font(UnityEngine.Font value)
-    // Offset: 0x191A19C
+    // Offset: 0x192ABE0
     void set_font(UnityEngine::Font* value);
     // public System.String get_text()
-    // Offset: 0x191A298
+    // Offset: 0x192ACDC
     ::CsString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x191A2A0
+    // Offset: 0x192ACE4
     void set_text(::CsString* value);
     // public System.Boolean get_supportRichText()
-    // Offset: 0x191A394
+    // Offset: 0x192ADD8
     bool get_supportRichText();
     // public System.Void set_supportRichText(System.Boolean value)
-    // Offset: 0x191A3B0
+    // Offset: 0x192ADF4
     void set_supportRichText(bool value);
     // public System.Boolean get_resizeTextForBestFit()
-    // Offset: 0x191A420
+    // Offset: 0x192AE64
     bool get_resizeTextForBestFit();
     // public System.Void set_resizeTextForBestFit(System.Boolean value)
-    // Offset: 0x191A43C
+    // Offset: 0x192AE80
     void set_resizeTextForBestFit(bool value);
     // public System.Int32 get_resizeTextMinSize()
-    // Offset: 0x191A4AC
+    // Offset: 0x192AEF0
     int get_resizeTextMinSize();
     // public System.Void set_resizeTextMinSize(System.Int32 value)
-    // Offset: 0x191A4C8
+    // Offset: 0x192AF0C
     void set_resizeTextMinSize(int value);
     // public System.Int32 get_resizeTextMaxSize()
-    // Offset: 0x191A52C
+    // Offset: 0x192AF70
     int get_resizeTextMaxSize();
     // public System.Void set_resizeTextMaxSize(System.Int32 value)
-    // Offset: 0x191A548
+    // Offset: 0x192AF8C
     void set_resizeTextMaxSize(int value);
     // public UnityEngine.TextAnchor get_alignment()
-    // Offset: 0x191A5AC
+    // Offset: 0x192AFF0
     UnityEngine::TextAnchor get_alignment();
     // public System.Void set_alignment(UnityEngine.TextAnchor value)
-    // Offset: 0x191A5C8
+    // Offset: 0x192B00C
     void set_alignment(UnityEngine::TextAnchor value);
     // public System.Boolean get_alignByGeometry()
-    // Offset: 0x191A62C
+    // Offset: 0x192B070
     bool get_alignByGeometry();
     // public System.Void set_alignByGeometry(System.Boolean value)
-    // Offset: 0x191A648
+    // Offset: 0x192B08C
     void set_alignByGeometry(bool value);
     // public System.Int32 get_fontSize()
-    // Offset: 0x191A68C
+    // Offset: 0x192B0D0
     int get_fontSize();
     // public System.Void set_fontSize(System.Int32 value)
-    // Offset: 0x191A6A8
+    // Offset: 0x192B0EC
     void set_fontSize(int value);
     // public UnityEngine.HorizontalWrapMode get_horizontalOverflow()
-    // Offset: 0x191A70C
+    // Offset: 0x192B150
     UnityEngine::HorizontalWrapMode get_horizontalOverflow();
     // public System.Void set_horizontalOverflow(UnityEngine.HorizontalWrapMode value)
-    // Offset: 0x191A728
+    // Offset: 0x192B16C
     void set_horizontalOverflow(UnityEngine::HorizontalWrapMode value);
     // public UnityEngine.VerticalWrapMode get_verticalOverflow()
-    // Offset: 0x191A78C
+    // Offset: 0x192B1D0
     UnityEngine::VerticalWrapMode get_verticalOverflow();
     // public System.Void set_verticalOverflow(UnityEngine.VerticalWrapMode value)
-    // Offset: 0x191A7A8
+    // Offset: 0x192B1EC
     void set_verticalOverflow(UnityEngine::VerticalWrapMode value);
     // public System.Single get_lineSpacing()
-    // Offset: 0x191A80C
+    // Offset: 0x192B250
     float get_lineSpacing();
     // public System.Void set_lineSpacing(System.Single value)
-    // Offset: 0x191A828
+    // Offset: 0x192B26C
     void set_lineSpacing(float value);
     // public UnityEngine.FontStyle get_fontStyle()
-    // Offset: 0x191A88C
+    // Offset: 0x192B2D0
     UnityEngine::FontStyle get_fontStyle();
     // public System.Void set_fontStyle(UnityEngine.FontStyle value)
-    // Offset: 0x191A8A8
+    // Offset: 0x192B2EC
     void set_fontStyle(UnityEngine::FontStyle value);
     // public System.Single get_pixelsPerUnit()
-    // Offset: 0x191A90C
+    // Offset: 0x192B350
     float get_pixelsPerUnit();
     // System.Void AssignDefaultFont()
-    // Offset: 0x191AC10
+    // Offset: 0x192B654
     void AssignDefaultFont();
     // public UnityEngine.TextGenerationSettings GetGenerationSettings(UnityEngine.Vector2 extents)
-    // Offset: 0x191AC74
+    // Offset: 0x192B6B8
     UnityEngine::TextGenerationSettings GetGenerationSettings(UnityEngine::Vector2 extents);
     // static public UnityEngine.Vector2 GetTextAnchorPivot(UnityEngine.TextAnchor anchor)
-    // Offset: 0x191AE2C
+    // Offset: 0x192B870
     static UnityEngine::Vector2 GetTextAnchorPivot(UnityEngine::TextAnchor anchor);
     // protected System.Void .ctor()
-    // Offset: 0x1919CAC
+    // Offset: 0x192A6F0
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::.ctor()
     // Base method: System.Void Graphic::.ctor()
@@ -181,83 +181,83 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Text* New_ctor();
     // public override UnityEngine.Texture get_mainTexture()
-    // Offset: 0x1919E78
+    // Offset: 0x192A8BC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Texture Graphic::get_mainTexture()
     UnityEngine::Texture* get_mainTexture();
     // protected override System.Void OnEnable()
-    // Offset: 0x191AA78
+    // Offset: 0x192B4BC
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x191AB04
+    // Offset: 0x192B548
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnDisable()
     void OnDisable();
     // protected override System.Void UpdateGeometry()
-    // Offset: 0x191AB78
+    // Offset: 0x192B5BC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::UpdateGeometry()
     void UpdateGeometry();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
-    // Offset: 0x191AF60
+    // Offset: 0x192B9A4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* toFill);
     // public System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x191B828
+    // Offset: 0x192C26C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public System.Void CalculateLayoutInputVertical()
-    // Offset: 0x191B82C
+    // Offset: 0x192C270
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public System.Single get_minWidth()
-    // Offset: 0x191B830
+    // Offset: 0x192C274
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minWidth()
     float get_minWidth();
     // public System.Single get_preferredWidth()
-    // Offset: 0x191B838
+    // Offset: 0x192C27C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredWidth()
     float get_preferredWidth();
     // public System.Single get_flexibleWidth()
-    // Offset: 0x191B930
+    // Offset: 0x192C374
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleWidth()
     float get_flexibleWidth();
     // public System.Single get_minHeight()
-    // Offset: 0x191B938
+    // Offset: 0x192C37C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minHeight()
     float get_minHeight();
     // public System.Single get_preferredHeight()
-    // Offset: 0x191B940
+    // Offset: 0x192C384
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredHeight()
     float get_preferredHeight();
     // public System.Single get_flexibleHeight()
-    // Offset: 0x191BA24
+    // Offset: 0x192C468
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleHeight()
     float get_flexibleHeight();
     // public System.Int32 get_layoutPriority()
-    // Offset: 0x191BA2C
+    // Offset: 0x192C470
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Int32 ILayoutElement::get_layoutPriority()
     int get_layoutPriority();
     // static private System.Void .cctor()
-    // Offset: 0x191BA34
+    // Offset: 0x192C478
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Text
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Text*, "UnityEngine.UI", "Text");
 #pragma pack(pop)

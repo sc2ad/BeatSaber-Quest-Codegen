@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::OVRInput::RawButton resetButton;
     // private System.Void Update()
-    // Offset: 0xF3700C
+    // Offset: 0xF47A50
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF37104
+    // Offset: 0xF47B48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -32,6 +32,6 @@ namespace GlobalNamespace {
     static OVRResetOrientation* New_ctor();
   }; // OVRResetOrientation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResetOrientation*, "", "OVRResetOrientation");
 #pragma pack(pop)

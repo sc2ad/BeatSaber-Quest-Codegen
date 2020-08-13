@@ -20,21 +20,21 @@ namespace Oculus::Platform {
   class MessageWithString : public Oculus::Platform::Message_1<::CsString*> {
     public:
     // protected System.String GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE921EC
+    // Offset: 0xEA4C30
     ::CsString* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88EC0
+    // Offset: 0xE9B904
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithString* New_ctor(System::IntPtr c_message);
     // public override System.String GetString()
-    // Offset: 0xE921A8
+    // Offset: 0xEA4BEC
     // Implemented from: Oculus.Platform.Message
     // Base method: System.String Message::GetString()
     ::CsString* GetString();
   }; // Oculus.Platform.MessageWithString
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithString*, "Oculus.Platform", "MessageWithString");
 #pragma pack(pop)

@@ -21,12 +21,12 @@ namespace UnityEngine::Timeline {
   class PlayableTrack : public UnityEngine::Timeline::TrackAsset {
     public:
     // protected override System.Void OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x1087C3C
+    // Offset: 0x1097680
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
     void OnCreateClip(UnityEngine::Timeline::TimelineClip* clip);
     // public System.Void .ctor()
-    // Offset: 0x1087CF4
+    // Offset: 0x1097738
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()
@@ -36,6 +36,6 @@ namespace UnityEngine::Timeline {
     static PlayableTrack* New_ctor();
   }; // UnityEngine.Timeline.PlayableTrack
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::PlayableTrack*, "UnityEngine.Timeline", "PlayableTrack");
 #pragma pack(pop)

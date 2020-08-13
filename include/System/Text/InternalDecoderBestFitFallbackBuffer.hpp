@@ -37,36 +37,36 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::CsObject* value);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x12E052C
+    // Offset: 0x12F1F70
     static ::CsObject* get_InternalSyncObject();
     // public System.Void .ctor(System.Text.InternalDecoderBestFitFallback fallback)
-    // Offset: 0x12E0324
+    // Offset: 0x12F1D68
     static InternalDecoderBestFitFallbackBuffer* New_ctor(System::Text::InternalDecoderBestFitFallback* fallback);
     // private System.Char TryBestFit(System.Byte[] bytesCheck)
-    // Offset: 0x12E0608
+    // Offset: 0x12F204C
     ::Il2CppChar TryBestFit(::Array<uint8_t>* bytesCheck);
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x12E05BC
+    // Offset: 0x12F2000
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x12E0754
+    // Offset: 0x12F2198
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Void Reset()
-    // Offset: 0x12E0794
+    // Offset: 0x12F21D8
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::Reset()
     void Reset();
     // override System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x12E07A4
+    // Offset: 0x12F21E8
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
   }; // System.Text.InternalDecoderBestFitFallbackBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalDecoderBestFitFallbackBuffer*, "System.Text", "InternalDecoderBestFitFallbackBuffer");
 #pragma pack(pop)

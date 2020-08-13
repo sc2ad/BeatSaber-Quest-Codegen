@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: JetBrains.Annotations.AspTypePropertyAttribute
 #include "JetBrains/Annotations/AspTypePropertyAttribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

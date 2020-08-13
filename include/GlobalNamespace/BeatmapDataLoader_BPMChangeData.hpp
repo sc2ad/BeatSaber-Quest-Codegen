@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapDataLoader
 #include "GlobalNamespace/BeatmapDataLoader.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -26,10 +27,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BPMChangeData
     BPMChangeData(float bpmChangeStartTime_ = {}, float bpmChangeStartBPMTime_ = {}, float bpm_ = {}) : bpmChangeStartTime{bpmChangeStartTime_}, bpmChangeStartBPMTime{bpmChangeStartBPMTime_}, bpm{bpm_} {}
     // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBPMTime, System.Single bpm)
-    // Offset: 0xADA66C
+    // Offset: 0xA27308
     static BeatmapDataLoader::BPMChangeData* New_ctor(float bpmChangeStartTime, float bpmChangeStartBPMTime, float bpm);
   }; // BeatmapDataLoader/BPMChangeData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader::BPMChangeData, "", "BeatmapDataLoader/BPMChangeData");
 #pragma pack(pop)

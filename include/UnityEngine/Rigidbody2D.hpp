@@ -21,28 +21,28 @@ namespace UnityEngine {
   class Rigidbody2D : public UnityEngine::Component {
     public:
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x1958A98
+    // Offset: 0x196A4DC
     UnityEngine::Vector2 get_position();
     // public UnityEngine.Vector2 get_velocity()
-    // Offset: 0x1958B40
+    // Offset: 0x196A584
     UnityEngine::Vector2 get_velocity();
     // public System.Void set_velocity(UnityEngine.Vector2 value)
-    // Offset: 0x1958BE8
+    // Offset: 0x196A62C
     void set_velocity(UnityEngine::Vector2 value);
     // public System.Void Sleep()
-    // Offset: 0x1958C8C
+    // Offset: 0x196A6D0
     void Sleep();
     // private System.Void get_position_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x1958AF0
+    // Offset: 0x196A534
     void get_position_Injected(UnityEngine::Vector2& ret);
     // private System.Void get_velocity_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x1958B98
+    // Offset: 0x196A5DC
     void get_velocity_Injected(UnityEngine::Vector2& ret);
     // private System.Void set_velocity_Injected(UnityEngine.Vector2 value)
-    // Offset: 0x1958C3C
+    // Offset: 0x196A680
     void set_velocity_Injected(UnityEngine::Vector2& value);
   }; // UnityEngine.Rigidbody2D
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rigidbody2D*, "UnityEngine", "Rigidbody2D");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BeatmapLevelSO
 #include "GlobalNamespace/BeatmapLevelSO.hpp"
 // Including type: IDifficultyBeatmap
@@ -54,48 +52,48 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet;
     // public System.Void SetParents(IBeatmapLevel parentLevel, IDifficultyBeatmapSet parentDifficultyBeatmapSet)
-    // Offset: 0xB51708
+    // Offset: 0xB4F708
     void SetParents(GlobalNamespace::IBeatmapLevel* parentLevel, GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet);
     // public System.Void .ctor(IBeatmapLevel parentLevel, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapDataSO beatmapData)
-    // Offset: 0xB5461C
+    // Offset: 0xB5261C
     static BeatmapLevelSO::DifficultyBeatmap* New_ctor(GlobalNamespace::IBeatmapLevel* parentLevel, GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, GlobalNamespace::BeatmapDataSO* beatmapData);
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0xB545D0
+    // Offset: 0xB525D0
     // Implemented from: IDifficultyBeatmap
     // Base method: BeatmapDifficulty IDifficultyBeatmap::get_difficulty()
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0xB545D8
+    // Offset: 0xB525D8
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Int32 IDifficultyBeatmap::get_difficultyRank()
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0xB545E0
+    // Offset: 0xB525E0
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Single IDifficultyBeatmap::get_noteJumpMovementSpeed()
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0xB545E8
+    // Offset: 0xB525E8
     // Implemented from: IDifficultyBeatmap
     // Base method: System.Single IDifficultyBeatmap::get_noteJumpStartBeatOffset()
     float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0xB545F0
+    // Offset: 0xB525F0
     // Implemented from: IDifficultyBeatmap
     // Base method: BeatmapData IDifficultyBeatmap::get_beatmapData()
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public IBeatmapLevel get_level()
-    // Offset: 0xB5460C
+    // Offset: 0xB5260C
     // Implemented from: IDifficultyBeatmap
     // Base method: IBeatmapLevel IDifficultyBeatmap::get_level()
     GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0xB54614
+    // Offset: 0xB52614
     // Implemented from: IDifficultyBeatmap
     // Base method: IDifficultyBeatmapSet IDifficultyBeatmap::get_parentDifficultyBeatmapSet()
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
   }; // BeatmapLevelSO/DifficultyBeatmap
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*, "", "BeatmapLevelSO/DifficultyBeatmap");
 #pragma pack(pop)

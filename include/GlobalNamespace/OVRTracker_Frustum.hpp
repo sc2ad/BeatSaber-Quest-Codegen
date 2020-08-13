@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRTracker
 #include "GlobalNamespace/OVRTracker.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Completed includes
@@ -30,6 +30,6 @@ namespace GlobalNamespace {
     Frustum(float nearZ_ = {}, float farZ_ = {}, UnityEngine::Vector2 fov_ = {}) : nearZ{nearZ_}, farZ{farZ_}, fov{fov_} {}
   }; // OVRTracker/Frustum
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTracker::Frustum, "", "OVRTracker/Frustum");
 #pragma pack(pop)

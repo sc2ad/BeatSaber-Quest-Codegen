@@ -84,46 +84,46 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: Navigation
     Navigation(UnityEngine::UI::Navigation::Mode m_Mode_ = {}, UnityEngine::UI::Selectable* m_SelectOnUp_ = {}, UnityEngine::UI::Selectable* m_SelectOnDown_ = {}, UnityEngine::UI::Selectable* m_SelectOnLeft_ = {}, UnityEngine::UI::Selectable* m_SelectOnRight_ = {}) : m_Mode{m_Mode_}, m_SelectOnUp{m_SelectOnUp_}, m_SelectOnDown{m_SelectOnDown_}, m_SelectOnLeft{m_SelectOnLeft_}, m_SelectOnRight{m_SelectOnRight_} {}
     // public UnityEngine.UI.Navigation/Mode get_mode()
-    // Offset: 0xA3F668
+    // Offset: 0xA3F6E4
     UnityEngine::UI::Navigation::Mode get_mode();
     // public System.Void set_mode(UnityEngine.UI.Navigation/Mode value)
-    // Offset: 0xA3F670
+    // Offset: 0xA3F6EC
     void set_mode(UnityEngine::UI::Navigation::Mode value);
     // public UnityEngine.UI.Selectable get_selectOnUp()
-    // Offset: 0xA3F678
+    // Offset: 0xA3F6F4
     UnityEngine::UI::Selectable* get_selectOnUp();
     // public System.Void set_selectOnUp(UnityEngine.UI.Selectable value)
-    // Offset: 0xA3F680
+    // Offset: 0xA3F6FC
     void set_selectOnUp(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnDown()
-    // Offset: 0xA3F688
+    // Offset: 0xA3F704
     UnityEngine::UI::Selectable* get_selectOnDown();
     // public System.Void set_selectOnDown(UnityEngine.UI.Selectable value)
-    // Offset: 0xA3F690
+    // Offset: 0xA3F70C
     void set_selectOnDown(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnLeft()
-    // Offset: 0xA3F698
+    // Offset: 0xA3F714
     UnityEngine::UI::Selectable* get_selectOnLeft();
     // public System.Void set_selectOnLeft(UnityEngine.UI.Selectable value)
-    // Offset: 0xA3F6A0
+    // Offset: 0xA3F71C
     void set_selectOnLeft(UnityEngine::UI::Selectable* value);
     // public UnityEngine.UI.Selectable get_selectOnRight()
-    // Offset: 0xA3F6A8
+    // Offset: 0xA3F724
     UnityEngine::UI::Selectable* get_selectOnRight();
     // public System.Void set_selectOnRight(UnityEngine.UI.Selectable value)
-    // Offset: 0xA3F6B0
+    // Offset: 0xA3F72C
     void set_selectOnRight(UnityEngine::UI::Selectable* value);
     // static public UnityEngine.UI.Navigation get_defaultNavigation()
-    // Offset: 0x11EEAB8
+    // Offset: 0x12004FC
     static UnityEngine::UI::Navigation get_defaultNavigation();
     // public System.Boolean Equals(UnityEngine.UI.Navigation other)
-    // Offset: 0xA3F6B8
+    // Offset: 0xA3F734
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.UI.Navigation other)
     bool Equals(UnityEngine::UI::Navigation other);
   }; // UnityEngine.UI.Navigation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation, "UnityEngine.UI", "Navigation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation::Mode, "UnityEngine.UI", "Navigation/Mode");
 #pragma pack(pop)

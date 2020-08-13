@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.Globalization.Unicode.CodePointIndexer/TableRange
 #include "Mono/Globalization/Unicode/CodePointIndexer_TableRange.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

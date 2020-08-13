@@ -44,6 +44,6 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     DirectionalLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float penumbraWidthRadian_ = {}) : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, direction{direction_}, color{color_}, indirectColor{indirectColor_}, penumbraWidthRadian{penumbraWidthRadian_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.DirectionalLight
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::DirectionalLight, "UnityEngine.Experimental.GlobalIllumination", "DirectionalLight");
 #pragma pack(pop)

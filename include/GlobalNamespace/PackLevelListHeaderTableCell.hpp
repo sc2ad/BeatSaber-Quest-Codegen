@@ -51,26 +51,26 @@ namespace GlobalNamespace {
     // Offset: 0x80
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // public System.Void set_text(System.String value)
-    // Offset: 0xBBCF08
+    // Offset: 0xBCF94C
     void set_text(::CsString* value);
     // public System.String get_text()
-    // Offset: 0xBBCF24
+    // Offset: 0xBCF968
     ::CsString* get_text();
     // private System.Void RefreshVisuals()
-    // Offset: 0xBBCF44
+    // Offset: 0xBCF988
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBBCF40
+    // Offset: 0xBCF984
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBBCFD4
+    // Offset: 0xBCFA18
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xBBCFD8
+    // Offset: 0xBCFA1C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -82,6 +82,6 @@ namespace GlobalNamespace {
     static PackLevelListHeaderTableCell* New_ctor();
   }; // PackLevelListHeaderTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackLevelListHeaderTableCell*, "", "PackLevelListHeaderTableCell");
 #pragma pack(pop)

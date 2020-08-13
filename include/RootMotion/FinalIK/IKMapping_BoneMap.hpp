@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.IKMapping
 #include "RootMotion/FinalIK/IKMapping.hpp"
 // Including type: UnityEngine.Vector3
@@ -100,87 +98,87 @@ namespace RootMotion::FinalIK {
     // Offset: 0xCC
     int plane3NodeIndex;
     // public System.Void Initiate(UnityEngine.Transform transform, RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1369340
+    // Offset: 0x137BD84
     void Initiate(UnityEngine::Transform* transform, RootMotion::FinalIK::IKSolverFullBody* solver);
     // public UnityEngine.Vector3 get_swingDirection()
-    // Offset: 0x1369390
+    // Offset: 0x137BDD4
     UnityEngine::Vector3 get_swingDirection();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x136945C
+    // Offset: 0x137BEA0
     void StoreDefaultLocalState();
     // public System.Void FixTransform(System.Boolean position)
-    // Offset: 0x13694AC
+    // Offset: 0x137BEF0
     void FixTransform(bool position);
     // public System.Boolean get_isNodeBone()
-    // Offset: 0x13694FC
+    // Offset: 0x137BF40
     bool get_isNodeBone();
     // public System.Void SetLength(RootMotion.FinalIK.IKMapping/BoneMap nextBone)
-    // Offset: 0x136950C
+    // Offset: 0x137BF50
     void SetLength(RootMotion::FinalIK::IKMapping::BoneMap* nextBone);
     // public System.Void SetLocalSwingAxis(RootMotion.FinalIK.IKMapping/BoneMap swingTarget)
-    // Offset: 0x13695F4
+    // Offset: 0x137C038
     void SetLocalSwingAxis(RootMotion::FinalIK::IKMapping::BoneMap* swingTarget);
     // public System.Void SetLocalSwingAxis(RootMotion.FinalIK.IKMapping/BoneMap bone1, RootMotion.FinalIK.IKMapping/BoneMap bone2)
-    // Offset: 0x13695FC
+    // Offset: 0x137C040
     void SetLocalSwingAxis(RootMotion::FinalIK::IKMapping::BoneMap* bone1, RootMotion::FinalIK::IKMapping::BoneMap* bone2);
     // public System.Void SetLocalTwistAxis(UnityEngine.Vector3 twistDirection, UnityEngine.Vector3 normalDirection)
-    // Offset: 0x136978C
+    // Offset: 0x137C1D0
     void SetLocalTwistAxis(UnityEngine::Vector3 twistDirection, UnityEngine::Vector3 normalDirection);
     // public System.Void SetPlane(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Transform planeBone1, UnityEngine.Transform planeBone2, UnityEngine.Transform planeBone3)
-    // Offset: 0x1369898
+    // Offset: 0x137C2DC
     void SetPlane(RootMotion::FinalIK::IKSolverFullBody* solver, UnityEngine::Transform* planeBone1, UnityEngine::Transform* planeBone2, UnityEngine::Transform* planeBone3);
     // public System.Void UpdatePlane(System.Boolean rotation, System.Boolean position)
-    // Offset: 0x136995C
+    // Offset: 0x137C3A0
     void UpdatePlane(bool rotation, bool position);
     // public System.Void SetIKPosition()
-    // Offset: 0x1369D30
+    // Offset: 0x137C774
     void SetIKPosition();
     // public System.Void MaintainRotation()
-    // Offset: 0x1369D68
+    // Offset: 0x137C7AC
     void MaintainRotation();
     // public System.Void SetToIKPosition()
-    // Offset: 0x1369DA0
+    // Offset: 0x137C7E4
     void SetToIKPosition();
     // public System.Void FixToNode(RootMotion.FinalIK.IKSolverFullBody solver, System.Single weight, RootMotion.FinalIK.IKSolver/Node fixNode)
-    // Offset: 0x1369DC8
+    // Offset: 0x137C80C
     void FixToNode(RootMotion::FinalIK::IKSolverFullBody* solver, float weight, RootMotion::FinalIK::IKSolver::Node* fixNode);
     // public UnityEngine.Vector3 GetPlanePosition(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1369EF4
+    // Offset: 0x137C938
     UnityEngine::Vector3 GetPlanePosition(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void PositionToPlane(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x136A23C
+    // Offset: 0x137CC80
     void PositionToPlane(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void RotateToPlane(RootMotion.FinalIK.IKSolverFullBody solver, System.Single weight)
-    // Offset: 0x136A26C
+    // Offset: 0x137CCB0
     void RotateToPlane(RootMotion::FinalIK::IKSolverFullBody* solver, float weight);
     // public System.Void Swing(UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x136A404
+    // Offset: 0x137CE48
     void Swing(UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void Swing(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single weight)
-    // Offset: 0x136A474
+    // Offset: 0x137CEB8
     void Swing(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float weight);
     // public System.Void Twist(UnityEngine.Vector3 twistDirection, UnityEngine.Vector3 normalDirection, System.Single weight)
-    // Offset: 0x136A6B8
+    // Offset: 0x137D0FC
     void Twist(UnityEngine::Vector3 twistDirection, UnityEngine::Vector3 normalDirection, float weight);
     // public System.Void RotateToMaintain(System.Single weight)
-    // Offset: 0x136A8E0
+    // Offset: 0x137D324
     void RotateToMaintain(float weight);
     // public System.Void RotateToEffector(RootMotion.FinalIK.IKSolverFullBody solver, System.Single weight)
-    // Offset: 0x136A9F8
+    // Offset: 0x137D43C
     void RotateToEffector(RootMotion::FinalIK::IKSolverFullBody* solver, float weight);
     // private UnityEngine.Quaternion GetTargetRotation(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x136A038
+    // Offset: 0x137CA7C
     UnityEngine::Quaternion GetTargetRotation(RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Quaternion get_lastAnimatedTargetRotation()
-    // Offset: 0x1369B0C
+    // Offset: 0x137C550
     UnityEngine::Quaternion get_lastAnimatedTargetRotation();
     // public System.Void .ctor()
-    // Offset: 0x136AB94
+    // Offset: 0x137D5D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKMapping::BoneMap* New_ctor();
   }; // RootMotion.FinalIK.IKMapping/BoneMap
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping::BoneMap*, "RootMotion.FinalIK", "IKMapping/BoneMap");
 #pragma pack(pop)

@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Image* image;
     // public System.Void set_fillAmount(System.Single value)
-    // Offset: 0xBD1B90
+    // Offset: 0xBE45D4
     void set_fillAmount(float value);
     // public System.Single get_fillAmount()
-    // Offset: 0xBD85C0
+    // Offset: 0xBEB004
     float get_fillAmount();
     // public System.Void .ctor()
-    // Offset: 0xBD85DC
+    // Offset: 0xBEB020
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -43,6 +43,6 @@ namespace GlobalNamespace {
     static FillIndicator* New_ctor();
   }; // FillIndicator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FillIndicator*, "", "FillIndicator");
 #pragma pack(pop)

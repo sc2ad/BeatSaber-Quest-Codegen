@@ -32,6 +32,6 @@ namespace OnlineServices {
     ScoresScope(int value_ = {}) : value{value_} {}
   }; // OnlineServices.ScoresScope
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ScoresScope, "OnlineServices", "ScoresScope");
 #pragma pack(pop)

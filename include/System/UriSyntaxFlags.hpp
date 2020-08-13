@@ -194,6 +194,6 @@ namespace System {
     UriSyntaxFlags(int value_ = {}) : value{value_} {}
   }; // System.UriSyntaxFlags
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriSyntaxFlags, "System", "UriSyntaxFlags");
 #pragma pack(pop)

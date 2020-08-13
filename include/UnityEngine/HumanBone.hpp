@@ -28,6 +28,6 @@ namespace UnityEngine {
     HumanBone(::CsString* m_BoneName_ = {}, ::CsString* m_HumanName_ = {}, UnityEngine::HumanLimit limit_ = {}) : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
   }; // UnityEngine.HumanBone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBone, "UnityEngine", "HumanBone");
 #pragma pack(pop)

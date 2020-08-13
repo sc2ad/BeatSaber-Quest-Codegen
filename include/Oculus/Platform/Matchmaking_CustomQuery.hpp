@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.Matchmaking
 #include "Oculus/Platform/Matchmaking.hpp"
 // Completed includes
@@ -39,15 +37,15 @@ namespace Oculus::Platform {
     // Offset: 0x18
     ::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>* criteria;
     // public System.IntPtr ToUnmanaged()
-    // Offset: 0xE846B0
+    // Offset: 0xE970F4
     System::IntPtr ToUnmanaged();
     // public System.Void .ctor()
-    // Offset: 0xE85B90
+    // Offset: 0xE985D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Matchmaking::CustomQuery* New_ctor();
   }; // Oculus.Platform.Matchmaking/CustomQuery
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery*, "Oculus.Platform", "Matchmaking/CustomQuery");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.UIVertex
 #include "UnityEngine/UIVertex.hpp"
 // Completed includes
@@ -27,12 +25,12 @@ namespace UnityEngine::UI {
     // Offset: 0xFFFFFFFF
     void ModifyVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex>* vertices);
     // protected System.Void .ctor()
-    // Offset: 0xDEEBCC
+    // Offset: 0xE01610
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseVertexEffect* New_ctor();
   }; // UnityEngine.UI.BaseVertexEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseVertexEffect*, "UnityEngine.UI", "BaseVertexEffect");
 #pragma pack(pop)

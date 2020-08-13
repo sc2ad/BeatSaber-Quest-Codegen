@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Configuration.ConfigurationSectionGroup
 #include "System/Configuration/ConfigurationSectionGroup.hpp"
 // Completed includes
@@ -13,12 +14,12 @@ namespace System::Net::Configuration {
   class NetSectionGroup : public System::Configuration::ConfigurationSectionGroup {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF55058
+    // Offset: 0xF66A9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetSectionGroup* New_ctor();
   }; // System.Net.Configuration.NetSectionGroup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::NetSectionGroup*, "System.Net.Configuration", "NetSectionGroup");
 #pragma pack(pop)

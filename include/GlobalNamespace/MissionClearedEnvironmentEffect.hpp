@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // protected System.Void Awake()
-    // Offset: 0xBEEBAC
+    // Offset: 0xC005F0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xBEEC38
+    // Offset: 0xC0067C
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveWasCleared()
-    // Offset: 0xBEECC4
+    // Offset: 0xC00708
     void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
     // public System.Void .ctor()
-    // Offset: 0xBEED40
+    // Offset: 0xC00784
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static MissionClearedEnvironmentEffect* New_ctor();
   }; // MissionClearedEnvironmentEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionClearedEnvironmentEffect*, "", "MissionClearedEnvironmentEffect");
 #pragma pack(pop)

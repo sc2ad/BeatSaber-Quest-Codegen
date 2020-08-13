@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithCalApplicationFinalized : public Oculus::Platform::Message_1<Oculus::Platform::Models::CalApplicationFinalized*> {
     public:
     // protected Oculus.Platform.Models.CalApplicationFinalized GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8B608
+    // Offset: 0xE9E04C
     Oculus::Platform::Models::CalApplicationFinalized* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88200
+    // Offset: 0xE9AC44
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithCalApplicationFinalized* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.CalApplicationFinalized GetCalApplicationFinalized()
-    // Offset: 0xE8B5C4
+    // Offset: 0xE9E008
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CalApplicationFinalized Message::GetCalApplicationFinalized()
     Oculus::Platform::Models::CalApplicationFinalized* GetCalApplicationFinalized();
   }; // Oculus.Platform.MessageWithCalApplicationFinalized
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCalApplicationFinalized*, "Oculus.Platform", "MessageWithCalApplicationFinalized");
 #pragma pack(pop)

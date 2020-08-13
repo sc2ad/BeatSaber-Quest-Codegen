@@ -14,7 +14,7 @@ namespace Zenject {
   class DefaultGameObjectKernel : public Zenject::MonoKernel {
     public:
     // public System.Void .ctor()
-    // Offset: 0xD58EF4
+    // Offset: 0xD6C938
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -25,6 +25,6 @@ namespace Zenject {
     static DefaultGameObjectKernel* New_ctor();
   }; // Zenject.DefaultGameObjectKernel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectKernel*, "Zenject", "DefaultGameObjectKernel");
 #pragma pack(pop)

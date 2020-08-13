@@ -36,16 +36,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // protected System.Void Start()
-    // Offset: 0xB88254
+    // Offset: 0xB99C98
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB88388
+    // Offset: 0xB99DCC
     void OnDestroy();
     // private System.Void HandleStandardLevelDidFinishEvent(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xB884BC
+    // Offset: 0xB99F00
     void HandleStandardLevelDidFinishEvent(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xB88758
+    // Offset: 0xB9A19C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static StandardLevelAnalytics* New_ctor();
   }; // StandardLevelAnalytics
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelAnalytics*, "", "StandardLevelAnalytics");
 #pragma pack(pop)

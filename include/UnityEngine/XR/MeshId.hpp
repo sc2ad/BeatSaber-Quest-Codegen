@@ -32,30 +32,30 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: MeshId
     MeshId(uint64_t m_SubId1_ = {}, uint64_t m_SubId2_ = {}) : m_SubId1{m_SubId1_}, m_SubId2{m_SubId2_} {}
     // static private System.Void .cctor()
-    // Offset: 0x194C098
+    // Offset: 0x195EADC
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xA5B4C8
+    // Offset: 0xA5B544
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5B4D0
+    // Offset: 0xA5B54C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5B50C
+    // Offset: 0xA5B588
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshId other)
-    // Offset: 0xA5B514
+    // Offset: 0xA5B590
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.MeshId other)
     bool Equals(UnityEngine::XR::MeshId other);
   }; // UnityEngine.XR.MeshId
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");
 #pragma pack(pop)

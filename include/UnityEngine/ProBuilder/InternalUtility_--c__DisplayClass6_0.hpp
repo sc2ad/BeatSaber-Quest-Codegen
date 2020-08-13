@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.InternalUtility
 #include "UnityEngine/ProBuilder/InternalUtility.hpp"
 // Completed includes
@@ -19,15 +17,15 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     ::CsString* valid;
     // System.Boolean <TryParseColor>b__0(System.Char c)
-    // Offset: 0xF87E94
+    // Offset: 0xF998D8
     bool $TryParseColor$b__0(::Il2CppChar c);
     // public System.Void .ctor()
-    // Offset: 0xF87BAC
+    // Offset: 0xF995F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InternalUtility::$$c__DisplayClass6_0* New_ctor();
   }; // UnityEngine.ProBuilder.InternalUtility/<>c__DisplayClass6_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0*, "UnityEngine.ProBuilder", "InternalUtility/<>c__DisplayClass6_0");
 #pragma pack(pop)

@@ -33,19 +33,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Vector3 startRotationAngles;
     // protected System.Void Awake()
-    // Offset: 0xCA5B1C
+    // Offset: 0xCB8560
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0xCA5BF8
+    // Offset: 0xCB863C
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0xCA5C04
+    // Offset: 0xCB8648
     void OnBecameInvisible();
     // protected System.Void Update()
-    // Offset: 0xCA5C10
+    // Offset: 0xCB8654
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCA5D18
+    // Offset: 0xCB875C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static Rotate* New_ctor();
   }; // Rotate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Rotate*, "", "Rotate");
 #pragma pack(pop)

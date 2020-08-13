@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BeatmapObjectSpawnController
 #include "GlobalNamespace/BeatmapObjectSpawnController.hpp"
 // Completed includes
@@ -37,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x24
     float jumpOffsetY;
     // public System.Void .ctor(System.Single beatsPerMinute, System.Int32 noteLinesCount, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, System.Boolean disappearingArrows, System.Boolean ghostNotes, System.Single jumpOffsetY)
-    // Offset: 0xB5BDF4
+    // Offset: 0xB59DF4
     static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, bool disappearingArrows, bool ghostNotes, float jumpOffsetY);
   }; // BeatmapObjectSpawnController/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnController::InitData*, "", "BeatmapObjectSpawnController/InitData");
 #pragma pack(pop)

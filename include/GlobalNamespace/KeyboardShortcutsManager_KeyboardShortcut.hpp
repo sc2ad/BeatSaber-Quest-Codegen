@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: KeyboardShortcutsManager
 #include "GlobalNamespace/KeyboardShortcutsManager.hpp"
 // Completed includes
@@ -25,20 +23,20 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::KeyCode combinationKey2;
     // public System.Void .ctor(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2)
-    // Offset: 0xCA251C
+    // Offset: 0xCB4F60
     static KeyboardShortcutsManager::KeyboardShortcut* New_ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xCA2984
+    // Offset: 0xCB53C8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xCA2998
+    // Offset: 0xCB53DC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
   }; // KeyboardShortcutsManager/KeyboardShortcut
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, "", "KeyboardShortcutsManager/KeyboardShortcut");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: IPlatformUserHandler
 #include "GlobalNamespace/IPlatformUserHandler.hpp"
 // Completed includes
@@ -37,37 +35,37 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PlatformUserModelSO::UserInfo* userInfo;
     // public PlatformInfo get_platformInfo()
-    // Offset: 0xC287E8
+    // Offset: 0xC3A22C
     // Implemented from: IPlatformUserHandler
     // Base method: PlatformInfo IPlatformUserHandler::get_platformInfo()
     GlobalNamespace::PlatformInfo* get_platformInfo();
     // public HMAsyncRequest GetUserInfo(PlatformUserModelSO/GetUserInfoCompletionHandler completionHandler)
-    // Offset: 0xC28850
+    // Offset: 0xC3A294
     // Implemented from: IPlatformUserHandler
     // Base method: HMAsyncRequest IPlatformUserHandler::GetUserInfo(PlatformUserModelSO/GetUserInfoCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUserInfo(GlobalNamespace::PlatformUserModelSO::GetUserInfoCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserFriendsUserIds(System.Boolean cached, PlatformUserModelSO/GetUserFriendsUserIdsCompletionHandler completionHandler)
-    // Offset: 0xC289A4
+    // Offset: 0xC3A3E8
     // Implemented from: IPlatformUserHandler
     // Base method: HMAsyncRequest IPlatformUserHandler::GetUserFriendsUserIds(System.Boolean cached, PlatformUserModelSO/GetUserFriendsUserIdsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUserFriendsUserIds(bool cached, GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserAuthToken(PlatformUserModelSO/GetUserAuthTokenCompletionHandler completionHandler)
-    // Offset: 0xC28B08
+    // Offset: 0xC3A54C
     // Implemented from: IPlatformUserHandler
     // Base method: HMAsyncRequest IPlatformUserHandler::GetUserAuthToken(PlatformUserModelSO/GetUserAuthTokenCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUserAuthToken(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserNamesForUserIds(System.String[] userIds, PlatformUserModelSO/GetUserNamesForUserIdsCompletionHandler completionHandler)
-    // Offset: 0xC28C20
+    // Offset: 0xC3A664
     // Implemented from: IPlatformUserHandler
     // Base method: HMAsyncRequest IPlatformUserHandler::GetUserNamesForUserIds(System.String[] userIds, PlatformUserModelSO/GetUserNamesForUserIdsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUserNamesForUserIds(::Array<::CsString*>* userIds, GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* completionHandler);
     // public System.Void .ctor()
-    // Offset: 0xC28CB0
+    // Offset: 0xC3A6F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformUserHandler* New_ctor();
   }; // OculusPlatformUserHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserHandler*, "", "OculusPlatformUserHandler");
 #pragma pack(pop)

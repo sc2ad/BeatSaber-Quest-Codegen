@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Including type: UnityEngine.UI.InputField
 #include "UnityEngine/UI/InputField.hpp"
+// Including type: UnityEngine.Events.UnityEvent`1
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
@@ -16,7 +16,7 @@ namespace UnityEngine::UI {
   class InputField::SubmitEvent : public UnityEngine::Events::UnityEvent_1<::CsString*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11E7B0C
+    // Offset: 0x11F9550
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -24,6 +24,6 @@ namespace UnityEngine::UI {
     static InputField::SubmitEvent* New_ctor();
   }; // UnityEngine.UI.InputField/SubmitEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::SubmitEvent*, "UnityEngine.UI", "InputField/SubmitEvent");
 #pragma pack(pop)

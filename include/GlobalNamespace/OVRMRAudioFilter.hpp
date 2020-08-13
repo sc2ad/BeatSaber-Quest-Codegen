@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::OVRExternalComposition* composition;
     // private System.Void Start()
-    // Offset: 0xE62888
+    // Offset: 0xE752CC
     void Start();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0xE62894
+    // Offset: 0xE752D8
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0xE628B0
+    // Offset: 0xE752F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -43,6 +43,6 @@ namespace GlobalNamespace {
     static OVRMRAudioFilter* New_ctor();
   }; // OVRMRAudioFilter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMRAudioFilter*, "", "OVRMRAudioFilter");
 #pragma pack(pop)

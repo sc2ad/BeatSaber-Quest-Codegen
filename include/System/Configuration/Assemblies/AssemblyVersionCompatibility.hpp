@@ -38,6 +38,6 @@ namespace System::Configuration::Assemblies {
     AssemblyVersionCompatibility(int value_ = {}) : value{value_} {}
   }; // System.Configuration.Assemblies.AssemblyVersionCompatibility
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::Assemblies::AssemblyVersionCompatibility, "System.Configuration.Assemblies", "AssemblyVersionCompatibility");
 #pragma pack(pop)

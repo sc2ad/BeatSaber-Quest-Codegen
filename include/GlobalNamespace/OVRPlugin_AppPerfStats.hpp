@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin/Bool
 #include "GlobalNamespace/OVRPlugin_Bool.hpp"
 // Completed includes
@@ -33,6 +33,6 @@ namespace GlobalNamespace {
     AppPerfStats(::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>* FrameStats_ = {}, int FrameStatsCount_ = {}, GlobalNamespace::OVRPlugin::Bool AnyFrameStatsDropped_ = {}, float AdaptiveGpuPerformanceScale_ = {}) : FrameStats{FrameStats_}, FrameStatsCount{FrameStatsCount_}, AnyFrameStatsDropped{AnyFrameStatsDropped_}, AdaptiveGpuPerformanceScale{AdaptiveGpuPerformanceScale_} {}
   }; // OVRPlugin/AppPerfStats
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfStats, "", "OVRPlugin/AppPerfStats");
 #pragma pack(pop)

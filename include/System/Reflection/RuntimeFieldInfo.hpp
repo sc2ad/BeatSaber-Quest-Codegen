@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Reflection.FieldInfo
 #include "System/Reflection/FieldInfo.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
@@ -38,24 +39,24 @@ namespace System::Reflection {
   class RuntimeFieldInfo : public System::Reflection::FieldInfo, public System::Runtime::Serialization::ISerializable {
     public:
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x11410D4
+    // Offset: 0x1152B18
     System::Reflection::BindingFlags get_BindingFlags();
     // System.RuntimeType GetDeclaringTypeInternal()
-    // Offset: 0x1141100
+    // Offset: 0x1152B44
     System::RuntimeType* GetDeclaringTypeInternal();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x114118C
+    // Offset: 0x1152BD0
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x11410E0
+    // Offset: 0x1152B24
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x11410DC
+    // Offset: 0x1152B20
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1141218
+    // Offset: 0x1152C5C
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -63,7 +64,7 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // protected System.Void .ctor()
-    // Offset: 0x11409D0
+    // Offset: 0x1152414
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Void FieldInfo::.ctor()
     // Base method: System.Void MemberInfo::.ctor()
@@ -71,6 +72,6 @@ namespace System::Reflection {
     static RuntimeFieldInfo* New_ctor();
   }; // System.Reflection.RuntimeFieldInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeFieldInfo*, "System.Reflection", "RuntimeFieldInfo");
 #pragma pack(pop)

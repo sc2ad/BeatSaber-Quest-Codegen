@@ -140,77 +140,77 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean _startWithSettings
     static void _set__startWithSettings(bool value);
     // private System.Void PresentFlowCoordinatorOrAskForTutorial(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0xBE8E08
+    // Offset: 0xBFA84C
     void PresentFlowCoordinatorOrAskForTutorial(HMUI::FlowCoordinator* flowCoordinator);
     // private System.Void HandleMainMenuViewControllerDidFinish(MainMenuViewController viewController, MainMenuViewController/MenuButton subMenuType)
-    // Offset: 0xBE8FB8
+    // Offset: 0xBFA9FC
     void HandleMainMenuViewControllerDidFinish(GlobalNamespace::MainMenuViewController* viewController, GlobalNamespace::MainMenuViewController::MenuButton subMenuType);
     // private System.Void HandleFloorAdjustViewControllerDidFinishEvent(FloorAdjustViewController viewController)
-    // Offset: 0xBE9374
+    // Offset: 0xBFADB8
     void HandleFloorAdjustViewControllerDidFinishEvent(GlobalNamespace::FloorAdjustViewController* viewController);
     // private System.Void HandlePlayerSettingsViewControllerDidFinish(PlayerSettingsViewController viewController)
-    // Offset: 0xBE97AC
+    // Offset: 0xBFB1F0
     void HandlePlayerSettingsViewControllerDidFinish(GlobalNamespace::PlayerSettingsViewController* viewController);
     // private System.Void HandleHowToPlayViewControllerDidPressTutorialButton()
-    // Offset: 0xBE97E8
+    // Offset: 0xBFB22C
     void HandleHowToPlayViewControllerDidPressTutorialButton();
     // private System.Void HandleCampaignFlowCoordinatorDidFinish(CampaignFlowCoordinator flowCoordinator)
-    // Offset: 0xBE993C
+    // Offset: 0xBFB380
     void HandleCampaignFlowCoordinatorDidFinish(GlobalNamespace::CampaignFlowCoordinator* flowCoordinator);
     // private System.Void HandleSoloFreePlayFlowCoordinatorDidFinish(LevelSelectionFlowCoordinator flowCoordinator)
-    // Offset: 0xBE994C
+    // Offset: 0xBFB390
     void HandleSoloFreePlayFlowCoordinatorDidFinish(GlobalNamespace::LevelSelectionFlowCoordinator* flowCoordinator);
     // private System.Void HandlePartyFreePlayFlowCoordinatorDidFinish(LevelSelectionFlowCoordinator flowCoordinator)
-    // Offset: 0xBE995C
+    // Offset: 0xBFB3A0
     void HandlePartyFreePlayFlowCoordinatorDidFinish(GlobalNamespace::LevelSelectionFlowCoordinator* flowCoordinator);
     // private System.Void HandleSettingsFlowCoordinatorDidFinish(SettingsFlowCoordinator settingsFlowCoordinator, SettingsFlowCoordinator/FinishAction finishAction)
-    // Offset: 0xBE996C
+    // Offset: 0xBFB3B0
     void HandleSettingsFlowCoordinatorDidFinish(GlobalNamespace::SettingsFlowCoordinator* settingsFlowCoordinator, GlobalNamespace::SettingsFlowCoordinator::FinishAction finishAction);
     // private System.Void HandlePromoViewControllerPromoButtonWasPressed(PromoViewController promoViewController, IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection, IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0xBE9A6C
+    // Offset: 0xBFB4B0
     void HandlePromoViewControllerPromoButtonWasPressed(GlobalNamespace::PromoViewController* promoViewController, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     // private System.Void ProcessMenuDestinationRequest(MenuDestination destination)
-    // Offset: 0xBE9AC8
+    // Offset: 0xBFB50C
     void ProcessMenuDestinationRequest(GlobalNamespace::MenuDestination* destination);
     // private System.Collections.IEnumerator ProcessMenuDestinationRequestAfterFrameCoroutine(MenuDestination destination)
-    // Offset: 0xBE8830
+    // Offset: 0xBFA274
     System::Collections::IEnumerator* ProcessMenuDestinationRequestAfterFrameCoroutine(GlobalNamespace::MenuDestination* destination);
     // private System.Void <PresentFlowCoordinatorOrAskForTutorial>b__25_0(System.Int32 buttonNumber)
-    // Offset: 0xBE9D88
+    // Offset: 0xBFB7CC
     void $PresentFlowCoordinatorOrAskForTutorial$b__25_0(int buttonNumber);
     // private System.Void <PresentFlowCoordinatorOrAskForTutorial>b__25_1()
-    // Offset: 0xBE9E40
+    // Offset: 0xBFB884
     void $PresentFlowCoordinatorOrAskForTutorial$b__25_1();
     // private System.Void <HandleMainMenuViewControllerDidFinish>b__26_0()
-    // Offset: 0xBE9E54
+    // Offset: 0xBFB898
     void $HandleMainMenuViewControllerDidFinish$b__26_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xBE8384
+    // Offset: 0xBF9DC8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
-    // Offset: 0xBE88C8
+    // Offset: 0xBFA30C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, bool immediately);
     // protected override System.Void InitialViewControllerWasPresented()
-    // Offset: 0xBE8A38
+    // Offset: 0xBFA47C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::InitialViewControllerWasPresented()
     void InitialViewControllerWasPresented();
     // protected override System.Void DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    // Offset: 0xBE8AB4
+    // Offset: 0xBFA4F8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
     void DidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xBE9CD8
+    // Offset: 0xBFB71C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0xBE9D80
+    // Offset: 0xBFB7C4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -221,6 +221,6 @@ namespace GlobalNamespace {
     static MainFlowCoordinator* New_ctor();
   }; // MainFlowCoordinator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator*, "", "MainFlowCoordinator");
 #pragma pack(pop)

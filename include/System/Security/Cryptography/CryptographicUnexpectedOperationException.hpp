@@ -23,7 +23,7 @@ namespace System::Security::Cryptography {
   class CryptographicUnexpectedOperationException : public System::Security::Cryptography::CryptographicException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xDD4390
+    // Offset: 0xDE6DD4
     // Implemented from: System.Security.Cryptography.CryptographicException
     // Base method: System.Void CryptographicException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     static CryptographicUnexpectedOperationException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xDD40EC
+    // Offset: 0xDE6B30
     // Implemented from: System.Security.Cryptography.CryptographicException
     // Base method: System.Void CryptographicException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static CryptographicUnexpectedOperationException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDD43C0
+    // Offset: 0xDE6E04
     // Implemented from: System.Security.Cryptography.CryptographicException
     // Base method: System.Void CryptographicException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -46,6 +46,6 @@ namespace System::Security::Cryptography {
     static CryptographicUnexpectedOperationException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Security.Cryptography.CryptographicUnexpectedOperationException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptographicUnexpectedOperationException*, "System.Security.Cryptography", "CryptographicUnexpectedOperationException");
 #pragma pack(pop)

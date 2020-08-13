@@ -40,16 +40,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool initialized;
     // public System.Void Initialize()
-    // Offset: 0x1968060
+    // Offset: 0xB8035C
     void Initialize();
     // public System.Void UnlockAchievement(AchievementSO achievement)
-    // Offset: 0x1969178
+    // Offset: 0xB81474
     void UnlockAchievement(GlobalNamespace::AchievementSO* achievement);
     // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
-    // Offset: 0x1969324
+    // Offset: 0xB81620
     void $Initialize$b__3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::CsString*>* achievementIds);
     // public System.Void .ctor()
-    // Offset: 0x19692A8
+    // Offset: 0xB815A4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -58,6 +58,6 @@ namespace GlobalNamespace {
     static AchievementsModelSO* New_ctor();
   }; // AchievementsModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO*, "", "AchievementsModelSO");
 #pragma pack(pop)

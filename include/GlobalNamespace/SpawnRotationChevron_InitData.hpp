@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: SpawnRotationChevron
 #include "GlobalNamespace/SpawnRotationChevron.hpp"
 // Completed includes
@@ -22,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x11
     bool enableSideLines;
     // public System.Void .ctor(System.Boolean enableChevron, System.Boolean enableSideLines)
-    // Offset: 0xB87B54
+    // Offset: 0xB99598
     static SpawnRotationChevron::InitData* New_ctor(bool enableChevron, bool enableSideLines);
   }; // SpawnRotationChevron/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevron::InitData*, "", "SpawnRotationChevron/InitData");
 #pragma pack(pop)

@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::RandomValueToShader* randomValueToShader;
     // protected System.Void OnEnable()
-    // Offset: 0x180F0E8
+    // Offset: 0x181FB2C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x180F224
+    // Offset: 0x181FC68
     void OnDisable();
     // public System.Void HandleCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x180F2F8
+    // Offset: 0x181FD3C
     void HandleCameraPreRender(UnityEngine::Camera* camera);
     // public System.Void .ctor()
-    // Offset: 0x180F408
+    // Offset: 0x181FE4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -53,6 +53,6 @@ namespace GlobalNamespace {
     static BlueNoiseDitheringUpdater* New_ctor();
   }; // BlueNoiseDitheringUpdater
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDitheringUpdater*, "", "BlueNoiseDitheringUpdater");
 #pragma pack(pop)

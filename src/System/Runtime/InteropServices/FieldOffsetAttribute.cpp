@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.InteropServices.FieldOffsetAttribute
 #include "System/Runtime/InteropServices/FieldOffsetAttribute.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

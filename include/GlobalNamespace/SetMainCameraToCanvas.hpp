@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::MainCamera* mainCamera;
     // private System.Void Start()
-    // Offset: 0xC18224
+    // Offset: 0xC29C68
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xC18250
+    // Offset: 0xC29C94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static SetMainCameraToCanvas* New_ctor();
   }; // SetMainCameraToCanvas
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetMainCameraToCanvas*, "", "SetMainCameraToCanvas");
 #pragma pack(pop)

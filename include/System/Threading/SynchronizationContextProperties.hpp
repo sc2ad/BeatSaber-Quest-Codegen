@@ -32,6 +32,6 @@ namespace System::Threading {
     SynchronizationContextProperties(int value_ = {}) : value{value_} {}
   }; // System.Threading.SynchronizationContextProperties
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContextProperties, "System.Threading", "SynchronizationContextProperties");
 #pragma pack(pop)

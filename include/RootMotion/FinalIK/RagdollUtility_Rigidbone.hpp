@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.RagdollUtility
 #include "RootMotion/FinalIK/RagdollUtility.hpp"
 // Completed includes
@@ -62,16 +60,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x68
     UnityEngine::Quaternion lastRotation;
     // public System.Void .ctor(UnityEngine.Rigidbody r)
-    // Offset: 0x121C1E0
+    // Offset: 0x122DC24
     static RagdollUtility::Rigidbone* New_ctor(UnityEngine::Rigidbody* r);
     // public System.Void RecordVelocity()
-    // Offset: 0x121CE58
+    // Offset: 0x122E89C
     void RecordVelocity();
     // public System.Void WakeUp(System.Single velocityWeight, System.Single angularVelocityWeight)
-    // Offset: 0x121CC3C
+    // Offset: 0x122E680
     void WakeUp(float velocityWeight, float angularVelocityWeight);
   }; // RootMotion.FinalIK.RagdollUtility/Rigidbone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Rigidbone*, "RootMotion.FinalIK", "RagdollUtility/Rigidbone");
 #pragma pack(pop)

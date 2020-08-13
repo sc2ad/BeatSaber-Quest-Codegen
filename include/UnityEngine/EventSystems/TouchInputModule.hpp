@@ -32,31 +32,31 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x70
     bool m_ForceModuleActive;
     // public System.Boolean get_allowActivationOnStandalone()
-    // Offset: 0xDECFE8
+    // Offset: 0xDFFA2C
     bool get_allowActivationOnStandalone();
     // public System.Void set_allowActivationOnStandalone(System.Boolean value)
-    // Offset: 0xDECFF0
+    // Offset: 0xDFFA34
     void set_allowActivationOnStandalone(bool value);
     // public System.Boolean get_forceModuleActive()
-    // Offset: 0xDECFFC
+    // Offset: 0xDFFA40
     bool get_forceModuleActive();
     // public System.Void set_forceModuleActive(System.Boolean value)
-    // Offset: 0xDED004
+    // Offset: 0xDFFA48
     void set_forceModuleActive(bool value);
     // private System.Boolean UseFakeInput()
-    // Offset: 0xDED2F4
+    // Offset: 0xDFFD38
     bool UseFakeInput();
     // private System.Void FakeTouches()
-    // Offset: 0xDED360
+    // Offset: 0xDFFDA4
     void FakeTouches();
     // private System.Void ProcessTouchEvents()
-    // Offset: 0xDED4A8
+    // Offset: 0xDFFEEC
     void ProcessTouchEvents();
     // protected System.Void ProcessTouchPress(UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released)
-    // Offset: 0xDED5FC
+    // Offset: 0xE00040
     void ProcessTouchPress(UnityEngine::EventSystems::PointerEventData* pointerEvent, bool pressed, bool released);
     // protected System.Void .ctor()
-    // Offset: 0xDECFE4
+    // Offset: 0xDFFA28
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.Void PointerInputModule::.ctor()
     // Base method: System.Void BaseInputModule::.ctor()
@@ -68,37 +68,37 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static TouchInputModule* New_ctor();
     // public override System.Void UpdateModule()
-    // Offset: 0xDED010
+    // Offset: 0xDFFA54
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::UpdateModule()
     void UpdateModule();
     // public override System.Boolean IsModuleSupported()
-    // Offset: 0xDED184
+    // Offset: 0xDFFBC8
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::IsModuleSupported()
     bool IsModuleSupported();
     // public override System.Boolean ShouldActivateModule()
-    // Offset: 0xDED1C0
+    // Offset: 0xDFFC04
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::ShouldActivateModule()
     bool ShouldActivateModule();
     // public override System.Void Process()
-    // Offset: 0xDED328
+    // Offset: 0xDFFD6C
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::Process()
     void Process();
     // public override System.Void DeactivateModule()
-    // Offset: 0xDEDD7C
+    // Offset: 0xE007C0
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::DeactivateModule()
     void DeactivateModule();
     // public override System.String ToString()
-    // Offset: 0xDEDD80
+    // Offset: 0xE007C4
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.String PointerInputModule::ToString()
     ::CsString* ToString();
   }; // UnityEngine.EventSystems.TouchInputModule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::TouchInputModule*, "UnityEngine.EventSystems", "TouchInputModule");
 #pragma pack(pop)

@@ -4,7 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include <stdint.h>
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.RuntimeElement
 #include "UnityEngine/Timeline/RuntimeElement.hpp"
 // Including type: UnityEngine.Playables.Playable
@@ -30,33 +30,33 @@ namespace UnityEngine::Timeline {
     // Set static field: static private readonly System.Int64 kIntervalEnd
     static void _set_kIntervalEnd(int64_t value);
     // public System.Void .ctor(UnityEngine.Playables.Playable playable)
-    // Offset: 0x107DE90
+    // Offset: 0x108D8D4
     static InfiniteRuntimeClip* New_ctor(UnityEngine::Playables::Playable playable);
     // static private System.Void .cctor()
-    // Offset: 0x1085BC8
+    // Offset: 0x109560C
     static void _cctor();
     // public override System.Int64 get_intervalStart()
-    // Offset: 0x1085A7C
+    // Offset: 0x10954C0
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalStart()
     int64_t get_intervalStart();
     // public override System.Int64 get_intervalEnd()
-    // Offset: 0x1085A84
+    // Offset: 0x10954C8
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalEnd()
     int64_t get_intervalEnd();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x1085AEC
+    // Offset: 0x1095530
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x1085B68
+    // Offset: 0x10955AC
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
   }; // UnityEngine.Timeline.InfiniteRuntimeClip
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");
 #pragma pack(pop)

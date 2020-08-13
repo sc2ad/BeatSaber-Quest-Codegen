@@ -21,16 +21,16 @@ namespace UnityEngine {
   class TextMesh : public UnityEngine::Component {
     public:
     // public System.Void set_text(System.String value)
-    // Offset: 0x194E618
+    // Offset: 0x196105C
     void set_text(::CsString* value);
     // public UnityEngine.TextAlignment get_alignment()
-    // Offset: 0x194E668
+    // Offset: 0x19610AC
     UnityEngine::TextAlignment get_alignment();
     // public System.Void set_alignment(UnityEngine.TextAlignment value)
-    // Offset: 0x194E6A8
+    // Offset: 0x19610EC
     void set_alignment(UnityEngine::TextAlignment value);
   }; // UnityEngine.TextMesh
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextMesh*, "UnityEngine", "TextMesh");
 #pragma pack(pop)

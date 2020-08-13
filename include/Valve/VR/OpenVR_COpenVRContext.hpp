@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Valve.VR.OpenVR
 #include "Valve/VR/OpenVR.hpp"
 // Completed includes
@@ -76,51 +74,51 @@ namespace Valve::VR {
     // Offset: 0x60
     Valve::VR::CVRTrackedCamera* m_pVRTrackedCamera;
     // public System.Void Clear()
-    // Offset: 0x1910E68
+    // Offset: 0x19218AC
     void Clear();
     // private System.Void CheckClear()
-    // Offset: 0x1910F94
+    // Offset: 0x19219D8
     void CheckClear();
     // public Valve.VR.CVRSystem VRSystem()
-    // Offset: 0x1910094
+    // Offset: 0x1920AD8
     Valve::VR::CVRSystem* VRSystem();
     // public Valve.VR.CVRChaperone VRChaperone()
-    // Offset: 0x19101C0
+    // Offset: 0x1920C04
     Valve::VR::CVRChaperone* VRChaperone();
     // public Valve.VR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0x19102EC
+    // Offset: 0x1920D30
     Valve::VR::CVRChaperoneSetup* VRChaperoneSetup();
     // public Valve.VR.CVRCompositor VRCompositor()
-    // Offset: 0x1910418
+    // Offset: 0x1920E5C
     Valve::VR::CVRCompositor* VRCompositor();
     // public Valve.VR.CVROverlay VROverlay()
-    // Offset: 0x1910544
+    // Offset: 0x1920F88
     Valve::VR::CVROverlay* VROverlay();
     // public Valve.VR.CVRRenderModels VRRenderModels()
-    // Offset: 0x1910670
+    // Offset: 0x19210B4
     Valve::VR::CVRRenderModels* VRRenderModels();
     // public Valve.VR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0x191079C
+    // Offset: 0x19211E0
     Valve::VR::CVRExtendedDisplay* VRExtendedDisplay();
     // public Valve.VR.CVRSettings VRSettings()
-    // Offset: 0x19108C8
+    // Offset: 0x192130C
     Valve::VR::CVRSettings* VRSettings();
     // public Valve.VR.CVRApplications VRApplications()
-    // Offset: 0x19109F4
+    // Offset: 0x1921438
     Valve::VR::CVRApplications* VRApplications();
     // public Valve.VR.CVRScreenshots VRScreenshots()
-    // Offset: 0x1910B20
+    // Offset: 0x1921564
     Valve::VR::CVRScreenshots* VRScreenshots();
     // public Valve.VR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0x1910C4C
+    // Offset: 0x1921690
     Valve::VR::CVRTrackedCamera* VRTrackedCamera();
     // public System.Void .ctor()
-    // Offset: 0x1910004
+    // Offset: 0x1920A48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OpenVR::COpenVRContext* New_ctor();
   }; // Valve.VR.OpenVR/COpenVRContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVR::COpenVRContext*, "Valve.VR", "OpenVR/COpenVRContext");
 #pragma pack(pop)

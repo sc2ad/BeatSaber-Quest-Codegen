@@ -32,6 +32,6 @@ namespace UnityEngine {
     LogOption(int value_ = {}) : value{value_} {}
   }; // UnityEngine.LogOption
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LogOption, "UnityEngine", "LogOption");
 #pragma pack(pop)

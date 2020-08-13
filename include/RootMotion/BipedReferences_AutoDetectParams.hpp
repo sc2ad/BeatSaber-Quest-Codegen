@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.BipedReferences
 #include "RootMotion/BipedReferences.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: RootMotion
 namespace RootMotion {
@@ -23,13 +24,13 @@ namespace RootMotion {
     // Creating value type constructor for type: AutoDetectParams
     AutoDetectParams(bool legsParentInSpine_ = {}, bool includeEyes_ = {}) : legsParentInSpine{legsParentInSpine_}, includeEyes{includeEyes_} {}
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
-    // Offset: 0xA43E98
+    // Offset: 0xA43F14
     static BipedReferences::AutoDetectParams* New_ctor(bool legsParentInSpine, bool includeEyes);
     // static public RootMotion.BipedReferences/AutoDetectParams get_Default()
-    // Offset: 0x1390954
+    // Offset: 0x13A2398
     static RootMotion::BipedReferences::AutoDetectParams get_Default();
   }; // RootMotion.BipedReferences/AutoDetectParams
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
 #pragma pack(pop)

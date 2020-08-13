@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::ColorSchemeSO*>* colorSchemes;
     // public ColorSchemeSO[] get_colorSchemes()
-    // Offset: 0x1964174
+    // Offset: 0x1976BB8
     ::Array<GlobalNamespace::ColorSchemeSO*>* get_colorSchemes();
     // public System.Void .ctor()
-    // Offset: 0x196417C
+    // Offset: 0x1976BC0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -35,6 +35,6 @@ namespace GlobalNamespace {
     static ColorSchemesListSO* New_ctor();
   }; // ColorSchemesListSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemesListSO*, "", "ColorSchemesListSO");
 #pragma pack(pop)

@@ -54,16 +54,16 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::RenderTexture* captureRenderTexture;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x18FAFF0
+    // Offset: 0x190AA34
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x18FB098
+    // Offset: 0x190AADC
     void OnDestroy();
     // private System.Void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x18FB17C
+    // Offset: 0x190ABC0
     void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x18FB474
+    // Offset: 0x190AEB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -73,6 +73,6 @@ namespace GlobalNamespace {
     static ScreenCaptureAfterDelay* New_ctor();
   }; // ScreenCaptureAfterDelay
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay*, "", "ScreenCaptureAfterDelay");
 #pragma pack(pop)

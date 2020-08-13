@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
@@ -13,7 +14,7 @@ namespace GlobalNamespace {
   class DoesNotRequireDomainReloadInitAttribute : public UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC999DC
+    // Offset: 0xCAC420
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -21,6 +22,6 @@ namespace GlobalNamespace {
     static DoesNotRequireDomainReloadInitAttribute* New_ctor();
   }; // DoesNotRequireDomainReloadInitAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DoesNotRequireDomainReloadInitAttribute*, "", "DoesNotRequireDomainReloadInitAttribute");
 #pragma pack(pop)

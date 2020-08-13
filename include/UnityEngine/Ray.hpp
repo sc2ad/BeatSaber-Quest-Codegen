@@ -24,30 +24,30 @@ namespace UnityEngine {
     // Creating value type constructor for type: Ray
     Ray(UnityEngine::Vector3 m_Origin_ = {}, UnityEngine::Vector3 m_Direction_ = {}) : m_Origin{m_Origin_}, m_Direction{m_Direction_} {}
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
-    // Offset: 0xA45530
+    // Offset: 0xA455AC
     static Ray* New_ctor(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);
     // public UnityEngine.Vector3 get_origin()
-    // Offset: 0xA45538
+    // Offset: 0xA455B4
     UnityEngine::Vector3 get_origin();
     // public System.Void set_origin(UnityEngine.Vector3 value)
-    // Offset: 0xA45544
+    // Offset: 0xA455C0
     void set_origin(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_direction()
-    // Offset: 0xA45550
+    // Offset: 0xA455CC
     UnityEngine::Vector3 get_direction();
     // public System.Void set_direction(UnityEngine.Vector3 value)
-    // Offset: 0xA4555C
+    // Offset: 0xA455D8
     void set_direction(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 GetPoint(System.Single distance)
-    // Offset: 0xA4559C
+    // Offset: 0xA45618
     UnityEngine::Vector3 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0xA455A4
+    // Offset: 0xA45620
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // UnityEngine.Ray
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray, "UnityEngine", "Ray");
 #pragma pack(pop)

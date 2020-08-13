@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -85,58 +83,58 @@ namespace System::Globalization {
     // Offset: 0x18
     System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern m_ymdFlags;
     // static private System.Collections.Generic.Dictionary`2<System.String,System.String> get_KnownWords()
-    // Offset: 0x12A81E0
+    // Offset: 0x12B9C24
     static System::Collections::Generic::Dictionary_2<::CsString*, ::CsString*>* get_KnownWords();
     // static System.Int32 SkipWhiteSpacesAndNonLetter(System.String pattern, System.Int32 currentIndex)
-    // Offset: 0x12A84E8
+    // Offset: 0x12B9F2C
     static int SkipWhiteSpacesAndNonLetter(::CsString* pattern, int currentIndex);
     // System.Void AddDateWordOrPostfix(System.String formatPostfix, System.String str)
-    // Offset: 0x12A85F4
+    // Offset: 0x12BA038
     void AddDateWordOrPostfix(::CsString* formatPostfix, ::CsString* str);
     // System.Int32 AddDateWords(System.String pattern, System.Int32 index, System.String formatPostfix)
-    // Offset: 0x12A88E4
+    // Offset: 0x12BA328
     int AddDateWords(::CsString* pattern, int index, ::CsString* formatPostfix);
     // static System.Int32 ScanRepeatChar(System.String pattern, System.Char ch, System.Int32 index, System.Int32 count)
-    // Offset: 0x12A8AD0
+    // Offset: 0x12BA514
     static int ScanRepeatChar(::CsString* pattern, ::Il2CppChar ch, int index, int& count);
     // System.Void AddIgnorableSymbols(System.String text)
-    // Offset: 0x12A87F0
+    // Offset: 0x12BA234
     void AddIgnorableSymbols(::CsString* text);
     // System.Void ScanDateWord(System.String pattern)
-    // Offset: 0x12A8B58
+    // Offset: 0x12BA59C
     void ScanDateWord(::CsString* pattern);
     // System.String[] GetDateWordsOfDTFI(System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x12A7384
+    // Offset: 0x12B8DC8
     ::Array<::CsString*>* GetDateWordsOfDTFI(System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.Globalization.FORMATFLAGS GetFormatFlagGenitiveMonth(System.String[] monthNames, System.String[] genitveMonthNames, System.String[] abbrevMonthNames, System.String[] genetiveAbbrevMonthNames)
-    // Offset: 0x12A5C7C
+    // Offset: 0x12B76C0
     static System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::Array<::CsString*>* monthNames, ::Array<::CsString*>* genitveMonthNames, ::Array<::CsString*>* abbrevMonthNames, ::Array<::CsString*>* genetiveAbbrevMonthNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(System.String[] monthNames, System.String[] genitveMonthNames, System.String[] abbrevMonthNames, System.String[] genetiveAbbrevMonthNames)
-    // Offset: 0x12A5CC0
+    // Offset: 0x12B7704
     static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::Array<::CsString*>* monthNames, ::Array<::CsString*>* genitveMonthNames, ::Array<::CsString*>* abbrevMonthNames, ::Array<::CsString*>* genetiveAbbrevMonthNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInDayNames(System.String[] dayNames, System.String[] abbrevDayNames)
-    // Offset: 0x12A5D70
+    // Offset: 0x12B77B4
     static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::Array<::CsString*>* dayNames, ::Array<::CsString*>* abbrevDayNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseHebrewCalendar(System.Int32 calID)
-    // Offset: 0x12A5DAC
+    // Offset: 0x12B77F0
     static System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(int calID);
     // static private System.Boolean EqualStringArrays(System.String[] array1, System.String[] array2)
-    // Offset: 0x12A8D8C
+    // Offset: 0x12BA7D0
     static bool EqualStringArrays(::Array<::CsString*>* array1, ::Array<::CsString*>* array2);
     // static private System.Boolean ArrayElementsHaveSpace(System.String[] array)
-    // Offset: 0x12A90BC
+    // Offset: 0x12BAB00
     static bool ArrayElementsHaveSpace(::Array<::CsString*>* array);
     // static private System.Boolean ArrayElementsBeginWithDigit(System.String[] array)
-    // Offset: 0x12A8E48
+    // Offset: 0x12BA88C
     static bool ArrayElementsBeginWithDigit(::Array<::CsString*>* array);
     // public System.Void .ctor()
-    // Offset: 0x12A7308
+    // Offset: 0x12B8D4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DateTimeFormatInfoScanner* New_ctor();
   }; // System.Globalization.DateTimeFormatInfoScanner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner*, "System.Globalization", "DateTimeFormatInfoScanner");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern, "System.Globalization", "DateTimeFormatInfoScanner/FoundDatePattern");
 #pragma pack(pop)

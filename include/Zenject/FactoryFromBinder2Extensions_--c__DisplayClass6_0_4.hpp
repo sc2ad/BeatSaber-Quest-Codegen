@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.FactoryFromBinder2Extensions
 #include "Zenject/FactoryFromBinder2Extensions.hpp"
 // Including type: System.Guid

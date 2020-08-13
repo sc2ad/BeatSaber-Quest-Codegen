@@ -123,100 +123,100 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xE0
     UnityEngine::EventSystems::PointerInputModule::MouseState* m_MouseState;
     // public UnityEngine.EventSystems.OVRInputModule/InputMode get_inputMode()
-    // Offset: 0x18E6E08
+    // Offset: 0x18F784C
     UnityEngine::EventSystems::OVRInputModule::InputMode get_inputMode();
     // public System.Boolean get_allowActivationOnMobileDevice()
-    // Offset: 0x18E6E10
+    // Offset: 0x18F7854
     bool get_allowActivationOnMobileDevice();
     // public System.Void set_allowActivationOnMobileDevice(System.Boolean value)
-    // Offset: 0x18E6E18
+    // Offset: 0x18F785C
     void set_allowActivationOnMobileDevice(bool value);
     // public System.Single get_inputActionsPerSecond()
-    // Offset: 0x18E6E24
+    // Offset: 0x18F7868
     float get_inputActionsPerSecond();
     // public System.Void set_inputActionsPerSecond(System.Single value)
-    // Offset: 0x18E6E2C
+    // Offset: 0x18F7870
     void set_inputActionsPerSecond(float value);
     // public System.String get_horizontalAxis()
-    // Offset: 0x18E6E34
+    // Offset: 0x18F7878
     ::CsString* get_horizontalAxis();
     // public System.Void set_horizontalAxis(System.String value)
-    // Offset: 0x18E6E3C
+    // Offset: 0x18F7880
     void set_horizontalAxis(::CsString* value);
     // public System.String get_verticalAxis()
-    // Offset: 0x18E6E44
+    // Offset: 0x18F7888
     ::CsString* get_verticalAxis();
     // public System.Void set_verticalAxis(System.String value)
-    // Offset: 0x18E6E4C
+    // Offset: 0x18F7890
     void set_verticalAxis(::CsString* value);
     // public System.String get_submitButton()
-    // Offset: 0x18E6E54
+    // Offset: 0x18F7898
     ::CsString* get_submitButton();
     // public System.Void set_submitButton(System.String value)
-    // Offset: 0x18E6E5C
+    // Offset: 0x18F78A0
     void set_submitButton(::CsString* value);
     // public System.String get_cancelButton()
-    // Offset: 0x18E6E64
+    // Offset: 0x18F78A8
     ::CsString* get_cancelButton();
     // public System.Void set_cancelButton(System.String value)
-    // Offset: 0x18E6E6C
+    // Offset: 0x18F78B0
     void set_cancelButton(::CsString* value);
     // private System.Boolean SendSubmitEventToSelectedObject()
-    // Offset: 0x18E7444
+    // Offset: 0x18F7E88
     bool SendSubmitEventToSelectedObject();
     // private System.Boolean AllowMoveEventProcessing(System.Single time)
-    // Offset: 0x18E7654
+    // Offset: 0x18F8098
     bool AllowMoveEventProcessing(float time);
     // private UnityEngine.Vector2 GetRawMoveVector()
-    // Offset: 0x18E76B4
+    // Offset: 0x18F80F8
     UnityEngine::Vector2 GetRawMoveVector();
     // private System.Boolean SendMoveEventToSelectedObject()
-    // Offset: 0x18E779C
+    // Offset: 0x18F81E0
     bool SendMoveEventToSelectedObject();
     // private System.Boolean SendUpdateEventToSelectedObject()
-    // Offset: 0x18E7994
+    // Offset: 0x18F83D8
     bool SendUpdateEventToSelectedObject();
     // private System.Void ProcessMousePress(UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData data)
-    // Offset: 0x18E7AE8
+    // Offset: 0x18F852C
     void ProcessMousePress(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* data);
     // private System.Void ProcessMouseEvent(UnityEngine.EventSystems.PointerInputModule/MouseState mouseData)
-    // Offset: 0x18E8350
+    // Offset: 0x18F8D94
     void ProcessMouseEvent(UnityEngine::EventSystems::PointerInputModule::MouseState* mouseData);
     // static private System.Boolean UseMouse(System.Boolean pressed, System.Boolean released, UnityEngine.EventSystems.PointerEventData pointerData)
-    // Offset: 0x18E85F0
+    // Offset: 0x18F9034
     static bool UseMouse(bool pressed, bool released, UnityEngine::EventSystems::PointerEventData* pointerData);
     // protected System.Void CopyFromTo(UnityEngine.EventSystems.OVRPointerEventData from, UnityEngine.EventSystems.OVRPointerEventData to)
-    // Offset: 0x18E86F4
+    // Offset: 0x18F9138
     void CopyFromTo(UnityEngine::EventSystems::OVRPointerEventData* from, UnityEngine::EventSystems::OVRPointerEventData* to);
     // protected System.Boolean GetPointerData(System.Int32 id, UnityEngine.EventSystems.OVRPointerEventData data, System.Boolean create)
-    // Offset: 0x18E87F8
+    // Offset: 0x18F923C
     bool GetPointerData(int id, UnityEngine::EventSystems::OVRPointerEventData*& data, bool create);
     // static private UnityEngine.Vector3 GetRectTransformNormal(UnityEngine.RectTransform rectTransform)
-    // Offset: 0x18E88F0
+    // Offset: 0x18F9334
     static UnityEngine::Vector3 GetRectTransformNormal(UnityEngine::RectTransform* rectTransform);
     // protected UnityEngine.EventSystems.PointerInputModule/MouseState GetGazePointerData()
-    // Offset: 0x18E8A70
+    // Offset: 0x18F94B4
     UnityEngine::EventSystems::PointerInputModule::MouseState* GetGazePointerData();
     // protected UnityEngine.EventSystems.PointerInputModule/MouseState GetCanvasPointerData()
-    // Offset: 0x18E95BC
+    // Offset: 0x18FA000
     UnityEngine::EventSystems::PointerInputModule::MouseState* GetCanvasPointerData();
     // private System.Boolean ShouldStartDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x18E99A4
+    // Offset: 0x18FA3E8
     bool ShouldStartDrag(UnityEngine::EventSystems::PointerEventData* pointerEvent);
     // static private System.Boolean IsPointerMoving(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x18E86B0
+    // Offset: 0x18F90F4
     static bool IsPointerMoving(UnityEngine::EventSystems::PointerEventData* pointerEvent);
     // protected UnityEngine.Vector2 SwipeAdjustedPosition(UnityEngine.Vector2 originalPosition, UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x18E9D28
+    // Offset: 0x18FA76C
     UnityEngine::Vector2 SwipeAdjustedPosition(UnityEngine::Vector2 originalPosition, UnityEngine::EventSystems::PointerEventData* pointerEvent);
     // protected UnityEngine.EventSystems.PointerEventData/FramePressState GetGazeButtonState()
-    // Offset: 0x18EA1C0
+    // Offset: 0x18FAC04
     UnityEngine::EventSystems::PointerEventData::FramePressState GetGazeButtonState();
     // protected UnityEngine.Vector2 GetExtraScrollDelta()
-    // Offset: 0x18E9080
+    // Offset: 0x18F9AC4
     UnityEngine::Vector2 GetExtraScrollDelta();
     // protected System.Void .ctor()
-    // Offset: 0x18E6CC0
+    // Offset: 0x18F7704
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.Void PointerInputModule::.ctor()
     // Base method: System.Void BaseInputModule::.ctor()
@@ -228,52 +228,52 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static OVRInputModule* New_ctor();
     // public override System.Void UpdateModule()
-    // Offset: 0x18E6E74
+    // Offset: 0x18F78B8
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::UpdateModule()
     void UpdateModule();
     // public override System.Boolean IsModuleSupported()
-    // Offset: 0x18E6F18
+    // Offset: 0x18F795C
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::IsModuleSupported()
     bool IsModuleSupported();
     // public override System.Boolean ShouldActivateModule()
-    // Offset: 0x18E6F30
+    // Offset: 0x18F7974
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::ShouldActivateModule()
     bool ShouldActivateModule();
     // public override System.Void ActivateModule()
-    // Offset: 0x18E70C4
+    // Offset: 0x18F7B08
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::ActivateModule()
     void ActivateModule();
     // public override System.Void DeactivateModule()
-    // Offset: 0x18E7200
+    // Offset: 0x18F7C44
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::DeactivateModule()
     void DeactivateModule();
     // public override System.Void Process()
-    // Offset: 0x18E8640
+    // Offset: 0x18F9084
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::Process()
     void Process();
     // protected System.Void CopyFromTo(UnityEngine.EventSystems.PointerEventData from, UnityEngine.EventSystems.PointerEventData to)
-    // Offset: 0x18E8780
+    // Offset: 0x18F91C4
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.Void PointerInputModule::CopyFromTo(UnityEngine.EventSystems.PointerEventData from, UnityEngine.EventSystems.PointerEventData to)
     void CopyFromTo(UnityEngine::EventSystems::PointerEventData* from, UnityEngine::EventSystems::PointerEventData* to);
     // protected System.Void ClearSelection()
-    // Offset: 0x18E7228
+    // Offset: 0x18F7C6C
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.Void PointerInputModule::ClearSelection()
     void ClearSelection();
     // protected override System.Void ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x18E9E78
+    // Offset: 0x18FA8BC
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.Void PointerInputModule::ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
     void ProcessDrag(UnityEngine::EventSystems::PointerEventData* pointerEvent);
   }; // UnityEngine.EventSystems.OVRInputModule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");
 #pragma pack(pop)

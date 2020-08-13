@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BeatmapDifficulty
 #include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Completed includes
@@ -77,12 +75,12 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
     // public System.Void .ctor()
-    // Offset: 0xC0569C
+    // Offset: 0xC170E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1* New_ctor();
   }; // PlayerSaveDataV1_0_1
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1*, "", "PlayerSaveDataV1_0_1");
 #pragma pack(pop)

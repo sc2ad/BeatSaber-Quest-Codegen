@@ -14,12 +14,12 @@ namespace GlobalNamespace {
   class DistanceObjectiveValueFormatterSO : public GlobalNamespace::ObjectiveValueFormatterSO {
     public:
     // public override System.String FormatValue(System.Int32 value)
-    // Offset: 0xBD3248
+    // Offset: 0xBE5C8C
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
     ::CsString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0xBD32C4
+    // Offset: 0xBE5D08
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.Void ObjectiveValueFormatterSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -29,6 +29,6 @@ namespace GlobalNamespace {
     static DistanceObjectiveValueFormatterSO* New_ctor();
   }; // DistanceObjectiveValueFormatterSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DistanceObjectiveValueFormatterSO*, "", "DistanceObjectiveValueFormatterSO");
 #pragma pack(pop)

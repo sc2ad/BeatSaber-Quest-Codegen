@@ -78,64 +78,64 @@ namespace GlobalNamespace {
     // Offset: 0x64
     int selectedColumn;
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x196B74C
+    // Offset: 0xB83A48
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x196B7F0
+    // Offset: 0xB83AEC
     void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // private System.Void Init()
-    // Offset: 0x196B894
+    // Offset: 0xB83B90
     void Init();
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection[] annotatedBeatmapLevelCollections)
-    // Offset: 0x196BA00
+    // Offset: 0xB83CFC
     void SetData(::Array<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections);
     // protected System.Void OnEnable()
-    // Offset: 0x196BA70
+    // Offset: 0xB83D6C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x196BAF8
+    // Offset: 0xB83DF4
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x196BB80
+    // Offset: 0xB83E7C
     void OnDestroy();
     // public System.Void Hide()
-    // Offset: 0x196BC14
+    // Offset: 0xB83F10
     void Hide();
     // public System.Void Show()
-    // Offset: 0x196BC30
+    // Offset: 0xB83F2C
     void Show();
     // private System.Void HandleDidSelectColumnEvent(HMUI.TableView tableView, System.Int32 column)
-    // Offset: 0x196BEB4
+    // Offset: 0xB841B0
     void HandleDidSelectColumnEvent(HMUI::TableView* tableView, int column);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x196BF58
+    // Offset: 0xB84254
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x196C020
+    // Offset: 0xB8431C
     void CancelAsyncOperations();
     // public System.Void RefreshAvailability()
-    // Offset: 0x196C2D4
+    // Offset: 0xB845D0
     void RefreshAvailability();
     // public System.Void SelectAndScrollToCellWithIdx(System.Int32 idx)
-    // Offset: 0x196C594
+    // Offset: 0xB84890
     void SelectAndScrollToCellWithIdx(int idx);
     // public System.Single CellSize()
-    // Offset: 0x196BC4C
+    // Offset: 0xB83F48
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x196BC54
+    // Offset: 0xB83F50
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x196BC6C
+    // Offset: 0xB83F68
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x196C5E8
+    // Offset: 0xB848E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -145,6 +145,6 @@ namespace GlobalNamespace {
     static AnnotatedBeatmapLevelCollectionsTableView* New_ctor();
   }; // AnnotatedBeatmapLevelCollectionsTableView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, "", "AnnotatedBeatmapLevelCollectionsTableView");
 #pragma pack(pop)

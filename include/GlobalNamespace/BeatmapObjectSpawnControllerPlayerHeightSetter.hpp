@@ -29,19 +29,19 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PlayerHeightDetector* playerHeightDetector;
     // protected System.Void Start()
-    // Offset: 0xB5BE6C
+    // Offset: 0xB59E6C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB5BF4C
+    // Offset: 0xB59F4C
     void OnDestroy();
     // private System.Void HandlePlayerHeightDidChange(System.Single playerHeight)
-    // Offset: 0xB5BF20
+    // Offset: 0xB59F20
     void HandlePlayerHeightDidChange(float playerHeight);
     // static public System.Single JumpOffsetYForPlayerHeight(System.Single playerHeight)
-    // Offset: 0xB5C028
+    // Offset: 0xB5A028
     static float JumpOffsetYForPlayerHeight(float playerHeight);
     // public System.Void .ctor()
-    // Offset: 0xB5C0B8
+    // Offset: 0xB5A0B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static BeatmapObjectSpawnControllerPlayerHeightSetter* New_ctor();
   }; // BeatmapObjectSpawnControllerPlayerHeightSetter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*, "", "BeatmapObjectSpawnControllerPlayerHeightSetter");
 #pragma pack(pop)

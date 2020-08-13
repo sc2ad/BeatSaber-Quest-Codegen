@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.StreamingContext
 #include "System/Runtime/Serialization/StreamingContext.hpp"
 // Completed includes
@@ -37,19 +35,19 @@ namespace System::Runtime::Serialization {
     // Offset: 0x20
     System::Runtime::Serialization::StreamingContext m_context;
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFD49AC
+    // Offset: 0xFE53F0
     static SerializationObjectManager* New_ctor(System::Runtime::Serialization::StreamingContext context);
     // public System.Void RegisterObject(System.Object obj)
-    // Offset: 0xFDC424
+    // Offset: 0xFECE68
     void RegisterObject(::CsObject* obj);
     // public System.Void RaiseOnSerializedEvent()
-    // Offset: 0xFD5AEC
+    // Offset: 0xFE6530
     void RaiseOnSerializedEvent();
     // private System.Void AddOnSerialized(System.Object obj)
-    // Offset: 0xFEB5E4
+    // Offset: 0xFFC028
     void AddOnSerialized(::CsObject* obj);
   }; // System.Runtime.Serialization.SerializationObjectManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationObjectManager*, "System.Runtime.Serialization", "SerializationObjectManager");
 #pragma pack(pop)

@@ -65,39 +65,39 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     System::Action* didFinishEvent;
     // public System.Void add_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0xB42FF4
+    // Offset: 0xB40FF4
     void add_privacyPolicyButtonPressedEvent(System::Action* value);
     // public System.Void remove_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0xB43384
+    // Offset: 0xB41384
     void remove_privacyPolicyButtonPressedEvent(System::Action* value);
     // public System.Void add_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0xB43098
+    // Offset: 0xB41098
     void add_openDataPrivacyPageButtonPressedEvent(System::Action* value);
     // public System.Void remove_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0xB43428
+    // Offset: 0xB41428
     void remove_openDataPrivacyPageButtonPressedEvent(System::Action* value);
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0xB42F50
+    // Offset: 0xB40F50
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0xB432E0
+    // Offset: 0xB412E0
     void remove_didFinishEvent(System::Action* value);
     // private System.Void <DidActivate>b__15_0()
-    // Offset: 0xB43F58
+    // Offset: 0xB41F58
     void $DidActivate$b__15_0();
     // private System.Void <DidActivate>b__15_1()
-    // Offset: 0xB43F6C
+    // Offset: 0xB41F6C
     void $DidActivate$b__15_1();
     // private System.Void <DidActivate>b__15_2()
-    // Offset: 0xB43F80
+    // Offset: 0xB41F80
     void $DidActivate$b__15_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB43CB8
+    // Offset: 0xB41CB8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB43F50
+    // Offset: 0xB41F50
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -108,6 +108,6 @@ namespace GlobalNamespace {
     static HealthWarningViewController* New_ctor();
   }; // HealthWarningViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
 #pragma pack(pop)

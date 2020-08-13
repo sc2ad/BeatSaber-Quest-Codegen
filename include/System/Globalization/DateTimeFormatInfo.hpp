@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.IFormatProvider
@@ -408,289 +406,289 @@ namespace System::Globalization {
     // Set static field: static private System.Globalization.DateTimeFormatInfo s_zhtwDTFI
     static void _set_s_zhtwDTFI(System::Globalization::DateTimeFormatInfo* value);
     // static private System.Boolean InitPreferExistingTokens()
-    // Offset: 0x12A2038
+    // Offset: 0x12B3A7C
     static bool InitPreferExistingTokens();
     // private System.String get_CultureName()
-    // Offset: 0x12A2040
+    // Offset: 0x12B3A84
     ::CsString* get_CultureName();
     // private System.Globalization.CultureInfo get_Culture()
-    // Offset: 0x12A2088
+    // Offset: 0x12B3ACC
     System::Globalization::CultureInfo* get_Culture();
     // private System.String get_LanguageName()
-    // Offset: 0x12A2120
+    // Offset: 0x12B3B64
     ::CsString* get_LanguageName();
     // private System.String[] internalGetAbbreviatedDayOfWeekNames()
-    // Offset: 0x12A2168
+    // Offset: 0x12B3BAC
     ::Array<::CsString*>* internalGetAbbreviatedDayOfWeekNames();
     // private System.String[] internalGetDayOfWeekNames()
-    // Offset: 0x12A21D8
+    // Offset: 0x12B3C1C
     ::Array<::CsString*>* internalGetDayOfWeekNames();
     // private System.String[] internalGetAbbreviatedMonthNames()
-    // Offset: 0x12A2248
+    // Offset: 0x12B3C8C
     ::Array<::CsString*>* internalGetAbbreviatedMonthNames();
     // private System.String[] internalGetMonthNames()
-    // Offset: 0x12A22B8
+    // Offset: 0x12B3CFC
     ::Array<::CsString*>* internalGetMonthNames();
     // System.Void .ctor(System.Globalization.CultureData cultureData, System.Globalization.Calendar cal)
-    // Offset: 0x129E23C
+    // Offset: 0x12AFC80
     static DateTimeFormatInfo* New_ctor(System::Globalization::CultureData* cultureData, System::Globalization::Calendar* cal);
     // private System.Void InitializeOverridableProperties(System.Globalization.CultureData cultureData, System.Int32 calendarID)
-    // Offset: 0x12A2884
+    // Offset: 0x12B42C8
     void InitializeOverridableProperties(System::Globalization::CultureData* cultureData, int calendarID);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x12A2A04
+    // Offset: 0x12B4448
     void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x12A323C
+    // Offset: 0x12B4C80
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // static public System.Globalization.DateTimeFormatInfo get_InvariantInfo()
-    // Offset: 0x12A37F4
+    // Offset: 0x12B5238
     static System::Globalization::DateTimeFormatInfo* get_InvariantInfo();
     // static public System.Globalization.DateTimeFormatInfo get_CurrentInfo()
-    // Offset: 0x12A38EC
+    // Offset: 0x12B5330
     static System::Globalization::DateTimeFormatInfo* get_CurrentInfo();
     // static public System.Globalization.DateTimeFormatInfo GetInstance(System.IFormatProvider provider)
-    // Offset: 0x12A39D8
+    // Offset: 0x12B541C
     static System::Globalization::DateTimeFormatInfo* GetInstance(System::IFormatProvider* provider);
     // public System.String get_AMDesignator()
-    // Offset: 0x12A3C20
+    // Offset: 0x12B5664
     ::CsString* get_AMDesignator();
     // public System.Globalization.Calendar get_Calendar()
-    // Offset: 0x12A3C28
+    // Offset: 0x12B566C
     System::Globalization::Calendar* get_Calendar();
     // public System.Void set_Calendar(System.Globalization.Calendar value)
-    // Offset: 0x12A24AC
+    // Offset: 0x12B3EF0
     void set_Calendar(System::Globalization::Calendar* value);
     // private System.Int32[] get_OptionalCalendars()
-    // Offset: 0x12A3C30
+    // Offset: 0x12B5674
     ::Array<int>* get_OptionalCalendars();
     // System.String[] get_EraNames()
-    // Offset: 0x12A3CB4
+    // Offset: 0x12B56F8
     ::Array<::CsString*>* get_EraNames();
     // public System.String GetEraName(System.Int32 era)
-    // Offset: 0x12A3D20
+    // Offset: 0x12B5764
     ::CsString* GetEraName(int era);
     // System.String[] get_AbbreviatedEraNames()
-    // Offset: 0x12A3E30
+    // Offset: 0x12B5874
     ::Array<::CsString*>* get_AbbreviatedEraNames();
     // public System.String GetAbbreviatedEraName(System.Int32 era)
-    // Offset: 0x12A3E9C
+    // Offset: 0x12B58E0
     ::CsString* GetAbbreviatedEraName(int era);
     // System.String[] get_AbbreviatedEnglishEraNames()
-    // Offset: 0x12A3FC4
+    // Offset: 0x12B5A08
     ::Array<::CsString*>* get_AbbreviatedEnglishEraNames();
     // public System.String get_DateSeparator()
-    // Offset: 0x12A4030
+    // Offset: 0x12B5A74
     ::CsString* get_DateSeparator();
     // public System.String get_FullDateTimePattern()
-    // Offset: 0x12A4038
+    // Offset: 0x12B5A7C
     ::CsString* get_FullDateTimePattern();
     // public System.String get_LongDatePattern()
-    // Offset: 0x12A33E0
+    // Offset: 0x12B4E24
     ::CsString* get_LongDatePattern();
     // public System.Void set_LongDatePattern(System.String value)
-    // Offset: 0x12A2C40
+    // Offset: 0x12B4684
     void set_LongDatePattern(::CsString* value);
     // public System.String get_LongTimePattern()
-    // Offset: 0x12A3380
+    // Offset: 0x12B4DC4
     ::CsString* get_LongTimePattern();
     // public System.Void set_LongTimePattern(System.String value)
-    // Offset: 0x12A2FCC
+    // Offset: 0x12B4A10
     void set_LongTimePattern(::CsString* value);
     // public System.String get_MonthDayPattern()
-    // Offset: 0x12A418C
+    // Offset: 0x12B5BD0
     ::CsString* get_MonthDayPattern();
     // public System.String get_PMDesignator()
-    // Offset: 0x12A41FC
+    // Offset: 0x12B5C40
     ::CsString* get_PMDesignator();
     // public System.String get_RFC1123Pattern()
-    // Offset: 0x12A4204
+    // Offset: 0x12B5C48
     ::CsString* get_RFC1123Pattern();
     // public System.String get_ShortDatePattern()
-    // Offset: 0x12A34A0
+    // Offset: 0x12B4EE4
     ::CsString* get_ShortDatePattern();
     // public System.Void set_ShortDatePattern(System.String value)
-    // Offset: 0x12A2D68
+    // Offset: 0x12B47AC
     void set_ShortDatePattern(::CsString* value);
     // public System.String get_ShortTimePattern()
-    // Offset: 0x12A3440
+    // Offset: 0x12B4E84
     ::CsString* get_ShortTimePattern();
     // public System.Void set_ShortTimePattern(System.String value)
-    // Offset: 0x12A3114
+    // Offset: 0x12B4B58
     void set_ShortTimePattern(::CsString* value);
     // public System.String get_SortableDateTimePattern()
-    // Offset: 0x12A4308
+    // Offset: 0x12B5D4C
     ::CsString* get_SortableDateTimePattern();
     // System.String get_GeneralShortTimePattern()
-    // Offset: 0x12A4350
+    // Offset: 0x12B5D94
     ::CsString* get_GeneralShortTimePattern();
     // System.String get_GeneralLongTimePattern()
-    // Offset: 0x12A43E8
+    // Offset: 0x12B5E2C
     ::CsString* get_GeneralLongTimePattern();
     // System.String get_DateTimeOffsetPattern()
-    // Offset: 0x12A4480
+    // Offset: 0x12B5EC4
     ::CsString* get_DateTimeOffsetPattern();
     // public System.String get_TimeSeparator()
-    // Offset: 0x12A4630
+    // Offset: 0x12B6074
     ::CsString* get_TimeSeparator();
     // public System.String get_UniversalSortableDateTimePattern()
-    // Offset: 0x12A4638
+    // Offset: 0x12B607C
     ::CsString* get_UniversalSortableDateTimePattern();
     // public System.String get_YearMonthPattern()
-    // Offset: 0x12A3500
+    // Offset: 0x12B4F44
     ::CsString* get_YearMonthPattern();
     // public System.Void set_YearMonthPattern(System.String value)
-    // Offset: 0x12A2EB0
+    // Offset: 0x12B48F4
     void set_YearMonthPattern(::CsString* value);
     // public System.String[] get_AbbreviatedDayNames()
-    // Offset: 0x12A46F0
+    // Offset: 0x12B6134
     ::Array<::CsString*>* get_AbbreviatedDayNames();
     // public System.String[] get_DayNames()
-    // Offset: 0x12A4774
+    // Offset: 0x12B61B8
     ::Array<::CsString*>* get_DayNames();
     // public System.String[] get_AbbreviatedMonthNames()
-    // Offset: 0x12A47F8
+    // Offset: 0x12B623C
     ::Array<::CsString*>* get_AbbreviatedMonthNames();
     // public System.String[] get_MonthNames()
-    // Offset: 0x12A487C
+    // Offset: 0x12B62C0
     ::Array<::CsString*>* get_MonthNames();
     // System.Boolean get_HasSpacesInMonthNames()
-    // Offset: 0x12A4900
+    // Offset: 0x12B6344
     bool get_HasSpacesInMonthNames();
     // System.Boolean get_HasSpacesInDayNames()
-    // Offset: 0x12A4A7C
+    // Offset: 0x12B64C0
     bool get_HasSpacesInDayNames();
     // System.String internalGetMonthName(System.Int32 month, System.Globalization.MonthNameStyles style, System.Boolean abbreviated)
-    // Offset: 0x12A4A94
+    // Offset: 0x12B64D8
     ::CsString* internalGetMonthName(int month, System::Globalization::MonthNameStyles style, bool abbreviated);
     // private System.String[] internalGetGenitiveMonthNames(System.Boolean abbreviated)
-    // Offset: 0x12A4C74
+    // Offset: 0x12B66B8
     ::Array<::CsString*>* internalGetGenitiveMonthNames(bool abbreviated);
     // System.String[] internalGetLeapYearMonthNames()
-    // Offset: 0x12A4D24
+    // Offset: 0x12B6768
     ::Array<::CsString*>* internalGetLeapYearMonthNames();
     // public System.String GetAbbreviatedDayName(System.DayOfWeek dayofweek)
-    // Offset: 0x12A4D94
+    // Offset: 0x12B67D8
     ::CsString* GetAbbreviatedDayName(System::DayOfWeek dayofweek);
     // static private System.String[] GetCombinedPatterns(System.String[] patterns1, System.String[] patterns2, System.String connectString)
-    // Offset: 0x12A4F0C
+    // Offset: 0x12B6950
     static ::Array<::CsString*>* GetCombinedPatterns(::Array<::CsString*>* patterns1, ::Array<::CsString*>* patterns2, ::CsString* connectString);
     // public System.String[] GetAllDateTimePatterns(System.Char format)
-    // Offset: 0x12A50A4
+    // Offset: 0x12B6AE8
     ::Array<::CsString*>* GetAllDateTimePatterns(::Il2CppChar format);
     // public System.String GetDayName(System.DayOfWeek dayofweek)
-    // Offset: 0x12A5404
+    // Offset: 0x12B6E48
     ::CsString* GetDayName(System::DayOfWeek dayofweek);
     // public System.String GetAbbreviatedMonthName(System.Int32 month)
-    // Offset: 0x12A557C
+    // Offset: 0x12B6FC0
     ::CsString* GetAbbreviatedMonthName(int month);
     // public System.String GetMonthName(System.Int32 month)
-    // Offset: 0x12A56FC
+    // Offset: 0x12B7140
     ::CsString* GetMonthName(int month);
     // static private System.String[] GetMergedPatterns(System.String[] patterns, System.String defaultPattern)
-    // Offset: 0x12A587C
+    // Offset: 0x12B72C0
     static ::Array<::CsString*>* GetMergedPatterns(::Array<::CsString*>* patterns, ::CsString* defaultPattern);
     // private System.String[] get_AllYearMonthPatterns()
-    // Offset: 0x12A3770
+    // Offset: 0x12B51B4
     ::Array<::CsString*>* get_AllYearMonthPatterns();
     // private System.String[] get_AllShortDatePatterns()
-    // Offset: 0x12A36EC
+    // Offset: 0x12B5130
     ::Array<::CsString*>* get_AllShortDatePatterns();
     // private System.String[] get_AllShortTimePatterns()
-    // Offset: 0x12A3668
+    // Offset: 0x12B50AC
     ::Array<::CsString*>* get_AllShortTimePatterns();
     // private System.String[] get_AllLongDatePatterns()
-    // Offset: 0x12A35E4
+    // Offset: 0x12B5028
     ::Array<::CsString*>* get_AllLongDatePatterns();
     // private System.String[] get_AllLongTimePatterns()
-    // Offset: 0x12A3560
+    // Offset: 0x12B4FA4
     ::Array<::CsString*>* get_AllLongTimePatterns();
     // private System.String[] get_UnclonedYearMonthPatterns()
-    // Offset: 0x12A4680
+    // Offset: 0x12B60C4
     ::Array<::CsString*>* get_UnclonedYearMonthPatterns();
     // private System.String[] get_UnclonedShortDatePatterns()
-    // Offset: 0x12A424C
+    // Offset: 0x12B5C90
     ::Array<::CsString*>* get_UnclonedShortDatePatterns();
     // private System.String[] get_UnclonedLongDatePatterns()
-    // Offset: 0x12A40D0
+    // Offset: 0x12B5B14
     ::Array<::CsString*>* get_UnclonedLongDatePatterns();
     // private System.String[] get_UnclonedShortTimePatterns()
-    // Offset: 0x12A42B8
+    // Offset: 0x12B5CFC
     ::Array<::CsString*>* get_UnclonedShortTimePatterns();
     // private System.String[] get_UnclonedLongTimePatterns()
-    // Offset: 0x12A413C
+    // Offset: 0x12B5B80
     ::Array<::CsString*>* get_UnclonedLongTimePatterns();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x12A5A9C
+    // Offset: 0x12B74E0
     bool get_IsReadOnly();
     // System.String get_FullTimeSpanPositivePattern()
-    // Offset: 0x12A5AA4
+    // Offset: 0x12B74E8
     ::CsString* get_FullTimeSpanPositivePattern();
     // System.String get_FullTimeSpanNegativePattern()
-    // Offset: 0x12A5B78
+    // Offset: 0x12B75BC
     ::CsString* get_FullTimeSpanNegativePattern();
     // System.Globalization.CompareInfo get_CompareInfo()
-    // Offset: 0x12A5BFC
+    // Offset: 0x12B7640
     System::Globalization::CompareInfo* get_CompareInfo();
     // System.Globalization.DateTimeFormatFlags get_FormatFlags()
-    // Offset: 0x12A4918
+    // Offset: 0x12B635C
     System::Globalization::DateTimeFormatFlags get_FormatFlags();
     // System.Boolean get_HasForceTwoDigitYears()
-    // Offset: 0x12A5DBC
+    // Offset: 0x12B7800
     bool get_HasForceTwoDigitYears();
     // System.Boolean YearMonthAdjustment(System.Int32 year, System.Int32 month, System.Boolean parsedMonthName)
-    // Offset: 0x12A5DF0
+    // Offset: 0x12B7834
     bool YearMonthAdjustment(int& year, int& month, bool parsedMonthName);
     // static System.Globalization.DateTimeFormatInfo GetJapaneseCalendarDTFI()
-    // Offset: 0x12A5F14
+    // Offset: 0x12B7958
     static System::Globalization::DateTimeFormatInfo* GetJapaneseCalendarDTFI();
     // static System.Globalization.DateTimeFormatInfo GetTaiwanCalendarDTFI()
-    // Offset: 0x12A6118
+    // Offset: 0x12B7B5C
     static System::Globalization::DateTimeFormatInfo* GetTaiwanCalendarDTFI();
     // private System.Void ClearTokenHashTable()
-    // Offset: 0x12A3C80
+    // Offset: 0x12B56C4
     void ClearTokenHashTable();
     // System.Globalization.TokenHashValue[] CreateTokenHashTable()
-    // Offset: 0x12A6244
+    // Offset: 0x12B7C88
     ::Array<System::Globalization::TokenHashValue*>* CreateTokenHashTable();
     // private System.Void AddMonthNames(System.Globalization.TokenHashValue[] temp, System.String monthPostfix)
-    // Offset: 0x12A7654
+    // Offset: 0x12B9098
     void AddMonthNames(::Array<System::Globalization::TokenHashValue*>* temp, ::CsString* monthPostfix);
     // static private System.Boolean TryParseHebrewNumber(System.__DTString str, System.Boolean badFormat, System.Int32 number)
-    // Offset: 0x12A7710
+    // Offset: 0x12B9154
     static bool TryParseHebrewNumber(System::__DTString& str, bool& badFormat, int& number);
     // static private System.Boolean IsHebrewChar(System.Char ch)
-    // Offset: 0x12A7B64
+    // Offset: 0x12B95A8
     static bool IsHebrewChar(::Il2CppChar ch);
     // System.Boolean Tokenize(System.TokenType TokenMask, System.TokenType tokenType, System.Int32 tokenValue, System.__DTString str)
-    // Offset: 0x12A7B78
+    // Offset: 0x12B95BC
     bool Tokenize(System::TokenType TokenMask, System::TokenType& tokenType, int& tokenValue, System::__DTString& str);
     // private System.Void InsertAtCurrentHashNode(System.Globalization.TokenHashValue[] hashTable, System.String str, System.Char ch, System.TokenType tokenType, System.Int32 tokenValue, System.Int32 pos, System.Int32 hashcode, System.Int32 hashProbe)
-    // Offset: 0x12A7F8C
+    // Offset: 0x12B99D0
     void InsertAtCurrentHashNode(::Array<System::Globalization::TokenHashValue*>* hashTable, ::CsString* str, ::Il2CppChar ch, System::TokenType tokenType, int tokenValue, int pos, int hashcode, int hashProbe);
     // private System.Void InsertHash(System.Globalization.TokenHashValue[] hashTable, System.String str, System.TokenType tokenType, System.Int32 tokenValue)
-    // Offset: 0x12A6F10
+    // Offset: 0x12B8954
     void InsertHash(::Array<System::Globalization::TokenHashValue*>* hashTable, ::CsString* str, System::TokenType tokenType, int tokenValue);
     // static private System.Void .cctor()
-    // Offset: 0x12A8190
+    // Offset: 0x12B9BD4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x12A2328
+    // Offset: 0x12B3D6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DateTimeFormatInfo* New_ctor();
     // public System.Object GetFormat(System.Type formatType)
-    // Offset: 0x12A3B84
+    // Offset: 0x12B55C8
     // Implemented from: System.IFormatProvider
     // Base method: System.Object IFormatProvider::GetFormat(System.Type formatType)
     ::CsObject* GetFormat(System::Type* formatType);
     // public System.Object Clone()
-    // Offset: 0x129D920
+    // Offset: 0x12AF364
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::CsObject* Clone();
   }; // System.Globalization.DateTimeFormatInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfo*, "System.Globalization", "DateTimeFormatInfo");
 #pragma pack(pop)

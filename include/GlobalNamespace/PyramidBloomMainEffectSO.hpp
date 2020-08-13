@@ -90,33 +90,33 @@ namespace GlobalNamespace {
     // Offset: 0x68
     UnityEngine::Material* mainEffectMaterial;
     // protected System.Void OnDisable()
-    // Offset: 0x18FA958
+    // Offset: 0x190A39C
     void OnDisable();
     // private System.Void LazyInitializeMaterials()
-    // Offset: 0x18FA7F4
+    // Offset: 0x190A238
     void LazyInitializeMaterials();
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x18FA7C4
+    // Offset: 0x190A208
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x18FA7CC
+    // Offset: 0x190A210
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x18FA9AC
+    // Offset: 0x190A3F0
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x18FAA20
+    // Offset: 0x190A464
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void .ctor()
-    // Offset: 0x18FACA4
+    // Offset: 0x190A6E8
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -125,12 +125,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PyramidBloomMainEffectSO* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18FACD8
+    // Offset: 0x190A71C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // PyramidBloomMainEffectSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomMainEffectSO*, "", "PyramidBloomMainEffectSO");
 #pragma pack(pop)

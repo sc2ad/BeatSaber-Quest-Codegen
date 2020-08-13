@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Completed includes
@@ -44,12 +42,12 @@ namespace LeaderboardsDTO {
     // Offset: 0x38
     ::Array<LeaderboardsDTO::GameplayModifiersDTO>* gameplayModifiers;
     // public System.Void .ctor()
-    // Offset: 0xB47568
+    // Offset: 0xB45568
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardEntryDTO* New_ctor();
   }; // LeaderboardsDTO.LeaderboardEntryDTO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntryDTO*, "LeaderboardsDTO", "LeaderboardEntryDTO");
 #pragma pack(pop)

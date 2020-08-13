@@ -29,10 +29,10 @@ namespace UnityEngine {
     // Creating value type constructor for type: HumanPose
     HumanPose(UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, ::Array<float>* muscles_ = {}) : bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, muscles{muscles_} {}
     // System.Void Init()
-    // Offset: 0xA5A3A4
+    // Offset: 0xA5A420
     void Init();
   }; // UnityEngine.HumanPose
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPose, "UnityEngine", "HumanPose");
 #pragma pack(pop)

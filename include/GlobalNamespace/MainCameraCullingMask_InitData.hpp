@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MainCameraCullingMask
 #include "GlobalNamespace/MainCameraCullingMask.hpp"
 // Completed includes
@@ -19,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     bool showDebris;
     // public System.Void .ctor(System.Boolean showDebris)
-    // Offset: 0x18F7BA8
+    // Offset: 0x19075EC
     static MainCameraCullingMask::InitData* New_ctor(bool showDebris);
   }; // MainCameraCullingMask/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCameraCullingMask::InitData*, "", "MainCameraCullingMask/InitData");
 #pragma pack(pop)

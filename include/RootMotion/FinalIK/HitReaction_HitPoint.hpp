@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.HitReaction
 #include "RootMotion/FinalIK/HitReaction.hpp"
 // Completed includes
@@ -58,37 +56,37 @@ namespace RootMotion::FinalIK {
     // Offset: 0x4C
     float lastTime;
     // public System.Boolean get_inProgress()
-    // Offset: 0x1363818
+    // Offset: 0x137625C
     bool get_inProgress();
     // protected System.Single get_crossFader()
-    // Offset: 0x1363DC0
+    // Offset: 0x1376804
     float get_crossFader();
     // private System.Void set_crossFader(System.Single value)
-    // Offset: 0x1363DC8
+    // Offset: 0x137680C
     void set_crossFader(float value);
     // protected System.Single get_timer()
-    // Offset: 0x1363DD0
+    // Offset: 0x1376814
     float get_timer();
     // private System.Void set_timer(System.Single value)
-    // Offset: 0x1363DD8
+    // Offset: 0x137681C
     void set_timer(float value);
     // protected UnityEngine.Vector3 get_force()
-    // Offset: 0x1363DE0
+    // Offset: 0x1376824
     UnityEngine::Vector3 get_force();
     // private System.Void set_force(UnityEngine.Vector3 value)
-    // Offset: 0x1363DEC
+    // Offset: 0x1376830
     void set_force(UnityEngine::Vector3 value);
     // protected UnityEngine.Vector3 get_point()
-    // Offset: 0x1363DF8
+    // Offset: 0x137683C
     UnityEngine::Vector3 get_point();
     // private System.Void set_point(UnityEngine.Vector3 value)
-    // Offset: 0x1363E04
+    // Offset: 0x1376848
     void set_point(UnityEngine::Vector3 value);
     // public System.Void Hit(UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1363C8C
+    // Offset: 0x13766D0
     void Hit(UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1363900
+    // Offset: 0x1376344
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // protected System.Single GetLength()
     // Offset: 0xFFFFFFFF
@@ -100,12 +98,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OnApply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // protected System.Void .ctor()
-    // Offset: 0x1363E10
+    // Offset: 0x1376854
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HitReaction::HitPoint* New_ctor();
   }; // RootMotion.FinalIK.HitReaction/HitPoint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPoint*, "RootMotion.FinalIK", "HitReaction/HitPoint");
 #pragma pack(pop)

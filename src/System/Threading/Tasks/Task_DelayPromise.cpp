@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.Tasks.Task/DelayPromise
 #include "System/Threading/Tasks/Task_DelayPromise.hpp"
 // Including type: System.Threading.Timer

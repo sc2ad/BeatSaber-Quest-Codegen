@@ -5,6 +5,8 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: TutorialSongController
+#include "GlobalNamespace/TutorialSongController.hpp"
 // Including type: TutorialSongController/TutorialObjectSpawnData
 #include "GlobalNamespace/TutorialSongController_TutorialObjectSpawnData.hpp"
 // Including type: ObstacleType
@@ -32,10 +34,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ObstacleType obstacleType;
     // public System.Void .ctor(Signal gameEvent, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, System.Int32 width, ObstacleType obstacleType)
-    // Offset: 0xC3622C
+    // Offset: 0xC47C70
     static TutorialSongController::TutorialObstacleSpawnData* New_ctor(GlobalNamespace::Signal* gameEvent, int firstTimeBeatOffset, int beatOffset, int lineIndex, int width, GlobalNamespace::ObstacleType obstacleType);
   }; // TutorialSongController/TutorialObstacleSpawnData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*, "", "TutorialSongController/TutorialObstacleSpawnData");
 #pragma pack(pop)

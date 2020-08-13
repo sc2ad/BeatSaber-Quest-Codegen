@@ -32,6 +32,6 @@ namespace UnityEngine::Playables {
     PlayableTraversalMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Playables.PlayableTraversalMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableTraversalMode, "UnityEngine.Playables", "PlayableTraversalMode");
 #pragma pack(pop)

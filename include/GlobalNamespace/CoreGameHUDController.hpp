@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::CoreGameHUDController::InitData* initData;
     // protected System.Void Start()
-    // Offset: 0xBCD330
+    // Offset: 0xBDFD74
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xBCD3BC
+    // Offset: 0xBDFE00
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     static CoreGameHUDController* New_ctor();
   }; // CoreGameHUDController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoreGameHUDController*, "", "CoreGameHUDController");
 #pragma pack(pop)

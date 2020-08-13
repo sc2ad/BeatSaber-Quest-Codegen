@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.Callback
 #include "Oculus/Platform/Callback.hpp"
 // Completed includes
@@ -19,18 +17,18 @@ namespace Oculus::Platform {
     // Offset: 0x10
     Oculus::Platform::Message::Callback* messageCallback;
     // public System.Void .ctor(Oculus.Platform.Message/Callback callback)
-    // Offset: 0xE806C4
+    // Offset: 0xE93108
     static Callback::RequestCallback* New_ctor(Oculus::Platform::Message::Callback* callback);
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0xE80E88
+    // Offset: 0xE938CC
     void HandleMessage(Oculus::Platform::Message* msg);
     // public System.Void .ctor()
-    // Offset: 0xE80E80
+    // Offset: 0xE938C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Callback::RequestCallback* New_ctor();
   }; // Oculus.Platform.Callback/RequestCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback::RequestCallback*, "Oculus.Platform", "Callback/RequestCallback");
 #pragma pack(pop)

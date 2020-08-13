@@ -34,39 +34,39 @@ namespace System::IO {
     // Offset: 0x68
     System::TermInfoDriver* driver;
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean leaveOpen)
-    // Offset: 0x11195E4
+    // Offset: 0x112A028
     static CStreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, bool leaveOpen);
     // public System.Void InternalWriteString(System.String val)
-    // Offset: 0x1119D18
+    // Offset: 0x112A75C
     void InternalWriteString(::CsString* val);
     // public System.Void InternalWriteChar(System.Char val)
-    // Offset: 0x1119C44
+    // Offset: 0x112A688
     void InternalWriteChar(::Il2CppChar val);
     // public System.Void InternalWriteChars(System.Char[] buffer, System.Int32 n)
-    // Offset: 0x1119DEC
+    // Offset: 0x112A830
     void InternalWriteChars(::Array<::Il2CppChar>* buffer, int n);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x11196F4
+    // Offset: 0x112A138
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.Char val)
-    // Offset: 0x1119A70
+    // Offset: 0x112A4B4
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char val)
     void Write(::Il2CppChar val);
     // public override System.Void Write(System.Char[] val)
-    // Offset: 0x1119ECC
+    // Offset: 0x112A910
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] val)
     void Write(::Array<::Il2CppChar>* val);
     // public override System.Void Write(System.String val)
-    // Offset: 0x1119EF4
+    // Offset: 0x112A938
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String val)
     void Write(::CsString* val);
   }; // System.IO.CStreamWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamWriter*, "System.IO", "CStreamWriter");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -58,6 +58,6 @@ namespace GlobalNamespace {
     FixedFoveatedRenderingLevel(int value_ = {}) : value{value_} {}
   }; // OVRPlugin/FixedFoveatedRenderingLevel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel, "", "OVRPlugin/FixedFoveatedRenderingLevel");
 #pragma pack(pop)

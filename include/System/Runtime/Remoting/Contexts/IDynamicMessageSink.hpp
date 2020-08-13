@@ -25,6 +25,6 @@ namespace System::Runtime::Remoting::Contexts {
     void ProcessMessageStart(System::Runtime::Remoting::Messaging::IMessage* reqMsg, bool bCliSide, bool bAsync);
   }; // System.Runtime.Remoting.Contexts.IDynamicMessageSink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IDynamicMessageSink*, "System.Runtime.Remoting.Contexts", "IDynamicMessageSink");
 #pragma pack(pop)

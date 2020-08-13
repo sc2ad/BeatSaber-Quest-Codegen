@@ -4,6 +4,9 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: OVRInput
+#include "GlobalNamespace/OVRInput.hpp"
 // Including type: OVRInput/OVRControllerBase
 #include "GlobalNamespace/OVRInput_OVRControllerBase.hpp"
 // Completed includes
@@ -13,38 +16,38 @@ namespace GlobalNamespace {
   class OVRInput::OVRControllerGamepadAndroid : public GlobalNamespace::OVRInput::OVRControllerBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0xE59308
+    // Offset: 0xE6BD4C
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerGamepadAndroid* New_ctor();
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0xE5E994
+    // Offset: 0xE713D8
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0xE5EBA4
+    // Offset: 0xE715E8
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0xE5EC54
+    // Offset: 0xE71698
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0xE5ECA4
+    // Offset: 0xE716E8
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0xE5ECFC
+    // Offset: 0xE71740
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
   }; // OVRInput/OVRControllerGamepadAndroid
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerGamepadAndroid*, "", "OVRInput/OVRControllerGamepadAndroid");
 #pragma pack(pop)

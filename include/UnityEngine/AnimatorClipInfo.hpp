@@ -22,6 +22,6 @@ namespace UnityEngine {
     AnimatorClipInfo(int m_ClipInstanceID_ = {}, float m_Weight_ = {}) : m_ClipInstanceID{m_ClipInstanceID_}, m_Weight{m_Weight_} {}
   }; // UnityEngine.AnimatorClipInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");
 #pragma pack(pop)

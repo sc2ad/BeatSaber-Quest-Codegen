@@ -70,12 +70,12 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0xB90008
+    // Offset: 0xBA1A4C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xB90624
+    // Offset: 0xBA2068
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -86,6 +86,6 @@ namespace GlobalNamespace {
     static StandardLevelNoTransitionInstaller* New_ctor();
   }; // StandardLevelNoTransitionInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelNoTransitionInstaller*, "", "StandardLevelNoTransitionInstaller");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
@@ -113,83 +111,83 @@ namespace System::Reflection {
     // Offset: 0x6C
     System::Reflection::AssemblyContentType contentType;
     // static private System.Boolean ParseAssemblyName(System.IntPtr name, Mono.MonoAssemblyName aname, System.Boolean is_version_definited, System.Boolean is_token_defined)
-    // Offset: 0x134CCF8
+    // Offset: 0x135F73C
     static bool ParseAssemblyName(System::IntPtr name, Mono::MonoAssemblyName& aname, bool& is_version_definited, bool& is_token_defined);
     // public System.Void .ctor(System.String assemblyName)
-    // Offset: 0x134CCFC
+    // Offset: 0x135F740
     static AssemblyName* New_ctor(::CsString* assemblyName);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc)
-    // Offset: 0x134CF1C
+    // Offset: 0x135F960
     static AssemblyName* New_ctor(System::Runtime::Serialization::SerializationInfo* si, System::Runtime::Serialization::StreamingContext sc);
     // public System.String get_Name()
-    // Offset: 0x134D324
+    // Offset: 0x135FD68
     ::CsString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x134D32C
+    // Offset: 0x135FD70
     void set_Name(::CsString* value);
     // public System.Globalization.CultureInfo get_CultureInfo()
-    // Offset: 0x134D334
+    // Offset: 0x135FD78
     System::Globalization::CultureInfo* get_CultureInfo();
     // public System.Void set_CultureInfo(System.Globalization.CultureInfo value)
-    // Offset: 0x134D33C
+    // Offset: 0x135FD80
     void set_CultureInfo(System::Globalization::CultureInfo* value);
     // public System.Reflection.AssemblyNameFlags get_Flags()
-    // Offset: 0x134D344
+    // Offset: 0x135FD88
     System::Reflection::AssemblyNameFlags get_Flags();
     // public System.Void set_Flags(System.Reflection.AssemblyNameFlags value)
-    // Offset: 0x134D34C
+    // Offset: 0x135FD90
     void set_Flags(System::Reflection::AssemblyNameFlags value);
     // public System.String get_FullName()
-    // Offset: 0x134D354
+    // Offset: 0x135FD98
     ::CsString* get_FullName();
     // public System.Version get_Version()
-    // Offset: 0x134D76C
+    // Offset: 0x13601B0
     System::Version* get_Version();
     // public System.Void set_Version(System.Version value)
-    // Offset: 0x134BF10
+    // Offset: 0x135E954
     void set_Version(System::Version* value);
     // public System.Byte[] GetPublicKey()
-    // Offset: 0x134D7A8
+    // Offset: 0x13601EC
     ::Array<uint8_t>* GetPublicKey();
     // public System.Byte[] GetPublicKeyToken()
-    // Offset: 0x134D7B0
+    // Offset: 0x13601F4
     ::Array<uint8_t>* GetPublicKeyToken();
     // private System.Boolean get_IsPublicKeyValid()
-    // Offset: 0x134D8AC
+    // Offset: 0x13602F0
     bool get_IsPublicKeyValid();
     // private System.Byte[] InternalGetPublicKeyToken()
-    // Offset: 0x134D684
+    // Offset: 0x13600C8
     ::Array<uint8_t>* InternalGetPublicKeyToken();
     // static private System.Void get_public_token(System.Byte* token, System.Byte* pubkey, System.Int32 len)
-    // Offset: 0x134D9D0
+    // Offset: 0x1360414
     static void get_public_token(uint8_t* token, uint8_t* pubkey, int len);
     // private System.Byte[] ComputePublicKeyToken()
-    // Offset: 0x134D93C
+    // Offset: 0x1360380
     ::Array<uint8_t>* ComputePublicKeyToken();
     // public System.Void SetPublicKey(System.Byte[] publicKey)
-    // Offset: 0x134BEF0
+    // Offset: 0x135E934
     void SetPublicKey(::Array<uint8_t>* publicKey);
     // static private Mono.MonoAssemblyName* GetNativeName(System.IntPtr assembly_ptr)
-    // Offset: 0x134DD58
+    // Offset: 0x136079C
     static Mono::MonoAssemblyName* GetNativeName(System::IntPtr assembly_ptr);
     // System.Void FillName(Mono.MonoAssemblyName* native, System.String codeBase, System.Boolean addVersion, System.Boolean addPublickey, System.Boolean defaultToken, System.Boolean assemblyRef)
-    // Offset: 0x134C394
+    // Offset: 0x135EDD8
     void FillName(Mono::MonoAssemblyName* native, ::CsString* codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
     // static System.Reflection.AssemblyName Create(System.Reflection.Assembly assembly, System.Boolean fillCodebase)
-    // Offset: 0x134DD5C
+    // Offset: 0x13607A0
     static System::Reflection::AssemblyName* Create(System::Reflection::Assembly* assembly, bool fillCodebase);
     // public System.Void .ctor()
-    // Offset: 0x134BEE4
+    // Offset: 0x135E928
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AssemblyName* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x134D774
+    // Offset: 0x13601B8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x134D9D4
+    // Offset: 0x1360418
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -197,12 +195,12 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object Clone()
-    // Offset: 0x134DC3C
+    // Offset: 0x1360680
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::CsObject* Clone();
     // public System.Void OnDeserialization(System.Object sender)
-    // Offset: 0x134DD50
+    // Offset: 0x1360794
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void OnDeserialization(::CsObject* sender);
@@ -211,6 +209,6 @@ namespace System::Reflection {
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::CsObject* sender);
   }; // System.Reflection.AssemblyName
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");
 #pragma pack(pop)

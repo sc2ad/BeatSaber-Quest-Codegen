@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::CampaignProgressModel* missionProgressModel;
     // public System.Void .ctor()
-    // Offset: 0xBF3DE0
+    // Offset: 0xC05824
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -44,6 +44,6 @@ namespace GlobalNamespace {
     static MissionNodeGizmos* New_ctor();
   }; // MissionNodeGizmos
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeGizmos*, "", "MissionNodeGizmos");
 #pragma pack(pop)

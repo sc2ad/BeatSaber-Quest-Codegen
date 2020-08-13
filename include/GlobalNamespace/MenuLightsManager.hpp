@@ -47,34 +47,34 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::MenuLightsPresetSO* preset;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xBEC8B0
+    // Offset: 0xBFE2F4
     System::Collections::IEnumerator* Start();
     // protected System.Void Update()
-    // Offset: 0xBEC958
+    // Offset: 0xBFE39C
     void Update();
     // private System.Boolean IsColorVeryCloseToColor(UnityEngine.Color color0, UnityEngine.Color color1)
-    // Offset: 0xBECB0C
+    // Offset: 0xBFE550
     bool IsColorVeryCloseToColor(UnityEngine::Color color0, UnityEngine::Color color1);
     // private System.Void SetColor(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0xBECC34
+    // Offset: 0xBFE678
     void SetColor(int lightId, UnityEngine::Color color);
     // private UnityEngine.Color CurrentColorForID(System.Int32 lightId)
-    // Offset: 0xBECC50
+    // Offset: 0xBFE694
     UnityEngine::Color CurrentColorForID(int lightId);
     // private System.Boolean SetColorsFromPreset(MenuLightsPresetSO preset, System.Single interpolationFactor)
-    // Offset: 0xBEC9A8
+    // Offset: 0xBFE3EC
     bool SetColorsFromPreset(GlobalNamespace::MenuLightsPresetSO* preset, float interpolationFactor);
     // private System.Void RefreshLightsDictForPreset(MenuLightsPresetSO preset)
-    // Offset: 0xBECCA8
+    // Offset: 0xBFE6EC
     void RefreshLightsDictForPreset(GlobalNamespace::MenuLightsPresetSO* preset);
     // public System.Void SetColorPreset(MenuLightsPresetSO preset, System.Boolean animated)
-    // Offset: 0xBE8744
+    // Offset: 0xBFA188
     void SetColorPreset(GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
     // public System.Void RefreshColors()
-    // Offset: 0xBECD80
+    // Offset: 0xBFE7C4
     void RefreshColors();
     // public System.Void .ctor()
-    // Offset: 0xBECE28
+    // Offset: 0xBFE86C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -84,6 +84,6 @@ namespace GlobalNamespace {
     static MenuLightsManager* New_ctor();
   }; // MenuLightsManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsManager*, "", "MenuLightsManager");
 #pragma pack(pop)

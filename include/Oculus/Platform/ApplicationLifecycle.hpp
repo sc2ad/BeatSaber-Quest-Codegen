@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 // Completed includes
@@ -23,13 +21,13 @@ namespace Oculus::Platform {
   class ApplicationLifecycle : public ::CsObject {
     public:
     // static public Oculus.Platform.Models.LaunchDetails GetLaunchDetails()
-    // Offset: 0x157E374
+    // Offset: 0x158CDB8
     static Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
     // static public System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1/Callback<System.String> callback)
-    // Offset: 0x157E474
+    // Offset: 0x158CEB8
     static void SetLaunchIntentChangedNotificationCallback(typename Oculus::Platform::Message_1<::CsString*>::Callback* callback);
   }; // Oculus.Platform.ApplicationLifecycle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ApplicationLifecycle*, "Oculus.Platform", "ApplicationLifecycle");
 #pragma pack(pop)

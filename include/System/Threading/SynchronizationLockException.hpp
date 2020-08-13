@@ -23,26 +23,26 @@ namespace System::Threading {
   class SynchronizationLockException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCC7AA0
+    // Offset: 0xCDA4E4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static SynchronizationLockException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xCC76D4
+    // Offset: 0xCDA118
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static SynchronizationLockException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xCC7B14
+    // Offset: 0xCDA558
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static SynchronizationLockException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Threading.SynchronizationLockException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationLockException*, "System.Threading", "SynchronizationLockException");
 #pragma pack(pop)

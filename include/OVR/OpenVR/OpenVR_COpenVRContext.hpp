@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVR.OpenVR.OpenVR
 #include "OVR/OpenVR/OpenVR.hpp"
 // Completed includes
@@ -86,57 +84,57 @@ namespace OVR::OpenVR {
     // Offset: 0x70
     OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors;
     // public System.Void Clear()
-    // Offset: 0xCB1044
+    // Offset: 0xCC4A88
     void Clear();
     // private System.Void CheckClear()
-    // Offset: 0xCB1190
+    // Offset: 0xCC4BD4
     void CheckClear();
     // public OVR.OpenVR.CVRSystem VRSystem()
-    // Offset: 0xCAFF14
+    // Offset: 0xCC3958
     OVR::OpenVR::CVRSystem* VRSystem();
     // public OVR.OpenVR.CVRChaperone VRChaperone()
-    // Offset: 0xCB0040
+    // Offset: 0xCC3A84
     OVR::OpenVR::CVRChaperone* VRChaperone();
     // public OVR.OpenVR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0xCB016C
+    // Offset: 0xCC3BB0
     OVR::OpenVR::CVRChaperoneSetup* VRChaperoneSetup();
     // public OVR.OpenVR.CVRCompositor VRCompositor()
-    // Offset: 0xCB0298
+    // Offset: 0xCC3CDC
     OVR::OpenVR::CVRCompositor* VRCompositor();
     // public OVR.OpenVR.CVROverlay VROverlay()
-    // Offset: 0xCB03C4
+    // Offset: 0xCC3E08
     OVR::OpenVR::CVROverlay* VROverlay();
     // public OVR.OpenVR.CVRRenderModels VRRenderModels()
-    // Offset: 0xCB04F0
+    // Offset: 0xCC3F34
     OVR::OpenVR::CVRRenderModels* VRRenderModels();
     // public OVR.OpenVR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0xCB061C
+    // Offset: 0xCC4060
     OVR::OpenVR::CVRExtendedDisplay* VRExtendedDisplay();
     // public OVR.OpenVR.CVRSettings VRSettings()
-    // Offset: 0xCB0748
+    // Offset: 0xCC418C
     OVR::OpenVR::CVRSettings* VRSettings();
     // public OVR.OpenVR.CVRApplications VRApplications()
-    // Offset: 0xCB0874
+    // Offset: 0xCC42B8
     OVR::OpenVR::CVRApplications* VRApplications();
     // public OVR.OpenVR.CVRScreenshots VRScreenshots()
-    // Offset: 0xCB09A0
+    // Offset: 0xCC43E4
     OVR::OpenVR::CVRScreenshots* VRScreenshots();
     // public OVR.OpenVR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0xCB0ACC
+    // Offset: 0xCC4510
     OVR::OpenVR::CVRTrackedCamera* VRTrackedCamera();
     // public OVR.OpenVR.CVRInput VRInput()
-    // Offset: 0xCB0BF8
+    // Offset: 0xCC463C
     OVR::OpenVR::CVRInput* VRInput();
     // public OVR.OpenVR.CVRSpatialAnchors VRSpatialAnchors()
-    // Offset: 0xCB0D24
+    // Offset: 0xCC4768
     OVR::OpenVR::CVRSpatialAnchors* VRSpatialAnchors();
     // public System.Void .ctor()
-    // Offset: 0xCAFE84
+    // Offset: 0xCC38C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OpenVR::COpenVRContext* New_ctor();
   }; // OVR.OpenVR.OpenVR/COpenVRContext
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR::COpenVRContext*, "OVR.OpenVR", "OpenVR/COpenVRContext");
 #pragma pack(pop)

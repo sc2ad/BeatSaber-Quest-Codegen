@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithSystemVoipState : public Oculus::Platform::Message_1<Oculus::Platform::Models::SystemVoipState*> {
     public:
     // protected Oculus.Platform.Models.SystemVoipState GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE92474
+    // Offset: 0xEA4EB8
     Oculus::Platform::Models::SystemVoipState* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88F20
+    // Offset: 0xE9B964
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithSystemVoipState* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.SystemVoipState GetSystemVoipState()
-    // Offset: 0xE92430
+    // Offset: 0xEA4E74
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.SystemVoipState Message::GetSystemVoipState()
     Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();
   }; // Oculus.Platform.MessageWithSystemVoipState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithSystemVoipState*, "Oculus.Platform", "MessageWithSystemVoipState");
 #pragma pack(pop)

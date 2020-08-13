@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine/Events/UnityEvent_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
 #include "UnityEngine/Networking/PlayerConnection/PlayerEditorConnectionEvents.hpp"
+// Including type: UnityEngine.Events.UnityEvent`1
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Networking.PlayerConnection
 namespace UnityEngine::Networking::PlayerConnection {
@@ -15,7 +16,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   class PlayerEditorConnectionEvents::ConnectionChangeEvent : public UnityEngine::Events::UnityEvent_1<int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13FE720
+    // Offset: 0x140F164
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -23,6 +24,6 @@ namespace UnityEngine::Networking::PlayerConnection {
     static PlayerEditorConnectionEvents::ConnectionChangeEvent* New_ctor();
   }; // UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/ConnectionChangeEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/ConnectionChangeEvent");
 #pragma pack(pop)

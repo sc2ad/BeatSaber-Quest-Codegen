@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: RootMotion.FinalIK.IKSolver/Bone
-#include "RootMotion/FinalIK/IKSolver_Bone.hpp"
 // Including type: RootMotion.FinalIK.IKSolverLookAt
 #include "RootMotion/FinalIK/IKSolverLookAt.hpp"
+// Including type: RootMotion.FinalIK.IKSolver/Bone
+#include "RootMotion/FinalIK/IKSolver_Bone.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -26,28 +26,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x74
     UnityEngine::Vector3 baseForwardOffsetEuler;
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x133880C
+    // Offset: 0x134C250
     void Initiate(UnityEngine::Transform* root);
     // public System.Void LookAt(UnityEngine.Vector3 direction, System.Single weight)
-    // Offset: 0x1339738
+    // Offset: 0x134D17C
     void LookAt(UnityEngine::Vector3 direction, float weight);
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x1339334
+    // Offset: 0x134CD78
     UnityEngine::Vector3 get_forward();
     // public System.Void .ctor()
-    // Offset: 0x1339AD8
+    // Offset: 0x134D51C
     // Implemented from: RootMotion.FinalIK.IKSolver/Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()
     // Base method: System.Void Object::.ctor()
     static IKSolverLookAt::LookAtBone* New_ctor();
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1338484
+    // Offset: 0x134BEC8
     // Implemented from: RootMotion.FinalIK.IKSolver/Bone
     // Base method: System.Void Bone::.ctor(UnityEngine.Transform transform)
     static IKSolverLookAt::LookAtBone* New_ctor(UnityEngine::Transform* transform);
   }; // RootMotion.FinalIK.IKSolverLookAt/LookAtBone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*, "RootMotion.FinalIK", "IKSolverLookAt/LookAtBone");
 #pragma pack(pop)

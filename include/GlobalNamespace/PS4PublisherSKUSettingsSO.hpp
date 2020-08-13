@@ -29,22 +29,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     int defaultAgeRestriction;
     // public System.String get_skuName()
-    // Offset: 0xBBCED8
+    // Offset: 0xBCF91C
     ::CsString* get_skuName();
     // public System.String get_contentId()
-    // Offset: 0xBBCEE0
+    // Offset: 0xBCF924
     ::CsString* get_contentId();
     // public System.Int32 get_parentalLockLevel()
-    // Offset: 0xBBCEE8
+    // Offset: 0xBCF92C
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
-    // Offset: 0xBBCEF0
+    // Offset: 0xBCF934
     ::CsString* get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
-    // Offset: 0xBBCEF8
+    // Offset: 0xBCF93C
     int get_defaultAgeRestriction();
     // public System.Void .ctor()
-    // Offset: 0xBBCF00
+    // Offset: 0xBCF944
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -53,6 +53,6 @@ namespace GlobalNamespace {
     static PS4PublisherSKUSettingsSO* New_ctor();
   }; // PS4PublisherSKUSettingsSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");
 #pragma pack(pop)

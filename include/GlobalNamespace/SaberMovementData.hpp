@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
@@ -69,48 +67,48 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float bladeSpeed;
     // public System.Single get_bladeSpeed()
-    // Offset: 0xC12E5C
+    // Offset: 0xC248A0
     float get_bladeSpeed();
     // public SaberMovementData/Data get_lastAddedData()
-    // Offset: 0xC0E164
+    // Offset: 0xC1FBA8
     GlobalNamespace::SaberMovementData::Data get_lastAddedData();
     // public System.Void AddDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0xC12E64
+    // Offset: 0xC248A8
     void AddDataProcessor(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void RemoveDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0xC12EFC
+    // Offset: 0xC24940
     void RemoveDataProcessor(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void RequestLastDataProcessing(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0xC12F64
+    // Offset: 0xC249A8
     void RequestLastDataProcessing(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void AddNewData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Single time)
-    // Offset: 0xC0E1CC
+    // Offset: 0xC1FC10
     void AddNewData(UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, float time);
     // public System.Void ComputeAdditionalData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Int32 idxOffset, UnityEngine.Vector3 segmentNormal, System.Single segmentAngle)
-    // Offset: 0xC13108
+    // Offset: 0xC24B4C
     void ComputeAdditionalData(UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, int idxOffset, UnityEngine::Vector3& segmentNormal, float& segmentAngle);
     // public UnityEngine.Vector3 ComputePlaneNormal(UnityEngine.Vector3 tp0, UnityEngine.Vector3 bp0, UnityEngine.Vector3 tp1, UnityEngine.Vector3 bp1)
-    // Offset: 0xC132F0
+    // Offset: 0xC24D34
     UnityEngine::Vector3 ComputePlaneNormal(UnityEngine::Vector3 tp0, UnityEngine::Vector3 bp0, UnityEngine::Vector3 tp1, UnityEngine::Vector3 bp1);
     // public UnityEngine.Vector3 ComputeCutPlaneNormal()
-    // Offset: 0xC13454
+    // Offset: 0xC24E98
     UnityEngine::Vector3 ComputeCutPlaneNormal();
     // public System.Single ComputeSwingRating(System.Single overrideSegmentAngle)
-    // Offset: 0xC13500
+    // Offset: 0xC24F44
     float ComputeSwingRating(float overrideSegmentAngle);
     // public System.Single ComputeSwingRating()
-    // Offset: 0xC13730
+    // Offset: 0xC25174
     float ComputeSwingRating();
     // private System.Single ComputeSwingRating(System.Boolean overrideSegmenAngle, System.Single overrideValue)
-    // Offset: 0xC13508
+    // Offset: 0xC24F4C
     float ComputeSwingRating(bool overrideSegmenAngle, float overrideValue);
     // public System.Void .ctor()
-    // Offset: 0xC0EEDC
+    // Offset: 0xC20920
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SaberMovementData* New_ctor();
   }; // SaberMovementData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberMovementData*, "", "SaberMovementData");
 #pragma pack(pop)

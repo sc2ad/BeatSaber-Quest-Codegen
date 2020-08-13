@@ -44,22 +44,22 @@ namespace HMUI {
     // Offset: 0x28
     HMUI::FlowCoordinator* rootFlowCoordinator;
     // protected System.Void Start()
-    // Offset: 0xECB458
+    // Offset: 0xEDDE9C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xECB614
+    // Offset: 0xEDE058
     void OnDestroy();
     // private System.Void HandleSceneTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0xECB558
+    // Offset: 0xEDDF9C
     void HandleSceneTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0xECB6EC
+    // Offset: 0xEDE130
     void HandleBeforeDismissingScenes();
     // public System.Void StartWithFlowCoordinator(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0xECB7A8
+    // Offset: 0xEDE1EC
     void StartWithFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator);
     // public System.Void .ctor()
-    // Offset: 0xECB7E0
+    // Offset: 0xEDE224
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -69,6 +69,6 @@ namespace HMUI {
     static HierarchyManager* New_ctor();
   }; // HMUI.HierarchyManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HierarchyManager*, "HMUI", "HierarchyManager");
 #pragma pack(pop)

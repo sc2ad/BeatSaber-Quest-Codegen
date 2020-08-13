@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVR.OpenVR.CVRRenderModels
 #include "OVR/OpenVR/CVRRenderModels.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.IVRRenderModels
 #include "OVR/OpenVR/IVRRenderModels.hpp"
 // Completed includes
@@ -26,6 +27,6 @@ namespace OVR::OpenVR {
     GetComponentStateUnion(OVR::OpenVR::IVRRenderModels::_GetComponentState* pGetComponentState_ = {}, OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked* pGetComponentStatePacked_ = {}) : pGetComponentState{pGetComponentState_}, pGetComponentStatePacked{pGetComponentStatePacked_} {}
   }; // OVR.OpenVR.CVRRenderModels/GetComponentStateUnion
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels::GetComponentStateUnion, "OVR.OpenVR", "CVRRenderModels/GetComponentStateUnion");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 // Including type: UnityEngine.Vector3
@@ -106,46 +104,46 @@ namespace RootMotion::FinalIK {
     // Offset: 0x9C
     UnityEngine::Vector3 bone1TwistAxis;
     // public System.Boolean get_initiated()
-    // Offset: 0x139CC20
+    // Offset: 0x13AE664
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x139CC28
+    // Offset: 0x13AE66C
     void set_initiated(bool value);
     // public UnityEngine.Vector3 get_IKPosition()
-    // Offset: 0x139CC34
+    // Offset: 0x13AE678
     UnityEngine::Vector3 get_IKPosition();
     // public System.Void set_IKPosition(UnityEngine.Vector3 value)
-    // Offset: 0x139CC54
+    // Offset: 0x13AE698
     void set_IKPosition(UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_IKRotation()
-    // Offset: 0x139CC74
+    // Offset: 0x13AE6B8
     UnityEngine::Quaternion get_IKRotation();
     // public System.Void set_IKRotation(UnityEngine.Quaternion value)
-    // Offset: 0x139CC94
+    // Offset: 0x13AE6D8
     void set_IKRotation(UnityEngine::Quaternion value);
     // public System.Boolean IsValid(System.String errorMessage)
-    // Offset: 0x139CCB4
+    // Offset: 0x13AE6F8
     bool IsValid(::CsString*& errorMessage);
     // public System.Void Initiate(UnityEngine.Transform hand, System.Int32 index)
-    // Offset: 0x139CDC0
+    // Offset: 0x13AE804
     void Initiate(UnityEngine::Transform* hand, int index);
     // public System.Void FixTransforms()
-    // Offset: 0x139D374
+    // Offset: 0x13AEDB8
     void FixTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x139D450
+    // Offset: 0x13AEE94
     void StoreDefaultLocalState();
     // public System.Void Update(System.Single masterWeight)
-    // Offset: 0x139D518
+    // Offset: 0x13AEF5C
     void Update(float masterWeight);
     // public System.Void .ctor()
-    // Offset: 0x139DC60
+    // Offset: 0x13AF6A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Finger* New_ctor();
   }; // RootMotion.FinalIK.Finger
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger*, "RootMotion.FinalIK", "Finger");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger::DOF, "RootMotion.FinalIK", "Finger/DOF");
 #pragma pack(pop)

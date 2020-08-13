@@ -14,7 +14,7 @@ namespace Zenject {
   class ScriptableObjectInstaller : public Zenject::ScriptableObjectInstallerBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFB683C
+    // Offset: 0xFC9280
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -23,6 +23,6 @@ namespace Zenject {
     static ScriptableObjectInstaller* New_ctor();
   }; // Zenject.ScriptableObjectInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstaller*, "Zenject", "ScriptableObjectInstaller");
 #pragma pack(pop)

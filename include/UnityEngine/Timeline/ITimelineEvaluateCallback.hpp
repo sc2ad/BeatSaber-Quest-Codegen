@@ -15,6 +15,6 @@ namespace UnityEngine::Timeline {
     void Evaluate();
   }; // UnityEngine.Timeline.ITimelineEvaluateCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimelineEvaluateCallback*, "UnityEngine.Timeline", "ITimelineEvaluateCallback");
 #pragma pack(pop)

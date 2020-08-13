@@ -82,36 +82,36 @@ namespace UnityEngine::Timeline {
     // Offset: 0xA8
     UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer;
     // public UnityEngine.Timeline.ActivationTrack/PostPlaybackState get_postPlaybackState()
-    // Offset: 0x107970C
+    // Offset: 0x1089150
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState get_postPlaybackState();
     // public System.Void set_postPlaybackState(UnityEngine.Timeline.ActivationTrack/PostPlaybackState value)
-    // Offset: 0x1079714
+    // Offset: 0x1089158
     void set_postPlaybackState(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
     // System.Void UpdateTrackMode()
-    // Offset: 0x1079728
+    // Offset: 0x108916C
     void UpdateTrackMode();
     // override System.Boolean CanCompileClips()
-    // Offset: 0x10796CC
+    // Offset: 0x1089110
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Boolean TrackAsset::CanCompileClips()
     bool CanCompileClips();
     // public override UnityEngine.Playables.Playable CreateTrackMixer(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Int32 inputCount)
-    // Offset: 0x107973C
+    // Offset: 0x1089180
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: UnityEngine.Playables.Playable TrackAsset::CreateTrackMixer(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Int32 inputCount)
     UnityEngine::Playables::Playable CreateTrackMixer(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, int inputCount);
     // public override System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
-    // Offset: 0x107982C
+    // Offset: 0x1089270
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
     void GatherProperties(UnityEngine::Playables::PlayableDirector* director, UnityEngine::Timeline::IPropertyCollector* driver);
     // protected override System.Void OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x107995C
+    // Offset: 0x10893A0
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
     void OnCreateClip(UnityEngine::Timeline::TimelineClip* clip);
     // public System.Void .ctor()
-    // Offset: 0x10799D4
+    // Offset: 0x1089418
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()
@@ -121,7 +121,7 @@ namespace UnityEngine::Timeline {
     static ActivationTrack* New_ctor();
   }; // UnityEngine.Timeline.ActivationTrack
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack*, "UnityEngine.Timeline", "ActivationTrack");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack::PostPlaybackState, "UnityEngine.Timeline", "ActivationTrack/PostPlaybackState");
 #pragma pack(pop)

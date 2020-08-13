@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: ArcadeFlowCoordinator
 #include "GlobalNamespace/ArcadeFlowCoordinator.hpp"
 // Completed includes
@@ -39,15 +37,15 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool practice;
     // System.Void <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0(EnterPlayerGuestNameViewController viewController, System.String playerName)
-    // Offset: 0x196E4A8
+    // Offset: 0xB867A4
     void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::CsString* playerName);
     // public System.Void .ctor()
-    // Offset: 0x196E138
+    // Offset: 0xB86434
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ArcadeFlowCoordinator::$$c__DisplayClass19_0* New_ctor();
   }; // ArcadeFlowCoordinator/<>c__DisplayClass19_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArcadeFlowCoordinator::$$c__DisplayClass19_0*, "", "ArcadeFlowCoordinator/<>c__DisplayClass19_0");
 #pragma pack(pop)

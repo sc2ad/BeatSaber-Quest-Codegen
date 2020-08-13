@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Completed includes
@@ -23,13 +21,13 @@ namespace GlobalNamespace {
   class XRNodeExtensions : public ::CsObject {
     public:
     // static public OVRPlugin/Node OculusNode(UnityEngine.XR.XRNode node)
-    // Offset: 0xCAA7A8
+    // Offset: 0xCBD1EC
     static GlobalNamespace::OVRPlugin::Node OculusNode(UnityEngine::XR::XRNode node);
     // static public System.Int32 PSMoveDeviceIndex(UnityEngine.XR.XRNode node)
-    // Offset: 0xCAAD54
+    // Offset: 0xCBD798
     static int PSMoveDeviceIndex(UnityEngine::XR::XRNode node);
   }; // XRNodeExtensions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::XRNodeExtensions*, "", "XRNodeExtensions");
 #pragma pack(pop)

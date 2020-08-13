@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Internal.TestNameGenerator
 #include "NUnit/Framework/Internal/TestNameGenerator.hpp"
 // Completed includes
@@ -33,33 +31,33 @@ namespace NUnit::Framework::Internal {
   class TestNameGenerator::NameFragment : public ::CsObject {
     public:
     // public System.String GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x18DBEF0
+    // Offset: 0x18EC934
     ::CsString* GetText(NUnit::Framework::Internal::TestMethod* testMethod, ::Array<::CsObject*>* args);
     // public System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
     // Offset: 0xFFFFFFFF
     ::CsString* GetText(System::Reflection::MethodInfo* method, ::Array<::CsObject*>* args);
     // static protected System.Void AppendGenericTypeNames(System.Text.StringBuilder sb, System.Reflection.MethodInfo method)
-    // Offset: 0x18DBD14
+    // Offset: 0x18EC758
     static void AppendGenericTypeNames(System::Text::StringBuilder* sb, System::Reflection::MethodInfo* method);
     // static protected System.String GetDisplayString(System.Object arg, System.Int32 stringMax)
-    // Offset: 0x18DB14C
+    // Offset: 0x18EBB90
     static ::CsString* GetDisplayString(::CsObject* arg, int stringMax);
     // static private System.String EscapeSingleChar(System.Char c)
-    // Offset: 0x18DC038
+    // Offset: 0x18ECA7C
     static ::CsString* EscapeSingleChar(::Il2CppChar c);
     // static private System.String EscapeCharInString(System.Char c)
-    // Offset: 0x18DBFD0
+    // Offset: 0x18ECA14
     static ::CsString* EscapeCharInString(::Il2CppChar c);
     // static private System.String EscapeControlChar(System.Char c)
-    // Offset: 0x18DC0A0
+    // Offset: 0x18ECAE4
     static ::CsString* EscapeControlChar(::Il2CppChar c);
     // protected System.Void .ctor()
-    // Offset: 0x18DB020
+    // Offset: 0x18EBA64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestNameGenerator::NameFragment* New_ctor();
   }; // NUnit.Framework.Internal.TestNameGenerator/NameFragment
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::NameFragment*, "NUnit.Framework.Internal", "TestNameGenerator/NameFragment");
 #pragma pack(pop)

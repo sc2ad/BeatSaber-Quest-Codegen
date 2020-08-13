@@ -14,7 +14,7 @@ namespace HMUI {
   class ItemForFocussedScrolling : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0xED2974
+    // Offset: 0xEE53B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -24,6 +24,6 @@ namespace HMUI {
     static ItemForFocussedScrolling* New_ctor();
   }; // HMUI.ItemForFocussedScrolling
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ItemForFocussedScrolling*, "HMUI", "ItemForFocussedScrolling");
 #pragma pack(pop)

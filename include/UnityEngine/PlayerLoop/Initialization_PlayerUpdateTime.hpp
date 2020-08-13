@@ -4,8 +4,6 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: UnityEngine.PlayerLoop.Initialization
 #include "UnityEngine/PlayerLoop/Initialization.hpp"
 // Completed includes
@@ -17,6 +15,6 @@ namespace UnityEngine::PlayerLoop {
     PlayerUpdateTime() {}
   }; // UnityEngine.PlayerLoop.Initialization/PlayerUpdateTime
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::Initialization::PlayerUpdateTime, "UnityEngine.PlayerLoop", "Initialization/PlayerUpdateTime");
 #pragma pack(pop)

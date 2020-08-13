@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Text.DecoderFallback
-#include "System/Text/DecoderFallback.hpp"
 // Including type: System.Text.UTF7Encoding
 #include "System/Text/UTF7Encoding.hpp"
+// Including type: System.Text.DecoderFallback
+#include "System/Text/DecoderFallback.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -23,33 +23,33 @@ namespace System::Text {
   class UTF7Encoding::DecoderUTF7Fallback : public System::Text::DecoderFallback {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13B5D1C
+    // Offset: 0x13C6760
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Void DecoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
     static UTF7Encoding::DecoderUTF7Fallback* New_ctor();
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x13B7E9C
+    // Offset: 0x13C88E0
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x13B7F10
+    // Offset: 0x13C8954
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x13B7F18
+    // Offset: 0x13C895C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::CsObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13B7F7C
+    // Offset: 0x13C89C0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.UTF7Encoding/DecoderUTF7Fallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::DecoderUTF7Fallback*, "System.Text", "UTF7Encoding/DecoderUTF7Fallback");
 #pragma pack(pop)

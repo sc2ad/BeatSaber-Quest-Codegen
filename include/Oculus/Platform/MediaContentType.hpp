@@ -32,6 +32,6 @@ namespace Oculus::Platform {
     MediaContentType(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.MediaContentType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MediaContentType, "Oculus.Platform", "MediaContentType");
 #pragma pack(pop)

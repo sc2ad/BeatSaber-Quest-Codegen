@@ -36,22 +36,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* mutuallyExclusives;
     // public System.String get_modifierNameLocalizationKey()
-    // Offset: 0xB3E430
+    // Offset: 0xB3C430
     ::CsString* get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0xB3E438
+    // Offset: 0xB3C438
     ::CsString* get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
-    // Offset: 0xB3E440
+    // Offset: 0xB3C440
     float get_multiplier();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0xB3E448
+    // Offset: 0xB3C448
     UnityEngine::Sprite* get_icon();
     // public GameplayModifierParamsSO[] get_mutuallyExclusives()
-    // Offset: 0xB3E450
+    // Offset: 0xB3C450
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_mutuallyExclusives();
     // public System.Void .ctor()
-    // Offset: 0xB3E458
+    // Offset: 0xB3C458
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -60,6 +60,6 @@ namespace GlobalNamespace {
     static GameplayModifierParamsSO* New_ctor();
   }; // GameplayModifierParamsSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierParamsSO*, "", "GameplayModifierParamsSO");
 #pragma pack(pop)

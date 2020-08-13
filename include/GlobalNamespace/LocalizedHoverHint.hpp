@@ -25,13 +25,13 @@ namespace GlobalNamespace {
   class LocalizedHoverHint : public Polyglot::LocalizedTextComponent_1<HMUI::HoverHint*> {
     public:
     // protected System.Void SetText(HMUI.HoverHint hoverHint, System.String value)
-    // Offset: 0xBE7ED8
+    // Offset: 0xBF991C
     void SetText(HMUI::HoverHint* hoverHint, ::CsString* value);
     // protected System.Void UpdateAlignment(HMUI.HoverHint hoverHint, Polyglot.LanguageDirection direction)
-    // Offset: 0xBE7EF8
+    // Offset: 0xBF993C
     void UpdateAlignment(HMUI::HoverHint* hoverHint, Polyglot::LanguageDirection direction);
     // public System.Void .ctor()
-    // Offset: 0xBE7EFC
+    // Offset: 0xBF9940
     // Implemented from: Polyglot.LocalizedTextComponent`1
     // Base method: System.Void LocalizedTextComponent`1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     static LocalizedHoverHint* New_ctor();
   }; // LocalizedHoverHint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedHoverHint*, "", "LocalizedHoverHint");
 #pragma pack(pop)

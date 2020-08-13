@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithLeaderboardEntryList : public Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*> {
     public:
     // protected Oculus.Platform.Models.LeaderboardEntryList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8D684
+    // Offset: 0xEA00C8
     Oculus::Platform::Models::LeaderboardEntryList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88560
+    // Offset: 0xE9AFA4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithLeaderboardEntryList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.LeaderboardEntryList GetLeaderboardEntryList()
-    // Offset: 0xE8D640
+    // Offset: 0xEA0084
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LeaderboardEntryList Message::GetLeaderboardEntryList()
     Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList();
   }; // Oculus.Platform.MessageWithLeaderboardEntryList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLeaderboardEntryList*, "Oculus.Platform", "MessageWithLeaderboardEntryList");
 #pragma pack(pop)

@@ -28,6 +28,6 @@ namespace TMPro {
     static CaretInfo* New_ctor(int index, TMPro::CaretPosition position);
   }; // TMPro.CaretInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");
 #pragma pack(pop)

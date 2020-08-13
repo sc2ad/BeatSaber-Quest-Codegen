@@ -55,52 +55,52 @@ namespace GlobalNamespace {
     // Offset: 0x48
     ::Array<GlobalNamespace::MissionObjectiveChecker*>* activeMissionObjectiveCheckers;
     // public System.Void add_objectiveDidFailEvent(System.Action value)
-    // Offset: 0xBF6054
+    // Offset: 0xC07A98
     void add_objectiveDidFailEvent(System::Action* value);
     // public System.Void remove_objectiveDidFailEvent(System.Action value)
-    // Offset: 0xBF60F8
+    // Offset: 0xC07B3C
     void remove_objectiveDidFailEvent(System::Action* value);
     // public System.Void add_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0xBF619C
+    // Offset: 0xC07BE0
     void add_objectiveWasClearedEvent(System::Action* value);
     // public System.Void remove_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0xBF6240
+    // Offset: 0xC07C84
     void remove_objectiveWasClearedEvent(System::Action* value);
     // public System.Void add_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0xBF62E4
+    // Offset: 0xC07D28
     void add_objectivesListDidChangeEvent(System::Action* value);
     // public System.Void remove_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0xBF6388
+    // Offset: 0xC07DCC
     void remove_objectivesListDidChangeEvent(System::Action* value);
     // public MissionObjectiveChecker[] get_activeMissionObjectiveCheckers()
-    // Offset: 0xBF642C
+    // Offset: 0xC07E70
     ::Array<GlobalNamespace::MissionObjectiveChecker*>* get_activeMissionObjectiveCheckers();
     // protected System.Void Start()
-    // Offset: 0xBF6434
+    // Offset: 0xC07E78
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBF6944
+    // Offset: 0xC08388
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckerStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0xBF6AE0
+    // Offset: 0xC08524
     void HandleMissionObjectiveCheckerStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // public MissionObjectiveChecker GetMissionObjectiveChecker(MissionObjectiveTypeSO missionObjectiveType)
-    // Offset: 0xBF6B20
+    // Offset: 0xC08564
     GlobalNamespace::MissionObjectiveChecker* GetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType);
     // public MissionObjectiveResult[] GetResults()
-    // Offset: 0xBF6C00
+    // Offset: 0xC08644
     ::Array<GlobalNamespace::MissionObjectiveResult*>* GetResults();
     // private System.Void HandleLevelFailed()
-    // Offset: 0xBF6DF4
+    // Offset: 0xC08838
     void HandleLevelFailed();
     // private System.Void HandleLevelFinished()
-    // Offset: 0xBF6EE0
+    // Offset: 0xC08924
     void HandleLevelFinished();
     // private System.Void StopChecking()
-    // Offset: 0xBF6DF8
+    // Offset: 0xC0883C
     void StopChecking();
     // public System.Void .ctor()
-    // Offset: 0xBF6EE4
+    // Offset: 0xC08928
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -110,6 +110,6 @@ namespace GlobalNamespace {
     static MissionObjectiveCheckersManager* New_ctor();
   }; // MissionObjectiveCheckersManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager*, "", "MissionObjectiveCheckersManager");
 #pragma pack(pop)

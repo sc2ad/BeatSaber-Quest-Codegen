@@ -22,10 +22,10 @@ namespace RootMotion {
     // Offset: 0x20
     UnityEngine::Color color;
     // private System.Void OnGUI()
-    // Offset: 0x1390964
+    // Offset: 0x13A23A8
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0x1390AA4
+    // Offset: 0x13A24E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -35,6 +35,6 @@ namespace RootMotion {
     static DemoGUIMessage* New_ctor();
   }; // RootMotion.DemoGUIMessage
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::DemoGUIMessage*, "RootMotion", "DemoGUIMessage");
 #pragma pack(pop)

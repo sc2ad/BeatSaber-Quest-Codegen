@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class Vector3SO : public GlobalNamespace::ObservableVariableSO_1<UnityEngine::Vector3> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCAAA44
+    // Offset: 0xCBD488
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO`1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -24,6 +24,6 @@ namespace GlobalNamespace {
     static Vector3SO* New_ctor();
   }; // Vector3SO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3SO*, "", "Vector3SO");
 #pragma pack(pop)

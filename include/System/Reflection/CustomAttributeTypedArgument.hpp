@@ -32,28 +32,28 @@ namespace System::Reflection {
     // Creating value type constructor for type: CustomAttributeTypedArgument
     CustomAttributeTypedArgument(System::Type* argumentType_ = {}, ::CsObject* value_ = {}) : argumentType{argumentType_}, value{value_} {}
     // public System.Void .ctor(System.Type argumentType, System.Object value)
-    // Offset: 0xA43220
+    // Offset: 0xA4329C
     static CustomAttributeTypedArgument* New_ctor(System::Type* argumentType, ::CsObject* value);
     // public System.Object get_Value()
-    // Offset: 0xA43228
+    // Offset: 0xA432A4
     ::CsObject* get_Value();
     // public override System.String ToString()
-    // Offset: 0xA43230
+    // Offset: 0xA432AC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA43238
+    // Offset: 0xA432B4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA43240
+    // Offset: 0xA432BC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.CustomAttributeTypedArgument
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeTypedArgument, "System.Reflection", "CustomAttributeTypedArgument");
 #pragma pack(pop)

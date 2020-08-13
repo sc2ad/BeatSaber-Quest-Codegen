@@ -25,6 +25,6 @@ namespace Oculus::Platform {
     ::Array<float>* Update();
   }; // Oculus.Platform.IMicrophone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IMicrophone*, "Oculus.Platform", "IMicrophone");
 #pragma pack(pop)

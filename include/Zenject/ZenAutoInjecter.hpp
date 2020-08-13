@@ -59,25 +59,25 @@ namespace Zenject {
     // Offset: 0x1C
     bool hasInjected;
     // public Zenject.ZenAutoInjecter/ContainerSources get_ContainerSource()
-    // Offset: 0x19287BC
+    // Offset: 0x193B200
     Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();
     // public System.Void set_ContainerSource(Zenject.ZenAutoInjecter/ContainerSources value)
-    // Offset: 0x19287C4
+    // Offset: 0x193B208
     void set_ContainerSource(Zenject::ZenAutoInjecter::ContainerSources value);
     // public System.Void Construct()
-    // Offset: 0x19287CC
+    // Offset: 0x193B210
     void Construct();
     // public System.Void Awake()
-    // Offset: 0x1928838
+    // Offset: 0x193B27C
     void Awake();
     // private Zenject.DiContainer LookupContainer()
-    // Offset: 0x1928884
+    // Offset: 0x193B2C8
     Zenject::DiContainer* LookupContainer();
     // private Zenject.DiContainer GetContainerForCurrentScene()
-    // Offset: 0x19289D4
+    // Offset: 0x193B418
     Zenject::DiContainer* GetContainerForCurrentScene();
     // public System.Void .ctor()
-    // Offset: 0x1928A70
+    // Offset: 0x193B4B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -87,7 +87,7 @@ namespace Zenject {
     static ZenAutoInjecter* New_ctor();
   }; // Zenject.ZenAutoInjecter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter*, "Zenject", "ZenAutoInjecter");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter::ContainerSources, "Zenject", "ZenAutoInjecter/ContainerSources");
 #pragma pack(pop)

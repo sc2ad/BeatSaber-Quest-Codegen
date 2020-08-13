@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw
 #include "Microsoft/Win32/UnsafeNativeMethods_ManifestEtw.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
@@ -52,6 +52,6 @@ namespace Microsoft::Win32 {
     TRACE_QUERY_INFO_CLASS(int value_ = {}) : value{value_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_QUERY_INFO_CLASS, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS");
 #pragma pack(pop)

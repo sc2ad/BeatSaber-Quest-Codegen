@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.ScopableBindingFinalizer
 #include "Zenject/ScopableBindingFinalizer.hpp"
 // Including type: Zenject.ScopableBindingFinalizer/<>c__DisplayClass3_0

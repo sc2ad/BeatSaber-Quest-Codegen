@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<DirectionalLight> _lights
     static void _set__lights(System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight*>* value);
     // static public System.Collections.Generic.List`1<DirectionalLight> get_lights()
-    // Offset: 0x180FE64
+    // Offset: 0x18208A8
     static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight*>* get_lights();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x180FECC
+    // Offset: 0x1820910
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x180FF60
+    // Offset: 0x18209A4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x180FFE4
+    // Offset: 0x1820A28
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1810068
+    // Offset: 0x1820AAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,12 +63,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DirectionalLight* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1810070
+    // Offset: 0x1820AB4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // DirectionalLight
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLight*, "", "DirectionalLight");
 #pragma pack(pop)

@@ -128,47 +128,47 @@ namespace GlobalNamespace {
     // Offset: 0x111
     bool practice;
     // public System.Void add_continueButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0xC0B254
+    // Offset: 0xC1CC98
     void add_continueButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
     // public System.Void remove_continueButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0xC0B2F8
+    // Offset: 0xC1CD3C
     void remove_continueButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
     // public System.Void add_restartButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0xC0B39C
+    // Offset: 0xC1CDE0
     void add_restartButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
     // public System.Void remove_restartButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0xC0B440
+    // Offset: 0xC1CE84
     void remove_restartButtonPressedEvent(System::Action_1<GlobalNamespace::ResultsViewController*>* value);
     // public System.Boolean get_practice()
-    // Offset: 0xC0B4E4
+    // Offset: 0xC1CF28
     bool get_practice();
     // public System.Void Init(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, System.Boolean practice, System.Boolean newHighScore)
-    // Offset: 0xC0B4EC
+    // Offset: 0xC1CF30
     void Init(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool practice, bool newHighScore);
     // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
-    // Offset: 0xC0BCB8
+    // Offset: 0xC1D6FC
     System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
     // private System.Void SetDataToUI()
-    // Offset: 0xC0B6D8
+    // Offset: 0xC1D11C
     void SetDataToUI();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0xC0BEB4
+    // Offset: 0xC1D8F8
     void ContinueButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0xC0BF18
+    // Offset: 0xC1D95C
     void RestartButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xC0B548
+    // Offset: 0xC1CF8C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xC0BD44
+    // Offset: 0xC1D788
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0xC0BF7C
+    // Offset: 0xC1D9C0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -179,6 +179,6 @@ namespace GlobalNamespace {
     static ResultsViewController* New_ctor();
   }; // ResultsViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsViewController*, "", "ResultsViewController");
 #pragma pack(pop)

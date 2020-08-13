@@ -21,6 +21,6 @@ namespace OVR::OpenVR {
     CVRSettingHelper(System::IntPtr m_pSettings_ = {}) : m_pSettings{m_pSettings_} {}
   }; // OVR.OpenVR.CVRSettingHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettingHelper, "OVR.OpenVR", "CVRSettingHelper");
 #pragma pack(pop)

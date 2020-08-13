@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BeatmapSaveData
 #include "GlobalNamespace/BeatmapSaveData.hpp"
 // Including type: BeatmapSaveData/ITime
@@ -35,32 +33,32 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int width;
     // public System.Int32 get_lineIndex()
-    // Offset: 0xB5C8E4
+    // Offset: 0xB5A8E4
     int get_lineIndex();
     // public ObstacleType get_type()
-    // Offset: 0xB5C8EC
+    // Offset: 0xB5A8EC
     GlobalNamespace::ObstacleType get_type();
     // public System.Single get_duration()
-    // Offset: 0xB5C8F4
+    // Offset: 0xB5A8F4
     float get_duration();
     // public System.Int32 get_width()
-    // Offset: 0xB5C8FC
+    // Offset: 0xB5A8FC
     int get_width();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, ObstacleType type, System.Single duration, System.Int32 width)
-    // Offset: 0xB5C904
+    // Offset: 0xB5A904
     static BeatmapSaveData::ObstacleData* New_ctor(float time, int lineIndex, GlobalNamespace::ObstacleType type, float duration, int width);
     // public System.Single get_time()
-    // Offset: 0xB5C8DC
+    // Offset: 0xB5A8DC
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Single ITime::get_time()
     float get_time();
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xB5C95C
+    // Offset: 0xB5A95C
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);
   }; // BeatmapSaveData/ObstacleData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ObstacleData*, "", "BeatmapSaveData/ObstacleData");
 #pragma pack(pop)

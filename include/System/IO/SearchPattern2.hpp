@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -43,22 +41,22 @@ namespace System::IO {
     // Set static field: static readonly System.Char[] InvalidChars
     static void _set_InvalidChars(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0xF50C34
+    // Offset: 0xF62678
     static SearchPattern2* New_ctor(::CsString* pattern);
     // public System.Void .ctor(System.String pattern, System.Boolean ignore)
-    // Offset: 0xF519BC
+    // Offset: 0xF63400
     static SearchPattern2* New_ctor(::CsString* pattern, bool ignore);
     // public System.Boolean get_HasWildcard()
-    // Offset: 0xF51D2C
+    // Offset: 0xF63770
     bool get_HasWildcard();
     // private System.Void Compile(System.String pattern)
-    // Offset: 0xF51A10
+    // Offset: 0xF63454
     void Compile(::CsString* pattern);
     // static private System.Void .cctor()
-    // Offset: 0xF51D7C
+    // Offset: 0xF637C0
     static void _cctor();
   }; // System.IO.SearchPattern2
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2*, "System.IO", "SearchPattern2");
 #pragma pack(pop)

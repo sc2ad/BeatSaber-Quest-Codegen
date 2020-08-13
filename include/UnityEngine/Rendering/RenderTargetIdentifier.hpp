@@ -52,36 +52,36 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: RenderTargetIdentifier
     RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType m_Type_ = {}, int m_NameID_ = {}, int m_InstanceID_ = {}, System::IntPtr m_BufferPointer_ = {}, int m_MipLevel_ = {}, UnityEngine::CubemapFace m_CubeFace_ = {}, int m_DepthSlice_ = {}) : m_Type{m_Type_}, m_NameID{m_NameID_}, m_InstanceID{m_InstanceID_}, m_BufferPointer{m_BufferPointer_}, m_MipLevel{m_MipLevel_}, m_CubeFace{m_CubeFace_}, m_DepthSlice{m_DepthSlice_} {}
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
-    // Offset: 0xA434F8
+    // Offset: 0xA43574
     static RenderTargetIdentifier* New_ctor(UnityEngine::Rendering::BuiltinRenderTextureType type);
     // public System.Void .ctor(System.Int32 nameID)
-    // Offset: 0xA43560
+    // Offset: 0xA435DC
     static RenderTargetIdentifier* New_ctor(int nameID);
     // public System.Void .ctor(UnityEngine.Texture tex)
-    // Offset: 0xA435C8
+    // Offset: 0xA43644
     static RenderTargetIdentifier* New_ctor(UnityEngine::Texture* tex);
     // public override System.String ToString()
-    // Offset: 0xA435D0
+    // Offset: 0xA4364C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA435D8
+    // Offset: 0xA43654
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
-    // Offset: 0xA435E0
+    // Offset: 0xA4365C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
     bool Equals(UnityEngine::Rendering::RenderTargetIdentifier rhs);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA43618
+    // Offset: 0xA43694
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
   }; // UnityEngine.Rendering.RenderTargetIdentifier
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");
 #pragma pack(pop)

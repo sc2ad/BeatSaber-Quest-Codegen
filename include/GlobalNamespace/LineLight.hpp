@@ -37,31 +37,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<LineLight> _lineLights
     static void _set__lineLights(System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* value);
     // public UnityEngine.Vector3 get_p0()
-    // Offset: 0x1813C80
+    // Offset: 0x18246C4
     UnityEngine::Vector3 get_p0();
     // public UnityEngine.Vector3 get_p1()
-    // Offset: 0x1813C8C
+    // Offset: 0x18246D0
     UnityEngine::Vector3 get_p1();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1813C98
+    // Offset: 0x18246DC
     UnityEngine::Color get_color();
     // static public System.Collections.Generic.List`1<LineLight> get_lineLights()
-    // Offset: 0x1813CA4
+    // Offset: 0x18246E8
     static System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* get_lineLights();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1813D0C
+    // Offset: 0x1824750
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x1813DA0
+    // Offset: 0x18247E4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1813E24
+    // Offset: 0x1824868
     void OnDisable();
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x1813EA8
+    // Offset: 0x18248EC
     void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x1813F3C
+    // Offset: 0x1824980
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,12 +70,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LineLight* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1813F44
+    // Offset: 0x1824988
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LineLight
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLight*, "", "LineLight");
 #pragma pack(pop)

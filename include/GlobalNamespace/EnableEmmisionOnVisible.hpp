@@ -22,16 +22,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<UnityEngine::ParticleSystem::EmissionModule>* emmisionModules;
     // protected System.Void Awake()
-    // Offset: 0xC9A10C
+    // Offset: 0xCACB50
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0xC9A22C
+    // Offset: 0xCACC70
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0xC9A2B4
+    // Offset: 0xCACCF8
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0xC9A33C
+    // Offset: 0xCACD80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -41,6 +41,6 @@ namespace GlobalNamespace {
     static EnableEmmisionOnVisible* New_ctor();
   }; // EnableEmmisionOnVisible
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableEmmisionOnVisible*, "", "EnableEmmisionOnVisible");
 #pragma pack(pop)

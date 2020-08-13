@@ -67,59 +67,59 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: MarkerList
     MarkerList(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* m_Objects_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* m_Cache_ = {}, bool m_CacheDirty_ = {}, bool m_HasNotifications_ = {}) : m_Objects{m_Objects_}, m_Cache{m_Cache_}, m_CacheDirty{m_CacheDirty_}, m_HasNotifications{m_HasNotifications_} {}
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> get_markers()
-    // Offset: 0xA3C974
+    // Offset: 0xA3C9F0
     System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* get_markers();
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0xA3C99C
+    // Offset: 0xA3CA18
     static MarkerList* New_ctor(int capacity);
     // public System.Void Add(UnityEngine.ScriptableObject item)
-    // Offset: 0xA3C9A4
+    // Offset: 0xA3CA20
     void Add(UnityEngine::ScriptableObject* item);
     // public System.Boolean Remove(UnityEngine.Timeline.IMarker item)
-    // Offset: 0xA3C9AC
+    // Offset: 0xA3CA28
     bool Remove(UnityEngine::Timeline::IMarker* item);
     // public System.Boolean Remove(UnityEngine.ScriptableObject item, UnityEngine.Timeline.TimelineAsset timelineAsset, UnityEngine.Playables.PlayableAsset thingToDirty)
-    // Offset: 0xA3C9B4
+    // Offset: 0xA3CA30
     bool Remove(UnityEngine::ScriptableObject* item, UnityEngine::Timeline::TimelineAsset* timelineAsset, UnityEngine::Playables::PlayableAsset* thingToDirty);
     // public System.Void Clear()
-    // Offset: 0xA3C9BC
+    // Offset: 0xA3CA38
     void Clear();
     // public System.Boolean Contains(UnityEngine.ScriptableObject item)
-    // Offset: 0xA3C9C4
+    // Offset: 0xA3CA40
     bool Contains(UnityEngine::ScriptableObject* item);
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.IMarker> GetMarkers()
-    // Offset: 0xA3C9CC
+    // Offset: 0xA3CA48
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* GetMarkers();
     // public System.Int32 get_Count()
-    // Offset: 0xA3C9F4
+    // Offset: 0xA3CA70
     int get_Count();
     // public UnityEngine.Timeline.IMarker get_Item(System.Int32 idx)
-    // Offset: 0xA3C9FC
+    // Offset: 0xA3CA78
     UnityEngine::Timeline::IMarker* get_Item(int idx);
     // public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> GetRawMarkerList()
-    // Offset: 0xA3CA04
+    // Offset: 0xA3CA80
     System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* GetRawMarkerList();
     // public UnityEngine.Timeline.IMarker CreateMarker(System.Type type, System.Double time, UnityEngine.Timeline.TrackAsset owner)
-    // Offset: 0xA3CA0C
+    // Offset: 0xA3CA88
     UnityEngine::Timeline::IMarker* CreateMarker(System::Type* type, double time, UnityEngine::Timeline::TrackAsset* owner);
     // public System.Boolean HasNotifications()
-    // Offset: 0xA3CA14
+    // Offset: 0xA3CA90
     bool HasNotifications();
     // private System.Void BuildCache()
-    // Offset: 0xA3CA4C
+    // Offset: 0xA3CAC8
     void BuildCache();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-    // Offset: 0xA3CA3C
+    // Offset: 0xA3CAB8
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-    // Offset: 0xA3CA40
+    // Offset: 0xA3CABC
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
   }; // UnityEngine.Timeline.MarkerList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
 #pragma pack(pop)

@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class BoolSO : public GlobalNamespace::ObservableVariableSO_1<bool> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC98074
+    // Offset: 0xCAAAB8
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO`1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -24,6 +24,6 @@ namespace GlobalNamespace {
     static BoolSO* New_ctor();
   }; // BoolSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSO*, "", "BoolSO");
 #pragma pack(pop)

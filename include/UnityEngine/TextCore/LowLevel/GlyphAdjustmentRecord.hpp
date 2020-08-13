@@ -23,13 +23,13 @@ namespace UnityEngine::TextCore::LowLevel {
     // Creating value type constructor for type: GlyphAdjustmentRecord
     GlyphAdjustmentRecord(uint m_GlyphIndex_ = {}, UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord_ = {}) : m_GlyphIndex{m_GlyphIndex_}, m_GlyphValueRecord{m_GlyphValueRecord_} {}
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0xA5AE88
+    // Offset: 0xA5AF04
     uint get_glyphIndex();
     // public UnityEngine.TextCore.LowLevel.GlyphValueRecord get_glyphValueRecord()
-    // Offset: 0xA5AE90
+    // Offset: 0xA5AF0C
     UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord();
   }; // UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");
 #pragma pack(pop)

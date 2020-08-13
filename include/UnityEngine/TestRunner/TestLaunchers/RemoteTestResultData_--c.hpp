@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData
 #include "UnityEngine/TestRunner/TestLaunchers/RemoteTestResultData.hpp"
 // Completed includes
@@ -37,18 +35,18 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__19_0
     static void _set_$$9__19_0(System::Func_2<NUnit::Framework::Interfaces::ITestResult*, ::CsString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE260F8
+    // Offset: 0xE38B3C
     static void _cctor();
     // System.String <.ctor>b__19_0(NUnit.Framework.Interfaces.ITestResult child)
-    // Offset: 0xE26168
+    // Offset: 0xE38BAC
     ::CsString* $_ctor$b__19_0(NUnit::Framework::Interfaces::ITestResult* child);
     // public System.Void .ctor()
-    // Offset: 0xE26160
+    // Offset: 0xE38BA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RemoteTestResultData::$$c* New_ctor();
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData/<>c");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.Message
 #include "Oculus/Platform/Message.hpp"
 // Completed includes
@@ -22,25 +20,25 @@ namespace Oculus::Platform {
     // Offset: 0x18
     uint64_t RequestID;
     // public System.Void .ctor(System.UInt64 requestID)
-    // Offset: 0xE82CC4
+    // Offset: 0xE95708
     static Request* New_ctor(uint64_t requestID);
     // public System.UInt64 get_RequestID()
-    // Offset: 0xE96744
+    // Offset: 0xEA9188
     uint64_t get_RequestID();
     // public System.Void set_RequestID(System.UInt64 value)
-    // Offset: 0xE9674C
+    // Offset: 0xEA9190
     void set_RequestID(uint64_t value);
     // public Oculus.Platform.Request OnComplete(Oculus.Platform.Message/Callback callback)
-    // Offset: 0xE96754
+    // Offset: 0xEA9198
     Oculus::Platform::Request* OnComplete(Oculus::Platform::Message::Callback* callback);
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0xE967DC
+    // Offset: 0xEA9220
     void HandleMessage(Oculus::Platform::Message* msg);
     // static public System.Void RunCallbacks(System.UInt32 limit)
-    // Offset: 0xE813C4
+    // Offset: 0xE93E08
     static void RunCallbacks(uint limit);
   }; // Oculus.Platform.Request
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Request*, "Oculus.Platform", "Request");
 #pragma pack(pop)

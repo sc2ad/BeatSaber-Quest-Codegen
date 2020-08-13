@@ -94,48 +94,48 @@ namespace GlobalNamespace {
     // Offset: 0xC0
     UnityEngine::Vector3 cutBottomPos;
     // public System.Void add_didChangeEvent(SaberSwingRatingCounter/DidChangeDelegate value)
-    // Offset: 0xC13AB4
+    // Offset: 0xC254F8
     void add_didChangeEvent(GlobalNamespace::SaberSwingRatingCounter::DidChangeDelegate* value);
     // public System.Void remove_didChangeEvent(SaberSwingRatingCounter/DidChangeDelegate value)
-    // Offset: 0xC13B58
+    // Offset: 0xC2559C
     void remove_didChangeEvent(GlobalNamespace::SaberSwingRatingCounter::DidChangeDelegate* value);
     // public System.Void add_didFinishEvent(SaberSwingRatingCounter/DidFinishDelegate value)
-    // Offset: 0xC13BFC
+    // Offset: 0xC25640
     void add_didFinishEvent(GlobalNamespace::SaberSwingRatingCounter::DidFinishDelegate* value);
     // public System.Void remove_didFinishEvent(SaberSwingRatingCounter/DidFinishDelegate value)
-    // Offset: 0xC13CA0
+    // Offset: 0xC256E4
     void remove_didFinishEvent(GlobalNamespace::SaberSwingRatingCounter::DidFinishDelegate* value);
     // public System.Boolean get_didFinish()
-    // Offset: 0xC13D44
+    // Offset: 0xC25788
     bool get_didFinish();
     // public System.Single get_beforeCutRating()
-    // Offset: 0xC13D4C
+    // Offset: 0xC25790
     float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0xC13D54
+    // Offset: 0xC25798
     float get_afterCutRating();
     // public System.Void Init(SaberMovementData saberMovementData, UnityEngine.Transform noteTransform)
-    // Offset: 0xC0E850
+    // Offset: 0xC20294
     void Init(GlobalNamespace::SaberMovementData* saberMovementData, UnityEngine::Transform* noteTransform);
     // public System.Void Deinit()
-    // Offset: 0xC0E144
+    // Offset: 0xC1FB88
     void Deinit();
     // public System.Void DrawGizmos()
-    // Offset: 0xC0EA50
+    // Offset: 0xC20494
     void DrawGizmos();
     // public System.Void ProcessNewData(SaberMovementData/Data newData, SaberMovementData/Data prevData, System.Boolean prevDataAreValid)
-    // Offset: 0xC13D5C
+    // Offset: 0xC257A0
     // Implemented from: ISaberMovementDataProcessor
     // Base method: System.Void ISaberMovementDataProcessor::ProcessNewData(SaberMovementData/Data newData, SaberMovementData/Data prevData, System.Boolean prevDataAreValid)
     void ProcessNewData(GlobalNamespace::SaberMovementData::Data newData, GlobalNamespace::SaberMovementData::Data prevData, bool prevDataAreValid);
     // public System.Void .ctor()
-    // Offset: 0xC0DEC4
+    // Offset: 0xC1F908
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()
     static SaberSwingRatingCounter* New_ctor();
   }; // SaberSwingRatingCounter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRatingCounter*, "", "SaberSwingRatingCounter");
 #pragma pack(pop)

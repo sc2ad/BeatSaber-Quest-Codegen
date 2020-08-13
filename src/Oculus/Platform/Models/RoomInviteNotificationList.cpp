@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.RoomInviteNotificationList
 #include "Oculus/Platform/Models/RoomInviteNotificationList.hpp"
 // Including type: Oculus.Platform.Models.RoomInviteNotification

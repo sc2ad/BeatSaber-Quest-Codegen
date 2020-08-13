@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.CAPI
 #include "Oculus/Platform/CAPI.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -27,6 +28,6 @@ namespace Oculus::Platform {
     ovrNetSyncVec3(float x_ = {}, float y_ = {}, float z_ = {}) : x{x_}, y{y_}, z{z_} {}
   }; // Oculus.Platform.CAPI/ovrNetSyncVec3
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrNetSyncVec3, "Oculus.Platform", "CAPI/ovrNetSyncVec3");
 #pragma pack(pop)

@@ -24,6 +24,6 @@ namespace UnityEngine::UI::CoroutineTween {
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.ITweenValue
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ITweenValue*, "UnityEngine.UI.CoroutineTween", "ITweenValue");
 #pragma pack(pop)

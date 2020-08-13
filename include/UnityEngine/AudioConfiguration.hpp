@@ -34,6 +34,6 @@ namespace UnityEngine {
     AudioConfiguration(UnityEngine::AudioSpeakerMode speakerMode_ = {}, int dspBufferSize_ = {}, int sampleRate_ = {}, int numRealVoices_ = {}, int numVirtualVoices_ = {}) : speakerMode{speakerMode_}, dspBufferSize{dspBufferSize_}, sampleRate{sampleRate_}, numRealVoices{numRealVoices_}, numVirtualVoices{numVirtualVoices_} {}
   }; // UnityEngine.AudioConfiguration
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioConfiguration, "UnityEngine", "AudioConfiguration");
 #pragma pack(pop)

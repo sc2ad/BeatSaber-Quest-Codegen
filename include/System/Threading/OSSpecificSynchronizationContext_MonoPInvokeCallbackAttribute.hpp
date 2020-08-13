@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.Attribute
-#include "System/Attribute.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Threading.OSSpecificSynchronizationContext
 #include "System/Threading/OSSpecificSynchronizationContext.hpp"
+// Including type: System.Attribute
+#include "System/Attribute.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -22,10 +23,10 @@ namespace System::Threading {
   class OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute : public System::Attribute {
     public:
     // public System.Void .ctor(System.Type t)
-    // Offset: 0x13C6CC0
+    // Offset: 0x13D7704
     static OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute* New_ctor(System::Type* t);
   }; // System.Threading.OSSpecificSynchronizationContext/MonoPInvokeCallbackAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute*, "System.Threading", "OSSpecificSynchronizationContext/MonoPInvokeCallbackAttribute");
 #pragma pack(pop)

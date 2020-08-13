@@ -26,15 +26,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* presets;
     // public MirrorRendererGraphicsSettingsPresets/Preset[] get_presets()
-    // Offset: 0xBEDFCC
+    // Offset: 0xBFFA10
     ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0xBEDFD4
+    // Offset: 0xBFFA18
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0xBEDFDC
+    // Offset: 0xBFFA20
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -44,6 +44,6 @@ namespace GlobalNamespace {
     static MirrorRendererGraphicsSettingsPresets* New_ctor();
   }; // MirrorRendererGraphicsSettingsPresets
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*, "", "MirrorRendererGraphicsSettingsPresets");
 #pragma pack(pop)

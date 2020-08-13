@@ -52,31 +52,31 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Single kMaxEffectDistance
     static void _set_kMaxEffectDistance(float value);
     // public UnityEngine.Color get_effectColor()
-    // Offset: 0x11FB788
+    // Offset: 0x120D1CC
     UnityEngine::Color get_effectColor();
     // public System.Void set_effectColor(UnityEngine.Color value)
-    // Offset: 0x11FB794
+    // Offset: 0x120D1D8
     void set_effectColor(UnityEngine::Color value);
     // public UnityEngine.Vector2 get_effectDistance()
-    // Offset: 0x11FB878
+    // Offset: 0x120D2BC
     UnityEngine::Vector2 get_effectDistance();
     // public System.Void set_effectDistance(UnityEngine.Vector2 value)
-    // Offset: 0x11FB880
+    // Offset: 0x120D2C4
     void set_effectDistance(UnityEngine::Vector2 value);
     // public System.Boolean get_useGraphicAlpha()
-    // Offset: 0x11FB9C0
+    // Offset: 0x120D404
     bool get_useGraphicAlpha();
     // public System.Void set_useGraphicAlpha(System.Boolean value)
-    // Offset: 0x11FB9C8
+    // Offset: 0x120D40C
     void set_useGraphicAlpha(bool value);
     // protected System.Void ApplyShadowZeroAlloc(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, UnityEngine.Color32 color, System.Int32 start, System.Int32 end, System.Single x, System.Single y)
-    // Offset: 0x11EEEC0
+    // Offset: 0x1200904
     void ApplyShadowZeroAlloc(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, UnityEngine::Color32 color, int start, int end, float x, float y);
     // protected System.Void ApplyShadow(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, UnityEngine.Color32 color, System.Int32 start, System.Int32 end, System.Single x, System.Single y)
-    // Offset: 0x11FBA94
+    // Offset: 0x120D4D8
     void ApplyShadow(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, UnityEngine::Color32 color, int start, int end, float x, float y);
     // protected System.Void .ctor()
-    // Offset: 0x11EEC28
+    // Offset: 0x120066C
     // Implemented from: UnityEngine.UI.BaseMeshEffect
     // Base method: System.Void BaseMeshEffect::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -87,12 +87,12 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Shadow* New_ctor();
     // public override System.Void ModifyMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x11FBA9C
+    // Offset: 0x120D4E0
     // Implemented from: UnityEngine.UI.BaseMeshEffect
     // Base method: System.Void BaseMeshEffect::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
   }; // UnityEngine.UI.Shadow
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Shadow*, "UnityEngine.UI", "Shadow");
 #pragma pack(pop)

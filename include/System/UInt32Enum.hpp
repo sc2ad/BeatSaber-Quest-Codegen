@@ -20,6 +20,6 @@ namespace System {
     UInt32Enum(uint value_ = {}) : value{value_} {}
   }; // System.UInt32Enum
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UInt32Enum, "System", "UInt32Enum");
 #pragma pack(pop)

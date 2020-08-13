@@ -66,26 +66,26 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     HMUI::ToggleBinder* toggleBinder;
     // private System.Void SliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x196F380
+    // Offset: 0xB8767C
     void SliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleOverrideAudioLatencyToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x196F3FC
+    // Offset: 0xB876F8
     void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
     // public System.Void RefreshVisuals(System.Boolean overrideAutioLatencyIsEnabled)
-    // Offset: 0x196F19C
+    // Offset: 0xB87498
     void RefreshVisuals(bool overrideAutioLatencyIsEnabled);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0x196EFBC
+    // Offset: 0xB872B8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void OnDestroy()
-    // Offset: 0x196F298
+    // Offset: 0xB87594
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x196F474
+    // Offset: 0xB87770
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -96,6 +96,6 @@ namespace GlobalNamespace {
     static AudioLatencyViewController* New_ctor();
   }; // AudioLatencyViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioLatencyViewController*, "", "AudioLatencyViewController");
 #pragma pack(pop)

@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class SimpleValueMissionObjectiveChecker : public GlobalNamespace::MissionObjectiveChecker {
     public:
     // protected System.Void CheckAndUpdateStatus()
-    // Offset: 0xB857D8
+    // Offset: 0xB9721C
     void CheckAndUpdateStatus();
     // protected System.Void .ctor()
-    // Offset: 0xB85888
+    // Offset: 0xB972CC
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -28,6 +28,6 @@ namespace GlobalNamespace {
     static SimpleValueMissionObjectiveChecker* New_ctor();
   }; // SimpleValueMissionObjectiveChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleValueMissionObjectiveChecker*, "", "SimpleValueMissionObjectiveChecker");
 #pragma pack(pop)

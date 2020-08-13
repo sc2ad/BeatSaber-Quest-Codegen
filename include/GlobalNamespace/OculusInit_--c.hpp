@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OculusInit
 #include "GlobalNamespace/OculusInit.hpp"
 // Including type: Oculus.Platform.Message
@@ -26,18 +24,18 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message/Callback <>9__2_0
     static void _set_$$9__2_0(Oculus::Platform::Message::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0xC2443C
+    // Offset: 0xC35E80
     static void _cctor();
     // System.Void <InitCallback>b__2_0(Oculus.Platform.Message message)
-    // Offset: 0xC244AC
+    // Offset: 0xC35EF0
     void $InitCallback$b__2_0(Oculus::Platform::Message* message);
     // public System.Void .ctor()
-    // Offset: 0xC244A4
+    // Offset: 0xC35EE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusInit::$$c* New_ctor();
   }; // OculusInit/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit::$$c*, "", "OculusInit/<>c");
 #pragma pack(pop)

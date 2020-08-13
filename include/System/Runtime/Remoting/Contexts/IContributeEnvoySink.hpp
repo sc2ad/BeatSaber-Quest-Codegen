@@ -27,6 +27,6 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Messaging::IMessageSink* GetEnvoySink(System::MarshalByRefObject* obj, System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
   }; // System.Runtime.Remoting.Contexts.IContributeEnvoySink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeEnvoySink*, "System.Runtime.Remoting.Contexts", "IContributeEnvoySink");
 #pragma pack(pop)

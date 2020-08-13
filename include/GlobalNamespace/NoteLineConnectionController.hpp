@@ -81,22 +81,22 @@ namespace GlobalNamespace {
     // Offset: 0x7C
     bool didFinish;
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0xC1C574
+    // Offset: 0xC2DFB8
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0xC1C618
+    // Offset: 0xC2E05C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void Setup(NoteController noteController0, NoteController noteController1, System.Single fadeOutStartDistance, System.Single fadeOutEndDistance, System.Single noteTime)
-    // Offset: 0xC1C6BC
+    // Offset: 0xC2E100
     void Setup(GlobalNamespace::NoteController* noteController0, GlobalNamespace::NoteController* noteController1, float fadeOutStartDistance, float fadeOutEndDistance, float noteTime);
     // protected System.Void Update()
-    // Offset: 0xC1C97C
+    // Offset: 0xC2E3C0
     void Update();
     // private System.Void UpdatePositionsAndColors()
-    // Offset: 0xC1C790
+    // Offset: 0xC2E1D4
     void UpdatePositionsAndColors();
     // public System.Void .ctor()
-    // Offset: 0xC1CA14
+    // Offset: 0xC2E458
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -106,6 +106,6 @@ namespace GlobalNamespace {
     static NoteLineConnectionController* New_ctor();
   }; // NoteLineConnectionController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController*, "", "NoteLineConnectionController");
 #pragma pack(pop)

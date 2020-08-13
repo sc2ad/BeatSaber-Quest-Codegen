@@ -80,6 +80,6 @@ namespace UnityEngine::TextCore::LowLevel {
     GlyphRenderMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextCore.LowLevel.GlyphRenderMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphRenderMode, "UnityEngine.TextCore.LowLevel", "GlyphRenderMode");
 #pragma pack(pop)

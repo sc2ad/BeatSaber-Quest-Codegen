@@ -83,33 +83,33 @@ namespace GlobalNamespace {
     // Offset: 0x88
     System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> value)
-    // Offset: 0xB839E4
+    // Offset: 0xB95428
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SimpleRetailDemoViewController,SimpleRetailDemoViewController/MenuButton> value)
-    // Offset: 0xB83BA8
+    // Offset: 0xB955EC
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>* value);
     // private System.Void HandleMenuButton(SimpleRetailDemoViewController/MenuButton menuButton)
-    // Offset: 0xB8437C
+    // Offset: 0xB95DC0
     void HandleMenuButton(GlobalNamespace::SimpleRetailDemoViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0xB843FC
+    // Offset: 0xB95E40
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0xB84404
+    // Offset: 0xB95E48
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0xB8440C
+    // Offset: 0xB95E50
     void $DidActivate$b__8_2();
     // private System.Void <DidActivate>b__8_3()
-    // Offset: 0xB84414
+    // Offset: 0xB95E58
     void $DidActivate$b__8_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB841F8
+    // Offset: 0xB95C3C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB843F4
+    // Offset: 0xB95E38
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     static SimpleRetailDemoViewController* New_ctor();
   }; // SimpleRetailDemoViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController*, "", "SimpleRetailDemoViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController::MenuButton, "", "SimpleRetailDemoViewController/MenuButton");
 #pragma pack(pop)

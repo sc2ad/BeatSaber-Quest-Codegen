@@ -26,13 +26,13 @@ namespace System {
     // Offset: 0x88
     ::CsString* objectName;
     // public System.Void .ctor(System.String objectName, System.String message)
-    // Offset: 0x134703C
+    // Offset: 0x1359A80
     static ObjectDisposedException* New_ctor(::CsString* objectName, ::CsString* message);
     // public System.String get_ObjectName()
-    // Offset: 0x1347214
+    // Offset: 0x1359C58
     ::CsString* get_ObjectName();
     // private System.Void .ctor()
-    // Offset: 0x1346FDC
+    // Offset: 0x1359A20
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -40,26 +40,26 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ObjectDisposedException* New_ctor();
     // public System.Void .ctor(System.String objectName)
-    // Offset: 0x1347088
+    // Offset: 0x1359ACC
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.String objectName)
     // Base method: System.Void SystemException::.ctor(System.String objectName)
     // Base method: System.Void Exception::.ctor(System.String objectName)
     static ObjectDisposedException* New_ctor(::CsString* objectName);
     // public override System.String get_Message()
-    // Offset: 0x13470F4
+    // Offset: 0x1359B38
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::CsString* get_Message();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1347290
+    // Offset: 0x1359CD4
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ObjectDisposedException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1347330
+    // Offset: 0x1359D74
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -68,6 +68,6 @@ namespace System {
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ObjectDisposedException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ObjectDisposedException*, "System", "ObjectDisposedException");
 #pragma pack(pop)

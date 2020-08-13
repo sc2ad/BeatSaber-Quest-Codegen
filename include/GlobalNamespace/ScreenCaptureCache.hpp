@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -65,19 +63,19 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>* cache;
     // public UnityEngine.Texture2D GetLastScreenshot(ScreenCaptureCache/ScreenshotType screenshotType)
-    // Offset: 0x18FB724
+    // Offset: 0x190B168
     UnityEngine::Texture2D* GetLastScreenshot(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType);
     // public System.Void StoreScreenshot(ScreenCaptureCache/ScreenshotType screenshotType, UnityEngine.Texture2D texture)
-    // Offset: 0x18FB3C4
+    // Offset: 0x190AE08
     void StoreScreenshot(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, UnityEngine::Texture2D* texture);
     // public System.Void .ctor()
-    // Offset: 0x18FB7A4
+    // Offset: 0x190B1E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScreenCaptureCache* New_ctor();
   }; // ScreenCaptureCache
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache*, "", "ScreenCaptureCache");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache::ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
 #pragma pack(pop)

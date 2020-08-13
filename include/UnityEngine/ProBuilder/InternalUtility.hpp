@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares
@@ -70,7 +68,7 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "InternalUtility", "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, transforms)));
     }
     // static public UnityEngine.GameObject EmptyGameObjectWithTransform(UnityEngine.Transform t)
-    // Offset: 0xF87758
+    // Offset: 0xF9919C
     static UnityEngine::GameObject* EmptyGameObjectWithTransform(UnityEngine::Transform* t);
     // static public T NextEnumValue(T current)
     // Offset: 0xFFFFFFFF
@@ -80,13 +78,13 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.ProBuilder", "InternalUtility", "NextEnumValue", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, current)));
     }
     // static public System.String ControlKeyString(System.Char character)
-    // Offset: 0xF87850
+    // Offset: 0xF99294
     static ::CsString* ControlKeyString(::Il2CppChar character);
     // static public System.Boolean TryParseColor(System.String value, UnityEngine.Color col)
-    // Offset: 0xF87928
+    // Offset: 0xF9936C
     static bool TryParseColor(::CsString* value, UnityEngine::Color& col);
     // static public UnityEngine.Vector3[] StringToVector3Array(System.String str)
-    // Offset: 0xF87BB4
+    // Offset: 0xF995F8
     static ::Array<UnityEngine::Vector3>* StringToVector3Array(::CsString* str);
   }; // UnityEngine.ProBuilder.InternalUtility
 }

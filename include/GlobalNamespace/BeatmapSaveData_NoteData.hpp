@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BeatmapSaveData
 #include "GlobalNamespace/BeatmapSaveData.hpp"
 // Including type: BeatmapSaveData/ITime
@@ -39,32 +37,32 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::NoteCutDirection cutDirection;
     // public System.Int32 get_lineIndex()
-    // Offset: 0xB5C850
+    // Offset: 0xB5A850
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0xB5C858
+    // Offset: 0xB5A858
     GlobalNamespace::NoteLineLayer get_lineLayer();
     // public NoteType get_type()
-    // Offset: 0xB5C860
+    // Offset: 0xB5A860
     GlobalNamespace::NoteType get_type();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0xB5C868
+    // Offset: 0xB5A868
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, NoteType type, NoteCutDirection cutDirection)
-    // Offset: 0xB5C870
+    // Offset: 0xB5A870
     static BeatmapSaveData::NoteData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteType type, GlobalNamespace::NoteCutDirection cutDirection);
     // public System.Single get_time()
-    // Offset: 0xB5C848
+    // Offset: 0xB5A848
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Single ITime::get_time()
     float get_time();
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xB5C8CC
+    // Offset: 0xB5A8CC
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);
   }; // BeatmapSaveData/NoteData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::NoteData*, "", "BeatmapSaveData/NoteData");
 #pragma pack(pop)

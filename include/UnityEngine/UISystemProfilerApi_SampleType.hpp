@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.UISystemProfilerApi
 #include "UnityEngine/UISystemProfilerApi.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -34,6 +34,6 @@ namespace UnityEngine {
     SampleType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UISystemProfilerApi/SampleType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UISystemProfilerApi::SampleType, "UnityEngine", "UISystemProfilerApi/SampleType");
 #pragma pack(pop)

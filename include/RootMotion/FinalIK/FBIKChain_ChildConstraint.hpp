@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.FBIKChain
 #include "RootMotion/FinalIK/FBIKChain.hpp"
 // Completed includes
@@ -58,31 +56,31 @@ namespace RootMotion::FinalIK {
     // Offset: 0x3C
     int chain2Index;
     // public System.Single get_nominalDistance()
-    // Offset: 0x139CB94
+    // Offset: 0x13AE5D8
     float get_nominalDistance();
     // private System.Void set_nominalDistance(System.Single value)
-    // Offset: 0x139CB9C
+    // Offset: 0x13AE5E0
     void set_nominalDistance(float value);
     // public System.Boolean get_isRigid()
-    // Offset: 0x139CBA4
+    // Offset: 0x13AE5E8
     bool get_isRigid();
     // private System.Void set_isRigid(System.Boolean value)
-    // Offset: 0x139CBAC
+    // Offset: 0x13AE5F0
     void set_isRigid(bool value);
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, System.Single pushElasticity, System.Single pullElasticity)
-    // Offset: 0x139CBB8
+    // Offset: 0x13AE5FC
     static FBIKChain::ChildConstraint* New_ctor(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, float pushElasticity, float pullElasticity);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x139A918
+    // Offset: 0x13AC35C
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x139AE58
+    // Offset: 0x13AC89C
     void OnPreSolve(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x139C890
+    // Offset: 0x13AE2D4
     void Solve(RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.FBIKChain/ChildConstraint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::ChildConstraint*, "RootMotion.FinalIK", "FBIKChain/ChildConstraint");
 #pragma pack(pop)

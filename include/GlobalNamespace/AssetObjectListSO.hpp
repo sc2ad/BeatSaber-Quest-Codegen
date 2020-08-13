@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<UnityEngine::Object*>* objects;
     // public UnityEngine.Object[] get_objects()
-    // Offset: 0x196E5A0
+    // Offset: 0xB8689C
     ::Array<UnityEngine::Object*>* get_objects();
     // public System.Void .ctor()
-    // Offset: 0x196E5A8
+    // Offset: 0xB868A4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -35,6 +35,6 @@ namespace GlobalNamespace {
     static AssetObjectListSO* New_ctor();
   }; // AssetObjectListSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssetObjectListSO*, "", "AssetObjectListSO");
 #pragma pack(pop)

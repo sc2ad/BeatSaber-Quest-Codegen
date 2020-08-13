@@ -50,6 +50,6 @@ namespace UnityEngine {
     TouchPhase(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TouchPhase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchPhase, "UnityEngine", "TouchPhase");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: TMPro.TMP_InputField
 #include "TMPro/TMP_InputField.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace TMPro {
   class TMP_InputField::OnValidateInput : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xB97070
+    // Offset: 0xBA8AB4
     static TMP_InputField::OnValidateInput* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Char Invoke(System.String text, System.Int32 charIndex, System.Char addedChar)
-    // Offset: 0xB97084
+    // Offset: 0xBA8AC8
     ::Il2CppChar Invoke(::CsString* text, int charIndex, ::Il2CppChar addedChar);
     // public System.IAsyncResult BeginInvoke(System.String text, System.Int32 charIndex, System.Char addedChar, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xB974DC
+    // Offset: 0xBA8F20
     System::IAsyncResult* BeginInvoke(::CsString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Char EndInvoke(System.IAsyncResult result)
-    // Offset: 0xB97598
+    // Offset: 0xBA8FDC
     ::Il2CppChar EndInvoke(System::IAsyncResult* result);
   }; // TMPro.TMP_InputField/OnValidateInput
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::OnValidateInput*, "TMPro", "TMP_InputField/OnValidateInput");
 #pragma pack(pop)

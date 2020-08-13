@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Reflection.BindingFlags
 #include "System/Reflection/BindingFlags.hpp"
 // Completed includes
@@ -60,37 +58,37 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private System.Func`3<System.Type,System.Object[],System.Object> <ConstructorCallWrapper>k__BackingField
     static void _set_$ConstructorCallWrapper$k__BackingField(System::Func_3<System::Type*, ::Array<::CsObject*>*, ::CsObject*>* value);
     // static public System.Reflection.MethodInfo[] GetMethodsWithAttribute(System.Type fixtureType, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x18D6C0C
+    // Offset: 0x18E7650
     static ::Array<System::Reflection::MethodInfo*>* GetMethodsWithAttribute(System::Type* fixtureType, System::Type* attributeType, bool inherit);
     // static public System.Boolean HasMethodWithAttribute(System.Type fixtureType, System.Type attributeType)
-    // Offset: 0x18D6DBC
+    // Offset: 0x18E7800
     static bool HasMethodWithAttribute(System::Type* fixtureType, System::Type* attributeType);
     // static public System.Object Construct(System.Type type)
-    // Offset: 0x18D6EC0
+    // Offset: 0x18E7904
     static ::CsObject* Construct(System::Type* type);
     // static public System.Object Construct(System.Type type, System.Object[] arguments)
-    // Offset: 0x18D707C
+    // Offset: 0x18E7AC0
     static ::CsObject* Construct(System::Type* type, ::Array<::CsObject*>* arguments);
     // static System.Type[] GetTypeArray(System.Object[] objects)
-    // Offset: 0x18D728C
+    // Offset: 0x18E7CD0
     static ::Array<System::Type*>* GetTypeArray(::Array<::CsObject*>* objects);
     // static public System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture)
-    // Offset: 0x18D73EC
+    // Offset: 0x18E7E30
     static ::CsObject* InvokeMethod(System::Reflection::MethodInfo* method, ::CsObject* fixture);
     // static public System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture, System.Object[] args)
-    // Offset: 0x18D527C
+    // Offset: 0x18E5CC0
     static ::CsObject* InvokeMethod(System::Reflection::MethodInfo* method, ::CsObject* fixture, ::Array<::CsObject*>* args);
     // static public System.Func`2<System.Func`1<System.Object>,System.Object> get_MethodCallWrapper()
-    // Offset: 0x18D746C
+    // Offset: 0x18E7EB0
     static System::Func_2<System::Func_1<::CsObject*>*, ::CsObject*>* get_MethodCallWrapper();
     // static public System.Func`3<System.Type,System.Object[],System.Object> get_ConstructorCallWrapper()
-    // Offset: 0x18D7014
+    // Offset: 0x18E7A58
     static System::Func_3<System::Type*, ::Array<::CsObject*>*, ::CsObject*>* get_ConstructorCallWrapper();
     // static private System.Void .cctor()
-    // Offset: 0x18D74D4
+    // Offset: 0x18E7F18
     static void _cctor();
   }; // NUnit.Framework.Internal.Reflect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect*, "NUnit.Framework.Internal", "Reflect");
 #pragma pack(pop)

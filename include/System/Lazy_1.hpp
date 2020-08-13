@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Threading.LazyThreadSafetyMode
 #include "System/Threading/LazyThreadSafetyMode.hpp"
 // Including type: System.Runtime.Serialization.StreamingContext

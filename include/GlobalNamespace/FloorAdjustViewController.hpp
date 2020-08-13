@@ -69,21 +69,21 @@ namespace GlobalNamespace {
     // Offset: 0x90
     float playerHeight;
     // protected System.Void Update()
-    // Offset: 0xBD9F50
+    // Offset: 0xBEC994
     void Update();
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0xBDA10C
+    // Offset: 0xBECB50
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0xBDA184
+    // Offset: 0xBECBC8
     void $DidActivate$b__9_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBD9E54
+    // Offset: 0xBEC898
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xBDA104
+    // Offset: 0xBECB48
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -94,6 +94,6 @@ namespace GlobalNamespace {
     static FloorAdjustViewController* New_ctor();
   }; // FloorAdjustViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloorAdjustViewController*, "", "FloorAdjustViewController");
 #pragma pack(pop)

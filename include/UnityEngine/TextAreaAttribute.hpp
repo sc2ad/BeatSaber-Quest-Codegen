@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.PropertyAttribute
 #include "UnityEngine/PropertyAttribute.hpp"
 // Completed includes
@@ -19,10 +20,10 @@ namespace UnityEngine {
     // Offset: 0x14
     int maxLines;
     // public System.Void .ctor(System.Int32 minLines, System.Int32 maxLines)
-    // Offset: 0x1379934
+    // Offset: 0x138C378
     static TextAreaAttribute* New_ctor(int minLines, int maxLines);
   }; // UnityEngine.TextAreaAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAreaAttribute*, "UnityEngine", "TextAreaAttribute");
 #pragma pack(pop)

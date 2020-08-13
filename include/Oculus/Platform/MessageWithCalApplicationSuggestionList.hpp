@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithCalApplicationSuggestionList : public Oculus::Platform::Message_1<Oculus::Platform::Models::CalApplicationSuggestionList*> {
     public:
     // protected Oculus.Platform.Models.CalApplicationSuggestionList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8B960
+    // Offset: 0xE9E3A4
     Oculus::Platform::Models::CalApplicationSuggestionList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE8B8BC
+    // Offset: 0xE9E300
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithCalApplicationSuggestionList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.CalApplicationSuggestionList GetCalApplicationSuggestionList()
-    // Offset: 0xE8B91C
+    // Offset: 0xE9E360
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CalApplicationSuggestionList Message::GetCalApplicationSuggestionList()
     Oculus::Platform::Models::CalApplicationSuggestionList* GetCalApplicationSuggestionList();
   }; // Oculus.Platform.MessageWithCalApplicationSuggestionList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCalApplicationSuggestionList*, "Oculus.Platform", "MessageWithCalApplicationSuggestionList");
 #pragma pack(pop)

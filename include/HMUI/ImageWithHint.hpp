@@ -37,16 +37,16 @@ namespace HMUI {
     // Offset: 0x20
     HMUI::HoverHint* hoverHint;
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0xED266C
+    // Offset: 0xEE50B0
     void set_sprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0xED2688
+    // Offset: 0xEE50CC
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
-    // Offset: 0xED26A4
+    // Offset: 0xEE50E8
     void set_hintText(::CsString* value);
     // public System.Void .ctor()
-    // Offset: 0xED26C0
+    // Offset: 0xEE5104
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -56,6 +56,6 @@ namespace HMUI {
     static ImageWithHint* New_ctor();
   }; // HMUI.ImageWithHint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint*, "HMUI", "ImageWithHint");
 #pragma pack(pop)

@@ -31,6 +31,6 @@ namespace System::Runtime::Remoting::Services {
     void UnmarshaledObject(::CsObject* obj, System::Runtime::Remoting::ObjRef* _or);
   }; // System.Runtime.Remoting.Services.ITrackingHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::ITrackingHandler*, "System.Runtime.Remoting.Services", "ITrackingHandler");
 #pragma pack(pop)

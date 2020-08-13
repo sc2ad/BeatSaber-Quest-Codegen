@@ -31,6 +31,6 @@ namespace OVR::OpenVR {
     VRTextureDepthInfo_t(System::IntPtr handle_ = {}, OVR::OpenVR::HmdMatrix44_t mProjection_ = {}, OVR::OpenVR::HmdVector2_t vRange_ = {}) : handle{handle_}, mProjection{mProjection_}, vRange{vRange_} {}
   }; // OVR.OpenVR.VRTextureDepthInfo_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureDepthInfo_t, "OVR.OpenVR", "VRTextureDepthInfo_t");
 #pragma pack(pop)

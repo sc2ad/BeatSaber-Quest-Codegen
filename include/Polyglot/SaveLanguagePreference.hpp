@@ -19,15 +19,15 @@ namespace Polyglot {
     // Offset: 0x18
     ::CsString* preferenceKey;
     // public System.Void Start()
-    // Offset: 0x1900F6C
+    // Offset: 0x190F9B0
     void Start();
     // public System.Void OnLocalize()
-    // Offset: 0x1900FC0
+    // Offset: 0x190FA04
     // Implemented from: Polyglot.ILocalize
     // Base method: System.Void ILocalize::OnLocalize()
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x1900FF4
+    // Offset: 0x190FA38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -37,6 +37,6 @@ namespace Polyglot {
     static SaveLanguagePreference* New_ctor();
   }; // Polyglot.SaveLanguagePreference
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::SaveLanguagePreference*, "Polyglot", "SaveLanguagePreference");
 #pragma pack(pop)

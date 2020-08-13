@@ -62,6 +62,6 @@ namespace UnityEngine::XR {
     AvailableTrackingData(int value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.AvailableTrackingData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::AvailableTrackingData, "UnityEngine.XR", "AvailableTrackingData");
 #pragma pack(pop)

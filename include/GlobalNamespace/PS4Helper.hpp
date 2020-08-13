@@ -30,22 +30,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool backgroundExecution;
     // public System.Void add_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0xBBC090
+    // Offset: 0xBCEAD4
     void add_didGoToBackgroundExecutionEvent(System::Action* value);
     // public System.Void remove_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0xBBC134
+    // Offset: 0xBCEB78
     void remove_didGoToBackgroundExecutionEvent(System::Action* value);
     // public System.Void add_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0xBBC1D8
+    // Offset: 0xBCEC1C
     void add_didGoToForegroundExecutionEvent(System::Action* value);
     // public System.Void remove_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0xBBC27C
+    // Offset: 0xBCECC0
     void remove_didGoToForegroundExecutionEvent(System::Action* value);
     // protected System.Void Update()
-    // Offset: 0xBBC320
+    // Offset: 0xBCED64
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBBC344
+    // Offset: 0xBCED88
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton`1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -56,6 +56,6 @@ namespace GlobalNamespace {
     static PS4Helper* New_ctor();
   }; // PS4Helper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4Helper*, "", "PS4Helper");
 #pragma pack(pop)

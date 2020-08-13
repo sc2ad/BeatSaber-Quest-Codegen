@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -14,13 +12,13 @@ namespace System {
   class UncNameHelper : public ::CsObject {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, System.Boolean loopback)
-    // Offset: 0x14E861C
+    // Offset: 0x14F8060
     static ::CsString* ParseCanonicalName(::CsString* str, int start, int end, bool& loopback);
     // static System.Boolean IsValid(System.Char* name, System.UInt16 start, System.Int32 returnedEnd, System.Boolean notImplicitFile)
-    // Offset: 0x14E8624
+    // Offset: 0x14F8068
     static bool IsValid(::Il2CppChar* name, uint16_t start, int& returnedEnd, bool notImplicitFile);
   }; // System.UncNameHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UncNameHelper*, "System", "UncNameHelper");
 #pragma pack(pop)

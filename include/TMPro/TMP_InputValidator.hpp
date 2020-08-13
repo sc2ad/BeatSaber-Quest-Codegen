@@ -17,7 +17,7 @@ namespace TMPro {
     // Offset: 0xFFFFFFFF
     ::Il2CppChar Validate(::CsString*& text, int& pos, ::Il2CppChar ch);
     // protected System.Void .ctor()
-    // Offset: 0xB97704
+    // Offset: 0xBA9148
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -25,6 +25,6 @@ namespace TMPro {
     static TMP_InputValidator* New_ctor();
   }; // TMPro.TMP_InputValidator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator*, "TMPro", "TMP_InputValidator");
 #pragma pack(pop)

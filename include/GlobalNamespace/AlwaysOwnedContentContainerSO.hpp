@@ -36,21 +36,21 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::HashSet_1<::CsString*>* alwaysOwnedPacksIds;
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
-    // Offset: 0x1969B24
+    // Offset: 0xB81E20
     System::Collections::Generic::HashSet_1<::CsString*>* get_alwaysOwnedBeatmapLevelIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedPacksIds()
-    // Offset: 0x1969DE0
+    // Offset: 0xB820DC
     System::Collections::Generic::HashSet_1<::CsString*>* get_alwaysOwnedPacksIds();
     // private System.Void InitAlwaysOwnedItems()
-    // Offset: 0x196A424
+    // Offset: 0xB82720
     void InitAlwaysOwnedItems();
     // protected override System.Void OnEnable()
-    // Offset: 0x196A6F0
+    // Offset: 0xB829EC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x196A718
+    // Offset: 0xB82A14
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -59,6 +59,6 @@ namespace GlobalNamespace {
     static AlwaysOwnedContentContainerSO* New_ctor();
   }; // AlwaysOwnedContentContainerSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentContainerSO*, "", "AlwaysOwnedContentContainerSO");
 #pragma pack(pop)

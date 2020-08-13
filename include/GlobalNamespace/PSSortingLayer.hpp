@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class PSSortingLayer : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCA4CA4
+    // Offset: 0xCB76E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -24,6 +24,6 @@ namespace GlobalNamespace {
     static PSSortingLayer* New_ctor();
   }; // PSSortingLayer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PSSortingLayer*, "", "PSSortingLayer");
 #pragma pack(pop)

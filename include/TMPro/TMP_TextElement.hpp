@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TMPro.TextElementType
 #include "TMPro/TextElementType.hpp"
 // Completed includes
@@ -38,39 +36,39 @@ namespace TMPro {
     // Offset: 0x24
     float m_Scale;
     // public TMPro.TextElementType get_elementType()
-    // Offset: 0xDAADA8
+    // Offset: 0xDBD7EC
     TMPro::TextElementType get_elementType();
     // public System.UInt32 get_unicode()
-    // Offset: 0xDAADB0
+    // Offset: 0xDBD7F4
     uint get_unicode();
     // public System.Void set_unicode(System.UInt32 value)
-    // Offset: 0xDAADB8
+    // Offset: 0xDBD7FC
     void set_unicode(uint value);
     // public UnityEngine.TextCore.Glyph get_glyph()
-    // Offset: 0xDAADC0
+    // Offset: 0xDBD804
     UnityEngine::TextCore::Glyph* get_glyph();
     // public System.Void set_glyph(UnityEngine.TextCore.Glyph value)
-    // Offset: 0xDAADC8
+    // Offset: 0xDBD80C
     void set_glyph(UnityEngine::TextCore::Glyph* value);
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0xDAADD0
+    // Offset: 0xDBD814
     uint get_glyphIndex();
     // public System.Void set_glyphIndex(System.UInt32 value)
-    // Offset: 0xDAADD8
+    // Offset: 0xDBD81C
     void set_glyphIndex(uint value);
     // public System.Single get_scale()
-    // Offset: 0xDAADE0
+    // Offset: 0xDBD824
     float get_scale();
     // public System.Void set_scale(System.Single value)
-    // Offset: 0xDAADE8
+    // Offset: 0xDBD82C
     void set_scale(float value);
     // public System.Void .ctor()
-    // Offset: 0xDAADF0
+    // Offset: 0xDBD834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextElement* New_ctor();
   }; // TMPro.TMP_TextElement
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement*, "TMPro", "TMP_TextElement");
 #pragma pack(pop)

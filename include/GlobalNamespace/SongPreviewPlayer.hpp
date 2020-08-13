@@ -62,31 +62,31 @@ namespace GlobalNamespace {
     // Offset: 0x58
     float fadeSpeed;
     // public System.Single get_volume()
-    // Offset: 0xB86E6C
+    // Offset: 0xB988B0
     float get_volume();
     // public System.Void set_volume(System.Single value)
-    // Offset: 0xB86E74
+    // Offset: 0xB988B8
     void set_volume(float value);
     // protected System.Void OnEnable()
-    // Offset: 0xB86E7C
+    // Offset: 0xB988C0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xB87280
+    // Offset: 0xB98CC4
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0xB873AC
+    // Offset: 0xB98DF0
     void Update();
     // public System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single startTime, System.Single duration, System.Single volumeScale)
-    // Offset: 0xB870F8
+    // Offset: 0xB98B3C
     void CrossfadeTo(UnityEngine::AudioClip* audioClip, float startTime, float duration, float volumeScale);
     // public System.Void FadeOut()
-    // Offset: 0xB87578
+    // Offset: 0xB98FBC
     void FadeOut();
     // public System.Void CrossfadeToDefault()
-    // Offset: 0xB87590
+    // Offset: 0xB98FD4
     void CrossfadeToDefault();
     // public System.Void .ctor()
-    // Offset: 0xB876F0
+    // Offset: 0xB99134
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -96,6 +96,6 @@ namespace GlobalNamespace {
     static SongPreviewPlayer* New_ctor();
   }; // SongPreviewPlayer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer*, "", "SongPreviewPlayer");
 #pragma pack(pop)

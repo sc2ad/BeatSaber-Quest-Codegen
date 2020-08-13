@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SceneSetupData
 #include "GlobalNamespace/SceneSetupData.hpp"
 // Completed includes
@@ -23,16 +24,16 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
-    // Offset: 0xC19610
+    // Offset: 0xC2B054
     GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
     // private System.Void set_nextScenesTransitionSetupData(ScenesTransitionSetupDataSO value)
-    // Offset: 0xC19618
+    // Offset: 0xC2B05C
     void set_nextScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* value);
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0xC19620
+    // Offset: 0xC2B064
     static ShaderWarmupSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
   }; // ShaderWarmupSceneSetupData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetupData*, "", "ShaderWarmupSceneSetupData");
 #pragma pack(pop)

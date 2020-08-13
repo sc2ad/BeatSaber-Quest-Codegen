@@ -104,6 +104,6 @@ namespace UnityEngine::TextCore::LowLevel {
     FontEngineError(int value_ = {}) : value{value_} {}
   }; // UnityEngine.TextCore.LowLevel.FontEngineError
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngineError, "UnityEngine.TextCore.LowLevel", "FontEngineError");
 #pragma pack(pop)

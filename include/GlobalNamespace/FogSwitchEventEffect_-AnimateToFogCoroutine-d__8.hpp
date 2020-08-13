@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: FogSwitchEventEffect
 #include "GlobalNamespace/FogSwitchEventEffect.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -42,35 +40,35 @@ namespace GlobalNamespace {
     // Offset: 0x38
     float $elapsedTime$5__4;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xBDC124
+    // Offset: 0xBEEB68
     static FogSwitchEventEffect::$AnimateToFogCoroutine$d__8* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xBDC158
+    // Offset: 0xBEEB9C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xBDC15C
+    // Offset: 0xBEEBA0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xBDC2A0
+    // Offset: 0xBEECE4
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xBDC2A8
+    // Offset: 0xBEECEC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xBDC308
+    // Offset: 0xBEED4C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // FogSwitchEventEffect/<AnimateToFogCoroutine>d__8
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FogSwitchEventEffect::$AnimateToFogCoroutine$d__8*, "", "FogSwitchEventEffect/<AnimateToFogCoroutine>d__8");
 #pragma pack(pop)

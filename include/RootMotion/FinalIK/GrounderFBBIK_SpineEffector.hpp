@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.GrounderFBBIK
 #include "RootMotion/FinalIK/GrounderFBBIK.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -27,15 +25,15 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     float verticalWeight;
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.Single horizontalWeight, System.Single verticalWeight)
-    // Offset: 0x135B8B8
+    // Offset: 0x136E2FC
     static GrounderFBBIK::SpineEffector* New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float horizontalWeight, float verticalWeight);
     // public System.Void .ctor()
-    // Offset: 0x135B8A8
+    // Offset: 0x136E2EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GrounderFBBIK::SpineEffector* New_ctor();
   }; // RootMotion.FinalIK.GrounderFBBIK/SpineEffector
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*, "RootMotion.FinalIK", "GrounderFBBIK/SpineEffector");
 #pragma pack(pop)

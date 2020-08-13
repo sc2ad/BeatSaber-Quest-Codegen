@@ -13,6 +13,6 @@ namespace NUnit::Framework::Interfaces {
   class IWrapTestMethod : public NUnit::Framework::Interfaces::ICommandWrapper {
   }; // NUnit.Framework.Interfaces.IWrapTestMethod
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IWrapTestMethod*, "NUnit.Framework.Interfaces", "IWrapTestMethod");
 #pragma pack(pop)

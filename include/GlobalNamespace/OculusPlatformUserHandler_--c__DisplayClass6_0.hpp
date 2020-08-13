@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OculusPlatformUserHandler
 #include "GlobalNamespace/OculusPlatformUserHandler.hpp"
 // Including type: PlatformUserModelSO
@@ -42,15 +40,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenCompletionHandler* completionHandler;
     // System.Void <GetUserAuthToken>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserProof> message)
-    // Offset: 0xC29130
+    // Offset: 0xC3AB74
     void $GetUserAuthToken$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserProof*>* message);
     // public System.Void .ctor()
-    // Offset: 0xC28C18
+    // Offset: 0xC3A65C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformUserHandler::$$c__DisplayClass6_0* New_ctor();
   }; // OculusPlatformUserHandler/<>c__DisplayClass6_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserHandler::$$c__DisplayClass6_0*, "", "OculusPlatformUserHandler/<>c__DisplayClass6_0");
 #pragma pack(pop)

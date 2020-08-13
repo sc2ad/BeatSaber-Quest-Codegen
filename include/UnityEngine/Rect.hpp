@@ -42,135 +42,135 @@ namespace UnityEngine {
     // Creating value type constructor for type: Rect
     Rect(float m_XMin_ = {}, float m_YMin_ = {}, float m_Width_ = {}, float m_Height_ = {}) : m_XMin{m_XMin_}, m_YMin{m_YMin_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // public System.Void .ctor(System.Single x, System.Single y, System.Single width, System.Single height)
-    // Offset: 0xA455AC
+    // Offset: 0xA45628
     static Rect* New_ctor(float x, float y, float width, float height);
     // public System.Void .ctor(UnityEngine.Vector2 position, UnityEngine.Vector2 size)
-    // Offset: 0xA455B8
+    // Offset: 0xA45634
     static Rect* New_ctor(UnityEngine::Vector2 position, UnityEngine::Vector2 size);
     // public System.Void .ctor(UnityEngine.Rect source)
-    // Offset: 0xA455C4
+    // Offset: 0xA45640
     static Rect* New_ctor(UnityEngine::Rect source);
     // static public UnityEngine.Rect get_zero()
-    // Offset: 0x14072DC
+    // Offset: 0x1417D20
     static UnityEngine::Rect get_zero();
     // static public UnityEngine.Rect MinMaxRect(System.Single xmin, System.Single ymin, System.Single xmax, System.Single ymax)
-    // Offset: 0x14072F0
+    // Offset: 0x1417D34
     static UnityEngine::Rect MinMaxRect(float xmin, float ymin, float xmax, float ymax);
     // public System.Single get_x()
-    // Offset: 0xA455D0
+    // Offset: 0xA4564C
     float get_x();
     // public System.Void set_x(System.Single value)
-    // Offset: 0xA455D8
+    // Offset: 0xA45654
     void set_x(float value);
     // public System.Single get_y()
-    // Offset: 0xA455E0
+    // Offset: 0xA4565C
     float get_y();
     // public System.Void set_y(System.Single value)
-    // Offset: 0xA455E8
+    // Offset: 0xA45664
     void set_y(float value);
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0xA455F0
+    // Offset: 0xA4566C
     UnityEngine::Vector2 get_position();
     // public System.Void set_position(UnityEngine.Vector2 value)
-    // Offset: 0xA45620
+    // Offset: 0xA4569C
     void set_position(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_center()
-    // Offset: 0xA45628
+    // Offset: 0xA456A4
     UnityEngine::Vector2 get_center();
     // public System.Void set_center(UnityEngine.Vector2 value)
-    // Offset: 0xA45630
+    // Offset: 0xA456AC
     void set_center(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_min()
-    // Offset: 0xA4564C
+    // Offset: 0xA456C8
     UnityEngine::Vector2 get_min();
     // public UnityEngine.Vector2 get_max()
-    // Offset: 0xA4567C
+    // Offset: 0xA456F8
     UnityEngine::Vector2 get_max();
     // public System.Single get_width()
-    // Offset: 0xA456B8
+    // Offset: 0xA45734
     float get_width();
     // public System.Void set_width(System.Single value)
-    // Offset: 0xA456C0
+    // Offset: 0xA4573C
     void set_width(float value);
     // public System.Single get_height()
-    // Offset: 0xA456C8
+    // Offset: 0xA45744
     float get_height();
     // public System.Void set_height(System.Single value)
-    // Offset: 0xA456D0
+    // Offset: 0xA4574C
     void set_height(float value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0xA456D8
+    // Offset: 0xA45754
     UnityEngine::Vector2 get_size();
     // public System.Void set_size(UnityEngine.Vector2 value)
-    // Offset: 0xA45708
+    // Offset: 0xA45784
     void set_size(UnityEngine::Vector2 value);
     // public System.Single get_xMin()
-    // Offset: 0xA45710
+    // Offset: 0xA4578C
     float get_xMin();
     // public System.Void set_xMin(System.Single value)
-    // Offset: 0xA45718
+    // Offset: 0xA45794
     void set_xMin(float value);
     // public System.Single get_yMin()
-    // Offset: 0xA45734
+    // Offset: 0xA457B0
     float get_yMin();
     // public System.Void set_yMin(System.Single value)
-    // Offset: 0xA4573C
+    // Offset: 0xA457B8
     void set_yMin(float value);
     // public System.Single get_xMax()
-    // Offset: 0xA45758
+    // Offset: 0xA457D4
     float get_xMax();
     // public System.Void set_xMax(System.Single value)
-    // Offset: 0xA45768
+    // Offset: 0xA457E4
     void set_xMax(float value);
     // public System.Single get_yMax()
-    // Offset: 0xA45778
+    // Offset: 0xA457F4
     float get_yMax();
     // public System.Void set_yMax(System.Single value)
-    // Offset: 0xA45788
+    // Offset: 0xA45804
     void set_yMax(float value);
     // public System.Boolean Contains(UnityEngine.Vector2 point)
-    // Offset: 0xA45798
+    // Offset: 0xA45814
     bool Contains(UnityEngine::Vector2 point);
     // public System.Boolean Contains(UnityEngine.Vector3 point)
-    // Offset: 0xA457DC
+    // Offset: 0xA45858
     bool Contains(UnityEngine::Vector3 point);
     // static private UnityEngine.Rect OrderMinMax(UnityEngine.Rect rect)
-    // Offset: 0x140758C
+    // Offset: 0x1417FD0
     static UnityEngine::Rect OrderMinMax(UnityEngine::Rect rect);
     // public System.Boolean Overlaps(UnityEngine.Rect other)
-    // Offset: 0xA45820
+    // Offset: 0xA4589C
     bool Overlaps(UnityEngine::Rect other);
     // public System.Boolean Overlaps(UnityEngine.Rect other, System.Boolean allowInverse)
-    // Offset: 0xA45828
+    // Offset: 0xA458A4
     bool Overlaps(UnityEngine::Rect other, bool allowInverse);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA45834
+    // Offset: 0xA458B0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA4583C
+    // Offset: 0xA458B8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::CsObject* other);
     // public System.Boolean Equals(UnityEngine.Rect other)
-    // Offset: 0xA45844
+    // Offset: 0xA458C0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Rect other)
     bool Equals(UnityEngine::Rect other);
     // public override System.String ToString()
-    // Offset: 0xA4584C
+    // Offset: 0xA458C8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // UnityEngine.Rect
   // static public System.Boolean op_Inequality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
-  // Offset: 0x1407698
+  // Offset: 0x14180DC
   bool operator !=(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
   // static public System.Boolean op_Equality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
-  // Offset: 0x14076CC
+  // Offset: 0x1418110
   bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rect, "UnityEngine", "Rect");
 #pragma pack(pop)

@@ -42,25 +42,25 @@ namespace TMPro {
     // Offset: 0x20
     TMPro::TMP_Text* m_TextComponent;
     // private System.Void Awake()
-    // Offset: 0xB9DED8
+    // Offset: 0xBAF91C
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0xB9DF38
+    // Offset: 0xBAF97C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xB9DF3C
+    // Offset: 0xBAF980
     void OnDisable();
     // public System.Void StopAllAnimations()
-    // Offset: 0xB9DF40
+    // Offset: 0xBAF984
     void StopAllAnimations();
     // public System.Void DoSpriteAnimation(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0xB9DFA4
+    // Offset: 0xBAF9E8
     void DoSpriteAnimation(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // private System.Collections.IEnumerator DoSpriteAnimationInternal(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0xB9E088
+    // Offset: 0xBAFACC
     System::Collections::IEnumerator* DoSpriteAnimationInternal(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // public System.Void .ctor()
-    // Offset: 0xB9E178
+    // Offset: 0xBAFBBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,6 +70,6 @@ namespace TMPro {
     static TMP_SpriteAnimator* New_ctor();
   }; // TMPro.TMP_SpriteAnimator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator*, "TMPro", "TMP_SpriteAnimator");
 #pragma pack(pop)

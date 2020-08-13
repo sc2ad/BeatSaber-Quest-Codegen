@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/AttributeValueCache
 #include "System/Xml/XmlWellFormedWriter_AttributeValueCache.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -76,6 +76,6 @@ namespace System::Xml {
     ItemType(int value_ = {}) : value{value_} {}
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/ItemType");
 #pragma pack(pop)

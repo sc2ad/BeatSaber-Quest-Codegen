@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>* eventAudioBindings;
     // protected System.Void Awake()
-    // Offset: 0xBC3DEC
+    // Offset: 0xBD6830
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xBC3F48
+    // Offset: 0xBD698C
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xBC403C
+    // Offset: 0xBD6A80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static PlayAudioOnGameEventController* New_ctor();
   }; // PlayAudioOnGameEventController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController*, "", "PlayAudioOnGameEventController");
 #pragma pack(pop)

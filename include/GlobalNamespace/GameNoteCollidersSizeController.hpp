@@ -45,22 +45,22 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::Vector3 initColliderSize;
     // protected System.Void Awake()
-    // Offset: 0xB3BC14
+    // Offset: 0xB39C14
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB3BD04
+    // Offset: 0xB39D04
     void OnDestroy();
     // private System.Void HandleGameNoteControllerDidInit(NoteController noteController)
-    // Offset: 0xB3BE28
+    // Offset: 0xB39E28
     void HandleGameNoteControllerDidInit(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleGameNoteControllerNoteDidStartJump(NoteController noteController)
-    // Offset: 0xB3BE38
+    // Offset: 0xB39E38
     void HandleGameNoteControllerNoteDidStartJump(GlobalNamespace::NoteController* noteController);
     // protected System.Void Update()
-    // Offset: 0xB3BE48
+    // Offset: 0xB39E48
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB3BF44
+    // Offset: 0xB39F44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,6 +70,6 @@ namespace GlobalNamespace {
     static GameNoteCollidersSizeController* New_ctor();
   }; // GameNoteCollidersSizeController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameNoteCollidersSizeController*, "", "GameNoteCollidersSizeController");
 #pragma pack(pop)

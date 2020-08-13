@@ -61,35 +61,35 @@ namespace GlobalNamespace {
     // Offset: 0x24
     float cutDirDeviation;
     // public NoteExecutionRating/Rating get_rating()
-    // Offset: 0xC1AAB0
+    // Offset: 0xC2C4F4
     GlobalNamespace::NoteExecutionRating::Rating get_rating();
     // public System.Void set_rating(NoteExecutionRating/Rating value)
-    // Offset: 0xC1AAB8
+    // Offset: 0xC2C4FC
     void set_rating(GlobalNamespace::NoteExecutionRating::Rating value);
     // public System.Int32 get_cutScore()
-    // Offset: 0xC1AAC0
+    // Offset: 0xC2C504
     int get_cutScore();
     // public System.Void set_cutScore(System.Int32 value)
-    // Offset: 0xC1AAC8
+    // Offset: 0xC2C50C
     void set_cutScore(int value);
     // public System.Single get_cutTimeDeviation()
-    // Offset: 0xC1AAD0
+    // Offset: 0xC2C514
     float get_cutTimeDeviation();
     // public System.Void set_cutTimeDeviation(System.Single value)
-    // Offset: 0xC1AAD8
+    // Offset: 0xC2C51C
     void set_cutTimeDeviation(float value);
     // public System.Single get_cutDirDeviation()
-    // Offset: 0xC1AAE0
+    // Offset: 0xC2C524
     float get_cutDirDeviation();
     // public System.Void set_cutDirDeviation(System.Single value)
-    // Offset: 0xC1AAE8
+    // Offset: 0xC2C52C
     void set_cutDirDeviation(float value);
     // public System.Void .ctor(System.Single time, NoteExecutionRating/Rating rating, System.Int32 cutScore, System.Single cutTimeDeviation, System.Single cutDirDeviation)
-    // Offset: 0xC1AAF0
+    // Offset: 0xC2C534
     static NoteExecutionRating* New_ctor(float time, GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, float cutTimeDeviation, float cutDirDeviation);
   }; // NoteExecutionRating
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating::Rating, "", "NoteExecutionRating/Rating");
 #pragma pack(pop)

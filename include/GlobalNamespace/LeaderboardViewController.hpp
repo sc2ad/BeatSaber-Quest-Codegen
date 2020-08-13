@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected System.Void .ctor()
-    // Offset: 0xB47560
+    // Offset: 0xB45560
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -35,6 +35,6 @@ namespace GlobalNamespace {
     static LeaderboardViewController* New_ctor();
   }; // LeaderboardViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardViewController*, "", "LeaderboardViewController");
 #pragma pack(pop)

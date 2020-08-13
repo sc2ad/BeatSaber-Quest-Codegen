@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: GameScenesManager
 #include "GlobalNamespace/GameScenesManager.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
@@ -104,41 +102,41 @@ namespace GlobalNamespace {
     // Offset: 0x88
     typename System::Collections::Generic::List_1<::CsString*>::Enumerator $$7__wrap6;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xC9DF40
+    // Offset: 0xCB0984
     static GameScenesManager::$ScenesTransitionCoroutine$d__36* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xC9F340
+    // Offset: 0xCB1D84
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0xC9F398
+    // Offset: 0xCB1DDC
     void $$m__Finally2();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xC9F308
+    // Offset: 0xCB1D4C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xC9F3F0
+    // Offset: 0xCB1E34
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xC9FEAC
+    // Offset: 0xCB28F0
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::CsObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xC9FEB4
+    // Offset: 0xCB28F8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xC9FF14
+    // Offset: 0xCB2958
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
   }; // GameScenesManager/<ScenesTransitionCoroutine>d__36
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$ScenesTransitionCoroutine$d__36*, "", "GameScenesManager/<ScenesTransitionCoroutine>d__36");
 #pragma pack(pop)

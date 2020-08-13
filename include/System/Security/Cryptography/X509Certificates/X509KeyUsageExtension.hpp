@@ -53,42 +53,42 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x28
     System::Security::Cryptography::AsnDecodeStatus status;
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedKeyUsage, System.Boolean critical)
-    // Offset: 0x120245C
+    // Offset: 0x1214EA0
     static X509KeyUsageExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedKeyUsage, bool critical);
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags keyUsages, System.Boolean critical)
-    // Offset: 0x1205214
+    // Offset: 0x1217C58
     static X509KeyUsageExtension* New_ctor(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical);
     // public System.Security.Cryptography.X509Certificates.X509KeyUsageFlags get_KeyUsages()
-    // Offset: 0x1205458
+    // Offset: 0x1217E9C
     System::Security::Cryptography::X509Certificates::X509KeyUsageFlags get_KeyUsages();
     // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags GetValidFlags(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags flags)
-    // Offset: 0x12052D8
+    // Offset: 0x1217D1C
     System::Security::Cryptography::X509Certificates::X509KeyUsageFlags GetValidFlags(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags flags);
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x1205040
+    // Offset: 0x1217A84
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // System.Byte[] Encode()
-    // Offset: 0x12052E8
+    // Offset: 0x1217D2C
     ::Array<uint8_t>* Encode();
     // public System.Void .ctor()
-    // Offset: 0x1204FB8
+    // Offset: 0x12179FC
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::.ctor()
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
     static X509KeyUsageExtension* New_ctor();
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x12054E8
+    // Offset: 0x1217F2C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1205684
+    // Offset: 0x12180C8
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::CsString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509KeyUsageExtension
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509KeyUsageExtension*, "System.Security.Cryptography.X509Certificates", "X509KeyUsageExtension");
 #pragma pack(pop)

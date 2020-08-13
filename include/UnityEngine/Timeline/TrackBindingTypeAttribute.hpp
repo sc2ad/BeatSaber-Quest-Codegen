@@ -29,13 +29,13 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     UnityEngine::Timeline::TrackBindingFlags flags;
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x18F45FC
+    // Offset: 0x1905040
     static TrackBindingTypeAttribute* New_ctor(System::Type* type);
     // public System.Void .ctor(System.Type type, UnityEngine.Timeline.TrackBindingFlags flags)
-    // Offset: 0x18F463C
+    // Offset: 0x1905080
     static TrackBindingTypeAttribute* New_ctor(System::Type* type, UnityEngine::Timeline::TrackBindingFlags flags);
   }; // UnityEngine.Timeline.TrackBindingTypeAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackBindingTypeAttribute*, "UnityEngine.Timeline", "TrackBindingTypeAttribute");
 #pragma pack(pop)

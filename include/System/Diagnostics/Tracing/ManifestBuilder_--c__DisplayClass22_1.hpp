@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.ManifestBuilder
 #include "System/Diagnostics/Tracing/ManifestBuilder.hpp"
 // Completed includes
@@ -22,15 +20,15 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x18
     System::Diagnostics::Tracing::ManifestBuilder::$$c__DisplayClass22_0* CS$$$8__locals1;
     // System.Void <TranslateToManifestConvention>b__0(System.Char ch, System.String escape)
-    // Offset: 0xD858E8
+    // Offset: 0xD9932C
     void $TranslateToManifestConvention$b__0(::Il2CppChar ch, ::CsString* escape);
     // public System.Void .ctor()
-    // Offset: 0xD857A4
+    // Offset: 0xD991E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ManifestBuilder::$$c__DisplayClass22_1* New_ctor();
   }; // System.Diagnostics.Tracing.ManifestBuilder/<>c__DisplayClass22_1
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestBuilder::$$c__DisplayClass22_1*, "System.Diagnostics.Tracing", "ManifestBuilder/<>c__DisplayClass22_1");
 #pragma pack(pop)

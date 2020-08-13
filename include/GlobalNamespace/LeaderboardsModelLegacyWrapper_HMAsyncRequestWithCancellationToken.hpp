@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: HMAsyncRequest
-#include "GlobalNamespace/HMAsyncRequest.hpp"
 // Including type: LeaderboardsModelLegacyWrapper
 #include "GlobalNamespace/LeaderboardsModelLegacyWrapper.hpp"
+// Including type: HMAsyncRequest
+#include "GlobalNamespace/HMAsyncRequest.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -26,22 +26,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()
-    // Offset: 0xB48354
+    // Offset: 0xB46354
     System::Threading::CancellationTokenSource* get_cancellationTokenSource();
     // public System.Void .ctor()
-    // Offset: 0xB47700
+    // Offset: 0xB45700
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::.ctor()
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()
     static LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* New_ctor();
     // public override System.Void Cancel()
-    // Offset: 0xB4835C
+    // Offset: 0xB4635C
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::Cancel()
     void Cancel();
   }; // LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, "", "LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken");
 #pragma pack(pop)

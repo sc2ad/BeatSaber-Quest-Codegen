@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: EnvironmentOverrideSettingsPanelController
 #include "GlobalNamespace/EnvironmentOverrideSettingsPanelController.hpp"
 // Completed includes
@@ -34,12 +32,12 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::EnvironmentTypeSO* environmentType;
     // public System.Void .ctor()
-    // Offset: 0xBD5890
+    // Offset: 0xBE82D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnvironmentOverrideSettingsPanelController::Elements* New_ctor();
   }; // EnvironmentOverrideSettingsPanelController/Elements
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*, "", "EnvironmentOverrideSettingsPanelController/Elements");
 #pragma pack(pop)

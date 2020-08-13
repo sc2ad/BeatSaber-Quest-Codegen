@@ -81,6 +81,6 @@ namespace Valve::VR {
     IVRSettings(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum_ = {}, Valve::VR::IVRSettings::_Sync* Sync_ = {}, Valve::VR::IVRSettings::_SetBool* SetBool_ = {}, Valve::VR::IVRSettings::_SetInt32* SetInt32_ = {}, Valve::VR::IVRSettings::_SetFloat* SetFloat_ = {}, Valve::VR::IVRSettings::_SetString* SetString_ = {}, Valve::VR::IVRSettings::_GetBool* GetBool_ = {}, Valve::VR::IVRSettings::_GetInt32* GetInt32_ = {}, Valve::VR::IVRSettings::_GetFloat* GetFloat_ = {}, Valve::VR::IVRSettings::_GetString* GetString_ = {}, Valve::VR::IVRSettings::_RemoveSection* RemoveSection_ = {}, Valve::VR::IVRSettings::_RemoveKeyInSection* RemoveKeyInSection_ = {}) : GetSettingsErrorNameFromEnum{GetSettingsErrorNameFromEnum_}, Sync{Sync_}, SetBool{SetBool_}, SetInt32{SetInt32_}, SetFloat{SetFloat_}, SetString{SetString_}, GetBool{GetBool_}, GetInt32{GetInt32_}, GetFloat{GetFloat_}, GetString{GetString_}, RemoveSection{RemoveSection_}, RemoveKeyInSection{RemoveKeyInSection_} {}
   }; // Valve.VR.IVRSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings, "Valve.VR", "IVRSettings");
 #pragma pack(pop)

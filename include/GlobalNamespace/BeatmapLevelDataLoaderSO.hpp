@@ -93,16 +93,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>* bundleLevelInfos;
     // public System.Threading.Tasks.Task`1<IBeatmapLevel> LoadBeatmapLevelFormAssetBundleAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.String assetBundlePath, System.String levelDataAssetName, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x197B394
+    // Offset: 0xB93690
     System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelFormAssetBundleAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::CsString* assetBundlePath, ::CsString* levelDataAssetName, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<IBeatmapLevel> LoadBeatmapLevelAsync(System.String levelID)
-    // Offset: 0x197B518
+    // Offset: 0xB93814
     System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelAsync(::CsString* levelID);
     // private System.Threading.Tasks.Task`1<BeatmapLevelDataSO> LoadBeatmalLevelDataAsync(System.String assetBundlePath, System.String levelDataAssetName)
-    // Offset: 0x197B668
+    // Offset: 0xB93964
     System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* LoadBeatmalLevelDataAsync(::CsString* assetBundlePath, ::CsString* levelDataAssetName);
     // public System.Void .ctor()
-    // Offset: 0x197B7B4
+    // Offset: 0xB93AB0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     static BeatmapLevelDataLoaderSO* New_ctor();
   }; // BeatmapLevelDataLoaderSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO*, "", "BeatmapLevelDataLoaderSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo, "", "BeatmapLevelDataLoaderSO/AssetBundleLevelInfo");
 #pragma pack(pop)

@@ -75,67 +75,67 @@ namespace GlobalNamespace {
     // Offset: 0x140
     GlobalNamespace::HowToPlayViewController* howToPlayViewController;
     // private System.Void ProcessScore(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xBFB5F8
+    // Offset: 0xC0D03C
     void ProcessScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // private System.Void AddScoreToLeaderboards(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xBFB8A4
+    // Offset: 0xC0D2E8
     void AddScoreToLeaderboards(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // private System.Void LogoutAsync()
-    // Offset: 0xBFBB0C
+    // Offset: 0xC0D550
     void LogoutAsync();
     // private System.Void HandleHowToPlayViewControllerDidPressTutorialButton()
-    // Offset: 0xBFBBE8
+    // Offset: 0xC0D62C
     void HandleHowToPlayViewControllerDidPressTutorialButton();
     // private System.Void HandleHowToPlayTabSelected()
-    // Offset: 0xBFBC08
+    // Offset: 0xC0D64C
     void HandleHowToPlayTabSelected();
     // private System.Void HandleLogoutTabWasSelected()
-    // Offset: 0xBFBCB8
+    // Offset: 0xC0D6FC
     void HandleLogoutTabWasSelected();
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController viewController)
-    // Offset: 0xBFBCBC
+    // Offset: 0xC0D700
     void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController* viewController);
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0xBFBD00
+    // Offset: 0xC0D744
     void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Void <LevelSelectionFlowCoordinatorDidActivate>b__14_0()
-    // Offset: 0xBFBDE8
+    // Offset: 0xC0D82C
     void $LevelSelectionFlowCoordinatorDidActivate$b__14_0();
     // private System.Void <HandleHowToPlayTabSelected>b__21_0()
-    // Offset: 0xBFBE00
+    // Offset: 0xC0D844
     void $HandleHowToPlayTabSelected$b__21_0();
     // protected override LeaderboardViewController get_leaderboardViewController()
-    // Offset: 0xBFAF8C
+    // Offset: 0xC0C9D0
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: LeaderboardViewController LevelSelectionFlowCoordinator::get_leaderboardViewController()
     GlobalNamespace::LeaderboardViewController* get_leaderboardViewController();
     // protected override HMUI.ViewController get_topScreenViewController()
-    // Offset: 0xBFAFD0
+    // Offset: 0xC0CA14
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: HMUI.ViewController LevelSelectionFlowCoordinator::get_topScreenViewController()
     HMUI::ViewController* get_topScreenViewController();
     // protected override System.Boolean get_showPlayerStatsInDetailView()
-    // Offset: 0xBFAFD8
+    // Offset: 0xC0CA1C
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_showPlayerStatsInDetailView()
     bool get_showPlayerStatsInDetailView();
     // protected override System.Void LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xBFAFE0
+    // Offset: 0xC0CA24
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // protected override System.Void LevelSelectionFlowCoordinatorDidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    // Offset: 0xBFB364
+    // Offset: 0xC0CDA8
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
     void LevelSelectionFlowCoordinatorDidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
     // protected override System.Void ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0xBFB544
+    // Offset: 0xC0CF88
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
     void ProcessLevelCompletionResultsAfterLevelDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // public System.Void .ctor()
-    // Offset: 0xBFBDE0
+    // Offset: 0xC0D824
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::.ctor()
     // Base method: System.Void FlowCoordinator::.ctor()
@@ -147,6 +147,6 @@ namespace GlobalNamespace {
     static NetEaseArcadeFlowCoordinator* New_ctor();
   }; // NetEaseArcadeFlowCoordinator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator*, "", "NetEaseArcadeFlowCoordinator");
 #pragma pack(pop)

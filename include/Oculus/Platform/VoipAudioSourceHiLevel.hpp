@@ -50,31 +50,31 @@ namespace Oculus::Platform {
     // Set static field: static private System.Boolean verboseLogging
     static void _set_verboseLogging(bool value);
     // public System.Void set_senderID(System.UInt64 value)
-    // Offset: 0x19504E4
+    // Offset: 0x1962F28
     void set_senderID(uint64_t value);
     // protected System.Void Stop()
-    // Offset: 0x19505A8
+    // Offset: 0x1962FEC
     void Stop();
     // private Oculus.Platform.VoipSampleRate SampleRateToEnum(System.Int32 rate)
-    // Offset: 0x19505AC
+    // Offset: 0x1962FF0
     Oculus::Platform::VoipSampleRate SampleRateToEnum(int rate);
     // protected System.Void Awake()
-    // Offset: 0x19505E8
+    // Offset: 0x196302C
     void Awake();
     // private System.Void Start()
-    // Offset: 0x19508AC
+    // Offset: 0x19632F0
     void Start();
     // protected System.Void CreatePCMSource()
-    // Offset: 0x19508C8
+    // Offset: 0x196330C
     void CreatePCMSource();
     // static protected System.Int32 MSToElements(System.Int32 ms)
-    // Offset: 0x1950938
+    // Offset: 0x196337C
     static int MSToElements(int ms);
     // private System.Void Update()
-    // Offset: 0x19509C0
+    // Offset: 0x1963404
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1950CA4
+    // Offset: 0x19636E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -83,12 +83,12 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     static VoipAudioSourceHiLevel* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1950CAC
+    // Offset: 0x19636F0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Oculus.Platform.VoipAudioSourceHiLevel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel*, "Oculus.Platform", "VoipAudioSourceHiLevel");
 #pragma pack(pop)

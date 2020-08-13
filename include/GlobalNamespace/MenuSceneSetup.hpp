@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     HMUI::HierarchyManager* hierarchyManager;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xBED014
+    // Offset: 0xBFEA58
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xBED0BC
+    // Offset: 0xBFEB00
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,6 +57,6 @@ namespace GlobalNamespace {
     static MenuSceneSetup* New_ctor();
   }; // MenuSceneSetup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuSceneSetup*, "", "MenuSceneSetup");
 #pragma pack(pop)

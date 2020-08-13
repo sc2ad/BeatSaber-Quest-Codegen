@@ -26,15 +26,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* presets;
     // public BloomPrePassGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0xB5D338
+    // Offset: 0xB5B338
     ::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0xB5D340
+    // Offset: 0xB5B340
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0xB5D348
+    // Offset: 0xB5B348
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -44,6 +44,6 @@ namespace GlobalNamespace {
     static BloomPrePassGraphicsSettingsPresetsSO* New_ctor();
   }; // BloomPrePassGraphicsSettingsPresetsSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*, "", "BloomPrePassGraphicsSettingsPresetsSO");
 #pragma pack(pop)

@@ -44,19 +44,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     int cubemapSize;
     // private System.Void Update()
-    // Offset: 0xCB6048
+    // Offset: 0xCC9A8C
     void Update();
     // static public System.Void TriggerCubemapCapture(UnityEngine.Vector3 capturePos, System.Int32 cubemapSize, System.String pathName)
-    // Offset: 0xCB6100
+    // Offset: 0xCC9B44
     static void TriggerCubemapCapture(UnityEngine::Vector3 capturePos, int cubemapSize, ::CsString* pathName);
     // static public System.Void RenderIntoCubemap(UnityEngine.Camera ownerCamera, UnityEngine.Cubemap outCubemap)
-    // Offset: 0xCB6378
+    // Offset: 0xCC9DBC
     static void RenderIntoCubemap(UnityEngine::Camera* ownerCamera, UnityEngine::Cubemap* outCubemap);
     // static public System.Boolean SaveCubemapCapture(UnityEngine.Cubemap cubemap, System.String pathName)
-    // Offset: 0xCB69D4
+    // Offset: 0xCCA418
     static bool SaveCubemapCapture(UnityEngine::Cubemap* cubemap, ::CsString* pathName);
     // public System.Void .ctor()
-    // Offset: 0xCB70CC
+    // Offset: 0xCCAB10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace GlobalNamespace {
     static OVRCubemapCapture* New_ctor();
   }; // OVRCubemapCapture
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCubemapCapture*, "", "OVRCubemapCapture");
 #pragma pack(pop)

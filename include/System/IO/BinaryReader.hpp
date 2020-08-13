@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Completed includes
@@ -65,91 +63,91 @@ namespace System::IO {
     // Offset: 0x46
     bool m_leaveOpen;
     // public System.Void .ctor(System.IO.Stream input)
-    // Offset: 0x1116484
+    // Offset: 0x1126EC8
     static BinaryReader* New_ctor(System::IO::Stream* input);
     // public System.Void .ctor(System.IO.Stream input, System.Text.Encoding encoding)
-    // Offset: 0x1116778
+    // Offset: 0x11271BC
     static BinaryReader* New_ctor(System::IO::Stream* input, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.IO.Stream input, System.Text.Encoding encoding, System.Boolean leaveOpen)
-    // Offset: 0x11164FC
+    // Offset: 0x1126F40
     static BinaryReader* New_ctor(System::IO::Stream* input, System::Text::Encoding* encoding, bool leaveOpen);
     // public System.IO.Stream get_BaseStream()
-    // Offset: 0x1116780
+    // Offset: 0x11271C4
     System::IO::Stream* get_BaseStream();
     // public System.Void Close()
-    // Offset: 0x1116788
+    // Offset: 0x11271CC
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1116798
+    // Offset: 0x11271DC
     void Dispose(bool disposing);
     // public System.Int32 Read()
-    // Offset: 0x1116864
+    // Offset: 0x11272A8
     int Read();
     // public System.Boolean ReadBoolean()
-    // Offset: 0x1116B3C
+    // Offset: 0x1127580
     bool ReadBoolean();
     // public System.Byte ReadByte()
-    // Offset: 0x1116B98
+    // Offset: 0x11275DC
     uint8_t ReadByte();
     // public System.SByte ReadSByte()
-    // Offset: 0x1116BF4
+    // Offset: 0x1127638
     int8_t ReadSByte();
     // public System.Char ReadChar()
-    // Offset: 0x1116C48
+    // Offset: 0x112768C
     ::Il2CppChar ReadChar();
     // public System.Int16 ReadInt16()
-    // Offset: 0x1116C84
+    // Offset: 0x11276C8
     int16_t ReadInt16();
     // public System.UInt16 ReadUInt16()
-    // Offset: 0x1116CE0
+    // Offset: 0x1127724
     uint16_t ReadUInt16();
     // public System.Int32 ReadInt32()
-    // Offset: 0x1116D3C
+    // Offset: 0x1127780
     int ReadInt32();
     // public System.UInt32 ReadUInt32()
-    // Offset: 0x1116F04
+    // Offset: 0x1127948
     uint ReadUInt32();
     // public System.Int64 ReadInt64()
-    // Offset: 0x1116F88
+    // Offset: 0x11279CC
     int64_t ReadInt64();
     // public System.UInt64 ReadUInt64()
-    // Offset: 0x111704C
+    // Offset: 0x1127A90
     uint64_t ReadUInt64();
     // public System.Single ReadSingle()
-    // Offset: 0x1117110
+    // Offset: 0x1127B54
     float ReadSingle();
     // public System.Double ReadDouble()
-    // Offset: 0x111714C
+    // Offset: 0x1127B90
     double ReadDouble();
     // public System.Decimal ReadDecimal()
-    // Offset: 0x1117188
+    // Offset: 0x1127BCC
     System::Decimal ReadDecimal();
     // public System.String ReadString()
-    // Offset: 0x111730C
+    // Offset: 0x1127D50
     ::CsString* ReadString();
     // private System.Int32 InternalReadChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x11176C4
+    // Offset: 0x1128108
     int InternalReadChars(::Array<::Il2CppChar>* buffer, int index, int count);
     // private System.Int32 InternalReadOneChar()
-    // Offset: 0x1116894
+    // Offset: 0x11272D8
     int InternalReadOneChar();
     // public System.Char[] ReadChars(System.Int32 count)
-    // Offset: 0x1117A28
+    // Offset: 0x112846C
     ::Array<::Il2CppChar>* ReadChars(int count);
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1117B88
+    // Offset: 0x11285CC
     int Read(::Array<uint8_t>* buffer, int index, int count);
     // public System.Byte[] ReadBytes(System.Int32 count)
-    // Offset: 0x1117D50
+    // Offset: 0x1128794
     ::Array<uint8_t>* ReadBytes(int count);
     // protected System.Void FillBuffer(System.Int32 numBytes)
-    // Offset: 0x1117EE8
+    // Offset: 0x112892C
     void FillBuffer(int numBytes);
     // protected internal System.Int32 Read7BitEncodedInt()
-    // Offset: 0x11175C0
+    // Offset: 0x1128004
     int Read7BitEncodedInt();
     // public System.Void Dispose()
-    // Offset: 0x1116854
+    // Offset: 0x1127298
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -158,6 +156,6 @@ namespace System::IO {
     void System_IDisposable_Dispose();
   }; // System.IO.BinaryReader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryReader*, "System.IO", "BinaryReader");
 #pragma pack(pop)

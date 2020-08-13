@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NoteType
 #include "GlobalNamespace/NoteType.hpp"
 // Completed includes
@@ -99,22 +97,22 @@ namespace GlobalNamespace {
     // Offset: 0x70
     float maxNotesAlignmentAngle;
     // public System.Void .ctor(BeatmapCallbackItemDataList/SpawnNoteCallback spawnNoteCallback, BeatmapCallbackItemDataList/SpawnObstacleCallback spawnObstacleCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processEarlyBeatmapEventCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processLateBeatmapEventCallback, System.Action earlyEventsWereProcessedCallback, BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback getRelativeNoteOffsetCallback)
-    // Offset: 0x19745D8
+    // Offset: 0xB8C8D4
     static BeatmapCallbackItemDataList* New_ctor(GlobalNamespace::BeatmapCallbackItemDataList::SpawnNoteCallback* spawnNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback, System::Action* earlyEventsWereProcessedCallback, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback);
     // public System.Void InsertBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x1974928
+    // Offset: 0xB8CC24
     void InsertBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void InsertBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x1974A2C
+    // Offset: 0xB8CD28
     void InsertBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void ProcessData()
-    // Offset: 0x1974B30
+    // Offset: 0xB8CE2C
     void ProcessData();
     // private System.Boolean ProcessNotesByType(System.Collections.Generic.List`1<NoteData> notesWithTheSameTypeList)
-    // Offset: 0x19757C4
+    // Offset: 0xB8DAC0
     bool ProcessNotesByType(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesWithTheSameTypeList);
   }; // BeatmapCallbackItemDataList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList*, "", "BeatmapCallbackItemDataList");
 #pragma pack(pop)

@@ -38,6 +38,6 @@ namespace UnityEngine::ProBuilder {
     ExtrudeMethod(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.ExtrudeMethod
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ExtrudeMethod, "UnityEngine.ProBuilder", "ExtrudeMethod");
 #pragma pack(pop)

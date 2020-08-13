@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -16,10 +17,10 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     int val;
     // public System.Void .ctor(System.Int32 dispId)
-    // Offset: 0x1150ED8
+    // Offset: 0x116291C
     static DispIdAttribute* New_ctor(int dispId);
   }; // System.Runtime.InteropServices.DispIdAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DispIdAttribute*, "System.Runtime.InteropServices", "DispIdAttribute");
 #pragma pack(pop)

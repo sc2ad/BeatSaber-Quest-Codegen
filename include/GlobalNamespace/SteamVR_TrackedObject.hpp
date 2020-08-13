@@ -153,25 +153,25 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::SteamVR_Events::Action* newPosesAction;
     // public System.Boolean get_isValid()
-    // Offset: 0xFC02AC
+    // Offset: 0xFD1CF0
     bool get_isValid();
     // private System.Void set_isValid(System.Boolean value)
-    // Offset: 0xFC02B4
+    // Offset: 0xFD1CF8
     void set_isValid(bool value);
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0xFC02C0
+    // Offset: 0xFD1D04
     void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
     // private System.Void OnEnable()
-    // Offset: 0xFC05D4
+    // Offset: 0xFD2018
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xFC0684
+    // Offset: 0xFD20C8
     void OnDisable();
     // public System.Void SetDeviceIndex(System.Int32 index)
-    // Offset: 0xFC06BC
+    // Offset: 0xFD2100
     void SetDeviceIndex(int index);
     // private System.Void .ctor()
-    // Offset: 0xFC051C
+    // Offset: 0xFD1F60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -181,7 +181,7 @@ namespace GlobalNamespace {
     static SteamVR_TrackedObject* New_ctor();
   }; // SteamVR_TrackedObject
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedObject*, "", "SteamVR_TrackedObject");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedObject::EIndex, "", "SteamVR_TrackedObject/EIndex");
 #pragma pack(pop)

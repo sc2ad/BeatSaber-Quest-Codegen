@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights;
     // protected System.Void Start()
-    // Offset: 0xC189AC
+    // Offset: 0xC2A3F0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xC18A30
+    // Offset: 0xC2A474
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     static SetTubeBloomPrePassLightColor* New_ctor();
   }; // SetTubeBloomPrePassLightColor
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetTubeBloomPrePassLightColor*, "", "SetTubeBloomPrePassLightColor");
 #pragma pack(pop)

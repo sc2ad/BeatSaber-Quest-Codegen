@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.MeshHandles
 #include "UnityEngine/ProBuilder/MeshHandles.hpp"
 // Completed includes
@@ -43,18 +41,18 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__9_0
     static void _set_$$9__9_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF91B90
+    // Offset: 0xFA35D4
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <CreateFaceMesh>b__9_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0xF91C00
+    // Offset: 0xFA3644
     System::Collections::Generic::IEnumerable_1<int>* $CreateFaceMesh$b__9_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0xF91BF8
+    // Offset: 0xFA363C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshHandles::$$c* New_ctor();
   }; // UnityEngine.ProBuilder.MeshHandles/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshHandles::$$c*, "UnityEngine.ProBuilder", "MeshHandles/<>c");
 #pragma pack(pop)

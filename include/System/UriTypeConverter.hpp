@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace System {
   class UriTypeConverter : public System::ComponentModel::TypeConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x193D49C
+    // Offset: 0x1950EE0
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()
     static UriTypeConverter* New_ctor();
   }; // System.UriTypeConverter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriTypeConverter*, "System", "UriTypeConverter");
 #pragma pack(pop)

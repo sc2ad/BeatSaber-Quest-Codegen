@@ -79,31 +79,31 @@ namespace GlobalNamespace {
     // Offset: 0x58
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*>* unusedCutScoreHandlers;
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0xB57A9C
+    // Offset: 0xB55A9C
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // protected System.Void Start()
-    // Offset: 0xB57AA4
+    // Offset: 0xB55AA4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB57E90
+    // Offset: 0xB55E90
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xB580D4
+    // Offset: 0xB560D4
     void Update();
     // private System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0xB582D4
+    // Offset: 0xB562D4
     void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler);
     // private System.Void HandleScoreControllerNoteWasCut(NoteData noteData, NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0xB58358
+    // Offset: 0xB56358
     void HandleScoreControllerNoteWasCut(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier);
     // private System.Void HandleScoreControllerNoteWasMissed(NoteData noteData, System.Int32 multiplier)
-    // Offset: 0xB5868C
+    // Offset: 0xB5668C
     void HandleScoreControllerNoteWasMissed(GlobalNamespace::NoteData* noteData, int multiplier);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0xB5878C
+    // Offset: 0xB5678C
     void HandleObstacleDidPassAvoidedMark(GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0xB58890
+    // Offset: 0xB56890
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -113,6 +113,6 @@ namespace GlobalNamespace {
     static BeatmapObjectExecutionRatingsRecorder* New_ctor();
   }; // BeatmapObjectExecutionRatingsRecorder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*, "", "BeatmapObjectExecutionRatingsRecorder");
 #pragma pack(pop)

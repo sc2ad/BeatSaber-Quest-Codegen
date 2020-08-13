@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: VRControllersRecorderData
 #include "GlobalNamespace/VRControllersRecorderData.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
@@ -28,13 +28,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PositionAndRotation
     PositionAndRotation(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) : pos{pos_}, rot{rot_} {}
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0xA28034
+    // Offset: 0xA280B0
     static VRControllersRecorderData::PositionAndRotation* New_ctor(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // static public VRControllersRecorderData/PositionAndRotation Lerp(VRControllersRecorderData/PositionAndRotation a, VRControllersRecorderData/PositionAndRotation b, System.Single t)
-    // Offset: 0xC3D5E4
+    // Offset: 0xC4F028
     static GlobalNamespace::VRControllersRecorderData::PositionAndRotation Lerp(GlobalNamespace::VRControllersRecorderData::PositionAndRotation a, GlobalNamespace::VRControllersRecorderData::PositionAndRotation b, float t);
   }; // VRControllersRecorderData/PositionAndRotation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::PositionAndRotation, "", "VRControllersRecorderData/PositionAndRotation");
 #pragma pack(pop)

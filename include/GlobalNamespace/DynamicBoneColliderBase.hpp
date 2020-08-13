@@ -77,10 +77,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::DynamicBoneColliderBase::Bound m_Bound;
     // public System.Void Collide(UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x1937494
+    // Offset: 0x194BED8
     void Collide(UnityEngine::Vector3& particlePosition, float particleRadius);
     // public System.Void .ctor()
-    // Offset: 0x1937414
+    // Offset: 0x194BE58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     static DynamicBoneColliderBase* New_ctor();
   }; // DynamicBoneColliderBase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase*, "", "DynamicBoneColliderBase");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Direction, "", "DynamicBoneColliderBase/Direction");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Bound, "", "DynamicBoneColliderBase/Bound");

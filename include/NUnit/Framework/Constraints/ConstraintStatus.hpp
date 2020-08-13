@@ -44,6 +44,6 @@ namespace NUnit::Framework::Constraints {
     ConstraintStatus(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Constraints.ConstraintStatus
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintStatus, "NUnit.Framework.Constraints", "ConstraintStatus");
 #pragma pack(pop)

@@ -26,12 +26,12 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // public System.Void RestartLevel()
-    // Offset: 0xC3543C
+    // Offset: 0xC46E80
     // Implemented from: ILevelRestartController
     // Base method: System.Void ILevelRestartController::RestartLevel()
     void RestartLevel();
     // public System.Void .ctor()
-    // Offset: 0xC35458
+    // Offset: 0xC46E9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -41,6 +41,6 @@ namespace GlobalNamespace {
     static TutorialRestartController* New_ctor();
   }; // TutorialRestartController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialRestartController*, "", "TutorialRestartController");
 #pragma pack(pop)

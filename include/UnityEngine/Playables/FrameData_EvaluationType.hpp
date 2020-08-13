@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.Playables.FrameData
 #include "UnityEngine/Playables/FrameData.hpp"
 // Completed includes
@@ -34,6 +32,6 @@ namespace UnityEngine::Playables {
     EvaluationType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Playables.FrameData/EvaluationType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData::EvaluationType, "UnityEngine.Playables", "FrameData/EvaluationType");
 #pragma pack(pop)

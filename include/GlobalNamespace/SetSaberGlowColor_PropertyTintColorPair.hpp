@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: SetSaberGlowColor
 #include "GlobalNamespace/SetSaberGlowColor.hpp"
 // Including type: UnityEngine.Color
@@ -24,12 +22,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::CsString* property;
     // public System.Void .ctor()
-    // Offset: 0xC189A4
+    // Offset: 0xC2A3E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SetSaberGlowColor::PropertyTintColorPair* New_ctor();
   }; // SetSaberGlowColor/PropertyTintColorPair
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*, "", "SetSaberGlowColor/PropertyTintColorPair");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.CSG_Vertex
 #include "UnityEngine/ProBuilder/CSG_Vertex.hpp"
 // Completed includes
@@ -50,24 +48,24 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x18
     System::Collections::Generic::List_1<int>* indexes;
     // public System.Void .ctor(UnityEngine.GameObject go)
-    // Offset: 0xF7C570
+    // Offset: 0xF8DFB4
     static CSG_Model* New_ctor(UnityEngine::GameObject* go);
     // public System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> list)
-    // Offset: 0xF7CBC4
+    // Offset: 0xF8E608
     static CSG_Model* New_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* list);
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> ToPolygons()
-    // Offset: 0xF7C708
+    // Offset: 0xF8E14C
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* ToPolygons();
     // public UnityEngine.Mesh ToMesh()
-    // Offset: 0xF7CE9C
+    // Offset: 0xF8E8E0
     UnityEngine::Mesh* ToMesh();
     // public System.Void .ctor()
-    // Offset: 0xF7D3B0
+    // Offset: 0xF8EDF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CSG_Model* New_ctor();
   }; // UnityEngine.ProBuilder.Experimental.CSG.CSG_Model
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Experimental::CSG::CSG_Model*, "UnityEngine.ProBuilder.Experimental.CSG", "CSG_Model");
 #pragma pack(pop)

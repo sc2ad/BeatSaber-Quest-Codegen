@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Xml.XmlWellFormedWriter
 #include "System/Xml/XmlWellFormedWriter.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -30,13 +30,13 @@ namespace System::Xml {
     // Creating value type constructor for type: AttrName
     AttrName(::CsString* prefix_ = {}, ::CsString* namespaceUri_ = {}, ::CsString* localName_ = {}, int prev_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, localName{localName_}, prev{prev_} {}
     // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri)
-    // Offset: 0xA5A624
+    // Offset: 0xA5A6A0
     void Set(::CsString* prefix, ::CsString* localName, ::CsString* namespaceUri);
     // System.Boolean IsDuplicate(System.String prefix, System.String localName, System.String namespaceUri)
-    // Offset: 0xA5A62C
+    // Offset: 0xA5A6A8
     bool IsDuplicate(::CsString* prefix, ::CsString* localName, ::CsString* namespaceUri);
   }; // System.Xml.XmlWellFormedWriter/AttrName
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttrName, "System.Xml", "XmlWellFormedWriter/AttrName");
 #pragma pack(pop)

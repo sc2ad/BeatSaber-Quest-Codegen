@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     float spawnPosZ;
     // protected System.Void Start()
-    // Offset: 0xBEE604
+    // Offset: 0xC00048
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBEE6B8
+    // Offset: 0xC000FC
     void OnDestroy();
     // private System.Void HandleNoteWasMissed(INoteController noteController)
-    // Offset: 0xBEE790
+    // Offset: 0xC001D4
     void HandleNoteWasMissed(GlobalNamespace::INoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0xBEEB74
+    // Offset: 0xC005B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -58,6 +58,6 @@ namespace GlobalNamespace {
     static MissedNoteEffectSpawner* New_ctor();
   }; // MissedNoteEffectSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissedNoteEffectSpawner*, "", "MissedNoteEffectSpawner");
 #pragma pack(pop)

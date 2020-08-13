@@ -36,6 +36,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::CsString* path, System::Threading::CancellationToken cancellationToken);
   }; // IAudioClipAsyncLoader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAudioClipAsyncLoader*, "", "IAudioClipAsyncLoader");
 #pragma pack(pop)

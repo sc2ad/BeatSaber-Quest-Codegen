@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
@@ -41,48 +39,48 @@ namespace Xft {
     // Offset: 0x38
     Xft::Spline* mSpline;
     // public Xft.SplineControlPoint get_NextControlPoint()
-    // Offset: 0xC42768
+    // Offset: 0xC541AC
     Xft::SplineControlPoint* get_NextControlPoint();
     // public Xft.SplineControlPoint get_PreviousControlPoint()
-    // Offset: 0xC42784
+    // Offset: 0xC541C8
     Xft::SplineControlPoint* get_PreviousControlPoint();
     // public UnityEngine.Vector3 get_NextPosition()
-    // Offset: 0xC427A0
+    // Offset: 0xC541E4
     UnityEngine::Vector3 get_NextPosition();
     // public UnityEngine.Vector3 get_PreviousPosition()
-    // Offset: 0xC427BC
+    // Offset: 0xC54200
     UnityEngine::Vector3 get_PreviousPosition();
     // public UnityEngine.Vector3 get_NextNormal()
-    // Offset: 0xC427D8
+    // Offset: 0xC5421C
     UnityEngine::Vector3 get_NextNormal();
     // public UnityEngine.Vector3 get_PreviousNormal()
-    // Offset: 0xC427F4
+    // Offset: 0xC54238
     UnityEngine::Vector3 get_PreviousNormal();
     // public System.Boolean get_IsValid()
-    // Offset: 0xC426A4
+    // Offset: 0xC540E8
     bool get_IsValid();
     // private UnityEngine.Vector3 GetNext2Position()
-    // Offset: 0xC42810
+    // Offset: 0xC54254
     UnityEngine::Vector3 GetNext2Position();
     // private UnityEngine.Vector3 GetNext2Normal()
-    // Offset: 0xC42838
+    // Offset: 0xC5427C
     UnityEngine::Vector3 GetNext2Normal();
     // public UnityEngine.Vector3 Interpolate(System.Single localF)
-    // Offset: 0xC41FB0
+    // Offset: 0xC539F4
     UnityEngine::Vector3 Interpolate(float localF);
     // public UnityEngine.Vector3 InterpolateNormal(System.Single localF)
-    // Offset: 0xC420E0
+    // Offset: 0xC53B24
     UnityEngine::Vector3 InterpolateNormal(float localF);
     // public System.Void Init(Xft.Spline owner)
-    // Offset: 0xC422EC
+    // Offset: 0xC53D30
     void Init(Xft::Spline* owner);
     // public System.Void .ctor()
-    // Offset: 0xC422DC
+    // Offset: 0xC53D20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SplineControlPoint* New_ctor();
   }; // Xft.SplineControlPoint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Xft::SplineControlPoint*, "Xft", "SplineControlPoint");
 #pragma pack(pop)

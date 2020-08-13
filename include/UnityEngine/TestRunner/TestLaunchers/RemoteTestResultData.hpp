@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Interfaces.TestStatus
 #include "NUnit/Framework/Interfaces/TestStatus.hpp"
 // Including type: System.DateTime
@@ -87,10 +85,10 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Offset: 0x88
     ::Array<::CsString*>* childrenIds;
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE256FC
+    // Offset: 0xE38140
     static RemoteTestResultData* New_ctor(NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData");
 #pragma pack(pop)

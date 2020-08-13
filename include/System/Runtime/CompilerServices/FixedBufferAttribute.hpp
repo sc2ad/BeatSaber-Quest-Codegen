@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -26,16 +27,16 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x18
     int length;
     // public System.Void .ctor(System.Type elementType, System.Int32 length)
-    // Offset: 0x114FBFC
+    // Offset: 0x1161640
     static FixedBufferAttribute* New_ctor(System::Type* elementType, int length);
     // public System.Type get_ElementType()
-    // Offset: 0x114FC44
+    // Offset: 0x1161688
     System::Type* get_ElementType();
     // public System.Int32 get_Length()
-    // Offset: 0x114FC4C
+    // Offset: 0x1161690
     int get_Length();
   }; // System.Runtime.CompilerServices.FixedBufferAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::FixedBufferAttribute*, "System.Runtime.CompilerServices", "FixedBufferAttribute");
 #pragma pack(pop)

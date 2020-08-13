@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.RotationLimitPolygonal
 #include "RootMotion/FinalIK/RotationLimitPolygonal.hpp"
 // Completed includes
@@ -28,28 +26,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     UnityEngine::Vector3 B;
     // public UnityEngine.Vector3 get_o()
-    // Offset: 0x1221FFC
+    // Offset: 0x1233A40
     UnityEngine::Vector3 get_o();
     // public UnityEngine.Vector3 get_a()
-    // Offset: 0x1222034
+    // Offset: 0x1233A78
     UnityEngine::Vector3 get_a();
     // public UnityEngine.Vector3 get_b()
-    // Offset: 0x1222070
+    // Offset: 0x1233AB4
     UnityEngine::Vector3 get_b();
     // public UnityEngine.Vector3 get_c()
-    // Offset: 0x12220AC
+    // Offset: 0x1233AF0
     UnityEngine::Vector3 get_c();
     // public System.Void .ctor(UnityEngine.Vector3 _o, UnityEngine.Vector3 _a, UnityEngine.Vector3 _b, UnityEngine.Vector3 _c)
-    // Offset: 0x122178C
+    // Offset: 0x12331D0
     static RotationLimitPolygonal::ReachCone* New_ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c);
     // public System.Boolean get_isValid()
-    // Offset: 0x1221140
+    // Offset: 0x1232B84
     bool get_isValid();
     // public System.Void Calculate()
-    // Offset: 0x1221900
+    // Offset: 0x1233344
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/ReachCone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");
 #pragma pack(pop)

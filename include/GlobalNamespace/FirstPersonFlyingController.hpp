@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Transform* cameraTransform;
     // protected System.Void Start()
-    // Offset: 0xBD93E0
+    // Offset: 0xBEBE24
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xBD9608
+    // Offset: 0xBEC04C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xBD963C
+    // Offset: 0xBEC080
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0xBD966C
+    // Offset: 0xBEC0B0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBD9A38
+    // Offset: 0xBEC47C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -91,6 +91,6 @@ namespace GlobalNamespace {
     static FirstPersonFlyingController* New_ctor();
   }; // FirstPersonFlyingController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FirstPersonFlyingController*, "", "FirstPersonFlyingController");
 #pragma pack(pop)

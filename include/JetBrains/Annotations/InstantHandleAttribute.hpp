@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace JetBrains::Annotations {
   class InstantHandleAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1945438
+    // Offset: 0x1957E7C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static InstantHandleAttribute* New_ctor();
   }; // JetBrains.Annotations.InstantHandleAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::InstantHandleAttribute*, "JetBrains.Annotations", "InstantHandleAttribute");
 #pragma pack(pop)

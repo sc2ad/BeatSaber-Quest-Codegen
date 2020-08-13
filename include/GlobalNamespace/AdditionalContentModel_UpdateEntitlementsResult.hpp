@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: AdditionalContentModel
 #include "GlobalNamespace/AdditionalContentModel.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -34,6 +34,6 @@ namespace GlobalNamespace {
     UpdateEntitlementsResult(int value_ = {}) : value{value_} {}
   }; // AdditionalContentModel/UpdateEntitlementsResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult, "", "AdditionalContentModel/UpdateEntitlementsResult");
 #pragma pack(pop)

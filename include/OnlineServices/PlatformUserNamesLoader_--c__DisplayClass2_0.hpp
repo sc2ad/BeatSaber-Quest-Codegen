@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OnlineServices.PlatformUserNamesLoader
 #include "OnlineServices/PlatformUserNamesLoader.hpp"
 // Including type: System.Threading.CancellationToken
@@ -34,15 +32,15 @@ namespace OnlineServices {
     // Offset: 0x18
     System::Threading::Tasks::TaskCompletionSource_1<::Array<::CsString*>*>* tcs;
     // System.Void <GetUserNamesForUserIds>b__0(PlatformUserModelSO/GetUserNamesForUserIdsResult result, System.String[] names)
-    // Offset: 0xBB9744
+    // Offset: 0xBCC188
     void $GetUserNamesForUserIds$b__0(GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsResult result, ::Array<::CsString*>* names);
     // public System.Void .ctor()
-    // Offset: 0xBB973C
+    // Offset: 0xBCC180
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlatformUserNamesLoader::$$c__DisplayClass2_0* New_ctor();
   }; // OnlineServices.PlatformUserNamesLoader/<>c__DisplayClass2_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformUserNamesLoader::$$c__DisplayClass2_0*, "OnlineServices", "PlatformUserNamesLoader/<>c__DisplayClass2_0");
 #pragma pack(pop)

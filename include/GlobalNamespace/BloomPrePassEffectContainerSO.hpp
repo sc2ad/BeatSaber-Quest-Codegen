@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect;
     // public BloomPrePassEffectSO get_bloomPrePassEffect()
-    // Offset: 0x180D708
+    // Offset: 0x181E14C
     GlobalNamespace::BloomPrePassEffectSO* get_bloomPrePassEffect();
     // public System.Void Init(BloomPrePassEffectSO bloomPrePassEffect)
-    // Offset: 0x180D710
+    // Offset: 0x181E154
     void Init(GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
     // public System.Void .ctor()
-    // Offset: 0x180D718
+    // Offset: 0x181E15C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -39,6 +39,6 @@ namespace GlobalNamespace {
     static BloomPrePassEffectContainerSO* New_ctor();
   }; // BloomPrePassEffectContainerSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectContainerSO*, "", "BloomPrePassEffectContainerSO");
 #pragma pack(pop)

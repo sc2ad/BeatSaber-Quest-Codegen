@@ -30,15 +30,15 @@ namespace GlobalNamespace {
     // Offset: 0x90
     System::Collections::Generic::List_1<UnityEngine::Transform*>* customBones;
     // public System.Collections.Generic.List`1<UnityEngine.Transform> get_CustomBones()
-    // Offset: 0xCB70FC
+    // Offset: 0xCCAB40
     System::Collections::Generic::List_1<UnityEngine::Transform*>* get_CustomBones();
     // protected override System.Void InitializeBones(OVRPlugin/Skeleton skeleton)
-    // Offset: 0xCB7104
+    // Offset: 0xCCAB48
     // Implemented from: OVRSkeleton
     // Base method: System.Void OVRSkeleton::InitializeBones(OVRPlugin/Skeleton skeleton)
     void InitializeBones(GlobalNamespace::OVRPlugin::Skeleton skeleton);
     // public System.Void .ctor()
-    // Offset: 0xCB72C0
+    // Offset: 0xCCAD04
     // Implemented from: OVRSkeleton
     // Base method: System.Void OVRSkeleton::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     static OVRCustomSkeleton* New_ctor();
   }; // OVRCustomSkeleton
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCustomSkeleton*, "", "OVRCustomSkeleton");
 #pragma pack(pop)

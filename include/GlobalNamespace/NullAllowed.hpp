@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::NullAllowed::Context context;
     // public NullAllowed/Context get_context()
-    // Offset: 0xCA2F58
+    // Offset: 0xCB599C
     GlobalNamespace::NullAllowed::Context get_context();
     // public System.Void .ctor(NullAllowed/Context context)
-    // Offset: 0xCA2F88
+    // Offset: 0xCB59CC
     static NullAllowed* New_ctor(GlobalNamespace::NullAllowed::Context context);
     // public System.Void .ctor()
-    // Offset: 0xCA2F60
+    // Offset: 0xCB59A4
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     static NullAllowed* New_ctor();
   }; // NullAllowed
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed*, "", "NullAllowed");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed::Context, "", "NullAllowed/Context");
 #pragma pack(pop)

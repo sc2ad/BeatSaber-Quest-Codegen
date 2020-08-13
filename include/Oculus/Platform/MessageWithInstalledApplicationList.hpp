@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithInstalledApplicationList : public Oculus::Platform::Message_1<Oculus::Platform::Models::InstalledApplicationList*> {
     public:
     // protected Oculus.Platform.Models.InstalledApplicationList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8CBF4
+    // Offset: 0xE9F638
     Oculus::Platform::Models::InstalledApplicationList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE8CB50
+    // Offset: 0xE9F594
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithInstalledApplicationList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.InstalledApplicationList GetInstalledApplicationList()
-    // Offset: 0xE8CBB0
+    // Offset: 0xE9F5F4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.InstalledApplicationList Message::GetInstalledApplicationList()
     Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();
   }; // Oculus.Platform.MessageWithInstalledApplicationList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithInstalledApplicationList*, "Oculus.Platform", "MessageWithInstalledApplicationList");
 #pragma pack(pop)

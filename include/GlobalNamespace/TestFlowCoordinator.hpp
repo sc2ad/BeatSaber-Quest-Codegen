@@ -35,12 +35,12 @@ namespace GlobalNamespace {
     // Offset: 0xC8
     HMUI::ViewController* topScreenViewController;
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xB952B8
+    // Offset: 0xBA6CFC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB952D4
+    // Offset: 0xBA6D18
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static TestFlowCoordinator* New_ctor();
   }; // TestFlowCoordinator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestFlowCoordinator*, "", "TestFlowCoordinator");
 #pragma pack(pop)

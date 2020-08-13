@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.EventTags
 #include "System/Diagnostics/Tracing/EventTags.hpp"
 // Including type: System.Diagnostics.Tracing.EventKeywords
@@ -74,31 +72,31 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x48
     System::Diagnostics::Tracing::ConcurrentSet_2<System::Collections::Generic::KeyValuePair_2<::CsString*, System::Diagnostics::Tracing::EventTags>, System::Diagnostics::Tracing::NameInfo*> nameInfos;
     // System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Type[] types)
-    // Offset: 0xD87C14
+    // Offset: 0xD9B658
     static TraceLoggingEventTypes* New_ctor(::CsString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Type*>* types);
     // System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Reflection.ParameterInfo[] paramInfos)
-    // Offset: 0xD88000
+    // Offset: 0xD9BA44
     static TraceLoggingEventTypes* New_ctor(::CsString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Reflection::ParameterInfo*>* paramInfos);
     // private System.Void .ctor(System.Diagnostics.Tracing.EventTags tags, System.String defaultName, System.Diagnostics.Tracing.TraceLoggingTypeInfo[] typeInfos)
-    // Offset: 0xD87E00
+    // Offset: 0xD9B844
     static TraceLoggingEventTypes* New_ctor(System::Diagnostics::Tracing::EventTags tags, ::CsString* defaultName, ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* typeInfos);
     // System.String get_Name()
-    // Offset: 0xD88558
+    // Offset: 0xD9BF9C
     ::CsString* get_Name();
     // System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0xD88560
+    // Offset: 0xD9BFA4
     System::Diagnostics::Tracing::EventTags get_Tags();
     // System.Diagnostics.Tracing.NameInfo GetNameInfo(System.String name, System.Diagnostics.Tracing.EventTags tags)
-    // Offset: 0xD88568
+    // Offset: 0xD9BFAC
     System::Diagnostics::Tracing::NameInfo* GetNameInfo(::CsString* name, System::Diagnostics::Tracing::EventTags tags);
     // private System.Diagnostics.Tracing.TraceLoggingTypeInfo[] MakeArray(System.Reflection.ParameterInfo[] paramInfos)
-    // Offset: 0xD88248
+    // Offset: 0xD9BC8C
     ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* MakeArray(::Array<System::Reflection::ParameterInfo*>* paramInfos);
     // static private System.Diagnostics.Tracing.TraceLoggingTypeInfo[] MakeArray(System.Type[] types)
-    // Offset: 0xD87C58
+    // Offset: 0xD9B69C
     static ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* MakeArray(::Array<System::Type*>* types);
   }; // System.Diagnostics.Tracing.TraceLoggingEventTypes
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingEventTypes*, "System.Diagnostics.Tracing", "TraceLoggingEventTypes");
 #pragma pack(pop)

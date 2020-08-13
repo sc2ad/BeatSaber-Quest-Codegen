@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback;
     // public System.Void SetCallback(ImageEffectController/RenderImageCallback renderImageCallback)
-    // Offset: 0x1810210
+    // Offset: 0x1820C54
     void SetCallback(GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback);
     // protected System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1810218
+    // Offset: 0x1820C5C
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x181062C
+    // Offset: 0x1821070
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static ImageEffectController* New_ctor();
   }; // ImageEffectController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageEffectController*, "", "ImageEffectController");
 #pragma pack(pop)

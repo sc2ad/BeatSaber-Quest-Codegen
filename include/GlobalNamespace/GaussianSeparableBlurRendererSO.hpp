@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class GaussianSeparableBlurRendererSO : public GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1810208
+    // Offset: 0x1820C4C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -23,6 +23,6 @@ namespace GlobalNamespace {
     static GaussianSeparableBlurRendererSO* New_ctor();
   }; // GaussianSeparableBlurRendererSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GaussianSeparableBlurRendererSO*, "", "GaussianSeparableBlurRendererSO");
 #pragma pack(pop)

@@ -60,40 +60,40 @@ namespace GlobalNamespace {
     // Offset: 0x38
     ::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos;
     // public System.Void add_didSelectRowEvent(System.Action`2<MainSettingsTableView,System.Int32> value)
-    // Offset: 0xBEB3B8
+    // Offset: 0xBFCDFC
     void add_didSelectRowEvent(System::Action_2<GlobalNamespace::MainSettingsTableView*, int>* value);
     // public System.Void remove_didSelectRowEvent(System.Action`2<MainSettingsTableView,System.Int32> value)
-    // Offset: 0xBEC0B4
+    // Offset: 0xBFDAF8
     void remove_didSelectRowEvent(System::Action_2<GlobalNamespace::MainSettingsTableView*, int>* value);
     // public System.Void Init(SettingsSubMenuInfo[] settingsSubMenuInfos)
-    // Offset: 0xBEB45C
+    // Offset: 0xBFCEA0
     void Init(::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos);
     // private System.Void HandleDidSelectRow(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0xBEC2F8
+    // Offset: 0xBFDD3C
     void HandleDidSelectRow(HMUI::TableView* tableView, int row);
     // public System.Void SelectRow(System.Int32 row)
-    // Offset: 0xBEB558
+    // Offset: 0xBFCF9C
     void SelectRow(int row);
     // public System.Void ClearSelection()
-    // Offset: 0xBEC370
+    // Offset: 0xBFDDB4
     void ClearSelection();
     // public System.Single CellSize()
-    // Offset: 0xBEC158
+    // Offset: 0xBFDB9C
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xBEC160
+    // Offset: 0xBFDBA4
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0xBEC178
+    // Offset: 0xBFDBBC
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 row)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // public System.Void .ctor()
-    // Offset: 0xBEC38C
+    // Offset: 0xBFDDD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,6 +103,6 @@ namespace GlobalNamespace {
     static MainSettingsTableView* New_ctor();
   }; // MainSettingsTableView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsTableView*, "", "MainSettingsTableView");
 #pragma pack(pop)

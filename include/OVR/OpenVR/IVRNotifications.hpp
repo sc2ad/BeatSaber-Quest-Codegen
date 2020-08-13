@@ -31,6 +31,6 @@ namespace OVR::OpenVR {
     IVRNotifications(OVR::OpenVR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, OVR::OpenVR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
   }; // OVR.OpenVR.IVRNotifications
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications, "OVR.OpenVR", "IVRNotifications");
 #pragma pack(pop)

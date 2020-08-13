@@ -31,46 +31,46 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: Normal
     Normal(UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector4 tangent_ = {}, UnityEngine::Vector3 bitangent_ = {}) : normal{normal_}, tangent{tangent_}, bitangent{bitangent_} {}
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0xA3C3B0
+    // Offset: 0xA3C42C
     UnityEngine::Vector3 get_normal();
     // public System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0xA3C3BC
+    // Offset: 0xA3C438
     void set_normal(UnityEngine::Vector3 value);
     // public UnityEngine.Vector4 get_tangent()
-    // Offset: 0xA3C3C8
+    // Offset: 0xA3C444
     UnityEngine::Vector4 get_tangent();
     // public System.Void set_tangent(UnityEngine.Vector4 value)
-    // Offset: 0xA3C3D4
+    // Offset: 0xA3C450
     void set_tangent(UnityEngine::Vector4 value);
     // public UnityEngine.Vector3 get_bitangent()
-    // Offset: 0xA3C3E0
+    // Offset: 0xA3C45C
     UnityEngine::Vector3 get_bitangent();
     // public System.Void set_bitangent(UnityEngine.Vector3 value)
-    // Offset: 0xA3C3EC
+    // Offset: 0xA3C468
     void set_bitangent(UnityEngine::Vector3 value);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA3C3F8
+    // Offset: 0xA3C474
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3C400
+    // Offset: 0xA3C47C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public System.Boolean Equals(UnityEngine.ProBuilder.Normal other)
-    // Offset: 0xA3C408
+    // Offset: 0xA3C484
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.ProBuilder.Normal other)
     bool Equals(UnityEngine::ProBuilder::Normal other);
   }; // UnityEngine.ProBuilder.Normal
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x1019F5C
+  // Offset: 0x10299A0
   bool operator ==(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
-  // Offset: 0x1019F90
+  // Offset: 0x10299D4
   bool operator !=(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Normal, "UnityEngine.ProBuilder", "Normal");
 #pragma pack(pop)

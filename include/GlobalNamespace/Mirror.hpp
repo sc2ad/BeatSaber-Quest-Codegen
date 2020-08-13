@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _texturePropertyID
     static void _set__texturePropertyID(int value);
     // protected System.Void Update()
-    // Offset: 0x18F8338
+    // Offset: 0x1907D7C
     void Update();
     // protected System.Void OnWillRenderObject()
-    // Offset: 0x18F8468
+    // Offset: 0x1907EAC
     void OnWillRenderObject();
     // public System.Void .ctor()
-    // Offset: 0x18F8F38
+    // Offset: 0x190897C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -59,12 +59,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Mirror* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18F8F40
+    // Offset: 0x1908984
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Mirror
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Mirror*, "", "Mirror");
 #pragma pack(pop)

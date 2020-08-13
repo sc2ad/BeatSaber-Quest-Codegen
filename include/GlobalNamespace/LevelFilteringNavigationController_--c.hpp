@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: LevelFilteringNavigationController
 #include "GlobalNamespace/LevelFilteringNavigationController.hpp"
 // Including type: TabBarViewController
@@ -34,18 +32,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<LevelFilteringNavigationController/TabBarData,TabBarViewController/TabBarItem> <>9__31_0
     static void _set_$$9__31_0(System::Func_2<GlobalNamespace::LevelFilteringNavigationController::TabBarData*, GlobalNamespace::TabBarViewController::TabBarItem*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB4C8FC
+    // Offset: 0xB4A8FC
     static void _cctor();
     // TabBarViewController/TabBarItem <InitializeTabBarViewController>b__31_0(LevelFilteringNavigationController/TabBarData x)
-    // Offset: 0xB4C96C
+    // Offset: 0xB4A96C
     GlobalNamespace::TabBarViewController::TabBarItem* $InitializeTabBarViewController$b__31_0(GlobalNamespace::LevelFilteringNavigationController::TabBarData* x);
     // public System.Void .ctor()
-    // Offset: 0xB4C964
+    // Offset: 0xB4A964
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelFilteringNavigationController::$$c* New_ctor();
   }; // LevelFilteringNavigationController/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c*, "", "LevelFilteringNavigationController/<>c");
 #pragma pack(pop)

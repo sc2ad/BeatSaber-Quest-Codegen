@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace System::Runtime::CompilerServices {
   class IsReadOnlyAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x114FCB4
+    // Offset: 0x11616F8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static IsReadOnlyAttribute* New_ctor();
   }; // System.Runtime.CompilerServices.IsReadOnlyAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IsReadOnlyAttribute*, "System.Runtime.CompilerServices", "IsReadOnlyAttribute");
 #pragma pack(pop)

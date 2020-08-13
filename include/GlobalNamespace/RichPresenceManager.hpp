@@ -70,16 +70,16 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::PlayingTutorialPresenceData* playingTutorialPresenceData;
     // protected System.Void Awake()
-    // Offset: 0xC0C0C4
+    // Offset: 0xC1DB08
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC0C1D4
+    // Offset: 0xC1DC18
     void OnDestroy();
     // private System.Void HandleGameScenesManagerTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer diContainer)
-    // Offset: 0xC0C2B0
+    // Offset: 0xC1DCF4
     void HandleGameScenesManagerTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* diContainer);
     // public System.Void .ctor()
-    // Offset: 0xC0C6E4
+    // Offset: 0xC1E128
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -89,6 +89,6 @@ namespace GlobalNamespace {
     static RichPresenceManager* New_ctor();
   }; // RichPresenceManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RichPresenceManager*, "", "RichPresenceManager");
 #pragma pack(pop)

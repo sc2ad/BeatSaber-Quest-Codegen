@@ -18,6 +18,6 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRMesh::MeshType GlobalNamespace_OVRMesh_IOVRMeshDataProvider_GetMeshType();
   }; // OVRMesh/IOVRMeshDataProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::IOVRMeshDataProvider*, "", "OVRMesh/IOVRMeshDataProvider");
 #pragma pack(pop)

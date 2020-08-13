@@ -23,26 +23,26 @@ namespace System {
   class OutOfMemoryException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1347EC4
+    // Offset: 0x135A908
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static OutOfMemoryException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1347F50
+    // Offset: 0x135A994
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static OutOfMemoryException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1347F84
+    // Offset: 0x135A9C8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static OutOfMemoryException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.OutOfMemoryException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::OutOfMemoryException*, "System", "OutOfMemoryException");
 #pragma pack(pop)

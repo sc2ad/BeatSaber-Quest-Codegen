@@ -40,28 +40,28 @@ namespace GlobalNamespace {
     // Offset: 0x24
     UnityEngine::Color color;
     // static public System.Collections.Generic.List`1<BloomPrePassBGLight> get_bloomBGLightList()
-    // Offset: 0x180D370
+    // Offset: 0x181DDB4
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassBGLight*>* get_bloomBGLightList();
     // public UnityEngine.Color get_color()
-    // Offset: 0x180D3D8
+    // Offset: 0x181DE1C
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x180D3E4
+    // Offset: 0x181DE28
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Color get_bgColor()
-    // Offset: 0x180D3F0
+    // Offset: 0x181DE34
     UnityEngine::Color get_bgColor();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x180D47C
+    // Offset: 0x181DEC0
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x180D50C
+    // Offset: 0x181DF50
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x180D590
+    // Offset: 0x181DFD4
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x180D614
+    // Offset: 0x181E058
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,12 +70,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassBGLight* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x180D630
+    // Offset: 0x181E074
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BloomPrePassBGLight
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBGLight*, "", "BloomPrePassBGLight");
 #pragma pack(pop)

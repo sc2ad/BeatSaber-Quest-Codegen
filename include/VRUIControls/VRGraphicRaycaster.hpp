@@ -70,7 +70,7 @@ namespace VRUIControls {
       // Creating value type constructor for type: TGraphicRaycastResult
       TGraphicRaycastResult(UnityEngine::UI::Graphic* graphic_ = {}, float distance_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 pointerPosition_ = {}) : graphic{graphic_}, distance{distance_}, position{position_}, pointerPosition{pointerPosition_} {}
       // public override System.String ToString()
-      // Offset: 0xA59DDC
+      // Offset: 0xA59E58
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::CsString* ToString();
@@ -95,26 +95,26 @@ namespace VRUIControls {
     // Set static field: static private System.Collections.Generic.List`1<VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult> _sortedGraphics
     static void _set__sortedGraphics(System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult>* value);
     // private UnityEngine.Canvas get_canvas()
-    // Offset: 0x191E1B8
+    // Offset: 0x192EBFC
     UnityEngine::Canvas* get_canvas();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x191E314
+    // Offset: 0x192ED58
     static void NoDomainReloadInit();
     // static private System.Void Raycast(UnityEngine.Canvas canvas, UnityEngine.Ray ray, System.Single hitDistance, UnityEngine.Camera eventCamera, System.Collections.Generic.List`1<VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult> results)
-    // Offset: 0x191E8BC
+    // Offset: 0x192F300
     static void Raycast(UnityEngine::Canvas* canvas, UnityEngine::Ray ray, float hitDistance, UnityEngine::Camera* eventCamera, System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult>* results);
     // public override UnityEngine.Camera get_eventCamera()
-    // Offset: 0x191E238
+    // Offset: 0x192EC7C
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: UnityEngine.Camera BaseRaycaster::get_eventCamera()
     UnityEngine::Camera* get_eventCamera();
     // public override System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
-    // Offset: 0x191E3A4
+    // Offset: 0x192EDE8
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
     // public System.Void .ctor()
-    // Offset: 0x191EEF4
+    // Offset: 0x192F938
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -125,13 +125,13 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     static VRGraphicRaycaster* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x191EF80
+    // Offset: 0x192F9C4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // VRUIControls.VRGraphicRaycaster
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster*, "VRUIControls", "VRGraphicRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult, "VRUIControls", "VRGraphicRaycaster/TGraphicRaycastResult");
 #pragma pack(pop)

@@ -38,12 +38,12 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::TabBarViewController* tabBarViewControllerPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xBEB634
+    // Offset: 0xBFD078
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xBEB6D8
+    // Offset: 0xBFD11C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static MainSettingsMenuViewControllersInstaller* New_ctor();
   }; // MainSettingsMenuViewControllersInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewControllersInstaller*, "", "MainSettingsMenuViewControllersInstaller");
 #pragma pack(pop)

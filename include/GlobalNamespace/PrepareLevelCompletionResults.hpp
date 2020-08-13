@@ -71,10 +71,10 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // public LevelCompletionResults FillLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction)
-    // Offset: 0xC08214
+    // Offset: 0xC19C58
     GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);
     // public System.Void .ctor()
-    // Offset: 0xC08478
+    // Offset: 0xC19EBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -84,6 +84,6 @@ namespace GlobalNamespace {
     static PrepareLevelCompletionResults* New_ctor();
   }; // PrepareLevelCompletionResults
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrepareLevelCompletionResults*, "", "PrepareLevelCompletionResults");
 #pragma pack(pop)

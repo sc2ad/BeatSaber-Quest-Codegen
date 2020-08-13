@@ -69,97 +69,97 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xB0
     bool m_ForceModuleActive;
     // public UnityEngine.EventSystems.StandaloneInputModule/InputMode get_inputMode()
-    // Offset: 0xDEAF40
+    // Offset: 0xDFD984
     UnityEngine::EventSystems::StandaloneInputModule::InputMode get_inputMode();
     // public System.Boolean get_allowActivationOnMobileDevice()
-    // Offset: 0xDEAF48
+    // Offset: 0xDFD98C
     bool get_allowActivationOnMobileDevice();
     // public System.Void set_allowActivationOnMobileDevice(System.Boolean value)
-    // Offset: 0xDEAF50
+    // Offset: 0xDFD994
     void set_allowActivationOnMobileDevice(bool value);
     // public System.Boolean get_forceModuleActive()
-    // Offset: 0xDEAF5C
+    // Offset: 0xDFD9A0
     bool get_forceModuleActive();
     // public System.Void set_forceModuleActive(System.Boolean value)
-    // Offset: 0xDEAF64
+    // Offset: 0xDFD9A8
     void set_forceModuleActive(bool value);
     // public System.Single get_inputActionsPerSecond()
-    // Offset: 0xDEAF70
+    // Offset: 0xDFD9B4
     float get_inputActionsPerSecond();
     // public System.Void set_inputActionsPerSecond(System.Single value)
-    // Offset: 0xDEAF78
+    // Offset: 0xDFD9BC
     void set_inputActionsPerSecond(float value);
     // public System.Single get_repeatDelay()
-    // Offset: 0xDEAF80
+    // Offset: 0xDFD9C4
     float get_repeatDelay();
     // public System.Void set_repeatDelay(System.Single value)
-    // Offset: 0xDEAF88
+    // Offset: 0xDFD9CC
     void set_repeatDelay(float value);
     // public System.String get_horizontalAxis()
-    // Offset: 0xDEAF90
+    // Offset: 0xDFD9D4
     ::CsString* get_horizontalAxis();
     // public System.Void set_horizontalAxis(System.String value)
-    // Offset: 0xDEAF98
+    // Offset: 0xDFD9DC
     void set_horizontalAxis(::CsString* value);
     // public System.String get_verticalAxis()
-    // Offset: 0xDEAFA0
+    // Offset: 0xDFD9E4
     ::CsString* get_verticalAxis();
     // public System.Void set_verticalAxis(System.String value)
-    // Offset: 0xDEAFA8
+    // Offset: 0xDFD9EC
     void set_verticalAxis(::CsString* value);
     // public System.String get_submitButton()
-    // Offset: 0xDEAFB0
+    // Offset: 0xDFD9F4
     ::CsString* get_submitButton();
     // public System.Void set_submitButton(System.String value)
-    // Offset: 0xDEAFB8
+    // Offset: 0xDFD9FC
     void set_submitButton(::CsString* value);
     // public System.String get_cancelButton()
-    // Offset: 0xDEAFC0
+    // Offset: 0xDFDA04
     ::CsString* get_cancelButton();
     // public System.Void set_cancelButton(System.String value)
-    // Offset: 0xDEAFC8
+    // Offset: 0xDFDA0C
     void set_cancelButton(::CsString* value);
     // private System.Boolean ShouldIgnoreEventsOnNoFocus()
-    // Offset: 0xDEAFD0
+    // Offset: 0xDFDA14
     bool ShouldIgnoreEventsOnNoFocus();
     // private System.Void ReleaseMouse(UnityEngine.EventSystems.PointerEventData pointerEvent, UnityEngine.GameObject currentOverGo)
-    // Offset: 0xDEB108
+    // Offset: 0xDFDB4C
     void ReleaseMouse(UnityEngine::EventSystems::PointerEventData* pointerEvent, UnityEngine::GameObject* currentOverGo);
     // private System.Boolean ProcessTouchEvents()
-    // Offset: 0xDEBAAC
+    // Offset: 0xDFE4F0
     bool ProcessTouchEvents();
     // protected System.Void ProcessTouchPress(UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released)
-    // Offset: 0xDEC0EC
+    // Offset: 0xDFEB30
     void ProcessTouchPress(UnityEngine::EventSystems::PointerEventData* pointerEvent, bool pressed, bool released);
     // protected System.Boolean SendSubmitEventToSelectedObject()
-    // Offset: 0xDEBEB8
+    // Offset: 0xDFE8FC
     bool SendSubmitEventToSelectedObject();
     // private UnityEngine.Vector2 GetRawMoveVector()
-    // Offset: 0xDEC86C
+    // Offset: 0xDFF2B0
     UnityEngine::Vector2 GetRawMoveVector();
     // protected System.Boolean SendMoveEventToSelectedObject()
-    // Offset: 0xDEBC24
+    // Offset: 0xDFE668
     bool SendMoveEventToSelectedObject();
     // protected System.Void ProcessMouseEvent()
-    // Offset: 0xDEBC1C
+    // Offset: 0xDFE660
     void ProcessMouseEvent();
     // protected System.Boolean ForceAutoSelect()
-    // Offset: 0xDECC20
+    // Offset: 0xDFF664
     bool ForceAutoSelect();
     // protected System.Void ProcessMouseEvent(System.Int32 id)
-    // Offset: 0xDEC9A8
+    // Offset: 0xDFF3EC
     void ProcessMouseEvent(int id);
     // protected System.Boolean SendUpdateEventToSelectedObject()
-    // Offset: 0xDEB958
+    // Offset: 0xDFE39C
     bool SendUpdateEventToSelectedObject();
     // protected System.Void ProcessMousePress(UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData data)
-    // Offset: 0xDECC28
+    // Offset: 0xDFF66C
     void ProcessMousePress(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* data);
     // protected UnityEngine.GameObject GetCurrentFocusedGameObject()
-    // Offset: 0xDECFDC
+    // Offset: 0xDFFA20
     UnityEngine::GameObject* GetCurrentFocusedGameObject();
     // protected System.Void .ctor()
-    // Offset: 0xDEAE90
+    // Offset: 0xDFD8D4
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.Void PointerInputModule::.ctor()
     // Base method: System.Void BaseInputModule::.ctor()
@@ -171,37 +171,37 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static StandaloneInputModule* New_ctor();
     // public override System.Void UpdateModule()
-    // Offset: 0xDEAFF4
+    // Offset: 0xDFDA38
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::UpdateModule()
     void UpdateModule();
     // public override System.Boolean IsModuleSupported()
-    // Offset: 0xDEB4C8
+    // Offset: 0xDFDF0C
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::IsModuleSupported()
     bool IsModuleSupported();
     // public override System.Boolean ShouldActivateModule()
-    // Offset: 0xDEB534
+    // Offset: 0xDFDF78
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::ShouldActivateModule()
     bool ShouldActivateModule();
     // public override System.Void ActivateModule()
-    // Offset: 0xDEB764
+    // Offset: 0xDFE1A8
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::ActivateModule()
     void ActivateModule();
     // public override System.Void DeactivateModule()
-    // Offset: 0xDEB894
+    // Offset: 0xDFE2D8
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::DeactivateModule()
     void DeactivateModule();
     // public override System.Void Process()
-    // Offset: 0xDEB898
+    // Offset: 0xDFE2DC
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::Process()
     void Process();
   }; // UnityEngine.EventSystems.StandaloneInputModule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule*, "UnityEngine.EventSystems", "StandaloneInputModule");
 #pragma pack(pop)

@@ -80,6 +80,6 @@ namespace System::Text::RegularExpressions {
     RegexOptions(int value_ = {}) : value{value_} {}
   }; // System.Text.RegularExpressions.RegexOptions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexOptions, "System.Text.RegularExpressions", "RegexOptions");
 #pragma pack(pop)

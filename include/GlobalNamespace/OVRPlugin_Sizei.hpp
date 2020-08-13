@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -27,10 +28,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Sizei
     Sizei(int w_ = {}, int h_ = {}) : w{w_}, h{h_} {}
     // static private System.Void .cctor()
-    // Offset: 0xF343D8
+    // Offset: 0xF44E1C
     static void _cctor();
   }; // OVRPlugin/Sizei
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Sizei, "", "OVRPlugin/Sizei");
 #pragma pack(pop)

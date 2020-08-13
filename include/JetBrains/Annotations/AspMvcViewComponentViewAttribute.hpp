@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace JetBrains::Annotations {
   class AspMvcViewComponentViewAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1945154
+    // Offset: 0x1957B98
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static AspMvcViewComponentViewAttribute* New_ctor();
   }; // JetBrains.Annotations.AspMvcViewComponentViewAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcViewComponentViewAttribute*, "JetBrains.Annotations", "AspMvcViewComponentViewAttribute");
 #pragma pack(pop)

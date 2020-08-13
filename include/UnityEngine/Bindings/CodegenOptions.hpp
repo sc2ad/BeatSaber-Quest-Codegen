@@ -38,6 +38,6 @@ namespace UnityEngine::Bindings {
     CodegenOptions(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Bindings.CodegenOptions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::CodegenOptions, "UnityEngine.Bindings", "CodegenOptions");
 #pragma pack(pop)

@@ -75,109 +75,109 @@ namespace UnityEngine::TextCore {
     // Creating value type constructor for type: FaceInfo
     FaceInfo(::CsString* m_FamilyName_ = {}, ::CsString* m_StyleName_ = {}, int m_PointSize_ = {}, float m_Scale_ = {}, float m_LineHeight_ = {}, float m_AscentLine_ = {}, float m_CapLine_ = {}, float m_MeanLine_ = {}, float m_Baseline_ = {}, float m_DescentLine_ = {}, float m_SuperscriptOffset_ = {}, float m_SuperscriptSize_ = {}, float m_SubscriptOffset_ = {}, float m_SubscriptSize_ = {}, float m_UnderlineOffset_ = {}, float m_UnderlineThickness_ = {}, float m_StrikethroughOffset_ = {}, float m_StrikethroughThickness_ = {}, float m_TabWidth_ = {}) : m_FamilyName{m_FamilyName_}, m_StyleName{m_StyleName_}, m_PointSize{m_PointSize_}, m_Scale{m_Scale_}, m_LineHeight{m_LineHeight_}, m_AscentLine{m_AscentLine_}, m_CapLine{m_CapLine_}, m_MeanLine{m_MeanLine_}, m_Baseline{m_Baseline_}, m_DescentLine{m_DescentLine_}, m_SuperscriptOffset{m_SuperscriptOffset_}, m_SuperscriptSize{m_SuperscriptSize_}, m_SubscriptOffset{m_SubscriptOffset_}, m_SubscriptSize{m_SubscriptSize_}, m_UnderlineOffset{m_UnderlineOffset_}, m_UnderlineThickness{m_UnderlineThickness_}, m_StrikethroughOffset{m_StrikethroughOffset_}, m_StrikethroughThickness{m_StrikethroughThickness_}, m_TabWidth{m_TabWidth_} {}
     // public System.Void set_familyName(System.String value)
-    // Offset: 0xA5AC48
+    // Offset: 0xA5ACC4
     void set_familyName(::CsString* value);
     // public System.Void set_styleName(System.String value)
-    // Offset: 0xA5AC50
+    // Offset: 0xA5ACCC
     void set_styleName(::CsString* value);
     // public System.Int32 get_pointSize()
-    // Offset: 0xA5AC58
+    // Offset: 0xA5ACD4
     int get_pointSize();
     // public System.Void set_pointSize(System.Int32 value)
-    // Offset: 0xA5AC60
+    // Offset: 0xA5ACDC
     void set_pointSize(int value);
     // public System.Single get_scale()
-    // Offset: 0xA5AC68
+    // Offset: 0xA5ACE4
     float get_scale();
     // public System.Void set_scale(System.Single value)
-    // Offset: 0xA5AC70
+    // Offset: 0xA5ACEC
     void set_scale(float value);
     // public System.Single get_lineHeight()
-    // Offset: 0xA5AC78
+    // Offset: 0xA5ACF4
     float get_lineHeight();
     // public System.Void set_lineHeight(System.Single value)
-    // Offset: 0xA5AC80
+    // Offset: 0xA5ACFC
     void set_lineHeight(float value);
     // public System.Single get_ascentLine()
-    // Offset: 0xA5AC88
+    // Offset: 0xA5AD04
     float get_ascentLine();
     // public System.Void set_ascentLine(System.Single value)
-    // Offset: 0xA5AC90
+    // Offset: 0xA5AD0C
     void set_ascentLine(float value);
     // public System.Single get_capLine()
-    // Offset: 0xA5AC98
+    // Offset: 0xA5AD14
     float get_capLine();
     // public System.Void set_capLine(System.Single value)
-    // Offset: 0xA5ACA0
+    // Offset: 0xA5AD1C
     void set_capLine(float value);
     // public System.Void set_meanLine(System.Single value)
-    // Offset: 0xA5ACA8
+    // Offset: 0xA5AD24
     void set_meanLine(float value);
     // public System.Single get_baseline()
-    // Offset: 0xA5ACB0
+    // Offset: 0xA5AD2C
     float get_baseline();
     // public System.Void set_baseline(System.Single value)
-    // Offset: 0xA5ACB8
+    // Offset: 0xA5AD34
     void set_baseline(float value);
     // public System.Single get_descentLine()
-    // Offset: 0xA5ACC0
+    // Offset: 0xA5AD3C
     float get_descentLine();
     // public System.Void set_descentLine(System.Single value)
-    // Offset: 0xA5ACC8
+    // Offset: 0xA5AD44
     void set_descentLine(float value);
     // public System.Single get_superscriptOffset()
-    // Offset: 0xA5ACD0
+    // Offset: 0xA5AD4C
     float get_superscriptOffset();
     // public System.Void set_superscriptOffset(System.Single value)
-    // Offset: 0xA5ACD8
+    // Offset: 0xA5AD54
     void set_superscriptOffset(float value);
     // public System.Single get_superscriptSize()
-    // Offset: 0xA5ACE0
+    // Offset: 0xA5AD5C
     float get_superscriptSize();
     // public System.Void set_superscriptSize(System.Single value)
-    // Offset: 0xA5ACE8
+    // Offset: 0xA5AD64
     void set_superscriptSize(float value);
     // public System.Single get_subscriptOffset()
-    // Offset: 0xA5ACF0
+    // Offset: 0xA5AD6C
     float get_subscriptOffset();
     // public System.Void set_subscriptOffset(System.Single value)
-    // Offset: 0xA5ACF8
+    // Offset: 0xA5AD74
     void set_subscriptOffset(float value);
     // public System.Single get_subscriptSize()
-    // Offset: 0xA5AD00
+    // Offset: 0xA5AD7C
     float get_subscriptSize();
     // public System.Void set_subscriptSize(System.Single value)
-    // Offset: 0xA5AD08
+    // Offset: 0xA5AD84
     void set_subscriptSize(float value);
     // public System.Single get_underlineOffset()
-    // Offset: 0xA5AD10
+    // Offset: 0xA5AD8C
     float get_underlineOffset();
     // public System.Void set_underlineOffset(System.Single value)
-    // Offset: 0xA5AD18
+    // Offset: 0xA5AD94
     void set_underlineOffset(float value);
     // public System.Single get_underlineThickness()
-    // Offset: 0xA5AD20
+    // Offset: 0xA5AD9C
     float get_underlineThickness();
     // public System.Void set_underlineThickness(System.Single value)
-    // Offset: 0xA5AD28
+    // Offset: 0xA5ADA4
     void set_underlineThickness(float value);
     // public System.Single get_strikethroughOffset()
-    // Offset: 0xA5AD30
+    // Offset: 0xA5ADAC
     float get_strikethroughOffset();
     // public System.Void set_strikethroughOffset(System.Single value)
-    // Offset: 0xA5AD38
+    // Offset: 0xA5ADB4
     void set_strikethroughOffset(float value);
     // public System.Void set_strikethroughThickness(System.Single value)
-    // Offset: 0xA5AD40
+    // Offset: 0xA5ADBC
     void set_strikethroughThickness(float value);
     // public System.Single get_tabWidth()
-    // Offset: 0xA5AD48
+    // Offset: 0xA5ADC4
     float get_tabWidth();
     // public System.Void set_tabWidth(System.Single value)
-    // Offset: 0xA5AD50
+    // Offset: 0xA5ADCC
     void set_tabWidth(float value);
   }; // UnityEngine.TextCore.FaceInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::FaceInfo, "UnityEngine.TextCore", "FaceInfo");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: VRPlatformHelper
 #include "GlobalNamespace/VRPlatformHelper.hpp"
 // Completed includes
@@ -106,58 +104,58 @@ namespace GlobalNamespace {
     // Offset: 0x48
     ::Array<Valve::VR::TrackedDevicePose_t>* gamePoses;
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCA3E50
+    // Offset: 0xCB6894
     void add_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCA3EF4
+    // Offset: 0xCB6938
     void remove_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCA3F98
+    // Offset: 0xCB69DC
     void add_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCA403C
+    // Offset: 0xCB6A80
     void remove_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_dashboardWasActivatedEvent(System.Action value)
-    // Offset: 0xCA40E0
+    // Offset: 0xCB6B24
     void add_dashboardWasActivatedEvent(System::Action* value);
     // public System.Void remove_dashboardWasActivatedEvent(System.Action value)
-    // Offset: 0xCA4184
+    // Offset: 0xCB6BC8
     void remove_dashboardWasActivatedEvent(System::Action* value);
     // public System.Void add_dashboardWasDectivatedEvent(System.Action value)
-    // Offset: 0xCA4228
+    // Offset: 0xCB6C6C
     void add_dashboardWasDectivatedEvent(System::Action* value);
     // public System.Void remove_dashboardWasDectivatedEvent(System.Action value)
-    // Offset: 0xCA42CC
+    // Offset: 0xCB6D10
     void remove_dashboardWasDectivatedEvent(System::Action* value);
     // public OpenVRHelper/VRControllerManufacturerName get_vrControllerManufacturerName()
-    // Offset: 0xCA4370
+    // Offset: 0xCB6DB4
     GlobalNamespace::OpenVRHelper::VRControllerManufacturerName get_vrControllerManufacturerName();
     // private System.Void DisableEventSystem()
-    // Offset: 0xCA4630
+    // Offset: 0xCB7074
     void DisableEventSystem();
     // private System.Void EnableEventSystem()
-    // Offset: 0xCA476C
+    // Offset: 0xCB71B0
     void EnableEventSystem();
     // private System.Void OnBeforeRender()
-    // Offset: 0xCA4814
+    // Offset: 0xCB7258
     void OnBeforeRender();
     // public System.Void Update()
-    // Offset: 0xCA4894
+    // Offset: 0xCB72D8
     void Update();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single strength)
-    // Offset: 0xCA4ADC
+    // Offset: 0xCB7520
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float strength);
     // public VRPlatformHelper/VRNodeTransform GetNodePos(System.Int32 nodeIndex)
-    // Offset: 0xCA4BA4
+    // Offset: 0xCB75E8
     GlobalNamespace::VRPlatformHelper::VRNodeTransform GetNodePos(int nodeIndex);
     // public System.Void .ctor()
-    // Offset: 0xCA4568
+    // Offset: 0xCB6FAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OpenVRHelper* New_ctor();
   }; // OpenVRHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OpenVRHelper*, "", "OpenVRHelper");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OpenVRHelper::VRControllerManufacturerName, "", "OpenVRHelper/VRControllerManufacturerName");
 #pragma pack(pop)

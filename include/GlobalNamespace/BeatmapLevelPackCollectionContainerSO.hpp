@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BeatmapLevelPackCollectionSO* beatmapLevelPackCollection;
     // public BeatmapLevelPackCollectionSO get_beatmapLevelPackCollection()
-    // Offset: 0xB530F8
+    // Offset: 0xB510F8
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_beatmapLevelPackCollection();
     // public System.Void .ctor()
-    // Offset: 0xB53100
+    // Offset: 0xB51100
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -36,6 +36,6 @@ namespace GlobalNamespace {
     static BeatmapLevelPackCollectionContainerSO* New_ctor();
   }; // BeatmapLevelPackCollectionContainerSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackCollectionContainerSO*, "", "BeatmapLevelPackCollectionContainerSO");
 #pragma pack(pop)

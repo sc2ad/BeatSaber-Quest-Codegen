@@ -88,34 +88,34 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x50
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner* m_Runner;
     // public System.Collections.Generic.List`1<System.String> get_AssembliesWithTests()
-    // Offset: 0xE30B98
+    // Offset: 0xE435DC
     System::Collections::Generic::List_1<::CsString*>* get_AssembliesWithTests();
     // public System.Void set_AssembliesWithTests(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0xE30BA0
+    // Offset: 0xE435E4
     void set_AssembliesWithTests(System::Collections::Generic::List_1<::CsString*>* value);
     // public System.Collections.IEnumerator Start()
-    // Offset: 0xE30BA8
+    // Offset: 0xE435EC
     System::Collections::IEnumerator* Start();
     // static System.Boolean IsControllerOnScene()
-    // Offset: 0xE30C50
+    // Offset: 0xE43694
     static bool IsControllerOnScene();
     // static UnityEngine.TestTools.TestRunner.PlaymodeTestsController GetController()
-    // Offset: 0xE30CD4
+    // Offset: 0xE43718
     static UnityEngine::TestTools::TestRunner::PlaymodeTestsController* GetController();
     // public System.Collections.IEnumerator TestRunnerCoroutine()
-    // Offset: 0xE30D38
+    // Offset: 0xE4377C
     System::Collections::IEnumerator* TestRunnerCoroutine();
     // public System.Collections.IEnumerator Run()
-    // Offset: 0xE30DE0
+    // Offset: 0xE43824
     System::Collections::IEnumerator* Run();
     // public System.Void Cleanup()
-    // Offset: 0xE30E88
+    // Offset: 0xE438CC
     void Cleanup();
     // static public System.Void TryCleanup()
-    // Offset: 0xE30F5C
+    // Offset: 0xE439A0
     static void TryCleanup();
     // public System.Void .ctor()
-    // Offset: 0xE30FF0
+    // Offset: 0xE43A34
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -125,6 +125,6 @@ namespace UnityEngine::TestTools::TestRunner {
     static PlaymodeTestsController* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController");
 #pragma pack(pop)

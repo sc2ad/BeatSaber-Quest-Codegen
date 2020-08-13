@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Animator* animator;
     // public System.Void ShowEffect()
-    // Offset: 0xB4B2FC
+    // Offset: 0xB492FC
     void ShowEffect();
     // public System.Void .ctor()
-    // Offset: 0xB4B344
+    // Offset: 0xB49344
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -37,6 +37,6 @@ namespace GlobalNamespace {
     static LevelFailedTextEffect* New_ctor();
   }; // LevelFailedTextEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFailedTextEffect*, "", "LevelFailedTextEffect");
 #pragma pack(pop)

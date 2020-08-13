@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -63,53 +61,53 @@ namespace System::Diagnostics {
     // Set static field: static private System.String aotid
     static void _set_aotid(::CsString* value);
     // public System.Void .ctor(System.Boolean fNeedFileInfo)
-    // Offset: 0xC80C1C
+    // Offset: 0xC92660
     static StackTrace* New_ctor(bool fNeedFileInfo);
     // public System.Void .ctor(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0xC80C50
+    // Offset: 0xC92694
     static StackTrace* New_ctor(int skipFrames, bool fNeedFileInfo);
     // private System.Void init_frames(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0xC80A80
+    // Offset: 0xC924C4
     void init_frames(int skipFrames, bool fNeedFileInfo);
     // static private System.Diagnostics.StackFrame[] get_trace(System.Exception e, System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0xC80C90
+    // Offset: 0xC926D4
     static ::Array<System::Diagnostics::StackFrame*>* get_trace(System::Exception* e, int skipFrames, bool fNeedFileInfo);
     // public System.Void .ctor(System.Exception e, System.Boolean fNeedFileInfo)
-    // Offset: 0xC80C98
+    // Offset: 0xC926DC
     static StackTrace* New_ctor(System::Exception* e, bool fNeedFileInfo);
     // public System.Void .ctor(System.Exception e, System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0xC80CA4
+    // Offset: 0xC926E8
     static StackTrace* New_ctor(System::Exception* e, int skipFrames, bool fNeedFileInfo);
     // public System.Int32 get_FrameCount()
-    // Offset: 0xC80DB4
+    // Offset: 0xC927F8
     int get_FrameCount();
     // public System.Diagnostics.StackFrame GetFrame(System.Int32 index)
-    // Offset: 0xC80DCC
+    // Offset: 0xC92810
     System::Diagnostics::StackFrame* GetFrame(int index);
     // static private System.String GetAotId()
-    // Offset: 0xC80E38
+    // Offset: 0xC9287C
     static ::CsString* GetAotId();
     // private System.Boolean AddFrames(System.Text.StringBuilder sb)
-    // Offset: 0xC80F2C
+    // Offset: 0xC92970
     bool AddFrames(System::Text::StringBuilder* sb);
     // System.Void GetFullNameForStackTrace(System.Text.StringBuilder sb, System.Reflection.MethodBase mi)
-    // Offset: 0xC813B8
+    // Offset: 0xC92DFC
     void GetFullNameForStackTrace(System::Text::StringBuilder* sb, System::Reflection::MethodBase* mi);
     // System.String ToString(System.Diagnostics.StackTrace/TraceFormat traceFormat)
-    // Offset: 0xC818FC
+    // Offset: 0xC93340
     ::CsString* ToString(System::Diagnostics::StackTrace::TraceFormat traceFormat);
     // public System.Void .ctor()
-    // Offset: 0xC80A50
+    // Offset: 0xC92494
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StackTrace* New_ctor();
     // public override System.String ToString()
-    // Offset: 0xC817D0
+    // Offset: 0xC93214
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.Diagnostics.StackTrace
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace*, "System.Diagnostics", "StackTrace");
 #pragma pack(pop)

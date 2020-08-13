@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.MeshImporter
 #include "UnityEngine/ProBuilder/MeshOperations/MeshImporter.hpp"
 // Including type: UnityEngine.Vector3
@@ -39,18 +37,18 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1009CA8
+    // Offset: 0x10196EC
     static void _cctor();
     // UnityEngine.Vector3 <Import>b__5_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x1009D18
+    // Offset: 0x101975C
     UnityEngine::Vector3 $Import$b__5_0(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x1009D10
+    // Offset: 0x1019754
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshImporter::$$c* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.MeshImporter/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter/<>c");
 #pragma pack(pop)

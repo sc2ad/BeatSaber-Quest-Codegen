@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.AsyncOperation
 #include "UnityEngine/AsyncOperation.hpp"
 // Completed includes
@@ -20,10 +21,10 @@ namespace UnityEngine {
   class AssetBundleCreateRequest : public UnityEngine::AsyncOperation {
     public:
     // public UnityEngine.AssetBundle get_assetBundle()
-    // Offset: 0x196328C
+    // Offset: 0x1975CD0
     UnityEngine::AssetBundle* get_assetBundle();
     // public System.Void .ctor()
-    // Offset: 0x19632CC
+    // Offset: 0x1975D10
     // Implemented from: UnityEngine.AsyncOperation
     // Base method: System.Void AsyncOperation::.ctor()
     // Base method: System.Void YieldInstruction::.ctor()
@@ -31,6 +32,6 @@ namespace UnityEngine {
     static AssetBundleCreateRequest* New_ctor();
   }; // UnityEngine.AssetBundleCreateRequest
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleCreateRequest*, "UnityEngine", "AssetBundleCreateRequest");
 #pragma pack(pop)

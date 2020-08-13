@@ -35,23 +35,23 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::UI::Image* highlightImage;
     // public System.Void set_text(System.String value)
-    // Offset: 0xBD7E4C
+    // Offset: 0xBEA890
     void set_text(::CsString* value);
     // public System.String get_text()
-    // Offset: 0xBD7E68
+    // Offset: 0xBEA8AC
     ::CsString* get_text();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBD7E84
+    // Offset: 0xBEA8C8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBD7F1C
+    // Offset: 0xBEA960
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xBD7F58
+    // Offset: 0xBEA99C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     static FileBrowserTableCell* New_ctor();
   }; // FileBrowserTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserTableCell*, "", "FileBrowserTableCell");
 #pragma pack(pop)

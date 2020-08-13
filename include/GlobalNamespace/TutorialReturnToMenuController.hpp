@@ -26,12 +26,12 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // public System.Void ReturnToMenu()
-    // Offset: 0xC35460
+    // Offset: 0xC46EA4
     // Implemented from: IReturnToMenuController
     // Base method: System.Void IReturnToMenuController::ReturnToMenu()
     void ReturnToMenu();
     // public System.Void .ctor()
-    // Offset: 0xC3547C
+    // Offset: 0xC46EC0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -41,6 +41,6 @@ namespace GlobalNamespace {
     static TutorialReturnToMenuController* New_ctor();
   }; // TutorialReturnToMenuController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialReturnToMenuController*, "", "TutorialReturnToMenuController");
 #pragma pack(pop)

@@ -49,7 +49,7 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: AsyncTaskMethodBuilder
     AsyncTaskMethodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> m_builder_ = {}) : m_builder{m_builder_} {}
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Create()
-    // Offset: 0x114F504
+    // Offset: 0x1160F48
     static System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
     // public System.Void Start(TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -59,7 +59,7 @@ namespace System::Runtime::CompilerServices {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(*this, "Start", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xA3E64C
+    // Offset: 0xA3E6C8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitUnsafeOnCompleted(TAwaiter awaiter, TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -70,16 +70,16 @@ namespace System::Runtime::CompilerServices {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod(*this, "AwaitUnsafeOnCompleted", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, awaiter, stateMachine)));
     }
     // public System.Threading.Tasks.Task get_Task()
-    // Offset: 0xA3E654
+    // Offset: 0xA3E6D0
     System::Threading::Tasks::Task* get_Task();
     // public System.Void SetResult()
-    // Offset: 0xA3E65C
+    // Offset: 0xA3E6D8
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0xA3E664
+    // Offset: 0xA3E6E0
     void SetException(System::Exception* exception);
     // static private System.Void .cctor()
-    // Offset: 0x114F69C
+    // Offset: 0x11610E0
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
 }

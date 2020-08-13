@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw
 #include "Microsoft/Win32/UnsafeNativeMethods_ManifestEtw.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
@@ -30,6 +31,6 @@ namespace Microsoft::Win32 {
     TRACE_PROVIDER_INSTANCE_INFO(int NextOffset_ = {}, int EnableCount_ = {}, int Pid_ = {}, int Flags_ = {}) : NextOffset{NextOffset_}, EnableCount{EnableCount_}, Pid{Pid_}, Flags{Flags_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_PROVIDER_INSTANCE_INFO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_PROVIDER_INSTANCE_INFO, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/TRACE_PROVIDER_INSTANCE_INFO");
 #pragma pack(pop)

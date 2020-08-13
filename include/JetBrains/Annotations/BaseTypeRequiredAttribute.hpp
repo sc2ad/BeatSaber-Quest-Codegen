@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -23,16 +24,16 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     System::Type* BaseType;
     // public System.Void .ctor(System.Type baseType)
-    // Offset: 0x194526C
+    // Offset: 0x1957CB0
     static BaseTypeRequiredAttribute* New_ctor(System::Type* baseType);
     // public System.Type get_BaseType()
-    // Offset: 0x19452A0
+    // Offset: 0x1957CE4
     System::Type* get_BaseType();
     // private System.Void set_BaseType(System.Type value)
-    // Offset: 0x19452A8
+    // Offset: 0x1957CEC
     void set_BaseType(System::Type* value);
   }; // JetBrains.Annotations.BaseTypeRequiredAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::BaseTypeRequiredAttribute*, "JetBrains.Annotations", "BaseTypeRequiredAttribute");
 #pragma pack(pop)

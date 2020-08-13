@@ -29,10 +29,10 @@ namespace UnityEngine::XR {
   class XRMeshSubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRMeshSubsystemDescriptor*> {
     public:
     // private System.Void InvokeMeshReadyDelegate(UnityEngine.XR.MeshGenerationResult result, System.Action`1<UnityEngine.XR.MeshGenerationResult> onMeshGenerationComplete)
-    // Offset: 0x194C42C
+    // Offset: 0x195EE70
     void InvokeMeshReadyDelegate(UnityEngine::XR::MeshGenerationResult result, System::Action_1<UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
     // public System.Void .ctor()
-    // Offset: 0x194C4B8
+    // Offset: 0x195EEFC
     // Implemented from: UnityEngine.IntegratedSubsystem`1
     // Base method: System.Void IntegratedSubsystem`1::.ctor()
     // Base method: System.Void IntegratedSubsystem::.ctor()
@@ -40,6 +40,6 @@ namespace UnityEngine::XR {
     static XRMeshSubsystem* New_ctor();
   }; // UnityEngine.XR.XRMeshSubsystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystem*, "UnityEngine.XR", "XRMeshSubsystem");
 #pragma pack(pop)

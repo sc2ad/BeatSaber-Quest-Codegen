@@ -33,103 +33,103 @@ namespace UnityEngine {
   class Sprite : public UnityEngine::Object {
     public:
     // System.Int32 GetPackingMode()
-    // Offset: 0x137775C
+    // Offset: 0x138A1A0
     int GetPackingMode();
     // System.Int32 GetPacked()
-    // Offset: 0x137779C
+    // Offset: 0x138A1E0
     int GetPacked();
     // UnityEngine.Rect GetTextureRect()
-    // Offset: 0x13777DC
+    // Offset: 0x138A220
     UnityEngine::Rect GetTextureRect();
     // UnityEngine.Vector4 GetInnerUVs()
-    // Offset: 0x1377888
+    // Offset: 0x138A2CC
     UnityEngine::Vector4 GetInnerUVs();
     // UnityEngine.Vector4 GetOuterUVs()
-    // Offset: 0x1377934
+    // Offset: 0x138A378
     UnityEngine::Vector4 GetOuterUVs();
     // UnityEngine.Vector4 GetPadding()
-    // Offset: 0x13779E0
+    // Offset: 0x138A424
     UnityEngine::Vector4 GetPadding();
     // static UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D texture, UnityEngine.Rect rect, UnityEngine.Vector2 pivot, System.Single pixelsPerUnit, System.UInt32 extrude, UnityEngine.SpriteMeshType meshType, UnityEngine.Vector4 border, System.Boolean generateFallbackPhysicsShape)
-    // Offset: 0x1377A8C
+    // Offset: 0x138A4D0
     static UnityEngine::Sprite* CreateSprite(UnityEngine::Texture2D* texture, UnityEngine::Rect rect, UnityEngine::Vector2 pivot, float pixelsPerUnit, uint extrude, UnityEngine::SpriteMeshType meshType, UnityEngine::Vector4 border, bool generateFallbackPhysicsShape);
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x1377BC8
+    // Offset: 0x138A60C
     UnityEngine::Bounds get_bounds();
     // public UnityEngine.Rect get_rect()
-    // Offset: 0x1377C84
+    // Offset: 0x138A6C8
     UnityEngine::Rect get_rect();
     // public UnityEngine.Vector4 get_border()
-    // Offset: 0x1377D30
+    // Offset: 0x138A774
     UnityEngine::Vector4 get_border();
     // public UnityEngine.Texture2D get_texture()
-    // Offset: 0x1377DDC
+    // Offset: 0x138A820
     UnityEngine::Texture2D* get_texture();
     // public System.Single get_pixelsPerUnit()
-    // Offset: 0x1377E1C
+    // Offset: 0x138A860
     float get_pixelsPerUnit();
     // public UnityEngine.Texture2D get_associatedAlphaSplitTexture()
-    // Offset: 0x1377E5C
+    // Offset: 0x138A8A0
     UnityEngine::Texture2D* get_associatedAlphaSplitTexture();
     // public UnityEngine.Vector2 get_pivot()
-    // Offset: 0x1377E9C
+    // Offset: 0x138A8E0
     UnityEngine::Vector2 get_pivot();
     // public System.Boolean get_packed()
-    // Offset: 0x1377F44
+    // Offset: 0x138A988
     bool get_packed();
     // public UnityEngine.SpritePackingMode get_packingMode()
-    // Offset: 0x1377F90
+    // Offset: 0x138A9D4
     UnityEngine::SpritePackingMode get_packingMode();
     // public UnityEngine.Rect get_textureRect()
-    // Offset: 0x1377FD0
+    // Offset: 0x138AA14
     UnityEngine::Rect get_textureRect();
     // public UnityEngine.Vector2[] get_vertices()
-    // Offset: 0x1378060
+    // Offset: 0x138AAA4
     ::Array<UnityEngine::Vector2>* get_vertices();
     // public System.UInt16[] get_triangles()
-    // Offset: 0x13780A0
+    // Offset: 0x138AAE4
     ::Array<uint16_t>* get_triangles();
     // public UnityEngine.Vector2[] get_uv()
-    // Offset: 0x13780E0
+    // Offset: 0x138AB24
     ::Array<UnityEngine::Vector2>* get_uv();
     // static public UnityEngine.Sprite Create(UnityEngine.Texture2D texture, UnityEngine.Rect rect, UnityEngine.Vector2 pivot, System.Single pixelsPerUnit, System.UInt32 extrude, UnityEngine.SpriteMeshType meshType, UnityEngine.Vector4 border, System.Boolean generateFallbackPhysicsShape)
-    // Offset: 0x1378120
+    // Offset: 0x138AB64
     static UnityEngine::Sprite* Create(UnityEngine::Texture2D* texture, UnityEngine::Rect rect, UnityEngine::Vector2 pivot, float pixelsPerUnit, uint extrude, UnityEngine::SpriteMeshType meshType, UnityEngine::Vector4 border, bool generateFallbackPhysicsShape);
     // private System.Void GetTextureRect_Injected(UnityEngine.Rect ret)
-    // Offset: 0x1377838
+    // Offset: 0x138A27C
     void GetTextureRect_Injected(UnityEngine::Rect& ret);
     // private System.Void GetInnerUVs_Injected(UnityEngine.Vector4 ret)
-    // Offset: 0x13778E4
+    // Offset: 0x138A328
     void GetInnerUVs_Injected(UnityEngine::Vector4& ret);
     // private System.Void GetOuterUVs_Injected(UnityEngine.Vector4 ret)
-    // Offset: 0x1377990
+    // Offset: 0x138A3D4
     void GetOuterUVs_Injected(UnityEngine::Vector4& ret);
     // private System.Void GetPadding_Injected(UnityEngine.Vector4 ret)
-    // Offset: 0x1377A3C
+    // Offset: 0x138A480
     void GetPadding_Injected(UnityEngine::Vector4& ret);
     // static private UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D texture, UnityEngine.Rect rect, UnityEngine.Vector2 pivot, System.Single pixelsPerUnit, System.UInt32 extrude, UnityEngine.SpriteMeshType meshType, UnityEngine.Vector4 border, System.Boolean generateFallbackPhysicsShape)
-    // Offset: 0x1377B30
+    // Offset: 0x138A574
     static UnityEngine::Sprite* CreateSprite_Injected(UnityEngine::Texture2D* texture, UnityEngine::Rect& rect, UnityEngine::Vector2& pivot, float pixelsPerUnit, uint extrude, UnityEngine::SpriteMeshType meshType, UnityEngine::Vector4& border, bool generateFallbackPhysicsShape);
     // private System.Void get_bounds_Injected(UnityEngine.Bounds ret)
-    // Offset: 0x1377C34
+    // Offset: 0x138A678
     void get_bounds_Injected(UnityEngine::Bounds& ret);
     // private System.Void get_rect_Injected(UnityEngine.Rect ret)
-    // Offset: 0x1377CE0
+    // Offset: 0x138A724
     void get_rect_Injected(UnityEngine::Rect& ret);
     // private System.Void get_border_Injected(UnityEngine.Vector4 ret)
-    // Offset: 0x1377D8C
+    // Offset: 0x138A7D0
     void get_border_Injected(UnityEngine::Vector4& ret);
     // private System.Void get_pivot_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x1377EF4
+    // Offset: 0x138A938
     void get_pivot_Injected(UnityEngine::Vector2& ret);
     // private System.Void .ctor()
-    // Offset: 0x13776F4
+    // Offset: 0x138A138
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static Sprite* New_ctor();
   }; // UnityEngine.Sprite
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Sprite*, "UnityEngine", "Sprite");
 #pragma pack(pop)

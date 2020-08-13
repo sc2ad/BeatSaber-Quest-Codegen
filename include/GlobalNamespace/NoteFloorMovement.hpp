@@ -66,43 +66,43 @@ namespace GlobalNamespace {
     // Offset: 0x78
     UnityEngine::Vector3 localPosition;
     // public System.Void add_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0xC1AB50
+    // Offset: 0xC2C594
     void add_floorMovementDidFinishEvent(System::Action* value);
     // public System.Void remove_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0xC1ABF4
+    // Offset: 0xC2C638
     void remove_floorMovementDidFinishEvent(System::Action* value);
     // public System.Single get_distanceToPlayer()
-    // Offset: 0xC1AC98
+    // Offset: 0xC2C6DC
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_startPos()
-    // Offset: 0xC1AD84
+    // Offset: 0xC2C7C8
     UnityEngine::Vector3 get_startPos();
     // public UnityEngine.Vector3 get_endPos()
-    // Offset: 0xC1AD90
+    // Offset: 0xC2C7D4
     UnityEngine::Vector3 get_endPos();
     // public System.Single get_startTime()
-    // Offset: 0xC1AD9C
+    // Offset: 0xC2C7E0
     float get_startTime();
     // public System.Single get_moveDuration()
-    // Offset: 0xC1ADA4
+    // Offset: 0xC2C7E8
     float get_moveDuration();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0xC1ADAC
+    // Offset: 0xC2C7F0
     UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0xC1ADB8
+    // Offset: 0xC2C7FC
     UnityEngine::Quaternion get_inverseWorldRotation();
     // public System.Void Init(System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single moveDuration, System.Single startTime)
-    // Offset: 0xC1ADC4
+    // Offset: 0xC2C808
     void Init(float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float moveDuration, float startTime);
     // public UnityEngine.Vector3 SetToStart()
-    // Offset: 0xC1AEBC
+    // Offset: 0xC2C900
     UnityEngine::Vector3 SetToStart();
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0xC1AFEC
+    // Offset: 0xC2CA30
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC1B16C
+    // Offset: 0xC2CBB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -112,6 +112,6 @@ namespace GlobalNamespace {
     static NoteFloorMovement* New_ctor();
   }; // NoteFloorMovement
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteFloorMovement*, "", "NoteFloorMovement");
 #pragma pack(pop)

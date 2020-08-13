@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.Installer`2
 #include "Zenject/Installer_2.hpp"
 // Completed includes
@@ -29,15 +30,15 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::List_1<System::Type*>* typeOrder;
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Type> typeOrder)
-    // Offset: 0xF1A3A0
+    // Offset: 0xF2ADE4
     static ExecutionOrderInstaller* New_ctor(System::Collections::Generic::List_1<System::Type*>* typeOrder);
     // public override System.Void InstallBindings()
-    // Offset: 0xF1A40C
+    // Offset: 0xF2AE50
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
   }; // Zenject.ExecutionOrderInstaller
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ExecutionOrderInstaller*, "Zenject", "ExecutionOrderInstaller");
 #pragma pack(pop)

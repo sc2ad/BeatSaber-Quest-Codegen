@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Resources.IResourceGroveler
 #include "System/Resources/IResourceGroveler.hpp"
 // Including type: System.Resources.ResourceManager
@@ -44,21 +42,21 @@ namespace System::Resources {
     // Offset: 0x10
     System::Resources::ResourceManager::ResourceManagerMediator* mediator;
     // public System.Void .ctor(System.Resources.ResourceManager/ResourceManagerMediator mediator)
-    // Offset: 0x1142FE8
+    // Offset: 0x1154A2C
     static FileBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator);
     // private System.String FindResourceFile(System.Globalization.CultureInfo culture, System.String fileName)
-    // Offset: 0x11433DC
+    // Offset: 0x1154E20
     ::CsString* FindResourceFile(System::Globalization::CultureInfo* culture, ::CsString* fileName);
     // private System.Resources.ResourceSet CreateResourceSet(System.String file)
-    // Offset: 0x114350C
+    // Offset: 0x1154F50
     System::Resources::ResourceSet* CreateResourceSet(::CsString* file);
     // public System.Resources.ResourceSet GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x114301C
+    // Offset: 0x1154A60
     // Implemented from: System.Resources.IResourceGroveler
     // Base method: System.Resources.ResourceSet IResourceGroveler::GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, System.Threading.StackCrawlMark stackMark)
     System::Resources::ResourceSet* GrovelForResourceSet(System::Globalization::CultureInfo* culture, System::Collections::Generic::Dictionary_2<::CsString*, System::Resources::ResourceSet*>* localResourceSets, bool tryParents, bool createIfNotExists, System::Threading::StackCrawlMark& stackMark);
   }; // System.Resources.FileBasedResourceGroveler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::FileBasedResourceGroveler*, "System.Resources", "FileBasedResourceGroveler");
 #pragma pack(pop)

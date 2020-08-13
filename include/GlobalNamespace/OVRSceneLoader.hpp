@@ -70,7 +70,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: SceneInfo
       SceneInfo(System::Collections::Generic::List_1<::CsString*>* scenes_ = {}, int64_t version_ = {}) : scenes{scenes_}, version{version_} {}
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
-      // Offset: 0xA36D70
+      // Offset: 0xA37DEC
       static OVRSceneLoader::SceneInfo* New_ctor(System::Collections::Generic::List_1<::CsString*>* sceneList, int64_t currentSceneEpochVersion);
     }; // OVRSceneLoader/SceneInfo
     // static field const value: static public System.String externalStoragePath
@@ -131,37 +131,37 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::OVRSceneLoader::SceneInfo currentSceneInfo;
     // private System.Void Awake()
-    // Offset: 0xF3740C
+    // Offset: 0xF47E50
     void Awake();
     // private System.Void Start()
-    // Offset: 0xF37488
+    // Offset: 0xF47ECC
     void Start();
     // private System.Void LoadScene(OVRSceneLoader/SceneInfo sceneInfo)
-    // Offset: 0xF37888
+    // Offset: 0xF482CC
     void LoadScene(GlobalNamespace::OVRSceneLoader::SceneInfo sceneInfo);
     // private System.Void LoadSceneOperation_completed(UnityEngine.AsyncOperation obj)
-    // Offset: 0xF3811C
+    // Offset: 0xF48B60
     void LoadSceneOperation_completed(UnityEngine::AsyncOperation* obj);
     // public System.Void Update()
-    // Offset: 0xF38284
+    // Offset: 0xF48CC8
     void Update();
     // private System.Void UpdateCanvasPosition()
-    // Offset: 0xF384BC
+    // Offset: 0xF48F00
     void UpdateCanvasPosition();
     // private OVRSceneLoader/SceneInfo GetSceneInfo()
-    // Offset: 0xF37660
+    // Offset: 0xF480A4
     GlobalNamespace::OVRSceneLoader::SceneInfo GetSceneInfo();
     // private System.Collections.IEnumerator DelayCanvasPosUpdate()
-    // Offset: 0xF375E4
+    // Offset: 0xF48028
     System::Collections::IEnumerator* DelayCanvasPosUpdate();
     // private System.Collections.IEnumerator onCheckSceneCoroutine()
-    // Offset: 0xF38208
+    // Offset: 0xF48C4C
     System::Collections::IEnumerator* onCheckSceneCoroutine();
     // private System.Void DestroyAllGameObjects()
-    // Offset: 0xF38780
+    // Offset: 0xF491C4
     void DestroyAllGameObjects();
     // public System.Void .ctor()
-    // Offset: 0xF38894
+    // Offset: 0xF492D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -171,7 +171,7 @@ namespace GlobalNamespace {
     static OVRSceneLoader* New_ctor();
   }; // OVRSceneLoader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader*, "", "OVRSceneLoader");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::SceneInfo, "", "OVRSceneLoader/SceneInfo");
 #pragma pack(pop)

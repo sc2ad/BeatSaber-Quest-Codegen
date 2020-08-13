@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TestBeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForPreviewLevelAsync>d__5
 #include "GlobalNamespace/TestBeatmapDataAssetFileModel_-TryDeleteAssetBundleFileForPreviewLevelAsync-d__5.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

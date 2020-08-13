@@ -40,20 +40,20 @@ namespace GlobalNamespace {
     // Offset: 0x78
     HMUI::ToggleBinder* toggleBinder;
     // private System.Void HandleEnableOnlineServicesToggleValueChanged(System.Boolean value)
-    // Offset: 0xBBA820
+    // Offset: 0xBCD264
     void HandleEnableOnlineServicesToggleValueChanged(bool value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBBA720
+    // Offset: 0xBCD164
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0xBBA81C
+    // Offset: 0xBCD260
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(HMUI.ViewController/DeactivationType deactivationType)
     void DidDeactivate(HMUI::ViewController::DeactivationType deactivationType);
     // public System.Void .ctor()
-    // Offset: 0xBBA824
+    // Offset: 0xBCD268
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -64,6 +64,6 @@ namespace GlobalNamespace {
     static OnlineServicesSettingsViewController* New_ctor();
   }; // OnlineServicesSettingsViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesSettingsViewController*, "", "OnlineServicesSettingsViewController");
 #pragma pack(pop)

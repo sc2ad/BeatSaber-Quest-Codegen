@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Glyph
 #include "TMPro/TMP_Glyph.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

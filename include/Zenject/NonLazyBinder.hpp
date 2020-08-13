@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.IfNotBoundBinder
 #include "Zenject/IfNotBoundBinder.hpp"
 // Completed includes
@@ -20,18 +21,18 @@ namespace Zenject {
   class NonLazyBinder : public Zenject::IfNotBoundBinder {
     public:
     // public Zenject.IfNotBoundBinder NonLazy()
-    // Offset: 0xFACACC
+    // Offset: 0xFBF510
     Zenject::IfNotBoundBinder* NonLazy();
     // public Zenject.IfNotBoundBinder Lazy()
-    // Offset: 0xFACAEC
+    // Offset: 0xFBF530
     Zenject::IfNotBoundBinder* Lazy();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0xFACAC4
+    // Offset: 0xFBF508
     // Implemented from: Zenject.IfNotBoundBinder
     // Base method: System.Void IfNotBoundBinder::.ctor(Zenject.BindInfo bindInfo)
     static NonLazyBinder* New_ctor(Zenject::BindInfo* bindInfo);
   }; // Zenject.NonLazyBinder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NonLazyBinder*, "Zenject", "NonLazyBinder");
 #pragma pack(pop)

@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     TMPro::TextMeshProUGUI* bpmText;
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x1971094
+    // Offset: 0xB89390
     void set_duration(float value);
     // public System.Void set_bpm(System.Single value)
-    // Offset: 0x19710CC
+    // Offset: 0xB893C8
     void set_bpm(float value);
     // public System.Void .ctor()
-    // Offset: 0x1971110
+    // Offset: 0xB8940C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -43,6 +43,6 @@ namespace GlobalNamespace {
     static BasicLevelParamsPanel* New_ctor();
   }; // BasicLevelParamsPanel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicLevelParamsPanel*, "", "BasicLevelParamsPanel");
 #pragma pack(pop)

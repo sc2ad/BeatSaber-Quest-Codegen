@@ -69,16 +69,16 @@ namespace TMPro {
     // Offset: 0xA26FD4
     static MaterialReference* New_ctor(int index, TMPro::TMP_FontAsset* fontAsset, TMPro::TMP_SpriteAsset* spriteAsset, UnityEngine::Material* material, float padding);
     // static public System.Boolean Contains(TMPro.MaterialReference[] materialReferences, TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0xB65B5C
+    // Offset: 0xB63B5C
     static bool Contains(::Array<TMPro::MaterialReference>* materialReferences, TMPro::TMP_FontAsset* fontAsset);
     // static public System.Int32 AddMaterialReference(UnityEngine.Material material, TMPro.TMP_FontAsset fontAsset, TMPro.MaterialReference[] materialReferences, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> materialReferenceIndexLookup)
-    // Offset: 0xB65C78
+    // Offset: 0xB63C78
     static int AddMaterialReference(UnityEngine::Material* material, TMPro::TMP_FontAsset* fontAsset, ::Array<TMPro::MaterialReference>* materialReferences, System::Collections::Generic::Dictionary_2<int, int>* materialReferenceIndexLookup);
     // static public System.Int32 AddMaterialReference(UnityEngine.Material material, TMPro.TMP_SpriteAsset spriteAsset, TMPro.MaterialReference[] materialReferences, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> materialReferenceIndexLookup)
-    // Offset: 0xB65E40
+    // Offset: 0xB63E40
     static int AddMaterialReference(UnityEngine::Material* material, TMPro::TMP_SpriteAsset* spriteAsset, ::Array<TMPro::MaterialReference>* materialReferences, System::Collections::Generic::Dictionary_2<int, int>* materialReferenceIndexLookup);
   }; // TMPro.MaterialReference
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReference, "TMPro", "MaterialReference");
 #pragma pack(pop)

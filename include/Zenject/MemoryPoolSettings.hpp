@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.PoolExpandMethods
 #include "Zenject/PoolExpandMethods.hpp"
 // Completed includes
@@ -29,18 +27,18 @@ namespace Zenject {
     // Set static field: static public readonly Zenject.MemoryPoolSettings Default
     static void _set_Default(Zenject::MemoryPoolSettings* value);
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 maxSize, Zenject.PoolExpandMethods expandMethod)
-    // Offset: 0xFABF5C
+    // Offset: 0xFBE9A0
     static MemoryPoolSettings* New_ctor(int initialSize, int maxSize, Zenject::PoolExpandMethods expandMethod);
     // static private System.Void .cctor()
-    // Offset: 0xFABF9C
+    // Offset: 0xFBE9E0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xFABF28
+    // Offset: 0xFBE96C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemoryPoolSettings* New_ctor();
   }; // Zenject.MemoryPoolSettings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolSettings*, "Zenject", "MemoryPoolSettings");
 #pragma pack(pop)

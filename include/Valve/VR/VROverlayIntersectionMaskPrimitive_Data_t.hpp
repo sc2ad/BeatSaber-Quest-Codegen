@@ -26,6 +26,6 @@ namespace Valve::VR {
     VROverlayIntersectionMaskPrimitive_Data_t(Valve::VR::IntersectionMaskRectangle_t m_Rectangle_ = {}, Valve::VR::IntersectionMaskCircle_t m_Circle_ = {}) : m_Rectangle{m_Rectangle_}, m_Circle{m_Circle_} {}
   }; // Valve.VR.VROverlayIntersectionMaskPrimitive_Data_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t, "Valve.VR", "VROverlayIntersectionMaskPrimitive_Data_t");
 #pragma pack(pop)

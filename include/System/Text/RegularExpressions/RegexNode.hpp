@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Text.RegularExpressions.RegexOptions
 #include "System/Text/RegularExpressions/RegexOptions.hpp"
 // Completed includes
@@ -48,67 +46,67 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x38
     System::Text::RegularExpressions::RegexNode* next;
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options)
-    // Offset: 0x1215B68
+    // Offset: 0x12285AC
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options);
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Char ch)
-    // Offset: 0x1215BA4
+    // Offset: 0x12285E8
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::Il2CppChar ch);
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.String str)
-    // Offset: 0x1215BE8
+    // Offset: 0x122862C
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::CsString* str);
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m)
-    // Offset: 0x1215C34
+    // Offset: 0x1228678
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, int m);
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m, System.Int32 n)
-    // Offset: 0x1215C78
+    // Offset: 0x12286BC
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, int m, int n);
     // System.Boolean UseOptionR()
-    // Offset: 0x1215CC8
+    // Offset: 0x122870C
     bool UseOptionR();
     // System.Text.RegularExpressions.RegexNode ReverseLeft()
-    // Offset: 0x1215CD4
+    // Offset: 0x1228718
     System::Text::RegularExpressions::RegexNode* ReverseLeft();
     // System.Void MakeRep(System.Int32 type, System.Int32 min, System.Int32 max)
-    // Offset: 0x1215D4C
+    // Offset: 0x1228790
     void MakeRep(int type, int min, int max);
     // System.Text.RegularExpressions.RegexNode Reduce()
-    // Offset: 0x1215D64
+    // Offset: 0x12287A8
     System::Text::RegularExpressions::RegexNode* Reduce();
     // System.Text.RegularExpressions.RegexNode StripEnation(System.Int32 emptyType)
-    // Offset: 0x1216820
+    // Offset: 0x1229264
     System::Text::RegularExpressions::RegexNode* StripEnation(int emptyType);
     // System.Text.RegularExpressions.RegexNode ReduceGroup()
-    // Offset: 0x1216664
+    // Offset: 0x12290A8
     System::Text::RegularExpressions::RegexNode* ReduceGroup();
     // System.Text.RegularExpressions.RegexNode ReduceRep()
-    // Offset: 0x12164D0
+    // Offset: 0x1228F14
     System::Text::RegularExpressions::RegexNode* ReduceRep();
     // System.Text.RegularExpressions.RegexNode ReduceSet()
-    // Offset: 0x1216694
+    // Offset: 0x12290D8
     System::Text::RegularExpressions::RegexNode* ReduceSet();
     // System.Text.RegularExpressions.RegexNode ReduceAlternation()
-    // Offset: 0x1215DB0
+    // Offset: 0x12287F4
     System::Text::RegularExpressions::RegexNode* ReduceAlternation();
     // System.Text.RegularExpressions.RegexNode ReduceConcatenation()
-    // Offset: 0x121615C
+    // Offset: 0x1228BA0
     System::Text::RegularExpressions::RegexNode* ReduceConcatenation();
     // System.Text.RegularExpressions.RegexNode MakeQuantifier(System.Boolean lazy, System.Int32 min, System.Int32 max)
-    // Offset: 0x12168EC
+    // Offset: 0x1229330
     System::Text::RegularExpressions::RegexNode* MakeQuantifier(bool lazy, int min, int max);
     // System.Void AddChild(System.Text.RegularExpressions.RegexNode newChild)
-    // Offset: 0x1216A14
+    // Offset: 0x1229458
     void AddChild(System::Text::RegularExpressions::RegexNode* newChild);
     // System.Text.RegularExpressions.RegexNode Child(System.Int32 i)
-    // Offset: 0x1212BDC
+    // Offset: 0x1225620
     System::Text::RegularExpressions::RegexNode* Child(int i);
     // System.Int32 ChildCount()
-    // Offset: 0x1212B88
+    // Offset: 0x12255CC
     int ChildCount();
     // System.Int32 Type()
-    // Offset: 0x1216AE8
+    // Offset: 0x122952C
     int Type();
   }; // System.Text.RegularExpressions.RegexNode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexNode*, "System.Text.RegularExpressions", "RegexNode");
 #pragma pack(pop)

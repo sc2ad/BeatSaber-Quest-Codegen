@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.PropertyAttribute
 #include "NUnit/Framework/PropertyAttribute.hpp"
 // Completed includes
@@ -21,6 +22,6 @@ namespace NUnit::Framework {
     class RepeatedTestCommand;
   }; // NUnit.Framework.RepeatAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RepeatAttribute*, "NUnit.Framework", "RepeatAttribute");
 #pragma pack(pop)

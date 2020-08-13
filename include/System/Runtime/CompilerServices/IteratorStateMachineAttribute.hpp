@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.CompilerServices.StateMachineAttribute
 #include "System/Runtime/CompilerServices/StateMachineAttribute.hpp"
 // Completed includes
@@ -20,12 +21,12 @@ namespace System::Runtime::CompilerServices {
   class IteratorStateMachineAttribute : public System::Runtime::CompilerServices::StateMachineAttribute {
     public:
     // public System.Void .ctor(System.Type stateMachineType)
-    // Offset: 0x114FCBC
+    // Offset: 0x1161700
     // Implemented from: System.Runtime.CompilerServices.StateMachineAttribute
     // Base method: System.Void StateMachineAttribute::.ctor(System.Type stateMachineType)
     static IteratorStateMachineAttribute* New_ctor(System::Type* stateMachineType);
   }; // System.Runtime.CompilerServices.IteratorStateMachineAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IteratorStateMachineAttribute*, "System.Runtime.CompilerServices", "IteratorStateMachineAttribute");
 #pragma pack(pop)

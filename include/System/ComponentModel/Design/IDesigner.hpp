@@ -13,6 +13,6 @@ namespace System::ComponentModel::Design {
   class IDesigner : public System::IDisposable {
   }; // System.ComponentModel.Design.IDesigner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IDesigner*, "System.ComponentModel.Design", "IDesigner");
 #pragma pack(pop)

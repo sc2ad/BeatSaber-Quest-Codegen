@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRSimpleJSON.JSONNode
 #include "OVRSimpleJSON/JSONNode.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVRSimpleJSON.JSONNode/Enumerator
 #include "OVRSimpleJSON/JSONNode_Enumerator.hpp"
 // Including type: System.Collections.Generic.List`1
@@ -27,25 +27,25 @@ namespace OVRSimpleJSON {
     // Creating value type constructor for type: KeyEnumerator
     KeyEnumerator(OVRSimpleJSON::JSONNode::Enumerator m_Enumerator_ = {}) : m_Enumerator{m_Enumerator_} {}
     // public System.Void .ctor(System.Collections.Generic.List`1/Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
-    // Offset: 0xA36EE0
+    // Offset: 0xA37F5C
     static JSONNode::KeyEnumerator* New_ctor(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
-    // Offset: 0xA36F54
+    // Offset: 0xA37FD0
     static JSONNode::KeyEnumerator* New_ctor(typename System::Collections::Generic::Dictionary_2<::CsString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(OVRSimpleJSON.JSONNode/Enumerator aEnumerator)
-    // Offset: 0xA36FE4
+    // Offset: 0xA38060
     static JSONNode::KeyEnumerator* New_ctor(OVRSimpleJSON::JSONNode::Enumerator aEnumerator);
     // public System.String get_Current()
-    // Offset: 0xA37014
+    // Offset: 0xA38090
     ::CsString* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0xA3701C
+    // Offset: 0xA38098
     bool MoveNext();
     // public OVRSimpleJSON.JSONNode/KeyEnumerator GetEnumerator()
-    // Offset: 0xA37024
+    // Offset: 0xA380A0
     OVRSimpleJSON::JSONNode::KeyEnumerator GetEnumerator();
   }; // OVRSimpleJSON.JSONNode/KeyEnumerator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::KeyEnumerator, "OVRSimpleJSON", "JSONNode/KeyEnumerator");
 #pragma pack(pop)

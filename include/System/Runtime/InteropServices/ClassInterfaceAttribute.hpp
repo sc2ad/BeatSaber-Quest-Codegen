@@ -19,10 +19,10 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Runtime::InteropServices::ClassInterfaceType val;
     // public System.Void .ctor(System.Runtime.InteropServices.ClassInterfaceType classInterfaceType)
-    // Offset: 0x1150DC8
+    // Offset: 0x116280C
     static ClassInterfaceAttribute* New_ctor(System::Runtime::InteropServices::ClassInterfaceType classInterfaceType);
   }; // System.Runtime.InteropServices.ClassInterfaceAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ClassInterfaceAttribute*, "System.Runtime.InteropServices", "ClassInterfaceAttribute");
 #pragma pack(pop)

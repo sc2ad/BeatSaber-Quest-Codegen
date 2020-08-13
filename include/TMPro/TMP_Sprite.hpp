@@ -38,13 +38,13 @@ namespace TMPro {
     // Offset: 0x50
     UnityEngine::Sprite* sprite;
     // public System.Void .ctor()
-    // Offset: 0xB9DED0
+    // Offset: 0xBAF914
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     // Base method: System.Void Object::.ctor()
     static TMP_Sprite* New_ctor();
   }; // TMPro.TMP_Sprite
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Sprite*, "TMPro", "TMP_Sprite");
 #pragma pack(pop)

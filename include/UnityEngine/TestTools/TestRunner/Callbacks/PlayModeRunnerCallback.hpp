@@ -36,25 +36,25 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x18
     UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* m_ResultRenderer;
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE2D5B4
+    // Offset: 0xE3FFF8
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE2D790
+    // Offset: 0xE401D4
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void OnGUI()
-    // Offset: 0xE2D794
+    // Offset: 0xE401D8
     void OnGUI();
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0xE2DD18
+    // Offset: 0xE4075C
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE2DD8C
+    // Offset: 0xE407D0
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // private System.Void LogRecieved(System.String message, System.String stacktrace, UnityEngine.LogType type)
-    // Offset: 0xE2DD90
+    // Offset: 0xE407D4
     void LogRecieved(::CsString* message, ::CsString* stacktrace, UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0xE2DE40
+    // Offset: 0xE40884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -64,6 +64,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     static PlayModeRunnerCallback* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayModeRunnerCallback");
 #pragma pack(pop)

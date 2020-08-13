@@ -77,19 +77,19 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool didFinish;
     // protected System.Void Start()
-    // Offset: 0xBCD628
+    // Offset: 0xBE006C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBCD7A0
+    // Offset: 0xBE01E4
     void OnDestroy();
     // private System.Void Finish()
-    // Offset: 0xBCD7B4
+    // Offset: 0xBE01F8
     void Finish();
     // private System.Collections.IEnumerator ScrollCoroutine()
-    // Offset: 0xBCD724
+    // Offset: 0xBE0168
     System::Collections::IEnumerator* ScrollCoroutine();
     // public System.Void .ctor()
-    // Offset: 0xBCD874
+    // Offset: 0xBE02B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -99,6 +99,6 @@ namespace GlobalNamespace {
     static CreditsController* New_ctor();
   }; // CreditsController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsController*, "", "CreditsController");
 #pragma pack(pop)

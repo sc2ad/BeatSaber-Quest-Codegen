@@ -88,13 +88,13 @@ namespace GlobalNamespace {
     // Offset: 0x51
     bool m_prevControllerConnectedCached;
     // private System.Void Start()
-    // Offset: 0xCB5BA0
+    // Offset: 0xCC95E4
     void Start();
     // private System.Void Update()
-    // Offset: 0xCB5DF4
+    // Offset: 0xCC9838
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCB6038
+    // Offset: 0xCC9A7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     static OVRControllerHelper* New_ctor();
   }; // OVRControllerHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper*, "", "OVRControllerHelper");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper::ControllerType, "", "OVRControllerHelper/ControllerType");
 #pragma pack(pop)

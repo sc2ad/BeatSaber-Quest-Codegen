@@ -213,154 +213,154 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Boolean s_Initialized
     static void _set_s_Initialized(bool value);
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x1159BA4
+    // Offset: 0x116B5E8
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x1159BAC
+    // Offset: 0x116B5F0
     void set_sprite(UnityEngine::Sprite* value);
     // public System.Void DisableSpriteOptimizations()
-    // Offset: 0x1159FD4
+    // Offset: 0x116BA18
     void DisableSpriteOptimizations();
     // public UnityEngine.Sprite get_overrideSprite()
-    // Offset: 0x1159FDC
+    // Offset: 0x116BA20
     UnityEngine::Sprite* get_overrideSprite();
     // public System.Void set_overrideSprite(UnityEngine.Sprite value)
-    // Offset: 0x115A068
+    // Offset: 0x116BAAC
     void set_overrideSprite(UnityEngine::Sprite* value);
     // private UnityEngine.Sprite get_activeSprite()
-    // Offset: 0x1159FE0
+    // Offset: 0x116BA24
     UnityEngine::Sprite* get_activeSprite();
     // public UnityEngine.UI.Image/Type get_type()
-    // Offset: 0x115A0F8
+    // Offset: 0x116BB3C
     UnityEngine::UI::Image::Type get_type();
     // public System.Void set_type(UnityEngine.UI.Image/Type value)
-    // Offset: 0x115A100
+    // Offset: 0x116BB44
     void set_type(UnityEngine::UI::Image::Type value);
     // public System.Boolean get_preserveAspect()
-    // Offset: 0x115A188
+    // Offset: 0x116BBCC
     bool get_preserveAspect();
     // public System.Void set_preserveAspect(System.Boolean value)
-    // Offset: 0x115A190
+    // Offset: 0x116BBD4
     void set_preserveAspect(bool value);
     // public System.Boolean get_fillCenter()
-    // Offset: 0x115A218
+    // Offset: 0x116BC5C
     bool get_fillCenter();
     // public System.Void set_fillCenter(System.Boolean value)
-    // Offset: 0x115A220
+    // Offset: 0x116BC64
     void set_fillCenter(bool value);
     // public UnityEngine.UI.Image/FillMethod get_fillMethod()
-    // Offset: 0x115A2A8
+    // Offset: 0x116BCEC
     UnityEngine::UI::Image::FillMethod get_fillMethod();
     // public System.Void set_fillMethod(UnityEngine.UI.Image/FillMethod value)
-    // Offset: 0x115A2B0
+    // Offset: 0x116BCF4
     void set_fillMethod(UnityEngine::UI::Image::FillMethod value);
     // public System.Single get_fillAmount()
-    // Offset: 0x115A330
+    // Offset: 0x116BD74
     float get_fillAmount();
     // public System.Void set_fillAmount(System.Single value)
-    // Offset: 0x115A338
+    // Offset: 0x116BD7C
     void set_fillAmount(float value);
     // public System.Boolean get_fillClockwise()
-    // Offset: 0x115A3EC
+    // Offset: 0x116BE30
     bool get_fillClockwise();
     // public System.Void set_fillClockwise(System.Boolean value)
-    // Offset: 0x115A3F4
+    // Offset: 0x116BE38
     void set_fillClockwise(bool value);
     // public System.Int32 get_fillOrigin()
-    // Offset: 0x115A47C
+    // Offset: 0x116BEC0
     int get_fillOrigin();
     // public System.Void set_fillOrigin(System.Int32 value)
-    // Offset: 0x115A484
+    // Offset: 0x116BEC8
     void set_fillOrigin(int value);
     // public System.Single get_eventAlphaThreshold()
-    // Offset: 0x115A50C
+    // Offset: 0x116BF50
     float get_eventAlphaThreshold();
     // public System.Void set_eventAlphaThreshold(System.Single value)
-    // Offset: 0x115A51C
+    // Offset: 0x116BF60
     void set_eventAlphaThreshold(float value);
     // public System.Single get_alphaHitTestMinimumThreshold()
-    // Offset: 0x115A52C
+    // Offset: 0x116BF70
     float get_alphaHitTestMinimumThreshold();
     // public System.Void set_alphaHitTestMinimumThreshold(System.Single value)
-    // Offset: 0x115A534
+    // Offset: 0x116BF78
     void set_alphaHitTestMinimumThreshold(float value);
     // public System.Boolean get_useSpriteMesh()
-    // Offset: 0x115A53C
+    // Offset: 0x116BF80
     bool get_useSpriteMesh();
     // public System.Void set_useSpriteMesh(System.Boolean value)
-    // Offset: 0x115A544
+    // Offset: 0x116BF88
     void set_useSpriteMesh(bool value);
     // static public UnityEngine.Material get_defaultETC1GraphicMaterial()
-    // Offset: 0x115A618
+    // Offset: 0x116C05C
     static UnityEngine::Material* get_defaultETC1GraphicMaterial();
     // public System.Boolean get_hasBorder()
-    // Offset: 0x115A8B4
+    // Offset: 0x116C2F8
     bool get_hasBorder();
     // public System.Single get_pixelsPerUnitMultiplier()
-    // Offset: 0x115A980
+    // Offset: 0x116C3C4
     float get_pixelsPerUnitMultiplier();
     // public System.Void set_pixelsPerUnitMultiplier(System.Single value)
-    // Offset: 0x115A988
+    // Offset: 0x116C3CC
     void set_pixelsPerUnitMultiplier(float value);
     // public System.Single get_pixelsPerUnit()
-    // Offset: 0x115AA0C
+    // Offset: 0x116C450
     float get_pixelsPerUnit();
     // protected System.Single get_multipliedPixelsPerUnit()
-    // Offset: 0x115AB20
+    // Offset: 0x116C564
     float get_multipliedPixelsPerUnit();
     // private System.Void PreserveSpriteAspectRatio(UnityEngine.Rect rect, UnityEngine.Vector2 spriteSize)
-    // Offset: 0x115AD5C
+    // Offset: 0x116C7A0
     void PreserveSpriteAspectRatio(UnityEngine::Rect& rect, UnityEngine::Vector2 spriteSize);
     // private UnityEngine.Vector4 GetDrawingDimensions(System.Boolean shouldPreserveAspect)
-    // Offset: 0x115AEB8
+    // Offset: 0x116C8FC
     UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect);
     // private System.Void TrackSprite()
-    // Offset: 0x1159ECC
+    // Offset: 0x116B910
     void TrackSprite();
     // private System.Void GenerateSimpleSprite(UnityEngine.UI.VertexHelper vh, System.Boolean lPreserveAspect)
-    // Offset: 0x115B510
+    // Offset: 0x116CF54
     void GenerateSimpleSprite(UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect);
     // private System.Void GenerateSprite(UnityEngine.UI.VertexHelper vh, System.Boolean lPreserveAspect)
-    // Offset: 0x115B858
+    // Offset: 0x116D29C
     void GenerateSprite(UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect);
     // private System.Void GenerateSlicedSprite(UnityEngine.UI.VertexHelper toFill)
-    // Offset: 0x115BC94
+    // Offset: 0x116D6D8
     void GenerateSlicedSprite(UnityEngine::UI::VertexHelper* toFill);
     // private System.Void GenerateTiledSprite(UnityEngine.UI.VertexHelper toFill)
-    // Offset: 0x115C3E8
+    // Offset: 0x116DE2C
     void GenerateTiledSprite(UnityEngine::UI::VertexHelper* toFill);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector3[] quadPositions, UnityEngine.Color32 color, UnityEngine.Vector3[] quadUVs)
-    // Offset: 0x115EF50
+    // Offset: 0x1170994
     static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, ::Array<UnityEngine::Vector3>* quadPositions, UnityEngine::Color32 color, ::Array<UnityEngine::Vector3>* quadUVs);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color, UnityEngine.Vector2 uvMin, UnityEngine.Vector2 uvMax)
-    // Offset: 0x115ED44
+    // Offset: 0x1170788
     static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, UnityEngine::Vector2 posMin, UnityEngine::Vector2 posMax, UnityEngine::Color32 color, UnityEngine::Vector2 uvMin, UnityEngine::Vector2 uvMax);
     // private UnityEngine.Vector4 GetAdjustedBorders(UnityEngine.Vector4 border, UnityEngine.Rect adjustedRect)
-    // Offset: 0x115EB48
+    // Offset: 0x117058C
     UnityEngine::Vector4 GetAdjustedBorders(UnityEngine::Vector4 border, UnityEngine::Rect adjustedRect);
     // private System.Void GenerateFilledSprite(UnityEngine.UI.VertexHelper toFill, System.Boolean preserveAspect)
-    // Offset: 0x115D87C
+    // Offset: 0x116F2C0
     void GenerateFilledSprite(UnityEngine::UI::VertexHelper* toFill, bool preserveAspect);
     // static private System.Boolean RadialCut(UnityEngine.Vector3[] xy, UnityEngine.Vector3[] uv, System.Single fill, System.Boolean invert, System.Int32 corner)
-    // Offset: 0x115F0D8
+    // Offset: 0x1170B1C
     static bool RadialCut(::Array<UnityEngine::Vector3>* xy, ::Array<UnityEngine::Vector3>* uv, float fill, bool invert, int corner);
     // static private System.Void RadialCut(UnityEngine.Vector3[] xy, System.Single cos, System.Single sin, System.Boolean invert, System.Int32 corner)
-    // Offset: 0x115F244
+    // Offset: 0x1170C88
     static void RadialCut(::Array<UnityEngine::Vector3>* xy, float cos, float sin, bool invert, int corner);
     // private UnityEngine.Vector2 MapCoordinate(UnityEngine.Vector2 local, UnityEngine.Rect rect)
-    // Offset: 0x115FD6C
+    // Offset: 0x11717B0
     UnityEngine::Vector2 MapCoordinate(UnityEngine::Vector2 local, UnityEngine::Rect rect);
     // static private System.Void RebuildImage(UnityEngine.U2D.SpriteAtlas spriteAtlas)
-    // Offset: 0x116025C
+    // Offset: 0x1171CA0
     static void RebuildImage(UnityEngine::U2D::SpriteAtlas* spriteAtlas);
     // static private System.Void TrackImage(UnityEngine.UI.Image g)
-    // Offset: 0x115E6B0
+    // Offset: 0x11700F4
     static void TrackImage(UnityEngine::UI::Image* g);
     // static private System.Void UnTrackImage(UnityEngine.UI.Image g)
-    // Offset: 0x115E894
+    // Offset: 0x11702D8
     static void UnTrackImage(UnityEngine::UI::Image* g);
     // protected System.Void .ctor()
-    // Offset: 0x115A5CC
+    // Offset: 0x116C010
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::.ctor()
     // Base method: System.Void Graphic::.ctor()
@@ -372,22 +372,22 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Image* New_ctor();
     // public override UnityEngine.Texture get_mainTexture()
-    // Offset: 0x115A718
+    // Offset: 0x116C15C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Texture Graphic::get_mainTexture()
     UnityEngine::Texture* get_mainTexture();
     // public override UnityEngine.Material get_material()
-    // Offset: 0x115AB48
+    // Offset: 0x116C58C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Material Graphic::get_material()
     UnityEngine::Material* get_material();
     // public override System.Void set_material(UnityEngine.Material value)
-    // Offset: 0x115ACA0
+    // Offset: 0x116C6E4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::set_material(UnityEngine.Material value)
     void set_material(UnityEngine::Material* value);
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x115ACA4
+    // Offset: 0x116C6E8
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void OnBeforeSerialize();
@@ -395,7 +395,7 @@ namespace UnityEngine::UI {
     // Maps to method: OnBeforeSerialize
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x115ACA8
+    // Offset: 0x116C6EC
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void OnAfterDeserialize();
@@ -403,99 +403,99 @@ namespace UnityEngine::UI {
     // Maps to method: OnAfterDeserialize
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public override System.Void SetNativeSize()
-    // Offset: 0x115B228
+    // Offset: 0x116CC6C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetNativeSize()
     void SetNativeSize();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
-    // Offset: 0x115B3C0
+    // Offset: 0x116CE04
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* toFill);
     // protected override System.Void OnEnable()
-    // Offset: 0x115E7E8
+    // Offset: 0x117022C
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x115E810
+    // Offset: 0x1170254
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnDisable()
     void OnDisable();
     // protected override System.Void UpdateMaterial()
-    // Offset: 0x115E918
+    // Offset: 0x117035C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::UpdateMaterial()
     void UpdateMaterial();
     // protected override System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x115EA30
+    // Offset: 0x1170474
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();
     // public System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x115F7BC
+    // Offset: 0x1171200
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public System.Void CalculateLayoutInputVertical()
-    // Offset: 0x115F7C0
+    // Offset: 0x1171204
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public System.Single get_minWidth()
-    // Offset: 0x115F7C4
+    // Offset: 0x1171208
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minWidth()
     float get_minWidth();
     // public System.Single get_preferredWidth()
-    // Offset: 0x115F7CC
+    // Offset: 0x1171210
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredWidth()
     float get_preferredWidth();
     // public System.Single get_flexibleWidth()
-    // Offset: 0x115F8C0
+    // Offset: 0x1171304
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleWidth()
     float get_flexibleWidth();
     // public System.Single get_minHeight()
-    // Offset: 0x115F8C8
+    // Offset: 0x117130C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minHeight()
     float get_minHeight();
     // public System.Single get_preferredHeight()
-    // Offset: 0x115F8D0
+    // Offset: 0x1171314
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredHeight()
     float get_preferredHeight();
     // public System.Single get_flexibleHeight()
-    // Offset: 0x115F9C4
+    // Offset: 0x1171408
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleHeight()
     float get_flexibleHeight();
     // public System.Int32 get_layoutPriority()
-    // Offset: 0x115F9CC
+    // Offset: 0x1171410
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Int32 ILayoutElement::get_layoutPriority()
     int get_layoutPriority();
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 screenPoint, UnityEngine.Camera eventCamera)
-    // Offset: 0x115F9D4
+    // Offset: 0x1171418
     // Implemented from: UnityEngine.ICanvasRaycastFilter
     // Base method: System.Boolean ICanvasRaycastFilter::IsRaycastLocationValid(UnityEngine.Vector2 screenPoint, UnityEngine.Camera eventCamera)
     bool IsRaycastLocationValid(UnityEngine::Vector2 screenPoint, UnityEngine::Camera* eventCamera);
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x11603BC
+    // Offset: 0x1171E00
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // static private System.Void .cctor()
-    // Offset: 0x11603F8
+    // Offset: 0x1171E3C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Image
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image*, "UnityEngine.UI", "Image");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::Type, "UnityEngine.UI", "Image/Type");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::FillMethod, "UnityEngine.UI", "Image/FillMethod");

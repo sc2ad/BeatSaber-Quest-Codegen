@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.ActivityFilter
 #include "System/Diagnostics/Tracing/ActivityFilter.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -49,45 +47,45 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x50
     System::Diagnostics::Tracing::ActivityFilter* $af$5__1;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xC82BE4
+    // Offset: 0xC94628
     static ActivityFilter::$GetFilterAsTuple$d__7* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xC82FCC
+    // Offset: 0xC94A10
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xC82FD0
+    // Offset: 0xC94A14
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Tuple`2<System.Int32,System.Int32> System.Collections.Generic.IEnumerator<System.Tuple<System.Int32,System.Int32>>.get_Current()
-    // Offset: 0xC8310C
+    // Offset: 0xC94B50
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     System::Tuple_2<int, int>* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xC83114
+    // Offset: 0xC94B58
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xC83174
+    // Offset: 0xC94BB8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<System.Tuple`2<System.Int32,System.Int32>> System.Collections.Generic.IEnumerable<System.Tuple<System.Int32,System.Int32>>.GetEnumerator()
-    // Offset: 0xC8317C
+    // Offset: 0xC94BC0
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<System::Tuple_2<int, int>*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xC83238
+    // Offset: 0xC94C7C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Diagnostics.Tracing.ActivityFilter/<GetFilterAsTuple>d__7
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityFilter::$GetFilterAsTuple$d__7*, "System.Diagnostics.Tracing", "ActivityFilter/<GetFilterAsTuple>d__7");
 #pragma pack(pop)

@@ -14,6 +14,6 @@ namespace UnityEngine {
   class AudioReverbZone : public UnityEngine::Behaviour {
   }; // UnityEngine.AudioReverbZone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioReverbZone*, "UnityEngine", "AudioReverbZone");
 #pragma pack(pop)

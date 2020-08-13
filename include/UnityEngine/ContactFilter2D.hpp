@@ -50,19 +50,19 @@ namespace UnityEngine {
     // Creating value type constructor for type: ContactFilter2D
     ContactFilter2D(bool useTriggers_ = {}, bool useLayerMask_ = {}, bool useDepth_ = {}, bool useOutsideDepth_ = {}, bool useNormalAngle_ = {}, bool useOutsideNormalAngle_ = {}, UnityEngine::LayerMask layerMask_ = {}, float minDepth_ = {}, float maxDepth_ = {}, float minNormalAngle_ = {}, float maxNormalAngle_ = {}) : useTriggers{useTriggers_}, useLayerMask{useLayerMask_}, useDepth{useDepth_}, useOutsideDepth{useOutsideDepth_}, useNormalAngle{useNormalAngle_}, useOutsideNormalAngle{useOutsideNormalAngle_}, layerMask{layerMask_}, minDepth{minDepth_}, maxDepth{maxDepth_}, minNormalAngle{minNormalAngle_}, maxNormalAngle{maxNormalAngle_} {}
     // private System.Void CheckConsistency()
-    // Offset: 0xA5C6CC
+    // Offset: 0xA5C748
     void CheckConsistency();
     // public System.Void SetLayerMask(UnityEngine.LayerMask layerMask)
-    // Offset: 0xA5C6D4
+    // Offset: 0xA5C750
     void SetLayerMask(UnityEngine::LayerMask layerMask);
     // public System.Void SetDepth(System.Single minDepth, System.Single maxDepth)
-    // Offset: 0xA5C6E4
+    // Offset: 0xA5C760
     void SetDepth(float minDepth, float maxDepth);
     // static UnityEngine.ContactFilter2D CreateLegacyFilter(System.Int32 layerMask, System.Single minDepth, System.Single maxDepth)
-    // Offset: 0x19572BC
+    // Offset: 0x1968D00
     static UnityEngine::ContactFilter2D CreateLegacyFilter(int layerMask, float minDepth, float maxDepth);
   }; // UnityEngine.ContactFilter2D
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactFilter2D, "UnityEngine", "ContactFilter2D");
 #pragma pack(pop)

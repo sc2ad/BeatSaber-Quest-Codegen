@@ -14,10 +14,10 @@ namespace UnityEngine {
   class ComputeShader : public UnityEngine::Object {
     public:
     // public System.Int32 FindKernel(System.String name)
-    // Offset: 0x12EFB70
+    // Offset: 0x13025B4
     int FindKernel(::CsString* name);
   }; // UnityEngine.ComputeShader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ComputeShader*, "UnityEngine", "ComputeShader");
 #pragma pack(pop)

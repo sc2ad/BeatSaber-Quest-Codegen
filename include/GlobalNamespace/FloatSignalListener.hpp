@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::FloatUnityEvent* unityEvent;
     // protected System.Void OnEnable()
-    // Offset: 0xC9C674
+    // Offset: 0xCAF0B8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC9C710
+    // Offset: 0xCAF154
     void OnDisable();
     // private System.Void HandleEvent(System.Single f)
-    // Offset: 0xC9C7AC
+    // Offset: 0xCAF1F0
     void HandleEvent(float f);
     // public System.Void .ctor()
-    // Offset: 0xC9C814
+    // Offset: 0xCAF258
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static FloatSignalListener* New_ctor();
   }; // FloatSignalListener
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignalListener*, "", "FloatSignalListener");
 #pragma pack(pop)

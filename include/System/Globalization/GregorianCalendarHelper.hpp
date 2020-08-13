@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Completed includes
@@ -56,67 +54,67 @@ namespace System::Globalization {
     // Offset: 0x30
     System::DateTime m_minDate;
     // System.Int32 get_MaxYear()
-    // Offset: 0x12B3528
+    // Offset: 0x12C4F6C
     int get_MaxYear();
     // System.Void .ctor(System.Globalization.Calendar cal, System.Globalization.EraInfo[] eraInfo)
-    // Offset: 0x12B3530
+    // Offset: 0x12C4F74
     static GregorianCalendarHelper* New_ctor(System::Globalization::Calendar* cal, ::Array<System::Globalization::EraInfo*>* eraInfo);
     // System.Int32 GetGregorianYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x12B35F0
+    // Offset: 0x12C5034
     int GetGregorianYear(int year, int era);
     // System.Boolean IsValidYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x12B3854
+    // Offset: 0x12C5298
     bool IsValidYear(int year, int era);
     // System.Int32 GetDatePart(System.Int64 ticks, System.Int32 part)
-    // Offset: 0x12B390C
+    // Offset: 0x12C5350
     int GetDatePart(int64_t ticks, int part);
     // static System.Int64 GetAbsoluteDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x12B3D24
+    // Offset: 0x12C5768
     static int64_t GetAbsoluteDate(int year, int month, int day);
     // static System.Int64 DateToTicks(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x12B3F1C
+    // Offset: 0x12C5960
     static int64_t DateToTicks(int year, int month, int day);
     // static System.Int64 TimeToTicks(System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond)
-    // Offset: 0x12B3FAC
+    // Offset: 0x12C59F0
     static int64_t TimeToTicks(int hour, int minute, int second, int millisecond);
     // System.Void CheckTicksRange(System.Int64 ticks)
-    // Offset: 0x12B3B58
+    // Offset: 0x12C559C
     void CheckTicksRange(int64_t ticks);
     // public System.Int32 GetDayOfMonth(System.DateTime time)
-    // Offset: 0x12B4170
+    // Offset: 0x12C5BB4
     int GetDayOfMonth(System::DateTime time);
     // public System.DayOfWeek GetDayOfWeek(System.DateTime time)
-    // Offset: 0x12B41B4
+    // Offset: 0x12C5BF8
     System::DayOfWeek GetDayOfWeek(System::DateTime time);
     // public System.Int32 GetDaysInMonth(System.Int32 year, System.Int32 month, System.Int32 era)
-    // Offset: 0x12B4244
+    // Offset: 0x12C5C88
     int GetDaysInMonth(int year, int month, int era);
     // public System.Int32 GetEra(System.DateTime time)
-    // Offset: 0x12B43EC
+    // Offset: 0x12C5E30
     int GetEra(System::DateTime time);
     // public System.Int32[] get_Eras()
-    // Offset: 0x12B44EC
+    // Offset: 0x12C5F30
     ::Array<int>* get_Eras();
     // public System.Int32 GetMonth(System.DateTime time)
-    // Offset: 0x12B4604
+    // Offset: 0x12C6048
     int GetMonth(System::DateTime time);
     // public System.Int32 GetMonthsInYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x12B4648
+    // Offset: 0x12C608C
     int GetMonthsInYear(int year, int era);
     // public System.Int32 GetYear(System.DateTime time)
-    // Offset: 0x12B4660
+    // Offset: 0x12C60A4
     int GetYear(System::DateTime time);
     // public System.Boolean IsLeapYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x12B4780
+    // Offset: 0x12C61C4
     bool IsLeapYear(int year, int era);
     // public System.DateTime ToDateTime(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.Int32 era)
-    // Offset: 0x12B47E8
+    // Offset: 0x12C622C
     System::DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
     // static private System.Void .cctor()
-    // Offset: 0x12B48F8
+    // Offset: 0x12C633C
     static void _cctor();
   }; // System.Globalization.GregorianCalendarHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendarHelper*, "System.Globalization", "GregorianCalendarHelper");
 #pragma pack(pop)

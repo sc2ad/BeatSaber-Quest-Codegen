@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Offset: 0x54
     float speed;
     // protected System.Void Start()
-    // Offset: 0xC13770
+    // Offset: 0xC251B4
     void Start();
     // protected System.Void Update()
-    // Offset: 0xC137A8
+    // Offset: 0xC251EC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC139D0
+    // Offset: 0xC25414
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -71,6 +71,6 @@ namespace GlobalNamespace {
     static SaberSound* New_ctor();
   }; // SaberSound
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSound*, "", "SaberSound");
 #pragma pack(pop)

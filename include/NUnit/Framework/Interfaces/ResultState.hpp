@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NUnit.Framework.Interfaces.TestStatus
 #include "NUnit/Framework/Interfaces/TestStatus.hpp"
 // Including type: NUnit.Framework.Interfaces.FailureSite
@@ -79,55 +77,55 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0x20
     NUnit::Framework::Interfaces::FailureSite Site;
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status)
-    // Offset: 0x106AB6C
+    // Offset: 0x107A5B0
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status);
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label)
-    // Offset: 0x106AC70
+    // Offset: 0x107A6B4
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status, ::CsString* label);
     // public System.Void .ctor(NUnit.Framework.Interfaces.TestStatus status, System.String label, NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x106ABD8
+    // Offset: 0x107A61C
     static ResultState* New_ctor(NUnit::Framework::Interfaces::TestStatus status, ::CsString* label, NUnit::Framework::Interfaces::FailureSite site);
     // public NUnit.Framework.Interfaces.TestStatus get_Status()
-    // Offset: 0x106AC78
+    // Offset: 0x107A6BC
     NUnit::Framework::Interfaces::TestStatus get_Status();
     // private System.Void set_Status(NUnit.Framework.Interfaces.TestStatus value)
-    // Offset: 0x106AC80
+    // Offset: 0x107A6C4
     void set_Status(NUnit::Framework::Interfaces::TestStatus value);
     // public System.String get_Label()
-    // Offset: 0x106AC88
+    // Offset: 0x107A6CC
     ::CsString* get_Label();
     // private System.Void set_Label(System.String value)
-    // Offset: 0x106AC90
+    // Offset: 0x107A6D4
     void set_Label(::CsString* value);
     // public NUnit.Framework.Interfaces.FailureSite get_Site()
-    // Offset: 0x106AC98
+    // Offset: 0x107A6DC
     NUnit::Framework::Interfaces::FailureSite get_Site();
     // private System.Void set_Site(NUnit.Framework.Interfaces.FailureSite value)
-    // Offset: 0x106ACA0
+    // Offset: 0x107A6E4
     void set_Site(NUnit::Framework::Interfaces::FailureSite value);
     // public NUnit.Framework.Interfaces.ResultState WithSite(NUnit.Framework.Interfaces.FailureSite site)
-    // Offset: 0x106ACA8
+    // Offset: 0x107A6EC
     NUnit::Framework::Interfaces::ResultState* WithSite(NUnit::Framework::Interfaces::FailureSite site);
     // static private System.Void .cctor()
-    // Offset: 0x106AFFC
+    // Offset: 0x107AA40
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x106AD24
+    // Offset: 0x107A768
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x106AE7C
+    // Offset: 0x107A8C0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x106AEC4
+    // Offset: 0x107A908
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // NUnit.Framework.Interfaces.ResultState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ResultState*, "NUnit.Framework.Interfaces", "ResultState");
 #pragma pack(pop)

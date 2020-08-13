@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.ProjectKernel
 #include "Zenject/ProjectKernel.hpp"
 // Including type: UnityEngine.SceneManagement.Scene
@@ -43,15 +41,15 @@ namespace Zenject {
     // Offset: 0x18
     System::Func_2<Zenject::SceneContext*, int>* $$9__0;
     // System.Int32 <ForceUnloadAllScenes>b__0(Zenject.SceneContext x)
-    // Offset: 0xFB20EC
+    // Offset: 0xFC4B30
     int $ForceUnloadAllScenes$b__0(Zenject::SceneContext* x);
     // public System.Void .ctor()
-    // Offset: 0xFB2084
+    // Offset: 0xFC4AC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProjectKernel::$$c__DisplayClass4_0* New_ctor();
   }; // Zenject.ProjectKernel/<>c__DisplayClass4_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel::$$c__DisplayClass4_0*, "Zenject", "ProjectKernel/<>c__DisplayClass4_0");
 #pragma pack(pop)

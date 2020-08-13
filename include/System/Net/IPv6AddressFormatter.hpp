@@ -27,27 +27,27 @@ namespace System::Net {
     // Creating value type constructor for type: IPv6AddressFormatter
     IPv6AddressFormatter(::Array<uint16_t>* address_ = {}, int64_t scopeId_ = {}) : address{address_}, scopeId{scopeId_} {}
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
-    // Offset: 0xA37684
+    // Offset: 0xA38700
     static IPv6AddressFormatter* New_ctor(::Array<uint16_t>* addr, int64_t scopeId);
     // static private System.UInt16 SwapUShort(System.UInt16 number)
-    // Offset: 0xF57EB4
+    // Offset: 0xF698F8
     static uint16_t SwapUShort(uint16_t number);
     // private System.UInt32 AsIPv4Int()
-    // Offset: 0xA376B4
+    // Offset: 0xA38730
     uint AsIPv4Int();
     // private System.Boolean IsIPv4Compatible()
-    // Offset: 0xA376BC
+    // Offset: 0xA38738
     bool IsIPv4Compatible();
     // private System.Boolean IsIPv4Mapped()
-    // Offset: 0xA376C4
+    // Offset: 0xA38740
     bool IsIPv4Mapped();
     // public override System.String ToString()
-    // Offset: 0xA376CC
+    // Offset: 0xA38748
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // System.Net.IPv6AddressFormatter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.UInt32
 #include "System/UInt32.hpp"
 // Including type: System.UInt64
@@ -1390,96 +1388,96 @@ namespace OVR::OpenVR {
     // Set static field: static private OVR.OpenVR.OpenVR/COpenVRContext _OpenVRInternal_ModuleContext
     static void _set__OpenVRInternal_ModuleContext(OVR::OpenVR::OpenVR::COpenVRContext* value);
     // static public System.UInt32 InitInternal(OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType)
-    // Offset: 0xCAF754
+    // Offset: 0xCC3198
     static uint InitInternal(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType);
     // static public System.UInt32 InitInternal2(OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, System.String pchStartupInfo)
-    // Offset: 0xCAF7E8
+    // Offset: 0xCC322C
     static uint InitInternal2(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::CsString* pchStartupInfo);
     // static public System.Void ShutdownInternal()
-    // Offset: 0xCAF8A0
+    // Offset: 0xCC32E4
     static void ShutdownInternal();
     // static public System.Boolean IsHmdPresent()
-    // Offset: 0xCAF914
+    // Offset: 0xCC3358
     static bool IsHmdPresent();
     // static public System.Boolean IsRuntimeInstalled()
-    // Offset: 0xCAF994
+    // Offset: 0xCC33D8
     static bool IsRuntimeInstalled();
     // static public System.String GetStringForHmdError(OVR.OpenVR.EVRInitError error)
-    // Offset: 0xCAFA14
+    // Offset: 0xCC3458
     static ::CsString* GetStringForHmdError(OVR::OpenVR::EVRInitError error);
     // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, OVR.OpenVR.EVRInitError peError)
-    // Offset: 0xCAFB0C
+    // Offset: 0xCC3550
     static System::IntPtr GetGenericInterface(::CsString* pchInterfaceVersion, OVR::OpenVR::EVRInitError& peError);
     // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
-    // Offset: 0xCAFBB8
+    // Offset: 0xCC35FC
     static bool IsInterfaceVersionValid(::CsString* pchInterfaceVersion);
     // static public System.UInt32 GetInitToken()
-    // Offset: 0xCAFC58
+    // Offset: 0xCC369C
     static uint GetInitToken();
     // static private System.UInt32 get_VRToken()
-    // Offset: 0xCAFCD0
+    // Offset: 0xCC3714
     static uint get_VRToken();
     // static private System.Void set_VRToken(System.UInt32 value)
-    // Offset: 0xCAFD38
+    // Offset: 0xCC377C
     static void set_VRToken(uint value);
     // static private OVR.OpenVR.OpenVR/COpenVRContext get_OpenVRInternal_ModuleContext()
-    // Offset: 0xCAFDA4
+    // Offset: 0xCC37E8
     static OVR::OpenVR::OpenVR::COpenVRContext* get_OpenVRInternal_ModuleContext();
     // static public OVR.OpenVR.CVRSystem get_System()
-    // Offset: 0xCAFEAC
+    // Offset: 0xCC38F0
     static OVR::OpenVR::CVRSystem* get_System();
     // static public OVR.OpenVR.CVRChaperone get_Chaperone()
-    // Offset: 0xCAFFD8
+    // Offset: 0xCC3A1C
     static OVR::OpenVR::CVRChaperone* get_Chaperone();
     // static public OVR.OpenVR.CVRChaperoneSetup get_ChaperoneSetup()
-    // Offset: 0xCB0104
+    // Offset: 0xCC3B48
     static OVR::OpenVR::CVRChaperoneSetup* get_ChaperoneSetup();
     // static public OVR.OpenVR.CVRCompositor get_Compositor()
-    // Offset: 0xCB0230
+    // Offset: 0xCC3C74
     static OVR::OpenVR::CVRCompositor* get_Compositor();
     // static public OVR.OpenVR.CVROverlay get_Overlay()
-    // Offset: 0xCB035C
+    // Offset: 0xCC3DA0
     static OVR::OpenVR::CVROverlay* get_Overlay();
     // static public OVR.OpenVR.CVRRenderModels get_RenderModels()
-    // Offset: 0xCB0488
+    // Offset: 0xCC3ECC
     static OVR::OpenVR::CVRRenderModels* get_RenderModels();
     // static public OVR.OpenVR.CVRExtendedDisplay get_ExtendedDisplay()
-    // Offset: 0xCB05B4
+    // Offset: 0xCC3FF8
     static OVR::OpenVR::CVRExtendedDisplay* get_ExtendedDisplay();
     // static public OVR.OpenVR.CVRSettings get_Settings()
-    // Offset: 0xCB06E0
+    // Offset: 0xCC4124
     static OVR::OpenVR::CVRSettings* get_Settings();
     // static public OVR.OpenVR.CVRApplications get_Applications()
-    // Offset: 0xCB080C
+    // Offset: 0xCC4250
     static OVR::OpenVR::CVRApplications* get_Applications();
     // static public OVR.OpenVR.CVRScreenshots get_Screenshots()
-    // Offset: 0xCB0938
+    // Offset: 0xCC437C
     static OVR::OpenVR::CVRScreenshots* get_Screenshots();
     // static public OVR.OpenVR.CVRTrackedCamera get_TrackedCamera()
-    // Offset: 0xCB0A64
+    // Offset: 0xCC44A8
     static OVR::OpenVR::CVRTrackedCamera* get_TrackedCamera();
     // static public OVR.OpenVR.CVRInput get_Input()
-    // Offset: 0xCB0B90
+    // Offset: 0xCC45D4
     static OVR::OpenVR::CVRInput* get_Input();
     // static public OVR.OpenVR.CVRSpatialAnchors get_SpatialAnchors()
-    // Offset: 0xCB0CBC
+    // Offset: 0xCC4700
     static OVR::OpenVR::CVRSpatialAnchors* get_SpatialAnchors();
     // static public OVR.OpenVR.CVRSystem Init(OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, System.String pchStartupInfo)
-    // Offset: 0xCB0DE8
+    // Offset: 0xCC482C
     static OVR::OpenVR::CVRSystem* Init(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::CsString* pchStartupInfo);
     // static public System.Void Shutdown()
-    // Offset: 0xCB1128
+    // Offset: 0xCC4B6C
     static void Shutdown();
     // static private System.Void .cctor()
-    // Offset: 0xCB118C
+    // Offset: 0xCC4BD0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xCB1184
+    // Offset: 0xCC4BC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OpenVR* New_ctor();
   }; // OVR.OpenVR.OpenVR
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR*, "OVR.OpenVR", "OpenVR");
 #pragma pack(pop)

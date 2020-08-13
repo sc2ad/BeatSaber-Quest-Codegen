@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -26,13 +24,13 @@ namespace System::Net {
     // Set static field: static readonly System.Char[] InvalidParamChars
     static void _set_InvalidParamChars(::Array<::Il2CppChar>* value);
     // static public System.Boolean ValidateTcpPort(System.Int32 port)
-    // Offset: 0x1200C4C
+    // Offset: 0x1213690
     static bool ValidateTcpPort(int port);
     // static private System.Void .cctor()
-    // Offset: 0x12010FC
+    // Offset: 0x1213B40
     static void _cctor();
   }; // System.Net.ValidationHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ValidationHelper*, "System.Net", "ValidationHelper");
 #pragma pack(pop)

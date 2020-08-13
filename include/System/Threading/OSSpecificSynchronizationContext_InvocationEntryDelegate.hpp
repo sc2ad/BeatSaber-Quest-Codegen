@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: System.Threading.OSSpecificSynchronizationContext
 #include "System/Threading/OSSpecificSynchronizationContext.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace System::Threading {
   class OSSpecificSynchronizationContext::InvocationEntryDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13C67E4
+    // Offset: 0x13D7228
     static OSSpecificSynchronizationContext::InvocationEntryDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr arg)
-    // Offset: 0x13C69C8
+    // Offset: 0x13D740C
     void Invoke(System::IntPtr arg);
     // public System.IAsyncResult BeginInvoke(System.IntPtr arg, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13C6C28
+    // Offset: 0x13D766C
     System::IAsyncResult* BeginInvoke(System::IntPtr arg, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x13C6CB4
+    // Offset: 0x13D76F8
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.OSSpecificSynchronizationContext/InvocationEntryDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::InvocationEntryDelegate*, "System.Threading", "OSSpecificSynchronizationContext/InvocationEntryDelegate");
 #pragma pack(pop)

@@ -40,28 +40,28 @@ namespace Zenject {
     // Offset: 0x31
     bool isDestroyed;
     // protected System.Boolean get_IsDestroyed()
-    // Offset: 0xFAC830
+    // Offset: 0xFBF274
     bool get_IsDestroyed();
     // public System.Void Start()
-    // Offset: 0xFAC838
+    // Offset: 0xFBF27C
     void Start();
     // public System.Void Initialize()
-    // Offset: 0xFAC83C
+    // Offset: 0xFBF280
     void Initialize();
     // public System.Void Update()
-    // Offset: 0xFAC870
+    // Offset: 0xFBF2B4
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0xFAC880
+    // Offset: 0xFBF2C4
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0xFAC890
+    // Offset: 0xFBF2D4
     void LateUpdate();
     // public System.Void OnDestroy()
-    // Offset: 0xFAC8A0
+    // Offset: 0xFBF2E4
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0xFAC90C
+    // Offset: 0xFBF350
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -71,6 +71,6 @@ namespace Zenject {
     static MonoKernel* New_ctor();
   }; // Zenject.MonoKernel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoKernel*, "Zenject", "MonoKernel");
 #pragma pack(pop)

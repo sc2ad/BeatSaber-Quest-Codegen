@@ -32,6 +32,6 @@ namespace Valve::VR {
     VROverlayIntersectionResults_t(Valve::VR::HmdVector3_t vPoint_ = {}, Valve::VR::HmdVector3_t vNormal_ = {}, Valve::VR::HmdVector2_t vUVs_ = {}, float fDistance_ = {}) : vPoint{vPoint_}, vNormal{vNormal_}, vUVs{vUVs_}, fDistance{fDistance_} {}
   }; // Valve.VR.VROverlayIntersectionResults_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayIntersectionResults_t, "Valve.VR", "VROverlayIntersectionResults_t");
 #pragma pack(pop)

@@ -68,58 +68,58 @@ namespace GlobalNamespace {
     // Offset: 0x50
     bool stopBlinkingCursor;
     // public System.Void add_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0xC3E298
+    // Offset: 0xC4FCDC
     void add_textDidChangeEvent(System::Action_1<::CsString*>* value);
     // public System.Void remove_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0xC3E33C
+    // Offset: 0xC4FD80
     void remove_textDidChangeEvent(System::Action_1<::CsString*>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC3E3E0
+    // Offset: 0xC4FE24
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC3E484
+    // Offset: 0xC4FEC8
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC3E528
+    // Offset: 0xC4FF6C
     void add_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC3E5CC
+    // Offset: 0xC50010
     void remove_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0xC3E670
+    // Offset: 0xC500B4
     void set_hideCancelButton(bool value);
     // public System.String get_text()
-    // Offset: 0xC3E68C
+    // Offset: 0xC500D0
     ::CsString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0xC3E6A8
+    // Offset: 0xC500EC
     void set_text(::CsString* value);
     // protected System.Void Awake()
-    // Offset: 0xC3E76C
+    // Offset: 0xC501B0
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xC3E8BC
+    // Offset: 0xC50300
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC3E968
+    // Offset: 0xC503AC
     void OnDisable();
     // private System.Collections.IEnumerator BlinkCursor()
-    // Offset: 0xC3E8EC
+    // Offset: 0xC50330
     System::Collections::IEnumerator* BlinkCursor();
     // private System.Void HandleUIKeyboardTextKeyWasPressed(System.Char key)
-    // Offset: 0xC3E9A0
+    // Offset: 0xC503E4
     void HandleUIKeyboardTextKeyWasPressed(::Il2CppChar key);
     // private System.Void HandleUIKeyboardDeleteButtonWasPressed()
-    // Offset: 0xC3EA7C
+    // Offset: 0xC504C0
     void HandleUIKeyboardDeleteButtonWasPressed();
     // private System.Void <Awake>b__20_0()
-    // Offset: 0xC3EB60
+    // Offset: 0xC505A4
     void $Awake$b__20_0();
     // private System.Void <Awake>b__20_1()
-    // Offset: 0xC3EB74
+    // Offset: 0xC505B8
     void $Awake$b__20_1();
     // public System.Void .ctor()
-    // Offset: 0xC3EB50
+    // Offset: 0xC50594
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -129,6 +129,6 @@ namespace GlobalNamespace {
     static VRTextEntryController* New_ctor();
   }; // VRTextEntryController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController*, "", "VRTextEntryController");
 #pragma pack(pop)

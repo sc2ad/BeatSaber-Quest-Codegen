@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
@@ -147,124 +145,124 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool noArrows;
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0xB3E5B8
+    // Offset: 0xB3C5B8
     GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // public System.Void set_energyType(GameplayModifiers/EnergyType value)
-    // Offset: 0xB3E5C0
+    // Offset: 0xB3C5C0
     void set_energyType(GlobalNamespace::GameplayModifiers::EnergyType value);
     // public System.Boolean get_batteryEnergy()
-    // Offset: 0xB3E5C8
+    // Offset: 0xB3C5C8
     bool get_batteryEnergy();
     // public System.Void set_batteryEnergy(System.Boolean value)
-    // Offset: 0xB3E5D8
+    // Offset: 0xB3C5D8
     void set_batteryEnergy(bool value);
     // public System.Boolean get_noFail()
-    // Offset: 0xB3E604
+    // Offset: 0xB3C604
     bool get_noFail();
     // public System.Void set_noFail(System.Boolean value)
-    // Offset: 0xB3E60C
+    // Offset: 0xB3C60C
     void set_noFail(bool value);
     // public System.Boolean get_demoNoFail()
-    // Offset: 0xB3E618
+    // Offset: 0xB3C618
     bool get_demoNoFail();
     // public System.Void set_demoNoFail(System.Boolean value)
-    // Offset: 0xB3E620
+    // Offset: 0xB3C620
     void set_demoNoFail(bool value);
     // public System.Boolean get_instaFail()
-    // Offset: 0xB3E62C
+    // Offset: 0xB3C62C
     bool get_instaFail();
     // public System.Void set_instaFail(System.Boolean value)
-    // Offset: 0xB3E634
+    // Offset: 0xB3C634
     void set_instaFail(bool value);
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0xB3E640
+    // Offset: 0xB3C640
     bool get_failOnSaberClash();
     // public System.Void set_failOnSaberClash(System.Boolean value)
-    // Offset: 0xB3E648
+    // Offset: 0xB3C648
     void set_failOnSaberClash(bool value);
     // public GameplayModifiers/EnabledObstacleType get_enabledObstacleType()
-    // Offset: 0xB3E654
+    // Offset: 0xB3C654
     GlobalNamespace::GameplayModifiers::EnabledObstacleType get_enabledObstacleType();
     // public System.Void set_enabledObstacleType(GameplayModifiers/EnabledObstacleType value)
-    // Offset: 0xB3E65C
+    // Offset: 0xB3C65C
     void set_enabledObstacleType(GlobalNamespace::GameplayModifiers::EnabledObstacleType value);
     // public System.Boolean get_noObstacles()
-    // Offset: 0xB3E664
+    // Offset: 0xB3C664
     bool get_noObstacles();
     // public System.Void set_noObstacles(System.Boolean value)
-    // Offset: 0xB3E674
+    // Offset: 0xB3C674
     void set_noObstacles(bool value);
     // public System.Boolean get_demoNoObstacles()
-    // Offset: 0xB3E698
+    // Offset: 0xB3C698
     bool get_demoNoObstacles();
     // public System.Void set_demoNoObstacles(System.Boolean value)
-    // Offset: 0xB3E6A0
+    // Offset: 0xB3C6A0
     void set_demoNoObstacles(bool value);
     // public System.Boolean get_fastNotes()
-    // Offset: 0xB3E6AC
+    // Offset: 0xB3C6AC
     bool get_fastNotes();
     // public System.Void set_fastNotes(System.Boolean value)
-    // Offset: 0xB3E6B4
+    // Offset: 0xB3C6B4
     void set_fastNotes(bool value);
     // public System.Boolean get_strictAngles()
-    // Offset: 0xB3E6C0
+    // Offset: 0xB3C6C0
     bool get_strictAngles();
     // public System.Void set_strictAngles(System.Boolean value)
-    // Offset: 0xB3E6C8
+    // Offset: 0xB3C6C8
     void set_strictAngles(bool value);
     // public System.Boolean get_disappearingArrows()
-    // Offset: 0xB3E6D4
+    // Offset: 0xB3C6D4
     bool get_disappearingArrows();
     // public System.Void set_disappearingArrows(System.Boolean value)
-    // Offset: 0xB3E6DC
+    // Offset: 0xB3C6DC
     void set_disappearingArrows(bool value);
     // public System.Boolean get_ghostNotes()
-    // Offset: 0xB3E6E8
+    // Offset: 0xB3C6E8
     bool get_ghostNotes();
     // public System.Void set_ghostNotes(System.Boolean value)
-    // Offset: 0xB3E6F0
+    // Offset: 0xB3C6F0
     void set_ghostNotes(bool value);
     // public System.Boolean get_noBombs()
-    // Offset: 0xB3E6FC
+    // Offset: 0xB3C6FC
     bool get_noBombs();
     // public System.Void set_noBombs(System.Boolean value)
-    // Offset: 0xB3E704
+    // Offset: 0xB3C704
     void set_noBombs(bool value);
     // public GameplayModifiers/SongSpeed get_songSpeed()
-    // Offset: 0xB3E710
+    // Offset: 0xB3C710
     GlobalNamespace::GameplayModifiers::SongSpeed get_songSpeed();
     // public System.Void set_songSpeed(GameplayModifiers/SongSpeed value)
-    // Offset: 0xB3E718
+    // Offset: 0xB3C718
     void set_songSpeed(GlobalNamespace::GameplayModifiers::SongSpeed value);
     // public System.Single get_songSpeedMul()
-    // Offset: 0xB3E190
+    // Offset: 0xB3C190
     float get_songSpeedMul();
     // public System.Boolean get_noArrows()
-    // Offset: 0xB3E720
+    // Offset: 0xB3C720
     bool get_noArrows();
     // public System.Void set_noArrows(System.Boolean value)
-    // Offset: 0xB3E728
+    // Offset: 0xB3C728
     void set_noArrows(bool value);
     // static public GameplayModifiers get_defaultModifiers()
-    // Offset: 0xB3E734
+    // Offset: 0xB3C734
     static GlobalNamespace::GameplayModifiers* get_defaultModifiers();
     // public System.Void .ctor(GameplayModifiers gameplayModifiers)
-    // Offset: 0xB3E828
+    // Offset: 0xB3C828
     static GameplayModifiers* New_ctor(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void ResetToDefault()
-    // Offset: 0xB3E80C
+    // Offset: 0xB3C80C
     void ResetToDefault();
     // public System.Boolean IsWithoutModifiers()
-    // Offset: 0xB3E8C4
+    // Offset: 0xB3C8C4
     bool IsWithoutModifiers();
     // public System.Void .ctor()
-    // Offset: 0xB3E7D0
+    // Offset: 0xB3C7D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameplayModifiers* New_ctor();
   }; // GameplayModifiers
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers*, "", "GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnabledObstacleType, "", "GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnergyType, "", "GameplayModifiers/EnergyType");

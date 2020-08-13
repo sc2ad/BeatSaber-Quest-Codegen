@@ -17,45 +17,45 @@ namespace System::IO {
     // Offset: 0x18
     System::IO::TextReader* in;
     // System.Void .ctor(System.IO.TextReader t)
-    // Offset: 0xFF7770
+    // Offset: 0x10071B4
     static TextReader::SyncTextReader* New_ctor(System::IO::TextReader* t);
     // public override System.Void Close()
-    // Offset: 0xFF7B6C
+    // Offset: 0x10075B0
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xFF7B8C
+    // Offset: 0x10075D0
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0xFF7C5C
+    // Offset: 0x10076A0
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0xFF7C7C
+    // Offset: 0x10076C0
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF7C9C
+    // Offset: 0x10076E0
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0xFF7CBC
+    // Offset: 0x1007700
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::CsString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0xFF7CE0
+    // Offset: 0x1007724
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
     ::CsString* ReadToEnd();
   }; // System.IO.TextReader/SyncTextReader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");
 #pragma pack(pop)

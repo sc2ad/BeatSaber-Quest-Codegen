@@ -43,22 +43,22 @@ namespace UnityEngine {
     // Creating value type constructor for type: RaycastHit2D
     RaycastHit2D(UnityEngine::Vector2 m_Centroid_ = {}, UnityEngine::Vector2 m_Point_ = {}, UnityEngine::Vector2 m_Normal_ = {}, float m_Distance_ = {}, float m_Fraction_ = {}, int m_Collider_ = {}) : m_Centroid{m_Centroid_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_Distance{m_Distance_}, m_Fraction{m_Fraction_}, m_Collider{m_Collider_} {}
     // public UnityEngine.Vector2 get_point()
-    // Offset: 0xA5C860
+    // Offset: 0xA5C8DC
     UnityEngine::Vector2 get_point();
     // public UnityEngine.Vector2 get_normal()
-    // Offset: 0xA5C868
+    // Offset: 0xA5C8E4
     UnityEngine::Vector2 get_normal();
     // public System.Single get_distance()
-    // Offset: 0xA5C870
+    // Offset: 0xA5C8EC
     float get_distance();
     // public System.Single get_fraction()
-    // Offset: 0xA5C878
+    // Offset: 0xA5C8F4
     float get_fraction();
     // public UnityEngine.Collider2D get_collider()
-    // Offset: 0xA5C880
+    // Offset: 0xA5C8FC
     UnityEngine::Collider2D* get_collider();
   }; // UnityEngine.RaycastHit2D
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
 #pragma pack(pop)

@@ -38,6 +38,6 @@ namespace UnityEngine::Rendering {
     ShadowSamplingMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Rendering.ShadowSamplingMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShadowSamplingMode, "UnityEngine.Rendering", "ShadowSamplingMode");
 #pragma pack(pop)

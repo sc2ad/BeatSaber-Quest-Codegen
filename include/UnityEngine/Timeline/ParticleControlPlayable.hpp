@@ -53,43 +53,43 @@ namespace UnityEngine::Timeline {
     // Offset: 0x20
     UnityEngine::ParticleSystem* particleSystem;
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.ParticleControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.ParticleSystem component, System.UInt32 randomSeed)
-    // Offset: 0x10822C0
+    // Offset: 0x1091D04
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ParticleControlPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::ParticleSystem* component, uint randomSeed);
     // public UnityEngine.ParticleSystem get_particleSystem()
-    // Offset: 0x108778C
+    // Offset: 0x10971D0
     UnityEngine::ParticleSystem* get_particleSystem();
     // private System.Void set_particleSystem(UnityEngine.ParticleSystem value)
-    // Offset: 0x1087794
+    // Offset: 0x10971D8
     void set_particleSystem(UnityEngine::ParticleSystem* value);
     // public System.Void Initialize(UnityEngine.ParticleSystem ps, System.UInt32 randomSeed)
-    // Offset: 0x10876F0
+    // Offset: 0x1097134
     void Initialize(UnityEngine::ParticleSystem* ps, uint randomSeed);
     // private System.Void SetRandomSeed()
-    // Offset: 0x108779C
+    // Offset: 0x10971E0
     void SetRandomSeed();
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData data)
-    // Offset: 0x10878A4
+    // Offset: 0x10972E8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData data)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData data);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1087C10
+    // Offset: 0x1097654
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1087C1C
+    // Offset: 0x1097660
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void .ctor()
-    // Offset: 0x1087C28
+    // Offset: 0x109766C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
     static ParticleControlPlayable* New_ctor();
   }; // UnityEngine.Timeline.ParticleControlPlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ParticleControlPlayable*, "UnityEngine.Timeline", "ParticleControlPlayable");
 #pragma pack(pop)

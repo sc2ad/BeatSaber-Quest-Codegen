@@ -14,12 +14,12 @@ namespace GlobalNamespace {
   class ScoreObjectiveValueFormatterSO : public GlobalNamespace::ObjectiveValueFormatterSO {
     public:
     // public override System.String FormatValue(System.Int32 value)
-    // Offset: 0xC17A1C
+    // Offset: 0xC29460
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
     ::CsString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0xC17A80
+    // Offset: 0xC294C4
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.Void ObjectiveValueFormatterSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -29,6 +29,6 @@ namespace GlobalNamespace {
     static ScoreObjectiveValueFormatterSO* New_ctor();
   }; // ScoreObjectiveValueFormatterSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreObjectiveValueFormatterSO*, "", "ScoreObjectiveValueFormatterSO");
 #pragma pack(pop)

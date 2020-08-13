@@ -27,15 +27,15 @@ namespace RootMotion::FinalIK {
     // Offset: 0x38
     ::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* limits;
     // public System.Void ResetBodies()
-    // Offset: 0x1431C80
+    // Offset: 0x14416C4
     void ResetBodies();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1431DD4
+    // Offset: 0x1441818
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1432208
+    // Offset: 0x1441C4C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -46,6 +46,6 @@ namespace RootMotion::FinalIK {
     static Inertia* New_ctor();
   }; // RootMotion.FinalIK.Inertia
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia*, "RootMotion.FinalIK", "Inertia");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -34,45 +32,45 @@ namespace System::Text {
     // Offset: 0x18
     System::Text::EncoderFallbackBuffer* m_fallbackBuffer;
     // System.Void SerializeEncoder(System.Runtime.Serialization.SerializationInfo info)
-    // Offset: 0x12D74BC
+    // Offset: 0x12E8F00
     void SerializeEncoder(System::Runtime::Serialization::SerializationInfo* info);
     // public System.Text.EncoderFallback get_Fallback()
-    // Offset: 0x12D7530
+    // Offset: 0x12E8F74
     System::Text::EncoderFallback* get_Fallback();
     // public System.Text.EncoderFallbackBuffer get_FallbackBuffer()
-    // Offset: 0x12D4644
+    // Offset: 0x12E6088
     System::Text::EncoderFallbackBuffer* get_FallbackBuffer();
     // System.Boolean get_InternalHasFallbackBuffer()
-    // Offset: 0x12D4634
+    // Offset: 0x12E6078
     bool get_InternalHasFallbackBuffer();
     // public System.Void Reset()
-    // Offset: 0x12D7538
+    // Offset: 0x12E8F7C
     void Reset();
     // public System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count, System.Boolean flush)
     // Offset: 0xFFFFFFFF
     int GetByteCount(::Array<::Il2CppChar>* chars, int index, int count, bool flush);
     // public System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Boolean flush)
-    // Offset: 0x12D760C
+    // Offset: 0x12E9050
     int GetByteCount(::Il2CppChar* chars, int count, bool flush);
     // public System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Boolean flush)
     // Offset: 0xFFFFFFFF
     int GetBytes(::Array<::Il2CppChar>* chars, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex, bool flush);
     // public System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
-    // Offset: 0x12D778C
+    // Offset: 0x12E91D0
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush);
     // public System.Void Convert(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Boolean flush, System.Int32 charsUsed, System.Int32 bytesUsed, System.Boolean completed)
-    // Offset: 0x12D79B8
+    // Offset: 0x12E93FC
     void Convert(::Array<::Il2CppChar>* chars, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex, int byteCount, bool flush, int& charsUsed, int& bytesUsed, bool& completed);
     // public System.Void Convert(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush, System.Int32 charsUsed, System.Int32 bytesUsed, System.Boolean completed)
-    // Offset: 0x12D7D0C
+    // Offset: 0x12E9750
     void Convert(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush, int& charsUsed, int& bytesUsed, bool& completed);
     // protected System.Void .ctor()
-    // Offset: 0x12D7528
+    // Offset: 0x12E8F6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Encoder* New_ctor();
   }; // System.Text.Encoder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoder*, "System.Text", "Encoder");
 #pragma pack(pop)

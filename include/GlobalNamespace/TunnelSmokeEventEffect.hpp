@@ -61,16 +61,16 @@ namespace GlobalNamespace {
     // Offset: 0x40
     ::Array<UnityEngine::ParticleSystem::Particle>* particles;
     // protected System.Void Start()
-    // Offset: 0xC32DA4
+    // Offset: 0xC447E8
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xC32EA0
+    // Offset: 0xC448E4
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xC32F78
+    // Offset: 0xC449BC
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xC33158
+    // Offset: 0xC44B9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -80,6 +80,6 @@ namespace GlobalNamespace {
     static TunnelSmokeEventEffect* New_ctor();
   }; // TunnelSmokeEventEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TunnelSmokeEventEffect*, "", "TunnelSmokeEventEffect");
 #pragma pack(pop)

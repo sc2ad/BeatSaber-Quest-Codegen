@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class ImageWithHintItemsList : public HMUI::UIItemsList_1<HMUI::ImageWithHint*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB44460
+    // Offset: 0xB42460
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList`1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -32,6 +32,6 @@ namespace GlobalNamespace {
     static ImageWithHintItemsList* New_ctor();
   }; // ImageWithHintItemsList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageWithHintItemsList*, "", "ImageWithHintItemsList");
 #pragma pack(pop)

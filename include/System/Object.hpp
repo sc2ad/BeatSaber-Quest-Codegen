@@ -22,43 +22,43 @@ namespace System {
   class Object {
     public:
     // public System.Boolean Equals(System.Object obj)
-    // Offset: 0x1346F5C
+    // Offset: 0x13599A0
     bool Equals(::CsObject* obj);
     // static public System.Boolean Equals(System.Object objA, System.Object objB)
-    // Offset: 0x1346F68
+    // Offset: 0x13599AC
     static bool Equals(::CsObject* objA, ::CsObject* objB);
     // public System.Void .ctor()
-    // Offset: 0x1342478
+    // Offset: 0x1354EBC
     static ::CsObject* New_ctor();
     // protected System.Void Finalize()
-    // Offset: 0x1346F94
+    // Offset: 0x13599D8
     void Finalize();
     // public System.Int32 GetHashCode()
-    // Offset: 0x1346F98
+    // Offset: 0x13599DC
     int GetHashCode();
     // public System.Type GetType()
-    // Offset: 0x1346FA0
+    // Offset: 0x13599E4
     System::Type* GetType();
     // protected System.Object MemberwiseClone()
-    // Offset: 0x1346F44
+    // Offset: 0x1359988
     ::CsObject* MemberwiseClone();
     // public System.String ToString()
-    // Offset: 0x1346FA4
+    // Offset: 0x13599E8
     ::CsString* ToString();
     // static public System.Boolean ReferenceEquals(System.Object objA, System.Object objB)
-    // Offset: 0x1346FC8
+    // Offset: 0x1359A0C
     static bool ReferenceEquals(::CsObject* objA, ::CsObject* objB);
     // static System.Int32 InternalGetHashCode(System.Object o)
-    // Offset: 0x1346F9C
+    // Offset: 0x13599E0
     static int InternalGetHashCode(::CsObject* o);
     // private System.Void FieldGetter(System.String typeName, System.String fieldName, System.Object val)
-    // Offset: 0x1346FD4
+    // Offset: 0x1359A18
     void FieldGetter(::CsString* typeName, ::CsString* fieldName, ::CsObject*& val);
     // private System.Void FieldSetter(System.String typeName, System.String fieldName, System.Object val)
-    // Offset: 0x1346FD8
+    // Offset: 0x1359A1C
     void FieldSetter(::CsString* typeName, ::CsString* fieldName, ::CsObject* val);
   }; // System.Object
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Object*, "System", "Object");
 #pragma pack(pop)

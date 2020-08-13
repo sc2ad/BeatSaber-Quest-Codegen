@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UserLoginDtoDataSource/<GetUserAuthToken>d__7
 #include "GlobalNamespace/UserLoginDtoDataSource_-GetUserAuthToken-d__7.hpp"
 // Including type: PlatformTokenInfo

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMAutoincrementedRequestId
 #include "GlobalNamespace/HMAutoincrementedRequestId.hpp"
 // Completed includes
@@ -26,25 +27,25 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::HMAsyncRequest::CancelHander* cancelHander;
     // public HMAsyncRequest/CancelHander get_CancelHandler()
-    // Offset: 0xCA0328
+    // Offset: 0xCB2D6C
     GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();
     // public System.Void set_CancelHandler(HMAsyncRequest/CancelHander value)
-    // Offset: 0xCA0330
+    // Offset: 0xCB2D74
     void set_CancelHandler(GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public System.Boolean get_cancelled()
-    // Offset: 0xCA0338
+    // Offset: 0xCB2D7C
     bool get_cancelled();
     // public System.Void Cancel()
-    // Offset: 0xCA0340
+    // Offset: 0xCB2D84
     void Cancel();
     // public System.Void .ctor()
-    // Offset: 0xCA0714
+    // Offset: 0xCB3158
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()
     static HMAsyncRequest* New_ctor();
   }; // HMAsyncRequest
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest*, "", "HMAsyncRequest");
 #pragma pack(pop)

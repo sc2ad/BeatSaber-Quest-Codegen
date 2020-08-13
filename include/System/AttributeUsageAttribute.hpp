@@ -29,25 +29,25 @@ namespace System {
     // Set static field: static System.AttributeUsageAttribute Default
     static void _set_Default(System::AttributeUsageAttribute* value);
     // public System.Void .ctor(System.AttributeTargets validOn)
-    // Offset: 0x1316858
+    // Offset: 0x132A29C
     static AttributeUsageAttribute* New_ctor(System::AttributeTargets validOn);
     // public System.Boolean get_AllowMultiple()
-    // Offset: 0x1316894
+    // Offset: 0x132A2D8
     bool get_AllowMultiple();
     // public System.Void set_AllowMultiple(System.Boolean value)
-    // Offset: 0x131689C
+    // Offset: 0x132A2E0
     void set_AllowMultiple(bool value);
     // public System.Boolean get_Inherited()
-    // Offset: 0x13168A8
+    // Offset: 0x132A2EC
     bool get_Inherited();
     // public System.Void set_Inherited(System.Boolean value)
-    // Offset: 0x13168B0
+    // Offset: 0x132A2F4
     void set_Inherited(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x13168BC
+    // Offset: 0x132A300
     static void _cctor();
   }; // System.AttributeUsageAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::AttributeUsageAttribute*, "System", "AttributeUsageAttribute");
 #pragma pack(pop)

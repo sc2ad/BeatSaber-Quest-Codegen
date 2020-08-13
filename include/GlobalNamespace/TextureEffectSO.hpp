@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class TextureEffectSO : public GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1817150
+    // Offset: 0x1827B94
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x180D7A4
+    // Offset: 0x181E1E8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -33,6 +33,6 @@ namespace GlobalNamespace {
     static TextureEffectSO* New_ctor();
   }; // TextureEffectSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextureEffectSO*, "", "TextureEffectSO");
 #pragma pack(pop)

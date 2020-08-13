@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Guid
 #include "System/Guid.hpp"
 // Completed includes
@@ -23,6 +21,6 @@ namespace System::Globalization {
     System::Guid m_SortId;
   }; // System.Globalization.SortVersion
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortVersion*, "System.Globalization", "SortVersion");
 #pragma pack(pop)

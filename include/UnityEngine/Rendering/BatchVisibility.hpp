@@ -25,6 +25,6 @@ namespace UnityEngine::Rendering {
     BatchVisibility(int offset_ = {}, int instancesCount_ = {}, int visibleCount_ = {}) : offset{offset_}, instancesCount{instancesCount_}, visibleCount{visibleCount_} {}
   }; // UnityEngine.Rendering.BatchVisibility
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchVisibility, "UnityEngine.Rendering", "BatchVisibility");
 #pragma pack(pop)

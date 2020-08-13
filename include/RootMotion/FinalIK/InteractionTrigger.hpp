@@ -35,28 +35,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::InteractionTrigger::Range*>* ranges;
     // private System.Void OpenUserManual()
-    // Offset: 0x1217AF8
+    // Offset: 0x122953C
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x1217B44
+    // Offset: 0x1229588
     void OpenScriptReference();
     // private System.Void OpenTutorial4()
-    // Offset: 0x1217B90
+    // Offset: 0x12295D4
     void OpenTutorial4();
     // private System.Void SupportGroup()
-    // Offset: 0x1217BDC
+    // Offset: 0x1229620
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1217C28
+    // Offset: 0x122966C
     void ASThread();
     // private System.Void Start()
-    // Offset: 0x1217C74
+    // Offset: 0x12296B8
     void Start();
     // public System.Int32 GetBestRangeIndex(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit)
-    // Offset: 0x1217C78
+    // Offset: 0x12296BC
     int GetBestRangeIndex(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit);
     // public System.Void .ctor()
-    // Offset: 0x121800C
+    // Offset: 0x1229A50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace RootMotion::FinalIK {
     static InteractionTrigger* New_ctor();
   }; // RootMotion.FinalIK.InteractionTrigger
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger*, "RootMotion.FinalIK", "InteractionTrigger");
 #pragma pack(pop)

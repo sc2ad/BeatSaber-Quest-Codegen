@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Configuration.ConfigurationSection
 #include "System/Configuration/ConfigurationSection.hpp"
 // Completed includes
@@ -20,17 +21,17 @@ namespace System::Net::Configuration {
   class ConnectionManagementSection : public System::Configuration::ConfigurationSection {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF54E18
+    // Offset: 0xF6685C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectionManagementSection* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0xF54E58
+    // Offset: 0xF6689C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
   }; // System.Net.Configuration.ConnectionManagementSection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::ConnectionManagementSection*, "System.Net.Configuration", "ConnectionManagementSection");
 #pragma pack(pop)

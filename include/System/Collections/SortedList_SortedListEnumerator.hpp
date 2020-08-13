@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Collections.SortedList
 #include "System/Collections/SortedList.hpp"
 // Including type: System.Collections.IDictionaryEnumerator
@@ -52,15 +50,15 @@ namespace System::Collections {
     // Offset: 0x3C
     int getObjectRetType;
     // System.Void .ctor(System.Collections.SortedList sortedList, System.Int32 index, System.Int32 count, System.Int32 getObjRetType)
-    // Offset: 0x10AB71C
+    // Offset: 0x10BC160
     static SortedList::SortedListEnumerator* New_ctor(System::Collections::SortedList* sortedList, int index, int count, int getObjRetType);
     // public System.Object Clone()
-    // Offset: 0x10AC448
+    // Offset: 0x10BCE8C
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::CsObject* Clone();
     // public System.Object get_Key()
-    // Offset: 0x10AC450
+    // Offset: 0x10BCE94
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Object IDictionaryEnumerator::get_Key()
     ::CsObject* get_Key();
@@ -68,12 +66,12 @@ namespace System::Collections {
     // Maps to method: get_Key
     ::CsObject* System_Collections_IDictionaryEnumerator_get_Key();
     // public System.Boolean MoveNext()
-    // Offset: 0x10AC514
+    // Offset: 0x10BCF58
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x10AC67C
+    // Offset: 0x10BD0C0
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Collections.DictionaryEntry IDictionaryEnumerator::get_Entry()
     System::Collections::DictionaryEntry get_Entry();
@@ -81,7 +79,7 @@ namespace System::Collections {
     // Maps to method: get_Entry
     System::Collections::DictionaryEntry System_Collections_IDictionaryEnumerator_get_Entry();
     // public System.Object get_Current()
-    // Offset: 0x10AC75C
+    // Offset: 0x10BD1A0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* get_Current();
@@ -89,7 +87,7 @@ namespace System::Collections {
     // Maps to method: get_Current
     ::CsObject* System_Collections_IEnumerator_get_Current();
     // public System.Object get_Value()
-    // Offset: 0x10AC850
+    // Offset: 0x10BD294
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Object IDictionaryEnumerator::get_Value()
     ::CsObject* get_Value();
@@ -97,7 +95,7 @@ namespace System::Collections {
     // Maps to method: get_Value
     ::CsObject* System_Collections_IDictionaryEnumerator_get_Value();
     // public System.Void Reset()
-    // Offset: 0x10AC914
+    // Offset: 0x10BD358
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -106,6 +104,6 @@ namespace System::Collections {
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.SortedList/SortedListEnumerator
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SortedListEnumerator*, "System.Collections", "SortedList/SortedListEnumerator");
 #pragma pack(pop)

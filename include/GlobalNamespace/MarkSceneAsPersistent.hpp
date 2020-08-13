@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected System.Void Awake()
-    // Offset: 0xCA2A80
+    // Offset: 0xCB54C4
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xCA2AD8
+    // Offset: 0xCB551C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -37,6 +37,6 @@ namespace GlobalNamespace {
     static MarkSceneAsPersistent* New_ctor();
   }; // MarkSceneAsPersistent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkSceneAsPersistent*, "", "MarkSceneAsPersistent");
 #pragma pack(pop)

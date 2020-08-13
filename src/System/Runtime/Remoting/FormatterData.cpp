@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Remoting.FormatterData
 #include "System/Runtime/Remoting/FormatterData.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

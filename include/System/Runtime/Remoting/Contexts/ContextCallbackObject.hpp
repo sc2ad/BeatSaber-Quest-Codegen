@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ContextBoundObject
 #include "System/ContextBoundObject.hpp"
 // Completed includes
@@ -20,10 +21,10 @@ namespace System::Runtime::Remoting::Contexts {
   class ContextCallbackObject : public System::ContextBoundObject {
     public:
     // public System.Void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate deleg)
-    // Offset: 0x104A1BC
+    // Offset: 0x1059C00
     void DoCallBack(System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
     // public System.Void .ctor()
-    // Offset: 0x104A1B4
+    // Offset: 0x1059BF8
     // Implemented from: System.ContextBoundObject
     // Base method: System.Void ContextBoundObject::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -31,6 +32,6 @@ namespace System::Runtime::Remoting::Contexts {
     static ContextCallbackObject* New_ctor();
   }; // System.Runtime.Remoting.Contexts.ContextCallbackObject
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::ContextCallbackObject*, "System.Runtime.Remoting.Contexts", "ContextCallbackObject");
 #pragma pack(pop)

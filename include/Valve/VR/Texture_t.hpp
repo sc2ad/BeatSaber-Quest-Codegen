@@ -32,6 +32,6 @@ namespace Valve::VR {
     Texture_t(System::IntPtr handle_ = {}, Valve::VR::ETextureType eType_ = {}, Valve::VR::EColorSpace eColorSpace_ = {}) : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
   }; // Valve.VR.Texture_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Texture_t, "Valve.VR", "Texture_t");
 #pragma pack(pop)

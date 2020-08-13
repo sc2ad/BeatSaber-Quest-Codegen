@@ -35,23 +35,23 @@ namespace System::Reflection {
     // Offset: 0x90
     ::Array<System::Exception*>* exceptions;
     // public System.Void .ctor(System.Type[] classes, System.Exception[] exceptions)
-    // Offset: 0x1140320
+    // Offset: 0x1151D64
     static ReflectionTypeLoadException* New_ctor(::Array<System::Type*>* classes, ::Array<System::Exception*>* exceptions);
     // private System.Void .ctor()
-    // Offset: 0x11402AC
+    // Offset: 0x1151CF0
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static ReflectionTypeLoadException* New_ctor();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1140388
+    // Offset: 0x1151DCC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ReflectionTypeLoadException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1140504
+    // Offset: 0x1151F48
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -60,6 +60,6 @@ namespace System::Reflection {
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.ReflectionTypeLoadException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ReflectionTypeLoadException*, "System.Reflection", "ReflectionTypeLoadException");
 #pragma pack(pop)

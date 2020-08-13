@@ -38,16 +38,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float delay;
     // protected System.Void Awake()
-    // Offset: 0x196EB20
+    // Offset: 0xB86E1C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x196EB40
+    // Offset: 0xB86E3C
     void Update();
     // public System.Void PlayAudioClipWithDelay(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0x196EC6C
+    // Offset: 0xB86F68
     void PlayAudioClipWithDelay(UnityEngine::AudioClip* audioClip, float delay);
     // public System.Void .ctor()
-    // Offset: 0x196ED28
+    // Offset: 0xB87024
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,6 +57,6 @@ namespace GlobalNamespace {
     static AudioClipQueue* New_ctor();
   }; // AudioClipQueue
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipQueue*, "", "AudioClipQueue");
 #pragma pack(pop)

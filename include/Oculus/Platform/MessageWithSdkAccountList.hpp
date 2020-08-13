@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithSdkAccountList : public Oculus::Platform::Message_1<Oculus::Platform::Models::SdkAccountList*> {
     public:
     // protected Oculus.Platform.Models.SdkAccountList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE91DCC
+    // Offset: 0xEA4810
     Oculus::Platform::Models::SdkAccountList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE88E00
+    // Offset: 0xE9B844
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithSdkAccountList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.SdkAccountList GetSdkAccountList()
-    // Offset: 0xE91D88
+    // Offset: 0xEA47CC
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.SdkAccountList Message::GetSdkAccountList()
     Oculus::Platform::Models::SdkAccountList* GetSdkAccountList();
   }; // Oculus.Platform.MessageWithSdkAccountList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithSdkAccountList*, "Oculus.Platform", "MessageWithSdkAccountList");
 #pragma pack(pop)

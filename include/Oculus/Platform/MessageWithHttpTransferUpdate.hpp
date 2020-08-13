@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithHttpTransferUpdate : public Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*> {
     public:
     // protected Oculus.Platform.Models.HttpTransferUpdate GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE8C960
+    // Offset: 0xE9F3A4
     Oculus::Platform::Models::HttpTransferUpdate* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE89220
+    // Offset: 0xE9BC64
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithHttpTransferUpdate* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.HttpTransferUpdate GetHttpTransferUpdate()
-    // Offset: 0xE8C91C
+    // Offset: 0xE9F360
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.HttpTransferUpdate Message::GetHttpTransferUpdate()
     Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
   }; // Oculus.Platform.MessageWithHttpTransferUpdate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithHttpTransferUpdate*, "Oculus.Platform", "MessageWithHttpTransferUpdate");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.SelectionPickerRenderer
 #include "UnityEngine/ProBuilder/SelectionPickerRenderer.hpp"
 // Completed includes
@@ -34,15 +32,15 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     ::Array<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices;
     // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
-    // Offset: 0x1030480
+    // Offset: 0x103FEC4
     int $PickVerticesInRect$b__0(int x);
     // public System.Void .ctor()
-    // Offset: 0x102E030
+    // Offset: 0x103DA74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectionPickerRenderer::$$c__DisplayClass15_0* New_ctor();
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/<>c__DisplayClass15_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass15_0*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c__DisplayClass15_0");
 #pragma pack(pop)

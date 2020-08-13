@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -69,39 +67,39 @@ namespace System {
     // Offset: 0x30
     int64_t m_CookieGenerator;
     // public System.LocalDataStoreHolder CreateLocalDataStore()
-    // Offset: 0xFFEFA4
+    // Offset: 0x100E9E8
     System::LocalDataStoreHolder* CreateLocalDataStore();
     // public System.Void DeleteLocalDataStore(System.LocalDataStore store)
-    // Offset: 0xFFE7CC
+    // Offset: 0x100E210
     void DeleteLocalDataStore(System::LocalDataStore* store);
     // public System.LocalDataStoreSlot AllocateDataSlot()
-    // Offset: 0xFFF0E8
+    // Offset: 0x100EB2C
     System::LocalDataStoreSlot* AllocateDataSlot();
     // public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
-    // Offset: 0xFFF374
+    // Offset: 0x100EDB8
     System::LocalDataStoreSlot* AllocateNamedDataSlot(::CsString* name);
     // public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
-    // Offset: 0xFFF478
+    // Offset: 0x100EEBC
     System::LocalDataStoreSlot* GetNamedDataSlot(::CsString* name);
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0xFFF5A0
+    // Offset: 0x100EFE4
     void FreeNamedDataSlot(::CsString* name);
     // System.Void FreeDataSlot(System.Int32 slot, System.Int64 cookie)
-    // Offset: 0xFFF680
+    // Offset: 0x100F0C4
     void FreeDataSlot(int slot, int64_t cookie);
     // public System.Void ValidateSlot(System.LocalDataStoreSlot slot)
-    // Offset: 0xFFE9B4
+    // Offset: 0x100E3F8
     void ValidateSlot(System::LocalDataStoreSlot* slot);
     // System.Int32 GetSlotTableLength()
-    // Offset: 0xFFEE98
+    // Offset: 0x100E8DC
     int GetSlotTableLength();
     // public System.Void .ctor()
-    // Offset: 0xFFF7FC
+    // Offset: 0x100F240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalDataStoreMgr* New_ctor();
   }; // System.LocalDataStoreMgr
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreMgr*, "System", "LocalDataStoreMgr");
 #pragma pack(pop)

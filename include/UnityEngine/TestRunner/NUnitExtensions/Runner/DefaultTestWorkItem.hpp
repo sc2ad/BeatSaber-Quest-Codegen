@@ -44,15 +44,15 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x58
     NUnit::Framework::Internal::Commands::TestCommand* command;
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0xE1D98C
+    // Offset: 0xE303D0
     static DefaultTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter);
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0xE1D9D8
+    // Offset: 0xE3041C
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "DefaultTestWorkItem");
 #pragma pack(pop)

@@ -61,19 +61,19 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: PlayableBinding
     PlayableBinding(::CsString* m_StreamName_ = {}, UnityEngine::Object* m_SourceObject_ = {}, System::Type* m_SourceBindingType_ = {}, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod_ = {}) : m_StreamName{m_StreamName_}, m_SourceObject{m_SourceObject_}, m_SourceBindingType{m_SourceBindingType_}, m_CreateOutputMethod{m_CreateOutputMethod_} {}
     // public UnityEngine.Object get_sourceObject()
-    // Offset: 0xA44F04
+    // Offset: 0xA44F80
     UnityEngine::Object* get_sourceObject();
     // UnityEngine.Playables.PlayableOutput CreateOutput(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0xA44F0C
+    // Offset: 0xA44F88
     UnityEngine::Playables::PlayableOutput CreateOutput(UnityEngine::Playables::PlayableGraph graph);
     // static UnityEngine.Playables.PlayableBinding CreateInternal(System.String name, UnityEngine.Object sourceObject, System.Type sourceType, UnityEngine.Playables.PlayableBinding/CreateOutputMethod createFunction)
-    // Offset: 0x1400F3C
+    // Offset: 0x1411980
     static UnityEngine::Playables::PlayableBinding CreateInternal(::CsString* name, UnityEngine::Object* sourceObject, System::Type* sourceType, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
     // static private System.Void .cctor()
-    // Offset: 0x1400FD4
+    // Offset: 0x1411A18
     static void _cctor();
   }; // UnityEngine.Playables.PlayableBinding
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding, "UnityEngine.Playables", "PlayableBinding");
 #pragma pack(pop)

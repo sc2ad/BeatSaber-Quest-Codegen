@@ -119,31 +119,31 @@ namespace GlobalNamespace {
     // Offset: 0xF0
     GlobalNamespace::MissionNodesManager* missionNodesManager;
     // protected System.Void Start()
-    // Offset: 0x1967F00
+    // Offset: 0xB801FC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x196811C
+    // Offset: 0xB80418
     void OnDestroy();
     // private System.Void HandleSoloFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x19682BC
+    // Offset: 0xB805B8
     void HandleSoloFreePlayOverallStatsDataDidUpdate(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // private System.Void HandlePartyFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1968D8C
+    // Offset: 0xB81088
     void HandlePartyFreePlayOverallStatsDataDidUpdate(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void HandleCampaignOverallStatsDataDidUpdate(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
-    // Offset: 0x1968D9C
+    // Offset: 0xB81098
     void HandleCampaignOverallStatsDataDidUpdate(GlobalNamespace::MissionCompletionResults* missionCompletionResults, GlobalNamespace::MissionNode* missionNode);
     // private System.Void ProcessMissionFinishData(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x1968E18
+    // Offset: 0xB81114
     void ProcessMissionFinishData(GlobalNamespace::MissionNode* missionNode, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void ProcessSoloFreePlayLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x19689A8
+    // Offset: 0xB80CA4
     void ProcessSoloFreePlayLevelFinishData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void ProcessLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1968300
+    // Offset: 0xB805FC
     void ProcessLevelFinishData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1969298
+    // Offset: 0xB81594
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -153,6 +153,6 @@ namespace GlobalNamespace {
     static AchievementsEvaluationHandler* New_ctor();
   }; // AchievementsEvaluationHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsEvaluationHandler*, "", "AchievementsEvaluationHandler");
 #pragma pack(pop)

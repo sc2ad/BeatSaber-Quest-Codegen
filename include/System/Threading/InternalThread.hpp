@@ -137,21 +137,21 @@ namespace System::Threading {
     // Offset: 0x118
     System::IntPtr last;
     // private System.Void Thread_free_internal()
-    // Offset: 0x13C4A50
+    // Offset: 0x13D5494
     void Thread_free_internal();
     // protected override System.Void Finalize()
-    // Offset: 0x13C4A54
+    // Offset: 0x13D5498
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();
     // public System.Void .ctor()
-    // Offset: 0x13C4ABC
+    // Offset: 0x13D5500
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static InternalThread* New_ctor();
   }; // System.Threading.InternalThread
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread*, "System.Threading", "InternalThread");
 #pragma pack(pop)

@@ -66,29 +66,29 @@ namespace HMUI {
     // Offset: 0xC0
     UnityEngine::Color selectedHighlightBGColor;
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0xECCC28
+    // Offset: 0xEDF66C
     void set_sprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0xECCCD8
+    // Offset: 0xEDF71C
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
-    // Offset: 0xECCC44
+    // Offset: 0xEDF688
     void set_hintText(::CsString* value);
     // private System.Void RefreshVisuals()
-    // Offset: 0xECCCF8
+    // Offset: 0xEDF73C
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0xECCCF4
+    // Offset: 0xEDF738
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0xECCE04
+    // Offset: 0xEDF848
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xECCE08
+    // Offset: 0xEDF84C
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -100,6 +100,6 @@ namespace HMUI {
     static IconSegmentedControlCell* New_ctor();
   }; // HMUI.IconSegmentedControlCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");
 #pragma pack(pop)

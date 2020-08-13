@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: LeaderboardScoreUploader
 #include "GlobalNamespace/LeaderboardScoreUploader.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Including type: PlatformLeaderboardsModel
 #include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 // Completed includes
@@ -33,19 +33,19 @@ namespace GlobalNamespace {
   class LeaderboardScoreUploader::UploadScoreCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xB46DD8
+    // Offset: 0xB44DD8
     static LeaderboardScoreUploader::UploadScoreCallback* New_ctor(::CsObject* object, System::IntPtr method);
     // public HMAsyncRequest Invoke(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0xB467F8
+    // Offset: 0xB447F8
     GlobalNamespace::HMAsyncRequest* Invoke(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
     // public System.IAsyncResult BeginInvoke(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xB46DEC
+    // Offset: 0xB44DEC
     System::IAsyncResult* BeginInvoke(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler, System::AsyncCallback* callback, ::CsObject* object);
     // public HMAsyncRequest EndInvoke(System.IAsyncResult result)
-    // Offset: 0xB46E1C
+    // Offset: 0xB44E1C
     GlobalNamespace::HMAsyncRequest* EndInvoke(System::IAsyncResult* result);
   }; // LeaderboardScoreUploader/UploadScoreCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*, "", "LeaderboardScoreUploader/UploadScoreCallback");
 #pragma pack(pop)

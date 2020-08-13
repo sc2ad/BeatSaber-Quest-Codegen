@@ -88,25 +88,25 @@ namespace GlobalNamespace {
     // Offset: 0x4C
     float StereoIpdMm;
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
-    // Offset: 0xD7BDB8
+    // Offset: 0xD8F7FC
     void SetTextureByIndex(int i, UnityEngine::Texture* t);
     // public UnityEngine.Texture GetTextureByIndex(System.Int32 i)
-    // Offset: 0xD7BE24
+    // Offset: 0xD8F868
     UnityEngine::Texture* GetTextureByIndex(int i);
     // static public System.Void SetOverride(UnityEngine.Texture front, UnityEngine.Texture back, UnityEngine.Texture left, UnityEngine.Texture right, UnityEngine.Texture top, UnityEngine.Texture bottom)
-    // Offset: 0xD72520
+    // Offset: 0xD85F64
     static void SetOverride(UnityEngine::Texture* front, UnityEngine::Texture* back, UnityEngine::Texture* left, UnityEngine::Texture* right, UnityEngine::Texture* top, UnityEngine::Texture* bottom);
     // static public System.Void ClearOverride()
-    // Offset: 0xD72994
+    // Offset: 0xD863D8
     static void ClearOverride();
     // private System.Void OnEnable()
-    // Offset: 0xD7BE80
+    // Offset: 0xD8F8C4
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD7BE94
+    // Offset: 0xD8F8D8
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xD7BE98
+    // Offset: 0xD8F8DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     static SteamVR_Skybox* New_ctor();
   }; // SteamVR_Skybox
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox::CellSize, "", "SteamVR_Skybox/CellSize");
 #pragma pack(pop)

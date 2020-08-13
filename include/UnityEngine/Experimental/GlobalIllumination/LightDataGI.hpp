@@ -85,25 +85,25 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Creating value type constructor for type: LightDataGI
     LightDataGI(int instanceID_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, UnityEngine::Quaternion orientation_ = {}, UnityEngine::Vector3 position_ = {}, float range_ = {}, float coneAngle_ = {}, float innerConeAngle_ = {}, float shape0_ = {}, float shape1_ = {}, UnityEngine::Experimental::GlobalIllumination::LightType type_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, uint8_t shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}) : instanceID{instanceID_}, color{color_}, indirectColor{indirectColor_}, orientation{orientation_}, position{position_}, range{range_}, coneAngle{coneAngle_}, innerConeAngle{innerConeAngle_}, shape0{shape0_}, shape1{shape1_}, type{type_}, mode{mode_}, shadow{shadow_}, falloff{falloff_} {}
     // public System.Void Init(UnityEngine.Experimental.GlobalIllumination.DirectionalLight light)
-    // Offset: 0xA41FB8
+    // Offset: 0xA42034
     void Init(UnityEngine::Experimental::GlobalIllumination::DirectionalLight& light);
     // public System.Void Init(UnityEngine.Experimental.GlobalIllumination.PointLight light)
-    // Offset: 0xA41FC0
+    // Offset: 0xA4203C
     void Init(UnityEngine::Experimental::GlobalIllumination::PointLight& light);
     // public System.Void Init(UnityEngine.Experimental.GlobalIllumination.SpotLight light)
-    // Offset: 0xA41FC8
+    // Offset: 0xA42044
     void Init(UnityEngine::Experimental::GlobalIllumination::SpotLight& light);
     // public System.Void Init(UnityEngine.Experimental.GlobalIllumination.RectangleLight light)
-    // Offset: 0xA41FD0
+    // Offset: 0xA4204C
     void Init(UnityEngine::Experimental::GlobalIllumination::RectangleLight& light);
     // public System.Void Init(UnityEngine.Experimental.GlobalIllumination.DiscLight light)
-    // Offset: 0xA41FD8
+    // Offset: 0xA42054
     void Init(UnityEngine::Experimental::GlobalIllumination::DiscLight& light);
     // public System.Void InitNoBake(System.Int32 lightInstanceID)
-    // Offset: 0xA41FE0
+    // Offset: 0xA4205C
     void InitNoBake(int lightInstanceID);
   }; // UnityEngine.Experimental.GlobalIllumination.LightDataGI
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightDataGI, "UnityEngine.Experimental.GlobalIllumination", "LightDataGI");
 #pragma pack(pop)

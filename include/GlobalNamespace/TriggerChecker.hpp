@@ -35,16 +35,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Action* TriggerCheckerOnStayEvent;
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0xCA88E8
+    // Offset: 0xCBB32C
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0xCA88FC
+    // Offset: 0xCBB340
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0xCA8910
+    // Offset: 0xCBB354
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0xCA8924
+    // Offset: 0xCBB368
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     static TriggerChecker* New_ctor();
   }; // TriggerChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TriggerChecker*, "", "TriggerChecker");
 #pragma pack(pop)

@@ -14,10 +14,10 @@ namespace System::Threading {
   class ManualResetEvent : public System::Threading::EventWaitHandle {
     public:
     // public System.Void .ctor(System.Boolean initialState)
-    // Offset: 0x13C4C3C
+    // Offset: 0x13D5680
     static ManualResetEvent* New_ctor(bool initialState);
   }; // System.Threading.ManualResetEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEvent*, "System.Threading", "ManualResetEvent");
 #pragma pack(pop)

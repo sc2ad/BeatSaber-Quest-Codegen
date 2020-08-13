@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     // Offset: 0x50
     float rotationRange;
     // public System.Boolean get_isMidRotationValid()
-    // Offset: 0x1973E30
+    // Offset: 0xB8C12C
     bool get_isMidRotationValid();
     // public System.Single get_midRotation()
-    // Offset: 0x1973E38
+    // Offset: 0xB8C134
     float get_midRotation();
     // public System.Single get_rotationRange()
-    // Offset: 0x1973E40
+    // Offset: 0xB8C13C
     float get_rotationRange();
     // protected System.Void Start()
-    // Offset: 0x1973E48
+    // Offset: 0xB8C144
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1973EDC
+    // Offset: 0xB8C1D8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1973F70
+    // Offset: 0xB8C26C
     void Update();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x1974324
+    // Offset: 0xB8C620
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x1974520
+    // Offset: 0xB8C81C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -96,6 +96,6 @@ namespace GlobalNamespace {
     static BeatLineManager* New_ctor();
   }; // BeatLineManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLineManager*, "", "BeatLineManager");
 #pragma pack(pop)

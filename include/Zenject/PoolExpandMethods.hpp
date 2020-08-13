@@ -38,6 +38,6 @@ namespace Zenject {
     PoolExpandMethods(int value_ = {}) : value{value_} {}
   }; // Zenject.PoolExpandMethods
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolExpandMethods, "Zenject", "PoolExpandMethods");
 #pragma pack(pop)

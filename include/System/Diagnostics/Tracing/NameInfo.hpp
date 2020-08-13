@@ -34,25 +34,25 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x20
     ::Array<uint8_t>* nameMetadata;
     // static System.Void ReserveEventIDsBelow(System.Int32 eventId)
-    // Offset: 0xD85964
+    // Offset: 0xD993A8
     static void ReserveEventIDsBelow(int eventId);
     // public System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Int32 typeMetadataSize)
-    // Offset: 0xD85A3C
+    // Offset: 0xD99480
     static NameInfo* New_ctor(::CsString* name, System::Diagnostics::Tracing::EventTags tags, int typeMetadataSize);
     // public System.Int32 Compare(System.Diagnostics.Tracing.NameInfo other)
-    // Offset: 0xD85CD0
+    // Offset: 0xD99714
     int Compare(System::Diagnostics::Tracing::NameInfo* other);
     // public System.Int32 Compare(System.Collections.Generic.KeyValuePair`2<System.String,System.Diagnostics.Tracing.EventTags> key)
-    // Offset: 0xD85DE4
+    // Offset: 0xD99828
     int Compare(System::Collections::Generic::KeyValuePair_2<::CsString*, System::Diagnostics::Tracing::EventTags> key);
     // private System.Int32 Compare(System.String otherName, System.Diagnostics.Tracing.EventTags otherTags)
-    // Offset: 0xD85CF0
+    // Offset: 0xD99734
     int Compare(::CsString* otherName, System::Diagnostics::Tracing::EventTags otherTags);
     // static private System.Void .cctor()
-    // Offset: 0xD85E40
+    // Offset: 0xD99884
     static void _cctor();
   }; // System.Diagnostics.Tracing.NameInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::NameInfo*, "System.Diagnostics.Tracing", "NameInfo");
 #pragma pack(pop)

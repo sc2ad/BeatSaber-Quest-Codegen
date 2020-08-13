@@ -29,30 +29,30 @@ namespace System::Text {
     // Offset: 0x20
     ::Array<::Il2CppChar>* arrayBestFit;
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x12DA564
+    // Offset: 0x12EBFA8
     static InternalEncoderBestFitFallback* New_ctor(System::Text::Encoding* encoding);
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x12E07AC
+    // Offset: 0x12F21F0
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x12E0930
+    // Offset: 0x12F2374
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x12E0938
+    // Offset: 0x12F237C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::CsObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12E0A0C
+    // Offset: 0x12F2450
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.InternalEncoderBestFitFallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallback*, "System.Text", "InternalEncoderBestFitFallback");
 #pragma pack(pop)

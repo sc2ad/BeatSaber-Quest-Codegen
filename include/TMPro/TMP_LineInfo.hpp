@@ -81,6 +81,6 @@ namespace TMPro {
     TMP_LineInfo(int controlCharacterCount_ = {}, int characterCount_ = {}, int visibleCharacterCount_ = {}, int spaceCount_ = {}, int wordCount_ = {}, int firstCharacterIndex_ = {}, int firstVisibleCharacterIndex_ = {}, int lastCharacterIndex_ = {}, int lastVisibleCharacterIndex_ = {}, float length_ = {}, float lineHeight_ = {}, float ascender_ = {}, float baseline_ = {}, float descender_ = {}, float maxAdvance_ = {}, float width_ = {}, float marginLeft_ = {}, float marginRight_ = {}, TMPro::TextAlignmentOptions alignment_ = {}, TMPro::Extents lineExtents_ = {}) : controlCharacterCount{controlCharacterCount_}, characterCount{characterCount_}, visibleCharacterCount{visibleCharacterCount_}, spaceCount{spaceCount_}, wordCount{wordCount_}, firstCharacterIndex{firstCharacterIndex_}, firstVisibleCharacterIndex{firstVisibleCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, lastVisibleCharacterIndex{lastVisibleCharacterIndex_}, length{length_}, lineHeight{lineHeight_}, ascender{ascender_}, baseline{baseline_}, descender{descender_}, maxAdvance{maxAdvance_}, width{width_}, marginLeft{marginLeft_}, marginRight{marginRight_}, alignment{alignment_}, lineExtents{lineExtents_} {}
   }; // TMPro.TMP_LineInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LineInfo, "TMPro", "TMP_LineInfo");
 #pragma pack(pop)

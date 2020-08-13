@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE
@@ -95,24 +93,24 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x80
     System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr;
     // System.Void Init()
-    // Offset: 0xE13EF4
+    // Offset: 0xE26938
     void Init();
     // System.Void ArrayCountIncrement(System.Int32 value)
-    // Offset: 0xE13FC0
+    // Offset: 0xE26A04
     void ArrayCountIncrement(int value);
     // System.Boolean GetNext(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, System.Object outTypeInformation)
-    // Offset: 0xE13FD0
+    // Offset: 0xE26A14
     bool GetNext(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& outBinaryTypeEnum, ::CsObject*& outTypeInformation);
     // static private System.Void .cctor()
-    // Offset: 0xE14148
+    // Offset: 0xE26B8C
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0xE13E78
+    // Offset: 0xE268BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjectProgress* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectProgress
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*, "System.Runtime.Serialization.Formatters.Binary", "ObjectProgress");
 #pragma pack(pop)

@@ -56,6 +56,6 @@ namespace System::Configuration::Assemblies {
     AssemblyHashAlgorithm(int value_ = {}) : value{value_} {}
   }; // System.Configuration.Assemblies.AssemblyHashAlgorithm
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::Assemblies::AssemblyHashAlgorithm, "System.Configuration.Assemblies", "AssemblyHashAlgorithm");
 #pragma pack(pop)

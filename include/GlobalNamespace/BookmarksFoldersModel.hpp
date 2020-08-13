@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::FileBrowserItem*>* bookmarksFolders;
     // public FileBrowserItem[] get_bookmarksFolders()
-    // Offset: 0xB5E11C
+    // Offset: 0xB5C11C
     ::Array<GlobalNamespace::FileBrowserItem*>* get_bookmarksFolders();
     // public System.Void .ctor()
-    // Offset: 0xB5E510
+    // Offset: 0xB5C510
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -41,6 +41,6 @@ namespace GlobalNamespace {
     static BookmarksFoldersModel* New_ctor();
   }; // BookmarksFoldersModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel*, "", "BookmarksFoldersModel");
 #pragma pack(pop)

@@ -34,30 +34,30 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool canBeCut;
     // protected System.Void Awake()
-    // Offset: 0xB87FE4
+    // Offset: 0xB99A28
     void Awake();
     // public override System.Single get_radius()
-    // Offset: 0xB87F84
+    // Offset: 0xB999C8
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0xB87FA0
+    // Offset: 0xB999E4
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
     // public override System.Boolean get_canBeCut()
-    // Offset: 0xB87FDC
+    // Offset: 0xB99A20
     // Implemented from: CuttableBySaber
     // Base method: System.Boolean CuttableBySaber::get_canBeCut()
     bool get_canBeCut();
     // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xB8801C
+    // Offset: 0xB99A60
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.Void .ctor()
-    // Offset: 0xB88040
+    // Offset: 0xB99A84
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -68,6 +68,6 @@ namespace GlobalNamespace {
     static SphereCuttableBySaber* New_ctor();
   }; // SphereCuttableBySaber
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SphereCuttableBySaber*, "", "SphereCuttableBySaber");
 #pragma pack(pop)

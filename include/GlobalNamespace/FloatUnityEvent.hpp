@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Events.UnityEvent`1
 #include "UnityEngine/Events/UnityEvent_1.hpp"
 // Completed includes
@@ -13,7 +14,7 @@ namespace GlobalNamespace {
   class FloatUnityEvent : public UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC9C81C
+    // Offset: 0xCAF260
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -21,6 +22,6 @@ namespace GlobalNamespace {
     static FloatUnityEvent* New_ctor();
   }; // FloatUnityEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatUnityEvent*, "", "FloatUnityEvent");
 #pragma pack(pop)

@@ -19,6 +19,6 @@ namespace Valve::VR {
     VREvent_Ipd_t(float ipdMeters_ = {}) : ipdMeters{ipdMeters_} {}
   }; // Valve.VR.VREvent_Ipd_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Ipd_t, "Valve.VR", "VREvent_Ipd_t");
 #pragma pack(pop)

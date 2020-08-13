@@ -4,11 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include <stdint.h>
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
@@ -36,6 +36,6 @@ namespace Mono {
     GenericParamInfo(Mono::RuntimeStructs::MonoClass* pklass_ = {}, System::IntPtr name_ = {}, uint16_t flags_ = {}, uint token_ = {}, Mono::RuntimeStructs::MonoClass** constraints_ = {}) : pklass{pklass_}, name{name_}, flags{flags_}, token{token_}, constraints{constraints_} {}
   }; // Mono.RuntimeStructs/GenericParamInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");
 #pragma pack(pop)

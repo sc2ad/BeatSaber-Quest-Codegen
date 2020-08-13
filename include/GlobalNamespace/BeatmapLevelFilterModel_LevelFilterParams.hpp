@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: BeatmapLevelFilterModel
 #include "GlobalNamespace/BeatmapLevelFilterModel.hpp"
 // Including type: System.Enum
@@ -69,28 +67,28 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> beatmapLevelIds)
-    // Offset: 0xB52274
+    // Offset: 0xB50274
     static BeatmapLevelFilterModel::LevelFilterParams* New_ctor(System::Collections::Generic::HashSet_1<::CsString*>* beatmapLevelIds);
     // System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xB522C0
+    // Offset: 0xB502C0
     static BeatmapLevelFilterModel::LevelFilterParams* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // static public BeatmapLevelFilterModel/LevelFilterParams NoFilter()
-    // Offset: 0xB5230C
+    // Offset: 0xB5030C
     static GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams* NoFilter();
     // static public BeatmapLevelFilterModel/LevelFilterParams ByBeatmapLevelIds(System.Collections.Generic.HashSet`1<System.String> beatmapLevelIds)
-    // Offset: 0xB52364
+    // Offset: 0xB50364
     static GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams* ByBeatmapLevelIds(System::Collections::Generic::HashSet_1<::CsString*>* beatmapLevelIds);
     // static public BeatmapLevelFilterModel/LevelFilterParams ByBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xB523C4
+    // Offset: 0xB503C4
     static GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams* ByBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // System.Void .ctor()
-    // Offset: 0xB52230
+    // Offset: 0xB50230
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelFilterModel::LevelFilterParams* New_ctor();
   }; // BeatmapLevelFilterModel/LevelFilterParams
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams*, "", "BeatmapLevelFilterModel/LevelFilterParams");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams::FilterBy, "", "BeatmapLevelFilterModel/LevelFilterParams/FilterBy");
 #pragma pack(pop)

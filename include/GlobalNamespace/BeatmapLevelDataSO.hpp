@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* no360MovementDifficultyBeatmapSets;
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0xB51918
+    // Offset: 0xB4F918
     UnityEngine::AudioClip* get_audioClip();
     // public BeatmapLevelDataSO/DifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0xB51920
+    // Offset: 0xB4F920
     ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0xB51928
+    // Offset: 0xB4F928
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -50,6 +50,6 @@ namespace GlobalNamespace {
     static BeatmapLevelDataSO* New_ctor();
   }; // BeatmapLevelDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataSO*, "", "BeatmapLevelDataSO");
 #pragma pack(pop)

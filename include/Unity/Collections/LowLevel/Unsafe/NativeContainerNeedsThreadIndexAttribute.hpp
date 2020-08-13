@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -13,6 +14,6 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeContainerNeedsThreadIndexAttribute : public System::Attribute {
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerNeedsThreadIndexAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerNeedsThreadIndexAttribute");
 #pragma pack(pop)

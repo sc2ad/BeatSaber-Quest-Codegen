@@ -50,106 +50,106 @@ namespace System {
     // Creating value type constructor for type: RuntimeTypeHandle
     RuntimeTypeHandle(System::IntPtr value_ = {}) : value{value_} {}
     // System.Void .ctor(System.IntPtr val)
-    // Offset: 0xA2DB50
+    // Offset: 0xA2DBCC
     static RuntimeTypeHandle* New_ctor(System::IntPtr val);
     // System.Void .ctor(System.RuntimeType type)
-    // Offset: 0xA2DB58
+    // Offset: 0xA2DBD4
     static RuntimeTypeHandle* New_ctor(System::RuntimeType* type);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xA2DB74
+    // Offset: 0xA2DBF0
     static RuntimeTypeHandle* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.IntPtr get_Value()
-    // Offset: 0xA2DB7C
+    // Offset: 0xA2DBF8
     System::IntPtr get_Value();
     // static System.Reflection.TypeAttributes GetAttributes(System.RuntimeType type)
-    // Offset: 0xDC8200
+    // Offset: 0xDDAC44
     static System::Reflection::TypeAttributes GetAttributes(System::RuntimeType* type);
     // static private System.Int32 GetMetadataToken(System.RuntimeType type)
-    // Offset: 0xDCE1FC
+    // Offset: 0xDE0C40
     static int GetMetadataToken(System::RuntimeType* type);
     // static System.Int32 GetToken(System.RuntimeType type)
-    // Offset: 0xDCB024
+    // Offset: 0xDDDA68
     static int GetToken(System::RuntimeType* type);
     // static private System.Type GetGenericTypeDefinition_impl(System.RuntimeType type)
-    // Offset: 0xDCE200
+    // Offset: 0xDE0C44
     static System::Type* GetGenericTypeDefinition_impl(System::RuntimeType* type);
     // static System.Type GetGenericTypeDefinition(System.RuntimeType type)
-    // Offset: 0xDC987C
+    // Offset: 0xDDC2C0
     static System::Type* GetGenericTypeDefinition(System::RuntimeType* type);
     // static System.Boolean HasElementType(System.RuntimeType type)
-    // Offset: 0xDC8474
+    // Offset: 0xDDAEB8
     static bool HasElementType(System::RuntimeType* type);
     // static System.Boolean HasInstantiation(System.RuntimeType type)
-    // Offset: 0xDC9884
+    // Offset: 0xDDC2C8
     static bool HasInstantiation(System::RuntimeType* type);
     // static System.Boolean IsArray(System.RuntimeType type)
-    // Offset: 0xDC8600
+    // Offset: 0xDDB044
     static bool IsArray(System::RuntimeType* type);
     // static System.Boolean IsByRef(System.RuntimeType type)
-    // Offset: 0xDC829C
+    // Offset: 0xDDACE0
     static bool IsByRef(System::RuntimeType* type);
     // static System.Boolean IsComObject(System.RuntimeType type)
-    // Offset: 0xDCE204
+    // Offset: 0xDE0C48
     static bool IsComObject(System::RuntimeType* type);
     // static System.Boolean IsInstanceOfType(System.RuntimeType type, System.Object o)
-    // Offset: 0xDC7EA8
+    // Offset: 0xDDA8EC
     static bool IsInstanceOfType(System::RuntimeType* type, ::CsObject* o);
     // static System.Boolean IsPointer(System.RuntimeType type)
-    // Offset: 0xDC82AC
+    // Offset: 0xDDACF0
     static bool IsPointer(System::RuntimeType* type);
     // static System.Boolean IsPrimitive(System.RuntimeType type)
-    // Offset: 0xDC82A4
+    // Offset: 0xDDACE8
     static bool IsPrimitive(System::RuntimeType* type);
     // static System.Boolean HasReferences(System.RuntimeType type)
-    // Offset: 0xDCE208
+    // Offset: 0xDE0C4C
     static bool HasReferences(System::RuntimeType* type);
     // static System.Boolean IsComObject(System.RuntimeType type, System.Boolean isGenericCOM)
-    // Offset: 0xDC82B4
+    // Offset: 0xDDACF8
     static bool IsComObject(System::RuntimeType* type, bool isGenericCOM);
     // static System.Boolean IsContextful(System.RuntimeType type)
-    // Offset: 0xDC8208
+    // Offset: 0xDDAC4C
     static bool IsContextful(System::RuntimeType* type);
     // static System.Boolean IsEquivalentTo(System.RuntimeType rtType1, System.RuntimeType rtType2)
-    // Offset: 0xDC81E4
+    // Offset: 0xDDAC28
     static bool IsEquivalentTo(System::RuntimeType* rtType1, System::RuntimeType* rtType2);
     // static System.Boolean IsSzArray(System.RuntimeType type)
-    // Offset: 0xDC85AC
+    // Offset: 0xDDAFF0
     static bool IsSzArray(System::RuntimeType* type);
     // static System.Boolean IsInterface(System.RuntimeType type)
-    // Offset: 0xDCE20C
+    // Offset: 0xDE0C50
     static bool IsInterface(System::RuntimeType* type);
     // static System.Int32 GetArrayRank(System.RuntimeType type)
-    // Offset: 0xDC86B0
+    // Offset: 0xDDB0F4
     static int GetArrayRank(System::RuntimeType* type);
     // static System.Reflection.RuntimeAssembly GetAssembly(System.RuntimeType type)
-    // Offset: 0xDC7E6C
+    // Offset: 0xDDA8B0
     static System::Reflection::RuntimeAssembly* GetAssembly(System::RuntimeType* type);
     // static System.RuntimeType GetElementType(System.RuntimeType type)
-    // Offset: 0xDC86B8
+    // Offset: 0xDDB0FC
     static System::RuntimeType* GetElementType(System::RuntimeType* type);
     // static System.Reflection.RuntimeModule GetModule(System.RuntimeType type)
-    // Offset: 0xDC7E60
+    // Offset: 0xDDA8A4
     static System::Reflection::RuntimeModule* GetModule(System::RuntimeType* type);
     // static System.Boolean IsGenericVariable(System.RuntimeType type)
-    // Offset: 0xDC81F0
+    // Offset: 0xDDAC34
     static bool IsGenericVariable(System::RuntimeType* type);
     // static System.RuntimeType GetBaseType(System.RuntimeType type)
-    // Offset: 0xDC81F4
+    // Offset: 0xDDAC38
     static System::RuntimeType* GetBaseType(System::RuntimeType* type);
     // static System.Boolean CanCastTo(System.RuntimeType type, System.RuntimeType target)
-    // Offset: 0xDC8128
+    // Offset: 0xDDAB6C
     static bool CanCastTo(System::RuntimeType* type, System::RuntimeType* target);
     // static private System.Boolean type_is_assignable_from(System.Type a, System.Type b)
-    // Offset: 0xDCE230
+    // Offset: 0xDE0C74
     static bool type_is_assignable_from(System::Type* a, System::Type* b);
     // static System.Boolean IsGenericTypeDefinition(System.RuntimeType type)
-    // Offset: 0xDC9718
+    // Offset: 0xDDC15C
     static bool IsGenericTypeDefinition(System::RuntimeType* type);
     // static System.IntPtr GetGenericParameterInfo(System.RuntimeType type)
-    // Offset: 0xDCD744
+    // Offset: 0xDE0188
     static System::IntPtr GetGenericParameterInfo(System::RuntimeType* type);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xA2DB84
+    // Offset: 0xA2DC00
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -157,17 +157,17 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA2DB8C
+    // Offset: 0xA2DC08
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA2DB94
+    // Offset: 0xA2DC10
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.RuntimeTypeHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeTypeHandle, "System", "RuntimeTypeHandle");
 #pragma pack(pop)

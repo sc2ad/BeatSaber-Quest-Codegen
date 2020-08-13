@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MissionLevelModifiersViewController
 #include "GlobalNamespace/MissionLevelModifiersViewController.hpp"
 // Completed includes
@@ -34,15 +32,15 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList;
     // System.Void <RefreshContent>b__0(System.Int32 idx, GameplayModifierInfoListItem gameplayModifierInfoListItem)
-    // Offset: 0xBF18F4
+    // Offset: 0xC03338
     void $RefreshContent$b__0(int idx, GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
     // public System.Void .ctor()
-    // Offset: 0xBF18E4
+    // Offset: 0xC03328
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionLevelModifiersViewController::$$c__DisplayClass7_0* New_ctor();
   }; // MissionLevelModifiersViewController/<>c__DisplayClass7_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0*, "", "MissionLevelModifiersViewController/<>c__DisplayClass7_0");
 #pragma pack(pop)

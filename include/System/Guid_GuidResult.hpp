@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Guid
 #include "System/Guid.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Guid/GuidParseThrowStyle
 #include "System/Guid_GuidParseThrowStyle.hpp"
 // Including type: System.Guid/ParseFailureKind
@@ -50,25 +50,25 @@ namespace System {
     // Creating value type constructor for type: GuidResult
     GuidResult(System::Guid parsedGuid_ = {}, System::Guid::GuidParseThrowStyle throwStyle_ = {}, System::Guid::ParseFailureKind m_failure_ = {}, ::CsString* m_failureMessageID_ = {}, ::CsObject* m_failureMessageFormatArgument_ = {}, ::CsString* m_failureArgumentName_ = {}, System::Exception* m_innerException_ = {}) : parsedGuid{parsedGuid_}, throwStyle{throwStyle_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_failureArgumentName{m_failureArgumentName_}, m_innerException{m_innerException_} {}
     // System.Void Init(System.Guid/GuidParseThrowStyle canThrow)
-    // Offset: 0xA3DD5C
+    // Offset: 0xA3DDD8
     void Init(System::Guid::GuidParseThrowStyle canThrow);
     // System.Void SetFailure(System.Exception nativeException)
-    // Offset: 0xA3DD64
+    // Offset: 0xA3DDE0
     void SetFailure(System::Exception* nativeException);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID)
-    // Offset: 0xA3DD74
+    // Offset: 0xA3DDF0
     void SetFailure(System::Guid::ParseFailureKind failure, ::CsString* failureMessageID);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0xA3DD88
+    // Offset: 0xA3DE04
     void SetFailure(System::Guid::ParseFailureKind failure, ::CsString* failureMessageID, ::CsObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.Guid/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName, System.Exception innerException)
-    // Offset: 0xA3DD98
+    // Offset: 0xA3DE14
     void SetFailure(System::Guid::ParseFailureKind failure, ::CsString* failureMessageID, ::CsObject* failureMessageFormatArgument, ::CsString* failureArgumentName, System::Exception* innerException);
     // System.Exception GetGuidParseException()
-    // Offset: 0xA3DDA0
+    // Offset: 0xA3DE1C
     System::Exception* GetGuidParseException();
   }; // System.Guid/GuidResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");
 #pragma pack(pop)

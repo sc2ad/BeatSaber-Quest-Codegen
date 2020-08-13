@@ -30,30 +30,30 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     UnityEngine::AnimationCurve* spline;
     // private System.Void OpenUserManual()
-    // Offset: 0x12220E8
+    // Offset: 0x1233B2C
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x1222134
+    // Offset: 0x1233B78
     void OpenScriptReference();
     // private System.Void SupportGroup()
-    // Offset: 0x1222180
+    // Offset: 0x1233BC4
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x12221CC
+    // Offset: 0x1233C10
     void ASThread();
     // public System.Void SetSpline(UnityEngine.Keyframe[] keyframes)
-    // Offset: 0x1222218
+    // Offset: 0x1233C5C
     void SetSpline(::Array<UnityEngine::Keyframe>* keyframes);
     // public UnityEngine.Quaternion LimitSwing(UnityEngine.Quaternion rotation)
-    // Offset: 0x12222EC
+    // Offset: 0x1233D30
     UnityEngine::Quaternion LimitSwing(UnityEngine::Quaternion rotation);
     // protected override UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x1222234
+    // Offset: 0x1233C78
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: UnityEngine.Quaternion RotationLimit::LimitRotation(UnityEngine.Quaternion rotation)
     UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x1222618
+    // Offset: 0x123405C
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: System.Void RotationLimit::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -64,6 +64,6 @@ namespace RootMotion::FinalIK {
     static RotationLimitSpline* New_ctor();
   }; // RootMotion.FinalIK.RotationLimitSpline
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitSpline*, "RootMotion.FinalIK", "RotationLimitSpline");
 #pragma pack(pop)

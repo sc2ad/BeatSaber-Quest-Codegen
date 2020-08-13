@@ -38,43 +38,43 @@ namespace GlobalNamespace {
     // Offset: 0x80
     UnityEngine::GameObject* wrapperGO;
     // protected System.Void HandleDidPassHalfJump()
-    // Offset: 0xB5DE8C
+    // Offset: 0xB5BE8C
     void HandleDidPassHalfJump();
     // private System.Void HandleWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0xB5DEB0
+    // Offset: 0xB5BEB0
     void HandleWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0xB5DC6C
+    // Offset: 0xB5BC6C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // protected override System.Void Awake()
-    // Offset: 0xB5DC90
+    // Offset: 0xB5BC90
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0xB5DD6C
+    // Offset: 0xB5BD6C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::OnDestroy()
     void OnDestroy();
     // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0xB5DE4C
+    // Offset: 0xB5BE4C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidPassMissedMarker()
     void NoteDidPassMissedMarker();
     // public override System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single cutDirectionAngleOffset)
-    // Offset: 0xB5E07C
+    // Offset: 0xB5C07C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single cutDirectionAngleOffset)
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float cutDirectionAngleOffset);
     // protected override System.Void NoteDidStartDissolving()
-    // Offset: 0xB5E0F0
+    // Offset: 0xB5C0F0
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidStartDissolving()
     void NoteDidStartDissolving();
     // public System.Void .ctor()
-    // Offset: 0xB5E114
+    // Offset: 0xB5C114
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -85,6 +85,6 @@ namespace GlobalNamespace {
     static BombNoteController* New_ctor();
   }; // BombNoteController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombNoteController*, "", "BombNoteController");
 #pragma pack(pop)

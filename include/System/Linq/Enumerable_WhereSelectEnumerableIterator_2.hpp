@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.Linq.Enumerable/Iterator`1
-#include "System/Linq/Enumerable_Iterator_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Linq.Enumerable
 #include "System/Linq/Enumerable.hpp"
+// Including type: System.Linq.Enumerable/Iterator`1
+#include "System/Linq/Enumerable_Iterator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 // Completed includes
 // Begin forward declares

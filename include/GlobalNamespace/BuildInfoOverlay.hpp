@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::GameObject* canvas;
     // protected System.Void Start()
-    // Offset: 0xB5E97C
+    // Offset: 0xB5C97C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xB5E9A4
+    // Offset: 0xB5C9A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static BuildInfoOverlay* New_ctor();
   }; // BuildInfoOverlay
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BuildInfoOverlay*, "", "BuildInfoOverlay");
 #pragma pack(pop)

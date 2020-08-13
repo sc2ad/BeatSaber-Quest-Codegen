@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: System.DateTimeParse
 #include "System/DateTimeParse.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -28,19 +28,19 @@ namespace System {
   class DateTimeParse::MatchNumberDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xC76310
+    // Offset: 0xC87D54
     static DateTimeParse::MatchNumberDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.__DTString str, System.Int32 digitLen, System.Int32 result)
-    // Offset: 0xC76324
+    // Offset: 0xC87D68
     bool Invoke(System::__DTString& str, int digitLen, int& result);
     // public System.IAsyncResult BeginInvoke(System.__DTString str, System.Int32 digitLen, System.Int32 result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xC765B4
+    // Offset: 0xC87FF8
     System::IAsyncResult* BeginInvoke(System::__DTString& str, int digitLen, int& result, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Boolean EndInvoke(System.__DTString str, System.Int32 result, System.IAsyncResult __result)
-    // Offset: 0xC76680
+    // Offset: 0xC880C4
     bool EndInvoke(System::__DTString& str, int& result, System::IAsyncResult* __result);
   }; // System.DateTimeParse/MatchNumberDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::MatchNumberDelegate*, "System", "DateTimeParse/MatchNumberDelegate");
 #pragma pack(pop)

@@ -26,28 +26,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x38
     RootMotion::FinalIK::IKSolverLeg* solver;
     // private System.Void SupportGroup()
-    // Offset: 0x1218E00
+    // Offset: 0x122A844
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1218E4C
+    // Offset: 0x122A890
     void ASThread();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x1218D68
+    // Offset: 0x122A7AC
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x1218DB4
+    // Offset: 0x122A7F8
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenScriptReference()
     void OpenScriptReference();
     // public override RootMotion.FinalIK.IKSolver GetIKSolver()
-    // Offset: 0x1218E98
+    // Offset: 0x122A8DC
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: RootMotion.FinalIK.IKSolver IK::GetIKSolver()
     RootMotion::FinalIK::IKSolver* GetIKSolver();
     // public System.Void .ctor()
-    // Offset: 0x1218EA0
+    // Offset: 0x122A8E4
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -59,6 +59,6 @@ namespace RootMotion::FinalIK {
     static LegIK* New_ctor();
   }; // RootMotion.FinalIK.LegIK
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LegIK*, "RootMotion.FinalIK", "LegIK");
 #pragma pack(pop)

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PS4PublisherSKUSettingsSO* activePublisherSKUSettings;
     // public System.Void .ctor()
-    // Offset: 0xBBB6A0
+    // Offset: 0xBCE0E4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -33,6 +33,6 @@ namespace GlobalNamespace {
     static PS4ActivePublisherSKUSettingsSO* New_ctor();
   }; // PS4ActivePublisherSKUSettingsSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4ActivePublisherSKUSettingsSO*, "", "PS4ActivePublisherSKUSettingsSO");
 #pragma pack(pop)

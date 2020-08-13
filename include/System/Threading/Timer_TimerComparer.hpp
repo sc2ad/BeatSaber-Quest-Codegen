@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Threading.Timer
 #include "System/Threading/Timer.hpp"
 // Including type: System.Collections.IComparer
@@ -18,7 +16,7 @@ namespace System::Threading {
   class Timer::TimerComparer : public ::CsObject, public System::Collections::IComparer {
     public:
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0xCD8030
+    // Offset: 0xCEAA74
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object x, System.Object y)
     int Compare(::CsObject* x, ::CsObject* y);
@@ -26,12 +24,12 @@ namespace System::Threading {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::CsObject* x, ::CsObject* y);
     // public System.Void .ctor()
-    // Offset: 0xCD72EC
+    // Offset: 0xCE9D30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Timer::TimerComparer* New_ctor();
   }; // System.Threading.Timer/TimerComparer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer::TimerComparer*, "System.Threading", "Timer/TimerComparer");
 #pragma pack(pop)

@@ -38,22 +38,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::ParticleSystem::EmissionModule burnParticleSystemEmmisionModule;
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xC1FEA0
+    // Offset: 0xC318E4
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0xC1FFAC
+    // Offset: 0xC319F0
     void Awake();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0xC2002C
+    // Offset: 0xC31A70
     void SetPositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void StartEmission()
-    // Offset: 0xC200A8
+    // Offset: 0xC31AEC
     void StartEmission();
     // public System.Void StopEmission()
-    // Offset: 0xC20100
+    // Offset: 0xC31B44
     void StopEmission();
     // public System.Void .ctor()
-    // Offset: 0xC2016C
+    // Offset: 0xC31BB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     static ObstacleSaberSparkleEffect* New_ctor();
   }; // ObstacleSaberSparkleEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffect*, "", "ObstacleSaberSparkleEffect");
 #pragma pack(pop)

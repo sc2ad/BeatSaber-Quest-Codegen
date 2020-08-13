@@ -53,6 +53,6 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
   }; // UnityEngine.Timeline.ICurvesOwner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ICurvesOwner*, "UnityEngine.Timeline", "ICurvesOwner");
 #pragma pack(pop)

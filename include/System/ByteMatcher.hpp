@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -32,24 +30,24 @@ namespace System {
     // Offset: 0x18
     System::Collections::Hashtable* starts;
     // public System.Void AddMapping(System.TermInfoStrings key, System.Byte[] val)
-    // Offset: 0x1319ECC
+    // Offset: 0x132D910
     void AddMapping(System::TermInfoStrings key, ::Array<uint8_t>* val);
     // public System.Void Sort()
-    // Offset: 0x1319FE4
+    // Offset: 0x132DA28
     void Sort();
     // public System.Boolean StartsWith(System.Int32 c)
-    // Offset: 0x1319FE8
+    // Offset: 0x132DA2C
     bool StartsWith(int c);
     // public System.TermInfoStrings Match(System.Char[] buffer, System.Int32 offset, System.Int32 length, System.Int32 used)
-    // Offset: 0x131A078
+    // Offset: 0x132DABC
     System::TermInfoStrings Match(::Array<::Il2CppChar>* buffer, int offset, int length, int& used);
     // public System.Void .ctor()
-    // Offset: 0x131A4AC
+    // Offset: 0x132DEF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ByteMatcher* New_ctor();
   }; // System.ByteMatcher
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher*, "System", "ByteMatcher");
 #pragma pack(pop)

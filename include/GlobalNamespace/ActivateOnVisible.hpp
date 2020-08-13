@@ -24,16 +24,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<UnityEngine::GameObject*>* gameObjects;
     // protected System.Void Awake()
-    // Offset: 0xC978F4
+    // Offset: 0xCAA338
     void Awake();
     // private System.Void OnBecameVisible()
-    // Offset: 0xC97964
+    // Offset: 0xCAA3A8
     void OnBecameVisible();
     // private System.Void OnBecameInvisible()
-    // Offset: 0xC979D4
+    // Offset: 0xCAA418
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0xC97A44
+    // Offset: 0xCAA488
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -43,6 +43,6 @@ namespace GlobalNamespace {
     static ActivateOnVisible* New_ctor();
   }; // ActivateOnVisible
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ActivateOnVisible*, "", "ActivateOnVisible");
 #pragma pack(pop)

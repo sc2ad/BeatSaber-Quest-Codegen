@@ -32,6 +32,6 @@ namespace System::Runtime::Remoting::Messaging {
     ArgInfoType(uint8_t value_ = {}) : value{value_} {}
   }; // System.Runtime.Remoting.Messaging.ArgInfoType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfoType, "System.Runtime.Remoting.Messaging", "ArgInfoType");
 #pragma pack(pop)

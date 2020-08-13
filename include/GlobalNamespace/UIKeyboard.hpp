@@ -63,52 +63,52 @@ namespace GlobalNamespace {
     // Offset: 0x51
     bool hideCancelButton;
     // public System.Void add_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0xC37520
+    // Offset: 0xC48F64
     void add_textKeyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0xC375C4
+    // Offset: 0xC49008
     void remove_textKeyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC37668
+    // Offset: 0xC490AC
     void add_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC3770C
+    // Offset: 0xC49150
     void remove_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC377B0
+    // Offset: 0xC491F4
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC37854
+    // Offset: 0xC49298
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC378F8
+    // Offset: 0xC4933C
     void add_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0xC3799C
+    // Offset: 0xC493E0
     void remove_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void set_enableOkButtonInteractivity(System.Boolean value)
-    // Offset: 0xC37A40
+    // Offset: 0xC49484
     void set_enableOkButtonInteractivity(bool value);
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0xC37AF0
+    // Offset: 0xC49534
     void set_hideCancelButton(bool value);
     // protected System.Void Awake()
-    // Offset: 0xC37BB0
+    // Offset: 0xC495F4
     void Awake();
     // private System.Void <Awake>b__21_0()
-    // Offset: 0xC388A8
+    // Offset: 0xC4A2EC
     void $Awake$b__21_0();
     // private System.Void <Awake>b__21_1()
-    // Offset: 0xC388BC
+    // Offset: 0xC4A300
     void $Awake$b__21_1();
     // private System.Void <Awake>b__21_2()
-    // Offset: 0xC388D8
+    // Offset: 0xC4A31C
     void $Awake$b__21_2();
     // private System.Void <Awake>b__21_3()
-    // Offset: 0xC388F4
+    // Offset: 0xC4A338
     void $Awake$b__21_3();
     // public System.Void .ctor()
-    // Offset: 0xC388A0
+    // Offset: 0xC4A2E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -118,6 +118,6 @@ namespace GlobalNamespace {
     static UIKeyboard* New_ctor();
   }; // UIKeyboard
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard*, "", "UIKeyboard");
 #pragma pack(pop)

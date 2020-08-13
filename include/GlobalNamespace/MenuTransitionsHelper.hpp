@@ -98,46 +98,46 @@ namespace GlobalNamespace {
     // Offset: 0x60
     System::Action* beatmapEditorFinishedCallback;
     // public System.Void StartStandardLevel(IDifficultyBeatmap difficultyBeatmap, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Action beforeSceneSwitchCallback, System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> levelFinishedCallback)
-    // Offset: 0xBE3A80
+    // Offset: 0xBF54C4
     void StartStandardLevel(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::CsString* backButtonText, bool useTestNoteCutSoundEffects, System::Action* beforeSceneSwitchCallback, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
     // public System.Void StartStandardLevel(IDifficultyBeatmap difficultyBeatmap, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Action beforeSceneSwitchCallback, System.Action afterSceneSwitchCallback, System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> levelFinishedCallback)
-    // Offset: 0xBED610
+    // Offset: 0xBFF054
     void StartStandardLevel(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::CsString* backButtonText, bool useTestNoteCutSoundEffects, System::Action* beforeSceneSwitchCallback, System::Action* afterSceneSwitchCallback, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
     // public System.Void StartMissionLevel(IDifficultyBeatmap difficultyBeatmap, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, MissionObjective[] missionObjectives, PlayerSpecificSettings playerSpecificSettings, System.Action beforeSceneSwitchCallback, System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> levelFinishedCallback)
-    // Offset: 0xBED77C
+    // Offset: 0xBFF1C0
     void StartMissionLevel(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, System::Action* beforeSceneSwitchCallback, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback);
     // public System.Void StartTutorial(System.Action beforeSceneSwitchCallback)
-    // Offset: 0xBE982C
+    // Offset: 0xBFB270
     void StartTutorial(System::Action* beforeSceneSwitchCallback);
     // public System.Void ShowCredits()
-    // Offset: 0xBE9270
+    // Offset: 0xBFACB4
     void ShowCredits();
     // public System.Void StartBeatmapEditor(System.Action beatmapEditorFinishedCallback)
-    // Offset: 0xBE9158
+    // Offset: 0xBFAB9C
     void StartBeatmapEditor(System::Action* beatmapEditorFinishedCallback);
     // public System.Void RestartGame()
-    // Offset: 0xBE9A08
+    // Offset: 0xBFB44C
     void RestartGame();
     // private System.Void HandleMainGameSceneDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xBED8F4
+    // Offset: 0xBFF338
     void HandleMainGameSceneDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void HandleMissionLevelSceneDidFinish(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
-    // Offset: 0xBEDA64
+    // Offset: 0xBFF4A8
     void HandleMissionLevelSceneDidFinish(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void HandleTutorialSceneDidFinish(TutorialScenesTransitionSetupDataSO tutorialSceneTransitionSetupData, TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState)
-    // Offset: 0xBEDBD8
+    // Offset: 0xBFF61C
     void HandleTutorialSceneDidFinish(GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneTransitionSetupData, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState);
     // private System.Void HandleCreditsSceneDidFinish(CreditsScenesTransitionSetupDataSO creditsSceneTransitionSetupData)
-    // Offset: 0xBEDD0C
+    // Offset: 0xBFF750
     void HandleCreditsSceneDidFinish(GlobalNamespace::CreditsScenesTransitionSetupDataSO* creditsSceneTransitionSetupData);
     // private System.Void HandleBeatmapEditorSceneDidFinish(BeatmapEditorScenesTransitionSetupDataSO beatmapEditorScenesTransitionSetupData)
-    // Offset: 0xBEDDC0
+    // Offset: 0xBFF804
     void HandleBeatmapEditorSceneDidFinish(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* beatmapEditorScenesTransitionSetupData);
     // private System.Void <HandleBeatmapEditorSceneDidFinish>b__21_0()
-    // Offset: 0xBEDEAC
+    // Offset: 0xBFF8F0
     void $HandleBeatmapEditorSceneDidFinish$b__21_0();
     // public System.Void .ctor()
-    // Offset: 0xBEDEA4
+    // Offset: 0xBFF8E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -147,6 +147,6 @@ namespace GlobalNamespace {
     static MenuTransitionsHelper* New_ctor();
   }; // MenuTransitionsHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper*, "", "MenuTransitionsHelper");
 #pragma pack(pop)

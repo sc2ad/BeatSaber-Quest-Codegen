@@ -36,6 +36,6 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadImageAsync(::CsString* path, System::Threading::CancellationToken cancellationToken);
   }; // IImageAsyncLoader
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IImageAsyncLoader*, "", "IImageAsyncLoader");
 #pragma pack(pop)

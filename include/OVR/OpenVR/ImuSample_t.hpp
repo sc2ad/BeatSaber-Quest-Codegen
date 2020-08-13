@@ -30,6 +30,6 @@ namespace OVR::OpenVR {
     ImuSample_t(double fSampleTime_ = {}, OVR::OpenVR::HmdVector3d_t vAccel_ = {}, OVR::OpenVR::HmdVector3d_t vGyro_ = {}, uint unOffScaleFlags_ = {}) : fSampleTime{fSampleTime_}, vAccel{vAccel_}, vGyro{vGyro_}, unOffScaleFlags{unOffScaleFlags_} {}
   }; // OVR.OpenVR.ImuSample_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ImuSample_t, "OVR.OpenVR", "ImuSample_t");
 #pragma pack(pop)

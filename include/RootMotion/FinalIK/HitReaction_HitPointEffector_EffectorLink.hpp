@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.HitReaction/HitPointEffector
 #include "RootMotion/FinalIK/HitReaction_HitPointEffector.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
@@ -39,18 +37,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x24
     UnityEngine::Vector3 current;
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Vector3 offset, System.Single crossFader)
-    // Offset: 0x136478C
+    // Offset: 0x13771D0
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Vector3 offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x1364580
+    // Offset: 0x1376FC4
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x13648C8
+    // Offset: 0x137730C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HitReaction::HitPointEffector::EffectorLink* New_ctor();
   }; // RootMotion.FinalIK.HitReaction/HitPointEffector/EffectorLink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*, "RootMotion.FinalIK", "HitReaction/HitPointEffector/EffectorLink");
 #pragma pack(pop)

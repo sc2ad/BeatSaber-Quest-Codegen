@@ -26,16 +26,16 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::DiContainer* Container;
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0xFAC7B4
+    // Offset: 0xFBF1F8
     Zenject::DiContainer* get_Container();
     // protected System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0xFAC7BC
+    // Offset: 0xFBF200
     void set_Container(Zenject::DiContainer* value);
     // public System.Void Start()
-    // Offset: 0xFAC7CC
+    // Offset: 0xFBF210
     void Start();
     // public System.Boolean get_IsEnabled()
-    // Offset: 0xFAC7C4
+    // Offset: 0xFBF208
     // Implemented from: Zenject.IInstaller
     // Base method: System.Boolean IInstaller::get_IsEnabled()
     bool get_IsEnabled();
@@ -43,12 +43,12 @@ namespace Zenject {
     // Maps to method: get_IsEnabled
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0xFAC7D0
+    // Offset: 0xFBF214
     // Implemented from: Zenject.IInstaller
     // Base method: System.Void IInstaller::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFAC7AC
+    // Offset: 0xFBF1F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -58,6 +58,6 @@ namespace Zenject {
     static MonoInstallerBase* New_ctor();
   }; // Zenject.MonoInstallerBase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerBase*, "Zenject", "MonoInstallerBase");
 #pragma pack(pop)

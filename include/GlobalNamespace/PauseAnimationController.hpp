@@ -32,28 +32,28 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Action* resumeFromPauseAnimationDidFinishEvent;
     // public System.Void add_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0xBBE1D8
+    // Offset: 0xBD0C1C
     void add_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // public System.Void remove_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0xBBE27C
+    // Offset: 0xBD0CC0
     void remove_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xBBE320
+    // Offset: 0xBD0D64
     void Awake();
     // public System.Void StartEnterPauseAnimation()
-    // Offset: 0xBBE35C
+    // Offset: 0xBD0DA0
     void StartEnterPauseAnimation();
     // public System.Void StartResumeFromPauseAnimation()
-    // Offset: 0xBBE3DC
+    // Offset: 0xBD0E20
     void StartResumeFromPauseAnimation();
     // public System.Void EnterPauseAnimationDidFinish()
-    // Offset: 0xBBE45C
+    // Offset: 0xBD0EA0
     void EnterPauseAnimationDidFinish();
     // public System.Void ResumeFromPauseAnimationDidFinish()
-    // Offset: 0xBBE498
+    // Offset: 0xBD0EDC
     void ResumeFromPauseAnimationDidFinish();
     // public System.Void .ctor()
-    // Offset: 0xBBE4F0
+    // Offset: 0xBD0F34
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     static PauseAnimationController* New_ctor();
   }; // PauseAnimationController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseAnimationController*, "", "PauseAnimationController");
 #pragma pack(pop)

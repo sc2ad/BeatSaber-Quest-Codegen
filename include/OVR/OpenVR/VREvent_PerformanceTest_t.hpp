@@ -19,6 +19,6 @@ namespace OVR::OpenVR {
     VREvent_PerformanceTest_t(uint m_nFidelityLevel_ = {}) : m_nFidelityLevel{m_nFidelityLevel_} {}
   }; // OVR.OpenVR.VREvent_PerformanceTest_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_PerformanceTest_t, "OVR.OpenVR", "VREvent_PerformanceTest_t");
 #pragma pack(pop)

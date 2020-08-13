@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: MemoryPoolWithActiveItems`1
-#include "GlobalNamespace/MemoryPoolWithActiveItems_1.hpp"
 // Including type: MissedNoteEffect
 #include "GlobalNamespace/MissedNoteEffect.hpp"
+// Including type: MemoryPoolWithActiveItems`1
+#include "GlobalNamespace/MemoryPoolWithActiveItems_1.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class MissedNoteEffect::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::MissedNoteEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBEE5B4
+    // Offset: 0xBFFFF8
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()
@@ -26,6 +26,6 @@ namespace GlobalNamespace {
     static MissedNoteEffect::Pool* New_ctor();
   }; // MissedNoteEffect/Pool
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissedNoteEffect::Pool*, "", "MissedNoteEffect/Pool");
 #pragma pack(pop)

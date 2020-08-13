@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TutorialSongController
 #include "GlobalNamespace/TutorialSongController.hpp"
 // Completed includes
@@ -19,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     float songBPM;
     // public System.Void .ctor(System.Single songBPM)
-    // Offset: 0xC358B4
+    // Offset: 0xC472F8
     static TutorialSongController::InitData* New_ctor(float songBPM);
   }; // TutorialSongController/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::InitData*, "", "TutorialSongController/InitData");
 #pragma pack(pop)

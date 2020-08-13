@@ -28,6 +28,6 @@ namespace OVR::OpenVR {
     HmdQuaternion_t(double w_ = {}, double x_ = {}, double y_ = {}, double z_ = {}) : w{w_}, x{x_}, y{y_}, z{z_} {}
   }; // OVR.OpenVR.HmdQuaternion_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdQuaternion_t, "OVR.OpenVR", "HmdQuaternion_t");
 #pragma pack(pop)

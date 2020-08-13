@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class ObjectiveValueFormatterSO : public GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.String FormatValue(System.Int32 value)
-    // Offset: 0xC1E168
+    // Offset: 0xC2FBAC
     ::CsString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0xC1E190
+    // Offset: 0xC2FBD4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -26,6 +26,6 @@ namespace GlobalNamespace {
     static ObjectiveValueFormatterSO* New_ctor();
   }; // ObjectiveValueFormatterSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveValueFormatterSO*, "", "ObjectiveValueFormatterSO");
 #pragma pack(pop)

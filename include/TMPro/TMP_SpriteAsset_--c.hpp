@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TMPro.TMP_SpriteAsset
 #include "TMPro/TMP_SpriteAsset.hpp"
 // Completed includes
@@ -46,21 +44,21 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_SpriteCharacter,System.UInt32> <>9__33_0
     static void _set_$$9__33_0(System::Func_2<TMPro::TMP_SpriteCharacter*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0xBA04E8
+    // Offset: 0xBB1F2C
     static void _cctor();
     // System.UInt32 <SortGlyphTable>b__32_0(TMPro.TMP_SpriteGlyph item)
-    // Offset: 0xBA0558
+    // Offset: 0xBB1F9C
     uint $SortGlyphTable$b__32_0(TMPro::TMP_SpriteGlyph* item);
     // System.UInt32 <SortCharacterTable>b__33_0(TMPro.TMP_SpriteCharacter c)
-    // Offset: 0xBA0574
+    // Offset: 0xBB1FB8
     uint $SortCharacterTable$b__33_0(TMPro::TMP_SpriteCharacter* c);
     // public System.Void .ctor()
-    // Offset: 0xBA0550
+    // Offset: 0xBB1F94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_SpriteAsset::$$c* New_ctor();
   }; // TMPro.TMP_SpriteAsset/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset::$$c*, "TMPro", "TMP_SpriteAsset/<>c");
 #pragma pack(pop)

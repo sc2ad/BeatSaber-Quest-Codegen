@@ -22,20 +22,20 @@ namespace System::IO {
     // Offset: 0x68
     System::Runtime::InteropServices::GCHandle pinningHandle;
     // System.Void .ctor(System.Byte[] array)
-    // Offset: 0xFF0FAC
+    // Offset: 0x10009F0
     static PinnedBufferMemoryStream* New_ctor(::Array<uint8_t>* array);
     // protected override System.Void Finalize()
-    // Offset: 0xFF1370
+    // Offset: 0x1000DB4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xFF13E8
+    // Offset: 0x1000E2C
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.IO.PinnedBufferMemoryStream
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::PinnedBufferMemoryStream*, "System.IO", "PinnedBufferMemoryStream");
 #pragma pack(pop)

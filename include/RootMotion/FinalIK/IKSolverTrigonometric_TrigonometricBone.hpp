@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: RootMotion.FinalIK.IKSolver/Bone
-#include "RootMotion/FinalIK/IKSolver_Bone.hpp"
 // Including type: RootMotion.FinalIK.IKSolverTrigonometric
 #include "RootMotion/FinalIK/IKSolverTrigonometric.hpp"
+// Including type: RootMotion.FinalIK.IKSolver/Bone
+#include "RootMotion/FinalIK/IKSolver_Bone.hpp"
 // Completed includes
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
@@ -22,16 +22,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x84
     UnityEngine::Vector3 defaultLocalBendNormal;
     // public System.Void Initiate(UnityEngine.Vector3 childPosition, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x133B12C
+    // Offset: 0x134EB70
     void Initiate(UnityEngine::Vector3 childPosition, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Quaternion GetRotation(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x133BCE4
+    // Offset: 0x134F728
     UnityEngine::Quaternion GetRotation(UnityEngine::Vector3 direction, UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Vector3 GetBendNormalFromCurrentRotation()
-    // Offset: 0x1335AE0
+    // Offset: 0x1349524
     UnityEngine::Vector3 GetBendNormalFromCurrentRotation();
     // public System.Void .ctor()
-    // Offset: 0x133BDAC
+    // Offset: 0x134F7F0
     // Implemented from: RootMotion.FinalIK.IKSolver/Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()
@@ -39,6 +39,6 @@ namespace RootMotion::FinalIK {
     static IKSolverTrigonometric::TrigonometricBone* New_ctor();
   }; // RootMotion.FinalIK.IKSolverTrigonometric/TrigonometricBone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone*, "RootMotion.FinalIK", "IKSolverTrigonometric/TrigonometricBone");
 #pragma pack(pop)

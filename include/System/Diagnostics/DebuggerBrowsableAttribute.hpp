@@ -19,10 +19,10 @@ namespace System::Diagnostics {
     // Offset: 0x10
     System::Diagnostics::DebuggerBrowsableState state;
     // public System.Void .ctor(System.Diagnostics.DebuggerBrowsableState state)
-    // Offset: 0xC80420
+    // Offset: 0xC91E64
     static DebuggerBrowsableAttribute* New_ctor(System::Diagnostics::DebuggerBrowsableState state);
   }; // System.Diagnostics.DebuggerBrowsableAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerBrowsableAttribute*, "System.Diagnostics", "DebuggerBrowsableAttribute");
 #pragma pack(pop)

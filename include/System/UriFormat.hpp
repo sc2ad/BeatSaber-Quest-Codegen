@@ -38,6 +38,6 @@ namespace System {
     UriFormat(int value_ = {}) : value{value_} {}
   }; // System.UriFormat
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriFormat, "System", "UriFormat");
 #pragma pack(pop)

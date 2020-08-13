@@ -38,6 +38,6 @@ namespace System::Net::Sockets {
     SocketShutdown(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.SocketShutdown
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketShutdown, "System.Net.Sockets", "SocketShutdown");
 #pragma pack(pop)

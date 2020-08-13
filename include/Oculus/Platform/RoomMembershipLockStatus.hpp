@@ -38,6 +38,6 @@ namespace Oculus::Platform {
     RoomMembershipLockStatus(int value_ = {}) : value{value_} {}
   }; // Oculus.Platform.RoomMembershipLockStatus
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomMembershipLockStatus, "Oculus.Platform", "RoomMembershipLockStatus");
 #pragma pack(pop)

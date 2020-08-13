@@ -27,32 +27,32 @@ namespace System::Security {
   class XmlSyntaxException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xDD951C
+    // Offset: 0xDEBF60
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static XmlSyntaxException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xDD896C
+    // Offset: 0xDEB3B0
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static XmlSyntaxException* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0xDD8974
+    // Offset: 0xDEB3B8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     static XmlSyntaxException* New_ctor(::CsString* message, System::Exception* inner);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDD9524
+    // Offset: 0xDEBF68
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static XmlSyntaxException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Security.XmlSyntaxException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::XmlSyntaxException*, "System.Security", "XmlSyntaxException");
 #pragma pack(pop)

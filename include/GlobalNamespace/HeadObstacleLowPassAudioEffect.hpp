@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool headWasInObstacle;
     // protected System.Void Update()
-    // Offset: 0xB42B90
+    // Offset: 0xB40B90
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB42C38
+    // Offset: 0xB40C38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static HeadObstacleLowPassAudioEffect* New_ctor();
   }; // HeadObstacleLowPassAudioEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadObstacleLowPassAudioEffect*, "", "HeadObstacleLowPassAudioEffect");
 #pragma pack(pop)

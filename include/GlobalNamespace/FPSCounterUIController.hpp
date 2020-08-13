@@ -56,16 +56,16 @@ namespace GlobalNamespace {
     // Offset: 0x48
     float timeToUpdateUI;
     // protected System.Void Awake()
-    // Offset: 0xBD6F24
+    // Offset: 0xBE9968
     void Awake();
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xBD6F9C
+    // Offset: 0xBE99E0
     System::Collections::IEnumerator* Start();
     // protected System.Void LateUpdate()
-    // Offset: 0xBD7044
+    // Offset: 0xBE9A88
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xBD7130
+    // Offset: 0xBE9B74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -75,6 +75,6 @@ namespace GlobalNamespace {
     static FPSCounterUIController* New_ctor();
   }; // FPSCounterUIController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController*, "", "FPSCounterUIController");
 #pragma pack(pop)

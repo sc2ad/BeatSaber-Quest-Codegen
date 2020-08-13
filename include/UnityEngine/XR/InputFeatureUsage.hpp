@@ -26,28 +26,28 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: InputFeatureUsage
     InputFeatureUsage(::CsString* m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
     // public System.String get_name()
-    // Offset: 0xA5B3B4
+    // Offset: 0xA5B430
     ::CsString* get_name();
     // UnityEngine.XR.InputFeatureType get_internalType()
-    // Offset: 0xA5B3BC
+    // Offset: 0xA5B438
     UnityEngine::XR::InputFeatureType get_internalType();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5B3C4
+    // Offset: 0xA5B440
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.InputFeatureUsage other)
-    // Offset: 0xA5B3CC
+    // Offset: 0xA5B448
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.InputFeatureUsage other)
     bool Equals(UnityEngine::XR::InputFeatureUsage other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5B410
+    // Offset: 0xA5B48C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.InputFeatureUsage
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");
 #pragma pack(pop)

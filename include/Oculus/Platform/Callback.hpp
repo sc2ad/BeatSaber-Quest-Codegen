@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.Message/MessageType
 #include "Oculus/Platform/Message.hpp"
 // Including type: Oculus.Platform.Message`1
@@ -65,28 +63,28 @@ namespace Oculus::Platform {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Oculus.Platform", "Callback", "SetNotificationCallback", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, type, callback));
     }
     // static System.Void SetNotificationCallback(Oculus.Platform.Message/MessageType type, Oculus.Platform.Message/Callback callback)
-    // Offset: 0xE805C0
+    // Offset: 0xE93004
     static void SetNotificationCallback(Oculus::Platform::Message::MessageType type, Oculus::Platform::Message::Callback* callback);
     // static System.Void AddRequest(Oculus.Platform.Request request)
-    // Offset: 0xE806F8
+    // Offset: 0xE9313C
     static void AddRequest(Oculus::Platform::Request* request);
     // static System.Void RunCallbacks()
-    // Offset: 0xE807C8
+    // Offset: 0xE9320C
     static void RunCallbacks();
     // static System.Void RunLimitedCallbacks(System.UInt32 limit)
-    // Offset: 0xE80AE4
+    // Offset: 0xE93528
     static void RunLimitedCallbacks(uint limit);
     // static System.Void OnApplicationQuit()
-    // Offset: 0xE80B7C
+    // Offset: 0xE935C0
     static void OnApplicationQuit();
     // static private System.Void FlushRoomInviteNotificationQueue()
-    // Offset: 0xE80C18
+    // Offset: 0xE9365C
     static void FlushRoomInviteNotificationQueue();
     // static System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0xE80938
+    // Offset: 0xE9337C
     static void HandleMessage(Oculus::Platform::Message* msg);
     // static private System.Void .cctor()
-    // Offset: 0xE80D8C
+    // Offset: 0xE937D0
     static void _cctor();
   }; // Oculus.Platform.Callback
 }

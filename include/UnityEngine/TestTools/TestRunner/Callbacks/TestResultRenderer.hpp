@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Including type: System.Int32
@@ -53,19 +51,19 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static private System.Int32 k_MaxStringLength
     static void _set_k_MaxStringLength(int value);
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE2D6E4
+    // Offset: 0xE40128
     static TestResultRenderer* New_ctor(NUnit::Framework::Interfaces::ITestResult* testResults);
     // private System.Void GetFailedTests(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE2ED6C
+    // Offset: 0xE417B0
     void GetFailedTests(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void ShowResults()
-    // Offset: 0xE2D778
+    // Offset: 0xE401BC
     void ShowResults();
     // public System.Void Draw()
-    // Offset: 0xE2D7A4
+    // Offset: 0xE401E8
     void Draw();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer");
 #pragma pack(pop)

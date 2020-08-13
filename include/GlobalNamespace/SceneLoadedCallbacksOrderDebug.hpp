@@ -23,22 +23,22 @@ namespace GlobalNamespace {
   class SceneLoadedCallbacksOrderDebug : public UnityEngine::MonoBehaviour {
     public:
     // protected System.Void Awake()
-    // Offset: 0xCA5D9C
+    // Offset: 0xCB87E0
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xCA5E08
+    // Offset: 0xCB884C
     void OnEnable();
     // protected System.Void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0xCA5EB8
+    // Offset: 0xCB88FC
     void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode);
     // protected System.Void Start()
-    // Offset: 0xCA5F80
+    // Offset: 0xCB89C4
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0xCA5FEC
+    // Offset: 0xCB8A30
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xCA609C
+    // Offset: 0xCB8AE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static SceneLoadedCallbacksOrderDebug* New_ctor();
   }; // SceneLoadedCallbacksOrderDebug
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneLoadedCallbacksOrderDebug*, "", "SceneLoadedCallbacksOrderDebug");
 #pragma pack(pop)

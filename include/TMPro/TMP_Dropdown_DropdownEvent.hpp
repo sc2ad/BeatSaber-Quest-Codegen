@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine/Events/UnityEvent_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Dropdown
 #include "TMPro/TMP_Dropdown.hpp"
+// Including type: UnityEngine.Events.UnityEvent`1
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -15,7 +16,7 @@ namespace TMPro {
   class TMP_Dropdown::DropdownEvent : public UnityEngine::Events::UnityEvent_1<int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB6BF74
+    // Offset: 0xB69F74
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -23,6 +24,6 @@ namespace TMPro {
     static TMP_Dropdown::DropdownEvent* New_ctor();
   }; // TMPro.TMP_Dropdown/DropdownEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::DropdownEvent*, "TMPro", "TMP_Dropdown/DropdownEvent");
 #pragma pack(pop)

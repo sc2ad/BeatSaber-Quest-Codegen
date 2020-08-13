@@ -36,13 +36,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected System.Void OnEnable()
-    // Offset: 0x18F7034
+    // Offset: 0x1906A78
     void OnEnable();
     // private System.Collections.IEnumerator FadeInAfterSceneTransitionCoroutine()
-    // Offset: 0x18F7088
+    // Offset: 0x1906ACC
     System::Collections::IEnumerator* FadeInAfterSceneTransitionCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x18F7130
+    // Offset: 0x1906B74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -52,6 +52,6 @@ namespace GlobalNamespace {
     static FadeInOnSceneTransitionFinished* New_ctor();
   }; // FadeInOnSceneTransitionFinished
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOnSceneTransitionFinished*, "", "FadeInOnSceneTransitionFinished");
 #pragma pack(pop)

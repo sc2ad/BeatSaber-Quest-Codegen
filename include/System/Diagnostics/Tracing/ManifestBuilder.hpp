@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.EventManifestOptions
 #include "System/Diagnostics/Tracing/EventManifestOptions.hpp"
 // Completed includes
@@ -127,76 +125,76 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x80
     System::Collections::Generic::List_1<int>* byteArrArgIndices;
     // public System.Void .ctor(System.String providerName, System.Guid providerGuid, System.String dllName, System.Resources.ResourceManager resources, System.Diagnostics.Tracing.EventManifestOptions flags)
-    // Offset: 0xD80F7C
+    // Offset: 0xD949C0
     static ManifestBuilder* New_ctor(::CsString* providerName, System::Guid providerGuid, ::CsString* dllName, System::Resources::ResourceManager* resources, System::Diagnostics::Tracing::EventManifestOptions flags);
     // public System.Void AddOpcode(System.String name, System.Int32 value)
-    // Offset: 0xD81328
+    // Offset: 0xD94D6C
     void AddOpcode(::CsString* name, int value);
     // public System.Void AddTask(System.String name, System.Int32 value)
-    // Offset: 0xD81774
+    // Offset: 0xD951B8
     void AddTask(::CsString* name, int value);
     // public System.Void AddKeyword(System.String name, System.UInt64 value)
-    // Offset: 0xD81A68
+    // Offset: 0xD954AC
     void AddKeyword(::CsString* name, uint64_t value);
     // public System.Void StartEvent(System.String eventName, System.Diagnostics.Tracing.EventAttribute eventAttribute)
-    // Offset: 0xD81F20
+    // Offset: 0xD95964
     void StartEvent(::CsString* eventName, System::Diagnostics::Tracing::EventAttribute* eventAttribute);
     // public System.Void AddEventParameter(System.Type type, System.String name)
-    // Offset: 0xD82A6C
+    // Offset: 0xD964B0
     void AddEventParameter(System::Type* type, ::CsString* name);
     // public System.Void EndEvent()
-    // Offset: 0xD833F0
+    // Offset: 0xD96E34
     void EndEvent();
     // public System.Byte[] CreateManifest()
-    // Offset: 0xD83EF0
+    // Offset: 0xD97934
     ::Array<uint8_t>* CreateManifest();
     // public System.Collections.Generic.IList`1<System.String> get_Errors()
-    // Offset: 0xD85360
+    // Offset: 0xD98DA4
     System::Collections::Generic::IList_1<::CsString*>* get_Errors();
     // public System.Void ManifestError(System.String msg, System.Boolean runtimeCritical)
-    // Offset: 0xD8165C
+    // Offset: 0xD950A0
     void ManifestError(::CsString* msg, bool runtimeCritical);
     // private System.String CreateManifestString()
-    // Offset: 0xD83F30
+    // Offset: 0xD97974
     ::CsString* CreateManifestString();
     // private System.Void WriteNameAndMessageAttribs(System.Text.StringBuilder stringBuilder, System.String elementName, System.String name)
-    // Offset: 0xD85368
+    // Offset: 0xD98DAC
     void WriteNameAndMessageAttribs(System::Text::StringBuilder* stringBuilder, ::CsString* elementName, ::CsString* name);
     // private System.Void WriteMessageAttrib(System.Text.StringBuilder stringBuilder, System.String elementName, System.String name, System.String value)
-    // Offset: 0xD822C8
+    // Offset: 0xD95D0C
     void WriteMessageAttrib(System::Text::StringBuilder* stringBuilder, ::CsString* elementName, ::CsString* name, ::CsString* value);
     // System.String GetLocalizedMessage(System.String key, System.Globalization.CultureInfo ci, System.Boolean etwFormat)
-    // Offset: 0xD855D4
+    // Offset: 0xD99018
     ::CsString* GetLocalizedMessage(::CsString* key, System::Globalization::CultureInfo* ci, bool etwFormat);
     // static private System.Collections.Generic.List`1<System.Globalization.CultureInfo> GetSupportedCultures(System.Resources.ResourceManager resources)
-    // Offset: 0xD85420
+    // Offset: 0xD98E64
     static System::Collections::Generic::List_1<System::Globalization::CultureInfo*>* GetSupportedCultures(System::Resources::ResourceManager* resources);
     // static private System.String GetLevelName(System.Diagnostics.Tracing.EventLevel level)
-    // Offset: 0xD82204
+    // Offset: 0xD95C48
     static ::CsString* GetLevelName(System::Diagnostics::Tracing::EventLevel level);
     // private System.String GetTaskName(System.Diagnostics.Tracing.EventTask task, System.String eventName)
-    // Offset: 0xD8296C
+    // Offset: 0xD963B0
     ::CsString* GetTaskName(System::Diagnostics::Tracing::EventTask task, ::CsString* eventName);
     // private System.String GetOpcodeName(System.Diagnostics.Tracing.EventOpcode opcode, System.String eventName)
-    // Offset: 0xD82758
+    // Offset: 0xD9619C
     ::CsString* GetOpcodeName(System::Diagnostics::Tracing::EventOpcode opcode, ::CsString* eventName);
     // private System.String GetKeywords(System.UInt64 keywords, System.String eventName)
-    // Offset: 0xD824D8
+    // Offset: 0xD95F1C
     ::CsString* GetKeywords(uint64_t keywords, ::CsString* eventName);
     // private System.String GetTypeName(System.Type type)
-    // Offset: 0xD82F9C
+    // Offset: 0xD969E0
     ::CsString* GetTypeName(System::Type* type);
     // static private System.Void UpdateStringBuilder(System.Text.StringBuilder stringBuilder, System.String eventMessage, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xD856F0
+    // Offset: 0xD99134
     static void UpdateStringBuilder(System::Text::StringBuilder*& stringBuilder, ::CsString* eventMessage, int startIndex, int count);
     // private System.String TranslateToManifestConvention(System.String eventMessage, System.String evtName)
-    // Offset: 0xD835D4
+    // Offset: 0xD97018
     ::CsString* TranslateToManifestConvention(::CsString* eventMessage, ::CsString* evtName);
     // private System.Int32 TranslateIndexToManifestConvention(System.Int32 idx, System.String evtName)
-    // Offset: 0xD857AC
+    // Offset: 0xD991F0
     int TranslateIndexToManifestConvention(int idx, ::CsString* evtName);
   }; // System.Diagnostics.Tracing.ManifestBuilder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestBuilder*, "System.Diagnostics.Tracing", "ManifestBuilder");
 #pragma pack(pop)

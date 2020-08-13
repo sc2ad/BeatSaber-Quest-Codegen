@@ -37,13 +37,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::OculusDeeplinkManager* oculusDeeplinkManager;
     // public System.Void Init()
-    // Offset: 0xC240DC
+    // Offset: 0xC35B20
     void Init();
     // private System.Void InitCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.PlatformInitialize> msg)
-    // Offset: 0xC2429C
+    // Offset: 0xC35CE0
     void InitCallback(Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize*>* msg);
     // public System.Void .ctor()
-    // Offset: 0xC24434
+    // Offset: 0xC35E78
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -53,6 +53,6 @@ namespace GlobalNamespace {
     static OculusInit* New_ctor();
   }; // OculusInit
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit*, "", "OculusInit");
 #pragma pack(pop)

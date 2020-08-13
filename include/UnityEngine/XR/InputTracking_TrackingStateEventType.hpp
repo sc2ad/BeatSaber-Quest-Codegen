@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.XR.InputTracking
 #include "UnityEngine/XR/InputTracking.hpp"
 // Completed includes
@@ -46,6 +44,6 @@ namespace UnityEngine::XR {
     TrackingStateEventType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.XR.InputTracking/TrackingStateEventType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputTracking::TrackingStateEventType, "UnityEngine.XR", "InputTracking/TrackingStateEventType");
 #pragma pack(pop)

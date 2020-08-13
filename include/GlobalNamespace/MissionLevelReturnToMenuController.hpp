@@ -31,12 +31,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // public System.Void ReturnToMenu()
-    // Offset: 0xBF2100
+    // Offset: 0xC03B44
     // Implemented from: IReturnToMenuController
     // Base method: System.Void IReturnToMenuController::ReturnToMenu()
     void ReturnToMenu();
     // public System.Void .ctor()
-    // Offset: 0xBF219C
+    // Offset: 0xC03BE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -46,6 +46,6 @@ namespace GlobalNamespace {
     static MissionLevelReturnToMenuController* New_ctor();
   }; // MissionLevelReturnToMenuController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelReturnToMenuController*, "", "MissionLevelReturnToMenuController");
 #pragma pack(pop)

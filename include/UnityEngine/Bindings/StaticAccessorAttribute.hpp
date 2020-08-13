@@ -22,19 +22,19 @@ namespace UnityEngine::Bindings {
     // Offset: 0x18
     UnityEngine::Bindings::StaticAccessorType Type;
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1959424
+    // Offset: 0x196AE68
     void set_Name(::CsString* value);
     // public System.Void set_Type(UnityEngine.Bindings.StaticAccessorType value)
-    // Offset: 0x195942C
+    // Offset: 0x196AE70
     void set_Type(UnityEngine::Bindings::StaticAccessorType value);
     // System.Void .ctor(System.String name)
-    // Offset: 0x1959434
+    // Offset: 0x196AE78
     static StaticAccessorAttribute* New_ctor(::CsString* name);
     // public System.Void .ctor(System.String name, UnityEngine.Bindings.StaticAccessorType type)
-    // Offset: 0x1959468
+    // Offset: 0x196AEAC
     static StaticAccessorAttribute* New_ctor(::CsString* name, UnityEngine::Bindings::StaticAccessorType type);
   }; // UnityEngine.Bindings.StaticAccessorAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::StaticAccessorAttribute*, "UnityEngine.Bindings", "StaticAccessorAttribute");
 #pragma pack(pop)

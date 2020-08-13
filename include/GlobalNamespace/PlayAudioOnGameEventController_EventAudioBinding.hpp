@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PlayAudioOnGameEventController
 #include "GlobalNamespace/PlayAudioOnGameEventController.hpp"
 // Completed includes
@@ -48,21 +46,21 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomObjectPicker;
     // public System.Void Init(AudioClipQueue audioClipQueue)
-    // Offset: 0xBC3E64
+    // Offset: 0xBD68A8
     void Init(GlobalNamespace::AudioClipQueue* audioClipQueue);
     // public System.Void Deinit()
-    // Offset: 0xBC3FB0
+    // Offset: 0xBD69F4
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0xBC4044
+    // Offset: 0xBD6A88
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0xBC40F8
+    // Offset: 0xBD6B3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayAudioOnGameEventController::EventAudioBinding* New_ctor();
   }; // PlayAudioOnGameEventController/EventAudioBinding
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*, "", "PlayAudioOnGameEventController/EventAudioBinding");
 #pragma pack(pop)

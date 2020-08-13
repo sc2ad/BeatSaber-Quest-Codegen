@@ -44,27 +44,27 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::VRsenalLogger* vrsenalLoggerPrefab;
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0xBBB104
+    // Offset: 0xBCDB48
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0xBBB170
+    // Offset: 0xBCDBB4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0xBBB1BC
+    // Offset: 0xBCDC00
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0xBBB1F8
+    // Offset: 0xBCDC3C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xBBB2DC
+    // Offset: 0xBCDD20
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -77,6 +77,6 @@ namespace GlobalNamespace {
     static PCArcadeAppInit* New_ctor();
   }; // PCArcadeAppInit
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCArcadeAppInit*, "", "PCArcadeAppInit");
 #pragma pack(pop)

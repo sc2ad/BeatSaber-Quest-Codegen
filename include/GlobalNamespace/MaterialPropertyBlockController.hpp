@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x18144DC
+    // Offset: 0x1824F20
     ::Array<UnityEngine::Renderer*>* get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x1810AB0
+    // Offset: 0x18214F4
     UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void ApplyChanges()
-    // Offset: 0x1810B28
+    // Offset: 0x182156C
     void ApplyChanges();
     // public System.Void .ctor()
-    // Offset: 0x18144E4
+    // Offset: 0x1824F28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static MaterialPropertyBlockController* New_ctor();
   }; // MaterialPropertyBlockController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockController*, "", "MaterialPropertyBlockController");
 #pragma pack(pop)

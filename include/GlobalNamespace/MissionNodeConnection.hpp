@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool isActive;
     // public MissionNodeVisualController get_parentMissionNode()
-    // Offset: 0xBF3A68
+    // Offset: 0xC054AC
     GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();
     // public MissionNodeVisualController get_childMissionNode()
-    // Offset: 0xBF3A70
+    // Offset: 0xC054B4
     GlobalNamespace::MissionNodeVisualController* get_childMissionNode();
     // public System.Boolean get_isActive()
-    // Offset: 0xBF3A78
+    // Offset: 0xC054BC
     bool get_isActive();
     // public System.Void Setup(MissionNodeVisualController parentMissionNode, MissionNodeVisualController childMissionNode)
-    // Offset: 0xBF3A80
+    // Offset: 0xC054C4
     void Setup(GlobalNamespace::MissionNodeVisualController* parentMissionNode, GlobalNamespace::MissionNodeVisualController* childMissionNode);
     // public System.Void UpdateConnectionRectTransform()
-    // Offset: 0xBF3ABC
+    // Offset: 0xC05500
     void UpdateConnectionRectTransform();
     // public System.Void SetActive(System.Boolean animated)
-    // Offset: 0xBF34E4
+    // Offset: 0xC04F28
     void SetActive(bool animated);
     // public System.Void MissionConnectionEnabledDidFinish()
-    // Offset: 0xBF3DAC
+    // Offset: 0xC057F0
     void MissionConnectionEnabledDidFinish();
     // public System.Void .ctor()
-    // Offset: 0xBF3DCC
+    // Offset: 0xC05810
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -96,6 +96,6 @@ namespace GlobalNamespace {
     static MissionNodeConnection* New_ctor();
   }; // MissionNodeConnection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeConnection*, "", "MissionNodeConnection");
 #pragma pack(pop)

@@ -49,16 +49,16 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventSourceOptions
     EventSourceOptions(System::Diagnostics::Tracing::EventKeywords keywords_ = {}, System::Diagnostics::Tracing::EventTags tags_ = {}, System::Diagnostics::Tracing::EventActivityOptions activityOptions_ = {}, uint8_t level_ = {}, uint8_t opcode_ = {}, uint8_t valuesSet_ = {}) : keywords{keywords_}, tags{tags_}, activityOptions{activityOptions_}, level{level_}, opcode{opcode_}, valuesSet{valuesSet_} {}
     // public System.Void set_Level(System.Diagnostics.Tracing.EventLevel value)
-    // Offset: 0xA2B4E0
+    // Offset: 0xA2B55C
     void set_Level(System::Diagnostics::Tracing::EventLevel value);
     // public System.Void set_Opcode(System.Diagnostics.Tracing.EventOpcode value)
-    // Offset: 0xA2B4E8
+    // Offset: 0xA2B564
     void set_Opcode(System::Diagnostics::Tracing::EventOpcode value);
     // public System.Void set_Keywords(System.Diagnostics.Tracing.EventKeywords value)
-    // Offset: 0xA2B4F0
+    // Offset: 0xA2B56C
     void set_Keywords(System::Diagnostics::Tracing::EventKeywords value);
   }; // System.Diagnostics.Tracing.EventSourceOptions
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSourceOptions, "System.Diagnostics.Tracing", "EventSourceOptions");
 #pragma pack(pop)

@@ -28,13 +28,13 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Material material
     static void _set_material(UnityEngine::Material* value);
     // public System.Void Set(UnityEngine.Vector3 N, System.Single phi0, System.Single phi1, System.Single theta0, System.Single theta1, UnityEngine.Vector3 uAxis, UnityEngine.Vector3 uOrigin, System.Single uScale, UnityEngine.Vector3 vAxis, UnityEngine.Vector3 vOrigin, System.Single vScale)
-    // Offset: 0xD7BEAC
+    // Offset: 0xD8F8F0
     void Set(UnityEngine::Vector3 N, float phi0, float phi1, float theta0, float theta1, UnityEngine::Vector3 uAxis, UnityEngine::Vector3 uOrigin, float uScale, UnityEngine::Vector3 vAxis, UnityEngine::Vector3 vOrigin, float vScale);
     // private System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0xD7C254
+    // Offset: 0xD8FC98
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0xD7C2E4
+    // Offset: 0xD8FD28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -44,6 +44,6 @@ namespace GlobalNamespace {
     static SteamVR_SphericalProjection* New_ctor();
   }; // SteamVR_SphericalProjection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_SphericalProjection*, "", "SteamVR_SphericalProjection");
 #pragma pack(pop)

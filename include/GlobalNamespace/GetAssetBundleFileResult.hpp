@@ -28,6 +28,6 @@ namespace GlobalNamespace {
     static GetAssetBundleFileResult* New_ctor(bool isError, ::CsString* assetBundlePath);
   }; // GetAssetBundleFileResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");
 #pragma pack(pop)

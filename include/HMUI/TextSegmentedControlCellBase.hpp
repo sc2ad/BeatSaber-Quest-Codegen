@@ -24,22 +24,22 @@ namespace HMUI {
     // Offset: 0x38
     TMPro::TextMeshProUGUI* text;
     // public System.Void set_text(System.String value)
-    // Offset: 0x10D45B4
+    // Offset: 0x10E4FF8
     void set_text(::CsString* value);
     // public System.String get_text()
-    // Offset: 0x10D46E4
+    // Offset: 0x10E5128
     ::CsString* get_text();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x10D4598
+    // Offset: 0x10E4FDC
     void set_fontSize(float value);
     // public System.Single get_fontSize()
-    // Offset: 0x10D4700
+    // Offset: 0x10E5144
     float get_fontSize();
     // public System.Single get_preferredWidth()
-    // Offset: 0x10D45D0
+    // Offset: 0x10E5014
     float get_preferredWidth();
     // public System.Void .ctor()
-    // Offset: 0x10D46DC
+    // Offset: 0x10E5120
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -51,6 +51,6 @@ namespace HMUI {
     static TextSegmentedControlCellBase* New_ctor();
   }; // HMUI.TextSegmentedControlCellBase
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControlCellBase*, "HMUI", "TextSegmentedControlCellBase");
 #pragma pack(pop)

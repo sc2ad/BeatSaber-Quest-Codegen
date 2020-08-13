@@ -28,38 +28,38 @@ namespace System {
     // Offset: 0x88
     System::Threading::CancellationToken cancellationToken;
     // public System.Threading.CancellationToken get_CancellationToken()
-    // Offset: 0x1347A74
+    // Offset: 0x135A4B8
     System::Threading::CancellationToken get_CancellationToken();
     // private System.Void set_CancellationToken(System.Threading.CancellationToken value)
-    // Offset: 0x1347A7C
+    // Offset: 0x135A4C0
     void set_CancellationToken(System::Threading::CancellationToken value);
     // public System.Void .ctor(System.Threading.CancellationToken token)
-    // Offset: 0x1347B30
+    // Offset: 0x135A574
     static OperationCanceledException* New_ctor(System::Threading::CancellationToken token);
     // public System.Void .ctor(System.String message, System.Threading.CancellationToken token)
-    // Offset: 0x1347B60
+    // Offset: 0x135A5A4
     static OperationCanceledException* New_ctor(::CsString* message, System::Threading::CancellationToken token);
     // public System.Void .ctor()
-    // Offset: 0x1347A88
+    // Offset: 0x135A4CC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static OperationCanceledException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1347AFC
+    // Offset: 0x135A540
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static OperationCanceledException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1347BA8
+    // Offset: 0x135A5EC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static OperationCanceledException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.OperationCanceledException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::OperationCanceledException*, "System", "OperationCanceledException");
 #pragma pack(pop)

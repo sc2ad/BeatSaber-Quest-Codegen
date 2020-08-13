@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     UnityEngine::Vector3 get_rotationOffset();
     // protected System.Void .ctor()
-    // Offset: 0xCA9A3C
+    // Offset: 0xCBC480
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -36,6 +36,6 @@ namespace GlobalNamespace {
     static VRControllerTransformOffset* New_ctor();
   }; // VRControllerTransformOffset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllerTransformOffset*, "", "VRControllerTransformOffset");
 #pragma pack(pop)

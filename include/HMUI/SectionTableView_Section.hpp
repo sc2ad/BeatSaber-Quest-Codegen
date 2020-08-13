@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: HMUI.SectionTableView
 #include "HMUI/SectionTableView.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {
@@ -27,6 +27,6 @@ namespace HMUI {
     Section(bool unfolded_ = {}, int startBaseRow_ = {}, int numberOfBaseRows_ = {}) : unfolded{unfolded_}, startBaseRow{startBaseRow_}, numberOfBaseRows{numberOfBaseRows_} {}
   }; // HMUI.SectionTableView/Section
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.Experimental.XR.Boundary
 #include "UnityEngine/Experimental/XR/Boundary.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Experimental.XR
 namespace UnityEngine::Experimental::XR {
@@ -34,6 +34,6 @@ namespace UnityEngine::Experimental::XR {
     Type(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Experimental.XR.Boundary/Type
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary::Type, "UnityEngine.Experimental.XR", "Boundary/Type");
 #pragma pack(pop)

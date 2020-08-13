@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRSystemPerfMetrics
 #include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
+// Including type: UnityEngine.MonoBehaviour
+#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: OVRNetwork
 #include "GlobalNamespace/OVRNetwork.hpp"
 // Completed includes
@@ -28,19 +28,19 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int listeningPort;
     // private System.Void OnEnable()
-    // Offset: 0x18E50C8
+    // Offset: 0x18F5B0C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18E520C
+    // Offset: 0x18F5C50
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x18E52C4
+    // Offset: 0x18F5D08
     void Update();
     // private OVRSystemPerfMetrics/PerfMetrics GatherPerfMetrics()
-    // Offset: 0x18E534C
+    // Offset: 0x18F5D90
     GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics* GatherPerfMetrics();
     // public System.Void .ctor()
-    // Offset: 0x18E59FC
+    // Offset: 0x18F6440
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -49,12 +49,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18E5A78
+    // Offset: 0x18F64BC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*, "", "OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Diagnostics.Tracing.TraceLoggingMetadataCollector
 #include "System/Diagnostics/Tracing/TraceLoggingMetadataCollector.hpp"
 // Completed includes
@@ -47,27 +45,27 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x20
     bool scalar;
     // public System.Void AddScalar(System.Int32 size)
-    // Offset: 0xD888B0
+    // Offset: 0xD9C2F4
     void AddScalar(int size);
     // public System.Void AddNonscalar()
-    // Offset: 0xD88958
+    // Offset: 0xD9C39C
     void AddNonscalar();
     // public System.Void BeginBuffered()
-    // Offset: 0xD88A94
+    // Offset: 0xD9C4D8
     void BeginBuffered();
     // public System.Void EndBuffered()
-    // Offset: 0xD88B78
+    // Offset: 0xD9C5BC
     void EndBuffered();
     // public System.Int32 Encode(System.Byte[] metadata)
-    // Offset: 0xD88B88
+    // Offset: 0xD9C5CC
     int Encode(::Array<uint8_t>* metadata);
     // public System.Void .ctor()
-    // Offset: 0xD88648
+    // Offset: 0xD9C08C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TraceLoggingMetadataCollector::Impl* New_ctor();
   }; // System.Diagnostics.Tracing.TraceLoggingMetadataCollector/Impl
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingMetadataCollector::Impl*, "System.Diagnostics.Tracing", "TraceLoggingMetadataCollector/Impl");
 #pragma pack(pop)

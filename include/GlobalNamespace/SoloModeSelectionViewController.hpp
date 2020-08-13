@@ -83,33 +83,33 @@ namespace GlobalNamespace {
     // Offset: 0x88
     System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0xB8699C
+    // Offset: 0xB983E0
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0xB86A40
+    // Offset: 0xB98484
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // private System.Void HandleMenuButton(SoloModeSelectionViewController/MenuType subMenuType)
-    // Offset: 0xB86C68
+    // Offset: 0xB986AC
     void HandleMenuButton(GlobalNamespace::SoloModeSelectionViewController::MenuType subMenuType);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0xB86CE8
+    // Offset: 0xB9872C
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0xB86CF0
+    // Offset: 0xB98734
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0xB86CF8
+    // Offset: 0xB9873C
     void $DidActivate$b__8_2();
     // private System.Void <DidActivate>b__8_3()
-    // Offset: 0xB86D00
+    // Offset: 0xB98744
     void $DidActivate$b__8_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB86AE4
+    // Offset: 0xB98528
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB86CE0
+    // Offset: 0xB98724
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     static SoloModeSelectionViewController* New_ctor();
   }; // SoloModeSelectionViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController*, "", "SoloModeSelectionViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController::MenuType, "", "SoloModeSelectionViewController/MenuType");
 #pragma pack(pop)

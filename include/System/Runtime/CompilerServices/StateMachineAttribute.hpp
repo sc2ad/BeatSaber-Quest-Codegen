@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -23,13 +24,13 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::Type* StateMachineType;
     // private System.Void set_StateMachineType(System.Type value)
-    // Offset: 0x11500B4
+    // Offset: 0x1161AF8
     void set_StateMachineType(System::Type* value);
     // public System.Void .ctor(System.Type stateMachineType)
-    // Offset: 0x114F2FC
+    // Offset: 0x1160D40
     static StateMachineAttribute* New_ctor(System::Type* stateMachineType);
   }; // System.Runtime.CompilerServices.StateMachineAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::StateMachineAttribute*, "System.Runtime.CompilerServices", "StateMachineAttribute");
 #pragma pack(pop)

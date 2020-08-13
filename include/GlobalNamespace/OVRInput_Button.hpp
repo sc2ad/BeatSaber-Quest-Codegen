@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: OVRInput
 #include "GlobalNamespace/OVRInput.hpp"
 // Completed includes
@@ -226,6 +224,6 @@ namespace GlobalNamespace {
     Button(int value_ = {}) : value{value_} {}
   }; // OVRInput/Button
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Button, "", "OVRInput/Button");
 #pragma pack(pop)

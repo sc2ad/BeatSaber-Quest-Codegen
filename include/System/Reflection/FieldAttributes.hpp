@@ -134,6 +134,6 @@ namespace System::Reflection {
     FieldAttributes(int value_ = {}) : value{value_} {}
   }; // System.Reflection.FieldAttributes
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::FieldAttributes, "System.Reflection", "FieldAttributes");
 #pragma pack(pop)

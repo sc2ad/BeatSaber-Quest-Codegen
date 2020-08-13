@@ -23,18 +23,18 @@ namespace NUnit::Framework::Internal {
   class InvalidDataSourceException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18D4698
+    // Offset: 0x18E50DC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidDataSourceException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18D4700
+    // Offset: 0x18E5144
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static InvalidDataSourceException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // NUnit.Framework.Internal.InvalidDataSourceException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InvalidDataSourceException*, "NUnit.Framework.Internal", "InvalidDataSourceException");
 #pragma pack(pop)

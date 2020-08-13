@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.InjectSources
 #include "Zenject/InjectSources.hpp"
 // Completed includes
@@ -41,10 +39,10 @@ namespace Zenject {
     // Offset: 0x38
     ::CsObject* DefaultValue;
     // public System.Void .ctor(System.Boolean optional, System.Object identifier, System.String memberName, System.Type memberType, System.Object defaultValue, Zenject.InjectSources sourceType)
-    // Offset: 0x1945EA4
+    // Offset: 0x19588E8
     static InjectableInfo* New_ctor(bool optional, ::CsObject* identifier, ::CsString* memberName, System::Type* memberType, ::CsObject* defaultValue, Zenject::InjectSources sourceType);
   }; // Zenject.InjectableInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectableInfo*, "Zenject", "InjectableInfo");
 #pragma pack(pop)

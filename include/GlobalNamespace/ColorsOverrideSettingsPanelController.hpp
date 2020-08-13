@@ -90,42 +90,42 @@ namespace GlobalNamespace {
     // Offset: 0x70
     HMUI::ButtonBinder* buttonBinder;
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0xBCB530
+    // Offset: 0xBDDF74
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void SetData(ColorSchemesSettings colorSchemesSettings)
-    // Offset: 0xBCB538
+    // Offset: 0xBDDF7C
     void SetData(GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0xBCB898
+    // Offset: 0xBDE2DC
     void OnDestroy();
     // protected System.Void OnDisable()
-    // Offset: 0xBCBBD0
+    // Offset: 0xBDE614
     void OnDisable();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0xBCBDC0
+    // Offset: 0xBDE804
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideColorsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0xBCBE34
+    // Offset: 0xBDE878
     void HandleOverrideColorsToggleValueChanged(bool isOn);
     // private System.Void HandleEditColorSchemeButtonWasPressed()
-    // Offset: 0xBCBF48
+    // Offset: 0xBDE98C
     void HandleEditColorSchemeButtonWasPressed();
     // private System.Void HandleEditColorSchemeControllerDidFinish()
-    // Offset: 0xBCBFE4
+    // Offset: 0xBDEA28
     void HandleEditColorSchemeControllerDidFinish();
     // private System.Void HandleEditColorSchemeControllerDidChangeColorScheme(ColorScheme colorScheme)
-    // Offset: 0xBCC040
+    // Offset: 0xBDEA84
     void HandleEditColorSchemeControllerDidChangeColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // private System.Void <HandleOverrideColorsToggleValueChanged>b__19_0()
-    // Offset: 0xBCC060
+    // Offset: 0xBDEAA4
     void $HandleOverrideColorsToggleValueChanged$b__19_0();
     // public System.Void Refresh()
-    // Offset: 0xBCBBF4
+    // Offset: 0xBDE638
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0xBCC058
+    // Offset: 0xBDEA9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -135,6 +135,6 @@ namespace GlobalNamespace {
     static ColorsOverrideSettingsPanelController* New_ctor();
   }; // ColorsOverrideSettingsPanelController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorsOverrideSettingsPanelController*, "", "ColorsOverrideSettingsPanelController");
 #pragma pack(pop)

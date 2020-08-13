@@ -22,6 +22,6 @@ namespace Valve::VR {
     VRControllerAxis_t(float x_ = {}, float y_ = {}) : x{x_}, y{y_} {}
   }; // Valve.VR.VRControllerAxis_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerAxis_t, "Valve.VR", "VRControllerAxis_t");
 #pragma pack(pop)

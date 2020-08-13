@@ -74,101 +74,101 @@ namespace System::IO {
     // Set static field: static private System.Text.Encoding _UTF8NoBOM
     static void _set__UTF8NoBOM(System::Text::Encoding* value);
     // private System.Void CheckAsyncTaskInProgress()
-    // Offset: 0xFF523C
+    // Offset: 0x1004C80
     void CheckAsyncTaskInProgress();
     // static System.Text.Encoding get_UTF8NoBOM()
-    // Offset: 0xFF52E4
+    // Offset: 0x1004D28
     static System::Text::Encoding* get_UTF8NoBOM();
     // public System.Void .ctor(System.IO.Stream stream)
-    // Offset: 0xFF54F0
+    // Offset: 0x1004F34
     static StreamWriter* New_ctor(System::IO::Stream* stream);
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Int32 bufferSize, System.Boolean leaveOpen)
-    // Offset: 0xFF5574
+    // Offset: 0x1004FB8
     static StreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, int bufferSize, bool leaveOpen);
     // public System.Void .ctor(System.String path)
-    // Offset: 0xFF5898
+    // Offset: 0x10052DC
     static StreamWriter* New_ctor(::CsString* path);
     // public System.Void .ctor(System.String path, System.Boolean append)
-    // Offset: 0xFF592C
+    // Offset: 0x1005370
     static StreamWriter* New_ctor(::CsString* path, bool append);
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding)
-    // Offset: 0xFF59B8
+    // Offset: 0x10053FC
     static StreamWriter* New_ctor(::CsString* path, bool append, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize)
-    // Offset: 0xFF5920
+    // Offset: 0x1005364
     static StreamWriter* New_ctor(::CsString* path, bool append, System::Text::Encoding* encoding, int bufferSize);
     // System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize, System.Boolean checkHost)
-    // Offset: 0xFF59C8
+    // Offset: 0x100540C
     static StreamWriter* New_ctor(::CsString* path, bool append, System::Text::Encoding* encoding, int bufferSize, bool checkHost);
     // private System.Void Init(System.IO.Stream streamArg, System.Text.Encoding encodingArg, System.Int32 bufferSize, System.Boolean shouldLeaveOpen)
-    // Offset: 0xFF571C
+    // Offset: 0x1005160
     void Init(System::IO::Stream* streamArg, System::Text::Encoding* encodingArg, int bufferSize, bool shouldLeaveOpen);
     // static private System.IO.Stream CreateFile(System.String path, System.Boolean append, System.Boolean checkHost)
-    // Offset: 0xFF5BB0
+    // Offset: 0x10055F4
     static System::IO::Stream* CreateFile(::CsString* path, bool append, bool checkHost);
     // private System.Void Flush(System.Boolean flushStream, System.Boolean flushEncoder)
-    // Offset: 0xFF5EAC
+    // Offset: 0x10058F0
     void Flush(bool flushStream, bool flushEncoder);
     // public System.Void set_AutoFlush(System.Boolean value)
-    // Offset: 0xFF60B8
+    // Offset: 0x1005AFC
     void set_AutoFlush(bool value);
     // System.Boolean get_LeaveOpen()
-    // Offset: 0xFF5E9C
+    // Offset: 0x10058E0
     bool get_LeaveOpen();
     // System.Void .ctor()
-    // Offset: 0xFF53DC
+    // Offset: 0x1004E20
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static StreamWriter* New_ctor();
     // public override System.Void Close()
-    // Offset: 0xFF5C9C
+    // Offset: 0x10056E0
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xFF5D18
+    // Offset: 0x100575C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void Flush()
-    // Offset: 0xFF6008
+    // Offset: 0x1005A4C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Flush()
     void Flush();
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0xFF610C
+    // Offset: 0x1005B50
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char value)
-    // Offset: 0xFF6114
+    // Offset: 0x1005B58
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.Char[] buffer)
-    // Offset: 0xFF61B0
+    // Offset: 0x1005BF4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer)
     void Write(::Array<::Il2CppChar>* buffer);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF6288
+    // Offset: 0x1005CCC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0xFF64C0
+    // Offset: 0x1005F04
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::CsString* value);
     // static private System.Void .cctor()
-    // Offset: 0xFF6594
+    // Offset: 0x1005FD8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.cctor()
     static void _cctor();
   }; // System.IO.StreamWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamWriter*, "System.IO", "StreamWriter");
 #pragma pack(pop)

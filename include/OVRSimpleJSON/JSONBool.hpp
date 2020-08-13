@@ -31,63 +31,63 @@ namespace OVRSimpleJSON {
     // Offset: 0x10
     bool m_Data;
     // public System.Void .ctor(System.Boolean aData)
-    // Offset: 0xF3B644
+    // Offset: 0xF4C088
     static JSONBool* New_ctor(bool aData);
     // public System.Void .ctor(System.String aData)
-    // Offset: 0xF3B6C4
+    // Offset: 0xF4C108
     static JSONBool* New_ctor(::CsString* aData);
     // public override OVRSimpleJSON.JSONNodeType get_Tag()
-    // Offset: 0xF3B568
+    // Offset: 0xF4BFAC
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNodeType JSONNode::get_Tag()
     OVRSimpleJSON::JSONNodeType get_Tag();
     // public override System.Boolean get_IsBoolean()
-    // Offset: 0xF3B570
+    // Offset: 0xF4BFB4
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::get_IsBoolean()
     bool get_IsBoolean();
     // public override OVRSimpleJSON.JSONNode/Enumerator GetEnumerator()
-    // Offset: 0xF3B578
+    // Offset: 0xF4BFBC
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode/Enumerator JSONNode::GetEnumerator()
     OVRSimpleJSON::JSONNode::Enumerator GetEnumerator();
     // public override System.String get_Value()
-    // Offset: 0xF3B598
+    // Offset: 0xF4BFDC
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.String JSONNode::get_Value()
     ::CsString* get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0xF3B5A4
+    // Offset: 0xF4BFE8
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Value(System.String value)
     void set_Value(::CsString* value);
     // public override System.Boolean get_AsBool()
-    // Offset: 0xF3B630
+    // Offset: 0xF4C074
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::get_AsBool()
     bool get_AsBool();
     // public override System.Void set_AsBool(System.Boolean value)
-    // Offset: 0xF3B638
+    // Offset: 0xF4C07C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_AsBool(System.Boolean value)
     void set_AsBool(bool value);
     // override System.Void WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
-    // Offset: 0xF3B74C
+    // Offset: 0xF4C190
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
     void WriteToStringBuilder(System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, OVRSimpleJSON::JSONTextMode aMode);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF3B7C8
+    // Offset: 0xF4C20C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF3B850
+    // Offset: 0xF4C294
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();
   }; // OVRSimpleJSON.JSONBool
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONBool*, "OVRSimpleJSON", "JSONBool");
 #pragma pack(pop)

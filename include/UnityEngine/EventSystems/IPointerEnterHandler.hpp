@@ -24,6 +24,6 @@ namespace UnityEngine::EventSystems {
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // UnityEngine.EventSystems.IPointerEnterHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IPointerEnterHandler*, "UnityEngine.EventSystems", "IPointerEnterHandler");
 #pragma pack(pop)

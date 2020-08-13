@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -36,6 +37,6 @@ namespace GlobalNamespace {
     HapticsDesc(int SampleRateHz_ = {}, int SampleSizeInBytes_ = {}, int MinimumSafeSamplesQueued_ = {}, int MinimumBufferSamplesCount_ = {}, int OptimalBufferSamplesCount_ = {}, int MaximumBufferSamplesCount_ = {}) : SampleRateHz{SampleRateHz_}, SampleSizeInBytes{SampleSizeInBytes_}, MinimumSafeSamplesQueued{MinimumSafeSamplesQueued_}, MinimumBufferSamplesCount{MinimumBufferSamplesCount_}, OptimalBufferSamplesCount{OptimalBufferSamplesCount_}, MaximumBufferSamplesCount{MaximumBufferSamplesCount_} {}
   }; // OVRPlugin/HapticsDesc
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HapticsDesc, "", "OVRPlugin/HapticsDesc");
 #pragma pack(pop)

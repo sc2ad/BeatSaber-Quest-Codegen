@@ -36,6 +36,6 @@ namespace System::Runtime::Remoting::Lifetime {
     System::TimeSpan Renew(System::TimeSpan renewalTime);
   }; // System.Runtime.Remoting.Lifetime.ILease
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::ILease*, "System.Runtime.Remoting.Lifetime", "ILease");
 #pragma pack(pop)

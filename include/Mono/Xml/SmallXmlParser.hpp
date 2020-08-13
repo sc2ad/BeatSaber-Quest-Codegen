@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Xml
@@ -81,78 +79,78 @@ namespace Mono::Xml {
     // Offset: 0x60
     bool resetColumn;
     // private System.Exception Error(System.String msg)
-    // Offset: 0x10A3EC4
+    // Offset: 0x10B4908
     System::Exception* Error(::CsString* msg);
     // private System.Exception UnexpectedEndError()
-    // Offset: 0x10A4004
+    // Offset: 0x10B4A48
     System::Exception* UnexpectedEndError();
     // private System.Boolean IsNameChar(System.Char c, System.Boolean start)
-    // Offset: 0x10A40D4
+    // Offset: 0x10B4B18
     bool IsNameChar(::Il2CppChar c, bool start);
     // private System.Boolean IsWhitespace(System.Int32 c)
-    // Offset: 0x10A41E8
+    // Offset: 0x10B4C2C
     bool IsWhitespace(int c);
     // public System.Void SkipWhitespaces()
-    // Offset: 0x10A4218
+    // Offset: 0x10B4C5C
     void SkipWhitespaces();
     // private System.Void HandleWhitespaces()
-    // Offset: 0x10A42E4
+    // Offset: 0x10B4D28
     void HandleWhitespaces();
     // public System.Void SkipWhitespaces(System.Boolean expected)
-    // Offset: 0x10A4220
+    // Offset: 0x10B4C64
     void SkipWhitespaces(bool expected);
     // private System.Int32 Peek()
-    // Offset: 0x10A441C
+    // Offset: 0x10B4E60
     int Peek();
     // private System.Int32 Read()
-    // Offset: 0x10A43A8
+    // Offset: 0x10B4DEC
     int Read();
     // public System.Void Expect(System.Int32 c)
-    // Offset: 0x10A443C
+    // Offset: 0x10B4E80
     void Expect(int c);
     // private System.String ReadUntil(System.Char until, System.Boolean handleReferences)
-    // Offset: 0x10A4520
+    // Offset: 0x10B4F64
     ::CsString* ReadUntil(::Il2CppChar until, bool handleReferences);
     // public System.String ReadName()
-    // Offset: 0x10A47AC
+    // Offset: 0x10B51F0
     ::CsString* ReadName();
     // public System.Void Parse(System.IO.TextReader input, Mono.Xml.SmallXmlParser/IContentHandler handler)
-    // Offset: 0x10A3824
+    // Offset: 0x10B4268
     void Parse(System::IO::TextReader* input, Mono::Xml::SmallXmlParser::IContentHandler* handler);
     // private System.Void Cleanup()
-    // Offset: 0x10A51AC
+    // Offset: 0x10B5BF0
     void Cleanup();
     // public System.Void ReadContent()
-    // Offset: 0x10A496C
+    // Offset: 0x10B53B0
     void ReadContent();
     // private System.Void HandleBufferedContent()
-    // Offset: 0x10A505C
+    // Offset: 0x10B5AA0
     void HandleBufferedContent();
     // private System.Void ReadCharacters()
-    // Offset: 0x10A55EC
+    // Offset: 0x10B6030
     void ReadCharacters();
     // private System.Void ReadReference()
-    // Offset: 0x10A461C
+    // Offset: 0x10B5060
     void ReadReference();
     // private System.Int32 ReadCharacterReference()
-    // Offset: 0x10A5678
+    // Offset: 0x10B60BC
     int ReadCharacterReference();
     // private System.Void ReadAttribute(Mono.Xml.SmallXmlParser/AttrListImpl a)
-    // Offset: 0x10A5484
+    // Offset: 0x10B5EC8
     void ReadAttribute(Mono::Xml::SmallXmlParser::AttrListImpl* a);
     // private System.Void ReadCDATASection()
-    // Offset: 0x10A52BC
+    // Offset: 0x10B5D00
     void ReadCDATASection();
     // private System.Void ReadComment()
-    // Offset: 0x10A53D8
+    // Offset: 0x10B5E1C
     void ReadComment();
     // public System.Void .ctor()
-    // Offset: 0x10A365C
+    // Offset: 0x10B40A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SmallXmlParser* New_ctor();
   }; // Mono.Xml.SmallXmlParser
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser*, "Mono.Xml", "SmallXmlParser");
 #pragma pack(pop)

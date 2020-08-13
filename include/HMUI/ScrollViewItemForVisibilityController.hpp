@@ -20,10 +20,10 @@ namespace HMUI {
   class ScrollViewItemForVisibilityController : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void GetWorldCorners(UnityEngine.Vector3[] fourCornersArray)
-    // Offset: 0x10CC658
+    // Offset: 0x10DD09C
     void GetWorldCorners(::Array<UnityEngine::Vector3>* fourCornersArray);
     // public System.Void .ctor()
-    // Offset: 0x10CC6C8
+    // Offset: 0x10DD10C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -33,6 +33,6 @@ namespace HMUI {
     static ScrollViewItemForVisibilityController* New_ctor();
   }; // HMUI.ScrollViewItemForVisibilityController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemForVisibilityController*, "HMUI", "ScrollViewItemForVisibilityController");
 #pragma pack(pop)

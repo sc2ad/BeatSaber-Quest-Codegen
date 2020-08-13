@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin/HandStatus
 // Already included the same include: GlobalNamespace/OVRPlugin.hpp
 // Including type: OVRPlugin/Posef
@@ -60,6 +60,6 @@ namespace GlobalNamespace {
     HandState(GlobalNamespace::OVRPlugin::HandStatus Status_ = {}, GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, ::Array<GlobalNamespace::OVRPlugin::Quatf>* BoneRotations_ = {}, GlobalNamespace::OVRPlugin::HandFingerPinch Pinches_ = {}, ::Array<float>* PinchStrength_ = {}, GlobalNamespace::OVRPlugin::Posef PointerPose_ = {}, float HandScale_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence_ = {}, ::Array<GlobalNamespace::OVRPlugin::TrackingConfidence>* FingerConfidences_ = {}, double RequestedTimeStamp_ = {}, double SampleTimeStamp_ = {}) : Status{Status_}, RootPose{RootPose_}, BoneRotations{BoneRotations_}, Pinches{Pinches_}, PinchStrength{PinchStrength_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, FingerConfidences{FingerConfidences_}, RequestedTimeStamp{RequestedTimeStamp_}, SampleTimeStamp{SampleTimeStamp_} {}
   }; // OVRPlugin/HandState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandState, "", "OVRPlugin/HandState");
 #pragma pack(pop)

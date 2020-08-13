@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Configuration.ConfigurationElement
 #include "System/Configuration/ConfigurationElement.hpp"
 // Completed includes
@@ -13,6 +14,6 @@ namespace System::Configuration {
   class ConfigurationElementCollection : public System::Configuration::ConfigurationElement {
   }; // System.Configuration.ConfigurationElementCollection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationElementCollection*, "System.Configuration", "ConfigurationElementCollection");
 #pragma pack(pop)

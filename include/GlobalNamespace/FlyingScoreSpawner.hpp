@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::FlyingScoreSpawner::InitData* initData;
     // public System.Void SpawnFlyingScore(NoteCutInfo noteCutInfo, System.Int32 noteLineIndex, System.Int32 multiplier, UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, UnityEngine.Color color)
-    // Offset: 0xBDB084
+    // Offset: 0xBEDAC8
     void SpawnFlyingScore(GlobalNamespace::NoteCutInfo* noteCutInfo, int noteLineIndex, int multiplier, UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation, UnityEngine::Color color);
     // private System.Void HandleFlyingScoreEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0xBDB348
+    // Offset: 0xBEDD8C
     void HandleFlyingScoreEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0xBDB42C
+    // Offset: 0xBEDE70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -56,6 +56,6 @@ namespace GlobalNamespace {
     static FlyingScoreSpawner* New_ctor();
   }; // FlyingScoreSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner*, "", "FlyingScoreSpawner");
 #pragma pack(pop)

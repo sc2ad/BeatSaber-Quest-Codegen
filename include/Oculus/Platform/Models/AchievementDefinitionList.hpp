@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.DeserializableList`1
 #include "Oculus/Platform/Models/DeserializableList_1.hpp"
 // Completed includes
@@ -25,10 +26,10 @@ namespace Oculus::Platform::Models {
   class AchievementDefinitionList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AchievementDefinition*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xE8A1BC
+    // Offset: 0xE9CC00
     static AchievementDefinitionList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.AchievementDefinitionList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementDefinitionList*, "Oculus.Platform.Models", "AchievementDefinitionList");
 #pragma pack(pop)

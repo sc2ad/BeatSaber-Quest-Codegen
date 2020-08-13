@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PlayerSaveDataV1_0_1
 #include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
 // Completed includes
@@ -127,13 +125,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed songSpeed;
     // public System.Void .ctor()
-    // Offset: 0xC056B4
+    // Offset: 0xC170F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::GameplayModifiers* New_ctor();
   }; // PlayerSaveDataV1_0_1/GameplayModifiers
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*, "", "PlayerSaveDataV1_0_1/GameplayModifiers");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType");

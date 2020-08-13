@@ -52,91 +52,91 @@ namespace System::IO {
     // Offset: 0x5C
     bool isOpen;
     // public System.Void .ctor(System.Byte* pointer, System.Int64 length)
-    // Offset: 0xFF9E7C
+    // Offset: 0x10098C0
     static UnmanagedMemoryStream* New_ctor(uint8_t* pointer, int64_t length);
     // System.Void .ctor(System.Byte* pointer, System.Int64 length, System.Int64 capacity, System.IO.FileAccess access, System.Boolean skipSecurityCheck)
-    // Offset: 0xFF9F10
+    // Offset: 0x1009954
     static UnmanagedMemoryStream* New_ctor(uint8_t* pointer, int64_t length, int64_t capacity, System::IO::FileAccess access, bool skipSecurityCheck);
     // System.Void Initialize(System.Byte* pointer, System.Int64 length, System.Int64 capacity, System.IO.FileAccess access, System.Boolean skipSecurityCheck)
-    // Offset: 0xFF1114
+    // Offset: 0x1000B58
     void Initialize(uint8_t* pointer, int64_t length, int64_t capacity, System::IO::FileAccess access, bool skipSecurityCheck);
     // public System.Byte* get_PositionPointer()
-    // Offset: 0xFFA1B8
+    // Offset: 0x1009BFC
     uint8_t* get_PositionPointer();
     // protected System.Void .ctor()
-    // Offset: 0xFF10A0
+    // Offset: 0x1000AE4
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static UnmanagedMemoryStream* New_ctor();
     // public override System.Boolean get_CanRead()
-    // Offset: 0xFF9FB4
+    // Offset: 0x10099F8
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0xFF9FD0
+    // Offset: 0x1009A14
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0xFF9FD8
+    // Offset: 0x1009A1C
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xFF1424
+    // Offset: 0x1000E68
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void Flush()
-    // Offset: 0xFF9FF4
+    // Offset: 0x1009A38
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Int64 get_Length()
-    // Offset: 0xFFA090
+    // Offset: 0x1009AD4
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0xFFA0B0
+    // Offset: 0x1009AF4
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0xFFA0E8
+    // Offset: 0x1009B2C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0xFFA31C
+    // Offset: 0x1009D60
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>*& buffer, int offset, int count);
     // public override System.Int32 ReadByte()
-    // Offset: 0xFFA618
+    // Offset: 0x100A05C
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin loc)
-    // Offset: 0xFFA754
+    // Offset: 0x100A198
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin loc)
     int64_t Seek(int64_t offset, System::IO::SeekOrigin loc);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0xFFA8B0
+    // Offset: 0x100A2F4
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* buffer, int offset, int count);
     // public override System.Void WriteByte(System.Byte value)
-    // Offset: 0xFFAC74
+    // Offset: 0x100A6B8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
   }; // System.IO.UnmanagedMemoryStream
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnmanagedMemoryStream*, "System.IO", "UnmanagedMemoryStream");
 #pragma pack(pop)

@@ -26,35 +26,35 @@ namespace System::IO {
   class UnexceptionalStreamWriter : public System::IO::StreamWriter {
     public:
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0xFF99D0
+    // Offset: 0x1009414
     static UnexceptionalStreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding);
     // public override System.Void Flush()
-    // Offset: 0xFF9A54
+    // Offset: 0x1009498
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Flush()
     void Flush();
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF9B20
+    // Offset: 0x1009564
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.Char value)
-    // Offset: 0xFF9C0C
+    // Offset: 0x1009650
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.Char[] value)
-    // Offset: 0xFF9CDC
+    // Offset: 0x1009720
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] value)
     void Write(::Array<::Il2CppChar>* value);
     // public override System.Void Write(System.String value)
-    // Offset: 0xFF9DAC
+    // Offset: 0x10097F0
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String value)
     void Write(::CsString* value);
   }; // System.IO.UnexceptionalStreamWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnexceptionalStreamWriter*, "System.IO", "UnexceptionalStreamWriter");
 #pragma pack(pop)

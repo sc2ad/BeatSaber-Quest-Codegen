@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -29,34 +27,34 @@ namespace System {
     // Set static field: static private System.ParameterizedStrings/LowLevelStack _cachedStack
     static void _set__cachedStack(System::ParameterizedStrings::LowLevelStack* value);
     // static public System.String Evaluate(System.String format, System.ParameterizedStrings/FormatParam[] args)
-    // Offset: 0x1348078
+    // Offset: 0x135AABC
     static ::CsString* Evaluate(::CsString* format, ::Array<System::ParameterizedStrings::FormatParam>* args);
     // static private System.String EvaluateInternal(System.String format, System.Int32 pos, System.ParameterizedStrings/FormatParam[] args, System.ParameterizedStrings/LowLevelStack stack, System.ParameterizedStrings/FormatParam[] dynamicVars, System.ParameterizedStrings/FormatParam[] staticVars)
-    // Offset: 0x134824C
+    // Offset: 0x135AC90
     static ::CsString* EvaluateInternal(::CsString* format, int& pos, ::Array<System::ParameterizedStrings::FormatParam>* args, System::ParameterizedStrings::LowLevelStack* stack, ::Array<System::ParameterizedStrings::FormatParam>*& dynamicVars, ::Array<System::ParameterizedStrings::FormatParam>*& staticVars);
     // static private System.Boolean AsBool(System.Int32 i)
-    // Offset: 0x13491F4
+    // Offset: 0x135BC38
     static bool AsBool(int i);
     // static private System.Int32 AsInt(System.Boolean b)
-    // Offset: 0x13491EC
+    // Offset: 0x135BC30
     static int AsInt(bool b);
     // static private System.String StringFromAsciiBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1349200
+    // Offset: 0x135BC44
     static ::CsString* StringFromAsciiBytes(::Array<uint8_t>* buffer, int offset, int length);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.String arg1)
-    // Offset: 0x13492FC
+    // Offset: 0x135BD40
     static int snprintf(uint8_t* str, System::IntPtr size, ::CsString* format, ::CsString* arg1);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.Int32 arg1)
-    // Offset: 0x13493D4
+    // Offset: 0x135BE18
     static int snprintf(uint8_t* str, System::IntPtr size, ::CsString* format, int arg1);
     // static private System.String FormatPrintF(System.String format, System.Object arg)
-    // Offset: 0x1348D6C
+    // Offset: 0x135B7B0
     static ::CsString* FormatPrintF(::CsString* format, ::CsObject* arg);
     // static private System.ParameterizedStrings/FormatParam[] GetDynamicOrStaticVariables(System.Char c, System.ParameterizedStrings/FormatParam[] dynamicVars, System.ParameterizedStrings/FormatParam[] staticVars, System.Int32 index)
-    // Offset: 0x13490C0
+    // Offset: 0x135BB04
     static ::Array<System::ParameterizedStrings::FormatParam>* GetDynamicOrStaticVariables(::Il2CppChar c, ::Array<System::ParameterizedStrings::FormatParam>*& dynamicVars, ::Array<System::ParameterizedStrings::FormatParam>*& staticVars, int& index);
   }; // System.ParameterizedStrings
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings*, "System", "ParameterizedStrings");
 #pragma pack(pop)

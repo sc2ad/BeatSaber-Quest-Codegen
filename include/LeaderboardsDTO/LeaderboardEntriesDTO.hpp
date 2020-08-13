@@ -30,6 +30,6 @@ namespace LeaderboardsDTO {
     LeaderboardEntriesDTO(::Array<LeaderboardsDTO::LeaderboardEntryDTO*>* entries_ = {}) : entries{entries_} {}
   }; // LeaderboardsDTO.LeaderboardEntriesDTO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntriesDTO, "LeaderboardsDTO", "LeaderboardEntriesDTO");
 #pragma pack(pop)

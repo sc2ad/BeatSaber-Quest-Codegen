@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Text.Encoding
 #include "System/Text/Encoding.hpp"
 // Completed includes
@@ -55,37 +53,37 @@ namespace System::Text {
     // Offset: 0x58
     System::Text::EncoderFallbackBuffer* fallbackBuffer;
     // System.Void .ctor(System.Text.Encoding inEncoding, System.Text.EncoderNLS inEncoder, System.Byte* inByteStart, System.Int32 inByteCount, System.Char* inCharStart, System.Int32 inCharCount)
-    // Offset: 0x12DE46C
+    // Offset: 0x12EFEB0
     static Encoding::EncodingByteBuffer* New_ctor(System::Text::Encoding* inEncoding, System::Text::EncoderNLS* inEncoder, uint8_t* inByteStart, int inByteCount, ::Il2CppChar* inCharStart, int inCharCount);
     // System.Boolean AddByte(System.Byte b, System.Int32 moreBytesExpected)
-    // Offset: 0x12DE6F0
+    // Offset: 0x12F0134
     bool AddByte(uint8_t b, int moreBytesExpected);
     // System.Boolean AddByte(System.Byte b1)
-    // Offset: 0x12DE7C8
+    // Offset: 0x12F020C
     bool AddByte(uint8_t b1);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2)
-    // Offset: 0x12DE7D0
+    // Offset: 0x12F0214
     bool AddByte(uint8_t b1, uint8_t b2);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2, System.Int32 moreBytesExpected)
-    // Offset: 0x12DE7D8
+    // Offset: 0x12F021C
     bool AddByte(uint8_t b1, uint8_t b2, int moreBytesExpected);
     // System.Void MovePrevious(System.Boolean bThrow)
-    // Offset: 0x12DE744
+    // Offset: 0x12F0188
     void MovePrevious(bool bThrow);
     // System.Boolean get_MoreData()
-    // Offset: 0x12DE830
+    // Offset: 0x12F0274
     bool get_MoreData();
     // System.Char GetNextChar()
-    // Offset: 0x12DE884
+    // Offset: 0x12F02C8
     ::Il2CppChar GetNextChar();
     // System.Int32 get_CharsUsed()
-    // Offset: 0x12DE8F4
+    // Offset: 0x12F0338
     int get_CharsUsed();
     // System.Int32 get_Count()
-    // Offset: 0x12DE90C
+    // Offset: 0x12F0350
     int get_Count();
   }; // System.Text.Encoding/EncodingByteBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingByteBuffer*, "System.Text", "Encoding/EncodingByteBuffer");
 #pragma pack(pop)

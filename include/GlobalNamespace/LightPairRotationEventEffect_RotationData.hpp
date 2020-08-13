@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: LightPairRotationEventEffect
 #include "GlobalNamespace/LightPairRotationEventEffect.hpp"
 // Completed includes
@@ -35,12 +33,12 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Transform* transform;
     // public System.Void .ctor()
-    // Offset: 0xBE5060
+    // Offset: 0xBF6AA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LightPairRotationEventEffect::RotationData* New_ctor();
   }; // LightPairRotationEventEffect/RotationData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect::RotationData*, "", "LightPairRotationEventEffect/RotationData");
 #pragma pack(pop)

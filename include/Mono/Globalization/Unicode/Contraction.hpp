@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
@@ -26,10 +24,10 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x28
     ::Array<uint8_t>* SortKey;
     // public System.Void .ctor(System.Int32 index, System.Char[] source, System.String replacement, System.Byte[] sortkey)
-    // Offset: 0x1099C0C
+    // Offset: 0x10AA650
     static Contraction* New_ctor(int index, ::Array<::Il2CppChar>* source, ::CsString* replacement, ::Array<uint8_t>* sortkey);
   }; // Mono.Globalization.Unicode.Contraction
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Contraction*, "Mono.Globalization.Unicode", "Contraction");
 #pragma pack(pop)

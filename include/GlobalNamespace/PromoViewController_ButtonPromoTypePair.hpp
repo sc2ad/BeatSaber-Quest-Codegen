@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PromoViewController
 #include "GlobalNamespace/PromoViewController.hpp"
 // Completed includes
@@ -54,15 +52,15 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection;
     // public IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection()
-    // Offset: 0xC098A4
+    // Offset: 0xC1B2E8
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0xC09984
+    // Offset: 0xC1B3C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PromoViewController::ButtonPromoTypePair* New_ctor();
   }; // PromoViewController/ButtonPromoTypePair
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::ButtonPromoTypePair*, "", "PromoViewController/ButtonPromoTypePair");
 #pragma pack(pop)

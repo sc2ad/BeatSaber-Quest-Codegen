@@ -104,6 +104,6 @@ namespace NUnit::Framework::Interfaces {
     ::CsObject* Construct(::Array<::CsObject*>* args);
   }; // NUnit.Framework.Interfaces.ITypeInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITypeInfo*, "NUnit.Framework.Interfaces", "ITypeInfo");
 #pragma pack(pop)

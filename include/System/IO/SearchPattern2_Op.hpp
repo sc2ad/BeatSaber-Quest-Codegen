@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IO.SearchPattern2
 #include "System/IO/SearchPattern2.hpp"
 // Including type: System.IO.SearchPattern2/OpCode
@@ -27,10 +25,10 @@ namespace System::IO {
     // Offset: 0x20
     System::IO::SearchPattern2::Op* Next;
     // public System.Void .ctor(System.IO.SearchPattern2/OpCode code)
-    // Offset: 0xF51D34
+    // Offset: 0xF63778
     static SearchPattern2::Op* New_ctor(System::IO::SearchPattern2::OpCode code);
   }; // System.IO.SearchPattern2/Op
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2::Op*, "System.IO", "SearchPattern2/Op");
 #pragma pack(pop)

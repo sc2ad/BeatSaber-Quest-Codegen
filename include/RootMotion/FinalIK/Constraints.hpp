@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
@@ -47,21 +45,21 @@ namespace RootMotion::FinalIK {
     // Offset: 0x54
     float rotationWeight;
     // public System.Boolean IsValid()
-    // Offset: 0x1395600
+    // Offset: 0x13A7044
     bool IsValid();
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x1393F78
+    // Offset: 0x13A59BC
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update()
-    // Offset: 0x1394158
+    // Offset: 0x13A5B9C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x139495C
+    // Offset: 0x13A63A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Constraints* New_ctor();
   }; // RootMotion.FinalIK.Constraints
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraints*, "RootMotion.FinalIK", "Constraints");
 #pragma pack(pop)

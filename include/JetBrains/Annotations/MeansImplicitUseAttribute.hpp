@@ -24,34 +24,34 @@ namespace JetBrains::Annotations {
     // Offset: 0x14
     JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseKindFlags useKindFlags)
-    // Offset: 0x1945570
+    // Offset: 0x1957FB4
     static MeansImplicitUseAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
-    // Offset: 0x19455A0
+    // Offset: 0x1957FE4
     static MeansImplicitUseAttribute* New_ctor(JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseKindFlags useKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
-    // Offset: 0x1945538
+    // Offset: 0x1957F7C
     static MeansImplicitUseAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
     // public JetBrains.Annotations.ImplicitUseKindFlags get_UseKindFlags()
-    // Offset: 0x19455D0
+    // Offset: 0x1958014
     JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
     // private System.Void set_UseKindFlags(JetBrains.Annotations.ImplicitUseKindFlags value)
-    // Offset: 0x19455D8
+    // Offset: 0x195801C
     void set_UseKindFlags(JetBrains::Annotations::ImplicitUseKindFlags value);
     // public JetBrains.Annotations.ImplicitUseTargetFlags get_TargetFlags()
-    // Offset: 0x19455E0
+    // Offset: 0x1958024
     JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
     // private System.Void set_TargetFlags(JetBrains.Annotations.ImplicitUseTargetFlags value)
-    // Offset: 0x19455E8
+    // Offset: 0x195802C
     void set_TargetFlags(JetBrains::Annotations::ImplicitUseTargetFlags value);
     // public System.Void .ctor()
-    // Offset: 0x1945508
+    // Offset: 0x1957F4C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static MeansImplicitUseAttribute* New_ctor();
   }; // JetBrains.Annotations.MeansImplicitUseAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MeansImplicitUseAttribute*, "JetBrains.Annotations", "MeansImplicitUseAttribute");
 #pragma pack(pop)

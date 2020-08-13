@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::AnimationClip* animationClip;
     // protected System.Void Update()
-    // Offset: 0xB879F0
+    // Offset: 0xB99434
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB87A70
+    // Offset: 0xB994B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -45,6 +45,6 @@ namespace GlobalNamespace {
     static SongTimeAnimationPlayer* New_ctor();
   }; // SongTimeAnimationPlayer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongTimeAnimationPlayer*, "", "SongTimeAnimationPlayer");
 #pragma pack(pop)

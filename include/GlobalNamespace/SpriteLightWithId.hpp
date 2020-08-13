@@ -32,15 +32,15 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     float minAlpha;
     // public UnityEngine.Color get_color()
-    // Offset: 0x1817050
+    // Offset: 0x1827A94
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x181706C
+    // Offset: 0x1827AB0
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1817138
+    // Offset: 0x1827B7C
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static SpriteLightWithId* New_ctor();
   }; // SpriteLightWithId
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteLightWithId*, "", "SpriteLightWithId");
 #pragma pack(pop)

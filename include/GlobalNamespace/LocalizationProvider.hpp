@@ -28,19 +28,19 @@ namespace GlobalNamespace {
     // Set static field: static private LocalizationProvider _instance
     static void _set__instance(GlobalNamespace::LocalizationProvider* value);
     // public Polyglot.Localization get_localization()
-    // Offset: 0x18FD068
+    // Offset: 0x190BAAC
     Polyglot::Localization* get_localization();
     // static public LocalizationProvider get_Instance()
-    // Offset: 0x18FD070
+    // Offset: 0x190BAB4
     static GlobalNamespace::LocalizationProvider* get_Instance();
     // static public System.Void set_Instance(LocalizationProvider value)
-    // Offset: 0x18FD1EC
+    // Offset: 0x190BC30
     static void set_Instance(GlobalNamespace::LocalizationProvider* value);
     // static public System.Boolean get_HasInstance()
-    // Offset: 0x18FD0FC
+    // Offset: 0x190BB40
     static bool get_HasInstance();
     // public System.Void .ctor()
-    // Offset: 0x18FD244
+    // Offset: 0x190BC88
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static LocalizationProvider* New_ctor();
   }; // LocalizationProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizationProvider*, "", "LocalizationProvider");
 #pragma pack(pop)

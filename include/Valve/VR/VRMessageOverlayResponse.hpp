@@ -62,6 +62,6 @@ namespace Valve::VR {
     VRMessageOverlayResponse(int value_ = {}) : value{value_} {}
   }; // Valve.VR.VRMessageOverlayResponse
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRMessageOverlayResponse, "Valve.VR", "VRMessageOverlayResponse");
 #pragma pack(pop)

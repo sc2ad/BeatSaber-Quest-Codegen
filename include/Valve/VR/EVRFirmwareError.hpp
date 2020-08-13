@@ -38,6 +38,6 @@ namespace Valve::VR {
     EVRFirmwareError(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRFirmwareError
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRFirmwareError, "Valve.VR", "EVRFirmwareError");
 #pragma pack(pop)

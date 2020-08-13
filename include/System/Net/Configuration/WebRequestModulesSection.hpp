@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Configuration.ConfigurationSection
 #include "System/Configuration/ConfigurationSection.hpp"
 // Completed includes
@@ -20,17 +21,17 @@ namespace System::Net::Configuration {
   class WebRequestModulesSection : public System::Configuration::ConfigurationSection {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF554D8
+    // Offset: 0xF66F1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebRequestModulesSection* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0xF55518
+    // Offset: 0xF66F5C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
   }; // System.Net.Configuration.WebRequestModulesSection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::WebRequestModulesSection*, "System.Net.Configuration", "WebRequestModulesSection");
 #pragma pack(pop)

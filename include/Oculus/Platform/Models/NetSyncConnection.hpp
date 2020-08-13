@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.NetSyncDisconnectReason
 #include "Oculus/Platform/NetSyncDisconnectReason.hpp"
 // Including type: Oculus.Platform.NetSyncConnectionStatus
@@ -40,10 +38,10 @@ namespace Oculus::Platform::Models {
     // Offset: 0x30
     ::CsString* ZoneId;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE8F35C
+    // Offset: 0xEA1DA0
     static NetSyncConnection* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.NetSyncConnection
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncConnection*, "Oculus.Platform.Models", "NetSyncConnection");
 #pragma pack(pop)

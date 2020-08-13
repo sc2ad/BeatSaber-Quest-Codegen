@@ -41,21 +41,21 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
     // public PS4LevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0xBBC678
+    // Offset: 0xBCF0BC
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public PS4LevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0xBBC7D8
+    // Offset: 0xBCF21C
     GlobalNamespace::PS4LevelProductsModelSO::LevelProductData* GetLevelProductData(::CsString* levelId);
     // public PS4LevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0xBBC858
+    // Offset: 0xBCF29C
     GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::CsString* levelPackId);
     // protected override System.Void OnEnable()
-    // Offset: 0xBBC680
+    // Offset: 0xBCF0C4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xBBC8D8
+    // Offset: 0xBCF31C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -64,6 +64,6 @@ namespace GlobalNamespace {
     static PS4LevelProductsModelSO* New_ctor();
   }; // PS4LevelProductsModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO*, "", "PS4LevelProductsModelSO");
 #pragma pack(pop)

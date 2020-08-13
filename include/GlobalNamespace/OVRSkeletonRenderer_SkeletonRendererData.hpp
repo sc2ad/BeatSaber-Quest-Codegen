@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: OVRSkeletonRenderer
 #include "GlobalNamespace/OVRSkeletonRenderer.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -29,31 +29,31 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SkeletonRendererData
     SkeletonRendererData(float RootScale_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) : RootScale{RootScale_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // public System.Single get_RootScale()
-    // Offset: 0xA53FA8
+    // Offset: 0xA54024
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0xA53FB0
+    // Offset: 0xA5402C
     void set_RootScale(float value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xA53FB8
+    // Offset: 0xA54034
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xA53FC0
+    // Offset: 0xA5403C
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xA53FCC
+    // Offset: 0xA54048
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xA53FD4
+    // Offset: 0xA54050
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0xA53FE0
+    // Offset: 0xA5405C
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0xA53FE8
+    // Offset: 0xA54064
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRSkeletonRenderer/SkeletonRendererData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData, "", "OVRSkeletonRenderer/SkeletonRendererData");
 #pragma pack(pop)

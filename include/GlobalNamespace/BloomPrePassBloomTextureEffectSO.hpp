@@ -54,12 +54,12 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::PyramidBloomRendererSO* bloomRenderer;
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x18F5C48
+    // Offset: 0x190568C
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x18F5C98
+    // Offset: 0x19056DC
     // Implemented from: BloomPrePassEffectSO
     // Base method: System.Void BloomPrePassEffectSO::.ctor()
     // Base method: System.Void TextureEffectSO::.ctor()
@@ -70,6 +70,6 @@ namespace GlobalNamespace {
     static BloomPrePassBloomTextureEffectSO* New_ctor();
   }; // BloomPrePassBloomTextureEffectSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBloomTextureEffectSO*, "", "BloomPrePassBloomTextureEffectSO");
 #pragma pack(pop)

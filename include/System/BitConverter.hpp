@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -18,61 +16,61 @@ namespace System {
     // Set static field: static public readonly System.Boolean IsLittleEndian
     static void _set_IsLittleEndian(bool value);
     // static private System.Boolean AmILittleEndian()
-    // Offset: 0x13170F8
+    // Offset: 0x132AB3C
     static bool AmILittleEndian();
     // static public System.Byte[] GetBytes(System.Int16 value)
-    // Offset: 0x1317100
+    // Offset: 0x132AB44
     static ::Array<uint8_t>* GetBytes(int16_t value);
     // static public System.Byte[] GetBytes(System.Int32 value)
-    // Offset: 0x1317174
+    // Offset: 0x132ABB8
     static ::Array<uint8_t>* GetBytes(int value);
     // static public System.Byte[] GetBytes(System.Int64 value)
-    // Offset: 0x13171E8
+    // Offset: 0x132AC2C
     static ::Array<uint8_t>* GetBytes(int64_t value);
     // static public System.Byte[] GetBytes(System.UInt16 value)
-    // Offset: 0x131725C
+    // Offset: 0x132ACA0
     static ::Array<uint8_t>* GetBytes(uint16_t value);
     // static public System.Byte[] GetBytes(System.UInt32 value)
-    // Offset: 0x13172C0
+    // Offset: 0x132AD04
     static ::Array<uint8_t>* GetBytes(uint value);
     // static public System.Int16 ToInt16(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1317324
+    // Offset: 0x132AD68
     static int16_t ToInt16(::Array<uint8_t>* value, int startIndex);
     // static public System.Int32 ToInt32(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1317434
+    // Offset: 0x132AE78
     static int ToInt32(::Array<uint8_t>* value, int startIndex);
     // static public System.Int64 ToInt64(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1317560
+    // Offset: 0x132AFA4
     static int64_t ToInt64(::Array<uint8_t>* value, int startIndex);
     // static public System.UInt16 ToUInt16(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x13176B8
+    // Offset: 0x132B0FC
     static uint16_t ToUInt16(::Array<uint8_t>* value, int startIndex);
     // static public System.UInt32 ToUInt32(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x131777C
+    // Offset: 0x132B1C0
     static uint ToUInt32(::Array<uint8_t>* value, int startIndex);
     // static public System.UInt64 ToUInt64(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1317840
+    // Offset: 0x132B284
     static uint64_t ToUInt64(::Array<uint8_t>* value, int startIndex);
     // static private System.Char GetHexValue(System.Int32 i)
-    // Offset: 0x1317904
+    // Offset: 0x132B348
     static ::Il2CppChar GetHexValue(int i);
     // static public System.String ToString(System.Byte[] value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x131791C
+    // Offset: 0x132B360
     static ::CsString* ToString(::Array<uint8_t>* value, int startIndex, int length);
     // static public System.String ToString(System.Byte[] value)
-    // Offset: 0x1317C94
+    // Offset: 0x132B6D8
     static ::CsString* ToString(::Array<uint8_t>* value);
     // static public System.Int64 DoubleToInt64Bits(System.Double value)
-    // Offset: 0x1317D40
+    // Offset: 0x132B784
     static int64_t DoubleToInt64Bits(double value);
     // static public System.Double Int64BitsToDouble(System.Int64 value)
-    // Offset: 0x1317D48
+    // Offset: 0x132B78C
     static double Int64BitsToDouble(int64_t value);
     // static private System.Void .cctor()
-    // Offset: 0x1317D50
+    // Offset: 0x132B794
     static void _cctor();
   }; // System.BitConverter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::BitConverter*, "System", "BitConverter");
 #pragma pack(pop)

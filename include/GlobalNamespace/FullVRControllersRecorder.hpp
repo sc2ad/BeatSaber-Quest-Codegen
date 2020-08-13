@@ -95,31 +95,31 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::VRControllersRecorderData* data;
     // public System.Void add_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0xBDCC98
+    // Offset: 0xBEF6DC
     void add_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // public System.Void remove_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0xBDCD3C
+    // Offset: 0xBEF780
     void remove_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // protected System.Void Start()
-    // Offset: 0xBDCDE0
+    // Offset: 0xBEF824
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBDD1F8
+    // Offset: 0xBEFC3C
     void OnDestroy();
     // private System.Void PlaybackTick()
-    // Offset: 0xBDD2A4
+    // Offset: 0xBEFCE8
     void PlaybackTick();
     // private System.Void RecordTick()
-    // Offset: 0xBDD684
+    // Offset: 0xBF00C8
     void RecordTick();
     // protected System.Void Update()
-    // Offset: 0xBDD82C
+    // Offset: 0xBF0270
     void Update();
     // protected System.Void LateUpdate()
-    // Offset: 0xBDD87C
+    // Offset: 0xBF02C0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xBDD88C
+    // Offset: 0xBF02D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     static FullVRControllersRecorder* New_ctor();
   }; // FullVRControllersRecorder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder*, "", "FullVRControllersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder::Mode, "", "FullVRControllersRecorder/Mode");
 #pragma pack(pop)

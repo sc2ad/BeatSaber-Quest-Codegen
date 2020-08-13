@@ -27,6 +27,6 @@ namespace NUnit::Framework::Interfaces {
     System::Collections::IEnumerable* GetDataFor(NUnit::Framework::Interfaces::IParameterInfo* parameter);
   }; // NUnit.Framework.Interfaces.IParameterDataProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IParameterDataProvider*, "NUnit.Framework.Interfaces", "IParameterDataProvider");
 #pragma pack(pop)

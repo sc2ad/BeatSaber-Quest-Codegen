@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OculusBeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13
 #include "GlobalNamespace/OculusBeatmapDataAssetFileModel_-TryDeleteAssetBundleFileForPreviewLevelAsync-d__13.hpp"
 // Including type: IPreviewBeatmapLevel

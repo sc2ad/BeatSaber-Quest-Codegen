@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData
 #include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Completed includes
@@ -32,24 +30,24 @@ namespace VRUIControls {
     // Offset: 0x10
     System::Collections::Generic::List_1<VRUIControls::ButtonState*>* trackedButtons;
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0x191DE44
+    // Offset: 0x192E888
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0x191DEF8
+    // Offset: 0x192E93C
     bool AnyReleasesThisFrame();
     // public VRUIControls.ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button)
-    // Offset: 0x191DFAC
+    // Offset: 0x192E9F0
     VRUIControls::ButtonState* GetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button, UnityEngine.EventSystems.PointerEventData/FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x191E0F4
+    // Offset: 0x192EB38
     void SetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button, UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
-    // Offset: 0x191E13C
+    // Offset: 0x192EB80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MouseState* New_ctor();
   }; // VRUIControls.MouseState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseState*, "VRUIControls", "MouseState");
 #pragma pack(pop)

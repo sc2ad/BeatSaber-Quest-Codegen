@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMAutoincrementedRequestId
 #include "GlobalNamespace/HMAutoincrementedRequestId.hpp"
 // Completed includes
@@ -46,25 +47,25 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::NoteCutInfo* noteCutInfo;
     // public System.Int32 get_scoreWithMultiplier()
-    // Offset: 0xBCEA88
+    // Offset: 0xBE14CC
     int get_scoreWithMultiplier();
     // public System.Int32 get_multiplier()
-    // Offset: 0xBCEA9C
+    // Offset: 0xBE14E0
     int get_multiplier();
     // public System.Void .ctor(NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0xBCEAA4
+    // Offset: 0xBE14E8
     static CutScoreBuffer* New_ctor(GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier);
     // private System.Void HandleSwingRatingCounterDidChangeEvent(SaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0xBCEC34
+    // Offset: 0xBE1678
     void HandleSwingRatingCounterDidChangeEvent(GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter, float rating);
     // private System.Void RefreshScores()
-    // Offset: 0xBCEBC8
+    // Offset: 0xBE160C
     void RefreshScores();
     // private System.Void HandleSwingRatingCounterDidFinishEvent(SaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0xBCEC38
+    // Offset: 0xBE167C
     void HandleSwingRatingCounterDidFinishEvent(GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter);
   }; // CutScoreBuffer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer*, "", "CutScoreBuffer");
 #pragma pack(pop)

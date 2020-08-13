@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BombExecutionRating::Rating rating;
     // public BombExecutionRating/Rating get_rating()
-    // Offset: 0xB5DB48
+    // Offset: 0xB5BB48
     GlobalNamespace::BombExecutionRating::Rating get_rating();
     // public System.Void set_rating(BombExecutionRating/Rating value)
-    // Offset: 0xB5DB50
+    // Offset: 0xB5BB50
     void set_rating(GlobalNamespace::BombExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, BombExecutionRating/Rating rating)
-    // Offset: 0xB5858C
+    // Offset: 0xB5658C
     static BombExecutionRating* New_ctor(float time, GlobalNamespace::BombExecutionRating::Rating rating);
   }; // BombExecutionRating
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating*, "", "BombExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating::Rating, "", "BombExecutionRating/Rating");
 #pragma pack(pop)

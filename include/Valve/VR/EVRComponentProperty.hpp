@@ -50,6 +50,6 @@ namespace Valve::VR {
     EVRComponentProperty(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRComponentProperty
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRComponentProperty, "Valve.VR", "EVRComponentProperty");
 #pragma pack(pop)

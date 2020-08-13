@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR
 #include "RootMotion/FinalIK/IKSolverVR.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
@@ -40,6 +40,6 @@ namespace RootMotion::FinalIK {
     RotationOffset(int value_ = {}) : value{value_} {}
   }; // RootMotion.FinalIK.IKSolverVR/RotationOffset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::RotationOffset, "RootMotion.FinalIK", "IKSolverVR/RotationOffset");
 #pragma pack(pop)

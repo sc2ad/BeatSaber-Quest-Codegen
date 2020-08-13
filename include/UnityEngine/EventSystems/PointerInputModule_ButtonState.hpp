@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.PointerInputModule
 #include "UnityEngine/EventSystems/PointerInputModule.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData/InputButton
@@ -24,24 +22,24 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* m_EventData;
     // public UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData get_eventData()
-    // Offset: 0xDEA8D8
+    // Offset: 0xDFD31C
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData value)
-    // Offset: 0xDEA8E0
+    // Offset: 0xDFD324
     void set_eventData(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/InputButton get_button()
-    // Offset: 0xDEA8E8
+    // Offset: 0xDFD32C
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/InputButton value)
-    // Offset: 0xDEA8F0
+    // Offset: 0xDFD334
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Void .ctor()
-    // Offset: 0xDEA8F8
+    // Offset: 0xDFD33C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PointerInputModule::ButtonState* New_ctor();
   }; // UnityEngine.EventSystems.PointerInputModule/ButtonState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::ButtonState*, "UnityEngine.EventSystems", "PointerInputModule/ButtonState");
 #pragma pack(pop)

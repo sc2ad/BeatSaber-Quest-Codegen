@@ -30,16 +30,16 @@ namespace GlobalNamespace {
     // Offset: 0x24
     UnityEngine::Quaternion offset;
     // private System.Void OnNewPosesApplied()
-    // Offset: 0xD6B478
+    // Offset: 0xD7EEBC
     void OnNewPosesApplied();
     // private System.Void OnEnable()
-    // Offset: 0xD6B5EC
+    // Offset: 0xD7F030
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD6B790
+    // Offset: 0xD7F1D4
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xD6B864
+    // Offset: 0xD7F2A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -49,6 +49,6 @@ namespace GlobalNamespace {
     static SteamVR_Ears* New_ctor();
   }; // SteamVR_Ears
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Ears*, "", "SteamVR_Ears");
 #pragma pack(pop)

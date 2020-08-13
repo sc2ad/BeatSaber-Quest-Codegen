@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* lightIdColorPairs;
     // public ColorSO get_playersPlaceNeonsColor()
-    // Offset: 0xBECF94
+    // Offset: 0xBFE9D8
     GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();
     // public System.Single get_playersPlaceNeonsIntensity()
-    // Offset: 0xBECF9C
+    // Offset: 0xBFE9E0
     float get_playersPlaceNeonsIntensity();
     // public MenuLightsPresetSO/LightIdColorPair[] get_lightIdColorPairs()
-    // Offset: 0xBECFA4
+    // Offset: 0xBFE9E8
     ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* get_lightIdColorPairs();
     // public System.Void .ctor()
-    // Offset: 0xBECFAC
+    // Offset: 0xBFE9F0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -50,6 +50,6 @@ namespace GlobalNamespace {
     static MenuLightsPresetSO* New_ctor();
   }; // MenuLightsPresetSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO*, "", "MenuLightsPresetSO");
 #pragma pack(pop)

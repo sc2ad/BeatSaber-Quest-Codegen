@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: Polyglot.CsvReader
 #include "Polyglot/CsvReader.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: Polyglot
 namespace Polyglot {
@@ -40,6 +40,6 @@ namespace Polyglot {
     ParsingMode(int value_ = {}) : value{value_} {}
   }; // Polyglot.CsvReader/ParsingMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::CsvReader::ParsingMode, "Polyglot", "CsvReader/ParsingMode");
 #pragma pack(pop)

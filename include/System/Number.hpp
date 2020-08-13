@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -35,118 +33,118 @@ namespace System {
     // Nested type: System::Number::NumberBuffer
     struct NumberBuffer;
     // static public System.Boolean NumberBufferToDecimal(System.Byte* number, System.Decimal value)
-    // Offset: 0x1003F4C
+    // Offset: 0x1013990
     static bool NumberBufferToDecimal(uint8_t* number, System::Decimal& value);
     // static System.Boolean NumberBufferToDouble(System.Byte* number, System.Double value)
-    // Offset: 0x1003F50
+    // Offset: 0x1013994
     static bool NumberBufferToDouble(uint8_t* number, double& value);
     // static public System.String FormatDecimal(System.Decimal value, System.String format, System.Globalization.NumberFormatInfo info)
-    // Offset: 0x1003F54
+    // Offset: 0x1013998
     static ::CsString* FormatDecimal(System::Decimal value, ::CsString* format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatDouble(System.Double value, System.String format, System.Globalization.NumberFormatInfo info)
-    // Offset: 0x1003FE4
+    // Offset: 0x1013A28
     static ::CsString* FormatDouble(double value, ::CsString* format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatInt32(System.Int32 value, System.String format, System.Globalization.NumberFormatInfo info)
-    // Offset: 0xFFB930
+    // Offset: 0x100B374
     static ::CsString* FormatInt32(int value, ::CsString* format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatUInt32(System.UInt32 value, System.String format, System.Globalization.NumberFormatInfo info)
-    // Offset: 0xFFBAC4
+    // Offset: 0x100B508
     static ::CsString* FormatUInt32(uint value, ::CsString* format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatInt64(System.Int64 value, System.String format, System.Globalization.NumberFormatInfo info)
-    // Offset: 0xFFD360
+    // Offset: 0x100CDA4
     static ::CsString* FormatInt64(int64_t value, ::CsString* format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatUInt64(System.UInt64 value, System.String format, System.Globalization.NumberFormatInfo info)
-    // Offset: 0x100406C
+    // Offset: 0x1013AB0
     static ::CsString* FormatUInt64(uint64_t value, ::CsString* format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatSingle(System.Single value, System.String format, System.Globalization.NumberFormatInfo info)
-    // Offset: 0x10040EC
+    // Offset: 0x1013B30
     static ::CsString* FormatSingle(float value, ::CsString* format, System::Globalization::NumberFormatInfo* info);
     // static private System.Boolean HexNumberToInt32(System.Number/NumberBuffer number, System.Int32 value)
-    // Offset: 0x1004174
+    // Offset: 0x1013BB8
     static bool HexNumberToInt32(System::Number::NumberBuffer& number, int& value);
     // static private System.Boolean HexNumberToInt64(System.Number/NumberBuffer number, System.Int64 value)
-    // Offset: 0x1004240
+    // Offset: 0x1013C84
     static bool HexNumberToInt64(System::Number::NumberBuffer& number, int64_t& value);
     // static private System.Boolean HexNumberToUInt32(System.Number/NumberBuffer number, System.UInt32 value)
-    // Offset: 0x10041A8
+    // Offset: 0x1013BEC
     static bool HexNumberToUInt32(System::Number::NumberBuffer& number, uint& value);
     // static private System.Boolean HexNumberToUInt64(System.Number/NumberBuffer number, System.UInt64 value)
-    // Offset: 0x1004274
+    // Offset: 0x1013CB8
     static bool HexNumberToUInt64(System::Number::NumberBuffer& number, uint64_t& value);
     // static private System.Boolean IsWhite(System.Char ch)
-    // Offset: 0x1004310
+    // Offset: 0x1013D54
     static bool IsWhite(::Il2CppChar ch);
     // static private System.Boolean NumberToInt32(System.Number/NumberBuffer number, System.Int32 value)
-    // Offset: 0x1004338
+    // Offset: 0x1013D7C
     static bool NumberToInt32(System::Number::NumberBuffer& number, int& value);
     // static private System.Boolean NumberToInt64(System.Number/NumberBuffer number, System.Int64 value)
-    // Offset: 0x10043C4
+    // Offset: 0x1013E08
     static bool NumberToInt64(System::Number::NumberBuffer& number, int64_t& value);
     // static private System.Boolean NumberToUInt32(System.Number/NumberBuffer number, System.UInt32 value)
-    // Offset: 0x1004448
+    // Offset: 0x1013E8C
     static bool NumberToUInt32(System::Number::NumberBuffer& number, uint& value);
     // static private System.Boolean NumberToUInt64(System.Number/NumberBuffer number, System.UInt64 value)
-    // Offset: 0x10044CC
+    // Offset: 0x1013F10
     static bool NumberToUInt64(System::Number::NumberBuffer& number, uint64_t& value);
     // static private System.Char* MatchChars(System.Char* p, System.String str)
-    // Offset: 0x1004550
+    // Offset: 0x1013F94
     static ::Il2CppChar* MatchChars(::Il2CppChar* p, ::CsString* str);
     // static private System.Char* MatchChars(System.Char* p, System.Char* str)
-    // Offset: 0x10045C4
+    // Offset: 0x1014008
     static ::Il2CppChar* MatchChars(::Il2CppChar* p, ::Il2CppChar* str);
     // static System.Decimal ParseDecimal(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
-    // Offset: 0x1004610
+    // Offset: 0x1014054
     static System::Decimal ParseDecimal(::CsString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static System.Double ParseDouble(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
-    // Offset: 0x10048B0
+    // Offset: 0x10142F4
     static double ParseDouble(::CsString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static System.Int32 ParseInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info)
-    // Offset: 0xFFBD48
+    // Offset: 0x100B78C
     static int ParseInt32(::CsString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
     // static System.Int64 ParseInt64(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
-    // Offset: 0xFFD4B0
+    // Offset: 0x100CEF4
     static int64_t ParseInt64(::CsString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static private System.Boolean ParseNumber(System.Char* str, System.Globalization.NumberStyles options, System.Number/NumberBuffer number, System.Text.StringBuilder sb, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
-    // Offset: 0x1004B10
+    // Offset: 0x1014554
     static bool ParseNumber(::Il2CppChar*& str, System::Globalization::NumberStyles options, System::Number::NumberBuffer& number, System::Text::StringBuilder* sb, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
     // static System.Single ParseSingle(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
-    // Offset: 0x1005038
+    // Offset: 0x1014A7C
     static float ParseSingle(::CsString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static System.UInt32 ParseUInt32(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
-    // Offset: 0x10052A0
+    // Offset: 0x1014CE4
     static uint ParseUInt32(::CsString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static System.UInt64 ParseUInt64(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
-    // Offset: 0x10053EC
+    // Offset: 0x1014E30
     static uint64_t ParseUInt64(::CsString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static private System.Void StringToNumber(System.String str, System.Globalization.NumberStyles options, System.Number/NumberBuffer number, System.Globalization.NumberFormatInfo info, System.Boolean parseDecimal)
-    // Offset: 0x1004758
+    // Offset: 0x101419C
     static void StringToNumber(::CsString* str, System::Globalization::NumberStyles options, System::Number::NumberBuffer& number, System::Globalization::NumberFormatInfo* info, bool parseDecimal);
     // static private System.Boolean TrailingZeros(System.String s, System.Int32 index)
-    // Offset: 0x1005538
+    // Offset: 0x1014F7C
     static bool TrailingZeros(::CsString* s, int index);
     // static System.Boolean TryParseDouble(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt, System.Double result)
-    // Offset: 0x10055A0
+    // Offset: 0x1014FE4
     static bool TryParseDouble(::CsString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt, double& result);
     // static System.Boolean TryParseInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, System.Int32 result)
-    // Offset: 0xFFC940
+    // Offset: 0x100C384
     static bool TryParseInt32(::CsString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, int& result);
     // static System.Boolean TryParseInt64(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, System.Int64 result)
-    // Offset: 0xFFD6D8
+    // Offset: 0x100D11C
     static bool TryParseInt64(::CsString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, int64_t& result);
     // static System.Boolean TryParseSingle(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt, System.Single result)
-    // Offset: 0x10056AC
+    // Offset: 0x10150F0
     static bool TryParseSingle(::CsString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt, float& result);
     // static System.Boolean TryParseUInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, System.UInt32 result)
-    // Offset: 0x10057F0
+    // Offset: 0x1015234
     static bool TryParseUInt32(::CsString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, uint& result);
     // static System.Boolean TryStringToNumber(System.String str, System.Globalization.NumberStyles options, System.Number/NumberBuffer number, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
-    // Offset: 0x1004AFC
+    // Offset: 0x1014540
     static bool TryStringToNumber(::CsString* str, System::Globalization::NumberStyles options, System::Number::NumberBuffer& number, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
     // static System.Boolean TryStringToNumber(System.String str, System.Globalization.NumberStyles options, System.Number/NumberBuffer number, System.Text.StringBuilder sb, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
-    // Offset: 0x100590C
+    // Offset: 0x1015350
     static bool TryStringToNumber(::CsString* str, System::Globalization::NumberStyles options, System::Number::NumberBuffer& number, System::Text::StringBuilder* sb, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
   }; // System.Number
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Number*, "System", "Number");
 #pragma pack(pop)

@@ -22,17 +22,17 @@ namespace UnityEngine::Timeline {
   class GroupTrack : public UnityEngine::Timeline::TrackAsset {
     public:
     // override System.Boolean CanCompileClips()
-    // Offset: 0x10857CC
+    // Offset: 0x1095210
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Boolean TrackAsset::CanCompileClips()
     bool CanCompileClips();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x10857D4
+    // Offset: 0x1095218
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> TrackAsset::get_outputs()
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
-    // Offset: 0x108583C
+    // Offset: 0x1095280
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()
@@ -42,6 +42,6 @@ namespace UnityEngine::Timeline {
     static GroupTrack* New_ctor();
   }; // UnityEngine.Timeline.GroupTrack
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::GroupTrack*, "UnityEngine.Timeline", "GroupTrack");
 #pragma pack(pop)

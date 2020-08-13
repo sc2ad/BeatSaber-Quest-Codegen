@@ -48,16 +48,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::OVRCameraRig* CameraRig;
     // private System.Void Awake()
-    // Offset: 0xCB7364
+    // Offset: 0xCCADA8
     void Awake();
     // private System.Void Start()
-    // Offset: 0xCB7460
+    // Offset: 0xCCAEA4
     void Start();
     // private System.Void Update()
-    // Offset: 0xCB7464
+    // Offset: 0xCCAEA8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCB79F0
+    // Offset: 0xCCB434
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -67,6 +67,6 @@ namespace GlobalNamespace {
     static OVRDebugHeadController* New_ctor();
   }; // OVRDebugHeadController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugHeadController*, "", "OVRDebugHeadController");
 #pragma pack(pop)

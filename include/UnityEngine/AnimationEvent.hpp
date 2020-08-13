@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.AnimationEventSource
 #include "UnityEngine/AnimationEventSource.hpp"
 // Including type: UnityEngine.AnimatorStateInfo
@@ -62,12 +60,12 @@ namespace UnityEngine {
     // Offset: 0x6C
     UnityEngine::AnimatorClipInfo m_AnimatorClipInfo;
     // public System.Void .ctor()
-    // Offset: 0x1922D64
+    // Offset: 0x19347A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AnimationEvent* New_ctor();
   }; // UnityEngine.AnimationEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");
 #pragma pack(pop)

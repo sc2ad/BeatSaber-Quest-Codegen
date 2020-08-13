@@ -73,51 +73,51 @@ namespace GlobalNamespace {
     // Offset: 0x70
     HMUI::ToggleBinder* toggleBinder;
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0xC058D4
+    // Offset: 0xC17318
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0xC058DC
+    // Offset: 0xC17320
     void SetData(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // protected System.Void Awake()
-    // Offset: 0xC0591C
+    // Offset: 0xC17360
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0xC05C10
+    // Offset: 0xC17654
     void OnDestroy();
     // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0xC05E98
+    // Offset: 0xC178DC
     void HandleSFXVolumeSettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0xC05EB4
+    // Offset: 0xC178F8
     void HandleSaberTrailIntensitySettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void <Awake>b__15_0(System.Boolean on)
-    // Offset: 0xC05ED8
+    // Offset: 0xC1791C
     void $Awake$b__15_0(bool on);
     // private System.Void <Awake>b__15_1(System.Boolean on)
-    // Offset: 0xC05EF8
+    // Offset: 0xC1793C
     void $Awake$b__15_1(bool on);
     // private System.Void <Awake>b__15_2(System.Boolean on)
-    // Offset: 0xC05F18
+    // Offset: 0xC1795C
     void $Awake$b__15_2(bool on);
     // private System.Void <Awake>b__15_3(System.Boolean on)
-    // Offset: 0xC05F38
+    // Offset: 0xC1797C
     void $Awake$b__15_3(bool on);
     // private System.Void <Awake>b__15_4(System.Boolean on)
-    // Offset: 0xC05F58
+    // Offset: 0xC1799C
     void $Awake$b__15_4(bool on);
     // private System.Void <Awake>b__15_5(System.Boolean on)
-    // Offset: 0xC05F78
+    // Offset: 0xC179BC
     void $Awake$b__15_5(bool on);
     // private System.Void <Awake>b__15_6(System.Boolean on)
-    // Offset: 0xC05F98
+    // Offset: 0xC179DC
     void $Awake$b__15_6(bool on);
     // public System.Void Refresh()
-    // Offset: 0xC05D78
+    // Offset: 0xC177BC
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0xC05ED0
+    // Offset: 0xC17914
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -127,6 +127,6 @@ namespace GlobalNamespace {
     static PlayerSettingsPanelController* New_ctor();
   }; // PlayerSettingsPanelController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSettingsPanelController*, "", "PlayerSettingsPanelController");
 #pragma pack(pop)

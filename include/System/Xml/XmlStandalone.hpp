@@ -38,6 +38,6 @@ namespace System::Xml {
     XmlStandalone(int value_ = {}) : value{value_} {}
   }; // System.Xml.XmlStandalone
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlStandalone, "System.Xml", "XmlStandalone");
 #pragma pack(pop)

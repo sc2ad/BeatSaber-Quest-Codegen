@@ -14,13 +14,13 @@ namespace UnityEngine {
   class AudioLowPassFilter : public UnityEngine::Behaviour {
     public:
     // public System.Single get_cutoffFrequency()
-    // Offset: 0x1943594
+    // Offset: 0x1955FD8
     float get_cutoffFrequency();
     // public System.Void set_cutoffFrequency(System.Single value)
-    // Offset: 0x19435D4
+    // Offset: 0x1956018
     void set_cutoffFrequency(float value);
   }; // UnityEngine.AudioLowPassFilter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioLowPassFilter*, "UnityEngine", "AudioLowPassFilter");
 #pragma pack(pop)

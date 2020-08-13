@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/AttributeValueCache
 #include "System/Xml/XmlWellFormedWriter_AttributeValueCache.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType
@@ -24,15 +22,15 @@ namespace System::Xml {
     // Offset: 0x18
     ::CsObject* data;
     // System.Void Set(System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType type, System.Object data)
-    // Offset: 0x192AB48
+    // Offset: 0x193E58C
     void Set(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::CsObject* data);
     // System.Void .ctor()
-    // Offset: 0x192AB40
+    // Offset: 0x193E584
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static XmlWellFormedWriter::AttributeValueCache::Item* New_ctor();
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/Item
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/Item");
 #pragma pack(pop)

@@ -58,16 +58,16 @@ namespace UnityEngine::TestTools {
     // Offset: 0x50
     bool TestAfterStarted;
     // public System.Void Reset()
-    // Offset: 0xE275B4
+    // Offset: 0xE39FF8
     void Reset();
     // public System.Void StoreTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0xE27610
+    // Offset: 0xE3A054
     void StoreTestResult(NUnit::Framework::Internal::TestResult* result);
     // public System.Void ApplyTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0xE276D4
+    // Offset: 0xE3A118
     void ApplyTestResult(NUnit::Framework::Internal::TestResult* result);
     // public System.Void .ctor()
-    // Offset: 0xE27774
+    // Offset: 0xE3A1B8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -75,6 +75,6 @@ namespace UnityEngine::TestTools {
     static BeforeAfterTestCommandState* New_ctor();
   }; // UnityEngine.TestTools.BeforeAfterTestCommandState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::BeforeAfterTestCommandState*, "UnityEngine.TestTools", "BeforeAfterTestCommandState");
 #pragma pack(pop)

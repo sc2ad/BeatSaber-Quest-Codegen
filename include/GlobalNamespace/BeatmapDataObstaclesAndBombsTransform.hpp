@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: GameplayModifiers
 #include "GlobalNamespace/GameplayModifiers.hpp"
 // Completed includes
@@ -25,18 +23,18 @@ namespace GlobalNamespace {
   class BeatmapDataObstaclesAndBombsTransform : public ::CsObject {
     public:
     // static public BeatmapData CreateTransformedData(BeatmapData beatmapData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x197254C
+    // Offset: 0xB8A848
     static GlobalNamespace::BeatmapData* CreateTransformedData(GlobalNamespace::BeatmapData* beatmapData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
     // static private System.Boolean ShouldUseBeatmapObject(BeatmapObjectData beatmapObjectData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x1979CBC
+    // Offset: 0xB91FB8
     static bool ShouldUseBeatmapObject(GlobalNamespace::BeatmapObjectData* beatmapObjectData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
     // public System.Void .ctor()
-    // Offset: 0x1979DD0
+    // Offset: 0xB920CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataObstaclesAndBombsTransform* New_ctor();
   }; // BeatmapDataObstaclesAndBombsTransform
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*, "", "BeatmapDataObstaclesAndBombsTransform");
 #pragma pack(pop)

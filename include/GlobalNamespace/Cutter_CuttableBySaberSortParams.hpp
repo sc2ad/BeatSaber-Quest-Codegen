@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Cutter
 #include "GlobalNamespace/Cutter.hpp"
 // Including type: UnityEngine.Vector3
@@ -34,12 +32,12 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     UnityEngine::Vector3 pos;
     // public System.Void .ctor()
-    // Offset: 0xBCFE38
+    // Offset: 0xBE287C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Cutter::CuttableBySaberSortParams* New_ctor();
   }; // Cutter/CuttableBySaberSortParams
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Cutter::CuttableBySaberSortParams*, "", "Cutter/CuttableBySaberSortParams");
 #pragma pack(pop)

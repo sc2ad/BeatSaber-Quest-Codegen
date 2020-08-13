@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
@@ -68,19 +66,19 @@ namespace GlobalNamespace {
     // Set static field: static public OVRComposition currentComposition
     static void _set_currentComposition(GlobalNamespace::OVRComposition* value);
     // static public System.Void Update(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRManager/CompositionMethod compositionMethod, System.Boolean useDynamicLighting, OVRManager/CameraDevice cameraDevice, OVRManager/DepthQuality depthQuality, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0xED5578
+    // Offset: 0xEE6FBC
     static void Update(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRManager::CompositionMethod compositionMethod, bool useDynamicLighting, GlobalNamespace::OVRManager::CameraDevice cameraDevice, GlobalNamespace::OVRManager::DepthQuality depthQuality, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // static public System.Void Cleanup()
-    // Offset: 0xED5DDC
+    // Offset: 0xEE7820
     static void Cleanup();
     // static public System.Void RecenterPose()
-    // Offset: 0xED5FE0
+    // Offset: 0xEE7A24
     static void RecenterPose();
     // static private System.Void .cctor()
-    // Offset: 0xED608C
+    // Offset: 0xEE7AD0
     static void _cctor();
   }; // OVRMixedReality
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedReality*, "", "OVRMixedReality");
 #pragma pack(pop)

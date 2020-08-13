@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -16,10 +17,10 @@ namespace System {
     // Offset: 0x10
     bool m_compliant;
     // public System.Void .ctor(System.Boolean isCompliant)
-    // Offset: 0x131A570
+    // Offset: 0x132DFB4
     static CLSCompliantAttribute* New_ctor(bool isCompliant);
   }; // System.CLSCompliantAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::CLSCompliantAttribute*, "System", "CLSCompliantAttribute");
 #pragma pack(pop)

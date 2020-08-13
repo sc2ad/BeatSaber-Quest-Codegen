@@ -23,23 +23,23 @@ namespace NUnit::Framework::Internal {
   class NUnitException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18D5534
+    // Offset: 0x18E5F78
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static NUnitException* New_ctor();
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x18D559C
+    // Offset: 0x18E5FE0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     static NUnitException* New_ctor(::CsString* message, System::Exception* inner);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18D561C
+    // Offset: 0x18E6060
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static NUnitException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // NUnit.Framework.Internal.NUnitException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::NUnitException*, "NUnit.Framework.Internal", "NUnitException");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: TMPro.SpriteAssetUtilities.TexturePacker
 #include "TMPro/SpriteAssetUtilities/TexturePacker.hpp"
 // Including type: TMPro.SpriteAssetUtilities.TexturePacker/SpriteData
@@ -29,12 +27,12 @@ namespace TMPro::SpriteAssetUtilities {
     // Offset: 0x10
     System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* frames;
     // public System.Void .ctor()
-    // Offset: 0xB69318
+    // Offset: 0xB67318
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TexturePacker::SpriteDataObject* New_ctor();
   }; // TMPro.SpriteAssetUtilities.TexturePacker/SpriteDataObject
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject*, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteDataObject");
 #pragma pack(pop)

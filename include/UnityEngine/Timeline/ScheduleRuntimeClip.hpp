@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Timeline.RuntimeClipBase
 #include "UnityEngine/Timeline/RuntimeClipBase.hpp"
 // Including type: UnityEngine.Playables.Playable
@@ -45,45 +46,45 @@ namespace UnityEngine::Timeline {
     // Offset: 0x50
     bool m_Started;
     // public System.Void SetTime(System.Double time)
-    // Offset: 0x1089064
+    // Offset: 0x1098AA8
     void SetTime(double time);
     // public UnityEngine.Timeline.TimelineClip get_clip()
-    // Offset: 0x10890C4
+    // Offset: 0x1098B08
     UnityEngine::Timeline::TimelineClip* get_clip();
     // public UnityEngine.Playables.Playable get_mixer()
-    // Offset: 0x10890CC
+    // Offset: 0x1098B10
     UnityEngine::Playables::Playable get_mixer();
     // public UnityEngine.Playables.Playable get_playable()
-    // Offset: 0x10890D8
+    // Offset: 0x1098B1C
     UnityEngine::Playables::Playable get_playable();
     // public System.Void .ctor(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer, System.Double startDelay, System.Double finishTail)
-    // Offset: 0x107F9E8
+    // Offset: 0x108F42C
     static ScheduleRuntimeClip* New_ctor(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double startDelay, double finishTail);
     // private System.Void Create(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer, System.Double startDelay, System.Double finishTail)
-    // Offset: 0x10890E4
+    // Offset: 0x1098B28
     void Create(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double startDelay, double finishTail);
     // public override System.Double get_start()
-    // Offset: 0x1088F8C
+    // Offset: 0x10989D0
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_start()
     double get_start();
     // public override System.Double get_duration()
-    // Offset: 0x1089014
+    // Offset: 0x1098A58
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_duration()
     double get_duration();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x1089190
+    // Offset: 0x1098BD4
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x1089288
+    // Offset: 0x1098CCC
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
   }; // UnityEngine.Timeline.ScheduleRuntimeClip
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ScheduleRuntimeClip*, "UnityEngine.Timeline", "ScheduleRuntimeClip");
 #pragma pack(pop)

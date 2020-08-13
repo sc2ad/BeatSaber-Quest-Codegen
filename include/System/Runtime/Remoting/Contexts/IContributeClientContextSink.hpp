@@ -22,6 +22,6 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Messaging::IMessageSink* GetClientContextSink(System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
   }; // System.Runtime.Remoting.Contexts.IContributeClientContextSink
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeClientContextSink*, "System.Runtime.Remoting.Contexts", "IContributeClientContextSink");
 #pragma pack(pop)

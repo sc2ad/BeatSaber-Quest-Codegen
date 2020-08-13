@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CustomPreviewBeatmapLevel
 #include "GlobalNamespace/CustomPreviewBeatmapLevel.hpp"
 // Including type: IBeatmapLevel
@@ -34,18 +35,18 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     GlobalNamespace::BeatmapLevelData* beatmapLevelData;
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip, UnityEngine.Texture2D coverImageTexture2D)
-    // Offset: 0xBCDBDC
+    // Offset: 0xBE0620
     static CustomBeatmapLevel* New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel, UnityEngine::AudioClip* previewAudioClip, UnityEngine::Texture2D* coverImageTexture2D);
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0xBCDDD0
+    // Offset: 0xBE0814
     void SetBeatmapLevelData(GlobalNamespace::BeatmapLevelData* beatmapLevelData);
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0xBCDBD4
+    // Offset: 0xBE0618
     // Implemented from: IBeatmapLevel
     // Base method: IBeatmapLevelData IBeatmapLevel::get_beatmapLevelData()
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
   }; // CustomBeatmapLevel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevel*, "", "CustomBeatmapLevel");
 #pragma pack(pop)

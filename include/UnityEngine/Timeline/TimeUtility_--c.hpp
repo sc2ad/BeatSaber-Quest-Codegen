@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Timeline.TimeUtility
 #include "UnityEngine/Timeline/TimeUtility.hpp"
 // Completed includes
@@ -36,21 +34,21 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Func`2<System.Char,System.Boolean> <>9__14_1
     static void _set_$$9__14_1(System::Func_2<::Il2CppChar, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x108C790
+    // Offset: 0x109C1D4
     static void _cctor();
     // System.Boolean <ParseTimeCode>b__14_0(System.Char c)
-    // Offset: 0x108C800
+    // Offset: 0x109C244
     bool $ParseTimeCode$b__14_0(::Il2CppChar c);
     // System.Boolean <ParseTimeCode>b__14_1(System.Char c)
-    // Offset: 0x108C868
+    // Offset: 0x109C2AC
     bool $ParseTimeCode$b__14_1(::Il2CppChar c);
     // public System.Void .ctor()
-    // Offset: 0x108C7F8
+    // Offset: 0x109C23C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimeUtility::$$c* New_ctor();
   }; // UnityEngine.Timeline.TimeUtility/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility::$$c*, "UnityEngine.Timeline", "TimeUtility/<>c");
 #pragma pack(pop)

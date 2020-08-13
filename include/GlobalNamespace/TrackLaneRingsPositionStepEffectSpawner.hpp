@@ -48,16 +48,16 @@ namespace GlobalNamespace {
     // Offset: 0x38
     bool prevWasMinStep;
     // protected System.Void Start()
-    // Offset: 0xC32168
+    // Offset: 0xC43BAC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC321FC
+    // Offset: 0xC43C40
     void OnDestroy();
     // public System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xC322D4
+    // Offset: 0xC43D18
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xC32380
+    // Offset: 0xC43DC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -67,6 +67,6 @@ namespace GlobalNamespace {
     static TrackLaneRingsPositionStepEffectSpawner* New_ctor();
   }; // TrackLaneRingsPositionStepEffectSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*, "", "TrackLaneRingsPositionStepEffectSpawner");
 #pragma pack(pop)

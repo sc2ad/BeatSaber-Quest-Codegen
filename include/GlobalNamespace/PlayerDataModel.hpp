@@ -29,28 +29,28 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PlayerData* playerData;
     // public PlayerData get_playerData()
-    // Offset: 0xBC89D0
+    // Offset: 0xBDB414
     GlobalNamespace::PlayerData* get_playerData();
     // protected System.Void OnEnable()
-    // Offset: 0xBC89D8
+    // Offset: 0xBDB41C
     void OnEnable();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0xBC8A14
+    // Offset: 0xBDB458
     void OnApplicationPause(bool pauseStatus);
     // protected System.Void OnDisable()
-    // Offset: 0xBC8A20
+    // Offset: 0xBDB464
     void OnDisable();
     // public System.Void ResetData()
-    // Offset: 0xBC8A24
+    // Offset: 0xBDB468
     void ResetData();
     // public System.Void Save()
-    // Offset: 0xBBCC88
+    // Offset: 0xBCF6CC
     void Save();
     // public System.Void Load()
-    // Offset: 0xBC89DC
+    // Offset: 0xBDB420
     void Load();
     // public System.Void .ctor()
-    // Offset: 0xBC8A5C
+    // Offset: 0xBDB4A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -60,6 +60,6 @@ namespace GlobalNamespace {
     static PlayerDataModel* New_ctor();
   }; // PlayerDataModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataModel*, "", "PlayerDataModel");
 #pragma pack(pop)

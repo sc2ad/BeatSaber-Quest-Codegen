@@ -26,10 +26,10 @@ namespace SFB {
     // Creating value type constructor for type: ExtensionFilter
     ExtensionFilter(::CsString* name_ = {}, ::Array<::CsString*>* extensions_ = {}) : name{name_}, extensions{extensions_} {}
     // public System.Void .ctor(System.String filterName, System.String[] filterExtensions)
-    // Offset: 0xA27C5C
+    // Offset: 0xA27CD8
     static ExtensionFilter* New_ctor(::CsString* filterName, ::Array<::CsString*>* filterExtensions);
   }; // SFB.ExtensionFilter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");
 #pragma pack(pop)

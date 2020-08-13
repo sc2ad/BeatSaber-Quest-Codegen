@@ -81,31 +81,31 @@ namespace Zenject {
     // Offset: 0x38
     Zenject::ZenjectBinding::BindTypes bindType;
     // public System.Boolean get_UseSceneContext()
-    // Offset: 0x1928ACC
+    // Offset: 0x193B510
     bool get_UseSceneContext();
     // public System.Boolean get_IfNotBound()
-    // Offset: 0x1928AD4
+    // Offset: 0x193B518
     bool get_IfNotBound();
     // public Zenject.Context get_Context()
-    // Offset: 0x1928ADC
+    // Offset: 0x193B520
     Zenject::Context* get_Context();
     // public System.Void set_Context(Zenject.Context value)
-    // Offset: 0x1928AE4
+    // Offset: 0x193B528
     void set_Context(Zenject::Context* value);
     // public UnityEngine.Component[] get_Components()
-    // Offset: 0x1928AEC
+    // Offset: 0x193B530
     ::Array<UnityEngine::Component*>* get_Components();
     // public System.String get_Identifier()
-    // Offset: 0x1928AF4
+    // Offset: 0x193B538
     ::CsString* get_Identifier();
     // public Zenject.ZenjectBinding/BindTypes get_BindType()
-    // Offset: 0x1928AFC
+    // Offset: 0x193B540
     Zenject::ZenjectBinding::BindTypes get_BindType();
     // public System.Void Start()
-    // Offset: 0x1928B04
+    // Offset: 0x193B548
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1928B08
+    // Offset: 0x193B54C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -115,7 +115,7 @@ namespace Zenject {
     static ZenjectBinding* New_ctor();
   }; // Zenject.ZenjectBinding
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding*, "Zenject", "ZenjectBinding");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding::BindTypes, "Zenject", "ZenjectBinding/BindTypes");
 #pragma pack(pop)

@@ -44,6 +44,6 @@ namespace OVR::OpenVR {
     EHiddenAreaMeshType(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EHiddenAreaMeshType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EHiddenAreaMeshType, "OVR.OpenVR", "EHiddenAreaMeshType");
 #pragma pack(pop)

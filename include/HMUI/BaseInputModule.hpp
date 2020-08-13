@@ -17,18 +17,18 @@ namespace HMUI {
     // Offset: 0x48
     bool userInteractionEnabled;
     // public System.Boolean get_userInteractionEnabled()
-    // Offset: 0xEBFCC4
+    // Offset: 0xED2708
     bool get_userInteractionEnabled();
     // public System.Void set_userInteractionEnabled(System.Boolean value)
-    // Offset: 0xEBFCCC
+    // Offset: 0xED2710
     void set_userInteractionEnabled(bool value);
     // protected override System.Void Awake()
-    // Offset: 0xEBFCD8
+    // Offset: 0xED271C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Awake()
     void Awake();
     // protected System.Void .ctor()
-    // Offset: 0xEBFD04
+    // Offset: 0xED2748
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -40,6 +40,6 @@ namespace HMUI {
     static BaseInputModule* New_ctor();
   }; // HMUI.BaseInputModule
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::BaseInputModule*, "HMUI", "BaseInputModule");
 #pragma pack(pop)

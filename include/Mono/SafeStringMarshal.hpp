@@ -28,19 +28,19 @@ namespace Mono {
     // Creating value type constructor for type: SafeStringMarshal
     SafeStringMarshal(::CsString* str_ = {}, System::IntPtr marshaled_string_ = {}) : str{str_}, marshaled_string{marshaled_string_} {}
     // static public System.IntPtr StringToUtf8(System.String str)
-    // Offset: 0x10A2F4C
+    // Offset: 0x10B3990
     static System::IntPtr StringToUtf8(::CsString* str);
     // static public System.Void GFree(System.IntPtr ptr)
-    // Offset: 0x10A2F50
+    // Offset: 0x10B3994
     static void GFree(System::IntPtr ptr);
     // public System.Void .ctor(System.String str)
-    // Offset: 0xA3CE9C
+    // Offset: 0xA3CF18
     static SafeStringMarshal* New_ctor(::CsString* str);
     // public System.IntPtr get_Value()
-    // Offset: 0xA3CEA4
+    // Offset: 0xA3CF20
     System::IntPtr get_Value();
     // public System.Void Dispose()
-    // Offset: 0xA3CEAC
+    // Offset: 0xA3CF28
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -49,6 +49,6 @@ namespace Mono {
     void System_IDisposable_Dispose();
   }; // Mono.SafeStringMarshal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");
 #pragma pack(pop)

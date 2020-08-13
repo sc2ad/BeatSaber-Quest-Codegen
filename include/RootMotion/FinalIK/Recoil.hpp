@@ -126,44 +126,44 @@ namespace RootMotion::FinalIK {
     // Offset: 0xE4
     UnityEngine::Vector3 aimIKAxis;
     // public System.Boolean get_isFinished()
-    // Offset: 0x121D814
+    // Offset: 0x122F258
     bool get_isFinished();
     // public System.Void SetHandRotations(UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation)
-    // Offset: 0x121D844
+    // Offset: 0x122F288
     void SetHandRotations(UnityEngine::Quaternion leftHandRotation, UnityEngine::Quaternion rightHandRotation);
     // public System.Void Fire(System.Single magnitude)
-    // Offset: 0x121D870
+    // Offset: 0x122F2B4
     void Fire(float magnitude);
     // private System.Void AfterFBBIK()
-    // Offset: 0x121E924
+    // Offset: 0x1230368
     void AfterFBBIK();
     // private System.Void AfterAimIK()
-    // Offset: 0x121EA7C
+    // Offset: 0x12304C0
     void AfterAimIK();
     // private RootMotion.FinalIK.IKEffector get_primaryHandEffector()
-    // Offset: 0x121E8A4
+    // Offset: 0x12302E8
     RootMotion::FinalIK::IKEffector* get_primaryHandEffector();
     // private RootMotion.FinalIK.IKEffector get_secondaryHandEffector()
-    // Offset: 0x121E8E4
+    // Offset: 0x1230328
     RootMotion::FinalIK::IKEffector* get_secondaryHandEffector();
     // private UnityEngine.Transform get_primaryHand()
-    // Offset: 0x121E864
+    // Offset: 0x12302A8
     UnityEngine::Transform* get_primaryHand();
     // private UnityEngine.Transform get_secondaryHand()
-    // Offset: 0x121E884
+    // Offset: 0x12302C8
     UnityEngine::Transform* get_secondaryHand();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x121DAEC
+    // Offset: 0x122F530
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // protected override System.Void OnDestroy()
-    // Offset: 0x121EAB8
+    // Offset: 0x12304FC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x121EC84
+    // Offset: 0x12306C8
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -174,7 +174,7 @@ namespace RootMotion::FinalIK {
     static Recoil* New_ctor();
   }; // RootMotion.FinalIK.Recoil
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil*, "RootMotion.FinalIK", "Recoil");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::Handedness, "RootMotion.FinalIK", "Recoil/Handedness");
 #pragma pack(pop)

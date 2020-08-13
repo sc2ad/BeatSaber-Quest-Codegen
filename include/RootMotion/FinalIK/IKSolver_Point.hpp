@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.IKSolver
 #include "RootMotion/FinalIK/IKSolver.hpp"
 // Including type: UnityEngine.Vector3
@@ -45,30 +43,30 @@ namespace RootMotion::FinalIK {
     // Offset: 0x44
     UnityEngine::Quaternion defaultLocalRotation;
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x136ECD0
+    // Offset: 0x1381714
     void StoreDefaultLocalState();
     // public System.Void FixTransform()
-    // Offset: 0x136ED20
+    // Offset: 0x1381764
     void FixTransform();
     // public System.Void UpdateSolverPosition()
-    // Offset: 0x136EEA8
+    // Offset: 0x13818EC
     void UpdateSolverPosition();
     // public System.Void UpdateSolverLocalPosition()
-    // Offset: 0x136EEE0
+    // Offset: 0x1381924
     void UpdateSolverLocalPosition();
     // public System.Void UpdateSolverState()
-    // Offset: 0x136EF18
+    // Offset: 0x138195C
     void UpdateSolverState();
     // public System.Void UpdateSolverLocalState()
-    // Offset: 0x136EF68
+    // Offset: 0x13819AC
     void UpdateSolverLocalState();
     // public System.Void .ctor()
-    // Offset: 0x136E76C
+    // Offset: 0x13811B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKSolver::Point* New_ctor();
   }; // RootMotion.FinalIK.IKSolver/Point
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Point*, "RootMotion.FinalIK", "IKSolver/Point");
 #pragma pack(pop)

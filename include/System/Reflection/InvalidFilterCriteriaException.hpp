@@ -23,26 +23,26 @@ namespace System::Reflection {
   class InvalidFilterCriteriaException : public System::ApplicationException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1353D20
+    // Offset: 0x1366764
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidFilterCriteriaException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1353D94
+    // Offset: 0x13667D8
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static InvalidFilterCriteriaException* New_ctor(::CsString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1353DC8
+    // Offset: 0x136680C
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static InvalidFilterCriteriaException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.InvalidFilterCriteriaException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::InvalidFilterCriteriaException*, "System.Reflection", "InvalidFilterCriteriaException");
 #pragma pack(pop)

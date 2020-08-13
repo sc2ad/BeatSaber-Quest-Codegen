@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
 // Completed includes
@@ -31,13 +29,13 @@ namespace Oculus::Platform {
   class Parties : public ::CsObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Party> GetCurrent()
-    // Offset: 0xE95D70
+    // Offset: 0xEA87B4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* GetCurrent();
     // static public System.Void SetPartyUpdateNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.PartyUpdateNotification> callback)
-    // Offset: 0xE95E7C
+    // Offset: 0xEA88C0
     static void SetPartyUpdateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback* callback);
   }; // Oculus.Platform.Parties
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Parties*, "Oculus.Platform", "Parties");
 #pragma pack(pop)

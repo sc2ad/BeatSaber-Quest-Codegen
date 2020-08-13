@@ -41,18 +41,18 @@ namespace GlobalNamespace {
     // Offset: 0x50
     ::Array<UnityEngine::ParticleSystem::Particle>* particles;
     // public UnityEngine.Color get_color()
-    // Offset: 0x1815FD0
+    // Offset: 0x1826A14
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1816030
+    // Offset: 0x1826A74
     void Awake();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x18160EC
+    // Offset: 0x1826B30
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x18162D4
+    // Offset: 0x1826D18
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     static ParticleSystemLightWithId* New_ctor();
   }; // ParticleSystemLightWithId
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemLightWithId*, "", "ParticleSystemLightWithId");
 #pragma pack(pop)

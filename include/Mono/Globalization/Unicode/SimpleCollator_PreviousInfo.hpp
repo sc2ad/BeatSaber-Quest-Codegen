@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: Mono.Globalization.Unicode.SimpleCollator
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
@@ -24,10 +24,10 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: PreviousInfo
     PreviousInfo(int Code_ = {}, uint8_t* SortKey_ = {}) : Code{Code_}, SortKey{SortKey_} {}
     // public System.Void .ctor(System.Boolean dummy)
-    // Offset: 0xA3CBDC
+    // Offset: 0xA3CC58
     static SimpleCollator::PreviousInfo* New_ctor(bool dummy);
   }; // Mono.Globalization.Unicode.SimpleCollator/PreviousInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::PreviousInfo, "Mono.Globalization.Unicode", "SimpleCollator/PreviousInfo");
 #pragma pack(pop)

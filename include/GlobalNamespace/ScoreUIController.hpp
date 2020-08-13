@@ -55,31 +55,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfDigits
     static void _set_kMaxNumberOfDigits(int value);
     // protected System.Void Start()
-    // Offset: 0xC17A88
+    // Offset: 0xC294CC
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xC17E28
+    // Offset: 0xC2986C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC17E2C
+    // Offset: 0xC29870
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0xC17B0C
+    // Offset: 0xC29550
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0xC17E30
+    // Offset: 0xC29874
     void UnregisterFromEvents();
     // private System.Void HandleScoreDidChangeRealtime(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0xC17F08
+    // Offset: 0xC2994C
     void HandleScoreDidChangeRealtime(int rawScore, int modifiedScore);
     // protected System.Void UpdateScore(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0xC17C20
+    // Offset: 0xC29664
     void UpdateScore(int rawScore, int modifiedScore);
     // private System.Void Append000Number(System.Text.StringBuilder stringBuilder, System.Int32 number)
-    // Offset: 0xC17F0C
+    // Offset: 0xC29950
     void Append000Number(System::Text::StringBuilder* stringBuilder, int number);
     // public System.Void .ctor()
-    // Offset: 0xC17FBC
+    // Offset: 0xC29A00
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -89,6 +89,6 @@ namespace GlobalNamespace {
     static ScoreUIController* New_ctor();
   }; // ScoreUIController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreUIController*, "", "ScoreUIController");
 #pragma pack(pop)

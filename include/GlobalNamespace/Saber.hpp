@@ -85,46 +85,46 @@ namespace GlobalNamespace {
     // Offset: 0x68
     float time;
     // public SaberType get_saberType()
-    // Offset: 0xC0DD68
+    // Offset: 0xC1F7AC
     GlobalNamespace::SaberType get_saberType();
     // public UnityEngine.Vector3 get_saberBladeTopPos()
-    // Offset: 0xC0DD84
+    // Offset: 0xC1F7C8
     UnityEngine::Vector3 get_saberBladeTopPos();
     // public UnityEngine.Vector3 get_saberBladeBottomPos()
-    // Offset: 0xC0DDA0
+    // Offset: 0xC1F7E4
     UnityEngine::Vector3 get_saberBladeBottomPos();
     // public UnityEngine.Vector3 get_handlePos()
-    // Offset: 0xC0DDBC
+    // Offset: 0xC1F800
     UnityEngine::Vector3 get_handlePos();
     // public UnityEngine.Quaternion get_handleRot()
-    // Offset: 0xC0DDD8
+    // Offset: 0xC1F81C
     UnityEngine::Quaternion get_handleRot();
     // public System.Single get_bladeSpeed()
-    // Offset: 0xC0DDF4
+    // Offset: 0xC1F838
     float get_bladeSpeed();
     // public System.Boolean get_disableCutting()
-    // Offset: 0xC0DE10
+    // Offset: 0xC1F854
     bool get_disableCutting();
     // public System.Void set_disableCutting(System.Boolean value)
-    // Offset: 0xC0DE18
+    // Offset: 0xC1F85C
     void set_disableCutting(bool value);
     // protected System.Void Start()
-    // Offset: 0xC0DE24
+    // Offset: 0xC1F868
     void Start();
     // public System.Void ManualUpdate()
-    // Offset: 0xC0DF2C
+    // Offset: 0xC1F970
     void ManualUpdate();
     // public SaberSwingRatingCounter CreateSwingRatingCounter(UnityEngine.Transform noteTransform)
-    // Offset: 0xC0E77C
+    // Offset: 0xC201C0
     GlobalNamespace::SaberSwingRatingCounter* CreateSwingRatingCounter(UnityEngine::Transform* noteTransform);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0xC0E95C
+    // Offset: 0xC203A0
     void OnDrawGizmos();
     // public System.Void OverridePositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0xC0ED34
+    // Offset: 0xC20778
     void OverridePositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void .ctor()
-    // Offset: 0xC0EDD8
+    // Offset: 0xC2081C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -134,6 +134,6 @@ namespace GlobalNamespace {
     static Saber* New_ctor();
   }; // Saber
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Saber*, "", "Saber");
 #pragma pack(pop)

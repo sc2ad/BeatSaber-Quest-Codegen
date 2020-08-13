@@ -74,28 +74,28 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool sfxEnabled;
     // public System.Single get_sfxLatency()
-    // Offset: 0x196F484
+    // Offset: 0xB87780
     float get_sfxLatency();
     // public System.Void Init()
-    // Offset: 0x196F4EC
+    // Offset: 0xB877E8
     void Init();
     // public System.Void set_mainVolume(System.Single value)
-    // Offset: 0x196F590
+    // Offset: 0xB8788C
     void set_mainVolume(float value);
     // public System.Void set_sfxVolume(System.Single value)
-    // Offset: 0x196F5FC
+    // Offset: 0xB878F8
     void set_sfxVolume(float value);
     // public System.Boolean get_sfxEnabled()
-    // Offset: 0x196F688
+    // Offset: 0xB87984
     bool get_sfxEnabled();
     // public System.Void set_sfxEnabled(System.Boolean value)
-    // Offset: 0x196F690
+    // Offset: 0xB8798C
     void set_sfxEnabled(bool value);
     // public System.Void set_musicPitch(System.Single value)
-    // Offset: 0x196F6B0
+    // Offset: 0xB879AC
     void set_musicPitch(float value);
     // public System.Void .ctor()
-    // Offset: 0x196F780
+    // Offset: 0xB87A7C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -104,6 +104,6 @@ namespace GlobalNamespace {
     static AudioManagerSO* New_ctor();
   }; // AudioManagerSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioManagerSO*, "", "AudioManagerSO");
 #pragma pack(pop)

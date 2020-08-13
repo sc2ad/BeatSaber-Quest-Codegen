@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Including type: UnityEngine.Color
@@ -18,13 +19,13 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     UnityEngine::Color m_Color;
     // public UnityEngine.Color get_color()
-    // Offset: 0x18F46F8
+    // Offset: 0x190513C
     UnityEngine::Color get_color();
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b)
-    // Offset: 0x18F4704
+    // Offset: 0x1905148
     static TrackColorAttribute* New_ctor(float r, float g, float b);
   }; // UnityEngine.Timeline.TrackColorAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackColorAttribute*, "UnityEngine.Timeline", "TrackColorAttribute");
 #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace JetBrains::Annotations {
   class RazorHelperCommonAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x194578C
+    // Offset: 0x19581D0
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static RazorHelperCommonAttribute* New_ctor();
   }; // JetBrains.Annotations.RazorHelperCommonAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorHelperCommonAttribute*, "JetBrains.Annotations", "RazorHelperCommonAttribute");
 #pragma pack(pop)

@@ -37,54 +37,54 @@ namespace Mono::Xml {
     // Offset: 0x78
     System::Collections::Stack* stack;
     // public System.Void LoadXml(System.String xml)
-    // Offset: 0x10A3780
+    // Offset: 0x10B41C4
     void LoadXml(::CsString* xml);
     // public System.Security.SecurityElement ToXml()
-    // Offset: 0x10A3A14
+    // Offset: 0x10B4458
     System::Security::SecurityElement* ToXml();
     // public System.Void .ctor()
-    // Offset: 0x10A35EC
+    // Offset: 0x10B4030
     // Implemented from: Mono.Xml.SmallXmlParser
     // Base method: System.Void SmallXmlParser::.ctor()
     // Base method: System.Void Object::.ctor()
     static SecurityParser* New_ctor();
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x10A3A1C
+    // Offset: 0x10B4460
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnStartParsing(Mono.Xml.SmallXmlParser parser)
     void OnStartParsing(Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
-    // Offset: 0x10A3A20
+    // Offset: 0x10B4464
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnProcessingInstruction(System.String name, System.String text)
     void OnProcessingInstruction(::CsString* name, ::CsString* text);
     // public System.Void OnIgnorableWhitespace(System.String s)
-    // Offset: 0x10A3A24
+    // Offset: 0x10B4468
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnIgnorableWhitespace(System.String s)
     void OnIgnorableWhitespace(::CsString* s);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x10A3A28
+    // Offset: 0x10B446C
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
     void OnStartElement(::CsString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
-    // Offset: 0x10A3CF8
+    // Offset: 0x10B473C
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnEndElement(System.String name)
     void OnEndElement(::CsString* name);
     // public System.Void OnChars(System.String ch)
-    // Offset: 0x10A3D88
+    // Offset: 0x10B47CC
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnChars(System.String ch)
     void OnChars(::CsString* ch);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x10A3E18
+    // Offset: 0x10B485C
     // Implemented from: Mono.Xml.SmallXmlParser/IContentHandler
     // Base method: System.Void IContentHandler::OnEndParsing(Mono.Xml.SmallXmlParser parser)
     void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
   }; // Mono.Xml.SecurityParser
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SecurityParser*, "Mono.Xml", "SecurityParser");
 #pragma pack(pop)

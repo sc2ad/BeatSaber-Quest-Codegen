@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: AlphabetScrollbarInfoBeatmapLevelHelper
 #include "GlobalNamespace/AlphabetScrollbarInfoBeatmapLevelHelper.hpp"
 // Completed includes
@@ -37,18 +35,18 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IPreviewBeatmapLevel,System.String> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<GlobalNamespace::IPreviewBeatmapLevel*, ::CsString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x196A2F8
+    // Offset: 0xB825F4
     static void _cctor();
     // System.String <CreateData>b__3_0(IPreviewBeatmapLevel x)
-    // Offset: 0x196A368
+    // Offset: 0xB82664
     ::CsString* $CreateData$b__3_0(GlobalNamespace::IPreviewBeatmapLevel* x);
     // public System.Void .ctor()
-    // Offset: 0x196A360
+    // Offset: 0xB8265C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AlphabetScrollbarInfoBeatmapLevelHelper::$$c* New_ctor();
   }; // AlphabetScrollbarInfoBeatmapLevelHelper/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c*, "", "AlphabetScrollbarInfoBeatmapLevelHelper/<>c");
 #pragma pack(pop)

@@ -44,6 +44,6 @@ namespace JetBrains::Annotations {
     ImplicitUseTargetFlags(int value_ = {}) : value{value_} {}
   }; // JetBrains.Annotations.ImplicitUseTargetFlags
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ImplicitUseTargetFlags, "JetBrains.Annotations", "ImplicitUseTargetFlags");
 #pragma pack(pop)

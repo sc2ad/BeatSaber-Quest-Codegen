@@ -34,35 +34,35 @@ namespace System {
     // Offset: 0x1C
     System::Globalization::CompareOptions options;
     // System.Void .ctor(System.Globalization.CultureInfo culture, System.Boolean ignoreCase)
-    // Offset: 0x10B92D8
+    // Offset: 0x10C9D1C
     static CultureAwareComparer* New_ctor(System::Globalization::CultureInfo* culture, bool ignoreCase);
     // public override System.Int32 Compare(System.String x, System.String y)
-    // Offset: 0x10B938C
+    // Offset: 0x10C9DD0
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
     int Compare(::CsString* x, ::CsString* y);
     // public override System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x10B93DC
+    // Offset: 0x10C9E20
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
     bool Equals(::CsString* x, ::CsString* y);
     // public override System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x10B9430
+    // Offset: 0x10C9E74
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
     int GetHashCode(::CsString* obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x10B94D4
+    // Offset: 0x10C9F18
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x10B959C
+    // Offset: 0x10C9FE0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.CultureAwareComparer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::CultureAwareComparer*, "System", "CultureAwareComparer");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Nullable`1
 #include "System/Nullable_1.hpp"
 // Including type: System.DateTime
@@ -50,82 +48,82 @@ namespace System::IO {
     // Set static field: static private System.Nullable`1<System.DateTime> defaultLocalFileTime
     static void _set_defaultLocalFileTime(System::Nullable_1<System::DateTime> value);
     // static public System.IO.StreamWriter AppendText(System.String path)
-    // Offset: 0x111CC04
+    // Offset: 0x112D648
     static System::IO::StreamWriter* AppendText(::CsString* path);
     // static public System.IO.FileStream Create(System.String path)
-    // Offset: 0x111CC6C
+    // Offset: 0x112D6B0
     static System::IO::FileStream* Create(::CsString* path);
     // static public System.IO.FileStream Create(System.String path, System.Int32 bufferSize)
-    // Offset: 0x111CC74
+    // Offset: 0x112D6B8
     static System::IO::FileStream* Create(::CsString* path, int bufferSize);
     // static public System.IO.StreamWriter CreateText(System.String path)
-    // Offset: 0x111CD24
+    // Offset: 0x112D768
     static System::IO::StreamWriter* CreateText(::CsString* path);
     // static public System.Void Delete(System.String path)
-    // Offset: 0x111B840
+    // Offset: 0x112C284
     static void Delete(::CsString* path);
     // static public System.Boolean Exists(System.String path)
-    // Offset: 0x111A7B0
+    // Offset: 0x112B1F4
     static bool Exists(::CsString* path);
     // static public System.IO.FileAttributes GetAttributes(System.String path)
-    // Offset: 0x111CE1C
+    // Offset: 0x112D860
     static System::IO::FileAttributes GetAttributes(::CsString* path);
     // static public System.DateTime GetCreationTime(System.String path)
-    // Offset: 0x111CF8C
+    // Offset: 0x112D9D0
     static System::DateTime GetCreationTime(::CsString* path);
     // static public System.DateTime GetLastWriteTime(System.String path)
-    // Offset: 0x111D228
+    // Offset: 0x112DC6C
     static System::DateTime GetLastWriteTime(::CsString* path);
     // static public System.IO.FileStream Open(System.String path, System.IO.FileMode mode)
-    // Offset: 0x111D364
+    // Offset: 0x112DDA8
     static System::IO::FileStream* Open(::CsString* path, System::IO::FileMode mode);
     // static public System.IO.FileStream OpenRead(System.String path)
-    // Offset: 0x111D424
+    // Offset: 0x112DE68
     static System::IO::FileStream* OpenRead(::CsString* path);
     // static public System.IO.StreamReader OpenText(System.String path)
-    // Offset: 0x111D4A4
+    // Offset: 0x112DEE8
     static System::IO::StreamReader* OpenText(::CsString* path);
     // static public System.Void Replace(System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName)
-    // Offset: 0x111D508
+    // Offset: 0x112DF4C
     static void Replace(::CsString* sourceFileName, ::CsString* destinationFileName, ::CsString* destinationBackupFileName);
     // static public System.Void Replace(System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors)
-    // Offset: 0x111D510
+    // Offset: 0x112DF54
     static void Replace(::CsString* sourceFileName, ::CsString* destinationFileName, ::CsString* destinationBackupFileName, bool ignoreMetadataErrors);
     // static public System.String[] ReadAllLines(System.String path)
-    // Offset: 0x111DC54
+    // Offset: 0x112E698
     static ::Array<::CsString*>* ReadAllLines(::CsString* path);
     // static private System.String[] ReadAllLines(System.IO.StreamReader reader)
-    // Offset: 0x111DD68
+    // Offset: 0x112E7AC
     static ::Array<::CsString*>* ReadAllLines(System::IO::StreamReader* reader);
     // static public System.String ReadAllText(System.String path)
-    // Offset: 0x111DE40
+    // Offset: 0x112E884
     static ::CsString* ReadAllText(::CsString* path);
     // static public System.Void WriteAllBytes(System.String path, System.Byte[] bytes)
-    // Offset: 0x111DF7C
+    // Offset: 0x112E9C0
     static void WriteAllBytes(::CsString* path, ::Array<uint8_t>* bytes);
     // static public System.Void WriteAllLines(System.String path, System.String[] contents)
-    // Offset: 0x111E0B4
+    // Offset: 0x112EAF8
     static void WriteAllLines(::CsString* path, ::Array<::CsString*>* contents);
     // static private System.Void WriteAllLines(System.IO.StreamWriter writer, System.String[] contents)
-    // Offset: 0x111E1DC
+    // Offset: 0x112EC20
     static void WriteAllLines(System::IO::StreamWriter* writer, ::Array<::CsString*>* contents);
     // static public System.Void WriteAllText(System.String path, System.String contents)
-    // Offset: 0x111E264
+    // Offset: 0x112ECA8
     static void WriteAllText(::CsString* path, ::CsString* contents);
     // static public System.Void WriteAllText(System.String path, System.String contents, System.Text.Encoding encoding)
-    // Offset: 0x111E2E4
+    // Offset: 0x112ED28
     static void WriteAllText(::CsString* path, ::CsString* contents, System::Text::Encoding* encoding);
     // static private System.DateTime get_DefaultLocalFileTime()
-    // Offset: 0x111D154
+    // Offset: 0x112DB98
     static System::DateTime get_DefaultLocalFileTime();
     // static public System.Void AppendAllLines(System.String path, System.Collections.Generic.IEnumerable`1<System.String> contents)
-    // Offset: 0x111E428
+    // Offset: 0x112EE6C
     static void AppendAllLines(::CsString* path, System::Collections::Generic::IEnumerable_1<::CsString*>* contents);
     // static System.Int32 FillAttributeInfo(System.String path, System.IO.MonoIOStat data, System.Boolean tryagain, System.Boolean returnErrorOnNotFound)
-    // Offset: 0x111E7A8
+    // Offset: 0x112F1EC
     static int FillAttributeInfo(::CsString* path, System::IO::MonoIOStat& data, bool tryagain, bool returnErrorOnNotFound);
   }; // System.IO.File
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::File*, "System.IO", "File");
 #pragma pack(pop)

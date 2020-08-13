@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
@@ -46,15 +44,15 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinBladeSpeedForCut
     static void _set_kMinBladeSpeedForCut(float value);
     // static public System.Void GetBasicCutInfo(UnityEngine.Transform noteTransform, NoteType noteType, NoteCutDirection cutDirection, SaberType saberType, System.Single saberBladeSpeed, UnityEngine.Vector3 cutDirVec, System.Boolean directionOK, System.Boolean speedOK, System.Boolean saberTypeOK, System.Single cutDirDeviation)
-    // Offset: 0xBFE5D0
+    // Offset: 0xC10014
     static void GetBasicCutInfo(UnityEngine::Transform* noteTransform, GlobalNamespace::NoteType noteType, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::SaberType saberType, float saberBladeSpeed, UnityEngine::Vector3 cutDirVec, bool& directionOK, bool& speedOK, bool& saberTypeOK, float& cutDirDeviation);
     // public System.Void .ctor()
-    // Offset: 0xBFE7DC
+    // Offset: 0xC10220
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NoteBasicCutInfo* New_ctor();
   }; // NoteBasicCutInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteBasicCutInfo*, "", "NoteBasicCutInfo");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRSimpleJSON.JSONArray
 #include "OVRSimpleJSON/JSONArray.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
@@ -43,48 +41,48 @@ namespace OVRSimpleJSON {
     // Offset: 0x30
     typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator $$7__wrap1;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xF3B010
+    // Offset: 0xF4BA54
     static JSONArray::$get_Children$d__22* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xF3B280
+    // Offset: 0xF4BCC4
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xF3B264
+    // Offset: 0xF4BCA8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xF3B2D8
+    // Offset: 0xF4BD1C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private OVRSimpleJSON.JSONNode System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current()
-    // Offset: 0xF3B440
+    // Offset: 0xF4BE84
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xF3B448
+    // Offset: 0xF4BE8C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xF3B4A8
+    // Offset: 0xF4BEEC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::CsObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<OVRSimpleJSON.JSONNode> System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator()
-    // Offset: 0xF3B4B0
+    // Offset: 0xF4BEF4
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xF3B564
+    // Offset: 0xF4BFA8
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONArray/<get_Children>d__22
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONArray::$get_Children$d__22*, "OVRSimpleJSON", "JSONArray/<get_Children>d__22");
 #pragma pack(pop)

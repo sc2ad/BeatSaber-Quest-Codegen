@@ -47,19 +47,19 @@ namespace System::Xml::Xsl::Runtime {
     // Creating value type constructor for type: StringConcat
     StringConcat(::CsString* s1_ = {}, ::CsString* s2_ = {}, ::CsString* s3_ = {}, ::CsString* s4_ = {}, ::CsString* delimiter_ = {}, System::Collections::Generic::List_1<::CsString*>* strList_ = {}, int idxStr_ = {}) : s1{s1_}, s2{s2_}, s3{s3_}, s4{s4_}, delimiter{delimiter_}, strList{strList_}, idxStr{idxStr_} {}
     // public System.Void Clear()
-    // Offset: 0xA5A8F0
+    // Offset: 0xA5A96C
     void Clear();
     // System.Int32 get_Count()
-    // Offset: 0xA5A900
+    // Offset: 0xA5A97C
     int get_Count();
     // public System.String GetResult()
-    // Offset: 0xA5A908
+    // Offset: 0xA5A984
     ::CsString* GetResult();
     // System.Void ConcatNoDelimiter(System.String s)
-    // Offset: 0xA5A910
+    // Offset: 0xA5A98C
     void ConcatNoDelimiter(::CsString* s);
   }; // System.Xml.Xsl.Runtime.StringConcat
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");
 #pragma pack(pop)

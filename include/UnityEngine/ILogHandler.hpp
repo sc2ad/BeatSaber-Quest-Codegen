@@ -38,6 +38,6 @@ namespace UnityEngine {
     void LogException(System::Exception* exception, UnityEngine::Object* context);
   }; // UnityEngine.ILogHandler
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ILogHandler*, "UnityEngine", "ILogHandler");
 #pragma pack(pop)

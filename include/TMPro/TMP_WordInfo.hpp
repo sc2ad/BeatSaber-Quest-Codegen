@@ -37,10 +37,10 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_WordInfo
     TMP_WordInfo(TMPro::TMP_Text* textComponent_ = {}, int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, int characterCount_ = {}) : textComponent{textComponent_}, firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, characterCount{characterCount_} {}
     // public System.String GetWord()
-    // Offset: 0xA2DB0C
+    // Offset: 0xA2DB88
     ::CsString* GetWord();
   }; // TMPro.TMP_WordInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
 #pragma pack(pop)

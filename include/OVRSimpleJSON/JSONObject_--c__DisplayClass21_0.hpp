@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRSimpleJSON.JSONObject
 #include "OVRSimpleJSON/JSONObject.hpp"
 // Completed includes
@@ -29,15 +27,15 @@ namespace OVRSimpleJSON {
     // Offset: 0x10
     OVRSimpleJSON::JSONNode* aNode;
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> k)
-    // Offset: 0xF423A4
+    // Offset: 0xF52DE8
     bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<::CsString*, OVRSimpleJSON::JSONNode*> k);
     // public System.Void .ctor()
-    // Offset: 0xF4200C
+    // Offset: 0xF52A50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static JSONObject::$$c__DisplayClass21_0* New_ctor();
   }; // OVRSimpleJSON.JSONObject/<>c__DisplayClass21_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject::$$c__DisplayClass21_0*, "OVRSimpleJSON", "JSONObject/<>c__DisplayClass21_0");
 #pragma pack(pop)

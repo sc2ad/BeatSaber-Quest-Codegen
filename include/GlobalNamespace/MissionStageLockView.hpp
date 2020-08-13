@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     float startAnimationTime;
     // public System.Void UpdateLocalPositionY(System.Single dstPosY, System.Boolean animated, System.Single animationDuration)
-    // Offset: 0xBF922C
+    // Offset: 0xC0AC70
     void UpdateLocalPositionY(float dstPosY, bool animated, float animationDuration);
     // protected System.Void Update()
-    // Offset: 0xBF92D0
+    // Offset: 0xC0AD14
     void Update();
     // public System.Void UpdateStageLockText(System.String text)
-    // Offset: 0xBF9424
+    // Offset: 0xC0AE68
     void UpdateStageLockText(::CsString* text);
     // public System.Void .ctor()
-    // Offset: 0xBF9440
+    // Offset: 0xC0AE84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -60,6 +60,6 @@ namespace GlobalNamespace {
     static MissionStageLockView* New_ctor();
   }; // MissionStageLockView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStageLockView*, "", "MissionStageLockView");
 #pragma pack(pop)

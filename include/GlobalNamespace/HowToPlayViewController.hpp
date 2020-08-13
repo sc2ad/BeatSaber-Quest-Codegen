@@ -50,30 +50,30 @@ namespace GlobalNamespace {
     // Offset: 0x80
     System::Action* didPressTutorialButtonEvent;
     // public System.Void add_didPressTutorialButtonEvent(System.Action value)
-    // Offset: 0xB44044
+    // Offset: 0xB42044
     void add_didPressTutorialButtonEvent(System::Action* value);
     // public System.Void remove_didPressTutorialButtonEvent(System.Action value)
-    // Offset: 0xB440E8
+    // Offset: 0xB420E8
     void remove_didPressTutorialButtonEvent(System::Action* value);
     // public System.Void Setup(System.Boolean showTutorialButton)
-    // Offset: 0xB4418C
+    // Offset: 0xB4218C
     void Setup(bool showTutorialButton);
     // private System.Void HandleSelectionSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0xB44434
+    // Offset: 0xB42434
     void HandleSelectionSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private System.Void SetActivePanel(System.Int32 panelIdx)
-    // Offset: 0xB443B4
+    // Offset: 0xB423B4
     void SetActivePanel(int panelIdx);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0xB44444
+    // Offset: 0xB42444
     void $DidActivate$b__7_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB441C8
+    // Offset: 0xB421C8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB4443C
+    // Offset: 0xB4243C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -84,6 +84,6 @@ namespace GlobalNamespace {
     static HowToPlayViewController* New_ctor();
   }; // HowToPlayViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController*, "", "HowToPlayViewController");
 #pragma pack(pop)

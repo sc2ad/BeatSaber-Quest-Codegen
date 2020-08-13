@@ -50,6 +50,6 @@ namespace System {
     ParseFailureKind(int value_ = {}) : value{value_} {}
   }; // System.ParseFailureKind
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParseFailureKind, "System", "ParseFailureKind");
 #pragma pack(pop)

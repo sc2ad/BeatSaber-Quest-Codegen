@@ -144,10 +144,10 @@ namespace UnityEngine::Timeline {
       // Creating value type constructor for type: TransientBuildData
       TransientBuildData(System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* trackList_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip*>* clipList_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* markerList_ = {}) : trackList{trackList_}, clipList{clipList_}, markerList{markerList_} {}
       // static public UnityEngine.Timeline.TrackAsset/TransientBuildData Create()
-      // Offset: 0x18F3C24
+      // Offset: 0x1904668
       static UnityEngine::Timeline::TrackAsset::TransientBuildData Create();
       // public System.Void Clear()
-      // Offset: 0xA59878
+      // Offset: 0xA598F4
       void Clear();
     }; // UnityEngine.Timeline.TrackAsset/TransientBuildData
     // static field const value: static private System.Int32 k_LatestVersion
@@ -234,103 +234,103 @@ namespace UnityEngine::Timeline {
     // Offset: 0x88
     UnityEngine::Timeline::MarkerList m_Markers;
     // protected System.Void OnBeforeTrackSerialize()
-    // Offset: 0x18EDC30
+    // Offset: 0x18FE674
     void OnBeforeTrackSerialize();
     // protected System.Void OnAfterTrackDeserialize()
-    // Offset: 0x18EDC34
+    // Offset: 0x18FE678
     void OnAfterTrackDeserialize();
     // System.Void OnUpgradeFromVersion(System.Int32 oldVersion)
-    // Offset: 0x18EDC38
+    // Offset: 0x18FE67C
     void OnUpgradeFromVersion(int oldVersion);
     // private System.Void UpgradeToLatestVersion()
-    // Offset: 0x18EE18C
+    // Offset: 0x18FEBD0
     void UpgradeToLatestVersion();
     // static System.Void add_OnClipPlayableCreate(System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> value)
-    // Offset: 0x18EE19C
+    // Offset: 0x18FEBE0
     static void add_OnClipPlayableCreate(System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* value);
     // static System.Void remove_OnClipPlayableCreate(System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> value)
-    // Offset: 0x18EE28C
+    // Offset: 0x18FECD0
     static void remove_OnClipPlayableCreate(System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* value);
     // static System.Void add_OnTrackAnimationPlayableCreate(System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> value)
-    // Offset: 0x18EE37C
+    // Offset: 0x18FEDC0
     static void add_OnTrackAnimationPlayableCreate(System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* value);
     // static System.Void remove_OnTrackAnimationPlayableCreate(System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> value)
-    // Offset: 0x18EE46C
+    // Offset: 0x18FEEB0
     static void remove_OnTrackAnimationPlayableCreate(System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* value);
     // public System.Double get_start()
-    // Offset: 0x18EE55C
+    // Offset: 0x18FEFA0
     double get_start();
     // public System.Double get_end()
-    // Offset: 0x18EE6E0
+    // Offset: 0x18FF124
     double get_end();
     // public System.Boolean get_muted()
-    // Offset: 0x18EE7D4
+    // Offset: 0x18FF218
     bool get_muted();
     // public System.Void set_muted(System.Boolean value)
-    // Offset: 0x18EE7DC
+    // Offset: 0x18FF220
     void set_muted(bool value);
     // public System.Boolean get_mutedInHierarchy()
-    // Offset: 0x18EE7E8
+    // Offset: 0x18FF22C
     bool get_mutedInHierarchy();
     // public UnityEngine.Timeline.TimelineAsset get_timelineAsset()
-    // Offset: 0x18EB3F4
+    // Offset: 0x18FBE38
     UnityEngine::Timeline::TimelineAsset* get_timelineAsset();
     // public UnityEngine.Playables.PlayableAsset get_parent()
-    // Offset: 0x18EE990
+    // Offset: 0x18FF3D4
     UnityEngine::Playables::PlayableAsset* get_parent();
     // System.Void set_parent(UnityEngine.Playables.PlayableAsset value)
-    // Offset: 0x18EE998
+    // Offset: 0x18FF3DC
     void set_parent(UnityEngine::Playables::PlayableAsset* value);
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TimelineClip> GetClips()
-    // Offset: 0x18EE9A0
+    // Offset: 0x18FF3E4
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TimelineClip*>* GetClips();
     // UnityEngine.Timeline.TimelineClip[] get_clips()
-    // Offset: 0x18EE9A4
+    // Offset: 0x18FF3E8
     ::Array<UnityEngine::Timeline::TimelineClip*>* get_clips();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x18EEA6C
+    // Offset: 0x18FF4B0
     bool get_isEmpty();
     // public System.Boolean get_hasClips()
-    // Offset: 0x18EEAE4
+    // Offset: 0x18FF528
     bool get_hasClips();
     // public System.Boolean get_isSubTrack()
-    // Offset: 0x18EB880
+    // Offset: 0x18FC2C4
     bool get_isSubTrack();
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> GetChildTracks()
-    // Offset: 0x18EECAC
+    // Offset: 0x18FF6F0
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* GetChildTracks();
     // System.String get_customPlayableTypename()
-    // Offset: 0x18EEEA0
+    // Offset: 0x18FF8E4
     ::CsString* get_customPlayableTypename();
     // System.Void set_customPlayableTypename(System.String value)
-    // Offset: 0x18EEEA8
+    // Offset: 0x18FF8EC
     void set_customPlayableTypename(::CsString* value);
     // System.Void set_curves(UnityEngine.AnimationClip value)
-    // Offset: 0x18EEEB8
+    // Offset: 0x18FF8FC
     void set_curves(UnityEngine::AnimationClip* value);
     // System.Collections.Generic.List`1<UnityEngine.ScriptableObject> get_subTracksObjects()
-    // Offset: 0x18EEF14
+    // Offset: 0x18FF958
     System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* get_subTracksObjects();
     // public System.Boolean get_locked()
-    // Offset: 0x18EEF1C
+    // Offset: 0x18FF960
     bool get_locked();
     // public System.Void set_locked(System.Boolean value)
-    // Offset: 0x18EEF24
+    // Offset: 0x18FF968
     void set_locked(bool value);
     // public System.Boolean get_lockedInHierarchy()
-    // Offset: 0x18EEF30
+    // Offset: 0x18FF974
     bool get_lockedInHierarchy();
     // public System.Boolean get_supportsNotifications()
-    // Offset: 0x18EF0D8
+    // Offset: 0x18FFB1C
     bool get_supportsNotifications();
     // private System.Void __internalAwake()
-    // Offset: 0x18EF17C
+    // Offset: 0x18FFBC0
     void __internalAwake();
     // public UnityEngine.Playables.Playable CreateTrackMixer(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Int32 inputCount)
-    // Offset: 0x18EF32C
+    // Offset: 0x18FFD70
     UnityEngine::Playables::Playable CreateTrackMixer(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, int inputCount);
     // public UnityEngine.Timeline.TimelineClip CreateDefaultClip()
-    // Offset: 0x18EF40C
+    // Offset: 0x18FFE50
     UnityEngine::Timeline::TimelineClip* CreateDefaultClip();
     // public UnityEngine.Timeline.TimelineClip CreateClip()
     // Offset: 0xFFFFFFFF
@@ -340,7 +340,7 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::Timeline::TimelineClip*>(this, "CreateClip", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public UnityEngine.Timeline.IMarker CreateMarker(System.Type type, System.Double time)
-    // Offset: 0x18EF6E0
+    // Offset: 0x1900124
     UnityEngine::Timeline::IMarker* CreateMarker(System::Type* type, double time);
     // public T CreateMarker(System.Double time)
     // Offset: 0xFFFFFFFF
@@ -350,222 +350,222 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "CreateMarker", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, time)));
     }
     // public System.Boolean DeleteMarker(UnityEngine.Timeline.IMarker marker)
-    // Offset: 0x18EF6F0
+    // Offset: 0x1900134
     bool DeleteMarker(UnityEngine::Timeline::IMarker* marker);
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.IMarker> GetMarkers()
-    // Offset: 0x18EE190
+    // Offset: 0x18FEBD4
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* GetMarkers();
     // public System.Int32 GetMarkerCount()
-    // Offset: 0x18EEBDC
+    // Offset: 0x18FF620
     int GetMarkerCount();
     // public UnityEngine.Timeline.IMarker GetMarker(System.Int32 idx)
-    // Offset: 0x18EF6FC
+    // Offset: 0x1900140
     UnityEngine::Timeline::IMarker* GetMarker(int idx);
     // UnityEngine.Timeline.TimelineClip CreateClip(System.Type requestedType)
-    // Offset: 0x18EF708
+    // Offset: 0x190014C
     UnityEngine::Timeline::TimelineClip* CreateClip(System::Type* requestedType);
     // UnityEngine.Timeline.TimelineClip CreateAndAddNewClipOfType(System.Type requestedType)
-    // Offset: 0x18EF6AC
+    // Offset: 0x19000F0
     UnityEngine::Timeline::TimelineClip* CreateAndAddNewClipOfType(System::Type* requestedType);
     // UnityEngine.Timeline.TimelineClip CreateClipOfType(System.Type requestedType)
-    // Offset: 0x18EFB04
+    // Offset: 0x1900548
     UnityEngine::Timeline::TimelineClip* CreateClipOfType(System::Type* requestedType);
     // UnityEngine.Timeline.TimelineClip CreateClipFromPlayableAsset(UnityEngine.Playables.IPlayableAsset asset)
-    // Offset: 0x18F0070
+    // Offset: 0x1900AB4
     UnityEngine::Timeline::TimelineClip* CreateClipFromPlayableAsset(UnityEngine::Playables::IPlayableAsset* asset);
     // private UnityEngine.Timeline.TimelineClip CreateClipFromAsset(UnityEngine.ScriptableObject playableAsset)
-    // Offset: 0x18EFDB8
+    // Offset: 0x19007FC
     UnityEngine::Timeline::TimelineClip* CreateClipFromAsset(UnityEngine::ScriptableObject* playableAsset);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ScriptableObject> GetMarkersRaw()
-    // Offset: 0x18F0568
+    // Offset: 0x1900FAC
     System::Collections::Generic::IEnumerable_1<UnityEngine::ScriptableObject*>* GetMarkersRaw();
     // System.Void ClearMarkers()
-    // Offset: 0x18F0570
+    // Offset: 0x1900FB4
     void ClearMarkers();
     // System.Void AddMarker(UnityEngine.ScriptableObject e)
-    // Offset: 0x18F057C
+    // Offset: 0x1900FC0
     void AddMarker(UnityEngine::ScriptableObject* e);
     // System.Boolean DeleteMarkerRaw(UnityEngine.ScriptableObject marker)
-    // Offset: 0x18F0588
+    // Offset: 0x1900FCC
     bool DeleteMarkerRaw(UnityEngine::ScriptableObject* marker);
     // private System.Int32 GetTimeRangeHash()
-    // Offset: 0x18F05CC
+    // Offset: 0x1901010
     int GetTimeRangeHash();
     // System.Void AddClip(UnityEngine.Timeline.TimelineClip newClip)
-    // Offset: 0x18EFD10
+    // Offset: 0x1900754
     void AddClip(UnityEngine::Timeline::TimelineClip* newClip);
     // private UnityEngine.Playables.Playable CreateNotificationsPlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.Playable mixerPlayable, UnityEngine.GameObject go, UnityEngine.Playables.Playable timelinePlayable)
-    // Offset: 0x18F0A58
+    // Offset: 0x190149C
     UnityEngine::Playables::Playable CreateNotificationsPlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::Playable mixerPlayable, UnityEngine::GameObject* go, UnityEngine::Playables::Playable timelinePlayable);
     // UnityEngine.Playables.Playable CreatePlayableGraph(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> tree, UnityEngine.Playables.Playable timelinePlayable)
-    // Offset: 0x18ED110
+    // Offset: 0x18FDB54
     UnityEngine::Playables::Playable CreatePlayableGraph(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* tree, UnityEngine::Playables::Playable timelinePlayable);
     // UnityEngine.Playables.Playable CompileClips(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Collections.Generic.IList`1<UnityEngine.Timeline.TimelineClip> timelineClips, UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> tree)
-    // Offset: 0x18F125C
+    // Offset: 0x1901CA0
     UnityEngine::Playables::Playable CompileClips(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>* timelineClips, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* tree);
     // private System.Void GatherCompilableTracks(System.Collections.Generic.IList`1<UnityEngine.Timeline.TrackAsset> tracks)
-    // Offset: 0x18F17A8
+    // Offset: 0x19021EC
     void GatherCompilableTracks(System::Collections::Generic::IList_1<UnityEngine::Timeline::TrackAsset*>* tracks);
     // private System.Void GatherNotificiations(System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> markers)
-    // Offset: 0x18F0C48
+    // Offset: 0x190168C
     void GatherNotificiations(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* markers);
     // UnityEngine.Playables.Playable OnCreateClipPlayableGraph(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> tree)
-    // Offset: 0x18F1B40
+    // Offset: 0x1902584
     UnityEngine::Playables::Playable OnCreateClipPlayableGraph(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* tree);
     // System.Void ConfigureTrackAnimation(UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> tree, UnityEngine.GameObject go, UnityEngine.Playables.Playable blend)
-    // Offset: 0x18F1654
+    // Offset: 0x1902098
     void ConfigureTrackAnimation(UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* tree, UnityEngine::GameObject* go, UnityEngine::Playables::Playable blend);
     // System.Void SortClips()
-    // Offset: 0x18EC4A8
+    // Offset: 0x18FCEEC
     void SortClips();
     // System.Void ClearClipsInternal()
-    // Offset: 0x18F21A8
+    // Offset: 0x1902BEC
     void ClearClipsInternal();
     // System.Void ClearSubTracksInternal()
-    // Offset: 0x18F2228
+    // Offset: 0x1902C6C
     void ClearSubTracksInternal();
     // System.Void OnClipMove()
-    // Offset: 0x18F22A0
+    // Offset: 0x1902CE4
     void OnClipMove();
     // UnityEngine.Timeline.TimelineClip CreateNewClipContainerInternal()
-    // Offset: 0x18F030C
+    // Offset: 0x1900D50
     UnityEngine::Timeline::TimelineClip* CreateNewClipContainerInternal();
     // System.Void AddChild(UnityEngine.Timeline.TrackAsset child)
-    // Offset: 0x18F22A8
+    // Offset: 0x1902CEC
     void AddChild(UnityEngine::Timeline::TrackAsset* child);
     // System.Void MoveLastTrackBefore(UnityEngine.Timeline.TrackAsset asset)
-    // Offset: 0x18F2370
+    // Offset: 0x1902DB4
     void MoveLastTrackBefore(UnityEngine::Timeline::TrackAsset* asset);
     // System.Boolean RemoveSubTrack(UnityEngine.Timeline.TrackAsset child)
-    // Offset: 0x18F259C
+    // Offset: 0x1902FE0
     bool RemoveSubTrack(UnityEngine::Timeline::TrackAsset* child);
     // System.Void RemoveClip(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x18F2634
+    // Offset: 0x1903078
     void RemoveClip(UnityEngine::Timeline::TimelineClip* clip);
     // System.Void GetEvaluationTime(System.Double outStart, System.Double outDuration)
-    // Offset: 0x18F26AC
+    // Offset: 0x19030F0
     void GetEvaluationTime(double& outStart, double& outDuration);
     // System.Void GetSequenceTime(System.Double outStart, System.Double outDuration)
-    // Offset: 0x18F2C6C
+    // Offset: 0x19036B0
     void GetSequenceTime(double& outStart, double& outDuration);
     // UnityEngine.GameObject GetGameObjectBinding(UnityEngine.Playables.PlayableDirector director)
-    // Offset: 0x18F331C
+    // Offset: 0x1903D60
     UnityEngine::GameObject* GetGameObjectBinding(UnityEngine::Playables::PlayableDirector* director);
     // System.Boolean ValidateClipType(System.Type clipType)
-    // Offset: 0x18EF894
+    // Offset: 0x19002D8
     bool ValidateClipType(System::Type* clipType);
     // protected System.Void OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x18F349C
+    // Offset: 0x1903EE0
     void OnCreateClip(UnityEngine::Timeline::TimelineClip* clip);
     // private System.Void UpdateDuration()
-    // Offset: 0x18EE5D0
+    // Offset: 0x18FF014
     void UpdateDuration();
     // protected internal System.Int32 CalculateItemsHash()
-    // Offset: 0x18F34A0
+    // Offset: 0x1903EE4
     int CalculateItemsHash();
     // protected UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject gameObject, UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x18F3754
+    // Offset: 0x1904198
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* gameObject, UnityEngine::Timeline::TimelineClip* clip);
     // System.Void Invalidate()
-    // Offset: 0x18EE0DC
+    // Offset: 0x18FEB20
     void Invalidate();
     // System.Double GetNotificationDuration()
-    // Offset: 0x18F2908
+    // Offset: 0x190334C
     double GetNotificationDuration();
     // System.Boolean CanCompileClips()
-    // Offset: 0x18F39D0
+    // Offset: 0x1904414
     bool CanCompileClips();
     // System.Boolean IsCompilable()
-    // Offset: 0x18EC118
+    // Offset: 0x18FCB5C
     bool IsCompilable();
     // private System.Void UpdateChildTrackCache()
-    // Offset: 0x18EECD0
+    // Offset: 0x18FF714
     void UpdateChildTrackCache();
     // System.Int32 Hash()
-    // Offset: 0x18F3A34
+    // Offset: 0x1904478
     int Hash();
     // private System.Int32 GetClipsHash()
-    // Offset: 0x18F3540
+    // Offset: 0x1903F84
     int GetClipsHash();
     // static protected System.Int32 GetAnimationClipHash(UnityEngine.AnimationClip clip)
-    // Offset: 0x18F3658
+    // Offset: 0x190409C
     static int GetAnimationClipHash(UnityEngine::AnimationClip* clip);
     // private System.Boolean HasNotifications()
-    // Offset: 0x18F28FC
+    // Offset: 0x1903340
     bool HasNotifications();
     // private System.Boolean CanCompileNotifications()
-    // Offset: 0x18F1B04
+    // Offset: 0x1902548
     bool CanCompileNotifications();
     // private System.Boolean CanCompileClipsRecursive()
-    // Offset: 0x18F0F60
+    // Offset: 0x19019A4
     bool CanCompileClipsRecursive();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-    // Offset: 0x18EDC3C
+    // Offset: 0x18FE680
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-    // Offset: 0x18EDDA8
+    // Offset: 0x18FE7EC
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public override System.Double get_duration()
-    // Offset: 0x18EE754
+    // Offset: 0x18FF198
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Double PlayableAsset::get_duration()
     double get_duration();
     // public System.Boolean get_hasCurves()
-    // Offset: 0x18EEB40
+    // Offset: 0x18FF584
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: System.Boolean ICurvesOwner::get_hasCurves()
     bool get_hasCurves();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x18EEBE8
+    // Offset: 0x18FF62C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> PlayableAsset::get_outputs()
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public UnityEngine.AnimationClip get_curves()
-    // Offset: 0x18EEEB0
+    // Offset: 0x18FF8F4
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: UnityEngine.AnimationClip ICurvesOwner::get_curves()
     UnityEngine::AnimationClip* get_curves();
     // private System.String UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName()
-    // Offset: 0x18EEEC0
+    // Offset: 0x18FF904
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: System.String ICurvesOwner::get_defaultCurvesName()
     ::CsString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
     // private UnityEngine.Object UnityEngine.Timeline.ICurvesOwner.get_asset()
-    // Offset: 0x18EEF08
+    // Offset: 0x18FF94C
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: UnityEngine.Object ICurvesOwner::get_asset()
     UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_asset();
     // private UnityEngine.Object UnityEngine.Timeline.ICurvesOwner.get_assetOwner()
-    // Offset: 0x18EEF0C
+    // Offset: 0x18FF950
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: UnityEngine.Object ICurvesOwner::get_assetOwner()
     UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
     // private UnityEngine.Timeline.TrackAsset UnityEngine.Timeline.ICurvesOwner.get_targetTrack()
-    // Offset: 0x18EEF10
+    // Offset: 0x18FF954
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: UnityEngine.Timeline.TrackAsset ICurvesOwner::get_targetTrack()
     UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
     // public System.Void CreateCurves(System.String curvesClipName)
-    // Offset: 0x18EF25C
+    // Offset: 0x18FFCA0
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: System.Void ICurvesOwner::CreateCurves(System.String curvesClipName)
     void CreateCurves(::CsString* curvesClipName);
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x18EF3AC
+    // Offset: 0x18FFDF0
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
-    // Offset: 0x18F2C7C
+    // Offset: 0x19036C0
     // Implemented from: UnityEngine.Timeline.IPropertyPreview
     // Base method: System.Void IPropertyPreview::GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
     void GatherProperties(UnityEngine::Playables::PlayableDirector* director, UnityEngine::Timeline::IPropertyCollector* driver);
     // protected System.Void .ctor()
-    // Offset: 0x18F3A74
+    // Offset: 0x19044B8
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -573,7 +573,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static TrackAsset* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18F3B50
+    // Offset: 0x1904594
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

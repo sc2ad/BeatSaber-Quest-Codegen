@@ -18,21 +18,21 @@ namespace System::Collections::Concurrent {
     // Set static field: static public System.Collections.Concurrent.CDSCollectionETWBCLProvider Log
     static void _set_Log(System::Collections::Concurrent::CDSCollectionETWBCLProvider* value);
     // public System.Void ConcurrentDictionary_AcquiringAllLocks(System.Int32 numOfBuckets)
-    // Offset: 0x131F3D0
+    // Offset: 0x1332E14
     void ConcurrentDictionary_AcquiringAllLocks(int numOfBuckets);
     // private System.Void .ctor()
-    // Offset: 0x131F368
+    // Offset: 0x1332DAC
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.ctor()
     // Base method: System.Void Object::.ctor()
     static CDSCollectionETWBCLProvider* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x131F420
+    // Offset: 0x1332E64
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.cctor()
     static void _cctor();
   }; // System.Collections.Concurrent.CDSCollectionETWBCLProvider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
 #pragma pack(pop)

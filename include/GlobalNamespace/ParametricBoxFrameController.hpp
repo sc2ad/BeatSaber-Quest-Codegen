@@ -58,22 +58,22 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _sizeParamsID
     static void _set__sizeParamsID(int value);
     // public System.Void set_localPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1815D00
+    // Offset: 0x1826744
     void set_localPosition(UnityEngine::Vector3 value);
     // protected System.Void Awake()
-    // Offset: 0x1815D4C
+    // Offset: 0x1826790
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x1815D6C
+    // Offset: 0x18267B0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1815F18
+    // Offset: 0x182695C
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x1815DA0
+    // Offset: 0x18267E4
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1815F38
+    // Offset: 0x182697C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -82,12 +82,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ParametricBoxFrameController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1815F4C
+    // Offset: 0x1826990
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ParametricBoxFrameController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFrameController*, "", "ParametricBoxFrameController");
 #pragma pack(pop)

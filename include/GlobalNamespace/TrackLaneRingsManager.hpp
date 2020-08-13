@@ -33,25 +33,25 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::TrackLaneRing*>* rings;
     // public System.Single get_ringPositionStep()
-    // Offset: 0xC31A80
+    // Offset: 0xC434C4
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
-    // Offset: 0xC31A88
+    // Offset: 0xC434CC
     ::Array<GlobalNamespace::TrackLaneRing*>* get_Rings();
     // protected System.Void Awake()
-    // Offset: 0xC31A90
+    // Offset: 0xC434D4
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0xC31CAC
+    // Offset: 0xC436F0
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0xC31D58
+    // Offset: 0xC4379C
     void LateUpdate();
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0xC31E04
+    // Offset: 0xC43848
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0xC32154
+    // Offset: 0xC43B98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -61,6 +61,6 @@ namespace GlobalNamespace {
     static TrackLaneRingsManager* New_ctor();
   }; // TrackLaneRingsManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsManager*, "", "TrackLaneRingsManager");
 #pragma pack(pop)

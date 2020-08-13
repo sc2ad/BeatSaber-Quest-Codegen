@@ -36,6 +36,6 @@ namespace OVR::OpenVR {
     IVRExtendedDisplay(OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds* GetWindowBounds_ = {}, OVR::OpenVR::IVRExtendedDisplay::_GetEyeOutputViewport* GetEyeOutputViewport_ = {}, OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo_ = {}) : GetWindowBounds{GetWindowBounds_}, GetEyeOutputViewport{GetEyeOutputViewport_}, GetDXGIOutputInfo{GetDXGIOutputInfo_} {}
   }; // OVR.OpenVR.IVRExtendedDisplay
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRExtendedDisplay, "OVR.OpenVR", "IVRExtendedDisplay");
 #pragma pack(pop)

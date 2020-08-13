@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: MissionLevelFailedController
 #include "GlobalNamespace/MissionLevelFailedController.hpp"
 // Completed includes
@@ -19,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     bool autoRestart;
     // public System.Void .ctor(System.Boolean autoRestart)
-    // Offset: 0xBEF844
+    // Offset: 0xC01288
     static MissionLevelFailedController::InitData* New_ctor(bool autoRestart);
   }; // MissionLevelFailedController/InitData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController::InitData*, "", "MissionLevelFailedController/InitData");
 #pragma pack(pop)

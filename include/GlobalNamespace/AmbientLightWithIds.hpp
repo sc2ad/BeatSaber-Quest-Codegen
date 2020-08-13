@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class AmbientLightWithIds : public GlobalNamespace::LightWithIds {
     public:
     // protected System.Void LateUpdate()
-    // Offset: 0x180BC8C
+    // Offset: 0x181C6D0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x180BCEC
+    // Offset: 0x181C730
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -28,6 +28,6 @@ namespace GlobalNamespace {
     static AmbientLightWithIds* New_ctor();
   }; // AmbientLightWithIds
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AmbientLightWithIds*, "", "AmbientLightWithIds");
 #pragma pack(pop)

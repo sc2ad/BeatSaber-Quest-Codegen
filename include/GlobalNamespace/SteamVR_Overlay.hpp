@@ -78,31 +78,31 @@ namespace GlobalNamespace {
     // Offset: 0x58
     uint64_t handle;
     // static public SteamVR_Overlay get_instance()
-    // Offset: 0xD74EC4
+    // Offset: 0xD88908
     static GlobalNamespace::SteamVR_Overlay* get_instance();
     // static private System.Void set_instance(SteamVR_Overlay value)
-    // Offset: 0xD74F14
+    // Offset: 0xD88958
     static void set_instance(GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
-    // Offset: 0xD7155C
+    // Offset: 0xD84FA0
     static ::CsString* get_key();
     // private System.Void OnEnable()
-    // Offset: 0xD74F6C
+    // Offset: 0xD889B0
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD750C0
+    // Offset: 0xD88B04
     void OnDisable();
     // public System.Void UpdateOverlay()
-    // Offset: 0xD75180
+    // Offset: 0xD88BC4
     void UpdateOverlay();
     // public System.Boolean PollNextEvent(Valve.VR.VREvent_t pEvent)
-    // Offset: 0xD755BC
+    // Offset: 0xD89000
     bool PollNextEvent(Valve::VR::VREvent_t& pEvent);
     // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, SteamVR_Overlay/IntersectionResults results)
-    // Offset: 0xD756C8
+    // Offset: 0xD8910C
     bool ComputeIntersection(UnityEngine::Vector3 source, UnityEngine::Vector3 direction, GlobalNamespace::SteamVR_Overlay::IntersectionResults& results);
     // public System.Void .ctor()
-    // Offset: 0xD75884
+    // Offset: 0xD892C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -112,6 +112,6 @@ namespace GlobalNamespace {
     static SteamVR_Overlay* New_ctor();
   }; // SteamVR_Overlay
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay*, "", "SteamVR_Overlay");
 #pragma pack(pop)

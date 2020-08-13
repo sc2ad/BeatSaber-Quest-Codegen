@@ -40,31 +40,31 @@ namespace TMPro {
     // Offset: 0x20
     System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>* m_StyleDictionary;
     // static public TMPro.TMP_StyleSheet get_instance()
-    // Offset: 0xBA0990
+    // Offset: 0xBB23D4
     static TMPro::TMP_StyleSheet* get_instance();
     // static public TMPro.TMP_StyleSheet LoadDefaultStyleSheet()
-    // Offset: 0xBA0C80
+    // Offset: 0xBB26C4
     static TMPro::TMP_StyleSheet* LoadDefaultStyleSheet();
     // static public TMPro.TMP_Style GetStyle(System.Int32 hashCode)
-    // Offset: 0xBA0C84
+    // Offset: 0xBB26C8
     static TMPro::TMP_Style* GetStyle(int hashCode);
     // private TMPro.TMP_Style GetStyleInternal(System.Int32 hashCode)
-    // Offset: 0xBA0CB0
+    // Offset: 0xBB26F4
     TMPro::TMP_Style* GetStyleInternal(int hashCode);
     // public System.Void UpdateStyleDictionaryKey(System.Int32 old_key, System.Int32 new_key)
-    // Offset: 0xBA0D30
+    // Offset: 0xBB2774
     void UpdateStyleDictionaryKey(int old_key, int new_key);
     // static public System.Void UpdateStyleSheet()
-    // Offset: 0xBA0E0C
+    // Offset: 0xBB2850
     static void UpdateStyleSheet();
     // static public System.Void RefreshStyles()
-    // Offset: 0xBA0E64
+    // Offset: 0xBB28A8
     static void RefreshStyles();
     // private System.Void LoadStyleDictionaryInternal()
-    // Offset: 0xBA0B08
+    // Offset: 0xBB254C
     void LoadStyleDictionaryInternal();
     // public System.Void .ctor()
-    // Offset: 0xBA0E80
+    // Offset: 0xBB28C4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -72,6 +72,6 @@ namespace TMPro {
     static TMP_StyleSheet* New_ctor();
   }; // TMPro.TMP_StyleSheet
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_StyleSheet*, "TMPro", "TMP_StyleSheet");
 #pragma pack(pop)

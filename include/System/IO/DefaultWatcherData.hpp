@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Completed includes
@@ -55,12 +53,12 @@ namespace System::IO {
     // Offset: 0x40
     System::Collections::Hashtable* Files;
     // public System.Void .ctor()
-    // Offset: 0xF4DA00
+    // Offset: 0xF5F444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DefaultWatcherData* New_ctor();
   }; // System.IO.DefaultWatcherData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DefaultWatcherData*, "System.IO", "DefaultWatcherData");
 #pragma pack(pop)

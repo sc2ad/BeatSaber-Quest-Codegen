@@ -39,17 +39,17 @@ namespace RootMotion::FinalIK {
     // Offset: 0x4C
     UnityEngine::Vector3 lastForward;
     // protected override System.Void Start()
-    // Offset: 0x1394964
+    // Offset: 0x13A63A8
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::Start()
     void Start();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x13949AC
+    // Offset: 0x13A63F0
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1394BDC
+    // Offset: 0x13A6620
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -60,6 +60,6 @@ namespace RootMotion::FinalIK {
     static BodyTilt* New_ctor();
   }; // RootMotion.FinalIK.BodyTilt
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BodyTilt*, "RootMotion.FinalIK", "BodyTilt");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.MessageEnum
 #include "System/Runtime/Serialization/Formatters/Binary/MessageEnum.hpp"
 // Completed includes
@@ -49,18 +47,18 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x3C
     System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
     // System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE0FD98
+    // Offset: 0xE227DC
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // System.Void Dump()
-    // Offset: 0xE10070
+    // Offset: 0xE22AB4
     void Dump();
     // public System.Void .ctor()
-    // Offset: 0xE10074
+    // Offset: 0xE22AB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryMethodCall* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryMethodCall
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodCall");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Completed includes
@@ -55,78 +53,78 @@ namespace System::IO {
     // Offset: 0x40
     int maxChars;
     // public System.Void .ctor(System.IO.Stream output)
-    // Offset: 0x1118168
+    // Offset: 0x1128BAC
     static BinaryWriter* New_ctor(System::IO::Stream* output);
     // public System.Void .ctor(System.IO.Stream output, System.Text.Encoding encoding)
-    // Offset: 0x1118390
+    // Offset: 0x1128DD4
     static BinaryWriter* New_ctor(System::IO::Stream* output, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.IO.Stream output, System.Text.Encoding encoding, System.Boolean leaveOpen)
-    // Offset: 0x11181E8
+    // Offset: 0x1128C2C
     static BinaryWriter* New_ctor(System::IO::Stream* output, System::Text::Encoding* encoding, bool leaveOpen);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1118398
+    // Offset: 0x1128DDC
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x11183EC
+    // Offset: 0x1128E30
     void Flush();
     // public System.Void Write(System.Boolean value)
-    // Offset: 0x1118410
+    // Offset: 0x1128E54
     void Write(bool value);
     // public System.Void Write(System.Byte value)
-    // Offset: 0x111846C
+    // Offset: 0x1128EB0
     void Write(uint8_t value);
     // public System.Void Write(System.Byte[] buffer)
-    // Offset: 0x1118490
+    // Offset: 0x1128ED4
     void Write(::Array<uint8_t>* buffer);
     // public System.Void Write(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1118540
+    // Offset: 0x1128F84
     void Write(::Array<uint8_t>* buffer, int index, int count);
     // public System.Void Write(System.Char ch)
-    // Offset: 0x1118564
+    // Offset: 0x1128FA8
     void Write(::Il2CppChar ch);
     // public System.Void Write(System.Char[] chars)
-    // Offset: 0x1118698
+    // Offset: 0x11290DC
     void Write(::Array<::Il2CppChar>* chars);
     // public System.Void Write(System.Double value)
-    // Offset: 0x1118770
+    // Offset: 0x11291B4
     void Write(double value);
     // public System.Void Write(System.Int16 value)
-    // Offset: 0x11187B8
+    // Offset: 0x11291FC
     void Write(int16_t value);
     // public System.Void Write(System.UInt16 value)
-    // Offset: 0x111882C
+    // Offset: 0x1129270
     void Write(uint16_t value);
     // public System.Void Write(System.Int32 value)
-    // Offset: 0x11188A0
+    // Offset: 0x11292E4
     void Write(int value);
     // public System.Void Write(System.UInt32 value)
-    // Offset: 0x111894C
+    // Offset: 0x1129390
     void Write(uint value);
     // public System.Void Write(System.Int64 value)
-    // Offset: 0x11189F8
+    // Offset: 0x112943C
     void Write(int64_t value);
     // public System.Void Write(System.UInt64 value)
-    // Offset: 0x1118B14
+    // Offset: 0x1129558
     void Write(uint64_t value);
     // public System.Void Write(System.Single value)
-    // Offset: 0x1118C30
+    // Offset: 0x1129674
     void Write(float value);
     // public System.Void Write(System.String value)
-    // Offset: 0x1118C78
+    // Offset: 0x11296BC
     void Write(::CsString* value);
     // protected System.Void Write7BitEncodedInt(System.Int32 value)
-    // Offset: 0x1118F1C
+    // Offset: 0x1129960
     void Write7BitEncodedInt(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1118F80
+    // Offset: 0x11299C4
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1118058
+    // Offset: 0x1128A9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryWriter* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x11183DC
+    // Offset: 0x1128E20
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -135,6 +133,6 @@ namespace System::IO {
     void System_IDisposable_Dispose();
   }; // System.IO.BinaryWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryWriter*, "System.IO", "BinaryWriter");
 #pragma pack(pop)

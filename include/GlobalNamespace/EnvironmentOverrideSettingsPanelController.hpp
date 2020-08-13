@@ -73,30 +73,30 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool initialized;
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0xBD4E50
+    // Offset: 0xBE7894
     GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0xBD4E58
+    // Offset: 0xBE789C
     void SetData(GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0xBD5210
+    // Offset: 0xBE7C54
     void OnDestroy();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0xBD558C
+    // Offset: 0xBE7FD0
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0xBD5754
+    // Offset: 0xBE8198
     void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
     // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__16_0()
-    // Offset: 0xBD5870
+    // Offset: 0xBE82B4
     void $HandleOverrideEnvironmentsToggleValueChanged$b__16_0();
     // public System.Void Refresh()
-    // Offset: 0xBD5398
+    // Offset: 0xBE7DDC
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0xBD5868
+    // Offset: 0xBE82AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -106,6 +106,6 @@ namespace GlobalNamespace {
     static EnvironmentOverrideSettingsPanelController* New_ctor();
   }; // EnvironmentOverrideSettingsPanelController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController*, "", "EnvironmentOverrideSettingsPanelController");
 #pragma pack(pop)

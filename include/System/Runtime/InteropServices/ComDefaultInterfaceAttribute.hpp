@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
 // Completed includes
@@ -23,10 +24,10 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Type* val;
     // public System.Void .ctor(System.Type defaultInterface)
-    // Offset: 0x1150E40
+    // Offset: 0x1162884
     static ComDefaultInterfaceAttribute* New_ctor(System::Type* defaultInterface);
   }; // System.Runtime.InteropServices.ComDefaultInterfaceAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComDefaultInterfaceAttribute*, "System.Runtime.InteropServices", "ComDefaultInterfaceAttribute");
 #pragma pack(pop)

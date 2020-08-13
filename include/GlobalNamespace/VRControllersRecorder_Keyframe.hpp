@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: VRControllersRecorder
 #include "GlobalNamespace/VRControllersRecorder.hpp"
 // Including type: UnityEngine.Vector3
@@ -41,12 +39,12 @@ namespace GlobalNamespace {
     // Offset: 0x64
     float time;
     // public System.Void .ctor()
-    // Offset: 0xC3C54C
+    // Offset: 0xC4DF90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorder::Keyframe* New_ctor();
   }; // VRControllersRecorder/Keyframe
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::Keyframe*, "", "VRControllersRecorder/Keyframe");
 #pragma pack(pop)

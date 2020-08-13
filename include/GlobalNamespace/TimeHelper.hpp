@@ -29,34 +29,34 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float accumulator;
     // static public System.Single get_deltaTime()
-    // Offset: 0xCA8470
+    // Offset: 0xCBAEB4
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0xCA84C0
+    // Offset: 0xCBAF04
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0xCA851C
+    // Offset: 0xCBAF60
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0xCA856C
+    // Offset: 0xCBAFB0
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0xCA85C8
+    // Offset: 0xCBB00C
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0xCA8618
+    // Offset: 0xCBB05C
     static void set_interpolationFactor(float value);
     // protected System.Void Awake()
-    // Offset: 0xCA8674
+    // Offset: 0xCBB0B8
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0xCA8720
+    // Offset: 0xCBB164
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0xCA87CC
+    // Offset: 0xCBB210
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCA88E0
+    // Offset: 0xCBB324
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace GlobalNamespace {
     static TimeHelper* New_ctor();
   }; // TimeHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimeHelper*, "", "TimeHelper");
 #pragma pack(pop)

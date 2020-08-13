@@ -33,6 +33,6 @@ namespace Mono::Xml {
     ::Array<::CsString*>* get_Values();
   }; // Mono.Xml.SmallXmlParser/IAttrList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IAttrList*, "Mono.Xml", "SmallXmlParser/IAttrList");
 #pragma pack(pop)

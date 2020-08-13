@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.ICloneable
 #include "System/ICloneable.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
@@ -43,27 +41,27 @@ namespace System {
     // Offset: 0x20
     ::CsString* servicePack;
     // public System.Void .ctor(System.PlatformID platform, System.Version version)
-    // Offset: 0x13474D8
+    // Offset: 0x1359F1C
     static OperatingSystem* New_ctor(System::PlatformID platform, System::Version* version);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1347638
+    // Offset: 0x135A07C
     static OperatingSystem* New_ctor(System::Runtime::Serialization::SerializationInfo* information, System::Runtime::Serialization::StreamingContext context);
     // public System.PlatformID get_Platform()
-    // Offset: 0x13477C4
+    // Offset: 0x135A208
     System::PlatformID get_Platform();
     // public System.Version get_Version()
-    // Offset: 0x13477CC
+    // Offset: 0x135A210
     System::Version* get_Version();
     // public System.String get_ServicePack()
-    // Offset: 0x13477D4
+    // Offset: 0x135A218
     ::CsString* get_ServicePack();
     // public System.Object Clone()
-    // Offset: 0x13477DC
+    // Offset: 0x135A220
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::CsObject* Clone();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1347850
+    // Offset: 0x135A294
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -71,12 +69,12 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x1347914
+    // Offset: 0x135A358
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.OperatingSystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::OperatingSystem*, "System", "OperatingSystem");
 #pragma pack(pop)

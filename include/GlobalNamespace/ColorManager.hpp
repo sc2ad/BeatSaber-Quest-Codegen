@@ -63,31 +63,31 @@ namespace GlobalNamespace {
     // Offset: 0x50
     System::Action* colorsDidChangeEvent;
     // public System.Void add_colorsDidChangeEvent(System.Action value)
-    // Offset: 0xB617F4
+    // Offset: 0xB5F7F4
     void add_colorsDidChangeEvent(System::Action* value);
     // public System.Void remove_colorsDidChangeEvent(System.Action value)
-    // Offset: 0xB61898
+    // Offset: 0xB5F898
     void remove_colorsDidChangeEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xB6193C
+    // Offset: 0xB5F93C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xB6196C
+    // Offset: 0xB5F96C
     void Start();
     // public UnityEngine.Color ColorForNoteType(NoteType type)
-    // Offset: 0xB61A0C
+    // Offset: 0xB5FA0C
     UnityEngine::Color ColorForNoteType(GlobalNamespace::NoteType type);
     // public UnityEngine.Color ColorForSaberType(SaberType type)
-    // Offset: 0xB61A60
+    // Offset: 0xB5FA60
     UnityEngine::Color ColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
-    // Offset: 0xB61AB4
+    // Offset: 0xB5FAB4
     UnityEngine::Color EffectsColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color GetObstacleEffectColor()
-    // Offset: 0xB61B4C
+    // Offset: 0xB5FB4C
     UnityEngine::Color GetObstacleEffectColor();
     // public System.Void .ctor()
-    // Offset: 0xB61BB0
+    // Offset: 0xB5FBB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -97,6 +97,6 @@ namespace GlobalNamespace {
     static ColorManager* New_ctor();
   }; // ColorManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManager*, "", "ColorManager");
 #pragma pack(pop)

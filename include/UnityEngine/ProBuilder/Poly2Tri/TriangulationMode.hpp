@@ -38,6 +38,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     TriangulationMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationMode");
 #pragma pack(pop)

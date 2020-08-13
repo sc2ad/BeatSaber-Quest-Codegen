@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.AimPoser
 #include "RootMotion/FinalIK/AimPoser.hpp"
 // Completed includes
@@ -34,18 +32,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x34
     float angleBuffer;
     // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
-    // Offset: 0x13929BC
+    // Offset: 0x13A4400
     bool IsInDirection(UnityEngine::Vector3 d);
     // public System.Void SetAngleBuffer(System.Single value)
-    // Offset: 0x1392D34
+    // Offset: 0x13A4778
     void SetAngleBuffer(float value);
     // public System.Void .ctor()
-    // Offset: 0x1392D3C
+    // Offset: 0x13A4780
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AimPoser::Pose* New_ctor();
   }; // RootMotion.FinalIK.AimPoser/Pose
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK", "AimPoser/Pose");
 #pragma pack(pop)

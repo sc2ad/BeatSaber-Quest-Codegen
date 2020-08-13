@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: NUnit.Framework.Internal.TestNameGenerator/NameFragment
-#include "NUnit/Framework/Internal/TestNameGenerator_NameFragment.hpp"
 // Including type: NUnit.Framework.Internal.TestNameGenerator
 #include "NUnit/Framework/Internal/TestNameGenerator.hpp"
+// Including type: NUnit.Framework.Internal.TestNameGenerator/NameFragment
+#include "NUnit/Framework/Internal/TestNameGenerator_NameFragment.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -26,15 +26,15 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x10
     int maxStringLength;
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x18DAF60
+    // Offset: 0x18EB9A4
     static TestNameGenerator::ArgListFragment* New_ctor(int maxStringLength);
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
-    // Offset: 0x18DB028
+    // Offset: 0x18EBA6C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
     ::CsString* GetText(System::Reflection::MethodInfo* method, ::Array<::CsObject*>* arglist);
   }; // NUnit.Framework.Internal.TestNameGenerator/ArgListFragment
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ArgListFragment*, "NUnit.Framework.Internal", "TestNameGenerator/ArgListFragment");
 #pragma pack(pop)

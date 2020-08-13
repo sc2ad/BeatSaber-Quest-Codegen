@@ -38,30 +38,30 @@ namespace RootMotion::FinalIK {
     // Offset: 0x70
     ::Array<UnityEngine::Quaternion>* defaultLocalRotations;
     // protected System.Void StoreDefaultState()
-    // Offset: 0x136312C
+    // Offset: 0x1375B70
     void StoreDefaultState();
     // public override System.Void AutoMapping()
-    // Offset: 0x1362FFC
+    // Offset: 0x1375A40
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x13630C4
+    // Offset: 0x1375B08
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x13632A8
+    // Offset: 0x1375CEC
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x13633A4
+    // Offset: 0x1375DE8
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
     // public System.Void .ctor()
-    // Offset: 0x1363754
+    // Offset: 0x1376198
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -73,6 +73,6 @@ namespace RootMotion::FinalIK {
     static HandPoser* New_ctor();
   }; // RootMotion.FinalIK.HandPoser
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HandPoser*, "RootMotion.FinalIK", "HandPoser");
 #pragma pack(pop)

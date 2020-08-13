@@ -4,11 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include <stdint.h>
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Microsoft.Win32.UnsafeNativeMethods/ManifestEtw
 #include "Microsoft/Win32/UnsafeNativeMethods_ManifestEtw.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
@@ -43,6 +43,6 @@ namespace Microsoft::Win32 {
     TRACE_ENABLE_INFO(int IsEnabled_ = {}, uint8_t Level_ = {}, uint8_t Reserved1_ = {}, uint16_t LoggerId_ = {}, int EnableProperty_ = {}, int Reserved2_ = {}, int64_t MatchAnyKeyword_ = {}, int64_t MatchAllKeyword_ = {}) : IsEnabled{IsEnabled_}, Level{Level_}, Reserved1{Reserved1_}, LoggerId{LoggerId_}, EnableProperty{EnableProperty_}, Reserved2{Reserved2_}, MatchAnyKeyword{MatchAnyKeyword_}, MatchAllKeyword{MatchAllKeyword_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_ENABLE_INFO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_ENABLE_INFO, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/TRACE_ENABLE_INFO");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.UI.Image
 #include "UnityEngine/UI/Image.hpp"
 // Completed includes
@@ -34,6 +32,6 @@ namespace UnityEngine::UI {
     OriginHorizontal(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UI.Image/OriginHorizontal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::OriginHorizontal, "UnityEngine.UI", "Image/OriginHorizontal");
 #pragma pack(pop)

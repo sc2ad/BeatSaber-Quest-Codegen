@@ -18,13 +18,13 @@ namespace System::Threading {
     // Creating value type constructor for type: SpinWait
     SpinWait(int m_count_ = {}) : m_count{m_count_} {}
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0xA291A0
+    // Offset: 0xA2921C
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0xA291D0
+    // Offset: 0xA2924C
     void SpinOnce();
   }; // System.Threading.SpinWait
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");
 #pragma pack(pop)

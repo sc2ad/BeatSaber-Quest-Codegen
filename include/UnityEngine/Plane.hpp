@@ -39,36 +39,36 @@ namespace UnityEngine {
     // Creating value type constructor for type: Plane
     Plane(UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}) : m_Normal{m_Normal_}, m_Distance{m_Distance_} {}
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0xA44D7C
+    // Offset: 0xA44DF8
     UnityEngine::Vector3 get_normal();
     // public System.Void .ctor(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
-    // Offset: 0xA44D88
+    // Offset: 0xA44E04
     static Plane* New_ctor(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
     // public System.Void .ctor(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c)
-    // Offset: 0xA44D90
+    // Offset: 0xA44E0C
     static Plane* New_ctor(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c);
     // public System.Void SetNormalAndPosition(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
-    // Offset: 0xA44DA8
+    // Offset: 0xA44E24
     void SetNormalAndPosition(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
     // public UnityEngine.Vector3 ClosestPointOnPlane(UnityEngine.Vector3 point)
-    // Offset: 0xA44DB0
+    // Offset: 0xA44E2C
     UnityEngine::Vector3 ClosestPointOnPlane(UnityEngine::Vector3 point);
     // public System.Single GetDistanceToPoint(UnityEngine.Vector3 point)
-    // Offset: 0xA44DB8
+    // Offset: 0xA44E34
     float GetDistanceToPoint(UnityEngine::Vector3 point);
     // public System.Boolean SameSide(UnityEngine.Vector3 inPt0, UnityEngine.Vector3 inPt1)
-    // Offset: 0xA44DC0
+    // Offset: 0xA44E3C
     bool SameSide(UnityEngine::Vector3 inPt0, UnityEngine::Vector3 inPt1);
     // public System.Boolean Raycast(UnityEngine.Ray ray, System.Single enter)
-    // Offset: 0xA44DC8
+    // Offset: 0xA44E44
     bool Raycast(UnityEngine::Ray ray, float& enter);
     // public override System.String ToString()
-    // Offset: 0xA44E00
+    // Offset: 0xA44E7C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // UnityEngine.Plane
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Plane, "UnityEngine", "Plane");
 #pragma pack(pop)

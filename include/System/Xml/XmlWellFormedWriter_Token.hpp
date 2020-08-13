@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: System.Xml.XmlWellFormedWriter
 #include "System/Xml/XmlWellFormedWriter.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -112,6 +112,6 @@ namespace System::Xml {
     Token(int value_ = {}) : value{value_} {}
   }; // System.Xml.XmlWellFormedWriter/Token
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Token, "System.Xml", "XmlWellFormedWriter/Token");
 #pragma pack(pop)

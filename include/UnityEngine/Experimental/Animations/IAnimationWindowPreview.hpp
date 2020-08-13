@@ -22,6 +22,6 @@ namespace UnityEngine::Experimental::Animations {
     void UpdatePreviewGraph(UnityEngine::Playables::PlayableGraph graph);
   }; // UnityEngine.Experimental.Animations.IAnimationWindowPreview
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Animations::IAnimationWindowPreview*, "UnityEngine.Experimental.Animations", "IAnimationWindowPreview");
 #pragma pack(pop)

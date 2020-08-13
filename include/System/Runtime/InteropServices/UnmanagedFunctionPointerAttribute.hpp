@@ -33,10 +33,10 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1A
     bool SetLastError;
     // public System.Void .ctor(System.Runtime.InteropServices.CallingConvention callingConvention)
-    // Offset: 0x103C434
+    // Offset: 0x104BE78
     static UnmanagedFunctionPointerAttribute* New_ctor(System::Runtime::InteropServices::CallingConvention callingConvention);
   }; // System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");
 #pragma pack(pop)

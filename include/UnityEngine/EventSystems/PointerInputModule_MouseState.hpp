@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.EventSystems.PointerInputModule
 #include "UnityEngine/EventSystems/PointerInputModule.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData
@@ -29,24 +27,24 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>* m_TrackedButtons;
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0xDEA930
+    // Offset: 0xDFD374
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0xDEA9E4
+    // Offset: 0xDFD428
     bool AnyReleasesThisFrame();
     // public UnityEngine.EventSystems.PointerInputModule/ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button)
-    // Offset: 0xDEAA98
+    // Offset: 0xDFD4DC
     UnityEngine::EventSystems::PointerInputModule::ButtonState* GetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button, UnityEngine.EventSystems.PointerEventData/FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0xDE9E8C
+    // Offset: 0xDFC8D0
     void SetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button, UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
-    // Offset: 0xDEA85C
+    // Offset: 0xDFD2A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PointerInputModule::MouseState* New_ctor();
   }; // UnityEngine.EventSystems.PointerInputModule/MouseState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseState*, "UnityEngine.EventSystems", "PointerInputModule/MouseState");
 #pragma pack(pop)

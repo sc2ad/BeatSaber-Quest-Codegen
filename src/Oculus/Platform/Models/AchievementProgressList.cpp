@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Models.AchievementProgressList
 #include "Oculus/Platform/Models/AchievementProgressList.hpp"
 // Including type: Oculus.Platform.Models.AchievementProgress

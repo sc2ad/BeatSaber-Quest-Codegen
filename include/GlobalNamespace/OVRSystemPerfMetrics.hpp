@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
@@ -49,12 +47,12 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 MaxMessageLength
     static void _set_MaxMessageLength(int value);
     // public System.Void .ctor()
-    // Offset: 0x18E50C0
+    // Offset: 0x18F5B04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRSystemPerfMetrics* New_ctor();
   }; // OVRSystemPerfMetrics
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics*, "", "OVRSystemPerfMetrics");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Globalization.HebrewNumber
 #include "System/Globalization/HebrewNumber.hpp"
 // Including type: System.Globalization.HebrewNumber/HebrewToken
@@ -24,10 +22,10 @@ namespace System::Globalization {
     // Offset: 0x14
     int value;
     // System.Void .ctor(System.Globalization.HebrewNumber/HebrewToken token, System.Int32 value)
-    // Offset: 0x12B5BAC
+    // Offset: 0x12C75F0
     static HebrewNumber::HebrewValue* New_ctor(System::Globalization::HebrewNumber::HebrewToken token, int value);
   }; // System.Globalization.HebrewNumber/HebrewValue
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HebrewValue*, "System.Globalization", "HebrewNumber/HebrewValue");
 #pragma pack(pop)

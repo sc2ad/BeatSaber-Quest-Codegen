@@ -92,39 +92,39 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static private readonly System.String ValuesDiffer_2
     static void _set_ValuesDiffer_2(::CsString* value);
     // public System.Void .ctor(NUnit.Framework.Constraints.EqualConstraint constraint, System.Object actual, System.Boolean hasSucceeded)
-    // Offset: 0x1060EC4
+    // Offset: 0x1070908
     static EqualConstraintResult* New_ctor(NUnit::Framework::Constraints::EqualConstraint* constraint, ::CsObject* actual, bool hasSucceeded);
     // private System.Void DisplayDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Object expected, System.Object actual, System.Int32 depth)
-    // Offset: 0x10612BC
+    // Offset: 0x1070D00
     void DisplayDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::CsObject* expected, ::CsObject* actual, int depth);
     // private System.Void DisplayStringDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.String expected, System.String actual)
-    // Offset: 0x10615A0
+    // Offset: 0x1070FE4
     void DisplayStringDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::CsString* expected, ::CsString* actual);
     // private System.Void DisplayStreamDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.IO.Stream expected, System.IO.Stream actual, System.Int32 depth)
-    // Offset: 0x1061CD8
+    // Offset: 0x107171C
     void DisplayStreamDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::IO::Stream* expected, System::IO::Stream* actual, int depth);
     // private System.Void DisplayCollectionDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.ICollection expected, System.Collections.ICollection actual, System.Int32 depth)
-    // Offset: 0x10618CC
+    // Offset: 0x1071310
     void DisplayCollectionDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::ICollection* expected, System::Collections::ICollection* actual, int depth);
     // private System.Void DisplayTypesAndSizes(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, System.Int32 indent)
-    // Offset: 0x10621A4
+    // Offset: 0x1071BE8
     void DisplayTypesAndSizes(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::IEnumerable* expected, System::Collections::IEnumerable* actual, int indent);
     // private System.Void DisplayFailurePoint(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint failurePoint, System.Int32 indent)
-    // Offset: 0x1062674
+    // Offset: 0x10720B8
     void DisplayFailurePoint(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::IEnumerable* expected, System::Collections::IEnumerable* actual, NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint* failurePoint, int indent);
     // private System.Void DisplayEnumerableDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, System.Int32 depth)
-    // Offset: 0x1061B20
+    // Offset: 0x1071564
     void DisplayEnumerableDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::IEnumerable* expected, System::Collections::IEnumerable* actual, int depth);
     // static private System.Void .cctor()
-    // Offset: 0x1062E54
+    // Offset: 0x1072898
     static void _cctor();
     // public override System.Void WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x10612AC
+    // Offset: 0x1070CF0
     // Implemented from: NUnit.Framework.Constraints.ConstraintResult
     // Base method: System.Void ConstraintResult::WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
     void WriteMessageTo(NUnit::Framework::Constraints::MessageWriter* writer);
   }; // NUnit.Framework.Constraints.EqualConstraintResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraintResult*, "NUnit.Framework.Constraints", "EqualConstraintResult");
 #pragma pack(pop)

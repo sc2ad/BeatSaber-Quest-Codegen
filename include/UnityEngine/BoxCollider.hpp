@@ -20,25 +20,25 @@ namespace UnityEngine {
   class BoxCollider : public UnityEngine::Collider {
     public:
     // public System.Void set_center(UnityEngine.Vector3 value)
-    // Offset: 0x1946C00
+    // Offset: 0x1959644
     void set_center(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_size()
-    // Offset: 0x1946CA8
+    // Offset: 0x19596EC
     UnityEngine::Vector3 get_size();
     // public System.Void set_size(UnityEngine.Vector3 value)
-    // Offset: 0x1946D58
+    // Offset: 0x195979C
     void set_size(UnityEngine::Vector3 value);
     // private System.Void set_center_Injected(UnityEngine.Vector3 value)
-    // Offset: 0x1946C58
+    // Offset: 0x195969C
     void set_center_Injected(UnityEngine::Vector3& value);
     // private System.Void get_size_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x1946D08
+    // Offset: 0x195974C
     void get_size_Injected(UnityEngine::Vector3& ret);
     // private System.Void set_size_Injected(UnityEngine.Vector3 value)
-    // Offset: 0x1946DB0
+    // Offset: 0x19597F4
     void set_size_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.BoxCollider
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoxCollider*, "UnityEngine", "BoxCollider");
 #pragma pack(pop)

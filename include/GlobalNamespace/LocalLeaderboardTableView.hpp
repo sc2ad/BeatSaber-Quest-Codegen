@@ -24,10 +24,10 @@ namespace GlobalNamespace {
   class LocalLeaderboardTableView : public GlobalNamespace::LeaderboardTableView {
     public:
     // public System.Void SetScores(System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> scores, System.Int32 specialScorePos, System.Int32 maxNumberOfCells)
-    // Offset: 0xBE62D0
+    // Offset: 0xBF7D14
     void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores, int specialScorePos, int maxNumberOfCells);
     // public System.Void .ctor()
-    // Offset: 0xBE6498
+    // Offset: 0xBF7EDC
     // Implemented from: LeaderboardTableView
     // Base method: System.Void LeaderboardTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -38,6 +38,6 @@ namespace GlobalNamespace {
     static LocalLeaderboardTableView* New_ctor();
   }; // LocalLeaderboardTableView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardTableView*, "", "LocalLeaderboardTableView");
 #pragma pack(pop)

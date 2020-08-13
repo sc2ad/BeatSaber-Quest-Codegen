@@ -80,6 +80,6 @@ namespace OVR::OpenVR {
     ChaperoneCalibrationState(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.ChaperoneCalibrationState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ChaperoneCalibrationState, "OVR.OpenVR", "ChaperoneCalibrationState");
 #pragma pack(pop)

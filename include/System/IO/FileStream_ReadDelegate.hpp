@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: System.IO.FileStream
 #include "System/IO/FileStream.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace System::IO {
   class FileStream::ReadDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x112208C
+    // Offset: 0x1132AD0
     static FileStream::ReadDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x11236D8
+    // Offset: 0x113411C
     int Invoke(::Array<uint8_t>* buffer, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11220A0
+    // Offset: 0x1132AE4
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11222A0
+    // Offset: 0x1132CE4
     int EndInvoke(System::IAsyncResult* result);
   }; // System.IO.FileStream/ReadDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream::ReadDelegate*, "System.IO", "FileStream/ReadDelegate");
 #pragma pack(pop)

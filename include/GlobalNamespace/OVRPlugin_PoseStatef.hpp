@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVRPlugin/Posef
 // Already included the same include: GlobalNamespace/OVRPlugin.hpp
 // Completed includes
@@ -41,10 +42,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PoseStatef
     PoseStatef(GlobalNamespace::OVRPlugin::Posef Pose_ = {}, GlobalNamespace::OVRPlugin::Vector3f Velocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f Acceleration_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularVelocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularAcceleration_ = {}, double Time_ = {}) : Pose{Pose_}, Velocity{Velocity_}, Acceleration{Acceleration_}, AngularVelocity{AngularVelocity_}, AngularAcceleration{AngularAcceleration_}, Time{Time_} {}
     // static private System.Void .cctor()
-    // Offset: 0xF33EE0
+    // Offset: 0xF44924
     static void _cctor();
   }; // OVRPlugin/PoseStatef
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PoseStatef, "", "OVRPlugin/PoseStatef");
 #pragma pack(pop)

@@ -23,10 +23,10 @@ namespace Unity::Jobs {
     // Creating value type constructor for type: JobHandle
     JobHandle(System::IntPtr jobGroup_ = {}, int version_ = {}) : jobGroup{jobGroup_}, version{version_} {}
     // static public System.Void ScheduleBatchedJobs()
-    // Offset: 0x12E6D4C
+    // Offset: 0x12F9790
     static void ScheduleBatchedJobs();
   }; // Unity.Jobs.JobHandle
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
 #pragma pack(pop)

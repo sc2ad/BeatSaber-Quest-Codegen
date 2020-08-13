@@ -27,16 +27,16 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x20
     System::Diagnostics::Tracing::EventFieldFormat Format;
     // public System.Diagnostics.Tracing.EventFieldTags get_Tags()
-    // Offset: 0xC86A64
+    // Offset: 0xC984A8
     System::Diagnostics::Tracing::EventFieldTags get_Tags();
     // System.String get_Name()
-    // Offset: 0xC86A6C
+    // Offset: 0xC984B0
     ::CsString* get_Name();
     // public System.Diagnostics.Tracing.EventFieldFormat get_Format()
-    // Offset: 0xC86A74
+    // Offset: 0xC984B8
     System::Diagnostics::Tracing::EventFieldFormat get_Format();
   }; // System.Diagnostics.Tracing.EventFieldAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventFieldAttribute*, "System.Diagnostics.Tracing", "EventFieldAttribute");
 #pragma pack(pop)

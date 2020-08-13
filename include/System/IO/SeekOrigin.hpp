@@ -38,6 +38,6 @@ namespace System::IO {
     SeekOrigin(int value_ = {}) : value{value_} {}
   }; // System.IO.SeekOrigin
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SeekOrigin, "System.IO", "SeekOrigin");
 #pragma pack(pop)

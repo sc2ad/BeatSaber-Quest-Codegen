@@ -78,76 +78,76 @@ namespace System::IO {
     // Offset: 0x20
     System::IFormatProvider* InternalFormatProvider;
     // static private System.String get_InitialNewLine()
-    // Offset: 0xFF7D00
+    // Offset: 0x1007744
     static ::CsString* get_InitialNewLine();
     // protected System.Void .ctor(System.IFormatProvider formatProvider)
-    // Offset: 0xFF5444
+    // Offset: 0x1004E88
     static TextWriter* New_ctor(System::IFormatProvider* formatProvider);
     // public System.IFormatProvider get_FormatProvider()
-    // Offset: 0xFF7DA8
+    // Offset: 0x10077EC
     System::IFormatProvider* get_FormatProvider();
     // public System.Void Close()
-    // Offset: 0xFF7DD4
+    // Offset: 0x1007818
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xFF6004
+    // Offset: 0x1005A48
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0xFF7ECC
+    // Offset: 0x1007910
     void Flush();
     // public System.Text.Encoding get_Encoding()
     // Offset: 0xFFFFFFFF
     System::Text::Encoding* get_Encoding();
     // static public System.IO.TextWriter Synchronized(System.IO.TextWriter writer)
-    // Offset: 0xFF7ED0
+    // Offset: 0x1007914
     static System::IO::TextWriter* Synchronized(System::IO::TextWriter* writer);
     // public System.Void Write(System.Char value)
-    // Offset: 0xFF801C
+    // Offset: 0x1007A60
     void Write(::Il2CppChar value);
     // public System.Void Write(System.Char[] buffer)
-    // Offset: 0xFF8020
+    // Offset: 0x1007A64
     void Write(::Array<::Il2CppChar>* buffer);
     // public System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF8040
+    // Offset: 0x1007A84
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void Write(System.String value)
-    // Offset: 0xFF824C
+    // Offset: 0x1007C90
     void Write(::CsString* value);
     // public System.Void Write(System.String format, System.Object arg0)
-    // Offset: 0xFF8290
+    // Offset: 0x1007CD4
     void Write(::CsString* format, ::CsObject* arg0);
     // public System.Void WriteLine()
-    // Offset: 0xFF82F0
+    // Offset: 0x1007D34
     void WriteLine();
     // public System.Void WriteLine(System.Char value)
-    // Offset: 0xFF8304
+    // Offset: 0x1007D48
     void WriteLine(::Il2CppChar value);
     // public System.Void WriteLine(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xFF833C
+    // Offset: 0x1007D80
     void WriteLine(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void WriteLine(System.String value)
-    // Offset: 0xFF8378
+    // Offset: 0x1007DBC
     void WriteLine(::CsString* value);
     // public System.Void WriteLine(System.String format, System.Object arg0)
-    // Offset: 0xFF8520
+    // Offset: 0x1007F64
     void WriteLine(::CsString* format, ::CsObject* arg0);
     // public System.Void WriteLine(System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0xFF8580
+    // Offset: 0x1007FC4
     void WriteLine(::CsString* format, ::CsObject* arg0, ::CsObject* arg1);
     // public System.Void WriteLine(System.String format, System.Object[] arg)
-    // Offset: 0xFF85E8
+    // Offset: 0x100802C
     void WriteLine(::CsString* format, ::Array<::CsObject*>* arg);
     // static private System.Void .cctor()
-    // Offset: 0xFF8648
+    // Offset: 0x100808C
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0xFF7D08
+    // Offset: 0x100774C
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextWriter* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0xFF7E50
+    // Offset: 0x1007894
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -156,6 +156,6 @@ namespace System::IO {
     void System_IDisposable_Dispose();
   }; // System.IO.TextWriter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter*, "System.IO", "TextWriter");
 #pragma pack(pop)

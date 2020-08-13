@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: LevelSelectionNavigationController
 #include "GlobalNamespace/LevelSelectionNavigationController.hpp"
 // Completed includes
@@ -28,15 +26,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     HMUI::ViewController* viewController;
     // System.Void <PresentDetailViewController>b__0()
-    // Offset: 0xBE4E7C
+    // Offset: 0xBF68C0
     void $PresentDetailViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0xBE4C0C
+    // Offset: 0xBF6650
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelSelectionNavigationController::$$c__DisplayClass42_0* New_ctor();
   }; // LevelSelectionNavigationController/<>c__DisplayClass42_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionNavigationController::$$c__DisplayClass42_0*, "", "LevelSelectionNavigationController/<>c__DisplayClass42_0");
 #pragma pack(pop)

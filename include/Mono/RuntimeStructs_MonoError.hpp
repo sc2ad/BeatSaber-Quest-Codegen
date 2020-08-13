@@ -4,11 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-#include <stdint.h>
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
@@ -75,6 +75,6 @@ namespace Mono {
     MonoError(uint16_t error_code_ = {}, uint16_t hidden_0_ = {}, System::IntPtr hidden_1_ = {}, System::IntPtr hidden_2_ = {}, System::IntPtr hidden_3_ = {}, System::IntPtr hidden_4_ = {}, System::IntPtr hidden_5_ = {}, System::IntPtr hidden_6_ = {}, System::IntPtr hidden_7_ = {}, System::IntPtr hidden_8_ = {}, System::IntPtr hidden_11_ = {}, System::IntPtr hidden_12_ = {}, System::IntPtr hidden_13_ = {}, System::IntPtr hidden_14_ = {}, System::IntPtr hidden_15_ = {}, System::IntPtr hidden_16_ = {}, System::IntPtr hidden_17_ = {}, System::IntPtr hidden_18_ = {}) : error_code{error_code_}, hidden_0{hidden_0_}, hidden_1{hidden_1_}, hidden_2{hidden_2_}, hidden_3{hidden_3_}, hidden_4{hidden_4_}, hidden_5{hidden_5_}, hidden_6{hidden_6_}, hidden_7{hidden_7_}, hidden_8{hidden_8_}, hidden_11{hidden_11_}, hidden_12{hidden_12_}, hidden_13{hidden_13_}, hidden_14{hidden_14_}, hidden_15{hidden_15_}, hidden_16{hidden_16_}, hidden_17{hidden_17_}, hidden_18{hidden_18_} {}
   }; // Mono.RuntimeStructs/MonoError
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoError, "Mono", "RuntimeStructs/MonoError");
 #pragma pack(pop)

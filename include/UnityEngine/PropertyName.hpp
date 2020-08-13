@@ -24,36 +24,36 @@ namespace UnityEngine {
     // Creating value type constructor for type: PropertyName
     PropertyName(int id_ = {}) : id{id_} {}
     // public System.Void .ctor(System.String name)
-    // Offset: 0xA45438
+    // Offset: 0xA454B4
     static PropertyName* New_ctor(::CsString* name);
     // public System.Void .ctor(UnityEngine.PropertyName other)
-    // Offset: 0xA45498
+    // Offset: 0xA45514
     static PropertyName* New_ctor(UnityEngine::PropertyName other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA454A0
+    // Offset: 0xA4551C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA454A8
+    // Offset: 0xA45524
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::CsObject* other);
     // public System.Boolean Equals(UnityEngine.PropertyName other)
-    // Offset: 0xA454B0
+    // Offset: 0xA4552C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.PropertyName other)
     bool Equals(UnityEngine::PropertyName other);
     // public override System.String ToString()
-    // Offset: 0xA454C0
+    // Offset: 0xA4553C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // UnityEngine.PropertyName
   // static public System.Boolean op_Equality(UnityEngine.PropertyName lhs, UnityEngine.PropertyName rhs)
-  // Offset: 0x1404E98
+  // Offset: 0x14158DC
   bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyName, "UnityEngine", "PropertyName");
 #pragma pack(pop)

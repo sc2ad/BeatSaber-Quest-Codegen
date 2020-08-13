@@ -21,19 +21,19 @@ namespace GlobalNamespace {
   class MainEffectSO : public GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Void PreRender()
-    // Offset: 0x18F8324
+    // Offset: 0x1907D68
     void PreRender();
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x18F8328
+    // Offset: 0x1907D6C
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void PostRender(System.Single fade)
-    // Offset: 0x18F832C
+    // Offset: 0x1907D70
     void PostRender(float fade);
     // public System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x18F8330
+    // Offset: 0x1907D74
     bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x18F79B8
+    // Offset: 0x19073FC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     static MainEffectSO* New_ctor();
   }; // MainEffectSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectSO*, "", "MainEffectSO");
 #pragma pack(pop)

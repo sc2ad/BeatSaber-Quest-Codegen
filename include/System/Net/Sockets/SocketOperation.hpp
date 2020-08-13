@@ -92,6 +92,6 @@ namespace System::Net::Sockets {
     SocketOperation(int value_ = {}) : value{value_} {}
   }; // System.Net.Sockets.SocketOperation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketOperation, "System.Net.Sockets", "SocketOperation");
 #pragma pack(pop)

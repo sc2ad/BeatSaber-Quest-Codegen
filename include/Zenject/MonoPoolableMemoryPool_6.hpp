@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.MemoryPool`6
 #include "Zenject/MemoryPool_6.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

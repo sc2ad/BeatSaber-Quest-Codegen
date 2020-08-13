@@ -32,12 +32,12 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Color addColor;
     // public override UnityEngine.Color get_color()
-    // Offset: 0x1964184
+    // Offset: 0x1976BC8
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x1964204
+    // Offset: 0x1976C48
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -47,6 +47,6 @@ namespace GlobalNamespace {
     static MultipliedAndAddedColorSO* New_ctor();
   }; // MultipliedAndAddedColorSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultipliedAndAddedColorSO*, "", "MultipliedAndAddedColorSO");
 #pragma pack(pop)

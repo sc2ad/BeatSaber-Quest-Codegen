@@ -81,177 +81,177 @@ namespace UnityEngine {
     // Creating value type constructor for type: Vector3
     Vector3(float x_ = {}, float y_ = {}, float z_ = {}) : x{x_}, y{y_}, z{z_} {}
     // static public UnityEngine.Vector3 Slerp(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single t)
-    // Offset: 0x1381824
+    // Offset: 0x1394268
     static UnityEngine::Vector3 Slerp(UnityEngine::Vector3 a, UnityEngine::Vector3 b, float t);
     // static private System.Void OrthoNormalize2(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x1381950
+    // Offset: 0x1394394
     static void OrthoNormalize2(UnityEngine::Vector3& a, UnityEngine::Vector3& b);
     // static public System.Void OrthoNormalize(UnityEngine.Vector3 normal, UnityEngine.Vector3 tangent)
-    // Offset: 0x13819A0
+    // Offset: 0x13943E4
     static void OrthoNormalize(UnityEngine::Vector3& normal, UnityEngine::Vector3& tangent);
     // static public UnityEngine.Vector3 RotateTowards(UnityEngine.Vector3 current, UnityEngine.Vector3 target, System.Single maxRadiansDelta, System.Single maxMagnitudeDelta)
-    // Offset: 0x1381A34
+    // Offset: 0x1394478
     static UnityEngine::Vector3 RotateTowards(UnityEngine::Vector3 current, UnityEngine::Vector3 target, float maxRadiansDelta, float maxMagnitudeDelta);
     // static public UnityEngine.Vector3 Lerp(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single t)
-    // Offset: 0x1381B70
+    // Offset: 0x13945B4
     static UnityEngine::Vector3 Lerp(UnityEngine::Vector3 a, UnityEngine::Vector3 b, float t);
     // static public UnityEngine.Vector3 LerpUnclamped(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single t)
-    // Offset: 0x1381C38
+    // Offset: 0x139467C
     static UnityEngine::Vector3 LerpUnclamped(UnityEngine::Vector3 a, UnityEngine::Vector3 b, float t);
     // static public UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3 current, UnityEngine.Vector3 target, UnityEngine.Vector3 currentVelocity, System.Single smoothTime)
-    // Offset: 0x1381C60
+    // Offset: 0x13946A4
     static UnityEngine::Vector3 SmoothDamp(UnityEngine::Vector3 current, UnityEngine::Vector3 target, UnityEngine::Vector3& currentVelocity, float smoothTime);
     // static public UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3 current, UnityEngine.Vector3 target, UnityEngine.Vector3 currentVelocity, System.Single smoothTime, System.Single maxSpeed, System.Single deltaTime)
-    // Offset: 0x1381D58
+    // Offset: 0x139479C
     static UnityEngine::Vector3 SmoothDamp(UnityEngine::Vector3 current, UnityEngine::Vector3 target, UnityEngine::Vector3& currentVelocity, float smoothTime, float maxSpeed, float deltaTime);
     // public System.Single get_Item(System.Int32 index)
-    // Offset: 0xA43CCC
+    // Offset: 0xA43D48
     float get_Item(int index);
     // public System.Void set_Item(System.Int32 index, System.Single value)
-    // Offset: 0xA43CD4
+    // Offset: 0xA43D50
     void set_Item(int index, float value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
-    // Offset: 0xA43CDC
+    // Offset: 0xA43D58
     static Vector3* New_ctor(float x, float y, float z);
     // public System.Void .ctor(System.Single x, System.Single y)
-    // Offset: 0xA43CE8
+    // Offset: 0xA43D64
     static Vector3* New_ctor(float x, float y);
     // static public UnityEngine.Vector3 Scale(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x138215C
+    // Offset: 0x1394BA0
     static UnityEngine::Vector3 Scale(UnityEngine::Vector3 a, UnityEngine::Vector3 b);
     // public System.Void Scale(UnityEngine.Vector3 scale)
-    // Offset: 0xA43CF4
+    // Offset: 0xA43D70
     void Scale(UnityEngine::Vector3 scale);
     // static public UnityEngine.Vector3 Cross(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
-    // Offset: 0x138218C
+    // Offset: 0x1394BD0
     static UnityEngine::Vector3 Cross(UnityEngine::Vector3 lhs, UnityEngine::Vector3 rhs);
     // static public UnityEngine.Vector3 Normalize(UnityEngine.Vector3 value)
-    // Offset: 0x138225C
+    // Offset: 0x1394CA0
     static UnityEngine::Vector3 Normalize(UnityEngine::Vector3 value);
     // public System.Void Normalize()
-    // Offset: 0xA43D54
+    // Offset: 0xA43DD0
     void Normalize();
     // public UnityEngine.Vector3 get_normalized()
-    // Offset: 0xA43D5C
+    // Offset: 0xA43DD8
     UnityEngine::Vector3 get_normalized();
     // static public System.Single Dot(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
-    // Offset: 0x13825D4
+    // Offset: 0x1395018
     static float Dot(UnityEngine::Vector3 lhs, UnityEngine::Vector3 rhs);
     // static public UnityEngine.Vector3 Project(UnityEngine.Vector3 vector, UnityEngine.Vector3 onNormal)
-    // Offset: 0x13825EC
+    // Offset: 0x1395030
     static UnityEngine::Vector3 Project(UnityEngine::Vector3 vector, UnityEngine::Vector3 onNormal);
     // static public System.Single Angle(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
-    // Offset: 0x1382724
+    // Offset: 0x1395168
     static float Angle(UnityEngine::Vector3 from, UnityEngine::Vector3 to);
     // static public System.Single Distance(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x13828C8
+    // Offset: 0x139530C
     static float Distance(UnityEngine::Vector3 a, UnityEngine::Vector3 b);
     // static public UnityEngine.Vector3 ClampMagnitude(UnityEngine.Vector3 vector, System.Single maxLength)
-    // Offset: 0x138299C
+    // Offset: 0x13953E0
     static UnityEngine::Vector3 ClampMagnitude(UnityEngine::Vector3 vector, float maxLength);
     // static public System.Single Magnitude(UnityEngine.Vector3 vector)
-    // Offset: 0x1382334
+    // Offset: 0x1394D78
     static float Magnitude(UnityEngine::Vector3 vector);
     // public System.Single get_magnitude()
-    // Offset: 0xA43D64
+    // Offset: 0xA43DE0
     float get_magnitude();
     // static public System.Single SqrMagnitude(UnityEngine.Vector3 vector)
-    // Offset: 0x1382B28
+    // Offset: 0x139556C
     static float SqrMagnitude(UnityEngine::Vector3 vector);
     // public System.Single get_sqrMagnitude()
-    // Offset: 0xA43D6C
+    // Offset: 0xA43DE8
     float get_sqrMagnitude();
     // static public UnityEngine.Vector3 Min(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
-    // Offset: 0x1382B40
+    // Offset: 0x1395584
     static UnityEngine::Vector3 Min(UnityEngine::Vector3 lhs, UnityEngine::Vector3 rhs);
     // static public UnityEngine.Vector3 Max(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
-    // Offset: 0x1382C10
+    // Offset: 0x1395654
     static UnityEngine::Vector3 Max(UnityEngine::Vector3 lhs, UnityEngine::Vector3 rhs);
     // static public UnityEngine.Vector3 get_zero()
-    // Offset: 0x13823F4
+    // Offset: 0x1394E38
     static UnityEngine::Vector3 get_zero();
     // static public UnityEngine.Vector3 get_one()
-    // Offset: 0x1382CE0
+    // Offset: 0x1395724
     static UnityEngine::Vector3 get_one();
     // static public UnityEngine.Vector3 get_forward()
-    // Offset: 0x137D8D0
+    // Offset: 0x1390314
     static UnityEngine::Vector3 get_forward();
     // static public UnityEngine.Vector3 get_back()
-    // Offset: 0x1382D4C
+    // Offset: 0x1395790
     static UnityEngine::Vector3 get_back();
     // static public UnityEngine.Vector3 get_up()
-    // Offset: 0x137D77C
+    // Offset: 0x13901C0
     static UnityEngine::Vector3 get_up();
     // static public UnityEngine.Vector3 get_down()
-    // Offset: 0x1382DB8
+    // Offset: 0x13957FC
     static UnityEngine::Vector3 get_down();
     // static public UnityEngine.Vector3 get_left()
-    // Offset: 0x1382E24
+    // Offset: 0x1395868
     static UnityEngine::Vector3 get_left();
     // static public UnityEngine.Vector3 get_right()
-    // Offset: 0x137D628
+    // Offset: 0x139006C
     static UnityEngine::Vector3 get_right();
     // static public UnityEngine.Vector3 get_positiveInfinity()
-    // Offset: 0x1382E90
+    // Offset: 0x13958D4
     static UnityEngine::Vector3 get_positiveInfinity();
     // public System.String ToString(System.String format)
-    // Offset: 0xA43D94
+    // Offset: 0xA43E10
     ::CsString* ToString(::CsString* format);
     // static private System.Void .cctor()
-    // Offset: 0x13833B0
+    // Offset: 0x1395DF4
     static void _cctor();
     // static private System.Void Slerp_Injected(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single t, UnityEngine.Vector3 ret)
-    // Offset: 0x13818E8
+    // Offset: 0x139432C
     static void Slerp_Injected(UnityEngine::Vector3& a, UnityEngine::Vector3& b, float t, UnityEngine::Vector3& ret);
     // static private System.Void RotateTowards_Injected(UnityEngine.Vector3 current, UnityEngine.Vector3 target, System.Single maxRadiansDelta, System.Single maxMagnitudeDelta, UnityEngine.Vector3 ret)
-    // Offset: 0x1381B00
+    // Offset: 0x1394544
     static void RotateTowards_Injected(UnityEngine::Vector3& current, UnityEngine::Vector3& target, float maxRadiansDelta, float maxMagnitudeDelta, UnityEngine::Vector3& ret);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA43D14
+    // Offset: 0xA43D90
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA43D1C
+    // Offset: 0xA43D98
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::CsObject* other);
     // public System.Boolean Equals(UnityEngine.Vector3 other)
-    // Offset: 0xA43D24
+    // Offset: 0xA43DA0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Vector3 other)
     bool Equals(UnityEngine::Vector3 other);
     // public override System.String ToString()
-    // Offset: 0xA43D8C
+    // Offset: 0xA43E08
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
   }; // UnityEngine.Vector3
   // static public UnityEngine.Vector3 op_Addition(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-  // Offset: 0x137E1B4
+  // Offset: 0x1390BF8
   UnityEngine::Vector3 operator+(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b);
   // static public UnityEngine.Vector3 op_Subtraction(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-  // Offset: 0x1382EFC
+  // Offset: 0x1395940
   UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b);
   // static public UnityEngine.Vector3 op_UnaryNegation(UnityEngine.Vector3 a)
-  // Offset: 0x1382F0C
+  // Offset: 0x1395950
   UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a);
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.Vector3 a, System.Single d)
-  // Offset: 0x1382F1C
+  // Offset: 0x1395960
   UnityEngine::Vector3 operator*(const UnityEngine::Vector3& a, const float& d);
   // static public UnityEngine.Vector3 op_Multiply(System.Single d, UnityEngine.Vector3 a)
-  // Offset: 0x1382F2C
+  // Offset: 0x1395970
   UnityEngine::Vector3 operator*(const float& d, const UnityEngine::Vector3& a);
   // static public UnityEngine.Vector3 op_Division(UnityEngine.Vector3 a, System.Single d)
-  // Offset: 0x13823E4
+  // Offset: 0x1394E28
   UnityEngine::Vector3 operator/(const UnityEngine::Vector3& a, const float& d);
   // static public System.Boolean op_Equality(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
-  // Offset: 0x1382F40
+  // Offset: 0x1395984
   bool operator ==(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
-  // Offset: 0x1382F74
+  // Offset: 0x13959B8
   bool operator !=(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3, "UnityEngine", "Vector3");
 #pragma pack(pop)

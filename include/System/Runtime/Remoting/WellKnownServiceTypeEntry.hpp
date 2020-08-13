@@ -32,24 +32,24 @@ namespace System::Runtime::Remoting {
     // Offset: 0x30
     System::Runtime::Remoting::WellKnownObjectMode obj_mode;
     // public System.Void .ctor(System.String typeName, System.String assemblyName, System.String objectUri, System.Runtime.Remoting.WellKnownObjectMode mode)
-    // Offset: 0xE09EAC
+    // Offset: 0xE1C8F0
     static WellKnownServiceTypeEntry* New_ctor(::CsString* typeName, ::CsString* assemblyName, ::CsString* objectUri, System::Runtime::Remoting::WellKnownObjectMode mode);
     // public System.Runtime.Remoting.WellKnownObjectMode get_Mode()
-    // Offset: 0xE0A020
+    // Offset: 0xE1CA64
     System::Runtime::Remoting::WellKnownObjectMode get_Mode();
     // public System.Type get_ObjectType()
-    // Offset: 0xE0A028
+    // Offset: 0xE1CA6C
     System::Type* get_ObjectType();
     // public System.String get_ObjectUri()
-    // Offset: 0xE0A030
+    // Offset: 0xE1CA74
     ::CsString* get_ObjectUri();
     // public override System.String ToString()
-    // Offset: 0xE0A038
+    // Offset: 0xE1CA7C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
   }; // System.Runtime.Remoting.WellKnownServiceTypeEntry
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownServiceTypeEntry*, "System.Runtime.Remoting", "WellKnownServiceTypeEntry");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Xml.XmlWellFormedWriter
 #include "System/Xml/XmlWellFormedWriter.hpp"
 // Including type: System.Xml.IXmlNamespaceResolver
@@ -21,20 +19,20 @@ namespace System::Xml {
     // Offset: 0x10
     System::Xml::XmlWellFormedWriter* wfWriter;
     // System.Void .ctor(System.Xml.XmlWellFormedWriter wfWriter)
-    // Offset: 0x192AE14
+    // Offset: 0x193E858
     static XmlWellFormedWriter::NamespaceResolverProxy* New_ctor(System::Xml::XmlWellFormedWriter* wfWriter);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String prefix)
-    // Offset: 0x192AE48
+    // Offset: 0x193E88C
     // Implemented from: System.Xml.IXmlNamespaceResolver
     // Base method: System.String IXmlNamespaceResolver::LookupNamespace(System.String prefix)
     ::CsString* System_Xml_IXmlNamespaceResolver_LookupNamespace(::CsString* prefix);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String namespaceName)
-    // Offset: 0x192AE64
+    // Offset: 0x193E8A8
     // Implemented from: System.Xml.IXmlNamespaceResolver
     // Base method: System.String IXmlNamespaceResolver::LookupPrefix(System.String namespaceName)
     ::CsString* System_Xml_IXmlNamespaceResolver_LookupPrefix(::CsString* namespaceName);
   }; // System.Xml.XmlWellFormedWriter/NamespaceResolverProxy
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*, "System.Xml", "XmlWellFormedWriter/NamespaceResolverProxy");
 #pragma pack(pop)

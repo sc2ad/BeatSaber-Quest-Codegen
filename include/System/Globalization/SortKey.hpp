@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Globalization.CompareOptions
 #include "System/Globalization/CompareOptions.hpp"
 // Completed includes
@@ -28,42 +26,42 @@ namespace System::Globalization {
     // Offset: 0x24
     int lcid;
     // static public System.Int32 Compare(System.Globalization.SortKey sortkey1, System.Globalization.SortKey sortkey2)
-    // Offset: 0x110EE78
+    // Offset: 0x111F8BC
     static int Compare(System::Globalization::SortKey* sortkey1, System::Globalization::SortKey* sortkey2);
     // System.Void .ctor(System.Int32 lcid, System.String source, System.Globalization.CompareOptions opt)
-    // Offset: 0x110F008
+    // Offset: 0x111FA4C
     static SortKey* New_ctor(int lcid, ::CsString* source, System::Globalization::CompareOptions opt);
     // System.Void .ctor(System.Int32 lcid, System.String source, System.Byte[] buffer, System.Globalization.CompareOptions opt, System.Int32 lv1Length, System.Int32 lv2Length, System.Int32 lv3Length, System.Int32 kanaSmallLength, System.Int32 markTypeLength, System.Int32 katakanaLength, System.Int32 kanaWidthLength, System.Int32 identLength)
-    // Offset: 0x110F058
+    // Offset: 0x111FA9C
     static SortKey* New_ctor(int lcid, ::CsString* source, ::Array<uint8_t>* buffer, System::Globalization::CompareOptions opt, int lv1Length, int lv2Length, int lv3Length, int kanaSmallLength, int markTypeLength, int katakanaLength, int kanaWidthLength, int identLength);
     // public System.String get_OriginalString()
-    // Offset: 0x110F0C4
+    // Offset: 0x111FB08
     ::CsString* get_OriginalString();
     // public System.Byte[] get_KeyData()
-    // Offset: 0x110F0CC
+    // Offset: 0x111FB10
     ::Array<uint8_t>* get_KeyData();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x110F0D4
+    // Offset: 0x111FB18
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::CsObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x110F194
+    // Offset: 0x111FBD8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x110F208
+    // Offset: 0x111FC4C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // System.Void .ctor()
-    // Offset: 0x110F43C
+    // Offset: 0x111FE80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SortKey* New_ctor();
   }; // System.Globalization.SortKey
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", "SortKey");
 #pragma pack(pop)

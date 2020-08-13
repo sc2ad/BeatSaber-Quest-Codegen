@@ -28,18 +28,18 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // protected System.Void OnDestroy()
-    // Offset: 0xB40A50
+    // Offset: 0xB3EA50
     void OnDestroy();
     // private System.Void HandleNoteWasCut(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xB40B2C
+    // Offset: 0xB3EB2C
     void HandleNoteWasCut(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // protected override System.Void Init()
-    // Offset: 0xB40950
+    // Offset: 0xB3E950
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xB40C2C
+    // Offset: 0xB3EC2C
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static GoodCutsMissionObjectiveChecker* New_ctor();
   }; // GoodCutsMissionObjectiveChecker
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GoodCutsMissionObjectiveChecker*, "", "GoodCutsMissionObjectiveChecker");
 #pragma pack(pop)

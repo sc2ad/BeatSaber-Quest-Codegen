@@ -43,24 +43,24 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Queue`1<System.Action> _mainThreadExecutionQueue
     static void _set__mainThreadExecutionQueue(System::Collections::Generic::Queue_1<System::Action*>* value);
     // protected System.Void Update()
-    // Offset: 0xCA0A8C
+    // Offset: 0xCB34D0
     void Update();
     // public System.Void Enqueue(System.Collections.IEnumerator action)
-    // Offset: 0xCA0C04
+    // Offset: 0xCB3648
     void Enqueue(System::Collections::IEnumerator* action);
     // public System.Void Enqueue(System.Action action)
-    // Offset: 0xCA0DB0
+    // Offset: 0xCB37F4
     void Enqueue(System::Action* action);
     // private System.Collections.IEnumerator ActionCoroutine(System.Action action)
-    // Offset: 0xCA0DD8
+    // Offset: 0xCB381C
     System::Collections::IEnumerator* ActionCoroutine(System::Action* action);
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0xCA09CC
+    // Offset: 0xCB3410
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton`1::NoDomainReloadInit()
     static void NoDomainReloadInit();
     // public System.Void .ctor()
-    // Offset: 0xCA0E80
+    // Offset: 0xCB38C4
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton`1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -70,13 +70,13 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HMMainThreadDispatcher* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xCA0EF0
+    // Offset: 0xCB3934
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton`1::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HMMainThreadDispatcher
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher*, "", "HMMainThreadDispatcher");
 #pragma pack(pop)

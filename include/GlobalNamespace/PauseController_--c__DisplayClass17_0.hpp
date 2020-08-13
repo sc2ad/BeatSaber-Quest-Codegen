@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: PauseController
 #include "GlobalNamespace/PauseController.hpp"
 // Completed includes
@@ -19,15 +17,15 @@ namespace GlobalNamespace {
     // Offset: 0x10
     bool value;
     // System.Void <get_canPause>b__0(System.Boolean newValue)
-    // Offset: 0xBBF850
+    // Offset: 0xBD2294
     void $get_canPause$b__0(bool newValue);
     // public System.Void .ctor()
-    // Offset: 0xBBE9B4
+    // Offset: 0xBD13F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PauseController::$$c__DisplayClass17_0* New_ctor();
   }; // PauseController/<>c__DisplayClass17_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController::$$c__DisplayClass17_0*, "", "PauseController/<>c__DisplayClass17_0");
 #pragma pack(pop)

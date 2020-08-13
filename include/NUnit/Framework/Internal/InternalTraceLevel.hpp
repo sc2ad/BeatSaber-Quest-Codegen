@@ -62,6 +62,6 @@ namespace NUnit::Framework::Internal {
     InternalTraceLevel(int value_ = {}) : value{value_} {}
   }; // NUnit.Framework.Internal.InternalTraceLevel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTraceLevel, "NUnit.Framework.Internal", "InternalTraceLevel");
 #pragma pack(pop)

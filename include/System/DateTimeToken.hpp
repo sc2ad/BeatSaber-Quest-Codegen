@@ -30,6 +30,6 @@ namespace System {
     DateTimeToken(System::DateTimeParse::DTT dtt_ = {}, System::TokenType suffix_ = {}, int num_ = {}) : dtt{dtt_}, suffix{suffix_}, num{num_} {}
   }; // System.DateTimeToken
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeToken, "System", "DateTimeToken");
 #pragma pack(pop)

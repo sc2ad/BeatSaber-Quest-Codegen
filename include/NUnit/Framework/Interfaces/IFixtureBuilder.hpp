@@ -33,6 +33,6 @@ namespace NUnit::Framework::Interfaces {
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
   }; // NUnit.Framework.Interfaces.IFixtureBuilder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IFixtureBuilder*, "NUnit.Framework.Interfaces", "IFixtureBuilder");
 #pragma pack(pop)

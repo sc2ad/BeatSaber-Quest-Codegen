@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::ISaberModelController* saberModelController;
     // protected System.Void Awake()
-    // Offset: 0xC12D78
+    // Offset: 0xC247BC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xC12E54
+    // Offset: 0xC24898
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -42,6 +42,6 @@ namespace GlobalNamespace {
     static SaberModelContainer* New_ctor();
   }; // SaberModelContainer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelContainer*, "", "SaberModelContainer");
 #pragma pack(pop)

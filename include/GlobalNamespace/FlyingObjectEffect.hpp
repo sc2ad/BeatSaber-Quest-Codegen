@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Offset: 0x7C
     bool shake;
     // public System.Void add_didFinishEvent(System.Action`1<FlyingObjectEffect> value)
-    // Offset: 0xBDA6B4
+    // Offset: 0xBED0F8
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FlyingObjectEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FlyingObjectEffect> value)
-    // Offset: 0xBDA758
+    // Offset: 0xBED19C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::FlyingObjectEffect*>* value);
     // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, System.Boolean shake)
-    // Offset: 0xBDA7FC
+    // Offset: 0xBED240
     void InitAndPresent(float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, bool shake);
     // protected System.Void Update()
-    // Offset: 0xBDA8E8
+    // Offset: 0xBED32C
     void Update();
     // protected System.Void ManualUpdate(System.Single t)
     // Offset: 0xFFFFFFFF
     void ManualUpdate(float t);
     // protected System.Void .ctor()
-    // Offset: 0xBDABA0
+    // Offset: 0xBED5E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -91,6 +91,6 @@ namespace GlobalNamespace {
     static FlyingObjectEffect* New_ctor();
   }; // FlyingObjectEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingObjectEffect*, "", "FlyingObjectEffect");
 #pragma pack(pop)

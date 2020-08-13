@@ -46,10 +46,10 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_Keyboard_t
     VREvent_Keyboard_t(uint8_t cNewInput0_ = {}, uint8_t cNewInput1_ = {}, uint8_t cNewInput2_ = {}, uint8_t cNewInput3_ = {}, uint8_t cNewInput4_ = {}, uint8_t cNewInput5_ = {}, uint8_t cNewInput6_ = {}, uint8_t cNewInput7_ = {}, uint64_t uUserValue_ = {}) : cNewInput0{cNewInput0_}, cNewInput1{cNewInput1_}, cNewInput2{cNewInput2_}, cNewInput3{cNewInput3_}, cNewInput4{cNewInput4_}, cNewInput5{cNewInput5_}, cNewInput6{cNewInput6_}, cNewInput7{cNewInput7_}, uUserValue{uUserValue_} {}
     // public System.String get_cNewInput()
-    // Offset: 0xA29008
+    // Offset: 0xA29084
     ::CsString* get_cNewInput();
   }; // OVR.OpenVR.VREvent_Keyboard_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Keyboard_t, "OVR.OpenVR", "VREvent_Keyboard_t");
 #pragma pack(pop)

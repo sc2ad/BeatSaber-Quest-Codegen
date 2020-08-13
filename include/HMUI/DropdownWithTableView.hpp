@@ -52,49 +52,49 @@ namespace HMUI {
     // Offset: 0x3C
     bool shouldScrollToSelectedCell;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`2<HMUI.DropdownWithTableView,System.Int32> value)
-    // Offset: 0xEC31B0
+    // Offset: 0xED5BF4
     void add_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`2<HMUI.DropdownWithTableView,System.Int32> value)
-    // Offset: 0xEC3254
+    // Offset: 0xED5C98
     void remove_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);
     // public HMUI.TableView/IDataSource get_tableViewDataSource()
-    // Offset: 0xEC32F8
+    // Offset: 0xED5D3C
     HMUI::TableView::IDataSource* get_tableViewDataSource();
     // public System.Void Init(HMUI.TableView/IDataSource tableViewDataSource)
-    // Offset: 0xEC3314
+    // Offset: 0xED5D58
     void Init(HMUI::TableView::IDataSource* tableViewDataSource);
     // public System.Void ReloadData()
-    // Offset: 0xEC334C
+    // Offset: 0xED5D90
     void ReloadData();
     // public System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0xEC3388
+    // Offset: 0xED5DCC
     void SelectCellWithIdx(int idx);
     // protected System.Void Awake()
-    // Offset: 0xEC33B0
+    // Offset: 0xED5DF4
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0xEC3594
+    // Offset: 0xED5FD8
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xEC35E0
+    // Offset: 0xED6024
     void OnDestroy();
     // private System.Void OnButtonClick()
-    // Offset: 0xEC384C
+    // Offset: 0xED6290
     void OnButtonClick();
     // private System.Void HandleTableViewDidSelectCellWithIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xEC38D8
+    // Offset: 0xED631C
     void HandleTableViewDidSelectCellWithIdx(HMUI::TableView* tableView, int idx);
     // private System.Void Hide(System.Boolean animated)
-    // Offset: 0xEC359C
+    // Offset: 0xED5FE0
     void Hide(bool animated);
     // private System.Void Show(System.Boolean animated)
-    // Offset: 0xEC3854
+    // Offset: 0xED6298
     void Show(bool animated);
     // private System.Void HandleModalViewBlockerClicked()
-    // Offset: 0xEC3DF8
+    // Offset: 0xED683C
     void HandleModalViewBlockerClicked();
     // public System.Void .ctor()
-    // Offset: 0xEC3E00
+    // Offset: 0xED6844
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -104,6 +104,6 @@ namespace HMUI {
     static DropdownWithTableView* New_ctor();
   }; // HMUI.DropdownWithTableView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::DropdownWithTableView*, "HMUI", "DropdownWithTableView");
 #pragma pack(pop)

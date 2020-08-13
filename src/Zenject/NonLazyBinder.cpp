@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.NonLazyBinder
 #include "Zenject/NonLazyBinder.hpp"
 // Including type: Zenject.BindInfo

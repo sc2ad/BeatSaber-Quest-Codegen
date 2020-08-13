@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: VRTrackersRecorder/Keyframe
 #include "GlobalNamespace/VRTrackersRecorder_Keyframe.hpp"
 // Including type: UnityEngine.Vector3
@@ -29,12 +27,12 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     bool valid;
     // public System.Void .ctor()
-    // Offset: 0xC3FABC
+    // Offset: 0xC51500
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRTrackersRecorder::Keyframe::KeyframeTransform* New_ctor();
   }; // VRTrackersRecorder/Keyframe/KeyframeTransform
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*, "", "VRTrackersRecorder/Keyframe/KeyframeTransform");
 #pragma pack(pop)

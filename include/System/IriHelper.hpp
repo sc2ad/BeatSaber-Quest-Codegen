@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -21,19 +19,19 @@ namespace System {
   class IriHelper : public ::CsObject {
     public:
     // static System.Boolean CheckIriUnicodeRange(System.Char unicode, System.Boolean isQuery)
-    // Offset: 0xF53F2C
+    // Offset: 0xF65970
     static bool CheckIriUnicodeRange(::Il2CppChar unicode, bool isQuery);
     // static System.Boolean CheckIriUnicodeRange(System.Char highSurr, System.Char lowSurr, System.Boolean surrogatePair, System.Boolean isQuery)
-    // Offset: 0xF53F84
+    // Offset: 0xF659C8
     static bool CheckIriUnicodeRange(::Il2CppChar highSurr, ::Il2CppChar lowSurr, bool& surrogatePair, bool isQuery);
     // static System.Boolean CheckIsReserved(System.Char ch, System.UriComponents component)
-    // Offset: 0xF54440
+    // Offset: 0xF65E84
     static bool CheckIsReserved(::Il2CppChar ch, System::UriComponents component);
     // static System.String EscapeUnescapeIri(System.Char* pInput, System.Int32 start, System.Int32 end, System.UriComponents component)
-    // Offset: 0xF545A4
+    // Offset: 0xF65FE8
     static ::CsString* EscapeUnescapeIri(::Il2CppChar* pInput, int start, int end, System::UriComponents component);
   }; // System.IriHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IriHelper*, "System", "IriHelper");
 #pragma pack(pop)

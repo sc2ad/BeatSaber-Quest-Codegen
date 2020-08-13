@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::SceneInfo* menuViewControllersSceneInfo;
     // public System.Void Init()
-    // Offset: 0xBED1F8
+    // Offset: 0xBFEC3C
     void Init();
     // public System.Void .ctor()
-    // Offset: 0xBED364
+    // Offset: 0xBFEDA8
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -46,6 +46,6 @@ namespace GlobalNamespace {
     static MenuScenesTransitionSetupDataSO* New_ctor();
   }; // MenuScenesTransitionSetupDataSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuScenesTransitionSetupDataSO*, "", "MenuScenesTransitionSetupDataSO");
 #pragma pack(pop)

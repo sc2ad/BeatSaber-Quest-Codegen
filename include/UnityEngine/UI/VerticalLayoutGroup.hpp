@@ -14,7 +14,7 @@ namespace UnityEngine::UI {
   class VerticalLayoutGroup : public UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x191DD70
+    // Offset: 0x192E7B4
     // Implemented from: UnityEngine.UI.HorizontalOrVerticalLayoutGroup
     // Base method: System.Void HorizontalOrVerticalLayoutGroup::.ctor()
     // Base method: System.Void LayoutGroup::.ctor()
@@ -26,27 +26,27 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static VerticalLayoutGroup* New_ctor();
     // public override System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x191DD78
+    // Offset: 0x192E7BC
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public override System.Void CalculateLayoutInputVertical()
-    // Offset: 0x191DDAC
+    // Offset: 0x192E7F0
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public override System.Void SetLayoutHorizontal()
-    // Offset: 0x191DDBC
+    // Offset: 0x192E800
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public override System.Void SetLayoutVertical()
-    // Offset: 0x191DDCC
+    // Offset: 0x192E810
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();
   }; // UnityEngine.UI.VerticalLayoutGroup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VerticalLayoutGroup*, "UnityEngine.UI", "VerticalLayoutGroup");
 #pragma pack(pop)

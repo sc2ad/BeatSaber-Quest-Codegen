@@ -70,31 +70,31 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts;
     // public System.Boolean get_handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts()
-    // Offset: 0xC34460
+    // Offset: 0xC45EA4
     bool get_handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts();
     // public System.Void set_handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts(System.Boolean value)
-    // Offset: 0xC34468
+    // Offset: 0xC45EAC
     void set_handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts(bool value);
     // protected System.Void Start()
-    // Offset: 0xC34474
+    // Offset: 0xC45EB8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC34554
+    // Offset: 0xC45F98
     void OnDestroy();
     // private System.Void HandleNoteWasCut(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC34678
+    // Offset: 0xC460BC
     void HandleNoteWasCut(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnNoteCutEffect(UnityEngine.Vector3 pos, INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC34AE4
+    // Offset: 0xC46528
     void SpawnNoteCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnBombCutEffect(UnityEngine.Vector3 pos, INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC34900
+    // Offset: 0xC46344
     void SpawnBombCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void HandleNoteWasMissed(INoteController noteController)
-    // Offset: 0xC34F9C
+    // Offset: 0xC469E0
     void HandleNoteWasMissed(GlobalNamespace::INoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0xC350C0
+    // Offset: 0xC46B04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -104,6 +104,6 @@ namespace GlobalNamespace {
     static TutorialNoteCutEffectSpawner* New_ctor();
   }; // TutorialNoteCutEffectSpawner
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoteCutEffectSpawner*, "", "TutorialNoteCutEffectSpawner");
 #pragma pack(pop)

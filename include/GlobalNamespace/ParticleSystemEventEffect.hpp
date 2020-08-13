@@ -88,22 +88,22 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     float particleSpeed;
     // protected System.Void Start()
-    // Offset: 0xBBD034
+    // Offset: 0xBCFA78
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xBBD2E8
+    // Offset: 0xBCFD2C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBBD3C0
+    // Offset: 0xBCFE04
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBBD4E4
+    // Offset: 0xBCFF28
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0xBBD1AC
+    // Offset: 0xBCFBF0
     void RefreshParticles();
     // public System.Void .ctor()
-    // Offset: 0xBBD6CC
+    // Offset: 0xBD0110
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -113,6 +113,6 @@ namespace GlobalNamespace {
     static ParticleSystemEventEffect* New_ctor();
   }; // ParticleSystemEventEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemEventEffect*, "", "ParticleSystemEventEffect");
 #pragma pack(pop)

@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Internal.Commands.TestCommand
 #include "NUnit/Framework/Internal/Commands/TestCommand.hpp"
 // Completed includes
@@ -16,13 +17,13 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x18
     NUnit::Framework::Internal::Commands::TestCommand* innerCommand;
     // public NUnit.Framework.Internal.Commands.TestCommand GetInnerCommand()
-    // Offset: 0x1072224
+    // Offset: 0x1081C68
     NUnit::Framework::Internal::Commands::TestCommand* GetInnerCommand();
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x1071C74
+    // Offset: 0x10816B8
     static DelegatingTestCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand);
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::DelegatingTestCommand*, "NUnit.Framework.Internal.Commands", "DelegatingTestCommand");
 #pragma pack(pop)

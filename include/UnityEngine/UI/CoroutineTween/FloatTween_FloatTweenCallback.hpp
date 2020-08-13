@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine/Events/UnityEvent_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.CoroutineTween.FloatTween
 #include "UnityEngine/UI/CoroutineTween/FloatTween.hpp"
+// Including type: UnityEngine.Events.UnityEvent`1
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI.CoroutineTween
 namespace UnityEngine::UI::CoroutineTween {
@@ -15,7 +16,7 @@ namespace UnityEngine::UI::CoroutineTween {
   class FloatTween::FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xDF2260
+    // Offset: 0xE04CA4
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -23,6 +24,6 @@ namespace UnityEngine::UI::CoroutineTween {
     static FloatTween::FloatTweenCallback* New_ctor();
   }; // UnityEngine.UI.CoroutineTween.FloatTween/FloatTweenCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback*, "UnityEngine.UI.CoroutineTween", "FloatTween/FloatTweenCallback");
 #pragma pack(pop)

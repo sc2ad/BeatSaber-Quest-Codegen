@@ -28,6 +28,6 @@ namespace OVR::OpenVR {
     InputPoseActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, OVR::OpenVR::TrackedDevicePose_t pose_ = {}) : bActive{bActive_}, activeOrigin{activeOrigin_}, pose{pose_} {}
   }; // OVR.OpenVR.InputPoseActionData_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputPoseActionData_t, "OVR.OpenVR", "InputPoseActionData_t");
 #pragma pack(pop)

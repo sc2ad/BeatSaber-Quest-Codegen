@@ -4,10 +4,10 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: PyramidBloomRendererSO
 #include "GlobalNamespace/PyramidBloomRendererSO.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -31,6 +31,6 @@ namespace GlobalNamespace {
     Level(UnityEngine::RenderTexture* down_ = {}, UnityEngine::RenderTexture* up_ = {}) : down{down_}, up{up_} {}
   }; // PyramidBloomRendererSO/Level
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO::Level, "", "PyramidBloomRendererSO/Level");
 #pragma pack(pop)

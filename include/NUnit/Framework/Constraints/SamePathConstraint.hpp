@@ -14,23 +14,23 @@ namespace NUnit::Framework::Constraints {
   class SamePathConstraint : public NUnit::Framework::Constraints::PathConstraint {
     public:
     // public System.Void .ctor(System.String expected)
-    // Offset: 0x1068A20
+    // Offset: 0x1078464
     // Implemented from: NUnit.Framework.Constraints.PathConstraint
     // Base method: System.Void PathConstraint::.ctor(System.String expected)
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
     static SamePathConstraint* New_ctor(::CsString* expected);
     // public override System.String get_Description()
-    // Offset: 0x106A400
+    // Offset: 0x1079E44
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.String StringConstraint::get_Description()
     ::CsString* get_Description();
     // protected override System.Boolean Matches(System.String actual)
-    // Offset: 0x106A484
+    // Offset: 0x1079EC8
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Boolean StringConstraint::Matches(System.String actual)
     bool Matches(::CsString* actual);
   }; // NUnit.Framework.Constraints.SamePathConstraint
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::SamePathConstraint*, "NUnit.Framework.Constraints", "SamePathConstraint");
 #pragma pack(pop)

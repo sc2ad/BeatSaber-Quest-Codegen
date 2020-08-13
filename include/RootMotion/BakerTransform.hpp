@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
@@ -68,31 +66,31 @@ namespace RootMotion {
     // Offset: 0x6C
     UnityEngine::Quaternion relativeRotation;
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Transform root, System.Boolean recordPosition, System.Boolean isRootNode)
-    // Offset: 0x13886E0
+    // Offset: 0x139A124
     static BakerTransform* New_ctor(UnityEngine::Transform* transform, UnityEngine::Transform* root, bool recordPosition, bool isRootNode);
     // public System.Void SetRelativeSpace(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x13888D8
+    // Offset: 0x139A31C
     void SetRelativeSpace(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void SetCurves(UnityEngine.AnimationClip clip)
-    // Offset: 0x13888EC
+    // Offset: 0x139A330
     void SetCurves(UnityEngine::AnimationClip*& clip);
     // private System.Void AddRootMotionCurves(UnityEngine.AnimationClip clip)
-    // Offset: 0x1388B7C
+    // Offset: 0x139A5C0
     void AddRootMotionCurves(UnityEngine::AnimationClip*& clip);
     // public System.Void Reset()
-    // Offset: 0x1388790
+    // Offset: 0x139A1D4
     void Reset();
     // public System.Void ReduceKeyframes(System.Single maxError)
-    // Offset: 0x1388DC8
+    // Offset: 0x139A80C
     void ReduceKeyframes(float maxError);
     // public System.Void SetKeyframes(System.Single time)
-    // Offset: 0x1388E3C
+    // Offset: 0x139A880
     void SetKeyframes(float time);
     // public System.Void AddLoopFrame(System.Single time)
-    // Offset: 0x1389088
+    // Offset: 0x139AACC
     void AddLoopFrame(float time);
   }; // RootMotion.BakerTransform
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerTransform*, "RootMotion", "BakerTransform");
 #pragma pack(pop)

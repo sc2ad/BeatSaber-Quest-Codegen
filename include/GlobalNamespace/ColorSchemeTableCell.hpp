@@ -51,32 +51,32 @@ namespace GlobalNamespace {
     // Offset: 0x80
     UnityEngine::UI::Image* editIcon;
     // public System.Void set_text(System.String value)
-    // Offset: 0xB63124
+    // Offset: 0xB61124
     void set_text(::CsString* value);
     // public System.String get_text()
-    // Offset: 0xB63140
+    // Offset: 0xB61140
     ::CsString* get_text();
     // public System.Void set_showEditIcon(System.Boolean value)
-    // Offset: 0xB6315C
+    // Offset: 0xB6115C
     void set_showEditIcon(bool value);
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0xB6317C
+    // Offset: 0xB6117C
     void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);
     // private System.Void RefreshVisuals()
-    // Offset: 0xB631D0
+    // Offset: 0xB611D0
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xB631CC
+    // Offset: 0xB611CC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xB632DC
+    // Offset: 0xB612DC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xB632E0
+    // Offset: 0xB612E0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -88,6 +88,6 @@ namespace GlobalNamespace {
     static ColorSchemeTableCell* New_ctor();
   }; // ColorSchemeTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeTableCell*, "", "ColorSchemeTableCell");
 #pragma pack(pop)

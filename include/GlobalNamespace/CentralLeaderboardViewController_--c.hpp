@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: CentralLeaderboardViewController
 #include "GlobalNamespace/CentralLeaderboardViewController.hpp"
 // Including type: HMUI.IconSegmentedControl
@@ -41,21 +39,21 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<CentralLeaderboardViewController/ScoreScopeInfo,HMUI.IconSegmentedControl/DataItem> <>9__18_1
     static void _set_$$9__18_1(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, HMUI::IconSegmentedControl::DataItem*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB60C14
+    // Offset: 0xB5EC14
     static void _cctor();
     // System.String <DidActivate>b__18_0(CentralLeaderboardViewController/LeaderboardPanel x)
-    // Offset: 0xB60C84
+    // Offset: 0xB5EC84
     ::CsString* $DidActivate$b__18_0(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
     // HMUI.IconSegmentedControl/DataItem <DidActivate>b__18_1(CentralLeaderboardViewController/ScoreScopeInfo x)
-    // Offset: 0xB60C9C
+    // Offset: 0xB5EC9C
     HMUI::IconSegmentedControl::DataItem* $DidActivate$b__18_1(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
     // public System.Void .ctor()
-    // Offset: 0xB60C7C
+    // Offset: 0xB5EC7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CentralLeaderboardViewController::$$c* New_ctor();
   }; // CentralLeaderboardViewController/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::$$c*, "", "CentralLeaderboardViewController/<>c");
 #pragma pack(pop)

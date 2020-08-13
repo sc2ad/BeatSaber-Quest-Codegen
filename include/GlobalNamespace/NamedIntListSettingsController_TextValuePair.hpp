@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: NamedIntListSettingsController
 #include "GlobalNamespace/NamedIntListSettingsController.hpp"
 // Completed includes
@@ -22,15 +20,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int value;
     // public System.String get_localizedText()
-    // Offset: 0xBFA8B8
+    // Offset: 0xC0C2FC
     ::CsString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0xBFA8CC
+    // Offset: 0xC0C310
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NamedIntListSettingsController::TextValuePair* New_ctor();
   }; // NamedIntListSettingsController/TextValuePair
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController::TextValuePair*, "", "NamedIntListSettingsController/TextValuePair");
 #pragma pack(pop)

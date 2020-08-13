@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Uri
 #include "System/Uri.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -43,6 +43,6 @@ namespace System {
     Offset(uint16_t Scheme_ = {}, uint16_t User_ = {}, uint16_t Host_ = {}, uint16_t PortValue_ = {}, uint16_t Path_ = {}, uint16_t Query_ = {}, uint16_t Fragment_ = {}, uint16_t End_ = {}) : Scheme{Scheme_}, User{User_}, Host{Host_}, PortValue{PortValue_}, Path{Path_}, Query{Query_}, Fragment{Fragment_}, End{End_} {}
   }; // System.Uri/Offset
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::Offset, "System", "Uri/Offset");
 #pragma pack(pop)

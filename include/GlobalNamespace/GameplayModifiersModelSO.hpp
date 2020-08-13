@@ -71,28 +71,28 @@ namespace GlobalNamespace {
     // Offset: 0x80
     GlobalNamespace::GameplayModifierParamsSO* demoNoFail;
     // public System.Boolean GetModifierBoolValue(GameplayModifiers gameplayModifiers, GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0xB3EDF4
+    // Offset: 0xB3CDF4
     bool GetModifierBoolValue(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // public System.Void SetModifierBoolValue(GameplayModifiers gameplayModifiers, GameplayModifierParamsSO gameplayModifierParams, System.Boolean value)
-    // Offset: 0xB3F1B8
+    // Offset: 0xB3D1B8
     void SetModifierBoolValue(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> GetModifierParams(GameplayModifiers gameplayModifiers)
-    // Offset: 0xB3F660
+    // Offset: 0xB3D660
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* GetModifierParams(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Single GetTotalMultiplier(GameplayModifiers gameplayModifiers)
-    // Offset: 0xB3F8E4
+    // Offset: 0xB3D8E4
     float GetTotalMultiplier(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, GameplayModifiers gameplayModifiers)
-    // Offset: 0xB3FA00
+    // Offset: 0xB3DA00
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel)
-    // Offset: 0xB3FA58
+    // Offset: 0xB3DA58
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel);
     // private System.Int32 GetModifiedScoreForGameplayModifiers(System.Int32 rawScore, GameplayModifiers gameplayModifiers)
-    // Offset: 0xB3FA2C
+    // Offset: 0xB3DA2C
     int GetModifiedScoreForGameplayModifiers(int rawScore, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0xB3FA84
+    // Offset: 0xB3DA84
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -101,6 +101,6 @@ namespace GlobalNamespace {
     static GameplayModifiersModelSO* New_ctor();
   }; // GameplayModifiersModelSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO*, "", "GameplayModifiersModelSO");
 #pragma pack(pop)

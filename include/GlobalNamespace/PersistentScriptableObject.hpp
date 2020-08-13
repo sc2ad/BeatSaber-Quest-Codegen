@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class PersistentScriptableObject : public UnityEngine::ScriptableObject {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0xC98184
+    // Offset: 0xCAABC8
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0xCA54D4
+    // Offset: 0xCB7F18
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -25,6 +25,6 @@ namespace GlobalNamespace {
     static PersistentScriptableObject* New_ctor();
   }; // PersistentScriptableObject
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PersistentScriptableObject*, "", "PersistentScriptableObject");
 #pragma pack(pop)

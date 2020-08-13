@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::GameObject* prefab;
     // protected System.Void Awake()
-    // Offset: 0xCA1BF8
+    // Offset: 0xCB463C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xCA1CF8
+    // Offset: 0xCB473C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -37,6 +37,6 @@ namespace GlobalNamespace {
     static InstantiatePrefab* New_ctor();
   }; // InstantiatePrefab
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantiatePrefab*, "", "InstantiatePrefab");
 #pragma pack(pop)

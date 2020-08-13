@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: UnityEngine.Vector3
@@ -92,66 +90,66 @@ namespace UnityEngine::UI {
     // Offset: 0x58
     bool m_ListsInitalized;
     // public System.Void .ctor(UnityEngine.Mesh m)
-    // Offset: 0x191CAC8
+    // Offset: 0x192D50C
     static VertexHelper* New_ctor(UnityEngine::Mesh* m);
     // private System.Void InitializeListIfRequired()
-    // Offset: 0x191CCA4
+    // Offset: 0x192D6E8
     void InitializeListIfRequired();
     // public System.Void Clear()
-    // Offset: 0x191B600
+    // Offset: 0x192C044
     void Clear();
     // public System.Int32 get_currentVertCount()
-    // Offset: 0x191D114
+    // Offset: 0x192DB58
     int get_currentVertCount();
     // public System.Int32 get_currentIndexCount()
-    // Offset: 0x191D168
+    // Offset: 0x192DBAC
     int get_currentIndexCount();
     // public System.Void PopulateUIVertex(UnityEngine.UIVertex vertex, System.Int32 i)
-    // Offset: 0x191D1BC
+    // Offset: 0x192DC00
     void PopulateUIVertex(UnityEngine::UIVertex& vertex, int i);
     // public System.Void SetUIVertex(UnityEngine.UIVertex vertex, System.Int32 i)
-    // Offset: 0x191D39C
+    // Offset: 0x192DDE0
     void SetUIVertex(UnityEngine::UIVertex vertex, int i);
     // public System.Void FillMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x191D4E8
+    // Offset: 0x192DF2C
     void FillMesh(UnityEngine::Mesh* mesh);
     // public System.Void AddVert(UnityEngine.Vector3 position, UnityEngine.Color32 color, UnityEngine.Vector2 uv0, UnityEngine.Vector2 uv1, UnityEngine.Vector2 uv2, UnityEngine.Vector2 uv3, UnityEngine.Vector3 normal, UnityEngine.Vector4 tangent)
-    // Offset: 0x191D64C
+    // Offset: 0x192E090
     void AddVert(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector2 uv0, UnityEngine::Vector2 uv1, UnityEngine::Vector2 uv2, UnityEngine::Vector2 uv3, UnityEngine::Vector3 normal, UnityEngine::Vector4 tangent);
     // public System.Void AddVert(UnityEngine.Vector3 position, UnityEngine.Color32 color, UnityEngine.Vector2 uv0, UnityEngine.Vector2 uv1, UnityEngine.Vector3 normal, UnityEngine.Vector4 tangent)
-    // Offset: 0x191D80C
+    // Offset: 0x192E250
     void AddVert(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector2 uv0, UnityEngine::Vector2 uv1, UnityEngine::Vector3 normal, UnityEngine::Vector4 tangent);
     // public System.Void AddVert(UnityEngine.Vector3 position, UnityEngine.Color32 color, UnityEngine.Vector2 uv0)
-    // Offset: 0x191D918
+    // Offset: 0x192E35C
     void AddVert(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector2 uv0);
     // public System.Void AddVert(UnityEngine.UIVertex v)
-    // Offset: 0x191DA48
+    // Offset: 0x192E48C
     void AddVert(UnityEngine::UIVertex v);
     // public System.Void AddTriangle(System.Int32 idx0, System.Int32 idx1, System.Int32 idx2)
-    // Offset: 0x191DAB8
+    // Offset: 0x192E4FC
     void AddTriangle(int idx0, int idx1, int idx2);
     // public System.Void AddUIVertexQuad(UnityEngine.UIVertex[] verts)
-    // Offset: 0x191B718
+    // Offset: 0x192C15C
     void AddUIVertexQuad(::Array<UnityEngine::UIVertex>* verts);
     // public System.Void AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, System.Collections.Generic.List`1<System.Int32> indices)
-    // Offset: 0x191DB60
+    // Offset: 0x192E5A4
     void AddUIVertexStream(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, System::Collections::Generic::List_1<int>* indices);
     // public System.Void AddUIVertexTriangleStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts)
-    // Offset: 0x191DC14
+    // Offset: 0x192E658
     void AddUIVertexTriangleStream(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts);
     // public System.Void GetUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> stream)
-    // Offset: 0x191DC68
+    // Offset: 0x192E6AC
     void GetUIVertexStream(System::Collections::Generic::List_1<UnityEngine::UIVertex>* stream);
     // static private System.Void .cctor()
-    // Offset: 0x191DCBC
+    // Offset: 0x192E700
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x191CAC0
+    // Offset: 0x192D504
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VertexHelper* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x191CEA0
+    // Offset: 0x192D8E4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -160,6 +158,6 @@ namespace UnityEngine::UI {
     void System_IDisposable_Dispose();
   }; // UnityEngine.UI.VertexHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VertexHelper*, "UnityEngine.UI", "VertexHelper");
 #pragma pack(pop)

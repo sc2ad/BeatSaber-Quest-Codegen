@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RootMotion.FinalIK.FullBodyBipedEffector
 #include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
 // Including type: UnityEngine.Vector3
@@ -154,67 +152,67 @@ namespace RootMotion::FinalIK {
     // Offset: 0xC8
     bool started;
     // public RootMotion.FinalIK.FullBodyBipedEffector get_effectorType()
-    // Offset: 0x1432234
+    // Offset: 0x1441C78
     RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
     // private System.Void set_effectorType(RootMotion.FinalIK.FullBodyBipedEffector value)
-    // Offset: 0x143223C
+    // Offset: 0x1441C80
     void set_effectorType(RootMotion::FinalIK::FullBodyBipedEffector value);
     // public System.Boolean get_isPaused()
-    // Offset: 0x1432244
+    // Offset: 0x1441C88
     bool get_isPaused();
     // private System.Void set_isPaused(System.Boolean value)
-    // Offset: 0x143224C
+    // Offset: 0x1441C90
     void set_isPaused(bool value);
     // public RootMotion.FinalIK.InteractionObject get_interactionObject()
-    // Offset: 0x1432258
+    // Offset: 0x1441C9C
     RootMotion::FinalIK::InteractionObject* get_interactionObject();
     // private System.Void set_interactionObject(RootMotion.FinalIK.InteractionObject value)
-    // Offset: 0x1432260
+    // Offset: 0x1441CA4
     void set_interactionObject(RootMotion::FinalIK::InteractionObject* value);
     // public System.Boolean get_inInteraction()
-    // Offset: 0x1432268
+    // Offset: 0x1441CAC
     bool get_inInteraction();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x14322D8
+    // Offset: 0x1441D1C
     static InteractionEffector* New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Void Initiate(RootMotion.FinalIK.InteractionSystem interactionSystem)
-    // Offset: 0x1432368
+    // Offset: 0x1441DAC
     void Initiate(RootMotion::FinalIK::InteractionSystem* interactionSystem);
     // private System.Void StoreDefaults()
-    // Offset: 0x1432438
+    // Offset: 0x1441E7C
     void StoreDefaults();
     // public System.Boolean ResetToDefaults(System.Single speed)
-    // Offset: 0x14325B0
+    // Offset: 0x1441FF4
     bool ResetToDefaults(float speed);
     // public System.Boolean Pause()
-    // Offset: 0x1432A60
+    // Offset: 0x14424A4
     bool Pause();
     // public System.Boolean Resume()
-    // Offset: 0x1432E18
+    // Offset: 0x144285C
     bool Resume();
     // public System.Boolean Start(RootMotion.FinalIK.InteractionObject interactionObject, System.String tag, System.Single fadeInTime, System.Boolean interrupt)
-    // Offset: 0x1432E6C
+    // Offset: 0x14428B0
     bool Start(RootMotion::FinalIK::InteractionObject* interactionObject, ::CsString* tag, float fadeInTime, bool interrupt);
     // public System.Void Update(UnityEngine.Transform root, System.Single speed)
-    // Offset: 0x1433A1C
+    // Offset: 0x1443460
     void Update(UnityEngine::Transform* root, float speed);
     // public System.Single get_progress()
-    // Offset: 0x1434D18
+    // Offset: 0x144475C
     float get_progress();
     // private System.Void TriggerUntriggeredEvents(System.Boolean checkTime, System.Boolean pickUp, System.Boolean pause)
-    // Offset: 0x1434544
+    // Offset: 0x1443F88
     void TriggerUntriggeredEvents(bool checkTime, bool& pickUp, bool& pause);
     // private System.Void PickUp(UnityEngine.Transform root)
-    // Offset: 0x143476C
+    // Offset: 0x14441B0
     void PickUp(UnityEngine::Transform* root);
     // public System.Boolean Stop()
-    // Offset: 0x1434BA8
+    // Offset: 0x14445EC
     bool Stop();
     // public System.Void OnPostFBBIK()
-    // Offset: 0x14351F4
+    // Offset: 0x1444C38
     void OnPostFBBIK();
   }; // RootMotion.FinalIK.InteractionEffector
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionEffector*, "RootMotion.FinalIK", "InteractionEffector");
 #pragma pack(pop)

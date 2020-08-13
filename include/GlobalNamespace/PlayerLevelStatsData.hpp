@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: RankModel/Rank
 #include "GlobalNamespace/RankModel_Rank.hpp"
 // Including type: BeatmapDifficulty
@@ -52,46 +50,46 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // public System.String get_levelID()
-    // Offset: 0xBC9994
+    // Offset: 0xBDC3D8
     ::CsString* get_levelID();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0xBC999C
+    // Offset: 0xBDC3E0
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0xBC99A4
+    // Offset: 0xBDC3E8
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Int32 get_highScore()
-    // Offset: 0xBC99AC
+    // Offset: 0xBDC3F0
     int get_highScore();
     // public System.Int32 get_maxCombo()
-    // Offset: 0xBC99B4
+    // Offset: 0xBDC3F8
     int get_maxCombo();
     // public System.Boolean get_fullCombo()
-    // Offset: 0xBC99BC
+    // Offset: 0xBDC400
     bool get_fullCombo();
     // public RankModel/Rank get_maxRank()
-    // Offset: 0xBC99C4
+    // Offset: 0xBDC408
     GlobalNamespace::RankModel::Rank get_maxRank();
     // public System.Boolean get_validScore()
-    // Offset: 0xBC99CC
+    // Offset: 0xBDC410
     bool get_validScore();
     // public System.Int32 get_playCount()
-    // Offset: 0xBC99D4
+    // Offset: 0xBDC418
     int get_playCount();
     // public System.Void .ctor(System.String levelID, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xBC5908
+    // Offset: 0xBD834C
     static PlayerLevelStatsData* New_ctor(::CsString* levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void .ctor(System.String levelID, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Int32 highScore, System.Int32 maxCombo, System.Boolean fullCombo, RankModel/Rank maxRank, System.Boolean validScore, System.Int32 playCount)
-    // Offset: 0xBC860C
+    // Offset: 0xBDB050
     static PlayerLevelStatsData* New_ctor(::CsString* levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, int highScore, int maxCombo, bool fullCombo, GlobalNamespace::RankModel::Rank maxRank, bool validScore, int playCount);
     // public System.Void UpdateScoreData(System.Int32 score, System.Int32 maxCombo, System.Boolean fullCombo, RankModel/Rank rank)
-    // Offset: 0xBC99DC
+    // Offset: 0xBDC420
     void UpdateScoreData(int score, int maxCombo, bool fullCombo, GlobalNamespace::RankModel::Rank rank);
     // public System.Void IncreaseNumberOfGameplays()
-    // Offset: 0xBC9AC0
+    // Offset: 0xBDC504
     void IncreaseNumberOfGameplays();
   }; // PlayerLevelStatsData
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLevelStatsData*, "", "PlayerLevelStatsData");
 #pragma pack(pop)

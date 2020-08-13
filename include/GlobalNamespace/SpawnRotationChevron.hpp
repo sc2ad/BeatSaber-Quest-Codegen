@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::SpawnRotationChevron::InitData* initData;
     // protected System.Void Start()
-    // Offset: 0xB87A78
+    // Offset: 0xB994BC
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xB87B4C
+    // Offset: 0xB99590
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -48,6 +48,6 @@ namespace GlobalNamespace {
     static SpawnRotationChevron* New_ctor();
   }; // SpawnRotationChevron
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevron*, "", "SpawnRotationChevron");
 #pragma pack(pop)

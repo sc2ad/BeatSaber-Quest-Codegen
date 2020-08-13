@@ -74,58 +74,58 @@ namespace UnityEngine::UI {
     // Offset: 0x50
     System::Collections::Generic::List_1<UnityEngine::RectTransform*>* m_RectChildren;
     // public UnityEngine.RectOffset get_padding()
-    // Offset: 0x11E84A0
+    // Offset: 0x11F9EE4
     UnityEngine::RectOffset* get_padding();
     // public System.Void set_padding(UnityEngine.RectOffset value)
-    // Offset: 0x11E84A8
+    // Offset: 0x11F9EEC
     void set_padding(UnityEngine::RectOffset* value);
     // public UnityEngine.TextAnchor get_childAlignment()
-    // Offset: 0x11E850C
+    // Offset: 0x11F9F50
     UnityEngine::TextAnchor get_childAlignment();
     // public System.Void set_childAlignment(UnityEngine.TextAnchor value)
-    // Offset: 0x11E8514
+    // Offset: 0x11F9F58
     void set_childAlignment(UnityEngine::TextAnchor value);
     // protected UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x11E8578
+    // Offset: 0x11F9FBC
     UnityEngine::RectTransform* get_rectTransform();
     // protected System.Collections.Generic.List`1<UnityEngine.RectTransform> get_rectChildren()
-    // Offset: 0x11E8624
+    // Offset: 0x11FA068
     System::Collections::Generic::List_1<UnityEngine::RectTransform*>* get_rectChildren();
     // protected System.Single GetTotalMinSize(System.Int32 axis)
-    // Offset: 0x11E894C
+    // Offset: 0x11FA390
     float GetTotalMinSize(int axis);
     // protected System.Single GetTotalPreferredSize(System.Int32 axis)
-    // Offset: 0x11E8968
+    // Offset: 0x11FA3AC
     float GetTotalPreferredSize(int axis);
     // protected System.Single GetTotalFlexibleSize(System.Int32 axis)
-    // Offset: 0x11E8984
+    // Offset: 0x11FA3C8
     float GetTotalFlexibleSize(int axis);
     // protected System.Single GetStartOffset(System.Int32 axis, System.Single requiredSpaceWithoutPadding)
-    // Offset: 0x11E8CA4
+    // Offset: 0x11FA6E8
     float GetStartOffset(int axis, float requiredSpaceWithoutPadding);
     // protected System.Single GetAlignmentOnAxis(System.Int32 axis)
-    // Offset: 0x11E8DC8
+    // Offset: 0x11FA80C
     float GetAlignmentOnAxis(int axis);
     // protected System.Void SetLayoutInputForAxis(System.Single totalMin, System.Single totalPreferred, System.Single totalFlexible, System.Int32 axis)
-    // Offset: 0x11E8E14
+    // Offset: 0x11FA858
     void SetLayoutInputForAxis(float totalMin, float totalPreferred, float totalFlexible, int axis);
     // protected System.Void SetChildAlongAxis(UnityEngine.RectTransform rect, System.Int32 axis, System.Single pos)
-    // Offset: 0x11E8E74
+    // Offset: 0x11FA8B8
     void SetChildAlongAxis(UnityEngine::RectTransform* rect, int axis, float pos);
     // protected System.Void SetChildAlongAxisWithScale(UnityEngine.RectTransform rect, System.Int32 axis, System.Single pos, System.Single scaleFactor)
-    // Offset: 0x11E8F2C
+    // Offset: 0x11FA970
     void SetChildAlongAxisWithScale(UnityEngine::RectTransform* rect, int axis, float pos, float scaleFactor);
     // protected System.Void SetChildAlongAxis(UnityEngine.RectTransform rect, System.Int32 axis, System.Single pos, System.Single size)
-    // Offset: 0x11E90EC
+    // Offset: 0x11FAB30
     void SetChildAlongAxis(UnityEngine::RectTransform* rect, int axis, float pos, float size);
     // protected System.Void SetChildAlongAxisWithScale(UnityEngine.RectTransform rect, System.Int32 axis, System.Single pos, System.Single size, System.Single scaleFactor)
-    // Offset: 0x11E91AC
+    // Offset: 0x11FABF0
     void SetChildAlongAxisWithScale(UnityEngine::RectTransform* rect, int axis, float pos, float size, float scaleFactor);
     // private System.Boolean get_isRootLayoutGroup()
-    // Offset: 0x11E9380
+    // Offset: 0x11FADC4
     bool get_isRootLayoutGroup();
     // protected System.Void OnTransformChildrenChanged()
-    // Offset: 0x11E950C
+    // Offset: 0x11FAF50
     void OnTransformChildrenChanged();
     // protected System.Void SetProperty(T currentValue, T newValue)
     // Offset: 0xFFFFFFFF
@@ -134,13 +134,13 @@ namespace UnityEngine::UI {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetProperty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, currentValue, newValue));
     }
     // protected System.Void SetDirty()
-    // Offset: 0x11E8B24
+    // Offset: 0x11FA568
     void SetDirty();
     // private System.Collections.IEnumerator DelayedSetDirty(UnityEngine.RectTransform rectTransform)
-    // Offset: 0x11E9510
+    // Offset: 0x11FAF54
     System::Collections::IEnumerator* DelayedSetDirty(UnityEngine::RectTransform* rectTransform);
     // public System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x11E862C
+    // Offset: 0x11FA070
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
@@ -150,37 +150,37 @@ namespace UnityEngine::UI {
     // Base method: System.Void ILayoutElement::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public System.Single get_minWidth()
-    // Offset: 0x11E893C
+    // Offset: 0x11FA380
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minWidth()
     float get_minWidth();
     // public System.Single get_preferredWidth()
-    // Offset: 0x11E8958
+    // Offset: 0x11FA39C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredWidth()
     float get_preferredWidth();
     // public System.Single get_flexibleWidth()
-    // Offset: 0x11E8974
+    // Offset: 0x11FA3B8
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleWidth()
     float get_flexibleWidth();
     // public System.Single get_minHeight()
-    // Offset: 0x11E8990
+    // Offset: 0x11FA3D4
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minHeight()
     float get_minHeight();
     // public System.Single get_preferredHeight()
-    // Offset: 0x11E89A0
+    // Offset: 0x11FA3E4
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredHeight()
     float get_preferredHeight();
     // public System.Single get_flexibleHeight()
-    // Offset: 0x11E89B0
+    // Offset: 0x11FA3F4
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleHeight()
     float get_flexibleHeight();
     // public System.Int32 get_layoutPriority()
-    // Offset: 0x11E89C0
+    // Offset: 0x11FA404
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Int32 ILayoutElement::get_layoutPriority()
     int get_layoutPriority();
@@ -195,7 +195,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();
     // protected System.Void .ctor()
-    // Offset: 0x11E89C8
+    // Offset: 0x11FA40C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -205,22 +205,22 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static LayoutGroup* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x11E8AFC
+    // Offset: 0x11FA540
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x11E8C14
+    // Offset: 0x11FA658
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x11E8CA0
+    // Offset: 0x11FA6E4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x11E94CC
+    // Offset: 0x11FAF10
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();

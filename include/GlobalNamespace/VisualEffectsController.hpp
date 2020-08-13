@@ -35,16 +35,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDepthTextureEnabledKeyword
     static void _set_kDepthTextureEnabledKeyword(::CsString* value);
     // protected System.Void Awake()
-    // Offset: 0x18FBF40
+    // Offset: 0x190B984
     void Awake();
     // protected System.Void OnPreRender()
-    // Offset: 0x18FBFC4
+    // Offset: 0x190BA08
     void OnPreRender();
     // private System.Void SetShaderKeyword(System.String keyword, System.Boolean value)
-    // Offset: 0x18FC044
+    // Offset: 0x190BA88
     void SetShaderKeyword(::CsString* keyword, bool value);
     // public System.Void .ctor()
-    // Offset: 0x18FC058
+    // Offset: 0x190BA9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -54,6 +54,6 @@ namespace GlobalNamespace {
     static VisualEffectsController* New_ctor();
   }; // VisualEffectsController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualEffectsController*, "", "VisualEffectsController");
 #pragma pack(pop)

@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: Valve.VR.CVRSystem
 #include "Valve/VR/CVRSystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: Valve.VR.IVRSystem
 #include "Valve/VR/IVRSystem.hpp"
 // Completed includes
@@ -27,6 +27,6 @@ namespace Valve::VR {
     GetControllerStateUnion(Valve::VR::IVRSystem::_GetControllerState* pGetControllerState_ = {}, Valve::VR::CVRSystem::_GetControllerStatePacked* pGetControllerStatePacked_ = {}) : pGetControllerState{pGetControllerState_}, pGetControllerStatePacked{pGetControllerStatePacked_} {}
   }; // Valve.VR.CVRSystem/GetControllerStateUnion
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem::GetControllerStateUnion, "Valve.VR", "CVRSystem/GetControllerStateUnion");
 #pragma pack(pop)

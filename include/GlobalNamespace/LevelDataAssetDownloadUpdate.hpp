@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     static LevelDataAssetDownloadUpdate* New_ctor(::CsString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);
   }; // LevelDataAssetDownloadUpdate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate, "", "LevelDataAssetDownloadUpdate");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState, "", "LevelDataAssetDownloadUpdate/AssetDownloadingState");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.LogType
 #include "UnityEngine/LogType.hpp"
 // Completed includes
@@ -46,29 +44,29 @@ namespace UnityEngine::TestTools::Logging {
     // Offset: 0x28
     ::CsString* m_LogType;
     // public System.String get_Message()
-    // Offset: 0xE2AAD0
+    // Offset: 0xE3D514
     ::CsString* get_Message();
     // public System.Text.RegularExpressions.Regex get_MessageRegex()
-    // Offset: 0xE2AAD8
+    // Offset: 0xE3D51C
     System::Text::RegularExpressions::Regex* get_MessageRegex();
     // public System.Nullable`1<UnityEngine.LogType> get_LogType()
-    // Offset: 0xE2AB50
+    // Offset: 0xE3D594
     System::Nullable_1<UnityEngine::LogType> get_LogType();
     // public System.Boolean Matches(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0xE2AC6C
+    // Offset: 0xE3D6B0
     bool Matches(UnityEngine::TestTools::Logging::LogEvent* log);
     // public override System.String ToString()
-    // Offset: 0xE2AD44
+    // Offset: 0xE3D788
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::CsString* ToString();
     // public System.Void .ctor()
-    // Offset: 0xE2AE0C
+    // Offset: 0xE3D850
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LogMatch* New_ctor();
   }; // UnityEngine.TestTools.Logging.LogMatch
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogMatch*, "UnityEngine.TestTools.Logging", "LogMatch");
 #pragma pack(pop)

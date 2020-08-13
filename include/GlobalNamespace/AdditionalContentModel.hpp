@@ -138,22 +138,22 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Action* didInvalidateDataEvent;
     // public System.Void add_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x1969464
+    // Offset: 0xB81760
     void add_didInvalidateDataEvent(System::Action* value);
     // public System.Void remove_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x1969508
+    // Offset: 0xB81804
     void remove_didInvalidateDataEvent(System::Action* value);
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x19695AC
+    // Offset: 0xB818A8
     void OnApplicationFocus(bool hasFocus);
     // protected System.Void InvalidateData()
-    // Offset: 0x19695E8
+    // Offset: 0xB818E4
     void InvalidateData();
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x1969628
+    // Offset: 0xB81924
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusAsync(::CsString* levelId, System::Threading::CancellationToken token);
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x196978C
+    // Offset: 0xB81A88
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusAsync(::CsString* levelPackId, System::Threading::CancellationToken token);
     // protected System.Void InvalidateDataInternal()
     // Offset: 0xFFFFFFFF
@@ -174,7 +174,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::CsString* levelPackId, System::Threading::CancellationToken token);
     // protected System.Void .ctor()
-    // Offset: 0x19698F0
+    // Offset: 0xB81BEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -184,7 +184,7 @@ namespace GlobalNamespace {
     static AdditionalContentModel* New_ctor();
   }; // AdditionalContentModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel*, "", "AdditionalContentModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::EntitlementStatus, "", "AdditionalContentModel/EntitlementStatus");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::OpenProductStoreResult, "", "AdditionalContentModel/OpenProductStoreResult");

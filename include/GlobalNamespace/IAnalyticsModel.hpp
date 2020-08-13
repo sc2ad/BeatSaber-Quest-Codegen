@@ -25,6 +25,6 @@ namespace GlobalNamespace {
     void LogEvent(::CsString* eventCategory, ::CsString* eventAction, ::CsString* eventLabel, int64_t value);
   }; // IAnalyticsModel
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAnalyticsModel*, "", "IAnalyticsModel");
 #pragma pack(pop)

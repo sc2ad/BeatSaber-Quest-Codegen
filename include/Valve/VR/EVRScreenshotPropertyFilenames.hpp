@@ -32,6 +32,6 @@ namespace Valve::VR {
     EVRScreenshotPropertyFilenames(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRScreenshotPropertyFilenames
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRScreenshotPropertyFilenames, "Valve.VR", "EVRScreenshotPropertyFilenames");
 #pragma pack(pop)

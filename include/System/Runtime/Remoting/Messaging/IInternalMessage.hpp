@@ -34,6 +34,6 @@ namespace System::Runtime::Remoting::Messaging {
     void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::CsString* value);
   }; // System.Runtime.Remoting.Messaging.IInternalMessage
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IInternalMessage*, "System.Runtime.Remoting.Messaging", "IInternalMessage");
 #pragma pack(pop)

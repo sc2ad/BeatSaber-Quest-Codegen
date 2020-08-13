@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class IPAPluginsDirDeleter : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB44458
+    // Offset: 0xB42458
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -24,6 +24,6 @@ namespace GlobalNamespace {
     static IPAPluginsDirDeleter* New_ctor();
   }; // IPAPluginsDirDeleter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPAPluginsDirDeleter*, "", "IPAPluginsDirDeleter");
 #pragma pack(pop)

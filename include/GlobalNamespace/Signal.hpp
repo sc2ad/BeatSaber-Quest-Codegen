@@ -24,22 +24,22 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Action* event;
     // private System.Void add__event(System.Action value)
-    // Offset: 0xCA6C70
+    // Offset: 0xCB96B4
     void add__event(System::Action* value);
     // private System.Void remove__event(System.Action value)
-    // Offset: 0xCA6D14
+    // Offset: 0xCB9758
     void remove__event(System::Action* value);
     // public System.Void Raise()
-    // Offset: 0xCA6DB8
+    // Offset: 0xCB97FC
     void Raise();
     // public System.Void Subscribe(System.Action foo)
-    // Offset: 0xCA6DCC
+    // Offset: 0xCB9810
     void Subscribe(System::Action* foo);
     // public System.Void Unsubscribe(System.Action foo)
-    // Offset: 0xCA6DF8
+    // Offset: 0xCB983C
     void Unsubscribe(System::Action* foo);
     // public System.Void .ctor()
-    // Offset: 0xCA6DFC
+    // Offset: 0xCB9840
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -47,6 +47,6 @@ namespace GlobalNamespace {
     static Signal* New_ctor();
   }; // Signal
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Signal*, "", "Signal");
 #pragma pack(pop)

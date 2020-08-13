@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: OVRManager
@@ -32,33 +30,33 @@ namespace GlobalNamespace {
   class OVRCompositionUtil : public ::CsObject {
     public:
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
-    // Offset: 0xCB520C
+    // Offset: 0xCC8C50
     static void SafeDestroy(UnityEngine::GameObject* obj);
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
-    // Offset: 0xCB52AC
+    // Offset: 0xCC8CF0
     static void SafeDestroy(UnityEngine::GameObject*& obj);
     // static public OVRPlugin/CameraDevice ConvertCameraDevice(OVRManager/CameraDevice cameraDevice)
-    // Offset: 0xCB5344
+    // Offset: 0xCC8D88
     static GlobalNamespace::OVRPlugin::CameraDevice ConvertCameraDevice(GlobalNamespace::OVRManager::CameraDevice cameraDevice);
     // static public OVRBoundary/BoundaryType ToBoundaryType(OVRManager/VirtualGreenScreenType type)
-    // Offset: 0xCB5370
+    // Offset: 0xCC8DB4
     static GlobalNamespace::OVRBoundary::BoundaryType ToBoundaryType(GlobalNamespace::OVRManager::VirtualGreenScreenType type);
     // static public UnityEngine.Vector3 GetWorldPosition(UnityEngine.Vector3 trackingSpacePosition)
-    // Offset: 0xCB5404
+    // Offset: 0xCC8E48
     static UnityEngine::Vector3 GetWorldPosition(UnityEngine::Vector3 trackingSpacePosition);
     // static public System.Single GetMaximumBoundaryDistance(UnityEngine.Camera camera, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCB54B0
+    // Offset: 0xCC8EF4
     static float GetMaximumBoundaryDistance(UnityEngine::Camera* camera, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // static public UnityEngine.Mesh BuildBoundaryMesh(OVRBoundary/BoundaryType boundaryType, System.Single topY, System.Single bottomY)
-    // Offset: 0xCB56F0
+    // Offset: 0xCC9134
     static UnityEngine::Mesh* BuildBoundaryMesh(GlobalNamespace::OVRBoundary::BoundaryType boundaryType, float topY, float bottomY);
     // public System.Void .ctor()
-    // Offset: 0xCB5B98
+    // Offset: 0xCC95DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRCompositionUtil* New_ctor();
   }; // OVRCompositionUtil
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCompositionUtil*, "", "OVRCompositionUtil");
 #pragma pack(pop)

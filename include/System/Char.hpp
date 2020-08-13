@@ -97,142 +97,142 @@ namespace System {
     // Creating value type constructor for type: Char
     Char(::Il2CppChar m_value_ = {}) : m_value{m_value_} {}
     // static private System.Boolean IsLatin1(System.Char ch)
-    // Offset: 0x131A650
+    // Offset: 0x132E094
     static bool IsLatin1(::Il2CppChar ch);
     // static private System.Boolean IsAscii(System.Char ch)
-    // Offset: 0x131A660
+    // Offset: 0x132E0A4
     static bool IsAscii(::Il2CppChar ch);
     // static private System.Globalization.UnicodeCategory GetLatin1UnicodeCategory(System.Char ch)
-    // Offset: 0x131A670
+    // Offset: 0x132E0B4
     static System::Globalization::UnicodeCategory GetLatin1UnicodeCategory(::Il2CppChar ch);
     // static public System.String ToString(System.Char c)
-    // Offset: 0x131A900
+    // Offset: 0x132E344
     static ::CsString* ToString(::Il2CppChar c);
     // static public System.Char Parse(System.String s)
-    // Offset: 0x131A988
+    // Offset: 0x132E3CC
     static ::Il2CppChar Parse(::CsString* s);
     // static public System.Boolean IsDigit(System.Char c)
-    // Offset: 0x131AA70
+    // Offset: 0x132E4B4
     static bool IsDigit(::Il2CppChar c);
     // static System.Boolean CheckLetter(System.Globalization.UnicodeCategory uc)
-    // Offset: 0x131AB24
+    // Offset: 0x132E568
     static bool CheckLetter(System::Globalization::UnicodeCategory uc);
     // static public System.Boolean IsLetter(System.Char c)
-    // Offset: 0x131AB30
+    // Offset: 0x132E574
     static bool IsLetter(::Il2CppChar c);
     // static private System.Boolean IsWhiteSpaceLatin1(System.Char c)
-    // Offset: 0x131AC50
+    // Offset: 0x132E694
     static bool IsWhiteSpaceLatin1(::Il2CppChar c);
     // static public System.Boolean IsWhiteSpace(System.Char c)
-    // Offset: 0x13183BC
+    // Offset: 0x132BE00
     static bool IsWhiteSpace(::Il2CppChar c);
     // static public System.Boolean IsUpper(System.Char c)
-    // Offset: 0x131AC98
+    // Offset: 0x132E6DC
     static bool IsUpper(::Il2CppChar c);
     // static public System.Boolean IsLower(System.Char c)
-    // Offset: 0x131AD94
+    // Offset: 0x132E7D8
     static bool IsLower(::Il2CppChar c);
     // static System.Boolean CheckPunctuation(System.Globalization.UnicodeCategory uc)
-    // Offset: 0x131AE90
+    // Offset: 0x132E8D4
     static bool CheckPunctuation(System::Globalization::UnicodeCategory uc);
     // static public System.Boolean IsPunctuation(System.Char c)
-    // Offset: 0x131AEA0
+    // Offset: 0x132E8E4
     static bool IsPunctuation(::Il2CppChar c);
     // static System.Boolean CheckLetterOrDigit(System.Globalization.UnicodeCategory uc)
-    // Offset: 0x131AF8C
+    // Offset: 0x132E9D0
     static bool CheckLetterOrDigit(System::Globalization::UnicodeCategory uc);
     // static public System.Boolean IsLetterOrDigit(System.Char c)
-    // Offset: 0x131AFA8
+    // Offset: 0x132E9EC
     static bool IsLetterOrDigit(::Il2CppChar c);
     // static public System.Char ToUpper(System.Char c, System.Globalization.CultureInfo culture)
-    // Offset: 0x131B0A4
+    // Offset: 0x132EAE8
     static ::Il2CppChar ToUpper(::Il2CppChar c, System::Globalization::CultureInfo* culture);
     // static public System.Char ToUpper(System.Char c)
-    // Offset: 0x131B154
+    // Offset: 0x132EB98
     static ::Il2CppChar ToUpper(::Il2CppChar c);
     // static public System.Char ToUpperInvariant(System.Char c)
-    // Offset: 0x131B1EC
+    // Offset: 0x132EC30
     static ::Il2CppChar ToUpperInvariant(::Il2CppChar c);
     // static public System.Char ToLower(System.Char c, System.Globalization.CultureInfo culture)
-    // Offset: 0x131B284
+    // Offset: 0x132ECC8
     static ::Il2CppChar ToLower(::Il2CppChar c, System::Globalization::CultureInfo* culture);
     // static public System.Char ToLower(System.Char c)
-    // Offset: 0x131B334
+    // Offset: 0x132ED78
     static ::Il2CppChar ToLower(::Il2CppChar c);
     // static public System.Char ToLowerInvariant(System.Char c)
-    // Offset: 0x131B3CC
+    // Offset: 0x132EE10
     static ::Il2CppChar ToLowerInvariant(::Il2CppChar c);
     // static public System.Boolean IsControl(System.Char c)
-    // Offset: 0x131BD34
+    // Offset: 0x132F778
     static bool IsControl(::Il2CppChar c);
     // static public System.Boolean IsLetterOrDigit(System.String s, System.Int32 index)
-    // Offset: 0x131BDF8
+    // Offset: 0x132F83C
     static bool IsLetterOrDigit(::CsString* s, int index);
     // static System.Boolean CheckNumber(System.Globalization.UnicodeCategory uc)
-    // Offset: 0x131BF94
+    // Offset: 0x132F9D8
     static bool CheckNumber(System::Globalization::UnicodeCategory uc);
     // static public System.Boolean IsNumber(System.Char c)
-    // Offset: 0x131BFA4
+    // Offset: 0x132F9E8
     static bool IsNumber(::Il2CppChar c);
     // static System.Boolean CheckSeparator(System.Globalization.UnicodeCategory uc)
-    // Offset: 0x131C0C4
+    // Offset: 0x132FB08
     static bool CheckSeparator(System::Globalization::UnicodeCategory uc);
     // static private System.Boolean IsSeparatorLatin1(System.Char c)
-    // Offset: 0x131C0D4
+    // Offset: 0x132FB18
     static bool IsSeparatorLatin1(::Il2CppChar c);
     // static public System.Boolean IsSeparator(System.Char c)
-    // Offset: 0x131C0E8
+    // Offset: 0x132FB2C
     static bool IsSeparator(::Il2CppChar c);
     // static public System.Boolean IsSurrogate(System.Char c)
-    // Offset: 0x131C1D8
+    // Offset: 0x132FC1C
     static bool IsSurrogate(::Il2CppChar c);
     // static public System.Boolean IsSurrogate(System.String s, System.Int32 index)
-    // Offset: 0x131C1E8
+    // Offset: 0x132FC2C
     static bool IsSurrogate(::CsString* s, int index);
     // static public System.Boolean IsWhiteSpace(System.String s, System.Int32 index)
-    // Offset: 0x131C2F0
+    // Offset: 0x132FD34
     static bool IsWhiteSpace(::CsString* s, int index);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char c)
-    // Offset: 0x131C468
+    // Offset: 0x132FEAC
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
-    // Offset: 0x131C524
+    // Offset: 0x132FF68
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::CsString* s, int index);
     // static public System.Boolean IsHighSurrogate(System.Char c)
-    // Offset: 0x131C69C
+    // Offset: 0x13300E0
     static bool IsHighSurrogate(::Il2CppChar c);
     // static public System.Boolean IsHighSurrogate(System.String s, System.Int32 index)
-    // Offset: 0x131C6AC
+    // Offset: 0x13300F0
     static bool IsHighSurrogate(::CsString* s, int index);
     // static public System.Boolean IsLowSurrogate(System.Char c)
-    // Offset: 0x131C7B8
+    // Offset: 0x13301FC
     static bool IsLowSurrogate(::Il2CppChar c);
     // static public System.Boolean IsSurrogatePair(System.Char highSurrogate, System.Char lowSurrogate)
-    // Offset: 0x131C7C8
+    // Offset: 0x133020C
     static bool IsSurrogatePair(::Il2CppChar highSurrogate, ::Il2CppChar lowSurrogate);
     // static public System.Int32 ConvertToUtf32(System.Char highSurrogate, System.Char lowSurrogate)
-    // Offset: 0x131C7EC
+    // Offset: 0x1330230
     static int ConvertToUtf32(::Il2CppChar highSurrogate, ::Il2CppChar lowSurrogate);
     // static private System.Void .cctor()
-    // Offset: 0x131C934
+    // Offset: 0x1330378
     static void _cctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA42910
+    // Offset: 0xA4298C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA4291C
+    // Offset: 0xA42998
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::CsObject* obj);
     // public System.Boolean Equals(System.Char obj)
-    // Offset: 0xA42924
+    // Offset: 0xA429A0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(System.Char obj)
     bool Equals(::Il2CppChar obj);
     // public System.Int32 CompareTo(System.Object value)
-    // Offset: 0xA42934
+    // Offset: 0xA429B0
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
     int CompareTo(::CsObject* value);
@@ -240,102 +240,102 @@ namespace System {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::CsObject* value);
     // public System.Int32 CompareTo(System.Char value)
-    // Offset: 0xA4293C
+    // Offset: 0xA429B8
     // Implemented from: System.IComparable`1
     // Base method: System.Int32 IComparable`1::CompareTo(System.Char value)
     int CompareTo(::Il2CppChar value);
     // public override System.String ToString()
-    // Offset: 0xA42948
+    // Offset: 0xA429C4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::CsString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
-    // Offset: 0xA42950
+    // Offset: 0xA429CC
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
     ::CsString* ToString(System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
-    // Offset: 0xA42958
+    // Offset: 0xA429D4
     // Implemented from: System.IConvertible
     // Base method: System.TypeCode IConvertible::GetTypeCode()
     System::TypeCode GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
-    // Offset: 0xA42960
+    // Offset: 0xA429DC
     // Implemented from: System.IConvertible
     // Base method: System.Boolean IConvertible::ToBoolean(System.IFormatProvider provider)
     bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
-    // Offset: 0xA4296C
+    // Offset: 0xA429E8
     // Implemented from: System.IConvertible
     // Base method: System.Char IConvertible::ToChar(System.IFormatProvider provider)
     ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
-    // Offset: 0xA42974
+    // Offset: 0xA429F0
     // Implemented from: System.IConvertible
     // Base method: System.SByte IConvertible::ToSByte(System.IFormatProvider provider)
     int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
-    // Offset: 0xA4297C
+    // Offset: 0xA429F8
     // Implemented from: System.IConvertible
     // Base method: System.Byte IConvertible::ToByte(System.IFormatProvider provider)
     uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
-    // Offset: 0xA42984
+    // Offset: 0xA42A00
     // Implemented from: System.IConvertible
     // Base method: System.Int16 IConvertible::ToInt16(System.IFormatProvider provider)
     int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
-    // Offset: 0xA4298C
+    // Offset: 0xA42A08
     // Implemented from: System.IConvertible
     // Base method: System.UInt16 IConvertible::ToUInt16(System.IFormatProvider provider)
     uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
-    // Offset: 0xA42994
+    // Offset: 0xA42A10
     // Implemented from: System.IConvertible
     // Base method: System.Int32 IConvertible::ToInt32(System.IFormatProvider provider)
     int System_IConvertible_ToInt32(System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
-    // Offset: 0xA4299C
+    // Offset: 0xA42A18
     // Implemented from: System.IConvertible
     // Base method: System.UInt32 IConvertible::ToUInt32(System.IFormatProvider provider)
     uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
-    // Offset: 0xA429A4
+    // Offset: 0xA42A20
     // Implemented from: System.IConvertible
     // Base method: System.Int64 IConvertible::ToInt64(System.IFormatProvider provider)
     int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
-    // Offset: 0xA429AC
+    // Offset: 0xA42A28
     // Implemented from: System.IConvertible
     // Base method: System.UInt64 IConvertible::ToUInt64(System.IFormatProvider provider)
     uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
-    // Offset: 0xA429B4
+    // Offset: 0xA42A30
     // Implemented from: System.IConvertible
     // Base method: System.Single IConvertible::ToSingle(System.IFormatProvider provider)
     float System_IConvertible_ToSingle(System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
-    // Offset: 0xA429C0
+    // Offset: 0xA42A3C
     // Implemented from: System.IConvertible
     // Base method: System.Double IConvertible::ToDouble(System.IFormatProvider provider)
     double System_IConvertible_ToDouble(System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
-    // Offset: 0xA429CC
+    // Offset: 0xA42A48
     // Implemented from: System.IConvertible
     // Base method: System.Decimal IConvertible::ToDecimal(System.IFormatProvider provider)
     System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
-    // Offset: 0xA429D8
+    // Offset: 0xA42A54
     // Implemented from: System.IConvertible
     // Base method: System.DateTime IConvertible::ToDateTime(System.IFormatProvider provider)
     System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type type, System.IFormatProvider provider)
-    // Offset: 0xA429E4
+    // Offset: 0xA42A60
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::CsObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Char
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Char, "System", "Char");
 #pragma pack(pop)

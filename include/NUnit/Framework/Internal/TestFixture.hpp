@@ -23,13 +23,13 @@ namespace NUnit::Framework::Internal {
   class TestFixture : public NUnit::Framework::Internal::TestSuite, public NUnit::Framework::Interfaces::IDisposableFixture {
     public:
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
-    // Offset: 0x18D9D3C
+    // Offset: 0x18EA780
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     static TestFixture* New_ctor(NUnit::Framework::Interfaces::ITypeInfo* fixtureType);
   }; // NUnit.Framework.Internal.TestFixture
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestFixture*, "NUnit.Framework.Internal", "TestFixture");
 #pragma pack(pop)

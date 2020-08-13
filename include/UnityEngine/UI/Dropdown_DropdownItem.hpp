@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: UnityEngine.MonoBehaviour
-#include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.UI.Dropdown
 #include "UnityEngine/UI/Dropdown.hpp"
 // Completed includes
@@ -51,41 +49,41 @@ namespace UnityEngine::UI {
     // Offset: 0x30
     UnityEngine::UI::Toggle* m_Toggle;
     // public UnityEngine.UI.Text get_text()
-    // Offset: 0x115296C
+    // Offset: 0x11643B0
     UnityEngine::UI::Text* get_text();
     // public System.Void set_text(UnityEngine.UI.Text value)
-    // Offset: 0x1152974
+    // Offset: 0x11643B8
     void set_text(UnityEngine::UI::Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0x115297C
+    // Offset: 0x11643C0
     UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0x1152984
+    // Offset: 0x11643C8
     void set_image(UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x115298C
+    // Offset: 0x11643D0
     UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0x1152994
+    // Offset: 0x11643D8
     void set_rectTransform(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x115299C
+    // Offset: 0x11643E0
     UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0x11529A4
+    // Offset: 0x11643E8
     void set_toggle(UnityEngine::UI::Toggle* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x11529AC
+    // Offset: 0x11643F0
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1152A38
+    // Offset: 0x116447C
     // Implemented from: UnityEngine.EventSystems.ICancelHandler
     // Base method: System.Void ICancelHandler::OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x1152AE0
+    // Offset: 0x1164524
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -95,6 +93,6 @@ namespace UnityEngine::UI {
     static Dropdown::DropdownItem* New_ctor();
   }; // UnityEngine.UI.Dropdown/DropdownItem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::DropdownItem*, "UnityEngine.UI", "Dropdown/DropdownItem");
 #pragma pack(pop)

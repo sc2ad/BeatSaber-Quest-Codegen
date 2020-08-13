@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class ResultObjectiveListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::ResultObjectiveListItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC0B204
+    // Offset: 0xC1CC48
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList`1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -32,6 +32,6 @@ namespace GlobalNamespace {
     static ResultObjectiveListItemsList* New_ctor();
   }; // ResultObjectiveListItemsList
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultObjectiveListItemsList*, "", "ResultObjectiveListItemsList");
 #pragma pack(pop)

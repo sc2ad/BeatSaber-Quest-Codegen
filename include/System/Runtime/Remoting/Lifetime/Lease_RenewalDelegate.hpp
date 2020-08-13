@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: System.Runtime.Remoting.Lifetime.Lease
 #include "System/Runtime/Remoting/Lifetime/Lease.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -31,19 +31,19 @@ namespace System::Runtime::Remoting::Lifetime {
   class Lease::RenewalDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x104C2C8
+    // Offset: 0x105BD0C
     static Lease::RenewalDelegate* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.TimeSpan Invoke(System.Runtime.Remoting.Lifetime.ILease lease)
-    // Offset: 0x104C514
+    // Offset: 0x105BF58
     System::TimeSpan Invoke(System::Runtime::Remoting::Lifetime::ILease* lease);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Remoting.Lifetime.ILease lease, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x104C2DC
+    // Offset: 0x105BD20
     System::IAsyncResult* BeginInvoke(System::Runtime::Remoting::Lifetime::ILease* lease, System::AsyncCallback* callback, ::CsObject* object);
     // public System.TimeSpan EndInvoke(System.IAsyncResult result)
-    // Offset: 0x104C4E8
+    // Offset: 0x105BF2C
     System::TimeSpan EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Remoting.Lifetime.Lease/RenewalDelegate
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*, "System.Runtime.Remoting.Lifetime", "Lease/RenewalDelegate");
 #pragma pack(pop)

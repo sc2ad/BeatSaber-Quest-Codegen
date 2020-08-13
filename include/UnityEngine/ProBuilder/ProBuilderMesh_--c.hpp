@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.ProBuilderMesh
 #include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Completed includes
@@ -59,30 +57,30 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__140_0
     static void _set_$$9__140_0(System::Func_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1025D5C
+    // Offset: 0x10357A0
     static void _cctor();
     // UnityEngine.Vector2 <SetUVs>b__100_0(UnityEngine.Vector4 x)
-    // Offset: 0x1025DCC
+    // Offset: 0x1035810
     UnityEngine::Vector2 $SetUVs$b__100_0(UnityEngine::Vector4 x);
     // UnityEngine.Vector2 <SetUVs>b__100_1(UnityEngine.Vector4 x)
-    // Offset: 0x1025E5C
+    // Offset: 0x10358A0
     UnityEngine::Vector2 $SetUVs$b__100_1(UnityEngine::Vector4 x);
     // System.Int32 <get_indexCount>b__108_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1025EEC
+    // Offset: 0x1035930
     int $get_indexCount$b__108_0(UnityEngine::ProBuilder::Face* x);
     // System.Int32 <get_triangleCount>b__110_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1025F10
+    // Offset: 0x1035954
     int $get_triangleCount$b__110_0(UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.Face <CopyFrom>b__140_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1025F34
+    // Offset: 0x1035978
     UnityEngine::ProBuilder::Face* $CopyFrom$b__140_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x1025DC4
+    // Offset: 0x1035808
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProBuilderMesh::$$c* New_ctor();
   }; // UnityEngine.ProBuilder.ProBuilderMesh/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c");
 #pragma pack(pop)

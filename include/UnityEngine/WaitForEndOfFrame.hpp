@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.YieldInstruction
 #include "UnityEngine/YieldInstruction.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace UnityEngine {
   class WaitForEndOfFrame : public UnityEngine::YieldInstruction {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1384158
+    // Offset: 0x1396B9C
     // Implemented from: UnityEngine.YieldInstruction
     // Base method: System.Void YieldInstruction::.ctor()
     // Base method: System.Void Object::.ctor()
     static WaitForEndOfFrame* New_ctor();
   }; // UnityEngine.WaitForEndOfFrame
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForEndOfFrame*, "UnityEngine", "WaitForEndOfFrame");
 #pragma pack(pop)

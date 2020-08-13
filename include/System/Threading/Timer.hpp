@@ -62,31 +62,31 @@ namespace System::Threading {
     // Set static field: static private System.Int64 MaxValue
     static void _set_MaxValue(int64_t value);
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.Int32 dueTime, System.Int32 period)
-    // Offset: 0xCCFB58
+    // Offset: 0xCE259C
     static Timer* New_ctor(System::Threading::TimerCallback* callback, ::CsObject* state, int dueTime, int period);
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.TimeSpan dueTime, System.TimeSpan period)
-    // Offset: 0xCD6AC0
+    // Offset: 0xCE9504
     static Timer* New_ctor(System::Threading::TimerCallback* callback, ::CsObject* state, System::TimeSpan dueTime, System::TimeSpan period);
     // private System.Void Init(System.Threading.TimerCallback callback, System.Object state, System.Int64 dueTime, System.Int64 period)
-    // Offset: 0xCD69F0
+    // Offset: 0xCE9434
     void Init(System::Threading::TimerCallback* callback, ::CsObject* state, int64_t dueTime, int64_t period);
     // public System.Boolean Change(System.TimeSpan dueTime, System.TimeSpan period)
-    // Offset: 0xCD6D7C
+    // Offset: 0xCE97C0
     bool Change(System::TimeSpan dueTime, System::TimeSpan period);
     // private System.Boolean Change(System.Int64 dueTime, System.Int64 period, System.Boolean first)
-    // Offset: 0xCD6B58
+    // Offset: 0xCE959C
     bool Change(int64_t dueTime, int64_t period, bool first);
     // System.Void KeepRootedWhileScheduled()
-    // Offset: 0xCCFBB0
+    // Offset: 0xCE25F4
     void KeepRootedWhileScheduled();
     // static private System.Int64 GetTimeMonotonic()
-    // Offset: 0xCD6E9C
+    // Offset: 0xCE98E0
     static int64_t GetTimeMonotonic();
     // static private System.Void .cctor()
-    // Offset: 0xCD7028
+    // Offset: 0xCE9A6C
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0xCD073C
+    // Offset: 0xCE3180
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -95,6 +95,6 @@ namespace System::Threading {
     void System_IDisposable_Dispose();
   }; // System.Threading.Timer
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer*, "System.Threading", "Timer");
 #pragma pack(pop)

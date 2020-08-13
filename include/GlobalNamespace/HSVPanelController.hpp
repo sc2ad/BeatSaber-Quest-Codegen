@@ -50,37 +50,37 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Vector3 hsvColor;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xB40D58
+    // Offset: 0xB3ED58
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xB40DFC
+    // Offset: 0xB3EDFC
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xB40EA0
+    // Offset: 0xB3EEA0
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xB40EB0
+    // Offset: 0xB3EEB0
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0xB40F78
+    // Offset: 0xB3EF78
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB41058
+    // Offset: 0xB3F058
     void OnDestroy();
     // private System.Void HandleColorSaturationOrValueDidChange(ColorSaturationValueSlider slider, UnityEngine.Vector2 colorSaturationAndValue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xB411B0
+    // Offset: 0xB3F1B0
     void HandleColorSaturationOrValueDidChange(GlobalNamespace::ColorSaturationValueSlider* slider, UnityEngine::Vector2 colorSaturationAndValue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleColorHueDidChange(ColorHueSlider slider, System.Single hue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xB41248
+    // Offset: 0xB3F248
     void HandleColorHueDidChange(GlobalNamespace::ColorHueSlider* slider, float hue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0xB40F10
+    // Offset: 0xB3EF10
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0xB40EEC
+    // Offset: 0xB3EEEC
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0xB412D8
+    // Offset: 0xB3F2D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,6 +90,6 @@ namespace GlobalNamespace {
     static HSVPanelController* New_ctor();
   }; // HSVPanelController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HSVPanelController*, "", "HSVPanelController");
 #pragma pack(pop)

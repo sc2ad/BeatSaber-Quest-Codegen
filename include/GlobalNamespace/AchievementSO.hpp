@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::CsString* achievementId;
     // public System.String get_achievementId()
-    // Offset: 0x1967EF0
+    // Offset: 0xB801EC
     ::CsString* get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0x1967EF8
+    // Offset: 0xB801F4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -29,6 +29,6 @@ namespace GlobalNamespace {
     static AchievementSO* New_ctor();
   }; // AchievementSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementSO*, "", "AchievementSO");
 #pragma pack(pop)

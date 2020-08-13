@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: MemoryPoolWithActiveItems`1
-#include "GlobalNamespace/MemoryPoolWithActiveItems_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NoteController
 #include "GlobalNamespace/NoteController.hpp"
+// Including type: MemoryPoolWithActiveItems`1
+#include "GlobalNamespace/MemoryPoolWithActiveItems_1.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -15,7 +16,7 @@ namespace GlobalNamespace {
   class NoteController::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::NoteController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBFFC64
+    // Offset: 0xC116A8
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()
@@ -25,6 +26,6 @@ namespace GlobalNamespace {
     static NoteController::Pool* New_ctor();
   }; // NoteController/Pool
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteController::Pool*, "", "NoteController/Pool");
 #pragma pack(pop)

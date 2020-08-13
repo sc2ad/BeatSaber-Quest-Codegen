@@ -34,6 +34,6 @@ namespace System::IO {
     MonoIOStat(System::IO::FileAttributes fileAttributes_ = {}, int64_t Length_ = {}, int64_t CreationTime_ = {}, int64_t LastAccessTime_ = {}, int64_t LastWriteTime_ = {}) : fileAttributes{fileAttributes_}, Length{Length_}, CreationTime{CreationTime_}, LastAccessTime{LastAccessTime_}, LastWriteTime{LastWriteTime_} {}
   }; // System.IO.MonoIOStat
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOStat, "System.IO", "MonoIOStat");
 #pragma pack(pop)

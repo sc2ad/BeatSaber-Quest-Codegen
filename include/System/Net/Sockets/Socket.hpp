@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Net.Sockets.AddressFamily
@@ -253,352 +251,352 @@ namespace System::Net::Sockets {
     // Set static field: static private System.AsyncCallback SendToAsyncCallback
     static void _set_SendToAsyncCallback(System::AsyncCallback* value);
     // public System.Void .ctor(System.Net.Sockets.AddressFamily addressFamily, System.Net.Sockets.SocketType socketType, System.Net.Sockets.ProtocolType protocolType)
-    // Offset: 0xF5B818
+    // Offset: 0xF6D25C
     static Socket* New_ctor(System::Net::Sockets::AddressFamily addressFamily, System::Net::Sockets::SocketType socketType, System::Net::Sockets::ProtocolType protocolType);
     // static public System.Boolean get_SupportsIPv4()
-    // Offset: 0xF559E8
+    // Offset: 0xF6742C
     static bool get_SupportsIPv4();
     // static public System.Boolean get_OSSupportsIPv4()
-    // Offset: 0xF5BF0C
+    // Offset: 0xF6D950
     static bool get_OSSupportsIPv4();
     // static public System.Boolean get_SupportsIPv6()
-    // Offset: 0xF55974
+    // Offset: 0xF673B8
     static bool get_SupportsIPv6();
     // static public System.Boolean get_OSSupportsIPv6()
-    // Offset: 0xF5BF80
+    // Offset: 0xF6D9C4
     static bool get_OSSupportsIPv6();
     // public System.IntPtr get_Handle()
-    // Offset: 0xF5BFF4
+    // Offset: 0xF6DA38
     System::IntPtr get_Handle();
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0xF5C010
+    // Offset: 0xF6DA54
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public System.Net.Sockets.SocketType get_SocketType()
-    // Offset: 0xF5C018
+    // Offset: 0xF6DA5C
     System::Net::Sockets::SocketType get_SocketType();
     // public System.Net.Sockets.ProtocolType get_ProtocolType()
-    // Offset: 0xF5C020
+    // Offset: 0xF6DA64
     System::Net::Sockets::ProtocolType get_ProtocolType();
     // public System.Void set_ExclusiveAddressUse(System.Boolean value)
-    // Offset: 0xF5C028
+    // Offset: 0xF6DA6C
     void set_ExclusiveAddressUse(bool value);
     // public System.Void set_DontFragment(System.Boolean value)
-    // Offset: 0xF5C1F0
+    // Offset: 0xF6DC34
     void set_DontFragment(bool value);
     // public System.Boolean get_DualMode()
-    // Offset: 0xF5C298
+    // Offset: 0xF6DCDC
     bool get_DualMode();
     // public System.Void set_DualMode(System.Boolean value)
-    // Offset: 0xF5C4F4
+    // Offset: 0xF6DF38
     void set_DualMode(bool value);
     // private System.Boolean get_IsDualMode()
-    // Offset: 0xF5C5A0
+    // Offset: 0xF6DFE4
     bool get_IsDualMode();
     // public System.Int32 Send(System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> buffers, System.Net.Sockets.SocketFlags socketFlags)
-    // Offset: 0xF5C5B8
+    // Offset: 0xF6DFFC
     int Send(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* buffers, System::Net::Sockets::SocketFlags socketFlags);
     // public System.Int32 Send(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags)
-    // Offset: 0xF59A24
+    // Offset: 0xF6B468
     int Send(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags);
     // public System.Int32 Receive(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags)
-    // Offset: 0xF5958C
+    // Offset: 0xF6AFD0
     int Receive(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags);
     // public System.Int32 Receive(System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> buffers, System.Net.Sockets.SocketFlags socketFlags)
-    // Offset: 0xF5CE5C
+    // Offset: 0xF6E8A0
     int Receive(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* buffers, System::Net::Sockets::SocketFlags socketFlags);
     // public System.Void SetIPProtectionLevel(System.Net.Sockets.IPProtectionLevel level)
-    // Offset: 0xF5BD0C
+    // Offset: 0xF6D750
     void SetIPProtectionLevel(System::Net::Sockets::IPProtectionLevel level);
     // public System.IAsyncResult BeginSend(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.AsyncCallback callback, System.Object state)
-    // Offset: 0xF5A8E4
+    // Offset: 0xF6C328
     System::IAsyncResult* BeginSend(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::AsyncCallback* callback, ::CsObject* state);
     // public System.Int32 EndSend(System.IAsyncResult asyncResult)
-    // Offset: 0xF5ACD4
+    // Offset: 0xF6C718
     int EndSend(System::IAsyncResult* asyncResult);
     // public System.IAsyncResult BeginReceive(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.AsyncCallback callback, System.Object state)
-    // Offset: 0xF5A06C
+    // Offset: 0xF6BAB0
     System::IAsyncResult* BeginReceive(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::AsyncCallback* callback, ::CsObject* state);
     // public System.Int32 EndReceive(System.IAsyncResult asyncResult)
-    // Offset: 0xF5A45C
+    // Offset: 0xF6BEA0
     int EndReceive(System::IAsyncResult* asyncResult);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0xF5D974
+    // Offset: 0xF6F3B8
     static ::CsObject* get_InternalSyncObject();
     // System.Boolean get_CleanedUp()
-    // Offset: 0xF5DA50
+    // Offset: 0xF6F494
     bool get_CleanedUp();
     // static System.Void InitializeSockets()
-    // Offset: 0xF5BA88
+    // Offset: 0xF6D4CC
     static void InitializeSockets();
     // System.Void InternalShutdown(System.Net.Sockets.SocketShutdown how)
-    // Offset: 0xF59B68
+    // Offset: 0xF6B5AC
     void InternalShutdown(System::Net::Sockets::SocketShutdown how);
     // System.Void .ctor(System.Net.Sockets.AddressFamily family, System.Net.Sockets.SocketType type, System.Net.Sockets.ProtocolType proto, System.Net.Sockets.SafeSocketHandle safe_handle)
-    // Offset: 0xF5DCBC
+    // Offset: 0xF6F700
     static Socket* New_ctor(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, System::Net::Sockets::SafeSocketHandle* safe_handle);
     // private System.Void SocketDefaults()
-    // Offset: 0xF5BE10
+    // Offset: 0xF6D854
     void SocketDefaults();
     // private System.IntPtr Socket_internal(System.Net.Sockets.AddressFamily family, System.Net.Sockets.SocketType type, System.Net.Sockets.ProtocolType proto, System.Int32 error)
-    // Offset: 0xF5BD08
+    // Offset: 0xF6D74C
     System::IntPtr Socket_internal(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, int& error);
     // public System.Int32 get_Available()
-    // Offset: 0xF58F38
+    // Offset: 0xF6A97C
     int get_Available();
     // static private System.Int32 Available_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Int32 error)
-    // Offset: 0xF5DECC
+    // Offset: 0xF6F910
     static int Available_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, int& error);
     // static private System.Int32 Available_internal(System.IntPtr socket, System.Int32 error)
-    // Offset: 0xF5DFDC
+    // Offset: 0xF6FA20
     static int Available_internal(System::IntPtr socket, int& error);
     // public System.Boolean get_IsBound()
-    // Offset: 0xF5DFE0
+    // Offset: 0xF6FA24
     bool get_IsBound();
     // public System.Net.EndPoint get_LocalEndPoint()
-    // Offset: 0xF5DFE8
+    // Offset: 0xF6FA2C
     System::Net::EndPoint* get_LocalEndPoint();
     // static private System.Net.SocketAddress LocalEndPoint_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Int32 family, System.Int32 error)
-    // Offset: 0xF5E0DC
+    // Offset: 0xF6FB20
     static System::Net::SocketAddress* LocalEndPoint_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, int family, int& error);
     // static private System.Net.SocketAddress LocalEndPoint_internal(System.IntPtr socket, System.Int32 family, System.Int32 error)
-    // Offset: 0xF5E1F4
+    // Offset: 0xF6FC38
     static System::Net::SocketAddress* LocalEndPoint_internal(System::IntPtr socket, int family, int& error);
     // public System.Boolean get_Blocking()
-    // Offset: 0xF5E1F8
+    // Offset: 0xF6FC3C
     bool get_Blocking();
     // public System.Void set_Blocking(System.Boolean value)
-    // Offset: 0xF5E200
+    // Offset: 0xF6FC44
     void set_Blocking(bool value);
     // static private System.Void Blocking_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Boolean block, System.Int32 error)
-    // Offset: 0xF5E2D8
+    // Offset: 0xF6FD1C
     static void Blocking_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, bool block, int& error);
     // static System.Void Blocking_internal(System.IntPtr socket, System.Boolean block, System.Int32 error)
-    // Offset: 0xF5B344
+    // Offset: 0xF6CD88
     static void Blocking_internal(System::IntPtr socket, bool block, int& error);
     // public System.Boolean get_Connected()
-    // Offset: 0xF5E3E0
+    // Offset: 0xF6FE24
     bool get_Connected();
     // public System.Void set_NoDelay(System.Boolean value)
-    // Offset: 0xF5DDD4
+    // Offset: 0xF6F818
     void set_NoDelay(bool value);
     // static private System.Boolean Poll_internal(System.IntPtr socket, System.Net.Sockets.SelectMode mode, System.Int32 timeout, System.Int32 error)
-    // Offset: 0xF5E468
+    // Offset: 0xF6FEAC
     static bool Poll_internal(System::IntPtr socket, System::Net::Sockets::SelectMode mode, int timeout, int& error);
     // public System.Net.Sockets.Socket Accept()
-    // Offset: 0xF5E46C
+    // Offset: 0xF6FEB0
     System::Net::Sockets::Socket* Accept();
     // System.Void Accept(System.Net.Sockets.Socket acceptSocket)
-    // Offset: 0xF5E6B4
+    // Offset: 0xF700F8
     void Accept(System::Net::Sockets::Socket* acceptSocket);
     // public System.IAsyncResult BeginAccept(System.AsyncCallback callback, System.Object state)
-    // Offset: 0xF5E7F8
+    // Offset: 0xF7023C
     System::IAsyncResult* BeginAccept(System::AsyncCallback* callback, ::CsObject* state);
     // public System.Net.Sockets.Socket EndAccept(System.IAsyncResult asyncResult)
-    // Offset: 0xF5EAA8
+    // Offset: 0xF704EC
     System::Net::Sockets::Socket* EndAccept(System::IAsyncResult* asyncResult);
     // public System.Net.Sockets.Socket EndAccept(System.Byte[] buffer, System.Int32 bytesTransferred, System.IAsyncResult asyncResult)
-    // Offset: 0xF5EAD8
+    // Offset: 0xF7051C
     System::Net::Sockets::Socket* EndAccept(::Array<uint8_t>*& buffer, int& bytesTransferred, System::IAsyncResult* asyncResult);
     // static private System.Net.Sockets.SafeSocketHandle Accept_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF5E5AC
+    // Offset: 0xF6FFF0
     static System::Net::Sockets::SafeSocketHandle* Accept_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, int& error, bool blocking);
     // static private System.IntPtr Accept_internal(System.IntPtr sock, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF5ECE8
+    // Offset: 0xF7072C
     static System::IntPtr Accept_internal(System::IntPtr sock, int& error, bool blocking);
     // public System.Void Bind(System.Net.EndPoint localEP)
-    // Offset: 0xF5ECF0
+    // Offset: 0xF70734
     void Bind(System::Net::EndPoint* localEP);
     // static private System.Void Bind_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.SocketAddress sa, System.Int32 error)
-    // Offset: 0xF5EF2C
+    // Offset: 0xF70970
     static void Bind_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::SocketAddress* sa, int& error);
     // static private System.Void Bind_internal(System.IntPtr sock, System.Net.SocketAddress sa, System.Int32 error)
-    // Offset: 0xF5F034
+    // Offset: 0xF70A78
     static void Bind_internal(System::IntPtr sock, System::Net::SocketAddress* sa, int& error);
     // public System.Void Listen(System.Int32 backlog)
-    // Offset: 0xF5F038
+    // Offset: 0xF70A7C
     void Listen(int backlog);
     // static private System.Void Listen_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Int32 backlog, System.Int32 error)
-    // Offset: 0xF5F12C
+    // Offset: 0xF70B70
     static void Listen_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, int backlog, int& error);
     // static private System.Void Listen_internal(System.IntPtr sock, System.Int32 backlog, System.Int32 error)
-    // Offset: 0xF5F234
+    // Offset: 0xF70C78
     static void Listen_internal(System::IntPtr sock, int backlog, int& error);
     // public System.IAsyncResult BeginConnect(System.String host, System.Int32 port, System.AsyncCallback requestCallback, System.Object state)
-    // Offset: 0xF5F238
+    // Offset: 0xF70C7C
     System::IAsyncResult* BeginConnect(::CsString* host, int port, System::AsyncCallback* requestCallback, ::CsObject* state);
     // public System.IAsyncResult BeginConnect(System.Net.IPAddress[] addresses, System.Int32 port, System.AsyncCallback requestCallback, System.Object state)
-    // Offset: 0xF5F3AC
+    // Offset: 0xF70DF0
     System::IAsyncResult* BeginConnect(::Array<System::Net::IPAddress*>* addresses, int port, System::AsyncCallback* requestCallback, ::CsObject* state);
     // static private System.Void BeginMConnect(System.Net.Sockets.SocketAsyncResult sockares)
-    // Offset: 0xF5F5B4
+    // Offset: 0xF70FF8
     static void BeginMConnect(System::Net::Sockets::SocketAsyncResult* sockares);
     // static private System.Void BeginSConnect(System.Net.Sockets.SocketAsyncResult sockares)
-    // Offset: 0xF5F774
+    // Offset: 0xF711B8
     static void BeginSConnect(System::Net::Sockets::SocketAsyncResult* sockares);
     // public System.Void EndConnect(System.IAsyncResult asyncResult)
-    // Offset: 0xF5FC4C
+    // Offset: 0xF71690
     void EndConnect(System::IAsyncResult* asyncResult);
     // static private System.Void Connect_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.SocketAddress sa, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF5FB54
+    // Offset: 0xF71598
     static void Connect_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::SocketAddress* sa, int& error, bool blocking);
     // static private System.Void Connect_internal(System.IntPtr sock, System.Net.SocketAddress sa, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF5FCF4
+    // Offset: 0xF71738
     static void Connect_internal(System::IntPtr sock, System::Net::SocketAddress* sa, int& error, bool blocking);
     // public System.Void Disconnect(System.Boolean reuseSocket)
-    // Offset: 0xF5FCFC
+    // Offset: 0xF71740
     void Disconnect(bool reuseSocket);
     // public System.Void EndDisconnect(System.IAsyncResult asyncResult)
-    // Offset: 0xF5FEF8
+    // Offset: 0xF7193C
     void EndDisconnect(System::IAsyncResult* asyncResult);
     // static private System.Void Disconnect_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Boolean reuse, System.Int32 error)
-    // Offset: 0xF5FDF0
+    // Offset: 0xF71834
     static void Disconnect_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, bool reuse, int& error);
     // static private System.Void Disconnect_internal(System.IntPtr sock, System.Boolean reuse, System.Int32 error)
-    // Offset: 0xF5FFA0
+    // Offset: 0xF719E4
     static void Disconnect_internal(System::IntPtr sock, bool reuse, int& error);
     // public System.Int32 Receive(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError errorCode)
-    // Offset: 0xF5CD38
+    // Offset: 0xF6E77C
     int Receive(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::Net::Sockets::SocketError& errorCode);
     // public System.Int32 Receive(System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> buffers, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError errorCode)
-    // Offset: 0xF5CF08
+    // Offset: 0xF6E94C
     int Receive(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* buffers, System::Net::Sockets::SocketFlags socketFlags, System::Net::Sockets::SocketError& errorCode);
     // public System.IAsyncResult BeginReceive(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError errorCode, System.AsyncCallback callback, System.Object state)
-    // Offset: 0xF5D724
+    // Offset: 0xF6F168
     System::IAsyncResult* BeginReceive(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::Net::Sockets::SocketError& errorCode, System::AsyncCallback* callback, ::CsObject* state);
     // public System.Int32 EndReceive(System.IAsyncResult asyncResult, System.Net.Sockets.SocketError errorCode)
-    // Offset: 0xF5D890
+    // Offset: 0xF6F2D4
     int EndReceive(System::IAsyncResult* asyncResult, System::Net::Sockets::SocketError& errorCode);
     // static private System.Int32 Receive_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.Socket/WSABUF* bufarray, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF6025C
+    // Offset: 0xF71CA0
     static int Receive_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::Socket::WSABUF* bufarray, int count, System::Net::Sockets::SocketFlags flags, int& error, bool blocking);
     // static private System.Int32 Receive_internal(System.IntPtr sock, System.Net.Sockets.Socket/WSABUF* bufarray, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF60368
+    // Offset: 0xF71DAC
     static int Receive_internal(System::IntPtr sock, System::Net::Sockets::Socket::WSABUF* bufarray, int count, System::Net::Sockets::SocketFlags flags, int& error, bool blocking);
     // static private System.Int32 Receive_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF60150
+    // Offset: 0xF71B94
     static int Receive_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, int& error, bool blocking);
     // static private System.Int32 Receive_internal(System.IntPtr sock, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF60370
+    // Offset: 0xF71DB4
     static int Receive_internal(System::IntPtr sock, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, int& error, bool blocking);
     // System.Int32 ReceiveFrom(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.EndPoint remoteEP, System.Net.Sockets.SocketError errorCode)
-    // Offset: 0xF60378
+    // Offset: 0xF71DBC
     int ReceiveFrom(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::Net::EndPoint*& remoteEP, System::Net::Sockets::SocketError& errorCode);
     // public System.Int32 EndReceiveFrom(System.IAsyncResult asyncResult, System.Net.EndPoint endPoint)
-    // Offset: 0xF60630
+    // Offset: 0xF72074
     int EndReceiveFrom(System::IAsyncResult* asyncResult, System::Net::EndPoint*& endPoint);
     // static private System.Int32 ReceiveFrom_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Net.SocketAddress sockaddr, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF6051C
+    // Offset: 0xF71F60
     static int ReceiveFrom_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, System::Net::SocketAddress*& sockaddr, int& error, bool blocking);
     // static private System.Int32 ReceiveFrom_internal(System.IntPtr sock, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Net.SocketAddress sockaddr, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF60738
+    // Offset: 0xF7217C
     static int ReceiveFrom_internal(System::IntPtr sock, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, System::Net::SocketAddress*& sockaddr, int& error, bool blocking);
     // public System.Int32 Send(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError errorCode)
-    // Offset: 0xF5CBDC
+    // Offset: 0xF6E620
     int Send(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::Net::Sockets::SocketError& errorCode);
     // public System.Int32 Send(System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> buffers, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError errorCode)
-    // Offset: 0xF5C664
+    // Offset: 0xF6E0A8
     int Send(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* buffers, System::Net::Sockets::SocketFlags socketFlags, System::Net::Sockets::SocketError& errorCode);
     // public System.IAsyncResult BeginSend(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError errorCode, System.AsyncCallback callback, System.Object state)
-    // Offset: 0xF5D448
+    // Offset: 0xF6EE8C
     System::IAsyncResult* BeginSend(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::Net::Sockets::SocketError& errorCode, System::AsyncCallback* callback, ::CsObject* state);
     // static private System.Void BeginSendCallback(System.Net.Sockets.SocketAsyncResult sockares, System.Int32 sent_so_far)
-    // Offset: 0xF60958
+    // Offset: 0xF7239C
     static void BeginSendCallback(System::Net::Sockets::SocketAsyncResult* sockares, int sent_so_far);
     // public System.Int32 EndSend(System.IAsyncResult asyncResult, System.Net.Sockets.SocketError errorCode)
-    // Offset: 0xF5D640
+    // Offset: 0xF6F084
     int EndSend(System::IAsyncResult* asyncResult, System::Net::Sockets::SocketError& errorCode);
     // static private System.Int32 Send_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.Socket/WSABUF* bufarray, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF6084C
+    // Offset: 0xF72290
     static int Send_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::Socket::WSABUF* bufarray, int count, System::Net::Sockets::SocketFlags flags, int& error, bool blocking);
     // static private System.Int32 Send_internal(System.IntPtr sock, System.Net.Sockets.Socket/WSABUF* bufarray, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF60C28
+    // Offset: 0xF7266C
     static int Send_internal(System::IntPtr sock, System::Net::Sockets::Socket::WSABUF* bufarray, int count, System::Net::Sockets::SocketFlags flags, int& error, bool blocking);
     // static private System.Int32 Send_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF60740
+    // Offset: 0xF72184
     static int Send_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, int& error, bool blocking);
     // static private System.Int32 Send_internal(System.IntPtr sock, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32 error, System.Boolean blocking)
-    // Offset: 0xF60C30
+    // Offset: 0xF72674
     static int Send_internal(System::IntPtr sock, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, int& error, bool blocking);
     // public System.Int32 EndSendTo(System.IAsyncResult asyncResult)
-    // Offset: 0xF60C38
+    // Offset: 0xF7267C
     int EndSendTo(System::IAsyncResult* asyncResult);
     // public System.Object GetSocketOption(System.Net.Sockets.SocketOptionLevel optionLevel, System.Net.Sockets.SocketOptionName optionName)
-    // Offset: 0xF5C370
+    // Offset: 0xF6DDB4
     ::CsObject* GetSocketOption(System::Net::Sockets::SocketOptionLevel optionLevel, System::Net::Sockets::SocketOptionName optionName);
     // static private System.Void GetSocketOption_obj_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.SocketOptionLevel level, System.Net.Sockets.SocketOptionName name, System.Object obj_val, System.Int32 error)
-    // Offset: 0xF60CE8
+    // Offset: 0xF7272C
     static void GetSocketOption_obj_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ::CsObject*& obj_val, int& error);
     // static private System.Void GetSocketOption_obj_internal(System.IntPtr socket, System.Net.Sockets.SocketOptionLevel level, System.Net.Sockets.SocketOptionName name, System.Object obj_val, System.Int32 error)
-    // Offset: 0xF60E08
+    // Offset: 0xF7284C
     static void GetSocketOption_obj_internal(System::IntPtr socket, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ::CsObject*& obj_val, int& error);
     // public System.Void SetSocketOption(System.Net.Sockets.SocketOptionLevel optionLevel, System.Net.Sockets.SocketOptionName optionName, System.Int32 optionValue)
-    // Offset: 0xF5C0CC
+    // Offset: 0xF6DB10
     void SetSocketOption(System::Net::Sockets::SocketOptionLevel optionLevel, System::Net::Sockets::SocketOptionName optionName, int optionValue);
     // static private System.Void SetSocketOption_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.SocketOptionLevel level, System.Net.Sockets.SocketOptionName name, System.Object obj_val, System.Byte[] byte_val, System.Int32 int_val, System.Int32 error)
-    // Offset: 0xF60E0C
+    // Offset: 0xF72850
     static void SetSocketOption_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ::CsObject* obj_val, ::Array<uint8_t>* byte_val, int int_val, int& error);
     // static private System.Void SetSocketOption_internal(System.IntPtr socket, System.Net.Sockets.SocketOptionLevel level, System.Net.Sockets.SocketOptionName name, System.Object obj_val, System.Byte[] byte_val, System.Int32 int_val, System.Int32 error)
-    // Offset: 0xF60F44
+    // Offset: 0xF72988
     static void SetSocketOption_internal(System::IntPtr socket, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ::CsObject* obj_val, ::Array<uint8_t>* byte_val, int int_val, int& error);
     // public System.Void Close()
-    // Offset: 0xF60F48
+    // Offset: 0xF7298C
     void Close();
     // public System.Void Close(System.Int32 timeout)
-    // Offset: 0xF59C00
+    // Offset: 0xF6B644
     void Close(int timeout);
     // static System.Void Close_internal(System.IntPtr socket, System.Int32 error)
-    // Offset: 0xF5B354
+    // Offset: 0xF6CD98
     static void Close_internal(System::IntPtr socket, int& error);
     // static private System.Void Shutdown_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.SocketShutdown how, System.Int32 error)
-    // Offset: 0xF5DBB4
+    // Offset: 0xF6F5F8
     static void Shutdown_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::SocketShutdown how, int& error);
     // static System.Void Shutdown_internal(System.IntPtr socket, System.Net.Sockets.SocketShutdown how, System.Int32 error)
-    // Offset: 0xF5B34C
+    // Offset: 0xF6CD90
     static void Shutdown_internal(System::IntPtr socket, System::Net::Sockets::SocketShutdown how, int& error);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xF60F50
+    // Offset: 0xF72994
     void Dispose(bool disposing);
     // private System.Void Linger(System.IntPtr handle)
-    // Offset: 0xF60FC0
+    // Offset: 0xF72A04
     void Linger(System::IntPtr handle);
     // private System.Void ThrowIfDisposedAndClosed()
-    // Offset: 0xF5DE18
+    // Offset: 0xF6F85C
     void ThrowIfDisposedAndClosed();
     // private System.Void ThrowIfBufferNull(System.Byte[] buffer)
-    // Offset: 0xF5FFA8
+    // Offset: 0xF719EC
     void ThrowIfBufferNull(::Array<uint8_t>* buffer);
     // private System.Void ThrowIfBufferOutOfRange(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0xF60028
+    // Offset: 0xF71A6C
     void ThrowIfBufferOutOfRange(::Array<uint8_t>* buffer, int offset, int size);
     // private System.Void ThrowIfUdp()
-    // Offset: 0xF5E3E8
+    // Offset: 0xF6FE2C
     void ThrowIfUdp();
     // private System.Net.Sockets.SocketAsyncResult ValidateEndIAsyncResult(System.IAsyncResult ares, System.String methodName, System.String argName)
-    // Offset: 0xF5EBB0
+    // Offset: 0xF705F4
     System::Net::Sockets::SocketAsyncResult* ValidateEndIAsyncResult(System::IAsyncResult* ares, ::CsString* methodName, ::CsString* argName);
     // private System.Void QueueIOSelectorJob(System.Threading.SemaphoreSlim sem, System.IntPtr handle, System.IOSelectorJob job)
-    // Offset: 0xF5E94C
+    // Offset: 0xF70390
     void QueueIOSelectorJob(System::Threading::SemaphoreSlim* sem, System::IntPtr handle, System::IOSelectorJob* job);
     // private System.Net.IPEndPoint RemapIPEndPoint(System.Net.IPEndPoint input)
-    // Offset: 0xF5EE6C
+    // Offset: 0xF708B0
     System::Net::IPEndPoint* RemapIPEndPoint(System::Net::IPEndPoint* input);
     // static System.Void cancel_blocking_socket_operation(System.Threading.Thread thread)
-    // Offset: 0xF5B350
+    // Offset: 0xF6CD94
     static void cancel_blocking_socket_operation(System::Threading::Thread* thread);
     // static System.Int32 get_FamilyHint()
-    // Offset: 0xF55B74
+    // Offset: 0xF675B8
     static int get_FamilyHint();
     // static private System.Boolean IsProtocolSupported_internal(System.Net.NetworkInformation.NetworkInterfaceComponent networkInterface)
-    // Offset: 0xF6113C
+    // Offset: 0xF72B80
     static bool IsProtocolSupported_internal(System::Net::NetworkInformation::NetworkInterfaceComponent networkInterface);
     // static private System.Boolean IsProtocolSupported(System.Net.NetworkInformation.NetworkInterfaceComponent networkInterface)
-    // Offset: 0xF5DA60
+    // Offset: 0xF6F4A4
     static bool IsProtocolSupported(System::Net::NetworkInformation::NetworkInterfaceComponent networkInterface);
     // static private System.Void .cctor()
-    // Offset: 0xF61140
+    // Offset: 0xF72B84
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0xF5DAC4
+    // Offset: 0xF6F508
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -606,12 +604,12 @@ namespace System::Net::Sockets {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0xF5DB40
+    // Offset: 0xF6F584
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Net.Sockets.Socket
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket*, "System.Net.Sockets", "Socket");
 #pragma pack(pop)

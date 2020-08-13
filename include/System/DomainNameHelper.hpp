@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -14,40 +12,40 @@ namespace System {
   class DomainNameHelper : public ::CsObject {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, System.Boolean loopback)
-    // Offset: 0xF4C35C
+    // Offset: 0xF5DDA0
     static ::CsString* ParseCanonicalName(::CsString* str, int start, int end, bool& loopback);
     // static System.Boolean IsValid(System.Char* name, System.UInt16 pos, System.Int32 returnedEnd, System.Boolean notCanonical, System.Boolean notImplicitFile)
-    // Offset: 0xF4C4F4
+    // Offset: 0xF5DF38
     static bool IsValid(::Il2CppChar* name, uint16_t pos, int& returnedEnd, bool& notCanonical, bool notImplicitFile);
     // static System.Boolean IsValidByIri(System.Char* name, System.UInt16 pos, System.Int32 returnedEnd, System.Boolean notCanonical, System.Boolean notImplicitFile)
-    // Offset: 0xF4C720
+    // Offset: 0xF5E164
     static bool IsValidByIri(::Il2CppChar* name, uint16_t pos, int& returnedEnd, bool& notCanonical, bool notImplicitFile);
     // static System.String IdnEquivalent(System.Char* hostname, System.Int32 start, System.Int32 end, System.Boolean allAscii, System.Boolean atLeastOneValidIdn)
-    // Offset: 0xF4C908
+    // Offset: 0xF5E34C
     static ::CsString* IdnEquivalent(::Il2CppChar* hostname, int start, int end, bool& allAscii, bool& atLeastOneValidIdn);
     // static System.String IdnEquivalent(System.Char* hostname, System.Int32 start, System.Int32 end, System.Boolean allAscii, System.String bidiStrippedHost)
-    // Offset: 0xF4CB88
+    // Offset: 0xF5E5CC
     static ::CsString* IdnEquivalent(::Il2CppChar* hostname, int start, int end, bool& allAscii, ::CsString*& bidiStrippedHost);
     // static private System.Boolean IsIdnAce(System.String input, System.Int32 index)
-    // Offset: 0xF4CDD0
+    // Offset: 0xF5E814
     static bool IsIdnAce(::CsString* input, int index);
     // static private System.Boolean IsIdnAce(System.Char* input, System.Int32 index)
-    // Offset: 0xF4CD84
+    // Offset: 0xF5E7C8
     static bool IsIdnAce(::Il2CppChar* input, int index);
     // static System.String UnicodeEquivalent(System.String idnHost, System.Char* hostname, System.Int32 start, System.Int32 end)
-    // Offset: 0xF4CE6C
+    // Offset: 0xF5E8B0
     static ::CsString* UnicodeEquivalent(::CsString* idnHost, ::Il2CppChar* hostname, int start, int end);
     // static System.String UnicodeEquivalent(System.Char* hostname, System.Int32 start, System.Int32 end, System.Boolean allAscii, System.Boolean atLeastOneValidIdn)
-    // Offset: 0xF4CF94
+    // Offset: 0xF5E9D8
     static ::CsString* UnicodeEquivalent(::Il2CppChar* hostname, int start, int end, bool& allAscii, bool& atLeastOneValidIdn);
     // static private System.Boolean IsASCIILetterOrDigit(System.Char character, System.Boolean notCanonical)
-    // Offset: 0xF4C670
+    // Offset: 0xF5E0B4
     static bool IsASCIILetterOrDigit(::Il2CppChar character, bool& notCanonical);
     // static private System.Boolean IsValidDomainLabelCharacter(System.Char character, System.Boolean notCanonical)
-    // Offset: 0xF4C6BC
+    // Offset: 0xF5E100
     static bool IsValidDomainLabelCharacter(::Il2CppChar character, bool& notCanonical);
   }; // System.DomainNameHelper
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DomainNameHelper*, "System", "DomainNameHelper");
 #pragma pack(pop)

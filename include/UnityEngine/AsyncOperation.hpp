@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.YieldInstruction
 #include "UnityEngine/YieldInstruction.hpp"
 // Including type: System.IntPtr
@@ -29,42 +30,42 @@ namespace UnityEngine {
     // Offset: 0x18
     System::Action_1<UnityEngine::AsyncOperation*>* m_completeCallback;
     // static private System.Void InternalDestroy(System.IntPtr ptr)
-    // Offset: 0x12E9CF8
+    // Offset: 0x12FC73C
     static void InternalDestroy(System::IntPtr ptr);
     // public System.Boolean get_isDone()
-    // Offset: 0x12E9D38
+    // Offset: 0x12FC77C
     bool get_isDone();
     // public System.Single get_progress()
-    // Offset: 0x12E9D78
+    // Offset: 0x12FC7BC
     float get_progress();
     // public System.Void set_priority(System.Int32 value)
-    // Offset: 0x12E9DB8
+    // Offset: 0x12FC7FC
     void set_priority(int value);
     // public System.Void set_allowSceneActivation(System.Boolean value)
-    // Offset: 0x12E9E08
+    // Offset: 0x12FC84C
     void set_allowSceneActivation(bool value);
     // System.Void InvokeCompletionEvent()
-    // Offset: 0x12E9EF4
+    // Offset: 0x12FC938
     void InvokeCompletionEvent();
     // public System.Void add_completed(System.Action`1<UnityEngine.AsyncOperation> value)
-    // Offset: 0x12E9F6C
+    // Offset: 0x12FC9B0
     void add_completed(System::Action_1<UnityEngine::AsyncOperation*>* value);
     // public System.Void remove_completed(System.Action`1<UnityEngine.AsyncOperation> value)
-    // Offset: 0x12EA054
+    // Offset: 0x12FCA98
     void remove_completed(System::Action_1<UnityEngine::AsyncOperation*>* value);
     // protected override System.Void Finalize()
-    // Offset: 0x12E9E58
+    // Offset: 0x12FC89C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void .ctor()
-    // Offset: 0x12EA0E4
+    // Offset: 0x12FCB28
     // Implemented from: UnityEngine.YieldInstruction
     // Base method: System.Void YieldInstruction::.ctor()
     // Base method: System.Void Object::.ctor()
     static AsyncOperation* New_ctor();
   }; // UnityEngine.AsyncOperation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
 #pragma pack(pop)

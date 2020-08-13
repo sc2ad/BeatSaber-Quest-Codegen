@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVR.OpenVR.CVRSystem
 #include "OVR/OpenVR/CVRSystem.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.IVRSystem
 #include "OVR/OpenVR/IVRSystem.hpp"
 // Completed includes
@@ -26,6 +27,6 @@ namespace OVR::OpenVR {
     GetControllerStateUnion(OVR::OpenVR::IVRSystem::_GetControllerState* pGetControllerState_ = {}, OVR::OpenVR::CVRSystem::_GetControllerStatePacked* pGetControllerStatePacked_ = {}) : pGetControllerState{pGetControllerState_}, pGetControllerStatePacked{pGetControllerStatePacked_} {}
   }; // OVR.OpenVR.CVRSystem/GetControllerStateUnion
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::GetControllerStateUnion, "OVR.OpenVR", "CVRSystem/GetControllerStateUnion");
 #pragma pack(pop)

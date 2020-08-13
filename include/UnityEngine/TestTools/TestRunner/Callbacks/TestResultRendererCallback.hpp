@@ -31,22 +31,22 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x18
     UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* m_ResultRenderer;
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0xE2F6EC
+    // Offset: 0xE42130
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE2F6F0
+    // Offset: 0xE42134
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void OnGUI()
-    // Offset: 0xE2F7E8
+    // Offset: 0xE4222C
     void OnGUI();
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE2F7F8
+    // Offset: 0xE4223C
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE2F7FC
+    // Offset: 0xE42240
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0xE2F800
+    // Offset: 0xE42244
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -56,6 +56,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     static TestResultRendererCallback* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRendererCallback");
 #pragma pack(pop)

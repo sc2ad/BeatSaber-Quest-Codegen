@@ -24,22 +24,22 @@ namespace JetBrains::Annotations {
     // Offset: 0x14
     JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseKindFlags useKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
-    // Offset: 0x12E6C30
+    // Offset: 0x12F9674
     static UsedImplicitlyAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
     // private System.Void set_UseKindFlags(JetBrains.Annotations.ImplicitUseKindFlags value)
-    // Offset: 0x12E6C68
+    // Offset: 0x12F96AC
     void set_UseKindFlags(JetBrains::Annotations::ImplicitUseKindFlags value);
     // private System.Void set_TargetFlags(JetBrains.Annotations.ImplicitUseTargetFlags value)
-    // Offset: 0x12E6C70
+    // Offset: 0x12F96B4
     void set_TargetFlags(JetBrains::Annotations::ImplicitUseTargetFlags value);
     // public System.Void .ctor()
-    // Offset: 0x12E6C00
+    // Offset: 0x12F9644
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static UsedImplicitlyAttribute* New_ctor();
   }; // JetBrains.Annotations.UsedImplicitlyAttribute
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::UsedImplicitlyAttribute*, "JetBrains.Annotations", "UsedImplicitlyAttribute");
 #pragma pack(pop)

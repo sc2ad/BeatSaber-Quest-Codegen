@@ -87,58 +87,58 @@ namespace RootMotion::FinalIK {
     // Offset: 0x70
     ::Array<bool>* disabledIKComponents;
     // public System.Void EnableRagdoll()
-    // Offset: 0x121BBC0
+    // Offset: 0x122D604
     void EnableRagdoll();
     // public System.Void DisableRagdoll()
-    // Offset: 0x121BC70
+    // Offset: 0x122D6B4
     void DisableRagdoll();
     // public System.Void Start()
-    // Offset: 0x121BDAC
+    // Offset: 0x122D7F0
     void Start();
     // private System.Collections.IEnumerator DisableRagdollSmooth()
-    // Offset: 0x121BD30
+    // Offset: 0x122D774
     System::Collections::IEnumerator* DisableRagdollSmooth();
     // private System.Void Update()
-    // Offset: 0x121C434
+    // Offset: 0x122DE78
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0x121C680
+    // Offset: 0x122E0C4
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x121C738
+    // Offset: 0x122E17C
     void LateUpdate();
     // private System.Void AfterLastIK()
-    // Offset: 0x121C978
+    // Offset: 0x122E3BC
     void AfterLastIK();
     // private System.Void AfterAnimation()
-    // Offset: 0x121C7B8
+    // Offset: 0x122E1FC
     void AfterAnimation();
     // private System.Void OnFinalPose()
-    // Offset: 0x121C934
+    // Offset: 0x122E378
     void OnFinalPose();
     // private System.Void RagdollEnabler()
-    // Offset: 0x121CA14
+    // Offset: 0x122E458
     void RagdollEnabler();
     // private System.Boolean get_isRagdoll()
-    // Offset: 0x121BBF8
+    // Offset: 0x122D63C
     bool get_isRagdoll();
     // private System.Void RecordVelocities()
-    // Offset: 0x121C9AC
+    // Offset: 0x122E3F0
     void RecordVelocities();
     // private System.Boolean get_ikUsed()
-    // Offset: 0x121C7F4
+    // Offset: 0x122E238
     bool get_ikUsed();
     // private System.Void StoreLocalState()
-    // Offset: 0x121BCC8
+    // Offset: 0x122D70C
     void StoreLocalState();
     // private System.Void FixTransforms(System.Single weight)
-    // Offset: 0x121C6C0
+    // Offset: 0x122E104
     void FixTransforms(float weight);
     // private System.Void OnDestroy()
-    // Offset: 0x121D1B8
+    // Offset: 0x122EBFC
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x121D2E0
+    // Offset: 0x122ED24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -148,6 +148,6 @@ namespace RootMotion::FinalIK {
     static RagdollUtility* New_ctor();
   }; // RootMotion.FinalIK.RagdollUtility
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility*, "RootMotion.FinalIK", "RagdollUtility");
 #pragma pack(pop)

@@ -46,28 +46,28 @@ namespace GlobalNamespace {
     // Offset: 0x34
     bool comboLost;
     // protected System.Void Start()
-    // Offset: 0xBCC2A0
+    // Offset: 0xBDECE4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xBCC4B0
+    // Offset: 0xBDEEF4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xBCC4B4
+    // Offset: 0xBDEEF8
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0xBCC31C
+    // Offset: 0xBDED60
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0xBCC4B8
+    // Offset: 0xBDEEFC
     void UnregisterFromEvents();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0xBCC5D8
+    // Offset: 0xBDF01C
     void HandleComboDidChange(int combo);
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0xBCC61C
+    // Offset: 0xBDF060
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0xBCC654
+    // Offset: 0xBDF098
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -77,6 +77,6 @@ namespace GlobalNamespace {
     static ComboUIController* New_ctor();
   }; // ComboUIController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboUIController*, "", "ComboUIController");
 #pragma pack(pop)

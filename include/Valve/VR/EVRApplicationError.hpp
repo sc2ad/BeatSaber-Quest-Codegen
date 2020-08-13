@@ -146,6 +146,6 @@ namespace Valve::VR {
     EVRApplicationError(int value_ = {}) : value{value_} {}
   }; // Valve.VR.EVRApplicationError
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRApplicationError, "Valve.VR", "EVRApplicationError");
 #pragma pack(pop)

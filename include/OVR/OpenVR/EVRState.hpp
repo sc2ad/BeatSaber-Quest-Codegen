@@ -74,6 +74,6 @@ namespace OVR::OpenVR {
     EVRState(int value_ = {}) : value{value_} {}
   }; // OVR.OpenVR.EVRState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRState, "OVR.OpenVR", "EVRState");
 #pragma pack(pop)

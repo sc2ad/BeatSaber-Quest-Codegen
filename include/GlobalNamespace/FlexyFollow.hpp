@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::Transform* transform;
     // protected System.Void Start()
-    // Offset: 0xC9C0CC
+    // Offset: 0xCAEB10
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0xC9C244
+    // Offset: 0xCAEC88
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC9C3D8
+    // Offset: 0xCAEE1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,6 +66,6 @@ namespace GlobalNamespace {
     static FlexyFollow* New_ctor();
   }; // FlexyFollow
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollow*, "", "FlexyFollow");
 #pragma pack(pop)

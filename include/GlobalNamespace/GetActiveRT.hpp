@@ -22,16 +22,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::RenderBuffer depthBuffer;
     // public UnityEngine.RenderBuffer get_ColorBuffer()
-    // Offset: 0xB40878
+    // Offset: 0xB3E878
     UnityEngine::RenderBuffer get_ColorBuffer();
     // public UnityEngine.RenderBuffer get_DepthBuffer()
-    // Offset: 0xB40884
+    // Offset: 0xB3E884
     UnityEngine::RenderBuffer get_DepthBuffer();
     // private System.Void OnPreRender()
-    // Offset: 0xB40890
+    // Offset: 0xB3E890
     void OnPreRender();
     // public System.Void .ctor()
-    // Offset: 0xB40908
+    // Offset: 0xB3E908
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -41,6 +41,6 @@ namespace GlobalNamespace {
     static GetActiveRT* New_ctor();
   }; // GetActiveRT
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetActiveRT*, "", "GetActiveRT");
 #pragma pack(pop)

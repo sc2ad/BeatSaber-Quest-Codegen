@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: BeatmapObjectExecutionRatingsRecorder/CutScoreHandler
 #include "GlobalNamespace/BeatmapObjectExecutionRatingsRecorder_CutScoreHandler.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace GlobalNamespace {
   class BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xB57E48
+    // Offset: 0xB55E48
     static BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0xB5898C
+    // Offset: 0xB5698C
     void Invoke(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler);
     // public System.IAsyncResult BeginInvoke(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xB58D44
+    // Offset: 0xB56D44
     System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xB58D68
+    // Offset: 0xB56D68
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback*, "", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngineInternal.Input.NativeInputUpdateType
 #include "UnityEngineInternal/Input/NativeInputUpdateType.hpp"
 // Completed includes
@@ -53,25 +51,25 @@ namespace UnityEngineInternal::Input {
     // Set static field: static private System.Action`2<System.Int32,System.String> s_OnDeviceDiscoveredCallback
     static void _set_s_OnDeviceDiscoveredCallback(System::Action_2<int, ::CsString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19664B0
+    // Offset: 0x1978EF4
     static void _cctor();
     // static System.Void NotifyBeforeUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType)
-    // Offset: 0x196652C
+    // Offset: 0x1978F70
     static void NotifyBeforeUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType);
     // static System.Void NotifyUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, System.IntPtr eventBuffer)
-    // Offset: 0x19665B8
+    // Offset: 0x1978FFC
     static void NotifyUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, System::IntPtr eventBuffer);
     // static System.Void NotifyDeviceDiscovered(System.Int32 deviceId, System.String deviceDescriptor)
-    // Offset: 0x19668E0
+    // Offset: 0x1979324
     static void NotifyDeviceDiscovered(int deviceId, ::CsString* deviceDescriptor);
     // static System.Void ShouldRunUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, System.Boolean retval)
-    // Offset: 0x1966980
+    // Offset: 0x19793C4
     static void ShouldRunUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, bool& retval);
     // static System.Void set_hasDeviceDiscoveredCallback(System.Boolean value)
-    // Offset: 0x19664EC
+    // Offset: 0x1978F30
     static void set_hasDeviceDiscoveredCallback(bool value);
   }; // UnityEngineInternal.Input.NativeInputSystem
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputSystem*, "UnityEngineInternal.Input", "NativeInputSystem");
 #pragma pack(pop)

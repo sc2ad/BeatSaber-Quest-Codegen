@@ -50,20 +50,20 @@ namespace HMUI {
     // Offset: 0xB8
     UnityEngine::Color selectedHighlightBGColor;
     // private System.Void RefreshVisuals()
-    // Offset: 0x10D4720
+    // Offset: 0x10E5164
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x10D471C
+    // Offset: 0x10E5160
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x10D482C
+    // Offset: 0x10E5270
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x10D4830
+    // Offset: 0x10E5274
     // Implemented from: HMUI.TextSegmentedControlCellBase
     // Base method: System.Void TextSegmentedControlCellBase::.ctor()
     // Base method: System.Void SegmentedControlCell::.ctor()
@@ -76,6 +76,6 @@ namespace HMUI {
     static TextSegmentedControlCellNew* New_ctor();
   }; // HMUI.TextSegmentedControlCellNew
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControlCellNew*, "HMUI", "TextSegmentedControlCellNew");
 #pragma pack(pop)

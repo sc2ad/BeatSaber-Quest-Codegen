@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: UnityEngine.GUI
 #include "UnityEngine/GUI.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace UnityEngine {
   class GUI::WindowFunction : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1252C4C
+    // Offset: 0x1265690
     static GUI::WindowFunction* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Int32 id)
-    // Offset: 0x1252774
+    // Offset: 0x12651B8
     void Invoke(int id);
     // public System.IAsyncResult BeginInvoke(System.Int32 id, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1252C60
+    // Offset: 0x12656A4
     System::IAsyncResult* BeginInvoke(int id, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1252CEC
+    // Offset: 0x1265730
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUI/WindowFunction
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUI::WindowFunction*, "UnityEngine", "GUI/WindowFunction");
 #pragma pack(pop)

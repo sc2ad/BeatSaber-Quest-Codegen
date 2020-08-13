@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.CustomYieldInstruction
 #include "UnityEngine/CustomYieldInstruction.hpp"
 // Completed includes
@@ -24,15 +25,15 @@ namespace UnityEngine {
     // Offset: 0x10
     System::Func_1<bool>* m_Predicate;
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)
-    // Offset: 0x13842DC
+    // Offset: 0x1396D20
     static WaitUntil* New_ctor(System::Func_1<bool>* predicate);
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x1384278
+    // Offset: 0x1396CBC
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();
   }; // UnityEngine.WaitUntil
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitUntil*, "UnityEngine", "WaitUntil");
 #pragma pack(pop)

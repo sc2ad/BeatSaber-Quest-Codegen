@@ -44,6 +44,6 @@ namespace UnityEngine::Bindings {
     StaticAccessorType(int value_ = {}) : value{value_} {}
   }; // UnityEngine.Bindings.StaticAccessorType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::StaticAccessorType, "UnityEngine.Bindings", "StaticAccessorType");
 #pragma pack(pop)

@@ -41,35 +41,35 @@ namespace UnityEngine::Timeline {
     // Offset: 0x30
     UnityEngine::Timeline::SignalAsset* m_Asset;
     // public System.Boolean get_retroactive()
-    // Offset: 0x10896D0
+    // Offset: 0x1099114
     bool get_retroactive();
     // public System.Void set_retroactive(System.Boolean value)
-    // Offset: 0x10896D8
+    // Offset: 0x109911C
     void set_retroactive(bool value);
     // public System.Boolean get_emitOnce()
-    // Offset: 0x10896E4
+    // Offset: 0x1099128
     bool get_emitOnce();
     // public System.Void set_emitOnce(System.Boolean value)
-    // Offset: 0x10896EC
+    // Offset: 0x1099130
     void set_emitOnce(bool value);
     // public UnityEngine.Timeline.SignalAsset get_asset()
-    // Offset: 0x10896F8
+    // Offset: 0x109913C
     UnityEngine::Timeline::SignalAsset* get_asset();
     // public System.Void set_asset(UnityEngine.Timeline.SignalAsset value)
-    // Offset: 0x1089700
+    // Offset: 0x1099144
     void set_asset(UnityEngine::Timeline::SignalAsset* value);
     // private UnityEngine.PropertyName UnityEngine.Playables.INotification.get_id()
-    // Offset: 0x1089708
+    // Offset: 0x109914C
     // Implemented from: UnityEngine.Playables.INotification
     // Base method: UnityEngine.PropertyName INotification::get_id()
     UnityEngine::PropertyName UnityEngine_Playables_INotification_get_id();
     // private UnityEngine.Timeline.NotificationFlags UnityEngine.Timeline.INotificationOptionProvider.get_flags()
-    // Offset: 0x10897CC
+    // Offset: 0x1099210
     // Implemented from: UnityEngine.Timeline.INotificationOptionProvider
     // Base method: UnityEngine.Timeline.NotificationFlags INotificationOptionProvider::get_flags()
     UnityEngine::Timeline::NotificationFlags UnityEngine_Timeline_INotificationOptionProvider_get_flags();
     // public System.Void .ctor()
-    // Offset: 0x10897F4
+    // Offset: 0x1099238
     // Implemented from: UnityEngine.Timeline.Marker
     // Base method: System.Void Marker::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -78,6 +78,6 @@ namespace UnityEngine::Timeline {
     static SignalEmitter* New_ctor();
   }; // UnityEngine.Timeline.SignalEmitter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalEmitter*, "UnityEngine.Timeline", "SignalEmitter");
 #pragma pack(pop)

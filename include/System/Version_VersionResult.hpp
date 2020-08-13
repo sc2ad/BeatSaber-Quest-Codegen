@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Version
 #include "System/Version.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Version/ParseFailureKind
 #include "System/Version_ParseFailureKind.hpp"
 // Completed includes
@@ -42,19 +42,19 @@ namespace System {
     // Creating value type constructor for type: VersionResult
     VersionResult(System::Version* m_parsedVersion_ = {}, System::Version::ParseFailureKind m_failure_ = {}, ::CsString* m_exceptionArgument_ = {}, ::CsString* m_argumentName_ = {}, bool m_canThrow_ = {}) : m_parsedVersion{m_parsedVersion_}, m_failure{m_failure_}, m_exceptionArgument{m_exceptionArgument_}, m_argumentName{m_argumentName_}, m_canThrow{m_canThrow_} {}
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
-    // Offset: 0xA53B20
+    // Offset: 0xA53B9C
     void Init(::CsString* argumentName, bool canThrow);
     // System.Void SetFailure(System.Version/ParseFailureKind failure)
-    // Offset: 0xA53B30
+    // Offset: 0xA53BAC
     void SetFailure(System::Version::ParseFailureKind failure);
     // System.Void SetFailure(System.Version/ParseFailureKind failure, System.String argument)
-    // Offset: 0xA53B38
+    // Offset: 0xA53BB4
     void SetFailure(System::Version::ParseFailureKind failure, ::CsString* argument);
     // System.Exception GetVersionParseException()
-    // Offset: 0xA53B40
+    // Offset: 0xA53BBC
     System::Exception* GetVersionParseException();
   }; // System.Version/VersionResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");
 #pragma pack(pop)

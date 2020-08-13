@@ -27,22 +27,22 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::CsString* stackTrace;
     // public System.String get_logString()
-    // Offset: 0xBCD488
+    // Offset: 0xBDFECC
     ::CsString* get_logString();
     // public System.String get_stackTrace()
-    // Offset: 0xBCD490
+    // Offset: 0xBDFED4
     ::CsString* get_stackTrace();
     // public System.Void StartCatchingExceptions()
-    // Offset: 0xBCD498
+    // Offset: 0xBDFEDC
     void StartCatchingExceptions();
     // protected System.Void OnDisable()
-    // Offset: 0xBCD50C
+    // Offset: 0xBDFF50
     void OnDisable();
     // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0xBCD580
+    // Offset: 0xBDFFC4
     void HandleLog(::CsString* logString, ::CsString* stackTrace, UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0xBCD620
+    // Offset: 0xBE0064
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -51,6 +51,6 @@ namespace GlobalNamespace {
     static CrashManagerSO* New_ctor();
   }; // CrashManagerSO
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashManagerSO*, "", "CrashManagerSO");
 #pragma pack(pop)

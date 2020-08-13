@@ -59,24 +59,24 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     GlobalNamespace::NoteCutInfo* noteCutInfo;
     // public System.Void InitAndPresent(NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
-    // Offset: 0xBDAC2C
+    // Offset: 0xBED670
     void InitAndPresent(GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
     // protected System.Void OnDisable()
-    // Offset: 0xBDAE04
+    // Offset: 0xBED848
     void OnDisable();
     // private System.Void HandleSaberSwingRatingCounterDidChangeEvent(SaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0xBDAF50
+    // Offset: 0xBED994
     void HandleSaberSwingRatingCounterDidChangeEvent(GlobalNamespace::SaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
-    // Offset: 0xBDADDC
+    // Offset: 0xBED820
     ::CsString* GetScoreText(int score);
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0xBDAEA4
+    // Offset: 0xBED8E8
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0xBDAFEC
+    // Offset: 0xBEDA30
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -87,6 +87,6 @@ namespace GlobalNamespace {
     static FlyingScoreEffect* New_ctor();
   }; // FlyingScoreEffect
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect*, "", "FlyingScoreEffect");
 #pragma pack(pop)

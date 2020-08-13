@@ -35,23 +35,23 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::UI::Image* highlightImage;
     // public System.Void set_settingsSubMenuText(System.String value)
-    // Offset: 0xBEBFA0
+    // Offset: 0xBFD9E4
     void set_settingsSubMenuText(::CsString* value);
     // public System.String get_settingsSubMenuText()
-    // Offset: 0xBEBFBC
+    // Offset: 0xBFDA00
     ::CsString* get_settingsSubMenuText();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBEBFD8
+    // Offset: 0xBFDA1C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBEC070
+    // Offset: 0xBFDAB4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xBEC0AC
+    // Offset: 0xBFDAF0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -63,6 +63,6 @@ namespace GlobalNamespace {
     static MainSettingsTableCell* New_ctor();
   }; // MainSettingsTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsTableCell*, "", "MainSettingsTableCell");
 #pragma pack(pop)

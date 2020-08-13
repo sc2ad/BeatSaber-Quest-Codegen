@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.ParameterizedStrings
 #include "System/ParameterizedStrings.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -24,22 +24,22 @@ namespace System {
     // Creating value type constructor for type: FormatParam
     FormatParam(int int32_ = {}, ::CsString* string_ = {}) : int32{int32_}, string{string_} {}
     // public System.Void .ctor(System.Int32 value)
-    // Offset: 0xA42FDC
+    // Offset: 0xA43058
     static ParameterizedStrings::FormatParam* New_ctor(int value);
     // private System.Void .ctor(System.Int32 intValue, System.String stringValue)
-    // Offset: 0xA42FEC
+    // Offset: 0xA43068
     static ParameterizedStrings::FormatParam* New_ctor(int intValue, ::CsString* stringValue);
     // public System.Int32 get_Int32()
-    // Offset: 0xA42FFC
+    // Offset: 0xA43078
     int get_Int32();
     // public System.String get_String()
-    // Offset: 0xA43004
+    // Offset: 0xA43080
     ::CsString* get_String();
     // public System.Object get_Object()
-    // Offset: 0xA43060
+    // Offset: 0xA430DC
     ::CsObject* get_Object();
   }; // System.ParameterizedStrings/FormatParam
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::FormatParam, "System", "ParameterizedStrings/FormatParam");
 #pragma pack(pop)

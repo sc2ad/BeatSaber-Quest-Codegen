@@ -27,13 +27,13 @@ namespace HMUI {
     // Offset: 0x48
     TMPro::TextMeshProUGUI* labelText;
     // public System.Void SetValueText(System.String text)
-    // Offset: 0xED297C
+    // Offset: 0xEE53C0
     void SetValueText(::CsString* text);
     // public System.Void SetLabelText(System.String text)
-    // Offset: 0xED2998
+    // Offset: 0xEE53DC
     void SetLabelText(::CsString* text);
     // public System.Void .ctor()
-    // Offset: 0xED29B4
+    // Offset: 0xEE53F8
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -44,6 +44,6 @@ namespace HMUI {
     static LabelAndValueDropdownWithTableView* New_ctor();
   }; // HMUI.LabelAndValueDropdownWithTableView
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::LabelAndValueDropdownWithTableView*, "HMUI", "LabelAndValueDropdownWithTableView");
 #pragma pack(pop)

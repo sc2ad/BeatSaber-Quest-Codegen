@@ -39,13 +39,13 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: RenderModel_t_Packed
     RenderModel_t_Packed(System::IntPtr rVertexData_ = {}, uint unVertexCount_ = {}, System::IntPtr rIndexData_ = {}, uint unTriangleCount_ = {}, int diffuseTextureId_ = {}) : rVertexData{rVertexData_}, unVertexCount{unVertexCount_}, rIndexData{rIndexData_}, unTriangleCount{unTriangleCount_}, diffuseTextureId{diffuseTextureId_} {}
     // public System.Void .ctor(OVR.OpenVR.RenderModel_t unpacked)
-    // Offset: 0xA28F88
+    // Offset: 0xA29004
     static RenderModel_t_Packed* New_ctor(OVR::OpenVR::RenderModel_t unpacked);
     // public System.Void Unpack(OVR.OpenVR.RenderModel_t unpacked)
-    // Offset: 0xA28FA8
+    // Offset: 0xA29024
     void Unpack(OVR::OpenVR::RenderModel_t& unpacked);
   }; // OVR.OpenVR.RenderModel_t_Packed
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_t_Packed, "OVR.OpenVR", "RenderModel_t_Packed");
 #pragma pack(pop)

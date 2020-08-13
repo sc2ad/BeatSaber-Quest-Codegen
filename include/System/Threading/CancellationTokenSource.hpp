@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
 // Including type: System.Int32
@@ -118,87 +116,87 @@ namespace System::Threading {
     // Set static field: static private readonly System.Threading.TimerCallback s_timerCallback
     static void _set_s_timerCallback(System::Threading::TimerCallback* value);
     // static private System.Void LinkedTokenCancelDelegate(System.Object source)
-    // Offset: 0x13C180C
+    // Offset: 0x13D2250
     static void LinkedTokenCancelDelegate(::CsObject* source);
     // public System.Boolean get_IsCancellationRequested()
-    // Offset: 0x13C0834
+    // Offset: 0x13D1278
     bool get_IsCancellationRequested();
     // System.Boolean get_IsCancellationCompleted()
-    // Offset: 0x13C15B8
+    // Offset: 0x13D1FFC
     bool get_IsCancellationCompleted();
     // System.Boolean get_IsDisposed()
-    // Offset: 0x13C18C0
+    // Offset: 0x13D2304
     bool get_IsDisposed();
     // System.Void set_ThreadIDExecutingCallbacks(System.Int32 value)
-    // Offset: 0x13C18C8
+    // Offset: 0x13D230C
     void set_ThreadIDExecutingCallbacks(int value);
     // System.Int32 get_ThreadIDExecutingCallbacks()
-    // Offset: 0x13C15E0
+    // Offset: 0x13D2024
     int get_ThreadIDExecutingCallbacks();
     // public System.Threading.CancellationToken get_Token()
-    // Offset: 0x13C18F0
+    // Offset: 0x13D2334
     System::Threading::CancellationToken get_Token();
     // System.Boolean get_CanBeCanceled()
-    // Offset: 0x13C0894
+    // Offset: 0x13D12D8
     bool get_CanBeCanceled();
     // System.Threading.CancellationCallbackInfo get_ExecutingCallback()
-    // Offset: 0x13C1990
+    // Offset: 0x13D23D4
     System::Threading::CancellationCallbackInfo* get_ExecutingCallback();
     // private System.Void .ctor(System.Boolean set)
-    // Offset: 0x13C19F4
+    // Offset: 0x13D2438
     static CancellationTokenSource* New_ctor(bool set);
     // public System.Void Cancel()
-    // Offset: 0x13C1898
+    // Offset: 0x13D22DC
     void Cancel();
     // public System.Void Cancel(System.Boolean throwOnFirstException)
-    // Offset: 0x13C1A48
+    // Offset: 0x13D248C
     void Cancel(bool throwOnFirstException);
     // static private System.Void TimerCallbackLogic(System.Object obj)
-    // Offset: 0x13C1BE4
+    // Offset: 0x13D2628
     static void TimerCallbackLogic(::CsObject* obj);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x13C1D90
+    // Offset: 0x13D27D4
     void Dispose(bool disposing);
     // System.Void ThrowIfDisposed()
-    // Offset: 0x13C1924
+    // Offset: 0x13D2368
     void ThrowIfDisposed();
     // static private System.Void ThrowObjectDisposedException()
-    // Offset: 0x13C1E9C
+    // Offset: 0x13D28E0
     static void ThrowObjectDisposedException();
     // static System.Threading.CancellationTokenSource InternalGetStaticSource(System.Boolean set)
-    // Offset: 0x13C1028
+    // Offset: 0x13D1A6C
     static System::Threading::CancellationTokenSource* InternalGetStaticSource(bool set);
     // System.Threading.CancellationTokenRegistration InternalRegister(System.Action`1<System.Object> callback, System.Object stateForCallback, System.Threading.SynchronizationContext targetSyncContext, System.Threading.ExecutionContext executionContext)
-    // Offset: 0x13C0C84
+    // Offset: 0x13D16C8
     System::Threading::CancellationTokenRegistration InternalRegister(System::Action_1<::CsObject*>* callback, ::CsObject* stateForCallback, System::Threading::SynchronizationContext* targetSyncContext, System::Threading::ExecutionContext* executionContext);
     // private System.Void NotifyCancellation(System.Boolean throwOnFirstException)
-    // Offset: 0x13C1A74
+    // Offset: 0x13D24B8
     void NotifyCancellation(bool throwOnFirstException);
     // private System.Void ExecuteCallbackHandlers(System.Boolean throwOnFirstException)
-    // Offset: 0x13C1FAC
+    // Offset: 0x13D29F0
     void ExecuteCallbackHandlers(bool throwOnFirstException);
     // private System.Void CancellationCallbackCoreWork_OnSyncContext(System.Object obj)
-    // Offset: 0x13C2504
+    // Offset: 0x13D2F48
     void CancellationCallbackCoreWork_OnSyncContext(::CsObject* obj);
     // private System.Void CancellationCallbackCoreWork(System.Threading.CancellationCallbackCoreWorkArguments args)
-    // Offset: 0x13C242C
+    // Offset: 0x13D2E70
     void CancellationCallbackCoreWork(System::Threading::CancellationCallbackCoreWorkArguments args);
     // static public System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken token1, System.Threading.CancellationToken token2)
-    // Offset: 0x13C258C
+    // Offset: 0x13D2FD0
     static System::Threading::CancellationTokenSource* CreateLinkedTokenSource(System::Threading::CancellationToken token1, System::Threading::CancellationToken token2);
     // System.Void WaitForCallbackToComplete(System.Threading.CancellationCallbackInfo callbackInfo)
-    // Offset: 0x13C1604
+    // Offset: 0x13D2048
     void WaitForCallbackToComplete(System::Threading::CancellationCallbackInfo* callbackInfo);
     // static private System.Void .cctor()
-    // Offset: 0x13C27C8
+    // Offset: 0x13D320C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13C19B4
+    // Offset: 0x13D23F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CancellationTokenSource* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x13C1D14
+    // Offset: 0x13D2758
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -207,6 +205,6 @@ namespace System::Threading {
     void System_IDisposable_Dispose();
   }; // System.Threading.CancellationTokenSource
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenSource*, "System.Threading", "CancellationTokenSource");
 #pragma pack(pop)

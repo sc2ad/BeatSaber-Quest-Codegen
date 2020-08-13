@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     TMPro::TextMeshProUGUI* text;
     // protected System.Void Start()
-    // Offset: 0xB5C96C
+    // Offset: 0xB5A96C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xB5C994
+    // Offset: 0xB5A994
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -37,6 +37,6 @@ namespace GlobalNamespace {
     static BetaBuildInfoText* New_ctor();
   }; // BetaBuildInfoText
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BetaBuildInfoText*, "", "BetaBuildInfoText");
 #pragma pack(pop)

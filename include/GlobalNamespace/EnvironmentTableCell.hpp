@@ -40,26 +40,26 @@ namespace GlobalNamespace {
     // Offset: 0x70
     UnityEngine::UI::Image* highlightImage;
     // public System.Void set_text(System.String value)
-    // Offset: 0xBD5F40
+    // Offset: 0xBE8984
     void set_text(::CsString* value);
     // public System.String get_text()
-    // Offset: 0xBD5F5C
+    // Offset: 0xBE89A0
     ::CsString* get_text();
     // private System.Void RefreshVisuals()
-    // Offset: 0xBD5F7C
+    // Offset: 0xBE89C0
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBD5F78
+    // Offset: 0xBE89BC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBD6058
+    // Offset: 0xBE8A9C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xBD605C
+    // Offset: 0xBE8AA0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()
@@ -71,6 +71,6 @@ namespace GlobalNamespace {
     static EnvironmentTableCell* New_ctor();
   }; // EnvironmentTableCell
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentTableCell*, "", "EnvironmentTableCell");
 #pragma pack(pop)

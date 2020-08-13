@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: Mono.Globalization.Unicode.SimpleCollator
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
@@ -52,6 +52,6 @@ namespace Mono::Globalization::Unicode {
     ExtenderType(int value_ = {}) : value{value_} {}
   }; // Mono.Globalization.Unicode.SimpleCollator/ExtenderType
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::ExtenderType, "Mono.Globalization.Unicode", "SimpleCollator/ExtenderType");
 #pragma pack(pop)

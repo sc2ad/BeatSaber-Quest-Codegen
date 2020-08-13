@@ -32,6 +32,6 @@ namespace UnityEngine {
     LightmapsMode(int value_ = {}) : value{value_} {}
   }; // UnityEngine.LightmapsMode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightmapsMode, "UnityEngine", "LightmapsMode");
 #pragma pack(pop)

@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x24
     UnityEngine::Vector3 offset;
     // public System.Void SnapPosition()
-    // Offset: 0xCA785C
+    // Offset: 0xCBA2A0
     void SnapPosition();
     // public System.Void .ctor()
-    // Offset: 0xCA7B3C
+    // Offset: 0xCBA580
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -33,6 +33,6 @@ namespace GlobalNamespace {
     static Snap* New_ctor();
   }; // Snap
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Snap*, "", "Snap");
 #pragma pack(pop)

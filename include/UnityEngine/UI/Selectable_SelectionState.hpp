@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Enum
-#include "System/Enum.hpp"
 // Including type: UnityEngine.UI.Selectable
 #include "UnityEngine/UI/Selectable.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
@@ -52,6 +52,6 @@ namespace UnityEngine::UI {
     SelectionState(int value_ = {}) : value{value_} {}
   }; // UnityEngine.UI.Selectable/SelectionState
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable::SelectionState, "UnityEngine.UI", "Selectable/SelectionState");
 #pragma pack(pop)

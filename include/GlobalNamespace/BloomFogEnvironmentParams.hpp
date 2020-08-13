@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     float offset;
     // public System.Void .ctor()
-    // Offset: 0x180BD9C
+    // Offset: 0x181C7E0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -29,6 +29,6 @@ namespace GlobalNamespace {
     static BloomFogEnvironmentParams* New_ctor();
   }; // BloomFogEnvironmentParams
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironmentParams*, "", "BloomFogEnvironmentParams");
 #pragma pack(pop)

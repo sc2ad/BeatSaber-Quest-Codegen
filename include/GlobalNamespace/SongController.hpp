@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Action* songDidFinishEvent;
     // public System.Void add_songDidFinishEvent(System.Action value)
-    // Offset: 0xB86D08
+    // Offset: 0xB9874C
     void add_songDidFinishEvent(System::Action* value);
     // public System.Void remove_songDidFinishEvent(System.Action value)
-    // Offset: 0xB86DAC
+    // Offset: 0xB987F0
     void remove_songDidFinishEvent(System::Action* value);
     // public System.Void SendSongDidFinishEvent()
-    // Offset: 0xB86E50
+    // Offset: 0xB98894
     void SendSongDidFinishEvent();
     // public System.Void StartSong()
     // Offset: 0xFFFFFFFF
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void ResumeSong();
     // protected System.Void .ctor()
-    // Offset: 0xB86E64
+    // Offset: 0xB988A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,6 +55,6 @@ namespace GlobalNamespace {
     static SongController* New_ctor();
   }; // SongController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongController*, "", "SongController");
 #pragma pack(pop)

@@ -135,85 +135,85 @@ namespace GlobalNamespace {
     // Offset: 0x88
     System::Collections::Generic::IList_1<GlobalNamespace::OVRBoneCapsule*>* Capsules;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0xF42954
+    // Offset: 0xF53398
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0xF4295C
+    // Offset: 0xF533A0
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xF42968
+    // Offset: 0xF533AC
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xF42970
+    // Offset: 0xF533B4
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xF4297C
+    // Offset: 0xF533C0
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xF42984
+    // Offset: 0xF533C8
     void set_IsDataHighConfidence(bool value);
     // public System.Collections.Generic.IList`1<OVRBone> get_Bones()
-    // Offset: 0xF42990
+    // Offset: 0xF533D4
     System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* get_Bones();
     // protected System.Void set_Bones(System.Collections.Generic.IList`1<OVRBone> value)
-    // Offset: 0xF42998
+    // Offset: 0xF533DC
     void set_Bones(System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* value);
     // public System.Collections.Generic.IList`1<OVRBone> get_BindPoses()
-    // Offset: 0xF429A0
+    // Offset: 0xF533E4
     System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* get_BindPoses();
     // private System.Void set_BindPoses(System.Collections.Generic.IList`1<OVRBone> value)
-    // Offset: 0xF429A8
+    // Offset: 0xF533EC
     void set_BindPoses(System::Collections::Generic::IList_1<GlobalNamespace::OVRBone*>* value);
     // public System.Collections.Generic.IList`1<OVRBoneCapsule> get_Capsules()
-    // Offset: 0xF429B0
+    // Offset: 0xF533F4
     System::Collections::Generic::IList_1<GlobalNamespace::OVRBoneCapsule*>* get_Capsules();
     // private System.Void set_Capsules(System.Collections.Generic.IList`1<OVRBoneCapsule> value)
-    // Offset: 0xF429B8
+    // Offset: 0xF533FC
     void set_Capsules(System::Collections::Generic::IList_1<GlobalNamespace::OVRBoneCapsule*>* value);
     // public OVRSkeleton/SkeletonType GetSkeletonType()
-    // Offset: 0xF429C0
+    // Offset: 0xF53404
     GlobalNamespace::OVRSkeleton::SkeletonType GetSkeletonType();
     // private System.Void Awake()
-    // Offset: 0xF429C8
+    // Offset: 0xF5340C
     void Awake();
     // private System.Void Start()
-    // Offset: 0xF42B50
+    // Offset: 0xF53594
     void Start();
     // private System.Void Initialize()
-    // Offset: 0xF42B64
+    // Offset: 0xF535A8
     void Initialize();
     // protected System.Void InitializeBones(OVRPlugin/Skeleton skeleton)
-    // Offset: 0xF43A1C
+    // Offset: 0xF54460
     void InitializeBones(GlobalNamespace::OVRPlugin::Skeleton skeleton);
     // private System.Void InitializeBindPose(OVRPlugin/Skeleton skeleton)
-    // Offset: 0xF42C44
+    // Offset: 0xF53688
     void InitializeBindPose(GlobalNamespace::OVRPlugin::Skeleton skeleton);
     // private System.Void InitializeCapsules(OVRPlugin/Skeleton skeleton)
-    // Offset: 0xF43190
+    // Offset: 0xF53BD4
     void InitializeCapsules(GlobalNamespace::OVRPlugin::Skeleton skeleton);
     // private System.Void Update()
-    // Offset: 0xF43F40
+    // Offset: 0xF54984
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0xF4430C
+    // Offset: 0xF54D50
     void FixedUpdate();
     // public OVRSkeleton/BoneId GetCurrentStartBoneId()
-    // Offset: 0xF445B0
+    // Offset: 0xF54FF4
     GlobalNamespace::OVRSkeleton::BoneId GetCurrentStartBoneId();
     // public OVRSkeleton/BoneId GetCurrentEndBoneId()
-    // Offset: 0xF445C0
+    // Offset: 0xF55004
     GlobalNamespace::OVRSkeleton::BoneId GetCurrentEndBoneId();
     // private OVRSkeleton/BoneId GetCurrentMaxSkinnableBoneId()
-    // Offset: 0xF445D4
+    // Offset: 0xF55018
     GlobalNamespace::OVRSkeleton::BoneId GetCurrentMaxSkinnableBoneId();
     // public System.Int32 GetCurrentNumBones()
-    // Offset: 0xF445E8
+    // Offset: 0xF5502C
     int GetCurrentNumBones();
     // public System.Int32 GetCurrentNumSkinnableBones()
-    // Offset: 0xF445FC
+    // Offset: 0xF55040
     int GetCurrentNumSkinnableBones();
     // public System.Void .ctor()
-    // Offset: 0xF44610
+    // Offset: 0xF55054
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -223,7 +223,7 @@ namespace GlobalNamespace {
     static OVRSkeleton* New_ctor();
   }; // OVRSkeleton
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton*, "", "OVRSkeleton");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::SkeletonType, "", "OVRSkeleton/SkeletonType");
 #pragma pack(pop)

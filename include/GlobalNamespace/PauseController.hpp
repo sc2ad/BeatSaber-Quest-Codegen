@@ -79,61 +79,61 @@ namespace GlobalNamespace {
     // Offset: 0x68
     bool paused;
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0xBBE4F8
+    // Offset: 0xBD0F3C
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0xBBE59C
+    // Offset: 0xBD0FE0
     void remove_didPauseEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0xBBE640
+    // Offset: 0xBD1084
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0xBBE6E4
+    // Offset: 0xBD1128
     void remove_didResumeEvent(System::Action* value);
     // public System.Void add_canPauseEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0xBBE788
+    // Offset: 0xBD11CC
     void add_canPauseEvent(System::Action_1<System::Action_1<bool>*>* value);
     // public System.Void remove_canPauseEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0xBBE82C
+    // Offset: 0xBD1270
     void remove_canPauseEvent(System::Action_1<System::Action_1<bool>*>* value);
     // private System.Boolean get_canPause()
-    // Offset: 0xBBE8D0
+    // Offset: 0xBD1314
     bool get_canPause();
     // private System.Void Start()
-    // Offset: 0xBBE9BC
+    // Offset: 0xBD1400
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBBEE8C
+    // Offset: 0xBD18D0
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0xBBF3F4
+    // Offset: 0xBD1E38
     void OnApplicationPause(bool pauseStatus);
     // public System.Void Pause()
-    // Offset: 0xBBF400
+    // Offset: 0xBD1E44
     void Pause();
     // private System.Void HandlePauseTriggered()
-    // Offset: 0xBBF598
+    // Offset: 0xBD1FDC
     void HandlePauseTriggered();
     // private System.Void HandleInputFocusWasCaptured()
-    // Offset: 0xBBF59C
+    // Offset: 0xBD1FE0
     void HandleInputFocusWasCaptured();
     // private System.Void HandleHMDUnmounted()
-    // Offset: 0xBBF5A0
+    // Offset: 0xBD1FE4
     void HandleHMDUnmounted();
     // private System.Void HandlePauseMenuManagerDidFinishResumeAnimation()
-    // Offset: 0xBBF5A4
+    // Offset: 0xBD1FE8
     void HandlePauseMenuManagerDidFinishResumeAnimation();
     // private System.Void HandlePauseMenuManagerDidPressContinueButton()
-    // Offset: 0xBBF678
+    // Offset: 0xBD20BC
     void HandlePauseMenuManagerDidPressContinueButton();
     // private System.Void HandlePauseMenuManagerDidPressRestartButton()
-    // Offset: 0xBBF6E8
+    // Offset: 0xBD212C
     void HandlePauseMenuManagerDidPressRestartButton();
     // private System.Void HandlePauseMenuManagerDidPressMenuButton()
-    // Offset: 0xBBF798
+    // Offset: 0xBD21DC
     void HandlePauseMenuManagerDidPressMenuButton();
     // public System.Void .ctor()
-    // Offset: 0xBBF848
+    // Offset: 0xBD228C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -143,6 +143,6 @@ namespace GlobalNamespace {
     static PauseController* New_ctor();
   }; // PauseController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController*, "", "PauseController");
 #pragma pack(pop)

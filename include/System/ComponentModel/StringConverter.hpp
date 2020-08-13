@@ -4,6 +4,7 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
 // Completed includes
@@ -13,13 +14,13 @@ namespace System::ComponentModel {
   class StringConverter : public System::ComponentModel::TypeConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF466DC
+    // Offset: 0xF58120
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()
     static StringConverter* New_ctor();
   }; // System.ComponentModel.StringConverter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::StringConverter*, "System.ComponentModel", "StringConverter");
 #pragma pack(pop)

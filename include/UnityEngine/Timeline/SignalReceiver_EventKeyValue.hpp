@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Timeline.SignalReceiver
 #include "UnityEngine/Timeline/SignalReceiver.hpp"
 // Completed includes
@@ -43,30 +41,30 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* m_Events;
     // public System.Boolean TryGetValue(UnityEngine.Timeline.SignalAsset key, UnityEngine.Events.UnityEvent value)
-    // Offset: 0x1089920
+    // Offset: 0x1099364
     bool TryGetValue(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent*& value);
     // public System.Void Append(UnityEngine.Timeline.SignalAsset key, UnityEngine.Events.UnityEvent value)
-    // Offset: 0x1089B14
+    // Offset: 0x1099558
     void Append(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent* value);
     // public System.Void Remove(System.Int32 idx)
-    // Offset: 0x108A114
+    // Offset: 0x1099B58
     void Remove(int idx);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x1089CD8
+    // Offset: 0x109971C
     void Remove(UnityEngine::Timeline::SignalAsset* key);
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> get_signals()
-    // Offset: 0x108A510
+    // Offset: 0x1099F54
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* get_signals();
     // public System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> get_events()
-    // Offset: 0x108A518
+    // Offset: 0x1099F5C
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* get_events();
     // public System.Void .ctor()
-    // Offset: 0x108A460
+    // Offset: 0x1099EA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SignalReceiver::EventKeyValue* New_ctor();
   }; // UnityEngine.Timeline.SignalReceiver/EventKeyValue
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver::EventKeyValue*, "UnityEngine.Timeline", "SignalReceiver/EventKeyValue");
 #pragma pack(pop)

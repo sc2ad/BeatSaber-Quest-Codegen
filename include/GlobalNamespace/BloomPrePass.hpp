@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::BloomPrePassRenderDataSO::Data* renderData;
     // protected System.Void Awake()
-    // Offset: 0x180C204
+    // Offset: 0x181CC48
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x180C450
+    // Offset: 0x181CE94
     void OnDestroy();
     // protected System.Void OnPreRender()
-    // Offset: 0x180C51C
+    // Offset: 0x181CF60
     void OnPreRender();
     // protected System.Void OnPostRender()
-    // Offset: 0x180D304
+    // Offset: 0x181DD48
     void OnPostRender();
     // public System.Void SetMode(BloomPrePass/Mode mode)
-    // Offset: 0x180D360
+    // Offset: 0x181DDA4
     void SetMode(GlobalNamespace::BloomPrePass::Mode mode);
     // public System.Void .ctor()
-    // Offset: 0x180D368
+    // Offset: 0x181DDAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     static BloomPrePass* New_ctor();
   }; // BloomPrePass
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass*, "", "BloomPrePass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass::Mode, "", "BloomPrePass/Mode");
 #pragma pack(pop)

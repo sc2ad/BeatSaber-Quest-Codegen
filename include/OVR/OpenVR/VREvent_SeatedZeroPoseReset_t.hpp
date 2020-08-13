@@ -19,6 +19,6 @@ namespace OVR::OpenVR {
     VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu_ = {}) : bResetBySystemMenu{bResetBySystemMenu_} {}
   }; // OVR.OpenVR.VREvent_SeatedZeroPoseReset_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_SeatedZeroPoseReset_t, "OVR.OpenVR", "VREvent_SeatedZeroPoseReset_t");
 #pragma pack(pop)

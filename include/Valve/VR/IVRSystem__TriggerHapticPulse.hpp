@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.MulticastDelegate
-#include "System/MulticastDelegate.hpp"
 // Including type: Valve.VR.IVRSystem
 #include "Valve/VR/IVRSystem.hpp"
+// Including type: System.MulticastDelegate
+#include "System/MulticastDelegate.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,19 +26,19 @@ namespace Valve::VR {
   class IVRSystem::_TriggerHapticPulse : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16C2978
+    // Offset: 0x16CF3BC
     static IVRSystem::_TriggerHapticPulse* New_ctor(::CsObject* object, System::IntPtr method);
     // public System.Void Invoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.Char usDurationMicroSec)
-    // Offset: 0x16C298C
+    // Offset: 0x16CF3D0
     void Invoke(uint unControllerDeviceIndex, uint unAxisId, ::Il2CppChar usDurationMicroSec);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.Char usDurationMicroSec, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C2C30
+    // Offset: 0x16CF674
     System::IAsyncResult* BeginInvoke(uint unControllerDeviceIndex, uint unAxisId, ::Il2CppChar usDurationMicroSec, System::AsyncCallback* callback, ::CsObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16C2CF4
+    // Offset: 0x16CF738
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_TriggerHapticPulse
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_TriggerHapticPulse*, "Valve.VR", "IVRSystem/_TriggerHapticPulse");
 #pragma pack(pop)

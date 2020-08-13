@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.ExceptionArgument
 #include "System/ExceptionArgument.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -28,28 +26,28 @@ namespace System {
   class ThrowHelper : public ::CsObject {
     public:
     // static System.Void ThrowArgumentNullException(System.ExceptionArgument argument)
-    // Offset: 0xCD9338
+    // Offset: 0xCEBD7C
     static void ThrowArgumentNullException(System::ExceptionArgument argument);
     // static private System.Exception CreateArgumentNullException(System.ExceptionArgument argument)
-    // Offset: 0xCD9384
+    // Offset: 0xCEBDC8
     static System::Exception* CreateArgumentNullException(System::ExceptionArgument argument);
     // static System.Void ThrowArgumentOutOfRangeException()
-    // Offset: 0xCD9430
+    // Offset: 0xCEBE74
     static void ThrowArgumentOutOfRangeException();
     // static System.Void ThrowWrongValueTypeArgumentException(System.Object value, System.Type targetType)
-    // Offset: 0xCD9518
+    // Offset: 0xCEBF5C
     static void ThrowWrongValueTypeArgumentException(::CsObject* value, System::Type* targetType);
     // static System.Void ThrowArgumentException(System.ExceptionResource resource)
-    // Offset: 0xCD9610
+    // Offset: 0xCEC054
     static void ThrowArgumentException(System::ExceptionResource resource);
     // static System.Void ThrowArgumentOutOfRangeException(System.ExceptionArgument argument, System.ExceptionResource resource)
-    // Offset: 0xCD9444
+    // Offset: 0xCEBE88
     static void ThrowArgumentOutOfRangeException(System::ExceptionArgument argument, System::ExceptionResource resource);
     // static System.Void ThrowInvalidOperationException(System.ExceptionResource resource)
-    // Offset: 0xCD9768
+    // Offset: 0xCEC1AC
     static void ThrowInvalidOperationException(System::ExceptionResource resource);
     // static System.Void ThrowNotSupportedException(System.ExceptionResource resource)
-    // Offset: 0xCD97E8
+    // Offset: 0xCEC22C
     static void ThrowNotSupportedException(System::ExceptionResource resource);
     // static System.Void IfNullAndNullsAreIllegalThenThrow(System.Object value, System.ExceptionArgument argName)
     // Offset: 0xFFFFFFFF
@@ -58,10 +56,10 @@ namespace System {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("System", "ThrowHelper", "IfNullAndNullsAreIllegalThenThrow", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value, argName));
     }
     // static System.String GetArgumentName(System.ExceptionArgument argument)
-    // Offset: 0xCD96FC
+    // Offset: 0xCEC140
     static ::CsString* GetArgumentName(System::ExceptionArgument argument);
     // static System.String GetResourceName(System.ExceptionResource resource)
-    // Offset: 0xCD9690
+    // Offset: 0xCEC0D4
     static ::CsString* GetResourceName(System::ExceptionResource resource);
   }; // System.ThrowHelper
 }

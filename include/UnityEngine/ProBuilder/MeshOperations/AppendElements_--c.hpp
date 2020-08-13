@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.MeshOperations.AppendElements
 #include "UnityEngine/ProBuilder/MeshOperations/AppendElements.hpp"
 // Completed includes
@@ -44,21 +42,21 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__14_1
     static void _set_$$9__14_1(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0xEEE5C4
+    // Offset: 0xF00008
     static void _cctor();
     // System.Int32 <CreateShapeFromPolygon>b__7_0(UnityEngine.Vector3[] arr)
-    // Offset: 0xEEE634
+    // Offset: 0xF00078
     int $CreateShapeFromPolygon$b__7_0(::Array<UnityEngine::Vector3>* arr);
     // UnityEngine.Vector3 <AppendVerticesToEdge>b__14_1(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0xEEE64C
+    // Offset: 0xF00090
     UnityEngine::Vector3 $AppendVerticesToEdge$b__14_1(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0xEEE62C
+    // Offset: 0xF00070
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AppendElements::$$c* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c*, "UnityEngine.ProBuilder.MeshOperations", "AppendElements/<>c");
 #pragma pack(pop)

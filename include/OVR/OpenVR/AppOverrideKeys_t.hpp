@@ -24,6 +24,6 @@ namespace OVR::OpenVR {
     AppOverrideKeys_t(System::IntPtr pchKey_ = {}, System::IntPtr pchValue_ = {}) : pchKey{pchKey_}, pchValue{pchValue_} {}
   }; // OVR.OpenVR.AppOverrideKeys_t
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::AppOverrideKeys_t, "OVR.OpenVR", "AppOverrideKeys_t");
 #pragma pack(pop)

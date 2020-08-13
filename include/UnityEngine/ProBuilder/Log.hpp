@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.ProBuilder.LogLevel
 #include "UnityEngine/ProBuilder/LogLevel.hpp"
 // Including type: UnityEngine.ProBuilder.LogOutput
@@ -59,19 +57,19 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.String s_LogFilePath
     static void _set_s_LogFilePath(::CsString* value);
     // static public System.Void PushLogLevel(UnityEngine.ProBuilder.LogLevel level)
-    // Offset: 0xF87EF4
+    // Offset: 0xF99938
     static void PushLogLevel(UnityEngine::ProBuilder::LogLevel level);
     // static public System.Void PopLogLevel()
-    // Offset: 0xF87F88
+    // Offset: 0xF999CC
     static void PopLogLevel();
     // static public System.Void SetLogLevel(UnityEngine.ProBuilder.LogLevel level)
-    // Offset: 0xF88014
+    // Offset: 0xF99A58
     static void SetLogLevel(UnityEngine::ProBuilder::LogLevel level);
     // static public System.Void SetOutput(UnityEngine.ProBuilder.LogOutput output)
-    // Offset: 0xF88080
+    // Offset: 0xF99AC4
     static void SetOutput(UnityEngine::ProBuilder::LogOutput output);
     // static public System.Void SetLogFile(System.String path)
-    // Offset: 0xF880EC
+    // Offset: 0xF99B30
     static void SetLogFile(::CsString* path);
     // static public System.Void Debug(T value)
     // Offset: 0xFFFFFFFF
@@ -80,28 +78,28 @@ namespace UnityEngine::ProBuilder {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Debug", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value));
     }
     // static public System.Void Debug(System.String message)
-    // Offset: 0xF8815C
+    // Offset: 0xF99BA0
     static void Debug(::CsString* message);
     // static public System.Void Debug(System.String format, System.Object[] values)
-    // Offset: 0xF882BC
+    // Offset: 0xF99D00
     static void Debug(::CsString* format, ::Array<::CsObject*>* values);
     // static public System.Void Info(System.String format, System.Object[] values)
-    // Offset: 0xF882C0
+    // Offset: 0xF99D04
     static void Info(::CsString* format, ::Array<::CsObject*>* values);
     // static public System.Void Info(System.String message)
-    // Offset: 0xF88348
+    // Offset: 0xF99D8C
     static void Info(::CsString* message);
     // static public System.Void Warning(System.String format, System.Object[] values)
-    // Offset: 0xF883E0
+    // Offset: 0xF99E24
     static void Warning(::CsString* format, ::Array<::CsObject*>* values);
     // static public System.Void Warning(System.String message)
-    // Offset: 0xF88468
+    // Offset: 0xF99EAC
     static void Warning(::CsString* message);
     // static public System.Void Error(System.String format, System.Object[] values)
-    // Offset: 0xF88500
+    // Offset: 0xF99F44
     static void Error(::CsString* format, ::Array<::CsObject*>* values);
     // static public System.Void Error(System.String message)
-    // Offset: 0xF88588
+    // Offset: 0xF99FCC
     static void Error(::CsString* message);
     // static System.Void Watch(T key, K value)
     // Offset: 0xFFFFFFFF
@@ -110,16 +108,16 @@ namespace UnityEngine::ProBuilder {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Watch", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, key, value)));
     }
     // static private System.Void DoPrint(System.String message, UnityEngine.LogType type)
-    // Offset: 0xF881C4
+    // Offset: 0xF99C08
     static void DoPrint(::CsString* message, UnityEngine::LogType type);
     // static private System.Void PrintToFile(System.String message, System.String path)
-    // Offset: 0xF88734
+    // Offset: 0xF9A178
     static void PrintToFile(::CsString* message, ::CsString* path);
     // static public System.Void ClearLogFile()
-    // Offset: 0xF88A84
+    // Offset: 0xF9A4C8
     static void ClearLogFile();
     // static private System.Void PrintToConsole(System.String message, UnityEngine.LogType type)
-    // Offset: 0xF88620
+    // Offset: 0xF9A064
     static void PrintToConsole(::CsString* message, UnityEngine::LogType type);
     // static System.Void NotNull(T obj, System.String message)
     // Offset: 0xFFFFFFFF
@@ -128,7 +126,7 @@ namespace UnityEngine::ProBuilder {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "NotNull", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, message));
     }
     // static private System.Void .cctor()
-    // Offset: 0xF88B2C
+    // Offset: 0xF9A570
     static void _cctor();
   }; // UnityEngine.ProBuilder.Log
 }

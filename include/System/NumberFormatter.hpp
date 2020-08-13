@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -128,250 +126,250 @@ namespace System {
     // Set static field: static private System.NumberFormatter userFormatProvider
     static void _set_userFormatProvider(System::NumberFormatter* value);
     // static private System.Void GetFormatterTables(System.UInt64* MantissaBitsTable, System.Int32* TensExponentTable, System.Char* DigitLowerTable, System.Char* DigitUpperTable, System.Int64* TenPowersList, System.Int32* DecHexDigits)
-    // Offset: 0x134198C
+    // Offset: 0x13543D0
     static void GetFormatterTables(uint64_t*& MantissaBitsTable, int*& TensExponentTable, ::Il2CppChar*& DigitLowerTable, ::Il2CppChar*& DigitUpperTable, int64_t*& TenPowersList, int*& DecHexDigits);
     // static private System.Void .cctor()
-    // Offset: 0x1341990
+    // Offset: 0x13543D4
     static void _cctor();
     // static private System.Int64 GetTenPowerOf(System.Int32 i)
-    // Offset: 0x13419F0
+    // Offset: 0x1354434
     static int64_t GetTenPowerOf(int i);
     // private System.Void InitDecHexDigits(System.UInt32 value)
-    // Offset: 0x1341A60
+    // Offset: 0x13544A4
     void InitDecHexDigits(uint value);
     // private System.Void InitDecHexDigits(System.UInt64 value)
-    // Offset: 0x1341CBC
+    // Offset: 0x1354700
     void InitDecHexDigits(uint64_t value);
     // private System.Void InitDecHexDigits(System.UInt32 hi, System.UInt64 lo)
-    // Offset: 0x1341DE0
+    // Offset: 0x1354824
     void InitDecHexDigits(uint hi, uint64_t lo);
     // static private System.UInt32 FastToDecHex(System.Int32 val)
-    // Offset: 0x1341B28
+    // Offset: 0x135456C
     static uint FastToDecHex(int val);
     // static private System.UInt32 ToDecHex(System.Int32 val)
-    // Offset: 0x1341BF8
+    // Offset: 0x135463C
     static uint ToDecHex(int val);
     // static private System.Int32 FastDecHexLen(System.Int32 val)
-    // Offset: 0x1341FAC
+    // Offset: 0x13549F0
     static int FastDecHexLen(int val);
     // static private System.Int32 DecHexLen(System.UInt32 val)
-    // Offset: 0x1341FD4
+    // Offset: 0x1354A18
     static int DecHexLen(uint val);
     // private System.Int32 DecHexLen()
-    // Offset: 0x134209C
+    // Offset: 0x1354AE0
     int DecHexLen();
     // static private System.Int32 ScaleOrder(System.Int64 hi)
-    // Offset: 0x13421C0
+    // Offset: 0x1354C04
     static int ScaleOrder(int64_t hi);
     // private System.Int32 InitialFloatingPrecision()
-    // Offset: 0x1342254
+    // Offset: 0x1354C98
     int InitialFloatingPrecision();
     // static private System.Int32 ParsePrecision(System.String format)
-    // Offset: 0x1342330
+    // Offset: 0x1354D74
     static int ParsePrecision(::CsString* format);
     // private System.Void .ctor(System.Threading.Thread current)
-    // Offset: 0x13423CC
+    // Offset: 0x1354E10
     static NumberFormatter* New_ctor(System::Threading::Thread* current);
     // private System.Void Init(System.String format)
-    // Offset: 0x13424D8
+    // Offset: 0x1354F1C
     void Init(::CsString* format);
     // private System.Void InitHex(System.UInt64 value)
-    // Offset: 0x1342600
+    // Offset: 0x1355044
     void InitHex(uint64_t value);
     // private System.Void Init(System.String format, System.Int32 value, System.Int32 defPrecision)
-    // Offset: 0x1342648
+    // Offset: 0x135508C
     void Init(::CsString* format, int value, int defPrecision);
     // private System.Void Init(System.String format, System.UInt32 value, System.Int32 defPrecision)
-    // Offset: 0x13426EC
+    // Offset: 0x1355130
     void Init(::CsString* format, uint value, int defPrecision);
     // private System.Void Init(System.String format, System.Int64 value)
-    // Offset: 0x1342774
+    // Offset: 0x13551B8
     void Init(::CsString* format, int64_t value);
     // private System.Void Init(System.String format, System.UInt64 value)
-    // Offset: 0x1342800
+    // Offset: 0x1355244
     void Init(::CsString* format, uint64_t value);
     // private System.Void Init(System.String format, System.Double value, System.Int32 defPrecision)
-    // Offset: 0x1342884
+    // Offset: 0x13552C8
     void Init(::CsString* format, double value, int defPrecision);
     // private System.Void Init(System.String format, System.Decimal value)
-    // Offset: 0x1342C8C
+    // Offset: 0x13556D0
     void Init(::CsString* format, System::Decimal value);
     // private System.Void ResetCharBuf(System.Int32 size)
-    // Offset: 0x1342E00
+    // Offset: 0x1355844
     void ResetCharBuf(int size);
     // private System.Void Resize(System.Int32 len)
-    // Offset: 0x1342E98
+    // Offset: 0x13558DC
     void Resize(int len);
     // private System.Void Append(System.Char c)
-    // Offset: 0x1342EF8
+    // Offset: 0x135593C
     void Append(::Il2CppChar c);
     // private System.Void Append(System.Char c, System.Int32 cnt)
-    // Offset: 0x1342F7C
+    // Offset: 0x13559C0
     void Append(::Il2CppChar c, int cnt);
     // private System.Void Append(System.String s)
-    // Offset: 0x1343020
+    // Offset: 0x1355A64
     void Append(::CsString* s);
     // private System.Globalization.NumberFormatInfo GetNumberFormatInstance(System.IFormatProvider fp)
-    // Offset: 0x13430E0
+    // Offset: 0x1355B24
     System::Globalization::NumberFormatInfo* GetNumberFormatInstance(System::IFormatProvider* fp);
     // private System.Void set_CurrentCulture(System.Globalization.CultureInfo value)
-    // Offset: 0x134247C
+    // Offset: 0x1354EC0
     void set_CurrentCulture(System::Globalization::CultureInfo* value);
     // private System.Int32 get_IntegerDigits()
-    // Offset: 0x13430FC
+    // Offset: 0x1355B40
     int get_IntegerDigits();
     // private System.Int32 get_DecimalDigits()
-    // Offset: 0x134310C
+    // Offset: 0x1355B50
     int get_DecimalDigits();
     // private System.Boolean get_IsFloatingSource()
-    // Offset: 0x1343120
+    // Offset: 0x1355B64
     bool get_IsFloatingSource();
     // private System.Boolean get_IsZero()
-    // Offset: 0x1343134
+    // Offset: 0x1355B78
     bool get_IsZero();
     // private System.Boolean get_IsZeroInteger()
-    // Offset: 0x1343144
+    // Offset: 0x1355B88
     bool get_IsZeroInteger();
     // private System.Void RoundPos(System.Int32 pos)
-    // Offset: 0x1343164
+    // Offset: 0x1355BA8
     void RoundPos(int pos);
     // private System.Boolean RoundDecimal(System.Int32 decimals)
-    // Offset: 0x13432DC
+    // Offset: 0x1355D20
     bool RoundDecimal(int decimals);
     // private System.Boolean RoundBits(System.Int32 shift)
-    // Offset: 0x1343170
+    // Offset: 0x1355BB4
     bool RoundBits(int shift);
     // private System.Void RemoveTrailingZeros()
-    // Offset: 0x1343424
+    // Offset: 0x1355E68
     void RemoveTrailingZeros();
     // private System.Void AddOneToDecHex()
-    // Offset: 0x13432F0
+    // Offset: 0x1355D34
     void AddOneToDecHex();
     // static private System.UInt32 AddOneToDecHex(System.UInt32 val)
-    // Offset: 0x1343468
+    // Offset: 0x1355EAC
     static uint AddOneToDecHex(uint val);
     // private System.Int32 CountTrailingZeros()
-    // Offset: 0x1342B68
+    // Offset: 0x13555AC
     int CountTrailingZeros();
     // static private System.Int32 CountTrailingZeros(System.UInt32 val)
-    // Offset: 0x1343510
+    // Offset: 0x1355F54
     static int CountTrailingZeros(uint val);
     // static private System.NumberFormatter GetInstance(System.IFormatProvider fp)
-    // Offset: 0x1343564
+    // Offset: 0x1355FA8
     static System::NumberFormatter* GetInstance(System::IFormatProvider* fp);
     // private System.Void Release()
-    // Offset: 0x13436C8
+    // Offset: 0x135610C
     void Release();
     // static public System.String NumberToString(System.String format, System.UInt32 value, System.IFormatProvider fp)
-    // Offset: 0x1343770
+    // Offset: 0x13561B4
     static ::CsString* NumberToString(::CsString* format, uint value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Int32 value, System.IFormatProvider fp)
-    // Offset: 0x1343A0C
+    // Offset: 0x1356450
     static ::CsString* NumberToString(::CsString* format, int value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.UInt64 value, System.IFormatProvider fp)
-    // Offset: 0x1343AC0
+    // Offset: 0x1356504
     static ::CsString* NumberToString(::CsString* format, uint64_t value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Int64 value, System.IFormatProvider fp)
-    // Offset: 0x1343B70
+    // Offset: 0x13565B4
     static ::CsString* NumberToString(::CsString* format, int64_t value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Single value, System.IFormatProvider fp)
-    // Offset: 0x1343C20
+    // Offset: 0x1356664
     static ::CsString* NumberToString(::CsString* format, float value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Double value, System.IFormatProvider fp)
-    // Offset: 0x1343F7C
+    // Offset: 0x13569C0
     static ::CsString* NumberToString(::CsString* format, double value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Decimal value, System.IFormatProvider fp)
-    // Offset: 0x13441A8
+    // Offset: 0x1356BEC
     static ::CsString* NumberToString(::CsString* format, System::Decimal value, System::IFormatProvider* fp);
     // private System.String IntegerToString(System.String format, System.IFormatProvider fp)
-    // Offset: 0x1343824
+    // Offset: 0x1356268
     ::CsString* IntegerToString(::CsString* format, System::IFormatProvider* fp);
     // private System.String NumberToString(System.String format, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1343DDC
+    // Offset: 0x1356820
     ::CsString* NumberToString(::CsString* format, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatCurrency(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1344280
+    // Offset: 0x1356CC4
     ::CsString* FormatCurrency(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatDecimal(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x13444E8
+    // Offset: 0x1356F2C
     ::CsString* FormatDecimal(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatHexadecimal(System.Int32 precision)
-    // Offset: 0x1344B18
+    // Offset: 0x135755C
     ::CsString* FormatHexadecimal(int precision);
     // private System.String FormatFixedPoint(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1344604
+    // Offset: 0x1357048
     ::CsString* FormatFixedPoint(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatRoundtrip(System.Double origval, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x13440A4
+    // Offset: 0x1356AE8
     ::CsString* FormatRoundtrip(double origval, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatRoundtrip(System.Single origval, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1343D48
+    // Offset: 0x135678C
     ::CsString* FormatRoundtrip(float origval, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatGeneral(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x13446EC
+    // Offset: 0x1357130
     ::CsString* FormatGeneral(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatNumber(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x134483C
+    // Offset: 0x1357280
     ::CsString* FormatNumber(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatPercent(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x13449B0
+    // Offset: 0x13573F4
     ::CsString* FormatPercent(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatExponential(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x13445B0
+    // Offset: 0x1356FF4
     ::CsString* FormatExponential(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatExponential(System.Int32 precision, System.Globalization.NumberFormatInfo nfi, System.Int32 expDigits)
-    // Offset: 0x1345754
+    // Offset: 0x1358198
     ::CsString* FormatExponential(int precision, System::Globalization::NumberFormatInfo* nfi, int expDigits);
     // private System.String FormatCustom(System.String format, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1344C80
+    // Offset: 0x13576C4
     ::CsString* FormatCustom(::CsString* format, System::Globalization::NumberFormatInfo* nfi);
     // static private System.Void ZeroTrimEnd(System.Text.StringBuilder sb, System.Boolean canEmpty)
-    // Offset: 0x13464B8
+    // Offset: 0x1358EFC
     static void ZeroTrimEnd(System::Text::StringBuilder* sb, bool canEmpty);
     // static private System.Boolean IsZeroOnly(System.Text.StringBuilder sb)
-    // Offset: 0x13463C8
+    // Offset: 0x1358E0C
     static bool IsZeroOnly(System::Text::StringBuilder* sb);
     // static private System.Void AppendNonNegativeNumber(System.Text.StringBuilder sb, System.Int32 v)
-    // Offset: 0x134621C
+    // Offset: 0x1358C60
     static void AppendNonNegativeNumber(System::Text::StringBuilder* sb, int v);
     // private System.Void AppendIntegerString(System.Int32 minLength, System.Text.StringBuilder sb)
-    // Offset: 0x1346324
+    // Offset: 0x1358D68
     void AppendIntegerString(int minLength, System::Text::StringBuilder* sb);
     // private System.Void AppendIntegerString(System.Int32 minLength)
-    // Offset: 0x1345684
+    // Offset: 0x13580C8
     void AppendIntegerString(int minLength);
     // private System.Void AppendDecimalString(System.Int32 precision, System.Text.StringBuilder sb)
-    // Offset: 0x13463A8
+    // Offset: 0x1358DEC
     void AppendDecimalString(int precision, System::Text::StringBuilder* sb);
     // private System.Void AppendDecimalString(System.Int32 precision)
-    // Offset: 0x13453F8
+    // Offset: 0x1357E3C
     void AppendDecimalString(int precision);
     // private System.Void AppendIntegerStringWithGroupSeparator(System.Int32[] groups, System.String groupSeparator)
-    // Offset: 0x13451B0
+    // Offset: 0x1357BF4
     void AppendIntegerStringWithGroupSeparator(::Array<int>* groups, ::CsString* groupSeparator);
     // private System.Void AppendExponent(System.Globalization.NumberFormatInfo nfi, System.Int32 exponent, System.Int32 minDigits)
-    // Offset: 0x1345920
+    // Offset: 0x1358364
     void AppendExponent(System::Globalization::NumberFormatInfo* nfi, int exponent, int minDigits);
     // private System.Void AppendOneDigit(System.Int32 start)
-    // Offset: 0x1345844
+    // Offset: 0x1358288
     void AppendOneDigit(int start);
     // private System.Void AppendDigits(System.Int32 start, System.Int32 end)
-    // Offset: 0x1345410
+    // Offset: 0x1357E54
     void AppendDigits(int start, int end);
     // private System.Void AppendDigits(System.Int32 start, System.Int32 end, System.Text.StringBuilder sb)
-    // Offset: 0x1346CF4
+    // Offset: 0x1359738
     void AppendDigits(int start, int end, System::Text::StringBuilder* sb);
     // private System.Void Multiply10(System.Int32 count)
-    // Offset: 0x1345824
+    // Offset: 0x1358268
     void Multiply10(int count);
     // private System.Void Divide10(System.Int32 count)
-    // Offset: 0x13461FC
+    // Offset: 0x1358C40
     void Divide10(int count);
     // private System.NumberFormatter GetClone()
-    // Offset: 0x13456EC
+    // Offset: 0x1358130
     System::NumberFormatter* GetClone();
   }; // System.NumberFormatter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter*, "System", "NumberFormatter");
 #pragma pack(pop)

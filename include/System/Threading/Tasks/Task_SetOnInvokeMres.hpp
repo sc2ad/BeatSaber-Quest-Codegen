@@ -5,10 +5,10 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Threading.ManualResetEventSlim
-#include "System/Threading/ManualResetEventSlim.hpp"
 // Including type: System.Threading.Tasks.Task
 #include "System/Threading/Tasks/Task.hpp"
+// Including type: System.Threading.ManualResetEventSlim
+#include "System/Threading/ManualResetEventSlim.hpp"
 // Including type: System.Threading.Tasks.ITaskCompletionAction
 #include "System/Threading/Tasks/ITaskCompletionAction.hpp"
 // Completed includes
@@ -18,12 +18,12 @@ namespace System::Threading::Tasks {
   class Task::SetOnInvokeMres : public System::Threading::ManualResetEventSlim, public System::Threading::Tasks::ITaskCompletionAction {
     public:
     // System.Void .ctor()
-    // Offset: 0xCCEA28
+    // Offset: 0xCE146C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Task::SetOnInvokeMres* New_ctor();
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0xCD07D0
+    // Offset: 0xCE3214
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void Invoke(System::Threading::Tasks::Task* completingTask);
@@ -32,6 +32,6 @@ namespace System::Threading::Tasks {
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);
   }; // System.Threading.Tasks.Task/SetOnInvokeMres
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::SetOnInvokeMres*, "System.Threading.Tasks", "Task/SetOnInvokeMres");
 #pragma pack(pop)

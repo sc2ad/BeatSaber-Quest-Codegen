@@ -16,17 +16,17 @@ namespace GlobalNamespace {
   class StartMiddleEndButtonsGroup : public UnityEngine::MonoBehaviour, public UnityEngine::UI::ILayoutController {
     public:
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0xB90748
+    // Offset: 0xBA218C
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0xB9084C
+    // Offset: 0xBA2290
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();
     // public System.Void .ctor()
-    // Offset: 0xB90850
+    // Offset: 0xBA2294
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -36,6 +36,6 @@ namespace GlobalNamespace {
     static StartMiddleEndButtonsGroup* New_ctor();
   }; // StartMiddleEndButtonsGroup
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonsGroup*, "", "StartMiddleEndButtonsGroup");
 #pragma pack(pop)

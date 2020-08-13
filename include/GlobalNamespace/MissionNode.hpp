@@ -48,34 +48,34 @@ namespace GlobalNamespace {
     // Offset: 0x40
     ::Array<GlobalNamespace::MissionNode*>* childNodes;
     // public MissionDataSO get_missionData()
-    // Offset: 0xBF3940
+    // Offset: 0xC05384
     GlobalNamespace::MissionDataSO* get_missionData();
     // public MissionNode[] get_childNodes()
-    // Offset: 0xBF3948
+    // Offset: 0xC0538C
     ::Array<GlobalNamespace::MissionNode*>* get_childNodes();
     // public MissionNodeVisualController get_missionNodeVisualController()
-    // Offset: 0xBF3950
+    // Offset: 0xC05394
     GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
     // public System.String get_letterPartName()
-    // Offset: 0xBF3958
+    // Offset: 0xC0539C
     ::CsString* get_letterPartName();
     // public System.Int32 get_numberPartName()
-    // Offset: 0xBF3960
+    // Offset: 0xC053A4
     int get_numberPartName();
     // public System.String get_missionId()
-    // Offset: 0xBF3968
+    // Offset: 0xC053AC
     ::CsString* get_missionId();
     // public System.String get_formattedMissionNodeName()
-    // Offset: 0xBF3998
+    // Offset: 0xC053DC
     ::CsString* get_formattedMissionNodeName();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0xBF2B50
+    // Offset: 0xC04594
     UnityEngine::Vector2 get_position();
     // public System.Single get_radius()
-    // Offset: 0xBF3A1C
+    // Offset: 0xC05460
     float get_radius();
     // public System.Void .ctor()
-    // Offset: 0xBF3A60
+    // Offset: 0xC054A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -85,6 +85,6 @@ namespace GlobalNamespace {
     static MissionNode* New_ctor();
   }; // MissionNode
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNode*, "", "MissionNode");
 #pragma pack(pop)

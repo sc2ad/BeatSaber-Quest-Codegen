@@ -25,21 +25,21 @@ namespace Oculus::Platform {
   class MessageWithPingResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*> {
     public:
     // protected Oculus.Platform.Models.PingResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE908EC
+    // Offset: 0xEA3330
     Oculus::Platform::Models::PingResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE89160
+    // Offset: 0xE9BBA4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPingResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.PingResult GetPingResult()
-    // Offset: 0xE908A8
+    // Offset: 0xEA32EC
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PingResult Message::GetPingResult()
     Oculus::Platform::Models::PingResult* GetPingResult();
   }; // Oculus.Platform.MessageWithPingResult
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPingResult*, "Oculus.Platform", "MessageWithPingResult");
 #pragma pack(pop)

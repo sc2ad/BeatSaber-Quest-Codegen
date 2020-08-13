@@ -7,10 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.EventDescriptor
 #include "System/Diagnostics/Tracing/EventDescriptor.hpp"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource
 #include "System/Diagnostics/Tracing/EventSource.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 // Including type: System.Diagnostics.Tracing.EventTags
 #include "System/Diagnostics/Tracing/EventTags.hpp"
 // Including type: System.Diagnostics.Tracing.EventActivityOptions
@@ -70,6 +70,6 @@ namespace System::Diagnostics::Tracing {
     EventMetadata(System::Diagnostics::Tracing::EventDescriptor Descriptor_ = {}, System::Diagnostics::Tracing::EventTags Tags_ = {}, bool EnabledForAnyListener_ = {}, bool EnabledForETW_ = {}, bool HasRelatedActivityID_ = {}, uint8_t TriggersActivityTracking_ = {}, ::CsString* Name_ = {}, ::CsString* Message_ = {}, ::Array<System::Reflection::ParameterInfo*>* Parameters_ = {}, System::Diagnostics::Tracing::TraceLoggingEventTypes* TraceLoggingEventTypes_ = {}, System::Diagnostics::Tracing::EventActivityOptions ActivityOptions_ = {}) : Descriptor{Descriptor_}, Tags{Tags_}, EnabledForAnyListener{EnabledForAnyListener_}, EnabledForETW{EnabledForETW_}, HasRelatedActivityID{HasRelatedActivityID_}, TriggersActivityTracking{TriggersActivityTracking_}, Name{Name_}, Message{Message_}, Parameters{Parameters_}, TraceLoggingEventTypes{TraceLoggingEventTypes_}, ActivityOptions{ActivityOptions_} {}
   }; // System.Diagnostics.Tracing.EventSource/EventMetadata
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource::EventMetadata, "System.Diagnostics.Tracing", "EventSource/EventMetadata");
 #pragma pack(pop)

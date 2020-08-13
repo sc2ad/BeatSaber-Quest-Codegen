@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: UnityEngine.Events.PersistentListenerMode
 #include "UnityEngine/Events/PersistentListenerMode.hpp"
 // Including type: UnityEngine.Events.UnityEventCallState
@@ -54,33 +52,33 @@ namespace UnityEngine::Events {
     // Offset: 0x30
     UnityEngine::Events::UnityEventCallState m_CallState;
     // public UnityEngine.Object get_target()
-    // Offset: 0x12F39F0
+    // Offset: 0x1306434
     UnityEngine::Object* get_target();
     // public System.String get_methodName()
-    // Offset: 0x12F39F8
+    // Offset: 0x130643C
     ::CsString* get_methodName();
     // public UnityEngine.Events.PersistentListenerMode get_mode()
-    // Offset: 0x12F3A00
+    // Offset: 0x1306444
     UnityEngine::Events::PersistentListenerMode get_mode();
     // public UnityEngine.Events.ArgumentCache get_arguments()
-    // Offset: 0x12F3A08
+    // Offset: 0x130644C
     UnityEngine::Events::ArgumentCache* get_arguments();
     // public System.Boolean IsValid()
-    // Offset: 0x12F3A10
+    // Offset: 0x1306454
     bool IsValid();
     // public UnityEngine.Events.BaseInvokableCall GetRuntimeCall(UnityEngine.Events.UnityEventBase theEvent)
-    // Offset: 0x12F3AA4
+    // Offset: 0x13064E8
     UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(UnityEngine::Events::UnityEventBase* theEvent);
     // static private UnityEngine.Events.BaseInvokableCall GetObjectCall(UnityEngine.Object target, System.Reflection.MethodInfo method, UnityEngine.Events.ArgumentCache arguments)
-    // Offset: 0x12F3E0C
+    // Offset: 0x1306850
     static UnityEngine::Events::BaseInvokableCall* GetObjectCall(UnityEngine::Object* target, System::Reflection::MethodInfo* method, UnityEngine::Events::ArgumentCache* arguments);
     // public System.Void .ctor()
-    // Offset: 0x12F4264
+    // Offset: 0x1306CA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PersistentCall* New_ctor();
   }; // UnityEngine.Events.PersistentCall
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCall*, "UnityEngine.Events", "PersistentCall");
 #pragma pack(pop)

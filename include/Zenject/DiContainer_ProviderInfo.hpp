@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: Zenject.DiContainer
 #include "Zenject/DiContainer.hpp"
 // Completed includes
@@ -37,10 +35,10 @@ namespace Zenject {
     // Offset: 0x28
     Zenject::BindingCondition* Condition;
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingCondition condition, System.Boolean nonLazy, Zenject.DiContainer container)
-    // Offset: 0xF187E0
+    // Offset: 0xF29224
     static DiContainer::ProviderInfo* New_ctor(Zenject::IProvider* provider, Zenject::BindingCondition* condition, bool nonLazy, Zenject::DiContainer* container);
   }; // Zenject.DiContainer/ProviderInfo
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::ProviderInfo*, "Zenject", "DiContainer/ProviderInfo");
 #pragma pack(pop)

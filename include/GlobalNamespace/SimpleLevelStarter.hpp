@@ -91,28 +91,28 @@ namespace GlobalNamespace {
     // Offset: 0x60
     HMUI::ButtonBinder* buttonBinder;
     // protected System.Void Awake()
-    // Offset: 0xB83290
+    // Offset: 0xB94CD4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB83354
+    // Offset: 0xB94D98
     void OnDestroy();
     // private System.Void StartLevel()
-    // Offset: 0xB83370
+    // Offset: 0xB94DB4
     void StartLevel();
     // private System.Void InstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0xB83554
+    // Offset: 0xB94F98
     void InstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void ButtonPressed()
-    // Offset: 0xB836A0
+    // Offset: 0xB950E4
     void ButtonPressed();
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xB836A4
+    // Offset: 0xB950E8
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <StartLevel>b__13_0()
-    // Offset: 0xB836D0
+    // Offset: 0xB95114
     void $StartLevel$b__13_0();
     // public System.Void .ctor()
-    // Offset: 0xB836C8
+    // Offset: 0xB9510C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -122,6 +122,6 @@ namespace GlobalNamespace {
     static SimpleLevelStarter* New_ctor();
   }; // SimpleLevelStarter
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");
 #pragma pack(pop)

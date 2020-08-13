@@ -44,30 +44,30 @@ namespace GlobalNamespace {
     // Offset: 0x88
     int selectedSubMenuInfoIdx;
     // public System.Void add_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0xBEB124
+    // Offset: 0xBFCB68
     void add_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void remove_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0xBEB1C8
+    // Offset: 0xBFCC0C
     void remove_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Int32 get_numberOfSubMenus()
-    // Offset: 0xBEB26C
+    // Offset: 0xBFCCB0
     int get_numberOfSubMenus();
     // public SettingsSubMenuInfo get_selectedSubMenuInfo()
-    // Offset: 0xBEB288
+    // Offset: 0xBFCCCC
     GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
     // public System.Void Init(System.Int32 selectedSubMenuInfoIdx)
-    // Offset: 0xBEB290
+    // Offset: 0xBFCCD4
     void Init(int selectedSubMenuInfoIdx);
     // private System.Void HandleMainSettingsTableViewDidSelectRow(MainSettingsTableView tableView, System.Int32 row)
-    // Offset: 0xBEB578
+    // Offset: 0xBFCFBC
     void HandleMainSettingsTableViewDidSelectRow(GlobalNamespace::MainSettingsTableView* tableView, int row);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xBEB2D4
+    // Offset: 0xBFCD18
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xBEB62C
+    // Offset: 0xBFD070
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -78,6 +78,6 @@ namespace GlobalNamespace {
     static MainSettingsMenuViewController* New_ctor();
   }; // MainSettingsMenuViewController
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewController*, "", "MainSettingsMenuViewController");
 #pragma pack(pop)

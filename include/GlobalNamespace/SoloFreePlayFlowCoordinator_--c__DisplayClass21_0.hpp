@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: SoloFreePlayFlowCoordinator
 #include "GlobalNamespace/SoloFreePlayFlowCoordinator.hpp"
 // Completed includes
@@ -29,15 +27,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::ResultsViewController* resultsViewController;
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
-    // Offset: 0xB86944
+    // Offset: 0xB98388
     void $HandleResultsViewControllerRestartButtonPressed$b__0();
     // public System.Void .ctor()
-    // Offset: 0xB86878
+    // Offset: 0xB982BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0* New_ctor();
   }; // SoloFreePlayFlowCoordinator/<>c__DisplayClass21_0
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass21_0");
 #pragma pack(pop)

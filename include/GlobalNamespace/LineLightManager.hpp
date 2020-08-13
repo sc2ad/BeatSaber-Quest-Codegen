@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _lineLightColorsID
     static void _set__lineLightColorsID(int value);
     // protected System.Void Update()
-    // Offset: 0x1813FC0
+    // Offset: 0x1824A04
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x18142EC
+    // Offset: 0x1824D30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LineLightManager* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1814390
+    // Offset: 0x1824DD4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LineLightManager
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLightManager*, "", "LineLightManager");
 #pragma pack(pop)

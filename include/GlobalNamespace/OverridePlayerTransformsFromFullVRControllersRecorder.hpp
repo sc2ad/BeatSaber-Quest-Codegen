@@ -31,16 +31,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PlayerController* playerController;
     // protected System.Void Start()
-    // Offset: 0xBBACAC
+    // Offset: 0xBCD6F0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBBAD40
+    // Offset: 0xBCD784
     void OnDestroy();
     // private System.Void HandleFullVRControllersRecorderDidSetControllerTransform(VRController controller)
-    // Offset: 0xBBAE1C
+    // Offset: 0xBCD860
     void HandleFullVRControllersRecorderDidSetControllerTransform(GlobalNamespace::VRController* controller);
     // public System.Void .ctor()
-    // Offset: 0xBBAF3C
+    // Offset: 0xBCD980
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -50,6 +50,6 @@ namespace GlobalNamespace {
     static OverridePlayerTransformsFromFullVRControllersRecorder* New_ctor();
   }; // OverridePlayerTransformsFromFullVRControllersRecorder
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*, "", "OverridePlayerTransformsFromFullVRControllersRecorder");
 #pragma pack(pop)

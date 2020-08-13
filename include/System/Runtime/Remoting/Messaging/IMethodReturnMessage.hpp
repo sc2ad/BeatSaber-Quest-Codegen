@@ -35,6 +35,6 @@ namespace System::Runtime::Remoting::Messaging {
     ::CsObject* get_ReturnValue();
   }; // System.Runtime.Remoting.Messaging.IMethodReturnMessage
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMethodReturnMessage*, "System.Runtime.Remoting.Messaging", "IMethodReturnMessage");
 #pragma pack(pop)

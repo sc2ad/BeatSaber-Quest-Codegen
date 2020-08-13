@@ -4,10 +4,11 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
-// Including type: UnityEngine.Events.UnityEvent`1
-#include "UnityEngine/Events/UnityEvent_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Dropdown
 #include "UnityEngine/UI/Dropdown.hpp"
+// Including type: UnityEngine.Events.UnityEvent`1
+#include "UnityEngine/Events/UnityEvent_1.hpp"
 // Completed includes
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
@@ -15,7 +16,7 @@ namespace UnityEngine::UI {
   class Dropdown::DropdownEvent : public UnityEngine::Events::UnityEvent_1<int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x115291C
+    // Offset: 0x1164360
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -23,6 +24,6 @@ namespace UnityEngine::UI {
     static Dropdown::DropdownEvent* New_ctor();
   }; // UnityEngine.UI.Dropdown/DropdownEvent
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::DropdownEvent*, "UnityEngine.UI", "Dropdown/DropdownEvent");
 #pragma pack(pop)

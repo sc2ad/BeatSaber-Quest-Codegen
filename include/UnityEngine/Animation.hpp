@@ -32,28 +32,28 @@ namespace UnityEngine {
     // Nested type: UnityEngine::Animation::Enumerator
     class Enumerator;
     // public UnityEngine.AnimationState get_Item(System.String name)
-    // Offset: 0x1922430
+    // Offset: 0x1933E74
     UnityEngine::AnimationState* get_Item(::CsString* name);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength, UnityEngine.PlayMode mode)
-    // Offset: 0x19224D0
+    // Offset: 0x1933F14
     void CrossFade(::CsString* animation, float fadeLength, UnityEngine::PlayMode mode);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength)
-    // Offset: 0x1922538
+    // Offset: 0x1933F7C
     void CrossFade(::CsString* animation, float fadeLength);
     // UnityEngine.AnimationState GetState(System.String name)
-    // Offset: 0x1922480
+    // Offset: 0x1933EC4
     UnityEngine::AnimationState* GetState(::CsString* name);
     // UnityEngine.AnimationState GetStateAtIndex(System.Int32 index)
-    // Offset: 0x1922650
+    // Offset: 0x1934094
     UnityEngine::AnimationState* GetStateAtIndex(int index);
     // System.Int32 GetStateCount()
-    // Offset: 0x19226A0
+    // Offset: 0x19340E4
     int GetStateCount();
     // public System.Boolean get_animatePhysics()
-    // Offset: 0x19226E0
+    // Offset: 0x1934124
     bool get_animatePhysics();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x192259C
+    // Offset: 0x1933FE0
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -62,6 +62,6 @@ namespace UnityEngine {
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Animation
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation*, "UnityEngine", "Animation");
 #pragma pack(pop)

@@ -27,7 +27,7 @@ namespace System {
   class OverflowException : public System::ArithmeticException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1347F8C
+    // Offset: 0x135A9D0
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -35,21 +35,21 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static OverflowException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1348000
+    // Offset: 0x135AA44
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static OverflowException* New_ctor(::CsString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1348034
+    // Offset: 0x135AA78
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static OverflowException* New_ctor(::CsString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1348068
+    // Offset: 0x135AAAC
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -57,6 +57,6 @@ namespace System {
     static OverflowException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.OverflowException
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::OverflowException*, "System", "OverflowException");
 #pragma pack(pop)

@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 // Including type: Oculus.Platform.Matchmaking/CustomQuery
 #include "Oculus/Platform/Matchmaking_CustomQuery.hpp"
 // Including type: Oculus.Platform.MatchmakingCriterionImportance
@@ -37,10 +35,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Criterion
     Criterion(::CsString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* parameters_ = {}) : key{key_}, importance{importance_}, parameters{parameters_} {}
     // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
-    // Offset: 0xA2FF3C
+    // Offset: 0xA2FFB8
     static Matchmaking::CustomQuery::Criterion* New_ctor(::CsString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_);
   }; // Oculus.Platform.Matchmaking/CustomQuery/Criterion
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery::Criterion, "Oculus.Platform", "Matchmaking/CustomQuery/Criterion");
 #pragma pack(pop)

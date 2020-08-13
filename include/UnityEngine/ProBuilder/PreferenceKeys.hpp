@@ -5,8 +5,6 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Object
-#include "System/Object.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
 // Including type: System.Char
@@ -645,10 +643,10 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.String defaultUnwrapParameters
     static void _set_defaultUnwrapParameters(::CsString* value);
     // static private System.Void .cctor()
-    // Offset: 0x101DE14
+    // Offset: 0x102D858
     static void _cctor();
   }; // UnityEngine.ProBuilder.PreferenceKeys
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceKeys*, "UnityEngine.ProBuilder", "PreferenceKeys");
 #pragma pack(pop)
