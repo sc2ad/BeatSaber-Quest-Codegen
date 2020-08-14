@@ -30,13 +30,13 @@ namespace System::Reflection {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x13668E4
-    static MemberFilter* New_ctor(::CsObject* object, System::IntPtr method);
+    static MemberFilter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Reflection.MemberInfo m, System.Object filterCriteria)
     // Offset: 0x13668F8
-    bool Invoke(System::Reflection::MemberInfo* m, ::CsObject* filterCriteria);
+    bool Invoke(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // public System.IAsyncResult BeginInvoke(System.Reflection.MemberInfo m, System.Object filterCriteria, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1366D08
-    System::IAsyncResult* BeginInvoke(System::Reflection::MemberInfo* m, ::CsObject* filterCriteria, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0x1366D38
     bool EndInvoke(System::IAsyncResult* result);

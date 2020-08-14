@@ -62,7 +62,7 @@ namespace NUnit::Framework {
     NUnit::Framework::Interfaces::RunState RunState;
     // private System.Object[] <Arguments>k__BackingField
     // Offset: 0x20
-    ::Array<::CsObject*>* Arguments;
+    ::Array<::Il2CppObject*>* Arguments;
     // private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     // Offset: 0x28
     NUnit::Framework::Interfaces::IPropertyBag* Properties;
@@ -78,7 +78,7 @@ namespace NUnit::Framework {
     // Offset: 0x18F2FDC
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: System.Object[] ITestData::get_Arguments()
-    ::Array<::CsObject*>* get_Arguments();
+    ::Array<::Il2CppObject*>* get_Arguments();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
     // Offset: 0x18F2FE4
     // Implemented from: NUnit.Framework.Interfaces.ITestData

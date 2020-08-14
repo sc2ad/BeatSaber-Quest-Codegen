@@ -17,8 +17,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -32,13 +32,13 @@ namespace UnityEngine {
     UnityEngine::ILogHandler* get_logHandler();
     // public System.Void Log(UnityEngine.LogType logType, System.Object message)
     // Offset: 0xFFFFFFFF
-    void Log(UnityEngine::LogType logType, ::CsObject* message);
+    void Log(UnityEngine::LogType logType, ::Il2CppObject* message);
     // public System.Void Log(UnityEngine.LogType logType, System.Object message, UnityEngine.Object context)
     // Offset: 0xFFFFFFFF
-    void Log(UnityEngine::LogType logType, ::CsObject* message, UnityEngine::Object* context);
+    void Log(UnityEngine::LogType logType, ::Il2CppObject* message, UnityEngine::Object* context);
     // public System.Void LogFormat(UnityEngine.LogType logType, System.String format, System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void LogFormat(UnityEngine::LogType logType, ::CsString* format, ::Array<::CsObject*>* args);
+    void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
   }; // UnityEngine.ILogger
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

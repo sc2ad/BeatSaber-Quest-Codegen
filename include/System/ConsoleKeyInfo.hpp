@@ -44,7 +44,7 @@ namespace System {
     // Offset: 0xA3D060
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
-    bool Equals(::CsObject* value);
+    bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3D09C
     // Implemented from: System.ValueType

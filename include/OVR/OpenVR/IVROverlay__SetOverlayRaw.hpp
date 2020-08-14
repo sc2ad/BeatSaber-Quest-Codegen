@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x169CF4C
-    static IVROverlay::_SetOverlayRaw* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_SetOverlayRaw* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unWidth, System.UInt32 unHeight, System.UInt32 unDepth)
     // Offset: 0x169CF60
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unWidth, uint unHeight, uint unDepth);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unWidth, System.UInt32 unHeight, System.UInt32 unDepth, System.AsyncCallback callback, System.Object object)
     // Offset: 0x169D228
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unWidth, uint unHeight, uint unDepth, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unWidth, uint unHeight, uint unDepth, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
     // Offset: 0x169D31C
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);

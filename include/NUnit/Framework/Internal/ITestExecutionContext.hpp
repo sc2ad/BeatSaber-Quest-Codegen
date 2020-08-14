@@ -23,7 +23,7 @@ namespace NUnit::Framework::Constraints {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
@@ -41,10 +41,10 @@ namespace NUnit::Framework::Internal {
     System::IO::TextWriter* get_OutWriter();
     // public System.Object get_TestObject()
     // Offset: 0xFFFFFFFF
-    ::CsObject* get_TestObject();
+    ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
     // Offset: 0xFFFFFFFF
-    void set_TestObject(::CsObject* value);
+    void set_TestObject(::Il2CppObject* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();

@@ -37,13 +37,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xECF374
-    static IVRApplications::_GetApplicationKeyByProcessId* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_GetApplicationKeyByProcessId* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.UInt32 unProcessId, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
     // Offset: 0xEBF590
     OVR::OpenVR::EVRApplicationError Invoke(uint unProcessId, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unProcessId, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen, System.AsyncCallback callback, System.Object object)
     // Offset: 0xECF388
-    System::IAsyncResult* BeginInvoke(uint unProcessId, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint unProcessId, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xECF438
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

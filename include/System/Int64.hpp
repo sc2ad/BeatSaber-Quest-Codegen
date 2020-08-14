@@ -62,30 +62,30 @@ namespace System {
     Int64(int64_t m_value_ = {}) : m_value{m_value_} {}
     // public System.String ToString(System.String format)
     // Offset: 0xA3BC18
-    ::CsString* ToString(::CsString* format);
+    ::Il2CppString* ToString(::Il2CppString* format);
     // static public System.Int64 Parse(System.String s)
     // Offset: 0x100CEC4
-    static int64_t Parse(::CsString* s);
+    static int64_t Parse(::Il2CppString* s);
     // static public System.Int64 Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0x100D060
-    static int64_t Parse(::CsString* s, System::IFormatProvider* provider);
+    static int64_t Parse(::Il2CppString* s, System::IFormatProvider* provider);
     // static public System.Int64 Parse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider)
     // Offset: 0x100D094
-    static int64_t Parse(::CsString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
+    static int64_t Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
     // static public System.Boolean TryParse(System.String s, System.Int64 result)
     // Offset: 0x100D0E4
-    static bool TryParse(::CsString* s, int64_t& result);
+    static bool TryParse(::Il2CppString* s, int64_t& result);
     // static public System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider, System.Int64 result)
     // Offset: 0x100D24C
-    static bool TryParse(::CsString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, int64_t& result);
+    static bool TryParse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, int64_t& result);
     // public System.Int32 CompareTo(System.Object value)
     // Offset: 0xA3BB74
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
-    int CompareTo(::CsObject* value);
+    int CompareTo(::Il2CppObject* value);
     // Creating proxy method: System_IComparable_CompareTo
     // Maps to method: CompareTo
-    int System_IComparable_CompareTo(::CsObject* value);
+    int System_IComparable_CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.Int64 value)
     // Offset: 0xA3BB7C
     // Implemented from: System.IComparable`1
@@ -95,7 +95,7 @@ namespace System {
     // Offset: 0xA3BB90
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.Int64 obj)
     // Offset: 0xA3BB98
     // Implemented from: System.IEquatable`1
@@ -110,17 +110,17 @@ namespace System {
     // Offset: 0xA3BBB4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0xA3BBE4
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
-    ::CsString* ToString(System::IFormatProvider* provider);
+    ::Il2CppString* ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0xA3BC4C
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
-    ::CsString* ToString(::CsString* format, System::IFormatProvider* provider);
+    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
     // Offset: 0xA3BC84
     // Implemented from: System.IConvertible
@@ -200,7 +200,7 @@ namespace System {
     // Offset: 0xA3BD00
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
-    ::CsObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
+    ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Int64
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

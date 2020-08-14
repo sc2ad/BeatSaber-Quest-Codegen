@@ -20,10 +20,10 @@ namespace System::Reflection {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 template<class T>
 struct Array;
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
@@ -35,7 +35,7 @@ namespace System::Runtime::Remoting::Messaging {
     int get_ArgCount();
     // public System.Object[] get_Args()
     // Offset: 0xFFFFFFFF
-    ::Array<::CsObject*>* get_Args();
+    ::Array<::Il2CppObject*>* get_Args();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
@@ -44,19 +44,19 @@ namespace System::Runtime::Remoting::Messaging {
     System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_MethodName();
+    ::Il2CppString* get_MethodName();
     // public System.Object get_MethodSignature()
     // Offset: 0xFFFFFFFF
-    ::CsObject* get_MethodSignature();
+    ::Il2CppObject* get_MethodSignature();
     // public System.String get_TypeName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_TypeName();
+    ::Il2CppString* get_TypeName();
     // public System.String get_Uri()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Uri();
+    ::Il2CppString* get_Uri();
     // public System.Object GetArg(System.Int32 argNum)
     // Offset: 0xFFFFFFFF
-    ::CsObject* GetArg(int argNum);
+    ::Il2CppObject* GetArg(int argNum);
   }; // System.Runtime.Remoting.Messaging.IMethodMessage
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

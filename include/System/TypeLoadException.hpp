@@ -24,13 +24,13 @@ namespace System {
     public:
     // private System.String ClassName
     // Offset: 0x88
-    ::CsString* ClassName;
+    ::Il2CppString* ClassName;
     // private System.String AssemblyName
     // Offset: 0x90
-    ::CsString* AssemblyName;
+    ::Il2CppString* AssemblyName;
     // private System.String MessageArg
     // Offset: 0x98
-    ::CsString* MessageArg;
+    ::Il2CppString* MessageArg;
     // System.Int32 ResourceId
     // Offset: 0xA0
     int ResourceId;
@@ -39,10 +39,10 @@ namespace System {
     void SetMessageField();
     // private System.Void .ctor(System.String className, System.String assemblyName)
     // Offset: 0x179108C
-    static TypeLoadException* New_ctor(::CsString* className, ::CsString* assemblyName);
+    static TypeLoadException* New_ctor(::Il2CppString* className, ::Il2CppString* assemblyName);
     // private System.Void .ctor(System.String className, System.String assemblyName, System.String messageArg, System.Int32 resourceId)
     // Offset: 0x1791098
-    static TypeLoadException* New_ctor(::CsString* className, ::CsString* assemblyName, ::CsString* messageArg, int resourceId);
+    static TypeLoadException* New_ctor(::Il2CppString* className, ::Il2CppString* assemblyName, ::Il2CppString* messageArg, int resourceId);
     // public System.Void .ctor()
     // Offset: 0x1790EA4
     // Implemented from: System.SystemException
@@ -55,12 +55,12 @@ namespace System {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static TypeLoadException* New_ctor(::CsString* message);
+    static TypeLoadException* New_ctor(::Il2CppString* message);
     // public override System.String get_Message()
     // Offset: 0x1790F18
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x179112C
     // Implemented from: System.SystemException

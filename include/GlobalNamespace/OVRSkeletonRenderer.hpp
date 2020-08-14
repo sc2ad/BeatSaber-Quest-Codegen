@@ -122,12 +122,6 @@ namespace GlobalNamespace {
     // private UnityEngine.Material _systemGestureDefaultMaterial
     // Offset: 0x58
     UnityEngine::Material* systemGestureDefaultMaterial;
-    // static field const value: static private System.Single LINE_RENDERER_WIDTH
-    static constexpr const float LINE_RENDERER_WIDTH = 0.005;
-    // Get static field: static private System.Single LINE_RENDERER_WIDTH
-    static float _get_LINE_RENDERER_WIDTH();
-    // Set static field: static private System.Single LINE_RENDERER_WIDTH
-    static void _set_LINE_RENDERER_WIDTH(float value);
     // private System.Collections.Generic.List`1<OVRSkeletonRenderer/BoneVisualization> _boneVisualizations
     // Offset: 0x60
     System::Collections::Generic::List_1<GlobalNamespace::OVRSkeletonRenderer::BoneVisualization*>* boneVisualizations;
@@ -143,10 +137,6 @@ namespace GlobalNamespace {
     // private System.Single _scale
     // Offset: 0x80
     float scale;
-    // Get static field: static private readonly UnityEngine.Quaternion _capsuleRotationOffset
-    static UnityEngine::Quaternion _get__capsuleRotationOffset();
-    // Set static field: static private readonly UnityEngine.Quaternion _capsuleRotationOffset
-    static void _set__capsuleRotationOffset(UnityEngine::Quaternion value);
     // private System.Boolean <IsInitialized>k__BackingField
     // Offset: 0x84
     bool IsInitialized;
@@ -159,6 +149,16 @@ namespace GlobalNamespace {
     // private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     // Offset: 0x87
     bool ShouldUseSystemGestureMaterial;
+    // static field const value: static private System.Single LINE_RENDERER_WIDTH
+    static constexpr const float LINE_RENDERER_WIDTH = 0.005;
+    // Get static field: static private System.Single LINE_RENDERER_WIDTH
+    static float _get_LINE_RENDERER_WIDTH();
+    // Set static field: static private System.Single LINE_RENDERER_WIDTH
+    static void _set_LINE_RENDERER_WIDTH(float value);
+    // Get static field: static private readonly UnityEngine.Quaternion _capsuleRotationOffset
+    static UnityEngine::Quaternion _get__capsuleRotationOffset();
+    // Set static field: static private readonly UnityEngine.Quaternion _capsuleRotationOffset
+    static void _set__capsuleRotationOffset(UnityEngine::Quaternion value);
     // public System.Boolean get_IsInitialized()
     // Offset: 0x18F44B0
     bool get_IsInitialized();

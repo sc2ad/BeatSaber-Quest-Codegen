@@ -32,8 +32,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
@@ -83,7 +83,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA3911C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA39124
     // Implemented from: System.ValueType
@@ -93,7 +93,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA39148
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.EdgeLookup
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.EdgeLookup a, UnityEngine.ProBuilder.EdgeLookup b)
   // Offset: 0xF8CBD0

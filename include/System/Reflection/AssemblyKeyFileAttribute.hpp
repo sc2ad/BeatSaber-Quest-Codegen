@@ -15,10 +15,10 @@ namespace System::Reflection {
     public:
     // private System.String m_keyFile
     // Offset: 0x10
-    ::CsString* m_keyFile;
+    ::Il2CppString* m_keyFile;
     // public System.Void .ctor(System.String keyFile)
     // Offset: 0x135F708
-    static AssemblyKeyFileAttribute* New_ctor(::CsString* keyFile);
+    static AssemblyKeyFileAttribute* New_ctor(::Il2CppString* keyFile);
   }; // System.Reflection.AssemblyKeyFileAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionDataSO* missionDataSO;
     // private System.String _letterPartName
     // Offset: 0x20
-    ::CsString* letterPartName;
+    ::Il2CppString* letterPartName;
     // private System.Int32 _numberPartName
     // Offset: 0x28
     int numberPartName;
@@ -58,16 +58,16 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
     // public System.String get_letterPartName()
     // Offset: 0xC0539C
-    ::CsString* get_letterPartName();
+    ::Il2CppString* get_letterPartName();
     // public System.Int32 get_numberPartName()
     // Offset: 0xC053A4
     int get_numberPartName();
     // public System.String get_missionId()
     // Offset: 0xC053AC
-    ::CsString* get_missionId();
+    ::Il2CppString* get_missionId();
     // public System.String get_formattedMissionNodeName()
     // Offset: 0xC053DC
-    ::CsString* get_formattedMissionNodeName();
+    ::Il2CppString* get_formattedMissionNodeName();
     // public UnityEngine.Vector2 get_position()
     // Offset: 0xC04594
     UnityEngine::Vector2 get_position();

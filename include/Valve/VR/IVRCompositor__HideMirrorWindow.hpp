@@ -27,13 +27,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15F9E34
-    static IVRCompositor::_HideMirrorWindow* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_HideMirrorWindow* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
     // Offset: 0x15F9E48
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
     // Offset: 0x15FA054
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x15FA080
     void EndInvoke(System::IAsyncResult* result);

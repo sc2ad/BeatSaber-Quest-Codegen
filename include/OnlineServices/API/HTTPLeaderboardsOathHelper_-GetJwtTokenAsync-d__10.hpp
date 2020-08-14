@@ -46,15 +46,15 @@ namespace OnlineServices::API {
     System::Threading::CancellationToken cancellationToken;
     // private System.String <uri>5__2
     // Offset: 0x30
-    ::CsString* $uri$5__2;
+    ::Il2CppString* $uri$5__2;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<LeaderboardsDTO.LoginRequestDTO> <>u__1
     // Offset: 0x38
     System::Runtime::CompilerServices::TaskAwaiter_1<LeaderboardsDTO::LoginRequestDTO*> $$u__1;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
     // Offset: 0x40
-    System::Runtime::CompilerServices::TaskAwaiter_1<::CsString*> $$u__2;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2;
     // Creating value type constructor for type: $GetJwtTokenAsync$d__10
-    $GetJwtTokenAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<LeaderboardsDTO::TokenDTO*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::CsString* $uri$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<LeaderboardsDTO::LoginRequestDTO*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::CsString*> $$u__2_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $uri$5__2{$uri$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    $GetJwtTokenAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<LeaderboardsDTO::TokenDTO*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $uri$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<LeaderboardsDTO::LoginRequestDTO*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $uri$5__2{$uri$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
     // Offset: 0xA27E54
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED1978
-    static IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperoneSetup::_SetWorkingSeatedZeroPoseToRawTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.HmdMatrix34_t pMatSeatedZeroPoseToRawTrackingPose)
     // Offset: 0xEC857C
     void Invoke(OVR::OpenVR::HmdMatrix34_t& pMatSeatedZeroPoseToRawTrackingPose);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.HmdMatrix34_t pMatSeatedZeroPoseToRawTrackingPose, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED198C
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::HmdMatrix34_t& pMatSeatedZeroPoseToRawTrackingPose, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::HmdMatrix34_t& pMatSeatedZeroPoseToRawTrackingPose, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(OVR.OpenVR.HmdMatrix34_t pMatSeatedZeroPoseToRawTrackingPose, System.IAsyncResult result)
     // Offset: 0xED1A20
     void EndInvoke(OVR::OpenVR::HmdMatrix34_t& pMatSeatedZeroPoseToRawTrackingPose, System::IAsyncResult* result);

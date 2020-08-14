@@ -55,10 +55,6 @@ namespace UnityEngine::EventSystems {
     // private UnityEngine.EventSystems.BaseInputModule m_CurrentInputModule
     // Offset: 0x20
     UnityEngine::EventSystems::BaseInputModule* m_CurrentInputModule;
-    // Get static field: static private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> m_EventSystems
-    static System::Collections::Generic::List_1<UnityEngine::EventSystems::EventSystem*>* _get_m_EventSystems();
-    // Set static field: static private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> m_EventSystems
-    static void _set_m_EventSystems(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventSystem*>* value);
     // private UnityEngine.GameObject m_FirstSelected
     // Offset: 0x28
     UnityEngine::GameObject* m_FirstSelected;
@@ -80,6 +76,10 @@ namespace UnityEngine::EventSystems {
     // private UnityEngine.EventSystems.BaseEventData m_DummyData
     // Offset: 0x48
     UnityEngine::EventSystems::BaseEventData* m_DummyData;
+    // Get static field: static private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> m_EventSystems
+    static System::Collections::Generic::List_1<UnityEngine::EventSystems::EventSystem*>* _get_m_EventSystems();
+    // Set static field: static private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> m_EventSystems
+    static void _set_m_EventSystems(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventSystem*>* value);
     // Get static field: static private readonly System.Comparison`1<UnityEngine.EventSystems.RaycastResult> s_RaycastComparer
     static System::Comparison_1<UnityEngine::EventSystems::RaycastResult>* _get_s_RaycastComparer();
     // Set static field: static private readonly System.Comparison`1<UnityEngine.EventSystems.RaycastResult> s_RaycastComparer
@@ -183,7 +183,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xDF7CF4
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // static private System.Void .cctor()
     // Offset: 0xDF7E18
     // Implemented from: UnityEngine.Object

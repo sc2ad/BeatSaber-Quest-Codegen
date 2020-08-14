@@ -25,10 +25,10 @@ namespace UnityEngine::Audio {
     void set_updateMode(UnityEngine::Audio::AudioMixerUpdateMode value);
     // public System.Boolean SetFloat(System.String name, System.Single value)
     // Offset: 0x19543D8
-    bool SetFloat(::CsString* name, float value);
+    bool SetFloat(::Il2CppString* name, float value);
     // public System.Boolean GetFloat(System.String name, System.Single value)
     // Offset: 0x1954438
-    bool GetFloat(::CsString* name, float& value);
+    bool GetFloat(::Il2CppString* name, float& value);
   }; // UnityEngine.Audio.AudioMixer
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

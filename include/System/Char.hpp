@@ -107,10 +107,10 @@ namespace System {
     static System::Globalization::UnicodeCategory GetLatin1UnicodeCategory(::Il2CppChar ch);
     // static public System.String ToString(System.Char c)
     // Offset: 0x132E344
-    static ::CsString* ToString(::Il2CppChar c);
+    static ::Il2CppString* ToString(::Il2CppChar c);
     // static public System.Char Parse(System.String s)
     // Offset: 0x132E3CC
-    static ::Il2CppChar Parse(::CsString* s);
+    static ::Il2CppChar Parse(::Il2CppString* s);
     // static public System.Boolean IsDigit(System.Char c)
     // Offset: 0x132E4B4
     static bool IsDigit(::Il2CppChar c);
@@ -167,7 +167,7 @@ namespace System {
     static bool IsControl(::Il2CppChar c);
     // static public System.Boolean IsLetterOrDigit(System.String s, System.Int32 index)
     // Offset: 0x132F83C
-    static bool IsLetterOrDigit(::CsString* s, int index);
+    static bool IsLetterOrDigit(::Il2CppString* s, int index);
     // static System.Boolean CheckNumber(System.Globalization.UnicodeCategory uc)
     // Offset: 0x132F9D8
     static bool CheckNumber(System::Globalization::UnicodeCategory uc);
@@ -188,22 +188,22 @@ namespace System {
     static bool IsSurrogate(::Il2CppChar c);
     // static public System.Boolean IsSurrogate(System.String s, System.Int32 index)
     // Offset: 0x132FC2C
-    static bool IsSurrogate(::CsString* s, int index);
+    static bool IsSurrogate(::Il2CppString* s, int index);
     // static public System.Boolean IsWhiteSpace(System.String s, System.Int32 index)
     // Offset: 0x132FD34
-    static bool IsWhiteSpace(::CsString* s, int index);
+    static bool IsWhiteSpace(::Il2CppString* s, int index);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char c)
     // Offset: 0x132FEAC
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
     // Offset: 0x132FF68
-    static System::Globalization::UnicodeCategory GetUnicodeCategory(::CsString* s, int index);
+    static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppString* s, int index);
     // static public System.Boolean IsHighSurrogate(System.Char c)
     // Offset: 0x13300E0
     static bool IsHighSurrogate(::Il2CppChar c);
     // static public System.Boolean IsHighSurrogate(System.String s, System.Int32 index)
     // Offset: 0x13300F0
-    static bool IsHighSurrogate(::CsString* s, int index);
+    static bool IsHighSurrogate(::Il2CppString* s, int index);
     // static public System.Boolean IsLowSurrogate(System.Char c)
     // Offset: 0x13301FC
     static bool IsLowSurrogate(::Il2CppChar c);
@@ -225,7 +225,7 @@ namespace System {
     // Offset: 0xA42998
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.Char obj)
     // Offset: 0xA429A0
     // Implemented from: System.IEquatable`1
@@ -235,10 +235,10 @@ namespace System {
     // Offset: 0xA429B0
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
-    int CompareTo(::CsObject* value);
+    int CompareTo(::Il2CppObject* value);
     // Creating proxy method: System_IComparable_CompareTo
     // Maps to method: CompareTo
-    int System_IComparable_CompareTo(::CsObject* value);
+    int System_IComparable_CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.Char value)
     // Offset: 0xA429B8
     // Implemented from: System.IComparable`1
@@ -248,12 +248,12 @@ namespace System {
     // Offset: 0xA429C4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0xA429CC
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
-    ::CsString* ToString(System::IFormatProvider* provider);
+    ::Il2CppString* ToString(System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
     // Offset: 0xA429D4
     // Implemented from: System.IConvertible
@@ -333,7 +333,7 @@ namespace System {
     // Offset: 0xA42A60
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
-    ::CsObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
+    ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Char
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer;
     // private System.String _loadingLevelId
     // Offset: 0x40
-    ::CsString* loadingLevelId;
+    ::Il2CppString* loadingLevelId;
     // private System.Threading.CancellationTokenSource _cancellationTokenSource
     // Offset: 0x48
     System::Threading::CancellationTokenSource* cancellationTokenSource;

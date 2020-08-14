@@ -27,13 +27,13 @@ namespace TMPro {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBA8AB4
-    static TMP_InputField::OnValidateInput* New_ctor(::CsObject* object, System::IntPtr method);
+    static TMP_InputField::OnValidateInput* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Char Invoke(System.String text, System.Int32 charIndex, System.Char addedChar)
     // Offset: 0xBA8AC8
-    ::Il2CppChar Invoke(::CsString* text, int charIndex, ::Il2CppChar addedChar);
+    ::Il2CppChar Invoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar);
     // public System.IAsyncResult BeginInvoke(System.String text, System.Int32 charIndex, System.Char addedChar, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBA8F20
-    System::IAsyncResult* BeginInvoke(::CsString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Char EndInvoke(System.IAsyncResult result)
     // Offset: 0xBA8FDC
     ::Il2CppChar EndInvoke(System::IAsyncResult* result);

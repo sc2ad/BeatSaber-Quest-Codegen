@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {
@@ -17,10 +17,10 @@ namespace UnityEngine::TextCore {
     public:
     // private System.String m_FamilyName
     // Offset: 0x0
-    ::CsString* m_FamilyName;
+    ::Il2CppString* m_FamilyName;
     // private System.String m_StyleName
     // Offset: 0x8
-    ::CsString* m_StyleName;
+    ::Il2CppString* m_StyleName;
     // private System.Int32 m_PointSize
     // Offset: 0x10
     int m_PointSize;
@@ -73,13 +73,13 @@ namespace UnityEngine::TextCore {
     // Offset: 0x50
     float m_TabWidth;
     // Creating value type constructor for type: FaceInfo
-    FaceInfo(::CsString* m_FamilyName_ = {}, ::CsString* m_StyleName_ = {}, int m_PointSize_ = {}, float m_Scale_ = {}, float m_LineHeight_ = {}, float m_AscentLine_ = {}, float m_CapLine_ = {}, float m_MeanLine_ = {}, float m_Baseline_ = {}, float m_DescentLine_ = {}, float m_SuperscriptOffset_ = {}, float m_SuperscriptSize_ = {}, float m_SubscriptOffset_ = {}, float m_SubscriptSize_ = {}, float m_UnderlineOffset_ = {}, float m_UnderlineThickness_ = {}, float m_StrikethroughOffset_ = {}, float m_StrikethroughThickness_ = {}, float m_TabWidth_ = {}) : m_FamilyName{m_FamilyName_}, m_StyleName{m_StyleName_}, m_PointSize{m_PointSize_}, m_Scale{m_Scale_}, m_LineHeight{m_LineHeight_}, m_AscentLine{m_AscentLine_}, m_CapLine{m_CapLine_}, m_MeanLine{m_MeanLine_}, m_Baseline{m_Baseline_}, m_DescentLine{m_DescentLine_}, m_SuperscriptOffset{m_SuperscriptOffset_}, m_SuperscriptSize{m_SuperscriptSize_}, m_SubscriptOffset{m_SubscriptOffset_}, m_SubscriptSize{m_SubscriptSize_}, m_UnderlineOffset{m_UnderlineOffset_}, m_UnderlineThickness{m_UnderlineThickness_}, m_StrikethroughOffset{m_StrikethroughOffset_}, m_StrikethroughThickness{m_StrikethroughThickness_}, m_TabWidth{m_TabWidth_} {}
+    FaceInfo(::Il2CppString* m_FamilyName_ = {}, ::Il2CppString* m_StyleName_ = {}, int m_PointSize_ = {}, float m_Scale_ = {}, float m_LineHeight_ = {}, float m_AscentLine_ = {}, float m_CapLine_ = {}, float m_MeanLine_ = {}, float m_Baseline_ = {}, float m_DescentLine_ = {}, float m_SuperscriptOffset_ = {}, float m_SuperscriptSize_ = {}, float m_SubscriptOffset_ = {}, float m_SubscriptSize_ = {}, float m_UnderlineOffset_ = {}, float m_UnderlineThickness_ = {}, float m_StrikethroughOffset_ = {}, float m_StrikethroughThickness_ = {}, float m_TabWidth_ = {}) : m_FamilyName{m_FamilyName_}, m_StyleName{m_StyleName_}, m_PointSize{m_PointSize_}, m_Scale{m_Scale_}, m_LineHeight{m_LineHeight_}, m_AscentLine{m_AscentLine_}, m_CapLine{m_CapLine_}, m_MeanLine{m_MeanLine_}, m_Baseline{m_Baseline_}, m_DescentLine{m_DescentLine_}, m_SuperscriptOffset{m_SuperscriptOffset_}, m_SuperscriptSize{m_SuperscriptSize_}, m_SubscriptOffset{m_SubscriptOffset_}, m_SubscriptSize{m_SubscriptSize_}, m_UnderlineOffset{m_UnderlineOffset_}, m_UnderlineThickness{m_UnderlineThickness_}, m_StrikethroughOffset{m_StrikethroughOffset_}, m_StrikethroughThickness{m_StrikethroughThickness_}, m_TabWidth{m_TabWidth_} {}
     // public System.Void set_familyName(System.String value)
     // Offset: 0xA5ACC4
-    void set_familyName(::CsString* value);
+    void set_familyName(::Il2CppString* value);
     // public System.Void set_styleName(System.String value)
     // Offset: 0xA5ACCC
-    void set_styleName(::CsString* value);
+    void set_styleName(::Il2CppString* value);
     // public System.Int32 get_pointSize()
     // Offset: 0xA5ACD4
     int get_pointSize();

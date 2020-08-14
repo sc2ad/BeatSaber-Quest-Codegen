@@ -95,20 +95,6 @@ namespace UnityEngine::Timeline {
     public:
     // Nested type: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__38
     class $GetControlableScripts$d__38;
-    // static field const value: static private System.Int32 k_MaxRandInt
-    static constexpr const int k_MaxRandInt = 10000;
-    // Get static field: static private System.Int32 k_MaxRandInt
-    static int _get_k_MaxRandInt();
-    // Set static field: static private System.Int32 k_MaxRandInt
-    static void _set_k_MaxRandInt(int value);
-    // Get static field: static private readonly System.Collections.Generic.List`1<UnityEngine.Playables.PlayableDirector> k_EmptyDirectorsList
-    static System::Collections::Generic::List_1<UnityEngine::Playables::PlayableDirector*>* _get_k_EmptyDirectorsList();
-    // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.Playables.PlayableDirector> k_EmptyDirectorsList
-    static void _set_k_EmptyDirectorsList(System::Collections::Generic::List_1<UnityEngine::Playables::PlayableDirector*>* value);
-    // Get static field: static private readonly System.Collections.Generic.List`1<UnityEngine.ParticleSystem> k_EmptyParticlesList
-    static System::Collections::Generic::List_1<UnityEngine::ParticleSystem*>* _get_k_EmptyParticlesList();
-    // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.ParticleSystem> k_EmptyParticlesList
-    static void _set_k_EmptyParticlesList(System::Collections::Generic::List_1<UnityEngine::ParticleSystem*>* value);
     // public UnityEngine.ExposedReference`1<UnityEngine.GameObject> sourceGameObject
     // Offset: 0x18
     UnityEngine::ExposedReference_1<UnityEngine::GameObject*> sourceGameObject;
@@ -145,6 +131,26 @@ namespace UnityEngine::Timeline {
     // private System.Boolean m_SupportLoop
     // Offset: 0x50
     bool m_SupportLoop;
+    // private System.Boolean <controllingDirectors>k__BackingField
+    // Offset: 0x51
+    bool controllingDirectors;
+    // private System.Boolean <controllingParticles>k__BackingField
+    // Offset: 0x52
+    bool controllingParticles;
+    // static field const value: static private System.Int32 k_MaxRandInt
+    static constexpr const int k_MaxRandInt = 10000;
+    // Get static field: static private System.Int32 k_MaxRandInt
+    static int _get_k_MaxRandInt();
+    // Set static field: static private System.Int32 k_MaxRandInt
+    static void _set_k_MaxRandInt(int value);
+    // Get static field: static private readonly System.Collections.Generic.List`1<UnityEngine.Playables.PlayableDirector> k_EmptyDirectorsList
+    static System::Collections::Generic::List_1<UnityEngine::Playables::PlayableDirector*>* _get_k_EmptyDirectorsList();
+    // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.Playables.PlayableDirector> k_EmptyDirectorsList
+    static void _set_k_EmptyDirectorsList(System::Collections::Generic::List_1<UnityEngine::Playables::PlayableDirector*>* value);
+    // Get static field: static private readonly System.Collections.Generic.List`1<UnityEngine.ParticleSystem> k_EmptyParticlesList
+    static System::Collections::Generic::List_1<UnityEngine::ParticleSystem*>* _get_k_EmptyParticlesList();
+    // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.ParticleSystem> k_EmptyParticlesList
+    static void _set_k_EmptyParticlesList(System::Collections::Generic::List_1<UnityEngine::ParticleSystem*>* value);
     // Get static field: static private System.Collections.Generic.HashSet`1<UnityEngine.Playables.PlayableDirector> s_ProcessedDirectors
     static System::Collections::Generic::HashSet_1<UnityEngine::Playables::PlayableDirector*>* _get_s_ProcessedDirectors();
     // Set static field: static private System.Collections.Generic.HashSet`1<UnityEngine.Playables.PlayableDirector> s_ProcessedDirectors
@@ -153,12 +159,6 @@ namespace UnityEngine::Timeline {
     static System::Collections::Generic::HashSet_1<UnityEngine::GameObject*>* _get_s_CreatedPrefabs();
     // Set static field: static private System.Collections.Generic.HashSet`1<UnityEngine.GameObject> s_CreatedPrefabs
     static void _set_s_CreatedPrefabs(System::Collections::Generic::HashSet_1<UnityEngine::GameObject*>* value);
-    // private System.Boolean <controllingDirectors>k__BackingField
-    // Offset: 0x51
-    bool controllingDirectors;
-    // private System.Boolean <controllingParticles>k__BackingField
-    // Offset: 0x52
-    bool controllingParticles;
     // System.Boolean get_controllingDirectors()
     // Offset: 0x108FC50
     bool get_controllingDirectors();

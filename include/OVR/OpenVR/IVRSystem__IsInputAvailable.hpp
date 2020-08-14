@@ -27,13 +27,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B4EF4
-    static IVRSystem::_IsInputAvailable* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_IsInputAvailable* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
     // Offset: 0x16B4F08
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
     // Offset: 0x16B5120
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0x16B514C
     bool EndInvoke(System::IAsyncResult* result);

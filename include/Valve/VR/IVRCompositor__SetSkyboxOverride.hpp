@@ -34,13 +34,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15FB49C
-    static IVRCompositor::_SetSkyboxOverride* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_SetSkyboxOverride* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRCompositorError Invoke(Valve.VR.Texture_t[] pTextures, System.UInt32 unTextureCount)
     // Offset: 0x15FB4B0
     Valve::VR::EVRCompositorError Invoke(::Array<Valve::VR::Texture_t>*& pTextures, uint unTextureCount);
     // public System.IAsyncResult BeginInvoke(Valve.VR.Texture_t[] pTextures, System.UInt32 unTextureCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15FB724
-    System::IAsyncResult* BeginInvoke(::Array<Valve::VR::Texture_t>*& pTextures, uint unTextureCount, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<Valve::VR::Texture_t>*& pTextures, uint unTextureCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRCompositorError EndInvoke(System.IAsyncResult result)
     // Offset: 0x15FB7C0
     Valve::VR::EVRCompositorError EndInvoke(System::IAsyncResult* result);

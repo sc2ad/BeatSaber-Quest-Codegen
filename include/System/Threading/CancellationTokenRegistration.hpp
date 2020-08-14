@@ -21,7 +21,7 @@ namespace System::Threading {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -54,7 +54,7 @@ namespace System::Threading {
     // Offset: 0xA44130
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.Threading.CancellationTokenRegistration other)
     // Offset: 0xA44138
     // Implemented from: System.IEquatable`1

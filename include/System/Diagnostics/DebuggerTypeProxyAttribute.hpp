@@ -22,7 +22,7 @@ namespace System::Diagnostics {
     public:
     // private System.String typeName
     // Offset: 0x10
-    ::CsString* typeName;
+    ::Il2CppString* typeName;
     // public System.Void .ctor(System.Type type)
     // Offset: 0xC91FC4
     static DebuggerTypeProxyAttribute* New_ctor(System::Type* type);

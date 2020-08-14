@@ -34,7 +34,7 @@ namespace System::Reflection {
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static InvalidFilterCriteriaException* New_ctor(::CsString* message);
+    static InvalidFilterCriteriaException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x136680C
     // Implemented from: System.ApplicationException

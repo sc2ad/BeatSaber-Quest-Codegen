@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeView* colorSchemeView;
     // public System.Void SetData(System.String schemeName, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
     // Offset: 0xB60FB8
-    void SetData(::CsString* schemeName, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);
+    void SetData(::Il2CppString* schemeName, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);
     // public System.Void SetData(ColorScheme colorScheme)
     // Offset: 0xB610A0
     void SetData(GlobalNamespace::ColorScheme* colorScheme);

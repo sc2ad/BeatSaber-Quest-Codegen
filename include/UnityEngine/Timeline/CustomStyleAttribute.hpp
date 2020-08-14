@@ -15,10 +15,10 @@ namespace UnityEngine::Timeline {
     public:
     // public readonly System.String ussStyle
     // Offset: 0x10
-    ::CsString* ussStyle;
+    ::Il2CppString* ussStyle;
     // public System.Void .ctor(System.String ussStyle)
     // Offset: 0x1093558
-    static CustomStyleAttribute* New_ctor(::CsString* ussStyle);
+    static CustomStyleAttribute* New_ctor(::Il2CppString* ussStyle);
   }; // UnityEngine.Timeline.CustomStyleAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

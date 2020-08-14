@@ -51,12 +51,6 @@ namespace VRUIControls {
     // private System.Single _laserPointerWidth
     // Offset: 0x3C
     float laserPointerWidth;
-    // static field const value: static public System.Single kScrollMultiplier
-    static constexpr const float kScrollMultiplier = 1;
-    // Get static field: static public System.Single kScrollMultiplier
-    static float _get_kScrollMultiplier();
-    // Set static field: static public System.Single kScrollMultiplier
-    static void _set_kScrollMultiplier(float value);
     // private UnityEngine.Transform _laserPointerTransform
     // Offset: 0x40
     UnityEngine::Transform* laserPointerTransform;
@@ -69,6 +63,15 @@ namespace VRUIControls {
     // private VRController _vrController
     // Offset: 0x58
     GlobalNamespace::VRController* vrController;
+    // private UnityEngine.EventSystems.PointerEventData _pointerData
+    // Offset: 0x60
+    UnityEngine::EventSystems::PointerEventData* pointerData;
+    // static field const value: static public System.Single kScrollMultiplier
+    static constexpr const float kScrollMultiplier = 1;
+    // Get static field: static public System.Single kScrollMultiplier
+    static float _get_kScrollMultiplier();
+    // Set static field: static public System.Single kScrollMultiplier
+    static void _set_kScrollMultiplier(float value);
     // Get static field: static private System.Boolean _lastControllerUsedWasRight
     static bool _get__lastControllerUsedWasRight();
     // Set static field: static private System.Boolean _lastControllerUsedWasRight
@@ -81,9 +84,6 @@ namespace VRUIControls {
     static bool _get__leftControllerWasReleased();
     // Set static field: static private System.Boolean _leftControllerWasReleased
     static void _set__leftControllerWasReleased(bool value);
-    // private UnityEngine.EventSystems.PointerEventData _pointerData
-    // Offset: 0x60
-    UnityEngine::EventSystems::PointerEventData* pointerData;
     // public VRController get_vrController()
     // Offset: 0x1931DA0
     GlobalNamespace::VRController* get_vrController();
@@ -122,7 +122,7 @@ namespace VRUIControls {
     void DestroyLaserAndHit();
     // public System.String get_state()
     // Offset: 0x1932B0C
-    ::CsString* get_state();
+    ::Il2CppString* get_state();
     // public System.Void Process(UnityEngine.EventSystems.PointerEventData pointerEventData)
     // Offset: 0x1931AE8
     void Process(UnityEngine::EventSystems::PointerEventData* pointerEventData);

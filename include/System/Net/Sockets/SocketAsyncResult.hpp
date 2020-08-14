@@ -109,7 +109,7 @@ namespace System::Net::Sockets {
     System::IntPtr get_Handle();
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
     // Offset: 0x1212910
-    static SocketAsyncResult* New_ctor(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::CsObject* state, System::Net::Sockets::SocketOperation operation);
+    static SocketAsyncResult* New_ctor(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::Il2CppObject* state, System::Net::Sockets::SocketOperation operation);
     // public System.Net.Sockets.SocketError get_ErrorCode()
     // Offset: 0x1212960
     System::Net::Sockets::SocketError get_ErrorCode();

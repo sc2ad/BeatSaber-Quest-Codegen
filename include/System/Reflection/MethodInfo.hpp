@@ -53,7 +53,7 @@ namespace System::Reflection {
     // Offset: 0x1368968
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x1368974
     // Implemented from: System.Reflection.MethodBase

@@ -37,13 +37,13 @@ namespace UnityEngine::Rendering {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1383B1C
-    static BatchRendererGroup::OnPerformCulling* New_ctor(::CsObject* object, System::IntPtr method);
+    static BatchRendererGroup::OnPerformCulling* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Unity.Jobs.JobHandle Invoke(UnityEngine.Rendering.BatchRendererGroup rendererGroup, UnityEngine.Rendering.BatchCullingContext cullingContext)
     // Offset: 0x1383574
     Unity::Jobs::JobHandle Invoke(UnityEngine::Rendering::BatchRendererGroup* rendererGroup, UnityEngine::Rendering::BatchCullingContext cullingContext);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Rendering.BatchRendererGroup rendererGroup, UnityEngine.Rendering.BatchCullingContext cullingContext, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1383B30
-    System::IAsyncResult* BeginInvoke(UnityEngine::Rendering::BatchRendererGroup* rendererGroup, UnityEngine::Rendering::BatchCullingContext cullingContext, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::Rendering::BatchRendererGroup* rendererGroup, UnityEngine::Rendering::BatchCullingContext cullingContext, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Unity.Jobs.JobHandle EndInvoke(System.IAsyncResult result)
     // Offset: 0x1383BCC
     Unity::Jobs::JobHandle EndInvoke(System::IAsyncResult* result);

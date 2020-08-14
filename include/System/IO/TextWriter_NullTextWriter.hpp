@@ -41,7 +41,7 @@ namespace System::IO {
     // Offset: 0x1008888
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
-    void Write(::CsString* value);
+    void Write(::Il2CppString* value);
     // public override System.Void WriteLine()
     // Offset: 0x100888C
     // Implemented from: System.IO.TextWriter
@@ -51,7 +51,7 @@ namespace System::IO {
     // Offset: 0x1008890
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String value)
-    void WriteLine(::CsString* value);
+    void WriteLine(::Il2CppString* value);
   }; // System.IO.TextWriter/NullTextWriter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -56,10 +56,10 @@ namespace HMUI {
     Zenject::DiContainer* container;
     // private System.String[] _texts
     // Offset: 0x80
-    ::Array<::CsString*>* texts;
+    ::Array<::Il2CppString*>* texts;
     // public System.Void SetTexts(System.String[] texts)
     // Offset: 0x10E4CB8
-    void SetTexts(::Array<::CsString*>* texts);
+    void SetTexts(::Array<::Il2CppString*>* texts);
     // private HMUI.TextSegmentedControlCellBase InstantiateCell(UnityEngine.Object prefab)
     // Offset: 0x10E4E80
     HMUI::TextSegmentedControlCellBase* InstantiateCell(UnityEngine::Object* prefab);

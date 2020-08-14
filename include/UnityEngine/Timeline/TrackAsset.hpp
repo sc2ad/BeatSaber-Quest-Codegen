@@ -151,36 +151,12 @@ namespace UnityEngine::Timeline {
       // Offset: 0xA598F4
       void Clear();
     }; // UnityEngine.Timeline.TrackAsset/TransientBuildData
-    // static field const value: static private System.Int32 k_LatestVersion
-    static constexpr const int k_LatestVersion = 3;
-    // Get static field: static private System.Int32 k_LatestVersion
-    static int _get_k_LatestVersion();
-    // Set static field: static private System.Int32 k_LatestVersion
-    static void _set_k_LatestVersion(int value);
     // private System.Int32 m_Version
     // Offset: 0x18
     int m_Version;
     // UnityEngine.AnimationClip m_AnimClip
     // Offset: 0x20
     UnityEngine::AnimationClip* m_AnimClip;
-    // Get static field: static private UnityEngine.Timeline.TrackAsset/TransientBuildData s_BuildData
-    static UnityEngine::Timeline::TrackAsset::TransientBuildData _get_s_BuildData();
-    // Set static field: static private UnityEngine.Timeline.TrackAsset/TransientBuildData s_BuildData
-    static void _set_s_BuildData(UnityEngine::Timeline::TrackAsset::TransientBuildData value);
-    // static field const value: static System.String kDefaultCurvesName
-    static constexpr const char* kDefaultCurvesName = "Track Parameters";
-    // Get static field: static System.String kDefaultCurvesName
-    static ::CsString* _get_kDefaultCurvesName();
-    // Set static field: static System.String kDefaultCurvesName
-    static void _set_kDefaultCurvesName(::CsString* value);
-    // Get static field: static private System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate
-    static System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* _get_OnClipPlayableCreate();
-    // Set static field: static private System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate
-    static void _set_OnClipPlayableCreate(System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* value);
-    // Get static field: static private System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnTrackAnimationPlayableCreate
-    static System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* _get_OnTrackAnimationPlayableCreate();
-    // Set static field: static private System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnTrackAnimationPlayableCreate
-    static void _set_OnTrackAnimationPlayableCreate(System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* value);
     // private System.Boolean m_Locked
     // Offset: 0x28
     bool m_Locked;
@@ -189,7 +165,7 @@ namespace UnityEngine::Timeline {
     bool m_Muted;
     // private System.String m_CustomPlayableFullTypename
     // Offset: 0x30
-    ::CsString* m_CustomPlayableFullTypename;
+    ::Il2CppString* m_CustomPlayableFullTypename;
     // private UnityEngine.AnimationClip m_Curves
     // Offset: 0x38
     UnityEngine::AnimationClip* m_Curves;
@@ -217,23 +193,47 @@ namespace UnityEngine::Timeline {
     // private System.Nullable`1<System.Boolean> m_SupportsNotifications
     // Offset: 0x71
     System::Nullable_1<bool> m_SupportsNotifications;
-    // Get static field: static private UnityEngine.Timeline.TrackAsset[] s_EmptyCache
-    static ::Array<UnityEngine::Timeline::TrackAsset*>* _get_s_EmptyCache();
-    // Set static field: static private UnityEngine.Timeline.TrackAsset[] s_EmptyCache
-    static void _set_s_EmptyCache(::Array<UnityEngine::Timeline::TrackAsset*>* value);
     // private System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> m_ChildTrackCache
     // Offset: 0x78
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* m_ChildTrackCache;
-    // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> s_TrackBindingTypeAttributeCache
-    static System::Collections::Generic::Dictionary_2<System::Type*, UnityEngine::Timeline::TrackBindingTypeAttribute*>* _get_s_TrackBindingTypeAttributeCache();
-    // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> s_TrackBindingTypeAttributeCache
-    static void _set_s_TrackBindingTypeAttributeCache(System::Collections::Generic::Dictionary_2<System::Type*, UnityEngine::Timeline::TrackBindingTypeAttribute*>* value);
     // protected internal System.Collections.Generic.List`1<UnityEngine.Timeline.TimelineClip> m_Clips
     // Offset: 0x80
     System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip*>* m_Clips;
     // private UnityEngine.Timeline.MarkerList m_Markers
     // Offset: 0x88
     UnityEngine::Timeline::MarkerList m_Markers;
+    // static field const value: static private System.Int32 k_LatestVersion
+    static constexpr const int k_LatestVersion = 3;
+    // Get static field: static private System.Int32 k_LatestVersion
+    static int _get_k_LatestVersion();
+    // Set static field: static private System.Int32 k_LatestVersion
+    static void _set_k_LatestVersion(int value);
+    // Get static field: static private UnityEngine.Timeline.TrackAsset/TransientBuildData s_BuildData
+    static UnityEngine::Timeline::TrackAsset::TransientBuildData _get_s_BuildData();
+    // Set static field: static private UnityEngine.Timeline.TrackAsset/TransientBuildData s_BuildData
+    static void _set_s_BuildData(UnityEngine::Timeline::TrackAsset::TransientBuildData value);
+    // static field const value: static System.String kDefaultCurvesName
+    static constexpr const char* kDefaultCurvesName = "Track Parameters";
+    // Get static field: static System.String kDefaultCurvesName
+    static ::Il2CppString* _get_kDefaultCurvesName();
+    // Set static field: static System.String kDefaultCurvesName
+    static void _set_kDefaultCurvesName(::Il2CppString* value);
+    // Get static field: static private System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate
+    static System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* _get_OnClipPlayableCreate();
+    // Set static field: static private System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate
+    static void _set_OnClipPlayableCreate(System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* value);
+    // Get static field: static private System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnTrackAnimationPlayableCreate
+    static System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* _get_OnTrackAnimationPlayableCreate();
+    // Set static field: static private System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnTrackAnimationPlayableCreate
+    static void _set_OnTrackAnimationPlayableCreate(System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* value);
+    // Get static field: static private UnityEngine.Timeline.TrackAsset[] s_EmptyCache
+    static ::Array<UnityEngine::Timeline::TrackAsset*>* _get_s_EmptyCache();
+    // Set static field: static private UnityEngine.Timeline.TrackAsset[] s_EmptyCache
+    static void _set_s_EmptyCache(::Array<UnityEngine::Timeline::TrackAsset*>* value);
+    // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> s_TrackBindingTypeAttributeCache
+    static System::Collections::Generic::Dictionary_2<System::Type*, UnityEngine::Timeline::TrackBindingTypeAttribute*>* _get_s_TrackBindingTypeAttributeCache();
+    // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> s_TrackBindingTypeAttributeCache
+    static void _set_s_TrackBindingTypeAttributeCache(System::Collections::Generic::Dictionary_2<System::Type*, UnityEngine::Timeline::TrackBindingTypeAttribute*>* value);
     // protected System.Void OnBeforeTrackSerialize()
     // Offset: 0x18FE674
     void OnBeforeTrackSerialize();
@@ -302,10 +302,10 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* GetChildTracks();
     // System.String get_customPlayableTypename()
     // Offset: 0x18FF8E4
-    ::CsString* get_customPlayableTypename();
+    ::Il2CppString* get_customPlayableTypename();
     // System.Void set_customPlayableTypename(System.String value)
     // Offset: 0x18FF8EC
-    void set_customPlayableTypename(::CsString* value);
+    void set_customPlayableTypename(::Il2CppString* value);
     // System.Void set_curves(UnityEngine.AnimationClip value)
     // Offset: 0x18FF8FC
     void set_curves(UnityEngine::AnimationClip* value);
@@ -534,7 +534,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18FF904
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: System.String ICurvesOwner::get_defaultCurvesName()
-    ::CsString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
+    ::Il2CppString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
     // private UnityEngine.Object UnityEngine.Timeline.ICurvesOwner.get_asset()
     // Offset: 0x18FF94C
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
@@ -554,7 +554,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18FFCA0
     // Implemented from: UnityEngine.Timeline.ICurvesOwner
     // Base method: System.Void ICurvesOwner::CreateCurves(System.String curvesClipName)
-    void CreateCurves(::CsString* curvesClipName);
+    void CreateCurves(::Il2CppString* curvesClipName);
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     // Offset: 0x18FFDF0
     // Implemented from: UnityEngine.Playables.PlayableAsset

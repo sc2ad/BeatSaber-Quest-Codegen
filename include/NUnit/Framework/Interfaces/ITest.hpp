@@ -27,7 +27,7 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
@@ -36,13 +36,13 @@ namespace NUnit::Framework::Interfaces {
     public:
     // public System.String get_Id()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Id();
+    ::Il2CppString* get_Id();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public System.String get_FullName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_FullName();
+    ::Il2CppString* get_FullName();
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();

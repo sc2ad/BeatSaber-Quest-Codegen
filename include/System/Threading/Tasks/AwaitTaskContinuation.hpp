@@ -65,7 +65,7 @@ namespace System::Threading::Tasks {
     static AwaitTaskContinuation* New_ctor(System::Action* action, bool flowExecutionContext);
     // protected System.Threading.Tasks.Task CreateTask(System.Action`1<System.Object> action, System.Object state, System.Threading.Tasks.TaskScheduler scheduler)
     // Offset: 0xCDA704
-    System::Threading::Tasks::Task* CreateTask(System::Action_1<::CsObject*>* action, ::CsObject* state, System::Threading::Tasks::TaskScheduler* scheduler);
+    System::Threading::Tasks::Task* CreateTask(System::Action_1<::Il2CppObject*>* action, ::Il2CppObject* state, System::Threading::Tasks::TaskScheduler* scheduler);
     // static System.Boolean get_IsValidLocationForInlining()
     // Offset: 0xCDAA70
     static bool get_IsValidLocationForInlining();
@@ -74,13 +74,13 @@ namespace System::Threading::Tasks {
     void ExecuteWorkItemHelper();
     // static private System.Void InvokeAction(System.Object state)
     // Offset: 0xCDB020
-    static void InvokeAction(::CsObject* state);
+    static void InvokeAction(::Il2CppObject* state);
     // static protected System.Threading.ContextCallback GetInvokeActionCallback()
     // Offset: 0xCDB08C
     static System::Threading::ContextCallback* GetInvokeActionCallback();
     // protected System.Void RunCallback(System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task currentTask)
     // Offset: 0xCDABBC
-    void RunCallback(System::Threading::ContextCallback* callback, ::CsObject* state, System::Threading::Tasks::Task*& currentTask);
+    void RunCallback(System::Threading::ContextCallback* callback, ::Il2CppObject* state, System::Threading::Tasks::Task*& currentTask);
     // static System.Void RunOrScheduleAction(System.Action action, System.Boolean allowInlining, System.Threading.Tasks.Task currentTask)
     // Offset: 0xCDB284
     static void RunOrScheduleAction(System::Action* action, bool allowInlining, System::Threading::Tasks::Task*& currentTask);

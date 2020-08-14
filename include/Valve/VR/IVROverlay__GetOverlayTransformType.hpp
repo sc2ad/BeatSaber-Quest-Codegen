@@ -34,13 +34,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1606B94
-    static IVROverlay::_GetOverlayTransformType* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayTransformType* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayTransformType peTransformType)
     // Offset: 0x1606BA8
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayTransformType& peTransformType);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayTransformType peTransformType, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1606E2C
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayTransformType& peTransformType, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayTransformType& peTransformType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(Valve.VR.VROverlayTransformType peTransformType, System.IAsyncResult result)
     // Offset: 0x1606EDC
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::VROverlayTransformType& peTransformType, System::IAsyncResult* result);

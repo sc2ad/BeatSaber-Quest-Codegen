@@ -55,28 +55,28 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* texts;
     // private System.String strRiftPresent
     // Offset: 0x70
-    ::CsString* strRiftPresent;
+    ::Il2CppString* strRiftPresent;
     // private System.String strFPS
     // Offset: 0x78
-    ::CsString* strFPS;
+    ::Il2CppString* strFPS;
     // private System.String strIPD
     // Offset: 0x80
-    ::CsString* strIPD;
+    ::Il2CppString* strIPD;
     // private System.String strFOV
     // Offset: 0x88
-    ::CsString* strFOV;
+    ::Il2CppString* strFOV;
     // private System.String strHeight
     // Offset: 0x90
-    ::CsString* strHeight;
+    ::Il2CppString* strHeight;
     // private System.String strDepth
     // Offset: 0x98
-    ::CsString* strDepth;
+    ::Il2CppString* strDepth;
     // private System.String strResolutionEyeTexture
     // Offset: 0xA0
-    ::CsString* strResolutionEyeTexture;
+    ::Il2CppString* strResolutionEyeTexture;
     // private System.String strLatencies
     // Offset: 0xA8
-    ::CsString* strLatencies;
+    ::Il2CppString* strLatencies;
     // private System.Single updateInterval
     // Offset: 0xB0
     float updateInterval;
@@ -130,7 +130,7 @@ namespace GlobalNamespace {
     void UpdateDeviceDetection();
     // private UnityEngine.GameObject VariableObjectManager(UnityEngine.GameObject gameObject, System.String name, System.Single posY, System.String str, System.Int32 fontSize)
     // Offset: 0xCCBE40
-    UnityEngine::GameObject* VariableObjectManager(UnityEngine::GameObject* gameObject, ::CsString* name, float posY, ::CsString* str, int fontSize);
+    UnityEngine::GameObject* VariableObjectManager(UnityEngine::GameObject* gameObject, ::Il2CppString* name, float posY, ::Il2CppString* str, int fontSize);
     // private UnityEngine.GameObject ComponentComposition(UnityEngine.GameObject GO)
     // Offset: 0xCCC83C
     UnityEngine::GameObject* ComponentComposition(UnityEngine::GameObject* GO);

@@ -15,7 +15,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -29,7 +29,7 @@ namespace System::ComponentModel {
     bool get_InvokeRequired();
     // public System.IAsyncResult BeginInvoke(System.Delegate method, System.Object[] args)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(System::Delegate* method, ::Array<::CsObject*>* args);
+    System::IAsyncResult* BeginInvoke(System::Delegate* method, ::Array<::Il2CppObject*>* args);
   }; // System.ComponentModel.ISynchronizeInvoke
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

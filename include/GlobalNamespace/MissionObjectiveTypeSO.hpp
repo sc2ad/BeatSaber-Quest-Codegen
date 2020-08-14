@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     public:
     // private System.String _objectiveName
     // Offset: 0x18
-    ::CsString* objectiveName;
+    ::Il2CppString* objectiveName;
     // private System.Boolean _noConditionValue
     // Offset: 0x20
     bool noConditionValue;
@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     GlobalNamespace::ObjectiveValueFormatterSO* objectiveValueFormater;
     // public System.String get_objectiveName()
     // Offset: 0xC08DE8
-    ::CsString* get_objectiveName();
+    ::Il2CppString* get_objectiveName();
     // public System.String get_objectiveNameLocalized()
     // Offset: 0xC08C20
-    ::CsString* get_objectiveNameLocalized();
+    ::Il2CppString* get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
     // Offset: 0xC08DF0
     bool get_noConditionValue();

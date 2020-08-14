@@ -15,13 +15,13 @@ namespace System::Runtime::Remoting::Metadata {
     public:
     // private System.String _elementName
     // Offset: 0x28
-    ::CsString* elementName;
+    ::Il2CppString* elementName;
     // private System.Boolean _isElement
     // Offset: 0x30
     bool isElement;
     // public System.String get_XmlElementName()
     // Offset: 0xE0FC98
-    ::CsString* get_XmlElementName();
+    ::Il2CppString* get_XmlElementName();
     // public System.Boolean IsInteropXmlElement()
     // Offset: 0xE0FCA0
     bool IsInteropXmlElement();
@@ -36,7 +36,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Offset: 0xE0FCA8
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::SetReflectionObject(System.Object reflectionObject)
-    void SetReflectionObject(::CsObject* reflectionObject);
+    void SetReflectionObject(::Il2CppObject* reflectionObject);
   }; // System.Runtime.Remoting.Metadata.SoapFieldAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     class $$c;
     // private System.String[] myFolders
     // Offset: 0x18
-    ::Array<::CsString*>* myFolders;
+    ::Array<::Il2CppString*>* myFolders;
     // private FileBrowserItem[] _bookmarksFolders
     // Offset: 0x20
     ::Array<GlobalNamespace::FileBrowserItem*>* bookmarksFolders;

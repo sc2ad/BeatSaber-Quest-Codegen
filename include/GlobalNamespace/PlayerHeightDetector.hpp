@@ -44,12 +44,6 @@ namespace GlobalNamespace {
     // private System.Action`1<System.Single> playerHeightDidChangeEvent
     // Offset: 0x30
     System::Action_1<float>* playerHeightDidChangeEvent;
-    // static field const value: static private System.Single kHeightScaleAdjust
-    static constexpr const float kHeightScaleAdjust = 1.2;
-    // Get static field: static private System.Single kHeightScaleAdjust
-    static float _get_kHeightScaleAdjust();
-    // Set static field: static private System.Single kHeightScaleAdjust
-    static void _set_kHeightScaleAdjust(float value);
     // private BeatmapObjectCallbackController/BeatmapObjectCallbackData _beatmapObjectCallbackData
     // Offset: 0x38
     GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* beatmapObjectCallbackData;
@@ -65,6 +59,12 @@ namespace GlobalNamespace {
     // private System.Single _lastReportedHeight
     // Offset: 0x4C
     float lastReportedHeight;
+    // static field const value: static private System.Single kHeightScaleAdjust
+    static constexpr const float kHeightScaleAdjust = 1.2;
+    // Get static field: static private System.Single kHeightScaleAdjust
+    static float _get_kHeightScaleAdjust();
+    // Set static field: static private System.Single kHeightScaleAdjust
+    static void _set_kHeightScaleAdjust(float value);
     // public System.Void add_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
     // Offset: 0xBDBB58
     void add_playerHeightDidChangeEvent(System::Action_1<float>* value);

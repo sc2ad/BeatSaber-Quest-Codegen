@@ -13,7 +13,7 @@ namespace System::Threading {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -25,7 +25,7 @@ namespace System {
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Object get_AsyncState()
     // Offset: 0xFFFFFFFF
-    ::CsObject* get_AsyncState();
+    ::Il2CppObject* get_AsyncState();
   }; // System.IAsyncResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

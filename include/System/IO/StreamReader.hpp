@@ -34,10 +34,6 @@ namespace System::IO {
     public:
     // Nested type: System::IO::StreamReader::NullStreamReader
     class NullStreamReader;
-    // Get static field: static public readonly System.IO.StreamReader Null
-    static System::IO::StreamReader* _get_Null();
-    // Set static field: static public readonly System.IO.StreamReader Null
-    static void _set_Null(System::IO::StreamReader* value);
     // private System.IO.Stream stream
     // Offset: 0x18
     System::IO::Stream* stream;
@@ -86,6 +82,10 @@ namespace System::IO {
     // private System.Threading.Tasks.Task _asyncReadTask
     // Offset: 0x60
     System::Threading::Tasks::Task* asyncReadTask;
+    // Get static field: static public readonly System.IO.StreamReader Null
+    static System::IO::StreamReader* _get_Null();
+    // Set static field: static public readonly System.IO.StreamReader Null
+    static void _set_Null(System::IO::StreamReader* value);
     // static System.Int32 get_DefaultBufferSize()
     // Offset: 0x100316C
     static int get_DefaultBufferSize();
@@ -106,19 +106,19 @@ namespace System::IO {
     static StreamReader* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool leaveOpen);
     // public System.Void .ctor(System.String path)
     // Offset: 0x10036EC
-    static StreamReader* New_ctor(::CsString* path);
+    static StreamReader* New_ctor(::Il2CppString* path);
     // public System.Void .ctor(System.String path, System.Boolean detectEncodingFromByteOrderMarks)
     // Offset: 0x10036F4
-    static StreamReader* New_ctor(::CsString* path, bool detectEncodingFromByteOrderMarks);
+    static StreamReader* New_ctor(::Il2CppString* path, bool detectEncodingFromByteOrderMarks);
     // public System.Void .ctor(System.String path, System.Text.Encoding encoding)
     // Offset: 0x1003798
-    static StreamReader* New_ctor(::CsString* path, System::Text::Encoding* encoding);
+    static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize)
     // Offset: 0x100378C
-    static StreamReader* New_ctor(::CsString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize);
+    static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize);
     // System.Void .ctor(System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost)
     // Offset: 0x1003820
-    static StreamReader* New_ctor(::CsString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool checkHost);
+    static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool checkHost);
     // private System.Void Init(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean leaveOpen)
     // Offset: 0x100356C
     void Init(System::IO::Stream* stream, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool leaveOpen);
@@ -185,12 +185,12 @@ namespace System::IO {
     // Offset: 0x10041F4
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
-    ::CsString* ReadToEnd();
+    ::Il2CppString* ReadToEnd();
     // public override System.String ReadLine()
     // Offset: 0x10048CC
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
-    ::CsString* ReadLine();
+    ::Il2CppString* ReadLine();
     // static private System.Void .cctor()
     // Offset: 0x1004AF0
     // Implemented from: System.IO.TextReader

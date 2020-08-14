@@ -29,13 +29,13 @@ namespace Microsoft::Win32 {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x10A8C44
-    static UnsafeNativeMethods::ManifestEtw::EtwEnableCallback* New_ctor(::CsObject* object, System::IntPtr method);
+    static UnsafeNativeMethods::ManifestEtw::EtwEnableCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Guid sourceId, System.Int32 isEnabled, System.Byte level, System.Int64 matchAnyKeywords, System.Int64 matchAllKeywords, Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR* filterData, System.Void* callbackContext)
     // Offset: 0x10A8C58
     void Invoke(System::Guid& sourceId, int& isEnabled, uint8_t& level, int64_t& matchAnyKeywords, int64_t& matchAllKeywords, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR*& filterData, void*& callbackContext);
     // public System.IAsyncResult BeginInvoke(System.Guid sourceId, System.Int32 isEnabled, System.Byte level, System.Int64 matchAnyKeywords, System.Int64 matchAllKeywords, Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR* filterData, System.Void* callbackContext, System.AsyncCallback callback, System.Object object)
     // Offset: 0x10A8F24
-    System::IAsyncResult* BeginInvoke(System::Guid& sourceId, int& isEnabled, uint8_t& level, int64_t& matchAnyKeywords, int64_t& matchAllKeywords, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR*& filterData, void*& callbackContext, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::Guid& sourceId, int& isEnabled, uint8_t& level, int64_t& matchAnyKeywords, int64_t& matchAllKeywords, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR*& filterData, void*& callbackContext, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.Guid sourceId, System.IAsyncResult result)
     // Offset: 0x10A903C
     void EndInvoke(System::Guid& sourceId, System::IAsyncResult* result);

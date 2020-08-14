@@ -15,10 +15,10 @@ namespace System::Reflection {
     public:
     // private System.String m_product
     // Offset: 0x10
-    ::CsString* m_product;
+    ::Il2CppString* m_product;
     // public System.Void .ctor(System.String product)
     // Offset: 0x1360864
-    static AssemblyProductAttribute* New_ctor(::CsString* product);
+    static AssemblyProductAttribute* New_ctor(::Il2CppString* product);
   }; // System.Reflection.AssemblyProductAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

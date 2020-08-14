@@ -42,12 +42,6 @@ namespace GlobalNamespace {
     // private System.Action`2<System.Int32,UnityEngine.Color> didSetColorForIdEvent
     // Offset: 0x18
     System::Action_2<int, UnityEngine::Color>* didSetColorForIdEvent;
-    // static field const value: static private System.Int32 kMaxLightId
-    static constexpr const int kMaxLightId = 20;
-    // Get static field: static private System.Int32 kMaxLightId
-    static int _get_kMaxLightId();
-    // Set static field: static private System.Int32 kMaxLightId
-    static void _set_kMaxLightId(int value);
     // private System.Collections.Generic.List`1<LightWithId>[] _lights
     // Offset: 0x20
     ::Array<System::Collections::Generic::List_1<GlobalNamespace::LightWithId*>*>* lights;
@@ -57,6 +51,12 @@ namespace GlobalNamespace {
     // private System.Int32 _lastColorChangeFrameNum
     // Offset: 0x30
     int lastColorChangeFrameNum;
+    // static field const value: static private System.Int32 kMaxLightId
+    static constexpr const int kMaxLightId = 20;
+    // Get static field: static private System.Int32 kMaxLightId
+    static int _get_kMaxLightId();
+    // Set static field: static private System.Int32 kMaxLightId
+    static void _set_kMaxLightId(int value);
     // public System.Void add_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
     // Offset: 0x1823F24
     void add_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);

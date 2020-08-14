@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x150B318
-    static IVRCompositor::_GetMirrorTextureGL* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_GetMirrorTextureGL* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRCompositorError Invoke(OVR.OpenVR.EVREye eEye, System.UInt32 pglTextureId, System.IntPtr pglSharedTextureHandle)
     // Offset: 0x150B32C
     OVR::OpenVR::EVRCompositorError Invoke(OVR::OpenVR::EVREye eEye, uint& pglTextureId, System::IntPtr pglSharedTextureHandle);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREye eEye, System.UInt32 pglTextureId, System.IntPtr pglSharedTextureHandle, System.AsyncCallback callback, System.Object object)
     // Offset: 0x150B5D8
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, uint& pglTextureId, System::IntPtr pglSharedTextureHandle, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, uint& pglTextureId, System::IntPtr pglSharedTextureHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRCompositorError EndInvoke(System.UInt32 pglTextureId, System.IAsyncResult result)
     // Offset: 0x150B6A8
     OVR::OpenVR::EVRCompositorError EndInvoke(uint& pglTextureId, System::IAsyncResult* result);

@@ -142,7 +142,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmap* selectedDifficultyBeatmap;
     // private System.String _settingTextureForLevelId
     // Offset: 0xB8
-    ::CsString* settingTextureForLevelId;
+    ::Il2CppString* settingTextureForLevelId;
     // private System.Threading.CancellationTokenSource _cancellationTokenSource
     // Offset: 0xC0
     System::Threading::CancellationTokenSource* cancellationTokenSource;

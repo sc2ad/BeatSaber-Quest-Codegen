@@ -29,8 +29,8 @@ namespace NUnit::Framework::Interfaces {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -50,13 +50,13 @@ namespace NUnit::Framework::Interfaces {
     bool IsType(System::Type* type);
     // public System.String get_FullName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_FullName();
+    ::Il2CppString* get_FullName();
     // public System.Reflection.Assembly get_Assembly()
     // Offset: 0xFFFFFFFF
     System::Reflection::Assembly* get_Assembly();
     // public System.String get_Namespace()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Namespace();
+    ::Il2CppString* get_Namespace();
     // public System.Boolean get_IsAbstract()
     // Offset: 0xFFFFFFFF
     bool get_IsAbstract();
@@ -77,10 +77,10 @@ namespace NUnit::Framework::Interfaces {
     bool get_IsStaticClass();
     // public System.String GetDisplayName()
     // Offset: 0xFFFFFFFF
-    ::CsString* GetDisplayName();
+    ::Il2CppString* GetDisplayName();
     // public System.String GetDisplayName(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    ::CsString* GetDisplayName(::Array<::CsObject*>* args);
+    ::Il2CppString* GetDisplayName(::Array<::Il2CppObject*>* args);
     // public System.Type GetGenericTypeDefinition()
     // Offset: 0xFFFFFFFF
     System::Type* GetGenericTypeDefinition();
@@ -101,7 +101,7 @@ namespace NUnit::Framework::Interfaces {
     bool HasConstructor(::Array<System::Type*>* argTypes);
     // public System.Object Construct(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    ::CsObject* Construct(::Array<::CsObject*>* args);
+    ::Il2CppObject* Construct(::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Interfaces.ITypeInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -31,7 +31,7 @@ namespace Zenject {
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container, TParam1 p1, TParam2 p2)
     // Offset: 0xFFFFFFFF
-    static TDerived InstallFromResource(::CsString* resourcePath, Zenject::DiContainer* container, TParam1 p1, TParam2 p2) {
+    static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container, TParam1 p1, TParam2 p2) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<TDerived>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>*>::get(), "InstallFromResource", resourcePath, container, p1, p2)));
     }
     // public System.Void .ctor()

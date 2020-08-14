@@ -27,13 +27,13 @@ namespace UnityEngine {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1956528
-    static AudioSettings::AudioConfigurationChangeHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static AudioSettings::AudioConfigurationChangeHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean deviceWasChanged)
     // Offset: 0x1956244
     void Invoke(bool deviceWasChanged);
     // public System.IAsyncResult BeginInvoke(System.Boolean deviceWasChanged, System.AsyncCallback callback, System.Object object)
     // Offset: 0x195653C
-    System::IAsyncResult* BeginInvoke(bool deviceWasChanged, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(bool deviceWasChanged, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x19565CC
     void EndInvoke(System::IAsyncResult* result);

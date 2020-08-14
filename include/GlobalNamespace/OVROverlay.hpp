@@ -201,24 +201,6 @@ namespace GlobalNamespace {
     // protected System.Boolean isOverridePending
     // Offset: 0x100
     bool isOverridePending;
-    // static field const value: static System.Int32 maxInstances
-    static constexpr const int maxInstances = 15;
-    // Get static field: static System.Int32 maxInstances
-    static int _get_maxInstances();
-    // Set static field: static System.Int32 maxInstances
-    static void _set_maxInstances(int value);
-    // Get static field: static public OVROverlay[] instances
-    static ::Array<GlobalNamespace::OVROverlay*>* _get_instances();
-    // Set static field: static public OVROverlay[] instances
-    static void _set_instances(::Array<GlobalNamespace::OVROverlay*>* value);
-    // Get static field: static private UnityEngine.Material tex2DMaterial
-    static UnityEngine::Material* _get_tex2DMaterial();
-    // Set static field: static private UnityEngine.Material tex2DMaterial
-    static void _set_tex2DMaterial(UnityEngine::Material* value);
-    // Get static field: static private UnityEngine.Material cubeMaterial
-    static UnityEngine::Material* _get_cubeMaterial();
-    // Set static field: static private UnityEngine.Material cubeMaterial
-    static void _set_cubeMaterial(UnityEngine::Material* value);
     // private OVROverlay/LayerTexture[] layerTextures
     // Offset: 0x108
     ::Array<GlobalNamespace::OVROverlay::LayerTexture>* layerTextures;
@@ -264,6 +246,24 @@ namespace GlobalNamespace {
     // private System.Boolean xrDeviceConstructed
     // Offset: 0x19C
     bool xrDeviceConstructed;
+    // static field const value: static System.Int32 maxInstances
+    static constexpr const int maxInstances = 15;
+    // Get static field: static System.Int32 maxInstances
+    static int _get_maxInstances();
+    // Set static field: static System.Int32 maxInstances
+    static void _set_maxInstances(int value);
+    // Get static field: static public OVROverlay[] instances
+    static ::Array<GlobalNamespace::OVROverlay*>* _get_instances();
+    // Set static field: static public OVROverlay[] instances
+    static void _set_instances(::Array<GlobalNamespace::OVROverlay*>* value);
+    // Get static field: static private UnityEngine.Material tex2DMaterial
+    static UnityEngine::Material* _get_tex2DMaterial();
+    // Set static field: static private UnityEngine.Material tex2DMaterial
+    static void _set_tex2DMaterial(UnityEngine::Material* value);
+    // Get static field: static private UnityEngine.Material cubeMaterial
+    static UnityEngine::Material* _get_cubeMaterial();
+    // Set static field: static private UnityEngine.Material cubeMaterial
+    static void _set_cubeMaterial(UnityEngine::Material* value);
     // public System.Void OverrideOverlayTextureInfo(UnityEngine.Texture srcTexture, System.IntPtr nativePtr, UnityEngine.XR.XRNode node)
     // Offset: 0xEEDB48
     void OverrideOverlayTextureInfo(UnityEngine::Texture* srcTexture, System::IntPtr nativePtr, UnityEngine::XR::XRNode node);
@@ -311,7 +311,7 @@ namespace GlobalNamespace {
     void Awake();
     // static public System.String get_OpenVROverlayKey()
     // Offset: 0xEF1228
-    static ::CsString* get_OpenVROverlayKey();
+    static ::Il2CppString* get_OpenVROverlayKey();
     // private System.Void OnEnable()
     // Offset: 0xEF12A0
     void OnEnable();

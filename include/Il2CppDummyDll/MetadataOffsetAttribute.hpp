@@ -15,7 +15,7 @@ namespace Il2CppDummyDll {
     public:
     // public System.String Offset
     // Offset: 0xFFFFFFFF
-    ::CsString* Offset;
+    ::Il2CppString* Offset;
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Attribute

@@ -25,13 +25,13 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xE1CC30
-    static DeserializationEventHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static DeserializationEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender)
     // Offset: 0xE1CC44
-    void Invoke(::CsObject* sender);
+    void Invoke(::Il2CppObject* sender);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.AsyncCallback callback, System.Object object)
     // Offset: 0xE1CFFC
-    System::IAsyncResult* BeginInvoke(::CsObject* sender, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xE1D020
     void EndInvoke(System::IAsyncResult* result);

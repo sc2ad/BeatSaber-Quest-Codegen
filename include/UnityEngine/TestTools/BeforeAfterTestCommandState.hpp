@@ -44,16 +44,16 @@ namespace UnityEngine::TestTools {
     NUnit::Framework::Interfaces::TestStatus CurrentTestResultStatus;
     // public System.String CurrentTestResultLabel
     // Offset: 0x30
-    ::CsString* CurrentTestResultLabel;
+    ::Il2CppString* CurrentTestResultLabel;
     // public NUnit.Framework.Interfaces.FailureSite CurrentTestResultSite
     // Offset: 0x38
     NUnit::Framework::Interfaces::FailureSite CurrentTestResultSite;
     // public System.String CurrentTestMessage
     // Offset: 0x40
-    ::CsString* CurrentTestMessage;
+    ::Il2CppString* CurrentTestMessage;
     // public System.String CurrentTestStrackTrace
     // Offset: 0x48
-    ::CsString* CurrentTestStrackTrace;
+    ::Il2CppString* CurrentTestStrackTrace;
     // public System.Boolean TestAfterStarted
     // Offset: 0x50
     bool TestAfterStarted;

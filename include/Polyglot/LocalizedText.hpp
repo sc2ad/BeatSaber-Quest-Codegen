@@ -31,7 +31,7 @@ namespace Polyglot {
     public:
     // protected System.Void SetText(UnityEngine.UI.Text text, System.String value)
     // Offset: 0x190F0F4
-    void SetText(UnityEngine::UI::Text* text, ::CsString* value);
+    void SetText(UnityEngine::UI::Text* text, ::Il2CppString* value);
     // protected System.Void UpdateAlignment(UnityEngine.UI.Text text, Polyglot.LanguageDirection direction)
     // Offset: 0x190F210
     void UpdateAlignment(UnityEngine::UI::Text* text, Polyglot::LanguageDirection direction);

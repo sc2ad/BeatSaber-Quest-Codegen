@@ -14,8 +14,8 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
@@ -24,22 +24,22 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Object Convert(System.Object value, System.Type type)
     // Offset: 0xFFFFFFFF
-    ::CsObject* Convert(::CsObject* value, System::Type* type);
+    ::Il2CppObject* Convert(::Il2CppObject* value, System::Type* type);
     // public System.Boolean ToBoolean(System.Object value)
     // Offset: 0xFFFFFFFF
-    bool ToBoolean(::CsObject* value);
+    bool ToBoolean(::Il2CppObject* value);
     // public System.Int32 ToInt32(System.Object value)
     // Offset: 0xFFFFFFFF
-    int ToInt32(::CsObject* value);
+    int ToInt32(::Il2CppObject* value);
     // public System.Int64 ToInt64(System.Object value)
     // Offset: 0xFFFFFFFF
-    int64_t ToInt64(::CsObject* value);
+    int64_t ToInt64(::Il2CppObject* value);
     // public System.Single ToSingle(System.Object value)
     // Offset: 0xFFFFFFFF
-    float ToSingle(::CsObject* value);
+    float ToSingle(::Il2CppObject* value);
     // public System.String ToString(System.Object value)
     // Offset: 0xFFFFFFFF
-    ::CsString* ToString(::CsObject* value);
+    ::Il2CppString* ToString(::Il2CppObject* value);
   }; // System.Runtime.Serialization.IFormatterConverter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -39,25 +39,25 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* levelPackProductsData;
     // private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelProductData> _levelIdToProductData
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* levelIdToProductData;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* levelIdToProductData;
     // private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<::CsString*, ::CsString*>* assetFileToSku;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* assetFileToSku;
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
     // Offset: 0xC35FCC
     ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
     // Offset: 0xC345D0
-    GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::CsString* levelId);
+    GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
     // Offset: 0xC36154
-    GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::CsString* levelPackId);
+    GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
     // public System.String GetLevelSku(System.String assetFile)
     // Offset: 0xC361D4
-    ::CsString* GetLevelSku(::CsString* assetFile);
+    ::Il2CppString* GetLevelSku(::Il2CppString* assetFile);
     // protected override System.Void OnEnable()
     // Offset: 0xC35FD4
     // Implemented from: PersistentScriptableObject

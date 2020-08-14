@@ -43,7 +43,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0xE1A2B0
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Void ServerIdentity::.ctor(System.String objectUri, System.Runtime.Remoting.Contexts.Context context, System.Type objectType)
-    static SingletonIdentity* New_ctor(::CsString* objectUri, System::Runtime::Remoting::Contexts::Context* context, System::Type* objectType);
+    static SingletonIdentity* New_ctor(::Il2CppString* objectUri, System::Runtime::Remoting::Contexts::Context* context, System::Type* objectType);
     // public override System.Runtime.Remoting.Messaging.IMessage SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     // Offset: 0xE1B344
     // Implemented from: System.Runtime.Remoting.ServerIdentity

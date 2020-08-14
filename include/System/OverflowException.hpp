@@ -40,14 +40,14 @@ namespace System {
     // Base method: System.Void ArithmeticException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static OverflowException* New_ctor(::CsString* message);
+    static OverflowException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
     // Offset: 0x135AA78
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
-    static OverflowException* New_ctor(::CsString* message, System::Exception* innerException);
+    static OverflowException* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x135AAAC
     // Implemented from: System.ArithmeticException

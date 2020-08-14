@@ -64,7 +64,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0xA4364C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0xA43654
     // Implemented from: System.ValueType
@@ -79,7 +79,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0xA43694
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
   }; // UnityEngine.Rendering.RenderTargetIdentifier
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

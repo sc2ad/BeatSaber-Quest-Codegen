@@ -55,12 +55,12 @@ namespace System::Reflection::Emit {
     // Offset: 0x1363B30
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public override System.Object GetValue(System.Object obj)
     // Offset: 0x1363B8C
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Object FieldInfo::GetValue(System.Object obj)
-    ::CsObject* GetValue(::CsObject* obj);
+    ::Il2CppObject* GetValue(::Il2CppObject* obj);
     // public override System.RuntimeFieldHandle get_FieldHandle()
     // Offset: 0x1363BE8
     // Implemented from: System.Reflection.FieldInfo
@@ -75,12 +75,12 @@ namespace System::Reflection::Emit {
     // Offset: 0x1363C68
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
-    ::Array<::CsObject*>* GetCustomAttributes(bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1363CA8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::Array<::CsObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1363CE8
     // Implemented from: System.Reflection.MemberInfo
@@ -90,7 +90,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x1363D28
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Void FieldInfo::SetValue(System.Object obj, System.Object val, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
-    void SetValue(::CsObject* obj, ::CsObject* val, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
+    void SetValue(::Il2CppObject* obj, ::Il2CppObject* val, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
   }; // System.Reflection.Emit.FieldBuilder
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -13,7 +13,7 @@ namespace System::Runtime::Serialization {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
@@ -22,7 +22,7 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
-    ::CsObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
+    ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Serialization.IObjectReference
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

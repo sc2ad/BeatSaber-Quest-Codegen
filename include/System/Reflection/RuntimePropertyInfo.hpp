@@ -52,10 +52,10 @@ namespace System::Reflection {
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // private System.String FormatNameAndSig(System.Boolean serialization)
     // Offset: 0x115337C
-    ::CsString* FormatNameAndSig(bool serialization);
+    ::Il2CppString* FormatNameAndSig(bool serialization);
     // System.String SerializationToString()
     // Offset: 0x11535C4
-    ::CsString* SerializationToString();
+    ::Il2CppString* SerializationToString();
     // public override System.Reflection.Module get_Module()
     // Offset: 0x1153238
     // Implemented from: System.Reflection.MemberInfo
@@ -65,7 +65,7 @@ namespace System::Reflection {
     // Offset: 0x1153374
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x11534D0
     // Implemented from: System.Runtime.Serialization.ISerializable

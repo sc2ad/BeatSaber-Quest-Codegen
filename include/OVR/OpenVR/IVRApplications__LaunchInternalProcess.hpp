@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED01C8
-    static IVRApplications::_LaunchInternalProcess* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_LaunchInternalProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory)
     // Offset: 0xEC4F34
-    OVR::OpenVR::EVRApplicationError Invoke(::CsString* pchBinaryPath, ::CsString* pchArguments, ::CsString* pchWorkingDirectory);
+    OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory);
     // public System.IAsyncResult BeginInvoke(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED01DC
-    System::IAsyncResult* BeginInvoke(::CsString* pchBinaryPath, ::CsString* pchArguments, ::CsString* pchWorkingDirectory, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xED020C
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

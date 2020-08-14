@@ -56,7 +56,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1341B8C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(System.String message)
-    bool IsValid(::CsString*& message);
+    bool IsValid(::Il2CppString*& message);
     // public override System.Void StoreDefaultLocalState()
     // Offset: 0x1342564
     // Implemented from: RootMotion.FinalIK.IKSolver

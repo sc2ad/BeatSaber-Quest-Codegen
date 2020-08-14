@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     class $Start$d__2;
     // private System.String _argument
     // Offset: 0x18
-    ::CsString* argument;
+    ::Il2CppString* argument;
     // private UnityEngine.UI.Button _button
     // Offset: 0x20
     UnityEngine::UI::Button* button;

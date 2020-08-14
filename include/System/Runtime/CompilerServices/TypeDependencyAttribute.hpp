@@ -15,10 +15,10 @@ namespace System::Runtime::CompilerServices {
     public:
     // private System.String typeName
     // Offset: 0x10
-    ::CsString* typeName;
+    ::Il2CppString* typeName;
     // public System.Void .ctor(System.String typeName)
     // Offset: 0x1161E08
-    static TypeDependencyAttribute* New_ctor(::CsString* typeName);
+    static TypeDependencyAttribute* New_ctor(::Il2CppString* typeName);
   }; // System.Runtime.CompilerServices.TypeDependencyAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -27,13 +27,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15FD64C
-    static IVRExtendedDisplay::_GetDXGIOutputInfo* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRExtendedDisplay::_GetDXGIOutputInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Int32 pnAdapterIndex, System.Int32 pnAdapterOutputIndex)
     // Offset: 0x15FD660
     void Invoke(int& pnAdapterIndex, int& pnAdapterOutputIndex);
     // public System.IAsyncResult BeginInvoke(System.Int32 pnAdapterIndex, System.Int32 pnAdapterOutputIndex, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15FD8CC
-    System::IAsyncResult* BeginInvoke(int& pnAdapterIndex, int& pnAdapterOutputIndex, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(int& pnAdapterIndex, int& pnAdapterOutputIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.Int32 pnAdapterIndex, System.Int32 pnAdapterOutputIndex, System.IAsyncResult result)
     // Offset: 0x15FD978
     void EndInvoke(int& pnAdapterIndex, int& pnAdapterOutputIndex, System::IAsyncResult* result);

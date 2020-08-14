@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C719C
-    static IVRSystem::_GetButtonIdNameFromEnum* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetButtonIdNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRButtonId eButtonId)
     // Offset: 0x16C71B0
     System::IntPtr Invoke(Valve::VR::EVRButtonId eButtonId);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRButtonId eButtonId, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16C7424
-    System::IAsyncResult* BeginInvoke(Valve::VR::EVRButtonId eButtonId, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::EVRButtonId eButtonId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
     // Offset: 0x16C74B0
     System::IntPtr EndInvoke(System::IAsyncResult* result);

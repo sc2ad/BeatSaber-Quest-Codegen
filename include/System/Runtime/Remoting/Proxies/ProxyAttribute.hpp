@@ -42,7 +42,7 @@ namespace System::Runtime::Remoting::Proxies {
     System::MarshalByRefObject* CreateInstance(System::Type* serverType);
     // public System.Runtime.Remoting.Proxies.RealProxy CreateProxy(System.Runtime.Remoting.ObjRef objRef, System.Type serverType, System.Object serverObject, System.Runtime.Remoting.Contexts.Context serverContext)
     // Offset: 0xE11E5C
-    System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(System::Runtime::Remoting::ObjRef* objRef, System::Type* serverType, ::CsObject* serverObject, System::Runtime::Remoting::Contexts::Context* serverContext);
+    System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(System::Runtime::Remoting::ObjRef* objRef, System::Type* serverType, ::Il2CppObject* serverObject, System::Runtime::Remoting::Contexts::Context* serverContext);
   }; // System.Runtime.Remoting.Proxies.ProxyAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

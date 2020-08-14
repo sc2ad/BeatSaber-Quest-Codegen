@@ -13,7 +13,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: Zenject
 namespace Zenject {
@@ -46,7 +46,7 @@ namespace Zenject {
     void ShrinkBy(int numToRemove);
     // public System.Void Despawn(System.Object obj)
     // Offset: 0xFFFFFFFF
-    void Zenject_IMemoryPool_Despawn(::CsObject* obj);
+    void Zenject_IMemoryPool_Despawn(::Il2CppObject* obj);
   }; // Zenject.IMemoryPool
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

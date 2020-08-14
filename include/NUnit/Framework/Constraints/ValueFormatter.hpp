@@ -25,16 +25,16 @@ namespace NUnit::Framework::Constraints {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x107341C
-    static ValueFormatter* New_ctor(::CsObject* object, System::IntPtr method);
+    static ValueFormatter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.String Invoke(System.Object val)
     // Offset: 0x10738D4
-    ::CsString* Invoke(::CsObject* val);
+    ::Il2CppString* Invoke(::Il2CppObject* val);
     // public System.IAsyncResult BeginInvoke(System.Object val, System.AsyncCallback callback, System.Object object)
     // Offset: 0x107A138
-    System::IAsyncResult* BeginInvoke(::CsObject* val, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppObject* val, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
     // Offset: 0x107A15C
-    ::CsString* EndInvoke(System::IAsyncResult* result);
+    ::Il2CppString* EndInvoke(System::IAsyncResult* result);
   }; // NUnit.Framework.Constraints.ValueFormatter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

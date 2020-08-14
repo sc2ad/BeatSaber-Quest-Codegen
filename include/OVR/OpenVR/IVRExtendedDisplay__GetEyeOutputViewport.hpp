@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1510190
-    static IVRExtendedDisplay::_GetEyeOutputViewport* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRExtendedDisplay::_GetEyeOutputViewport* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.EVREye eEye, System.UInt32 pnX, System.UInt32 pnY, System.UInt32 pnWidth, System.UInt32 pnHeight)
     // Offset: 0x15101A4
     void Invoke(OVR::OpenVR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREye eEye, System.UInt32 pnX, System.UInt32 pnY, System.UInt32 pnWidth, System.UInt32 pnHeight, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1510480
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.UInt32 pnX, System.UInt32 pnY, System.UInt32 pnWidth, System.UInt32 pnHeight, System.IAsyncResult result)
     // Offset: 0x1510584
     void EndInvoke(uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);

@@ -37,13 +37,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C3124
-    static IVRSettings::_GetString* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSettings::_GetString* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchSection, System.String pchSettingsKey, System.Text.StringBuilder pchValue, System.UInt32 unValueLen, Valve.VR.EVRSettingsError peError)
     // Offset: 0x16C3138
-    void Invoke(::CsString* pchSection, ::CsString* pchSettingsKey, System::Text::StringBuilder* pchValue, uint unValueLen, Valve::VR::EVRSettingsError& peError);
+    void Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, System::Text::StringBuilder* pchValue, uint unValueLen, Valve::VR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, System.Text.StringBuilder pchValue, System.UInt32 unValueLen, Valve.VR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16C35A4
-    System::IAsyncResult* BeginInvoke(::CsString* pchSection, ::CsString* pchSettingsKey, System::Text::StringBuilder* pchValue, uint unValueLen, Valve::VR::EVRSettingsError& peError, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, System::Text::StringBuilder* pchValue, uint unValueLen, Valve::VR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(Valve.VR.EVRSettingsError peError, System.IAsyncResult result)
     // Offset: 0x16C3674
     void EndInvoke(Valve::VR::EVRSettingsError& peError, System::IAsyncResult* result);

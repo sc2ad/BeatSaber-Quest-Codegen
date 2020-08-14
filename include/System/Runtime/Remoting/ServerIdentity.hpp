@@ -65,7 +65,7 @@ namespace System::Runtime::Remoting {
     System::Runtime::Remoting::Lifetime::Lease* lease;
     // public System.Void .ctor(System.String objectUri, System.Runtime.Remoting.Contexts.Context context, System.Type objectType)
     // Offset: 0xE1A780
-    static ServerIdentity* New_ctor(::CsString* objectUri, System::Runtime::Remoting::Contexts::Context* context, System::Type* objectType);
+    static ServerIdentity* New_ctor(::Il2CppString* objectUri, System::Runtime::Remoting::Contexts::Context* context, System::Type* objectType);
     // public System.Type get_ObjectType()
     // Offset: 0xE1A7D0
     System::Type* get_ObjectType();

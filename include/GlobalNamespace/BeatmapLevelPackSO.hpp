@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     public:
     // private System.String _packID
     // Offset: 0x18
-    ::CsString* packID;
+    ::Il2CppString* packID;
     // private System.String _packName
     // Offset: 0x20
-    ::CsString* packName;
+    ::Il2CppString* packName;
     // private System.String _shortPackName
     // Offset: 0x28
-    ::CsString* shortPackName;
+    ::Il2CppString* shortPackName;
     // private UnityEngine.Sprite _coverImage
     // Offset: 0x30
     UnityEngine::Sprite* coverImage;
@@ -48,22 +48,22 @@ namespace GlobalNamespace {
     // Offset: 0xB512C0
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_packID()
-    ::CsString* get_packID();
+    ::Il2CppString* get_packID();
     // public System.String get_packName()
     // Offset: 0xB512C8
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_packName()
-    ::CsString* get_packName();
+    ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
     // Offset: 0xB512D0
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_shortPackName()
-    ::CsString* get_shortPackName();
+    ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
     // Offset: 0xB512D8
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
-    ::CsString* get_collectionName();
+    ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0xB512E0
     // Implemented from: IAnnotatedBeatmapLevelCollection

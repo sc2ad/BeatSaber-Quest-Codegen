@@ -17,12 +17,12 @@ namespace System::IO {
     // Offset: 0xF62F40
     // Implemented from: System.ComponentModel.DescriptionAttribute
     // Base method: System.Void DescriptionAttribute::.ctor(System.String description)
-    static IODescriptionAttribute* New_ctor(::CsString* description);
+    static IODescriptionAttribute* New_ctor(::Il2CppString* description);
     // public override System.String get_Description()
     // Offset: 0xF62FC4
     // Implemented from: System.ComponentModel.DescriptionAttribute
     // Base method: System.String DescriptionAttribute::get_Description()
-    ::CsString* get_Description();
+    ::Il2CppString* get_Description();
   }; // System.IO.IODescriptionAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

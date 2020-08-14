@@ -22,29 +22,29 @@ namespace NUnit::Framework::Constraints {
     public:
     // protected System.String expected
     // Offset: 0x30
-    ::CsString* expected;
+    ::Il2CppString* expected;
     // protected System.Boolean caseInsensitive
     // Offset: 0x38
     bool caseInsensitive;
     // protected System.String descriptionText
     // Offset: 0x40
-    ::CsString* descriptionText;
+    ::Il2CppString* descriptionText;
     // protected System.Void .ctor(System.String expected)
     // Offset: 0x1079924
-    static StringConstraint* New_ctor(::CsString* expected);
+    static StringConstraint* New_ctor(::Il2CppString* expected);
     // protected System.Boolean Matches(System.String actual)
     // Offset: 0xFFFFFFFF
-    bool Matches(::CsString* actual);
+    bool Matches(::Il2CppString* actual);
     // public override System.String get_Description()
     // Offset: 0x1079F20
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
-    ::CsString* get_Description();
+    ::Il2CppString* get_Description();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
     // Offset: 0x1079FE0
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
-    NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::CsObject* actual);
+    NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
   }; // NUnit.Framework.Constraints.StringConstraint
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

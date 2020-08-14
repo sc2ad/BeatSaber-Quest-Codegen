@@ -25,13 +25,13 @@ namespace Zenject {
     // private System.Boolean _autoRun
     // Offset: 0x40
     bool autoRun;
+    // private System.Boolean <Initialized>k__BackingField
+    // Offset: 0x41
+    bool Initialized;
     // Get static field: static private System.Boolean _staticAutoRun
     static bool _get__staticAutoRun();
     // Set static field: static private System.Boolean _staticAutoRun
     static void _set__staticAutoRun(bool value);
-    // private System.Boolean <Initialized>k__BackingField
-    // Offset: 0x41
-    bool Initialized;
     // public System.Boolean get_Initialized()
     // Offset: 0xFC5E94
     bool get_Initialized();

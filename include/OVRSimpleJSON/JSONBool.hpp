@@ -35,7 +35,7 @@ namespace OVRSimpleJSON {
     static JSONBool* New_ctor(bool aData);
     // public System.Void .ctor(System.String aData)
     // Offset: 0xF4C108
-    static JSONBool* New_ctor(::CsString* aData);
+    static JSONBool* New_ctor(::Il2CppString* aData);
     // public override OVRSimpleJSON.JSONNodeType get_Tag()
     // Offset: 0xF4BFAC
     // Implemented from: OVRSimpleJSON.JSONNode
@@ -55,12 +55,12 @@ namespace OVRSimpleJSON {
     // Offset: 0xF4BFDC
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.String JSONNode::get_Value()
-    ::CsString* get_Value();
+    ::Il2CppString* get_Value();
     // public override System.Void set_Value(System.String value)
     // Offset: 0xF4BFE8
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Value(System.String value)
-    void set_Value(::CsString* value);
+    void set_Value(::Il2CppString* value);
     // public override System.Boolean get_AsBool()
     // Offset: 0xF4C074
     // Implemented from: OVRSimpleJSON.JSONNode
@@ -80,7 +80,7 @@ namespace OVRSimpleJSON {
     // Offset: 0xF4C20C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Boolean JSONNode::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xF4C294
     // Implemented from: OVRSimpleJSON.JSONNode

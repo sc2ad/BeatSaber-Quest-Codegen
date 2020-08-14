@@ -52,12 +52,6 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     class QueueData;
     // Nested type: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__13
     class $SendDataRoutine$d__13;
-    // static field const value: static private System.Int32 k_aliveMessageFrequency
-    static constexpr const int k_aliveMessageFrequency = 120;
-    // Get static field: static private System.Int32 k_aliveMessageFrequency
-    static int _get_k_aliveMessageFrequency();
-    // Set static field: static private System.Int32 k_aliveMessageFrequency
-    static void _set_k_aliveMessageFrequency(int value);
     // private System.Single m_NextliveMessage
     // Offset: 0x18
     float m_NextliveMessage;
@@ -66,10 +60,16 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     System::Collections::Generic::Queue_1<UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*>* m_SendQueue;
     // private readonly System.Object m_LockQueue
     // Offset: 0x28
-    ::CsObject* m_LockQueue;
+    ::Il2CppObject* m_LockQueue;
     // private readonly UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory m_TestResultDataFactory
     // Offset: 0x30
     UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* m_TestResultDataFactory;
+    // static field const value: static private System.Int32 k_aliveMessageFrequency
+    static constexpr const int k_aliveMessageFrequency = 120;
+    // Get static field: static private System.Int32 k_aliveMessageFrequency
+    static int _get_k_aliveMessageFrequency();
+    // Set static field: static private System.Int32 k_aliveMessageFrequency
+    static void _set_k_aliveMessageFrequency(int value);
     // public System.Void Start()
     // Offset: 0xE4088C
     void Start();
@@ -78,7 +78,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     void EditorProccessedTheResult(UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
     // private System.Byte[] SerializeObject(System.Object objectToSerialize)
     // Offset: 0xE40A28
-    ::Array<uint8_t>* SerializeObject(::CsObject* objectToSerialize);
+    ::Array<uint8_t>* SerializeObject(::Il2CppObject* objectToSerialize);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
     // Offset: 0xE40A78
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);

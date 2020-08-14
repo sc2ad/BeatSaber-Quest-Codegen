@@ -13,7 +13,7 @@ namespace UnityEngine::TestTools::Utils {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TestTools.Utils
 namespace UnityEngine::TestTools::Utils {
@@ -22,7 +22,7 @@ namespace UnityEngine::TestTools::Utils {
     public:
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
     // Offset: 0xFFFFFFFF
-    UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::CsString* assemblyString);
+    UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::Il2CppString* assemblyString);
   }; // UnityEngine.TestTools.Utils.IAssemblyLoadProxy
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

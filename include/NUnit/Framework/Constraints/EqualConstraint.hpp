@@ -34,7 +34,7 @@ namespace NUnit::Framework::Constraints {
     public:
     // private readonly System.Object _expected
     // Offset: 0x30
-    ::CsObject* expected;
+    ::Il2CppObject* expected;
     // private NUnit.Framework.Constraints.Tolerance _tolerance
     // Offset: 0x38
     NUnit::Framework::Constraints::Tolerance* tolerance;
@@ -46,7 +46,7 @@ namespace NUnit::Framework::Constraints {
     bool ClipStrings;
     // public System.Void .ctor(System.Object expected)
     // Offset: 0x1070630
-    static EqualConstraint* New_ctor(::CsObject* expected);
+    static EqualConstraint* New_ctor(::Il2CppObject* expected);
     // public NUnit.Framework.Constraints.Tolerance get_Tolerance()
     // Offset: 0x10707E8
     NUnit::Framework::Constraints::Tolerance* get_Tolerance();
@@ -72,12 +72,12 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x107084C
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
-    NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::CsObject* actual);
+    NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // public override System.String get_Description()
     // Offset: 0x10709C0
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
-    ::CsString* get_Description();
+    ::Il2CppString* get_Description();
   }; // NUnit.Framework.Constraints.EqualConstraint
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraint*, "NUnit.Framework.Constraints", "EqualConstraint");

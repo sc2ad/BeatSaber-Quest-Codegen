@@ -40,7 +40,7 @@ namespace System::Text::RegularExpressions {
     int runcodepos;
     // System.String[] runstrings
     // Offset: 0x98
-    ::Array<::CsString*>* runstrings;
+    ::Array<::Il2CppString*>* runstrings;
     // System.Text.RegularExpressions.RegexCode runcode
     // Offset: 0xA0
     System::Text::RegularExpressions::RegexCode* runcode;
@@ -166,7 +166,7 @@ namespace System::Text::RegularExpressions {
     ::Il2CppChar Forwardcharnext();
     // private System.Boolean Stringmatch(System.String str)
     // Offset: 0x1226904
-    bool Stringmatch(::CsString* str);
+    bool Stringmatch(::Il2CppString* str);
     // private System.Boolean Refmatch(System.Int32 index, System.Int32 len)
     // Offset: 0x1226AA8
     bool Refmatch(int index, int len);

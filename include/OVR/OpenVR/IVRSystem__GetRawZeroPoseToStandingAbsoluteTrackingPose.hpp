@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B2AA0
-    static IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.HmdMatrix34_t Invoke()
     // Offset: 0x16B2AB4
     OVR::OpenVR::HmdMatrix34_t Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
     // Offset: 0x16B2CF4
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.HmdMatrix34_t EndInvoke(System.IAsyncResult result)
     // Offset: 0x16B2D20
     OVR::OpenVR::HmdMatrix34_t EndInvoke(System::IAsyncResult* result);

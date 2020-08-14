@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     public:
     // private System.String _property
     // Offset: 0x18
-    ::CsString* property;
+    ::Il2CppString* property;
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Offset: 0x20
     GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;

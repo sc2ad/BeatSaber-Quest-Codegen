@@ -41,10 +41,10 @@ namespace UnityEngine {
     static UnityEngine::AudioClip* Construct_Internal();
     // private System.String GetName()
     // Offset: 0x1954EA4
-    ::CsString* GetName();
+    ::Il2CppString* GetName();
     // private System.Void CreateUserSound(System.String name, System.Int32 lengthSamples, System.Int32 channels, System.Int32 frequency, System.Boolean stream)
     // Offset: 0x1954EE4
-    void CreateUserSound(::CsString* name, int lengthSamples, int channels, int frequency, bool stream);
+    void CreateUserSound(::Il2CppString* name, int lengthSamples, int channels, int frequency, bool stream);
     // public System.Single get_length()
     // Offset: 0x1953C50
     float get_length();
@@ -71,10 +71,10 @@ namespace UnityEngine {
     bool SetData(::Array<float>* data, int offsetSamples);
     // static public UnityEngine.AudioClip Create(System.String name, System.Int32 lengthSamples, System.Int32 channels, System.Int32 frequency, System.Boolean stream)
     // Offset: 0x1955448
-    static UnityEngine::AudioClip* Create(::CsString* name, int lengthSamples, int channels, int frequency, bool stream);
+    static UnityEngine::AudioClip* Create(::Il2CppString* name, int lengthSamples, int channels, int frequency, bool stream);
     // static public UnityEngine.AudioClip Create(System.String name, System.Int32 lengthSamples, System.Int32 channels, System.Int32 frequency, System.Boolean stream, UnityEngine.AudioClip/PCMReaderCallback pcmreadercallback, UnityEngine.AudioClip/PCMSetPositionCallback pcmsetpositioncallback)
     // Offset: 0x1955458
-    static UnityEngine::AudioClip* Create(::CsString* name, int lengthSamples, int channels, int frequency, bool stream, UnityEngine::AudioClip::PCMReaderCallback* pcmreadercallback, UnityEngine::AudioClip::PCMSetPositionCallback* pcmsetpositioncallback);
+    static UnityEngine::AudioClip* Create(::Il2CppString* name, int lengthSamples, int channels, int frequency, bool stream, UnityEngine::AudioClip::PCMReaderCallback* pcmreadercallback, UnityEngine::AudioClip::PCMSetPositionCallback* pcmsetpositioncallback);
     // private System.Void add_m_PCMReaderCallback(UnityEngine.AudioClip/PCMReaderCallback value)
     // Offset: 0x1955614
     void add_m_PCMReaderCallback(UnityEngine::AudioClip::PCMReaderCallback* value);

@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED038C
-    static IVRApplications::_RemoveApplicationManifest* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_RemoveApplicationManifest* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchApplicationManifestFullPath)
     // Offset: 0xEBE8EC
-    OVR::OpenVR::EVRApplicationError Invoke(::CsString* pchApplicationManifestFullPath);
+    OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchApplicationManifestFullPath);
     // public System.IAsyncResult BeginInvoke(System.String pchApplicationManifestFullPath, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED03A0
-    System::IAsyncResult* BeginInvoke(::CsString* pchApplicationManifestFullPath, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchApplicationManifestFullPath, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xED03C4
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

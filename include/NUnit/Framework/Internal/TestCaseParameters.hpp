@@ -17,13 +17,13 @@ namespace NUnit::Framework::Internal {
     public:
     // private System.Object _expectedResult
     // Offset: 0x38
-    ::CsObject* expectedResult;
+    ::Il2CppObject* expectedResult;
     // private System.Boolean <HasExpectedResult>k__BackingField
     // Offset: 0x40
     bool HasExpectedResult;
     // public System.Object get_ExpectedResult()
     // Offset: 0x18E9784
-    ::CsObject* get_ExpectedResult();
+    ::Il2CppObject* get_ExpectedResult();
     // public System.Boolean get_HasExpectedResult()
     // Offset: 0x18E978C
     bool get_HasExpectedResult();
@@ -37,7 +37,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18E96F0
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor(System.Object[] args)
-    static TestCaseParameters* New_ctor(::Array<::CsObject*>* args);
+    static TestCaseParameters* New_ctor(::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Internal.TestCaseParameters
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

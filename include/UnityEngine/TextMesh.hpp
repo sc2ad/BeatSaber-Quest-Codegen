@@ -22,7 +22,7 @@ namespace UnityEngine {
     public:
     // public System.Void set_text(System.String value)
     // Offset: 0x196105C
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // public UnityEngine.TextAlignment get_alignment()
     // Offset: 0x19610AC
     UnityEngine::TextAlignment get_alignment();

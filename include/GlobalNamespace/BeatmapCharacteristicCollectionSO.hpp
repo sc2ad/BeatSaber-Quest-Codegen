@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     void set_beatmapCharacteristics(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public BeatmapCharacteristicSO GetBeatmapCharacteristicBySerializedName(System.String serializedName)
     // Offset: 0xB8E9CC
-    GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicBySerializedName(::CsString* serializedName);
+    GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicBySerializedName(::Il2CppString* serializedName);
     // public System.Boolean ContainsBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
     // Offset: 0xB8EA58
     bool ContainsBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);

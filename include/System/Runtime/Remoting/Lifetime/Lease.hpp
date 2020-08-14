@@ -75,7 +75,7 @@ namespace System::Runtime::Remoting::Lifetime {
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
     // Offset: 0x105BD44
-    void ProcessSponsorResponse(::CsObject* state, bool timedOut);
+    void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
     // Offset: 0x105B530
     // Implemented from: System.MarshalByRefObject

@@ -34,7 +34,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
     // public System.Object GetData(System.String name)
     // Offset: 0xA3C834
-    ::CsObject* GetData(::CsString* name);
+    ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext/Reader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

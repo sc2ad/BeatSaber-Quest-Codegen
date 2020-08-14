@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0xC29460
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
-    ::CsString* FormatValue(int value);
+    ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
     // Offset: 0xC294C4
     // Implemented from: ObjectiveValueFormatterSO

@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16BD4C0
-    static IVRRenderModels::_GetRenderModelErrorNameFromEnum* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRRenderModels::_GetRenderModelErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRRenderModelError error)
     // Offset: 0x16BD4D4
     System::IntPtr Invoke(Valve::VR::EVRRenderModelError error);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRRenderModelError error, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16BD748
-    System::IAsyncResult* BeginInvoke(Valve::VR::EVRRenderModelError error, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::EVRRenderModelError error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
     // Offset: 0x16BD7D4
     System::IntPtr EndInvoke(System::IAsyncResult* result);

@@ -85,7 +85,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1099240
     // Implemented from: UnityEngine.Playables.INotificationReceiver
     // Base method: System.Void INotificationReceiver::OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::CsObject* context);
+    void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // public System.Void .ctor()
     // Offset: 0x1099E34
     // Implemented from: UnityEngine.MonoBehaviour

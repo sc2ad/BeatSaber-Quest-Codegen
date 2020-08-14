@@ -80,18 +80,6 @@ namespace UnityEngine::Timeline {
     class AnimationTrackUpgrade;
     // Nested type: UnityEngine::Timeline::AnimationTrack::$get_outputs$d__49
     class $get_outputs$d__49;
-    // static field const value: static private System.String k_DefaultInfiniteClipName
-    static constexpr const char* k_DefaultInfiniteClipName = "Recorded";
-    // Get static field: static private System.String k_DefaultInfiniteClipName
-    static ::CsString* _get_k_DefaultInfiniteClipName();
-    // Set static field: static private System.String k_DefaultInfiniteClipName
-    static void _set_k_DefaultInfiniteClipName(::CsString* value);
-    // static field const value: static private System.String k_DefaultRecordableClipName
-    static constexpr const char* k_DefaultRecordableClipName = "Recorded";
-    // Get static field: static private System.String k_DefaultRecordableClipName
-    static ::CsString* _get_k_DefaultRecordableClipName();
-    // Set static field: static private System.String k_DefaultRecordableClipName
-    static void _set_k_DefaultRecordableClipName(::CsString* value);
     // private UnityEngine.Timeline.TimelineClip/ClipExtrapolation m_InfiniteClipPreExtrapolation
     // Offset: 0xA0
     UnityEngine::Timeline::TimelineClip::ClipExtrapolation m_InfiniteClipPreExtrapolation;
@@ -146,6 +134,18 @@ namespace UnityEngine::Timeline {
     // private System.Boolean m_ApplyOffsets
     // Offset: 0x128
     bool m_ApplyOffsets;
+    // static field const value: static private System.String k_DefaultInfiniteClipName
+    static constexpr const char* k_DefaultInfiniteClipName = "Recorded";
+    // Get static field: static private System.String k_DefaultInfiniteClipName
+    static ::Il2CppString* _get_k_DefaultInfiniteClipName();
+    // Set static field: static private System.String k_DefaultInfiniteClipName
+    static void _set_k_DefaultInfiniteClipName(::Il2CppString* value);
+    // static field const value: static private System.String k_DefaultRecordableClipName
+    static constexpr const char* k_DefaultRecordableClipName = "Recorded";
+    // Get static field: static private System.String k_DefaultRecordableClipName
+    static ::Il2CppString* _get_k_DefaultRecordableClipName();
+    // Set static field: static private System.String k_DefaultRecordableClipName
+    static void _set_k_DefaultRecordableClipName(::Il2CppString* value);
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x108AFFC
     UnityEngine::Vector3 get_position();
@@ -265,10 +265,10 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TimelineClip* CreateClip(UnityEngine::AnimationClip* clip);
     // public System.Void CreateInfiniteClip(System.String infiniteClipName)
     // Offset: 0x108B884
-    void CreateInfiniteClip(::CsString* infiniteClipName);
+    void CreateInfiniteClip(::Il2CppString* infiniteClipName);
     // public UnityEngine.Timeline.TimelineClip CreateRecordableClip(System.String animClipName)
     // Offset: 0x108B9A4
-    UnityEngine::Timeline::TimelineClip* CreateRecordableClip(::CsString* animClipName);
+    UnityEngine::Timeline::TimelineClip* CreateRecordableClip(::Il2CppString* animClipName);
     // System.Void UpdateClipOffsets()
     // Offset: 0x108B580
     void UpdateClipOffsets();

@@ -33,7 +33,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Offset: 0xA270EC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // TMPro.SpriteAssetUtilities.TexturePacker/SpriteFrame
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

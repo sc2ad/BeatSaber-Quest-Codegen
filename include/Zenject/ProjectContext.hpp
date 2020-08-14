@@ -58,22 +58,6 @@ namespace Zenject {
     // private System.Action PostResolve
     // Offset: 0x58
     System::Action* PostResolve;
-    // static field const value: static public System.String ProjectContextResourcePath
-    static constexpr const char* ProjectContextResourcePath = "ProjectContext";
-    // Get static field: static public System.String ProjectContextResourcePath
-    static ::CsString* _get_ProjectContextResourcePath();
-    // Set static field: static public System.String ProjectContextResourcePath
-    static void _set_ProjectContextResourcePath(::CsString* value);
-    // static field const value: static public System.String ProjectContextResourcePathOld
-    static constexpr const char* ProjectContextResourcePathOld = "ProjectCompositionRoot";
-    // Get static field: static public System.String ProjectContextResourcePathOld
-    static ::CsString* _get_ProjectContextResourcePathOld();
-    // Set static field: static public System.String ProjectContextResourcePathOld
-    static void _set_ProjectContextResourcePathOld(::CsString* value);
-    // Get static field: static private Zenject.ProjectContext _instance
-    static Zenject::ProjectContext* _get__instance();
-    // Set static field: static private Zenject.ProjectContext _instance
-    static void _set__instance(Zenject::ProjectContext* value);
     // private System.Boolean _parentNewObjectsUnderContext
     // Offset: 0x60
     bool parentNewObjectsUnderContext;
@@ -89,6 +73,22 @@ namespace Zenject {
     // private Zenject.DiContainer _container
     // Offset: 0x78
     Zenject::DiContainer* container;
+    // static field const value: static public System.String ProjectContextResourcePath
+    static constexpr const char* ProjectContextResourcePath = "ProjectContext";
+    // Get static field: static public System.String ProjectContextResourcePath
+    static ::Il2CppString* _get_ProjectContextResourcePath();
+    // Set static field: static public System.String ProjectContextResourcePath
+    static void _set_ProjectContextResourcePath(::Il2CppString* value);
+    // static field const value: static public System.String ProjectContextResourcePathOld
+    static constexpr const char* ProjectContextResourcePathOld = "ProjectCompositionRoot";
+    // Get static field: static public System.String ProjectContextResourcePathOld
+    static ::Il2CppString* _get_ProjectContextResourcePathOld();
+    // Set static field: static public System.String ProjectContextResourcePathOld
+    static void _set_ProjectContextResourcePathOld(::Il2CppString* value);
+    // Get static field: static private Zenject.ProjectContext _instance
+    static Zenject::ProjectContext* _get__instance();
+    // Set static field: static private Zenject.ProjectContext _instance
+    static void _set__instance(Zenject::ProjectContext* value);
     // Get static field: static private System.Boolean <ValidateOnNextRun>k__BackingField
     static bool _get_$ValidateOnNextRun$k__BackingField();
     // Set static field: static private System.Boolean <ValidateOnNextRun>k__BackingField

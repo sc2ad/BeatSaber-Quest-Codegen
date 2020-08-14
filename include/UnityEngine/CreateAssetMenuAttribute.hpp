@@ -15,16 +15,16 @@ namespace UnityEngine {
     public:
     // private System.String <menuName>k__BackingField
     // Offset: 0x10
-    ::CsString* menuName;
+    ::Il2CppString* menuName;
     // private System.String <fileName>k__BackingField
     // Offset: 0x18
-    ::CsString* fileName;
+    ::Il2CppString* fileName;
     // public System.Void set_menuName(System.String value)
     // Offset: 0x130282C
-    void set_menuName(::CsString* value);
+    void set_menuName(::Il2CppString* value);
     // public System.Void set_fileName(System.String value)
     // Offset: 0x1302834
-    void set_fileName(::CsString* value);
+    void set_fileName(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x130283C
     // Implemented from: System.Attribute

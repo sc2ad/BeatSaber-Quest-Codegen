@@ -28,7 +28,7 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
@@ -40,10 +40,10 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public System.String get_FullName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_FullName();
+    ::Il2CppString* get_FullName();
     // public System.Double get_Duration()
     // Offset: 0xFFFFFFFF
     double get_Duration();
@@ -55,10 +55,10 @@ namespace NUnit::Framework::Interfaces {
     System::DateTime get_EndTime();
     // public System.String get_Message()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
     // public System.String get_StackTrace()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_StackTrace();
+    ::Il2CppString* get_StackTrace();
     // public System.Int32 get_AssertCount()
     // Offset: 0xFFFFFFFF
     int get_AssertCount();
@@ -85,7 +85,7 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::ITest* get_Test();
     // public System.String get_Output()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Output();
+    ::Il2CppString* get_Output();
   }; // NUnit.Framework.Interfaces.ITestResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

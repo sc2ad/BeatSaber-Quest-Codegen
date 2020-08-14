@@ -13,8 +13,8 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -23,13 +23,13 @@ namespace System {
     public:
     // public System.Boolean Equals(System.Object obj)
     // Offset: 0x13599A0
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // static public System.Boolean Equals(System.Object objA, System.Object objB)
     // Offset: 0x13599AC
-    static bool Equals(::CsObject* objA, ::CsObject* objB);
+    static bool Equals(::Il2CppObject* objA, ::Il2CppObject* objB);
     // public System.Void .ctor()
     // Offset: 0x1354EBC
-    static ::CsObject* New_ctor();
+    static ::Il2CppObject* New_ctor();
     // protected System.Void Finalize()
     // Offset: 0x13599D8
     void Finalize();
@@ -41,22 +41,22 @@ namespace System {
     System::Type* GetType();
     // protected System.Object MemberwiseClone()
     // Offset: 0x1359988
-    ::CsObject* MemberwiseClone();
+    ::Il2CppObject* MemberwiseClone();
     // public System.String ToString()
     // Offset: 0x13599E8
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // static public System.Boolean ReferenceEquals(System.Object objA, System.Object objB)
     // Offset: 0x1359A0C
-    static bool ReferenceEquals(::CsObject* objA, ::CsObject* objB);
+    static bool ReferenceEquals(::Il2CppObject* objA, ::Il2CppObject* objB);
     // static System.Int32 InternalGetHashCode(System.Object o)
     // Offset: 0x13599E0
-    static int InternalGetHashCode(::CsObject* o);
+    static int InternalGetHashCode(::Il2CppObject* o);
     // private System.Void FieldGetter(System.String typeName, System.String fieldName, System.Object val)
     // Offset: 0x1359A18
-    void FieldGetter(::CsString* typeName, ::CsString* fieldName, ::CsObject*& val);
+    void FieldGetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ::Il2CppObject*& val);
     // private System.Void FieldSetter(System.String typeName, System.String fieldName, System.Object val)
     // Offset: 0x1359A1C
-    void FieldSetter(::CsString* typeName, ::CsString* fieldName, ::CsObject* val);
+    void FieldSetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ::Il2CppObject* val);
   }; // System.Object
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

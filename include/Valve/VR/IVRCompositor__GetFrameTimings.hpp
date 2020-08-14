@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15F7E40
-    static IVRCompositor::_GetFrameTimings* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_GetFrameTimings* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 nFrames)
     // Offset: 0x15F7E54
     uint Invoke(Valve::VR::Compositor_FrameTiming& pTiming, uint nFrames);
     // public System.IAsyncResult BeginInvoke(Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 nFrames, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15F80C8
-    System::IAsyncResult* BeginInvoke(Valve::VR::Compositor_FrameTiming& pTiming, uint nFrames, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::Compositor_FrameTiming& pTiming, uint nFrames, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(Valve.VR.Compositor_FrameTiming pTiming, System.IAsyncResult result)
     // Offset: 0x15F817C
     uint EndInvoke(Valve::VR::Compositor_FrameTiming& pTiming, System::IAsyncResult* result);

@@ -15,7 +15,7 @@ namespace System::Resources {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Resources
 namespace System::Resources {
@@ -24,24 +24,24 @@ namespace System::Resources {
     public:
     // System.Object _value
     // Offset: 0x0
-    ::CsObject* value;
+    ::Il2CppObject* value;
     // System.Int32 _dataPos
     // Offset: 0x8
     int dataPos;
     // Creating value type constructor for type: ResourceLocator
-    ResourceLocator(::CsObject* value_ = {}, int dataPos_ = {}) : value{value_}, dataPos{dataPos_} {}
+    ResourceLocator(::Il2CppObject* value_ = {}, int dataPos_ = {}) : value{value_}, dataPos{dataPos_} {}
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
     // Offset: 0xA3E60C
-    static ResourceLocator* New_ctor(int dataPos, ::CsObject* value);
+    static ResourceLocator* New_ctor(int dataPos, ::Il2CppObject* value);
     // System.Int32 get_DataPosition()
     // Offset: 0xA3E61C
     int get_DataPosition();
     // System.Object get_Value()
     // Offset: 0xA3E624
-    ::CsObject* get_Value();
+    ::Il2CppObject* get_Value();
     // System.Void set_Value(System.Object value)
     // Offset: 0xA3E62C
-    void set_Value(::CsObject* value);
+    void set_Value(::Il2CppObject* value);
     // static System.Boolean CanCache(System.Resources.ResourceTypeCode value)
     // Offset: 0x1157E18
     static bool CanCache(System::Resources::ResourceTypeCode value);

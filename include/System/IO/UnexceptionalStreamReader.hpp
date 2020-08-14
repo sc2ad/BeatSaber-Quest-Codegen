@@ -66,12 +66,12 @@ namespace System::IO {
     // Offset: 0x100929C
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
-    ::CsString* ReadLine();
+    ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
     // Offset: 0x1009358
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
-    ::CsString* ReadToEnd();
+    ::Il2CppString* ReadToEnd();
   }; // System.IO.UnexceptionalStreamReader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

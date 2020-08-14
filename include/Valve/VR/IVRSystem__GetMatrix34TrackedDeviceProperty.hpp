@@ -36,13 +36,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C9EA8
-    static IVRSystem::_GetMatrix34TrackedDeviceProperty* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetMatrix34TrackedDeviceProperty* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.HmdMatrix34_t Invoke(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, Valve.VR.ETrackedPropertyError pError)
     // Offset: 0x16C9EBC
     Valve::VR::HmdMatrix34_t Invoke(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, Valve.VR.ETrackedDeviceProperty prop, Valve.VR.ETrackedPropertyError pError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16CA198
-    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, Valve::VR::ETrackedDeviceProperty prop, Valve::VR::ETrackedPropertyError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.HmdMatrix34_t EndInvoke(Valve.VR.ETrackedPropertyError pError, System.IAsyncResult result)
     // Offset: 0x16CA26C
     Valve::VR::HmdMatrix34_t EndInvoke(Valve::VR::ETrackedPropertyError& pError, System::IAsyncResult* result);

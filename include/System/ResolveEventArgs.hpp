@@ -22,16 +22,16 @@ namespace System {
     public:
     // private System.String m_Name
     // Offset: 0x10
-    ::CsString* m_Name;
+    ::Il2CppString* m_Name;
     // private System.Reflection.Assembly m_Requesting
     // Offset: 0x18
     System::Reflection::Assembly* m_Requesting;
     // public System.Void .ctor(System.String name)
     // Offset: 0x1153F74
-    static ResolveEventArgs* New_ctor(::CsString* name);
+    static ResolveEventArgs* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.Reflection.Assembly requestingAssembly)
     // Offset: 0x1153FF8
-    static ResolveEventArgs* New_ctor(::CsString* name, System::Reflection::Assembly* requestingAssembly);
+    static ResolveEventArgs* New_ctor(::Il2CppString* name, System::Reflection::Assembly* requestingAssembly);
   }; // System.ResolveEventArgs
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

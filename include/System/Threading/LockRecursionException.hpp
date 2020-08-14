@@ -32,7 +32,7 @@ namespace System::Threading {
     // Offset: 0x13D5578
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
-    static LockRecursionException* New_ctor(::CsString* message);
+    static LockRecursionException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x13D55F0
     // Implemented from: System.Exception

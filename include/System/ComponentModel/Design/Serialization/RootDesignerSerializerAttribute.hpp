@@ -18,13 +18,13 @@ namespace System::ComponentModel::Design::Serialization {
     bool reloadable;
     // private System.String serializerTypeName
     // Offset: 0x18
-    ::CsString* serializerTypeName;
+    ::Il2CppString* serializerTypeName;
     // private System.String serializerBaseTypeName
     // Offset: 0x20
-    ::CsString* serializerBaseTypeName;
+    ::Il2CppString* serializerBaseTypeName;
     // public System.Void .ctor(System.String serializerTypeName, System.String baseSerializerTypeName, System.Boolean reloadable)
     // Offset: 0xF577F0
-    static RootDesignerSerializerAttribute* New_ctor(::CsString* serializerTypeName, ::CsString* baseSerializerTypeName, bool reloadable);
+    static RootDesignerSerializerAttribute* New_ctor(::Il2CppString* serializerTypeName, ::Il2CppString* baseSerializerTypeName, bool reloadable);
   }; // System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

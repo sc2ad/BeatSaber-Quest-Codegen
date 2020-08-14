@@ -20,7 +20,7 @@ namespace System::Runtime::InteropServices {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
@@ -37,28 +37,28 @@ namespace System::Runtime::InteropServices {
     static GCHandle* New_ctor(System::IntPtr h);
     // private System.Void .ctor(System.Object obj)
     // Offset: 0xA3EA2C
-    static GCHandle* New_ctor(::CsObject* obj);
+    static GCHandle* New_ctor(::Il2CppObject* obj);
     // System.Void .ctor(System.Object value, System.Runtime.InteropServices.GCHandleType type)
     // Offset: 0xA3EA5C
-    static GCHandle* New_ctor(::CsObject* value, System::Runtime::InteropServices::GCHandleType type);
+    static GCHandle* New_ctor(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type);
     // public System.Boolean get_IsAllocated()
     // Offset: 0xA3EA94
     bool get_IsAllocated();
     // public System.Object get_Target()
     // Offset: 0xA3EAA4
-    ::CsObject* get_Target();
+    ::Il2CppObject* get_Target();
     // public System.Void set_Target(System.Object value)
     // Offset: 0xA3EAAC
-    void set_Target(::CsObject* value);
+    void set_Target(::Il2CppObject* value);
     // public System.IntPtr AddrOfPinnedObject()
     // Offset: 0xA3EAE0
     System::IntPtr AddrOfPinnedObject();
     // static public System.Runtime.InteropServices.GCHandle Alloc(System.Object value)
     // Offset: 0x1162F34
-    static System::Runtime::InteropServices::GCHandle Alloc(::CsObject* value);
+    static System::Runtime::InteropServices::GCHandle Alloc(::Il2CppObject* value);
     // static public System.Runtime.InteropServices.GCHandle Alloc(System.Object value, System.Runtime.InteropServices.GCHandleType type)
     // Offset: 0x1162F54
-    static System::Runtime::InteropServices::GCHandle Alloc(::CsObject* value, System::Runtime::InteropServices::GCHandleType type);
+    static System::Runtime::InteropServices::GCHandle Alloc(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type);
     // public System.Void Free()
     // Offset: 0xA3EAE8
     void Free();
@@ -67,10 +67,10 @@ namespace System::Runtime::InteropServices {
     static bool CheckCurrentDomain(int handle);
     // static private System.Object GetTarget(System.Int32 handle)
     // Offset: 0x1162DF8
-    static ::CsObject* GetTarget(int handle);
+    static ::Il2CppObject* GetTarget(int handle);
     // static private System.Int32 GetTargetHandle(System.Object obj, System.Int32 handle, System.Runtime.InteropServices.GCHandleType type)
     // Offset: 0x1162D4C
-    static int GetTargetHandle(::CsObject* obj, int handle, System::Runtime::InteropServices::GCHandleType type);
+    static int GetTargetHandle(::Il2CppObject* obj, int handle, System::Runtime::InteropServices::GCHandleType type);
     // static private System.Void FreeHandle(System.Int32 handle)
     // Offset: 0x1163020
     static void FreeHandle(int handle);
@@ -87,7 +87,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xA3EAF0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
-    bool Equals(::CsObject* o);
+    bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3EAF8
     // Implemented from: System.ValueType

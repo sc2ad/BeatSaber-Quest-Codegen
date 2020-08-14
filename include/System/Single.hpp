@@ -94,36 +94,36 @@ namespace System {
     static bool IsNaN(float f);
     // public System.String ToString(System.String format)
     // Offset: 0xA2DEBC
-    ::CsString* ToString(::CsString* format);
+    ::Il2CppString* ToString(::Il2CppString* format);
     // static public System.Single Parse(System.String s)
     // Offset: 0xDEC350
-    static float Parse(::CsString* s);
+    static float Parse(::Il2CppString* s);
     // static public System.Single Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0xDEC38C
-    static float Parse(::CsString* s, System::IFormatProvider* provider);
+    static float Parse(::Il2CppString* s, System::IFormatProvider* provider);
     // static public System.Single Parse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider)
     // Offset: 0xDEC3C4
-    static float Parse(::CsString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
+    static float Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
     // static private System.Single Parse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info)
     // Offset: 0xDEC384
-    static float Parse(::CsString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
+    static float Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
     // static public System.Boolean TryParse(System.String s, System.Single result)
     // Offset: 0xDEC418
-    static bool TryParse(::CsString* s, float& result);
+    static bool TryParse(::Il2CppString* s, float& result);
     // static public System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider, System.Single result)
     // Offset: 0xDEC508
-    static bool TryParse(::CsString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, float& result);
+    static bool TryParse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, float& result);
     // static private System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, System.Single result)
     // Offset: 0xDEC450
-    static bool TryParse(::CsString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, float& result);
+    static bool TryParse(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, float& result);
     // public System.Int32 CompareTo(System.Object value)
     // Offset: 0xA2DD84
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
-    int CompareTo(::CsObject* value);
+    int CompareTo(::Il2CppObject* value);
     // Creating proxy method: System_IComparable_CompareTo
     // Maps to method: CompareTo
-    int System_IComparable_CompareTo(::CsObject* value);
+    int System_IComparable_CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.Single value)
     // Offset: 0xA2DD8C
     // Implemented from: System.IComparable`1
@@ -133,7 +133,7 @@ namespace System {
     // Offset: 0xA2DDE8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.Single obj)
     // Offset: 0xA2DDF0
     // Implemented from: System.IEquatable`1
@@ -148,17 +148,17 @@ namespace System {
     // Offset: 0xA2DE50
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0xA2DE84
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
-    ::CsString* ToString(System::IFormatProvider* provider);
+    ::Il2CppString* ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0xA2DEFC
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
-    ::CsString* ToString(::CsString* format, System::IFormatProvider* provider);
+    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
     // Offset: 0xA2DF40
     // Implemented from: System.IConvertible
@@ -238,7 +238,7 @@ namespace System {
     // Offset: 0xA2DFC0
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
-    ::CsObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
+    ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Single
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

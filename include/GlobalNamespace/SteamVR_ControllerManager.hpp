@@ -62,17 +62,17 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::SteamVR_Events::Action* trackedDeviceRoleChangedAction;
     // Get static field: static private System.String hiddenPrefix
-    static ::CsString* _get_hiddenPrefix();
+    static ::Il2CppString* _get_hiddenPrefix();
     // Set static field: static private System.String hiddenPrefix
-    static void _set_hiddenPrefix(::CsString* value);
+    static void _set_hiddenPrefix(::Il2CppString* value);
     // Get static field: static private System.String hiddenPostfix
-    static ::CsString* _get_hiddenPostfix();
+    static ::Il2CppString* _get_hiddenPostfix();
     // Set static field: static private System.String hiddenPostfix
-    static void _set_hiddenPostfix(::CsString* value);
+    static void _set_hiddenPostfix(::Il2CppString* value);
     // Get static field: static private System.String[] labels
-    static ::Array<::CsString*>* _get_labels();
+    static ::Array<::Il2CppString*>* _get_labels();
     // Set static field: static private System.String[] labels
-    static void _set_labels(::Array<::CsString*>* value);
+    static void _set_labels(::Array<::Il2CppString*>* value);
     // private System.Void SetUniqueObject(UnityEngine.GameObject o, System.Int32 index)
     // Offset: 0xD7D9F8
     void SetUniqueObject(UnityEngine::GameObject* o, int index);
@@ -93,10 +93,10 @@ namespace GlobalNamespace {
     void OnInputFocus(bool hasFocus);
     // private System.Void HideObject(UnityEngine.Transform t, System.String name)
     // Offset: 0xD7E9AC
-    void HideObject(UnityEngine::Transform* t, ::CsString* name);
+    void HideObject(UnityEngine::Transform* t, ::Il2CppString* name);
     // private System.Void ShowObject(UnityEngine.Transform t, System.String name)
     // Offset: 0xD7E8B8
-    void ShowObject(UnityEngine::Transform* t, ::CsString* name);
+    void ShowObject(UnityEngine::Transform* t, ::Il2CppString* name);
     // private System.Void SetTrackedDeviceIndex(System.Int32 objectIndex, System.UInt32 trackedDeviceIndex)
     // Offset: 0xD7EB1C
     void SetTrackedDeviceIndex(int objectIndex, uint trackedDeviceIndex);

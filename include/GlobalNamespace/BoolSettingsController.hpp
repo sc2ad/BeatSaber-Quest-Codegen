@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     GlobalNamespace::BoolSO* settingsValue;
     // private System.String _onLocalizedKey
     // Offset: 0x40
-    ::CsString* onLocalizedKey;
+    ::Il2CppString* onLocalizedKey;
     // private System.String _offLocalizedKey
     // Offset: 0x48
-    ::CsString* offLocalizedKey;
+    ::Il2CppString* offLocalizedKey;
     // protected override System.Boolean GetInitValue()
     // Offset: 0xB5C594
     // Implemented from: SwitchSettingsController
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0xB5C64C
     // Implemented from: SwitchSettingsController
     // Base method: System.String SwitchSettingsController::TextForValue(System.Boolean value)
-    ::CsString* TextForValue(bool value);
+    ::Il2CppString* TextForValue(bool value);
     // public System.Void .ctor()
     // Offset: 0xB5C668
     // Implemented from: SwitchSettingsController

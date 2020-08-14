@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xCB3248
-    static HMAsyncRequest::CancelHander* New_ctor(::CsObject* object, System::IntPtr method);
+    static HMAsyncRequest::CancelHander* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(HMAsyncRequest request)
     // Offset: 0xCB2DA0
     void Invoke(GlobalNamespace::HMAsyncRequest* request);
     // public System.IAsyncResult BeginInvoke(HMAsyncRequest request, System.AsyncCallback callback, System.Object object)
     // Offset: 0xCB325C
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::HMAsyncRequest* request, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::HMAsyncRequest* request, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xCB3280
     void EndInvoke(System::IAsyncResult* result);

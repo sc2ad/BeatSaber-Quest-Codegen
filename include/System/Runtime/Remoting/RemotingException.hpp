@@ -38,7 +38,7 @@ namespace System::Runtime::Remoting {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static RemotingException* New_ctor(::CsString* message);
+    static RemotingException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xE17734
     // Implemented from: System.SystemException
@@ -50,7 +50,7 @@ namespace System::Runtime::Remoting {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception InnerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception InnerException)
-    static RemotingException* New_ctor(::CsString* message, System::Exception* InnerException);
+    static RemotingException* New_ctor(::Il2CppString* message, System::Exception* InnerException);
   }; // System.Runtime.Remoting.RemotingException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

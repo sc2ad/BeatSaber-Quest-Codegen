@@ -27,13 +27,13 @@ namespace HMUI {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x10E8FE8
-    static ViewController::DidActivateDelegate* New_ctor(::CsObject* object, System::IntPtr method);
+    static ViewController::DidActivateDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     // Offset: 0x10E78DC
     void Invoke(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.IAsyncResult BeginInvoke(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType, System.AsyncCallback callback, System.Object object)
     // Offset: 0x10E8FFC
-    System::IAsyncResult* BeginInvoke(bool firstActivation, HMUI::ViewController::ActivationType activationType, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(bool firstActivation, HMUI::ViewController::ActivationType activationType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x10E90AC
     void EndInvoke(System::IAsyncResult* result);

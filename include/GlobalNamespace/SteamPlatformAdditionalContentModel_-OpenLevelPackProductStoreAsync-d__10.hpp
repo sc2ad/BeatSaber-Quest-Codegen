@@ -34,12 +34,12 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamPlatformAdditionalContentModel* $$4__this;
     // public System.String levelPackId
     // Offset: 0x28
-    ::CsString* levelPackId;
+    ::Il2CppString* levelPackId;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/OpenProductStoreResult> <>u__1
     // Offset: 0x30
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> $$u__1;
     // Creating value type constructor for type: $OpenLevelPackProductStoreAsync$d__10
-    $OpenLevelPackProductStoreAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> $$t__builder_ = {}, GlobalNamespace::SteamPlatformAdditionalContentModel* $$4__this_ = {}, ::CsString* levelPackId_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelPackId{levelPackId_}, $$u__1{$$u__1_} {}
+    $OpenLevelPackProductStoreAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> $$t__builder_ = {}, GlobalNamespace::SteamPlatformAdditionalContentModel* $$4__this_ = {}, ::Il2CppString* levelPackId_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelPackId{levelPackId_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA273E0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

@@ -20,10 +20,10 @@ namespace UnityEngine::Scripting::APIUpdating {
     UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data;
     // public System.Void .ctor(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
     // Offset: 0x13893E0
-    static MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::CsString* sourceNamespace, ::CsString* sourceAssembly, ::CsString* sourceClassName);
+    static MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
     // public System.Void .ctor(System.String sourceNamespace)
     // Offset: 0x13894D8
-    static MovedFromAttribute* New_ctor(::CsString* sourceNamespace);
+    static MovedFromAttribute* New_ctor(::Il2CppString* sourceNamespace);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

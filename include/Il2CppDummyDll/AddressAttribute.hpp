@@ -15,16 +15,16 @@ namespace Il2CppDummyDll {
     public:
     // public System.String RVA
     // Offset: 0xFFFFFFFF
-    ::CsString* RVA;
+    ::Il2CppString* RVA;
     // public System.String Offset
     // Offset: 0xFFFFFFFF
-    ::CsString* Offset;
+    ::Il2CppString* Offset;
     // public System.String VA
     // Offset: 0xFFFFFFFF
-    ::CsString* VA;
+    ::Il2CppString* VA;
     // public System.String Slot
     // Offset: 0xFFFFFFFF
-    ::CsString* Slot;
+    ::Il2CppString* Slot;
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Attribute

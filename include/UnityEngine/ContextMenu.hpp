@@ -15,7 +15,7 @@ namespace UnityEngine {
     public:
     // public readonly System.String menuItem
     // Offset: 0x10
-    ::CsString* menuItem;
+    ::Il2CppString* menuItem;
     // public readonly System.Boolean validate
     // Offset: 0x18
     bool validate;
@@ -24,13 +24,13 @@ namespace UnityEngine {
     int priority;
     // public System.Void .ctor(System.String itemName)
     // Offset: 0x1302604
-    static ContextMenu* New_ctor(::CsString* itemName);
+    static ContextMenu* New_ctor(::Il2CppString* itemName);
     // public System.Void .ctor(System.String itemName, System.Boolean isValidateFunction)
     // Offset: 0x130264C
-    static ContextMenu* New_ctor(::CsString* itemName, bool isValidateFunction);
+    static ContextMenu* New_ctor(::Il2CppString* itemName, bool isValidateFunction);
     // public System.Void .ctor(System.String itemName, System.Boolean isValidateFunction, System.Int32 priority)
     // Offset: 0x13026A4
-    static ContextMenu* New_ctor(::CsString* itemName, bool isValidateFunction, int priority);
+    static ContextMenu* New_ctor(::Il2CppString* itemName, bool isValidateFunction, int priority);
   }; // UnityEngine.ContextMenu
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

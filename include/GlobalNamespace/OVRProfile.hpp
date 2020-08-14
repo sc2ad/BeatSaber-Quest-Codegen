@@ -22,13 +22,13 @@ namespace GlobalNamespace {
     struct State;
     // public System.String get_id()
     // Offset: 0xF45D28
-    ::CsString* get_id();
+    ::Il2CppString* get_id();
     // public System.String get_userName()
     // Offset: 0xF45D70
-    ::CsString* get_userName();
+    ::Il2CppString* get_userName();
     // public System.String get_locale()
     // Offset: 0xF45DB8
-    ::CsString* get_locale();
+    ::Il2CppString* get_locale();
     // public System.Single get_ipd()
     // Offset: 0xF45E00
     float get_ipd();

@@ -32,13 +32,13 @@ namespace UnityEngine {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x12FBD04
-    static Application::LogCallback* New_ctor(::CsObject* object, System::IntPtr method);
+    static Application::LogCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String condition, System.String stackTrace, UnityEngine.LogType type)
     // Offset: 0x12FAB58
-    void Invoke(::CsString* condition, ::CsString* stackTrace, UnityEngine::LogType type);
+    void Invoke(::Il2CppString* condition, ::Il2CppString* stackTrace, UnityEngine::LogType type);
     // public System.IAsyncResult BeginInvoke(System.String condition, System.String stackTrace, UnityEngine.LogType type, System.AsyncCallback callback, System.Object object)
     // Offset: 0x12FBD18
-    System::IAsyncResult* BeginInvoke(::CsString* condition, ::CsString* stackTrace, UnityEngine::LogType type, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* condition, ::Il2CppString* stackTrace, UnityEngine::LogType type, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x12FBDB8
     void EndInvoke(System::IAsyncResult* result);

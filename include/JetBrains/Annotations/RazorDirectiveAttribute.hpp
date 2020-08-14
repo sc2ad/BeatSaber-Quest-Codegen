@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <Directive>k__BackingField
     // Offset: 0x10
-    ::CsString* Directive;
+    ::Il2CppString* Directive;
     // public System.Void .ctor(System.String directive)
     // Offset: 0x195818C
-    static RazorDirectiveAttribute* New_ctor(::CsString* directive);
+    static RazorDirectiveAttribute* New_ctor(::Il2CppString* directive);
     // public System.String get_Directive()
     // Offset: 0x19581C0
-    ::CsString* get_Directive();
+    ::Il2CppString* get_Directive();
     // private System.Void set_Directive(System.String value)
     // Offset: 0x19581C8
-    void set_Directive(::CsString* value);
+    void set_Directive(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorDirectiveAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

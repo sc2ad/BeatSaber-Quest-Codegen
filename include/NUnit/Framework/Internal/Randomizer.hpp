@@ -34,9 +34,9 @@ namespace NUnit::Framework::Internal {
     // static field const value: static public System.String DefaultStringChars
     static constexpr const char* DefaultStringChars = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789_";
     // Get static field: static public System.String DefaultStringChars
-    static ::CsString* _get_DefaultStringChars();
+    static ::Il2CppString* _get_DefaultStringChars();
     // Set static field: static public System.String DefaultStringChars
-    static void _set_DefaultStringChars(::CsString* value);
+    static void _set_DefaultStringChars(::Il2CppString* value);
     // static field const value: static private System.Int32 DefaultStringLength
     static constexpr const int DefaultStringLength = 25;
     // Get static field: static private System.Int32 DefaultStringLength

@@ -29,24 +29,24 @@ namespace System::Xml {
     int prevNSTop;
     // System.String prefix
     // Offset: 0x8
-    ::CsString* prefix;
+    ::Il2CppString* prefix;
     // System.String localName
     // Offset: 0x10
-    ::CsString* localName;
+    ::Il2CppString* localName;
     // System.String namespaceUri
     // Offset: 0x18
-    ::CsString* namespaceUri;
+    ::Il2CppString* namespaceUri;
     // System.Xml.XmlSpace xmlSpace
     // Offset: 0x20
     System::Xml::XmlSpace xmlSpace;
     // System.String xmlLang
     // Offset: 0x28
-    ::CsString* xmlLang;
+    ::Il2CppString* xmlLang;
     // Creating value type constructor for type: ElementScope
-    ElementScope(int prevNSTop_ = {}, ::CsString* prefix_ = {}, ::CsString* localName_ = {}, ::CsString* namespaceUri_ = {}, System::Xml::XmlSpace xmlSpace_ = {}, ::CsString* xmlLang_ = {}) : prevNSTop{prevNSTop_}, prefix{prefix_}, localName{localName_}, namespaceUri{namespaceUri_}, xmlSpace{xmlSpace_}, xmlLang{xmlLang_} {}
+    ElementScope(int prevNSTop_ = {}, ::Il2CppString* prefix_ = {}, ::Il2CppString* localName_ = {}, ::Il2CppString* namespaceUri_ = {}, System::Xml::XmlSpace xmlSpace_ = {}, ::Il2CppString* xmlLang_ = {}) : prevNSTop{prevNSTop_}, prefix{prefix_}, localName{localName_}, namespaceUri{namespaceUri_}, xmlSpace{xmlSpace_}, xmlLang{xmlLang_} {}
     // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri, System.Int32 prevNSTop)
     // Offset: 0xA5A7E8
-    void Set(::CsString* prefix, ::CsString* localName, ::CsString* namespaceUri, int prevNSTop);
+    void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri, int prevNSTop);
     // System.Void WriteEndElement(System.Xml.XmlRawWriter rawWriter)
     // Offset: 0xA5A7F0
     void WriteEndElement(System::Xml::XmlRawWriter* rawWriter);

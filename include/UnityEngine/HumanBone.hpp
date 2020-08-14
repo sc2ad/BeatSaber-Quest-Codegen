@@ -17,15 +17,15 @@ namespace UnityEngine {
     public:
     // private System.String m_BoneName
     // Offset: 0x0
-    ::CsString* m_BoneName;
+    ::Il2CppString* m_BoneName;
     // private System.String m_HumanName
     // Offset: 0x8
-    ::CsString* m_HumanName;
+    ::Il2CppString* m_HumanName;
     // public UnityEngine.HumanLimit limit
     // Offset: 0x10
     UnityEngine::HumanLimit limit;
     // Creating value type constructor for type: HumanBone
-    HumanBone(::CsString* m_BoneName_ = {}, ::CsString* m_HumanName_ = {}, UnityEngine::HumanLimit limit_ = {}) : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
+    HumanBone(::Il2CppString* m_BoneName_ = {}, ::Il2CppString* m_HumanName_ = {}, UnityEngine::HumanLimit limit_ = {}) : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
   }; // UnityEngine.HumanBone
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

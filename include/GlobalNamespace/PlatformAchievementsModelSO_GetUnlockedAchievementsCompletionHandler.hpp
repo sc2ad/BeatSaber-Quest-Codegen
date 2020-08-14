@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBD2EA0
-    static PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] unlockedAchievementsIds)
     // Offset: 0xBD2C10
-    void Invoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::CsString*>* unlockedAchievementsIds);
+    void Invoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* unlockedAchievementsIds);
     // public System.IAsyncResult BeginInvoke(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] unlockedAchievementsIds, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBD2EB4
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::CsString*>* unlockedAchievementsIds, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* unlockedAchievementsIds, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xBD2F4C
     void EndInvoke(System::IAsyncResult* result);

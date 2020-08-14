@@ -27,13 +27,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xCBF72C
-    static IVRSystem::_TriggerHapticPulse* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_TriggerHapticPulse* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.UInt16 usDurationMicroSec)
     // Offset: 0xCBF740
     void Invoke(uint unControllerDeviceIndex, uint unAxisId, uint16_t usDurationMicroSec);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.UInt16 usDurationMicroSec, System.AsyncCallback callback, System.Object object)
     // Offset: 0xCBF9E4
-    System::IAsyncResult* BeginInvoke(uint unControllerDeviceIndex, uint unAxisId, uint16_t usDurationMicroSec, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint unControllerDeviceIndex, uint unAxisId, uint16_t usDurationMicroSec, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xCBFAA8
     void EndInvoke(System::IAsyncResult* result);

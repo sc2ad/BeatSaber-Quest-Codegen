@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0xC53064
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
-    ::CsString* TextForValue(int idx);
+    ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
     // Offset: 0xC53164
     // Implemented from: ListSettingsController

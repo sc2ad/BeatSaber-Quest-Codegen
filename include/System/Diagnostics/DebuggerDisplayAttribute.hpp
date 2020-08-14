@@ -15,16 +15,16 @@ namespace System::Diagnostics {
     public:
     // private System.String name
     // Offset: 0x10
-    ::CsString* name;
+    ::Il2CppString* name;
     // private System.String value
     // Offset: 0x18
-    ::CsString* value;
+    ::Il2CppString* value;
     // private System.String type
     // Offset: 0x20
-    ::CsString* type;
+    ::Il2CppString* type;
     // public System.Void .ctor(System.String value)
     // Offset: 0xC91F04
-    static DebuggerDisplayAttribute* New_ctor(::CsString* value);
+    static DebuggerDisplayAttribute* New_ctor(::Il2CppString* value);
   }; // System.Diagnostics.DebuggerDisplayAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

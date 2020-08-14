@@ -23,7 +23,7 @@ namespace UnityEngine::ProBuilder {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
@@ -71,7 +71,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA53D4C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA53D54
     // Implemented from: System.ValueType

@@ -17,7 +17,7 @@ namespace Polyglot {
     public:
     // private System.String preferenceKey
     // Offset: 0x18
-    ::CsString* preferenceKey;
+    ::Il2CppString* preferenceKey;
     // public System.Void Start()
     // Offset: 0x190F9B0
     void Start();

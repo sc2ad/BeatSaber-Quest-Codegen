@@ -26,10 +26,10 @@ namespace System::Diagnostics {
     bool needIndent;
     // private System.String listenerName
     // Offset: 0x28
-    ::CsString* listenerName;
+    ::Il2CppString* listenerName;
     // protected System.Void .ctor(System.String name)
     // Offset: 0xF59D20
-    static TraceListener* New_ctor(::CsString* name);
+    static TraceListener* New_ctor(::Il2CppString* name);
     // public System.Boolean get_IsThreadSafe()
     // Offset: 0xF5D2AC
     bool get_IsThreadSafe();
@@ -53,19 +53,19 @@ namespace System::Diagnostics {
     void set_NeedIndent(bool value);
     // public System.Void Fail(System.String message)
     // Offset: 0xF59D7C
-    void Fail(::CsString* message);
+    void Fail(::Il2CppString* message);
     // public System.Void Fail(System.String message, System.String detailMessage)
     // Offset: 0xF59E34
-    void Fail(::CsString* message, ::CsString* detailMessage);
+    void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFF
-    void Write(::CsString* message);
+    void Write(::Il2CppString* message);
     // protected System.Void WriteIndent()
     // Offset: 0xF5D34C
     void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFF
-    void WriteLine(::CsString* message);
+    void WriteLine(::Il2CppString* message);
     // public System.Void Dispose()
     // Offset: 0xF5D2B4
     // Implemented from: System.IDisposable

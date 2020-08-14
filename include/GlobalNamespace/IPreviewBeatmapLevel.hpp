@@ -36,7 +36,7 @@ namespace System::Threading {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -47,19 +47,19 @@ namespace GlobalNamespace {
     public:
     // public System.String get_levelID()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_levelID();
+    ::Il2CppString* get_levelID();
     // public System.String get_songName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_songName();
+    ::Il2CppString* get_songName();
     // public System.String get_songSubName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_songSubName();
+    ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_songAuthorName();
+    ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_levelAuthorName();
+    ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
     // Offset: 0xFFFFFFFF
     float get_beatsPerMinute();

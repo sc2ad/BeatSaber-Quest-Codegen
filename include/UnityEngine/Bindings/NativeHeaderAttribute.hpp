@@ -15,13 +15,13 @@ namespace UnityEngine::Bindings {
     public:
     // private System.String <Header>k__BackingField
     // Offset: 0x10
-    ::CsString* Header;
+    ::Il2CppString* Header;
     // public System.Void set_Header(System.String value)
     // Offset: 0x196A8C4
-    void set_Header(::CsString* value);
+    void set_Header(::Il2CppString* value);
     // public System.Void .ctor(System.String header)
     // Offset: 0x196A8CC
-    static NativeHeaderAttribute* New_ctor(::CsString* header);
+    static NativeHeaderAttribute* New_ctor(::Il2CppString* header);
   }; // UnityEngine.Bindings.NativeHeaderAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

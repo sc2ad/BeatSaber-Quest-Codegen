@@ -15,19 +15,19 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <Expression>k__BackingField
     // Offset: 0x10
-    ::CsString* Expression;
+    ::Il2CppString* Expression;
     // private System.Int32 <Editable>k__BackingField
     // Offset: 0x18
     int Editable;
     // private System.String <Target>k__BackingField
     // Offset: 0x20
-    ::CsString* Target;
+    ::Il2CppString* Target;
     // public System.String get_Expression()
     // Offset: 0x1957F14
-    ::CsString* get_Expression();
+    ::Il2CppString* get_Expression();
     // public System.Void set_Expression(System.String value)
     // Offset: 0x1957F1C
-    void set_Expression(::CsString* value);
+    void set_Expression(::Il2CppString* value);
     // public System.Int32 get_Editable()
     // Offset: 0x1957F24
     int get_Editable();
@@ -36,10 +36,10 @@ namespace JetBrains::Annotations {
     void set_Editable(int value);
     // public System.String get_Target()
     // Offset: 0x1957F34
-    ::CsString* get_Target();
+    ::Il2CppString* get_Target();
     // public System.Void set_Target(System.String value)
     // Offset: 0x1957F3C
-    void set_Target(::CsString* value);
+    void set_Target(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1957F44
     // Implemented from: System.Attribute

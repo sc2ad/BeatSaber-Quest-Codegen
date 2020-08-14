@@ -36,13 +36,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1605CA8
-    static IVROverlay::_GetOverlayTransformAbsolute* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayTransformAbsolute* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin peTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
     // Offset: 0x1605CBC
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin& peTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin peTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1605F54
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin& peTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin& peTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(Valve.VR.ETrackingUniverseOrigin peTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform, System.IAsyncResult result)
     // Offset: 0x1606028
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::ETrackingUniverseOrigin& peTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform, System::IAsyncResult* result);

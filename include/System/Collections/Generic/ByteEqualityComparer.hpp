@@ -29,7 +29,7 @@ namespace System::Collections::Generic {
     // Offset: 0x133387C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x13338FC
     // Implemented from: System.Object

@@ -10,7 +10,7 @@
 #include "System/IntPtr.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
@@ -19,15 +19,15 @@ namespace System::Runtime::InteropServices {
     public:
     // System.Object m_wrapper
     // Offset: 0x0
-    ::CsObject* m_wrapper;
+    ::Il2CppObject* m_wrapper;
     // System.IntPtr m_handle
     // Offset: 0x8
     System::IntPtr m_handle;
     // Creating value type constructor for type: HandleRef
-    HandleRef(::CsObject* m_wrapper_ = {}, System::IntPtr m_handle_ = {}) : m_wrapper{m_wrapper_}, m_handle{m_handle_} {}
+    HandleRef(::Il2CppObject* m_wrapper_ = {}, System::IntPtr m_handle_ = {}) : m_wrapper{m_wrapper_}, m_handle{m_handle_} {}
     // public System.Void .ctor(System.Object wrapper, System.IntPtr handle)
     // Offset: 0xA3C594
-    static HandleRef* New_ctor(::CsObject* wrapper, System::IntPtr handle);
+    static HandleRef* New_ctor(::Il2CppObject* wrapper, System::IntPtr handle);
     // public System.IntPtr get_Handle()
     // Offset: 0xA3C5C4
     System::IntPtr get_Handle();

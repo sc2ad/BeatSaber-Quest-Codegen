@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED10F8
-    static IVRChaperoneSetup::_GetWorkingPlayAreaRect* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperoneSetup::_GetWorkingPlayAreaRect* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(OVR.OpenVR.HmdQuad_t rect)
     // Offset: 0xEC72BC
     bool Invoke(OVR::OpenVR::HmdQuad_t& rect);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.HmdQuad_t rect, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED110C
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::HmdQuad_t& rect, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::HmdQuad_t& rect, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(OVR.OpenVR.HmdQuad_t rect, System.IAsyncResult result)
     // Offset: 0xED11A0
     bool EndInvoke(OVR::OpenVR::HmdQuad_t& rect, System::IAsyncResult* result);

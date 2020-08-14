@@ -31,7 +31,7 @@ namespace System::Threading::Tasks {
     static void _set_s_longRunningThreadWork(System::Threading::ParameterizedThreadStart* value);
     // static private System.Void LongRunningThreadWork(System.Object obj)
     // Offset: 0xCE5168
-    static void LongRunningThreadWork(::CsObject* obj);
+    static void LongRunningThreadWork(::Il2CppObject* obj);
     // System.Void .ctor()
     // Offset: 0xCE4C00
     // Implemented from: System.Threading.Tasks.TaskScheduler

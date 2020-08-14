@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicTableCell* cellPrefab;
     // private System.String _cellReuseIdentifier
     // Offset: 0x28
-    ::CsString* cellReuseIdentifier;
+    ::Il2CppString* cellReuseIdentifier;
     // private System.Single _cellWidth
     // Offset: 0x30
     float cellWidth;

@@ -48,9 +48,9 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Text::StringBuilder* data;
     // Get static field: static private System.String prevConnected
-    static ::CsString* _get_prevConnected();
+    static ::Il2CppString* _get_prevConnected();
     // Set static field: static private System.String prevConnected
-    static void _set_prevConnected(::CsString* value);
+    static void _set_prevConnected(::Il2CppString* value);
     // Get static field: static private OVRGearVrControllerTest/BoolMonitor controllers
     static GlobalNamespace::OVRGearVrControllerTest::BoolMonitor* _get_controllers();
     // Set static field: static private OVRGearVrControllerTest/BoolMonitor controllers

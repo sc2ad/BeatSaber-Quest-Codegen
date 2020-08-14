@@ -34,13 +34,13 @@ namespace UnityEngine::UI {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x120329C
-    static ReflectionMethodsCache::GetRayIntersectionAllCallback* New_ctor(::CsObject* object, System::IntPtr method);
+    static ReflectionMethodsCache::GetRayIntersectionAllCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public UnityEngine.RaycastHit2D[] Invoke(UnityEngine.Ray r, System.Single f, System.Int32 i)
     // Offset: 0x12032B0
     ::Array<UnityEngine::RaycastHit2D>* Invoke(UnityEngine::Ray r, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1203618
-    System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, float f, int i, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.RaycastHit2D[] EndInvoke(System.IAsyncResult result)
     // Offset: 0x12036EC
     ::Array<UnityEngine::RaycastHit2D>* EndInvoke(System::IAsyncResult* result);

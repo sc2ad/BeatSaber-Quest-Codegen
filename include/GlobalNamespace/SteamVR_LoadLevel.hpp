@@ -38,19 +38,15 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SteamVR_LoadLevel::$LoadLevel$d__45
     class $LoadLevel$d__45;
-    // Get static field: static private SteamVR_LoadLevel _active
-    static GlobalNamespace::SteamVR_LoadLevel* _get__active();
-    // Set static field: static private SteamVR_LoadLevel _active
-    static void _set__active(GlobalNamespace::SteamVR_LoadLevel* value);
     // public System.String levelName
     // Offset: 0x18
-    ::CsString* levelName;
+    ::Il2CppString* levelName;
     // public System.String internalProcessPath
     // Offset: 0x20
-    ::CsString* internalProcessPath;
+    ::Il2CppString* internalProcessPath;
     // public System.String internalProcessArgs
     // Offset: 0x28
-    ::CsString* internalProcessArgs;
+    ::Il2CppString* internalProcessArgs;
     // public System.Boolean loadAdditive
     // Offset: 0x30
     bool loadAdditive;
@@ -141,6 +137,10 @@ namespace GlobalNamespace {
     // public System.Boolean autoTriggerOnEnable
     // Offset: 0xF0
     bool autoTriggerOnEnable;
+    // Get static field: static private SteamVR_LoadLevel _active
+    static GlobalNamespace::SteamVR_LoadLevel* _get__active();
+    // Set static field: static private SteamVR_LoadLevel _active
+    static void _set__active(GlobalNamespace::SteamVR_LoadLevel* value);
     // static public System.Boolean get_loading()
     // Offset: 0xD84158
     static bool get_loading();
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     void Trigger();
     // static public System.Void Begin(System.String levelName, System.Boolean showGrid, System.Single fadeOutTime, System.Single r, System.Single g, System.Single b, System.Single a)
     // Offset: 0xD84500
-    static void Begin(::CsString* levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
+    static void Begin(::Il2CppString* levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
     // private System.Void OnGUI()
     // Offset: 0xD84614
     void OnGUI();
@@ -170,7 +170,7 @@ namespace GlobalNamespace {
     System::Collections::IEnumerator* LoadLevel();
     // private System.UInt64 GetOverlayHandle(System.String overlayName, UnityEngine.Transform transform, System.Single widthInMeters)
     // Offset: 0xD84A70
-    uint64_t GetOverlayHandle(::CsString* overlayName, UnityEngine::Transform* transform, float widthInMeters);
+    uint64_t GetOverlayHandle(::Il2CppString* overlayName, UnityEngine::Transform* transform, float widthInMeters);
     // public System.Void .ctor()
     // Offset: 0xD85088
     // Implemented from: UnityEngine.MonoBehaviour

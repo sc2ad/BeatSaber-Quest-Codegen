@@ -36,13 +36,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xECCBF4
-    static CVRRenderModels::_GetComponentStatePacked* New_ctor(::CsObject* object, System::IntPtr method);
+    static CVRRenderModels::_GetComponentStatePacked* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchRenderModelName, System.String pchComponentName, OVR.OpenVR.VRControllerState_t_Packed pControllerState, OVR.OpenVR.RenderModel_ControllerMode_State_t pState, OVR.OpenVR.RenderModel_ComponentState_t pComponentState)
     // Offset: 0xECC694
-    bool Invoke(::CsString* pchRenderModelName, ::CsString* pchComponentName, OVR::OpenVR::VRControllerState_t_Packed& pControllerState, OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState);
+    bool Invoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, OVR::OpenVR::VRControllerState_t_Packed& pControllerState, OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.String pchComponentName, OVR.OpenVR.VRControllerState_t_Packed pControllerState, OVR.OpenVR.RenderModel_ControllerMode_State_t pState, OVR.OpenVR.RenderModel_ComponentState_t pComponentState, System.AsyncCallback callback, System.Object object)
     // Offset: 0xECCC08
-    System::IAsyncResult* BeginInvoke(::CsString* pchRenderModelName, ::CsString* pchComponentName, OVR::OpenVR::VRControllerState_t_Packed& pControllerState, OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, OVR::OpenVR::VRControllerState_t_Packed& pControllerState, OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(OVR.OpenVR.VRControllerState_t_Packed pControllerState, OVR.OpenVR.RenderModel_ControllerMode_State_t pState, OVR.OpenVR.RenderModel_ComponentState_t pComponentState, System.IAsyncResult result)
     // Offset: 0xECCCF8
     bool EndInvoke(OVR::OpenVR::VRControllerState_t_Packed& pControllerState, OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState, System::IAsyncResult* result);

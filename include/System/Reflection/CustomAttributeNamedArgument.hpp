@@ -17,8 +17,8 @@ namespace System::Reflection {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
@@ -35,7 +35,7 @@ namespace System::Reflection {
     CustomAttributeNamedArgument(System::Reflection::CustomAttributeTypedArgument typedArgument_ = {}, System::Reflection::MemberInfo* memberInfo_ = {}) : typedArgument{typedArgument_}, memberInfo{memberInfo_} {}
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo, System.Object value)
     // Offset: 0xA4322C
-    static CustomAttributeNamedArgument* New_ctor(System::Reflection::MemberInfo* memberInfo, ::CsObject* value);
+    static CustomAttributeNamedArgument* New_ctor(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value);
     // public System.Reflection.MemberInfo get_MemberInfo()
     // Offset: 0xA43234
     System::Reflection::MemberInfo* get_MemberInfo();
@@ -46,12 +46,12 @@ namespace System::Reflection {
     // Offset: 0xA43248
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xA43250
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA43258
     // Implemented from: System.ValueType

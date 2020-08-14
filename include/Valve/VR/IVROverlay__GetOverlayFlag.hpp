@@ -34,13 +34,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16024F0
-    static IVROverlay::_GetOverlayFlag* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayFlag* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayFlags eOverlayFlag, System.Boolean pbEnabled)
     // Offset: 0x1602504
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayFlags eOverlayFlag, bool& pbEnabled);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayFlags eOverlayFlag, System.Boolean pbEnabled, System.AsyncCallback callback, System.Object object)
     // Offset: 0x160279C
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayFlags eOverlayFlag, bool& pbEnabled, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayFlags eOverlayFlag, bool& pbEnabled, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.Boolean pbEnabled, System.IAsyncResult result)
     // Offset: 0x1602870
     Valve::VR::EVROverlayError EndInvoke(bool& pbEnabled, System::IAsyncResult* result);

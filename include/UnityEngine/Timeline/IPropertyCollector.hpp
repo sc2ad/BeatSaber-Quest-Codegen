@@ -27,7 +27,7 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
@@ -49,13 +49,13 @@ namespace UnityEngine::Timeline {
     // public System.Void AddFromName(System.String name)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void AddFromName(::CsString* name) {
+    void AddFromName(::Il2CppString* name) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AddFromName", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name));
     }
     // public System.Void AddFromName(System.String name)
     // Offset: 0xFFFFFFFF
-    void AddFromName(::CsString* name);
+    void AddFromName(::Il2CppString* name);
     // public System.Void AddFromClip(UnityEngine.GameObject obj, UnityEngine.AnimationClip clip)
     // Offset: 0xFFFFFFFF
     void AddFromClip(UnityEngine::GameObject* obj, UnityEngine::AnimationClip* clip);
@@ -65,16 +65,16 @@ namespace UnityEngine::Timeline {
     // public System.Void AddFromName(UnityEngine.GameObject obj, System.String name)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void AddFromName(UnityEngine::GameObject* obj, ::CsString* name) {
+    void AddFromName(UnityEngine::GameObject* obj, ::Il2CppString* name) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AddFromName", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, name));
     }
     // public System.Void AddFromName(UnityEngine.GameObject obj, System.String name)
     // Offset: 0xFFFFFFFF
-    void AddFromName(UnityEngine::GameObject* obj, ::CsString* name);
+    void AddFromName(UnityEngine::GameObject* obj, ::Il2CppString* name);
     // public System.Void AddFromName(UnityEngine.Component component, System.String name)
     // Offset: 0xFFFFFFFF
-    void AddFromName(UnityEngine::Component* component, ::CsString* name);
+    void AddFromName(UnityEngine::Component* component, ::Il2CppString* name);
     // public System.Void AddFromComponent(UnityEngine.GameObject obj, UnityEngine.Component component)
     // Offset: 0xFFFFFFFF
     void AddFromComponent(UnityEngine::GameObject* obj, UnityEngine::Component* component);

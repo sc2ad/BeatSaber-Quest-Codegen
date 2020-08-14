@@ -321,10 +321,6 @@ namespace TMPro {
     // protected UnityEngine.TouchScreenKeyboard m_SoftKeyboard
     // Offset: 0xF0
     UnityEngine::TouchScreenKeyboard* m_SoftKeyboard;
-    // Get static field: static private readonly System.Char[] kSeparators
-    static ::Array<::Il2CppChar>* _get_kSeparators();
-    // Set static field: static private readonly System.Char[] kSeparators
-    static void _set_kSeparators(::Array<::Il2CppChar>* value);
     // protected UnityEngine.RectTransform m_TextViewport
     // Offset: 0xF8
     UnityEngine::RectTransform* m_TextViewport;
@@ -378,7 +374,7 @@ namespace TMPro {
     TMPro::TMP_InputField::CharacterValidation m_CharacterValidation;
     // private System.String m_RegexValue
     // Offset: 0x150
-    ::CsString* m_RegexValue;
+    ::Il2CppString* m_RegexValue;
     // private System.Single m_GlobalPointSize
     // Offset: 0x158
     float m_GlobalPointSize;
@@ -423,7 +419,7 @@ namespace TMPro {
     UnityEngine::Color m_SelectionColor;
     // protected System.String m_Text
     // Offset: 0x1D0
-    ::CsString* m_Text;
+    ::Il2CppString* m_Text;
     // private System.Single m_CaretBlinkRate
     // Offset: 0x1D8
     float m_CaretBlinkRate;
@@ -475,18 +471,6 @@ namespace TMPro {
     // private System.Boolean m_DragPositionOutOfBounds
     // Offset: 0x223
     bool m_DragPositionOutOfBounds;
-    // static field const value: static private System.Single kHScrollSpeed
-    static constexpr const float kHScrollSpeed = 0.05;
-    // Get static field: static private System.Single kHScrollSpeed
-    static float _get_kHScrollSpeed();
-    // Set static field: static private System.Single kHScrollSpeed
-    static void _set_kHScrollSpeed(float value);
-    // static field const value: static private System.Single kVScrollSpeed
-    static constexpr const float kVScrollSpeed = 0.1;
-    // Get static field: static private System.Single kVScrollSpeed
-    static float _get_kVScrollSpeed();
-    // Set static field: static private System.Single kVScrollSpeed
-    static void _set_kVScrollSpeed(float value);
     // protected System.Boolean m_CaretVisible
     // Offset: 0x224
     bool m_CaretVisible;
@@ -501,7 +485,7 @@ namespace TMPro {
     UnityEngine::Coroutine* m_DragCoroutine;
     // private System.String m_OriginalText
     // Offset: 0x240
-    ::CsString* m_OriginalText;
+    ::Il2CppString* m_OriginalText;
     // private System.Boolean m_WasCanceled
     // Offset: 0x248
     bool m_WasCanceled;
@@ -538,12 +522,6 @@ namespace TMPro {
     // private System.Single m_DoubleClickDelay
     // Offset: 0x268
     float m_DoubleClickDelay;
-    // static field const value: static private System.String kEmailSpecialCharacters
-    static constexpr const char* kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
-    // Get static field: static private System.String kEmailSpecialCharacters
-    static ::CsString* _get_kEmailSpecialCharacters();
-    // Set static field: static private System.String kEmailSpecialCharacters
-    static void _set_kEmailSpecialCharacters(::CsString* value);
     // protected TMPro.TMP_FontAsset m_GlobalFontAsset
     // Offset: 0x270
     TMPro::TMP_FontAsset* m_GlobalFontAsset;
@@ -592,12 +570,34 @@ namespace TMPro {
     // private UnityEngine.Event m_ProcessingEvent
     // Offset: 0x2A0
     UnityEngine::Event* m_ProcessingEvent;
+    // Get static field: static private readonly System.Char[] kSeparators
+    static ::Array<::Il2CppChar>* _get_kSeparators();
+    // Set static field: static private readonly System.Char[] kSeparators
+    static void _set_kSeparators(::Array<::Il2CppChar>* value);
+    // static field const value: static private System.Single kHScrollSpeed
+    static constexpr const float kHScrollSpeed = 0.05;
+    // Get static field: static private System.Single kHScrollSpeed
+    static float _get_kHScrollSpeed();
+    // Set static field: static private System.Single kHScrollSpeed
+    static void _set_kHScrollSpeed(float value);
+    // static field const value: static private System.Single kVScrollSpeed
+    static constexpr const float kVScrollSpeed = 0.1;
+    // Get static field: static private System.Single kVScrollSpeed
+    static float _get_kVScrollSpeed();
+    // Set static field: static private System.Single kVScrollSpeed
+    static void _set_kVScrollSpeed(float value);
+    // static field const value: static private System.String kEmailSpecialCharacters
+    static constexpr const char* kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
+    // Get static field: static private System.String kEmailSpecialCharacters
+    static ::Il2CppString* _get_kEmailSpecialCharacters();
+    // Set static field: static private System.String kEmailSpecialCharacters
+    static void _set_kEmailSpecialCharacters(::Il2CppString* value);
     // private UnityEngine.EventSystems.BaseInput get_inputSystem()
     // Offset: 0xB73A0C
     UnityEngine::EventSystems::BaseInput* get_inputSystem();
     // private System.String get_compositionString()
     // Offset: 0xB73B4C
-    ::CsString* get_compositionString();
+    ::Il2CppString* get_compositionString();
     // protected UnityEngine.Mesh get_mesh()
     // Offset: 0xB73FA0
     UnityEngine::Mesh* get_mesh();
@@ -618,16 +618,16 @@ namespace TMPro {
     bool isKeyboardUsingEvents();
     // public System.String get_text()
     // Offset: 0xB74304
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0xB7430C
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // public System.Void SetTextWithoutNotify(System.String input)
     // Offset: 0xB74450
-    void SetTextWithoutNotify(::CsString* input);
+    void SetTextWithoutNotify(::Il2CppString* input);
     // private System.Void SetText(System.String value, System.Boolean sendCallback)
     // Offset: 0xB74314
-    void SetText(::CsString* value, bool sendCallback);
+    void SetText(::Il2CppString* value, bool sendCallback);
     // public System.Boolean get_isFocused()
     // Offset: 0xB74944
     bool get_isFocused();
@@ -951,10 +951,10 @@ namespace TMPro {
     void MoveToStartOfLine(bool shift, bool ctrl);
     // static private System.String get_clipboard()
     // Offset: 0xB77A38
-    static ::CsString* get_clipboard();
+    static ::Il2CppString* get_clipboard();
     // static private System.Void set_clipboard(System.String value)
     // Offset: 0xB77A40
-    static void set_clipboard(::CsString* value);
+    static void set_clipboard(::Il2CppString* value);
     // private System.Boolean InPlaceEditing()
     // Offset: 0xB77A48
     bool InPlaceEditing();
@@ -981,7 +981,7 @@ namespace TMPro {
     void ProcessEvent(UnityEngine::Event* e);
     // private System.String GetSelectedString()
     // Offset: 0xB7A540
-    ::CsString* GetSelectedString();
+    ::Il2CppString* GetSelectedString();
     // private System.Int32 FindNextWordBegin()
     // Offset: 0xB7B5E0
     int FindNextWordBegin();
@@ -1041,7 +1041,7 @@ namespace TMPro {
     void Backspace();
     // protected System.Void Append(System.String input)
     // Offset: 0xB7CBB8
-    void Append(::CsString* input);
+    void Append(::Il2CppString* input);
     // protected System.Void Append(System.Char input)
     // Offset: 0xB7CC6C
     void Append(::Il2CppChar input);
@@ -1131,7 +1131,7 @@ namespace TMPro {
     void AdjustRectTransformRelativeToViewport(UnityEngine::Vector2 startPosition, float height, bool isCharVisible);
     // protected System.Char Validate(System.String text, System.Int32 pos, System.Char ch)
     // Offset: 0xB78840
-    ::Il2CppChar Validate(::CsString* text, int pos, ::Il2CppChar ch);
+    ::Il2CppChar Validate(::Il2CppString* text, int pos, ::Il2CppChar ch);
     // public System.Void ActivateInputField()
     // Offset: 0xB7EC80
     void ActivateInputField();

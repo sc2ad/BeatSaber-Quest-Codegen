@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <FormatParameterName>k__BackingField
     // Offset: 0x10
-    ::CsString* FormatParameterName;
+    ::Il2CppString* FormatParameterName;
     // public System.Void .ctor(System.String formatParameterName)
     // Offset: 0x1958368
-    static StringFormatMethodAttribute* New_ctor(::CsString* formatParameterName);
+    static StringFormatMethodAttribute* New_ctor(::Il2CppString* formatParameterName);
     // public System.String get_FormatParameterName()
     // Offset: 0x195839C
-    ::CsString* get_FormatParameterName();
+    ::Il2CppString* get_FormatParameterName();
     // private System.Void set_FormatParameterName(System.String value)
     // Offset: 0x19583A4
-    void set_FormatParameterName(::CsString* value);
+    void set_FormatParameterName(::Il2CppString* value);
   }; // JetBrains.Annotations.StringFormatMethodAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

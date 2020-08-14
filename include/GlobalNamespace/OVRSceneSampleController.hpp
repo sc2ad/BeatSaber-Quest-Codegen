@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRCameraRig* cameraController;
     // public System.String layerName
     // Offset: 0x40
-    ::CsString* layerName;
+    ::Il2CppString* layerName;
     // private System.Boolean visionMode
     // Offset: 0x48
     bool visionMode;

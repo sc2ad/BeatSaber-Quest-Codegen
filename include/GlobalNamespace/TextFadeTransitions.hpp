@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     GlobalNamespace::TextFadeTransitions::State state;
     // private System.String _nextText
     // Offset: 0x30
-    ::CsString* nextText;
+    ::Il2CppString* nextText;
     // private System.Single _fade
     // Offset: 0x38
     float fade;
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     void RefreshTextAlpha();
     // public System.Void ShowText(System.String text)
     // Offset: 0xC4316C
-    void ShowText(::CsString* text);
+    void ShowText(::Il2CppString* text);
     // public System.Void .ctor()
     // Offset: 0xC431F4
     // Implemented from: UnityEngine.MonoBehaviour

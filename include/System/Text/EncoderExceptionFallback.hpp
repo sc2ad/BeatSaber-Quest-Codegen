@@ -40,7 +40,7 @@ namespace System::Text {
     // Offset: 0x12E9A34
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
-    bool Equals(::CsObject* value);
+    bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
     // Offset: 0x12E9A98
     // Implemented from: System.Object

@@ -36,19 +36,19 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackProductsData;
     // private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelProductData> _levelIdToProductData
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* levelIdToProductData;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* levelIdToProductData;
     // private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
     // public PS4LevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
     // Offset: 0xBCF0BC
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public PS4LevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
     // Offset: 0xBCF21C
-    GlobalNamespace::PS4LevelProductsModelSO::LevelProductData* GetLevelProductData(::CsString* levelId);
+    GlobalNamespace::PS4LevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public PS4LevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
     // Offset: 0xBCF29C
-    GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::CsString* levelPackId);
+    GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
     // protected override System.Void OnEnable()
     // Offset: 0xBCF0C4
     // Implemented from: PersistentScriptableObject

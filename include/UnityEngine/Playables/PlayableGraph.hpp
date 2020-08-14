@@ -30,7 +30,7 @@ namespace UnityEngine {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -76,7 +76,7 @@ namespace UnityEngine::Playables {
     UnityEngine::Playables::PlayableHandle CreatePlayableHandle();
     // System.Boolean CreateScriptOutputInternal(System.String name, UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0xA45144
-    bool CreateScriptOutputInternal(::CsString* name, UnityEngine::Playables::PlayableOutputHandle& handle);
+    bool CreateScriptOutputInternal(::Il2CppString* name, UnityEngine::Playables::PlayableOutputHandle& handle);
     // UnityEngine.Playables.PlayableHandle GetRootPlayableInternal(System.Int32 index)
     // Offset: 0xA4519C
     UnityEngine::Playables::PlayableHandle GetRootPlayableInternal(int index);
@@ -103,7 +103,7 @@ namespace UnityEngine::Playables {
     static void CreatePlayableHandle_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, UnityEngine::Playables::PlayableHandle& ret);
     // static private System.Boolean CreateScriptOutputInternal_Injected(UnityEngine.Playables.PlayableGraph _unity_self, System.String name, UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x1411F08
-    static bool CreateScriptOutputInternal_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, ::CsString* name, UnityEngine::Playables::PlayableOutputHandle& handle);
+    static bool CreateScriptOutputInternal_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, ::Il2CppString* name, UnityEngine::Playables::PlayableOutputHandle& handle);
     // static private System.Void GetRootPlayableInternal_Injected(UnityEngine.Playables.PlayableGraph _unity_self, System.Int32 index, UnityEngine.Playables.PlayableHandle ret)
     // Offset: 0x1411F60
     static void GetRootPlayableInternal_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, int index, UnityEngine::Playables::PlayableHandle& ret);

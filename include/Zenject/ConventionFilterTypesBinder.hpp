@@ -119,31 +119,31 @@ namespace Zenject {
     Zenject::ConventionFilterTypesBinder* Where(System::Func_2<System::Type*, bool>* predicate);
     // public Zenject.ConventionFilterTypesBinder InNamespace(System.String ns)
     // Offset: 0xD6B744
-    Zenject::ConventionFilterTypesBinder* InNamespace(::CsString* ns);
+    Zenject::ConventionFilterTypesBinder* InNamespace(::Il2CppString* ns);
     // public Zenject.ConventionFilterTypesBinder InNamespaces(System.String[] namespaces)
     // Offset: 0xD6B800
-    Zenject::ConventionFilterTypesBinder* InNamespaces(::Array<::CsString*>* namespaces);
+    Zenject::ConventionFilterTypesBinder* InNamespaces(::Array<::Il2CppString*>* namespaces);
     // public Zenject.ConventionFilterTypesBinder InNamespaces(System.Collections.Generic.IEnumerable`1<System.String> namespaces)
     // Offset: 0xD6B804
-    Zenject::ConventionFilterTypesBinder* InNamespaces(System::Collections::Generic::IEnumerable_1<::CsString*>* namespaces);
+    Zenject::ConventionFilterTypesBinder* InNamespaces(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* namespaces);
     // public Zenject.ConventionFilterTypesBinder WithSuffix(System.String suffix)
     // Offset: 0xD6B8D8
-    Zenject::ConventionFilterTypesBinder* WithSuffix(::CsString* suffix);
+    Zenject::ConventionFilterTypesBinder* WithSuffix(::Il2CppString* suffix);
     // public Zenject.ConventionFilterTypesBinder WithPrefix(System.String prefix)
     // Offset: 0xD6B9AC
-    Zenject::ConventionFilterTypesBinder* WithPrefix(::CsString* prefix);
+    Zenject::ConventionFilterTypesBinder* WithPrefix(::Il2CppString* prefix);
     // public Zenject.ConventionFilterTypesBinder MatchingRegex(System.String pattern)
     // Offset: 0xD6BA80
-    Zenject::ConventionFilterTypesBinder* MatchingRegex(::CsString* pattern);
+    Zenject::ConventionFilterTypesBinder* MatchingRegex(::Il2CppString* pattern);
     // public Zenject.ConventionFilterTypesBinder MatchingRegex(System.String pattern, System.Text.RegularExpressions.RegexOptions options)
     // Offset: 0xD6BA88
-    Zenject::ConventionFilterTypesBinder* MatchingRegex(::CsString* pattern, System::Text::RegularExpressions::RegexOptions options);
+    Zenject::ConventionFilterTypesBinder* MatchingRegex(::Il2CppString* pattern, System::Text::RegularExpressions::RegexOptions options);
     // public Zenject.ConventionFilterTypesBinder MatchingRegex(System.Text.RegularExpressions.Regex regex)
     // Offset: 0xD6BB04
     Zenject::ConventionFilterTypesBinder* MatchingRegex(System::Text::RegularExpressions::Regex* regex);
     // static private System.Boolean IsInNamespace(System.Type type, System.String requiredNs)
     // Offset: 0xD6BBD8
-    static bool IsInNamespace(System::Type* type, ::CsString* requiredNs);
+    static bool IsInNamespace(System::Type* type, ::Il2CppString* requiredNs);
     // public System.Void .ctor(Zenject.ConventionBindInfo bindInfo)
     // Offset: 0xD6B308
     // Implemented from: Zenject.ConventionAssemblySelectionBinder

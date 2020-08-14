@@ -58,7 +58,7 @@ namespace HMUI {
     void Awake();
     // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
     // Offset: 0xEDEB60
-    void Show(::CsString* text, UnityEngine::Transform* parent, UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect);
+    void Show(::Il2CppString* text, UnityEngine::Transform* parent, UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect);
     // public System.Void Hide()
     // Offset: 0xEDE6C8
     void Hide();

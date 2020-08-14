@@ -33,13 +33,13 @@ namespace System::Security::Principal {
     public:
     // private System.String m_name
     // Offset: 0x78
-    ::CsString* m_name;
+    ::Il2CppString* m_name;
     // private System.String m_type
     // Offset: 0x80
-    ::CsString* m_type;
+    ::Il2CppString* m_type;
     // public System.Void .ctor(System.String name, System.String type)
     // Offset: 0xDE9148
-    static GenericIdentity* New_ctor(::CsString* name, ::CsString* type);
+    static GenericIdentity* New_ctor(::Il2CppString* name, ::Il2CppString* type);
     // protected System.Void .ctor(System.Security.Principal.GenericIdentity identity)
     // Offset: 0xDE9318
     static GenericIdentity* New_ctor(System::Security::Principal::GenericIdentity* identity);
@@ -66,12 +66,12 @@ namespace System::Security::Principal {
     // Offset: 0xDE93C4
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_Name()
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public override System.String get_AuthenticationType()
     // Offset: 0xDE93CC
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_AuthenticationType()
-    ::CsString* get_AuthenticationType();
+    ::Il2CppString* get_AuthenticationType();
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xDE93D4
     // Implemented from: System.Security.Claims.ClaimsIdentity

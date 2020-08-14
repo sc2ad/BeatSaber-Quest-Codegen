@@ -27,13 +27,13 @@ namespace RootMotion {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1240AEC
-    static Warning::Logger* New_ctor(::CsObject* object, System::IntPtr method);
+    static Warning::Logger* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String message)
     // Offset: 0x1240734
-    void Invoke(::CsString* message);
+    void Invoke(::Il2CppString* message);
     // public System.IAsyncResult BeginInvoke(System.String message, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1240B00
-    System::IAsyncResult* BeginInvoke(::CsString* message, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* message, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1240B24
     void EndInvoke(System::IAsyncResult* result);

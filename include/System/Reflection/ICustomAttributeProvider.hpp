@@ -13,7 +13,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -24,7 +24,7 @@ namespace System::Reflection {
     public:
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0xFFFFFFFF
-    ::Array<::CsObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     bool IsDefined(System::Type* attributeType, bool inherit);

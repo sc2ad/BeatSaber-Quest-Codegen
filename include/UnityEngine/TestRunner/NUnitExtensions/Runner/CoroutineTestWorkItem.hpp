@@ -45,13 +45,13 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     public:
     // Nested type: UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::$PerformWork$d__6
     class $PerformWork$d__6;
+    // private NUnit.Framework.Internal.Commands.TestCommand m_Command
+    // Offset: 0x58
+    NUnit::Framework::Internal::Commands::TestCommand* m_Command;
     // Get static field: static private UnityEngine.MonoBehaviour m_MonoBehaviourCoroutineRunner
     static UnityEngine::MonoBehaviour* _get_m_MonoBehaviourCoroutineRunner();
     // Set static field: static private UnityEngine.MonoBehaviour m_MonoBehaviourCoroutineRunner
     static void _set_m_MonoBehaviourCoroutineRunner(UnityEngine::MonoBehaviour* value);
-    // private NUnit.Framework.Internal.Commands.TestCommand m_Command
-    // Offset: 0x58
-    NUnit::Framework::Internal::Commands::TestCommand* m_Command;
     // static public UnityEngine.MonoBehaviour get_monoBehaviourCoroutineRunner()
     // Offset: 0xE2F1A8
     static UnityEngine::MonoBehaviour* get_monoBehaviourCoroutineRunner();

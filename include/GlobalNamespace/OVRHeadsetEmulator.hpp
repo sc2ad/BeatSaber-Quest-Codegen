@@ -74,6 +74,21 @@ namespace GlobalNamespace {
     // private OVRManager manager
     // Offset: 0x30
     GlobalNamespace::OVRManager* manager;
+    // private System.Boolean lastFrameEmulationActivated
+    // Offset: 0x38
+    bool lastFrameEmulationActivated;
+    // private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetTranslation
+    // Offset: 0x3C
+    UnityEngine::Vector3 recordedHeadPoseRelativeOffsetTranslation;
+    // private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetRotation
+    // Offset: 0x48
+    UnityEngine::Vector3 recordedHeadPoseRelativeOffsetRotation;
+    // private System.Boolean hasSentEvent
+    // Offset: 0x54
+    bool hasSentEvent;
+    // private System.Boolean emulatorHasInitialized
+    // Offset: 0x55
+    bool emulatorHasInitialized;
     // static field const value: static private System.Single MOUSE_SCALE_X
     static constexpr const float MOUSE_SCALE_X = -2;
     // Get static field: static private System.Single MOUSE_SCALE_X
@@ -104,21 +119,6 @@ namespace GlobalNamespace {
     static float _get_MAX_ROLL();
     // Set static field: static private System.Single MAX_ROLL
     static void _set_MAX_ROLL(float value);
-    // private System.Boolean lastFrameEmulationActivated
-    // Offset: 0x38
-    bool lastFrameEmulationActivated;
-    // private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetTranslation
-    // Offset: 0x3C
-    UnityEngine::Vector3 recordedHeadPoseRelativeOffsetTranslation;
-    // private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetRotation
-    // Offset: 0x48
-    UnityEngine::Vector3 recordedHeadPoseRelativeOffsetRotation;
-    // private System.Boolean hasSentEvent
-    // Offset: 0x54
-    bool hasSentEvent;
-    // private System.Boolean emulatorHasInitialized
-    // Offset: 0x55
-    bool emulatorHasInitialized;
     // private System.Void Start()
     // Offset: 0xE6B038
     void Start();

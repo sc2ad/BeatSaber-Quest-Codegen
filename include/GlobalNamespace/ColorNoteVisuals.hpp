@@ -65,13 +65,13 @@ namespace GlobalNamespace {
     // private System.Action`2<ColorNoteVisuals,NoteController> didInitEvent
     // Offset: 0x50
     System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteController*>* didInitEvent;
+    // private UnityEngine.Color _noteColor
+    // Offset: 0x58
+    UnityEngine::Color noteColor;
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
     static void _set__colorID(int value);
-    // private UnityEngine.Color _noteColor
-    // Offset: 0x58
-    UnityEngine::Color noteColor;
     // public System.Void add_didInitEvent(System.Action`2<ColorNoteVisuals,NoteController> value)
     // Offset: 0xB5FBB8
     void add_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteController*>* value);

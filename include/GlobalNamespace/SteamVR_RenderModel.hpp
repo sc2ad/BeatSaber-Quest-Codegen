@@ -73,15 +73,9 @@ namespace GlobalNamespace {
     // public SteamVR_TrackedObject/EIndex index
     // Offset: 0x18
     GlobalNamespace::SteamVR_TrackedObject::EIndex index;
-    // static field const value: static public System.String modelOverrideWarning
-    static constexpr const char* modelOverrideWarning = "Model override is really only meant to be used in the scene view for lining things up; using it at runtime is discouraged.  Use tracked device index instead to ensure the correct model is displayed for all users.";
-    // Get static field: static public System.String modelOverrideWarning
-    static ::CsString* _get_modelOverrideWarning();
-    // Set static field: static public System.String modelOverrideWarning
-    static void _set_modelOverrideWarning(::CsString* value);
     // public System.String modelOverride
     // Offset: 0x20
-    ::CsString* modelOverride;
+    ::Il2CppString* modelOverride;
     // public UnityEngine.Shader shader
     // Offset: 0x28
     UnityEngine::Shader* shader;
@@ -97,23 +91,9 @@ namespace GlobalNamespace {
     // public Valve.VR.RenderModel_ControllerMode_State_t controllerModeState
     // Offset: 0x33
     Valve::VR::RenderModel_ControllerMode_State_t controllerModeState;
-    // static field const value: static public System.String k_localTransformName
-    static constexpr const char* k_localTransformName = "attach";
-    // Get static field: static public System.String k_localTransformName
-    static ::CsString* _get_k_localTransformName();
-    // Set static field: static public System.String k_localTransformName
-    static void _set_k_localTransformName(::CsString* value);
     // private System.String <renderModelName>k__BackingField
     // Offset: 0x38
-    ::CsString* renderModelName;
-    // Get static field: static public System.Collections.Hashtable models
-    static System::Collections::Hashtable* _get_models();
-    // Set static field: static public System.Collections.Hashtable models
-    static void _set_models(System::Collections::Hashtable* value);
-    // Get static field: static public System.Collections.Hashtable materials
-    static System::Collections::Hashtable* _get_materials();
-    // Set static field: static public System.Collections.Hashtable materials
-    static void _set_materials(System::Collections::Hashtable* value);
+    ::Il2CppString* renderModelName;
     // private SteamVR_Events/Action deviceConnectedAction
     // Offset: 0x40
     GlobalNamespace::SteamVR_Events::Action* deviceConnectedAction;
@@ -125,13 +105,33 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_Events::Action* modelSkinSettingsHaveChangedAction;
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.String> nameCache
     // Offset: 0x58
-    System::Collections::Generic::Dictionary_2<int, ::CsString*>* nameCache;
+    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* nameCache;
+    // static field const value: static public System.String modelOverrideWarning
+    static constexpr const char* modelOverrideWarning = "Model override is really only meant to be used in the scene view for lining things up; using it at runtime is discouraged.  Use tracked device index instead to ensure the correct model is displayed for all users.";
+    // Get static field: static public System.String modelOverrideWarning
+    static ::Il2CppString* _get_modelOverrideWarning();
+    // Set static field: static public System.String modelOverrideWarning
+    static void _set_modelOverrideWarning(::Il2CppString* value);
+    // static field const value: static public System.String k_localTransformName
+    static constexpr const char* k_localTransformName = "attach";
+    // Get static field: static public System.String k_localTransformName
+    static ::Il2CppString* _get_k_localTransformName();
+    // Set static field: static public System.String k_localTransformName
+    static void _set_k_localTransformName(::Il2CppString* value);
+    // Get static field: static public System.Collections.Hashtable models
+    static System::Collections::Hashtable* _get_models();
+    // Set static field: static public System.Collections.Hashtable models
+    static void _set_models(System::Collections::Hashtable* value);
+    // Get static field: static public System.Collections.Hashtable materials
+    static System::Collections::Hashtable* _get_materials();
+    // Set static field: static public System.Collections.Hashtable materials
+    static void _set_materials(System::Collections::Hashtable* value);
     // public System.String get_renderModelName()
     // Offset: 0xD8BEB8
-    ::CsString* get_renderModelName();
+    ::Il2CppString* get_renderModelName();
     // private System.Void set_renderModelName(System.String value)
     // Offset: 0xD8BEC0
-    void set_renderModelName(::CsString* value);
+    void set_renderModelName(::Il2CppString* value);
     // private System.Void OnModelSkinSettingsHaveChanged(Valve.VR.VREvent_t vrEvent)
     // Offset: 0xD8BEC8
     void OnModelSkinSettingsHaveChanged(Valve::VR::VREvent_t vrEvent);
@@ -146,25 +146,25 @@ namespace GlobalNamespace {
     void UpdateModel();
     // private System.Collections.IEnumerator SetModelAsync(System.String renderModelName)
     // Offset: 0xD8C254
-    System::Collections::IEnumerator* SetModelAsync(::CsString* renderModelName);
+    System::Collections::IEnumerator* SetModelAsync(::Il2CppString* renderModelName);
     // private System.Boolean SetModel(System.String renderModelName)
     // Offset: 0xD8C318
-    bool SetModel(::CsString* renderModelName);
+    bool SetModel(::Il2CppString* renderModelName);
     // private SteamVR_RenderModel/RenderModel LoadRenderModel(Valve.VR.CVRRenderModels renderModels, System.String renderModelName, System.String baseName)
     // Offset: 0xD8D5A0
-    GlobalNamespace::SteamVR_RenderModel::RenderModel* LoadRenderModel(Valve::VR::CVRRenderModels* renderModels, ::CsString* renderModelName, ::CsString* baseName);
+    GlobalNamespace::SteamVR_RenderModel::RenderModel* LoadRenderModel(Valve::VR::CVRRenderModels* renderModels, ::Il2CppString* renderModelName, ::Il2CppString* baseName);
     // private System.Collections.IEnumerator FreeRenderModel(System.IntPtr pRenderModel)
     // Offset: 0xD8E488
     System::Collections::IEnumerator* FreeRenderModel(System::IntPtr pRenderModel);
     // public UnityEngine.Transform FindComponent(System.String componentName)
     // Offset: 0xD8E574
-    UnityEngine::Transform* FindComponent(::CsString* componentName);
+    UnityEngine::Transform* FindComponent(::Il2CppString* componentName);
     // private System.Void StripMesh(UnityEngine.GameObject go)
     // Offset: 0xD8C7E0
     void StripMesh(UnityEngine::GameObject* go);
     // private System.Boolean LoadComponents(SteamVR_RenderModel/RenderModelInterfaceHolder holder, System.String renderModelName)
     // Offset: 0xD8C924
-    bool LoadComponents(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* holder, ::CsString* renderModelName);
+    bool LoadComponents(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* holder, ::Il2CppString* renderModelName);
     // private System.Void OnEnable()
     // Offset: 0xD8E770
     void OnEnable();

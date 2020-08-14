@@ -36,12 +36,12 @@ namespace System {
     // Base method: System.Void ArgumentException::.ctor(System.String paramName)
     // Base method: System.Void SystemException::.ctor(System.String paramName)
     // Base method: System.Void Exception::.ctor(System.String paramName)
-    static ArgumentNullException* New_ctor(::CsString* paramName);
+    static ArgumentNullException* New_ctor(::Il2CppString* paramName);
     // public System.Void .ctor(System.String paramName, System.String message)
     // Offset: 0x10B9B44
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
-    static ArgumentNullException* New_ctor(::CsString* paramName, ::CsString* message);
+    static ArgumentNullException* New_ctor(::Il2CppString* paramName, ::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x10B9B80
     // Implemented from: System.ArgumentException

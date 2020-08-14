@@ -24,7 +24,7 @@ namespace System::Security::Cryptography::X509Certificates {
     void set_Critical(bool value);
     // System.String FormatUnkownData(System.Byte[] data)
     // Offset: 0x12170FC
-    ::CsString* FormatUnkownData(::Array<uint8_t>* data);
+    ::Il2CppString* FormatUnkownData(::Array<uint8_t>* data);
     // protected System.Void .ctor()
     // Offset: 0x1216730
     // Implemented from: System.Security.Cryptography.AsnEncodedData

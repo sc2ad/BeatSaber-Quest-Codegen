@@ -58,10 +58,28 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_ExternalCamera* externalCamera;
     // public System.String externalCameraConfigPath
     // Offset: 0x28
-    ::CsString* externalCameraConfigPath;
+    ::Il2CppString* externalCameraConfigPath;
     // public Valve.VR.ETrackingUniverseOrigin trackingSpace
     // Offset: 0x30
     Valve::VR::ETrackingUniverseOrigin trackingSpace;
+    // private SteamVR_Camera[] cameras
+    // Offset: 0x38
+    ::Array<GlobalNamespace::SteamVR_Camera*>* cameras;
+    // public Valve.VR.TrackedDevicePose_t[] poses
+    // Offset: 0x40
+    ::Array<Valve::VR::TrackedDevicePose_t>* poses;
+    // public Valve.VR.TrackedDevicePose_t[] gamePoses
+    // Offset: 0x48
+    ::Array<Valve::VR::TrackedDevicePose_t>* gamePoses;
+    // private UnityEngine.WaitForEndOfFrame waitForEndOfFrame
+    // Offset: 0x50
+    UnityEngine::WaitForEndOfFrame* waitForEndOfFrame;
+    // private System.Single sceneResolutionScale
+    // Offset: 0x58
+    float sceneResolutionScale;
+    // private System.Single timeScale
+    // Offset: 0x5C
+    float timeScale;
     // Get static field: static private Valve.VR.EVREye <eye>k__BackingField
     static Valve::VR::EVREye _get_$eye$k__BackingField();
     // Set static field: static private Valve.VR.EVREye <eye>k__BackingField
@@ -74,28 +92,10 @@ namespace GlobalNamespace {
     static bool _get_isQuitting();
     // Set static field: static private System.Boolean isQuitting
     static void _set_isQuitting(bool value);
-    // private SteamVR_Camera[] cameras
-    // Offset: 0x38
-    ::Array<GlobalNamespace::SteamVR_Camera*>* cameras;
-    // public Valve.VR.TrackedDevicePose_t[] poses
-    // Offset: 0x40
-    ::Array<Valve::VR::TrackedDevicePose_t>* poses;
-    // public Valve.VR.TrackedDevicePose_t[] gamePoses
-    // Offset: 0x48
-    ::Array<Valve::VR::TrackedDevicePose_t>* gamePoses;
     // Get static field: static private System.Boolean _pauseRendering
     static bool _get__pauseRendering();
     // Set static field: static private System.Boolean _pauseRendering
     static void _set__pauseRendering(bool value);
-    // private UnityEngine.WaitForEndOfFrame waitForEndOfFrame
-    // Offset: 0x50
-    UnityEngine::WaitForEndOfFrame* waitForEndOfFrame;
-    // private System.Single sceneResolutionScale
-    // Offset: 0x58
-    float sceneResolutionScale;
-    // private System.Single timeScale
-    // Offset: 0x5C
-    float timeScale;
     // static public Valve.VR.EVREye get_eye()
     // Offset: 0xD8A54C
     static Valve::VR::EVREye get_eye();
@@ -149,7 +149,7 @@ namespace GlobalNamespace {
     void OnQuit(Valve::VR::VREvent_t vrEvent);
     // private System.String GetScreenshotFilename(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotPropertyFilenames screenshotPropertyFilename)
     // Offset: 0xD8ADC4
-    ::CsString* GetScreenshotFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
+    ::Il2CppString* GetScreenshotFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
     // private System.Void OnRequestScreenshot(Valve.VR.VREvent_t vrEvent)
     // Offset: 0xD8AF10
     void OnRequestScreenshot(Valve::VR::VREvent_t vrEvent);

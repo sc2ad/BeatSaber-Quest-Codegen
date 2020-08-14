@@ -33,12 +33,12 @@ namespace System::Reflection {
     // Offset: 0x114F474
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Object ParameterInfo::get_DefaultValue()
-    ::CsObject* get_DefaultValue();
+    ::Il2CppObject* get_DefaultValue();
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x114F6B8
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Object[] ParameterInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::Array<::CsObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x114F738
     // Implemented from: System.Reflection.ParameterInfo

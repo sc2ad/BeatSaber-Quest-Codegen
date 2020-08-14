@@ -15,7 +15,7 @@ namespace UnityEngine::Bindings {
     public:
     // public System.Void .ctor(System.String[] modules)
     // Offset: 0x196AF30
-    static VisibleToOtherModulesAttribute* New_ctor(::Array<::CsString*>* modules);
+    static VisibleToOtherModulesAttribute* New_ctor(::Array<::Il2CppString*>* modules);
     // public System.Void .ctor()
     // Offset: 0x196AF28
     // Implemented from: System.Attribute

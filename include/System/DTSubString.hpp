@@ -17,7 +17,7 @@ namespace System {
     public:
     // System.String s
     // Offset: 0x0
-    ::CsString* s;
+    ::Il2CppString* s;
     // System.Int32 index
     // Offset: 0x8
     int index;
@@ -31,7 +31,7 @@ namespace System {
     // Offset: 0x14
     int value;
     // Creating value type constructor for type: DTSubString
-    DTSubString(::CsString* s_ = {}, int index_ = {}, int length_ = {}, System::DTSubStringType type_ = {}, int value_ = {}) : s{s_}, index{index_}, length{length_}, type{type_}, value{value_} {}
+    DTSubString(::Il2CppString* s_ = {}, int index_ = {}, int length_ = {}, System::DTSubStringType type_ = {}, int value_ = {}) : s{s_}, index{index_}, length{length_}, type{type_}, value{value_} {}
     // System.Char get_Item(System.Int32 relativeIndex)
     // Offset: 0xA3D178
     ::Il2CppChar get_Item(int relativeIndex);

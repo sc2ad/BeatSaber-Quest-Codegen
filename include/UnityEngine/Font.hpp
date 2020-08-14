@@ -28,13 +28,13 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::Font::FontTextureRebuildCallback
     class FontTextureRebuildCallback;
+    // private UnityEngine.Font/FontTextureRebuildCallback m_FontTextureRebuildCallback
+    // Offset: 0x18
+    UnityEngine::Font::FontTextureRebuildCallback* m_FontTextureRebuildCallback;
     // Get static field: static private System.Action`1<UnityEngine.Font> textureRebuilt
     static System::Action_1<UnityEngine::Font*>* _get_textureRebuilt();
     // Set static field: static private System.Action`1<UnityEngine.Font> textureRebuilt
     static void _set_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
-    // private UnityEngine.Font/FontTextureRebuildCallback m_FontTextureRebuildCallback
-    // Offset: 0x18
-    UnityEngine::Font::FontTextureRebuildCallback* m_FontTextureRebuildCallback;
     // static public System.Void add_textureRebuilt(System.Action`1<UnityEngine.Font> value)
     // Offset: 0x195F1A4
     static void add_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
@@ -61,7 +61,7 @@ namespace UnityEngine {
     bool HasCharacter(int c);
     // static private System.Void Internal_CreateFont(UnityEngine.Font self, System.String name)
     // Offset: 0x195F460
-    static void Internal_CreateFont(UnityEngine::Font* self, ::CsString* name);
+    static void Internal_CreateFont(UnityEngine::Font* self, ::Il2CppString* name);
     // public System.Void .ctor()
     // Offset: 0x195F3CC
     // Implemented from: UnityEngine.Object

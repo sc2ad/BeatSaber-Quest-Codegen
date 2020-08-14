@@ -72,7 +72,7 @@ namespace System::Text {
     // Offset: 0x13C3DA4
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.String s)
-    int GetByteCount(::CsString* s);
+    int GetByteCount(::Il2CppString* s);
     // public override System.Int32 GetByteCount(System.Char* chars, System.Int32 count)
     // Offset: 0x13C3E54
     // Implemented from: System.Text.Encoding
@@ -82,7 +82,7 @@ namespace System::Text {
     // Offset: 0x13C3F70
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.String s, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
-    int GetBytes(::CsString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
+    int GetBytes(::Il2CppString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     // Offset: 0x13C41E0
     // Implemented from: System.Text.Encoding
@@ -117,7 +117,7 @@ namespace System::Text {
     // Offset: 0x13C4CD8
     // Implemented from: System.Text.Encoding
     // Base method: System.String Encoding::GetString(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    ::CsString* GetString(::Array<uint8_t>* bytes, int index, int count);
+    ::Il2CppString* GetString(::Array<uint8_t>* bytes, int index, int count);
     // override System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Text.EncoderNLS encoder)
     // Offset: 0x13C4EB0
     // Implemented from: System.Text.Encoding
@@ -167,7 +167,7 @@ namespace System::Text {
     // Offset: 0x13C6204
     // Implemented from: System.Text.Encoding
     // Base method: System.Boolean Encoding::Equals(System.Object value)
-    bool Equals(::CsObject* value);
+    bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
     // Offset: 0x13C62FC
     // Implemented from: System.Text.Encoding

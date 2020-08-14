@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Offset: 0xA37CCC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA37CD4
     // Implemented from: System.ValueType

@@ -34,7 +34,7 @@ namespace NUnit::Framework {
     // Offset: 0x18F29B4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
-    static ResultStateException* New_ctor(::CsString* message);
+    static ResultStateException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x18F2A2C
     // Implemented from: System.Exception

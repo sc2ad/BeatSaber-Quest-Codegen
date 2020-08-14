@@ -47,10 +47,10 @@ namespace System::Text {
     // Offset: 0x12EFCB4
     // Implemented from: System.Runtime.Serialization.IObjectReference
     // Base method: System.Object IObjectReference::GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    ::CsObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
+    ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
     // Creating proxy method: System_Runtime_Serialization_IObjectReference_GetRealObject
     // Maps to method: GetRealObject
-    ::CsObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
+    ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x12EFD84
     // Implemented from: System.Runtime.Serialization.ISerializable

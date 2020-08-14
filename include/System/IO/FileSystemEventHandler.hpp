@@ -30,13 +30,13 @@ namespace System::IO {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xF61D70
-    static FileSystemEventHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static FileSystemEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.IO.FileSystemEventArgs e)
     // Offset: 0xF61D84
-    void Invoke(::CsObject* sender, System::IO::FileSystemEventArgs* e);
+    void Invoke(::Il2CppObject* sender, System::IO::FileSystemEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.IO.FileSystemEventArgs e, System.AsyncCallback callback, System.Object object)
     // Offset: 0xF62188
-    System::IAsyncResult* BeginInvoke(::CsObject* sender, System::IO::FileSystemEventArgs* e, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::IO::FileSystemEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xF621B8
     void EndInvoke(System::IAsyncResult* result);

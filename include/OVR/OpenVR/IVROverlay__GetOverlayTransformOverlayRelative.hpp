@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x151E588
-    static IVROverlay::_GetOverlayTransformOverlayRelative* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayTransformOverlayRelative* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.UInt64 ulOverlayHandleParent, OVR.OpenVR.HmdMatrix34_t pmatParentOverlayToOverlayTransform)
     // Offset: 0x151E59C
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint64_t& ulOverlayHandleParent, OVR::OpenVR::HmdMatrix34_t& pmatParentOverlayToOverlayTransform);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt64 ulOverlayHandleParent, OVR.OpenVR.HmdMatrix34_t pmatParentOverlayToOverlayTransform, System.AsyncCallback callback, System.Object object)
     // Offset: 0x151E834
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t& ulOverlayHandleParent, OVR::OpenVR::HmdMatrix34_t& pmatParentOverlayToOverlayTransform, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t& ulOverlayHandleParent, OVR::OpenVR::HmdMatrix34_t& pmatParentOverlayToOverlayTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.UInt64 ulOverlayHandleParent, OVR.OpenVR.HmdMatrix34_t pmatParentOverlayToOverlayTransform, System.IAsyncResult result)
     // Offset: 0x151E900
     OVR::OpenVR::EVROverlayError EndInvoke(uint64_t& ulOverlayHandleParent, OVR::OpenVR::HmdMatrix34_t& pmatParentOverlayToOverlayTransform, System::IAsyncResult* result);

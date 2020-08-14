@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15FB7EC
-    static IVRCompositor::_SetTrackingSpace* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_SetTrackingSpace* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.ETrackingUniverseOrigin eOrigin)
     // Offset: 0x15FB800
     void Invoke(Valve::VR::ETrackingUniverseOrigin eOrigin);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackingUniverseOrigin eOrigin, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15FBA6C
-    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eOrigin, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eOrigin, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x15FBAF8
     void EndInvoke(System::IAsyncResult* result);

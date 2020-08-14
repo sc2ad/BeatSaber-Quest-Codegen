@@ -30,13 +30,13 @@ namespace NUnit::Framework::Constraints {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1073430
-    static ValueFormatterFactory* New_ctor(::CsObject* object, System::IntPtr method);
+    static ValueFormatterFactory* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public NUnit.Framework.Constraints.ValueFormatter Invoke(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1073514
     NUnit::Framework::Constraints::ValueFormatter* Invoke(NUnit::Framework::Constraints::ValueFormatter* next);
     // public System.IAsyncResult BeginInvoke(NUnit.Framework.Constraints.ValueFormatter next, System.AsyncCallback callback, System.Object object)
     // Offset: 0x107A168
-    System::IAsyncResult* BeginInvoke(NUnit::Framework::Constraints::ValueFormatter* next, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(NUnit::Framework::Constraints::ValueFormatter* next, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public NUnit.Framework.Constraints.ValueFormatter EndInvoke(System.IAsyncResult result)
     // Offset: 0x107A18C
     NUnit::Framework::Constraints::ValueFormatter* EndInvoke(System::IAsyncResult* result);

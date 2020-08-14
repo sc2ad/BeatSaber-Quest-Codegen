@@ -73,13 +73,13 @@ namespace GlobalNamespace {
     float scale;
     // private System.String scaleLimitX
     // Offset: 0x70
-    ::CsString* scaleLimitX;
+    ::Il2CppString* scaleLimitX;
     // private System.String scaleLimitY
     // Offset: 0x78
-    ::CsString* scaleLimitY;
+    ::Il2CppString* scaleLimitY;
     // private System.String scaleRateText
     // Offset: 0x80
-    ::CsString* scaleRateText;
+    ::Il2CppString* scaleRateText;
     // private UnityEngine.CursorLockMode savedCursorLockState
     // Offset: 0x88
     UnityEngine::CursorLockMode savedCursorLockState;

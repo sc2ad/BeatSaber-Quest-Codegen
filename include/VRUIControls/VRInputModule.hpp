@@ -63,6 +63,15 @@ namespace VRUIControls {
     // private System.Boolean <useMouseForPressInput>k__BackingField
     // Offset: 0x60
     bool useMouseForPressInput;
+    // private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> _pointerData
+    // Offset: 0x68
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* pointerData;
+    // private System.Collections.Generic.List`1<UnityEngine.Component> _componentList
+    // Offset: 0x70
+    System::Collections::Generic::List_1<UnityEngine::Component*>* componentList;
+    // private readonly VRUIControls.MouseState _mouseState
+    // Offset: 0x78
+    VRUIControls::MouseState* mouseState;
     // static field const value: static public System.Int32 kMouseLeftId
     static constexpr const int kMouseLeftId = -1;
     // Get static field: static public System.Int32 kMouseLeftId
@@ -75,15 +84,6 @@ namespace VRUIControls {
     static float _get_kMinPressValue();
     // Set static field: static public System.Single kMinPressValue
     static void _set_kMinPressValue(float value);
-    // private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> _pointerData
-    // Offset: 0x68
-    System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* pointerData;
-    // private System.Collections.Generic.List`1<UnityEngine.Component> _componentList
-    // Offset: 0x70
-    System::Collections::Generic::List_1<UnityEngine::Component*>* componentList;
-    // private readonly VRUIControls.MouseState _mouseState
-    // Offset: 0x78
-    VRUIControls::MouseState* mouseState;
     // public System.Boolean get_useMouseForPressInput()
     // Offset: 0x192FBD8
     bool get_useMouseForPressInput();
@@ -129,7 +129,7 @@ namespace VRUIControls {
     // Offset: 0x1930EB8
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public override System.Void Process()
     // Offset: 0x193118C
     // Implemented from: UnityEngine.EventSystems.BaseInputModule

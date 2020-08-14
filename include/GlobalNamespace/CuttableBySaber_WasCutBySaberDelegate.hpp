@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBE2608
-    static CuttableBySaber::WasCutBySaberDelegate* New_ctor(::CsObject* object, System::IntPtr method);
+    static CuttableBySaber::WasCutBySaberDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     // Offset: 0xBE204C
     void Invoke(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.IAsyncResult BeginInvoke(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBE261C
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xBE2704
     void EndInvoke(System::IAsyncResult* result);

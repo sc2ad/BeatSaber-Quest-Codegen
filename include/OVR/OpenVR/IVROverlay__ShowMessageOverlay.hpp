@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16A0AD4
-    static IVROverlay::_ShowMessageOverlay* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_ShowMessageOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.VRMessageOverlayResponse Invoke(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text)
     // Offset: 0x16A0AE8
-    OVR::OpenVR::VRMessageOverlayResponse Invoke(::CsString* pchText, ::CsString* pchCaption, ::CsString* pchButton0Text, ::CsString* pchButton1Text, ::CsString* pchButton2Text, ::CsString* pchButton3Text);
+    OVR::OpenVR::VRMessageOverlayResponse Invoke(::Il2CppString* pchText, ::Il2CppString* pchCaption, ::Il2CppString* pchButton0Text, ::Il2CppString* pchButton1Text, ::Il2CppString* pchButton2Text, ::Il2CppString* pchButton3Text);
     // public System.IAsyncResult BeginInvoke(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16A0F60
-    System::IAsyncResult* BeginInvoke(::CsString* pchText, ::CsString* pchCaption, ::CsString* pchButton0Text, ::CsString* pchButton1Text, ::CsString* pchButton2Text, ::CsString* pchButton3Text, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchText, ::Il2CppString* pchCaption, ::Il2CppString* pchButton0Text, ::Il2CppString* pchButton1Text, ::Il2CppString* pchButton2Text, ::Il2CppString* pchButton3Text, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.VRMessageOverlayResponse EndInvoke(System.IAsyncResult result)
     // Offset: 0x16A0F9C
     OVR::OpenVR::VRMessageOverlayResponse EndInvoke(System::IAsyncResult* result);

@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     GlobalNamespace::HMAsyncRequest* GetUserAuthToken(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserNamesForUserIds(System.String[] userIds, PlatformUserModelSO/GetUserNamesForUserIdsCompletionHandler completionHandler)
     // Offset: 0xBCC508
-    GlobalNamespace::HMAsyncRequest* GetUserNamesForUserIds(::Array<::CsString*>* userIds, GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* completionHandler);
+    GlobalNamespace::HMAsyncRequest* GetUserNamesForUserIds(::Array<::Il2CppString*>* userIds, GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* completionHandler);
     // protected override System.Void OnEnable()
     // Offset: 0xBD5944
     // Implemented from: PersistentScriptableObject

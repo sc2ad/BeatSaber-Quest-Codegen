@@ -18,16 +18,16 @@ namespace System::Runtime::Remoting::Metadata {
     bool useAttribute;
     // private System.String _xmlElementName
     // Offset: 0x30
-    ::CsString* xmlElementName;
+    ::Il2CppString* xmlElementName;
     // private System.String _xmlNamespace
     // Offset: 0x38
-    ::CsString* xmlNamespace;
+    ::Il2CppString* xmlNamespace;
     // private System.String _xmlTypeName
     // Offset: 0x40
-    ::CsString* xmlTypeName;
+    ::Il2CppString* xmlTypeName;
     // private System.String _xmlTypeNamespace
     // Offset: 0x48
-    ::CsString* xmlTypeNamespace;
+    ::Il2CppString* xmlTypeNamespace;
     // private System.Boolean _isType
     // Offset: 0x50
     bool isType;
@@ -36,13 +36,13 @@ namespace System::Runtime::Remoting::Metadata {
     bool isElement;
     // public System.String get_XmlElementName()
     // Offset: 0xE100E4
-    ::CsString* get_XmlElementName();
+    ::Il2CppString* get_XmlElementName();
     // public System.String get_XmlTypeName()
     // Offset: 0xE100F4
-    ::CsString* get_XmlTypeName();
+    ::Il2CppString* get_XmlTypeName();
     // public System.String get_XmlTypeNamespace()
     // Offset: 0xE100FC
-    ::CsString* get_XmlTypeNamespace();
+    ::Il2CppString* get_XmlTypeNamespace();
     // System.Boolean get_IsInteropXmlElement()
     // Offset: 0xE10104
     bool get_IsInteropXmlElement();
@@ -65,12 +65,12 @@ namespace System::Runtime::Remoting::Metadata {
     // Offset: 0xE100EC
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.String SoapAttribute::get_XmlNamespace()
-    ::CsString* get_XmlNamespace();
+    ::Il2CppString* get_XmlNamespace();
     // override System.Void SetReflectionObject(System.Object reflectionObject)
     // Offset: 0xE10114
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::SetReflectionObject(System.Object reflectionObject)
-    void SetReflectionObject(::CsObject* reflectionObject);
+    void SetReflectionObject(::Il2CppObject* reflectionObject);
   }; // System.Runtime.Remoting.Metadata.SoapTypeAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

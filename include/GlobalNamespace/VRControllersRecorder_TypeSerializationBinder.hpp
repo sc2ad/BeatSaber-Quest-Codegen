@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0xC4EC4C
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
-    System::Type* BindToType(::CsString* assemblyName, ::CsString* typeName);
+    System::Type* BindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
     // public System.Void .ctor()
     // Offset: 0xC4E01C
     // Implemented from: System.Runtime.Serialization.SerializationBinder

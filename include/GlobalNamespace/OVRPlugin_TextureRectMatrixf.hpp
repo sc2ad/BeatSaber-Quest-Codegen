@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0xA37CAC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // OVRPlugin/TextureRectMatrixf
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

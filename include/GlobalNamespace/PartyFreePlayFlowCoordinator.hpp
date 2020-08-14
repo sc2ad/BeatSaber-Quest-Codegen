@@ -79,13 +79,13 @@ namespace GlobalNamespace {
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator*>* value);
     // private System.Boolean WillScoreGoToLeaderboard(LevelCompletionResults levelCompletionResults, System.String leaderboardId, System.Boolean practice)
     // Offset: 0xBD07E8
-    bool WillScoreGoToLeaderboard(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::CsString* leaderboardId, bool practice);
+    bool WillScoreGoToLeaderboard(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::Il2CppString* leaderboardId, bool practice);
     // private System.Boolean IsNewHighScore(LevelCompletionResults levelCompletionResults, System.String leaderboardId)
     // Offset: 0xBD083C
-    bool IsNewHighScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::CsString* leaderboardId);
+    bool IsNewHighScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::Il2CppString* leaderboardId);
     // private System.Void ProcessScore(LevelCompletionResults levelCompletionResults, System.String leaderboardId, System.String playerName)
     // Offset: 0xBD088C
-    void ProcessScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::CsString* leaderboardId, ::CsString* playerName);
+    void ProcessScore(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::Il2CppString* leaderboardId, ::Il2CppString* playerName);
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController resultsViewController)
     // Offset: 0xBD0920
     void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);

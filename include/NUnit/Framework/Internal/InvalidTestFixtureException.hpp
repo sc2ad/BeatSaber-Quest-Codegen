@@ -32,7 +32,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18E523C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
-    static InvalidTestFixtureException* New_ctor(::CsString* message);
+    static InvalidTestFixtureException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x18E52B4
     // Implemented from: System.Exception

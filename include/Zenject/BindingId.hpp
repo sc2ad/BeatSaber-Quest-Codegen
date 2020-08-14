@@ -17,8 +17,8 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: Zenject
 namespace Zenject {
@@ -30,12 +30,12 @@ namespace Zenject {
     System::Type* type;
     // private System.Object _identifier
     // Offset: 0x8
-    ::CsObject* identifier;
+    ::Il2CppObject* identifier;
     // Creating value type constructor for type: BindingId
-    BindingId(System::Type* type_ = {}, ::CsObject* identifier_ = {}) : type{type_}, identifier{identifier_} {}
+    BindingId(System::Type* type_ = {}, ::Il2CppObject* identifier_ = {}) : type{type_}, identifier{identifier_} {}
     // public System.Void .ctor(System.Type type, System.Object identifier)
     // Offset: 0xA2B178
-    static BindingId* New_ctor(System::Type* type, ::CsObject* identifier);
+    static BindingId* New_ctor(System::Type* type, ::Il2CppObject* identifier);
     // public System.Type get_Type()
     // Offset: 0xA2B1AC
     System::Type* get_Type();
@@ -44,15 +44,15 @@ namespace Zenject {
     void set_Type(System::Type* value);
     // public System.Object get_Identifier()
     // Offset: 0xA2B1BC
-    ::CsObject* get_Identifier();
+    ::Il2CppObject* get_Identifier();
     // public System.Void set_Identifier(System.Object value)
     // Offset: 0xA2B1C4
-    void set_Identifier(::CsObject* value);
+    void set_Identifier(::Il2CppObject* value);
     // public override System.String ToString()
     // Offset: 0xA2B1CC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0xA2B1D4
     // Implemented from: System.ValueType
@@ -62,7 +62,7 @@ namespace Zenject {
     // Offset: 0xA2B1DC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(Zenject.BindingId that)
     // Offset: 0xA2B1E4
     // Implemented from: System.IEquatable`1

@@ -15,13 +15,13 @@ namespace UnityEngine::Scripting {
     public:
     // private System.String <Name>k__BackingField
     // Offset: 0x10
-    ::CsString* Name;
+    ::Il2CppString* Name;
     // public System.Void .ctor(System.String name)
     // Offset: 0x196B090
-    static UsedByNativeCodeAttribute* New_ctor(::CsString* name);
+    static UsedByNativeCodeAttribute* New_ctor(::Il2CppString* name);
     // public System.Void set_Name(System.String value)
     // Offset: 0x196B0C4
-    void set_Name(::CsString* value);
+    void set_Name(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x196B088
     // Implemented from: System.Attribute

@@ -17,33 +17,33 @@ namespace UnityEngine::Analytics {
     public:
     // public System.String appid
     // Offset: 0x0
-    ::CsString* appid;
+    ::Il2CppString* appid;
     // public System.String userid
     // Offset: 0x8
-    ::CsString* userid;
+    ::Il2CppString* userid;
     // public System.Int64 sessionid
     // Offset: 0x10
     int64_t sessionid;
     // public System.String platform
     // Offset: 0x18
-    ::CsString* platform;
+    ::Il2CppString* platform;
     // public System.UInt32 platformid
     // Offset: 0x20
     uint platformid;
     // public System.String sdk_ver
     // Offset: 0x28
-    ::CsString* sdk_ver;
+    ::Il2CppString* sdk_ver;
     // public System.Boolean debug_device
     // Offset: 0x30
     bool debug_device;
     // public System.String deviceid
     // Offset: 0x38
-    ::CsString* deviceid;
+    ::Il2CppString* deviceid;
     // public System.String plugin_ver
     // Offset: 0x40
-    ::CsString* plugin_ver;
+    ::Il2CppString* plugin_ver;
     // Creating value type constructor for type: UserPostData
-    UserPostData(::CsString* appid_ = {}, ::CsString* userid_ = {}, int64_t sessionid_ = {}, ::CsString* platform_ = {}, uint platformid_ = {}, ::CsString* sdk_ver_ = {}, bool debug_device_ = {}, ::CsString* deviceid_ = {}, ::CsString* plugin_ver_ = {}) : appid{appid_}, userid{userid_}, sessionid{sessionid_}, platform{platform_}, platformid{platformid_}, sdk_ver{sdk_ver_}, debug_device{debug_device_}, deviceid{deviceid_}, plugin_ver{plugin_ver_} {}
+    UserPostData(::Il2CppString* appid_ = {}, ::Il2CppString* userid_ = {}, int64_t sessionid_ = {}, ::Il2CppString* platform_ = {}, uint platformid_ = {}, ::Il2CppString* sdk_ver_ = {}, bool debug_device_ = {}, ::Il2CppString* deviceid_ = {}, ::Il2CppString* plugin_ver_ = {}) : appid{appid_}, userid{userid_}, sessionid{sessionid_}, platform{platform_}, platformid{platformid_}, sdk_ver{sdk_ver_}, debug_device{debug_device_}, deviceid{deviceid_}, plugin_ver{plugin_ver_} {}
   }; // UnityEngine.Analytics.DataPrivacy/UserPostData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

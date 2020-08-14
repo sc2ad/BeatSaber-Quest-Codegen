@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     void Update();
     // public System.Void UpdateStageLockText(System.String text)
     // Offset: 0xC0AE68
-    void UpdateStageLockText(::CsString* text);
+    void UpdateStageLockText(::Il2CppString* text);
     // public System.Void .ctor()
     // Offset: 0xC0AE84
     // Implemented from: UnityEngine.MonoBehaviour

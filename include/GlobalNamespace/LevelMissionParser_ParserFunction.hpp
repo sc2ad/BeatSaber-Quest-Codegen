@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBF1B98
-    static LevelMissionParser::ParserFunction* New_ctor(::CsObject* object, System::IntPtr method);
+    static LevelMissionParser::ParserFunction* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Single[] functionParams, System.Int32 paramCount)
     // Offset: 0xBF1760
     bool Invoke(::Array<float>* functionParams, int paramCount);
     // public System.IAsyncResult BeginInvoke(System.Single[] functionParams, System.Int32 paramCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBF1BAC
-    System::IAsyncResult* BeginInvoke(::Array<float>* functionParams, int paramCount, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<float>* functionParams, int paramCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0xBF1C48
     bool EndInvoke(System::IAsyncResult* result);

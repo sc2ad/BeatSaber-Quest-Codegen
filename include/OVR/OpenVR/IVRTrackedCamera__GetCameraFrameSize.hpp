@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xCC0184
-    static IVRTrackedCamera::_GetCameraFrameSize* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRTrackedCamera::_GetCameraFrameSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, System.UInt32 pnWidth, System.UInt32 pnHeight, System.UInt32 pnFrameBufferSize)
     // Offset: 0xCC0198
     OVR::OpenVR::EVRTrackedCameraError Invoke(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint& pnWidth, uint& pnHeight, uint& pnFrameBufferSize);
     // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, System.UInt32 pnWidth, System.UInt32 pnHeight, System.UInt32 pnFrameBufferSize, System.AsyncCallback callback, System.Object object)
     // Offset: 0xCC047C
-    System::IAsyncResult* BeginInvoke(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint& pnWidth, uint& pnHeight, uint& pnFrameBufferSize, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint& pnWidth, uint& pnHeight, uint& pnFrameBufferSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRTrackedCameraError EndInvoke(System.UInt32 pnWidth, System.UInt32 pnHeight, System.UInt32 pnFrameBufferSize, System.IAsyncResult result)
     // Offset: 0xCC0580
     OVR::OpenVR::EVRTrackedCameraError EndInvoke(uint& pnWidth, uint& pnHeight, uint& pnFrameBufferSize, System::IAsyncResult* result);

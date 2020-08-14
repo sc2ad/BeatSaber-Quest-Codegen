@@ -35,9 +35,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String DllName
     static constexpr const char* DllName = "OVRGamepad";
     // Get static field: static private System.String DllName
-    static ::CsString* _get_DllName();
+    static ::Il2CppString* _get_DllName();
     // Set static field: static private System.String DllName
-    static void _set_DllName(::CsString* value);
+    static void _set_DllName(::Il2CppString* value);
     // static private System.Boolean OVR_GamepadController_Initialize()
     // Offset: 0xE717CC
     static bool OVR_GamepadController_Initialize();

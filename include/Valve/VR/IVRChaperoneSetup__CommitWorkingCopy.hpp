@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE4EF8
-    static IVRChaperoneSetup::_CommitWorkingCopy* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperoneSetup::_CommitWorkingCopy* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Valve.VR.EChaperoneConfigFile configFile)
     // Offset: 0xFDE188
     bool Invoke(Valve::VR::EChaperoneConfigFile configFile);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EChaperoneConfigFile configFile, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE4F0C
-    System::IAsyncResult* BeginInvoke(Valve::VR::EChaperoneConfigFile configFile, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::EChaperoneConfigFile configFile, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0xFE4F98
     bool EndInvoke(System::IAsyncResult* result);

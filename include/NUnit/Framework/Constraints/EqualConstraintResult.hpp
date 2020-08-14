@@ -46,7 +46,7 @@ namespace NUnit::Framework::Constraints {
     public:
     // private System.Object expectedValue
     // Offset: 0x28
-    ::CsObject* expectedValue;
+    ::Il2CppObject* expectedValue;
     // private NUnit.Framework.Constraints.Tolerance tolerance
     // Offset: 0x30
     NUnit::Framework::Constraints::Tolerance* tolerance;
@@ -60,46 +60,46 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x40
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* failurePoints;
     // Get static field: static private readonly System.String StringsDiffer_1
-    static ::CsString* _get_StringsDiffer_1();
+    static ::Il2CppString* _get_StringsDiffer_1();
     // Set static field: static private readonly System.String StringsDiffer_1
-    static void _set_StringsDiffer_1(::CsString* value);
+    static void _set_StringsDiffer_1(::Il2CppString* value);
     // Get static field: static private readonly System.String StringsDiffer_2
-    static ::CsString* _get_StringsDiffer_2();
+    static ::Il2CppString* _get_StringsDiffer_2();
     // Set static field: static private readonly System.String StringsDiffer_2
-    static void _set_StringsDiffer_2(::CsString* value);
+    static void _set_StringsDiffer_2(::Il2CppString* value);
     // Get static field: static private readonly System.String StreamsDiffer_1
-    static ::CsString* _get_StreamsDiffer_1();
+    static ::Il2CppString* _get_StreamsDiffer_1();
     // Set static field: static private readonly System.String StreamsDiffer_1
-    static void _set_StreamsDiffer_1(::CsString* value);
+    static void _set_StreamsDiffer_1(::Il2CppString* value);
     // Get static field: static private readonly System.String StreamsDiffer_2
-    static ::CsString* _get_StreamsDiffer_2();
+    static ::Il2CppString* _get_StreamsDiffer_2();
     // Set static field: static private readonly System.String StreamsDiffer_2
-    static void _set_StreamsDiffer_2(::CsString* value);
+    static void _set_StreamsDiffer_2(::Il2CppString* value);
     // Get static field: static private readonly System.String CollectionType_1
-    static ::CsString* _get_CollectionType_1();
+    static ::Il2CppString* _get_CollectionType_1();
     // Set static field: static private readonly System.String CollectionType_1
-    static void _set_CollectionType_1(::CsString* value);
+    static void _set_CollectionType_1(::Il2CppString* value);
     // Get static field: static private readonly System.String CollectionType_2
-    static ::CsString* _get_CollectionType_2();
+    static ::Il2CppString* _get_CollectionType_2();
     // Set static field: static private readonly System.String CollectionType_2
-    static void _set_CollectionType_2(::CsString* value);
+    static void _set_CollectionType_2(::Il2CppString* value);
     // Get static field: static private readonly System.String ValuesDiffer_1
-    static ::CsString* _get_ValuesDiffer_1();
+    static ::Il2CppString* _get_ValuesDiffer_1();
     // Set static field: static private readonly System.String ValuesDiffer_1
-    static void _set_ValuesDiffer_1(::CsString* value);
+    static void _set_ValuesDiffer_1(::Il2CppString* value);
     // Get static field: static private readonly System.String ValuesDiffer_2
-    static ::CsString* _get_ValuesDiffer_2();
+    static ::Il2CppString* _get_ValuesDiffer_2();
     // Set static field: static private readonly System.String ValuesDiffer_2
-    static void _set_ValuesDiffer_2(::CsString* value);
+    static void _set_ValuesDiffer_2(::Il2CppString* value);
     // public System.Void .ctor(NUnit.Framework.Constraints.EqualConstraint constraint, System.Object actual, System.Boolean hasSucceeded)
     // Offset: 0x1070908
-    static EqualConstraintResult* New_ctor(NUnit::Framework::Constraints::EqualConstraint* constraint, ::CsObject* actual, bool hasSucceeded);
+    static EqualConstraintResult* New_ctor(NUnit::Framework::Constraints::EqualConstraint* constraint, ::Il2CppObject* actual, bool hasSucceeded);
     // private System.Void DisplayDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Object expected, System.Object actual, System.Int32 depth)
     // Offset: 0x1070D00
-    void DisplayDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::CsObject* expected, ::CsObject* actual, int depth);
+    void DisplayDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::Il2CppObject* expected, ::Il2CppObject* actual, int depth);
     // private System.Void DisplayStringDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.String expected, System.String actual)
     // Offset: 0x1070FE4
-    void DisplayStringDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::CsString* expected, ::CsString* actual);
+    void DisplayStringDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::Il2CppString* expected, ::Il2CppString* actual);
     // private System.Void DisplayStreamDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.IO.Stream expected, System.IO.Stream actual, System.Int32 depth)
     // Offset: 0x107171C
     void DisplayStreamDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::IO::Stream* expected, System::IO::Stream* actual, int depth);

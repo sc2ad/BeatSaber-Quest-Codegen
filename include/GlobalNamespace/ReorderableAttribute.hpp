@@ -15,7 +15,7 @@ namespace GlobalNamespace {
     public:
     // private System.String <ElementHeader>k__BackingField
     // Offset: 0x10
-    ::CsString* ElementHeader;
+    ::Il2CppString* ElementHeader;
     // private System.Boolean <HeaderZeroIndex>k__BackingField
     // Offset: 0x18
     bool HeaderZeroIndex;
@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     bool ElementSingleLine;
     // public System.String get_ElementHeader()
     // Offset: 0xCB8424
-    ::CsString* get_ElementHeader();
+    ::Il2CppString* get_ElementHeader();
     // protected System.Void set_ElementHeader(System.String value)
     // Offset: 0xCB842C
-    void set_ElementHeader(::CsString* value);
+    void set_ElementHeader(::Il2CppString* value);
     // public System.Boolean get_HeaderZeroIndex()
     // Offset: 0xCB8434
     bool get_HeaderZeroIndex();
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     void set_ElementSingleLine(bool value);
     // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
     // Offset: 0xCB84CC
-    static ReorderableAttribute* New_ctor(::CsString* headerString, bool isZeroIndex, bool isSingleLine);
+    static ReorderableAttribute* New_ctor(::Il2CppString* headerString, bool isZeroIndex, bool isSingleLine);
     // public System.Void .ctor()
     // Offset: 0xCB845C
     // Implemented from: UnityEngine.PropertyAttribute

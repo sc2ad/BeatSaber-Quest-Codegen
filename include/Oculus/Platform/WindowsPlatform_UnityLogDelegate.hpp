@@ -27,13 +27,13 @@ namespace Oculus::Platform {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1964360
-    static WindowsPlatform::UnityLogDelegate* New_ctor(::CsObject* object, System::IntPtr method);
+    static WindowsPlatform::UnityLogDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr tag, System.IntPtr msg)
     // Offset: 0x1964374
     void Invoke(System::IntPtr tag, System::IntPtr msg);
     // public System.IAsyncResult BeginInvoke(System.IntPtr tag, System.IntPtr msg, System.AsyncCallback callback, System.Object object)
     // Offset: 0x19645F0
-    System::IAsyncResult* BeginInvoke(System::IntPtr tag, System::IntPtr msg, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::IntPtr tag, System::IntPtr msg, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1964690
     void EndInvoke(System::IAsyncResult* result);

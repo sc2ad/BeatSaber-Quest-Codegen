@@ -41,12 +41,6 @@ namespace UnityEngine::EventSystems {
     public:
     // Nested type: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer
     class RaycastHitComparer;
-    // static field const value: static protected System.Int32 kNoEventMaskSet
-    static constexpr const int kNoEventMaskSet = -1;
-    // Get static field: static protected System.Int32 kNoEventMaskSet
-    static int _get_kNoEventMaskSet();
-    // Set static field: static protected System.Int32 kNoEventMaskSet
-    static void _set_kNoEventMaskSet(int value);
     // protected UnityEngine.Camera m_EventCamera
     // Offset: 0x20
     UnityEngine::Camera* m_EventCamera;
@@ -62,6 +56,12 @@ namespace UnityEngine::EventSystems {
     // private UnityEngine.RaycastHit[] m_Hits
     // Offset: 0x38
     ::Array<UnityEngine::RaycastHit>* m_Hits;
+    // static field const value: static protected System.Int32 kNoEventMaskSet
+    static constexpr const int kNoEventMaskSet = -1;
+    // Get static field: static protected System.Int32 kNoEventMaskSet
+    static int _get_kNoEventMaskSet();
+    // Set static field: static protected System.Int32 kNoEventMaskSet
+    static void _set_kNoEventMaskSet(int value);
     // public System.Int32 get_depth()
     // Offset: 0xDFAB1C
     int get_depth();

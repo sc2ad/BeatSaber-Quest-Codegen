@@ -37,7 +37,7 @@ namespace HMUI {
     public:
     // private System.String _text
     // Offset: 0x18
-    ::CsString* text;
+    ::Il2CppString* text;
     // private UnityEngine.Vector3[] _worldCornersTemp
     // Offset: 0x20
     ::Array<UnityEngine::Vector3>* worldCornersTemp;
@@ -46,10 +46,10 @@ namespace HMUI {
     HMUI::HoverHintController* hoverHintController;
     // public System.String get_text()
     // Offset: 0xEDE22C
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0xEDE234
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // public UnityEngine.Vector2 get_size()
     // Offset: 0xEDE23C
     UnityEngine::Vector2 get_size();

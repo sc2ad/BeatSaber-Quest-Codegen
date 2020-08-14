@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x151B568
-    static IVROverlay::_GetOverlayInputMethod* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayInputMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayInputMethod peInputMethod)
     // Offset: 0x151B57C
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayInputMethod& peInputMethod);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayInputMethod peInputMethod, System.AsyncCallback callback, System.Object object)
     // Offset: 0x151B800
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayInputMethod& peInputMethod, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayInputMethod& peInputMethod, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(OVR.OpenVR.VROverlayInputMethod peInputMethod, System.IAsyncResult result)
     // Offset: 0x151B8B0
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::VROverlayInputMethod& peInputMethod, System::IAsyncResult* result);

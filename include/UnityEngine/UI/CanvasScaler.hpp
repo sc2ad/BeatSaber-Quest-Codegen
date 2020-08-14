@@ -147,12 +147,6 @@ namespace UnityEngine::UI {
     // protected System.Single m_MatchWidthOrHeight
     // Offset: 0x30
     float m_MatchWidthOrHeight;
-    // static field const value: static private System.Single kLogBase
-    static constexpr const float kLogBase = 2;
-    // Get static field: static private System.Single kLogBase
-    static float _get_kLogBase();
-    // Set static field: static private System.Single kLogBase
-    static void _set_kLogBase(float value);
     // protected UnityEngine.UI.CanvasScaler/Unit m_PhysicalUnit
     // Offset: 0x34
     UnityEngine::UI::CanvasScaler::Unit m_PhysicalUnit;
@@ -174,6 +168,12 @@ namespace UnityEngine::UI {
     // private System.Single m_PrevReferencePixelsPerUnit
     // Offset: 0x54
     float m_PrevReferencePixelsPerUnit;
+    // static field const value: static private System.Single kLogBase
+    static constexpr const float kLogBase = 2;
+    // Get static field: static private System.Single kLogBase
+    static float _get_kLogBase();
+    // Set static field: static private System.Single kLogBase
+    static void _set_kLogBase(float value);
     // public UnityEngine.UI.CanvasScaler/ScaleMode get_uiScaleMode()
     // Offset: 0xE019F4
     UnityEngine::UI::CanvasScaler::ScaleMode get_uiScaleMode();

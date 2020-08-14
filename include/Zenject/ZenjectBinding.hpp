@@ -67,7 +67,7 @@ namespace Zenject {
     ::Array<UnityEngine::Component*>* components;
     // private System.String _identifier
     // Offset: 0x20
-    ::CsString* identifier;
+    ::Il2CppString* identifier;
     // private System.Boolean _useSceneContext
     // Offset: 0x28
     bool useSceneContext;
@@ -97,7 +97,7 @@ namespace Zenject {
     ::Array<UnityEngine::Component*>* get_Components();
     // public System.String get_Identifier()
     // Offset: 0x193B538
-    ::CsString* get_Identifier();
+    ::Il2CppString* get_Identifier();
     // public Zenject.ZenjectBinding/BindTypes get_BindType()
     // Offset: 0x193B540
     Zenject::ZenjectBinding::BindTypes get_BindType();

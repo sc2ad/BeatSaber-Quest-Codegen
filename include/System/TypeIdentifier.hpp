@@ -10,7 +10,7 @@
 #include "System/IEquatable_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -19,7 +19,7 @@ namespace System {
     public:
     // public System.String get_InternalName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_InternalName();
+    ::Il2CppString* get_InternalName();
   }; // System.TypeIdentifier
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

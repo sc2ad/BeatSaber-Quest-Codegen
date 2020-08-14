@@ -37,7 +37,7 @@ namespace System::Reflection {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -93,7 +93,7 @@ namespace System {
     static bool IsComObject(System::RuntimeType* type);
     // static System.Boolean IsInstanceOfType(System.RuntimeType type, System.Object o)
     // Offset: 0xDDA8EC
-    static bool IsInstanceOfType(System::RuntimeType* type, ::CsObject* o);
+    static bool IsInstanceOfType(System::RuntimeType* type, ::Il2CppObject* o);
     // static System.Boolean IsPointer(System.RuntimeType type)
     // Offset: 0xDDACF0
     static bool IsPointer(System::RuntimeType* type);
@@ -160,7 +160,7 @@ namespace System {
     // Offset: 0xA2DC08
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA2DC10
     // Implemented from: System.ValueType

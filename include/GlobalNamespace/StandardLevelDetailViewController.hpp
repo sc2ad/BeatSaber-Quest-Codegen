@@ -140,18 +140,6 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: ContentType
       ContentType(int value_ = {}) : value{value_} {}
     }; // StandardLevelDetailViewController/ContentType
-    // static field const value: static private System.String kLoadingDataErrorNoInternetLocalizationKey
-    static constexpr const char* kLoadingDataErrorNoInternetLocalizationKey = "ERROR_LOADING_DATA_NO_INTERNET_MESSAGE";
-    // Get static field: static private System.String kLoadingDataErrorNoInternetLocalizationKey
-    static ::CsString* _get_kLoadingDataErrorNoInternetLocalizationKey();
-    // Set static field: static private System.String kLoadingDataErrorNoInternetLocalizationKey
-    static void _set_kLoadingDataErrorNoInternetLocalizationKey(::CsString* value);
-    // static field const value: static private System.String kLoadingDataErrorLocalizationKey
-    static constexpr const char* kLoadingDataErrorLocalizationKey = "ERROR_LOADING_DATA";
-    // Get static field: static private System.String kLoadingDataErrorLocalizationKey
-    static ::CsString* _get_kLoadingDataErrorLocalizationKey();
-    // Set static field: static private System.String kLoadingDataErrorLocalizationKey
-    static void _set_kLoadingDataErrorLocalizationKey(::CsString* value);
     // private StandardLevelDetailView _standardLevelDetailView
     // Offset: 0x68
     GlobalNamespace::StandardLevelDetailView* standardLevelDetailView;
@@ -218,6 +206,18 @@ namespace GlobalNamespace {
     // private System.Threading.CancellationTokenSource _loadingLevelCancellationTokenSource
     // Offset: 0x108
     System::Threading::CancellationTokenSource* loadingLevelCancellationTokenSource;
+    // static field const value: static private System.String kLoadingDataErrorNoInternetLocalizationKey
+    static constexpr const char* kLoadingDataErrorNoInternetLocalizationKey = "ERROR_LOADING_DATA_NO_INTERNET_MESSAGE";
+    // Get static field: static private System.String kLoadingDataErrorNoInternetLocalizationKey
+    static ::Il2CppString* _get_kLoadingDataErrorNoInternetLocalizationKey();
+    // Set static field: static private System.String kLoadingDataErrorNoInternetLocalizationKey
+    static void _set_kLoadingDataErrorNoInternetLocalizationKey(::Il2CppString* value);
+    // static field const value: static private System.String kLoadingDataErrorLocalizationKey
+    static constexpr const char* kLoadingDataErrorLocalizationKey = "ERROR_LOADING_DATA";
+    // Get static field: static private System.String kLoadingDataErrorLocalizationKey
+    static ::Il2CppString* _get_kLoadingDataErrorLocalizationKey();
+    // Set static field: static private System.String kLoadingDataErrorLocalizationKey
+    static void _set_kLoadingDataErrorLocalizationKey(::Il2CppString* value);
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<StandardLevelDetailViewController> value)
     // Offset: 0xB9CB30
     void add_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>* value);
@@ -295,7 +295,7 @@ namespace GlobalNamespace {
     void RefreshAvailabilityAsync();
     // private System.Void ShowContent(StandardLevelDetailViewController/ContentType contentType, System.String errorText, System.Single downloadingProgress, System.String downloadingText)
     // Offset: 0xB9DDF4
-    void ShowContent(GlobalNamespace::StandardLevelDetailViewController::ContentType contentType, ::CsString* errorText, float downloadingProgress, ::CsString* downloadingText);
+    void ShowContent(GlobalNamespace::StandardLevelDetailViewController::ContentType contentType, ::Il2CppString* errorText, float downloadingProgress, ::Il2CppString* downloadingText);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
     // Offset: 0xB9E354
     void HandleAdditionalContentModelDidInvalidateData();

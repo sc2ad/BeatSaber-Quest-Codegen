@@ -15,13 +15,13 @@ namespace System::Runtime::CompilerServices {
     public:
     // private System.String assemblyFullName
     // Offset: 0x10
-    ::CsString* assemblyFullName;
+    ::Il2CppString* assemblyFullName;
     // public System.Void .ctor(System.String assemblyFullName)
     // Offset: 0x1161EAC
-    static TypeForwardedFromAttribute* New_ctor(::CsString* assemblyFullName);
+    static TypeForwardedFromAttribute* New_ctor(::Il2CppString* assemblyFullName);
     // public System.String get_AssemblyFullName()
     // Offset: 0x1161F5C
-    ::CsString* get_AssemblyFullName();
+    ::Il2CppString* get_AssemblyFullName();
   }; // System.Runtime.CompilerServices.TypeForwardedFromAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

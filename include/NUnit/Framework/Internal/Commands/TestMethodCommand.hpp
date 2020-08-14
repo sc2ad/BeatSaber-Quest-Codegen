@@ -29,16 +29,16 @@ namespace NUnit::Framework::Internal::Commands {
     NUnit::Framework::Internal::TestMethod* testMethod;
     // private readonly System.Object[] arguments
     // Offset: 0x20
-    ::Array<::CsObject*>* arguments;
+    ::Array<::Il2CppObject*>* arguments;
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0x1083470
     static TestMethodCommand* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod);
     // private System.Object RunTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0x1083674
-    ::CsObject* RunTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
+    ::Il2CppObject* RunTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Object RunNonAsyncTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0x1083678
-    ::CsObject* RunNonAsyncTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
+    ::Il2CppObject* RunNonAsyncTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0x10834D8
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand

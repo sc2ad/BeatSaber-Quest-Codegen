@@ -102,7 +102,7 @@ namespace RootMotion::FinalIK {
     void SetToDefaults();
     // public System.Void LogWarning(System.String message)
     // Offset: 0x13A5EFC
-    void LogWarning(::CsString* message);
+    void LogWarning(::Il2CppString* message);
     // protected override System.Void FixTransforms()
     // Offset: 0x13A5624
     // Implemented from: RootMotion.SolverManager

@@ -25,7 +25,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static InvalidSignatureException* New_ctor(::CsString* message);
+    static InvalidSignatureException* New_ctor(::Il2CppString* message);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0xE43574
     // Implemented from: NUnit.Framework.ResultStateException

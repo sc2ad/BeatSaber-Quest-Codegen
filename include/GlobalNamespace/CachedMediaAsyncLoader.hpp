@@ -59,10 +59,10 @@ namespace GlobalNamespace {
     int maxNumberImageCachedElements;
     // private AsyncCachedLoader`2<System.String,UnityEngine.AudioClip> _audioCachedAsyncLoader
     // Offset: 0x20
-    GlobalNamespace::AsyncCachedLoader_2<::CsString*, UnityEngine::AudioClip*>* audioCachedAsyncLoader;
+    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::AudioClip*>* audioCachedAsyncLoader;
     // private AsyncCachedLoader`2<System.String,UnityEngine.Texture2D> _texture2DCachedAsyncLoader
     // Offset: 0x28
-    GlobalNamespace::AsyncCachedLoader_2<::CsString*, UnityEngine::Texture2D*>* texture2DCachedAsyncLoader;
+    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Texture2D*>* texture2DCachedAsyncLoader;
     // public System.Void ClearCache()
     // Offset: 0x194C294
     void ClearCache();
@@ -70,12 +70,12 @@ namespace GlobalNamespace {
     // Offset: 0x194C30C
     // Implemented from: IAudioClipAsyncLoader
     // Base method: System.Threading.Tasks.Task`1<UnityEngine.AudioClip> IAudioClipAsyncLoader::LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::CsString* path, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadImageAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x194C470
     // Implemented from: IImageAsyncLoader
     // Base method: System.Threading.Tasks.Task`1<UnityEngine.Texture2D> IImageAsyncLoader::LoadImageAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadImageAsync(::CsString* path, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadImageAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
     // Offset: 0x194C5D4
     // Implemented from: UnityEngine.MonoBehaviour

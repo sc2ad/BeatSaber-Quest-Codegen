@@ -27,13 +27,13 @@ namespace System::Xml {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x11A3428
-    static XmlQualifiedName::HashCodeOfStringDelegate* New_ctor(::CsObject* object, System::IntPtr method);
+    static XmlQualifiedName::HashCodeOfStringDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy)
     // Offset: 0x11A2D68
-    int Invoke(::CsString* s, int sLen, int64_t additionalEntropy);
+    int Invoke(::Il2CppString* s, int sLen, int64_t additionalEntropy);
     // public System.IAsyncResult BeginInvoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy, System.AsyncCallback callback, System.Object object)
     // Offset: 0x11A34F0
-    System::IAsyncResult* BeginInvoke(::CsString* s, int sLen, int64_t additionalEntropy, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* s, int sLen, int64_t additionalEntropy, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
     // Offset: 0x11A35A8
     int EndInvoke(System::IAsyncResult* result);

@@ -84,24 +84,6 @@ namespace GlobalNamespace {
     // private System.Boolean <handleWrongSaberTypeAsGood>k__BackingField
     // Offset: 0x70
     bool handleWrongSaberTypeAsGood;
-    // static field const value: static private System.Int32 kMaxNumberOfEffects
-    static constexpr const int kMaxNumberOfEffects = 64;
-    // Get static field: static private System.Int32 kMaxNumberOfEffects
-    static int _get_kMaxNumberOfEffects();
-    // Set static field: static private System.Int32 kMaxNumberOfEffects
-    static void _set_kMaxNumberOfEffects(int value);
-    // static field const value: static private System.Single kTwoNotesAtTheSameTimeVolumeMul
-    static constexpr const float kTwoNotesAtTheSameTimeVolumeMul = 0.9;
-    // Get static field: static private System.Single kTwoNotesAtTheSameTimeVolumeMul
-    static float _get_kTwoNotesAtTheSameTimeVolumeMul();
-    // Set static field: static private System.Single kTwoNotesAtTheSameTimeVolumeMul
-    static void _set_kTwoNotesAtTheSameTimeVolumeMul(float value);
-    // static field const value: static private System.Single kDenseNotesVolumeMul
-    static constexpr const float kDenseNotesVolumeMul = 0.9;
-    // Get static field: static private System.Single kDenseNotesVolumeMul
-    static float _get_kDenseNotesVolumeMul();
-    // Set static field: static private System.Single kDenseNotesVolumeMul
-    static void _set_kDenseNotesVolumeMul(float value);
     // private BeatmapObjectCallbackController/BeatmapObjectCallbackData _beatmapObjectCallbackData
     // Offset: 0x78
     GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* beatmapObjectCallbackData;
@@ -129,6 +111,24 @@ namespace GlobalNamespace {
     // private System.Boolean _useTestAudioClips
     // Offset: 0xAC
     bool useTestAudioClips;
+    // static field const value: static private System.Int32 kMaxNumberOfEffects
+    static constexpr const int kMaxNumberOfEffects = 64;
+    // Get static field: static private System.Int32 kMaxNumberOfEffects
+    static int _get_kMaxNumberOfEffects();
+    // Set static field: static private System.Int32 kMaxNumberOfEffects
+    static void _set_kMaxNumberOfEffects(int value);
+    // static field const value: static private System.Single kTwoNotesAtTheSameTimeVolumeMul
+    static constexpr const float kTwoNotesAtTheSameTimeVolumeMul = 0.9;
+    // Get static field: static private System.Single kTwoNotesAtTheSameTimeVolumeMul
+    static float _get_kTwoNotesAtTheSameTimeVolumeMul();
+    // Set static field: static private System.Single kTwoNotesAtTheSameTimeVolumeMul
+    static void _set_kTwoNotesAtTheSameTimeVolumeMul(float value);
+    // static field const value: static private System.Single kDenseNotesVolumeMul
+    static constexpr const float kDenseNotesVolumeMul = 0.9;
+    // Get static field: static private System.Single kDenseNotesVolumeMul
+    static float _get_kDenseNotesVolumeMul();
+    // Set static field: static private System.Single kDenseNotesVolumeMul
+    static void _set_kDenseNotesVolumeMul(float value);
     // public System.Boolean get_handleWrongSaberTypeAsGood()
     // Offset: 0xC14268
     bool get_handleWrongSaberTypeAsGood();

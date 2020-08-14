@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16AD70C
-    static IVRSystem::_ApplyTransform* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_ApplyTransform* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.TrackedDevicePose_t pOutputPose, OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, OVR.OpenVR.HmdMatrix34_t pTransform)
     // Offset: 0x16AD720
     void Invoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, OVR::OpenVR::HmdMatrix34_t& pTransform);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.TrackedDevicePose_t pOutputPose, OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, OVR.OpenVR.HmdMatrix34_t pTransform, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16AD9A4
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, OVR::OpenVR::HmdMatrix34_t& pTransform, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, OVR::OpenVR::HmdMatrix34_t& pTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(OVR.OpenVR.TrackedDevicePose_t pOutputPose, OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, OVR.OpenVR.HmdMatrix34_t pTransform, System.IAsyncResult result)
     // Offset: 0x16ADA78
     void EndInvoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, OVR::OpenVR::HmdMatrix34_t& pTransform, System::IAsyncResult* result);

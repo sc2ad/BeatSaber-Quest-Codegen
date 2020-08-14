@@ -26,10 +26,10 @@ namespace System::Runtime::InteropServices {
     public:
     // public System.String MarshalCookie
     // Offset: 0x10
-    ::CsString* MarshalCookie;
+    ::Il2CppString* MarshalCookie;
     // public System.String MarshalType
     // Offset: 0x18
-    ::CsString* MarshalType;
+    ::Il2CppString* MarshalType;
     // public System.Type MarshalTypeRef
     // Offset: 0x20
     System::Type* MarshalTypeRef;

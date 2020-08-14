@@ -25,7 +25,7 @@ namespace NUnit::Framework::Internal {
     System::Reflection::Assembly* Assembly;
     // public System.Void .ctor(System.Reflection.Assembly assembly, System.String path)
     // Offset: 0x18E941C
-    static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::CsString* path);
+    static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::Il2CppString* path);
     // public System.Reflection.Assembly get_Assembly()
     // Offset: 0x18E961C
     System::Reflection::Assembly* get_Assembly();
@@ -37,12 +37,12 @@ namespace NUnit::Framework::Internal {
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(System.String path)
     // Base method: System.Void Test::.ctor(System.String path)
-    static TestAssembly* New_ctor(::CsString* path);
+    static TestAssembly* New_ctor(::Il2CppString* path);
     // public override System.String get_TestType()
     // Offset: 0x18E962C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
-    ::CsString* get_TestType();
+    ::Il2CppString* get_TestType();
   }; // NUnit.Framework.Internal.TestAssembly
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

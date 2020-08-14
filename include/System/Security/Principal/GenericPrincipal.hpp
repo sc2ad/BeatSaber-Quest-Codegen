@@ -25,10 +25,10 @@ namespace System::Security::Principal {
     System::Security::Principal::IIdentity* m_identity;
     // private System.String[] m_roles
     // Offset: 0x30
-    ::Array<::CsString*>* m_roles;
+    ::Array<::Il2CppString*>* m_roles;
     // public System.Void .ctor(System.Security.Principal.IIdentity identity, System.String[] roles)
     // Offset: 0xDE96A0
-    static GenericPrincipal* New_ctor(System::Security::Principal::IIdentity* identity, ::Array<::CsString*>* roles);
+    static GenericPrincipal* New_ctor(System::Security::Principal::IIdentity* identity, ::Array<::Il2CppString*>* roles);
   }; // System.Security.Principal.GenericPrincipal
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

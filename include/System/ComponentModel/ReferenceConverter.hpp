@@ -14,9 +14,9 @@ namespace System::ComponentModel {
   class ReferenceConverter : public System::ComponentModel::TypeConverter {
     public:
     // Get static field: static private readonly System.String none
-    static ::CsString* _get_none();
+    static ::Il2CppString* _get_none();
     // Set static field: static private readonly System.String none
-    static void _set_none(::CsString* value);
+    static void _set_none(::Il2CppString* value);
     // static private System.Void .cctor()
     // Offset: 0xF580BC
     static void _cctor();

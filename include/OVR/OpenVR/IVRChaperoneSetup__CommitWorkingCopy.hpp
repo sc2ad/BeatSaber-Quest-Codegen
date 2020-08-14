@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED0AC4
-    static IVRChaperoneSetup::_CommitWorkingCopy* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperoneSetup::_CommitWorkingCopy* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(OVR.OpenVR.EChaperoneConfigFile configFile)
     // Offset: 0xEC6B70
     bool Invoke(OVR::OpenVR::EChaperoneConfigFile configFile);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EChaperoneConfigFile configFile, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED0AD8
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EChaperoneConfigFile configFile, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EChaperoneConfigFile configFile, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0xED0B64
     bool EndInvoke(System::IAsyncResult* result);

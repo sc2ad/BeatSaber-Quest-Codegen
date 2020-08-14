@@ -34,13 +34,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C5E10
-    static IVRSystem::_ApplyTransform* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_ApplyTransform* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.TrackedDevicePose_t pOutputPose, Valve.VR.TrackedDevicePose_t pTrackedDevicePose, Valve.VR.HmdMatrix34_t pTransform)
     // Offset: 0x16C5E24
     void Invoke(Valve::VR::TrackedDevicePose_t& pOutputPose, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, Valve::VR::HmdMatrix34_t& pTransform);
     // public System.IAsyncResult BeginInvoke(Valve.VR.TrackedDevicePose_t pOutputPose, Valve.VR.TrackedDevicePose_t pTrackedDevicePose, Valve.VR.HmdMatrix34_t pTransform, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16C60A8
-    System::IAsyncResult* BeginInvoke(Valve::VR::TrackedDevicePose_t& pOutputPose, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, Valve::VR::HmdMatrix34_t& pTransform, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::TrackedDevicePose_t& pOutputPose, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, Valve::VR::HmdMatrix34_t& pTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(Valve.VR.TrackedDevicePose_t pOutputPose, Valve.VR.TrackedDevicePose_t pTrackedDevicePose, Valve.VR.HmdMatrix34_t pTransform, System.IAsyncResult result)
     // Offset: 0x16C617C
     void EndInvoke(Valve::VR::TrackedDevicePose_t& pOutputPose, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, Valve::VR::HmdMatrix34_t& pTransform, System::IAsyncResult* result);

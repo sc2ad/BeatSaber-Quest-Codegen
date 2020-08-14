@@ -15,16 +15,16 @@ namespace System {
     public:
     // private System.Object _Exception
     // Offset: 0x10
-    ::CsObject* Exception;
+    ::Il2CppObject* Exception;
     // private System.Boolean _IsTerminating
     // Offset: 0x18
     bool IsTerminating;
     // public System.Void .ctor(System.Object exception, System.Boolean isTerminating)
     // Offset: 0x1795BB0
-    static UnhandledExceptionEventArgs* New_ctor(::CsObject* exception, bool isTerminating);
+    static UnhandledExceptionEventArgs* New_ctor(::Il2CppObject* exception, bool isTerminating);
     // public System.Object get_ExceptionObject()
     // Offset: 0x1795C44
-    ::CsObject* get_ExceptionObject();
+    ::Il2CppObject* get_ExceptionObject();
     // public System.Boolean get_IsTerminating()
     // Offset: 0x1795C4C
     bool get_IsTerminating();

@@ -34,13 +34,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1605578
-    static IVROverlay::_GetOverlayTextureColorSpace* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayTextureColorSpace* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.EColorSpace peTextureColorSpace)
     // Offset: 0x160558C
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::EColorSpace& peTextureColorSpace);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.EColorSpace peTextureColorSpace, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1605810
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::EColorSpace& peTextureColorSpace, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::EColorSpace& peTextureColorSpace, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(Valve.VR.EColorSpace peTextureColorSpace, System.IAsyncResult result)
     // Offset: 0x16058C0
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::EColorSpace& peTextureColorSpace, System::IAsyncResult* result);

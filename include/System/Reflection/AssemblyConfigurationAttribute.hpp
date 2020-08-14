@@ -15,10 +15,10 @@ namespace System::Reflection {
     public:
     // private System.String m_configuration
     // Offset: 0x10
-    ::CsString* m_configuration;
+    ::Il2CppString* m_configuration;
     // public System.Void .ctor(System.String configuration)
     // Offset: 0x135F530
-    static AssemblyConfigurationAttribute* New_ctor(::CsString* configuration);
+    static AssemblyConfigurationAttribute* New_ctor(::Il2CppString* configuration);
   }; // System.Reflection.AssemblyConfigurationAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -17,8 +17,8 @@ namespace NUnit::Framework::Constraints {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
@@ -27,13 +27,13 @@ namespace NUnit::Framework::Constraints {
     public:
     // public System.String get_Description()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Description();
+    ::Il2CppString* get_Description();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
     // Offset: 0xFFFFFFFF
     void set_Builder(NUnit::Framework::Constraints::ConstraintBuilder* value);
     // public NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::CsObject* actual);
+    NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
   }; // NUnit.Framework.Constraints.IConstraint
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

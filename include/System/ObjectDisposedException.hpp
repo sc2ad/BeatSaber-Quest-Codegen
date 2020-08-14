@@ -24,13 +24,13 @@ namespace System {
     public:
     // private System.String objectName
     // Offset: 0x88
-    ::CsString* objectName;
+    ::Il2CppString* objectName;
     // public System.Void .ctor(System.String objectName, System.String message)
     // Offset: 0x1359A80
-    static ObjectDisposedException* New_ctor(::CsString* objectName, ::CsString* message);
+    static ObjectDisposedException* New_ctor(::Il2CppString* objectName, ::Il2CppString* message);
     // public System.String get_ObjectName()
     // Offset: 0x1359C58
-    ::CsString* get_ObjectName();
+    ::Il2CppString* get_ObjectName();
     // private System.Void .ctor()
     // Offset: 0x1359A20
     // Implemented from: System.InvalidOperationException
@@ -45,12 +45,12 @@ namespace System {
     // Base method: System.Void InvalidOperationException::.ctor(System.String objectName)
     // Base method: System.Void SystemException::.ctor(System.String objectName)
     // Base method: System.Void Exception::.ctor(System.String objectName)
-    static ObjectDisposedException* New_ctor(::CsString* objectName);
+    static ObjectDisposedException* New_ctor(::Il2CppString* objectName);
     // public override System.String get_Message()
     // Offset: 0x1359B38
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1359CD4
     // Implemented from: System.InvalidOperationException

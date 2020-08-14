@@ -15,7 +15,7 @@ namespace RootMotion {
     public:
     // public System.String text
     // Offset: 0x18
-    ::CsString* text;
+    ::Il2CppString* text;
     // public System.Void .ctor()
     // Offset: 0x13A23A0
     // Implemented from: UnityEngine.MonoBehaviour

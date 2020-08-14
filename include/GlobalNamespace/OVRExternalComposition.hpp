@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     ::Array<float>* cachedAudioDataArray;
     // private readonly System.Object audioDataLock
     // Offset: 0x90
-    ::CsObject* audioDataLock;
+    ::Il2CppObject* audioDataLock;
     // private System.Collections.Generic.List`1<System.Single> cachedAudioData
     // Offset: 0x98
     System::Collections::Generic::List_1<float>* cachedAudioData;

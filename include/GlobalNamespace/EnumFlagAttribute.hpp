@@ -15,10 +15,10 @@ namespace GlobalNamespace {
     public:
     // public System.String enumName
     // Offset: 0x10
-    ::CsString* enumName;
+    ::Il2CppString* enumName;
     // public System.Void .ctor(System.String name)
     // Offset: 0xCAD0C0
-    static EnumFlagAttribute* New_ctor(::CsString* name);
+    static EnumFlagAttribute* New_ctor(::Il2CppString* name);
     // public System.Void .ctor()
     // Offset: 0xCAD0B8
     // Implemented from: UnityEngine.PropertyAttribute

@@ -37,13 +37,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1513BAC
-    static IVRInput::_GetOriginLocalizedName* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRInput::_GetOriginLocalizedName* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 origin, System.Text.StringBuilder pchNameArray, System.UInt32 unNameArraySize)
     // Offset: 0x1513BC0
     OVR::OpenVR::EVRInputError Invoke(uint64_t origin, System::Text::StringBuilder* pchNameArray, uint unNameArraySize);
     // public System.IAsyncResult BeginInvoke(System.UInt64 origin, System.Text.StringBuilder pchNameArray, System.UInt32 unNameArraySize, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1513E58
-    System::IAsyncResult* BeginInvoke(uint64_t origin, System::Text::StringBuilder* pchNameArray, uint unNameArraySize, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t origin, System::Text::StringBuilder* pchNameArray, uint unNameArraySize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.IAsyncResult result)
     // Offset: 0x1513F10
     OVR::OpenVR::EVRInputError EndInvoke(System::IAsyncResult* result);

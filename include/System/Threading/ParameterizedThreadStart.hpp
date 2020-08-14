@@ -25,13 +25,13 @@ namespace System::Threading {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x13D770C
-    static ParameterizedThreadStart* New_ctor(::CsObject* object, System::IntPtr method);
+    static ParameterizedThreadStart* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object obj)
     // Offset: 0x13D7720
-    void Invoke(::CsObject* obj);
+    void Invoke(::Il2CppObject* obj);
     // public System.IAsyncResult BeginInvoke(System.Object obj, System.AsyncCallback callback, System.Object object)
     // Offset: 0x13D7AD8
-    System::IAsyncResult* BeginInvoke(::CsObject* obj, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppObject* obj, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x13D7AFC
     void EndInvoke(System::IAsyncResult* result);

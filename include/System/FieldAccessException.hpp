@@ -36,7 +36,7 @@ namespace System {
     // Base method: System.Void MemberAccessException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static FieldAccessException* New_ctor(::CsString* message);
+    static FieldAccessException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xDA5924
     // Implemented from: System.MemberAccessException

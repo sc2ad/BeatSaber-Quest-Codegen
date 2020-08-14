@@ -22,7 +22,7 @@ namespace System::Reflection::Emit {
     public:
     // private System.String name
     // Offset: 0x20
-    ::CsString* name;
+    ::Il2CppString* name;
     // System.Reflection.Emit.ILGenerator ilgen
     // Offset: 0x28
     System::Reflection::Emit::ILGenerator* ilgen;

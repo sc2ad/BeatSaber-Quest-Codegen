@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlatformAchievementsModelSO* platformAchievementsModel;
     // private System.Collections.Generic.HashSet`1<System.String> _unlockedAchievementIds
     // Offset: 0x20
-    System::Collections::Generic::HashSet_1<::CsString*>* unlockedAchievementIds;
+    System::Collections::Generic::HashSet_1<::Il2CppString*>* unlockedAchievementIds;
     // private System.Boolean _initialized
     // Offset: 0x28
     bool initialized;
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     void UnlockAchievement(GlobalNamespace::AchievementSO* achievement);
     // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
     // Offset: 0xB81620
-    void $Initialize$b__3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::CsString*>* achievementIds);
+    void $Initialize$b__3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* achievementIds);
     // public System.Void .ctor()
     // Offset: 0xB815A4
     // Implemented from: PersistentScriptableObject

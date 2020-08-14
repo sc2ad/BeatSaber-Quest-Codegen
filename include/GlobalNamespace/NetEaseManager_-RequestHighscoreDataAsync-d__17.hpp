@@ -18,7 +18,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -36,12 +36,12 @@ namespace GlobalNamespace {
     GlobalNamespace::NetEaseManager* $$4__this;
     // public System.String leaderboardId
     // Offset: 0x28
-    ::CsString* leaderboardId;
+    ::Il2CppString* leaderboardId;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.ReceivedHighscoreData> <>u__1
     // Offset: 0x30
     System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData> $$u__1;
     // Creating value type constructor for type: $RequestHighscoreDataAsync$d__17
-    $RequestHighscoreDataAsync$d__17(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::ReceivedHighscoreData> $$t__builder_ = {}, GlobalNamespace::NetEaseManager* $$4__this_ = {}, ::CsString* leaderboardId_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardId{leaderboardId_}, $$u__1{$$u__1_} {}
+    $RequestHighscoreDataAsync$d__17(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::ReceivedHighscoreData> $$t__builder_ = {}, GlobalNamespace::NetEaseManager* $$4__this_ = {}, ::Il2CppString* leaderboardId_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardId{leaderboardId_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA27B30
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

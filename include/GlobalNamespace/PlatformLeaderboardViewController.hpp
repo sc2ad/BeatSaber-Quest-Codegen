@@ -76,10 +76,6 @@ namespace GlobalNamespace {
     // private PlatformLeaderboardsModel _leaderboardsModel
     // Offset: 0x98
     GlobalNamespace::PlatformLeaderboardsModel* leaderboardsModel;
-    // Get static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
-    static GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get__scoresScope();
-    // Set static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
-    static void _set__scoresScope(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope value);
     // private HMAsyncRequest _getScoresAsyncRequest
     // Offset: 0xA0
     GlobalNamespace::HMAsyncRequest* getScoresAsyncRequest;
@@ -101,6 +97,10 @@ namespace GlobalNamespace {
     // private PlatformLeaderboardsModel/ScoresScope[] _scoreScopes
     // Offset: 0xC8
     ::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>* scoreScopes;
+    // Get static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
+    static GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get__scoresScope();
+    // Set static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
+    static void _set__scoresScope(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope value);
     // public PlatformLeaderboardsModel get_leaderboardsModel()
     // Offset: 0xBD31BC
     GlobalNamespace::PlatformLeaderboardsModel* get_leaderboardsModel();

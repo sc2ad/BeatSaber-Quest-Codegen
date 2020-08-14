@@ -46,7 +46,7 @@ namespace Zenject {
     UnityEngine::GameObject* gameObject;
     // public System.Void .ctor(UnityEngine.GameObject gameObject, Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
     // Offset: 0xD63448
-    static AddToExistingGameObjectComponentProvider* New_ctor(UnityEngine::GameObject* gameObject, Zenject::DiContainer* container, System::Type* componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, ::CsObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::CsObject*>* instantiateCallback);
+    static AddToExistingGameObjectComponentProvider* New_ctor(UnityEngine::GameObject* gameObject, Zenject::DiContainer* container, System::Type* componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback);
     // protected override System.Boolean get_ShouldToggleActive()
     // Offset: 0xD635A0
     // Implemented from: Zenject.AddToGameObjectComponentProviderBase

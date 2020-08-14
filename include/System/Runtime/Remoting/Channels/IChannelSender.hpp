@@ -15,8 +15,8 @@ namespace System::Runtime::Remoting::Messaging {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Channels
 namespace System::Runtime::Remoting::Channels {
@@ -25,7 +25,7 @@ namespace System::Runtime::Remoting::Channels {
     public:
     // public System.Runtime.Remoting.Messaging.IMessageSink CreateMessageSink(System.String url, System.Object remoteChannelData, System.String objectURI)
     // Offset: 0xFFFFFFFF
-    System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::CsString* url, ::CsObject* remoteChannelData, ::CsString*& objectURI);
+    System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::Il2CppString* url, ::Il2CppObject* remoteChannelData, ::Il2CppString*& objectURI);
   }; // System.Runtime.Remoting.Channels.IChannelSender
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

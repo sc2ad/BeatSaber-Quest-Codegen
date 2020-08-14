@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     public:
     // public System.String _jsonData
     // Offset: 0x18
-    ::CsString* jsonData;
+    ::Il2CppString* jsonData;
     // private BeatmapData _beatmapData
     // Offset: 0x20
     GlobalNamespace::BeatmapData* beatmapData;
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     void set_beatmapData(GlobalNamespace::BeatmapData* value);
     // public System.Void SetJsonData(System.String jsonData)
     // Offset: 0xB92164
-    void SetJsonData(::CsString* jsonData);
+    void SetJsonData(::Il2CppString* jsonData);
     // public System.Void SetRequiredDataForLoad(System.Single beatsPerMinute, System.Single shuffle, System.Single shufflePeriod)
     // Offset: 0xB9216C
     void SetRequiredDataForLoad(float beatsPerMinute, float shuffle, float shufflePeriod);

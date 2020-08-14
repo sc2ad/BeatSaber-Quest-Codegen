@@ -15,17 +15,17 @@ namespace System::ComponentModel {
     public:
     // private readonly System.String name
     // Offset: 0x10
-    ::CsString* name;
+    ::Il2CppString* name;
     // Get static field: static public readonly System.ComponentModel.DefaultPropertyAttribute Default
     static System::ComponentModel::DefaultPropertyAttribute* _get_Default();
     // Set static field: static public readonly System.ComponentModel.DefaultPropertyAttribute Default
     static void _set_Default(System::ComponentModel::DefaultPropertyAttribute* value);
     // public System.Void .ctor(System.String name)
     // Offset: 0xF57268
-    static DefaultPropertyAttribute* New_ctor(::CsString* name);
+    static DefaultPropertyAttribute* New_ctor(::Il2CppString* name);
     // public System.String get_Name()
     // Offset: 0xF5729C
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // static private System.Void .cctor()
     // Offset: 0xF57340
     static void _cctor();
@@ -33,7 +33,7 @@ namespace System::ComponentModel {
     // Offset: 0xF572A4
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xF57338
     // Implemented from: System.Attribute

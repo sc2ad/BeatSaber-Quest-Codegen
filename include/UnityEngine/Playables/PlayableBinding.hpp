@@ -27,7 +27,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -40,7 +40,7 @@ namespace UnityEngine::Playables {
     class CreateOutputMethod;
     // private System.String m_StreamName
     // Offset: 0x0
-    ::CsString* m_StreamName;
+    ::Il2CppString* m_StreamName;
     // private UnityEngine.Object m_SourceObject
     // Offset: 0x8
     UnityEngine::Object* m_SourceObject;
@@ -59,7 +59,7 @@ namespace UnityEngine::Playables {
     // Set static field: static public readonly System.Double DefaultDuration
     static void _set_DefaultDuration(double value);
     // Creating value type constructor for type: PlayableBinding
-    PlayableBinding(::CsString* m_StreamName_ = {}, UnityEngine::Object* m_SourceObject_ = {}, System::Type* m_SourceBindingType_ = {}, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod_ = {}) : m_StreamName{m_StreamName_}, m_SourceObject{m_SourceObject_}, m_SourceBindingType{m_SourceBindingType_}, m_CreateOutputMethod{m_CreateOutputMethod_} {}
+    PlayableBinding(::Il2CppString* m_StreamName_ = {}, UnityEngine::Object* m_SourceObject_ = {}, System::Type* m_SourceBindingType_ = {}, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod_ = {}) : m_StreamName{m_StreamName_}, m_SourceObject{m_SourceObject_}, m_SourceBindingType{m_SourceBindingType_}, m_CreateOutputMethod{m_CreateOutputMethod_} {}
     // public UnityEngine.Object get_sourceObject()
     // Offset: 0xA44F80
     UnityEngine::Object* get_sourceObject();
@@ -68,7 +68,7 @@ namespace UnityEngine::Playables {
     UnityEngine::Playables::PlayableOutput CreateOutput(UnityEngine::Playables::PlayableGraph graph);
     // static UnityEngine.Playables.PlayableBinding CreateInternal(System.String name, UnityEngine.Object sourceObject, System.Type sourceType, UnityEngine.Playables.PlayableBinding/CreateOutputMethod createFunction)
     // Offset: 0x1411980
-    static UnityEngine::Playables::PlayableBinding CreateInternal(::CsString* name, UnityEngine::Object* sourceObject, System::Type* sourceType, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
+    static UnityEngine::Playables::PlayableBinding CreateInternal(::Il2CppString* name, UnityEngine::Object* sourceObject, System::Type* sourceType, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
     // static private System.Void .cctor()
     // Offset: 0x1411A18
     static void _cctor();

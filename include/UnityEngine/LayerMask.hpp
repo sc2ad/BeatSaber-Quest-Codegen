@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -28,10 +28,10 @@ namespace UnityEngine {
     void set_value(int value);
     // static public System.String LayerToName(System.Int32 layer)
     // Offset: 0x130D038
-    static ::CsString* LayerToName(int layer);
+    static ::Il2CppString* LayerToName(int layer);
     // static public System.Int32 NameToLayer(System.String layerName)
     // Offset: 0x130D078
-    static int NameToLayer(::CsString* layerName);
+    static int NameToLayer(::Il2CppString* layerName);
   }; // UnityEngine.LayerMask
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

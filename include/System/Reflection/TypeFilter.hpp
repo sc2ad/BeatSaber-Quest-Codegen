@@ -27,13 +27,13 @@ namespace System::Reflection {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x114C4D4
-    static TypeFilter* New_ctor(::CsObject* object, System::IntPtr method);
+    static TypeFilter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Type m, System.Object filterCriteria)
     // Offset: 0x11539B8
-    bool Invoke(System::Type* m, ::CsObject* filterCriteria);
+    bool Invoke(System::Type* m, ::Il2CppObject* filterCriteria);
     // public System.IAsyncResult BeginInvoke(System.Type m, System.Object filterCriteria, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1153DC8
-    System::IAsyncResult* BeginInvoke(System::Type* m, ::CsObject* filterCriteria, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::Type* m, ::Il2CppObject* filterCriteria, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0x1153DF8
     bool EndInvoke(System::IAsyncResult* result);

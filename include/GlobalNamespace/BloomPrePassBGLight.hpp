@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // private System.Single _grayscaleFactor
     // Offset: 0x20
     float grayscaleFactor;
+    // private UnityEngine.Color _color
+    // Offset: 0x24
+    UnityEngine::Color color;
     // Get static field: static private System.Collections.Generic.List`1<BloomPrePassBGLight> _bloomBGLightList
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassBGLight*>* _get__bloomBGLightList();
     // Set static field: static private System.Collections.Generic.List`1<BloomPrePassBGLight> _bloomBGLightList
     static void _set__bloomBGLightList(System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassBGLight*>* value);
-    // private UnityEngine.Color _color
-    // Offset: 0x24
-    UnityEngine::Color color;
     // static public System.Collections.Generic.List`1<BloomPrePassBGLight> get_bloomBGLightList()
     // Offset: 0x181DDB4
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassBGLight*>* get_bloomBGLightList();

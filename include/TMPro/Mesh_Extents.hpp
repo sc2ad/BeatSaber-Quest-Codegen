@@ -30,7 +30,7 @@ namespace TMPro {
     // Offset: 0xA26FE8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // TMPro.Mesh_Extents
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

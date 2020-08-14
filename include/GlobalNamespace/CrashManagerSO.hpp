@@ -22,16 +22,16 @@ namespace GlobalNamespace {
     public:
     // private System.String _logString
     // Offset: 0x18
-    ::CsString* logString;
+    ::Il2CppString* logString;
     // private System.String _stackTrace
     // Offset: 0x20
-    ::CsString* stackTrace;
+    ::Il2CppString* stackTrace;
     // public System.String get_logString()
     // Offset: 0xBDFECC
-    ::CsString* get_logString();
+    ::Il2CppString* get_logString();
     // public System.String get_stackTrace()
     // Offset: 0xBDFED4
-    ::CsString* get_stackTrace();
+    ::Il2CppString* get_stackTrace();
     // public System.Void StartCatchingExceptions()
     // Offset: 0xBDFEDC
     void StartCatchingExceptions();
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     void OnDisable();
     // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
     // Offset: 0xBDFFC4
-    void HandleLog(::CsString* logString, ::CsString* stackTrace, UnityEngine::LogType type);
+    void HandleLog(::Il2CppString* logString, ::Il2CppString* stackTrace, UnityEngine::LogType type);
     // public System.Void .ctor()
     // Offset: 0xBE0064
     // Implemented from: PersistentScriptableObject

@@ -27,13 +27,13 @@ namespace UnityEngine {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x130086C
-    static Camera::CameraCallback* New_ctor(::CsObject* object, System::IntPtr method);
+    static Camera::CameraCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Camera cam)
     // Offset: 0x13003E0
     void Invoke(UnityEngine::Camera* cam);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Camera cam, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1300880
-    System::IAsyncResult* BeginInvoke(UnityEngine::Camera* cam, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::Camera* cam, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x13008A4
     void EndInvoke(System::IAsyncResult* result);

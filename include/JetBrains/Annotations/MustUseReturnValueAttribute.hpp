@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <Justification>k__BackingField
     // Offset: 0x10
-    ::CsString* Justification;
+    ::Il2CppString* Justification;
     // public System.Void .ctor(System.String justification)
     // Offset: 0x195803C
-    static MustUseReturnValueAttribute* New_ctor(::CsString* justification);
+    static MustUseReturnValueAttribute* New_ctor(::Il2CppString* justification);
     // public System.String get_Justification()
     // Offset: 0x1958070
-    ::CsString* get_Justification();
+    ::Il2CppString* get_Justification();
     // private System.Void set_Justification(System.String value)
     // Offset: 0x1958078
-    void set_Justification(::CsString* value);
+    void set_Justification(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1958034
     // Implemented from: System.Attribute

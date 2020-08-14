@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingTextEffect::Pool* flyingTextEffectPool;
     // public System.Void SpawnText(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, System.String text)
     // Offset: 0xBEE578
-    void SpawnText(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation, ::CsString* text);
+    void SpawnText(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation, ::Il2CppString* text);
     // private System.Void HandleFlyingTextEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
     // Offset: 0xBEE77C
     void HandleFlyingTextEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);

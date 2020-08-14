@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -32,7 +32,7 @@ namespace UnityEngine {
     public:
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::CsString* format, ::Array<::CsObject*>* args);
+    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
     // Offset: 0xFFFFFFFF
     void LogException(System::Exception* exception, UnityEngine::Object* context);

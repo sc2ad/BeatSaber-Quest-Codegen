@@ -30,13 +30,13 @@ namespace UnityEngine::TestTools::TestRunner {
     UnityEngine::TestTools::Logging::LogEvent* LogEvent;
     // private readonly System.String m_CustomStackTrace
     // Offset: 0x90
-    ::CsString* m_CustomStackTrace;
+    ::Il2CppString* m_CustomStackTrace;
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogEvent log)
     // Offset: 0xE2BFFC
     static UnhandledLogMessageException* New_ctor(UnityEngine::TestTools::Logging::LogEvent* log);
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogEvent log)
     // Offset: 0xE44CC0
-    static ::CsString* BuildMessage(UnityEngine::TestTools::Logging::LogEvent* log);
+    static ::Il2CppString* BuildMessage(UnityEngine::TestTools::Logging::LogEvent* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0xE44D14
     // Implemented from: NUnit.Framework.ResultStateException
@@ -46,7 +46,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0xE44D7C
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
-    ::CsString* get_StackTrace();
+    ::Il2CppString* get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnhandledLogMessageException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -25,7 +25,7 @@ namespace System::Xml {
     System::Xml::CharEntityEncoderFallback* parent;
     // private System.String charEntity
     // Offset: 0x38
-    ::CsString* charEntity;
+    ::Il2CppString* charEntity;
     // private System.Int32 charEntityIndex
     // Offset: 0x40
     int charEntityIndex;

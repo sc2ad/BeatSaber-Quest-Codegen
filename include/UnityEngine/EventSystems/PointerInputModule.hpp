@@ -43,6 +43,12 @@ namespace UnityEngine::EventSystems {
     class MouseState;
     // Nested type: UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData
     class MouseButtonEventData;
+    // protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> m_PointerData
+    // Offset: 0x48
+    System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* m_PointerData;
+    // private readonly UnityEngine.EventSystems.PointerInputModule/MouseState m_MouseState
+    // Offset: 0x50
+    UnityEngine::EventSystems::PointerInputModule::MouseState* m_MouseState;
     // static field const value: static public System.Int32 kMouseLeftId
     static constexpr const int kMouseLeftId = -1;
     // Get static field: static public System.Int32 kMouseLeftId
@@ -67,12 +73,6 @@ namespace UnityEngine::EventSystems {
     static int _get_kFakeTouchesId();
     // Set static field: static public System.Int32 kFakeTouchesId
     static void _set_kFakeTouchesId(int value);
-    // protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> m_PointerData
-    // Offset: 0x48
-    System::Collections::Generic::Dictionary_2<int, UnityEngine::EventSystems::PointerEventData*>* m_PointerData;
-    // private readonly UnityEngine.EventSystems.PointerInputModule/MouseState m_MouseState
-    // Offset: 0x50
-    UnityEngine::EventSystems::PointerInputModule::MouseState* m_MouseState;
     // protected System.Boolean GetPointerData(System.Int32 id, UnityEngine.EventSystems.PointerEventData data, System.Boolean create)
     // Offset: 0xDFC070
     bool GetPointerData(int id, UnityEngine::EventSystems::PointerEventData*& data, bool create);
@@ -121,7 +121,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xDFCF30
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // protected System.Void .ctor()
     // Offset: 0xDFD200
     // Implemented from: UnityEngine.EventSystems.BaseInputModule

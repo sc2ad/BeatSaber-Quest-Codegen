@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xCC2280
-    static IVRTrackedCamera::_ReleaseVideoStreamTextureGL* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRTrackedCamera::_ReleaseVideoStreamTextureGL* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRTrackedCameraError Invoke(System.UInt64 hTrackedCamera, System.UInt32 glTextureId)
     // Offset: 0xCC2294
     OVR::OpenVR::EVRTrackedCameraError Invoke(uint64_t hTrackedCamera, uint glTextureId);
     // public System.IAsyncResult BeginInvoke(System.UInt64 hTrackedCamera, System.UInt32 glTextureId, System.AsyncCallback callback, System.Object object)
     // Offset: 0xCC2518
-    System::IAsyncResult* BeginInvoke(uint64_t hTrackedCamera, uint glTextureId, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t hTrackedCamera, uint glTextureId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRTrackedCameraError EndInvoke(System.IAsyncResult result)
     // Offset: 0xCC25C4
     OVR::OpenVR::EVRTrackedCameraError EndInvoke(System::IAsyncResult* result);

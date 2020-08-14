@@ -32,7 +32,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18EBA6C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
-    ::CsString* GetText(System::Reflection::MethodInfo* method, ::Array<::CsObject*>* arglist);
+    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* arglist);
   }; // NUnit.Framework.Internal.TestNameGenerator/ArgListFragment
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -32,13 +32,13 @@ namespace UnityEngine::Analytics {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x196CB44
-    static AnalyticsSessionInfo::SessionStateChanged* New_ctor(::CsObject* object, System::IntPtr method);
+    static AnalyticsSessionInfo::SessionStateChanged* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Analytics.AnalyticsSessionState sessionState, System.Int64 sessionId, System.Int64 sessionElapsedTime, System.Boolean sessionChanged)
     // Offset: 0x196C3B4
     void Invoke(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Analytics.AnalyticsSessionState sessionState, System.Int64 sessionId, System.Int64 sessionElapsedTime, System.Boolean sessionChanged, System.AsyncCallback callback, System.Object object)
     // Offset: 0x196CB58
-    System::IAsyncResult* BeginInvoke(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x196CC40
     void EndInvoke(System::IAsyncResult* result);

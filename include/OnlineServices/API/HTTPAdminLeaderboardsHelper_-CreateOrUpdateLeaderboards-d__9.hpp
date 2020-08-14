@@ -34,15 +34,15 @@ namespace OnlineServices::API {
     OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this;
     // public System.String[] leaderboardIds
     // Offset: 0x28
-    ::Array<::CsString*>* leaderboardIds;
+    ::Array<::Il2CppString*>* leaderboardIds;
     // public System.Threading.CancellationToken cancellationToken
     // Offset: 0x30
     System::Threading::CancellationToken cancellationToken;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     // Offset: 0x38
-    System::Runtime::CompilerServices::TaskAwaiter_1<::CsString*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1;
     // Creating value type constructor for type: $CreateOrUpdateLeaderboards$d__9
-    $CreateOrUpdateLeaderboards$d__9(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> $$t__builder_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, ::Array<::CsString*>* leaderboardIds_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::CsString*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardIds{leaderboardIds_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
+    $CreateOrUpdateLeaderboards$d__9(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> $$t__builder_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, ::Array<::Il2CppString*>* leaderboardIds_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardIds{leaderboardIds_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA27DCC
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

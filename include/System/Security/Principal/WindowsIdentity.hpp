@@ -37,7 +37,7 @@ namespace System::Security::Principal {
     System::IntPtr token;
     // private System.String _type
     // Offset: 0x80
-    ::CsString* type;
+    ::Il2CppString* type;
     // private System.Security.Principal.WindowsAccountType _account
     // Offset: 0x88
     System::Security::Principal::WindowsAccountType account;
@@ -46,7 +46,7 @@ namespace System::Security::Principal {
     bool authenticated;
     // private System.String _name
     // Offset: 0x90
-    ::CsString* name;
+    ::Il2CppString* name;
     // private System.Runtime.Serialization.SerializationInfo _info
     // Offset: 0x98
     System::Runtime::Serialization::SerializationInfo* info;
@@ -56,7 +56,7 @@ namespace System::Security::Principal {
     static void _set_invalidWindows(System::IntPtr value);
     // public System.Void .ctor(System.IntPtr userToken, System.String type, System.Security.Principal.WindowsAccountType acctType, System.Boolean isAuthenticated)
     // Offset: 0xDE9828
-    static WindowsIdentity* New_ctor(System::IntPtr userToken, ::CsString* type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
+    static WindowsIdentity* New_ctor(System::IntPtr userToken, ::Il2CppString* type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
     // System.Void .ctor(System.Security.Claims.ClaimsIdentity claimsIdentity, System.IntPtr userToken)
     // Offset: 0xDE65B0
     static WindowsIdentity* New_ctor(System::Security::Claims::ClaimsIdentity* claimsIdentity, System::IntPtr userToken);
@@ -77,7 +77,7 @@ namespace System::Security::Principal {
     static System::IntPtr GetCurrentToken();
     // static private System.String GetTokenName(System.IntPtr token)
     // Offset: 0xDE9BB8
-    static ::CsString* GetTokenName(System::IntPtr token);
+    static ::Il2CppString* GetTokenName(System::IntPtr token);
     // static private System.Void .cctor()
     // Offset: 0xDE9F90
     static void _cctor();
@@ -98,17 +98,17 @@ namespace System::Security::Principal {
     // Offset: 0xDE9B24
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_AuthenticationType()
-    ::CsString* get_AuthenticationType();
+    ::Il2CppString* get_AuthenticationType();
     // public override System.String get_Name()
     // Offset: 0xDE9B2C
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_Name()
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
     // Offset: 0xDE9BBC
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
-    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::CsObject* sender);
+    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xDE9E68
     // Implemented from: System.Runtime.Serialization.ISerializable

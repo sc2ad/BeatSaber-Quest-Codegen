@@ -205,7 +205,7 @@ namespace UnityEngine::UI {
     void AddOptions(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<System.String> options)
     // Offset: 0xE09A3C
-    void AddOptions(System::Collections::Generic::List_1<::CsString*>* options);
+    void AddOptions(System::Collections::Generic::List_1<::Il2CppString*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<UnityEngine.Sprite> options)
     // Offset: 0xE09B28
     void AddOptions(System::Collections::Generic::List_1<UnityEngine::Sprite*>* options);

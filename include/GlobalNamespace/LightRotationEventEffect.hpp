@@ -38,12 +38,6 @@ namespace GlobalNamespace {
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
-    // static field const value: static private System.Single kSpeedMultiplier
-    static constexpr const float kSpeedMultiplier = 20;
-    // Get static field: static private System.Single kSpeedMultiplier
-    static float _get_kSpeedMultiplier();
-    // Set static field: static private System.Single kSpeedMultiplier
-    static void _set_kSpeedMultiplier(float value);
     // private UnityEngine.Transform _transform
     // Offset: 0x30
     UnityEngine::Transform* transform;
@@ -53,6 +47,12 @@ namespace GlobalNamespace {
     // private System.Single _rotationSpeed
     // Offset: 0x48
     float rotationSpeed;
+    // static field const value: static private System.Single kSpeedMultiplier
+    static constexpr const float kSpeedMultiplier = 20;
+    // Get static field: static private System.Single kSpeedMultiplier
+    static float _get_kSpeedMultiplier();
+    // Set static field: static private System.Single kSpeedMultiplier
+    static void _set_kSpeedMultiplier(float value);
     // protected System.Void Start()
     // Offset: 0xBF6F60
     void Start();

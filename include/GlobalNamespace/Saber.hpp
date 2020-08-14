@@ -63,12 +63,6 @@ namespace GlobalNamespace {
     // private System.Boolean <disableCutting>k__BackingField
     // Offset: 0x40
     bool disableCutting;
-    // static field const value: static private System.Int32 kNumberOfPrealocatedSwingRatingCounters
-    static constexpr const int kNumberOfPrealocatedSwingRatingCounters = 20;
-    // Get static field: static private System.Int32 kNumberOfPrealocatedSwingRatingCounters
-    static int _get_kNumberOfPrealocatedSwingRatingCounters();
-    // Set static field: static private System.Int32 kNumberOfPrealocatedSwingRatingCounters
-    static void _set_kNumberOfPrealocatedSwingRatingCounters(int value);
     // private SaberMovementData _movementData
     // Offset: 0x48
     GlobalNamespace::SaberMovementData* movementData;
@@ -84,6 +78,12 @@ namespace GlobalNamespace {
     // private System.Single _time
     // Offset: 0x68
     float time;
+    // static field const value: static private System.Int32 kNumberOfPrealocatedSwingRatingCounters
+    static constexpr const int kNumberOfPrealocatedSwingRatingCounters = 20;
+    // Get static field: static private System.Int32 kNumberOfPrealocatedSwingRatingCounters
+    static int _get_kNumberOfPrealocatedSwingRatingCounters();
+    // Set static field: static private System.Int32 kNumberOfPrealocatedSwingRatingCounters
+    static void _set_kNumberOfPrealocatedSwingRatingCounters(int value);
     // public SaberType get_saberType()
     // Offset: 0xC1F7AC
     GlobalNamespace::SaberType get_saberType();

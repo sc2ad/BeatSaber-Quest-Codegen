@@ -15,7 +15,7 @@ namespace System::Runtime::CompilerServices {
     public:
     // public System.Object get_Value()
     // Offset: 0xFFFFFFFF
-    ::CsObject* get_Value();
+    ::Il2CppObject* get_Value();
     // protected System.Void .ctor()
     // Offset: 0x1161514
     // Implemented from: System.Attribute

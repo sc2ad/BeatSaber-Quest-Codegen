@@ -15,7 +15,7 @@ namespace TMPro {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: TMPro
 namespace TMPro {
@@ -38,7 +38,7 @@ namespace TMPro {
     TMP_WordInfo(TMPro::TMP_Text* textComponent_ = {}, int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, int characterCount_ = {}) : textComponent{textComponent_}, firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, characterCount{characterCount_} {}
     // public System.String GetWord()
     // Offset: 0xA2DB88
-    ::CsString* GetWord();
+    ::Il2CppString* GetWord();
   }; // TMPro.TMP_WordInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

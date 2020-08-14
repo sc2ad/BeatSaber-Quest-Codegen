@@ -36,7 +36,7 @@ namespace System {
     // Base method: System.Void FormatException::.ctor(System.String textString)
     // Base method: System.Void SystemException::.ctor(System.String textString)
     // Base method: System.Void Exception::.ctor(System.String textString)
-    static UriFormatException* New_ctor(::CsString* textString);
+    static UriFormatException* New_ctor(::Il2CppString* textString);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Offset: 0x194E094
     // Implemented from: System.FormatException

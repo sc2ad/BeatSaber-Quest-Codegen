@@ -44,17 +44,17 @@ namespace UnityEngine::Events {
     // Offset: 0x1305E1C
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::.ctor(System.Object target, System.Reflection.MethodInfo theFunction)
-    static InvokableCall* New_ctor(::CsObject* target, System::Reflection::MethodInfo* theFunction);
+    static InvokableCall* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);
     // public override System.Void Invoke(System.Object[] args)
     // Offset: 0x1305F24
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
-    void Invoke(::Array<::CsObject*>* args);
+    void Invoke(::Array<::Il2CppObject*>* args);
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0x1305FA4
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Boolean BaseInvokableCall::Find(System.Object targetObj, System.Reflection.MethodInfo method)
-    bool Find(::CsObject* targetObj, System::Reflection::MethodInfo* method);
+    bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
   }; // UnityEngine.Events.InvokableCall
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

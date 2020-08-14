@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED17DC
-    static IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperoneSetup::_SetWorkingPhysicalBoundsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(OVR.OpenVR.HmdQuad_t[] pQuadsBuffer, System.UInt32 unQuadsCount)
     // Offset: 0xEC94FC
     bool Invoke(::Array<OVR::OpenVR::HmdQuad_t>*& pQuadsBuffer, uint unQuadsCount);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.HmdQuad_t[] pQuadsBuffer, System.UInt32 unQuadsCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED17F0
-    System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::HmdQuad_t>*& pQuadsBuffer, uint unQuadsCount, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::HmdQuad_t>*& pQuadsBuffer, uint unQuadsCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0xED188C
     bool EndInvoke(System::IAsyncResult* result);

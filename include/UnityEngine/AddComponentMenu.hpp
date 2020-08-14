@@ -15,16 +15,16 @@ namespace UnityEngine {
     public:
     // private System.String m_AddComponentMenu
     // Offset: 0x10
-    ::CsString* m_AddComponentMenu;
+    ::Il2CppString* m_AddComponentMenu;
     // private System.Int32 m_Ordering
     // Offset: 0x18
     int m_Ordering;
     // public System.Void .ctor(System.String menuName)
     // Offset: 0x12F97C4
-    static AddComponentMenu* New_ctor(::CsString* menuName);
+    static AddComponentMenu* New_ctor(::Il2CppString* menuName);
     // public System.Void .ctor(System.String menuName, System.Int32 order)
     // Offset: 0x12F9800
-    static AddComponentMenu* New_ctor(::CsString* menuName, int order);
+    static AddComponentMenu* New_ctor(::Il2CppString* menuName, int order);
   }; // UnityEngine.AddComponentMenu
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

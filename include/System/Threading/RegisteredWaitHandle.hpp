@@ -34,7 +34,7 @@ namespace System::Threading {
     System::Threading::WaitOrTimerCallback* callback;
     // private System.Object _state
     // Offset: 0x28
-    ::CsObject* state;
+    ::Il2CppObject* state;
     // private System.Threading.WaitHandle _finalEvent
     // Offset: 0x30
     System::Threading::WaitHandle* finalEvent;
@@ -55,13 +55,13 @@ namespace System::Threading {
     bool unregistered;
     // System.Void .ctor(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callback, System.Object state, System.TimeSpan timeout, System.Boolean executeOnlyOnce)
     // Offset: 0xCD5E68
-    static RegisteredWaitHandle* New_ctor(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callback, ::CsObject* state, System::TimeSpan timeout, bool executeOnlyOnce);
+    static RegisteredWaitHandle* New_ctor(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callback, ::Il2CppObject* state, System::TimeSpan timeout, bool executeOnlyOnce);
     // System.Void Wait(System.Object state)
     // Offset: 0xCD5F64
-    void Wait(::CsObject* state);
+    void Wait(::Il2CppObject* state);
     // private System.Void DoCallBack(System.Object timedOut)
     // Offset: 0xCD671C
-    void DoCallBack(::CsObject* timedOut);
+    void DoCallBack(::Il2CppObject* timedOut);
     // public System.Boolean Unregister(System.Threading.WaitHandle waitObject)
     // Offset: 0xCD6D14
     bool Unregister(System::Threading::WaitHandle* waitObject);

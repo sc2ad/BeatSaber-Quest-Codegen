@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED0784
-    static IVRChaperone::_GetCalibrationState* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperone::_GetCalibrationState* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.ChaperoneCalibrationState Invoke()
     // Offset: 0xEC56BC
     OVR::OpenVR::ChaperoneCalibrationState Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
     // Offset: 0xED0798
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.ChaperoneCalibrationState EndInvoke(System.IAsyncResult result)
     // Offset: 0xED07C4
     OVR::OpenVR::ChaperoneCalibrationState EndInvoke(System::IAsyncResult* result);

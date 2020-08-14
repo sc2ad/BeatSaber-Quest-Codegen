@@ -36,7 +36,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -97,7 +97,7 @@ namespace UnityEngine::Playables {
     System::Type* GetPlayableType();
     // System.Void SetScriptInstance(System.Object scriptInstance)
     // Offset: 0xA452D0
-    void SetScriptInstance(::CsObject* scriptInstance);
+    void SetScriptInstance(::Il2CppObject* scriptInstance);
     // UnityEngine.Playables.PlayState GetPlayState()
     // Offset: 0xA452D8
     UnityEngine::Playables::PlayState GetPlayState();
@@ -154,7 +154,7 @@ namespace UnityEngine::Playables {
     void SetTimeWrapMode(UnityEngine::Playables::DirectorWrapMode mode);
     // private System.Object GetScriptInstance()
     // Offset: 0xA4536C
-    ::CsObject* GetScriptInstance();
+    ::Il2CppObject* GetScriptInstance();
     // private UnityEngine.Playables.PlayableHandle GetInputHandle(System.Int32 index)
     // Offset: 0xA45374
     UnityEngine::Playables::PlayableHandle GetInputHandle(int index);
@@ -175,7 +175,7 @@ namespace UnityEngine::Playables {
     static System::Type* GetPlayableType_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void SetScriptInstance_Injected(UnityEngine.Playables.PlayableHandle _unity_self, System.Object scriptInstance)
     // Offset: 0x14128E4
-    static void SetScriptInstance_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, ::CsObject* scriptInstance);
+    static void SetScriptInstance_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, ::Il2CppObject* scriptInstance);
     // static private UnityEngine.Playables.PlayState GetPlayState_Injected(UnityEngine.Playables.PlayableHandle _unity_self)
     // Offset: 0x14129B8
     static UnityEngine::Playables::PlayState GetPlayState_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
@@ -232,7 +232,7 @@ namespace UnityEngine::Playables {
     static void SetTimeWrapMode_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, UnityEngine::Playables::DirectorWrapMode mode);
     // static private System.Object GetScriptInstance_Injected(UnityEngine.Playables.PlayableHandle _unity_self)
     // Offset: 0x1413848
-    static ::CsObject* GetScriptInstance_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
+    static ::Il2CppObject* GetScriptInstance_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void GetInputHandle_Injected(UnityEngine.Playables.PlayableHandle _unity_self, System.Int32 index, UnityEngine.Playables.PlayableHandle ret)
     // Offset: 0x1413888
     static void GetInputHandle_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, int index, UnityEngine::Playables::PlayableHandle& ret);
@@ -246,7 +246,7 @@ namespace UnityEngine::Playables {
     // Offset: 0xA45234
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object p)
-    bool Equals(::CsObject* p);
+    bool Equals(::Il2CppObject* p);
     // public System.Boolean Equals(UnityEngine.Playables.PlayableHandle other)
     // Offset: 0xA4523C
     // Implemented from: System.IEquatable`1

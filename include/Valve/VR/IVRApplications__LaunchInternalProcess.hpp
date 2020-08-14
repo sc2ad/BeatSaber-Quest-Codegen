@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE45FC
-    static IVRApplications::_LaunchInternalProcess* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_LaunchInternalProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationError Invoke(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory)
     // Offset: 0xFDC54C
-    Valve::VR::EVRApplicationError Invoke(::CsString* pchBinaryPath, ::CsString* pchArguments, ::CsString* pchWorkingDirectory);
+    Valve::VR::EVRApplicationError Invoke(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory);
     // public System.IAsyncResult BeginInvoke(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE4610
-    System::IAsyncResult* BeginInvoke(::CsString* pchBinaryPath, ::CsString* pchArguments, ::CsString* pchWorkingDirectory, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xFE4640
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

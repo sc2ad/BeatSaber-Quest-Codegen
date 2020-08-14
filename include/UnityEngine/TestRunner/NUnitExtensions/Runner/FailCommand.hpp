@@ -46,10 +46,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Interfaces::ResultState* m_ResultState;
     // private System.String m_Message
     // Offset: 0x20
-    ::CsString* m_Message;
+    ::Il2CppString* m_Message;
     // public System.Void .ctor(NUnit.Framework.Internal.Test test, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
     // Offset: 0xE30F90
-    static FailCommand* New_ctor(NUnit::Framework::Internal::Test* test, NUnit::Framework::Interfaces::ResultState* resultState, ::CsString* message);
+    static FailCommand* New_ctor(NUnit::Framework::Internal::Test* test, NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0xE30FE0
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand

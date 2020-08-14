@@ -57,6 +57,9 @@ namespace GlobalNamespace {
     // private ParametricBoxFakeGlowController _obstacleFakeGlow
     // Offset: 0x40
     GlobalNamespace::ParametricBoxFakeGlowController* obstacleFakeGlow;
+    // private UnityEngine.Bounds _bounds
+    // Offset: 0x48
+    UnityEngine::Bounds bounds;
     // Get static field: static private readonly System.Int32 _uvScaleID
     static int _get__uvScaleID();
     // Set static field: static private readonly System.Int32 _uvScaleID
@@ -69,9 +72,6 @@ namespace GlobalNamespace {
     static int _get__addColorID();
     // Set static field: static private readonly System.Int32 _addColorID
     static void _set__addColorID(int value);
-    // private UnityEngine.Bounds _bounds
-    // Offset: 0x48
-    UnityEngine::Bounds bounds;
     // public UnityEngine.Bounds get_bounds()
     // Offset: 0xBA5214
     UnityEngine::Bounds get_bounds();

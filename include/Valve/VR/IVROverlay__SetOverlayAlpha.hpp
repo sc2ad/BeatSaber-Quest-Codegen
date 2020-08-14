@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x160A654
-    static IVROverlay::_SetOverlayAlpha* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_SetOverlayAlpha* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single fAlpha)
     // Offset: 0x160A668
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float fAlpha);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Single fAlpha, System.AsyncCallback callback, System.Object object)
     // Offset: 0x160A8F0
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float fAlpha, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float fAlpha, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
     // Offset: 0x160A99C
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);

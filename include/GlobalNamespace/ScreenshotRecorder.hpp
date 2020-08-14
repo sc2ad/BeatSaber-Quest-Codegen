@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     }; // ScreenshotRecorder/RecordingType
     // private System.String _folder
     // Offset: 0x18
-    ::CsString* folder;
+    ::Il2CppString* folder;
     // private UnityEngine.Camera _camera
     // Offset: 0x20
     UnityEngine::Camera* camera;

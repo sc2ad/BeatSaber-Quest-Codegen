@@ -92,6 +92,27 @@ namespace Zenject {
     // public UnityEngine.Events.UnityEvent OnPostResolve
     // Offset: 0x80
     UnityEngine::Events::UnityEvent* OnPostResolve;
+    // private System.Boolean _parentNewObjectsUnderSceneContext
+    // Offset: 0x88
+    bool parentNewObjectsUnderSceneContext;
+    // private System.Collections.Generic.List`1<System.String> _contractNames
+    // Offset: 0x90
+    System::Collections::Generic::List_1<::Il2CppString*>* contractNames;
+    // private System.Collections.Generic.List`1<System.String> _parentContractNames
+    // Offset: 0x98
+    System::Collections::Generic::List_1<::Il2CppString*>* parentContractNames;
+    // private Zenject.DiContainer _container
+    // Offset: 0xA0
+    Zenject::DiContainer* container;
+    // private readonly System.Collections.Generic.List`1<Zenject.SceneDecoratorContext> _decoratorContexts
+    // Offset: 0xA8
+    System::Collections::Generic::List_1<Zenject::SceneDecoratorContext*>* decoratorContexts;
+    // private System.Boolean _hasInstalled
+    // Offset: 0xB0
+    bool hasInstalled;
+    // private System.Boolean _hasResolved
+    // Offset: 0xB1
+    bool hasResolved;
     // Get static field: static public System.Action`1<Zenject.DiContainer> ExtraBindingsEarlyInstallMethod
     static System::Action_1<Zenject::DiContainer*>* _get_ExtraBindingsEarlyInstallMethod();
     // Set static field: static public System.Action`1<Zenject.DiContainer> ExtraBindingsEarlyInstallMethod
@@ -108,27 +129,6 @@ namespace Zenject {
     static System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* _get_ParentContainers();
     // Set static field: static public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> ParentContainers
     static void _set_ParentContainers(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* value);
-    // private System.Boolean _parentNewObjectsUnderSceneContext
-    // Offset: 0x88
-    bool parentNewObjectsUnderSceneContext;
-    // private System.Collections.Generic.List`1<System.String> _contractNames
-    // Offset: 0x90
-    System::Collections::Generic::List_1<::CsString*>* contractNames;
-    // private System.Collections.Generic.List`1<System.String> _parentContractNames
-    // Offset: 0x98
-    System::Collections::Generic::List_1<::CsString*>* parentContractNames;
-    // private Zenject.DiContainer _container
-    // Offset: 0xA0
-    Zenject::DiContainer* container;
-    // private readonly System.Collections.Generic.List`1<Zenject.SceneDecoratorContext> _decoratorContexts
-    // Offset: 0xA8
-    System::Collections::Generic::List_1<Zenject::SceneDecoratorContext*>* decoratorContexts;
-    // private System.Boolean _hasInstalled
-    // Offset: 0xB0
-    bool hasInstalled;
-    // private System.Boolean _hasResolved
-    // Offset: 0xB1
-    bool hasResolved;
     // public System.Void add_PreInstall(System.Action value)
     // Offset: 0xFC6030
     void add_PreInstall(System::Action* value);
@@ -164,16 +164,16 @@ namespace Zenject {
     bool get_IsValidating();
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ContractNames()
     // Offset: 0xFC6598
-    System::Collections::Generic::IEnumerable_1<::CsString*>* get_ContractNames();
+    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ContractNames();
     // public System.Void set_ContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
     // Offset: 0xFC65A0
-    void set_ContractNames(System::Collections::Generic::IEnumerable_1<::CsString*>* value);
+    void set_ContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ParentContractNames()
     // Offset: 0xFC6620
-    System::Collections::Generic::IEnumerable_1<::CsString*>* get_ParentContractNames();
+    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ParentContractNames();
     // public System.Void set_ParentContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
     // Offset: 0xFC66A8
-    void set_ParentContractNames(System::Collections::Generic::IEnumerable_1<::CsString*>* value);
+    void set_ParentContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
     // public System.Boolean get_ParentNewObjectsUnderSceneContext()
     // Offset: 0xFC6714
     bool get_ParentNewObjectsUnderSceneContext();

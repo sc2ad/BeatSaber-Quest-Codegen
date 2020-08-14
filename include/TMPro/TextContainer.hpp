@@ -67,13 +67,13 @@ namespace TMPro {
     // private UnityEngine.RectTransform m_rectTransform
     // Offset: 0x60
     UnityEngine::RectTransform* m_rectTransform;
+    // private TMPro.TextMeshPro m_textMeshPro
+    // Offset: 0x68
+    TMPro::TextMeshPro* m_textMeshPro;
     // Get static field: static private UnityEngine.Vector2 k_defaultSize
     static UnityEngine::Vector2 _get_k_defaultSize();
     // Set static field: static private UnityEngine.Vector2 k_defaultSize
     static void _set_k_defaultSize(UnityEngine::Vector2 value);
-    // private TMPro.TextMeshPro m_textMeshPro
-    // Offset: 0x68
-    TMPro::TextMeshPro* m_textMeshPro;
     // public System.Boolean get_hasChanged()
     // Offset: 0xDC4AD0
     bool get_hasChanged();

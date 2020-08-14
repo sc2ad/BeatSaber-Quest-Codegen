@@ -28,6 +28,9 @@ namespace GlobalNamespace {
     // private System.Single _smooth
     // Offset: 0x20
     float smooth;
+    // private System.Single _targetFrequency
+    // Offset: 0x24
+    float targetFrequency;
     // static field const value: static private System.Int32 kDefaultCutoffFrequency
     static constexpr const int kDefaultCutoffFrequency = 22000;
     // Get static field: static private System.Int32 kDefaultCutoffFrequency
@@ -40,9 +43,6 @@ namespace GlobalNamespace {
     static int _get_kLowPassCutoffFrequency();
     // Set static field: static private System.Int32 kLowPassCutoffFrequency
     static void _set_kLowPassCutoffFrequency(int value);
-    // private System.Single _targetFrequency
-    // Offset: 0x24
-    float targetFrequency;
     // protected System.Void Start()
     // Offset: 0xBF9ACC
     void Start();

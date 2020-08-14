@@ -19,8 +19,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -152,7 +152,7 @@ namespace UnityEngine {
     // Offset: 0xA458B8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Rect other)
     // Offset: 0xA458C0
     // Implemented from: System.IEquatable`1
@@ -162,7 +162,7 @@ namespace UnityEngine {
     // Offset: 0xA458C8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.Rect
   // static public System.Boolean op_Inequality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
   // Offset: 0x14180DC

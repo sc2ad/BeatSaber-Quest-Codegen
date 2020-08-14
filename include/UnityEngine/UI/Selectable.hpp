@@ -115,14 +115,6 @@ namespace UnityEngine::UI {
       // Creating value type constructor for type: Transition
       Transition(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.Selectable/Transition
-    // Get static field: static protected UnityEngine.UI.Selectable[] s_Selectables
-    static ::Array<UnityEngine::UI::Selectable*>* _get_s_Selectables();
-    // Set static field: static protected UnityEngine.UI.Selectable[] s_Selectables
-    static void _set_s_Selectables(::Array<UnityEngine::UI::Selectable*>* value);
-    // Get static field: static protected System.Int32 s_SelectableCount
-    static int _get_s_SelectableCount();
-    // Set static field: static protected System.Int32 s_SelectableCount
-    static void _set_s_SelectableCount(int value);
     // private UnityEngine.UI.Navigation m_Navigation
     // Offset: 0x18
     UnityEngine::UI::Navigation m_Navigation;
@@ -162,6 +154,14 @@ namespace UnityEngine::UI {
     // private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> m_CanvasGroupCache
     // Offset: 0xE8
     System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* m_CanvasGroupCache;
+    // Get static field: static protected UnityEngine.UI.Selectable[] s_Selectables
+    static ::Array<UnityEngine::UI::Selectable*>* _get_s_Selectables();
+    // Set static field: static protected UnityEngine.UI.Selectable[] s_Selectables
+    static void _set_s_Selectables(::Array<UnityEngine::UI::Selectable*>* value);
+    // Get static field: static protected System.Int32 s_SelectableCount
+    static int _get_s_SelectableCount();
+    // Set static field: static protected System.Int32 s_SelectableCount
+    static void _set_s_SelectableCount(int value);
     // static public UnityEngine.UI.Selectable[] get_allSelectablesArray()
     // Offset: 0x120B514
     static ::Array<UnityEngine::UI::Selectable*>* get_allSelectablesArray();
@@ -287,7 +287,7 @@ namespace UnityEngine::UI {
     void DoSpriteSwap(UnityEngine::Sprite* newSprite);
     // private System.Void TriggerAnimation(System.String triggername)
     // Offset: 0x120C384
-    void TriggerAnimation(::CsString* triggername);
+    void TriggerAnimation(::Il2CppString* triggername);
     // protected System.Boolean IsHighlighted()
     // Offset: 0x120CE4C
     bool IsHighlighted();

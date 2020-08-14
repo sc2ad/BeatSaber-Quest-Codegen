@@ -70,13 +70,13 @@ namespace GlobalNamespace {
     // public Valve.VR.VROverlayInputMethod inputMethod
     // Offset: 0x50
     Valve::VR::VROverlayInputMethod inputMethod;
+    // private System.UInt64 handle
+    // Offset: 0x58
+    uint64_t handle;
     // Get static field: static private SteamVR_Overlay <instance>k__BackingField
     static GlobalNamespace::SteamVR_Overlay* _get_$instance$k__BackingField();
     // Set static field: static private SteamVR_Overlay <instance>k__BackingField
     static void _set_$instance$k__BackingField(GlobalNamespace::SteamVR_Overlay* value);
-    // private System.UInt64 handle
-    // Offset: 0x58
-    uint64_t handle;
     // static public SteamVR_Overlay get_instance()
     // Offset: 0xD88908
     static GlobalNamespace::SteamVR_Overlay* get_instance();
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     static void set_instance(GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
     // Offset: 0xD84FA0
-    static ::CsString* get_key();
+    static ::Il2CppString* get_key();
     // private System.Void OnEnable()
     // Offset: 0xD889B0
     void OnEnable();

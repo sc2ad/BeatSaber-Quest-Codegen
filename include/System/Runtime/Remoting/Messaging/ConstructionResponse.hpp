@@ -43,7 +43,7 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // System.Void .ctor(System.Object resultObject, System.Runtime.Remoting.Messaging.LogicalCallContext callCtx, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     // Offset: 0x104D728
-    static ConstructionResponse* New_ctor(::CsObject* resultObject, System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
+    static ConstructionResponse* New_ctor(::Il2CppObject* resultObject, System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
     // System.Void .ctor(System.Exception e, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     // Offset: 0x104DD90
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse

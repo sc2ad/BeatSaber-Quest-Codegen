@@ -17,7 +17,7 @@ namespace System::Reflection {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -39,16 +39,16 @@ namespace System {
     TypedReference(System::RuntimeTypeHandle type_ = {}, System::IntPtr Value_ = {}, System::IntPtr Type_ = {}) : type{type_}, Value{Value_}, Type{Type_} {}
     // static public System.TypedReference MakeTypedReference(System.Object target, System.Reflection.FieldInfo[] flds)
     // Offset: 0x1793270
-    static System::TypedReference MakeTypedReference(::CsObject* target, ::Array<System::Reflection::FieldInfo*>* flds);
+    static System::TypedReference MakeTypedReference(::Il2CppObject* target, ::Array<System::Reflection::FieldInfo*>* flds);
     // static private System.TypedReference MakeTypedReferenceInternal(System.Object target, System.Reflection.FieldInfo[] fields)
     // Offset: 0x1793660
-    static System::TypedReference MakeTypedReferenceInternal(::CsObject* target, ::Array<System::Reflection::FieldInfo*>* fields);
+    static System::TypedReference MakeTypedReferenceInternal(::Il2CppObject* target, ::Array<System::Reflection::FieldInfo*>* fields);
     // System.Boolean get_IsNull()
     // Offset: 0xA535D8
     bool get_IsNull();
     // static public System.Void SetTypedReference(System.TypedReference target, System.Object value)
     // Offset: 0x17937D8
-    static void SetTypedReference(System::TypedReference target, ::CsObject* value);
+    static void SetTypedReference(System::TypedReference target, ::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA535C4
     // Implemented from: System.ValueType
@@ -58,7 +58,7 @@ namespace System {
     // Offset: 0xA535CC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
-    bool Equals(::CsObject* o);
+    bool Equals(::Il2CppObject* o);
   }; // System.TypedReference
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

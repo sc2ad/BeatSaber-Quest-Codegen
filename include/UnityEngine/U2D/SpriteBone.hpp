@@ -19,7 +19,7 @@ namespace UnityEngine::U2D {
     public:
     // private System.String m_Name
     // Offset: 0x0
-    ::CsString* m_Name;
+    ::Il2CppString* m_Name;
     // private UnityEngine.Vector3 m_Position
     // Offset: 0x8
     UnityEngine::Vector3 m_Position;
@@ -33,7 +33,7 @@ namespace UnityEngine::U2D {
     // Offset: 0x28
     int m_ParentId;
     // Creating value type constructor for type: SpriteBone
-    SpriteBone(::CsString* m_Name_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, float m_Length_ = {}, int m_ParentId_ = {}) : m_Name{m_Name_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Length{m_Length_}, m_ParentId{m_ParentId_} {}
+    SpriteBone(::Il2CppString* m_Name_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, float m_Length_ = {}, int m_ParentId_ = {}) : m_Name{m_Name_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Length{m_Length_}, m_ParentId{m_ParentId_} {}
   }; // UnityEngine.U2D.SpriteBone
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

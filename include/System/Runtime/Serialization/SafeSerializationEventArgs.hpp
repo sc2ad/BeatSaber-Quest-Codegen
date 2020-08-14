@@ -31,13 +31,13 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContext m_streamingContext;
     // private System.Collections.Generic.List`1<System.Object> m_serializedStates
     // Offset: 0x20
-    System::Collections::Generic::List_1<::CsObject*>* m_serializedStates;
+    System::Collections::Generic::List_1<::Il2CppObject*>* m_serializedStates;
     // System.Void .ctor(System.Runtime.Serialization.StreamingContext streamingContext)
     // Offset: 0xFF88D8
     static SafeSerializationEventArgs* New_ctor(System::Runtime::Serialization::StreamingContext streamingContext);
     // System.Collections.Generic.IList`1<System.Object> get_SerializedStates()
     // Offset: 0xFF8998
-    System::Collections::Generic::IList_1<::CsObject*>* get_SerializedStates();
+    System::Collections::Generic::IList_1<::Il2CppObject*>* get_SerializedStates();
   }; // System.Runtime.Serialization.SafeSerializationEventArgs
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

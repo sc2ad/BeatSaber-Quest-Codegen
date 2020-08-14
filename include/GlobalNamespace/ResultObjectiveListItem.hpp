@@ -58,16 +58,16 @@ namespace GlobalNamespace {
     void set_iconGlow(UnityEngine::Sprite* value);
     // public System.Void set_title(System.String value)
     // Offset: 0xC1CB6C
-    void set_title(::CsString* value);
+    void set_title(::Il2CppString* value);
     // public System.Void set_conditionText(System.String value)
     // Offset: 0xC1CB88
-    void set_conditionText(::CsString* value);
+    void set_conditionText(::Il2CppString* value);
     // public System.Void set_hideConditionText(System.Boolean value)
     // Offset: 0xC1CBA4
     void set_hideConditionText(bool value);
     // public System.Void set_valueText(System.String value)
     // Offset: 0xC1CBE4
-    void set_valueText(::CsString* value);
+    void set_valueText(::Il2CppString* value);
     // public System.Void set_hideValueText(System.Boolean value)
     // Offset: 0xC1CC00
     void set_hideValueText(bool value);

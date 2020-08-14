@@ -27,8 +27,8 @@ namespace System::Collections {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -42,7 +42,7 @@ namespace System::Runtime::Remoting::Activation {
     System::Type* get_ActivationType();
     // public System.String get_ActivationTypeName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_ActivationTypeName();
+    ::Il2CppString* get_ActivationTypeName();
     // public System.Runtime.Remoting.Activation.IActivator get_Activator()
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Activation::IActivator* get_Activator();
@@ -51,7 +51,7 @@ namespace System::Runtime::Remoting::Activation {
     void set_Activator(System::Runtime::Remoting::Activation::IActivator* value);
     // public System.Object[] get_CallSiteActivationAttributes()
     // Offset: 0xFFFFFFFF
-    ::Array<::CsObject*>* get_CallSiteActivationAttributes();
+    ::Array<::Il2CppObject*>* get_CallSiteActivationAttributes();
     // public System.Collections.IList get_ContextProperties()
     // Offset: 0xFFFFFFFF
     System::Collections::IList* get_ContextProperties();

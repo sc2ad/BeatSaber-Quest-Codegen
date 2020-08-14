@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -17,7 +17,7 @@ namespace System::Runtime::Remoting {
     public:
     // public System.Object[] get_ChannelData()
     // Offset: 0xFFFFFFFF
-    ::Array<::CsObject*>* get_ChannelData();
+    ::Array<::Il2CppObject*>* get_ChannelData();
   }; // System.Runtime.Remoting.IChannelInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

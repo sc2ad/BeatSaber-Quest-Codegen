@@ -42,7 +42,7 @@ namespace System::Threading {
     System::Threading::ThreadState state;
     // private System.Object abort_exc
     // Offset: 0x40
-    ::CsObject* abort_exc;
+    ::Il2CppObject* abort_exc;
     // private System.Int32 abort_state_handle
     // Offset: 0x48
     int abort_state_handle;
@@ -60,10 +60,10 @@ namespace System::Threading {
     System::IntPtr runtime_thread_info;
     // private System.Object current_appcontext
     // Offset: 0x70
-    ::CsObject* current_appcontext;
+    ::Il2CppObject* current_appcontext;
     // private System.Object root_domain_thread
     // Offset: 0x78
-    ::CsObject* root_domain_thread;
+    ::Il2CppObject* root_domain_thread;
     // System.Byte[] _serialized_principal
     // Offset: 0x80
     ::Array<uint8_t>* serialized_principal;

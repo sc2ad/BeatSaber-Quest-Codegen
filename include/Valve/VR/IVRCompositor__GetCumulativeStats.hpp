@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15F6C88
-    static IVRCompositor::_GetCumulativeStats* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_GetCumulativeStats* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.Compositor_CumulativeStats pStats, System.UInt32 nStatsSizeInBytes)
     // Offset: 0x15F6C9C
     void Invoke(Valve::VR::Compositor_CumulativeStats& pStats, uint nStatsSizeInBytes);
     // public System.IAsyncResult BeginInvoke(Valve.VR.Compositor_CumulativeStats pStats, System.UInt32 nStatsSizeInBytes, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15F6F08
-    System::IAsyncResult* BeginInvoke(Valve::VR::Compositor_CumulativeStats& pStats, uint nStatsSizeInBytes, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::Compositor_CumulativeStats& pStats, uint nStatsSizeInBytes, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(Valve.VR.Compositor_CumulativeStats pStats, System.IAsyncResult result)
     // Offset: 0x15F6FBC
     void EndInvoke(Valve::VR::Compositor_CumulativeStats& pStats, System::IAsyncResult* result);

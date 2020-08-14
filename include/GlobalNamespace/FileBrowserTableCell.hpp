@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* highlightImage;
     // public System.Void set_text(System.String value)
     // Offset: 0xBEA890
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // public System.String get_text()
     // Offset: 0xBEA8AC
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     // Offset: 0xBEA8C8
     // Implemented from: HMUI.TableCell

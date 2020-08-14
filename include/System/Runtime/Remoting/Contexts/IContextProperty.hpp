@@ -13,7 +13,7 @@ namespace System::Runtime::Remoting::Contexts {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
@@ -22,7 +22,7 @@ namespace System::Runtime::Remoting::Contexts {
     public:
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public System.Void Freeze(System.Runtime.Remoting.Contexts.Context newContext)
     // Offset: 0xFFFFFFFF
     void Freeze(System::Runtime::Remoting::Contexts::Context* newContext);

@@ -55,7 +55,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x137D5F4
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Boolean IKMapping::IsValid(RootMotion.FinalIK.IKSolver solver, System.String message)
-    bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::CsString*& message);
+    bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void .ctor()
     // Offset: 0x137D6A0
     // Implemented from: RootMotion.FinalIK.IKMapping

@@ -26,10 +26,10 @@ namespace NUnit::Framework::Internal::Commands {
     public:
     // private System.String GetSkipReason()
     // Offset: 0x1083244
-    ::CsString* GetSkipReason();
+    ::Il2CppString* GetSkipReason();
     // private System.String GetProviderStackTrace()
     // Offset: 0x108333C
-    ::CsString* GetProviderStackTrace();
+    ::Il2CppString* GetProviderStackTrace();
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
     // Offset: 0x1083030
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand

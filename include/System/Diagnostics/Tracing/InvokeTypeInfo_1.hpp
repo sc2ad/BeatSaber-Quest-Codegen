@@ -49,7 +49,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::CsString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
+    void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteMetadata", collector, name, format));
     }
     // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType value)
@@ -63,14 +63,14 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Object TraceLoggingTypeInfo::GetData(System.Object value)
-    ::CsObject* GetData(::CsObject* value) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(this, "GetData", value));
+    ::Il2CppObject* GetData(::Il2CppObject* value) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "GetData", value));
     }
     // public override System.Void WriteObjectData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Object valueObj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo`1::WriteObjectData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Object valueObj)
-    void WriteObjectData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::CsObject* valueObj) {
+    void WriteObjectData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Il2CppObject* valueObj) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteObjectData", collector, valueObj));
     }
   }; // System.Diagnostics.Tracing.InvokeTypeInfo`1

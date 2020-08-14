@@ -34,7 +34,7 @@ namespace UnityEngine {
     HitInfo(UnityEngine::GameObject* target_ = {}, UnityEngine::Camera* camera_ = {}) : target{target_}, camera{camera_} {}
     // public System.Void SendMessage(System.String name)
     // Offset: 0xA5CEE8
-    void SendMessage(::CsString* name);
+    void SendMessage(::Il2CppString* name);
     // static public System.Boolean Compare(UnityEngine.SendMouseEvents/HitInfo lhs, UnityEngine.SendMouseEvents/HitInfo rhs)
     // Offset: 0x1971918
     static bool Compare(UnityEngine::SendMouseEvents::HitInfo lhs, UnityEngine::SendMouseEvents::HitInfo rhs);

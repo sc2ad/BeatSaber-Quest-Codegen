@@ -44,7 +44,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1217618
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
-    ::CsString* ToString(bool multiLine);
+    ::Il2CppString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

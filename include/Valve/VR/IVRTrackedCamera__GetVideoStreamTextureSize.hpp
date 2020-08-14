@@ -36,13 +36,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x191F55C
-    static IVRTrackedCamera::_GetVideoStreamTextureSize* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRTrackedCamera::_GetVideoStreamTextureSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, Valve.VR.VRTextureBounds_t pTextureBounds, System.UInt32 pnWidth, System.UInt32 pnHeight)
     // Offset: 0x191F570
     Valve::VR::EVRTrackedCameraError Invoke(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, Valve::VR::VRTextureBounds_t& pTextureBounds, uint& pnWidth, uint& pnHeight);
     // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, Valve.VR.EVRTrackedCameraFrameType eFrameType, Valve.VR.VRTextureBounds_t pTextureBounds, System.UInt32 pnWidth, System.UInt32 pnHeight, System.AsyncCallback callback, System.Object object)
     // Offset: 0x191F854
-    System::IAsyncResult* BeginInvoke(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, Valve::VR::VRTextureBounds_t& pTextureBounds, uint& pnWidth, uint& pnHeight, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint nDeviceIndex, Valve::VR::EVRTrackedCameraFrameType eFrameType, Valve::VR::VRTextureBounds_t& pTextureBounds, uint& pnWidth, uint& pnHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRTrackedCameraError EndInvoke(Valve.VR.VRTextureBounds_t pTextureBounds, System.UInt32 pnWidth, System.UInt32 pnHeight, System.IAsyncResult result)
     // Offset: 0x191F960
     Valve::VR::EVRTrackedCameraError EndInvoke(Valve::VR::VRTextureBounds_t& pTextureBounds, uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);

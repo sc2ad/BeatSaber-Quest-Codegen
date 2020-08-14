@@ -19,15 +19,15 @@ namespace UnityEngine::XR {
     public:
     // System.String m_Name
     // Offset: 0x0
-    ::CsString* m_Name;
+    ::Il2CppString* m_Name;
     // UnityEngine.XR.InputFeatureType m_InternalType
     // Offset: 0x8
     UnityEngine::XR::InputFeatureType m_InternalType;
     // Creating value type constructor for type: InputFeatureUsage
-    InputFeatureUsage(::CsString* m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
+    InputFeatureUsage(::Il2CppString* m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
     // public System.String get_name()
     // Offset: 0xA5B430
-    ::CsString* get_name();
+    ::Il2CppString* get_name();
     // UnityEngine.XR.InputFeatureType get_internalType()
     // Offset: 0xA5B438
     UnityEngine::XR::InputFeatureType get_internalType();
@@ -35,7 +35,7 @@ namespace UnityEngine::XR {
     // Offset: 0xA5B440
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.InputFeatureUsage other)
     // Offset: 0xA5B448
     // Implemented from: System.IEquatable`1

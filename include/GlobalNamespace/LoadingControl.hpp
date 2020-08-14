@@ -89,10 +89,10 @@ namespace GlobalNamespace {
     void ShowLoading();
     // public System.Void ShowText(System.String text, System.Boolean showRefreshButton)
     // Offset: 0xBF2714
-    void ShowText(::CsString* text, bool showRefreshButton);
+    void ShowText(::Il2CppString* text, bool showRefreshButton);
     // public System.Void ShowDownloadingProgress(System.String text, System.Single downloadingProgress)
     // Offset: 0xBF7C50
-    void ShowDownloadingProgress(::CsString* text, float downloadingProgress);
+    void ShowDownloadingProgress(::Il2CppString* text, float downloadingProgress);
     // public System.Void Hide()
     // Offset: 0xBF27C8
     void Hide();

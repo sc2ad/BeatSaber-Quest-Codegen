@@ -7,10 +7,10 @@
 #include "System/Object.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 template<class T>
 struct Array;
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -19,13 +19,13 @@ namespace System {
     public:
     // static private System.Boolean InternalEquals(System.Object o1, System.Object o2, System.Object[] fields)
     // Offset: 0x179725C
-    static bool InternalEquals(::CsObject* o1, ::CsObject* o2, ::Array<::CsObject*>*& fields);
+    static bool InternalEquals(::Il2CppObject* o1, ::Il2CppObject* o2, ::Array<::Il2CppObject*>*& fields);
     // static System.Boolean DefaultEquals(System.Object o1, System.Object o2)
     // Offset: 0x1797260
-    static bool DefaultEquals(::CsObject* o1, ::CsObject* o2);
+    static bool DefaultEquals(::Il2CppObject* o1, ::Il2CppObject* o2);
     // static System.Int32 InternalGetHashCode(System.Object o, System.Object[] fields)
     // Offset: 0x179742C
-    static int InternalGetHashCode(::CsObject* o, ::Array<::CsObject*>*& fields);
+    static int InternalGetHashCode(::Il2CppObject* o, ::Array<::Il2CppObject*>*& fields);
     // protected System.Void .ctor()
     // Offset: 0x1797254
     // Implemented from: System.Object
@@ -35,7 +35,7 @@ namespace System {
     // Offset: 0x1797428
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x1797430
     // Implemented from: System.Object
@@ -45,7 +45,7 @@ namespace System {
     // Offset: 0x17974BC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.ValueType
 }
 template<class T>

@@ -28,10 +28,10 @@ namespace System::Xml {
     public:
     // private System.String res
     // Offset: 0x88
-    ::CsString* res;
+    ::Il2CppString* res;
     // private System.String[] args
     // Offset: 0x90
-    ::Array<::CsString*>* args;
+    ::Array<::Il2CppString*>* args;
     // private System.Int32 lineNumber
     // Offset: 0x98
     int lineNumber;
@@ -40,43 +40,43 @@ namespace System::Xml {
     int linePosition;
     // private System.String sourceUri
     // Offset: 0xA0
-    ::CsString* sourceUri;
+    ::Il2CppString* sourceUri;
     // private System.String message
     // Offset: 0xA8
-    ::CsString* message;
+    ::Il2CppString* message;
     // public System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x11A26B4
-    static XmlException* New_ctor(::CsString* message, System::Exception* innerException, int lineNumber, int linePosition);
+    static XmlException* New_ctor(::Il2CppString* message, System::Exception* innerException, int lineNumber, int linePosition);
     // System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition, System.String sourceUri)
     // Offset: 0x11A26BC
-    static XmlException* New_ctor(::CsString* message, System::Exception* innerException, int lineNumber, int linePosition, ::CsString* sourceUri);
+    static XmlException* New_ctor(::Il2CppString* message, System::Exception* innerException, int lineNumber, int linePosition, ::Il2CppString* sourceUri);
     // System.Void .ctor(System.String res, System.String[] args)
     // Offset: 0x11A290C
-    static XmlException* New_ctor(::CsString* res, ::Array<::CsString*>* args);
+    static XmlException* New_ctor(::Il2CppString* res, ::Array<::Il2CppString*>* args);
     // System.Void .ctor(System.String res, System.String arg)
     // Offset: 0x119A0F4
-    static XmlException* New_ctor(::CsString* res, ::CsString* arg);
+    static XmlException* New_ctor(::Il2CppString* res, ::Il2CppString* arg);
     // System.Void .ctor(System.String res, System.String arg, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x119DEAC
-    static XmlException* New_ctor(::CsString* res, ::CsString* arg, int lineNumber, int linePosition);
+    static XmlException* New_ctor(::Il2CppString* res, ::Il2CppString* arg, int lineNumber, int linePosition);
     // System.Void .ctor(System.String res, System.String[] args, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x119E014
-    static XmlException* New_ctor(::CsString* res, ::Array<::CsString*>* args, int lineNumber, int linePosition);
+    static XmlException* New_ctor(::Il2CppString* res, ::Array<::Il2CppString*>* args, int lineNumber, int linePosition);
     // System.Void .ctor(System.String res, System.String[] args, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition, System.String sourceUri)
     // Offset: 0x11A2920
-    static XmlException* New_ctor(::CsString* res, ::Array<::CsString*>* args, System::Exception* innerException, int lineNumber, int linePosition, ::CsString* sourceUri);
+    static XmlException* New_ctor(::Il2CppString* res, ::Array<::Il2CppString*>* args, System::Exception* innerException, int lineNumber, int linePosition, ::Il2CppString* sourceUri);
     // static private System.String FormatUserMessage(System.String message, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x11A2810
-    static ::CsString* FormatUserMessage(::CsString* message, int lineNumber, int linePosition);
+    static ::Il2CppString* FormatUserMessage(::Il2CppString* message, int lineNumber, int linePosition);
     // static private System.String CreateMessage(System.String res, System.String[] args, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x11A22A0
-    static ::CsString* CreateMessage(::CsString* res, ::Array<::CsString*>* args, int lineNumber, int linePosition);
+    static ::Il2CppString* CreateMessage(::Il2CppString* res, ::Array<::Il2CppString*>* args, int lineNumber, int linePosition);
     // static System.String[] BuildCharExceptionArgs(System.String data, System.Int32 invCharIndex)
     // Offset: 0x119DAD8
-    static ::Array<::CsString*>* BuildCharExceptionArgs(::CsString* data, int invCharIndex);
+    static ::Array<::Il2CppString*>* BuildCharExceptionArgs(::Il2CppString* data, int invCharIndex);
     // static System.String[] BuildCharExceptionArgs(System.Char invChar, System.Char nextChar)
     // Offset: 0x119E550
-    static ::Array<::CsString*>* BuildCharExceptionArgs(::Il2CppChar invChar, ::Il2CppChar nextChar);
+    static ::Array<::Il2CppString*>* BuildCharExceptionArgs(::Il2CppChar invChar, ::Il2CppChar nextChar);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x11A1F2C
     // Implemented from: System.SystemException
@@ -103,12 +103,12 @@ namespace System::Xml {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static XmlException* New_ctor(::CsString* message);
+    static XmlException* New_ctor(::Il2CppString* message);
     // public override System.String get_Message()
     // Offset: 0x11A29D4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
   }; // System.Xml.XmlException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -10,8 +10,8 @@
 #include "System/IEquatable_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -66,7 +66,7 @@ namespace UnityEngine {
     // Offset: 0xA43D28
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Vector2Int other)
     // Offset: 0xA43D30
     // Implemented from: System.IEquatable`1
@@ -81,7 +81,7 @@ namespace UnityEngine {
     // Offset: 0xA43D40
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.Vector2Int
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

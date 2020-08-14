@@ -9,7 +9,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {
@@ -76,7 +76,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xA289A4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA289AC
     // Implemented from: System.ValueType

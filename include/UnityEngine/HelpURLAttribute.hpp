@@ -15,10 +15,10 @@ namespace UnityEngine {
     public:
     // readonly System.String m_Url
     // Offset: 0x10
-    ::CsString* m_Url;
+    ::Il2CppString* m_Url;
     // public System.Void .ctor(System.String url)
     // Offset: 0x130CE5C
-    static HelpURLAttribute* New_ctor(::CsString* url);
+    static HelpURLAttribute* New_ctor(::Il2CppString* url);
   }; // UnityEngine.HelpURLAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

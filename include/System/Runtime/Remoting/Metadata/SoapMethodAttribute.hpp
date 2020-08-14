@@ -15,22 +15,22 @@ namespace System::Runtime::Remoting::Metadata {
     public:
     // private System.String _responseElement
     // Offset: 0x28
-    ::CsString* responseElement;
+    ::Il2CppString* responseElement;
     // private System.String _responseNamespace
     // Offset: 0x30
-    ::CsString* responseNamespace;
+    ::Il2CppString* responseNamespace;
     // private System.String _returnElement
     // Offset: 0x38
-    ::CsString* returnElement;
+    ::Il2CppString* returnElement;
     // private System.String _soapAction
     // Offset: 0x40
-    ::CsString* soapAction;
+    ::Il2CppString* soapAction;
     // private System.Boolean _useAttribute
     // Offset: 0x48
     bool useAttribute;
     // private System.String _namespace
     // Offset: 0x50
-    ::CsString* _namespace;
+    ::Il2CppString* _namespace;
     // public System.Void .ctor()
     // Offset: 0xE0FD70
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
@@ -47,12 +47,12 @@ namespace System::Runtime::Remoting::Metadata {
     // Offset: 0xE0FD80
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.String SoapAttribute::get_XmlNamespace()
-    ::CsString* get_XmlNamespace();
+    ::Il2CppString* get_XmlNamespace();
     // override System.Void SetReflectionObject(System.Object reflectionObject)
     // Offset: 0xE0FD88
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::SetReflectionObject(System.Object reflectionObject)
-    void SetReflectionObject(::CsObject* reflectionObject);
+    void SetReflectionObject(::Il2CppObject* reflectionObject);
   }; // System.Runtime.Remoting.Metadata.SoapMethodAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

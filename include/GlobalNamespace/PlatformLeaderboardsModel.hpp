@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     System::Action* allScoresDidUploadEvent;
     // private System.String _playerId
     // Offset: 0x38
-    ::CsString* playerId;
+    ::Il2CppString* playerId;
     // private HMAsyncRequest _getUserInfoAsyncRequest
     // Offset: 0x40
     GlobalNamespace::HMAsyncRequest* getUserInfoAsyncRequest;

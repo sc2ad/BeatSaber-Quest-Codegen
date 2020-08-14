@@ -27,13 +27,13 @@ namespace UnityEngine {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x141A3FC
-    static RectTransform::ReapplyDrivenProperties* New_ctor(::CsObject* object, System::IntPtr method);
+    static RectTransform::ReapplyDrivenProperties* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.RectTransform driven)
     // Offset: 0x141A044
     void Invoke(UnityEngine::RectTransform* driven);
     // public System.IAsyncResult BeginInvoke(UnityEngine.RectTransform driven, System.AsyncCallback callback, System.Object object)
     // Offset: 0x141A410
-    System::IAsyncResult* BeginInvoke(UnityEngine::RectTransform* driven, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::RectTransform* driven, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x141A434
     void EndInvoke(System::IAsyncResult* result);

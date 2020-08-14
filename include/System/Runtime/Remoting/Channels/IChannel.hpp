@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Channels
 namespace System::Runtime::Remoting::Channels {
@@ -15,7 +15,7 @@ namespace System::Runtime::Remoting::Channels {
     public:
     // public System.String get_ChannelName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_ChannelName();
+    ::Il2CppString* get_ChannelName();
     // public System.Int32 get_ChannelPriority()
     // Offset: 0xFFFFFFFF
     int get_ChannelPriority();

@@ -21,7 +21,7 @@ namespace Mono::Xml {
     int column;
     // public System.Void .ctor(System.String msg, System.Int32 line, System.Int32 column)
     // Offset: 0x10B4980
-    static SmallXmlParserException* New_ctor(::CsString* msg, int line, int column);
+    static SmallXmlParserException* New_ctor(::Il2CppString* msg, int line, int column);
   }; // Mono.Xml.SmallXmlParserException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

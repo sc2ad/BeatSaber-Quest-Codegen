@@ -32,13 +32,13 @@ namespace UnityEngine {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1303960
-    static CullingGroup::StateChanged* New_ctor(::CsObject* object, System::IntPtr method);
+    static CullingGroup::StateChanged* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.CullingGroupEvent sphere)
     // Offset: 0x1303700
     void Invoke(UnityEngine::CullingGroupEvent sphere);
     // public System.IAsyncResult BeginInvoke(UnityEngine.CullingGroupEvent sphere, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1303974
-    System::IAsyncResult* BeginInvoke(UnityEngine::CullingGroupEvent sphere, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::CullingGroupEvent sphere, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1303A00
     void EndInvoke(System::IAsyncResult* result);

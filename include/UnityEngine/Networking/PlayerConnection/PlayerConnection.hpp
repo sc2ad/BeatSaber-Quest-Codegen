@@ -54,10 +54,6 @@ namespace UnityEngine::Networking::PlayerConnection {
     class $$c__DisplayClass13_0;
     // Nested type: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0
     class $$c__DisplayClass20_0;
-    // Get static field: static UnityEngine.IPlayerEditorConnectionNative connectionNative
-    static UnityEngine::IPlayerEditorConnectionNative* _get_connectionNative();
-    // Set static field: static UnityEngine.IPlayerEditorConnectionNative connectionNative
-    static void _set_connectionNative(UnityEngine::IPlayerEditorConnectionNative* value);
     // private UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents m_PlayerEditorConnectionEvents
     // Offset: 0x18
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* m_PlayerEditorConnectionEvents;
@@ -67,6 +63,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     // private System.Boolean m_IsInitilized
     // Offset: 0x28
     bool m_IsInitilized;
+    // Get static field: static UnityEngine.IPlayerEditorConnectionNative connectionNative
+    static UnityEngine::IPlayerEditorConnectionNative* _get_connectionNative();
+    // Set static field: static UnityEngine.IPlayerEditorConnectionNative connectionNative
+    static void _set_connectionNative(UnityEngine::IPlayerEditorConnectionNative* value);
     // Get static field: static private UnityEngine.Networking.PlayerConnection.PlayerConnection s_Instance
     static UnityEngine::Networking::PlayerConnection::PlayerConnection* _get_s_Instance();
     // Set static field: static private UnityEngine.Networking.PlayerConnection.PlayerConnection s_Instance
@@ -118,7 +118,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     void DisconnectAll();
     // static private System.Void MessageCallbackInternal(System.IntPtr data, System.UInt64 size, System.UInt64 guid, System.String messageId)
     // Offset: 0x140E720
-    static void MessageCallbackInternal(System::IntPtr data, uint64_t size, uint64_t guid, ::CsString* messageId);
+    static void MessageCallbackInternal(System::IntPtr data, uint64_t size, uint64_t guid, ::Il2CppString* messageId);
     // static private System.Void ConnectedCallbackInternal(System.Int32 playerId)
     // Offset: 0x140EC10
     static void ConnectedCallbackInternal(int playerId);

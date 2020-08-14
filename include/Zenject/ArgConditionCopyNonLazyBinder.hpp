@@ -68,7 +68,7 @@ namespace Zenject {
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(System.Object[] args)
     // Offset: 0xD6415C
-    Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::Array<::CsObject*>* args);
+    Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::Array<::Il2CppObject*>* args);
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArgumentsExplicit(System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
     // Offset: 0xD6428C
     Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArgumentsExplicit(System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArgs);

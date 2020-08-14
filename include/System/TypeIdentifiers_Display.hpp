@@ -21,26 +21,26 @@ namespace System {
     public:
     // private System.String displayName
     // Offset: 0x10
-    ::CsString* displayName;
+    ::Il2CppString* displayName;
     // private System.String internal_name
     // Offset: 0x18
-    ::CsString* internal_name;
+    ::Il2CppString* internal_name;
     // System.Void .ctor(System.String displayName)
     // Offset: 0x1790980
-    static TypeIdentifiers::Display* New_ctor(::CsString* displayName);
+    static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName);
     // private System.String GetInternalName()
     // Offset: 0x1790A18
-    ::CsString* GetInternalName();
+    ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
     // Offset: 0x17909CC
     // Implemented from: System.TypeNames/ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
-    ::CsString* get_DisplayName();
+    ::Il2CppString* get_DisplayName();
     // public System.String get_InternalName()
     // Offset: 0x17909D4
     // Implemented from: System.TypeIdentifier
     // Base method: System.String TypeIdentifier::get_InternalName()
-    ::CsString* get_InternalName();
+    ::Il2CppString* get_InternalName();
   }; // System.TypeIdentifiers/Display
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

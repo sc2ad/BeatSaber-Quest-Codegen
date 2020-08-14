@@ -22,19 +22,19 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <TagName>k__BackingField
     // Offset: 0x10
-    ::CsString* TagName;
+    ::Il2CppString* TagName;
     // private System.Type <ControlType>k__BackingField
     // Offset: 0x18
     System::Type* ControlType;
     // public System.Void .ctor(System.String tagName, System.Type controlType)
     // Offset: 0x1957888
-    static AspChildControlTypeAttribute* New_ctor(::CsString* tagName, System::Type* controlType);
+    static AspChildControlTypeAttribute* New_ctor(::Il2CppString* tagName, System::Type* controlType);
     // public System.String get_TagName()
     // Offset: 0x19578D8
-    ::CsString* get_TagName();
+    ::Il2CppString* get_TagName();
     // private System.Void set_TagName(System.String value)
     // Offset: 0x19578E0
-    void set_TagName(::CsString* value);
+    void set_TagName(::Il2CppString* value);
     // public System.Type get_ControlType()
     // Offset: 0x19578E8
     System::Type* get_ControlType();

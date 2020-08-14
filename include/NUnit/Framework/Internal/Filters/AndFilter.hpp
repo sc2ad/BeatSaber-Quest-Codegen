@@ -52,7 +52,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Offset: 0x1085ECC
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.String CompositeFilter::get_ElementName()
-    ::CsString* get_ElementName();
+    ::Il2CppString* get_ElementName();
   }; // NUnit.Framework.Internal.Filters.AndFilter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

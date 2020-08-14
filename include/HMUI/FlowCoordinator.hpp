@@ -94,7 +94,7 @@ namespace HMUI {
     bool wasActivatedBefore;
     // private System.String _title
     // Offset: 0x68
-    ::CsString* title;
+    ::Il2CppString* title;
     // private HMUI.ViewController _providedMainViewController
     // Offset: 0x70
     HMUI::ViewController* providedMainViewController;
@@ -136,10 +136,10 @@ namespace HMUI {
     bool get_isActivated();
     // protected System.Void set_title(System.String value)
     // Offset: 0xED69C8
-    void set_title(::CsString* value);
+    void set_title(::Il2CppString* value);
     // protected System.String get_title()
     // Offset: 0xED6B60
-    ::CsString* get_title();
+    ::Il2CppString* get_title();
     // protected System.Void set_showBackButton(System.Boolean value)
     // Offset: 0xED6B68
     void set_showBackButton(bool value);
@@ -196,7 +196,7 @@ namespace HMUI {
     void SetTopScreenViewController(HMUI::ViewController* viewController, bool immediately);
     // private System.Void PresentTitle(System.String title, System.Boolean immediately)
     // Offset: 0xED6AE0
-    void PresentTitle(::CsString* title, bool immediately);
+    void PresentTitle(::Il2CppString* title, bool immediately);
     // public System.Boolean IsFlowCoordinatorInHierarchy(HMUI.FlowCoordinator flowCoordinator)
     // Offset: 0xED6A1C
     bool IsFlowCoordinatorInHierarchy(HMUI::FlowCoordinator* flowCoordinator);
@@ -241,7 +241,7 @@ namespace HMUI {
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // static public System.Void Log(System.String message)
     // Offset: 0xED84DC
-    static void Log(::CsString* message);
+    static void Log(::Il2CppString* message);
     // private System.Void <__StartOnScreenSystem>b__35_0()
     // Offset: 0xED85C0
     void $__StartOnScreenSystem$b__35_0();

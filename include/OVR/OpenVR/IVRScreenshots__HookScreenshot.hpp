@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16A7544
-    static IVRScreenshots::_HookScreenshot* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRScreenshots::_HookScreenshot* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRScreenshotError Invoke(OVR.OpenVR.EVRScreenshotType[] pSupportedTypes, System.Int32 numTypes)
     // Offset: 0x16A7558
     OVR::OpenVR::EVRScreenshotError Invoke(::Array<OVR::OpenVR::EVRScreenshotType>*& pSupportedTypes, int numTypes);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRScreenshotType[] pSupportedTypes, System.Int32 numTypes, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16A77CC
-    System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::EVRScreenshotType>*& pSupportedTypes, int numTypes, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::EVRScreenshotType>*& pSupportedTypes, int numTypes, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRScreenshotError EndInvoke(System.IAsyncResult result)
     // Offset: 0x16A7868
     OVR::OpenVR::EVRScreenshotError EndInvoke(System::IAsyncResult* result);

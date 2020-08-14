@@ -39,18 +39,18 @@ namespace UnityEngine::EventSystems {
     public:
     // Nested type: UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c
     class $$c;
-    // static field const value: static protected System.Int32 kNoEventMaskSet
-    static constexpr const int kNoEventMaskSet = -1;
-    // Get static field: static protected System.Int32 kNoEventMaskSet
-    static int _get_kNoEventMaskSet();
-    // Set static field: static protected System.Int32 kNoEventMaskSet
-    static void _set_kNoEventMaskSet(int value);
     // protected UnityEngine.LayerMask m_EventMask
     // Offset: 0x20
     UnityEngine::LayerMask m_EventMask;
     // public System.Int32 sortOrder
     // Offset: 0x24
     int sortOrder;
+    // static field const value: static protected System.Int32 kNoEventMaskSet
+    static constexpr const int kNoEventMaskSet = -1;
+    // Get static field: static protected System.Int32 kNoEventMaskSet
+    static int _get_kNoEventMaskSet();
+    // Set static field: static protected System.Int32 kNoEventMaskSet
+    static void _set_kNoEventMaskSet(int value);
     // public System.Int32 get_depth()
     // Offset: 0x18FADC8
     int get_depth();

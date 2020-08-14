@@ -37,7 +37,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -83,23 +83,23 @@ namespace UnityEngine::Playables {
     }
     // static private System.Object CreateScriptInstance()
     // Offset: 0xFFFFFFFF
-    static ::CsObject* CreateScriptInstance() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CreateScriptInstance"));
+    static ::Il2CppObject* CreateScriptInstance() {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CreateScriptInstance"));
     }
     // static private System.Object CloneScriptInstance(UnityEngine.Playables.IPlayableBehaviour source)
     // Offset: 0xFFFFFFFF
-    static ::CsObject* CloneScriptInstance(UnityEngine::Playables::IPlayableBehaviour* source) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstance", source));
+    static ::Il2CppObject* CloneScriptInstance(UnityEngine::Playables::IPlayableBehaviour* source) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstance", source));
     }
     // static private System.Object CloneScriptInstanceFromEngineObject(UnityEngine.Object source)
     // Offset: 0xFFFFFFFF
-    static ::CsObject* CloneScriptInstanceFromEngineObject(UnityEngine::Object* source) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromEngineObject", source));
+    static ::Il2CppObject* CloneScriptInstanceFromEngineObject(UnityEngine::Object* source) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromEngineObject", source));
     }
     // static private System.Object CloneScriptInstanceFromIClonable(System.ICloneable source)
     // Offset: 0xFFFFFFFF
-    static ::CsObject* CloneScriptInstanceFromIClonable(System::ICloneable* source) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromIClonable", source));
+    static ::Il2CppObject* CloneScriptInstanceFromIClonable(System::ICloneable* source) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromIClonable", source));
     }
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0xFFFFFFFF

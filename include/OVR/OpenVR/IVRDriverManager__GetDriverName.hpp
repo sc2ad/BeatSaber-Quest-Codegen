@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x150FAA0
-    static IVRDriverManager::_GetDriverName* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRDriverManager::_GetDriverName* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
     // Offset: 0x150FAB4
     uint Invoke(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.IAsyncResult BeginInvoke(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, System.AsyncCallback callback, System.Object object)
     // Offset: 0x150FD60
-    System::IAsyncResult* BeginInvoke(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
     // Offset: 0x150FE10
     uint EndInvoke(System::IAsyncResult* result);

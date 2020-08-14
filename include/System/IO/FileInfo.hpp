@@ -29,19 +29,19 @@ namespace System::IO {
     public:
     // private System.String _name
     // Offset: 0x60
-    ::CsString* name;
+    ::Il2CppString* name;
     // public System.Void .ctor(System.String fileName)
     // Offset: 0x112F2F4
-    static FileInfo* New_ctor(::CsString* fileName);
+    static FileInfo* New_ctor(::Il2CppString* fileName);
     // private System.Void Init(System.String fileName, System.Boolean checkHost)
     // Offset: 0x112F394
-    void Init(::CsString* fileName, bool checkHost);
+    void Init(::Il2CppString* fileName, bool checkHost);
     // private System.String GetDisplayPath(System.String originalPath)
     // Offset: 0x112F458
-    ::CsString* GetDisplayPath(::CsString* originalPath);
+    ::Il2CppString* GetDisplayPath(::Il2CppString* originalPath);
     // public System.String get_DirectoryName()
     // Offset: 0x112F50C
-    ::CsString* get_DirectoryName();
+    ::Il2CppString* get_DirectoryName();
     // public System.IO.StreamWriter CreateText()
     // Offset: 0x112F578
     System::IO::StreamWriter* CreateText();
@@ -57,7 +57,7 @@ namespace System::IO {
     // Offset: 0x112F504
     // Implemented from: System.IO.FileSystemInfo
     // Base method: System.String FileSystemInfo::get_Name()
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public override System.Boolean get_Exists()
     // Offset: 0x112F650
     // Implemented from: System.IO.FileSystemInfo
@@ -67,7 +67,7 @@ namespace System::IO {
     // Offset: 0x112F744
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.IO.FileInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

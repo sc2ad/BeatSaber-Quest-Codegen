@@ -27,13 +27,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE3988
-    static IVRApplications::_GetApplicationProcessId* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_GetApplicationProcessId* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchAppKey)
     // Offset: 0xFD853C
-    uint Invoke(::CsString* pchAppKey);
+    uint Invoke(::Il2CppString* pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE399C
-    System::IAsyncResult* BeginInvoke(::CsString* pchAppKey, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
     // Offset: 0xFE39C0
     uint EndInvoke(System::IAsyncResult* result);

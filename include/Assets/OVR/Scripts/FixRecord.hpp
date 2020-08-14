@@ -33,7 +33,7 @@ namespace Assets::OVR::Scripts {
     UnityEngine::Object* targetObject;
     // public System.String[] buttonNames
     // Offset: 0x30
-    ::Array<::CsString*>* buttonNames;
+    ::Array<::Il2CppString*>* buttonNames;
     // public System.Boolean editModeRequired
     // Offset: 0x38
     bool editModeRequired;
@@ -42,7 +42,7 @@ namespace Assets::OVR::Scripts {
     bool complete;
     // public System.Void .ctor(System.String cat, System.String msg, Assets.OVR.Scripts.FixMethodDelegate fix, UnityEngine.Object target, System.Boolean editRequired, System.String[] buttons)
     // Offset: 0xEBE244
-    static FixRecord* New_ctor(::CsString* cat, ::CsString* msg, Assets::OVR::Scripts::FixMethodDelegate* fix, UnityEngine::Object* target, bool editRequired, ::Array<::CsString*>* buttons);
+    static FixRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, Assets::OVR::Scripts::FixMethodDelegate* fix, UnityEngine::Object* target, bool editRequired, ::Array<::Il2CppString*>* buttons);
   }; // Assets.OVR.Scripts.FixRecord
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -34,13 +34,13 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* leaderboardIds;
     // private System.Collections.Generic.Dictionary`2<System.String,System.UInt32> _leaderboardIdToPs4Id
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<::CsString*, uint>* leaderboardIdToPs4Id;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>* leaderboardIdToPs4Id;
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
     // Offset: 0xBCEDF8
     System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();
     // public System.Boolean GetPS4LeaderboardId(System.String leaderboardId, System.UInt32 ps4LeaderboardId)
     // Offset: 0xBCEF44
-    bool GetPS4LeaderboardId(::CsString* leaderboardId, uint& ps4LeaderboardId);
+    bool GetPS4LeaderboardId(::Il2CppString* leaderboardId, uint& ps4LeaderboardId);
     // protected override System.Void OnEnable()
     // Offset: 0xBCEE00
     // Implemented from: PersistentScriptableObject

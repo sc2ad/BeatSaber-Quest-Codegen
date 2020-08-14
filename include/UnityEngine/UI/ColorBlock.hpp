@@ -12,7 +12,7 @@
 #include "UnityEngine/Color.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
@@ -91,7 +91,7 @@ namespace UnityEngine::UI {
     // Offset: 0xA2E0C4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.UI.ColorBlock other)
     // Offset: 0xA2E0CC
     // Implemented from: System.IEquatable`1

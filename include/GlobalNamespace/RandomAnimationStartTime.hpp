@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     UnityEngine::Animator* animator;
     // private System.String _stateName
     // Offset: 0x20
-    ::CsString* stateName;
+    ::Il2CppString* stateName;
     // protected System.Void Start()
     // Offset: 0xCB821C
     void Start();

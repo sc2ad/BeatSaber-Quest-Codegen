@@ -25,27 +25,27 @@ namespace System::Runtime::Remoting {
     System::Type* obj_type;
     // private System.String obj_url
     // Offset: 0x28
-    ::CsString* obj_url;
+    ::Il2CppString* obj_url;
     // private System.String app_url
     // Offset: 0x30
-    ::CsString* app_url;
+    ::Il2CppString* app_url;
     // public System.Void .ctor(System.String typeName, System.String assemblyName, System.String objectUrl)
     // Offset: 0xE1C754
-    static WellKnownClientTypeEntry* New_ctor(::CsString* typeName, ::CsString* assemblyName, ::CsString* objectUrl);
+    static WellKnownClientTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, ::Il2CppString* objectUrl);
     // public System.String get_ApplicationUrl()
     // Offset: 0xE1C8BC
-    ::CsString* get_ApplicationUrl();
+    ::Il2CppString* get_ApplicationUrl();
     // public System.Type get_ObjectType()
     // Offset: 0xE1C8C4
     System::Type* get_ObjectType();
     // public System.String get_ObjectUrl()
     // Offset: 0xE1C8CC
-    ::CsString* get_ObjectUrl();
+    ::Il2CppString* get_ObjectUrl();
     // public override System.String ToString()
     // Offset: 0xE1C8D4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.Runtime.Remoting.WellKnownClientTypeEntry
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

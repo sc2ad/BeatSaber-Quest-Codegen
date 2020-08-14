@@ -37,13 +37,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16BDB9C
-    static IVRRenderModels::_GetRenderModelOriginalPath* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRRenderModels::_GetRenderModelOriginalPath* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, Valve.VR.EVRRenderModelError peError)
     // Offset: 0x16BDBB0
-    uint Invoke(::CsString* pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, Valve::VR::EVRRenderModelError& peError);
+    uint Invoke(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, Valve::VR::EVRRenderModelError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, Valve.VR.EVRRenderModelError peError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16BE004
-    System::IAsyncResult* BeginInvoke(::CsString* pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, Valve::VR::EVRRenderModelError& peError, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, Valve::VR::EVRRenderModelError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(Valve.VR.EVRRenderModelError peError, System.IAsyncResult result)
     // Offset: 0x16BE0CC
     uint EndInvoke(Valve::VR::EVRRenderModelError& peError, System::IAsyncResult* result);

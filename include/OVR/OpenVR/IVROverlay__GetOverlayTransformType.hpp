@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x151F0BC
-    static IVROverlay::_GetOverlayTransformType* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayTransformType* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayTransformType peTransformType)
     // Offset: 0x151F0D0
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayTransformType& peTransformType);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayTransformType peTransformType, System.AsyncCallback callback, System.Object object)
     // Offset: 0x151F354
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayTransformType& peTransformType, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayTransformType& peTransformType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(OVR.OpenVR.VROverlayTransformType peTransformType, System.IAsyncResult result)
     // Offset: 0x151F404
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::VROverlayTransformType& peTransformType, System::IAsyncResult* result);

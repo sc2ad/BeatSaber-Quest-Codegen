@@ -27,10 +27,10 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 template<class T>
 struct Array;
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
@@ -45,7 +45,7 @@ namespace NUnit::Framework::Interfaces {
     System::Reflection::MethodInfo* get_MethodInfo();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public System.Boolean get_IsAbstract()
     // Offset: 0xFFFFFFFF
     bool get_IsAbstract();
@@ -69,7 +69,7 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::Array<System::Type*>* typeArguments);
     // public System.Object Invoke(System.Object fixture, System.Object[] args)
     // Offset: 0xFFFFFFFF
-    ::CsObject* Invoke(::CsObject* fixture, ::Array<::CsObject*>* args);
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Interfaces.IMethodInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

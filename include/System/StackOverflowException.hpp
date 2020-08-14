@@ -34,7 +34,7 @@ namespace System {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static StackOverflowException* New_ctor(::CsString* message);
+    static StackOverflowException* New_ctor(::Il2CppString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xDECDAC
     // Implemented from: System.SystemException

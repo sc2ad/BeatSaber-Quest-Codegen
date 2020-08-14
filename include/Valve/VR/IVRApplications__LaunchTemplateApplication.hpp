@@ -34,13 +34,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE466C
-    static IVRApplications::_LaunchTemplateApplication* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_LaunchTemplateApplication* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationError Invoke(System.String pchTemplateAppKey, System.String pchNewAppKey, Valve.VR.AppOverrideKeys_t[] pKeys, System.UInt32 unKeys)
     // Offset: 0xFD7250
-    Valve::VR::EVRApplicationError Invoke(::CsString* pchTemplateAppKey, ::CsString* pchNewAppKey, ::Array<Valve::VR::AppOverrideKeys_t>*& pKeys, uint unKeys);
+    Valve::VR::EVRApplicationError Invoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::Array<Valve::VR::AppOverrideKeys_t>*& pKeys, uint unKeys);
     // public System.IAsyncResult BeginInvoke(System.String pchTemplateAppKey, System.String pchNewAppKey, Valve.VR.AppOverrideKeys_t[] pKeys, System.UInt32 unKeys, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE4680
-    System::IAsyncResult* BeginInvoke(::CsString* pchTemplateAppKey, ::CsString* pchNewAppKey, ::Array<Valve::VR::AppOverrideKeys_t>*& pKeys, uint unKeys, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::Array<Valve::VR::AppOverrideKeys_t>*& pKeys, uint unKeys, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xFE4730
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

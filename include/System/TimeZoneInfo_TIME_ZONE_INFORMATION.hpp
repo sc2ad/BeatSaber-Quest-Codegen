@@ -22,7 +22,7 @@ namespace System {
     int Bias;
     // System.String StandardName
     // Offset: 0x8
-    ::CsString* StandardName;
+    ::Il2CppString* StandardName;
     // System.TimeZoneInfo/SYSTEMTIME StandardDate
     // Offset: 0x10
     System::TimeZoneInfo::SYSTEMTIME StandardDate;
@@ -31,7 +31,7 @@ namespace System {
     int StandardBias;
     // System.String DaylightName
     // Offset: 0x28
-    ::CsString* DaylightName;
+    ::Il2CppString* DaylightName;
     // System.TimeZoneInfo/SYSTEMTIME DaylightDate
     // Offset: 0x30
     System::TimeZoneInfo::SYSTEMTIME DaylightDate;
@@ -39,7 +39,7 @@ namespace System {
     // Offset: 0x40
     int DaylightBias;
     // Creating value type constructor for type: TIME_ZONE_INFORMATION
-    TIME_ZONE_INFORMATION(int Bias_ = {}, ::CsString* StandardName_ = {}, System::TimeZoneInfo::SYSTEMTIME StandardDate_ = {}, int StandardBias_ = {}, ::CsString* DaylightName_ = {}, System::TimeZoneInfo::SYSTEMTIME DaylightDate_ = {}, int DaylightBias_ = {}) : Bias{Bias_}, StandardName{StandardName_}, StandardDate{StandardDate_}, StandardBias{StandardBias_}, DaylightName{DaylightName_}, DaylightDate{DaylightDate_}, DaylightBias{DaylightBias_} {}
+    TIME_ZONE_INFORMATION(int Bias_ = {}, ::Il2CppString* StandardName_ = {}, System::TimeZoneInfo::SYSTEMTIME StandardDate_ = {}, int StandardBias_ = {}, ::Il2CppString* DaylightName_ = {}, System::TimeZoneInfo::SYSTEMTIME DaylightDate_ = {}, int DaylightBias_ = {}) : Bias{Bias_}, StandardName{StandardName_}, StandardDate{StandardDate_}, StandardBias{StandardBias_}, DaylightName{DaylightName_}, DaylightDate{DaylightDate_}, DaylightBias{DaylightBias_} {}
   }; // System.TimeZoneInfo/TIME_ZONE_INFORMATION
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -38,7 +38,7 @@ namespace Zenject {
     class $$c__DisplayClass2_0_1;
     // public Zenject.ConditionCopyNonLazyBinder OnInstantiated(System.Action`2<Zenject.InjectContext,System.Object> callback)
     // Offset: 0xF381F4
-    Zenject::ConditionCopyNonLazyBinder* OnInstantiated(System::Action_2<Zenject::InjectContext*, ::CsObject*>* callback);
+    Zenject::ConditionCopyNonLazyBinder* OnInstantiated(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* callback);
     // public Zenject.ConditionCopyNonLazyBinder OnInstantiated(System.Action`2<Zenject.InjectContext,T> callback)
     // Offset: 0xFFFFFFFF
     template<class T>

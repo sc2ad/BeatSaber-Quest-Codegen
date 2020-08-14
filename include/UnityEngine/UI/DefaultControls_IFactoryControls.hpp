@@ -27,7 +27,7 @@ namespace UnityEngine::UI {
     public:
     // public UnityEngine.GameObject CreateGameObject(System.String name, System.Type[] components)
     // Offset: 0xFFFFFFFF
-    UnityEngine::GameObject* CreateGameObject(::CsString* name, ::Array<System::Type*>* components);
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::Array<System::Type*>* components);
   }; // UnityEngine.UI.DefaultControls/IFactoryControls
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

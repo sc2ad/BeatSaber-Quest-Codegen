@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE4BB8
-    static IVRChaperone::_GetCalibrationState* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperone::_GetCalibrationState* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.ChaperoneCalibrationState Invoke()
     // Offset: 0xFDCCD4
     Valve::VR::ChaperoneCalibrationState Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE4BCC
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.ChaperoneCalibrationState EndInvoke(System.IAsyncResult result)
     // Offset: 0xFE4BF8
     Valve::VR::ChaperoneCalibrationState EndInvoke(System::IAsyncResult* result);

@@ -32,13 +32,13 @@ namespace System {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1154090
-    static ResolveEventHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static ResolveEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Reflection.Assembly Invoke(System.Object sender, System.ResolveEventArgs args)
     // Offset: 0x11540A4
-    System::Reflection::Assembly* Invoke(::CsObject* sender, System::ResolveEventArgs* args);
+    System::Reflection::Assembly* Invoke(::Il2CppObject* sender, System::ResolveEventArgs* args);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.ResolveEventArgs args, System.AsyncCallback callback, System.Object object)
     // Offset: 0x11544B0
-    System::IAsyncResult* BeginInvoke(::CsObject* sender, System::ResolveEventArgs* args, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::ResolveEventArgs* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Reflection.Assembly EndInvoke(System.IAsyncResult result)
     // Offset: 0x11544E0
     System::Reflection::Assembly* EndInvoke(System::IAsyncResult* result);

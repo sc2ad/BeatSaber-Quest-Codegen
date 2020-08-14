@@ -78,7 +78,7 @@ namespace HMUI {
     void OnDestroy();
     // public System.Void SetText(System.String text)
     // Offset: 0x10E4678
-    void SetText(::CsString* text);
+    void SetText(::Il2CppString* text);
     // protected System.Void Update()
     // Offset: 0x10E49A4
     void Update();

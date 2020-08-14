@@ -33,13 +33,13 @@ namespace UnityEngine::Networking {
     public:
     // static private System.IntPtr Create(UnityEngine.Networking.DownloadHandlerAudioClip obj, System.String url, UnityEngine.AudioType audioType)
     // Offset: 0x1976594
-    static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::CsString* url, UnityEngine::AudioType audioType);
+    static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::Il2CppString* url, UnityEngine::AudioType audioType);
     // private System.Void InternalCreateAudioClip(System.String url, UnityEngine.AudioType audioType)
     // Offset: 0x19765EC
-    void InternalCreateAudioClip(::CsString* url, UnityEngine::AudioType audioType);
+    void InternalCreateAudioClip(::Il2CppString* url, UnityEngine::AudioType audioType);
     // public System.Void .ctor(System.String url, UnityEngine.AudioType audioType)
     // Offset: 0x197664C
-    static DownloadHandlerAudioClip* New_ctor(::CsString* url, UnityEngine::AudioType audioType);
+    static DownloadHandlerAudioClip* New_ctor(::Il2CppString* url, UnityEngine::AudioType audioType);
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0x1976728
     UnityEngine::AudioClip* get_audioClip();
@@ -58,7 +58,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x19766BC
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.String DownloadHandler::GetText()
-    ::CsString* GetText();
+    ::Il2CppString* GetText();
   }; // UnityEngine.Networking.DownloadHandlerAudioClip
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

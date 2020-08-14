@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -32,7 +32,7 @@ namespace Microsoft::Win32 {
     public:
     // public Microsoft.Win32.RegistryKey OpenSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyname, System.Boolean writtable)
     // Offset: 0xFFFFFFFF
-    Microsoft::Win32::RegistryKey* OpenSubKey(Microsoft::Win32::RegistryKey* rkey, ::CsString* keyname, bool writtable);
+    Microsoft::Win32::RegistryKey* OpenSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyname, bool writtable);
     // public System.Void Flush(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0xFFFFFFFF
     void Flush(Microsoft::Win32::RegistryKey* rkey);
@@ -41,13 +41,13 @@ namespace Microsoft::Win32 {
     void Close(Microsoft::Win32::RegistryKey* rkey);
     // public System.Object GetValue(Microsoft.Win32.RegistryKey rkey, System.String name, System.Object default_value, Microsoft.Win32.RegistryValueOptions options)
     // Offset: 0xFFFFFFFF
-    ::CsObject* GetValue(Microsoft::Win32::RegistryKey* rkey, ::CsString* name, ::CsObject* default_value, Microsoft::Win32::RegistryValueOptions options);
+    ::Il2CppObject* GetValue(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* name, ::Il2CppObject* default_value, Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0xFFFFFFFF
-    ::Array<::CsString*>* GetSubKeyNames(Microsoft::Win32::RegistryKey* rkey);
+    ::Array<::Il2CppString*>* GetSubKeyNames(Microsoft::Win32::RegistryKey* rkey);
     // public System.String ToString(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0xFFFFFFFF
-    ::CsString* ToString(Microsoft::Win32::RegistryKey* rkey);
+    ::Il2CppString* ToString(Microsoft::Win32::RegistryKey* rkey);
     // public System.IntPtr GetHandle(Microsoft.Win32.RegistryKey key)
     // Offset: 0xFFFFFFFF
     System::IntPtr GetHandle(Microsoft::Win32::RegistryKey* key);

@@ -26,7 +26,7 @@ namespace UnityEngine::EventSystems {
     public:
     // public System.String get_compositionString()
     // Offset: 0xDF5598
-    ::CsString* get_compositionString();
+    ::Il2CppString* get_compositionString();
     // public UnityEngine.IMECompositionMode get_imeCompositionMode()
     // Offset: 0xDF55A0
     UnityEngine::IMECompositionMode get_imeCompositionMode();
@@ -68,10 +68,10 @@ namespace UnityEngine::EventSystems {
     UnityEngine::Touch GetTouch(int index);
     // public System.Single GetAxisRaw(System.String axisName)
     // Offset: 0xDF561C
-    float GetAxisRaw(::CsString* axisName);
+    float GetAxisRaw(::Il2CppString* axisName);
     // public System.Boolean GetButtonDown(System.String buttonName)
     // Offset: 0xDF5628
-    bool GetButtonDown(::CsString* buttonName);
+    bool GetButtonDown(::Il2CppString* buttonName);
     // public System.Void .ctor()
     // Offset: 0xDF5634
     // Implemented from: UnityEngine.EventSystems.UIBehaviour

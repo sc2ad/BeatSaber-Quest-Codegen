@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED0238
-    static IVRApplications::_LaunchTemplateApplication* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_LaunchTemplateApplication* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchTemplateAppKey, System.String pchNewAppKey, OVR.OpenVR.AppOverrideKeys_t[] pKeys, System.UInt32 unKeys)
     // Offset: 0xEBFC38
-    OVR::OpenVR::EVRApplicationError Invoke(::CsString* pchTemplateAppKey, ::CsString* pchNewAppKey, ::Array<OVR::OpenVR::AppOverrideKeys_t>*& pKeys, uint unKeys);
+    OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::Array<OVR::OpenVR::AppOverrideKeys_t>*& pKeys, uint unKeys);
     // public System.IAsyncResult BeginInvoke(System.String pchTemplateAppKey, System.String pchNewAppKey, OVR.OpenVR.AppOverrideKeys_t[] pKeys, System.UInt32 unKeys, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED024C
-    System::IAsyncResult* BeginInvoke(::CsString* pchTemplateAppKey, ::CsString* pchNewAppKey, ::Array<OVR::OpenVR::AppOverrideKeys_t>*& pKeys, uint unKeys, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::Array<OVR::OpenVR::AppOverrideKeys_t>*& pKeys, uint unKeys, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xED02FC
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

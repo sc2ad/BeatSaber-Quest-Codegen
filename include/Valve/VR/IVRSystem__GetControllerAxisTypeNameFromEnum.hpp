@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C74DC
-    static IVRSystem::_GetControllerAxisTypeNameFromEnum* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetControllerAxisTypeNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRControllerAxisType eAxisType)
     // Offset: 0x16C74F0
     System::IntPtr Invoke(Valve::VR::EVRControllerAxisType eAxisType);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRControllerAxisType eAxisType, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16C7764
-    System::IAsyncResult* BeginInvoke(Valve::VR::EVRControllerAxisType eAxisType, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::EVRControllerAxisType eAxisType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
     // Offset: 0x16C77F0
     System::IntPtr EndInvoke(System::IAsyncResult* result);

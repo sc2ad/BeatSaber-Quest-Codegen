@@ -18,7 +18,7 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
@@ -33,12 +33,12 @@ namespace NetEase::Docker {
     int HighscoreCode;
     // private System.String <Track>k__BackingField
     // Offset: 0x8
-    ::CsString* Track;
+    ::Il2CppString* Track;
     // private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
     // Offset: 0x10
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores;
     // Creating value type constructor for type: ReceivedHighscoreData
-    ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::CsString* Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
+    ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::Il2CppString* Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
     // public System.Boolean get_FetchingSuccessful()
     // Offset: 0xA5CB9C
     bool get_FetchingSuccessful();
@@ -50,10 +50,10 @@ namespace NetEase::Docker {
     void set_HighscoreCode(int value);
     // public System.String get_Track()
     // Offset: 0xA5CBB8
-    ::CsString* get_Track();
+    ::Il2CppString* get_Track();
     // public System.Void set_Track(System.String value)
     // Offset: 0xA5CBC0
-    void set_Track(::CsString* value);
+    void set_Track(::Il2CppString* value);
     // public System.Collections.Generic.List`1<NetEase.Docker.ScoreData> get_Scores()
     // Offset: 0xA5CBC8
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* get_Scores();

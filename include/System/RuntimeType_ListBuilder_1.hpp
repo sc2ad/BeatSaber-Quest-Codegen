@@ -14,7 +14,7 @@
 // Begin il2cpp-utils forward declares
 template<class T>
 struct Array;
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -53,7 +53,7 @@ namespace System {
     }
     // public System.Void CopyTo(System.Object[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    void CopyTo(::Array<::CsObject*>* array, int index) {
+    void CopyTo(::Array<::Il2CppObject*>* array, int index) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "CopyTo", array, index));
     }
     // public System.Int32 get_Count()

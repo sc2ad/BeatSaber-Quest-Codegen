@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE4598
-    static IVRApplications::_LaunchDashboardOverlay* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_LaunchDashboardOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationError Invoke(System.String pchAppKey)
     // Offset: 0xFD7AE0
-    Valve::VR::EVRApplicationError Invoke(::CsString* pchAppKey);
+    Valve::VR::EVRApplicationError Invoke(::Il2CppString* pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE45AC
-    System::IAsyncResult* BeginInvoke(::CsString* pchAppKey, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xFE45D0
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

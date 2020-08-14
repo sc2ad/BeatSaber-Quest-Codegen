@@ -55,19 +55,19 @@ namespace UnityEngine {
     bool GetBool(int id);
     // public System.Void SetBool(System.String name, System.Boolean value)
     // Offset: 0x1937868
-    void SetBool(::CsString* name, bool value);
+    void SetBool(::Il2CppString* name, bool value);
     // public System.Void SetBool(System.Int32 id, System.Boolean value)
     // Offset: 0x1937918
     void SetBool(int id, bool value);
     // public System.Void SetTrigger(System.String name)
     // Offset: 0x19379C8
-    void SetTrigger(::CsString* name);
+    void SetTrigger(::Il2CppString* name);
     // public System.Void SetTrigger(System.Int32 id)
     // Offset: 0x1937A68
     void SetTrigger(int id);
     // public System.Void ResetTrigger(System.String name)
     // Offset: 0x1937B08
-    void ResetTrigger(::CsString* name);
+    void ResetTrigger(::Il2CppString* name);
     // public System.Void set_applyRootMotion(System.Boolean value)
     // Offset: 0x1937BA8
     void set_applyRootMotion(bool value);
@@ -96,19 +96,19 @@ namespace UnityEngine {
     ::Array<UnityEngine::ScriptableObject*>* InternalGetBehaviours(System::Type* type);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset)
     // Offset: 0x1937CD8
-    void CrossFade(::CsString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset);
+    void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer)
     // Offset: 0x1937D8C
-    void CrossFade(::CsString* stateName, float normalizedTransitionDuration, int layer);
+    void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset, System.Single normalizedTransitionTime)
     // Offset: 0x1937CE0
-    void CrossFade(::CsString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
+    void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
     // public System.Void CrossFade(System.Int32 stateHashName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset, System.Single normalizedTransitionTime)
     // Offset: 0x1937DDC
     void CrossFade(int stateHashName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
     // public System.Void Play(System.String stateName, System.Int32 layer, System.Single normalizedTime)
     // Offset: 0x1937E5C
-    void Play(::CsString* stateName, int layer, float normalizedTime);
+    void Play(::Il2CppString* stateName, int layer, float normalizedTime);
     // public System.Void Play(System.Int32 stateNameHash, System.Int32 layer, System.Single normalizedTime)
     // Offset: 0x1937EF0
     void Play(int stateNameHash, int layer, float normalizedTime);
@@ -129,13 +129,13 @@ namespace UnityEngine {
     bool get_hasBoundPlayables();
     // static public System.Int32 StringToHash(System.String name)
     // Offset: 0x1937D9C
-    static int StringToHash(::CsString* name);
+    static int StringToHash(::Il2CppString* name);
     // public UnityEngine.Avatar get_avatar()
     // Offset: 0x19381D4
     UnityEngine::Avatar* get_avatar();
     // private System.Void SetBoolString(System.String name, System.Boolean value)
     // Offset: 0x19378C0
-    void SetBoolString(::CsString* name, bool value);
+    void SetBoolString(::Il2CppString* name, bool value);
     // private System.Void SetBoolID(System.Int32 id, System.Boolean value)
     // Offset: 0x1937970
     void SetBoolID(int id, bool value);
@@ -144,13 +144,13 @@ namespace UnityEngine {
     bool GetBoolID(int id);
     // private System.Void SetTriggerString(System.String name)
     // Offset: 0x1937A18
-    void SetTriggerString(::CsString* name);
+    void SetTriggerString(::Il2CppString* name);
     // private System.Void SetTriggerID(System.Int32 id)
     // Offset: 0x1937AB8
     void SetTriggerID(int id);
     // private System.Void ResetTriggerString(System.String name)
     // Offset: 0x1937B58
-    void ResetTriggerString(::CsString* name);
+    void ResetTriggerString(::Il2CppString* name);
     // public System.Void set_keepAnimatorControllerStateOnDisable(System.Boolean value)
     // Offset: 0x1938214
     void set_keepAnimatorControllerStateOnDisable(bool value);

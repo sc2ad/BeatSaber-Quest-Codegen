@@ -17,7 +17,7 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: OnlineServices
 namespace OnlineServices {
@@ -60,7 +60,7 @@ namespace OnlineServices {
     // Offset: 0xA27640
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // OnlineServices.LevelScoreResultsData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

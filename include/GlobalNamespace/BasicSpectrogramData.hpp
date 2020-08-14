@@ -31,12 +31,6 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioSource _audioSource
     // Offset: 0x18
     UnityEngine::AudioSource* audioSource;
-    // static field const value: static public System.Int32 kNumberOfSamples
-    static constexpr const int kNumberOfSamples = 64;
-    // Get static field: static public System.Int32 kNumberOfSamples
-    static int _get_kNumberOfSamples();
-    // Set static field: static public System.Int32 kNumberOfSamples
-    static void _set_kNumberOfSamples(int value);
     // private System.Boolean _hasData
     // Offset: 0x20
     bool hasData;
@@ -49,6 +43,12 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<System.Single> _processedSamples
     // Offset: 0x30
     System::Collections::Generic::List_1<float>* processedSamples;
+    // static field const value: static public System.Int32 kNumberOfSamples
+    static constexpr const int kNumberOfSamples = 64;
+    // Get static field: static public System.Int32 kNumberOfSamples
+    static int _get_kNumberOfSamples();
+    // Set static field: static public System.Int32 kNumberOfSamples
+    static void _set_kNumberOfSamples(int value);
     // public System.Single[] get_Samples()
     // Offset: 0xB8975C
     ::Array<float>* get_Samples();

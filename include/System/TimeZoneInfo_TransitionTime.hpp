@@ -91,7 +91,7 @@ namespace System {
     // Offset: 0xA53518
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.TimeZoneInfo/TransitionTime other)
     // Offset: 0xA53520
     // Implemented from: System.IEquatable`1
@@ -106,7 +106,7 @@ namespace System {
     // Offset: 0xA5356C
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
-    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::CsObject* sender);
+    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xA53574
     // Implemented from: System.Runtime.Serialization.ISerializable

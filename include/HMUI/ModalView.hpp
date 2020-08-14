@@ -47,12 +47,6 @@ namespace HMUI {
     // private System.Action _blockerClickedEvent
     // Offset: 0x28
     System::Action* blockerClickedEvent;
-    // static field const value: static private System.Int32 kSortingLayer
-    static constexpr const int kSortingLayer = 30000;
-    // Get static field: static private System.Int32 kSortingLayer
-    static int _get_kSortingLayer();
-    // Set static field: static private System.Int32 kSortingLayer
-    static void _set_kSortingLayer(int value);
     // private System.Boolean _isShown
     // Offset: 0x30
     bool isShown;
@@ -68,6 +62,12 @@ namespace HMUI {
     // private UnityEngine.GameObject _blockerGO
     // Offset: 0x48
     UnityEngine::GameObject* blockerGO;
+    // static field const value: static private System.Int32 kSortingLayer
+    static constexpr const int kSortingLayer = 30000;
+    // Get static field: static private System.Int32 kSortingLayer
+    static int _get_kSortingLayer();
+    // Set static field: static private System.Int32 kSortingLayer
+    static void _set_kSortingLayer(int value);
     // public System.Void add__blockerClickedEvent(System.Action value)
     // Offset: 0xED5F34
     void add__blockerClickedEvent(System::Action* value);

@@ -18,19 +18,19 @@ namespace System::Runtime::Remoting::Metadata {
     bool useAttribute;
     // protected System.String ProtXmlNamespace
     // Offset: 0x18
-    ::CsString* ProtXmlNamespace;
+    ::Il2CppString* ProtXmlNamespace;
     // protected System.Object ReflectInfo
     // Offset: 0x20
-    ::CsObject* ReflectInfo;
+    ::Il2CppObject* ReflectInfo;
     // public System.Boolean get_UseAttribute()
     // Offset: 0xE0FC78
     bool get_UseAttribute();
     // public System.String get_XmlNamespace()
     // Offset: 0xE0FC80
-    ::CsString* get_XmlNamespace();
+    ::Il2CppString* get_XmlNamespace();
     // System.Void SetReflectionObject(System.Object reflectionObject)
     // Offset: 0xE0FC88
-    void SetReflectionObject(::CsObject* reflectionObject);
+    void SetReflectionObject(::Il2CppObject* reflectionObject);
     // public System.Void .ctor()
     // Offset: 0xE0FC70
     // Implemented from: System.Attribute

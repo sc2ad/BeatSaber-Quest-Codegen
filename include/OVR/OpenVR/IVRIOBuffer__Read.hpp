@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15115BC
-    static IVRIOBuffer::_Read* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRIOBuffer::_Read* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EIOBufferError Invoke(System.UInt64 ulBuffer, System.IntPtr pDst, System.UInt32 unBytes, System.UInt32 punRead)
     // Offset: 0x15115D0
     OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer, System::IntPtr pDst, uint unBytes, uint& punRead);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulBuffer, System.IntPtr pDst, System.UInt32 unBytes, System.UInt32 punRead, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1511880
-    System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, System::IntPtr pDst, uint unBytes, uint& punRead, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, System::IntPtr pDst, uint unBytes, uint& punRead, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EIOBufferError EndInvoke(System.UInt32 punRead, System.IAsyncResult result)
     // Offset: 0x1511968
     OVR::OpenVR::EIOBufferError EndInvoke(uint& punRead, System::IAsyncResult* result);

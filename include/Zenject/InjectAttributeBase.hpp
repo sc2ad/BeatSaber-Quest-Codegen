@@ -20,7 +20,7 @@ namespace Zenject {
     bool Optional;
     // private System.Object <Id>k__BackingField
     // Offset: 0x18
-    ::CsObject* Id;
+    ::Il2CppObject* Id;
     // private Zenject.InjectSources <Source>k__BackingField
     // Offset: 0x20
     Zenject::InjectSources Source;
@@ -32,10 +32,10 @@ namespace Zenject {
     void set_Optional(bool value);
     // public System.Object get_Id()
     // Offset: 0x1958514
-    ::CsObject* get_Id();
+    ::Il2CppObject* get_Id();
     // public System.Void set_Id(System.Object value)
     // Offset: 0x195851C
-    void set_Id(::CsObject* value);
+    void set_Id(::Il2CppObject* value);
     // public Zenject.InjectSources get_Source()
     // Offset: 0x1958524
     Zenject::InjectSources get_Source();

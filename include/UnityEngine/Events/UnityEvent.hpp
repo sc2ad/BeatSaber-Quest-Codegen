@@ -29,7 +29,7 @@ namespace UnityEngine::Events {
     public:
     // private System.Object[] m_InvokeArray
     // Offset: 0x28
-    ::Array<::CsObject*>* m_InvokeArray;
+    ::Array<::Il2CppObject*>* m_InvokeArray;
     // public System.Void AddListener(UnityEngine.Events.UnityAction call)
     // Offset: 0x1306FF8
     void AddListener(UnityEngine::Events::UnityAction* call);
@@ -52,12 +52,12 @@ namespace UnityEngine::Events {
     // Offset: 0x1307114
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
-    System::Reflection::MethodInfo* FindMethod_Impl(::CsString* name, ::CsObject* targetObj);
+    System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj);
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     // Offset: 0x1307344
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
-    UnityEngine::Events::BaseInvokableCall* GetDelegate(::CsObject* target, System::Reflection::MethodInfo* theFunction);
+    UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);
   }; // UnityEngine.Events.UnityEvent
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

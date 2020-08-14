@@ -15,7 +15,7 @@ namespace UnityEngine::Scripting {
     public:
     // private System.String <Name>k__BackingField
     // Offset: 0x10
-    ::CsString* Name;
+    ::Il2CppString* Name;
     // private System.Boolean <Optional>k__BackingField
     // Offset: 0x18
     bool Optional;
@@ -24,10 +24,10 @@ namespace UnityEngine::Scripting {
     bool GenerateProxy;
     // public System.Void .ctor(System.String name)
     // Offset: 0x196B034
-    static RequiredByNativeCodeAttribute* New_ctor(::CsString* name);
+    static RequiredByNativeCodeAttribute* New_ctor(::Il2CppString* name);
     // public System.Void set_Name(System.String value)
     // Offset: 0x196B068
-    void set_Name(::CsString* value);
+    void set_Name(::Il2CppString* value);
     // public System.Void set_Optional(System.Boolean value)
     // Offset: 0x196B070
     void set_Optional(bool value);

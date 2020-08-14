@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE3FBC
-    static IVRApplications::_GetApplicationsTransitionStateNameFromEnum* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_GetApplicationsTransitionStateNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRApplicationTransitionState state)
     // Offset: 0xFDC090
     System::IntPtr Invoke(Valve::VR::EVRApplicationTransitionState state);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRApplicationTransitionState state, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE3FD0
-    System::IAsyncResult* BeginInvoke(Valve::VR::EVRApplicationTransitionState state, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::EVRApplicationTransitionState state, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
     // Offset: 0xFE405C
     System::IntPtr EndInvoke(System::IAsyncResult* result);

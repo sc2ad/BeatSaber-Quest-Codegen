@@ -15,7 +15,7 @@ namespace UnityEngine {
     public:
     // public System.String get_text()
     // Offset: 0x138C3B0
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // public System.Byte[] get_bytes()
     // Offset: 0x138C3F0
     ::Array<uint8_t>* get_bytes();
@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Offset: 0x138C430
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.TextAsset
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

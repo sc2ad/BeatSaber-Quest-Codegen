@@ -49,10 +49,10 @@ namespace System::Reflection {
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.String SerializationToString()
     // Offset: 0x11527CC
-    ::CsString* SerializationToString();
+    ::Il2CppString* SerializationToString();
     // System.Void SerializationInvoke(System.Object target, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x11527E0
-    void SerializationInvoke(::CsObject* target, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void SerializationInvoke(::Il2CppObject* target, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Reflection.Module get_Module()
     // Offset: 0x11525A4
     // Implemented from: System.Reflection.MemberInfo

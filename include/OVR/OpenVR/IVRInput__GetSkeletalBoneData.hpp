@@ -38,13 +38,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1514B38
-    static IVRInput::_GetSkeletalBoneData* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRInput::_GetSkeletalBoneData* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt32 unTransformArrayCount, System.UInt64 ulRestrictToDevice)
     // Offset: 0x1514B4C
     OVR::OpenVR::EVRInputError Invoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ::Array<OVR::OpenVR::VRBoneTransform_t>*& pTransformArray, uint unTransformArrayCount, uint64_t ulRestrictToDevice);
     // public System.IAsyncResult BeginInvoke(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt32 unTransformArrayCount, System.UInt64 ulRestrictToDevice, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1514E20
-    System::IAsyncResult* BeginInvoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ::Array<OVR::OpenVR::VRBoneTransform_t>*& pTransformArray, uint unTransformArrayCount, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ::Array<OVR::OpenVR::VRBoneTransform_t>*& pTransformArray, uint unTransformArrayCount, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.IAsyncResult result)
     // Offset: 0x1514F2C
     OVR::OpenVR::EVRInputError EndInvoke(System::IAsyncResult* result);

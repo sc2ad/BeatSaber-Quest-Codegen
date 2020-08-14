@@ -100,16 +100,16 @@ namespace UnityEngine::EventSystems {
     UnityEngine::Vector2 m_MousePosition;
     // private System.String m_HorizontalAxis
     // Offset: 0xB0
-    ::CsString* m_HorizontalAxis;
+    ::Il2CppString* m_HorizontalAxis;
     // private System.String m_VerticalAxis
     // Offset: 0xB8
-    ::CsString* m_VerticalAxis;
+    ::Il2CppString* m_VerticalAxis;
     // private System.String m_SubmitButton
     // Offset: 0xC0
-    ::CsString* m_SubmitButton;
+    ::Il2CppString* m_SubmitButton;
     // private System.String m_CancelButton
     // Offset: 0xC8
-    ::CsString* m_CancelButton;
+    ::Il2CppString* m_CancelButton;
     // private System.Single m_InputActionsPerSecond
     // Offset: 0xD0
     float m_InputActionsPerSecond;
@@ -139,28 +139,28 @@ namespace UnityEngine::EventSystems {
     void set_inputActionsPerSecond(float value);
     // public System.String get_horizontalAxis()
     // Offset: 0x18F7878
-    ::CsString* get_horizontalAxis();
+    ::Il2CppString* get_horizontalAxis();
     // public System.Void set_horizontalAxis(System.String value)
     // Offset: 0x18F7880
-    void set_horizontalAxis(::CsString* value);
+    void set_horizontalAxis(::Il2CppString* value);
     // public System.String get_verticalAxis()
     // Offset: 0x18F7888
-    ::CsString* get_verticalAxis();
+    ::Il2CppString* get_verticalAxis();
     // public System.Void set_verticalAxis(System.String value)
     // Offset: 0x18F7890
-    void set_verticalAxis(::CsString* value);
+    void set_verticalAxis(::Il2CppString* value);
     // public System.String get_submitButton()
     // Offset: 0x18F7898
-    ::CsString* get_submitButton();
+    ::Il2CppString* get_submitButton();
     // public System.Void set_submitButton(System.String value)
     // Offset: 0x18F78A0
-    void set_submitButton(::CsString* value);
+    void set_submitButton(::Il2CppString* value);
     // public System.String get_cancelButton()
     // Offset: 0x18F78A8
-    ::CsString* get_cancelButton();
+    ::Il2CppString* get_cancelButton();
     // public System.Void set_cancelButton(System.String value)
     // Offset: 0x18F78B0
-    void set_cancelButton(::CsString* value);
+    void set_cancelButton(::Il2CppString* value);
     // private System.Boolean SendSubmitEventToSelectedObject()
     // Offset: 0x18F7E88
     bool SendSubmitEventToSelectedObject();

@@ -27,7 +27,7 @@ namespace System::Threading {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -41,10 +41,10 @@ namespace OnlineServices::API {
     System::Threading::Tasks::Task_1<LeaderboardsDTO::LoginRequestDTO*>* GetLoginRequestDTOAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<::Array<::CsString*>*>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<::CsString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<::Il2CppString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.IUserLoginDtoDataSource
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

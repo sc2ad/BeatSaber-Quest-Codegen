@@ -73,7 +73,7 @@ namespace HMUI {
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
     // Offset: 0xEDF688
-    void set_hintText(::CsString* value);
+    void set_hintText(::Il2CppString* value);
     // private System.Void RefreshVisuals()
     // Offset: 0xEDF73C
     void RefreshVisuals();

@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15FE5E4
-    static IVRNotifications::_RemoveNotification* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRNotifications::_RemoveNotification* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRNotificationError Invoke(System.UInt32 notificationId)
     // Offset: 0x15FE5F8
     Valve::VR::EVRNotificationError Invoke(uint notificationId);
     // public System.IAsyncResult BeginInvoke(System.UInt32 notificationId, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15FE86C
-    System::IAsyncResult* BeginInvoke(uint notificationId, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint notificationId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRNotificationError EndInvoke(System.IAsyncResult result)
     // Offset: 0x15FE8F8
     Valve::VR::EVRNotificationError EndInvoke(System::IAsyncResult* result);

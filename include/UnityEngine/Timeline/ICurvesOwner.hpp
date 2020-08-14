@@ -20,7 +20,7 @@ namespace UnityEngine::Timeline {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
@@ -38,10 +38,10 @@ namespace UnityEngine::Timeline {
     double get_duration();
     // public System.Void CreateCurves(System.String curvesClipName)
     // Offset: 0xFFFFFFFF
-    void CreateCurves(::CsString* curvesClipName);
+    void CreateCurves(::Il2CppString* curvesClipName);
     // public System.String get_defaultCurvesName()
     // Offset: 0xFFFFFFFF
-    ::CsString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
+    ::Il2CppString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
     // public UnityEngine.Object get_asset()
     // Offset: 0xFFFFFFFF
     UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_asset();

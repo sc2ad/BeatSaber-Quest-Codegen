@@ -267,112 +267,12 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: MrcActivationMode
       MrcActivationMode(int value_ = {}) : value{value_} {}
     }; // OVRManager/MrcActivationMode
-    // Get static field: static private OVRManager <instance>k__BackingField
-    static GlobalNamespace::OVRManager* _get_$instance$k__BackingField();
-    // Set static field: static private OVRManager <instance>k__BackingField
-    static void _set_$instance$k__BackingField(GlobalNamespace::OVRManager* value);
-    // Get static field: static private OVRDisplay <display>k__BackingField
-    static GlobalNamespace::OVRDisplay* _get_$display$k__BackingField();
-    // Set static field: static private OVRDisplay <display>k__BackingField
-    static void _set_$display$k__BackingField(GlobalNamespace::OVRDisplay* value);
-    // Get static field: static private OVRTracker <tracker>k__BackingField
-    static GlobalNamespace::OVRTracker* _get_$tracker$k__BackingField();
-    // Set static field: static private OVRTracker <tracker>k__BackingField
-    static void _set_$tracker$k__BackingField(GlobalNamespace::OVRTracker* value);
-    // Get static field: static private OVRBoundary <boundary>k__BackingField
-    static GlobalNamespace::OVRBoundary* _get_$boundary$k__BackingField();
-    // Set static field: static private OVRBoundary <boundary>k__BackingField
-    static void _set_$boundary$k__BackingField(GlobalNamespace::OVRBoundary* value);
-    // Get static field: static private OVRProfile _profile
-    static GlobalNamespace::OVRProfile* _get__profile();
-    // Set static field: static private OVRProfile _profile
-    static void _set__profile(GlobalNamespace::OVRProfile* value);
     // private System.Collections.Generic.IEnumerable`1<UnityEngine.Camera> disabledCameras
     // Offset: 0x18
     System::Collections::Generic::IEnumerable_1<UnityEngine::Camera*>* disabledCameras;
     // private System.Single prevTimeScale
     // Offset: 0x20
     float prevTimeScale;
-    // Get static field: static private System.Action HMDAcquired
-    static System::Action* _get_HMDAcquired();
-    // Set static field: static private System.Action HMDAcquired
-    static void _set_HMDAcquired(System::Action* value);
-    // Get static field: static private System.Action HMDLost
-    static System::Action* _get_HMDLost();
-    // Set static field: static private System.Action HMDLost
-    static void _set_HMDLost(System::Action* value);
-    // Get static field: static private System.Action HMDMounted
-    static System::Action* _get_HMDMounted();
-    // Set static field: static private System.Action HMDMounted
-    static void _set_HMDMounted(System::Action* value);
-    // Get static field: static private System.Action HMDUnmounted
-    static System::Action* _get_HMDUnmounted();
-    // Set static field: static private System.Action HMDUnmounted
-    static void _set_HMDUnmounted(System::Action* value);
-    // Get static field: static private System.Action VrFocusAcquired
-    static System::Action* _get_VrFocusAcquired();
-    // Set static field: static private System.Action VrFocusAcquired
-    static void _set_VrFocusAcquired(System::Action* value);
-    // Get static field: static private System.Action VrFocusLost
-    static System::Action* _get_VrFocusLost();
-    // Set static field: static private System.Action VrFocusLost
-    static void _set_VrFocusLost(System::Action* value);
-    // Get static field: static private System.Action InputFocusAcquired
-    static System::Action* _get_InputFocusAcquired();
-    // Set static field: static private System.Action InputFocusAcquired
-    static void _set_InputFocusAcquired(System::Action* value);
-    // Get static field: static private System.Action InputFocusLost
-    static System::Action* _get_InputFocusLost();
-    // Set static field: static private System.Action InputFocusLost
-    static void _set_InputFocusLost(System::Action* value);
-    // Get static field: static private System.Action AudioOutChanged
-    static System::Action* _get_AudioOutChanged();
-    // Set static field: static private System.Action AudioOutChanged
-    static void _set_AudioOutChanged(System::Action* value);
-    // Get static field: static private System.Action AudioInChanged
-    static System::Action* _get_AudioInChanged();
-    // Set static field: static private System.Action AudioInChanged
-    static void _set_AudioInChanged(System::Action* value);
-    // Get static field: static private System.Action TrackingAcquired
-    static System::Action* _get_TrackingAcquired();
-    // Set static field: static private System.Action TrackingAcquired
-    static void _set_TrackingAcquired(System::Action* value);
-    // Get static field: static private System.Action TrackingLost
-    static System::Action* _get_TrackingLost();
-    // Set static field: static private System.Action TrackingLost
-    static void _set_TrackingLost(System::Action* value);
-    // Get static field: static private System.Action HSWDismissed
-    static System::Action* _get_HSWDismissed();
-    // Set static field: static private System.Action HSWDismissed
-    static void _set_HSWDismissed(System::Action* value);
-    // Get static field: static private System.Boolean _isHmdPresentCached
-    static bool _get__isHmdPresentCached();
-    // Set static field: static private System.Boolean _isHmdPresentCached
-    static void _set__isHmdPresentCached(bool value);
-    // Get static field: static private System.Boolean _isHmdPresent
-    static bool _get__isHmdPresent();
-    // Set static field: static private System.Boolean _isHmdPresent
-    static void _set__isHmdPresent(bool value);
-    // Get static field: static private System.Boolean _wasHmdPresent
-    static bool _get__wasHmdPresent();
-    // Set static field: static private System.Boolean _wasHmdPresent
-    static void _set__wasHmdPresent(bool value);
-    // Get static field: static private System.Boolean _hasVrFocusCached
-    static bool _get__hasVrFocusCached();
-    // Set static field: static private System.Boolean _hasVrFocusCached
-    static void _set__hasVrFocusCached(bool value);
-    // Get static field: static private System.Boolean _hasVrFocus
-    static bool _get__hasVrFocus();
-    // Set static field: static private System.Boolean _hasVrFocus
-    static void _set__hasVrFocus(bool value);
-    // Get static field: static private System.Boolean _hadVrFocus
-    static bool _get__hadVrFocus();
-    // Set static field: static private System.Boolean _hadVrFocus
-    static void _set__hadVrFocus(bool value);
-    // Get static field: static private System.Boolean _hadInputFocus
-    static bool _get__hadInputFocus();
-    // Set static field: static private System.Boolean _hadInputFocus
-    static void _set__hadInputFocus(bool value);
     // public System.Boolean queueAhead
     // Offset: 0x24
     bool queueAhead;
@@ -484,34 +384,6 @@ namespace GlobalNamespace {
     // public OVRManager/MrcActivationMode mrcActivationMode
     // Offset: 0xDC
     GlobalNamespace::OVRManager::MrcActivationMode mrcActivationMode;
-    // Get static field: static public System.String OCULUS_UNITY_NAME_STR
-    static ::CsString* _get_OCULUS_UNITY_NAME_STR();
-    // Set static field: static public System.String OCULUS_UNITY_NAME_STR
-    static void _set_OCULUS_UNITY_NAME_STR(::CsString* value);
-    // Get static field: static public System.String OPENVR_UNITY_NAME_STR
-    static ::CsString* _get_OPENVR_UNITY_NAME_STR();
-    // Set static field: static public System.String OPENVR_UNITY_NAME_STR
-    static void _set_OPENVR_UNITY_NAME_STR(::CsString* value);
-    // Get static field: static public OVRManager/XRDevice loadedXRDevice
-    static GlobalNamespace::OVRManager::XRDevice _get_loadedXRDevice();
-    // Set static field: static public OVRManager/XRDevice loadedXRDevice
-    static void _set_loadedXRDevice(GlobalNamespace::OVRManager::XRDevice value);
-    // Get static field: static private UnityEngine.Vector3 OpenVRTouchRotationOffsetEulerLeft
-    static UnityEngine::Vector3 _get_OpenVRTouchRotationOffsetEulerLeft();
-    // Set static field: static private UnityEngine.Vector3 OpenVRTouchRotationOffsetEulerLeft
-    static void _set_OpenVRTouchRotationOffsetEulerLeft(UnityEngine::Vector3 value);
-    // Get static field: static private UnityEngine.Vector3 OpenVRTouchRotationOffsetEulerRight
-    static UnityEngine::Vector3 _get_OpenVRTouchRotationOffsetEulerRight();
-    // Set static field: static private UnityEngine.Vector3 OpenVRTouchRotationOffsetEulerRight
-    static void _set_OpenVRTouchRotationOffsetEulerRight(UnityEngine::Vector3 value);
-    // Get static field: static private UnityEngine.Vector3 OpenVRTouchPositionOffsetLeft
-    static UnityEngine::Vector3 _get_OpenVRTouchPositionOffsetLeft();
-    // Set static field: static private UnityEngine.Vector3 OpenVRTouchPositionOffsetLeft
-    static void _set_OpenVRTouchPositionOffsetLeft(UnityEngine::Vector3 value);
-    // Get static field: static private UnityEngine.Vector3 OpenVRTouchPositionOffsetRight
-    static UnityEngine::Vector3 _get_OpenVRTouchPositionOffsetRight();
-    // Set static field: static private UnityEngine.Vector3 OpenVRTouchPositionOffsetRight
-    static void _set_OpenVRTouchPositionOffsetRight(UnityEngine::Vector3 value);
     // private OVRManager/TrackingOrigin _trackingOriginType
     // Offset: 0xE0
     GlobalNamespace::OVRManager::TrackingOrigin trackingOriginType;
@@ -539,6 +411,143 @@ namespace GlobalNamespace {
     // private System.Boolean <isSupportedPlatform>k__BackingField
     // Offset: 0xEB
     bool isSupportedPlatform;
+    // private System.Boolean suppressDisableMixedRealityBecauseOfNoMainCameraWarning
+    // Offset: 0xEC
+    bool suppressDisableMixedRealityBecauseOfNoMainCameraWarning;
+    // private System.Boolean multipleMainCameraWarningPresented
+    // Offset: 0xED
+    bool multipleMainCameraWarningPresented;
+    // private UnityEngine.Camera lastFoundMainCamera
+    // Offset: 0xF0
+    UnityEngine::Camera* lastFoundMainCamera;
+    // Get static field: static private OVRManager <instance>k__BackingField
+    static GlobalNamespace::OVRManager* _get_$instance$k__BackingField();
+    // Set static field: static private OVRManager <instance>k__BackingField
+    static void _set_$instance$k__BackingField(GlobalNamespace::OVRManager* value);
+    // Get static field: static private OVRDisplay <display>k__BackingField
+    static GlobalNamespace::OVRDisplay* _get_$display$k__BackingField();
+    // Set static field: static private OVRDisplay <display>k__BackingField
+    static void _set_$display$k__BackingField(GlobalNamespace::OVRDisplay* value);
+    // Get static field: static private OVRTracker <tracker>k__BackingField
+    static GlobalNamespace::OVRTracker* _get_$tracker$k__BackingField();
+    // Set static field: static private OVRTracker <tracker>k__BackingField
+    static void _set_$tracker$k__BackingField(GlobalNamespace::OVRTracker* value);
+    // Get static field: static private OVRBoundary <boundary>k__BackingField
+    static GlobalNamespace::OVRBoundary* _get_$boundary$k__BackingField();
+    // Set static field: static private OVRBoundary <boundary>k__BackingField
+    static void _set_$boundary$k__BackingField(GlobalNamespace::OVRBoundary* value);
+    // Get static field: static private OVRProfile _profile
+    static GlobalNamespace::OVRProfile* _get__profile();
+    // Set static field: static private OVRProfile _profile
+    static void _set__profile(GlobalNamespace::OVRProfile* value);
+    // Get static field: static private System.Action HMDAcquired
+    static System::Action* _get_HMDAcquired();
+    // Set static field: static private System.Action HMDAcquired
+    static void _set_HMDAcquired(System::Action* value);
+    // Get static field: static private System.Action HMDLost
+    static System::Action* _get_HMDLost();
+    // Set static field: static private System.Action HMDLost
+    static void _set_HMDLost(System::Action* value);
+    // Get static field: static private System.Action HMDMounted
+    static System::Action* _get_HMDMounted();
+    // Set static field: static private System.Action HMDMounted
+    static void _set_HMDMounted(System::Action* value);
+    // Get static field: static private System.Action HMDUnmounted
+    static System::Action* _get_HMDUnmounted();
+    // Set static field: static private System.Action HMDUnmounted
+    static void _set_HMDUnmounted(System::Action* value);
+    // Get static field: static private System.Action VrFocusAcquired
+    static System::Action* _get_VrFocusAcquired();
+    // Set static field: static private System.Action VrFocusAcquired
+    static void _set_VrFocusAcquired(System::Action* value);
+    // Get static field: static private System.Action VrFocusLost
+    static System::Action* _get_VrFocusLost();
+    // Set static field: static private System.Action VrFocusLost
+    static void _set_VrFocusLost(System::Action* value);
+    // Get static field: static private System.Action InputFocusAcquired
+    static System::Action* _get_InputFocusAcquired();
+    // Set static field: static private System.Action InputFocusAcquired
+    static void _set_InputFocusAcquired(System::Action* value);
+    // Get static field: static private System.Action InputFocusLost
+    static System::Action* _get_InputFocusLost();
+    // Set static field: static private System.Action InputFocusLost
+    static void _set_InputFocusLost(System::Action* value);
+    // Get static field: static private System.Action AudioOutChanged
+    static System::Action* _get_AudioOutChanged();
+    // Set static field: static private System.Action AudioOutChanged
+    static void _set_AudioOutChanged(System::Action* value);
+    // Get static field: static private System.Action AudioInChanged
+    static System::Action* _get_AudioInChanged();
+    // Set static field: static private System.Action AudioInChanged
+    static void _set_AudioInChanged(System::Action* value);
+    // Get static field: static private System.Action TrackingAcquired
+    static System::Action* _get_TrackingAcquired();
+    // Set static field: static private System.Action TrackingAcquired
+    static void _set_TrackingAcquired(System::Action* value);
+    // Get static field: static private System.Action TrackingLost
+    static System::Action* _get_TrackingLost();
+    // Set static field: static private System.Action TrackingLost
+    static void _set_TrackingLost(System::Action* value);
+    // Get static field: static private System.Action HSWDismissed
+    static System::Action* _get_HSWDismissed();
+    // Set static field: static private System.Action HSWDismissed
+    static void _set_HSWDismissed(System::Action* value);
+    // Get static field: static private System.Boolean _isHmdPresentCached
+    static bool _get__isHmdPresentCached();
+    // Set static field: static private System.Boolean _isHmdPresentCached
+    static void _set__isHmdPresentCached(bool value);
+    // Get static field: static private System.Boolean _isHmdPresent
+    static bool _get__isHmdPresent();
+    // Set static field: static private System.Boolean _isHmdPresent
+    static void _set__isHmdPresent(bool value);
+    // Get static field: static private System.Boolean _wasHmdPresent
+    static bool _get__wasHmdPresent();
+    // Set static field: static private System.Boolean _wasHmdPresent
+    static void _set__wasHmdPresent(bool value);
+    // Get static field: static private System.Boolean _hasVrFocusCached
+    static bool _get__hasVrFocusCached();
+    // Set static field: static private System.Boolean _hasVrFocusCached
+    static void _set__hasVrFocusCached(bool value);
+    // Get static field: static private System.Boolean _hasVrFocus
+    static bool _get__hasVrFocus();
+    // Set static field: static private System.Boolean _hasVrFocus
+    static void _set__hasVrFocus(bool value);
+    // Get static field: static private System.Boolean _hadVrFocus
+    static bool _get__hadVrFocus();
+    // Set static field: static private System.Boolean _hadVrFocus
+    static void _set__hadVrFocus(bool value);
+    // Get static field: static private System.Boolean _hadInputFocus
+    static bool _get__hadInputFocus();
+    // Set static field: static private System.Boolean _hadInputFocus
+    static void _set__hadInputFocus(bool value);
+    // Get static field: static public System.String OCULUS_UNITY_NAME_STR
+    static ::Il2CppString* _get_OCULUS_UNITY_NAME_STR();
+    // Set static field: static public System.String OCULUS_UNITY_NAME_STR
+    static void _set_OCULUS_UNITY_NAME_STR(::Il2CppString* value);
+    // Get static field: static public System.String OPENVR_UNITY_NAME_STR
+    static ::Il2CppString* _get_OPENVR_UNITY_NAME_STR();
+    // Set static field: static public System.String OPENVR_UNITY_NAME_STR
+    static void _set_OPENVR_UNITY_NAME_STR(::Il2CppString* value);
+    // Get static field: static public OVRManager/XRDevice loadedXRDevice
+    static GlobalNamespace::OVRManager::XRDevice _get_loadedXRDevice();
+    // Set static field: static public OVRManager/XRDevice loadedXRDevice
+    static void _set_loadedXRDevice(GlobalNamespace::OVRManager::XRDevice value);
+    // Get static field: static private UnityEngine.Vector3 OpenVRTouchRotationOffsetEulerLeft
+    static UnityEngine::Vector3 _get_OpenVRTouchRotationOffsetEulerLeft();
+    // Set static field: static private UnityEngine.Vector3 OpenVRTouchRotationOffsetEulerLeft
+    static void _set_OpenVRTouchRotationOffsetEulerLeft(UnityEngine::Vector3 value);
+    // Get static field: static private UnityEngine.Vector3 OpenVRTouchRotationOffsetEulerRight
+    static UnityEngine::Vector3 _get_OpenVRTouchRotationOffsetEulerRight();
+    // Set static field: static private UnityEngine.Vector3 OpenVRTouchRotationOffsetEulerRight
+    static void _set_OpenVRTouchRotationOffsetEulerRight(UnityEngine::Vector3 value);
+    // Get static field: static private UnityEngine.Vector3 OpenVRTouchPositionOffsetLeft
+    static UnityEngine::Vector3 _get_OpenVRTouchPositionOffsetLeft();
+    // Set static field: static private UnityEngine.Vector3 OpenVRTouchPositionOffsetLeft
+    static void _set_OpenVRTouchPositionOffsetLeft(UnityEngine::Vector3 value);
+    // Get static field: static private UnityEngine.Vector3 OpenVRTouchPositionOffsetRight
+    static UnityEngine::Vector3 _get_OpenVRTouchPositionOffsetRight();
+    // Set static field: static private UnityEngine.Vector3 OpenVRTouchPositionOffsetRight
+    static void _set_OpenVRTouchPositionOffsetRight(UnityEngine::Vector3 value);
     // Get static field: static private System.Boolean _isUserPresentCached
     static bool _get__isUserPresentCached();
     // Set static field: static private System.Boolean _isUserPresentCached
@@ -560,34 +569,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean prevAudioInIdIsCached
     static void _set_prevAudioInIdIsCached(bool value);
     // Get static field: static private System.String prevAudioOutId
-    static ::CsString* _get_prevAudioOutId();
+    static ::Il2CppString* _get_prevAudioOutId();
     // Set static field: static private System.String prevAudioOutId
-    static void _set_prevAudioOutId(::CsString* value);
+    static void _set_prevAudioOutId(::Il2CppString* value);
     // Get static field: static private System.String prevAudioInId
-    static ::CsString* _get_prevAudioInId();
+    static ::Il2CppString* _get_prevAudioInId();
     // Set static field: static private System.String prevAudioInId
-    static void _set_prevAudioInId(::CsString* value);
+    static void _set_prevAudioInId(::Il2CppString* value);
     // Get static field: static private System.Boolean wasPositionTracked
     static bool _get_wasPositionTracked();
     // Set static field: static private System.Boolean wasPositionTracked
     static void _set_wasPositionTracked(bool value);
     // Get static field: static public System.String UnityAlphaOrBetaVersionWarningMessage
-    static ::CsString* _get_UnityAlphaOrBetaVersionWarningMessage();
+    static ::Il2CppString* _get_UnityAlphaOrBetaVersionWarningMessage();
     // Set static field: static public System.String UnityAlphaOrBetaVersionWarningMessage
-    static void _set_UnityAlphaOrBetaVersionWarningMessage(::CsString* value);
+    static void _set_UnityAlphaOrBetaVersionWarningMessage(::Il2CppString* value);
     // Get static field: static public System.Boolean OVRManagerinitialized
     static bool _get_OVRManagerinitialized();
     // Set static field: static public System.Boolean OVRManagerinitialized
     static void _set_OVRManagerinitialized(bool value);
-    // private System.Boolean suppressDisableMixedRealityBecauseOfNoMainCameraWarning
-    // Offset: 0xEC
-    bool suppressDisableMixedRealityBecauseOfNoMainCameraWarning;
-    // private System.Boolean multipleMainCameraWarningPresented
-    // Offset: 0xED
-    bool multipleMainCameraWarningPresented;
-    // private UnityEngine.Camera lastFoundMainCamera
-    // Offset: 0xF0
-    UnityEngine::Camera* lastFoundMainCamera;
     // Get static field: static public System.Boolean staticMixedRealityCaptureInitialized
     static bool _get_staticMixedRealityCaptureInitialized();
     // Set static field: static public System.Boolean staticMixedRealityCaptureInitialized
@@ -713,10 +713,10 @@ namespace GlobalNamespace {
     static void set_isHmdPresent(bool value);
     // static public System.String get_audioOutId()
     // Offset: 0xE7713C
-    static ::CsString* get_audioOutId();
+    static ::Il2CppString* get_audioOutId();
     // static public System.String get_audioInId()
     // Offset: 0xE7719C
-    static ::CsString* get_audioInId();
+    static ::Il2CppString* get_audioInId();
     // static public System.Boolean get_hasVrFocus()
     // Offset: 0xE771FC
     static bool get_hasVrFocus();

@@ -50,15 +50,15 @@ namespace GlobalNamespace {
     // private System.Action`2<MainSettingsTableView,System.Int32> didSelectRowEvent
     // Offset: 0x30
     System::Action_2<GlobalNamespace::MainSettingsTableView*, int>* didSelectRowEvent;
-    // static field const value: static private System.String kCellIdentifier
-    static constexpr const char* kCellIdentifier = "Cell";
-    // Get static field: static private System.String kCellIdentifier
-    static ::CsString* _get_kCellIdentifier();
-    // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::CsString* value);
     // private SettingsSubMenuInfo[] _settingsSubMenuInfos
     // Offset: 0x38
     ::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos;
+    // static field const value: static private System.String kCellIdentifier
+    static constexpr const char* kCellIdentifier = "Cell";
+    // Get static field: static private System.String kCellIdentifier
+    static ::Il2CppString* _get_kCellIdentifier();
+    // Set static field: static private System.String kCellIdentifier
+    static void _set_kCellIdentifier(::Il2CppString* value);
     // public System.Void add_didSelectRowEvent(System.Action`2<MainSettingsTableView,System.Int32> value)
     // Offset: 0xBFCDFC
     void add_didSelectRowEvent(System::Action_2<GlobalNamespace::MainSettingsTableView*, int>* value);

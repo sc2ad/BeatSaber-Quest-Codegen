@@ -31,12 +31,12 @@ namespace System::Reflection {
     // Offset: 0x114C4E8
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Type Assembly::GetType(System.String name, System.Boolean throwOnError, System.Boolean ignoreCase)
-    System::Type* GetType(::CsString* name, bool throwOnError, bool ignoreCase);
+    System::Type* GetType(::Il2CppString* name, bool throwOnError, bool ignoreCase);
     // public override System.Reflection.Module GetModule(System.String name)
     // Offset: 0x114C5D4
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.Module Assembly::GetModule(System.String name)
-    System::Reflection::Module* GetModule(::CsString* name);
+    System::Reflection::Module* GetModule(::Il2CppString* name);
     // public override System.Reflection.AssemblyName[] GetReferencedAssemblies()
     // Offset: 0x114C720
     // Implemented from: System.Reflection.Assembly

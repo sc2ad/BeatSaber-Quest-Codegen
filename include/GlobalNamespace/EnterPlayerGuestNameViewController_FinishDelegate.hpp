@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBE74F8
-    static EnterPlayerGuestNameViewController::FinishDelegate* New_ctor(::CsObject* object, System::IntPtr method);
+    static EnterPlayerGuestNameViewController::FinishDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(EnterPlayerGuestNameViewController viewController, System.String playerName)
     // Offset: 0xBE6FA8
-    void Invoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::CsString* playerName);
+    void Invoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName);
     // public System.IAsyncResult BeginInvoke(EnterPlayerGuestNameViewController viewController, System.String playerName, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBE750C
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::CsString* playerName, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xBE753C
     void EndInvoke(System::IAsyncResult* result);

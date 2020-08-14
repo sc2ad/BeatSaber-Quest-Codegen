@@ -15,7 +15,7 @@ namespace UnityEngine {
     public:
     // public System.Int32 FindKernel(System.String name)
     // Offset: 0x13025B4
-    int FindKernel(::CsString* name);
+    int FindKernel(::Il2CppString* name);
   }; // UnityEngine.ComputeShader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

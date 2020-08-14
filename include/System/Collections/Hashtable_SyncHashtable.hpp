@@ -69,28 +69,28 @@ namespace System::Collections {
     // Offset: 0x1337A04
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Object Hashtable::get_Item(System.Object key)
-    ::CsObject* get_Item(::CsObject* key);
+    ::Il2CppObject* get_Item(::Il2CppObject* key);
     // Creating proxy method: System_Collections_IDictionary_get_Item
     // Maps to method: get_Item
-    ::CsObject* System_Collections_IDictionary_get_Item(::CsObject* key);
+    ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* key);
     // public override System.Void set_Item(System.Object key, System.Object value)
     // Offset: 0x1337A28
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::set_Item(System.Object key, System.Object value)
-    void set_Item(::CsObject* key, ::CsObject* value);
+    void set_Item(::Il2CppObject* key, ::Il2CppObject* value);
     // Creating proxy method: System_Collections_IDictionary_set_Item
     // Maps to method: set_Item
-    void System_Collections_IDictionary_set_Item(::CsObject* key, ::CsObject* value);
+    void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value);
     // public override System.Object get_SyncRoot()
     // Offset: 0x1337B0C
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Object Hashtable::get_SyncRoot()
-    ::CsObject* get_SyncRoot();
+    ::Il2CppObject* get_SyncRoot();
     // public override System.Void Add(System.Object key, System.Object value)
     // Offset: 0x1337B30
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::Add(System.Object key, System.Object value)
-    void Add(::CsObject* key, ::CsObject* value);
+    void Add(::Il2CppObject* key, ::Il2CppObject* value);
     // public override System.Void Clear()
     // Offset: 0x1337C14
     // Implemented from: System.Collections.Hashtable
@@ -100,15 +100,15 @@ namespace System::Collections {
     // Offset: 0x1337CE0
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Boolean Hashtable::Contains(System.Object key)
-    bool Contains(::CsObject* key);
+    bool Contains(::Il2CppObject* key);
     // Creating proxy method: System_Collections_IDictionary_Contains
     // Maps to method: Contains
-    bool System_Collections_IDictionary_Contains(::CsObject* key);
+    bool System_Collections_IDictionary_Contains(::Il2CppObject* key);
     // public override System.Boolean ContainsKey(System.Object key)
     // Offset: 0x1337D04
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Boolean Hashtable::ContainsKey(System.Object key)
-    bool ContainsKey(::CsObject* key);
+    bool ContainsKey(::Il2CppObject* key);
     // public override System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
     // Offset: 0x1337DCC
     // Implemented from: System.Collections.Hashtable
@@ -121,7 +121,7 @@ namespace System::Collections {
     // Offset: 0x1337EB0
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Object Hashtable::Clone()
-    ::CsObject* Clone();
+    ::Il2CppObject* Clone();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0x1337FFC
     // Implemented from: System.Collections.IEnumerable
@@ -152,15 +152,15 @@ namespace System::Collections {
     // Offset: 0x133820C
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::Remove(System.Object key)
-    void Remove(::CsObject* key);
+    void Remove(::Il2CppObject* key);
     // public override System.Void OnDeserialization(System.Object sender)
     // Offset: 0x13382E0
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::OnDeserialization(System.Object sender)
-    void OnDeserialization(::CsObject* sender);
+    void OnDeserialization(::Il2CppObject* sender);
     // Creating proxy method: System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
     // Maps to method: OnDeserialization
-    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::CsObject* sender);
+    void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
   }; // System.Collections.Hashtable/SyncHashtable
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

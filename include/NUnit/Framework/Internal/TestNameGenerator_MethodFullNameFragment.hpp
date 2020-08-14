@@ -26,7 +26,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18EC65C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    ::CsString* GetText(System::Reflection::MethodInfo* method, ::Array<::CsObject*>* args);
+    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
     // public System.Void .ctor()
     // Offset: 0x18EB99C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment

@@ -73,10 +73,6 @@ namespace GlobalNamespace {
     // private PlayerDataModel _playerDataModel
     // Offset: 0xA8
     GlobalNamespace::PlayerDataModel* playerDataModel;
-    // Get static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
-    static GlobalNamespace::LocalLeaderboardsModel::LeaderboardType _get__leaderboardType();
-    // Set static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
-    static void _set__leaderboardType(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType value);
     // private IDifficultyBeatmap _difficultyBeatmap
     // Offset: 0xB0
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
@@ -86,6 +82,10 @@ namespace GlobalNamespace {
     // private System.Boolean _enableClear
     // Offset: 0xB9
     bool enableClear;
+    // Get static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
+    static GlobalNamespace::LocalLeaderboardsModel::LeaderboardType _get__leaderboardType();
+    // Set static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
+    static void _set__leaderboardType(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType value);
     // public LocalLeaderboardsModel get_leaderboardsModel()
     // Offset: 0xBF7EE4
     GlobalNamespace::LocalLeaderboardsModel* get_leaderboardsModel();
@@ -103,10 +103,10 @@ namespace GlobalNamespace {
     void ClearLeaderboards();
     // private System.Void SetContent(System.String leaderboardID, LocalLeaderboardsModel/LeaderboardType leaderboardType)
     // Offset: 0xBF8934
-    void SetContent(::CsString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
+    void SetContent(::Il2CppString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Void HandleNewScoreWasAddedToLeaderboard(System.String leaderboardID, LocalLeaderboardsModel/LeaderboardType leaderboardType)
     // Offset: 0xBF8A70
-    void HandleNewScoreWasAddedToLeaderboard(::CsString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
+    void HandleNewScoreWasAddedToLeaderboard(::Il2CppString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Void Refresh()
     // Offset: 0xBF7F54
     void Refresh();

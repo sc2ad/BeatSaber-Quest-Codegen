@@ -15,10 +15,10 @@ namespace UnityEngine {
     public:
     // public readonly System.String header
     // Offset: 0x10
-    ::CsString* header;
+    ::Il2CppString* header;
     // public System.Void .ctor(System.String header)
     // Offset: 0x130CE28
-    static HeaderAttribute* New_ctor(::CsString* header);
+    static HeaderAttribute* New_ctor(::Il2CppString* header);
   }; // UnityEngine.HeaderAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

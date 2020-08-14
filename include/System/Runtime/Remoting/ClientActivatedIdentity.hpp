@@ -36,7 +36,7 @@ namespace System::Runtime::Remoting {
     System::MarshalByRefObject* targetThis;
     // public System.Void .ctor(System.String objectUri, System.Type objectType)
     // Offset: 0x10542BC
-    static ClientActivatedIdentity* New_ctor(::CsString* objectUri, System::Type* objectType);
+    static ClientActivatedIdentity* New_ctor(::Il2CppString* objectUri, System::Type* objectType);
     // public System.MarshalByRefObject GetServerObject()
     // Offset: 0x10542CC
     System::MarshalByRefObject* GetServerObject();

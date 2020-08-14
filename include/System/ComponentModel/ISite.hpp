@@ -15,7 +15,7 @@ namespace System::ComponentModel {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
@@ -30,7 +30,7 @@ namespace System::ComponentModel {
     bool get_DesignMode();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
   }; // System.ComponentModel.ISite
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

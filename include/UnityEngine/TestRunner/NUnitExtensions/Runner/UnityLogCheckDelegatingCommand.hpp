@@ -68,9 +68,9 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Nested type: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$ExecuteEnumerable$d__3
     class $ExecuteEnumerable$d__3;
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Object,System.Nullable`1<System.Boolean>> s_AttributeCache
-    static System::Collections::Generic::Dictionary_2<::CsObject*, System::Nullable_1<bool>>* _get_s_AttributeCache();
+    static System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Nullable_1<bool>>* _get_s_AttributeCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Object,System.Nullable`1<System.Boolean>> s_AttributeCache
-    static void _set_s_AttributeCache(System::Collections::Generic::Dictionary_2<::CsObject*, System::Nullable_1<bool>>* value);
+    static void _set_s_AttributeCache(System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Nullable_1<bool>>* value);
     // static private System.Boolean CaptureException(NUnit.Framework.Internal.TestResult result, System.Action action)
     // Offset: 0xE32E28
     static bool CaptureException(NUnit::Framework::Internal::TestResult* result, System::Action* action);

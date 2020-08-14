@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     void RefreshVisuals();
     // private System.String GetInfoText(System.String name, System.Int32 songs, System.Int32 purchased)
     // Offset: 0xB82E28
-    ::CsString* GetInfoText(::CsString* name, int songs, int purchased);
+    ::Il2CppString* GetInfoText(::Il2CppString* name, int songs, int purchased);
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel)
     // Offset: 0xB82FF0
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel);

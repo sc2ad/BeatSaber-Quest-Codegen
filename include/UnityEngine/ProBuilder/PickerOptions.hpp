@@ -52,7 +52,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA3C514
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3C554
     // Implemented from: System.ValueType

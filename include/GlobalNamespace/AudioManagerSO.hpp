@@ -34,36 +34,6 @@ namespace GlobalNamespace {
     // private System.Single _spatializerSFXVolumeOffset
     // Offset: 0x24
     float spatializerSFXVolumeOffset;
-    // static field const value: static private System.String kMSHRTFSpatializerPluginName
-    static constexpr const char* kMSHRTFSpatializerPluginName = "MS HRTF Spatializer";
-    // Get static field: static private System.String kMSHRTFSpatializerPluginName
-    static ::CsString* _get_kMSHRTFSpatializerPluginName();
-    // Set static field: static private System.String kMSHRTFSpatializerPluginName
-    static void _set_kMSHRTFSpatializerPluginName(::CsString* value);
-    // static field const value: static private System.String kSFXVolume
-    static constexpr const char* kSFXVolume = "SFXVolume";
-    // Get static field: static private System.String kSFXVolume
-    static ::CsString* _get_kSFXVolume();
-    // Set static field: static private System.String kSFXVolume
-    static void _set_kSFXVolume(::CsString* value);
-    // static field const value: static private System.String kMainVolume
-    static constexpr const char* kMainVolume = "MainVolume";
-    // Get static field: static private System.String kMainVolume
-    static ::CsString* _get_kMainVolume();
-    // Set static field: static private System.String kMainVolume
-    static void _set_kMainVolume(::CsString* value);
-    // static field const value: static private System.String kMusicPitch
-    static constexpr const char* kMusicPitch = "MusicPitch";
-    // Get static field: static private System.String kMusicPitch
-    static ::CsString* _get_kMusicPitch();
-    // Set static field: static private System.String kMusicPitch
-    static void _set_kMusicPitch(::CsString* value);
-    // static field const value: static private System.String kMusicPitchShifterWet
-    static constexpr const char* kMusicPitchShifterWet = "MusicPitchShifterWet";
-    // Get static field: static private System.String kMusicPitchShifterWet
-    static ::CsString* _get_kMusicPitchShifterWet();
-    // Set static field: static private System.String kMusicPitchShifterWet
-    static void _set_kMusicPitchShifterWet(::CsString* value);
     // private System.Single _sfxVolumeOffset
     // Offset: 0x28
     float sfxVolumeOffset;
@@ -73,6 +43,36 @@ namespace GlobalNamespace {
     // private System.Boolean _sfxEnabled
     // Offset: 0x30
     bool sfxEnabled;
+    // static field const value: static private System.String kMSHRTFSpatializerPluginName
+    static constexpr const char* kMSHRTFSpatializerPluginName = "MS HRTF Spatializer";
+    // Get static field: static private System.String kMSHRTFSpatializerPluginName
+    static ::Il2CppString* _get_kMSHRTFSpatializerPluginName();
+    // Set static field: static private System.String kMSHRTFSpatializerPluginName
+    static void _set_kMSHRTFSpatializerPluginName(::Il2CppString* value);
+    // static field const value: static private System.String kSFXVolume
+    static constexpr const char* kSFXVolume = "SFXVolume";
+    // Get static field: static private System.String kSFXVolume
+    static ::Il2CppString* _get_kSFXVolume();
+    // Set static field: static private System.String kSFXVolume
+    static void _set_kSFXVolume(::Il2CppString* value);
+    // static field const value: static private System.String kMainVolume
+    static constexpr const char* kMainVolume = "MainVolume";
+    // Get static field: static private System.String kMainVolume
+    static ::Il2CppString* _get_kMainVolume();
+    // Set static field: static private System.String kMainVolume
+    static void _set_kMainVolume(::Il2CppString* value);
+    // static field const value: static private System.String kMusicPitch
+    static constexpr const char* kMusicPitch = "MusicPitch";
+    // Get static field: static private System.String kMusicPitch
+    static ::Il2CppString* _get_kMusicPitch();
+    // Set static field: static private System.String kMusicPitch
+    static void _set_kMusicPitch(::Il2CppString* value);
+    // static field const value: static private System.String kMusicPitchShifterWet
+    static constexpr const char* kMusicPitchShifterWet = "MusicPitchShifterWet";
+    // Get static field: static private System.String kMusicPitchShifterWet
+    static ::Il2CppString* _get_kMusicPitchShifterWet();
+    // Set static field: static private System.String kMusicPitchShifterWet
+    static void _set_kMusicPitchShifterWet(::Il2CppString* value);
     // public System.Single get_sfxLatency()
     // Offset: 0xB87780
     float get_sfxLatency();

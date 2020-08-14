@@ -20,8 +20,8 @@ namespace System::Runtime::Serialization {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -60,7 +60,7 @@ namespace System {
     void* ToPointer();
     // public System.String ToString(System.String format)
     // Offset: 0xA3BD88
-    ::CsString* ToString(::CsString* format);
+    ::Il2CppString* ToString(::Il2CppString* format);
     // System.Boolean IsNull()
     // Offset: 0xA3BDC0
     bool IsNull();
@@ -73,7 +73,7 @@ namespace System {
     // Offset: 0xA3BD34
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3BD3C
     // Implemented from: System.ValueType
@@ -83,7 +83,7 @@ namespace System {
     // Offset: 0xA3BD54
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.IntPtr
   // static public System.Boolean op_Equality(System.IntPtr value1, System.IntPtr value2)
   // Offset: 0x100DBA4

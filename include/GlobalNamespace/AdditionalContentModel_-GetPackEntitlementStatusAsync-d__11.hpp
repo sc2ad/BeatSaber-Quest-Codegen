@@ -18,7 +18,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AdditionalContentModel* $$4__this;
     // public System.String levelPackId
     // Offset: 0x28
-    ::CsString* levelPackId;
+    ::Il2CppString* levelPackId;
     // public System.Threading.CancellationToken token
     // Offset: 0x30
     System::Threading::CancellationToken token;
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1;
     // Creating value type constructor for type: $GetPackEntitlementStatusAsync$d__11
-    $GetPackEntitlementStatusAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$t__builder_ = {}, GlobalNamespace::AdditionalContentModel* $$4__this_ = {}, ::CsString* levelPackId_ = {}, System::Threading::CancellationToken token_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelPackId{levelPackId_}, token{token_}, $$u__1{$$u__1_} {}
+    $GetPackEntitlementStatusAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$t__builder_ = {}, GlobalNamespace::AdditionalContentModel* $$4__this_ = {}, ::Il2CppString* levelPackId_ = {}, System::Threading::CancellationToken token_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelPackId{levelPackId_}, token{token_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA272A8
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

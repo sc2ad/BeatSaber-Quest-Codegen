@@ -15,13 +15,13 @@ namespace System::Reflection {
     public:
     // private System.String m_memberName
     // Offset: 0x10
-    ::CsString* m_memberName;
+    ::Il2CppString* m_memberName;
     // public System.Void .ctor(System.String memberName)
     // Offset: 0x1362AD0
-    static DefaultMemberAttribute* New_ctor(::CsString* memberName);
+    static DefaultMemberAttribute* New_ctor(::Il2CppString* memberName);
     // public System.String get_MemberName()
     // Offset: 0x1362B04
-    ::CsString* get_MemberName();
+    ::Il2CppString* get_MemberName();
   }; // System.Reflection.DefaultMemberAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

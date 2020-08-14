@@ -17,7 +17,7 @@ namespace NUnit::Compatibility {
     // Offset: 0x106BA94
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
-    ::CsObject* InitializeLifetimeService();
+    ::Il2CppObject* InitializeLifetimeService();
     // public System.Void .ctor()
     // Offset: 0x106BA9C
     // Implemented from: System.MarshalByRefObject

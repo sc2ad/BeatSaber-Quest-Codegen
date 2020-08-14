@@ -32,7 +32,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18E5FE0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
-    static NUnitException* New_ctor(::CsString* message, System::Exception* inner);
+    static NUnitException* New_ctor(::Il2CppString* message, System::Exception* inner);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x18E6060
     // Implemented from: System.Exception

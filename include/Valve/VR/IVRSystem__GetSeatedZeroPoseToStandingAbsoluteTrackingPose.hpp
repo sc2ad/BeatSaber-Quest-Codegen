@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16CB7BC
-    static IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.HmdMatrix34_t Invoke()
     // Offset: 0x16CB7D0
     Valve::VR::HmdMatrix34_t Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
     // Offset: 0x16CBA10
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.HmdMatrix34_t EndInvoke(System.IAsyncResult result)
     // Offset: 0x16CBA3C
     Valve::VR::HmdMatrix34_t EndInvoke(System::IAsyncResult* result);

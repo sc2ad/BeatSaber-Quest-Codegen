@@ -25,16 +25,16 @@ namespace Zenject {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1958990
-    static ZenFactoryMethod* New_ctor(::CsObject* object, System::IntPtr method);
+    static ZenFactoryMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Object Invoke(System.Object[] args)
     // Offset: 0x19589A4
-    ::CsObject* Invoke(::Array<::CsObject*>* args);
+    ::Il2CppObject* Invoke(::Array<::Il2CppObject*>* args);
     // public System.IAsyncResult BeginInvoke(System.Object[] args, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1958D64
-    System::IAsyncResult* BeginInvoke(::Array<::CsObject*>* args, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
     // Offset: 0x1958D88
-    ::CsObject* EndInvoke(System::IAsyncResult* result);
+    ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenFactoryMethod
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -47,16 +47,16 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* okButton;
     // private System.Action`2<EnterTextViewController,System.String> didFinishEvent
     // Offset: 0x80
-    System::Action_2<GlobalNamespace::EnterTextViewController*, ::CsString*>* didFinishEvent;
+    System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
     // Offset: 0xBE7548
-    void add_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::CsString*>* value);
+    void add_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
     // Offset: 0xBE75EC
-    void remove_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::CsString*>* value);
+    void remove_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void Init(System.String titleText)
     // Offset: 0xBE7690
-    void Init(::CsString* titleText);
+    void Init(::Il2CppString* titleText);
     // public System.Void OkButtonPressed()
     // Offset: 0xBE7788
     void OkButtonPressed();

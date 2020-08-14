@@ -15,8 +15,8 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Reflection
 namespace System::Reflection {
@@ -28,25 +28,25 @@ namespace System::Reflection {
     System::Type* argumentType;
     // private System.Object value
     // Offset: 0x8
-    ::CsObject* value;
+    ::Il2CppObject* value;
     // Creating value type constructor for type: CustomAttributeTypedArgument
-    CustomAttributeTypedArgument(System::Type* argumentType_ = {}, ::CsObject* value_ = {}) : argumentType{argumentType_}, value{value_} {}
+    CustomAttributeTypedArgument(System::Type* argumentType_ = {}, ::Il2CppObject* value_ = {}) : argumentType{argumentType_}, value{value_} {}
     // public System.Void .ctor(System.Type argumentType, System.Object value)
     // Offset: 0xA4329C
-    static CustomAttributeTypedArgument* New_ctor(System::Type* argumentType, ::CsObject* value);
+    static CustomAttributeTypedArgument* New_ctor(System::Type* argumentType, ::Il2CppObject* value);
     // public System.Object get_Value()
     // Offset: 0xA432A4
-    ::CsObject* get_Value();
+    ::Il2CppObject* get_Value();
     // public override System.String ToString()
     // Offset: 0xA432AC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xA432B4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA432BC
     // Implemented from: System.ValueType

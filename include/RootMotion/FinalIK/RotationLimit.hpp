@@ -69,7 +69,7 @@ namespace RootMotion::FinalIK {
     void LateUpdate();
     // public System.Void LogWarning(System.String message)
     // Offset: 0x1230C58
-    void LogWarning(::CsString* message);
+    void LogWarning(::Il2CppString* message);
     // static protected UnityEngine.Quaternion Limit1DOF(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis)
     // Offset: 0x1230C88
     static UnityEngine::Quaternion Limit1DOF(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis);

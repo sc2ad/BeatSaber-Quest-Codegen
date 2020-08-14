@@ -15,28 +15,28 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <BaseType>k__BackingField
     // Offset: 0x10
-    ::CsString* BaseType;
+    ::Il2CppString* BaseType;
     // private System.String <PageName>k__BackingField
     // Offset: 0x18
-    ::CsString* PageName;
+    ::Il2CppString* PageName;
     // public System.Void .ctor(System.String baseType)
     // Offset: 0x1958294
-    static RazorPageBaseTypeAttribute* New_ctor(::CsString* baseType);
+    static RazorPageBaseTypeAttribute* New_ctor(::Il2CppString* baseType);
     // public System.Void .ctor(System.String baseType, System.String pageName)
     // Offset: 0x19582C8
-    static RazorPageBaseTypeAttribute* New_ctor(::CsString* baseType, ::CsString* pageName);
+    static RazorPageBaseTypeAttribute* New_ctor(::Il2CppString* baseType, ::Il2CppString* pageName);
     // public System.String get_BaseType()
     // Offset: 0x1958318
-    ::CsString* get_BaseType();
+    ::Il2CppString* get_BaseType();
     // private System.Void set_BaseType(System.String value)
     // Offset: 0x1958320
-    void set_BaseType(::CsString* value);
+    void set_BaseType(::Il2CppString* value);
     // public System.String get_PageName()
     // Offset: 0x1958328
-    ::CsString* get_PageName();
+    ::Il2CppString* get_PageName();
     // private System.Void set_PageName(System.String value)
     // Offset: 0x1958330
-    void set_PageName(::CsString* value);
+    void set_PageName(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorPageBaseTypeAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

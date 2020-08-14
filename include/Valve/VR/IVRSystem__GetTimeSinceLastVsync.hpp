@@ -27,13 +27,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16CC270
-    static IVRSystem::_GetTimeSinceLastVsync* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetTimeSinceLastVsync* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Single pfSecondsSinceLastVsync, System.UInt64 pulFrameCounter)
     // Offset: 0x16CC284
     bool Invoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter);
     // public System.IAsyncResult BeginInvoke(System.Single pfSecondsSinceLastVsync, System.UInt64 pulFrameCounter, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16CC4FC
-    System::IAsyncResult* BeginInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.Single pfSecondsSinceLastVsync, System.UInt64 pulFrameCounter, System.IAsyncResult result)
     // Offset: 0x16CC5B0
     bool EndInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::IAsyncResult* result);

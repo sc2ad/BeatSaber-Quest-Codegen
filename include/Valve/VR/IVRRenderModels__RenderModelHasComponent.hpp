@@ -27,13 +27,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16BF62C
-    static IVRRenderModels::_RenderModelHasComponent* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRRenderModels::_RenderModelHasComponent* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchRenderModelName, System.String pchComponentName)
     // Offset: 0x16BF640
-    bool Invoke(::CsString* pchRenderModelName, ::CsString* pchComponentName);
+    bool Invoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.String pchComponentName, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16BFA50
-    System::IAsyncResult* BeginInvoke(::CsString* pchRenderModelName, ::CsString* pchComponentName, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0x16BFA80
     bool EndInvoke(System::IAsyncResult* result);

@@ -27,13 +27,13 @@ namespace UnityEngine::Experimental::Audio {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x19577CC
-    static AudioSampleProvider::SampleFramesHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static AudioSampleProvider::SampleFramesHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount)
     // Offset: 0x1957384
     void Invoke(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Experimental.Audio.AudioSampleProvider provider, System.UInt32 sampleFrameCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x19577E0
-    System::IAsyncResult* BeginInvoke(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint sampleFrameCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x195787C
     void EndInvoke(System::IAsyncResult* result);

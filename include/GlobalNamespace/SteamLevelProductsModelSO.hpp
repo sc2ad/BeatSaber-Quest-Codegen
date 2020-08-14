@@ -36,19 +36,19 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackProductsData;
     // private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelProductData> _levelIdToProductData
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* levelIdToProductData;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* levelIdToProductData;
     // private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::CsString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
     // public SteamLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
     // Offset: 0xBA2358
     ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public SteamLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
     // Offset: 0xBA24B8
-    GlobalNamespace::SteamLevelProductsModelSO::LevelProductData* GetLevelProductData(::CsString* levelId);
+    GlobalNamespace::SteamLevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public SteamLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
     // Offset: 0xBA2538
-    GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::CsString* levelPackId);
+    GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
     // protected override System.Void OnEnable()
     // Offset: 0xBA2360
     // Implemented from: PersistentScriptableObject

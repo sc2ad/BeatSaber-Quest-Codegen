@@ -16,7 +16,7 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Xml.Xsl.Runtime
 namespace System::Xml::Xsl::Runtime {
@@ -25,27 +25,27 @@ namespace System::Xml::Xsl::Runtime {
     public:
     // private System.String s1
     // Offset: 0x0
-    ::CsString* s1;
+    ::Il2CppString* s1;
     // private System.String s2
     // Offset: 0x8
-    ::CsString* s2;
+    ::Il2CppString* s2;
     // private System.String s3
     // Offset: 0x10
-    ::CsString* s3;
+    ::Il2CppString* s3;
     // private System.String s4
     // Offset: 0x18
-    ::CsString* s4;
+    ::Il2CppString* s4;
     // private System.String delimiter
     // Offset: 0x20
-    ::CsString* delimiter;
+    ::Il2CppString* delimiter;
     // private System.Collections.Generic.List`1<System.String> strList
     // Offset: 0x28
-    System::Collections::Generic::List_1<::CsString*>* strList;
+    System::Collections::Generic::List_1<::Il2CppString*>* strList;
     // private System.Int32 idxStr
     // Offset: 0x30
     int idxStr;
     // Creating value type constructor for type: StringConcat
-    StringConcat(::CsString* s1_ = {}, ::CsString* s2_ = {}, ::CsString* s3_ = {}, ::CsString* s4_ = {}, ::CsString* delimiter_ = {}, System::Collections::Generic::List_1<::CsString*>* strList_ = {}, int idxStr_ = {}) : s1{s1_}, s2{s2_}, s3{s3_}, s4{s4_}, delimiter{delimiter_}, strList{strList_}, idxStr{idxStr_} {}
+    StringConcat(::Il2CppString* s1_ = {}, ::Il2CppString* s2_ = {}, ::Il2CppString* s3_ = {}, ::Il2CppString* s4_ = {}, ::Il2CppString* delimiter_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* strList_ = {}, int idxStr_ = {}) : s1{s1_}, s2{s2_}, s3{s3_}, s4{s4_}, delimiter{delimiter_}, strList{strList_}, idxStr{idxStr_} {}
     // public System.Void Clear()
     // Offset: 0xA5A96C
     void Clear();
@@ -54,10 +54,10 @@ namespace System::Xml::Xsl::Runtime {
     int get_Count();
     // public System.String GetResult()
     // Offset: 0xA5A984
-    ::CsString* GetResult();
+    ::Il2CppString* GetResult();
     // System.Void ConcatNoDelimiter(System.String s)
     // Offset: 0xA5A98C
-    void ConcatNoDelimiter(::CsString* s);
+    void ConcatNoDelimiter(::Il2CppString* s);
   }; // System.Xml.Xsl.Runtime.StringConcat
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

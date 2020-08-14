@@ -24,7 +24,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Offset: 0xE2A9AC
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.Void ValueMatchFilter::.ctor(System.String assemblyName)
-    static AssemblyNameFilter* New_ctor(::CsString* assemblyName);
+    static AssemblyNameFilter* New_ctor(::Il2CppString* assemblyName);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xE2A9B4
     // Implemented from: NUnit.Framework.Internal.TestFilter
@@ -34,7 +34,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Offset: 0xE2AEAC
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.String ValueMatchFilter::get_ElementName()
-    ::CsString* get_ElementName();
+    ::Il2CppString* get_ElementName();
   }; // UnityEngine.TestRunner.NUnitExtensions.Filters.AssemblyNameFilter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

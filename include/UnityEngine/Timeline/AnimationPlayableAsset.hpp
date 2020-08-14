@@ -117,16 +117,16 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.Timeline.AppliedOffsetMode <appliedOffsetMode>k__BackingField
     // Offset: 0x48
     UnityEngine::Timeline::AppliedOffsetMode appliedOffsetMode;
-    // Get static field: static private readonly System.Int32 k_LatestVersion
-    static int _get_k_LatestVersion();
-    // Set static field: static private readonly System.Int32 k_LatestVersion
-    static void _set_k_LatestVersion(int value);
     // private System.Int32 m_Version
     // Offset: 0x4C
     int m_Version;
     // private UnityEngine.Quaternion m_Rotation
     // Offset: 0x50
     UnityEngine::Quaternion m_Rotation;
+    // Get static field: static private readonly System.Int32 k_LatestVersion
+    static int _get_k_LatestVersion();
+    // Set static field: static private readonly System.Int32 k_LatestVersion
+    static void _set_k_LatestVersion(int value);
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x108998C
     UnityEngine::Vector3 get_position();

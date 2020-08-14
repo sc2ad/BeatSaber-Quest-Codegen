@@ -46,7 +46,7 @@ namespace System::Diagnostics::Tracing {
       using declaring_type = ClassPropertyWriter_2<ContainerType, ValueType>*;
       // public System.Void .ctor(System.Object object, System.IntPtr method)
       // Offset: 0xFFFFFFFF
-      static typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter* New_ctor(::CsObject* object, System::IntPtr method) {
+      static typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
         return (typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ClassPropertyWriter_2<ContainerType, ValueType>::Getter*>::get(), object, method)));
       }
       // public ValueType Invoke(ContainerType container)
@@ -56,7 +56,7 @@ namespace System::Diagnostics::Tracing {
       }
       // public System.IAsyncResult BeginInvoke(ContainerType container, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
-      System::IAsyncResult* BeginInvoke(ContainerType container, System::AsyncCallback* callback, ::CsObject* object) {
+      System::IAsyncResult* BeginInvoke(ContainerType container, System::AsyncCallback* callback, ::Il2CppObject* object) {
         return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", container, callback, object));
       }
       // public ValueType EndInvoke(System.IAsyncResult result)
@@ -87,8 +87,8 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
     // Base method: System.Object PropertyAccessor`1::GetData(ContainerType container)
-    ::CsObject* GetData(ContainerType container) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(this, "GetData", container));
+    ::Il2CppObject* GetData(ContainerType container) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "GetData", container));
     }
   }; // System.Diagnostics.Tracing.ClassPropertyWriter`2
 }

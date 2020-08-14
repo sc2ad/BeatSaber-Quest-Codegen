@@ -10,7 +10,7 @@
 #include "System/IntPtr.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: Mono
 namespace Mono {
@@ -32,7 +32,7 @@ namespace Mono {
     // Offset: 0xA3CDD4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3CDDC
     // Implemented from: System.ValueType

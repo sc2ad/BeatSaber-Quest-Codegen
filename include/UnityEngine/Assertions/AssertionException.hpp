@@ -15,15 +15,15 @@ namespace UnityEngine::Assertions {
     public:
     // private System.String m_UserMessage
     // Offset: 0x88
-    ::CsString* m_UserMessage;
+    ::Il2CppString* m_UserMessage;
     // public System.Void .ctor(System.String message, System.String userMessage)
     // Offset: 0x12FBFFC
-    static AssertionException* New_ctor(::CsString* message, ::CsString* userMessage);
+    static AssertionException* New_ctor(::Il2CppString* message, ::Il2CppString* userMessage);
     // public override System.String get_Message()
     // Offset: 0x12FC440
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
   }; // UnityEngine.Assertions.AssertionException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

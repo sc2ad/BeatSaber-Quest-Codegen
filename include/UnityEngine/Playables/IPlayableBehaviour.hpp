@@ -15,7 +15,7 @@ namespace UnityEngine::Playables {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -45,7 +45,7 @@ namespace UnityEngine::Playables {
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     // Offset: 0xFFFFFFFF
-    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::CsObject* playerData);
+    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
   }; // UnityEngine.Playables.IPlayableBehaviour
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

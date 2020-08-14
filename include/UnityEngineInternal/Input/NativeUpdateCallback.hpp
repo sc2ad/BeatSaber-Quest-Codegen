@@ -32,13 +32,13 @@ namespace UnityEngineInternal::Input {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1979464
-    static NativeUpdateCallback* New_ctor(::CsObject* object, System::IntPtr method);
+    static NativeUpdateCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* buffer)
     // Offset: 0x197909C
     void Invoke(UnityEngineInternal::Input::NativeInputUpdateType updateType, UnityEngineInternal::Input::NativeInputEventBuffer* buffer);
     // public System.IAsyncResult BeginInvoke(UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* buffer, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1979478
-    System::IAsyncResult* BeginInvoke(UnityEngineInternal::Input::NativeInputUpdateType updateType, UnityEngineInternal::Input::NativeInputEventBuffer* buffer, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngineInternal::Input::NativeInputUpdateType updateType, UnityEngineInternal::Input::NativeInputEventBuffer* buffer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1979510
     void EndInvoke(System::IAsyncResult* result);

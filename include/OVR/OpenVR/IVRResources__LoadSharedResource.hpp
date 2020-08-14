@@ -27,13 +27,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16A6888
-    static IVRResources::_LoadSharedResource* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRResources::_LoadSharedResource* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
     // Offset: 0x16A689C
-    uint Invoke(::CsString* pchResourceName, ::CsString* pchBuffer, uint unBufferLen);
+    uint Invoke(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen);
     // public System.IAsyncResult BeginInvoke(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16A6CCC
-    System::IAsyncResult* BeginInvoke(::CsString* pchResourceName, ::CsString* pchBuffer, uint unBufferLen, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
     // Offset: 0x16A6D6C
     uint EndInvoke(System::IAsyncResult* result);

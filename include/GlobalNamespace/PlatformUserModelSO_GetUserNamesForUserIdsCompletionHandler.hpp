@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBCC4F4
-    static PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformUserModelSO/GetUserNamesForUserIdsResult result, System.String[] userNames)
     // Offset: 0xBD64FC
-    void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsResult result, ::Array<::CsString*>* userNames);
+    void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsResult result, ::Array<::Il2CppString*>* userNames);
     // public System.IAsyncResult BeginInvoke(PlatformUserModelSO/GetUserNamesForUserIdsResult result, System.String[] userNames, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBD6784
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsResult result, ::Array<::CsString*>* userNames, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsResult result, ::Array<::Il2CppString*>* userNames, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xBD681C
     void EndInvoke(System::IAsyncResult* result);

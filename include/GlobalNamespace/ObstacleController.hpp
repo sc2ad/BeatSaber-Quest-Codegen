@@ -89,12 +89,6 @@ namespace GlobalNamespace {
     // private System.Action`1<ObstacleController> didDissolveEvent
     // Offset: 0x70
     System::Action_1<GlobalNamespace::ObstacleController*>* didDissolveEvent;
-    // static field const value: static public System.Single kAvoidMarkTimeOffset
-    static constexpr const float kAvoidMarkTimeOffset = 0.15;
-    // Get static field: static public System.Single kAvoidMarkTimeOffset
-    static float _get_kAvoidMarkTimeOffset();
-    // Set static field: static public System.Single kAvoidMarkTimeOffset
-    static void _set_kAvoidMarkTimeOffset(float value);
     // private UnityEngine.Vector3 _startPos
     // Offset: 0x78
     UnityEngine::Vector3 startPos;
@@ -146,6 +140,12 @@ namespace GlobalNamespace {
     // private UnityEngine.Quaternion _inverseWorldRotation
     // Offset: 0xF0
     UnityEngine::Quaternion inverseWorldRotation;
+    // static field const value: static public System.Single kAvoidMarkTimeOffset
+    static constexpr const float kAvoidMarkTimeOffset = 0.15;
+    // Get static field: static public System.Single kAvoidMarkTimeOffset
+    static float _get_kAvoidMarkTimeOffset();
+    // Set static field: static public System.Single kAvoidMarkTimeOffset
+    static void _set_kAvoidMarkTimeOffset(float value);
     // public System.Void add_didInitEvent(System.Action`1<ObstacleController> value)
     // Offset: 0xC2FBDC
     void add_didInitEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);

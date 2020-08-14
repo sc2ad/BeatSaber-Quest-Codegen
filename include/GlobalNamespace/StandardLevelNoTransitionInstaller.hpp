@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PracticeSettings* practiceSettings;
     // private System.String _backButtonText
     // Offset: 0x50
-    ::CsString* backButtonText;
+    ::Il2CppString* backButtonText;
     // private System.Boolean _useTestNoteCutSoundEffects
     // Offset: 0x58
     bool useTestNoteCutSoundEffects;

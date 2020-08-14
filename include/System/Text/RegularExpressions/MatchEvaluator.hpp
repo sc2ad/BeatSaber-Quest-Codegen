@@ -30,16 +30,16 @@ namespace System::Text::RegularExpressions {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x121B084
-    static MatchEvaluator* New_ctor(::CsObject* object, System::IntPtr method);
+    static MatchEvaluator* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.String Invoke(System.Text.RegularExpressions.Match match)
     // Offset: 0x121B098
-    ::CsString* Invoke(System::Text::RegularExpressions::Match* match);
+    ::Il2CppString* Invoke(System::Text::RegularExpressions::Match* match);
     // public System.IAsyncResult BeginInvoke(System.Text.RegularExpressions.Match match, System.AsyncCallback callback, System.Object object)
     // Offset: 0x121B458
-    System::IAsyncResult* BeginInvoke(System::Text::RegularExpressions::Match* match, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::Text::RegularExpressions::Match* match, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
     // Offset: 0x121B47C
-    ::CsString* EndInvoke(System::IAsyncResult* result);
+    ::Il2CppString* EndInvoke(System::IAsyncResult* result);
   }; // System.Text.RegularExpressions.MatchEvaluator
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

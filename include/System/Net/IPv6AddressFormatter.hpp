@@ -11,7 +11,7 @@
 // Begin il2cpp-utils forward declares
 template<class T>
 struct Array;
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Net
 namespace System::Net {
@@ -45,7 +45,7 @@ namespace System::Net {
     // Offset: 0xA38748
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.Net.IPv6AddressFormatter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

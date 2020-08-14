@@ -36,7 +36,7 @@ namespace Polyglot {
     UnityEngine::TextMesh* text;
     // private System.String key
     // Offset: 0x20
-    ::CsString* key;
+    ::Il2CppString* key;
     // public System.Void Reset()
     // Offset: 0x190F3F4
     void Reset();
@@ -56,7 +56,7 @@ namespace Polyglot {
     // Offset: 0x190F3EC
     // Implemented from: Polyglot.ILocalizeKey
     // Base method: System.String ILocalizeKey::get_Key()
-    ::CsString* get_Key();
+    ::Il2CppString* get_Key();
     // public System.Void OnLocalize()
     // Offset: 0x190F480
     // Implemented from: Polyglot.ILocalize

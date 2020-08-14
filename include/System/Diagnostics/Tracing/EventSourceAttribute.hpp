@@ -15,28 +15,28 @@ namespace System::Diagnostics::Tracing {
     public:
     // private System.String <Name>k__BackingField
     // Offset: 0x10
-    ::CsString* Name;
+    ::Il2CppString* Name;
     // private System.String <Guid>k__BackingField
     // Offset: 0x18
-    ::CsString* Guid;
+    ::Il2CppString* Guid;
     // private System.String <LocalizationResources>k__BackingField
     // Offset: 0x20
-    ::CsString* LocalizationResources;
+    ::Il2CppString* LocalizationResources;
     // public System.String get_Name()
     // Offset: 0xD92820
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
     // Offset: 0xD92828
-    void set_Name(::CsString* value);
+    void set_Name(::Il2CppString* value);
     // public System.String get_Guid()
     // Offset: 0xD92830
-    ::CsString* get_Guid();
+    ::Il2CppString* get_Guid();
     // public System.Void set_Guid(System.String value)
     // Offset: 0xD92838
-    void set_Guid(::CsString* value);
+    void set_Guid(::Il2CppString* value);
     // public System.String get_LocalizationResources()
     // Offset: 0xD92840
-    ::CsString* get_LocalizationResources();
+    ::Il2CppString* get_LocalizationResources();
     // public System.Void .ctor()
     // Offset: 0xD92848
     // Implemented from: System.Attribute

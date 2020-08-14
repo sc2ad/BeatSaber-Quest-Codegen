@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED0E48
-    static IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(OVR.OpenVR.HmdQuad_t[] pQuadsBuffer, System.UInt32 punQuadsCount)
     // Offset: 0xEC9818
     bool Invoke(::Array<OVR::OpenVR::HmdQuad_t>*& pQuadsBuffer, uint& punQuadsCount);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.HmdQuad_t[] pQuadsBuffer, System.UInt32 punQuadsCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED0E5C
-    System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::HmdQuad_t>*& pQuadsBuffer, uint& punQuadsCount, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::HmdQuad_t>*& pQuadsBuffer, uint& punQuadsCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.UInt32 punQuadsCount, System.IAsyncResult result)
     // Offset: 0xED0EF8
     bool EndInvoke(uint& punQuadsCount, System::IAsyncResult* result);

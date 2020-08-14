@@ -13,8 +13,8 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
@@ -23,10 +23,10 @@ namespace System::Runtime::Remoting {
     public:
     // public System.String get_TypeName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_TypeName();
+    ::Il2CppString* get_TypeName();
     // public System.Boolean CanCastTo(System.Type fromType, System.Object o)
     // Offset: 0xFFFFFFFF
-    bool CanCastTo(System::Type* fromType, ::CsObject* o);
+    bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.IRemotingTypeInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

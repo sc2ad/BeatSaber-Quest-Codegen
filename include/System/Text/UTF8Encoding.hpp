@@ -82,7 +82,7 @@ namespace System::Text {
     // Offset: 0x13C918C
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.String chars)
-    int GetByteCount(::CsString* chars);
+    int GetByteCount(::Il2CppString* chars);
     // public override System.Int32 GetByteCount(System.Char* chars, System.Int32 count)
     // Offset: 0x13C923C
     // Implemented from: System.Text.Encoding
@@ -92,7 +92,7 @@ namespace System::Text {
     // Offset: 0x13C9358
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.String s, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
-    int GetBytes(::CsString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
+    int GetBytes(::Il2CppString* s, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     // Offset: 0x13C95C8
     // Implemented from: System.Text.Encoding
@@ -127,7 +127,7 @@ namespace System::Text {
     // Offset: 0x13CA0C0
     // Implemented from: System.Text.Encoding
     // Base method: System.String Encoding::GetString(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    ::CsString* GetString(::Array<uint8_t>* bytes, int index, int count);
+    ::Il2CppString* GetString(::Array<uint8_t>* bytes, int index, int count);
     // override System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Text.EncoderNLS baseEncoder)
     // Offset: 0x13CA298
     // Implemented from: System.Text.Encoding
@@ -177,7 +177,7 @@ namespace System::Text {
     // Offset: 0x13CC410
     // Implemented from: System.Text.Encoding
     // Base method: System.Boolean Encoding::Equals(System.Object value)
-    bool Equals(::CsObject* value);
+    bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
     // Offset: 0x13CC504
     // Implemented from: System.Text.Encoding

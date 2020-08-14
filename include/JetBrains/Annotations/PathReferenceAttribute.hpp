@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <BasePath>k__BackingField
     // Offset: 0x10
-    ::CsString* BasePath;
+    ::Il2CppString* BasePath;
     // public System.Void .ctor(System.String basePath)
     // Offset: 0x19580EC
-    static PathReferenceAttribute* New_ctor(::CsString* basePath);
+    static PathReferenceAttribute* New_ctor(::Il2CppString* basePath);
     // public System.String get_BasePath()
     // Offset: 0x1958120
-    ::CsString* get_BasePath();
+    ::Il2CppString* get_BasePath();
     // private System.Void set_BasePath(System.String value)
     // Offset: 0x1958128
-    void set_BasePath(::CsString* value);
+    void set_BasePath(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x19580E4
     // Implemented from: System.Attribute

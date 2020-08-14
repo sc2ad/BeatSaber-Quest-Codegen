@@ -54,8 +54,8 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
     // Base method: System.Object PropertyAccessor`1::GetData(ContainerType container)
-    ::CsObject* GetData(ContainerType container) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(this, "GetData", container));
+    ::Il2CppObject* GetData(ContainerType container) {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "GetData", container));
     }
   }; // System.Diagnostics.Tracing.NonGenericProperytWriter`1
 }

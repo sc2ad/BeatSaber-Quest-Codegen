@@ -94,6 +94,9 @@ namespace GlobalNamespace {
     // private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     // Offset: 0x80
     UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
+    // private System.Int32 _layer
+    // Offset: 0x88
+    int layer;
     // Get static field: static private readonly System.Int32 _positionPropertyID
     static int _get__positionPropertyID();
     // Set static field: static private readonly System.Int32 _positionPropertyID
@@ -110,9 +113,6 @@ namespace GlobalNamespace {
     static int _get__zClipPropertyID();
     // Set static field: static private readonly System.Int32 _zClipPropertyID
     static void _set__zClipPropertyID(int value);
-    // private System.Int32 _layer
-    // Offset: 0x88
-    int layer;
     // public UnityEngine.Color get_color()
     // Offset: 0xB5A99C
     UnityEngine::Color get_color();

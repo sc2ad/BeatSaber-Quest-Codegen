@@ -15,10 +15,10 @@ namespace System {
     public:
     // private System.String comment
     // Offset: 0x10
-    ::CsString* comment;
+    ::Il2CppString* comment;
     // public System.Void .ctor(System.String comment)
     // Offset: 0x1012AB4
-    static MonoTODOAttribute* New_ctor(::CsString* comment);
+    static MonoTODOAttribute* New_ctor(::Il2CppString* comment);
     // public System.Void .ctor()
     // Offset: 0x1012AAC
     // Implemented from: System.Attribute

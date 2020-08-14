@@ -62,7 +62,7 @@ namespace System::Configuration {
     // Offset: 0x1977064
     // Implemented from: System.Configuration.ConfigurationSection
     // Base method: System.String ConfigurationSection::SerializeSection(System.Configuration.ConfigurationElement parentSection, System.String name, System.Configuration.ConfigurationSaveMode saveMode)
-    ::CsString* SerializeSection(System::Configuration::ConfigurationElement* parentSection, ::CsString* name, System::Configuration::ConfigurationSaveMode saveMode);
+    ::Il2CppString* SerializeSection(System::Configuration::ConfigurationElement* parentSection, ::Il2CppString* name, System::Configuration::ConfigurationSaveMode saveMode);
   }; // System.Configuration.IgnoreSection
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

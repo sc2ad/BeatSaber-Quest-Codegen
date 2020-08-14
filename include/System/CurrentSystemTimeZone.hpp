@@ -25,7 +25,7 @@ namespace System {
     System::TimeZoneInfo* LocalTimeZone;
     // static public System.Boolean GetTimeZoneData(System.Int32 year, System.Int64[] data, System.String[] names, System.Boolean daylight_inverted)
     // Offset: 0x10CA0A0
-    static bool GetTimeZoneData(int year, ::Array<int64_t>*& data, ::Array<::CsString*>*& names, bool& daylight_inverted);
+    static bool GetTimeZoneData(int year, ::Array<int64_t>*& data, ::Array<::Il2CppString*>*& names, bool& daylight_inverted);
     // System.Void .ctor()
     // Offset: 0x10CA020
     // Implemented from: System.TimeZone

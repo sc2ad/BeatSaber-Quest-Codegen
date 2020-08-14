@@ -27,13 +27,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B3B6C
-    static IVRSystem::_GetTimeSinceLastVsync* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetTimeSinceLastVsync* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Single pfSecondsSinceLastVsync, System.UInt64 pulFrameCounter)
     // Offset: 0x16B3B80
     bool Invoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter);
     // public System.IAsyncResult BeginInvoke(System.Single pfSecondsSinceLastVsync, System.UInt64 pulFrameCounter, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16B3DF8
-    System::IAsyncResult* BeginInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.Single pfSecondsSinceLastVsync, System.UInt64 pulFrameCounter, System.IAsyncResult result)
     // Offset: 0x16B3EAC
     bool EndInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::IAsyncResult* result);

@@ -27,13 +27,13 @@ namespace UnityEngine {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1955EE8
-    static AudioClip::PCMReaderCallback* New_ctor(::CsObject* object, System::IntPtr method);
+    static AudioClip::PCMReaderCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Single[] data)
     // Offset: 0x19558B4
     void Invoke(::Array<float>* data);
     // public System.IAsyncResult BeginInvoke(System.Single[] data, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1955EFC
-    System::IAsyncResult* BeginInvoke(::Array<float>* data, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<float>* data, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1955F20
     void EndInvoke(System::IAsyncResult* result);

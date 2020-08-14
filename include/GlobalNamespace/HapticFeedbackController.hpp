@@ -45,6 +45,12 @@ namespace GlobalNamespace {
     // private VRPlatformHelper _vrPlatformHelper
     // Offset: 0x20
     GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
+    // private System.Collections.Generic.Dictionary`2<UnityEngine.XR.XRNode,HapticFeedbackController/ContinousRumbleParams> _continuousRumbles
+    // Offset: 0x28
+    System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, GlobalNamespace::HapticFeedbackController::ContinousRumbleParams*>* continuousRumbles;
+    // private System.Int32 continousRumbleIntervalCounter
+    // Offset: 0x30
+    int continousRumbleIntervalCounter;
     // static field const value: static private System.Single kContinuesRumbleImpulseStrength
     static constexpr const float kContinuesRumbleImpulseStrength = 1;
     // Get static field: static private System.Single kContinuesRumbleImpulseStrength
@@ -57,12 +63,6 @@ namespace GlobalNamespace {
     static float _get_kContinuesRumbleIntervalTime();
     // Set static field: static private System.Single kContinuesRumbleIntervalTime
     static void _set_kContinuesRumbleIntervalTime(float value);
-    // private System.Collections.Generic.Dictionary`2<UnityEngine.XR.XRNode,HapticFeedbackController/ContinousRumbleParams> _continuousRumbles
-    // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, GlobalNamespace::HapticFeedbackController::ContinousRumbleParams*>* continuousRumbles;
-    // private System.Int32 continousRumbleIntervalCounter
-    // Offset: 0x30
-    int continousRumbleIntervalCounter;
     // protected System.Void Awake()
     // Offset: 0xCB3DE4
     void Awake();

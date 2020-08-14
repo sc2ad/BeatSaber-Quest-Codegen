@@ -38,6 +38,9 @@ namespace System::Threading::Tasks {
     public:
     // Nested type: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::$$c
     class $$c;
+    // private readonly System.Threading.SynchronizationContext m_syncContext
+    // Offset: 0x20
+    System::Threading::SynchronizationContext* m_syncContext;
     // Get static field: static private readonly System.Threading.SendOrPostCallback s_postCallback
     static System::Threading::SendOrPostCallback* _get_s_postCallback();
     // Set static field: static private readonly System.Threading.SendOrPostCallback s_postCallback
@@ -46,15 +49,12 @@ namespace System::Threading::Tasks {
     static System::Threading::ContextCallback* _get_s_postActionCallback();
     // Set static field: static private System.Threading.ContextCallback s_postActionCallback
     static void _set_s_postActionCallback(System::Threading::ContextCallback* value);
-    // private readonly System.Threading.SynchronizationContext m_syncContext
-    // Offset: 0x20
-    System::Threading::SynchronizationContext* m_syncContext;
     // System.Void .ctor(System.Threading.SynchronizationContext context, System.Action action, System.Boolean flowExecutionContext, System.Threading.StackCrawlMark stackMark)
     // Offset: 0xCDC4C0
     static SynchronizationContextAwaitTaskContinuation* New_ctor(System::Threading::SynchronizationContext* context, System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark);
     // static private System.Void PostAction(System.Object state)
     // Offset: 0xCDC688
-    static void PostAction(::CsObject* state);
+    static void PostAction(::Il2CppObject* state);
     // static private System.Threading.ContextCallback GetPostActionCallback()
     // Offset: 0xCDC734
     static System::Threading::ContextCallback* GetPostActionCallback();

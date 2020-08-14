@@ -58,7 +58,7 @@ namespace RootMotion::FinalIK {
     class InteractionEventDelegate;
     // public System.String targetTag
     // Offset: 0x18
-    ::CsString* targetTag;
+    ::Il2CppString* targetTag;
     // public System.Single fadeInTime
     // Offset: 0x20
     float fadeInTime;

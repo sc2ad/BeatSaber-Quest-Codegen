@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <ParameterName>k__BackingField
     // Offset: 0x10
-    ::CsString* ParameterName;
+    ::Il2CppString* ParameterName;
     // public System.Void .ctor(System.String parameterName)
     // Offset: 0x19580A0
-    static NotifyPropertyChangedInvocatorAttribute* New_ctor(::CsString* parameterName);
+    static NotifyPropertyChangedInvocatorAttribute* New_ctor(::Il2CppString* parameterName);
     // public System.String get_ParameterName()
     // Offset: 0x19580D4
-    ::CsString* get_ParameterName();
+    ::Il2CppString* get_ParameterName();
     // private System.Void set_ParameterName(System.String value)
     // Offset: 0x19580DC
-    void set_ParameterName(::CsString* value);
+    void set_ParameterName(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1958098
     // Implemented from: System.Attribute

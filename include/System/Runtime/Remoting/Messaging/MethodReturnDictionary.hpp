@@ -21,13 +21,13 @@ namespace System::Runtime::Remoting::Messaging {
   class MethodReturnDictionary : public System::Runtime::Remoting::Messaging::MessageDictionary {
     public:
     // Get static field: static public System.String[] InternalReturnKeys
-    static ::Array<::CsString*>* _get_InternalReturnKeys();
+    static ::Array<::Il2CppString*>* _get_InternalReturnKeys();
     // Set static field: static public System.String[] InternalReturnKeys
-    static void _set_InternalReturnKeys(::Array<::CsString*>* value);
+    static void _set_InternalReturnKeys(::Array<::Il2CppString*>* value);
     // Get static field: static public System.String[] InternalExceptionKeys
-    static ::Array<::CsString*>* _get_InternalExceptionKeys();
+    static ::Array<::Il2CppString*>* _get_InternalExceptionKeys();
     // Set static field: static public System.String[] InternalExceptionKeys
-    static void _set_InternalExceptionKeys(::Array<::CsString*>* value);
+    static void _set_InternalExceptionKeys(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage message)
     // Offset: 0x1068598
     static MethodReturnDictionary* New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);

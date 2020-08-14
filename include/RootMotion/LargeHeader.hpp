@@ -15,16 +15,16 @@ namespace RootMotion {
     public:
     // public System.String name
     // Offset: 0x10
-    ::CsString* name;
+    ::Il2CppString* name;
     // public System.String color
     // Offset: 0x18
-    ::CsString* color;
+    ::Il2CppString* color;
     // public System.Void .ctor(System.String name)
     // Offset: 0x123D7EC
-    static LargeHeader* New_ctor(::CsString* name);
+    static LargeHeader* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.String color)
     // Offset: 0x123D87C
-    static LargeHeader* New_ctor(::CsString* name, ::CsString* color);
+    static LargeHeader* New_ctor(::Il2CppString* name, ::Il2CppString* color);
   }; // RootMotion.LargeHeader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

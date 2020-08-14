@@ -24,16 +24,16 @@ namespace System::IO {
     public:
     // private System.String current
     // Offset: 0x60
-    ::CsString* current;
+    ::Il2CppString* current;
     // private System.String parent
     // Offset: 0x68
-    ::CsString* parent;
+    ::Il2CppString* parent;
     // public System.Void .ctor(System.String path)
     // Offset: 0x112CBAC
-    static DirectoryInfo* New_ctor(::CsString* path);
+    static DirectoryInfo* New_ctor(::Il2CppString* path);
     // System.Void .ctor(System.String path, System.Boolean simpleOriginalPath)
     // Offset: 0x112B430
-    static DirectoryInfo* New_ctor(::CsString* path, bool simpleOriginalPath);
+    static DirectoryInfo* New_ctor(::Il2CppString* path, bool simpleOriginalPath);
     // private System.Void Initialize()
     // Offset: 0x112CD70
     void Initialize();
@@ -48,10 +48,10 @@ namespace System::IO {
     ::Array<System::IO::DirectoryInfo*>* GetDirectories();
     // public System.IO.DirectoryInfo[] GetDirectories(System.String searchPattern)
     // Offset: 0x112D26C
-    ::Array<System::IO::DirectoryInfo*>* GetDirectories(::CsString* searchPattern);
+    ::Array<System::IO::DirectoryInfo*>* GetDirectories(::Il2CppString* searchPattern);
     // System.Void CheckPath(System.String path)
     // Offset: 0x112CC1C
-    void CheckPath(::CsString* path);
+    void CheckPath(::Il2CppString* path);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x112D020
     // Implemented from: System.IO.FileSystemInfo
@@ -66,12 +66,12 @@ namespace System::IO {
     // Offset: 0x112D214
     // Implemented from: System.IO.FileSystemInfo
     // Base method: System.String FileSystemInfo::get_Name()
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public override System.String ToString()
     // Offset: 0x112D3F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.IO.DirectoryInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

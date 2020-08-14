@@ -52,23 +52,23 @@ namespace UnityEngine::UI {
     UnityEngine::UI::FontData* m_FontData;
     // protected System.String m_Text
     // Offset: 0xC8
-    ::CsString* m_Text;
+    ::Il2CppString* m_Text;
     // private UnityEngine.TextGenerator m_TextCache
     // Offset: 0xD0
     UnityEngine::TextGenerator* m_TextCache;
     // private UnityEngine.TextGenerator m_TextCacheForLayout
     // Offset: 0xD8
     UnityEngine::TextGenerator* m_TextCacheForLayout;
-    // Get static field: static protected UnityEngine.Material s_DefaultText
-    static UnityEngine::Material* _get_s_DefaultText();
-    // Set static field: static protected UnityEngine.Material s_DefaultText
-    static void _set_s_DefaultText(UnityEngine::Material* value);
     // protected System.Boolean m_DisableFontTextureRebuiltCallback
     // Offset: 0xE0
     bool m_DisableFontTextureRebuiltCallback;
     // private readonly UnityEngine.UIVertex[] m_TempVerts
     // Offset: 0xE8
     ::Array<UnityEngine::UIVertex>* m_TempVerts;
+    // Get static field: static protected UnityEngine.Material s_DefaultText
+    static UnityEngine::Material* _get_s_DefaultText();
+    // Set static field: static protected UnityEngine.Material s_DefaultText
+    static void _set_s_DefaultText(UnityEngine::Material* value);
     // public UnityEngine.TextGenerator get_cachedTextGenerator()
     // Offset: 0x192A79C
     UnityEngine::TextGenerator* get_cachedTextGenerator();
@@ -86,10 +86,10 @@ namespace UnityEngine::UI {
     void set_font(UnityEngine::Font* value);
     // public System.String get_text()
     // Offset: 0x192ACDC
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x192ACE4
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // public System.Boolean get_supportRichText()
     // Offset: 0x192ADD8
     bool get_supportRichText();

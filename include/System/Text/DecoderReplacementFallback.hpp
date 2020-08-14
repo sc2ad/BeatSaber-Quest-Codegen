@@ -22,13 +22,13 @@ namespace System::Text {
     public:
     // private System.String strDefault
     // Offset: 0x18
-    ::CsString* strDefault;
+    ::Il2CppString* strDefault;
     // public System.Void .ctor(System.String replacement)
     // Offset: 0x12E8AE0
-    static DecoderReplacementFallback* New_ctor(::CsString* replacement);
+    static DecoderReplacementFallback* New_ctor(::Il2CppString* replacement);
     // public System.String get_DefaultString()
     // Offset: 0x12E8CC4
-    ::CsString* get_DefaultString();
+    ::Il2CppString* get_DefaultString();
     // public System.Void .ctor()
     // Offset: 0x12E79C0
     // Implemented from: System.Text.DecoderFallback
@@ -49,7 +49,7 @@ namespace System::Text {
     // Offset: 0x12E8D8C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
-    bool Equals(::CsObject* value);
+    bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
     // Offset: 0x12E8E20
     // Implemented from: System.Object

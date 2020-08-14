@@ -56,18 +56,18 @@ namespace GlobalNamespace {
     class GuestPlayer;
     // Nested type: GlobalNamespace::PlayerSaveData::LocalPlayer
     class LocalPlayer;
-    // static field const value: static public System.String kCurrentVersion
-    static constexpr const char* kCurrentVersion = "2.0.6";
-    // Get static field: static public System.String kCurrentVersion
-    static ::CsString* _get_kCurrentVersion();
-    // Set static field: static public System.String kCurrentVersion
-    static void _set_kCurrentVersion(::CsString* value);
     // public System.Collections.Generic.List`1<PlayerSaveData/LocalPlayer> localPlayers
     // Offset: 0x18
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::LocalPlayer*>* localPlayers;
     // public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
     // Offset: 0x20
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>* guestPlayers;
+    // static field const value: static public System.String kCurrentVersion
+    static constexpr const char* kCurrentVersion = "2.0.6";
+    // Get static field: static public System.String kCurrentVersion
+    static ::Il2CppString* _get_kCurrentVersion();
+    // Set static field: static public System.String kCurrentVersion
+    static void _set_kCurrentVersion(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0xBD9858
     // Implemented from: VersionSaveData

@@ -30,13 +30,13 @@ namespace Assets::OVR::Scripts {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xEBDCF8
-    static FixMethodDelegate* New_ctor(::CsObject* object, System::IntPtr method);
+    static FixMethodDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Object obj, System.Boolean isLastInSet, System.Int32 selectedIndex)
     // Offset: 0xEBDD0C
     void Invoke(UnityEngine::Object* obj, bool isLastInSet, int selectedIndex);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Object obj, System.Boolean isLastInSet, System.Int32 selectedIndex, System.AsyncCallback callback, System.Object object)
     // Offset: 0xEBE178
-    System::IAsyncResult* BeginInvoke(UnityEngine::Object* obj, bool isLastInSet, int selectedIndex, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::Object* obj, bool isLastInSet, int selectedIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xEBE238
     void EndInvoke(System::IAsyncResult* result);

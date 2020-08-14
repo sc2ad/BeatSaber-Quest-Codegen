@@ -83,12 +83,12 @@ namespace OVRSimpleJSON {
     // Offset: 0xF4B67C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode JSONNode::get_Item(System.String aKey)
-    OVRSimpleJSON::JSONNode* get_Item(::CsString* aKey);
+    OVRSimpleJSON::JSONNode* get_Item(::Il2CppString* aKey);
     // public override System.Void set_Item(System.String aKey, OVRSimpleJSON.JSONNode value)
     // Offset: 0xF4B6DC
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Item(System.String aKey, OVRSimpleJSON.JSONNode value)
-    void set_Item(::CsString* aKey, OVRSimpleJSON::JSONNode* value);
+    void set_Item(::Il2CppString* aKey, OVRSimpleJSON::JSONNode* value);
     // public override System.Int32 get_Count()
     // Offset: 0xF4B79C
     // Implemented from: OVRSimpleJSON.JSONNode
@@ -98,7 +98,7 @@ namespace OVRSimpleJSON {
     // Offset: 0xF4B7EC
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::Add(System.String aKey, OVRSimpleJSON.JSONNode aItem)
-    void Add(::CsString* aKey, OVRSimpleJSON::JSONNode* aItem);
+    void Add(::Il2CppString* aKey, OVRSimpleJSON::JSONNode* aItem);
     // public override OVRSimpleJSON.JSONNode Remove(System.Int32 aIndex)
     // Offset: 0xF4B8AC
     // Implemented from: OVRSimpleJSON.JSONNode

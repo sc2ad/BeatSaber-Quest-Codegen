@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x150D868
-    static IVRCompositor::_SetSkyboxOverride* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_SetSkyboxOverride* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRCompositorError Invoke(OVR.OpenVR.Texture_t[] pTextures, System.UInt32 unTextureCount)
     // Offset: 0x150D87C
     OVR::OpenVR::EVRCompositorError Invoke(::Array<OVR::OpenVR::Texture_t>*& pTextures, uint unTextureCount);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.Texture_t[] pTextures, System.UInt32 unTextureCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x150DAF0
-    System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::Texture_t>*& pTextures, uint unTextureCount, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::Texture_t>*& pTextures, uint unTextureCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRCompositorError EndInvoke(System.IAsyncResult result)
     // Offset: 0x150DB8C
     OVR::OpenVR::EVRCompositorError EndInvoke(System::IAsyncResult* result);

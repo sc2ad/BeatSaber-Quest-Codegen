@@ -35,7 +35,7 @@ namespace UnityEngine::Playables {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -92,7 +92,7 @@ namespace UnityEngine::Playables {
     void SetWeight(float weight);
     // System.Void PushNotification(UnityEngine.Playables.PlayableHandle origin, UnityEngine.Playables.INotification notification, System.Object context)
     // Offset: 0xA45434
-    void PushNotification(UnityEngine::Playables::PlayableHandle origin, UnityEngine::Playables::INotification* notification, ::CsObject* context);
+    void PushNotification(UnityEngine::Playables::PlayableHandle origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // System.Void AddNotificationReceiver(UnityEngine.Playables.INotificationReceiver receiver)
     // Offset: 0xA4543C
     void AddNotificationReceiver(UnityEngine::Playables::INotificationReceiver* receiver);
@@ -125,7 +125,7 @@ namespace UnityEngine::Playables {
     static void SetWeight_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, float weight);
     // static private System.Void PushNotification_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Playables.PlayableHandle origin, UnityEngine.Playables.INotification notification, System.Object context)
     // Offset: 0x141450C
-    static void PushNotification_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::PlayableHandle& origin, UnityEngine::Playables::INotification* notification, ::CsObject* context);
+    static void PushNotification_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::PlayableHandle& origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // static private System.Void AddNotificationReceiver_Injected(UnityEngine.Playables.PlayableOutputHandle _unity_self, UnityEngine.Playables.INotificationReceiver receiver)
     // Offset: 0x1414608
     static void AddNotificationReceiver_Injected(UnityEngine::Playables::PlayableOutputHandle& _unity_self, UnityEngine::Playables::INotificationReceiver* receiver);
@@ -138,7 +138,7 @@ namespace UnityEngine::Playables {
     // Offset: 0xA453E4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object p)
-    bool Equals(::CsObject* p);
+    bool Equals(::Il2CppObject* p);
     // public System.Boolean Equals(UnityEngine.Playables.PlayableOutputHandle other)
     // Offset: 0xA453EC
     // Implemented from: System.IEquatable`1

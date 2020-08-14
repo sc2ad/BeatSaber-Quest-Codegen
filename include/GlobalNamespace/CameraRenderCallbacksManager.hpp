@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks
     class ICameraRenderCallbacks;
-    // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CameraRenderCallbacksManager> _callbackManagers
-    static System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CameraRenderCallbacksManager*>* _get__callbackManagers();
-    // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CameraRenderCallbacksManager> _callbackManagers
-    static void _set__callbackManagers(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CameraRenderCallbacksManager*>* value);
     // protected System.Collections.Generic.HashSet`1<CameraRenderCallbacksManager/ICameraRenderCallbacks> _observers
     // Offset: 0x18
     System::Collections::Generic::HashSet_1<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>* observers;
     // private UnityEngine.Camera _camera
     // Offset: 0x20
     UnityEngine::Camera* camera;
+    // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CameraRenderCallbacksManager> _callbackManagers
+    static System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CameraRenderCallbacksManager*>* _get__callbackManagers();
+    // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CameraRenderCallbacksManager> _callbackManagers
+    static void _set__callbackManagers(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CameraRenderCallbacksManager*>* value);
     // static private System.Void NoDomainReloadInit()
     // Offset: 0x181FE54
     static void NoDomainReloadInit();

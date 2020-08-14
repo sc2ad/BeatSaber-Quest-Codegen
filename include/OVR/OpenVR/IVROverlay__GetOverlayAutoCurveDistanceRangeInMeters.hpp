@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1519B50
-    static IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single pfMinDistanceInMeters, System.Single pfMaxDistanceInMeters)
     // Offset: 0x1519B64
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Single pfMinDistanceInMeters, System.Single pfMaxDistanceInMeters, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1519DFC
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.Single pfMinDistanceInMeters, System.Single pfMaxDistanceInMeters, System.IAsyncResult result)
     // Offset: 0x1519EC8
     OVR::OpenVR::EVROverlayError EndInvoke(float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters, System::IAsyncResult* result);

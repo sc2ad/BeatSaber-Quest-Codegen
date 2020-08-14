@@ -27,13 +27,13 @@ namespace Oculus::Platform {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xE9C5BC
-    static Message::Callback* New_ctor(::CsObject* object, System::IntPtr method);
+    static Message::Callback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Oculus.Platform.Message message)
     // Offset: 0xE938DC
     void Invoke(Oculus::Platform::Message* message);
     // public System.IAsyncResult BeginInvoke(Oculus.Platform.Message message, System.AsyncCallback callback, System.Object object)
     // Offset: 0xE9C5D0
-    System::IAsyncResult* BeginInvoke(Oculus::Platform::Message* message, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Oculus::Platform::Message* message, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xE9C5F4
     void EndInvoke(System::IAsyncResult* result);

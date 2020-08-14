@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16098E4
-    static IVROverlay::_SetGamepadFocusOverlay* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_SetGamepadFocusOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulNewFocusOverlay)
     // Offset: 0x16098F8
     Valve::VR::EVROverlayError Invoke(uint64_t ulNewFocusOverlay);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulNewFocusOverlay, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1609B60
-    System::IAsyncResult* BeginInvoke(uint64_t ulNewFocusOverlay, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulNewFocusOverlay, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
     // Offset: 0x1609BEC
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);

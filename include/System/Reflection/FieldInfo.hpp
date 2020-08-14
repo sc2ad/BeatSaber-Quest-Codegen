@@ -62,7 +62,7 @@ namespace System::Reflection {
     System::Type* get_FieldType();
     // public System.Object GetValue(System.Object obj)
     // Offset: 0xFFFFFFFF
-    ::CsObject* GetValue(::CsObject* obj);
+    ::Il2CppObject* GetValue(::Il2CppObject* obj);
     // public System.Boolean get_IsLiteral()
     // Offset: 0x13660D8
     bool get_IsLiteral();
@@ -80,10 +80,10 @@ namespace System::Reflection {
     bool get_IsNotSerialized();
     // public System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    void SetValue(::CsObject* obj, ::CsObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
+    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
     // public System.Void SetValue(System.Object obj, System.Object value)
     // Offset: 0x1366194
-    void SetValue(::CsObject* obj, ::CsObject* value);
+    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value);
     // static private System.Reflection.FieldInfo internal_from_handle_type(System.IntPtr field_handle, System.IntPtr type_handle)
     // Offset: 0x13661B0
     static System::Reflection::FieldInfo* internal_from_handle_type(System::IntPtr field_handle, System::IntPtr type_handle);
@@ -98,16 +98,16 @@ namespace System::Reflection {
     int GetFieldOffset();
     // public System.Void SetValueDirect(System.TypedReference obj, System.Object value)
     // Offset: 0x13663DC
-    void SetValueDirect(System::TypedReference obj, ::CsObject* value);
+    void SetValueDirect(System::TypedReference obj, ::Il2CppObject* value);
     // private System.Runtime.InteropServices.MarshalAsAttribute get_marshal_info()
     // Offset: 0x136645C
     System::Runtime::InteropServices::MarshalAsAttribute* get_marshal_info();
     // System.Object[] GetPseudoCustomAttributes()
     // Offset: 0x1366460
-    ::Array<::CsObject*>* GetPseudoCustomAttributes();
+    ::Array<::Il2CppObject*>* GetPseudoCustomAttributes();
     // public System.Object GetRawConstantValue()
     // Offset: 0x136668C
-    ::CsObject* GetRawConstantValue();
+    ::Il2CppObject* GetRawConstantValue();
     // protected System.Void .ctor()
     // Offset: 0x13660CC
     // Implemented from: System.Reflection.MemberInfo
@@ -123,7 +123,7 @@ namespace System::Reflection {
     // Offset: 0x13666F8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x1366704
     // Implemented from: System.Reflection.MemberInfo

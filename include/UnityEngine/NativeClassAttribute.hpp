@@ -15,22 +15,22 @@ namespace UnityEngine {
     public:
     // private System.String <QualifiedNativeName>k__BackingField
     // Offset: 0x10
-    ::CsString* QualifiedNativeName;
+    ::Il2CppString* QualifiedNativeName;
     // private System.String <Declaration>k__BackingField
     // Offset: 0x18
-    ::CsString* Declaration;
+    ::Il2CppString* Declaration;
     // private System.Void set_QualifiedNativeName(System.String value)
     // Offset: 0x196AF38
-    void set_QualifiedNativeName(::CsString* value);
+    void set_QualifiedNativeName(::Il2CppString* value);
     // private System.Void set_Declaration(System.String value)
     // Offset: 0x196AF40
-    void set_Declaration(::CsString* value);
+    void set_Declaration(::Il2CppString* value);
     // public System.Void .ctor(System.String qualifiedCppName)
     // Offset: 0x196AF48
-    static NativeClassAttribute* New_ctor(::CsString* qualifiedCppName);
+    static NativeClassAttribute* New_ctor(::Il2CppString* qualifiedCppName);
     // public System.Void .ctor(System.String qualifiedCppName, System.String declaration)
     // Offset: 0x196AFD4
-    static NativeClassAttribute* New_ctor(::CsString* qualifiedCppName, ::CsString* declaration);
+    static NativeClassAttribute* New_ctor(::Il2CppString* qualifiedCppName, ::Il2CppString* declaration);
   }; // UnityEngine.NativeClassAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

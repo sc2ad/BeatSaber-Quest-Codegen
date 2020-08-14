@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1519F00
-    static IVROverlay::_GetOverlayColor* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single pfRed, System.Single pfGreen, System.Single pfBlue)
     // Offset: 0x1519F14
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float& pfRed, float& pfGreen, float& pfBlue);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Single pfRed, System.Single pfGreen, System.Single pfBlue, System.AsyncCallback callback, System.Object object)
     // Offset: 0x151A1C4
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfRed, float& pfGreen, float& pfBlue, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfRed, float& pfGreen, float& pfBlue, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.Single pfRed, System.Single pfGreen, System.Single pfBlue, System.IAsyncResult result)
     // Offset: 0x151A2AC
     OVR::OpenVR::EVROverlayError EndInvoke(float& pfRed, float& pfGreen, float& pfBlue, System::IAsyncResult* result);

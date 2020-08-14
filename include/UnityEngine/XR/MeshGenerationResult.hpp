@@ -66,7 +66,7 @@ namespace UnityEngine::XR {
     // Offset: 0xA5B4FC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshGenerationResult other)
     // Offset: 0xA5B504
     // Implemented from: System.IEquatable`1

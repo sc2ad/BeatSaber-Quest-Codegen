@@ -25,7 +25,7 @@ namespace HMUI {
     TMPro::TextMeshProUGUI* text;
     // public System.Void SetText(System.String text)
     // Offset: 0x10E65C0
-    void SetText(::CsString* text);
+    void SetText(::Il2CppString* text);
     // public System.Void .ctor()
     // Offset: 0x10E65DC
     // Implemented from: HMUI.ViewController

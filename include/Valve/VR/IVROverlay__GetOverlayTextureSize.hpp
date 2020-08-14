@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16058F8
-    static IVROverlay::_GetOverlayTextureSize* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayTextureSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.UInt32 pWidth, System.UInt32 pHeight)
     // Offset: 0x160590C
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint& pWidth, uint& pHeight);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt32 pWidth, System.UInt32 pHeight, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1605BA4
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint& pWidth, uint& pHeight, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint& pWidth, uint& pHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.UInt32 pWidth, System.UInt32 pHeight, System.IAsyncResult result)
     // Offset: 0x1605C70
     Valve::VR::EVROverlayError EndInvoke(uint& pWidth, uint& pHeight, System::IAsyncResult* result);

@@ -37,13 +37,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16ACAE8
-    static IVRSpatialAnchors::_GetSpatialAnchorDescriptor* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSpatialAnchors::_GetSpatialAnchorDescriptor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRSpatialAnchorError Invoke(System.UInt32 unHandle, System.Text.StringBuilder pchDescriptorOut, System.UInt32 punDescriptorBufferLenInOut)
     // Offset: 0x16ACAFC
     OVR::OpenVR::EVRSpatialAnchorError Invoke(uint unHandle, System::Text::StringBuilder* pchDescriptorOut, uint& punDescriptorBufferLenInOut);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unHandle, System.Text.StringBuilder pchDescriptorOut, System.UInt32 punDescriptorBufferLenInOut, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16ACDA8
-    System::IAsyncResult* BeginInvoke(uint unHandle, System::Text::StringBuilder* pchDescriptorOut, uint& punDescriptorBufferLenInOut, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint unHandle, System::Text::StringBuilder* pchDescriptorOut, uint& punDescriptorBufferLenInOut, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRSpatialAnchorError EndInvoke(System.UInt32 punDescriptorBufferLenInOut, System.IAsyncResult result)
     // Offset: 0x16ACE58
     OVR::OpenVR::EVRSpatialAnchorError EndInvoke(uint& punDescriptorBufferLenInOut, System::IAsyncResult* result);

@@ -35,7 +35,7 @@ namespace System::Xml {
     int endBlockPos;
     // private System.String indentChars
     // Offset: 0xF0
-    ::CsString* indentChars;
+    ::Il2CppString* indentChars;
     // private System.Boolean newLineOnAttributes
     // Offset: 0xF8
     bool newLineOnAttributes;
@@ -58,12 +58,12 @@ namespace System::Xml {
     // Offset: 0x11963D4
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    void WriteDocType(::CsString* name, ::CsString* pubid, ::CsString* sysid, ::CsString* subset);
+    void WriteDocType(::Il2CppString* name, ::Il2CppString* pubid, ::Il2CppString* sysid, ::Il2CppString* subset);
     // public override System.Void WriteStartElement(System.String prefix, System.String localName, System.String ns)
     // Offset: 0x11963FC
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::WriteStartElement(System.String prefix, System.String localName, System.String ns)
-    void WriteStartElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
+    void WriteStartElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // override System.Void StartElementContent()
     // Offset: 0x1196614
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
@@ -73,12 +73,12 @@ namespace System::Xml {
     // Offset: 0x119669C
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::WriteEndElement(System.String prefix, System.String localName, System.String ns)
-    void WriteEndElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
+    void WriteEndElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // public override System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     // Offset: 0x119673C
     // Implemented from: System.Xml.HtmlEncodedRawTextWriter
     // Base method: System.Void HtmlEncodedRawTextWriter::WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
-    void WriteStartAttribute(::CsString* prefix, ::CsString* localName, ::CsString* ns);
+    void WriteStartAttribute(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // protected override System.Void FlushBuffer()
     // Offset: 0x11967B0
     // Implemented from: System.Xml.XmlEncodedRawTextWriter

@@ -167,30 +167,6 @@ namespace UnityEngine::ProBuilder {
       // Creating value type constructor for type: CacheValidState
       CacheValidState(uint8_t value_ = {}) : value{value_} {}
     }; // UnityEngine.ProBuilder.ProBuilderMesh/CacheValidState
-    // static field const value: static private System.Int32 k_UVChannelCount
-    static constexpr const int k_UVChannelCount = 4;
-    // Get static field: static private System.Int32 k_UVChannelCount
-    static int _get_k_UVChannelCount();
-    // Set static field: static private System.Int32 k_UVChannelCount
-    static void _set_k_UVChannelCount(int value);
-    // static field const value: static private System.Int32 k_MeshFormatVersion
-    static constexpr const int k_MeshFormatVersion = 1;
-    // Get static field: static private System.Int32 k_MeshFormatVersion
-    static int _get_k_MeshFormatVersion();
-    // Set static field: static private System.Int32 k_MeshFormatVersion
-    static void _set_k_MeshFormatVersion(int value);
-    // static field const value: static private System.Int32 k_MeshFormatVersionSubmeshMaterialRefactor
-    static constexpr const int k_MeshFormatVersionSubmeshMaterialRefactor = 1;
-    // Get static field: static private System.Int32 k_MeshFormatVersionSubmeshMaterialRefactor
-    static int _get_k_MeshFormatVersionSubmeshMaterialRefactor();
-    // Set static field: static private System.Int32 k_MeshFormatVersionSubmeshMaterialRefactor
-    static void _set_k_MeshFormatVersionSubmeshMaterialRefactor(int value);
-    // static field const value: static public System.UInt32 maxVertexCount
-    static constexpr const uint maxVertexCount = 65535u;
-    // Get static field: static public System.UInt32 maxVertexCount
-    static uint _get_maxVertexCount();
-    // Set static field: static public System.UInt32 maxVertexCount
-    static void _set_maxVertexCount(uint value);
     // private System.Int32 m_MeshFormatVersion
     // Offset: 0x18
     int m_MeshFormatVersion;
@@ -244,29 +220,13 @@ namespace UnityEngine::ProBuilder {
     bool m_PreserveMeshAssetOnDestroy;
     // System.String assetGuid
     // Offset: 0xA0
-    ::CsString* assetGuid;
+    ::Il2CppString* assetGuid;
     // private UnityEngine.MeshRenderer m_MeshRenderer
     // Offset: 0xA8
     UnityEngine::MeshRenderer* m_MeshRenderer;
     // private UnityEngine.MeshFilter m_MeshFilter
     // Offset: 0xB0
     UnityEngine::MeshFilter* m_MeshFilter;
-    // Get static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> meshWillBeDestroyed
-    static System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* _get_meshWillBeDestroyed();
-    // Set static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> meshWillBeDestroyed
-    static void _set_meshWillBeDestroyed(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
-    // Get static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> componentWillBeDestroyed
-    static System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* _get_componentWillBeDestroyed();
-    // Set static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> componentWillBeDestroyed
-    static void _set_componentWillBeDestroyed(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
-    // Get static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> elementSelectionChanged
-    static System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* _get_elementSelectionChanged();
-    // Set static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> elementSelectionChanged
-    static void _set_elementSelectionChanged(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
-    // Get static field: static private System.Collections.Generic.HashSet`1<System.Int32> s_CachedHashSet
-    static System::Collections::Generic::HashSet_1<int>* _get_s_CachedHashSet();
-    // Set static field: static private System.Collections.Generic.HashSet`1<System.Int32> s_CachedHashSet
-    static void _set_s_CachedHashSet(System::Collections::Generic::HashSet_1<int>* value);
     // private System.Boolean m_IsSelectable
     // Offset: 0xB8
     bool m_IsSelectable;
@@ -294,6 +254,46 @@ namespace UnityEngine::ProBuilder {
     // private System.Collections.Generic.List`1<System.Int32> m_SelectedCoincidentVertices
     // Offset: 0xF0
     System::Collections::Generic::List_1<int>* m_SelectedCoincidentVertices;
+    // static field const value: static private System.Int32 k_UVChannelCount
+    static constexpr const int k_UVChannelCount = 4;
+    // Get static field: static private System.Int32 k_UVChannelCount
+    static int _get_k_UVChannelCount();
+    // Set static field: static private System.Int32 k_UVChannelCount
+    static void _set_k_UVChannelCount(int value);
+    // static field const value: static private System.Int32 k_MeshFormatVersion
+    static constexpr const int k_MeshFormatVersion = 1;
+    // Get static field: static private System.Int32 k_MeshFormatVersion
+    static int _get_k_MeshFormatVersion();
+    // Set static field: static private System.Int32 k_MeshFormatVersion
+    static void _set_k_MeshFormatVersion(int value);
+    // static field const value: static private System.Int32 k_MeshFormatVersionSubmeshMaterialRefactor
+    static constexpr const int k_MeshFormatVersionSubmeshMaterialRefactor = 1;
+    // Get static field: static private System.Int32 k_MeshFormatVersionSubmeshMaterialRefactor
+    static int _get_k_MeshFormatVersionSubmeshMaterialRefactor();
+    // Set static field: static private System.Int32 k_MeshFormatVersionSubmeshMaterialRefactor
+    static void _set_k_MeshFormatVersionSubmeshMaterialRefactor(int value);
+    // static field const value: static public System.UInt32 maxVertexCount
+    static constexpr const uint maxVertexCount = 65535u;
+    // Get static field: static public System.UInt32 maxVertexCount
+    static uint _get_maxVertexCount();
+    // Set static field: static public System.UInt32 maxVertexCount
+    static void _set_maxVertexCount(uint value);
+    // Get static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> meshWillBeDestroyed
+    static System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* _get_meshWillBeDestroyed();
+    // Set static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> meshWillBeDestroyed
+    static void _set_meshWillBeDestroyed(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+    // Get static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> componentWillBeDestroyed
+    static System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* _get_componentWillBeDestroyed();
+    // Set static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> componentWillBeDestroyed
+    static void _set_componentWillBeDestroyed(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+    // Get static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> elementSelectionChanged
+    static System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* _get_elementSelectionChanged();
+    // Set static field: static private System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> elementSelectionChanged
+    static void _set_elementSelectionChanged(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+    // Get static field: static private System.Collections.Generic.HashSet`1<System.Int32> s_CachedHashSet
+    static System::Collections::Generic::HashSet_1<int>* _get_s_CachedHashSet();
+    // Set static field: static private System.Collections.Generic.HashSet`1<System.Int32> s_CachedHashSet
+    static void _set_s_CachedHashSet(System::Collections::Generic::HashSet_1<int>* value);
     // public System.Boolean get_userCollisions()
     // Offset: 0x102D94C
     bool get_userCollisions();

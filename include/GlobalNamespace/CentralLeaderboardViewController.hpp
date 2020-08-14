@@ -127,7 +127,7 @@ namespace GlobalNamespace {
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void HandleScoreForLeaderboardDidUpload(System.String leaderboardId)
     // Offset: 0xB5E99C
-    void HandleScoreForLeaderboardDidUpload(::CsString* leaderboardId);
+    void HandleScoreForLeaderboardDidUpload(::Il2CppString* leaderboardId);
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
     // Offset: 0xB5DC88
     void Refresh(bool showLoadingIndicator, bool clear);

@@ -45,7 +45,7 @@ namespace System {
     // Offset: 0x1012AF8
     // Implemented from: System.Delegate
     // Base method: System.Boolean Delegate::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x1012C70
     // Implemented from: System.Delegate

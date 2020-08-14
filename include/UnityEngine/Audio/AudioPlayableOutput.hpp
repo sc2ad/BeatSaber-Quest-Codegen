@@ -26,7 +26,7 @@ namespace UnityEngine {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Audio
 namespace UnityEngine::Audio {
@@ -40,7 +40,7 @@ namespace UnityEngine::Audio {
     AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Audio.AudioPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.AudioSource target)
     // Offset: 0x1954900
-    static UnityEngine::Audio::AudioPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::CsString* name, UnityEngine::AudioSource* target);
+    static UnityEngine::Audio::AudioPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::AudioSource* target);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0xA5AFC0
     static AudioPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);

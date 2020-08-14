@@ -34,13 +34,13 @@ namespace UnityEngine::Playables {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1411A98
-    static PlayableBinding::CreateOutputMethod* New_ctor(::CsObject* object, System::IntPtr method);
+    static PlayableBinding::CreateOutputMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public UnityEngine.Playables.PlayableOutput Invoke(UnityEngine.Playables.PlayableGraph graph, System.String name)
     // Offset: 0x1411678
-    UnityEngine::Playables::PlayableOutput Invoke(UnityEngine::Playables::PlayableGraph graph, ::CsString* name);
+    UnityEngine::Playables::PlayableOutput Invoke(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Playables.PlayableGraph graph, System.String name, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1411AAC
-    System::IAsyncResult* BeginInvoke(UnityEngine::Playables::PlayableGraph graph, ::CsString* name, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.Playables.PlayableOutput EndInvoke(System.IAsyncResult result)
     // Offset: 0x1411B44
     UnityEngine::Playables::PlayableOutput EndInvoke(System::IAsyncResult* result);

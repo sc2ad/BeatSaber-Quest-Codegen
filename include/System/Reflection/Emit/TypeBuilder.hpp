@@ -67,7 +67,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x1364E98
     // Implemented from: System.Type
     // Base method: System.String Type::get_AssemblyQualifiedName()
-    ::CsString* get_AssemblyQualifiedName();
+    ::Il2CppString* get_AssemblyQualifiedName();
     // public override System.Type get_BaseType()
     // Offset: 0x1364EF4
     // Implemented from: System.Type
@@ -77,7 +77,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x1364F50
     // Implemented from: System.Type
     // Base method: System.String Type::get_FullName()
-    ::CsString* get_FullName();
+    ::Il2CppString* get_FullName();
     // public override System.Reflection.Module get_Module()
     // Offset: 0x1364FAC
     // Implemented from: System.Type
@@ -87,12 +87,12 @@ namespace System::Reflection::Emit {
     // Offset: 0x1365008
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public override System.String get_Namespace()
     // Offset: 0x1365064
     // Implemented from: System.Type
     // Base method: System.String Type::get_Namespace()
-    ::CsString* get_Namespace();
+    ::Il2CppString* get_Namespace();
     // public override System.Type GetElementType()
     // Offset: 0x13650C0
     // Implemented from: System.Type
@@ -122,22 +122,22 @@ namespace System::Reflection::Emit {
     // Offset: 0x136521C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
-    ::Array<::CsObject*>* GetCustomAttributes(bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x136525C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::Array<::CsObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Reflection.EventInfo GetEvent(System.String name, System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x136529C
     // Implemented from: System.Type
     // Base method: System.Reflection.EventInfo Type::GetEvent(System.String name, System.Reflection.BindingFlags bindingAttr)
-    System::Reflection::EventInfo* GetEvent(::CsString* name, System::Reflection::BindingFlags bindingAttr);
+    System::Reflection::EventInfo* GetEvent(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr);
     // public override System.Reflection.FieldInfo GetField(System.String name, System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x13652DC
     // Implemented from: System.Type
     // Base method: System.Reflection.FieldInfo Type::GetField(System.String name, System.Reflection.BindingFlags bindingAttr)
-    System::Reflection::FieldInfo* GetField(::CsString* name, System::Reflection::BindingFlags bindingAttr);
+    System::Reflection::FieldInfo* GetField(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr);
     // public override System.Reflection.FieldInfo[] GetFields(System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x136531C
     // Implemented from: System.Type
@@ -152,7 +152,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x136539C
     // Implemented from: System.Type
     // Base method: System.Reflection.MethodInfo Type::GetMethodImpl(System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConvention, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
-    System::Reflection::MethodInfo* GetMethodImpl(::CsString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Reflection::CallingConventions callConvention, ::Array<System::Type*>* types, ::Array<System::Reflection::ParameterModifier>* modifiers);
+    System::Reflection::MethodInfo* GetMethodImpl(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Reflection::CallingConventions callConvention, ::Array<System::Type*>* types, ::Array<System::Reflection::ParameterModifier>* modifiers);
     // public override System.Reflection.MethodInfo[] GetMethods(System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x13653DC
     // Implemented from: System.Type
@@ -162,7 +162,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x136541C
     // Implemented from: System.Type
     // Base method: System.Type Type::GetNestedType(System.String name, System.Reflection.BindingFlags bindingAttr)
-    System::Type* GetNestedType(::CsString* name, System::Reflection::BindingFlags bindingAttr);
+    System::Type* GetNestedType(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr);
     // public override System.Reflection.PropertyInfo[] GetProperties(System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x136545C
     // Implemented from: System.Type
@@ -172,7 +172,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x136549C
     // Implemented from: System.Type
     // Base method: System.Reflection.PropertyInfo Type::GetPropertyImpl(System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Type returnType, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
-    System::Reflection::PropertyInfo* GetPropertyImpl(::CsString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Type* returnType, ::Array<System::Type*>* types, ::Array<System::Reflection::ParameterModifier>* modifiers);
+    System::Reflection::PropertyInfo* GetPropertyImpl(::Il2CppString* name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, System::Type* returnType, ::Array<System::Type*>* types, ::Array<System::Reflection::ParameterModifier>* modifiers);
     // protected override System.Boolean HasElementTypeImpl()
     // Offset: 0x13654DC
     // Implemented from: System.Type
@@ -182,7 +182,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x136551C
     // Implemented from: System.Type
     // Base method: System.Object Type::InvokeMember(System.String name, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object target, System.Object[] args, System.Reflection.ParameterModifier[] modifiers, System.Globalization.CultureInfo culture, System.String[] namedParameters)
-    ::CsObject* InvokeMember(::CsString* name, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::CsObject* target, ::Array<::CsObject*>* args, ::Array<System::Reflection::ParameterModifier>* modifiers, System::Globalization::CultureInfo* culture, ::Array<::CsString*>* namedParameters);
+    ::Il2CppObject* InvokeMember(::Il2CppString* name, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Il2CppObject* target, ::Array<::Il2CppObject*>* args, ::Array<System::Reflection::ParameterModifier>* modifiers, System::Globalization::CultureInfo* culture, ::Array<::Il2CppString*>* namedParameters);
     // protected override System.Boolean IsArrayImpl()
     // Offset: 0x136555C
     // Implemented from: System.Type

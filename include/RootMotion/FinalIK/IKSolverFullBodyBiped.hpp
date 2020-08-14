@@ -191,7 +191,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1344F0C
     // Implemented from: RootMotion.FinalIK.IKSolverFullBody
     // Base method: System.Boolean IKSolverFullBody::IsValid(System.String message)
-    bool IsValid(::CsString*& message);
+    bool IsValid(::Il2CppString*& message);
     // protected override System.Void ReadPose()
     // Offset: 0x1346C7C
     // Implemented from: RootMotion.FinalIK.IKSolverFullBody

@@ -28,10 +28,10 @@ namespace System::Xml {
     public:
     // System.String prefix
     // Offset: 0x0
-    ::CsString* prefix;
+    ::Il2CppString* prefix;
     // System.String namespaceUri
     // Offset: 0x8
-    ::CsString* namespaceUri;
+    ::Il2CppString* namespaceUri;
     // System.Xml.XmlWellFormedWriter/NamespaceKind kind
     // Offset: 0x10
     System::Xml::XmlWellFormedWriter::NamespaceKind kind;
@@ -39,10 +39,10 @@ namespace System::Xml {
     // Offset: 0x14
     int prevNsIndex;
     // Creating value type constructor for type: Namespace
-    Namespace(::CsString* prefix_ = {}, ::CsString* namespaceUri_ = {}, System::Xml::XmlWellFormedWriter::NamespaceKind kind_ = {}, int prevNsIndex_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, kind{kind_}, prevNsIndex{prevNsIndex_} {}
+    Namespace(::Il2CppString* prefix_ = {}, ::Il2CppString* namespaceUri_ = {}, System::Xml::XmlWellFormedWriter::NamespaceKind kind_ = {}, int prevNsIndex_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, kind{kind_}, prevNsIndex{prevNsIndex_} {}
     // System.Void Set(System.String prefix, System.String namespaceUri, System.Xml.XmlWellFormedWriter/NamespaceKind kind)
     // Offset: 0xA5A8DC
-    void Set(::CsString* prefix, ::CsString* namespaceUri, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
+    void Set(::Il2CppString* prefix, ::Il2CppString* namespaceUri, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
     // System.Void WriteDecl(System.Xml.XmlWriter writer, System.Xml.XmlRawWriter rawWriter)
     // Offset: 0xA5A928
     void WriteDecl(System::Xml::XmlWriter* writer, System::Xml::XmlRawWriter* rawWriter);

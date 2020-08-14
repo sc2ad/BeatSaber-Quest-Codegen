@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16ABE50
-    static IVRSettings::_Sync* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSettings::_Sync* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Boolean bForce, OVR.OpenVR.EVRSettingsError peError)
     // Offset: 0x16ABE64
     bool Invoke(bool bForce, OVR::OpenVR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.Boolean bForce, OVR.OpenVR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16AC108
-    System::IAsyncResult* BeginInvoke(bool bForce, OVR::OpenVR::EVRSettingsError& peError, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(bool bForce, OVR::OpenVR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(OVR.OpenVR.EVRSettingsError peError, System.IAsyncResult result)
     // Offset: 0x16AC1C0
     bool EndInvoke(OVR::OpenVR::EVRSettingsError& peError, System::IAsyncResult* result);

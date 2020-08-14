@@ -35,7 +35,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -58,13 +58,13 @@ namespace System {
     System::IntPtr get_Value();
     // static private System.Void SetValueInternal(System.Reflection.FieldInfo fi, System.Object obj, System.Object value)
     // Offset: 0xFFC74C
-    static void SetValueInternal(System::Reflection::FieldInfo* fi, ::CsObject* obj, ::CsObject* value);
+    static void SetValueInternal(System::Reflection::FieldInfo* fi, ::Il2CppObject* obj, ::Il2CppObject* value);
     // static System.Void SetValue(System.Reflection.RtFieldInfo field, System.Object obj, System.Object value, System.RuntimeType fieldType, System.Reflection.FieldAttributes fieldAttr, System.RuntimeType declaringType, System.Boolean domainInitialized)
     // Offset: 0xFFC750
-    static void SetValue(System::Reflection::RtFieldInfo* field, ::CsObject* obj, ::CsObject* value, System::RuntimeType* fieldType, System::Reflection::FieldAttributes fieldAttr, System::RuntimeType* declaringType, bool& domainInitialized);
+    static void SetValue(System::Reflection::RtFieldInfo* field, ::Il2CppObject* obj, ::Il2CppObject* value, System::RuntimeType* fieldType, System::Reflection::FieldAttributes fieldAttr, System::RuntimeType* declaringType, bool& domainInitialized);
     // static System.Void SetValueDirect(System.Reflection.RtFieldInfo field, System.RuntimeType fieldType, System.Void* pTypedRef, System.Object value, System.RuntimeType contextType)
     // Offset: 0xFFC754
-    static void SetValueDirect(System::Reflection::RtFieldInfo* field, System::RuntimeType* fieldType, void* pTypedRef, ::CsObject* value, System::RuntimeType* contextType);
+    static void SetValueDirect(System::Reflection::RtFieldInfo* field, System::RuntimeType* fieldType, void* pTypedRef, ::Il2CppObject* value, System::RuntimeType* contextType);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xA3B7BC
     // Implemented from: System.Runtime.Serialization.ISerializable
@@ -77,7 +77,7 @@ namespace System {
     // Offset: 0xA3B7C4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3B7CC
     // Implemented from: System.ValueType

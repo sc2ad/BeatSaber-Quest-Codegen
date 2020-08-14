@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFD591C
-    static SteamVR_Utils::SystemFn* New_ctor(::CsObject* object, System::IntPtr method);
+    static SteamVR_Utils::SystemFn* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Object Invoke(Valve.VR.CVRSystem system, System.Object[] args)
     // Offset: 0xFD2C0C
-    ::CsObject* Invoke(Valve::VR::CVRSystem* system, ::Array<::CsObject*>* args);
+    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args);
     // public System.IAsyncResult BeginInvoke(Valve.VR.CVRSystem system, System.Object[] args, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFD5930
-    System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::Array<::CsObject*>* args, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
     // Offset: 0xFD5960
-    ::CsObject* EndInvoke(System::IAsyncResult* result);
+    ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // SteamVR_Utils/SystemFn
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

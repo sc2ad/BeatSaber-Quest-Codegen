@@ -12,7 +12,7 @@
 #include "System/IntPtr.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: Mono
 namespace Mono {
@@ -21,21 +21,21 @@ namespace Mono {
     public:
     // private readonly System.String str
     // Offset: 0x0
-    ::CsString* str;
+    ::Il2CppString* str;
     // private System.IntPtr marshaled_string
     // Offset: 0x8
     System::IntPtr marshaled_string;
     // Creating value type constructor for type: SafeStringMarshal
-    SafeStringMarshal(::CsString* str_ = {}, System::IntPtr marshaled_string_ = {}) : str{str_}, marshaled_string{marshaled_string_} {}
+    SafeStringMarshal(::Il2CppString* str_ = {}, System::IntPtr marshaled_string_ = {}) : str{str_}, marshaled_string{marshaled_string_} {}
     // static public System.IntPtr StringToUtf8(System.String str)
     // Offset: 0x10B3990
-    static System::IntPtr StringToUtf8(::CsString* str);
+    static System::IntPtr StringToUtf8(::Il2CppString* str);
     // static public System.Void GFree(System.IntPtr ptr)
     // Offset: 0x10B3994
     static void GFree(System::IntPtr ptr);
     // public System.Void .ctor(System.String str)
     // Offset: 0xA3CF18
-    static SafeStringMarshal* New_ctor(::CsString* str);
+    static SafeStringMarshal* New_ctor(::Il2CppString* str);
     // public System.IntPtr get_Value()
     // Offset: 0xA3CF20
     System::IntPtr get_Value();

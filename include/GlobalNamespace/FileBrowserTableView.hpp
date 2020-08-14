@@ -50,15 +50,15 @@ namespace GlobalNamespace {
     // private System.Action`2<FileBrowserTableView,FileBrowserItem> didSelectRow
     // Offset: 0x30
     System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* didSelectRow;
-    // static field const value: static private System.String kCellIdentifier
-    static constexpr const char* kCellIdentifier = "Cell";
-    // Get static field: static private System.String kCellIdentifier
-    static ::CsString* _get_kCellIdentifier();
-    // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::CsString* value);
     // private FileBrowserItem[] _items
     // Offset: 0x38
     ::Array<GlobalNamespace::FileBrowserItem*>* items;
+    // static field const value: static private System.String kCellIdentifier
+    static constexpr const char* kCellIdentifier = "Cell";
+    // Get static field: static private System.String kCellIdentifier
+    static ::Il2CppString* _get_kCellIdentifier();
+    // Set static field: static private System.String kCellIdentifier
+    static void _set_kCellIdentifier(::Il2CppString* value);
     // public System.Void add_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
     // Offset: 0xBEA9A4
     void add_didSelectRow(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* value);
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     void SetItems(::Array<GlobalNamespace::FileBrowserItem*>* items);
     // public System.Boolean SelectAndScrollRowToItemWithPath(System.String folderPath)
     // Offset: 0xBEAC60
-    bool SelectAndScrollRowToItemWithPath(::CsString* folderPath);
+    bool SelectAndScrollRowToItemWithPath(::Il2CppString* folderPath);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
     // Offset: 0xBEAEE8
     void HandleDidSelectRowEvent(HMUI::TableView* tableView, int row);

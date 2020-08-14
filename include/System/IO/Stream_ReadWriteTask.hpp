@@ -68,10 +68,10 @@ namespace System::IO {
     void ClearBeginState();
     // public System.Void .ctor(System.Boolean isRead, System.Func`2<System.Object,System.Int32> function, System.Object state, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback)
     // Offset: 0x1001474
-    static Stream::ReadWriteTask* New_ctor(bool isRead, System::Func_2<::CsObject*, int>* function, ::CsObject* state, System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback);
+    static Stream::ReadWriteTask* New_ctor(bool isRead, System::Func_2<::Il2CppObject*, int>* function, ::Il2CppObject* state, System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback);
     // static private System.Void InvokeAsyncCallback(System.Object completedTask)
     // Offset: 0x1002BA8
-    static void InvokeAsyncCallback(::CsObject* completedTask);
+    static void InvokeAsyncCallback(::Il2CppObject* completedTask);
     // private System.Void System.Threading.Tasks.ITaskCompletionAction.Invoke(System.Threading.Tasks.Task completingTask)
     // Offset: 0x1002C34
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction

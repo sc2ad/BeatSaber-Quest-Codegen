@@ -80,7 +80,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xA2E024
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.EventSystems.RaycastResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -46,7 +46,7 @@ namespace Zenject {
     Zenject::CopyNonLazyBinder* When(Zenject::BindingCondition* condition);
     // public Zenject.CopyNonLazyBinder WhenInjectedIntoInstance(System.Object instance)
     // Offset: 0xD688E4
-    Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::CsObject* instance);
+    Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::Il2CppObject* instance);
     // public Zenject.CopyNonLazyBinder WhenInjectedInto(System.Type[] targets)
     // Offset: 0xD689BC
     Zenject::CopyNonLazyBinder* WhenInjectedInto(::Array<System::Type*>* targets);

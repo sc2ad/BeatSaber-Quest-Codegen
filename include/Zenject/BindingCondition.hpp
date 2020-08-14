@@ -30,13 +30,13 @@ namespace Zenject {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xD64C98
-    static BindingCondition* New_ctor(::CsObject* object, System::IntPtr method);
+    static BindingCondition* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Zenject.InjectContext c)
     // Offset: 0xD64CAC
     bool Invoke(Zenject::InjectContext* c);
     // public System.IAsyncResult BeginInvoke(Zenject.InjectContext c, System.AsyncCallback callback, System.Object object)
     // Offset: 0xD65070
-    System::IAsyncResult* BeginInvoke(Zenject::InjectContext* c, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Zenject::InjectContext* c, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0xD65094
     bool EndInvoke(System::IAsyncResult* result);

@@ -15,10 +15,10 @@ namespace UnityEngine::Timeline {
     public:
     // public readonly System.String category
     // Offset: 0x10
-    ::CsString* category;
+    ::Il2CppString* category;
     // public System.Void .ctor(System.String category)
     // Offset: 0x10966DC
-    static MenuCategoryAttribute* New_ctor(::CsString* category);
+    static MenuCategoryAttribute* New_ctor(::Il2CppString* category);
   }; // UnityEngine.Timeline.MenuCategoryAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

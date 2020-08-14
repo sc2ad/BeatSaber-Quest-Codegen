@@ -34,18 +34,6 @@ namespace GlobalNamespace {
     class $$c__DisplayClass9_0;
     // Nested type: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass9_1
     class $$c__DisplayClass9_1;
-    // static field const value: static private System.Int32 kMaxPlayerNameCompoundLenght
-    static constexpr const int kMaxPlayerNameCompoundLenght = 40;
-    // Get static field: static private System.Int32 kMaxPlayerNameCompoundLenght
-    static int _get_kMaxPlayerNameCompoundLenght();
-    // Set static field: static private System.Int32 kMaxPlayerNameCompoundLenght
-    static void _set_kMaxPlayerNameCompoundLenght(int value);
-    // static field const value: static private System.Int32 kMaxShowPlayer
-    static constexpr const int kMaxShowPlayer = 5;
-    // Get static field: static private System.Int32 kMaxShowPlayer
-    static int _get_kMaxShowPlayer();
-    // Set static field: static private System.Int32 kMaxShowPlayer
-    static void _set_kMaxShowPlayer(int value);
     // private StringSignal _playerNameWasEnteredSignal
     // Offset: 0x68
     GlobalNamespace::StringSignal* playerNameWasEnteredSignal;
@@ -61,6 +49,18 @@ namespace GlobalNamespace {
     // private EnterPlayerGuestNameViewController/FinishDelegate _didFinishCallback
     // Offset: 0x88
     GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback;
+    // static field const value: static private System.Int32 kMaxPlayerNameCompoundLenght
+    static constexpr const int kMaxPlayerNameCompoundLenght = 40;
+    // Get static field: static private System.Int32 kMaxPlayerNameCompoundLenght
+    static int _get_kMaxPlayerNameCompoundLenght();
+    // Set static field: static private System.Int32 kMaxPlayerNameCompoundLenght
+    static void _set_kMaxPlayerNameCompoundLenght(int value);
+    // static field const value: static private System.Int32 kMaxShowPlayer
+    static constexpr const int kMaxShowPlayer = 5;
+    // Get static field: static private System.Int32 kMaxShowPlayer
+    static int _get_kMaxShowPlayer();
+    // Set static field: static private System.Int32 kMaxShowPlayer
+    static void _set_kMaxShowPlayer(int value);
     // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
     // Offset: 0xBE6BB0
     void Init(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);

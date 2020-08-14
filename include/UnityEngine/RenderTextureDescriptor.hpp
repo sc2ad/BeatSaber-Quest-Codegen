@@ -56,10 +56,6 @@ namespace UnityEngine {
     // private System.Int32 _depthBufferBits
     // Offset: 0x1C
     int depthBufferBits;
-    // Get static field: static private System.Int32[] depthFormatBits
-    static ::Array<int>* _get_depthFormatBits();
-    // Set static field: static private System.Int32[] depthFormatBits
-    static void _set_depthFormatBits(::Array<int>* value);
     // private UnityEngine.Rendering.TextureDimension <dimension>k__BackingField
     // Offset: 0x20
     UnityEngine::Rendering::TextureDimension dimension;
@@ -75,6 +71,10 @@ namespace UnityEngine {
     // private UnityEngine.RenderTextureMemoryless <memoryless>k__BackingField
     // Offset: 0x30
     UnityEngine::RenderTextureMemoryless memoryless;
+    // Get static field: static private System.Int32[] depthFormatBits
+    static ::Array<int>* _get_depthFormatBits();
+    // Set static field: static private System.Int32[] depthFormatBits
+    static void _set_depthFormatBits(::Array<int>* value);
     // Creating value type constructor for type: RenderTextureDescriptor
     RenderTextureDescriptor(int width_ = {}, int height_ = {}, int msaaSamples_ = {}, int volumeDepth_ = {}, int mipCount_ = {}, UnityEngine::Experimental::Rendering::GraphicsFormat graphicsFormat_ = {}, UnityEngine::Experimental::Rendering::GraphicsFormat stencilFormat_ = {}, int depthBufferBits_ = {}, UnityEngine::Rendering::TextureDimension dimension_ = {}, UnityEngine::Rendering::ShadowSamplingMode shadowSamplingMode_ = {}, UnityEngine::VRTextureUsage vrUsage_ = {}, UnityEngine::RenderTextureCreationFlags flags_ = {}, UnityEngine::RenderTextureMemoryless memoryless_ = {}) : width{width_}, height{height_}, msaaSamples{msaaSamples_}, volumeDepth{volumeDepth_}, mipCount{mipCount_}, graphicsFormat{graphicsFormat_}, stencilFormat{stencilFormat_}, depthBufferBits{depthBufferBits_}, dimension{dimension_}, shadowSamplingMode{shadowSamplingMode_}, vrUsage{vrUsage_}, flags{flags_}, memoryless{memoryless_} {}
     // public System.Int32 get_width()

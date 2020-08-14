@@ -21,7 +21,7 @@ namespace UnityEngine::Playables {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -35,7 +35,7 @@ namespace UnityEngine::Playables {
     ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Playables.ScriptPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name)
     // Offset: 0x1414790
-    static UnityEngine::Playables::ScriptPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::CsString* name);
+    static UnityEngine::Playables::ScriptPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0xA45444
     static ScriptPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);

@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xECF070
-    static IVRApplications::_AddApplicationManifest* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_AddApplicationManifest* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchApplicationManifestFullPath, System.Boolean bTemporary)
     // Offset: 0xEBE484
-    OVR::OpenVR::EVRApplicationError Invoke(::CsString* pchApplicationManifestFullPath, bool bTemporary);
+    OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchApplicationManifestFullPath, bool bTemporary);
     // public System.IAsyncResult BeginInvoke(System.String pchApplicationManifestFullPath, System.Boolean bTemporary, System.AsyncCallback callback, System.Object object)
     // Offset: 0xECF084
-    System::IAsyncResult* BeginInvoke(::CsString* pchApplicationManifestFullPath, bool bTemporary, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchApplicationManifestFullPath, bool bTemporary, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xECF124
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

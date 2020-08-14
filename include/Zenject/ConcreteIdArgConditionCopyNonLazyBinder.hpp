@@ -22,7 +22,7 @@ namespace Zenject {
     public:
     // public Zenject.ArgConditionCopyNonLazyBinder WithConcreteId(System.Object id)
     // Offset: 0xD68810
-    Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::CsObject* id);
+    Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::Il2CppObject* id);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
     // Offset: 0xD68808
     // Implemented from: Zenject.ArgConditionCopyNonLazyBinder

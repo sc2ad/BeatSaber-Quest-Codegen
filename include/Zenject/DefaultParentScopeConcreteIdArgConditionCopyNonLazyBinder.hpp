@@ -36,7 +36,7 @@ namespace Zenject {
     void set_SubContainerCreatorBindInfo(Zenject::SubContainerCreatorBindInfo* value);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithDefaultGameObjectParent(System.String defaultParentName)
     // Offset: 0xD6CBF4
-    Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::CsString* defaultParentName);
+    Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::Il2CppString* defaultParentName);
   }; // Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

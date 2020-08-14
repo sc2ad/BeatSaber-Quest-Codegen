@@ -27,13 +27,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED11D8
-    static IVRChaperoneSetup::_GetWorkingPlayAreaSize* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperoneSetup::_GetWorkingPlayAreaSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Single pSizeX, System.Single pSizeZ)
     // Offset: 0xEC702C
     bool Invoke(float& pSizeX, float& pSizeZ);
     // public System.IAsyncResult BeginInvoke(System.Single pSizeX, System.Single pSizeZ, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED11EC
-    System::IAsyncResult* BeginInvoke(float& pSizeX, float& pSizeZ, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(float& pSizeX, float& pSizeZ, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.Single pSizeX, System.Single pSizeZ, System.IAsyncResult result)
     // Offset: 0xED1298
     bool EndInvoke(float& pSizeX, float& pSizeZ, System::IAsyncResult* result);

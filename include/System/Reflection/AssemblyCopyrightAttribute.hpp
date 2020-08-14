@@ -15,10 +15,10 @@ namespace System::Reflection {
     public:
     // private System.String m_copyright
     // Offset: 0x10
-    ::CsString* m_copyright;
+    ::Il2CppString* m_copyright;
     // public System.Void .ctor(System.String copyright)
     // Offset: 0x135F564
-    static AssemblyCopyrightAttribute* New_ctor(::CsString* copyright);
+    static AssemblyCopyrightAttribute* New_ctor(::Il2CppString* copyright);
   }; // System.Reflection.AssemblyCopyrightAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -79,39 +79,15 @@ namespace System {
     // private System.IntPtr _mono_app_domain
     // Offset: 0x18
     System::IntPtr mono_app_domain;
-    // Get static field: static private System.String _process_guid
-    static ::CsString* _get__process_guid();
-    // Set static field: static private System.String _process_guid
-    static void _set__process_guid(::CsString* value);
-    // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> type_resolve_in_progress
-    static System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* _get_type_resolve_in_progress();
-    // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> type_resolve_in_progress
-    static void _set_type_resolve_in_progress(System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* value);
-    // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress
-    static System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* _get_assembly_resolve_in_progress();
-    // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress
-    static void _set_assembly_resolve_in_progress(System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* value);
-    // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress_refonly
-    static System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* _get_assembly_resolve_in_progress_refonly();
-    // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress_refonly
-    static void _set_assembly_resolve_in_progress_refonly(System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* value);
     // private System.Object _evidence
     // Offset: 0x20
-    ::CsObject* evidence;
+    ::Il2CppObject* evidence;
     // private System.Object _granted
     // Offset: 0x28
-    ::CsObject* granted;
+    ::Il2CppObject* granted;
     // private System.Int32 _principalPolicy
     // Offset: 0x30
     int principalPolicy;
-    // Get static field: static private System.Object _principal
-    static ::CsObject* _get__principal();
-    // Set static field: static private System.Object _principal
-    static void _set__principal(::CsObject* value);
-    // Get static field: static private System.AppDomain default_domain
-    static System::AppDomain* _get_default_domain();
-    // Set static field: static private System.AppDomain default_domain
-    static void _set_default_domain(System::AppDomain* value);
     // private System.AssemblyLoadEventHandler AssemblyLoad
     // Offset: 0x38
     System::AssemblyLoadEventHandler* AssemblyLoad;
@@ -138,25 +114,49 @@ namespace System {
     System::EventHandler_1<System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* FirstChanceException;
     // private System.Object _domain_manager
     // Offset: 0x78
-    ::CsObject* domain_manager;
+    ::Il2CppObject* domain_manager;
     // private System.ResolveEventHandler ReflectionOnlyAssemblyResolve
     // Offset: 0x80
     System::ResolveEventHandler* ReflectionOnlyAssemblyResolve;
     // private System.Object _activation
     // Offset: 0x88
-    ::CsObject* activation;
+    ::Il2CppObject* activation;
     // private System.Object _applicationIdentity
     // Offset: 0x90
-    ::CsObject* applicationIdentity;
+    ::Il2CppObject* applicationIdentity;
     // private System.Collections.Generic.List`1<System.String> compatibility_switch
     // Offset: 0x98
-    System::Collections::Generic::List_1<::CsString*>* compatibility_switch;
+    System::Collections::Generic::List_1<::Il2CppString*>* compatibility_switch;
+    // Get static field: static private System.String _process_guid
+    static ::Il2CppString* _get__process_guid();
+    // Set static field: static private System.String _process_guid
+    static void _set__process_guid(::Il2CppString* value);
+    // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> type_resolve_in_progress
+    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_type_resolve_in_progress();
+    // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> type_resolve_in_progress
+    static void _set_type_resolve_in_progress(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
+    // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress
+    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_assembly_resolve_in_progress();
+    // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress
+    static void _set_assembly_resolve_in_progress(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
+    // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress_refonly
+    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_assembly_resolve_in_progress_refonly();
+    // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress_refonly
+    static void _set_assembly_resolve_in_progress_refonly(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
+    // Get static field: static private System.Object _principal
+    static ::Il2CppObject* _get__principal();
+    // Set static field: static private System.Object _principal
+    static void _set__principal(::Il2CppObject* value);
+    // Get static field: static private System.AppDomain default_domain
+    static System::AppDomain* _get_default_domain();
+    // Set static field: static private System.AppDomain default_domain
+    static void _set_default_domain(System::AppDomain* value);
     // private System.String getFriendlyName()
     // Offset: 0x10B812C
-    ::CsString* getFriendlyName();
+    ::Il2CppString* getFriendlyName();
     // public System.String get_FriendlyName()
     // Offset: 0x10B8130
-    ::CsString* get_FriendlyName();
+    ::Il2CppString* get_FriendlyName();
     // System.Security.Principal.IPrincipal get_DefaultPrincipal()
     // Offset: 0x10B8134
     System::Security::Principal::IPrincipal* get_DefaultPrincipal();
@@ -174,19 +174,19 @@ namespace System {
     ::Array<System::Reflection::Assembly*>* GetAssemblies();
     // public System.Object GetData(System.String name)
     // Offset: 0x10B82CC
-    ::CsObject* GetData(::CsString* name);
+    ::Il2CppObject* GetData(::Il2CppString* name);
     // System.Reflection.Assembly LoadAssembly(System.String assemblyRef, System.Security.Policy.Evidence securityEvidence, System.Boolean refOnly)
     // Offset: 0x10B82D8
-    System::Reflection::Assembly* LoadAssembly(::CsString* assemblyRef, System::Security::Policy::Evidence* securityEvidence, bool refOnly);
+    System::Reflection::Assembly* LoadAssembly(::Il2CppString* assemblyRef, System::Security::Policy::Evidence* securityEvidence, bool refOnly);
     // System.Reflection.Assembly LoadSatellite(System.Reflection.AssemblyName assemblyRef, System.Boolean throwOnError)
     // Offset: 0x10B82E0
     System::Reflection::Assembly* LoadSatellite(System::Reflection::AssemblyName* assemblyRef, bool throwOnError);
     // public System.Reflection.Assembly Load(System.String assemblyString)
     // Offset: 0x10B83EC
-    System::Reflection::Assembly* Load(::CsString* assemblyString);
+    System::Reflection::Assembly* Load(::Il2CppString* assemblyString);
     // System.Reflection.Assembly Load(System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly)
     // Offset: 0x10B83F8
-    System::Reflection::Assembly* Load(::CsString* assemblyString, System::Security::Policy::Evidence* assemblySecurity, bool refonly);
+    System::Reflection::Assembly* Load(::Il2CppString* assemblyString, System::Security::Policy::Evidence* assemblySecurity, bool refonly);
     // static private System.AppDomain InternalSetDomainByID(System.Int32 domain_id)
     // Offset: 0x10B8524
     static System::AppDomain* InternalSetDomainByID(int domain_id);
@@ -210,13 +210,13 @@ namespace System {
     static System::Runtime::Remoting::Contexts::Context* InternalGetDefaultContext();
     // static System.String InternalGetProcessGuid(System.String newguid)
     // Offset: 0x10B8540
-    static ::CsString* InternalGetProcessGuid(::CsString* newguid);
+    static ::Il2CppString* InternalGetProcessGuid(::Il2CppString* newguid);
     // static System.Object InvokeInDomainByID(System.Int32 domain_id, System.Reflection.MethodInfo method, System.Object obj, System.Object[] args)
     // Offset: 0x10B8544
-    static ::CsObject* InvokeInDomainByID(int domain_id, System::Reflection::MethodInfo* method, ::CsObject* obj, ::Array<::CsObject*>* args);
+    static ::Il2CppObject* InvokeInDomainByID(int domain_id, System::Reflection::MethodInfo* method, ::Il2CppObject* obj, ::Array<::Il2CppObject*>* args);
     // static System.String GetProcessGuid()
     // Offset: 0x10B8694
-    static ::CsString* GetProcessGuid();
+    static ::Il2CppString* GetProcessGuid();
     // static private System.Boolean InternalIsFinalizingForUnload(System.Int32 domain_id)
     // Offset: 0x10B8754
     static bool InternalIsFinalizingForUnload(int domain_id);
@@ -234,13 +234,13 @@ namespace System {
     void DoAssemblyLoad(System::Reflection::Assembly* assembly);
     // private System.Reflection.Assembly DoAssemblyResolve(System.String name, System.Reflection.Assembly requestingAssembly, System.Boolean refonly)
     // Offset: 0x10B8818
-    System::Reflection::Assembly* DoAssemblyResolve(::CsString* name, System::Reflection::Assembly* requestingAssembly, bool refonly);
+    System::Reflection::Assembly* DoAssemblyResolve(::Il2CppString* name, System::Reflection::Assembly* requestingAssembly, bool refonly);
     // System.Reflection.Assembly DoTypeResolve(System.Object name_or_tb)
     // Offset: 0x10B8AB8
-    System::Reflection::Assembly* DoTypeResolve(::CsObject* name_or_tb);
+    System::Reflection::Assembly* DoTypeResolve(::Il2CppObject* name_or_tb);
     // System.Reflection.Assembly DoResourceResolve(System.String name, System.Reflection.Assembly requesting)
     // Offset: 0x10B8D2C
-    System::Reflection::Assembly* DoResourceResolve(::CsString* name, System::Reflection::Assembly* requesting);
+    System::Reflection::Assembly* DoResourceResolve(::Il2CppString* name, System::Reflection::Assembly* requesting);
     // private System.Void DoDomainUnload()
     // Offset: 0x10B8E64
     void DoDomainUnload();
@@ -278,12 +278,12 @@ namespace System {
     // Offset: 0x10B82D0
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
-    ::CsObject* InitializeLifetimeService();
+    ::Il2CppObject* InitializeLifetimeService();
     // public override System.String ToString()
     // Offset: 0x10B8780
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.AppDomain
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

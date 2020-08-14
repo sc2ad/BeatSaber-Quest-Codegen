@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1509054
-    static IVRCompositor::_GetCumulativeStats* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_GetCumulativeStats* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.Compositor_CumulativeStats pStats, System.UInt32 nStatsSizeInBytes)
     // Offset: 0x1509068
     void Invoke(OVR::OpenVR::Compositor_CumulativeStats& pStats, uint nStatsSizeInBytes);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.Compositor_CumulativeStats pStats, System.UInt32 nStatsSizeInBytes, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15092D4
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::Compositor_CumulativeStats& pStats, uint nStatsSizeInBytes, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::Compositor_CumulativeStats& pStats, uint nStatsSizeInBytes, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(OVR.OpenVR.Compositor_CumulativeStats pStats, System.IAsyncResult result)
     // Offset: 0x1509388
     void EndInvoke(OVR::OpenVR::Compositor_CumulativeStats& pStats, System::IAsyncResult* result);

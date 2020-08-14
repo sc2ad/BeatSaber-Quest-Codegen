@@ -27,13 +27,13 @@ namespace UnityEngine::Analytics {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x196CB00
-    static AnalyticsSessionInfo::IdentityTokenChanged* New_ctor(::CsObject* object, System::IntPtr method);
+    static AnalyticsSessionInfo::IdentityTokenChanged* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String token)
     // Offset: 0x196C748
-    void Invoke(::CsString* token);
+    void Invoke(::Il2CppString* token);
     // public System.IAsyncResult BeginInvoke(System.String token, System.AsyncCallback callback, System.Object object)
     // Offset: 0x196CB14
-    System::IAsyncResult* BeginInvoke(::CsString* token, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* token, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x196CB38
     void EndInvoke(System::IAsyncResult* result);

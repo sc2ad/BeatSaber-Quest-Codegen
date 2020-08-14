@@ -24,7 +24,7 @@ namespace Assets::OVR::Scripts {
     float max;
     // public System.Void .ctor(System.String cat, System.String msg, System.Single val, System.Single minVal, System.Single maxVal)
     // Offset: 0xEBE310
-    static RangedRecord* New_ctor(::CsString* cat, ::CsString* msg, float val, float minVal, float maxVal);
+    static RangedRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, float val, float minVal, float maxVal);
   }; // Assets.OVR.Scripts.RangedRecord
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

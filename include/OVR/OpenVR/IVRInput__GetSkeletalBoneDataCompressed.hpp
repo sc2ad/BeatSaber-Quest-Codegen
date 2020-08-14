@@ -36,13 +36,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1514F58
-    static IVRInput::_GetSkeletalBoneDataCompressed* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRInput::_GetSkeletalBoneDataCompressed* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, System.IntPtr pvCompressedData, System.UInt32 unCompressedSize, System.UInt32 punRequiredCompressedSize, System.UInt64 ulRestrictToDevice)
     // Offset: 0x1514F6C
     OVR::OpenVR::EVRInputError Invoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, System::IntPtr pvCompressedData, uint unCompressedSize, uint& punRequiredCompressedSize, uint64_t ulRestrictToDevice);
     // public System.IAsyncResult BeginInvoke(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, System.IntPtr pvCompressedData, System.UInt32 unCompressedSize, System.UInt32 punRequiredCompressedSize, System.UInt64 ulRestrictToDevice, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1515250
-    System::IAsyncResult* BeginInvoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, System::IntPtr pvCompressedData, uint unCompressedSize, uint& punRequiredCompressedSize, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, System::IntPtr pvCompressedData, uint unCompressedSize, uint& punRequiredCompressedSize, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.UInt32 punRequiredCompressedSize, System.IAsyncResult result)
     // Offset: 0x151538C
     OVR::OpenVR::EVRInputError EndInvoke(uint& punRequiredCompressedSize, System::IAsyncResult* result);

@@ -47,10 +47,10 @@ namespace NUnit::Framework::Internal {
     bool get_HasExpectedResult();
     // System.Object get_ExpectedResult()
     // Offset: 0x18EAD08
-    ::CsObject* get_ExpectedResult();
+    ::Il2CppObject* get_ExpectedResult();
     // System.Object[] get_Arguments()
     // Offset: 0x18EAD20
-    ::Array<::CsObject*>* get_Arguments();
+    ::Array<::Il2CppObject*>* get_Arguments();
     // public override NUnit.Framework.Internal.TestResult MakeTestResult()
     // Offset: 0x18EAD40
     // Implemented from: NUnit.Framework.Internal.Test
@@ -75,12 +75,12 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18EAEC8
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_XmlElementName()
-    ::CsString* get_XmlElementName();
+    ::Il2CppString* get_XmlElementName();
     // public override System.String get_MethodName()
     // Offset: 0x18EAF10
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_MethodName()
-    ::CsString* get_MethodName();
+    ::Il2CppString* get_MethodName();
   }; // NUnit.Framework.Internal.TestMethod
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

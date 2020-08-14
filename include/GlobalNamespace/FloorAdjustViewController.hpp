@@ -47,6 +47,9 @@ namespace GlobalNamespace {
     // private VRPlatformHelper _vrPlatformHelper
     // Offset: 0x88
     GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
+    // private System.Single _playerHeight
+    // Offset: 0x90
+    float playerHeight;
     // static field const value: static private System.Single kMoveStep
     static constexpr const float kMoveStep = 0.05;
     // Get static field: static private System.Single kMoveStep
@@ -65,9 +68,6 @@ namespace GlobalNamespace {
     static float _get_kMaxPlayerHeight();
     // Set static field: static private System.Single kMaxPlayerHeight
     static void _set_kMaxPlayerHeight(float value);
-    // private System.Single _playerHeight
-    // Offset: 0x90
-    float playerHeight;
     // protected System.Void Update()
     // Offset: 0xBEC994
     void Update();

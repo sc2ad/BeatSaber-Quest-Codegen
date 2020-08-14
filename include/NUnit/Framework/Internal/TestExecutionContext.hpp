@@ -81,10 +81,6 @@ namespace NUnit::Framework::Internal {
     // private System.Security.Principal.IPrincipal _currentPrincipal
     // Offset: 0x48
     System::Security::Principal::IPrincipal* currentPrincipal;
-    // Get static field: static private readonly System.String CONTEXT_KEY
-    static ::CsString* _get_CONTEXT_KEY();
-    // Set static field: static private readonly System.String CONTEXT_KEY
-    static void _set_CONTEXT_KEY(::CsString* value);
     // private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
     // Offset: 0x50
     NUnit::Framework::Internal::Test* CurrentTest;
@@ -93,7 +89,7 @@ namespace NUnit::Framework::Internal {
     System::IO::TextWriter* OutWriter;
     // private System.Object <TestObject>k__BackingField
     // Offset: 0x60
-    ::CsObject* TestObject;
+    ::Il2CppObject* TestObject;
     // private System.Int32 <TestCaseTimeout>k__BackingField
     // Offset: 0x68
     int TestCaseTimeout;
@@ -106,6 +102,10 @@ namespace NUnit::Framework::Internal {
     // private System.Boolean <IsSingleThreaded>k__BackingField
     // Offset: 0x80
     bool IsSingleThreaded;
+    // Get static field: static private readonly System.String CONTEXT_KEY
+    static ::Il2CppString* _get_CONTEXT_KEY();
+    // Set static field: static private readonly System.String CONTEXT_KEY
+    static void _set_CONTEXT_KEY(::Il2CppString* value);
     // Get static field: static private NUnit.Framework.Constraints.ValueFormatter CS$<>9__CachedAnonymousMethodDelegate1
     static NUnit::Framework::Constraints::ValueFormatter* _get_CS$$$9__CachedAnonymousMethodDelegate1();
     // Set static field: static private NUnit.Framework.Constraints.ValueFormatter CS$<>9__CachedAnonymousMethodDelegate1
@@ -139,7 +139,7 @@ namespace NUnit::Framework::Internal {
     void set_IsSingleThreaded(bool value);
     // static private System.String <.ctor>b__0(System.Object val)
     // Offset: 0x18E9E90
-    static ::CsString* $_ctor$b__0(::CsObject* val);
+    static ::Il2CppString* $_ctor$b__0(::Il2CppObject* val);
     // static private System.Void .cctor()
     // Offset: 0x18E9F08
     static void _cctor();
@@ -169,12 +169,12 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18E9E38
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
     // Base method: System.Object ITestExecutionContext::get_TestObject()
-    ::CsObject* get_TestObject();
+    ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
     // Offset: 0x18E9E40
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
     // Base method: System.Void ITestExecutionContext::set_TestObject(System.Object value)
-    void set_TestObject(::CsObject* value);
+    void set_TestObject(::Il2CppObject* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
     // Offset: 0x18E9E60
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
@@ -189,7 +189,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18E9E88
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Object LongLivedMarshalByRefObject::InitializeLifetimeService()
-    ::CsObject* InitializeLifetimeService();
+    ::Il2CppObject* InitializeLifetimeService();
   }; // NUnit.Framework.Internal.TestExecutionContext
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

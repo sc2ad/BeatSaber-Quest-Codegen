@@ -40,22 +40,22 @@ namespace System {
     // Offset: 0x10C9DD0
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
-    int Compare(::CsString* x, ::CsString* y);
+    int Compare(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Boolean Equals(System.String x, System.String y)
     // Offset: 0x10C9E20
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
-    bool Equals(::CsString* x, ::CsString* y);
+    bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Int32 GetHashCode(System.String obj)
     // Offset: 0x10C9E74
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
-    int GetHashCode(::CsString* obj);
+    int GetHashCode(::Il2CppString* obj);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x10C9F18
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x10C9FE0
     // Implemented from: System.Object

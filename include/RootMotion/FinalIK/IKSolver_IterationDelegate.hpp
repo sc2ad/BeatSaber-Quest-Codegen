@@ -27,13 +27,13 @@ namespace RootMotion::FinalIK {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1381384
-    static IKSolver::IterationDelegate* New_ctor(::CsObject* object, System::IntPtr method);
+    static IKSolver::IterationDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Int32 i)
     // Offset: 0x1381398
     void Invoke(int i);
     // public System.IAsyncResult BeginInvoke(System.Int32 i, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1381604
-    System::IAsyncResult* BeginInvoke(int i, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1381690
     void EndInvoke(System::IAsyncResult* result);

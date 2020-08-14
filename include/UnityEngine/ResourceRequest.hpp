@@ -22,7 +22,7 @@ namespace UnityEngine {
     public:
     // System.String m_Path
     // Offset: 0x20
-    ::CsString* m_Path;
+    ::Il2CppString* m_Path;
     // System.Type m_Type
     // Offset: 0x28
     System::Type* m_Type;

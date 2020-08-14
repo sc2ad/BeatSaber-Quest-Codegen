@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     bool allowBlank;
     // private System.Action`1<System.String> textDidChangeEvent
     // Offset: 0x38
-    System::Action_1<::CsString*>* textDidChangeEvent;
+    System::Action_1<::Il2CppString*>* textDidChangeEvent;
     // private System.Action okButtonWasPressedEvent
     // Offset: 0x40
     System::Action* okButtonWasPressedEvent;
@@ -69,10 +69,10 @@ namespace GlobalNamespace {
     bool stopBlinkingCursor;
     // public System.Void add_textDidChangeEvent(System.Action`1<System.String> value)
     // Offset: 0xC4FCDC
-    void add_textDidChangeEvent(System::Action_1<::CsString*>* value);
+    void add_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_textDidChangeEvent(System.Action`1<System.String> value)
     // Offset: 0xC4FD80
-    void remove_textDidChangeEvent(System::Action_1<::CsString*>* value);
+    void remove_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
     // Offset: 0xC4FE24
     void add_okButtonWasPressedEvent(System::Action* value);
@@ -90,10 +90,10 @@ namespace GlobalNamespace {
     void set_hideCancelButton(bool value);
     // public System.String get_text()
     // Offset: 0xC500D0
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0xC500EC
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // protected System.Void Awake()
     // Offset: 0xC501B0
     void Awake();

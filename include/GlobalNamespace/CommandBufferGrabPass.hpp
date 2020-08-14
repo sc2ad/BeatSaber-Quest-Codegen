@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     public:
     // private System.String _textureName
     // Offset: 0x28
-    ::CsString* textureName;
+    ::Il2CppString* textureName;
     // private UnityEngine.Rendering.CameraEvent _cameraEvent
     // Offset: 0x30
     UnityEngine::Rendering::CameraEvent cameraEvent;

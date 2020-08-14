@@ -37,13 +37,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xB8E790
-    static BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* New_ctor(::CsObject* object, System::IntPtr method);
+    static BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public UnityEngine.Vector2 Invoke(System.Int32 lineIndex, NoteLineLayer noteLineLayer)
     // Offset: 0xB8E4FC
     UnityEngine::Vector2 Invoke(int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.IAsyncResult BeginInvoke(System.Int32 lineIndex, NoteLineLayer noteLineLayer, System.AsyncCallback callback, System.Object object)
     // Offset: 0xB8E7A4
-    System::IAsyncResult* BeginInvoke(int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.Vector2 EndInvoke(System.IAsyncResult result)
     // Offset: 0xB8E84C
     UnityEngine::Vector2 EndInvoke(System::IAsyncResult* result);

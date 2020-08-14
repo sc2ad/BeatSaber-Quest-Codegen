@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBD5B50
-    static PlatformUserModelSO::GetUserAuthTokenCompletionHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static PlatformUserModelSO::GetUserAuthTokenCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformUserModelSO/GetUserAuthTokenResult result, PlatformTokenInfo platformTokenInfo)
     // Offset: 0xBD5B64
     void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenResult result, GlobalNamespace::PlatformTokenInfo* platformTokenInfo);
     // public System.IAsyncResult BeginInvoke(PlatformUserModelSO/GetUserAuthTokenResult result, PlatformTokenInfo platformTokenInfo, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBD5DEC
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenResult result, GlobalNamespace::PlatformTokenInfo* platformTokenInfo, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenResult result, GlobalNamespace::PlatformTokenInfo* platformTokenInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xBD5E84
     void EndInvoke(System::IAsyncResult* result);

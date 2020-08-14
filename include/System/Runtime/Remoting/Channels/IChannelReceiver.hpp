@@ -8,7 +8,7 @@
 #include "System/Runtime/Remoting/Channels/IChannel.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Channels
 namespace System::Runtime::Remoting::Channels {
@@ -17,10 +17,10 @@ namespace System::Runtime::Remoting::Channels {
     public:
     // public System.Object get_ChannelData()
     // Offset: 0xFFFFFFFF
-    ::CsObject* get_ChannelData();
+    ::Il2CppObject* get_ChannelData();
     // public System.Void StartListening(System.Object data)
     // Offset: 0xFFFFFFFF
-    void StartListening(::CsObject* data);
+    void StartListening(::Il2CppObject* data);
   }; // System.Runtime.Remoting.Channels.IChannelReceiver
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -55,7 +55,7 @@ namespace Zenject {
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* parentGetter);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder UnderTransformGroup(System.String transformGroupname)
     // Offset: 0xFD0728
-    Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransformGroup(::CsString* transformGroupname);
+    Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransformGroup(::Il2CppString* transformGroupname);
   }; // Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

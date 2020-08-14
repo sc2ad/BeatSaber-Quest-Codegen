@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x169C848
-    static IVROverlay::_SetOverlayName* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_SetOverlayName* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.String pchName)
     // Offset: 0x169C85C
-    OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::CsString* pchName);
+    OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::Il2CppString* pchName);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.String pchName, System.AsyncCallback callback, System.Object object)
     // Offset: 0x169CAE0
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::CsString* pchName, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::Il2CppString* pchName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
     // Offset: 0x169CB74
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);

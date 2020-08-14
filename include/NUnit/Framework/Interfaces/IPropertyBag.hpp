@@ -21,8 +21,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
@@ -31,22 +31,22 @@ namespace NUnit::Framework::Interfaces {
     public:
     // public System.Void Add(System.String key, System.Object value)
     // Offset: 0xFFFFFFFF
-    void Add(::CsString* key, ::CsObject* value);
+    void Add(::Il2CppString* key, ::Il2CppObject* value);
     // public System.Void Set(System.String key, System.Object value)
     // Offset: 0xFFFFFFFF
-    void Set(::CsString* key, ::CsObject* value);
+    void Set(::Il2CppString* key, ::Il2CppObject* value);
     // public System.Object Get(System.String key)
     // Offset: 0xFFFFFFFF
-    ::CsObject* Get(::CsString* key);
+    ::Il2CppObject* Get(::Il2CppString* key);
     // public System.Boolean ContainsKey(System.String key)
     // Offset: 0xFFFFFFFF
-    bool ContainsKey(::CsString* key);
+    bool ContainsKey(::Il2CppString* key);
     // public System.Collections.IList get_Item(System.String key)
     // Offset: 0xFFFFFFFF
-    System::Collections::IList* get_Item(::CsString* key);
+    System::Collections::IList* get_Item(::Il2CppString* key);
     // public System.Collections.Generic.ICollection`1<System.String> get_Keys()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::ICollection_1<::CsString*>* get_Keys();
+    System::Collections::Generic::ICollection_1<::Il2CppString*>* get_Keys();
   }; // NUnit.Framework.Interfaces.IPropertyBag
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

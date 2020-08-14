@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B1BB0
-    static IVRSystem::_GetOutputDevice* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetOutputDevice* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.UInt64 pnDevice, OVR.OpenVR.ETextureType textureType, System.IntPtr pInstance)
     // Offset: 0x16B1BC4
     void Invoke(uint64_t& pnDevice, OVR::OpenVR::ETextureType textureType, System::IntPtr pInstance);
     // public System.IAsyncResult BeginInvoke(System.UInt64 pnDevice, OVR.OpenVR.ETextureType textureType, System.IntPtr pInstance, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16B1E48
-    System::IAsyncResult* BeginInvoke(uint64_t& pnDevice, OVR::OpenVR::ETextureType textureType, System::IntPtr pInstance, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t& pnDevice, OVR::OpenVR::ETextureType textureType, System::IntPtr pInstance, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.UInt64 pnDevice, System.IAsyncResult result)
     // Offset: 0x16B1F18
     void EndInvoke(uint64_t& pnDevice, System::IAsyncResult* result);

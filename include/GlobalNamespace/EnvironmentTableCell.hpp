@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* highlightImage;
     // public System.Void set_text(System.String value)
     // Offset: 0xBE8984
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // public System.String get_text()
     // Offset: 0xBE89A0
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // private System.Void RefreshVisuals()
     // Offset: 0xBE89C0
     void RefreshVisuals();

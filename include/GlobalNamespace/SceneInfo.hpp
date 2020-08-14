@@ -15,13 +15,13 @@ namespace GlobalNamespace {
     public:
     // private System.String _sceneName
     // Offset: 0x18
-    ::CsString* sceneName;
+    ::Il2CppString* sceneName;
     // private System.Boolean _disabledRootObjects
     // Offset: 0x20
     bool disabledRootObjects;
     // public System.String get_sceneName()
     // Offset: 0xCB87C8
-    ::CsString* get_sceneName();
+    ::Il2CppString* get_sceneName();
     // public System.Boolean get_disabledRootObjects()
     // Offset: 0xCB87D0
     bool get_disabledRootObjects();

@@ -36,7 +36,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xA49764
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.ArrayUtility/SearchRange
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

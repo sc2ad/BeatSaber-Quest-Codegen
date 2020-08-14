@@ -61,12 +61,6 @@ namespace GlobalNamespace {
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
-    // static field const value: static private System.Single kSpeedMultiplier
-    static constexpr const float kSpeedMultiplier = 20;
-    // Get static field: static private System.Single kSpeedMultiplier
-    static float _get_kSpeedMultiplier();
-    // Set static field: static private System.Single kSpeedMultiplier
-    static void _set_kSpeedMultiplier(float value);
     // private LightPairRotationEventEffect/RotationData _rotationDataL
     // Offset: 0x50
     GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationDataL;
@@ -82,6 +76,12 @@ namespace GlobalNamespace {
     // private System.Single _randomDirection
     // Offset: 0x68
     float randomDirection;
+    // static field const value: static private System.Single kSpeedMultiplier
+    static constexpr const float kSpeedMultiplier = 20;
+    // Get static field: static private System.Single kSpeedMultiplier
+    static float _get_kSpeedMultiplier();
+    // Set static field: static private System.Single kSpeedMultiplier
+    static void _set_kSpeedMultiplier(float value);
     // protected System.Void Start()
     // Offset: 0xBF68EC
     void Start();

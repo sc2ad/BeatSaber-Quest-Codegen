@@ -25,7 +25,7 @@ namespace System::Runtime::Remoting {
     System::Type* obj_type;
     // public System.Void .ctor(System.String typeName, System.String assemblyName)
     // Offset: 0x104C03C
-    static ActivatedServiceTypeEntry* New_ctor(::CsString* typeName, ::CsString* assemblyName);
+    static ActivatedServiceTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName);
     // public System.Type get_ObjectType()
     // Offset: 0x104C18C
     System::Type* get_ObjectType();
@@ -33,7 +33,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x104C194
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.Runtime.Remoting.ActivatedServiceTypeEntry
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

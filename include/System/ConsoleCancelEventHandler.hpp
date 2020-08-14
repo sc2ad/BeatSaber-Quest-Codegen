@@ -27,13 +27,13 @@ namespace System {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x10BFDBC
-    static ConsoleCancelEventHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static ConsoleCancelEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.ConsoleCancelEventArgs e)
     // Offset: 0x10BF1F4
-    void Invoke(::CsObject* sender, System::ConsoleCancelEventArgs* e);
+    void Invoke(::Il2CppObject* sender, System::ConsoleCancelEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.ConsoleCancelEventArgs e, System.AsyncCallback callback, System.Object object)
     // Offset: 0x10BFDD0
-    System::IAsyncResult* BeginInvoke(::CsObject* sender, System::ConsoleCancelEventArgs* e, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::ConsoleCancelEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x10BFE00
     void EndInvoke(System::IAsyncResult* result);

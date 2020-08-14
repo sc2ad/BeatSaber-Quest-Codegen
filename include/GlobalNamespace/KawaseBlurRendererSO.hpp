@@ -144,7 +144,7 @@ namespace GlobalNamespace {
     void AlphaWeights(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public UnityEngine.Rendering.CommandBuffer CreateBlurCommandBuffer(System.Int32 width, System.Int32 height, System.String globalTextureName, KawaseBlurRendererSO/KernelSize kernelSize, System.Single boost)
     // Offset: 0x1822BA0
-    UnityEngine::Rendering::CommandBuffer* CreateBlurCommandBuffer(int width, int height, ::CsString* globalTextureName, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost);
+    UnityEngine::Rendering::CommandBuffer* CreateBlurCommandBuffer(int width, int height, ::Il2CppString* globalTextureName, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost);
     // protected override System.Void OnEnable()
     // Offset: 0x1821810
     // Implemented from: PersistentScriptableObject

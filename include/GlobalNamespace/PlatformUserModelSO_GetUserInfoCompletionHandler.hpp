@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBD4708
-    static PlatformUserModelSO::GetUserInfoCompletionHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static PlatformUserModelSO::GetUserInfoCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformUserModelSO/GetUserInfoResult result, PlatformUserModelSO/UserInfo userInfo)
     // Offset: 0xBD61D0
     void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserInfoResult result, GlobalNamespace::PlatformUserModelSO::UserInfo* userInfo);
     // public System.IAsyncResult BeginInvoke(PlatformUserModelSO/GetUserInfoResult result, PlatformUserModelSO/UserInfo userInfo, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBD6458
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserInfoResult result, GlobalNamespace::PlatformUserModelSO::UserInfo* userInfo, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserInfoResult result, GlobalNamespace::PlatformUserModelSO::UserInfo* userInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xBD64F0
     void EndInvoke(System::IAsyncResult* result);

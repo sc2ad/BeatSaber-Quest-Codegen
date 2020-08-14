@@ -15,13 +15,13 @@ namespace UnityEngine {
     public:
     // public readonly System.String name
     // Offset: 0x10
-    ::CsString* name;
+    ::Il2CppString* name;
     // public readonly System.String function
     // Offset: 0x18
-    ::CsString* function;
+    ::Il2CppString* function;
     // public System.Void .ctor(System.String name, System.String function)
     // Offset: 0x13026F8
-    static ContextMenuItemAttribute* New_ctor(::CsString* name, ::CsString* function);
+    static ContextMenuItemAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* function);
   }; // UnityEngine.ContextMenuItemAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

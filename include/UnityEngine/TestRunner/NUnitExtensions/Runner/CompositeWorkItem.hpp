@@ -114,19 +114,19 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     void SortChildren();
     // private System.Void SkipFixture(NUnit.Framework.Interfaces.ResultState resultState, System.String message, System.String stackTrace)
     // Offset: 0xE2CA1C
-    void SkipFixture(NUnit::Framework::Interfaces::ResultState* resultState, ::CsString* message, ::CsString* stackTrace);
+    void SkipFixture(NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message, ::Il2CppString* stackTrace);
     // private System.Void SkipChildren(NUnit.Framework.Internal.TestSuite suite, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
     // Offset: 0xE2CB28
-    void SkipChildren(NUnit::Framework::Internal::TestSuite* suite, NUnit::Framework::Interfaces::ResultState* resultState, ::CsString* message);
+    void SkipChildren(NUnit::Framework::Internal::TestSuite* suite, NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message);
     // private System.Void PerformOneTimeTearDown()
     // Offset: 0xE2D084
     void PerformOneTimeTearDown();
     // private System.String GetSkipReason()
     // Offset: 0xE2D0AC
-    ::CsString* GetSkipReason();
+    ::Il2CppString* GetSkipReason();
     // private System.String GetProviderStackTrace()
     // Offset: 0xE2D1A4
-    ::CsString* GetProviderStackTrace();
+    ::Il2CppString* GetProviderStackTrace();
     // private System.Void CountDownChildTest()
     // Offset: 0xE2D29C
     void CountDownChildTest();

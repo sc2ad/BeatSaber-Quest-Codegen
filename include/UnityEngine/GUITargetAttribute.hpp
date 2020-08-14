@@ -25,7 +25,7 @@ namespace UnityEngine {
     int displayMask;
     // static private System.Int32 GetGUITargetAttrValue(System.Type klass, System.String methodName)
     // Offset: 0x127158C
-    static int GetGUITargetAttrValue(System::Type* klass, ::CsString* methodName);
+    static int GetGUITargetAttrValue(System::Type* klass, ::Il2CppString* methodName);
   }; // UnityEngine.GUITargetAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

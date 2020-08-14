@@ -43,7 +43,7 @@ namespace NUnit::Framework::Internal::Filters {
     void set_Filters(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* value);
     // protected System.String get_ElementName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_ElementName();
+    ::Il2CppString* get_ElementName();
     // public System.Void .ctor()
     // Offset: 0x108543C
     // Implemented from: NUnit.Framework.Internal.TestFilter

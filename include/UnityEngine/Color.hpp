@@ -17,8 +17,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -47,7 +47,7 @@ namespace UnityEngine {
     static Color* New_ctor(float r, float g, float b);
     // public System.String ToString(System.String format)
     // Offset: 0xA41D38
-    ::CsString* ToString(::CsString* format);
+    ::Il2CppString* ToString(::Il2CppString* format);
     // static public UnityEngine.Color Lerp(UnityEngine.Color a, UnityEngine.Color b, System.Single t)
     // Offset: 0x1301020
     static UnityEngine::Color Lerp(UnityEngine::Color a, UnityEngine::Color b, float t);
@@ -109,7 +109,7 @@ namespace UnityEngine {
     // Offset: 0xA41D30
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0xA41D40
     // Implemented from: System.ValueType
@@ -119,7 +119,7 @@ namespace UnityEngine {
     // Offset: 0xA41D48
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Color other)
     // Offset: 0xA41D50
     // Implemented from: System.IEquatable`1

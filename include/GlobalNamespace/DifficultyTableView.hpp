@@ -53,21 +53,21 @@ namespace GlobalNamespace {
     // private System.Action`2<DifficultyTableView,System.Int32> didSelectRow
     // Offset: 0x38
     System::Action_2<GlobalNamespace::DifficultyTableView*, int>* didSelectRow;
-    // static field const value: static private System.String kCellIdentifier
-    static constexpr const char* kCellIdentifier = "Cell";
-    // Get static field: static private System.String kCellIdentifier
-    static ::CsString* _get_kCellIdentifier();
-    // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::CsString* value);
-    // static field const value: static private System.String kNonSelectableCellIdentifier
-    static constexpr const char* kNonSelectableCellIdentifier = "NonSelectableCell";
-    // Get static field: static private System.String kNonSelectableCellIdentifier
-    static ::CsString* _get_kNonSelectableCellIdentifier();
-    // Set static field: static private System.String kNonSelectableCellIdentifier
-    static void _set_kNonSelectableCellIdentifier(::CsString* value);
     // private IDifficultyBeatmap[] _difficultyBeatmaps
     // Offset: 0x40
     ::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps;
+    // static field const value: static private System.String kCellIdentifier
+    static constexpr const char* kCellIdentifier = "Cell";
+    // Get static field: static private System.String kCellIdentifier
+    static ::Il2CppString* _get_kCellIdentifier();
+    // Set static field: static private System.String kCellIdentifier
+    static void _set_kCellIdentifier(::Il2CppString* value);
+    // static field const value: static private System.String kNonSelectableCellIdentifier
+    static constexpr const char* kNonSelectableCellIdentifier = "NonSelectableCell";
+    // Get static field: static private System.String kNonSelectableCellIdentifier
+    static ::Il2CppString* _get_kNonSelectableCellIdentifier();
+    // Set static field: static private System.String kNonSelectableCellIdentifier
+    static void _set_kNonSelectableCellIdentifier(::Il2CppString* value);
     // public System.Void add_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
     // Offset: 0xBE4700
     void add_didSelectRow(System::Action_2<GlobalNamespace::DifficultyTableView*, int>* value);

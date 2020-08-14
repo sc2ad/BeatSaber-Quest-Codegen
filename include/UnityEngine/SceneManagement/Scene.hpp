@@ -21,8 +21,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -41,7 +41,7 @@ namespace UnityEngine::SceneManagement {
     static bool IsValidInternal(int sceneHandle);
     // static private System.String GetNameInternal(System.Int32 sceneHandle)
     // Offset: 0x1387FDC
-    static ::CsString* GetNameInternal(int sceneHandle);
+    static ::Il2CppString* GetNameInternal(int sceneHandle);
     // static private System.Boolean GetIsLoadedInternal(System.Int32 sceneHandle)
     // Offset: 0x138801C
     static bool GetIsLoadedInternal(int sceneHandle);
@@ -50,7 +50,7 @@ namespace UnityEngine::SceneManagement {
     static int GetRootCountInternal(int sceneHandle);
     // static private System.Void GetRootGameObjectsInternal(System.Int32 sceneHandle, System.Object resultRootList)
     // Offset: 0x138809C
-    static void GetRootGameObjectsInternal(int sceneHandle, ::CsObject* resultRootList);
+    static void GetRootGameObjectsInternal(int sceneHandle, ::Il2CppObject* resultRootList);
     // public System.Int32 get_handle()
     // Offset: 0xA4383C
     int get_handle();
@@ -59,7 +59,7 @@ namespace UnityEngine::SceneManagement {
     bool IsValid();
     // public System.String get_name()
     // Offset: 0xA43884
-    ::CsString* get_name();
+    ::Il2CppString* get_name();
     // public System.Boolean get_isLoaded()
     // Offset: 0xA438C4
     bool get_isLoaded();
@@ -81,7 +81,7 @@ namespace UnityEngine::SceneManagement {
     // Offset: 0xA4395C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
   }; // UnityEngine.SceneManagement.Scene
   // static public System.Boolean op_Equality(UnityEngine.SceneManagement.Scene lhs, UnityEngine.SceneManagement.Scene rhs)
   // Offset: 0x13884E8

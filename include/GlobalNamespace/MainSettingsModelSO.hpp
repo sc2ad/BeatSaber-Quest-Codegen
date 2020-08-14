@@ -142,6 +142,15 @@ namespace GlobalNamespace {
     // private System.Boolean <createScreenshotDuringTheGame>k__BackingField
     // Offset: 0x128
     bool createScreenshotDuringTheGame;
+    // private System.Boolean <playingForTheFirstTime>k__BackingField
+    // Offset: 0x129
+    bool playingForTheFirstTime;
+    // private System.Boolean _playingForTheFirstTimeChecked
+    // Offset: 0x12A
+    bool playingForTheFirstTimeChecked;
+    // private System.Boolean _isLoaded
+    // Offset: 0x12B
+    bool isLoaded;
     // static field const value: static public System.Single kDefaultPlayerHeight
     static constexpr const float kDefaultPlayerHeight = 1.8;
     // Get static field: static public System.Single kDefaultPlayerHeight
@@ -157,27 +166,27 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kFileName
     static constexpr const char* kFileName = "settings.cfg";
     // Get static field: static private System.String kFileName
-    static ::CsString* _get_kFileName();
+    static ::Il2CppString* _get_kFileName();
     // Set static field: static private System.String kFileName
-    static void _set_kFileName(::CsString* value);
+    static void _set_kFileName(::Il2CppString* value);
     // static field const value: static private System.String kTempFileName
     static constexpr const char* kTempFileName = "settings.cfg.tmp";
     // Get static field: static private System.String kTempFileName
-    static ::CsString* _get_kTempFileName();
+    static ::Il2CppString* _get_kTempFileName();
     // Set static field: static private System.String kTempFileName
-    static void _set_kTempFileName(::CsString* value);
+    static void _set_kTempFileName(::Il2CppString* value);
     // static field const value: static private System.String kBackupFileName
     static constexpr const char* kBackupFileName = "settings.cfg.bak";
     // Get static field: static private System.String kBackupFileName
-    static ::CsString* _get_kBackupFileName();
+    static ::Il2CppString* _get_kBackupFileName();
     // Set static field: static private System.String kBackupFileName
-    static void _set_kBackupFileName(::CsString* value);
+    static void _set_kBackupFileName(::Il2CppString* value);
     // static field const value: static private System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "1.5.0";
     // Get static field: static private System.String kCurrentVersion
-    static ::CsString* _get_kCurrentVersion();
+    static ::Il2CppString* _get_kCurrentVersion();
     // Set static field: static private System.String kCurrentVersion
-    static void _set_kCurrentVersion(::CsString* value);
+    static void _set_kCurrentVersion(::Il2CppString* value);
     // static field const value: static public System.Single kControllersPositionOffsetLimit
     static constexpr const float kControllersPositionOffsetLimit = 0.1;
     // Get static field: static public System.Single kControllersPositionOffsetLimit
@@ -190,15 +199,6 @@ namespace GlobalNamespace {
     static float _get_kControllersRotationOffsetLimit();
     // Set static field: static public System.Single kControllersRotationOffsetLimit
     static void _set_kControllersRotationOffsetLimit(float value);
-    // private System.Boolean <playingForTheFirstTime>k__BackingField
-    // Offset: 0x129
-    bool playingForTheFirstTime;
-    // private System.Boolean _playingForTheFirstTimeChecked
-    // Offset: 0x12A
-    bool playingForTheFirstTimeChecked;
-    // private System.Boolean _isLoaded
-    // Offset: 0x12B
-    bool isLoaded;
     // public System.Boolean get_createScreenshotDuringTheGame()
     // Offset: 0xBFD124
     bool get_createScreenshotDuringTheGame();

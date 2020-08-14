@@ -15,10 +15,10 @@ namespace System::Runtime::InteropServices {
     public:
     // System.String _val
     // Offset: 0x10
-    ::CsString* val;
+    ::Il2CppString* val;
     // public System.Void .ctor(System.String guid)
     // Offset: 0x104B0E8
-    static GuidAttribute* New_ctor(::CsString* guid);
+    static GuidAttribute* New_ctor(::Il2CppString* guid);
   }; // System.Runtime.InteropServices.GuidAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

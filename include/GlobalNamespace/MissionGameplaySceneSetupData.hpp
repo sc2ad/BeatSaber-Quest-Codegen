@@ -28,19 +28,19 @@ namespace GlobalNamespace {
     bool autoRestart;
     // public readonly System.String songName
     // Offset: 0x20
-    ::CsString* songName;
+    ::Il2CppString* songName;
     // public readonly System.String songSubName
     // Offset: 0x28
-    ::CsString* songSubName;
+    ::Il2CppString* songSubName;
     // public readonly System.String difficultyName
     // Offset: 0x30
-    ::CsString* difficultyName;
+    ::Il2CppString* difficultyName;
     // public readonly System.String backButtonText
     // Offset: 0x38
-    ::CsString* backButtonText;
+    ::Il2CppString* backButtonText;
     // public System.Void .ctor(MissionObjective[] missionObjectives, System.Boolean autoRestart, System.String songName, System.String songSubName, System.String difficultyName, System.String backButtonText)
     // Offset: 0xC012C0
-    static MissionGameplaySceneSetupData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives, bool autoRestart, ::CsString* songName, ::CsString* songSubName, ::CsString* difficultyName, ::CsString* backButtonText);
+    static MissionGameplaySceneSetupData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives, bool autoRestart, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* difficultyName, ::Il2CppString* backButtonText);
   }; // MissionGameplaySceneSetupData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

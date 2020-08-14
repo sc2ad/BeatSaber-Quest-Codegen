@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Offset: 0xA37CC4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // OVRPlugin/Vector4s
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

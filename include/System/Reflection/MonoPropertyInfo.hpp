@@ -39,7 +39,7 @@ namespace System::Reflection {
     System::Type* declaring_type;
     // public System.String name
     // Offset: 0x10
-    ::CsString* name;
+    ::Il2CppString* name;
     // public System.Reflection.MethodInfo get_method
     // Offset: 0x18
     System::Reflection::MethodInfo* get_method;
@@ -50,7 +50,7 @@ namespace System::Reflection {
     // Offset: 0x28
     System::Reflection::PropertyAttributes attrs;
     // Creating value type constructor for type: MonoPropertyInfo
-    MonoPropertyInfo(System::Type* parent_ = {}, System::Type* declaring_type_ = {}, ::CsString* name_ = {}, System::Reflection::MethodInfo* get_method_ = {}, System::Reflection::MethodInfo* set_method_ = {}, System::Reflection::PropertyAttributes attrs_ = {}) : parent{parent_}, declaring_type{declaring_type_}, name{name_}, get_method{get_method_}, set_method{set_method_}, attrs{attrs_} {}
+    MonoPropertyInfo(System::Type* parent_ = {}, System::Type* declaring_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* get_method_ = {}, System::Reflection::MethodInfo* set_method_ = {}, System::Reflection::PropertyAttributes attrs_ = {}) : parent{parent_}, declaring_type{declaring_type_}, name{name_}, get_method{get_method_}, set_method{set_method_}, attrs{attrs_} {}
     // static System.Void get_property_info(System.Reflection.MonoProperty prop, System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
     // Offset: 0x114F7FC
     static void get_property_info(System::Reflection::MonoProperty* prop, System::Reflection::MonoPropertyInfo& info, System::Reflection::PInfo req_info);
@@ -59,7 +59,7 @@ namespace System::Reflection {
     static ::Array<System::Type*>* GetTypeModifiers(System::Reflection::MonoProperty* prop, bool optional);
     // static System.Object get_default_value(System.Reflection.MonoProperty prop)
     // Offset: 0x114FF7C
-    static ::CsObject* get_default_value(System::Reflection::MonoProperty* prop);
+    static ::Il2CppObject* get_default_value(System::Reflection::MonoProperty* prop);
   }; // System.Reflection.MonoPropertyInfo
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

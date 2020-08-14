@@ -41,7 +41,7 @@ namespace System::Diagnostics::Tracing {
     System::Diagnostics::Tracing::EventCommand Command;
     // private System.Collections.Generic.IDictionary`2<System.String,System.String> <Arguments>k__BackingField
     // Offset: 0x18
-    System::Collections::Generic::IDictionary_2<::CsString*, ::CsString*>* Arguments;
+    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* Arguments;
     // System.Diagnostics.Tracing.EventSource eventSource
     // Offset: 0x20
     System::Diagnostics::Tracing::EventSource* eventSource;
@@ -77,13 +77,13 @@ namespace System::Diagnostics::Tracing {
     void set_Command(System::Diagnostics::Tracing::EventCommand value);
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Arguments()
     // Offset: 0xC97ECC
-    System::Collections::Generic::IDictionary_2<::CsString*, ::CsString*>* get_Arguments();
+    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* get_Arguments();
     // System.Void set_Arguments(System.Collections.Generic.IDictionary`2<System.String,System.String> value)
     // Offset: 0xC97ED4
-    void set_Arguments(System::Collections::Generic::IDictionary_2<::CsString*, ::CsString*>* value);
+    void set_Arguments(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // System.Void .ctor(System.Diagnostics.Tracing.EventCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Diagnostics.Tracing.EventSource eventSource, System.Diagnostics.Tracing.EventListener listener, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId, System.Boolean enable, System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventKeywords matchAnyKeyword)
     // Offset: 0xC97EDC
-    static EventCommandEventArgs* New_ctor(System::Diagnostics::Tracing::EventCommand command, System::Collections::Generic::IDictionary_2<::CsString*, ::CsString*>* arguments, System::Diagnostics::Tracing::EventSource* eventSource, System::Diagnostics::Tracing::EventListener* listener, int perEventSourceSessionId, int etwSessionId, bool enable, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords matchAnyKeyword);
+    static EventCommandEventArgs* New_ctor(System::Diagnostics::Tracing::EventCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, System::Diagnostics::Tracing::EventSource* eventSource, System::Diagnostics::Tracing::EventListener* listener, int perEventSourceSessionId, int etwSessionId, bool enable, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords matchAnyKeyword);
   }; // System.Diagnostics.Tracing.EventCommandEventArgs
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

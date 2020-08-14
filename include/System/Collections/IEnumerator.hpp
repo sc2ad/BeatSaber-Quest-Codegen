@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -18,7 +18,7 @@ namespace System::Collections {
     bool MoveNext();
     // public System.Object get_Current()
     // Offset: 0xFFFFFFFF
-    ::CsObject* System_Collections_IEnumerator_get_Current();
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
     void System_Collections_IEnumerator_Reset();

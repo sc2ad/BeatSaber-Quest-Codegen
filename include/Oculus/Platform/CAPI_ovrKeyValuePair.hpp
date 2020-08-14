@@ -17,13 +17,13 @@ namespace Oculus::Platform {
     public:
     // public System.String key_
     // Offset: 0x0
-    ::CsString* key;
+    ::Il2CppString* key;
     // private Oculus.Platform.KeyValuePairType valueType_
     // Offset: 0x8
     Oculus::Platform::KeyValuePairType valueType;
     // public System.String stringValue_
     // Offset: 0x10
-    ::CsString* stringValue;
+    ::Il2CppString* stringValue;
     // public System.Int32 intValue_
     // Offset: 0x18
     int intValue;
@@ -31,16 +31,16 @@ namespace Oculus::Platform {
     // Offset: 0x20
     double doubleValue;
     // Creating value type constructor for type: ovrKeyValuePair
-    ovrKeyValuePair(::CsString* key_ = {}, Oculus::Platform::KeyValuePairType valueType_ = {}, ::CsString* stringValue_ = {}, int intValue_ = {}, double doubleValue_ = {}) : key{key_}, valueType{valueType_}, stringValue{stringValue_}, intValue{intValue_}, doubleValue{doubleValue_} {}
+    ovrKeyValuePair(::Il2CppString* key_ = {}, Oculus::Platform::KeyValuePairType valueType_ = {}, ::Il2CppString* stringValue_ = {}, int intValue_ = {}, double doubleValue_ = {}) : key{key_}, valueType{valueType_}, stringValue{stringValue_}, intValue{intValue_}, doubleValue{doubleValue_} {}
     // public System.Void .ctor(System.String key, System.String value)
     // Offset: 0xA2FDDC
-    static CAPI::ovrKeyValuePair* New_ctor(::CsString* key, ::CsString* value);
+    static CAPI::ovrKeyValuePair* New_ctor(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void .ctor(System.String key, System.Int32 value)
     // Offset: 0xA2FE20
-    static CAPI::ovrKeyValuePair* New_ctor(::CsString* key, int value);
+    static CAPI::ovrKeyValuePair* New_ctor(::Il2CppString* key, int value);
     // public System.Void .ctor(System.String key, System.Double value)
     // Offset: 0xA2FE68
-    static CAPI::ovrKeyValuePair* New_ctor(::CsString* key, double value);
+    static CAPI::ovrKeyValuePair* New_ctor(::Il2CppString* key, double value);
   }; // Oculus.Platform.CAPI/ovrKeyValuePair
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1600024
-    static IVROverlay::_FindOverlay* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_FindOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.String pchOverlayKey, System.UInt64 pOverlayHandle)
     // Offset: 0x1600038
-    Valve::VR::EVROverlayError Invoke(::CsString* pchOverlayKey, uint64_t& pOverlayHandle);
+    Valve::VR::EVROverlayError Invoke(::Il2CppString* pchOverlayKey, uint64_t& pOverlayHandle);
     // public System.IAsyncResult BeginInvoke(System.String pchOverlayKey, System.UInt64 pOverlayHandle, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1600444
-    System::IAsyncResult* BeginInvoke(::CsString* pchOverlayKey, uint64_t& pOverlayHandle, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchOverlayKey, uint64_t& pOverlayHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.UInt64 pOverlayHandle, System.IAsyncResult result)
     // Offset: 0x16004E0
     Valve::VR::EVROverlayError EndInvoke(uint64_t& pOverlayHandle, System::IAsyncResult* result);

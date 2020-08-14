@@ -15,31 +15,31 @@ namespace GlobalNamespace {
     public:
     // private System.String _skuName
     // Offset: 0x18
-    ::CsString* skuName;
+    ::Il2CppString* skuName;
     // private System.String _contentId
     // Offset: 0x20
-    ::CsString* contentId;
+    ::Il2CppString* contentId;
     // private System.Int32 _parentalLockLevel
     // Offset: 0x28
     int parentalLockLevel;
     // private System.String _npTitleFilenamePath
     // Offset: 0x30
-    ::CsString* npTitleFilenamePath;
+    ::Il2CppString* npTitleFilenamePath;
     // private System.Int32 _defaultAgeRestriction
     // Offset: 0x38
     int defaultAgeRestriction;
     // public System.String get_skuName()
     // Offset: 0xBCF91C
-    ::CsString* get_skuName();
+    ::Il2CppString* get_skuName();
     // public System.String get_contentId()
     // Offset: 0xBCF924
-    ::CsString* get_contentId();
+    ::Il2CppString* get_contentId();
     // public System.Int32 get_parentalLockLevel()
     // Offset: 0xBCF92C
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
     // Offset: 0xBCF934
-    ::CsString* get_npTitleFilenamePath();
+    ::Il2CppString* get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
     // Offset: 0xBCF93C
     int get_defaultAgeRestriction();

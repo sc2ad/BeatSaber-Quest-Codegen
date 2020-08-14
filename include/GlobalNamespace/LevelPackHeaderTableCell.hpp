@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     void SetDataFromPack(GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void SetData(System.String headerText, UnityEngine.Sprite headerSprite)
     // Offset: 0xBF32DC
-    void SetData(::CsString* headerText, UnityEngine::Sprite* headerSprite);
+    void SetData(::Il2CppString* headerText, UnityEngine::Sprite* headerSprite);
     // private System.Void RefreshVisuals()
     // Offset: 0xBF3324
     void RefreshVisuals();

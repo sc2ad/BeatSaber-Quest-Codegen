@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED065C
-    static IVRChaperone::_GetBoundsColor* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperone::_GetBoundsColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, OVR.OpenVR.HmdColor_t pOutputCameraColor)
     // Offset: 0xEC62DC
     void Invoke(OVR::OpenVR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, OVR::OpenVR::HmdColor_t& pOutputCameraColor);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, OVR.OpenVR.HmdColor_t pOutputCameraColor, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED0670
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, OVR::OpenVR::HmdColor_t& pOutputCameraColor, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, OVR::OpenVR::HmdColor_t& pOutputCameraColor, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(OVR.OpenVR.HmdColor_t pOutputColorArray, OVR.OpenVR.HmdColor_t pOutputCameraColor, System.IAsyncResult result)
     // Offset: 0xED075C
     void EndInvoke(OVR::OpenVR::HmdColor_t& pOutputColorArray, OVR::OpenVR::HmdColor_t& pOutputCameraColor, System::IAsyncResult* result);

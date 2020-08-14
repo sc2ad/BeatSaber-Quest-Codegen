@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B9020
-    static IVROverlay::_SetOverlayTransformTrackedDeviceComponent* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_SetOverlayTransformTrackedDeviceComponent* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.UInt32 unDeviceIndex, System.String pchComponentName)
     // Offset: 0x16B9034
-    Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint unDeviceIndex, ::CsString* pchComponentName);
+    Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint unDeviceIndex, ::Il2CppString* pchComponentName);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt32 unDeviceIndex, System.String pchComponentName, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16B92CC
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint unDeviceIndex, ::CsString* pchComponentName, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint unDeviceIndex, ::Il2CppString* pchComponentName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
     // Offset: 0x16B9384
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);

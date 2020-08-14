@@ -50,18 +50,18 @@ namespace GlobalNamespace {
     // private System.Single _rowHeight
     // Offset: 0x28
     float rowHeight;
-    // static field const value: static private System.String kCellIdentifier
-    static constexpr const char* kCellIdentifier = "Cell";
-    // Get static field: static private System.String kCellIdentifier
-    static ::CsString* _get_kCellIdentifier();
-    // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::CsString* value);
     // private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
     // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores;
     // private System.Int32 _specialScorePos
     // Offset: 0x38
     int specialScorePos;
+    // static field const value: static private System.String kCellIdentifier
+    static constexpr const char* kCellIdentifier = "Cell";
+    // Get static field: static private System.String kCellIdentifier
+    static ::Il2CppString* _get_kCellIdentifier();
+    // Set static field: static private System.String kCellIdentifier
+    static void _set_kCellIdentifier(::Il2CppString* value);
     // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
     // Offset: 0xB45310
     void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);

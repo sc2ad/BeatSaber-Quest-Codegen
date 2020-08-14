@@ -15,10 +15,10 @@ namespace System::Reflection {
     public:
     // private System.String m_informationalVersion
     // Offset: 0x10
-    ::CsString* m_informationalVersion;
+    ::Il2CppString* m_informationalVersion;
     // public System.Void .ctor(System.String informationalVersion)
     // Offset: 0x135F6D4
-    static AssemblyInformationalVersionAttribute* New_ctor(::CsString* informationalVersion);
+    static AssemblyInformationalVersionAttribute* New_ctor(::Il2CppString* informationalVersion);
   }; // System.Reflection.AssemblyInformationalVersionAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

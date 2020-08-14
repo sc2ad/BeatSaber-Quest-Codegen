@@ -21,15 +21,15 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   class CategoryFilterExtended : public NUnit::Framework::Internal::Filters::CategoryFilter {
     public:
     // Get static field: static public System.String k_DefaultCategory
-    static ::CsString* _get_k_DefaultCategory();
+    static ::Il2CppString* _get_k_DefaultCategory();
     // Set static field: static public System.String k_DefaultCategory
-    static void _set_k_DefaultCategory(::CsString* value);
+    static void _set_k_DefaultCategory(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
     // Offset: 0xE2AEF4
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter
     // Base method: System.Void CategoryFilter::.ctor(System.String name)
     // Base method: System.Void ValueMatchFilter::.ctor(System.String name)
-    static CategoryFilterExtended* New_ctor(::CsString* name);
+    static CategoryFilterExtended* New_ctor(::Il2CppString* name);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xE2AEFC
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter

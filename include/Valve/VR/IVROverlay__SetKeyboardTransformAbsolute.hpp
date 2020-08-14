@@ -34,13 +34,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x160A2DC
-    static IVROverlay::_SetKeyboardTransformAbsolute* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_SetKeyboardTransformAbsolute* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform)
     // Offset: 0x160A2F0
     void Invoke(Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform, System.AsyncCallback callback, System.Object object)
     // Offset: 0x160A578
-    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(Valve.VR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform, System.IAsyncResult result)
     // Offset: 0x160A62C
     void EndInvoke(Valve::VR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform, System::IAsyncResult* result);

@@ -49,16 +49,16 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     class $BuildAsync$d__3;
     // private readonly System.String m_ProductName
     // Offset: 0x18
-    ::CsString* m_ProductName;
+    ::Il2CppString* m_ProductName;
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
     // Offset: 0xE344CC
-    NUnit::Framework::Interfaces::ITest* Build(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::CsString*, ::CsObject*>* options);
+    NUnit::Framework::Interfaces::ITest* Build(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // public System.Collections.Generic.IEnumerator`1<NUnit.Framework.Interfaces.ITest> BuildAsync(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
     // Offset: 0xE3E6DC
-    System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* BuildAsync(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::CsString*, ::CsObject*>* options);
+    System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* BuildAsync(::Array<System::Reflection::Assembly*>* assemblies, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Object> GetNUnitTestBuilderSettings(UnityEngine.TestTools.TestPlatform testPlatform)
     // Offset: 0xE3E7D0
-    static System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* GetNUnitTestBuilderSettings(UnityEngine::TestTools::TestPlatform testPlatform);
+    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* GetNUnitTestBuilderSettings(UnityEngine::TestTools::TestPlatform testPlatform);
     // public System.Void .ctor()
     // Offset: 0xE3E65C
     // Implemented from: NUnit.Framework.Api.DefaultTestAssemblyBuilder

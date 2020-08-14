@@ -28,7 +28,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0xA3C424
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UVTransform
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

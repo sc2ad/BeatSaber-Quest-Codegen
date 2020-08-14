@@ -38,13 +38,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15FE184
-    static IVRNotifications::_CreateNotification* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRNotifications::_CreateNotification* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRNotificationError Invoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, Valve.VR.NotificationBitmap_t pImage, System.UInt32 pNotificationId)
     // Offset: 0x15FE198
-    Valve::VR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::CsString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId);
+    Valve::VR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, Valve.VR.NotificationBitmap_t pImage, System.UInt32 pNotificationId, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15FE47C
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::CsString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRNotificationError EndInvoke(Valve.VR.NotificationBitmap_t pImage, System.UInt32 pNotificationId, System.IAsyncResult result)
     // Offset: 0x15FE5AC
     Valve::VR::EVRNotificationError EndInvoke(Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId, System::IAsyncResult* result);

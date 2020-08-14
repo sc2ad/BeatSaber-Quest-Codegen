@@ -15,7 +15,7 @@ namespace UnityEngine::Playables {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -24,7 +24,7 @@ namespace UnityEngine::Playables {
     public:
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
     // Offset: 0xFFFFFFFF
-    void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::CsObject* context);
+    void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
   }; // UnityEngine.Playables.INotificationReceiver
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

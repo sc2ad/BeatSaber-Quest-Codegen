@@ -21,7 +21,7 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: Zenject.Internal
 namespace Zenject::Internal {
@@ -30,7 +30,7 @@ namespace Zenject::Internal {
     public:
     // public System.Void GetAllInstances(Zenject.IProvider provider, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0xFFFFFFFF
-    void GetAllInstances(Zenject::IProvider* provider, Zenject::InjectContext* context, System::Collections::Generic::List_1<::CsObject*>* buffer);
+    void GetAllInstances(Zenject::IProvider* provider, Zenject::InjectContext* context, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.Internal.IDecoratorProvider
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -82,9 +82,9 @@ namespace GlobalNamespace {
     // Offset: 0x173
     bool result_mesh_RH;
     // Get static field: static private System.String prevConnected
-    static ::CsString* _get_prevConnected();
+    static ::Il2CppString* _get_prevConnected();
     // Set static field: static private System.String prevConnected
-    static void _set_prevConnected(::CsString* value);
+    static void _set_prevConnected(::Il2CppString* value);
     // Get static field: static private OVRHandTest/BoolMonitor controllers
     static GlobalNamespace::OVRHandTest::BoolMonitor* _get_controllers();
     // Set static field: static private OVRHandTest/BoolMonitor controllers

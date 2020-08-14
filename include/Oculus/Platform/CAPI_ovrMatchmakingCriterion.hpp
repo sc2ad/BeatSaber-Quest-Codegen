@@ -21,7 +21,7 @@ namespace Oculus::Platform {
     public:
     // public System.String key_
     // Offset: 0x0
-    ::CsString* key;
+    ::Il2CppString* key;
     // public Oculus.Platform.MatchmakingCriterionImportance importance_
     // Offset: 0x8
     Oculus::Platform::MatchmakingCriterionImportance importance;
@@ -32,10 +32,10 @@ namespace Oculus::Platform {
     // Offset: 0x18
     uint parameterArrayCount;
     // Creating value type constructor for type: ovrMatchmakingCriterion
-    ovrMatchmakingCriterion(::CsString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::IntPtr parameterArray_ = {}, uint parameterArrayCount_ = {}) : key{key_}, importance{importance_}, parameterArray{parameterArray_}, parameterArrayCount{parameterArrayCount_} {}
+    ovrMatchmakingCriterion(::Il2CppString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::IntPtr parameterArray_ = {}, uint parameterArrayCount_ = {}) : key{key_}, importance{importance_}, parameterArray{parameterArray_}, parameterArrayCount{parameterArrayCount_} {}
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
     // Offset: 0xA2FF74
-    static CAPI::ovrMatchmakingCriterion* New_ctor(::CsString* key, Oculus::Platform::MatchmakingCriterionImportance importance);
+    static CAPI::ovrMatchmakingCriterion* New_ctor(::Il2CppString* key, Oculus::Platform::MatchmakingCriterionImportance importance);
   }; // Oculus.Platform.CAPI/ovrMatchmakingCriterion
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -15,16 +15,16 @@ namespace System::Runtime::Versioning {
     public:
     // private System.String _frameworkName
     // Offset: 0x10
-    ::CsString* frameworkName;
+    ::Il2CppString* frameworkName;
     // private System.String _frameworkDisplayName
     // Offset: 0x18
-    ::CsString* frameworkDisplayName;
+    ::Il2CppString* frameworkDisplayName;
     // public System.Void .ctor(System.String frameworkName)
     // Offset: 0xFFC278
-    static TargetFrameworkAttribute* New_ctor(::CsString* frameworkName);
+    static TargetFrameworkAttribute* New_ctor(::Il2CppString* frameworkName);
     // public System.Void set_FrameworkDisplayName(System.String value)
     // Offset: 0xFFC31C
-    void set_FrameworkDisplayName(::CsString* value);
+    void set_FrameworkDisplayName(::Il2CppString* value);
   }; // System.Runtime.Versioning.TargetFrameworkAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

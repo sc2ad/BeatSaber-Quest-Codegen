@@ -15,7 +15,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 template<class T>
 struct Array;
 // Completed il2cpp-utils forward declares
@@ -29,10 +29,10 @@ namespace System::Runtime::Remoting::Messaging {
     System::Exception* get_Exception();
     // public System.Object[] get_OutArgs()
     // Offset: 0xFFFFFFFF
-    ::Array<::CsObject*>* get_OutArgs();
+    ::Array<::Il2CppObject*>* get_OutArgs();
     // public System.Object get_ReturnValue()
     // Offset: 0xFFFFFFFF
-    ::CsObject* get_ReturnValue();
+    ::Il2CppObject* get_ReturnValue();
   }; // System.Runtime.Remoting.Messaging.IMethodReturnMessage
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

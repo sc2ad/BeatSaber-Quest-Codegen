@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B2340
-    static IVRSystem::_GetProjectionRaw* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetProjectionRaw* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.EVREye eEye, System.Single pfLeft, System.Single pfRight, System.Single pfTop, System.Single pfBottom)
     // Offset: 0x16B2354
     void Invoke(OVR::OpenVR::EVREye eEye, float& pfLeft, float& pfRight, float& pfTop, float& pfBottom);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREye eEye, System.Single pfLeft, System.Single pfRight, System.Single pfTop, System.Single pfBottom, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16B2630
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, float& pfLeft, float& pfRight, float& pfTop, float& pfBottom, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, float& pfLeft, float& pfRight, float& pfTop, float& pfBottom, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.Single pfLeft, System.Single pfRight, System.Single pfTop, System.Single pfBottom, System.IAsyncResult result)
     // Offset: 0x16B2734
     void EndInvoke(float& pfLeft, float& pfRight, float& pfTop, float& pfBottom, System::IAsyncResult* result);

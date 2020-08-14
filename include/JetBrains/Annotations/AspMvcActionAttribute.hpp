@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <AnonymousProperty>k__BackingField
     // Offset: 0x10
-    ::CsString* AnonymousProperty;
+    ::Il2CppString* AnonymousProperty;
     // public System.Void .ctor(System.String anonymousProperty)
     // Offset: 0x1957918
-    static AspMvcActionAttribute* New_ctor(::CsString* anonymousProperty);
+    static AspMvcActionAttribute* New_ctor(::Il2CppString* anonymousProperty);
     // public System.String get_AnonymousProperty()
     // Offset: 0x195794C
-    ::CsString* get_AnonymousProperty();
+    ::Il2CppString* get_AnonymousProperty();
     // private System.Void set_AnonymousProperty(System.String value)
     // Offset: 0x1957954
-    void set_AnonymousProperty(::CsString* value);
+    void set_AnonymousProperty(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1957910
     // Implemented from: System.Attribute

@@ -27,13 +27,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16CEB5C
-    static IVRSystem::_SetDisplayVisibility* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_SetDisplayVisibility* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Boolean bIsVisibleOnDesktop)
     // Offset: 0x16CEB70
     bool Invoke(bool bIsVisibleOnDesktop);
     // public System.IAsyncResult BeginInvoke(System.Boolean bIsVisibleOnDesktop, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16CEDF8
-    System::IAsyncResult* BeginInvoke(bool bIsVisibleOnDesktop, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(bool bIsVisibleOnDesktop, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0x16CEE88
     bool EndInvoke(System::IAsyncResult* result);

@@ -24,15 +24,15 @@ namespace NUnit::Framework::Internal {
     public:
     // private System.String _text
     // Offset: 0x10
-    ::CsString* text;
+    ::Il2CppString* text;
     // public System.Void .ctor(System.String text)
     // Offset: 0x18EB940
-    static TestNameGenerator::FixedTextFragment* New_ctor(::CsString* text);
+    static TestNameGenerator::FixedTextFragment* New_ctor(::Il2CppString* text);
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
     // Offset: 0x18EC654
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    ::CsString* GetText(System::Reflection::MethodInfo* method, ::Array<::CsObject*>* args);
+    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Internal.TestNameGenerator/FixedTextFragment
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

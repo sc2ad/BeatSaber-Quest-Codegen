@@ -128,7 +128,7 @@ namespace UnityEngine {
     ::Array<UnityEngine::Component*>* GetComponents(System::Type* type);
     // private System.Void GetComponentsForListInternal(System.Type searchType, System.Object resultList)
     // Offset: 0x13022A8
-    void GetComponentsForListInternal(System::Type* searchType, ::CsObject* resultList);
+    void GetComponentsForListInternal(System::Type* searchType, ::Il2CppObject* resultList);
     // public System.Void GetComponents(System.Type type, System.Collections.Generic.List`1<UnityEngine.Component> results)
     // Offset: 0x1302300
     void GetComponents(System::Type* type, System::Collections::Generic::List_1<UnityEngine::Component*>* results);
@@ -140,10 +140,10 @@ namespace UnityEngine {
     }
     // public System.String get_tag()
     // Offset: 0x1302358
-    ::CsString* get_tag();
+    ::Il2CppString* get_tag();
     // public System.Void set_tag(System.String value)
     // Offset: 0x130240C
-    void set_tag(::CsString* value);
+    void set_tag(::Il2CppString* value);
     // public T[] GetComponents()
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -152,7 +152,7 @@ namespace UnityEngine {
     }
     // public System.Boolean CompareTag(System.String tag)
     // Offset: 0x13024E0
-    bool CompareTag(::CsString* tag);
+    bool CompareTag(::Il2CppString* tag);
     // public System.Void .ctor()
     // Offset: 0x12FD718
     // Implemented from: UnityEngine.Object

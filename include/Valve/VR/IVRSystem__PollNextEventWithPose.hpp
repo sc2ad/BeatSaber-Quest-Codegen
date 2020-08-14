@@ -36,13 +36,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16CE4FC
-    static IVRSystem::_PollNextEventWithPose* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_PollNextEventWithPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Valve.VR.ETrackingUniverseOrigin eOrigin, Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent, Valve.VR.TrackedDevicePose_t pTrackedDevicePose)
     // Offset: 0x16CE510
     bool Invoke(Valve::VR::ETrackingUniverseOrigin eOrigin, Valve::VR::VREvent_t& pEvent, uint uncbVREvent, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackingUniverseOrigin eOrigin, Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent, Valve.VR.TrackedDevicePose_t pTrackedDevicePose, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16CE7DC
-    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eOrigin, Valve::VR::VREvent_t& pEvent, uint uncbVREvent, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eOrigin, Valve::VR::VREvent_t& pEvent, uint uncbVREvent, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(Valve.VR.VREvent_t pEvent, Valve.VR.TrackedDevicePose_t pTrackedDevicePose, System.IAsyncResult result)
     // Offset: 0x16CE8CC
     bool EndInvoke(Valve::VR::VREvent_t& pEvent, Valve::VR::TrackedDevicePose_t& pTrackedDevicePose, System::IAsyncResult* result);

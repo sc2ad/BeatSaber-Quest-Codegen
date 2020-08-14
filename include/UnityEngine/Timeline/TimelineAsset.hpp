@@ -109,12 +109,6 @@ namespace UnityEngine::Timeline {
       // Creating value type constructor for type: DurationMode
       DurationMode(int value_ = {}) : value{value_} {}
     }; // UnityEngine.Timeline.TimelineAsset/DurationMode
-    // static field const value: static private System.Int32 k_LatestVersion
-    static constexpr const int k_LatestVersion = 0;
-    // Get static field: static private System.Int32 k_LatestVersion
-    static int _get_k_LatestVersion();
-    // Set static field: static private System.Int32 k_LatestVersion
-    static void _set_k_LatestVersion(int value);
     // private System.Int32 m_Version
     // Offset: 0x18
     int m_Version;
@@ -142,6 +136,12 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.Timeline.MarkerTrack m_MarkerTrack
     // Offset: 0x58
     UnityEngine::Timeline::MarkerTrack* m_MarkerTrack;
+    // static field const value: static private System.Int32 k_LatestVersion
+    static constexpr const int k_LatestVersion = 0;
+    // Get static field: static private System.Int32 k_LatestVersion
+    static int _get_k_LatestVersion();
+    // Set static field: static private System.Int32 k_LatestVersion
+    static void _set_k_LatestVersion(int value);
     // private System.Void UpgradeToLatestVersion()
     // Offset: 0x109C2C8
     void UpgradeToLatestVersion();
@@ -222,18 +222,18 @@ namespace UnityEngine::Timeline {
     static void AddSubTracksRecursive(UnityEngine::Timeline::TrackAsset* track, System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*& allTracks);
     // public UnityEngine.Timeline.TrackAsset CreateTrack(System.Type type, UnityEngine.Timeline.TrackAsset parent, System.String name)
     // Offset: 0x109DF00
-    UnityEngine::Timeline::TrackAsset* CreateTrack(System::Type* type, UnityEngine::Timeline::TrackAsset* parent, ::CsString* name);
+    UnityEngine::Timeline::TrackAsset* CreateTrack(System::Type* type, UnityEngine::Timeline::TrackAsset* parent, ::Il2CppString* name);
     // public T CreateTrack(UnityEngine.Timeline.TrackAsset parent, System.String trackName)
     // Offset: 0xFFFFFFFF
     template<class T>
-    T CreateTrack(UnityEngine::Timeline::TrackAsset* parent, ::CsString* trackName) {
+    T CreateTrack(UnityEngine::Timeline::TrackAsset* parent, ::Il2CppString* trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, parent, trackName)));
     }
     // public T CreateTrack(System.String trackName)
     // Offset: 0xFFFFFFFF
     template<class T>
-    T CreateTrack(::CsString* trackName) {
+    T CreateTrack(::Il2CppString* trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, trackName)));
     }
@@ -255,7 +255,7 @@ namespace UnityEngine::Timeline {
     void MoveLastTrackBefore(UnityEngine::Timeline::TrackAsset* asset);
     // UnityEngine.Timeline.TrackAsset AllocateTrack(UnityEngine.Timeline.TrackAsset trackAssetParent, System.String trackName, System.Type trackType)
     // Offset: 0x109E28C
-    UnityEngine::Timeline::TrackAsset* AllocateTrack(UnityEngine::Timeline::TrackAsset* trackAssetParent, ::CsString* trackName, System::Type* trackType);
+    UnityEngine::Timeline::TrackAsset* AllocateTrack(UnityEngine::Timeline::TrackAsset* trackAssetParent, ::Il2CppString* trackName, System::Type* trackType);
     // private System.Void DeleteRecordedAnimation(UnityEngine.Timeline.TrackAsset track)
     // Offset: 0x109ECDC
     void DeleteRecordedAnimation(UnityEngine::Timeline::TrackAsset* track);

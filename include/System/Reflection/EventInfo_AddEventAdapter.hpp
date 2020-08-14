@@ -28,13 +28,13 @@ namespace System::Reflection {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x13659A4
-    static EventInfo::AddEventAdapter* New_ctor(::CsObject* object, System::IntPtr method);
+    static EventInfo::AddEventAdapter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object _this, System.Delegate dele)
     // Offset: 0x13659B8
-    void Invoke(::CsObject* _this, System::Delegate* dele);
+    void Invoke(::Il2CppObject* _this, System::Delegate* dele);
     // public System.IAsyncResult BeginInvoke(System.Object _this, System.Delegate dele, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1365DBC
-    System::IAsyncResult* BeginInvoke(::CsObject* _this, System::Delegate* dele, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppObject* _this, System::Delegate* dele, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1365DEC
     void EndInvoke(System::IAsyncResult* result);

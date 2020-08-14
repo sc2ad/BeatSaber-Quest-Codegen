@@ -137,10 +137,10 @@ namespace Zenject {
     Zenject::ConditionCopyNonLazyBinder* FromResolve();
     // public Zenject.ConditionCopyNonLazyBinder FromInstance(System.Object instance)
     // Offset: 0xF2B35C
-    Zenject::ConditionCopyNonLazyBinder* FromInstance(::CsObject* instance);
+    Zenject::ConditionCopyNonLazyBinder* FromInstance(::Il2CppObject* instance);
     // public Zenject.ConditionCopyNonLazyBinder FromResolve(System.Object subIdentifier)
     // Offset: 0xF2B280
-    Zenject::ConditionCopyNonLazyBinder* FromResolve(::CsObject* subIdentifier);
+    Zenject::ConditionCopyNonLazyBinder* FromResolve(::Il2CppObject* subIdentifier);
     // Zenject.ConcreteBinderGeneric`1<T> CreateIFactoryBinder(System.Guid factoryId)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -170,19 +170,19 @@ namespace Zenject {
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefab(UnityEngine::Object* prefab);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentInNewPrefabResource(System.String resourcePath)
     // Offset: 0xF2BBC0
-    Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefabResource(::CsString* resourcePath);
+    Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefabResource(::Il2CppString* resourcePath);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromNewComponentOnNewPrefabResource(System.String resourcePath)
     // Offset: 0xF2BD1C
-    Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefabResource(::CsString* resourcePath);
+    Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefabResource(::Il2CppString* resourcePath);
     // public Zenject.ConditionCopyNonLazyBinder FromNewScriptableObjectResource(System.String resourcePath)
     // Offset: 0xF2BE84
-    Zenject::ConditionCopyNonLazyBinder* FromNewScriptableObjectResource(::CsString* resourcePath);
+    Zenject::ConditionCopyNonLazyBinder* FromNewScriptableObjectResource(::Il2CppString* resourcePath);
     // public Zenject.ConditionCopyNonLazyBinder FromScriptableObjectResource(System.String resourcePath)
     // Offset: 0xF2BF84
-    Zenject::ConditionCopyNonLazyBinder* FromScriptableObjectResource(::CsString* resourcePath);
+    Zenject::ConditionCopyNonLazyBinder* FromScriptableObjectResource(::Il2CppString* resourcePath);
     // public Zenject.ConditionCopyNonLazyBinder FromResource(System.String resourcePath)
     // Offset: 0xF2C084
-    Zenject::ConditionCopyNonLazyBinder* FromResource(::CsString* resourcePath);
+    Zenject::ConditionCopyNonLazyBinder* FromResource(::Il2CppString* resourcePath);
     // private Zenject.IProvider <.ctor>b__0_0(Zenject.DiContainer container)
     // Offset: 0xF2C174
     Zenject::IProvider* $_ctor$b__0_0(Zenject::DiContainer* container);

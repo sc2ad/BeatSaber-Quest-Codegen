@@ -24,13 +24,13 @@ namespace System {
     public:
     // private System.String signature
     // Offset: 0xA0
-    ::CsString* signature;
+    ::Il2CppString* signature;
     // public System.Void .ctor(System.String className, System.String methodName)
     // Offset: 0x101083C
-    static MissingMethodException* New_ctor(::CsString* className, ::CsString* methodName);
+    static MissingMethodException* New_ctor(::Il2CppString* className, ::Il2CppString* methodName);
     // private System.Void .ctor(System.String className, System.String methodName, System.String signature, System.String message)
     // Offset: 0x1010888
-    static MissingMethodException* New_ctor(::CsString* className, ::CsString* methodName, ::CsString* signature, ::CsString* message);
+    static MissingMethodException* New_ctor(::Il2CppString* className, ::Il2CppString* methodName, ::Il2CppString* signature, ::Il2CppString* message);
     // public System.Void .ctor()
     // Offset: 0x101069C
     // Implemented from: System.MissingMemberException
@@ -47,7 +47,7 @@ namespace System {
     // Base method: System.Void MemberAccessException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static MissingMethodException* New_ctor(::CsString* message);
+    static MissingMethodException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x101073C
     // Implemented from: System.MissingMemberException
@@ -60,7 +60,7 @@ namespace System {
     // Offset: 0x1010740
     // Implemented from: System.MissingMemberException
     // Base method: System.String MissingMemberException::get_Message()
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
   }; // System.MissingMethodException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x151DAA0
-    static IVROverlay::_GetOverlayTextureColorSpace* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_GetOverlayTextureColorSpace* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.EColorSpace peTextureColorSpace)
     // Offset: 0x151DAB4
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::EColorSpace& peTextureColorSpace);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.EColorSpace peTextureColorSpace, System.AsyncCallback callback, System.Object object)
     // Offset: 0x151DD38
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::EColorSpace& peTextureColorSpace, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::EColorSpace& peTextureColorSpace, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(OVR.OpenVR.EColorSpace peTextureColorSpace, System.IAsyncResult result)
     // Offset: 0x151DDE8
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::EColorSpace& peTextureColorSpace, System::IAsyncResult* result);

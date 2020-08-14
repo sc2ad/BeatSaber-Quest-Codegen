@@ -59,22 +59,22 @@ namespace System {
     static AggregateException* New_ctor(::Array<System::Exception*>* innerExceptions);
     // public System.Void .ctor(System.String message, System.Collections.Generic.IEnumerable`1<System.Exception> innerExceptions)
     // Offset: 0x10B6E14
-    static AggregateException* New_ctor(::CsString* message, System::Collections::Generic::IEnumerable_1<System::Exception*>* innerExceptions);
+    static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IEnumerable_1<System::Exception*>* innerExceptions);
     // public System.Void .ctor(System.String message, System.Exception[] innerExceptions)
     // Offset: 0x10B6F34
-    static AggregateException* New_ctor(::CsString* message, ::Array<System::Exception*>* innerExceptions);
+    static AggregateException* New_ctor(::Il2CppString* message, ::Array<System::Exception*>* innerExceptions);
     // private System.Void .ctor(System.String message, System.Collections.Generic.IList`1<System.Exception> innerExceptions)
     // Offset: 0x10B6F38
-    static AggregateException* New_ctor(::CsString* message, System::Collections::Generic::IList_1<System::Exception*>* innerExceptions);
+    static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IList_1<System::Exception*>* innerExceptions);
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> innerExceptionInfos)
     // Offset: 0x10B730C
     static AggregateException* New_ctor(System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
     // System.Void .ctor(System.String message, System.Collections.Generic.IEnumerable`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> innerExceptionInfos)
     // Offset: 0x10B7378
-    static AggregateException* New_ctor(::CsString* message, System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
+    static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
     // private System.Void .ctor(System.String message, System.Collections.Generic.IList`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> innerExceptionInfos)
     // Offset: 0x10B742C
-    static AggregateException* New_ctor(::CsString* message, System::Collections::Generic::IList_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
+    static AggregateException* New_ctor(::Il2CppString* message, System::Collections::Generic::IList_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> get_InnerExceptions()
     // Offset: 0x10B7B88
     System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* get_InnerExceptions();
@@ -104,7 +104,7 @@ namespace System {
     // Offset: 0x10B7E30
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.AggregateException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

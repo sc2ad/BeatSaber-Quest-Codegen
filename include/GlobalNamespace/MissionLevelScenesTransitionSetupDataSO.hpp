@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
     // public System.Void Init(IDifficultyBeatmap difficultyBeatmap, MissionObjective[] missionObjectives, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, System.String backButtonText)
     // Offset: 0xC03504
-    void Init(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::CsString* backButtonText);
+    void Init(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::Il2CppString* backButtonText);
     // public System.Void Finish(MissionCompletionResults levelCompletionResults)
     // Offset: 0xC03AC4
     void Finish(GlobalNamespace::MissionCompletionResults* levelCompletionResults);

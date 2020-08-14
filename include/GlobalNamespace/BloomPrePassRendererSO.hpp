@@ -73,6 +73,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Rendering.CommandBuffer _commandBuffer
     // Offset: 0x40
     UnityEngine::Rendering::CommandBuffer* commandBuffer;
+    // private System.Boolean _initialized
+    // Offset: 0x48
+    bool initialized;
     // Get static field: static private readonly System.Int32 _vertexTransfromMatrixID
     static int _get__vertexTransfromMatrixID();
     // Set static field: static private readonly System.Int32 _vertexTransfromMatrixID
@@ -93,9 +96,6 @@ namespace GlobalNamespace {
     static int _get__customFogTextureToScreenRatioID();
     // Set static field: static private readonly System.Int32 _customFogTextureToScreenRatioID
     static void _set__customFogTextureToScreenRatioID(int value);
-    // private System.Boolean _initialized
-    // Offset: 0x48
-    bool initialized;
     // protected System.Void OnDisable()
     // Offset: 0x181E860
     void OnDisable();

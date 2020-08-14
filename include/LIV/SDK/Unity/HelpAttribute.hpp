@@ -15,10 +15,10 @@ namespace LIV::SDK::Unity {
     public:
     // public readonly System.String text
     // Offset: 0x10
-    ::CsString* text;
+    ::Il2CppString* text;
     // public System.Void .ctor(System.String text)
     // Offset: 0x197B69C
-    static HelpAttribute* New_ctor(::CsString* text);
+    static HelpAttribute* New_ctor(::Il2CppString* text);
   }; // LIV.SDK.Unity.HelpAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

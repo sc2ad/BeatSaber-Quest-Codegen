@@ -17,7 +17,7 @@ namespace System::Runtime::Serialization {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
@@ -26,10 +26,10 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Void GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
-    void GetObjectData(::CsObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void GetObjectData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object SetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ISurrogateSelector selector)
     // Offset: 0xFFFFFFFF
-    ::CsObject* SetObjectData(::CsObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector* selector);
+    ::Il2CppObject* SetObjectData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector* selector);
   }; // System.Runtime.Serialization.ISerializationSurrogate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

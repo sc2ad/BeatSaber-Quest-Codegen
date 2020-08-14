@@ -15,24 +15,24 @@ namespace System::ComponentModel {
     public:
     // private System.Object value
     // Offset: 0x10
-    ::CsObject* value;
+    ::Il2CppObject* value;
     // public System.Void .ctor(System.Boolean value)
     // Offset: 0xF573B8
     static DefaultValueAttribute* New_ctor(bool value);
     // public System.Void .ctor(System.String value)
     // Offset: 0xF57438
-    static DefaultValueAttribute* New_ctor(::CsString* value);
+    static DefaultValueAttribute* New_ctor(::Il2CppString* value);
     // public System.Void .ctor(System.Object value)
     // Offset: 0xF5746C
-    static DefaultValueAttribute* New_ctor(::CsObject* value);
+    static DefaultValueAttribute* New_ctor(::Il2CppObject* value);
     // public System.Object get_Value()
     // Offset: 0xF574A0
-    ::CsObject* get_Value();
+    ::Il2CppObject* get_Value();
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xF574A8
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xF575C8
     // Implemented from: System.Attribute

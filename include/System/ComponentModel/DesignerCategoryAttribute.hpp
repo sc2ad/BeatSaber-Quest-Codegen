@@ -15,7 +15,7 @@ namespace System::ComponentModel {
     public:
     // private System.String category
     // Offset: 0x10
-    ::CsString* category;
+    ::Il2CppString* category;
     // Get static field: static public readonly System.ComponentModel.DesignerCategoryAttribute Component
     static System::ComponentModel::DesignerCategoryAttribute* _get_Component();
     // Set static field: static public readonly System.ComponentModel.DesignerCategoryAttribute Component
@@ -34,7 +34,7 @@ namespace System::ComponentModel {
     static void _set_Generic(System::ComponentModel::DesignerCategoryAttribute* value);
     // public System.Void .ctor(System.String category)
     // Offset: 0xF57B94
-    static DesignerCategoryAttribute* New_ctor(::CsString* category);
+    static DesignerCategoryAttribute* New_ctor(::Il2CppString* category);
     // static private System.Void .cctor()
     // Offset: 0xF57C8C
     static void _cctor();
@@ -48,7 +48,7 @@ namespace System::ComponentModel {
     // Offset: 0xF57BC8
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xF57C6C
     // Implemented from: System.Attribute

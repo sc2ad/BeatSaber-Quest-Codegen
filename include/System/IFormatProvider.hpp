@@ -13,7 +13,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -22,7 +22,7 @@ namespace System {
     public:
     // public System.Object GetFormat(System.Type formatType)
     // Offset: 0xFFFFFFFF
-    ::CsObject* GetFormat(System::Type* formatType);
+    ::Il2CppObject* GetFormat(System::Type* formatType);
   }; // System.IFormatProvider
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

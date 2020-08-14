@@ -61,19 +61,19 @@ namespace System::Reflection {
     System::IntPtr mhandle;
     // private System.String name
     // Offset: 0x18
-    ::CsString* name;
+    ::Il2CppString* name;
     // private System.Type reftype
     // Offset: 0x20
     System::Type* reftype;
     // System.Object InternalInvoke(System.Object obj, System.Object[] parameters, System.Exception exc)
     // Offset: 0x114C904
-    ::CsObject* InternalInvoke(::CsObject* obj, ::Array<::CsObject*>* parameters, System::Exception*& exc);
+    ::Il2CppObject* InternalInvoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters, System::Exception*& exc);
     // private System.Object DoInvoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     // Offset: 0x114CA58
-    ::CsObject* DoInvoke(::CsObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::CsObject*>* parameters, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* DoInvoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public System.Object InternalInvoke(System.Object obj, System.Object[] parameters)
     // Offset: 0x114CED8
-    ::CsObject* InternalInvoke(::CsObject* obj, ::Array<::CsObject*>* parameters);
+    ::Il2CppObject* InternalInvoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters);
     // static private System.Int32 get_core_clr_security_level()
     // Offset: 0x114D558
     static int get_core_clr_security_level();
@@ -101,12 +101,12 @@ namespace System::Reflection {
     // Offset: 0x114C908
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Object MethodBase::Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
-    ::CsObject* Invoke(::CsObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::CsObject*>* parameters, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public override System.Object Invoke(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     // Offset: 0x114D0C0
     // Implemented from: System.Reflection.ConstructorInfo
     // Base method: System.Object ConstructorInfo::Invoke(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
-    ::CsObject* Invoke(System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::CsObject*>* parameters, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* Invoke(System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public override System.RuntimeMethodHandle get_MethodHandle()
     // Offset: 0x114D0D8
     // Implemented from: System.Reflection.MethodBase
@@ -141,7 +141,7 @@ namespace System::Reflection {
     // Offset: 0x114D1DC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x114D208
     // Implemented from: System.Reflection.MemberInfo
@@ -151,12 +151,12 @@ namespace System::Reflection {
     // Offset: 0x114D288
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
-    ::Array<::CsObject*>* GetCustomAttributes(bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x114D300
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::Array<::CsObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Reflection.MethodBody GetMethodBody()
     // Offset: 0x114D380
     // Implemented from: System.Reflection.MethodBase
@@ -166,7 +166,7 @@ namespace System::Reflection {
     // Offset: 0x114D38C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public override System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
     // Offset: 0x114D550
     // Implemented from: System.Reflection.MemberInfo

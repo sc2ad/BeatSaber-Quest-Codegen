@@ -52,7 +52,7 @@ namespace System::IO {
     // Offset: 0x10097F0
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String value)
-    void Write(::CsString* value);
+    void Write(::Il2CppString* value);
   }; // System.IO.UnexceptionalStreamWriter
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

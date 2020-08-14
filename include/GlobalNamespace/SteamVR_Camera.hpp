@@ -53,27 +53,27 @@ namespace GlobalNamespace {
     // static field const value: static private System.String eyeSuffix
     static constexpr const char* eyeSuffix = " (eye)";
     // Get static field: static private System.String eyeSuffix
-    static ::CsString* _get_eyeSuffix();
+    static ::Il2CppString* _get_eyeSuffix();
     // Set static field: static private System.String eyeSuffix
-    static void _set_eyeSuffix(::CsString* value);
+    static void _set_eyeSuffix(::Il2CppString* value);
     // static field const value: static private System.String earsSuffix
     static constexpr const char* earsSuffix = " (ears)";
     // Get static field: static private System.String earsSuffix
-    static ::CsString* _get_earsSuffix();
+    static ::Il2CppString* _get_earsSuffix();
     // Set static field: static private System.String earsSuffix
-    static void _set_earsSuffix(::CsString* value);
+    static void _set_earsSuffix(::Il2CppString* value);
     // static field const value: static private System.String headSuffix
     static constexpr const char* headSuffix = " (head)";
     // Get static field: static private System.String headSuffix
-    static ::CsString* _get_headSuffix();
+    static ::Il2CppString* _get_headSuffix();
     // Set static field: static private System.String headSuffix
-    static void _set_headSuffix(::CsString* value);
+    static void _set_headSuffix(::Il2CppString* value);
     // static field const value: static private System.String originSuffix
     static constexpr const char* originSuffix = " (origin)";
     // Get static field: static private System.String originSuffix
-    static ::CsString* _get_originSuffix();
+    static ::Il2CppString* _get_originSuffix();
     // Set static field: static private System.String originSuffix
-    static void _set_originSuffix(::CsString* value);
+    static void _set_originSuffix(::Il2CppString* value);
     // public UnityEngine.Transform get_head()
     // Offset: 0xD7AF30
     UnityEngine::Transform* get_head();
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     void ForceLast();
     // public System.String get_baseName()
     // Offset: 0xD7C2C8
-    ::CsString* get_baseName();
+    ::Il2CppString* get_baseName();
     // public System.Void Expand()
     // Offset: 0xD7B448
     void Expand();

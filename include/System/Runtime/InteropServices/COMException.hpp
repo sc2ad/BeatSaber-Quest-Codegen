@@ -41,7 +41,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x116265C
     // Implemented from: System.Runtime.InteropServices.ExternalException
     // Base method: System.String ExternalException::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.Runtime.InteropServices.COMException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

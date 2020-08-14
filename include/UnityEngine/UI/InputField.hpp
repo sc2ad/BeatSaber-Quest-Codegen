@@ -285,10 +285,6 @@ namespace UnityEngine::UI {
     // protected UnityEngine.TouchScreenKeyboard m_Keyboard
     // Offset: 0xF0
     UnityEngine::TouchScreenKeyboard* m_Keyboard;
-    // Get static field: static private readonly System.Char[] kSeparators
-    static ::Array<::Il2CppChar>* _get_kSeparators();
-    // Set static field: static private readonly System.Char[] kSeparators
-    static void _set_kSeparators(::Array<::Il2CppChar>* value);
     // protected UnityEngine.UI.Text m_TextComponent
     // Offset: 0xF8
     UnityEngine::UI::Text* m_TextComponent;
@@ -339,7 +335,7 @@ namespace UnityEngine::UI {
     UnityEngine::Color m_SelectionColor;
     // protected System.String m_Text
     // Offset: 0x168
-    ::CsString* m_Text;
+    ::Il2CppString* m_Text;
     // private System.Single m_CaretBlinkRate
     // Offset: 0x170
     float m_CaretBlinkRate;
@@ -385,18 +381,6 @@ namespace UnityEngine::UI {
     // private System.Boolean m_DragPositionOutOfBounds
     // Offset: 0x1BB
     bool m_DragPositionOutOfBounds;
-    // static field const value: static private System.Single kHScrollSpeed
-    static constexpr const float kHScrollSpeed = 0.05;
-    // Get static field: static private System.Single kHScrollSpeed
-    static float _get_kHScrollSpeed();
-    // Set static field: static private System.Single kHScrollSpeed
-    static void _set_kHScrollSpeed(float value);
-    // static field const value: static private System.Single kVScrollSpeed
-    static constexpr const float kVScrollSpeed = 0.1;
-    // Get static field: static private System.Single kVScrollSpeed
-    static float _get_kVScrollSpeed();
-    // Set static field: static private System.Single kVScrollSpeed
-    static void _set_kVScrollSpeed(float value);
     // protected System.Boolean m_CaretVisible
     // Offset: 0x1BC
     bool m_CaretVisible;
@@ -417,7 +401,7 @@ namespace UnityEngine::UI {
     UnityEngine::Coroutine* m_DragCoroutine;
     // private System.String m_OriginalText
     // Offset: 0x1E0
-    ::CsString* m_OriginalText;
+    ::Il2CppString* m_OriginalText;
     // private System.Boolean m_WasCanceled
     // Offset: 0x1E8
     bool m_WasCanceled;
@@ -430,15 +414,31 @@ namespace UnityEngine::UI {
     // private System.Boolean m_TouchKeyboardAllowsInPlaceEditing
     // Offset: 0x1F8
     bool m_TouchKeyboardAllowsInPlaceEditing;
-    // static field const value: static private System.String kEmailSpecialCharacters
-    static constexpr const char* kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
-    // Get static field: static private System.String kEmailSpecialCharacters
-    static ::CsString* _get_kEmailSpecialCharacters();
-    // Set static field: static private System.String kEmailSpecialCharacters
-    static void _set_kEmailSpecialCharacters(::CsString* value);
     // private UnityEngine.Event m_ProcessingEvent
     // Offset: 0x200
     UnityEngine::Event* m_ProcessingEvent;
+    // Get static field: static private readonly System.Char[] kSeparators
+    static ::Array<::Il2CppChar>* _get_kSeparators();
+    // Set static field: static private readonly System.Char[] kSeparators
+    static void _set_kSeparators(::Array<::Il2CppChar>* value);
+    // static field const value: static private System.Single kHScrollSpeed
+    static constexpr const float kHScrollSpeed = 0.05;
+    // Get static field: static private System.Single kHScrollSpeed
+    static float _get_kHScrollSpeed();
+    // Set static field: static private System.Single kHScrollSpeed
+    static void _set_kHScrollSpeed(float value);
+    // static field const value: static private System.Single kVScrollSpeed
+    static constexpr const float kVScrollSpeed = 0.1;
+    // Get static field: static private System.Single kVScrollSpeed
+    static float _get_kVScrollSpeed();
+    // Set static field: static private System.Single kVScrollSpeed
+    static void _set_kVScrollSpeed(float value);
+    // static field const value: static private System.String kEmailSpecialCharacters
+    static constexpr const char* kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
+    // Get static field: static private System.String kEmailSpecialCharacters
+    static ::Il2CppString* _get_kEmailSpecialCharacters();
+    // Set static field: static private System.String kEmailSpecialCharacters
+    static void _set_kEmailSpecialCharacters(::Il2CppString* value);
     // static field const value: static private System.Int32 k_MaxTextLength
     static constexpr const int k_MaxTextLength = 16382;
     // Get static field: static private System.Int32 k_MaxTextLength
@@ -450,7 +450,7 @@ namespace UnityEngine::UI {
     UnityEngine::EventSystems::BaseInput* get_input();
     // private System.String get_compositionString()
     // Offset: 0x11720A8
-    ::CsString* get_compositionString();
+    ::Il2CppString* get_compositionString();
     // protected UnityEngine.Mesh get_mesh()
     // Offset: 0x11723BC
     UnityEngine::Mesh* get_mesh();
@@ -468,16 +468,16 @@ namespace UnityEngine::UI {
     bool get_shouldActivateOnSelect();
     // public System.String get_text()
     // Offset: 0x11725B8
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x11725C0
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // public System.Void SetTextWithoutNotify(System.String input)
     // Offset: 0x11728B4
-    void SetTextWithoutNotify(::CsString* input);
+    void SetTextWithoutNotify(::Il2CppString* input);
     // private System.Void SetText(System.String value, System.Boolean sendCallback)
     // Offset: 0x11725C8
-    void SetText(::CsString* value, bool sendCallback);
+    void SetText(::Il2CppString* value, bool sendCallback);
     // public System.Boolean get_isFocused()
     // Offset: 0x1172DC0
     bool get_isFocused();
@@ -663,10 +663,10 @@ namespace UnityEngine::UI {
     void MoveTextStart(bool shift);
     // static private System.String get_clipboard()
     // Offset: 0x11746EC
-    static ::CsString* get_clipboard();
+    static ::Il2CppString* get_clipboard();
     // static private System.Void set_clipboard(System.String value)
     // Offset: 0x11746F4
-    static void set_clipboard(::CsString* value);
+    static void set_clipboard(::Il2CppString* value);
     // private System.Boolean InPlaceEditing()
     // Offset: 0x11746FC
     bool InPlaceEditing();
@@ -702,7 +702,7 @@ namespace UnityEngine::UI {
     void ProcessEvent(UnityEngine::Event* e);
     // private System.String GetSelectedString()
     // Offset: 0x1177190
-    ::CsString* GetSelectedString();
+    ::Il2CppString* GetSelectedString();
     // private System.Int32 FindtNextWordBegin()
     // Offset: 0x1177940
     int FindtNextWordBegin();
@@ -762,7 +762,7 @@ namespace UnityEngine::UI {
     void SendOnSubmit();
     // protected System.Void Append(System.String input)
     // Offset: 0x11786DC
-    void Append(::CsString* input);
+    void Append(::Il2CppString* input);
     // protected System.Void Append(System.Char input)
     // Offset: 0x117879C
     void Append(::Il2CppChar input);
@@ -807,7 +807,7 @@ namespace UnityEngine::UI {
     void GenerateHighlight(UnityEngine::UI::VertexHelper* vbo, UnityEngine::Vector2 roundingOffset);
     // protected System.Char Validate(System.String text, System.Int32 pos, System.Char ch)
     // Offset: 0x11755A0
-    ::Il2CppChar Validate(::CsString* text, int pos, ::Il2CppChar ch);
+    ::Il2CppChar Validate(::Il2CppString* text, int pos, ::Il2CppChar ch);
     // public System.Void ActivateInputField()
     // Offset: 0x117AF38
     void ActivateInputField();

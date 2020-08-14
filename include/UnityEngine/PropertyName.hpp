@@ -10,8 +10,8 @@
 #include "System/IEquatable_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -25,7 +25,7 @@ namespace UnityEngine {
     PropertyName(int id_ = {}) : id{id_} {}
     // public System.Void .ctor(System.String name)
     // Offset: 0xA454B4
-    static PropertyName* New_ctor(::CsString* name);
+    static PropertyName* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(UnityEngine.PropertyName other)
     // Offset: 0xA45514
     static PropertyName* New_ctor(UnityEngine::PropertyName other);
@@ -38,7 +38,7 @@ namespace UnityEngine {
     // Offset: 0xA45524
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.PropertyName other)
     // Offset: 0xA4552C
     // Implemented from: System.IEquatable`1
@@ -48,7 +48,7 @@ namespace UnityEngine {
     // Offset: 0xA4553C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.PropertyName
   // static public System.Boolean op_Equality(UnityEngine.PropertyName lhs, UnityEngine.PropertyName rhs)
   // Offset: 0x14158DC

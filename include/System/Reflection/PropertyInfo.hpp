@@ -82,16 +82,16 @@ namespace System::Reflection {
     System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
     // public System.Object GetValue(System.Object obj, System.Object[] index)
     // Offset: 0x1151964
-    ::CsObject* GetValue(::CsObject* obj, ::Array<::CsObject*>* index);
+    ::Il2CppObject* GetValue(::Il2CppObject* obj, ::Array<::Il2CppObject*>* index);
     // public System.Object GetValue(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    ::CsObject* GetValue(::CsObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::CsObject*>* index, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* GetValue(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* index, System::Globalization::CultureInfo* culture);
     // public System.Void SetValue(System.Object obj, System.Object value, System.Object[] index)
     // Offset: 0x1151984
-    void SetValue(::CsObject* obj, ::CsObject* value, ::Array<::CsObject*>* index);
+    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, ::Array<::Il2CppObject*>* index);
     // public System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    void SetValue(::CsObject* obj, ::CsObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::CsObject*>* index, System::Globalization::CultureInfo* culture);
+    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* index, System::Globalization::CultureInfo* culture);
     // public System.Type[] GetOptionalCustomModifiers()
     // Offset: 0x11519A4
     ::Array<System::Type*>* GetOptionalCustomModifiers();
@@ -103,10 +103,10 @@ namespace System::Reflection {
     static System::NotImplementedException* CreateNIE();
     // public System.Object GetConstantValue()
     // Offset: 0x1151AD0
-    ::CsObject* GetConstantValue();
+    ::Il2CppObject* GetConstantValue();
     // public System.Object GetRawConstantValue()
     // Offset: 0x1151B14
-    ::CsObject* GetRawConstantValue();
+    ::Il2CppObject* GetRawConstantValue();
     // static private System.Reflection.PropertyInfo internal_from_handle_type(System.IntPtr event_handle, System.IntPtr type_handle)
     // Offset: 0x1151C14
     static System::Reflection::PropertyInfo* internal_from_handle_type(System::IntPtr event_handle, System::IntPtr type_handle);
@@ -128,7 +128,7 @@ namespace System::Reflection {
     // Offset: 0x1151B58
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x1151B64
     // Implemented from: System.Reflection.MemberInfo

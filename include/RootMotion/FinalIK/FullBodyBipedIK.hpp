@@ -55,10 +55,10 @@ namespace RootMotion::FinalIK {
     void SetReferences(RootMotion::BipedReferences* references, UnityEngine::Transform* rootNode);
     // public System.Boolean ReferencesError(System.String errorMessage)
     // Offset: 0x136A780
-    bool ReferencesError(::CsString*& errorMessage);
+    bool ReferencesError(::Il2CppString*& errorMessage);
     // public System.Boolean ReferencesWarning(System.String warningMessage)
     // Offset: 0x136A948
-    bool ReferencesWarning(::CsString*& warningMessage);
+    bool ReferencesWarning(::Il2CppString*& warningMessage);
     // private System.Void Reinitiate()
     // Offset: 0x136ACA8
     void Reinitiate();

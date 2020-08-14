@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1517CF4
-    static IVROverlay::_CreateOverlay* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_CreateOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.String pchOverlayKey, System.String pchOverlayName, System.UInt64 pOverlayHandle)
     // Offset: 0x1517D08
-    OVR::OpenVR::EVROverlayError Invoke(::CsString* pchOverlayKey, ::CsString* pchOverlayName, uint64_t& pOverlayHandle);
+    OVR::OpenVR::EVROverlayError Invoke(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayName, uint64_t& pOverlayHandle);
     // public System.IAsyncResult BeginInvoke(System.String pchOverlayKey, System.String pchOverlayName, System.UInt64 pOverlayHandle, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1518138
-    System::IAsyncResult* BeginInvoke(::CsString* pchOverlayKey, ::CsString* pchOverlayName, uint64_t& pOverlayHandle, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayName, uint64_t& pOverlayHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.UInt64 pOverlayHandle, System.IAsyncResult result)
     // Offset: 0x15181E0
     OVR::OpenVR::EVROverlayError EndInvoke(uint64_t& pOverlayHandle, System::IAsyncResult* result);

@@ -176,10 +176,10 @@ namespace UnityEngine {
     void SetSiblingIndex(int index);
     // static private UnityEngine.Transform FindRelativeTransformWithPath(UnityEngine.Transform transform, System.String path, System.Boolean isActiveOnly)
     // Offset: 0x1391768
-    static UnityEngine::Transform* FindRelativeTransformWithPath(UnityEngine::Transform* transform, ::CsString* path, bool isActiveOnly);
+    static UnityEngine::Transform* FindRelativeTransformWithPath(UnityEngine::Transform* transform, ::Il2CppString* path, bool isActiveOnly);
     // public UnityEngine.Transform Find(System.String n)
     // Offset: 0x13917C0
-    UnityEngine::Transform* Find(::CsString* n);
+    UnityEngine::Transform* Find(::Il2CppString* n);
     // public UnityEngine.Vector3 get_lossyScale()
     // Offset: 0x1391878
     UnityEngine::Vector3 get_lossyScale();

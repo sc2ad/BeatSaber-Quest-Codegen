@@ -11,7 +11,7 @@
 #include "System/IEquatable_1.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
@@ -36,7 +36,7 @@ namespace UnityEngine::XR {
     // Offset: 0xA5B318
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.InputDevice other)
     // Offset: 0xA5B320
     // Implemented from: System.IEquatable`1

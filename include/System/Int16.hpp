@@ -64,24 +64,24 @@ namespace System {
     Int16(int16_t m_value_ = {}) : m_value{m_value_} {}
     // private System.String ToString(System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0xA3B958
-    ::CsString* ToString(::CsString* format, System::Globalization::NumberFormatInfo* info);
+    ::Il2CppString* ToString(::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
     // static public System.Int16 Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0x100B588
-    static int16_t Parse(::CsString* s, System::IFormatProvider* provider);
+    static int16_t Parse(::Il2CppString* s, System::IFormatProvider* provider);
     // static public System.Int16 Parse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider)
     // Offset: 0x100B73C
-    static int16_t Parse(::CsString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
+    static int16_t Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
     // static private System.Int16 Parse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info)
     // Offset: 0x100B5BC
-    static int16_t Parse(::CsString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
+    static int16_t Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
     // public System.Int32 CompareTo(System.Object value)
     // Offset: 0xA3B884
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
-    int CompareTo(::CsObject* value);
+    int CompareTo(::Il2CppObject* value);
     // Creating proxy method: System_IComparable_CompareTo
     // Maps to method: CompareTo
-    int System_IComparable_CompareTo(::CsObject* value);
+    int System_IComparable_CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.Int16 value)
     // Offset: 0xA3B88C
     // Implemented from: System.IComparable`1
@@ -91,7 +91,7 @@ namespace System {
     // Offset: 0xA3B898
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.Int16 obj)
     // Offset: 0xA3B8A0
     // Implemented from: System.IEquatable`1
@@ -106,17 +106,17 @@ namespace System {
     // Offset: 0xA3B8BC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0xA3B8EC
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
-    ::CsString* ToString(System::IFormatProvider* provider);
+    ::Il2CppString* ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0xA3B920
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
-    ::CsString* ToString(::CsString* format, System::IFormatProvider* provider);
+    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
     // Offset: 0xA3B960
     // Implemented from: System.IConvertible
@@ -196,7 +196,7 @@ namespace System {
     // Offset: 0xA3B9DC
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
-    ::CsObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
+    ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Int16
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

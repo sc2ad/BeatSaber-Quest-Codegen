@@ -28,7 +28,7 @@ namespace OnlineServices {
     int $$1__state;
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]> <>t__builder
     // Offset: 0x8
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Array<::CsString*>*> $$t__builder;
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Array<::Il2CppString*>*> $$t__builder;
     // public System.Threading.CancellationToken cancellationToken
     // Offset: 0x20
     System::Threading::CancellationToken cancellationToken;
@@ -37,12 +37,12 @@ namespace OnlineServices {
     OnlineServices::PlatformUserNamesLoader* $$4__this;
     // public System.String[] userPlatfromIds
     // Offset: 0x30
-    ::Array<::CsString*>* userPlatfromIds;
+    ::Array<::Il2CppString*>* userPlatfromIds;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]> <>u__1
     // Offset: 0x38
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::CsString*>*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1;
     // Creating value type constructor for type: $GetUserNamesForUserIds$d__2
-    $GetUserNamesForUserIds$d__2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Array<::CsString*>*> $$t__builder_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, OnlineServices::PlatformUserNamesLoader* $$4__this_ = {}, ::Array<::CsString*>* userPlatfromIds_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::CsString*>*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, userPlatfromIds{userPlatfromIds_}, $$u__1{$$u__1_} {}
+    $GetUserNamesForUserIds$d__2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Array<::Il2CppString*>*> $$t__builder_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, OnlineServices::PlatformUserNamesLoader* $$4__this_ = {}, ::Array<::Il2CppString*>* userPlatfromIds_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, userPlatfromIds{userPlatfromIds_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2766C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

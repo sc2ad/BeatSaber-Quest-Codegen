@@ -53,7 +53,7 @@ namespace NUnit::Framework::Internal::Commands {
     NUnit::Framework::Interfaces::ITypeInfo* typeInfo;
     // private readonly System.Object[] _arguments
     // Offset: 0x28
-    ::Array<::CsObject*>* arguments;
+    ::Array<::Il2CppObject*>* arguments;
     // private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDown
     // Offset: 0x30
     System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown;

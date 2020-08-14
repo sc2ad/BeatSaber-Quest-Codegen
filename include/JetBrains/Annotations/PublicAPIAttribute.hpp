@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <Comment>k__BackingField
     // Offset: 0x10
-    ::CsString* Comment;
+    ::Il2CppString* Comment;
     // public System.Void .ctor(System.String comment)
     // Offset: 0x1958140
-    static PublicAPIAttribute* New_ctor(::CsString* comment);
+    static PublicAPIAttribute* New_ctor(::Il2CppString* comment);
     // public System.String get_Comment()
     // Offset: 0x1958174
-    ::CsString* get_Comment();
+    ::Il2CppString* get_Comment();
     // private System.Void set_Comment(System.String value)
     // Offset: 0x195817C
-    void set_Comment(::CsString* value);
+    void set_Comment(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1958138
     // Implemented from: System.Attribute

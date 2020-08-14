@@ -20,24 +20,24 @@ namespace System::IO {
     System::IO::WatcherChangeTypes changeType;
     // private System.String name
     // Offset: 0x8
-    ::CsString* name;
+    ::Il2CppString* name;
     // private System.String oldName
     // Offset: 0x10
-    ::CsString* oldName;
+    ::Il2CppString* oldName;
     // private System.Boolean timedOut
     // Offset: 0x18
     bool timedOut;
     // Creating value type constructor for type: WaitForChangedResult
-    WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::CsString* name_ = {}, ::CsString* oldName_ = {}, bool timedOut_ = {}) : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
+    WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* oldName_ = {}, bool timedOut_ = {}) : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
     // Offset: 0xA3857C
     void set_ChangeType(System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
     // Offset: 0xA38584
-    void set_Name(::CsString* value);
+    void set_Name(::Il2CppString* value);
     // public System.Void set_OldName(System.String value)
     // Offset: 0xA3858C
-    void set_OldName(::CsString* value);
+    void set_OldName(::Il2CppString* value);
   }; // System.IO.WaitForChangedResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

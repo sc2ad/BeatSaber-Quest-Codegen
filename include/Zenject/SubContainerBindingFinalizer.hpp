@@ -48,7 +48,7 @@ namespace Zenject {
     class $$c__DisplayClass6_1;
     // private readonly System.Object _subIdentifier
     // Offset: 0x18
-    ::CsObject* subIdentifier;
+    ::Il2CppObject* subIdentifier;
     // private readonly System.Boolean _resolveAll
     // Offset: 0x20
     bool resolveAll;
@@ -57,7 +57,7 @@ namespace Zenject {
     System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Object subIdentifier, System.Boolean resolveAll, System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> creatorFactory)
     // Offset: 0xFC9FAC
-    static SubContainerBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, ::CsObject* subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory);
+    static SubContainerBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, ::Il2CppObject* subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory);
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
     // Offset: 0xFCC084
     void FinalizeBindingConcrete(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes);

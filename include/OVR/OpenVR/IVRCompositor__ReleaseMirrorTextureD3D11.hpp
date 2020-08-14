@@ -27,13 +27,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x150CEC4
-    static IVRCompositor::_ReleaseMirrorTextureD3D11* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_ReleaseMirrorTextureD3D11* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr pD3D11ShaderResourceView)
     // Offset: 0x150CED8
     void Invoke(System::IntPtr pD3D11ShaderResourceView);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pD3D11ShaderResourceView, System.AsyncCallback callback, System.Object object)
     // Offset: 0x150D138
-    System::IAsyncResult* BeginInvoke(System::IntPtr pD3D11ShaderResourceView, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::IntPtr pD3D11ShaderResourceView, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x150D1C4
     void EndInvoke(System::IAsyncResult* result);

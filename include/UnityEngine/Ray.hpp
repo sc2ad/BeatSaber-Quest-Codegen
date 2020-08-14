@@ -45,7 +45,7 @@ namespace UnityEngine {
     // Offset: 0xA45620
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.Ray
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

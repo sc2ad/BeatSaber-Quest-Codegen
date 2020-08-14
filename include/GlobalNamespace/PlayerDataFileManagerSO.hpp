@@ -62,21 +62,21 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kPlayerDataFileName
     static constexpr const char* kPlayerDataFileName = "PlayerData.dat";
     // Get static field: static private System.String kPlayerDataFileName
-    static ::CsString* _get_kPlayerDataFileName();
+    static ::Il2CppString* _get_kPlayerDataFileName();
     // Set static field: static private System.String kPlayerDataFileName
-    static void _set_kPlayerDataFileName(::CsString* value);
+    static void _set_kPlayerDataFileName(::Il2CppString* value);
     // static field const value: static private System.String kTempFileName
     static constexpr const char* kTempFileName = "PlayerData.dat.tmp";
     // Get static field: static private System.String kTempFileName
-    static ::CsString* _get_kTempFileName();
+    static ::Il2CppString* _get_kTempFileName();
     // Set static field: static private System.String kTempFileName
-    static void _set_kTempFileName(::CsString* value);
+    static void _set_kTempFileName(::Il2CppString* value);
     // static field const value: static private System.String kBackupFileName
     static constexpr const char* kBackupFileName = "PlayerData.dat.bak";
     // Get static field: static private System.String kBackupFileName
-    static ::CsString* _get_kBackupFileName();
+    static ::Il2CppString* _get_kBackupFileName();
     // Set static field: static private System.String kBackupFileName
-    static void _set_kBackupFileName(::CsString* value);
+    static void _set_kBackupFileName(::Il2CppString* value);
     // public System.Void Save(PlayerData playerData)
     // Offset: 0xBD8B30
     void Save(GlobalNamespace::PlayerData* playerData);
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerData* Load();
     // private PlayerData LoadFromJSONString(System.String jsonString)
     // Offset: 0xBD9BB0
-    GlobalNamespace::PlayerData* LoadFromJSONString(::CsString* jsonString);
+    GlobalNamespace::PlayerData* LoadFromJSONString(::Il2CppString* jsonString);
     // private PlayerData LoadFromCurrentVersion(PlayerSaveData playerSaveData)
     // Offset: 0xBDA420
     GlobalNamespace::PlayerData* LoadFromCurrentVersion(GlobalNamespace::PlayerSaveData* playerSaveData);
@@ -97,10 +97,10 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerData* CreateDefaultPlayerData();
     // static public System.String GetLevelIdFromV_1_0_1LevelId(System.String oldLevelId, BeatmapCharacteristicSO beatmapCharacteristic)
     // Offset: 0xBDB2E0
-    static ::CsString* GetLevelIdFromV_1_0_1LevelId(::CsString* oldLevelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+    static ::Il2CppString* GetLevelIdFromV_1_0_1LevelId(::Il2CppString* oldLevelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // static public BeatmapCharacteristicSO GetBeatmapCharacteristicFromV_1_0_1LevelId(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.String levelId)
     // Offset: 0xBDB1B8
-    static GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::CsString* levelId);
+    static GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::Il2CppString* levelId);
     // private OverrideEnvironmentSettings CreateDefaultOverrideEnvironmentSettings()
     // Offset: 0xBDB34C
     GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();

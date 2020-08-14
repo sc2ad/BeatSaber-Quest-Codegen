@@ -26,7 +26,7 @@ namespace UnityEngine {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
@@ -40,7 +40,7 @@ namespace UnityEngine::Animations {
     AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.Animator target)
     // Offset: 0x193671C
-    static UnityEngine::Animations::AnimationPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::CsString* name, UnityEngine::Animator* target);
+    static UnityEngine::Animations::AnimationPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::Animator* target);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0xA5A07C
     static AnimationPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);

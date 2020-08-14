@@ -39,6 +39,12 @@ namespace HMUI {
     // private HMUI.HoverHintPanel _hoverHintPanelPrefab
     // Offset: 0x18
     HMUI::HoverHintPanel* hoverHintPanelPrefab;
+    // private HMUI.HoverHintPanel _hoverHintPanel
+    // Offset: 0x20
+    HMUI::HoverHintPanel* hoverHintPanel;
+    // private System.Boolean _isHiding
+    // Offset: 0x28
+    bool isHiding;
     // static field const value: static private System.Single kShowHintDelay
     static constexpr const float kShowHintDelay = 0.6;
     // Get static field: static private System.Single kShowHintDelay
@@ -51,12 +57,6 @@ namespace HMUI {
     static float _get_kHideHintDelay();
     // Set static field: static private System.Single kHideHintDelay
     static void _set_kHideHintDelay(float value);
-    // private HMUI.HoverHintPanel _hoverHintPanel
-    // Offset: 0x20
-    HMUI::HoverHintPanel* hoverHintPanel;
-    // private System.Boolean _isHiding
-    // Offset: 0x28
-    bool isHiding;
     // protected System.Void Awake()
     // Offset: 0xEDE614
     void Awake();

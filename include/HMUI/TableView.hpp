@@ -146,7 +146,7 @@ namespace HMUI {
     System::Collections::Generic::List_1<HMUI::TableCell*>* visibleCells;
     // private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HMUI.TableCell>> _reusableCells
     // Offset: 0x80
-    System::Collections::Generic::Dictionary_2<::CsString*, System::Collections::Generic::List_1<HMUI::TableCell*>*>* reusableCells;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HMUI::TableCell*>*>* reusableCells;
     // private System.Collections.Generic.HashSet`1<System.Int32> _selectedCellIdxs
     // Offset: 0x88
     System::Collections::Generic::HashSet_1<int>* selectedCellIdxs;
@@ -263,7 +263,7 @@ namespace HMUI {
     void DeleteCells(int idx, int count);
     // public HMUI.TableCell DequeueReusableCellForIdentifier(System.String identifier)
     // Offset: 0x10E37E4
-    HMUI::TableCell* DequeueReusableCellForIdentifier(::CsString* identifier);
+    HMUI::TableCell* DequeueReusableCellForIdentifier(::Il2CppString* identifier);
     // public System.Void SelectCellWithIdx(System.Int32 idx, System.Boolean callbackTable)
     // Offset: 0x10E3898
     void SelectCellWithIdx(int idx, bool callbackTable);

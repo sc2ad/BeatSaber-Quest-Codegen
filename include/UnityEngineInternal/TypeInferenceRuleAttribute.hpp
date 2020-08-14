@@ -22,18 +22,18 @@ namespace UnityEngineInternal {
     public:
     // private readonly System.String _rule
     // Offset: 0x10
-    ::CsString* rule;
+    ::Il2CppString* rule;
     // public System.Void .ctor(UnityEngineInternal.TypeInferenceRules rule)
     // Offset: 0x1397274
     static TypeInferenceRuleAttribute* New_ctor(UnityEngineInternal::TypeInferenceRules rule);
     // public System.Void .ctor(System.String rule)
     // Offset: 0x139731C
-    static TypeInferenceRuleAttribute* New_ctor(::CsString* rule);
+    static TypeInferenceRuleAttribute* New_ctor(::Il2CppString* rule);
     // public override System.String ToString()
     // Offset: 0x1397350
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngineInternal.TypeInferenceRuleAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

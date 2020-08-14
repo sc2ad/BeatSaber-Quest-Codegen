@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     public:
     // private System.String _environmentName
     // Offset: 0x18
-    ::CsString* environmentName;
+    ::Il2CppString* environmentName;
     // private ColorSchemeSO _colorScheme
     // Offset: 0x20
     GlobalNamespace::ColorSchemeSO* colorScheme;
@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* sceneInfo;
     // private System.String _serializedName
     // Offset: 0x30
-    ::CsString* serializedName;
+    ::Il2CppString* serializedName;
     // private EnvironmentTypeSO _environmentType
     // Offset: 0x38
     GlobalNamespace::EnvironmentTypeSO* environmentType;
@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
     // Offset: 0xBE7838
-    ::CsString* get_environmentName();
+    ::Il2CppString* get_environmentName();
     // public ColorSchemeSO get_colorScheme()
     // Offset: 0xBE7840
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
     // Offset: 0xBE7848
-    ::CsString* get_serializedName();
+    ::Il2CppString* get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
     // Offset: 0xBE7850
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();

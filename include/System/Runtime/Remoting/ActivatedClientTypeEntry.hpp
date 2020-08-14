@@ -27,16 +27,16 @@ namespace System::Runtime::Remoting {
     public:
     // private System.String applicationUrl
     // Offset: 0x20
-    ::CsString* applicationUrl;
+    ::Il2CppString* applicationUrl;
     // private System.Type obj_type
     // Offset: 0x28
     System::Type* obj_type;
     // public System.Void .ctor(System.String typeName, System.String assemblyName, System.String appUrl)
     // Offset: 0x104BEA4
-    static ActivatedClientTypeEntry* New_ctor(::CsString* typeName, ::CsString* assemblyName, ::CsString* appUrl);
+    static ActivatedClientTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, ::Il2CppString* appUrl);
     // public System.String get_ApplicationUrl()
     // Offset: 0x104C010
-    ::CsString* get_ApplicationUrl();
+    ::Il2CppString* get_ApplicationUrl();
     // public System.Runtime.Remoting.Contexts.IContextAttribute[] get_ContextAttributes()
     // Offset: 0x104C018
     ::Array<System::Runtime::Remoting::Contexts::IContextAttribute*>* get_ContextAttributes();
@@ -47,7 +47,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x104C028
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.Runtime.Remoting.ActivatedClientTypeEntry
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

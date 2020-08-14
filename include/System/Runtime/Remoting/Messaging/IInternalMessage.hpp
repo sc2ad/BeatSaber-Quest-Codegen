@@ -13,7 +13,7 @@ namespace System::Runtime::Remoting {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
@@ -28,10 +28,10 @@ namespace System::Runtime::Remoting::Messaging {
     void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(System::Runtime::Remoting::Identity* value);
     // public System.String get_Uri()
     // Offset: 0xFFFFFFFF
-    ::CsString* System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri();
+    ::Il2CppString* System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri();
     // public System.Void set_Uri(System.String value)
     // Offset: 0xFFFFFFFF
-    void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::CsString* value);
+    void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::Il2CppString* value);
   }; // System.Runtime.Remoting.Messaging.IInternalMessage
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

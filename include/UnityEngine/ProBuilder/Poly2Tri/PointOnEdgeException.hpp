@@ -31,7 +31,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* C;
     // public System.Void .ctor(System.String message, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint c)
     // Offset: 0x192603C
-    static PointOnEdgeException* New_ctor(::CsString* message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
+    static PointOnEdgeException* New_ctor(::Il2CppString* message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
   }; // UnityEngine.ProBuilder.Poly2Tri.PointOnEdgeException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE4E48
-    static IVRChaperone::_SetSceneColor* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperone::_SetSceneColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.HmdColor_t color)
     // Offset: 0xFDD630
     void Invoke(Valve::VR::HmdColor_t color);
     // public System.IAsyncResult BeginInvoke(Valve.VR.HmdColor_t color, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE4E5C
-    System::IAsyncResult* BeginInvoke(Valve::VR::HmdColor_t color, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::HmdColor_t color, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFE4EEC
     void EndInvoke(System::IAsyncResult* result);

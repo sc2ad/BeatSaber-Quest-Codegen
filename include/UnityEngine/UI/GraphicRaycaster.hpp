@@ -89,12 +89,6 @@ namespace UnityEngine::UI {
       // Creating value type constructor for type: BlockingObjects
       BlockingObjects(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.GraphicRaycaster/BlockingObjects
-    // static field const value: static protected System.Int32 kNoEventMaskSet
-    static constexpr const int kNoEventMaskSet = -1;
-    // Get static field: static protected System.Int32 kNoEventMaskSet
-    static int _get_kNoEventMaskSet();
-    // Set static field: static protected System.Int32 kNoEventMaskSet
-    static void _set_kNoEventMaskSet(int value);
     // private System.Boolean m_IgnoreReversedGraphics
     // Offset: 0x20
     bool m_IgnoreReversedGraphics;
@@ -110,6 +104,12 @@ namespace UnityEngine::UI {
     // private System.Collections.Generic.List`1<UnityEngine.UI.Graphic> m_RaycastResults
     // Offset: 0x38
     System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* m_RaycastResults;
+    // static field const value: static protected System.Int32 kNoEventMaskSet
+    static constexpr const int kNoEventMaskSet = -1;
+    // Get static field: static protected System.Int32 kNoEventMaskSet
+    static int _get_kNoEventMaskSet();
+    // Set static field: static protected System.Int32 kNoEventMaskSet
+    static void _set_kNoEventMaskSet(int value);
     // Get static field: static private readonly System.Collections.Generic.List`1<UnityEngine.UI.Graphic> s_SortedGraphics
     static System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* _get_s_SortedGraphics();
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.UI.Graphic> s_SortedGraphics

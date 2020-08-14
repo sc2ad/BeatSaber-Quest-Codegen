@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <Format>k__BackingField
     // Offset: 0x10
-    ::CsString* Format;
+    ::Il2CppString* Format;
     // public System.Void .ctor(System.String format)
     // Offset: 0x1957BA0
-    static AspMvcViewLocationFormatAttribute* New_ctor(::CsString* format);
+    static AspMvcViewLocationFormatAttribute* New_ctor(::Il2CppString* format);
     // public System.String get_Format()
     // Offset: 0x1957BD4
-    ::CsString* get_Format();
+    ::Il2CppString* get_Format();
     // private System.Void set_Format(System.String value)
     // Offset: 0x1957BDC
-    void set_Format(::CsString* value);
+    void set_Format(::Il2CppString* value);
   }; // JetBrains.Annotations.AspMvcViewLocationFormatAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

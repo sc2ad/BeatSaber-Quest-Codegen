@@ -34,13 +34,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C091C
-    static IVRScreenshots::_GetScreenshotPropertyType* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRScreenshots::_GetScreenshotPropertyType* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRScreenshotType Invoke(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotError pError)
     // Offset: 0x16C0930
     Valve::VR::EVRScreenshotType Invoke(uint screenshotHandle, Valve::VR::EVRScreenshotError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotError pError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16C0BC0
-    System::IAsyncResult* BeginInvoke(uint screenshotHandle, Valve::VR::EVRScreenshotError& pError, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint screenshotHandle, Valve::VR::EVRScreenshotError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRScreenshotType EndInvoke(Valve.VR.EVRScreenshotError pError, System.IAsyncResult result)
     // Offset: 0x16C0C74
     Valve::VR::EVRScreenshotType EndInvoke(Valve::VR::EVRScreenshotError& pError, System::IAsyncResult* result);

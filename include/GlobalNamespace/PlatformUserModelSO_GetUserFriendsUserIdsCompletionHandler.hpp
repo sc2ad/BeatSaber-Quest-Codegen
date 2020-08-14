@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBD5E90
-    static PlatformUserModelSO::GetUserFriendsUserIdsCompletionHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static PlatformUserModelSO::GetUserFriendsUserIdsCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformUserModelSO/GetUserFriendsUserIdsResult result, System.String[] friendsUserIds)
     // Offset: 0xBD5EA4
-    void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsResult result, ::Array<::CsString*>* friendsUserIds);
+    void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsResult result, ::Array<::Il2CppString*>* friendsUserIds);
     // public System.IAsyncResult BeginInvoke(PlatformUserModelSO/GetUserFriendsUserIdsResult result, System.String[] friendsUserIds, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBD612C
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsResult result, ::Array<::CsString*>* friendsUserIds, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsResult result, ::Array<::Il2CppString*>* friendsUserIds, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xBD61C4
     void EndInvoke(System::IAsyncResult* result);

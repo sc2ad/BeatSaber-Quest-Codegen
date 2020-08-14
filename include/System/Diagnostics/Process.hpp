@@ -107,7 +107,7 @@ namespace System::Diagnostics {
     bool isRemoteMachine;
     // private System.String machineName
     // Offset: 0x48
-    ::CsString* machineName;
+    ::Il2CppString* machineName;
     // private System.Int32 m_processAccess
     // Offset: 0x50
     int m_processAccess;
@@ -185,10 +185,10 @@ namespace System::Diagnostics {
     System::Diagnostics::AsyncStreamReader* error;
     // private System.String process_name
     // Offset: 0xD8
-    ::CsString* process_name;
+    ::Il2CppString* process_name;
     // private System.Void .ctor(System.String machineName, System.Boolean isRemoteMachine, System.Int32 processId, System.Diagnostics.ProcessInfo processInfo)
     // Offset: 0xF5A6D4
-    static Process* New_ctor(::CsString* machineName, bool isRemoteMachine, int processId, System::Diagnostics::ProcessInfo* processInfo);
+    static Process* New_ctor(::Il2CppString* machineName, bool isRemoteMachine, int processId, System::Diagnostics::ProcessInfo* processInfo);
     // private System.Boolean get_Associated()
     // Offset: 0xF5A790
     bool get_Associated();
@@ -233,13 +233,13 @@ namespace System::Diagnostics {
     void StopWatchingForExit();
     // static private System.String ProcessName_internal(System.IntPtr handle)
     // Offset: 0xF5BF04
-    static ::CsString* ProcessName_internal(System::IntPtr handle);
+    static ::Il2CppString* ProcessName_internal(System::IntPtr handle);
     // static private System.String ProcessName_internal(Microsoft.Win32.SafeHandles.SafeProcessHandle handle)
     // Offset: 0xF5BF08
-    static ::CsString* ProcessName_internal(Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
+    static ::Il2CppString* ProcessName_internal(Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
     // public System.String get_ProcessName()
     // Offset: 0xF5BD18
-    ::CsString* get_ProcessName();
+    ::Il2CppString* get_ProcessName();
     // private System.Void RaiseOnExited()
     // Offset: 0xF5B1C0
     void RaiseOnExited();
@@ -252,7 +252,7 @@ namespace System::Diagnostics {
     // Offset: 0xF5BBBC
     // Implemented from: System.ComponentModel.Component
     // Base method: System.String Component::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.Diagnostics.Process
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

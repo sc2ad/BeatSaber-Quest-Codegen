@@ -25,18 +25,18 @@ namespace Oculus::Platform {
     public:
     // public System.String key
     // Offset: 0x0
-    ::CsString* key;
+    ::Il2CppString* key;
     // public Oculus.Platform.MatchmakingCriterionImportance importance
     // Offset: 0x8
     Oculus::Platform::MatchmakingCriterionImportance importance;
     // public System.Collections.Generic.Dictionary`2<System.String,System.Object> parameters
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* parameters;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* parameters;
     // Creating value type constructor for type: Criterion
-    Criterion(::CsString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::Collections::Generic::Dictionary_2<::CsString*, ::CsObject*>* parameters_ = {}) : key{key_}, importance{importance_}, parameters{parameters_} {}
+    Criterion(::Il2CppString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* parameters_ = {}) : key{key_}, importance{importance_}, parameters{parameters_} {}
     // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
     // Offset: 0xA2FFB8
-    static Matchmaking::CustomQuery::Criterion* New_ctor(::CsString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_);
+    static Matchmaking::CustomQuery::Criterion* New_ctor(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_);
   }; // Oculus.Platform.Matchmaking/CustomQuery/Criterion
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

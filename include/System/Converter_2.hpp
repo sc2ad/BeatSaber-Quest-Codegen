@@ -27,7 +27,7 @@ namespace System {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
-    static Converter_2<TInput, TOutput>* New_ctor(::CsObject* object, System::IntPtr method) {
+    static Converter_2<TInput, TOutput>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       return (Converter_2<TInput, TOutput>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Converter_2<TInput, TOutput>*>::get(), object, method)));
     }
     // public TOutput Invoke(TInput input)
@@ -37,7 +37,7 @@ namespace System {
     }
     // public System.IAsyncResult BeginInvoke(TInput input, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(TInput input, System::AsyncCallback* callback, ::CsObject* object) {
+    System::IAsyncResult* BeginInvoke(TInput input, System::AsyncCallback* callback, ::Il2CppObject* object) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", input, callback, object));
     }
     // public TOutput EndInvoke(System.IAsyncResult result)

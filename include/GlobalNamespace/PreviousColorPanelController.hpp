@@ -46,12 +46,6 @@ namespace GlobalNamespace {
     // private System.Action`1<UnityEngine.Color> colorWasSelectedEvent
     // Offset: 0x28
     System::Action_1<UnityEngine::Color>* colorWasSelectedEvent;
-    // static field const value: static private System.Int32 kMaxColors
-    static constexpr const int kMaxColors = 2;
-    // Get static field: static private System.Int32 kMaxColors
-    static int _get_kMaxColors();
-    // Set static field: static private System.Int32 kMaxColors
-    static void _set_kMaxColors(int value);
     // private HMUI.ButtonBinder _buttonBinder
     // Offset: 0x30
     HMUI::ButtonBinder* buttonBinder;
@@ -61,6 +55,12 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _graphicsColor
     // Offset: 0x48
     UnityEngine::Color graphicsColor;
+    // static field const value: static private System.Int32 kMaxColors
+    static constexpr const int kMaxColors = 2;
+    // Get static field: static private System.Int32 kMaxColors
+    static int _get_kMaxColors();
+    // Set static field: static private System.Int32 kMaxColors
+    static void _set_kMaxColors(int value);
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
     // Offset: 0xC1ABC4
     void add_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);

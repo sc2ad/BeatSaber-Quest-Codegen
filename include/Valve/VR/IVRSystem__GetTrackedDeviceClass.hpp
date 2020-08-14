@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16CC928
-    static IVRSystem::_GetTrackedDeviceClass* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetTrackedDeviceClass* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.ETrackedDeviceClass Invoke(System.UInt32 unDeviceIndex)
     // Offset: 0x16CC93C
     Valve::VR::ETrackedDeviceClass Invoke(uint unDeviceIndex);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16CCBB0
-    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.ETrackedDeviceClass EndInvoke(System.IAsyncResult result)
     // Offset: 0x16CCC3C
     Valve::VR::ETrackedDeviceClass EndInvoke(System::IAsyncResult* result);

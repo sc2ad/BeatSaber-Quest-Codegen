@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xB8E878
-    static BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* New_ctor(::CsObject* object, System::IntPtr method);
+    static BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(BeatmapEventData beatmapEventData)
     // Offset: 0xB8D708
     void Invoke(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.IAsyncResult BeginInvoke(BeatmapEventData beatmapEventData, System.AsyncCallback callback, System.Object object)
     // Offset: 0xB8E88C
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapEventData* beatmapEventData, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::BeatmapEventData* beatmapEventData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xB8E8B0
     void EndInvoke(System::IAsyncResult* result);

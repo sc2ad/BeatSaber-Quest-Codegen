@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xED04D0
-    static IVRApplications::_SetDefaultApplicationForMimeType* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_SetDefaultApplicationForMimeType* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchAppKey, System.String pchMimeType)
     // Offset: 0xEC2BE8
-    OVR::OpenVR::EVRApplicationError Invoke(::CsString* pchAppKey, ::CsString* pchMimeType);
+    OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchAppKey, ::Il2CppString* pchMimeType);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.String pchMimeType, System.AsyncCallback callback, System.Object object)
     // Offset: 0xED04E4
-    System::IAsyncResult* BeginInvoke(::CsString* pchAppKey, ::CsString* pchMimeType, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, ::Il2CppString* pchMimeType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xED0514
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

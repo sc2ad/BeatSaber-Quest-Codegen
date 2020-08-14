@@ -27,13 +27,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16BB934
-    static IVRRenderModels::_GetComponentButtonMask* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRRenderModels::_GetComponentButtonMask* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt64 Invoke(System.String pchRenderModelName, System.String pchComponentName)
     // Offset: 0x16BB948
-    uint64_t Invoke(::CsString* pchRenderModelName, ::CsString* pchComponentName);
+    uint64_t Invoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.String pchComponentName, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16BBD54
-    System::IAsyncResult* BeginInvoke(::CsString* pchRenderModelName, ::CsString* pchComponentName, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(System.IAsyncResult result)
     // Offset: 0x16BBD84
     uint64_t EndInvoke(System::IAsyncResult* result);

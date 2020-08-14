@@ -30,7 +30,7 @@ namespace System::Configuration {
     void DeserializeSection(System::Xml::XmlReader* reader);
     // protected internal System.String SerializeSection(System.Configuration.ConfigurationElement parentElement, System.String name, System.Configuration.ConfigurationSaveMode saveMode)
     // Offset: 0x1976EA4
-    ::CsString* SerializeSection(System::Configuration::ConfigurationElement* parentElement, ::CsString* name, System::Configuration::ConfigurationSaveMode saveMode);
+    ::Il2CppString* SerializeSection(System::Configuration::ConfigurationElement* parentElement, ::Il2CppString* name, System::Configuration::ConfigurationSaveMode saveMode);
     // protected internal override System.Boolean IsModified()
     // Offset: 0x1976E24
     // Implemented from: System.Configuration.ConfigurationElement

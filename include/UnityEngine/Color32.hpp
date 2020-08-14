@@ -16,7 +16,7 @@ namespace UnityEngine {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -47,7 +47,7 @@ namespace UnityEngine {
     // Offset: 0xA41DD0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.Color32
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

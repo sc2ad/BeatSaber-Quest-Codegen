@@ -39,15 +39,15 @@ namespace GlobalNamespace {
     // private System.Single _volume
     // Offset: 0x30
     float volume;
+    // private System.Single _targetVolume
+    // Offset: 0x34
+    float targetVolume;
     // static field const value: static private System.Single kSmooth
     static constexpr const float kSmooth = 8;
     // Get static field: static private System.Single kSmooth
     static float _get_kSmooth();
     // Set static field: static private System.Single kSmooth
     static void _set_kSmooth(float value);
-    // private System.Single _targetVolume
-    // Offset: 0x34
-    float targetVolume;
     // protected System.Void Awake()
     // Offset: 0xC31114
     void Awake();

@@ -30,16 +30,16 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1063A3C
-    static HeaderHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static HeaderHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Object Invoke(System.Runtime.Remoting.Messaging.Header[] headers)
     // Offset: 0x1063A50
-    ::CsObject* Invoke(::Array<System::Runtime::Remoting::Messaging::Header*>* headers);
+    ::Il2CppObject* Invoke(::Array<System::Runtime::Remoting::Messaging::Header*>* headers);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Remoting.Messaging.Header[] headers, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1063E10
-    System::IAsyncResult* BeginInvoke(::Array<System::Runtime::Remoting::Messaging::Header*>* headers, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Array<System::Runtime::Remoting::Messaging::Header*>* headers, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
     // Offset: 0x1063E34
-    ::CsObject* EndInvoke(System::IAsyncResult* result);
+    ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Remoting.Messaging.HeaderHandler
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

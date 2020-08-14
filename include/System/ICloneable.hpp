@@ -6,7 +6,7 @@
 // Begin includes
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -15,7 +15,7 @@ namespace System {
     public:
     // public System.Object Clone()
     // Offset: 0xFFFFFFFF
-    ::CsObject* Clone();
+    ::Il2CppObject* Clone();
   }; // System.ICloneable
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

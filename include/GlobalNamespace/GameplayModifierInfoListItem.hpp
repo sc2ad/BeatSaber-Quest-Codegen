@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* separatorImage;
     // public System.Void set_modifierName(System.String value)
     // Offset: 0xB3C364
-    void set_modifierName(::CsString* value);
+    void set_modifierName(::Il2CppString* value);
     // public System.Void set_modifierDescription(System.String value)
     // Offset: 0xB3C380
-    void set_modifierDescription(::CsString* value);
+    void set_modifierDescription(::Il2CppString* value);
     // public System.Void set_modifierIcon(UnityEngine.Sprite value)
     // Offset: 0xB3C39C
     void set_modifierIcon(UnityEngine::Sprite* value);

@@ -17,7 +17,7 @@ namespace RootMotion {
     public:
     // public System.String text
     // Offset: 0x18
-    ::CsString* text;
+    ::Il2CppString* text;
     // public UnityEngine.Color color
     // Offset: 0x20
     UnityEngine::Color color;

@@ -15,8 +15,8 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
-struct CsString;
+struct Il2CppObject;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
@@ -28,21 +28,21 @@ namespace System::Runtime::Serialization {
     System::Type* m_type;
     // private System.Object m_value
     // Offset: 0x8
-    ::CsObject* m_value;
+    ::Il2CppObject* m_value;
     // private System.String m_name
     // Offset: 0x10
-    ::CsString* m_name;
+    ::Il2CppString* m_name;
     // Creating value type constructor for type: SerializationEntry
-    SerializationEntry(System::Type* m_type_ = {}, ::CsObject* m_value_ = {}, ::CsString* m_name_ = {}) : m_type{m_type_}, m_value{m_value_}, m_name{m_name_} {}
+    SerializationEntry(System::Type* m_type_ = {}, ::Il2CppObject* m_value_ = {}, ::Il2CppString* m_name_ = {}) : m_type{m_type_}, m_value{m_value_}, m_name{m_name_} {}
     // public System.Object get_Value()
     // Offset: 0xA3B59C
-    ::CsObject* get_Value();
+    ::Il2CppObject* get_Value();
     // public System.String get_Name()
     // Offset: 0xA3B5A4
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // System.Void .ctor(System.String entryName, System.Object entryValue, System.Type entryType)
     // Offset: 0xA3B5AC
-    static SerializationEntry* New_ctor(::CsString* entryName, ::CsObject* entryValue, System::Type* entryType);
+    static SerializationEntry* New_ctor(::Il2CppString* entryName, ::Il2CppObject* entryValue, System::Type* entryType);
   }; // System.Runtime.Serialization.SerializationEntry
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

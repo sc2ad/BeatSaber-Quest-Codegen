@@ -31,8 +31,8 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -55,7 +55,7 @@ namespace System {
     System::IntPtr get_Value();
     // static System.String ConstructInstantiation(System.Reflection.RuntimeMethodInfo method, System.TypeNameFormatFlags format)
     // Offset: 0xDD5D90
-    static ::CsString* ConstructInstantiation(System::Reflection::RuntimeMethodInfo* method, System::TypeNameFormatFlags format);
+    static ::Il2CppString* ConstructInstantiation(System::Reflection::RuntimeMethodInfo* method, System::TypeNameFormatFlags format);
     // System.Boolean IsNullHandle()
     // Offset: 0xA2DBC4
     bool IsNullHandle();
@@ -71,7 +71,7 @@ namespace System {
     // Offset: 0xA2DBB0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA2DBB8
     // Implemented from: System.ValueType

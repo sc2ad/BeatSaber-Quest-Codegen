@@ -26,25 +26,25 @@ namespace System::Globalization {
     public:
     // private System.String m_invalidCultureName
     // Offset: 0x90
-    ::CsString* m_invalidCultureName;
+    ::Il2CppString* m_invalidCultureName;
     // private System.Nullable`1<System.Int32> m_invalidCultureId
     // Offset: 0x98
     System::Nullable_1<int> m_invalidCultureId;
     // public System.Void .ctor(System.String paramName, System.String invalidCultureName, System.String message)
     // Offset: 0x12B3518
-    static CultureNotFoundException* New_ctor(::CsString* paramName, ::CsString* invalidCultureName, ::CsString* message);
+    static CultureNotFoundException* New_ctor(::Il2CppString* paramName, ::Il2CppString* invalidCultureName, ::Il2CppString* message);
     // public System.Nullable`1<System.Int32> get_InvalidCultureId()
     // Offset: 0x12B3838
     System::Nullable_1<int> get_InvalidCultureId();
     // public System.String get_InvalidCultureName()
     // Offset: 0x12B3840
-    ::CsString* get_InvalidCultureName();
+    ::Il2CppString* get_InvalidCultureName();
     // static private System.String get_DefaultMessage()
     // Offset: 0x12B34CC
-    static ::CsString* get_DefaultMessage();
+    static ::Il2CppString* get_DefaultMessage();
     // private System.String get_FormatedInvalidCultureId()
     // Offset: 0x12B3848
-    ::CsString* get_FormatedInvalidCultureId();
+    ::Il2CppString* get_FormatedInvalidCultureId();
     // public System.Void .ctor()
     // Offset: 0x12B34A0
     // Implemented from: System.ArgumentException
@@ -57,7 +57,7 @@ namespace System::Globalization {
     // Offset: 0x12B0334
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
-    static CultureNotFoundException* New_ctor(::CsString* paramName, ::CsString* message);
+    static CultureNotFoundException* New_ctor(::Il2CppString* paramName, ::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x12B3554
     // Implemented from: System.ArgumentException
@@ -77,7 +77,7 @@ namespace System::Globalization {
     // Offset: 0x12B3950
     // Implemented from: System.ArgumentException
     // Base method: System.String ArgumentException::get_Message()
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
   }; // System.Globalization.CultureNotFoundException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

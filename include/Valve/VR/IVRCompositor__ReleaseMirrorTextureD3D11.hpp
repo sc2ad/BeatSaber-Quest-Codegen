@@ -27,13 +27,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15FAAF8
-    static IVRCompositor::_ReleaseMirrorTextureD3D11* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_ReleaseMirrorTextureD3D11* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr pD3D11ShaderResourceView)
     // Offset: 0x15FAB0C
     void Invoke(System::IntPtr pD3D11ShaderResourceView);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pD3D11ShaderResourceView, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15FAD6C
-    System::IAsyncResult* BeginInvoke(System::IntPtr pD3D11ShaderResourceView, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::IntPtr pD3D11ShaderResourceView, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x15FADF8
     void EndInvoke(System::IAsyncResult* result);

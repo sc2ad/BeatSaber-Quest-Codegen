@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C1AF4
-    static IVRScreenshots::_UpdateScreenshotProgress* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRScreenshots::_UpdateScreenshotProgress* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRScreenshotError Invoke(System.UInt32 screenshotHandle, System.Single flProgress)
     // Offset: 0x16C1B08
     Valve::VR::EVRScreenshotError Invoke(uint screenshotHandle, float flProgress);
     // public System.IAsyncResult BeginInvoke(System.UInt32 screenshotHandle, System.Single flProgress, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16C1D9C
-    System::IAsyncResult* BeginInvoke(uint screenshotHandle, float flProgress, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint screenshotHandle, float flProgress, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRScreenshotError EndInvoke(System.IAsyncResult result)
     // Offset: 0x16C1E48
     Valve::VR::EVRScreenshotError EndInvoke(System::IAsyncResult* result);

@@ -15,10 +15,10 @@ namespace UnityEngine::Serialization {
     public:
     // private System.String m_oldName
     // Offset: 0x10
-    ::CsString* m_oldName;
+    ::Il2CppString* m_oldName;
     // public System.Void .ctor(System.String oldName)
     // Offset: 0x1389660
-    static FormerlySerializedAsAttribute* New_ctor(::CsString* oldName);
+    static FormerlySerializedAsAttribute* New_ctor(::Il2CppString* oldName);
   }; // UnityEngine.Serialization.FormerlySerializedAsAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

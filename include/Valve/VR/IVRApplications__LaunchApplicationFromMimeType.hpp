@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE4528
-    static IVRApplications::_LaunchApplicationFromMimeType* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRApplications::_LaunchApplicationFromMimeType* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationError Invoke(System.String pchMimeType, System.String pchArgs)
     // Offset: 0xFD76BC
-    Valve::VR::EVRApplicationError Invoke(::CsString* pchMimeType, ::CsString* pchArgs);
+    Valve::VR::EVRApplicationError Invoke(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs);
     // public System.IAsyncResult BeginInvoke(System.String pchMimeType, System.String pchArgs, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE453C
-    System::IAsyncResult* BeginInvoke(::CsString* pchMimeType, ::CsString* pchArgs, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0xFE456C
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);

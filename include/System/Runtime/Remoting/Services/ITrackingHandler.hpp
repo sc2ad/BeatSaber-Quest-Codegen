@@ -13,7 +13,7 @@ namespace System::Runtime::Remoting {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Services
 namespace System::Runtime::Remoting::Services {
@@ -22,13 +22,13 @@ namespace System::Runtime::Remoting::Services {
     public:
     // public System.Void DisconnectedObject(System.Object obj)
     // Offset: 0xFFFFFFFF
-    void DisconnectedObject(::CsObject* obj);
+    void DisconnectedObject(::Il2CppObject* obj);
     // public System.Void MarshaledObject(System.Object obj, System.Runtime.Remoting.ObjRef or)
     // Offset: 0xFFFFFFFF
-    void MarshaledObject(::CsObject* obj, System::Runtime::Remoting::ObjRef* _or);
+    void MarshaledObject(::Il2CppObject* obj, System::Runtime::Remoting::ObjRef* _or);
     // public System.Void UnmarshaledObject(System.Object obj, System.Runtime.Remoting.ObjRef or)
     // Offset: 0xFFFFFFFF
-    void UnmarshaledObject(::CsObject* obj, System::Runtime::Remoting::ObjRef* _or);
+    void UnmarshaledObject(::Il2CppObject* obj, System::Runtime::Remoting::ObjRef* _or);
   }; // System.Runtime.Remoting.Services.ITrackingHandler
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

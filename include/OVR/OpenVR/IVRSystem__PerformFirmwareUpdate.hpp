@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B5740
-    static IVRSystem::_PerformFirmwareUpdate* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_PerformFirmwareUpdate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRFirmwareError Invoke(System.UInt32 unDeviceIndex)
     // Offset: 0x16B5754
     OVR::OpenVR::EVRFirmwareError Invoke(uint unDeviceIndex);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16B59C8
-    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRFirmwareError EndInvoke(System.IAsyncResult result)
     // Offset: 0x16B5A54
     OVR::OpenVR::EVRFirmwareError EndInvoke(System::IAsyncResult* result);

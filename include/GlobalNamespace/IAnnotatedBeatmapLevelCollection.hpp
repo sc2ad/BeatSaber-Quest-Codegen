@@ -18,7 +18,7 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     public:
     // public System.String get_collectionName()
     // Offset: 0xFFFFFFFF
-    ::CsString* get_collectionName();
+    ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0xFFFFFFFF
     UnityEngine::Sprite* get_coverImage();

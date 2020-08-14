@@ -22,7 +22,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x116151C
     // Implemented from: System.Runtime.CompilerServices.CustomConstantAttribute
     // Base method: System.Object CustomConstantAttribute::get_Value()
-    ::CsObject* get_Value();
+    ::Il2CppObject* get_Value();
   }; // System.Runtime.CompilerServices.DateTimeConstantAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

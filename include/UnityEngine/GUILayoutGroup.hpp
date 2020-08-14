@@ -156,7 +156,7 @@ namespace UnityEngine {
     // Offset: 0x126BE14
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.String GUILayoutEntry::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.GUILayoutGroup
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

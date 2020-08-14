@@ -28,7 +28,7 @@ namespace System::Security {
     public:
     // private System.String permissionState
     // Offset: 0x88
-    ::CsString* permissionState;
+    ::Il2CppString* permissionState;
     // public System.Void .ctor()
     // Offset: 0xDEBC48
     // Implemented from: System.SystemException
@@ -41,7 +41,7 @@ namespace System::Security {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static SecurityException* New_ctor(::CsString* message);
+    static SecurityException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xDEBCE8
     // Implemented from: System.SystemException
@@ -53,7 +53,7 @@ namespace System::Security {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
-    static SecurityException* New_ctor(::CsString* message, System::Exception* inner);
+    static SecurityException* New_ctor(::Il2CppString* message, System::Exception* inner);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xDEBE38
     // Implemented from: System.Exception
@@ -66,7 +66,7 @@ namespace System::Security {
     // Offset: 0xDEBF4C
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // System.Security.SecurityException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

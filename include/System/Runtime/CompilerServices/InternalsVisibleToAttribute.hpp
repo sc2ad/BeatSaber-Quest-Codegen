@@ -15,16 +15,16 @@ namespace System::Runtime::CompilerServices {
     public:
     // private System.String _assemblyName
     // Offset: 0x10
-    ::CsString* assemblyName;
+    ::Il2CppString* assemblyName;
     // private System.Boolean _allInternalsVisible
     // Offset: 0x18
     bool allInternalsVisible;
     // public System.Void .ctor(System.String assemblyName)
     // Offset: 0x11616A0
-    static InternalsVisibleToAttribute* New_ctor(::CsString* assemblyName);
+    static InternalsVisibleToAttribute* New_ctor(::Il2CppString* assemblyName);
     // public System.String get_AssemblyName()
     // Offset: 0x11616DC
-    ::CsString* get_AssemblyName();
+    ::Il2CppString* get_AssemblyName();
     // public System.Boolean get_AllInternalsVisible()
     // Offset: 0x11616E4
     bool get_AllInternalsVisible();

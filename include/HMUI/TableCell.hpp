@@ -50,7 +50,7 @@ namespace HMUI {
     bool canSelectSelectedCell;
     // private System.String _reuseIdentifier
     // Offset: 0x30
-    ::CsString* reuseIdentifier;
+    ::Il2CppString* reuseIdentifier;
     // private System.Int32 _idx
     // Offset: 0x38
     int idx;
@@ -65,10 +65,10 @@ namespace HMUI {
     bool highlighted;
     // public System.String get_reuseIdentifier()
     // Offset: 0x10E143C
-    ::CsString* get_reuseIdentifier();
+    ::Il2CppString* get_reuseIdentifier();
     // public System.Void set_reuseIdentifier(System.String value)
     // Offset: 0x10E1444
-    void set_reuseIdentifier(::CsString* value);
+    void set_reuseIdentifier(::Il2CppString* value);
     // public System.Int32 get_idx()
     // Offset: 0x10E144C
     int get_idx();

@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16A7894
-    static IVRScreenshots::_RequestScreenshot* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRScreenshots::_RequestScreenshot* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRScreenshotError Invoke(System.UInt32 pOutScreenshotHandle, OVR.OpenVR.EVRScreenshotType type, System.String pchPreviewFilename, System.String pchVRFilename)
     // Offset: 0x16A78A8
-    OVR::OpenVR::EVRScreenshotError Invoke(uint& pOutScreenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::CsString* pchPreviewFilename, ::CsString* pchVRFilename);
+    OVR::OpenVR::EVRScreenshotError Invoke(uint& pOutScreenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public System.IAsyncResult BeginInvoke(System.UInt32 pOutScreenshotHandle, OVR.OpenVR.EVRScreenshotType type, System.String pchPreviewFilename, System.String pchVRFilename, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16A7B48
-    System::IAsyncResult* BeginInvoke(uint& pOutScreenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::CsString* pchPreviewFilename, ::CsString* pchVRFilename, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint& pOutScreenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRScreenshotError EndInvoke(System.UInt32 pOutScreenshotHandle, System.IAsyncResult result)
     // Offset: 0x16A7C10
     OVR::OpenVR::EVRScreenshotError EndInvoke(uint& pOutScreenshotHandle, System::IAsyncResult* result);

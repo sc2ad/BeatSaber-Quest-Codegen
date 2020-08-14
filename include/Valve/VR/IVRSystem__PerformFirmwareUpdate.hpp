@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16CDE44
-    static IVRSystem::_PerformFirmwareUpdate* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_PerformFirmwareUpdate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRFirmwareError Invoke(System.UInt32 unDeviceIndex)
     // Offset: 0x16CDE58
     Valve::VR::EVRFirmwareError Invoke(uint unDeviceIndex);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16CE0CC
-    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRFirmwareError EndInvoke(System.IAsyncResult result)
     // Offset: 0x16CE158
     Valve::VR::EVRFirmwareError EndInvoke(System::IAsyncResult* result);

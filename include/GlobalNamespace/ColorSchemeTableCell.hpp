@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* editIcon;
     // public System.Void set_text(System.String value)
     // Offset: 0xB61124
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // public System.String get_text()
     // Offset: 0xB61140
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // public System.Void set_showEditIcon(System.Boolean value)
     // Offset: 0xB6115C
     void set_showEditIcon(bool value);

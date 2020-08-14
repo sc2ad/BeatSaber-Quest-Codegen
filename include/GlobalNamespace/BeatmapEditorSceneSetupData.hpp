@@ -15,19 +15,19 @@ namespace GlobalNamespace {
     public:
     // private System.String _levelDirPath
     // Offset: 0x10
-    ::CsString* levelDirPath;
+    ::Il2CppString* levelDirPath;
     // private System.String _levelAssetPath
     // Offset: 0x18
-    ::CsString* levelAssetPath;
+    ::Il2CppString* levelAssetPath;
     // public System.String get_levelDirPath()
     // Offset: 0xB92C34
-    ::CsString* get_levelDirPath();
+    ::Il2CppString* get_levelDirPath();
     // public System.String get_levelAssetPath()
     // Offset: 0xB92C3C
-    ::CsString* get_levelAssetPath();
+    ::Il2CppString* get_levelAssetPath();
     // public System.Void .ctor(System.String levelDirPath, System.String levelAssetPath)
     // Offset: 0xB92C44
-    static BeatmapEditorSceneSetupData* New_ctor(::CsString* levelDirPath, ::CsString* levelAssetPath);
+    static BeatmapEditorSceneSetupData* New_ctor(::Il2CppString* levelDirPath, ::Il2CppString* levelAssetPath);
   }; // BeatmapEditorSceneSetupData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

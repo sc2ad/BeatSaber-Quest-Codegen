@@ -43,10 +43,10 @@ namespace Polyglot {
     bool maintainTextAlignment;
     // private System.String key
     // Offset: 0x0
-    ::CsString* key;
+    ::Il2CppString* key;
     // private System.Collections.Generic.List`1<System.Object> parameters
     // Offset: 0x0
-    System::Collections::Generic::List_1<::CsObject*>* parameters;
+    System::Collections::Generic::List_1<::Il2CppObject*>* parameters;
     // public System.Boolean get_MaintainTextAlignment()
     // Offset: 0xFFFFFFFF
     bool get_MaintainTextAlignment() {
@@ -59,13 +59,13 @@ namespace Polyglot {
     }
     // public System.Void set_Key(System.String value)
     // Offset: 0xFFFFFFFF
-    void set_Key(::CsString* value) {
+    void set_Key(::Il2CppString* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Key", value));
     }
     // public System.Collections.Generic.List`1<System.Object> get_Parameters()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::List_1<::CsObject*>* get_Parameters() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::List_1<::CsObject*>*>(this, "get_Parameters"));
+    System::Collections::Generic::List_1<::Il2CppObject*>* get_Parameters() {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::List_1<::Il2CppObject*>*>(this, "get_Parameters"));
     }
     // public System.Void OnEnable()
     // Offset: 0xFFFFFFFF
@@ -74,7 +74,7 @@ namespace Polyglot {
     }
     // protected System.Void SetText(T component, System.String value)
     // Offset: 0xFFFFFFFF
-    void SetText(T component, ::CsString* value) {
+    void SetText(T component, ::Il2CppString* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetText", component, value));
     }
     // protected System.Void UpdateAlignment(T component, Polyglot.LanguageDirection direction)
@@ -89,7 +89,7 @@ namespace Polyglot {
     }
     // public System.Void AddParameter(System.Object parameter)
     // Offset: 0xFFFFFFFF
-    void AddParameter(::CsObject* parameter) {
+    void AddParameter(::Il2CppObject* parameter) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
     }
     // public System.Void AddParameter(System.Int32 parameter)
@@ -104,15 +104,15 @@ namespace Polyglot {
     }
     // public System.Void AddParameter(System.String parameter)
     // Offset: 0xFFFFFFFF
-    void AddParameter(::CsString* parameter) {
+    void AddParameter(::Il2CppString* parameter) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
     }
     // public System.String get_Key()
     // Offset: 0xFFFFFFFF
     // Implemented from: Polyglot.ILocalizeKey
     // Base method: System.String ILocalizeKey::get_Key()
-    ::CsString* get_Key() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsString*>(this, "get_Key"));
+    ::Il2CppString* get_Key() {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(this, "get_Key"));
     }
     // public System.Void OnLocalize()
     // Offset: 0xFFFFFFFF

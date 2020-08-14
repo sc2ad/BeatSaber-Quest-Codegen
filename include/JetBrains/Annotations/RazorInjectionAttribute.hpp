@@ -15,25 +15,25 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <Type>k__BackingField
     // Offset: 0x10
-    ::CsString* Type;
+    ::Il2CppString* Type;
     // private System.String <FieldName>k__BackingField
     // Offset: 0x18
-    ::CsString* FieldName;
+    ::Il2CppString* FieldName;
     // public System.Void .ctor(System.String type, System.String fieldName)
     // Offset: 0x195821C
-    static RazorInjectionAttribute* New_ctor(::CsString* type, ::CsString* fieldName);
+    static RazorInjectionAttribute* New_ctor(::Il2CppString* type, ::Il2CppString* fieldName);
     // public System.String get_Type()
     // Offset: 0x195826C
-    ::CsString* get_Type();
+    ::Il2CppString* get_Type();
     // private System.Void set_Type(System.String value)
     // Offset: 0x1958274
-    void set_Type(::CsString* value);
+    void set_Type(::Il2CppString* value);
     // public System.String get_FieldName()
     // Offset: 0x195827C
-    ::CsString* get_FieldName();
+    ::Il2CppString* get_FieldName();
     // private System.Void set_FieldName(System.String value)
     // Offset: 0x1958284
-    void set_FieldName(::CsString* value);
+    void set_FieldName(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorInjectionAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

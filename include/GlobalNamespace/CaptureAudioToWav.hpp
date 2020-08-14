@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     public:
     // private System.String _fileName
     // Offset: 0x18
-    ::CsString* fileName;
+    ::Il2CppString* fileName;
     // private System.Int32 _sampleRate
     // Offset: 0x20
     int sampleRate;
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     void Update();
     // private System.Void StartWriting(System.String name)
     // Offset: 0xCAAD50
-    void StartWriting(::CsString* name);
+    void StartWriting(::Il2CppString* name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
     // Offset: 0xCAB1F8
     void OnAudioFilterRead(::Array<float>* data, int channels);

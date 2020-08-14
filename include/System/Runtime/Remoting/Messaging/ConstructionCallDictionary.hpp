@@ -21,9 +21,9 @@ namespace System::Runtime::Remoting::Messaging {
   class ConstructionCallDictionary : public System::Runtime::Remoting::Messaging::MessageDictionary {
     public:
     // Get static field: static public System.String[] InternalKeys
-    static ::Array<::CsString*>* _get_InternalKeys();
+    static ::Array<::Il2CppString*>* _get_InternalKeys();
     // Set static field: static public System.String[] InternalKeys
-    static void _set_InternalKeys(::Array<::CsString*>* value);
+    static void _set_InternalKeys(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IConstructionCallMessage message)
     // Offset: 0x1061568
     static ConstructionCallDictionary* New_ctor(System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
@@ -34,12 +34,12 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1062340
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Object MessageDictionary::GetMethodProperty(System.String key)
-    ::CsObject* GetMethodProperty(::CsString* key);
+    ::Il2CppObject* GetMethodProperty(::Il2CppString* key);
     // protected override System.Void SetMethodProperty(System.String key, System.Object value)
     // Offset: 0x1062CE8
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Void MessageDictionary::SetMethodProperty(System.String key, System.Object value)
-    void SetMethodProperty(::CsString* key, ::CsObject* value);
+    void SetMethodProperty(::Il2CppString* key, ::Il2CppObject* value);
   }; // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

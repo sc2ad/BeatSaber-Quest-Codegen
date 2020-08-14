@@ -40,9 +40,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kBloomFogEnabledKeyword
     static constexpr const char* kBloomFogEnabledKeyword = "ENABLE_BLOOM_FOG";
     // Get static field: static private System.String kBloomFogEnabledKeyword
-    static ::CsString* _get_kBloomFogEnabledKeyword();
+    static ::Il2CppString* _get_kBloomFogEnabledKeyword();
     // Set static field: static private System.String kBloomFogEnabledKeyword
-    static void _set_kBloomFogEnabledKeyword(::CsString* value);
+    static void _set_kBloomFogEnabledKeyword(::Il2CppString* value);
     // Get static field: static private readonly System.Int32 _customFogColorID
     static int _get__customFogColorID();
     // Set static field: static private readonly System.Int32 _customFogColorID

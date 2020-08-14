@@ -75,8 +75,8 @@ namespace System {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
-    ::CsObject* System_Collections_IEnumerator_get_Current() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::CsObject*>(*this, "System.Collections.IEnumerator.get_Current"));
+    ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
+      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(*this, "System.Collections.IEnumerator.get_Current"));
     }
   }; // System.Array/InternalEnumerator`1
 }

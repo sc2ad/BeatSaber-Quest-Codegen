@@ -27,13 +27,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1509714
-    static IVRCompositor::_GetCurrentGridAlpha* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_GetCurrentGridAlpha* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Single Invoke()
     // Offset: 0x1509728
     float Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
     // Offset: 0x150993C
-    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Single EndInvoke(System.IAsyncResult result)
     // Offset: 0x1509968
     float EndInvoke(System::IAsyncResult* result);

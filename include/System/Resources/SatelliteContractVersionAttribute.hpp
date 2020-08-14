@@ -15,13 +15,13 @@ namespace System::Resources {
     public:
     // private System.String _version
     // Offset: 0x10
-    ::CsString* version;
+    ::Il2CppString* version;
     // public System.Void .ctor(System.String version)
     // Offset: 0x115FC80
-    static SatelliteContractVersionAttribute* New_ctor(::CsString* version);
+    static SatelliteContractVersionAttribute* New_ctor(::Il2CppString* version);
     // public System.String get_Version()
     // Offset: 0x115FD24
-    ::CsString* get_Version();
+    ::Il2CppString* get_Version();
   }; // System.Resources.SatelliteContractVersionAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

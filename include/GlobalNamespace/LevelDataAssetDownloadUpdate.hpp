@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     }; // LevelDataAssetDownloadUpdate/AssetDownloadingState
     // public readonly System.String levelID
     // Offset: 0x0
-    ::CsString* levelID;
+    ::Il2CppString* levelID;
     // public readonly System.UInt32 bytesTotal
     // Offset: 0x8
     uint bytesTotal;
@@ -63,10 +63,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState;
     // Creating value type constructor for type: LevelDataAssetDownloadUpdate
-    LevelDataAssetDownloadUpdate(::CsString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState_ = {}) : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, assetDownloadingState{assetDownloadingState_} {}
+    LevelDataAssetDownloadUpdate(::Il2CppString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState_ = {}) : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, assetDownloadingState{assetDownloadingState_} {}
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
     // Offset: 0xA2680C
-    static LevelDataAssetDownloadUpdate* New_ctor(::CsString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);
+    static LevelDataAssetDownloadUpdate* New_ctor(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);
   }; // LevelDataAssetDownloadUpdate
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

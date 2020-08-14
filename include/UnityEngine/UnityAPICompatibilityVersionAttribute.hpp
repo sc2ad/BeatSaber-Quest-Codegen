@@ -15,13 +15,13 @@ namespace UnityEngine {
     public:
     // private System.String _version
     // Offset: 0x10
-    ::CsString* version;
+    ::Il2CppString* version;
     // private System.String[] _configurationAssembliesHashes
     // Offset: 0x18
-    ::Array<::CsString*>* configurationAssembliesHashes;
+    ::Array<::Il2CppString*>* configurationAssembliesHashes;
     // public System.Void .ctor(System.String version, System.String[] configurationAssembliesHashes)
     // Offset: 0x1392260
-    static UnityAPICompatibilityVersionAttribute* New_ctor(::CsString* version, ::Array<::CsString*>* configurationAssembliesHashes);
+    static UnityAPICompatibilityVersionAttribute* New_ctor(::Il2CppString* version, ::Array<::Il2CppString*>* configurationAssembliesHashes);
   }; // UnityEngine.UnityAPICompatibilityVersionAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

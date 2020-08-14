@@ -42,10 +42,6 @@ namespace TMPro {
     public:
     // Nested type: TMPro::TMP_Settings::LineBreakingTable
     class LineBreakingTable;
-    // Get static field: static private TMPro.TMP_Settings s_Instance
-    static TMPro::TMP_Settings* _get_s_Instance();
-    // Set static field: static private TMPro.TMP_Settings s_Instance
-    static void _set_s_Instance(TMPro::TMP_Settings* value);
     // private System.Boolean m_enableWordWrapping
     // Offset: 0x18
     bool m_enableWordWrapping;
@@ -78,7 +74,7 @@ namespace TMPro {
     TMPro::TMP_FontAsset* m_defaultFontAsset;
     // private System.String m_defaultFontAssetPath
     // Offset: 0x30
-    ::CsString* m_defaultFontAssetPath;
+    ::Il2CppString* m_defaultFontAssetPath;
     // private System.Single m_defaultFontSize
     // Offset: 0x38
     float m_defaultFontSize;
@@ -108,10 +104,10 @@ namespace TMPro {
     TMPro::TMP_SpriteAsset* m_defaultSpriteAsset;
     // private System.String m_defaultSpriteAssetPath
     // Offset: 0x70
-    ::CsString* m_defaultSpriteAssetPath;
+    ::Il2CppString* m_defaultSpriteAssetPath;
     // private System.String m_defaultColorGradientPresetsPath
     // Offset: 0x78
-    ::CsString* m_defaultColorGradientPresetsPath;
+    ::Il2CppString* m_defaultColorGradientPresetsPath;
     // private System.Boolean m_enableEmojiSupport
     // Offset: 0x80
     bool m_enableEmojiSupport;
@@ -127,9 +123,13 @@ namespace TMPro {
     // private TMPro.TMP_Settings/LineBreakingTable m_linebreakingRules
     // Offset: 0xA0
     TMPro::TMP_Settings::LineBreakingTable* m_linebreakingRules;
+    // Get static field: static private TMPro.TMP_Settings s_Instance
+    static TMPro::TMP_Settings* _get_s_Instance();
+    // Set static field: static private TMPro.TMP_Settings s_Instance
+    static void _set_s_Instance(TMPro::TMP_Settings* value);
     // static public System.String get_version()
     // Offset: 0xBAEE8C
-    static ::CsString* get_version();
+    static ::Il2CppString* get_version();
     // static public System.Boolean get_enableWordWrapping()
     // Offset: 0xBAEED4
     static bool get_enableWordWrapping();
@@ -165,7 +165,7 @@ namespace TMPro {
     static TMPro::TMP_FontAsset* get_defaultFontAsset();
     // static public System.String get_defaultFontAssetPath()
     // Offset: 0xBAF104
-    static ::CsString* get_defaultFontAssetPath();
+    static ::Il2CppString* get_defaultFontAssetPath();
     // static public System.Single get_defaultFontSize()
     // Offset: 0xBAF124
     static float get_defaultFontSize();
@@ -195,10 +195,10 @@ namespace TMPro {
     static TMPro::TMP_SpriteAsset* get_defaultSpriteAsset();
     // static public System.String get_defaultSpriteAssetPath()
     // Offset: 0xBAF244
-    static ::CsString* get_defaultSpriteAssetPath();
+    static ::Il2CppString* get_defaultSpriteAssetPath();
     // static public System.String get_defaultColorGradientPresetsPath()
     // Offset: 0xBAF264
-    static ::CsString* get_defaultColorGradientPresetsPath();
+    static ::Il2CppString* get_defaultColorGradientPresetsPath();
     // static public System.Boolean get_enableEmojiSupport()
     // Offset: 0xBAF284
     static bool get_enableEmojiSupport();

@@ -15,7 +15,7 @@ namespace System::Collections {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -24,16 +24,16 @@ namespace System::Collections {
     public:
     // public System.Object get_Item(System.Object key)
     // Offset: 0xFFFFFFFF
-    ::CsObject* System_Collections_IDictionary_get_Item(::CsObject* key);
+    ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* key);
     // public System.Void set_Item(System.Object key, System.Object value)
     // Offset: 0xFFFFFFFF
-    void System_Collections_IDictionary_set_Item(::CsObject* key, ::CsObject* value);
+    void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Collections.ICollection get_Keys()
     // Offset: 0xFFFFFFFF
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // public System.Boolean Contains(System.Object key)
     // Offset: 0xFFFFFFFF
-    bool System_Collections_IDictionary_Contains(::CsObject* key);
+    bool System_Collections_IDictionary_Contains(::Il2CppObject* key);
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();

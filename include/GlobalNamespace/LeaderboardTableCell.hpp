@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     void set_rank(int value);
     // public System.Void set_playerName(System.String value)
     // Offset: 0xB44E6C
-    void set_playerName(::CsString* value);
+    void set_playerName(::Il2CppString* value);
     // public System.Void set_score(System.Int32 value)
     // Offset: 0xB44E88
     void set_score(int value);

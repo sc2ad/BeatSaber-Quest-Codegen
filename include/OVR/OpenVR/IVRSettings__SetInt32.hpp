@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16AB3C8
-    static IVRSettings::_SetInt32* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSettings::_SetInt32* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchSection, System.String pchSettingsKey, System.Int32 nValue, OVR.OpenVR.EVRSettingsError peError)
     // Offset: 0x16AB3DC
-    void Invoke(::CsString* pchSection, ::CsString* pchSettingsKey, int nValue, OVR::OpenVR::EVRSettingsError& peError);
+    void Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, int nValue, OVR::OpenVR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, System.Int32 nValue, OVR.OpenVR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16AB828
-    System::IAsyncResult* BeginInvoke(::CsString* pchSection, ::CsString* pchSettingsKey, int nValue, OVR::OpenVR::EVRSettingsError& peError, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, int nValue, OVR::OpenVR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(OVR.OpenVR.EVRSettingsError peError, System.IAsyncResult result)
     // Offset: 0x16AB8F0
     void EndInvoke(OVR::OpenVR::EVRSettingsError& peError, System::IAsyncResult* result);

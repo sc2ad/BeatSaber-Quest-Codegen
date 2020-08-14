@@ -13,7 +13,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
@@ -22,16 +22,16 @@ namespace System::Runtime::InteropServices {
     public:
     // public System.Object MarshalNativeToManaged(System.IntPtr pNativeData)
     // Offset: 0xFFFFFFFF
-    ::CsObject* MarshalNativeToManaged(System::IntPtr pNativeData);
+    ::Il2CppObject* MarshalNativeToManaged(System::IntPtr pNativeData);
     // public System.IntPtr MarshalManagedToNative(System.Object ManagedObj)
     // Offset: 0xFFFFFFFF
-    System::IntPtr MarshalManagedToNative(::CsObject* ManagedObj);
+    System::IntPtr MarshalManagedToNative(::Il2CppObject* ManagedObj);
     // public System.Void CleanUpNativeData(System.IntPtr pNativeData)
     // Offset: 0xFFFFFFFF
     void CleanUpNativeData(System::IntPtr pNativeData);
     // public System.Void CleanUpManagedData(System.Object ManagedObj)
     // Offset: 0xFFFFFFFF
-    void CleanUpManagedData(::CsObject* ManagedObj);
+    void CleanUpManagedData(::Il2CppObject* ManagedObj);
     // public System.Int32 GetNativeDataSize()
     // Offset: 0xFFFFFFFF
     int GetNativeDataSize();

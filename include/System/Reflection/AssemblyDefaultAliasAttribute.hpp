@@ -15,10 +15,10 @@ namespace System::Reflection {
     public:
     // private System.String m_defaultAlias
     // Offset: 0x10
-    ::CsString* m_defaultAlias;
+    ::Il2CppString* m_defaultAlias;
     // public System.Void .ctor(System.String defaultAlias)
     // Offset: 0x135F598
-    static AssemblyDefaultAliasAttribute* New_ctor(::CsString* defaultAlias);
+    static AssemblyDefaultAliasAttribute* New_ctor(::Il2CppString* defaultAlias);
   }; // System.Reflection.AssemblyDefaultAliasAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

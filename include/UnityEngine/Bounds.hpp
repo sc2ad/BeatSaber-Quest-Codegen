@@ -89,7 +89,7 @@ namespace UnityEngine {
     // Offset: 0xA41BE8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Bounds other)
     // Offset: 0xA41BF0
     // Implemented from: System.IEquatable`1
@@ -99,7 +99,7 @@ namespace UnityEngine {
     // Offset: 0xA41D00
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.Bounds
   // static public System.Boolean op_Equality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
   // Offset: 0x12FE080

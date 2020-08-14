@@ -22,21 +22,21 @@ namespace System::ComponentModel {
     public:
     // private readonly System.String designerTypeName
     // Offset: 0x10
-    ::CsString* designerTypeName;
+    ::Il2CppString* designerTypeName;
     // private readonly System.String designerBaseTypeName
     // Offset: 0x18
-    ::CsString* designerBaseTypeName;
+    ::Il2CppString* designerBaseTypeName;
     // public System.Void .ctor(System.String designerTypeName)
     // Offset: 0xF57850
-    static DesignerAttribute* New_ctor(::CsString* designerTypeName);
+    static DesignerAttribute* New_ctor(::Il2CppString* designerTypeName);
     // public System.Void .ctor(System.String designerTypeName, System.Type designerBaseType)
     // Offset: 0xF57950
-    static DesignerAttribute* New_ctor(::CsString* designerTypeName, System::Type* designerBaseType);
+    static DesignerAttribute* New_ctor(::Il2CppString* designerTypeName, System::Type* designerBaseType);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xF57A20
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0xF57AD8
     // Implemented from: System.Attribute

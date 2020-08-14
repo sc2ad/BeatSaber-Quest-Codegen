@@ -34,7 +34,7 @@ namespace System::Threading {
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static ThreadStateException* New_ctor(::CsString* message);
+    static ThreadStateException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xCE93B4
     // Implemented from: System.SystemException

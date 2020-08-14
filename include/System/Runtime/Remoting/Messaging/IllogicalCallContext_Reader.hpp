@@ -28,7 +28,7 @@ namespace System::Runtime::Remoting::Messaging {
     bool get_IsNull();
     // public System.Object GetData(System.String name)
     // Offset: 0xA3C7B8
-    ::CsObject* GetData(::CsString* name);
+    ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

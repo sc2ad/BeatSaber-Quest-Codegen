@@ -142,10 +142,6 @@ namespace UnityEngine::UI {
       // Creating value type constructor for type: FillMethod
       FillMethod(int value_ = {}) : value{value_} {}
     }; // UnityEngine.UI.Image/FillMethod
-    // Get static field: static protected UnityEngine.Material s_ETC1DefaultUI
-    static UnityEngine::Material* _get_s_ETC1DefaultUI();
-    // Set static field: static protected UnityEngine.Material s_ETC1DefaultUI
-    static void _set_s_ETC1DefaultUI(UnityEngine::Material* value);
     // private UnityEngine.Sprite m_Sprite
     // Offset: 0xC0
     UnityEngine::Sprite* m_Sprite;
@@ -188,6 +184,10 @@ namespace UnityEngine::UI {
     // private System.Single m_CachedReferencePixelsPerUnit
     // Offset: 0xF4
     float m_CachedReferencePixelsPerUnit;
+    // Get static field: static protected UnityEngine.Material s_ETC1DefaultUI
+    static UnityEngine::Material* _get_s_ETC1DefaultUI();
+    // Set static field: static protected UnityEngine.Material s_ETC1DefaultUI
+    static void _set_s_ETC1DefaultUI(UnityEngine::Material* value);
     // Get static field: static private readonly UnityEngine.Vector2[] s_VertScratch
     static ::Array<UnityEngine::Vector2>* _get_s_VertScratch();
     // Set static field: static private readonly UnityEngine.Vector2[] s_VertScratch

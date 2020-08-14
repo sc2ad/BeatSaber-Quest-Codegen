@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <Name>k__BackingField
     // Offset: 0x10
-    ::CsString* Name;
+    ::Il2CppString* Name;
     // public System.Void .ctor(System.String name)
     // Offset: 0x1957E38
-    static HtmlElementAttributesAttribute* New_ctor(::CsString* name);
+    static HtmlElementAttributesAttribute* New_ctor(::Il2CppString* name);
     // public System.String get_Name()
     // Offset: 0x1957E6C
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // private System.Void set_Name(System.String value)
     // Offset: 0x1957E74
-    void set_Name(::CsString* value);
+    void set_Name(::Il2CppString* value);
     // public System.Void .ctor()
     // Offset: 0x1957E30
     // Implemented from: System.Attribute

@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <Name>k__BackingField
     // Offset: 0x10
-    ::CsString* Name;
+    ::Il2CppString* Name;
     // public System.Void .ctor(System.String name)
     // Offset: 0x1957DEC
-    static HtmlAttributeValueAttribute* New_ctor(::CsString* name);
+    static HtmlAttributeValueAttribute* New_ctor(::Il2CppString* name);
     // public System.String get_Name()
     // Offset: 0x1957E20
-    ::CsString* get_Name();
+    ::Il2CppString* get_Name();
     // private System.Void set_Name(System.String value)
     // Offset: 0x1957E28
-    void set_Name(::CsString* value);
+    void set_Name(::Il2CppString* value);
   }; // JetBrains.Annotations.HtmlAttributeValueAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

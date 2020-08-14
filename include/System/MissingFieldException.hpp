@@ -24,7 +24,7 @@ namespace System {
     public:
     // public System.Void .ctor(System.String className, System.String fieldName)
     // Offset: 0x1010450
-    static MissingFieldException* New_ctor(::CsString* className, ::CsString* fieldName);
+    static MissingFieldException* New_ctor(::Il2CppString* className, ::Il2CppString* fieldName);
     // public System.Void .ctor()
     // Offset: 0x100FF6C
     // Implemented from: System.MissingMemberException
@@ -41,7 +41,7 @@ namespace System {
     // Base method: System.Void MemberAccessException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
-    static MissingFieldException* New_ctor(::CsString* message);
+    static MissingFieldException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1010058
     // Implemented from: System.MissingMemberException
@@ -54,7 +54,7 @@ namespace System {
     // Offset: 0x10101BC
     // Implemented from: System.MissingMemberException
     // Base method: System.String MissingMemberException::get_Message()
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
   }; // System.MissingFieldException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

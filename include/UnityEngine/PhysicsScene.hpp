@@ -29,8 +29,8 @@ namespace UnityEngine {
 // Begin il2cpp-utils forward declares
 template<class T>
 struct Array;
-struct CsString;
-struct CsObject;
+struct Il2CppString;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -106,7 +106,7 @@ namespace UnityEngine {
     // Offset: 0xA5B124
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0xA5B12C
     // Implemented from: System.ValueType
@@ -116,7 +116,7 @@ namespace UnityEngine {
     // Offset: 0xA5B134
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.PhysicsScene other)
     // Offset: 0xA5B13C
     // Implemented from: System.IEquatable`1

@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xECC19C
-    static CVROverlay::_PollNextOverlayEventPacked* New_ctor(::CsObject* object, System::IntPtr method);
+    static CVROverlay::_PollNextOverlayEventPacked* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.VREvent_t_Packed pEvent, System.UInt32 uncbVREvent)
     // Offset: 0xECBAC8
     bool Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::VREvent_t_Packed& pEvent, uint uncbVREvent);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.VREvent_t_Packed pEvent, System.UInt32 uncbVREvent, System.AsyncCallback callback, System.Object object)
     // Offset: 0xECC1B0
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VREvent_t_Packed& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VREvent_t_Packed& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(OVR.OpenVR.VREvent_t_Packed pEvent, System.IAsyncResult result)
     // Offset: 0xECC284
     bool EndInvoke(OVR::OpenVR::VREvent_t_Packed& pEvent, System::IAsyncResult* result);

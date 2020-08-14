@@ -24,7 +24,7 @@ namespace System::Threading {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     public:
     // public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadImageAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadImageAsync(::CsString* path, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadImageAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
   }; // IImageAsyncLoader
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -17,7 +17,7 @@ namespace HMUI {
     // Offset: 0x10DA61C
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
-    ::CsString* TextForValue(float value);
+    ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
     // Offset: 0x10DA6AC
     // Implemented from: HMUI.RangeValuesTextSlider

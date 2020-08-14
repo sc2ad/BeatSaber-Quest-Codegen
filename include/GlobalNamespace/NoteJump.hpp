@@ -121,18 +121,18 @@ namespace GlobalNamespace {
     // private System.Int32 _randomRotationIdx
     // Offset: 0xE8
     int randomRotationIdx;
-    // static field const value: static public System.Single kMissedTimeOffset
-    static constexpr const float kMissedTimeOffset = 0.15;
-    // Get static field: static public System.Single kMissedTimeOffset
-    static float _get_kMissedTimeOffset();
-    // Set static field: static public System.Single kMissedTimeOffset
-    static void _set_kMissedTimeOffset(float value);
     // private UnityEngine.Quaternion _worldRotation
     // Offset: 0xEC
     UnityEngine::Quaternion worldRotation;
     // private UnityEngine.Quaternion _inverseWorldRotation
     // Offset: 0xFC
     UnityEngine::Quaternion inverseWorldRotation;
+    // static field const value: static public System.Single kMissedTimeOffset
+    static constexpr const float kMissedTimeOffset = 0.15;
+    // Get static field: static public System.Single kMissedTimeOffset
+    static float _get_kMissedTimeOffset();
+    // Set static field: static public System.Single kMissedTimeOffset
+    static void _set_kMissedTimeOffset(float value);
     // public System.Void add_noteJumpDidFinishEvent(System.Action value)
     // Offset: 0xC2CBB8
     void add_noteJumpDidFinishEvent(System::Action* value);

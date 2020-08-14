@@ -15,7 +15,7 @@ namespace System::Collections {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -24,10 +24,10 @@ namespace System::Collections {
     public:
     // public System.Object get_Key()
     // Offset: 0xFFFFFFFF
-    ::CsObject* System_Collections_IDictionaryEnumerator_get_Key();
+    ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Key();
     // public System.Object get_Value()
     // Offset: 0xFFFFFFFF
-    ::CsObject* System_Collections_IDictionaryEnumerator_get_Value();
+    ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Value();
     // public System.Collections.DictionaryEntry get_Entry()
     // Offset: 0xFFFFFFFF
     System::Collections::DictionaryEntry System_Collections_IDictionaryEnumerator_get_Entry();

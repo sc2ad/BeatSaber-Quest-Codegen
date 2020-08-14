@@ -15,10 +15,10 @@ namespace UnityEngine {
     public:
     // public readonly System.String tooltip
     // Offset: 0x10
-    ::CsString* tooltip;
+    ::Il2CppString* tooltip;
     // public System.Void .ctor(System.String tooltip)
     // Offset: 0x138EF18
-    static TooltipAttribute* New_ctor(::CsString* tooltip);
+    static TooltipAttribute* New_ctor(::Il2CppString* tooltip);
   }; // UnityEngine.TooltipAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C28C0
-    static IVRSettings::_GetInt32* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSettings::_GetInt32* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.String pchSection, System.String pchSettingsKey, Valve.VR.EVRSettingsError peError)
     // Offset: 0x16C28D4
-    int Invoke(::CsString* pchSection, ::CsString* pchSettingsKey, Valve::VR::EVRSettingsError& peError);
+    int Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, Valve.VR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16C2D04
-    System::IAsyncResult* BeginInvoke(::CsString* pchSection, ::CsString* pchSettingsKey, Valve::VR::EVRSettingsError& peError, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(Valve.VR.EVRSettingsError peError, System.IAsyncResult result)
     // Offset: 0x16C2DAC
     int EndInvoke(Valve::VR::EVRSettingsError& peError, System::IAsyncResult* result);

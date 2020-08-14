@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x1608E4C
-    static IVROverlay::_PollNextOverlayEvent* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_PollNextOverlayEvent* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle, Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent)
     // Offset: 0x1608E60
     bool Invoke(uint64_t ulOverlayHandle, Valve::VR::VREvent_t& pEvent, uint uncbVREvent);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16090FC
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VREvent_t& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VREvent_t& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(Valve.VR.VREvent_t pEvent, System.IAsyncResult result)
     // Offset: 0x16091D0
     bool EndInvoke(Valve::VR::VREvent_t& pEvent, System::IAsyncResult* result);

@@ -70,7 +70,7 @@ namespace System::Reflection {
     System::Reflection::MethodAttributes get_Attributes();
     // public System.Object Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    ::CsObject* Invoke(::CsObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::CsObject*>* parameters, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public System.Reflection.CallingConventions get_CallingConvention()
     // Offset: 0x136819C
     System::Reflection::CallingConventions get_CallingConvention();
@@ -91,7 +91,7 @@ namespace System::Reflection {
     bool get_IsSecurityCritical();
     // public System.Object Invoke(System.Object obj, System.Object[] parameters)
     // Offset: 0x136829C
-    ::CsObject* Invoke(::CsObject* obj, ::Array<::CsObject*>* parameters);
+    ::Il2CppObject* Invoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters);
     // public System.Boolean get_IsPublic()
     // Offset: 0x13682BC
     bool get_IsPublic();
@@ -115,10 +115,10 @@ namespace System::Reflection {
     System::Reflection::MethodBody* GetMethodBody();
     // static System.String ConstructParameters(System.Type[] parameterTypes, System.Reflection.CallingConventions callingConvention, System.Boolean serialization)
     // Offset: 0x136848C
-    static ::CsString* ConstructParameters(::Array<System::Type*>* parameterTypes, System::Reflection::CallingConventions callingConvention, bool serialization);
+    static ::Il2CppString* ConstructParameters(::Array<System::Type*>* parameterTypes, System::Reflection::CallingConventions callingConvention, bool serialization);
     // System.String FormatNameAndSig(System.Boolean serialization)
     // Offset: 0x1368670
-    ::CsString* FormatNameAndSig(bool serialization);
+    ::Il2CppString* FormatNameAndSig(bool serialization);
     // System.Type[] GetParameterTypes()
     // Offset: 0x1368784
     ::Array<System::Type*>* GetParameterTypes();
@@ -156,7 +156,7 @@ namespace System::Reflection {
     // Offset: 0x1368180
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x13609D0
     // Implemented from: System.Reflection.MemberInfo

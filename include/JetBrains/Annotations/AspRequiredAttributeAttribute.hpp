@@ -15,16 +15,16 @@ namespace JetBrains::Annotations {
     public:
     // private System.String <Attribute>k__BackingField
     // Offset: 0x10
-    ::CsString* Attribute;
+    ::Il2CppString* Attribute;
     // public System.Void .ctor(System.String attribute)
     // Offset: 0x1957BE4
-    static AspRequiredAttributeAttribute* New_ctor(::CsString* attribute);
+    static AspRequiredAttributeAttribute* New_ctor(::Il2CppString* attribute);
     // public System.String get_Attribute()
     // Offset: 0x1957C18
-    ::CsString* get_Attribute();
+    ::Il2CppString* get_Attribute();
     // private System.Void set_Attribute(System.String value)
     // Offset: 0x1957C20
-    void set_Attribute(::CsString* value);
+    void set_Attribute(::Il2CppString* value);
   }; // JetBrains.Annotations.AspRequiredAttributeAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -34,13 +34,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16B48A4
-    static IVRSystem::_GetUint64TrackedDeviceProperty* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetUint64TrackedDeviceProperty* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt64 Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, OVR.OpenVR.ETrackedPropertyError pError)
     // Offset: 0x16B48B8
     uint64_t Invoke(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, OVR::OpenVR::ETrackedPropertyError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, OVR.OpenVR.ETrackedPropertyError pError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16B4B64
-    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, OVR::OpenVR::ETrackedPropertyError& pError, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, OVR::OpenVR::ETrackedPropertyError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(OVR.OpenVR.ETrackedPropertyError pError, System.IAsyncResult result)
     // Offset: 0x16B4C38
     uint64_t EndInvoke(OVR::OpenVR::ETrackedPropertyError& pError, System::IAsyncResult* result);

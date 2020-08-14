@@ -59,6 +59,12 @@ namespace GlobalNamespace {
     // private System.Single _baseColorBoostThreshold
     // Offset: 0x48
     float baseColorBoostThreshold;
+    // private UnityEngine.Material _fadeMaterial
+    // Offset: 0x50
+    UnityEngine::Material* fadeMaterial;
+    // private UnityEngine.Material _mainEffectMaterial
+    // Offset: 0x58
+    UnityEngine::Material* mainEffectMaterial;
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID
@@ -67,12 +73,6 @@ namespace GlobalNamespace {
     static int _get__bloomIntensityID();
     // Set static field: static private readonly System.Int32 _bloomIntensityID
     static void _set__bloomIntensityID(int value);
-    // private UnityEngine.Material _fadeMaterial
-    // Offset: 0x50
-    UnityEngine::Material* fadeMaterial;
-    // private UnityEngine.Material _mainEffectMaterial
-    // Offset: 0x58
-    UnityEngine::Material* mainEffectMaterial;
     // protected System.Void OnDisable()
     // Offset: 0x1906FF8
     void OnDisable();

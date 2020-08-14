@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16A3D58
-    static IVRRenderModels::_GetRenderModelErrorNameFromEnum* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRRenderModels::_GetRenderModelErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(OVR.OpenVR.EVRRenderModelError error)
     // Offset: 0x16A3D6C
     System::IntPtr Invoke(OVR::OpenVR::EVRRenderModelError error);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRRenderModelError error, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16A3FE0
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVRRenderModelError error, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVRRenderModelError error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
     // Offset: 0x16A406C
     System::IntPtr EndInvoke(System::IAsyncResult* result);

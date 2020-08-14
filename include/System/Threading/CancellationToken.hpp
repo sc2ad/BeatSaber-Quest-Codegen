@@ -23,7 +23,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -34,9 +34,9 @@ namespace System::Threading {
     // Offset: 0x0
     System::Threading::CancellationTokenSource* m_source;
     // Get static field: static private readonly System.Action`1<System.Object> s_ActionToActionObjShunt
-    static System::Action_1<::CsObject*>* _get_s_ActionToActionObjShunt();
+    static System::Action_1<::Il2CppObject*>* _get_s_ActionToActionObjShunt();
     // Set static field: static private readonly System.Action`1<System.Object> s_ActionToActionObjShunt
-    static void _set_s_ActionToActionObjShunt(System::Action_1<::CsObject*>* value);
+    static void _set_s_ActionToActionObjShunt(System::Action_1<::Il2CppObject*>* value);
     // Creating value type constructor for type: CancellationToken
     CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) : m_source{m_source_} {}
     // static public System.Threading.CancellationToken get_None()
@@ -53,13 +53,13 @@ namespace System::Threading {
     static CancellationToken* New_ctor(System::Threading::CancellationTokenSource* source);
     // static private System.Void ActionToActionObjShunt(System.Object obj)
     // Offset: 0x13D1308
-    static void ActionToActionObjShunt(::CsObject* obj);
+    static void ActionToActionObjShunt(::Il2CppObject* obj);
     // System.Threading.CancellationTokenRegistration InternalRegisterWithoutEC(System.Action`1<System.Object> callback, System.Object state)
     // Offset: 0xA44048
-    System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(System::Action_1<::CsObject*>* callback, ::CsObject* state);
+    System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state);
     // private System.Threading.CancellationTokenRegistration Register(System.Action`1<System.Object> callback, System.Object state, System.Boolean useSynchronizationContext, System.Boolean useExecutionContext)
     // Offset: 0xA44058
-    System::Threading::CancellationTokenRegistration Register(System::Action_1<::CsObject*>* callback, ::CsObject* state, bool useSynchronizationContext, bool useExecutionContext);
+    System::Threading::CancellationTokenRegistration Register(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state, bool useSynchronizationContext, bool useExecutionContext);
     // public System.Boolean Equals(System.Threading.CancellationToken other)
     // Offset: 0xA44068
     bool Equals(System::Threading::CancellationToken other);
@@ -82,7 +82,7 @@ namespace System::Threading {
     // Offset: 0xA44070
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA44078
     // Implemented from: System.ValueType

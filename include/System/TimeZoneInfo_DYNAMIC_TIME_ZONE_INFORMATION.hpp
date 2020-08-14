@@ -22,12 +22,12 @@ namespace System {
     System::TimeZoneInfo::TIME_ZONE_INFORMATION TZI;
     // System.String TimeZoneKeyName
     // Offset: 0x48
-    ::CsString* TimeZoneKeyName;
+    ::Il2CppString* TimeZoneKeyName;
     // System.Byte DynamicDaylightTimeDisabled
     // Offset: 0x50
     uint8_t DynamicDaylightTimeDisabled;
     // Creating value type constructor for type: DYNAMIC_TIME_ZONE_INFORMATION
-    DYNAMIC_TIME_ZONE_INFORMATION(System::TimeZoneInfo::TIME_ZONE_INFORMATION TZI_ = {}, ::CsString* TimeZoneKeyName_ = {}, uint8_t DynamicDaylightTimeDisabled_ = {}) : TZI{TZI_}, TimeZoneKeyName{TimeZoneKeyName_}, DynamicDaylightTimeDisabled{DynamicDaylightTimeDisabled_} {}
+    DYNAMIC_TIME_ZONE_INFORMATION(System::TimeZoneInfo::TIME_ZONE_INFORMATION TZI_ = {}, ::Il2CppString* TimeZoneKeyName_ = {}, uint8_t DynamicDaylightTimeDisabled_ = {}) : TZI{TZI_}, TimeZoneKeyName{TimeZoneKeyName_}, DynamicDaylightTimeDisabled{DynamicDaylightTimeDisabled_} {}
   }; // System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

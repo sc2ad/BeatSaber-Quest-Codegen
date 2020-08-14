@@ -24,7 +24,7 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
@@ -49,7 +49,7 @@ namespace System::Runtime::CompilerServices {
     static void QueueContinuation(System::Action* continuation, bool flowContext);
     // static private System.Void RunAction(System.Object state)
     // Offset: 0x11622B8
-    static void RunAction(::CsObject* state);
+    static void RunAction(::Il2CppObject* state);
     // public System.Void GetResult()
     // Offset: 0xA3E9FC
     void GetResult();

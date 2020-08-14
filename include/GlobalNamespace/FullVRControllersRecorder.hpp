@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     }; // FullVRControllersRecorder/Mode
     // private System.String _recordingFilePath
     // Offset: 0x18
-    ::CsString* recordingFilePath;
+    ::Il2CppString* recordingFilePath;
     // private FullVRControllersRecorder/Mode _mode
     // Offset: 0x20
     GlobalNamespace::FullVRControllersRecorder::Mode mode;

@@ -29,10 +29,10 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // private System.String _uri
     // Offset: 0x38
-    ::CsString* uri;
+    ::Il2CppString* uri;
     // System.String get_Uri()
     // Offset: 0x105FE88
-    ::CsString* get_Uri();
+    ::Il2CppString* get_Uri();
     // static System.Runtime.Remoting.Messaging.CADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
     // Offset: 0x1053B1C
     static System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(System::Runtime::Remoting::Messaging::IMessage* callMsg);
@@ -44,7 +44,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
     // Offset: 0x10601A0
-    ::Array<::CsObject*>* GetArgs(System::Collections::ArrayList* args);
+    ::Array<::Il2CppObject*>* GetArgs(System::Collections::ArrayList* args);
     // System.Int32 get_PropertiesCount()
     // Offset: 0x10601B0
     int get_PropertiesCount();

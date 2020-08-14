@@ -54,13 +54,13 @@ namespace System {
     static System::Reflection::PropertyInfo* ExactPropertyBinding(::Array<System::Reflection::PropertyInfo*>* match, System::Type* returnType, ::Array<System::Type*>* types, ::Array<System::Reflection::ParameterModifier>* modifiers);
     // static private System.Int32 FindMostSpecific(System.Reflection.ParameterInfo[] p1, System.Int32[] paramOrder1, System.Type paramArrayType1, System.Reflection.ParameterInfo[] p2, System.Int32[] paramOrder2, System.Type paramArrayType2, System.Type[] types, System.Object[] args)
     // Offset: 0xC8E720
-    static int FindMostSpecific(::Array<System::Reflection::ParameterInfo*>* p1, ::Array<int>* paramOrder1, System::Type* paramArrayType1, ::Array<System::Reflection::ParameterInfo*>* p2, ::Array<int>* paramOrder2, System::Type* paramArrayType2, ::Array<System::Type*>* types, ::Array<::CsObject*>* args);
+    static int FindMostSpecific(::Array<System::Reflection::ParameterInfo*>* p1, ::Array<int>* paramOrder1, System::Type* paramArrayType1, ::Array<System::Reflection::ParameterInfo*>* p2, ::Array<int>* paramOrder2, System::Type* paramArrayType2, ::Array<System::Type*>* types, ::Array<::Il2CppObject*>* args);
     // static private System.Int32 FindMostSpecificType(System.Type c1, System.Type c2, System.Type t)
     // Offset: 0xC8E388
     static int FindMostSpecificType(System::Type* c1, System::Type* c2, System::Type* t);
     // static private System.Int32 FindMostSpecificMethod(System.Reflection.MethodBase m1, System.Int32[] paramOrder1, System.Type paramArrayType1, System.Reflection.MethodBase m2, System.Int32[] paramOrder2, System.Type paramArrayType2, System.Type[] types, System.Object[] args)
     // Offset: 0xC8CB2C
-    static int FindMostSpecificMethod(System::Reflection::MethodBase* m1, ::Array<int>* paramOrder1, System::Type* paramArrayType1, System::Reflection::MethodBase* m2, ::Array<int>* paramOrder2, System::Type* paramArrayType2, ::Array<System::Type*>* types, ::Array<::CsObject*>* args);
+    static int FindMostSpecificMethod(System::Reflection::MethodBase* m1, ::Array<int>* paramOrder1, System::Type* paramArrayType1, System::Reflection::MethodBase* m2, ::Array<int>* paramOrder2, System::Type* paramArrayType2, ::Array<System::Type*>* types, ::Array<::Il2CppObject*>* args);
     // static private System.Int32 FindMostSpecificField(System.Reflection.FieldInfo cur1, System.Reflection.FieldInfo cur2)
     // Offset: 0xC8D08C
     static int FindMostSpecificField(System::Reflection::FieldInfo* cur1, System::Reflection::FieldInfo* cur2);
@@ -78,26 +78,26 @@ namespace System {
     static System::Reflection::MethodBase* FindMostDerivedNewSlotMeth(::Array<System::Reflection::MethodBase*>* match, int cMatches);
     // static private System.Void ReorderParams(System.Int32[] paramOrder, System.Object[] vars)
     // Offset: 0xC8C998
-    static void ReorderParams(::Array<int>* paramOrder, ::Array<::CsObject*>* vars);
+    static void ReorderParams(::Array<int>* paramOrder, ::Array<::Il2CppObject*>* vars);
     // static private System.Boolean CreateParamOrder(System.Int32[] paramOrder, System.Reflection.ParameterInfo[] pars, System.String[] names)
     // Offset: 0xC8C604
-    static bool CreateParamOrder(::Array<int>* paramOrder, ::Array<System::Reflection::ParameterInfo*>* pars, ::Array<::CsString*>* names);
+    static bool CreateParamOrder(::Array<int>* paramOrder, ::Array<System::Reflection::ParameterInfo*>* pars, ::Array<::Il2CppString*>* names);
     // static private System.Boolean CanConvertPrimitive(System.RuntimeType source, System.RuntimeType target)
     // Offset: 0xC8D7FC
     static bool CanConvertPrimitive(System::RuntimeType* source, System::RuntimeType* target);
     // static private System.Boolean CanConvertPrimitiveObjectToType(System.Object source, System.RuntimeType type)
     // Offset: 0xC8C850
-    static bool CanConvertPrimitiveObjectToType(::CsObject* source, System::RuntimeType* type);
+    static bool CanConvertPrimitiveObjectToType(::Il2CppObject* source, System::RuntimeType* type);
     // public override System.Reflection.MethodBase BindToMethod(System.Reflection.BindingFlags bindingAttr, System.Reflection.MethodBase[] match, System.Object[] args, System.Reflection.ParameterModifier[] modifiers, System.Globalization.CultureInfo cultureInfo, System.String[] names, System.Object state)
     // Offset: 0xC8A6D0
     // Implemented from: System.Reflection.Binder
     // Base method: System.Reflection.MethodBase Binder::BindToMethod(System.Reflection.BindingFlags bindingAttr, System.Reflection.MethodBase[] match, System.Object[] args, System.Reflection.ParameterModifier[] modifiers, System.Globalization.CultureInfo cultureInfo, System.String[] names, System.Object state)
-    System::Reflection::MethodBase* BindToMethod(System::Reflection::BindingFlags bindingAttr, ::Array<System::Reflection::MethodBase*>* match, ::Array<::CsObject*>*& args, ::Array<System::Reflection::ParameterModifier>* modifiers, System::Globalization::CultureInfo* cultureInfo, ::Array<::CsString*>* names, ::CsObject*& state);
+    System::Reflection::MethodBase* BindToMethod(System::Reflection::BindingFlags bindingAttr, ::Array<System::Reflection::MethodBase*>* match, ::Array<::Il2CppObject*>*& args, ::Array<System::Reflection::ParameterModifier>* modifiers, System::Globalization::CultureInfo* cultureInfo, ::Array<::Il2CppString*>* names, ::Il2CppObject*& state);
     // public override System.Reflection.FieldInfo BindToField(System.Reflection.BindingFlags bindingAttr, System.Reflection.FieldInfo[] match, System.Object value, System.Globalization.CultureInfo cultureInfo)
     // Offset: 0xC8CC40
     // Implemented from: System.Reflection.Binder
     // Base method: System.Reflection.FieldInfo Binder::BindToField(System.Reflection.BindingFlags bindingAttr, System.Reflection.FieldInfo[] match, System.Object value, System.Globalization.CultureInfo cultureInfo)
-    System::Reflection::FieldInfo* BindToField(System::Reflection::BindingFlags bindingAttr, ::Array<System::Reflection::FieldInfo*>* match, ::CsObject* value, System::Globalization::CultureInfo* cultureInfo);
+    System::Reflection::FieldInfo* BindToField(System::Reflection::BindingFlags bindingAttr, ::Array<System::Reflection::FieldInfo*>* match, ::Il2CppObject* value, System::Globalization::CultureInfo* cultureInfo);
     // public override System.Reflection.MethodBase SelectMethod(System.Reflection.BindingFlags bindingAttr, System.Reflection.MethodBase[] match, System.Type[] types, System.Reflection.ParameterModifier[] modifiers)
     // Offset: 0xC8D138
     // Implemented from: System.Reflection.Binder
@@ -112,12 +112,12 @@ namespace System {
     // Offset: 0xC8EBC4
     // Implemented from: System.Reflection.Binder
     // Base method: System.Object Binder::ChangeType(System.Object value, System.Type type, System.Globalization.CultureInfo cultureInfo)
-    ::CsObject* ChangeType(::CsObject* value, System::Type* type, System::Globalization::CultureInfo* cultureInfo);
+    ::Il2CppObject* ChangeType(::Il2CppObject* value, System::Type* type, System::Globalization::CultureInfo* cultureInfo);
     // public override System.Void ReorderArgumentArray(System.Object[] args, System.Object state)
     // Offset: 0xC8EC44
     // Implemented from: System.Reflection.Binder
     // Base method: System.Void Binder::ReorderArgumentArray(System.Object[] args, System.Object state)
-    void ReorderArgumentArray(::Array<::CsObject*>*& args, ::CsObject* state);
+    void ReorderArgumentArray(::Array<::Il2CppObject*>*& args, ::Il2CppObject* state);
     // public System.Void .ctor()
     // Offset: 0xC8F7B8
     // Implemented from: System.Reflection.Binder

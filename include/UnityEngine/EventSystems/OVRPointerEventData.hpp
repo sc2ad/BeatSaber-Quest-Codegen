@@ -38,7 +38,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18FB458
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.String PointerEventData::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
   }; // UnityEngine.EventSystems.OVRPointerEventData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

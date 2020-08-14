@@ -15,10 +15,10 @@ namespace System::Diagnostics {
     public:
     // private System.String m_conditionString
     // Offset: 0x10
-    ::CsString* m_conditionString;
+    ::Il2CppString* m_conditionString;
     // public System.Void .ctor(System.String conditionString)
     // Offset: 0xC91D3C
-    static ConditionalAttribute* New_ctor(::CsString* conditionString);
+    static ConditionalAttribute* New_ctor(::Il2CppString* conditionString);
   }; // System.Diagnostics.ConditionalAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public EnvironmentInfoSO GetEnviromentInfoBySerializedName(System.String environmentSerializedName)
     // Offset: 0xBE8B14
-    GlobalNamespace::EnvironmentInfoSO* GetEnviromentInfoBySerializedName(::CsString* environmentSerializedName);
+    GlobalNamespace::EnvironmentInfoSO* GetEnviromentInfoBySerializedName(::Il2CppString* environmentSerializedName);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> GetAllEnvironmentInfosWithType(EnvironmentTypeSO environmentType)
     // Offset: 0xBE7B30
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* GetAllEnvironmentInfosWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);

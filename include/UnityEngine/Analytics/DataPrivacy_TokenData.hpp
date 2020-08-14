@@ -17,12 +17,12 @@ namespace UnityEngine::Analytics {
     public:
     // public System.String url
     // Offset: 0x0
-    ::CsString* url;
+    ::Il2CppString* url;
     // public System.String token
     // Offset: 0x8
-    ::CsString* token;
+    ::Il2CppString* token;
     // Creating value type constructor for type: TokenData
-    TokenData(::CsString* url_ = {}, ::CsString* token_ = {}) : url{url_}, token{token_} {}
+    TokenData(::Il2CppString* url_ = {}, ::Il2CppString* token_ = {}) : url{url_}, token{token_} {}
   }; // UnityEngine.Analytics.DataPrivacy/TokenData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

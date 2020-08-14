@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusPlatformAdditionalContentModel* $$4__this;
     // public System.String levelPackId
     // Offset: 0x28
-    ::CsString* levelPackId;
+    ::Il2CppString* levelPackId;
     // public System.Threading.CancellationToken cancellationToken
     // Offset: 0x30
     System::Threading::CancellationToken cancellationToken;
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0x40
     System::Runtime::CompilerServices::TaskAwaiter $$u__2;
     // Creating value type constructor for type: $OpenLevelPackProductStoreAsync$d__9
-    $OpenLevelPackProductStoreAsync$d__9(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> $$t__builder_ = {}, GlobalNamespace::OculusPlatformAdditionalContentModel* $$4__this_ = {}, ::CsString* levelPackId_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__2_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelPackId{levelPackId_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    $OpenLevelPackProductStoreAsync$d__9(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> $$t__builder_ = {}, GlobalNamespace::OculusPlatformAdditionalContentModel* $$4__this_ = {}, ::Il2CppString* levelPackId_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__2_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelPackId{levelPackId_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // private System.Void MoveNext()
     // Offset: 0xA27DAC
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

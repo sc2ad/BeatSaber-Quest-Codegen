@@ -24,18 +24,18 @@ namespace System {
     public:
     // private System.Object[] keys
     // Offset: 0x0
-    ::Array<::CsObject*>* keys;
+    ::Array<::Il2CppObject*>* keys;
     // private System.Object[] items
     // Offset: 0x8
-    ::Array<::CsObject*>* items;
+    ::Array<::Il2CppObject*>* items;
     // private System.Collections.IComparer comparer
     // Offset: 0x10
     System::Collections::IComparer* comparer;
     // Creating value type constructor for type: SorterObjectArray
-    SorterObjectArray(::Array<::CsObject*>* keys_ = {}, ::Array<::CsObject*>* items_ = {}, System::Collections::IComparer* comparer_ = {}) : keys{keys_}, items{items_}, comparer{comparer_} {}
+    SorterObjectArray(::Array<::Il2CppObject*>* keys_ = {}, ::Array<::Il2CppObject*>* items_ = {}, System::Collections::IComparer* comparer_ = {}) : keys{keys_}, items{items_}, comparer{comparer_} {}
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
     // Offset: 0xA42600
-    static Array::SorterObjectArray* New_ctor(::Array<::CsObject*>* keys, ::Array<::CsObject*>* items, System::Collections::IComparer* comparer);
+    static Array::SorterObjectArray* New_ctor(::Array<::Il2CppObject*>* keys, ::Array<::Il2CppObject*>* items, System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
     // Offset: 0xA42608
     void SwapIfGreaterWithItems(int a, int b);

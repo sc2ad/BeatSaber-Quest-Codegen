@@ -13,7 +13,7 @@ namespace System::Collections {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Collections
 namespace System::Collections {
@@ -22,7 +22,7 @@ namespace System::Collections {
     public:
     // public System.Int32 CompareTo(System.Object other, System.Collections.IComparer comparer)
     // Offset: 0xFFFFFFFF
-    int System_Collections_IStructuralComparable_CompareTo(::CsObject* other, System::Collections::IComparer* comparer);
+    int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, System::Collections::IComparer* comparer);
   }; // System.Collections.IStructuralComparable
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

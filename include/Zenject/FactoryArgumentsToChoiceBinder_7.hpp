@@ -71,7 +71,7 @@ namespace Zenject {
     }
     // public Zenject.FactoryToChoiceBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> WithFactoryArguments(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    Zenject::FactoryToChoiceBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* WithFactoryArguments(::Array<::CsObject*>* args) {
+    Zenject::FactoryToChoiceBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* WithFactoryArguments(::Array<::Il2CppObject*>* args) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::FactoryToChoiceBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(this, "WithFactoryArguments", args)));
     }
     // public Zenject.FactoryToChoiceBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> WithFactoryArgumentsExplicit(System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)

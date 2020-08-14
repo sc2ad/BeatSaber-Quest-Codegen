@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15129F4
-    static IVRInput::_GetActionSetHandle* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRInput::_GetActionSetHandle* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.String pchActionSetName, System.UInt64 pHandle)
     // Offset: 0x1512A08
-    OVR::OpenVR::EVRInputError Invoke(::CsString* pchActionSetName, uint64_t& pHandle);
+    OVR::OpenVR::EVRInputError Invoke(::Il2CppString* pchActionSetName, uint64_t& pHandle);
     // public System.IAsyncResult BeginInvoke(System.String pchActionSetName, System.UInt64 pHandle, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1512E14
-    System::IAsyncResult* BeginInvoke(::CsString* pchActionSetName, uint64_t& pHandle, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchActionSetName, uint64_t& pHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.UInt64 pHandle, System.IAsyncResult result)
     // Offset: 0x1512EB0
     OVR::OpenVR::EVRInputError EndInvoke(uint64_t& pHandle, System::IAsyncResult* result);

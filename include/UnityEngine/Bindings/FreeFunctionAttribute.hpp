@@ -24,12 +24,12 @@ namespace UnityEngine::Bindings {
     // Offset: 0x196A794
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name)
-    static FreeFunctionAttribute* New_ctor(::CsString* name);
+    static FreeFunctionAttribute* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.Boolean isThreadSafe)
     // Offset: 0x196A7E8
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name, System.Boolean isThreadSafe)
-    static FreeFunctionAttribute* New_ctor(::CsString* name, bool isThreadSafe);
+    static FreeFunctionAttribute* New_ctor(::Il2CppString* name, bool isThreadSafe);
   }; // UnityEngine.Bindings.FreeFunctionAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

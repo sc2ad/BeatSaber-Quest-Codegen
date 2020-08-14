@@ -15,7 +15,7 @@ namespace UnityEngine::Bindings {
     public:
     // private System.String <Name>k__BackingField
     // Offset: 0x10
-    ::CsString* Name;
+    ::Il2CppString* Name;
     // private System.Boolean <IsThreadSafe>k__BackingField
     // Offset: 0x18
     bool IsThreadSafe;
@@ -30,7 +30,7 @@ namespace UnityEngine::Bindings {
     bool HasExplicitThis;
     // public System.Void set_Name(System.String value)
     // Offset: 0x196A9C4
-    void set_Name(::CsString* value);
+    void set_Name(::Il2CppString* value);
     // public System.Void set_IsThreadSafe(System.Boolean value)
     // Offset: 0x196A9CC
     void set_IsThreadSafe(bool value);
@@ -45,13 +45,13 @@ namespace UnityEngine::Bindings {
     void set_HasExplicitThis(bool value);
     // public System.Void .ctor(System.String name)
     // Offset: 0x196A9FC
-    static NativeMethodAttribute* New_ctor(::CsString* name);
+    static NativeMethodAttribute* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.Boolean isFreeFunction)
     // Offset: 0x196A7BC
-    static NativeMethodAttribute* New_ctor(::CsString* name, bool isFreeFunction);
+    static NativeMethodAttribute* New_ctor(::Il2CppString* name, bool isFreeFunction);
     // public System.Void .ctor(System.String name, System.Boolean isFreeFunction, System.Boolean isThreadSafe)
     // Offset: 0x196A81C
-    static NativeMethodAttribute* New_ctor(::CsString* name, bool isFreeFunction, bool isThreadSafe);
+    static NativeMethodAttribute* New_ctor(::Il2CppString* name, bool isFreeFunction, bool isThreadSafe);
     // public System.Void .ctor()
     // Offset: 0x196A78C
     // Implemented from: System.Attribute

@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16BE9E8
-    static IVRRenderModels::_LoadRenderModel_Async* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRRenderModels::_LoadRenderModel_Async* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRRenderModelError Invoke(System.String pchRenderModelName, System.IntPtr ppRenderModel)
     // Offset: 0x16BE9FC
-    Valve::VR::EVRRenderModelError Invoke(::CsString* pchRenderModelName, System::IntPtr& ppRenderModel);
+    Valve::VR::EVRRenderModelError Invoke(::Il2CppString* pchRenderModelName, System::IntPtr& ppRenderModel);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.IntPtr ppRenderModel, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16BEE08
-    System::IAsyncResult* BeginInvoke(::CsString* pchRenderModelName, System::IntPtr& ppRenderModel, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, System::IntPtr& ppRenderModel, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRRenderModelError EndInvoke(System.IntPtr ppRenderModel, System.IAsyncResult result)
     // Offset: 0x16BEEA4
     Valve::VR::EVRRenderModelError EndInvoke(System::IntPtr& ppRenderModel, System::IAsyncResult* result);

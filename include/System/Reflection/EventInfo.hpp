@@ -76,7 +76,7 @@ namespace System::Reflection {
     // Offset: 0x136580C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::Equals(System.Object obj)
-    bool Equals(::CsObject* obj);
+    bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
     // Offset: 0x1365818
     // Implemented from: System.Reflection.MemberInfo

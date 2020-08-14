@@ -68,18 +68,6 @@ namespace GlobalNamespace {
     // private SongPreviewPlayer _songPreviewPlayer
     // Offset: 0x90
     GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
-    // static field const value: static private System.Single kWaitBeforePlayPreviewAfterPreviewStartValueChanged
-    static constexpr const float kWaitBeforePlayPreviewAfterPreviewStartValueChanged = 1;
-    // Get static field: static private System.Single kWaitBeforePlayPreviewAfterPreviewStartValueChanged
-    static float _get_kWaitBeforePlayPreviewAfterPreviewStartValueChanged();
-    // Set static field: static private System.Single kWaitBeforePlayPreviewAfterPreviewStartValueChanged
-    static void _set_kWaitBeforePlayPreviewAfterPreviewStartValueChanged(float value);
-    // static field const value: static private System.Single kMinValueChangeToInstantPlayPreview
-    static constexpr const float kMinValueChangeToInstantPlayPreview = 3;
-    // Get static field: static private System.Single kMinValueChangeToInstantPlayPreview
-    static float _get_kMinValueChangeToInstantPlayPreview();
-    // Set static field: static private System.Single kMinValueChangeToInstantPlayPreview
-    static void _set_kMinValueChangeToInstantPlayPreview(float value);
     // private System.Action didPressPlayButtonEvent
     // Offset: 0x98
     System::Action* didPressPlayButtonEvent;
@@ -95,6 +83,18 @@ namespace GlobalNamespace {
     // private IBeatmapLevel _level
     // Offset: 0xB0
     GlobalNamespace::IBeatmapLevel* level;
+    // static field const value: static private System.Single kWaitBeforePlayPreviewAfterPreviewStartValueChanged
+    static constexpr const float kWaitBeforePlayPreviewAfterPreviewStartValueChanged = 1;
+    // Get static field: static private System.Single kWaitBeforePlayPreviewAfterPreviewStartValueChanged
+    static float _get_kWaitBeforePlayPreviewAfterPreviewStartValueChanged();
+    // Set static field: static private System.Single kWaitBeforePlayPreviewAfterPreviewStartValueChanged
+    static void _set_kWaitBeforePlayPreviewAfterPreviewStartValueChanged(float value);
+    // static field const value: static private System.Single kMinValueChangeToInstantPlayPreview
+    static constexpr const float kMinValueChangeToInstantPlayPreview = 3;
+    // Get static field: static private System.Single kMinValueChangeToInstantPlayPreview
+    static float _get_kMinValueChangeToInstantPlayPreview();
+    // Set static field: static private System.Single kMinValueChangeToInstantPlayPreview
+    static void _set_kMinValueChangeToInstantPlayPreview(float value);
     // public System.Void add_didPressPlayButtonEvent(System.Action value)
     // Offset: 0xC192F4
     void add_didPressPlayButtonEvent(System::Action* value);

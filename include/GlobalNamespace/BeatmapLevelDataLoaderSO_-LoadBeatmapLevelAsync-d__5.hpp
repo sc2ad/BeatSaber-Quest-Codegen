@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -43,12 +43,12 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelDataLoaderSO* $$4__this;
     // public System.String levelID
     // Offset: 0x28
-    ::CsString* levelID;
+    ::Il2CppString* levelID;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelDataSO> <>u__1
     // Offset: 0x30
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelDataSO*> $$u__1;
     // Creating value type constructor for type: $LoadBeatmapLevelAsync$d__5
-    $LoadBeatmapLevelAsync$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevel*> $$t__builder_ = {}, GlobalNamespace::BeatmapLevelDataLoaderSO* $$4__this_ = {}, ::CsString* levelID_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelDataSO*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelID{levelID_}, $$u__1{$$u__1_} {}
+    $LoadBeatmapLevelAsync$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevel*> $$t__builder_ = {}, GlobalNamespace::BeatmapLevelDataLoaderSO* $$4__this_ = {}, ::Il2CppString* levelID_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelDataSO*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelID{levelID_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA2689C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

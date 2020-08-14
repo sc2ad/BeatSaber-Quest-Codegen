@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x169A0A4
-    static IVROverlay::_SetKeyboardPositionForOverlay* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVROverlay::_SetKeyboardPositionForOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.HmdRect2_t avoidRect)
     // Offset: 0x169A0B8
     void Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::HmdRect2_t avoidRect);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.HmdRect2_t avoidRect, System.AsyncCallback callback, System.Object object)
     // Offset: 0x169A378
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::HmdRect2_t avoidRect, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::HmdRect2_t avoidRect, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x169A428
     void EndInvoke(System::IAsyncResult* result);

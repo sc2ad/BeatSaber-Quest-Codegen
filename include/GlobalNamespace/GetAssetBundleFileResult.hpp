@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -20,12 +20,12 @@ namespace GlobalNamespace {
     bool isError;
     // public readonly System.String assetBundlePath
     // Offset: 0x8
-    ::CsString* assetBundlePath;
+    ::Il2CppString* assetBundlePath;
     // Creating value type constructor for type: GetAssetBundleFileResult
-    GetAssetBundleFileResult(bool isError_ = {}, ::CsString* assetBundlePath_ = {}) : isError{isError_}, assetBundlePath{assetBundlePath_} {}
+    GetAssetBundleFileResult(bool isError_ = {}, ::Il2CppString* assetBundlePath_ = {}) : isError{isError_}, assetBundlePath{assetBundlePath_} {}
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
     // Offset: 0xA26698
-    static GetAssetBundleFileResult* New_ctor(bool isError, ::CsString* assetBundlePath);
+    static GetAssetBundleFileResult* New_ctor(bool isError, ::Il2CppString* assetBundlePath);
   }; // GetAssetBundleFileResult
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

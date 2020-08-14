@@ -102,7 +102,7 @@ namespace UnityEngine {
     UnityEngine::Vector2 get_normalized();
     // public System.String ToString(System.String format)
     // Offset: 0xA43C84
-    ::CsString* ToString(::CsString* format);
+    ::Il2CppString* ToString(::Il2CppString* format);
     // static public UnityEngine.Vector2 Perpendicular(UnityEngine.Vector2 inDirection)
     // Offset: 0x13938F8
     static UnityEngine::Vector2 Perpendicular(UnityEngine::Vector2 inDirection);
@@ -143,7 +143,7 @@ namespace UnityEngine {
     // Offset: 0xA43C7C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::CsString* ToString();
+    ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0xA43C8C
     // Implemented from: System.ValueType
@@ -153,7 +153,7 @@ namespace UnityEngine {
     // Offset: 0xA43CC8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
-    bool Equals(::CsObject* other);
+    bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Vector2 other)
     // Offset: 0xA43CD0
     // Implemented from: System.IEquatable`1

@@ -33,10 +33,10 @@ namespace System::Diagnostics::Tracing {
     bool get_Debug();
     // public System.Void DebugFacilityMessage(System.String Facility, System.String Message)
     // Offset: 0xD9AC38
-    void DebugFacilityMessage(::CsString* Facility, ::CsString* Message);
+    void DebugFacilityMessage(::Il2CppString* Facility, ::Il2CppString* Message);
     // public System.Void DebugFacilityMessage1(System.String Facility, System.String Message, System.String Arg)
     // Offset: 0xD9AC4C
-    void DebugFacilityMessage1(::CsString* Facility, ::CsString* Message, ::CsString* Arg);
+    void DebugFacilityMessage1(::Il2CppString* Facility, ::Il2CppString* Message, ::Il2CppString* Arg);
     // public System.Void SetActivityId(System.Guid Id)
     // Offset: 0xD9AC64
     void SetActivityId(System::Guid Id);

@@ -57,7 +57,7 @@ namespace System::Net::Sockets {
     // Offset: 0x1212C48
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Int32 error, System.String message)
-    static SocketException* New_ctor(int error, ::CsString* message);
+    static SocketException* New_ctor(int error, ::Il2CppString* message);
     // public System.Void .ctor(System.Int32 errorCode)
     // Offset: 0x1210AA4
     // Implemented from: System.ComponentModel.Win32Exception
@@ -75,7 +75,7 @@ namespace System::Net::Sockets {
     // Offset: 0x1212D58
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
   }; // System.Net.Sockets.SocketException
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

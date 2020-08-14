@@ -17,7 +17,7 @@ namespace UnityEngine {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct CsString;
+struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -26,12 +26,12 @@ namespace GlobalNamespace {
     public:
     // public System.String texturePropertyName
     // Offset: 0x0
-    ::CsString* texturePropertyName;
+    ::Il2CppString* texturePropertyName;
     // public UnityEngine.Material material
     // Offset: 0x8
     UnityEngine::Material* material;
     // Creating value type constructor for type: MaterialPropertyNameCouple
-    MaterialPropertyNameCouple(::CsString* texturePropertyName_ = {}, UnityEngine::Material* material_ = {}) : texturePropertyName{texturePropertyName_}, material{material_} {}
+    MaterialPropertyNameCouple(::Il2CppString* texturePropertyName_ = {}, UnityEngine::Material* material_ = {}) : texturePropertyName{texturePropertyName_}, material{material_} {}
   }; // Noise3DTexturesGenerator/MaterialPropertyNameCouple
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

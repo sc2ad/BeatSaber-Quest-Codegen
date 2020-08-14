@@ -39,10 +39,6 @@ namespace GlobalNamespace {
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
-    // Get static field: static private readonly System.Int32 _spawnRotationID
-    static int _get__spawnRotationID();
-    // Set static field: static private readonly System.Int32 _spawnRotationID
-    static void _set__spawnRotationID(int value);
     // private System.Action`1<UnityEngine.Quaternion> didRotateEvent
     // Offset: 0x28
     System::Action_1<UnityEngine::Quaternion>* didRotateEvent;
@@ -55,6 +51,10 @@ namespace GlobalNamespace {
     // private System.Single _currentRotation
     // Offset: 0x40
     float currentRotation;
+    // Get static field: static private readonly System.Int32 _spawnRotationID
+    static int _get__spawnRotationID();
+    // Set static field: static private readonly System.Int32 _spawnRotationID
+    static void _set__spawnRotationID(int value);
     // public System.Void add_didRotateEvent(System.Action`1<UnityEngine.Quaternion> value)
     // Offset: 0xBE82DC
     void add_didRotateEvent(System::Action_1<UnityEngine::Quaternion>* value);

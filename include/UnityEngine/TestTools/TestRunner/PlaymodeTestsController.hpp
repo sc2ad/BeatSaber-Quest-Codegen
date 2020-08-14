@@ -62,7 +62,7 @@ namespace UnityEngine::TestTools::TestRunner {
     System::Collections::IEnumerator* m_TestSteps;
     // private System.Collections.Generic.List`1<System.String> m_AssembliesWithTests
     // Offset: 0x20
-    System::Collections::Generic::List_1<::CsString*>* m_AssembliesWithTests;
+    System::Collections::Generic::List_1<::Il2CppString*>* m_AssembliesWithTests;
     // UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent
     // Offset: 0x28
     UnityEngine::TestTools::TestRunner::TestStartedEvent* testStartedEvent;
@@ -75,24 +75,24 @@ namespace UnityEngine::TestTools::TestRunner {
     // UnityEngine.TestTools.TestRunner.RunFinishedEvent runFinishedEvent
     // Offset: 0x40
     UnityEngine::TestTools::TestRunner::RunFinishedEvent* runFinishedEvent;
-    // static field const value: static System.String kPlaymodeTestControllerName
-    static constexpr const char* kPlaymodeTestControllerName = "Code-based tests runner";
-    // Get static field: static System.String kPlaymodeTestControllerName
-    static ::CsString* _get_kPlaymodeTestControllerName();
-    // Set static field: static System.String kPlaymodeTestControllerName
-    static void _set_kPlaymodeTestControllerName(::CsString* value);
     // public UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings settings
     // Offset: 0x48
     UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings* settings;
     // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestAssemblyRunner m_Runner
     // Offset: 0x50
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner* m_Runner;
+    // static field const value: static System.String kPlaymodeTestControllerName
+    static constexpr const char* kPlaymodeTestControllerName = "Code-based tests runner";
+    // Get static field: static System.String kPlaymodeTestControllerName
+    static ::Il2CppString* _get_kPlaymodeTestControllerName();
+    // Set static field: static System.String kPlaymodeTestControllerName
+    static void _set_kPlaymodeTestControllerName(::Il2CppString* value);
     // public System.Collections.Generic.List`1<System.String> get_AssembliesWithTests()
     // Offset: 0xE435DC
-    System::Collections::Generic::List_1<::CsString*>* get_AssembliesWithTests();
+    System::Collections::Generic::List_1<::Il2CppString*>* get_AssembliesWithTests();
     // public System.Void set_AssembliesWithTests(System.Collections.Generic.List`1<System.String> value)
     // Offset: 0xE435E4
-    void set_AssembliesWithTests(System::Collections::Generic::List_1<::CsString*>* value);
+    void set_AssembliesWithTests(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public System.Collections.IEnumerator Start()
     // Offset: 0xE435EC
     System::Collections::IEnumerator* Start();

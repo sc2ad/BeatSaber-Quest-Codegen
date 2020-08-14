@@ -42,7 +42,7 @@ namespace System::Diagnostics::Tracing {
     uint8_t Version;
     // private System.String <Message>k__BackingField
     // Offset: 0x28
-    ::CsString* Message;
+    ::Il2CppString* Message;
     // private System.Diagnostics.Tracing.EventTags <Tags>k__BackingField
     // Offset: 0x30
     System::Diagnostics::Tracing::EventTags Tags;
@@ -93,10 +93,10 @@ namespace System::Diagnostics::Tracing {
     uint8_t get_Version();
     // public System.String get_Message()
     // Offset: 0xC97E94
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
     // public System.Void set_Message(System.String value)
     // Offset: 0xC97E9C
-    void set_Message(::CsString* value);
+    void set_Message(::Il2CppString* value);
     // public System.Diagnostics.Tracing.EventTags get_Tags()
     // Offset: 0xC97EA4
     System::Diagnostics::Tracing::EventTags get_Tags();

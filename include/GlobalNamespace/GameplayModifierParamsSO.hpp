@@ -22,10 +22,10 @@ namespace GlobalNamespace {
     public:
     // private System.String _modifierNameLocalizationKey
     // Offset: 0x18
-    ::CsString* modifierNameLocalizationKey;
+    ::Il2CppString* modifierNameLocalizationKey;
     // private System.String _descriptionLocalizationKey
     // Offset: 0x20
-    ::CsString* descriptionLocalizationKey;
+    ::Il2CppString* descriptionLocalizationKey;
     // private System.Single _multiplier
     // Offset: 0x28
     float multiplier;
@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* mutuallyExclusives;
     // public System.String get_modifierNameLocalizationKey()
     // Offset: 0xB3C430
-    ::CsString* get_modifierNameLocalizationKey();
+    ::Il2CppString* get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
     // Offset: 0xB3C438
-    ::CsString* get_descriptionLocalizationKey();
+    ::Il2CppString* get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
     // Offset: 0xB3C440
     float get_multiplier();

@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::ContentSizeFitter* contentSizeFilter;
     // private System.String[] _labels
     // Offset: 0x78
-    ::Array<::CsString*>* labels;
+    ::Array<::Il2CppString*>* labels;
     // private TabBarViewController/TabBarItem[] _items
     // Offset: 0x80
     ::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items;

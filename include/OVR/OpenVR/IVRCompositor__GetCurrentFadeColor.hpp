@@ -32,13 +32,13 @@ namespace OVR::OpenVR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x15093B0
-    static IVRCompositor::_GetCurrentFadeColor* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRCompositor::_GetCurrentFadeColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.HmdColor_t Invoke(System.Boolean bBackground)
     // Offset: 0x15093C4
     OVR::OpenVR::HmdColor_t Invoke(bool bBackground);
     // public System.IAsyncResult BeginInvoke(System.Boolean bBackground, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1509654
-    System::IAsyncResult* BeginInvoke(bool bBackground, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(bool bBackground, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.HmdColor_t EndInvoke(System.IAsyncResult result)
     // Offset: 0x15096E4
     OVR::OpenVR::HmdColor_t EndInvoke(System::IAsyncResult* result);

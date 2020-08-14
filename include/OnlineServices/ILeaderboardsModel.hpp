@@ -45,7 +45,7 @@ namespace OnlineServices {
     public:
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0xFFFFFFFF
-    ::CsString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);

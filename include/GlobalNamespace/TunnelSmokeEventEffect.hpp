@@ -39,6 +39,15 @@ namespace GlobalNamespace {
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
+    // private UnityEngine.ParticleSystem/MainModule _mainModule
+    // Offset: 0x30
+    UnityEngine::ParticleSystem::MainModule mainModule;
+    // private UnityEngine.ParticleSystem/ShapeModule _shapeModule
+    // Offset: 0x38
+    UnityEngine::ParticleSystem::ShapeModule shapeModule;
+    // private UnityEngine.ParticleSystem/Particle[] _particles
+    // Offset: 0x40
+    ::Array<UnityEngine::ParticleSystem::Particle>* particles;
     // static field const value: static private System.Single kSpeedMultiplier
     static constexpr const float kSpeedMultiplier = 5;
     // Get static field: static private System.Single kSpeedMultiplier
@@ -51,15 +60,6 @@ namespace GlobalNamespace {
     static int _get_kMaxParticles();
     // Set static field: static private System.Int32 kMaxParticles
     static void _set_kMaxParticles(int value);
-    // private UnityEngine.ParticleSystem/MainModule _mainModule
-    // Offset: 0x30
-    UnityEngine::ParticleSystem::MainModule mainModule;
-    // private UnityEngine.ParticleSystem/ShapeModule _shapeModule
-    // Offset: 0x38
-    UnityEngine::ParticleSystem::ShapeModule shapeModule;
-    // private UnityEngine.ParticleSystem/Particle[] _particles
-    // Offset: 0x40
-    ::Array<UnityEngine::ParticleSystem::Particle>* particles;
     // protected System.Void Start()
     // Offset: 0xC447E8
     void Start();

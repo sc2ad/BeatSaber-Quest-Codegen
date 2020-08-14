@@ -37,19 +37,19 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* achievementsIds;
     // private System.Collections.Generic.Dictionary`2<System.String,System.Int32> _achievementIdToTrophyId
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<::CsString*, int>* achievementIdToTrophyId;
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* achievementIdToTrophyId;
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.String> _trophyIdToAchievementId
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<int, ::CsString*>* trophyIdToAchievementId;
+    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* trophyIdToAchievementId;
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
     // Offset: 0xBCDD28
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();
     // public System.Boolean GetTrophyId(System.String achievementId, System.Int32 trophyId)
     // Offset: 0xBCDEF0
-    bool GetTrophyId(::CsString* achievementId, int& trophyId);
+    bool GetTrophyId(::Il2CppString* achievementId, int& trophyId);
     // public System.Boolean GetAchievementId(System.Int32 trophyId, System.String achievementId)
     // Offset: 0xBCDF64
-    bool GetAchievementId(int trophyId, ::CsString*& achievementId);
+    bool GetAchievementId(int trophyId, ::Il2CppString*& achievementId);
     // protected override System.Void OnEnable()
     // Offset: 0xBCDD30
     // Implemented from: PersistentScriptableObject

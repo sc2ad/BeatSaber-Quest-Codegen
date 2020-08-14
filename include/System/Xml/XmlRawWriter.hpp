@@ -42,7 +42,7 @@ namespace System::Xml {
     void WriteXmlDeclaration(System::Xml::XmlStandalone standalone);
     // System.Void WriteXmlDeclaration(System.String xmldecl)
     // Offset: 0x11A3A54
-    void WriteXmlDeclaration(::CsString* xmldecl);
+    void WriteXmlDeclaration(::Il2CppString* xmldecl);
     // System.Void StartElementContent()
     // Offset: 0xFFFFFFFF
     void StartElementContent();
@@ -51,19 +51,19 @@ namespace System::Xml {
     void OnRootElement(System::Xml::ConformanceLevel conformanceLevel);
     // System.Void WriteEndElement(System.String prefix, System.String localName, System.String ns)
     // Offset: 0xFFFFFFFF
-    void WriteEndElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
+    void WriteEndElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // System.Void WriteFullEndElement(System.String prefix, System.String localName, System.String ns)
     // Offset: 0x11A3A5C
-    void WriteFullEndElement(::CsString* prefix, ::CsString* localName, ::CsString* ns);
+    void WriteFullEndElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // System.Void WriteNamespaceDeclaration(System.String prefix, System.String ns)
     // Offset: 0xFFFFFFFF
-    void WriteNamespaceDeclaration(::CsString* prefix, ::CsString* ns);
+    void WriteNamespaceDeclaration(::Il2CppString* prefix, ::Il2CppString* ns);
     // System.Boolean get_SupportsNamespaceDeclarationInChunks()
     // Offset: 0x11A3A6C
     bool get_SupportsNamespaceDeclarationInChunks();
     // System.Void WriteStartNamespaceDeclaration(System.String prefix)
     // Offset: 0x11A3A74
-    void WriteStartNamespaceDeclaration(::CsString* prefix);
+    void WriteStartNamespaceDeclaration(::Il2CppString* prefix);
     // System.Void WriteEndNamespaceDeclaration()
     // Offset: 0x11A3AD4
     void WriteEndNamespaceDeclaration();
@@ -82,7 +82,7 @@ namespace System::Xml {
     // Offset: 0x11A3644
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    void WriteDocType(::CsString* name, ::CsString* pubid, ::CsString* sysid, ::CsString* subset);
+    void WriteDocType(::Il2CppString* name, ::Il2CppString* pubid, ::Il2CppString* sysid, ::Il2CppString* subset);
     // public override System.Void WriteEndElement()
     // Offset: 0x11A3648
     // Implemented from: System.Xml.XmlWriter
@@ -102,7 +102,7 @@ namespace System::Xml {
     // Offset: 0x11A3758
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.String XmlWriter::LookupPrefix(System.String ns)
-    ::CsString* LookupPrefix(::CsString* ns);
+    ::Il2CppString* LookupPrefix(::Il2CppString* ns);
     // public override System.Xml.WriteState get_WriteState()
     // Offset: 0x11A37C8
     // Implemented from: System.Xml.XmlWriter
@@ -112,7 +112,7 @@ namespace System::Xml {
     // Offset: 0x11A3838
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteCData(System.String text)
-    void WriteCData(::CsString* text);
+    void WriteCData(::Il2CppString* text);
     // public override System.Void WriteCharEntity(System.Char ch)
     // Offset: 0x11A3848
     // Implemented from: System.Xml.XmlWriter
@@ -127,7 +127,7 @@ namespace System::Xml {
     // Offset: 0x11A39A0
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteWhitespace(System.String ws)
-    void WriteWhitespace(::CsString* ws);
+    void WriteWhitespace(::Il2CppString* ws);
     // public override System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x11A39B0
     // Implemented from: System.Xml.XmlWriter
@@ -142,12 +142,12 @@ namespace System::Xml {
     // Offset: 0x11A3A28
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteRaw(System.String data)
-    void WriteRaw(::CsString* data);
+    void WriteRaw(::Il2CppString* data);
     // public override System.Void WriteValue(System.String value)
     // Offset: 0x11A3A38
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteValue(System.String value)
-    void WriteValue(::CsString* value);
+    void WriteValue(::Il2CppString* value);
     // protected System.Void .ctor()
     // Offset: 0x1199DF8
     // Implemented from: System.Xml.XmlWriter

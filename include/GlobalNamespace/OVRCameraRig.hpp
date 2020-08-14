@@ -74,31 +74,31 @@ namespace GlobalNamespace {
     bool skipUpdate;
     // protected readonly System.String trackingSpaceName
     // Offset: 0x70
-    ::CsString* trackingSpaceName;
+    ::Il2CppString* trackingSpaceName;
     // protected readonly System.String trackerAnchorName
     // Offset: 0x78
-    ::CsString* trackerAnchorName;
+    ::Il2CppString* trackerAnchorName;
     // protected readonly System.String leftEyeAnchorName
     // Offset: 0x80
-    ::CsString* leftEyeAnchorName;
+    ::Il2CppString* leftEyeAnchorName;
     // protected readonly System.String centerEyeAnchorName
     // Offset: 0x88
-    ::CsString* centerEyeAnchorName;
+    ::Il2CppString* centerEyeAnchorName;
     // protected readonly System.String rightEyeAnchorName
     // Offset: 0x90
-    ::CsString* rightEyeAnchorName;
+    ::Il2CppString* rightEyeAnchorName;
     // protected readonly System.String leftHandAnchorName
     // Offset: 0x98
-    ::CsString* leftHandAnchorName;
+    ::Il2CppString* leftHandAnchorName;
     // protected readonly System.String rightHandAnchorName
     // Offset: 0xA0
-    ::CsString* rightHandAnchorName;
+    ::Il2CppString* rightHandAnchorName;
     // protected readonly System.String leftControllerAnchorName
     // Offset: 0xA8
-    ::CsString* leftControllerAnchorName;
+    ::Il2CppString* leftControllerAnchorName;
     // protected readonly System.String rightControllerAnchorName
     // Offset: 0xB0
-    ::CsString* rightControllerAnchorName;
+    ::Il2CppString* rightControllerAnchorName;
     // protected UnityEngine.Camera _centerEyeCamera
     // Offset: 0xB8
     UnityEngine::Camera* centerEyeCamera;
@@ -203,7 +203,7 @@ namespace GlobalNamespace {
     void EnsureGameObjectIntegrity();
     // protected UnityEngine.Transform ConfigureAnchor(UnityEngine.Transform root, System.String name)
     // Offset: 0xCC7BD4
-    UnityEngine::Transform* ConfigureAnchor(UnityEngine::Transform* root, ::CsString* name);
+    UnityEngine::Transform* ConfigureAnchor(UnityEngine::Transform* root, ::Il2CppString* name);
     // public UnityEngine.Matrix4x4 ComputeTrackReferenceMatrix()
     // Offset: 0xCC7E0C
     UnityEngine::Matrix4x4 ComputeTrackReferenceMatrix();

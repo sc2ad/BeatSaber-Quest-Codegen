@@ -32,9 +32,9 @@ namespace OnlineServices::API {
     OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     // Offset: 0x28
-    System::Runtime::CompilerServices::TaskAwaiter_1<::CsString*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1;
     // Creating value type constructor for type: $LogOut$d__7
-    $LogOut$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::CsString*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
+    $LogOut$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA27E64
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

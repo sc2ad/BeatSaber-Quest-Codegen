@@ -42,7 +42,7 @@ namespace RootMotion::FinalIK {
     void set_initiated(bool value);
     // public System.Boolean IsValid(System.String errorMessage)
     // Offset: 0x1369B78
-    bool IsValid(::CsString*& errorMessage);
+    bool IsValid(::Il2CppString*& errorMessage);
     // public System.Void AutoDetect()
     // Offset: 0x1369C04
     void AutoDetect();

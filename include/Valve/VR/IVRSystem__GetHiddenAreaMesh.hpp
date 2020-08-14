@@ -36,13 +36,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0x16C975C
-    static IVRSystem::_GetHiddenAreaMesh* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRSystem::_GetHiddenAreaMesh* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.HiddenAreaMesh_t Invoke(Valve.VR.EVREye eEye, Valve.VR.EHiddenAreaMeshType type)
     // Offset: 0x16C9770
     Valve::VR::HiddenAreaMesh_t Invoke(Valve::VR::EVREye eEye, Valve::VR::EHiddenAreaMeshType type);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, Valve.VR.EHiddenAreaMeshType type, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16C9A04
-    System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, Valve::VR::EHiddenAreaMeshType type, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, Valve::VR::EHiddenAreaMeshType type, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.HiddenAreaMesh_t EndInvoke(System.IAsyncResult result)
     // Offset: 0x16C9AAC
     Valve::VR::HiddenAreaMesh_t EndInvoke(System::IAsyncResult* result);

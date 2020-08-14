@@ -26,22 +26,22 @@ namespace OnlineServices::API {
     int $$1__state;
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
     // Offset: 0x8
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::CsString*> $$t__builder;
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder;
     // public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
     // Offset: 0x20
     OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this;
     // public System.String uri
     // Offset: 0x28
-    ::CsString* uri;
+    ::Il2CppString* uri;
     // public System.String method
     // Offset: 0x30
-    ::CsString* method;
+    ::Il2CppString* method;
     // public System.String bearerToken
     // Offset: 0x38
-    ::CsString* bearerToken;
+    ::Il2CppString* bearerToken;
     // public System.String bodyData
     // Offset: 0x40
-    ::CsString* bodyData;
+    ::Il2CppString* bodyData;
     // private OnlineServices.API.HTTPLeaderboardsOathHelper/<>c__DisplayClass11_1 <>8__1
     // Offset: 0x48
     OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass11_1* $$8__1;
@@ -52,7 +52,7 @@ namespace OnlineServices::API {
     // Offset: 0x58
     System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1;
     // Creating value type constructor for type: $SendWebRequestAsync$d__11
-    $SendWebRequestAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::CsString*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, ::CsString* uri_ = {}, ::CsString* method_ = {}, ::CsString* bearerToken_ = {}, ::CsString* bodyData_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass11_1* $$8__1_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass11_0* $$8__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, uri{uri_}, method{method_}, bearerToken{bearerToken_}, bodyData{bodyData_}, $$8__1{$$8__1_}, $$8__2{$$8__2_}, $$u__1{$$u__1_} {}
+    $SendWebRequestAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, ::Il2CppString* uri_ = {}, ::Il2CppString* method_ = {}, ::Il2CppString* bearerToken_ = {}, ::Il2CppString* bodyData_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass11_1* $$8__1_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass11_0* $$8__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, uri{uri_}, method{method_}, bearerToken{bearerToken_}, bodyData{bodyData_}, $$8__1{$$8__1_}, $$8__2{$$8__2_}, $$u__1{$$u__1_} {}
     // private System.Void MoveNext()
     // Offset: 0xA27EA0
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine

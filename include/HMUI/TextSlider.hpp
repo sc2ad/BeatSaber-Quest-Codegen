@@ -160,7 +160,7 @@ namespace HMUI {
     bool MayDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.String TextForNormalizedValue(System.Single normalizedValue)
     // Offset: 0x10E63CC
-    ::CsString* TextForNormalizedValue(float normalizedValue);
+    ::Il2CppString* TextForNormalizedValue(float normalizedValue);
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
     // Offset: 0x10E58BC
     // Implemented from: UnityEngine.UI.ICanvasElement

@@ -15,19 +15,19 @@ namespace System {
     public:
     // private System.String _message
     // Offset: 0x10
-    ::CsString* message;
+    ::Il2CppString* message;
     // private System.Boolean _error
     // Offset: 0x18
     bool error;
     // public System.Void .ctor(System.String message)
     // Offset: 0x1359E8C
-    static ObsoleteAttribute* New_ctor(::CsString* message);
+    static ObsoleteAttribute* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Boolean error)
     // Offset: 0x1359EC8
-    static ObsoleteAttribute* New_ctor(::CsString* message, bool error);
+    static ObsoleteAttribute* New_ctor(::Il2CppString* message, bool error);
     // public System.String get_Message()
     // Offset: 0x1359F14
-    ::CsString* get_Message();
+    ::Il2CppString* get_Message();
     // public System.Void .ctor()
     // Offset: 0x1359E54
     // Implemented from: System.Attribute

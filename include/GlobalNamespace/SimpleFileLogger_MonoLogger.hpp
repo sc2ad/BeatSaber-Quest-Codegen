@@ -25,13 +25,13 @@ namespace GlobalNamespace {
     public:
     // private System.Collections.Generic.List`1<System.String> _lines
     // Offset: 0x18
-    System::Collections::Generic::List_1<::CsString*>* lines;
+    System::Collections::Generic::List_1<::Il2CppString*>* lines;
     // protected System.Void OnDestroy()
     // Offset: 0xCBA1A0
     void OnDestroy();
     // public System.Void Log(System.String text)
     // Offset: 0xCB9ED4
-    void Log(::CsString* text);
+    void Log(::Il2CppString* text);
     // public System.Void Clear()
     // Offset: 0xCBA12C
     void Clear();

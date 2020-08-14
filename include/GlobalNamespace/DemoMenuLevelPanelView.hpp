@@ -65,15 +65,15 @@ namespace GlobalNamespace {
     // private System.Action`1<DemoMenuLevelPanelView> playButtonWasPressedEvent
     // Offset: 0x40
     System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* playButtonWasPressedEvent;
+    // private HMUI.ButtonBinder _buttonBinder
+    // Offset: 0x48
+    HMUI::ButtonBinder* buttonBinder;
     // static field const value: static private System.Int32 kMaxNumberOfCells
     static constexpr const int kMaxNumberOfCells = 10;
     // Get static field: static private System.Int32 kMaxNumberOfCells
     static int _get_kMaxNumberOfCells();
     // Set static field: static private System.Int32 kMaxNumberOfCells
     static void _set_kMaxNumberOfCells(int value);
-    // private HMUI.ButtonBinder _buttonBinder
-    // Offset: 0x48
-    HMUI::ButtonBinder* buttonBinder;
     // public System.Void add_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
     // Offset: 0xBE3DD4
     void add_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);

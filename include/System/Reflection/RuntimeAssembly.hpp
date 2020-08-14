@@ -39,7 +39,7 @@ namespace System::Reflection {
     public:
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.String partialName, System.Security.Policy.Evidence securityEvidence, System.Threading.StackCrawlMark stackMark)
     // Offset: 0x11524CC
-    static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::CsString* partialName, System::Security::Policy::Evidence* securityEvidence, System::Threading::StackCrawlMark& stackMark);
+    static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, System::Threading::StackCrawlMark& stackMark);
     // static System.Reflection.RuntimeAssembly LoadWithPartialNameInternal(System.Reflection.AssemblyName an, System.Security.Policy.Evidence securityEvidence, System.Threading.StackCrawlMark stackMark)
     // Offset: 0x1152564
     static System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(System::Reflection::AssemblyName* an, System::Security::Policy::Evidence* securityEvidence, System::Threading::StackCrawlMark& stackMark);

@@ -38,7 +38,7 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // private System.Object _returnValue
     // Offset: 0x38
-    ::CsObject* returnValue;
+    ::Il2CppObject* returnValue;
     // private System.Runtime.Remoting.Messaging.CADArgHolder _exception
     // Offset: 0x40
     System::Runtime::Remoting::Messaging::CADArgHolder* exception;
@@ -56,10 +56,10 @@ namespace System::Runtime::Remoting::Messaging {
     System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
     // Offset: 0x1060848
-    ::Array<::CsObject*>* GetArgs(System::Collections::ArrayList* args);
+    ::Array<::Il2CppObject*>* GetArgs(System::Collections::ArrayList* args);
     // System.Object GetReturnValue(System.Collections.ArrayList args)
     // Offset: 0x1060858
-    ::CsObject* GetReturnValue(System::Collections::ArrayList* args);
+    ::Il2CppObject* GetReturnValue(System::Collections::ArrayList* args);
     // System.Exception GetException(System.Collections.ArrayList args)
     // Offset: 0x1060868
     System::Exception* GetException(System::Collections::ArrayList* args);

@@ -10,7 +10,7 @@
 #include "System/IntPtr.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct CsObject;
+struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -35,7 +35,7 @@ namespace System {
     // Offset: 0xA3CFB4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
-    bool Equals(::CsObject* o);
+    bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
     // Offset: 0xA3CFC0
     // Implemented from: System.ValueType

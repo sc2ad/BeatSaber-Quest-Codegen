@@ -32,13 +32,13 @@ namespace Valve::VR {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFE4C24
-    static IVRChaperone::_GetPlayAreaRect* New_ctor(::CsObject* object, System::IntPtr method);
+    static IVRChaperone::_GetPlayAreaRect* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Valve.VR.HmdQuad_t rect)
     // Offset: 0xFDD198
     bool Invoke(Valve::VR::HmdQuad_t& rect);
     // public System.IAsyncResult BeginInvoke(Valve.VR.HmdQuad_t rect, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFE4C38
-    System::IAsyncResult* BeginInvoke(Valve::VR::HmdQuad_t& rect, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::HmdQuad_t& rect, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(Valve.VR.HmdQuad_t rect, System.IAsyncResult result)
     // Offset: 0xFE4CCC
     bool EndInvoke(Valve::VR::HmdQuad_t& rect, System::IAsyncResult* result);

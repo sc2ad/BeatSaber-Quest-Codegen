@@ -42,6 +42,9 @@ namespace GlobalNamespace {
     // private PyramidBloomRendererSO/Level[] _pyramid
     // Offset: 0x28
     ::Array<GlobalNamespace::PyramidBloomRendererSO::Level>* pyramid;
+    // private System.Boolean _initialized
+    // Offset: 0x30
+    bool initialized;
     // static field const value: static private System.Int32 kMaxPyramidSize
     static constexpr const int kMaxPyramidSize = 16;
     // Get static field: static private System.Int32 kMaxPyramidSize
@@ -64,9 +67,6 @@ namespace GlobalNamespace {
     static int _get__alphaWeightsID();
     // Set static field: static private readonly System.Int32 _alphaWeightsID
     static void _set__alphaWeightsID(int value);
-    // private System.Boolean _initialized
-    // Offset: 0x30
-    bool initialized;
     // protected System.Void OnDisable()
     // Offset: 0x1827160
     void OnDisable();

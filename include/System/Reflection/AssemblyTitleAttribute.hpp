@@ -15,10 +15,10 @@ namespace System::Reflection {
     public:
     // private System.String m_title
     // Offset: 0x10
-    ::CsString* m_title;
+    ::Il2CppString* m_title;
     // public System.Void .ctor(System.String title)
     // Offset: 0x1360898
-    static AssemblyTitleAttribute* New_ctor(::CsString* title);
+    static AssemblyTitleAttribute* New_ctor(::Il2CppString* title);
   }; // System.Reflection.AssemblyTitleAttribute
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -139,7 +139,7 @@ namespace TMPro {
     }; // TMPro.TMP_Text/TextInputSources
     // protected System.String m_text
     // Offset: 0xC0
-    ::CsString* m_text;
+    ::Il2CppString* m_text;
     // protected System.Boolean m_isRightToLeft
     // Offset: 0xC8
     bool m_isRightToLeft;
@@ -188,10 +188,6 @@ namespace TMPro {
     // protected UnityEngine.Color m_fontColor
     // Offset: 0x178
     UnityEngine::Color m_fontColor;
-    // Get static field: static protected UnityEngine.Color32 s_colorWhite
-    static UnityEngine::Color32 _get_s_colorWhite();
-    // Set static field: static protected UnityEngine.Color32 s_colorWhite
-    static void _set_s_colorWhite(UnityEngine::Color32 value);
     // protected UnityEngine.Color32 m_underlineColor
     // Offset: 0x188
     UnityEngine::Color32 m_underlineColor;
@@ -554,7 +550,7 @@ namespace TMPro {
     TMPro::TMP_Text::TextInputSources m_inputSource;
     // protected System.String old_text
     // Offset: 0x3F0
-    ::CsString* old_text;
+    ::Il2CppString* old_text;
     // protected System.Single m_fontScale
     // Offset: 0x3F8
     float m_fontScale;
@@ -738,6 +734,10 @@ namespace TMPro {
     // private readonly System.Single[] k_Power
     // Offset: 0xB28
     ::Array<float>* k_Power;
+    // Get static field: static protected UnityEngine.Color32 s_colorWhite
+    static UnityEngine::Color32 _get_s_colorWhite();
+    // Set static field: static protected UnityEngine.Color32 s_colorWhite
+    static void _set_s_colorWhite(UnityEngine::Color32 value);
     // Get static field: static protected UnityEngine.Vector2 k_LargePositiveVector2
     static UnityEngine::Vector2 _get_k_LargePositiveVector2();
     // Set static field: static protected UnityEngine.Vector2 k_LargePositiveVector2
@@ -764,10 +764,10 @@ namespace TMPro {
     static void _set_k_LargeNegativeInt(int value);
     // public System.String get_text()
     // Offset: 0xBB5290
-    ::CsString* get_text();
+    ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0xBB5298
-    void set_text(::CsString* value);
+    void set_text(::Il2CppString* value);
     // public System.Boolean get_isRightToLeftText()
     // Offset: 0xBB5340
     bool get_isRightToLeftText();
@@ -1262,7 +1262,7 @@ namespace TMPro {
     void ForceMeshUpdate(bool ignoreActiveState);
     // System.Void SetTextInternal(System.String text)
     // Offset: 0xBB7B28
-    void SetTextInternal(::CsString* text);
+    void SetTextInternal(::Il2CppString* text);
     // public System.Void UpdateGeometry(UnityEngine.Mesh mesh, System.Int32 index)
     // Offset: 0xBB7B74
     void UpdateGeometry(UnityEngine::Mesh* mesh, int index);
@@ -1289,19 +1289,19 @@ namespace TMPro {
     void ParseInputText();
     // public System.Void SetText(System.String text)
     // Offset: 0xBB8A00
-    void SetText(::CsString* text);
+    void SetText(::Il2CppString* text);
     // public System.Void SetText(System.String text, System.Boolean syncTextInputBox)
     // Offset: 0xBB8A08
-    void SetText(::CsString* text, bool syncTextInputBox);
+    void SetText(::Il2CppString* text, bool syncTextInputBox);
     // public System.Void SetText(System.String text, System.Single arg0)
     // Offset: 0xBB8A68
-    void SetText(::CsString* text, float arg0);
+    void SetText(::Il2CppString* text, float arg0);
     // public System.Void SetText(System.String text, System.Single arg0, System.Single arg1)
     // Offset: 0xBB8C6C
-    void SetText(::CsString* text, float arg0, float arg1);
+    void SetText(::Il2CppString* text, float arg0, float arg1);
     // public System.Void SetText(System.String text, System.Single arg0, System.Single arg1, System.Single arg2)
     // Offset: 0xBB8A78
-    void SetText(::CsString* text, float arg0, float arg1, float arg2);
+    void SetText(::Il2CppString* text, float arg0, float arg1, float arg2);
     // public System.Void SetText(System.Text.StringBuilder text)
     // Offset: 0xBB8E38
     void SetText(System::Text::StringBuilder* text);
@@ -1319,13 +1319,13 @@ namespace TMPro {
     void SetTextArrayToCharArray(::Array<::Il2CppChar>* sourceText, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer);
     // protected System.Void StringToCharArray(System.String sourceText, TMPro.TMP_Text/UnicodeChar[] charBuffer)
     // Offset: 0xBB7CEC
-    void StringToCharArray(::CsString* sourceText, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer);
+    void StringToCharArray(::Il2CppString* sourceText, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer);
     // protected System.Void StringBuilderToIntArray(System.Text.StringBuilder sourceText, TMPro.TMP_Text/UnicodeChar[] charBuffer)
     // Offset: 0xBB8E98
     void StringBuilderToIntArray(System::Text::StringBuilder* sourceText, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer);
     // private System.Boolean ReplaceOpeningStyleTag(System.String sourceText, System.Int32 srcIndex, System.Int32 srcOffset, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
     // Offset: 0xBBB104
-    bool ReplaceOpeningStyleTag(::CsString*& sourceText, int srcIndex, int& srcOffset, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
+    bool ReplaceOpeningStyleTag(::Il2CppString*& sourceText, int srcIndex, int& srcOffset, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(System.Int32[] sourceText, System.Int32 srcIndex, System.Int32 srcOffset, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
     // Offset: 0xBBA934
     bool ReplaceOpeningStyleTag(::Array<int>*& sourceText, int srcIndex, int& srcOffset, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
@@ -1337,7 +1337,7 @@ namespace TMPro {
     bool ReplaceOpeningStyleTag(System::Text::StringBuilder*& sourceText, int srcIndex, int& srcOffset, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(System.String sourceText, System.Int32 srcIndex, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
     // Offset: 0xBBB374
-    bool ReplaceClosingStyleTag(::CsString*& sourceText, int srcIndex, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
+    bool ReplaceClosingStyleTag(::Il2CppString*& sourceText, int srcIndex, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(System.Int32[] sourceText, System.Int32 srcIndex, TMPro.TMP_Text/UnicodeChar[] charBuffer, System.Int32 writeIndex)
     // Offset: 0xBBABA4
     bool ReplaceClosingStyleTag(::Array<int>*& sourceText, int srcIndex, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
@@ -1349,19 +1349,19 @@ namespace TMPro {
     bool ReplaceClosingStyleTag(System::Text::StringBuilder*& sourceText, int srcIndex, ::Array<TMPro::TMP_Text::UnicodeChar>*& charBuffer, int& writeIndex);
     // private System.Boolean IsTagName(System.String text, System.String tag, System.Int32 index)
     // Offset: 0xBBAFFC
-    bool IsTagName(::CsString*& text, ::CsString* tag, int index);
+    bool IsTagName(::Il2CppString*& text, ::Il2CppString* tag, int index);
     // private System.Boolean IsTagName(System.Char[] text, System.String tag, System.Int32 index)
     // Offset: 0xBB99D8
-    bool IsTagName(::Array<::Il2CppChar>*& text, ::CsString* tag, int index);
+    bool IsTagName(::Array<::Il2CppChar>*& text, ::Il2CppString* tag, int index);
     // private System.Boolean IsTagName(System.Int32[] text, System.String tag, System.Int32 index)
     // Offset: 0xBBA804
-    bool IsTagName(::Array<int>*& text, ::CsString* tag, int index);
+    bool IsTagName(::Array<int>*& text, ::Il2CppString* tag, int index);
     // private System.Boolean IsTagName(System.Text.StringBuilder text, System.String tag, System.Int32 index)
     // Offset: 0xBBB7CC
-    bool IsTagName(System::Text::StringBuilder*& text, ::CsString* tag, int index);
+    bool IsTagName(System::Text::StringBuilder*& text, ::Il2CppString* tag, int index);
     // private System.Int32 GetTagHashCode(System.String text, System.Int32 index, System.Int32 closeIndex)
     // Offset: 0xBBBDA8
-    int GetTagHashCode(::CsString*& text, int index, int& closeIndex);
+    int GetTagHashCode(::Il2CppString*& text, int index, int& closeIndex);
     // private System.Int32 GetTagHashCode(System.Char[] text, System.Int32 index, System.Int32 closeIndex)
     // Offset: 0xBBBEE0
     int GetTagHashCode(::Array<::Il2CppChar>*& text, int index, int& closeIndex);
@@ -1397,10 +1397,10 @@ namespace TMPro {
     UnityEngine::Vector2 GetPreferredValues(float width, float height);
     // public UnityEngine.Vector2 GetPreferredValues(System.String text)
     // Offset: 0xBBC408
-    UnityEngine::Vector2 GetPreferredValues(::CsString* text);
+    UnityEngine::Vector2 GetPreferredValues(::Il2CppString* text);
     // public UnityEngine.Vector2 GetPreferredValues(System.String text, System.Single width, System.Single height)
     // Offset: 0xBBC588
-    UnityEngine::Vector2 GetPreferredValues(::CsString* text, float width, float height);
+    UnityEngine::Vector2 GetPreferredValues(::Il2CppString* text, float width, float height);
     // protected System.Single GetPreferredWidth()
     // Offset: 0xBB75F8
     float GetPreferredWidth();
@@ -1451,7 +1451,7 @@ namespace TMPro {
     void ResizeLineExtents(int size);
     // public TMPro.TMP_TextInfo GetTextInfo(System.String text)
     // Offset: 0xBC3C78
-    TMPro::TMP_TextInfo* GetTextInfo(::CsString* text);
+    TMPro::TMP_TextInfo* GetTextInfo(::Il2CppString* text);
     // public System.Void ComputeMarginSize()
     // Offset: 0xBC3C80
     void ComputeMarginSize();
@@ -1508,7 +1508,7 @@ namespace TMPro {
     void ClearMesh(bool uploadGeometry);
     // public System.String GetParsedText()
     // Offset: 0xBC85D0
-    ::CsString* GetParsedText();
+    ::Il2CppString* GetParsedText();
     // protected UnityEngine.Vector2 PackUV(System.Single x, System.Single y, System.Single scale)
     // Offset: 0xBC7AD4
     UnityEngine::Vector2 PackUV(float x, float y, float scale);
@@ -1523,13 +1523,13 @@ namespace TMPro {
     int HexToInt(::Il2CppChar hex);
     // protected System.Int32 GetUTF16(System.String text, System.Int32 i)
     // Offset: 0xBBAF48
-    int GetUTF16(::CsString* text, int i);
+    int GetUTF16(::Il2CppString* text, int i);
     // protected System.Int32 GetUTF16(System.Text.StringBuilder text, System.Int32 i)
     // Offset: 0xBBB718
     int GetUTF16(System::Text::StringBuilder* text, int i);
     // protected System.Int32 GetUTF32(System.String text, System.Int32 i)
     // Offset: 0xBBAE04
-    int GetUTF32(::CsString* text, int i);
+    int GetUTF32(::Il2CppString* text, int i);
     // protected System.Int32 GetUTF32(System.Text.StringBuilder text, System.Int32 i)
     // Offset: 0xBBB5D4
     int GetUTF32(System::Text::StringBuilder* text, int i);

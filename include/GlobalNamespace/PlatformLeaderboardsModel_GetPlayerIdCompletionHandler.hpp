@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xBD508C
-    static PlatformLeaderboardsModel::GetPlayerIdCompletionHandler* New_ctor(::CsObject* object, System::IntPtr method);
+    static PlatformLeaderboardsModel::GetPlayerIdCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformLeaderboardsModel/GetPlayerIdResult result, LeaderboardPlayerInfo playerInfo)
     // Offset: 0xBD50A0
     void Invoke(GlobalNamespace::PlatformLeaderboardsModel::GetPlayerIdResult result, GlobalNamespace::LeaderboardPlayerInfo* playerInfo);
     // public System.IAsyncResult BeginInvoke(PlatformLeaderboardsModel/GetPlayerIdResult result, LeaderboardPlayerInfo playerInfo, System.AsyncCallback callback, System.Object object)
     // Offset: 0xBD5328
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformLeaderboardsModel::GetPlayerIdResult result, GlobalNamespace::LeaderboardPlayerInfo* playerInfo, System::AsyncCallback* callback, ::CsObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformLeaderboardsModel::GetPlayerIdResult result, GlobalNamespace::LeaderboardPlayerInfo* playerInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xBD53C0
     void EndInvoke(System::IAsyncResult* result);
