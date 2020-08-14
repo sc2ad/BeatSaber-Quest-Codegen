@@ -23,7 +23,7 @@ rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 include $(CLEAR_VARS)
 LOCAL_MODULE := beatsaber-hook
 LOCAL_EXPORT_C_INCLUDES := extern/beatsaber-hook
-LOCAL_SRC_FILES := extern/libbeatsaber-hook_0_3_8.so
+LOCAL_SRC_FILES := extern/libbeatsaber-hook_0_4_2.so
 LOCAL_CPP_FEATURES += rtti exceptions
 include $(PREBUILT_SHARED_LIBRARY)
 # Creating prebuilt for dependency: modloader - version: 0.1.1
@@ -40,6 +40,6 @@ LOCAL_SRC_FILES := $(call rwildcard,./src,*.cpp)
 LOCAL_SHARED_LIBRARIES += beatsaber-hook
 LOCAL_SHARED_LIBRARIES += modloader
 LOCAL_LDLIBS += -llog
-LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.1.3"' -DNEED_UNSAFE_CSHARP -I'extern/libil2cpp/il2cpp/libil2cpp' -I'include' -Wno-inaccessible-base -DNO_CODEGEN_USE -isystem 'extern'
+LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.1.4"' -DNEED_UNSAFE_CSHARP -I'extern/libil2cpp/il2cpp/libil2cpp' -I'include' -Wno-inaccessible-base -DNO_CODEGEN_USE -isystem 'extern'
 LOCAL_C_INCLUDES += ./include
 include $(BUILD_SHARED_LIBRARY)
