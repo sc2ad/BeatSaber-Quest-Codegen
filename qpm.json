@@ -7,8 +7,9 @@
     "version": "0.1.3",
     "url": "https://github.com/sc2ad/BeatSaber-Quest-Codegen",
     "additionalData": {
-      "soLink": "TODO",
-      "debugSoLink": "TODO"
+      "soLink": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.1.3/libil2cpp_codegen.so",
+      "debugSoLink": "TODO",
+      "branchName": "version-v0.1.3"
     }
   },
   "dependencies": [
