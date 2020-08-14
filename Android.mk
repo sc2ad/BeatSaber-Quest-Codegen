@@ -23,7 +23,7 @@ rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 include $(CLEAR_VARS)
 LOCAL_MODULE := beatsaber-hook
 LOCAL_EXPORT_C_INCLUDES := extern/beatsaber-hook
-LOCAL_SRC_FILES := extern/libbeatsaber-hook_0_3_8.so
+LOCAL_SRC_FILES := extern/libbeatsaber-hook_0_4_2.so
 LOCAL_CPP_FEATURES += rtti exceptions
 include $(PREBUILT_SHARED_LIBRARY)
 # Creating prebuilt for dependency: modloader - version: 0.1.1
