@@ -26,22 +26,22 @@ namespace System {
   class Func_1 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x17FD368
     static Func_1<TResult>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       return (Func_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Func_1<TResult>*>::get(), object, method));
     }
     // public TResult Invoke()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x17FF4B0
     TResult Invoke() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TResult>(this, "Invoke"));
     }
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x17FD594
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", callback, object));
     }
     // public TResult EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x17FD5C0
     TResult EndInvoke(System::IAsyncResult* result) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TResult>(this, "EndInvoke", result));
     }

@@ -26,28 +26,28 @@ namespace System::Collections::Generic {
     static_assert((!std::is_complete_v<std::remove_pointer_t<T>> || std::is_base_of_v<System::IComparable_1<T>, std::remove_pointer_t<T>>));
     public:
     // public override System.Int32 Compare(T x, T y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x163F90C
     // Implemented from: System.Collections.Generic.Comparer`1
     // Base method: System.Int32 Comparer`1::Compare(T x, T y)
     int Compare(T x, T y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", x, y));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x163F93C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", obj));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x163F988
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode"));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x163F9C4
     // Implemented from: System.Collections.Generic.Comparer`1
     // Base method: System.Void Comparer`1::.ctor()
     // Base method: System.Void Object::.ctor()

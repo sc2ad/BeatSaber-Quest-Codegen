@@ -47,17 +47,17 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
   // Forward declaring type: IComparable`1<T>
   template<typename T>
   class IComparable_1;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Completed forward declares
@@ -68,147 +68,147 @@ namespace UnityEngine::ProBuilder {
     public:
     // Nested type: UnityEngine::ProBuilder::ArrayUtility::SearchRange
     struct SearchRange;
-    // Nested type: UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>
-    template<typename TSource, typename TKey>
+    // Nested type: UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2<TKey, TSource>
+    template<typename TKey, typename TSource>
     class $$c__DisplayClass21_0_2;
     // Nested type: UnityEngine::ProBuilder::ArrayUtility::$$c__23_1<T>
     template<typename T>
     class $$c__23_1;
     // static public T[] ValuesWithIndexes(T[] arr, System.Int32[] indexes)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD59E2C
     template<class T>
     static ::Array<T>* ValuesWithIndexes(::Array<T>* arr, ::Array<int>* indexes) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "ValuesWithIndexes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr, indexes)));
     }
     // static public System.Collections.Generic.List`1<T> ValuesWithIndexes(System.Collections.Generic.List`1<T> arr, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD2B448
     template<class T>
     static System::Collections::Generic::List_1<T>* ValuesWithIndexes(System::Collections::Generic::List_1<T>* arr, System::Collections::Generic::IList_1<int>* indexes) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "ValuesWithIndexes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr, indexes)));
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Int32> AllIndexesOf(System.Collections.Generic.IList`1<T> list, System.Func`2<T,System.Boolean> lambda)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD06A84
     template<class T>
     static System::Collections::Generic::IEnumerable_1<int>* AllIndexesOf(System::Collections::Generic::IList_1<T>* list, System::Func_2<T, bool>* lambda) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<int>*>("UnityEngine.ProBuilder", "ArrayUtility", "AllIndexesOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, lambda)));
     }
     // static public T[] Add(T[] arr, T val)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5908C
     template<class T>
     static ::Array<T>* Add(::Array<T>* arr, T val) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "Add", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr, val)));
     }
     // static public T[] AddRange(T[] arr, T[] val)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD591DC
     template<class T>
     static ::Array<T>* AddRange(::Array<T>* arr, ::Array<T>* val) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "AddRange", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr, val)));
     }
     // static public T[] Remove(T[] arr, T val)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5980C
     template<class T>
     static ::Array<T>* Remove(::Array<T>* arr, T val) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "Remove", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr, val)));
     }
     // static public T[] Remove(T[] arr, System.Collections.Generic.IEnumerable`1<T> val)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD597D4
     template<class T>
     static ::Array<T>* Remove(::Array<T>* arr, System::Collections::Generic::IEnumerable_1<T>* val) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "Remove", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr, val)));
     }
     // static public T[] RemoveAt(T[] arr, System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD598A0
     template<class T>
     static ::Array<T>* RemoveAt(::Array<T>* arr, int index) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "RemoveAt", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr, index)));
     }
     // static public T[] RemoveAt(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD59964
     template<class T>
     static ::Array<T>* RemoveAt(System::Collections::Generic::IList_1<T>* list, System::Collections::Generic::IEnumerable_1<int>* indexes) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "RemoveAt", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, indexes)));
     }
     // static public T[] SortedRemoveAt(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IList`1<System.Int32> sorted)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD59AE4
     template<class T>
     static ::Array<T>* SortedRemoveAt(System::Collections::Generic::IList_1<T>* list, System::Collections::Generic::IList_1<int>* sorted) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "SortedRemoveAt", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, sorted)));
     }
     // static public System.Int32 NearestIndexPriorToValue(System.Collections.Generic.IList`1<T> sorted_list, T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DD190
     template<class T>
     static int NearestIndexPriorToValue(System::Collections::Generic::IList_1<T>* sorted_list, T value) {
       static_assert(std::is_base_of_v<System::IComparable_1<T>, std::remove_pointer_t<T>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("UnityEngine.ProBuilder", "ArrayUtility", "NearestIndexPriorToValue", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, sorted_list, value)));
     }
     // static public System.Collections.Generic.List`1<T> Fill(System.Func`2<System.Int32,T> ctor, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD2B384
     template<class T>
     static System::Collections::Generic::List_1<T>* Fill(System::Func_2<int, T>* ctor, int length) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "Fill", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ctor, length)));
     }
     // static public T[] Fill(T val, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD59474
     template<class T>
     static ::Array<T>* Fill(T val, int length) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "Fill", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, val, length)));
     }
     // static public System.Boolean ContainsMatch(T[] a, T[] b)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE60938
     template<class T>
     static bool ContainsMatch(::Array<T>* a, ::Array<T>* b) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("UnityEngine.ProBuilder", "ArrayUtility", "ContainsMatch", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, a, b)));
     }
     // static public System.Boolean ContainsMatch(T[] a, T[] b, System.Int32 index_a, System.Int32 index_b)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE609D8
     template<class T>
     static bool ContainsMatch(::Array<T>* a, ::Array<T>* b, int& index_a, int& index_b) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("UnityEngine.ProBuilder", "ArrayUtility", "ContainsMatch", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, a, b, index_a, index_b)));
     }
     // static public T[] Concat(T[] x, T[] y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5927C
     template<class T>
     static ::Array<T>* Concat(::Array<T>* x, ::Array<T>* y) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "Concat", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, x, y)));
     }
     // static public System.Int32 IndexOf(System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>> InList, T InValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DD06C
     template<class T>
     static int IndexOf(System::Collections::Generic::List_1<System::Collections::Generic::List_1<T>*>* InList, T InValue) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("UnityEngine.ProBuilder", "ArrayUtility", "IndexOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, InList, InValue)));
     }
     // static public T[] Fill(System.Int32 count, System.Func`2<System.Int32,T> ctor)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD59504
     template<class T>
     static ::Array<T>* Fill(int count, System::Func_2<int, T>* ctor) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "ArrayUtility", "Fill", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, count, ctor)));
     }
     // static public System.Void AddOrAppend(System.Collections.Generic.Dictionary`2<T,System.Collections.Generic.List`1<K>> dictionary, T key, K value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5E528
     template<class T, class K>
     static void AddOrAppend(System::Collections::Generic::Dictionary_2<T, System::Collections::Generic::List_1<K>*>* dictionary, T key, K value) {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "ArrayUtility", "AddOrAppend", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, dictionary, key, value)));
     }
     // static public System.Void AddOrAppendRange(System.Collections.Generic.Dictionary`2<T,System.Collections.Generic.List`1<K>> dictionary, T key, System.Collections.Generic.List`1<K> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5E9D0
     template<class T, class K>
     static void AddOrAppendRange(System::Collections::Generic::Dictionary_2<T, System::Collections::Generic::List_1<K>*>* dictionary, T key, System::Collections::Generic::List_1<K>* value) {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "ArrayUtility", "AddOrAppendRange", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, dictionary, key, value)));
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> DistinctBy(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD19E08
     template<class TSource, class TKey>
     static System::Collections::Generic::IEnumerable_1<TSource>* DistinctBy(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, TKey>* keySelector) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TSource>*>("UnityEngine.ProBuilder", "ArrayUtility", "DistinctBy", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, source, keySelector)));
     }
     // static public System.String ToString(System.Collections.Generic.Dictionary`2<TKey,TValue> dict)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC709CC
     template<class TKey, class TValue>
     static ::Il2CppString* ToString(System::Collections::Generic::Dictionary_2<TKey, TValue>* dict) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("UnityEngine.ProBuilder", "ArrayUtility", "ToString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, dict)));
     }
     // static public System.String ToString(System.Collections.Generic.IEnumerable`1<T> arr, System.String separator)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC707D8
     template<class T>
     static ::Il2CppString* ToString(System::Collections::Generic::IEnumerable_1<T>* arr, ::Il2CppString* separator) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("UnityEngine.ProBuilder", "ArrayUtility", "ToString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr, separator)));

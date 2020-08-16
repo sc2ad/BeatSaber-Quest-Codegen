@@ -59,7 +59,7 @@ namespace UnityEngine {
     // Offset: 0x12FD15C
     static int GetDefaultExecutionOrderFor(System::Type* klass);
     // static private T GetCustomAttributeOfType(System.Type klass)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4CF30
     template<class T>
     static T GetCustomAttributeOfType(System::Type* klass) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);

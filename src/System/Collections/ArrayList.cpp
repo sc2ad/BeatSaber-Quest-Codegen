@@ -9,6 +9,8 @@
 #include "System/Collections/ArrayList_ArrayListEnumeratorSimple.hpp"
 // Including type: System.Collections.ArrayList/ArrayListDebugView
 #include "System/Collections/ArrayList_ArrayListDebugView.hpp"
+// Including type: System.Collections.ICollection
+#include "System/Collections/ICollection.hpp"
 // Including type: System.Array
 #include "System/Array.hpp"
 // Including type: System.Type

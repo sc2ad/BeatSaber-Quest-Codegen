@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0xCAD1B8
     static void SafeDestroy(UnityEngine::Object* obj);
     // static public T GetOrAddComponent(UnityEngine.GameObject go)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC6015C
     template<class T>
     static T GetOrAddComponent(UnityEngine::GameObject* go) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);

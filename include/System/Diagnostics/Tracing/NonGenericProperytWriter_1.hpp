@@ -39,19 +39,19 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x0
     System::Reflection::MethodInfo* getterInfo;
     // public System.Void .ctor(System.Diagnostics.Tracing.PropertyAnalysis property)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15621AC
     static NonGenericProperytWriter_1<ContainerType>* New_ctor(System::Diagnostics::Tracing::PropertyAnalysis* property) {
       return (NonGenericProperytWriter_1<ContainerType>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<NonGenericProperytWriter_1<ContainerType>*>::get(), property));
     }
     // public override System.Void Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1562208
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
     // Base method: System.Void PropertyAccessor`1::Write(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType container)
     void Write(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ContainerType& container) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Write", collector, container));
     }
     // public override System.Object GetData(ContainerType container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15622A8
     // Implemented from: System.Diagnostics.Tracing.PropertyAccessor`1
     // Base method: System.Object PropertyAccessor`1::GetData(ContainerType container)
     ::Il2CppObject* GetData(ContainerType container) {

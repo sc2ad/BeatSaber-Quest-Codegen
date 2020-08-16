@@ -35,7 +35,7 @@ namespace Zenject {
     // Offset: 0x0
     UnityEngine::Transform* originalParent;
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E0EEC
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool`1::.ctor()
     // Base method: System.Void MemoryPoolBase`1::.ctor()
@@ -44,28 +44,28 @@ namespace Zenject {
       return (MonoPoolableMemoryPool_1<TValue>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoPoolableMemoryPool_1<TValue>*>::get()));
     }
     // protected override System.Void OnCreated(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E0F10
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase`1::OnCreated(TValue item)
     void OnCreated(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnCreated", item));
     }
     // protected override System.Void OnDestroyed(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E0F78
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase`1::OnDestroyed(TValue item)
     void OnDestroyed(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDestroyed", item));
     }
     // protected override System.Void OnDespawned(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E0FFC
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase`1::OnDespawned(TValue item)
     void OnDespawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
     }
     // protected override System.Void Reinitialize(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E1158
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool`1::Reinitialize(TValue item)
     void Reinitialize(TValue item) {

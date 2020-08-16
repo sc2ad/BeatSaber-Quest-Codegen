@@ -35,27 +35,27 @@ namespace UnityEngine::Events {
     // Offset: 0x0
     ::Array<::Il2CppObject*>* m_InvokeArray;
     // public System.Void AddListener(UnityEngine.Events.UnityAction`1<T0> call)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x140474C
     void AddListener(UnityEngine::Events::UnityAction_1<T0>* call) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddListener", call));
     }
     // public System.Void RemoveListener(UnityEngine.Events.UnityAction`1<T0> call)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1404798
     void RemoveListener(UnityEngine::Events::UnityAction_1<T0>* call) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "RemoveListener", call));
     }
     // static private UnityEngine.Events.BaseInvokableCall GetDelegate(UnityEngine.Events.UnityAction`1<T0> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x140495C
     static UnityEngine::Events::BaseInvokableCall* GetDelegate(UnityEngine::Events::UnityAction_1<T0>* action) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Events::BaseInvokableCall*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEvent_1<T0>*>::get(), "GetDelegate", action));
     }
     // public System.Void Invoke(T0 arg0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14059A0
     void Invoke(T0 arg0) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", arg0));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14056A0
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -63,14 +63,14 @@ namespace UnityEngine::Events {
       return (UnityEvent_1<T0>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEvent_1<T0>*>::get()));
     }
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x140576C
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
     System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Reflection::MethodInfo*>(this, "FindMethod_Impl", name, targetObj));
     }
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1405874
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction) {

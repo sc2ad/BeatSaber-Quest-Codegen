@@ -28,12 +28,12 @@ namespace Zenject {
   class ConcreteIdBinderGeneric_1 : public Zenject::ConcreteBinderGeneric_1<TContract> {
     public:
     // public Zenject.ConcreteBinderGeneric`1<TContract> WithId(System.Object identifier)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x118DDAC
     Zenject::ConcreteBinderGeneric_1<TContract>* WithId(::Il2CppObject* identifier) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::ConcreteBinderGeneric_1<TContract>*>(this, "WithId", identifier));
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x118DD88
     // Implemented from: Zenject.ConcreteBinderGeneric`1
     // Base method: System.Void ConcreteBinderGeneric`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Base method: System.Void FromBinderGeneric`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)

@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.InjectContext/<get_ParentContexts>d__52
 #include "Zenject/InjectContext_-get_ParentContexts-d__52.hpp"
+// Including type: System.Collections.IEnumerator
+#include "System/Collections/IEnumerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

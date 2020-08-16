@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0xF47B58
     static UnityEngine::Object* Load(::Il2CppString* path);
     // static public T Load(System.String path)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC604E8
     template<class T>
     static T Load(::Il2CppString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);

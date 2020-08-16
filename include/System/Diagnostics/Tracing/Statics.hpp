@@ -122,14 +122,14 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xD9A118
     static bool HasCustomAttribute(System::Reflection::PropertyInfo* propInfo, System::Type* attributeType);
     // static public AttributeType GetCustomAttribute(System.Reflection.PropertyInfo propInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14D58B4
     template<class AttributeType>
     static AttributeType GetCustomAttribute(System::Reflection::PropertyInfo* propInfo) {
       static_assert(std::is_convertible_v<AttributeType, System::Attribute*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<AttributeType>("System.Diagnostics.Tracing", "Statics", "GetCustomAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}, propInfo)));
     }
     // static public AttributeType GetCustomAttribute(System.Type type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14D59B0
     template<class AttributeType>
     static AttributeType GetCustomAttribute(System::Type* type) {
       static_assert(std::is_convertible_v<AttributeType, System::Attribute*>);
@@ -151,7 +151,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xD9A4BC
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo* GetTypeInfoInstance(System::Type* dataType, System::Collections::Generic::List_1<System::Type*>* recursionCheck);
     // static public System.Diagnostics.Tracing.TraceLoggingTypeInfo`1<DataType> CreateDefaultTypeInfo(System.Collections.Generic.List`1<System.Type> recursionCheck)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD2CE68
     template<class DataType>
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>* CreateDefaultTypeInfo(System::Collections::Generic::List_1<System::Type*>* recursionCheck) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*>("System.Diagnostics.Tracing", "Statics", "CreateDefaultTypeInfo", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DataType>::get()}, recursionCheck)));

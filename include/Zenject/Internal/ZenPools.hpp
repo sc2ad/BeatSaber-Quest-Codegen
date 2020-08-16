@@ -83,13 +83,13 @@ namespace Zenject::Internal {
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.BindStatement> _bindStatementPool
     static void _set__bindStatementPool(Zenject::StaticMemoryPool_1<Zenject::BindStatement*>* value);
     // static public System.Collections.Generic.HashSet`1<T> SpawnHashSet()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE61EC4
     template<class T>
     static System::Collections::Generic::HashSet_1<T>* SpawnHashSet() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::HashSet_1<T>*>("Zenject.Internal", "ZenPools", "SpawnHashSet", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public System.Collections.Generic.Dictionary`2<TKey,TValue> SpawnDictionary()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE61E24
     template<class TKey, class TValue>
     static System::Collections::Generic::Dictionary_2<TKey, TValue>* SpawnDictionary() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::Dictionary_2<TKey, TValue>*>("Zenject.Internal", "ZenPools", "SpawnDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
@@ -107,13 +107,13 @@ namespace Zenject::Internal {
     // Offset: 0xF3B878
     static void DespawnBindInfo(Zenject::BindInfo* bindInfo);
     // static public System.Void DespawnDictionary(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5FCD4
     template<class TKey, class TValue>
     static void DespawnDictionary(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod("Zenject.Internal", "ZenPools", "DespawnDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, dictionary)));
     }
     // static public System.Void DespawnHashSet(System.Collections.Generic.HashSet`1<T> set)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5FD84
     template<class T>
     static void DespawnHashSet(System::Collections::Generic::HashSet_1<T>* set) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject.Internal", "ZenPools", "DespawnHashSet", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, set));
@@ -125,25 +125,25 @@ namespace Zenject::Internal {
     // Offset: 0xF3B9CC
     static void DespawnLookupId(Zenject::Internal::LookupId* lookupId);
     // static public System.Collections.Generic.List`1<T> SpawnList()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD2B8B4
     template<class T>
     static System::Collections::Generic::List_1<T>* SpawnList() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>("Zenject.Internal", "ZenPools", "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public System.Void DespawnList(System.Collections.Generic.List`1<T> list)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5FE34
     template<class T>
     static void DespawnList(System::Collections::Generic::List_1<T>* list) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject.Internal", "ZenPools", "DespawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list));
     }
     // static public System.Void DespawnArray(T[] arr)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5FC1C
     template<class T>
     static void DespawnArray(::Array<T>* arr) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject.Internal", "ZenPools", "DespawnArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr));
     }
     // static public T[] SpawnArray(System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5A79C
     template<class T>
     static ::Array<T>* SpawnArray(int length) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("Zenject.Internal", "ZenPools", "SpawnArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, length)));

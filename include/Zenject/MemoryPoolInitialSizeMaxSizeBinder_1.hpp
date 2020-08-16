@@ -31,17 +31,17 @@ namespace Zenject {
   class MemoryPoolInitialSizeMaxSizeBinder_1 : public Zenject::MemoryPoolMaxSizeBinder_1<TContract> {
     public:
     // public Zenject.MemoryPoolMaxSizeBinder`1<TContract> WithInitialSize(System.Int32 size)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA7B0
     Zenject::MemoryPoolMaxSizeBinder_1<TContract>* WithInitialSize(int size) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::MemoryPoolMaxSizeBinder_1<TContract>*>(this, "WithInitialSize", size));
     }
     // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> WithFixedSize(System.Int32 size)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA7F8
     Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* WithFixedSize(int size) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(this, "WithFixedSize", size));
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA78C
     // Implemented from: Zenject.MemoryPoolMaxSizeBinder`1
     // Base method: System.Void MemoryPoolMaxSizeBinder`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Base method: System.Void MemoryPoolExpandBinder`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)

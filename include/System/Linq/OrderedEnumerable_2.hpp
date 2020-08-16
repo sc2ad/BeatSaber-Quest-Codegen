@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -50,12 +50,12 @@ namespace System::Linq {
     // Offset: 0x0
     bool descending;
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source, System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12D7974
     static OrderedEnumerable_2<TElement, TKey>* New_ctor(System::Collections::Generic::IEnumerable_1<TElement>* source, System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
       return (OrderedEnumerable_2<TElement, TKey>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OrderedEnumerable_2<TElement, TKey>*>::get(), source, keySelector, comparer, descending)));
     }
     // override System.Linq.EnumerableSorter`1<TElement> GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement> next)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12D7A9C
     // Implemented from: System.Linq.OrderedEnumerable`1
     // Base method: System.Linq.EnumerableSorter`1<TElement> OrderedEnumerable`1::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement> next)
     System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(System::Linq::EnumerableSorter_1<TElement>* next) {

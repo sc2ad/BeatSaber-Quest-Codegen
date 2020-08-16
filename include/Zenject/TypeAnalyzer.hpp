@@ -89,7 +89,7 @@ namespace Zenject {
     // Offset: 0x1939F38
     static void set_ReflectionBakingCoverageMode(Zenject::ReflectionBakingCoverageModes value);
     // static public System.Boolean ShouldAllowDuringValidation()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE61890
     template<class T>
     static bool ShouldAllowDuringValidation() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("Zenject", "TypeAnalyzer", "ShouldAllowDuringValidation", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
@@ -101,7 +101,7 @@ namespace Zenject {
     // Offset: 0x193A090
     static bool ShouldAllowDuringValidationInternal(System::Type* type);
     // static public System.Boolean HasInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE617EC
     template<class T>
     static bool HasInfo() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("Zenject", "TypeAnalyzer", "HasInfo", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
@@ -110,7 +110,7 @@ namespace Zenject {
     // Offset: 0x193A1A0
     static bool HasInfo(System::Type* type);
     // static public Zenject.InjectTypeInfo GetInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EA604
     template<class T>
     static Zenject::InjectTypeInfo* GetInfo() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::InjectTypeInfo*>("Zenject", "TypeAnalyzer", "GetInfo", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
@@ -119,7 +119,7 @@ namespace Zenject {
     // Offset: 0x193A408
     static Zenject::InjectTypeInfo* GetInfo(System::Type* type);
     // static public Zenject.InjectTypeInfo TryGetInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EA6A8
     template<class T>
     static Zenject::InjectTypeInfo* TryGetInfo() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::InjectTypeInfo*>("Zenject", "TypeAnalyzer", "TryGetInfo", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));

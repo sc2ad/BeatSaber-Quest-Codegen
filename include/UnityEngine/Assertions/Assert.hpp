@@ -34,13 +34,13 @@ namespace UnityEngine::Assertions {
     // Offset: 0x12FBE10
     static void Fail(::Il2CppString* message, ::Il2CppString* userMessage);
     // static public System.Void AreEqual(T expected, T actual, System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5A8D8
     template<class T>
     static void AreEqual(T expected, T actual, ::Il2CppString* message) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Assertions", "Assert", "AreEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, expected, actual, message));
     }
     // static public System.Void AreEqual(T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1<T> comparer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5A988
     template<class T>
     static void AreEqual(T expected, T actual, ::Il2CppString* message, System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Assertions", "Assert", "AreEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, expected, actual, message, comparer));

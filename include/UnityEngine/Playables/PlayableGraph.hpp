@@ -49,7 +49,7 @@ namespace UnityEngine::Playables {
     // Offset: 0xA44FF4
     UnityEngine::Playables::Playable GetRootPlayable(int index);
     // public System.Boolean Connect(U source, System.Int32 sourceOutputPort, V destination, System.Int32 destinationInputPort)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA2E3F0
     template<class U, class V>
     bool Connect(U source, int sourceOutputPort, V destination, int destinationInputPort) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<U>> && is_value_type_v<U>);

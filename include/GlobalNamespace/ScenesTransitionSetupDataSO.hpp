@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Offset: 0xCB15C8
     void InstallBindings(Zenject::DiContainer* container);
     // public T Get()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC60760
     template<class T>
     T Get() {
       static_assert(std::is_convertible_v<T, GlobalNamespace::SceneSetupData*>);

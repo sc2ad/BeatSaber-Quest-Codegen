@@ -7,6 +7,8 @@
 #include "OVRSimpleJSON/JSONObject_-get_Children-d__23.hpp"
 // Including type: OVRSimpleJSON.JSONNode
 #include "OVRSimpleJSON/JSONNode.hpp"
+// Including type: System.Collections.IEnumerator
+#include "System/Collections/IEnumerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

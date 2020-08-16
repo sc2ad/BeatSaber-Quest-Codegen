@@ -39,14 +39,14 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x0
     System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>* elementInfo;
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x155A278
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteMetadata", collector, name, format));
     }
     // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, IterableType value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x155A2E4
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo`1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, IterableType value)
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, IterableType& value) {

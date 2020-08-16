@@ -26,22 +26,22 @@ namespace System {
   class Comparison_1 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x172282C
     static Comparison_1<T>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       return (Comparison_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Comparison_1<T>*>::get(), object, method));
     }
     // public System.Int32 Invoke(T x, T y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1722840
     int Invoke(T x, T y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Invoke", x, y));
     }
     // public System.IAsyncResult BeginInvoke(T x, T y, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1722C64
     System::IAsyncResult* BeginInvoke(T x, T y, System::AsyncCallback* callback, ::Il2CppObject* object) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", x, y, callback, object));
     }
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1722D10
     int EndInvoke(System::IAsyncResult* result) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "EndInvoke", result));
     }

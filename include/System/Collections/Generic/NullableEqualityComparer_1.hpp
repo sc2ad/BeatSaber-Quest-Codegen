@@ -29,41 +29,41 @@ namespace System::Collections::Generic {
     static_assert((!std::is_complete_v<std::remove_pointer_t<T>> || std::is_base_of_v<System::IEquatable_1<T>, std::remove_pointer_t<T>>) && (!std::is_complete_v<std::remove_pointer_t<T>> || is_value_type_v<T>));
     public:
     // public System.Boolean Equals(System.Nullable`1<T> x, System.Nullable`1<T> y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1582FD0
     bool Equals(System::Nullable_1<T> x, System::Nullable_1<T> y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", x, y));
     }
     // public System.Int32 GetHashCode(System.Nullable`1<T> obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x158302C
     int GetHashCode(System::Nullable_1<T> obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode", obj));
     }
     // System.Int32 IndexOf(System.Nullable`1<T>[] array, System.Nullable`1<T> value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1583084
     int IndexOf(::Array<System::Nullable_1<T>>* array, System::Nullable_1<T> value, int startIndex, int count) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "IndexOf", array, value, startIndex, count));
     }
     // System.Int32 LastIndexOf(System.Nullable`1<T>[] array, System.Nullable`1<T> value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1583170
     int LastIndexOf(::Array<System::Nullable_1<T>>* array, System::Nullable_1<T> value, int startIndex, int count) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "LastIndexOf", array, value, startIndex, count));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1583248
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", obj));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1583294
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode"));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15832D0
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer`1::.ctor()
     // Base method: System.Void Object::.ctor()

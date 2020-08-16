@@ -76,8 +76,8 @@ namespace UnityEngine::ProBuilder {
 // Forward declaring namespace: System
 namespace System {
   // Skipping declaration: IComparable`1 because it is already included!
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Completed forward declares
@@ -226,14 +226,14 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xF9D858
     static UnityEngine::Vector3 DivideBy(UnityEngine::Vector3 v, UnityEngine::Vector3 o);
     // static T Max(T[] array)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4E238
     template<class T>
     static T Max(::Array<T>* array) {
       static_assert(std::is_base_of_v<System::IComparable_1<T>, std::remove_pointer_t<T>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.ProBuilder", "Math", "Max", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array)));
     }
     // static T Min(T[] array)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4E368
     template<class T>
     static T Min(::Array<T>* array) {
       static_assert(std::is_base_of_v<System::IComparable_1<T>, std::remove_pointer_t<T>>);
@@ -285,7 +285,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xF9F49C
     static UnityEngine::Vector3 Average(System::Collections::Generic::IList_1<UnityEngine::Vector3>* array, System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Vector3 Average(System.Collections.Generic.IList`1<T> list, System.Func`2<T,UnityEngine.Vector3> selector, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E100C
     template<class T>
     static UnityEngine::Vector3 Average(System::Collections::Generic::IList_1<T>* list, System::Func_2<T, UnityEngine::Vector3>* selector, System::Collections::Generic::IList_1<int>* indexes) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::Vector3>("UnityEngine.ProBuilder", "Math", "Average", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, selector, indexes)));

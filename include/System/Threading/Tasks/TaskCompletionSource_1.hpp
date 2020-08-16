@@ -28,32 +28,32 @@ namespace System::Threading::Tasks {
     // Offset: 0x0
     System::Threading::Tasks::Task_1<TResult>* m_task;
     // public System.Threading.Tasks.Task`1<TResult> get_Task()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14875DC
     System::Threading::Tasks::Task_1<TResult>* get_Task() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TResult>*>(this, "get_Task"));
     }
     // private System.Void SpinUntilCompleted()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14869C4
     void SpinUntilCompleted() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "SpinUntilCompleted"));
     }
     // public System.Boolean TrySetResult(TResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1487630
     bool TrySetResult(TResult result) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TrySetResult", result));
     }
     // public System.Boolean TrySetCanceled()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1486A90
     bool TrySetCanceled() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TrySetCanceled"));
     }
     // public System.Boolean TrySetCanceled(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14876D8
     bool TrySetCanceled(System::Threading::CancellationToken cancellationToken) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TrySetCanceled", cancellationToken));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x148755C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskCompletionSource_1<TResult>* New_ctor() {

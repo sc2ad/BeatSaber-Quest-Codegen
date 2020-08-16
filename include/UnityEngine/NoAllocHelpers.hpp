@@ -27,13 +27,13 @@ namespace UnityEngine {
   class NoAllocHelpers : public ::Il2CppObject {
     public:
     // static public System.Void ResizeList(System.Collections.Generic.List`1<T> list, System.Int32 size)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5D528
     template<class T>
     static void ResizeList(System::Collections::Generic::List_1<T>* list, int size) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine", "NoAllocHelpers", "ResizeList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, size));
     }
     // static public System.Void EnsureListElemCount(System.Collections.Generic.List`1<T> list, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5D410
     template<class T>
     static void EnsureListElemCount(System::Collections::Generic::List_1<T>* list, int count) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine", "NoAllocHelpers", "EnsureListElemCount", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, count));
@@ -42,13 +42,13 @@ namespace UnityEngine {
     // Offset: 0x140B954
     static int SafeLength(System::Array* values);
     // static public System.Int32 SafeLength(System.Collections.Generic.List`1<T> values)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DCF6C
     template<class T>
     static int SafeLength(System::Collections::Generic::List_1<T>* values) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("UnityEngine", "NoAllocHelpers", "SafeLength", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, values)));
     }
     // static public T[] ExtractArrayFromListT(System.Collections.Generic.List`1<T> list)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD58F10
     template<class T>
     static ::Array<T>* ExtractArrayFromListT(System::Collections::Generic::List_1<T>* list) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "NoAllocHelpers", "ExtractArrayFromListT", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list)));

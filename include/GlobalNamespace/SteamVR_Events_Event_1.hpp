@@ -27,22 +27,22 @@ namespace GlobalNamespace {
   class SteamVR_Events::Event_1 : public UnityEngine::Events::UnityEvent_1<T> {
     public:
     // public System.Void Listen(UnityEngine.Events.UnityAction`1<T> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1296D7C
     void Listen(UnityEngine::Events::UnityAction_1<T>* action) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Listen", action));
     }
     // public System.Void Remove(UnityEngine.Events.UnityAction`1<T> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1296DA0
     void Remove(UnityEngine::Events::UnityAction_1<T>* action) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Remove", action));
     }
     // public System.Void Send(T arg0)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1296DC4
     void Send(T arg0) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Send", arg0));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1296DEC
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

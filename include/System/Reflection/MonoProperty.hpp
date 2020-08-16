@@ -55,8 +55,8 @@ namespace System::Reflection {
     public:
     // Nested type: System::Reflection::MonoProperty::GetterAdapter
     class GetterAdapter;
-    // Nested type: System::Reflection::MonoProperty::Getter_2<T, R>
-    template<typename T, typename R>
+    // Nested type: System::Reflection::MonoProperty::Getter_2<R, T>
+    template<typename R, typename T>
     class Getter_2;
     // Nested type: System::Reflection::MonoProperty::StaticGetter_1<R>
     template<typename R>
@@ -80,13 +80,13 @@ namespace System::Reflection {
     // Offset: 0x114F7B8
     void CachePropertyInfo(System::Reflection::PInfo flags);
     // static private System.Object GetterAdapterFrame(System.Reflection.MonoProperty/Getter`2<T,R> getter, System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC70564
     template<class T, class R>
     static ::Il2CppObject* GetterAdapterFrame(System::Reflection::MonoProperty::Getter_2<T, R>* getter, ::Il2CppObject* obj) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppObject*>("System.Reflection", "MonoProperty", "GetterAdapterFrame", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, getter, obj)));
     }
     // static private System.Object StaticGetterAdapterFrame(System.Reflection.MonoProperty/StaticGetter`1<R> getter, System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC705F8
     template<class R>
     static ::Il2CppObject* StaticGetterAdapterFrame(System::Reflection::MonoProperty::StaticGetter_1<R>* getter, ::Il2CppObject* obj) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppObject*>("System.Reflection", "MonoProperty", "StaticGetterAdapterFrame", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<R>::get()}, getter, obj)));

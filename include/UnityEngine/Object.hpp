@@ -85,35 +85,35 @@ namespace UnityEngine {
     // Offset: 0x140FFC8
     static UnityEngine::Object* Instantiate(UnityEngine::Object* original, UnityEngine::Transform* parent, bool instantiateInWorldSpace);
     // static public T Instantiate(T original)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4DBD0
     template<class T>
     static T Instantiate(T original) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Object", "Instantiate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, original)));
     }
     // static public T Instantiate(T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4DE50
     template<class T>
     static T Instantiate(T original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Object", "Instantiate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, original, position, rotation)));
     }
     // static public T Instantiate(T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4DF60
     template<class T>
     static T Instantiate(T original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Object", "Instantiate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, original, position, rotation, parent)));
     }
     // static public T Instantiate(T original, UnityEngine.Transform parent)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4DCF8
     template<class T>
     static T Instantiate(T original, UnityEngine::Transform* parent) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Object", "Instantiate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, original, parent)));
     }
     // static public T Instantiate(T original, UnityEngine.Transform parent, System.Boolean worldPositionStays)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4DD80
     template<class T>
     static T Instantiate(T original, UnityEngine::Transform* parent, bool worldPositionStays) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
@@ -144,14 +144,14 @@ namespace UnityEngine {
     // Offset: 0x140D788
     void set_hideFlags(UnityEngine::HideFlags value);
     // static public T[] FindObjectsOfType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD58FD8
     template<class T>
     static ::Array<T>* FindObjectsOfType() {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "Object", "FindObjectsOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public T FindObjectOfType()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4DAE8
     template<class T>
     static T FindObjectOfType() {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);

@@ -43,57 +43,57 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_RichTextTagStack_1
     TMP_RichTextTagStack_1(::Array<T>* m_ItemStack_ = {}, int m_Index_ = {}, int m_Capacity_ = {}, T m_DefaultItem_ = {}) : m_ItemStack{m_ItemStack_}, m_Index{m_Index_}, m_Capacity{m_Capacity_}, m_DefaultItem{m_DefaultItem_} {}
     // public System.Void .ctor(T[] tagStack)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44320
     static TMP_RichTextTagStack_1<T>* New_ctor(::Array<T>* tagStack) {
       return (TMP_RichTextTagStack_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_RichTextTagStack_1<T>>::get(), tagStack));
     }
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44328
     static TMP_RichTextTagStack_1<T>* New_ctor(int capacity) {
       return (TMP_RichTextTagStack_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_RichTextTagStack_1<T>>::get(), capacity));
     }
     // public System.Void Clear()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44330
     void Clear() {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Clear"));
     }
     // public System.Void SetDefault(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44338
     void SetDefault(T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetDefault", item));
     }
     // public System.Void Add(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44340
     void Add(T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Add", item));
     }
     // public T Remove()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44348
     T Remove() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "Remove"));
     }
     // public System.Void Push(T item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44350
     void Push(T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Push", item));
     }
     // public T Pop()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44358
     T Pop() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "Pop"));
     }
     // public T Peek()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44360
     T Peek() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "Peek"));
     }
     // public T CurrentItem()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44368
     T CurrentItem() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "CurrentItem"));
     }
     // public T PreviousItem()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA44370
     T PreviousItem() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "PreviousItem"));
     }

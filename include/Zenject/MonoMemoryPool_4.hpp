@@ -30,27 +30,27 @@ namespace Zenject {
     // Offset: 0x0
     UnityEngine::Transform* originalParent;
     // protected System.Void OnCreated(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E0874
     void OnCreated(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnCreated", item));
     }
     // protected System.Void OnDestroyed(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E08DC
     void OnDestroyed(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDestroyed", item));
     }
     // protected System.Void OnSpawned(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E0960
     void OnSpawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnSpawned", item));
     }
     // protected System.Void OnDespawned(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E0990
     void OnDespawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E0850
     // Implemented from: Zenject.MemoryPool`4
     // Base method: System.Void MemoryPool`4::.ctor()
     // Base method: System.Void MemoryPoolBase`1::.ctor()

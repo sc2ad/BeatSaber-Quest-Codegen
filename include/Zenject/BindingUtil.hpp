@@ -50,7 +50,7 @@ namespace Zenject {
     // Offset: 0xD654EC
     static void AssertIsNotComponent(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsNotComponent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5F4F8
     template<class T>
     static void AssertIsNotComponent() {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject", "BindingUtil", "AssertIsNotComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -62,7 +62,7 @@ namespace Zenject {
     // Offset: 0xD65808
     static void AssertDerivesFromUnityObject(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertDerivesFromUnityObject()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5F2A0
     template<class T>
     static void AssertDerivesFromUnityObject() {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject", "BindingUtil", "AssertDerivesFromUnityObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -80,7 +80,7 @@ namespace Zenject {
     // Offset: 0xD65DA0
     static void AssertIsInterfaceOrScriptableObject(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsInterfaceOrScriptableObject()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5F408
     template<class T>
     static void AssertIsInterfaceOrScriptableObject() {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject", "BindingUtil", "AssertIsInterfaceOrScriptableObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -92,7 +92,7 @@ namespace Zenject {
     // Offset: 0xD660F8
     static void AssertIsInterfaceOrComponent(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsInterfaceOrComponent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5F390
     template<class T>
     static void AssertIsInterfaceOrComponent() {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject", "BindingUtil", "AssertIsInterfaceOrComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -104,7 +104,7 @@ namespace Zenject {
     // Offset: 0xD66450
     static void AssertIsComponent(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsComponent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5F318
     template<class T>
     static void AssertIsComponent() {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject", "BindingUtil", "AssertIsComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -119,7 +119,7 @@ namespace Zenject {
     // Offset: 0xD66A4C
     static void AssertIsNotAbstract(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsNotAbstract()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5F480
     template<class T>
     static void AssertIsNotAbstract() {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject", "BindingUtil", "AssertIsNotAbstract", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));

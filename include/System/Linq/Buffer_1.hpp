@@ -36,12 +36,12 @@ namespace System::Linq {
     // Creating value type constructor for type: Buffer_1
     Buffer_1(::Array<TElement>* items_ = {}, int count_ = {}) : items{items_}, count{count_} {}
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA3FD30
     static Buffer_1<TElement>* New_ctor(System::Collections::Generic::IEnumerable_1<TElement>* source) {
       return (Buffer_1<TElement>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Buffer_1<TElement>>::get(), source));
     }
     // TElement[] ToArray()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA3FD38
     ::Array<TElement>* ToArray() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<TElement>*>(*this, "ToArray"));
     }

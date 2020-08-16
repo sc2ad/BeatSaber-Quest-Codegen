@@ -25,27 +25,27 @@ namespace Zenject {
     static_assert((!std::is_complete_v<std::remove_pointer_t<TDerived>> || std::is_convertible_v<TDerived, Zenject::MonoInstaller_1<TDerived>*>));
     public:
     // static public TDerived InstallFromResource(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DF3C0
     static TDerived InstallFromResource(Zenject::DiContainer* container) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TDerived>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", container));
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DF488
     static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TDerived>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", resourcePath, container));
     }
     // static public TDerived InstallFromResource(Zenject.DiContainer container, System.Object[] extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DF554
     static TDerived InstallFromResource(Zenject::DiContainer* container, ::Array<::Il2CppObject*>* extraArgs) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TDerived>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", container, extraArgs));
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container, System.Object[] extraArgs)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DF62C
     static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container, ::Array<::Il2CppObject*>* extraArgs) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TDerived>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", resourcePath, container, extraArgs));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DF6E8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

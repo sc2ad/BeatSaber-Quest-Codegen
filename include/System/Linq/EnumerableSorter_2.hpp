@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -46,19 +46,19 @@ namespace System::Linq {
     // Offset: 0x0
     ::Array<TKey>* keys;
     // System.Void .ctor(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending, System.Linq.EnumerableSorter`1<TElement> next)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12D4568
     static EnumerableSorter_2<TElement, TKey>* New_ctor(System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending, System::Linq::EnumerableSorter_1<TElement>* next) {
       return (EnumerableSorter_2<TElement, TKey>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EnumerableSorter_2<TElement, TKey>*>::get(), keySelector, comparer, descending, next)));
     }
     // override System.Void ComputeKeys(TElement[] elements, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12D45F4
     // Implemented from: System.Linq.EnumerableSorter`1
     // Base method: System.Void EnumerableSorter`1::ComputeKeys(TElement[] elements, System.Int32 count)
     void ComputeKeys(::Array<TElement>* elements, int count) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "ComputeKeys", elements, count));
     }
     // override System.Int32 CompareKeys(System.Int32 index1, System.Int32 index2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12D4718
     // Implemented from: System.Linq.EnumerableSorter`1
     // Base method: System.Int32 EnumerableSorter`1::CompareKeys(System.Int32 index1, System.Int32 index2)
     int CompareKeys(int index1, int index2) {

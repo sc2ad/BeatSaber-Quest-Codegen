@@ -104,7 +104,7 @@ namespace System::Reflection {
     // Offset: 0x1360F78
     System::Type* get_AttributeType();
     // static private T[] UnboxValues(System.Object[] values)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD57E68
     template<class T>
     static ::Array<T>* UnboxValues(::Array<::Il2CppObject*>* values) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("System.Reflection", "CustomAttributeData", "UnboxValues", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, values)));

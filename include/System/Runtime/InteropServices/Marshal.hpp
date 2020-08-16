@@ -94,7 +94,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x104B4F0
     static ::Il2CppObject* PtrToStructure(System::IntPtr ptr, System::Type* structureType);
     // static public System.Void PtrToStructure(System.IntPtr ptr, T structure)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC58044
     template<class T>
     static void PtrToStructure(System::IntPtr ptr, T structure) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("System.Runtime.InteropServices", "Marshal", "PtrToStructure", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ptr, structure));
@@ -115,7 +115,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x104B660
     static int SizeOf(System::Type* t);
     // static public System.Int32 SizeOf(T structure)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DCCA0
     template<class T>
     static int SizeOf(T structure) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("System.Runtime.InteropServices", "Marshal", "SizeOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, structure)));
@@ -124,7 +124,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x104B664
     static void StructureToPtr(::Il2CppObject* structure, System::IntPtr ptr, bool fDeleteOld);
     // static public System.Void StructureToPtr(T structure, System.IntPtr ptr, System.Boolean fDeleteOld)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC580BC
     template<class T>
     static void StructureToPtr(T structure, System::IntPtr ptr, bool fDeleteOld) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("System.Runtime.InteropServices", "Marshal", "StructureToPtr", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, structure, ptr, fDeleteOld));
@@ -133,7 +133,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x104B66C
     static System::IntPtr UnsafeAddrOfPinnedArrayElement(System::Array* arr, int index);
     // static public System.IntPtr UnsafeAddrOfPinnedArrayElement(T[] arr, System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DDB2C
     template<class T>
     static System::IntPtr UnsafeAddrOfPinnedArrayElement(::Array<T>* arr, int index) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::IntPtr>("System.Runtime.InteropServices", "Marshal", "UnsafeAddrOfPinnedArrayElement", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr, index)));
@@ -142,7 +142,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x104B670
     static System::IntPtr GetFunctionPointerForDelegateInternal(System::Delegate* d);
     // static public System.IntPtr GetFunctionPointerForDelegate(TDelegate d)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DDA60
     template<class TDelegate>
     static System::IntPtr GetFunctionPointerForDelegate(TDelegate d) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::IntPtr>("System.Runtime.InteropServices", "Marshal", "GetFunctionPointerForDelegate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDelegate>::get()}, d)));

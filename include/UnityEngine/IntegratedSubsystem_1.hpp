@@ -25,7 +25,7 @@ namespace UnityEngine {
     static_assert((!std::is_complete_v<std::remove_pointer_t<TSubsystemDescriptor>> || std::is_base_of_v<UnityEngine::ISubsystemDescriptor, std::remove_pointer_t<TSubsystemDescriptor>>));
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x117E898
     // Implemented from: UnityEngine.IntegratedSubsystem
     // Base method: System.Void IntegratedSubsystem::.ctor()
     // Base method: System.Void Object::.ctor()

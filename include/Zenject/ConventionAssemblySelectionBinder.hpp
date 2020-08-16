@@ -18,8 +18,8 @@ namespace Zenject {
 namespace System {
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -62,7 +62,7 @@ namespace Zenject {
     // Offset: 0xD6A998
     void FromAllAssemblies();
     // public System.Void FromAssemblyContaining()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5F570
     template<class T>
     void FromAssemblyContaining() {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "FromAssemblyContaining", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));

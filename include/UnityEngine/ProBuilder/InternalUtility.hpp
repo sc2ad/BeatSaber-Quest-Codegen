@@ -48,21 +48,21 @@ namespace UnityEngine::ProBuilder {
     // Nested type: UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0
     class $$c__DisplayClass6_0;
     // static public T[] GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> gameObjects)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD59FC8
     template<class T>
     static ::Array<T>* GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* gameObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "InternalUtility", "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, gameObjects)));
     }
     // static public T[] GetComponents(UnityEngine.GameObject go)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5A5B8
     template<class T>
     static ::Array<T>* GetComponents(UnityEngine::GameObject* go) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "InternalUtility", "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, go)));
     }
     // static public T[] GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> transforms)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5A2CC
     template<class T>
     static ::Array<T>* GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* transforms) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
@@ -72,7 +72,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xF9919C
     static UnityEngine::GameObject* EmptyGameObjectWithTransform(UnityEngine::Transform* t);
     // static public T NextEnumValue(T current)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4E0F4
     template<class T>
     static T NextEnumValue(T current) {
       static_assert(std::is_base_of_v<System::IConvertible, std::remove_pointer_t<T>>);

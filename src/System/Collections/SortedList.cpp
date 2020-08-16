@@ -17,6 +17,8 @@
 #include "System/Collections/IComparer.hpp"
 // Including type: System.Collections.IList
 #include "System/Collections/IList.hpp"
+// Including type: System.Collections.ICollection
+#include "System/Collections/ICollection.hpp"
 // Including type: System.Array
 #include "System/Array.hpp"
 // Including type: System.Collections.IEnumerator

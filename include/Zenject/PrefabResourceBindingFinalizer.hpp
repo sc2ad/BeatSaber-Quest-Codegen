@@ -24,8 +24,8 @@ namespace Zenject {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`3<T1, T2, TResult>
-  template<typename T1, typename T2, typename TResult>
+  // Forward declaring type: Func`3<TResult, T1, T2>
+  template<typename TResult, typename T1, typename T2>
   class Func_3;
   // Forward declaring type: Type
   class Type;

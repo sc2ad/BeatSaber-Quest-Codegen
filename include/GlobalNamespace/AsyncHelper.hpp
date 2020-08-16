@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
     // static public T RunSync(System.Func`1<System.Threading.Tasks.Task`1<T>> asyncTask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC60040
     template<class T>
     static T RunSync(System::Func_1<System::Threading::Tasks::Task_1<T>*>* asyncTask) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "AsyncHelper", "RunSync", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, asyncTask)));

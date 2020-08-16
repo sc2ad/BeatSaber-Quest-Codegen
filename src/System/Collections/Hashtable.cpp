@@ -17,6 +17,8 @@
 #include "System/Collections/Hashtable_HashtableEnumerator.hpp"
 // Including type: System.Collections.Hashtable/HashtableDebugView
 #include "System/Collections/Hashtable_HashtableDebugView.hpp"
+// Including type: System.Collections.ICollection
+#include "System/Collections/ICollection.hpp"
 // Including type: System.Collections.IEqualityComparer
 #include "System/Collections/IEqualityComparer.hpp"
 // Including type: System.String

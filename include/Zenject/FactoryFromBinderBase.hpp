@@ -36,11 +36,11 @@ namespace Zenject {
 namespace System {
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -142,7 +142,7 @@ namespace Zenject {
     // Offset: 0xF2B280
     Zenject::ConditionCopyNonLazyBinder* FromResolve(::Il2CppObject* subIdentifier);
     // Zenject.ConcreteBinderGeneric`1<T> CreateIFactoryBinder(System.Guid factoryId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E4ED8
     template<class T>
     Zenject::ConcreteBinderGeneric_1<T>* CreateIFactoryBinder(System::Guid& factoryId) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConcreteBinderGeneric_1<T>*>(this, "CreateIFactoryBinder", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, factoryId)));

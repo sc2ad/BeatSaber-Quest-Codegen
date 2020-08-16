@@ -41,12 +41,12 @@ namespace Zenject {
     // Offset: 0x0
     System::Guid poolId;
     // Zenject.IProvider <FromPoolableMemoryPool>b__0(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x118FB6C
     Zenject::IProvider* $FromPoolableMemoryPool$b__0(Zenject::DiContainer* container) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<FromPoolableMemoryPool>b__0", container)));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x118FB54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FactoryFromBinder2Extensions::$$c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>* New_ctor() {

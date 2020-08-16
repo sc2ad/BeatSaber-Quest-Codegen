@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0xCAE5E0
     static void SaveToJSONFile(::Il2CppObject* obj, ::Il2CppString* filePath, ::Il2CppString* tempFilePath, ::Il2CppString* backupFilePath);
     // static public T LoadFromJSONFile(System.String filePath, System.String backupFilePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC60220
     template<class T>
     static T LoadFromJSONFile(::Il2CppString* filePath, ::Il2CppString* backupFilePath) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "FileHelpers", "LoadFromJSONFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, filePath, backupFilePath)));

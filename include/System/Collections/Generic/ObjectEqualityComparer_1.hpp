@@ -17,49 +17,49 @@ namespace System::Collections::Generic {
   class ObjectEqualityComparer_1 : public System::Collections::Generic::EqualityComparer_1<T> {
     public:
     // public override System.Boolean Equals(T x, T y)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1589F90
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Boolean EqualityComparer`1::Equals(T x, T y)
     bool Equals(T x, T y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", x, y));
     }
     // public override System.Int32 GetHashCode(T obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x158A060
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer`1::GetHashCode(T obj)
     int GetHashCode(T obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode", obj));
     }
     // override System.Int32 IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x158A0E4
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer`1::IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     int IndexOf(::Array<T>* array, T value, int startIndex, int count) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "IndexOf", array, value, startIndex, count));
     }
     // override System.Int32 LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x158A234
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer`1::LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     int LastIndexOf(::Array<T>* array, T value, int startIndex, int count) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "LastIndexOf", array, value, startIndex, count));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x158A388
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", obj));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x158A3D4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode"));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x158A410
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer`1::.ctor()
     // Base method: System.Void Object::.ctor()

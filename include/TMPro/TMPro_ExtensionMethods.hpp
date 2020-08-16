@@ -44,7 +44,7 @@ namespace TMPro {
     // Offset: 0xDC4504
     static ::Il2CppString* IntToString(::Array<int>* unicodes, int start, int length);
     // static public System.Int32 FindInstanceID(System.Collections.Generic.List`1<T> list, T target)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DCEB4
     template<class T>
     static int FindInstanceID(System::Collections::Generic::List_1<T>* list, T target) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);

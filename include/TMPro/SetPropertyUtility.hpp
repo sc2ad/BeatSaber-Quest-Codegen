@@ -32,21 +32,21 @@ namespace TMPro {
     // Offset: 0xB64C88
     static bool SetColor(UnityEngine::Color& currentValue, UnityEngine::Color newValue);
     // static public System.Boolean SetEquatableStruct(T currentValue, T newValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE5EF1C
     template<class T>
     static bool SetEquatableStruct(T& currentValue, T newValue) {
       static_assert(std::is_base_of_v<System::IEquatable_1<T>, std::remove_pointer_t<T>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("TMPro", "SetPropertyUtility", "SetEquatableStruct", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, currentValue, newValue)));
     }
     // static public System.Boolean SetStruct(T currentValue, T newValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE5EFF0
     template<class T>
     static bool SetStruct(T& currentValue, T newValue) {
       static_assert(is_value_type_v<T>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("TMPro", "SetPropertyUtility", "SetStruct", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, currentValue, newValue)));
     }
     // static public System.Boolean SetClass(T currentValue, T newValue)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE5EEBC
     template<class T>
     static bool SetClass(T& currentValue, T newValue) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("TMPro", "SetPropertyUtility", "SetClass", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, currentValue, newValue)));

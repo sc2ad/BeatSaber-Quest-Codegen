@@ -35,27 +35,27 @@ namespace Zenject {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSetPool_1<T>*>::get(), "_instance", value));
     }
     // static public Zenject.HashSetPool`1<T> get_Instance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BABD8
     static Zenject::HashSetPool_1<T>* get_Instance() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::HashSetPool_1<T>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSetPool_1<T>*>::get(), "get_Instance"));
     }
     // static private System.Void OnSpawned(System.Collections.Generic.HashSet`1<T> items)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BACC4
     static void OnSpawned(System::Collections::Generic::HashSet_1<T>* items) {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSetPool_1<T>*>::get(), "OnSpawned", items));
     }
     // static private System.Void OnDespawned(System.Collections.Generic.HashSet`1<T> items)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BAD3C
     static void OnDespawned(System::Collections::Generic::HashSet_1<T>* items) {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSetPool_1<T>*>::get(), "OnDespawned", items));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BADC0
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HashSetPool_1<T>*>::get(), ".cctor"));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BAAD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HashSetPool_1<T>* New_ctor() {

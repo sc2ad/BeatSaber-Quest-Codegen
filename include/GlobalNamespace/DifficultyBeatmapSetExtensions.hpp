@@ -23,14 +23,14 @@ namespace GlobalNamespace {
   class DifficultyBeatmapSetExtensions : public ::Il2CppObject {
     public:
     // static public T[] GetDifficultyBeatmapSetsWithout360Movement(T[] difficultyBeatmapSets)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD572D8
     template<class T>
     static ::Array<T>* GetDifficultyBeatmapSetsWithout360Movement(::Array<T>* difficultyBeatmapSets) {
       static_assert(std::is_base_of_v<GlobalNamespace::IDifficultyBeatmapSet, std::remove_pointer_t<T>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("", "DifficultyBeatmapSetExtensions", "GetDifficultyBeatmapSetsWithout360Movement", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, difficultyBeatmapSets)));
     }
     // static public PreviewDifficultyBeatmapSet[] GetPreviewDifficultyBeatmapSets(T[] difficultyBeatmapSets)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14D6E8C
     template<class T>
     static ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* GetPreviewDifficultyBeatmapSets(::Array<T>* difficultyBeatmapSets) {
       static_assert(std::is_base_of_v<GlobalNamespace::IDifficultyBeatmapSet, std::remove_pointer_t<T>>);

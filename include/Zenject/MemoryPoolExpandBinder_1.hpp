@@ -33,27 +33,27 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::MemoryPoolBindInfo* MemoryPoolBindInfo;
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA61C
     static MemoryPoolExpandBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, Zenject::MemoryPoolBindInfo* poolBindInfo) {
       return (MemoryPoolExpandBinder_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MemoryPoolExpandBinder_1<TContract>*>::get(), bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
     }
     // protected Zenject.MemoryPoolBindInfo get_MemoryPoolBindInfo()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA694
     Zenject::MemoryPoolBindInfo* get_MemoryPoolBindInfo() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::MemoryPoolBindInfo*>(this, "get_MemoryPoolBindInfo"));
     }
     // private System.Void set_MemoryPoolBindInfo(Zenject.MemoryPoolBindInfo value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA69C
     void set_MemoryPoolBindInfo(Zenject::MemoryPoolBindInfo* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_MemoryPoolBindInfo", value));
     }
     // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> ExpandByOneAtATime()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA6A4
     Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByOneAtATime() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(this, "ExpandByOneAtATime"));
     }
     // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> ExpandByDoubling()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA6E8
     Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByDoubling() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(this, "ExpandByDoubling"));
     }

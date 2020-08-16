@@ -141,7 +141,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x1076A4C
     bool StreamsEqual(System::IO::Stream* x, System::IO::Stream* y);
     // static System.Void CheckGameObjectReference(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC74A08
     template<class T>
     static void CheckGameObjectReference(T& value) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("NUnit.Framework.Constraints", "NUnitEqualityComparer", "CheckGameObjectReference", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value));

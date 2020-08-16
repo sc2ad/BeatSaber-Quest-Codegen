@@ -24,13 +24,13 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Offset: 0x12F96E4
     static void Free(void* memory, Unity::Collections::Allocator allocator);
     // static public T ReadArrayElement(System.Void* source, System.Int32 index)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4CE00
     template<class T>
     static T ReadArrayElement(void* source, int index) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "ReadArrayElement", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, source, index)));
     }
     // static public System.Void WriteArrayElement(System.Void* destination, System.Int32 index, T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC590C4
     template<class T>
     static void WriteArrayElement(void* destination, int index, T value) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "WriteArrayElement", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, destination, index, value));

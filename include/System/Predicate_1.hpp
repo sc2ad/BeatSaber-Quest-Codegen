@@ -26,22 +26,22 @@ namespace System {
   class Predicate_1 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1466D7C
     static Predicate_1<T>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       return (Predicate_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Predicate_1<T>*>::get(), object, method));
     }
     // public System.Boolean Invoke(T obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12DD0B8
     bool Invoke(T obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Invoke", obj));
     }
     // public System.IAsyncResult BeginInvoke(T obj, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12DD3F4
     System::IAsyncResult* BeginInvoke(T obj, System::AsyncCallback* callback, ::Il2CppObject* object) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", obj, callback, object));
     }
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12DD488
     bool EndInvoke(System::IAsyncResult* result) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "EndInvoke", result));
     }

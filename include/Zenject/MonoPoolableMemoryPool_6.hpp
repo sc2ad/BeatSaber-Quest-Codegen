@@ -36,22 +36,22 @@ namespace Zenject {
     // Offset: 0x0
     UnityEngine::Transform* originalParent;
     // protected System.Void OnCreated(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E1FD8
     void OnCreated(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnCreated", item));
     }
     // protected System.Void OnDestroyed(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E2040
     void OnDestroyed(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDestroyed", item));
     }
     // protected System.Void OnDespawned(TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E20C4
     void OnDespawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E1FB4
     // Implemented from: Zenject.MemoryPool`6
     // Base method: System.Void MemoryPool`6::.ctor()
     // Base method: System.Void MemoryPoolBase`1::.ctor()
@@ -60,7 +60,7 @@ namespace Zenject {
       return (MonoPoolableMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoPoolableMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>::get())));
     }
     // protected System.Void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TValue item)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E2238
     // Implemented from: Zenject.MemoryPool`6
     // Base method: System.Void MemoryPool`6::Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TValue item)
     void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TValue item) {

@@ -59,26 +59,26 @@ namespace System {
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine
@@ -250,7 +250,7 @@ namespace Zenject {
     // Offset: 0xF2D8E4
     Zenject::SubContainerBinder* FromSubContainerResolveInternal(::Il2CppObject* subIdentifier, bool resolveAll);
     // protected Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromIFactoryBase(System.Action`1<Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`1<TContract>>> factoryBindGenerator)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EB9BC
     template<class TContract>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromIFactoryBase(System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TContract>*>*>* factoryBindGenerator) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "FromIFactoryBase", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, factoryBindGenerator)));
@@ -376,19 +376,19 @@ namespace Zenject {
     // Offset: 0xF3024C
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMethodMultipleUntyped(System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>* method);
     // protected Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromMethodBase(System.Func`2<Zenject.InjectContext,TConcrete> method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EBDAC
     template<class TConcrete>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMethodBase(System::Func_2<Zenject::InjectContext*, TConcrete>* method) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "FromMethodBase", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, method)));
     }
     // protected Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromMethodMultipleBase(System.Func`2<Zenject.InjectContext,System.Collections.Generic.IEnumerable`1<TConcrete>> method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EC09C
     template<class TConcrete>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMethodMultipleBase(System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>* method) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "FromMethodMultipleBase", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, method)));
     }
     // protected Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromResolveGetterBase(System.Object identifier, System.Func`2<TObj,TResult> method, Zenject.InjectSources source, System.Boolean matchMultiple)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EC2E4
     template<class TObj, class TResult>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromResolveGetterBase(::Il2CppObject* identifier, System::Func_2<TObj, TResult>* method, Zenject::InjectSources source, bool matchMultiple) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "FromResolveGetterBase", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, identifier, method, source, matchMultiple)));

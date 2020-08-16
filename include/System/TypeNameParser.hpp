@@ -11,11 +11,11 @@
 namespace System {
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`4<T1, T2, T3, TResult>
-  template<typename T1, typename T2, typename T3, typename TResult>
+  // Forward declaring type: Func`4<TResult, T1, T2, T3>
+  template<typename TResult, typename T1, typename T2, typename T3>
   class Func_4;
 }
 // Forward declaring namespace: System::Reflection

@@ -25,7 +25,7 @@ namespace UnityEngine {
     static_assert((!std::is_complete_v<std::remove_pointer_t<TSubsystem>> || std::is_convertible_v<TSubsystem, UnityEngine::IntegratedSubsystem*>));
     public:
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x117E880
     // Implemented from: UnityEngine.IntegratedSubsystemDescriptor
     // Base method: System.Void IntegratedSubsystemDescriptor::.ctor()
     // Base method: System.Void Object::.ctor()

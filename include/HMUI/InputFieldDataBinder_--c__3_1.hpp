@@ -21,8 +21,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Completed forward declares
@@ -54,17 +54,17 @@ namespace HMUI {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InputFieldDataBinder::$$c__3_1<T>*>::get(), "<>9__3_0", value)));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1290BB0
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InputFieldDataBinder::$$c__3_1<T>*>::get(), ".cctor"));
     }
     // System.String <AddStringBindings>b__3_0(System.String value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1290CA4
     ::Il2CppString* $AddStringBindings$b__3_0(::Il2CppString* value) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<::Il2CppString*>(this, "<AddStringBindings>b__3_0", value)));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1290C8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InputFieldDataBinder::$$c__3_1<T>* New_ctor() {

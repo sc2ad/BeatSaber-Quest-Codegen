@@ -25,17 +25,17 @@ namespace System::Linq {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "CompareKeys", index1, index2));
     }
     // System.Int32[] Sort(TElement[] elements, System.Int32 count)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12D3978
     ::Array<int>* Sort(::Array<TElement>* elements, int count) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<int>*>(this, "Sort", elements, count));
     }
     // private System.Void QuickSort(System.Int32[] map, System.Int32 left, System.Int32 right)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12D3A70
     void QuickSort(::Array<int>* map, int left, int right) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "QuickSort", map, left, right));
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12D3C5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnumerableSorter_1<TElement>* New_ctor() {

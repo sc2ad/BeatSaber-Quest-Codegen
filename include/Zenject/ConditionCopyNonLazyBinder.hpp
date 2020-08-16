@@ -51,13 +51,13 @@ namespace Zenject {
     // Offset: 0xD689BC
     Zenject::CopyNonLazyBinder* WhenInjectedInto(::Array<System::Type*>* targets);
     // public Zenject.CopyNonLazyBinder WhenInjectedInto()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E681C
     template<class T>
     Zenject::CopyNonLazyBinder* WhenInjectedInto() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::CopyNonLazyBinder*>(this, "WhenInjectedInto", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public Zenject.CopyNonLazyBinder WhenNotInjectedInto()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E69D0
     template<class T>
     Zenject::CopyNonLazyBinder* WhenNotInjectedInto() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::CopyNonLazyBinder*>(this, "WhenNotInjectedInto", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));

@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.TestTools.Utils.CoroutineRunner/<StartTimer>d__12
 #include "UnityEngine/TestTools/Utils/CoroutineRunner_-StartTimer-d__12.hpp"
+// Including type: System.Collections.IEnumerator
+#include "System/Collections/IEnumerator.hpp"
 // Including type: System.Action
 #include "System/Action.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

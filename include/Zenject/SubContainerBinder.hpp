@@ -32,8 +32,8 @@ namespace Zenject {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -101,7 +101,7 @@ namespace Zenject {
     // Offset: 0xFCA024
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstanceGetter(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* subContainerGetter);
     // public Zenject.WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder ByInstaller()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13ECC6C
     template<class TInstaller>
     Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller() {
       static_assert(std::is_convertible_v<TInstaller, Zenject::InstallerBase*>);
@@ -120,7 +120,7 @@ namespace Zenject {
     // Offset: 0xFCA6A0
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabMethod(UnityEngine::Object* prefab, System::Action_1<Zenject::DiContainer*>* installerMethod);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewGameObjectInstaller()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EB750
     template<class TInstaller>
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller() {
       static_assert(std::is_convertible_v<TInstaller, Zenject::InstallerBase*>);
@@ -130,7 +130,7 @@ namespace Zenject {
     // Offset: 0xFCA844
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller(System::Type* installerType);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabInstaller(UnityEngine.Object prefab)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EB7E4
     template<class TInstaller>
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabInstaller(UnityEngine::Object* prefab) {
       static_assert(std::is_convertible_v<TInstaller, Zenject::InstallerBase*>);
@@ -143,7 +143,7 @@ namespace Zenject {
     // Offset: 0xFCAC28
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceMethod(::Il2CppString* resourcePath, System::Action_1<Zenject::DiContainer*>* installerMethod);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResourceInstaller(System.String resourcePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EB880
     template<class TInstaller>
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceInstaller(::Il2CppString* resourcePath) {
       static_assert(std::is_convertible_v<TInstaller, Zenject::InstallerBase*>);

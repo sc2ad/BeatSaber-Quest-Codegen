@@ -18,7 +18,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x0
     T Value;
     // System.Void .ctor(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14868B8
     static Shared_1<T>* New_ctor(T value) {
       return (Shared_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Shared_1<T>*>::get(), value));
     }

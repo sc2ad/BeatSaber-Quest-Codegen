@@ -51,7 +51,7 @@ namespace System {
     // Offset: 0xCEC22C
     static void ThrowNotSupportedException(System::ExceptionResource resource);
     // static System.Void IfNullAndNullsAreIllegalThenThrow(System.Object value, System.ExceptionArgument argName)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC58308
     template<class T>
     static void IfNullAndNullsAreIllegalThenThrow(::Il2CppObject* value, System::ExceptionArgument argName) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("System", "ThrowHelper", "IfNullAndNullsAreIllegalThenThrow", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value, argName));

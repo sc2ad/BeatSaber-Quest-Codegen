@@ -55,17 +55,17 @@ namespace Zenject {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FromBinderNonGeneric::$$c__1_2<TConcrete, TFactory>*>::get(), "<>9__1_0", value)));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BA410
     static void _cctor() {
       THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FromBinderNonGeneric::$$c__1_2<TConcrete, TFactory>*>::get(), ".cctor")));
     }
     // System.Void <FromFactory>b__1_0(Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`1<TConcrete>> x)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BA504
     void $FromFactory$b__1_0(Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>*>* x) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "<FromFactory>b__1_0", x));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BA4EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinderNonGeneric::$$c__1_2<TConcrete, TFactory>* New_ctor() {

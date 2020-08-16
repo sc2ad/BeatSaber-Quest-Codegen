@@ -35,27 +35,27 @@ namespace Zenject {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), "_instance", value)));
     }
     // static public Zenject.DictionaryPool`2<TKey,TValue> get_Instance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x118E540
     static Zenject::DictionaryPool_2<TKey, TValue>* get_Instance() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::DictionaryPool_2<TKey, TValue>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), "get_Instance")));
     }
     // static private System.Void OnSpawned(System.Collections.Generic.Dictionary`2<TKey,TValue> items)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x118E62C
     static void OnSpawned(System::Collections::Generic::Dictionary_2<TKey, TValue>* items) {
       THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), "OnSpawned", items)));
     }
     // static private System.Void OnDespawned(System.Collections.Generic.Dictionary`2<TKey,TValue> items)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x118E6A4
     static void OnDespawned(System::Collections::Generic::Dictionary_2<TKey, TValue>* items) {
       THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), "OnDespawned", items)));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x118E728
     static void _cctor() {
       THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), ".cctor")));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x118E438
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DictionaryPool_2<TKey, TValue>* New_ctor() {

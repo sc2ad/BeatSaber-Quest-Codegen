@@ -36,7 +36,7 @@ namespace Zenject {
     // Offset: 0x193B1E0
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13ECB04
     template<class TKernel>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel() {
       static_assert(std::is_convertible_v<TKernel, Zenject::Kernel*>);

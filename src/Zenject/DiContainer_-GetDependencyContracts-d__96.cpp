@@ -11,6 +11,8 @@
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: Zenject.InjectableInfo
 #include "Zenject/InjectableInfo.hpp"
+// Including type: System.Collections.IEnumerator
+#include "System/Collections/IEnumerator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -25,17 +25,17 @@ namespace Zenject {
     static_assert((!std::is_complete_v<std::remove_pointer_t<TDerived>> || std::is_convertible_v<TDerived, Zenject::ScriptableObjectInstaller_1<TDerived>*>));
     public:
     // static public TDerived InstallFromResource(Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15EB6C4
     static TDerived InstallFromResource(Zenject::DiContainer* container) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TDerived>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptableObjectInstaller_1<TDerived>*>::get(), "InstallFromResource", container));
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15EB78C
     static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TDerived>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptableObjectInstaller_1<TDerived>*>::get(), "InstallFromResource", resourcePath, container));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15EB840
     // Implemented from: Zenject.ScriptableObjectInstaller
     // Base method: System.Void ScriptableObjectInstaller::.ctor()
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()

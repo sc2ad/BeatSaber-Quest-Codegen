@@ -27,32 +27,32 @@ namespace System::Threading {
     // Creating value type constructor for type: AsyncLocalValueChangedArgs_1
     AsyncLocalValueChangedArgs_1(T PreviousValue_ = {}, T CurrentValue_ = {}, bool ThreadContextChanged_ = {}) : PreviousValue{PreviousValue_}, CurrentValue{CurrentValue_}, ThreadContextChanged{ThreadContextChanged_} {}
     // public T get_PreviousValue()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA46D40
     T get_PreviousValue() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_PreviousValue"));
     }
     // private System.Void set_PreviousValue(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA46D48
     void set_PreviousValue(T value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_PreviousValue", value));
     }
     // public T get_CurrentValue()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA46D50
     T get_CurrentValue() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_CurrentValue"));
     }
     // private System.Void set_CurrentValue(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA46D58
     void set_CurrentValue(T value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_CurrentValue", value));
     }
     // private System.Void set_ThreadContextChanged(System.Boolean value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA46D60
     void set_ThreadContextChanged(bool value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_ThreadContextChanged", value));
     }
     // System.Void .ctor(T previousValue, T currentValue, System.Boolean contextChanged)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA46D6C
     static AsyncLocalValueChangedArgs_1<T>* New_ctor(T previousValue, T currentValue, bool contextChanged) {
       return (AsyncLocalValueChangedArgs_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncLocalValueChangedArgs_1<T>>::get(), previousValue, currentValue, contextChanged));
     }

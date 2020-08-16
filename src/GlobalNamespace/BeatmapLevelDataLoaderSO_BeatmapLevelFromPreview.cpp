@@ -11,6 +11,8 @@
 #include "GlobalNamespace/BeatmapLevelDataLoaderSO_BeatmapLevelFromPreview_-GetPreviewAudioClipAsync-d__33.hpp"
 // Including type: BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/<GetCoverImageTexture2DAsync>d__34
 #include "GlobalNamespace/BeatmapLevelDataLoaderSO_BeatmapLevelFromPreview_-GetCoverImageTexture2DAsync-d__34.hpp"
+// Including type: IPreviewBeatmapLevel
+#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
 // Including type: BeatmapCharacteristicCollectionSO
 #include "GlobalNamespace/BeatmapCharacteristicCollectionSO.hpp"
 // Including type: BeatmapLevelDataSO

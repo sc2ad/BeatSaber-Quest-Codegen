@@ -89,25 +89,25 @@ namespace UnityEngine {
     // Offset: 0x19160A4
     static ::Il2CppString* GetSignature(::Array<::Il2CppObject*>* args);
     // static public ArrayType ConvertFromJNIArray(System.IntPtr array)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14D1D70
     template<class ArrayType>
     static ArrayType ConvertFromJNIArray(System::IntPtr array) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ArrayType>("UnityEngine", "AndroidJNIHelper", "ConvertFromJNIArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayType>::get()}, array)));
     }
     // static public System.IntPtr GetMethodID(System.IntPtr jclass, System.String methodName, System.Object[] args, System.Boolean isStatic)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DDC30
     template<class ReturnType>
     static System::IntPtr GetMethodID(System::IntPtr jclass, ::Il2CppString* methodName, ::Array<::Il2CppObject*>* args, bool isStatic) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::IntPtr>("UnityEngine", "AndroidJNIHelper", "GetMethodID", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, jclass, methodName, args, isStatic)));
     }
     // static public System.IntPtr GetFieldID(System.IntPtr jclass, System.String fieldName, System.Boolean isStatic)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DDC1C
     template<class FieldType>
     static System::IntPtr GetFieldID(System::IntPtr jclass, ::Il2CppString* fieldName, bool isStatic) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::IntPtr>("UnityEngine", "AndroidJNIHelper", "GetFieldID", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, jclass, fieldName, isStatic)));
     }
     // static public System.String GetSignature(System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC707C8
     template<class ReturnType>
     static ::Il2CppString* GetSignature(::Array<::Il2CppObject*>* args) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("UnityEngine", "AndroidJNIHelper", "GetSignature", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, args)));

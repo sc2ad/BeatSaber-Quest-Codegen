@@ -20,12 +20,12 @@ namespace ModestTree {
     // Offset: 0x0
     T value;
     // System.Boolean <ContainsItem>b__0(T x)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12918E8
     bool $ContainsItem$b__0(T x) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<ContainsItem>b__0", x)));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12918D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LinqExtensions::$$c__DisplayClass9_0_1<T>* New_ctor() {

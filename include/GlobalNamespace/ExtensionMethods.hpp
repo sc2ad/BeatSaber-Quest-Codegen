@@ -25,8 +25,8 @@ namespace System {
   // Forward declaring type: Func`1<TResult>
   template<typename TResult>
   class Func_1;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0xCAD4D4
     static UnityEngine::Coroutine* StartUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func, T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E0A00
     template<class T>
     static UnityEngine::Coroutine* StartUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_2<T, System::Collections::IEnumerator*>* func, T value) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::Coroutine*>("", "ExtensionMethods", "StartUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, m, func, value)));
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0xCAD554
     static void StopUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC72A5C
     template<class T>
     static void StopUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_2<T, System::Collections::IEnumerator*>* func) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "ExtensionMethods", "StopUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, m, func));

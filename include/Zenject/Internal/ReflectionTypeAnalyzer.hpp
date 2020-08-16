@@ -82,7 +82,7 @@ namespace Zenject::Internal {
     // Offset: 0xF3946C
     static void _cctor();
     // static public System.Void AddCustomInjectAttribute()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5FB78
     template<class T>
     static void AddCustomInjectAttribute() {
       static_assert(std::is_convertible_v<T, System::Attribute*>);

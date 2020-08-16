@@ -34,12 +34,12 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "GetData", value));
     }
     // static public System.Diagnostics.Tracing.PropertyAccessor`1<ContainerType> Create(System.Diagnostics.Tracing.PropertyAnalysis property)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15640C0
     static System::Diagnostics::Tracing::PropertyAccessor_1<ContainerType>* Create(System::Diagnostics::Tracing::PropertyAnalysis* property) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Diagnostics::Tracing::PropertyAccessor_1<ContainerType>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PropertyAccessor_1<ContainerType>*>::get(), "Create", property));
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1564480
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PropertyAccessor_1<ContainerType>* New_ctor() {

@@ -30,19 +30,19 @@ namespace Zenject {
   class KeyedFactory_2 : public Zenject::KeyedFactoryBase_2<TBase, TKey> {
     public:
     // public TBase Create(TKey key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BFE08
     TBase Create(TKey key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TBase>(this, "Create", key));
     }
     // protected override System.Collections.Generic.IEnumerable`1<System.Type> get_ProvidedTypes()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BFDBC
     // Implemented from: Zenject.KeyedFactoryBase`2
     // Base method: System.Collections.Generic.IEnumerable`1<System.Type> KeyedFactoryBase`2::get_ProvidedTypes()
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ProvidedTypes() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<System::Type*>*>(this, "get_ProvidedTypes"));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BFEBC
     // Implemented from: Zenject.KeyedFactoryBase`2
     // Base method: System.Void KeyedFactoryBase`2::.ctor()
     // Base method: System.Void Object::.ctor()

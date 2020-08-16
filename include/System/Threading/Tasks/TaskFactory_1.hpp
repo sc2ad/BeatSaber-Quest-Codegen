@@ -49,17 +49,17 @@ namespace System::Threading::Tasks {
     // Offset: 0x0
     System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
     // public System.Void .ctor(System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskContinuationOptions continuationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1487988
     static TaskFactory_1<TResult>* New_ctor(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler* scheduler) {
       return (TaskFactory_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TaskFactory_1<TResult>*>::get(), cancellationToken, creationOptions, continuationOptions, scheduler));
     }
     // public System.Threading.Tasks.Task`1<TResult> StartNew(System.Func`1<TResult> function, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1487A10
     System::Threading::Tasks::Task_1<TResult>* StartNew(System::Func_1<TResult>* function, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskScheduler* scheduler) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TResult>*>(this, "StartNew", function, cancellationToken, creationOptions, scheduler));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1487954
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskFactory_1<TResult>* New_ctor() {

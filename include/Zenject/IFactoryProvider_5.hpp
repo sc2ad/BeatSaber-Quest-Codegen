@@ -40,14 +40,14 @@ namespace Zenject {
   class IFactoryProvider_5 : public Zenject::IFactoryProviderBase_1<TContract> {
     public:
     // public System.Void .ctor(Zenject.DiContainer container, System.Guid factoryId)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BD15C
     // Implemented from: Zenject.IFactoryProviderBase`1
     // Base method: System.Void IFactoryProviderBase`1::.ctor(Zenject.DiContainer container, System.Guid factoryId)
     static IFactoryProvider_5<TContract, TParam1, TParam2, TParam3, TParam4>* New_ctor(Zenject::DiContainer* container, System::Guid factoryId) {
       return (IFactoryProvider_5<TContract, TParam1, TParam2, TParam3, TParam4>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IFactoryProvider_5<TContract, TParam1, TParam2, TParam3, TParam4>*>::get(), container, factoryId)));
     }
     // public override System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13BD180
     // Implemented from: Zenject.IFactoryProviderBase`1
     // Base method: System.Void IFactoryProviderBase`1::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {

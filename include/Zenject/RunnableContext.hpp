@@ -48,7 +48,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     void RunInternal();
     // static public T CreateComponent(UnityEngine.GameObject gameObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD50B78
     template<class T>
     static T CreateComponent(UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<T, Zenject::RunnableContext*>);

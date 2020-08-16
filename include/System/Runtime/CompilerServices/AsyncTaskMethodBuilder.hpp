@@ -53,7 +53,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1160F48
     static System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
     // public System.Void Start(TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA3D72C
     template<class TStateMachine>
     void Start(TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::IAsyncStateMachine, std::remove_pointer_t<TStateMachine>>);
@@ -63,7 +63,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xA3E6C8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitUnsafeOnCompleted(TAwaiter awaiter, TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA3D6BC
     template<class TAwaiter, class TStateMachine>
     void AwaitUnsafeOnCompleted(TAwaiter& awaiter, TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::ICriticalNotifyCompletion, std::remove_pointer_t<TAwaiter>>);

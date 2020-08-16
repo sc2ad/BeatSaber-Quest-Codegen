@@ -63,7 +63,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x1070828
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* get_FailurePoints();
     // private System.Void AdjustArgumentIfNeeded(T arg)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC7471C
     template<class T>
     void AdjustArgumentIfNeeded(T& arg) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AdjustArgumentIfNeeded", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arg));

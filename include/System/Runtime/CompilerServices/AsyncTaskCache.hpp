@@ -43,7 +43,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1160D74
     static ::Array<System::Threading::Tasks::Task_1<int>*>* CreateInt32Tasks();
     // static System.Threading.Tasks.Task`1<TResult> CreateCacheableTask(TResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC71AF8
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* CreateCacheableTask(TResult result) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Runtime.CompilerServices", "AsyncTaskCache", "CreateCacheableTask", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, result)));

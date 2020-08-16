@@ -27,22 +27,22 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: KeyValuePair_2
     KeyValuePair_2(TKey key_ = {}, TValue value_ = {}) : key{key_}, value{value_} {}
     // public System.Void .ctor(TKey key, TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA29598
     static KeyValuePair_2<TKey, TValue>* New_ctor(TKey key, TValue value) {
       return (KeyValuePair_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KeyValuePair_2<TKey, TValue>>::get(), key, value)));
     }
     // public TKey get_Key()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA29A24
     TKey get_Key() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TKey>(*this, "get_Key"));
     }
     // public TValue get_Value()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA29A2C
     TValue get_Value() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(*this, "get_Value"));
     }
     // public override System.String ToString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA295D4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString() {

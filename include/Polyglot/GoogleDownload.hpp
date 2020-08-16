@@ -22,8 +22,8 @@ namespace System {
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Completed forward declares

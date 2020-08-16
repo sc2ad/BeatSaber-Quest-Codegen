@@ -40,7 +40,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x11617F4
     static void PrepareConstrainedRegions();
     // static public System.Boolean IsReferenceOrContainsReferences()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE5E6B8
     template<class T>
     static bool IsReferenceOrContainsReferences() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("System.Runtime.CompilerServices", "RuntimeHelpers", "IsReferenceOrContainsReferences", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));

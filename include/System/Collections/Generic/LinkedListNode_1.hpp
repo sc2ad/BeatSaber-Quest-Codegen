@@ -35,22 +35,22 @@ namespace System::Collections::Generic {
     // Offset: 0x0
     T item;
     // System.Void .ctor(System.Collections.Generic.LinkedList`1<T> list, T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xCF8FBC
     static LinkedListNode_1<T>* New_ctor(System::Collections::Generic::LinkedList_1<T>* list, T value) {
       return (LinkedListNode_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinkedListNode_1<T>*>::get(), list, value));
     }
     // public System.Collections.Generic.LinkedListNode`1<T> get_Next()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xCF9014
     System::Collections::Generic::LinkedListNode_1<T>* get_Next() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::LinkedListNode_1<T>*>(this, "get_Next"));
     }
     // public T get_Value()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xCF9048
     T get_Value() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Value"));
     }
     // System.Void Invalidate()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xCF9050
     void Invalidate() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invalidate"));
     }

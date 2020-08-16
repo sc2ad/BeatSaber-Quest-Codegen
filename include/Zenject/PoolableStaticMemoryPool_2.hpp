@@ -26,17 +26,17 @@ namespace Zenject {
     static_assert((!std::is_complete_v<std::remove_pointer_t<TValue>> || std::is_base_of_v<Zenject::IPoolable_1<TParam1>, std::remove_pointer_t<TValue>>));
     public:
     // static private System.Void OnSpawned(TParam1 p1, TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E965C
     static void OnSpawned(TParam1 p1, TValue value) {
       THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableStaticMemoryPool_2<TParam1, TValue>*>::get(), "OnSpawned", p1, value)));
     }
     // static private System.Void OnDespawned(TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E971C
     static void OnDespawned(TValue value) {
       THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableStaticMemoryPool_2<TParam1, TValue>*>::get(), "OnDespawned", value)));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15E9588
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PoolableStaticMemoryPool_2<TParam1, TValue>* New_ctor() {

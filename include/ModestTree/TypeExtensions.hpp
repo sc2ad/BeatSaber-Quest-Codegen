@@ -87,7 +87,7 @@ namespace ModestTree {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Type[]> _interfaces
     static void _set__interfaces(System::Collections::Generic::Dictionary_2<System::Type*, ::Array<System::Type*>*>* value);
     // static public System.Boolean DerivesFrom(System.Type a)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14E1C44
     template<class T>
     static bool DerivesFrom(System::Type* a) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "TypeExtensions", "DerivesFrom", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, a)));
@@ -96,7 +96,7 @@ namespace ModestTree {
     // Offset: 0xD5C2DC
     static bool DerivesFrom(System::Type* a, System::Type* b);
     // static public System.Boolean DerivesFromOrEqual(System.Type a)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14E1CF8
     template<class T>
     static bool DerivesFromOrEqual(System::Type* a) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "TypeExtensions", "DerivesFromOrEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, a)));
@@ -171,14 +171,14 @@ namespace ModestTree {
     // Offset: 0xD5F0E0
     static bool IsOpenGenericType(System::Type* type);
     // static public T GetAttribute(System.Reflection.MemberInfo provider)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC603D0
     template<class T>
     static T GetAttribute(System::Reflection::MemberInfo* provider) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("ModestTree", "TypeExtensions", "GetAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, provider)));
     }
     // static public T TryGetAttribute(System.Reflection.MemberInfo provider)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC6045C
     template<class T>
     static T TryGetAttribute(System::Reflection::MemberInfo* provider) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
@@ -188,14 +188,14 @@ namespace ModestTree {
     // Offset: 0xD5F250
     static bool HasAttribute(System::Reflection::MemberInfo* provider, ::Array<System::Type*>* attributeTypes);
     // static public System.Boolean HasAttribute(System.Reflection.MemberInfo provider)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14E1DAC
     template<class T>
     static bool HasAttribute(System::Reflection::MemberInfo* provider) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "TypeExtensions", "HasAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, provider)));
     }
     // static public System.Collections.Generic.IEnumerable`1<T> AllAttributes(System.Reflection.MemberInfo provider)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD0759C
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* AllAttributes(System::Reflection::MemberInfo* provider) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
@@ -208,14 +208,14 @@ namespace ModestTree {
     // Offset: 0xD5F41C
     static bool HasAttribute(System::Reflection::ParameterInfo* provider, ::Array<System::Type*>* attributeTypes);
     // static public System.Boolean HasAttribute(System.Reflection.ParameterInfo provider)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14E1ED8
     template<class T>
     static bool HasAttribute(System::Reflection::ParameterInfo* provider) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "TypeExtensions", "HasAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, provider)));
     }
     // static public System.Collections.Generic.IEnumerable`1<T> AllAttributes(System.Reflection.ParameterInfo provider)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD076C8
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* AllAttributes(System::Reflection::ParameterInfo* provider) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);

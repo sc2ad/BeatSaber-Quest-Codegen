@@ -40,7 +40,7 @@ namespace Zenject {
     // Offset: 0xF381F4
     Zenject::ConditionCopyNonLazyBinder* OnInstantiated(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* callback);
     // public Zenject.ConditionCopyNonLazyBinder OnInstantiated(System.Action`2<Zenject.InjectContext,T> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E6260
     template<class T>
     Zenject::ConditionCopyNonLazyBinder* OnInstantiated(System::Action_2<Zenject::InjectContext*, T>* callback) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConditionCopyNonLazyBinder*>(this, "OnInstantiated", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, callback)));

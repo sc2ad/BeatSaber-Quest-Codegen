@@ -30,12 +30,12 @@ namespace Oculus::Platform {
     // Offset: 0x0
     typename Oculus::Platform::Message_1<T>::Callback* callback;
     // public System.Void .ctor(Oculus.Platform.Message`1/Callback<T> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12937F8
     static Callback::RequestCallback_1<T>* New_ctor(typename Oculus::Platform::Message_1<T>::Callback* callback) {
       return (Callback::RequestCallback_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Callback::RequestCallback_1<T>*>::get(), callback));
     }
     // public override System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1293834
     // Implemented from: Oculus.Platform.Callback/RequestCallback
     // Base method: System.Void RequestCallback::HandleMessage(Oculus.Platform.Message msg)
     void HandleMessage(Oculus::Platform::Message* msg) {

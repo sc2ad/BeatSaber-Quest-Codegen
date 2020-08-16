@@ -26,7 +26,7 @@ namespace UnityEngine {
     // Offset: 0x138934C
     static UnityEngine::ScriptableObject* CreateInstance(System::Type* type);
     // static public T CreateInstance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4EEDC
     template<class T>
     static T CreateInstance() {
       static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*>);

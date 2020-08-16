@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Offset: 0xCAE904
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllGameObjectsInLoadedScenes();
     // static public System.Collections.Generic.List`1<T> GetComponentsInGameObjects(System.Collections.Generic.IReadOnlyList`1<UnityEngine.GameObject> gameObjects)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD2B04C
     template<class T>
     static System::Collections::Generic::List_1<T>* GetComponentsInGameObjects(System::Collections::Generic::IReadOnlyList_1<UnityEngine::GameObject*>* gameObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::Behaviour*>);

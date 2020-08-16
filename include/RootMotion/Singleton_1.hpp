@@ -28,17 +28,17 @@ namespace RootMotion {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Singleton_1<T>*>::get(), "sInstance", value));
     }
     // static public T get_instance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x129648C
     static T get_instance() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Singleton_1<T>*>::get(), "get_instance"));
     }
     // protected System.Void Awake()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1296578
     void Awake() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Awake"));
     }
     // protected System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12967C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -49,7 +49,7 @@ namespace RootMotion {
       return (Singleton_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Singleton_1<T>*>::get()));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12967D8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor() {

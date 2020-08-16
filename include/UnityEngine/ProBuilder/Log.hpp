@@ -73,7 +73,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xF99B30
     static void SetLogFile(::Il2CppString* path);
     // static public System.Void Debug(T value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5EA68
     template<class T>
     static void Debug(T value) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Debug", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value));
@@ -103,7 +103,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xF99FCC
     static void Error(::Il2CppString* message);
     // static System.Void Watch(T key, K value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5EAF0
     template<class T, class K>
     static void Watch(T key, K value) {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Watch", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, key, value)));
@@ -121,7 +121,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xF9A064
     static void PrintToConsole(::Il2CppString* message, UnityEngine::LogType type);
     // static System.Void NotNull(T obj, System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5EA6C
     template<class T>
     static void NotNull(T obj, ::Il2CppString* message) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "NotNull", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, message));

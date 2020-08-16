@@ -19,8 +19,8 @@ namespace Zenject {
   // Forward declaring type: ConcreteBinderGeneric`1<TContract>
   template<typename TContract>
   class ConcreteBinderGeneric_1;
-  // Forward declaring type: IFactory`3<TParam1, TParam2, TValue>
-  template<typename TParam1, typename TParam2, typename TValue>
+  // Forward declaring type: IFactory`3<TValue, TParam1, TParam2>
+  template<typename TValue, typename TParam1, typename TParam2>
   class IFactory_3;
   // Forward declaring type: IPoolable`3<TParam1, TParam2, TParam3>
   template<typename TParam1, typename TParam2, typename TParam3>
@@ -70,41 +70,41 @@ namespace Zenject {
     template<typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
     class $$c__DisplayClass6_0_4;
     // static public Zenject.ArgConditionCopyNonLazyBinder FromIFactory(Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> fromBinder, System.Action`1<Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`3<TParam1,TParam2,TContract>>> factoryBindGenerator)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E24B4
     template<class TParam1, class TParam2, class TContract>
     static Zenject::ArgConditionCopyNonLazyBinder* FromIFactory(Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract>* fromBinder, System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_3<TParam1, TParam2, TContract>*>*>* factoryBindGenerator) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ArgConditionCopyNonLazyBinder*>("Zenject", "FactoryFromBinder2Extensions", "FromIFactory", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, fromBinder, factoryBindGenerator)));
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromPoolableMemoryPool(Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> fromBinder)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E2AF8
     template<class TParam1, class TParam2, class TContract>
     static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract>* fromBinder) {
       static_assert(std::is_base_of_v<Zenject::IPoolable_3<TParam1, TParam2, Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ArgConditionCopyNonLazyBinder*>("Zenject", "FactoryFromBinder2Extensions", "FromPoolableMemoryPool", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, fromBinder)));
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromPoolableMemoryPool(Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> fromBinder, System.Action`1<Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract>> poolBindGenerator)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E2CA4
     template<class TParam1, class TParam2, class TContract>
     static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract>* fromBinder, System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
       static_assert(std::is_base_of_v<Zenject::IPoolable_3<TParam1, TParam2, Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ArgConditionCopyNonLazyBinder*>("Zenject", "FactoryFromBinder2Extensions", "FromPoolableMemoryPool", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, fromBinder, poolBindGenerator)));
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromMonoPoolableMemoryPool(Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> fromBinder)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E25E0
     template<class TParam1, class TParam2, class TContract>
     static Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract>* fromBinder) {
       static_assert(std::is_convertible_v<TContract, UnityEngine::Component*> && std::is_base_of_v<Zenject::IPoolable_3<TParam1, TParam2, Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ArgConditionCopyNonLazyBinder*>("Zenject", "FactoryFromBinder2Extensions", "FromMonoPoolableMemoryPool", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, fromBinder)));
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromMonoPoolableMemoryPool(Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> fromBinder, System.Action`1<Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract>> poolBindGenerator)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E278C
     template<class TParam1, class TParam2, class TContract>
     static Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract>* fromBinder, System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
       static_assert(std::is_convertible_v<TContract, UnityEngine::Component*> && std::is_base_of_v<Zenject::IPoolable_3<TParam1, TParam2, Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ArgConditionCopyNonLazyBinder*>("Zenject", "FactoryFromBinder2Extensions", "FromMonoPoolableMemoryPool", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, fromBinder, poolBindGenerator)));
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromPoolableMemoryPool(Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> fromBinder)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E279C
     template<class TParam1, class TParam2, class TContract, class TMemoryPool>
     static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract>* fromBinder) {
       static_assert(std::is_base_of_v<Zenject::IPoolable_3<TParam1, TParam2, Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
@@ -112,7 +112,7 @@ namespace Zenject {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ArgConditionCopyNonLazyBinder*>("Zenject", "FactoryFromBinder2Extensions", "FromPoolableMemoryPool", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMemoryPool>::get()}, fromBinder)));
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromPoolableMemoryPool(Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> fromBinder, System.Action`1<Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract>> poolBindGenerator)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E2948
     template<class TParam1, class TParam2, class TContract, class TMemoryPool>
     static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract>* fromBinder, System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
       static_assert(std::is_base_of_v<Zenject::IPoolable_3<TParam1, TParam2, Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);

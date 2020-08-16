@@ -42,7 +42,7 @@ namespace System::Reflection {
     // Offset: 0x1362324
     static System::Attribute* GetCustomAttribute(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public T GetCustomAttribute(System.Reflection.Assembly element)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4CB08
     template<class T>
     static T GetCustomAttribute(System::Reflection::Assembly* element) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
@@ -52,7 +52,7 @@ namespace System::Reflection {
     // Offset: 0x136232C
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* GetCustomAttributes(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public System.Collections.Generic.IEnumerable`1<T> GetCustomAttributes(System.Reflection.Assembly element)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD077F4
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* GetCustomAttributes(System::Reflection::Assembly* element) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
@@ -62,7 +62,7 @@ namespace System::Reflection {
     // Offset: 0x1362334
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* GetCustomAttributes(System::Reflection::MemberInfo* element, System::Type* attributeType, bool inherit);
     // static public System.Collections.Generic.IEnumerable`1<T> GetCustomAttributes(System.Reflection.MemberInfo element, System.Boolean inherit)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD078C4
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* GetCustomAttributes(System::Reflection::MemberInfo* element, bool inherit) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);

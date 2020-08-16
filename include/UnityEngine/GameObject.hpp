@@ -51,7 +51,7 @@ namespace UnityEngine {
     // Offset: 0x130A004
     static UnityEngine::GameObject* CreatePrimitive(UnityEngine::PrimitiveType type);
     // public T GetComponent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4D53C
     template<class T>
     T GetComponent() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "GetComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
@@ -75,13 +75,13 @@ namespace UnityEngine {
     // Offset: 0x130A13C
     UnityEngine::Component* GetComponentInChildren(System::Type* type);
     // public T GetComponentInChildren()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4D5EC
     template<class T>
     T GetComponentInChildren() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "GetComponentInChildren", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public T GetComponentInChildren(System.Boolean includeInactive)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4D610
     template<class T>
     T GetComponentInChildren(bool includeInactive) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "GetComponentInChildren", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, includeInactive)));
@@ -96,13 +96,13 @@ namespace UnityEngine {
     // Offset: 0x13021F0
     ::Array<UnityEngine::Component*>* GetComponents(System::Type* type);
     // public T[] GetComponents()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5849C
     template<class T>
     ::Array<T>* GetComponents() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public System.Void GetComponents(System.Collections.Generic.List`1<T> results)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5C054
     template<class T>
     void GetComponents(System::Collections::Generic::List_1<T>* results) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, results));
@@ -111,19 +111,19 @@ namespace UnityEngine {
     // Offset: 0x1301EE4
     ::Array<UnityEngine::Component*>* GetComponentsInChildren(System::Type* type, bool includeInactive);
     // public T[] GetComponentsInChildren(System.Boolean includeInactive)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD585AC
     template<class T>
     ::Array<T>* GetComponentsInChildren(bool includeInactive) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetComponentsInChildren", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, includeInactive)));
     }
     // public System.Void GetComponentsInChildren(System.Boolean includeInactive, System.Collections.Generic.List`1<T> results)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5C100
     template<class T>
     void GetComponentsInChildren(bool includeInactive, System::Collections::Generic::List_1<T>* results) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetComponentsInChildren", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, includeInactive, results));
     }
     // public T[] GetComponentsInChildren()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD58588
     template<class T>
     ::Array<T>* GetComponentsInChildren() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetComponentsInChildren", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
@@ -132,13 +132,13 @@ namespace UnityEngine {
     // Offset: 0x13020D8
     ::Array<UnityEngine::Component*>* GetComponentsInParent(System::Type* type, bool includeInactive);
     // public System.Void GetComponentsInParent(System.Boolean includeInactive, System.Collections.Generic.List`1<T> results)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5C1B8
     template<class T>
     void GetComponentsInParent(bool includeInactive, System::Collections::Generic::List_1<T>* results) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetComponentsInParent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, includeInactive, results));
     }
     // public T[] GetComponentsInParent(System.Boolean includeInactive)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5869C
     template<class T>
     ::Array<T>* GetComponentsInParent(bool includeInactive) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetComponentsInParent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, includeInactive)));
@@ -150,7 +150,7 @@ namespace UnityEngine {
     // Offset: 0x130A268
     UnityEngine::Component* AddComponent(System::Type* componentType);
     // public T AddComponent()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4D43C
     template<class T>
     T AddComponent() {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);

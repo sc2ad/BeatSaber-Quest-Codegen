@@ -1372,7 +1372,7 @@ namespace TMPro {
     // Offset: 0xBBBF60
     int GetTagHashCode(System::Text::StringBuilder*& text, int index, int& closeIndex);
     // private System.Void ResizeInternalArray(T[] array)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC587BC
     template<class T>
     void ResizeInternalArray(::Array<T>*& array) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "ResizeInternalArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array));

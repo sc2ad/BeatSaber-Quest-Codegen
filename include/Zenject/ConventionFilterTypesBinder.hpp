@@ -22,11 +22,11 @@ namespace System {
   class Type;
   // Forward declaring type: Attribute
   class Attribute;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -70,7 +70,7 @@ namespace Zenject {
     // Nested type: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass18_0
     class $$c__DisplayClass18_0;
     // public Zenject.ConventionFilterTypesBinder DerivingFromOrEqual()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E6574
     template<class T>
     Zenject::ConventionFilterTypesBinder* DerivingFromOrEqual() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConventionFilterTypesBinder*>(this, "DerivingFromOrEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
@@ -79,7 +79,7 @@ namespace Zenject {
     // Offset: 0xD6B33C
     Zenject::ConventionFilterTypesBinder* DerivingFromOrEqual(System::Type* parentType);
     // public Zenject.ConventionFilterTypesBinder DerivingFrom()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E64E0
     template<class T>
     Zenject::ConventionFilterTypesBinder* DerivingFrom() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConventionFilterTypesBinder*>(this, "DerivingFrom", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
@@ -88,7 +88,7 @@ namespace Zenject {
     // Offset: 0xD6B410
     Zenject::ConventionFilterTypesBinder* DerivingFrom(System::Type* parentType);
     // public Zenject.ConventionFilterTypesBinder WithAttribute()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E6608
     template<class T>
     Zenject::ConventionFilterTypesBinder* WithAttribute() {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
@@ -98,7 +98,7 @@ namespace Zenject {
     // Offset: 0xD6B4E4
     Zenject::ConventionFilterTypesBinder* WithAttribute(System::Type* attribute);
     // public Zenject.ConventionFilterTypesBinder WithoutAttribute()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E6788
     template<class T>
     Zenject::ConventionFilterTypesBinder* WithoutAttribute() {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
@@ -108,7 +108,7 @@ namespace Zenject {
     // Offset: 0xD6B5FC
     Zenject::ConventionFilterTypesBinder* WithoutAttribute(System::Type* attribute);
     // public Zenject.ConventionFilterTypesBinder WithAttributeWhere(System.Func`2<T,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E669C
     template<class T>
     Zenject::ConventionFilterTypesBinder* WithAttributeWhere(System::Func_2<T, bool>* predicate) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);

@@ -32,8 +32,8 @@ namespace System::Collections {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -63,7 +63,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1026B70
     static void CopyTo(UnityEngine::Mesh* source, UnityEngine::Mesh* destination);
     // static T GetMeshChannel(UnityEngine.GameObject gameObject, System.Func`2<UnityEngine.Mesh,T> attributeGetter)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4E534
     template<class T>
     static T GetMeshChannel(UnityEngine::GameObject* gameObject, System::Func_2<UnityEngine::Mesh*, T>* attributeGetter) {
       static_assert(std::is_base_of_v<System::Collections::IList, std::remove_pointer_t<T>>);

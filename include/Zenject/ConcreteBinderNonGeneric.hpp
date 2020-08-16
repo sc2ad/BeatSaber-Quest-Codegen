@@ -48,7 +48,7 @@ namespace Zenject {
     // Offset: 0xD681EC
     Zenject::FromBinderNonGeneric* ToSelf();
     // public Zenject.FromBinderNonGeneric To()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13EA230
     template<class TConcrete>
     Zenject::FromBinderNonGeneric* To() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::FromBinderNonGeneric*>(this, "To", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()})));

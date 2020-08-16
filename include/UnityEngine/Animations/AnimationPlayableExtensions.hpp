@@ -33,7 +33,7 @@ namespace UnityEngine::Animations {
   class AnimationPlayableExtensions : public ::Il2CppObject {
     public:
     // static public System.Void SetAnimatedProperties(U playable, UnityEngine.AnimationClip clip)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5A890
     template<class U>
     static void SetAnimatedProperties(U playable, UnityEngine::AnimationClip* clip) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<U>> && is_value_type_v<U>);

@@ -48,37 +48,37 @@ namespace ModestTree {
     // Offset: 0xD5C134
     static void IsNotEmpty(::Il2CppString* str);
     // static public System.Void IsEmpty(System.Collections.Generic.IList`1<T> list)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC736F8
     template<class T>
     static void IsEmpty(System::Collections::Generic::IList_1<T>* list) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list));
     }
     // static public System.Void IsEmpty(System.Collections.Generic.IEnumerable`1<T> sequence)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC735FC
     template<class T>
     static void IsEmpty(System::Collections::Generic::IEnumerable_1<T>* sequence) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, sequence));
     }
     // static public System.Void IsType(System.Object obj)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC73B14
     template<class T>
     static void IsType(::Il2CppObject* obj) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj));
     }
     // static public System.Void IsType(System.Object obj, System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC73B7C
     template<class T>
     static void IsType(::Il2CppObject* obj, ::Il2CppString* message) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, message));
     }
     // static public System.Void DerivesFrom(System.Type type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC732A4
     template<class T>
     static void DerivesFrom(System::Type* type) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "DerivesFrom", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, type));
     }
     // static public System.Void DerivesFromOrEqual(System.Type type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC73450
     template<class T>
     static void DerivesFromOrEqual(System::Type* type) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "DerivesFromOrEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, type));
@@ -129,7 +129,7 @@ namespace ModestTree {
     // Offset: 0xD5D2EC
     static void IsNotNull(::Il2CppObject* val, ::Il2CppString* message, ::Il2CppObject* p1, ::Il2CppObject* p2);
     // static public System.Void IsNotEmpty(System.Collections.Generic.IEnumerable`1<T> val, System.String message)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC739E8
     template<class T>
     static void IsNotEmpty(System::Collections::Generic::IEnumerable_1<T>* val, ::Il2CppString* message) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsNotEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, val, message));
@@ -162,7 +162,7 @@ namespace ModestTree {
     // Offset: 0xD5DB18
     static void Throws(System::Action* action);
     // static public System.Void Throws(System.Action action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC73D5C
     template<class TException>
     static void Throws(System::Action* action) {
       static_assert(std::is_convertible_v<TException, System::Exception*>);

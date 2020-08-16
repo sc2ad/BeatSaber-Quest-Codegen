@@ -2,6 +2,7 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HMUI.SegmentedControl/IDataSource
 #include "HMUI/SegmentedControl_IDataSource.hpp"
 // Including type: HMUI.SegmentedControlCell

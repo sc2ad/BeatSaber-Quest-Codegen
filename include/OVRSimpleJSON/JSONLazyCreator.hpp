@@ -46,7 +46,7 @@ namespace OVRSimpleJSON {
     // Offset: 0xF4C2C8
     static JSONLazyCreator* New_ctor(OVRSimpleJSON::JSONNode* aNode, ::Il2CppString* aKey);
     // private T Set(T aVal)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC606E4
     template<class T>
     T Set(T aVal) {
       static_assert(std::is_convertible_v<T, OVRSimpleJSON::JSONNode*>);

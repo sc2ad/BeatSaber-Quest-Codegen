@@ -33,7 +33,7 @@ namespace UnityEngine {
     // Offset: 0x1979F5C
     static ::Il2CppString* ToJson(::Il2CppObject* obj, bool prettyPrint);
     // static public T FromJson(System.String json)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4D7CC
     template<class T>
     static T FromJson(::Il2CppString* json) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "JsonUtility", "FromJson", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, json)));

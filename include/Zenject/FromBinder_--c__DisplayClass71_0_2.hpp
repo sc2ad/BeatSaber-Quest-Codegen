@@ -15,8 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -48,12 +48,12 @@ namespace Zenject {
     // Offset: 0x0
     bool matchMultiple;
     // Zenject.IProvider <FromResolveGetterBase>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13B9444
     Zenject::IProvider* $FromResolveGetterBase$b__0(Zenject::DiContainer* container, System::Type* type) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<FromResolveGetterBase>b__0", container, type)));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13B942C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass71_0_2<TObj, TResult>* New_ctor() {

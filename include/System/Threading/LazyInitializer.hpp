@@ -22,13 +22,13 @@ namespace System::Threading {
   class LazyInitializer : public ::Il2CppObject {
     public:
     // static public T EnsureInitialized(T target, System.Func`1<T> valueFactory)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4CBE8
     template<class T>
     static T EnsureInitialized(T& target, System::Func_1<T>* valueFactory) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("System.Threading", "LazyInitializer", "EnsureInitialized", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, target, valueFactory)));
     }
     // static private T EnsureInitializedCore(T target, System.Func`1<T> valueFactory)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4CC48
     template<class T>
     static T EnsureInitializedCore(T& target, System::Func_1<T>* valueFactory) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("System.Threading", "LazyInitializer", "EnsureInitializedCore", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, target, valueFactory)));

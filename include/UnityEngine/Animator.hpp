@@ -78,14 +78,14 @@ namespace UnityEngine {
     // Offset: 0x1937C38
     void set_updateMode(UnityEngine::AnimatorUpdateMode value);
     // static private T[] ConvertStateMachineBehaviour(UnityEngine.ScriptableObject[] rawObjects)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD581CC
     template<class T>
     static ::Array<T>* ConvertStateMachineBehaviour(::Array<UnityEngine::ScriptableObject*>* rawObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::StateMachineBehaviour*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "Animator", "ConvertStateMachineBehaviour", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, rawObjects)));
     }
     // public T[] GetBehaviours()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD582EC
     template<class T>
     ::Array<T>* GetBehaviours() {
       static_assert(std::is_convertible_v<T, UnityEngine::StateMachineBehaviour*>);

@@ -27,17 +27,17 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
+  // Forward declaring type: Func`2<TResult, T>
+  template<typename TResult, typename T>
   class Func_2;
 }
 // Completed forward declares
@@ -60,26 +60,26 @@ namespace System::Linq {
     // Offset: 0x0
     typename System::Collections::Generic::List_1<TSource>::Enumerator enumerator;
     // public System.Void .ctor(System.Collections.Generic.List`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate, System.Func`2<TSource,TResult> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14B42E8
     static Enumerable::WhereSelectListIterator_2<TResult, TSource>* New_ctor(System::Collections::Generic::List_1<TSource>* source, System::Func_2<TSource, bool>* predicate, System::Func_2<TSource, TResult>* selector) {
       return (Enumerable::WhereSelectListIterator_2<TResult, TSource>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Enumerable::WhereSelectListIterator_2<TResult, TSource>*>::get(), source, predicate, selector)));
     }
     // public override System.Linq.Enumerable/Iterator`1<TResult> Clone()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14B4360
     // Implemented from: System.Linq.Enumerable/Iterator`1
     // Base method: System.Linq.Enumerable/Iterator`1<TSource> Iterator`1::Clone()
     System::Linq::Enumerable::Iterator_1<TResult>* Clone() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Linq::Enumerable::Iterator_1<TResult>*>(this, "Clone"));
     }
     // public override System.Boolean MoveNext()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14B43E0
     // Implemented from: System.Linq.Enumerable/Iterator`1
     // Base method: System.Boolean Iterator`1::MoveNext()
     bool MoveNext() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
     }
     // public override System.Collections.Generic.IEnumerable`1<TResult2> Select(System.Func`2<TResult,TResult2> selector)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD0D7AC
     // Implemented from: System.Linq.Enumerable/Iterator`1
     // Base method: System.Collections.Generic.IEnumerable`1<TResult> Iterator`1::Select(System.Func`2<TResult,TResult2> selector)
     template<class TResult2>
@@ -87,7 +87,7 @@ namespace System::Linq {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TResult2>*>(this, "Select", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult2>::get()}, selector)));
     }
     // public override System.Collections.Generic.IEnumerable`1<TResult> Where(System.Func`2<TResult,System.Boolean> predicate)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14B44FC
     // Implemented from: System.Linq.Enumerable/Iterator`1
     // Base method: System.Collections.Generic.IEnumerable`1<TSource> Iterator`1::Where(System.Func`2<TResult,System.Boolean> predicate)
     System::Collections::Generic::IEnumerable_1<TResult>* Where(System::Func_2<TResult, bool>* predicate) {

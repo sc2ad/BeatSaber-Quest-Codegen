@@ -14,37 +14,37 @@ namespace GlobalNamespace {
   class SerializationHelpers : public ::Il2CppObject {
     public:
     // static public T DeserializeData(System.Byte[] data)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC60844
     template<class T>
     static T DeserializeData(::Array<uint8_t>* data) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "SerializationHelpers", "DeserializeData", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, data)));
     }
     // static public System.Byte[] SerializeObject(T serializableObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xE61934
     template<class T>
     static ::Array<uint8_t>* SerializeObject(T serializableObject) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<uint8_t>*>("", "SerializationHelpers", "SerializeObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, serializableObject)));
     }
     // static public T DeserializeDataFromPlayerPrefs(System.String key)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC60C2C
     template<class T>
     static T DeserializeDataFromPlayerPrefs(::Il2CppString* key) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "SerializationHelpers", "DeserializeDataFromPlayerPrefs", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key)));
     }
     // static public System.Void SerializeObjectIntoPlayerPrefs(System.String key, T serializableObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC74CAC
     template<class T>
     static void SerializeObjectIntoPlayerPrefs(::Il2CppString* key, T serializableObject) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "SerializationHelpers", "SerializeObjectIntoPlayerPrefs", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key, serializableObject));
     }
     // static public T DeserializeDataFromFile(System.String filePath)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC60A9C
     template<class T>
     static T DeserializeDataFromFile(::Il2CppString* filePath) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "SerializationHelpers", "DeserializeDataFromFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, filePath)));
     }
     // static public System.Void SerializeObjectToFile(System.String filePath, T serializableObject)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC74D50
     template<class T>
     static void SerializeObjectToFile(::Il2CppString* filePath, T serializableObject) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "SerializationHelpers", "SerializeObjectToFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, filePath, serializableObject));

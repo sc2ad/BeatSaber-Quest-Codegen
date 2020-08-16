@@ -38,34 +38,34 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Offset: 0x0
     UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* RightChild;
     // public System.Void .ctor(TKey[] point, TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1180B8C
     static KdTreeNode_2<TKey, TValue>* New_ctor(::Array<TKey>* point, TValue value) {
       return (KdTreeNode_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KdTreeNode_2<TKey, TValue>*>::get(), point, value)));
     }
     // UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> get_Item(System.Int32 compare)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1180BE4
     UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* get_Item(int compare) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>(this, "get_Item", compare)));
     }
     // System.Void set_Item(System.Int32 compare, UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1180BFC
     void set_Item(int compare, UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Item", compare, value));
     }
     // public System.Void AddDuplicate(TValue value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1180C1C
     void AddDuplicate(TValue value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddDuplicate", value));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1180B74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static KdTreeNode_2<TKey, TValue>* New_ctor() {
       return (KdTreeNode_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KdTreeNode_2<TKey, TValue>*>::get())));
     }
     // public override System.String ToString()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1180CDC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString() {

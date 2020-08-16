@@ -33,41 +33,41 @@ namespace UnityEngine::Events {
     // Offset: 0x0
     UnityEngine::Events::UnityAction_3<T1, T2, T3>* Delegate;
     // protected System.Void add_Delegate(UnityEngine.Events.UnityAction`3<T1,T2,T3> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13FED30
     void add_Delegate(UnityEngine::Events::UnityAction_3<T1, T2, T3>* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "add_Delegate", value));
     }
     // protected System.Void remove_Delegate(UnityEngine.Events.UnityAction`3<T1,T2,T3> value)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13FEDDC
     void remove_Delegate(UnityEngine::Events::UnityAction_3<T1, T2, T3>* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "remove_Delegate", value));
     }
     // public System.Void .ctor(UnityEngine.Events.UnityAction`3<T1,T2,T3> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13FEF98
     static InvokableCall_3<T1, T2, T3>* New_ctor(UnityEngine::Events::UnityAction_3<T1, T2, T3>* action) {
       return (InvokableCall_3<T1, T2, T3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InvokableCall_3<T1, T2, T3>*>::get(), action)));
     }
     // public System.Void Invoke(T1 args0, T2 args1, T3 args2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13FF248
     void Invoke(T1 args0, T2 args1, T3 args2) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", args0, args1, args2));
     }
     // public System.Void .ctor(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13FEE88
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::.ctor(System.Object target, System.Reflection.MethodInfo theFunction)
     static InvokableCall_3<T1, T2, T3>* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction) {
       return (InvokableCall_3<T1, T2, T3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InvokableCall_3<T1, T2, T3>*>::get(), target, theFunction)));
     }
     // public override System.Void Invoke(System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13FEFEC
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
     void Invoke(::Array<::Il2CppObject*>* args) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", args));
     }
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13FF2D0
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Boolean BaseInvokableCall::Find(System.Object targetObj, System.Reflection.MethodInfo method)
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method) {

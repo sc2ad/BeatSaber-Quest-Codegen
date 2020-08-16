@@ -56,24 +56,24 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: AsyncTaskMethodBuilder_1
     AsyncTaskMethodBuilder_1(System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState_ = {}, System::Threading::Tasks::Task_1<TResult>* m_task_ = {}) : m_coreState{m_coreState_}, m_task{m_task_} {}
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> Create()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x147F490
     static System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> Create() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncTaskMethodBuilder_1<TResult>>::get(), "Create"));
     }
     // public System.Void Start(TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA392D4
     template<class TStateMachine>
     void Start(TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::IAsyncStateMachine, std::remove_pointer_t<TStateMachine>>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(*this, "Start", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA46040
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetStateMachine", stateMachine));
     }
     // public System.Void AwaitUnsafeOnCompleted(TAwaiter awaiter, TStateMachine stateMachine)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA3924C
     template<class TAwaiter, class TStateMachine>
     void AwaitUnsafeOnCompleted(TAwaiter& awaiter, TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::ICriticalNotifyCompletion, std::remove_pointer_t<TAwaiter>>);
@@ -81,32 +81,32 @@ namespace System::Runtime::CompilerServices {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod(*this, "AwaitUnsafeOnCompleted", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, awaiter, stateMachine)));
     }
     // public System.Threading.Tasks.Task`1<TResult> get_Task()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA4604C
     System::Threading::Tasks::Task_1<TResult>* get_Task() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TResult>*>(*this, "get_Task"));
     }
     // public System.Void SetResult(TResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA46054
     void SetResult(TResult result) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetResult", result));
     }
     // System.Void SetResult(System.Threading.Tasks.Task`1<TResult> completedTask)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA45D8C
     void SetResult(System::Threading::Tasks::Task_1<TResult>* completedTask) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetResult", completedTask));
     }
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA46064
     void SetException(System::Exception* exception) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetException", exception));
     }
     // private System.Threading.Tasks.Task`1<TResult> GetTaskForResult(TResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xA45D9C
     System::Threading::Tasks::Task_1<TResult>* GetTaskForResult(TResult result) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TResult>*>(*this, "GetTaskForResult", result));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1472548
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncTaskMethodBuilder_1<TResult>>::get(), ".cctor"));
     }

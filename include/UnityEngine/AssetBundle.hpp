@@ -45,7 +45,7 @@ namespace UnityEngine {
     // Offset: 0x19758A0
     UnityEngine::Object* LoadAsset(::Il2CppString* name);
     // public T LoadAsset(System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4CE50
     template<class T>
     T LoadAsset(::Il2CppString* name) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
@@ -58,7 +58,7 @@ namespace UnityEngine {
     // Offset: 0x1975A40
     UnityEngine::Object* LoadAsset_Internal(::Il2CppString* name, System::Type* type);
     // public UnityEngine.AssetBundleRequest LoadAssetAsync(System.String name)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x13E0964
     template<class T>
     UnityEngine::AssetBundleRequest* LoadAssetAsync(::Il2CppString* name) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::AssetBundleRequest*>(this, "LoadAssetAsync", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name)));

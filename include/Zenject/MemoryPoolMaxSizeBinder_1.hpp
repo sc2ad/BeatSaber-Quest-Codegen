@@ -30,12 +30,12 @@ namespace Zenject {
   class MemoryPoolMaxSizeBinder_1 : public Zenject::MemoryPoolExpandBinder_1<TContract> {
     public:
     // public Zenject.MemoryPoolExpandBinder`1<TContract> WithMaxSize(System.Int32 size)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA8B4
     Zenject::MemoryPoolExpandBinder_1<TContract>* WithMaxSize(int size) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::MemoryPoolExpandBinder_1<TContract>*>(this, "WithMaxSize", size));
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x15DA890
     // Implemented from: Zenject.MemoryPoolExpandBinder`1
     // Base method: System.Void MemoryPoolExpandBinder`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     static MemoryPoolMaxSizeBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, Zenject::MemoryPoolBindInfo* poolBindInfo) {

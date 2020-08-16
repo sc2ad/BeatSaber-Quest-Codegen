@@ -33,12 +33,12 @@ namespace GlobalNamespace {
     // Offset: 0x0
     UnityEngine::Events::UnityAction_3<T0, T1, T2>* action;
     // public System.Void .ctor(SteamVR_Events/Event`3<T0,T1,T2> _event, UnityEngine.Events.UnityAction`3<T0,T1,T2> action)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1296C3C
     static SteamVR_Events::Action_3<T0, T1, T2>* New_ctor(GlobalNamespace::SteamVR_Events::Event_3<T0, T1, T2>* _event, UnityEngine::Events::UnityAction_3<T0, T1, T2>* action) {
       return (SteamVR_Events::Action_3<T0, T1, T2>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SteamVR_Events::Action_3<T0, T1, T2>*>::get(), _event, action)));
     }
     // public override System.Void Enable(System.Boolean enabled)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1296C94
     // Implemented from: SteamVR_Events/Action
     // Base method: System.Void Action::Enable(System.Boolean enabled)
     void Enable(bool enabled) {

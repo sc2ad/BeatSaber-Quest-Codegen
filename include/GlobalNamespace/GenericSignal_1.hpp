@@ -28,29 +28,29 @@ namespace GlobalNamespace {
     // Offset: 0x0
     System::Action_1<T>* floatEvent;
     // public System.Void Raise(T f)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1290254
     void Raise(T f) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Raise", f));
     }
     // public System.Void Subscribe(System.Action`1<T> foo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12902BC
     void Subscribe(System::Action_1<T>* foo) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Subscribe", foo));
     }
     // public System.Void Unsubscribe(System.Action`1<T> foo)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12903B0
     void Unsubscribe(System::Action_1<T>* foo) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Unsubscribe", foo));
     }
     // public override System.Void Raise()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12901FC
     // Implemented from: Signal
     // Base method: System.Void Signal::Raise()
     void Raise() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Raise"));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1290434
     // Implemented from: Signal
     // Base method: System.Void Signal::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

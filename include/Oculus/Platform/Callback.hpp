@@ -58,7 +58,7 @@ namespace Oculus::Platform {
     // Set static field: static private System.Collections.Generic.List`1<Oculus.Platform.Message> pendingRoomInviteNotifications
     static void _set_pendingRoomInviteNotifications(System::Collections::Generic::List_1<Oculus::Platform::Message*>* value);
     // static System.Void SetNotificationCallback(Oculus.Platform.Message/MessageType type, Oculus.Platform.Message`1/Callback<T> callback)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC74B4C
     template<class T>
     static void SetNotificationCallback(Oculus::Platform::Message::MessageType type, typename Oculus::Platform::Message_1<T>::Callback* callback) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Oculus.Platform", "Callback", "SetNotificationCallback", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, type, callback));

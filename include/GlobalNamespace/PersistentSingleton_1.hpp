@@ -48,37 +48,37 @@ namespace GlobalNamespace {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PersistentSingleton_1<T>*>::get(), "_applicationIsQuitting", value));
     }
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1294C38
     static void NoDomainReloadInit() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PersistentSingleton_1<T>*>::get(), "NoDomainReloadInit"));
     }
     // static public T get_instance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1294D58
     static T get_instance() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PersistentSingleton_1<T>*>::get(), "get_instance"));
     }
     // static public System.Void TouchInstance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1295854
     static void TouchInstance() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PersistentSingleton_1<T>*>::get(), "TouchInstance"));
     }
     // static public System.Boolean get_IsSingletonAvailable()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x12959B0
     static bool get_IsSingletonAvailable() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PersistentSingleton_1<T>*>::get(), "get_IsSingletonAvailable"));
     }
     // protected System.Void OnEnable()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1295BD0
     void OnEnable() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnEnable"));
     }
     // protected System.Void OnDestroy()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1295C38
     void OnDestroy() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDestroy"));
     }
     // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1295CE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
       return (PersistentSingleton_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PersistentSingleton_1<T>*>::get()));
     }
     // static private System.Void .cctor()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1295D00
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor() {

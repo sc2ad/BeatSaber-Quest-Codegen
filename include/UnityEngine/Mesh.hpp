@@ -147,13 +147,13 @@ namespace UnityEngine {
     // Offset: 0x140A558
     static int DefaultDimensionForChannel(UnityEngine::Rendering::VertexAttribute channel);
     // private T[] GetAllocArrayFromChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD587E8
     template<class T>
     ::Array<T>* GetAllocArrayFromChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetAllocArrayFromChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, format, dim)));
     }
     // private T[] GetAllocArrayFromChannel(UnityEngine.Rendering.VertexAttribute channel)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5878C
     template<class T>
     ::Array<T>* GetAllocArrayFromChannel(UnityEngine::Rendering::VertexAttribute channel) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetAllocArrayFromChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel)));
@@ -162,37 +162,37 @@ namespace UnityEngine {
     // Offset: 0x140A614
     void SetSizedArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Array* values, int valuesArrayLength, int valuesStart, int valuesCount);
     // private System.Void SetArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, T[] values)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5C798
     template<class T>
     void SetArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::Array<T>* values) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetArrayForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, format, dim, values));
     }
     // private System.Void SetArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, T[] values)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5C718
     template<class T>
     void SetArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, ::Array<T>* values) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetArrayForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, values));
     }
     // private System.Void SetListForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Collections.Generic.List`1<T> values, System.Int32 start, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5CB4C
     template<class T>
     void SetListForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Collections::Generic::List_1<T>* values, int start, int length) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetListForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, format, dim, values, start, length));
     }
     // private System.Void SetListForChannel(UnityEngine.Rendering.VertexAttribute channel, System.Collections.Generic.List`1<T> values, System.Int32 start, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5CA98
     template<class T>
     void SetListForChannel(UnityEngine::Rendering::VertexAttribute channel, System::Collections::Generic::List_1<T>* values, int start, int length) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetListForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, values, start, length));
     }
     // private System.Void GetListForChannel(System.Collections.Generic.List`1<T> buffer, System.Int32 capacity, UnityEngine.Rendering.VertexAttribute channel, System.Int32 dim)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5C270
     template<class T>
     void GetListForChannel(System::Collections::Generic::List_1<T>* buffer, int capacity, UnityEngine::Rendering::VertexAttribute channel, int dim) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetListForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, buffer, capacity, channel, dim));
     }
     // private System.Void GetListForChannel(System.Collections.Generic.List`1<T> buffer, System.Int32 capacity, UnityEngine.Rendering.VertexAttribute channel, System.Int32 dim, UnityEngine.Rendering.VertexAttributeFormat channelType)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5C294
     template<class T>
     void GetListForChannel(System::Collections::Generic::List_1<T>* buffer, int capacity, UnityEngine::Rendering::VertexAttribute channel, int dim, UnityEngine::Rendering::VertexAttributeFormat channelType) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetListForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, buffer, capacity, channel, dim, channelType));
@@ -270,7 +270,7 @@ namespace UnityEngine {
     // Offset: 0x140B194
     void SetColors(System::Collections::Generic::List_1<UnityEngine::Color32>* inColors, int start, int length);
     // private System.Void SetUvsImpl(System.Int32 uvIndex, System.Int32 dim, System.Collections.Generic.List`1<T> uvs, System.Int32 start, System.Int32 length)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5D010
     template<class T>
     void SetUvsImpl(int uvIndex, int dim, System::Collections::Generic::List_1<T>* uvs, int start, int length) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetUvsImpl", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, uvIndex, dim, uvs, start, length));
@@ -294,7 +294,7 @@ namespace UnityEngine {
     // Offset: 0x140B488
     void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs, int start, int length);
     // private System.Void GetUVsImpl(System.Int32 uvIndex, System.Collections.Generic.List`1<T> uvs, System.Int32 dim)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5C4C8
     template<class T>
     void GetUVsImpl(int uvIndex, System::Collections::Generic::List_1<T>* uvs, int dim) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetUVsImpl", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, uvIndex, uvs, dim));

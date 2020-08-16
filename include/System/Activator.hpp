@@ -48,7 +48,7 @@ namespace System {
     // Offset: 0x10B6B28
     static ::Il2CppObject* CreateInstance(System::Type* type, bool nonPublic);
     // static public T CreateInstance()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC60CD8
     template<class T>
     static T CreateInstance() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("System", "Activator", "CreateInstance", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));

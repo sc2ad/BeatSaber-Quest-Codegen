@@ -26,22 +26,22 @@ namespace UnityEngine::Events {
   class UnityAction_3 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14034F4
     static UnityAction_3<T0, T1, T2>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       return (UnityAction_3<T0, T1, T2>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityAction_3<T0, T1, T2>*>::get(), object, method)));
     }
     // public System.Void Invoke(T0 arg0, T1 arg1, T2 arg2)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1403508
     void Invoke(T0 arg0, T1 arg1, T2 arg2) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", arg0, arg1, arg2));
     }
     // public System.IAsyncResult BeginInvoke(T0 arg0, T1 arg1, T2 arg2, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1403958
     System::IAsyncResult* BeginInvoke(T0 arg0, T1 arg1, T2 arg2, System::AsyncCallback* callback, ::Il2CppObject* object) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", arg0, arg1, arg2, callback, object));
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x1403A0C
     void EndInvoke(System::IAsyncResult* result) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "EndInvoke", result));
     }

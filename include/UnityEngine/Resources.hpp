@@ -28,7 +28,7 @@ namespace UnityEngine {
   class Resources : public ::Il2CppObject {
     public:
     // static T[] ConvertObjects(UnityEngine.Object[] rawObjects)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5A5F4
     template<class T>
     static ::Array<T>* ConvertObjects(::Array<UnityEngine::Object*>* rawObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
@@ -38,7 +38,7 @@ namespace UnityEngine {
     // Offset: 0x1387C74
     static ::Array<UnityEngine::Object*>* FindObjectsOfTypeAll(System::Type* type);
     // static public T[] FindObjectsOfTypeAll()
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD5A714
     template<class T>
     static ::Array<T>* FindObjectsOfTypeAll() {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
@@ -48,7 +48,7 @@ namespace UnityEngine {
     // Offset: 0x1387CB4
     static UnityEngine::Object* Load(::Il2CppString* path);
     // static public T Load(System.String path)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4EE0C
     template<class T>
     static T Load(::Il2CppString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
@@ -67,7 +67,7 @@ namespace UnityEngine {
     // Offset: 0x1387EAC
     static UnityEngine::Object* GetBuiltinResource(System::Type* type, ::Il2CppString* path);
     // static public T GetBuiltinResource(System.String path)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xD4ED40
     template<class T>
     static T GetBuiltinResource(::Il2CppString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);

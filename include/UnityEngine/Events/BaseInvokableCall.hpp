@@ -32,7 +32,7 @@ namespace UnityEngine::Events {
     // Offset: 0xFFFFFFFF
     void Invoke(::Array<::Il2CppObject*>* args);
     // static protected System.Void ThrowOnInvalidArg(System.Object arg)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC5B334
     template<class T>
     static void ThrowOnInvalidArg(::Il2CppObject* arg) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Events", "BaseInvokableCall", "ThrowOnInvalidArg", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arg));

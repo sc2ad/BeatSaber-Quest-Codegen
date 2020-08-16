@@ -61,7 +61,7 @@ namespace UnityEngine {
     // Offset: 0x19145E8
     static System::IntPtr ConvertToJNIArray(System::Array* array);
     // static public ArrayType ConvertFromJNIArray(System.IntPtr array)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x14D1E00
     template<class ArrayType>
     static ArrayType ConvertFromJNIArray(System::IntPtr array) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ArrayType>("UnityEngine", "_AndroidJNIHelper", "ConvertFromJNIArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayType>::get()}, array)));
@@ -73,13 +73,13 @@ namespace UnityEngine {
     // Offset: 0x19154B8
     static System::IntPtr GetMethodID(System::IntPtr jclass, ::Il2CppString* methodName, ::Array<::Il2CppObject*>* args, bool isStatic);
     // static public System.IntPtr GetMethodID(System.IntPtr jclass, System.String methodName, System.Object[] args, System.Boolean isStatic)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DDD90
     template<class ReturnType>
     static System::IntPtr GetMethodID(System::IntPtr jclass, ::Il2CppString* methodName, ::Array<::Il2CppObject*>* args, bool isStatic) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::IntPtr>("UnityEngine", "_AndroidJNIHelper", "GetMethodID", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, jclass, methodName, args, isStatic)));
     }
     // static public System.IntPtr GetFieldID(System.IntPtr jclass, System.String fieldName, System.Boolean isStatic)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0x11DDCE4
     template<class ReturnType>
     static System::IntPtr GetFieldID(System::IntPtr jclass, ::Il2CppString* fieldName, bool isStatic) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::IntPtr>("UnityEngine", "_AndroidJNIHelper", "GetFieldID", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, jclass, fieldName, isStatic)));
@@ -103,7 +103,7 @@ namespace UnityEngine {
     // Offset: 0x19160A8
     static ::Il2CppString* GetSignature(::Array<::Il2CppObject*>* args);
     // static public System.String GetSignature(System.Object[] args)
-    // Offset: 0xFFFFFFFF
+    // Offset: 0xC70DCC
     template<class ReturnType>
     static ::Il2CppString* GetSignature(::Array<::Il2CppObject*>* args) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("UnityEngine", "_AndroidJNIHelper", "GetSignature", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, args)));
