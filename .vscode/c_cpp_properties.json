@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "defines": [
+        "NEED_UNSAFE_CSHARP",
+        "__GNUC__",
+        "__aarch64__",
+        "VERSION=\"0.1.3\"",
+        "ID=\"il2cpp_codegen\""
+      ],
+      "includePath": [
+        "C:/android-ndk-r20b/**",
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/include"
+      ],
+      "name": "Win32",
+      "windowsSdkVersion": "10.0.18362.0",
+      "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/MSVC/14.27.28919/bin/Hostx64/x64/cl.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "msvc-x64"
+    }
+  ],
+  "version": 4
+}

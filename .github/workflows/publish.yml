@@ -64,27 +64,14 @@ jobs:
         path: QPM
         repo: sc2ad/QuestPackageManager
         
-#     - name: QPM Dependencies Cache
-#       id: cache-qpm-deps
-#       uses: actions/cache@v2
-#       env:
-#         cache-name: cache-qpm-deps
-#       with:
-#         path: ~/.config/QPM
-#         key: ${{ runner.os }}-${{ env.cache-name }}
-#         restore-keys: |
-#           ${{ runner.os }}-${{ env.cache-name }}
-      
-    - name: QPM Restore
-#       if: steps.cache-qpm-deps.outputs.cache-hit != 'true'
-      run: |
-        chmod +x ./QPM/QPM
-        ./QPM/QPM restore
-        
-    - name: Build
-      run: |
-        cd ${GITHUB_WORKSPACE}
-        pwsh -Command ./build.ps1
+    - name: Use already built .so
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+        workflow: buildndk.yml
+        name: libil2cpp_codegen.so
+        path: libil2cpp_codegen.so
+        repo: sc2ad/BeatSaber-Quest-Codegen
         
     - name: Get Tag Version
       id: get_tag_version
@@ -147,7 +134,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.get_upload_url.outputs.upload_url }}
-        asset_path: ./libs/arm64-v8a/libil2cpp_codegen.so
+        asset_path: ./libil2cpp_codegen.so
         asset_name: libil2cpp_codegen.so
         asset_content_type: application/octet-stream
     
