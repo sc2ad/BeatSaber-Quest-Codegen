@@ -28,46 +28,46 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<uint8_t>* Samples;
     // public System.Int32 get_Count()
-    // Offset: 0xE6A8DC
+    // Offset: 0xDCABA0
     int get_Count();
     // private System.Void set_Count(System.Int32 value)
-    // Offset: 0xE6A8E4
+    // Offset: 0xDCABA8
     void set_Count(int value);
     // public System.Int32 get_Capacity()
-    // Offset: 0xE6A8EC
+    // Offset: 0xDCABB0
     int get_Capacity();
     // private System.Void set_Capacity(System.Int32 value)
-    // Offset: 0xE6A8F4
+    // Offset: 0xDCABB8
     void set_Capacity(int value);
     // public System.Byte[] get_Samples()
-    // Offset: 0xE6A8FC
+    // Offset: 0xDCABC0
     ::Array<uint8_t>* get_Samples();
     // private System.Void set_Samples(System.Byte[] value)
-    // Offset: 0xE6A904
+    // Offset: 0xDCABC8
     void set_Samples(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0xE6A664
+    // Offset: 0xDCA928
     static OVRHapticsClip* New_ctor(int capacity);
     // public System.Void .ctor(System.Byte[] samples, System.Int32 samplesCount)
-    // Offset: 0xE6A90C
+    // Offset: 0xDCABD0
     static OVRHapticsClip* New_ctor(::Array<uint8_t>* samples, int samplesCount);
     // public System.Void .ctor(OVRHapticsClip a, OVRHapticsClip b)
-    // Offset: 0xE6AA08
+    // Offset: 0xDCACCC
     static OVRHapticsClip* New_ctor(GlobalNamespace::OVRHapticsClip* a, GlobalNamespace::OVRHapticsClip* b);
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Int32 channel)
-    // Offset: 0xE6AC84
+    // Offset: 0xDCAF48
     static OVRHapticsClip* New_ctor(UnityEngine::AudioClip* audioClip, int channel);
     // public System.Void WriteSample(System.Byte sample)
-    // Offset: 0xE6A754
+    // Offset: 0xDCAA18
     void WriteSample(uint8_t sample);
     // public System.Void Reset()
-    // Offset: 0xE6B030
+    // Offset: 0xDCB2F4
     void Reset();
     // private System.Void InitializeFromAudioFloatTrack(System.Single[] sourceData, System.Double sourceFrequency, System.Int32 sourceChannelCount, System.Int32 sourceChannel)
-    // Offset: 0xE6AD6C
+    // Offset: 0xDCB030
     void InitializeFromAudioFloatTrack(::Array<float>* sourceData, double sourceFrequency, int sourceChannelCount, int sourceChannel);
     // public System.Void .ctor()
-    // Offset: 0xE6A508
+    // Offset: 0xDCA7CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRHapticsClip* New_ctor();

@@ -12,43 +12,43 @@ namespace System::IO {
   class __Error : public ::Il2CppObject {
     public:
     // static System.Void EndOfFile()
-    // Offset: 0x100A8FC
+    // Offset: 0xF6CBC0
     static void EndOfFile();
     // static System.Void FileNotOpen()
-    // Offset: 0x100A97C
+    // Offset: 0xF6CC40
     static void FileNotOpen();
     // static System.Void StreamIsClosed()
-    // Offset: 0x1009A50
+    // Offset: 0xF6BD14
     static void StreamIsClosed();
     // static System.Void MemoryStreamNotExpandable()
-    // Offset: 0x100AA00
+    // Offset: 0xF6CCC4
     static void MemoryStreamNotExpandable();
     // static System.Void ReaderClosed()
-    // Offset: 0x1003BF0
+    // Offset: 0xF65EB4
     static void ReaderClosed();
     // static System.Void ReadNotSupported()
-    // Offset: 0x1001284
+    // Offset: 0xF63548
     static void ReadNotSupported();
     // static System.Void WrongAsyncResult()
-    // Offset: 0x1002F1C
+    // Offset: 0xF651E0
     static void WrongAsyncResult();
     // static System.Void EndReadCalledTwice()
-    // Offset: 0x1002F9C
+    // Offset: 0xF65260
     static void EndReadCalledTwice();
     // static System.Void EndWriteCalledTwice()
-    // Offset: 0x100301C
+    // Offset: 0xF652E0
     static void EndWriteCalledTwice();
     // static System.String GetDisplayablePath(System.String path, System.Boolean isInvalidPath)
-    // Offset: 0x100AA7C
+    // Offset: 0xF6CD40
     static ::Il2CppString* GetDisplayablePath(::Il2CppString* path, bool isInvalidPath);
     // static System.Void WinIOError(System.Int32 errorCode, System.String maybeFullPath)
-    // Offset: 0x100AB98
+    // Offset: 0xF6CE5C
     static void WinIOError(int errorCode, ::Il2CppString* maybeFullPath);
     // static System.Void WriteNotSupported()
-    // Offset: 0x1001D24
+    // Offset: 0xF63FE8
     static void WriteNotSupported();
     // static System.Void WriterClosed()
-    // Offset: 0x1005A78
+    // Offset: 0xF67D3C
     static void WriterClosed();
   }; // System.IO.__Error
 }

@@ -30,34 +30,34 @@ namespace TMPro {
     // Offset: 0x38
     ::Array<int>* m_ClosingTagArray;
     // public System.String get_name()
-    // Offset: 0xBB21A8
+    // Offset: 0xB768F8
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0xBB21B0
+    // Offset: 0xB76900
     void set_name(::Il2CppString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0xBB2200
+    // Offset: 0xB76950
     int get_hashCode();
     // public System.Void set_hashCode(System.Int32 value)
-    // Offset: 0xBB2208
+    // Offset: 0xB76958
     void set_hashCode(int value);
     // public System.String get_styleOpeningDefinition()
-    // Offset: 0xBB221C
+    // Offset: 0xB7696C
     ::Il2CppString* get_styleOpeningDefinition();
     // public System.String get_styleClosingDefinition()
-    // Offset: 0xBB2224
+    // Offset: 0xB76974
     ::Il2CppString* get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
-    // Offset: 0xBB222C
+    // Offset: 0xB7697C
     ::Array<int>* get_styleOpeningTagArray();
     // public System.Int32[] get_styleClosingTagArray()
-    // Offset: 0xBB2234
+    // Offset: 0xB76984
     ::Array<int>* get_styleClosingTagArray();
     // public System.Void RefreshStyle()
-    // Offset: 0xBB223C
+    // Offset: 0xB7698C
     void RefreshStyle();
     // public System.Void .ctor()
-    // Offset: 0xBB23CC
+    // Offset: 0xB76B1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_Style* New_ctor();

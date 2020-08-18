@@ -40,10 +40,10 @@ namespace OnlineServices {
     // Offset: 0x10
     GlobalNamespace::PlatformUserModelSO* platformUserModel;
     // public System.Void .ctor(PlatformUserModelSO platformUserModel)
-    // Offset: 0xBCBFE8
+    // Offset: 0x1913350
     static PlatformUserNamesLoader* New_ctor(GlobalNamespace::PlatformUserModelSO* platformUserModel);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserNamesForUserIds(System.String[] userPlatfromIds, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xBCC01C
+    // Offset: 0x1913384
     System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* GetUserNamesForUserIds(::Array<::Il2CppString*>* userPlatfromIds, System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.PlatformUserNamesLoader
 }

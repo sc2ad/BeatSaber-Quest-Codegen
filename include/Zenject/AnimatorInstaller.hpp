@@ -24,10 +24,10 @@ namespace Zenject {
     // Offset: 0x18
     UnityEngine::Animator* animator;
     // public System.Void .ctor(UnityEngine.Animator animator)
-    // Offset: 0xD63EB0
+    // Offset: 0xCC4174
     static AnimatorInstaller* New_ctor(UnityEngine::Animator* animator);
     // public override System.Void InstallBindings()
-    // Offset: 0xD63F1C
+    // Offset: 0xCC41E0
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

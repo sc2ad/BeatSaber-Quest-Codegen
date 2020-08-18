@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetVulkanDeviceExtensionsRequired : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15F9594
+    // Offset: 0x155A8CC
     static IVRCompositor::_GetVulkanDeviceExtensionsRequired* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.IntPtr pPhysicalDevice, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x15F95A8
+    // Offset: 0x155A8E0
     uint Invoke(System::IntPtr pPhysicalDevice, System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pPhysicalDevice, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15F9840
+    // Offset: 0x155AB78
     System::IAsyncResult* BeginInvoke(System::IntPtr pPhysicalDevice, System::Text::StringBuilder* pchValue, uint unBufferSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15F98F8
+    // Offset: 0x155AC30
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetVulkanDeviceExtensionsRequired
 }

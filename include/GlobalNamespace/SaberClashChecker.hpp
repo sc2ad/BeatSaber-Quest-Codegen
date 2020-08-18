@@ -41,31 +41,31 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::Saber* rightSaber;
     // public System.Boolean get_sabersAreClashing()
-    // Offset: 0xC23BF8
+    // Offset: 0xB9BC34
     bool get_sabersAreClashing();
     // private System.Void set_sabersAreClashing(System.Boolean value)
-    // Offset: 0xC23C00
+    // Offset: 0xB9BC3C
     void set_sabersAreClashing(bool value);
     // public UnityEngine.Vector3 get_clashingPoint()
-    // Offset: 0xC23C0C
+    // Offset: 0xB9BC48
     UnityEngine::Vector3 get_clashingPoint();
     // private System.Void set_clashingPoint(UnityEngine.Vector3 value)
-    // Offset: 0xC23C18
+    // Offset: 0xB9BC54
     void set_clashingPoint(UnityEngine::Vector3 value);
     // protected System.Void Start()
-    // Offset: 0xC23C24
+    // Offset: 0xB9BC60
     void Start();
     // protected System.Void Update()
-    // Offset: 0xC23C74
+    // Offset: 0xB9BCB0
     void Update();
     // protected System.Void OnDisable()
-    // Offset: 0xC24300
+    // Offset: 0xB9C33C
     void OnDisable();
     // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, UnityEngine.Vector3 inbetweenPoint)
-    // Offset: 0xC23E54
+    // Offset: 0xB9BE90
     float SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, UnityEngine::Vector3& inbetweenPoint);
     // public System.Void .ctor()
-    // Offset: 0xC24308
+    // Offset: 0xB9C344
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

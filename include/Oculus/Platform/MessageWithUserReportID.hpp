@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithUserReportID : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserReportID*> {
     public:
     // protected Oculus.Platform.Models.UserReportID GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA5A38
+    // Offset: 0xE04CFC
     Oculus::Platform::Models::UserReportID* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xEA5994
+    // Offset: 0xE04C58
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithUserReportID* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.UserReportID GetUserReportID()
-    // Offset: 0xEA59F4
+    // Offset: 0xE04CB8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserReportID Message::GetUserReportID()
     Oculus::Platform::Models::UserReportID* GetUserReportID();

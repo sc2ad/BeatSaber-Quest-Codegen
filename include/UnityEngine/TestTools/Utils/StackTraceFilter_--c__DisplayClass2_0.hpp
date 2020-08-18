@@ -17,10 +17,10 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x10
     ::Il2CppString* line;
     // System.Boolean <Filter>b__0(System.String s)
-    // Offset: 0x196EFD0
+    // Offset: 0x18CA314
     bool $Filter$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x196ED7C
+    // Offset: 0x18CA0C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StackTraceFilter::$$c__DisplayClass2_0* New_ctor();

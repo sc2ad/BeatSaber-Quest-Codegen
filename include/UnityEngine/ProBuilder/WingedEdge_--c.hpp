@@ -13,11 +13,11 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -39,16 +39,16 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Edge,System.Int32> <>9__32_2
     static void _set_$$9__32_2(System::Func_2<UnityEngine::ProBuilder::Edge, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18D2AE0
+    // Offset: 0x1830E2C
     static void _cctor();
     // UnityEngine.ProBuilder.Edge <SortCommonIndexesByAdjacency>b__32_1(UnityEngine.ProBuilder.WingedEdge y)
-    // Offset: 0x18D2B50
+    // Offset: 0x1830E9C
     UnityEngine::ProBuilder::Edge $SortCommonIndexesByAdjacency$b__32_1(UnityEngine::ProBuilder::WingedEdge* y);
     // System.Int32 <SortCommonIndexesByAdjacency>b__32_2(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x18D2B68
+    // Offset: 0x1830EB4
     int $SortCommonIndexesByAdjacency$b__32_2(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x18D2B48
+    // Offset: 0x1830E94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WingedEdge::$$c* New_ctor();

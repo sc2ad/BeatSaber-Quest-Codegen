@@ -24,10 +24,10 @@ namespace Zenject {
     // Offset: 0x10
     System::Type* parentType;
     // System.Boolean <DerivingFromOrEqual>b__0(System.Type type)
-    // Offset: 0xD6BE64
+    // Offset: 0xCCC128
     bool $DerivingFromOrEqual$b__0(System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0xD6B408
+    // Offset: 0xCCB6CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionFilterTypesBinder::$$c__DisplayClass2_0* New_ctor();

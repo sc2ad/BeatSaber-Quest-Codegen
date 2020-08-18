@@ -13,19 +13,19 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -81,31 +81,31 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__198_0
     static void _set_$$9__198_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF287E0
+    // Offset: 0xE89AA4
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<Zenject.DiContainer/ProviderInfo> <get_AllProviders>b__33_0(System.Collections.Generic.List`1<Zenject.DiContainer/ProviderInfo> x)
-    // Offset: 0xF28850
+    // Offset: 0xE89B14
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer::ProviderInfo*>* $get_AllProviders$b__33_0(System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>* x);
     // Zenject.IProvider <get_AllProviders>b__33_1(Zenject.DiContainer/ProviderInfo x)
-    // Offset: 0xF28858
+    // Offset: 0xE89B1C
     Zenject::IProvider* $get_AllProviders$b__33_1(Zenject::DiContainer::ProviderInfo* x);
     // System.Boolean <ResolveTypeAll>b__86_1(System.Type x)
-    // Offset: 0xF28870
+    // Offset: 0xE89B34
     bool $ResolveTypeAll$b__86_1(System::Type* x);
     // System.String <InstantiateInternal>b__97_0(Zenject.TypeValuePair x)
-    // Offset: 0xF288DC
+    // Offset: 0xE89BA0
     ::Il2CppString* $InstantiateInternal$b__97_0(Zenject::TypeValuePair x);
     // System.String <InjectExplicitInternal>b__102_0(Zenject.TypeValuePair x)
-    // Offset: 0xF28944
+    // Offset: 0xE89C08
     ::Il2CppString* $InjectExplicitInternal$b__102_0(Zenject::TypeValuePair x);
     // System.Boolean <BindInternal>b__197_0(System.Type x)
-    // Offset: 0xF289AC
+    // Offset: 0xE89C70
     bool $BindInternal$b__197_0(System::Type* x);
     // System.Boolean <Bind>b__198_0(System.Type x)
-    // Offset: 0xF28A28
+    // Offset: 0xE89CEC
     bool $Bind$b__198_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0xF28848
+    // Offset: 0xE89B0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DiContainer::$$c* New_ctor();

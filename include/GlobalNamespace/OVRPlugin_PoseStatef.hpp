@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PoseStatef
     PoseStatef(GlobalNamespace::OVRPlugin::Posef Pose_ = {}, GlobalNamespace::OVRPlugin::Vector3f Velocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f Acceleration_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularVelocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularAcceleration_ = {}, double Time_ = {}) : Pose{Pose_}, Velocity{Velocity_}, Acceleration{Acceleration_}, AngularVelocity{AngularVelocity_}, AngularAcceleration{AngularAcceleration_}, Time{Time_} {}
     // static private System.Void .cctor()
-    // Offset: 0xF44924
+    // Offset: 0xEA5BE8
     static void _cctor();
   }; // OVRPlugin/PoseStatef
 }

@@ -79,16 +79,16 @@ namespace System {
     // Creating value type constructor for type: DateTimeResult
     DateTimeResult(int Year_ = {}, int Month_ = {}, int Day_ = {}, int Hour_ = {}, int Minute_ = {}, int Second_ = {}, double fraction_ = {}, int era_ = {}, System::ParseFlags flags_ = {}, System::TimeSpan timeZoneOffset_ = {}, System::Globalization::Calendar* calendar_ = {}, System::DateTime parsedDate_ = {}, System::ParseFailureKind failure_ = {}, ::Il2CppString* failureMessageID_ = {}, ::Il2CppObject* failureMessageFormatArgument_ = {}, ::Il2CppString* failureArgumentName_ = {}) : Year{Year_}, Month{Month_}, Day{Day_}, Hour{Hour_}, Minute{Minute_}, Second{Second_}, fraction{fraction_}, era{era_}, flags{flags_}, timeZoneOffset{timeZoneOffset_}, calendar{calendar_}, parsedDate{parsedDate_}, failure{failure_}, failureMessageID{failureMessageID_}, failureMessageFormatArgument{failureMessageFormatArgument_}, failureArgumentName{failureArgumentName_} {}
     // System.Void Init()
-    // Offset: 0xA2836C
+    // Offset: 0x992838
     void Init();
     // System.Void SetDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0xA2838C
+    // Offset: 0x992858
     void SetDate(int year, int month, int day);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0xA28398
+    // Offset: 0x992864
     void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
-    // Offset: 0xA283D4
+    // Offset: 0x9928A0
     void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName);
   }; // System.DateTimeResult
 }

@@ -30,7 +30,7 @@ namespace TMPro {
     // Offset: 0x28
     int materialHashCode;
     // public System.Void .ctor()
-    // Offset: 0xB67678
+    // Offset: 0xB5424C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

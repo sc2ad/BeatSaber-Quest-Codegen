@@ -20,10 +20,10 @@ namespace UnityEngine {
     // Offset: 0x18
     int m_Ordering;
     // public System.Void .ctor(System.String menuName)
-    // Offset: 0x12F97C4
+    // Offset: 0x125CA88
     static AddComponentMenu* New_ctor(::Il2CppString* menuName);
     // public System.Void .ctor(System.String menuName, System.Int32 order)
-    // Offset: 0x12F9800
+    // Offset: 0x125CAC4
     static AddComponentMenu* New_ctor(::Il2CppString* menuName, int order);
   }; // UnityEngine.AddComponentMenu
 }

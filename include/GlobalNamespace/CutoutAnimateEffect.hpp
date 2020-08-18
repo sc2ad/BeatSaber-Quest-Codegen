@@ -42,28 +42,28 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool animating;
     // public System.Boolean get_animating()
-    // Offset: 0xBE1770
+    // Offset: 0x1928D50
     bool get_animating();
     // private System.Void set_animating(System.Boolean value)
-    // Offset: 0xBE1778
+    // Offset: 0x1928D58
     void set_animating(bool value);
     // protected System.Void Start()
-    // Offset: 0xBE1784
+    // Offset: 0x1928D64
     void Start();
     // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0xBE1804
+    // Offset: 0x1928DE4
     System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
     // private System.Void SetCutout(System.Single cutout)
-    // Offset: 0xBE178C
+    // Offset: 0x1928D6C
     void SetCutout(float cutout);
     // public System.Void ResetEffect()
-    // Offset: 0xBE1998
+    // Offset: 0x1928F78
     void ResetEffect();
     // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0xBE19C8
+    // Offset: 0x1928FA8
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0xBE1A28
+    // Offset: 0x1929008
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

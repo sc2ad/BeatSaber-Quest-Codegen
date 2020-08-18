@@ -49,28 +49,28 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::MissionHelpSO* missionHelp;
     // public MissionObjective[] get_missionObjectives()
-    // Offset: 0xC00F8C
+    // Offset: 0x1949AA0
     ::Array<GlobalNamespace::MissionObjective*>* get_missionObjectives();
     // public BeatmapLevelSO get_level()
-    // Offset: 0xC00F94
+    // Offset: 0x1949AA8
     GlobalNamespace::BeatmapLevelSO* get_level();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0xC00F9C
+    // Offset: 0x1949AB0
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0xC00FA4
+    // Offset: 0x1949AB8
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xC00FAC
+    // Offset: 0x1949AC0
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public MissionHelpSO get_missionHelp()
-    // Offset: 0xC00FB4
+    // Offset: 0x1949AC8
     GlobalNamespace::MissionHelpSO* get_missionHelp();
     // private System.Void OnValidate()
-    // Offset: 0xC00FBC
+    // Offset: 0x1949AD0
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0xC01060
+    // Offset: 0x1949B74
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

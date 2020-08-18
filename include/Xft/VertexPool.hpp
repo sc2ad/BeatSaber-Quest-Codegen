@@ -83,16 +83,16 @@ namespace Xft {
     // Set static field: static private System.Int32 _blockSize
     static void _set__blockSize(int value);
     // public System.Void .ctor(UnityEngine.Mesh mesh)
-    // Offset: 0xC542B0
+    // Offset: 0x19718FC
     static VertexPool* New_ctor(UnityEngine::Mesh* mesh);
     // public Xft.VertexPool/VertexSegment GetVertices(System.Int32 vcount, System.Int32 icount)
-    // Offset: 0xC543E8
+    // Offset: 0x1971A34
     Xft::VertexPool::VertexSegment* GetVertices(int vcount, int icount);
     // public System.Void EnlargeArrays(System.Int32 count, System.Int32 icount)
-    // Offset: 0xC54538
+    // Offset: 0x1971B84
     void EnlargeArrays(int count, int icount);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0xC54724
+    // Offset: 0x1971D70
     void ManualUpdate(float deltaTime);
   }; // Xft.VertexPool
 }

@@ -26,16 +26,16 @@ namespace System::Reflection {
   class MonoProperty::GetterAdapter : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x115095C
+    // Offset: 0x10B3C20
     static MonoProperty::GetterAdapter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Object Invoke(System.Object _this)
-    // Offset: 0x1150970
+    // Offset: 0x10B3C34
     ::Il2CppObject* Invoke(::Il2CppObject* _this);
     // public System.IAsyncResult BeginInvoke(System.Object _this, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1150D30
+    // Offset: 0x10B3FF4
     System::IAsyncResult* BeginInvoke(::Il2CppObject* _this, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1150D54
+    // Offset: 0x10B4018
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // System.Reflection.MonoProperty/GetterAdapter
 }

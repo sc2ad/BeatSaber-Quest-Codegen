@@ -23,16 +23,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppString* levelId;
     // public System.String get_entitlementLabel()
-    // Offset: 0xBCF484
+    // Offset: 0x19167EC
     ::Il2CppString* get_entitlementLabel();
     // public System.String get_productLabel()
-    // Offset: 0xBCF48C
+    // Offset: 0x19167F4
     ::Il2CppString* get_productLabel();
     // public System.String get_levelId()
-    // Offset: 0xBCF494
+    // Offset: 0x19167FC
     ::Il2CppString* get_levelId();
     // public System.Void .ctor()
-    // Offset: 0xBCF49C
+    // Offset: 0x1916804
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PS4LevelProductsModelSO::LevelProductData* New_ctor();

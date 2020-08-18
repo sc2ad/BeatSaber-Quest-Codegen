@@ -39,16 +39,16 @@ namespace System::Globalization {
     // Set static field: static private readonly System.Globalization.HebrewNumber/HS[][] NumberPasingState
     static void _set_NumberPasingState(::Array<::Array<System::Globalization::HebrewNumber::HS>*>* value);
     // static System.String ToString(System.Int32 Number)
-    // Offset: 0x12C63FC
+    // Offset: 0x12296C0
     static ::Il2CppString* ToString(int Number);
     // static System.Globalization.HebrewNumberParsingState ParseByChar(System.Char ch, System.Globalization.HebrewNumberParsingContext context)
-    // Offset: 0x12B93B4
+    // Offset: 0x121C678
     static System::Globalization::HebrewNumberParsingState ParseByChar(::Il2CppChar ch, System::Globalization::HebrewNumberParsingContext& context);
     // static System.Boolean IsDigit(System.Char ch)
-    // Offset: 0x12B92AC
+    // Offset: 0x121C570
     static bool IsDigit(::Il2CppChar ch);
     // static private System.Void .cctor()
-    // Offset: 0x12C6668
+    // Offset: 0x122992C
     static void _cctor();
   }; // System.Globalization.HebrewNumber
 }

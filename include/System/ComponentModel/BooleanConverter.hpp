@@ -18,7 +18,7 @@ namespace System::ComponentModel {
     // Set static field: static private System.ComponentModel.TypeConverter/StandardValuesCollection values
     static void _set_values(System::ComponentModel::TypeConverter::StandardValuesCollection* value);
     // public System.Void .ctor()
-    // Offset: 0xF567E8
+    // Offset: 0xEB7AAC
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

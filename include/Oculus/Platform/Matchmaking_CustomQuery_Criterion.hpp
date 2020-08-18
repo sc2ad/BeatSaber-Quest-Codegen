@@ -35,7 +35,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Criterion
     Criterion(::Il2CppString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* parameters_ = {}) : key{key_}, importance{importance_}, parameters{parameters_} {}
     // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
-    // Offset: 0xA2FFB8
+    // Offset: 0x99A484
     static Matchmaking::CustomQuery::Criterion* New_ctor(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_);
   }; // Oculus.Platform.Matchmaking/CustomQuery/Criterion
 }

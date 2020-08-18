@@ -36,37 +36,37 @@ namespace Polyglot {
     // Offset: 0x30
     bool downloadOnStart;
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x190DDC8
+    // Offset: 0x186C114
     UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x190DDD0
+    // Offset: 0x186C11C
     void set_TextAsset(UnityEngine::TextAsset* value);
     // public System.String get_DocsId()
-    // Offset: 0x190DDD8
+    // Offset: 0x186C124
     ::Il2CppString* get_DocsId();
     // public System.Void set_DocsId(System.String value)
-    // Offset: 0x190DDE0
+    // Offset: 0x186C12C
     void set_DocsId(::Il2CppString* value);
     // public System.String get_SheetId()
-    // Offset: 0x190DDE8
+    // Offset: 0x186C134
     ::Il2CppString* get_SheetId();
     // public System.Void set_SheetId(System.String value)
-    // Offset: 0x190DDF0
+    // Offset: 0x186C13C
     void set_SheetId(::Il2CppString* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x190DDF8
+    // Offset: 0x186C144
     Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x190DE00
+    // Offset: 0x186C14C
     void set_Format(Polyglot::GoogleDriveDownloadFormat value);
     // public System.Boolean get_DownloadOnStart()
-    // Offset: 0x190DE08
+    // Offset: 0x186C154
     bool get_DownloadOnStart();
     // public System.Void set_DownloadOnStart(System.Boolean value)
-    // Offset: 0x190DE10
+    // Offset: 0x186C15C
     void set_DownloadOnStart(bool value);
     // public System.Void .ctor()
-    // Offset: 0x190DE1C
+    // Offset: 0x186C168
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalizationDocument* New_ctor();

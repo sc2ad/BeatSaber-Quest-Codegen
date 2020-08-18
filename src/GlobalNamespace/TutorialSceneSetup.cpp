@@ -11,6 +11,8 @@
 #include "GlobalNamespace/BeatmapObjectSpawnControllerPlayerHeightSetter.hpp"
 // Including type: PlayerHeightDetector
 #include "GlobalNamespace/PlayerHeightDetector.hpp"
+// Including type: EffectPoolsInstaller
+#include "GlobalNamespace/EffectPoolsInstaller.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_GetComponentStateForDevicePath : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16A352C
+    // Offset: 0x1605864
     static IVRRenderModels::_GetComponentStateForDevicePath* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchRenderModelName, System.String pchComponentName, System.UInt64 devicePath, OVR.OpenVR.RenderModel_ControllerMode_State_t pState, OVR.OpenVR.RenderModel_ComponentState_t pComponentState)
-    // Offset: 0x16A3540
+    // Offset: 0x1605878
     bool Invoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, uint64_t devicePath, OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.String pchComponentName, System.UInt64 devicePath, OVR.OpenVR.RenderModel_ControllerMode_State_t pState, OVR.OpenVR.RenderModel_ComponentState_t pComponentState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16A39B8
+    // Offset: 0x1605CF0
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, uint64_t devicePath, OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(OVR.OpenVR.RenderModel_ControllerMode_State_t pState, OVR.OpenVR.RenderModel_ComponentState_t pComponentState, System.IAsyncResult result)
-    // Offset: 0x16A3AA0
+    // Offset: 0x1605DD8
     bool EndInvoke(OVR::OpenVR::RenderModel_ControllerMode_State_t& pState, OVR::OpenVR::RenderModel_ComponentState_t& pComponentState, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetComponentStateForDevicePath
 }

@@ -14,7 +14,7 @@ namespace System::Runtime::InteropServices {
   class PreserveSigAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x104B814
+    // Offset: 0xFADAD8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

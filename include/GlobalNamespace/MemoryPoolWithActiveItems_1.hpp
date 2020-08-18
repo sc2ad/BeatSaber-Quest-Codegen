@@ -34,33 +34,33 @@ namespace GlobalNamespace {
     // Offset: 0x0
     System::Collections::Generic::HashSet_1<TValue>* activeItems;
     // public System.Collections.Generic.HashSet`1<TValue> get_activeItems()
-    // Offset: 0x129152C
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::HashSet_1<TValue>* get_activeItems() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::HashSet_1<TValue>*>(this, "get_activeItems"));
     }
     // protected override System.Void OnSpawned(TValue item)
-    // Offset: 0x1291534
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool`1::OnSpawned(TValue item)
     void OnSpawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnSpawned", item));
     }
     // protected override System.Void OnDespawned(TValue item)
-    // Offset: 0x1291598
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool`1::OnDespawned(TValue item)
     void OnDespawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
     }
     // protected override System.Void OnDestroyed(TValue item)
-    // Offset: 0x12915FC
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool`1::OnDestroyed(TValue item)
     void OnDestroyed(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDestroyed", item));
     }
     // public System.Void .ctor()
-    // Offset: 0x1291660
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool`1::.ctor()
     // Base method: System.Void MemoryPool`1::.ctor()

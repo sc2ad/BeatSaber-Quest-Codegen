@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0x1F
     uint8_t d7;
     // public System.Void .ctor()
-    // Offset: 0xEF6B78
+    // Offset: 0xE56E3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRPlugin::GUID* New_ctor();

@@ -17,16 +17,16 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     ::Il2CppString* Justification;
     // public System.Void .ctor(System.String justification)
-    // Offset: 0x195803C
+    // Offset: 0x18B4380
     static MustUseReturnValueAttribute* New_ctor(::Il2CppString* justification);
     // public System.String get_Justification()
-    // Offset: 0x1958070
+    // Offset: 0x18B43B4
     ::Il2CppString* get_Justification();
     // private System.Void set_Justification(System.String value)
-    // Offset: 0x1958078
+    // Offset: 0x18B43BC
     void set_Justification(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1958034
+    // Offset: 0x18B4378
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

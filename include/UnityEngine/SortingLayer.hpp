@@ -18,7 +18,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: SortingLayer
     SortingLayer(int m_Id_ = {}) : m_Id{m_Id_} {}
     // static public System.Int32 GetLayerValueFromID(System.Int32 id)
-    // Offset: 0x138A098
+    // Offset: 0x12EB35C
     static int GetLayerValueFromID(int id);
   }; // UnityEngine.SortingLayer
 }

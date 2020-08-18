@@ -51,22 +51,22 @@ namespace UnityEngine::UI::Collections {
     // Offset: 0x0
     System::Collections::Generic::Dictionary_2<T, int>* m_Dictionary;
     // public System.Boolean AddUnique(T item)
-    // Offset: 0x11895F4
+    // Offset: 0xFFFFFFFF
     bool AddUnique(T item) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "AddUnique", item));
     }
     // public System.Void RemoveAll(System.Predicate`1<T> match)
-    // Offset: 0x1189B9C
+    // Offset: 0xFFFFFFFF
     void RemoveAll(System::Predicate_1<T>* match) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "RemoveAll", match));
     }
     // public System.Void Sort(System.Comparison`1<T> sortLayoutFunction)
-    // Offset: 0x1189C78
+    // Offset: 0xFFFFFFFF
     void Sort(System::Comparison_1<T>* sortLayoutFunction) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Sort", sortLayoutFunction));
     }
     // public System.Void Add(T item)
-    // Offset: 0x1189568
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::Add(T item)
     void Add(T item) {
@@ -78,7 +78,7 @@ namespace UnityEngine::UI::Collections {
       Add(item);
     }
     // public System.Boolean Remove(T item)
-    // Offset: 0x11896B4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::Remove(T item)
     bool Remove(T item) {
@@ -90,7 +90,7 @@ namespace UnityEngine::UI::Collections {
       return Remove(item);
     }
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
-    // Offset: 0x1189734
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
@@ -102,14 +102,14 @@ namespace UnityEngine::UI::Collections {
       return GetEnumerator();
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1189794
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "System.Collections.IEnumerable.GetEnumerator"));
     }
     // public System.Void Clear()
-    // Offset: 0x11897B8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::Clear()
     void Clear() {
@@ -121,7 +121,7 @@ namespace UnityEngine::UI::Collections {
       Clear();
     }
     // public System.Boolean Contains(T item)
-    // Offset: 0x1189810
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::Contains(T item)
     bool Contains(T item) {
@@ -133,7 +133,7 @@ namespace UnityEngine::UI::Collections {
       return Contains(item);
     }
     // public System.Void CopyTo(T[] array, System.Int32 arrayIndex)
-    // Offset: 0x1189838
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::CopyTo(T[] array, System.Int32 arrayIndex)
     void CopyTo(::Array<T>* array, int arrayIndex) {
@@ -145,7 +145,7 @@ namespace UnityEngine::UI::Collections {
       CopyTo(array, arrayIndex);
     }
     // public System.Int32 get_Count()
-    // Offset: 0x1189860
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection`1::get_Count()
     int get_Count() {
@@ -157,7 +157,7 @@ namespace UnityEngine::UI::Collections {
       return get_Count();
     }
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x1189888
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::get_IsReadOnly()
     bool get_IsReadOnly() {
@@ -169,7 +169,7 @@ namespace UnityEngine::UI::Collections {
       return get_IsReadOnly();
     }
     // public System.Int32 IndexOf(T item)
-    // Offset: 0x1189890
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Int32 IList`1::IndexOf(T item)
     int IndexOf(T item) {
@@ -181,7 +181,7 @@ namespace UnityEngine::UI::Collections {
       return IndexOf(item);
     }
     // public System.Void Insert(System.Int32 index, T item)
-    // Offset: 0x11898E0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList`1::Insert(System.Int32 index, T item)
     void Insert(int index, T item) {
@@ -193,7 +193,7 @@ namespace UnityEngine::UI::Collections {
       Insert(index, item);
     }
     // public System.Void RemoveAt(System.Int32 index)
-    // Offset: 0x118994C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList`1::RemoveAt(System.Int32 index)
     void RemoveAt(int index) {
@@ -205,7 +205,7 @@ namespace UnityEngine::UI::Collections {
       RemoveAt(index);
     }
     // public T get_Item(System.Int32 index)
-    // Offset: 0x1189AB0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: T IList`1::get_Item(System.Int32 index)
     T get_Item(int index) {
@@ -217,7 +217,7 @@ namespace UnityEngine::UI::Collections {
       return get_Item(index);
     }
     // public System.Void set_Item(System.Int32 index, T value)
-    // Offset: 0x1189AD8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList`1::set_Item(System.Int32 index, T value)
     void set_Item(int index, T value) {
@@ -229,7 +229,7 @@ namespace UnityEngine::UI::Collections {
       set_Item(index, value);
     }
     // public System.Void .ctor()
-    // Offset: 0x1189D3C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IndexedSet_1<T>* New_ctor() {

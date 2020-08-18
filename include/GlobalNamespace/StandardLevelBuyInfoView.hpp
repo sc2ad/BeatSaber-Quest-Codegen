@@ -38,19 +38,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::UI::Button* buyPackButton;
     // public UnityEngine.UI.Button get_buyLevelButton()
-    // Offset: 0xB9A1A4
+    // Offset: 0x1903850
     UnityEngine::UI::Button* get_buyLevelButton();
     // public UnityEngine.UI.Button get_openPackButton()
-    // Offset: 0xB9A1AC
+    // Offset: 0x1903858
     UnityEngine::UI::Button* get_openPackButton();
     // public UnityEngine.UI.Button get_buyPackButton()
-    // Offset: 0xB9A1B4
+    // Offset: 0x1903860
     UnityEngine::UI::Button* get_buyPackButton();
     // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
-    // Offset: 0xB9A1BC
+    // Offset: 0x1903868
     void RefreshView(::Il2CppString* infoText, bool canBuyPack);
     // public System.Void .ctor()
-    // Offset: 0xB9A230
+    // Offset: 0x19038DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

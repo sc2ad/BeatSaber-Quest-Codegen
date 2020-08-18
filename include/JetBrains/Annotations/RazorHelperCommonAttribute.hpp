@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class RazorHelperCommonAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19581D0
+    // Offset: 0x18B4514
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

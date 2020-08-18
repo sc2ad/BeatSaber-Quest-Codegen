@@ -36,8 +36,8 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`3<TResult, T1, T2>
-  template<typename TResult, typename T1, typename T2>
+  // Forward declaring type: Func`3<T1, T2, TResult>
+  template<typename T1, typename T2, typename TResult>
   class Func_3;
 }
 // Forward declaring namespace: System::Threading::Tasks
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::AsyncCachedLoader_2::ScheduledTask<TKey, TValue>
     struct ScheduledTask;
-    // Nested type: GlobalNamespace::AsyncCachedLoader_2::$LoadAsync$d__7<TValue, TKey>
+    // Nested type: GlobalNamespace::AsyncCachedLoader_2::$LoadAsync$d__7<TKey, TValue>
     struct $LoadAsync$d__7;
     // Nested type: GlobalNamespace::AsyncCachedLoader_2::$LoadAllAsync$d__8<TKey, TValue>
     struct $LoadAllAsync$d__8;
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: ScheduledTask
       ScheduledTask(TKey keyId_ = {}, System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource_ = {}, System::Threading::CancellationToken cancellationToken_ = {}) : keyId{keyId_}, taskCompletionSource{taskCompletionSource_}, cancellationToken{cancellationToken_} {}
       // public System.Void .ctor(TKey keyId, System.Threading.Tasks.TaskCompletionSource`1<TValue> taskCompletionSource, System.Threading.CancellationToken cancellationToken)
-      // Offset: 0xA3FE24
+      // Offset: 0xFFFFFFFF
       static typename AsyncCachedLoader_2<TKey, TValue>::ScheduledTask* New_ctor(TKey keyId, System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource, System::Threading::CancellationToken cancellationToken) {
         return (typename AsyncCachedLoader_2<TKey, TValue>::ScheduledTask*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename AsyncCachedLoader_2<TKey, TValue>::ScheduledTask>::get(), keyId, taskCompletionSource, cancellationToken)));
       }
@@ -108,14 +108,14 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: $LoadAsync$d__7
       $LoadAsync$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TValue> $$t__builder_ = {}, TKey keyId_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<TValue> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, keyId{keyId_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
       // private System.Void MoveNext()
-      // Offset: 0xA3FE14
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::MoveNext()
       void MoveNext() {
         THROW_UNLESS(il2cpp_utils::RunMethod(*this, "MoveNext"));
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-      // Offset: 0xA3FE1C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
@@ -144,14 +144,14 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: $LoadAllAsync$d__8
       $LoadAllAsync$d__8(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>* $$4__this_ = {}, typename GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::ScheduledTask $scheduledTask$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<TValue> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $scheduledTask$5__2{$scheduledTask$5__2_}, $$u__1{$$u__1_} {}
       // private System.Void MoveNext()
-      // Offset: 0xA3FE00
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::MoveNext()
       void MoveNext() {
         THROW_UNLESS(il2cpp_utils::RunMethod(*this, "MoveNext"));
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-      // Offset: 0xA3FE08
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
@@ -171,22 +171,22 @@ namespace GlobalNamespace {
     // Offset: 0x0
     bool isLoading;
     // public System.Void ClearCache()
-    // Offset: 0x128FACC
+    // Offset: 0xFFFFFFFF
     void ClearCache() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "ClearCache"));
     }
     // public System.Void .ctor(System.Int32 maxNumberCachedElements, System.Func`3<TKey,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<TValue>> resultValueFunc)
-    // Offset: 0x128FAF4
+    // Offset: 0xFFFFFFFF
     static AsyncCachedLoader_2<TKey, TValue>* New_ctor(int maxNumberCachedElements, System::Func_3<TKey, System::Threading::CancellationToken, System::Threading::Tasks::Task_1<TValue>*>* resultValueFunc) {
       return (AsyncCachedLoader_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncCachedLoader_2<TKey, TValue>*>::get(), maxNumberCachedElements, resultValueFunc)));
     }
     // public System.Threading.Tasks.Task`1<TValue> LoadAsync(TKey keyId, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x128FBE8
+    // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<TValue>* LoadAsync(TKey keyId, System::Threading::CancellationToken cancellationToken) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TValue>*>(this, "LoadAsync", keyId, cancellationToken));
     }
     // private System.Void LoadAllAsync()
-    // Offset: 0x128FD70
+    // Offset: 0xFFFFFFFF
     void LoadAllAsync() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "LoadAllAsync"));
     }

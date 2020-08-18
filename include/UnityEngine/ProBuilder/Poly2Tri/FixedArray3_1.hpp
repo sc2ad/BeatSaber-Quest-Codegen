@@ -54,54 +54,54 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       // Offset: 0x0
       int $i$5__2;
       // public System.Void .ctor(System.Int32 $$1__state)
-      // Offset: 0x1185584
+      // Offset: 0xFFFFFFFF
       static typename FixedArray3_1<T>::$Enumerate$d__10* New_ctor(int $$1__state) {
         return (typename FixedArray3_1<T>::$Enumerate$d__10*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FixedArray3_1<T>::$Enumerate$d__10*>::get(), $$1__state));
       }
       // private System.Void System.IDisposable.Dispose()
-      // Offset: 0x11855C4
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.IDisposable.Dispose"));
       }
       // private System.Boolean MoveNext()
-      // Offset: 0x11855C8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
       // private T System.Collections.Generic.IEnumerator<T>.get_Current()
-      // Offset: 0x118564C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator`1::get_Current()
       T System_Collections_Generic_IEnumerator_1_get_Current() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<T>(this, "System.Collections.Generic.IEnumerator<T>.get_Current")));
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0x1185654
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0x11856B4
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IEnumerator.get_Current"));
       }
       // private System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-      // Offset: 0x11856BC
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerable`1
       // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
       System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<T>*>(this, "System.Collections.Generic.IEnumerable<T>.GetEnumerator")));
       }
       // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-      // Offset: 0x11857A8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerable
       // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
       System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
@@ -120,37 +120,37 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: FixedArray3_1
     FixedArray3_1(T _0_ = {}, T _1_ = {}, T _2_ = {}) : _0{_0_}, _1{_1_}, _2{_2_} {}
     // public T get_Item(System.Int32 index)
-    // Offset: 0xA3EB90
+    // Offset: 0xFFFFFFFF
     T get_Item(int index) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_Item", index));
     }
     // public System.Void set_Item(System.Int32 index, T value)
-    // Offset: 0xA3EB98
+    // Offset: 0xFFFFFFFF
     void set_Item(int index, T value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_Item", index, value));
     }
     // public System.Boolean Contains(T value)
-    // Offset: 0xA3EBA0
+    // Offset: 0xFFFFFFFF
     bool Contains(T value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Contains", value));
     }
     // public System.Int32 IndexOf(T value)
-    // Offset: 0xA3EBA8
+    // Offset: 0xFFFFFFFF
     int IndexOf(T value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "IndexOf", value));
     }
     // public System.Void Clear()
-    // Offset: 0xA3EBB0
+    // Offset: 0xFFFFFFFF
     void Clear() {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Clear"));
     }
     // private System.Collections.Generic.IEnumerable`1<T> Enumerate()
-    // Offset: 0xA3EBB8
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<T>* Enumerate() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<T>*>(*this, "Enumerate"));
     }
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
-    // Offset: 0xA3EBC0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
@@ -162,7 +162,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return GetEnumerator();
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xA3EBC8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {

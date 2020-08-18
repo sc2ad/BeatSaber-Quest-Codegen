@@ -37,31 +37,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<LineLight> _lineLights
     static void _set__lineLights(System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* value);
     // public UnityEngine.Vector3 get_p0()
-    // Offset: 0x18246C4
+    // Offset: 0x17829FC
     UnityEngine::Vector3 get_p0();
     // public UnityEngine.Vector3 get_p1()
-    // Offset: 0x18246D0
+    // Offset: 0x1782A08
     UnityEngine::Vector3 get_p1();
     // public UnityEngine.Color get_color()
-    // Offset: 0x18246DC
+    // Offset: 0x1782A14
     UnityEngine::Color get_color();
     // static public System.Collections.Generic.List`1<LineLight> get_lineLights()
-    // Offset: 0x18246E8
+    // Offset: 0x1782A20
     static System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* get_lineLights();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1824750
+    // Offset: 0x1782A88
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x18247E4
+    // Offset: 0x1782B1C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1824868
+    // Offset: 0x1782BA0
     void OnDisable();
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x18248EC
+    // Offset: 0x1782C24
     void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x1824980
+    // Offset: 0x1782CB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LineLight* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1824988
+    // Offset: 0x1782CC0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

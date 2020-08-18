@@ -32,10 +32,10 @@ namespace OnlineServices {
     // Offset: 0x18
     System::Threading::Tasks::TaskCompletionSource_1<::Array<::Il2CppString*>*>* tcs;
     // System.Void <GetUserNamesForUserIds>b__0(PlatformUserModelSO/GetUserNamesForUserIdsResult result, System.String[] names)
-    // Offset: 0xBCC188
+    // Offset: 0x19134F0
     void $GetUserNamesForUserIds$b__0(GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsResult result, ::Array<::Il2CppString*>* names);
     // public System.Void .ctor()
-    // Offset: 0xBCC180
+    // Offset: 0x19134E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlatformUserNamesLoader::$$c__DisplayClass2_0* New_ctor();

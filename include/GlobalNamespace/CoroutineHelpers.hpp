@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0
     class $ExecuteAfterDelayCoroutine$d__0;
     // static public System.Collections.IEnumerator ExecuteAfterDelayCoroutine(System.Action action, System.Single time)
-    // Offset: 0xCAC1B8
+    // Offset: 0xC0C47C
     static System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(System::Action* action, float time);
     // public System.Void .ctor()
-    // Offset: 0xCAC270
+    // Offset: 0xC0C534
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CoroutineHelpers* New_ctor();

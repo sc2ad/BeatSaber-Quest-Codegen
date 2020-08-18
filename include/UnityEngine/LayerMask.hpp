@@ -21,16 +21,16 @@ namespace UnityEngine {
     // Creating value type constructor for type: LayerMask
     LayerMask(int m_Mask_ = {}) : m_Mask{m_Mask_} {}
     // public System.Int32 get_value()
-    // Offset: 0xA42434
+    // Offset: 0x9AB900
     int get_value();
     // public System.Void set_value(System.Int32 value)
-    // Offset: 0xA4243C
+    // Offset: 0x9AB908
     void set_value(int value);
     // static public System.String LayerToName(System.Int32 layer)
-    // Offset: 0x130D038
+    // Offset: 0x12702FC
     static ::Il2CppString* LayerToName(int layer);
     // static public System.Int32 NameToLayer(System.String layerName)
-    // Offset: 0x130D078
+    // Offset: 0x127033C
     static int NameToLayer(::Il2CppString* layerName);
   }; // UnityEngine.LayerMask
 }

@@ -27,37 +27,37 @@ namespace UnityEngine {
   class NoAllocHelpers : public ::Il2CppObject {
     public:
     // static public System.Void ResizeList(System.Collections.Generic.List`1<T> list, System.Int32 size)
-    // Offset: 0xC5D528
+    // Offset: 0xFFFFFFFF
     template<class T>
     static void ResizeList(System::Collections::Generic::List_1<T>* list, int size) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine", "NoAllocHelpers", "ResizeList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, size));
     }
     // static public System.Void EnsureListElemCount(System.Collections.Generic.List`1<T> list, System.Int32 count)
-    // Offset: 0xC5D410
+    // Offset: 0xFFFFFFFF
     template<class T>
     static void EnsureListElemCount(System::Collections::Generic::List_1<T>* list, int count) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine", "NoAllocHelpers", "EnsureListElemCount", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, count));
     }
     // static public System.Int32 SafeLength(System.Array values)
-    // Offset: 0x140B954
+    // Offset: 0x136DC8C
     static int SafeLength(System::Array* values);
     // static public System.Int32 SafeLength(System.Collections.Generic.List`1<T> values)
-    // Offset: 0x11DCF6C
+    // Offset: 0xFFFFFFFF
     template<class T>
     static int SafeLength(System::Collections::Generic::List_1<T>* values) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("UnityEngine", "NoAllocHelpers", "SafeLength", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, values)));
     }
     // static public T[] ExtractArrayFromListT(System.Collections.Generic.List`1<T> list)
-    // Offset: 0xD58F10
+    // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* ExtractArrayFromListT(System::Collections::Generic::List_1<T>* list) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "NoAllocHelpers", "ExtractArrayFromListT", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list)));
     }
     // static System.Void Internal_ResizeList(System.Object list, System.Int32 size)
-    // Offset: 0x140F3D0
+    // Offset: 0x1371708
     static void Internal_ResizeList(::Il2CppObject* list, int size);
     // static public System.Array ExtractArrayFromList(System.Object list)
-    // Offset: 0x140C0C4
+    // Offset: 0x136E3FC
     static System::Array* ExtractArrayFromList(::Il2CppObject* list);
   }; // UnityEngine.NoAllocHelpers
 }

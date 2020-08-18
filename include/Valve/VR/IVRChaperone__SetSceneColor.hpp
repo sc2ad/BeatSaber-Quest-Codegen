@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperone::_SetSceneColor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFE4E48
+    // Offset: 0xF4610C
     static IVRChaperone::_SetSceneColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.HmdColor_t color)
-    // Offset: 0xFDD630
+    // Offset: 0xF3E8F4
     void Invoke(Valve::VR::HmdColor_t color);
     // public System.IAsyncResult BeginInvoke(Valve.VR.HmdColor_t color, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFE4E5C
+    // Offset: 0xF46120
     System::IAsyncResult* BeginInvoke(Valve::VR::HmdColor_t color, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFE4EEC
+    // Offset: 0xF461B0
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_SetSceneColor
 }

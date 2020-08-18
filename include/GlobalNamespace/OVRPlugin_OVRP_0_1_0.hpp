@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Sizei ovrp_GetEyeTextureSize(OVRPlugin/Eye eyeId)
-    // Offset: 0xF3CE60
+    // Offset: 0xE9E124
     static GlobalNamespace::OVRPlugin::Sizei ovrp_GetEyeTextureSize(GlobalNamespace::OVRPlugin::Eye eyeId);
     // static private System.Void .cctor()
-    // Offset: 0xF3CEE0
+    // Offset: 0xE9E1A4
     static void _cctor();
   }; // OVRPlugin/OVRP_0_1_0
 }

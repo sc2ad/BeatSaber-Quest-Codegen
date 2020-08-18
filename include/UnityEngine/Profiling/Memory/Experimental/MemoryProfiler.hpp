@@ -51,19 +51,19 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     // Set static field: static private System.Action`1<UnityEngine.Profiling.Memory.Experimental.MetaData> createMetaData
     static void _set_createMetaData(System::Action_1<UnityEngine::Profiling::Memory::Experimental::MetaData*>* value);
     // static private System.Byte[] PrepareMetadata()
-    // Offset: 0x1415360
+    // Offset: 0x1377698
     static ::Array<uint8_t>* PrepareMetadata();
     // static System.Int32 WriteIntToByteArray(System.Byte[] array, System.Int32 offset, System.Int32 value)
-    // Offset: 0x141553C
+    // Offset: 0x1377874
     static int WriteIntToByteArray(::Array<uint8_t>* array, int offset, int value);
     // static System.Int32 WriteStringToByteArray(System.Byte[] array, System.Int32 offset, System.String value)
-    // Offset: 0x14155DC
+    // Offset: 0x1377914
     static int WriteStringToByteArray(::Array<uint8_t>* array, int offset, ::Il2CppString* value);
     // static private System.Void FinalizeSnapshot(System.String path, System.Boolean result)
-    // Offset: 0x1415684
+    // Offset: 0x13779BC
     static void FinalizeSnapshot(::Il2CppString* path, bool result);
     // static private System.Void SaveScreenshotToDisk(System.String path, System.Boolean result, System.IntPtr pixelsPtr, System.Int32 pixelsCount, UnityEngine.TextureFormat format, System.Int32 width, System.Int32 height)
-    // Offset: 0x141571C
+    // Offset: 0x1377A54
     static void SaveScreenshotToDisk(::Il2CppString* path, bool result, System::IntPtr pixelsPtr, int pixelsCount, UnityEngine::TextureFormat format, int width, int height);
   }; // UnityEngine.Profiling.Memory.Experimental.MemoryProfiler
 }

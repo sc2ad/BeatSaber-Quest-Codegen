@@ -42,37 +42,37 @@ namespace Oculus::Platform::Models {
     // Offset: 0x0
     ::Il2CppString* PreviousUrl;
     // private System.Collections.IEnumerator GetEnumerator1()
-    // Offset: 0x1294600
+    // Offset: 0xFFFFFFFF
     System::Collections::IEnumerator* GetEnumerator1() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "GetEnumerator1"));
     }
     // public System.Collections.Generic.List`1<T> get_Data()
-    // Offset: 0x1294648
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::List_1<T>* get_Data() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::List_1<T>*>(this, "get_Data"));
     }
     // public System.Boolean get_HasNextPage()
-    // Offset: 0x1294650
+    // Offset: 0xFFFFFFFF
     bool get_HasNextPage() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_HasNextPage"));
     }
     // public System.Boolean get_HasPreviousPage()
-    // Offset: 0x129468C
+    // Offset: 0xFFFFFFFF
     bool get_HasPreviousPage() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_HasPreviousPage"));
     }
     // public System.String get_NextUrl()
-    // Offset: 0x12946C8
+    // Offset: 0xFFFFFFFF
     ::Il2CppString* get_NextUrl() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(this, "get_NextUrl"));
     }
     // public System.String get_PreviousUrl()
-    // Offset: 0x12946D0
+    // Offset: 0xFFFFFFFF
     ::Il2CppString* get_PreviousUrl() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(this, "get_PreviousUrl"));
     }
     // public System.Int32 get_Count()
-    // Offset: 0x1294328
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection`1::get_Count()
     int get_Count() {
@@ -84,14 +84,14 @@ namespace Oculus::Platform::Models {
       return get_Count();
     }
     // private System.Boolean System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-    // Offset: 0x1294350
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::get_IsReadOnly()
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<T>.get_IsReadOnly")));
     }
     // public System.Int32 IndexOf(T obj)
-    // Offset: 0x12943F0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Int32 IList`1::IndexOf(T obj)
     int IndexOf(T obj) {
@@ -103,7 +103,7 @@ namespace Oculus::Platform::Models {
       return IndexOf(obj);
     }
     // public T get_Item(System.Int32 index)
-    // Offset: 0x1294418
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: T IList`1::get_Item(System.Int32 index)
     T get_Item(int index) {
@@ -115,7 +115,7 @@ namespace Oculus::Platform::Models {
       return get_Item(index);
     }
     // public System.Void set_Item(System.Int32 index, T value)
-    // Offset: 0x1294440
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList`1::set_Item(System.Int32 index, T value)
     void set_Item(int index, T value) {
@@ -127,7 +127,7 @@ namespace Oculus::Platform::Models {
       set_Item(index, value);
     }
     // public System.Void Add(T item)
-    // Offset: 0x1294468
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::Add(T item)
     void Add(T item) {
@@ -139,7 +139,7 @@ namespace Oculus::Platform::Models {
       Add(item);
     }
     // public System.Void Clear()
-    // Offset: 0x1294490
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::Clear()
     void Clear() {
@@ -151,7 +151,7 @@ namespace Oculus::Platform::Models {
       Clear();
     }
     // public System.Boolean Contains(T item)
-    // Offset: 0x12944B8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::Contains(T item)
     bool Contains(T item) {
@@ -163,7 +163,7 @@ namespace Oculus::Platform::Models {
       return Contains(item);
     }
     // public System.Void CopyTo(T[] array, System.Int32 arrayIndex)
-    // Offset: 0x12944E0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::CopyTo(T[] array, System.Int32 arrayIndex)
     void CopyTo(::Array<T>* array, int arrayIndex) {
@@ -175,7 +175,7 @@ namespace Oculus::Platform::Models {
       CopyTo(array, arrayIndex);
     }
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
-    // Offset: 0x1294508
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
@@ -187,7 +187,7 @@ namespace Oculus::Platform::Models {
       return GetEnumerator();
     }
     // public System.Void Insert(System.Int32 index, T item)
-    // Offset: 0x1294588
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList`1::Insert(System.Int32 index, T item)
     void Insert(int index, T item) {
@@ -199,7 +199,7 @@ namespace Oculus::Platform::Models {
       Insert(index, item);
     }
     // public System.Boolean Remove(T item)
-    // Offset: 0x12945B0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::Remove(T item)
     bool Remove(T item) {
@@ -211,7 +211,7 @@ namespace Oculus::Platform::Models {
       return Remove(item);
     }
     // public System.Void RemoveAt(System.Int32 index)
-    // Offset: 0x12945D8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList`1::RemoveAt(System.Int32 index)
     void RemoveAt(int index) {
@@ -223,14 +223,14 @@ namespace Oculus::Platform::Models {
       RemoveAt(index);
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1294624
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "System.Collections.IEnumerable.GetEnumerator"));
     }
     // public System.Void .ctor()
-    // Offset: 0x12946D8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DeserializableList_1<T>* New_ctor() {

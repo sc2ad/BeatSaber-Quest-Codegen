@@ -32,7 +32,7 @@ namespace Zenject {
     // Nested type: Zenject::ValidationUtil::$$c
     class $$c;
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(System.Type[] argTypes)
-    // Offset: 0x193AF60
+    // Offset: 0x18972AC
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::Array<System::Type*>* argTypes);
   }; // Zenject.ValidationUtil
 }

@@ -97,69 +97,69 @@ namespace UnityEngine::TestTools {
       // Offset: 0x0
       UnityEngine::TestTools::Logging::LogScope* $logScope$5__5;
       // public System.Void .ctor(System.Int32 $$1__state)
-      // Offset: 0x1186590
+      // Offset: 0xFFFFFFFF
       static typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9* New_ctor(int $$1__state) {
         return (typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BeforeAfterTestCommandBase_1<T>::$ExecuteEnumerable$d__9*>::get(), $$1__state));
       }
       // private System.Void <>m__Finally1()
-      // Offset: 0x1187C34
+      // Offset: 0xFFFFFFFF
       void $$m__Finally1() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<>m__Finally1"));
       }
       // private System.Void <>m__Finally2()
-      // Offset: 0x1187CF4
+      // Offset: 0xFFFFFFFF
       void $$m__Finally2() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<>m__Finally2"));
       }
       // private System.Void <>m__Finally3()
-      // Offset: 0x1187DC0
+      // Offset: 0xFFFFFFFF
       void $$m__Finally3() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<>m__Finally3"));
       }
       // private System.Void System.IDisposable.Dispose()
-      // Offset: 0x11865D0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.IDisposable.Dispose"));
       }
       // private System.Boolean MoveNext()
-      // Offset: 0x1186654
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
       // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-      // Offset: 0x1187E80
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator`1::get_Current()
       ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.Generic.IEnumerator<System.Object>.get_Current")));
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0x1187E88
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0x1187EE8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IEnumerator.get_Current"));
       }
       // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-      // Offset: 0x1187EF0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerable`1
       // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
       System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this, "System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator")));
       }
       // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-      // Offset: 0x1187FB0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerable
       // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
       System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
@@ -192,7 +192,7 @@ namespace UnityEngine::TestTools {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeforeAfterTestCommandBase_1<T>*>::get(), "pcHelper", value));
     }
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.String beforeErrorPrefix, System.String afterErrorPrefix, System.Boolean skipYieldAfterActions)
-    // Offset: 0x1187FD4
+    // Offset: 0xFFFFFFFF
     static BeforeAfterTestCommandBase_1<T>* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand, ::Il2CppString* beforeErrorPrefix, ::Il2CppString* afterErrorPrefix, bool skipYieldAfterActions) {
       return (BeforeAfterTestCommandBase_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeforeAfterTestCommandBase_1<T>*>::get(), innerCommand, beforeErrorPrefix, afterErrorPrefix, skipYieldAfterActions));
     }
@@ -212,19 +212,19 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::TestTools::BeforeAfterTestCommandState*>(this, "GetState", context));
     }
     // static UnityEngine.TestTools.TestCommandPcHelper get_ActivePcHelper()
-    // Offset: 0x11881C8
+    // Offset: 0xFFFFFFFF
     static UnityEngine::TestTools::TestCommandPcHelper* get_ActivePcHelper() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::TestTools::TestCommandPcHelper*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeforeAfterTestCommandBase_1<T>*>::get(), "get_ActivePcHelper"));
     }
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x11880C4
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
     // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerable*>(this, "ExecuteEnumerable", context));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x118815C
+    // Offset: 0xFFFFFFFF
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context) {

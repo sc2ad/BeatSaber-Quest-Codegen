@@ -15,8 +15,8 @@ namespace System::Linq {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -53,17 +53,17 @@ namespace System::Linq {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename IdentityFunction_1<TElement>::$$c*>::get(), "<>9__1_0", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0x12D5BD4
+      // Offset: 0xFFFFFFFF
       static void _cctor() {
         THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename IdentityFunction_1<TElement>::$$c*>::get(), ".cctor"));
       }
       // TElement <get_Instance>b__1_0(TElement x)
-      // Offset: 0x12D5CC8
+      // Offset: 0xFFFFFFFF
       TElement $get_Instance$b__1_0(TElement x) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<TElement>(this, "<get_Instance>b__1_0", x)));
       }
       // public System.Void .ctor()
-      // Offset: 0x12D5CB0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename IdentityFunction_1<TElement>::$$c* New_ctor() {
@@ -71,7 +71,7 @@ namespace System::Linq {
       }
     }; // System.Linq.IdentityFunction`1/<>c
     // static public System.Func`2<TElement,TElement> get_Instance()
-    // Offset: 0x12D5CD0
+    // Offset: 0xFFFFFFFF
     static System::Func_2<TElement, TElement>* get_Instance() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<System::Func_2<TElement, TElement>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IdentityFunction_1<TElement>*>::get(), "get_Instance")));
     }

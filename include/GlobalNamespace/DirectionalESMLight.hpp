@@ -40,16 +40,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Material* esmBlitMaterial;
     // protected System.Void OnEnable()
-    // Offset: 0xBE4E9C
+    // Offset: 0x192C47C
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0xBE4FF8
+    // Offset: 0x192C5D8
     void Update();
     // protected System.Void OnDisable()
-    // Offset: 0xBE53C4
+    // Offset: 0x192C9A4
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xBE547C
+    // Offset: 0x192CA5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

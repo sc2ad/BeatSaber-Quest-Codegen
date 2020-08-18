@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_GetTimeSinceLastVsync : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CC270
+    // Offset: 0x162E5A8
     static IVRSystem::_GetTimeSinceLastVsync* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Single pfSecondsSinceLastVsync, System.UInt64 pulFrameCounter)
-    // Offset: 0x16CC284
+    // Offset: 0x162E5BC
     bool Invoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter);
     // public System.IAsyncResult BeginInvoke(System.Single pfSecondsSinceLastVsync, System.UInt64 pulFrameCounter, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CC4FC
+    // Offset: 0x162E834
     System::IAsyncResult* BeginInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.Single pfSecondsSinceLastVsync, System.UInt64 pulFrameCounter, System.IAsyncResult result)
-    // Offset: 0x16CC5B0
+    // Offset: 0x162E8E8
     bool EndInvoke(float& pfSecondsSinceLastVsync, uint64_t& pulFrameCounter, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetTimeSinceLastVsync
 }

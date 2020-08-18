@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15F16C4
+    // Offset: 0x15529FC
     static IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Byte[] pTagsBuffer, System.UInt32 punTagCount)
-    // Offset: 0x15F16D8
+    // Offset: 0x1552A10
     bool Invoke(::Array<uint8_t>*& pTagsBuffer, uint& punTagCount);
     // public System.IAsyncResult BeginInvoke(System.Byte[] pTagsBuffer, System.UInt32 punTagCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15F1950
+    // Offset: 0x1552C88
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>*& pTagsBuffer, uint& punTagCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.UInt32 punTagCount, System.IAsyncResult result)
-    // Offset: 0x15F19EC
+    // Offset: 0x1552D24
     bool EndInvoke(uint& punTagCount, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_GetLiveCollisionBoundsTagsInfo
 }

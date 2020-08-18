@@ -44,22 +44,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::BeatmapDataLoader* beatmapDataLoader;
     // public BeatmapData get_beatmapData()
-    // Offset: 0xB920D4
+    // Offset: 0x18FB780
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void set_beatmapData(BeatmapData value)
-    // Offset: 0xB9215C
+    // Offset: 0x18FB808
     void set_beatmapData(GlobalNamespace::BeatmapData* value);
     // public System.Void SetJsonData(System.String jsonData)
-    // Offset: 0xB92164
+    // Offset: 0x18FB810
     void SetJsonData(::Il2CppString* jsonData);
     // public System.Void SetRequiredDataForLoad(System.Single beatsPerMinute, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0xB9216C
+    // Offset: 0x18FB818
     void SetRequiredDataForLoad(float beatsPerMinute, float shuffle, float shufflePeriod);
     // public System.Void Load()
-    // Offset: 0xB92104
+    // Offset: 0x18FB7B0
     void Load();
     // public System.Void .ctor()
-    // Offset: 0xB92180
+    // Offset: 0x18FB82C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

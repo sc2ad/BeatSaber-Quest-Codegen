@@ -53,34 +53,34 @@ namespace System::Text {
     // Offset: 0x58
     System::Text::EncoderFallbackBuffer* fallbackBuffer;
     // System.Void .ctor(System.Text.Encoding inEncoding, System.Text.EncoderNLS inEncoder, System.Byte* inByteStart, System.Int32 inByteCount, System.Char* inCharStart, System.Int32 inCharCount)
-    // Offset: 0x12EFEB0
+    // Offset: 0x1253174
     static Encoding::EncodingByteBuffer* New_ctor(System::Text::Encoding* inEncoding, System::Text::EncoderNLS* inEncoder, uint8_t* inByteStart, int inByteCount, ::Il2CppChar* inCharStart, int inCharCount);
     // System.Boolean AddByte(System.Byte b, System.Int32 moreBytesExpected)
-    // Offset: 0x12F0134
+    // Offset: 0x12533F8
     bool AddByte(uint8_t b, int moreBytesExpected);
     // System.Boolean AddByte(System.Byte b1)
-    // Offset: 0x12F020C
+    // Offset: 0x12534D0
     bool AddByte(uint8_t b1);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2)
-    // Offset: 0x12F0214
+    // Offset: 0x12534D8
     bool AddByte(uint8_t b1, uint8_t b2);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2, System.Int32 moreBytesExpected)
-    // Offset: 0x12F021C
+    // Offset: 0x12534E0
     bool AddByte(uint8_t b1, uint8_t b2, int moreBytesExpected);
     // System.Void MovePrevious(System.Boolean bThrow)
-    // Offset: 0x12F0188
+    // Offset: 0x125344C
     void MovePrevious(bool bThrow);
     // System.Boolean get_MoreData()
-    // Offset: 0x12F0274
+    // Offset: 0x1253538
     bool get_MoreData();
     // System.Char GetNextChar()
-    // Offset: 0x12F02C8
+    // Offset: 0x125358C
     ::Il2CppChar GetNextChar();
     // System.Int32 get_CharsUsed()
-    // Offset: 0x12F0338
+    // Offset: 0x12535FC
     int get_CharsUsed();
     // System.Int32 get_Count()
-    // Offset: 0x12F0350
+    // Offset: 0x1253614
     int get_Count();
   }; // System.Text.Encoding/EncodingByteBuffer
 }

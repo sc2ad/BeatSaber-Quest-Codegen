@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<BeatmapObjectData> <>9__4_0
     static void _set_$$9__4_0(System::Comparison_1<GlobalNamespace::BeatmapObjectData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB91F00
+    // Offset: 0x18FB5AC
     static void _cctor();
     // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__4_0(BeatmapObjectData x, BeatmapObjectData y)
-    // Offset: 0xB91F70
+    // Offset: 0x18FB61C
     int $GetBeatmapDataFromBeatmapSaveData$b__4_0(GlobalNamespace::BeatmapObjectData* x, GlobalNamespace::BeatmapObjectData* y);
     // public System.Void .ctor()
-    // Offset: 0xB91F68
+    // Offset: 0x18FB614
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataLoader::$$c* New_ctor();

@@ -21,12 +21,12 @@ namespace System::Net::Configuration {
   class PerformanceCountersElement : public System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF66ADC
+    // Offset: 0xEC7DA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PerformanceCountersElement* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0xF66B1C
+    // Offset: 0xEC7DE0
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

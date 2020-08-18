@@ -45,79 +45,79 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float saberTrailIntensity;
     // public System.Boolean get_staticLights()
-    // Offset: 0xC17CC0
+    // Offset: 0xB8FCFC
     bool get_staticLights();
     // public System.Void set_staticLights(System.Boolean value)
-    // Offset: 0xC17CC8
+    // Offset: 0xB8FD04
     void set_staticLights(bool value);
     // public System.Boolean get_leftHanded()
-    // Offset: 0xC17CD4
+    // Offset: 0xB8FD10
     bool get_leftHanded();
     // public System.Void set_leftHanded(System.Boolean value)
-    // Offset: 0xC17CDC
+    // Offset: 0xB8FD18
     void set_leftHanded(bool value);
     // public System.Single get_playerHeight()
-    // Offset: 0xC17CE8
+    // Offset: 0xB8FD24
     float get_playerHeight();
     // public System.Void set_playerHeight(System.Single value)
-    // Offset: 0xC17CF0
+    // Offset: 0xB8FD2C
     void set_playerHeight(float value);
     // public System.Boolean get_automaticPlayerHeight()
-    // Offset: 0xC17CF8
+    // Offset: 0xB8FD34
     bool get_automaticPlayerHeight();
     // public System.Void set_automaticPlayerHeight(System.Boolean value)
-    // Offset: 0xC17D00
+    // Offset: 0xB8FD3C
     void set_automaticPlayerHeight(bool value);
     // public System.Single get_sfxVolume()
-    // Offset: 0xC17D0C
+    // Offset: 0xB8FD48
     float get_sfxVolume();
     // public System.Void set_sfxVolume(System.Single value)
-    // Offset: 0xC17D14
+    // Offset: 0xB8FD50
     void set_sfxVolume(float value);
     // public System.Boolean get_reduceDebris()
-    // Offset: 0xC17D1C
+    // Offset: 0xB8FD58
     bool get_reduceDebris();
     // public System.Void set_reduceDebris(System.Boolean value)
-    // Offset: 0xC17D24
+    // Offset: 0xB8FD60
     void set_reduceDebris(bool value);
     // public System.Boolean get_noTextsAndHuds()
-    // Offset: 0xC17D30
+    // Offset: 0xB8FD6C
     bool get_noTextsAndHuds();
     // public System.Void set_noTextsAndHuds(System.Boolean value)
-    // Offset: 0xC17D38
+    // Offset: 0xB8FD74
     void set_noTextsAndHuds(bool value);
     // public System.Boolean get_noFailEffects()
-    // Offset: 0xC17D44
+    // Offset: 0xB8FD80
     bool get_noFailEffects();
     // public System.Void set_noFailEffects(System.Boolean value)
-    // Offset: 0xC17D4C
+    // Offset: 0xB8FD88
     void set_noFailEffects(bool value);
     // public System.Boolean get_advancedHud()
-    // Offset: 0xC17D58
+    // Offset: 0xB8FD94
     bool get_advancedHud();
     // public System.Void set_advancedHud(System.Boolean value)
-    // Offset: 0xC17D60
+    // Offset: 0xB8FD9C
     void set_advancedHud(bool value);
     // public System.Boolean get_autoRestart()
-    // Offset: 0xC17D6C
+    // Offset: 0xB8FDA8
     bool get_autoRestart();
     // public System.Void set_autoRestart(System.Boolean value)
-    // Offset: 0xC17D74
+    // Offset: 0xB8FDB0
     void set_autoRestart(bool value);
     // public System.Single get_saberTrailIntensity()
-    // Offset: 0xC17D80
+    // Offset: 0xB8FDBC
     float get_saberTrailIntensity();
     // public System.Void set_saberTrailIntensity(System.Single value)
-    // Offset: 0xC17D88
+    // Offset: 0xB8FDC4
     void set_saberTrailIntensity(float value);
     // static public PlayerSpecificSettings get_defaultSettings()
-    // Offset: 0xC17D90
+    // Offset: 0xB8FDCC
     static GlobalNamespace::PlayerSpecificSettings* get_defaultSettings();
     // public System.Void ResetToDefault()
-    // Offset: 0xC17E70
+    // Offset: 0xB8FEAC
     void ResetToDefault();
     // public System.Void .ctor()
-    // Offset: 0xC17E1C
+    // Offset: 0xB8FE58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSpecificSettings* New_ctor();

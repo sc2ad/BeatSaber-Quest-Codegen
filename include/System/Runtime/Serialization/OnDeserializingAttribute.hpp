@@ -14,7 +14,7 @@ namespace System::Runtime::Serialization {
   class OnDeserializingAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFF8810
+    // Offset: 0xF59AD4
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

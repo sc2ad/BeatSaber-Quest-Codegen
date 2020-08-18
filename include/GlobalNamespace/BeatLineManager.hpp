@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     // Offset: 0x50
     float rotationRange;
     // public System.Boolean get_isMidRotationValid()
-    // Offset: 0xB8C12C
+    // Offset: 0x18F57D8
     bool get_isMidRotationValid();
     // public System.Single get_midRotation()
-    // Offset: 0xB8C134
+    // Offset: 0x18F57E0
     float get_midRotation();
     // public System.Single get_rotationRange()
-    // Offset: 0xB8C13C
+    // Offset: 0x18F57E8
     float get_rotationRange();
     // protected System.Void Start()
-    // Offset: 0xB8C144
+    // Offset: 0x18F57F0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB8C1D8
+    // Offset: 0x18F5884
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xB8C26C
+    // Offset: 0x18F5918
     void Update();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0xB8C620
+    // Offset: 0x18F5CCC
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0xB8C81C
+    // Offset: 0x18F5EC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

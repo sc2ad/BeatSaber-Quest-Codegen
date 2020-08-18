@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::ColorSchemeView* colorSchemeView;
     // public System.Void SetData(System.String schemeName, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0xB60FB8
+    // Offset: 0x18E85E4
     void SetData(::Il2CppString* schemeName, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);
     // public System.Void SetData(ColorScheme colorScheme)
-    // Offset: 0xB610A0
+    // Offset: 0x18E86CC
     void SetData(GlobalNamespace::ColorScheme* colorScheme);
     // public System.Void .ctor()
-    // Offset: 0xB6111C
+    // Offset: 0x18E8748
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

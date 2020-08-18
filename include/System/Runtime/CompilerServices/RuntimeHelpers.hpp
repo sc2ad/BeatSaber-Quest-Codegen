@@ -25,22 +25,22 @@ namespace System::Runtime::CompilerServices {
   class RuntimeHelpers : public ::Il2CppObject {
     public:
     // static private System.Void InitializeArray(System.Array array, System.IntPtr fldHandle)
-    // Offset: 0x1161748
+    // Offset: 0x10C4A0C
     static void InitializeArray(System::Array* array, System::IntPtr fldHandle);
     // static public System.Void InitializeArray(System.Array array, System.RuntimeFieldHandle fldHandle)
-    // Offset: 0x116174C
+    // Offset: 0x10C4A10
     static void InitializeArray(System::Array* array, System::RuntimeFieldHandle fldHandle);
     // static public System.Int32 get_OffsetToStringData()
-    // Offset: 0x11617E8
+    // Offset: 0x10C4AAC
     static int get_OffsetToStringData();
     // static public System.Int32 GetHashCode(System.Object o)
-    // Offset: 0x11617EC
+    // Offset: 0x10C4AB0
     static int GetHashCode(::Il2CppObject* o);
     // static public System.Void PrepareConstrainedRegions()
-    // Offset: 0x11617F4
+    // Offset: 0x10C4AB8
     static void PrepareConstrainedRegions();
     // static public System.Boolean IsReferenceOrContainsReferences()
-    // Offset: 0xE5E6B8
+    // Offset: 0xFFFFFFFF
     template<class T>
     static bool IsReferenceOrContainsReferences() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("System.Runtime.CompilerServices", "RuntimeHelpers", "IsReferenceOrContainsReferences", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));

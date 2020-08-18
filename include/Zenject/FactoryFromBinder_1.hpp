@@ -42,20 +42,20 @@ namespace Zenject {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine
@@ -70,7 +70,7 @@ namespace Zenject {
   template<typename TContract>
   class FactoryFromBinder_1 : public Zenject::FactoryFromBinderBase {
     public:
-    // Nested type: Zenject::FactoryFromBinder_1::$$c__DisplayClass3_0_1<TObj, TContract>
+    // Nested type: Zenject::FactoryFromBinder_1::$$c__DisplayClass3_0_1<TContract, TObj>
     template<typename TObj>
     class $$c__DisplayClass3_0_1;
     // Nested type: Zenject::FactoryFromBinder_1::$$c__DisplayClass4_0<TContract>
@@ -97,12 +97,12 @@ namespace Zenject {
       // Offset: 0x0
       Zenject::InjectSources source;
       // Zenject.IProvider <FromResolveGetter>b__0(Zenject.DiContainer container)
-      // Offset: 0x1190E90
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $FromResolveGetter$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<FromResolveGetter>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x1190E78
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactoryFromBinder_1<TContract>::$$c__DisplayClass3_0_1<TObj>* New_ctor() {
@@ -117,12 +117,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Func_2<Zenject::DiContainer*, TContract>* method;
       // Zenject.IProvider <FromMethod>b__0(Zenject.DiContainer container)
-      // Offset: 0x1190F34
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $FromMethod$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<FromMethod>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x1190F1C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactoryFromBinder_1<TContract>::$$c__DisplayClass4_0* New_ctor() {
@@ -156,17 +156,17 @@ namespace Zenject {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_1<TContract>::$$c__5_1<TSubFactory>*>::get(), "<>9__5_0", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0x1190D4C
+      // Offset: 0xFFFFFFFF
       static void _cctor() {
         THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_1<TContract>::$$c__5_1<TSubFactory>*>::get(), ".cctor"));
       }
       // System.Void <FromFactory>b__5_0(Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`1<TContract>> x)
-      // Offset: 0x1190E40
+      // Offset: 0xFFFFFFFF
       void $FromFactory$b__5_0(Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TContract>*>* x) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<FromFactory>b__5_0", x));
       }
       // public System.Void .ctor()
-      // Offset: 0x1190E28
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactoryFromBinder_1<TContract>::$$c__5_1<TSubFactory>* New_ctor() {
@@ -187,17 +187,17 @@ namespace Zenject {
       // Offset: 0x0
       System::Func_2<UnityEngine::GameObject*, TContract>* $$9__1;
       // TContract <FromComponentInHierarchy>b__0(Zenject.DiContainer _)
-      // Offset: 0x1190FB8
+      // Offset: 0xFFFFFFFF
       TContract $FromComponentInHierarchy$b__0(Zenject::DiContainer* _) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<TContract>(this, "<FromComponentInHierarchy>b__0", _)));
       }
       // TContract <FromComponentInHierarchy>b__1(UnityEngine.GameObject x)
-      // Offset: 0x11912E8
+      // Offset: 0xFFFFFFFF
       TContract $FromComponentInHierarchy$b__1(UnityEngine::GameObject* x) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<TContract>(this, "<FromComponentInHierarchy>b__1", x)));
       }
       // public System.Void .ctor()
-      // Offset: 0x1190FA0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactoryFromBinder_1<TContract>::$$c__DisplayClass8_0* New_ctor() {
@@ -229,17 +229,17 @@ namespace Zenject {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_1<TContract>::$$c*>::get(), "<>9__8_2", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0x1190C4C
+      // Offset: 0xFFFFFFFF
       static void _cctor() {
         THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_1<TContract>::$$c*>::get(), ".cctor"));
       }
       // System.Boolean <FromComponentInHierarchy>b__8_2(TContract x)
-      // Offset: 0x1190D40
+      // Offset: 0xFFFFFFFF
       bool $FromComponentInHierarchy$b__8_2(TContract x) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<FromComponentInHierarchy>b__8_2", x)));
       }
       // public System.Void .ctor()
-      // Offset: 0x1190D28
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactoryFromBinder_1<TContract>::$$c* New_ctor() {
@@ -247,52 +247,52 @@ namespace Zenject {
       }
     }; // Zenject.FactoryFromBinder`1/<>c
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0x1191900
+    // Offset: 0xFFFFFFFF
     static FactoryFromBinder_1<TContract>* New_ctor(Zenject::DiContainer* container, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
       return (FactoryFromBinder_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryFromBinder_1<TContract>*>::get(), container, bindInfo, factoryBindInfo));
     }
     // public Zenject.ConditionCopyNonLazyBinder FromResolveGetter(System.Func`2<TObj,TContract> method)
-    // Offset: 0x13E564C
+    // Offset: 0xFFFFFFFF
     template<class TObj>
     Zenject::ConditionCopyNonLazyBinder* FromResolveGetter(System::Func_2<TObj, TContract>* method) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConditionCopyNonLazyBinder*>(this, "FromResolveGetter", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get()}, method)));
     }
     // public Zenject.ConditionCopyNonLazyBinder FromResolveGetter(System.Object subIdentifier, System.Func`2<TObj,TContract> method)
-    // Offset: 0x13E5678
+    // Offset: 0xFFFFFFFF
     template<class TObj>
     Zenject::ConditionCopyNonLazyBinder* FromResolveGetter(::Il2CppObject* subIdentifier, System::Func_2<TObj, TContract>* method) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConditionCopyNonLazyBinder*>(this, "FromResolveGetter", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get()}, subIdentifier, method)));
     }
     // public Zenject.ConditionCopyNonLazyBinder FromResolveGetter(System.Object subIdentifier, System.Func`2<TObj,TContract> method, Zenject.InjectSources source)
-    // Offset: 0x13E569C
+    // Offset: 0xFFFFFFFF
     template<class TObj>
     Zenject::ConditionCopyNonLazyBinder* FromResolveGetter(::Il2CppObject* subIdentifier, System::Func_2<TObj, TContract>* method, Zenject::InjectSources source) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConditionCopyNonLazyBinder*>(this, "FromResolveGetter", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObj>::get()}, subIdentifier, method, source)));
     }
     // public Zenject.ConditionCopyNonLazyBinder FromMethod(System.Func`2<Zenject.DiContainer,TContract> method)
-    // Offset: 0x11919B8
+    // Offset: 0xFFFFFFFF
     Zenject::ConditionCopyNonLazyBinder* FromMethod(System::Func_2<Zenject::DiContainer*, TContract>* method) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::ConditionCopyNonLazyBinder*>(this, "FromMethod", method));
     }
     // public Zenject.ArgConditionCopyNonLazyBinder FromFactory()
-    // Offset: 0x13E4D10
+    // Offset: 0xFFFFFFFF
     template<class TSubFactory>
     Zenject::ArgConditionCopyNonLazyBinder* FromFactory() {
       static_assert(std::is_base_of_v<Zenject::IFactory_1<TContract>, std::remove_pointer_t<TSubFactory>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ArgConditionCopyNonLazyBinder*>(this, "FromFactory", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSubFactory>::get()})));
     }
     // public Zenject.FactorySubContainerBinder`1<TContract> FromSubContainerResolve()
-    // Offset: 0x1191AA8
+    // Offset: 0xFFFFFFFF
     Zenject::FactorySubContainerBinder_1<TContract>* FromSubContainerResolve() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::FactorySubContainerBinder_1<TContract>*>(this, "FromSubContainerResolve"));
     }
     // public Zenject.FactorySubContainerBinder`1<TContract> FromSubContainerResolve(System.Object subIdentifier)
-    // Offset: 0x1191AD0
+    // Offset: 0xFFFFFFFF
     Zenject::FactorySubContainerBinder_1<TContract>* FromSubContainerResolve(::Il2CppObject* subIdentifier) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::FactorySubContainerBinder_1<TContract>*>(this, "FromSubContainerResolve", subIdentifier));
     }
     // public Zenject.ConditionCopyNonLazyBinder FromComponentInHierarchy(System.Boolean includeInactive)
-    // Offset: 0x1191B60
+    // Offset: 0xFFFFFFFF
     Zenject::ConditionCopyNonLazyBinder* FromComponentInHierarchy(bool includeInactive) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::ConditionCopyNonLazyBinder*>(this, "FromComponentInHierarchy", includeInactive));
     }

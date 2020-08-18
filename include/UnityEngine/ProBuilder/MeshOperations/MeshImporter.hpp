@@ -59,22 +59,22 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static private readonly UnityEngine.ProBuilder.MeshOperations.MeshImportSettings k_DefaultImportSettings
     static void _set_k_DefaultImportSettings(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* value);
     // public System.Void .ctor(UnityEngine.ProBuilder.ProBuilderMesh target)
-    // Offset: 0x10176E0
+    // Offset: 0xF799A4
     static MeshImporter* New_ctor(UnityEngine::ProBuilder::ProBuilderMesh* target);
     // System.Boolean Import(UnityEngine.GameObject gameObject, UnityEngine.ProBuilder.MeshOperations.MeshImportSettings importSettings)
-    // Offset: 0x1017714
+    // Offset: 0xF799D8
     bool Import(UnityEngine::GameObject* gameObject, UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
     // public System.Void Import(UnityEngine.Mesh originalMesh, UnityEngine.Material[] materials, UnityEngine.ProBuilder.MeshOperations.MeshImportSettings importSettings)
-    // Offset: 0x1017A08
+    // Offset: 0xF79CCC
     void Import(UnityEngine::Mesh* originalMesh, ::Array<UnityEngine::Material*>* materials, UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
     // private UnityEngine.ProBuilder.Face GetBestQuadConnection(UnityEngine.ProBuilder.WingedEdge wing, System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.EdgeLookup,System.Single> connections)
-    // Offset: 0x1019464
+    // Offset: 0xF7B728
     UnityEngine::ProBuilder::Face* GetBestQuadConnection(UnityEngine::ProBuilder::WingedEdge* wing, System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::EdgeLookup, float>* connections);
     // private System.Single GetQuadScore(UnityEngine.ProBuilder.WingedEdge left, UnityEngine.ProBuilder.WingedEdge right, System.Single normalThreshold)
-    // Offset: 0x1018ED4
+    // Offset: 0xF7B198
     float GetQuadScore(UnityEngine::ProBuilder::WingedEdge* left, UnityEngine::ProBuilder::WingedEdge* right, float normalThreshold);
     // static private System.Void .cctor()
-    // Offset: 0x1019654
+    // Offset: 0xF7B918
     static void _cctor();
   }; // UnityEngine.ProBuilder.MeshOperations.MeshImporter
 }

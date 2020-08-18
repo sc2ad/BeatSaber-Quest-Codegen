@@ -30,13 +30,13 @@ namespace VRUIControls {
     // Set static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult> <>9__13_0
     static void _set_$$9__13_0(System::Comparison_1<VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult>* value);
     // static private System.Void .cctor()
-    // Offset: 0x192FA3C
+    // Offset: 0x188DD88
     static void _cctor();
     // System.Int32 <Raycast>b__13_0(VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult g1, VRUIControls.VRGraphicRaycaster/TGraphicRaycastResult g2)
-    // Offset: 0x192FAAC
+    // Offset: 0x188DDF8
     int $Raycast$b__13_0(VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult g1, VRUIControls::VRGraphicRaycaster::TGraphicRaycastResult g2);
     // public System.Void .ctor()
-    // Offset: 0x192FAA4
+    // Offset: 0x188DDF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRGraphicRaycaster::$$c* New_ctor();

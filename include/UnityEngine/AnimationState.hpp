@@ -14,13 +14,13 @@ namespace UnityEngine {
   class AnimationState : public UnityEngine::TrackedReference {
     public:
     // public System.Void set_normalizedTime(System.Single value)
-    // Offset: 0x1934840
+    // Offset: 0x1891B8C
     void set_normalizedTime(float value);
     // public System.Void set_layer(System.Int32 value)
-    // Offset: 0x1934890
+    // Offset: 0x1891BDC
     void set_layer(int value);
     // public System.Void .ctor()
-    // Offset: 0x19348E0
+    // Offset: 0x1891C2C
     // Implemented from: UnityEngine.TrackedReference
     // Base method: System.Void TrackedReference::.ctor()
     // Base method: System.Void Object::.ctor()

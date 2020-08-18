@@ -25,20 +25,20 @@ namespace System {
     // Offset: 0x1C
     ::Il2CppChar currentElement;
     // System.Void .ctor(System.String str)
-    // Offset: 0x13303F8
+    // Offset: 0x12916BC
     static CharEnumerator* New_ctor(::Il2CppString* str);
     // public System.Object Clone()
-    // Offset: 0x1330438
+    // Offset: 0x12916FC
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1330440
+    // Offset: 0x1291704
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Void Dispose()
-    // Offset: 0x13304A0
+    // Offset: 0x1291764
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -46,12 +46,12 @@ namespace System {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13304C0
+    // Offset: 0x1291784
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Char get_Current()
-    // Offset: 0x13305A4
+    // Offset: 0x1291868
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::Il2CppChar get_Current();
@@ -59,7 +59,7 @@ namespace System {
     // Maps to method: get_Current
     ::Il2CppChar System_Collections_Generic_IEnumerator_1_get_Current();
     // public System.Void Reset()
-    // Offset: 0x1330668
+    // Offset: 0x129192C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -67,7 +67,7 @@ namespace System {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // System.Void .ctor()
-    // Offset: 0x1330678
+    // Offset: 0x129193C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CharEnumerator* New_ctor();

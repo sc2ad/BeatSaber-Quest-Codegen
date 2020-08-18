@@ -26,16 +26,16 @@ namespace UnityEngine {
   class AudioClip::PCMSetPositionCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1955F2C
+    // Offset: 0x18B2270
     static AudioClip::PCMSetPositionCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Int32 position)
-    // Offset: 0x1955C7C
+    // Offset: 0x18B1FC0
     void Invoke(int position);
     // public System.IAsyncResult BeginInvoke(System.Int32 position, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1955F40
+    // Offset: 0x18B2284
     System::IAsyncResult* BeginInvoke(int position, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1955FCC
+    // Offset: 0x18B2310
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioClip/PCMSetPositionCallback
 }

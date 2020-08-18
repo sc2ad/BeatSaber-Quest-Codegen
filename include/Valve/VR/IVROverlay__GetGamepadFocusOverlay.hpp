@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVROverlay::_GetGamepadFocusOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1600898
+    // Offset: 0x1561BD0
     static IVROverlay::_GetGamepadFocusOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt64 Invoke()
-    // Offset: 0x16008AC
+    // Offset: 0x1561BE4
     uint64_t Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1600AC0
+    // Offset: 0x1561DF8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1600AEC
+    // Offset: 0x1561E24
     uint64_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetGamepadFocusOverlay
 }

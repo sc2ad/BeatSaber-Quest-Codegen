@@ -24,16 +24,16 @@ namespace UnityEngine {
   class AndroidJavaRunnable : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x191CDA8
+    // Offset: 0x187B0F4
     static AndroidJavaRunnable* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x191CDBC
+    // Offset: 0x187B108
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x191CFC8
+    // Offset: 0x187B314
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x191CFF4
+    // Offset: 0x187B340
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AndroidJavaRunnable
 }

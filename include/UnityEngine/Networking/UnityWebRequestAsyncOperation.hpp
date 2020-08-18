@@ -24,10 +24,10 @@ namespace UnityEngine::Networking {
     // Offset: 0x20
     UnityEngine::Networking::UnityWebRequest* webRequest;
     // System.Void set_webRequest(UnityEngine.Networking.UnityWebRequest value)
-    // Offset: 0x1942F4C
+    // Offset: 0x189E298
     void set_webRequest(UnityEngine::Networking::UnityWebRequest* value);
     // public System.Void .ctor()
-    // Offset: 0x1942F54
+    // Offset: 0x189E2A0
     // Implemented from: UnityEngine.AsyncOperation
     // Base method: System.Void AsyncOperation::.ctor()
     // Base method: System.Void YieldInstruction::.ctor()

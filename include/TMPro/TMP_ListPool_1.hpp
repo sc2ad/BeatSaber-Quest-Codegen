@@ -46,17 +46,17 @@ namespace TMPro {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TMP_ListPool_1<T>::$$c*>::get(), "<>9", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0x13F68AC
+      // Offset: 0xFFFFFFFF
       static void _cctor() {
         THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TMP_ListPool_1<T>::$$c*>::get(), ".cctor"));
       }
       // System.Void <.cctor>b__3_0(System.Collections.Generic.List`1<T> l)
-      // Offset: 0x13F69A0
+      // Offset: 0xFFFFFFFF
       void $_cctor$b__3_0(System::Collections::Generic::List_1<T>* l) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<.cctor>b__3_0", l));
       }
       // public System.Void .ctor()
-      // Offset: 0x13F6988
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename TMP_ListPool_1<T>::$$c* New_ctor() {
@@ -74,17 +74,17 @@ namespace TMPro {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_ListPool_1<T>*>::get(), "s_ListPool", value));
     }
     // static public System.Collections.Generic.List`1<T> Get()
-    // Offset: 0x13F69C8
+    // Offset: 0xFFFFFFFF
     static System::Collections::Generic::List_1<T>* Get() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::List_1<T>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_ListPool_1<T>*>::get(), "Get"));
     }
     // static public System.Void Release(System.Collections.Generic.List`1<T> toRelease)
-    // Offset: 0x13F6B18
+    // Offset: 0xFFFFFFFF
     static void Release(System::Collections::Generic::List_1<T>* toRelease) {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_ListPool_1<T>*>::get(), "Release", toRelease));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13F6C70
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_ListPool_1<T>*>::get(), ".cctor"));
     }

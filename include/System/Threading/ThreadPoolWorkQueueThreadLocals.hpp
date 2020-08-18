@@ -34,13 +34,13 @@ namespace System::Threading {
     // Set static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals
     static void _set_threadLocals(System::Threading::ThreadPoolWorkQueueThreadLocals* value);
     // public System.Void .ctor(System.Threading.ThreadPoolWorkQueue tpq)
-    // Offset: 0xCE761C
+    // Offset: 0xC478E0
     static ThreadPoolWorkQueueThreadLocals* New_ctor(System::Threading::ThreadPoolWorkQueue* tpq);
     // private System.Void CleanUp()
-    // Offset: 0xCE9190
+    // Offset: 0xC49454
     void CleanUp();
     // protected override System.Void Finalize()
-    // Offset: 0xCE9268
+    // Offset: 0xC4952C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

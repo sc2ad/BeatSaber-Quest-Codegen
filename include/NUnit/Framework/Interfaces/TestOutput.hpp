@@ -21,25 +21,25 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0x20
     ::Il2CppString* TestName;
     // public System.Void .ctor(System.String text, System.String stream, System.String testName)
-    // Offset: 0x107B8D0
+    // Offset: 0xFDDB94
     static TestOutput* New_ctor(::Il2CppString* text, ::Il2CppString* stream, ::Il2CppString* testName);
     // public System.String get_Text()
-    // Offset: 0x107B990
+    // Offset: 0xFDDC54
     ::Il2CppString* get_Text();
     // private System.Void set_Text(System.String value)
-    // Offset: 0x107B998
+    // Offset: 0xFDDC5C
     void set_Text(::Il2CppString* value);
     // public System.String get_Stream()
-    // Offset: 0x107B988
+    // Offset: 0xFDDC4C
     ::Il2CppString* get_Stream();
     // private System.Void set_Stream(System.String value)
-    // Offset: 0x107B9A0
+    // Offset: 0xFDDC64
     void set_Stream(::Il2CppString* value);
     // private System.Void set_TestName(System.String value)
-    // Offset: 0x107B9A8
+    // Offset: 0xFDDC6C
     void set_TestName(::Il2CppString* value);
     // public override System.String ToString()
-    // Offset: 0x107B934
+    // Offset: 0xFDDBF8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

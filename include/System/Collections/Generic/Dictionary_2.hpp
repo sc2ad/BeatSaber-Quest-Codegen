@@ -118,19 +118,19 @@ namespace System::Collections::Generic {
       // Creating value type constructor for type: Enumerator
       Enumerator(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary_ = {}, int version_ = {}, int index_ = {}, System::Collections::Generic::KeyValuePair_2<TKey, TValue> current_ = {}, int getEnumeratorRetType_ = {}) : dictionary{dictionary_}, version{version_}, index{index_}, current{current_}, getEnumeratorRetType{getEnumeratorRetType_} {}
       // System.Void .ctor(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary, System.Int32 getEnumeratorRetType)
-      // Offset: 0xA38750
+      // Offset: 0xFFFFFFFF
       static typename Dictionary_2<TKey, TValue>::Enumerator* New_ctor(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary, int getEnumeratorRetType) {
         return (typename Dictionary_2<TKey, TValue>::Enumerator*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Dictionary_2<TKey, TValue>::Enumerator>::get(), dictionary, getEnumeratorRetType)));
       }
       // public System.Boolean MoveNext()
-      // Offset: 0xA38C60
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "MoveNext"));
       }
       // public System.Collections.Generic.KeyValuePair`2<TKey,TValue> get_Current()
-      // Offset: 0xA38C68
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator`1::get_Current()
       System::Collections::Generic::KeyValuePair_2<TKey, TValue> get_Current() {
@@ -142,7 +142,7 @@ namespace System::Collections::Generic {
         return get_Current();
       }
       // public System.Void Dispose()
-      // Offset: 0xA38C74
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void Dispose() {
@@ -154,35 +154,35 @@ namespace System::Collections::Generic {
         Dispose();
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0xA38778
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(*this, "System.Collections.IEnumerator.get_Current"));
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0xA38780
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
         THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.IEnumerator.Reset"));
       }
       // private System.Collections.DictionaryEntry System.Collections.IDictionaryEnumerator.get_Entry()
-      // Offset: 0xA38788
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IDictionaryEnumerator
       // Base method: System.Collections.DictionaryEntry IDictionaryEnumerator::get_Entry()
       System::Collections::DictionaryEntry System_Collections_IDictionaryEnumerator_get_Entry() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::DictionaryEntry>(*this, "System.Collections.IDictionaryEnumerator.get_Entry"));
       }
       // private System.Object System.Collections.IDictionaryEnumerator.get_Key()
-      // Offset: 0xA38790
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IDictionaryEnumerator
       // Base method: System.Object IDictionaryEnumerator::get_Key()
       ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Key() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(*this, "System.Collections.IDictionaryEnumerator.get_Key"));
       }
       // private System.Object System.Collections.IDictionaryEnumerator.get_Value()
-      // Offset: 0xA38798
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IDictionaryEnumerator
       // Base method: System.Object IDictionaryEnumerator::get_Value()
       ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Value() {
@@ -214,12 +214,12 @@ namespace System::Collections::Generic {
         // Creating value type constructor for type: Enumerator
         Enumerator(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary_ = {}, int index_ = {}, int version_ = {}, TKey currentKey_ = {}) : dictionary{dictionary_}, index{index_}, version{version_}, currentKey{currentKey_} {}
         // System.Void .ctor(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
-        // Offset: 0xA37284
+        // Offset: 0xFFFFFFFF
         static typename Dictionary_2<TKey, TValue>::KeyCollection::Enumerator* New_ctor(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
           return (typename Dictionary_2<TKey, TValue>::KeyCollection::Enumerator*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Dictionary_2<TKey, TValue>::KeyCollection::Enumerator>::get(), dictionary)));
         }
         // public System.Void Dispose()
-        // Offset: 0xA3728C
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.IDisposable
         // Base method: System.Void IDisposable::Dispose()
         void Dispose() {
@@ -231,14 +231,14 @@ namespace System::Collections::Generic {
           Dispose();
         }
         // public System.Boolean MoveNext()
-        // Offset: 0xA37290
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.Collections.IEnumerator
         // Base method: System.Boolean IEnumerator::MoveNext()
         bool MoveNext() {
           return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "MoveNext"));
         }
         // public TKey get_Current()
-        // Offset: 0xA37538
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.Collections.Generic.IEnumerator`1
         // Base method: T IEnumerator`1::get_Current()
         TKey get_Current() {
@@ -250,14 +250,14 @@ namespace System::Collections::Generic {
           return get_Current();
         }
         // private System.Object System.Collections.IEnumerator.get_Current()
-        // Offset: 0xA372AC
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.Collections.IEnumerator
         // Base method: System.Object IEnumerator::get_Current()
         ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
           return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(*this, "System.Collections.IEnumerator.get_Current"));
         }
         // private System.Void System.Collections.IEnumerator.Reset()
-        // Offset: 0xA372B4
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.Collections.IEnumerator
         // Base method: System.Void IEnumerator::Reset()
         void System_Collections_IEnumerator_Reset() {
@@ -268,22 +268,22 @@ namespace System::Collections::Generic {
       // Offset: 0x0
       System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary;
       // public System.Void .ctor(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
-      // Offset: 0xF212DC
+      // Offset: 0xFFFFFFFF
       static typename Dictionary_2<TKey, TValue>::KeyCollection* New_ctor(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
         return (typename Dictionary_2<TKey, TValue>::KeyCollection*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Dictionary_2<TKey, TValue>::KeyCollection*>::get(), dictionary)));
       }
       // public System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> GetEnumerator()
-      // Offset: 0x1139664
+      // Offset: 0xFFFFFFFF
       typename System::Collections::Generic::Dictionary_2<TKey, TValue>::KeyCollection::Enumerator GetEnumerator() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::KeyCollection::Enumerator>(this, "GetEnumerator")));
       }
       // public System.Void CopyTo(TKey[] array, System.Int32 index)
-      // Offset: 0xF213A4
+      // Offset: 0xFFFFFFFF
       void CopyTo(::Array<TKey>* array, int index) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "CopyTo", array, index));
       }
       // public System.Int32 get_Count()
-      // Offset: 0xF215B0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Int32 ICollection`1::get_Count()
       // Base method: System.Int32 ICollection::get_Count()
@@ -302,56 +302,56 @@ namespace System::Collections::Generic {
         return get_Count();
       }
       // private System.Boolean System.Collections.Generic.ICollection<TKey>.get_IsReadOnly()
-      // Offset: 0xF215D8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Boolean ICollection`1::get_IsReadOnly()
       bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<TKey>.get_IsReadOnly")));
       }
       // private System.Void System.Collections.Generic.ICollection<TKey>.Add(TKey item)
-      // Offset: 0xF215E0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Void ICollection`1::Add(TKey item)
       void System_Collections_Generic_ICollection_1_Add(TKey item) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.Generic.ICollection<TKey>.Add", item));
       }
       // private System.Void System.Collections.Generic.ICollection<TKey>.Clear()
-      // Offset: 0xF2164C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Void ICollection`1::Clear()
       void System_Collections_Generic_ICollection_1_Clear() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.Generic.ICollection<TKey>.Clear"));
       }
       // private System.Boolean System.Collections.Generic.ICollection<TKey>.Contains(TKey item)
-      // Offset: 0xF216B8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Boolean ICollection`1::Contains(TKey item)
       bool System_Collections_Generic_ICollection_1_Contains(TKey item) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<TKey>.Contains", item)));
       }
       // private System.Boolean System.Collections.Generic.ICollection<TKey>.Remove(TKey item)
-      // Offset: 0xF2171C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Boolean ICollection`1::Remove(TKey item)
       bool System_Collections_Generic_ICollection_1_Remove(TKey item) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<TKey>.Remove", item)));
       }
       // private System.Collections.Generic.IEnumerator`1<TKey> System.Collections.Generic.IEnumerable<TKey>.GetEnumerator()
-      // Offset: 0xF21788
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerable`1
       // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
       System::Collections::Generic::IEnumerator_1<TKey>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<TKey>*>(this, "System.Collections.Generic.IEnumerable<TKey>.GetEnumerator")));
       }
       // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-      // Offset: 0xF2180C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerable
       // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
       System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "System.Collections.IEnumerable.GetEnumerator"));
       }
       // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-      // Offset: 0xF21890
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.ICollection
       // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
       void System_Collections_ICollection_CopyTo(System::Array* array, int index) {
@@ -383,12 +383,12 @@ namespace System::Collections::Generic {
         // Creating value type constructor for type: Enumerator
         Enumerator(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary_ = {}, int index_ = {}, int version_ = {}, TValue currentValue_ = {}) : dictionary{dictionary_}, index{index_}, version{version_}, currentValue{currentValue_} {}
         // System.Void .ctor(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
-        // Offset: 0xA3DE64
+        // Offset: 0xFFFFFFFF
         static typename Dictionary_2<TValue, TKey>::ValueCollection::Enumerator* New_ctor(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
           return (typename Dictionary_2<TValue, TKey>::ValueCollection::Enumerator*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Dictionary_2<TValue, TKey>::ValueCollection::Enumerator>::get(), dictionary)));
         }
         // public System.Void Dispose()
-        // Offset: 0xA3DE6C
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.IDisposable
         // Base method: System.Void IDisposable::Dispose()
         void Dispose() {
@@ -400,14 +400,14 @@ namespace System::Collections::Generic {
           Dispose();
         }
         // public System.Boolean MoveNext()
-        // Offset: 0xA3DE70
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.Collections.IEnumerator
         // Base method: System.Boolean IEnumerator::MoveNext()
         bool MoveNext() {
           return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "MoveNext"));
         }
         // public TValue get_Current()
-        // Offset: 0xA3DE78
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.Collections.Generic.IEnumerator`1
         // Base method: T IEnumerator`1::get_Current()
         TValue get_Current() {
@@ -419,14 +419,14 @@ namespace System::Collections::Generic {
           return get_Current();
         }
         // private System.Object System.Collections.IEnumerator.get_Current()
-        // Offset: 0xA3DE80
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.Collections.IEnumerator
         // Base method: System.Object IEnumerator::get_Current()
         ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
           return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(*this, "System.Collections.IEnumerator.get_Current"));
         }
         // private System.Void System.Collections.IEnumerator.Reset()
-        // Offset: 0xA3DE88
+        // Offset: 0xFFFFFFFF
         // Implemented from: System.Collections.IEnumerator
         // Base method: System.Void IEnumerator::Reset()
         void System_Collections_IEnumerator_Reset() {
@@ -437,22 +437,22 @@ namespace System::Collections::Generic {
       // Offset: 0x0
       System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary;
       // public System.Void .ctor(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
-      // Offset: 0x11B10DC
+      // Offset: 0xFFFFFFFF
       static typename Dictionary_2<TValue, TKey>::ValueCollection* New_ctor(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
         return (typename Dictionary_2<TValue, TKey>::ValueCollection*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Dictionary_2<TValue, TKey>::ValueCollection*>::get(), dictionary)));
       }
       // public System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> GetEnumerator()
-      // Offset: 0x11B1188
+      // Offset: 0xFFFFFFFF
       typename System::Collections::Generic::Dictionary_2<TValue, TKey>::ValueCollection::Enumerator GetEnumerator() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<typename System::Collections::Generic::Dictionary_2<TValue, TKey>::ValueCollection::Enumerator>(this, "GetEnumerator")));
       }
       // public System.Void CopyTo(TValue[] array, System.Int32 index)
-      // Offset: 0x11B11AC
+      // Offset: 0xFFFFFFFF
       void CopyTo(::Array<TValue>* array, int index) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "CopyTo", array, index));
       }
       // public System.Int32 get_Count()
-      // Offset: 0x11B13A0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Int32 ICollection`1::get_Count()
       // Base method: System.Int32 ICollection::get_Count()
@@ -471,56 +471,56 @@ namespace System::Collections::Generic {
         return get_Count();
       }
       // private System.Boolean System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
-      // Offset: 0x11B13C8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Boolean ICollection`1::get_IsReadOnly()
       bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<TValue>.get_IsReadOnly")));
       }
       // private System.Void System.Collections.Generic.ICollection<TValue>.Add(TValue item)
-      // Offset: 0x11B13D0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Void ICollection`1::Add(TValue item)
       void System_Collections_Generic_ICollection_1_Add(TValue item) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.Generic.ICollection<TValue>.Add", item));
       }
       // private System.Boolean System.Collections.Generic.ICollection<TValue>.Remove(TValue item)
-      // Offset: 0x11B143C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Boolean ICollection`1::Remove(TValue item)
       bool System_Collections_Generic_ICollection_1_Remove(TValue item) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<TValue>.Remove", item)));
       }
       // private System.Void System.Collections.Generic.ICollection<TValue>.Clear()
-      // Offset: 0x11B14A8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Void ICollection`1::Clear()
       void System_Collections_Generic_ICollection_1_Clear() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.Generic.ICollection<TValue>.Clear"));
       }
       // private System.Boolean System.Collections.Generic.ICollection<TValue>.Contains(TValue item)
-      // Offset: 0x11B1514
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.ICollection`1
       // Base method: System.Boolean ICollection`1::Contains(TValue item)
       bool System_Collections_Generic_ICollection_1_Contains(TValue item) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<TValue>.Contains", item)));
       }
       // private System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
-      // Offset: 0x11B153C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerable`1
       // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
       System::Collections::Generic::IEnumerator_1<TValue>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<TValue>*>(this, "System.Collections.Generic.IEnumerable<TValue>.GetEnumerator")));
       }
       // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-      // Offset: 0x11B15B4
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerable
       // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
       System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "System.Collections.IEnumerable.GetEnumerator"));
       }
       // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-      // Offset: 0x11B162C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.ICollection
       // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
       void System_Collections_ICollection_CopyTo(System::Array* array, int index) {
@@ -598,99 +598,99 @@ namespace System::Collections::Generic {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Dictionary_2<TKey, TValue>*>::get(), "ComparerName", value)));
     }
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x14BD61C
+    // Offset: 0xFFFFFFFF
     static Dictionary_2<TKey, TValue>* New_ctor(int capacity) {
       return (Dictionary_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Dictionary_2<TKey, TValue>*>::get(), capacity)));
     }
     // public System.Void .ctor(System.Collections.Generic.IEqualityComparer`1<TKey> comparer)
-    // Offset: 0x14BD644
+    // Offset: 0xFFFFFFFF
     static Dictionary_2<TKey, TValue>* New_ctor(System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
       return (Dictionary_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Dictionary_2<TKey, TValue>*>::get(), comparer)));
     }
     // public System.Void .ctor(System.Int32 capacity, System.Collections.Generic.IEqualityComparer`1<TKey> comparer)
-    // Offset: 0x14BD674
+    // Offset: 0xFFFFFFFF
     static Dictionary_2<TKey, TValue>* New_ctor(int capacity, System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
       return (Dictionary_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Dictionary_2<TKey, TValue>*>::get(), capacity, comparer)));
     }
     // public System.Void .ctor(System.Collections.Generic.IDictionary`2<TKey,TValue> dictionary)
-    // Offset: 0x14BD79C
+    // Offset: 0xFFFFFFFF
     static Dictionary_2<TKey, TValue>* New_ctor(System::Collections::Generic::IDictionary_2<TKey, TValue>* dictionary) {
       return (Dictionary_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Dictionary_2<TKey, TValue>*>::get(), dictionary)));
     }
     // public System.Void .ctor(System.Collections.Generic.IDictionary`2<TKey,TValue> dictionary, System.Collections.Generic.IEqualityComparer`1<TKey> comparer)
-    // Offset: 0x14BD7C4
+    // Offset: 0xFFFFFFFF
     static Dictionary_2<TKey, TValue>* New_ctor(System::Collections::Generic::IDictionary_2<TKey, TValue>* dictionary, System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
       return (Dictionary_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Dictionary_2<TKey, TValue>*>::get(), dictionary, comparer)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x14BDCE4
+    // Offset: 0xFFFFFFFF
     static Dictionary_2<TKey, TValue>* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       return (Dictionary_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Dictionary_2<TKey, TValue>*>::get(), info, context)));
     }
     // public System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> get_Keys()
-    // Offset: 0x174E31C
+    // Offset: 0xFFFFFFFF
     typename System::Collections::Generic::Dictionary_2<TKey, TValue>::KeyCollection* get_Keys() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::KeyCollection*>(this, "get_Keys")));
     }
     // public System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> get_Values()
-    // Offset: 0x14BDE5C
+    // Offset: 0xFFFFFFFF
     typename System::Collections::Generic::Dictionary_2<TValue, TKey>::ValueCollection* get_Values() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<typename System::Collections::Generic::Dictionary_2<TValue, TKey>::ValueCollection*>(this, "get_Values")));
     }
     // public System.Boolean ContainsValue(TValue value)
-    // Offset: 0x14BE408
+    // Offset: 0xFFFFFFFF
     bool ContainsValue(TValue value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "ContainsValue", value));
     }
     // private System.Void CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] array, System.Int32 index)
-    // Offset: 0x14BE528
+    // Offset: 0xFFFFFFFF
     void CopyTo(::Array<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* array, int index) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "CopyTo", array, index));
     }
     // public System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> GetEnumerator()
-    // Offset: 0x17587F4
+    // Offset: 0xFFFFFFFF
     typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Enumerator GetEnumerator() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Enumerator>(this, "GetEnumerator")));
     }
     // private System.Int32 FindEntry(TKey key)
-    // Offset: 0x14BEA7C
+    // Offset: 0xFFFFFFFF
     int FindEntry(TKey key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "FindEntry", key));
     }
     // private System.Void Initialize(System.Int32 capacity)
-    // Offset: 0x14BED40
+    // Offset: 0xFFFFFFFF
     void Initialize(int capacity) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Initialize", capacity));
     }
     // private System.Boolean TryInsert(TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior)
-    // Offset: 0x14BEE74
+    // Offset: 0xFFFFFFFF
     bool TryInsert(TKey key, TValue value, System::Collections::Generic::InsertionBehavior behavior) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryInsert", key, value, behavior));
     }
     // private System.Void Resize()
-    // Offset: 0x14BF928
+    // Offset: 0xFFFFFFFF
     void Resize() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Resize"));
     }
     // private System.Void Resize(System.Int32 newSize, System.Boolean forceNewHashCodes)
-    // Offset: 0x14BF9C0
+    // Offset: 0xFFFFFFFF
     void Resize(int newSize, bool forceNewHashCodes) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Resize", newSize, forceNewHashCodes));
     }
     // static private System.Boolean IsCompatibleKey(System.Object key)
-    // Offset: 0x14C0C54
+    // Offset: 0xFFFFFFFF
     static bool IsCompatibleKey(::Il2CppObject* key) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Dictionary_2<TKey, TValue>*>::get(), "IsCompatibleKey", key)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1757888
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Dictionary_2<TKey, TValue>* New_ctor() {
       return (Dictionary_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Dictionary_2<TKey, TValue>*>::get())));
     }
     // public System.Int32 get_Count()
-    // Offset: 0x14BDDC4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection`1::get_Count()
     // Base method: System.Int32 ICollection::get_Count()
@@ -709,21 +709,21 @@ namespace System::Collections::Generic {
       return get_Count();
     }
     // public TValue get_Item(TKey key)
-    // Offset: 0x175811C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: TValue IDictionary`2::get_Item(TKey key)
     TValue get_Item(TKey key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "get_Item", key));
     }
     // public System.Void set_Item(TKey key, TValue value)
-    // Offset: 0x17581F0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: System.Void IDictionary`2::set_Item(TKey key, TValue value)
     void set_Item(TKey key, TValue value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Item", key, value));
     }
     // public System.Void Add(TKey key, TValue value)
-    // Offset: 0x1758218
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: System.Void IDictionary`2::Add(TKey key, TValue value)
     void Add(TKey key, TValue value) {
@@ -735,28 +735,28 @@ namespace System::Collections::Generic {
       Add(key, value);
     }
     // private System.Void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue> keyValuePair)
-    // Offset: 0x14BE0A4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue> keyValuePair)
     void System_Collections_Generic_ICollection_1_Add(System::Collections::Generic::KeyValuePair_2<TKey, TValue> keyValuePair) {
       THROW_UNLESS((il2cpp_utils::RunMethod(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add", keyValuePair)));
     }
     // private System.Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue> keyValuePair)
-    // Offset: 0x14BE104
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue> keyValuePair)
     bool System_Collections_Generic_ICollection_1_Contains(System::Collections::Generic::KeyValuePair_2<TKey, TValue> keyValuePair) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains", keyValuePair)));
     }
     // private System.Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue> keyValuePair)
-    // Offset: 0x14BE1E8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue> keyValuePair)
     bool System_Collections_Generic_ICollection_1_Remove(System::Collections::Generic::KeyValuePair_2<TKey, TValue> keyValuePair) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove", keyValuePair)));
     }
     // public System.Void Clear()
-    // Offset: 0x17583F4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::Clear()
     void Clear() {
@@ -768,21 +768,21 @@ namespace System::Collections::Generic {
       Clear();
     }
     // public System.Boolean ContainsKey(TKey key)
-    // Offset: 0x14BE3A4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: System.Boolean IDictionary`2::ContainsKey(TKey key)
     bool ContainsKey(TKey key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "ContainsKey", key));
     }
     // private System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
-    // Offset: 0x14BE7E4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(this, "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator")));
     }
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x14BE870
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
@@ -794,7 +794,7 @@ namespace System::Collections::Generic {
       GetObjectData(info, context);
     }
     // public System.Void OnDeserialization(System.Object sender)
-    // Offset: 0x14BF4B4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void OnDeserialization(::Il2CppObject* sender) {
@@ -806,7 +806,7 @@ namespace System::Collections::Generic {
       OnDeserialization(sender);
     }
     // public System.Boolean Remove(TKey key)
-    // Offset: 0x14BFCA8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: System.Boolean IDictionary`2::Remove(TKey key)
     bool Remove(TKey key) {
@@ -818,7 +818,7 @@ namespace System::Collections::Generic {
       return Remove(key);
     }
     // public System.Boolean TryGetValue(TKey key, TValue value)
-    // Offset: 0x1759F5C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IDictionary`2
     // Base method: System.Boolean IDictionary`2::TryGetValue(TKey key, TValue value)
     // Base method: System.Boolean IReadOnlyDictionary`2::TryGetValue(TKey key, TValue value)
@@ -826,63 +826,63 @@ namespace System::Collections::Generic {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetValue", key, value));
     }
     // private System.Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
-    // Offset: 0x14C0164
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::get_IsReadOnly()
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly")));
     }
     // private System.Void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] array, System.Int32 index)
-    // Offset: 0x14C016C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] array, System.Int32 index)
     void System_Collections_Generic_ICollection_1_CopyTo(::Array<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* array, int index) {
       THROW_UNLESS((il2cpp_utils::RunMethod(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo", array, index)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x14C0190
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.ICollection.CopyTo", array, index));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x14C06E8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "System.Collections.IEnumerable.GetEnumerator"));
     }
     // private System.Collections.ICollection System.Collections.IDictionary.get_Keys()
-    // Offset: 0x14C0774
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.ICollection IDictionary::get_Keys()
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::ICollection*>(this, "System.Collections.IDictionary.get_Keys"));
     }
     // private System.Object System.Collections.IDictionary.get_Item(System.Object key)
-    // Offset: 0x14C0798
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Object IDictionary::get_Item(System.Object key)
     ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IDictionary.get_Item", key));
     }
     // private System.Void System.Collections.IDictionary.set_Item(System.Object key, System.Object value)
-    // Offset: 0x14C08A4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::set_Item(System.Object key, System.Object value)
     void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IDictionary.set_Item", key, value));
     }
     // private System.Boolean System.Collections.IDictionary.Contains(System.Object key)
-    // Offset: 0x14C0D20
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Boolean IDictionary::Contains(System.Object key)
     bool System_Collections_IDictionary_Contains(::Il2CppObject* key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "System.Collections.IDictionary.Contains", key));
     }
     // private System.Collections.IDictionaryEnumerator System.Collections.IDictionary.GetEnumerator()
-    // Offset: 0x14C0E00
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.IDictionaryEnumerator IDictionary::GetEnumerator()
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator() {

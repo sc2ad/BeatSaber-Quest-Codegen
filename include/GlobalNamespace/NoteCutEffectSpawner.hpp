@@ -85,22 +85,22 @@ namespace GlobalNamespace {
     // Offset: 0x70
     GlobalNamespace::ScoreController* scoreController;
     // protected System.Void Start()
-    // Offset: 0xC11A18
+    // Offset: 0x195A548
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC11AAC
+    // Offset: 0x195A5DC
     void OnDestroy();
     // private System.Void HandleNoteWasCutEvent(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC11B88
+    // Offset: 0x195A6B8
     void HandleNoteWasCutEvent(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnNoteCutEffect(UnityEngine.Vector3 pos, INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC11F54
+    // Offset: 0x195AA84
     void SpawnNoteCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnBombCutEffect(UnityEngine.Vector3 pos, INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC11D80
+    // Offset: 0x195A8B0
     void SpawnBombCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0xC13164
+    // Offset: 0x195BC94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

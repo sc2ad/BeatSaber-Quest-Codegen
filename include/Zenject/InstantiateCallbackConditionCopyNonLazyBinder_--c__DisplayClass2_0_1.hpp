@@ -33,12 +33,12 @@ namespace Zenject {
     // Offset: 0x0
     System::Action_2<Zenject::InjectContext*, T>* callback;
     // System.Void <OnInstantiated>b__0(Zenject.InjectContext ctx, System.Object obj)
-    // Offset: 0x13BEC00
+    // Offset: 0xFFFFFFFF
     void $OnInstantiated$b__0(Zenject::InjectContext* ctx, ::Il2CppObject* obj) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "<OnInstantiated>b__0", ctx, obj));
     }
     // public System.Void .ctor()
-    // Offset: 0x13BEBE8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InstantiateCallbackConditionCopyNonLazyBinder::$$c__DisplayClass2_0_1<T>* New_ctor() {

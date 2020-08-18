@@ -67,43 +67,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSmoothDownBladeSpeedCoef
     static void _set_kSmoothDownBladeSpeedCoef(float value);
     // public System.Single get_bladeSpeed()
-    // Offset: 0xC248A0
+    // Offset: 0xB9C8DC
     float get_bladeSpeed();
     // public SaberMovementData/Data get_lastAddedData()
-    // Offset: 0xC1FBA8
+    // Offset: 0xB97BE4
     GlobalNamespace::SaberMovementData::Data get_lastAddedData();
     // public System.Void AddDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0xC248A8
+    // Offset: 0xB9C8E4
     void AddDataProcessor(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void RemoveDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0xC24940
+    // Offset: 0xB9C97C
     void RemoveDataProcessor(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void RequestLastDataProcessing(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0xC249A8
+    // Offset: 0xB9C9E4
     void RequestLastDataProcessing(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void AddNewData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Single time)
-    // Offset: 0xC1FC10
+    // Offset: 0xB97C4C
     void AddNewData(UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, float time);
     // public System.Void ComputeAdditionalData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Int32 idxOffset, UnityEngine.Vector3 segmentNormal, System.Single segmentAngle)
-    // Offset: 0xC24B4C
+    // Offset: 0xB9CB88
     void ComputeAdditionalData(UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, int idxOffset, UnityEngine::Vector3& segmentNormal, float& segmentAngle);
     // public UnityEngine.Vector3 ComputePlaneNormal(UnityEngine.Vector3 tp0, UnityEngine.Vector3 bp0, UnityEngine.Vector3 tp1, UnityEngine.Vector3 bp1)
-    // Offset: 0xC24D34
+    // Offset: 0xB9CD70
     UnityEngine::Vector3 ComputePlaneNormal(UnityEngine::Vector3 tp0, UnityEngine::Vector3 bp0, UnityEngine::Vector3 tp1, UnityEngine::Vector3 bp1);
     // public UnityEngine.Vector3 ComputeCutPlaneNormal()
-    // Offset: 0xC24E98
+    // Offset: 0xB9CED4
     UnityEngine::Vector3 ComputeCutPlaneNormal();
     // public System.Single ComputeSwingRating(System.Single overrideSegmentAngle)
-    // Offset: 0xC24F44
+    // Offset: 0xB9CF80
     float ComputeSwingRating(float overrideSegmentAngle);
     // public System.Single ComputeSwingRating()
-    // Offset: 0xC25174
+    // Offset: 0xB9D1B0
     float ComputeSwingRating();
     // private System.Single ComputeSwingRating(System.Boolean overrideSegmenAngle, System.Single overrideValue)
-    // Offset: 0xC24F4C
+    // Offset: 0xB9CF88
     float ComputeSwingRating(bool overrideSegmenAngle, float overrideValue);
     // public System.Void .ctor()
-    // Offset: 0xC20920
+    // Offset: 0xB9895C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SaberMovementData* New_ctor();

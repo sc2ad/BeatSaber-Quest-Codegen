@@ -75,7 +75,7 @@ namespace Zenject {
       // Creating value type constructor for type: DisposableInfo
       DisposableInfo(System::IDisposable* Disposable_ = {}, int Priority_ = {}) : Disposable{Disposable_}, Priority{Priority_} {}
       // public System.Void .ctor(System.IDisposable disposable, System.Int32 priority)
-      // Offset: 0xA37994
+      // Offset: 0x9A0E60
       static DisposableManager::DisposableInfo* New_ctor(System::IDisposable* disposable, int priority);
     }; // Zenject.DisposableManager/DisposableInfo
     // private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/DisposableInfo> _disposables
@@ -91,28 +91,28 @@ namespace Zenject {
     // Offset: 0x21
     bool lateDisposed;
     // public System.Void .ctor(System.Collections.Generic.List`1<System.IDisposable> disposables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities, System.Collections.Generic.List`1<Zenject.ILateDisposable> lateDisposables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> latePriorities)
-    // Offset: 0xF2929C
+    // Offset: 0xE8A560
     static DisposableManager* New_ctor(System::Collections::Generic::List_1<System::IDisposable*>* disposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities, System::Collections::Generic::List_1<Zenject::ILateDisposable*>* lateDisposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* latePriorities);
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0xF29958
+    // Offset: 0xE8AC1C
     void Add(System::IDisposable* disposable);
     // public System.Void Add(System.IDisposable disposable, System.Int32 priority)
-    // Offset: 0xF29960
+    // Offset: 0xE8AC24
     void Add(System::IDisposable* disposable, int priority);
     // public System.Void AddLate(Zenject.ILateDisposable disposable)
-    // Offset: 0xF299F0
+    // Offset: 0xE8ACB4
     void AddLate(Zenject::ILateDisposable* disposable);
     // public System.Void AddLate(Zenject.ILateDisposable disposable, System.Int32 priority)
-    // Offset: 0xF299F8
+    // Offset: 0xE8ACBC
     void AddLate(Zenject::ILateDisposable* disposable, int priority);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0xF29A98
+    // Offset: 0xE8AD5C
     void Remove(System::IDisposable* disposable);
     // public System.Void LateDispose()
-    // Offset: 0xF29BA0
+    // Offset: 0xE8AE64
     void LateDispose();
     // public System.Void Dispose()
-    // Offset: 0xF29F88
+    // Offset: 0xE8B24C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

@@ -79,57 +79,57 @@ namespace System::Collections {
     // Set static field: static private System.Object[] emptyArray
     static void _set_emptyArray(::Array<::Il2CppObject*>* value);
     // private System.Void Init()
-    // Offset: 0x10BB46C
+    // Offset: 0x101D730
     void Init();
     // public System.Void .ctor(System.Int32 initialCapacity)
-    // Offset: 0x10BB568
+    // Offset: 0x101D82C
     static SortedList* New_ctor(int initialCapacity);
     // public System.Void .ctor(System.Collections.IComparer comparer)
-    // Offset: 0x10BB6C0
+    // Offset: 0x101D984
     static SortedList* New_ctor(System::Collections::IComparer* comparer);
     // public System.Void .ctor(System.Collections.IComparer comparer, System.Int32 capacity)
-    // Offset: 0x10BB70C
+    // Offset: 0x101D9D0
     static SortedList* New_ctor(System::Collections::IComparer* comparer, int capacity);
     // public System.Void Add(System.Object key, System.Object value)
-    // Offset: 0x10BB744
+    // Offset: 0x101DA08
     void Add(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Int32 get_Capacity()
-    // Offset: 0x10BBA38
+    // Offset: 0x101DCFC
     int get_Capacity();
     // public System.Void set_Capacity(System.Int32 value)
-    // Offset: 0x10BBA54
+    // Offset: 0x101DD18
     void set_Capacity(int value);
     // private System.Void EnsureCapacity(System.Int32 min)
-    // Offset: 0x10BBFA8
+    // Offset: 0x101E26C
     void EnsureCapacity(int min);
     // public System.Object GetByIndex(System.Int32 index)
-    // Offset: 0x10BBFF4
+    // Offset: 0x101E2B8
     ::Il2CppObject* GetByIndex(int index);
     // public System.Object GetKey(System.Int32 index)
-    // Offset: 0x10BC254
+    // Offset: 0x101E518
     ::Il2CppObject* GetKey(int index);
     // public System.Collections.IList GetKeyList()
-    // Offset: 0x10BC348
+    // Offset: 0x101E60C
     System::Collections::IList* GetKeyList();
     // public System.Int32 IndexOfKey(System.Object key)
-    // Offset: 0x10BC5CC
+    // Offset: 0x101E890
     int IndexOfKey(::Il2CppObject* key);
     // private System.Void Insert(System.Int32 index, System.Object key, System.Object value)
-    // Offset: 0x10BB8EC
+    // Offset: 0x101DBB0
     void Insert(int index, ::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Void RemoveAt(System.Int32 index)
-    // Offset: 0x10BC69C
+    // Offset: 0x101E960
     void RemoveAt(int index);
     // static private System.Void .cctor()
-    // Offset: 0x10BC820
+    // Offset: 0x101EAE4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x10BB444
+    // Offset: 0x101D708
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SortedList* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x10BBC2C
+    // Offset: 0x101DEF0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -137,7 +137,7 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Collections.ICollection get_Keys()
-    // Offset: 0x10BBC34
+    // Offset: 0x101DEF8
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.ICollection IDictionary::get_Keys()
     System::Collections::ICollection* get_Keys();
@@ -145,12 +145,12 @@ namespace System::Collections {
     // Maps to method: get_Keys
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // public System.Object Clone()
-    // Offset: 0x10BBC44
+    // Offset: 0x101DF08
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
     // public System.Boolean Contains(System.Object key)
-    // Offset: 0x10BBD10
+    // Offset: 0x101DFD4
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Boolean IDictionary::Contains(System.Object key)
     bool Contains(::Il2CppObject* key);
@@ -158,7 +158,7 @@ namespace System::Collections {
     // Maps to method: Contains
     bool System_Collections_IDictionary_Contains(::Il2CppObject* key);
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x10BBD38
+    // Offset: 0x101DFFC
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 arrayIndex)
     void CopyTo(System::Array* array, int arrayIndex);
@@ -166,12 +166,12 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int arrayIndex);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x10BC0E8
+    // Offset: 0x101E3AC
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x10BC1DC
+    // Offset: 0x101E4A0
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.IDictionaryEnumerator IDictionary::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
@@ -179,7 +179,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
     // public System.Object get_Item(System.Object key)
-    // Offset: 0x10BC410
+    // Offset: 0x101E6D4
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Object IDictionary::get_Item(System.Object key)
     ::Il2CppObject* get_Item(::Il2CppObject* key);
@@ -187,7 +187,7 @@ namespace System::Collections {
     // Maps to method: get_Item
     ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* key);
     // public System.Void set_Item(System.Object key, System.Object value)
-    // Offset: 0x10BC474
+    // Offset: 0x101E738
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::set_Item(System.Object key, System.Object value)
     void set_Item(::Il2CppObject* key, ::Il2CppObject* value);

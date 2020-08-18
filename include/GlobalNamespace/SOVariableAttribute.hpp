@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class SOVariableAttribute : public UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCB87C0
+    // Offset: 0xC18A84
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

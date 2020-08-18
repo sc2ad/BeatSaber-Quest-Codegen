@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_GetCurrentSceneFocusProcess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1509994
+    // Offset: 0x146ACCC
     static IVRCompositor::_GetCurrentSceneFocusProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke()
-    // Offset: 0x15099A8
+    // Offset: 0x146ACE0
     uint Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1509BBC
+    // Offset: 0x146AEF4
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1509BE8
+    // Offset: 0x146AF20
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetCurrentSceneFocusProcess
 }

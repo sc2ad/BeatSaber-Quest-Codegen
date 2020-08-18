@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRChaperoneSetup::_ExportLiveToBuffer : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xED0B90
+    // Offset: 0xE30E54
     static IVRChaperoneSetup::_ExportLiveToBuffer* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Text.StringBuilder pBuffer, System.UInt32 pnBufferLength)
-    // Offset: 0xEC9AAC
+    // Offset: 0xE29D70
     bool Invoke(System::Text::StringBuilder* pBuffer, uint& pnBufferLength);
     // public System.IAsyncResult BeginInvoke(System.Text.StringBuilder pBuffer, System.UInt32 pnBufferLength, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xED0BA4
+    // Offset: 0xE30E68
     System::IAsyncResult* BeginInvoke(System::Text::StringBuilder* pBuffer, uint& pnBufferLength, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.UInt32 pnBufferLength, System.IAsyncResult result)
-    // Offset: 0xED0C40
+    // Offset: 0xE30F04
     bool EndInvoke(uint& pnBufferLength, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperoneSetup/_ExportLiveToBuffer
 }

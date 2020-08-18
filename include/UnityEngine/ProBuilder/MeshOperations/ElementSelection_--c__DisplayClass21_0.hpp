@@ -26,10 +26,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     UnityEngine::ProBuilder::Face* face;
     // System.Boolean <GetFaceLoop>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0xF0F91C
+    // Offset: 0xE6FBE0
     bool $GetFaceLoop$b__0(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0xF0EBFC
+    // Offset: 0xE6EEC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ElementSelection::$$c__DisplayClass21_0* New_ctor();

@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<UnityEngine.Camera> <>9__242_0
     static void _set_$$9__242_0(System::Comparison_1<UnityEngine::Camera*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xEE5C5C
+    // Offset: 0xE45F20
     static void _cctor();
     // System.Int32 <FindMainCamera>b__242_0(UnityEngine.Camera c0, UnityEngine.Camera c1)
-    // Offset: 0xEE5CCC
+    // Offset: 0xE45F90
     int $FindMainCamera$b__242_0(UnityEngine::Camera* c0, UnityEngine::Camera* c1);
     // public System.Void .ctor()
-    // Offset: 0xEE5CC4
+    // Offset: 0xE45F88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRManager::$$c* New_ctor();

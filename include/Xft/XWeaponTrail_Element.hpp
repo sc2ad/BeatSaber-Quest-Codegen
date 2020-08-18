@@ -20,13 +20,13 @@ namespace Xft {
     // Offset: 0x1C
     UnityEngine::Vector3 pointEnd;
     // public UnityEngine.Vector3 get_pos()
-    // Offset: 0xC55EF0
+    // Offset: 0x197353C
     UnityEngine::Vector3 get_pos();
     // public System.Void .ctor(UnityEngine.Vector3 start, UnityEngine.Vector3 end)
-    // Offset: 0xC553CC
+    // Offset: 0x1972A18
     static XWeaponTrail::Element* New_ctor(UnityEngine::Vector3 start, UnityEngine::Vector3 end);
     // public System.Void .ctor()
-    // Offset: 0xC561C8
+    // Offset: 0x1973814
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static XWeaponTrail::Element* New_ctor();

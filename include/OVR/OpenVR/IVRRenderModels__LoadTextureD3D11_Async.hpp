@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_LoadTextureD3D11_Async : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16A5774
+    // Offset: 0x1607AAC
     static IVRRenderModels::_LoadTextureD3D11_Async* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRRenderModelError Invoke(System.Int32 textureId, System.IntPtr pD3D11Device, System.IntPtr ppD3D11Texture2D)
-    // Offset: 0x16A5788
+    // Offset: 0x1607AC0
     OVR::OpenVR::EVRRenderModelError Invoke(int textureId, System::IntPtr pD3D11Device, System::IntPtr& ppD3D11Texture2D);
     // public System.IAsyncResult BeginInvoke(System.Int32 textureId, System.IntPtr pD3D11Device, System.IntPtr ppD3D11Texture2D, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16A5A34
+    // Offset: 0x1607D6C
     System::IAsyncResult* BeginInvoke(int textureId, System::IntPtr pD3D11Device, System::IntPtr& ppD3D11Texture2D, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRRenderModelError EndInvoke(System.IntPtr ppD3D11Texture2D, System.IAsyncResult result)
-    // Offset: 0x16A5AFC
+    // Offset: 0x1607E34
     OVR::OpenVR::EVRRenderModelError EndInvoke(System::IntPtr& ppD3D11Texture2D, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_LoadTextureD3D11_Async
 }

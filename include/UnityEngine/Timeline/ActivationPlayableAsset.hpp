@@ -35,17 +35,17 @@ namespace UnityEngine::Timeline {
   class ActivationPlayableAsset : public UnityEngine::Timeline::ITimelineClipAsset, public UnityEngine::Playables::PlayableAsset {
     public:
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1089084
+    // Offset: 0xFEB348
     // Implemented from: UnityEngine.Timeline.ITimelineClipAsset
     // Base method: UnityEngine.Timeline.ClipCaps ITimelineClipAsset::get_clipCaps()
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x108908C
+    // Offset: 0xFEB350
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void .ctor()
-    // Offset: 0x1089108
+    // Offset: 0xFEB3CC
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -23,10 +23,10 @@ namespace UnityEngine::TextCore::LowLevel {
     // Creating value type constructor for type: GlyphAdjustmentRecord
     GlyphAdjustmentRecord(uint m_GlyphIndex_ = {}, UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord_ = {}) : m_GlyphIndex{m_GlyphIndex_}, m_GlyphValueRecord{m_GlyphValueRecord_} {}
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0xA5AF04
+    // Offset: 0x9C53D0
     uint get_glyphIndex();
     // public UnityEngine.TextCore.LowLevel.GlyphValueRecord get_glyphValueRecord()
-    // Offset: 0xA5AF0C
+    // Offset: 0x9C53D8
     UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord();
   }; // UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
 }

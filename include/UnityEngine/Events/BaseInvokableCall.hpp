@@ -26,25 +26,25 @@ namespace UnityEngine::Events {
   class BaseInvokableCall : public ::Il2CppObject {
     public:
     // protected System.Void .ctor(System.Object target, System.Reflection.MethodInfo function)
-    // Offset: 0x1305B60
+    // Offset: 0x1268E24
     static BaseInvokableCall* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* function);
     // public System.Void Invoke(System.Object[] args)
     // Offset: 0xFFFFFFFF
     void Invoke(::Array<::Il2CppObject*>* args);
     // static protected System.Void ThrowOnInvalidArg(System.Object arg)
-    // Offset: 0xC5B334
+    // Offset: 0xFFFFFFFF
     template<class T>
     static void ThrowOnInvalidArg(::Il2CppObject* arg) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Events", "BaseInvokableCall", "ThrowOnInvalidArg", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arg));
     }
     // static protected System.Boolean AllowInvoke(System.Delegate delegate)
-    // Offset: 0x1305C1C
+    // Offset: 0x1268EE0
     static bool AllowInvoke(System::Delegate* delegate);
     // public System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0xFFFFFFFF
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
     // protected System.Void .ctor()
-    // Offset: 0x1305B58
+    // Offset: 0x1268E1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseInvokableCall* New_ctor();

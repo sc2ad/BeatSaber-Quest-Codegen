@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRResources::_LoadSharedResource : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16BFFF0
+    // Offset: 0x1622328
     static IVRResources::_LoadSharedResource* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x16C0004
+    // Offset: 0x162233C
     uint Invoke(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen);
     // public System.IAsyncResult BeginInvoke(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C0434
+    // Offset: 0x162276C
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16C04D4
+    // Offset: 0x162280C
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRResources/_LoadSharedResource
 }

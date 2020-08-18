@@ -23,7 +23,7 @@ namespace System::Diagnostics::Tracing {
   class EventProvider::MonoPInvokeCallbackAttribute : public System::Attribute {
     public:
     // public System.Void .ctor(System.Type t)
-    // Offset: 0xC9CA2C
+    // Offset: 0xBFCCF0
     static EventProvider::MonoPInvokeCallbackAttribute* New_ctor(System::Type* t);
   }; // System.Diagnostics.Tracing.EventProvider/MonoPInvokeCallbackAttribute
 }

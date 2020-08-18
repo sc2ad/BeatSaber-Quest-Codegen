@@ -31,16 +31,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PlayerController* playerController;
     // protected System.Void Start()
-    // Offset: 0xBCD6F0
+    // Offset: 0x1914A58
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBCD784
+    // Offset: 0x1914AEC
     void OnDestroy();
     // private System.Void HandleFullVRControllersRecorderDidSetControllerTransform(VRController controller)
-    // Offset: 0xBCD860
+    // Offset: 0x1914BC8
     void HandleFullVRControllersRecorderDidSetControllerTransform(GlobalNamespace::VRController* controller);
     // public System.Void .ctor()
-    // Offset: 0xBCD980
+    // Offset: 0x1914CE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

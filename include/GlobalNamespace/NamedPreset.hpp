@@ -15,10 +15,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Il2CppString* presetNameLocalizationKey;
     // public System.String get_presetNameLocalizationKey()
-    // Offset: 0xC0C318
+    // Offset: 0x1954E48
     ::Il2CppString* get_presetNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0xC0C320
+    // Offset: 0x1954E50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NamedPreset* New_ctor();

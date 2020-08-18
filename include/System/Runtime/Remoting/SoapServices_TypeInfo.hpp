@@ -27,7 +27,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x18
     System::Collections::Hashtable* Elements;
     // public System.Void .ctor()
-    // Offset: 0xE1C394
+    // Offset: 0xD7C658
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SoapServices::TypeInfo* New_ctor();

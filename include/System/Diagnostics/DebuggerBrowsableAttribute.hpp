@@ -19,7 +19,7 @@ namespace System::Diagnostics {
     // Offset: 0x10
     System::Diagnostics::DebuggerBrowsableState state;
     // public System.Void .ctor(System.Diagnostics.DebuggerBrowsableState state)
-    // Offset: 0xC91E64
+    // Offset: 0xBF2128
     static DebuggerBrowsableAttribute* New_ctor(System::Diagnostics::DebuggerBrowsableState state);
   }; // System.Diagnostics.DebuggerBrowsableAttribute
 }

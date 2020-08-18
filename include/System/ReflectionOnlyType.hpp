@@ -20,7 +20,7 @@ namespace System {
   class ReflectionOnlyType : public System::RuntimeType {
     public:
     // private System.Void .ctor()
-    // Offset: 0x1153E8C
+    // Offset: 0x10B7150
     // Implemented from: System.RuntimeType
     // Base method: System.Void RuntimeType::.ctor()
     // Base method: System.Void TypeInfo::.ctor()
@@ -29,7 +29,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ReflectionOnlyType* New_ctor();
     // public override System.RuntimeTypeHandle get_TypeHandle()
-    // Offset: 0x1153EF4
+    // Offset: 0x10B71B8
     // Implemented from: System.RuntimeType
     // Base method: System.RuntimeTypeHandle RuntimeType::get_TypeHandle()
     System::RuntimeTypeHandle get_TypeHandle();

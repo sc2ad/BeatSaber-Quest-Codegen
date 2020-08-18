@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Shader* shader;
     // public ShaderVariantsSO/ShaderVariant/Variant[] get_variants()
-    // Offset: 0x190B27C
+    // Offset: 0x18695C8
     ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* get_variants();
     // public UnityEngine.Shader get_shader()
-    // Offset: 0x190B284
+    // Offset: 0x18695D0
     UnityEngine::Shader* get_shader();
     // public System.Void .ctor(UnityEngine.Shader shader, ShaderVariantsSO/ShaderVariant/Variant[] variants)
-    // Offset: 0x190B28C
+    // Offset: 0x18695D8
     static ShaderVariantsSO::ShaderVariant* New_ctor(UnityEngine::Shader* shader, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants);
   }; // ShaderVariantsSO/ShaderVariant
 }

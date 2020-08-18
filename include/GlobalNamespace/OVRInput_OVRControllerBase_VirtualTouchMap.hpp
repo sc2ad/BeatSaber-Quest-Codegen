@@ -55,10 +55,10 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::OVRInput::RawTouch SecondaryTouchpad;
     // public OVRInput/RawTouch ToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0xE71208
+    // Offset: 0xDD14CC
     GlobalNamespace::OVRInput::RawTouch ToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
     // public System.Void .ctor()
-    // Offset: 0xE704C4
+    // Offset: 0xDD0788
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualTouchMap* New_ctor();

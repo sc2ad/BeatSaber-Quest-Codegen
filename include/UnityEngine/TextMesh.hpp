@@ -21,13 +21,13 @@ namespace UnityEngine {
   class TextMesh : public UnityEngine::Component {
     public:
     // public System.Void set_text(System.String value)
-    // Offset: 0x196105C
+    // Offset: 0x18BD3A0
     void set_text(::Il2CppString* value);
     // public UnityEngine.TextAlignment get_alignment()
-    // Offset: 0x19610AC
+    // Offset: 0x18BD3F0
     UnityEngine::TextAlignment get_alignment();
     // public System.Void set_alignment(UnityEngine.TextAlignment value)
-    // Offset: 0x19610EC
+    // Offset: 0x18BD430
     void set_alignment(UnityEngine::TextAlignment value);
   }; // UnityEngine.TextMesh
 }

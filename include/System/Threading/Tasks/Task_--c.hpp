@@ -39,25 +39,25 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.TimerCallback <>9__276_1
     static void _set_$$9__276_1(System::Threading::TimerCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0xCE2AC4
+    // Offset: 0xC42D88
     static void _cctor();
     // System.Void <Delay>b__276_0(System.Object state)
-    // Offset: 0xCE2B34
+    // Offset: 0xC42DF8
     void $Delay$b__276_0(::Il2CppObject* state);
     // System.Void <Delay>b__276_1(System.Object state)
-    // Offset: 0xCE2CB0
+    // Offset: 0xC42F74
     void $Delay$b__276_1(::Il2CppObject* state);
     // System.Threading.Tasks.Task/ContingentProperties <.cctor>b__295_0()
-    // Offset: 0xCE2D18
+    // Offset: 0xC42FDC
     System::Threading::Tasks::Task::ContingentProperties* $_cctor$b__295_0();
     // System.Boolean <.cctor>b__295_1(System.Threading.Tasks.Task t)
-    // Offset: 0xCE2D84
+    // Offset: 0xC43048
     bool $_cctor$b__295_1(System::Threading::Tasks::Task* t);
     // System.Boolean <.cctor>b__295_2(System.Object tc)
-    // Offset: 0xCE2DB0
+    // Offset: 0xC43074
     bool $_cctor$b__295_2(::Il2CppObject* tc);
     // public System.Void .ctor()
-    // Offset: 0xCE2B2C
+    // Offset: 0xC42DF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Task::$$c* New_ctor();

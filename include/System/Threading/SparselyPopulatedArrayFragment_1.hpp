@@ -27,32 +27,32 @@ namespace System::Threading {
     // Offset: 0x0
     System::Threading::SparselyPopulatedArrayFragment_1<T>* m_prev;
     // System.Void .ctor(System.Int32 size)
-    // Offset: 0x1486400
+    // Offset: 0xFFFFFFFF
     static SparselyPopulatedArrayFragment_1<T>* New_ctor(int size) {
       return (SparselyPopulatedArrayFragment_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SparselyPopulatedArrayFragment_1<T>*>::get(), size));
     }
     // System.Void .ctor(System.Int32 size, System.Threading.SparselyPopulatedArrayFragment`1<T> prev)
-    // Offset: 0x1486428
+    // Offset: 0xFFFFFFFF
     static SparselyPopulatedArrayFragment_1<T>* New_ctor(int size, System::Threading::SparselyPopulatedArrayFragment_1<T>* prev) {
       return (SparselyPopulatedArrayFragment_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SparselyPopulatedArrayFragment_1<T>*>::get(), size, prev));
     }
     // T get_Item(System.Int32 index)
-    // Offset: 0x14864B8
+    // Offset: 0xFFFFFFFF
     T get_Item(int index) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Item", index));
     }
     // System.Int32 get_Length()
-    // Offset: 0x1486504
+    // Offset: 0xFFFFFFFF
     int get_Length() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_Length"));
     }
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Prev()
-    // Offset: 0x1486520
+    // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Prev() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::SparselyPopulatedArrayFragment_1<T>*>(this, "get_Prev"));
     }
     // T SafeAtomicRemove(System.Int32 index, T expectedElement)
-    // Offset: 0x1486544
+    // Offset: 0xFFFFFFFF
     T SafeAtomicRemove(int index, T expectedElement) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "SafeAtomicRemove", index, expectedElement));
     }

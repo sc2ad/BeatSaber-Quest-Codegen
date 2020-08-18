@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::PointLight* pointLight;
     // protected System.Void LateUpdate()
-    // Offset: 0x1826FB8
+    // Offset: 0x17852F0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1826FE8
+    // Offset: 0x1785320
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

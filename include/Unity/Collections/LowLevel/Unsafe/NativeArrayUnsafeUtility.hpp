@@ -22,7 +22,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeArrayUnsafeUtility : public ::Il2CppObject {
     public:
     // static public Unity.Collections.NativeArray`1<T> ConvertExistingDataToNativeArray(System.Void* dataPointer, System.Int32 length, Unity.Collections.Allocator allocator)
-    // Offset: 0x13E0928
+    // Offset: 0xFFFFFFFF
     template<class T>
     static Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(void* dataPointer, int length, Unity::Collections::Allocator allocator) {
       static_assert(is_value_type_v<T>);

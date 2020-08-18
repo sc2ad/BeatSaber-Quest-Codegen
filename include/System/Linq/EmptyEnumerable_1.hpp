@@ -25,7 +25,7 @@ namespace System::Linq {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EmptyEnumerable_1<TElement>*>::get(), "Instance", value));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1281E48
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EmptyEnumerable_1<TElement>*>::get(), ".cctor"));
     }

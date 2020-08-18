@@ -85,248 +85,248 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.GUIStyle s_None
     static void _set_s_None(UnityEngine::GUIStyle* value);
     // System.String get_rawName()
-    // Offset: 0x126F624
+    // Offset: 0x11D18E8
     ::Il2CppString* get_rawName();
     // System.Void set_rawName(System.String value)
-    // Offset: 0x126F664
+    // Offset: 0x11D1928
     void set_rawName(::Il2CppString* value);
     // public UnityEngine.Font get_font()
-    // Offset: 0x1260C28
+    // Offset: 0x11C2EEC
     UnityEngine::Font* get_font();
     // public UnityEngine.ImagePosition get_imagePosition()
-    // Offset: 0x126F6B4
+    // Offset: 0x11D1978
     UnityEngine::ImagePosition get_imagePosition();
     // public System.Boolean get_wordWrap()
-    // Offset: 0x126F6F4
+    // Offset: 0x11D19B8
     bool get_wordWrap();
     // public System.Void set_wordWrap(System.Boolean value)
-    // Offset: 0x126F734
+    // Offset: 0x11D19F8
     void set_wordWrap(bool value);
     // public UnityEngine.Vector2 get_contentOffset()
-    // Offset: 0x126F784
+    // Offset: 0x11D1A48
     UnityEngine::Vector2 get_contentOffset();
     // public System.Void set_contentOffset(UnityEngine.Vector2 value)
-    // Offset: 0x126F82C
+    // Offset: 0x11D1AF0
     void set_contentOffset(UnityEngine::Vector2 value);
     // public System.Single get_fixedWidth()
-    // Offset: 0x1262E3C
+    // Offset: 0x11C5100
     float get_fixedWidth();
     // public System.Single get_fixedHeight()
-    // Offset: 0x1262E7C
+    // Offset: 0x11C5140
     float get_fixedHeight();
     // public System.Boolean get_stretchWidth()
-    // Offset: 0x1268D74
+    // Offset: 0x11CB038
     bool get_stretchWidth();
     // public System.Void set_stretchWidth(System.Boolean value)
-    // Offset: 0x126D598
+    // Offset: 0x11CF85C
     void set_stretchWidth(bool value);
     // public System.Boolean get_stretchHeight()
-    // Offset: 0x1268DB4
+    // Offset: 0x11CB078
     bool get_stretchHeight();
     // public System.Void set_stretchHeight(System.Boolean value)
-    // Offset: 0x126EFDC
+    // Offset: 0x11D12A0
     void set_stretchHeight(bool value);
     // public System.Void set_fontSize(System.Int32 value)
-    // Offset: 0x126F8D0
+    // Offset: 0x11D1B94
     void set_fontSize(int value);
     // public System.Void set_richText(System.Boolean value)
-    // Offset: 0x126F920
+    // Offset: 0x11D1BE4
     void set_richText(bool value);
     // System.Void set_Internal_clipOffset(UnityEngine.Vector2 value)
-    // Offset: 0x126F970
+    // Offset: 0x11D1C34
     void set_Internal_clipOffset(UnityEngine::Vector2 value);
     // static private System.IntPtr Internal_Create(UnityEngine.GUIStyle self)
-    // Offset: 0x126FA14
+    // Offset: 0x11D1CD8
     static System::IntPtr Internal_Create(UnityEngine::GUIStyle* self);
     // static private System.IntPtr Internal_Copy(UnityEngine.GUIStyle self, UnityEngine.GUIStyle other)
-    // Offset: 0x126FA54
+    // Offset: 0x11D1D18
     static System::IntPtr Internal_Copy(UnityEngine::GUIStyle* self, UnityEngine::GUIStyle* other);
     // static private System.Void Internal_Destroy(System.IntPtr self)
-    // Offset: 0x126FAA4
+    // Offset: 0x11D1D68
     static void Internal_Destroy(System::IntPtr self);
     // private System.IntPtr GetStyleStatePtr(System.Int32 idx)
-    // Offset: 0x126FAE4
+    // Offset: 0x11D1DA8
     System::IntPtr GetStyleStatePtr(int idx);
     // private System.IntPtr GetRectOffsetPtr(System.Int32 idx)
-    // Offset: 0x126FB34
+    // Offset: 0x11D1DF8
     System::IntPtr GetRectOffsetPtr(int idx);
     // static private System.Single Internal_GetLineHeight(System.IntPtr target)
-    // Offset: 0x126FB84
+    // Offset: 0x11D1E48
     static float Internal_GetLineHeight(System::IntPtr target);
     // private System.Void Internal_Draw(UnityEngine.Rect screenRect, UnityEngine.GUIContent content, System.Boolean isHover, System.Boolean isActive, System.Boolean on, System.Boolean hasKeyboardFocus)
-    // Offset: 0x126FBC4
+    // Offset: 0x11D1E88
     void Internal_Draw(UnityEngine::Rect screenRect, UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
     // private System.Void Internal_Draw2(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 controlID, System.Boolean on)
-    // Offset: 0x126FCE4
+    // Offset: 0x11D1FA8
     void Internal_Draw2(UnityEngine::Rect position, UnityEngine::GUIContent* content, int controlID, bool on);
     // private System.Void Internal_DrawCursor(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 pos, UnityEngine.Color cursorColor)
-    // Offset: 0x126FDD4
+    // Offset: 0x11D2098
     void Internal_DrawCursor(UnityEngine::Rect position, UnityEngine::GUIContent* content, int pos, UnityEngine::Color cursorColor);
     // private System.Void Internal_DrawWithTextSelection(UnityEngine.Rect screenRect, UnityEngine.GUIContent content, System.Boolean isHover, System.Boolean isActive, System.Boolean on, System.Boolean hasKeyboardFocus, System.Boolean drawSelectionAsComposition, System.Int32 cursorFirst, System.Int32 cursorLast, UnityEngine.Color cursorColor, UnityEngine.Color selectionColor)
-    // Offset: 0x126FEC0
+    // Offset: 0x11D2184
     void Internal_DrawWithTextSelection(UnityEngine::Rect screenRect, UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus, bool drawSelectionAsComposition, int cursorFirst, int cursorLast, UnityEngine::Color cursorColor, UnityEngine::Color selectionColor);
     // UnityEngine.Vector2 Internal_GetCursorPixelPosition(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 cursorStringIndex)
-    // Offset: 0x1270054
+    // Offset: 0x11D2318
     UnityEngine::Vector2 Internal_GetCursorPixelPosition(UnityEngine::Rect position, UnityEngine::GUIContent* content, int cursorStringIndex);
     // System.Int32 Internal_GetCursorStringIndex(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.Vector2 cursorPixelPosition)
-    // Offset: 0x1270140
+    // Offset: 0x11D2404
     int Internal_GetCursorStringIndex(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::Vector2 cursorPixelPosition);
     // System.String Internal_GetSelectedRenderedText(UnityEngine.Rect localPosition, UnityEngine.GUIContent mContent, System.Int32 selectIndex, System.Int32 cursorIndex)
-    // Offset: 0x1270218
+    // Offset: 0x11D24DC
     ::Il2CppString* Internal_GetSelectedRenderedText(UnityEngine::Rect localPosition, UnityEngine::GUIContent* mContent, int selectIndex, int cursorIndex);
     // UnityEngine.Vector2 Internal_CalcSize(UnityEngine.GUIContent content)
-    // Offset: 0x1270308
+    // Offset: 0x11D25CC
     UnityEngine::Vector2 Internal_CalcSize(UnityEngine::GUIContent* content);
     // UnityEngine.Vector2 Internal_CalcSizeWithConstraints(UnityEngine.GUIContent content, UnityEngine.Vector2 maxSize)
-    // Offset: 0x12703C0
+    // Offset: 0x11D2684
     UnityEngine::Vector2 Internal_CalcSizeWithConstraints(UnityEngine::GUIContent* content, UnityEngine::Vector2 maxSize);
     // private System.Single Internal_CalcHeight(UnityEngine.GUIContent content, System.Single width)
-    // Offset: 0x1270494
+    // Offset: 0x11D2758
     float Internal_CalcHeight(UnityEngine::GUIContent* content, float width);
     // private UnityEngine.Vector2 Internal_CalcMinMaxWidth(UnityEngine.GUIContent content)
-    // Offset: 0x12704F4
+    // Offset: 0x11D27B8
     UnityEngine::Vector2 Internal_CalcMinMaxWidth(UnityEngine::GUIContent* content);
     // static System.Void SetMouseTooltip(System.String tooltip, UnityEngine.Rect screenRect)
-    // Offset: 0x1261960
+    // Offset: 0x11C3C24
     static void SetMouseTooltip(::Il2CppString* tooltip, UnityEngine::Rect screenRect);
     // static private System.Single Internal_GetCursorFlashOffset()
-    // Offset: 0x12705FC
+    // Offset: 0x11D28C0
     static float Internal_GetCursorFlashOffset();
     // static System.Void SetDefaultFont(UnityEngine.Font font)
-    // Offset: 0x126DF60
+    // Offset: 0x11D0224
     static void SetDefaultFont(UnityEngine::Font* font);
     // public System.Void .ctor(UnityEngine.GUIStyle other)
-    // Offset: 0x1270630
+    // Offset: 0x11D28F4
     static GUIStyle* New_ctor(UnityEngine::GUIStyle* other);
     // public System.String get_name()
-    // Offset: 0x1261EE8
+    // Offset: 0x11C41AC
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x126E450
+    // Offset: 0x11D0714
     void set_name(::Il2CppString* value);
     // public UnityEngine.GUIStyleState get_normal()
-    // Offset: 0x126F02C
+    // Offset: 0x11D12F0
     UnityEngine::GUIStyleState* get_normal();
     // public UnityEngine.RectOffset get_margin()
-    // Offset: 0x1264230
+    // Offset: 0x11C64F4
     UnityEngine::RectOffset* get_margin();
     // public UnityEngine.RectOffset get_padding()
-    // Offset: 0x126A4A0
+    // Offset: 0x11CC764
     UnityEngine::RectOffset* get_padding();
     // public System.Single get_lineHeight()
-    // Offset: 0x1270894
+    // Offset: 0x11D2B58
     float get_lineHeight();
     // public System.Void Draw(UnityEngine.Rect position, System.Boolean isHover, System.Boolean isActive, System.Boolean on, System.Boolean hasKeyboardFocus)
-    // Offset: 0x12642F0
+    // Offset: 0x11C65B4
     void Draw(UnityEngine::Rect position, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
     // public System.Void Draw(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Boolean isHover, System.Boolean isActive, System.Boolean on, System.Boolean hasKeyboardFocus)
-    // Offset: 0x12618F0
+    // Offset: 0x11C3BB4
     void Draw(UnityEngine::Rect position, UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
     // public System.Void Draw(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 controlID)
-    // Offset: 0x12632F0
+    // Offset: 0x11C55B4
     void Draw(UnityEngine::Rect position, UnityEngine::GUIContent* content, int controlID);
     // public System.Void Draw(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 controlID, System.Boolean on)
-    // Offset: 0x1260658
+    // Offset: 0x11C291C
     void Draw(UnityEngine::Rect position, UnityEngine::GUIContent* content, int controlID, bool on);
     // public System.Void Draw(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 controlID, System.Boolean on, System.Boolean hover)
-    // Offset: 0x125E8AC
+    // Offset: 0x11C0B70
     void Draw(UnityEngine::Rect position, UnityEngine::GUIContent* content, int controlID, bool on, bool hover);
     // private System.Void Draw(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 controlId, System.Boolean isHover, System.Boolean isActive, System.Boolean on, System.Boolean hasKeyboardFocus)
-    // Offset: 0x12709C0
+    // Offset: 0x11D2C84
     void Draw(UnityEngine::Rect position, UnityEngine::GUIContent* content, int controlId, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
     // public System.Void DrawCursor(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 controlID, System.Int32 character)
-    // Offset: 0x1270A8C
+    // Offset: 0x11D2D50
     void DrawCursor(UnityEngine::Rect position, UnityEngine::GUIContent* content, int controlID, int character);
     // System.Void DrawWithTextSelection(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Boolean isActive, System.Boolean hasKeyboardFocus, System.Int32 firstSelectedCharacter, System.Int32 lastSelectedCharacter, System.Boolean drawSelectionAsComposition, UnityEngine.Color selectionColor)
-    // Offset: 0x1270CE8
+    // Offset: 0x11D2FAC
     void DrawWithTextSelection(UnityEngine::Rect position, UnityEngine::GUIContent* content, bool isActive, bool hasKeyboardFocus, int firstSelectedCharacter, int lastSelectedCharacter, bool drawSelectionAsComposition, UnityEngine::Color selectionColor);
     // System.Void DrawWithTextSelection(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 controlID, System.Int32 firstSelectedCharacter, System.Int32 lastSelectedCharacter, System.Boolean drawSelectionAsComposition)
-    // Offset: 0x1270F48
+    // Offset: 0x11D320C
     void DrawWithTextSelection(UnityEngine::Rect position, UnityEngine::GUIContent* content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter, bool drawSelectionAsComposition);
     // public System.Void DrawWithTextSelection(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 controlID, System.Int32 firstSelectedCharacter, System.Int32 lastSelectedCharacter)
-    // Offset: 0x12710D0
+    // Offset: 0x11D3394
     void DrawWithTextSelection(UnityEngine::Rect position, UnityEngine::GUIContent* content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter);
     // static public UnityEngine.GUIStyle get_none()
-    // Offset: 0x1263248
+    // Offset: 0x11C550C
     static UnityEngine::GUIStyle* get_none();
     // public UnityEngine.Vector2 GetCursorPixelPosition(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 cursorStringIndex)
-    // Offset: 0x12711C4
+    // Offset: 0x11D3488
     UnityEngine::Vector2 GetCursorPixelPosition(UnityEngine::Rect position, UnityEngine::GUIContent* content, int cursorStringIndex);
     // public System.Int32 GetCursorStringIndex(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.Vector2 cursorPixelPosition)
-    // Offset: 0x12711C8
+    // Offset: 0x11D348C
     int GetCursorStringIndex(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::Vector2 cursorPixelPosition);
     // public UnityEngine.Vector2 CalcSize(UnityEngine.GUIContent content)
-    // Offset: 0x12711CC
+    // Offset: 0x11D3490
     UnityEngine::Vector2 CalcSize(UnityEngine::GUIContent* content);
     // UnityEngine.Vector2 CalcSizeWithConstraints(UnityEngine.GUIContent content, UnityEngine.Vector2 constraints)
-    // Offset: 0x126D2F4
+    // Offset: 0x11CF5B8
     UnityEngine::Vector2 CalcSizeWithConstraints(UnityEngine::GUIContent* content, UnityEngine::Vector2 constraints);
     // public System.Single CalcHeight(UnityEngine.GUIContent content, System.Single width)
-    // Offset: 0x12711D0
+    // Offset: 0x11D3494
     float CalcHeight(UnityEngine::GUIContent* content, float width);
     // public System.Boolean get_isHeightDependantOnWidth()
-    // Offset: 0x126D160
+    // Offset: 0x11CF424
     bool get_isHeightDependantOnWidth();
     // public System.Void CalcMinMaxWidth(UnityEngine.GUIContent content, System.Single minWidth, System.Single maxWidth)
-    // Offset: 0x1271230
+    // Offset: 0x11D34F4
     void CalcMinMaxWidth(UnityEngine::GUIContent* content, float& minWidth, float& maxWidth);
     // static private System.Void .cctor()
-    // Offset: 0x1271324
+    // Offset: 0x11D35E8
     static void _cctor();
     // private System.Void get_contentOffset_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x126F7DC
+    // Offset: 0x11D1AA0
     void get_contentOffset_Injected(UnityEngine::Vector2& ret);
     // private System.Void set_contentOffset_Injected(UnityEngine.Vector2 value)
-    // Offset: 0x126F880
+    // Offset: 0x11D1B44
     void set_contentOffset_Injected(UnityEngine::Vector2& value);
     // private System.Void set_Internal_clipOffset_Injected(UnityEngine.Vector2 value)
-    // Offset: 0x126F9C4
+    // Offset: 0x11D1C88
     void set_Internal_clipOffset_Injected(UnityEngine::Vector2& value);
     // private System.Void Internal_Draw_Injected(UnityEngine.Rect screenRect, UnityEngine.GUIContent content, System.Boolean isHover, System.Boolean isActive, System.Boolean on, System.Boolean hasKeyboardFocus)
-    // Offset: 0x126FC5C
+    // Offset: 0x11D1F20
     void Internal_Draw_Injected(UnityEngine::Rect& screenRect, UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
     // private System.Void Internal_Draw2_Injected(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 controlID, System.Boolean on)
-    // Offset: 0x126FD64
+    // Offset: 0x11D2028
     void Internal_Draw2_Injected(UnityEngine::Rect& position, UnityEngine::GUIContent* content, int controlID, bool on);
     // private System.Void Internal_DrawCursor_Injected(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 pos, UnityEngine.Color cursorColor)
-    // Offset: 0x126FE50
+    // Offset: 0x11D2114
     void Internal_DrawCursor_Injected(UnityEngine::Rect& position, UnityEngine::GUIContent* content, int pos, UnityEngine::Color& cursorColor);
     // private System.Void Internal_DrawWithTextSelection_Injected(UnityEngine.Rect screenRect, UnityEngine.GUIContent content, System.Boolean isHover, System.Boolean isActive, System.Boolean on, System.Boolean hasKeyboardFocus, System.Boolean drawSelectionAsComposition, System.Int32 cursorFirst, System.Int32 cursorLast, UnityEngine.Color cursorColor, UnityEngine.Color selectionColor)
-    // Offset: 0x126FF94
+    // Offset: 0x11D2258
     void Internal_DrawWithTextSelection_Injected(UnityEngine::Rect& screenRect, UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus, bool drawSelectionAsComposition, int cursorFirst, int cursorLast, UnityEngine::Color& cursorColor, UnityEngine::Color& selectionColor);
     // private System.Void Internal_GetCursorPixelPosition_Injected(UnityEngine.Rect position, UnityEngine.GUIContent content, System.Int32 cursorStringIndex, UnityEngine.Vector2 ret)
-    // Offset: 0x12700D0
+    // Offset: 0x11D2394
     void Internal_GetCursorPixelPosition_Injected(UnityEngine::Rect& position, UnityEngine::GUIContent* content, int cursorStringIndex, UnityEngine::Vector2& ret);
     // private System.Int32 Internal_GetCursorStringIndex_Injected(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.Vector2 cursorPixelPosition)
-    // Offset: 0x12701B0
+    // Offset: 0x11D2474
     int Internal_GetCursorStringIndex_Injected(UnityEngine::Rect& position, UnityEngine::GUIContent* content, UnityEngine::Vector2& cursorPixelPosition);
     // private System.String Internal_GetSelectedRenderedText_Injected(UnityEngine.Rect localPosition, UnityEngine.GUIContent mContent, System.Int32 selectIndex, System.Int32 cursorIndex)
-    // Offset: 0x1270298
+    // Offset: 0x11D255C
     ::Il2CppString* Internal_GetSelectedRenderedText_Injected(UnityEngine::Rect& localPosition, UnityEngine::GUIContent* mContent, int selectIndex, int cursorIndex);
     // private System.Void Internal_CalcSize_Injected(UnityEngine.GUIContent content, UnityEngine.Vector2 ret)
-    // Offset: 0x1270368
+    // Offset: 0x11D262C
     void Internal_CalcSize_Injected(UnityEngine::GUIContent* content, UnityEngine::Vector2& ret);
     // private System.Void Internal_CalcSizeWithConstraints_Injected(UnityEngine.GUIContent content, UnityEngine.Vector2 maxSize, UnityEngine.Vector2 ret)
-    // Offset: 0x127042C
+    // Offset: 0x11D26F0
     void Internal_CalcSizeWithConstraints_Injected(UnityEngine::GUIContent* content, UnityEngine::Vector2& maxSize, UnityEngine::Vector2& ret);
     // private System.Void Internal_CalcMinMaxWidth_Injected(UnityEngine.GUIContent content, UnityEngine.Vector2 ret)
-    // Offset: 0x1270554
+    // Offset: 0x11D2818
     void Internal_CalcMinMaxWidth_Injected(UnityEngine::GUIContent* content, UnityEngine::Vector2& ret);
     // static private System.Void SetMouseTooltip_Injected(System.String tooltip, UnityEngine.Rect screenRect)
-    // Offset: 0x12705AC
+    // Offset: 0x11D2870
     static void SetMouseTooltip_Injected(::Il2CppString* tooltip, UnityEngine::Rect& screenRect);
     // public System.Void .ctor()
-    // Offset: 0x126D500
+    // Offset: 0x11CF7C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GUIStyle* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1270718
+    // Offset: 0x11D29DC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.String ToString()
-    // Offset: 0x127125C
+    // Offset: 0x11D3520
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

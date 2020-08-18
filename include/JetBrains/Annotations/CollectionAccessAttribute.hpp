@@ -19,13 +19,13 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     JetBrains::Annotations::CollectionAccessType CollectionAccessType;
     // public System.Void .ctor(JetBrains.Annotations.CollectionAccessType collectionAccessType)
-    // Offset: 0x1957D04
+    // Offset: 0x18B4048
     static CollectionAccessAttribute* New_ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType);
     // public JetBrains.Annotations.CollectionAccessType get_CollectionAccessType()
-    // Offset: 0x1957D30
+    // Offset: 0x18B4074
     JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
     // private System.Void set_CollectionAccessType(JetBrains.Annotations.CollectionAccessType value)
-    // Offset: 0x1957D38
+    // Offset: 0x18B407C
     void set_CollectionAccessType(JetBrains::Annotations::CollectionAccessType value);
   }; // JetBrains.Annotations.CollectionAccessAttribute
 }

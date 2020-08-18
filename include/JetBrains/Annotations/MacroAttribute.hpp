@@ -23,25 +23,25 @@ namespace JetBrains::Annotations {
     // Offset: 0x20
     ::Il2CppString* Target;
     // public System.String get_Expression()
-    // Offset: 0x1957F14
+    // Offset: 0x18B4258
     ::Il2CppString* get_Expression();
     // public System.Void set_Expression(System.String value)
-    // Offset: 0x1957F1C
+    // Offset: 0x18B4260
     void set_Expression(::Il2CppString* value);
     // public System.Int32 get_Editable()
-    // Offset: 0x1957F24
+    // Offset: 0x18B4268
     int get_Editable();
     // public System.Void set_Editable(System.Int32 value)
-    // Offset: 0x1957F2C
+    // Offset: 0x18B4270
     void set_Editable(int value);
     // public System.String get_Target()
-    // Offset: 0x1957F34
+    // Offset: 0x18B4278
     ::Il2CppString* get_Target();
     // public System.Void set_Target(System.String value)
-    // Offset: 0x1957F3C
+    // Offset: 0x18B4280
     void set_Target(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1957F44
+    // Offset: 0x18B4288
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

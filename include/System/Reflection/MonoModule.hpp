@@ -37,40 +37,40 @@ namespace System::Reflection {
   class MonoModule : public System::Reflection::RuntimeModule {
     public:
     // System.Reflection.RuntimeAssembly GetRuntimeAssembly()
-    // Offset: 0x114F2C0
+    // Offset: 0x10B2584
     System::Reflection::RuntimeAssembly* GetRuntimeAssembly();
     // public override System.Reflection.Assembly get_Assembly()
-    // Offset: 0x114F0E0
+    // Offset: 0x10B23A4
     // Implemented from: System.Reflection.Module
     // Base method: System.Reflection.Assembly Module::get_Assembly()
     System::Reflection::Assembly* get_Assembly();
     // public override System.String get_ScopeName()
-    // Offset: 0x114F0E8
+    // Offset: 0x10B23AC
     // Implemented from: System.Reflection.Module
     // Base method: System.String Module::get_ScopeName()
     ::Il2CppString* get_ScopeName();
     // public override System.Guid get_ModuleVersionId()
-    // Offset: 0x114F0F0
+    // Offset: 0x10B23B4
     // Implemented from: System.Reflection.Module
     // Base method: System.Guid Module::get_ModuleVersionId()
     System::Guid get_ModuleVersionId();
     // public override System.Boolean IsResource()
-    // Offset: 0x114F0FC
+    // Offset: 0x10B23C0
     // Implemented from: System.Reflection.Module
     // Base method: System.Boolean Module::IsResource()
     bool IsResource();
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x114F104
+    // Offset: 0x10B23C8
     // Implemented from: System.Reflection.Module
     // Base method: System.Object[] Module::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x114F184
+    // Offset: 0x10B2448
     // Implemented from: System.Reflection.Module
     // Base method: System.Boolean Module::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x114F204
+    // Offset: 0x10B24C8
     // Implemented from: System.Reflection.Module
     // Base method: System.Void Module::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -78,7 +78,7 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor()
-    // Offset: 0x114F340
+    // Offset: 0x10B2604
     // Implemented from: System.Reflection.RuntimeModule
     // Base method: System.Void RuntimeModule::.ctor()
     // Base method: System.Void Module::.ctor()

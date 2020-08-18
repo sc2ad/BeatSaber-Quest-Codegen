@@ -14,7 +14,7 @@ namespace System::Globalization {
   class Punycode : public System::Globalization::Bootstring {
     public:
     // public System.Void .ctor()
-    // Offset: 0x111F078
+    // Offset: 0x108233C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Punycode* New_ctor();

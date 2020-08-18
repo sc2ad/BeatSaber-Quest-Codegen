@@ -44,64 +44,64 @@ namespace UnityEngine {
   class SystemInfo : public ::Il2CppObject {
     public:
     // static public UnityEngine.OperatingSystemFamily get_operatingSystemFamily()
-    // Offset: 0x138BD80
+    // Offset: 0x12ED044
     static UnityEngine::OperatingSystemFamily get_operatingSystemFamily();
     // static public System.String get_deviceUniqueIdentifier()
-    // Offset: 0x138BDE8
+    // Offset: 0x12ED0AC
     static ::Il2CppString* get_deviceUniqueIdentifier();
     // static public UnityEngine.DeviceType get_deviceType()
-    // Offset: 0x138BE50
+    // Offset: 0x12ED114
     static UnityEngine::DeviceType get_deviceType();
     // static public UnityEngine.Rendering.GraphicsDeviceType get_graphicsDeviceType()
-    // Offset: 0x138BEB8
+    // Offset: 0x12ED17C
     static UnityEngine::Rendering::GraphicsDeviceType get_graphicsDeviceType();
     // static public System.String get_graphicsDeviceVersion()
-    // Offset: 0x138BF20
+    // Offset: 0x12ED1E4
     static ::Il2CppString* get_graphicsDeviceVersion();
     // static public System.Boolean get_supportsInstancing()
-    // Offset: 0x138BF88
+    // Offset: 0x12ED24C
     static bool get_supportsInstancing();
     // static private System.Boolean IsValidEnumValue(System.Enum value)
-    // Offset: 0x138BFF0
+    // Offset: 0x12ED2B4
     static bool IsValidEnumValue(System::Enum* value);
     // static public System.Boolean SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat format)
-    // Offset: 0x138C078
+    // Offset: 0x12ED33C
     static bool SupportsRenderTextureFormat(UnityEngine::RenderTextureFormat format);
     // static public System.Boolean SupportsTextureFormat(UnityEngine.TextureFormat format)
-    // Offset: 0x138C188
+    // Offset: 0x12ED44C
     static bool SupportsTextureFormat(UnityEngine::TextureFormat format);
     // static private UnityEngine.OperatingSystemFamily GetOperatingSystemFamily()
-    // Offset: 0x138BDB4
+    // Offset: 0x12ED078
     static UnityEngine::OperatingSystemFamily GetOperatingSystemFamily();
     // static private System.String GetDeviceUniqueIdentifier()
-    // Offset: 0x138BE1C
+    // Offset: 0x12ED0E0
     static ::Il2CppString* GetDeviceUniqueIdentifier();
     // static private UnityEngine.DeviceType GetDeviceType()
-    // Offset: 0x138BE84
+    // Offset: 0x12ED148
     static UnityEngine::DeviceType GetDeviceType();
     // static private UnityEngine.Rendering.GraphicsDeviceType GetGraphicsDeviceType()
-    // Offset: 0x138BEEC
+    // Offset: 0x12ED1B0
     static UnityEngine::Rendering::GraphicsDeviceType GetGraphicsDeviceType();
     // static private System.String GetGraphicsDeviceVersion()
-    // Offset: 0x138BF54
+    // Offset: 0x12ED218
     static ::Il2CppString* GetGraphicsDeviceVersion();
     // static private System.Boolean SupportsInstancing()
-    // Offset: 0x138BFBC
+    // Offset: 0x12ED280
     static bool SupportsInstancing();
     // static private System.Boolean HasRenderTextureNative(UnityEngine.RenderTextureFormat format)
-    // Offset: 0x138C148
+    // Offset: 0x12ED40C
     static bool HasRenderTextureNative(UnityEngine::RenderTextureFormat format);
     // static private System.Boolean SupportsTextureFormatNative(UnityEngine.TextureFormat format)
-    // Offset: 0x138C258
+    // Offset: 0x12ED51C
     static bool SupportsTextureFormatNative(UnityEngine::TextureFormat format);
     // static public System.Boolean IsFormatSupported(UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.FormatUsage usage)
-    // Offset: 0x138C298
+    // Offset: 0x12ED55C
     static bool IsFormatSupported(UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::FormatUsage usage);
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetCompatibleFormat(UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.FormatUsage usage)
-    // Offset: 0x138C2E8
+    // Offset: 0x12ED5AC
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetCompatibleFormat(UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::FormatUsage usage);
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetGraphicsFormat(UnityEngine.Experimental.Rendering.DefaultFormat format)
-    // Offset: 0x138C338
+    // Offset: 0x12ED5FC
     static UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(UnityEngine::Experimental::Rendering::DefaultFormat format);
   }; // UnityEngine.SystemInfo
 }

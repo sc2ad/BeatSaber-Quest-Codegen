@@ -37,13 +37,13 @@ namespace System {
     // Creating value type constructor for type: NumberBuffer
     NumberBuffer(uint8_t* baseAddress_ = {}, ::Il2CppChar* digits_ = {}, int precision_ = {}, int scale_ = {}, bool sign_ = {}) : baseAddress{baseAddress_}, digits{digits_}, precision{precision_}, scale{scale_}, sign{sign_} {}
     // public System.Void .ctor(System.Byte* stackBuffer)
-    // Offset: 0xA42F90
+    // Offset: 0x9AC45C
     static Number::NumberBuffer* New_ctor(uint8_t* stackBuffer);
     // public System.Byte* PackForNative()
-    // Offset: 0xA42FA4
+    // Offset: 0x9AC470
     uint8_t* PackForNative();
     // static private System.Void .cctor()
-    // Offset: 0x1354374
+    // Offset: 0x12B5638
     static void _cctor();
   }; // System.Number/NumberBuffer
 }

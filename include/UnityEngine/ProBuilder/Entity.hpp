@@ -19,16 +19,16 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     UnityEngine::ProBuilder::EntityType m_EntityType;
     // public UnityEngine.ProBuilder.EntityType get_entityType()
-    // Offset: 0xF8DCC0
+    // Offset: 0xEEEF84
     UnityEngine::ProBuilder::EntityType get_entityType();
     // public System.Void Awake()
-    // Offset: 0xF8DCC8
+    // Offset: 0xEEEF8C
     void Awake();
     // public System.Void SetEntity(UnityEngine.ProBuilder.EntityType t)
-    // Offset: 0xF8DD88
+    // Offset: 0xEEF04C
     void SetEntity(UnityEngine::ProBuilder::EntityType t);
     // public System.Void .ctor()
-    // Offset: 0xF8DD90
+    // Offset: 0xEEF054
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

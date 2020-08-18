@@ -17,10 +17,10 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x18
     NUnit::Framework::Internal::Commands::TestCommand* innerCommand;
     // public NUnit.Framework.Internal.Commands.TestCommand GetInnerCommand()
-    // Offset: 0x1081C68
+    // Offset: 0xFE3F2C
     NUnit::Framework::Internal::Commands::TestCommand* GetInnerCommand();
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x10816B8
+    // Offset: 0xFE397C
     static DelegatingTestCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand);
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand
 }

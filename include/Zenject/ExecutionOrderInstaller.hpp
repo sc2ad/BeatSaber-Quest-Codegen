@@ -30,10 +30,10 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::List_1<System::Type*>* typeOrder;
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Type> typeOrder)
-    // Offset: 0xF2ADE4
+    // Offset: 0xE8C0A8
     static ExecutionOrderInstaller* New_ctor(System::Collections::Generic::List_1<System::Type*>* typeOrder);
     // public override System.Void InstallBindings()
-    // Offset: 0xF2AE50
+    // Offset: 0xE8C114
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

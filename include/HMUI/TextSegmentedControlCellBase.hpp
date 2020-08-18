@@ -24,22 +24,22 @@ namespace HMUI {
     // Offset: 0x38
     TMPro::TextMeshProUGUI* text;
     // public System.Void set_text(System.String value)
-    // Offset: 0x10E4FF8
+    // Offset: 0x10472BC
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x10E5128
+    // Offset: 0x10473EC
     ::Il2CppString* get_text();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x10E4FDC
+    // Offset: 0x10472A0
     void set_fontSize(float value);
     // public System.Single get_fontSize()
-    // Offset: 0x10E5144
+    // Offset: 0x1047408
     float get_fontSize();
     // public System.Single get_preferredWidth()
-    // Offset: 0x10E5014
+    // Offset: 0x10472D8
     float get_preferredWidth();
     // public System.Void .ctor()
-    // Offset: 0x10E5120
+    // Offset: 0x10473E4
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()

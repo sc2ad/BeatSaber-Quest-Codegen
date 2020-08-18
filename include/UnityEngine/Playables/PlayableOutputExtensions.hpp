@@ -37,28 +37,28 @@ namespace UnityEngine::Playables {
   class PlayableOutputExtensions : public ::Il2CppObject {
     public:
     // static public System.Void SetReferenceObject(U output, UnityEngine.Object value)
-    // Offset: 0xC5E3A0
+    // Offset: 0xFFFFFFFF
     template<class U>
     static void SetReferenceObject(U output, UnityEngine::Object* value) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<U>> && is_value_type_v<U>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Playables", "PlayableOutputExtensions", "SetReferenceObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, output, value));
     }
     // static public System.Void SetUserData(U output, UnityEngine.Object value)
-    // Offset: 0xC5E450
+    // Offset: 0xFFFFFFFF
     template<class U>
     static void SetUserData(U output, UnityEngine::Object* value) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<U>> && is_value_type_v<U>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Playables", "PlayableOutputExtensions", "SetUserData", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, output, value));
     }
     // static public UnityEngine.Playables.Playable GetSourcePlayable(U output)
-    // Offset: 0x13E0EE4
+    // Offset: 0xFFFFFFFF
     template<class U>
     static UnityEngine::Playables::Playable GetSourcePlayable(U output) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<U>> && is_value_type_v<U>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::Playables::Playable>("UnityEngine.Playables", "PlayableOutputExtensions", "GetSourcePlayable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, output)));
     }
     // static public System.Void SetSourcePlayable(U output, V value, System.Int32 port)
-    // Offset: 0xC5E3E8
+    // Offset: 0xFFFFFFFF
     template<class U, class V>
     static void SetSourcePlayable(U output, V value, int port) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<U>> && is_value_type_v<U>);
@@ -66,28 +66,28 @@ namespace UnityEngine::Playables {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod("UnityEngine.Playables", "PlayableOutputExtensions", "SetSourcePlayable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()}, output, value, port)));
     }
     // static public System.Int32 GetSourceOutputPort(U output)
-    // Offset: 0x11DD034
+    // Offset: 0xFFFFFFFF
     template<class U>
     static int GetSourceOutputPort(U output) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<U>> && is_value_type_v<U>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("UnityEngine.Playables", "PlayableOutputExtensions", "GetSourceOutputPort", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, output)));
     }
     // static public System.Void SetWeight(U output, System.Single value)
-    // Offset: 0xC5E498
+    // Offset: 0xFFFFFFFF
     template<class U>
     static void SetWeight(U output, float value) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<U>> && is_value_type_v<U>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Playables", "PlayableOutputExtensions", "SetWeight", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, output, value));
     }
     // static public System.Void PushNotification(U output, UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0xC5E330
+    // Offset: 0xFFFFFFFF
     template<class U>
     static void PushNotification(U output, UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<U>> && is_value_type_v<U>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Playables", "PlayableOutputExtensions", "PushNotification", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, output, origin, notification, context));
     }
     // static public System.Void AddNotificationReceiver(U output, UnityEngine.Playables.INotificationReceiver receiver)
-    // Offset: 0xC5E2E8
+    // Offset: 0xFFFFFFFF
     template<class U>
     static void AddNotificationReceiver(U output, UnityEngine::Playables::INotificationReceiver* receiver) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<U>> && is_value_type_v<U>);

@@ -33,79 +33,79 @@ namespace UnityEngine {
     // Creating value type constructor for type: Bounds
     Bounds(UnityEngine::Vector3 m_Center_ = {}, UnityEngine::Vector3 m_Extents_ = {}) : m_Center{m_Center_}, m_Extents{m_Extents_} {}
     // public System.Void .ctor(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
-    // Offset: 0xA41BD8
+    // Offset: 0x9AB0A4
     static Bounds* New_ctor(UnityEngine::Vector3 center, UnityEngine::Vector3 size);
     // public UnityEngine.Vector3 get_center()
-    // Offset: 0xA41C28
+    // Offset: 0x9AB0F4
     UnityEngine::Vector3 get_center();
     // public System.Void set_center(UnityEngine.Vector3 value)
-    // Offset: 0xA41C34
+    // Offset: 0x9AB100
     void set_center(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_size()
-    // Offset: 0xA41C40
+    // Offset: 0x9AB10C
     UnityEngine::Vector3 get_size();
     // public System.Void set_size(UnityEngine.Vector3 value)
-    // Offset: 0xA41C48
+    // Offset: 0x9AB114
     void set_size(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_extents()
-    // Offset: 0xA41C50
+    // Offset: 0x9AB11C
     UnityEngine::Vector3 get_extents();
     // public System.Void set_extents(UnityEngine.Vector3 value)
-    // Offset: 0xA41C5C
+    // Offset: 0x9AB128
     void set_extents(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_min()
-    // Offset: 0xA41C68
+    // Offset: 0x9AB134
     UnityEngine::Vector3 get_min();
     // public UnityEngine.Vector3 get_max()
-    // Offset: 0xA41C70
+    // Offset: 0x9AB13C
     UnityEngine::Vector3 get_max();
     // public System.Void SetMinMax(UnityEngine.Vector3 min, UnityEngine.Vector3 max)
-    // Offset: 0xA41C78
+    // Offset: 0x9AB144
     void SetMinMax(UnityEngine::Vector3 min, UnityEngine::Vector3 max);
     // public System.Void Encapsulate(UnityEngine.Vector3 point)
-    // Offset: 0xA41C80
+    // Offset: 0x9AB14C
     void Encapsulate(UnityEngine::Vector3 point);
     // public System.Boolean IntersectRay(UnityEngine.Ray ray, System.Single distance)
-    // Offset: 0xA41C88
+    // Offset: 0x9AB154
     bool IntersectRay(UnityEngine::Ray ray, float& distance);
     // public System.Boolean Contains(UnityEngine.Vector3 point)
-    // Offset: 0xA41D08
+    // Offset: 0x9AB1D4
     bool Contains(UnityEngine::Vector3 point);
     // static private System.Boolean IntersectRayAABB(UnityEngine.Ray ray, UnityEngine.Bounds bounds, System.Single dist)
-    // Offset: 0x12FE448
+    // Offset: 0x126170C
     static bool IntersectRayAABB(UnityEngine::Ray ray, UnityEngine::Bounds bounds, float& dist);
     // static private System.Boolean Contains_Injected(UnityEngine.Bounds _unity_self, UnityEngine.Vector3 point)
-    // Offset: 0x12FE648
+    // Offset: 0x126190C
     static bool Contains_Injected(UnityEngine::Bounds& _unity_self, UnityEngine::Vector3& point);
     // static private System.Boolean IntersectRayAABB_Injected(UnityEngine.Ray ray, UnityEngine.Bounds bounds, System.Single dist)
-    // Offset: 0x12FE698
+    // Offset: 0x126195C
     static bool IntersectRayAABB_Injected(UnityEngine::Ray& ray, UnityEngine::Bounds& bounds, float& dist);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA41BE0
+    // Offset: 0x9AB0AC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA41BE8
+    // Offset: 0x9AB0B4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Bounds other)
-    // Offset: 0xA41BF0
+    // Offset: 0x9AB0BC
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Bounds other)
     bool Equals(UnityEngine::Bounds other);
     // public override System.String ToString()
-    // Offset: 0xA41D00
+    // Offset: 0x9AB1CC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Bounds
   // static public System.Boolean op_Equality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
-  // Offset: 0x12FE080
+  // Offset: 0x1261344
   bool operator ==(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
-  // Offset: 0x12FE19C
+  // Offset: 0x1261460
   bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

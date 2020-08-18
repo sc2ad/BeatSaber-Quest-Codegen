@@ -17,10 +17,10 @@ namespace UnityEngine {
     // Offset: 0x10
     ::Il2CppString* id;
     // public System.String get_id()
-    // Offset: 0x197480C
+    // Offset: 0x18CFB50
     ::Il2CppString* get_id();
     // protected System.Void .ctor()
-    // Offset: 0x1974814
+    // Offset: 0x18CFB58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SubsystemDescriptor* New_ctor();

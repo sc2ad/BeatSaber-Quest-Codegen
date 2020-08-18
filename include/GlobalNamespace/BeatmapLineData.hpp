@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Array<GlobalNamespace::BeatmapObjectData*>* beatmapObjectsData;
     // public System.Void .ctor()
-    // Offset: 0xB54260
+    // Offset: 0x18DB790
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapLineData* New_ctor();

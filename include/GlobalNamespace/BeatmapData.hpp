@@ -39,52 +39,52 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     int spawnRotationEventsCount;
     // public BeatmapLineData[] get_beatmapLinesData()
-    // Offset: 0xB906F0
+    // Offset: 0x18F9D9C
     ::Array<GlobalNamespace::BeatmapLineData*>* get_beatmapLinesData();
     // private System.Void set_beatmapLinesData(BeatmapLineData[] value)
-    // Offset: 0xB906F8
+    // Offset: 0x18F9DA4
     void set_beatmapLinesData(::Array<GlobalNamespace::BeatmapLineData*>* value);
     // public BeatmapEventData[] get_beatmapEventData()
-    // Offset: 0xB90700
+    // Offset: 0x18F9DAC
     ::Array<GlobalNamespace::BeatmapEventData*>* get_beatmapEventData();
     // private System.Void set_beatmapEventData(BeatmapEventData[] value)
-    // Offset: 0xB90708
+    // Offset: 0x18F9DB4
     void set_beatmapEventData(::Array<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Int32 get_notesCount()
-    // Offset: 0xB90710
+    // Offset: 0x18F9DBC
     int get_notesCount();
     // private System.Void set_notesCount(System.Int32 value)
-    // Offset: 0xB90718
+    // Offset: 0x18F9DC4
     void set_notesCount(int value);
     // public System.Int32 get_obstaclesCount()
-    // Offset: 0xB90720
+    // Offset: 0x18F9DCC
     int get_obstaclesCount();
     // private System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0xB90728
+    // Offset: 0x18F9DD4
     void set_obstaclesCount(int value);
     // public System.Int32 get_bombsCount()
-    // Offset: 0xB90730
+    // Offset: 0x18F9DDC
     int get_bombsCount();
     // private System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0xB90738
+    // Offset: 0x18F9DE4
     void set_bombsCount(int value);
     // public System.Int32 get_spawnRotationEventsCount()
-    // Offset: 0xB90740
+    // Offset: 0x18F9DEC
     int get_spawnRotationEventsCount();
     // private System.Void set_spawnRotationEventsCount(System.Int32 value)
-    // Offset: 0xB90748
+    // Offset: 0x18F9DF4
     void set_spawnRotationEventsCount(int value);
     // public System.Void .ctor(BeatmapLineData[] beatmapLinesData, BeatmapEventData[] beatmapEventData)
-    // Offset: 0xB8A5AC
+    // Offset: 0x18F3C58
     static BeatmapData* New_ctor(::Array<GlobalNamespace::BeatmapLineData*>* beatmapLinesData, ::Array<GlobalNamespace::BeatmapEventData*>* beatmapEventData);
     // public BeatmapData GetCopy()
-    // Offset: 0xB8B31C
+    // Offset: 0x18F49C8
     GlobalNamespace::BeatmapData* GetCopy();
     // public BeatmapLineData[] GetBeatmapLineDataCopy()
-    // Offset: 0xB90750
+    // Offset: 0x18F9DFC
     ::Array<GlobalNamespace::BeatmapLineData*>* GetBeatmapLineDataCopy();
     // public BeatmapEventData[] GetBeatmapEventDataCopy()
-    // Offset: 0xB90948
+    // Offset: 0x18F9FF4
     ::Array<GlobalNamespace::BeatmapEventData*>* GetBeatmapEventDataCopy();
   }; // BeatmapData
 }

@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults;
     // public System.Boolean get_IsMissionComplete()
-    // Offset: 0xC0078C
+    // Offset: 0x19492A0
     bool get_IsMissionComplete();
     // public System.Void .ctor(LevelCompletionResults levelCompletionResults, MissionObjectiveResult[] missionObjectiveResults)
-    // Offset: 0xC0080C
+    // Offset: 0x1949320
     static MissionCompletionResults* New_ctor(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults);
   }; // MissionCompletionResults
 }

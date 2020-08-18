@@ -36,25 +36,25 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x18
     UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer* m_ResultRenderer;
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE3FFF8
+    // Offset: 0xDA02BC
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE401D4
+    // Offset: 0xDA0498
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void OnGUI()
-    // Offset: 0xE401D8
+    // Offset: 0xDA049C
     void OnGUI();
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0xE4075C
+    // Offset: 0xDA0A20
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE407D0
+    // Offset: 0xDA0A94
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // private System.Void LogRecieved(System.String message, System.String stacktrace, UnityEngine.LogType type)
-    // Offset: 0xE407D4
+    // Offset: 0xDA0A98
     void LogRecieved(::Il2CppString* message, ::Il2CppString* stacktrace, UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0xE40884
+    // Offset: 0xDA0B48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

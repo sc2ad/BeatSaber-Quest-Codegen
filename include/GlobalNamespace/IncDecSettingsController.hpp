@@ -35,19 +35,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::UI::Button* incButton;
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0xB42748
+    // Offset: 0xB45414
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0xB42768
+    // Offset: 0xB45434
     void set_enableInc(bool value);
     // protected System.Void set_text(System.String value)
-    // Offset: 0xB42788
+    // Offset: 0xB45454
     void set_text(::Il2CppString* value);
     // protected System.Void OnEnable()
-    // Offset: 0xB427A4
+    // Offset: 0xB45470
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xB42874
+    // Offset: 0xB45540
     void OnDisable();
     // public System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFF
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0xB42944
+    // Offset: 0xB45610
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

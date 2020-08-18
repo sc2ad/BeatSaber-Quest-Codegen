@@ -26,22 +26,22 @@ namespace System {
   class EventHandler_1 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x17FC9DC
+    // Offset: 0xFFFFFFFF
     static EventHandler_1<TEventArgs>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       return (EventHandler_1<TEventArgs>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EventHandler_1<TEventArgs>*>::get(), object, method));
     }
     // public System.Void Invoke(System.Object sender, TEventArgs e)
-    // Offset: 0x17FC9F0
+    // Offset: 0xFFFFFFFF
     void Invoke(::Il2CppObject* sender, TEventArgs e) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", sender, e));
     }
     // public System.IAsyncResult BeginInvoke(System.Object sender, TEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x17FCDF4
+    // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, TEventArgs e, System::AsyncCallback* callback, ::Il2CppObject* object) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", sender, e, callback, object));
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x17FCE24
+    // Offset: 0xFFFFFFFF
     void EndInvoke(System::IAsyncResult* result) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "EndInvoke", result));
     }

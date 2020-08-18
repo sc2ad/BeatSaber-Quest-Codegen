@@ -35,7 +35,7 @@ namespace UnityEngine {
     // Offset: 0x20
     UnityEngine::GUILayoutGroup* windows;
     // System.Void .ctor()
-    // Offset: 0x126C3A8
+    // Offset: 0x11CE66C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GUILayoutUtility::LayoutCache* New_ctor();

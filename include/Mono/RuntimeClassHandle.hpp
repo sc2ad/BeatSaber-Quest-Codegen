@@ -30,27 +30,27 @@ namespace Mono {
     // Creating value type constructor for type: RuntimeClassHandle
     RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value_ = {}) : value{value_} {}
     // System.Void .ctor(Mono.RuntimeStructs/MonoClass* value)
-    // Offset: 0xA3CC68
+    // Offset: 0x9A6134
     static RuntimeClassHandle* New_ctor(Mono::RuntimeStructs::MonoClass* value);
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xA3CC70
+    // Offset: 0x9A613C
     static RuntimeClassHandle* New_ctor(System::IntPtr ptr);
     // Mono.RuntimeStructs/MonoClass* get_Value()
-    // Offset: 0xA3CC9C
+    // Offset: 0x9A6168
     Mono::RuntimeStructs::MonoClass* get_Value();
     // static System.IntPtr GetTypeFromClass(Mono.RuntimeStructs/MonoClass* klass)
-    // Offset: 0x10B3098
+    // Offset: 0x101535C
     static System::IntPtr GetTypeFromClass(Mono::RuntimeStructs::MonoClass* klass);
     // System.RuntimeTypeHandle GetTypeHandle()
-    // Offset: 0xA3CCE0
+    // Offset: 0x9A61AC
     System::RuntimeTypeHandle GetTypeHandle();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA3CCA4
+    // Offset: 0x9A6170
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3CCAC
+    // Offset: 0x9A6178
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

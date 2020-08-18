@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetHighQualityOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1522140
+    // Offset: 0x1483478
     static IVROverlay::_SetHighQualityOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle)
-    // Offset: 0x1522154
+    // Offset: 0x148348C
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15223BC
+    // Offset: 0x14836F4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1522448
+    // Offset: 0x1483780
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetHighQualityOverlay
 }

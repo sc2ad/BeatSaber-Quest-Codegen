@@ -29,19 +29,19 @@ namespace Zenject {
   class FactoryToChoiceBinder_2 : public Zenject::FactoryFromBinder_2<TParam1, TContract> {
     public:
     // public Zenject.FactoryFromBinder`2<TParam1,TContract> ToSelf()
-    // Offset: 0x13B8870
+    // Offset: 0xFFFFFFFF
     Zenject::FactoryFromBinder_2<TParam1, TContract>* ToSelf() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::FactoryFromBinder_2<TParam1, TContract>*>(this, "ToSelf")));
     }
     // public Zenject.FactoryFromBinder`2<TParam1,TConcrete> To()
-    // Offset: 0x13E7764
+    // Offset: 0xFFFFFFFF
     template<class TConcrete>
     Zenject::FactoryFromBinder_2<TParam1, TConcrete>* To() {
       static_assert(std::is_convertible_v<TConcrete, TContract>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::FactoryFromBinder_2<TParam1, TConcrete>*>(this, "To", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()})));
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0x13B884C
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.FactoryFromBinder`2
     // Base method: System.Void FactoryFromBinder`2::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     static FactoryToChoiceBinder_2<TParam1, TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {

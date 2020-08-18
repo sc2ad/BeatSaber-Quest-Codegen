@@ -47,43 +47,43 @@ namespace ModestTree::Util {
     // Offset: 0x38
     System::Collections::Generic::IEnumerator_1<UnityEngine::Transform*>* $$7__wrap1;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xD60E68
+    // Offset: 0xCC112C
     static UnityUtil::$GetParentsAndSelf$d__17* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xD62584
+    // Offset: 0xCC2848
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xD62568
+    // Offset: 0xCC282C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xD62644
+    // Offset: 0xCC2908
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private UnityEngine.Transform System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current()
-    // Offset: 0xD62954
+    // Offset: 0xCC2C18
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     UnityEngine::Transform* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xD6295C
+    // Offset: 0xCC2C20
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xD629BC
+    // Offset: 0xCC2C80
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Transform> System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator()
-    // Offset: 0xD629C4
+    // Offset: 0xCC2C88
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<UnityEngine::Transform*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xD62A78
+    // Offset: 0xCC2D3C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

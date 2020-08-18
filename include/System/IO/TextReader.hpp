@@ -16,11 +16,11 @@ namespace System::IO {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -48,40 +48,40 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.TextReader Null
     static void _set_Null(System::IO::TextReader* value);
     // public System.Void Close()
-    // Offset: 0x1006BFC
+    // Offset: 0xF68EC0
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1003B90
+    // Offset: 0xF65E54
     void Dispose(bool disposing);
     // public System.Int32 Peek()
-    // Offset: 0x1006CF4
+    // Offset: 0xF68FB8
     int Peek();
     // public System.Int32 Read()
-    // Offset: 0x1006CFC
+    // Offset: 0xF68FC0
     int Read();
     // public System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1006D04
+    // Offset: 0xF68FC8
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public System.String ReadToEnd()
-    // Offset: 0x1006F08
+    // Offset: 0xF691CC
     ::Il2CppString* ReadToEnd();
     // public System.String ReadLine()
-    // Offset: 0x1007000
+    // Offset: 0xF692C4
     ::Il2CppString* ReadLine();
     // static public System.IO.TextReader Synchronized(System.IO.TextReader reader)
-    // Offset: 0x1007104
+    // Offset: 0xF693C8
     static System::IO::TextReader* Synchronized(System::IO::TextReader* reader);
     // static private System.Void .cctor()
-    // Offset: 0x1007238
+    // Offset: 0xF694FC
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1003284
+    // Offset: 0xF65548
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextReader* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x1006C78
+    // Offset: 0xF68F3C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

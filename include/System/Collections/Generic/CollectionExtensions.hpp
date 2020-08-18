@@ -22,13 +22,13 @@ namespace System::Collections::Generic {
   class CollectionExtensions : public ::Il2CppObject {
     public:
     // static public TValue GetValueOrDefault(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue> dictionary, TKey key)
-    // Offset: 0xD569C4
+    // Offset: 0xFFFFFFFF
     template<class TValue, class TKey>
     static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>("System.Collections.Generic", "CollectionExtensions", "GetValueOrDefault", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, dictionary, key)));
     }
     // static public TValue GetValueOrDefault(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue> dictionary, TKey key, TValue defaultValue)
-    // Offset: 0xD569D8
+    // Offset: 0xFFFFFFFF
     template<class TValue, class TKey>
     static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* dictionary, TKey key, TValue defaultValue) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>("System.Collections.Generic", "CollectionExtensions", "GetValueOrDefault", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, dictionary, key, defaultValue)));

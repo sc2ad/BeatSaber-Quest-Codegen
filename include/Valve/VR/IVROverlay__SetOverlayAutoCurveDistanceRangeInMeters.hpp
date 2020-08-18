@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x160A9C8
+    // Offset: 0x156BD00
     static IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single fMinDistanceInMeters, System.Single fMaxDistanceInMeters)
-    // Offset: 0x160A9DC
+    // Offset: 0x156BD14
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Single fMinDistanceInMeters, System.Single fMaxDistanceInMeters, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x160AC74
+    // Offset: 0x156BFAC
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x160AD34
+    // Offset: 0x156C06C
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayAutoCurveDistanceRangeInMeters
 }

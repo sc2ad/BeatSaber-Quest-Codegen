@@ -41,19 +41,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ILevelEndActions* levelEndActions;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xC51D8C
+    // Offset: 0x196F3D8
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC51E34
+    // Offset: 0x196F480
     void OnDestroy();
     // private System.Void HandleLevelFinishedEvent()
-    // Offset: 0xC51F2C
+    // Offset: 0x196F578
     void HandleLevelFinishedEvent();
     // private System.Void LogScore()
-    // Offset: 0xC51F30
+    // Offset: 0x196F57C
     void LogScore();
     // public System.Void .ctor()
-    // Offset: 0xC52030
+    // Offset: 0x196F67C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

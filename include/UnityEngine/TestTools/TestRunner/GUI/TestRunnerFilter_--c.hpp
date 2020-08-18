@@ -11,14 +11,14 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: NUnit::Framework::Internal::Filters
@@ -60,22 +60,22 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.String,UnityEngine.TestRunner.NUnitExtensions.Filters.CategoryFilterExtended> <>9__15_3
     static void _set_$$9__15_3(System::Func_2<::Il2CppString*, UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE4334C
+    // Offset: 0xDA3610
     static void _cctor();
     // NUnit.Framework.Internal.Filters.FullNameFilter <BuildNUnitFilter>b__15_0(System.String n)
-    // Offset: 0xE433BC
+    // Offset: 0xDA3680
     NUnit::Framework::Internal::Filters::FullNameFilter* $BuildNUnitFilter$b__15_0(::Il2CppString* n);
     // NUnit.Framework.Internal.Filters.FullNameFilter <BuildNUnitFilter>b__15_1(System.String n)
-    // Offset: 0xE43420
+    // Offset: 0xDA36E4
     NUnit::Framework::Internal::Filters::FullNameFilter* $BuildNUnitFilter$b__15_1(::Il2CppString* n);
     // UnityEngine.TestRunner.NUnitExtensions.Filters.AssemblyNameFilter <BuildNUnitFilter>b__15_2(System.String c)
-    // Offset: 0xE43494
+    // Offset: 0xDA3758
     UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter* $BuildNUnitFilter$b__15_2(::Il2CppString* c);
     // UnityEngine.TestRunner.NUnitExtensions.Filters.CategoryFilterExtended <BuildNUnitFilter>b__15_3(System.String c)
-    // Offset: 0xE434F8
+    // Offset: 0xDA37BC
     UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended* $BuildNUnitFilter$b__15_3(::Il2CppString* c);
     // public System.Void .ctor()
-    // Offset: 0xE433B4
+    // Offset: 0xDA3678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestRunnerFilter::$$c* New_ctor();

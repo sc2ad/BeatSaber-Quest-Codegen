@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x10
     ::Il2CppString* tooltip;
     // public System.Void .ctor(System.String tooltip)
-    // Offset: 0x138EF18
+    // Offset: 0x12F01DC
     static TooltipAttribute* New_ctor(::Il2CppString* tooltip);
   }; // UnityEngine.TooltipAttribute
 }

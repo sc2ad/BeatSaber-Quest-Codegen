@@ -97,101 +97,101 @@ namespace Zenject {
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.DisposeBlock> _pool
     static void _set__pool(Zenject::StaticMemoryPool_1<Zenject::DisposeBlock*>* value);
     // static private System.Void OnSpawned(Zenject.DisposeBlock that)
-    // Offset: 0xF2A5FC
+    // Offset: 0xE8B8C0
     static void OnSpawned(Zenject::DisposeBlock* that);
     // static private System.Void OnDespawned(Zenject.DisposeBlock that)
-    // Offset: 0xF2A634
+    // Offset: 0xE8B8F8
     static void OnDespawned(Zenject::DisposeBlock* that);
     // private System.Void LazyInitializeDisposableList()
-    // Offset: 0xF2A8C4
+    // Offset: 0xE8BB88
     void LazyInitializeDisposableList();
     // public System.Void AddRange(System.Collections.Generic.IList`1<T> disposables)
-    // Offset: 0xC5F808
+    // Offset: 0xFFFFFFFF
     template<class T>
     void AddRange(System::Collections::Generic::IList_1<T>* disposables) {
       static_assert(std::is_base_of_v<System::IDisposable, std::remove_pointer_t<T>>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AddRange", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, disposables));
     }
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0xF2A96C
+    // Offset: 0xE8BC30
     void Add(System::IDisposable* disposable);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0xF2AA08
+    // Offset: 0xE8BCCC
     void Remove(System::IDisposable* disposable);
     // private System.Void StoreSpawnedObject(T obj, Zenject.IDespawnableMemoryPool`1<T> pool)
-    // Offset: 0xC5F9A8
+    // Offset: 0xFFFFFFFF
     template<class T>
     void StoreSpawnedObject(T obj, Zenject::IDespawnableMemoryPool_1<T>* pool) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "StoreSpawnedObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, pool));
     }
     // public T Spawn(Zenject.IMemoryPool`1<T> pool)
-    // Offset: 0xD50AA4
+    // Offset: 0xFFFFFFFF
     template<class T>
     T Spawn(Zenject::IMemoryPool_1<T>* pool) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, pool)));
     }
     // public TValue Spawn(Zenject.IMemoryPool`2<TParam1,TValue> pool, TParam1 p1)
-    // Offset: 0xD5714C
+    // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1>
     TValue Spawn(Zenject::IMemoryPool_2<TParam1, TValue>* pool, TParam1 p1) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()}, pool, p1)));
     }
     // public TValue Spawn(Zenject.IMemoryPool`3<TParam1,TParam2,TValue> pool, TParam1 p1, TParam2 p2)
-    // Offset: 0xD57060
+    // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2>
     TValue Spawn(Zenject::IMemoryPool_3<TParam1, TParam2, TValue>* pool, TParam1 p1, TParam2 p2) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()}, pool, p1, p2)));
     }
     // public TValue Spawn(Zenject.IMemoryPool`4<TParam1,TParam2,TParam3,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3)
-    // Offset: 0xD56F64
+    // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3>
     TValue Spawn(Zenject::IMemoryPool_4<TParam1, TParam2, TParam3, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()}, pool, p1, p2, p3)));
     }
     // public TValue Spawn(Zenject.IMemoryPool`5<TParam1,TParam2,TParam3,TParam4,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4)
-    // Offset: 0xD56E60
+    // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4>
     TValue Spawn(Zenject::IMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()}, pool, p1, p2, p3, p4)));
     }
     // public TValue Spawn(Zenject.IMemoryPool`6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5)
-    // Offset: 0xD56D4C
+    // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4, class TParam5>
     TValue Spawn(Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()}, pool, p1, p2, p3, p4, p5)));
     }
     // public TValue Spawn(Zenject.IMemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6)
-    // Offset: 0xD56C30
+    // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6>
     TValue Spawn(Zenject::IMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()}, pool, p1, p2, p3, p4, p5, p6)));
     }
     // public TValue Spawn(Zenject.IMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7)
-    // Offset: 0xD56B04
+    // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TParam7>
     TValue Spawn(Zenject::IMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get()}, pool, p1, p2, p3, p4, p5, p6, p7)));
     }
     // public System.Collections.Generic.List`1<T> SpawnList(System.Collections.Generic.IEnumerable`1<T> elements)
-    // Offset: 0xD2B854
+    // Offset: 0xFFFFFFFF
     template<class T>
     System::Collections::Generic::List_1<T>* SpawnList(System::Collections::Generic::IEnumerable_1<T>* elements) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>(this, "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, elements)));
     }
     // public System.Collections.Generic.List`1<T> SpawnList()
-    // Offset: 0xD2B7A0
+    // Offset: 0xFFFFFFFF
     template<class T>
     System::Collections::Generic::List_1<T>* SpawnList() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>(this, "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public Zenject.DisposeBlock Spawn()
-    // Offset: 0xF2AA74
+    // Offset: 0xE8BD38
     static Zenject::DisposeBlock* Spawn();
     // static private System.Void .cctor()
-    // Offset: 0xF2AB7C
+    // Offset: 0xE8BE40
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0xF2AAF0
+    // Offset: 0xE8BDB4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -199,7 +199,7 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0xF2AB74
+    // Offset: 0xE8BE38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DisposeBlock* New_ctor();

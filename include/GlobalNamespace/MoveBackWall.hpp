@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Material* material;
     // protected System.Void Start()
-    // Offset: 0xC0BB84
+    // Offset: 0x19546B4
     void Start();
     // protected System.Void Update()
-    // Offset: 0xC0BBEC
+    // Offset: 0x195471C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC0BD1C
+    // Offset: 0x195484C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

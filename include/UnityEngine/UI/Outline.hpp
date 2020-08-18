@@ -21,7 +21,7 @@ namespace UnityEngine::UI {
   class Outline : public UnityEngine::UI::Shadow {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1200668
+    // Offset: 0x116292C
     // Implemented from: UnityEngine.UI.Shadow
     // Base method: System.Void Shadow::.ctor()
     // Base method: System.Void BaseMeshEffect::.ctor()
@@ -33,7 +33,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Outline* New_ctor();
     // public override System.Void ModifyMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x12006EC
+    // Offset: 0x11629B0
     // Implemented from: UnityEngine.UI.Shadow
     // Base method: System.Void Shadow::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);

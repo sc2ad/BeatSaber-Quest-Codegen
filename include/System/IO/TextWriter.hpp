@@ -78,76 +78,76 @@ namespace System::IO {
     // Set static field: static private System.Action`1<System.Object> _FlushDelegate
     static void _set__FlushDelegate(System::Action_1<::Il2CppObject*>* value);
     // static private System.String get_InitialNewLine()
-    // Offset: 0x1007744
+    // Offset: 0xF69A08
     static ::Il2CppString* get_InitialNewLine();
     // protected System.Void .ctor(System.IFormatProvider formatProvider)
-    // Offset: 0x1004E88
+    // Offset: 0xF6714C
     static TextWriter* New_ctor(System::IFormatProvider* formatProvider);
     // public System.IFormatProvider get_FormatProvider()
-    // Offset: 0x10077EC
+    // Offset: 0xF69AB0
     System::IFormatProvider* get_FormatProvider();
     // public System.Void Close()
-    // Offset: 0x1007818
+    // Offset: 0xF69ADC
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1005A48
+    // Offset: 0xF67D0C
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x1007910
+    // Offset: 0xF69BD4
     void Flush();
     // public System.Text.Encoding get_Encoding()
     // Offset: 0xFFFFFFFF
     System::Text::Encoding* get_Encoding();
     // static public System.IO.TextWriter Synchronized(System.IO.TextWriter writer)
-    // Offset: 0x1007914
+    // Offset: 0xF69BD8
     static System::IO::TextWriter* Synchronized(System::IO::TextWriter* writer);
     // public System.Void Write(System.Char value)
-    // Offset: 0x1007A60
+    // Offset: 0xF69D24
     void Write(::Il2CppChar value);
     // public System.Void Write(System.Char[] buffer)
-    // Offset: 0x1007A64
+    // Offset: 0xF69D28
     void Write(::Array<::Il2CppChar>* buffer);
     // public System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1007A84
+    // Offset: 0xF69D48
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void Write(System.String value)
-    // Offset: 0x1007C90
+    // Offset: 0xF69F54
     void Write(::Il2CppString* value);
     // public System.Void Write(System.String format, System.Object arg0)
-    // Offset: 0x1007CD4
+    // Offset: 0xF69F98
     void Write(::Il2CppString* format, ::Il2CppObject* arg0);
     // public System.Void WriteLine()
-    // Offset: 0x1007D34
+    // Offset: 0xF69FF8
     void WriteLine();
     // public System.Void WriteLine(System.Char value)
-    // Offset: 0x1007D48
+    // Offset: 0xF6A00C
     void WriteLine(::Il2CppChar value);
     // public System.Void WriteLine(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1007D80
+    // Offset: 0xF6A044
     void WriteLine(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void WriteLine(System.String value)
-    // Offset: 0x1007DBC
+    // Offset: 0xF6A080
     void WriteLine(::Il2CppString* value);
     // public System.Void WriteLine(System.String format, System.Object arg0)
-    // Offset: 0x1007F64
+    // Offset: 0xF6A228
     void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0);
     // public System.Void WriteLine(System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0x1007FC4
+    // Offset: 0xF6A288
     void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public System.Void WriteLine(System.String format, System.Object[] arg)
-    // Offset: 0x100802C
+    // Offset: 0xF6A2F0
     void WriteLine(::Il2CppString* format, ::Array<::Il2CppObject*>* arg);
     // static private System.Void .cctor()
-    // Offset: 0x100808C
+    // Offset: 0xF6A350
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x100774C
+    // Offset: 0xF69A10
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextWriter* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x1007894
+    // Offset: 0xF69B58
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

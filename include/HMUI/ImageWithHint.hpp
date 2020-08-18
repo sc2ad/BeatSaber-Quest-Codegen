@@ -37,16 +37,16 @@ namespace HMUI {
     // Offset: 0x20
     HMUI::HoverHint* hoverHint;
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0xEE50B0
+    // Offset: 0xE45374
     void set_sprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0xEE50CC
+    // Offset: 0xE45390
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
-    // Offset: 0xEE50E8
+    // Offset: 0xE453AC
     void set_hintText(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0xEE5104
+    // Offset: 0xE453C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

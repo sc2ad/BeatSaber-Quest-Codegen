@@ -12,13 +12,13 @@ namespace GlobalNamespace {
   class ConfigSerializer : public ::Il2CppObject {
     public:
     // static public System.Void SaveConfig(System.Object config, System.String filePath)
-    // Offset: 0xCAB778
+    // Offset: 0xC0BA3C
     static void SaveConfig(::Il2CppObject* config, ::Il2CppString* filePath);
     // static public System.Boolean LoadConfig(System.Object config, System.String filePath)
-    // Offset: 0xCABBE8
+    // Offset: 0xC0BEAC
     static bool LoadConfig(::Il2CppObject* config, ::Il2CppString* filePath);
     // public System.Void .ctor()
-    // Offset: 0xCAC1B0
+    // Offset: 0xC0C474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConfigSerializer* New_ctor();

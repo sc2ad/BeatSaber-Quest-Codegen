@@ -55,25 +55,25 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     int get_Remaining();
     // public System.Void Reset()
-    // Offset: 0x12EA478
+    // Offset: 0x124D73C
     void Reset();
     // System.Void InternalReset()
-    // Offset: 0x12EA4AC
+    // Offset: 0x124D770
     void InternalReset();
     // System.Void InternalInitialize(System.Char* charStart, System.Char* charEnd, System.Text.EncoderNLS encoder, System.Boolean setEncoder)
-    // Offset: 0x12E60E0
+    // Offset: 0x12493A4
     void InternalInitialize(::Il2CppChar* charStart, ::Il2CppChar* charEnd, System::Text::EncoderNLS* encoder, bool setEncoder);
     // System.Char InternalGetNextChar()
-    // Offset: 0x12E6124
+    // Offset: 0x12493E8
     ::Il2CppChar InternalGetNextChar();
     // System.Boolean InternalFallback(System.Char ch, System.Char* chars)
-    // Offset: 0x12EA4C4
+    // Offset: 0x124D788
     bool InternalFallback(::Il2CppChar ch, ::Il2CppChar*& chars);
     // System.Void ThrowLastCharRecursive(System.Int32 charRecursive)
-    // Offset: 0x12EA694
+    // Offset: 0x124D958
     void ThrowLastCharRecursive(int charRecursive);
     // protected System.Void .ctor()
-    // Offset: 0x12E9AA0
+    // Offset: 0x124CD64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EncoderFallbackBuffer* New_ctor();

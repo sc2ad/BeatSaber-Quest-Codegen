@@ -50,61 +50,61 @@ namespace UnityEngine::Playables {
     // Offset: 0x28
     System::Action_1<UnityEngine::Playables::PlayableDirector*>* stopped;
     // public UnityEngine.Playables.DirectorWrapMode get_extrapolationMode()
-    // Offset: 0x19798D8
+    // Offset: 0x18D381C
     UnityEngine::Playables::DirectorWrapMode get_extrapolationMode();
     // public UnityEngine.Playables.PlayableAsset get_playableAsset()
-    // Offset: 0x1979958
+    // Offset: 0x18D389C
     UnityEngine::Playables::PlayableAsset* get_playableAsset();
     // public UnityEngine.Playables.PlayableGraph get_playableGraph()
-    // Offset: 0x1979A40
+    // Offset: 0x18D3984
     UnityEngine::Playables::PlayableGraph get_playableGraph();
     // public System.Void set_time(System.Double value)
-    // Offset: 0x1979A9C
+    // Offset: 0x18D39E0
     void set_time(double value);
     // public System.Double get_time()
-    // Offset: 0x1979AEC
+    // Offset: 0x18D3A30
     double get_time();
     // public System.Void Evaluate()
-    // Offset: 0x1979B2C
+    // Offset: 0x18D3A70
     void Evaluate();
     // public System.Void Play()
-    // Offset: 0x1979B6C
+    // Offset: 0x18D3AB0
     void Play();
     // public System.Void Stop()
-    // Offset: 0x1979BAC
+    // Offset: 0x18D3AF0
     void Stop();
     // public System.Void Pause()
-    // Offset: 0x1979BEC
+    // Offset: 0x18D3B30
     void Pause();
     // public UnityEngine.Object GetGenericBinding(UnityEngine.Object key)
-    // Offset: 0x1979CE0
+    // Offset: 0x18D3C24
     UnityEngine::Object* GetGenericBinding(UnityEngine::Object* key);
     // private UnityEngine.Playables.DirectorWrapMode GetWrapMode()
-    // Offset: 0x1979918
+    // Offset: 0x18D385C
     UnityEngine::Playables::DirectorWrapMode GetWrapMode();
     // private UnityEngine.Playables.PlayableGraph GetGraphHandle()
-    // Offset: 0x1979A44
+    // Offset: 0x18D3988
     UnityEngine::Playables::PlayableGraph GetGraphHandle();
     // private UnityEngine.ScriptableObject Internal_GetPlayableAsset()
-    // Offset: 0x1979A00
+    // Offset: 0x18D3944
     UnityEngine::ScriptableObject* Internal_GetPlayableAsset();
     // private System.Void SendOnPlayableDirectorPlay()
-    // Offset: 0x1979D80
+    // Offset: 0x18D3CC4
     void SendOnPlayableDirectorPlay();
     // private System.Void SendOnPlayableDirectorPause()
-    // Offset: 0x1979DE4
+    // Offset: 0x18D3D28
     void SendOnPlayableDirectorPause();
     // private System.Void SendOnPlayableDirectorStop()
-    // Offset: 0x1979E48
+    // Offset: 0x18D3D8C
     void SendOnPlayableDirectorStop();
     // private UnityEngine.Object GetReferenceValue_Injected(UnityEngine.PropertyName id, System.Boolean idValid)
-    // Offset: 0x1979C88
+    // Offset: 0x18D3BCC
     UnityEngine::Object* GetReferenceValue_Injected(UnityEngine::PropertyName& id, bool& idValid);
     // private System.Void GetGraphHandle_Injected(UnityEngine.Playables.PlayableGraph ret)
-    // Offset: 0x1979D30
+    // Offset: 0x18D3C74
     void GetGraphHandle_Injected(UnityEngine::Playables::PlayableGraph& ret);
     // public UnityEngine.Object GetReferenceValue(UnityEngine.PropertyName id, System.Boolean idValid)
-    // Offset: 0x1979C2C
+    // Offset: 0x18D3B70
     // Implemented from: UnityEngine.IExposedPropertyTable
     // Base method: UnityEngine.Object IExposedPropertyTable::GetReferenceValue(UnityEngine.PropertyName id, System.Boolean idValid)
     UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, bool& idValid);

@@ -43,12 +43,12 @@ namespace Zenject {
     // Offset: 0x0
     System::Action_4<Zenject::DiContainer*, TParam1, TParam2, TParam3>* installMethod;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Action`4<Zenject.DiContainer,TParam1,TParam2,TParam3> installMethod)
-    // Offset: 0x15EDB38
+    // Offset: 0xFFFFFFFF
     static SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Action_4<Zenject::DiContainer*, TParam1, TParam2, TParam3>* installMethod) {
       return (SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>*>::get(), container, containerBindInfo, installMethod)));
     }
     // public override Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x15EDB74
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.SubContainerCreatorByMethodBase
     // Base method: Zenject.DiContainer SubContainerCreatorByMethodBase::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context) {

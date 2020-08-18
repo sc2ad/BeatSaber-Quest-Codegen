@@ -40,22 +40,22 @@ namespace Oculus::Platform {
       public:
       using declaring_type = Message_1<T>*;
       // public System.Void .ctor(System.Object object, System.IntPtr method)
-      // Offset: 0x1293E3C
+      // Offset: 0xFFFFFFFF
       static typename Message_1<T>::Callback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
         return (typename Message_1<T>::Callback*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Message_1<T>::Callback*>::get(), object, method));
       }
       // public System.Void Invoke(Oculus.Platform.Message`1<T> message)
-      // Offset: 0x1293A54
+      // Offset: 0xFFFFFFFF
       void Invoke(Oculus::Platform::Message_1<T>* message) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", message));
       }
       // public System.IAsyncResult BeginInvoke(Oculus.Platform.Message`1<T> message, System.AsyncCallback callback, System.Object object)
-      // Offset: 0x1293E0C
+      // Offset: 0xFFFFFFFF
       System::IAsyncResult* BeginInvoke(Oculus::Platform::Message_1<T>* message, System::AsyncCallback* callback, ::Il2CppObject* object) {
         return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", message, callback, object));
       }
       // public System.Void EndInvoke(System.IAsyncResult result)
-      // Offset: 0x1293E30
+      // Offset: 0xFFFFFFFF
       void EndInvoke(System::IAsyncResult* result) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "EndInvoke", result));
       }
@@ -64,7 +64,7 @@ namespace Oculus::Platform {
     // Offset: 0x0
     T data;
     // public T get_Data()
-    // Offset: 0x1294320
+    // Offset: 0xFFFFFFFF
     T get_Data() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Data"));
     }
@@ -74,7 +74,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "GetDataFromMessage", c_message));
     }
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x12942A0
+    // Offset: 0xFFFFFFFF
     // Implemented from: Oculus.Platform.Message
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static Message_1<T>* New_ctor(System::IntPtr c_message) {

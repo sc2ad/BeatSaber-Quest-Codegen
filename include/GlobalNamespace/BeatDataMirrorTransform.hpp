@@ -27,13 +27,13 @@ namespace GlobalNamespace {
   class BeatDataMirrorTransform : public ::Il2CppObject {
     public:
     // static public BeatmapData CreateTransformedData(BeatmapData beatmapData)
-    // Offset: 0xB89E74
+    // Offset: 0x18F3520
     static GlobalNamespace::BeatmapData* CreateTransformedData(GlobalNamespace::BeatmapData* beatmapData);
     // static private System.Void MirrorTransformBeatmapObjects(System.Collections.Generic.List`1<BeatmapObjectData> beatmapObjects, System.Int32 beatmapLineCount)
-    // Offset: 0xB8A44C
+    // Offset: 0x18F3AF8
     static void MirrorTransformBeatmapObjects(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjects, int beatmapLineCount);
     // public System.Void .ctor()
-    // Offset: 0xB8A78C
+    // Offset: 0x18F3E38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatDataMirrorTransform* New_ctor();

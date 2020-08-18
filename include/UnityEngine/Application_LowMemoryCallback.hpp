@@ -26,16 +26,16 @@ namespace UnityEngine {
   class Application::LowMemoryCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x12FBDC4
+    // Offset: 0x125F088
     static Application::LowMemoryCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x12FA5CC
+    // Offset: 0x125D890
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x12FBDD8
+    // Offset: 0x125F09C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x12FBE04
+    // Offset: 0x125F0C8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Application/LowMemoryCallback
 }

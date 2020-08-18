@@ -55,7 +55,7 @@ namespace LeaderboardsDTO {
     // Offset: 0x30
     bool includedScoreWithModifiers;
     // public System.Void .ctor()
-    // Offset: 0xB40554
+    // Offset: 0xB43220
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardQueryDTO* New_ctor();

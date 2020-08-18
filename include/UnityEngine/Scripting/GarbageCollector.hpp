@@ -53,13 +53,13 @@ namespace UnityEngine::Scripting {
     // Set static field: static private System.Action`1<UnityEngine.Scripting.GarbageCollector/Mode> GCModeChanged
     static void _set_GCModeChanged(System::Action_1<UnityEngine::Scripting::GarbageCollector::Mode>* value);
     // static public System.Void set_GCMode(UnityEngine.Scripting.GarbageCollector/Mode value)
-    // Offset: 0x1389514
+    // Offset: 0x12EA7D8
     static void set_GCMode(UnityEngine::Scripting::GarbageCollector::Mode value);
     // static private System.Void SetMode(UnityEngine.Scripting.GarbageCollector/Mode mode)
-    // Offset: 0x1389610
+    // Offset: 0x12EA8D4
     static void SetMode(UnityEngine::Scripting::GarbageCollector::Mode mode);
     // static private UnityEngine.Scripting.GarbageCollector/Mode GetMode()
-    // Offset: 0x13895DC
+    // Offset: 0x12EA8A0
     static UnityEngine::Scripting::GarbageCollector::Mode GetMode();
   }; // UnityEngine.Scripting.GarbageCollector
 }

@@ -42,10 +42,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x38
     ::Array<System::Type*>* memberTypes;
     // System.Void .ctor(System.String typeName, System.String assemblyName, System.Boolean hasTypeForwardedFrom)
-    // Offset: 0xFEB6A0
+    // Offset: 0xF4C964
     static SerObjectInfoCache* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, bool hasTypeForwardedFrom);
     // System.Void .ctor(System.Type type)
-    // Offset: 0xFEA710
+    // Offset: 0xF4B9D4
     static SerObjectInfoCache* New_ctor(System::Type* type);
   }; // System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache
 }

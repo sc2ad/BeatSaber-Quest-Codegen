@@ -40,30 +40,30 @@ namespace System::ComponentModel {
     // Set static field: static private readonly System.Object EventDisposed
     static void _set_EventDisposed(::Il2CppObject* value);
     // protected System.Boolean get_CanRaiseEvents()
-    // Offset: 0xF56A18
+    // Offset: 0xEB7CDC
     bool get_CanRaiseEvents();
     // System.Boolean get_CanRaiseEventsInternal()
-    // Offset: 0xF56A20
+    // Offset: 0xEB7CE4
     bool get_CanRaiseEventsInternal();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xF56AA8
+    // Offset: 0xEB7D6C
     void Dispose(bool disposing);
     // protected System.Object GetService(System.Type service)
-    // Offset: 0xF56DE0
+    // Offset: 0xEB80A4
     ::Il2CppObject* GetService(System::Type* service);
     // protected System.Boolean get_DesignMode()
-    // Offset: 0xF56EB0
+    // Offset: 0xEB8174
     bool get_DesignMode();
     // static private System.Void .cctor()
-    // Offset: 0xF570A0
+    // Offset: 0xEB8364
     static void _cctor();
     // protected override System.Void Finalize()
-    // Offset: 0xF569A4
+    // Offset: 0xEB7C68
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0xF56A2C
+    // Offset: 0xEB7CF0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -71,12 +71,12 @@ namespace System::ComponentModel {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public override System.String ToString()
-    // Offset: 0xF56F70
+    // Offset: 0xEB8234
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0xF57098
+    // Offset: 0xEB835C
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

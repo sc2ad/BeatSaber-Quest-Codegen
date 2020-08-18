@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<PointLight> _lights
     static void _set__lights(System::Collections::Generic::List_1<GlobalNamespace::PointLight*>* value);
     // static public System.Collections.Generic.List`1<PointLight> get_lights()
-    // Offset: 0x1826D30
+    // Offset: 0x1785068
     static System::Collections::Generic::List_1<GlobalNamespace::PointLight*>* get_lights();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1826D98
+    // Offset: 0x17850D0
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x1826E2C
+    // Offset: 0x1785164
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1826EB0
+    // Offset: 0x17851E8
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1826F34
+    // Offset: 0x178526C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PointLight* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1826F3C
+    // Offset: 0x1785274
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

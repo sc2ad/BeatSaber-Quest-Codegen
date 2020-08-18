@@ -25,7 +25,7 @@ namespace System::IO {
     // Offset: 0x20
     System::IO::SearchPattern2::Op* Next;
     // public System.Void .ctor(System.IO.SearchPattern2/OpCode code)
-    // Offset: 0xF63778
+    // Offset: 0xEC4A3C
     static SearchPattern2::Op* New_ctor(System::IO::SearchPattern2::OpCode code);
   }; // System.IO.SearchPattern2/Op
 }

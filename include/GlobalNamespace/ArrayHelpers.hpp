@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class ArrayHelpers : public ::Il2CppObject {
     public:
     // static public T[] CreateOrEnlargeArray(T[] array, System.Int32 minimumCapacity)
-    // Offset: 0xD57230
+    // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* CreateOrEnlargeArray(::Array<T>* array, int minimumCapacity) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("", "ArrayHelpers", "CreateOrEnlargeArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array, minimumCapacity)));

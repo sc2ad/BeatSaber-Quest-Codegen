@@ -48,7 +48,7 @@ namespace GlobalNamespace {
       // Offset: 0x10
       ::Array<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>* keyframes;
       // public System.Void .ctor()
-      // Offset: 0xB971A4
+      // Offset: 0x1900850
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static SimpleVRNodeRecorder::SavedData* New_ctor();
@@ -117,25 +117,25 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Quaternion prevRot;
     // protected System.Void Awake()
-    // Offset: 0xB9654C
+    // Offset: 0x18FFBF8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB96970
+    // Offset: 0x190001C
     void OnDestroy();
     // private System.Void RecordNewKeyFrame()
-    // Offset: 0xB96AC0
+    // Offset: 0x190016C
     void RecordNewKeyFrame();
     // protected System.Void Update()
-    // Offset: 0xB96C24
+    // Offset: 0x19002D0
     void Update();
     // private System.Void Save()
-    // Offset: 0xB96980
+    // Offset: 0x190002C
     void Save();
     // private System.Void Load()
-    // Offset: 0xB96668
+    // Offset: 0x18FFD14
     void Load();
     // public System.Void .ctor()
-    // Offset: 0xB971AC
+    // Offset: 0x1900858
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

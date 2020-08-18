@@ -21,17 +21,17 @@ namespace NUnit::Framework::Internal::Filters {
   class CategoryFilter : public NUnit::Framework::Internal::Filters::ValueMatchFilter {
     public:
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1085F14
+    // Offset: 0xFE81D8
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.Void ValueMatchFilter::.ctor(System.String name)
     static CategoryFilter* New_ctor(::Il2CppString* name);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1085F9C
+    // Offset: 0xFE8260
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // protected override System.String get_ElementName()
-    // Offset: 0x1086454
+    // Offset: 0xFE8718
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.String ValueMatchFilter::get_ElementName()
     ::Il2CppString* get_ElementName();

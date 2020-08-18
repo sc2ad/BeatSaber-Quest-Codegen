@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* scores;
     // public System.Void .ctor()
-    // Offset: 0xB44334
+    // Offset: 0xB47000
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardScoreUploader::ScoresToUploadData* New_ctor();

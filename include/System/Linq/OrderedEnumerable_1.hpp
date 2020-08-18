@@ -35,8 +35,8 @@ namespace System::Collections {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -71,40 +71,40 @@ namespace System::Linq {
       // Offset: 0x0
       int $i$5__3;
       // public System.Void .ctor(System.Int32 $$1__state)
-      // Offset: 0x12D6D20
+      // Offset: 0xFFFFFFFF
       static typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1* New_ctor(int $$1__state) {
         return (typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1*>::get(), $$1__state));
       }
       // private System.Void System.IDisposable.Dispose()
-      // Offset: 0x12D6D54
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.IDisposable.Dispose"));
       }
       // private System.Boolean MoveNext()
-      // Offset: 0x12D6D58
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
       // private TElement System.Collections.Generic.IEnumerator<TElement>.get_Current()
-      // Offset: 0x12D6ED0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator`1::get_Current()
       TElement System_Collections_Generic_IEnumerator_1_get_Current() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<TElement>(this, "System.Collections.Generic.IEnumerator<TElement>.get_Current")));
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0x12D6ED8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0x12D6F38
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
@@ -115,7 +115,7 @@ namespace System::Linq {
     // Offset: 0x0
     System::Collections::Generic::IEnumerable_1<TElement>* source;
     // public System.Collections.Generic.IEnumerator`1<TElement> GetEnumerator()
-    // Offset: 0x12D7674
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<TElement>* GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<TElement>*>(this, "GetEnumerator"));
     }
@@ -125,14 +125,14 @@ namespace System::Linq {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Linq::EnumerableSorter_1<TElement>*>(this, "GetEnumerableSorter", next));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x12D76F8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "System.Collections.IEnumerable.GetEnumerator"));
     }
     // private System.Linq.IOrderedEnumerable`1<TElement> System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
-    // Offset: 0x11DE084
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.IOrderedEnumerable`1
     // Base method: System.Linq.IOrderedEnumerable`1<TElement> IOrderedEnumerable`1::CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
     template<class TKey>
@@ -140,7 +140,7 @@ namespace System::Linq {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Linq::IOrderedEnumerable_1<TElement>*>(this, "System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, keySelector, comparer, descending)));
     }
     // protected System.Void .ctor()
-    // Offset: 0x12D771C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OrderedEnumerable_1<TElement>* New_ctor() {

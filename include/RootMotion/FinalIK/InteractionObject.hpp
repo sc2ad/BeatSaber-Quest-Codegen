@@ -138,10 +138,10 @@ namespace RootMotion::FinalIK {
       // Offset: 0x18
       UnityEngine::AnimationCurve* curve;
       // public System.Single GetValue(System.Single timer)
-      // Offset: 0x1445C8C
+      // Offset: 0x13A7FC4
       float GetValue(float timer);
       // public System.Void .ctor()
-      // Offset: 0x1446830
+      // Offset: 0x13A8B68
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static InteractionObject::WeightCurve* New_ctor();
@@ -174,88 +174,88 @@ namespace RootMotion::FinalIK {
     // Offset: 0x58
     ::Array<RootMotion::FinalIK::InteractionTarget*>* targets;
     // private System.Void OpenUserManual()
-    // Offset: 0x14454F4
+    // Offset: 0x13A782C
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x1445540
+    // Offset: 0x13A7878
     void OpenScriptReference();
     // private System.Void OpenTutorial1()
-    // Offset: 0x144558C
+    // Offset: 0x13A78C4
     void OpenTutorial1();
     // private System.Void OpenTutorial2()
-    // Offset: 0x14455D8
+    // Offset: 0x13A7910
     void OpenTutorial2();
     // private System.Void OpenTutorial3()
-    // Offset: 0x1445624
+    // Offset: 0x13A795C
     void OpenTutorial3();
     // private System.Void OpenTutorial4()
-    // Offset: 0x1445670
+    // Offset: 0x13A79A8
     void OpenTutorial4();
     // private System.Void SupportGroup()
-    // Offset: 0x14456BC
+    // Offset: 0x13A79F4
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1445708
+    // Offset: 0x13A7A40
     void ASThread();
     // public System.Single get_length()
-    // Offset: 0x1445754
+    // Offset: 0x13A7A8C
     float get_length();
     // private System.Void set_length(System.Single value)
-    // Offset: 0x144575C
+    // Offset: 0x13A7A94
     void set_length(float value);
     // public RootMotion.FinalIK.InteractionSystem get_lastUsedInteractionSystem()
-    // Offset: 0x1445764
+    // Offset: 0x13A7A9C
     RootMotion::FinalIK::InteractionSystem* get_lastUsedInteractionSystem();
     // private System.Void set_lastUsedInteractionSystem(RootMotion.FinalIK.InteractionSystem value)
-    // Offset: 0x144576C
+    // Offset: 0x13A7AA4
     void set_lastUsedInteractionSystem(RootMotion::FinalIK::InteractionSystem* value);
     // public System.Void Initiate()
-    // Offset: 0x1445774
+    // Offset: 0x13A7AAC
     void Initiate();
     // public UnityEngine.Transform get_lookAtTarget()
-    // Offset: 0x1445990
+    // Offset: 0x13A7CC8
     UnityEngine::Transform* get_lookAtTarget();
     // public RootMotion.FinalIK.InteractionTarget GetTarget(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionSystem interactionSystem)
-    // Offset: 0x1445A20
+    // Offset: 0x13A7D58
     RootMotion::FinalIK::InteractionTarget* GetTarget(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionSystem* interactionSystem);
     // public System.Boolean CurveUsed(RootMotion.FinalIK.InteractionObject/WeightCurve/Type type)
-    // Offset: 0x1442E80
+    // Offset: 0x13A51B8
     bool CurveUsed(RootMotion::FinalIK::InteractionObject::WeightCurve::Type type);
     // public RootMotion.FinalIK.InteractionTarget[] GetTargets()
-    // Offset: 0x1445BA4
+    // Offset: 0x13A7EDC
     ::Array<RootMotion::FinalIK::InteractionTarget*>* GetTargets();
     // public UnityEngine.Transform GetTarget(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.String tag)
-    // Offset: 0x1442D34
+    // Offset: 0x13A506C
     UnityEngine::Transform* GetTarget(RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::Il2CppString* tag);
     // public System.Void OnStartInteraction(RootMotion.FinalIK.InteractionSystem interactionSystem)
-    // Offset: 0x1442E78
+    // Offset: 0x13A51B0
     void OnStartInteraction(RootMotion::FinalIK::InteractionSystem* interactionSystem);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionTarget target, System.Single timer, System.Single weight)
-    // Offset: 0x1443B6C
+    // Offset: 0x13A5EA4
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionTarget* target, float timer, float weight);
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/WeightCurve/Type weightCurveType, RootMotion.FinalIK.InteractionTarget target, System.Single timer)
-    // Offset: 0x14443C4
+    // Offset: 0x13A66FC
     float GetValue(RootMotion::FinalIK::InteractionObject::WeightCurve::Type weightCurveType, RootMotion::FinalIK::InteractionTarget* target, float timer);
     // public UnityEngine.Transform get_targetsRoot()
-    // Offset: 0x1444B0C
+    // Offset: 0x13A6E44
     UnityEngine::Transform* get_targetsRoot();
     // private System.Void Start()
-    // Offset: 0x14463A8
+    // Offset: 0x13A86E0
     void Start();
     // private System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionObject/WeightCurve/Type type, System.Single value, System.Single weight)
-    // Offset: 0x1445CA8
+    // Offset: 0x13A7FE0
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionObject::WeightCurve::Type type, float value, float weight);
     // private UnityEngine.Transform GetTarget(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x1445BAC
+    // Offset: 0x13A7EE4
     UnityEngine::Transform* GetTarget(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // private System.Int32 GetWeightCurveIndex(RootMotion.FinalIK.InteractionObject/WeightCurve/Type weightCurveType)
-    // Offset: 0x1446304
+    // Offset: 0x13A863C
     int GetWeightCurveIndex(RootMotion::FinalIK::InteractionObject::WeightCurve::Type weightCurveType);
     // private System.Int32 GetMultiplierIndex(RootMotion.FinalIK.InteractionObject/WeightCurve/Type weightCurveType)
-    // Offset: 0x14463AC
+    // Offset: 0x13A86E4
     int GetMultiplierIndex(RootMotion::FinalIK::InteractionObject::WeightCurve::Type weightCurveType);
     // public System.Void .ctor()
-    // Offset: 0x1446414
+    // Offset: 0x13A874C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

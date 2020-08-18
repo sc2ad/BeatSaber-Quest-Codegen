@@ -88,22 +88,22 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     float particleSpeed;
     // protected System.Void Start()
-    // Offset: 0xBCFA78
+    // Offset: 0x1916DE0
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xBCFD2C
+    // Offset: 0x1917094
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBCFE04
+    // Offset: 0x191716C
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBCFF28
+    // Offset: 0x1917290
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0xBCFBF0
+    // Offset: 0x1916F58
     void RefreshParticles();
     // public System.Void .ctor()
-    // Offset: 0xBD0110
+    // Offset: 0x1917478
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

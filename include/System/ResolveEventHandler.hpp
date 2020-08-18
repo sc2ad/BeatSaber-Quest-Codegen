@@ -31,16 +31,16 @@ namespace System {
   class ResolveEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1154090
+    // Offset: 0x10B7354
     static ResolveEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Reflection.Assembly Invoke(System.Object sender, System.ResolveEventArgs args)
-    // Offset: 0x11540A4
+    // Offset: 0x10B7368
     System::Reflection::Assembly* Invoke(::Il2CppObject* sender, System::ResolveEventArgs* args);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.ResolveEventArgs args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11544B0
+    // Offset: 0x10B7774
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::ResolveEventArgs* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Reflection.Assembly EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11544E0
+    // Offset: 0x10B77A4
     System::Reflection::Assembly* EndInvoke(System::IAsyncResult* result);
   }; // System.ResolveEventHandler
 }

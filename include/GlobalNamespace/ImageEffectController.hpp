@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback;
     // public System.Void SetCallback(ImageEffectController/RenderImageCallback renderImageCallback)
-    // Offset: 0x1820C54
+    // Offset: 0x177EF8C
     void SetCallback(GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback);
     // protected System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1820C5C
+    // Offset: 0x177EF94
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x1821070
+    // Offset: 0x177F3A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

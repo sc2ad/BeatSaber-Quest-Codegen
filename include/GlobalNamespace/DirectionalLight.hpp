@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float intensity;
     // static field const value: static public System.Int32 kMaxLights
-    static constexpr const int kMaxLights = 3;
+    static constexpr const int kMaxLights = 5;
     // Get static field: static public System.Int32 kMaxLights
     static int _get_kMaxLights();
     // Set static field: static public System.Int32 kMaxLights
@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<DirectionalLight> _lights
     static void _set__lights(System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight*>* value);
     // static public System.Collections.Generic.List`1<DirectionalLight> get_lights()
-    // Offset: 0x18208A8
+    // Offset: 0x177EBE0
     static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight*>* get_lights();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1820910
+    // Offset: 0x177EC48
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x18209A4
+    // Offset: 0x177ECDC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1820A28
+    // Offset: 0x177ED60
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1820AAC
+    // Offset: 0x177EDE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DirectionalLight* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1820AB4
+    // Offset: 0x177EDEC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

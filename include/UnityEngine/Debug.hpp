@@ -34,67 +34,67 @@ namespace UnityEngine {
     // Set static field: static UnityEngine.ILogger s_Logger
     static void _set_s_Logger(UnityEngine::ILogger* value);
     // static public UnityEngine.ILogger get_unityLogger()
-    // Offset: 0x1303B14
+    // Offset: 0x1266DD8
     static UnityEngine::ILogger* get_unityLogger();
     // static public System.Void DrawLine(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Color color)
-    // Offset: 0x1303B7C
+    // Offset: 0x1266E40
     static void DrawLine(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Color color);
     // static public System.Void DrawLine(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Color color, System.Single duration, System.Boolean depthTest)
-    // Offset: 0x1303C54
+    // Offset: 0x1266F18
     static void DrawLine(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Color color, float duration, bool depthTest);
     // static public System.Void Log(System.Object message)
-    // Offset: 0x1303D90
+    // Offset: 0x1267054
     static void Log(::Il2CppObject* message);
     // static public System.Void Log(System.Object message, UnityEngine.Object context)
-    // Offset: 0x1303E70
+    // Offset: 0x1267134
     static void Log(::Il2CppObject* message, UnityEngine::Object* context);
     // static public System.Void LogFormat(System.String format, System.Object[] args)
-    // Offset: 0x1303F60
+    // Offset: 0x1267224
     static void LogFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // static public System.Void LogError(System.Object message)
-    // Offset: 0x1304050
+    // Offset: 0x1267314
     static void LogError(::Il2CppObject* message);
     // static public System.Void LogError(System.Object message, UnityEngine.Object context)
-    // Offset: 0x1304130
+    // Offset: 0x12673F4
     static void LogError(::Il2CppObject* message, UnityEngine::Object* context);
     // static public System.Void LogErrorFormat(System.String format, System.Object[] args)
-    // Offset: 0x1304220
+    // Offset: 0x12674E4
     static void LogErrorFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // static public System.Void LogErrorFormat(UnityEngine.Object context, System.String format, System.Object[] args)
-    // Offset: 0x1304310
+    // Offset: 0x12675D4
     static void LogErrorFormat(UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // static public System.Void LogException(System.Exception exception)
-    // Offset: 0x12FB8EC
+    // Offset: 0x125EBB0
     static void LogException(System::Exception* exception);
     // static public System.Void LogException(System.Exception exception, UnityEngine.Object context)
-    // Offset: 0x1304404
+    // Offset: 0x12676C8
     static void LogException(System::Exception* exception, UnityEngine::Object* context);
     // static public System.Void LogWarning(System.Object message)
-    // Offset: 0x13044F0
+    // Offset: 0x12677B4
     static void LogWarning(::Il2CppObject* message);
     // static public System.Void LogWarning(System.Object message, UnityEngine.Object context)
-    // Offset: 0x13045D0
+    // Offset: 0x1267894
     static void LogWarning(::Il2CppObject* message, UnityEngine::Object* context);
     // static public System.Void LogWarningFormat(System.String format, System.Object[] args)
-    // Offset: 0x13046C0
+    // Offset: 0x1267984
     static void LogWarningFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // static public System.Void LogWarningFormat(UnityEngine.Object context, System.String format, System.Object[] args)
-    // Offset: 0x13047B0
+    // Offset: 0x1267A74
     static void LogWarningFormat(UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // static public System.Void LogAssertion(System.Object message)
-    // Offset: 0x12FBF1C
+    // Offset: 0x125F1E0
     static void LogAssertion(::Il2CppObject* message);
     // static public System.Boolean get_isDebugBuild()
-    // Offset: 0x13048A4
+    // Offset: 0x1267B68
     static bool get_isDebugBuild();
     // static System.Boolean CallOverridenDebugHandler(System.Exception exception, UnityEngine.Object obj)
-    // Offset: 0x13048D8
+    // Offset: 0x1267B9C
     static bool CallOverridenDebugHandler(System::Exception* exception, UnityEngine::Object* obj);
     // static private System.Void .cctor()
-    // Offset: 0x1304A84
+    // Offset: 0x1267D48
     static void _cctor();
     // static private System.Void DrawLine_Injected(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Color color, System.Single duration, System.Boolean depthTest)
-    // Offset: 0x1303D18
+    // Offset: 0x1266FDC
     static void DrawLine_Injected(UnityEngine::Vector3& start, UnityEngine::Vector3& end, UnityEngine::Color& color, float duration, bool depthTest);
   }; // UnityEngine.Debug
 }

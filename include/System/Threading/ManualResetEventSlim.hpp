@@ -112,73 +112,73 @@ namespace System::Threading {
     // Set static field: static private System.Action`1<System.Object> s_cancellationTokenCallback
     static void _set_s_cancellationTokenCallback(System::Action_1<::Il2CppObject*>* value);
     // public System.Threading.WaitHandle get_WaitHandle()
-    // Offset: 0x13D5690
+    // Offset: 0x1338954
     System::Threading::WaitHandle* get_WaitHandle();
     // public System.Boolean get_IsSet()
-    // Offset: 0x13D58D4
+    // Offset: 0x1338B98
     bool get_IsSet();
     // private System.Void set_IsSet(System.Boolean value)
-    // Offset: 0x13D5948
+    // Offset: 0x1338C0C
     void set_IsSet(bool value);
     // public System.Int32 get_SpinCount()
-    // Offset: 0x13D5A0C
+    // Offset: 0x1338CD0
     int get_SpinCount();
     // private System.Void set_SpinCount(System.Int32 value)
-    // Offset: 0x13D5A84
+    // Offset: 0x1338D48
     void set_SpinCount(int value);
     // private System.Int32 get_Waiters()
-    // Offset: 0x13D5AC4
+    // Offset: 0x1338D88
     int get_Waiters();
     // private System.Void set_Waiters(System.Int32 value)
-    // Offset: 0x13D5B30
+    // Offset: 0x1338DF4
     void set_Waiters(int value);
     // public System.Void .ctor(System.Boolean initialState)
-    // Offset: 0x13D5C14
+    // Offset: 0x1338ED8
     static ManualResetEventSlim* New_ctor(bool initialState);
     // public System.Void .ctor(System.Boolean initialState, System.Int32 spinCount)
-    // Offset: 0x13D5CC0
+    // Offset: 0x1338F84
     static ManualResetEventSlim* New_ctor(bool initialState, int spinCount);
     // private System.Void Initialize(System.Boolean initialState, System.Int32 spinCount)
-    // Offset: 0x13D5C48
+    // Offset: 0x1338F0C
     void Initialize(bool initialState, int spinCount);
     // private System.Void EnsureLockObjectCreated()
-    // Offset: 0x13D5E04
+    // Offset: 0x13390C8
     void EnsureLockObjectCreated();
     // private System.Boolean LazyInitializeEvent()
-    // Offset: 0x13D576C
+    // Offset: 0x1338A30
     bool LazyInitializeEvent();
     // public System.Void Set()
-    // Offset: 0x13D5EAC
+    // Offset: 0x1339170
     void Set();
     // private System.Void Set(System.Boolean duringCancellation)
-    // Offset: 0x13D5EB4
+    // Offset: 0x1339178
     void Set(bool duringCancellation);
     // public System.Boolean Wait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13D60E0
+    // Offset: 0x13393A4
     bool Wait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x13D6624
+    // Offset: 0x13398E8
     void Dispose(bool disposing);
     // private System.Void ThrowIfDisposed()
-    // Offset: 0x13D56D0
+    // Offset: 0x1338994
     void ThrowIfDisposed();
     // static private System.Void CancellationTokenCallback(System.Object obj)
-    // Offset: 0x13D670C
+    // Offset: 0x13399D0
     static void CancellationTokenCallback(::Il2CppObject* obj);
     // private System.Void UpdateStateAtomically(System.Int32 newBits, System.Int32 updateBitsMask)
-    // Offset: 0x13D596C
+    // Offset: 0x1338C30
     void UpdateStateAtomically(int newBits, int updateBitsMask);
     // static private System.Int32 ExtractStatePortionAndShiftRight(System.Int32 state, System.Int32 mask, System.Int32 rightBitShiftCount)
-    // Offset: 0x13D5A78
+    // Offset: 0x1338D3C
     static int ExtractStatePortionAndShiftRight(int state, int mask, int rightBitShiftCount);
     // static private System.Int32 ExtractStatePortion(System.Int32 state, System.Int32 mask)
-    // Offset: 0x13D5940
+    // Offset: 0x1338C04
     static int ExtractStatePortion(int state, int mask);
     // static private System.Void .cctor()
-    // Offset: 0x13D6810
+    // Offset: 0x1339AD4
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x13D65A8
+    // Offset: 0x133986C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

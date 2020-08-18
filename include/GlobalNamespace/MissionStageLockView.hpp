@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     float startAnimationTime;
     // public System.Void UpdateLocalPositionY(System.Single dstPosY, System.Boolean animated, System.Single animationDuration)
-    // Offset: 0xC0AC70
+    // Offset: 0x19537A0
     void UpdateLocalPositionY(float dstPosY, bool animated, float animationDuration);
     // protected System.Void Update()
-    // Offset: 0xC0AD14
+    // Offset: 0x1953844
     void Update();
     // public System.Void UpdateStageLockText(System.String text)
-    // Offset: 0xC0AE68
+    // Offset: 0x1953998
     void UpdateStageLockText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0xC0AE84
+    // Offset: 0x19539B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

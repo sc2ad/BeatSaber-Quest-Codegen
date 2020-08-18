@@ -25,15 +25,15 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static public readonly Mono.Globalization.Unicode.ContractionComparer Instance
     static void _set_Instance(Mono::Globalization::Unicode::ContractionComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x10AA768
+    // Offset: 0x100CA2C
     static void _cctor();
     // public System.Int32 Compare(Mono.Globalization.Unicode.Contraction c1, Mono.Globalization.Unicode.Contraction c2)
-    // Offset: 0x10AA6C4
+    // Offset: 0x100C988
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(Mono.Globalization.Unicode.Contraction c1, Mono.Globalization.Unicode.Contraction c2)
     int Compare(Mono::Globalization::Unicode::Contraction* c1, Mono::Globalization::Unicode::Contraction* c2);
     // public System.Void .ctor()
-    // Offset: 0x10AA760
+    // Offset: 0x100CA24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ContractionComparer* New_ctor();

@@ -17,10 +17,10 @@ namespace UnityEngine {
     // Offset: 0x10
     int m_Order;
     // public System.Void .ctor(System.Int32 order)
-    // Offset: 0x1304D58
+    // Offset: 0x126801C
     static DefaultExecutionOrder* New_ctor(int order);
     // public System.Int32 get_order()
-    // Offset: 0x12FD1D8
+    // Offset: 0x126049C
     int get_order();
   }; // UnityEngine.DefaultExecutionOrder
 }

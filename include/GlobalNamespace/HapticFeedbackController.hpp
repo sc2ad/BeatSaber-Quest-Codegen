@@ -64,25 +64,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kContinuesRumbleIntervalTime
     static void _set_kContinuesRumbleIntervalTime(float value);
     // protected System.Void Awake()
-    // Offset: 0xCB3DE4
+    // Offset: 0xC140A8
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0xCB3EC4
+    // Offset: 0xC14188
     void LateUpdate();
     // public System.Void ContinuousRumble(UnityEngine.XR.XRNode node)
-    // Offset: 0xCB4050
+    // Offset: 0xC14314
     void ContinuousRumble(UnityEngine::XR::XRNode node);
     // public System.Void HitNote(UnityEngine.XR.XRNode node)
-    // Offset: 0xCB40EC
+    // Offset: 0xC143B0
     void HitNote(UnityEngine::XR::XRNode node);
     // private System.Void Rumble(UnityEngine.XR.XRNode node, System.Single duration, System.Single impulseStrength, System.Single intervalDuration)
-    // Offset: 0xCB4100
+    // Offset: 0xC143C4
     void Rumble(UnityEngine::XR::XRNode node, float duration, float impulseStrength, float intervalDuration);
     // private System.Collections.IEnumerator OneShotRumbleCoroutine(UnityEngine.XR.XRNode node, System.Single duration, System.Single impulseStrength, System.Single intervalDuration)
-    // Offset: 0xCB41B8
+    // Offset: 0xC1447C
     System::Collections::IEnumerator* OneShotRumbleCoroutine(UnityEngine::XR::XRNode node, float duration, float impulseStrength, float intervalDuration);
     // public System.Void .ctor()
-    // Offset: 0xCB4294
+    // Offset: 0xC14558
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

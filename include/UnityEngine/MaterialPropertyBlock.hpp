@@ -32,87 +32,87 @@ namespace UnityEngine {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // private UnityEngine.Color GetColorImpl(System.Int32 name)
-    // Offset: 0x130F4D8
+    // Offset: 0x127279C
     UnityEngine::Color GetColorImpl(int name);
     // private System.Void SetFloatImpl(System.Int32 name, System.Single value)
-    // Offset: 0x130F59C
+    // Offset: 0x1272860
     void SetFloatImpl(int name, float value);
     // private System.Void SetVectorImpl(System.Int32 name, UnityEngine.Vector4 value)
-    // Offset: 0x130F5FC
+    // Offset: 0x12728C0
     void SetVectorImpl(int name, UnityEngine::Vector4 value);
     // private System.Void SetColorImpl(System.Int32 name, UnityEngine.Color value)
-    // Offset: 0x130F6BC
+    // Offset: 0x1272980
     void SetColorImpl(int name, UnityEngine::Color value);
     // private System.Void SetFloatArrayImpl(System.Int32 name, System.Single[] values, System.Int32 count)
-    // Offset: 0x130F77C
+    // Offset: 0x1272A40
     void SetFloatArrayImpl(int name, ::Array<float>* values, int count);
     // private System.Void SetVectorArrayImpl(System.Int32 name, UnityEngine.Vector4[] values, System.Int32 count)
-    // Offset: 0x130F7E4
+    // Offset: 0x1272AA8
     void SetVectorArrayImpl(int name, ::Array<UnityEngine::Vector4>* values, int count);
     // static private System.IntPtr CreateImpl()
-    // Offset: 0x130F84C
+    // Offset: 0x1272B10
     static System::IntPtr CreateImpl();
     // static private System.Void DestroyImpl(System.IntPtr mpb)
-    // Offset: 0x130F880
+    // Offset: 0x1272B44
     static void DestroyImpl(System::IntPtr mpb);
     // private System.Void Clear(System.Boolean keepMemory)
-    // Offset: 0x130F8C0
+    // Offset: 0x1272B84
     void Clear(bool keepMemory);
     // public System.Void Clear()
-    // Offset: 0x130F910
+    // Offset: 0x1272BD4
     void Clear();
     // private System.Void SetFloatArray(System.Int32 name, System.Single[] values, System.Int32 count)
-    // Offset: 0x130F954
+    // Offset: 0x1272C18
     void SetFloatArray(int name, ::Array<float>* values, int count);
     // private System.Void SetVectorArray(System.Int32 name, UnityEngine.Vector4[] values, System.Int32 count)
-    // Offset: 0x130FA78
+    // Offset: 0x1272D3C
     void SetVectorArray(int name, ::Array<UnityEngine::Vector4>* values, int count);
     // private System.Void Dispose()
-    // Offset: 0x130FC50
+    // Offset: 0x1272F14
     void Dispose();
     // public System.Void SetFloat(System.String name, System.Single value)
-    // Offset: 0x130FD04
+    // Offset: 0x1272FC8
     void SetFloat(::Il2CppString* name, float value);
     // public System.Void SetFloat(System.Int32 nameID, System.Single value)
-    // Offset: 0x130FD70
+    // Offset: 0x1273034
     void SetFloat(int nameID, float value);
     // public System.Void SetVector(System.String name, UnityEngine.Vector4 value)
-    // Offset: 0x130FDD0
+    // Offset: 0x1273094
     void SetVector(::Il2CppString* name, UnityEngine::Vector4 value);
     // public System.Void SetVector(System.Int32 nameID, UnityEngine.Vector4 value)
-    // Offset: 0x130FE30
+    // Offset: 0x12730F4
     void SetVector(int nameID, UnityEngine::Vector4 value);
     // public System.Void SetColor(System.String name, UnityEngine.Color value)
-    // Offset: 0x130FE34
+    // Offset: 0x12730F8
     void SetColor(::Il2CppString* name, UnityEngine::Color value);
     // public System.Void SetColor(System.Int32 nameID, UnityEngine.Color value)
-    // Offset: 0x130FE94
+    // Offset: 0x1273158
     void SetColor(int nameID, UnityEngine::Color value);
     // public System.Void SetFloatArray(System.Int32 nameID, System.Collections.Generic.List`1<System.Single> values)
-    // Offset: 0x130FE98
+    // Offset: 0x127315C
     void SetFloatArray(int nameID, System::Collections::Generic::List_1<float>* values);
     // public System.Void SetVectorArray(System.Int32 nameID, UnityEngine.Vector4[] values)
-    // Offset: 0x130FF14
+    // Offset: 0x12731D8
     void SetVectorArray(int nameID, ::Array<UnityEngine::Vector4>* values);
     // public UnityEngine.Color GetColor(System.Int32 nameID)
-    // Offset: 0x130FF2C
+    // Offset: 0x12731F0
     UnityEngine::Color GetColor(int nameID);
     // private System.Void GetColorImpl_Injected(System.Int32 name, UnityEngine.Color ret)
-    // Offset: 0x130F544
+    // Offset: 0x1272808
     void GetColorImpl_Injected(int name, UnityEngine::Color& ret);
     // private System.Void SetVectorImpl_Injected(System.Int32 name, UnityEngine.Vector4 value)
-    // Offset: 0x130F664
+    // Offset: 0x1272928
     void SetVectorImpl_Injected(int name, UnityEngine::Vector4& value);
     // private System.Void SetColorImpl_Injected(System.Int32 name, UnityEngine.Color value)
-    // Offset: 0x130F724
+    // Offset: 0x12729E8
     void SetColorImpl_Injected(int name, UnityEngine::Color& value);
     // public System.Void .ctor()
-    // Offset: 0x130FB9C
+    // Offset: 0x1272E60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MaterialPropertyBlock* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x130FBE8
+    // Offset: 0x1272EAC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

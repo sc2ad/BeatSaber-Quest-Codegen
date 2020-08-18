@@ -19,40 +19,40 @@ namespace System {
   class Buffer : public ::Il2CppObject {
     public:
     // static System.Boolean InternalBlockCopy(System.Array src, System.Int32 srcOffsetBytes, System.Array dst, System.Int32 dstOffsetBytes, System.Int32 byteCount)
-    // Offset: 0x132C6B4
+    // Offset: 0x128D978
     static bool InternalBlockCopy(System::Array* src, int srcOffsetBytes, System::Array* dst, int dstOffsetBytes, int byteCount);
     // static System.Int32 IndexOfByte(System.Byte* src, System.Byte value, System.Int32 index, System.Int32 count)
-    // Offset: 0x132C6B8
+    // Offset: 0x128D97C
     static int IndexOfByte(uint8_t* src, uint8_t value, int index, int count);
     // static private System.Int32 _ByteLength(System.Array array)
-    // Offset: 0x132C7D4
+    // Offset: 0x128DA98
     static int _ByteLength(System::Array* array);
     // static System.Void ZeroMemory(System.Byte* src, System.Int64 len)
-    // Offset: 0x132C7D8
+    // Offset: 0x128DA9C
     static void ZeroMemory(uint8_t* src, int64_t len);
     // static System.Void Memcpy(System.Byte[] dest, System.Int32 destIndex, System.Byte* src, System.Int32 srcIndex, System.Int32 len)
-    // Offset: 0x132C7FC
+    // Offset: 0x128DAC0
     static void Memcpy(::Array<uint8_t>* dest, int destIndex, uint8_t* src, int srcIndex, int len);
     // static System.Void Memcpy(System.Byte* pDest, System.Int32 destIndex, System.Byte[] src, System.Int32 srcIndex, System.Int32 len)
-    // Offset: 0x132C888
+    // Offset: 0x128DB4C
     static void Memcpy(uint8_t* pDest, int destIndex, ::Array<uint8_t>* src, int srcIndex, int len);
     // static public System.Int32 ByteLength(System.Array array)
-    // Offset: 0x132C8B8
+    // Offset: 0x128DB7C
     static int ByteLength(System::Array* array);
     // static public System.Void BlockCopy(System.Array src, System.Int32 srcOffset, System.Array dst, System.Int32 dstOffset, System.Int32 count)
-    // Offset: 0x132C994
+    // Offset: 0x128DC58
     static void BlockCopy(System::Array* src, int srcOffset, System::Array* dst, int dstOffset, int count);
     // static System.Void memcpy4(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0x132CBB0
+    // Offset: 0x128DE74
     static void memcpy4(uint8_t* dest, uint8_t* src, int size);
     // static System.Void memcpy2(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0x132CC3C
+    // Offset: 0x128DF00
     static void memcpy2(uint8_t* dest, uint8_t* src, int size);
     // static private System.Void memcpy1(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0x132CCB8
+    // Offset: 0x128DF7C
     static void memcpy1(uint8_t* dest, uint8_t* src, int size);
     // static System.Void Memcpy(System.Byte* dest, System.Byte* src, System.Int32 size)
-    // Offset: 0x132C82C
+    // Offset: 0x128DAF0
     static void Memcpy(uint8_t* dest, uint8_t* src, int size);
   }; // System.Buffer
 }

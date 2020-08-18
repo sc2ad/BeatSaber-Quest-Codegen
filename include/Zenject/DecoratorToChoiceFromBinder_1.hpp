@@ -38,12 +38,12 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::FactoryBindInfo* factoryBindInfo;
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0x118E334
+    // Offset: 0xFFFFFFFF
     static DecoratorToChoiceFromBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
       return (DecoratorToChoiceFromBinder_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DecoratorToChoiceFromBinder_1<TContract>*>::get(), bindContainer, bindInfo, factoryBindInfo));
     }
     // public Zenject.FactoryFromBinder`2<TContract,TConcrete> With()
-    // Offset: 0x13E7634
+    // Offset: 0xFFFFFFFF
     template<class TConcrete>
     Zenject::FactoryFromBinder_2<TContract, TConcrete>* With() {
       static_assert(std::is_convertible_v<TConcrete, TContract>);

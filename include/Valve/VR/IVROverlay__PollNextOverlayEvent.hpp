@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_PollNextOverlayEvent : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1608E4C
+    // Offset: 0x156A184
     static IVROverlay::_PollNextOverlayEvent* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle, Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent)
-    // Offset: 0x1608E60
+    // Offset: 0x156A198
     bool Invoke(uint64_t ulOverlayHandle, Valve::VR::VREvent_t& pEvent, uint uncbVREvent);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16090FC
+    // Offset: 0x156A434
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VREvent_t& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(Valve.VR.VREvent_t pEvent, System.IAsyncResult result)
-    // Offset: 0x16091D0
+    // Offset: 0x156A508
     bool EndInvoke(Valve::VR::VREvent_t& pEvent, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_PollNextOverlayEvent
 }

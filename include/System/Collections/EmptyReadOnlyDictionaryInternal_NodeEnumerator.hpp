@@ -23,17 +23,17 @@ namespace System::Collections {
   class EmptyReadOnlyDictionaryInternal::NodeEnumerator : public System::Collections::IDictionaryEnumerator, public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1332F70
+    // Offset: 0x1294234
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EmptyReadOnlyDictionaryInternal::NodeEnumerator* New_ctor();
     // public System.Boolean MoveNext()
-    // Offset: 0x1333438
+    // Offset: 0x12946FC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x1333440
+    // Offset: 0x1294704
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -41,7 +41,7 @@ namespace System::Collections {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
-    // Offset: 0x13334C0
+    // Offset: 0x1294784
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -49,7 +49,7 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object get_Key()
-    // Offset: 0x13334C4
+    // Offset: 0x1294788
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Object IDictionaryEnumerator::get_Key()
     ::Il2CppObject* get_Key();
@@ -57,7 +57,7 @@ namespace System::Collections {
     // Maps to method: get_Key
     ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1333544
+    // Offset: 0x1294808
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Object IDictionaryEnumerator::get_Value()
     ::Il2CppObject* get_Value();
@@ -65,7 +65,7 @@ namespace System::Collections {
     // Maps to method: get_Value
     ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Value();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x13335C4
+    // Offset: 0x1294888
     // Implemented from: System.Collections.IDictionaryEnumerator
     // Base method: System.Collections.DictionaryEntry IDictionaryEnumerator::get_Entry()
     System::Collections::DictionaryEntry get_Entry();

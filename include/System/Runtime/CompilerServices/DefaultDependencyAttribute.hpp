@@ -19,7 +19,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::Runtime::CompilerServices::LoadHint loadHint;
     // public System.Void .ctor(System.Runtime.CompilerServices.LoadHint loadHintArgument)
-    // Offset: 0x116160C
+    // Offset: 0x10C48D0
     static DefaultDependencyAttribute* New_ctor(System::Runtime::CompilerServices::LoadHint loadHintArgument);
   }; // System.Runtime.CompilerServices.DefaultDependencyAttribute
 }

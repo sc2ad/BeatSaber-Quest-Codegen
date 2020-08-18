@@ -32,10 +32,10 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x20
     ::Il2CppObject* lastPushed;
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0x1070080
+    // Offset: 0xFD2344
     NUnit::Framework::Constraints::IConstraint* Resolve();
     // private System.Boolean get_IsResolvable()
-    // Offset: 0x107022C
+    // Offset: 0xFD24F0
     bool get_IsResolvable();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
 }

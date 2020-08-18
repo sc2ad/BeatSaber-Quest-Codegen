@@ -20,22 +20,22 @@ namespace System::Threading {
     // Offset: 0x0
     ::Array<T>* m_array;
     // System.Void .ctor(System.Int32 initialSize)
-    // Offset: 0x13EE764
+    // Offset: 0xFFFFFFFF
     static ThreadPoolWorkQueue::SparseArray_1<T>* New_ctor(int initialSize) {
       return (ThreadPoolWorkQueue::SparseArray_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ThreadPoolWorkQueue::SparseArray_1<T>*>::get(), initialSize));
     }
     // T[] get_Current()
-    // Offset: 0x13EE7DC
+    // Offset: 0xFFFFFFFF
     ::Array<T>* get_Current() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(this, "get_Current"));
     }
     // System.Int32 Add(T e)
-    // Offset: 0x13EE800
+    // Offset: 0xFFFFFFFF
     int Add(T e) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Add", e));
     }
     // System.Void Remove(T e)
-    // Offset: 0x13EEA5C
+    // Offset: 0xFFFFFFFF
     void Remove(T e) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Remove", e));
     }

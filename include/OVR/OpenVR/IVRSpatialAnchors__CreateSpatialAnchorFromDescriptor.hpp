@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16AC1F8
+    // Offset: 0x160E530
     static IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRSpatialAnchorError Invoke(System.String pchDescriptor, System.UInt32 pHandleOut)
-    // Offset: 0x16AC20C
+    // Offset: 0x160E544
     OVR::OpenVR::EVRSpatialAnchorError Invoke(::Il2CppString* pchDescriptor, uint& pHandleOut);
     // public System.IAsyncResult BeginInvoke(System.String pchDescriptor, System.UInt32 pHandleOut, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16AC618
+    // Offset: 0x160E950
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchDescriptor, uint& pHandleOut, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRSpatialAnchorError EndInvoke(System.UInt32 pHandleOut, System.IAsyncResult result)
-    // Offset: 0x16AC6B4
+    // Offset: 0x160E9EC
     OVR::OpenVR::EVRSpatialAnchorError EndInvoke(uint& pHandleOut, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSpatialAnchors/_CreateSpatialAnchorFromDescriptor
 }

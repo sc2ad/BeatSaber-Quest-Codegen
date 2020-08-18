@@ -23,20 +23,20 @@ namespace System::Reflection {
   class InvalidFilterCriteriaException : public System::ApplicationException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1366764
+    // Offset: 0x12C7A28
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidFilterCriteriaException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x13667D8
+    // Offset: 0x12C7A9C
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static InvalidFilterCriteriaException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x136680C
+    // Offset: 0x12C7AD0
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

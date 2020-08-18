@@ -53,12 +53,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Collections::Generic::List_1<Zenject::TypeValuePair>* args;
       // System.Void <AddInstallers>b__0(Zenject.DiContainer subContainer)
-      // Offset: 0x15EEC1C
+      // Offset: 0xFFFFFFFF
       void $AddInstallers$b__0(Zenject::DiContainer* subContainer) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<AddInstallers>b__0", subContainer));
       }
       // public System.Void .ctor()
-      // Offset: 0x15EEC04
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename SubContainerCreatorByNewGameObjectMethod_1<TParam1>::$$c__DisplayClass2_0* New_ctor() {
@@ -69,12 +69,12 @@ namespace Zenject {
     // Offset: 0x0
     System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`2<Zenject.DiContainer,TParam1> installerMethod)
-    // Offset: 0x15EF6C0
+    // Offset: 0xFFFFFFFF
     static SubContainerCreatorByNewGameObjectMethod_1<TParam1>* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod) {
       return (SubContainerCreatorByNewGameObjectMethod_1<TParam1>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SubContainerCreatorByNewGameObjectMethod_1<TParam1>*>::get(), container, gameObjectBindInfo, installerMethod));
     }
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
-    // Offset: 0x15EF6FC
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
     // Base method: System.Void SubContainerCreatorDynamicContext::AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context) {

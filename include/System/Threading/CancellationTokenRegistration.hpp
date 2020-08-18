@@ -37,13 +37,13 @@ namespace System::Threading {
     // Creating value type constructor for type: CancellationTokenRegistration
     CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* m_callbackInfo_ = {}, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> m_registrationInfo_ = {}) : m_callbackInfo{m_callbackInfo_}, m_registrationInfo{m_registrationInfo_} {}
     // System.Void .ctor(System.Threading.CancellationCallbackInfo callbackInfo, System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> registrationInfo)
-    // Offset: 0xA440DC
+    // Offset: 0x9AD5A8
     static CancellationTokenRegistration* New_ctor(System::Threading::CancellationCallbackInfo* callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> registrationInfo);
     // System.Boolean TryDeregister()
-    // Offset: 0xA44120
+    // Offset: 0x9AD5EC
     bool TryDeregister();
     // public System.Void Dispose()
-    // Offset: 0xA44128
+    // Offset: 0x9AD5F4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -51,17 +51,17 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA44130
+    // Offset: 0x9AD5FC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.Threading.CancellationTokenRegistration other)
-    // Offset: 0xA44138
+    // Offset: 0x9AD604
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(System.Threading.CancellationTokenRegistration other)
     bool Equals(System::Threading::CancellationTokenRegistration other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA44170
+    // Offset: 0x9AD63C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

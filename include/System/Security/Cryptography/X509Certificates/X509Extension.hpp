@@ -17,22 +17,22 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x20
     bool critical;
     // public System.Boolean get_Critical()
-    // Offset: 0x12178C4
+    // Offset: 0x1179B88
     bool get_Critical();
     // public System.Void set_Critical(System.Boolean value)
-    // Offset: 0x12178CC
+    // Offset: 0x1179B90
     void set_Critical(bool value);
     // System.String FormatUnkownData(System.Byte[] data)
-    // Offset: 0x12170FC
+    // Offset: 0x11793C0
     ::Il2CppString* FormatUnkownData(::Array<uint8_t>* data);
     // protected System.Void .ctor()
-    // Offset: 0x1216730
+    // Offset: 0x11789F4
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
     static X509Extension* New_ctor();
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x12178D8
+    // Offset: 0x1179B9C
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);

@@ -74,17 +74,17 @@ namespace UnityEngine::ProBuilder::KdTree {
       // Offset: 0x0
       System::Collections::Generic::Stack_1<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* right;
       // System.Void <GetEnumerator>b__0(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node)
-      // Offset: 0x118105C
+      // Offset: 0xFFFFFFFF
       void $GetEnumerator$b__0(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<GetEnumerator>b__0", node));
       }
       // System.Void <GetEnumerator>b__1(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node)
-      // Offset: 0x118109C
+      // Offset: 0xFFFFFFFF
       void $GetEnumerator$b__1(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<GetEnumerator>b__1", node));
       }
       // public System.Void .ctor()
-      // Offset: 0x1181044
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename KdTree_2<TKey, TValue>::$$c__DisplayClass33_0* New_ctor() {
@@ -114,40 +114,40 @@ namespace UnityEngine::ProBuilder::KdTree {
       // Offset: 0x0
       System::Action_1<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* $addRight$5__3;
       // public System.Void .ctor(System.Int32 $$1__state)
-      // Offset: 0x1181174
+      // Offset: 0xFFFFFFFF
       static typename KdTree_2<TKey, TValue>::$GetEnumerator$d__33* New_ctor(int $$1__state) {
         return (typename KdTree_2<TKey, TValue>::$GetEnumerator$d__33*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename KdTree_2<TKey, TValue>::$GetEnumerator$d__33*>::get(), $$1__state)));
       }
       // private System.Void System.IDisposable.Dispose()
-      // Offset: 0x11811A8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.IDisposable.Dispose"));
       }
       // private System.Boolean MoveNext()
-      // Offset: 0x11811AC
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
       // private UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current()
-      // Offset: 0x1181584
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator`1::get_Current()
       UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* System_Collections_Generic_IEnumerator_1_get_Current() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>(this, "System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current")));
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0x118158C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0x11815EC
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
@@ -170,69 +170,69 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Offset: 0x0
     int Count;
     // public System.Void .ctor(System.Int32 dimensions, UnityEngine.ProBuilder.KdTree.ITypeMath`1<TKey> typeMath)
-    // Offset: 0x1181A74
+    // Offset: 0xFFFFFFFF
     static KdTree_2<TKey, TValue>* New_ctor(int dimensions, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath) {
       return (KdTree_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KdTree_2<TKey, TValue>*>::get(), dimensions, typeMath)));
     }
     // public System.Void .ctor(System.Int32 dimensions, UnityEngine.ProBuilder.KdTree.ITypeMath`1<TKey> typeMath, UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior addDuplicateBehavior)
-    // Offset: 0x1181AE0
+    // Offset: 0xFFFFFFFF
     static KdTree_2<TKey, TValue>* New_ctor(int dimensions, UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath, UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior addDuplicateBehavior) {
       return (KdTree_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<KdTree_2<TKey, TValue>*>::get(), dimensions, typeMath, addDuplicateBehavior)));
     }
     // public UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior get_AddDuplicateBehavior()
-    // Offset: 0x1181B40
+    // Offset: 0xFFFFFFFF
     UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior get_AddDuplicateBehavior() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior>(this, "get_AddDuplicateBehavior"));
     }
     // private System.Void set_AddDuplicateBehavior(UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior value)
-    // Offset: 0x1181B48
+    // Offset: 0xFFFFFFFF
     void set_AddDuplicateBehavior(UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_AddDuplicateBehavior", value));
     }
     // public System.Boolean Add(TKey[] point, TValue value)
-    // Offset: 0x1181B50
+    // Offset: 0xFFFFFFFF
     bool Add(::Array<TKey>* point, TValue value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Add", point, value));
     }
     // private System.Void AddNearestNeighbours(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node, TKey[] target, UnityEngine.ProBuilder.KdTree.HyperRect`1<TKey> rect, System.Int32 depth, UnityEngine.ProBuilder.KdTree.NearestNeighbourList`2<UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>,TKey> nearestNeighbours, TKey maxSearchRadiusSquared)
-    // Offset: 0x1181F54
+    // Offset: 0xFFFFFFFF
     void AddNearestNeighbours(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, ::Array<TKey>* target, UnityEngine::ProBuilder::KdTree::HyperRect_1<TKey> rect, int depth, UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, TKey>* nearestNeighbours, TKey maxSearchRadiusSquared) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddNearestNeighbours", node, target, rect, depth, nearestNeighbours, maxSearchRadiusSquared));
     }
     // public UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>[] RadialSearch(TKey[] center, TKey radius, System.Int32 count)
-    // Offset: 0x11835FC
+    // Offset: 0xFFFFFFFF
     ::Array<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* RadialSearch(::Array<TKey>* center, TKey radius, int count) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<::Array<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>(this, "RadialSearch", center, radius, count)));
     }
     // public System.Int32 get_Count()
-    // Offset: 0x1182808
+    // Offset: 0xFFFFFFFF
     int get_Count() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_Count"));
     }
     // private System.Void set_Count(System.Int32 value)
-    // Offset: 0x1182810
+    // Offset: 0xFFFFFFFF
     void set_Count(int value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Count", value));
     }
     // private System.Void AddNodeToStringBuilder(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node, System.Text.StringBuilder sb, System.Int32 depth)
-    // Offset: 0x1182818
+    // Offset: 0xFFFFFFFF
     void AddNodeToStringBuilder(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, System::Text::StringBuilder* sb, int depth) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddNodeToStringBuilder", node, sb, depth));
     }
     // public System.Collections.Generic.IEnumerator`1<UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>> GetEnumerator()
-    // Offset: 0x1182A60
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* GetEnumerator() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>(this, "GetEnumerator")));
     }
     // public override System.String ToString()
-    // Offset: 0x118299C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(this, "ToString"));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1182AE4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {

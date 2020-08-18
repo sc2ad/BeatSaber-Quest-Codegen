@@ -71,46 +71,46 @@ namespace RootMotion::FinalIK {
     // Offset: 0xA0
     UnityEngine::Rigidbody* characterRootRigidbody;
     // private System.Boolean IsReadyToInitiate()
-    // Offset: 0x136E3F4
+    // Offset: 0x12CF6B8
     bool IsReadyToInitiate();
     // private System.Void OnDisable()
-    // Offset: 0x136E5E4
+    // Offset: 0x12CF8A8
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x136E6E4
+    // Offset: 0x12CF9A8
     void Update();
     // private System.Void Initiate()
-    // Offset: 0x136EE2C
+    // Offset: 0x12D00F0
     void Initiate();
     // private System.Void OnSolverUpdate()
-    // Offset: 0x136F26C
+    // Offset: 0x12D0530
     void OnSolverUpdate();
     // private System.Void SetLegIK(System.Int32 index)
-    // Offset: 0x136F4DC
+    // Offset: 0x12D07A0
     void SetLegIK(int index);
     // private System.Void OnPostSolverUpdate()
-    // Offset: 0x136F7FC
+    // Offset: 0x12D0AC0
     void OnPostSolverUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x136F998
+    // Offset: 0x12D0C5C
     void OnDestroy();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x136E344
+    // Offset: 0x12CF608
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x136E390
+    // Offset: 0x12CF654
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenScriptReference()
     void OpenScriptReference();
     // public override System.Void ResetPosition()
-    // Offset: 0x136E3DC
+    // Offset: 0x12CF6A0
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::ResetPosition()
     void ResetPosition();
     // public System.Void .ctor()
-    // Offset: 0x136FB84
+    // Offset: 0x12D0E48
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

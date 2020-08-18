@@ -12,7 +12,7 @@ namespace GlobalNamespace {
   class IntToRoman : public ::Il2CppObject {
     public:
     // static public System.String Roman(System.Int32 number)
-    // Offset: 0xCB4794
+    // Offset: 0xC14A58
     static ::Il2CppString* Roman(int number);
   }; // IntToRoman
 }

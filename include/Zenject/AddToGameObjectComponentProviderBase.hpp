@@ -67,13 +67,13 @@ namespace Zenject {
     // Offset: 0x30
     System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback;
     // public System.Void .ctor(Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0xD6348C
+    // Offset: 0xCC3750
     static AddToGameObjectComponentProviderBase* New_ctor(Zenject::DiContainer* container, System::Type* componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback);
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0xD63690
+    // Offset: 0xCC3954
     Zenject::DiContainer* get_Container();
     // protected System.Type get_ComponentType()
-    // Offset: 0xD63698
+    // Offset: 0xCC395C
     System::Type* get_ComponentType();
     // protected System.Boolean get_ShouldToggleActive()
     // Offset: 0xFFFFFFFF
@@ -82,22 +82,22 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     UnityEngine::GameObject* GetGameObject(Zenject::InjectContext* context);
     // public System.Boolean get_IsCached()
-    // Offset: 0xD63680
+    // Offset: 0xCC3944
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0xD63688
+    // Offset: 0xCC394C
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0xD636A0
+    // Offset: 0xCC3964
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0xD636A8
+    // Offset: 0xCC396C
     // Implemented from: Zenject.IProvider
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);

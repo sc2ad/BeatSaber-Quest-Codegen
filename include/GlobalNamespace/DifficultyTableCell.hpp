@@ -43,26 +43,26 @@ namespace GlobalNamespace {
     // Offset: 0x68
     GlobalNamespace::FillIndicator* fillIndicator;
     // public System.Void set_difficultyText(System.String value)
-    // Offset: 0xBE4504
+    // Offset: 0x192BAE4
     void set_difficultyText(::Il2CppString* value);
     // public System.String get_difficultyText()
-    // Offset: 0xBE4520
+    // Offset: 0x192BB00
     ::Il2CppString* get_difficultyText();
     // public System.Void set_difficultyValue(System.Int32 value)
-    // Offset: 0xBE453C
+    // Offset: 0x192BB1C
     void set_difficultyValue(int value);
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBE4624
+    // Offset: 0x192BC04
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0xBE46BC
+    // Offset: 0x192BC9C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0xBE46F8
+    // Offset: 0x192BCD8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()

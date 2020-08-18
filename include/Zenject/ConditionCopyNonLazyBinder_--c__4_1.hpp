@@ -46,17 +46,17 @@ namespace Zenject {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConditionCopyNonLazyBinder::$$c__4_1<T>*>::get(), "<>9__4_0", value)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x118DE40
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConditionCopyNonLazyBinder::$$c__4_1<T>*>::get(), ".cctor"));
     }
     // System.Boolean <WhenInjectedInto>b__4_0(Zenject.InjectContext r)
-    // Offset: 0x118DF34
+    // Offset: 0xFFFFFFFF
     bool $WhenInjectedInto$b__4_0(Zenject::InjectContext* r) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<WhenInjectedInto>b__4_0", r)));
     }
     // public System.Void .ctor()
-    // Offset: 0x118DF1C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConditionCopyNonLazyBinder::$$c__4_1<T>* New_ctor() {

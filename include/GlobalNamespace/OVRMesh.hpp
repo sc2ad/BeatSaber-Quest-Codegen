@@ -70,22 +70,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool IsInitialized;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0xEE5D50
+    // Offset: 0xE46014
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0xEE5D58
+    // Offset: 0xE4601C
     void set_IsInitialized(bool value);
     // public UnityEngine.Mesh get_Mesh()
-    // Offset: 0xEE5D64
+    // Offset: 0xE46028
     UnityEngine::Mesh* get_Mesh();
     // private System.Void Awake()
-    // Offset: 0xEE5D6C
+    // Offset: 0xE46030
     void Awake();
     // private System.Void Initialize(OVRMesh/MeshType meshType)
-    // Offset: 0xEE5E7C
+    // Offset: 0xE46140
     void Initialize(GlobalNamespace::OVRMesh::MeshType meshType);
     // public System.Void .ctor()
-    // Offset: 0xEE6598
+    // Offset: 0xE4685C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -33,21 +33,21 @@ namespace UnityEngine::Events {
     // Offset: 0x0
     UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* Delegate;
     // public System.Void .ctor(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0x13FFF90
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::.ctor(System.Object target, System.Reflection.MethodInfo theFunction)
     static InvokableCall_4<T1, T2, T3, T4>* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction) {
       return (InvokableCall_4<T1, T2, T3, T4>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InvokableCall_4<T1, T2, T3, T4>*>::get(), target, theFunction)));
     }
     // public override System.Void Invoke(System.Object[] args)
-    // Offset: 0x14000A0
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
     void Invoke(::Array<::Il2CppObject*>* args) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", args));
     }
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0x1400380
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Boolean BaseInvokableCall::Find(System.Object targetObj, System.Reflection.MethodInfo method)
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method) {

@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights;
     // protected System.Void Start()
-    // Offset: 0xC2A3F0
+    // Offset: 0xBA242C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xC2A474
+    // Offset: 0xBA24B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

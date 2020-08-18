@@ -34,242 +34,242 @@ namespace UnityEngine {
     // Nested type: UnityEngine::Transform::Enumerator
     class Enumerator;
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x138F9E4
+    // Offset: 0x12F0CA8
     UnityEngine::Vector3 get_position();
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x138FA94
+    // Offset: 0x12F0D58
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x138FB3C
+    // Offset: 0x12F0E00
     UnityEngine::Vector3 get_localPosition();
     // public System.Void set_localPosition(UnityEngine.Vector3 value)
-    // Offset: 0x138FBEC
+    // Offset: 0x12F0EB0
     void set_localPosition(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_eulerAngles()
-    // Offset: 0x138FC94
+    // Offset: 0x12F0F58
     UnityEngine::Vector3 get_eulerAngles();
     // public System.Void set_eulerAngles(UnityEngine.Vector3 value)
-    // Offset: 0x138FD20
+    // Offset: 0x12F0FE4
     void set_eulerAngles(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_localEulerAngles()
-    // Offset: 0x138FE0C
+    // Offset: 0x12F10D0
     UnityEngine::Vector3 get_localEulerAngles();
     // public System.Void set_localEulerAngles(UnityEngine.Vector3 value)
-    // Offset: 0x138FE98
+    // Offset: 0x12F115C
     void set_localEulerAngles(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_right()
-    // Offset: 0x138FF84
+    // Offset: 0x12F1248
     UnityEngine::Vector3 get_right();
     // public UnityEngine.Vector3 get_up()
-    // Offset: 0x13900D8
+    // Offset: 0x12F139C
     UnityEngine::Vector3 get_up();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x139022C
+    // Offset: 0x12F14F0
     UnityEngine::Vector3 get_forward();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0x138FCC4
+    // Offset: 0x12F0F88
     UnityEngine::Quaternion get_rotation();
     // public System.Void set_rotation(UnityEngine.Quaternion value)
-    // Offset: 0x138FDB4
+    // Offset: 0x12F1078
     void set_rotation(UnityEngine::Quaternion value);
     // public UnityEngine.Quaternion get_localRotation()
-    // Offset: 0x138FE3C
+    // Offset: 0x12F1100
     UnityEngine::Quaternion get_localRotation();
     // public System.Void set_localRotation(UnityEngine.Quaternion value)
-    // Offset: 0x138FF2C
+    // Offset: 0x12F11F0
     void set_localRotation(UnityEngine::Quaternion value);
     // public UnityEngine.Vector3 get_localScale()
-    // Offset: 0x13904C0
+    // Offset: 0x12F1784
     UnityEngine::Vector3 get_localScale();
     // public System.Void set_localScale(UnityEngine.Vector3 value)
-    // Offset: 0x1390570
+    // Offset: 0x12F1834
     void set_localScale(UnityEngine::Vector3 value);
     // public UnityEngine.Transform get_parent()
-    // Offset: 0x1390618
+    // Offset: 0x12F18DC
     UnityEngine::Transform* get_parent();
     // public System.Void set_parent(UnityEngine.Transform value)
-    // Offset: 0x1390698
+    // Offset: 0x12F195C
     void set_parent(UnityEngine::Transform* value);
     // UnityEngine.Transform get_parentInternal()
-    // Offset: 0x1390658
+    // Offset: 0x12F191C
     UnityEngine::Transform* get_parentInternal();
     // System.Void set_parentInternal(UnityEngine.Transform value)
-    // Offset: 0x1390764
+    // Offset: 0x12F1A28
     void set_parentInternal(UnityEngine::Transform* value);
     // private UnityEngine.Transform GetParent()
-    // Offset: 0x13907B8
+    // Offset: 0x12F1A7C
     UnityEngine::Transform* GetParent();
     // public System.Void SetParent(UnityEngine.Transform p)
-    // Offset: 0x13907F8
+    // Offset: 0x12F1ABC
     void SetParent(UnityEngine::Transform* p);
     // public System.Void SetParent(UnityEngine.Transform parent, System.Boolean worldPositionStays)
-    // Offset: 0x139084C
+    // Offset: 0x12F1B10
     void SetParent(UnityEngine::Transform* parent, bool worldPositionStays);
     // public UnityEngine.Matrix4x4 get_worldToLocalMatrix()
-    // Offset: 0x13908A4
+    // Offset: 0x12F1B68
     UnityEngine::Matrix4x4 get_worldToLocalMatrix();
     // public UnityEngine.Matrix4x4 get_localToWorldMatrix()
-    // Offset: 0x139096C
+    // Offset: 0x12F1C30
     UnityEngine::Matrix4x4 get_localToWorldMatrix();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1390A34
+    // Offset: 0x12F1CF8
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void Translate(UnityEngine.Vector3 translation, UnityEngine.Space relativeTo)
-    // Offset: 0x1390AF0
+    // Offset: 0x12F1DB4
     void Translate(UnityEngine::Vector3 translation, UnityEngine::Space relativeTo);
     // public System.Void Translate(UnityEngine.Vector3 translation)
-    // Offset: 0x1390C74
+    // Offset: 0x12F1F38
     void Translate(UnityEngine::Vector3 translation);
     // public System.Void Rotate(UnityEngine.Vector3 eulers, UnityEngine.Space relativeTo)
-    // Offset: 0x1390C7C
+    // Offset: 0x12F1F40
     void Rotate(UnityEngine::Vector3 eulers, UnityEngine::Space relativeTo);
     // public System.Void Rotate(UnityEngine.Vector3 eulers)
-    // Offset: 0x1390E98
+    // Offset: 0x12F215C
     void Rotate(UnityEngine::Vector3 eulers);
     // System.Void RotateAroundInternal(UnityEngine.Vector3 axis, System.Single angle)
-    // Offset: 0x1390EA0
+    // Offset: 0x12F2164
     void RotateAroundInternal(UnityEngine::Vector3 axis, float angle);
     // public System.Void Rotate(UnityEngine.Vector3 axis, System.Single angle, UnityEngine.Space relativeTo)
-    // Offset: 0x1390F68
+    // Offset: 0x12F222C
     void Rotate(UnityEngine::Vector3 axis, float angle, UnityEngine::Space relativeTo);
     // public System.Void LookAt(UnityEngine.Transform target, UnityEngine.Vector3 worldUp)
-    // Offset: 0x1391000
+    // Offset: 0x12F22C4
     void LookAt(UnityEngine::Transform* target, UnityEngine::Vector3 worldUp);
     // public System.Void LookAt(UnityEngine.Vector3 worldPosition, UnityEngine.Vector3 worldUp)
-    // Offset: 0x13910D0
+    // Offset: 0x12F2394
     void LookAt(UnityEngine::Vector3 worldPosition, UnityEngine::Vector3 worldUp);
     // public System.Void LookAt(UnityEngine.Vector3 worldPosition)
-    // Offset: 0x1391138
+    // Offset: 0x12F23FC
     void LookAt(UnityEngine::Vector3 worldPosition);
     // private System.Void Internal_LookAt(UnityEngine.Vector3 worldPosition, UnityEngine.Vector3 worldUp)
-    // Offset: 0x13910D4
+    // Offset: 0x12F2398
     void Internal_LookAt(UnityEngine::Vector3 worldPosition, UnityEngine::Vector3 worldUp);
     // public UnityEngine.Vector3 TransformDirection(UnityEngine.Vector3 direction)
-    // Offset: 0x1390C08
+    // Offset: 0x12F1ECC
     UnityEngine::Vector3 TransformDirection(UnityEngine::Vector3 direction);
     // public UnityEngine.Vector3 InverseTransformDirection(UnityEngine.Vector3 direction)
-    // Offset: 0x1391284
+    // Offset: 0x12F2548
     UnityEngine::Vector3 InverseTransformDirection(UnityEngine::Vector3 direction);
     // public UnityEngine.Vector3 TransformVector(UnityEngine.Vector3 vector)
-    // Offset: 0x1391348
+    // Offset: 0x12F260C
     UnityEngine::Vector3 TransformVector(UnityEngine::Vector3 vector);
     // public UnityEngine.Vector3 InverseTransformVector(UnityEngine.Vector3 vector)
-    // Offset: 0x139140C
+    // Offset: 0x12F26D0
     UnityEngine::Vector3 InverseTransformVector(UnityEngine::Vector3 vector);
     // public UnityEngine.Vector3 TransformPoint(UnityEngine.Vector3 position)
-    // Offset: 0x13914D0
+    // Offset: 0x12F2794
     UnityEngine::Vector3 TransformPoint(UnityEngine::Vector3 position);
     // public UnityEngine.Vector3 InverseTransformPoint(UnityEngine.Vector3 position)
-    // Offset: 0x1391594
+    // Offset: 0x12F2858
     UnityEngine::Vector3 InverseTransformPoint(UnityEngine::Vector3 position);
     // public System.Int32 get_childCount()
-    // Offset: 0x1391658
+    // Offset: 0x12F291C
     int get_childCount();
     // public System.Void SetAsFirstSibling()
-    // Offset: 0x1391698
+    // Offset: 0x12F295C
     void SetAsFirstSibling();
     // public System.Void SetAsLastSibling()
-    // Offset: 0x13916D8
+    // Offset: 0x12F299C
     void SetAsLastSibling();
     // public System.Void SetSiblingIndex(System.Int32 index)
-    // Offset: 0x1391718
+    // Offset: 0x12F29DC
     void SetSiblingIndex(int index);
     // static private UnityEngine.Transform FindRelativeTransformWithPath(UnityEngine.Transform transform, System.String path, System.Boolean isActiveOnly)
-    // Offset: 0x1391768
+    // Offset: 0x12F2A2C
     static UnityEngine::Transform* FindRelativeTransformWithPath(UnityEngine::Transform* transform, ::Il2CppString* path, bool isActiveOnly);
     // public UnityEngine.Transform Find(System.String n)
-    // Offset: 0x13917C0
+    // Offset: 0x12F2A84
     UnityEngine::Transform* Find(::Il2CppString* n);
     // public UnityEngine.Vector3 get_lossyScale()
-    // Offset: 0x1391878
+    // Offset: 0x12F2B3C
     UnityEngine::Vector3 get_lossyScale();
     // public System.Boolean IsChildOf(UnityEngine.Transform parent)
-    // Offset: 0x1391928
+    // Offset: 0x12F2BEC
     bool IsChildOf(UnityEngine::Transform* parent);
     // public System.Boolean get_hasChanged()
-    // Offset: 0x1391978
+    // Offset: 0x12F2C3C
     bool get_hasChanged();
     // public System.Void set_hasChanged(System.Boolean value)
-    // Offset: 0x13919B8
+    // Offset: 0x12F2C7C
     void set_hasChanged(bool value);
     // public UnityEngine.Transform GetChild(System.Int32 index)
-    // Offset: 0x1391ABC
+    // Offset: 0x12F2D80
     UnityEngine::Transform* GetChild(int index);
     // private System.Void get_position_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x138FA44
+    // Offset: 0x12F0D08
     void get_position_Injected(UnityEngine::Vector3& ret);
     // private System.Void set_position_Injected(UnityEngine.Vector3 value)
-    // Offset: 0x138FAEC
+    // Offset: 0x12F0DB0
     void set_position_Injected(UnityEngine::Vector3& value);
     // private System.Void get_localPosition_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x138FB9C
+    // Offset: 0x12F0E60
     void get_localPosition_Injected(UnityEngine::Vector3& ret);
     // private System.Void set_localPosition_Injected(UnityEngine.Vector3 value)
-    // Offset: 0x138FC44
+    // Offset: 0x12F0F08
     void set_localPosition_Injected(UnityEngine::Vector3& value);
     // private System.Void get_rotation_Injected(UnityEngine.Quaternion ret)
-    // Offset: 0x1390380
+    // Offset: 0x12F1644
     void get_rotation_Injected(UnityEngine::Quaternion& ret);
     // private System.Void set_rotation_Injected(UnityEngine.Quaternion value)
-    // Offset: 0x13903D0
+    // Offset: 0x12F1694
     void set_rotation_Injected(UnityEngine::Quaternion& value);
     // private System.Void get_localRotation_Injected(UnityEngine.Quaternion ret)
-    // Offset: 0x1390420
+    // Offset: 0x12F16E4
     void get_localRotation_Injected(UnityEngine::Quaternion& ret);
     // private System.Void set_localRotation_Injected(UnityEngine.Quaternion value)
-    // Offset: 0x1390470
+    // Offset: 0x12F1734
     void set_localRotation_Injected(UnityEngine::Quaternion& value);
     // private System.Void get_localScale_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x1390520
+    // Offset: 0x12F17E4
     void get_localScale_Injected(UnityEngine::Vector3& ret);
     // private System.Void set_localScale_Injected(UnityEngine.Vector3 value)
-    // Offset: 0x13905C8
+    // Offset: 0x12F188C
     void set_localScale_Injected(UnityEngine::Vector3& value);
     // private System.Void get_worldToLocalMatrix_Injected(UnityEngine.Matrix4x4 ret)
-    // Offset: 0x139091C
+    // Offset: 0x12F1BE0
     void get_worldToLocalMatrix_Injected(UnityEngine::Matrix4x4& ret);
     // private System.Void get_localToWorldMatrix_Injected(UnityEngine.Matrix4x4 ret)
-    // Offset: 0x13909E4
+    // Offset: 0x12F1CA8
     void get_localToWorldMatrix_Injected(UnityEngine::Matrix4x4& ret);
     // private System.Void SetPositionAndRotation_Injected(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1390A98
+    // Offset: 0x12F1D5C
     void SetPositionAndRotation_Injected(UnityEngine::Vector3& position, UnityEngine::Quaternion& rotation);
     // private System.Void RotateAroundInternal_Injected(UnityEngine.Vector3 axis, System.Single angle)
-    // Offset: 0x1390F08
+    // Offset: 0x12F21CC
     void RotateAroundInternal_Injected(UnityEngine::Vector3& axis, float angle);
     // private System.Void Internal_LookAt_Injected(UnityEngine.Vector3 worldPosition, UnityEngine.Vector3 worldUp)
-    // Offset: 0x13911D4
+    // Offset: 0x12F2498
     void Internal_LookAt_Injected(UnityEngine::Vector3& worldPosition, UnityEngine::Vector3& worldUp);
     // private System.Void TransformDirection_Injected(UnityEngine.Vector3 direction, UnityEngine.Vector3 ret)
-    // Offset: 0x139122C
+    // Offset: 0x12F24F0
     void TransformDirection_Injected(UnityEngine::Vector3& direction, UnityEngine::Vector3& ret);
     // private System.Void InverseTransformDirection_Injected(UnityEngine.Vector3 direction, UnityEngine.Vector3 ret)
-    // Offset: 0x13912F0
+    // Offset: 0x12F25B4
     void InverseTransformDirection_Injected(UnityEngine::Vector3& direction, UnityEngine::Vector3& ret);
     // private System.Void TransformVector_Injected(UnityEngine.Vector3 vector, UnityEngine.Vector3 ret)
-    // Offset: 0x13913B4
+    // Offset: 0x12F2678
     void TransformVector_Injected(UnityEngine::Vector3& vector, UnityEngine::Vector3& ret);
     // private System.Void InverseTransformVector_Injected(UnityEngine.Vector3 vector, UnityEngine.Vector3 ret)
-    // Offset: 0x1391478
+    // Offset: 0x12F273C
     void InverseTransformVector_Injected(UnityEngine::Vector3& vector, UnityEngine::Vector3& ret);
     // private System.Void TransformPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Vector3 ret)
-    // Offset: 0x139153C
+    // Offset: 0x12F2800
     void TransformPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Vector3& ret);
     // private System.Void InverseTransformPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Vector3 ret)
-    // Offset: 0x1391600
+    // Offset: 0x12F28C4
     void InverseTransformPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Vector3& ret);
     // private System.Void get_lossyScale_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x13918D8
+    // Offset: 0x12F2B9C
     void get_lossyScale_Injected(UnityEngine::Vector3& ret);
     // protected System.Void .ctor()
-    // Offset: 0x138F9DC
+    // Offset: 0x12F0CA0
     // Implemented from: UnityEngine.Component
     // Base method: System.Void Component::.ctor()
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static Transform* New_ctor();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1391A08
+    // Offset: 0x12F2CCC
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

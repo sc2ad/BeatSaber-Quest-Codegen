@@ -35,22 +35,22 @@ namespace Zenject {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "_instance", value));
     }
     // static public Zenject.ListPool`1<T> get_Instance()
-    // Offset: 0x13C0DEC
+    // Offset: 0xFFFFFFFF
     static Zenject::ListPool_1<T>* get_Instance() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::ListPool_1<T>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "get_Instance"));
     }
     // private System.Void OnDespawned(System.Collections.Generic.List`1<T> list)
-    // Offset: 0x13C0ED8
+    // Offset: 0xFFFFFFFF
     void OnDespawned(System::Collections::Generic::List_1<T>* list) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", list));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13C0F00
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), ".cctor"));
     }
     // public System.Void .ctor()
-    // Offset: 0x13C0D44
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ListPool_1<T>* New_ctor() {

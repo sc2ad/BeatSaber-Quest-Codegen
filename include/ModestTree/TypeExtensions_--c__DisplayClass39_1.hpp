@@ -26,10 +26,10 @@ namespace ModestTree {
     // Offset: 0x10
     System::Attribute* a;
     // System.Boolean <AllAttributes>b__1(System.Type x)
-    // Offset: 0xD5F928
+    // Offset: 0xCBFBEC
     bool $AllAttributes$b__1(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0xD5F920
+    // Offset: 0xCBFBE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeExtensions::$$c__DisplayClass39_1* New_ctor();

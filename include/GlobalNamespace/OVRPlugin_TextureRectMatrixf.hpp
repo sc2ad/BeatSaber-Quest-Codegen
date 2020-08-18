@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TextureRectMatrixf
     TextureRectMatrixf(UnityEngine::Rect leftRect_ = {}, UnityEngine::Rect rightRect_ = {}, UnityEngine::Vector4 leftScaleBias_ = {}, UnityEngine::Vector4 rightScaleBias_ = {}) : leftRect{leftRect_}, rightRect{rightRect_}, leftScaleBias{leftScaleBias_}, rightScaleBias{rightScaleBias_} {}
     // static private System.Void .cctor()
-    // Offset: 0xF45048
+    // Offset: 0xEA630C
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xA37CAC
+    // Offset: 0x9A1178
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

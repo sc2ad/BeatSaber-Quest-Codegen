@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -31,12 +31,12 @@ namespace System::Linq {
     // Offset: 0x0
     System::Func_2<TSource, bool>* predicate2;
     // System.Boolean <CombinePredicates>b__0(TSource x)
-    // Offset: 0x1281EF0
+    // Offset: 0xFFFFFFFF
     bool $CombinePredicates$b__0(TSource x) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<CombinePredicates>b__0", x)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1281ED8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Enumerable::$$c__DisplayClass6_0_1<TSource>* New_ctor() {

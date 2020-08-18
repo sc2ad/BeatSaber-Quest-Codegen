@@ -32,28 +32,28 @@ namespace UnityEngine {
     // Nested type: UnityEngine::Animation::Enumerator
     class Enumerator;
     // public UnityEngine.AnimationState get_Item(System.String name)
-    // Offset: 0x1933E74
+    // Offset: 0x18911C0
     UnityEngine::AnimationState* get_Item(::Il2CppString* name);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength, UnityEngine.PlayMode mode)
-    // Offset: 0x1933F14
+    // Offset: 0x1891260
     void CrossFade(::Il2CppString* animation, float fadeLength, UnityEngine::PlayMode mode);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength)
-    // Offset: 0x1933F7C
+    // Offset: 0x18912C8
     void CrossFade(::Il2CppString* animation, float fadeLength);
     // UnityEngine.AnimationState GetState(System.String name)
-    // Offset: 0x1933EC4
+    // Offset: 0x1891210
     UnityEngine::AnimationState* GetState(::Il2CppString* name);
     // UnityEngine.AnimationState GetStateAtIndex(System.Int32 index)
-    // Offset: 0x1934094
+    // Offset: 0x18913E0
     UnityEngine::AnimationState* GetStateAtIndex(int index);
     // System.Int32 GetStateCount()
-    // Offset: 0x19340E4
+    // Offset: 0x1891430
     int GetStateCount();
     // public System.Boolean get_animatePhysics()
-    // Offset: 0x1934124
+    // Offset: 0x1891470
     bool get_animatePhysics();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1933FE0
+    // Offset: 0x189132C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

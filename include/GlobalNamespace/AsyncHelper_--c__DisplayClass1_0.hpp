@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Func_1<System::Threading::Tasks::Task*>* asyncTask;
     // System.Threading.Tasks.Task <RunSync>b__0()
-    // Offset: 0xCAA5D8
+    // Offset: 0xC0A89C
     System::Threading::Tasks::Task* $RunSync$b__0();
     // public System.Void .ctor()
-    // Offset: 0xCAA5D0
+    // Offset: 0xC0A894
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsyncHelper::$$c__DisplayClass1_0* New_ctor();

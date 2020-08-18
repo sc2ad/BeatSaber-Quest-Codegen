@@ -27,31 +27,31 @@ namespace System::Security::Cryptography {
     // Offset: 0x30
     ::Array<uint>* buff;
     // public System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0xDE779C
+    // Offset: 0xD47A60
     void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);
     // public System.Byte[] HashFinal()
-    // Offset: 0xDE78C0
+    // Offset: 0xD47B84
     ::Array<uint8_t>* HashFinal();
     // public System.Void Initialize()
-    // Offset: 0xDE79CC
+    // Offset: 0xD47C90
     void Initialize();
     // private System.Void ProcessBlock(System.Byte[] inputBuffer, System.UInt32 inputOffset)
-    // Offset: 0xDE7A90
+    // Offset: 0xD47D54
     void ProcessBlock(::Array<uint8_t>* inputBuffer, uint inputOffset);
     // static private System.Void InitialiseBuff(System.UInt32[] buff, System.Byte[] input, System.UInt32 inputOffset)
-    // Offset: 0xDE816C
+    // Offset: 0xD48430
     static void InitialiseBuff(::Array<uint>* buff, ::Array<uint8_t>* input, uint inputOffset);
     // static private System.Void FillBuff(System.UInt32[] buff)
-    // Offset: 0xDE8854
+    // Offset: 0xD48B18
     static void FillBuff(::Array<uint>* buff);
     // private System.Void ProcessFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0xDE7FB4
+    // Offset: 0xD48278
     void ProcessFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // System.Void AddLength(System.UInt64 length, System.Byte[] buffer, System.Int32 position)
-    // Offset: 0xDE8A94
+    // Offset: 0xD48D58
     void AddLength(uint64_t length, ::Array<uint8_t>* buffer, int position);
     // public System.Void .ctor()
-    // Offset: 0xDE7648
+    // Offset: 0xD4790C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SHA1Internal* New_ctor();

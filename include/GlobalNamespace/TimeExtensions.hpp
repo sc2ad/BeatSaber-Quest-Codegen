@@ -12,52 +12,52 @@ namespace GlobalNamespace {
   class TimeExtensions : public ::Il2CppObject {
     public:
     // static public System.String MinSecDurationText(System.Single duration)
-    // Offset: 0xCBAAE4
+    // Offset: 0xC1ADA8
     static ::Il2CppString* MinSecDurationText(float duration);
     // static public System.String MinSecMillisecDurationText(System.Single duration)
-    // Offset: 0xCBAC70
+    // Offset: 0xC1AF34
     static ::Il2CppString* MinSecMillisecDurationText(float duration);
     // static public System.Int32 SecondsToDays(System.Int32 time)
-    // Offset: 0xCBAD60
+    // Offset: 0xC1B024
     static int SecondsToDays(int time);
     // static public System.Int32 SecondsToHours(System.Int32 time)
-    // Offset: 0xCBAD80
+    // Offset: 0xC1B044
     static int SecondsToHours(int time);
     // static public System.Int32 SecondsToMinutes(System.Int32 time)
-    // Offset: 0xCBADA0
+    // Offset: 0xC1B064
     static int SecondsToMinutes(int time);
     // static public System.Int32 DaysToSeconds(System.Int32 days)
-    // Offset: 0xCBADC0
+    // Offset: 0xC1B084
     static int DaysToSeconds(int days);
     // static public System.Int32 HoursToSeconds(System.Int32 hours)
-    // Offset: 0xCBADD0
+    // Offset: 0xC1B094
     static int HoursToSeconds(int hours);
     // static public System.Int32 MinutesToSeconds(System.Int32 minutes)
-    // Offset: 0xCBADDC
+    // Offset: 0xC1B0A0
     static int MinutesToSeconds(int minutes);
     // static public System.Int32 Hours(System.Single time)
-    // Offset: 0xCBADE8
+    // Offset: 0xC1B0AC
     static int Hours(float time);
     // static public System.Int32 Minutes(System.Single time)
-    // Offset: 0xCBABFC
+    // Offset: 0xC1AEC0
     static int Minutes(float time);
     // static public System.Int32 Seconds(System.Single time)
-    // Offset: 0xCBAC50
+    // Offset: 0xC1AF14
     static int Seconds(float time);
     // static public System.Int32 Milliseconds(System.Single time)
-    // Offset: 0xCBAD38
+    // Offset: 0xC1AFFC
     static int Milliseconds(float time);
     // static public System.Int32 TotalDays(System.Single time)
-    // Offset: 0xCBAE40
+    // Offset: 0xC1B104
     static int TotalDays(float time);
     // static public System.Int32 TotalHours(System.Single time)
-    // Offset: 0xCBAE64
+    // Offset: 0xC1B128
     static int TotalHours(float time);
     // static public System.Int32 TotalMinutes(System.Single time)
-    // Offset: 0xCBAE88
+    // Offset: 0xC1B14C
     static int TotalMinutes(float time);
     // static public System.Int32 TotalSeconds(System.Single time)
-    // Offset: 0xCBAEAC
+    // Offset: 0xC1B170
     static int TotalSeconds(float time);
   }; // TimeExtensions
 }

@@ -22,7 +22,7 @@ namespace UnityEngine::Experimental::Playables {
     // Creating value type constructor for type: TexturePlayableOutput
     TexturePlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xA42344
+    // Offset: 0x9AB810
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();

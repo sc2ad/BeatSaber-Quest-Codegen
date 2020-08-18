@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     float stereoCameraEyeOffset;
     // public System.Void .ctor()
-    // Offset: 0x181CD10
+    // Offset: 0x177B048
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BloomPrePassRenderDataSO::Data* New_ctor();

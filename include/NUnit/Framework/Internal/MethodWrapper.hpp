@@ -41,66 +41,66 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18
     System::Reflection::MethodInfo* MethodInfo;
     // public System.Void .ctor(System.Type type, System.Reflection.MethodInfo method)
-    // Offset: 0x18E573C
+    // Offset: 0x1842A88
     static MethodWrapper* New_ctor(System::Type* type, System::Reflection::MethodInfo* method);
     // private System.Void set_TypeInfo(NUnit.Framework.Interfaces.ITypeInfo value)
-    // Offset: 0x18E5854
+    // Offset: 0x1842BA0
     void set_TypeInfo(NUnit::Framework::Interfaces::ITypeInfo* value);
     // private System.Void set_MethodInfo(System.Reflection.MethodInfo value)
-    // Offset: 0x18E5864
+    // Offset: 0x1842BB0
     void set_MethodInfo(System::Reflection::MethodInfo* value);
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
-    // Offset: 0x18E584C
+    // Offset: 0x1842B98
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: NUnit.Framework.Interfaces.ITypeInfo IMethodInfo::get_TypeInfo()
     NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // public System.Reflection.MethodInfo get_MethodInfo()
-    // Offset: 0x18E585C
+    // Offset: 0x1842BA8
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: System.Reflection.MethodInfo IMethodInfo::get_MethodInfo()
     System::Reflection::MethodInfo* get_MethodInfo();
     // public System.String get_Name()
-    // Offset: 0x18E586C
+    // Offset: 0x1842BB8
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: System.String IMethodInfo::get_Name()
     ::Il2CppString* get_Name();
     // public System.Boolean get_IsAbstract()
-    // Offset: 0x18E588C
+    // Offset: 0x1842BD8
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: System.Boolean IMethodInfo::get_IsAbstract()
     bool get_IsAbstract();
     // public System.Boolean get_IsPublic()
-    // Offset: 0x18E58A8
+    // Offset: 0x1842BF4
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: System.Boolean IMethodInfo::get_IsPublic()
     bool get_IsPublic();
     // public System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x18E58C4
+    // Offset: 0x1842C10
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: System.Boolean IMethodInfo::get_ContainsGenericParameters()
     bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericMethodDefinition()
-    // Offset: 0x18E58E8
+    // Offset: 0x1842C34
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: System.Boolean IMethodInfo::get_IsGenericMethodDefinition()
     bool get_IsGenericMethodDefinition();
     // public NUnit.Framework.Interfaces.ITypeInfo get_ReturnType()
-    // Offset: 0x18E590C
+    // Offset: 0x1842C58
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: NUnit.Framework.Interfaces.ITypeInfo IMethodInfo::get_ReturnType()
     NUnit::Framework::Interfaces::ITypeInfo* get_ReturnType();
     // public NUnit.Framework.Interfaces.IParameterInfo[] GetParameters()
-    // Offset: 0x18E5990
+    // Offset: 0x1842CDC
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: NUnit.Framework.Interfaces.IParameterInfo[] IMethodInfo::GetParameters()
     ::Array<NUnit::Framework::Interfaces::IParameterInfo*>* GetParameters();
     // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(System.Type[] typeArguments)
-    // Offset: 0x18E5B30
+    // Offset: 0x1842E7C
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: NUnit.Framework.Interfaces.IMethodInfo IMethodInfo::MakeGenericMethod(System.Type[] typeArguments)
     NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::Array<System::Type*>* typeArguments);
     // public T[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0xD57474
+    // Offset: 0xFFFFFFFF
     // Implemented from: NUnit.Framework.Interfaces.IReflectionInfo
     // Base method: T[] IReflectionInfo::GetCustomAttributes(System.Boolean inherit)
     template<class T>
@@ -108,7 +108,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetCustomAttributes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, inherit)));
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
-    // Offset: 0x14E2004
+    // Offset: 0xFFFFFFFF
     // Implemented from: NUnit.Framework.Interfaces.IReflectionInfo
     // Base method: System.Boolean IReflectionInfo::IsDefined(System.Boolean inherit)
     template<class T>
@@ -116,12 +116,12 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "IsDefined", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, inherit)));
     }
     // public System.Object Invoke(System.Object fixture, System.Object[] args)
-    // Offset: 0x18E5C40
+    // Offset: 0x1842F8C
     // Implemented from: NUnit.Framework.Interfaces.IMethodInfo
     // Base method: System.Object IMethodInfo::Invoke(System.Object fixture, System.Object[] args)
     ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
     // public override System.String ToString()
-    // Offset: 0x18E5F58
+    // Offset: 0x18432A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

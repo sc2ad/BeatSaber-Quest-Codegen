@@ -70,37 +70,37 @@ namespace GlobalNamespace {
     // Offset: 0x58
     HMUI::ButtonBinder* buttonBinder;
     // public System.Void add_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0xBF2898
+    // Offset: 0x193AE48
     void add_didPressRefreshButtonEvent(System::Action* value);
     // public System.Void remove_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0xBF2968
+    // Offset: 0x193AF18
     void remove_didPressRefreshButtonEvent(System::Action* value);
     // public System.Boolean get_isLoading()
-    // Offset: 0xBF7B54
+    // Offset: 0x1940668
     bool get_isLoading();
     // protected System.Void Awake()
-    // Offset: 0xBF7B70
+    // Offset: 0x1940684
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xBF7C34
+    // Offset: 0x1940748
     void OnDestroy();
     // public System.Void ShowLoading()
-    // Offset: 0xBF26A4
+    // Offset: 0x193AC54
     void ShowLoading();
     // public System.Void ShowText(System.String text, System.Boolean showRefreshButton)
-    // Offset: 0xBF2714
+    // Offset: 0x193ACC4
     void ShowText(::Il2CppString* text, bool showRefreshButton);
     // public System.Void ShowDownloadingProgress(System.String text, System.Single downloadingProgress)
-    // Offset: 0xBF7C50
+    // Offset: 0x1940764
     void ShowDownloadingProgress(::Il2CppString* text, float downloadingProgress);
     // public System.Void Hide()
-    // Offset: 0xBF27C8
+    // Offset: 0x193AD78
     void Hide();
     // private System.Void <Awake>b__13_0()
-    // Offset: 0xBF7D00
+    // Offset: 0x1940814
     void $Awake$b__13_0();
     // public System.Void .ctor()
-    // Offset: 0xBF7CF8
+    // Offset: 0x194080C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

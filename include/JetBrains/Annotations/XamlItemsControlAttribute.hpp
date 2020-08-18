@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class XamlItemsControlAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19584E8
+    // Offset: 0x18B482C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

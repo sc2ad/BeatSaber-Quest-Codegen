@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* levelId;
     // public System.UInt32 get_appId()
-    // Offset: 0xBA2710
+    // Offset: 0x190BDD8
     uint get_appId();
     // public System.String get_levelId()
-    // Offset: 0xBA2718
+    // Offset: 0x190BDE0
     ::Il2CppString* get_levelId();
     // public System.Void .ctor()
-    // Offset: 0xBA2720
+    // Offset: 0x190BDE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SteamLevelProductsModelSO::LevelProductData* New_ctor();

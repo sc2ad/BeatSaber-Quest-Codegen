@@ -64,10 +64,10 @@ namespace UnityEngine {
     // Set static field: static private System.Action`1<UnityEngine.Cubemap> defaultReflectionSet
     static void _set_defaultReflectionSet(System::Action_1<UnityEngine::Cubemap*>* value);
     // static private System.Void CallReflectionProbeEvent(UnityEngine.ReflectionProbe probe, UnityEngine.ReflectionProbe/ReflectionProbeEvent probeEvent)
-    // Offset: 0x141A440
+    // Offset: 0x137C778
     static void CallReflectionProbeEvent(UnityEngine::ReflectionProbe* probe, UnityEngine::ReflectionProbe::ReflectionProbeEvent probeEvent);
     // static private System.Void CallSetDefaultReflection(UnityEngine.Cubemap defaultReflectionCubemap)
-    // Offset: 0x141A4C8
+    // Offset: 0x137C800
     static void CallSetDefaultReflection(UnityEngine::Cubemap* defaultReflectionCubemap);
   }; // UnityEngine.ReflectionProbe
 }

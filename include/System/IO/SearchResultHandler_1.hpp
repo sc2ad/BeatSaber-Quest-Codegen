@@ -32,7 +32,7 @@ namespace System::IO {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TSource>(this, "CreateObject", result));
     }
     // protected System.Void .ctor()
-    // Offset: 0x127AD3C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SearchResultHandler_1<TSource>* New_ctor() {

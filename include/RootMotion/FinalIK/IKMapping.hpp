@@ -32,19 +32,19 @@ namespace RootMotion::FinalIK {
     // Nested type: RootMotion::FinalIK::IKMapping::BoneMap
     class BoneMap;
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, System.String message)
-    // Offset: 0x137BB38
+    // Offset: 0x12DCDFC
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x137BB40
+    // Offset: 0x12DCE04
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // protected System.Boolean BoneIsValid(UnityEngine.Transform bone, RootMotion.FinalIK.IKSolver solver, System.String message, RootMotion.Warning/Logger logger)
-    // Offset: 0x137BB44
+    // Offset: 0x12DCE08
     bool BoneIsValid(UnityEngine::Transform* bone, RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message, RootMotion::Warning::Logger* logger);
     // protected UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x137BC74
+    // Offset: 0x12DCF38
     UnityEngine::Vector3 SolveFABRIKJoint(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float length);
     // public System.Void .ctor()
-    // Offset: 0x137BD7C
+    // Offset: 0x12DD040
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKMapping* New_ctor();

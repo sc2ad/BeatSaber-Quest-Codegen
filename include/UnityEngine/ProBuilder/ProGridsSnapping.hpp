@@ -40,34 +40,34 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Single k_MaxRaySnapDistance
     static void _set_k_MaxRaySnapDistance(float value);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, System.Single snpVal)
-    // Offset: 0x1035A34
+    // Offset: 0xF97CF8
     static UnityEngine::Vector3 SnapValue(UnityEngine::Vector3 vertex, float snpVal);
     // static public System.Single SnapValue(System.Single val, System.Single snpVal)
-    // Offset: 0x1035C48
+    // Offset: 0xF97F0C
     static float SnapValue(float val, float snpVal);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, UnityEngine.Vector3 snap)
-    // Offset: 0x1035D5C
+    // Offset: 0xF98020
     static UnityEngine::Vector3 SnapValue(UnityEngine::Vector3 vertex, UnityEngine::Vector3 snap);
     // static public UnityEngine.Vector3 Floor(UnityEngine.Vector3 vertex, UnityEngine.Vector3 snap)
-    // Offset: 0x1036038
+    // Offset: 0xF982FC
     static UnityEngine::Vector3 Floor(UnityEngine::Vector3 vertex, UnityEngine::Vector3 snap);
     // static public UnityEngine.Vector3 Ceil(UnityEngine.Vector3 vertex, UnityEngine.Vector3 snap)
-    // Offset: 0x10361C4
+    // Offset: 0xF98488
     static UnityEngine::Vector3 Ceil(UnityEngine::Vector3 vertex, UnityEngine::Vector3 snap);
     // static public UnityEngine.Vector3 Ceil(UnityEngine.Vector3 vertex, System.Single snpVal)
-    // Offset: 0x1036350
+    // Offset: 0xF98614
     static UnityEngine::Vector3 Ceil(UnityEngine::Vector3 vertex, float snpVal);
     // static public UnityEngine.Vector3 Floor(UnityEngine.Vector3 vertex, System.Single snpVal)
-    // Offset: 0x1036414
+    // Offset: 0xF986D8
     static UnityEngine::Vector3 Floor(UnityEngine::Vector3 vertex, float snpVal);
     // static public System.Void SnapVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes, UnityEngine.Vector3 snap)
-    // Offset: 0x10364D8
+    // Offset: 0xF9879C
     static void SnapVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes, UnityEngine::Vector3 snap);
     // static UnityEngine.Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine.Vector3 normal)
-    // Offset: 0x103684C
+    // Offset: 0xF98B10
     static UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine::Vector3 normal);
     // static UnityEngine.Vector3 SnapValueOnRay(UnityEngine.Ray ray, System.Single distance, System.Single snap, UnityEngine.ProBuilder.Vector3Mask mask)
-    // Offset: 0x1036984
+    // Offset: 0xF98C48
     static UnityEngine::Vector3 SnapValueOnRay(UnityEngine::Ray ray, float distance, float snap, UnityEngine::ProBuilder::Vector3Mask mask);
   }; // UnityEngine.ProBuilder.ProGridsSnapping
 }

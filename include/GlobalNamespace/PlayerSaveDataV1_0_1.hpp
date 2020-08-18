@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0xC170E0
+    // Offset: 0xB8F11C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1* New_ctor();

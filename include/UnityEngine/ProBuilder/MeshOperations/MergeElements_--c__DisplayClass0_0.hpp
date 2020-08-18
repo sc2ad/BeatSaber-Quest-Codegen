@@ -30,10 +30,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* remove;
     // System.Boolean <MergePairs>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1017554
+    // Offset: 0xF79818
     bool $MergePairs$b__0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x1016A68
+    // Offset: 0xF78D2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MergeElements::$$c__DisplayClass0_0* New_ctor();

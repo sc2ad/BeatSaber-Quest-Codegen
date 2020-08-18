@@ -14,7 +14,7 @@ namespace UnityEngine {
   class ImageEffectOpaque : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x130CEA0
+    // Offset: 0x1270164
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

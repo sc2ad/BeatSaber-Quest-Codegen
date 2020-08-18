@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected System.Void Awake()
-    // Offset: 0xCB54C4
+    // Offset: 0xC15788
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xCB551C
+    // Offset: 0xC157E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

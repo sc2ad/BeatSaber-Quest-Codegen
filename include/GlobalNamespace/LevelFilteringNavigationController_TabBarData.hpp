@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections;
     // public IAnnotatedBeatmapLevelCollection get_selectedAnnotatedBeatmapLevelCollections()
-    // Offset: 0xB4A714
+    // Offset: 0xB4D3E0
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_selectedAnnotatedBeatmapLevelCollections();
     // public System.Void .ctor()
-    // Offset: 0xB4A438
+    // Offset: 0xB4D104
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelFilteringNavigationController::TabBarData* New_ctor();

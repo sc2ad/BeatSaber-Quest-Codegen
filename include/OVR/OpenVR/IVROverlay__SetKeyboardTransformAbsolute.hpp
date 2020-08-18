@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetKeyboardTransformAbsolute : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x169A434
+    // Offset: 0x15FC76C
     static IVROverlay::_SetKeyboardTransformAbsolute* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform)
-    // Offset: 0x169A448
+    // Offset: 0x15FC780
     void Invoke(OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x169A6D0
+    // Offset: 0x15FCA08
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform, System.IAsyncResult result)
-    // Offset: 0x169A784
+    // Offset: 0x15FCABC
     void EndInvoke(OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetKeyboardTransformAbsolute
 }

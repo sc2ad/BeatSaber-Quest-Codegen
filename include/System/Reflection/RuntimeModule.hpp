@@ -14,7 +14,7 @@ namespace System::Reflection {
   class RuntimeModule : public System::Reflection::Module {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x114F344
+    // Offset: 0x10B2608
     // Implemented from: System.Reflection.Module
     // Base method: System.Void Module::.ctor()
     // Base method: System.Void Object::.ctor()

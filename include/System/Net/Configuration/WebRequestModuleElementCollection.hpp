@@ -14,7 +14,7 @@ namespace System::Net::Configuration {
   class WebRequestModuleElementCollection : public System::Configuration::ConfigurationElementCollection {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF66EDC
+    // Offset: 0xEC81A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebRequestModuleElementCollection* New_ctor();

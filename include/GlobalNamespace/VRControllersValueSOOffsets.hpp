@@ -34,17 +34,17 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool mirror;
     // public override UnityEngine.Vector3 get_positionOffset()
-    // Offset: 0xC4FC0C
+    // Offset: 0x196D258
     // Implemented from: VRControllerTransformOffset
     // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_positionOffset()
     UnityEngine::Vector3 get_positionOffset();
     // public override UnityEngine.Vector3 get_rotationOffset()
-    // Offset: 0xC4FC70
+    // Offset: 0x196D2BC
     // Implemented from: VRControllerTransformOffset
     // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_rotationOffset()
     UnityEngine::Vector3 get_rotationOffset();
     // public System.Void .ctor()
-    // Offset: 0xC4FCD4
+    // Offset: 0x196D320
     // Implemented from: VRControllerTransformOffset
     // Base method: System.Void VRControllerTransformOffset::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

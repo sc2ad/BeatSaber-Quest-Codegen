@@ -29,16 +29,16 @@ namespace System::IO {
   class RenamedEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF62FDC
+    // Offset: 0xEC42A0
     static RenamedEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.IO.RenamedEventArgs e)
-    // Offset: 0xF62FF0
+    // Offset: 0xEC42B4
     void Invoke(::Il2CppObject* sender, System::IO::RenamedEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.IO.RenamedEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF62C48
+    // Offset: 0xEC3F0C
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::IO::RenamedEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF633F4
+    // Offset: 0xEC46B8
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.RenamedEventHandler
 }

@@ -36,16 +36,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // protected System.Void Start()
-    // Offset: 0xB99C98
+    // Offset: 0x1903344
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB99DCC
+    // Offset: 0x1903478
     void OnDestroy();
     // private System.Void HandleStandardLevelDidFinishEvent(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0xB99F00
+    // Offset: 0x19035AC
     void HandleStandardLevelDidFinishEvent(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0xB9A19C
+    // Offset: 0x1903848
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

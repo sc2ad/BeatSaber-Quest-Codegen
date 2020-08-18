@@ -24,10 +24,10 @@ namespace Zenject {
     // Offset: 0x10
     ::Il2CppString* prefix;
     // System.Boolean <WithPrefix>b__0(System.Type t)
-    // Offset: 0xD6BDD8
+    // Offset: 0xCCC09C
     bool $WithPrefix$b__0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0xD6BA78
+    // Offset: 0xCCBD3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionFilterTypesBinder::$$c__DisplayClass15_0* New_ctor();

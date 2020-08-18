@@ -74,46 +74,46 @@ namespace Valve::VR {
     // Offset: 0x60
     Valve::VR::CVRTrackedCamera* m_pVRTrackedCamera;
     // public System.Void Clear()
-    // Offset: 0x19218AC
+    // Offset: 0x187FBF8
     void Clear();
     // private System.Void CheckClear()
-    // Offset: 0x19219D8
+    // Offset: 0x187FD24
     void CheckClear();
     // public Valve.VR.CVRSystem VRSystem()
-    // Offset: 0x1920AD8
+    // Offset: 0x187EE24
     Valve::VR::CVRSystem* VRSystem();
     // public Valve.VR.CVRChaperone VRChaperone()
-    // Offset: 0x1920C04
+    // Offset: 0x187EF50
     Valve::VR::CVRChaperone* VRChaperone();
     // public Valve.VR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0x1920D30
+    // Offset: 0x187F07C
     Valve::VR::CVRChaperoneSetup* VRChaperoneSetup();
     // public Valve.VR.CVRCompositor VRCompositor()
-    // Offset: 0x1920E5C
+    // Offset: 0x187F1A8
     Valve::VR::CVRCompositor* VRCompositor();
     // public Valve.VR.CVROverlay VROverlay()
-    // Offset: 0x1920F88
+    // Offset: 0x187F2D4
     Valve::VR::CVROverlay* VROverlay();
     // public Valve.VR.CVRRenderModels VRRenderModels()
-    // Offset: 0x19210B4
+    // Offset: 0x187F400
     Valve::VR::CVRRenderModels* VRRenderModels();
     // public Valve.VR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0x19211E0
+    // Offset: 0x187F52C
     Valve::VR::CVRExtendedDisplay* VRExtendedDisplay();
     // public Valve.VR.CVRSettings VRSettings()
-    // Offset: 0x192130C
+    // Offset: 0x187F658
     Valve::VR::CVRSettings* VRSettings();
     // public Valve.VR.CVRApplications VRApplications()
-    // Offset: 0x1921438
+    // Offset: 0x187F784
     Valve::VR::CVRApplications* VRApplications();
     // public Valve.VR.CVRScreenshots VRScreenshots()
-    // Offset: 0x1921564
+    // Offset: 0x187F8B0
     Valve::VR::CVRScreenshots* VRScreenshots();
     // public Valve.VR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0x1921690
+    // Offset: 0x187F9DC
     Valve::VR::CVRTrackedCamera* VRTrackedCamera();
     // public System.Void .ctor()
-    // Offset: 0x1920A48
+    // Offset: 0x187ED94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OpenVR::COpenVRContext* New_ctor();

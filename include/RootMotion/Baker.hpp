@@ -109,28 +109,28 @@ namespace RootMotion {
     // Offset: 0x70
     float clipLength;
     // private System.Void OpenUserManual()
-    // Offset: 0x1398394
+    // Offset: 0x12FA658
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x13983E0
+    // Offset: 0x12FA6A4
     void OpenScriptReference();
     // private System.Void SupportGroup()
-    // Offset: 0x139842C
+    // Offset: 0x12FA6F0
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1398478
+    // Offset: 0x12FA73C
     void ASThread();
     // public System.Boolean get_isBaking()
-    // Offset: 0x13984C4
+    // Offset: 0x12FA788
     bool get_isBaking();
     // private System.Void set_isBaking(System.Boolean value)
-    // Offset: 0x13984CC
+    // Offset: 0x12FA790
     void set_isBaking(bool value);
     // public System.Single get_bakingProgress()
-    // Offset: 0x13984D8
+    // Offset: 0x12FA79C
     float get_bakingProgress();
     // private System.Void set_bakingProgress(System.Single value)
-    // Offset: 0x13984E0
+    // Offset: 0x12FA7A4
     void set_bakingProgress(float value);
     // protected UnityEngine.Transform GetCharacterRoot()
     // Offset: 0xFFFFFFFF
@@ -148,22 +148,22 @@ namespace RootMotion {
     // Offset: 0xFFFFFFFF
     void OnSetKeyframes(float time, bool lastFrame);
     // protected System.Single get_clipLength()
-    // Offset: 0x13984E8
+    // Offset: 0x12FA7AC
     float get_clipLength();
     // private System.Void set_clipLength(System.Single value)
-    // Offset: 0x13984F0
+    // Offset: 0x12FA7B4
     void set_clipLength(float value);
     // public System.Void BakeClip()
-    // Offset: 0x13984F8
+    // Offset: 0x12FA7BC
     void BakeClip();
     // public System.Void StartBaking()
-    // Offset: 0x13984FC
+    // Offset: 0x12FA7C0
     void StartBaking();
     // public System.Void StopBaking()
-    // Offset: 0x1398500
+    // Offset: 0x12FA7C4
     void StopBaking();
     // protected System.Void .ctor()
-    // Offset: 0x1398504
+    // Offset: 0x12FA7C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

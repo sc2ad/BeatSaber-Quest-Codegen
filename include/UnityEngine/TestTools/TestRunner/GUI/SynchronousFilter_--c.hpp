@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Reflection
@@ -39,16 +39,16 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__2_1
     static void _set_$$9__2_1(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE42B84
+    // Offset: 0xDA2E48
     static void _cctor();
     // System.Boolean <Pass>b__2_0(System.Reflection.MethodInfo mi)
-    // Offset: 0xE42BF4
+    // Offset: 0xDA2EB8
     bool $Pass$b__2_0(System::Reflection::MethodInfo* mi);
     // System.Boolean <Pass>b__2_1(System.Reflection.MethodInfo mi)
-    // Offset: 0xE42C9C
+    // Offset: 0xDA2F60
     bool $Pass$b__2_1(System::Reflection::MethodInfo* mi);
     // public System.Void .ctor()
-    // Offset: 0xE42BEC
+    // Offset: 0xDA2EB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SynchronousFilter::$$c* New_ctor();

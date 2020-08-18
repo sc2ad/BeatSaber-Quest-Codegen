@@ -39,28 +39,28 @@ namespace UnityEngine::Audio {
     // Creating value type constructor for type: AudioPlayableOutput
     AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Audio.AudioPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.AudioSource target)
-    // Offset: 0x1954900
+    // Offset: 0x18B0C44
     static UnityEngine::Audio::AudioPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::AudioSource* target);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0xA5AFC0
+    // Offset: 0x9C548C
     static AudioPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Audio.AudioPlayableOutput get_Null()
-    // Offset: 0x1954A40
+    // Offset: 0x18B0D84
     static UnityEngine::Audio::AudioPlayableOutput get_Null();
     // public System.Void SetTarget(UnityEngine.AudioSource value)
-    // Offset: 0xA5AFD4
+    // Offset: 0x9C54A0
     void SetTarget(UnityEngine::AudioSource* value);
     // public System.Void SetEvaluateOnSeek(System.Boolean value)
-    // Offset: 0xA5B024
+    // Offset: 0x9C54F0
     void SetEvaluateOnSeek(bool value);
     // static private System.Void InternalSetTarget(UnityEngine.Playables.PlayableOutputHandle output, UnityEngine.AudioSource target)
-    // Offset: 0x1954C28
+    // Offset: 0x18B0F6C
     static void InternalSetTarget(UnityEngine::Playables::PlayableOutputHandle& output, UnityEngine::AudioSource* target);
     // static private System.Void InternalSetEvaluateOnSeek(UnityEngine.Playables.PlayableOutputHandle output, System.Boolean value)
-    // Offset: 0x1954CC8
+    // Offset: 0x18B100C
     static void InternalSetEvaluateOnSeek(UnityEngine::Playables::PlayableOutputHandle& output, bool value);
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xA5AFC8
+    // Offset: 0x9C5494
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();

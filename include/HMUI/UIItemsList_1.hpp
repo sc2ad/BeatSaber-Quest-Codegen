@@ -59,22 +59,22 @@ namespace HMUI {
       public:
       using declaring_type = UIItemsList_1<T>*;
       // public System.Void .ctor(System.Object object, System.IntPtr method)
-      // Offset: 0x1290F80
+      // Offset: 0xFFFFFFFF
       static typename UIItemsList_1<T>::DataCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
         return (typename UIItemsList_1<T>::DataCallback*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename UIItemsList_1<T>::DataCallback*>::get(), object, method));
       }
       // public System.Void Invoke(System.Int32 idx, T item)
-      // Offset: 0x1290F94
+      // Offset: 0xFFFFFFFF
       void Invoke(int idx, T item) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", idx, item));
       }
       // public System.IAsyncResult BeginInvoke(System.Int32 idx, T item, System.AsyncCallback callback, System.Object object)
-      // Offset: 0x129121C
+      // Offset: 0xFFFFFFFF
       System::IAsyncResult* BeginInvoke(int idx, T item, System::AsyncCallback* callback, ::Il2CppObject* object) {
         return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", idx, item, callback, object));
       }
       // public System.Void EndInvoke(System.IAsyncResult result)
-      // Offset: 0x12912B4
+      // Offset: 0xFFFFFFFF
       void EndInvoke(System::IAsyncResult* result) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "EndInvoke", result));
       }
@@ -95,17 +95,17 @@ namespace HMUI {
     // Offset: 0x0
     System::Collections::Generic::List_1<T>* items;
     // public System.Collections.Generic.IEnumerable`1<T> get_items()
-    // Offset: 0x12912C0
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<T>* get_items() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<T>*>(this, "get_items"));
     }
     // public System.Void SetData(System.Int32 numberOfElements, HMUI.UIItemsList`1/DataCallback<T> dataCallback)
-    // Offset: 0x12912C8
+    // Offset: 0xFFFFFFFF
     void SetData(int numberOfElements, typename HMUI::UIItemsList_1<T>::DataCallback* dataCallback) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetData", numberOfElements, dataCallback));
     }
     // public System.Void .ctor()
-    // Offset: 0x12914A8
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

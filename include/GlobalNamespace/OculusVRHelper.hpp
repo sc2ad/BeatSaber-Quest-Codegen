@@ -54,46 +54,46 @@ namespace GlobalNamespace {
     // Offset: 0x3A
     bool hasVrFocus;
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCB5C48
+    // Offset: 0xC15F0C
     void add_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCB5CEC
+    // Offset: 0xC15FB0
     void remove_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCB5D90
+    // Offset: 0xC16054
     void add_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCB5E34
+    // Offset: 0xC160F8
     void remove_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_hmdUnmountedEvent(System.Action value)
-    // Offset: 0xCB5ED8
+    // Offset: 0xC1619C
     void add_hmdUnmountedEvent(System::Action* value);
     // public System.Void remove_hmdUnmountedEvent(System.Action value)
-    // Offset: 0xCB5F7C
+    // Offset: 0xC16240
     void remove_hmdUnmountedEvent(System::Action* value);
     // public System.Void add_hmdMountedEvent(System.Action value)
-    // Offset: 0xCB6020
+    // Offset: 0xC162E4
     void add_hmdMountedEvent(System::Action* value);
     // public System.Void remove_hmdMountedEvent(System.Action value)
-    // Offset: 0xCB60C4
+    // Offset: 0xC16388
     void remove_hmdMountedEvent(System::Action* value);
     // private System.Boolean get__isOVRManagerPresent()
-    // Offset: 0xCB6168
+    // Offset: 0xC1642C
     bool get__isOVRManagerPresent();
     // public System.Void .ctor(VRPlatformHelper/XRDeviceModel currentXRDeviceModel)
-    // Offset: 0xCB623C
+    // Offset: 0xC16500
     static OculusVRHelper* New_ctor(GlobalNamespace::VRPlatformHelper::XRDeviceModel currentXRDeviceModel);
     // public System.Void Update()
-    // Offset: 0xCB6508
+    // Offset: 0xC167CC
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0xCB66F8
+    // Offset: 0xC169BC
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0xCB676C
+    // Offset: 0xC16A30
     void LateUpdate();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single strength)
-    // Offset: 0xCB67E0
+    // Offset: 0xC16AA4
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float strength);
   }; // OculusVRHelper
 }

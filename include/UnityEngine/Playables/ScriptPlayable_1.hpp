@@ -62,69 +62,69 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: ScriptPlayable_1
     ScriptPlayable_1(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Playables.ScriptPlayable`1<T> get_Null()
-    // Offset: 0x117E8B0
+    // Offset: 0xFFFFFFFF
     static UnityEngine::Playables::ScriptPlayable_1<T> get_Null() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Playables::ScriptPlayable_1<T>>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "get_Null"));
     }
     // static public UnityEngine.Playables.ScriptPlayable`1<T> Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x117E99C
+    // Offset: 0xFFFFFFFF
     static UnityEngine::Playables::ScriptPlayable_1<T> Create(UnityEngine::Playables::PlayableGraph graph, int inputCount) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Playables::ScriptPlayable_1<T>>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "Create", graph, inputCount));
     }
     // static public UnityEngine.Playables.ScriptPlayable`1<T> Create(UnityEngine.Playables.PlayableGraph graph, T template, System.Int32 inputCount)
-    // Offset: 0x117EB08
+    // Offset: 0xFFFFFFFF
     static UnityEngine::Playables::ScriptPlayable_1<T> Create(UnityEngine::Playables::PlayableGraph graph, T _template, int inputCount) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Playables::ScriptPlayable_1<T>>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "Create", graph, _template, inputCount));
     }
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, T template, System.Int32 inputCount)
-    // Offset: 0x117EC80
+    // Offset: 0xFFFFFFFF
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, T _template, int inputCount) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Playables::PlayableHandle>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CreateHandle", graph, _template, inputCount));
     }
     // static private System.Object CreateScriptInstance()
-    // Offset: 0x117EFA8
+    // Offset: 0xFFFFFFFF
     static ::Il2CppObject* CreateScriptInstance() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CreateScriptInstance"));
     }
     // static private System.Object CloneScriptInstance(UnityEngine.Playables.IPlayableBehaviour source)
-    // Offset: 0x117F198
+    // Offset: 0xFFFFFFFF
     static ::Il2CppObject* CloneScriptInstance(UnityEngine::Playables::IPlayableBehaviour* source) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstance", source));
     }
     // static private System.Object CloneScriptInstanceFromEngineObject(UnityEngine.Object source)
-    // Offset: 0x117F434
+    // Offset: 0xFFFFFFFF
     static ::Il2CppObject* CloneScriptInstanceFromEngineObject(UnityEngine::Object* source) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromEngineObject", source));
     }
     // static private System.Object CloneScriptInstanceFromIClonable(System.ICloneable source)
-    // Offset: 0x117F4E0
+    // Offset: 0xFFFFFFFF
     static ::Il2CppObject* CloneScriptInstanceFromIClonable(System::ICloneable* source) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), "CloneScriptInstanceFromIClonable", source));
     }
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA3EB0C
+    // Offset: 0xFFFFFFFF
     static ScriptPlayable_1<T>* New_ctor(UnityEngine::Playables::PlayableHandle handle) {
       return (ScriptPlayable_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), handle));
     }
     // public T GetBehaviour()
-    // Offset: 0xA3EB20
+    // Offset: 0xFFFFFFFF
     T GetBehaviour() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "GetBehaviour"));
     }
     // static private System.Void .cctor()
-    // Offset: 0x117F878
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ScriptPlayable_1<T>>::get(), ".cctor"));
     }
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA3EB14
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Playables::PlayableHandle>(*this, "GetHandle"));
     }
     // public System.Boolean Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
-    // Offset: 0xA3EB28
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Playables.ScriptPlayable`1<T> other)
     bool Equals(UnityEngine::Playables::ScriptPlayable_1<T> other) {

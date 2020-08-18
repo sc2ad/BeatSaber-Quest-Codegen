@@ -33,27 +33,27 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int width;
     // public System.Int32 get_lineIndex()
-    // Offset: 0xB5A8E4
+    // Offset: 0x18E1E14
     int get_lineIndex();
     // public ObstacleType get_type()
-    // Offset: 0xB5A8EC
+    // Offset: 0x18E1E1C
     GlobalNamespace::ObstacleType get_type();
     // public System.Single get_duration()
-    // Offset: 0xB5A8F4
+    // Offset: 0x18E1E24
     float get_duration();
     // public System.Int32 get_width()
-    // Offset: 0xB5A8FC
+    // Offset: 0x18E1E2C
     int get_width();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, ObstacleType type, System.Single duration, System.Int32 width)
-    // Offset: 0xB5A904
+    // Offset: 0x18E1E34
     static BeatmapSaveData::ObstacleData* New_ctor(float time, int lineIndex, GlobalNamespace::ObstacleType type, float duration, int width);
     // public System.Single get_time()
-    // Offset: 0xB5A8DC
+    // Offset: 0x18E1E0C
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Single ITime::get_time()
     float get_time();
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xB5A95C
+    // Offset: 0x18E1E8C
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);

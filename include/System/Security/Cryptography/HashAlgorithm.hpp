@@ -26,10 +26,10 @@ namespace System::Security::Cryptography {
     // Offset: 0x24
     bool m_bDisposed;
     // public System.Byte[] ComputeHash(System.Byte[] buffer)
-    // Offset: 0xDE6E14
+    // Offset: 0xD470D8
     ::Array<uint8_t>* ComputeHash(::Array<uint8_t>* buffer);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xDE6FE0
+    // Offset: 0xD472A4
     void Dispose(bool disposing);
     // public System.Void Initialize()
     // Offset: 0xFFFFFFFF
@@ -41,12 +41,12 @@ namespace System::Security::Cryptography {
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* HashFinal();
     // protected System.Void .ctor()
-    // Offset: 0xDE6E0C
+    // Offset: 0xD470D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HashAlgorithm* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0xDE6F64
+    // Offset: 0xD47228
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

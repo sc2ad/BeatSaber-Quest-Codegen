@@ -57,17 +57,17 @@ namespace System::Threading::Tasks {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename UnwrapPromise_1<TResult>::$$c*>::get(), "<>9__8_0", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0x149A1B4
+      // Offset: 0xFFFFFFFF
       static void _cctor() {
         THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename UnwrapPromise_1<TResult>::$$c*>::get(), ".cctor"));
       }
       // System.Void <InvokeCoreAsync>b__8_0(System.Object state)
-      // Offset: 0x149A2A8
+      // Offset: 0xFFFFFFFF
       void $InvokeCoreAsync$b__8_0(::Il2CppObject* state) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<InvokeCoreAsync>b__8_0", state));
       }
       // public System.Void .ctor()
-      // Offset: 0x149A290
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename UnwrapPromise_1<TResult>::$$c* New_ctor() {
@@ -81,37 +81,37 @@ namespace System::Threading::Tasks {
     // Offset: 0x0
     bool lookForOce;
     // public System.Void .ctor(System.Threading.Tasks.Task outerTask, System.Boolean lookForOce)
-    // Offset: 0x149A50C
+    // Offset: 0xFFFFFFFF
     static UnwrapPromise_1<TResult>* New_ctor(System::Threading::Tasks::Task* outerTask, bool lookForOce) {
       return (UnwrapPromise_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnwrapPromise_1<TResult>*>::get(), outerTask, lookForOce));
     }
     // private System.Void InvokeCore(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x149A814
+    // Offset: 0xFFFFFFFF
     void InvokeCore(System::Threading::Tasks::Task* completingTask) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "InvokeCore", completingTask));
     }
     // private System.Void InvokeCoreAsync(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x149A884
+    // Offset: 0xFFFFFFFF
     void InvokeCoreAsync(System::Threading::Tasks::Task* completingTask) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "InvokeCoreAsync", completingTask));
     }
     // private System.Void ProcessCompletedOuterTask(System.Threading.Tasks.Task task)
-    // Offset: 0x149AA80
+    // Offset: 0xFFFFFFFF
     void ProcessCompletedOuterTask(System::Threading::Tasks::Task* task) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "ProcessCompletedOuterTask", task));
     }
     // private System.Boolean TrySetFromTask(System.Threading.Tasks.Task task, System.Boolean lookForOce)
-    // Offset: 0x149ABF4
+    // Offset: 0xFFFFFFFF
     bool TrySetFromTask(System::Threading::Tasks::Task* task, bool lookForOce) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TrySetFromTask", task, lookForOce));
     }
     // private System.Void ProcessInnerTask(System.Threading.Tasks.Task task)
-    // Offset: 0x149AEC0
+    // Offset: 0xFFFFFFFF
     void ProcessInnerTask(System::Threading::Tasks::Task* task) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "ProcessInnerTask", task));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x149A6EC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void Invoke(System::Threading::Tasks::Task* completingTask) {

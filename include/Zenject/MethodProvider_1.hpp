@@ -20,8 +20,8 @@ namespace Zenject {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -51,33 +51,33 @@ namespace Zenject {
     // Offset: 0x0
     System::Func_2<Zenject::InjectContext*, TReturn>* method;
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,TReturn> method, Zenject.DiContainer container)
-    // Offset: 0x15DED5C
+    // Offset: 0xFFFFFFFF
     static MethodProvider_1<TReturn>* New_ctor(System::Func_2<Zenject::InjectContext*, TReturn>* method, Zenject::DiContainer* container) {
       return (MethodProvider_1<TReturn>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MethodProvider_1<TReturn>*>::get(), method, container));
     }
     // public System.Boolean get_IsCached()
-    // Offset: 0x15DEDB4
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_IsCached"));
     }
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x15DEDBC
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_TypeVariesBasedOnMemberType"));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x15DEDC4
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Type*>(this, "GetInstanceType", context));
     }
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x15DEE38
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {

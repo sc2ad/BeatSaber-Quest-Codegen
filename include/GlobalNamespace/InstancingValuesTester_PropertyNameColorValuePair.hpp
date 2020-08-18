@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Color color;
     // public System.Void .ctor()
-    // Offset: 0x18215E4
+    // Offset: 0x177F91C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InstancingValuesTester::PropertyNameColorValuePair* New_ctor();

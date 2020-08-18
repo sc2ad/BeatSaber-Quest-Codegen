@@ -26,28 +26,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x38
     RootMotion::FinalIK::IKSolverLimb* solver;
     // private System.Void SupportGroup()
-    // Offset: 0x122A9F0
+    // Offset: 0x118DCB4
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x122AA3C
+    // Offset: 0x118DD00
     void ASThread();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x122A958
+    // Offset: 0x118DC1C
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x122A9A4
+    // Offset: 0x118DC68
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::OpenScriptReference()
     void OpenScriptReference();
     // public override RootMotion.FinalIK.IKSolver GetIKSolver()
-    // Offset: 0x122AA88
+    // Offset: 0x118DD4C
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: RootMotion.FinalIK.IKSolver IK::GetIKSolver()
     RootMotion::FinalIK::IKSolver* GetIKSolver();
     // public System.Void .ctor()
-    // Offset: 0x122AA90
+    // Offset: 0x118DD54
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: System.Void IK::.ctor()
     // Base method: System.Void SolverManager::.ctor()

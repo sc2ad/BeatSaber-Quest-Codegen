@@ -24,10 +24,10 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x10
     NUnit::Framework::Constraints::ValueFormatter* next;
     // public System.String <.cctor>b__4(System.Object val)
-    // Offset: 0x10758E4
+    // Offset: 0xFD7BA8
     ::Il2CppString* $_cctor$b__4(::Il2CppObject* val);
     // public System.Void .ctor()
-    // Offset: 0x1075244
+    // Offset: 0xFD7508
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MsgUtils::$$c__DisplayClass22* New_ctor();

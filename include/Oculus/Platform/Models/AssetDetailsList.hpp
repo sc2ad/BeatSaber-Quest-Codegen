@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class AssetDetailsList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AssetDetails*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xE9D7B4
+    // Offset: 0xDFCA78
     static AssetDetailsList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.AssetDetailsList
 }

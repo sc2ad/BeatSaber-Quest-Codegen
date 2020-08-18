@@ -64,16 +64,16 @@ namespace GlobalNamespace {
     // Offset: 0x48
     System::Action* $$9__2;
     // System.Void <ClearAndOpenScenes>b__0()
-    // Offset: 0xCB1AD0
+    // Offset: 0xC11D94
     void $ClearAndOpenScenes$b__0();
     // System.Void <ClearAndOpenScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0xCB1C0C
+    // Offset: 0xC11ED0
     void $ClearAndOpenScenes$b__1(Zenject::DiContainer* container);
     // System.Void <ClearAndOpenScenes>b__2()
-    // Offset: 0xCB1CB4
+    // Offset: 0xC11F78
     void $ClearAndOpenScenes$b__2();
     // public System.Void .ctor()
-    // Offset: 0xCB097C
+    // Offset: 0xC10C40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameScenesManager::$$c__DisplayClass33_0* New_ctor();

@@ -66,7 +66,7 @@ namespace System::Diagnostics {
     // Offset: 0x10
     System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes;
     // public System.Void .ctor(System.Diagnostics.DebuggableAttribute/DebuggingModes modes)
-    // Offset: 0xC91D70
+    // Offset: 0xBF2034
     static DebuggableAttribute* New_ctor(System::Diagnostics::DebuggableAttribute::DebuggingModes modes);
   }; // System.Diagnostics.DebuggableAttribute
 }

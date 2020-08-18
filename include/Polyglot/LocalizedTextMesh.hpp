@@ -38,32 +38,32 @@ namespace Polyglot {
     // Offset: 0x20
     ::Il2CppString* key;
     // public System.Void Reset()
-    // Offset: 0x190F3F4
+    // Offset: 0x186D740
     void Reset();
     // public System.Void Start()
-    // Offset: 0x190F454
+    // Offset: 0x186D7A0
     void Start();
     // private System.Boolean IsOppositeDirection(UnityEngine.TextAlignment alignment, Polyglot.LanguageDirection direction)
-    // Offset: 0x190F584
+    // Offset: 0x186D8D0
     bool IsOppositeDirection(UnityEngine::TextAlignment alignment, Polyglot::LanguageDirection direction);
     // private System.Boolean IsAlignmentRight(UnityEngine.TextAlignment alignment)
-    // Offset: 0x190F5B0
+    // Offset: 0x186D8FC
     bool IsAlignmentRight(UnityEngine::TextAlignment alignment);
     // private System.Boolean IsAlignmentLeft(UnityEngine.TextAlignment alignment)
-    // Offset: 0x190F5BC
+    // Offset: 0x186D908
     bool IsAlignmentLeft(UnityEngine::TextAlignment alignment);
     // public System.String get_Key()
-    // Offset: 0x190F3EC
+    // Offset: 0x186D738
     // Implemented from: Polyglot.ILocalizeKey
     // Base method: System.String ILocalizeKey::get_Key()
     ::Il2CppString* get_Key();
     // public System.Void OnLocalize()
-    // Offset: 0x190F480
+    // Offset: 0x186D7CC
     // Implemented from: Polyglot.ILocalize
     // Base method: System.Void ILocalize::OnLocalize()
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x190F5C8
+    // Offset: 0x186D914
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

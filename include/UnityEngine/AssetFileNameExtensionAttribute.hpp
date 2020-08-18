@@ -28,7 +28,7 @@ namespace UnityEngine {
     // Offset: 0x18
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* otherExtensions;
     // public System.Void .ctor(System.String preferredExtension, System.String[] otherExtensions)
-    // Offset: 0x196A710
+    // Offset: 0x18C6A54
     static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, ::Array<::Il2CppString*>* otherExtensions);
   }; // UnityEngine.AssetFileNameExtensionAttribute
 }

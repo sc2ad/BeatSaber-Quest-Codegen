@@ -33,21 +33,21 @@ namespace System::Reflection {
   class RtFieldInfo : public System::Reflection::RuntimeFieldInfo {
     public:
     // System.Object UnsafeGetValue(System.Object obj)
-    // Offset: 0x115208C
+    // Offset: 0x10B5350
     ::Il2CppObject* UnsafeGetValue(::Il2CppObject* obj);
     // System.Void CheckConsistency(System.Object target)
-    // Offset: 0x1152090
+    // Offset: 0x10B5354
     void CheckConsistency(::Il2CppObject* target);
     // System.Void UnsafeSetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
-    // Offset: 0x1152248
+    // Offset: 0x10B550C
     void UnsafeSetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
     // public override System.Void SetValueDirect(System.TypedReference obj, System.Object value)
-    // Offset: 0x11522B0
+    // Offset: 0x10B5574
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Void FieldInfo::SetValueDirect(System.TypedReference obj, System.Object value)
     void SetValueDirect(System::TypedReference obj, ::Il2CppObject* value);
     // protected System.Void .ctor()
-    // Offset: 0x114E20C
+    // Offset: 0x10B14D0
     // Implemented from: System.Reflection.RuntimeFieldInfo
     // Base method: System.Void RuntimeFieldInfo::.ctor()
     // Base method: System.Void FieldInfo::.ctor()

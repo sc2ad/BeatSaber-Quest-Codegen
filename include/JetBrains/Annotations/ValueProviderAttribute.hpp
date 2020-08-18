@@ -17,13 +17,13 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     ::Il2CppString* Name;
     // public System.Void .ctor(System.String name)
-    // Offset: 0x195849C
+    // Offset: 0x18B47E0
     static ValueProviderAttribute* New_ctor(::Il2CppString* name);
     // public System.String get_Name()
-    // Offset: 0x19584D0
+    // Offset: 0x18B4814
     ::Il2CppString* get_Name();
     // private System.Void set_Name(System.String value)
-    // Offset: 0x19584D8
+    // Offset: 0x18B481C
     void set_Name(::Il2CppString* value);
   }; // JetBrains.Annotations.ValueProviderAttribute
 }

@@ -23,16 +23,16 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RankModel::Rank
     struct Rank;
     // static public System.String GetRankName(RankModel/Rank rank)
-    // Offset: 0xC1BDE8
+    // Offset: 0xB93E24
     static ::Il2CppString* GetRankName(GlobalNamespace::RankModel::Rank rank);
     // static public RankModel/Rank MaxRankForGameplayModifiers(GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel)
-    // Offset: 0xC1BE4C
+    // Offset: 0xB93E88
     static GlobalNamespace::RankModel::Rank MaxRankForGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel);
     // static public RankModel/Rank GetRankForScore(System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxRawScore, System.Int32 maxModifiedScore)
-    // Offset: 0xC1BE94
+    // Offset: 0xB93ED0
     static GlobalNamespace::RankModel::Rank GetRankForScore(int rawScore, int modifiedScore, int maxRawScore, int maxModifiedScore);
     // public System.Void .ctor()
-    // Offset: 0xC1BFC8
+    // Offset: 0xB94004
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RankModel* New_ctor();

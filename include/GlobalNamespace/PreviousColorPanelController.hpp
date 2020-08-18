@@ -62,25 +62,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxColors
     static void _set_kMaxColors(int value);
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0xC1ABC4
+    // Offset: 0xB92C00
     void add_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0xC1AC68
+    // Offset: 0xB92CA4
     void remove_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // protected System.Void Awake()
-    // Offset: 0xC1AD0C
+    // Offset: 0xB92D48
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC1ADD0
+    // Offset: 0xB92E0C
     void OnDestroy();
     // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0xC1ADEC
+    // Offset: 0xB92E28
     void AddColor(UnityEngine::Color color);
     // private System.Void <Awake>b__9_0()
-    // Offset: 0xC1AEE8
+    // Offset: 0xB92F24
     void $Awake$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0xC1AEA4
+    // Offset: 0xB92EE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

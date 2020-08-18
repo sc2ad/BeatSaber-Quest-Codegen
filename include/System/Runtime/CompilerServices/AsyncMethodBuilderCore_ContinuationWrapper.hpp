@@ -35,10 +35,10 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x20
     System::Threading::Tasks::Task* m_innerTask;
     // System.Void .ctor(System.Action continuation, System.Action invokeAction, System.Threading.Tasks.Task innerTask)
-    // Offset: 0x116073C
+    // Offset: 0x10C3A00
     static AsyncMethodBuilderCore::ContinuationWrapper* New_ctor(System::Action* continuation, System::Action* invokeAction, System::Threading::Tasks::Task* innerTask);
     // System.Void Invoke()
-    // Offset: 0x1160A38
+    // Offset: 0x10C3CFC
     void Invoke();
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/ContinuationWrapper
 }

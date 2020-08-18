@@ -58,50 +58,50 @@ namespace System::Threading::Tasks {
     // Set static field: static private System.Threading.ContextCallback s_invokeActionCallback
     static void _set_s_invokeActionCallback(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Action action, System.Boolean flowExecutionContext, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0xCDA57C
+    // Offset: 0xC3A840
     static AwaitTaskContinuation* New_ctor(System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark);
     // System.Void .ctor(System.Action action, System.Boolean flowExecutionContext)
-    // Offset: 0xCDA650
+    // Offset: 0xC3A914
     static AwaitTaskContinuation* New_ctor(System::Action* action, bool flowExecutionContext);
     // protected System.Threading.Tasks.Task CreateTask(System.Action`1<System.Object> action, System.Object state, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0xCDA704
+    // Offset: 0xC3A9C8
     System::Threading::Tasks::Task* CreateTask(System::Action_1<::Il2CppObject*>* action, ::Il2CppObject* state, System::Threading::Tasks::TaskScheduler* scheduler);
     // static System.Boolean get_IsValidLocationForInlining()
-    // Offset: 0xCDAA70
+    // Offset: 0xC3AD34
     static bool get_IsValidLocationForInlining();
     // private System.Void ExecuteWorkItemHelper()
-    // Offset: 0xCDAE78
+    // Offset: 0xC3B13C
     void ExecuteWorkItemHelper();
     // static private System.Void InvokeAction(System.Object state)
-    // Offset: 0xCDB020
+    // Offset: 0xC3B2E4
     static void InvokeAction(::Il2CppObject* state);
     // static protected System.Threading.ContextCallback GetInvokeActionCallback()
-    // Offset: 0xCDB08C
+    // Offset: 0xC3B350
     static System::Threading::ContextCallback* GetInvokeActionCallback();
     // protected System.Void RunCallback(System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task currentTask)
-    // Offset: 0xCDABBC
+    // Offset: 0xC3AE80
     void RunCallback(System::Threading::ContextCallback* callback, ::Il2CppObject* state, System::Threading::Tasks::Task*& currentTask);
     // static System.Void RunOrScheduleAction(System.Action action, System.Boolean allowInlining, System.Threading.Tasks.Task currentTask)
-    // Offset: 0xCDB284
+    // Offset: 0xC3B548
     static void RunOrScheduleAction(System::Action* action, bool allowInlining, System::Threading::Tasks::Task*& currentTask);
     // static System.Void UnsafeScheduleAction(System.Action action, System.Threading.Tasks.Task task)
-    // Offset: 0xCDB44C
+    // Offset: 0xC3B710
     static void UnsafeScheduleAction(System::Action* action, System::Threading::Tasks::Task* task);
     // static protected System.Void ThrowAsyncIfNecessary(System.Exception exc)
-    // Offset: 0xCDB124
+    // Offset: 0xC3B3E8
     static void ThrowAsyncIfNecessary(System::Exception* exc);
     // override System.Void Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
-    // Offset: 0xCDA948
+    // Offset: 0xC3AC0C
     // Implemented from: System.Threading.Tasks.TaskContinuation
     // Base method: System.Void TaskContinuation::Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* task, bool canInlineContinuationTask);
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0xCDAFF4
+    // Offset: 0xC3B2B8
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0xCDB01C
+    // Offset: 0xC3B2E0
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

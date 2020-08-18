@@ -23,7 +23,7 @@ namespace NUnit::Framework::Internal {
   class TestFixture : public NUnit::Framework::Interfaces::IDisposableFixture, public NUnit::Framework::Internal::TestSuite {
     public:
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
-    // Offset: 0x18EA780
+    // Offset: 0x1847ACC
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)

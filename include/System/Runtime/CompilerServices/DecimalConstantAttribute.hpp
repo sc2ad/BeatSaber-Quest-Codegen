@@ -19,10 +19,10 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::Decimal dec;
     // public System.Void .ctor(System.Byte scale, System.Byte sign, System.UInt32 hi, System.UInt32 mid, System.UInt32 low)
-    // Offset: 0x1161580
+    // Offset: 0x10C4844
     static DecimalConstantAttribute* New_ctor(uint8_t scale, uint8_t sign, uint hi, uint mid, uint low);
     // public System.Decimal get_Value()
-    // Offset: 0x1161600
+    // Offset: 0x10C48C4
     System::Decimal get_Value();
   }; // System.Runtime.CompilerServices.DecimalConstantAttribute
 }

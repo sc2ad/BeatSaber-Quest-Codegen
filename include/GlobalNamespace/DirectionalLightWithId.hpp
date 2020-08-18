@@ -35,12 +35,12 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     float minIntensity;
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1820B30
+    // Offset: 0x177EE68
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1820BEC
+    // Offset: 0x177EF24
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

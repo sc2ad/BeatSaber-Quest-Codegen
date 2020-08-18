@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float spawningStartTime;
     // public System.Void .ctor(BeatmapData beatmapData, System.Single spawningStartTime)
-    // Offset: 0xB55988
+    // Offset: 0x18DCEB8
     static BeatmapObjectCallbackController::InitData* New_ctor(GlobalNamespace::BeatmapData* beatmapData, float spawningStartTime);
   }; // BeatmapObjectCallbackController/InitData
 }

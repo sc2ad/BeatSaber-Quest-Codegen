@@ -61,22 +61,22 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _sizeParamsID
     static void _set__sizeParamsID(int value);
     // public System.Void set_localPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1826464
+    // Offset: 0x178479C
     void set_localPosition(UnityEngine::Vector3 value);
     // protected System.Void Awake()
-    // Offset: 0x18264B0
+    // Offset: 0x17847E8
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x18264D0
+    // Offset: 0x1784808
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1826684
+    // Offset: 0x17849BC
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x1826504
+    // Offset: 0x178483C
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x18266A4
+    // Offset: 0x17849DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ParametricBoxFakeGlowController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x18266C0
+    // Offset: 0x17849F8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

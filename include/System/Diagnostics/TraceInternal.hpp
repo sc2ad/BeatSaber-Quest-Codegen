@@ -47,31 +47,31 @@ namespace System::Diagnostics {
     // Set static field: static readonly System.Object critSec
     static void _set_critSec(::Il2CppObject* value);
     // static public System.Diagnostics.TraceListenerCollection get_Listeners()
-    // Offset: 0xF5C3E0
+    // Offset: 0xEBD6A4
     static System::Diagnostics::TraceListenerCollection* get_Listeners();
     // static public System.Boolean get_AutoFlush()
-    // Offset: 0xF5C8A4
+    // Offset: 0xEBDB68
     static bool get_AutoFlush();
     // static public System.Boolean get_UseGlobalLock()
-    // Offset: 0xF5C914
+    // Offset: 0xEBDBD8
     static bool get_UseGlobalLock();
     // static public System.Int32 get_IndentLevel()
-    // Offset: 0xF5C984
+    // Offset: 0xEBDC48
     static int get_IndentLevel();
     // static public System.Int32 get_IndentSize()
-    // Offset: 0xF5C9EC
+    // Offset: 0xEBDCB0
     static int get_IndentSize();
     // static public System.Void Assert(System.Boolean condition)
-    // Offset: 0xF59A44
+    // Offset: 0xEBAD08
     static void Assert_(bool condition);
     // static public System.Void Fail(System.String message)
-    // Offset: 0xF5CA5C
+    // Offset: 0xEBDD20
     static void Fail(::Il2CppString* message);
     // static private System.Void InitializeSettings()
-    // Offset: 0xF5C620
+    // Offset: 0xEBD8E4
     static void InitializeSettings();
     // static private System.Void .cctor()
-    // Offset: 0xF5D224
+    // Offset: 0xEBE4E8
     static void _cctor();
   }; // System.Diagnostics.TraceInternal
 }

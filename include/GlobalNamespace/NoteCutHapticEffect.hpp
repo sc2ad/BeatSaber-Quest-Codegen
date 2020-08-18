@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // public System.Void HitNote(SaberType saberType)
-    // Offset: 0xC12564
+    // Offset: 0x195B094
     void HitNote(GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0xC131BC
+    // Offset: 0x195BCEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

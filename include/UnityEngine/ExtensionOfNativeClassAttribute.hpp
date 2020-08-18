@@ -14,7 +14,7 @@ namespace UnityEngine {
   class ExtensionOfNativeClassAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1309C4C
+    // Offset: 0x126CF10
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

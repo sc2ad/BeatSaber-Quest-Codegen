@@ -21,19 +21,19 @@ namespace GlobalNamespace {
   class MainEffectSO : public GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Void PreRender()
-    // Offset: 0x1907D68
+    // Offset: 0x18660B4
     void PreRender();
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x1907D6C
+    // Offset: 0x18660B8
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void PostRender(System.Single fade)
-    // Offset: 0x1907D70
+    // Offset: 0x18660BC
     void PostRender(float fade);
     // public System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x1907D74
+    // Offset: 0x18660C0
     bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x19073FC
+    // Offset: 0x1865748
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

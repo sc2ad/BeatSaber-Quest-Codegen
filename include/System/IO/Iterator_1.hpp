@@ -39,24 +39,24 @@ namespace System::IO {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IO::Iterator_1<TSource>*>(this, "Clone"));
     }
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x127AC18
+    // Offset: 0xFFFFFFFF
     void Dispose(bool disposing) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose", disposing));
     }
     // public System.Collections.Generic.IEnumerator`1<TSource> GetEnumerator()
-    // Offset: 0x127AC28
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<TSource>* GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<TSource>*>(this, "GetEnumerator"));
     }
     // public System.Void .ctor()
-    // Offset: 0x127AB48
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Iterator_1<TSource>* New_ctor() {
       return (Iterator_1<TSource>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Iterator_1<TSource>*>::get()));
     }
     // public TSource get_Current()
-    // Offset: 0x127AB8C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     TSource get_Current() {
@@ -68,7 +68,7 @@ namespace System::IO {
       return get_Current();
     }
     // public System.Void Dispose()
-    // Offset: 0x127AB94
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose() {
@@ -87,21 +87,21 @@ namespace System::IO {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x127AC94
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IEnumerator.get_Current"));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x127ACB8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "System.Collections.IEnumerable.GetEnumerator"));
     }
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x127ACDC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset() {

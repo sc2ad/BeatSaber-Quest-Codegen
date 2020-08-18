@@ -45,12 +45,12 @@ namespace System::Diagnostics::Tracing {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TraceLoggingTypeInfo_1<DataType>*>::get(), "instance", value));
     }
     // protected System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventLevel level, System.Diagnostics.Tracing.EventOpcode opcode, System.Diagnostics.Tracing.EventKeywords keywords, System.Diagnostics.Tracing.EventTags tags)
-    // Offset: 0x15695E8
+    // Offset: 0xFFFFFFFF
     static TraceLoggingTypeInfo_1<DataType>* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventOpcode opcode, System::Diagnostics::Tracing::EventKeywords keywords, System::Diagnostics::Tracing::EventTags tags) {
       return (TraceLoggingTypeInfo_1<DataType>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TraceLoggingTypeInfo_1<DataType>*>::get(), name, level, opcode, keywords, tags));
     }
     // static public System.Diagnostics.Tracing.TraceLoggingTypeInfo`1<DataType> get_Instance()
-    // Offset: 0x15696B8
+    // Offset: 0xFFFFFFFF
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>* get_Instance() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TraceLoggingTypeInfo_1<DataType>*>::get(), "get_Instance"));
     }
@@ -60,24 +60,24 @@ namespace System::Diagnostics::Tracing {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
     }
     // static System.Diagnostics.Tracing.TraceLoggingTypeInfo`1<DataType> GetInstance(System.Collections.Generic.List`1<System.Type> recursionCheck)
-    // Offset: 0x1569818
+    // Offset: 0xFFFFFFFF
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>* GetInstance(System::Collections::Generic::List_1<System::Type*>* recursionCheck) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TraceLoggingTypeInfo_1<DataType>*>::get(), "GetInstance", recursionCheck));
     }
     // static private System.Diagnostics.Tracing.TraceLoggingTypeInfo`1<DataType> InitInstance()
-    // Offset: 0x15699AC
+    // Offset: 0xFFFFFFFF
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>* InitInstance() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TraceLoggingTypeInfo_1<DataType>*>::get(), "InitInstance"));
     }
     // protected System.Void .ctor()
-    // Offset: 0x1569550
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TraceLoggingTypeInfo_1<DataType>* New_ctor() {
       return (TraceLoggingTypeInfo_1<DataType>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TraceLoggingTypeInfo_1<DataType>*>::get()));
     }
     // public override System.Void WriteObjectData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Object value)
-    // Offset: 0x156976C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteObjectData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Object value)
     void WriteObjectData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Il2CppObject* value) {

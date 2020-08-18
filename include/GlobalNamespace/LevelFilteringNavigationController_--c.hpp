@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<LevelFilteringNavigationController/TabBarData,TabBarViewController/TabBarItem> <>9__31_0
     static void _set_$$9__31_0(System::Func_2<GlobalNamespace::LevelFilteringNavigationController::TabBarData*, GlobalNamespace::TabBarViewController::TabBarItem*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB4A8FC
+    // Offset: 0xB4D5C8
     static void _cctor();
     // TabBarViewController/TabBarItem <InitializeTabBarViewController>b__31_0(LevelFilteringNavigationController/TabBarData x)
-    // Offset: 0xB4A96C
+    // Offset: 0xB4D638
     GlobalNamespace::TabBarViewController::TabBarItem* $InitializeTabBarViewController$b__31_0(GlobalNamespace::LevelFilteringNavigationController::TabBarData* x);
     // public System.Void .ctor()
-    // Offset: 0xB4A964
+    // Offset: 0xB4D630
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelFilteringNavigationController::$$c* New_ctor();

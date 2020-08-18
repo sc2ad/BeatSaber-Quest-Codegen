@@ -55,14 +55,14 @@ namespace Zenject {
     // Offset: 0x0
     TMemoryPool pool;
     // public System.Void .ctor(Zenject.DiContainer container, System.Guid poolId)
-    // Offset: 0x15E77B8
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PoolableMemoryPoolProviderBase`1
     // Base method: System.Void PoolableMemoryPoolProviderBase`1::.ctor(Zenject.DiContainer container, System.Guid poolId)
     static PoolableMemoryPoolProvider_7<TContract, TParam1, TParam2, TParam3, TParam4, TParam5, TMemoryPool>* New_ctor(Zenject::DiContainer* container, System::Guid poolId) {
       return (PoolableMemoryPoolProvider_7<TContract, TParam1, TParam2, TParam3, TParam4, TParam5, TMemoryPool>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableMemoryPoolProvider_7<TContract, TParam1, TParam2, TParam3, TParam4, TParam5, TMemoryPool>*>::get(), container, poolId)));
     }
     // public System.Void Validate()
-    // Offset: 0x15E77DC
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IValidatable
     // Base method: System.Void IValidatable::Validate()
     void Validate() {
@@ -74,7 +74,7 @@ namespace Zenject {
       Validate();
     }
     // public override System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x15E78A8
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PoolableMemoryPoolProviderBase`1
     // Base method: System.Void PoolableMemoryPoolProviderBase`1::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {

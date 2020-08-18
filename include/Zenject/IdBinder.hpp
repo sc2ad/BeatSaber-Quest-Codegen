@@ -22,10 +22,10 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::BindInfo* bindInfo;
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0xF358F8
+    // Offset: 0xE96BBC
     static IdBinder* New_ctor(Zenject::BindInfo* bindInfo);
     // public System.Void WithId(System.Object identifier)
-    // Offset: 0xF3592C
+    // Offset: 0xE96BF0
     void WithId(::Il2CppObject* identifier);
   }; // Zenject.IdBinder
 }

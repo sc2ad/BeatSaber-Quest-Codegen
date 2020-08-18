@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Action* finishCallback;
     // System.Void <PopScenes>b__0()
-    // Offset: 0xCB17A8
+    // Offset: 0xC11A6C
     void $PopScenes$b__0();
     // public System.Void .ctor()
-    // Offset: 0xCB0268
+    // Offset: 0xC1052C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameScenesManager::$$c__DisplayClass31_0* New_ctor();

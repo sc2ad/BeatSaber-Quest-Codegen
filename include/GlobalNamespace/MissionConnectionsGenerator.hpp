@@ -48,22 +48,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* missionNodes;
     // private MissionNode get__rootMissionNode()
-    // Offset: 0xC0085C
+    // Offset: 0x1949370
     GlobalNamespace::MissionNode* get__rootMissionNode();
     // private System.Void CreateNodeConnections()
-    // Offset: 0xC00878
+    // Offset: 0x194938C
     void CreateNodeConnections();
     // private System.Void RemoveOldConnections()
-    // Offset: 0xC0090C
+    // Offset: 0x1949420
     void RemoveOldConnections();
     // private System.Void CreateConnections(MissionNode missionNode, System.Collections.Generic.List`1<MissionNode> visitedNodes)
-    // Offset: 0xC00CC8
+    // Offset: 0x19497DC
     void CreateConnections(GlobalNamespace::MissionNode* missionNode, System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* visitedNodes);
     // private MissionNodeConnection CreateConnectionBetweenNodes(MissionNode parentMissionNode, MissionNode childMissionNode)
-    // Offset: 0xC00E44
+    // Offset: 0x1949958
     GlobalNamespace::MissionNodeConnection* CreateConnectionBetweenNodes(GlobalNamespace::MissionNode* parentMissionNode, GlobalNamespace::MissionNode* childMissionNode);
     // public System.Void .ctor()
-    // Offset: 0xC00F18
+    // Offset: 0x1949A2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

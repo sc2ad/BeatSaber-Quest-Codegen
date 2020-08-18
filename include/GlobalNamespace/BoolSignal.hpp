@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class BoolSignal : public GlobalNamespace::GenericSignal_1<bool> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCAAB08
+    // Offset: 0xC0ADCC
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal`1::.ctor()
     // Base method: System.Void Signal::.ctor()

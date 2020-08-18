@@ -15,8 +15,8 @@
 namespace System {
   // Forward declaring type: Attribute
   class Attribute;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -33,12 +33,12 @@ namespace Zenject {
     // Offset: 0x0
     System::Func_2<T, bool>* predicate;
     // System.Boolean <WithAttributeWhere>b__0(System.Type t)
-    // Offset: 0x118E250
+    // Offset: 0xFFFFFFFF
     bool $WithAttributeWhere$b__0(System::Type* t) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<WithAttributeWhere>b__0", t)));
     }
     // public System.Void .ctor()
-    // Offset: 0x118E238
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>* New_ctor() {

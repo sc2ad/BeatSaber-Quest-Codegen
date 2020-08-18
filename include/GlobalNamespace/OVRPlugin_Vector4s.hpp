@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Vector4s
     Vector4s(int16_t x_ = {}, int16_t y_ = {}, int16_t z_ = {}, int16_t w_ = {}) : x{x_}, y{y_}, z{z_}, w{w_} {}
     // static private System.Void .cctor()
-    // Offset: 0xF45664
+    // Offset: 0xEA6928
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xA37CC4
+    // Offset: 0x9A1190
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

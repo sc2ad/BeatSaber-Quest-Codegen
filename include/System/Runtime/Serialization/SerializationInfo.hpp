@@ -92,115 +92,115 @@ namespace System::Runtime::Serialization {
     // Set static field: static private System.String s_mscorlibFileName
     static void _set_s_mscorlibFileName(::Il2CppString* value);
     // public System.Void .ctor(System.Type type, System.Runtime.Serialization.IFormatterConverter converter)
-    // Offset: 0xFEB020
+    // Offset: 0xF4C2E4
     static SerializationInfo* New_ctor(System::Type* type, System::Runtime::Serialization::IFormatterConverter* converter);
     // public System.Void .ctor(System.Type type, System.Runtime.Serialization.IFormatterConverter converter, System.Boolean requireSameTokenInPartialTrust)
-    // Offset: 0xFED2E0
+    // Offset: 0xF4E5A4
     static SerializationInfo* New_ctor(System::Type* type, System::Runtime::Serialization::IFormatterConverter* converter, bool requireSameTokenInPartialTrust);
     // public System.String get_FullTypeName()
-    // Offset: 0xFFA8B4
+    // Offset: 0xF5BB78
     ::Il2CppString* get_FullTypeName();
     // public System.String get_AssemblyName()
-    // Offset: 0xFFA8BC
+    // Offset: 0xF5BB80
     ::Il2CppString* get_AssemblyName();
     // public System.Void SetType(System.Type type)
-    // Offset: 0xFF90F8
+    // Offset: 0xF5A3BC
     void SetType(System::Type* type);
     // static private System.Boolean Compare(System.Byte[] a, System.Byte[] b)
-    // Offset: 0xFFA8C8
+    // Offset: 0xF5BB8C
     static bool Compare(::Array<uint8_t>* a, ::Array<uint8_t>* b);
     // static System.Void DemandForUnsafeAssemblyNameAssignments(System.String originalAssemblyName, System.String newAssemblyName)
-    // Offset: 0xFFA8C4
+    // Offset: 0xF5BB88
     static void DemandForUnsafeAssemblyNameAssignments(::Il2CppString* originalAssemblyName, ::Il2CppString* newAssemblyName);
     // static System.Boolean IsAssemblyNameAssignmentSafe(System.String originalAssemblyName, System.String newAssemblyName)
-    // Offset: 0xFEDFC8
+    // Offset: 0xF4F28C
     static bool IsAssemblyNameAssignmentSafe(::Il2CppString* originalAssemblyName, ::Il2CppString* newAssemblyName);
     // public System.Int32 get_MemberCount()
-    // Offset: 0xFFA954
+    // Offset: 0xF5BC18
     int get_MemberCount();
     // public System.Type get_ObjectType()
-    // Offset: 0xFFA95C
+    // Offset: 0xF5BC20
     System::Type* get_ObjectType();
     // public System.Boolean get_IsFullTypeNameSetExplicit()
-    // Offset: 0xFFA964
+    // Offset: 0xF5BC28
     bool get_IsFullTypeNameSetExplicit();
     // public System.Boolean get_IsAssemblyNameSetExplicit()
-    // Offset: 0xFFA96C
+    // Offset: 0xF5BC30
     bool get_IsAssemblyNameSetExplicit();
     // public System.Runtime.Serialization.SerializationInfoEnumerator GetEnumerator()
-    // Offset: 0xFEDCBC
+    // Offset: 0xF4EF80
     System::Runtime::Serialization::SerializationInfoEnumerator* GetEnumerator();
     // private System.Void ExpandArrays()
-    // Offset: 0xFFA9F8
+    // Offset: 0xF5BCBC
     void ExpandArrays();
     // public System.Void AddValue(System.String name, System.Object value, System.Type type)
-    // Offset: 0xFF902C
+    // Offset: 0xF5A2F0
     void AddValue(::Il2CppString* name, ::Il2CppObject* value, System::Type* type);
     // public System.Void AddValue(System.String name, System.Object value)
-    // Offset: 0xFEAE7C
+    // Offset: 0xF4C140
     void AddValue(::Il2CppString* name, ::Il2CppObject* value);
     // public System.Void AddValue(System.String name, System.Boolean value)
-    // Offset: 0xFFAD24
+    // Offset: 0xF5BFE8
     void AddValue(::Il2CppString* name, bool value);
     // public System.Void AddValue(System.String name, System.Char value)
-    // Offset: 0xFFADE8
+    // Offset: 0xF5C0AC
     void AddValue(::Il2CppString* name, ::Il2CppChar value);
     // public System.Void AddValue(System.String name, System.Byte value)
-    // Offset: 0xFFAEAC
+    // Offset: 0xF5C170
     void AddValue(::Il2CppString* name, uint8_t value);
     // public System.Void AddValue(System.String name, System.Int16 value)
-    // Offset: 0xFFAF70
+    // Offset: 0xF5C234
     void AddValue(::Il2CppString* name, int16_t value);
     // public System.Void AddValue(System.String name, System.Int32 value)
-    // Offset: 0xFFB034
+    // Offset: 0xF5C2F8
     void AddValue(::Il2CppString* name, int value);
     // public System.Void AddValue(System.String name, System.Int64 value)
-    // Offset: 0xFFB0F8
+    // Offset: 0xF5C3BC
     void AddValue(::Il2CppString* name, int64_t value);
     // public System.Void AddValue(System.String name, System.UInt64 value)
-    // Offset: 0xFFB1BC
+    // Offset: 0xF5C480
     void AddValue(::Il2CppString* name, uint64_t value);
     // public System.Void AddValue(System.String name, System.Single value)
-    // Offset: 0xFFB280
+    // Offset: 0xF5C544
     void AddValue(::Il2CppString* name, float value);
     // public System.Void AddValue(System.String name, System.DateTime value)
-    // Offset: 0xFFB344
+    // Offset: 0xF5C608
     void AddValue(::Il2CppString* name, System::DateTime value);
     // System.Void AddValueInternal(System.String name, System.Object value, System.Type type)
-    // Offset: 0xFFAB34
+    // Offset: 0xF5BDF8
     void AddValueInternal(::Il2CppString* name, ::Il2CppObject* value, System::Type* type);
     // System.Void UpdateValue(System.String name, System.Object value, System.Type type)
-    // Offset: 0xFF671C
+    // Offset: 0xF579E0
     void UpdateValue(::Il2CppString* name, ::Il2CppObject* value, System::Type* type);
     // private System.Int32 FindElement(System.String name)
-    // Offset: 0xFFB408
+    // Offset: 0xF5C6CC
     int FindElement(::Il2CppString* name);
     // private System.Object GetElement(System.String name, System.Type foundType)
-    // Offset: 0xFFB4C8
+    // Offset: 0xF5C78C
     ::Il2CppObject* GetElement(::Il2CppString* name, System::Type*& foundType);
     // private System.Object GetElementNoThrow(System.String name, System.Type foundType)
-    // Offset: 0xFFB610
+    // Offset: 0xF5C8D4
     ::Il2CppObject* GetElementNoThrow(::Il2CppString* name, System::Type*& foundType);
     // public System.Object GetValue(System.String name, System.Type type)
-    // Offset: 0xFF8C94
+    // Offset: 0xF59F58
     ::Il2CppObject* GetValue(::Il2CppString* name, System::Type* type);
     // System.Object GetValueNoThrow(System.String name, System.Type type)
-    // Offset: 0xFF8B74
+    // Offset: 0xF59E38
     ::Il2CppObject* GetValueNoThrow(::Il2CppString* name, System::Type* type);
     // public System.Boolean GetBoolean(System.String name)
-    // Offset: 0xFFB6B8
+    // Offset: 0xF5C97C
     bool GetBoolean(::Il2CppString* name);
     // public System.Int32 GetInt32(System.String name)
-    // Offset: 0xFFB82C
+    // Offset: 0xF5CAF0
     int GetInt32(::Il2CppString* name);
     // public System.Int64 GetInt64(System.String name)
-    // Offset: 0xFFB994
+    // Offset: 0xF5CC58
     int64_t GetInt64(::Il2CppString* name);
     // public System.Single GetSingle(System.String name)
-    // Offset: 0xFFBAFC
+    // Offset: 0xF5CDC0
     float GetSingle(::Il2CppString* name);
     // public System.String GetString(System.String name)
-    // Offset: 0xFFBC64
+    // Offset: 0xF5CF28
     ::Il2CppString* GetString(::Il2CppString* name);
   }; // System.Runtime.Serialization.SerializationInfo
 }

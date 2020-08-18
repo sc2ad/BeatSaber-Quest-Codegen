@@ -40,7 +40,7 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Foot
     Foot(RootMotion::FinalIK::IKSolver* solver_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Quaternion rotation_ = {}, RootMotion::FinalIK::Grounding::Leg* leg_ = {}) : solver{solver_}, transform{transform_}, rotation{rotation_}, leg{leg_} {}
     // public System.Void .ctor(RootMotion.FinalIK.IKSolver solver, UnityEngine.Transform transform)
-    // Offset: 0xA433FC
+    // Offset: 0x9AC8C8
     static GrounderQuadruped::Foot* New_ctor(RootMotion::FinalIK::IKSolver* solver, UnityEngine::Transform* transform);
   }; // RootMotion.FinalIK.GrounderQuadruped/Foot
 }

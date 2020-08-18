@@ -11,11 +11,11 @@
 namespace System {
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`4<TResult, T1, T2, T3>
-  template<typename TResult, typename T1, typename T2, typename T3>
+  // Forward declaring type: Func`4<T1, T2, T3, TResult>
+  template<typename T1, typename T2, typename T3, typename TResult>
   class Func_4;
 }
 // Forward declaring namespace: System::Reflection
@@ -37,7 +37,7 @@ namespace System {
   class TypeNameParser : public ::Il2CppObject {
     public:
     // static System.Type GetType(System.String typeName, System.Func`2<System.Reflection.AssemblyName,System.Reflection.Assembly> assemblyResolver, System.Func`4<System.Reflection.Assembly,System.String,System.Boolean,System.Type> typeResolver, System.Boolean throwOnError, System.Boolean ignoreCase, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x178CB84
+    // Offset: 0x16EAEBC
     static System::Type* GetType(::Il2CppString* typeName, System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>* assemblyResolver, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>* typeResolver, bool throwOnError, bool ignoreCase, System::Threading::StackCrawlMark& stackMark);
   }; // System.TypeNameParser
 }

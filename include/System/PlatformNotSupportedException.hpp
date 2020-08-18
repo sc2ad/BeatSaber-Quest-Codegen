@@ -23,7 +23,7 @@ namespace System {
   class PlatformNotSupportedException : public System::NotSupportedException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x135D35C
+    // Offset: 0x12BE620
     // Implemented from: System.NotSupportedException
     // Base method: System.Void NotSupportedException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static PlatformNotSupportedException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x135D3D0
+    // Offset: 0x12BE694
     // Implemented from: System.NotSupportedException
     // Base method: System.Void NotSupportedException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static PlatformNotSupportedException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x135D404
+    // Offset: 0x12BE6C8
     // Implemented from: System.NotSupportedException
     // Base method: System.Void NotSupportedException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

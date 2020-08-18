@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_IsDashboardVisible : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1520704
+    // Offset: 0x1481A3C
     static IVROverlay::_IsDashboardVisible* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1520718
+    // Offset: 0x1481A50
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1520930
+    // Offset: 0x1481C68
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x152095C
+    // Offset: 0x1481C94
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_IsDashboardVisible
 }

@@ -14,8 +14,8 @@ namespace System {
   // Forward declaring type: Func`1<TResult>
   template<typename TResult>
   class Func_1;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`2<T1, T2>
   template<typename T1, typename T2>
@@ -58,22 +58,22 @@ namespace System::IO {
     // Set static field: static public System.Action`2<System.Threading.Tasks.Task,System.Object> <>9__47_0
     static void _set_$$9__47_0(System::Action_2<System::Threading::Tasks::Task*, ::Il2CppObject*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1002560
+    // Offset: 0xF64824
     static void _cctor();
     // System.Threading.SemaphoreSlim <EnsureAsyncActiveSemaphoreInitialized>b__4_0()
-    // Offset: 0x10025D0
+    // Offset: 0xF64894
     System::Threading::SemaphoreSlim* $EnsureAsyncActiveSemaphoreInitialized$b__4_0();
     // System.Int32 <BeginReadInternal>b__39_0(System.Object $p0$)
-    // Offset: 0x1002634
+    // Offset: 0xF648F8
     int $BeginReadInternal$b__39_0(::Il2CppObject* $p0$);
     // System.Int32 <BeginWriteInternal>b__46_0(System.Object $p0$)
-    // Offset: 0x1002784
+    // Offset: 0xF64A48
     int $BeginWriteInternal$b__46_0(::Il2CppObject* $p0$);
     // System.Void <RunReadWriteTaskWhenReady>b__47_0(System.Threading.Tasks.Task t, System.Object state)
-    // Offset: 0x100289C
+    // Offset: 0xF64B60
     void $RunReadWriteTaskWhenReady$b__47_0(System::Threading::Tasks::Task* t, ::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0x10025C8
+    // Offset: 0xF6488C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Stream::$$c* New_ctor();

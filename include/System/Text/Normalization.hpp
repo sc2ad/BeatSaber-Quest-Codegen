@@ -60,73 +60,73 @@ namespace System::Text {
     // Set static field: static public readonly System.Boolean isReady
     static void _set_isReady(bool value);
     // static private System.UInt32 PropValue(System.Int32 cp)
-    // Offset: 0x12F3360
+    // Offset: 0x1256624
     static uint PropValue(int cp);
     // static private System.Int32 CharMapIdx(System.Int32 cp)
-    // Offset: 0x12F3400
+    // Offset: 0x12566C4
     static int CharMapIdx(int cp);
     // static private System.Byte GetCombiningClass(System.Int32 c)
-    // Offset: 0x12F34A0
+    // Offset: 0x1256764
     static uint8_t GetCombiningClass(int c);
     // static private System.Int32 GetPrimaryCompositeFromMapIndex(System.Int32 src)
-    // Offset: 0x12F355C
+    // Offset: 0x1256820
     static int GetPrimaryCompositeFromMapIndex(int src);
     // static private System.Int32 GetPrimaryCompositeHelperIndex(System.Int32 cp)
-    // Offset: 0x12F3618
+    // Offset: 0x12568DC
     static int GetPrimaryCompositeHelperIndex(int cp);
     // static private System.String Compose(System.String source, System.Int32 checkType)
-    // Offset: 0x12F36D4
+    // Offset: 0x1256998
     static ::Il2CppString* Compose(::Il2CppString* source, int checkType);
     // static private System.Text.StringBuilder Combine(System.String source, System.Int32 start, System.Int32 checkType)
-    // Offset: 0x12F3934
+    // Offset: 0x1256BF8
     static System::Text::StringBuilder* Combine(::Il2CppString* source, int start, int checkType);
     // static private System.Void Combine(System.Text.StringBuilder sb, System.Int32 i, System.Int32 checkType)
-    // Offset: 0x12F3A74
+    // Offset: 0x1256D38
     static void Combine(System::Text::StringBuilder* sb, int i, int checkType);
     // static private System.Int32 CombineHangul(System.Text.StringBuilder sb, System.String s, System.Int32 current)
-    // Offset: 0x12F3D04
+    // Offset: 0x1256FC8
     static int CombineHangul(System::Text::StringBuilder* sb, ::Il2CppString* s, int current);
     // static private System.Int32 Fetch(System.Text.StringBuilder sb, System.String s, System.Int32 i)
-    // Offset: 0x12F4120
+    // Offset: 0x12573E4
     static int Fetch(System::Text::StringBuilder* sb, ::Il2CppString* s, int i);
     // static private System.Int32 TryComposeWithPreviousStarter(System.Text.StringBuilder sb, System.String s, System.Int32 current)
-    // Offset: 0x12F3ED0
+    // Offset: 0x1257194
     static int TryComposeWithPreviousStarter(System::Text::StringBuilder* sb, ::Il2CppString* s, int current);
     // static private System.Int32 TryCompose(System.Int32 i, System.Int32 starter, System.Int32 candidate)
-    // Offset: 0x12F43E0
+    // Offset: 0x12576A4
     static int TryCompose(int i, int starter, int candidate);
     // static private System.String Decompose(System.String source, System.Int32 checkType)
-    // Offset: 0x12F4530
+    // Offset: 0x12577F4
     static ::Il2CppString* Decompose(::Il2CppString* source, int checkType);
     // static private System.Void Decompose(System.String source, System.Text.StringBuilder sb, System.Int32 checkType)
-    // Offset: 0x12F37DC
+    // Offset: 0x1256AA0
     static void Decompose(::Il2CppString* source, System::Text::StringBuilder*& sb, int checkType);
     // static private System.Void ReorderCanonical(System.String src, System.Text.StringBuilder sb, System.Int32 start)
-    // Offset: 0x12F4948
+    // Offset: 0x1257C0C
     static void ReorderCanonical(::Il2CppString* src, System::Text::StringBuilder*& sb, int start);
     // static private System.Void DecomposeChar(System.Text.StringBuilder sb, System.Int32[] buf, System.String s, System.Int32 i, System.Int32 checkType, System.Int32 start)
-    // Offset: 0x12F45CC
+    // Offset: 0x1257890
     static void DecomposeChar(System::Text::StringBuilder*& sb, ::Array<int>*& buf, ::Il2CppString* s, int i, int checkType, int& start);
     // static public System.Text.NormalizationCheck QuickCheck(System.Char c, System.Int32 type)
-    // Offset: 0x12F3BA0
+    // Offset: 0x1256E64
     static System::Text::NormalizationCheck QuickCheck(::Il2CppChar c, int type);
     // static private System.Int32 GetCanonicalHangul(System.Int32 s, System.Int32[] buf, System.Int32 bufIdx)
-    // Offset: 0x12F4DD4
+    // Offset: 0x1258098
     static int GetCanonicalHangul(int s, ::Array<int>* buf, int bufIdx);
     // static private System.Int32 GetCanonical(System.Int32 c, System.Int32[] buf, System.Int32 bufIdx, System.Int32 checkType)
-    // Offset: 0x12F4BD4
+    // Offset: 0x1257E98
     static int GetCanonical(int c, ::Array<int>* buf, int bufIdx, int checkType);
     // static public System.String Normalize(System.String source, System.Text.NormalizationForm normalizationForm)
-    // Offset: 0x12F4ED8
+    // Offset: 0x125819C
     static ::Il2CppString* Normalize(::Il2CppString* source, System::Text::NormalizationForm normalizationForm);
     // static public System.String Normalize(System.String source, System.Int32 type)
-    // Offset: 0x12F4FC4
+    // Offset: 0x1258288
     static ::Il2CppString* Normalize(::Il2CppString* source, int type);
     // static private System.Void load_normalization_resource(System.IntPtr props, System.IntPtr mappedChars, System.IntPtr charMapIndex, System.IntPtr helperIndex, System.IntPtr mapIdxToComposite, System.IntPtr combiningClass)
-    // Offset: 0x12F507C
+    // Offset: 0x1258340
     static void load_normalization_resource(System::IntPtr& props, System::IntPtr& mappedChars, System::IntPtr& charMapIndex, System::IntPtr& helperIndex, System::IntPtr& mapIdxToComposite, System::IntPtr& combiningClass);
     // static private System.Void .cctor()
-    // Offset: 0x12F5080
+    // Offset: 0x1258344
     static void _cctor();
   }; // System.Text.Normalization
 }

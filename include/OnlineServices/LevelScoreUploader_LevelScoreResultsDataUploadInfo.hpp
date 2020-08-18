@@ -22,7 +22,7 @@ namespace OnlineServices {
     // Offset: 0x40
     int uploadAttemptCountLeft;
     // public System.Void .ctor()
-    // Offset: 0xBCB080
+    // Offset: 0x19123E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelScoreUploader::LevelScoreResultsDataUploadInfo* New_ctor();

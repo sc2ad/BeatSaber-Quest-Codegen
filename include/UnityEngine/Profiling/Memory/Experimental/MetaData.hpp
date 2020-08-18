@@ -18,7 +18,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     // Offset: 0x18
     ::Il2CppString* platform;
     // public System.Void .ctor()
-    // Offset: 0x1415534
+    // Offset: 0x137786C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MetaData* New_ctor();

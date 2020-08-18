@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // protected System.Void Update()
-    // Offset: 0xBD6B44
+    // Offset: 0x191DEAC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBD6B90
+    // Offset: 0x191DEF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

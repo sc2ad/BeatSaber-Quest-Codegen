@@ -34,22 +34,22 @@ namespace System::Runtime::Remoting::Contexts {
     // Offset: 0x10
     System::Collections::ArrayList* properties;
     // public System.Boolean get_HasProperties()
-    // Offset: 0x105830C
+    // Offset: 0xFBA5D0
     bool get_HasProperties();
     // public System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty prop)
-    // Offset: 0x10585CC
+    // Offset: 0xFBA890
     bool RegisterDynamicProperty(System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
     // public System.Boolean UnregisterDynamicProperty(System.String name)
-    // Offset: 0x1058928
+    // Offset: 0xFBABEC
     bool UnregisterDynamicProperty(::Il2CppString* name);
     // public System.Void NotifyMessage(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x1058C98
+    // Offset: 0xFBAF5C
     void NotifyMessage(bool start, System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
     // private System.Int32 FindProperty(System.String name)
-    // Offset: 0x105AAA8
+    // Offset: 0xFBCD6C
     int FindProperty(::Il2CppString* name);
     // public System.Void .ctor()
-    // Offset: 0x1058B04
+    // Offset: 0xFBADC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DynamicPropertyCollection* New_ctor();

@@ -82,22 +82,22 @@ namespace GlobalNamespace {
     // Offset: 0x98
     GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker;
     // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0xC089C8
+    // Offset: 0x19514F8
     void SetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0xC08D9C
+    // Offset: 0x19518CC
     void HandleMissionObjectiveStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveCheckedValueDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0xC08DA0
+    // Offset: 0x19518D0
     void HandleMissionObjectiveCheckedValueDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void RefreshIcon()
-    // Offset: 0xC08C2C
+    // Offset: 0x195175C
     void RefreshIcon();
     // private System.Void RefreshValue()
-    // Offset: 0xC08D40
+    // Offset: 0x1951870
     void RefreshValue();
     // public System.Void .ctor()
-    // Offset: 0xC08DA4
+    // Offset: 0x19518D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

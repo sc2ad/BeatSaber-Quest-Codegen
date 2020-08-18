@@ -44,7 +44,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", a, b));
     }
     // public System.Boolean AreEqual(T[] a, T[] b)
-    // Offset: 0x1183B60
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
     // Base method: System.Boolean ITypeMath`1::AreEqual(T[] a, T[] b)
     bool AreEqual(::Array<T>* a, ::Array<T>* b) {
@@ -86,7 +86,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "DistanceSquaredBetweenPoints", a, b));
     }
     // protected System.Void .ctor()
-    // Offset: 0x1183C24
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeMath_1<T>* New_ctor() {

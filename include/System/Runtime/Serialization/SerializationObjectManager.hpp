@@ -35,16 +35,16 @@ namespace System::Runtime::Serialization {
     // Offset: 0x20
     System::Runtime::Serialization::StreamingContext m_context;
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFE53F0
+    // Offset: 0xF466B4
     static SerializationObjectManager* New_ctor(System::Runtime::Serialization::StreamingContext context);
     // public System.Void RegisterObject(System.Object obj)
-    // Offset: 0xFECE68
+    // Offset: 0xF4E12C
     void RegisterObject(::Il2CppObject* obj);
     // public System.Void RaiseOnSerializedEvent()
-    // Offset: 0xFE6530
+    // Offset: 0xF477F4
     void RaiseOnSerializedEvent();
     // private System.Void AddOnSerialized(System.Object obj)
-    // Offset: 0xFFC028
+    // Offset: 0xF5D2EC
     void AddOnSerialized(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.SerializationObjectManager
 }

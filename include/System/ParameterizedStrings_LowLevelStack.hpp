@@ -20,16 +20,16 @@ namespace System {
     // Offset: 0x18
     int count;
     // public System.ParameterizedStrings/FormatParam Pop()
-    // Offset: 0x135B628
+    // Offset: 0x12BC8EC
     System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/FormatParam item)
-    // Offset: 0x135B9C4
+    // Offset: 0x12BCC88
     void Push(System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
-    // Offset: 0x135AC5C
+    // Offset: 0x12BBF20
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x135ABFC
+    // Offset: 0x12BBEC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ParameterizedStrings::LowLevelStack* New_ctor();

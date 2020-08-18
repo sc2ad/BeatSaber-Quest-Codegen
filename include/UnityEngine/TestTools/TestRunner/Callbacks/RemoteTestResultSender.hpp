@@ -71,37 +71,37 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static private System.Int32 k_aliveMessageFrequency
     static void _set_k_aliveMessageFrequency(int value);
     // public System.Void Start()
-    // Offset: 0xE4088C
+    // Offset: 0xDA0B50
     void Start();
     // private System.Void EditorProccessedTheResult(UnityEngine.Networking.PlayerConnection.MessageEventArgs arg0)
-    // Offset: 0xE409D8
+    // Offset: 0xDA0C9C
     void EditorProccessedTheResult(UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
     // private System.Byte[] SerializeObject(System.Object objectToSerialize)
-    // Offset: 0xE40A28
+    // Offset: 0xDA0CEC
     ::Array<uint8_t>* SerializeObject(::Il2CppObject* objectToSerialize);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0xE40A78
+    // Offset: 0xDA0D3C
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xE40C3C
+    // Offset: 0xDA0F00
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xE40DF4
+    // Offset: 0xDA10B8
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xE40FB0
+    // Offset: 0xDA1274
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Collections.IEnumerator SendDataRoutine()
-    // Offset: 0xE4095C
+    // Offset: 0xDA0C20
     System::Collections::IEnumerator* SendDataRoutine();
     // private System.Void SendAliveMessageIfNeeded()
-    // Offset: 0xE41194
+    // Offset: 0xDA1458
     void SendAliveMessageIfNeeded();
     // private System.Void ResetNextPlayerAliveMessageTime()
-    // Offset: 0xE41294
+    // Offset: 0xDA1558
     void ResetNextPlayerAliveMessageTime();
     // public System.Void .ctor()
-    // Offset: 0xE412C8
+    // Offset: 0xDA158C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

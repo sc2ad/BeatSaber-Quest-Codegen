@@ -128,28 +128,28 @@ namespace GlobalNamespace {
     // Offset: 0x70
     UnityEngine::RenderTexture* cameraRenderTexture;
     // protected System.Void OnEnable()
-    // Offset: 0xCB8B10
+    // Offset: 0xC18DD4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xCB8CD0
+    // Offset: 0xC18F94
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xCB8DA4
+    // Offset: 0xC19068
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0xCB8F08
+    // Offset: 0xC191CC
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0xCB8E74
+    // Offset: 0xC19138
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0xCB9044
+    // Offset: 0xC19308
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0xCB8F20
+    // Offset: 0xC191E4
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0xCB9154
+    // Offset: 0xC19418
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

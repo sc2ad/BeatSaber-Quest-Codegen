@@ -27,28 +27,28 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: Sha1ForNonSecretPurposes
     Sha1ForNonSecretPurposes(int64_t length_ = {}, ::Array<uint>* w_ = {}, int pos_ = {}) : length{length_}, w{w_}, pos{pos_} {}
     // public System.Void Start()
-    // Offset: 0xA2B534
+    // Offset: 0x995A00
     void Start();
     // public System.Void Append(System.Byte input)
-    // Offset: 0xA2B53C
+    // Offset: 0x995A08
     void Append(uint8_t input);
     // public System.Void Append(System.Byte[] input)
-    // Offset: 0xA2B544
+    // Offset: 0x995A10
     void Append(::Array<uint8_t>* input);
     // public System.Void Finish(System.Byte[] output)
-    // Offset: 0xA2B54C
+    // Offset: 0x995A18
     void Finish(::Array<uint8_t>* output);
     // private System.Void Drain()
-    // Offset: 0xA2B554
+    // Offset: 0x995A20
     void Drain();
     // static private System.UInt32 Rol1(System.UInt32 input)
-    // Offset: 0xD92808
+    // Offset: 0xCF2ACC
     static uint Rol1(uint input);
     // static private System.UInt32 Rol5(System.UInt32 input)
-    // Offset: 0xD92810
+    // Offset: 0xCF2AD4
     static uint Rol5(uint input);
     // static private System.UInt32 Rol30(System.UInt32 input)
-    // Offset: 0xD92818
+    // Offset: 0xCF2ADC
     static uint Rol30(uint input);
   }; // System.Diagnostics.Tracing.EventSource/Sha1ForNonSecretPurposes
 }

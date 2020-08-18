@@ -32,13 +32,13 @@ namespace Zenject {
     // Offset: 0x20
     UnityEngine::Animator* animator;
     // public System.Void Construct(Zenject.DiContainer container)
-    // Offset: 0x193C2AC
+    // Offset: 0x18985F8
     void Construct(Zenject::DiContainer* container);
     // public System.Void Start()
-    // Offset: 0x193C334
+    // Offset: 0x1898680
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x193C428
+    // Offset: 0x1898774
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

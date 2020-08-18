@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetHiddenAreaMesh : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16B1058
+    // Offset: 0x1613390
     static IVRSystem::_GetHiddenAreaMesh* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.HiddenAreaMesh_t Invoke(OVR.OpenVR.EVREye eEye, OVR.OpenVR.EHiddenAreaMeshType type)
-    // Offset: 0x16B106C
+    // Offset: 0x16133A4
     OVR::OpenVR::HiddenAreaMesh_t Invoke(OVR::OpenVR::EVREye eEye, OVR::OpenVR::EHiddenAreaMeshType type);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREye eEye, OVR.OpenVR.EHiddenAreaMeshType type, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16B1300
+    // Offset: 0x1613638
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, OVR::OpenVR::EHiddenAreaMeshType type, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.HiddenAreaMesh_t EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16B13A8
+    // Offset: 0x16136E0
     OVR::OpenVR::HiddenAreaMesh_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetHiddenAreaMesh
 }

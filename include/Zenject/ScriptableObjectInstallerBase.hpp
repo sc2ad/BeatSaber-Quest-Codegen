@@ -26,20 +26,20 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::DiContainer* container;
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0xFC9290
+    // Offset: 0xF29554
     Zenject::DiContainer* get_Container();
     // private System.Boolean Zenject.IInstaller.get_IsEnabled()
-    // Offset: 0xFC9298
+    // Offset: 0xF2955C
     // Implemented from: Zenject.IInstaller
     // Base method: System.Boolean IInstaller::get_IsEnabled()
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void InstallBindings()
-    // Offset: 0xFC92A0
+    // Offset: 0xF29564
     // Implemented from: Zenject.IInstaller
     // Base method: System.Void IInstaller::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xFC9288
+    // Offset: 0xF2954C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

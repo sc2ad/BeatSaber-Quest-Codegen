@@ -38,112 +38,112 @@ namespace UnityEngine {
   class Texture2D : public UnityEngine::Texture {
     public:
     // public UnityEngine.TextureFormat get_format()
-    // Offset: 0x138CD84
+    // Offset: 0x12EE048
     UnityEngine::TextureFormat get_format();
     // static public UnityEngine.Texture2D get_whiteTexture()
-    // Offset: 0x138CDC4
+    // Offset: 0x12EE088
     static UnityEngine::Texture2D* get_whiteTexture();
     // static private System.Boolean Internal_CreateImpl(UnityEngine.Texture2D mono, System.Int32 w, System.Int32 h, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.IntPtr nativeTex)
-    // Offset: 0x138CDF8
+    // Offset: 0x12EE0BC
     static bool Internal_CreateImpl(UnityEngine::Texture2D* mono, int w, int h, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, System::IntPtr nativeTex);
     // static private System.Void Internal_Create(UnityEngine.Texture2D mono, System.Int32 w, System.Int32 h, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.IntPtr nativeTex)
-    // Offset: 0x138CE80
+    // Offset: 0x12EE144
     static void Internal_Create(UnityEngine::Texture2D* mono, int w, int h, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, System::IntPtr nativeTex);
     // private System.Void ApplyImpl(System.Boolean updateMipmaps, System.Boolean makeNoLongerReadable)
-    // Offset: 0x138CFAC
+    // Offset: 0x12EE270
     void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable);
     // private System.Boolean ResizeImpl(System.Int32 width, System.Int32 height)
-    // Offset: 0x138D004
+    // Offset: 0x12EE2C8
     bool ResizeImpl(int width, int height);
     // private UnityEngine.Color GetPixelBilinearImpl(System.Int32 image, System.Single u, System.Single v)
-    // Offset: 0x138D05C
+    // Offset: 0x12EE320
     UnityEngine::Color GetPixelBilinearImpl(int image, float u, float v);
     // private System.Boolean ResizeWithFormatImpl(System.Int32 width, System.Int32 height, UnityEngine.TextureFormat format, System.Boolean hasMipMap)
-    // Offset: 0x138D150
+    // Offset: 0x12EE414
     bool ResizeWithFormatImpl(int width, int height, UnityEngine::TextureFormat format, bool hasMipMap);
     // private System.Void ReadPixelsImpl(UnityEngine.Rect source, System.Int32 destX, System.Int32 destY, System.Boolean recalculateMipMaps)
-    // Offset: 0x138D1C0
+    // Offset: 0x12EE484
     void ReadPixelsImpl(UnityEngine::Rect source, int destX, int destY, bool recalculateMipMaps);
     // private System.Void SetPixelsImpl(System.Int32 x, System.Int32 y, System.Int32 w, System.Int32 h, UnityEngine.Color[] pixel, System.Int32 miplevel, System.Int32 frame)
-    // Offset: 0x138D2B0
+    // Offset: 0x12EE574
     void SetPixelsImpl(int x, int y, int w, int h, ::Array<UnityEngine::Color>* pixel, int miplevel, int frame);
     // public System.Void UpdateExternalTexture(System.IntPtr nativeTex)
-    // Offset: 0x138D348
+    // Offset: 0x12EE60C
     void UpdateExternalTexture(System::IntPtr nativeTex);
     // private System.Void SetAllPixels32(UnityEngine.Color32[] colors, System.Int32 miplevel)
-    // Offset: 0x138D398
+    // Offset: 0x12EE65C
     void SetAllPixels32(::Array<UnityEngine::Color32>* colors, int miplevel);
     // public UnityEngine.Color[] GetPixels(System.Int32 x, System.Int32 y, System.Int32 blockWidth, System.Int32 blockHeight, System.Int32 miplevel)
-    // Offset: 0x138D3F0
+    // Offset: 0x12EE6B4
     ::Array<UnityEngine::Color>* GetPixels(int x, int y, int blockWidth, int blockHeight, int miplevel);
     // public UnityEngine.Color32[] GetPixels32(System.Int32 miplevel)
-    // Offset: 0x138D470
+    // Offset: 0x12EE734
     ::Array<UnityEngine::Color32>* GetPixels32(int miplevel);
     // public UnityEngine.Color32[] GetPixels32()
-    // Offset: 0x138D4C0
+    // Offset: 0x12EE784
     ::Array<UnityEngine::Color32>* GetPixels32();
     // System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount, System.Boolean linear, System.IntPtr nativeTex)
-    // Offset: 0x138D504
+    // Offset: 0x12EE7C8
     static Texture2D* New_ctor(int width, int height, UnityEngine::TextureFormat textureFormat, int mipCount, bool linear, System::IntPtr nativeTex);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain, System.Boolean linear)
-    // Offset: 0x138D614
+    // Offset: 0x12EE8D8
     static Texture2D* New_ctor(int width, int height, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
-    // Offset: 0x138D6AC
+    // Offset: 0x12EE970
     static Texture2D* New_ctor(int width, int height, UnityEngine::TextureFormat textureFormat, bool mipChain);
     // public System.Void .ctor(System.Int32 width, System.Int32 height)
-    // Offset: 0x138D738
+    // Offset: 0x12EE9FC
     static Texture2D* New_ctor(int width, int height);
     // static public UnityEngine.Texture2D CreateExternalTexture(System.Int32 width, System.Int32 height, UnityEngine.TextureFormat format, System.Boolean mipChain, System.Boolean linear, System.IntPtr nativeTex)
-    // Offset: 0x138D7CC
+    // Offset: 0x12EEA90
     static UnityEngine::Texture2D* CreateExternalTexture(int width, int height, UnityEngine::TextureFormat format, bool mipChain, bool linear, System::IntPtr nativeTex);
     // public System.Void SetPixels(System.Int32 x, System.Int32 y, System.Int32 blockWidth, System.Int32 blockHeight, UnityEngine.Color[] colors, System.Int32 miplevel)
-    // Offset: 0x138D8C8
+    // Offset: 0x12EEB8C
     void SetPixels(int x, int y, int blockWidth, int blockHeight, ::Array<UnityEngine::Color>* colors, int miplevel);
     // public System.Void SetPixels(System.Int32 x, System.Int32 y, System.Int32 blockWidth, System.Int32 blockHeight, UnityEngine.Color[] colors)
-    // Offset: 0x138D9A4
+    // Offset: 0x12EEC68
     void SetPixels(int x, int y, int blockWidth, int blockHeight, ::Array<UnityEngine::Color>* colors);
     // public UnityEngine.Color GetPixelBilinear(System.Single u, System.Single v)
-    // Offset: 0x138D9AC
+    // Offset: 0x12EEC70
     UnityEngine::Color GetPixelBilinear(float u, float v);
     // public System.Void Apply(System.Boolean updateMipmaps, System.Boolean makeNoLongerReadable)
-    // Offset: 0x138DA38
+    // Offset: 0x12EECFC
     void Apply(bool updateMipmaps, bool makeNoLongerReadable);
     // public System.Void Apply()
-    // Offset: 0x138DAE0
+    // Offset: 0x12EEDA4
     void Apply();
     // public System.Boolean Resize(System.Int32 width, System.Int32 height)
-    // Offset: 0x138DAEC
+    // Offset: 0x12EEDB0
     bool Resize(int width, int height);
     // public System.Boolean Resize(System.Int32 width, System.Int32 height, UnityEngine.TextureFormat format, System.Boolean hasMipMap)
-    // Offset: 0x138DB94
+    // Offset: 0x12EEE58
     bool Resize(int width, int height, UnityEngine::TextureFormat format, bool hasMipMap);
     // public System.Void ReadPixels(UnityEngine.Rect source, System.Int32 destX, System.Int32 destY, System.Boolean recalculateMipMaps)
-    // Offset: 0x138DC54
+    // Offset: 0x12EEF18
     void ReadPixels(UnityEngine::Rect source, int destX, int destY, bool recalculateMipMaps);
     // public System.Void ReadPixels(UnityEngine.Rect source, System.Int32 destX, System.Int32 destY)
-    // Offset: 0x138DD1C
+    // Offset: 0x12EEFE0
     void ReadPixels(UnityEngine::Rect source, int destX, int destY);
     // public System.Void SetPixels32(UnityEngine.Color32[] colors, System.Int32 miplevel)
-    // Offset: 0x138DD24
+    // Offset: 0x12EEFE8
     void SetPixels32(::Array<UnityEngine::Color32>* colors, int miplevel);
     // public System.Void SetPixels32(UnityEngine.Color32[] colors)
-    // Offset: 0x138DD7C
+    // Offset: 0x12EF040
     void SetPixels32(::Array<UnityEngine::Color32>* colors);
     // public UnityEngine.Color[] GetPixels(System.Int32 miplevel)
-    // Offset: 0x138DDD0
+    // Offset: 0x12EF094
     ::Array<UnityEngine::Color>* GetPixels(int miplevel);
     // public UnityEngine.Color[] GetPixels()
-    // Offset: 0x138DE70
+    // Offset: 0x12EF134
     ::Array<UnityEngine::Color>* GetPixels();
     // private System.Void GetPixelBilinearImpl_Injected(System.Int32 image, System.Single u, System.Single v, UnityEngine.Color ret)
-    // Offset: 0x138D0E0
+    // Offset: 0x12EE3A4
     void GetPixelBilinearImpl_Injected(int image, float u, float v, UnityEngine::Color& ret);
     // private System.Void ReadPixelsImpl_Injected(UnityEngine.Rect source, System.Int32 destX, System.Int32 destY, System.Boolean recalculateMipMaps)
-    // Offset: 0x138D240
+    // Offset: 0x12EE504
     void ReadPixelsImpl_Injected(UnityEngine::Rect& source, int destX, int destY, bool recalculateMipMaps);
     // public override System.Boolean get_isReadable()
-    // Offset: 0x138CF6C
+    // Offset: 0x12EE230
     // Implemented from: UnityEngine.Texture
     // Base method: System.Boolean Texture::get_isReadable()
     bool get_isReadable();

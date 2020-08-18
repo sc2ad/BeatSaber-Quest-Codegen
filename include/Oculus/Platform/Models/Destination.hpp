@@ -28,7 +28,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x20
     ::Il2CppString* DisplayName;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA5E80
+    // Offset: 0xE05144
     static Destination* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Destination
 }

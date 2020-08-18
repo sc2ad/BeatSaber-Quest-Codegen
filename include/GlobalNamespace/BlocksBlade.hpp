@@ -114,25 +114,25 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _zClipPropertyID
     static void _set__zClipPropertyID(int value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xB5A99C
+    // Offset: 0x18E1ECC
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xB5A9A8
+    // Offset: 0x18E1ED8
     void set_color(UnityEngine::Color value);
     // protected System.Void Start()
-    // Offset: 0xB5A9B4
+    // Offset: 0x18E1EE4
     void Start();
     // protected System.Void Update()
-    // Offset: 0xB5AD90
+    // Offset: 0x18E22C0
     void Update();
     // private System.Void SetUpElement(BlocksBlade/Element element, System.Single velocity, UnityEngine.Color color)
-    // Offset: 0xB5ABB0
+    // Offset: 0x18E20E0
     void SetUpElement(GlobalNamespace::BlocksBlade::Element* element, float velocity, UnityEngine::Color color);
     // private UnityEngine.Vector2 RandomPointOnCircle(System.Single radius)
-    // Offset: 0xB5B17C
+    // Offset: 0x18E26AC
     UnityEngine::Vector2 RandomPointOnCircle(float radius);
     // public System.Void .ctor()
-    // Offset: 0xB5B23C
+    // Offset: 0x18E276C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BlocksBlade* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xB5B274
+    // Offset: 0x18E27A4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

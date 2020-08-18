@@ -55,19 +55,19 @@ namespace System {
       // Offset: 0x0
       int current;
       // System.Void .ctor(System.ArraySegment`1<T> arraySegment)
-      // Offset: 0xDBA508
+      // Offset: 0xFFFFFFFF
       static typename ArraySegment_1<T>::ArraySegmentEnumerator* New_ctor(System::ArraySegment_1<T> arraySegment) {
         return (typename ArraySegment_1<T>::ArraySegmentEnumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ArraySegment_1<T>::ArraySegmentEnumerator*>::get(), arraySegment));
       }
       // public System.Boolean MoveNext()
-      // Offset: 0xDBA568
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
       // public T get_Current()
-      // Offset: 0xDBA590
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator`1::get_Current()
       T get_Current() {
@@ -79,21 +79,21 @@ namespace System {
         return get_Current();
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0xDBA674
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IEnumerator.get_Current"));
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0xDBA6D8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
       }
       // public System.Void Dispose()
-      // Offset: 0xDBA6E8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void Dispose() {
@@ -117,32 +117,32 @@ namespace System {
     // Creating value type constructor for type: ArraySegment_1
     ArraySegment_1(::Array<T>* array_ = {}, int offset_ = {}, int count_ = {}) : array{array_}, offset{offset_}, count{count_} {}
     // public System.Void .ctor(T[] array)
-    // Offset: 0xA2D8F4
+    // Offset: 0xFFFFFFFF
     static ArraySegment_1<T>* New_ctor(::Array<T>* array) {
       return (ArraySegment_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySegment_1<T>>::get(), array));
     }
     // public System.Void .ctor(T[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0xA2D8FC
+    // Offset: 0xFFFFFFFF
     static ArraySegment_1<T>* New_ctor(::Array<T>* array, int offset, int count) {
       return (ArraySegment_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySegment_1<T>>::get(), array, offset, count));
     }
     // public T[] get_Array()
-    // Offset: 0xA2D904
+    // Offset: 0xFFFFFFFF
     ::Array<T>* get_Array() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(*this, "get_Array"));
     }
     // public System.Int32 get_Offset()
-    // Offset: 0xA2D90C
+    // Offset: 0xFFFFFFFF
     int get_Offset() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "get_Offset"));
     }
     // public System.Boolean Equals(System.ArraySegment`1<T> obj)
-    // Offset: 0xA2D960
+    // Offset: 0xFFFFFFFF
     bool Equals(System::ArraySegment_1<T> obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", obj));
     }
     // public System.Int32 get_Count()
-    // Offset: 0xA2D914
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection`1::get_Count()
     // Base method: System.Int32 IReadOnlyCollection`1::get_Count()
@@ -155,112 +155,112 @@ namespace System {
       return get_Count();
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA2D91C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "GetHashCode"));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA2D958
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", obj));
     }
     // private T System.Collections.Generic.IList<T>.get_Item(System.Int32 index)
-    // Offset: 0xA2D994
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: T IList`1::get_Item(System.Int32 index)
     T System_Collections_Generic_IList_1_get_Item(int index) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<T>(*this, "System.Collections.Generic.IList<T>.get_Item", index)));
     }
     // private System.Void System.Collections.Generic.IList<T>.set_Item(System.Int32 index, T value)
-    // Offset: 0xA2D99C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList`1::set_Item(System.Int32 index, T value)
     void System_Collections_Generic_IList_1_set_Item(int index, T value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.IList<T>.set_Item", index, value));
     }
     // private System.Int32 System.Collections.Generic.IList<T>.IndexOf(T item)
-    // Offset: 0xA2D9A4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Int32 IList`1::IndexOf(T item)
     int System_Collections_Generic_IList_1_IndexOf(T item) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<int>(*this, "System.Collections.Generic.IList<T>.IndexOf", item)));
     }
     // private System.Void System.Collections.Generic.IList<T>.Insert(System.Int32 index, T item)
-    // Offset: 0xA2D9AC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList`1::Insert(System.Int32 index, T item)
     void System_Collections_Generic_IList_1_Insert(int index, T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.IList<T>.Insert", index, item));
     }
     // private System.Void System.Collections.Generic.IList<T>.RemoveAt(System.Int32 index)
-    // Offset: 0xA2D9B8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList`1::RemoveAt(System.Int32 index)
     void System_Collections_Generic_IList_1_RemoveAt(int index) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.IList<T>.RemoveAt", index));
     }
     // private T System.Collections.Generic.IReadOnlyList<T>.get_Item(System.Int32 index)
-    // Offset: 0xA2D9C4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IReadOnlyList`1
     // Base method: T IReadOnlyList`1::get_Item(System.Int32 index)
     T System_Collections_Generic_IReadOnlyList_1_get_Item(int index) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<T>(*this, "System.Collections.Generic.IReadOnlyList<T>.get_Item", index)));
     }
     // private System.Boolean System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-    // Offset: 0xA2D9CC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::get_IsReadOnly()
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(*this, "System.Collections.Generic.ICollection<T>.get_IsReadOnly")));
     }
     // private System.Void System.Collections.Generic.ICollection<T>.Add(T item)
-    // Offset: 0xA2D9D4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::Add(T item)
     void System_Collections_Generic_ICollection_1_Add(T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.ICollection<T>.Add", item));
     }
     // private System.Void System.Collections.Generic.ICollection<T>.Clear()
-    // Offset: 0xA2D9E0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::Clear()
     void System_Collections_Generic_ICollection_1_Clear() {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.ICollection<T>.Clear"));
     }
     // private System.Boolean System.Collections.Generic.ICollection<T>.Contains(T item)
-    // Offset: 0xA2D9EC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::Contains(T item)
     bool System_Collections_Generic_ICollection_1_Contains(T item) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(*this, "System.Collections.Generic.ICollection<T>.Contains", item)));
     }
     // private System.Void System.Collections.Generic.ICollection<T>.CopyTo(T[] array, System.Int32 arrayIndex)
-    // Offset: 0xA2D9F4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection`1::CopyTo(T[] array, System.Int32 arrayIndex)
     void System_Collections_Generic_ICollection_1_CopyTo(::Array<T>* array, int arrayIndex) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.ICollection<T>.CopyTo", array, arrayIndex));
     }
     // private System.Boolean System.Collections.Generic.ICollection<T>.Remove(T item)
-    // Offset: 0xA2D9FC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection`1::Remove(T item)
     bool System_Collections_Generic_ICollection_1_Remove(T item) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(*this, "System.Collections.Generic.ICollection<T>.Remove", item)));
     }
     // private System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-    // Offset: 0xA2DA08
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<T>*>(*this, "System.Collections.Generic.IEnumerable<T>.GetEnumerator")));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xA2DA10
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {

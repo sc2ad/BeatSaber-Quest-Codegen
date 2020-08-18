@@ -49,22 +49,22 @@ namespace System::Runtime::CompilerServices {
       // Creating value type constructor for type: ConfiguredTaskAwaiter
       ConfiguredTaskAwaiter(System::Threading::Tasks::Task_1<TResult>* m_task_ = {}, bool m_continueOnCapturedContext_ = {}) : m_task{m_task_}, m_continueOnCapturedContext{m_continueOnCapturedContext_} {}
       // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
-      // Offset: 0xA460D8
+      // Offset: 0xFFFFFFFF
       static typename ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter* New_ctor(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
         return (typename ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter>::get(), task, continueOnCapturedContext));
       }
       // public System.Boolean get_IsCompleted()
-      // Offset: 0xA4610C
+      // Offset: 0xFFFFFFFF
       bool get_IsCompleted() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "get_IsCompleted"));
       }
       // public TResult GetResult()
-      // Offset: 0xA46140
+      // Offset: 0xFFFFFFFF
       TResult GetResult() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<TResult>(*this, "GetResult"));
       }
       // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0xA46128
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
       // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
       void UnsafeOnCompleted(System::Action* continuation) {
@@ -77,12 +77,12 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: ConfiguredTaskAwaitable_1
     ConfiguredTaskAwaitable_1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter m_configuredTaskAwaiter_ = {}) : m_configuredTaskAwaiter{m_configuredTaskAwaiter_} {}
     // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
-    // Offset: 0xA46790
+    // Offset: 0xFFFFFFFF
     static ConfiguredTaskAwaitable_1<TResult>* New_ctor(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
       return (ConfiguredTaskAwaitable_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConfiguredTaskAwaitable_1<TResult>>::get(), task, continueOnCapturedContext));
     }
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> GetAwaiter()
-    // Offset: 0xA4679C
+    // Offset: 0xFFFFFFFF
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter GetAwaiter() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter>(*this, "GetAwaiter"));
     }

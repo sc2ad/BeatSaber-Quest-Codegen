@@ -43,20 +43,20 @@ namespace TMPro {
     // Set static field: static private readonly UnityEngine.Color k_DefaultColor
     static void _set_k_DefaultColor(UnityEngine::Color value);
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0xB67824
+    // Offset: 0xB543F8
     static TMP_ColorGradient* New_ctor(UnityEngine::Color color);
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0xB67894
+    // Offset: 0xB54468
     static TMP_ColorGradient* New_ctor(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3);
     // public System.Void .ctor()
-    // Offset: 0xB67778
+    // Offset: 0xB5434C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static TMP_ColorGradient* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xB6793C
+    // Offset: 0xB54510
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

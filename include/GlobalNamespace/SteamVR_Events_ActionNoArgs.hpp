@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Events::UnityAction* action;
     // public System.Void .ctor(SteamVR_Events/Event _event, UnityEngine.Events.UnityAction action)
-    // Offset: 0xD7F490
+    // Offset: 0xCDF754
     static SteamVR_Events::ActionNoArgs* New_ctor(GlobalNamespace::SteamVR_Events::Event* _event, UnityEngine::Events::UnityAction* action);
     // public override System.Void Enable(System.Boolean enabled)
-    // Offset: 0xD7FED8
+    // Offset: 0xCE019C
     // Implemented from: SteamVR_Events/Action
     // Base method: System.Void Action::Enable(System.Boolean enabled)
     void Enable(bool enabled);

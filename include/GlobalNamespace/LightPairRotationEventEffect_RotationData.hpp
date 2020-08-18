@@ -32,8 +32,14 @@ namespace GlobalNamespace {
     // public UnityEngine.Transform transform
     // Offset: 0x28
     UnityEngine::Transform* transform;
+    // public System.Single startRotationAngle
+    // Offset: 0x30
+    float startRotationAngle;
+    // public System.Single rotationAngle
+    // Offset: 0x34
+    float rotationAngle;
     // public System.Void .ctor()
-    // Offset: 0xBF6AA4
+    // Offset: 0x193F168
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LightPairRotationEventEffect::RotationData* New_ctor();

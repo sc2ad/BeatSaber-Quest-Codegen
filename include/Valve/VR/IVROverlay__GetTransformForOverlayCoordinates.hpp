@@ -37,16 +37,16 @@ namespace Valve::VR {
   class IVROverlay::_GetTransformForOverlayCoordinates : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1607514
+    // Offset: 0x156884C
     static IVROverlay::_GetTransformForOverlayCoordinates* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdVector2_t coordinatesInOverlay, Valve.VR.HmdMatrix34_t pmatTransform)
-    // Offset: 0x1607528
+    // Offset: 0x1568860
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdVector2_t coordinatesInOverlay, Valve::VR::HmdMatrix34_t& pmatTransform);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdVector2_t coordinatesInOverlay, Valve.VR.HmdMatrix34_t pmatTransform, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16077F0
+    // Offset: 0x1568B28
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdVector2_t coordinatesInOverlay, Valve::VR::HmdMatrix34_t& pmatTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(Valve.VR.HmdMatrix34_t pmatTransform, System.IAsyncResult result)
-    // Offset: 0x16078E0
+    // Offset: 0x1568C18
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::HmdMatrix34_t& pmatTransform, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetTransformForOverlayCoordinates
 }

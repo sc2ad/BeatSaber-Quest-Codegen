@@ -30,13 +30,13 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Action`1<System.Object> <>9__2_0
     static void _set_$$9__2_0(System::Action_1<::Il2CppObject*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xCE4EF0
+    // Offset: 0xC451B4
     static void _cctor();
     // System.Void <Run>b__2_0(System.Object state)
-    // Offset: 0xCE4F60
+    // Offset: 0xC45224
     void $Run$b__2_0(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0xCE4F58
+    // Offset: 0xC4521C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskSchedulerAwaitTaskContinuation::$$c* New_ctor();

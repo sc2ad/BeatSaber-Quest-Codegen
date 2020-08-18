@@ -36,22 +36,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* mutuallyExclusives;
     // public System.String get_modifierNameLocalizationKey()
-    // Offset: 0xB3C430
+    // Offset: 0xB3F0FC
     ::Il2CppString* get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0xB3C438
+    // Offset: 0xB3F104
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
-    // Offset: 0xB3C440
+    // Offset: 0xB3F10C
     float get_multiplier();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0xB3C448
+    // Offset: 0xB3F114
     UnityEngine::Sprite* get_icon();
     // public GameplayModifierParamsSO[] get_mutuallyExclusives()
-    // Offset: 0xB3C450
+    // Offset: 0xB3F11C
     ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_mutuallyExclusives();
     // public System.Void .ctor()
-    // Offset: 0xB3C458
+    // Offset: 0xB3F124
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

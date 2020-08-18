@@ -99,78 +99,78 @@ namespace System::Resources {
     // Offset: 0x78
     int version;
     // System.Void .ctor(System.IO.Stream stream, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> resCache)
-    // Offset: 0x115A4D0
+    // Offset: 0x10BD794
     static ResourceReader* New_ctor(System::IO::Stream* stream, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* resCache);
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x115A760
+    // Offset: 0x10BDA24
     void Dispose(bool disposing);
     // static System.Int32 ReadUnalignedI4(System.Int32* p)
-    // Offset: 0x115A81C
+    // Offset: 0x10BDAE0
     static int ReadUnalignedI4(int* p);
     // private System.Void SkipString()
-    // Offset: 0x115A824
+    // Offset: 0x10BDAE8
     void SkipString();
     // private System.Int32 GetNameHash(System.Int32 index)
-    // Offset: 0x115A8FC
+    // Offset: 0x10BDBC0
     int GetNameHash(int index);
     // private System.Int32 GetNamePosition(System.Int32 index)
-    // Offset: 0x115A94C
+    // Offset: 0x10BDC10
     int GetNamePosition(int index);
     // System.Resources.ResourceReader/ResourceEnumerator GetEnumeratorInternal()
-    // Offset: 0x115ABC4
+    // Offset: 0x10BDE88
     System::Resources::ResourceReader::ResourceEnumerator* GetEnumeratorInternal();
     // System.Int32 FindPosForResource(System.String name)
-    // Offset: 0x115AC44
+    // Offset: 0x10BDF08
     int FindPosForResource(::Il2CppString* name);
     // private System.Boolean CompareStringEqualsName(System.String name)
-    // Offset: 0x115B028
+    // Offset: 0x10BE2EC
     bool CompareStringEqualsName(::Il2CppString* name);
     // private System.String AllocateStringForNameIndex(System.Int32 index, System.Int32 dataOffset)
-    // Offset: 0x115B240
+    // Offset: 0x10BE504
     ::Il2CppString* AllocateStringForNameIndex(int index, int& dataOffset);
     // private System.Object GetValueForNameIndex(System.Int32 index)
-    // Offset: 0x115BB30
+    // Offset: 0x10BEDF4
     ::Il2CppObject* GetValueForNameIndex(int index);
     // System.String LoadString(System.Int32 pos)
-    // Offset: 0x115C084
+    // Offset: 0x10BF348
     ::Il2CppString* LoadString(int pos);
     // System.Object LoadObject(System.Int32 pos)
-    // Offset: 0x115C6B0
+    // Offset: 0x10BF974
     ::Il2CppObject* LoadObject(int pos);
     // System.Object LoadObject(System.Int32 pos, System.Resources.ResourceTypeCode typeCode)
-    // Offset: 0x115C6E8
+    // Offset: 0x10BF9AC
     ::Il2CppObject* LoadObject(int pos, System::Resources::ResourceTypeCode& typeCode);
     // System.Object LoadObjectV1(System.Int32 pos)
-    // Offset: 0x115BE14
+    // Offset: 0x10BF0D8
     ::Il2CppObject* LoadObjectV1(int pos);
     // private System.Object _LoadObjectV1(System.Int32 pos)
-    // Offset: 0x115C788
+    // Offset: 0x10BFA4C
     ::Il2CppObject* _LoadObjectV1(int pos);
     // System.Object LoadObjectV2(System.Int32 pos, System.Resources.ResourceTypeCode typeCode)
-    // Offset: 0x115BF48
+    // Offset: 0x10BF20C
     ::Il2CppObject* LoadObjectV2(int pos, System::Resources::ResourceTypeCode& typeCode);
     // private System.Object _LoadObjectV2(System.Int32 pos, System.Resources.ResourceTypeCode typeCode)
-    // Offset: 0x115D0D8
+    // Offset: 0x10C039C
     ::Il2CppObject* _LoadObjectV2(int pos, System::Resources::ResourceTypeCode& typeCode);
     // private System.Object DeserializeObject(System.Int32 typeIndex)
-    // Offset: 0x115CEF0
+    // Offset: 0x10C01B4
     ::Il2CppObject* DeserializeObject(int typeIndex);
     // private System.Void ReadResources()
-    // Offset: 0x115A5DC
+    // Offset: 0x10BD8A0
     void ReadResources();
     // private System.Void _ReadResources()
-    // Offset: 0x115D740
+    // Offset: 0x10C0A04
     void _ReadResources();
     // private System.RuntimeType FindType(System.Int32 typeIndex)
-    // Offset: 0x115C340
+    // Offset: 0x10BF604
     System::RuntimeType* FindType(int typeIndex);
     // public System.Void Close()
-    // Offset: 0x115A758
+    // Offset: 0x10BDA1C
     // Implemented from: System.Resources.IResourceReader
     // Base method: System.Void IResourceReader::Close()
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x115A814
+    // Offset: 0x10BDAD8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -178,12 +178,12 @@ namespace System::Resources {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x115AAA0
+    // Offset: 0x10BDD64
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x115AAA4
+    // Offset: 0x10BDD68
     // Implemented from: System.Resources.IResourceReader
     // Base method: System.Collections.IDictionaryEnumerator IResourceReader::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();

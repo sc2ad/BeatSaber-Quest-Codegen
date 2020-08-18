@@ -53,77 +53,77 @@ namespace System::Globalization {
     // Set static field: static private System.Globalization.RegionInfo currentRegion
     static void _set_currentRegion(System::Globalization::RegionInfo* value);
     // static public System.Globalization.RegionInfo get_CurrentRegion()
-    // Offset: 0x111F0BC
+    // Offset: 0x1082380
     static System::Globalization::RegionInfo* get_CurrentRegion();
     // public System.Void .ctor(System.Int32 culture)
-    // Offset: 0x111F33C
+    // Offset: 0x1082600
     static RegionInfo* New_ctor(int culture);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x111F51C
+    // Offset: 0x10827E0
     static RegionInfo* New_ctor(::Il2CppString* name);
     // private System.Void .ctor(System.Globalization.CultureInfo ci)
-    // Offset: 0x111F18C
+    // Offset: 0x1082450
     static RegionInfo* New_ctor(System::Globalization::CultureInfo* ci);
     // private System.Boolean GetByTerritory(System.Globalization.CultureInfo ci)
-    // Offset: 0x111F44C
+    // Offset: 0x1082710
     bool GetByTerritory(System::Globalization::CultureInfo* ci);
     // private System.Boolean construct_internal_region_from_name(System.String name)
-    // Offset: 0x111F660
+    // Offset: 0x1082924
     bool construct_internal_region_from_name(::Il2CppString* name);
     // public System.String get_CurrencyEnglishName()
-    // Offset: 0x111F664
+    // Offset: 0x1082928
     ::Il2CppString* get_CurrencyEnglishName();
     // public System.String get_CurrencySymbol()
-    // Offset: 0x111F66C
+    // Offset: 0x1082930
     ::Il2CppString* get_CurrencySymbol();
     // public System.String get_DisplayName()
-    // Offset: 0x111F674
+    // Offset: 0x1082938
     ::Il2CppString* get_DisplayName();
     // public System.String get_EnglishName()
-    // Offset: 0x111F67C
+    // Offset: 0x1082940
     ::Il2CppString* get_EnglishName();
     // public System.Int32 get_GeoId()
-    // Offset: 0x111F684
+    // Offset: 0x1082948
     int get_GeoId();
     // public System.Boolean get_IsMetric()
-    // Offset: 0x111F68C
+    // Offset: 0x1082950
     bool get_IsMetric();
     // public System.String get_ISOCurrencySymbol()
-    // Offset: 0x111F714
+    // Offset: 0x10829D8
     ::Il2CppString* get_ISOCurrencySymbol();
     // public System.String get_NativeName()
-    // Offset: 0x111F71C
+    // Offset: 0x10829E0
     ::Il2CppString* get_NativeName();
     // public System.String get_CurrencyNativeName()
-    // Offset: 0x111F724
+    // Offset: 0x10829E8
     ::Il2CppString* get_CurrencyNativeName();
     // public System.String get_Name()
-    // Offset: 0x111F72C
+    // Offset: 0x10829F0
     ::Il2CppString* get_Name();
     // public System.String get_ThreeLetterISORegionName()
-    // Offset: 0x111F734
+    // Offset: 0x10829F8
     ::Il2CppString* get_ThreeLetterISORegionName();
     // public System.String get_ThreeLetterWindowsRegionName()
-    // Offset: 0x111F73C
+    // Offset: 0x1082A00
     ::Il2CppString* get_ThreeLetterWindowsRegionName();
     // public System.String get_TwoLetterISORegionName()
-    // Offset: 0x111F744
+    // Offset: 0x1082A08
     ::Il2CppString* get_TwoLetterISORegionName();
     // static System.Void ClearCachedData()
-    // Offset: 0x111F868
+    // Offset: 0x1082B2C
     static void ClearCachedData();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x111F74C
+    // Offset: 0x1082A10
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x111F828
+    // Offset: 0x1082AEC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x111F858
+    // Offset: 0x1082B1C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

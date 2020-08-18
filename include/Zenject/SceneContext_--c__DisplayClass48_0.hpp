@@ -17,8 +17,8 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -34,13 +34,13 @@ namespace Zenject {
     // Offset: 0x18
     System::Func_2<::Il2CppString*, bool>* $$9__4;
     // System.Boolean <GetParentContainers>b__2(Zenject.SceneContext sceneContext)
-    // Offset: 0xFC81C4
+    // Offset: 0xF28488
     bool $GetParentContainers$b__2(Zenject::SceneContext* sceneContext);
     // System.Boolean <GetParentContainers>b__4(System.String x)
-    // Offset: 0xFC8290
+    // Offset: 0xF28554
     bool $GetParentContainers$b__4(::Il2CppString* x);
     // public System.Void .ctor()
-    // Offset: 0xFC727C
+    // Offset: 0xF27540
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SceneContext::$$c__DisplayClass48_0* New_ctor();

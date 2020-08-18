@@ -34,10 +34,10 @@ namespace RootMotion::FinalIK {
     // Offset: 0x20
     UnityEngine::Quaternion localRotation;
     // public System.Void .ctor(UnityEngine.Transform t)
-    // Offset: 0x1238C14
+    // Offset: 0x119BED8
     static VRIKCalibrator::CalibrationData::Target* New_ctor(UnityEngine::Transform* t);
     // public System.Void SetTo(UnityEngine.Transform t)
-    // Offset: 0x1239788
+    // Offset: 0x119CA4C
     void SetTo(UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.VRIKCalibrator/CalibrationData/Target
 }

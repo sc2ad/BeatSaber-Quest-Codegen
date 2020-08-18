@@ -45,16 +45,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x54
     float rotationWeight;
     // public System.Boolean IsValid()
-    // Offset: 0x13A7044
+    // Offset: 0x1309308
     bool IsValid();
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x13A59BC
+    // Offset: 0x1307C80
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update()
-    // Offset: 0x13A5B9C
+    // Offset: 0x1307E60
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13A63A0
+    // Offset: 0x1308664
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Constraints* New_ctor();

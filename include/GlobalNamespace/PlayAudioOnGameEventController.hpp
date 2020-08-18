@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>* eventAudioBindings;
     // protected System.Void Awake()
-    // Offset: 0xBD6830
+    // Offset: 0x191DB98
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xBD698C
+    // Offset: 0x191DCF4
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xBD6A80
+    // Offset: 0x191DDE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x11
     bool spawnBadCuts;
     // public System.Void .ctor(System.Boolean spawnScores, System.Boolean spawnBadCuts)
-    // Offset: 0xC13178
+    // Offset: 0x195BCA8
     static NoteCutEffectSpawner::InitData* New_ctor(bool spawnScores, bool spawnBadCuts);
   }; // NoteCutEffectSpawner/InitData
 }

@@ -34,15 +34,15 @@ namespace UnityEngine {
     // Offset: 0x54
     float m_ForcedMaxHeight;
     // public System.Void .ctor(UnityEngine.GUIStyle style, UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x126D210
+    // Offset: 0x11CF4D4
     static GUIWordWrapSizer* New_ctor(UnityEngine::GUIStyle* style, UnityEngine::GUIContent* content, ::Array<UnityEngine::GUILayoutOption*>* options);
     // public override System.Void CalcWidth()
-    // Offset: 0x127219C
+    // Offset: 0x11D4460
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcWidth()
     void CalcWidth();
     // public override System.Void CalcHeight()
-    // Offset: 0x1272260
+    // Offset: 0x11D4524
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();

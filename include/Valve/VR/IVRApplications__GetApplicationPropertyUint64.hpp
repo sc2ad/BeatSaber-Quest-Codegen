@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRApplications::_GetApplicationPropertyUint64 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFE3C28
+    // Offset: 0xF44EEC
     static IVRApplications::_GetApplicationPropertyUint64* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt64 Invoke(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, Valve.VR.EVRApplicationError peError)
-    // Offset: 0xFD9548
+    // Offset: 0xF3A80C
     uint64_t Invoke(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, Valve::VR::EVRApplicationError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, Valve.VR.EVRApplicationError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFE3C3C
+    // Offset: 0xF44F00
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, Valve::VR::EVRApplicationError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(Valve.VR.EVRApplicationError peError, System.IAsyncResult result)
-    // Offset: 0xFE3CF8
+    // Offset: 0xF44FBC
     uint64_t EndInvoke(Valve::VR::EVRApplicationError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationPropertyUint64
 }

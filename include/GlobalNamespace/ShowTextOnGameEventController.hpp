@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>* eventTextBindings;
     // protected System.Void Awake()
-    // Offset: 0xC2B29C
+    // Offset: 0xBA32D8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xC2B3B4
+    // Offset: 0xBA33F0
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xC2B4A8
+    // Offset: 0xBA34E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -44,28 +44,28 @@ namespace System {
     // Creating value type constructor for type: ParamsArray
     ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::Array<::Il2CppObject*>* args_ = {}) : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
     // public System.Void .ctor(System.Object arg0)
-    // Offset: 0xA43120
+    // Offset: 0x9AC5EC
     static ParamsArray* New_ctor(::Il2CppObject* arg0);
     // public System.Void .ctor(System.Object arg0, System.Object arg1)
-    // Offset: 0xA43128
+    // Offset: 0x9AC5F4
     static ParamsArray* New_ctor(::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public System.Void .ctor(System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0xA43130
+    // Offset: 0x9AC5FC
     static ParamsArray* New_ctor(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0xA43138
+    // Offset: 0x9AC604
     static ParamsArray* New_ctor(::Array<::Il2CppObject*>* args);
     // public System.Int32 get_Length()
-    // Offset: 0xA43140
+    // Offset: 0x9AC60C
     int get_Length();
     // public System.Object get_Item(System.Int32 index)
-    // Offset: 0xA4315C
+    // Offset: 0x9AC628
     ::Il2CppObject* get_Item(int index);
     // private System.Object GetAtSlow(System.Int32 index)
-    // Offset: 0xA43170
+    // Offset: 0x9AC63C
     ::Il2CppObject* GetAtSlow(int index);
     // static private System.Void .cctor()
-    // Offset: 0x135C280
+    // Offset: 0x12BD544
     static void _cctor();
   }; // System.ParamsArray
 }

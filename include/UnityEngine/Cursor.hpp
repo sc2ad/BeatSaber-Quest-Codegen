@@ -19,16 +19,16 @@ namespace UnityEngine {
   class Cursor : public ::Il2CppObject {
     public:
     // static public System.Boolean get_visible()
-    // Offset: 0x1303A0C
+    // Offset: 0x1266CD0
     static bool get_visible();
     // static public System.Void set_visible(System.Boolean value)
-    // Offset: 0x1303A40
+    // Offset: 0x1266D04
     static void set_visible(bool value);
     // static public UnityEngine.CursorLockMode get_lockState()
-    // Offset: 0x1303A80
+    // Offset: 0x1266D44
     static UnityEngine::CursorLockMode get_lockState();
     // static public System.Void set_lockState(UnityEngine.CursorLockMode value)
-    // Offset: 0x1303AB4
+    // Offset: 0x1266D78
     static void set_lockState(UnityEngine::CursorLockMode value);
   }; // UnityEngine.Cursor
 }

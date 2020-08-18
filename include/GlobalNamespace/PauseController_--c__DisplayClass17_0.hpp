@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     bool value;
     // System.Void <get_canPause>b__0(System.Boolean newValue)
-    // Offset: 0xBD2294
+    // Offset: 0x19195FC
     void $get_canPause$b__0(bool newValue);
     // public System.Void .ctor()
-    // Offset: 0xBD13F8
+    // Offset: 0x1918760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PauseController::$$c__DisplayClass17_0* New_ctor();

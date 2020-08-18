@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class CanBeNullAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1957CF4
+    // Offset: 0x18B4038
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

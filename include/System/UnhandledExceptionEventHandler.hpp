@@ -26,16 +26,16 @@ namespace System {
   class UnhandledExceptionEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1795C54
+    // Offset: 0x16F3F8C
     static UnhandledExceptionEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.UnhandledExceptionEventArgs e)
-    // Offset: 0x1795C68
+    // Offset: 0x16F3FA0
     void Invoke(::Il2CppObject* sender, System::UnhandledExceptionEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.UnhandledExceptionEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x179606C
+    // Offset: 0x16F43A4
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::UnhandledExceptionEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x179609C
+    // Offset: 0x16F43D4
     void EndInvoke(System::IAsyncResult* result);
   }; // System.UnhandledExceptionEventHandler
 }

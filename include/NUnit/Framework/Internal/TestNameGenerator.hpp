@@ -55,19 +55,19 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public System.String DefaultTestNamePattern
     static void _set_DefaultTestNamePattern(::Il2CppString* value);
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x18EB044
+    // Offset: 0x1848390
     static TestNameGenerator* New_ctor(::Il2CppString* pattern);
     // public System.String GetDisplayName(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x18EB078
+    // Offset: 0x18483C4
     ::Il2CppString* GetDisplayName(NUnit::Framework::Internal::TestMethod* testMethod, ::Array<::Il2CppObject*>* args);
     // static private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NameFragment> BuildFragmentList(System.String pattern)
-    // Offset: 0x18EB220
+    // Offset: 0x184856C
     static System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* BuildFragmentList(::Il2CppString* pattern);
     // static private System.Void .cctor()
-    // Offset: 0x18EBA08
+    // Offset: 0x1848D54
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18EAFC4
+    // Offset: 0x1848310
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestNameGenerator* New_ctor();

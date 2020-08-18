@@ -70,31 +70,31 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts;
     // public System.Boolean get_handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts()
-    // Offset: 0xC45EA4
+    // Offset: 0x19634D8
     bool get_handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts();
     // public System.Void set_handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts(System.Boolean value)
-    // Offset: 0xC45EAC
+    // Offset: 0x19634E0
     void set_handleWrongSaberTypeAsGoodAndDontWarnOnBadCuts(bool value);
     // protected System.Void Start()
-    // Offset: 0xC45EB8
+    // Offset: 0x19634EC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC45F98
+    // Offset: 0x19635CC
     void OnDestroy();
     // private System.Void HandleNoteWasCut(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC460BC
+    // Offset: 0x19636F0
     void HandleNoteWasCut(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnNoteCutEffect(UnityEngine.Vector3 pos, INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC46528
+    // Offset: 0x1963B5C
     void SpawnNoteCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void SpawnBombCutEffect(UnityEngine.Vector3 pos, INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0xC46344
+    // Offset: 0x1963978
     void SpawnBombCutEffect(UnityEngine::Vector3 pos, GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void HandleNoteWasMissed(INoteController noteController)
-    // Offset: 0xC469E0
+    // Offset: 0x1964014
     void HandleNoteWasMissed(GlobalNamespace::INoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0xC46B04
+    // Offset: 0x1964138
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

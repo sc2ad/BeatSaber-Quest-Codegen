@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     bool val;
     // public System.Void .ctor(System.Boolean visibility)
-    // Offset: 0x11628C0
+    // Offset: 0x10C5B84
     static ComVisibleAttribute* New_ctor(bool visibility);
   }; // System.Runtime.InteropServices.ComVisibleAttribute
 }

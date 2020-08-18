@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Mesh* mesh;
     // protected System.Void OnEnable()
-    // Offset: 0x1905394
+    // Offset: 0x18636E0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1905678
+    // Offset: 0x18639C4
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1905684
+    // Offset: 0x18639D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

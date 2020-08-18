@@ -14,7 +14,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeContainerAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12F96BC
+    // Offset: 0x125C980
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

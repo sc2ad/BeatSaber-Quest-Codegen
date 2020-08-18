@@ -21,12 +21,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class DTSweepPointComparator : public System::Collections::Generic::IComparer_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>, public ::Il2CppObject {
     public:
     // public System.Int32 Compare(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2)
-    // Offset: 0x1927E40
+    // Offset: 0x188518C
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2)
     int Compare(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
     // public System.Void .ctor()
-    // Offset: 0x19276A0
+    // Offset: 0x18849EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DTSweepPointComparator* New_ctor();

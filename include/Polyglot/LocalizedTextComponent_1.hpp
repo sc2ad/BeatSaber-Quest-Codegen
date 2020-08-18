@@ -48,27 +48,27 @@ namespace Polyglot {
     // Offset: 0x0
     System::Collections::Generic::List_1<::Il2CppObject*>* parameters;
     // public System.Boolean get_MaintainTextAlignment()
-    // Offset: 0x1295DD4
+    // Offset: 0xFFFFFFFF
     bool get_MaintainTextAlignment() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_MaintainTextAlignment"));
     }
     // public System.Void set_MaintainTextAlignment(System.Boolean value)
-    // Offset: 0x1295DDC
+    // Offset: 0xFFFFFFFF
     void set_MaintainTextAlignment(bool value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_MaintainTextAlignment", value));
     }
     // public System.Void set_Key(System.String value)
-    // Offset: 0x1295DF0
+    // Offset: 0xFFFFFFFF
     void set_Key(::Il2CppString* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Key", value));
     }
     // public System.Collections.Generic.List`1<System.Object> get_Parameters()
-    // Offset: 0x1295E34
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::List_1<::Il2CppObject*>* get_Parameters() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::List_1<::Il2CppObject*>*>(this, "get_Parameters"));
     }
     // public System.Void OnEnable()
-    // Offset: 0x1295E3C
+    // Offset: 0xFFFFFFFF
     void OnEnable() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnEnable"));
     }
@@ -83,46 +83,46 @@ namespace Polyglot {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "UpdateAlignment", component, direction));
     }
     // public System.Void ClearParameters()
-    // Offset: 0x1295FA4
+    // Offset: 0xFFFFFFFF
     void ClearParameters() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "ClearParameters"));
     }
     // public System.Void AddParameter(System.Object parameter)
-    // Offset: 0x1295FFC
+    // Offset: 0xFFFFFFFF
     void AddParameter(::Il2CppObject* parameter) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
     }
     // public System.Void AddParameter(System.Int32 parameter)
-    // Offset: 0x1296080
+    // Offset: 0xFFFFFFFF
     void AddParameter(int parameter) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
     }
     // public System.Void AddParameter(System.Single parameter)
-    // Offset: 0x1296114
+    // Offset: 0xFFFFFFFF
     void AddParameter(float parameter) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
     }
     // public System.Void AddParameter(System.String parameter)
-    // Offset: 0x12961B0
+    // Offset: 0xFFFFFFFF
     void AddParameter(::Il2CppString* parameter) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
     }
     // public System.String get_Key()
-    // Offset: 0x1295DE8
+    // Offset: 0xFFFFFFFF
     // Implemented from: Polyglot.ILocalizeKey
     // Base method: System.String ILocalizeKey::get_Key()
     ::Il2CppString* get_Key() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(this, "get_Key"));
     }
     // public System.Void OnLocalize()
-    // Offset: 0x1295E70
+    // Offset: 0xFFFFFFFF
     // Implemented from: Polyglot.ILocalize
     // Base method: System.Void ILocalize::OnLocalize()
     void OnLocalize() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnLocalize"));
     }
     // protected System.Void .ctor()
-    // Offset: 0x12961D4
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

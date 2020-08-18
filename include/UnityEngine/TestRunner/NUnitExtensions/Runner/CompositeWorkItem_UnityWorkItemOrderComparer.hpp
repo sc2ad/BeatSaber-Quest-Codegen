@@ -22,12 +22,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class CompositeWorkItem::UnityWorkItemOrderComparer : public System::Collections::Generic::IComparer_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>, public ::Il2CppObject {
     public:
     // public System.Int32 Compare(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem x, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem y)
-    // Offset: 0xE2EDB4
+    // Offset: 0xD8F078
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem x, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem y)
     int Compare(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* x, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* y);
     // public System.Void .ctor()
-    // Offset: 0xE2CA14
+    // Offset: 0xD8CCD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CompositeWorkItem::UnityWorkItemOrderComparer* New_ctor();

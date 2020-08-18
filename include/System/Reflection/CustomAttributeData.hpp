@@ -68,64 +68,64 @@ namespace System::Reflection {
     // Offset: 0x28
     System::Reflection::CustomAttributeData::LazyCAttrData* lazyData;
     // System.Void .ctor(System.Reflection.ConstructorInfo ctorInfo, System.Reflection.Assembly assembly, System.IntPtr data, System.UInt32 data_length)
-    // Offset: 0x1360AF8
+    // Offset: 0x12C1DBC
     static CustomAttributeData* New_ctor(System::Reflection::ConstructorInfo* ctorInfo, System::Reflection::Assembly* assembly, System::IntPtr data, uint data_length);
     // static private System.Void ResolveArgumentsInternal(System.Reflection.ConstructorInfo ctor, System.Reflection.Assembly assembly, System.IntPtr data, System.UInt32 data_length, System.Object[] ctorArgs, System.Object[] namedArgs)
-    // Offset: 0x1360BC0
+    // Offset: 0x12C1E84
     static void ResolveArgumentsInternal(System::Reflection::ConstructorInfo* ctor, System::Reflection::Assembly* assembly, System::IntPtr data, uint data_length, ::Array<::Il2CppObject*>*& ctorArgs, ::Array<::Il2CppObject*>*& namedArgs);
     // private System.Void ResolveArguments()
-    // Offset: 0x1360BC4
+    // Offset: 0x12C1E88
     void ResolveArguments();
     // public System.Reflection.ConstructorInfo get_Constructor()
-    // Offset: 0x1360D20
+    // Offset: 0x12C1FE4
     System::Reflection::ConstructorInfo* get_Constructor();
     // public System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument> get_ConstructorArguments()
-    // Offset: 0x1360D28
+    // Offset: 0x12C1FEC
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument>* get_ConstructorArguments();
     // public System.Collections.Generic.IList`1<System.Reflection.CustomAttributeNamedArgument> get_NamedArguments()
-    // Offset: 0x1360D4C
+    // Offset: 0x12C2010
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument>* get_NamedArguments();
     // static public System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.Assembly target)
-    // Offset: 0x1360D70
+    // Offset: 0x12C2034
     static System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributes(System::Reflection::Assembly* target);
     // static public System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.MemberInfo target)
-    // Offset: 0x1360DD8
+    // Offset: 0x12C209C
     static System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributes(System::Reflection::MemberInfo* target);
     // static System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesInternal(System.RuntimeType target)
-    // Offset: 0x1360E40
+    // Offset: 0x12C2104
     static System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesInternal(System::RuntimeType* target);
     // static public System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.Module target)
-    // Offset: 0x1360EA8
+    // Offset: 0x12C216C
     static System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributes(System::Reflection::Module* target);
     // static public System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.ParameterInfo target)
-    // Offset: 0x1360F10
+    // Offset: 0x12C21D4
     static System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributes(System::Reflection::ParameterInfo* target);
     // public System.Type get_AttributeType()
-    // Offset: 0x1360F78
+    // Offset: 0x12C223C
     System::Type* get_AttributeType();
     // static private T[] UnboxValues(System.Object[] values)
-    // Offset: 0xD57E68
+    // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* UnboxValues(::Array<::Il2CppObject*>* values) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("System.Reflection", "CustomAttributeData", "UnboxValues", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, values)));
     }
     // protected System.Void .ctor()
-    // Offset: 0x1360AF4
+    // Offset: 0x12C1DB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CustomAttributeData* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x1360F98
+    // Offset: 0x12C225C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1361764
+    // Offset: 0x12C2A28
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1361F88
+    // Offset: 0x12C324C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

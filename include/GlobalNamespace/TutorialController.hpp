@@ -71,31 +71,31 @@ namespace GlobalNamespace {
     // Offset: 0x51
     bool doingOutroTransition;
     // protected System.Void Start()
-    // Offset: 0xC44DB8
+    // Offset: 0x19623EC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC44F58
+    // Offset: 0x196258C
     void OnDestroy();
     // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0xC4519C
+    // Offset: 0x19627D0
     void HandleIntroTutorialDidFinishEvent();
     // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0xC451BC
+    // Offset: 0x19627F0
     void HandleTutorialSongControllerSongDidFinishEvent();
     // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0xC45208
+    // Offset: 0x196283C
     System::Collections::IEnumerator* OutroCoroutine();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0xC452B0
+    // Offset: 0x19628E4
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0xC4533C
+    // Offset: 0x1962970
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0xC45348
+    // Offset: 0x196297C
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0xC45350
+    // Offset: 0x1962984
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

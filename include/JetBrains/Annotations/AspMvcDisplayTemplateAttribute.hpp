@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class AspMvcDisplayTemplateAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1957AC8
+    // Offset: 0x18B3E0C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -30,22 +30,22 @@ namespace Polyglot {
   class LocalizedText : public Polyglot::LocalizedTextComponent_1<UnityEngine::UI::Text*> {
     public:
     // protected System.Void SetText(UnityEngine.UI.Text text, System.String value)
-    // Offset: 0x190F0F4
+    // Offset: 0x186D440
     void SetText(UnityEngine::UI::Text* text, ::Il2CppString* value);
     // protected System.Void UpdateAlignment(UnityEngine.UI.Text text, Polyglot.LanguageDirection direction)
-    // Offset: 0x190F210
+    // Offset: 0x186D55C
     void UpdateAlignment(UnityEngine::UI::Text* text, Polyglot::LanguageDirection direction);
     // private System.Boolean IsOppositeDirection(UnityEngine.TextAnchor alignment, Polyglot.LanguageDirection direction)
-    // Offset: 0x190F2F4
+    // Offset: 0x186D640
     bool IsOppositeDirection(UnityEngine::TextAnchor alignment, Polyglot::LanguageDirection direction);
     // private System.Boolean IsAlignmentRight(UnityEngine.TextAnchor alignment)
-    // Offset: 0x190F34C
+    // Offset: 0x186D698
     bool IsAlignmentRight(UnityEngine::TextAnchor alignment);
     // private System.Boolean IsAlignmentLeft(UnityEngine.TextAnchor alignment)
-    // Offset: 0x190F374
+    // Offset: 0x186D6C0
     bool IsAlignmentLeft(UnityEngine::TextAnchor alignment);
     // public System.Void .ctor()
-    // Offset: 0x190F39C
+    // Offset: 0x186D6E8
     // Implemented from: Polyglot.LocalizedTextComponent`1
     // Base method: System.Void LocalizedTextComponent`1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

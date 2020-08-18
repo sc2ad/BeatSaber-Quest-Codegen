@@ -30,13 +30,13 @@ namespace System {
     // Set static field: static public System.Comparison`1<System.TimeZoneInfo/AdjustmentRule> <>9__19_0
     static void _set_$$9__19_0(System::Comparison_1<System::TimeZoneInfo::AdjustmentRule*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x178B03C
+    // Offset: 0x16E9374
     static void _cctor();
     // System.Int32 <CreateLocalUnity>b__19_0(System.TimeZoneInfo/AdjustmentRule rule1, System.TimeZoneInfo/AdjustmentRule rule2)
-    // Offset: 0x178B0AC
+    // Offset: 0x16E93E4
     int $CreateLocalUnity$b__19_0(System::TimeZoneInfo::AdjustmentRule* rule1, System::TimeZoneInfo::AdjustmentRule* rule2);
     // public System.Void .ctor()
-    // Offset: 0x178B0A4
+    // Offset: 0x16E93DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimeZoneInfo::$$c* New_ctor();

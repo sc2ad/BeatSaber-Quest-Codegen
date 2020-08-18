@@ -31,11 +31,14 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioSource _audioSource
     // Offset: 0x18
     UnityEngine::AudioSource* audioSource;
-    // private System.Boolean _hasData
+    // private System.Single _instantChangeThreshold
     // Offset: 0x20
+    float instantChangeThreshold;
+    // private System.Boolean _hasData
+    // Offset: 0x24
     bool hasData;
     // private System.Boolean _hasProcessedData
-    // Offset: 0x21
+    // Offset: 0x25
     bool hasProcessedData;
     // private System.Single[] _samples
     // Offset: 0x28
@@ -50,22 +53,22 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kNumberOfSamples
     static void _set_kNumberOfSamples(int value);
     // public System.Single[] get_Samples()
-    // Offset: 0xB8975C
+    // Offset: 0x18F2DC4
     ::Array<float>* get_Samples();
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0xB89804
+    // Offset: 0x18F2E6C
     System::Collections::Generic::List_1<float>* get_ProcessedSamples();
     // protected System.Void Awake()
-    // Offset: 0xB89A2C
+    // Offset: 0x18F30CC
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0xB89AA8
+    // Offset: 0x18F3148
     void LateUpdate();
     // private System.Void ProcessSamples(System.Single[] sourceSamples, System.Collections.Generic.List`1<System.Single> processedSamples)
-    // Offset: 0xB89850
+    // Offset: 0x18F2EC0
     void ProcessSamples(::Array<float>* sourceSamples, System::Collections::Generic::List_1<float>* processedSamples);
     // public System.Void .ctor()
-    // Offset: 0xB89AB0
+    // Offset: 0x18F3150
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithUser : public Oculus::Platform::Message_1<Oculus::Platform::Models::User*> {
     public:
     // protected Oculus.Platform.Models.User GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA5030
+    // Offset: 0xE042F4
     Oculus::Platform::Models::User* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9B9C4
+    // Offset: 0xDFAC88
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithUser* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.User GetUser()
-    // Offset: 0xEA4FEC
+    // Offset: 0xE042B0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.User Message::GetUser()
     Oculus::Platform::Models::User* GetUser();

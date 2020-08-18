@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSettings::_RemoveSection : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16AA440
+    // Offset: 0x160C778
     static IVRSettings::_RemoveSection* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchSection, OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x16AA454
+    // Offset: 0x160C78C
     void Invoke(::Il2CppString* pchSection, OVR::OpenVR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, OVR.OpenVR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16AA858
+    // Offset: 0x160CB90
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, OVR::OpenVR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(OVR.OpenVR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x16AA8F4
+    // Offset: 0x160CC2C
     void EndInvoke(OVR::OpenVR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSettings/_RemoveSection
 }

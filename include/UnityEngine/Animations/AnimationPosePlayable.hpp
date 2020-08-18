@@ -28,18 +28,18 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationPosePlayable
     AnimationPosePlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xA5A120
+    // Offset: 0x9C45EC
     static AnimationPosePlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
-    // Offset: 0x1936CE8
+    // Offset: 0x1894034
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA5A128
+    // Offset: 0x9C45F4
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationPosePlayable other)
-    // Offset: 0xA5A134
+    // Offset: 0x9C4600
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimationPosePlayable other)
     bool Equals(UnityEngine::Animations::AnimationPosePlayable other);

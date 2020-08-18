@@ -31,13 +31,13 @@ namespace RootMotion {
     // Offset: 0x28
     RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg;
     // public System.Void .ctor(RootMotion.BipedLimbOrientations/LimbOrientation leftArm, RootMotion.BipedLimbOrientations/LimbOrientation rightArm, RootMotion.BipedLimbOrientations/LimbOrientation leftLeg, RootMotion.BipedLimbOrientations/LimbOrientation rightLeg)
-    // Offset: 0x139B0B8
+    // Offset: 0x12FD37C
     static BipedLimbOrientations* New_ctor(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg);
     // static public RootMotion.BipedLimbOrientations get_UMA()
-    // Offset: 0x139B138
+    // Offset: 0x12FD3FC
     static RootMotion::BipedLimbOrientations* get_UMA();
     // static public RootMotion.BipedLimbOrientations get_MaxBiped()
-    // Offset: 0x139B428
+    // Offset: 0x12FD6EC
     static RootMotion::BipedLimbOrientations* get_MaxBiped();
   }; // RootMotion.BipedLimbOrientations
 }

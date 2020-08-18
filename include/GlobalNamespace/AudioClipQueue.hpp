@@ -38,16 +38,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float delay;
     // protected System.Void Awake()
-    // Offset: 0xB86E1C
+    // Offset: 0x18F0484
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xB86E3C
+    // Offset: 0x18F04A4
     void Update();
     // public System.Void PlayAudioClipWithDelay(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0xB86F68
+    // Offset: 0x18F05D0
     void PlayAudioClipWithDelay(UnityEngine::AudioClip* audioClip, float delay);
     // public System.Void .ctor()
-    // Offset: 0xB87024
+    // Offset: 0x18F068C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -14,7 +14,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class WriteAccessRequiredAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12F9734
+    // Offset: 0x125C9F8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

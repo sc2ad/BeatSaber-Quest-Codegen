@@ -30,16 +30,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1C
     UnityEngine::Quaternion defaultLocalRotation;
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x13AB624
+    // Offset: 0x130D8E8
     static FBBIKHeadEffector::BendBone* New_ctor(UnityEngine::Transform* transform, float weight);
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x13A8C64
+    // Offset: 0x130AF28
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x13A9068
+    // Offset: 0x130B32C
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x13AB5A4
+    // Offset: 0x130D868
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FBBIKHeadEffector::BendBone* New_ctor();

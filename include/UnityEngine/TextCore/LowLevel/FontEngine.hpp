@@ -96,76 +96,76 @@ namespace UnityEngine::TextCore::LowLevel {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.TextCore.Glyph> s_GlyphLookupDictionary
     static void _set_s_GlyphLookupDictionary(System::Collections::Generic::Dictionary_2<uint, UnityEngine::TextCore::Glyph*>* value);
     // static public UnityEngine.TextCore.LowLevel.FontEngineError InitializeFontEngine()
-    // Offset: 0x1951660
+    // Offset: 0x18AC9A4
     static UnityEngine::TextCore::LowLevel::FontEngineError InitializeFontEngine();
     // static private System.Int32 InitializeFontEngine_Internal()
-    // Offset: 0x19516D8
+    // Offset: 0x18ACA1C
     static int InitializeFontEngine_Internal();
     // static public UnityEngine.TextCore.LowLevel.FontEngineError LoadFontFace(UnityEngine.Font font, System.Int32 pointSize)
-    // Offset: 0x195170C
+    // Offset: 0x18ACA50
     static UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(UnityEngine::Font* font, int pointSize);
     // static private System.Int32 LoadFontFace_With_Size_FromFont_Internal(UnityEngine.Font font, System.Int32 pointSize)
-    // Offset: 0x19517A0
+    // Offset: 0x18ACAE4
     static int LoadFontFace_With_Size_FromFont_Internal(UnityEngine::Font* font, int pointSize);
     // static public UnityEngine.TextCore.FaceInfo GetFaceInfo()
-    // Offset: 0x19517F0
+    // Offset: 0x18ACB34
     static UnityEngine::TextCore::FaceInfo GetFaceInfo();
     // static private System.Int32 GetFaceInfo_Internal(UnityEngine.TextCore.FaceInfo faceInfo)
-    // Offset: 0x19518A0
+    // Offset: 0x18ACBE4
     static int GetFaceInfo_Internal(UnityEngine::TextCore::FaceInfo& faceInfo);
     // static System.UInt32 GetGlyphIndex(System.UInt32 unicode)
-    // Offset: 0x19518E0
+    // Offset: 0x18ACC24
     static uint GetGlyphIndex(uint unicode);
     // static public System.Boolean TryGetGlyphWithUnicodeValue(System.UInt32 unicode, UnityEngine.TextCore.LowLevel.GlyphLoadFlags flags, UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0x1951920
+    // Offset: 0x18ACC64
     static bool TryGetGlyphWithUnicodeValue(uint unicode, UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, UnityEngine::TextCore::Glyph*& glyph);
     // static private System.Boolean TryGetGlyphWithUnicodeValue_Internal(System.UInt32 unicode, UnityEngine.TextCore.LowLevel.GlyphLoadFlags loadFlags, UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct glyphStruct)
-    // Offset: 0x1951A5C
+    // Offset: 0x18ACDA0
     static bool TryGetGlyphWithUnicodeValue_Internal(uint unicode, UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& glyphStruct);
     // static public System.Boolean TryGetGlyphWithIndexValue(System.UInt32 glyphIndex, UnityEngine.TextCore.LowLevel.GlyphLoadFlags flags, UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0x1951AB4
+    // Offset: 0x18ACDF8
     static bool TryGetGlyphWithIndexValue(uint glyphIndex, UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, UnityEngine::TextCore::Glyph*& glyph);
     // static private System.Boolean TryGetGlyphWithIndexValue_Internal(System.UInt32 glyphIndex, UnityEngine.TextCore.LowLevel.GlyphLoadFlags loadFlags, UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct glyphStruct)
-    // Offset: 0x1951BF0
+    // Offset: 0x18ACF34
     static bool TryGetGlyphWithIndexValue_Internal(uint glyphIndex, UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& glyphStruct);
     // static System.Boolean TryPackGlyphInAtlas(UnityEngine.TextCore.Glyph glyph, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, System.Int32 width, System.Int32 height, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> freeGlyphRects, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> usedGlyphRects)
-    // Offset: 0x1951C48
+    // Offset: 0x18ACF8C
     static bool TryPackGlyphInAtlas(UnityEngine::TextCore::Glyph* glyph, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int width, int height, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* freeGlyphRects, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* usedGlyphRects);
     // static private System.Boolean TryPackGlyphInAtlas_Internal(UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct glyph, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, System.Int32 width, System.Int32 height, UnityEngine.TextCore.GlyphRect[] freeGlyphRects, System.Int32 freeGlyphRectCount, UnityEngine.TextCore.GlyphRect[] usedGlyphRects, System.Int32 usedGlyphRectCount)
-    // Offset: 0x195215C
+    // Offset: 0x18AD4A0
     static bool TryPackGlyphInAtlas_Internal(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& glyph, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int width, int height, ::Array<UnityEngine::TextCore::GlyphRect>*& freeGlyphRects, int& freeGlyphRectCount, ::Array<UnityEngine::TextCore::GlyphRect>*& usedGlyphRects, int& usedGlyphRectCount);
     // static UnityEngine.TextCore.LowLevel.FontEngineError RenderGlyphsToTexture(System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> glyphs, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture)
-    // Offset: 0x1952200
+    // Offset: 0x18AD544
     static UnityEngine::TextCore::LowLevel::FontEngineError RenderGlyphsToTexture(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* glyphs, int padding, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture);
     // static private System.Int32 RenderGlyphsToTexture_Internal(UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[] glyphs, System.Int32 glyphCount, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture)
-    // Offset: 0x195246C
+    // Offset: 0x18AD7B0
     static int RenderGlyphsToTexture_Internal(::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>* glyphs, int glyphCount, int padding, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture);
     // static System.Boolean TryAddGlyphToTexture(System.UInt32 glyphIndex, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> freeGlyphRects, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> usedGlyphRects, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture, UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0x19524DC
+    // Offset: 0x18AD820
     static bool TryAddGlyphToTexture(uint glyphIndex, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* freeGlyphRects, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* usedGlyphRects, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, UnityEngine::TextCore::Glyph*& glyph);
     // static private System.Boolean TryAddGlyphToTexture_Internal(System.UInt32 glyphIndex, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, UnityEngine.TextCore.GlyphRect[] freeGlyphRects, System.Int32 freeGlyphRectCount, UnityEngine.TextCore.GlyphRect[] usedGlyphRects, System.Int32 usedGlyphRectCount, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture, UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct glyph)
-    // Offset: 0x1952A00
+    // Offset: 0x18ADD44
     static bool TryAddGlyphToTexture_Internal(uint glyphIndex, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ::Array<UnityEngine::TextCore::GlyphRect>*& freeGlyphRects, int& freeGlyphRectCount, ::Array<UnityEngine::TextCore::GlyphRect>*& usedGlyphRects, int& usedGlyphRectCount, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct& glyph);
     // static System.Boolean TryAddGlyphsToTexture(System.Collections.Generic.List`1<System.UInt32> glyphIndexes, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> freeGlyphRects, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> usedGlyphRects, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture, UnityEngine.TextCore.Glyph[] glyphs)
-    // Offset: 0x1952AA4
+    // Offset: 0x18ADDE8
     static bool TryAddGlyphsToTexture(System::Collections::Generic::List_1<uint>* glyphIndexes, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* freeGlyphRects, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* usedGlyphRects, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, ::Array<UnityEngine::TextCore::Glyph*>*& glyphs);
     // static private System.Boolean TryAddGlyphsToTexture_Internal(System.UInt32[] glyphIndex, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, UnityEngine.TextCore.GlyphRect[] freeGlyphRects, System.Int32 freeGlyphRectCount, UnityEngine.TextCore.GlyphRect[] usedGlyphRects, System.Int32 usedGlyphRectCount, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture, UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[] glyphs, System.Int32 glyphCount)
-    // Offset: 0x1953494
+    // Offset: 0x18AE7D8
     static bool TryAddGlyphsToTexture_Internal(::Array<uint>* glyphIndex, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ::Array<UnityEngine::TextCore::GlyphRect>*& freeGlyphRects, int& freeGlyphRectCount, ::Array<UnityEngine::TextCore::GlyphRect>*& usedGlyphRects, int& usedGlyphRectCount, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, ::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*& glyphs, int& glyphCount);
     // static UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[] GetGlyphPairAdjustmentTable(System.UInt32[] glyphIndexes)
-    // Offset: 0x1953548
+    // Offset: 0x18AE88C
     static ::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* GetGlyphPairAdjustmentTable(::Array<uint>* glyphIndexes);
     // static private System.Int32 GetGlyphPairAdjustmentTable_Internal(System.UInt32[] glyphIndexes, UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[] glyphPairAdjustmentRecords, System.Int32 adjustmentRecordCount)
-    // Offset: 0x19536FC
+    // Offset: 0x18AEA40
     static int GetGlyphPairAdjustmentTable_Internal(::Array<uint>* glyphIndexes, ::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*& glyphPairAdjustmentRecords, int& adjustmentRecordCount);
     // static System.Void ResetAtlasTexture(UnityEngine.Texture2D texture)
-    // Offset: 0x1953754
+    // Offset: 0x18AEA98
     static void ResetAtlasTexture(UnityEngine::Texture2D* texture);
     // static private System.Void .cctor()
-    // Offset: 0x1953794
+    // Offset: 0x18AEAD8
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x1951658
+    // Offset: 0x18AC99C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FontEngine* New_ctor();

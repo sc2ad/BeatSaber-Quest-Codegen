@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::FloatUnityEvent* unityEvent;
     // protected System.Void OnEnable()
-    // Offset: 0xCAF0B8
+    // Offset: 0xC0F37C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xCAF154
+    // Offset: 0xC0F418
     void OnDisable();
     // private System.Void HandleEvent(System.Single f)
-    // Offset: 0xCAF1F0
+    // Offset: 0xC0F4B4
     void HandleEvent(float f);
     // public System.Void .ctor()
-    // Offset: 0xCAF258
+    // Offset: 0xC0F51C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

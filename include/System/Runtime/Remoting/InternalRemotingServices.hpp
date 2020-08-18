@@ -28,10 +28,10 @@ namespace System::Runtime::Remoting {
     // Set static field: static private System.Collections.Hashtable _soapAttributes
     static void _set__soapAttributes(System::Collections::Hashtable* value);
     // static public System.Runtime.Remoting.Metadata.SoapAttribute GetCachedSoapAttribute(System.Object reflectionObject)
-    // Offset: 0x105AFEC
+    // Offset: 0xFBD2B0
     static System::Runtime::Remoting::Metadata::SoapAttribute* GetCachedSoapAttribute(::Il2CppObject* reflectionObject);
     // static private System.Void .cctor()
-    // Offset: 0x105B4C0
+    // Offset: 0xFBD784
     static void _cctor();
   }; // System.Runtime.Remoting.InternalRemotingServices
 }

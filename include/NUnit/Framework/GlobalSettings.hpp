@@ -16,7 +16,7 @@ namespace NUnit::Framework {
     // Set static field: static public System.Double DefaultFloatingPointTolerance
     static void _set_DefaultFloatingPointTolerance(double value);
     // static private System.Void .cctor()
-    // Offset: 0x107A198
+    // Offset: 0xFDC45C
     static void _cctor();
   }; // NUnit.Framework.GlobalSettings
 }

@@ -104,13 +104,13 @@ namespace GlobalNamespace {
     // Offset: 0x94
     float virtualGreenScreenDepthTolerance;
     // public System.Void ReadFrom(OVRManager manager)
-    // Offset: 0xEE7CF4
+    // Offset: 0xE47FB8
     void ReadFrom(GlobalNamespace::OVRManager* manager);
     // public System.Void ApplyTo(OVRManager manager)
-    // Offset: 0xEE7DC8
+    // Offset: 0xE4808C
     void ApplyTo(GlobalNamespace::OVRManager* manager);
     // public System.Void .ctor()
-    // Offset: 0xEE7E9C
+    // Offset: 0xE48160
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayTextureSize : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x151DE20
+    // Offset: 0x147F158
     static IVROverlay::_GetOverlayTextureSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.UInt32 pWidth, System.UInt32 pHeight)
-    // Offset: 0x151DE34
+    // Offset: 0x147F16C
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint& pWidth, uint& pHeight);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt32 pWidth, System.UInt32 pHeight, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x151E0CC
+    // Offset: 0x147F404
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint& pWidth, uint& pHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.UInt32 pWidth, System.UInt32 pHeight, System.IAsyncResult result)
-    // Offset: 0x151E198
+    // Offset: 0x147F4D0
     OVR::OpenVR::EVROverlayError EndInvoke(uint& pWidth, uint& pHeight, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayTextureSize
 }

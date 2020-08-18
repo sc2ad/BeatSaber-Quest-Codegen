@@ -25,16 +25,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<float>* rotations;
     // public System.Single get_rotation()
-    // Offset: 0xB995DC
+    // Offset: 0x1902C88
     float get_rotation();
     // public System.Boolean ProcessBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0xB995E4
+    // Offset: 0x1902C90
     bool ProcessBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Single RotationForEventValue(System.Int32 index)
-    // Offset: 0xB99648
+    // Offset: 0x1902CF4
     float RotationForEventValue(int index);
     // public System.Void .ctor()
-    // Offset: 0xB99690
+    // Offset: 0x1902D3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SpawnRotationProcessor* New_ctor();

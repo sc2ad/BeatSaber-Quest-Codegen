@@ -18,13 +18,13 @@ namespace System::Net::Sockets {
     // Offset: 0x14
     int lingerTime;
     // public System.Void .ctor(System.Boolean enable, System.Int32 seconds)
-    // Offset: 0xF6A5D8
+    // Offset: 0xECB89C
     static LingerOption* New_ctor(bool enable, int seconds);
     // public System.Void set_Enabled(System.Boolean value)
-    // Offset: 0xF6A618
+    // Offset: 0xECB8DC
     void set_Enabled(bool value);
     // public System.Void set_LingerTime(System.Int32 value)
-    // Offset: 0xF6A624
+    // Offset: 0xECB8E8
     void set_LingerTime(int value);
   }; // System.Net.Sockets.LingerOption
 }

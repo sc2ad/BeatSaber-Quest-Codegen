@@ -29,12 +29,12 @@ namespace System::Collections::Generic {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Comparer_1<T>*>::get(), "defaultComparer", value));
     }
     // static public System.Collections.Generic.Comparer`1<T> get_Default()
-    // Offset: 0x177FE1C
+    // Offset: 0xFFFFFFFF
     static System::Collections::Generic::Comparer_1<T>* get_Default() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::Comparer_1<T>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Comparer_1<T>*>::get(), "get_Default"));
     }
     // static private System.Collections.Generic.Comparer`1<T> CreateComparer()
-    // Offset: 0x177970C
+    // Offset: 0xFFFFFFFF
     static System::Collections::Generic::Comparer_1<T>* CreateComparer() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::Comparer_1<T>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Comparer_1<T>*>::get(), "CreateComparer"));
     }
@@ -46,14 +46,14 @@ namespace System::Collections::Generic {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", x, y));
     }
     // private System.Int32 System.Collections.IComparer.Compare(System.Object x, System.Object y)
-    // Offset: 0x1779B04
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object x, System.Object y)
     int System_Collections_IComparer_Compare(::Il2CppObject* x, ::Il2CppObject* y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "System.Collections.IComparer.Compare", x, y));
     }
     // protected System.Void .ctor()
-    // Offset: 0x1779CB0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Comparer_1<T>* New_ctor() {

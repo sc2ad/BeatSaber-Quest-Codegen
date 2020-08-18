@@ -94,49 +94,49 @@ namespace Xft {
     // Offset: 0x88
     int frameNum;
     // public UnityEngine.Vector3 get_curHeadPos()
-    // Offset: 0xC5494C
+    // Offset: 0x1971F98
     UnityEngine::Vector3 get_curHeadPos();
     // public UnityEngine.Color get_color()
-    // Offset: 0xC54A28
+    // Offset: 0x1972074
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xC54A34
+    // Offset: 0x1972080
     void set_color(UnityEngine::Color value);
     // protected System.Void Start()
-    // Offset: 0xC54A40
+    // Offset: 0x197208C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xC55008
+    // Offset: 0x1972654
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xC55010
+    // Offset: 0x197265C
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xC550A4
+    // Offset: 0x19726F0
     void LateUpdate();
     // protected System.Void OnDestroy()
-    // Offset: 0xC55C20
+    // Offset: 0x197326C
     void OnDestroy();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0xC55CEC
+    // Offset: 0x1973338
     void OnDrawGizmosSelected();
     // private System.Void RefreshSpline()
-    // Offset: 0xC55618
+    // Offset: 0x1972C64
     void RefreshSpline();
     // protected System.Void UpdateVertices()
-    // Offset: 0xC55820
+    // Offset: 0x1972E6C
     void UpdateVertices();
     // protected System.Void UpdateIndices()
-    // Offset: 0xC54DAC
+    // Offset: 0x19723F8
     void UpdateIndices();
     // protected System.Void UpdateHeadElem()
-    // Offset: 0xC5542C
+    // Offset: 0x1972A78
     void UpdateHeadElem();
     // private System.Void RecordCurElem()
-    // Offset: 0xC554E8
+    // Offset: 0x1972B34
     void RecordCurElem();
     // public System.Void .ctor()
-    // Offset: 0xC560FC
+    // Offset: 0x1973748
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -24,28 +24,28 @@ namespace JetBrains::Annotations {
     // Offset: 0x14
     JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseKindFlags useKindFlags)
-    // Offset: 0x1957FB4
+    // Offset: 0x18B42F8
     static MeansImplicitUseAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
-    // Offset: 0x1957FE4
+    // Offset: 0x18B4328
     static MeansImplicitUseAttribute* New_ctor(JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseKindFlags useKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
-    // Offset: 0x1957F7C
+    // Offset: 0x18B42C0
     static MeansImplicitUseAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
     // public JetBrains.Annotations.ImplicitUseKindFlags get_UseKindFlags()
-    // Offset: 0x1958014
+    // Offset: 0x18B4358
     JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
     // private System.Void set_UseKindFlags(JetBrains.Annotations.ImplicitUseKindFlags value)
-    // Offset: 0x195801C
+    // Offset: 0x18B4360
     void set_UseKindFlags(JetBrains::Annotations::ImplicitUseKindFlags value);
     // public JetBrains.Annotations.ImplicitUseTargetFlags get_TargetFlags()
-    // Offset: 0x1958024
+    // Offset: 0x18B4368
     JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
     // private System.Void set_TargetFlags(JetBrains.Annotations.ImplicitUseTargetFlags value)
-    // Offset: 0x195802C
+    // Offset: 0x18B4370
     void set_TargetFlags(JetBrains::Annotations::ImplicitUseTargetFlags value);
     // public System.Void .ctor()
-    // Offset: 0x1957F4C
+    // Offset: 0x18B4290
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -35,27 +35,27 @@ namespace GlobalNamespace {
     // Offset: 0x0
     int maxNumberElements;
     // public System.Void .ctor(System.Int32 maxNumberElements)
-    // Offset: 0x12908EC
+    // Offset: 0xFFFFFFFF
     static HMCache_2<K, V>* New_ctor(int maxNumberElements) {
       return (HMCache_2<K, V>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMCache_2<K, V>*>::get(), maxNumberElements)));
     }
     // public System.Boolean IsInCache(K key)
-    // Offset: 0x12909D0
+    // Offset: 0xFFFFFFFF
     bool IsInCache(K key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "IsInCache", key));
     }
     // public V GetFromCache(K key)
-    // Offset: 0x12909F8
+    // Offset: 0xFFFFFFFF
     V GetFromCache(K key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<V>(this, "GetFromCache", key));
     }
     // public System.Void PutToCache(K key, V value)
-    // Offset: 0x1290A78
+    // Offset: 0xFFFFFFFF
     void PutToCache(K key, V value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "PutToCache", key, value));
     }
     // public System.Void Clear()
-    // Offset: 0x1290B58
+    // Offset: 0xFFFFFFFF
     void Clear() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Clear"));
     }

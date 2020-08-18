@@ -24,10 +24,10 @@ namespace GlobalNamespace {
   class GameplayModifiersHelper : public ::Il2CppObject {
     public:
     // static public LeaderboardsDTO.GameplayModifiersDTO[] ToDTO(GameplayModifiers gameplayModifiers)
-    // Offset: 0xB3C944
+    // Offset: 0xB3F610
     static ::Array<LeaderboardsDTO::GameplayModifiersDTO>* ToDTO(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // static public GameplayModifiers FromDTO(LeaderboardsDTO.GameplayModifiersDTO[] gameplayModifiersDTOs)
-    // Offset: 0xB3CB98
+    // Offset: 0xB3F864
     static GlobalNamespace::GameplayModifiers* FromDTO(::Array<LeaderboardsDTO::GameplayModifiersDTO>* gameplayModifiersDTOs);
   }; // GameplayModifiersHelper
 }

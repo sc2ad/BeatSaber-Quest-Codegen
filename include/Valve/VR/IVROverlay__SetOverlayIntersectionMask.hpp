@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlayIntersectionMask : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16B5DF8
+    // Offset: 0x1618130
     static IVROverlay::_SetOverlayIntersectionMask* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayIntersectionMaskPrimitive_t pMaskPrimitives, System.UInt32 unNumMaskPrimitives, System.UInt32 unPrimitiveSize)
-    // Offset: 0x16B5E0C
+    // Offset: 0x1618144
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayIntersectionMaskPrimitive_t& pMaskPrimitives, uint unNumMaskPrimitives, uint unPrimitiveSize);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayIntersectionMaskPrimitive_t pMaskPrimitives, System.UInt32 unNumMaskPrimitives, System.UInt32 unPrimitiveSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16B60BC
+    // Offset: 0x16183F4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayIntersectionMaskPrimitive_t& pMaskPrimitives, uint unNumMaskPrimitives, uint unPrimitiveSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(Valve.VR.VROverlayIntersectionMaskPrimitive_t pMaskPrimitives, System.IAsyncResult result)
-    // Offset: 0x16B61A4
+    // Offset: 0x16184DC
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::VROverlayIntersectionMaskPrimitive_t& pMaskPrimitives, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayIntersectionMask
 }

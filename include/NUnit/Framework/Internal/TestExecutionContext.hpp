@@ -111,82 +111,82 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private NUnit.Framework.Constraints.ValueFormatter CS$<>9__CachedAnonymousMethodDelegate1
     static void _set_CS$$$9__CachedAnonymousMethodDelegate1(NUnit::Framework::Constraints::ValueFormatter* value);
     // static public NUnit.Framework.Internal.ITestExecutionContext get_CurrentContext()
-    // Offset: 0x18E9C78
+    // Offset: 0x1846FC4
     static NUnit::Framework::Internal::ITestExecutionContext* get_CurrentContext();
     // static public NUnit.Framework.Internal.TestExecutionContext GetTestExecutionContext()
-    // Offset: 0x18E9D24
+    // Offset: 0x1847070
     static NUnit::Framework::Internal::TestExecutionContext* GetTestExecutionContext();
     // public NUnit.Framework.Internal.Test get_CurrentTest()
-    // Offset: 0x18E9DCC
+    // Offset: 0x1847118
     NUnit::Framework::Internal::Test* get_CurrentTest();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x18E9E30
+    // Offset: 0x184717C
     void set_OutWriter(System::IO::TextWriter* value);
     // NUnit.Framework.Interfaces.ITestListener get_Listener()
-    // Offset: 0x18E9E48
+    // Offset: 0x1847194
     NUnit::Framework::Interfaces::ITestListener* get_Listener();
     // public System.Void set_TestCaseTimeout(System.Int32 value)
-    // Offset: 0x18E9E50
+    // Offset: 0x184719C
     void set_TestCaseTimeout(int value);
     // private System.Void set_UpstreamActions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x18E9E58
+    // Offset: 0x18471A4
     void set_UpstreamActions(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* value);
     // private System.Void set_CurrentValueFormatter(NUnit.Framework.Constraints.ValueFormatter value)
-    // Offset: 0x18E9E68
+    // Offset: 0x18471B4
     void set_CurrentValueFormatter(NUnit::Framework::Constraints::ValueFormatter* value);
     // public System.Void set_IsSingleThreaded(System.Boolean value)
-    // Offset: 0x18E9E70
+    // Offset: 0x18471BC
     void set_IsSingleThreaded(bool value);
     // static private System.String <.ctor>b__0(System.Object val)
-    // Offset: 0x18E9E90
+    // Offset: 0x18471DC
     static ::Il2CppString* $_ctor$b__0(::Il2CppObject* val);
     // static private System.Void .cctor()
-    // Offset: 0x18E9F08
+    // Offset: 0x1847254
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18E9A40
+    // Offset: 0x1846D8C
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Void LongLivedMarshalByRefObject::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TestExecutionContext* New_ctor();
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
-    // Offset: 0x18E9DD4
+    // Offset: 0x1847120
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
     // Base method: NUnit.Framework.Internal.TestResult ITestExecutionContext::get_CurrentResult()
     NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x18E9DDC
+    // Offset: 0x1847128
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
     // Base method: System.Void ITestExecutionContext::set_CurrentResult(NUnit.Framework.Internal.TestResult value)
     void set_CurrentResult(NUnit::Framework::Internal::TestResult* value);
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x18E9E28
+    // Offset: 0x1847174
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
     // Base method: System.IO.TextWriter ITestExecutionContext::get_OutWriter()
     System::IO::TextWriter* get_OutWriter();
     // public System.Object get_TestObject()
-    // Offset: 0x18E9E38
+    // Offset: 0x1847184
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
     // Base method: System.Object ITestExecutionContext::get_TestObject()
     ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
-    // Offset: 0x18E9E40
+    // Offset: 0x184718C
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
     // Base method: System.Void ITestExecutionContext::set_TestObject(System.Object value)
     void set_TestObject(::Il2CppObject* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
-    // Offset: 0x18E9E60
+    // Offset: 0x18471AC
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
     // Base method: NUnit.Framework.Constraints.ValueFormatter ITestExecutionContext::get_CurrentValueFormatter()
     NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // public System.Void IncrementAssertCount()
-    // Offset: 0x18E9E7C
+    // Offset: 0x18471C8
     // Implemented from: NUnit.Framework.Internal.ITestExecutionContext
     // Base method: System.Void ITestExecutionContext::IncrementAssertCount()
     void IncrementAssertCount();
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x18E9E88
+    // Offset: 0x18471D4
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Object LongLivedMarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();

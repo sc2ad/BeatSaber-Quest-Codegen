@@ -46,32 +46,32 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: Vector2Mask
     Vector2Mask(uint8_t m_Mask_ = {}) : m_Mask{m_Mask_} {}
     // public System.Single get_x()
-    // Offset: 0xA53D88
+    // Offset: 0x9BE254
     float get_x();
     // public System.Single get_y()
-    // Offset: 0xA53DA0
+    // Offset: 0x9BE26C
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
-    // Offset: 0xA53DB8
+    // Offset: 0x9BE284
     static Vector2Mask* New_ctor(UnityEngine::Vector3 v, float epsilon);
     // public System.Void .ctor(System.Byte mask)
-    // Offset: 0xA53DC0
+    // Offset: 0x9BE28C
     static Vector2Mask* New_ctor(uint8_t mask);
     // static private System.Void .cctor()
-    // Offset: 0x18CC200
+    // Offset: 0x182A54C
     static void _cctor();
   }; // UnityEngine.ProBuilder.Vector2Mask
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x18CC18C
+  // Offset: 0x182A4D8
   UnityEngine::ProBuilder::Vector2Mask operator|(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseAnd(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x18CC198
+  // Offset: 0x182A4E4
   UnityEngine::ProBuilder::Vector2Mask operator&(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.ProBuilder.Vector2Mask op_ExclusiveOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x18CC1A4
+  // Offset: 0x182A4F0
   UnityEngine::ProBuilder::Vector2Mask operator^(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.ProBuilder.Vector2Mask mask, System.Single value)
-  // Offset: 0x18CC1B0
+  // Offset: 0x182A4FC
   UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

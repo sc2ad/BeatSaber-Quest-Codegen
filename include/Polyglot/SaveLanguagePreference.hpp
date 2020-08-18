@@ -19,15 +19,15 @@ namespace Polyglot {
     // Offset: 0x18
     ::Il2CppString* preferenceKey;
     // public System.Void Start()
-    // Offset: 0x190F9B0
+    // Offset: 0x186DCFC
     void Start();
     // public System.Void OnLocalize()
-    // Offset: 0x190FA04
+    // Offset: 0x186DD50
     // Implemented from: Polyglot.ILocalize
     // Base method: System.Void ILocalize::OnLocalize()
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x190FA38
+    // Offset: 0x186DD84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

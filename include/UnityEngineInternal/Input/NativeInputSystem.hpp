@@ -19,8 +19,8 @@ namespace System {
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`2<T1, T2>
   template<typename T1, typename T2>
@@ -51,22 +51,22 @@ namespace UnityEngineInternal::Input {
     // Set static field: static private System.Action`2<System.Int32,System.String> s_OnDeviceDiscoveredCallback
     static void _set_s_OnDeviceDiscoveredCallback(System::Action_2<int, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1978EF4
+    // Offset: 0x18D2E38
     static void _cctor();
     // static System.Void NotifyBeforeUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType)
-    // Offset: 0x1978F70
+    // Offset: 0x18D2EB4
     static void NotifyBeforeUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType);
     // static System.Void NotifyUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, System.IntPtr eventBuffer)
-    // Offset: 0x1978FFC
+    // Offset: 0x18D2F40
     static void NotifyUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, System::IntPtr eventBuffer);
     // static System.Void NotifyDeviceDiscovered(System.Int32 deviceId, System.String deviceDescriptor)
-    // Offset: 0x1979324
+    // Offset: 0x18D3268
     static void NotifyDeviceDiscovered(int deviceId, ::Il2CppString* deviceDescriptor);
     // static System.Void ShouldRunUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, System.Boolean retval)
-    // Offset: 0x19793C4
+    // Offset: 0x18D3308
     static void ShouldRunUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, bool& retval);
     // static System.Void set_hasDeviceDiscoveredCallback(System.Boolean value)
-    // Offset: 0x1978F30
+    // Offset: 0x18D2E74
     static void set_hasDeviceDiscoveredCallback(bool value);
   }; // UnityEngineInternal.Input.NativeInputSystem
 }

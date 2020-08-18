@@ -16,7 +16,7 @@ namespace System::Threading {
   class Timer::TimerComparer : public System::Collections::IComparer, public ::Il2CppObject {
     public:
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0xCEAA74
+    // Offset: 0xC4AD38
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object x, System.Object y)
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
@@ -24,7 +24,7 @@ namespace System::Threading {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0xCE9D30
+    // Offset: 0xC49FF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Timer::TimerComparer* New_ctor();

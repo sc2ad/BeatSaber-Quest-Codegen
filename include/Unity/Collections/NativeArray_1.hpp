@@ -53,12 +53,12 @@ namespace Unity::Collections {
       // Creating value type constructor for type: Enumerator
       Enumerator(Unity::Collections::NativeArray_1<T> m_Array_ = {}, int m_Index_ = {}) : m_Array{m_Array_}, m_Index{m_Index_} {}
       // public System.Void .ctor(Unity.Collections.NativeArray`1<T> array)
-      // Offset: 0xA4463C
+      // Offset: 0xFFFFFFFF
       static typename NativeArray_1<T>::Enumerator* New_ctor(Unity::Collections::NativeArray_1<T>& array) {
         return (typename NativeArray_1<T>::Enumerator*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename NativeArray_1<T>::Enumerator>::get(), array));
       }
       // public System.Void Dispose()
-      // Offset: 0xA44650
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void Dispose() {
@@ -70,14 +70,14 @@ namespace Unity::Collections {
         Dispose();
       }
       // public System.Boolean MoveNext()
-      // Offset: 0xA44654
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "MoveNext"));
       }
       // public System.Void Reset()
-      // Offset: 0xA44674
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void Reset() {
@@ -89,7 +89,7 @@ namespace Unity::Collections {
         Reset();
       }
       // public T get_Current()
-      // Offset: 0xA44680
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator`1::get_Current()
       T get_Current() {
@@ -101,7 +101,7 @@ namespace Unity::Collections {
         return get_Current();
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0xA44690
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
@@ -120,32 +120,32 @@ namespace Unity::Collections {
     // Creating value type constructor for type: NativeArray_1
     NativeArray_1(void* m_Buffer_ = {}, int m_Length_ = {}, Unity::Collections::Allocator m_AllocatorLabel_ = {}) : m_Buffer{m_Buffer_}, m_Length{m_Length_}, m_AllocatorLabel{m_AllocatorLabel_} {}
     // public System.Int32 get_Length()
-    // Offset: 0xA44828
+    // Offset: 0xFFFFFFFF
     int get_Length() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "get_Length"));
     }
     // public T get_Item(System.Int32 index)
-    // Offset: 0xA44830
+    // Offset: 0xFFFFFFFF
     T get_Item(int index) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_Item", index));
     }
     // public System.Void set_Item(System.Int32 index, T value)
-    // Offset: 0xA4483C
+    // Offset: 0xFFFFFFFF
     void set_Item(int index, T value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_Item", index, value));
     }
     // private System.Void Deallocate()
-    // Offset: 0xA44848
+    // Offset: 0xFFFFFFFF
     void Deallocate() {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Deallocate"));
     }
     // public Unity.Collections.NativeArray`1/Enumerator<T> GetEnumerator()
-    // Offset: 0xA44884
+    // Offset: 0xFFFFFFFF
     typename Unity::Collections::NativeArray_1<T>::Enumerator GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<typename Unity::Collections::NativeArray_1<T>::Enumerator>(*this, "GetEnumerator"));
     }
     // public System.Void Dispose()
-    // Offset: 0xA4487C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose() {
@@ -157,35 +157,35 @@ namespace Unity::Collections {
       Dispose();
     }
     // private System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-    // Offset: 0xA448C4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<T>*>(*this, "System.Collections.Generic.IEnumerable<T>.GetEnumerator")));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xA448CC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(*this, "System.Collections.IEnumerable.GetEnumerator"));
     }
     // public System.Boolean Equals(Unity.Collections.NativeArray`1<T> other)
-    // Offset: 0xA448D4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(Unity.Collections.NativeArray`1<T> other)
     bool Equals(Unity::Collections::NativeArray_1<T> other) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", other));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA448F8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", obj));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA44900
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode() {

@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool headWasInObstacle;
     // protected System.Void Update()
-    // Offset: 0xB40B90
+    // Offset: 0xB4385C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB40C38
+    // Offset: 0xB43904
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -114,25 +114,25 @@ namespace RootMotion::FinalIK {
     // Offset: 0xB4
     float turnToTargetMlpV;
     // private System.Void Start()
-    // Offset: 0x13A2F74
+    // Offset: 0x1305238
     void Start();
     // private System.Void LateUpdate()
-    // Offset: 0x13A31C0
+    // Offset: 0x1305484
     void LateUpdate();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x13A3074
+    // Offset: 0x1305338
     UnityEngine::Vector3 get_pivot();
     // private System.Void ApplyMinDistance()
-    // Offset: 0x13A3904
+    // Offset: 0x1305BC8
     void ApplyMinDistance();
     // private System.Void RootRotation()
-    // Offset: 0x13A3AA0
+    // Offset: 0x1305D64
     void RootRotation();
     // private System.Collections.IEnumerator TurnToTarget()
-    // Offset: 0x13A3E10
+    // Offset: 0x13060D4
     System::Collections::IEnumerator* TurnToTarget();
     // public System.Void .ctor()
-    // Offset: 0x13A3EB8
+    // Offset: 0x130617C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

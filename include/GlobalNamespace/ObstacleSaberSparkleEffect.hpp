@@ -38,22 +38,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::ParticleSystem::EmissionModule burnParticleSystemEmmisionModule;
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xC318E4
+    // Offset: 0xBA8920
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0xC319F0
+    // Offset: 0xBA8A2C
     void Awake();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0xC31A70
+    // Offset: 0xBA8AAC
     void SetPositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void StartEmission()
-    // Offset: 0xC31AEC
+    // Offset: 0xBA8B28
     void StartEmission();
     // public System.Void StopEmission()
-    // Offset: 0xC31B44
+    // Offset: 0xBA8B80
     void StopEmission();
     // public System.Void .ctor()
-    // Offset: 0xC31BB0
+    // Offset: 0xBA8BEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

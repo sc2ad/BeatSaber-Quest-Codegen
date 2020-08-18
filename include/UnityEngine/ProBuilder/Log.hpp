@@ -58,76 +58,76 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.String s_LogFilePath
     static void _set_s_LogFilePath(::Il2CppString* value);
     // static public System.Void PushLogLevel(UnityEngine.ProBuilder.LogLevel level)
-    // Offset: 0xF99938
+    // Offset: 0xEFABFC
     static void PushLogLevel(UnityEngine::ProBuilder::LogLevel level);
     // static public System.Void PopLogLevel()
-    // Offset: 0xF999CC
+    // Offset: 0xEFAC90
     static void PopLogLevel();
     // static public System.Void SetLogLevel(UnityEngine.ProBuilder.LogLevel level)
-    // Offset: 0xF99A58
+    // Offset: 0xEFAD1C
     static void SetLogLevel(UnityEngine::ProBuilder::LogLevel level);
     // static public System.Void SetOutput(UnityEngine.ProBuilder.LogOutput output)
-    // Offset: 0xF99AC4
+    // Offset: 0xEFAD88
     static void SetOutput(UnityEngine::ProBuilder::LogOutput output);
     // static public System.Void SetLogFile(System.String path)
-    // Offset: 0xF99B30
+    // Offset: 0xEFADF4
     static void SetLogFile(::Il2CppString* path);
     // static public System.Void Debug(T value)
-    // Offset: 0xC5EA68
+    // Offset: 0xFFFFFFFF
     template<class T>
     static void Debug(T value) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Debug", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value));
     }
     // static public System.Void Debug(System.String message)
-    // Offset: 0xF99BA0
+    // Offset: 0xEFAE64
     static void Debug(::Il2CppString* message);
     // static public System.Void Debug(System.String format, System.Object[] values)
-    // Offset: 0xF99D00
+    // Offset: 0xEFAFC4
     static void Debug(::Il2CppString* format, ::Array<::Il2CppObject*>* values);
     // static public System.Void Info(System.String format, System.Object[] values)
-    // Offset: 0xF99D04
+    // Offset: 0xEFAFC8
     static void Info(::Il2CppString* format, ::Array<::Il2CppObject*>* values);
     // static public System.Void Info(System.String message)
-    // Offset: 0xF99D8C
+    // Offset: 0xEFB050
     static void Info(::Il2CppString* message);
     // static public System.Void Warning(System.String format, System.Object[] values)
-    // Offset: 0xF99E24
+    // Offset: 0xEFB0E8
     static void Warning(::Il2CppString* format, ::Array<::Il2CppObject*>* values);
     // static public System.Void Warning(System.String message)
-    // Offset: 0xF99EAC
+    // Offset: 0xEFB170
     static void Warning(::Il2CppString* message);
     // static public System.Void Error(System.String format, System.Object[] values)
-    // Offset: 0xF99F44
+    // Offset: 0xEFB208
     static void Error(::Il2CppString* format, ::Array<::Il2CppObject*>* values);
     // static public System.Void Error(System.String message)
-    // Offset: 0xF99FCC
+    // Offset: 0xEFB290
     static void Error(::Il2CppString* message);
     // static System.Void Watch(T key, K value)
-    // Offset: 0xC5EAF0
+    // Offset: 0xFFFFFFFF
     template<class T, class K>
     static void Watch(T key, K value) {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Watch", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, key, value)));
     }
     // static private System.Void DoPrint(System.String message, UnityEngine.LogType type)
-    // Offset: 0xF99C08
+    // Offset: 0xEFAECC
     static void DoPrint(::Il2CppString* message, UnityEngine::LogType type);
     // static private System.Void PrintToFile(System.String message, System.String path)
-    // Offset: 0xF9A178
+    // Offset: 0xEFB43C
     static void PrintToFile(::Il2CppString* message, ::Il2CppString* path);
     // static public System.Void ClearLogFile()
-    // Offset: 0xF9A4C8
+    // Offset: 0xEFB78C
     static void ClearLogFile();
     // static private System.Void PrintToConsole(System.String message, UnityEngine.LogType type)
-    // Offset: 0xF9A064
+    // Offset: 0xEFB328
     static void PrintToConsole(::Il2CppString* message, UnityEngine::LogType type);
     // static System.Void NotNull(T obj, System.String message)
-    // Offset: 0xC5EA6C
+    // Offset: 0xFFFFFFFF
     template<class T>
     static void NotNull(T obj, ::Il2CppString* message) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "NotNull", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, message));
     }
     // static private System.Void .cctor()
-    // Offset: 0xF9A570
+    // Offset: 0xEFB834
     static void _cctor();
   }; // UnityEngine.ProBuilder.Log
 }

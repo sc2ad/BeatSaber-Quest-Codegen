@@ -26,16 +26,16 @@ namespace Oculus::Platform {
   class WindowsPlatform::UnityLogDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1964360
+    // Offset: 0x18C06A4
     static WindowsPlatform::UnityLogDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr tag, System.IntPtr msg)
-    // Offset: 0x1964374
+    // Offset: 0x18C06B8
     void Invoke(System::IntPtr tag, System::IntPtr msg);
     // public System.IAsyncResult BeginInvoke(System.IntPtr tag, System.IntPtr msg, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19645F0
+    // Offset: 0x18C0934
     System::IAsyncResult* BeginInvoke(System::IntPtr tag, System::IntPtr msg, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1964690
+    // Offset: 0x18C09D4
     void EndInvoke(System::IAsyncResult* result);
   }; // Oculus.Platform.WindowsPlatform/UnityLogDelegate
 }

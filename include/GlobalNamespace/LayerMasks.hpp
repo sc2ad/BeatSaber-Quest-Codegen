@@ -38,19 +38,19 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Int32 cutEffectParticlesLayer
     static void _set_cutEffectParticlesLayer(int value);
     // static private UnityEngine.LayerMask GetLayerMask(System.String layerName)
-    // Offset: 0x197B4C0
+    // Offset: 0x18D4404
     static UnityEngine::LayerMask GetLayerMask(::Il2CppString* layerName);
     // static private UnityEngine.LayerMask GetLayerMask(System.Int32 layerNum)
-    // Offset: 0x197B4FC
+    // Offset: 0x18D4440
     static UnityEngine::LayerMask GetLayerMask(int layerNum);
     // static private System.Int32 GetLayer(System.String layerName)
-    // Offset: 0x197B530
+    // Offset: 0x18D4474
     static int GetLayer(::Il2CppString* layerName);
     // static private System.Void .cctor()
-    // Offset: 0x197B540
+    // Offset: 0x18D4484
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x197B538
+    // Offset: 0x18D447C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LayerMasks* New_ctor();

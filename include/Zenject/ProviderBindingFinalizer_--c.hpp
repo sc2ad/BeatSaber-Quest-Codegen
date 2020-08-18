@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -36,16 +36,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.String> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<System::Type*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xFC5840
+    // Offset: 0xF25B04
     static void _cctor();
     // System.String <GetScope>b__7_0(System.Type x)
-    // Offset: 0xFC58B0
+    // Offset: 0xF25B74
     ::Il2CppString* $GetScope$b__7_0(System::Type* x);
     // System.String <FinalizeBinding>b__8_0(System.Type x)
-    // Offset: 0xFC5918
+    // Offset: 0xF25BDC
     ::Il2CppString* $FinalizeBinding$b__8_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0xFC58A8
+    // Offset: 0xF25B6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProviderBindingFinalizer::$$c* New_ctor();

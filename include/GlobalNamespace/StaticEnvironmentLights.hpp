@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<UnityEngine::Material*>* materials;
     // protected System.Void Awake()
-    // Offset: 0xBA229C
+    // Offset: 0x190B964
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xBA2344
+    // Offset: 0x190BA0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

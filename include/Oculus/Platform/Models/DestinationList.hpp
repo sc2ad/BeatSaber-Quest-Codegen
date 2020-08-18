@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class DestinationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Destination*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xE9F140
+    // Offset: 0xDFE404
     static DestinationList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.DestinationList
 }

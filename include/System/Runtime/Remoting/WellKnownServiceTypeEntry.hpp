@@ -32,19 +32,19 @@ namespace System::Runtime::Remoting {
     // Offset: 0x30
     System::Runtime::Remoting::WellKnownObjectMode obj_mode;
     // public System.Void .ctor(System.String typeName, System.String assemblyName, System.String objectUri, System.Runtime.Remoting.WellKnownObjectMode mode)
-    // Offset: 0xE1C8F0
+    // Offset: 0xD7CBB4
     static WellKnownServiceTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, ::Il2CppString* objectUri, System::Runtime::Remoting::WellKnownObjectMode mode);
     // public System.Runtime.Remoting.WellKnownObjectMode get_Mode()
-    // Offset: 0xE1CA64
+    // Offset: 0xD7CD28
     System::Runtime::Remoting::WellKnownObjectMode get_Mode();
     // public System.Type get_ObjectType()
-    // Offset: 0xE1CA6C
+    // Offset: 0xD7CD30
     System::Type* get_ObjectType();
     // public System.String get_ObjectUri()
-    // Offset: 0xE1CA74
+    // Offset: 0xD7CD38
     ::Il2CppString* get_ObjectUri();
     // public override System.String ToString()
-    // Offset: 0xE1CA7C
+    // Offset: 0xD7CD40
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

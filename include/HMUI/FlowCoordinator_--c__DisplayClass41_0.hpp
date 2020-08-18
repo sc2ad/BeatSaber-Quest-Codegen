@@ -30,10 +30,10 @@ namespace HMUI {
     // Offset: 0x20
     System::Action* finishedCallback;
     // System.Void <ReplaceTopViewController>b__0()
-    // Offset: 0xED8724
+    // Offset: 0xE389E8
     void $ReplaceTopViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0xED7BD4
+    // Offset: 0xE37E98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FlowCoordinator::$$c__DisplayClass41_0* New_ctor();

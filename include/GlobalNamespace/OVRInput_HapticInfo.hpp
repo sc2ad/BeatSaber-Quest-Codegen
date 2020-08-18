@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::XR::XRNode node;
     // public System.Void .ctor()
-    // Offset: 0xE6FD74
+    // Offset: 0xDD0038
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::HapticInfo* New_ctor();

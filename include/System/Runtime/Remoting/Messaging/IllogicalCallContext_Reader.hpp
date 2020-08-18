@@ -21,13 +21,13 @@ namespace System::Runtime::Remoting::Messaging {
     // Creating value type constructor for type: Reader
     Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* m_ctx_ = {}) : m_ctx{m_ctx_} {}
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
-    // Offset: 0xA3C7A0
+    // Offset: 0x9A5C6C
     static IllogicalCallContext::Reader* New_ctor(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx);
     // public System.Boolean get_IsNull()
-    // Offset: 0xA3C7A8
+    // Offset: 0x9A5C74
     bool get_IsNull();
     // public System.Object GetData(System.String name)
-    // Offset: 0xA3C7B8
+    // Offset: 0x9A5C84
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader
 }

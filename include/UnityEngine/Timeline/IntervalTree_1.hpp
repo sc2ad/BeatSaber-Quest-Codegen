@@ -100,62 +100,62 @@ namespace UnityEngine::Timeline {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IntervalTree_1<T>*>::get(), "kCenterUnknown", value));
     }
     // public System.Boolean get_dirty()
-    // Offset: 0x11882D4
+    // Offset: 0xFFFFFFFF
     bool get_dirty() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_dirty"));
     }
     // System.Void set_dirty(System.Boolean value)
-    // Offset: 0x11882DC
+    // Offset: 0xFFFFFFFF
     void set_dirty(bool value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_dirty", value));
     }
     // public System.Void Add(T item)
-    // Offset: 0x11882E8
+    // Offset: 0xFFFFFFFF
     void Add(T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Add", item));
     }
     // public System.Void IntersectsWith(System.Int64 value, System.Collections.Generic.List`1<T> results)
-    // Offset: 0x11884AC
+    // Offset: 0xFFFFFFFF
     void IntersectsWith(int64_t value, System::Collections::Generic::List_1<T>* results) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "IntersectsWith", value, results));
     }
     // public System.Void IntersectsWithRange(System.Int64 start, System.Int64 end, System.Collections.Generic.List`1<T> results)
-    // Offset: 0x11885E4
+    // Offset: 0xFFFFFFFF
     void IntersectsWithRange(int64_t start, int64_t end, System::Collections::Generic::List_1<T>* results) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "IntersectsWithRange", start, end, results));
     }
     // public System.Void UpdateIntervals()
-    // Offset: 0x118872C
+    // Offset: 0xFFFFFFFF
     void UpdateIntervals() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "UpdateIntervals"));
     }
     // private System.Void Query(UnityEngine.Timeline.IntervalTreeNode intervalTreeNode, System.Int64 value, System.Collections.Generic.List`1<T> results)
-    // Offset: 0x11889B4
+    // Offset: 0xFFFFFFFF
     void Query(UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t value, System::Collections::Generic::List_1<T>* results) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Query", intervalTreeNode, value, results));
     }
     // private System.Void QueryRange(UnityEngine.Timeline.IntervalTreeNode intervalTreeNode, System.Int64 start, System.Int64 end, System.Collections.Generic.List`1<T> results)
-    // Offset: 0x1188BAC
+    // Offset: 0xFFFFFFFF
     void QueryRange(UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t start, int64_t end, System::Collections::Generic::List_1<T>* results) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "QueryRange", intervalTreeNode, start, end, results));
     }
     // private System.Void Rebuild()
-    // Offset: 0x1188DB0
+    // Offset: 0xFFFFFFFF
     void Rebuild() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Rebuild"));
     }
     // private System.Int32 Rebuild(System.Int32 start, System.Int32 end)
-    // Offset: 0x1188E8C
+    // Offset: 0xFFFFFFFF
     int Rebuild(int start, int end) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Rebuild", start, end));
     }
     // public System.Void Clear()
-    // Offset: 0x118940C
+    // Offset: 0xFFFFFFFF
     void Clear() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Clear"));
     }
     // public System.Void .ctor()
-    // Offset: 0x118948C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IntervalTree_1<T>* New_ctor() {

@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::MainCameraCullingMask::InitData* initData;
     // protected System.Void Start()
-    // Offset: 0x1907488
+    // Offset: 0x18657D4
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1907570
+    // Offset: 0x18658BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

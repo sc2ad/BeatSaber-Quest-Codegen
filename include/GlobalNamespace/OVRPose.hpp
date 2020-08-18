@@ -28,39 +28,39 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRPose
     OVRPose(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}) : position{position_}, orientation{orientation_} {}
     // static public OVRPose get_identity()
-    // Offset: 0xF456B4
+    // Offset: 0xEA6978
     static GlobalNamespace::OVRPose get_identity();
     // public OVRPose Inverse()
-    // Offset: 0xA37D10
+    // Offset: 0x9A11DC
     GlobalNamespace::OVRPose Inverse();
     // public OVRPose flipZ()
-    // Offset: 0xA37D18
+    // Offset: 0x9A11E4
     GlobalNamespace::OVRPose flipZ();
     // public OVRPlugin/Posef ToPosef_Legacy()
-    // Offset: 0xA37D44
+    // Offset: 0x9A1210
     GlobalNamespace::OVRPlugin::Posef ToPosef_Legacy();
     // public OVRPlugin/Posef ToPosef()
-    // Offset: 0xA37D4C
+    // Offset: 0x9A1218
     GlobalNamespace::OVRPlugin::Posef ToPosef();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA37CCC
+    // Offset: 0x9A1198
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA37CD4
+    // Offset: 0x9A11A0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // OVRPose
   // static public System.Boolean op_Equality(OVRPose x, OVRPose y)
-  // Offset: 0xF45820
+  // Offset: 0xEA6AE4
   bool operator ==(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y);
   // static public System.Boolean op_Inequality(OVRPose x, OVRPose y)
-  // Offset: 0xF45990
+  // Offset: 0xEA6C54
   bool operator !=(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y);
   // static public OVRPose op_Multiply(OVRPose lhs, OVRPose rhs)
-  // Offset: 0xF459DC
+  // Offset: 0xEA6CA0
   GlobalNamespace::OVRPose operator*(const GlobalNamespace::OVRPose& lhs, const GlobalNamespace::OVRPose& rhs);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

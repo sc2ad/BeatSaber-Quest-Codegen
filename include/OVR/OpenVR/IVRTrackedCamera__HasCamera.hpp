@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRTrackedCamera::_HasCamera : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xCC1EF0
+    // Offset: 0xC221B4
     static IVRTrackedCamera::_HasCamera* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, System.Boolean pHasCamera)
-    // Offset: 0xCC1F04
+    // Offset: 0xC221C8
     OVR::OpenVR::EVRTrackedCameraError Invoke(uint nDeviceIndex, bool& pHasCamera);
     // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, System.Boolean pHasCamera, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xCC2194
+    // Offset: 0xC22458
     System::IAsyncResult* BeginInvoke(uint nDeviceIndex, bool& pHasCamera, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRTrackedCameraError EndInvoke(System.Boolean pHasCamera, System.IAsyncResult result)
-    // Offset: 0xCC2248
+    // Offset: 0xC2250C
     OVR::OpenVR::EVRTrackedCameraError EndInvoke(bool& pHasCamera, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRTrackedCamera/_HasCamera
 }

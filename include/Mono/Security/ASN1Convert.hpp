@@ -19,13 +19,13 @@ namespace Mono::Security {
   class ASN1Convert : public ::Il2CppObject {
     public:
     // static public Mono.Security.ASN1 FromInt32(System.Int32 value)
-    // Offset: 0x1972B54
+    // Offset: 0x18CDE98
     static Mono::Security::ASN1* FromInt32(int value);
     // static public System.Int32 ToInt32(Mono.Security.ASN1 asn1)
-    // Offset: 0x1972CF8
+    // Offset: 0x18CE03C
     static int ToInt32(Mono::Security::ASN1* asn1);
     // static public System.String ToOid(Mono.Security.ASN1 asn1)
-    // Offset: 0x1972E24
+    // Offset: 0x18CE168
     static ::Il2CppString* ToOid(Mono::Security::ASN1* asn1);
   }; // Mono.Security.ASN1Convert
 }

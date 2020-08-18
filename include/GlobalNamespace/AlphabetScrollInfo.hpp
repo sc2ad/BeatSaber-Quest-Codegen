@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::AlphabetScrollInfo::Data
     class Data;
     // public System.Void .ctor()
-    // Offset: 0xCAA490
+    // Offset: 0xC0A754
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AlphabetScrollInfo* New_ctor();

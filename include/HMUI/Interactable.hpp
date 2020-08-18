@@ -17,13 +17,13 @@ namespace HMUI {
     // Offset: 0x18
     bool interactable;
     // public System.Boolean get_interactable()
-    // Offset: 0xEE53A4
+    // Offset: 0xE45668
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0xEE53AC
+    // Offset: 0xE45670
     void set_interactable(bool value);
     // public System.Void .ctor()
-    // Offset: 0xED25B4
+    // Offset: 0xE32878
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

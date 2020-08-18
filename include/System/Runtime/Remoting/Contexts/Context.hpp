@@ -112,116 +112,116 @@ namespace System::Runtime::Remoting::Contexts {
     // Set static field: static private System.Runtime.Remoting.Contexts.DynamicPropertyCollection global_dynamic_properties
     static void _set_global_dynamic_properties(System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
     // static private System.Void RegisterContext(System.Runtime.Remoting.Contexts.Context ctx)
-    // Offset: 0x1058038
+    // Offset: 0xFBA2FC
     static void RegisterContext(System::Runtime::Remoting::Contexts::Context* ctx);
     // static private System.Void ReleaseContext(System.Runtime.Remoting.Contexts.Context ctx)
-    // Offset: 0x105803C
+    // Offset: 0xFBA300
     static void ReleaseContext(System::Runtime::Remoting::Contexts::Context* ctx);
     // static public System.Runtime.Remoting.Contexts.Context get_DefaultContext()
-    // Offset: 0x1058184
+    // Offset: 0xFBA448
     static System::Runtime::Remoting::Contexts::Context* get_DefaultContext();
     // public System.Int32 get_ContextID()
-    // Offset: 0x105818C
+    // Offset: 0xFBA450
     int get_ContextID();
     // public System.Runtime.Remoting.Contexts.IContextProperty[] get_ContextProperties()
-    // Offset: 0x1058194
+    // Offset: 0xFBA458
     ::Array<System::Runtime::Remoting::Contexts::IContextProperty*>* get_ContextProperties();
     // System.Boolean get_IsDefaultContext()
-    // Offset: 0x1058204
+    // Offset: 0xFBA4C8
     bool get_IsDefaultContext();
     // System.Boolean get_NeedsContextSink()
-    // Offset: 0x1058214
+    // Offset: 0xFBA4D8
     bool get_NeedsContextSink();
     // static public System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty prop, System.ContextBoundObject obj, System.Runtime.Remoting.Contexts.Context ctx)
-    // Offset: 0x1058340
+    // Offset: 0xFBA604
     static bool RegisterDynamicProperty(System::Runtime::Remoting::Contexts::IDynamicProperty* prop, System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
     // static public System.Boolean UnregisterDynamicProperty(System.String name, System.ContextBoundObject obj, System.Runtime.Remoting.Contexts.Context ctx)
-    // Offset: 0x10588A0
+    // Offset: 0xFBAB64
     static bool UnregisterDynamicProperty(::Il2CppString* name, System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
     // static private System.Runtime.Remoting.Contexts.DynamicPropertyCollection GetDynamicPropertyCollection(System.ContextBoundObject obj, System.Runtime.Remoting.Contexts.Context ctx)
-    // Offset: 0x10583C8
+    // Offset: 0xFBA68C
     static System::Runtime::Remoting::Contexts::DynamicPropertyCollection* GetDynamicPropertyCollection(System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
     // static System.Void NotifyGlobalDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x1058B78
+    // Offset: 0xFBAE3C
     static void NotifyGlobalDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
     // static System.Boolean get_HasGlobalDynamicSinks()
-    // Offset: 0x1059260
+    // Offset: 0xFBB524
     static bool get_HasGlobalDynamicSinks();
     // System.Void NotifyDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x105931C
+    // Offset: 0xFBB5E0
     void NotifyDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
     // System.Boolean get_HasDynamicSinks()
-    // Offset: 0x10593B0
+    // Offset: 0xFBB674
     bool get_HasDynamicSinks();
     // System.Boolean get_HasExitSinks()
-    // Offset: 0x104C470
+    // Offset: 0xFAE734
     bool get_HasExitSinks();
     // public System.Runtime.Remoting.Contexts.IContextProperty GetProperty(System.String name)
-    // Offset: 0x10593F4
+    // Offset: 0xFBB6B8
     System::Runtime::Remoting::Contexts::IContextProperty* GetProperty(::Il2CppString* name);
     // public System.Void SetProperty(System.Runtime.Remoting.Contexts.IContextProperty prop)
-    // Offset: 0x1059578
+    // Offset: 0xFBB83C
     void SetProperty(System::Runtime::Remoting::Contexts::IContextProperty* prop);
     // public System.Void Freeze()
-    // Offset: 0x10596B8
+    // Offset: 0xFBB97C
     void Freeze();
     // System.Runtime.Remoting.Messaging.IMessageSink GetServerContextSinkChain()
-    // Offset: 0x104DE90
+    // Offset: 0xFB0154
     System::Runtime::Remoting::Messaging::IMessageSink* GetServerContextSinkChain();
     // System.Runtime.Remoting.Messaging.IMessageSink GetClientContextSinkChain()
-    // Offset: 0x104C52C
+    // Offset: 0xFAE7F0
     System::Runtime::Remoting::Messaging::IMessageSink* GetClientContextSinkChain();
     // System.Runtime.Remoting.Messaging.IMessageSink CreateServerObjectSinkChain(System.MarshalByRefObject obj, System.Boolean forceInternalExecute)
-    // Offset: 0x1054450
+    // Offset: 0xFB6714
     System::Runtime::Remoting::Messaging::IMessageSink* CreateServerObjectSinkChain(System::MarshalByRefObject* obj, bool forceInternalExecute);
     // System.Runtime.Remoting.Messaging.IMessageSink CreateEnvoySink(System.MarshalByRefObject serverObject)
-    // Offset: 0x1059904
+    // Offset: 0xFBBBC8
     System::Runtime::Remoting::Messaging::IMessageSink* CreateEnvoySink(System::MarshalByRefObject* serverObject);
     // static System.Runtime.Remoting.Contexts.Context SwitchToContext(System.Runtime.Remoting.Contexts.Context newContext)
-    // Offset: 0x104EB54
+    // Offset: 0xFB0E18
     static System::Runtime::Remoting::Contexts::Context* SwitchToContext(System::Runtime::Remoting::Contexts::Context* newContext);
     // static System.Runtime.Remoting.Contexts.Context CreateNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
-    // Offset: 0x104E398
+    // Offset: 0xFB065C
     static System::Runtime::Remoting::Contexts::Context* CreateNewContext(System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
     // public System.Void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate deleg)
-    // Offset: 0x1059AB4
+    // Offset: 0xFBBD78
     void DoCallBack(System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
     // private System.LocalDataStore get_MyLocalStore()
-    // Offset: 0x1059C04
+    // Offset: 0xFBBEC8
     System::LocalDataStore* get_MyLocalStore();
     // static public System.LocalDataStoreSlot AllocateDataSlot()
-    // Offset: 0x1059D74
+    // Offset: 0xFBC038
     static System::LocalDataStoreSlot* AllocateDataSlot();
     // static public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
-    // Offset: 0x1059DE8
+    // Offset: 0xFBC0AC
     static System::LocalDataStoreSlot* AllocateNamedDataSlot(::Il2CppString* name);
     // static public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x1059E64
+    // Offset: 0xFBC128
     static void FreeNamedDataSlot(::Il2CppString* name);
     // static public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
-    // Offset: 0x1059EE0
+    // Offset: 0xFBC1A4
     static System::LocalDataStoreSlot* GetNamedDataSlot(::Il2CppString* name);
     // static public System.Object GetData(System.LocalDataStoreSlot slot)
-    // Offset: 0x1059F5C
+    // Offset: 0xFBC220
     static ::Il2CppObject* GetData(System::LocalDataStoreSlot* slot);
     // static public System.Void SetData(System.LocalDataStoreSlot slot, System.Object data)
-    // Offset: 0x1059F98
+    // Offset: 0xFBC25C
     static void SetData(System::LocalDataStoreSlot* slot, ::Il2CppObject* data);
     // static private System.Void .cctor()
-    // Offset: 0x1059FDC
+    // Offset: 0xFBC2A0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1058040
+    // Offset: 0xFBA304
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Context* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x10580D4
+    // Offset: 0xFBA398
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.String ToString()
-    // Offset: 0x105981C
+    // Offset: 0xFBBAE0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

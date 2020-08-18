@@ -36,19 +36,19 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Rendering::CommandBuffer* commandBuffer;
     // public System.Void AddOwner(UnityEngine.Object owner)
-    // Offset: 0x19063E8
+    // Offset: 0x1864734
     void AddOwner(UnityEngine::Object* owner);
     // public System.Void RemoveOwner(UnityEngine.Object owner)
-    // Offset: 0x1906110
+    // Offset: 0x186445C
     void RemoveOwner(UnityEngine::Object* owner);
     // public System.Boolean ContainsOwner(UnityEngine.Object owner)
-    // Offset: 0x1906380
+    // Offset: 0x18646CC
     bool ContainsOwner(UnityEngine::Object* owner);
     // public System.Int32 get_NumberOfOwners()
-    // Offset: 0x1906184
+    // Offset: 0x18644D0
     int get_NumberOfOwners();
     // public System.Void .ctor()
-    // Offset: 0x190648C
+    // Offset: 0x18647D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CommandBufferOwners* New_ctor();

@@ -24,10 +24,10 @@ namespace System::Xml {
     // Offset: 0x28
     System::Xml::XmlRawWriter* rawWriter;
     // System.Void .ctor(System.Xml.XmlRawWriter rawWriter)
-    // Offset: 0x11A3728
+    // Offset: 0x11069EC
     static XmlRawWriterBase64Encoder* New_ctor(System::Xml::XmlRawWriter* rawWriter);
     // override System.Void WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
-    // Offset: 0x11A3B5C
+    // Offset: 0x1106E20
     // Implemented from: System.Xml.Base64Encoder
     // Base method: System.Void Base64Encoder::WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
     void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);

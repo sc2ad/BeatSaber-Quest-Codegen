@@ -30,22 +30,22 @@ namespace GlobalNamespace {
     // Offset: 0x48
     ::Il2CppString* offLocalizedKey;
     // protected override System.Boolean GetInitValue()
-    // Offset: 0xB5C594
+    // Offset: 0x18E3AC4
     // Implemented from: SwitchSettingsController
     // Base method: System.Boolean SwitchSettingsController::GetInitValue()
     bool GetInitValue();
     // protected override System.Void ApplyValue(System.Boolean value)
-    // Offset: 0xB5C5E4
+    // Offset: 0x18E3B14
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
     void ApplyValue(bool value);
     // protected override System.String TextForValue(System.Boolean value)
-    // Offset: 0xB5C64C
+    // Offset: 0x18E3B7C
     // Implemented from: SwitchSettingsController
     // Base method: System.String SwitchSettingsController::TextForValue(System.Boolean value)
     ::Il2CppString* TextForValue(bool value);
     // public System.Void .ctor()
-    // Offset: 0xB5C668
+    // Offset: 0x18E3B98
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

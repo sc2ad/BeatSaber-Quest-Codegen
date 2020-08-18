@@ -24,19 +24,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x10
     int idRef;
     // System.Void Set(System.Int32 idRef)
-    // Offset: 0xE25A48
+    // Offset: 0xD85D0C
     void Set(int idRef);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xE25A50
+    // Offset: 0xD85D14
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xE25A94
+    // Offset: 0xD85D58
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xE25AC8
+    // Offset: 0xD85D8C
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xE25A40
+    // Offset: 0xD85D04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemberReference* New_ctor();

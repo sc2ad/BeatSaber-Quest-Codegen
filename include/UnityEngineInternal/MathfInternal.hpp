@@ -27,7 +27,7 @@ namespace UnityEngineInternal {
     // Creating value type constructor for type: MathfInternal
     MathfInternal() {}
     // static private System.Void .cctor()
-    // Offset: 0x13971C0
+    // Offset: 0x12F8484
     static void _cctor();
   }; // UnityEngineInternal.MathfInternal
 }

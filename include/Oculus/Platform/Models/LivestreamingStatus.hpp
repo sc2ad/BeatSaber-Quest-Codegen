@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     bool MicEnabled;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA0B40
+    // Offset: 0xDFFE04
     static LivestreamingStatus* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LivestreamingStatus
 }

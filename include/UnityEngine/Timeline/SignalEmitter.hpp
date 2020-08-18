@@ -41,35 +41,35 @@ namespace UnityEngine::Timeline {
     // Offset: 0x30
     UnityEngine::Timeline::SignalAsset* m_Asset;
     // public System.Boolean get_retroactive()
-    // Offset: 0x1099114
+    // Offset: 0xFFB3D8
     bool get_retroactive();
     // public System.Void set_retroactive(System.Boolean value)
-    // Offset: 0x109911C
+    // Offset: 0xFFB3E0
     void set_retroactive(bool value);
     // public System.Boolean get_emitOnce()
-    // Offset: 0x1099128
+    // Offset: 0xFFB3EC
     bool get_emitOnce();
     // public System.Void set_emitOnce(System.Boolean value)
-    // Offset: 0x1099130
+    // Offset: 0xFFB3F4
     void set_emitOnce(bool value);
     // public UnityEngine.Timeline.SignalAsset get_asset()
-    // Offset: 0x109913C
+    // Offset: 0xFFB400
     UnityEngine::Timeline::SignalAsset* get_asset();
     // public System.Void set_asset(UnityEngine.Timeline.SignalAsset value)
-    // Offset: 0x1099144
+    // Offset: 0xFFB408
     void set_asset(UnityEngine::Timeline::SignalAsset* value);
     // private UnityEngine.PropertyName UnityEngine.Playables.INotification.get_id()
-    // Offset: 0x109914C
+    // Offset: 0xFFB410
     // Implemented from: UnityEngine.Playables.INotification
     // Base method: UnityEngine.PropertyName INotification::get_id()
     UnityEngine::PropertyName UnityEngine_Playables_INotification_get_id();
     // private UnityEngine.Timeline.NotificationFlags UnityEngine.Timeline.INotificationOptionProvider.get_flags()
-    // Offset: 0x1099210
+    // Offset: 0xFFB4D4
     // Implemented from: UnityEngine.Timeline.INotificationOptionProvider
     // Base method: UnityEngine.Timeline.NotificationFlags INotificationOptionProvider::get_flags()
     UnityEngine::Timeline::NotificationFlags UnityEngine_Timeline_INotificationOptionProvider_get_flags();
     // public System.Void .ctor()
-    // Offset: 0x1099238
+    // Offset: 0xFFB4FC
     // Implemented from: UnityEngine.Timeline.Marker
     // Base method: System.Void Marker::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

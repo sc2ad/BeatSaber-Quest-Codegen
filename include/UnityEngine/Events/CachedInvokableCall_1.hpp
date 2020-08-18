@@ -32,19 +32,19 @@ namespace UnityEngine::Events {
     // Offset: 0x0
     T m_Arg1;
     // public System.Void .ctor(UnityEngine.Object target, System.Reflection.MethodInfo theFunction, T argument)
-    // Offset: 0x13FB220
+    // Offset: 0xFFFFFFFF
     static CachedInvokableCall_1<T>* New_ctor(UnityEngine::Object* target, System::Reflection::MethodInfo* theFunction, T argument) {
       return (CachedInvokableCall_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<CachedInvokableCall_1<T>*>::get(), target, theFunction, argument));
     }
     // public override System.Void Invoke(System.Object[] args)
-    // Offset: 0x13FB264
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
     // Base method: System.Void InvokableCall`1::Invoke(System.Object[] args)
     void Invoke(::Array<::Il2CppObject*>* args) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", args));
     }
     // public override System.Void Invoke(T arg0)
-    // Offset: 0x13FB28C
+    // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
     // Base method: System.Void InvokableCall`1::Invoke(T arg0)
     void Invoke(T arg0) {

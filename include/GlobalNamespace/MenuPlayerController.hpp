@@ -37,19 +37,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Transform* headTransform;
     // public VRController get_leftController()
-    // Offset: 0xBFEA08
+    // Offset: 0x194751C
     GlobalNamespace::VRController* get_leftController();
     // public VRController get_rightController()
-    // Offset: 0xBFEA10
+    // Offset: 0x1947524
     GlobalNamespace::VRController* get_rightController();
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0xBFEA18
+    // Offset: 0x194752C
     UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0xBFEA34
+    // Offset: 0x1947548
     UnityEngine::Quaternion get_headRot();
     // public System.Void .ctor()
-    // Offset: 0xBFEA50
+    // Offset: 0x1947564
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithLivestreamingStartResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingStartResult*> {
     public:
     // protected Oculus.Platform.Models.LivestreamingStartResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA093C
+    // Offset: 0xDFFC00
     Oculus::Platform::Models::LivestreamingStartResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xEA0898
+    // Offset: 0xDFFB5C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithLivestreamingStartResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.LivestreamingStartResult GetLivestreamingStartResult()
-    // Offset: 0xEA08F8
+    // Offset: 0xDFFBBC
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LivestreamingStartResult Message::GetLivestreamingStartResult()
     Oculus::Platform::Models::LivestreamingStartResult* GetLivestreamingStartResult();

@@ -72,28 +72,28 @@ namespace UnityEngine::UI {
     // Offset: 0x28
     UnityEngine::DrivenRectTransformTracker m_Tracker;
     // public UnityEngine.UI.ContentSizeFitter/FitMode get_horizontalFit()
-    // Offset: 0xE044DC
+    // Offset: 0xD647A0
     UnityEngine::UI::ContentSizeFitter::FitMode get_horizontalFit();
     // public System.Void set_horizontalFit(UnityEngine.UI.ContentSizeFitter/FitMode value)
-    // Offset: 0xE044E4
+    // Offset: 0xD647A8
     void set_horizontalFit(UnityEngine::UI::ContentSizeFitter::FitMode value);
     // public UnityEngine.UI.ContentSizeFitter/FitMode get_verticalFit()
-    // Offset: 0xE045F8
+    // Offset: 0xD648BC
     UnityEngine::UI::ContentSizeFitter::FitMode get_verticalFit();
     // public System.Void set_verticalFit(UnityEngine.UI.ContentSizeFitter/FitMode value)
-    // Offset: 0xE04600
+    // Offset: 0xD648C4
     void set_verticalFit(UnityEngine::UI::ContentSizeFitter::FitMode value);
     // private UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0xE0467C
+    // Offset: 0xD64940
     UnityEngine::RectTransform* get_rectTransform();
     // private System.Void HandleSelfFittingAlongAxis(System.Int32 axis)
-    // Offset: 0xE047BC
+    // Offset: 0xD64A80
     void HandleSelfFittingAlongAxis(int axis);
     // protected System.Void SetDirty()
-    // Offset: 0xE04560
+    // Offset: 0xD64824
     void SetDirty();
     // protected System.Void .ctor()
-    // Offset: 0xE04728
+    // Offset: 0xD649EC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -103,27 +103,27 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static ContentSizeFitter* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0xE04730
+    // Offset: 0xD649F4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xE04734
+    // Offset: 0xD649F8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0xE047B8
+    // Offset: 0xD64A7C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0xE0488C
+    // Offset: 0xD64B50
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0xE048BC
+    // Offset: 0xD64B80
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();

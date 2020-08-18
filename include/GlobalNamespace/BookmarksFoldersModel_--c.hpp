@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Environment/SpecialFolder,System.String> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<System::Environment::SpecialFolder, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB5C518
+    // Offset: 0x18E3A48
     static void _cctor();
     // System.String <get_bookmarksFolders>b__3_0(System.Environment/SpecialFolder specialFolder)
-    // Offset: 0xB5C588
+    // Offset: 0x18E3AB8
     ::Il2CppString* $get_bookmarksFolders$b__3_0(System::Environment::SpecialFolder specialFolder);
     // public System.Void .ctor()
-    // Offset: 0xB5C580
+    // Offset: 0x18E3AB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BookmarksFoldersModel::$$c* New_ctor();

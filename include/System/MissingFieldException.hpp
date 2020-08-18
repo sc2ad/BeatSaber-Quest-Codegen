@@ -25,10 +25,10 @@ namespace System {
   class MissingFieldException : public System::Runtime::Serialization::ISerializable, public System::MissingMemberException {
     public:
     // public System.Void .ctor(System.String className, System.String fieldName)
-    // Offset: 0x1010450
+    // Offset: 0xF72714
     static MissingFieldException* New_ctor(::Il2CppString* className, ::Il2CppString* fieldName);
     // public System.Void .ctor()
-    // Offset: 0x100FF6C
+    // Offset: 0xF72230
     // Implemented from: System.MissingMemberException
     // Base method: System.Void MissingMemberException::.ctor()
     // Base method: System.Void MemberAccessException::.ctor()
@@ -37,7 +37,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static MissingFieldException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1010028
+    // Offset: 0xF722EC
     // Implemented from: System.MissingMemberException
     // Base method: System.Void MissingMemberException::.ctor(System.String message)
     // Base method: System.Void MemberAccessException::.ctor(System.String message)
@@ -45,7 +45,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String message)
     static MissingFieldException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1010058
+    // Offset: 0xF7231C
     // Implemented from: System.MissingMemberException
     // Base method: System.Void MissingMemberException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void MemberAccessException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -53,7 +53,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static MissingFieldException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String get_Message()
-    // Offset: 0x10101BC
+    // Offset: 0xF72480
     // Implemented from: System.MissingMemberException
     // Base method: System.String MissingMemberException::get_Message()
     ::Il2CppString* get_Message();

@@ -103,61 +103,61 @@ namespace GlobalNamespace {
     // Offset: 0x98
     bool ignoreFirstFrameVRControllerInteraction;
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0xBD16E4
+    // Offset: 0x1918A4C
     void add_didPressContinueButtonEvent(System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0xBD1C4C
+    // Offset: 0x1918FB4
     void remove_didPressContinueButtonEvent(System::Action* value);
     // public System.Void add_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0xBD182C
+    // Offset: 0x1918B94
     void add_didPressMenuButtonEvent(System::Action* value);
     // public System.Void remove_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0xBD1D94
+    // Offset: 0x19190FC
     void remove_didPressMenuButtonEvent(System::Action* value);
     // public System.Void add_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0xBD1788
+    // Offset: 0x1918AF0
     void add_didPressRestartButtonEvent(System::Action* value);
     // public System.Void remove_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0xBD1CF0
+    // Offset: 0x1919058
     void remove_didPressRestartButtonEvent(System::Action* value);
     // public System.Void add_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0xBD1640
+    // Offset: 0x19189A8
     void add_didFinishResumeAnimationEvent(System::Action* value);
     // public System.Void remove_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0xBD1BA8
+    // Offset: 0x1918F10
     void remove_didFinishResumeAnimationEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xBD22AC
+    // Offset: 0x1919614
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xBD2444
+    // Offset: 0x19197AC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBD2564
+    // Offset: 0x19198CC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBD2644
+    // Offset: 0x19199AC
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0xBD1F48
+    // Offset: 0x19192B0
     void ShowMenu();
     // public System.Void StartResumeAnimation()
-    // Offset: 0xBD20F8
+    // Offset: 0x1919460
     void StartResumeAnimation();
     // private System.Void HandleResumeFromPauseAnimationDidFinish()
-    // Offset: 0xBD26D8
+    // Offset: 0x1919A40
     void HandleResumeFromPauseAnimationDidFinish();
     // private System.Void MenuButtonPressed()
-    // Offset: 0xBD26EC
+    // Offset: 0x1919A54
     void MenuButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0xBD272C
+    // Offset: 0x1919A94
     void RestartButtonPressed();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0xBD2698
+    // Offset: 0x1919A00
     void ContinueButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0xBD276C
+    // Offset: 0x1919AD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

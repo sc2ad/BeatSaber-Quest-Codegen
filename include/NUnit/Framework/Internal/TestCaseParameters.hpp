@@ -24,19 +24,19 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x40
     bool HasExpectedResult;
     // public System.Object get_ExpectedResult()
-    // Offset: 0x18E9784
+    // Offset: 0x1846AD0
     ::Il2CppObject* get_ExpectedResult();
     // public System.Boolean get_HasExpectedResult()
-    // Offset: 0x18E978C
+    // Offset: 0x1846AD8
     bool get_HasExpectedResult();
     // public System.Void .ctor()
-    // Offset: 0x18E9674
+    // Offset: 0x18469C0
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor()
     // Base method: System.Void Object::.ctor()
     static TestCaseParameters* New_ctor();
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x18E96F0
+    // Offset: 0x1846A3C
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor(System.Object[] args)
     static TestCaseParameters* New_ctor(::Array<::Il2CppObject*>* args);

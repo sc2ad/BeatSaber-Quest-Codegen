@@ -39,22 +39,22 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
   class CSG_VertexUtility : public ::Il2CppObject {
     public:
     // static public System.Void GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.CSG_Vertex> vertices, UnityEngine.Vector3[] position, UnityEngine.Color[] color, UnityEngine.Vector2[] uv0, UnityEngine.Vector3[] normal, UnityEngine.Vector4[] tangent, UnityEngine.Vector2[] uv2, System.Collections.Generic.List`1<UnityEngine.Vector4> uv3, System.Collections.Generic.List`1<UnityEngine.Vector4> uv4)
-    // Offset: 0xF913A4
+    // Offset: 0xEF2668
     static void GetArrays(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::CSG_Vertex>* vertices, ::Array<UnityEngine::Vector3>*& position, ::Array<UnityEngine::Color>*& color, ::Array<UnityEngine::Vector2>*& uv0, ::Array<UnityEngine::Vector3>*& normal, ::Array<UnityEngine::Vector4>*& tangent, ::Array<UnityEngine::Vector2>*& uv2, System::Collections::Generic::List_1<UnityEngine::Vector4>*& uv3, System::Collections::Generic::List_1<UnityEngine::Vector4>*& uv4);
     // static public System.Void GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.CSG_Vertex> vertices, UnityEngine.Vector3[] position, UnityEngine.Color[] color, UnityEngine.Vector2[] uv0, UnityEngine.Vector3[] normal, UnityEngine.Vector4[] tangent, UnityEngine.Vector2[] uv2, System.Collections.Generic.List`1<UnityEngine.Vector4> uv3, System.Collections.Generic.List`1<UnityEngine.Vector4> uv4, UnityEngine.ProBuilder.MeshArrays attributes)
-    // Offset: 0xF913D0
+    // Offset: 0xEF2694
     static void GetArrays(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::CSG_Vertex>* vertices, ::Array<UnityEngine::Vector3>*& position, ::Array<UnityEngine::Color>*& color, ::Array<UnityEngine::Vector2>*& uv0, ::Array<UnityEngine::Vector3>*& normal, ::Array<UnityEngine::Vector4>*& tangent, ::Array<UnityEngine::Vector2>*& uv2, System::Collections::Generic::List_1<UnityEngine::Vector4>*& uv3, System::Collections::Generic::List_1<UnityEngine::Vector4>*& uv4, UnityEngine::ProBuilder::MeshArrays attributes);
     // static public UnityEngine.ProBuilder.CSG_Vertex[] GetVertices(UnityEngine.Mesh mesh)
-    // Offset: 0xF8EEAC
+    // Offset: 0xEF0170
     static ::Array<UnityEngine::ProBuilder::CSG_Vertex>* GetVertices(UnityEngine::Mesh* mesh);
     // static public System.Void SetMesh(UnityEngine.Mesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.CSG_Vertex> vertices)
-    // Offset: 0xF8F4EC
+    // Offset: 0xEF07B0
     static void SetMesh(UnityEngine::Mesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::CSG_Vertex>* vertices);
     // static public UnityEngine.ProBuilder.CSG_Vertex Mix(UnityEngine.ProBuilder.CSG_Vertex x, UnityEngine.ProBuilder.CSG_Vertex y, System.Single weight)
-    // Offset: 0xF90BC4
+    // Offset: 0xEF1E88
     static UnityEngine::ProBuilder::CSG_Vertex Mix(UnityEngine::ProBuilder::CSG_Vertex x, UnityEngine::ProBuilder::CSG_Vertex y, float weight);
     // static public UnityEngine.ProBuilder.CSG_Vertex TransformVertex(UnityEngine.Transform transform, UnityEngine.ProBuilder.CSG_Vertex vertex)
-    // Offset: 0xF8F81C
+    // Offset: 0xEF0AE0
     static UnityEngine::ProBuilder::CSG_Vertex TransformVertex(UnityEngine::Transform* transform, UnityEngine::ProBuilder::CSG_Vertex vertex);
   }; // UnityEngine.ProBuilder.Experimental.CSG.CSG_VertexUtility
 }

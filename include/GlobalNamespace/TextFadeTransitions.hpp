@@ -75,22 +75,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     float fade;
     // protected System.Void Awake()
-    // Offset: 0xC42E68
+    // Offset: 0x196049C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xC42FCC
+    // Offset: 0x1960600
     void Update();
     // private System.Void RefreshState()
-    // Offset: 0xC42FD0
+    // Offset: 0x1960604
     void RefreshState();
     // private System.Void RefreshTextAlpha()
-    // Offset: 0xC42EE4
+    // Offset: 0x1960518
     void RefreshTextAlpha();
     // public System.Void ShowText(System.String text)
-    // Offset: 0xC4316C
+    // Offset: 0x19607A0
     void ShowText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0xC431F4
+    // Offset: 0x1960828
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

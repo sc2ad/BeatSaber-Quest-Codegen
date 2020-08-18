@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class NoteCutDirectionExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector2 Direction(NoteCutDirection cutDirection)
-    // Offset: 0xC11878
+    // Offset: 0x195A3A8
     static UnityEngine::Vector2 Direction(GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Single RotationAngle(NoteCutDirection cutDirection)
-    // Offset: 0xC1195C
+    // Offset: 0x195A48C
     static float RotationAngle(GlobalNamespace::NoteCutDirection cutDirection);
     // static public UnityEngine.Quaternion Rotation(NoteCutDirection cutDirection)
-    // Offset: 0xC1197C
+    // Offset: 0x195A4AC
     static UnityEngine::Quaternion Rotation(GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Boolean IsMainDirection(NoteCutDirection cutDirection)
-    // Offset: 0xC11A0C
+    // Offset: 0x195A53C
     static bool IsMainDirection(GlobalNamespace::NoteCutDirection cutDirection);
   }; // NoteCutDirectionExtensions
 }

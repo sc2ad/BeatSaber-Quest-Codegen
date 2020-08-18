@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRRenderModels::_FreeRenderModel : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16BB010
+    // Offset: 0x161D348
     static IVRRenderModels::_FreeRenderModel* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr pRenderModel)
-    // Offset: 0x16BB024
+    // Offset: 0x161D35C
     void Invoke(System::IntPtr pRenderModel);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pRenderModel, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16BB284
+    // Offset: 0x161D5BC
     System::IAsyncResult* BeginInvoke(System::IntPtr pRenderModel, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16BB310
+    // Offset: 0x161D648
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_FreeRenderModel
 }

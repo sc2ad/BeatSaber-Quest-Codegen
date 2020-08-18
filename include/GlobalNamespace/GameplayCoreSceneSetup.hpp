@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Zenject.MonoInstaller
 #include "Zenject/MonoInstaller.hpp"
+// Including type: GameplayCoreHUDInstaller
+#include "GlobalNamespace/GameplayCoreHUDInstaller.hpp"
+// Including type: EnvironmentSizeData
+#include "GlobalNamespace/EnvironmentSizeData.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -15,18 +19,18 @@ namespace GlobalNamespace {
   class BeatmapObjectSpawnControllerPlayerHeightSetter;
   // Forward declaring type: PlayerHeightDetector
   class PlayerHeightDetector;
-  // Forward declaring type: CoreGameHUDController
-  class CoreGameHUDController;
   // Forward declaring type: BeatLineManager
   class BeatLineManager;
   // Forward declaring type: AudioManagerSO
   class AudioManagerSO;
   // Forward declaring type: BeatmapCharacteristicSO
   class BeatmapCharacteristicSO;
-  // Forward declaring type: GameplayCoreSceneSetupData
-  class GameplayCoreSceneSetupData;
+  // Forward declaring type: EffectPoolsInstaller
+  class EffectPoolsInstaller;
   // Forward declaring type: PlayerSpecificSettings
   class PlayerSpecificSettings;
+  // Forward declaring type: GameplayCoreSceneSetupData
+  class GameplayCoreSceneSetupData;
   // Forward declaring type: SaberType
   struct SaberType;
 }
@@ -42,34 +46,37 @@ namespace GlobalNamespace {
     // private PlayerHeightDetector _playerHeightDetectorPrefab
     // Offset: 0x28
     GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
-    // private CoreGameHUDController _basicHUDPrefab
-    // Offset: 0x30
-    GlobalNamespace::CoreGameHUDController* basicHUDPrefab;
-    // private CoreGameHUDController _flyingHUDPrefab
-    // Offset: 0x38
-    GlobalNamespace::CoreGameHUDController* flyingHUDPrefab;
     // private BeatLineManager _beatLineManagerPrefab
-    // Offset: 0x40
+    // Offset: 0x30
     GlobalNamespace::BeatLineManager* beatLineManagerPrefab;
     // private AudioManagerSO _audioMixer
-    // Offset: 0x48
+    // Offset: 0x38
     GlobalNamespace::AudioManagerSO* audioMixer;
     // private BeatmapCharacteristicSO _oneColorBeatmapCharacteristic
-    // Offset: 0x50
+    // Offset: 0x40
     GlobalNamespace::BeatmapCharacteristicSO* oneColorBeatmapCharacteristic;
+    // private EffectPoolsInstaller _effectPoolsInstaller
+    // Offset: 0x48
+    GlobalNamespace::EffectPoolsInstaller* effectPoolsInstaller;
+    // private GameplayCoreHUDInstaller _gameplayCoreHUDInstaller
+    // Offset: 0x50
+    GlobalNamespace::GameplayCoreHUDInstaller* gameplayCoreHUDInstaller;
     // private GameplayCoreSceneSetupData _sceneSetupData
     // Offset: 0x58
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
+    // private GameplayCoreHUDInstaller/HudType GetGameplayCoreHUDTypeForEnvironmentSize(EnvironmentSizeData/Width environmentWidth)
+    // Offset: 0xB3EF08
+    GlobalNamespace::GameplayCoreHUDInstaller::HudType GetGameplayCoreHUDTypeForEnvironmentSize(GlobalNamespace::EnvironmentSizeData::Width environmentWidth);
     // private System.Boolean UseOneSaberOnly(BeatmapCharacteristicSO beatmapCharacteristic, PlayerSpecificSettings playerSpecificSettings, SaberType saberType)
-    // Offset: 0xB3C1C0
+    // Offset: 0xB3EE50
     bool UseOneSaberOnly(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::SaberType& saberType);
     // public override System.Void InstallBindings()
-    // Offset: 0xB3B22C
+    // Offset: 0xB3DE84
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xB3C278
+    // Offset: 0xB3EF1C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

@@ -23,7 +23,7 @@ namespace System::Diagnostics {
     // Offset: 0x20
     ::Il2CppString* type;
     // public System.Void .ctor(System.String value)
-    // Offset: 0xC91F04
+    // Offset: 0xBF21C8
     static DebuggerDisplayAttribute* New_ctor(::Il2CppString* value);
   }; // System.Diagnostics.DebuggerDisplayAttribute
 }

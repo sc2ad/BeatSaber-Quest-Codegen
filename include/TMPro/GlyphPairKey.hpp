@@ -32,10 +32,10 @@ namespace TMPro {
     // Creating value type constructor for type: GlyphPairKey
     GlyphPairKey(uint firstGlyphIndex_ = {}, uint secondGlyphIndex_ = {}, int64_t key_ = {}) : firstGlyphIndex{firstGlyphIndex_}, secondGlyphIndex{secondGlyphIndex_}, key{key_} {}
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
-    // Offset: 0xA26F40
+    // Offset: 0x991C20
     static GlyphPairKey* New_ctor(uint firstGlyphIndex, uint secondGlyphIndex);
     // System.Void .ctor(TMPro.TMP_GlyphPairAdjustmentRecord record)
-    // Offset: 0xA26F54
+    // Offset: 0x991C34
     static GlyphPairKey* New_ctor(TMPro::TMP_GlyphPairAdjustmentRecord* record);
   }; // TMPro.GlyphPairKey
 }

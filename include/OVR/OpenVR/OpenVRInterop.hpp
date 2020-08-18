@@ -26,34 +26,34 @@ namespace OVR::OpenVR {
   class OpenVRInterop : public ::Il2CppObject {
     public:
     // static System.UInt32 InitInternal(OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType)
-    // Offset: 0xCC319C
+    // Offset: 0xC23460
     static uint InitInternal(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType);
     // static System.UInt32 InitInternal2(OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, System.String pStartupInfo)
-    // Offset: 0xCC3230
+    // Offset: 0xC234F4
     static uint InitInternal2(OVR::OpenVR::EVRInitError& peError, OVR::OpenVR::EVRApplicationType eApplicationType, ::Il2CppString*& pStartupInfo);
     // static System.Void ShutdownInternal()
-    // Offset: 0xCC32E8
+    // Offset: 0xC235AC
     static void ShutdownInternal();
     // static System.Boolean IsHmdPresent()
-    // Offset: 0xCC335C
+    // Offset: 0xC23620
     static bool IsHmdPresent();
     // static System.Boolean IsRuntimeInstalled()
-    // Offset: 0xCC33DC
+    // Offset: 0xC236A0
     static bool IsRuntimeInstalled();
     // static System.IntPtr GetStringForHmdError(OVR.OpenVR.EVRInitError error)
-    // Offset: 0xCC34D0
+    // Offset: 0xC23794
     static System::IntPtr GetStringForHmdError(OVR::OpenVR::EVRInitError error);
     // static System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, OVR.OpenVR.EVRInitError peError)
-    // Offset: 0xCC3554
+    // Offset: 0xC23818
     static System::IntPtr GetGenericInterface(::Il2CppString*& pchInterfaceVersion, OVR::OpenVR::EVRInitError& peError);
     // static System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
-    // Offset: 0xCC3600
+    // Offset: 0xC238C4
     static bool IsInterfaceVersionValid(::Il2CppString*& pchInterfaceVersion);
     // static System.UInt32 GetInitToken()
-    // Offset: 0xCC36A0
+    // Offset: 0xC23964
     static uint GetInitToken();
     // public System.Void .ctor()
-    // Offset: 0xCC4D00
+    // Offset: 0xC24FC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OpenVRInterop* New_ctor();

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_GetEventTypeNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16C8CBC
+    // Offset: 0x162AFF4
     static IVRSystem::_GetEventTypeNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVREventType eType)
-    // Offset: 0x16C8CD0
+    // Offset: 0x162B008
     System::IntPtr Invoke(Valve::VR::EVREventType eType);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVREventType eType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C8F44
+    // Offset: 0x162B27C
     System::IAsyncResult* BeginInvoke(Valve::VR::EVREventType eType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16C8FD0
+    // Offset: 0x162B308
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetEventTypeNameFromEnum
 }

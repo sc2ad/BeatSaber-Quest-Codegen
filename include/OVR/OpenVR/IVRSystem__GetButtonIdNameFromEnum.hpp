@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetButtonIdNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16AEA98
+    // Offset: 0x1610DD0
     static IVRSystem::_GetButtonIdNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(OVR.OpenVR.EVRButtonId eButtonId)
-    // Offset: 0x16AEAAC
+    // Offset: 0x1610DE4
     System::IntPtr Invoke(OVR::OpenVR::EVRButtonId eButtonId);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRButtonId eButtonId, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16AED20
+    // Offset: 0x1611058
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVRButtonId eButtonId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16AEDAC
+    // Offset: 0x16110E4
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetButtonIdNameFromEnum
 }

@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -37,13 +37,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Reflection.Assembly> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<System::Type*, System::Reflection::Assembly*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xD6AD94
+    // Offset: 0xCCB058
     static void _cctor();
     // System.Reflection.Assembly <FromAssembliesContaining>b__8_0(System.Type t)
-    // Offset: 0xD6AE04
+    // Offset: 0xCCB0C8
     System::Reflection::Assembly* $FromAssembliesContaining$b__8_0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0xD6ADFC
+    // Offset: 0xCCB0C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionAssemblySelectionBinder::$$c* New_ctor();

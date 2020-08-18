@@ -104,40 +104,40 @@ namespace RootMotion::FinalIK {
     // Offset: 0x9C
     UnityEngine::Vector3 bone1TwistAxis;
     // public System.Boolean get_initiated()
-    // Offset: 0x13AE664
+    // Offset: 0x1310928
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x13AE66C
+    // Offset: 0x1310930
     void set_initiated(bool value);
     // public UnityEngine.Vector3 get_IKPosition()
-    // Offset: 0x13AE678
+    // Offset: 0x131093C
     UnityEngine::Vector3 get_IKPosition();
     // public System.Void set_IKPosition(UnityEngine.Vector3 value)
-    // Offset: 0x13AE698
+    // Offset: 0x131095C
     void set_IKPosition(UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_IKRotation()
-    // Offset: 0x13AE6B8
+    // Offset: 0x131097C
     UnityEngine::Quaternion get_IKRotation();
     // public System.Void set_IKRotation(UnityEngine.Quaternion value)
-    // Offset: 0x13AE6D8
+    // Offset: 0x131099C
     void set_IKRotation(UnityEngine::Quaternion value);
     // public System.Boolean IsValid(System.String errorMessage)
-    // Offset: 0x13AE6F8
+    // Offset: 0x13109BC
     bool IsValid(::Il2CppString*& errorMessage);
     // public System.Void Initiate(UnityEngine.Transform hand, System.Int32 index)
-    // Offset: 0x13AE804
+    // Offset: 0x1310AC8
     void Initiate(UnityEngine::Transform* hand, int index);
     // public System.Void FixTransforms()
-    // Offset: 0x13AEDB8
+    // Offset: 0x131107C
     void FixTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x13AEE94
+    // Offset: 0x1311158
     void StoreDefaultLocalState();
     // public System.Void Update(System.Single masterWeight)
-    // Offset: 0x13AEF5C
+    // Offset: 0x1311220
     void Update(float masterWeight);
     // public System.Void .ctor()
-    // Offset: 0x13AF6A4
+    // Offset: 0x1311968
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Finger* New_ctor();

@@ -15,8 +15,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Lazy`1<T>
   template<typename T>
@@ -54,12 +54,12 @@ namespace GlobalNamespace {
       // Offset: 0x0
       GlobalNamespace::AsyncCache_2<TKey, TValue>* $$4__this;
       // System.Threading.Tasks.Task`1<TValue> <get_Item>b__1()
-      // Offset: 0x128E9E8
+      // Offset: 0xFFFFFFFF
       System::Threading::Tasks::Task_1<TValue>* $get_Item$b__1() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TValue>*>(this, "<get_Item>b__1")));
       }
       // public System.Void .ctor()
-      // Offset: 0x128E9D0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename AsyncCache_2<TKey, TValue>::$$c__DisplayClass4_0* New_ctor() {
@@ -73,22 +73,22 @@ namespace GlobalNamespace {
     // Offset: 0x0
     System::Collections::Concurrent::ConcurrentDictionary_2<TKey, System::Lazy_1<System::Threading::Tasks::Task_1<TValue>*>*>* map;
     // public System.Void .ctor(System.Func`2<TKey,System.Threading.Tasks.Task`1<TValue>> valueFactory)
-    // Offset: 0x128EA24
+    // Offset: 0xFFFFFFFF
     static AsyncCache_2<TKey, TValue>* New_ctor(System::Func_2<TKey, System::Threading::Tasks::Task_1<TValue>*>* valueFactory) {
       return (AsyncCache_2<TKey, TValue>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncCache_2<TKey, TValue>*>::get(), valueFactory)));
     }
     // public System.Threading.Tasks.Task`1<TValue> get_Item(TKey key)
-    // Offset: 0x128EB20
+    // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<TValue>* get_Item(TKey key) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TValue>*>(this, "get_Item", key));
     }
     // public System.Void RemoveKey(TKey key)
-    // Offset: 0x128EC3C
+    // Offset: 0xFFFFFFFF
     void RemoveKey(TKey key) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "RemoveKey", key));
     }
     // private System.Lazy`1<System.Threading.Tasks.Task`1<TValue>> <get_Item>b__4_0(TKey toAdd)
-    // Offset: 0x128ECB4
+    // Offset: 0xFFFFFFFF
     System::Lazy_1<System::Threading::Tasks::Task_1<TValue>*>* $get_Item$b__4_0(TKey toAdd) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<System::Lazy_1<System::Threading::Tasks::Task_1<TValue>*>*>(this, "<get_Item>b__4_0", toAdd)));
     }

@@ -24,10 +24,10 @@ namespace HMUI {
     // Offset: 0x68
     TMPro::TextMeshProUGUI* text;
     // public System.Void SetText(System.String text)
-    // Offset: 0x10E65C0
+    // Offset: 0x1048884
     void SetText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x10E65DC
+    // Offset: 0x10488A0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

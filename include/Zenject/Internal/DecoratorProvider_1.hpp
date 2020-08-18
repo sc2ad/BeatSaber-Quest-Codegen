@@ -34,8 +34,8 @@ namespace Zenject {
   class IProvider;
   // Forward declaring type: DiContainer
   class DiContainer;
-  // Forward declaring type: IFactory`2<TValue, TParam1>
-  template<typename TValue, typename TParam1>
+  // Forward declaring type: IFactory`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class IFactory_2;
   // Forward declaring type: InjectContext
   class InjectContext;
@@ -60,32 +60,32 @@ namespace Zenject::Internal {
     // Offset: 0x0
     System::Collections::Generic::List_1<Zenject::IFactory_2<TContract, TContract>*>* decoratorFactories;
     // public System.Void .ctor(Zenject.DiContainer container)
-    // Offset: 0x13BED74
+    // Offset: 0xFFFFFFFF
     static DecoratorProvider_1<TContract>* New_ctor(Zenject::DiContainer* container) {
       return (DecoratorProvider_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DecoratorProvider_1<TContract>*>::get(), container));
     }
     // public System.Void AddFactoryId(System.Guid factoryBindId)
-    // Offset: 0x13BEE48
+    // Offset: 0xFFFFFFFF
     void AddFactoryId(System::Guid factoryBindId) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddFactoryId", factoryBindId));
     }
     // private System.Void LazyInitializeDecoratorFactories()
-    // Offset: 0x13BEEB8
+    // Offset: 0xFFFFFFFF
     void LazyInitializeDecoratorFactories() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "LazyInitializeDecoratorFactories"));
     }
     // private System.Void WrapProviderInstances(Zenject.IProvider provider, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x13BF1DC
+    // Offset: 0xFFFFFFFF
     void WrapProviderInstances(Zenject::IProvider* provider, Zenject::InjectContext* context, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WrapProviderInstances", provider, context, buffer));
     }
     // private System.Object DecorateInstance(System.Object instance, Zenject.InjectContext context)
-    // Offset: 0x13BF308
+    // Offset: 0xFFFFFFFF
     ::Il2CppObject* DecorateInstance(::Il2CppObject* instance, Zenject::InjectContext* context) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "DecorateInstance", instance, context));
     }
     // public System.Void GetAllInstances(Zenject.IProvider provider, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x13BF024
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.Internal.IDecoratorProvider
     // Base method: System.Void IDecoratorProvider::GetAllInstances(Zenject.IProvider provider, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstances(Zenject::IProvider* provider, Zenject::InjectContext* context, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {

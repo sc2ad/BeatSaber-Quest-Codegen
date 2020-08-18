@@ -30,10 +30,10 @@ namespace Zenject {
     // Offset: 0x10
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* parents;
     // System.Boolean <Install>b__0(Zenject.DiContainer x)
-    // Offset: 0xFC82F0
+    // Offset: 0xF285B4
     bool $Install$b__0(Zenject::DiContainer* x);
     // public System.Void .ctor()
-    // Offset: 0xFC7530
+    // Offset: 0xF277F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SceneContext::$$c__DisplayClass50_0* New_ctor();

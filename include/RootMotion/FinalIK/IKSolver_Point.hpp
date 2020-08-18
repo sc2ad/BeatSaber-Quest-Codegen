@@ -43,25 +43,25 @@ namespace RootMotion::FinalIK {
     // Offset: 0x44
     UnityEngine::Quaternion defaultLocalRotation;
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1381714
+    // Offset: 0x12E29D8
     void StoreDefaultLocalState();
     // public System.Void FixTransform()
-    // Offset: 0x1381764
+    // Offset: 0x12E2A28
     void FixTransform();
     // public System.Void UpdateSolverPosition()
-    // Offset: 0x13818EC
+    // Offset: 0x12E2BB0
     void UpdateSolverPosition();
     // public System.Void UpdateSolverLocalPosition()
-    // Offset: 0x1381924
+    // Offset: 0x12E2BE8
     void UpdateSolverLocalPosition();
     // public System.Void UpdateSolverState()
-    // Offset: 0x138195C
+    // Offset: 0x12E2C20
     void UpdateSolverState();
     // public System.Void UpdateSolverLocalState()
-    // Offset: 0x13819AC
+    // Offset: 0x12E2C70
     void UpdateSolverLocalState();
     // public System.Void .ctor()
-    // Offset: 0x13811B0
+    // Offset: 0x12E2474
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKSolver::Point* New_ctor();

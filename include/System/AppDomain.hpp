@@ -152,135 +152,135 @@ namespace System {
     // Set static field: static private System.AppDomain default_domain
     static void _set_default_domain(System::AppDomain* value);
     // private System.String getFriendlyName()
-    // Offset: 0x10B812C
+    // Offset: 0x101A3F0
     ::Il2CppString* getFriendlyName();
     // public System.String get_FriendlyName()
-    // Offset: 0x10B8130
+    // Offset: 0x101A3F4
     ::Il2CppString* get_FriendlyName();
     // System.Security.Principal.IPrincipal get_DefaultPrincipal()
-    // Offset: 0x10B8134
+    // Offset: 0x101A3F8
     System::Security::Principal::IPrincipal* get_DefaultPrincipal();
     // static private System.AppDomain getCurDomain()
-    // Offset: 0x10B82B4
+    // Offset: 0x101A578
     static System::AppDomain* getCurDomain();
     // static public System.AppDomain get_CurrentDomain()
-    // Offset: 0x10B82B8
+    // Offset: 0x101A57C
     static System::AppDomain* get_CurrentDomain();
     // private System.Reflection.Assembly[] GetAssemblies(System.Boolean refOnly)
-    // Offset: 0x10B82BC
+    // Offset: 0x101A580
     ::Array<System::Reflection::Assembly*>* GetAssemblies(bool refOnly);
     // public System.Reflection.Assembly[] GetAssemblies()
-    // Offset: 0x10B82C4
+    // Offset: 0x101A588
     ::Array<System::Reflection::Assembly*>* GetAssemblies();
     // public System.Object GetData(System.String name)
-    // Offset: 0x10B82CC
+    // Offset: 0x101A590
     ::Il2CppObject* GetData(::Il2CppString* name);
     // System.Reflection.Assembly LoadAssembly(System.String assemblyRef, System.Security.Policy.Evidence securityEvidence, System.Boolean refOnly)
-    // Offset: 0x10B82D8
+    // Offset: 0x101A59C
     System::Reflection::Assembly* LoadAssembly(::Il2CppString* assemblyRef, System::Security::Policy::Evidence* securityEvidence, bool refOnly);
     // System.Reflection.Assembly LoadSatellite(System.Reflection.AssemblyName assemblyRef, System.Boolean throwOnError)
-    // Offset: 0x10B82E0
+    // Offset: 0x101A5A4
     System::Reflection::Assembly* LoadSatellite(System::Reflection::AssemblyName* assemblyRef, bool throwOnError);
     // public System.Reflection.Assembly Load(System.String assemblyString)
-    // Offset: 0x10B83EC
+    // Offset: 0x101A6B0
     System::Reflection::Assembly* Load(::Il2CppString* assemblyString);
     // System.Reflection.Assembly Load(System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly)
-    // Offset: 0x10B83F8
+    // Offset: 0x101A6BC
     System::Reflection::Assembly* Load(::Il2CppString* assemblyString, System::Security::Policy::Evidence* assemblySecurity, bool refonly);
     // static private System.AppDomain InternalSetDomainByID(System.Int32 domain_id)
-    // Offset: 0x10B8524
+    // Offset: 0x101A7E8
     static System::AppDomain* InternalSetDomainByID(int domain_id);
     // static private System.AppDomain InternalSetDomain(System.AppDomain context)
-    // Offset: 0x10B8528
+    // Offset: 0x101A7EC
     static System::AppDomain* InternalSetDomain(System::AppDomain* context);
     // static System.Void InternalPushDomainRefByID(System.Int32 domain_id)
-    // Offset: 0x10B852C
+    // Offset: 0x101A7F0
     static void InternalPushDomainRefByID(int domain_id);
     // static System.Void InternalPopDomainRef()
-    // Offset: 0x10B8530
+    // Offset: 0x101A7F4
     static void InternalPopDomainRef();
     // static System.Runtime.Remoting.Contexts.Context InternalSetContext(System.Runtime.Remoting.Contexts.Context context)
-    // Offset: 0x10B8534
+    // Offset: 0x101A7F8
     static System::Runtime::Remoting::Contexts::Context* InternalSetContext(System::Runtime::Remoting::Contexts::Context* context);
     // static System.Runtime.Remoting.Contexts.Context InternalGetContext()
-    // Offset: 0x10B8538
+    // Offset: 0x101A7FC
     static System::Runtime::Remoting::Contexts::Context* InternalGetContext();
     // static System.Runtime.Remoting.Contexts.Context InternalGetDefaultContext()
-    // Offset: 0x10B853C
+    // Offset: 0x101A800
     static System::Runtime::Remoting::Contexts::Context* InternalGetDefaultContext();
     // static System.String InternalGetProcessGuid(System.String newguid)
-    // Offset: 0x10B8540
+    // Offset: 0x101A804
     static ::Il2CppString* InternalGetProcessGuid(::Il2CppString* newguid);
     // static System.Object InvokeInDomainByID(System.Int32 domain_id, System.Reflection.MethodInfo method, System.Object obj, System.Object[] args)
-    // Offset: 0x10B8544
+    // Offset: 0x101A808
     static ::Il2CppObject* InvokeInDomainByID(int domain_id, System::Reflection::MethodInfo* method, ::Il2CppObject* obj, ::Array<::Il2CppObject*>* args);
     // static System.String GetProcessGuid()
-    // Offset: 0x10B8694
+    // Offset: 0x101A958
     static ::Il2CppString* GetProcessGuid();
     // static private System.Boolean InternalIsFinalizingForUnload(System.Int32 domain_id)
-    // Offset: 0x10B8754
+    // Offset: 0x101AA18
     static bool InternalIsFinalizingForUnload(int domain_id);
     // public System.Boolean IsFinalizingForUnload()
-    // Offset: 0x10B8758
+    // Offset: 0x101AA1C
     bool IsFinalizingForUnload();
     // private System.Int32 getDomainID()
-    // Offset: 0x10B8770
+    // Offset: 0x101AA34
     int getDomainID();
     // static public System.Int32 GetCurrentThreadId()
-    // Offset: 0x10B8778
+    // Offset: 0x101AA3C
     static int GetCurrentThreadId();
     // private System.Void DoAssemblyLoad(System.Reflection.Assembly assembly)
-    // Offset: 0x10B8784
+    // Offset: 0x101AA48
     void DoAssemblyLoad(System::Reflection::Assembly* assembly);
     // private System.Reflection.Assembly DoAssemblyResolve(System.String name, System.Reflection.Assembly requestingAssembly, System.Boolean refonly)
-    // Offset: 0x10B8818
+    // Offset: 0x101AADC
     System::Reflection::Assembly* DoAssemblyResolve(::Il2CppString* name, System::Reflection::Assembly* requestingAssembly, bool refonly);
     // System.Reflection.Assembly DoTypeResolve(System.Object name_or_tb)
-    // Offset: 0x10B8AB8
+    // Offset: 0x101AD7C
     System::Reflection::Assembly* DoTypeResolve(::Il2CppObject* name_or_tb);
     // System.Reflection.Assembly DoResourceResolve(System.String name, System.Reflection.Assembly requesting)
-    // Offset: 0x10B8D2C
+    // Offset: 0x101AFF0
     System::Reflection::Assembly* DoResourceResolve(::Il2CppString* name, System::Reflection::Assembly* requesting);
     // private System.Void DoDomainUnload()
-    // Offset: 0x10B8E64
+    // Offset: 0x101B128
     void DoDomainUnload();
     // System.Byte[] GetMarshalledDomainObjRef()
-    // Offset: 0x10B8E80
+    // Offset: 0x101B144
     ::Array<uint8_t>* GetMarshalledDomainObjRef();
     // System.Void ProcessMessageInDomain(System.Byte[] arrRequest, System.Runtime.Remoting.Messaging.CADMethodCallMessage cadMsg, System.Byte[] arrResponse, System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm)
-    // Offset: 0x10B8F58
+    // Offset: 0x101B21C
     void ProcessMessageInDomain(::Array<uint8_t>* arrRequest, System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg, ::Array<uint8_t>*& arrResponse, System::Runtime::Remoting::Messaging::CADMethodReturnMessage*& cadMrm);
     // public System.Void add_DomainUnload(System.EventHandler value)
-    // Offset: 0x10B90A0
+    // Offset: 0x101B364
     void add_DomainUnload(System::EventHandler* value);
     // public System.Void remove_DomainUnload(System.EventHandler value)
-    // Offset: 0x10B9144
+    // Offset: 0x101B408
     void remove_DomainUnload(System::EventHandler* value);
     // public System.Void add_ProcessExit(System.EventHandler value)
-    // Offset: 0x10B91E8
+    // Offset: 0x101B4AC
     void add_ProcessExit(System::EventHandler* value);
     // public System.Void remove_ProcessExit(System.EventHandler value)
-    // Offset: 0x10B928C
+    // Offset: 0x101B550
     void remove_ProcessExit(System::EventHandler* value);
     // public System.Void add_UnhandledException(System.UnhandledExceptionEventHandler value)
-    // Offset: 0x10B9330
+    // Offset: 0x101B5F4
     void add_UnhandledException(System::UnhandledExceptionEventHandler* value);
     // public System.Void remove_UnhandledException(System.UnhandledExceptionEventHandler value)
-    // Offset: 0x10B93D4
+    // Offset: 0x101B698
     void remove_UnhandledException(System::UnhandledExceptionEventHandler* value);
     // private System.Void .ctor()
-    // Offset: 0x10B8124
+    // Offset: 0x101A3E8
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static AppDomain* New_ctor();
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x10B82D0
+    // Offset: 0x101A594
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();
     // public override System.String ToString()
-    // Offset: 0x10B8780
+    // Offset: 0x101AA44
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

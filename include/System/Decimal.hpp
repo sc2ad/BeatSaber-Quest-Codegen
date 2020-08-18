@@ -135,111 +135,111 @@ namespace System {
     // Creating value type constructor for type: Decimal
     Decimal(int flags_ = {}, int hi_ = {}, int lo_ = {}, int mid_ = {}) : flags{flags_}, hi{hi_}, lo{lo_}, mid{mid_} {}
     // public System.Void .ctor(System.Int32 value)
-    // Offset: 0xA283DC
+    // Offset: 0x9928A8
     static Decimal* New_ctor(int value);
     // public System.Void .ctor(System.UInt32 value)
-    // Offset: 0xA28400
+    // Offset: 0x9928CC
     static Decimal* New_ctor(uint value);
     // public System.Void .ctor(System.Int64 value)
-    // Offset: 0xA2840C
+    // Offset: 0x9928D8
     static Decimal* New_ctor(int64_t value);
     // public System.Void .ctor(System.UInt64 value)
-    // Offset: 0xA28434
+    // Offset: 0x992900
     static Decimal* New_ctor(uint64_t value);
     // public System.Void .ctor(System.Single value)
-    // Offset: 0xA28444
+    // Offset: 0x992910
     static Decimal* New_ctor(float value);
     // public System.Void .ctor(System.Double value)
-    // Offset: 0xA2844C
+    // Offset: 0x992918
     static Decimal* New_ctor(double value);
     // public System.Void .ctor(System.Int32[] bits)
-    // Offset: 0xA28454
+    // Offset: 0x992920
     static Decimal* New_ctor(::Array<int>* bits);
     // private System.Void SetBits(System.Int32[] bits)
-    // Offset: 0xA2845C
+    // Offset: 0x992928
     void SetBits(::Array<int>* bits);
     // public System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Boolean isNegative, System.Byte scale)
-    // Offset: 0xA28464
+    // Offset: 0x992930
     static Decimal* New_ctor(int lo, int mid, int hi, bool isNegative, uint8_t scale);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0xA28470
+    // Offset: 0x99293C
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Int32 flags)
-    // Offset: 0xA28480
+    // Offset: 0x99294C
     static Decimal* New_ctor(int lo, int mid, int hi, int flags);
     // static System.Decimal Abs(System.Decimal d)
-    // Offset: 0xC889F0
+    // Offset: 0xBE8CB4
     static System::Decimal Abs(System::Decimal d);
     // static private System.Void FCallAddSub(System.Decimal d1, System.Decimal d2, System.Byte bSign)
-    // Offset: 0xC88A24
+    // Offset: 0xBE8CE8
     static void FCallAddSub(System::Decimal& d1, System::Decimal& d2, uint8_t bSign);
     // static private System.Int32 FCallCompare(System.Decimal d1, System.Decimal d2)
-    // Offset: 0xC88A28
+    // Offset: 0xBE8CEC
     static int FCallCompare(System::Decimal& d1, System::Decimal& d2);
     // static public System.Decimal Parse(System.String s, System.IFormatProvider provider)
-    // Offset: 0xC88D9C
+    // Offset: 0xBE9060
     static System::Decimal Parse(::Il2CppString* s, System::IFormatProvider* provider);
     // static public System.Decimal Parse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider)
-    // Offset: 0xC88DD4
+    // Offset: 0xBE9098
     static System::Decimal Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
     // static public System.Int32[] GetBits(System.Decimal d)
-    // Offset: 0xC8872C
+    // Offset: 0xBE89F0
     static ::Array<int>* GetBits(System::Decimal d);
     // static System.Decimal ToDecimal(System.Byte[] buffer)
-    // Offset: 0xC88E28
+    // Offset: 0xBE90EC
     static System::Decimal ToDecimal(::Array<uint8_t>* buffer);
     // static public System.Decimal Round(System.Decimal d, System.Int32 decimals)
-    // Offset: 0xC88F54
+    // Offset: 0xBE9218
     static System::Decimal Round(System::Decimal d, int decimals);
     // static private System.Void FCallRound(System.Decimal d, System.Int32 decimals)
-    // Offset: 0xC88FD0
+    // Offset: 0xBE9294
     static void FCallRound(System::Decimal& d, int decimals);
     // static public System.Byte ToByte(System.Decimal value)
-    // Offset: 0xC88FD4
+    // Offset: 0xBE9298
     static uint8_t ToByte(System::Decimal value);
     // static public System.SByte ToSByte(System.Decimal value)
-    // Offset: 0xC89258
+    // Offset: 0xBE951C
     static int8_t ToSByte(System::Decimal value);
     // static public System.Int16 ToInt16(System.Decimal value)
-    // Offset: 0xC894EC
+    // Offset: 0xBE97B0
     static int16_t ToInt16(System::Decimal value);
     // static public System.Double ToDouble(System.Decimal d)
-    // Offset: 0xC8967C
+    // Offset: 0xBE9940
     static double ToDouble(System::Decimal d);
     // static System.Int32 FCallToInt32(System.Decimal d)
-    // Offset: 0xC89680
+    // Offset: 0xBE9944
     static int FCallToInt32(System::Decimal d);
     // static public System.Int32 ToInt32(System.Decimal d)
-    // Offset: 0xC893E8
+    // Offset: 0xBE96AC
     static int ToInt32(System::Decimal d);
     // static public System.Int64 ToInt64(System.Decimal d)
-    // Offset: 0xC89688
+    // Offset: 0xBE994C
     static int64_t ToInt64(System::Decimal d);
     // static public System.UInt16 ToUInt16(System.Decimal value)
-    // Offset: 0xC89784
+    // Offset: 0xBE9A48
     static uint16_t ToUInt16(System::Decimal value);
     // static public System.UInt32 ToUInt32(System.Decimal d)
-    // Offset: 0xC89160
+    // Offset: 0xBE9424
     static uint ToUInt32(System::Decimal d);
     // static public System.UInt64 ToUInt64(System.Decimal d)
-    // Offset: 0xC89910
+    // Offset: 0xBE9BD4
     static uint64_t ToUInt64(System::Decimal d);
     // static public System.Single ToSingle(System.Decimal d)
-    // Offset: 0xC89A00
+    // Offset: 0xBE9CC4
     static float ToSingle(System::Decimal d);
     // static private System.Void FCallTruncate(System.Decimal d)
-    // Offset: 0xC89684
+    // Offset: 0xBE9948
     static void FCallTruncate(System::Decimal& d);
     // static private System.Void .cctor()
-    // Offset: 0xC8A5B4
+    // Offset: 0xBEA878
     static void _cctor();
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0xA28478
+    // Offset: 0x992944
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // public System.Int32 CompareTo(System.Object value)
-    // Offset: 0xA28488
+    // Offset: 0x992954
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
     int CompareTo(::Il2CppObject* value);
@@ -247,135 +247,135 @@ namespace System {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.Decimal value)
-    // Offset: 0xA28490
+    // Offset: 0x99295C
     // Implemented from: System.IComparable`1
     // Base method: System.Int32 IComparable`1::CompareTo(System.Decimal value)
     int CompareTo(System::Decimal value);
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0xA28498
+    // Offset: 0x992964
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public System.Boolean Equals(System.Decimal value)
-    // Offset: 0xA284A0
+    // Offset: 0x99296C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(System.Decimal value)
     bool Equals(System::Decimal value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA284A8
+    // Offset: 0x992974
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xA284B0
+    // Offset: 0x99297C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public System.String ToString(System.IFormatProvider provider)
-    // Offset: 0xA284E8
+    // Offset: 0x9929B4
     // Implemented from: System.IConvertible
     // Base method: System.String IConvertible::ToString(System.IFormatProvider provider)
     ::Il2CppString* ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
-    // Offset: 0xA28524
+    // Offset: 0x9929F0
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
     // public System.TypeCode GetTypeCode()
-    // Offset: 0xA2856C
+    // Offset: 0x992A38
     // Implemented from: System.IConvertible
     // Base method: System.TypeCode IConvertible::GetTypeCode()
     System::TypeCode GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
-    // Offset: 0xA28574
+    // Offset: 0x992A40
     // Implemented from: System.IConvertible
     // Base method: System.Boolean IConvertible::ToBoolean(System.IFormatProvider provider)
     bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
-    // Offset: 0xA2857C
+    // Offset: 0x992A48
     // Implemented from: System.IConvertible
     // Base method: System.Char IConvertible::ToChar(System.IFormatProvider provider)
     ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
-    // Offset: 0xA28588
+    // Offset: 0x992A54
     // Implemented from: System.IConvertible
     // Base method: System.SByte IConvertible::ToSByte(System.IFormatProvider provider)
     int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
-    // Offset: 0xA28590
+    // Offset: 0x992A5C
     // Implemented from: System.IConvertible
     // Base method: System.Byte IConvertible::ToByte(System.IFormatProvider provider)
     uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
-    // Offset: 0xA28598
+    // Offset: 0x992A64
     // Implemented from: System.IConvertible
     // Base method: System.Int16 IConvertible::ToInt16(System.IFormatProvider provider)
     int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
-    // Offset: 0xA285A0
+    // Offset: 0x992A6C
     // Implemented from: System.IConvertible
     // Base method: System.UInt16 IConvertible::ToUInt16(System.IFormatProvider provider)
     uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
-    // Offset: 0xA285A8
+    // Offset: 0x992A74
     // Implemented from: System.IConvertible
     // Base method: System.Int32 IConvertible::ToInt32(System.IFormatProvider provider)
     int System_IConvertible_ToInt32(System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
-    // Offset: 0xA285B0
+    // Offset: 0x992A7C
     // Implemented from: System.IConvertible
     // Base method: System.UInt32 IConvertible::ToUInt32(System.IFormatProvider provider)
     uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
-    // Offset: 0xA285B8
+    // Offset: 0x992A84
     // Implemented from: System.IConvertible
     // Base method: System.Int64 IConvertible::ToInt64(System.IFormatProvider provider)
     int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
-    // Offset: 0xA285C0
+    // Offset: 0x992A8C
     // Implemented from: System.IConvertible
     // Base method: System.UInt64 IConvertible::ToUInt64(System.IFormatProvider provider)
     uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
-    // Offset: 0xA285C8
+    // Offset: 0x992A94
     // Implemented from: System.IConvertible
     // Base method: System.Single IConvertible::ToSingle(System.IFormatProvider provider)
     float System_IConvertible_ToSingle(System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
-    // Offset: 0xA285D0
+    // Offset: 0x992A9C
     // Implemented from: System.IConvertible
     // Base method: System.Double IConvertible::ToDouble(System.IFormatProvider provider)
     double System_IConvertible_ToDouble(System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
-    // Offset: 0xA285D8
+    // Offset: 0x992AA4
     // Implemented from: System.IConvertible
     // Base method: System.Decimal IConvertible::ToDecimal(System.IFormatProvider provider)
     System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
-    // Offset: 0xA285E4
+    // Offset: 0x992AB0
     // Implemented from: System.IConvertible
     // Base method: System.DateTime IConvertible::ToDateTime(System.IFormatProvider provider)
     System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type type, System.IFormatProvider provider)
-    // Offset: 0xA285F0
+    // Offset: 0x992ABC
     // Implemented from: System.IConvertible
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Decimal
   // static public System.Decimal op_Subtraction(System.Decimal d1, System.Decimal d2)
-  // Offset: 0xC89BC0
+  // Offset: 0xBE9E84
   System::Decimal operator-(const System::Decimal& d1, const System::Decimal& d2);
   // static public System.Boolean op_Equality(System.Decimal d1, System.Decimal d2)
-  // Offset: 0xC89C40
+  // Offset: 0xBE9F04
   bool operator ==(const System::Decimal& d1, const System::Decimal& d2);
   // static public System.Boolean op_Inequality(System.Decimal d1, System.Decimal d2)
-  // Offset: 0xC89CC0
+  // Offset: 0xBE9F84
   bool operator !=(const System::Decimal& d1, const System::Decimal& d2);
   // static public System.Boolean op_LessThanOrEqual(System.Decimal d1, System.Decimal d2)
-  // Offset: 0xC89D40
+  // Offset: 0xBEA004
   bool operator <=(const System::Decimal& d1, const System::Decimal& d2);
   // static public System.Boolean op_GreaterThan(System.Decimal d1, System.Decimal d2)
-  // Offset: 0xC89DC0
+  // Offset: 0xBEA084
   bool operator >(const System::Decimal& d1, const System::Decimal& d2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

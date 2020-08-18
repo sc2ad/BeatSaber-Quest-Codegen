@@ -93,46 +93,46 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Vector2 k_InfinityVectorNegative
     static void _set_k_InfinityVectorNegative(UnityEngine::Vector2 value);
     // public System.Void .ctor(TMPro.TMP_Text textComponent)
-    // Offset: 0xDBD964
+    // Offset: 0xD1EC28
     static TMP_TextInfo* New_ctor(TMPro::TMP_Text* textComponent);
     // public System.Void Clear()
-    // Offset: 0xDBDAF8
+    // Offset: 0xD1EDBC
     void Clear();
     // public System.Void ClearMeshInfo(System.Boolean updateMesh)
-    // Offset: 0xDBDB5C
+    // Offset: 0xD1EE20
     void ClearMeshInfo(bool updateMesh);
     // public System.Void ClearAllMeshInfo()
-    // Offset: 0xDBDBDC
+    // Offset: 0xD1EEA0
     void ClearAllMeshInfo();
     // public System.Void ResetVertexLayout(System.Boolean isVolumetric)
-    // Offset: 0xDBDC58
+    // Offset: 0xD1EF1C
     void ResetVertexLayout(bool isVolumetric);
     // public System.Void ClearUnusedVertices(TMPro.MaterialReference[] materials)
-    // Offset: 0xDBDCDC
+    // Offset: 0xD1EFA0
     void ClearUnusedVertices(::Array<TMPro::MaterialReference>* materials);
     // public System.Void ClearLineInfo()
-    // Offset: 0xDBDD58
+    // Offset: 0xD1F01C
     void ClearLineInfo();
     // public TMPro.TMP_MeshInfo[] CopyMeshInfoVertexData()
-    // Offset: 0xDBDF68
+    // Offset: 0xD1F22C
     ::Array<TMPro::TMP_MeshInfo>* CopyMeshInfoVertexData();
     // static public System.Void Resize(T[] array, System.Int32 size)
-    // Offset: 0xC588F4
+    // Offset: 0xFFFFFFFF
     template<class T>
     static void Resize(::Array<T>*& array, int size) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("TMPro", "TMP_TextInfo", "Resize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array, size));
     }
     // static public System.Void Resize(T[] array, System.Int32 size, System.Boolean isBlockAllocated)
-    // Offset: 0xC58994
+    // Offset: 0xFFFFFFFF
     template<class T>
     static void Resize(::Array<T>*& array, int size, bool isBlockAllocated) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("TMPro", "TMP_TextInfo", "Resize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array, size, isBlockAllocated));
     }
     // static private System.Void .cctor()
-    // Offset: 0xDBE394
+    // Offset: 0xD1F658
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xDBD844
+    // Offset: 0xD1EB08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextInfo* New_ctor();

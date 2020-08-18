@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::AudioSource* audioSource;
     // public System.Void .ctor()
-    // Offset: 0xBE54EC
+    // Offset: 0x192CACC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

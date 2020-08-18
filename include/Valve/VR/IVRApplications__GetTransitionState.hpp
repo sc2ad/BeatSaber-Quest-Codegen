@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRApplications::_GetTransitionState : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xFE42B0
+    // Offset: 0xF45574
     static IVRApplications::_GetTransitionState* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationTransitionState Invoke()
-    // Offset: 0xFDBA14
+    // Offset: 0xF3CCD8
     Valve::VR::EVRApplicationTransitionState Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xFE42C4
+    // Offset: 0xF45588
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationTransitionState EndInvoke(System.IAsyncResult result)
-    // Offset: 0xFE42F0
+    // Offset: 0xF455B4
     Valve::VR::EVRApplicationTransitionState EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetTransitionState
 }

@@ -62,12 +62,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $LoadBeatmapLevelAsync$d__4
     $LoadBeatmapLevelAsync$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> $$t__builder_ = {}, GlobalNamespace::BeatmapLevelLoader* $$4__this_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewLevel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::IBeatmapLevel* $level$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> $$u__3_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, previewLevel{previewLevel_}, cancellationToken{cancellationToken_}, $level$5__2{$level$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // private System.Void MoveNext()
-    // Offset: 0xA26920
+    // Offset: 0xADA718
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xA26928
+    // Offset: 0xADA720
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

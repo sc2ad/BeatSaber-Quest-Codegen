@@ -39,28 +39,28 @@ namespace UnityEngine::Networking {
     // Offset: 0x21
     bool mNonReadable;
     // static private System.IntPtr Create(UnityEngine.Networking.DownloadHandlerTexture obj, System.Boolean readable)
-    // Offset: 0x197951C
+    // Offset: 0x18D3460
     static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerTexture* obj, bool readable);
     // private System.Void InternalCreateTexture(System.Boolean readable)
-    // Offset: 0x197956C
+    // Offset: 0x18D34B0
     void InternalCreateTexture(bool readable);
     // public System.Void .ctor(System.Boolean readable)
-    // Offset: 0x19795C4
+    // Offset: 0x18D3508
     static DownloadHandlerTexture* New_ctor(bool readable);
     // public UnityEngine.Texture2D get_texture()
-    // Offset: 0x1979638
+    // Offset: 0x18D357C
     UnityEngine::Texture2D* get_texture();
     // private UnityEngine.Texture2D InternalGetTexture()
-    // Offset: 0x197963C
+    // Offset: 0x18D3580
     UnityEngine::Texture2D* InternalGetTexture();
     // private UnityEngine.Texture2D InternalGetTextureNative()
-    // Offset: 0x1979790
+    // Offset: 0x18D36D4
     UnityEngine::Texture2D* InternalGetTextureNative();
     // static public UnityEngine.Texture2D GetContent(UnityEngine.Networking.UnityWebRequest www)
-    // Offset: 0x19797D0
+    // Offset: 0x18D3714
     static UnityEngine::Texture2D* GetContent(UnityEngine::Networking::UnityWebRequest* www);
     // protected override System.Byte[] GetData()
-    // Offset: 0x1979630
+    // Offset: 0x18D3574
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Byte[] DownloadHandler::GetData()
     ::Array<uint8_t>* GetData();

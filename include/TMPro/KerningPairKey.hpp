@@ -24,7 +24,7 @@ namespace TMPro {
     // Creating value type constructor for type: KerningPairKey
     KerningPairKey(uint ascii_Left_ = {}, uint ascii_Right_ = {}, uint key_ = {}) : ascii_Left{ascii_Left_}, ascii_Right{ascii_Right_}, key{key_} {}
     // public System.Void .ctor(System.UInt32 ascii_left, System.UInt32 ascii_right)
-    // Offset: 0xA26F88
+    // Offset: 0x991C68
     static KerningPairKey* New_ctor(uint ascii_left, uint ascii_right);
   }; // TMPro.KerningPairKey
 }

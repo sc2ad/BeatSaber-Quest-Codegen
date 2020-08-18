@@ -20,28 +20,28 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32[] p
     static void _set_p(::Array<int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xCB76F0
+    // Offset: 0xC179B4
     static void _cctor();
     // static public System.Single OctavePerlin3D(System.Single x, System.Single y, System.Single z, System.Int32 octaves, System.Single persistence, System.Int32 repeat)
-    // Offset: 0xCB7804
+    // Offset: 0xC17AC8
     static float OctavePerlin3D(float x, float y, float z, int octaves, float persistence, int repeat);
     // static public System.Single Perlin3D(System.Single x, System.Single y, System.Single z, System.Int32 repeat)
-    // Offset: 0xCB78F8
+    // Offset: 0xC17BBC
     static float Perlin3D(float x, float y, float z, int repeat);
     // static private System.Int32 Inc(System.Int32 num, System.Int32 repeat)
-    // Offset: 0xCB7E6C
+    // Offset: 0xC18130
     static int Inc(int num, int repeat);
     // static private System.Single Grad3D(System.Int32 hash, System.Single x, System.Single y, System.Single z)
-    // Offset: 0xCB7E84
+    // Offset: 0xC18148
     static float Grad3D(int hash, float x, float y, float z);
     // static private System.Single Fade(System.Single t)
-    // Offset: 0xCB7E40
+    // Offset: 0xC18104
     static float Fade(float t);
     // static private System.Single Lerp(System.Single a, System.Single b, System.Single x)
-    // Offset: 0xCB7F00
+    // Offset: 0xC181C4
     static float Lerp(float a, float b, float x);
     // public System.Void .ctor()
-    // Offset: 0xCB7F10
+    // Offset: 0xC181D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PerlinNoise* New_ctor();

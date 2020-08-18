@@ -31,16 +31,16 @@ namespace System::Runtime::Remoting::Lifetime {
   class Lease::RenewalDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x105BD0C
+    // Offset: 0xFBDFD0
     static Lease::RenewalDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.TimeSpan Invoke(System.Runtime.Remoting.Lifetime.ILease lease)
-    // Offset: 0x105BF58
+    // Offset: 0xFBE21C
     System::TimeSpan Invoke(System::Runtime::Remoting::Lifetime::ILease* lease);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Remoting.Lifetime.ILease lease, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x105BD20
+    // Offset: 0xFBDFE4
     System::IAsyncResult* BeginInvoke(System::Runtime::Remoting::Lifetime::ILease* lease, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.TimeSpan EndInvoke(System.IAsyncResult result)
-    // Offset: 0x105BF2C
+    // Offset: 0xFBE1F0
     System::TimeSpan EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Remoting.Lifetime.Lease/RenewalDelegate
 }

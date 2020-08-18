@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithHttpTransferUpdate : public Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*> {
     public:
     // protected Oculus.Platform.Models.HttpTransferUpdate GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE9F3A4
+    // Offset: 0xDFE668
     Oculus::Platform::Models::HttpTransferUpdate* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9BC64
+    // Offset: 0xDFAF28
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithHttpTransferUpdate* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.HttpTransferUpdate GetHttpTransferUpdate()
-    // Offset: 0xE9F360
+    // Offset: 0xDFE624
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.HttpTransferUpdate Message::GetHttpTransferUpdate()
     Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();

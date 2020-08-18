@@ -55,16 +55,16 @@ namespace GlobalNamespace {
     // Offset: 0x50
     bool sabersAreClashing;
     // protected System.Void Start()
-    // Offset: 0xC2431C
+    // Offset: 0xB9C358
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0xC244F8
+    // Offset: 0xB9C534
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xC24508
+    // Offset: 0xB9C544
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC24604
+    // Offset: 0xB9C640
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

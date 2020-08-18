@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_PerformFirmwareUpdate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16B5740
+    // Offset: 0x1617A78
     static IVRSystem::_PerformFirmwareUpdate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRFirmwareError Invoke(System.UInt32 unDeviceIndex)
-    // Offset: 0x16B5754
+    // Offset: 0x1617A8C
     OVR::OpenVR::EVRFirmwareError Invoke(uint unDeviceIndex);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16B59C8
+    // Offset: 0x1617D00
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRFirmwareError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16B5A54
+    // Offset: 0x1617D8C
     OVR::OpenVR::EVRFirmwareError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_PerformFirmwareUpdate
 }

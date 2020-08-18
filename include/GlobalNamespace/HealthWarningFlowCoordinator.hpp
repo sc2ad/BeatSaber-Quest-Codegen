@@ -82,51 +82,51 @@ namespace GlobalNamespace {
     // Offset: 0xF8
     System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles;
     // protected System.Void Update()
-    // Offset: 0xB41590
+    // Offset: 0xB4425C
     void Update();
     // private System.Void HandleEulaViewControllerdidFinish(System.Boolean agreed)
-    // Offset: 0xB415D0
+    // Offset: 0xB4429C
     void HandleEulaViewControllerdidFinish(bool agreed);
     // private System.Void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed()
-    // Offset: 0xB41644
+    // Offset: 0xB44310
     void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed()
-    // Offset: 0xB41658
+    // Offset: 0xB44324
     void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerdidFinish()
-    // Offset: 0xB415CC
+    // Offset: 0xB44298
     void HandleHealthWarningViewControllerdidFinish();
     // private System.Void HandleOnlineServicesViewControllerDidFinish(System.Boolean value)
-    // Offset: 0xB41764
+    // Offset: 0xB44430
     void HandleOnlineServicesViewControllerDidFinish(bool value);
     // private System.Void GoToNextScene()
-    // Offset: 0xB41728
+    // Offset: 0xB443F4
     void GoToNextScene();
     // private System.Void <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__18_0(System.Int32 button)
-    // Offset: 0xB41884
+    // Offset: 0xB44550
     void $HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__18_0(int button);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0xB40C40
+    // Offset: 0xB4390C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    // Offset: 0xB4113C
+    // Offset: 0xB43E08
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
     void DidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
-    // Offset: 0xB414CC
+    // Offset: 0xB44198
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, bool immediately);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0xB417D4
+    // Offset: 0xB444A0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0xB4187C
+    // Offset: 0xB44548
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

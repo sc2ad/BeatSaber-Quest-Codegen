@@ -35,28 +35,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::InteractionTrigger::Range*>* ranges;
     // private System.Void OpenUserManual()
-    // Offset: 0x122953C
+    // Offset: 0x118C800
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x1229588
+    // Offset: 0x118C84C
     void OpenScriptReference();
     // private System.Void OpenTutorial4()
-    // Offset: 0x12295D4
+    // Offset: 0x118C898
     void OpenTutorial4();
     // private System.Void SupportGroup()
-    // Offset: 0x1229620
+    // Offset: 0x118C8E4
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x122966C
+    // Offset: 0x118C930
     void ASThread();
     // private System.Void Start()
-    // Offset: 0x12296B8
+    // Offset: 0x118C97C
     void Start();
     // public System.Int32 GetBestRangeIndex(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit)
-    // Offset: 0x12296BC
+    // Offset: 0x118C980
     int GetBestRangeIndex(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit);
     // public System.Void .ctor()
-    // Offset: 0x1229A50
+    // Offset: 0x118CD14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

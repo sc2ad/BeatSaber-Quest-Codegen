@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int number;
     // public System.Void .ctor()
-    // Offset: 0xCB59F8
+    // Offset: 0xC15CBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

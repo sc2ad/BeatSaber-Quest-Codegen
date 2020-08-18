@@ -92,40 +92,40 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x31
     bool isOnGrid;
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector3> get_controlPoints()
-    // Offset: 0x102B118
+    // Offset: 0xF8D3DC
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Vector3>* get_controlPoints();
     // public System.Void SetControlPoints(System.Collections.Generic.IList`1<UnityEngine.Vector3> points)
-    // Offset: 0x102B188
+    // Offset: 0xF8D44C
     void SetControlPoints(System::Collections::Generic::IList_1<UnityEngine::Vector3>* points);
     // public System.Single get_extrude()
-    // Offset: 0x102B1F4
+    // Offset: 0xF8D4B8
     float get_extrude();
     // public System.Void set_extrude(System.Single value)
-    // Offset: 0x102B1FC
+    // Offset: 0xF8D4C0
     void set_extrude(float value);
     // public UnityEngine.ProBuilder.PolyShape/PolyEditMode get_polyEditMode()
-    // Offset: 0x102B204
+    // Offset: 0xF8D4C8
     UnityEngine::ProBuilder::PolyShape::PolyEditMode get_polyEditMode();
     // public System.Void set_polyEditMode(UnityEngine.ProBuilder.PolyShape/PolyEditMode value)
-    // Offset: 0x102B20C
+    // Offset: 0xF8D4D0
     void set_polyEditMode(UnityEngine::ProBuilder::PolyShape::PolyEditMode value);
     // public System.Boolean get_flipNormals()
-    // Offset: 0x102B214
+    // Offset: 0xF8D4D8
     bool get_flipNormals();
     // public System.Void set_flipNormals(System.Boolean value)
-    // Offset: 0x102B21C
+    // Offset: 0xF8D4E0
     void set_flipNormals(bool value);
     // public UnityEngine.ProBuilder.ProBuilderMesh get_mesh()
-    // Offset: 0x102B228
+    // Offset: 0xF8D4EC
     UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.ProBuilder.ProBuilderMesh value)
-    // Offset: 0x102B2D4
+    // Offset: 0xF8D598
     void set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // private System.Boolean IsSnapEnabled()
-    // Offset: 0x102B2DC
+    // Offset: 0xF8D5A0
     bool IsSnapEnabled();
     // public System.Void .ctor()
-    // Offset: 0x102B2E4
+    // Offset: 0xF8D5A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

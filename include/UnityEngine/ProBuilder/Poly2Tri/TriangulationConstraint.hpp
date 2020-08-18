@@ -25,7 +25,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x18
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q;
     // public System.Void .ctor()
-    // Offset: 0x19274E8
+    // Offset: 0x1884834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TriangulationConstraint* New_ctor();

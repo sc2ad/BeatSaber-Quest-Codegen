@@ -42,15 +42,15 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>* rotationOffsets;
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1377534
+    // Offset: 0x12D87F8
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1377314
+    // Offset: 0x12D85D8
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x13778BC
+    // Offset: 0x12D8B80
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

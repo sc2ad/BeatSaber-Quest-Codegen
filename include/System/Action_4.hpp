@@ -26,22 +26,22 @@ namespace System {
   class Action_4 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11E018C
+    // Offset: 0xFFFFFFFF
     static Action_4<T1, T2, T3, T4>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       return (Action_4<T1, T2, T3, T4>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Action_4<T1, T2, T3, T4>*>::get(), object, method)));
     }
     // public System.Void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4)
-    // Offset: 0x11E01A0
+    // Offset: 0xFFFFFFFF
     void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", arg1, arg2, arg3, arg4));
     }
     // public System.IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11E00BC
+    // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, System::AsyncCallback* callback, ::Il2CppObject* object) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", arg1, arg2, arg3, arg4, callback, object));
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11E0180
+    // Offset: 0xFFFFFFFF
     void EndInvoke(System::IAsyncResult* result) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "EndInvoke", result));
     }

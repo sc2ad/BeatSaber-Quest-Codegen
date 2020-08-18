@@ -38,19 +38,19 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     bool isInitialized;
     // public UnityEngine.Color get_color()
-    // Offset: 0x18210E0
+    // Offset: 0x177F418
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1824E98
+    // Offset: 0x17831D0
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1824ED8
+    // Offset: 0x1783210
     void InitIfNeeded();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x18211D4
+    // Offset: 0x177F50C
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1824F18
+    // Offset: 0x1783250
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,28 +29,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SkeletonRendererData
     SkeletonRendererData(float RootScale_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) : RootScale{RootScale_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // public System.Single get_RootScale()
-    // Offset: 0xA54024
+    // Offset: 0x9BE4F0
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0xA5402C
+    // Offset: 0x9BE4F8
     void set_RootScale(float value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xA54034
+    // Offset: 0x9BE500
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xA5403C
+    // Offset: 0x9BE508
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xA54048
+    // Offset: 0x9BE514
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xA54050
+    // Offset: 0x9BE51C
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0xA5405C
+    // Offset: 0x9BE528
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0xA54064
+    // Offset: 0x9BE530
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRSkeletonRenderer/SkeletonRendererData
 }

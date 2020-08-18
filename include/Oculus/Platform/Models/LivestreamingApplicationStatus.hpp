@@ -22,7 +22,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x10
     bool StreamingEnabled;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA080C
+    // Offset: 0xDFFAD0
     static LivestreamingApplicationStatus* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LivestreamingApplicationStatus
 }

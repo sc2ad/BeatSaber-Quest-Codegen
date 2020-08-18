@@ -23,20 +23,20 @@ namespace System {
   class IndexOutOfRangeException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x100B144
+    // Offset: 0xF6D408
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static IndexOutOfRangeException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1009D2C
+    // Offset: 0xF6BFF0
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static IndexOutOfRangeException* New_ctor(::Il2CppString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x100B1B8
+    // Offset: 0xF6D47C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

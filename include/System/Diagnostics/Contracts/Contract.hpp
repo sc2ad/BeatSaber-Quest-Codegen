@@ -28,7 +28,7 @@ namespace System::Diagnostics::Contracts {
   class Contract : public ::Il2CppObject {
     public:
     // static public System.Boolean ForAll(System.Collections.Generic.IEnumerable`1<T> collection, System.Predicate`1<T> predicate)
-    // Offset: 0xE5BF6C
+    // Offset: 0xFFFFFFFF
     template<class T>
     static bool ForAll(System::Collections::Generic::IEnumerable_1<T>* collection, System::Predicate_1<T>* predicate) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("System.Diagnostics.Contracts", "Contract", "ForAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, collection, predicate)));

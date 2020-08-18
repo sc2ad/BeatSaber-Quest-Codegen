@@ -14,21 +14,21 @@ namespace System::Security::Cryptography {
   class RandomNumberGenerator : public System::IDisposable, public ::Il2CppObject {
     public:
     // static public System.Security.Cryptography.RandomNumberGenerator Create()
-    // Offset: 0xDE7478
+    // Offset: 0xD4773C
     static System::Security::Cryptography::RandomNumberGenerator* Create();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xDE7474
+    // Offset: 0xD47738
     void Dispose(bool disposing);
     // public System.Void GetBytes(System.Byte[] data)
     // Offset: 0xFFFFFFFF
     void GetBytes(::Array<uint8_t>* data);
     // protected System.Void .ctor()
-    // Offset: 0xDE7138
+    // Offset: 0xD473FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RandomNumberGenerator* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0xDE74D0
+    // Offset: 0xD47794
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

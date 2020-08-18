@@ -31,10 +31,10 @@ namespace System::Collections {
     // Offset: 0x10
     System::Collections::ArrayList* list;
     // protected System.Collections.ArrayList get_InnerList()
-    // Offset: 0x10BB334
+    // Offset: 0x101D5F8
     System::Collections::ArrayList* get_InnerList();
     // public System.Int32 get_Count()
-    // Offset: 0x10BB3AC
+    // Offset: 0x101D670
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -42,12 +42,12 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x10BB3D4
+    // Offset: 0x101D698
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x10BB414
+    // Offset: 0x101D6D8
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -55,7 +55,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // protected System.Void .ctor()
-    // Offset: 0x10BB43C
+    // Offset: 0x101D700
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReadOnlyCollectionBase* New_ctor();

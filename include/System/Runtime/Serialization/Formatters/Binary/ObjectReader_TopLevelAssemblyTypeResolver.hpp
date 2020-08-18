@@ -29,10 +29,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x10
     System::Reflection::Assembly* m_topLevelAssembly;
     // public System.Void .ctor(System.Reflection.Assembly topLevelAssembly)
-    // Offset: 0xFE5194
+    // Offset: 0xF46458
     static ObjectReader::TopLevelAssemblyTypeResolver* New_ctor(System::Reflection::Assembly* topLevelAssembly);
     // public System.Type ResolveType(System.Reflection.Assembly assembly, System.String simpleTypeName, System.Boolean ignoreCase)
-    // Offset: 0xFE51C8
+    // Offset: 0xF4648C
     System::Type* ResolveType(System::Reflection::Assembly* assembly, ::Il2CppString* simpleTypeName, bool ignoreCase);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TopLevelAssemblyTypeResolver
 }

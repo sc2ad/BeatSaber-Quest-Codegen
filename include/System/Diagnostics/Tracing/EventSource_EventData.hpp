@@ -34,16 +34,16 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventData
     EventData(int64_t m_Ptr_ = {}, int m_Size_ = {}, int m_Reserved_ = {}) : m_Ptr{m_Ptr_}, m_Size{m_Size_}, m_Reserved{m_Reserved_} {}
     // public System.IntPtr get_DataPointer()
-    // Offset: 0xA2B3C4
+    // Offset: 0x995890
     System::IntPtr get_DataPointer();
     // public System.Void set_DataPointer(System.IntPtr value)
-    // Offset: 0xA2B3D0
+    // Offset: 0x99589C
     void set_DataPointer(System::IntPtr value);
     // public System.Void set_Size(System.Int32 value)
-    // Offset: 0xA2B3FC
+    // Offset: 0x9958C8
     void set_Size(int value);
     // System.Void SetMetadata(System.Byte* pointer, System.Int32 size, System.Int32 reserved)
-    // Offset: 0xA2B404
+    // Offset: 0x9958D0
     void SetMetadata(uint8_t* pointer, int size, int reserved);
   }; // System.Diagnostics.Tracing.EventSource/EventData
 }

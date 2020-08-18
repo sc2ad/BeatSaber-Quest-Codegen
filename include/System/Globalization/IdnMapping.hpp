@@ -28,50 +28,50 @@ namespace System::Globalization {
     // Offset: 0x18
     System::Globalization::Punycode* puny;
     // public System.String GetAscii(System.String unicode)
-    // Offset: 0x12C7770
+    // Offset: 0x122AA34
     ::Il2CppString* GetAscii(::Il2CppString* unicode);
     // public System.String GetAscii(System.String unicode, System.Int32 index, System.Int32 count)
-    // Offset: 0x12C780C
+    // Offset: 0x122AAD0
     ::Il2CppString* GetAscii(::Il2CppString* unicode, int index, int count);
     // private System.String Convert(System.String input, System.Int32 index, System.Int32 count, System.Boolean toAscii)
-    // Offset: 0x12C791C
+    // Offset: 0x122ABE0
     ::Il2CppString* Convert(::Il2CppString* input, int index, int count, bool toAscii);
     // private System.String ToAscii(System.String s, System.Int32 offset)
-    // Offset: 0x12C7B48
+    // Offset: 0x122AE0C
     ::Il2CppString* ToAscii(::Il2CppString* s, int offset);
     // private System.Void VerifyLength(System.String s, System.Int32 offset)
-    // Offset: 0x12C82B0
+    // Offset: 0x122B574
     void VerifyLength(::Il2CppString* s, int offset);
     // private System.String NamePrep(System.String s, System.Int32 offset)
-    // Offset: 0x12C7F64
+    // Offset: 0x122B228
     ::Il2CppString* NamePrep(::Il2CppString* s, int offset);
     // private System.Void VerifyProhibitedCharacters(System.String s, System.Int32 offset)
-    // Offset: 0x12C83A8
+    // Offset: 0x122B66C
     void VerifyProhibitedCharacters(::Il2CppString* s, int offset);
     // private System.Void VerifyStd3AsciiRules(System.String s, System.Int32 offset)
-    // Offset: 0x12C80C0
+    // Offset: 0x122B384
     void VerifyStd3AsciiRules(::Il2CppString* s, int offset);
     // public System.String GetUnicode(System.String ascii)
-    // Offset: 0x12C85F4
+    // Offset: 0x122B8B8
     ::Il2CppString* GetUnicode(::Il2CppString* ascii);
     // public System.String GetUnicode(System.String ascii, System.Int32 index, System.Int32 count)
-    // Offset: 0x12C8690
+    // Offset: 0x122B954
     ::Il2CppString* GetUnicode(::Il2CppString* ascii, int index, int count);
     // private System.String ToUnicode(System.String s, System.Int32 offset)
-    // Offset: 0x12C7D88
+    // Offset: 0x122B04C
     ::Il2CppString* ToUnicode(::Il2CppString* s, int offset);
     // public System.Void .ctor()
-    // Offset: 0x12C7628
+    // Offset: 0x122A8EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IdnMapping* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x12C769C
+    // Offset: 0x122A960
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12C7754
+    // Offset: 0x122AA18
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

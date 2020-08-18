@@ -24,16 +24,16 @@ namespace System::Threading {
   class TimerCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xCE2588
+    // Offset: 0xC4284C
     static TimerCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object state)
-    // Offset: 0xCEA098
+    // Offset: 0xC4A35C
     void Invoke(::Il2CppObject* state);
     // public System.IAsyncResult BeginInvoke(System.Object state, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xCEAB38
+    // Offset: 0xC4ADFC
     System::IAsyncResult* BeginInvoke(::Il2CppObject* state, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xCEAB5C
+    // Offset: 0xC4AE20
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.TimerCallback
 }

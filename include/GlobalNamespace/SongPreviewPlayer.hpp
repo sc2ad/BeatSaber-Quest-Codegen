@@ -62,31 +62,31 @@ namespace GlobalNamespace {
     // Offset: 0x58
     float fadeSpeed;
     // public System.Single get_volume()
-    // Offset: 0xB988B0
+    // Offset: 0x1901F5C
     float get_volume();
     // public System.Void set_volume(System.Single value)
-    // Offset: 0xB988B8
+    // Offset: 0x1901F64
     void set_volume(float value);
     // protected System.Void OnEnable()
-    // Offset: 0xB988C0
+    // Offset: 0x1901F6C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xB98CC4
+    // Offset: 0x1902370
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0xB98DF0
+    // Offset: 0x190249C
     void Update();
     // public System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single startTime, System.Single duration, System.Single volumeScale)
-    // Offset: 0xB98B3C
+    // Offset: 0x19021E8
     void CrossfadeTo(UnityEngine::AudioClip* audioClip, float startTime, float duration, float volumeScale);
     // public System.Void FadeOut()
-    // Offset: 0xB98FBC
+    // Offset: 0x1902668
     void FadeOut();
     // public System.Void CrossfadeToDefault()
-    // Offset: 0xB98FD4
+    // Offset: 0x1902680
     void CrossfadeToDefault();
     // public System.Void .ctor()
-    // Offset: 0xB99134
+    // Offset: 0x19027E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

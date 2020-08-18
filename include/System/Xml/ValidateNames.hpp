@@ -18,13 +18,13 @@ namespace System::Xml {
     // Set static field: static private System.Xml.XmlCharType xmlCharType
     static void _set_xmlCharType(System::Xml::XmlCharType value);
     // static System.Int32 ParseNCName(System.String s, System.Int32 offset)
-    // Offset: 0x119B394
+    // Offset: 0x10FE658
     static int ParseNCName(::Il2CppString* s, int offset);
     // static System.Int32 ParseQName(System.String s, System.Int32 offset, System.Int32 colonOffset)
-    // Offset: 0x119B4E0
+    // Offset: 0x10FE7A4
     static int ParseQName(::Il2CppString* s, int offset, int& colonOffset);
     // static private System.Void .cctor()
-    // Offset: 0x119B5DC
+    // Offset: 0x10FE8A0
     static void _cctor();
   }; // System.Xml.ValidateNames
 }

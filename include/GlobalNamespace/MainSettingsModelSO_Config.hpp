@@ -151,7 +151,7 @@ namespace GlobalNamespace {
     // Offset: 0xBD
     bool oculusMRCEnabled;
     // public System.Void .ctor()
-    // Offset: 0xBFD14C
+    // Offset: 0x1945C60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MainSettingsModelSO::Config* New_ctor();

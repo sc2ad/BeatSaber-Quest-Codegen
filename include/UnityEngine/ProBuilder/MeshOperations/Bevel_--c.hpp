@@ -13,11 +13,11 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -64,25 +64,25 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.FaceRebuildData,UnityEngine.ProBuilder.Face> <>9__0_3
     static void _set_$$9__0_3(System::Func_2<UnityEngine::ProBuilder::FaceRebuildData*, UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF02F90
+    // Offset: 0xE63254
     static void _cctor();
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0xF03000
+    // Offset: 0xE632C4
     UnityEngine::ProBuilder::Face* $BevelEdges$b__0_0(UnityEngine::ProBuilder::FaceRebuildData* x);
     // System.Int32 <BevelEdges>b__0_6(UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>> x)
-    // Offset: 0xF03018
+    // Offset: 0xE632DC
     int $BevelEdges$b__0_6(UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::FaceRebuildData*, System::Collections::Generic::List_1<int>*> x);
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_1(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0xF03064
+    // Offset: 0xE63328
     UnityEngine::ProBuilder::Face* $BevelEdges$b__0_1(UnityEngine::ProBuilder::FaceRebuildData* x);
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_2(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0xF0307C
+    // Offset: 0xE63340
     UnityEngine::ProBuilder::Face* $BevelEdges$b__0_2(UnityEngine::ProBuilder::FaceRebuildData* x);
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_3(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0xF03094
+    // Offset: 0xE63358
     UnityEngine::ProBuilder::Face* $BevelEdges$b__0_3(UnityEngine::ProBuilder::FaceRebuildData* x);
     // public System.Void .ctor()
-    // Offset: 0xF02FF8
+    // Offset: 0xE632BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Bevel::$$c* New_ctor();

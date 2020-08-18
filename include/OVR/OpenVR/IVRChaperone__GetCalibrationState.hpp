@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRChaperone::_GetCalibrationState : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xED0784
+    // Offset: 0xE30A48
     static IVRChaperone::_GetCalibrationState* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.ChaperoneCalibrationState Invoke()
-    // Offset: 0xEC56BC
+    // Offset: 0xE25980
     OVR::OpenVR::ChaperoneCalibrationState Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xED0798
+    // Offset: 0xE30A5C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.ChaperoneCalibrationState EndInvoke(System.IAsyncResult result)
-    // Offset: 0xED07C4
+    // Offset: 0xE30A88
     OVR::OpenVR::ChaperoneCalibrationState EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperone/_GetCalibrationState
 }

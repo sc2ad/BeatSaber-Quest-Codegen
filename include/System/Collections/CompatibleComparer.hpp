@@ -29,19 +29,19 @@ namespace System::Collections {
     // Offset: 0x18
     System::Collections::IHashCodeProvider* hcp;
     // System.Void .ctor(System.Collections.IComparer comparer, System.Collections.IHashCodeProvider hashCodeProvider)
-    // Offset: 0x1332A44
+    // Offset: 0x1293D08
     static CompatibleComparer* New_ctor(System::Collections::IComparer* comparer, System::Collections::IHashCodeProvider* hashCodeProvider);
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1332A94
+    // Offset: 0x1293D58
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // System.Collections.IComparer get_Comparer()
-    // Offset: 0x1332D9C
+    // Offset: 0x1294060
     System::Collections::IComparer* get_Comparer();
     // System.Collections.IHashCodeProvider get_HashCodeProvider()
-    // Offset: 0x1332DA4
+    // Offset: 0x1294068
     System::Collections::IHashCodeProvider* get_HashCodeProvider();
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x1332C68
+    // Offset: 0x1293F2C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object a, System.Object b)
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object a, System.Object b)
@@ -50,7 +50,7 @@ namespace System::Collections {
     // Maps to method: Equals
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x1332C84
+    // Offset: 0x1293F48
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);

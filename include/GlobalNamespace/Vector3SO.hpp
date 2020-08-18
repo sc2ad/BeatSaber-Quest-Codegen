@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class Vector3SO : public GlobalNamespace::ObservableVariableSO_1<UnityEngine::Vector3> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCBD488
+    // Offset: 0xC1D74C
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO`1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

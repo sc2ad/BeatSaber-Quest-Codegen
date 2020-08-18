@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -37,13 +37,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10196EC
+    // Offset: 0xF7B9B0
     static void _cctor();
     // UnityEngine.Vector3 <Import>b__5_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x101975C
+    // Offset: 0xF7BA20
     UnityEngine::Vector3 $Import$b__5_0(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x1019754
+    // Offset: 0xF7BA18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshImporter::$$c* New_ctor();

@@ -23,13 +23,13 @@ namespace NUnit::Framework::Internal {
   class InvalidDataSourceException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18E50DC
+    // Offset: 0x1842428
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidDataSourceException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x18E5144
+    // Offset: 0x1842490
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static InvalidDataSourceException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

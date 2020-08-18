@@ -55,7 +55,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x44
     int16_t SizeParamIndex;
     // System.Runtime.InteropServices.MarshalAsAttribute Copy()
-    // Offset: 0x104B6E8
+    // Offset: 0xFAD9AC
     System::Runtime::InteropServices::MarshalAsAttribute* Copy();
   }; // System.Runtime.InteropServices.MarshalAsAttribute
 }

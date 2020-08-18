@@ -30,22 +30,22 @@ namespace System::Threading {
     // Offset: 0x0
     System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>* m_valueChangedHandler;
     // public System.Void .ctor(System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<T>> valueChangedHandler)
-    // Offset: 0x1486114
+    // Offset: 0xFFFFFFFF
     static AsyncLocal_1<T>* New_ctor(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>* valueChangedHandler) {
       return (AsyncLocal_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncLocal_1<T>*>::get(), valueChangedHandler));
     }
     // public T get_Value()
-    // Offset: 0x1486150
+    // Offset: 0xFFFFFFFF
     T get_Value() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Value"));
     }
     // public System.Void set_Value(T value)
-    // Offset: 0x1486208
+    // Offset: 0xFFFFFFFF
     void set_Value(T value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Value", value));
     }
     // private System.Void System.Threading.IAsyncLocal.OnValueChanged(System.Object previousValueObj, System.Object currentValueObj, System.Boolean contextChanged)
-    // Offset: 0x148628C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Threading.IAsyncLocal
     // Base method: System.Void IAsyncLocal::OnValueChanged(System.Object previousValueObj, System.Object currentValueObj, System.Boolean contextChanged)
     void System_Threading_IAsyncLocal_OnValueChanged(::Il2CppObject* previousValueObj, ::Il2CppObject* currentValueObj, bool contextChanged) {

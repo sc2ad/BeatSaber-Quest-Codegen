@@ -79,40 +79,40 @@ namespace GlobalNamespace {
     // Offset: 0x68
     bool sabersInsideAfterOnEnable;
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0xB43298
+    // Offset: 0xB45F64
     void set_alpha(float value);
     // public System.Boolean get_fullyActivated()
-    // Offset: 0xB42FF4
+    // Offset: 0xB45CC0
     bool get_fullyActivated();
     // public SaberType get_saberType()
-    // Offset: 0xB4345C
+    // Offset: 0xB46128
     GlobalNamespace::SaberType get_saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0xB43464
+    // Offset: 0xB46130
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0xB4346C
+    // Offset: 0xB46138
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xB43504
+    // Offset: 0xB461D0
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0xB4355C
+    // Offset: 0xB46228
     void Update();
     // private System.Void SetProgressImagesfillAmount(System.Single fillAmount)
-    // Offset: 0xB436CC
+    // Offset: 0xB46398
     void SetProgressImagesfillAmount(float fillAmount);
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0xB43748
+    // Offset: 0xB46414
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0xB4384C
+    // Offset: 0xB46518
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0xB43950
+    // Offset: 0xB4661C
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0xB43A60
+    // Offset: 0xB4672C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

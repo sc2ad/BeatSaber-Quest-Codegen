@@ -44,169 +44,169 @@ namespace UnityEngine {
     // Set static field: static private System.Boolean enableDebugPrints
     static void _set_enableDebugPrints(bool value);
     // public System.Void .ctor(System.String className, System.String[] args)
-    // Offset: 0x1919E5C
+    // Offset: 0x18781A8
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<::Il2CppString*>* args);
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaObject[] args)
-    // Offset: 0x191A0F8
+    // Offset: 0x1878444
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaObject*>* args);
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaClass[] args)
-    // Offset: 0x191A1C8
+    // Offset: 0x1878514
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaClass*>* args);
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaProxy[] args)
-    // Offset: 0x191A298
+    // Offset: 0x18785E4
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaProxy*>* args);
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaRunnable[] args)
-    // Offset: 0x191A368
+    // Offset: 0x18786B4
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaRunnable*>* args);
     // public System.Void .ctor(System.String className, System.Object[] args)
-    // Offset: 0x191A438
+    // Offset: 0x1878784
     static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<::Il2CppObject*>* args);
     // public System.Void Call(System.String methodName, T[] args)
-    // Offset: 0xC59130
+    // Offset: 0xFFFFFFFF
     template<class T>
     void Call(::Il2CppString* methodName, ::Array<T>* args) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "Call", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, methodName, args));
     }
     // public System.Void Call(System.String methodName, System.Object[] args)
-    // Offset: 0x191A4F4
+    // Offset: 0x1878840
     void Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // public System.Void CallStatic(System.String methodName, T[] args)
-    // Offset: 0xC591FC
+    // Offset: 0xFFFFFFFF
     template<class T>
     void CallStatic(::Il2CppString* methodName, ::Array<T>* args) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "CallStatic", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, methodName, args));
     }
     // public System.Void CallStatic(System.String methodName, System.Object[] args)
-    // Offset: 0x191A60C
+    // Offset: 0x1878958
     void CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // public FieldType Get(System.String fieldName)
-    // Offset: 0x14D5AAC
+    // Offset: 0xFFFFFFFF
     template<class FieldType>
     FieldType Get(::Il2CppString* fieldName) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<FieldType>(this, "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, fieldName)));
     }
     // public System.Void Set(System.String fieldName, FieldType val)
-    // Offset: 0xC592C8
+    // Offset: 0xFFFFFFFF
     template<class FieldType>
     void Set(::Il2CppString* fieldName, FieldType val) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "Set", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, fieldName, val));
     }
     // public FieldType GetStatic(System.String fieldName)
-    // Offset: 0x14D5ACC
+    // Offset: 0xFFFFFFFF
     template<class FieldType>
     FieldType GetStatic(::Il2CppString* fieldName) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<FieldType>(this, "GetStatic", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, fieldName)));
     }
     // public System.Void SetStatic(System.String fieldName, FieldType val)
-    // Offset: 0xC592E8
+    // Offset: 0xFFFFFFFF
     template<class FieldType>
     void SetStatic(::Il2CppString* fieldName, FieldType val) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetStatic", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, fieldName, val));
     }
     // public System.IntPtr GetRawObject()
-    // Offset: 0x191A724
+    // Offset: 0x1878A70
     System::IntPtr GetRawObject();
     // public System.IntPtr GetRawClass()
-    // Offset: 0x191A75C
+    // Offset: 0x1878AA8
     System::IntPtr GetRawClass();
     // public ReturnType Call(System.String methodName, T[] args)
-    // Offset: 0x14D7300
+    // Offset: 0xFFFFFFFF
     template<class ReturnType, class T>
     ReturnType Call(::Il2CppString* methodName, ::Array<T>* args) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ReturnType>(this, "Call", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, methodName, args)));
     }
     // public ReturnType Call(System.String methodName, System.Object[] args)
-    // Offset: 0x14D7240
+    // Offset: 0xFFFFFFFF
     template<class ReturnType>
     ReturnType Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ReturnType>(this, "Call", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, methodName, args)));
     }
     // public ReturnType CallStatic(System.String methodName, T[] args)
-    // Offset: 0x14D7460
+    // Offset: 0xFFFFFFFF
     template<class ReturnType, class T>
     ReturnType CallStatic(::Il2CppString* methodName, ::Array<T>* args) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ReturnType>(this, "CallStatic", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, methodName, args)));
     }
     // public ReturnType CallStatic(System.String methodName, System.Object[] args)
-    // Offset: 0x14D7440
+    // Offset: 0xFFFFFFFF
     template<class ReturnType>
     ReturnType CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ReturnType>(this, "CallStatic", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, methodName, args)));
     }
     // protected System.Void DebugPrint(System.String msg)
-    // Offset: 0x1919BD0
+    // Offset: 0x1877F1C
     void DebugPrint(::Il2CppString* msg);
     // protected System.Void DebugPrint(System.String call, System.String methodName, System.String signature, System.Object[] args)
-    // Offset: 0x191A794
+    // Offset: 0x1878AE0
     void DebugPrint(::Il2CppString* call, ::Il2CppString* methodName, ::Il2CppString* signature, ::Array<::Il2CppObject*>* args);
     // private System.Void _AndroidJavaObject(System.String className, System.Object[] args)
-    // Offset: 0x1919F2C
+    // Offset: 0x1878278
     void _AndroidJavaObject(::Il2CppString* className, ::Array<::Il2CppObject*>* args);
     // System.Void .ctor(System.IntPtr jobject)
-    // Offset: 0x191AB38
+    // Offset: 0x1878E84
     static AndroidJavaObject* New_ctor(System::IntPtr jobject);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x191ACC0
+    // Offset: 0x187900C
     void Dispose(bool disposing);
     // protected System.Void _Call(System.String methodName, System.Object[] args)
-    // Offset: 0x191A4F8
+    // Offset: 0x1878844
     void _Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // protected ReturnType _Call(System.String methodName, System.Object[] args)
-    // Offset: 0x14D7560
+    // Offset: 0xFFFFFFFF
     template<class ReturnType>
     ReturnType _Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ReturnType>(this, "_Call", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, methodName, args)));
     }
     // protected FieldType _Get(System.String fieldName)
-    // Offset: 0x14D5AEC
+    // Offset: 0xFFFFFFFF
     template<class FieldType>
     FieldType _Get(::Il2CppString* fieldName) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<FieldType>(this, "_Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, fieldName)));
     }
     // protected System.Void _Set(System.String fieldName, FieldType val)
-    // Offset: 0xC59308
+    // Offset: 0xFFFFFFFF
     template<class FieldType>
     void _Set(::Il2CppString* fieldName, FieldType val) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "_Set", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, fieldName, val));
     }
     // protected System.Void _CallStatic(System.String methodName, System.Object[] args)
-    // Offset: 0x191A610
+    // Offset: 0x187895C
     void _CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // protected ReturnType _CallStatic(System.String methodName, System.Object[] args)
-    // Offset: 0x14DFAD4
+    // Offset: 0xFFFFFFFF
     template<class ReturnType>
     ReturnType _CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ReturnType>(this, "_CallStatic", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, methodName, args)));
     }
     // protected FieldType _GetStatic(System.String fieldName)
-    // Offset: 0x14D63D0
+    // Offset: 0xFFFFFFFF
     template<class FieldType>
     FieldType _GetStatic(::Il2CppString* fieldName) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<FieldType>(this, "_GetStatic", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, fieldName)));
     }
     // protected System.Void _SetStatic(System.String fieldName, FieldType val)
-    // Offset: 0xC59DCC
+    // Offset: 0xFFFFFFFF
     template<class FieldType>
     void _SetStatic(::Il2CppString* fieldName, FieldType val) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "_SetStatic", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FieldType>::get()}, fieldName, val));
     }
     // static UnityEngine.AndroidJavaObject AndroidJavaObjectDeleteLocalRef(System.IntPtr jobject)
-    // Offset: 0x191AD94
+    // Offset: 0x18790E0
     static UnityEngine::AndroidJavaObject* AndroidJavaObjectDeleteLocalRef(System::IntPtr jobject);
     // static UnityEngine.AndroidJavaClass AndroidJavaClassDeleteLocalRef(System.IntPtr jclass)
-    // Offset: 0x191AE2C
+    // Offset: 0x1879178
     static UnityEngine::AndroidJavaClass* AndroidJavaClassDeleteLocalRef(System::IntPtr jclass);
     // protected System.IntPtr _GetRawObject()
-    // Offset: 0x191A740
+    // Offset: 0x1878A8C
     System::IntPtr _GetRawObject();
     // protected System.IntPtr _GetRawClass()
-    // Offset: 0x191A778
+    // Offset: 0x1878AC4
     System::IntPtr _GetRawClass();
     // static private System.Void .cctor()
-    // Offset: 0x191AEC4
+    // Offset: 0x1879210
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x191A478
+    // Offset: 0x18787C4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -214,12 +214,12 @@ namespace UnityEngine {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // System.Void .ctor()
-    // Offset: 0x1919AE8
+    // Offset: 0x1877E34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AndroidJavaObject* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x191AC4C
+    // Offset: 0x1878F98
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

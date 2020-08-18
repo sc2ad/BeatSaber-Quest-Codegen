@@ -32,10 +32,10 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::DiContainer* subcontainer;
     // public System.Void .ctor(Zenject.DiContainer subcontainer)
-    // Offset: 0xFCBD20
+    // Offset: 0xF2BFE4
     static SubContainerCreatorByInstance* New_ctor(Zenject::DiContainer* subcontainer);
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0xFCCBC8
+    // Offset: 0xF2CE8C
     // Implemented from: Zenject.ISubContainerCreator
     // Base method: Zenject.DiContainer ISubContainerCreator::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);

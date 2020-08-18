@@ -18,7 +18,7 @@ namespace TMPro {
   class TMP_InputField::TouchScreenKeyboardEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::TouchScreenKeyboard::Status> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBA90F8
+    // Offset: 0xB6D848
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

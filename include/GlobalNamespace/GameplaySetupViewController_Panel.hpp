@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::GameObject* gameObject;
     // public System.Void .ctor(System.String title, IRefreshable refreshable, UnityEngine.GameObject gameObject)
-    // Offset: 0xB3E80C
+    // Offset: 0xB414D8
     static GameplaySetupViewController::Panel* New_ctor(::Il2CppString* title, GlobalNamespace::IRefreshable* refreshable, UnityEngine::GameObject* gameObject);
   }; // GameplaySetupViewController/Panel
 }

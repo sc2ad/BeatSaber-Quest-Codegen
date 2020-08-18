@@ -33,10 +33,10 @@ namespace System::Runtime::Serialization {
     // Offset: 0x20
     System::Collections::Generic::List_1<::Il2CppObject*>* m_serializedStates;
     // System.Void .ctor(System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0xFF88D8
+    // Offset: 0xF59B9C
     static SafeSerializationEventArgs* New_ctor(System::Runtime::Serialization::StreamingContext streamingContext);
     // System.Collections.Generic.IList`1<System.Object> get_SerializedStates()
-    // Offset: 0xFF8998
+    // Offset: 0xF59C5C
     System::Collections::Generic::IList_1<::Il2CppObject*>* get_SerializedStates();
   }; // System.Runtime.Serialization.SafeSerializationEventArgs
 }

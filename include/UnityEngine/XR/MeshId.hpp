@@ -32,25 +32,25 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: MeshId
     MeshId(uint64_t m_SubId1_ = {}, uint64_t m_SubId2_ = {}) : m_SubId1{m_SubId1_}, m_SubId2{m_SubId2_} {}
     // static private System.Void .cctor()
-    // Offset: 0x195EADC
+    // Offset: 0x18BAE20
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xA5B544
+    // Offset: 0x9C5A10
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5B54C
+    // Offset: 0x9C5A18
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5B588
+    // Offset: 0x9C5A54
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshId other)
-    // Offset: 0xA5B590
+    // Offset: 0x9C5A5C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.MeshId other)
     bool Equals(UnityEngine::XR::MeshId other);

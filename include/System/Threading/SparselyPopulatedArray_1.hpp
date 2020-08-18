@@ -28,17 +28,17 @@ namespace System::Threading {
     // Offset: 0x0
     System::Threading::SparselyPopulatedArrayFragment_1<T>* m_tail;
     // System.Void .ctor(System.Int32 initialSize)
-    // Offset: 0x14865BC
+    // Offset: 0xFFFFFFFF
     static SparselyPopulatedArray_1<T>* New_ctor(int initialSize) {
       return (SparselyPopulatedArray_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SparselyPopulatedArray_1<T>*>::get(), initialSize));
     }
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Tail()
-    // Offset: 0x1486648
+    // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Tail() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::SparselyPopulatedArrayFragment_1<T>*>(this, "get_Tail"));
     }
     // System.Threading.SparselyPopulatedArrayAddInfo`1<T> Add(T element)
-    // Offset: 0x148666C
+    // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayAddInfo_1<T> Add(T element) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::SparselyPopulatedArrayAddInfo_1<T>>(this, "Add", element));
     }

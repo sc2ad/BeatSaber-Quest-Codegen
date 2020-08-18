@@ -32,12 +32,12 @@ namespace Zenject {
     // Offset: 0x0
     TContract instance;
     // Zenject.IProvider <BindInstance>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x118E3B8
+    // Offset: 0xFFFFFFFF
     Zenject::IProvider* $BindInstance$b__0(Zenject::DiContainer* container, System::Type* type) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<BindInstance>b__0", container, type)));
     }
     // public System.Void .ctor()
-    // Offset: 0x118E3A0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DiContainer::$$c__DisplayClass203_0_1<TContract>* New_ctor() {

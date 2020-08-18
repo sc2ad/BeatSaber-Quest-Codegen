@@ -25,31 +25,31 @@ namespace Zenject {
     // Set static field: static private System.Text.RegularExpressions.Regex <ProfilePattern>k__BackingField
     static void _set_$ProfilePattern$k__BackingField(System::Text::RegularExpressions::Regex* value);
     // private System.Void .ctor(System.String sampleName, System.Boolean rootBlock)
-    // Offset: 0xFC3258
+    // Offset: 0xF2351C
     static ProfileBlock* New_ctor(::Il2CppString* sampleName, bool rootBlock);
     // private System.Void .ctor(System.String sampleName)
-    // Offset: 0xFC3260
+    // Offset: 0xF23524
     static ProfileBlock* New_ctor(::Il2CppString* sampleName);
     // static public System.Text.RegularExpressions.Regex get_ProfilePattern()
-    // Offset: 0xFC3268
+    // Offset: 0xF2352C
     static System::Text::RegularExpressions::Regex* get_ProfilePattern();
     // static public System.Void set_ProfilePattern(System.Text.RegularExpressions.Regex value)
-    // Offset: 0xFC32B8
+    // Offset: 0xF2357C
     static void set_ProfilePattern(System::Text::RegularExpressions::Regex* value);
     // static public Zenject.ProfileBlock Start()
-    // Offset: 0xFC3310
+    // Offset: 0xF235D4
     static Zenject::ProfileBlock* Start();
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj1, System.Object obj2)
-    // Offset: 0xFC3318
+    // Offset: 0xF235DC
     static Zenject::ProfileBlock* Start(::Il2CppString* sampleNameFormat, ::Il2CppObject* obj1, ::Il2CppObject* obj2);
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj)
-    // Offset: 0xFC3320
+    // Offset: 0xF235E4
     static Zenject::ProfileBlock* Start(::Il2CppString* sampleNameFormat, ::Il2CppObject* obj);
     // static public Zenject.ProfileBlock Start(System.String sampleName)
-    // Offset: 0xFC3328
+    // Offset: 0xF235EC
     static Zenject::ProfileBlock* Start(::Il2CppString* sampleName);
     // public System.Void Dispose()
-    // Offset: 0xFC3330
+    // Offset: 0xF235F4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

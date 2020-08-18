@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithDestinationList : public Oculus::Platform::Message_1<Oculus::Platform::Models::DestinationList*> {
     public:
     // protected Oculus.Platform.Models.DestinationList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE9F0A4
+    // Offset: 0xDFE368
     Oculus::Platform::Models::DestinationList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9AEE4
+    // Offset: 0xDFA1A8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithDestinationList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.DestinationList GetDestinationList()
-    // Offset: 0xE9F060
+    // Offset: 0xDFE324
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.DestinationList Message::GetDestinationList()
     Oculus::Platform::Models::DestinationList* GetDestinationList();

@@ -32,25 +32,25 @@ namespace System::Text {
     // Offset: 0x28
     ::Il2CppChar cReplacement;
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x12EBFE8
+    // Offset: 0x124F2AC
     static InternalDecoderBestFitFallback* New_ctor(System::Text::Encoding* encoding);
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x12F1D08
+    // Offset: 0x1254FCC
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x12F1E8C
+    // Offset: 0x1255150
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x12F1E94
+    // Offset: 0x1255158
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12F1F4C
+    // Offset: 0x1255210
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

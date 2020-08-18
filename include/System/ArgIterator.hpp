@@ -32,12 +32,12 @@ namespace System {
     // Creating value type constructor for type: ArgIterator
     ArgIterator(System::IntPtr sig_ = {}, System::IntPtr args_ = {}, int next_arg_ = {}, int num_args_ = {}) : sig{sig_}, args{args_}, next_arg{next_arg_}, num_args{num_args_} {}
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0xA3CFB4
+    // Offset: 0x9A6480
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3CFC0
+    // Offset: 0x9A648C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

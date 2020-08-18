@@ -48,16 +48,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::OVRCameraRig* CameraRig;
     // private System.Void Awake()
-    // Offset: 0xCCADA8
+    // Offset: 0xC2B06C
     void Awake();
     // private System.Void Start()
-    // Offset: 0xCCAEA4
+    // Offset: 0xC2B168
     void Start();
     // private System.Void Update()
-    // Offset: 0xCCAEA8
+    // Offset: 0xC2B16C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCCB434
+    // Offset: 0xC2B6F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -19,28 +19,28 @@ namespace System::Runtime::Remoting::Messaging {
   class CallContext : public ::Il2CppObject {
     public:
     // static System.Object SetCurrentCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
-    // Offset: 0x106092C
+    // Offset: 0xFC2BF0
     static ::Il2CppObject* SetCurrentCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
     // static System.Runtime.Remoting.Messaging.LogicalCallContext SetLogicalCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext callCtx)
-    // Offset: 0x1060934
+    // Offset: 0xFC2BF8
     static System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
     // static public System.Object LogicalGetData(System.String name)
-    // Offset: 0x1060998
+    // Offset: 0xFC2C5C
     static ::Il2CppObject* LogicalGetData(::Il2CppString* name);
     // static private System.Object IllogicalGetData(System.String name)
-    // Offset: 0x10609FC
+    // Offset: 0xFC2CC0
     static ::Il2CppObject* IllogicalGetData(::Il2CppString* name);
     // static public System.Object GetData(System.String name)
-    // Offset: 0x1060A60
+    // Offset: 0xFC2D24
     static ::Il2CppObject* GetData(::Il2CppString* name);
     // static public System.Void SetData(System.String name, System.Object data)
-    // Offset: 0x1060A94
+    // Offset: 0xFC2D58
     static void SetData(::Il2CppString* name, ::Il2CppObject* data);
     // static public System.Void LogicalSetData(System.String name, System.Object data)
-    // Offset: 0x1060B58
+    // Offset: 0xFC2E1C
     static void LogicalSetData(::Il2CppString* name, ::Il2CppObject* data);
     // private System.Void .ctor()
-    // Offset: 0x1060924
+    // Offset: 0xFC2BE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CallContext* New_ctor();

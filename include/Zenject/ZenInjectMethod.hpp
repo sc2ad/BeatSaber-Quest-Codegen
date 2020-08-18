@@ -24,16 +24,16 @@ namespace Zenject {
   class ZenInjectMethod : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1958D94
+    // Offset: 0x18B50D8
     static ZenInjectMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object obj, System.Object[] args)
-    // Offset: 0x1958DA8
+    // Offset: 0x18B50EC
     void Invoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* args);
     // public System.IAsyncResult BeginInvoke(System.Object obj, System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19591AC
+    // Offset: 0x18B54F0
     System::IAsyncResult* BeginInvoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19591DC
+    // Offset: 0x18B5520
     void EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenInjectMethod
 }

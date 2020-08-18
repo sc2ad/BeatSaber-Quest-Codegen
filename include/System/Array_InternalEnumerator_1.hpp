@@ -29,12 +29,12 @@ namespace System {
     // Creating value type constructor for type: InternalEnumerator_1
     InternalEnumerator_1(System::Array* array_ = {}, int idx_ = {}) : array{array_}, idx{idx_} {}
     // System.Void .ctor(System.Array array)
-    // Offset: 0xA2E500
+    // Offset: 0xFFFFFFFF
     static Array::InternalEnumerator_1<T>* New_ctor(System::Array* array) {
       return (Array::InternalEnumerator_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Array::InternalEnumerator_1<T>>::get(), array));
     }
     // public System.Void Dispose()
-    // Offset: 0xA2E530
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose() {
@@ -46,14 +46,14 @@ namespace System {
       Dispose();
     }
     // public System.Boolean MoveNext()
-    // Offset: 0xA2E534
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "MoveNext"));
     }
     // public T get_Current()
-    // Offset: 0xA2E53C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     T get_Current() {
@@ -65,14 +65,14 @@ namespace System {
       return get_Current();
     }
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xA2E544
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset() {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.IEnumerator.Reset"));
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xA2E550
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current() {

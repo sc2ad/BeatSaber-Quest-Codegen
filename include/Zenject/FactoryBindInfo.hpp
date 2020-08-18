@@ -13,8 +13,8 @@
 namespace System {
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: Zenject
@@ -46,25 +46,25 @@ namespace Zenject {
     // Offset: 0x20
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* Arguments;
     // public System.Void .ctor(System.Type factoryType)
-    // Offset: 0xF2AF64
+    // Offset: 0xE8C228
     static FactoryBindInfo* New_ctor(System::Type* factoryType);
     // public System.Type get_FactoryType()
-    // Offset: 0xF2AFFC
+    // Offset: 0xE8C2C0
     System::Type* get_FactoryType();
     // private System.Void set_FactoryType(System.Type value)
-    // Offset: 0xF2B004
+    // Offset: 0xE8C2C8
     void set_FactoryType(System::Type* value);
     // public System.Func`2<Zenject.DiContainer,Zenject.IProvider> get_ProviderFunc()
-    // Offset: 0xF2B00C
+    // Offset: 0xE8C2D0
     System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* get_ProviderFunc();
     // public System.Void set_ProviderFunc(System.Func`2<Zenject.DiContainer,Zenject.IProvider> value)
-    // Offset: 0xF2B014
+    // Offset: 0xE8C2D8
     void set_ProviderFunc(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* value);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_Arguments()
-    // Offset: 0xF2B01C
+    // Offset: 0xE8C2E0
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_Arguments();
     // public System.Void set_Arguments(System.Collections.Generic.List`1<Zenject.TypeValuePair> value)
-    // Offset: 0xF2B024
+    // Offset: 0xE8C2E8
     void set_Arguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
   }; // Zenject.FactoryBindInfo
 }

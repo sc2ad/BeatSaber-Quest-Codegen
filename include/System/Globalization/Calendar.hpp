@@ -270,22 +270,22 @@ namespace System::Globalization {
     // Set static field: static public System.Int32 CurrentEra
     static void _set_CurrentEra(int value);
     // public System.DateTime get_MinSupportedDateTime()
-    // Offset: 0xDA63E0
+    // Offset: 0xD066A4
     System::DateTime get_MinSupportedDateTime();
     // public System.DateTime get_MaxSupportedDateTime()
-    // Offset: 0xDA6448
+    // Offset: 0xD0670C
     System::DateTime get_MaxSupportedDateTime();
     // System.Int32 get_ID()
-    // Offset: 0xDA64C4
+    // Offset: 0xD06788
     int get_ID();
     // System.Int32 get_BaseCalendarID()
-    // Offset: 0xDA64CC
+    // Offset: 0xD06790
     int get_BaseCalendarID();
     // System.Void SetReadOnlyState(System.Boolean readOnly)
-    // Offset: 0xDA6568
+    // Offset: 0xD0682C
     void SetReadOnlyState(bool readOnly);
     // System.Int32 get_CurrentEraValue()
-    // Offset: 0xDA6574
+    // Offset: 0xD06838
     int get_CurrentEraValue();
     // public System.Int32 GetDayOfMonth(System.DateTime time)
     // Offset: 0xFFFFFFFF
@@ -312,7 +312,7 @@ namespace System::Globalization {
     // Offset: 0xFFFFFFFF
     int GetYear(System::DateTime time);
     // public System.Boolean IsLeapYear(System.Int32 year)
-    // Offset: 0xDA66C4
+    // Offset: 0xD06988
     bool IsLeapYear(int year);
     // public System.Boolean IsLeapYear(System.Int32 year, System.Int32 era)
     // Offset: 0xFFFFFFFF
@@ -321,33 +321,33 @@ namespace System::Globalization {
     // Offset: 0xFFFFFFFF
     System::DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
     // System.Boolean TryToDateTime(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.Int32 era, System.DateTime result)
-    // Offset: 0xDA66D8
+    // Offset: 0xD0699C
     bool TryToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era, System::DateTime& result);
     // System.Boolean IsValidYear(System.Int32 year, System.Int32 era)
-    // Offset: 0xDA6850
+    // Offset: 0xD06B14
     bool IsValidYear(int year, int era);
     // System.Boolean IsValidMonth(System.Int32 year, System.Int32 month, System.Int32 era)
-    // Offset: 0xDA68D8
+    // Offset: 0xD06B9C
     bool IsValidMonth(int year, int month, int era);
     // System.Boolean IsValidDay(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 era)
-    // Offset: 0xDA6954
+    // Offset: 0xD06C18
     bool IsValidDay(int year, int month, int day, int era);
     // public System.Int32 get_TwoDigitYearMax()
-    // Offset: 0xDA69E0
+    // Offset: 0xD06CA4
     int get_TwoDigitYearMax();
     // public System.Int32 ToFourDigitYear(System.Int32 year)
-    // Offset: 0xDA69E8
+    // Offset: 0xD06CAC
     int ToFourDigitYear(int year);
     // static System.Int32 GetSystemTwoDigitYearSetting(System.Int32 CalID, System.Int32 defaultYearValue)
-    // Offset: 0xDA6AFC
+    // Offset: 0xD06DC0
     static int GetSystemTwoDigitYearSetting(int CalID, int defaultYearValue);
     // protected System.Void .ctor()
-    // Offset: 0xDA64B0
+    // Offset: 0xD06774
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Calendar* New_ctor();
     // public System.Object Clone()
-    // Offset: 0xDA64D8
+    // Offset: 0xD0679C
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();

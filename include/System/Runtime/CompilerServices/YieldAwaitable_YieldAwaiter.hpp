@@ -42,22 +42,22 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: YieldAwaiter
     YieldAwaiter() {}
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xA3E9F0
+    // Offset: 0x9A7EBC
     bool get_IsCompleted();
     // static private System.Void QueueContinuation(System.Action continuation, System.Boolean flowContext)
-    // Offset: 0x1161FE4
+    // Offset: 0x10C52A8
     static void QueueContinuation(System::Action* continuation, bool flowContext);
     // static private System.Void RunAction(System.Object state)
-    // Offset: 0x11622B8
+    // Offset: 0x10C557C
     static void RunAction(::Il2CppObject* state);
     // public System.Void GetResult()
-    // Offset: 0xA3E9FC
+    // Offset: 0x9A7EC8
     void GetResult();
     // static private System.Void .cctor()
-    // Offset: 0x1162328
+    // Offset: 0x10C55EC
     static void _cctor();
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xA3E9F8
+    // Offset: 0x9A7EC4
     // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
     // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
     void UnsafeOnCompleted(System::Action* continuation);

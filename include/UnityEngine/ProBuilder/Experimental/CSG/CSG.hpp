@@ -29,16 +29,16 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Set static field: static public System.Single EPSILON
     static void _set_EPSILON(float value);
     // static public UnityEngine.Mesh Union(UnityEngine.GameObject lhs, UnityEngine.GameObject rhs)
-    // Offset: 0xF8DE84
+    // Offset: 0xEEF148
     static UnityEngine::Mesh* Union(UnityEngine::GameObject* lhs, UnityEngine::GameObject* rhs);
     // static public UnityEngine.Mesh Subtract(UnityEngine.GameObject lhs, UnityEngine.GameObject rhs)
-    // Offset: 0xF8E97C
+    // Offset: 0xEEFC40
     static UnityEngine::Mesh* Subtract(UnityEngine::GameObject* lhs, UnityEngine::GameObject* rhs);
     // static public UnityEngine.Mesh Intersect(UnityEngine.GameObject lhs, UnityEngine.GameObject rhs)
-    // Offset: 0xF8EBB8
+    // Offset: 0xEEFE7C
     static UnityEngine::Mesh* Intersect(UnityEngine::GameObject* lhs, UnityEngine::GameObject* rhs);
     // public System.Void .ctor()
-    // Offset: 0xF8EDEC
+    // Offset: 0xEF00B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CSG* New_ctor();

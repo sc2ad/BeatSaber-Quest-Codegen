@@ -37,10 +37,10 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_t_Packed
     VREvent_t_Packed(uint eventType_ = {}, uint trackedDeviceIndex_ = {}, float eventAgeSeconds_ = {}, OVR::OpenVR::VREvent_Data_t data_ = {}) : eventType{eventType_}, trackedDeviceIndex{trackedDeviceIndex_}, eventAgeSeconds{eventAgeSeconds_}, data{data_} {}
     // public System.Void .ctor(OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0xA2908C
+    // Offset: 0x993558
     static VREvent_t_Packed* New_ctor(OVR::OpenVR::VREvent_t unpacked);
     // public System.Void Unpack(OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0xA290DC
+    // Offset: 0x9935A8
     void Unpack(OVR::OpenVR::VREvent_t& unpacked);
   }; // OVR.OpenVR.VREvent_t_Packed
 }

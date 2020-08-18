@@ -23,16 +23,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppString* assetFile;
     // public System.String get_sku()
-    // Offset: 0xC363E0
+    // Offset: 0xBAD41C
     ::Il2CppString* get_sku();
     // public System.String get_levelId()
-    // Offset: 0xC363E8
+    // Offset: 0xBAD424
     ::Il2CppString* get_levelId();
     // public System.String get_assetFile()
-    // Offset: 0xC363F0
+    // Offset: 0xBAD42C
     ::Il2CppString* get_assetFile();
     // public System.Void .ctor()
-    // Offset: 0xC363F8
+    // Offset: 0xBAD434
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusLevelProductsModelSO::LevelProductData* New_ctor();

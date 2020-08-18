@@ -25,8 +25,8 @@ namespace System::Security::Claims {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Func`1<TResult>
   template<typename TResult>
@@ -63,34 +63,34 @@ namespace System::Security::Claims {
     // Set static field: static private System.Func`1<System.Security.Claims.ClaimsPrincipal> s_principalSelector
     static void _set_s_principalSelector(System::Func_1<System::Security::Claims::ClaimsPrincipal*>* value);
     // static private System.Security.Claims.ClaimsIdentity SelectPrimaryIdentity(System.Collections.Generic.IEnumerable`1<System.Security.Claims.ClaimsIdentity> identities)
-    // Offset: 0xDE50D4
+    // Offset: 0xD45398
     static System::Security::Claims::ClaimsIdentity* SelectPrimaryIdentity(System::Collections::Generic::IEnumerable_1<System::Security::Claims::ClaimsIdentity*>* identities);
     // static public System.Func`1<System.Security.Claims.ClaimsPrincipal> get_ClaimsPrincipalSelector()
-    // Offset: 0xDE53FC
+    // Offset: 0xD456C0
     static System::Func_1<System::Security::Claims::ClaimsPrincipal*>* get_ClaimsPrincipalSelector();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDE54F8
+    // Offset: 0xD457BC
     static ClaimsPrincipal* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void OnSerializingMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDE5734
+    // Offset: 0xD459F8
     void OnSerializingMethod(System::Runtime::Serialization::StreamingContext context);
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDE5F84
+    // Offset: 0xD46248
     void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context);
     // private System.Void Deserialize(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xDE55E4
+    // Offset: 0xD458A8
     void Deserialize(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void DeserializeIdentities(System.String identities)
-    // Offset: 0xDE6004
+    // Offset: 0xD462C8
     void DeserializeIdentities(::Il2CppString* identities);
     // private System.String SerializeIdentities()
-    // Offset: 0xDE57AC
+    // Offset: 0xD45A70
     ::Il2CppString* SerializeIdentities();
     // static private System.Void .cctor()
-    // Offset: 0xDE6650
+    // Offset: 0xD46914
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xDE5464
+    // Offset: 0xD45728
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ClaimsPrincipal* New_ctor();

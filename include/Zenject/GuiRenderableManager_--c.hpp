@@ -11,13 +11,13 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: ModestTree::Util
@@ -45,16 +45,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.GuiRenderableManager/RenderableInfo,System.Int32> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<Zenject::GuiRenderableManager::RenderableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF35010
+    // Offset: 0xE962D4
     static void _cctor();
     // System.Int32 <.ctor>b__1_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xF35080
+    // Offset: 0xE96344
     int $_ctor$b__1_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <.ctor>b__1_0(Zenject.GuiRenderableManager/RenderableInfo x)
-    // Offset: 0xF35098
+    // Offset: 0xE9635C
     int $_ctor$b__1_0(Zenject::GuiRenderableManager::RenderableInfo* x);
     // public System.Void .ctor()
-    // Offset: 0xF35078
+    // Offset: 0xE9633C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GuiRenderableManager::$$c* New_ctor();

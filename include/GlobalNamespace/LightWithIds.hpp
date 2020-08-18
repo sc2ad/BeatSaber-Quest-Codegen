@@ -52,19 +52,19 @@ namespace GlobalNamespace {
     // Offset: 0x48
     int lastRefreshColorFrameNum;
     // protected System.Void Start()
-    // Offset: 0x182436C
+    // Offset: 0x17826A4
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x1824460
+    // Offset: 0x1782798
     void OnValidate();
     // protected UnityEngine.Color RefreshAndGetColor()
-    // Offset: 0x181C6E8
+    // Offset: 0x177AA20
     UnityEngine::Color RefreshAndGetColor();
     // private System.Void RefreshLightColor()
-    // Offset: 0x1824510
+    // Offset: 0x1782848
     void RefreshLightColor();
     // protected System.Void .ctor()
-    // Offset: 0x181C748
+    // Offset: 0x177AA80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

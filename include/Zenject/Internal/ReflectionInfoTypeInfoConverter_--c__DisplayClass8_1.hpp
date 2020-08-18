@@ -27,10 +27,10 @@ namespace Zenject::Internal {
     // Offset: 0x18
     ::Il2CppObject* value;
     // System.Void <GetOnlyPropertySetter>b__3(System.Reflection.FieldInfo f)
-    // Offset: 0xF39404
+    // Offset: 0xE9A6C8
     void $GetOnlyPropertySetter$b__3(System::Reflection::FieldInfo* f);
     // public System.Void .ctor()
-    // Offset: 0xF393FC
+    // Offset: 0xE9A6C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1* New_ctor();

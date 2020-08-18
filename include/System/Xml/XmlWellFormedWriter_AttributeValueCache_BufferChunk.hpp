@@ -23,7 +23,7 @@ namespace System::Xml {
     // Offset: 0x1C
     int count;
     // System.Void .ctor(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x193DBB8
+    // Offset: 0x1899F04
     static XmlWellFormedWriter::AttributeValueCache::BufferChunk* New_ctor(::Array<::Il2CppChar>* buffer, int index, int count);
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/BufferChunk
 }

@@ -28,19 +28,19 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: ScoreData
     ScoreData(::Il2CppString* Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
     // public System.String get_Name()
-    // Offset: 0xA5CD60
+    // Offset: 0x9C722C
     ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0xA5CD68
+    // Offset: 0x9C7234
     void set_Name(::Il2CppString* value);
     // public System.Int32 get_Score()
-    // Offset: 0xA5CD70
+    // Offset: 0x9C723C
     int get_Score();
     // public System.Void set_Score(System.Int32 value)
-    // Offset: 0xA5CD78
+    // Offset: 0x9C7244
     void set_Score(int value);
     // public System.Void set_TimeStamp(System.Int64 value)
-    // Offset: 0xA5CD80
+    // Offset: 0x9C724C
     void set_TimeStamp(int64_t value);
   }; // NetEase.Docker.ScoreData
 }

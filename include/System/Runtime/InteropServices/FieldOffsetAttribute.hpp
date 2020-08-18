@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     int val;
     // public System.Void .ctor(System.Int32 offset)
-    // Offset: 0x1162C8C
+    // Offset: 0x10C5F50
     static FieldOffsetAttribute* New_ctor(int offset);
   }; // System.Runtime.InteropServices.FieldOffsetAttribute
 }

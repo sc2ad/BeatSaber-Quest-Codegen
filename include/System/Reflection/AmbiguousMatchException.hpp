@@ -23,20 +23,20 @@ namespace System::Reflection {
   class AmbiguousMatchException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x135DA14
+    // Offset: 0x12BECD8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static AmbiguousMatchException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x135DA88
+    // Offset: 0x12BED4C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static AmbiguousMatchException* New_ctor(::Il2CppString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x135DABC
+    // Offset: 0x12BED80
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

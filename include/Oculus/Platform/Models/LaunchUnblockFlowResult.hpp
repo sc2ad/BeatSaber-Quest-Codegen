@@ -25,7 +25,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11
     bool DidUnblock;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE9FF28
+    // Offset: 0xDFF1EC
     static LaunchUnblockFlowResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LaunchUnblockFlowResult
 }

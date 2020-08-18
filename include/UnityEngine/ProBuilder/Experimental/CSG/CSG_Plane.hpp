@@ -35,19 +35,19 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x1C
     float w;
     // public System.Void .ctor(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c)
-    // Offset: 0xF90A80
+    // Offset: 0xEF1D44
     static CSG_Plane* New_ctor(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c);
     // public System.Boolean Valid()
-    // Offset: 0xF90304
+    // Offset: 0xEF15C8
     bool Valid();
     // public System.Void Flip()
-    // Offset: 0xF90264
+    // Offset: 0xEF1528
     void Flip();
     // public System.Void SplitPolygon(UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon polygon, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> coplanarFront, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> coplanarBack, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> front, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> back)
-    // Offset: 0xF903A8
+    // Offset: 0xEF166C
     void SplitPolygon(UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon* polygon, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* coplanarFront, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* coplanarBack, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* front, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* back);
     // public System.Void .ctor()
-    // Offset: 0xF90328
+    // Offset: 0xEF15EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CSG_Plane* New_ctor();

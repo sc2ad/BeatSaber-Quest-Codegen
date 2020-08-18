@@ -37,61 +37,61 @@ namespace ModestTree {
     template<typename T>
     class $$c__DisplayClass9_0_1;
     // static public System.Collections.Generic.IEnumerable`1<T> Yield(T item)
-    // Offset: 0xD074B0
+    // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* Yield(T item) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<T>*>("ModestTree", "LinqExtensions", "Yield", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, item)));
     }
     // static public TSource OnlyOrDefault(System.Collections.Generic.IEnumerable`1<TSource> source)
-    // Offset: 0xD51570
+    // Offset: 0xFFFFFFFF
     template<class TSource>
     static TSource OnlyOrDefault(System::Collections::Generic::IEnumerable_1<TSource>* source) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TSource>("ModestTree", "LinqExtensions", "OnlyOrDefault", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source)));
     }
     // static public System.Boolean HasAtLeast(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 amount)
-    // Offset: 0x14E1AE8
+    // Offset: 0xFFFFFFFF
     template<class T>
     static bool HasAtLeast(System::Collections::Generic::IEnumerable_1<T>* enumerable, int amount) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "HasAtLeast", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable, amount)));
     }
     // static public System.Boolean HasMoreThan(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 amount)
-    // Offset: 0x14E1B90
+    // Offset: 0xFFFFFFFF
     template<class T>
     static bool HasMoreThan(System::Collections::Generic::IEnumerable_1<T>* enumerable, int amount) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "HasMoreThan", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable, amount)));
     }
     // static public System.Boolean HasLessThan(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 amount)
-    // Offset: 0x14E1B7C
+    // Offset: 0xFFFFFFFF
     template<class T>
     static bool HasLessThan(System::Collections::Generic::IEnumerable_1<T>* enumerable, int amount) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "HasLessThan", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable, amount)));
     }
     // static public System.Boolean HasAtMost(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 amount)
-    // Offset: 0x14E1B30
+    // Offset: 0xFFFFFFFF
     template<class T>
     static bool HasAtMost(System::Collections::Generic::IEnumerable_1<T>* enumerable, int amount) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "HasAtMost", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable, amount)));
     }
     // static public System.Boolean IsEmpty(System.Collections.Generic.IEnumerable`1<T> enumerable)
-    // Offset: 0x14E1BA4
+    // Offset: 0xFFFFFFFF
     template<class T>
     static bool IsEmpty(System::Collections::Generic::IEnumerable_1<T>* enumerable) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "IsEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable)));
     }
     // static public System.Collections.Generic.IEnumerable`1<T> GetDuplicates(System.Collections.Generic.IEnumerable`1<T> list)
-    // Offset: 0xD06FFC
+    // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* GetDuplicates(System::Collections::Generic::IEnumerable_1<T>* list) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<T>*>("ModestTree", "LinqExtensions", "GetDuplicates", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list)));
     }
     // static public System.Collections.Generic.IEnumerable`1<T> Except(System.Collections.Generic.IEnumerable`1<T> list, T item)
-    // Offset: 0xD06F64
+    // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* Except(System::Collections::Generic::IEnumerable_1<T>* list, T item) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<T>*>("ModestTree", "LinqExtensions", "Except", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, item)));
     }
     // static public System.Boolean ContainsItem(System.Collections.Generic.IEnumerable`1<T> list, T value)
-    // Offset: 0x14E1A10
+    // Offset: 0xFFFFFFFF
     template<class T>
     static bool ContainsItem(System::Collections::Generic::IEnumerable_1<T>* list, T value) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "ContainsItem", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, value)));

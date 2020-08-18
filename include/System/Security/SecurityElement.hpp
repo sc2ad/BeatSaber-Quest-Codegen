@@ -63,64 +63,64 @@ namespace System::Security {
     // Set static field: static private readonly System.Char[] invalid_chars
     static void _set_invalid_chars(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.String tag)
-    // Offset: 0xDEA0A8
+    // Offset: 0xD4A36C
     static SecurityElement* New_ctor(::Il2CppString* tag);
     // public System.Void .ctor(System.String tag, System.String text)
-    // Offset: 0xDEA0B0
+    // Offset: 0xD4A374
     static SecurityElement* New_ctor(::Il2CppString* tag, ::Il2CppString* text);
     // public System.Collections.Hashtable get_Attributes()
-    // Offset: 0xDEA4A8
+    // Offset: 0xD4A76C
     System::Collections::Hashtable* get_Attributes();
     // public System.Collections.ArrayList get_Children()
-    // Offset: 0xDEA774
+    // Offset: 0xD4AA38
     System::Collections::ArrayList* get_Children();
     // public System.String get_Tag()
-    // Offset: 0xDEA77C
+    // Offset: 0xD4AA40
     ::Il2CppString* get_Tag();
     // public System.String get_Text()
-    // Offset: 0xDEA784
+    // Offset: 0xD4AA48
     ::Il2CppString* get_Text();
     // public System.Void set_Text(System.String value)
-    // Offset: 0xDEA394
+    // Offset: 0xD4A658
     void set_Text(::Il2CppString* value);
     // public System.Void AddAttribute(System.String name, System.String value)
-    // Offset: 0xDEA958
+    // Offset: 0xD4AC1C
     void AddAttribute(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void AddChild(System.Security.SecurityElement child)
-    // Offset: 0xDEAF18
+    // Offset: 0xD4B1DC
     void AddChild(System::Security::SecurityElement* child);
     // static public System.String Escape(System.String str)
-    // Offset: 0xDEAFF4
+    // Offset: 0xD4B2B8
     static ::Il2CppString* Escape(::Il2CppString* str);
     // static private System.String Unescape(System.String str)
-    // Offset: 0xDEA81C
+    // Offset: 0xD4AAE0
     static ::Il2CppString* Unescape(::Il2CppString* str);
     // static public System.Security.SecurityElement FromString(System.String xml)
-    // Offset: 0xDEB1DC
+    // Offset: 0xD4B4A0
     static System::Security::SecurityElement* FromString(::Il2CppString* xml);
     // static public System.Boolean IsValidAttributeName(System.String name)
-    // Offset: 0xDEB3C0
+    // Offset: 0xD4B684
     static bool IsValidAttributeName(::Il2CppString* name);
     // static public System.Boolean IsValidAttributeValue(System.String value)
-    // Offset: 0xDEB450
+    // Offset: 0xD4B714
     static bool IsValidAttributeValue(::Il2CppString* value);
     // static public System.Boolean IsValidTag(System.String tag)
-    // Offset: 0xDEA1F4
+    // Offset: 0xD4A4B8
     static bool IsValidTag(::Il2CppString* tag);
     // static public System.Boolean IsValidText(System.String text)
-    // Offset: 0xDEA78C
+    // Offset: 0xD4AA50
     static bool IsValidText(::Il2CppString* text);
     // private System.Void ToXml(System.Text.StringBuilder s, System.Int32 level)
-    // Offset: 0xDEB570
+    // Offset: 0xD4B834
     void ToXml(System::Text::StringBuilder*& s, int level);
     // System.Security.SecurityElement/SecurityAttribute GetAttribute(System.String name)
-    // Offset: 0xDEAAE4
+    // Offset: 0xD4ADA8
     System::Security::SecurityElement::SecurityAttribute* GetAttribute(::Il2CppString* name);
     // static private System.Void .cctor()
-    // Offset: 0xDEBABC
+    // Offset: 0xD4BD80
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xDEB4E0
+    // Offset: 0xD4B7A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

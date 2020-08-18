@@ -20,31 +20,31 @@ namespace UnityEngine {
     // Creating value type constructor for type: ForceOverLifetimeModule
     ForceOverLifetimeModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) : m_ParticleSystem{m_ParticleSystem_} {}
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xA5BB40
+    // Offset: 0x9C600C
     static ParticleSystem::ForceOverLifetimeModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0xA5BB48
+    // Offset: 0x9C6014
     void set_enabled(bool value);
     // public System.Void set_x(UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0xA5BB98
+    // Offset: 0x9C6064
     void set_x(UnityEngine::ParticleSystem::MinMaxCurve value);
     // public System.Void set_y(UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0xA5BBF0
+    // Offset: 0x9C60BC
     void set_y(UnityEngine::ParticleSystem::MinMaxCurve value);
     // public System.Void set_z(UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0xA5BC48
+    // Offset: 0x9C6114
     void set_z(UnityEngine::ParticleSystem::MinMaxCurve value);
     // static private System.Void set_enabled_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, System.Boolean value)
-    // Offset: 0x19653B0
+    // Offset: 0x18C16F4
     static void set_enabled_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, bool value);
     // static private System.Void set_x_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0x1965450
+    // Offset: 0x18C1794
     static void set_x_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
     // static private System.Void set_y_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0x19654F0
+    // Offset: 0x18C1834
     static void set_y_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
     // static private System.Void set_z_Injected(UnityEngine.ParticleSystem/ForceOverLifetimeModule _unity_self, UnityEngine.ParticleSystem/MinMaxCurve value)
-    // Offset: 0x1965590
+    // Offset: 0x18C18D4
     static void set_z_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, UnityEngine::ParticleSystem::MinMaxCurve& value);
   }; // UnityEngine.ParticleSystem/ForceOverLifetimeModule
 }

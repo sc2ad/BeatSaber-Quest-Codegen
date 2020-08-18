@@ -35,10 +35,10 @@ namespace UnityEngine::XR {
     // Set static field: static private System.Action`1<System.Boolean> displayFocusChanged
     static void _set_displayFocusChanged(System::Action_1<bool>* value);
     // static private System.Void InvokeDisplayFocusChanged(System.Boolean focus)
-    // Offset: 0x195EB2C
+    // Offset: 0x18BAE70
     static void InvokeDisplayFocusChanged(bool focus);
     // public System.Void .ctor()
-    // Offset: 0x195EBA0
+    // Offset: 0x18BAEE4
     // Implemented from: UnityEngine.IntegratedSubsystem`1
     // Base method: System.Void IntegratedSubsystem`1::.ctor()
     // Base method: System.Void IntegratedSubsystem::.ctor()

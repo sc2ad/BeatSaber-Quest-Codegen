@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x30
     uint WinCount;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA1BE8
+    // Offset: 0xE00EAC
     static MatchmakingStats* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingStats
 }

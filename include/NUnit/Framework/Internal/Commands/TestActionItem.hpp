@@ -30,13 +30,13 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x18
     bool beforeTestWasRun;
     // public System.Void .ctor(NUnit.Framework.ITestAction action)
-    // Offset: 0x1083434
+    // Offset: 0xFE56F8
     static TestActionItem* New_ctor(NUnit::Framework::ITestAction* action);
     // public System.Void BeforeTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1082398
+    // Offset: 0xFE465C
     void BeforeTest(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void AfterTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x108298C
+    // Offset: 0xFE4C50
     void AfterTest(NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Internal.Commands.TestActionItem
 }

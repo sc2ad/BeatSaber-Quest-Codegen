@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::LevelCompletionResults* levelCompletionResults;
     // System.Void <HandleMainGameSceneDidFinish>b__0()
-    // Offset: 0xBFF904
+    // Offset: 0x1948418
     void $HandleMainGameSceneDidFinish$b__0();
     // public System.Void .ctor()
-    // Offset: 0xBFF4A0
+    // Offset: 0x1947FB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuTransitionsHelper::$$c__DisplayClass17_0* New_ctor();

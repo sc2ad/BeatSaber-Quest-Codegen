@@ -21,16 +21,16 @@ namespace NUnit::Framework {
   class Assert : public ::Il2CppObject {
     public:
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, System.Object[] args)
-    // Offset: 0xC74524
+    // Offset: 0xFFFFFFFF
     template<class TActual>
     static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::Il2CppString* message, ::Array<::Il2CppObject*>* args) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("NUnit.Framework", "Assert", "That", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}, actual, expression, message, args));
     }
     // static public System.Void AreEqual(System.Object expected, System.Object actual)
-    // Offset: 0x106D8A4
+    // Offset: 0xFCFB68
     static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // static private System.Void IncrementAssertCount()
-    // Offset: 0x106D918
+    // Offset: 0xFCFBDC
     static void IncrementAssertCount();
   }; // NUnit.Framework.Assert
 }

@@ -31,12 +31,12 @@ namespace Zenject {
     // Offset: 0x0
     System::Guid factoryId;
     // Zenject.IProvider <FromIFactory>b__0(Zenject.DiContainer container)
-    // Offset: 0x119071C
+    // Offset: 0xFFFFFFFF
     Zenject::IProvider* $FromIFactory$b__0(Zenject::DiContainer* container) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<FromIFactory>b__0", container)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1190704
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FactoryFromBinder5Extensions::$$c__DisplayClass0_0_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* New_ctor() {

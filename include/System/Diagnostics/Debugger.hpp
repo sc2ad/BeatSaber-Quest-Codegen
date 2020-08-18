@@ -16,22 +16,22 @@ namespace System::Diagnostics {
     // Set static field: static public readonly System.String DefaultCategory
     static void _set_DefaultCategory(::Il2CppString* value);
     // static public System.Boolean get_IsAttached()
-    // Offset: 0xC91D9C
+    // Offset: 0xBF2060
     static bool get_IsAttached();
     // static private System.Boolean IsAttached_internal()
-    // Offset: 0xC91DF8
+    // Offset: 0xBF20BC
     static bool IsAttached_internal();
     // static public System.Boolean IsLogging()
-    // Offset: 0xC91DFC
+    // Offset: 0xBF20C0
     static bool IsLogging();
     // static public System.Void Log(System.Int32 level, System.String category, System.String message)
-    // Offset: 0xC91E00
+    // Offset: 0xBF20C4
     static void Log(int level, ::Il2CppString* category, ::Il2CppString* message);
     // static public System.Void NotifyOfCrossThreadDependency()
-    // Offset: 0xC91E04
+    // Offset: 0xBF20C8
     static void NotifyOfCrossThreadDependency();
     // static private System.Void .cctor()
-    // Offset: 0xC91E08
+    // Offset: 0xBF20CC
     static void _cctor();
   }; // System.Diagnostics.Debugger
 }

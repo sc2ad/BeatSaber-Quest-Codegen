@@ -24,16 +24,16 @@ namespace System {
   class Action : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10B6644
+    // Offset: 0x1018908
     static Action* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x10B6658
+    // Offset: 0x101891C
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10B6864
+    // Offset: 0x1018B28
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10B6890
+    // Offset: 0x1018B54
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Action
 }

@@ -50,42 +50,42 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.Single k_AreaError
     static void _set_k_AreaError(float value);
     // public System.Single get_hardAngle()
-    // Offset: 0x18CA67C
+    // Offset: 0x18289C8
     float get_hardAngle();
     // public System.Void set_hardAngle(System.Single value)
-    // Offset: 0x18CA684
+    // Offset: 0x18289D0
     void set_hardAngle(float value);
     // public System.Single get_packMargin()
-    // Offset: 0x18CA68C
+    // Offset: 0x18289D8
     float get_packMargin();
     // public System.Void set_packMargin(System.Single value)
-    // Offset: 0x18CA694
+    // Offset: 0x18289E0
     void set_packMargin(float value);
     // public System.Single get_angleError()
-    // Offset: 0x18CA69C
+    // Offset: 0x18289E8
     float get_angleError();
     // public System.Void set_angleError(System.Single value)
-    // Offset: 0x18CA6A4
+    // Offset: 0x18289F0
     void set_angleError(float value);
     // public System.Single get_areaError()
-    // Offset: 0x18CA6AC
+    // Offset: 0x18289F8
     float get_areaError();
     // public System.Void set_areaError(System.Single value)
-    // Offset: 0x18CA6B4
+    // Offset: 0x1828A00
     void set_areaError(float value);
     // public System.Void .ctor(UnityEngine.ProBuilder.UnwrapParameters other)
-    // Offset: 0x18CA710
+    // Offset: 0x1828A5C
     static UnwrapParameters* New_ctor(UnityEngine::ProBuilder::UnwrapParameters* other);
     // public System.Void Reset()
-    // Offset: 0x18CA700
+    // Offset: 0x1828A4C
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x18CA6BC
+    // Offset: 0x1828A08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnwrapParameters* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x18CA7D4
+    // Offset: 0x1828B20
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

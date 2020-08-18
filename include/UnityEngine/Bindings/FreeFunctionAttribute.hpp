@@ -14,19 +14,19 @@ namespace UnityEngine::Bindings {
   class FreeFunctionAttribute : public UnityEngine::Bindings::NativeMethodAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x196A760
+    // Offset: 0x18C6AA4
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static FreeFunctionAttribute* New_ctor();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x196A794
+    // Offset: 0x18C6AD8
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name)
     static FreeFunctionAttribute* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.Boolean isThreadSafe)
-    // Offset: 0x196A7E8
+    // Offset: 0x18C6B2C
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name, System.Boolean isThreadSafe)
     static FreeFunctionAttribute* New_ctor(::Il2CppString* name, bool isThreadSafe);

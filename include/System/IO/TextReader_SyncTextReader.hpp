@@ -17,40 +17,40 @@ namespace System::IO {
     // Offset: 0x18
     System::IO::TextReader* in;
     // System.Void .ctor(System.IO.TextReader t)
-    // Offset: 0x10071B4
+    // Offset: 0xF69478
     static TextReader::SyncTextReader* New_ctor(System::IO::TextReader* t);
     // public override System.Void Close()
-    // Offset: 0x10075B0
+    // Offset: 0xF69874
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x10075D0
+    // Offset: 0xF69894
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x10076A0
+    // Offset: 0xF69964
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x10076C0
+    // Offset: 0xF69984
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x10076E0
+    // Offset: 0xF699A4
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x1007700
+    // Offset: 0xF699C4
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x1007724
+    // Offset: 0xF699E8
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();

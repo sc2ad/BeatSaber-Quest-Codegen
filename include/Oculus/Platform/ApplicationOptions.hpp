@@ -17,15 +17,15 @@ namespace Oculus::Platform {
     // Offset: 0x10
     System::IntPtr Handle;
     // public System.Void SetDeeplinkMessage(System.String value)
-    // Offset: 0x158D018
+    // Offset: 0x14EF350
     void SetDeeplinkMessage(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x158CF30
+    // Offset: 0x14EF268
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ApplicationOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x158D13C
+    // Offset: 0x14EF474
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

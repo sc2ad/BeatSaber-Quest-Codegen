@@ -25,10 +25,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Result ovrp_GetSystemHmd3DofModeEnabled(OVRPlugin/Bool enabled)
-    // Offset: 0xF4361C
+    // Offset: 0xEA48E0
     static GlobalNamespace::OVRPlugin::Result ovrp_GetSystemHmd3DofModeEnabled(GlobalNamespace::OVRPlugin::Bool& enabled);
     // static private System.Void .cctor()
-    // Offset: 0xF4369C
+    // Offset: 0xEA4960
     static void _cctor();
   }; // OVRPlugin/OVRP_1_45_0
 }

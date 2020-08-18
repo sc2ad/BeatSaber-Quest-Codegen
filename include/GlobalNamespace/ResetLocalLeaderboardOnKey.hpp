@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::KeyCode keyCode;
     // private System.Void Update()
-    // Offset: 0xC1CAB4
+    // Offset: 0xB94AF0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC1CB00
+    // Offset: 0xB94B3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

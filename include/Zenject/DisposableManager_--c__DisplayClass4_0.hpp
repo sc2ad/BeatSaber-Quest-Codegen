@@ -32,10 +32,10 @@ namespace Zenject {
     // Offset: 0x10
     System::IDisposable* disposable;
     // System.Boolean <.ctor>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xF2A4BC
+    // Offset: 0xE8B780
     bool $_ctor$b__0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0xF298D4
+    // Offset: 0xE8AB98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DisposableManager::$$c__DisplayClass4_0* New_ctor();

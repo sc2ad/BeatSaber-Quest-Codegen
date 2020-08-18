@@ -151,64 +151,64 @@ namespace System::Resources {
     // Set static field: static readonly System.Int32 DEBUG
     static void _set_DEBUG(int value);
     // private System.Void Init()
-    // Offset: 0x1157E24
+    // Offset: 0x10BB0E8
     void Init();
     // public System.Void .ctor(System.String baseName, System.Reflection.Assembly assembly)
-    // Offset: 0x1158044
+    // Offset: 0x10BB308
     static ResourceManager* New_ctor(::Il2CppString* baseName, System::Reflection::Assembly* assembly);
     // private System.Void OnDeserializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x1158400
+    // Offset: 0x10BB6C4
     void OnDeserializing(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x1158444
+    // Offset: 0x10BB708
     void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x1158600
+    // Offset: 0x10BB8C4
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void CommonAssemblyInit()
-    // Offset: 0x11582AC
+    // Offset: 0x10BB570
     void CommonAssemblyInit();
     // public System.String get_BaseName()
-    // Offset: 0x1158680
+    // Offset: 0x10BB944
     ::Il2CppString* get_BaseName();
     // protected System.Resources.UltimateResourceFallbackLocation get_FallbackLocation()
-    // Offset: 0x1158688
+    // Offset: 0x10BB94C
     System::Resources::UltimateResourceFallbackLocation get_FallbackLocation();
     // protected System.String GetResourceFileName(System.Globalization.CultureInfo culture)
-    // Offset: 0x1158690
+    // Offset: 0x10BB954
     ::Il2CppString* GetResourceFileName(System::Globalization::CultureInfo* culture);
     // System.Resources.ResourceSet GetFirstResourceSet(System.Globalization.CultureInfo culture)
-    // Offset: 0x11587C4
+    // Offset: 0x10BBA88
     System::Resources::ResourceSet* GetFirstResourceSet(System::Globalization::CultureInfo* culture);
     // public System.Resources.ResourceSet GetResourceSet(System.Globalization.CultureInfo culture, System.Boolean createIfNotExists, System.Boolean tryParents)
-    // Offset: 0x1158B58
+    // Offset: 0x10BBE1C
     System::Resources::ResourceSet* GetResourceSet(System::Globalization::CultureInfo* culture, bool createIfNotExists, bool tryParents);
     // protected System.Resources.ResourceSet InternalGetResourceSet(System.Globalization.CultureInfo culture, System.Boolean createIfNotExists, System.Boolean tryParents)
-    // Offset: 0x1159014
+    // Offset: 0x10BC2D8
     System::Resources::ResourceSet* InternalGetResourceSet(System::Globalization::CultureInfo* culture, bool createIfNotExists, bool tryParents);
     // private System.Resources.ResourceSet InternalGetResourceSet(System.Globalization.CultureInfo requestedCulture, System.Boolean createIfNotExists, System.Boolean tryParents, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1159044
+    // Offset: 0x10BC308
     System::Resources::ResourceSet* InternalGetResourceSet(System::Globalization::CultureInfo* requestedCulture, bool createIfNotExists, bool tryParents, System::Threading::StackCrawlMark& stackMark);
     // static private System.Void AddResourceSet(System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.String cultureName, System.Resources.ResourceSet rs)
-    // Offset: 0x1158E7C
+    // Offset: 0x10BC140
     static void AddResourceSet(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* localResourceSets, ::Il2CppString* cultureName, System::Resources::ResourceSet*& rs);
     // static protected System.Version GetSatelliteContractVersion(System.Reflection.Assembly a)
-    // Offset: 0x11597B8
+    // Offset: 0x10BCA7C
     static System::Version* GetSatelliteContractVersion(System::Reflection::Assembly* a);
     // static System.Boolean CompareNames(System.String asmTypeName1, System.String typeName2, System.Reflection.AssemblyName asmName2)
-    // Offset: 0x1157564
+    // Offset: 0x10BA828
     static bool CompareNames(::Il2CppString* asmTypeName1, ::Il2CppString* typeName2, System::Reflection::AssemblyName* asmName2);
     // private System.Void SetAppXConfiguration()
-    // Offset: 0x11582A8
+    // Offset: 0x10BB56C
     void SetAppXConfiguration();
     // public System.String GetString(System.String name, System.Globalization.CultureInfo culture)
-    // Offset: 0x1159ECC
+    // Offset: 0x10BD190
     ::Il2CppString* GetString(::Il2CppString* name, System::Globalization::CultureInfo* culture);
     // static private System.Void .cctor()
-    // Offset: 0x115A340
+    // Offset: 0x10BD604
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1157EBC
+    // Offset: 0x10BB180
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ResourceManager* New_ctor();

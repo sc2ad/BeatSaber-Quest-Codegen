@@ -18,15 +18,15 @@ namespace System::Collections {
     // Set static field: static readonly System.Collections.LowLevelComparer Default
     static void _set_Default(System::Collections::LowLevelComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1339878
+    // Offset: 0x129AB3C
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x13396B8
+    // Offset: 0x129A97C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LowLevelComparer* New_ctor();
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x13396C0
+    // Offset: 0x129A984
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object a, System.Object b)
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);

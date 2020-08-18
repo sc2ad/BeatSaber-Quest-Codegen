@@ -39,16 +39,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_Submit : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x150E3AC
+    // Offset: 0x146F6E4
     static IVRCompositor::_Submit* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRCompositorError Invoke(OVR.OpenVR.EVREye eEye, OVR.OpenVR.Texture_t pTexture, OVR.OpenVR.VRTextureBounds_t pBounds, OVR.OpenVR.EVRSubmitFlags nSubmitFlags)
-    // Offset: 0x150E3C0
+    // Offset: 0x146F6F8
     OVR::OpenVR::EVRCompositorError Invoke(OVR::OpenVR::EVREye eEye, OVR::OpenVR::Texture_t& pTexture, OVR::OpenVR::VRTextureBounds_t& pBounds, OVR::OpenVR::EVRSubmitFlags nSubmitFlags);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREye eEye, OVR.OpenVR.Texture_t pTexture, OVR.OpenVR.VRTextureBounds_t pBounds, OVR.OpenVR.EVRSubmitFlags nSubmitFlags, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x150E688
+    // Offset: 0x146F9C0
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, OVR::OpenVR::Texture_t& pTexture, OVR::OpenVR::VRTextureBounds_t& pBounds, OVR::OpenVR::EVRSubmitFlags nSubmitFlags, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRCompositorError EndInvoke(OVR.OpenVR.Texture_t pTexture, OVR.OpenVR.VRTextureBounds_t pBounds, System.IAsyncResult result)
-    // Offset: 0x150E778
+    // Offset: 0x146FAB0
     OVR::OpenVR::EVRCompositorError EndInvoke(OVR::OpenVR::Texture_t& pTexture, OVR::OpenVR::VRTextureBounds_t& pBounds, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_Submit
 }

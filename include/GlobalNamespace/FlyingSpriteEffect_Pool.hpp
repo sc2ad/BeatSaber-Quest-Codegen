@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class FlyingSpriteEffect::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::FlyingSpriteEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBEE024
+    // Offset: 0x1935634
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()

@@ -79,64 +79,64 @@ namespace GlobalNamespace {
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
     // public System.String get_version()
-    // Offset: 0xBA15D0
+    // Offset: 0x190AC7C
     ::Il2CppString* get_version();
     // public System.String get_songName()
-    // Offset: 0xBA15D8
+    // Offset: 0x190AC84
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0xBA15E0
+    // Offset: 0x190AC8C
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0xBA15E8
+    // Offset: 0x190AC94
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0xBA15F0
+    // Offset: 0x190AC9C
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0xBA15F8
+    // Offset: 0x190ACA4
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0xBA1600
+    // Offset: 0x190ACAC
     float get_songTimeOffset();
     // public System.Single get_shuffle()
-    // Offset: 0xBA1608
+    // Offset: 0x190ACB4
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0xBA1610
+    // Offset: 0x190ACBC
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0xBA1618
+    // Offset: 0x190ACC4
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0xBA1620
+    // Offset: 0x190ACCC
     float get_previewDuration();
     // public System.String get_songFilename()
-    // Offset: 0xBA1628
+    // Offset: 0x190ACD4
     ::Il2CppString* get_songFilename();
     // public System.String get_coverImageFilename()
-    // Offset: 0xBA1630
+    // Offset: 0x190ACDC
     ::Il2CppString* get_coverImageFilename();
     // public System.String get_environmentName()
-    // Offset: 0xBA1638
+    // Offset: 0x190ACE4
     ::Il2CppString* get_environmentName();
     // public StandardLevelInfoSaveData_V100/DifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0xBA1640
+    // Offset: 0x190ACEC
     ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>* get_difficultyBeatmaps();
     // public System.Void .ctor(System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, System.String songFilename, System.String coverImageFilename, System.String environmentName, StandardLevelInfoSaveData_V100/DifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0xBA1648
+    // Offset: 0x190ACF4
     static StandardLevelInfoSaveData_V100* New_ctor(::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::Il2CppString* songFilename, ::Il2CppString* coverImageFilename, ::Il2CppString* environmentName, ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>* difficultyBeatmaps);
     // public System.Boolean get_hasAllData()
-    // Offset: 0xBA17A4
+    // Offset: 0x190AE50
     bool get_hasAllData();
     // public System.Void SetSongFilename(System.String songFilename)
-    // Offset: 0xBA1808
+    // Offset: 0x190AEB4
     void SetSongFilename(::Il2CppString* songFilename);
     // public System.String SerializeToJSONString()
-    // Offset: 0xBA1810
+    // Offset: 0x190AEBC
     ::Il2CppString* SerializeToJSONString();
     // static public StandardLevelInfoSaveData DeserializeFromJSONString(System.String stringData)
-    // Offset: 0xBA1818
+    // Offset: 0x190AEC4
     static GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
   }; // StandardLevelInfoSaveData_V100
 }

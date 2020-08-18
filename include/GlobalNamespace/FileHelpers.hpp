@@ -22,31 +22,31 @@ namespace GlobalNamespace {
   class FileHelpers : public ::Il2CppObject {
     public:
     // static public System.String GetEscapedURLForFilePath(System.String filePath)
-    // Offset: 0xCAE208
+    // Offset: 0xC0E4CC
     static ::Il2CppString* GetEscapedURLForFilePath(::Il2CppString* filePath);
     // static public System.String GetUniqueDirectoryNameByAppendingNumber(System.String dirName)
-    // Offset: 0xCAE26C
+    // Offset: 0xC0E530
     static ::Il2CppString* GetUniqueDirectoryNameByAppendingNumber(::Il2CppString* dirName);
     // static public System.String[] GetFilePaths(System.String directoryPath, System.Collections.Generic.HashSet`1<System.String> extensions)
-    // Offset: 0xCAE320
+    // Offset: 0xC0E5E4
     static ::Array<::Il2CppString*>* GetFilePaths(::Il2CppString* directoryPath, System::Collections::Generic::HashSet_1<::Il2CppString*>* extensions);
     // static public System.String[] GetFileNamesFromFilePaths(System.String[] filePaths)
-    // Offset: 0xCAE4C0
+    // Offset: 0xC0E784
     static ::Array<::Il2CppString*>* GetFileNamesFromFilePaths(::Array<::Il2CppString*>* filePaths);
     // static public System.Void SaveToJSONFile(System.Object obj, System.String filePath, System.String tempFilePath, System.String backupFilePath)
-    // Offset: 0xCAE5E0
+    // Offset: 0xC0E8A4
     static void SaveToJSONFile(::Il2CppObject* obj, ::Il2CppString* filePath, ::Il2CppString* tempFilePath, ::Il2CppString* backupFilePath);
     // static public T LoadFromJSONFile(System.String filePath, System.String backupFilePath)
-    // Offset: 0xC60220
+    // Offset: 0xFFFFFFFF
     template<class T>
     static T LoadFromJSONFile(::Il2CppString* filePath, ::Il2CppString* backupFilePath) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "FileHelpers", "LoadFromJSONFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, filePath, backupFilePath)));
     }
     // static public System.String LoadJSONFile(System.String filePath, System.String backupFilePath)
-    // Offset: 0xCAE720
+    // Offset: 0xC0E9E4
     static ::Il2CppString* LoadJSONFile(::Il2CppString* filePath, ::Il2CppString* backupFilePath);
     // public System.Void .ctor()
-    // Offset: 0xCAE898
+    // Offset: 0xC0EB5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FileHelpers* New_ctor();

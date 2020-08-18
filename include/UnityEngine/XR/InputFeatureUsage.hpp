@@ -26,23 +26,23 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: InputFeatureUsage
     InputFeatureUsage(::Il2CppString* m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
     // public System.String get_name()
-    // Offset: 0xA5B430
+    // Offset: 0x9C58FC
     ::Il2CppString* get_name();
     // UnityEngine.XR.InputFeatureType get_internalType()
-    // Offset: 0xA5B438
+    // Offset: 0x9C5904
     UnityEngine::XR::InputFeatureType get_internalType();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5B440
+    // Offset: 0x9C590C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.InputFeatureUsage other)
-    // Offset: 0xA5B448
+    // Offset: 0x9C5914
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.InputFeatureUsage other)
     bool Equals(UnityEngine::XR::InputFeatureUsage other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5B48C
+    // Offset: 0x9C5958
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

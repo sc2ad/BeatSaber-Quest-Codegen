@@ -17,7 +17,7 @@ namespace System::Reflection {
     // Offset: 0x10
     ::Il2CppString* version;
     // public System.Void .ctor(System.String version)
-    // Offset: 0x135F630
+    // Offset: 0x12C08F4
     static AssemblyFileVersionAttribute* New_ctor(::Il2CppString* version);
   }; // System.Reflection.AssemblyFileVersionAttribute
 }

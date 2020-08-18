@@ -21,25 +21,25 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x20
     int top;
     // System.Void .ctor(System.String stackId)
-    // Offset: 0xFE5360
+    // Offset: 0xF46624
     static SerStack* New_ctor(::Il2CppString* stackId);
     // System.Void Push(System.Object obj)
-    // Offset: 0xFE9438
+    // Offset: 0xF4A6FC
     void Push(::Il2CppObject* obj);
     // System.Object Pop()
-    // Offset: 0xFE93BC
+    // Offset: 0xF4A680
     ::Il2CppObject* Pop();
     // System.Void IncreaseCapacity()
-    // Offset: 0xFEB700
+    // Offset: 0xF4C9C4
     void IncreaseCapacity();
     // System.Object Peek()
-    // Offset: 0xFEB798
+    // Offset: 0xF4CA5C
     ::Il2CppObject* Peek();
     // System.Object PeekPeek()
-    // Offset: 0xFEB7E4
+    // Offset: 0xF4CAA8
     ::Il2CppObject* PeekPeek();
     // System.Boolean IsEmpty()
-    // Offset: 0xFE93AC
+    // Offset: 0xF4A670
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
 }

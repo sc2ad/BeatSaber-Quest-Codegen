@@ -23,17 +23,17 @@ namespace System::Runtime::Remoting::Activation {
   class ConstructionLevelActivator : public System::Runtime::Remoting::Activation::IActivator, public ::Il2CppObject {
     public:
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x104DD94
+    // Offset: 0xFB0058
     // Implemented from: System.Runtime.Remoting.Activation.IActivator
     // Base method: System.Runtime.Remoting.Activation.IActivator IActivator::get_NextActivator()
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
-    // Offset: 0x104DD9C
+    // Offset: 0xFB0060
     // Implemented from: System.Runtime.Remoting.Activation.IActivator
     // Base method: System.Runtime.Remoting.Activation.IConstructionReturnMessage IActivator::Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
     System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
     // public System.Void .ctor()
-    // Offset: 0x104C234
+    // Offset: 0xFAE4F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConstructionLevelActivator* New_ctor();

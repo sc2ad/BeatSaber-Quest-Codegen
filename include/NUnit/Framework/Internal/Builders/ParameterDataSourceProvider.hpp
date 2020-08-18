@@ -26,12 +26,12 @@ namespace NUnit::Framework::Internal::Builders {
   class ParameterDataSourceProvider : public NUnit::Framework::Interfaces::IParameterDataProvider, public ::Il2CppObject {
     public:
     // public System.Collections.IEnumerable GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
-    // Offset: 0x1081254
+    // Offset: 0xFE3518
     // Implemented from: NUnit.Framework.Interfaces.IParameterDataProvider
     // Base method: System.Collections.IEnumerable IParameterDataProvider::GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
     System::Collections::IEnumerable* GetDataFor(NUnit::Framework::Interfaces::IParameterInfo* parameter);
     // public System.Void .ctor()
-    // Offset: 0x106DAFC
+    // Offset: 0xFCFDC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ParameterDataSourceProvider* New_ctor();

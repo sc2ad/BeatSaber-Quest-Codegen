@@ -34,27 +34,27 @@ namespace System {
     // Offset: 0x0
     bool trackResurrection;
     // public System.Void .ctor(T target)
-    // Offset: 0x13F5724
+    // Offset: 0xFFFFFFFF
     static WeakReference_1<T>* New_ctor(T target) {
       return (WeakReference_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<WeakReference_1<T>*>::get(), target));
     }
     // public System.Void .ctor(T target, System.Boolean trackResurrection)
-    // Offset: 0x13F574C
+    // Offset: 0xFFFFFFFF
     static WeakReference_1<T>* New_ctor(T target, bool trackResurrection) {
       return (WeakReference_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<WeakReference_1<T>*>::get(), target, trackResurrection));
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13F57A0
+    // Offset: 0xFFFFFFFF
     static WeakReference_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       return (WeakReference_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<WeakReference_1<T>*>::get(), info, context));
     }
     // public System.Boolean TryGetTarget(T target)
-    // Offset: 0x13F59BC
+    // Offset: 0xFFFFFFFF
     bool TryGetTarget(T& target) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetTarget", target));
     }
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13F58C8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
@@ -66,7 +66,7 @@ namespace System {
       GetObjectData(info, context);
     }
     // protected override System.Void Finalize()
-    // Offset: 0x13F5AB0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize() {

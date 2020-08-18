@@ -35,33 +35,33 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Material* fadeMaterial;
     // protected System.Void OnDisable()
-    // Offset: 0x1909AC0
+    // Offset: 0x1867E0C
     void OnDisable();
     // public System.Void DrawFadeQuad(System.Single alpha)
-    // Offset: 0x1909B4C
+    // Offset: 0x1867E98
     void DrawFadeQuad(float alpha);
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x1909A1C
+    // Offset: 0x1867D68
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x1909A24
+    // Offset: 0x1867D70
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x1909ACC
+    // Offset: 0x1867E18
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void PostRender(System.Single fade)
-    // Offset: 0x1909B40
+    // Offset: 0x1867E8C
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
     void PostRender(float fade);
     // public System.Void .ctor()
-    // Offset: 0x1909C60
+    // Offset: 0x1867FAC
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

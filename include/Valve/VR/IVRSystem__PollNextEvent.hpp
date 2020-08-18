@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_PollNextEvent : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CE184
+    // Offset: 0x16304BC
     static IVRSystem::_PollNextEvent* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent)
-    // Offset: 0x16CE198
+    // Offset: 0x16304D0
     bool Invoke(Valve::VR::VREvent_t& pEvent, uint uncbVREvent);
     // public System.IAsyncResult BeginInvoke(Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CE410
+    // Offset: 0x1630748
     System::IAsyncResult* BeginInvoke(Valve::VR::VREvent_t& pEvent, uint uncbVREvent, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(Valve.VR.VREvent_t pEvent, System.IAsyncResult result)
-    // Offset: 0x16CE4C4
+    // Offset: 0x16307FC
     bool EndInvoke(Valve::VR::VREvent_t& pEvent, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_PollNextEvent
 }

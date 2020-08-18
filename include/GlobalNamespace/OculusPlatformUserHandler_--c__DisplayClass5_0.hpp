@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::OculusPlatformUserHandler* $$4__this;
     // System.Void <GetUserFriendsUserIds>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserList> message)
-    // Offset: 0xC3A844
+    // Offset: 0xBB1880
     void $GetUserFriendsUserIds$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>* message);
     // public System.Void .ctor()
-    // Offset: 0xC3A544
+    // Offset: 0xBB1580
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformUserHandler::$$c__DisplayClass5_0* New_ctor();

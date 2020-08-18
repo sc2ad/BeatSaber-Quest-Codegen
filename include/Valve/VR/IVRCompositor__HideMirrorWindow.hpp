@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_HideMirrorWindow : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15F9E34
+    // Offset: 0x155B16C
     static IVRCompositor::_HideMirrorWindow* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x15F9E48
+    // Offset: 0x155B180
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15FA054
+    // Offset: 0x155B38C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15FA080
+    // Offset: 0x155B3B8
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_HideMirrorWindow
 }

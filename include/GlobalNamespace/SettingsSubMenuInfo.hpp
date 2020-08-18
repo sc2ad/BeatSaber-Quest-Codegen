@@ -25,13 +25,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* menuName;
     // public HMUI.ViewController get_viewController()
-    // Offset: 0xC2AE70
+    // Offset: 0xBA2EAC
     HMUI::ViewController* get_viewController();
     // public System.String get_localizedMenuName()
-    // Offset: 0xC2AE78
+    // Offset: 0xBA2EB4
     ::Il2CppString* get_localizedMenuName();
     // public System.Void .ctor()
-    // Offset: 0xC2AE84
+    // Offset: 0xBA2EC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SettingsSubMenuInfo* New_ctor();

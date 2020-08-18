@@ -30,10 +30,10 @@ namespace System::Xml {
     // Creating value type constructor for type: AttrName
     AttrName(::Il2CppString* prefix_ = {}, ::Il2CppString* namespaceUri_ = {}, ::Il2CppString* localName_ = {}, int prev_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, localName{localName_}, prev{prev_} {}
     // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri)
-    // Offset: 0xA5A6A0
+    // Offset: 0x9C4B6C
     void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
     // System.Boolean IsDuplicate(System.String prefix, System.String localName, System.String namespaceUri)
-    // Offset: 0xA5A6A8
+    // Offset: 0x9C4B74
     bool IsDuplicate(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
   }; // System.Xml.XmlWellFormedWriter/AttrName
 }

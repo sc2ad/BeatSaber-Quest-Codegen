@@ -36,10 +36,10 @@ namespace System::Threading::Tasks {
     // Offset: 0x60
     int m_firstTaskAlreadyCompleted;
     // public System.Void .ctor(System.Collections.Generic.IList`1<System.Threading.Tasks.Task> tasks)
-    // Offset: 0xCE45A8
+    // Offset: 0xC4486C
     static TaskFactory::CompleteOnInvokePromise* New_ctor(System::Collections::Generic::IList_1<System::Threading::Tasks::Task*>* tasks);
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0xCE4690
+    // Offset: 0xC44954
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void Invoke(System::Threading::Tasks::Task* completingTask);

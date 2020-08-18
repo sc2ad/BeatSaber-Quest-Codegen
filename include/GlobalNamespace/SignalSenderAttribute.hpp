@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class SignalSenderAttribute : public UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCB9D60
+    // Offset: 0xC1A024
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

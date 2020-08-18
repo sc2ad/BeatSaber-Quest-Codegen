@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_IsQuitUserPromptRequested : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xED0024
+    // Offset: 0xE302E8
     static IVRApplications::_IsQuitUserPromptRequested* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0xEC4D04
+    // Offset: 0xE24FC8
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xED0038
+    // Offset: 0xE302FC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0xED0064
+    // Offset: 0xE30328
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_IsQuitUserPromptRequested
 }

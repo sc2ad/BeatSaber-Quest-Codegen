@@ -38,56 +38,56 @@ namespace UnityEngine {
     // Offset: 0x1C
     UnityEngine::LogType filterLogType;
     // public System.Void .ctor(UnityEngine.ILogHandler logHandler)
-    // Offset: 0x1304B38
+    // Offset: 0x1267DFC
     static Logger* New_ctor(UnityEngine::ILogHandler* logHandler);
     // public System.Void set_logHandler(UnityEngine.ILogHandler value)
-    // Offset: 0x130D6C4
+    // Offset: 0x1270988
     void set_logHandler(UnityEngine::ILogHandler* value);
     // public System.Boolean get_logEnabled()
-    // Offset: 0x130D6CC
+    // Offset: 0x1270990
     bool get_logEnabled();
     // public System.Void set_logEnabled(System.Boolean value)
-    // Offset: 0x130D6D4
+    // Offset: 0x1270998
     void set_logEnabled(bool value);
     // public UnityEngine.LogType get_filterLogType()
-    // Offset: 0x130D6E0
+    // Offset: 0x12709A4
     UnityEngine::LogType get_filterLogType();
     // public System.Void set_filterLogType(UnityEngine.LogType value)
-    // Offset: 0x130D6E8
+    // Offset: 0x12709AC
     void set_filterLogType(UnityEngine::LogType value);
     // public System.Boolean IsLogTypeAllowed(UnityEngine.LogType logType)
-    // Offset: 0x130D6F0
+    // Offset: 0x12709B4
     bool IsLogTypeAllowed(UnityEngine::LogType logType);
     // static private System.String GetString(System.Object message)
-    // Offset: 0x130D72C
+    // Offset: 0x12709F0
     static ::Il2CppString* GetString(::Il2CppObject* message);
     // public UnityEngine.ILogHandler get_logHandler()
-    // Offset: 0x130D6BC
+    // Offset: 0x1270980
     // Implemented from: UnityEngine.ILogger
     // Base method: UnityEngine.ILogHandler ILogger::get_logHandler()
     UnityEngine::ILogHandler* get_logHandler();
     // public System.Void Log(UnityEngine.LogType logType, System.Object message)
-    // Offset: 0x130D85C
+    // Offset: 0x1270B20
     // Implemented from: UnityEngine.ILogger
     // Base method: System.Void ILogger::Log(UnityEngine.LogType logType, System.Object message)
     void Log(UnityEngine::LogType logType, ::Il2CppObject* message);
     // public System.Void Log(UnityEngine.LogType logType, System.Object message, UnityEngine.Object context)
-    // Offset: 0x130D9DC
+    // Offset: 0x1270CA0
     // Implemented from: UnityEngine.ILogger
     // Base method: System.Void ILogger::Log(UnityEngine.LogType logType, System.Object message, UnityEngine.Object context)
     void Log(UnityEngine::LogType logType, ::Il2CppObject* message, UnityEngine::Object* context);
     // public System.Void LogFormat(UnityEngine.LogType logType, System.String format, System.Object[] args)
-    // Offset: 0x130DB6C
+    // Offset: 0x1270E30
     // Implemented from: UnityEngine.ILogger
     // Base method: System.Void ILogger::LogFormat(UnityEngine.LogType logType, System.String format, System.Object[] args)
     void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, System.Object[] args)
-    // Offset: 0x130DC80
+    // Offset: 0x1270F44
     // Implemented from: UnityEngine.ILogHandler
     // Base method: System.Void ILogHandler::LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, System.Object[] args)
     void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
-    // Offset: 0x130DD98
+    // Offset: 0x127105C
     // Implemented from: UnityEngine.ILogHandler
     // Base method: System.Void ILogHandler::LogException(System.Exception exception, UnityEngine.Object context)
     void LogException(System::Exception* exception, UnityEngine::Object* context);

@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRSystem::_GetEyeToHeadTransform : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16C8FFC
+    // Offset: 0x162B334
     static IVRSystem::_GetEyeToHeadTransform* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.HmdMatrix34_t Invoke(Valve.VR.EVREye eEye)
-    // Offset: 0x16C9010
+    // Offset: 0x162B348
     Valve::VR::HmdMatrix34_t Invoke(Valve::VR::EVREye eEye);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C92C0
+    // Offset: 0x162B5F8
     System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.HmdMatrix34_t EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16C934C
+    // Offset: 0x162B684
     Valve::VR::HmdMatrix34_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetEyeToHeadTransform
 }

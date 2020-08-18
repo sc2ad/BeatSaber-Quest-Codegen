@@ -42,40 +42,40 @@ namespace GlobalNamespace {
     // Offset: 0x34
     int numberOfClearedMissions;
     // public System.Int32 get_numberOfClearedMissions()
-    // Offset: 0xB5D808
+    // Offset: 0x18E4D38
     int get_numberOfClearedMissions();
     // protected System.Void Awake()
-    // Offset: 0xB5D970
+    // Offset: 0x18E4EA0
     void Awake();
     // public System.Boolean IsMissionRegistered(System.String missionId)
-    // Offset: 0xB5D9E0
+    // Offset: 0x18E4F10
     bool IsMissionRegistered(::Il2CppString* missionId);
     // public System.Void RegisterMissionId(System.String missionId)
-    // Offset: 0xB5DA48
+    // Offset: 0x18E4F78
     void RegisterMissionId(::Il2CppString* missionId);
     // public System.Boolean IsMissionCleared(System.String missionId)
-    // Offset: 0xB5DABC
+    // Offset: 0x18E4FEC
     bool IsMissionCleared(::Il2CppString* missionId);
     // public System.Boolean IsMissionFinal(System.String missionId)
-    // Offset: 0xB5DAF0
+    // Offset: 0x18E5020
     bool IsMissionFinal(::Il2CppString* missionId);
     // public System.Void SetFinalMissionId(System.String missionId)
-    // Offset: 0xB5DAFC
+    // Offset: 0x18E502C
     void SetFinalMissionId(::Il2CppString* missionId);
     // public System.Boolean WillFinishGameAfterThisMission(System.String missionId)
-    // Offset: 0xB5D588
+    // Offset: 0x18E4AB8
     bool WillFinishGameAfterThisMission(::Il2CppString* missionId);
     // public System.Void SetMissionCleared(System.String missionId)
-    // Offset: 0xB5D5D4
+    // Offset: 0x18E4B04
     void SetMissionCleared(::Il2CppString* missionId);
     // public System.Void __SetMissionCleared(System.String missionId, System.Boolean cleared)
-    // Offset: 0xB5DB04
+    // Offset: 0x18E5034
     void __SetMissionCleared(::Il2CppString* missionId, bool cleared);
     // private System.Int32 UpdateNumberOfClearedMissions()
-    // Offset: 0xB5D83C
+    // Offset: 0x18E4D6C
     int UpdateNumberOfClearedMissions();
     // public System.Void .ctor()
-    // Offset: 0xB5DB54
+    // Offset: 0x18E5084
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

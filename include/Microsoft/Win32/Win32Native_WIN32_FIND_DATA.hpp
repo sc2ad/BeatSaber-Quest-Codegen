@@ -20,7 +20,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x18
     ::Il2CppString* cFileName;
     // public System.Void .ctor()
-    // Offset: 0x10A916C
+    // Offset: 0x100B430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Win32Native::WIN32_FIND_DATA* New_ctor();

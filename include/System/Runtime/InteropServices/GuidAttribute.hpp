@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     ::Il2CppString* val;
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x104B0E8
+    // Offset: 0xFAD3AC
     static GuidAttribute* New_ctor(::Il2CppString* guid);
   }; // System.Runtime.InteropServices.GuidAttribute
 }

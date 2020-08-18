@@ -78,26 +78,26 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kVersion
     static void _set_kVersion(::Il2CppString* value);
     // public System.Void .ctor(PlatformUserModelSO platformUserModel)
-    // Offset: 0xC4A718
+    // Offset: 0x1967D64
     static UserLoginDtoDataSource* New_ctor(GlobalNamespace::PlatformUserModelSO* platformUserModel);
     // private System.Threading.Tasks.Task`1<PlatformUserModelSO/UserInfo> GetUserInfo(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC4A9D4
+    // Offset: 0x1968020
     System::Threading::Tasks::Task_1<GlobalNamespace::PlatformUserModelSO::UserInfo*>* GetUserInfo(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<PlatformTokenInfo> GetUserAuthToken(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC4AC6C
+    // Offset: 0x19682B8
     System::Threading::Tasks::Task_1<GlobalNamespace::PlatformTokenInfo*>* GetUserAuthToken(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC4A74C
+    // Offset: 0x1967D98
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<System.String> IUserLoginDtoDataSource::GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<LeaderboardsDTO.LoginRequestDTO> GetLoginRequestDTOAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC4A89C
+    // Offset: 0x1967EE8
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<LeaderboardsDTO.LoginRequestDTO> IUserLoginDtoDataSource::GetLoginRequestDTOAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<LeaderboardsDTO::LoginRequestDTO*>* GetLoginRequestDTOAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xC4AB20
+    // Offset: 0x196816C
     // Implemented from: OnlineServices.API.IUserLoginDtoDataSource
     // Base method: System.Threading.Tasks.Task`1<System.String[]> IUserLoginDtoDataSource::GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);

@@ -32,27 +32,27 @@ namespace RootMotion::FinalIK {
     // Offset: 0x58
     float lastAngle;
     // private System.Void OpenUserManual()
-    // Offset: 0x123155C
+    // Offset: 0x1194820
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x12315A8
+    // Offset: 0x119486C
     void OpenScriptReference();
     // private System.Void SupportGroup()
-    // Offset: 0x12315F4
+    // Offset: 0x11948B8
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1231640
+    // Offset: 0x1194904
     void ASThread();
     // private UnityEngine.Quaternion LimitHinge(UnityEngine.Quaternion rotation)
-    // Offset: 0x12316B4
+    // Offset: 0x1194978
     UnityEngine::Quaternion LimitHinge(UnityEngine::Quaternion rotation);
     // protected override UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x123168C
+    // Offset: 0x1194950
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: UnityEngine.Quaternion RotationLimit::LimitRotation(UnityEngine.Quaternion rotation)
     UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x12319B4
+    // Offset: 0x1194C78
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: System.Void RotationLimit::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

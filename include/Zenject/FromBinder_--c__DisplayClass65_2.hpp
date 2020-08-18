@@ -29,10 +29,10 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::InjectContext* ctx;
     // System.Boolean <FromComponentInHierarchy>b__3(UnityEngine.Component x)
-    // Offset: 0xF32AE8
+    // Offset: 0xE93DAC
     bool $FromComponentInHierarchy$b__3(UnityEngine::Component* x);
     // public System.Void .ctor()
-    // Offset: 0xF32AAC
+    // Offset: 0xE93D70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass65_2* New_ctor();

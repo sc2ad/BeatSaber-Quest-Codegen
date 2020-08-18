@@ -14,7 +14,7 @@ namespace UnityEngine {
   class ComputeShader : public UnityEngine::Object {
     public:
     // public System.Int32 FindKernel(System.String name)
-    // Offset: 0x13025B4
+    // Offset: 0x1265878
     int FindKernel(::Il2CppString* name);
   }; // UnityEngine.ComputeShader
 }

@@ -30,13 +30,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Action`1<System.String> <>9__2_0
     static void _set_$$9__2_0(System::Action_1<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xC4A630
+    // Offset: 0x1967C7C
     static void _cctor();
     // System.Void <OpenDataPrivacyPage>b__2_0(System.String url)
-    // Offset: 0xC4A6A0
+    // Offset: 0x1967CEC
     void $OpenDataPrivacyPage$b__2_0(::Il2CppString* url);
     // public System.Void .ctor()
-    // Offset: 0xC4A698
+    // Offset: 0x1967CE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnityAnalyticsModel::$$c* New_ctor();

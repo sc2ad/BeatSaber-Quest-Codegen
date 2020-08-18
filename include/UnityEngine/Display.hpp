@@ -38,46 +38,46 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.Display/DisplaysUpdatedDelegate onDisplaysUpdated
     static void _set_onDisplaysUpdated(UnityEngine::Display::DisplaysUpdatedDelegate* value);
     // System.Void .ctor(System.IntPtr nativeDisplay)
-    // Offset: 0x1304DCC
+    // Offset: 0x1268090
     static Display* New_ctor(System::IntPtr nativeDisplay);
     // public System.Int32 get_renderingWidth()
-    // Offset: 0x1304DF8
+    // Offset: 0x12680BC
     int get_renderingWidth();
     // public System.Int32 get_renderingHeight()
-    // Offset: 0x1304EF4
+    // Offset: 0x12681B8
     int get_renderingHeight();
     // public System.Int32 get_systemWidth()
-    // Offset: 0x1304F98
+    // Offset: 0x126825C
     int get_systemWidth();
     // public System.Int32 get_systemHeight()
-    // Offset: 0x1305094
+    // Offset: 0x1268358
     int get_systemHeight();
     // static public UnityEngine.Vector3 RelativeMouseAt(UnityEngine.Vector3 inputMouseCoordinates)
-    // Offset: 0x1305138
+    // Offset: 0x12683FC
     static UnityEngine::Vector3 RelativeMouseAt(UnityEngine::Vector3 inputMouseCoordinates);
     // static public UnityEngine.Display get_main()
-    // Offset: 0x130526C
+    // Offset: 0x1268530
     static UnityEngine::Display* get_main();
     // static private System.Void RecreateDisplayList(System.IntPtr[] nativeDisplay)
-    // Offset: 0x13052D4
+    // Offset: 0x1268598
     static void RecreateDisplayList(::Array<System::IntPtr>* nativeDisplay);
     // static private System.Void FireDisplaysUpdated()
-    // Offset: 0x13054A4
+    // Offset: 0x1268768
     static void FireDisplaysUpdated();
     // static private System.Void GetSystemExtImpl(System.IntPtr nativeDisplay, System.Int32 w, System.Int32 h)
-    // Offset: 0x130503C
+    // Offset: 0x1268300
     static void GetSystemExtImpl(System::IntPtr nativeDisplay, int& w, int& h);
     // static private System.Void GetRenderingExtImpl(System.IntPtr nativeDisplay, System.Int32 w, System.Int32 h)
-    // Offset: 0x1304E9C
+    // Offset: 0x1268160
     static void GetRenderingExtImpl(System::IntPtr nativeDisplay, int& w, int& h);
     // static private System.Int32 RelativeMouseAtImpl(System.Int32 x, System.Int32 y, System.Int32 rx, System.Int32 ry)
-    // Offset: 0x1305204
+    // Offset: 0x12684C8
     static int RelativeMouseAtImpl(int x, int y, int& rx, int& ry);
     // static private System.Void .cctor()
-    // Offset: 0x1305754
+    // Offset: 0x1268A18
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x1304D8C
+    // Offset: 0x1268050
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Display* New_ctor();

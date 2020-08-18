@@ -103,40 +103,40 @@ namespace RootMotion::Demos {
     // Offset: 0x68
     float nextPathTime;
     // public UnityEngine.Vector3 get_normalizedDeltaPosition()
-    // Offset: 0x13A251C
+    // Offset: 0x13047E0
     UnityEngine::Vector3 get_normalizedDeltaPosition();
     // private System.Void set_normalizedDeltaPosition(UnityEngine.Vector3 value)
-    // Offset: 0x13A2528
+    // Offset: 0x13047EC
     void set_normalizedDeltaPosition(UnityEngine::Vector3 value);
     // public RootMotion.Demos.Navigator/State get_state()
-    // Offset: 0x13A2534
+    // Offset: 0x13047F8
     RootMotion::Demos::Navigator::State get_state();
     // private System.Void set_state(RootMotion.Demos.Navigator/State value)
-    // Offset: 0x13A253C
+    // Offset: 0x1304800
     void set_state(RootMotion::Demos::Navigator::State value);
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x13A2544
+    // Offset: 0x1304808
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x13A263C
+    // Offset: 0x1304900
     void Update(UnityEngine::Vector3 targetPosition);
     // private System.Void CalculatePath(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x13A2B94
+    // Offset: 0x1304E58
     void CalculatePath(UnityEngine::Vector3 targetPosition);
     // private System.Boolean Find(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x13A2C04
+    // Offset: 0x1304EC8
     bool Find(UnityEngine::Vector3 targetPosition);
     // private System.Void Stop()
-    // Offset: 0x13A2A5C
+    // Offset: 0x1304D20
     void Stop();
     // private System.Single HorDistance(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x13A2AD0
+    // Offset: 0x1304D94
     float HorDistance(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public System.Void Visualize()
-    // Offset: 0x13A2D4C
+    // Offset: 0x1305010
     void Visualize();
     // public System.Void .ctor()
-    // Offset: 0x13A2EFC
+    // Offset: 0x13051C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Navigator* New_ctor();

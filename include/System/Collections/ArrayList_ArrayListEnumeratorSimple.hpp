@@ -35,23 +35,23 @@ namespace System::Collections {
     // Set static field: static private System.Object dummyObject
     static void _set_dummyObject(::Il2CppObject* value);
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x1331204
+    // Offset: 0x12924C8
     static ArrayList::ArrayListEnumeratorSimple* New_ctor(System::Collections::ArrayList* list);
     // static private System.Void .cctor()
-    // Offset: 0x1331E68
+    // Offset: 0x129312C
     static void _cctor();
     // public System.Object Clone()
-    // Offset: 0x1331A84
+    // Offset: 0x1292D48
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1331A8C
+    // Offset: 0x1292D50
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x1331C90
+    // Offset: 0x1292F54
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -59,7 +59,7 @@ namespace System::Collections {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
-    // Offset: 0x1331D7C
+    // Offset: 0x1293040
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

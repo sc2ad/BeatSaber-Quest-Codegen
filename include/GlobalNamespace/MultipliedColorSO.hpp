@@ -29,12 +29,12 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Color multiplierColor;
     // public override UnityEngine.Color get_color()
-    // Offset: 0x1976C50
+    // Offset: 0x1974CA8
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x1976CB8
+    // Offset: 0x1974D10
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

@@ -39,29 +39,29 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x18
     System::Reflection::ParameterInfo* ParameterInfo;
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method, System.Reflection.ParameterInfo parameterInfo)
-    // Offset: 0x18E5AE0
+    // Offset: 0x1842E2C
     static ParameterWrapper* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method, System::Reflection::ParameterInfo* parameterInfo);
     // private System.Void set_Method(NUnit.Framework.Interfaces.IMethodInfo value)
-    // Offset: 0x18E6114
+    // Offset: 0x1843460
     void set_Method(NUnit::Framework::Interfaces::IMethodInfo* value);
     // public System.Reflection.ParameterInfo get_ParameterInfo()
-    // Offset: 0x18E610C
+    // Offset: 0x1843458
     System::Reflection::ParameterInfo* get_ParameterInfo();
     // private System.Void set_ParameterInfo(System.Reflection.ParameterInfo value)
-    // Offset: 0x18E611C
+    // Offset: 0x1843468
     void set_ParameterInfo(System::Reflection::ParameterInfo* value);
     // public System.Boolean get_IsOptional()
-    // Offset: 0x18E60F0
+    // Offset: 0x184343C
     // Implemented from: NUnit.Framework.Interfaces.IParameterInfo
     // Base method: System.Boolean IParameterInfo::get_IsOptional()
     bool get_IsOptional();
     // public System.Type get_ParameterType()
-    // Offset: 0x18E6124
+    // Offset: 0x1843470
     // Implemented from: NUnit.Framework.Interfaces.IParameterInfo
     // Base method: System.Type IParameterInfo::get_ParameterType()
     System::Type* get_ParameterType();
     // public T[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0xD57570
+    // Offset: 0xFFFFFFFF
     // Implemented from: NUnit.Framework.Interfaces.IReflectionInfo
     // Base method: T[] IReflectionInfo::GetCustomAttributes(System.Boolean inherit)
     template<class T>
@@ -69,7 +69,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetCustomAttributes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, inherit)));
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
-    // Offset: 0x14E20BC
+    // Offset: 0xFFFFFFFF
     // Implemented from: NUnit.Framework.Interfaces.IReflectionInfo
     // Base method: System.Boolean IReflectionInfo::IsDefined(System.Boolean inherit)
     template<class T>

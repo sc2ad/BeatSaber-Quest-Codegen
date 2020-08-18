@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::DepthTextureMode depthTextureMode;
     // protected System.Void Awake()
-    // Offset: 0xBE6774
+    // Offset: 0x192DD5C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xBE67D8
+    // Offset: 0x192DDC0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

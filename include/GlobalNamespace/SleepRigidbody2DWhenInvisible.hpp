@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Rigidbody2D* rigidbody2D;
     // protected System.Void Awake()
-    // Offset: 0xCBA278
+    // Offset: 0xC1A53C
     void Awake();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0xCBA27C
+    // Offset: 0xC1A540
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0xCBA298
+    // Offset: 0xC1A55C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

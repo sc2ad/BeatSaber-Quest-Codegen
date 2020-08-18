@@ -64,109 +64,109 @@ namespace GlobalNamespace {
     // Offset: 0xF5
     bool hairTriggerPrevState;
     // public System.Void .ctor(System.UInt32 i)
-    // Offset: 0xD7CA8C
+    // Offset: 0xCDCD50
     static SteamVR_Controller::Device* New_ctor(uint i);
     // public System.UInt32 get_index()
-    // Offset: 0xD7D074
+    // Offset: 0xCDD338
     uint get_index();
     // private System.Void set_index(System.UInt32 value)
-    // Offset: 0xD7D07C
+    // Offset: 0xCDD340
     void set_index(uint value);
     // public System.Boolean get_valid()
-    // Offset: 0xD7D084
+    // Offset: 0xCDD348
     bool get_valid();
     // private System.Void set_valid(System.Boolean value)
-    // Offset: 0xD7D08C
+    // Offset: 0xCDD350
     void set_valid(bool value);
     // public System.Boolean get_connected()
-    // Offset: 0xD7D040
+    // Offset: 0xCDD304
     bool get_connected();
     // public System.Boolean get_hasTracking()
-    // Offset: 0xD7D098
+    // Offset: 0xCDD35C
     bool get_hasTracking();
     // public System.Boolean get_outOfRange()
-    // Offset: 0xD7D0BC
+    // Offset: 0xCDD380
     bool get_outOfRange();
     // public System.Boolean get_calibrating()
-    // Offset: 0xD7D0F4
+    // Offset: 0xCDD3B8
     bool get_calibrating();
     // public System.Boolean get_uninitialized()
-    // Offset: 0xD7D124
+    // Offset: 0xCDD3E8
     bool get_uninitialized();
     // public SteamVR_Utils/RigidTransform get_transform()
-    // Offset: 0xD7CFE4
+    // Offset: 0xCDD2A8
     GlobalNamespace::SteamVR_Utils::RigidTransform get_transform();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0xD7D150
+    // Offset: 0xCDD414
     UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0xD7D1A0
+    // Offset: 0xCDD464
     UnityEngine::Vector3 get_angularVelocity();
     // public Valve.VR.VRControllerState_t GetState()
-    // Offset: 0xD7D1F4
+    // Offset: 0xCDD4B8
     Valve::VR::VRControllerState_t GetState();
     // public Valve.VR.VRControllerState_t GetPrevState()
-    // Offset: 0xD7D230
+    // Offset: 0xCDD4F4
     Valve::VR::VRControllerState_t GetPrevState();
     // public Valve.VR.TrackedDevicePose_t GetPose()
-    // Offset: 0xD7D26C
+    // Offset: 0xCDD530
     Valve::VR::TrackedDevicePose_t GetPose();
     // public System.Void Update()
-    // Offset: 0xD7CB00
+    // Offset: 0xCDCDC4
     void Update();
     // public System.Boolean GetPress(System.UInt64 buttonMask)
-    // Offset: 0xD7D4EC
+    // Offset: 0xCDD7B0
     bool GetPress(uint64_t buttonMask);
     // public System.Boolean GetPressDown(System.UInt64 buttonMask)
-    // Offset: 0xD7D51C
+    // Offset: 0xCDD7E0
     bool GetPressDown(uint64_t buttonMask);
     // public System.Boolean GetPressUp(System.UInt64 buttonMask)
-    // Offset: 0xD7D560
+    // Offset: 0xCDD824
     bool GetPressUp(uint64_t buttonMask);
     // public System.Boolean GetPress(Valve.VR.EVRButtonId buttonId)
-    // Offset: 0xD7D5A4
+    // Offset: 0xCDD868
     bool GetPress(Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetPressDown(Valve.VR.EVRButtonId buttonId)
-    // Offset: 0xD7D5D8
+    // Offset: 0xCDD89C
     bool GetPressDown(Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetPressUp(Valve.VR.EVRButtonId buttonId)
-    // Offset: 0xD7D620
+    // Offset: 0xCDD8E4
     bool GetPressUp(Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetTouch(System.UInt64 buttonMask)
-    // Offset: 0xD7D668
+    // Offset: 0xCDD92C
     bool GetTouch(uint64_t buttonMask);
     // public System.Boolean GetTouchDown(System.UInt64 buttonMask)
-    // Offset: 0xD7D698
+    // Offset: 0xCDD95C
     bool GetTouchDown(uint64_t buttonMask);
     // public System.Boolean GetTouchUp(System.UInt64 buttonMask)
-    // Offset: 0xD7D6DC
+    // Offset: 0xCDD9A0
     bool GetTouchUp(uint64_t buttonMask);
     // public System.Boolean GetTouch(Valve.VR.EVRButtonId buttonId)
-    // Offset: 0xD7D720
+    // Offset: 0xCDD9E4
     bool GetTouch(Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetTouchDown(Valve.VR.EVRButtonId buttonId)
-    // Offset: 0xD7D754
+    // Offset: 0xCDDA18
     bool GetTouchDown(Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetTouchUp(Valve.VR.EVRButtonId buttonId)
-    // Offset: 0xD7D79C
+    // Offset: 0xCDDA60
     bool GetTouchUp(Valve::VR::EVRButtonId buttonId);
     // public UnityEngine.Vector2 GetAxis(Valve.VR.EVRButtonId buttonId)
-    // Offset: 0xD7D7E4
+    // Offset: 0xCDDAA8
     UnityEngine::Vector2 GetAxis(Valve::VR::EVRButtonId buttonId);
     // public System.Void TriggerHapticPulse(System.UInt16 durationMicroSec, Valve.VR.EVRButtonId buttonId)
-    // Offset: 0xD7D8C0
+    // Offset: 0xCDDB84
     void TriggerHapticPulse(uint16_t durationMicroSec, Valve::VR::EVRButtonId buttonId);
     // private System.Void UpdateHairTrigger()
-    // Offset: 0xD7D3EC
+    // Offset: 0xCDD6B0
     void UpdateHairTrigger();
     // public System.Boolean GetHairTrigger()
-    // Offset: 0xD7D95C
+    // Offset: 0xCDDC20
     bool GetHairTrigger();
     // public System.Boolean GetHairTriggerDown()
-    // Offset: 0xD7D980
+    // Offset: 0xCDDC44
     bool GetHairTriggerDown();
     // public System.Boolean GetHairTriggerUp()
-    // Offset: 0xD7D9BC
+    // Offset: 0xCDDC80
     bool GetHairTriggerUp();
   }; // SteamVR_Controller/Device
 }

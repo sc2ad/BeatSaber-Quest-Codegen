@@ -41,19 +41,19 @@ namespace System::IO {
     // Set static field: static readonly System.Char[] InvalidChars
     static void _set_InvalidChars(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0xF62678
+    // Offset: 0xEC393C
     static SearchPattern2* New_ctor(::Il2CppString* pattern);
     // public System.Void .ctor(System.String pattern, System.Boolean ignore)
-    // Offset: 0xF63400
+    // Offset: 0xEC46C4
     static SearchPattern2* New_ctor(::Il2CppString* pattern, bool ignore);
     // public System.Boolean get_HasWildcard()
-    // Offset: 0xF63770
+    // Offset: 0xEC4A34
     bool get_HasWildcard();
     // private System.Void Compile(System.String pattern)
-    // Offset: 0xF63454
+    // Offset: 0xEC4718
     void Compile(::Il2CppString* pattern);
     // static private System.Void .cctor()
-    // Offset: 0xF637C0
+    // Offset: 0xEC4A84
     static void _cctor();
   }; // System.IO.SearchPattern2
 }

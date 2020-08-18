@@ -19,31 +19,31 @@ namespace UnityEngine {
   class Random : public ::Il2CppObject {
     public:
     // static public System.Void InitState(System.Int32 seed)
-    // Offset: 0x141777C
+    // Offset: 0x1379AB4
     static void InitState(int seed);
     // static public System.Single Range(System.Single min, System.Single max)
-    // Offset: 0x14177BC
+    // Offset: 0x1379AF4
     static float Range(float min, float max);
     // static public System.Int32 Range(System.Int32 min, System.Int32 max)
-    // Offset: 0x1417808
+    // Offset: 0x1379B40
     static int Range(int min, int max);
     // static private System.Int32 RandomRangeInt(System.Int32 min, System.Int32 max)
-    // Offset: 0x1417858
+    // Offset: 0x1379B90
     static int RandomRangeInt(int min, int max);
     // static public System.Single get_value()
-    // Offset: 0x14178A8
+    // Offset: 0x1379BE0
     static float get_value();
     // static public UnityEngine.Vector3 get_insideUnitSphere()
-    // Offset: 0x14178DC
+    // Offset: 0x1379C14
     static UnityEngine::Vector3 get_insideUnitSphere();
     // static public UnityEngine.Vector3 get_onUnitSphere()
-    // Offset: 0x1417974
+    // Offset: 0x1379CAC
     static UnityEngine::Vector3 get_onUnitSphere();
     // static private System.Void get_insideUnitSphere_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x1417934
+    // Offset: 0x1379C6C
     static void get_insideUnitSphere_Injected(UnityEngine::Vector3& ret);
     // static private System.Void get_onUnitSphere_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x14179CC
+    // Offset: 0x1379D04
     static void get_onUnitSphere_Injected(UnityEngine::Vector3& ret);
   }; // UnityEngine.Random
 }

@@ -25,13 +25,13 @@ namespace UnityEngine::UI {
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* m_Options;
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> get_options()
-    // Offset: 0x116460C
+    // Offset: 0x10C78D0
     System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> value)
-    // Offset: 0x1164614
+    // Offset: 0x10C78D8
     void set_options(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x116461C
+    // Offset: 0x10C78E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Dropdown::OptionDataList* New_ctor();

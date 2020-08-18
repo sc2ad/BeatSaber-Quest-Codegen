@@ -24,13 +24,13 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);
     // System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1192390
+    // Offset: 0x10F5654
     void Encode(::Array<uint8_t>* buffer, int index, int count);
     // System.Void Flush()
-    // Offset: 0x11926D8
+    // Offset: 0x10F599C
     void Flush();
     // System.Void .ctor()
-    // Offset: 0x1192324
+    // Offset: 0x10F55E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Base64Encoder* New_ctor();

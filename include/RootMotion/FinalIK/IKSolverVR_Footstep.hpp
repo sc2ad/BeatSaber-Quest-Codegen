@@ -72,31 +72,31 @@ namespace RootMotion::FinalIK {
     // Offset: 0xA0
     float supportLegWV;
     // public System.Boolean get_isStepping()
-    // Offset: 0x14378DC
+    // Offset: 0x1399C14
     bool get_isStepping();
     // public System.Single get_stepProgress()
-    // Offset: 0x14378F0
+    // Offset: 0x1399C28
     float get_stepProgress();
     // private System.Void set_stepProgress(System.Single value)
-    // Offset: 0x14378F8
+    // Offset: 0x1399C30
     void set_stepProgress(float value);
     // public System.Void .ctor(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation, UnityEngine.Vector3 characterSpaceOffset)
-    // Offset: 0x1437900
+    // Offset: 0x1399C38
     static IKSolverVR::Footstep* New_ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset);
     // public System.Void Reset(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation)
-    // Offset: 0x1437A90
+    // Offset: 0x1399DC8
     void Reset(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation);
     // public System.Void StepTo(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single stepThreshold)
-    // Offset: 0x1437AD8
+    // Offset: 0x1399E10
     void StepTo(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float stepThreshold);
     // public System.Void UpdateStepping(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single speed)
-    // Offset: 0x1437C98
+    // Offset: 0x1399FD0
     void UpdateStepping(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float speed);
     // public System.Void UpdateStanding(UnityEngine.Quaternion rootRotation, System.Single minAngle, System.Single speed)
-    // Offset: 0x1437E70
+    // Offset: 0x139A1A8
     void UpdateStanding(UnityEngine::Quaternion rootRotation, float minAngle, float speed);
     // public System.Void Update(RootMotion.InterpolationMode interpolation, UnityEngine.Events.UnityEvent onStep)
-    // Offset: 0x143805C
+    // Offset: 0x139A394
     void Update(RootMotion::InterpolationMode interpolation, UnityEngine::Events::UnityEvent* onStep);
   }; // RootMotion.FinalIK.IKSolverVR/Footstep
 }

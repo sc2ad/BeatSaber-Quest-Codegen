@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::ParticleSystem* particleSystem;
     // protected System.Void Start()
-    // Offset: 0xC29C9C
+    // Offset: 0xBA1CD8
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xC29D30
+    // Offset: 0xBA1D6C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

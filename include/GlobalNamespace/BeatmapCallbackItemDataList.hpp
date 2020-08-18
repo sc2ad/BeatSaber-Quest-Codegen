@@ -97,19 +97,19 @@ namespace GlobalNamespace {
     // Offset: 0x70
     float maxNotesAlignmentAngle;
     // public System.Void .ctor(BeatmapCallbackItemDataList/SpawnNoteCallback spawnNoteCallback, BeatmapCallbackItemDataList/SpawnObstacleCallback spawnObstacleCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processEarlyBeatmapEventCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processLateBeatmapEventCallback, System.Action earlyEventsWereProcessedCallback, BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback getRelativeNoteOffsetCallback)
-    // Offset: 0xB8C8D4
+    // Offset: 0x18F5F80
     static BeatmapCallbackItemDataList* New_ctor(GlobalNamespace::BeatmapCallbackItemDataList::SpawnNoteCallback* spawnNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback, System::Action* earlyEventsWereProcessedCallback, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback);
     // public System.Void InsertBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0xB8CC24
+    // Offset: 0x18F62D0
     void InsertBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void InsertBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0xB8CD28
+    // Offset: 0x18F63D4
     void InsertBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void ProcessData()
-    // Offset: 0xB8CE2C
+    // Offset: 0x18F64D8
     void ProcessData();
     // private System.Boolean ProcessNotesByType(System.Collections.Generic.List`1<NoteData> notesWithTheSameTypeList)
-    // Offset: 0xB8DAC0
+    // Offset: 0x18F716C
     bool ProcessNotesByType(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesWithTheSameTypeList);
   }; // BeatmapCallbackItemDataList
 }

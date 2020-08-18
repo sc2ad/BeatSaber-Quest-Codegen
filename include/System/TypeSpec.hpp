@@ -15,11 +15,11 @@ namespace System {
   class ModifierSpec;
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`4<TResult, T1, T2, T3>
-  template<typename TResult, typename T1, typename T2, typename T3>
+  // Forward declaring type: Func`4<T1, T2, T3, TResult>
+  template<typename T1, typename T2, typename T3, typename TResult>
   class Func_4;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -76,46 +76,46 @@ namespace System {
     // Offset: 0x40
     ::Il2CppString* display_fullname;
     // System.Boolean get_HasModifiers()
-    // Offset: 0x1791E40
+    // Offset: 0x16F0178
     bool get_HasModifiers();
     // private System.String GetDisplayFullName(System.TypeSpec/DisplayNameFormat flags)
-    // Offset: 0x1791E50
+    // Offset: 0x16F0188
     ::Il2CppString* GetDisplayFullName(System::TypeSpec::DisplayNameFormat flags);
     // private System.Text.StringBuilder GetModifierString(System.Text.StringBuilder sb)
-    // Offset: 0x179229C
+    // Offset: 0x16F05D4
     System::Text::StringBuilder* GetModifierString(System::Text::StringBuilder* sb);
     // System.String get_DisplayFullName()
-    // Offset: 0x1792254
+    // Offset: 0x16F058C
     ::Il2CppString* get_DisplayFullName();
     // static System.TypeSpec Parse(System.String typeName)
-    // Offset: 0x17913F0
+    // Offset: 0x16EF728
     static System::TypeSpec* Parse(::Il2CppString* typeName);
     // static System.String UnescapeInternalName(System.String displayName)
-    // Offset: 0x1790A20
+    // Offset: 0x16EED58
     static ::Il2CppString* UnescapeInternalName(::Il2CppString* displayName);
     // System.Type Resolve(System.Func`2<System.Reflection.AssemblyName,System.Reflection.Assembly> assemblyResolver, System.Func`4<System.Reflection.Assembly,System.String,System.Boolean,System.Type> typeResolver, System.Boolean throwOnError, System.Boolean ignoreCase)
-    // Offset: 0x17914D8
+    // Offset: 0x16EF810
     System::Type* Resolve(System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>* assemblyResolver, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>* typeResolver, bool throwOnError, bool ignoreCase);
     // private System.Void AddName(System.String type_name)
-    // Offset: 0x1792F64
+    // Offset: 0x16F129C
     void AddName(::Il2CppString* type_name);
     // private System.Void AddModifier(System.ModifierSpec md)
-    // Offset: 0x1793054
+    // Offset: 0x16F138C
     void AddModifier(System::ModifierSpec* md);
     // static private System.Void SkipSpace(System.String name, System.Int32 pos)
-    // Offset: 0x17930F8
+    // Offset: 0x16F1430
     static void SkipSpace(::Il2CppString* name, int& pos);
     // static private System.Void BoundCheck(System.Int32 idx, System.String s)
-    // Offset: 0x17931C0
+    // Offset: 0x16F14F8
     static void BoundCheck(int idx, ::Il2CppString* s);
     // static private System.TypeIdentifier ParsedTypeIdentifier(System.String displayName)
-    // Offset: 0x1793050
+    // Offset: 0x16F1388
     static System::TypeIdentifier* ParsedTypeIdentifier(::Il2CppString* displayName);
     // static private System.TypeSpec Parse(System.String name, System.Int32 p, System.Boolean is_recurse, System.Boolean allow_aqn)
-    // Offset: 0x1792430
+    // Offset: 0x16F0768
     static System::TypeSpec* Parse(::Il2CppString* name, int& p, bool is_recurse, bool allow_aqn);
     // public System.Void .ctor()
-    // Offset: 0x1793268
+    // Offset: 0x16F15A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeSpec* New_ctor();

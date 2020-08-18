@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayAlpha : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15197D0
+    // Offset: 0x147AB08
     static IVROverlay::_GetOverlayAlpha* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single pfAlpha)
-    // Offset: 0x15197E4
+    // Offset: 0x147AB1C
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float& pfAlpha);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Single pfAlpha, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1519A68
+    // Offset: 0x147ADA0
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfAlpha, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.Single pfAlpha, System.IAsyncResult result)
-    // Offset: 0x1519B18
+    // Offset: 0x147AE50
     OVR::OpenVR::EVROverlayError EndInvoke(float& pfAlpha, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayAlpha
 }

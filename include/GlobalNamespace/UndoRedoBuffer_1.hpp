@@ -32,27 +32,27 @@ namespace GlobalNamespace {
     // Offset: 0x0
     int cursor;
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x13F90F0
+    // Offset: 0xFFFFFFFF
     static UndoRedoBuffer_1<T>* New_ctor(int capacity) {
       return (UndoRedoBuffer_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UndoRedoBuffer_1<T>*>::get(), capacity));
     }
     // public System.Void Add(T item)
-    // Offset: 0x13F917C
+    // Offset: 0xFFFFFFFF
     void Add(T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Add", item));
     }
     // public T Undo()
-    // Offset: 0x13F9278
+    // Offset: 0xFFFFFFFF
     T Undo() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Undo"));
     }
     // public T Redo()
-    // Offset: 0x13F9308
+    // Offset: 0xFFFFFFFF
     T Redo() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Redo"));
     }
     // public System.Void Clear()
-    // Offset: 0x13F9350
+    // Offset: 0xFFFFFFFF
     void Clear() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Clear"));
     }

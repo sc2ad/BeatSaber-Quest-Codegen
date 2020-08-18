@@ -12,58 +12,58 @@ namespace System::Threading {
   class Monitor : public ::Il2CppObject {
     public:
     // static public System.Void Enter(System.Object obj)
-    // Offset: 0x13D6898
+    // Offset: 0x1339B5C
     static void Enter(::Il2CppObject* obj);
     // static public System.Void Enter(System.Object obj, System.Boolean lockTaken)
-    // Offset: 0x13D5E88
+    // Offset: 0x133914C
     static void Enter(::Il2CppObject* obj, bool& lockTaken);
     // static private System.Void ThrowLockTakenException()
-    // Offset: 0x13D689C
+    // Offset: 0x1339B60
     static void ThrowLockTakenException();
     // static public System.Void Exit(System.Object obj)
-    // Offset: 0x13D5EA8
+    // Offset: 0x133916C
     static void Exit(::Il2CppObject* obj);
     // static public System.Boolean Wait(System.Object obj, System.Int32 millisecondsTimeout, System.Boolean exitContext)
-    // Offset: 0x13D6934
+    // Offset: 0x1339BF8
     static bool Wait(::Il2CppObject* obj, int millisecondsTimeout, bool exitContext);
     // static public System.Boolean Wait(System.Object obj, System.Int32 millisecondsTimeout)
-    // Offset: 0x13D65A0
+    // Offset: 0x1339864
     static bool Wait(::Il2CppObject* obj, int millisecondsTimeout);
     // static public System.Void Pulse(System.Object obj)
-    // Offset: 0x13D6A9C
+    // Offset: 0x1339D60
     static void Pulse(::Il2CppObject* obj);
     // static public System.Void PulseAll(System.Object obj)
-    // Offset: 0x13D605C
+    // Offset: 0x1339320
     static void PulseAll(::Il2CppObject* obj);
     // static private System.Boolean Monitor_test_synchronised(System.Object obj)
-    // Offset: 0x13D6C38
+    // Offset: 0x1339EFC
     static bool Monitor_test_synchronised(::Il2CppObject* obj);
     // static private System.Void Monitor_pulse(System.Object obj)
-    // Offset: 0x13D6C3C
+    // Offset: 0x1339F00
     static void Monitor_pulse(::Il2CppObject* obj);
     // static private System.Void ObjPulse(System.Object obj)
-    // Offset: 0x13D6B20
+    // Offset: 0x1339DE4
     static void ObjPulse(::Il2CppObject* obj);
     // static private System.Void Monitor_pulse_all(System.Object obj)
-    // Offset: 0x13D6C40
+    // Offset: 0x1339F04
     static void Monitor_pulse_all(::Il2CppObject* obj);
     // static private System.Void ObjPulseAll(System.Object obj)
-    // Offset: 0x13D6BAC
+    // Offset: 0x1339E70
     static void ObjPulseAll(::Il2CppObject* obj);
     // static private System.Boolean Monitor_wait(System.Object obj, System.Int32 ms)
-    // Offset: 0x13D6C44
+    // Offset: 0x1339F08
     static bool Monitor_wait(::Il2CppObject* obj, int ms);
     // static private System.Boolean ObjWait(System.Boolean exitContext, System.Int32 millisecondsTimeout, System.Object obj)
-    // Offset: 0x13D69CC
+    // Offset: 0x1339C90
     static bool ObjWait(bool exitContext, int millisecondsTimeout, ::Il2CppObject* obj);
     // static private System.Void try_enter_with_atomic_var(System.Object obj, System.Int32 millisecondsTimeout, System.Boolean lockTaken)
-    // Offset: 0x13D6C48
+    // Offset: 0x1339F0C
     static void try_enter_with_atomic_var(::Il2CppObject* obj, int millisecondsTimeout, bool& lockTaken);
     // static private System.Void ReliableEnterTimeout(System.Object obj, System.Int32 timeout, System.Boolean lockTaken)
-    // Offset: 0x13D6C4C
+    // Offset: 0x1339F10
     static void ReliableEnterTimeout(::Il2CppObject* obj, int timeout, bool& lockTaken);
     // static private System.Void ReliableEnter(System.Object obj, System.Boolean lockTaken)
-    // Offset: 0x13D6928
+    // Offset: 0x1339BEC
     static void ReliableEnter(::Il2CppObject* obj, bool& lockTaken);
   }; // System.Threading.Monitor
 }

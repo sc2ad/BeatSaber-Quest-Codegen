@@ -14,7 +14,7 @@ namespace UnityEngine::Bindings {
   class ThreadSafeAttribute : public UnityEngine::Bindings::NativeMethodAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x196AEF4
+    // Offset: 0x18C7238
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

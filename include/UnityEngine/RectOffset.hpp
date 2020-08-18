@@ -27,68 +27,68 @@ namespace UnityEngine {
     // Offset: 0x18
     ::Il2CppObject* m_SourceStyle;
     // System.Void .ctor(System.Object sourceStyle, System.IntPtr source)
-    // Offset: 0x1418570
+    // Offset: 0x137A8A8
     static RectOffset* New_ctor(::Il2CppObject* sourceStyle, System::IntPtr source);
     // public System.Void .ctor(System.Int32 left, System.Int32 right, System.Int32 top, System.Int32 bottom)
-    // Offset: 0x14186B8
+    // Offset: 0x137A9F0
     static RectOffset* New_ctor(int left, int right, int top, int bottom);
     // private System.Void Destroy()
-    // Offset: 0x141862C
+    // Offset: 0x137A964
     void Destroy();
     // static private System.IntPtr InternalCreate()
-    // Offset: 0x141853C
+    // Offset: 0x137A874
     static System::IntPtr InternalCreate();
     // static private System.Void InternalDestroy(System.IntPtr ptr)
-    // Offset: 0x1418C84
+    // Offset: 0x137AFBC
     static void InternalDestroy(System::IntPtr ptr);
     // public System.Int32 get_left()
-    // Offset: 0x1418B84
+    // Offset: 0x137AEBC
     int get_left();
     // public System.Void set_left(System.Int32 value)
-    // Offset: 0x14187D0
+    // Offset: 0x137AB08
     void set_left(int value);
     // public System.Int32 get_right()
-    // Offset: 0x1418BC4
+    // Offset: 0x137AEFC
     int get_right();
     // public System.Void set_right(System.Int32 value)
-    // Offset: 0x1418820
+    // Offset: 0x137AB58
     void set_right(int value);
     // public System.Int32 get_top()
-    // Offset: 0x1418C04
+    // Offset: 0x137AF3C
     int get_top();
     // public System.Void set_top(System.Int32 value)
-    // Offset: 0x1418870
+    // Offset: 0x137ABA8
     void set_top(int value);
     // public System.Int32 get_bottom()
-    // Offset: 0x1418C44
+    // Offset: 0x137AF7C
     int get_bottom();
     // public System.Void set_bottom(System.Int32 value)
-    // Offset: 0x14188C0
+    // Offset: 0x137ABF8
     void set_bottom(int value);
     // public System.Int32 get_horizontal()
-    // Offset: 0x1418CC4
+    // Offset: 0x137AFFC
     int get_horizontal();
     // public System.Int32 get_vertical()
-    // Offset: 0x1418D04
+    // Offset: 0x137B03C
     int get_vertical();
     // public UnityEngine.Rect Remove(UnityEngine.Rect rect)
-    // Offset: 0x1418D44
+    // Offset: 0x137B07C
     UnityEngine::Rect Remove(UnityEngine::Rect rect);
     // private System.Void Remove_Injected(UnityEngine.Rect rect, UnityEngine.Rect ret)
-    // Offset: 0x1418DAC
+    // Offset: 0x137B0E4
     void Remove_Injected(UnityEngine::Rect& rect, UnityEngine::Rect& ret);
     // public System.Void .ctor()
-    // Offset: 0x14184F0
+    // Offset: 0x137A828
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RectOffset* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x14185B8
+    // Offset: 0x137A8F0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.String ToString()
-    // Offset: 0x1418910
+    // Offset: 0x137AC48
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

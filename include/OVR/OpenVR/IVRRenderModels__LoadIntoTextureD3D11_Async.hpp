@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_LoadIntoTextureD3D11_Async : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16A4F04
+    // Offset: 0x160723C
     static IVRRenderModels::_LoadIntoTextureD3D11_Async* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRRenderModelError Invoke(System.Int32 textureId, System.IntPtr pDstTexture)
-    // Offset: 0x16A4F18
+    // Offset: 0x1607250
     OVR::OpenVR::EVRRenderModelError Invoke(int textureId, System::IntPtr pDstTexture);
     // public System.IAsyncResult BeginInvoke(System.Int32 textureId, System.IntPtr pDstTexture, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16A51A8
+    // Offset: 0x16074E0
     System::IAsyncResult* BeginInvoke(int textureId, System::IntPtr pDstTexture, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRRenderModelError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16A5254
+    // Offset: 0x160758C
     OVR::OpenVR::EVRRenderModelError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_LoadIntoTextureD3D11_Async
 }

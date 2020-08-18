@@ -20,13 +20,13 @@ namespace UnityEngine::Bindings {
     // Offset: 0x18
     bool Enabled;
     // public System.Void set_Condition(System.String value)
-    // Offset: 0x196A870
+    // Offset: 0x18C6BB4
     void set_Condition(::Il2CppString* value);
     // public System.Void set_Enabled(System.Boolean value)
-    // Offset: 0x196A878
+    // Offset: 0x18C6BBC
     void set_Enabled(bool value);
     // public System.Void .ctor(System.String condition)
-    // Offset: 0x196A884
+    // Offset: 0x18C6BC8
     static NativeConditionalAttribute* New_ctor(::Il2CppString* condition);
   }; // UnityEngine.Bindings.NativeConditionalAttribute
 }

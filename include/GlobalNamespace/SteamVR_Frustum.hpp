@@ -37,19 +37,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     float farZ;
     // public System.Void UpdateModel()
-    // Offset: 0xD82610
+    // Offset: 0xCE28D4
     void UpdateModel();
     // private System.Void OnDeviceConnected(System.Int32 i, System.Boolean connected)
-    // Offset: 0xD82DF8
+    // Offset: 0xCE30BC
     void OnDeviceConnected(int i, bool connected);
     // private System.Void OnEnable()
-    // Offset: 0xD82FB4
+    // Offset: 0xCE3278
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD8309C
+    // Offset: 0xCE3360
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xD83184
+    // Offset: 0xCE3448
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -24,10 +24,10 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     ::Il2CppString* result;
     // System.Boolean <GenerateUniqueActorName>b__1(UnityEngine.ScriptableObject x)
-    // Offset: 0x18FC420
+    // Offset: 0x185976C
     bool $GenerateUniqueActorName$b__1(UnityEngine::ScriptableObject* x);
     // public System.Void .ctor()
-    // Offset: 0x18FBB68
+    // Offset: 0x1858EB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimelineCreateUtilities::$$c__DisplayClass0_1* New_ctor();

@@ -21,13 +21,13 @@ namespace UnityEngine::Audio {
   class AudioMixer : public UnityEngine::Object {
     public:
     // public System.Void set_updateMode(UnityEngine.Audio.AudioMixerUpdateMode value)
-    // Offset: 0x1954388
+    // Offset: 0x18B06CC
     void set_updateMode(UnityEngine::Audio::AudioMixerUpdateMode value);
     // public System.Boolean SetFloat(System.String name, System.Single value)
-    // Offset: 0x19543D8
+    // Offset: 0x18B071C
     bool SetFloat(::Il2CppString* name, float value);
     // public System.Boolean GetFloat(System.String name, System.Single value)
-    // Offset: 0x1954438
+    // Offset: 0x18B077C
     bool GetFloat(::Il2CppString* name, float& value);
   }; // UnityEngine.Audio.AudioMixer
 }

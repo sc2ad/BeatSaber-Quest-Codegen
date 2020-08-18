@@ -22,8 +22,8 @@ namespace Zenject {
   // Forward declaring type: FactoryBindInfo
   class FactoryBindInfo;
   // Skipping declaration: ConditionCopyNonLazyBinder because it is already included!
-  // Forward declaring type: IFactory`4<TValue, TParam1, TParam2, TParam3>
-  template<typename TValue, typename TParam1, typename TParam2, typename TParam3>
+  // Forward declaring type: IFactory`4<TParam1, TParam2, TParam3, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TValue>
   class IFactory_4;
   // Forward declaring type: FactorySubContainerBinder`4<TContract, TParam1, TParam2, TParam3>
   template<typename TContract, typename TParam1, typename TParam2, typename TParam3>
@@ -36,8 +36,8 @@ namespace Zenject {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`5<TResult, T1, T2, T3, T4>
-  template<typename TResult, typename T1, typename T2, typename T3, typename T4>
+  // Forward declaring type: Func`5<T1, T2, T3, T4, TResult>
+  template<typename T1, typename T2, typename T3, typename T4, typename TResult>
   class Func_5;
   // Forward declaring type: Action`1<T>
   template<typename T>
@@ -63,12 +63,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Func_5<Zenject::DiContainer*, TParam1, TParam2, TParam3, TContract>* method;
       // Zenject.IProvider <FromMethod>b__0(Zenject.DiContainer container)
-      // Offset: 0x13AFADC
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $FromMethod$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<FromMethod>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x13AFAC4
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactoryFromBinder_4<TParam1, TParam2, TParam3, TContract>::$$c__DisplayClass1_0* New_ctor() {
@@ -102,17 +102,17 @@ namespace Zenject {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_4<TParam1, TParam2, TParam3, TContract>::$$c__2_1<TSubFactory>*>::get(), "<>9__2_0", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0x13AF998
+      // Offset: 0xFFFFFFFF
       static void _cctor() {
         THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_4<TParam1, TParam2, TParam3, TContract>::$$c__2_1<TSubFactory>*>::get(), ".cctor")));
       }
       // System.Void <FromFactory>b__2_0(Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`4<TParam1,TParam2,TParam3,TContract>> x)
-      // Offset: 0x13AFA8C
+      // Offset: 0xFFFFFFFF
       void $FromFactory$b__2_0(Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_4<TParam1, TParam2, TParam3, TContract>*>* x) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<FromFactory>b__2_0", x));
       }
       // public System.Void .ctor()
-      // Offset: 0x13AFA74
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactoryFromBinder_4<TParam1, TParam2, TParam3, TContract>::$$c__2_1<TSubFactory>* New_ctor() {
@@ -120,29 +120,29 @@ namespace Zenject {
       }
     }; // Zenject.FactoryFromBinder`4/<>c__2`1
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0x13AFB48
+    // Offset: 0xFFFFFFFF
     static FactoryFromBinder_4<TParam1, TParam2, TParam3, TContract>* New_ctor(Zenject::DiContainer* container, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
       return (FactoryFromBinder_4<TParam1, TParam2, TParam3, TContract>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryFromBinder_4<TParam1, TParam2, TParam3, TContract>*>::get(), container, bindInfo, factoryBindInfo)));
     }
     // public Zenject.ConditionCopyNonLazyBinder FromMethod(System.Func`5<Zenject.DiContainer,TParam1,TParam2,TParam3,TContract> method)
-    // Offset: 0x13AFC00
+    // Offset: 0xFFFFFFFF
     Zenject::ConditionCopyNonLazyBinder* FromMethod(System::Func_5<Zenject::DiContainer*, TParam1, TParam2, TParam3, TContract>* method) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::ConditionCopyNonLazyBinder*>(this, "FromMethod", method));
     }
     // public Zenject.ConditionCopyNonLazyBinder FromFactory()
-    // Offset: 0x13E5B40
+    // Offset: 0xFFFFFFFF
     template<class TSubFactory>
     Zenject::ConditionCopyNonLazyBinder* FromFactory() {
       static_assert(std::is_base_of_v<Zenject::IFactory_4<TParam1, TParam2, TParam3, TContract>, std::remove_pointer_t<TSubFactory>>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConditionCopyNonLazyBinder*>(this, "FromFactory", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSubFactory>::get()})));
     }
     // public Zenject.FactorySubContainerBinder`4<TParam1,TParam2,TParam3,TContract> FromSubContainerResolve()
-    // Offset: 0x13AFCF0
+    // Offset: 0xFFFFFFFF
     Zenject::FactorySubContainerBinder_4<TParam1, TParam2, TParam3, TContract>* FromSubContainerResolve() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::FactorySubContainerBinder_4<TParam1, TParam2, TParam3, TContract>*>(this, "FromSubContainerResolve")));
     }
     // public Zenject.FactorySubContainerBinder`4<TParam1,TParam2,TParam3,TContract> FromSubContainerResolve(System.Object subIdentifier)
-    // Offset: 0x13AFD18
+    // Offset: 0xFFFFFFFF
     Zenject::FactorySubContainerBinder_4<TParam1, TParam2, TParam3, TContract>* FromSubContainerResolve(::Il2CppObject* subIdentifier) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::FactorySubContainerBinder_4<TParam1, TParam2, TParam3, TContract>*>(this, "FromSubContainerResolve", subIdentifier)));
     }

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     bool includeScoreWithModifiers;
     // public System.Void .ctor(System.String title, System.Boolean includeScoreWithModifiers)
-    // Offset: 0xB5E454
+    // Offset: 0x18E5984
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, bool includeScoreWithModifiers);
   }; // CentralLeaderboardViewController/LeaderboardPanel
 }

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_ShowMessageOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16BA7E8
+    // Offset: 0x161CB20
     static IVROverlay::_ShowMessageOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.VRMessageOverlayResponse Invoke(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text)
-    // Offset: 0x16BA7FC
+    // Offset: 0x161CB34
     Valve::VR::VRMessageOverlayResponse Invoke(::Il2CppString* pchText, ::Il2CppString* pchCaption, ::Il2CppString* pchButton0Text, ::Il2CppString* pchButton1Text, ::Il2CppString* pchButton2Text, ::Il2CppString* pchButton3Text);
     // public System.IAsyncResult BeginInvoke(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16BAC74
+    // Offset: 0x161CFAC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchText, ::Il2CppString* pchCaption, ::Il2CppString* pchButton0Text, ::Il2CppString* pchButton1Text, ::Il2CppString* pchButton2Text, ::Il2CppString* pchButton3Text, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.VRMessageOverlayResponse EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16BACB0
+    // Offset: 0x161CFE8
     Valve::VR::VRMessageOverlayResponse EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_ShowMessageOverlay
 }

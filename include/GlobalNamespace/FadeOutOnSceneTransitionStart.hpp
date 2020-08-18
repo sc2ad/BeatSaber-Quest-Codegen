@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected System.Void Start()
-    // Offset: 0x1906CD0
+    // Offset: 0x186501C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1906D64
+    // Offset: 0x18650B0
     void OnDestroy();
     // private System.Void HandleGameScenesManagerTransitionDidStart(System.Single duration)
-    // Offset: 0x1906E40
+    // Offset: 0x186518C
     void HandleGameScenesManagerTransitionDidStart(float duration);
     // public System.Void .ctor()
-    // Offset: 0x1906E5C
+    // Offset: 0x18651A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

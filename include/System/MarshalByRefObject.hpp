@@ -29,19 +29,19 @@ namespace System {
     // Offset: 0x10
     ::Il2CppObject* identity;
     // System.Runtime.Remoting.ServerIdentity get_ObjectIdentity()
-    // Offset: 0x100F3AC
+    // Offset: 0xF71670
     System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
     // System.Void set_ObjectIdentity(System.Runtime.Remoting.ServerIdentity value)
-    // Offset: 0x100F47C
+    // Offset: 0xF71740
     void set_ObjectIdentity(System::Runtime::Remoting::ServerIdentity* value);
     // public System.Runtime.Remoting.ObjRef CreateObjRef(System.Type requestedType)
-    // Offset: 0x100F4D8
+    // Offset: 0xF7179C
     System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);
     // public System.Object InitializeLifetimeService()
-    // Offset: 0x100F534
+    // Offset: 0xF717F8
     ::Il2CppObject* InitializeLifetimeService();
     // protected System.Void .ctor()
-    // Offset: 0x1002484
+    // Offset: 0xF64748
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MarshalByRefObject* New_ctor();

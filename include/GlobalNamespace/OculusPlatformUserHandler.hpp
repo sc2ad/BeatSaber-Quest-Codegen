@@ -35,32 +35,32 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PlatformUserModelSO::UserInfo* userInfo;
     // public PlatformInfo get_platformInfo()
-    // Offset: 0xC3A22C
+    // Offset: 0xBB1268
     // Implemented from: IPlatformUserHandler
     // Base method: PlatformInfo IPlatformUserHandler::get_platformInfo()
     GlobalNamespace::PlatformInfo* get_platformInfo();
     // public HMAsyncRequest GetUserInfo(PlatformUserModelSO/GetUserInfoCompletionHandler completionHandler)
-    // Offset: 0xC3A294
+    // Offset: 0xBB12D0
     // Implemented from: IPlatformUserHandler
     // Base method: HMAsyncRequest IPlatformUserHandler::GetUserInfo(PlatformUserModelSO/GetUserInfoCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUserInfo(GlobalNamespace::PlatformUserModelSO::GetUserInfoCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserFriendsUserIds(System.Boolean cached, PlatformUserModelSO/GetUserFriendsUserIdsCompletionHandler completionHandler)
-    // Offset: 0xC3A3E8
+    // Offset: 0xBB1424
     // Implemented from: IPlatformUserHandler
     // Base method: HMAsyncRequest IPlatformUserHandler::GetUserFriendsUserIds(System.Boolean cached, PlatformUserModelSO/GetUserFriendsUserIdsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUserFriendsUserIds(bool cached, GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserAuthToken(PlatformUserModelSO/GetUserAuthTokenCompletionHandler completionHandler)
-    // Offset: 0xC3A54C
+    // Offset: 0xBB1588
     // Implemented from: IPlatformUserHandler
     // Base method: HMAsyncRequest IPlatformUserHandler::GetUserAuthToken(PlatformUserModelSO/GetUserAuthTokenCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUserAuthToken(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserNamesForUserIds(System.String[] userIds, PlatformUserModelSO/GetUserNamesForUserIdsCompletionHandler completionHandler)
-    // Offset: 0xC3A664
+    // Offset: 0xBB16A0
     // Implemented from: IPlatformUserHandler
     // Base method: HMAsyncRequest IPlatformUserHandler::GetUserNamesForUserIds(System.String[] userIds, PlatformUserModelSO/GetUserNamesForUserIdsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUserNamesForUserIds(::Array<::Il2CppString*>* userIds, GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* completionHandler);
     // public System.Void .ctor()
-    // Offset: 0xC3A6F4
+    // Offset: 0xBB1730
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformUserHandler* New_ctor();

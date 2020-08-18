@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     float intervalTimeCounter;
     // public System.Void .ctor()
-    // Offset: 0xCB3EBC
+    // Offset: 0xC14180
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HapticFeedbackController::ContinousRumbleParams* New_ctor();

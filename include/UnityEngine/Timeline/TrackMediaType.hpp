@@ -19,7 +19,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     UnityEngine::Timeline::TimelineAsset::MediaType m_MediaType;
     // public System.Void .ctor(UnityEngine.Timeline.TimelineAsset/MediaType mt)
-    // Offset: 0x19051B4
+    // Offset: 0x1862500
     static TrackMediaType* New_ctor(UnityEngine::Timeline::TimelineAsset::MediaType mt);
   }; // UnityEngine.Timeline.TrackMediaType
 }

@@ -67,40 +67,40 @@ namespace GlobalNamespace {
     // Offset: 0x54
     float currentAlpha;
     // public System.Single get_currentAlpha()
-    // Offset: 0xF49E58
+    // Offset: 0xEAB11C
     float get_currentAlpha();
     // private System.Void set_currentAlpha(System.Single value)
-    // Offset: 0xF49E60
+    // Offset: 0xEAB124
     void set_currentAlpha(float value);
     // private System.Void Start()
-    // Offset: 0xF49E68
+    // Offset: 0xEAB12C
     void Start();
     // public System.Void FadeOut()
-    // Offset: 0xF4A430
+    // Offset: 0xEAB6F4
     void FadeOut();
     // private System.Void OnLevelFinishedLoading(System.Int32 level)
-    // Offset: 0xF4A464
+    // Offset: 0xEAB728
     void OnLevelFinishedLoading(int level);
     // private System.Void OnEnable()
-    // Offset: 0xF4A498
+    // Offset: 0xEAB75C
     void OnEnable();
     // private System.Void OnDestroy()
-    // Offset: 0xF4A4AC
+    // Offset: 0xEAB770
     void OnDestroy();
     // public System.Void SetUIFade(System.Single level)
-    // Offset: 0xF4A610
+    // Offset: 0xEAB8D4
     void SetUIFade(float level);
     // public System.Void SetFadeLevel(System.Single level)
-    // Offset: 0xF4A398
+    // Offset: 0xEAB65C
     void SetFadeLevel(float level);
     // private System.Collections.IEnumerator Fade(System.Single startAlpha, System.Single endAlpha)
-    // Offset: 0xF4A3A0
+    // Offset: 0xEAB664
     System::Collections::IEnumerator* Fade(float startAlpha, float endAlpha);
     // private System.Void SetMaterialAlpha()
-    // Offset: 0xF4A690
+    // Offset: 0xEAB954
     void SetMaterialAlpha();
     // public System.Void .ctor()
-    // Offset: 0xF4A810
+    // Offset: 0xEABAD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

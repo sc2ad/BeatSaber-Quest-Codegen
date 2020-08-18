@@ -30,10 +30,10 @@ namespace HMUI {
     // Offset: 0x20
     System::Action* finishedCallback;
     // System.Void <PopViewControllersFromNavigationController>b__0()
-    // Offset: 0xED87FC
+    // Offset: 0xE38AC0
     void $PopViewControllersFromNavigationController$b__0();
     // public System.Void .ctor()
-    // Offset: 0xED7F28
+    // Offset: 0xE381EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FlowCoordinator::$$c__DisplayClass46_0* New_ctor();

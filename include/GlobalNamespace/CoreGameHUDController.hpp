@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::CoreGameHUDController::InitData* initData;
     // protected System.Void Start()
-    // Offset: 0xBDFD74
+    // Offset: 0x1927354
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xBDFE00
+    // Offset: 0x19273E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

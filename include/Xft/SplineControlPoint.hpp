@@ -39,43 +39,43 @@ namespace Xft {
     // Offset: 0x38
     Xft::Spline* mSpline;
     // public Xft.SplineControlPoint get_NextControlPoint()
-    // Offset: 0xC541AC
+    // Offset: 0x19717F8
     Xft::SplineControlPoint* get_NextControlPoint();
     // public Xft.SplineControlPoint get_PreviousControlPoint()
-    // Offset: 0xC541C8
+    // Offset: 0x1971814
     Xft::SplineControlPoint* get_PreviousControlPoint();
     // public UnityEngine.Vector3 get_NextPosition()
-    // Offset: 0xC541E4
+    // Offset: 0x1971830
     UnityEngine::Vector3 get_NextPosition();
     // public UnityEngine.Vector3 get_PreviousPosition()
-    // Offset: 0xC54200
+    // Offset: 0x197184C
     UnityEngine::Vector3 get_PreviousPosition();
     // public UnityEngine.Vector3 get_NextNormal()
-    // Offset: 0xC5421C
+    // Offset: 0x1971868
     UnityEngine::Vector3 get_NextNormal();
     // public UnityEngine.Vector3 get_PreviousNormal()
-    // Offset: 0xC54238
+    // Offset: 0x1971884
     UnityEngine::Vector3 get_PreviousNormal();
     // public System.Boolean get_IsValid()
-    // Offset: 0xC540E8
+    // Offset: 0x1971734
     bool get_IsValid();
     // private UnityEngine.Vector3 GetNext2Position()
-    // Offset: 0xC54254
+    // Offset: 0x19718A0
     UnityEngine::Vector3 GetNext2Position();
     // private UnityEngine.Vector3 GetNext2Normal()
-    // Offset: 0xC5427C
+    // Offset: 0x19718C8
     UnityEngine::Vector3 GetNext2Normal();
     // public UnityEngine.Vector3 Interpolate(System.Single localF)
-    // Offset: 0xC539F4
+    // Offset: 0x1971040
     UnityEngine::Vector3 Interpolate(float localF);
     // public UnityEngine.Vector3 InterpolateNormal(System.Single localF)
-    // Offset: 0xC53B24
+    // Offset: 0x1971170
     UnityEngine::Vector3 InterpolateNormal(float localF);
     // public System.Void Init(Xft.Spline owner)
-    // Offset: 0xC53D30
+    // Offset: 0x197137C
     void Init(Xft::Spline* owner);
     // public System.Void .ctor()
-    // Offset: 0xC53D20
+    // Offset: 0x197136C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SplineControlPoint* New_ctor();

@@ -23,17 +23,17 @@ namespace System {
   class TimeZoneNotFoundException : public System::Exception {
     public:
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x178C8EC
+    // Offset: 0x16EAC24
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static TimeZoneNotFoundException* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x178C96C
+    // Offset: 0x16EACA4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static TimeZoneNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor()
-    // Offset: 0x178C9FC
+    // Offset: 0x16EAD34
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()

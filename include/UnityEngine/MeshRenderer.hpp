@@ -21,10 +21,10 @@ namespace UnityEngine {
   class MeshRenderer : public UnityEngine::Renderer {
     public:
     // private System.Void DontStripMeshRenderer()
-    // Offset: 0x140C880
+    // Offset: 0x136EBB8
     void DontStripMeshRenderer();
     // public UnityEngine.Mesh get_additionalVertexStreams()
-    // Offset: 0x140C884
+    // Offset: 0x136EBBC
     UnityEngine::Mesh* get_additionalVertexStreams();
   }; // UnityEngine.MeshRenderer
 }

@@ -26,34 +26,34 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     int id;
     // public BeatmapObjectType get_beatmapObjectType()
-    // Offset: 0xB559D0
+    // Offset: 0x18DCF00
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // private System.Void set_beatmapObjectType(BeatmapObjectType value)
-    // Offset: 0xB559D8
+    // Offset: 0x18DCF08
     void set_beatmapObjectType(GlobalNamespace::BeatmapObjectType value);
     // public System.Single get_time()
-    // Offset: 0xB559E0
+    // Offset: 0x18DCF10
     float get_time();
     // private System.Void set_time(System.Single value)
-    // Offset: 0xB559E8
+    // Offset: 0x18DCF18
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0xB559F0
+    // Offset: 0x18DCF20
     int get_lineIndex();
     // protected System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0xB559F8
+    // Offset: 0x18DCF28
     void set_lineIndex(int value);
     // public System.Int32 get_id()
-    // Offset: 0xB55A00
+    // Offset: 0x18DCF30
     int get_id();
     // private System.Void set_id(System.Int32 value)
-    // Offset: 0xB55A08
+    // Offset: 0x18DCF38
     void set_id(int value);
     // public System.Void .ctor(BeatmapObjectType beatmapObjectType, System.Int32 id, System.Single time, System.Int32 lineIndex)
-    // Offset: 0xB55A10
+    // Offset: 0x18DCF40
     static BeatmapObjectData* New_ctor(GlobalNamespace::BeatmapObjectType beatmapObjectType, int id, float time, int lineIndex);
     // public System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0xB55A60
+    // Offset: 0x18DCF90
     void MirrorLineIndex(int lineCount);
     // public BeatmapObjectData GetCopy()
     // Offset: 0xFFFFFFFF

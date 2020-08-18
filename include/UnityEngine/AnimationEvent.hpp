@@ -60,7 +60,7 @@ namespace UnityEngine {
     // Offset: 0x6C
     UnityEngine::AnimatorClipInfo m_AnimatorClipInfo;
     // public System.Void .ctor()
-    // Offset: 0x19347A8
+    // Offset: 0x1891AF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AnimationEvent* New_ctor();

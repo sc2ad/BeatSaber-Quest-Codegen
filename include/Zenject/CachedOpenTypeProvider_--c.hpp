@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: Zenject
@@ -35,13 +35,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.CachedProvider,System.Int32> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<Zenject::CachedProvider*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xD67F88
+    // Offset: 0xCC824C
     static void _cctor();
     // System.Int32 <get_NumInstances>b__8_0(Zenject.CachedProvider x)
-    // Offset: 0xD67FF8
+    // Offset: 0xCC82BC
     int $get_NumInstances$b__8_0(Zenject::CachedProvider* x);
     // public System.Void .ctor()
-    // Offset: 0xD67FF0
+    // Offset: 0xCC82B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CachedOpenTypeProvider::$$c* New_ctor();

@@ -19,6 +19,8 @@ namespace GlobalNamespace {
   class PlayerSpecificSettings;
   // Forward declaring type: PracticeSettings
   class PracticeSettings;
+  // Forward declaring type: EnvironmentInfoSO
+  class EnvironmentInfoSO;
 }
 // Completed forward declares
 // Type namespace: 
@@ -41,39 +43,48 @@ namespace GlobalNamespace {
     // private System.Boolean <useTestNoteCutSoundEffects>k__BackingField
     // Offset: 0x30
     bool useTestNoteCutSoundEffects;
+    // private EnvironmentInfoSO <environmentInfo>k__BackingField
+    // Offset: 0x38
+    GlobalNamespace::EnvironmentInfoSO* environmentInfo;
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0xB3C280
+    // Offset: 0xB3EF24
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0xB3C288
+    // Offset: 0xB3EF2C
     void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xB3C290
+    // Offset: 0xB3EF34
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0xB3C298
+    // Offset: 0xB3EF3C
     void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0xB3C2A0
+    // Offset: 0xB3EF44
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // private System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
-    // Offset: 0xB3C2A8
+    // Offset: 0xB3EF4C
     void set_playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0xB3C2B0
+    // Offset: 0xB3EF54
     GlobalNamespace::PracticeSettings* get_practiceSettings();
     // private System.Void set_practiceSettings(PracticeSettings value)
-    // Offset: 0xB3C2B8
+    // Offset: 0xB3EF5C
     void set_practiceSettings(GlobalNamespace::PracticeSettings* value);
     // public System.Boolean get_useTestNoteCutSoundEffects()
-    // Offset: 0xB3C2C0
+    // Offset: 0xB3EF64
     bool get_useTestNoteCutSoundEffects();
     // private System.Void set_useTestNoteCutSoundEffects(System.Boolean value)
-    // Offset: 0xB3C2C8
+    // Offset: 0xB3EF6C
     void set_useTestNoteCutSoundEffects(bool value);
-    // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects)
-    // Offset: 0xB3C2D4
-    static GameplayCoreSceneSetupData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects);
+    // public EnvironmentInfoSO get_environmentInfo()
+    // Offset: 0xB3EF78
+    GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
+    // private System.Void set_environmentInfo(EnvironmentInfoSO value)
+    // Offset: 0xB3EF80
+    void set_environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
+    // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects, EnvironmentInfoSO environmentInfo)
+    // Offset: 0xB3EF88
+    static GameplayCoreSceneSetupData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO* environmentInfo);
   }; // GameplayCoreSceneSetupData
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

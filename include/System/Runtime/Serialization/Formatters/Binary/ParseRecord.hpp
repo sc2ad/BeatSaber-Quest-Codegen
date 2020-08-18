@@ -169,13 +169,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Int32 parseRecordIdCount
     static void _set_parseRecordIdCount(int value);
     // System.Void Init()
-    // Offset: 0xFE94FC
+    // Offset: 0xF4A7C0
     void Init();
     // static private System.Void .cctor()
-    // Offset: 0xFE9668
+    // Offset: 0xF4A92C
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0xFE94F4
+    // Offset: 0xF4A7B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ParseRecord* New_ctor();

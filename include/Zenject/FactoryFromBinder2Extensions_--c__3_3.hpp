@@ -62,17 +62,17 @@ namespace Zenject {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryFromBinder2Extensions::$$c__3_3<TParam1, TParam2, TContract>*>::get(), "<>9__3_0", value)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x118F8CC
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryFromBinder2Extensions::$$c__3_3<TParam1, TParam2, TContract>*>::get(), ".cctor")));
     }
     // System.Void <FromMonoPoolableMemoryPool>b__3_0(Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract> x)
-    // Offset: 0x118F9C0
+    // Offset: 0xFFFFFFFF
     void $FromMonoPoolableMemoryPool$b__3_0(Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "<FromMonoPoolableMemoryPool>b__3_0", x));
     }
     // public System.Void .ctor()
-    // Offset: 0x118F9A8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FactoryFromBinder2Extensions::$$c__3_3<TParam1, TParam2, TContract>* New_ctor() {

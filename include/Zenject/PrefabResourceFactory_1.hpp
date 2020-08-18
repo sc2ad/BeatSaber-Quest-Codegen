@@ -27,17 +27,24 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::DiContainer* container;
     // public Zenject.DiContainer get_Container()
-    // Offset: 0x15EAE34
+    // Offset: 0xFFFFFFFF
     Zenject::DiContainer* get_Container() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::DiContainer*>(this, "get_Container"));
     }
     // public T Create(System.String prefabResourceName)
-    // Offset: 0x15EAE3C
+    // Offset: 0xFFFFFFFF
+    // Implemented from: Zenject.IFactory`2
+    // Base method: TValue IFactory`2::Create(System.String prefabResourceName)
     T Create(::Il2CppString* prefabResourceName) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Create", prefabResourceName));
     }
+    // Creating proxy method: Zenject_IFactory_2_Create
+    // Maps to method: Create
+    T Zenject_IFactory_2_Create(::Il2CppString* prefabResourceName) {
+      return Create(prefabResourceName);
+    }
     // public System.Void .ctor()
-    // Offset: 0x15EAF5C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PrefabResourceFactory_1<T>* New_ctor() {

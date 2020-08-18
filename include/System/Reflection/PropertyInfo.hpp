@@ -69,7 +69,7 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     ::Array<System::Reflection::MethodInfo*>* GetAccessors(bool nonPublic);
     // public System.Reflection.MethodInfo GetGetMethod()
-    // Offset: 0x1151950
+    // Offset: 0x10B4C14
     System::Reflection::MethodInfo* GetGetMethod();
     // public System.Reflection.MethodInfo GetGetMethod(System.Boolean nonPublic)
     // Offset: 0xFFFFFFFF
@@ -81,65 +81,65 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
     // public System.Object GetValue(System.Object obj, System.Object[] index)
-    // Offset: 0x1151964
+    // Offset: 0x10B4C28
     ::Il2CppObject* GetValue(::Il2CppObject* obj, ::Array<::Il2CppObject*>* index);
     // public System.Object GetValue(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetValue(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* index, System::Globalization::CultureInfo* culture);
     // public System.Void SetValue(System.Object obj, System.Object value, System.Object[] index)
-    // Offset: 0x1151984
+    // Offset: 0x10B4C48
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, ::Array<::Il2CppObject*>* index);
     // public System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* index, System::Globalization::CultureInfo* culture);
     // public System.Type[] GetOptionalCustomModifiers()
-    // Offset: 0x11519A4
+    // Offset: 0x10B4C68
     ::Array<System::Type*>* GetOptionalCustomModifiers();
     // public System.Type[] GetRequiredCustomModifiers()
-    // Offset: 0x1151A0C
+    // Offset: 0x10B4CD0
     ::Array<System::Type*>* GetRequiredCustomModifiers();
     // static private System.NotImplementedException CreateNIE()
-    // Offset: 0x1151A74
+    // Offset: 0x10B4D38
     static System::NotImplementedException* CreateNIE();
     // public System.Object GetConstantValue()
-    // Offset: 0x1151AD0
+    // Offset: 0x10B4D94
     ::Il2CppObject* GetConstantValue();
     // public System.Object GetRawConstantValue()
-    // Offset: 0x1151B14
+    // Offset: 0x10B4DD8
     ::Il2CppObject* GetRawConstantValue();
     // static private System.Reflection.PropertyInfo internal_from_handle_type(System.IntPtr event_handle, System.IntPtr type_handle)
-    // Offset: 0x1151C14
+    // Offset: 0x10B4ED8
     static System::Reflection::PropertyInfo* internal_from_handle_type(System::IntPtr event_handle, System::IntPtr type_handle);
     // static System.Reflection.PropertyInfo GetPropertyFromHandle(Mono.RuntimePropertyHandle handle, System.RuntimeTypeHandle reflectedType)
-    // Offset: 0x1151C18
+    // Offset: 0x10B4EDC
     static System::Reflection::PropertyInfo* GetPropertyFromHandle(Mono::RuntimePropertyHandle handle, System::RuntimeTypeHandle reflectedType);
     // public override System.Reflection.MemberTypes get_MemberType()
-    // Offset: 0x1151940
+    // Offset: 0x10B4C04
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.MemberTypes MemberInfo::get_MemberType()
     System::Reflection::MemberTypes get_MemberType();
     // protected System.Void .ctor()
-    // Offset: 0x1151948
+    // Offset: 0x10B4C0C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Void MemberInfo::.ctor()
     // Base method: System.Void Object::.ctor()
     static PropertyInfo* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1151B58
+    // Offset: 0x10B4E1C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1151B64
+    // Offset: 0x10B4E28
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Int32 MemberInfo::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.PropertyInfo
   // static public System.Boolean op_Equality(System.Reflection.PropertyInfo left, System.Reflection.PropertyInfo right)
-  // Offset: 0x1151B6C
+  // Offset: 0x10B4E30
   bool operator ==(System::Reflection::PropertyInfo* left, System::Reflection::PropertyInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.PropertyInfo left, System.Reflection.PropertyInfo right)
-  // Offset: 0x1151BB8
+  // Offset: 0x10B4E7C
   bool operator !=(System::Reflection::PropertyInfo* left, System::Reflection::PropertyInfo& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

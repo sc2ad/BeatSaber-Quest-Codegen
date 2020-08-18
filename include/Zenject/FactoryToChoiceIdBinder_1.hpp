@@ -28,12 +28,12 @@ namespace Zenject {
   class FactoryToChoiceIdBinder_1 : public Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
     public:
     // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> WithId(System.Object identifier)
-    // Offset: 0x13B8D4C
+    // Offset: 0xFFFFFFFF
     Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* WithId(::Il2CppObject* identifier) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(this, "WithId", identifier));
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0x13B8D28
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.FactoryArgumentsToChoiceBinder`1
     // Base method: System.Void FactoryArgumentsToChoiceBinder`1::.ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Base method: System.Void FactoryToChoiceBinder`1::.ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)

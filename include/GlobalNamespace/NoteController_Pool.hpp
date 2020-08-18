@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class NoteController::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::NoteController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC116A8
+    // Offset: 0x195A1D8
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()

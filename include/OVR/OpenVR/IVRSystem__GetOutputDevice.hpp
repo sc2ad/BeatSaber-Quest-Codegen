@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetOutputDevice : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16B1BB0
+    // Offset: 0x1613EE8
     static IVRSystem::_GetOutputDevice* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.UInt64 pnDevice, OVR.OpenVR.ETextureType textureType, System.IntPtr pInstance)
-    // Offset: 0x16B1BC4
+    // Offset: 0x1613EFC
     void Invoke(uint64_t& pnDevice, OVR::OpenVR::ETextureType textureType, System::IntPtr pInstance);
     // public System.IAsyncResult BeginInvoke(System.UInt64 pnDevice, OVR.OpenVR.ETextureType textureType, System.IntPtr pInstance, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16B1E48
+    // Offset: 0x1614180
     System::IAsyncResult* BeginInvoke(uint64_t& pnDevice, OVR::OpenVR::ETextureType textureType, System::IntPtr pInstance, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.UInt64 pnDevice, System.IAsyncResult result)
-    // Offset: 0x16B1F18
+    // Offset: 0x1614250
     void EndInvoke(uint64_t& pnDevice, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetOutputDevice
 }

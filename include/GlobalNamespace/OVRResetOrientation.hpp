@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::OVRInput::RawButton resetButton;
     // private System.Void Update()
-    // Offset: 0xF47A50
+    // Offset: 0xEA8D14
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xF47B48
+    // Offset: 0xEA8E0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

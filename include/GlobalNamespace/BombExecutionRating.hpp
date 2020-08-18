@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BombExecutionRating::Rating rating;
     // public BombExecutionRating/Rating get_rating()
-    // Offset: 0xB5BB48
+    // Offset: 0x18E3078
     GlobalNamespace::BombExecutionRating::Rating get_rating();
     // public System.Void set_rating(BombExecutionRating/Rating value)
-    // Offset: 0xB5BB50
+    // Offset: 0x18E3080
     void set_rating(GlobalNamespace::BombExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, BombExecutionRating/Rating rating)
-    // Offset: 0xB5658C
+    // Offset: 0x18DDABC
     static BombExecutionRating* New_ctor(float time, GlobalNamespace::BombExecutionRating::Rating rating);
   }; // BombExecutionRating
 }

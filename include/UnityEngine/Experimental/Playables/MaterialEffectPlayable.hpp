@@ -24,12 +24,12 @@ namespace UnityEngine::Experimental::Playables {
     // Creating value type constructor for type: MaterialEffectPlayable
     MaterialEffectPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA4231C
+    // Offset: 0x9AB7E8
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Experimental.Playables.MaterialEffectPlayable other)
-    // Offset: 0xA42328
+    // Offset: 0x9AB7F4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Experimental.Playables.MaterialEffectPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::MaterialEffectPlayable other);

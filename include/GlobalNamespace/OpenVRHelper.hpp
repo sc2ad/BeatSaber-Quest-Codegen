@@ -104,52 +104,52 @@ namespace GlobalNamespace {
     // Offset: 0x48
     ::Array<Valve::VR::TrackedDevicePose_t>* gamePoses;
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCB6894
+    // Offset: 0xC16B58
     void add_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0xCB6938
+    // Offset: 0xC16BFC
     void remove_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCB69DC
+    // Offset: 0xC16CA0
     void add_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0xCB6A80
+    // Offset: 0xC16D44
     void remove_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_dashboardWasActivatedEvent(System.Action value)
-    // Offset: 0xCB6B24
+    // Offset: 0xC16DE8
     void add_dashboardWasActivatedEvent(System::Action* value);
     // public System.Void remove_dashboardWasActivatedEvent(System.Action value)
-    // Offset: 0xCB6BC8
+    // Offset: 0xC16E8C
     void remove_dashboardWasActivatedEvent(System::Action* value);
     // public System.Void add_dashboardWasDectivatedEvent(System.Action value)
-    // Offset: 0xCB6C6C
+    // Offset: 0xC16F30
     void add_dashboardWasDectivatedEvent(System::Action* value);
     // public System.Void remove_dashboardWasDectivatedEvent(System.Action value)
-    // Offset: 0xCB6D10
+    // Offset: 0xC16FD4
     void remove_dashboardWasDectivatedEvent(System::Action* value);
     // public OpenVRHelper/VRControllerManufacturerName get_vrControllerManufacturerName()
-    // Offset: 0xCB6DB4
+    // Offset: 0xC17078
     GlobalNamespace::OpenVRHelper::VRControllerManufacturerName get_vrControllerManufacturerName();
     // private System.Void DisableEventSystem()
-    // Offset: 0xCB7074
+    // Offset: 0xC17338
     void DisableEventSystem();
     // private System.Void EnableEventSystem()
-    // Offset: 0xCB71B0
+    // Offset: 0xC17474
     void EnableEventSystem();
     // private System.Void OnBeforeRender()
-    // Offset: 0xCB7258
+    // Offset: 0xC1751C
     void OnBeforeRender();
     // public System.Void Update()
-    // Offset: 0xCB72D8
+    // Offset: 0xC1759C
     void Update();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single strength)
-    // Offset: 0xCB7520
+    // Offset: 0xC177E4
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float strength);
     // public VRPlatformHelper/VRNodeTransform GetNodePos(System.Int32 nodeIndex)
-    // Offset: 0xCB75E8
+    // Offset: 0xC178AC
     GlobalNamespace::VRPlatformHelper::VRNodeTransform GetNodePos(int nodeIndex);
     // public System.Void .ctor()
-    // Offset: 0xCB6FAC
+    // Offset: 0xC17270
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OpenVRHelper* New_ctor();

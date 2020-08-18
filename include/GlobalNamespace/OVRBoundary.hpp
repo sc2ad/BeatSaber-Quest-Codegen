@@ -48,31 +48,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single[] cachedGeometryManagedBuffer
     static void _set_cachedGeometryManagedBuffer(::Array<float>* value);
     // public System.Boolean GetConfigured()
-    // Offset: 0xCC5470
+    // Offset: 0xC25734
     bool GetConfigured();
     // public OVRBoundary/BoundaryTestResult TestNode(OVRBoundary/Node node, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCC5514
+    // Offset: 0xC257D8
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(GlobalNamespace::OVRBoundary::Node node, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public OVRBoundary/BoundaryTestResult TestPoint(UnityEngine.Vector3 point, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCC55F0
+    // Offset: 0xC258B4
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(UnityEngine::Vector3 point, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3[] GetGeometry(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCC56F0
+    // Offset: 0xC259B4
     ::Array<UnityEngine::Vector3>* GetGeometry(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3 GetDimensions(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0xCC5B10
+    // Offset: 0xC25DD4
     UnityEngine::Vector3 GetDimensions(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public System.Boolean GetVisible()
-    // Offset: 0xCC5C14
+    // Offset: 0xC25ED8
     bool GetVisible();
     // public System.Void SetVisible(System.Boolean value)
-    // Offset: 0xCC5CB8
+    // Offset: 0xC25F7C
     void SetVisible(bool value);
     // static private System.Void .cctor()
-    // Offset: 0xCC5DE4
+    // Offset: 0xC260A8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xCC5D68
+    // Offset: 0xC2602C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRBoundary* New_ctor();

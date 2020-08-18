@@ -25,10 +25,10 @@ namespace System {
     // Creating value type constructor for type: UnSafeCharBuffer
     UnSafeCharBuffer(::Il2CppChar* m_buffer_ = {}, int m_totalSize_ = {}, int m_length_ = {}) : m_buffer{m_buffer_}, m_totalSize{m_totalSize_}, m_length{m_length_} {}
     // public System.Void .ctor(System.Char* buffer, System.Int32 bufferSize)
-    // Offset: 0xA53B38
+    // Offset: 0x9BE004
     static UnSafeCharBuffer* New_ctor(::Il2CppChar* buffer, int bufferSize);
     // public System.Void AppendString(System.String stringToAppend)
-    // Offset: 0xA53B44
+    // Offset: 0x9BE010
     void AppendString(::Il2CppString* stringToAppend);
   }; // System.UnSafeCharBuffer
 }

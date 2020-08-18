@@ -17,18 +17,18 @@ namespace UnityEngine::Internal {
     // Offset: 0x10
     ::Il2CppObject* DefaultValue;
     // public System.Void .ctor(System.String value)
-    // Offset: 0x130CEA8
+    // Offset: 0x127016C
     static DefaultValueAttribute* New_ctor(::Il2CppString* value);
     // public System.Object get_Value()
-    // Offset: 0x130CEDC
+    // Offset: 0x12701A0
     ::Il2CppObject* get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x130CEE4
+    // Offset: 0x12701A8
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x130CFB0
+    // Offset: 0x1270274
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     float offset;
     // public System.Void .ctor()
-    // Offset: 0x181C7E0
+    // Offset: 0x177AB18
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

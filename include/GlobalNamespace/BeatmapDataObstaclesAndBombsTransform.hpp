@@ -23,13 +23,13 @@ namespace GlobalNamespace {
   class BeatmapDataObstaclesAndBombsTransform : public ::Il2CppObject {
     public:
     // static public BeatmapData CreateTransformedData(BeatmapData beatmapData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0xB8A848
+    // Offset: 0x18F3EF4
     static GlobalNamespace::BeatmapData* CreateTransformedData(GlobalNamespace::BeatmapData* beatmapData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
     // static private System.Boolean ShouldUseBeatmapObject(BeatmapObjectData beatmapObjectData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0xB91FB8
+    // Offset: 0x18FB664
     static bool ShouldUseBeatmapObject(GlobalNamespace::BeatmapObjectData* beatmapObjectData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
     // public System.Void .ctor()
-    // Offset: 0xB920CC
+    // Offset: 0x18FB778
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataObstaclesAndBombsTransform* New_ctor();

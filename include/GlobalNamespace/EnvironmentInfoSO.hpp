@@ -17,6 +17,8 @@ namespace GlobalNamespace {
   class SceneInfo;
   // Forward declaring type: EnvironmentTypeSO
   class EnvironmentTypeSO;
+  // Forward declaring type: EnvironmentSizeData
+  class EnvironmentSizeData;
 }
 // Completed forward declares
 // Type namespace: 
@@ -39,23 +41,29 @@ namespace GlobalNamespace {
     // private EnvironmentTypeSO _environmentType
     // Offset: 0x38
     GlobalNamespace::EnvironmentTypeSO* environmentType;
+    // private EnvironmentSizeData _environmentSizeData
+    // Offset: 0x40
+    GlobalNamespace::EnvironmentSizeData* environmentSizeData;
     // public SceneInfo get_sceneInfo()
-    // Offset: 0xBE7830
+    // Offset: 0x192EE18
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0xBE7838
+    // Offset: 0x192EE20
     ::Il2CppString* get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0xBE7840
+    // Offset: 0x192EE28
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0xBE7848
+    // Offset: 0x192EE30
     ::Il2CppString* get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0xBE7850
+    // Offset: 0x192EE38
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
+    // public EnvironmentSizeData get_environmentSizeData()
+    // Offset: 0x192EE40
+    GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public System.Void .ctor()
-    // Offset: 0xBE7858
+    // Offset: 0x192EE48
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

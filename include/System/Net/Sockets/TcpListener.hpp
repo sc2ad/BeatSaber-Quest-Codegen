@@ -49,25 +49,25 @@ namespace System::Net::Sockets {
     // Offset: 0x21
     bool m_ExclusiveAddressUse;
     // public System.Void .ctor(System.Net.IPAddress localaddr, System.Int32 port)
-    // Offset: 0x1213514
+    // Offset: 0x11757D8
     static TcpListener* New_ctor(System::Net::IPAddress* localaddr, int port);
     // public System.Net.EndPoint get_LocalEndpoint()
-    // Offset: 0x121369C
+    // Offset: 0x1175960
     System::Net::EndPoint* get_LocalEndpoint();
     // public System.Void Start()
-    // Offset: 0x12136C8
+    // Offset: 0x117598C
     void Start();
     // public System.Void Start(System.Int32 backlog)
-    // Offset: 0x12136D0
+    // Offset: 0x1175994
     void Start(int backlog);
     // public System.Void Stop()
-    // Offset: 0x1213860
+    // Offset: 0x1175B24
     void Stop();
     // public System.IAsyncResult BeginAcceptTcpClient(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1213950
+    // Offset: 0x1175C14
     System::IAsyncResult* BeginAcceptTcpClient(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.Sockets.TcpClient EndAcceptTcpClient(System.IAsyncResult asyncResult)
-    // Offset: 0x1213A10
+    // Offset: 0x1175CD4
     System::Net::Sockets::TcpClient* EndAcceptTcpClient(System::IAsyncResult* asyncResult);
   }; // System.Net.Sockets.TcpListener
 }

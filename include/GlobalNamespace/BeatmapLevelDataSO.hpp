@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* no360MovementDifficultyBeatmapSets;
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0xB4F918
+    // Offset: 0x18D6E48
     UnityEngine::AudioClip* get_audioClip();
     // public BeatmapLevelDataSO/DifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0xB4F920
+    // Offset: 0x18D6E50
     ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0xB4F928
+    // Offset: 0x18D6E58
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

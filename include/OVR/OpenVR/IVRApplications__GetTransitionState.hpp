@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetTransitionState : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xECFE7C
+    // Offset: 0xE30140
     static IVRApplications::_GetTransitionState* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationTransitionState Invoke()
-    // Offset: 0xEC43FC
+    // Offset: 0xE246C0
     OVR::OpenVR::EVRApplicationTransitionState Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xECFE90
+    // Offset: 0xE30154
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationTransitionState EndInvoke(System.IAsyncResult result)
-    // Offset: 0xECFEBC
+    // Offset: 0xE30180
     OVR::OpenVR::EVRApplicationTransitionState EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetTransitionState
 }

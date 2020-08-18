@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     int64_t timestamp;
     // public System.Void .ctor()
-    // Offset: 0xBF944C
+    // Offset: 0x1941F60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalLeaderboardsModel::ScoreData* New_ctor();

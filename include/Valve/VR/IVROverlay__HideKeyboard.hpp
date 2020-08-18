@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVROverlay::_HideKeyboard : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1607918
+    // Offset: 0x1568C50
     static IVROverlay::_HideKeyboard* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x160792C
+    // Offset: 0x1568C64
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1607B38
+    // Offset: 0x1568E70
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1607B64
+    // Offset: 0x1568E9C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_HideKeyboard
 }

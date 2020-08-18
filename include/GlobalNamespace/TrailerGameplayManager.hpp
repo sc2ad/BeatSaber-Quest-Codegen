@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::MainCamera* mainCamera;
     // private System.Collections.IEnumerator Start()
-    // Offset: 0xC445E8
+    // Offset: 0x1961C1C
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xC44690
+    // Offset: 0x1961CC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

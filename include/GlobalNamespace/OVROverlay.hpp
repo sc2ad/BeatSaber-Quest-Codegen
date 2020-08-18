@@ -265,76 +265,76 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Material cubeMaterial
     static void _set_cubeMaterial(UnityEngine::Material* value);
     // public System.Void OverrideOverlayTextureInfo(UnityEngine.Texture srcTexture, System.IntPtr nativePtr, UnityEngine.XR.XRNode node)
-    // Offset: 0xEEDB48
+    // Offset: 0xE4DE0C
     void OverrideOverlayTextureInfo(UnityEngine::Texture* srcTexture, System::IntPtr nativePtr, UnityEngine::XR::XRNode node);
     // private OVRPlugin/LayerLayout get_layout()
-    // Offset: 0xEEDC18
+    // Offset: 0xE4DEDC
     GlobalNamespace::OVRPlugin::LayerLayout get_layout();
     // private System.Int32 get_texturesPerStage()
-    // Offset: 0xEEDCB4
+    // Offset: 0xE4DF78
     int get_texturesPerStage();
     // private System.Boolean CreateLayer(System.Int32 mipLevels, System.Int32 sampleCount, OVRPlugin/EyeTextureFormat etFormat, System.Int32 flags, OVRPlugin/Sizei size, OVRPlugin/OverlayShape shape)
-    // Offset: 0xEEDCD4
+    // Offset: 0xE4DF98
     bool CreateLayer(int mipLevels, int sampleCount, GlobalNamespace::OVRPlugin::EyeTextureFormat etFormat, int flags, GlobalNamespace::OVRPlugin::Sizei size, GlobalNamespace::OVRPlugin::OverlayShape shape);
     // private System.Boolean CreateLayerTextures(System.Boolean useMipmaps, OVRPlugin/Sizei size, System.Boolean isHdr)
-    // Offset: 0xEEE664
+    // Offset: 0xE4E928
     bool CreateLayerTextures(bool useMipmaps, GlobalNamespace::OVRPlugin::Sizei size, bool isHdr);
     // private System.Void DestroyLayerTextures()
-    // Offset: 0xEEF018
+    // Offset: 0xE4F2DC
     void DestroyLayerTextures();
     // private System.Void DestroyLayer()
-    // Offset: 0xEEF180
+    // Offset: 0xE4F444
     void DestroyLayer();
     // public System.Void SetSrcDestRects(UnityEngine.Rect srcLeft, UnityEngine.Rect srcRight, UnityEngine.Rect destLeft, UnityEngine.Rect destRight)
-    // Offset: 0xEEFBB8
+    // Offset: 0xE4FE7C
     void SetSrcDestRects(UnityEngine::Rect srcLeft, UnityEngine::Rect srcRight, UnityEngine::Rect destLeft, UnityEngine::Rect destRight);
     // public System.Void UpdateTextureRectMatrix()
-    // Offset: 0xEEFBD4
+    // Offset: 0xE4FE98
     void UpdateTextureRectMatrix();
     // public System.Void SetPerLayerColorScaleAndOffset(UnityEngine.Vector4 scale, UnityEngine.Vector4 offset)
-    // Offset: 0xEEFE6C
+    // Offset: 0xE50130
     void SetPerLayerColorScaleAndOffset(UnityEngine::Vector4 scale, UnityEngine::Vector4 offset);
     // private System.Boolean LatchLayerTextures()
-    // Offset: 0xEEFE80
+    // Offset: 0xE50144
     bool LatchLayerTextures();
     // private OVRPlugin/LayerDesc GetCurrentLayerDesc()
-    // Offset: 0xEF02CC
+    // Offset: 0xE50590
     GlobalNamespace::OVRPlugin::LayerDesc GetCurrentLayerDesc();
     // private System.Boolean PopulateLayer(System.Int32 mipLevels, System.Boolean isHdr, OVRPlugin/Sizei size, System.Int32 sampleCount, System.Int32 stage)
-    // Offset: 0xEF0798
+    // Offset: 0xE50A5C
     bool PopulateLayer(int mipLevels, bool isHdr, GlobalNamespace::OVRPlugin::Sizei size, int sampleCount, int stage);
     // private System.Boolean SubmitLayer(System.Boolean overlay, System.Boolean headLocked, System.Boolean noDepthBufferTesting, OVRPose pose, UnityEngine.Vector3 scale, System.Int32 frameIndex)
-    // Offset: 0xEF0C38
+    // Offset: 0xE50EFC
     bool SubmitLayer(bool overlay, bool headLocked, bool noDepthBufferTesting, GlobalNamespace::OVRPose pose, UnityEngine::Vector3 scale, int frameIndex);
     // private System.Void Awake()
-    // Offset: 0xEF0ECC
+    // Offset: 0xE51190
     void Awake();
     // static public System.String get_OpenVROverlayKey()
-    // Offset: 0xEF1228
+    // Offset: 0xE514EC
     static ::Il2CppString* get_OpenVROverlayKey();
     // private System.Void OnEnable()
-    // Offset: 0xEF12A0
+    // Offset: 0xE51564
     void OnEnable();
     // private System.Void InitOVROverlay()
-    // Offset: 0xEF1320
+    // Offset: 0xE515E4
     void InitOVROverlay();
     // private System.Void OnDisable()
-    // Offset: 0xEF14CC
+    // Offset: 0xE51790
     void OnDisable();
     // private System.Void OnDestroy()
-    // Offset: 0xEF1638
+    // Offset: 0xE518FC
     void OnDestroy();
     // private System.Boolean ComputeSubmit(OVRPose pose, UnityEngine.Vector3 scale, System.Boolean overlay, System.Boolean headLocked)
-    // Offset: 0xEF165C
+    // Offset: 0xE51920
     bool ComputeSubmit(GlobalNamespace::OVRPose& pose, UnityEngine::Vector3& scale, bool& overlay, bool& headLocked);
     // private System.Void OpenVROverlayUpdate(UnityEngine.Vector3 scale, OVRPose pose)
-    // Offset: 0xEF1AA8
+    // Offset: 0xE51D6C
     void OpenVROverlayUpdate(UnityEngine::Vector3 scale, GlobalNamespace::OVRPose pose);
     // private System.Void LateUpdate()
-    // Offset: 0xEF1DEC
+    // Offset: 0xE520B0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xEF22E8
+    // Offset: 0xE525AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -343,7 +343,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVROverlay* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xEF249C
+    // Offset: 0xE52760
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

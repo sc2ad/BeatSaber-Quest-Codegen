@@ -26,18 +26,18 @@ namespace System::Collections {
     // Offset: 0x10
     System::Globalization::CompareInfo* m_compareInfo;
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
-    // Offset: 0x1331F6C
+    // Offset: 0x1293230
     static CaseInsensitiveComparer* New_ctor(System::Globalization::CultureInfo* culture);
     // static public System.Collections.CaseInsensitiveComparer get_Default()
-    // Offset: 0x1332020
+    // Offset: 0x12932E4
     static System::Collections::CaseInsensitiveComparer* get_Default();
     // public System.Void .ctor()
-    // Offset: 0x1331ED8
+    // Offset: 0x129319C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CaseInsensitiveComparer* New_ctor();
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x13320AC
+    // Offset: 0x1293370
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object a, System.Object b)
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);

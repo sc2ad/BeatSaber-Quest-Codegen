@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<::Il2CppString*>* unlockedAchievementsToUpload;
     // public System.Void .ctor()
-    // Offset: 0xC170F0
+    // Offset: 0xB8F12C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::AchievementsData* New_ctor();

@@ -72,334 +72,334 @@ namespace UnityEngine {
   class Mesh : public UnityEngine::Object {
     public:
     // static private System.Void Internal_Create(UnityEngine.Mesh mono)
-    // Offset: 0x1409BC0
+    // Offset: 0x136BEF8
     static void Internal_Create(UnityEngine::Mesh* mono);
     // public System.Void set_indexFormat(UnityEngine.Rendering.IndexFormat value)
-    // Offset: 0x1409C98
+    // Offset: 0x136BFD0
     void set_indexFormat(UnityEngine::Rendering::IndexFormat value);
     // private System.UInt32 GetIndexCountImpl(System.Int32 submesh)
-    // Offset: 0x1409CE8
+    // Offset: 0x136C020
     uint GetIndexCountImpl(int submesh);
     // private System.Int32[] GetTrianglesImpl(System.Int32 submesh, System.Boolean applyBaseVertex)
-    // Offset: 0x1409D38
+    // Offset: 0x136C070
     ::Array<int>* GetTrianglesImpl(int submesh, bool applyBaseVertex);
     // private System.Int32[] GetIndicesImpl(System.Int32 submesh, System.Boolean applyBaseVertex)
-    // Offset: 0x1409D90
+    // Offset: 0x136C0C8
     ::Array<int>* GetIndicesImpl(int submesh, bool applyBaseVertex);
     // private System.Void SetIndicesImpl(System.Int32 submesh, UnityEngine.MeshTopology topology, UnityEngine.Rendering.IndexFormat indicesFormat, System.Array indices, System.Int32 arrayStart, System.Int32 arraySize, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x1409DE8
+    // Offset: 0x136C120
     void SetIndicesImpl(int submesh, UnityEngine::MeshTopology topology, UnityEngine::Rendering::IndexFormat indicesFormat, System::Array* indices, int arrayStart, int arraySize, bool calculateBounds, int baseVertex);
     // private System.Void PrintErrorCantAccessChannel(UnityEngine.Rendering.VertexAttribute ch)
-    // Offset: 0x1409E88
+    // Offset: 0x136C1C0
     void PrintErrorCantAccessChannel(UnityEngine::Rendering::VertexAttribute ch);
     // public System.Boolean HasVertexAttribute(UnityEngine.Rendering.VertexAttribute attr)
-    // Offset: 0x1409ED8
+    // Offset: 0x136C210
     bool HasVertexAttribute(UnityEngine::Rendering::VertexAttribute attr);
     // private System.Void SetArrayForChannelImpl(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Array values, System.Int32 arraySize, System.Int32 valuesStart, System.Int32 valuesCount)
-    // Offset: 0x1409F28
+    // Offset: 0x136C260
     void SetArrayForChannelImpl(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Array* values, int arraySize, int valuesStart, int valuesCount);
     // private System.Array GetAllocArrayFromChannelImpl(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim)
-    // Offset: 0x1409FC0
+    // Offset: 0x136C2F8
     System::Array* GetAllocArrayFromChannelImpl(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim);
     // private System.Void GetArrayFromChannelImpl(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Array values)
-    // Offset: 0x140A028
+    // Offset: 0x136C360
     void GetArrayFromChannelImpl(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Array* values);
     // private System.Void SetBoneWeightsImpl(UnityEngine.BoneWeight[] weights)
-    // Offset: 0x140A098
+    // Offset: 0x136C3D0
     void SetBoneWeightsImpl(::Array<UnityEngine::BoneWeight>* weights);
     // public System.Void set_bindposes(UnityEngine.Matrix4x4[] value)
-    // Offset: 0x140A0E8
+    // Offset: 0x136C420
     void set_bindposes(::Array<UnityEngine::Matrix4x4>* value);
     // System.Boolean get_canAccess()
-    // Offset: 0x140A138
+    // Offset: 0x136C470
     bool get_canAccess();
     // public System.Int32 get_vertexCount()
-    // Offset: 0x140A178
+    // Offset: 0x136C4B0
     int get_vertexCount();
     // public System.Int32 get_subMeshCount()
-    // Offset: 0x140A1B8
+    // Offset: 0x136C4F0
     int get_subMeshCount();
     // public System.Void set_subMeshCount(System.Int32 value)
-    // Offset: 0x140A1F8
+    // Offset: 0x136C530
     void set_subMeshCount(int value);
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x140A248
+    // Offset: 0x136C580
     UnityEngine::Bounds get_bounds();
     // public System.Void set_bounds(UnityEngine.Bounds value)
-    // Offset: 0x140A304
+    // Offset: 0x136C63C
     void set_bounds(UnityEngine::Bounds value);
     // private System.Void ClearImpl(System.Boolean keepVertexLayout)
-    // Offset: 0x140A3A4
+    // Offset: 0x136C6DC
     void ClearImpl(bool keepVertexLayout);
     // private System.Void RecalculateBoundsImpl()
-    // Offset: 0x140A3F4
+    // Offset: 0x136C72C
     void RecalculateBoundsImpl();
     // private System.Void MarkDynamicImpl()
-    // Offset: 0x140A434
+    // Offset: 0x136C76C
     void MarkDynamicImpl();
     // private UnityEngine.MeshTopology GetTopologyImpl(System.Int32 submesh)
-    // Offset: 0x140A474
+    // Offset: 0x136C7AC
     UnityEngine::MeshTopology GetTopologyImpl(int submesh);
     // UnityEngine.Rendering.VertexAttribute GetUVChannel(System.Int32 uvIndex)
-    // Offset: 0x140A4C4
+    // Offset: 0x136C7FC
     UnityEngine::Rendering::VertexAttribute GetUVChannel(int uvIndex);
     // static System.Int32 DefaultDimensionForChannel(UnityEngine.Rendering.VertexAttribute channel)
-    // Offset: 0x140A558
+    // Offset: 0x136C890
     static int DefaultDimensionForChannel(UnityEngine::Rendering::VertexAttribute channel);
     // private T[] GetAllocArrayFromChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim)
-    // Offset: 0xD587E8
+    // Offset: 0xFFFFFFFF
     template<class T>
     ::Array<T>* GetAllocArrayFromChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetAllocArrayFromChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, format, dim)));
     }
     // private T[] GetAllocArrayFromChannel(UnityEngine.Rendering.VertexAttribute channel)
-    // Offset: 0xD5878C
+    // Offset: 0xFFFFFFFF
     template<class T>
     ::Array<T>* GetAllocArrayFromChannel(UnityEngine::Rendering::VertexAttribute channel) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetAllocArrayFromChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel)));
     }
     // private System.Void SetSizedArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Array values, System.Int32 valuesArrayLength, System.Int32 valuesStart, System.Int32 valuesCount)
-    // Offset: 0x140A614
+    // Offset: 0x136C94C
     void SetSizedArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Array* values, int valuesArrayLength, int valuesStart, int valuesCount);
     // private System.Void SetArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, T[] values)
-    // Offset: 0xC5C798
+    // Offset: 0xFFFFFFFF
     template<class T>
     void SetArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::Array<T>* values) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetArrayForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, format, dim, values));
     }
     // private System.Void SetArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, T[] values)
-    // Offset: 0xC5C718
+    // Offset: 0xFFFFFFFF
     template<class T>
     void SetArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, ::Array<T>* values) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetArrayForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, values));
     }
     // private System.Void SetListForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Collections.Generic.List`1<T> values, System.Int32 start, System.Int32 length)
-    // Offset: 0xC5CB4C
+    // Offset: 0xFFFFFFFF
     template<class T>
     void SetListForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Collections::Generic::List_1<T>* values, int start, int length) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetListForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, format, dim, values, start, length));
     }
     // private System.Void SetListForChannel(UnityEngine.Rendering.VertexAttribute channel, System.Collections.Generic.List`1<T> values, System.Int32 start, System.Int32 length)
-    // Offset: 0xC5CA98
+    // Offset: 0xFFFFFFFF
     template<class T>
     void SetListForChannel(UnityEngine::Rendering::VertexAttribute channel, System::Collections::Generic::List_1<T>* values, int start, int length) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetListForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, channel, values, start, length));
     }
     // private System.Void GetListForChannel(System.Collections.Generic.List`1<T> buffer, System.Int32 capacity, UnityEngine.Rendering.VertexAttribute channel, System.Int32 dim)
-    // Offset: 0xC5C270
+    // Offset: 0xFFFFFFFF
     template<class T>
     void GetListForChannel(System::Collections::Generic::List_1<T>* buffer, int capacity, UnityEngine::Rendering::VertexAttribute channel, int dim) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetListForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, buffer, capacity, channel, dim));
     }
     // private System.Void GetListForChannel(System.Collections.Generic.List`1<T> buffer, System.Int32 capacity, UnityEngine.Rendering.VertexAttribute channel, System.Int32 dim, UnityEngine.Rendering.VertexAttributeFormat channelType)
-    // Offset: 0xC5C294
+    // Offset: 0xFFFFFFFF
     template<class T>
     void GetListForChannel(System::Collections::Generic::List_1<T>* buffer, int capacity, UnityEngine::Rendering::VertexAttribute channel, int dim, UnityEngine::Rendering::VertexAttributeFormat channelType) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetListForChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, buffer, capacity, channel, dim, channelType));
     }
     // public UnityEngine.Vector3[] get_vertices()
-    // Offset: 0x140A8A0
+    // Offset: 0x136CBD8
     ::Array<UnityEngine::Vector3>* get_vertices();
     // public System.Void set_vertices(UnityEngine.Vector3[] value)
-    // Offset: 0x140A8F4
+    // Offset: 0x136CC2C
     void set_vertices(::Array<UnityEngine::Vector3>* value);
     // public UnityEngine.Vector3[] get_normals()
-    // Offset: 0x140A958
+    // Offset: 0x136CC90
     ::Array<UnityEngine::Vector3>* get_normals();
     // public System.Void set_normals(UnityEngine.Vector3[] value)
-    // Offset: 0x140A9AC
+    // Offset: 0x136CCE4
     void set_normals(::Array<UnityEngine::Vector3>* value);
     // public UnityEngine.Vector4[] get_tangents()
-    // Offset: 0x140AA10
+    // Offset: 0x136CD48
     ::Array<UnityEngine::Vector4>* get_tangents();
     // public System.Void set_tangents(UnityEngine.Vector4[] value)
-    // Offset: 0x140AA64
+    // Offset: 0x136CD9C
     void set_tangents(::Array<UnityEngine::Vector4>* value);
     // public UnityEngine.Vector2[] get_uv()
-    // Offset: 0x140AAC8
+    // Offset: 0x136CE00
     ::Array<UnityEngine::Vector2>* get_uv();
     // public System.Void set_uv(UnityEngine.Vector2[] value)
-    // Offset: 0x140AB1C
+    // Offset: 0x136CE54
     void set_uv(::Array<UnityEngine::Vector2>* value);
     // public UnityEngine.Vector2[] get_uv2()
-    // Offset: 0x140AB80
+    // Offset: 0x136CEB8
     ::Array<UnityEngine::Vector2>* get_uv2();
     // public System.Void set_uv2(UnityEngine.Vector2[] value)
-    // Offset: 0x140ABD4
+    // Offset: 0x136CF0C
     void set_uv2(::Array<UnityEngine::Vector2>* value);
     // public UnityEngine.Vector2[] get_uv3()
-    // Offset: 0x140AC38
+    // Offset: 0x136CF70
     ::Array<UnityEngine::Vector2>* get_uv3();
     // public UnityEngine.Vector2[] get_uv4()
-    // Offset: 0x140AC8C
+    // Offset: 0x136CFC4
     ::Array<UnityEngine::Vector2>* get_uv4();
     // public UnityEngine.Color[] get_colors()
-    // Offset: 0x140ACE0
+    // Offset: 0x136D018
     ::Array<UnityEngine::Color>* get_colors();
     // public System.Void set_colors(UnityEngine.Color[] value)
-    // Offset: 0x140AD34
+    // Offset: 0x136D06C
     void set_colors(::Array<UnityEngine::Color>* value);
     // public UnityEngine.Color32[] get_colors32()
-    // Offset: 0x140AD98
+    // Offset: 0x136D0D0
     ::Array<UnityEngine::Color32>* get_colors32();
     // public System.Void set_colors32(UnityEngine.Color32[] value)
-    // Offset: 0x140ADF4
+    // Offset: 0x136D12C
     void set_colors32(::Array<UnityEngine::Color32>* value);
     // public System.Void SetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3> inVertices)
-    // Offset: 0x140AE60
+    // Offset: 0x136D198
     void SetVertices(System::Collections::Generic::List_1<UnityEngine::Vector3>* inVertices);
     // public System.Void SetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3> inVertices, System.Int32 start, System.Int32 length)
-    // Offset: 0x140AED0
+    // Offset: 0x136D208
     void SetVertices(System::Collections::Generic::List_1<UnityEngine::Vector3>* inVertices, int start, int length);
     // public System.Void SetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3> inNormals)
-    // Offset: 0x140AF4C
+    // Offset: 0x136D284
     void SetNormals(System::Collections::Generic::List_1<UnityEngine::Vector3>* inNormals);
     // public System.Void SetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3> inNormals, System.Int32 start, System.Int32 length)
-    // Offset: 0x140AFBC
+    // Offset: 0x136D2F4
     void SetNormals(System::Collections::Generic::List_1<UnityEngine::Vector3>* inNormals, int start, int length);
     // public System.Void SetTangents(System.Collections.Generic.List`1<UnityEngine.Vector4> inTangents)
-    // Offset: 0x140B038
+    // Offset: 0x136D370
     void SetTangents(System::Collections::Generic::List_1<UnityEngine::Vector4>* inTangents);
     // public System.Void SetTangents(System.Collections.Generic.List`1<UnityEngine.Vector4> inTangents, System.Int32 start, System.Int32 length)
-    // Offset: 0x140B0A8
+    // Offset: 0x136D3E0
     void SetTangents(System::Collections::Generic::List_1<UnityEngine::Vector4>* inTangents, int start, int length);
     // public System.Void SetColors(System.Collections.Generic.List`1<UnityEngine.Color32> inColors)
-    // Offset: 0x140B124
+    // Offset: 0x136D45C
     void SetColors(System::Collections::Generic::List_1<UnityEngine::Color32>* inColors);
     // public System.Void SetColors(System.Collections.Generic.List`1<UnityEngine.Color32> inColors, System.Int32 start, System.Int32 length)
-    // Offset: 0x140B194
+    // Offset: 0x136D4CC
     void SetColors(System::Collections::Generic::List_1<UnityEngine::Color32>* inColors, int start, int length);
     // private System.Void SetUvsImpl(System.Int32 uvIndex, System.Int32 dim, System.Collections.Generic.List`1<T> uvs, System.Int32 start, System.Int32 length)
-    // Offset: 0xC5D010
+    // Offset: 0xFFFFFFFF
     template<class T>
     void SetUvsImpl(int uvIndex, int dim, System::Collections::Generic::List_1<T>* uvs, int start, int length) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetUvsImpl", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, uvIndex, dim, uvs, start, length));
     }
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector2> uvs)
-    // Offset: 0x140B218
+    // Offset: 0x136D550
     void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector2>* uvs);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector3> uvs)
-    // Offset: 0x140B314
+    // Offset: 0x136D64C
     void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector3>* uvs);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector4> uvs)
-    // Offset: 0x140B410
+    // Offset: 0x136D748
     void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector2> uvs, System.Int32 start, System.Int32 length)
-    // Offset: 0x140B290
+    // Offset: 0x136D5C8
     void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector2>* uvs, int start, int length);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector3> uvs, System.Int32 start, System.Int32 length)
-    // Offset: 0x140B38C
+    // Offset: 0x136D6C4
     void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector3>* uvs, int start, int length);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector4> uvs, System.Int32 start, System.Int32 length)
-    // Offset: 0x140B488
+    // Offset: 0x136D7C0
     void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs, int start, int length);
     // private System.Void GetUVsImpl(System.Int32 uvIndex, System.Collections.Generic.List`1<T> uvs, System.Int32 dim)
-    // Offset: 0xC5C4C8
+    // Offset: 0xFFFFFFFF
     template<class T>
     void GetUVsImpl(int uvIndex, System::Collections::Generic::List_1<T>* uvs, int dim) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetUVsImpl", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, uvIndex, uvs, dim));
     }
     // public System.Void GetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector4> uvs)
-    // Offset: 0x140B50C
+    // Offset: 0x136D844
     void GetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs);
     // private System.Void PrintErrorCantAccessIndices()
-    // Offset: 0x140B578
+    // Offset: 0x136D8B0
     void PrintErrorCantAccessIndices();
     // private System.Boolean CheckCanAccessSubmesh(System.Int32 submesh, System.Boolean errorAboutTriangles)
-    // Offset: 0x140B690
+    // Offset: 0x136D9C8
     bool CheckCanAccessSubmesh(int submesh, bool errorAboutTriangles);
     // private System.Boolean CheckCanAccessSubmeshTriangles(System.Int32 submesh)
-    // Offset: 0x140B7C0
+    // Offset: 0x136DAF8
     bool CheckCanAccessSubmeshTriangles(int submesh);
     // private System.Boolean CheckCanAccessSubmeshIndices(System.Int32 submesh)
-    // Offset: 0x140B7C8
+    // Offset: 0x136DB00
     bool CheckCanAccessSubmeshIndices(int submesh);
     // public System.Int32[] get_triangles()
-    // Offset: 0x140B7D0
+    // Offset: 0x136DB08
     ::Array<int>* get_triangles();
     // public System.Void set_triangles(System.Int32[] value)
-    // Offset: 0x140B88C
+    // Offset: 0x136DBC4
     void set_triangles(::Array<int>* value);
     // public System.Int32[] GetTriangles(System.Int32 submesh)
-    // Offset: 0x140BA10
+    // Offset: 0x136DD48
     ::Array<int>* GetTriangles(int submesh);
     // public System.Int32[] GetTriangles(System.Int32 submesh, System.Boolean applyBaseVertex)
-    // Offset: 0x140BA18
+    // Offset: 0x136DD50
     ::Array<int>* GetTriangles(int submesh, bool applyBaseVertex);
     // public System.Int32[] GetIndices(System.Int32 submesh)
-    // Offset: 0x140BAC8
+    // Offset: 0x136DE00
     ::Array<int>* GetIndices(int submesh);
     // public System.Int32[] GetIndices(System.Int32 submesh, System.Boolean applyBaseVertex)
-    // Offset: 0x140BAD0
+    // Offset: 0x136DE08
     ::Array<int>* GetIndices(int submesh, bool applyBaseVertex);
     // public System.UInt32 GetIndexCount(System.Int32 submesh)
-    // Offset: 0x140BB80
+    // Offset: 0x136DEB8
     uint GetIndexCount(int submesh);
     // private System.Void CheckIndicesArrayRange(System.Int32 valuesLength, System.Int32 start, System.Int32 length)
-    // Offset: 0x140BC64
+    // Offset: 0x136DF9C
     void CheckIndicesArrayRange(int valuesLength, int start, int length);
     // private System.Void SetTrianglesImpl(System.Int32 submesh, UnityEngine.Rendering.IndexFormat indicesFormat, System.Array triangles, System.Int32 trianglesArrayLength, System.Int32 start, System.Int32 length, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x140B964
+    // Offset: 0x136DC9C
     void SetTrianglesImpl(int submesh, UnityEngine::Rendering::IndexFormat indicesFormat, System::Array* triangles, int trianglesArrayLength, int start, int length, bool calculateBounds, int baseVertex);
     // public System.Void SetTriangles(System.Int32[] triangles, System.Int32 submesh)
-    // Offset: 0x140BE14
+    // Offset: 0x136E14C
     void SetTriangles(::Array<int>* triangles, int submesh);
     // public System.Void SetTriangles(System.Int32[] triangles, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x140BE20
+    // Offset: 0x136E158
     void SetTriangles(::Array<int>* triangles, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetTriangles(System.Int32[] triangles, System.Int32 trianglesStart, System.Int32 trianglesLength, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x140BE90
+    // Offset: 0x136E1C8
     void SetTriangles(::Array<int>* triangles, int trianglesStart, int trianglesLength, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetTriangles(System.Collections.Generic.List`1<System.Int32> triangles, System.Int32 submesh)
-    // Offset: 0x140BF34
+    // Offset: 0x136E26C
     void SetTriangles(System::Collections::Generic::List_1<int>* triangles, int submesh);
     // public System.Void SetTriangles(System.Collections.Generic.List`1<System.Int32> triangles, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x140BF40
+    // Offset: 0x136E278
     void SetTriangles(System::Collections::Generic::List_1<int>* triangles, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetTriangles(System.Collections.Generic.List`1<System.Int32> triangles, System.Int32 trianglesStart, System.Int32 trianglesLength, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x140BFD0
+    // Offset: 0x136E308
     void SetTriangles(System::Collections::Generic::List_1<int>* triangles, int trianglesStart, int trianglesLength, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.Int32[] indices, UnityEngine.MeshTopology topology, System.Int32 submesh)
-    // Offset: 0x140C104
+    // Offset: 0x136E43C
     void SetIndices(::Array<int>* indices, UnityEngine::MeshTopology topology, int submesh);
     // public System.Void SetIndices(System.Int32[] indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds)
-    // Offset: 0x140C194
+    // Offset: 0x136E4CC
     void SetIndices(::Array<int>* indices, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds);
     // public System.Void SetIndices(System.Int32[] indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x140C110
+    // Offset: 0x136E448
     void SetIndices(::Array<int>* indices, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.Int32[] indices, System.Int32 indicesStart, System.Int32 indicesLength, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x140C1A0
+    // Offset: 0x136E4D8
     void SetIndices(::Array<int>* indices, int indicesStart, int indicesLength, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.Collections.Generic.List`1<System.Int32> indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x140C290
+    // Offset: 0x136E5C8
     void SetIndices(System::Collections::Generic::List_1<int>* indices, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.Collections.Generic.List`1<System.Int32> indices, System.Int32 indicesStart, System.Int32 indicesLength, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
-    // Offset: 0x140C33C
+    // Offset: 0x136E674
     void SetIndices(System::Collections::Generic::List_1<int>* indices, int indicesStart, int indicesLength, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void set_boneWeights(UnityEngine.BoneWeight[] value)
-    // Offset: 0x140C47C
+    // Offset: 0x136E7B4
     void set_boneWeights(::Array<UnityEngine::BoneWeight>* value);
     // public System.Void Clear()
-    // Offset: 0x140C4CC
+    // Offset: 0x136E804
     void Clear();
     // public System.Void RecalculateBounds()
-    // Offset: 0x140C510
+    // Offset: 0x136E848
     void RecalculateBounds();
     // public System.Void MarkDynamic()
-    // Offset: 0x140C600
+    // Offset: 0x136E938
     void MarkDynamic();
     // public UnityEngine.MeshTopology GetTopology(System.Int32 submesh)
-    // Offset: 0x140C678
+    // Offset: 0x136E9B0
     UnityEngine::MeshTopology GetTopology(int submesh);
     // private System.Void get_bounds_Injected(UnityEngine.Bounds ret)
-    // Offset: 0x140A2B4
+    // Offset: 0x136C5EC
     void get_bounds_Injected(UnityEngine::Bounds& ret);
     // private System.Void set_bounds_Injected(UnityEngine.Bounds value)
-    // Offset: 0x140A354
+    // Offset: 0x136C68C
     void set_bounds_Injected(UnityEngine::Bounds& value);
     // public System.Void .ctor()
-    // Offset: 0x1409C00
+    // Offset: 0x136BF38
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

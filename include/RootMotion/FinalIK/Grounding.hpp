@@ -134,76 +134,76 @@ namespace RootMotion::FinalIK {
     // Offset: 0xA4
     bool initiated;
     // public RootMotion.FinalIK.Grounding/Leg[] get_legs()
-    // Offset: 0x1372DB8
+    // Offset: 0x12D407C
     ::Array<RootMotion::FinalIK::Grounding::Leg*>* get_legs();
     // private System.Void set_legs(RootMotion.FinalIK.Grounding/Leg[] value)
-    // Offset: 0x1372DC0
+    // Offset: 0x12D4084
     void set_legs(::Array<RootMotion::FinalIK::Grounding::Leg*>* value);
     // public RootMotion.FinalIK.Grounding/Pelvis get_pelvis()
-    // Offset: 0x1372DC8
+    // Offset: 0x12D408C
     RootMotion::FinalIK::Grounding::Pelvis* get_pelvis();
     // private System.Void set_pelvis(RootMotion.FinalIK.Grounding/Pelvis value)
-    // Offset: 0x1372DD0
+    // Offset: 0x12D4094
     void set_pelvis(RootMotion::FinalIK::Grounding::Pelvis* value);
     // public System.Boolean get_isGrounded()
-    // Offset: 0x1372DD8
+    // Offset: 0x12D409C
     bool get_isGrounded();
     // private System.Void set_isGrounded(System.Boolean value)
-    // Offset: 0x1372DE0
+    // Offset: 0x12D40A4
     void set_isGrounded(bool value);
     // public UnityEngine.Transform get_root()
-    // Offset: 0x1372DEC
+    // Offset: 0x12D40B0
     UnityEngine::Transform* get_root();
     // private System.Void set_root(UnityEngine.Transform value)
-    // Offset: 0x1372DF4
+    // Offset: 0x12D40B8
     void set_root(UnityEngine::Transform* value);
     // public UnityEngine.RaycastHit get_rootHit()
-    // Offset: 0x1372DFC
+    // Offset: 0x12D40C0
     UnityEngine::RaycastHit get_rootHit();
     // private System.Void set_rootHit(UnityEngine.RaycastHit value)
-    // Offset: 0x1372E14
+    // Offset: 0x12D40D8
     void set_rootHit(UnityEngine::RaycastHit value);
     // public System.Boolean get_rootGrounded()
-    // Offset: 0x1372E34
+    // Offset: 0x12D40F8
     bool get_rootGrounded();
     // public UnityEngine.RaycastHit GetRootHit(System.Single maxDistanceMlp)
-    // Offset: 0x1372E88
+    // Offset: 0x12D414C
     UnityEngine::RaycastHit GetRootHit(float maxDistanceMlp);
     // public System.Boolean IsValid(System.String errorMessage)
-    // Offset: 0x1373268
+    // Offset: 0x12D452C
     bool IsValid(::Il2CppString*& errorMessage);
     // public System.Void Initiate(UnityEngine.Transform root, UnityEngine.Transform[] feet)
-    // Offset: 0x136C47C
+    // Offset: 0x12CD740
     void Initiate(UnityEngine::Transform* root, ::Array<UnityEngine::Transform*>* feet);
     // public System.Void Update()
-    // Offset: 0x136CCD4
+    // Offset: 0x12CDF98
     void Update();
     // public UnityEngine.Vector3 GetLegsPlaneNormal()
-    // Offset: 0x136EC14
+    // Offset: 0x12CFED8
     UnityEngine::Vector3 GetLegsPlaneNormal();
     // public System.Void Reset()
-    // Offset: 0x136BF84
+    // Offset: 0x12CD248
     void Reset();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x137352C
+    // Offset: 0x12D47F0
     void LogWarning(::Il2CppString* message);
     // public UnityEngine.Vector3 get_up()
-    // Offset: 0x136D010
+    // Offset: 0x12CE2D4
     UnityEngine::Vector3 get_up();
     // public System.Single GetVerticalOffset(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x13742B8
+    // Offset: 0x12D557C
     float GetVerticalOffset(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public UnityEngine.Vector3 Flatten(UnityEngine.Vector3 v)
-    // Offset: 0x1374420
+    // Offset: 0x12D56E4
     UnityEngine::Vector3 Flatten(UnityEngine::Vector3 v);
     // private System.Boolean get_useRootRotation()
-    // Offset: 0x13741E8
+    // Offset: 0x12D54AC
     bool get_useRootRotation();
     // public UnityEngine.Vector3 GetFootCenterOffset()
-    // Offset: 0x1374524
+    // Offset: 0x12D57E8
     UnityEngine::Vector3 GetFootCenterOffset();
     // public System.Void .ctor()
-    // Offset: 0x136BBC0
+    // Offset: 0x12CCE84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Grounding* New_ctor();

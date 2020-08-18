@@ -11,6 +11,8 @@
 #include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
 // Including type: ColorSchemeSO
 #include "GlobalNamespace/ColorSchemeSO.hpp"
+// Including type: EnvironmentInfoSO
+#include "GlobalNamespace/EnvironmentInfoSO.hpp"
 // Including type: GameplayModifiers
 #include "GlobalNamespace/GameplayModifiers.hpp"
 // Including type: PlayerSpecificSettings

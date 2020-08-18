@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::SpawnRotationChevron::InitData* initData;
     // protected System.Void Start()
-    // Offset: 0xB994BC
+    // Offset: 0x1902B68
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xB99590
+    // Offset: 0x1902C3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

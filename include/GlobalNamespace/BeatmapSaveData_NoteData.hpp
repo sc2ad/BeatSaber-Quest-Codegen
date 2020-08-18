@@ -37,27 +37,27 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::NoteCutDirection cutDirection;
     // public System.Int32 get_lineIndex()
-    // Offset: 0xB5A850
+    // Offset: 0x18E1D80
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0xB5A858
+    // Offset: 0x18E1D88
     GlobalNamespace::NoteLineLayer get_lineLayer();
     // public NoteType get_type()
-    // Offset: 0xB5A860
+    // Offset: 0x18E1D90
     GlobalNamespace::NoteType get_type();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0xB5A868
+    // Offset: 0x18E1D98
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, NoteType type, NoteCutDirection cutDirection)
-    // Offset: 0xB5A870
+    // Offset: 0x18E1DA0
     static BeatmapSaveData::NoteData* New_ctor(float time, int lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteType type, GlobalNamespace::NoteCutDirection cutDirection);
     // public System.Single get_time()
-    // Offset: 0xB5A848
+    // Offset: 0x18E1D78
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Single ITime::get_time()
     float get_time();
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0xB5A8CC
+    // Offset: 0x18E1DFC
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);

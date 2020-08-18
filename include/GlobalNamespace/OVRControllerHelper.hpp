@@ -88,13 +88,13 @@ namespace GlobalNamespace {
     // Offset: 0x51
     bool m_prevControllerConnectedCached;
     // private System.Void Start()
-    // Offset: 0xCC95E4
+    // Offset: 0xC298A8
     void Start();
     // private System.Void Update()
-    // Offset: 0xCC9838
+    // Offset: 0xC29AFC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCC9A7C
+    // Offset: 0xC29D40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -17,13 +17,13 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     ::Il2CppString* Directive;
     // public System.Void .ctor(System.String directive)
-    // Offset: 0x195818C
+    // Offset: 0x18B44D0
     static RazorDirectiveAttribute* New_ctor(::Il2CppString* directive);
     // public System.String get_Directive()
-    // Offset: 0x19581C0
+    // Offset: 0x18B4504
     ::Il2CppString* get_Directive();
     // private System.Void set_Directive(System.String value)
-    // Offset: 0x19581C8
+    // Offset: 0x18B450C
     void set_Directive(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorDirectiveAttribute
 }

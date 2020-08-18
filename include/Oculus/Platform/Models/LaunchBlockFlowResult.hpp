@@ -25,7 +25,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11
     bool DidCancel;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE9F9EC
+    // Offset: 0xDFECB0
     static LaunchBlockFlowResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LaunchBlockFlowResult
 }

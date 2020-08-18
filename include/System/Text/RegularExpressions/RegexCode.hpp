@@ -59,10 +59,10 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x4C
     bool rightToLeft;
     // System.Void .ctor(System.Int32[] codes, System.Collections.Generic.List`1<System.String> stringlist, System.Int32 trackcount, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.RegexBoyerMoore bmPrefix, System.Text.RegularExpressions.RegexPrefix fcPrefix, System.Int32 anchors, System.Boolean rightToLeft)
-    // Offset: 0x1224BC4
+    // Offset: 0x1186E88
     static RegexCode* New_ctor(::Array<int>* codes, System::Collections::Generic::List_1<::Il2CppString*>* stringlist, int trackcount, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, System::Text::RegularExpressions::RegexPrefix* fcPrefix, int anchors, bool rightToLeft);
     // static System.Boolean OpcodeBacktracks(System.Int32 Op)
-    // Offset: 0x1224D08
+    // Offset: 0x1186FCC
     static bool OpcodeBacktracks(int Op);
   }; // System.Text.RegularExpressions.RegexCode
 }

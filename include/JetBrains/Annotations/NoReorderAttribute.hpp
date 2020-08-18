@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class NoReorderAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1958088
+    // Offset: 0x18B43CC
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

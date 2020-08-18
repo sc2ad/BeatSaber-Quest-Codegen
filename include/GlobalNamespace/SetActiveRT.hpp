@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::GetActiveRT* getActiveRT;
     // private System.Void OnPreRender()
-    // Offset: 0xC29B7C
+    // Offset: 0xBA1BB8
     void OnPreRender();
     // public System.Void .ctor()
-    // Offset: 0xC29C0C
+    // Offset: 0xBA1C48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

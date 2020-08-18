@@ -73,16 +73,16 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _addColorID
     static void _set__addColorID(int value);
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0xBA5214
+    // Offset: 0x190E8DC
     UnityEngine::Bounds get_bounds();
     // public System.Void SetSizeAndColor(System.Single width, System.Single height, System.Single length, UnityEngine.Color color)
-    // Offset: 0xBA5228
+    // Offset: 0x190E8F0
     void SetSizeAndColor(float width, float height, float length, UnityEngine::Color color);
     // protected System.Void OnValidate()
-    // Offset: 0xBA56BC
+    // Offset: 0x190ED84
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0xBA5728
+    // Offset: 0x190EDF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StretchableObstacle* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xBA573C
+    // Offset: 0x190EE04
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

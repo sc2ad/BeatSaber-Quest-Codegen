@@ -27,17 +27,17 @@ namespace HMUI {
     // Offset: 0x48
     UnityEngine::UI::Image* highlightImage;
     // protected override System.Void SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x10E5044
+    // Offset: 0x1047308
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x10E50DC
+    // Offset: 0x10473A0
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x10E5118
+    // Offset: 0x10473DC
     // Implemented from: HMUI.TextSegmentedControlCellBase
     // Base method: System.Void TextSegmentedControlCellBase::.ctor()
     // Base method: System.Void SegmentedControlCell::.ctor()

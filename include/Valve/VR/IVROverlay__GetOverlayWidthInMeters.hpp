@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_GetOverlayWidthInMeters : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1606F14
+    // Offset: 0x156824C
     static IVROverlay::_GetOverlayWidthInMeters* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single pfWidthInMeters)
-    // Offset: 0x1606F28
+    // Offset: 0x1568260
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float& pfWidthInMeters);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Single pfWidthInMeters, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16071AC
+    // Offset: 0x15684E4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float& pfWidthInMeters, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.Single pfWidthInMeters, System.IAsyncResult result)
-    // Offset: 0x160725C
+    // Offset: 0x1568594
     Valve::VR::EVROverlayError EndInvoke(float& pfWidthInMeters, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayWidthInMeters
 }

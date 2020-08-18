@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_FadeGrid : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1508350
+    // Offset: 0x1469688
     static IVRCompositor::_FadeGrid* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Single fSeconds, System.Boolean bFadeIn)
-    // Offset: 0x1508364
+    // Offset: 0x146969C
     void Invoke(float fSeconds, bool bFadeIn);
     // public System.IAsyncResult BeginInvoke(System.Single fSeconds, System.Boolean bFadeIn, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15085F0
+    // Offset: 0x1469928
     System::IAsyncResult* BeginInvoke(float fSeconds, bool bFadeIn, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15086A0
+    // Offset: 0x14699D8
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_FadeGrid
 }

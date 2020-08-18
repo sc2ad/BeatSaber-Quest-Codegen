@@ -42,97 +42,97 @@ namespace UnityEngine {
   class Renderer : public UnityEngine::Component {
     public:
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x13829FC
+    // Offset: 0x12E3CC0
     UnityEngine::Bounds get_bounds();
     // private UnityEngine.Material GetMaterial()
-    // Offset: 0x1382AB8
+    // Offset: 0x12E3D7C
     UnityEngine::Material* GetMaterial();
     // private UnityEngine.Material GetSharedMaterial()
-    // Offset: 0x1382AF8
+    // Offset: 0x12E3DBC
     UnityEngine::Material* GetSharedMaterial();
     // private System.Void SetMaterial(UnityEngine.Material m)
-    // Offset: 0x1382B38
+    // Offset: 0x12E3DFC
     void SetMaterial(UnityEngine::Material* m);
     // private System.Void CopySharedMaterialArray(UnityEngine.Material[] m)
-    // Offset: 0x1382B88
+    // Offset: 0x12E3E4C
     void CopySharedMaterialArray(::Array<UnityEngine::Material*>*& m);
     // private System.Void SetMaterialArray(UnityEngine.Material[] m)
-    // Offset: 0x1382BD8
+    // Offset: 0x12E3E9C
     void SetMaterialArray(::Array<UnityEngine::Material*>* m);
     // System.Void Internal_SetPropertyBlock(UnityEngine.MaterialPropertyBlock properties)
-    // Offset: 0x1382C28
+    // Offset: 0x12E3EEC
     void Internal_SetPropertyBlock(UnityEngine::MaterialPropertyBlock* properties);
     // public System.Void SetPropertyBlock(UnityEngine.MaterialPropertyBlock properties)
-    // Offset: 0x1382C78
+    // Offset: 0x12E3F3C
     void SetPropertyBlock(UnityEngine::MaterialPropertyBlock* properties);
     // public System.Boolean get_enabled()
-    // Offset: 0x1382CC8
+    // Offset: 0x12E3F8C
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x1382D08
+    // Offset: 0x12E3FCC
     void set_enabled(bool value);
     // public System.Boolean get_isVisible()
-    // Offset: 0x1382D58
+    // Offset: 0x12E401C
     bool get_isVisible();
     // public System.Void set_shadowCastingMode(UnityEngine.Rendering.ShadowCastingMode value)
-    // Offset: 0x1382D98
+    // Offset: 0x12E405C
     void set_shadowCastingMode(UnityEngine::Rendering::ShadowCastingMode value);
     // public System.Void set_receiveShadows(System.Boolean value)
-    // Offset: 0x1382DE8
+    // Offset: 0x12E40AC
     void set_receiveShadows(bool value);
     // public System.Void set_motionVectorGenerationMode(UnityEngine.MotionVectorGenerationMode value)
-    // Offset: 0x1382E38
+    // Offset: 0x12E40FC
     void set_motionVectorGenerationMode(UnityEngine::MotionVectorGenerationMode value);
     // public System.Void set_lightProbeUsage(UnityEngine.Rendering.LightProbeUsage value)
-    // Offset: 0x1382E88
+    // Offset: 0x12E414C
     void set_lightProbeUsage(UnityEngine::Rendering::LightProbeUsage value);
     // public System.Void set_reflectionProbeUsage(UnityEngine.Rendering.ReflectionProbeUsage value)
-    // Offset: 0x1382ED8
+    // Offset: 0x12E419C
     void set_reflectionProbeUsage(UnityEngine::Rendering::ReflectionProbeUsage value);
     // public System.Int32 get_sortingLayerID()
-    // Offset: 0x1382F28
+    // Offset: 0x12E41EC
     int get_sortingLayerID();
     // public System.Void set_sortingLayerID(System.Int32 value)
-    // Offset: 0x1382F68
+    // Offset: 0x12E422C
     void set_sortingLayerID(int value);
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x1382FB8
+    // Offset: 0x12E427C
     int get_sortingOrder();
     // public System.Void set_sortingOrder(System.Int32 value)
-    // Offset: 0x1382FF8
+    // Offset: 0x12E42BC
     void set_sortingOrder(int value);
     // public System.Void set_allowOcclusionWhenDynamic(System.Boolean value)
-    // Offset: 0x1383048
+    // Offset: 0x12E430C
     void set_allowOcclusionWhenDynamic(bool value);
     // private System.Int32 GetMaterialCount()
-    // Offset: 0x1383098
+    // Offset: 0x12E435C
     int GetMaterialCount();
     // private UnityEngine.Material[] GetSharedMaterialArray()
-    // Offset: 0x13830D8
+    // Offset: 0x12E439C
     ::Array<UnityEngine::Material*>* GetSharedMaterialArray();
     // public UnityEngine.Material get_material()
-    // Offset: 0x1383118
+    // Offset: 0x12E43DC
     UnityEngine::Material* get_material();
     // public System.Void set_material(UnityEngine.Material value)
-    // Offset: 0x1383158
+    // Offset: 0x12E441C
     void set_material(UnityEngine::Material* value);
     // public UnityEngine.Material get_sharedMaterial()
-    // Offset: 0x13831A8
+    // Offset: 0x12E446C
     UnityEngine::Material* get_sharedMaterial();
     // public System.Void set_sharedMaterial(UnityEngine.Material value)
-    // Offset: 0x13831E8
+    // Offset: 0x12E44AC
     void set_sharedMaterial(UnityEngine::Material* value);
     // public UnityEngine.Material[] get_sharedMaterials()
-    // Offset: 0x1383238
+    // Offset: 0x12E44FC
     ::Array<UnityEngine::Material*>* get_sharedMaterials();
     // public System.Void set_sharedMaterials(UnityEngine.Material[] value)
-    // Offset: 0x1383278
+    // Offset: 0x12E453C
     void set_sharedMaterials(::Array<UnityEngine::Material*>* value);
     // public System.Void GetSharedMaterials(System.Collections.Generic.List`1<UnityEngine.Material> m)
-    // Offset: 0x13832C8
+    // Offset: 0x12E458C
     void GetSharedMaterials(System::Collections::Generic::List_1<UnityEngine::Material*>* m);
     // private System.Void get_bounds_Injected(UnityEngine.Bounds ret)
-    // Offset: 0x1382A68
+    // Offset: 0x12E3D2C
     void get_bounds_Injected(UnityEngine::Bounds& ret);
   }; // UnityEngine.Renderer
 }

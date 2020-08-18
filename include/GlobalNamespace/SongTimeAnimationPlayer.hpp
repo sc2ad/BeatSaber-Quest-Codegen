@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::AnimationClip* animationClip;
     // protected System.Void Update()
-    // Offset: 0xB99434
+    // Offset: 0x1902AE0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB994B4
+    // Offset: 0x1902B60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

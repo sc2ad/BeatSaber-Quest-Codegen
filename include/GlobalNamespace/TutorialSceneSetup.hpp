@@ -20,6 +20,8 @@ namespace GlobalNamespace {
   class BeatmapObjectSpawnControllerPlayerHeightSetter;
   // Forward declaring type: PlayerHeightDetector
   class PlayerHeightDetector;
+  // Forward declaring type: EffectPoolsInstaller
+  class EffectPoolsInstaller;
 }
 // Completed forward declares
 // Type namespace: 
@@ -39,13 +41,16 @@ namespace GlobalNamespace {
     // private PlayerHeightDetector _playerHeightDetectorPrefab
     // Offset: 0x38
     GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
+    // private EffectPoolsInstaller _effectPoolsInstaller
+    // Offset: 0x40
+    GlobalNamespace::EffectPoolsInstaller* effectPoolsInstaller;
     // public override System.Void InstallBindings()
-    // Offset: 0xC46EC8
+    // Offset: 0x19644FC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xC4732C
+    // Offset: 0x1964978
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

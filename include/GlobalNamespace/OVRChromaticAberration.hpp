@@ -22,13 +22,13 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     bool chromatic;
     // private System.Void Start()
-    // Offset: 0xCC8228
+    // Offset: 0xC284EC
     void Start();
     // private System.Void Update()
-    // Offset: 0xCC82E8
+    // Offset: 0xC285AC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCC83FC
+    // Offset: 0xC286C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

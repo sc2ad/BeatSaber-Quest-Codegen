@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     int bufferTexID;
     // public UnityEngine.RenderTexture FilterTexture(UnityEngine.RenderTexture src)
-    // Offset: 0x190B3F0
+    // Offset: 0x186973C
     UnityEngine::RenderTexture* FilterTexture(UnityEngine::RenderTexture* src);
     // private System.Void CreateRenderTexturesIfNeeded(System.Int32 width, System.Int32 height)
-    // Offset: 0x190B598
+    // Offset: 0x18698E4
     void CreateRenderTexturesIfNeeded(int width, int height);
     // public System.Void .ctor()
-    // Offset: 0x190B330
+    // Offset: 0x186967C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SimpleTemporalFiltering* New_ctor();

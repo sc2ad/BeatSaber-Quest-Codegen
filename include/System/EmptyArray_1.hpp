@@ -25,7 +25,7 @@ namespace System {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EmptyArray_1<T>*>::get(), "Value", value));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17FC31C
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EmptyArray_1<T>*>::get(), ".cctor"));
     }

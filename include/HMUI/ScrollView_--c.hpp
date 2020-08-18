@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -30,13 +30,13 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Single,System.Single> <>9__21_1
     static void _set_$$9__21_1(System::Func_2<float, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10DD008
+    // Offset: 0x103F2CC
     static void _cctor();
     // System.Single <ComputeScrollFocusPosY>b__21_1(System.Single i)
-    // Offset: 0x10DD078
+    // Offset: 0x103F33C
     float $ComputeScrollFocusPosY$b__21_1(float i);
     // public System.Void .ctor()
-    // Offset: 0x10DD070
+    // Offset: 0x103F334
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScrollView::$$c* New_ctor();

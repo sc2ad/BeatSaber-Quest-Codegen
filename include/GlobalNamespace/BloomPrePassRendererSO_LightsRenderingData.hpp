@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<UnityEngine::Vector4>* viewPos;
     // public System.Void .ctor()
-    // Offset: 0x181E9AC
+    // Offset: 0x177CCE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BloomPrePassRendererSO::LightsRenderingData* New_ctor();

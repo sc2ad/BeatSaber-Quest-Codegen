@@ -24,22 +24,22 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Action* event;
     // private System.Void add__event(System.Action value)
-    // Offset: 0xCB96B4
+    // Offset: 0xC19978
     void add__event(System::Action* value);
     // private System.Void remove__event(System.Action value)
-    // Offset: 0xCB9758
+    // Offset: 0xC19A1C
     void remove__event(System::Action* value);
     // public System.Void Raise()
-    // Offset: 0xCB97FC
+    // Offset: 0xC19AC0
     void Raise();
     // public System.Void Subscribe(System.Action foo)
-    // Offset: 0xCB9810
+    // Offset: 0xC19AD4
     void Subscribe(System::Action* foo);
     // public System.Void Unsubscribe(System.Action foo)
-    // Offset: 0xCB983C
+    // Offset: 0xC19B00
     void Unsubscribe(System::Action* foo);
     // public System.Void .ctor()
-    // Offset: 0xCB9840
+    // Offset: 0xC19B04
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

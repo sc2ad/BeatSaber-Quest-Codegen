@@ -50,46 +50,46 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::DiContainer* Container;
     // public System.Void .ctor(Zenject.DiContainer container, System.Guid poolId)
-    // Offset: 0x15E60A4
+    // Offset: 0xFFFFFFFF
     static PoolableMemoryPoolProviderBase_1<TContract>* New_ctor(Zenject::DiContainer* container, System::Guid poolId) {
       return (PoolableMemoryPoolProviderBase_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolableMemoryPoolProviderBase_1<TContract>*>::get(), container, poolId));
     }
     // protected System.Guid get_PoolId()
-    // Offset: 0x15E6130
+    // Offset: 0xFFFFFFFF
     System::Guid get_PoolId() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Guid>(this, "get_PoolId"));
     }
     // private System.Void set_PoolId(System.Guid value)
-    // Offset: 0x15E613C
+    // Offset: 0xFFFFFFFF
     void set_PoolId(System::Guid value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_PoolId", value));
     }
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x15E6144
+    // Offset: 0xFFFFFFFF
     Zenject::DiContainer* get_Container() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::DiContainer*>(this, "get_Container"));
     }
     // private System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0x15E614C
+    // Offset: 0xFFFFFFFF
     void set_Container(Zenject::DiContainer* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Container", value));
     }
     // public System.Boolean get_IsCached()
-    // Offset: 0x15E6128
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_IsCached"));
     }
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x15E6154
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_TypeVariesBasedOnMemberType"));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x15E615C
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context) {

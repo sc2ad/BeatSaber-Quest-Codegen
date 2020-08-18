@@ -18,7 +18,7 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x18
     ::Il2CppString* message;
     // public System.Void .ctor(System.String cat, System.String msg)
-    // Offset: 0xEBE2C0
+    // Offset: 0xE1E584
     static Record* New_ctor(::Il2CppString* cat, ::Il2CppString* msg);
   }; // Assets.OVR.Scripts.Record
 }

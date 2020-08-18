@@ -24,10 +24,10 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::Type* StateMachineType;
     // private System.Void set_StateMachineType(System.Type value)
-    // Offset: 0x1161AF8
+    // Offset: 0x10C4DBC
     void set_StateMachineType(System::Type* value);
     // public System.Void .ctor(System.Type stateMachineType)
-    // Offset: 0x1160D40
+    // Offset: 0x10C4004
     static StateMachineAttribute* New_ctor(System::Type* stateMachineType);
   }; // System.Runtime.CompilerServices.StateMachineAttribute
 }

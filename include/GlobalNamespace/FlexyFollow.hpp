@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::Transform* transform;
     // protected System.Void Start()
-    // Offset: 0xCAEB10
+    // Offset: 0xC0EDD4
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0xCAEC88
+    // Offset: 0xC0EF4C
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xCAEE1C
+    // Offset: 0xC0F0E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

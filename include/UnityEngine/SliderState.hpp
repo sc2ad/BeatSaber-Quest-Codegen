@@ -21,7 +21,7 @@ namespace UnityEngine {
     // Offset: 0x18
     bool isDragging;
     // public System.Void .ctor()
-    // Offset: 0x1273E5C
+    // Offset: 0x11D6120
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SliderState* New_ctor();

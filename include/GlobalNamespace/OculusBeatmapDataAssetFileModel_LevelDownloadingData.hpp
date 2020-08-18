@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS;
     // public System.Void .ctor(System.String levelId, System.String assetBundlePath)
-    // Offset: 0xC3334C
+    // Offset: 0xBAA388
     static OculusBeatmapDataAssetFileModel::LevelDownloadingData* New_ctor(::Il2CppString* levelId, ::Il2CppString* assetBundlePath);
   }; // OculusBeatmapDataAssetFileModel/LevelDownloadingData
 }

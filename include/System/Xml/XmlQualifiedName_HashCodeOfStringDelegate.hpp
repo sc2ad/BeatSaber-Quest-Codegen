@@ -26,16 +26,16 @@ namespace System::Xml {
   class XmlQualifiedName::HashCodeOfStringDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11A3428
+    // Offset: 0x11066EC
     static XmlQualifiedName::HashCodeOfStringDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x11A2D68
+    // Offset: 0x110602C
     int Invoke(::Il2CppString* s, int sLen, int64_t additionalEntropy);
     // public System.IAsyncResult BeginInvoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11A34F0
+    // Offset: 0x11067B4
     System::IAsyncResult* BeginInvoke(::Il2CppString* s, int sLen, int64_t additionalEntropy, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11A35A8
+    // Offset: 0x110686C
     int EndInvoke(System::IAsyncResult* result);
   }; // System.Xml.XmlQualifiedName/HashCodeOfStringDelegate
 }

@@ -29,7 +29,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Offset: 0x18
     System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
     // public System.Void .ctor()
-    // Offset: 0x105AC10
+    // Offset: 0xFBCED4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DynamicPropertyCollection::DynamicPropertyReg* New_ctor();

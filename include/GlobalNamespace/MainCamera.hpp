@@ -31,31 +31,31 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Transform* transform;
     // public UnityEngine.Camera get_camera()
-    // Offset: 0xBF9CA4
+    // Offset: 0x19427B8
     UnityEngine::Camera* get_camera();
     // public System.Void set_enableCamera(System.Boolean value)
-    // Offset: 0xBF9CAC
+    // Offset: 0x19427C0
     void set_enableCamera(bool value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0xBF9CE0
+    // Offset: 0x19427F4
     UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0xBF9CFC
+    // Offset: 0x1942810
     UnityEngine::Quaternion get_rotation();
     // protected System.Void Awake()
-    // Offset: 0xBF9D18
+    // Offset: 0x194282C
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xBF9D94
+    // Offset: 0x19428A8
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0xBF9D98
+    // Offset: 0x19428AC
     void Update();
     // protected System.Void OnDisable()
-    // Offset: 0xBF9D9C
+    // Offset: 0x19428B0
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xBF9DA0
+    // Offset: 0x19428B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

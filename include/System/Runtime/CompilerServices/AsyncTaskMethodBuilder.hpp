@@ -50,20 +50,20 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: AsyncTaskMethodBuilder
     AsyncTaskMethodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> m_builder_ = {}) : m_builder{m_builder_} {}
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Create()
-    // Offset: 0x1160F48
+    // Offset: 0x10C420C
     static System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
     // public System.Void Start(TStateMachine stateMachine)
-    // Offset: 0xA3D72C
+    // Offset: 0xFFFFFFFF
     template<class TStateMachine>
     void Start(TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::IAsyncStateMachine, std::remove_pointer_t<TStateMachine>>);
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(*this, "Start", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xA3E6C8
+    // Offset: 0x9A7B94
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitUnsafeOnCompleted(TAwaiter awaiter, TStateMachine stateMachine)
-    // Offset: 0xA3D6BC
+    // Offset: 0xFFFFFFFF
     template<class TAwaiter, class TStateMachine>
     void AwaitUnsafeOnCompleted(TAwaiter& awaiter, TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::ICriticalNotifyCompletion, std::remove_pointer_t<TAwaiter>>);
@@ -71,16 +71,16 @@ namespace System::Runtime::CompilerServices {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod(*this, "AwaitUnsafeOnCompleted", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, awaiter, stateMachine)));
     }
     // public System.Threading.Tasks.Task get_Task()
-    // Offset: 0xA3E6D0
+    // Offset: 0x9A7B9C
     System::Threading::Tasks::Task* get_Task();
     // public System.Void SetResult()
-    // Offset: 0xA3E6D8
+    // Offset: 0x9A7BA4
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0xA3E6E0
+    // Offset: 0x9A7BAC
     void SetException(System::Exception* exception);
     // static private System.Void .cctor()
-    // Offset: 0x11610E0
+    // Offset: 0x10C43A4
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
 }

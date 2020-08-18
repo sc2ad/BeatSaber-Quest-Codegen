@@ -16,11 +16,11 @@ namespace Zenject {
 namespace System {
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -65,22 +65,22 @@ namespace Zenject {
     // Set static field: static private System.Func`2<Zenject.InjectTypeInfo/InjectMethodInfo,System.Collections.Generic.IEnumerable`1<Zenject.InjectableInfo>> CS$<>9__CachedAnonymousMethodDelegate3
     static void _set_CS$$$9__CachedAnonymousMethodDelegate3(System::Func_2<Zenject::InjectTypeInfo::InjectMethodInfo*, System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>*>* value);
     // public System.Void .ctor(System.Type type, Zenject.InjectTypeInfo/InjectConstructorInfo injectConstructor, Zenject.InjectTypeInfo/InjectMethodInfo[] injectMethods, Zenject.InjectTypeInfo/InjectMemberInfo[] injectMembers)
-    // Offset: 0x1958594
+    // Offset: 0x18B48D8
     static InjectTypeInfo* New_ctor(System::Type* type, Zenject::InjectTypeInfo::InjectConstructorInfo* injectConstructor, ::Array<Zenject::InjectTypeInfo::InjectMethodInfo*>* injectMethods, ::Array<Zenject::InjectTypeInfo::InjectMemberInfo*>* injectMembers);
     // public Zenject.InjectTypeInfo get_BaseTypeInfo()
-    // Offset: 0x1958614
+    // Offset: 0x18B4958
     Zenject::InjectTypeInfo* get_BaseTypeInfo();
     // public System.Void set_BaseTypeInfo(Zenject.InjectTypeInfo value)
-    // Offset: 0x195861C
+    // Offset: 0x18B4960
     void set_BaseTypeInfo(Zenject::InjectTypeInfo* value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.InjectableInfo> get_AllInjectables()
-    // Offset: 0x1958624
+    // Offset: 0x18B4968
     System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* get_AllInjectables();
     // static private Zenject.InjectableInfo <get_AllInjectables>b__0(Zenject.InjectTypeInfo/InjectMemberInfo x)
-    // Offset: 0x19587B4
+    // Offset: 0x18B4AF8
     static Zenject::InjectableInfo* $get_AllInjectables$b__0(Zenject::InjectTypeInfo::InjectMemberInfo* x);
     // static private System.Collections.Generic.IEnumerable`1<Zenject.InjectableInfo> <get_AllInjectables>b__1(Zenject.InjectTypeInfo/InjectMethodInfo x)
-    // Offset: 0x19587CC
+    // Offset: 0x18B4B10
     static System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* $get_AllInjectables$b__1(Zenject::InjectTypeInfo::InjectMethodInfo* x);
   }; // Zenject.InjectTypeInfo
 }

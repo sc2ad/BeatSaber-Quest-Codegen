@@ -25,43 +25,43 @@ namespace System::Security::Cryptography {
     // Offset: 0x18
     ::Array<uint8_t>* raw;
     // public System.Void set_Oid(System.Security.Cryptography.Oid value)
-    // Offset: 0x1213C34
+    // Offset: 0x1175EF8
     void set_Oid(System::Security::Cryptography::Oid* value);
     // public System.Byte[] get_RawData()
-    // Offset: 0x1213D7C
+    // Offset: 0x1176040
     ::Array<uint8_t>* get_RawData();
     // public System.Void set_RawData(System.Byte[] value)
-    // Offset: 0x1213D84
+    // Offset: 0x1176048
     void set_RawData(::Array<uint8_t>* value);
     // public System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1213E58
+    // Offset: 0x117611C
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1213F28
+    // Offset: 0x11761EC
     ::Il2CppString* ToString(bool multiLine);
     // System.String Default(System.Boolean multiLine)
-    // Offset: 0x1214BE8
+    // Offset: 0x1176EAC
     ::Il2CppString* Default(bool multiLine);
     // System.String BasicConstraintsExtension(System.Boolean multiLine)
-    // Offset: 0x12140C4
+    // Offset: 0x1176388
     ::Il2CppString* BasicConstraintsExtension(bool multiLine);
     // System.String EnhancedKeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x12141D8
+    // Offset: 0x117649C
     ::Il2CppString* EnhancedKeyUsageExtension(bool multiLine);
     // System.String KeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x12142EC
+    // Offset: 0x11765B0
     ::Il2CppString* KeyUsageExtension(bool multiLine);
     // System.String SubjectKeyIdentifierExtension(System.Boolean multiLine)
-    // Offset: 0x1214400
+    // Offset: 0x11766C4
     ::Il2CppString* SubjectKeyIdentifierExtension(bool multiLine);
     // System.String SubjectAltName(System.Boolean multiLine)
-    // Offset: 0x1214514
+    // Offset: 0x11767D8
     ::Il2CppString* SubjectAltName(bool multiLine);
     // System.String NetscapeCertType(System.Boolean multiLine)
-    // Offset: 0x1214890
+    // Offset: 0x1176B54
     ::Il2CppString* NetscapeCertType(bool multiLine);
     // protected System.Void .ctor()
-    // Offset: 0x1213C2C
+    // Offset: 0x1175EF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsnEncodedData* New_ctor();

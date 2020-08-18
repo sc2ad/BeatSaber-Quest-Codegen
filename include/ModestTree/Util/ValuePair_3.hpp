@@ -24,31 +24,31 @@ namespace ModestTree::Util {
     // Offset: 0x0
     T3 Third;
     // public System.Void .ctor(T1 first, T2 second, T3 third)
-    // Offset: 0x12920F4
+    // Offset: 0xFFFFFFFF
     static ValuePair_3<T1, T2, T3>* New_ctor(T1 first, T2 second, T3 third) {
       return (ValuePair_3<T1, T2, T3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ValuePair_3<T1, T2, T3>*>::get(), first, second, third)));
     }
     // public System.Boolean Equals(ModestTree.Util.ValuePair`3<T1,T2,T3> that)
-    // Offset: 0x12921E8
+    // Offset: 0xFFFFFFFF
     bool Equals(ModestTree::Util::ValuePair_3<T1, T2, T3>* that) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", that));
     }
     // public System.Void .ctor()
-    // Offset: 0x12920C0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ValuePair_3<T1, T2, T3>* New_ctor() {
       return (ValuePair_3<T1, T2, T3>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ValuePair_3<T1, T2, T3>*>::get())));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1292160
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", obj));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1292250
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {

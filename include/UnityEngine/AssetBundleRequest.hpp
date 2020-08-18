@@ -21,10 +21,10 @@ namespace UnityEngine {
   class AssetBundleRequest : public UnityEngine::AsyncOperation {
     public:
     // public UnityEngine.Object get_asset()
-    // Offset: 0x1975D18
+    // Offset: 0x18D105C
     UnityEngine::Object* get_asset();
     // public System.Void .ctor()
-    // Offset: 0x1975D58
+    // Offset: 0x18D109C
     // Implemented from: UnityEngine.AsyncOperation
     // Base method: System.Void AsyncOperation::.ctor()
     // Base method: System.Void YieldInstruction::.ctor()

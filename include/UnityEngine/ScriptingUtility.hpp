@@ -19,7 +19,7 @@ namespace UnityEngine {
     // Nested type: UnityEngine::ScriptingUtility::TestClass
     struct TestClass;
     // static private System.Boolean IsManagedCodeWorking()
-    // Offset: 0x1389650
+    // Offset: 0x12EA914
     static bool IsManagedCodeWorking();
   }; // UnityEngine.ScriptingUtility
 }

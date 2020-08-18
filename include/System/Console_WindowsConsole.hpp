@@ -29,22 +29,22 @@ namespace System {
     // Set static field: static private System.Console/WindowsConsole/WindowsCancelHandler cancelHandler
     static void _set_cancelHandler(System::Console::WindowsConsole::WindowsCancelHandler* value);
     // static private System.Int32 GetConsoleCP()
-    // Offset: 0x10BF83C
+    // Offset: 0x1021B00
     static int GetConsoleCP();
     // static private System.Int32 GetConsoleOutputCP()
-    // Offset: 0x10BF8B0
+    // Offset: 0x1021B74
     static int GetConsoleOutputCP();
     // static private System.Boolean DoWindowsConsoleCancelEvent(System.Int32 keyCode)
-    // Offset: 0x10BF928
+    // Offset: 0x1021BEC
     static bool DoWindowsConsoleCancelEvent(int keyCode);
     // static public System.Int32 GetInputCodePage()
-    // Offset: 0x10BE1DC
+    // Offset: 0x10204A0
     static int GetInputCodePage();
     // static public System.Int32 GetOutputCodePage()
-    // Offset: 0x10BE238
+    // Offset: 0x10204FC
     static int GetOutputCodePage();
     // static private System.Void .cctor()
-    // Offset: 0x10BF998
+    // Offset: 0x1021C5C
     static void _cctor();
   }; // System.Console/WindowsConsole
 }

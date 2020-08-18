@@ -43,19 +43,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::UI::Image* separatorImage;
     // public System.Void set_modifierName(System.String value)
-    // Offset: 0xB3C364
+    // Offset: 0xB3F030
     void set_modifierName(::Il2CppString* value);
     // public System.Void set_modifierDescription(System.String value)
-    // Offset: 0xB3C380
+    // Offset: 0xB3F04C
     void set_modifierDescription(::Il2CppString* value);
     // public System.Void set_modifierIcon(UnityEngine.Sprite value)
-    // Offset: 0xB3C39C
+    // Offset: 0xB3F068
     void set_modifierIcon(UnityEngine::Sprite* value);
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0xB3C3B8
+    // Offset: 0xB3F084
     void set_showSeparator(bool value);
     // public System.Void .ctor()
-    // Offset: 0xB3C3D8
+    // Offset: 0xB3F0A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

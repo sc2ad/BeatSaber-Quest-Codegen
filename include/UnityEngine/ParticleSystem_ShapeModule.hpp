@@ -27,19 +27,19 @@ namespace UnityEngine {
     // Creating value type constructor for type: ShapeModule
     ShapeModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) : m_ParticleSystem{m_ParticleSystem_} {}
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xA5C294
+    // Offset: 0x9C6760
     static ParticleSystem::ShapeModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0xA5C29C
+    // Offset: 0x9C6768
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_rotation(UnityEngine.Vector3 value)
-    // Offset: 0xA5C2A4
+    // Offset: 0x9C6770
     void set_rotation(UnityEngine::Vector3 value);
     // static private System.Void set_position_Injected(UnityEngine.ParticleSystem/ShapeModule _unity_self, UnityEngine.Vector3 value)
-    // Offset: 0x1966058
+    // Offset: 0x18C239C
     static void set_position_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
     // static private System.Void set_rotation_Injected(UnityEngine.ParticleSystem/ShapeModule _unity_self, UnityEngine.Vector3 value)
-    // Offset: 0x1966100
+    // Offset: 0x18C2444
     static void set_rotation_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
   }; // UnityEngine.ParticleSystem/ShapeModule
 }

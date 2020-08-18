@@ -28,23 +28,23 @@ namespace System::Xml {
     // Set static field: static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate hashCodeDelegate
     static void _set_hashCodeDelegate(System::Xml::SecureStringHasher::HashCodeOfStringDelegate* value);
     // static private System.Int32 GetHashCodeOfString(System.String key, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x119AF40
+    // Offset: 0x10FE204
     static int GetHashCodeOfString(::Il2CppString* key, int sLen, int64_t additionalEntropy);
     // static private System.Xml.SecureStringHasher/HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x119A9A0
+    // Offset: 0x10FDC64
     static System::Xml::SecureStringHasher::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // public System.Void .ctor()
-    // Offset: 0x119A8B4
+    // Offset: 0x10FDB78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SecureStringHasher* New_ctor();
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x119A8E4
+    // Offset: 0x10FDBA8
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
     // Base method: System.Boolean IEqualityComparer`1::Equals(System.String x, System.String y)
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x119A8FC
+    // Offset: 0x10FDBC0
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
     // Base method: System.Int32 IEqualityComparer`1::GetHashCode(System.String key)
     int GetHashCode(::Il2CppString* key);

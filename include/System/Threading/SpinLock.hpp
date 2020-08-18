@@ -29,37 +29,37 @@ namespace System::Threading {
     // Creating value type constructor for type: SpinLock
     SpinLock(int m_owner_ = {}) : m_owner{m_owner_} {}
     // public System.Void .ctor(System.Boolean enableThreadOwnerTracking)
-    // Offset: 0xA291A0
+    // Offset: 0x99366C
     static SpinLock* New_ctor(bool enableThreadOwnerTracking);
     // public System.Void Enter(System.Boolean lockTaken)
-    // Offset: 0xA291AC
+    // Offset: 0x993678
     void Enter(bool& lockTaken);
     // public System.Void TryEnter(System.Int32 millisecondsTimeout, System.Boolean lockTaken)
-    // Offset: 0xA291B4
+    // Offset: 0x993680
     void TryEnter(int millisecondsTimeout, bool& lockTaken);
     // private System.Void ContinueTryEnter(System.Int32 millisecondsTimeout, System.Boolean lockTaken)
-    // Offset: 0xA291BC
+    // Offset: 0x993688
     void ContinueTryEnter(int millisecondsTimeout, bool& lockTaken);
     // private System.Void DecrementWaiters()
-    // Offset: 0xA291C4
+    // Offset: 0x993690
     void DecrementWaiters();
     // private System.Void ContinueTryEnterWithThreadTracking(System.Int32 millisecondsTimeout, System.UInt32 startTime, System.Boolean lockTaken)
-    // Offset: 0xA291CC
+    // Offset: 0x993698
     void ContinueTryEnterWithThreadTracking(int millisecondsTimeout, uint startTime, bool& lockTaken);
     // public System.Void Exit(System.Boolean useMemoryBarrier)
-    // Offset: 0xA291D4
+    // Offset: 0x9936A0
     void Exit(bool useMemoryBarrier);
     // private System.Void ExitSlowPath(System.Boolean useMemoryBarrier)
-    // Offset: 0xA291E0
+    // Offset: 0x9936AC
     void ExitSlowPath(bool useMemoryBarrier);
     // public System.Boolean get_IsHeldByCurrentThread()
-    // Offset: 0xA291EC
+    // Offset: 0x9936B8
     bool get_IsHeldByCurrentThread();
     // public System.Boolean get_IsThreadOwnerTrackingEnabled()
-    // Offset: 0xA291F4
+    // Offset: 0x9936C0
     bool get_IsThreadOwnerTrackingEnabled();
     // static private System.Void .cctor()
-    // Offset: 0xCDA14C
+    // Offset: 0xC3A410
     static void _cctor();
   }; // System.Threading.SpinLock
 }

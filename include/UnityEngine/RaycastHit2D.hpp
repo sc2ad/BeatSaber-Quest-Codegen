@@ -43,19 +43,19 @@ namespace UnityEngine {
     // Creating value type constructor for type: RaycastHit2D
     RaycastHit2D(UnityEngine::Vector2 m_Centroid_ = {}, UnityEngine::Vector2 m_Point_ = {}, UnityEngine::Vector2 m_Normal_ = {}, float m_Distance_ = {}, float m_Fraction_ = {}, int m_Collider_ = {}) : m_Centroid{m_Centroid_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_Distance{m_Distance_}, m_Fraction{m_Fraction_}, m_Collider{m_Collider_} {}
     // public UnityEngine.Vector2 get_point()
-    // Offset: 0xA5C8DC
+    // Offset: 0x9C6DA8
     UnityEngine::Vector2 get_point();
     // public UnityEngine.Vector2 get_normal()
-    // Offset: 0xA5C8E4
+    // Offset: 0x9C6DB0
     UnityEngine::Vector2 get_normal();
     // public System.Single get_distance()
-    // Offset: 0xA5C8EC
+    // Offset: 0x9C6DB8
     float get_distance();
     // public System.Single get_fraction()
-    // Offset: 0xA5C8F4
+    // Offset: 0x9C6DC0
     float get_fraction();
     // public UnityEngine.Collider2D get_collider()
-    // Offset: 0xA5C8FC
+    // Offset: 0x9C6DC8
     UnityEngine::Collider2D* get_collider();
   }; // UnityEngine.RaycastHit2D
 }

@@ -36,8 +36,8 @@ namespace Zenject {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -76,12 +76,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Type* installerType;
       // Zenject.IProvider <ByInstaller>b__0(Zenject.DiContainer container)
-      // Offset: 0x13B0C30
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $ByInstaller$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<ByInstaller>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x13B0C18
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactorySubContainerBinderBase_1<TContract>::$$c__DisplayClass23_0* New_ctor() {
@@ -102,12 +102,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Type* installerType;
       // Zenject.IProvider <ByNewGameObjectInstaller>b__0(Zenject.DiContainer container)
-      // Offset: 0x13B0D78
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $ByNewGameObjectInstaller$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<ByNewGameObjectInstaller>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x13B0D60
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactorySubContainerBinderBase_1<TContract>::$$c__DisplayClass25_0* New_ctor() {
@@ -131,12 +131,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Type* installerType;
       // Zenject.IProvider <ByNewPrefabInstaller>b__0(Zenject.DiContainer container)
-      // Offset: 0x13B0EC0
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $ByNewPrefabInstaller$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<ByNewPrefabInstaller>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x13B0EA8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactorySubContainerBinderBase_1<TContract>::$$c__DisplayClass27_0* New_ctor() {
@@ -160,12 +160,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Type* installerType;
       // Zenject.IProvider <ByNewPrefabResourceInstaller>b__0(Zenject.DiContainer container)
-      // Offset: 0x13B1030
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $ByNewPrefabResourceInstaller$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<ByNewPrefabResourceInstaller>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x13B1018
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactorySubContainerBinderBase_1<TContract>::$$c__DisplayClass29_0* New_ctor() {
@@ -185,110 +185,110 @@ namespace Zenject {
     // Offset: 0x0
     ::Il2CppObject* SubIdentifier;
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, System.Object subIdentifier)
-    // Offset: 0x13B1188
+    // Offset: 0xFFFFFFFF
     static FactorySubContainerBinderBase_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, ::Il2CppObject* subIdentifier) {
       return (FactorySubContainerBinderBase_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactorySubContainerBinderBase_1<TContract>*>::get(), bindContainer, bindInfo, factoryBindInfo, subIdentifier));
     }
     // protected Zenject.DiContainer get_BindContainer()
-    // Offset: 0x13B1258
+    // Offset: 0xFFFFFFFF
     Zenject::DiContainer* get_BindContainer() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::DiContainer*>(this, "get_BindContainer"));
     }
     // private System.Void set_BindContainer(Zenject.DiContainer value)
-    // Offset: 0x13B1260
+    // Offset: 0xFFFFFFFF
     void set_BindContainer(Zenject::DiContainer* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_BindContainer", value));
     }
     // protected Zenject.FactoryBindInfo get_FactoryBindInfo()
-    // Offset: 0x13B1268
+    // Offset: 0xFFFFFFFF
     Zenject::FactoryBindInfo* get_FactoryBindInfo() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::FactoryBindInfo*>(this, "get_FactoryBindInfo"));
     }
     // private System.Void set_FactoryBindInfo(Zenject.FactoryBindInfo value)
-    // Offset: 0x13B1270
+    // Offset: 0xFFFFFFFF
     void set_FactoryBindInfo(Zenject::FactoryBindInfo* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_FactoryBindInfo", value));
     }
     // protected System.Func`2<Zenject.DiContainer,Zenject.IProvider> get_ProviderFunc()
-    // Offset: 0x13B1278
+    // Offset: 0xFFFFFFFF
     System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* get_ProviderFunc() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*>(this, "get_ProviderFunc")));
     }
     // protected System.Void set_ProviderFunc(System.Func`2<Zenject.DiContainer,Zenject.IProvider> value)
-    // Offset: 0x13B12AC
+    // Offset: 0xFFFFFFFF
     void set_ProviderFunc(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_ProviderFunc", value));
     }
     // protected Zenject.BindInfo get_BindInfo()
-    // Offset: 0x13B12F0
+    // Offset: 0xFFFFFFFF
     Zenject::BindInfo* get_BindInfo() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::BindInfo*>(this, "get_BindInfo"));
     }
     // private System.Void set_BindInfo(Zenject.BindInfo value)
-    // Offset: 0x13B12F8
+    // Offset: 0xFFFFFFFF
     void set_BindInfo(Zenject::BindInfo* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_BindInfo", value));
     }
     // protected System.Object get_SubIdentifier()
-    // Offset: 0x13B1300
+    // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_SubIdentifier() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "get_SubIdentifier"));
     }
     // private System.Void set_SubIdentifier(System.Object value)
-    // Offset: 0x13B1308
+    // Offset: 0xFFFFFFFF
     void set_SubIdentifier(::Il2CppObject* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_SubIdentifier", value));
     }
     // protected System.Type get_ContractType()
-    // Offset: 0x13B1310
+    // Offset: 0xFFFFFFFF
     System::Type* get_ContractType() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Type*>(this, "get_ContractType"));
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder ByInstaller()
-    // Offset: 0x13EB91C
+    // Offset: 0xFFFFFFFF
     template<class TInstaller>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller() {
       static_assert(std::is_convertible_v<TInstaller, Zenject::InstallerBase*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByInstaller", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()})));
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder ByInstaller(System.Type installerType)
-    // Offset: 0x13B1384
+    // Offset: 0xFFFFFFFF
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller(System::Type* installerType) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByInstaller", installerType));
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewGameObjectInstaller()
-    // Offset: 0x13EB3D0
+    // Offset: 0xFFFFFFFF
     template<class TInstaller>
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller() {
       static_assert(std::is_convertible_v<TInstaller, Zenject::InstallerBase*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByNewGameObjectInstaller", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()})));
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewGameObjectInstaller(System.Type installerType)
-    // Offset: 0x13B155C
+    // Offset: 0xFFFFFFFF
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller(System::Type* installerType) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByNewGameObjectInstaller", installerType));
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabInstaller(UnityEngine.Object prefab)
-    // Offset: 0x13EB470
+    // Offset: 0xFFFFFFFF
     template<class TInstaller>
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabInstaller(UnityEngine::Object* prefab) {
       static_assert(std::is_convertible_v<TInstaller, Zenject::InstallerBase*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByNewPrefabInstaller", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, prefab)));
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabInstaller(UnityEngine.Object prefab, System.Type installerType)
-    // Offset: 0x13B1740
+    // Offset: 0xFFFFFFFF
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabInstaller(UnityEngine::Object* prefab, System::Type* installerType) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByNewPrefabInstaller", prefab, installerType));
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResourceInstaller(System.String resourcePath)
-    // Offset: 0x13EB518
+    // Offset: 0xFFFFFFFF
     template<class TInstaller>
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceInstaller(::Il2CppString* resourcePath) {
       static_assert(std::is_convertible_v<TInstaller, Zenject::InstallerBase*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByNewPrefabResourceInstaller", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, resourcePath)));
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResourceInstaller(System.String resourcePath, System.Type installerType)
-    // Offset: 0x13B1938
+    // Offset: 0xFFFFFFFF
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceInstaller(::Il2CppString* resourcePath, System::Type* installerType) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByNewPrefabResourceInstaller", resourcePath, installerType));
     }

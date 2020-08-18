@@ -34,13 +34,13 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x20
     System::Collections::Hashtable* properties;
     // public System.Void .ctor(System.String name)
-    // Offset: 0x10541F0
+    // Offset: 0xFB64B4
     static SinkProviderData* New_ctor(::Il2CppString* name);
     // public System.Collections.IList get_Children()
-    // Offset: 0x10542AC
+    // Offset: 0xFB6570
     System::Collections::IList* get_Children();
     // public System.Collections.IDictionary get_Properties()
-    // Offset: 0x10542B4
+    // Offset: 0xFB6578
     System::Collections::IDictionary* get_Properties();
   }; // System.Runtime.Remoting.Channels.SinkProviderData
 }

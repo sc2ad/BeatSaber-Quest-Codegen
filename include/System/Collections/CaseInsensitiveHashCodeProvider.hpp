@@ -26,18 +26,18 @@ namespace System::Collections {
     // Offset: 0x10
     System::Globalization::TextInfo* m_text;
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
-    // Offset: 0x133244C
+    // Offset: 0x1293710
     static CaseInsensitiveHashCodeProvider* New_ctor(System::Globalization::CultureInfo* culture);
     // static public System.Collections.CaseInsensitiveHashCodeProvider get_Default()
-    // Offset: 0x1332500
+    // Offset: 0x12937C4
     static System::Collections::CaseInsensitiveHashCodeProvider* get_Default();
     // public System.Void .ctor()
-    // Offset: 0x13323B8
+    // Offset: 0x129367C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CaseInsensitiveHashCodeProvider* New_ctor();
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x133258C
+    // Offset: 0x1293850
     // Implemented from: System.Collections.IHashCodeProvider
     // Base method: System.Int32 IHashCodeProvider::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);

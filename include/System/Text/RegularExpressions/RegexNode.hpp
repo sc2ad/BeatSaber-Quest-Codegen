@@ -46,64 +46,64 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x38
     System::Text::RegularExpressions::RegexNode* next;
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options)
-    // Offset: 0x12285AC
+    // Offset: 0x118A870
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options);
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Char ch)
-    // Offset: 0x12285E8
+    // Offset: 0x118A8AC
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::Il2CppChar ch);
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.String str)
-    // Offset: 0x122862C
+    // Offset: 0x118A8F0
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::Il2CppString* str);
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m)
-    // Offset: 0x1228678
+    // Offset: 0x118A93C
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, int m);
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m, System.Int32 n)
-    // Offset: 0x12286BC
+    // Offset: 0x118A980
     static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, int m, int n);
     // System.Boolean UseOptionR()
-    // Offset: 0x122870C
+    // Offset: 0x118A9D0
     bool UseOptionR();
     // System.Text.RegularExpressions.RegexNode ReverseLeft()
-    // Offset: 0x1228718
+    // Offset: 0x118A9DC
     System::Text::RegularExpressions::RegexNode* ReverseLeft();
     // System.Void MakeRep(System.Int32 type, System.Int32 min, System.Int32 max)
-    // Offset: 0x1228790
+    // Offset: 0x118AA54
     void MakeRep(int type, int min, int max);
     // System.Text.RegularExpressions.RegexNode Reduce()
-    // Offset: 0x12287A8
+    // Offset: 0x118AA6C
     System::Text::RegularExpressions::RegexNode* Reduce();
     // System.Text.RegularExpressions.RegexNode StripEnation(System.Int32 emptyType)
-    // Offset: 0x1229264
+    // Offset: 0x118B528
     System::Text::RegularExpressions::RegexNode* StripEnation(int emptyType);
     // System.Text.RegularExpressions.RegexNode ReduceGroup()
-    // Offset: 0x12290A8
+    // Offset: 0x118B36C
     System::Text::RegularExpressions::RegexNode* ReduceGroup();
     // System.Text.RegularExpressions.RegexNode ReduceRep()
-    // Offset: 0x1228F14
+    // Offset: 0x118B1D8
     System::Text::RegularExpressions::RegexNode* ReduceRep();
     // System.Text.RegularExpressions.RegexNode ReduceSet()
-    // Offset: 0x12290D8
+    // Offset: 0x118B39C
     System::Text::RegularExpressions::RegexNode* ReduceSet();
     // System.Text.RegularExpressions.RegexNode ReduceAlternation()
-    // Offset: 0x12287F4
+    // Offset: 0x118AAB8
     System::Text::RegularExpressions::RegexNode* ReduceAlternation();
     // System.Text.RegularExpressions.RegexNode ReduceConcatenation()
-    // Offset: 0x1228BA0
+    // Offset: 0x118AE64
     System::Text::RegularExpressions::RegexNode* ReduceConcatenation();
     // System.Text.RegularExpressions.RegexNode MakeQuantifier(System.Boolean lazy, System.Int32 min, System.Int32 max)
-    // Offset: 0x1229330
+    // Offset: 0x118B5F4
     System::Text::RegularExpressions::RegexNode* MakeQuantifier(bool lazy, int min, int max);
     // System.Void AddChild(System.Text.RegularExpressions.RegexNode newChild)
-    // Offset: 0x1229458
+    // Offset: 0x118B71C
     void AddChild(System::Text::RegularExpressions::RegexNode* newChild);
     // System.Text.RegularExpressions.RegexNode Child(System.Int32 i)
-    // Offset: 0x1225620
+    // Offset: 0x11878E4
     System::Text::RegularExpressions::RegexNode* Child(int i);
     // System.Int32 ChildCount()
-    // Offset: 0x12255CC
+    // Offset: 0x1187890
     int ChildCount();
     // System.Int32 Type()
-    // Offset: 0x122952C
+    // Offset: 0x118B7F0
     int Type();
   }; // System.Text.RegularExpressions.RegexNode
 }

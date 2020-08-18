@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float horizontalFOV;
     // protected System.Void Awake()
-    // Offset: 0xCB4548
+    // Offset: 0xC1480C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xCB4634
+    // Offset: 0xC148F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

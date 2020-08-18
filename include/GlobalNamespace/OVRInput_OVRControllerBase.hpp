@@ -58,25 +58,25 @@ namespace GlobalNamespace {
     // Offset: 0x100
     bool shouldApplyDeadzone;
     // public OVRInput/Controller Update()
-    // Offset: 0xE704E4
+    // Offset: 0xDD07A8
     GlobalNamespace::OVRInput::Controller Update();
     // private OVRPlugin/ControllerState4 GetOpenVRControllerState(OVRInput/Controller controllerType)
-    // Offset: 0xE709B8
+    // Offset: 0xDD0C7C
     GlobalNamespace::OVRPlugin::ControllerState4 GetOpenVRControllerState(GlobalNamespace::OVRInput::Controller controllerType);
     // public System.Void SetControllerVibration(System.Single frequency, System.Single amplitude)
-    // Offset: 0xE70EF4
+    // Offset: 0xDD11B8
     void SetControllerVibration(float frequency, float amplitude);
     // public System.Void RecenterController()
-    // Offset: 0xE70F78
+    // Offset: 0xDD123C
     void RecenterController();
     // public System.Boolean WasRecentered()
-    // Offset: 0xE70FDC
+    // Offset: 0xDD12A0
     bool WasRecentered();
     // public System.Byte GetRecenterCount()
-    // Offset: 0xE70FE4
+    // Offset: 0xDD12A8
     uint8_t GetRecenterCount();
     // public System.Byte GetBatteryPercentRemaining()
-    // Offset: 0xE70FEC
+    // Offset: 0xDD12B0
     uint8_t GetBatteryPercentRemaining();
     // public System.Void ConfigureButtonMap()
     // Offset: 0xFFFFFFFF
@@ -94,22 +94,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void ConfigureAxis2DMap();
     // public OVRInput/RawButton ResolveToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0xE6D78C
+    // Offset: 0xDCDA50
     GlobalNamespace::OVRInput::RawButton ResolveToRawMask(GlobalNamespace::OVRInput::Button virtualMask);
     // public OVRInput/RawTouch ResolveToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0xE6DE48
+    // Offset: 0xDCE10C
     GlobalNamespace::OVRInput::RawTouch ResolveToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
     // public OVRInput/RawNearTouch ResolveToRawMask(OVRInput/NearTouch virtualMask)
-    // Offset: 0xE6E57C
+    // Offset: 0xDCE840
     GlobalNamespace::OVRInput::RawNearTouch ResolveToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public OVRInput/RawAxis1D ResolveToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0xE6EF54
+    // Offset: 0xDCF218
     GlobalNamespace::OVRInput::RawAxis1D ResolveToRawMask(GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public OVRInput/RawAxis2D ResolveToRawMask(OVRInput/Axis2D virtualMask)
-    // Offset: 0xE6F49C
+    // Offset: 0xDCF760
     GlobalNamespace::OVRInput::RawAxis2D ResolveToRawMask(GlobalNamespace::OVRInput::Axis2D virtualMask);
     // public System.Void .ctor()
-    // Offset: 0xE70338
+    // Offset: 0xDD05FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase* New_ctor();

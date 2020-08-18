@@ -26,16 +26,16 @@ namespace UnityEngine {
   class GUI::WindowFunction : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1265690
+    // Offset: 0x11C7954
     static GUI::WindowFunction* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Int32 id)
-    // Offset: 0x12651B8
+    // Offset: 0x11C747C
     void Invoke(int id);
     // public System.IAsyncResult BeginInvoke(System.Int32 id, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x12656A4
+    // Offset: 0x11C7968
     System::IAsyncResult* BeginInvoke(int id, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1265730
+    // Offset: 0x11C79F4
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.GUI/WindowFunction
 }

@@ -23,28 +23,28 @@ namespace System::Text {
   class UTF7Encoding::DecoderUTF7Fallback : public System::Text::DecoderFallback {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13C6760
+    // Offset: 0x1329A24
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Void DecoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
     static UTF7Encoding::DecoderUTF7Fallback* New_ctor();
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x13C88E0
+    // Offset: 0x132BBA4
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x13C8954
+    // Offset: 0x132BC18
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x13C895C
+    // Offset: 0x132BC20
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x13C89C0
+    // Offset: 0x132BC84
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

@@ -13,11 +13,11 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<CentralLeaderboardViewController/ScoreScopeInfo,HMUI.IconSegmentedControl/DataItem> <>9__18_1
     static void _set_$$9__18_1(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, HMUI::IconSegmentedControl::DataItem*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB5EC14
+    // Offset: 0x18E6144
     static void _cctor();
     // System.String <DidActivate>b__18_0(CentralLeaderboardViewController/LeaderboardPanel x)
-    // Offset: 0xB5EC84
+    // Offset: 0x18E61B4
     ::Il2CppString* $DidActivate$b__18_0(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
     // HMUI.IconSegmentedControl/DataItem <DidActivate>b__18_1(CentralLeaderboardViewController/ScoreScopeInfo x)
-    // Offset: 0xB5EC9C
+    // Offset: 0x18E61CC
     HMUI::IconSegmentedControl::DataItem* $DidActivate$b__18_1(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
     // public System.Void .ctor()
-    // Offset: 0xB5EC7C
+    // Offset: 0x18E61AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CentralLeaderboardViewController::$$c* New_ctor();

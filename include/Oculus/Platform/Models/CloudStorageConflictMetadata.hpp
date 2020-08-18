@@ -30,7 +30,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     Oculus::Platform::Models::CloudStorageMetadata* Remote;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE9E6F8
+    // Offset: 0xDFD9BC
     static CloudStorageConflictMetadata* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.CloudStorageConflictMetadata
 }

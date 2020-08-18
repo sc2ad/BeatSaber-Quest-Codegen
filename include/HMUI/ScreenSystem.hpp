@@ -73,46 +73,46 @@ namespace HMUI {
     // Offset: 0x68
     HMUI::ButtonBinder* buttonBinder;
     // public HMUI.TitleViewController get_titleViewController()
-    // Offset: 0x10DBD34
+    // Offset: 0x103DFF8
     HMUI::TitleViewController* get_titleViewController();
     // public HMUI.Screen get_mainScreen()
-    // Offset: 0x10DBD3C
+    // Offset: 0x103E000
     HMUI::Screen* get_mainScreen();
     // public HMUI.Screen get_leftScreen()
-    // Offset: 0x10DBD44
+    // Offset: 0x103E008
     HMUI::Screen* get_leftScreen();
     // public HMUI.Screen get_rightScreen()
-    // Offset: 0x10DBD4C
+    // Offset: 0x103E010
     HMUI::Screen* get_rightScreen();
     // public HMUI.Screen get_bottomScreen()
-    // Offset: 0x10DBD54
+    // Offset: 0x103E018
     HMUI::Screen* get_bottomScreen();
     // public HMUI.Screen get_topScreen()
-    // Offset: 0x10DBD5C
+    // Offset: 0x103E020
     HMUI::Screen* get_topScreen();
     // public System.Void add_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10DBD64
+    // Offset: 0x103E028
     void add_backButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10DBE08
+    // Offset: 0x103E0CC
     void remove_backButtonWasPressedEvent(System::Action* value);
     // private System.Void Awake()
-    // Offset: 0x10DBEAC
+    // Offset: 0x103E170
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x10DBF70
+    // Offset: 0x103E234
     void OnDestroy();
     // public System.Void BackButtonPush(System.Boolean show)
-    // Offset: 0x10DBF8C
+    // Offset: 0x103E250
     void BackButtonPush(bool show);
     // public System.Void BackButtonPop(System.Boolean show)
-    // Offset: 0x10DC088
+    // Offset: 0x103E34C
     void BackButtonPop(bool show);
     // private System.Void <Awake>b__25_0()
-    // Offset: 0x10DC108
+    // Offset: 0x103E3CC
     void $Awake$b__25_0();
     // public System.Void .ctor()
-    // Offset: 0x10DC100
+    // Offset: 0x103E3C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

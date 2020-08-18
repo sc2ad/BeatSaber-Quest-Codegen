@@ -15,16 +15,16 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x10
     bool m_Used;
     // public System.Void Reset()
-    // Offset: 0xDF521C
+    // Offset: 0xD554E0
     void Reset();
     // public System.Void Use()
-    // Offset: 0xDF5224
+    // Offset: 0xD554E8
     void Use();
     // public System.Boolean get_used()
-    // Offset: 0xDF5230
+    // Offset: 0xD554F4
     bool get_used();
     // protected System.Void .ctor()
-    // Offset: 0xDF5238
+    // Offset: 0xD554FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AbstractEventData* New_ctor();

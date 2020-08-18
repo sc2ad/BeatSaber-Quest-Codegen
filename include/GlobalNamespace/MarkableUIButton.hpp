@@ -30,19 +30,19 @@ namespace GlobalNamespace {
     // Offset: 0x24
     int markedTriggerId;
     // public System.Boolean get_marked()
-    // Offset: 0xCB5524
+    // Offset: 0xC157E8
     bool get_marked();
     // public System.Void set_marked(System.Boolean value)
-    // Offset: 0xCB552C
+    // Offset: 0xC157F0
     void set_marked(bool value);
     // protected System.Void Awake()
-    // Offset: 0xCB5558
+    // Offset: 0xC1581C
     void Awake();
     // public System.Void ToggleMarked()
-    // Offset: 0xCB55B0
+    // Offset: 0xC15874
     void ToggleMarked();
     // public System.Void .ctor()
-    // Offset: 0xCB55C0
+    // Offset: 0xC15884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

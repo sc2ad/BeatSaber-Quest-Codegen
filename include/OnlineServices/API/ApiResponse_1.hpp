@@ -27,12 +27,12 @@ namespace OnlineServices::API {
     // Creating value type constructor for type: ApiResponse_1
     ApiResponse_1(OnlineServices::API::Response response_ = {}, T responseDto_ = {}) : response{response_}, responseDto{responseDto_} {}
     // public System.Boolean get_isError()
-    // Offset: 0xA3FE40
+    // Offset: 0xFFFFFFFF
     bool get_isError() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "get_isError"));
     }
     // public System.Void .ctor(OnlineServices.API.Response response, T responseDto)
-    // Offset: 0xA3FE50
+    // Offset: 0xFFFFFFFF
     static ApiResponse_1<T>* New_ctor(OnlineServices::API::Response response, T responseDto) {
       return (ApiResponse_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ApiResponse_1<T>>::get(), response, responseDto));
     }

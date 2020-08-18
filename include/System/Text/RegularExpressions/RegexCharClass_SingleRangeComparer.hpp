@@ -16,12 +16,12 @@ namespace System::Text::RegularExpressions {
   class RegexCharClass::SingleRangeComparer : public System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>, public ::Il2CppObject {
     public:
     // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange x, System.Text.RegularExpressions.RegexCharClass/SingleRange y)
-    // Offset: 0x1224B88
+    // Offset: 0x1186E4C
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange x, System.Text.RegularExpressions.RegexCharClass/SingleRange y)
     int Compare(System::Text::RegularExpressions::RegexCharClass::SingleRange* x, System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
     // public System.Void .ctor()
-    // Offset: 0x1224B80
+    // Offset: 0x1186E44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RegexCharClass::SingleRangeComparer* New_ctor();

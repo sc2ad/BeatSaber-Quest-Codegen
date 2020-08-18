@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class BoolSO : public GlobalNamespace::ObservableVariableSO_1<bool> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCAAAB8
+    // Offset: 0xC0AD7C
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO`1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

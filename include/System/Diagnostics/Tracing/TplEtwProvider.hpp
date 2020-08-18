@@ -29,25 +29,25 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.TplEtwProvider Log
     static void _set_Log(System::Diagnostics::Tracing::TplEtwProvider* value);
     // public System.Boolean get_Debug()
-    // Offset: 0xD9AC28
+    // Offset: 0xCFAEEC
     bool get_Debug();
     // public System.Void DebugFacilityMessage(System.String Facility, System.String Message)
-    // Offset: 0xD9AC38
+    // Offset: 0xCFAEFC
     void DebugFacilityMessage(::Il2CppString* Facility, ::Il2CppString* Message);
     // public System.Void DebugFacilityMessage1(System.String Facility, System.String Message, System.String Arg)
-    // Offset: 0xD9AC4C
+    // Offset: 0xCFAF10
     void DebugFacilityMessage1(::Il2CppString* Facility, ::Il2CppString* Message, ::Il2CppString* Arg);
     // public System.Void SetActivityId(System.Guid Id)
-    // Offset: 0xD9AC64
+    // Offset: 0xCFAF28
     void SetActivityId(System::Guid Id);
     // public System.Void .ctor()
-    // Offset: 0xD9AD54
+    // Offset: 0xCFB018
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.ctor()
     // Base method: System.Void Object::.ctor()
     static TplEtwProvider* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xD9ADBC
+    // Offset: 0xCFB080
     // Implemented from: System.Diagnostics.Tracing.EventSource
     // Base method: System.Void EventSource::.cctor()
     static void _cctor();

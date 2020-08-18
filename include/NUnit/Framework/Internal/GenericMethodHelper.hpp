@@ -36,43 +36,43 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x28
     ::Array<System::Type*>* ParmTypes;
     // public System.Void .ctor(System.Reflection.MethodInfo method)
-    // Offset: 0x107EF90
+    // Offset: 0xFE1254
     static GenericMethodHelper* New_ctor(System::Reflection::MethodInfo* method);
     // private System.Reflection.MethodInfo get_Method()
-    // Offset: 0x108737C
+    // Offset: 0xFE9640
     System::Reflection::MethodInfo* get_Method();
     // private System.Void set_Method(System.Reflection.MethodInfo value)
-    // Offset: 0x1087394
+    // Offset: 0xFE9658
     void set_Method(System::Reflection::MethodInfo* value);
     // private System.Type[] get_TypeParms()
-    // Offset: 0x1087384
+    // Offset: 0xFE9648
     ::Array<System::Type*>* get_TypeParms();
     // private System.Void set_TypeParms(System.Type[] value)
-    // Offset: 0x108739C
+    // Offset: 0xFE9660
     void set_TypeParms(::Array<System::Type*>* value);
     // private System.Type[] get_TypeArgs()
-    // Offset: 0x10873A4
+    // Offset: 0xFE9668
     ::Array<System::Type*>* get_TypeArgs();
     // private System.Void set_TypeArgs(System.Type[] value)
-    // Offset: 0x10873AC
+    // Offset: 0xFE9670
     void set_TypeArgs(::Array<System::Type*>* value);
     // private System.Type[] get_ParmTypes()
-    // Offset: 0x108738C
+    // Offset: 0xFE9650
     ::Array<System::Type*>* get_ParmTypes();
     // private System.Void set_ParmTypes(System.Type[] value)
-    // Offset: 0x10873B4
+    // Offset: 0xFE9678
     void set_ParmTypes(::Array<System::Type*>* value);
     // public System.Type[] GetTypeArguments(System.Object[] argList)
-    // Offset: 0x107F174
+    // Offset: 0xFE1438
     ::Array<System::Type*>* GetTypeArguments(::Array<::Il2CppObject*>* argList);
     // private System.Void TryApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x10873BC
+    // Offset: 0xFE9680
     void TryApplyArgType(System::Type* parmType, System::Type* argType);
     // private System.Void ApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x108755C
+    // Offset: 0xFE9820
     void ApplyArgType(System::Type* parmType, System::Type* argType);
     // private System.Boolean IsAssignableToGenericType(System.Type givenType, System.Type genericType)
-    // Offset: 0x108766C
+    // Offset: 0xFE9930
     bool IsAssignableToGenericType(System::Type* givenType, System::Type* genericType);
   }; // NUnit.Framework.Internal.GenericMethodHelper
 }

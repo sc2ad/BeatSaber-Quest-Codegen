@@ -23,7 +23,7 @@ namespace System {
     // Offset: 0x1C
     bool m_isParamArray;
     // System.Void .ctor(System.Int32[] argsMap, System.Int32 originalSize, System.Boolean isParamArray)
-    // Offset: 0xC8C944
+    // Offset: 0xBECC08
     static DefaultBinder::BinderState* New_ctor(::Array<int>* argsMap, int originalSize, bool isParamArray);
   }; // System.DefaultBinder/BinderState
 }

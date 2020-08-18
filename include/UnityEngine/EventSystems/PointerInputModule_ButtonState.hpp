@@ -22,19 +22,19 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* m_EventData;
     // public UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData get_eventData()
-    // Offset: 0xDFD31C
+    // Offset: 0xD5D5E0
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData value)
-    // Offset: 0xDFD324
+    // Offset: 0xD5D5E8
     void set_eventData(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/InputButton get_button()
-    // Offset: 0xDFD32C
+    // Offset: 0xD5D5F0
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/InputButton value)
-    // Offset: 0xDFD334
+    // Offset: 0xD5D5F8
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Void .ctor()
-    // Offset: 0xDFD33C
+    // Offset: 0xD5D600
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PointerInputModule::ButtonState* New_ctor();

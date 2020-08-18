@@ -63,91 +63,91 @@ namespace System::IO {
     // Offset: 0x46
     bool m_leaveOpen;
     // public System.Void .ctor(System.IO.Stream input)
-    // Offset: 0x1126EC8
+    // Offset: 0x108A18C
     static BinaryReader* New_ctor(System::IO::Stream* input);
     // public System.Void .ctor(System.IO.Stream input, System.Text.Encoding encoding)
-    // Offset: 0x11271BC
+    // Offset: 0x108A480
     static BinaryReader* New_ctor(System::IO::Stream* input, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.IO.Stream input, System.Text.Encoding encoding, System.Boolean leaveOpen)
-    // Offset: 0x1126F40
+    // Offset: 0x108A204
     static BinaryReader* New_ctor(System::IO::Stream* input, System::Text::Encoding* encoding, bool leaveOpen);
     // public System.IO.Stream get_BaseStream()
-    // Offset: 0x11271C4
+    // Offset: 0x108A488
     System::IO::Stream* get_BaseStream();
     // public System.Void Close()
-    // Offset: 0x11271CC
+    // Offset: 0x108A490
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x11271DC
+    // Offset: 0x108A4A0
     void Dispose(bool disposing);
     // public System.Int32 Read()
-    // Offset: 0x11272A8
+    // Offset: 0x108A56C
     int Read();
     // public System.Boolean ReadBoolean()
-    // Offset: 0x1127580
+    // Offset: 0x108A844
     bool ReadBoolean();
     // public System.Byte ReadByte()
-    // Offset: 0x11275DC
+    // Offset: 0x108A8A0
     uint8_t ReadByte();
     // public System.SByte ReadSByte()
-    // Offset: 0x1127638
+    // Offset: 0x108A8FC
     int8_t ReadSByte();
     // public System.Char ReadChar()
-    // Offset: 0x112768C
+    // Offset: 0x108A950
     ::Il2CppChar ReadChar();
     // public System.Int16 ReadInt16()
-    // Offset: 0x11276C8
+    // Offset: 0x108A98C
     int16_t ReadInt16();
     // public System.UInt16 ReadUInt16()
-    // Offset: 0x1127724
+    // Offset: 0x108A9E8
     uint16_t ReadUInt16();
     // public System.Int32 ReadInt32()
-    // Offset: 0x1127780
+    // Offset: 0x108AA44
     int ReadInt32();
     // public System.UInt32 ReadUInt32()
-    // Offset: 0x1127948
+    // Offset: 0x108AC0C
     uint ReadUInt32();
     // public System.Int64 ReadInt64()
-    // Offset: 0x11279CC
+    // Offset: 0x108AC90
     int64_t ReadInt64();
     // public System.UInt64 ReadUInt64()
-    // Offset: 0x1127A90
+    // Offset: 0x108AD54
     uint64_t ReadUInt64();
     // public System.Single ReadSingle()
-    // Offset: 0x1127B54
+    // Offset: 0x108AE18
     float ReadSingle();
     // public System.Double ReadDouble()
-    // Offset: 0x1127B90
+    // Offset: 0x108AE54
     double ReadDouble();
     // public System.Decimal ReadDecimal()
-    // Offset: 0x1127BCC
+    // Offset: 0x108AE90
     System::Decimal ReadDecimal();
     // public System.String ReadString()
-    // Offset: 0x1127D50
+    // Offset: 0x108B014
     ::Il2CppString* ReadString();
     // private System.Int32 InternalReadChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1128108
+    // Offset: 0x108B3CC
     int InternalReadChars(::Array<::Il2CppChar>* buffer, int index, int count);
     // private System.Int32 InternalReadOneChar()
-    // Offset: 0x11272D8
+    // Offset: 0x108A59C
     int InternalReadOneChar();
     // public System.Char[] ReadChars(System.Int32 count)
-    // Offset: 0x112846C
+    // Offset: 0x108B730
     ::Array<::Il2CppChar>* ReadChars(int count);
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x11285CC
+    // Offset: 0x108B890
     int Read(::Array<uint8_t>* buffer, int index, int count);
     // public System.Byte[] ReadBytes(System.Int32 count)
-    // Offset: 0x1128794
+    // Offset: 0x108BA58
     ::Array<uint8_t>* ReadBytes(int count);
     // protected System.Void FillBuffer(System.Int32 numBytes)
-    // Offset: 0x112892C
+    // Offset: 0x108BBF0
     void FillBuffer(int numBytes);
     // protected internal System.Int32 Read7BitEncodedInt()
-    // Offset: 0x1128004
+    // Offset: 0x108B2C8
     int Read7BitEncodedInt();
     // public System.Void Dispose()
-    // Offset: 0x1127298
+    // Offset: 0x108A55C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

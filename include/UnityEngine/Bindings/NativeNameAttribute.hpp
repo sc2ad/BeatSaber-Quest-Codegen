@@ -17,10 +17,10 @@ namespace UnityEngine::Bindings {
     // Offset: 0x10
     ::Il2CppString* Name;
     // public System.Void set_Name(System.String value)
-    // Offset: 0x196AAF4
+    // Offset: 0x18C6E38
     void set_Name(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x196AAFC
+    // Offset: 0x18C6E40
     static NativeNameAttribute* New_ctor(::Il2CppString* name);
   }; // UnityEngine.Bindings.NativeNameAttribute
 }

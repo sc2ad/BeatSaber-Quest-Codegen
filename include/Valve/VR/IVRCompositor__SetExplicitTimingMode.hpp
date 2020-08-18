@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRCompositor::_SetExplicitTimingMode : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15FB184
+    // Offset: 0x155C4BC
     static IVRCompositor::_SetExplicitTimingMode* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.EVRCompositorTimingMode eTimingMode)
-    // Offset: 0x15FB198
+    // Offset: 0x155C4D0
     void Invoke(Valve::VR::EVRCompositorTimingMode eTimingMode);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRCompositorTimingMode eTimingMode, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15FB404
+    // Offset: 0x155C73C
     System::IAsyncResult* BeginInvoke(Valve::VR::EVRCompositorTimingMode eTimingMode, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15FB490
+    // Offset: 0x155C7C8
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_SetExplicitTimingMode
 }

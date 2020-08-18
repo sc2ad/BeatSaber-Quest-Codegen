@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xBCC4F4
+    // Offset: 0x191385C
     static PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformUserModelSO/GetUserNamesForUserIdsResult result, System.String[] userNames)
-    // Offset: 0xBD64FC
+    // Offset: 0x191D864
     void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsResult result, ::Array<::Il2CppString*>* userNames);
     // public System.IAsyncResult BeginInvoke(PlatformUserModelSO/GetUserNamesForUserIdsResult result, System.String[] userNames, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xBD6784
+    // Offset: 0x191DAEC
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsResult result, ::Array<::Il2CppString*>* userNames, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xBD681C
+    // Offset: 0x191DB84
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformUserModelSO/GetUserNamesForUserIdsCompletionHandler
 }

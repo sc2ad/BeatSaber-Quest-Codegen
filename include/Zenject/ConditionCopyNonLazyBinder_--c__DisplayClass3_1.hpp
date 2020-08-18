@@ -29,10 +29,10 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::InjectContext* r;
     // System.Boolean <WhenInjectedInto>b__1(System.Type x)
-    // Offset: 0xD68B9C
+    // Offset: 0xCC8E60
     bool $WhenInjectedInto$b__1(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0xD68B94
+    // Offset: 0xCC8E58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConditionCopyNonLazyBinder::$$c__DisplayClass3_1* New_ctor();

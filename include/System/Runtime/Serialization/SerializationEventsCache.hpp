@@ -33,10 +33,10 @@ namespace System::Runtime::Serialization {
     // Set static field: static private System.Collections.Hashtable cache
     static void _set_cache(System::Collections::Hashtable* value);
     // static System.Runtime.Serialization.SerializationEvents GetSerializationEventsForType(System.Type t)
-    // Offset: 0xFF7DDC
+    // Offset: 0xF590A0
     static System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(System::Type* t);
     // static private System.Void .cctor()
-    // Offset: 0xFFA2B8
+    // Offset: 0xF5B57C
     static void _cctor();
   }; // System.Runtime.Serialization.SerializationEventsCache
 }

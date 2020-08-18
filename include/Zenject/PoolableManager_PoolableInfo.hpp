@@ -31,7 +31,7 @@ namespace Zenject {
     // Creating value type constructor for type: PoolableInfo
     PoolableInfo(Zenject::IPoolable* Poolable_ = {}, int Priority_ = {}) : Poolable{Poolable_}, Priority{Priority_} {}
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
-    // Offset: 0xA39664
+    // Offset: 0x9A2B30
     static PoolableManager::PoolableInfo* New_ctor(Zenject::IPoolable* poolable, int priority);
   }; // Zenject.PoolableManager/PoolableInfo
 }

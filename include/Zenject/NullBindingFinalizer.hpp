@@ -23,17 +23,17 @@ namespace Zenject {
   class NullBindingFinalizer : public Zenject::IBindingFinalizer, public ::Il2CppObject {
     public:
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0xFBF54C
+    // Offset: 0xF1F810
     // Implemented from: Zenject.IBindingFinalizer
     // Base method: Zenject.BindingInheritanceMethods IBindingFinalizer::get_BindingInheritanceMethod()
     Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0xFBF554
+    // Offset: 0xF1F818
     // Implemented from: Zenject.IBindingFinalizer
     // Base method: System.Void IBindingFinalizer::FinalizeBinding(Zenject.DiContainer container)
     void FinalizeBinding(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xFBF558
+    // Offset: 0xF1F81C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NullBindingFinalizer* New_ctor();

@@ -65,13 +65,13 @@ namespace System::Threading::Tasks {
     // Offset: 0x40
     System::Collections::Generic::List_1<System::Threading::Tasks::Task*>* m_exceptionalChildren;
     // System.Void SetCompleted()
-    // Offset: 0xCDF5FC
+    // Offset: 0xC3F8C0
     void SetCompleted();
     // System.Void DeregisterCancellationCallback()
-    // Offset: 0xCDF634
+    // Offset: 0xC3F8F8
     void DeregisterCancellationCallback();
     // public System.Void .ctor()
-    // Offset: 0xCDCB9C
+    // Offset: 0xC3CE60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Task::ContingentProperties* New_ctor();

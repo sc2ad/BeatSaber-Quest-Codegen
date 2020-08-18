@@ -41,22 +41,22 @@ namespace HMUI {
     // Offset: 0x40
     bool didStart;
     // protected System.Void Awake()
-    // Offset: 0xED2BB0
+    // Offset: 0xE32E74
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xED2C44
+    // Offset: 0xE32F08
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xED2D08
+    // Offset: 0xE32FCC
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0xED2D24
+    // Offset: 0xE32FE8
     void OnDestroy();
     // private System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/SelectionState state)
-    // Offset: 0xED2C68
+    // Offset: 0xE32F2C
     void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0xED2E00
+    // Offset: 0xE330C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

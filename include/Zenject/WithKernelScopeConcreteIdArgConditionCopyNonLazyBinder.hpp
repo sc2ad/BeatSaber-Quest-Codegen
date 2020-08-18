@@ -30,13 +30,13 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::SubContainerCreatorBindInfo* subContainerBindInfo;
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x193B1A8
+    // Offset: 0x18974F4
     static WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::BindInfo* bindInfo);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0x193B1E0
+    // Offset: 0x189752C
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0x13ECB04
+    // Offset: 0xFFFFFFFF
     template<class TKernel>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel() {
       static_assert(std::is_convertible_v<TKernel, Zenject::Kernel*>);

@@ -62,28 +62,28 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Threading::ManualResetEvent* readyReceiveDataEvent;
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
-    // Offset: 0xEEA1A0
+    // Offset: 0xE4A464
     GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
     // public System.Boolean get_Connected()
-    // Offset: 0xEEA1CC
+    // Offset: 0xE4A490
     bool get_Connected();
     // public System.Void Connect(System.Int32 listeningPort)
-    // Offset: 0xEEA1E0
+    // Offset: 0xE4A4A4
     void Connect(int listeningPort);
     // private System.Void ConnectCallback(System.IAsyncResult ar)
-    // Offset: 0xEEA348
+    // Offset: 0xE4A60C
     void ConnectCallback(System::IAsyncResult* ar);
     // public System.Void Disconnect()
-    // Offset: 0xEEA660
+    // Offset: 0xE4A924
     void Disconnect();
     // public System.Void Tick()
-    // Offset: 0xEEA8C4
+    // Offset: 0xE4AB88
     void Tick();
     // private System.Void OnReadDataCallback(System.IAsyncResult ar)
-    // Offset: 0xEEAAC8
+    // Offset: 0xE4AD8C
     void OnReadDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0xEEAFC4
+    // Offset: 0xE4B288
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRNetwork::OVRNetworkTcpClient* New_ctor();

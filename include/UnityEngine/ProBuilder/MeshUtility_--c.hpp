@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
@@ -44,13 +44,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Vertex,System.Int32>,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Vertex>> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x102963C
+    // Offset: 0xF8B900
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Vertex> <CollapseSharedVertices>b__10_0(System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Vertex,System.Int32> x)
-    // Offset: 0x10296AC
+    // Offset: 0xF8B970
     System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex*>* $CollapseSharedVertices$b__10_0(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x10296A4
+    // Offset: 0xF8B968
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshUtility::$$c* New_ctor();

@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -32,13 +32,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__2_0
     static void _set_$$9__2_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0xFBFA14
+    // Offset: 0xF1FCD8
     static void _cctor();
     // System.Boolean <.ctor>b__2_0(System.Type x)
-    // Offset: 0xFBFA84
+    // Offset: 0xF1FD48
     bool $_ctor$b__2_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0xFBFA7C
+    // Offset: 0xF1FD40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PoolCleanupChecker::$$c* New_ctor();

@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Transform* transform;
     // protected System.Void Awake()
-    // Offset: 0xCAF2B0
+    // Offset: 0xC0F574
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xCAF2E0
+    // Offset: 0xC0F5A4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCAF320
+    // Offset: 0xC0F5E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

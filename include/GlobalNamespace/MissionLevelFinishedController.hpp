@@ -39,19 +39,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::ILevelEndActions* gameplayManager;
     // protected System.Void Start()
-    // Offset: 0xC02474
+    // Offset: 0x194AF88
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC02560
+    // Offset: 0x194B074
     void OnDestroy();
     // private System.Void HandleLevelFinished()
-    // Offset: 0xC02658
+    // Offset: 0x194B16C
     void HandleLevelFinished();
     // private System.Void StartLevelFinished()
-    // Offset: 0xC0265C
+    // Offset: 0x194B170
     void StartLevelFinished();
     // public System.Void .ctor()
-    // Offset: 0xC02710
+    // Offset: 0x194B224
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

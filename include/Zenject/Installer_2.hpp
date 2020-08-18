@@ -25,12 +25,12 @@ namespace Zenject {
     static_assert((!std::is_complete_v<std::remove_pointer_t<TDerived>> || std::is_convertible_v<TDerived, Zenject::Installer_2<TParam1, TDerived>*>));
     public:
     // static public System.Void Install(Zenject.DiContainer container, TParam1 p1)
-    // Offset: 0x13BE6A0
+    // Offset: 0xFFFFFFFF
     static void Install(Zenject::DiContainer* container, TParam1 p1) {
       THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Installer_2<TParam1, TDerived>*>::get(), "Install", container, p1)));
     }
     // protected System.Void .ctor()
-    // Offset: 0x13BE780
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::.ctor()
     // Base method: System.Void Object::.ctor()

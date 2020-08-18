@@ -49,43 +49,43 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Vector3 lastTrackedPosition;
     // public UnityEngine.XR.XRNode get_node()
-    // Offset: 0xCBB8D4
+    // Offset: 0xC1BB98
     UnityEngine::XR::XRNode get_node();
     // public System.Void set_node(UnityEngine.XR.XRNode value)
-    // Offset: 0xCBB8DC
+    // Offset: 0xC1BBA0
     void set_node(UnityEngine::XR::XRNode value);
     // public System.Int32 get_nodeIdx()
-    // Offset: 0xCBB8E4
+    // Offset: 0xC1BBA8
     int get_nodeIdx();
     // public System.Void set_nodeIdx(System.Int32 value)
-    // Offset: 0xCBB8EC
+    // Offset: 0xC1BBB0
     void set_nodeIdx(int value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0xCBB8F4
+    // Offset: 0xC1BBB8
     UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0xCBB918
+    // Offset: 0xC1BBDC
     UnityEngine::Quaternion get_rotation();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0xCBB93C
+    // Offset: 0xC1BC00
     UnityEngine::Vector3 get_forward();
     // public System.Single get_triggerValue()
-    // Offset: 0xCBB960
+    // Offset: 0xC1BC24
     float get_triggerValue();
     // public System.Single get_verticalAxisValue()
-    // Offset: 0xCBBA9C
+    // Offset: 0xC1BD60
     float get_verticalAxisValue();
     // public System.Single get_horizontalAxisValue()
-    // Offset: 0xCBBB34
+    // Offset: 0xC1BDF8
     float get_horizontalAxisValue();
     // public System.Boolean get_active()
-    // Offset: 0xCBBBCC
+    // Offset: 0xC1BE90
     bool get_active();
     // protected System.Void Update()
-    // Offset: 0xCBBBF0
+    // Offset: 0xC1BEB4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCBC408
+    // Offset: 0xC1C6CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

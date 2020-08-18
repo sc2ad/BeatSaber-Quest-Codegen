@@ -39,40 +39,40 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x28
     UnityEngine::ProBuilder::Experimental::CSG::CSG_Plane* plane;
     // public System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> list)
-    // Offset: 0xF8E3FC
+    // Offset: 0xEEF6C0
     static CSG_Node* New_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* list);
     // public System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> list, UnityEngine.ProBuilder.Experimental.CSG.CSG_Plane plane, UnityEngine.ProBuilder.Experimental.CSG.CSG_Node front, UnityEngine.ProBuilder.Experimental.CSG.CSG_Node back)
-    // Offset: 0xF8FDAC
+    // Offset: 0xEF1070
     static CSG_Node* New_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* list, UnityEngine::ProBuilder::Experimental::CSG::CSG_Plane* plane, UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* front, UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* back);
     // public UnityEngine.ProBuilder.Experimental.CSG.CSG_Node Clone()
-    // Offset: 0xF8FE2C
+    // Offset: 0xEF10F0
     UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* Clone();
     // public System.Void ClipTo(UnityEngine.ProBuilder.Experimental.CSG.CSG_Node other)
-    // Offset: 0xF8FEB0
+    // Offset: 0xEF1174
     void ClipTo(UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* other);
     // public System.Void Invert()
-    // Offset: 0xF90094
+    // Offset: 0xEF1358
     void Invert();
     // public System.Void Build(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> list)
-    // Offset: 0xF8FB00
+    // Offset: 0xEF0DC4
     void Build(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* list);
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> ClipPolygons(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> list)
-    // Offset: 0xF8FF18
+    // Offset: 0xEF11DC
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* ClipPolygons(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* list);
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> AllPolygons()
-    // Offset: 0xF8E528
+    // Offset: 0xEEF7EC
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* AllPolygons();
     // static public UnityEngine.ProBuilder.Experimental.CSG.CSG_Node Union(UnityEngine.ProBuilder.Experimental.CSG.CSG_Node a1, UnityEngine.ProBuilder.Experimental.CSG.CSG_Node b1)
-    // Offset: 0xF8E42C
+    // Offset: 0xEEF6F0
     static UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* Union(UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* a1, UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* b1);
     // static public UnityEngine.ProBuilder.Experimental.CSG.CSG_Node Subtract(UnityEngine.ProBuilder.Experimental.CSG.CSG_Node a1, UnityEngine.ProBuilder.Experimental.CSG.CSG_Node b1)
-    // Offset: 0xF8EAAC
+    // Offset: 0xEEFD70
     static UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* Subtract(UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* a1, UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* b1);
     // static public UnityEngine.ProBuilder.Experimental.CSG.CSG_Node Intersect(UnityEngine.ProBuilder.Experimental.CSG.CSG_Node a1, UnityEngine.ProBuilder.Experimental.CSG.CSG_Node b1)
-    // Offset: 0xF8ECE8
+    // Offset: 0xEEFFAC
     static UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* Intersect(UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* a1, UnityEngine::ProBuilder::Experimental::CSG::CSG_Node* b1);
     // public System.Void .ctor()
-    // Offset: 0xF8FAC0
+    // Offset: 0xEF0D84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CSG_Node* New_ctor();

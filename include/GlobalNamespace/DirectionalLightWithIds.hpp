@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::DirectionalLight* directionalLight;
     // protected System.Void LateUpdate()
-    // Offset: 0x1820C04
+    // Offset: 0x177EF3C
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1820C34
+    // Offset: 0x177EF6C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

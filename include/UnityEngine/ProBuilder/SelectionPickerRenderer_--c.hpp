@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -41,13 +41,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__20_0
     static void _set_$$9__20_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x103FE3C
+    // Offset: 0xFA2100
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <GenerateFacePickingObjects>b__20_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x103FEAC
+    // Offset: 0xFA2170
     System::Collections::Generic::IEnumerable_1<int>* $GenerateFacePickingObjects$b__20_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x103FEA4
+    // Offset: 0xFA2168
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectionPickerRenderer::$$c* New_ctor();

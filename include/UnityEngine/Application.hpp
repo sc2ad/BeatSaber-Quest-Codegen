@@ -76,106 +76,106 @@ namespace UnityEngine {
     // Set static field: static private System.Action quitting
     static void _set_quitting(System::Action* value);
     // static public System.Void Quit(System.Int32 exitCode)
-    // Offset: 0x12FA0B8
+    // Offset: 0x125D37C
     static void Quit(int exitCode);
     // static public System.Void Quit()
-    // Offset: 0x12FA0F8
+    // Offset: 0x125D3BC
     static void Quit();
     // static public System.Boolean CanStreamedLevelBeLoaded(System.Int32 levelIndex)
-    // Offset: 0x12FA134
+    // Offset: 0x125D3F8
     static bool CanStreamedLevelBeLoaded(int levelIndex);
     // static public System.Boolean CanStreamedLevelBeLoaded(System.String levelName)
-    // Offset: 0x12FA16C
+    // Offset: 0x125D430
     static bool CanStreamedLevelBeLoaded(::Il2CppString* levelName);
     // static public System.Boolean get_isPlaying()
-    // Offset: 0x12FA1AC
+    // Offset: 0x125D470
     static bool get_isPlaying();
     // static public System.Void set_runInBackground(System.Boolean value)
-    // Offset: 0x12FA1E0
+    // Offset: 0x125D4A4
     static void set_runInBackground(bool value);
     // static public System.String get_dataPath()
-    // Offset: 0x12FA220
+    // Offset: 0x125D4E4
     static ::Il2CppString* get_dataPath();
     // static public System.String get_persistentDataPath()
-    // Offset: 0x12FA254
+    // Offset: 0x125D518
     static ::Il2CppString* get_persistentDataPath();
     // static public System.String get_unityVersion()
-    // Offset: 0x12FA288
+    // Offset: 0x125D54C
     static ::Il2CppString* get_unityVersion();
     // static public System.String get_identifier()
-    // Offset: 0x12FA2BC
+    // Offset: 0x125D580
     static ::Il2CppString* get_identifier();
     // static public System.String get_productName()
-    // Offset: 0x12FA2F0
+    // Offset: 0x125D5B4
     static ::Il2CppString* get_productName();
     // static public System.String get_companyName()
-    // Offset: 0x12FA324
+    // Offset: 0x125D5E8
     static ::Il2CppString* get_companyName();
     // static public System.String get_cloudProjectId()
-    // Offset: 0x12FA358
+    // Offset: 0x125D61C
     static ::Il2CppString* get_cloudProjectId();
     // static public System.Void OpenURL(System.String url)
-    // Offset: 0x12FA38C
+    // Offset: 0x125D650
     static void OpenURL(::Il2CppString* url);
     // static public System.Void set_targetFrameRate(System.Int32 value)
-    // Offset: 0x12FA3CC
+    // Offset: 0x125D690
     static void set_targetFrameRate(int value);
     // static private System.Void SetLogCallbackDefined(System.Boolean defined)
-    // Offset: 0x12FA40C
+    // Offset: 0x125D6D0
     static void SetLogCallbackDefined(bool defined);
     // static public System.Void set_backgroundLoadingPriority(UnityEngine.ThreadPriority value)
-    // Offset: 0x12FA44C
+    // Offset: 0x125D710
     static void set_backgroundLoadingPriority(UnityEngine::ThreadPriority value);
     // static public UnityEngine.RuntimePlatform get_platform()
-    // Offset: 0x12FA48C
+    // Offset: 0x125D750
     static UnityEngine::RuntimePlatform get_platform();
     // static public System.Boolean get_isMobilePlatform()
-    // Offset: 0x12FA4C0
+    // Offset: 0x125D784
     static bool get_isMobilePlatform();
     // static public UnityEngine.NetworkReachability get_internetReachability()
-    // Offset: 0x12FA538
+    // Offset: 0x125D7FC
     static UnityEngine::NetworkReachability get_internetReachability();
     // static System.Void CallLowMemory()
-    // Offset: 0x12FA56C
+    // Offset: 0x125D830
     static void CallLowMemory();
     // static public System.Void add_logMessageReceived(UnityEngine.Application/LogCallback value)
-    // Offset: 0x12FA7D8
+    // Offset: 0x125DA9C
     static void add_logMessageReceived(UnityEngine::Application::LogCallback* value);
     // static public System.Void remove_logMessageReceived(UnityEngine.Application/LogCallback value)
-    // Offset: 0x12FA89C
+    // Offset: 0x125DB60
     static void remove_logMessageReceived(UnityEngine::Application::LogCallback* value);
     // static public System.Void add_logMessageReceivedThreaded(UnityEngine.Application/LogCallback value)
-    // Offset: 0x12FA938
+    // Offset: 0x125DBFC
     static void add_logMessageReceivedThreaded(UnityEngine::Application::LogCallback* value);
     // static public System.Void remove_logMessageReceivedThreaded(UnityEngine.Application/LogCallback value)
-    // Offset: 0x12FA9FC
+    // Offset: 0x125DCC0
     static void remove_logMessageReceivedThreaded(UnityEngine::Application::LogCallback* value);
     // static private System.Void CallLogCallback(System.String logString, System.String stackTrace, UnityEngine.LogType type, System.Boolean invokedOnMainThread)
-    // Offset: 0x12FAA98
+    // Offset: 0x125DD5C
     static void CallLogCallback(::Il2CppString* logString, ::Il2CppString* stackTrace, UnityEngine::LogType type, bool invokedOnMainThread);
     // static public System.Void add_onBeforeRender(UnityEngine.Events.UnityAction value)
-    // Offset: 0x12FAF80
+    // Offset: 0x125E244
     static void add_onBeforeRender(UnityEngine::Events::UnityAction* value);
     // static public System.Void remove_onBeforeRender(UnityEngine.Events.UnityAction value)
-    // Offset: 0x12FB384
+    // Offset: 0x125E648
     static void remove_onBeforeRender(UnityEngine::Events::UnityAction* value);
     // static private System.Boolean Internal_ApplicationWantsToQuit()
-    // Offset: 0x12FB714
+    // Offset: 0x125E9D8
     static bool Internal_ApplicationWantsToQuit();
     // static private System.Void Internal_ApplicationQuit()
-    // Offset: 0x12FB9CC
+    // Offset: 0x125EC90
     static void Internal_ApplicationQuit();
     // static System.Void InvokeOnBeforeRender()
-    // Offset: 0x12FBA30
+    // Offset: 0x125ECF4
     static void InvokeOnBeforeRender();
     // static System.Void InvokeFocusChanged(System.Boolean focus)
-    // Offset: 0x12FBC14
+    // Offset: 0x125EED8
     static void InvokeFocusChanged(bool focus);
     // static System.Void InvokeDeepLinkActivated(System.String url)
-    // Offset: 0x12FBC88
+    // Offset: 0x125EF4C
     static void InvokeDeepLinkActivated(::Il2CppString* url);
     // static public System.Boolean get_isEditor()
-    // Offset: 0x12FBCFC
+    // Offset: 0x125EFC0
     static bool get_isEditor();
   }; // UnityEngine.Application
 }

@@ -16,7 +16,7 @@ namespace UnityEngine::UI {
   class MaskableGraphic::CullStateChangedEvent : public UnityEngine::Events::UnityEvent_1<bool> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12000B0
+    // Offset: 0x1162374
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

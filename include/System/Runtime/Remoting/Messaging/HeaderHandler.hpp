@@ -29,16 +29,16 @@ namespace System::Runtime::Remoting::Messaging {
   class HeaderHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1063A3C
+    // Offset: 0xFC5D00
     static HeaderHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Object Invoke(System.Runtime.Remoting.Messaging.Header[] headers)
-    // Offset: 0x1063A50
+    // Offset: 0xFC5D14
     ::Il2CppObject* Invoke(::Array<System::Runtime::Remoting::Messaging::Header*>* headers);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Remoting.Messaging.Header[] headers, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1063E10
+    // Offset: 0xFC60D4
     System::IAsyncResult* BeginInvoke(::Array<System::Runtime::Remoting::Messaging::Header*>* headers, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1063E34
+    // Offset: 0xFC60F8
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // System.Runtime.Remoting.Messaging.HeaderHandler
 }

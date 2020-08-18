@@ -62,27 +62,27 @@ namespace System::Linq {
     // Offset: 0x0
     System::Collections::Generic::IEqualityComparer_1<TElement>* comparer;
     // public System.Void .ctor(System.Collections.Generic.IEqualityComparer`1<TElement> comparer)
-    // Offset: 0x12D8704
+    // Offset: 0xFFFFFFFF
     static Set_1<TElement>* New_ctor(System::Collections::Generic::IEqualityComparer_1<TElement>* comparer) {
       return (Set_1<TElement>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Set_1<TElement>*>::get(), comparer));
     }
     // public System.Boolean Add(TElement value)
-    // Offset: 0x12D87FC
+    // Offset: 0xFFFFFFFF
     bool Add(TElement value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Add", value));
     }
     // private System.Boolean Find(TElement value, System.Boolean add)
-    // Offset: 0x12D8834
+    // Offset: 0xFFFFFFFF
     bool Find(TElement value, bool add) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Find", value, add));
     }
     // private System.Void Resize()
-    // Offset: 0x12D8B10
+    // Offset: 0xFFFFFFFF
     void Resize() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Resize"));
     }
     // System.Int32 InternalGetHashCode(TElement value)
-    // Offset: 0x12D8C98
+    // Offset: 0xFFFFFFFF
     int InternalGetHashCode(TElement value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "InternalGetHashCode", value));
     }

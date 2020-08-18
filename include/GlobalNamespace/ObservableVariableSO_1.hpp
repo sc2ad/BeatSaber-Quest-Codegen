@@ -34,35 +34,35 @@ namespace GlobalNamespace {
     // Offset: 0x0
     T value;
     // public System.Void add_didChangeEvent(System.Action value)
-    // Offset: 0x1292598
+    // Offset: 0xFFFFFFFF
     // Implemented from: IObservableChange
     // Base method: System.Void IObservableChange::add_didChangeEvent(System.Action value)
     void add_didChangeEvent(System::Action* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "add_didChangeEvent", value));
     }
     // public System.Void remove_didChangeEvent(System.Action value)
-    // Offset: 0x1292650
+    // Offset: 0xFFFFFFFF
     // Implemented from: IObservableChange
     // Base method: System.Void IObservableChange::remove_didChangeEvent(System.Action value)
     void remove_didChangeEvent(System::Action* value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "remove_didChangeEvent", value));
     }
     // public System.Void set_value(T value)
-    // Offset: 0x1292708
+    // Offset: 0xFFFFFFFF
     // Implemented from: IValue`1
     // Base method: System.Void IValue`1::set_value(T value)
     void set_value(T value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_value", value));
     }
     // public T get_value()
-    // Offset: 0x1293494
+    // Offset: 0xFFFFFFFF
     // Implemented from: IValue`1
     // Base method: T IValue`1::get_value()
     T get_value() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_value"));
     }
     // public System.Void .ctor()
-    // Offset: 0x129281C
+    // Offset: 0xFFFFFFFF
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

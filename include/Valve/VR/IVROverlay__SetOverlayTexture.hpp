@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlayTexture : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16B7E4C
+    // Offset: 0x161A184
     static IVROverlay::_SetOverlayTexture* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.Texture_t pTexture)
-    // Offset: 0x16B7E60
+    // Offset: 0x161A198
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::Texture_t& pTexture);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.Texture_t pTexture, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16B80E4
+    // Offset: 0x161A41C
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::Texture_t& pTexture, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(Valve.VR.Texture_t pTexture, System.IAsyncResult result)
-    // Offset: 0x16B8194
+    // Offset: 0x161A4CC
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::Texture_t& pTexture, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayTexture
 }

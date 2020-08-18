@@ -34,10 +34,10 @@ namespace Zenject {
     // Offset: 0x20
     ::Il2CppString* resourcePath;
     // Zenject.IProvider <FromNewComponentOnNewPrefabResource>b__0(Zenject.DiContainer container)
-    // Offset: 0xF2CD2C
+    // Offset: 0xE8DFF0
     Zenject::IProvider* $FromNewComponentOnNewPrefabResource$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xF2BE7C
+    // Offset: 0xE8D140
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FactoryFromBinderBase::$$c__DisplayClass31_0* New_ctor();

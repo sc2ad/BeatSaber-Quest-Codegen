@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class LinkedAccountList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::LinkedAccount*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xEA04F4
+    // Offset: 0xDFF7B8
     static LinkedAccountList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.LinkedAccountList
 }

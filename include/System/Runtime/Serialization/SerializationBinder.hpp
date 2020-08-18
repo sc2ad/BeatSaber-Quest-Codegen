@@ -19,13 +19,13 @@ namespace System::Runtime::Serialization {
   class SerializationBinder : public ::Il2CppObject {
     public:
     // public System.Void BindToName(System.Type serializedType, System.String assemblyName, System.String typeName)
-    // Offset: 0xFF99F8
+    // Offset: 0xF5ACBC
     void BindToName(System::Type* serializedType, ::Il2CppString*& assemblyName, ::Il2CppString*& typeName);
     // public System.Type BindToType(System.String assemblyName, System.String typeName)
     // Offset: 0xFFFFFFFF
     System::Type* BindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
     // protected System.Void .ctor()
-    // Offset: 0xFF9A30
+    // Offset: 0xF5ACF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SerializationBinder* New_ctor();

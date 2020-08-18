@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithOrgScopedID : public Oculus::Platform::Message_1<Oculus::Platform::Models::OrgScopedID*> {
     public:
     // protected Oculus.Platform.Models.OrgScopedID GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA26A4
+    // Offset: 0xE01968
     Oculus::Platform::Models::OrgScopedID* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9B364
+    // Offset: 0xDFA628
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithOrgScopedID* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.OrgScopedID GetOrgScopedID()
-    // Offset: 0xEA2660
+    // Offset: 0xE01924
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.OrgScopedID Message::GetOrgScopedID()
     Oculus::Platform::Models::OrgScopedID* GetOrgScopedID();

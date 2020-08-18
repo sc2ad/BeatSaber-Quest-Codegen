@@ -37,7 +37,7 @@ namespace LIV::SDK::Unity {
     // Offset: 0x2C
     UnityEngine::LayerMask SpectatorLayerMask;
     // public System.Void .ctor()
-    // Offset: 0x197B6D0
+    // Offset: 0x18D4614
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

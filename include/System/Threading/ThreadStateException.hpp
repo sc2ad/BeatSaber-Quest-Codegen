@@ -23,20 +23,20 @@ namespace System::Threading {
   class ThreadStateException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCE9340
+    // Offset: 0xC49604
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static ThreadStateException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xCE5BE4
+    // Offset: 0xC45EA8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static ThreadStateException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xCE93B4
+    // Offset: 0xC49678
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

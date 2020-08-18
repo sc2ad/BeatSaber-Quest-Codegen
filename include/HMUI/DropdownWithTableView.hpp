@@ -52,49 +52,49 @@ namespace HMUI {
     // Offset: 0x3C
     bool shouldScrollToSelectedCell;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`2<HMUI.DropdownWithTableView,System.Int32> value)
-    // Offset: 0xED5BF4
+    // Offset: 0xE35EB8
     void add_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`2<HMUI.DropdownWithTableView,System.Int32> value)
-    // Offset: 0xED5C98
+    // Offset: 0xE35F5C
     void remove_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);
     // public HMUI.TableView/IDataSource get_tableViewDataSource()
-    // Offset: 0xED5D3C
+    // Offset: 0xE36000
     HMUI::TableView::IDataSource* get_tableViewDataSource();
     // public System.Void Init(HMUI.TableView/IDataSource tableViewDataSource)
-    // Offset: 0xED5D58
+    // Offset: 0xE3601C
     void Init(HMUI::TableView::IDataSource* tableViewDataSource);
     // public System.Void ReloadData()
-    // Offset: 0xED5D90
+    // Offset: 0xE36054
     void ReloadData();
     // public System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0xED5DCC
+    // Offset: 0xE36090
     void SelectCellWithIdx(int idx);
     // protected System.Void Awake()
-    // Offset: 0xED5DF4
+    // Offset: 0xE360B8
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0xED5FD8
+    // Offset: 0xE3629C
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xED6024
+    // Offset: 0xE362E8
     void OnDestroy();
     // private System.Void OnButtonClick()
-    // Offset: 0xED6290
+    // Offset: 0xE36554
     void OnButtonClick();
     // private System.Void HandleTableViewDidSelectCellWithIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0xED631C
+    // Offset: 0xE365E0
     void HandleTableViewDidSelectCellWithIdx(HMUI::TableView* tableView, int idx);
     // private System.Void Hide(System.Boolean animated)
-    // Offset: 0xED5FE0
+    // Offset: 0xE362A4
     void Hide(bool animated);
     // private System.Void Show(System.Boolean animated)
-    // Offset: 0xED6298
+    // Offset: 0xE3655C
     void Show(bool animated);
     // private System.Void HandleModalViewBlockerClicked()
-    // Offset: 0xED683C
+    // Offset: 0xE36B00
     void HandleModalViewBlockerClicked();
     // public System.Void .ctor()
-    // Offset: 0xED6844
+    // Offset: 0xE36B08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

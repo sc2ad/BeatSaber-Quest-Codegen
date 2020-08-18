@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     float songSpeedMul;
     // public System.Void .ctor()
-    // Offset: 0xC170D8
+    // Offset: 0xB8F114
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::PracticeSettings* New_ctor();

@@ -36,22 +36,22 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: TaskAwaiter_1
     TaskAwaiter_1(System::Threading::Tasks::Task_1<TResult>* m_task_ = {}) : m_task{m_task_} {}
     // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task)
-    // Offset: 0xA468F8
+    // Offset: 0xFFFFFFFF
     static TaskAwaiter_1<TResult>* New_ctor(System::Threading::Tasks::Task_1<TResult>* task) {
       return (TaskAwaiter_1<TResult>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TaskAwaiter_1<TResult>>::get(), task));
     }
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xA46C14
+    // Offset: 0xFFFFFFFF
     bool get_IsCompleted() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "get_IsCompleted"));
     }
     // public TResult GetResult()
-    // Offset: 0xA46C44
+    // Offset: 0xFFFFFFFF
     TResult GetResult() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TResult>(*this, "GetResult"));
     }
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xA4691C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
     // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
     void UnsafeOnCompleted(System::Action* continuation) {

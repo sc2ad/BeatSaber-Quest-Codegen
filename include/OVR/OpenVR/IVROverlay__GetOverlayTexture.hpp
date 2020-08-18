@@ -37,16 +37,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayTexture : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x151D258
+    // Offset: 0x147E590
     static IVROverlay::_GetOverlayTexture* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.IntPtr pNativeTextureHandle, System.IntPtr pNativeTextureRef, System.UInt32 pWidth, System.UInt32 pHeight, System.UInt32 pNativeFormat, OVR.OpenVR.ETextureType pAPIType, OVR.OpenVR.EColorSpace pColorSpace, OVR.OpenVR.VRTextureBounds_t pTextureBounds)
-    // Offset: 0x151D26C
+    // Offset: 0x147E5A4
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, System::IntPtr& pNativeTextureHandle, System::IntPtr pNativeTextureRef, uint& pWidth, uint& pHeight, uint& pNativeFormat, OVR::OpenVR::ETextureType& pAPIType, OVR::OpenVR::EColorSpace& pColorSpace, OVR::OpenVR::VRTextureBounds_t& pTextureBounds);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.IntPtr pNativeTextureHandle, System.IntPtr pNativeTextureRef, System.UInt32 pWidth, System.UInt32 pHeight, System.UInt32 pNativeFormat, OVR.OpenVR.ETextureType pAPIType, OVR.OpenVR.EColorSpace pColorSpace, OVR.OpenVR.VRTextureBounds_t pTextureBounds, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x151D550
+    // Offset: 0x147E888
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::IntPtr& pNativeTextureHandle, System::IntPtr pNativeTextureRef, uint& pWidth, uint& pHeight, uint& pNativeFormat, OVR::OpenVR::ETextureType& pAPIType, OVR::OpenVR::EColorSpace& pColorSpace, OVR::OpenVR::VRTextureBounds_t& pTextureBounds, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IntPtr pNativeTextureHandle, System.UInt32 pWidth, System.UInt32 pHeight, System.UInt32 pNativeFormat, OVR.OpenVR.ETextureType pAPIType, OVR.OpenVR.EColorSpace pColorSpace, OVR.OpenVR.VRTextureBounds_t pTextureBounds, System.IAsyncResult result)
-    // Offset: 0x151D6DC
+    // Offset: 0x147EA14
     OVR::OpenVR::EVROverlayError EndInvoke(System::IntPtr& pNativeTextureHandle, uint& pWidth, uint& pHeight, uint& pNativeFormat, OVR::OpenVR::ETextureType& pAPIType, OVR::OpenVR::EColorSpace& pColorSpace, OVR::OpenVR::VRTextureBounds_t& pTextureBounds, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayTexture
 }

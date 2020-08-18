@@ -39,28 +39,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     float lastTime;
     // protected System.Single get_deltaTime()
-    // Offset: 0x122BB10
+    // Offset: 0x118EDD4
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
     // Offset: 0xFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x122BB3C
+    // Offset: 0x118EE00
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x122BB68
+    // Offset: 0x118EE2C
     System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x122BC10
+    // Offset: 0x118EED4
     void ModifyOffset();
     // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/OffsetLimits[] limits)
-    // Offset: 0x122BD1C
+    // Offset: 0x118EFE0
     void ApplyLimits(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* limits);
     // protected System.Void OnDestroy()
-    // Offset: 0x122C038
+    // Offset: 0x118F2FC
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x122C154
+    // Offset: 0x118F418
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

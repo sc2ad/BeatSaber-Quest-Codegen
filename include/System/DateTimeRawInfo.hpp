@@ -48,13 +48,13 @@ namespace System {
     // Creating value type constructor for type: DateTimeRawInfo
     DateTimeRawInfo(int* num_ = {}, int numCount_ = {}, int month_ = {}, int year_ = {}, int dayOfWeek_ = {}, int era_ = {}, System::DateTimeParse::TM timeMark_ = {}, double fraction_ = {}, bool hasSameDateAndTimeSeparators_ = {}, bool timeZone_ = {}) : num{num_}, numCount{numCount_}, month{month_}, year{year_}, dayOfWeek{dayOfWeek_}, era{era_}, timeMark{timeMark_}, fraction{fraction_}, hasSameDateAndTimeSeparators{hasSameDateAndTimeSeparators_}, timeZone{timeZone_} {}
     // System.Void Init(System.Int32* numberBuffer)
-    // Offset: 0xA282E8
+    // Offset: 0x9927B4
     void Init(int* numberBuffer);
     // System.Void AddNumber(System.Int32 value)
-    // Offset: 0xA2830C
+    // Offset: 0x9927D8
     void AddNumber(int value);
     // System.Int32 GetNumber(System.Int32 index)
-    // Offset: 0xA28324
+    // Offset: 0x9927F0
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
 }

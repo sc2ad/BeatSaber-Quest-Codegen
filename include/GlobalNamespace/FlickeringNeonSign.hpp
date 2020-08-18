@@ -67,19 +67,19 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Material* offMaterial;
     // protected System.Void Start()
-    // Offset: 0xBEC504
+    // Offset: 0x1933B14
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xBEC54C
+    // Offset: 0x1933B5C
     void OnEnable();
     // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0xBEC578
+    // Offset: 0x1933B88
     System::Collections::IEnumerator* FlickeringCoroutine();
     // private System.Void SetOn(System.Boolean on)
-    // Offset: 0xBEC620
+    // Offset: 0x1933C30
     void SetOn(bool on);
     // public System.Void .ctor()
-    // Offset: 0xBEC6CC
+    // Offset: 0x1933CDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

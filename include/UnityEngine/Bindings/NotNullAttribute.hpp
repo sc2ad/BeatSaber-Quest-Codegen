@@ -14,7 +14,7 @@ namespace UnityEngine::Bindings {
   class NotNullAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x196AE60
+    // Offset: 0x18C71A4
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

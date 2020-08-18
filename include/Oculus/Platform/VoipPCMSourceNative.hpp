@@ -17,27 +17,27 @@ namespace Oculus::Platform {
     // Offset: 0x10
     uint64_t senderID;
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0x1963EDC
+    // Offset: 0x18C0220
     // Implemented from: Oculus.Platform.IVoipPCMSource
     // Base method: System.Int32 IVoipPCMSource::GetPCM(System.Single[] dest, System.Int32 length)
     int GetPCM(::Array<float>* dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0x1963F9C
+    // Offset: 0x18C02E0
     // Implemented from: Oculus.Platform.IVoipPCMSource
     // Base method: System.Void IVoipPCMSource::SetSenderID(System.UInt64 senderID)
     void SetSenderID(uint64_t senderID);
     // public System.Int32 PeekSizeElements()
-    // Offset: 0x1963FA4
+    // Offset: 0x18C02E8
     // Implemented from: Oculus.Platform.IVoipPCMSource
     // Base method: System.Int32 IVoipPCMSource::PeekSizeElements()
     int PeekSizeElements();
     // public System.Void Update()
-    // Offset: 0x1964044
+    // Offset: 0x18C0388
     // Implemented from: Oculus.Platform.IVoipPCMSource
     // Base method: System.Void IVoipPCMSource::Update()
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1963374
+    // Offset: 0x18BF6B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VoipPCMSourceNative* New_ctor();

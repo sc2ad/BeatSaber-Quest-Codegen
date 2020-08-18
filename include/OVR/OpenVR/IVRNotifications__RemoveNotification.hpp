@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRNotifications::_RemoveNotification : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1516B0C
+    // Offset: 0x1477E44
     static IVRNotifications::_RemoveNotification* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRNotificationError Invoke(System.UInt32 notificationId)
-    // Offset: 0x1516B20
+    // Offset: 0x1477E58
     OVR::OpenVR::EVRNotificationError Invoke(uint notificationId);
     // public System.IAsyncResult BeginInvoke(System.UInt32 notificationId, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1516D94
+    // Offset: 0x14780CC
     System::IAsyncResult* BeginInvoke(uint notificationId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRNotificationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1516E20
+    // Offset: 0x1478158
     OVR::OpenVR::EVRNotificationError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRNotifications/_RemoveNotification
 }

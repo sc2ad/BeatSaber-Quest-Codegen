@@ -61,16 +61,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x30
     float maxZ;
     // public System.Void Apply(RootMotion.FinalIK.IKEffector e, UnityEngine.Quaternion rootRotation)
-    // Offset: 0x122BDD8
+    // Offset: 0x118F09C
     void Apply(RootMotion::FinalIK::IKEffector* e, UnityEngine::Quaternion rootRotation);
     // private System.Single SpringAxis(System.Single value, System.Single min, System.Single max)
-    // Offset: 0x122C334
+    // Offset: 0x118F5F8
     float SpringAxis(float value, float min, float max);
     // private System.Single Spring(System.Single value, System.Single limit, System.Boolean negative)
-    // Offset: 0x122C364
+    // Offset: 0x118F628
     float Spring(float value, float limit, bool negative);
     // public System.Void .ctor()
-    // Offset: 0x122C43C
+    // Offset: 0x118F700
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OffsetModifier::OffsetLimits* New_ctor();

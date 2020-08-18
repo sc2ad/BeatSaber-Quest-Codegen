@@ -50,7 +50,7 @@ namespace System {
       // Offset: 0x0
       T m_value;
       // System.Void .ctor(T value)
-      // Offset: 0x127AE50
+      // Offset: 0xFFFFFFFF
       static typename Lazy_1<T>::Boxed* New_ctor(T value) {
         return (typename Lazy_1<T>::Boxed*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Lazy_1<T>::Boxed*>::get(), value));
       }
@@ -63,7 +63,7 @@ namespace System {
       // Offset: 0x0
       System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_edi;
       // System.Void .ctor(System.Exception ex)
-      // Offset: 0x127AE8C
+      // Offset: 0xFFFFFFFF
       static typename Lazy_1<T>::LazyInternalExceptionHolder* New_ctor(System::Exception* ex) {
         return (typename Lazy_1<T>::LazyInternalExceptionHolder*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Lazy_1<T>::LazyInternalExceptionHolder*>::get(), ex));
       }
@@ -83,17 +83,17 @@ namespace System {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Lazy_1<T>::$$c*>::get(), "<>9", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0x127AD54
+      // Offset: 0xFFFFFFFF
       static void _cctor() {
         THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Lazy_1<T>::$$c*>::get(), ".cctor"));
       }
       // T <.cctor>b__27_0()
-      // Offset: 0x127AE48
+      // Offset: 0xFFFFFFFF
       T $_cctor$b__27_0() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<T>(this, "<.cctor>b__27_0")));
       }
       // public System.Void .ctor()
-      // Offset: 0x127AE30
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename Lazy_1<T>::$$c* New_ctor() {
@@ -120,69 +120,69 @@ namespace System {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Lazy_1<T>*>::get(), "ALREADY_INVOKED_SENTINEL", value));
     }
     // public System.Void .ctor(System.Func`1<T> valueFactory)
-    // Offset: 0x127B634
+    // Offset: 0xFFFFFFFF
     static Lazy_1<T>* New_ctor(System::Func_1<T>* valueFactory) {
       return (Lazy_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Lazy_1<T>*>::get(), valueFactory));
     }
     // public System.Void .ctor(System.Threading.LazyThreadSafetyMode mode)
-    // Offset: 0x127B65C
+    // Offset: 0xFFFFFFFF
     static Lazy_1<T>* New_ctor(System::Threading::LazyThreadSafetyMode mode) {
       return (Lazy_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Lazy_1<T>*>::get(), mode));
     }
     // public System.Void .ctor(System.Func`1<T> valueFactory, System.Threading.LazyThreadSafetyMode mode)
-    // Offset: 0x127B728
+    // Offset: 0xFFFFFFFF
     static Lazy_1<T>* New_ctor(System::Func_1<T>* valueFactory, System::Threading::LazyThreadSafetyMode mode) {
       return (Lazy_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Lazy_1<T>*>::get(), valueFactory, mode));
     }
     // static private System.Object GetObjectFromMode(System.Threading.LazyThreadSafetyMode mode)
-    // Offset: 0x127B878
+    // Offset: 0xFFFFFFFF
     static ::Il2CppObject* GetObjectFromMode(System::Threading::LazyThreadSafetyMode mode) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Lazy_1<T>*>::get(), "GetObjectFromMode", mode));
     }
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x127B980
+    // Offset: 0xFFFFFFFF
     void OnSerializing(System::Runtime::Serialization::StreamingContext context) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnSerializing", context));
     }
     // System.Threading.LazyThreadSafetyMode get_Mode()
-    // Offset: 0x127BA58
+    // Offset: 0xFFFFFFFF
     System::Threading::LazyThreadSafetyMode get_Mode() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::LazyThreadSafetyMode>(this, "get_Mode"));
     }
     // public System.Boolean get_IsValueCreated()
-    // Offset: 0x127BAE0
+    // Offset: 0xFFFFFFFF
     bool get_IsValueCreated() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_IsValueCreated"));
     }
     // public T get_Value()
-    // Offset: 0x127BB38
+    // Offset: 0xFFFFFFFF
     T get_Value() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Value"));
     }
     // private T LazyInitValue()
-    // Offset: 0x127BC74
+    // Offset: 0xFFFFFFFF
     T LazyInitValue() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "LazyInitValue"));
     }
     // private System.Lazy`1/Boxed<T> CreateValue()
-    // Offset: 0x127C104
+    // Offset: 0xFFFFFFFF
     typename System::Lazy_1<T>::Boxed* CreateValue() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<typename System::Lazy_1<T>::Boxed*>(this, "CreateValue"));
     }
     // static private System.Void .cctor()
-    // Offset: 0x127C6B0
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Lazy_1<T>*>::get(), ".cctor"));
     }
     // public System.Void .ctor()
-    // Offset: 0x127B60C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Lazy_1<T>* New_ctor() {
       return (Lazy_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Lazy_1<T>*>::get()));
     }
     // public override System.String ToString()
-    // Offset: 0x127B9A4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString() {

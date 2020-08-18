@@ -57,7 +57,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x50
     System::Text::RegularExpressions::SharedReference* replref;
     // System.Void .ctor(System.String key, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexCode code, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.ExclusiveReference runner, System.Text.RegularExpressions.SharedReference repl)
-    // Offset: 0x1219590
+    // Offset: 0x117B854
     static CachedCodeEntry* New_ctor(::Il2CppString* key, System::Collections::Hashtable* capnames, ::Array<::Il2CppString*>* capslist, System::Text::RegularExpressions::RegexCode* code, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::ExclusiveReference* runner, System::Text::RegularExpressions::SharedReference* repl);
   }; // System.Text.RegularExpressions.CachedCodeEntry
 }

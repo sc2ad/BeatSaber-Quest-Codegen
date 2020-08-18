@@ -30,10 +30,10 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x10
     System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* stack;
     // public System.Boolean get_Empty()
-    // Offset: 0x107033C
+    // Offset: 0xFD2600
     bool get_Empty();
     // public NUnit.Framework.Constraints.ConstraintOperator Pop()
-    // Offset: 0x10702E4
+    // Offset: 0xFD25A8
     NUnit::Framework::Constraints::ConstraintOperator* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/OperatorStack
 }

@@ -27,19 +27,19 @@ namespace Polyglot {
     // Offset: 0x18
     Polyglot::GoogleDriveDownloadFormat format;
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x190DDA0
+    // Offset: 0x186C0EC
     UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x190DDA8
+    // Offset: 0x186C0F4
     void set_TextAsset(UnityEngine::TextAsset* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x190DDB0
+    // Offset: 0x186C0FC
     Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x190DDB8
+    // Offset: 0x186C104
     void set_Format(Polyglot::GoogleDriveDownloadFormat value);
     // public System.Void .ctor()
-    // Offset: 0x190DDC0
+    // Offset: 0x186C10C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalizationAsset* New_ctor();

@@ -22,10 +22,10 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     bool monoscopic;
     // private System.Void Update()
-    // Offset: 0xEE9AE8
+    // Offset: 0xE49DAC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xEE9BFC
+    // Offset: 0xE49EC0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

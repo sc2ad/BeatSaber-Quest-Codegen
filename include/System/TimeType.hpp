@@ -21,10 +21,10 @@ namespace System {
     // Offset: 0x18
     ::Il2CppString* Name;
     // public System.Void .ctor(System.Int32 offset, System.Boolean is_dst, System.String abbrev)
-    // Offset: 0xCED1C0
+    // Offset: 0xC4D484
     static TimeType* New_ctor(int offset, bool is_dst, ::Il2CppString* abbrev);
     // public override System.String ToString()
-    // Offset: 0xCED210
+    // Offset: 0xC4D4D4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

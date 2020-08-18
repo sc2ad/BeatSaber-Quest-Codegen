@@ -24,10 +24,10 @@ namespace TMPro {
     // Offset: 0x10
     UnityEngine::Material* baseMaterial;
     // System.Boolean <ReleaseBaseMaterial>b__0(TMPro.TMP_MaterialManager/MaskingMaterial item)
-    // Offset: 0xBAC0A4
+    // Offset: 0xB707F4
     bool $ReleaseBaseMaterial$b__0(TMPro::TMP_MaterialManager::MaskingMaterial* item);
     // public System.Void .ctor()
-    // Offset: 0xBAAC3C
+    // Offset: 0xB6F38C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_MaterialManager::$$c__DisplayClass14_0* New_ctor();

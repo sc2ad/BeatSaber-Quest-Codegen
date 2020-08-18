@@ -22,17 +22,17 @@ namespace System::Net::Configuration {
   class DefaultProxySection : public System::Configuration::ConfigurationSection {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF668DC
+    // Offset: 0xEC7BA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DefaultProxySection* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0xF6691C
+    // Offset: 0xEC7BE0
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // protected override System.Void Reset(System.Configuration.ConfigurationElement parentElement)
-    // Offset: 0xF6695C
+    // Offset: 0xEC7C20
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Void ConfigurationElement::Reset(System.Configuration.ConfigurationElement parentElement)
     void Reset(System::Configuration::ConfigurationElement* parentElement);

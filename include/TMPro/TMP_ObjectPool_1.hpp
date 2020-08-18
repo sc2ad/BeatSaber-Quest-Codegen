@@ -41,37 +41,37 @@ namespace TMPro {
     // Offset: 0x0
     int countAll;
     // public System.Int32 get_countAll()
-    // Offset: 0x13F6ED4
+    // Offset: 0xFFFFFFFF
     int get_countAll() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_countAll"));
     }
     // private System.Void set_countAll(System.Int32 value)
-    // Offset: 0x13F6EDC
+    // Offset: 0xFFFFFFFF
     void set_countAll(int value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_countAll", value));
     }
     // public System.Int32 get_countActive()
-    // Offset: 0x13F6EE4
+    // Offset: 0xFFFFFFFF
     int get_countActive() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_countActive"));
     }
     // public System.Int32 get_countInactive()
-    // Offset: 0x13F6F40
+    // Offset: 0xFFFFFFFF
     int get_countInactive() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_countInactive"));
     }
     // public System.Void .ctor(UnityEngine.Events.UnityAction`1<T> actionOnGet, UnityEngine.Events.UnityAction`1<T> actionOnRelease)
-    // Offset: 0x13F6F68
+    // Offset: 0xFFFFFFFF
     static TMP_ObjectPool_1<T>* New_ctor(UnityEngine::Events::UnityAction_1<T>* actionOnGet, UnityEngine::Events::UnityAction_1<T>* actionOnRelease) {
       return (TMP_ObjectPool_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_ObjectPool_1<T>*>::get(), actionOnGet, actionOnRelease));
     }
     // public T Get()
-    // Offset: 0x13F701C
+    // Offset: 0xFFFFFFFF
     T Get() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Get"));
     }
     // public System.Void Release(T element)
-    // Offset: 0x13F70FC
+    // Offset: 0xFFFFFFFF
     void Release(T element) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Release", element));
     }

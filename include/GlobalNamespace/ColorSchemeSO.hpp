@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::ColorScheme* colorScheme;
     // public ColorScheme get_colorScheme()
-    // Offset: 0x1976BA8
+    // Offset: 0x1974C00
     GlobalNamespace::ColorScheme* get_colorScheme();
     // public System.Void .ctor()
-    // Offset: 0x1976BB0
+    // Offset: 0x1974C08
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

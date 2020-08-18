@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::TestTools::TestRunner::GUI
@@ -40,13 +40,13 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.TestRunner.GUI.TestRunnerFilter,NUnit.Framework.Interfaces.ITestFilter> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter*, NUnit::Framework::Interfaces::ITestFilter*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE44744
+    // Offset: 0xDA4A08
     static void _cctor();
     // NUnit.Framework.Interfaces.ITestFilter <BuildNUnitFilter>b__5_0(UnityEngine.TestTools.TestRunner.GUI.TestRunnerFilter f)
-    // Offset: 0xE447B4
+    // Offset: 0xDA4A78
     NUnit::Framework::Interfaces::ITestFilter* $BuildNUnitFilter$b__5_0(UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter* f);
     // public System.Void .ctor()
-    // Offset: 0xE447AC
+    // Offset: 0xDA4A70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlaymodeTestsControllerSettings::$$c* New_ctor();

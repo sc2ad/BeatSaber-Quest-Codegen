@@ -24,12 +24,12 @@ namespace UnityEngine::Experimental::Playables {
     // Creating value type constructor for type: TextureMixerPlayable
     TextureMixerPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xA42330
+    // Offset: 0x9AB7FC
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Experimental.Playables.TextureMixerPlayable other)
-    // Offset: 0xA4233C
+    // Offset: 0x9AB808
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Experimental.Playables.TextureMixerPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::TextureMixerPlayable other);

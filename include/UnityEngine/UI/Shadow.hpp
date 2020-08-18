@@ -52,31 +52,31 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Single kMaxEffectDistance
     static void _set_kMaxEffectDistance(float value);
     // public UnityEngine.Color get_effectColor()
-    // Offset: 0x120D1CC
+    // Offset: 0x116F490
     UnityEngine::Color get_effectColor();
     // public System.Void set_effectColor(UnityEngine.Color value)
-    // Offset: 0x120D1D8
+    // Offset: 0x116F49C
     void set_effectColor(UnityEngine::Color value);
     // public UnityEngine.Vector2 get_effectDistance()
-    // Offset: 0x120D2BC
+    // Offset: 0x116F580
     UnityEngine::Vector2 get_effectDistance();
     // public System.Void set_effectDistance(UnityEngine.Vector2 value)
-    // Offset: 0x120D2C4
+    // Offset: 0x116F588
     void set_effectDistance(UnityEngine::Vector2 value);
     // public System.Boolean get_useGraphicAlpha()
-    // Offset: 0x120D404
+    // Offset: 0x116F6C8
     bool get_useGraphicAlpha();
     // public System.Void set_useGraphicAlpha(System.Boolean value)
-    // Offset: 0x120D40C
+    // Offset: 0x116F6D0
     void set_useGraphicAlpha(bool value);
     // protected System.Void ApplyShadowZeroAlloc(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, UnityEngine.Color32 color, System.Int32 start, System.Int32 end, System.Single x, System.Single y)
-    // Offset: 0x1200904
+    // Offset: 0x1162BC8
     void ApplyShadowZeroAlloc(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, UnityEngine::Color32 color, int start, int end, float x, float y);
     // protected System.Void ApplyShadow(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, UnityEngine.Color32 color, System.Int32 start, System.Int32 end, System.Single x, System.Single y)
-    // Offset: 0x120D4D8
+    // Offset: 0x116F79C
     void ApplyShadow(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, UnityEngine::Color32 color, int start, int end, float x, float y);
     // protected System.Void .ctor()
-    // Offset: 0x120066C
+    // Offset: 0x1162930
     // Implemented from: UnityEngine.UI.BaseMeshEffect
     // Base method: System.Void BaseMeshEffect::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -87,7 +87,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Shadow* New_ctor();
     // public override System.Void ModifyMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x120D4E0
+    // Offset: 0x116F7A4
     // Implemented from: UnityEngine.UI.BaseMeshEffect
     // Base method: System.Void BaseMeshEffect::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);

@@ -85,82 +85,82 @@ namespace UnityEngine::EventSystems {
     // Set static field: static private readonly System.Comparison`1<UnityEngine.EventSystems.RaycastResult> s_RaycastComparer
     static void _set_s_RaycastComparer(System::Comparison_1<UnityEngine::EventSystems::RaycastResult>* value);
     // static public UnityEngine.EventSystems.EventSystem get_current()
-    // Offset: 0xDF6D20
+    // Offset: 0xD56FE4
     static UnityEngine::EventSystems::EventSystem* get_current();
     // static public System.Void set_current(UnityEngine.EventSystems.EventSystem value)
-    // Offset: 0xDF6DE0
+    // Offset: 0xD570A4
     static void set_current(UnityEngine::EventSystems::EventSystem* value);
     // public System.Boolean get_sendNavigationEvents()
-    // Offset: 0xDF6EE8
+    // Offset: 0xD571AC
     bool get_sendNavigationEvents();
     // public System.Void set_sendNavigationEvents(System.Boolean value)
-    // Offset: 0xDF6EF0
+    // Offset: 0xD571B4
     void set_sendNavigationEvents(bool value);
     // public System.Int32 get_pixelDragThreshold()
-    // Offset: 0xDF6EFC
+    // Offset: 0xD571C0
     int get_pixelDragThreshold();
     // public System.Void set_pixelDragThreshold(System.Int32 value)
-    // Offset: 0xDF6F04
+    // Offset: 0xD571C8
     void set_pixelDragThreshold(int value);
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()
-    // Offset: 0xDF6F0C
+    // Offset: 0xD571D0
     UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
     // public UnityEngine.GameObject get_firstSelectedGameObject()
-    // Offset: 0xDF6F14
+    // Offset: 0xD571D8
     UnityEngine::GameObject* get_firstSelectedGameObject();
     // public System.Void set_firstSelectedGameObject(UnityEngine.GameObject value)
-    // Offset: 0xDF6F1C
+    // Offset: 0xD571E0
     void set_firstSelectedGameObject(UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_currentSelectedGameObject()
-    // Offset: 0xDF6F24
+    // Offset: 0xD571E8
     UnityEngine::GameObject* get_currentSelectedGameObject();
     // public UnityEngine.GameObject get_lastSelectedGameObject()
-    // Offset: 0xDF6F2C
+    // Offset: 0xD571F0
     UnityEngine::GameObject* get_lastSelectedGameObject();
     // public System.Boolean get_isFocused()
-    // Offset: 0xDF6F34
+    // Offset: 0xD571F8
     bool get_isFocused();
     // public System.Void UpdateModules()
-    // Offset: 0xDF5908
+    // Offset: 0xD55BCC
     void UpdateModules();
     // public System.Boolean get_alreadySelecting()
-    // Offset: 0xDF6FCC
+    // Offset: 0xD57290
     bool get_alreadySelecting();
     // public System.Void SetSelectedGameObject(UnityEngine.GameObject selected, UnityEngine.EventSystems.BaseEventData pointer)
-    // Offset: 0xDF5384
+    // Offset: 0xD55648
     void SetSelectedGameObject(UnityEngine::GameObject* selected, UnityEngine::EventSystems::BaseEventData* pointer);
     // private UnityEngine.EventSystems.BaseEventData get_baseEventDataCache()
-    // Offset: 0xDF6FD4
+    // Offset: 0xD57298
     UnityEngine::EventSystems::BaseEventData* get_baseEventDataCache();
     // public System.Void SetSelectedGameObject(UnityEngine.GameObject selected)
-    // Offset: 0xDF7068
+    // Offset: 0xD5732C
     void SetSelectedGameObject(UnityEngine::GameObject* selected);
     // static private System.Int32 RaycastComparer(UnityEngine.EventSystems.RaycastResult lhs, UnityEngine.EventSystems.RaycastResult rhs)
-    // Offset: 0xDF7098
+    // Offset: 0xD5735C
     static int RaycastComparer(UnityEngine::EventSystems::RaycastResult lhs, UnityEngine::EventSystems::RaycastResult rhs);
     // public System.Void RaycastAll(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> raycastResults)
-    // Offset: 0xDF7434
+    // Offset: 0xD576F8
     void RaycastAll(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* raycastResults);
     // public System.Boolean IsPointerOverGameObject()
-    // Offset: 0xDF75F0
+    // Offset: 0xD578B4
     bool IsPointerOverGameObject();
     // public System.Boolean IsPointerOverGameObject(System.Int32 pointerId)
-    // Offset: 0xDF75F8
+    // Offset: 0xD578BC
     bool IsPointerOverGameObject(int pointerId);
     // private System.Void TickModules()
-    // Offset: 0xDF7820
+    // Offset: 0xD57AE4
     void TickModules();
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0xDF7924
+    // Offset: 0xD57BE8
     void OnApplicationFocus(bool hasFocus);
     // protected System.Void Update()
-    // Offset: 0xDF7930
+    // Offset: 0xD57BF4
     void Update();
     // private System.Void ChangeEventModule(UnityEngine.EventSystems.BaseInputModule module)
-    // Offset: 0xDF7BC4
+    // Offset: 0xD57E88
     void ChangeEventModule(UnityEngine::EventSystems::BaseInputModule* module);
     // protected System.Void .ctor()
-    // Offset: 0xDF6F3C
+    // Offset: 0xD57200
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -170,22 +170,22 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static EventSystem* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0xDF76AC
+    // Offset: 0xD57970
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xDF7730
+    // Offset: 0xD579F4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // public override System.String ToString()
-    // Offset: 0xDF7CF4
+    // Offset: 0xD57FB8
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // static private System.Void .cctor()
-    // Offset: 0xDF7E18
+    // Offset: 0xD580DC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

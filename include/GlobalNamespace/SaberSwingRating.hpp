@@ -50,16 +50,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kAfterCutAngleFor1Rating
     static void _set_kAfterCutAngleFor1Rating(float value);
     // static private System.Single NormalRating(System.Single normalDiff)
-    // Offset: 0xC25428
+    // Offset: 0xB9D464
     static float NormalRating(float normalDiff);
     // static public System.Single BeforeCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0xC25180
+    // Offset: 0xB9D1BC
     static float BeforeCutStepRating(float angleDiff, float normalDiff);
     // static public System.Single AfterCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0xC254BC
+    // Offset: 0xB9D4F8
     static float AfterCutStepRating(float angleDiff, float normalDiff);
     // public System.Void .ctor()
-    // Offset: 0xC254F0
+    // Offset: 0xB9D52C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SaberSwingRating* New_ctor();

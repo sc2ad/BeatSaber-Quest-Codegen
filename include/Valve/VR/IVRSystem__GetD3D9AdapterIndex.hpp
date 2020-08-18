@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_GetD3D9AdapterIndex : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16C8360
+    // Offset: 0x162A698
     static IVRSystem::_GetD3D9AdapterIndex* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke()
-    // Offset: 0x16C8374
+    // Offset: 0x162A6AC
     int Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16C8588
+    // Offset: 0x162A8C0
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16C85B4
+    // Offset: 0x162A8EC
     int EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetD3D9AdapterIndex
 }

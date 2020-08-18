@@ -26,15 +26,15 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1C
     UnityEngine::Vector3 position;
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x13A696C
+    // Offset: 0x1308C30
     static ConstraintPosition* New_ctor(UnityEngine::Transform* transform);
     // public override System.Void UpdateConstraint()
-    // Offset: 0x13A6858
+    // Offset: 0x1308B1C
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::UpdateConstraint()
     void UpdateConstraint();
     // public System.Void .ctor()
-    // Offset: 0x13A6964
+    // Offset: 0x1308C28
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::.ctor()
     // Base method: System.Void Object::.ctor()

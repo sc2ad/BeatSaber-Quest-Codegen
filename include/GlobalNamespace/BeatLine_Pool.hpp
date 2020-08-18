@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class BeatLine::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BeatLine*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB8C0DC
+    // Offset: 0x18F5788
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool`1::.ctor()
     // Base method: System.Void MemoryPool`1::.ctor()

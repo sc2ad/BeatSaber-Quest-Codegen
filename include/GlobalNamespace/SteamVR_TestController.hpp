@@ -47,22 +47,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Transform* pointer;
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0xD8FDD4
+    // Offset: 0xCF0098
     void OnDeviceConnected(int index, bool connected);
     // private System.Void OnEnable()
-    // Offset: 0xD903D8
+    // Offset: 0xCF069C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD9049C
+    // Offset: 0xCF0760
     void OnDisable();
     // private System.Void PrintControllerStatus(System.Int32 index)
-    // Offset: 0xD8FF88
+    // Offset: 0xCF024C
     void PrintControllerStatus(int index);
     // private System.Void Update()
-    // Offset: 0xD90560
+    // Offset: 0xCF0824
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xD90EB0
+    // Offset: 0xCF1174
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

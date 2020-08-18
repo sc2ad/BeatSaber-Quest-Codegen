@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     bool disabledRootObjects;
     // public System.String get_sceneName()
-    // Offset: 0xCB87C8
+    // Offset: 0xC18A8C
     ::Il2CppString* get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0xCB87D0
+    // Offset: 0xC18A94
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0xCB87D8
+    // Offset: 0xC18A9C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

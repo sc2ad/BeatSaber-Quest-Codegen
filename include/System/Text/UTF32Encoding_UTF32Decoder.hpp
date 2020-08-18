@@ -22,15 +22,15 @@ namespace System::Text {
     // Offset: 0x34
     int readByteCount;
     // public System.Void .ctor(System.Text.UTF32Encoding encoding)
-    // Offset: 0x13C5EA4
+    // Offset: 0x1329168
     static UTF32Encoding::UTF32Decoder* New_ctor(System::Text::UTF32Encoding* encoding);
     // public override System.Void Reset()
-    // Offset: 0x13C639C
+    // Offset: 0x1329660
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x13C63BC
+    // Offset: 0x1329680
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();

@@ -17,16 +17,16 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     ::Il2CppString* AnonymousProperty;
     // public System.Void .ctor(System.String anonymousProperty)
-    // Offset: 0x195796C
+    // Offset: 0x18B3CB0
     static AspMvcAreaAttribute* New_ctor(::Il2CppString* anonymousProperty);
     // public System.String get_AnonymousProperty()
-    // Offset: 0x19579A0
+    // Offset: 0x18B3CE4
     ::Il2CppString* get_AnonymousProperty();
     // private System.Void set_AnonymousProperty(System.String value)
-    // Offset: 0x19579A8
+    // Offset: 0x18B3CEC
     void set_AnonymousProperty(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1957964
+    // Offset: 0x18B3CA8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

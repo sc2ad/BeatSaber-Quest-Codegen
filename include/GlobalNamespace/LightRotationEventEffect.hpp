@@ -54,19 +54,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
     // protected System.Void Start()
-    // Offset: 0xBF6F60
+    // Offset: 0x193FA4C
     void Start();
     // protected System.Void Update()
-    // Offset: 0xBF7038
+    // Offset: 0x193FB24
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0xBF70A0
+    // Offset: 0x193FB8C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBF7178
+    // Offset: 0x193FC64
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0xBF72B4
+    // Offset: 0x193FDA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

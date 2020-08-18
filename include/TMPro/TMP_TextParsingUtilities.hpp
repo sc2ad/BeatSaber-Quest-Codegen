@@ -35,37 +35,37 @@ namespace TMPro {
     // Set static field: static private System.String k_LookupStringU
     static void _set_k_LookupStringU(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0xDBE434
+    // Offset: 0xD1F6F8
     static void _cctor();
     // static public TMPro.TMP_TextParsingUtilities get_instance()
-    // Offset: 0xDBE4A4
+    // Offset: 0xD1F768
     static TMPro::TMP_TextParsingUtilities* get_instance();
     // static public System.UInt32 GetHashCode(System.String s)
-    // Offset: 0xDBE50C
+    // Offset: 0xD1F7D0
     static uint GetHashCode(::Il2CppString* s);
     // static public System.Int32 GetHashCodeCaseSensitive(System.String s)
-    // Offset: 0xDBE65C
+    // Offset: 0xD1F920
     static int GetHashCodeCaseSensitive(::Il2CppString* s);
     // static public System.Char ToLowerASCIIFast(System.Char c)
-    // Offset: 0xDBE6D4
+    // Offset: 0xD1F998
     static ::Il2CppChar ToLowerASCIIFast(::Il2CppChar c);
     // static public System.Char ToUpperASCIIFast(System.Char c)
-    // Offset: 0xDBE5E0
+    // Offset: 0xD1F8A4
     static ::Il2CppChar ToUpperASCIIFast(::Il2CppChar c);
     // static public System.UInt32 ToUpperASCIIFast(System.UInt32 c)
-    // Offset: 0xDBE750
+    // Offset: 0xD1FA14
     static uint ToUpperASCIIFast(uint c);
     // static public System.UInt32 ToLowerASCIIFast(System.UInt32 c)
-    // Offset: 0xDBE7CC
+    // Offset: 0xD1FA90
     static uint ToLowerASCIIFast(uint c);
     // static public System.Boolean IsHighSurrogate(System.UInt32 c)
-    // Offset: 0xDBE848
+    // Offset: 0xD1FB0C
     static bool IsHighSurrogate(uint c);
     // static public System.Boolean IsLowSurrogate(System.UInt32 c)
-    // Offset: 0xDBE85C
+    // Offset: 0xD1FB20
     static bool IsLowSurrogate(uint c);
     // public System.Void .ctor()
-    // Offset: 0xDBE49C
+    // Offset: 0xD1F760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextParsingUtilities* New_ctor();

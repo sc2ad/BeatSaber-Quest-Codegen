@@ -18,18 +18,18 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static private readonly System.Char[] DirectorySeparatorChars
     static void _set_DirectorySeparatorChars(::Array<::Il2CppChar>* value);
     // protected System.String Canonicalize(System.String path)
-    // Offset: 0x1079A8C
+    // Offset: 0xFDBD50
     ::Il2CppString* Canonicalize(::Il2CppString* path);
     // static private System.Void .cctor()
-    // Offset: 0x1079DA8
+    // Offset: 0xFDC06C
     static void _cctor();
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x1079884
+    // Offset: 0xFDBB48
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
     static PathConstraint* New_ctor(::Il2CppString* expected);
     // protected override System.String GetStringRepresentation()
-    // Offset: 0x10799F0
+    // Offset: 0xFDBCB4
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::GetStringRepresentation()
     ::Il2CppString* GetStringRepresentation();

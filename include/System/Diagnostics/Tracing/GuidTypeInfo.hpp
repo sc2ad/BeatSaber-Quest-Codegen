@@ -27,15 +27,15 @@ namespace System::Diagnostics::Tracing {
   class GuidTypeInfo : public System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<System::Guid> {
     public:
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Guid value)
-    // Offset: 0xD93B20
+    // Offset: 0xCF3DE4
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, System::Guid& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0xD93988
+    // Offset: 0xCF3C4C
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public System.Void .ctor()
-    // Offset: 0xD93BA0
+    // Offset: 0xCF3E64
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo`1::.ctor()
     // Base method: System.Void Object::.ctor()

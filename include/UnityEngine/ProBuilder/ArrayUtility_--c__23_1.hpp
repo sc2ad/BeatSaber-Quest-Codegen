@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -45,17 +45,17 @@ namespace UnityEngine::ProBuilder {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayUtility::$$c__23_1<T>*>::get(), "<>9__23_0", value)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x117F960
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayUtility::$$c__23_1<T>*>::get(), ".cctor"));
     }
     // System.String <ToString>b__23_0(T x)
-    // Offset: 0x117FA54
+    // Offset: 0xFFFFFFFF
     ::Il2CppString* $ToString$b__23_0(T x) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<::Il2CppString*>(this, "<ToString>b__23_0", x)));
     }
     // public System.Void .ctor()
-    // Offset: 0x117FA3C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ArrayUtility::$$c__23_1<T>* New_ctor() {

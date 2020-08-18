@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool enableBloomPrePassFog;
     // public System.Void .ctor()
-    // Offset: 0xBFFA28
+    // Offset: 0x194853C
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

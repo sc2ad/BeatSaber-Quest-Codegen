@@ -79,61 +79,61 @@ namespace GlobalNamespace {
     // Offset: 0x68
     bool paused;
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0xBD0F3C
+    // Offset: 0x19182A4
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0xBD0FE0
+    // Offset: 0x1918348
     void remove_didPauseEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0xBD1084
+    // Offset: 0x19183EC
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0xBD1128
+    // Offset: 0x1918490
     void remove_didResumeEvent(System::Action* value);
     // public System.Void add_canPauseEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0xBD11CC
+    // Offset: 0x1918534
     void add_canPauseEvent(System::Action_1<System::Action_1<bool>*>* value);
     // public System.Void remove_canPauseEvent(System.Action`1<System.Action`1<System.Boolean>> value)
-    // Offset: 0xBD1270
+    // Offset: 0x19185D8
     void remove_canPauseEvent(System::Action_1<System::Action_1<bool>*>* value);
     // private System.Boolean get_canPause()
-    // Offset: 0xBD1314
+    // Offset: 0x191867C
     bool get_canPause();
     // private System.Void Start()
-    // Offset: 0xBD1400
+    // Offset: 0x1918768
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBD18D0
+    // Offset: 0x1918C38
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0xBD1E38
+    // Offset: 0x19191A0
     void OnApplicationPause(bool pauseStatus);
     // public System.Void Pause()
-    // Offset: 0xBD1E44
+    // Offset: 0x19191AC
     void Pause();
     // private System.Void HandlePauseTriggered()
-    // Offset: 0xBD1FDC
+    // Offset: 0x1919344
     void HandlePauseTriggered();
     // private System.Void HandleInputFocusWasCaptured()
-    // Offset: 0xBD1FE0
+    // Offset: 0x1919348
     void HandleInputFocusWasCaptured();
     // private System.Void HandleHMDUnmounted()
-    // Offset: 0xBD1FE4
+    // Offset: 0x191934C
     void HandleHMDUnmounted();
     // private System.Void HandlePauseMenuManagerDidFinishResumeAnimation()
-    // Offset: 0xBD1FE8
+    // Offset: 0x1919350
     void HandlePauseMenuManagerDidFinishResumeAnimation();
     // private System.Void HandlePauseMenuManagerDidPressContinueButton()
-    // Offset: 0xBD20BC
+    // Offset: 0x1919424
     void HandlePauseMenuManagerDidPressContinueButton();
     // private System.Void HandlePauseMenuManagerDidPressRestartButton()
-    // Offset: 0xBD212C
+    // Offset: 0x1919494
     void HandlePauseMenuManagerDidPressRestartButton();
     // private System.Void HandlePauseMenuManagerDidPressMenuButton()
-    // Offset: 0xBD21DC
+    // Offset: 0x1919544
     void HandlePauseMenuManagerDidPressMenuButton();
     // public System.Void .ctor()
-    // Offset: 0xBD228C
+    // Offset: 0x19195F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class AspDataFieldAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19578F8
+    // Offset: 0x18B3C3C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -17,7 +17,7 @@ namespace OnlineServices::API {
     // Offset: 0x10
     bool everythingOK;
     // public System.Void .ctor()
-    // Offset: 0xC3C914
+    // Offset: 0xBB3950
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HTTPAdminLeaderboardsHelper::ServerStatusResultDto* New_ctor();

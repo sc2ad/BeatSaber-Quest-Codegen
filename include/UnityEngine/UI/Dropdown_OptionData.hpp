@@ -27,28 +27,28 @@ namespace UnityEngine::UI {
     // Offset: 0x18
     UnityEngine::Sprite* m_Image;
     // public System.String get_text()
-    // Offset: 0x116452C
+    // Offset: 0x10C77F0
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1164534
+    // Offset: 0x10C77F8
     void set_text(::Il2CppString* value);
     // public UnityEngine.Sprite get_image()
-    // Offset: 0x116453C
+    // Offset: 0x10C7800
     UnityEngine::Sprite* get_image();
     // public System.Void set_image(UnityEngine.Sprite value)
-    // Offset: 0x1164544
+    // Offset: 0x10C7808
     void set_image(UnityEngine::Sprite* value);
     // public System.Void .ctor(System.String text)
-    // Offset: 0x1164554
+    // Offset: 0x10C7818
     static Dropdown::OptionData* New_ctor(::Il2CppString* text);
     // public System.Void .ctor(UnityEngine.Sprite image)
-    // Offset: 0x1164588
+    // Offset: 0x10C784C
     static Dropdown::OptionData* New_ctor(UnityEngine::Sprite* image);
     // public System.Void .ctor(System.String text, UnityEngine.Sprite image)
-    // Offset: 0x11645BC
+    // Offset: 0x10C7880
     static Dropdown::OptionData* New_ctor(::Il2CppString* text, UnityEngine::Sprite* image);
     // public System.Void .ctor()
-    // Offset: 0x116454C
+    // Offset: 0x10C7810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Dropdown::OptionData* New_ctor();

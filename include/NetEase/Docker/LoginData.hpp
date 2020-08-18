@@ -27,19 +27,19 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: LoginData
     LoginData(bool LoginSuccessful_ = {}, int LoginCode_ = {}, ::Il2CppString* UserName_ = {}) : LoginSuccessful{LoginSuccessful_}, LoginCode{LoginCode_}, UserName{UserName_} {}
     // public System.Boolean get_LoginSuccessful()
-    // Offset: 0xA5CB2C
+    // Offset: 0x9C6FF8
     bool get_LoginSuccessful();
     // public System.Void set_LoginSuccessful(System.Boolean value)
-    // Offset: 0xA5CB34
+    // Offset: 0x9C7000
     void set_LoginSuccessful(bool value);
     // public System.Void set_LoginCode(System.Int32 value)
-    // Offset: 0xA5CB40
+    // Offset: 0x9C700C
     void set_LoginCode(int value);
     // public System.String get_UserName()
-    // Offset: 0xA5CB48
+    // Offset: 0x9C7014
     ::Il2CppString* get_UserName();
     // public System.Void set_UserName(System.String value)
-    // Offset: 0xA5CB50
+    // Offset: 0x9C701C
     void set_UserName(::Il2CppString* value);
   }; // NetEase.Docker.LoginData
 }

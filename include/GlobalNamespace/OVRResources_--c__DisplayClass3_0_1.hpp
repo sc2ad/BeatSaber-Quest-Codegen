@@ -28,12 +28,12 @@ namespace GlobalNamespace {
     // Offset: 0x0
     ::Il2CppString* path;
     // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0x1292558
+    // Offset: 0xFFFFFFFF
     bool $Load$b__0(::Il2CppString* s) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<Load>b__0", s)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1292540
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRResources::$$c__DisplayClass3_0_1<T>* New_ctor() {

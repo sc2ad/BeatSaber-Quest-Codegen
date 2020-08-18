@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class NoteLineConnectionController::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::NoteLineConnectionController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC2E460
+    // Offset: 0xBA549C
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()

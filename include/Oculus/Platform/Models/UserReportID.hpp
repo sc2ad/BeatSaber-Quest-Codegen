@@ -25,7 +25,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     uint64_t ID;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA5AD4
+    // Offset: 0xE04D98
     static UserReportID* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.UserReportID
 }

@@ -53,78 +53,78 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.BinaryWriter Null
     static void _set_Null(System::IO::BinaryWriter* value);
     // public System.Void .ctor(System.IO.Stream output)
-    // Offset: 0x1128BAC
+    // Offset: 0x108BE70
     static BinaryWriter* New_ctor(System::IO::Stream* output);
     // public System.Void .ctor(System.IO.Stream output, System.Text.Encoding encoding)
-    // Offset: 0x1128DD4
+    // Offset: 0x108C098
     static BinaryWriter* New_ctor(System::IO::Stream* output, System::Text::Encoding* encoding);
     // public System.Void .ctor(System.IO.Stream output, System.Text.Encoding encoding, System.Boolean leaveOpen)
-    // Offset: 0x1128C2C
+    // Offset: 0x108BEF0
     static BinaryWriter* New_ctor(System::IO::Stream* output, System::Text::Encoding* encoding, bool leaveOpen);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1128DDC
+    // Offset: 0x108C0A0
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x1128E30
+    // Offset: 0x108C0F4
     void Flush();
     // public System.Void Write(System.Boolean value)
-    // Offset: 0x1128E54
+    // Offset: 0x108C118
     void Write(bool value);
     // public System.Void Write(System.Byte value)
-    // Offset: 0x1128EB0
+    // Offset: 0x108C174
     void Write(uint8_t value);
     // public System.Void Write(System.Byte[] buffer)
-    // Offset: 0x1128ED4
+    // Offset: 0x108C198
     void Write(::Array<uint8_t>* buffer);
     // public System.Void Write(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1128F84
+    // Offset: 0x108C248
     void Write(::Array<uint8_t>* buffer, int index, int count);
     // public System.Void Write(System.Char ch)
-    // Offset: 0x1128FA8
+    // Offset: 0x108C26C
     void Write(::Il2CppChar ch);
     // public System.Void Write(System.Char[] chars)
-    // Offset: 0x11290DC
+    // Offset: 0x108C3A0
     void Write(::Array<::Il2CppChar>* chars);
     // public System.Void Write(System.Double value)
-    // Offset: 0x11291B4
+    // Offset: 0x108C478
     void Write(double value);
     // public System.Void Write(System.Int16 value)
-    // Offset: 0x11291FC
+    // Offset: 0x108C4C0
     void Write(int16_t value);
     // public System.Void Write(System.UInt16 value)
-    // Offset: 0x1129270
+    // Offset: 0x108C534
     void Write(uint16_t value);
     // public System.Void Write(System.Int32 value)
-    // Offset: 0x11292E4
+    // Offset: 0x108C5A8
     void Write(int value);
     // public System.Void Write(System.UInt32 value)
-    // Offset: 0x1129390
+    // Offset: 0x108C654
     void Write(uint value);
     // public System.Void Write(System.Int64 value)
-    // Offset: 0x112943C
+    // Offset: 0x108C700
     void Write(int64_t value);
     // public System.Void Write(System.UInt64 value)
-    // Offset: 0x1129558
+    // Offset: 0x108C81C
     void Write(uint64_t value);
     // public System.Void Write(System.Single value)
-    // Offset: 0x1129674
+    // Offset: 0x108C938
     void Write(float value);
     // public System.Void Write(System.String value)
-    // Offset: 0x11296BC
+    // Offset: 0x108C980
     void Write(::Il2CppString* value);
     // protected System.Void Write7BitEncodedInt(System.Int32 value)
-    // Offset: 0x1129960
+    // Offset: 0x108CC24
     void Write7BitEncodedInt(int value);
     // static private System.Void .cctor()
-    // Offset: 0x11299C4
+    // Offset: 0x108CC88
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1128A9C
+    // Offset: 0x108BD60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryWriter* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x1128E20
+    // Offset: 0x108C0E4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

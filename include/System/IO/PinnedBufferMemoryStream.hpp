@@ -22,15 +22,15 @@ namespace System::IO {
     // Offset: 0x68
     System::Runtime::InteropServices::GCHandle pinningHandle;
     // System.Void .ctor(System.Byte[] array)
-    // Offset: 0x10009F0
+    // Offset: 0xF62CB4
     static PinnedBufferMemoryStream* New_ctor(::Array<uint8_t>* array);
     // protected override System.Void Finalize()
-    // Offset: 0x1000DB4
+    // Offset: 0xF63078
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1000E2C
+    // Offset: 0xF630F0
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

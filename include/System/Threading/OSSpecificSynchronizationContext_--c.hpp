@@ -20,17 +20,17 @@ namespace System::Threading {
     // Set static field: static public readonly System.Threading.OSSpecificSynchronizationContext/<>c <>9
     static void _set_$$9(System::Threading::OSSpecificSynchronizationContext::$$c* value);
     // Get static field: static public System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.Threading.OSSpecificSynchronizationContext> <>9__3_0
-    static typename System::Runtime::CompilerServices::ConditionalWeakTable_2<System::Threading::OSSpecificSynchronizationContext*, ::Il2CppObject*>::CreateValueCallback* _get_$$9__3_0();
+    static typename System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Threading::OSSpecificSynchronizationContext*>::CreateValueCallback* _get_$$9__3_0();
     // Set static field: static public System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.Threading.OSSpecificSynchronizationContext> <>9__3_0
-    static void _set_$$9__3_0(typename System::Runtime::CompilerServices::ConditionalWeakTable_2<System::Threading::OSSpecificSynchronizationContext*, ::Il2CppObject*>::CreateValueCallback* value);
+    static void _set_$$9__3_0(typename System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Threading::OSSpecificSynchronizationContext*>::CreateValueCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x13D732C
+    // Offset: 0x133A5F0
     static void _cctor();
     // System.Threading.OSSpecificSynchronizationContext <Get>b__3_0(System.Object _osContext)
-    // Offset: 0x13D739C
+    // Offset: 0x133A660
     System::Threading::OSSpecificSynchronizationContext* $Get$b__3_0(::Il2CppObject* _osContext);
     // public System.Void .ctor()
-    // Offset: 0x13D7394
+    // Offset: 0x133A658
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OSSpecificSynchronizationContext::$$c* New_ctor();

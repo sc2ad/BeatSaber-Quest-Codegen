@@ -26,21 +26,21 @@ namespace Polyglot {
     // Offset: 0x18
     UnityEngine::UI::Dropdown* dropdown;
     // public System.Void Reset()
-    // Offset: 0x190C638
+    // Offset: 0x186A984
     void Reset();
     // public System.Void Start()
-    // Offset: 0x190C698
+    // Offset: 0x186A9E4
     void Start();
     // private System.Void CreateDropdown()
-    // Offset: 0x190C6C8
+    // Offset: 0x186AA14
     void CreateDropdown();
     // public System.Void OnLocalize()
-    // Offset: 0x190CBB8
+    // Offset: 0x186AF04
     // Implemented from: Polyglot.ILocalize
     // Base method: System.Void ILocalize::OnLocalize()
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x190CCEC
+    // Offset: 0x186B038
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

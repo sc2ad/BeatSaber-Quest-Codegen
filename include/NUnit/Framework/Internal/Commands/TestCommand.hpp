@@ -26,13 +26,13 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x10
     NUnit::Framework::Internal::Test* Test;
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
-    // Offset: 0x1081C78
+    // Offset: 0xFE3F3C
     static TestCommand* New_ctor(NUnit::Framework::Internal::Test* test);
     // public NUnit.Framework.Internal.Test get_Test()
-    // Offset: 0x1081C70
+    // Offset: 0xFE3F34
     NUnit::Framework::Internal::Test* get_Test();
     // private System.Void set_Test(NUnit.Framework.Internal.Test value)
-    // Offset: 0x1083468
+    // Offset: 0xFE572C
     void set_Test(NUnit::Framework::Internal::Test* value);
     // public NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0xFFFFFFFF

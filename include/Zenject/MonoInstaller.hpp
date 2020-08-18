@@ -14,7 +14,7 @@ namespace Zenject {
   class MonoInstaller : public Zenject::MonoInstallerBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFBF1E8
+    // Offset: 0xF1F4AC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -42,37 +42,37 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers;
     // public System.Int32 get_score()
-    // Offset: 0xBD5490
+    // Offset: 0x191C7F8
     int get_score();
     // private System.Void set_score(System.Int32 value)
-    // Offset: 0xBD5498
+    // Offset: 0x191C800
     void set_score(int value);
     // public System.Int32 get_rank()
-    // Offset: 0xBD54A0
+    // Offset: 0x191C808
     int get_rank();
     // private System.Void set_rank(System.Int32 value)
-    // Offset: 0xBD54A8
+    // Offset: 0x191C810
     void set_rank(int value);
     // public System.String get_playerName()
-    // Offset: 0xBD54B0
+    // Offset: 0x191C818
     ::Il2CppString* get_playerName();
     // private System.Void set_playerName(System.String value)
-    // Offset: 0xBD54B8
+    // Offset: 0x191C820
     void set_playerName(::Il2CppString* value);
     // public System.String get_playerId()
-    // Offset: 0xBD54C0
+    // Offset: 0x191C828
     ::Il2CppString* get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0xBD54C8
+    // Offset: 0x191C830
     void set_playerId(::Il2CppString* value);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> get_gameplayModifiers()
-    // Offset: 0xBD54D0
+    // Offset: 0x191C838
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(System.Collections.Generic.List`1<GameplayModifierParamsSO> value)
-    // Offset: 0xBD54D8
+    // Offset: 0x191C840
     void set_gameplayModifiers(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* value);
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String playerName, System.String playerId, System.Collections.Generic.List`1<GameplayModifierParamsSO> gameplayModifiers)
-    // Offset: 0xBD54E0
+    // Offset: 0x191C848
     static PlatformLeaderboardsModel::LeaderboardScore* New_ctor(int score, int rank, ::Il2CppString* playerName, ::Il2CppString* playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers);
   }; // PlatformLeaderboardsModel/LeaderboardScore
 }

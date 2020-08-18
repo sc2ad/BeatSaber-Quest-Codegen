@@ -14,7 +14,7 @@ namespace System::Net::Configuration {
   class ConnectionManagementElementCollection : public System::Configuration::ConfigurationElementCollection {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF6681C
+    // Offset: 0xEC7AE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectionManagementElementCollection* New_ctor();

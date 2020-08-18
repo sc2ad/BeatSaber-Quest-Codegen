@@ -19,6 +19,8 @@ namespace GlobalNamespace {
   class BeatmapCharacteristicSO;
   // Forward declaring type: ColorSchemeSO
   class ColorSchemeSO;
+  // Forward declaring type: EnvironmentInfoSO
+  class EnvironmentInfoSO;
   // Forward declaring type: GameplayModifiers
   class GameplayModifiers;
   // Forward declaring type: PlayerSpecificSettings
@@ -51,31 +53,34 @@ namespace GlobalNamespace {
     // private ColorSchemeSO _colorScheme
     // Offset: 0x30
     GlobalNamespace::ColorSchemeSO* colorScheme;
-    // private GameplayModifiers _gameplayModifiers
+    // private EnvironmentInfoSO _environmentInfo
     // Offset: 0x38
+    GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+    // private GameplayModifiers _gameplayModifiers
+    // Offset: 0x40
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // private PlayerSpecificSettings _playerSpecificSettings
-    // Offset: 0x40
+    // Offset: 0x48
     GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
     // private PracticeSettings _practiceSettings
-    // Offset: 0x48
+    // Offset: 0x50
     GlobalNamespace::PracticeSettings* practiceSettings;
     // private System.String _backButtonText
-    // Offset: 0x50
+    // Offset: 0x58
     ::Il2CppString* backButtonText;
     // private System.Boolean _useTestNoteCutSoundEffects
-    // Offset: 0x58
+    // Offset: 0x60
     bool useTestNoteCutSoundEffects;
     // private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
-    // Offset: 0x60
+    // Offset: 0x68
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0xBA1A4C
+    // Offset: 0x190B0F8
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xBA2068
+    // Offset: 0x190B730
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

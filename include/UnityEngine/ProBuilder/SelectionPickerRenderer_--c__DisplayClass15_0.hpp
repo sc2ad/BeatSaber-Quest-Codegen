@@ -32,10 +32,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     ::Array<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices;
     // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
-    // Offset: 0x103FEC4
+    // Offset: 0xFA2188
     int $PickVerticesInRect$b__0(int x);
     // public System.Void .ctor()
-    // Offset: 0x103DA74
+    // Offset: 0xF9FD38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectionPickerRenderer::$$c__DisplayClass15_0* New_ctor();

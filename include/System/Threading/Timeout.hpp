@@ -18,7 +18,7 @@ namespace System::Threading {
     // Set static field: static public readonly System.TimeSpan InfiniteTimeSpan
     static void _set_InfiniteTimeSpan(System::TimeSpan value);
     // static private System.Void .cctor()
-    // Offset: 0xCE93BC
+    // Offset: 0xC49680
     static void _cctor();
   }; // System.Threading.Timeout
 }

@@ -172,127 +172,127 @@ namespace GlobalNamespace {
     // Set static field: static public OVRGearVrControllerTest/BoolMonitor/BoolGenerator <>9__4_37
     static void _set_$$9__4_37(GlobalNamespace::OVRGearVrControllerTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0xCD45E8
+    // Offset: 0xC348AC
     static void _cctor();
     // System.Boolean <Start>b__4_0()
-    // Offset: 0xCD4658
+    // Offset: 0xC3491C
     bool $Start$b__4_0();
     // System.Boolean <Start>b__4_1()
-    // Offset: 0xCD46BC
+    // Offset: 0xC34980
     bool $Start$b__4_1();
     // System.Boolean <Start>b__4_2()
-    // Offset: 0xCD4724
+    // Offset: 0xC349E8
     bool $Start$b__4_2();
     // System.Boolean <Start>b__4_3()
-    // Offset: 0xCD478C
+    // Offset: 0xC34A50
     bool $Start$b__4_3();
     // System.Boolean <Start>b__4_4()
-    // Offset: 0xCD47F4
+    // Offset: 0xC34AB8
     bool $Start$b__4_4();
     // System.Boolean <Start>b__4_5()
-    // Offset: 0xCD485C
+    // Offset: 0xC34B20
     bool $Start$b__4_5();
     // System.Boolean <Start>b__4_6()
-    // Offset: 0xCD48C4
+    // Offset: 0xC34B88
     bool $Start$b__4_6();
     // System.Boolean <Start>b__4_7()
-    // Offset: 0xCD492C
+    // Offset: 0xC34BF0
     bool $Start$b__4_7();
     // System.Boolean <Start>b__4_8()
-    // Offset: 0xCD4994
+    // Offset: 0xC34C58
     bool $Start$b__4_8();
     // System.Boolean <Start>b__4_9()
-    // Offset: 0xCD49FC
+    // Offset: 0xC34CC0
     bool $Start$b__4_9();
     // System.Boolean <Start>b__4_10()
-    // Offset: 0xCD4A64
+    // Offset: 0xC34D28
     bool $Start$b__4_10();
     // System.Boolean <Start>b__4_11()
-    // Offset: 0xCD4ACC
+    // Offset: 0xC34D90
     bool $Start$b__4_11();
     // System.Boolean <Start>b__4_12()
-    // Offset: 0xCD4B34
+    // Offset: 0xC34DF8
     bool $Start$b__4_12();
     // System.Boolean <Start>b__4_13()
-    // Offset: 0xCD4B9C
+    // Offset: 0xC34E60
     bool $Start$b__4_13();
     // System.Boolean <Start>b__4_14()
-    // Offset: 0xCD4C04
+    // Offset: 0xC34EC8
     bool $Start$b__4_14();
     // System.Boolean <Start>b__4_15()
-    // Offset: 0xCD4C6C
+    // Offset: 0xC34F30
     bool $Start$b__4_15();
     // System.Boolean <Start>b__4_16()
-    // Offset: 0xCD4CD4
+    // Offset: 0xC34F98
     bool $Start$b__4_16();
     // System.Boolean <Start>b__4_17()
-    // Offset: 0xCD4D3C
+    // Offset: 0xC35000
     bool $Start$b__4_17();
     // System.Boolean <Start>b__4_18()
-    // Offset: 0xCD4DA4
+    // Offset: 0xC35068
     bool $Start$b__4_18();
     // System.Boolean <Start>b__4_19()
-    // Offset: 0xCD4E0C
+    // Offset: 0xC350D0
     bool $Start$b__4_19();
     // System.Boolean <Start>b__4_20()
-    // Offset: 0xCD4E74
+    // Offset: 0xC35138
     bool $Start$b__4_20();
     // System.Boolean <Start>b__4_21()
-    // Offset: 0xCD4EDC
+    // Offset: 0xC351A0
     bool $Start$b__4_21();
     // System.Boolean <Start>b__4_22()
-    // Offset: 0xCD4F44
+    // Offset: 0xC35208
     bool $Start$b__4_22();
     // System.Boolean <Start>b__4_23()
-    // Offset: 0xCD4FAC
+    // Offset: 0xC35270
     bool $Start$b__4_23();
     // System.Boolean <Start>b__4_24()
-    // Offset: 0xCD5014
+    // Offset: 0xC352D8
     bool $Start$b__4_24();
     // System.Boolean <Start>b__4_25()
-    // Offset: 0xCD507C
+    // Offset: 0xC35340
     bool $Start$b__4_25();
     // System.Boolean <Start>b__4_26()
-    // Offset: 0xCD50E4
+    // Offset: 0xC353A8
     bool $Start$b__4_26();
     // System.Boolean <Start>b__4_27()
-    // Offset: 0xCD514C
+    // Offset: 0xC35410
     bool $Start$b__4_27();
     // System.Boolean <Start>b__4_28()
-    // Offset: 0xCD51B4
+    // Offset: 0xC35478
     bool $Start$b__4_28();
     // System.Boolean <Start>b__4_29()
-    // Offset: 0xCD521C
+    // Offset: 0xC354E0
     bool $Start$b__4_29();
     // System.Boolean <Start>b__4_30()
-    // Offset: 0xCD5284
+    // Offset: 0xC35548
     bool $Start$b__4_30();
     // System.Boolean <Start>b__4_31()
-    // Offset: 0xCD52EC
+    // Offset: 0xC355B0
     bool $Start$b__4_31();
     // System.Boolean <Start>b__4_32()
-    // Offset: 0xCD5354
+    // Offset: 0xC35618
     bool $Start$b__4_32();
     // System.Boolean <Start>b__4_33()
-    // Offset: 0xCD53BC
+    // Offset: 0xC35680
     bool $Start$b__4_33();
     // System.Boolean <Start>b__4_34()
-    // Offset: 0xCD5424
+    // Offset: 0xC356E8
     bool $Start$b__4_34();
     // System.Boolean <Start>b__4_35()
-    // Offset: 0xCD548C
+    // Offset: 0xC35750
     bool $Start$b__4_35();
     // System.Boolean <Start>b__4_36()
-    // Offset: 0xCD54F4
+    // Offset: 0xC357B8
     bool $Start$b__4_36();
     // System.Boolean <Start>b__4_37()
-    // Offset: 0xCD555C
+    // Offset: 0xC35820
     bool $Start$b__4_37();
     // System.Boolean <.cctor>b__9_0()
-    // Offset: 0xCD55C4
+    // Offset: 0xC35888
     bool $_cctor$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0xCD4650
+    // Offset: 0xC34914
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRGearVrControllerTest::$$c* New_ctor();

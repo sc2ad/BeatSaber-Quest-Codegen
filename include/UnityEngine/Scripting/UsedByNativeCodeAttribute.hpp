@@ -17,13 +17,13 @@ namespace UnityEngine::Scripting {
     // Offset: 0x10
     ::Il2CppString* Name;
     // public System.Void .ctor(System.String name)
-    // Offset: 0x196B090
+    // Offset: 0x18C73D4
     static UsedByNativeCodeAttribute* New_ctor(::Il2CppString* name);
     // public System.Void set_Name(System.String value)
-    // Offset: 0x196B0C4
+    // Offset: 0x18C7408
     void set_Name(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x196B088
+    // Offset: 0x18C73CC
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

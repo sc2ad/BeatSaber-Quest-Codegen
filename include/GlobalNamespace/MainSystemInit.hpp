@@ -74,13 +74,13 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::BeatmapLevelSO* anyBeatmapLevelSO;
     // public System.Void Init()
-    // Offset: 0xBFDDE0
+    // Offset: 0x19468F4
     void Init();
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0xBFE188
+    // Offset: 0x1946C9C
     void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xBFE25C
+    // Offset: 0x1946D70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

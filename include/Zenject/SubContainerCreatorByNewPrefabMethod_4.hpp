@@ -55,12 +55,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Collections::Generic::List_1<Zenject::TypeValuePair>* args;
       // System.Void <AddInstallers>b__0(Zenject.DiContainer subContainer)
-      // Offset: 0x19463F8
+      // Offset: 0xFFFFFFFF
       void $AddInstallers$b__0(Zenject::DiContainer* subContainer) {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "<AddInstallers>b__0", subContainer));
       }
       // public System.Void .ctor()
-      // Offset: 0x19463E0
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename SubContainerCreatorByNewPrefabMethod_4<TParam1, TParam2, TParam3, TParam4>::$$c__DisplayClass2_0* New_ctor() {
@@ -71,12 +71,12 @@ namespace Zenject {
     // Offset: 0x0
     System::Action_5<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4>* installerMethod;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`5<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4> installerMethod)
-    // Offset: 0x194664C
+    // Offset: 0xFFFFFFFF
     static SubContainerCreatorByNewPrefabMethod_4<TParam1, TParam2, TParam3, TParam4>* New_ctor(Zenject::DiContainer* container, Zenject::IPrefabProvider* prefabProvider, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Action_5<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4>* installerMethod) {
       return (SubContainerCreatorByNewPrefabMethod_4<TParam1, TParam2, TParam3, TParam4>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<SubContainerCreatorByNewPrefabMethod_4<TParam1, TParam2, TParam3, TParam4>*>::get(), container, prefabProvider, gameObjectBindInfo, installerMethod)));
     }
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
-    // Offset: 0x1946688
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
     // Base method: System.Void SubContainerCreatorDynamicContext::AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context) {

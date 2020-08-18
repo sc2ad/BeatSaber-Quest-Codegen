@@ -17,13 +17,13 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     bool CreateConstructorReferences;
     // public System.Boolean get_CreateConstructorReferences()
-    // Offset: 0x1957C28
+    // Offset: 0x18B3F6C
     bool get_CreateConstructorReferences();
     // private System.Void set_CreateConstructorReferences(System.Boolean value)
-    // Offset: 0x1957C30
+    // Offset: 0x18B3F74
     void set_CreateConstructorReferences(bool value);
     // public System.Void .ctor(System.Boolean createConstructorReferences)
-    // Offset: 0x1957C3C
+    // Offset: 0x18B3F80
     static AspTypePropertyAttribute* New_ctor(bool createConstructorReferences);
   }; // JetBrains.Annotations.AspTypePropertyAttribute
 }

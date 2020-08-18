@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   class NoteTypeExtensions : public ::Il2CppObject {
     public:
     // static public System.Boolean IsBasicNote(NoteType noteType)
-    // Offset: 0xC2F7D4
+    // Offset: 0xBA6810
     static bool IsBasicNote(GlobalNamespace::NoteType noteType);
   }; // NoteTypeExtensions
 }

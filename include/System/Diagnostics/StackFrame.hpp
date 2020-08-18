@@ -54,45 +54,45 @@ namespace System::Diagnostics {
     // Set static field: static public System.Int32 OFFSET_UNKNOWN
     static void _set_OFFSET_UNKNOWN(int value);
     // static private System.Boolean get_frame_info(System.Int32 skip, System.Boolean needFileInfo, System.Reflection.MethodBase method, System.Int32 iloffset, System.Int32 native_offset, System.String file, System.Int32 line, System.Int32 column)
-    // Offset: 0xC920B4
+    // Offset: 0xBF2378
     static bool get_frame_info(int skip, bool needFileInfo, System::Reflection::MethodBase*& method, int& iloffset, int& native_offset, ::Il2CppString*& file, int& line, int& column);
     // public System.Void .ctor(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0xC92118
+    // Offset: 0xBF23DC
     static StackFrame* New_ctor(int skipFrames, bool fNeedFileInfo);
     // public System.Int32 GetFileLineNumber()
-    // Offset: 0xC92184
+    // Offset: 0xBF2448
     int GetFileLineNumber();
     // public System.String GetFileName()
-    // Offset: 0xC9218C
+    // Offset: 0xBF2450
     ::Il2CppString* GetFileName();
     // System.String GetSecureFileName()
-    // Offset: 0xC92194
+    // Offset: 0xBF2458
     ::Il2CppString* GetSecureFileName();
     // public System.Int32 GetILOffset()
-    // Offset: 0xC92270
+    // Offset: 0xBF2534
     int GetILOffset();
     // public System.Reflection.MethodBase GetMethod()
-    // Offset: 0xC92278
+    // Offset: 0xBF253C
     System::Reflection::MethodBase* GetMethod();
     // public System.Int32 GetNativeOffset()
-    // Offset: 0xC92280
+    // Offset: 0xBF2544
     int GetNativeOffset();
     // System.Int64 GetMethodAddress()
-    // Offset: 0xC92288
+    // Offset: 0xBF254C
     int64_t GetMethodAddress();
     // System.UInt32 GetMethodIndex()
-    // Offset: 0xC92290
+    // Offset: 0xBF2554
     uint GetMethodIndex();
     // System.String GetInternalMethodName()
-    // Offset: 0xC92298
+    // Offset: 0xBF255C
     ::Il2CppString* GetInternalMethodName();
     // public System.Void .ctor()
-    // Offset: 0xC920BC
+    // Offset: 0xBF2380
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StackFrame* New_ctor();
     // public override System.String ToString()
-    // Offset: 0xC922A0
+    // Offset: 0xBF2564
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

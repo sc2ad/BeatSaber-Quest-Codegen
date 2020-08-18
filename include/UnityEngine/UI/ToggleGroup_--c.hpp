@@ -14,8 +14,8 @@ namespace System {
   // Forward declaring type: Predicate`1<T>
   template<typename T>
   class Predicate_1;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -42,16 +42,16 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.Toggle,System.Boolean> <>9__13_0
     static void _set_$$9__13_0(System::Func_2<UnityEngine::UI::Toggle*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x192D464
+    // Offset: 0x188A7B0
     static void _cctor();
     // System.Boolean <AnyTogglesOn>b__12_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x192D4D4
+    // Offset: 0x188A820
     bool $AnyTogglesOn$b__12_0(UnityEngine::UI::Toggle* x);
     // System.Boolean <ActiveToggles>b__13_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x192D4EC
+    // Offset: 0x188A838
     bool $ActiveToggles$b__13_0(UnityEngine::UI::Toggle* x);
     // public System.Void .ctor()
-    // Offset: 0x192D4CC
+    // Offset: 0x188A818
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ToggleGroup::$$c* New_ctor();

@@ -25,21 +25,21 @@ namespace Zenject {
     static_assert((!std::is_complete_v<std::remove_pointer_t<TValue>> || std::is_base_of_v<Zenject::IPoolable, std::remove_pointer_t<TValue>>));
     public:
     // protected override System.Void OnDespawned(TValue item)
-    // Offset: 0x15E850C
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase`1::OnDespawned(TValue item)
     void OnDespawned(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
     }
     // protected override System.Void Reinitialize(TValue item)
-    // Offset: 0x15E85B8
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool`1::Reinitialize(TValue item)
     void Reinitialize(TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Reinitialize", item));
     }
     // public System.Void .ctor()
-    // Offset: 0x15E8668
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool`1::.ctor()
     // Base method: System.Void MemoryPoolBase`1::.ctor()

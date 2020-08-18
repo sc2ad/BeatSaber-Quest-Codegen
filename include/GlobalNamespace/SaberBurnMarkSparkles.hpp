@@ -73,19 +73,19 @@ namespace GlobalNamespace {
     // Offset: 0x78
     UnityEngine::ParticleSystem::EmitParams sparklesEmitParams;
     // protected System.Void Start()
-    // Offset: 0xC22EA8
+    // Offset: 0xB9AEE4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC23364
+    // Offset: 0xB9B3A0
     void OnDestroy();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0xC23470
+    // Offset: 0xB9B4AC
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // protected System.Void LateUpdate()
-    // Offset: 0xC23708
+    // Offset: 0xB9B744
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xC23BF0
+    // Offset: 0xB9BC2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

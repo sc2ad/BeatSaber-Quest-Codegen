@@ -45,31 +45,31 @@ namespace GlobalNamespace {
     // Offset: 0x45
     bool requires360Movement;
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0xB8EB40
+    // Offset: 0x18F81EC
     UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0xB8EB48
+    // Offset: 0x18F81F4
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
-    // Offset: 0xB8EB50
+    // Offset: 0x18F81FC
     ::Il2CppString* get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
-    // Offset: 0xB8EB58
+    // Offset: 0x18F8204
     ::Il2CppString* get_serializedName();
     // public System.String get_compoundIdPartName()
-    // Offset: 0xB8EB60
+    // Offset: 0x18F820C
     ::Il2CppString* get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
-    // Offset: 0xB8EB68
+    // Offset: 0x18F8214
     int get_sortingOrder();
     // public System.Boolean get_containsRotationEvents()
-    // Offset: 0xB8EB70
+    // Offset: 0x18F821C
     bool get_containsRotationEvents();
     // public System.Boolean get_requires360Movement()
-    // Offset: 0xB8EB78
+    // Offset: 0x18F8224
     bool get_requires360Movement();
     // public System.Void .ctor()
-    // Offset: 0xB8EB80
+    // Offset: 0x18F822C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

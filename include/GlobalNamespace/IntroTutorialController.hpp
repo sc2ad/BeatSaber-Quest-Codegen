@@ -82,40 +82,40 @@ namespace GlobalNamespace {
     // Offset: 0x62
     bool blueRingWrapperActive;
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0xB42AE8
+    // Offset: 0xB457B4
     void add_introTutorialDidFinishEvent(System::Action* value);
     // public System.Void remove_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0xB42B8C
+    // Offset: 0xB45858
     void remove_introTutorialDidFinishEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0xB42C30
+    // Offset: 0xB458FC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB42DB4
+    // Offset: 0xB45A80
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xB42F54
+    // Offset: 0xB45C20
     void Update();
     // private System.Void CleanUp()
-    // Offset: 0xB42DB8
+    // Offset: 0xB45A84
     void CleanUp();
     // private System.Void HandleGameDidPause()
-    // Offset: 0xB430A4
+    // Offset: 0xB45D70
     void HandleGameDidPause();
     // private System.Void HandlegameDidResume()
-    // Offset: 0xB43120
+    // Offset: 0xB45DEC
     void HandlegameDidResume();
     // private System.Void ShowFinishAnimation()
-    // Offset: 0xB43018
+    // Offset: 0xB45CE4
     void ShowFinishAnimation();
     // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
-    // Offset: 0xB43164
+    // Offset: 0xB45E30
     System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
     // private System.Void SetFinishAnimationParams(System.Single progress)
-    // Offset: 0xB4320C
+    // Offset: 0xB45ED8
     void SetFinishAnimationParams(float progress);
     // public System.Void .ctor()
-    // Offset: 0xB432B4
+    // Offset: 0xB45F80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

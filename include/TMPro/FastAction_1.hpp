@@ -41,22 +41,22 @@ namespace TMPro {
     // Offset: 0x0
     System::Collections::Generic::Dictionary_2<System::Action_1<A>*, System::Collections::Generic::LinkedListNode_1<System::Action_1<A>*>*>* lookup;
     // public System.Void Add(System.Action`1<A> rhs)
-    // Offset: 0x13F5B34
+    // Offset: 0xFFFFFFFF
     void Add(System::Action_1<A>* rhs) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Add", rhs));
     }
     // public System.Void Remove(System.Action`1<A> rhs)
-    // Offset: 0x13F5BD8
+    // Offset: 0xFFFFFFFF
     void Remove(System::Action_1<A>* rhs) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Remove", rhs));
     }
     // public System.Void Call(A a)
-    // Offset: 0x13F5C70
+    // Offset: 0xFFFFFFFF
     void Call(A a) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Call", a));
     }
     // public System.Void .ctor()
-    // Offset: 0x13F5D18
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FastAction_1<A>* New_ctor() {

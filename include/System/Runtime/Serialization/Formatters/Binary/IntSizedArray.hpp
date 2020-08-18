@@ -20,24 +20,24 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     ::Array<int>* negObjects;
     // private System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.IntSizedArray sizedArray)
-    // Offset: 0xE253C8
+    // Offset: 0xD8568C
     static IntSizedArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::IntSizedArray* sizedArray);
     // System.Int32 get_Item(System.Int32 index)
-    // Offset: 0xE2554C
+    // Offset: 0xD85810
     int get_Item(int index);
     // System.Void set_Item(System.Int32 index, System.Int32 value)
-    // Offset: 0xE255D0
+    // Offset: 0xD85894
     void set_Item(int index, int value);
     // System.Void IncreaseCapacity(System.Int32 index)
-    // Offset: 0xE25690
+    // Offset: 0xD85954
     void IncreaseCapacity(int index);
     // public System.Void .ctor()
-    // Offset: 0xE25340
+    // Offset: 0xD85604
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IntSizedArray* New_ctor();
     // public System.Object Clone()
-    // Offset: 0xE254EC
+    // Offset: 0xD857B0
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();

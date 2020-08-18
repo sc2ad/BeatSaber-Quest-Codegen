@@ -35,16 +35,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Action* TriggerCheckerOnStayEvent;
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0xCBB32C
+    // Offset: 0xC1B5F0
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0xCBB340
+    // Offset: 0xC1B604
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0xCBB354
+    // Offset: 0xC1B618
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0xCBB368
+    // Offset: 0xC1B62C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

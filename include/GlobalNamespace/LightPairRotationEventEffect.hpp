@@ -37,44 +37,47 @@ namespace GlobalNamespace {
     // private BeatmapEventType _eventR
     // Offset: 0x1C
     GlobalNamespace::BeatmapEventType eventR;
-    // private UnityEngine.Vector3 _rotationVector
+    // private BeatmapEventType _switchOverrideRandomValuesEvent
     // Offset: 0x20
+    GlobalNamespace::BeatmapEventType switchOverrideRandomValuesEvent;
+    // private UnityEngine.Vector3 _rotationVector
+    // Offset: 0x24
     UnityEngine::Vector3 rotationVector;
     // private System.Boolean _overrideRandomValues
-    // Offset: 0x2C
+    // Offset: 0x30
     bool overrideRandomValues;
     // private System.Boolean _useZPositionForAngleOffset
-    // Offset: 0x2D
+    // Offset: 0x31
     bool useZPositionForAngleOffset;
     // private System.Single _zPositionAngleOffsetScale
-    // Offset: 0x30
+    // Offset: 0x34
     float zPositionAngleOffsetScale;
     // private System.Single _startRotation
-    // Offset: 0x34
+    // Offset: 0x38
     float startRotation;
     // private UnityEngine.Transform _transformL
-    // Offset: 0x38
+    // Offset: 0x40
     UnityEngine::Transform* transformL;
     // private UnityEngine.Transform _transformR
-    // Offset: 0x40
+    // Offset: 0x48
     UnityEngine::Transform* transformR;
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
-    // Offset: 0x48
+    // Offset: 0x50
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // private LightPairRotationEventEffect/RotationData _rotationDataL
-    // Offset: 0x50
+    // Offset: 0x58
     GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationDataL;
     // private LightPairRotationEventEffect/RotationData _rotationDataR
-    // Offset: 0x58
+    // Offset: 0x60
     GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationDataR;
     // private System.Int32 _randomGenerationFrameNum
-    // Offset: 0x60
+    // Offset: 0x68
     int randomGenerationFrameNum;
     // private System.Single _randomStartRotation
-    // Offset: 0x64
+    // Offset: 0x6C
     float randomStartRotation;
     // private System.Single _randomDirection
-    // Offset: 0x68
+    // Offset: 0x70
     float randomDirection;
     // static field const value: static private System.Single kSpeedMultiplier
     static constexpr const float kSpeedMultiplier = 20;
@@ -83,22 +86,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
     // protected System.Void Start()
-    // Offset: 0xBF68EC
+    // Offset: 0x193EE9C
     void Start();
     // protected System.Void Update()
-    // Offset: 0xBF6AAC
+    // Offset: 0x193F170
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0xBF6B94
+    // Offset: 0x193F3F4
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBF6C6C
+    // Offset: 0x193F4CC
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void UpdateRotationData(System.Int32 beatmapEventDataValue, LightPairRotationEventEffect/RotationData rotationData, System.Single startRotationOffset, System.Single direction)
-    // Offset: 0xBF6E04
+    // Offset: 0x193F74C
     void UpdateRotationData(int beatmapEventDataValue, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationData, float startRotationOffset, float direction);
     // public System.Void .ctor()
-    // Offset: 0xBF6ED8
+    // Offset: 0x193F9C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

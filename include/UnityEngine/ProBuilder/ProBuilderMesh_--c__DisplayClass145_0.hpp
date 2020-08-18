@@ -24,10 +24,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     int i;
     // System.Boolean <UnusedElementGroup>b__0(UnityEngine.ProBuilder.Face element)
-    // Offset: 0x1035A00
+    // Offset: 0xF97CC4
     bool $UnusedElementGroup$b__0(UnityEngine::ProBuilder::Face* element);
     // public System.Void .ctor()
-    // Offset: 0x1032528
+    // Offset: 0xF947EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProBuilderMesh::$$c__DisplayClass145_0* New_ctor();

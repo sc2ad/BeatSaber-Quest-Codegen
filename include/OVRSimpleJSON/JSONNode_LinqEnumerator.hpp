@@ -34,13 +34,13 @@ namespace OVRSimpleJSON {
     // Offset: 0x18
     OVRSimpleJSON::JSONNode::Enumerator m_Enumerator;
     // System.Void .ctor(OVRSimpleJSON.JSONNode aNode)
-    // Offset: 0xF4D390
+    // Offset: 0xEAE654
     static JSONNode::LinqEnumerator* New_ctor(OVRSimpleJSON::JSONNode* aNode);
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode>> GetEnumerator()
-    // Offset: 0xF516D4
+    // Offset: 0xEB2998
     System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>* GetEnumerator();
     // public System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> get_Current()
-    // Offset: 0xF51620
+    // Offset: 0xEB28E4
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> get_Current();
@@ -48,17 +48,17 @@ namespace OVRSimpleJSON {
     // Maps to method: get_Current
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xF51628
+    // Offset: 0xEB28EC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0xF51694
+    // Offset: 0xEB2958
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Void Dispose()
-    // Offset: 0xF5169C
+    // Offset: 0xEB2960
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -66,7 +66,7 @@ namespace OVRSimpleJSON {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void Reset()
-    // Offset: 0xF51738
+    // Offset: 0xEB29FC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -74,7 +74,7 @@ namespace OVRSimpleJSON {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xF517F0
+    // Offset: 0xEB2AB4
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

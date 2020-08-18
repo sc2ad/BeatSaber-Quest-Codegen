@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Offset: 0xC0
     UnityEngine::ParticleSystem::EmitParams explosionPSEmitParams;
     // protected System.Void Awake()
-    // Offset: 0xB5BB58
+    // Offset: 0x18E3088
     void Awake();
     // public System.Void SpawnExplosion(UnityEngine.Vector3 pos)
-    // Offset: 0xB5BB90
+    // Offset: 0x18E30C0
     void SpawnExplosion(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0xB5BC58
+    // Offset: 0x18E3188
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

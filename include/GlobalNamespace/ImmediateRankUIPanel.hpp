@@ -51,16 +51,16 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     GlobalNamespace::RankModel::Rank prevImmediateRank;
     // protected System.Void Start()
-    // Offset: 0xB424B0
+    // Offset: 0xB4517C
     void Start();
     // protected System.Void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange()
-    // Offset: 0xB42730
+    // Offset: 0xB453FC
     void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
     // private System.Void RefreshUI()
-    // Offset: 0xB42574
+    // Offset: 0xB45240
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0xB42734
+    // Offset: 0xB45400
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

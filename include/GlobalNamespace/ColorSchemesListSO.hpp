@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::ColorSchemeSO*>* colorSchemes;
     // public ColorSchemeSO[] get_colorSchemes()
-    // Offset: 0x1976BB8
+    // Offset: 0x1974C10
     ::Array<GlobalNamespace::ColorSchemeSO*>* get_colorSchemes();
     // public System.Void .ctor()
-    // Offset: 0x1976BC0
+    // Offset: 0x1974C18
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

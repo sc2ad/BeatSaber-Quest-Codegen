@@ -40,28 +40,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<BloomPrePassBGLight> _bloomBGLightList
     static void _set__bloomBGLightList(System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassBGLight*>* value);
     // static public System.Collections.Generic.List`1<BloomPrePassBGLight> get_bloomBGLightList()
-    // Offset: 0x181DDB4
+    // Offset: 0x177C0EC
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassBGLight*>* get_bloomBGLightList();
     // public UnityEngine.Color get_color()
-    // Offset: 0x181DE1C
+    // Offset: 0x177C154
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x181DE28
+    // Offset: 0x177C160
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Color get_bgColor()
-    // Offset: 0x181DE34
+    // Offset: 0x177C16C
     UnityEngine::Color get_bgColor();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x181DEC0
+    // Offset: 0x177C1F8
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x181DF50
+    // Offset: 0x177C288
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x181DFD4
+    // Offset: 0x177C30C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x181E058
+    // Offset: 0x177C390
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassBGLight* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x181E074
+    // Offset: 0x177C3AC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

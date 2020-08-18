@@ -64,100 +64,100 @@ namespace System::IO {
     // Set static field: static readonly System.Char[] trimEndCharsUnix
     static void _set_trimEndCharsUnix(::Array<::Il2CppChar>* value);
     // static public System.String ChangeExtension(System.String path, System.String extension)
-    // Offset: 0xFFC758
+    // Offset: 0xF5EA1C
     static ::Il2CppString* ChangeExtension(::Il2CppString* path, ::Il2CppString* extension);
     // static public System.String Combine(System.String path1, System.String path2)
-    // Offset: 0xFFC9F8
+    // Offset: 0xF5ECBC
     static ::Il2CppString* Combine(::Il2CppString* path1, ::Il2CppString* path2);
     // static System.String CleanPath(System.String s)
-    // Offset: 0xFFCE60
+    // Offset: 0xF5F124
     static ::Il2CppString* CleanPath(::Il2CppString* s);
     // static public System.String GetDirectoryName(System.String path)
-    // Offset: 0xFFD34C
+    // Offset: 0xF5F610
     static ::Il2CppString* GetDirectoryName(::Il2CppString* path);
     // static public System.String GetExtension(System.String path)
-    // Offset: 0xFFDB6C
+    // Offset: 0xF5FE30
     static ::Il2CppString* GetExtension(::Il2CppString* path);
     // static public System.String GetFileName(System.String path)
-    // Offset: 0xFFDC94
+    // Offset: 0xF5FF58
     static ::Il2CppString* GetFileName(::Il2CppString* path);
     // static public System.String GetFileNameWithoutExtension(System.String path)
-    // Offset: 0xFFDDAC
+    // Offset: 0xF60070
     static ::Il2CppString* GetFileNameWithoutExtension(::Il2CppString* path);
     // static public System.String GetFullPath(System.String path)
-    // Offset: 0xFFDE18
+    // Offset: 0xF600DC
     static ::Il2CppString* GetFullPath(::Il2CppString* path);
     // static System.String GetFullPathInternal(System.String path)
-    // Offset: 0xFFE5CC
+    // Offset: 0xF60890
     static ::Il2CppString* GetFullPathInternal(::Il2CppString* path);
     // static private System.Int32 GetFullPathName(System.String path, System.Int32 numBufferChars, System.Text.StringBuilder buffer, System.IntPtr lpFilePartOrNull)
-    // Offset: 0xFFE630
+    // Offset: 0xF608F4
     static int GetFullPathName(::Il2CppString* path, int numBufferChars, System::Text::StringBuilder* buffer, System::IntPtr& lpFilePartOrNull);
     // static System.String GetFullPathName(System.String path)
-    // Offset: 0xFFE710
+    // Offset: 0xF609D4
     static ::Il2CppString* GetFullPathName(::Il2CppString* path);
     // static System.String WindowsDriveAdjustment(System.String path)
-    // Offset: 0xFFE8C8
+    // Offset: 0xF60B8C
     static ::Il2CppString* WindowsDriveAdjustment(::Il2CppString* path);
     // static System.String InsecureGetFullPath(System.String path)
-    // Offset: 0xFFDE90
+    // Offset: 0xF60154
     static ::Il2CppString* InsecureGetFullPath(::Il2CppString* path);
     // static System.Boolean IsDirectorySeparator(System.Char c)
-    // Offset: 0xFFEBB0
+    // Offset: 0xF60E74
     static bool IsDirectorySeparator(::Il2CppChar c);
     // static public System.String GetPathRoot(System.String path)
-    // Offset: 0xFFD6E4
+    // Offset: 0xF5F9A8
     static ::Il2CppString* GetPathRoot(::Il2CppString* path);
     // static public System.Boolean IsPathRooted(System.String path)
-    // Offset: 0xFFCC8C
+    // Offset: 0xF5EF50
     static bool IsPathRooted(::Il2CppString* path);
     // static public System.Char[] GetInvalidFileNameChars()
-    // Offset: 0xFFF41C
+    // Offset: 0xF616E0
     static ::Array<::Il2CppChar>* GetInvalidFileNameChars();
     // static public System.Char[] GetInvalidPathChars()
-    // Offset: 0xFFF4D4
+    // Offset: 0xF61798
     static ::Array<::Il2CppChar>* GetInvalidPathChars();
     // static private System.Int32 findExtension(System.String path)
-    // Offset: 0xFFC94C
+    // Offset: 0xF5EC10
     static int findExtension(::Il2CppString* path);
     // static private System.Void .cctor()
-    // Offset: 0xFFF564
+    // Offset: 0xF61828
     static void _cctor();
     // static private System.String GetServerAndShare(System.String path)
-    // Offset: 0xFFF764
+    // Offset: 0xF61A28
     static ::Il2CppString* GetServerAndShare(::Il2CppString* path);
     // static private System.Boolean SameRoot(System.String root, System.String path)
-    // Offset: 0xFFF8E0
+    // Offset: 0xF61BA4
     static bool SameRoot(::Il2CppString* root, ::Il2CppString* path);
     // static private System.String CanonicalizePath(System.String path)
-    // Offset: 0xFFEC54
+    // Offset: 0xF60F18
     static ::Il2CppString* CanonicalizePath(::Il2CppString* path);
     // static public System.String Combine(System.String[] paths)
-    // Offset: 0xFFFBFC
+    // Offset: 0xF61EC0
     static ::Il2CppString* Combine(::Array<::Il2CppString*>* paths);
     // static public System.String Combine(System.String path1, System.String path2, System.String path3)
-    // Offset: 0xFFFF08
+    // Offset: 0xF621CC
     static ::Il2CppString* Combine(::Il2CppString* path1, ::Il2CppString* path2, ::Il2CppString* path3);
     // static System.Void Validate(System.String path)
-    // Offset: 0x10000C0
+    // Offset: 0xF62384
     static void Validate(::Il2CppString* path);
     // static System.Void Validate(System.String path, System.String parameterName)
-    // Offset: 0x1000130
+    // Offset: 0xF623F4
     static void Validate(::Il2CppString* path, ::Il2CppString* parameterName);
     // static System.String get_DirectorySeparatorCharAsString()
-    // Offset: 0x1000288
+    // Offset: 0xF6254C
     static ::Il2CppString* get_DirectorySeparatorCharAsString();
     // static System.Char[] get_TrimEndChars()
-    // Offset: 0x10002F0
+    // Offset: 0xF625B4
     static ::Array<::Il2CppChar>* get_TrimEndChars();
     // static System.Void CheckSearchPattern(System.String searchPattern)
-    // Offset: 0x1000390
+    // Offset: 0xF62654
     static void CheckSearchPattern(::Il2CppString* searchPattern);
     // static System.Void CheckInvalidPathChars(System.String path, System.Boolean checkAdditional)
-    // Offset: 0x100051C
+    // Offset: 0xF627E0
     static void CheckInvalidPathChars(::Il2CppString* path, bool checkAdditional);
     // static System.String InternalCombine(System.String path1, System.String path2)
-    // Offset: 0x1000684
+    // Offset: 0xF62948
     static ::Il2CppString* InternalCombine(::Il2CppString* path1, ::Il2CppString* path2);
   }; // System.IO.Path
 }

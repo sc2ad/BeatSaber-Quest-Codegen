@@ -28,7 +28,7 @@ namespace System {
     // Offset: 0x20
     bool curried_first_arg;
     // public System.Void .ctor()
-    // Offset: 0xC904D4
+    // Offset: 0xBF0798
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DelegateData* New_ctor();

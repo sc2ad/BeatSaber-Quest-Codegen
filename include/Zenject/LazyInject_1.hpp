@@ -38,17 +38,17 @@ namespace Zenject {
     // Offset: 0x0
     T value;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.InjectContext context)
-    // Offset: 0x13C0BF0
+    // Offset: 0xFFFFFFFF
     static LazyInject_1<T>* New_ctor(Zenject::DiContainer* container, Zenject::InjectContext* context) {
       return (LazyInject_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LazyInject_1<T>*>::get(), container, context));
     }
     // public T get_Value()
-    // Offset: 0x13C0C94
+    // Offset: 0xFFFFFFFF
     T get_Value() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Value"));
     }
     // private System.Void Zenject.IValidatable.Validate()
-    // Offset: 0x13C0C70
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IValidatable
     // Base method: System.Void IValidatable::Validate()
     void Zenject_IValidatable_Validate() {

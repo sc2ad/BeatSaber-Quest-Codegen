@@ -78,61 +78,61 @@ namespace System::Threading {
     // Set static field: static private System.Action`1<System.Object> s_cancellationTokenCanceledEventHandler
     static void _set_s_cancellationTokenCanceledEventHandler(System::Action_1<::Il2CppObject*>* value);
     // public System.Void .ctor(System.Int32 initialCount, System.Int32 maxCount)
-    // Offset: 0xCD6E8C
+    // Offset: 0xC37150
     static SemaphoreSlim* New_ctor(int initialCount, int maxCount);
     // public System.Void Wait()
-    // Offset: 0xCD7054
+    // Offset: 0xC37318
     void Wait();
     // public System.Boolean Wait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCD7060
+    // Offset: 0xC37324
     bool Wait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // private System.Boolean WaitUntilCountOrTimeout(System.Int32 millisecondsTimeout, System.UInt32 startTime, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCD79E0
+    // Offset: 0xC37CA4
     bool WaitUntilCountOrTimeout(int millisecondsTimeout, uint startTime, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task WaitAsync()
-    // Offset: 0xCD7AB8
+    // Offset: 0xC37D7C
     System::Threading::Tasks::Task* WaitAsync();
     // public System.Threading.Tasks.Task WaitAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCD7AC4
+    // Offset: 0xC37D88
     System::Threading::Tasks::Task* WaitAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> WaitAsync(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCD76FC
+    // Offset: 0xC379C0
     System::Threading::Tasks::Task_1<bool>* WaitAsync(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.SemaphoreSlim/TaskNode CreateAndAddAsyncWaiter()
-    // Offset: 0xCD7AD0
+    // Offset: 0xC37D94
     System::Threading::SemaphoreSlim::TaskNode* CreateAndAddAsyncWaiter();
     // private System.Boolean RemoveAsyncWaiter(System.Threading.SemaphoreSlim/TaskNode task)
-    // Offset: 0xCD7D60
+    // Offset: 0xC38024
     bool RemoveAsyncWaiter(System::Threading::SemaphoreSlim::TaskNode* task);
     // private System.Threading.Tasks.Task`1<System.Boolean> WaitUntilCountOrTimeoutAsync(System.Threading.SemaphoreSlim/TaskNode asyncWaiter, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xCD7B88
+    // Offset: 0xC37E4C
     System::Threading::Tasks::Task_1<bool>* WaitUntilCountOrTimeoutAsync(System::Threading::SemaphoreSlim::TaskNode* asyncWaiter, int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
     // public System.Int32 Release()
-    // Offset: 0xCD7E4C
+    // Offset: 0xC38110
     int Release();
     // public System.Int32 Release(System.Int32 releaseCount)
-    // Offset: 0xCD7E54
+    // Offset: 0xC38118
     int Release(int releaseCount);
     // static private System.Void QueueWaiterTask(System.Threading.SemaphoreSlim/TaskNode waiterTask)
-    // Offset: 0xCD8128
+    // Offset: 0xC383EC
     static void QueueWaiterTask(System::Threading::SemaphoreSlim::TaskNode* waiterTask);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xCD8238
+    // Offset: 0xC384FC
     void Dispose(bool disposing);
     // static private System.Void CancellationTokenCanceledEventHandler(System.Object obj)
-    // Offset: 0xCD82E4
+    // Offset: 0xC385A8
     static void CancellationTokenCanceledEventHandler(::Il2CppObject* obj);
     // private System.Void CheckDispose()
-    // Offset: 0xCD7530
+    // Offset: 0xC377F4
     void CheckDispose();
     // static private System.String GetResourceString(System.String str)
-    // Offset: 0xCD704C
+    // Offset: 0xC37310
     static ::Il2CppString* GetResourceString(::Il2CppString* str);
     // static private System.Void .cctor()
-    // Offset: 0xCD83E8
+    // Offset: 0xC386AC
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0xCD81BC
+    // Offset: 0xC38480
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

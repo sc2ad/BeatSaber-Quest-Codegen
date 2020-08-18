@@ -20,7 +20,7 @@ namespace System::Reflection::Emit {
   class TypeBuilderInstantiation : public System::Reflection::TypeInfo {
     public:
     // static System.Type MakeGenericType(System.Type type, System.Type[] typeArguments)
-    // Offset: 0x13656DC
+    // Offset: 0x12C69A0
     static System::Type* MakeGenericType(System::Type* type, ::Array<System::Type*>* typeArguments);
   }; // System.Reflection.Emit.TypeBuilderInstantiation
 }

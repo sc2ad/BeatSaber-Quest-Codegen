@@ -26,36 +26,36 @@ namespace Oculus::Platform {
     // Offset: 0x10
     System::IntPtr Handle;
     // public System.Void SetDataStore(System.String key, System.String value)
-    // Offset: 0xEA9F40
+    // Offset: 0xE09204
     void SetDataStore(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void ClearDataStore()
-    // Offset: 0xEA9FC4
+    // Offset: 0xE09288
     void ClearDataStore();
     // public System.Void SetExcludeRecentlyMet(System.Boolean value)
-    // Offset: 0xEAA030
+    // Offset: 0xE092F4
     void SetExcludeRecentlyMet(bool value);
     // public System.Void SetMaxUserResults(System.UInt32 value)
-    // Offset: 0xEAA0AC
+    // Offset: 0xE09370
     void SetMaxUserResults(uint value);
     // public System.Void SetOrdering(Oculus.Platform.UserOrdering value)
-    // Offset: 0xEAA128
+    // Offset: 0xE093EC
     void SetOrdering(Oculus::Platform::UserOrdering value);
     // public System.Void SetRecentlyMetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0xEAA1A4
+    // Offset: 0xE09468
     void SetRecentlyMetTimeWindow(Oculus::Platform::TimeWindow value);
     // public System.Void SetRoomId(System.UInt64 value)
-    // Offset: 0xEAA220
+    // Offset: 0xE094E4
     void SetRoomId(uint64_t value);
     // public System.Void SetTurnOffUpdates(System.Boolean value)
-    // Offset: 0xEAA29C
+    // Offset: 0xE09560
     void SetTurnOffUpdates(bool value);
     // public System.Void .ctor()
-    // Offset: 0xEA9EC8
+    // Offset: 0xE0918C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RoomOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0xEAA368
+    // Offset: 0xE0962C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

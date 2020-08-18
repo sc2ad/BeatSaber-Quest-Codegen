@@ -17,7 +17,7 @@ namespace System::Reflection {
     // Offset: 0x10
     ::Il2CppString* m_description;
     // public System.Void .ctor(System.String description)
-    // Offset: 0x135F5FC
+    // Offset: 0x12C08C0
     static AssemblyDescriptionAttribute* New_ctor(::Il2CppString* description);
   }; // System.Reflection.AssemblyDescriptionAttribute
 }

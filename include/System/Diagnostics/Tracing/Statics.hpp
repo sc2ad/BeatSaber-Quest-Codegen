@@ -65,99 +65,99 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public readonly System.Diagnostics.Tracing.TraceLoggingDataType HexIntPtrType
     static void _set_HexIntPtrType(System::Diagnostics::Tracing::TraceLoggingDataType value);
     // static public System.Byte[] MetadataForString(System.String name, System.Int32 prefixSize, System.Int32 suffixSize, System.Int32 additionalSize)
-    // Offset: 0xD995BC
+    // Offset: 0xCF9880
     static ::Array<uint8_t>* MetadataForString(::Il2CppString* name, int prefixSize, int suffixSize, int additionalSize);
     // static public System.Void EncodeTags(System.Int32 tags, System.Int32 pos, System.Byte[] metadata)
-    // Offset: 0xD93658
+    // Offset: 0xCF391C
     static void EncodeTags(int tags, int& pos, ::Array<uint8_t>* metadata);
     // static public System.Byte Combine(System.Int32 settingValue, System.Byte defaultValue)
-    // Offset: 0xD9A030
+    // Offset: 0xCFA2F4
     static uint8_t Combine(int settingValue, uint8_t defaultValue);
     // static public System.Int32 Combine(System.Int32 settingValue1, System.Int32 settingValue2)
-    // Offset: 0xD9A03C
+    // Offset: 0xCFA300
     static int Combine(int settingValue1, int settingValue2);
     // static public System.Void CheckName(System.String name)
-    // Offset: 0xD93328
+    // Offset: 0xCF35EC
     static void CheckName(::Il2CppString* name);
     // static public System.Boolean ShouldOverrideFieldName(System.String fieldName)
-    // Offset: 0xD9A048
+    // Offset: 0xCFA30C
     static bool ShouldOverrideFieldName(::Il2CppString* fieldName);
     // static public System.Diagnostics.Tracing.TraceLoggingDataType MakeDataType(System.Diagnostics.Tracing.TraceLoggingDataType baseType, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0xD93740
+    // Offset: 0xCF3A04
     static System::Diagnostics::Tracing::TraceLoggingDataType MakeDataType(System::Diagnostics::Tracing::TraceLoggingDataType baseType, System::Diagnostics::Tracing::EventFieldFormat format);
     // static public System.Diagnostics.Tracing.TraceLoggingDataType Format8(System.Diagnostics.Tracing.EventFieldFormat format, System.Diagnostics.Tracing.TraceLoggingDataType native)
-    // Offset: 0xD999F0
+    // Offset: 0xCF9CB4
     static System::Diagnostics::Tracing::TraceLoggingDataType Format8(System::Diagnostics::Tracing::EventFieldFormat format, System::Diagnostics::Tracing::TraceLoggingDataType native);
     // static public System.Diagnostics.Tracing.TraceLoggingDataType Format16(System.Diagnostics.Tracing.EventFieldFormat format, System.Diagnostics.Tracing.TraceLoggingDataType native)
-    // Offset: 0xD93C80
+    // Offset: 0xCF3F44
     static System::Diagnostics::Tracing::TraceLoggingDataType Format16(System::Diagnostics::Tracing::EventFieldFormat format, System::Diagnostics::Tracing::TraceLoggingDataType native);
     // static public System.Diagnostics.Tracing.TraceLoggingDataType Format32(System.Diagnostics.Tracing.EventFieldFormat format, System.Diagnostics.Tracing.TraceLoggingDataType native)
-    // Offset: 0xD93FE0
+    // Offset: 0xCF42A4
     static System::Diagnostics::Tracing::TraceLoggingDataType Format32(System::Diagnostics::Tracing::EventFieldFormat format, System::Diagnostics::Tracing::TraceLoggingDataType native);
     // static public System.Diagnostics.Tracing.TraceLoggingDataType Format64(System.Diagnostics.Tracing.EventFieldFormat format, System.Diagnostics.Tracing.TraceLoggingDataType native)
-    // Offset: 0xD94358
+    // Offset: 0xCF461C
     static System::Diagnostics::Tracing::TraceLoggingDataType Format64(System::Diagnostics::Tracing::EventFieldFormat format, System::Diagnostics::Tracing::TraceLoggingDataType native);
     // static public System.Diagnostics.Tracing.TraceLoggingDataType FormatPtr(System.Diagnostics.Tracing.EventFieldFormat format, System.Diagnostics.Tracing.TraceLoggingDataType native)
-    // Offset: 0xD946B0
+    // Offset: 0xCF4974
     static System::Diagnostics::Tracing::TraceLoggingDataType FormatPtr(System::Diagnostics::Tracing::EventFieldFormat format, System::Diagnostics::Tracing::TraceLoggingDataType native);
     // static public System.Object CreateInstance(System.Type type, System.Object[] parameters)
-    // Offset: 0xD9A08C
+    // Offset: 0xCFA350
     static ::Il2CppObject* CreateInstance(System::Type* type, ::Array<::Il2CppObject*>* parameters);
     // static public System.Boolean IsValueType(System.Type type)
-    // Offset: 0xD9A094
+    // Offset: 0xCFA358
     static bool IsValueType(System::Type* type);
     // static public System.Boolean IsEnum(System.Type type)
-    // Offset: 0xD9A0AC
+    // Offset: 0xCFA370
     static bool IsEnum(System::Type* type);
     // static public System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo> GetProperties(System.Type type)
-    // Offset: 0xD9A0CC
+    // Offset: 0xCFA390
     static System::Collections::Generic::IEnumerable_1<System::Reflection::PropertyInfo*>* GetProperties(System::Type* type);
     // static public System.Reflection.MethodInfo GetGetMethod(System.Reflection.PropertyInfo propInfo)
-    // Offset: 0xD9A0E4
+    // Offset: 0xCFA3A8
     static System::Reflection::MethodInfo* GetGetMethod(System::Reflection::PropertyInfo* propInfo);
     // static public System.Reflection.MethodInfo GetDeclaredStaticMethod(System.Type declaringType, System.String name)
-    // Offset: 0xD9A0FC
+    // Offset: 0xCFA3C0
     static System::Reflection::MethodInfo* GetDeclaredStaticMethod(System::Type* declaringType, ::Il2CppString* name);
     // static public System.Boolean HasCustomAttribute(System.Reflection.PropertyInfo propInfo, System.Type attributeType)
-    // Offset: 0xD9A118
+    // Offset: 0xCFA3DC
     static bool HasCustomAttribute(System::Reflection::PropertyInfo* propInfo, System::Type* attributeType);
     // static public AttributeType GetCustomAttribute(System.Reflection.PropertyInfo propInfo)
-    // Offset: 0x14D58B4
+    // Offset: 0xFFFFFFFF
     template<class AttributeType>
     static AttributeType GetCustomAttribute(System::Reflection::PropertyInfo* propInfo) {
       static_assert(std::is_convertible_v<AttributeType, System::Attribute*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<AttributeType>("System.Diagnostics.Tracing", "Statics", "GetCustomAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}, propInfo)));
     }
     // static public AttributeType GetCustomAttribute(System.Type type)
-    // Offset: 0x14D59B0
+    // Offset: 0xFFFFFFFF
     template<class AttributeType>
     static AttributeType GetCustomAttribute(System::Type* type) {
       static_assert(std::is_convertible_v<AttributeType, System::Attribute*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<AttributeType>("System.Diagnostics.Tracing", "Statics", "GetCustomAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}, type)));
     }
     // static public System.Type[] GetGenericArguments(System.Type type)
-    // Offset: 0xD9A150
+    // Offset: 0xCFA414
     static ::Array<System::Type*>* GetGenericArguments(System::Type* type);
     // static public System.Type FindEnumerableElementType(System.Type type)
-    // Offset: 0xD9A170
+    // Offset: 0xCFA434
     static System::Type* FindEnumerableElementType(System::Type* type);
     // static public System.Boolean IsGenericMatch(System.Type type, System.Object openType)
-    // Offset: 0xD9A3AC
+    // Offset: 0xCFA670
     static bool IsGenericMatch(System::Type* type, ::Il2CppObject* openType);
     // static public System.Delegate CreateDelegate(System.Type delegateType, System.Reflection.MethodInfo methodInfo)
-    // Offset: 0xD9A4B4
+    // Offset: 0xCFA778
     static System::Delegate* CreateDelegate(System::Type* delegateType, System::Reflection::MethodInfo* methodInfo);
     // static public System.Diagnostics.Tracing.TraceLoggingTypeInfo GetTypeInfoInstance(System.Type dataType, System.Collections.Generic.List`1<System.Type> recursionCheck)
-    // Offset: 0xD9A4BC
+    // Offset: 0xCFA780
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo* GetTypeInfoInstance(System::Type* dataType, System::Collections::Generic::List_1<System::Type*>* recursionCheck);
     // static public System.Diagnostics.Tracing.TraceLoggingTypeInfo`1<DataType> CreateDefaultTypeInfo(System.Collections.Generic.List`1<System.Type> recursionCheck)
-    // Offset: 0xD2CE68
+    // Offset: 0xFFFFFFFF
     template<class DataType>
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>* CreateDefaultTypeInfo(System::Collections::Generic::List_1<System::Type*>* recursionCheck) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*>("System.Diagnostics.Tracing", "Statics", "CreateDefaultTypeInfo", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DataType>::get()}, recursionCheck)));
     }
     // static private System.Void .cctor()
-    // Offset: 0xD9A7C4
+    // Offset: 0xCFAA88
     static void _cctor();
   }; // System.Diagnostics.Tracing.Statics
 }

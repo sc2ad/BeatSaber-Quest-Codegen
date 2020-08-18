@@ -34,12 +34,12 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::IMemoryPool_1<T>* pool;
     // public System.Void .ctor(Zenject.IMemoryPool`1<T> pool)
-    // Offset: 0x15E5EE4
+    // Offset: 0xFFFFFFFF
     static PoolWrapperFactory_1<T>* New_ctor(Zenject::IMemoryPool_1<T>* pool) {
       return (PoolWrapperFactory_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PoolWrapperFactory_1<T>*>::get(), pool));
     }
     // public T Create()
-    // Offset: 0x15E5F20
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`1
     // Base method: TValue IFactory`1::Create()
     T Create() {

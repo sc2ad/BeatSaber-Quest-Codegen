@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class ProductList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Product*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xEA36D4
+    // Offset: 0xE02998
     static ProductList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.ProductList
 }

@@ -61,12 +61,12 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::ColorManager* colorManager;
     // public System.Void Init(UnityEngine.Transform parent, SaberType saberType)
-    // Offset: 0xB89414
+    // Offset: 0x18F2A7C
     // Implemented from: ISaberModelController
     // Base method: System.Void ISaberModelController::Init(UnityEngine.Transform parent, SaberType saberType)
     void Init(UnityEngine::Transform* parent, GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0xB89660
+    // Offset: 0x18F2CC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -21,10 +21,10 @@ namespace System::Diagnostics {
   class DiagnosticsConfigurationHandler : public System::Configuration::IConfigurationSectionHandler, public ::Il2CppObject {
     public:
     // public System.Object Create(System.Object parent, System.Object configContext, System.Xml.XmlNode section)
-    // Offset: 0xF5A608
+    // Offset: 0xEBB8CC
     ::Il2CppObject* Create(::Il2CppObject* parent, ::Il2CppObject* configContext, System::Xml::XmlNode* section);
     // public System.Void .ctor()
-    // Offset: 0xF5A5C8
+    // Offset: 0xEBB88C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DiagnosticsConfigurationHandler* New_ctor();

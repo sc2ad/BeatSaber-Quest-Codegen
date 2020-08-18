@@ -35,34 +35,34 @@ namespace System {
     // Set static field: static private System.Boolean called_isatty
     static void _set_called_isatty(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x10BFE0C
+    // Offset: 0x10220D0
     static void _cctor();
     // static private System.IConsoleDriver CreateNullConsoleDriver()
-    // Offset: 0x10BFEE0
+    // Offset: 0x10221A4
     static System::IConsoleDriver* CreateNullConsoleDriver();
     // static private System.IConsoleDriver CreateWindowsConsoleDriver()
-    // Offset: 0x10BFF3C
+    // Offset: 0x1022200
     static System::IConsoleDriver* CreateWindowsConsoleDriver();
     // static private System.IConsoleDriver CreateTermInfoDriver(System.String term)
-    // Offset: 0x10BFF98
+    // Offset: 0x102225C
     static System::IConsoleDriver* CreateTermInfoDriver(::Il2CppString* term);
     // static public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x10BEE90
+    // Offset: 0x1021154
     static System::ConsoleKeyInfo ReadKey(bool intercept);
     // static public System.Boolean get_IsConsole()
-    // Offset: 0x10BE670
+    // Offset: 0x1020934
     static bool get_IsConsole();
     // static private System.Boolean Isatty(System.IntPtr handle)
-    // Offset: 0x10BFFFC
+    // Offset: 0x10222C0
     static bool Isatty(System::IntPtr handle);
     // static System.Int32 InternalKeyAvailable(System.Int32 ms_timeout)
-    // Offset: 0x10C0000
+    // Offset: 0x10222C4
     static int InternalKeyAvailable(int ms_timeout);
     // static System.Boolean TtySetup(System.String keypadXmit, System.String teardown, System.Byte[] control_characters, System.Int32* address)
-    // Offset: 0x10C0004
+    // Offset: 0x10222C8
     static bool TtySetup(::Il2CppString* keypadXmit, ::Il2CppString* teardown, ::Array<uint8_t>*& control_characters, int*& address);
     // static System.Boolean SetEcho(System.Boolean wantEcho)
-    // Offset: 0x10C0008
+    // Offset: 0x10222CC
     static bool SetEcho(bool wantEcho);
   }; // System.ConsoleDriver
 }

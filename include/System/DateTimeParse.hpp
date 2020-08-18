@@ -56,157 +56,157 @@ namespace System {
     // Set static field: static private System.DateTimeParse/DS[][] dateParsingStates
     static void _set_dateParsingStates(::Array<::Array<System::DateTimeParse::DS>*>* value);
     // static System.Boolean IsDigit(System.Char ch)
-    // Offset: 0x10D19C8
+    // Offset: 0x1033C8C
     static bool IsDigit(::Il2CppChar ch);
     // static private System.Boolean ParseFraction(System.__DTString str, System.Double result)
-    // Offset: 0x10D19DC
+    // Offset: 0x1033CA0
     static bool ParseFraction(System::__DTString& str, double& result);
     // static private System.Boolean ParseTimeZone(System.__DTString str, System.TimeSpan result)
-    // Offset: 0x10D1AC0
+    // Offset: 0x1033D84
     static bool ParseTimeZone(System::__DTString& str, System::TimeSpan& result);
     // static private System.Boolean HandleTimeZone(System.__DTString str, System.DateTimeResult result)
-    // Offset: 0x10D1D38
+    // Offset: 0x1033FFC
     static bool HandleTimeZone(System::__DTString& str, System::DateTimeResult& result);
     // static private System.Boolean Lex(System.DateTimeParse/DS dps, System.__DTString str, System.DateTimeToken dtok, System.DateTimeRawInfo raw, System.DateTimeResult result, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x10D1EB4
+    // Offset: 0x1034178
     static bool Lex(System::DateTimeParse::DS dps, System::__DTString& str, System::DateTimeToken& dtok, System::DateTimeRawInfo& raw, System::DateTimeResult& result, System::Globalization::DateTimeFormatInfo*& dtfi, System::Globalization::DateTimeStyles styles);
     // static private System.Boolean VerifyValidPunctuation(System.__DTString str)
-    // Offset: 0x10D2F94
+    // Offset: 0x1035258
     static bool VerifyValidPunctuation(System::__DTString& str);
     // static private System.Boolean GetYearMonthDayOrder(System.String datePattern, System.Globalization.DateTimeFormatInfo dtfi, System.Int32 order)
-    // Offset: 0x10D310C
+    // Offset: 0x10353D0
     static bool GetYearMonthDayOrder(::Il2CppString* datePattern, System::Globalization::DateTimeFormatInfo* dtfi, int& order);
     // static private System.Boolean GetYearMonthOrder(System.String pattern, System.Globalization.DateTimeFormatInfo dtfi, System.Int32 order)
-    // Offset: 0x10D33B4
+    // Offset: 0x1035678
     static bool GetYearMonthOrder(::Il2CppString* pattern, System::Globalization::DateTimeFormatInfo* dtfi, int& order);
     // static private System.Boolean GetMonthDayOrder(System.String pattern, System.Globalization.DateTimeFormatInfo dtfi, System.Int32 order)
-    // Offset: 0x10D3570
+    // Offset: 0x1035834
     static bool GetMonthDayOrder(::Il2CppString* pattern, System::Globalization::DateTimeFormatInfo* dtfi, int& order);
     // static private System.Boolean TryAdjustYear(System.DateTimeResult result, System.Int32 year, System.Int32 adjustedYear)
-    // Offset: 0x10D3774
+    // Offset: 0x1035A38
     static bool TryAdjustYear(System::DateTimeResult& result, int year, int& adjustedYear);
     // static private System.Boolean SetDateYMD(System.DateTimeResult result, System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x10D3874
+    // Offset: 0x1035B38
     static bool SetDateYMD(System::DateTimeResult& result, int year, int month, int day);
     // static private System.Boolean SetDateMDY(System.DateTimeResult result, System.Int32 month, System.Int32 day, System.Int32 year)
-    // Offset: 0x10D38EC
+    // Offset: 0x1035BB0
     static bool SetDateMDY(System::DateTimeResult& result, int month, int day, int year);
     // static private System.Boolean SetDateDMY(System.DateTimeResult result, System.Int32 day, System.Int32 month, System.Int32 year)
-    // Offset: 0x10D3978
+    // Offset: 0x1035C3C
     static bool SetDateDMY(System::DateTimeResult& result, int day, int month, int year);
     // static private System.Boolean SetDateYDM(System.DateTimeResult result, System.Int32 year, System.Int32 day, System.Int32 month)
-    // Offset: 0x10D3A04
+    // Offset: 0x1035CC8
     static bool SetDateYDM(System::DateTimeResult& result, int year, int day, int month);
     // static private System.Void GetDefaultYear(System.DateTimeResult result, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x10D3A90
+    // Offset: 0x1035D54
     static void GetDefaultYear(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles);
     // static private System.Boolean GetDayOfNN(System.DateTimeResult result, System.Globalization.DateTimeStyles styles, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D3C34
+    // Offset: 0x1035EF8
     static bool GetDayOfNN(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfNNN(System.DateTimeResult result, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D3DDC
+    // Offset: 0x10360A0
     static bool GetDayOfNNN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfMN(System.DateTimeResult result, System.Globalization.DateTimeStyles styles, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D40D8
+    // Offset: 0x103639C
     static bool GetDayOfMN(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetHebrewDayOfNM(System.DateTimeResult result, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D4328
+    // Offset: 0x10365EC
     static bool GetHebrewDayOfNM(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfNM(System.DateTimeResult result, System.Globalization.DateTimeStyles styles, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D4490
+    // Offset: 0x1036754
     static bool GetDayOfNM(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfMNN(System.DateTimeResult result, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D46E0
+    // Offset: 0x10369A4
     static bool GetDayOfMNN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfYNN(System.DateTimeResult result, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D49F0
+    // Offset: 0x1036CB4
     static bool GetDayOfYNN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfNNY(System.DateTimeResult result, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D4B74
+    // Offset: 0x1036E38
     static bool GetDayOfNNY(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfYMN(System.DateTimeResult result, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D4D14
+    // Offset: 0x1036FD8
     static bool GetDayOfYMN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfYN(System.DateTimeResult result, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D4DF4
+    // Offset: 0x10370B8
     static bool GetDayOfYN(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean GetDayOfYM(System.DateTimeResult result, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D4ED4
+    // Offset: 0x1037198
     static bool GetDayOfYM(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Void AdjustTimeMark(System.Globalization.DateTimeFormatInfo dtfi, System.DateTimeRawInfo raw)
-    // Offset: 0x10D4F9C
+    // Offset: 0x1037260
     static void AdjustTimeMark(System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeRawInfo& raw);
     // static private System.Boolean AdjustHour(System.Int32 hour, System.DateTimeParse/TM timeMark)
-    // Offset: 0x10D5010
+    // Offset: 0x10372D4
     static bool AdjustHour(int& hour, System::DateTimeParse::TM timeMark);
     // static private System.Boolean GetTimeOfN(System.Globalization.DateTimeFormatInfo dtfi, System.DateTimeResult result, System.DateTimeRawInfo raw)
-    // Offset: 0x10D5058
+    // Offset: 0x103731C
     static bool GetTimeOfN(System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeResult& result, System::DateTimeRawInfo& raw);
     // static private System.Boolean GetTimeOfNN(System.Globalization.DateTimeFormatInfo dtfi, System.DateTimeResult result, System.DateTimeRawInfo raw)
-    // Offset: 0x10D5104
+    // Offset: 0x10373C8
     static bool GetTimeOfNN(System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeResult& result, System::DateTimeRawInfo& raw);
     // static private System.Boolean GetTimeOfNNN(System.Globalization.DateTimeFormatInfo dtfi, System.DateTimeResult result, System.DateTimeRawInfo raw)
-    // Offset: 0x10D51BC
+    // Offset: 0x1037480
     static bool GetTimeOfNNN(System::Globalization::DateTimeFormatInfo* dtfi, System::DateTimeResult& result, System::DateTimeRawInfo& raw);
     // static private System.Boolean GetDateOfDSN(System.DateTimeResult result, System.DateTimeRawInfo raw)
-    // Offset: 0x10D5288
+    // Offset: 0x103754C
     static bool GetDateOfDSN(System::DateTimeResult& result, System::DateTimeRawInfo& raw);
     // static private System.Boolean GetDateOfNDS(System.DateTimeResult result, System.DateTimeRawInfo raw)
-    // Offset: 0x10D532C
+    // Offset: 0x10375F0
     static bool GetDateOfNDS(System::DateTimeResult& result, System::DateTimeRawInfo& raw);
     // static private System.Boolean GetDateOfNNDS(System.DateTimeResult result, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D540C
+    // Offset: 0x10376D0
     static bool GetDateOfNNDS(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Boolean ProcessDateTimeSuffix(System.DateTimeResult result, System.DateTimeRawInfo raw, System.DateTimeToken dtok)
-    // Offset: 0x10D5664
+    // Offset: 0x1037928
     static bool ProcessDateTimeSuffix(System::DateTimeResult& result, System::DateTimeRawInfo& raw, System::DateTimeToken& dtok);
     // static System.Boolean ProcessHebrewTerminalState(System.DateTimeParse/DS dps, System.DateTimeResult result, System.Globalization.DateTimeStyles styles, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D575C
+    // Offset: 0x1037A20
     static bool ProcessHebrewTerminalState(System::DateTimeParse::DS dps, System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.Boolean ProcessTerminaltState(System.DateTimeParse/DS dps, System.DateTimeResult result, System.Globalization.DateTimeStyles styles, System.DateTimeRawInfo raw, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x10D2B94
+    // Offset: 0x1034E58
     static bool ProcessTerminaltState(System::DateTimeParse::DS dps, System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles, System::DateTimeRawInfo& raw, System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.DateTime Parse(System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x10CCC48
+    // Offset: 0x102EF0C
     static System::DateTime Parse(::Il2CppString* s, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles styles);
     // static System.Boolean TryParse(System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles, System.DateTimeResult result)
-    // Offset: 0x10D5A48
+    // Offset: 0x1037D0C
     static bool TryParse(::Il2CppString* s, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles styles, System::DateTimeResult& result);
     // static private System.Boolean DetermineTimeZoneAdjustments(System.DateTimeResult result, System.Globalization.DateTimeStyles styles, System.Boolean bTimeOnly)
-    // Offset: 0x10D6A78
+    // Offset: 0x1038D3C
     static bool DetermineTimeZoneAdjustments(System::DateTimeResult& result, System::Globalization::DateTimeStyles styles, bool bTimeOnly);
     // static private System.Boolean DateTimeOffsetTimeZonePostProcessing(System.DateTimeResult result, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x10D6C6C
+    // Offset: 0x1038F30
     static bool DateTimeOffsetTimeZonePostProcessing(System::DateTimeResult& result, System::Globalization::DateTimeStyles styles);
     // static private System.Boolean AdjustTimeZoneToUniversal(System.DateTimeResult result)
-    // Offset: 0x10D6E68
+    // Offset: 0x103912C
     static bool AdjustTimeZoneToUniversal(System::DateTimeResult& result);
     // static private System.Boolean AdjustTimeZoneToLocal(System.DateTimeResult result, System.Boolean bTimeOnly)
-    // Offset: 0x10D6F38
+    // Offset: 0x10391FC
     static bool AdjustTimeZoneToLocal(System::DateTimeResult& result, bool bTimeOnly);
     // static private System.Boolean ParseISO8601(System.DateTimeRawInfo raw, System.__DTString str, System.Globalization.DateTimeStyles styles, System.DateTimeResult result)
-    // Offset: 0x10D62C0
+    // Offset: 0x1038584
     static bool ParseISO8601(System::DateTimeRawInfo& raw, System::__DTString& str, System::Globalization::DateTimeStyles styles, System::DateTimeResult& result);
     // static System.Boolean MatchHebrewDigits(System.__DTString str, System.Int32 digitLen, System.Int32 number)
-    // Offset: 0x10D71C8
+    // Offset: 0x103948C
     static bool MatchHebrewDigits(System::__DTString& str, int digitLen, int& number);
     // static System.Boolean ParseDigits(System.__DTString str, System.Int32 digitLen, System.Int32 result)
-    // Offset: 0x10D7120
+    // Offset: 0x10393E4
     static bool ParseDigits(System::__DTString& str, int digitLen, int& result);
     // static System.Boolean ParseDigits(System.__DTString str, System.Int32 minDigitLen, System.Int32 maxDigitLen, System.Int32 result)
-    // Offset: 0x10D72B4
+    // Offset: 0x1039578
     static bool ParseDigits(System::__DTString& str, int minDigitLen, int maxDigitLen, int& result);
     // static private System.DateTime GetDateTimeNow(System.DateTimeResult result, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x10D3B3C
+    // Offset: 0x1035E00
     static System::DateTime GetDateTimeNow(System::DateTimeResult& result, System::Globalization::DateTimeStyles& styles);
     // static private System.Boolean CheckDefaultDateTime(System.DateTimeResult result, System.Globalization.Calendar cal, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x10D67E4
+    // Offset: 0x1038AA8
     static bool CheckDefaultDateTime(System::DateTimeResult& result, System::Globalization::Calendar*& cal, System::Globalization::DateTimeStyles styles);
     // static private System.Exception GetDateTimeParseException(System.DateTimeResult result)
-    // Offset: 0x10D612C
+    // Offset: 0x10383F0
     static System::Exception* GetDateTimeParseException(System::DateTimeResult& result);
     // static private System.Void .cctor()
-    // Offset: 0x10D7370
+    // Offset: 0x1039634
     static void _cctor();
   }; // System.DateTimeParse
 }

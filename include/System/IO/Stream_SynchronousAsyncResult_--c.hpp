@@ -35,13 +35,13 @@ namespace System::IO {
     // Set static field: static public System.Func`1<System.Threading.ManualResetEvent> <>9__12_0
     static void _set_$$9__12_0(System::Func_1<System::Threading::ManualResetEvent*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x100309C
+    // Offset: 0xF65360
     static void _cctor();
     // System.Threading.ManualResetEvent <get_AsyncWaitHandle>b__12_0()
-    // Offset: 0x100310C
+    // Offset: 0xF653D0
     System::Threading::ManualResetEvent* $get_AsyncWaitHandle$b__12_0();
     // public System.Void .ctor()
-    // Offset: 0x1003104
+    // Offset: 0xF653C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Stream::SynchronousAsyncResult::$$c* New_ctor();

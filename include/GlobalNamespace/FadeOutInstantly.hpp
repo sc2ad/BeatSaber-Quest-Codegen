@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::FadeInOutController* fadeInOut;
     // protected System.Void Start()
-    // Offset: 0x1906CAC
+    // Offset: 0x1864FF8
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1906CC8
+    // Offset: 0x1865014
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

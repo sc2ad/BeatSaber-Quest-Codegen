@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class PlatformUserModelSO::GetUserFriendsUserIdsCompletionHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xBD5E90
+    // Offset: 0x191D1F8
     static PlatformUserModelSO::GetUserFriendsUserIdsCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformUserModelSO/GetUserFriendsUserIdsResult result, System.String[] friendsUserIds)
-    // Offset: 0xBD5EA4
+    // Offset: 0x191D20C
     void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsResult result, ::Array<::Il2CppString*>* friendsUserIds);
     // public System.IAsyncResult BeginInvoke(PlatformUserModelSO/GetUserFriendsUserIdsResult result, System.String[] friendsUserIds, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xBD612C
+    // Offset: 0x191D494
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsResult result, ::Array<::Il2CppString*>* friendsUserIds, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xBD61C4
+    // Offset: 0x191D52C
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformUserModelSO/GetUserFriendsUserIdsCompletionHandler
 }

@@ -20,7 +20,7 @@ namespace UnityEngine {
     // Offset: 0x18
     ::Il2CppString* function;
     // public System.Void .ctor(System.String name, System.String function)
-    // Offset: 0x13026F8
+    // Offset: 0x12659BC
     static ContextMenuItemAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* function);
   }; // UnityEngine.ContextMenuItemAttribute
 }

@@ -12,10 +12,10 @@ namespace System::Xml {
   class Res : public ::Il2CppObject {
     public:
     // static public System.String GetString(System.String name)
-    // Offset: 0x11951F0
+    // Offset: 0x10F84B4
     static ::Il2CppString* GetString(::Il2CppString* name);
     // static public System.String GetString(System.String name, System.Object[] args)
-    // Offset: 0x119A8A8
+    // Offset: 0x10FDB6C
     static ::Il2CppString* GetString(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
   }; // System.Xml.Res
 }

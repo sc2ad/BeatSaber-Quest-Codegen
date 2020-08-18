@@ -24,7 +24,7 @@ namespace UnityEngine::Networking {
   class UnityWebRequestMultimedia : public ::Il2CppObject {
     public:
     // static public UnityEngine.Networking.UnityWebRequest GetAudioClip(System.String uri, UnityEngine.AudioType audioType)
-    // Offset: 0x197683C
+    // Offset: 0x18D1B80
     static UnityEngine::Networking::UnityWebRequest* GetAudioClip(::Il2CppString* uri, UnityEngine::AudioType audioType);
   }; // UnityEngine.Networking.UnityWebRequestMultimedia
 }

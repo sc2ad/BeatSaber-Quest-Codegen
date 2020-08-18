@@ -45,10 +45,10 @@ namespace UnityEngine {
       // Creating value type constructor for type: WorkRequest
       WorkRequest(System::Threading::SendOrPostCallback* m_DelagateCallback_ = {}, ::Il2CppObject* m_DelagateState_ = {}, System::Threading::ManualResetEvent* m_WaitHandle_ = {}) : m_DelagateCallback{m_DelagateCallback_}, m_DelagateState{m_DelagateState_}, m_WaitHandle{m_WaitHandle_} {}
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
-      // Offset: 0xA43C0C
+      // Offset: 0x9AD0D8
       static UnitySynchronizationContext::WorkRequest* New_ctor(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, System::Threading::ManualResetEvent* waitHandle);
       // public System.Void Invoke()
-      // Offset: 0xA43C14
+      // Offset: 0x9AD0E0
       void Invoke();
     }; // UnityEngine.UnitySynchronizationContext/WorkRequest
     // private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/WorkRequest> m_AsyncWorkQueue
@@ -64,48 +64,48 @@ namespace UnityEngine {
     // Offset: 0x2C
     int m_TrackedCount;
     // private System.Void .ctor(System.Int32 mainThreadID)
-    // Offset: 0x139262C
+    // Offset: 0x12F38F0
     static UnitySynchronizationContext* New_ctor(int mainThreadID);
     // private System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/WorkRequest> queue, System.Int32 mainThreadID)
-    // Offset: 0x13926F4
+    // Offset: 0x12F39B8
     static UnitySynchronizationContext* New_ctor(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* queue, int mainThreadID);
     // private System.Void Exec()
-    // Offset: 0x1392BFC
+    // Offset: 0x12F3EC0
     void Exec();
     // private System.Boolean HasPendingTasks()
-    // Offset: 0x1392EE0
+    // Offset: 0x12F41A4
     bool HasPendingTasks();
     // static private System.Void InitializeSynchronizationContext()
-    // Offset: 0x1392F48
+    // Offset: 0x12F420C
     static void InitializeSynchronizationContext();
     // static private System.Void ExecuteTasks()
-    // Offset: 0x1392FC8
+    // Offset: 0x12F428C
     static void ExecuteTasks();
     // static private System.Boolean ExecutePendingTasks(System.Int64 millisecondsTimeout)
-    // Offset: 0x1393040
+    // Offset: 0x12F4304
     static bool ExecutePendingTasks(int64_t millisecondsTimeout);
     // public override System.Void Send(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x13927A0
+    // Offset: 0x12F3A64
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback callback, System.Object state)
     void Send(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Void OperationStarted()
-    // Offset: 0x1392A78
+    // Offset: 0x12F3D3C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationStarted()
     void OperationStarted();
     // public override System.Void OperationCompleted()
-    // Offset: 0x1392A84
+    // Offset: 0x12F3D48
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationCompleted()
     void OperationCompleted();
     // public override System.Void Post(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x1392A90
+    // Offset: 0x12F3D54
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback callback, System.Object state)
     void Post(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x1392B88
+    // Offset: 0x12F3E4C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     System::Threading::SynchronizationContext* CreateCopy();

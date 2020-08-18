@@ -26,22 +26,22 @@ namespace System {
   class Action_8 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11E149C
+    // Offset: 0xFFFFFFFF
     static Action_8<T1, T2, T3, T4, T5, T6, T7, T8>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       return (Action_8<T1, T2, T3, T4, T5, T6, T7, T8>*)THROW_UNLESS((il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Action_8<T1, T2, T3, T4, T5, T6, T7, T8>*>::get(), object, method)));
     }
     // public System.Void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8)
-    // Offset: 0x11E14B0
+    // Offset: 0xFFFFFFFF
     void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8));
     }
     // public System.IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11E1934
+    // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, System::AsyncCallback* callback, ::Il2CppObject* object) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, callback, object));
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11E1978
+    // Offset: 0xFFFFFFFF
     void EndInvoke(System::IAsyncResult* result) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "EndInvoke", result));
     }

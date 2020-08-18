@@ -32,12 +32,12 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::InjectContext* injectContext;
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.InjectContext injectContext)
-    // Offset: 0x13B09D8
+    // Offset: 0xFFFFFFFF
     static FactoryProviderWrapper_1<TContract>* New_ctor(Zenject::IProvider* provider, Zenject::InjectContext* injectContext) {
       return (FactoryProviderWrapper_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryProviderWrapper_1<TContract>*>::get(), provider, injectContext));
     }
     // public TContract Create()
-    // Offset: 0x13B0AC0
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`1
     // Base method: TValue IFactory`1::Create()
     TContract Create() {

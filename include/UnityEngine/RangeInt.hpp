@@ -21,10 +21,10 @@ namespace UnityEngine {
     // Creating value type constructor for type: RangeInt
     RangeInt(int start_ = {}, int length_ = {}) : start{start_}, length{length_} {}
     // public System.Int32 get_end()
-    // Offset: 0xA45598
+    // Offset: 0x9AEA64
     int get_end();
     // public System.Void .ctor(System.Int32 start, System.Int32 length)
-    // Offset: 0xA455A4
+    // Offset: 0x9AEA70
     static RangeInt* New_ctor(int start, int length);
   }; // UnityEngine.RangeInt
 }

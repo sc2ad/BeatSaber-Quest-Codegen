@@ -13,16 +13,16 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: ModestTree::Util
@@ -58,22 +58,22 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.DisposableManager/DisposableInfo,System.Int32> <>9__11_0
     static void _set_$$9__11_0(System::Func_2<Zenject::DisposableManager::DisposableInfo, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF2A34C
+    // Offset: 0xE8B610
     static void _cctor();
     // System.Nullable`1<System.Int32> <.ctor>b__4_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xF2A3BC
+    // Offset: 0xE8B680
     System::Nullable_1<int> $_ctor$b__4_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Nullable`1<System.Int32> <.ctor>b__4_3(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xF2A42C
+    // Offset: 0xE8B6F0
     System::Nullable_1<int> $_ctor$b__4_3(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <LateDispose>b__10_0(Zenject.DisposableManager/LateDisposableInfo x)
-    // Offset: 0xF2A49C
+    // Offset: 0xE8B760
     int $LateDispose$b__10_0(Zenject::DisposableManager::LateDisposableInfo* x);
     // System.Int32 <Dispose>b__11_0(Zenject.DisposableManager/DisposableInfo x)
-    // Offset: 0xF2A4B4
+    // Offset: 0xE8B778
     int $Dispose$b__11_0(Zenject::DisposableManager::DisposableInfo x);
     // public System.Void .ctor()
-    // Offset: 0xF2A3B4
+    // Offset: 0xE8B678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DisposableManager::$$c* New_ctor();

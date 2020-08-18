@@ -30,7 +30,7 @@ namespace UnityEngine::UI {
   class Clipping : public ::Il2CppObject {
     public:
     // static public UnityEngine.Rect FindCullAndClipWorldRect(System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> rectMaskParents, System.Boolean validRect)
-    // Offset: 0xE03E0C
+    // Offset: 0xD640D0
     static UnityEngine::Rect FindCullAndClipWorldRect(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* rectMaskParents, bool& validRect);
   }; // UnityEngine.UI.Clipping
 }

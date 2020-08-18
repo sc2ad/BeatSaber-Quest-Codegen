@@ -14,7 +14,7 @@ namespace System::Runtime::InteropServices {
   class InAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x104B150
+    // Offset: 0xFAD414
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

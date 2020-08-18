@@ -46,19 +46,19 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     int showAnimatorParam;
     // public System.Void set_Show(System.Boolean value)
-    // Offset: 0xCB92C4
+    // Offset: 0xC19588
     void set_Show(bool value);
     // public System.Boolean get_Show()
-    // Offset: 0xCB9424
+    // Offset: 0xC196E8
     bool get_Show();
     // protected System.Void Awake()
-    // Offset: 0xCB942C
+    // Offset: 0xC196F0
     void Awake();
     // private System.Collections.IEnumerator DeactivateSelfAfterDelayCoroutine(System.Single delay)
-    // Offset: 0xCB94A8
+    // Offset: 0xC1976C
     System::Collections::IEnumerator* DeactivateSelfAfterDelayCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0xCB9560
+    // Offset: 0xC19824
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

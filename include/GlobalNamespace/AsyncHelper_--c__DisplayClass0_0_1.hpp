@@ -65,14 +65,14 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: $$RunSync$b__0$d
       $$RunSync$b__0$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1<T>* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1_ = {}) : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
       // private System.Void MoveNext()
-      // Offset: 0xA3FE2C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::MoveNext()
       void MoveNext() {
         THROW_UNLESS(il2cpp_utils::RunMethod(*this, "MoveNext"));
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-      // Offset: 0xA3FE34
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
@@ -86,12 +86,12 @@ namespace GlobalNamespace {
     // Offset: 0x0
     System::Func_1<System::Threading::Tasks::Task_1<T>*>* asyncTask;
     // System.Threading.Tasks.Task <RunSync>b__0()
-    // Offset: 0x12900E8
+    // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task* $RunSync$b__0() {
       return THROW_UNLESS((il2cpp_utils::RunMethod<System::Threading::Tasks::Task*>(this, "<RunSync>b__0")));
     }
     // public System.Void .ctor()
-    // Offset: 0x12900D0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsyncHelper::$$c__DisplayClass0_0_1<T>* New_ctor() {

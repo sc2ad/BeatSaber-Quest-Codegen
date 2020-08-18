@@ -66,34 +66,34 @@ namespace HMUI {
     // Offset: 0x48
     int selectedCellNumber;
     // public System.Void add_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x10DF354
+    // Offset: 0x1041618
     void add_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);
     // public System.Void remove_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x10DF3F8
+    // Offset: 0x10416BC
     void remove_didSelectCellEvent(System::Action_2<HMUI::SegmentedControl*, int>* value);
     // public HMUI.SegmentedControl/IDataSource get_dataSource()
-    // Offset: 0x10DF49C
+    // Offset: 0x1041760
     HMUI::SegmentedControl::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SegmentedControl/IDataSource value)
-    // Offset: 0x10DF4A4
+    // Offset: 0x1041768
     void set_dataSource(HMUI::SegmentedControl::IDataSource* value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x10DF7F0
+    // Offset: 0x1041AB4
     int get_selectedCellNumber();
     // private System.Void CreateCells()
-    // Offset: 0x10DF7F8
+    // Offset: 0x1041ABC
     void CreateCells();
     // public System.Void CellSelectionStateDidChange(HMUI.SegmentedControlCell changedCell)
-    // Offset: 0x10DFCBC
+    // Offset: 0x1041F80
     void CellSelectionStateDidChange(HMUI::SegmentedControlCell* changedCell);
     // public System.Void ReloadData()
-    // Offset: 0x10DF4CC
+    // Offset: 0x1041790
     void ReloadData();
     // public System.Void SelectCellWithNumber(System.Int32 selectCellNumber)
-    // Offset: 0x10DFD94
+    // Offset: 0x1042058
     void SelectCellWithNumber(int selectCellNumber);
     // public System.Void .ctor()
-    // Offset: 0x10DFE74
+    // Offset: 0x1042138
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

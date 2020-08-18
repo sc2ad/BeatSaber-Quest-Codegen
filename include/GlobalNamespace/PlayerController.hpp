@@ -62,40 +62,40 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Quaternion headRot;
     // public Saber get_leftSaber()
-    // Offset: 0xBD75C8
+    // Offset: 0x191E930
     GlobalNamespace::Saber* get_leftSaber();
     // public Saber get_rightSaber()
-    // Offset: 0xBD75D0
+    // Offset: 0x191E938
     GlobalNamespace::Saber* get_rightSaber();
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0xBD75D8
+    // Offset: 0x191E940
     UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0xBD75E4
+    // Offset: 0x191E94C
     UnityEngine::Quaternion get_headRot();
     // public Saber SaberForType(SaberType saberType)
-    // Offset: 0xBD75F0
+    // Offset: 0x191E958
     GlobalNamespace::Saber* SaberForType(GlobalNamespace::SaberType saberType);
     // public System.Void set_disableSabers(System.Boolean value)
-    // Offset: 0xBD7660
+    // Offset: 0x191E9C8
     void set_disableSabers(bool value);
     // public System.Boolean get_disableSabers()
-    // Offset: 0xBD7690
+    // Offset: 0x191E9F8
     bool get_disableSabers();
     // public System.Void OverrideHeadPos(UnityEngine.Vector3 pos)
-    // Offset: 0xBCD96C
+    // Offset: 0x1914CD4
     void OverrideHeadPos(UnityEngine::Vector3 pos);
     // protected System.Void Start()
-    // Offset: 0xBD7698
+    // Offset: 0x191EA00
     void Start();
     // protected System.Void Update()
-    // Offset: 0xBD76D4
+    // Offset: 0x191EA3C
     void Update();
     // public System.Single MoveTowardsHead(System.Single start, System.Single end, UnityEngine.Quaternion noteInverseWorldRotation, System.Single t)
-    // Offset: 0xBD772C
+    // Offset: 0x191EA94
     float MoveTowardsHead(float start, float end, UnityEngine::Quaternion noteInverseWorldRotation, float t);
     // public System.Void .ctor()
-    // Offset: 0xBD7848
+    // Offset: 0x191EBB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

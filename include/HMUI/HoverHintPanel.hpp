@@ -48,25 +48,25 @@ namespace HMUI {
     // Offset: 0x38
     bool isShown;
     // public System.Boolean get_isShown()
-    // Offset: 0xEDF0C4
+    // Offset: 0xE3F388
     bool get_isShown();
     // private System.Void set_isShown(System.Boolean value)
-    // Offset: 0xEDF0CC
+    // Offset: 0xE3F390
     void set_isShown(bool value);
     // protected System.Void Awake()
-    // Offset: 0xEDF0D8
+    // Offset: 0xE3F39C
     void Awake();
     // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
-    // Offset: 0xEDEB60
+    // Offset: 0xE3EE24
     void Show(::Il2CppString* text, UnityEngine::Transform* parent, UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect);
     // public System.Void Hide()
-    // Offset: 0xEDE6C8
+    // Offset: 0xE3E98C
     void Hide();
     // private UnityEngine.Vector2 CalculatePanelPosition(UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect, UnityEngine.Vector2 panelSize)
-    // Offset: 0xEDF1E0
+    // Offset: 0xE3F4A4
     UnityEngine::Vector2 CalculatePanelPosition(UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect, UnityEngine::Vector2 panelSize);
     // public System.Void .ctor()
-    // Offset: 0xEDF30C
+    // Offset: 0xE3F5D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

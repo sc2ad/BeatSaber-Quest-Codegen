@@ -24,16 +24,16 @@ namespace UnityEngine::Events {
   class UnityAction : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1306EE0
+    // Offset: 0x126A1A4
     static UnityAction* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x12FD3B8
+    // Offset: 0x126067C
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1306EF4
+    // Offset: 0x126A1B8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1306F20
+    // Offset: 0x126A1E4
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Events.UnityAction
 }

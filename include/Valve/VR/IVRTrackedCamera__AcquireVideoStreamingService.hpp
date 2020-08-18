@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRTrackedCamera::_AcquireVideoStreamingService : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CF744
+    // Offset: 0x1631A7C
     static IVRTrackedCamera::_AcquireVideoStreamingService* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, System.UInt64 pHandle)
-    // Offset: 0x16CF758
+    // Offset: 0x1631A90
     Valve::VR::EVRTrackedCameraError Invoke(uint nDeviceIndex, uint64_t& pHandle);
     // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, System.UInt64 pHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CF9E8
+    // Offset: 0x1631D20
     System::IAsyncResult* BeginInvoke(uint nDeviceIndex, uint64_t& pHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRTrackedCameraError EndInvoke(System.UInt64 pHandle, System.IAsyncResult result)
-    // Offset: 0x16CFA9C
+    // Offset: 0x1631DD4
     Valve::VR::EVRTrackedCameraError EndInvoke(uint64_t& pHandle, System::IAsyncResult* result);
   }; // Valve.VR.IVRTrackedCamera/_AcquireVideoStreamingService
 }

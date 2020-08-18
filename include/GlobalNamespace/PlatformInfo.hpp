@@ -77,10 +77,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly PlatformInfo ps4PlatformInfo
     static void _set_ps4PlatformInfo(GlobalNamespace::PlatformInfo* value);
     // private System.Void .ctor(PlatformInfo/Platform platform, System.String serialzedName)
-    // Offset: 0xBD3004
+    // Offset: 0x191A36C
     static PlatformInfo* New_ctor(GlobalNamespace::PlatformInfo::Platform platform, ::Il2CppString* serialzedName);
     // static private System.Void .cctor()
-    // Offset: 0xBD3048
+    // Offset: 0x191A3B0
     static void _cctor();
   }; // PlatformInfo
 }

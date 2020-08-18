@@ -17,7 +17,7 @@ namespace LIV::SDK::Unity {
     // Offset: 0x10
     ::Il2CppString* text;
     // public System.Void .ctor(System.String text)
-    // Offset: 0x197B69C
+    // Offset: 0x18D45E0
     static HelpAttribute* New_ctor(::Il2CppString* text);
   }; // LIV.SDK.Unity.HelpAttribute
 }

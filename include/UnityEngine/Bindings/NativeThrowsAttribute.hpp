@@ -17,10 +17,10 @@ namespace UnityEngine::Bindings {
     // Offset: 0x10
     bool ThrowsException;
     // public System.Void set_ThrowsException(System.Boolean value)
-    // Offset: 0x196AC44
+    // Offset: 0x18C6F88
     void set_ThrowsException(bool value);
     // public System.Void .ctor()
-    // Offset: 0x196AC50
+    // Offset: 0x18C6F94
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

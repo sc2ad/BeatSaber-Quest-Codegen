@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // protected System.Void OnEnable()
-    // Offset: 0xBCF4A4
+    // Offset: 0x191680C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xBCF58C
+    // Offset: 0x19168F4
     void OnDisable();
     // private System.Void HandlePS4HelperDidGoToBackgroundExecution()
-    // Offset: 0xBCF684
+    // Offset: 0x19169EC
     void HandlePS4HelperDidGoToBackgroundExecution();
     // public System.Void .ctor()
-    // Offset: 0xBCF6EC
+    // Offset: 0x1916A54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

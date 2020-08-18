@@ -22,7 +22,7 @@ namespace System::Globalization {
     // Offset: 0x14
     int value;
     // System.Void .ctor(System.Globalization.HebrewNumber/HebrewToken token, System.Int32 value)
-    // Offset: 0x12C75F0
+    // Offset: 0x122A8B4
     static HebrewNumber::HebrewValue* New_ctor(System::Globalization::HebrewNumber::HebrewToken token, int value);
   }; // System.Globalization.HebrewNumber/HebrewValue
 }

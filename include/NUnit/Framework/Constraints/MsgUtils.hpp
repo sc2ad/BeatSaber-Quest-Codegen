@@ -141,100 +141,100 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static private NUnit.Framework.Constraints.ValueFormatterFactory CS$<>9__CachedAnonymousMethodDelegate1f
     static void _set_CS$$$9__CachedAnonymousMethodDelegate1f(NUnit::Framework::Constraints::ValueFormatterFactory* value);
     // static public NUnit.Framework.Constraints.ValueFormatter get_DefaultValueFormatter()
-    // Offset: 0x1072D10
+    // Offset: 0xFD4FD4
     static NUnit::Framework::Constraints::ValueFormatter* get_DefaultValueFormatter();
     // static public System.Void set_DefaultValueFormatter(NUnit.Framework.Constraints.ValueFormatter value)
-    // Offset: 0x1072D78
+    // Offset: 0xFD503C
     static void set_DefaultValueFormatter(NUnit::Framework::Constraints::ValueFormatter* value);
     // static private System.Void .cctor()
-    // Offset: 0x1072DE8
+    // Offset: 0xFD50AC
     static void _cctor();
     // static public System.Void AddFormatter(NUnit.Framework.Constraints.ValueFormatterFactory formatterFactory)
-    // Offset: 0x1073444
+    // Offset: 0xFD5708
     static void AddFormatter(NUnit::Framework::Constraints::ValueFormatterFactory* formatterFactory);
     // static public System.String FormatValue(System.Object val)
-    // Offset: 0x1070B84
+    // Offset: 0xFD2E48
     static ::Il2CppString* FormatValue(::Il2CppObject* val);
     // static public System.String FormatCollection(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
-    // Offset: 0x1073C94
+    // Offset: 0xFD5F58
     static ::Il2CppString* FormatCollection(System::Collections::IEnumerable* collection, int64_t start, int max);
     // static private System.String FormatArray(System.Array array)
-    // Offset: 0x107408C
+    // Offset: 0xFD6350
     static ::Il2CppString* FormatArray(System::Array* array);
     // static private System.String FormatString(System.String s)
-    // Offset: 0x1074564
+    // Offset: 0xFD6828
     static ::Il2CppString* FormatString(::Il2CppString* s);
     // static private System.String FormatDouble(System.Double d)
-    // Offset: 0x107462C
+    // Offset: 0xFD68F0
     static ::Il2CppString* FormatDouble(double d);
     // static private System.String FormatFloat(System.Single f)
-    // Offset: 0x107476C
+    // Offset: 0xFD6A30
     static ::Il2CppString* FormatFloat(float f);
     // static private System.String FormatDecimal(System.Decimal d)
-    // Offset: 0x1074878
+    // Offset: 0xFD6B3C
     static ::Il2CppString* FormatDecimal(System::Decimal d);
     // static private System.String FormatDateTime(System.DateTime dt)
-    // Offset: 0x1074918
+    // Offset: 0xFD6BDC
     static ::Il2CppString* FormatDateTime(System::DateTime dt);
     // static private System.String FormatDateTimeOffset(System.DateTimeOffset dto)
-    // Offset: 0x10749C4
+    // Offset: 0xFD6C88
     static ::Il2CppString* FormatDateTimeOffset(System::DateTimeOffset dto);
     // static public System.String GetTypeRepresentation(System.Object obj)
-    // Offset: 0x1072460
+    // Offset: 0xFD4724
     static ::Il2CppString* GetTypeRepresentation(::Il2CppObject* obj);
     // static public System.String EscapeControlChars(System.String s)
-    // Offset: 0x1074A78
+    // Offset: 0xFD6D3C
     static ::Il2CppString* EscapeControlChars(::Il2CppString* s);
     // static public System.String EscapeNullCharacters(System.String s)
-    // Offset: 0x1074C9C
+    // Offset: 0xFD6F60
     static ::Il2CppString* EscapeNullCharacters(::Il2CppString* s);
     // static public System.String GetArrayIndicesAsString(System.Int32[] indices)
-    // Offset: 0x1072788
+    // Offset: 0xFD4A4C
     static ::Il2CppString* GetArrayIndicesAsString(::Array<int>* indices);
     // static public System.Int32[] GetArrayIndicesFromCollectionIndex(System.Collections.IEnumerable collection, System.Int64 index)
-    // Offset: 0x1072650
+    // Offset: 0xFD4914
     static ::Array<int>* GetArrayIndicesFromCollectionIndex(System::Collections::IEnumerable* collection, int64_t index);
     // static public System.String ClipString(System.String s, System.Int32 maxStringLength, System.Int32 clipStart)
-    // Offset: 0x1074D98
+    // Offset: 0xFD705C
     static ::Il2CppString* ClipString(::Il2CppString* s, int maxStringLength, int clipStart);
     // static public System.Void ClipExpectedAndActual(System.String expected, System.String actual, System.Int32 maxDisplayLength, System.Int32 mismatch)
-    // Offset: 0x1074EE0
+    // Offset: 0xFD71A4
     static void ClipExpectedAndActual(::Il2CppString*& expected, ::Il2CppString*& actual, int maxDisplayLength, int mismatch);
     // static public System.Int32 FindMismatchPosition(System.String expected, System.String actual, System.Int32 istart, System.Boolean ignoreCase)
-    // Offset: 0x1071A90
+    // Offset: 0xFD3D54
     static int FindMismatchPosition(::Il2CppString* expected, ::Il2CppString* actual, int istart, bool ignoreCase);
     // static private System.String <.cctor>b__0(System.Object val)
-    // Offset: 0x1075068
+    // Offset: 0xFD732C
     static ::Il2CppString* $_cctor$b__0(::Il2CppObject* val);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__1(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x10750DC
+    // Offset: 0xFD73A0
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__1(NUnit::Framework::Constraints::ValueFormatter* next);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__3(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1075194
+    // Offset: 0xFD7458
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__3(NUnit::Framework::Constraints::ValueFormatter* next);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__5(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x107524C
+    // Offset: 0xFD7510
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__5(NUnit::Framework::Constraints::ValueFormatter* next);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__7(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1075304
+    // Offset: 0xFD75C8
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__7(NUnit::Framework::Constraints::ValueFormatter* next);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__9(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x10753BC
+    // Offset: 0xFD7680
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__9(NUnit::Framework::Constraints::ValueFormatter* next);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__b(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1075474
+    // Offset: 0xFD7738
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__b(NUnit::Framework::Constraints::ValueFormatter* next);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__d(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x107552C
+    // Offset: 0xFD77F0
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__d(NUnit::Framework::Constraints::ValueFormatter* next);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__f(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x10755E4
+    // Offset: 0xFD78A8
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__f(NUnit::Framework::Constraints::ValueFormatter* next);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__11(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x107569C
+    // Offset: 0xFD7960
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__11(NUnit::Framework::Constraints::ValueFormatter* next);
     // static private NUnit.Framework.Constraints.ValueFormatter <.cctor>b__13(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1075754
+    // Offset: 0xFD7A18
     static NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__13(NUnit::Framework::Constraints::ValueFormatter* next);
   }; // NUnit.Framework.Constraints.MsgUtils
 }

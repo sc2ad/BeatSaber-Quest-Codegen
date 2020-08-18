@@ -34,16 +34,16 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static private System.Byte[] Empty
     static void _set_Empty(::Array<uint8_t>* value);
     // public System.Security.Cryptography.AsnEncodedData get_EncodedKeyValue()
-    // Offset: 0x1216624
+    // Offset: 0x11788E8
     System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();
     // public System.Security.Cryptography.AsnEncodedData get_EncodedParameters()
-    // Offset: 0x121662C
+    // Offset: 0x11788F0
     System::Security::Cryptography::AsnEncodedData* get_EncodedParameters();
     // public System.Security.Cryptography.Oid get_Oid()
-    // Offset: 0x1216634
+    // Offset: 0x11788F8
     System::Security::Cryptography::Oid* get_Oid();
     // static private System.Void .cctor()
-    // Offset: 0x121663C
+    // Offset: 0x1178900
     static void _cctor();
   }; // System.Security.Cryptography.X509Certificates.PublicKey
 }

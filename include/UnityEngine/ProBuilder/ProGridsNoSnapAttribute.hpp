@@ -14,7 +14,7 @@ namespace UnityEngine::ProBuilder {
   class ProGridsNoSnapAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1035A2C
+    // Offset: 0xF97CF0
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

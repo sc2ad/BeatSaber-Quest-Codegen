@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* typeNameLocalizationKey;
     // public System.String get_typeNameLocalizationKey()
-    // Offset: 0xBE8AFC
+    // Offset: 0x193010C
     ::Il2CppString* get_typeNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0xBE8B04
+    // Offset: 0x1930114
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

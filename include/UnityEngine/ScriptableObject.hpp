@@ -23,23 +23,23 @@ namespace UnityEngine {
   class ScriptableObject : public UnityEngine::Object {
     public:
     // static public UnityEngine.ScriptableObject CreateInstance(System.Type type)
-    // Offset: 0x138934C
+    // Offset: 0x12EA610
     static UnityEngine::ScriptableObject* CreateInstance(System::Type* type);
     // static public T CreateInstance()
-    // Offset: 0xD4EEDC
+    // Offset: 0xFFFFFFFF
     template<class T>
     static T CreateInstance() {
       static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "ScriptableObject", "CreateInstance", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static private System.Void CreateScriptableObject(UnityEngine.ScriptableObject self)
-    // Offset: 0x138930C
+    // Offset: 0x12EA5D0
     static void CreateScriptableObject(UnityEngine::ScriptableObject* self);
     // static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromType(System.Type type, System.Boolean applyDefaultsAndReset)
-    // Offset: 0x1389390
+    // Offset: 0x12EA654
     static UnityEngine::ScriptableObject* CreateScriptableObjectInstanceFromType(System::Type* type, bool applyDefaultsAndReset);
     // public System.Void .ctor()
-    // Offset: 0x1385EBC
+    // Offset: 0x12E7180
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

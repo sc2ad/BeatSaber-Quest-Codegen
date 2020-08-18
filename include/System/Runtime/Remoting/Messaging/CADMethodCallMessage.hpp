@@ -31,22 +31,22 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x38
     ::Il2CppString* uri;
     // System.String get_Uri()
-    // Offset: 0x105FE88
+    // Offset: 0xFC214C
     ::Il2CppString* get_Uri();
     // static System.Runtime.Remoting.Messaging.CADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x1053B1C
+    // Offset: 0xFB5DE0
     static System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodCallMessage callMsg)
-    // Offset: 0x105FE90
+    // Offset: 0xFC2154
     static CADMethodCallMessage* New_ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x10600B8
+    // Offset: 0xFC237C
     System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x10601A0
+    // Offset: 0xFC2464
     ::Array<::Il2CppObject*>* GetArgs(System::Collections::ArrayList* args);
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x10601B0
+    // Offset: 0xFC2474
     int get_PropertiesCount();
   }; // System.Runtime.Remoting.Messaging.CADMethodCallMessage
 }

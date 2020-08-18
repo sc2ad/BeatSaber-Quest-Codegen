@@ -39,31 +39,31 @@ namespace UnityEngine {
     // Creating value type constructor for type: Plane
     Plane(UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}) : m_Normal{m_Normal_}, m_Distance{m_Distance_} {}
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0xA44DF8
+    // Offset: 0x9AE2C4
     UnityEngine::Vector3 get_normal();
     // public System.Void .ctor(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
-    // Offset: 0xA44E04
+    // Offset: 0x9AE2D0
     static Plane* New_ctor(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
     // public System.Void .ctor(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c)
-    // Offset: 0xA44E0C
+    // Offset: 0x9AE2D8
     static Plane* New_ctor(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c);
     // public System.Void SetNormalAndPosition(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
-    // Offset: 0xA44E24
+    // Offset: 0x9AE2F0
     void SetNormalAndPosition(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
     // public UnityEngine.Vector3 ClosestPointOnPlane(UnityEngine.Vector3 point)
-    // Offset: 0xA44E2C
+    // Offset: 0x9AE2F8
     UnityEngine::Vector3 ClosestPointOnPlane(UnityEngine::Vector3 point);
     // public System.Single GetDistanceToPoint(UnityEngine.Vector3 point)
-    // Offset: 0xA44E34
+    // Offset: 0x9AE300
     float GetDistanceToPoint(UnityEngine::Vector3 point);
     // public System.Boolean SameSide(UnityEngine.Vector3 inPt0, UnityEngine.Vector3 inPt1)
-    // Offset: 0xA44E3C
+    // Offset: 0x9AE308
     bool SameSide(UnityEngine::Vector3 inPt0, UnityEngine::Vector3 inPt1);
     // public System.Boolean Raycast(UnityEngine.Ray ray, System.Single enter)
-    // Offset: 0xA44E44
+    // Offset: 0x9AE310
     bool Raycast(UnityEngine::Ray ray, float& enter);
     // public override System.String ToString()
-    // Offset: 0xA44E7C
+    // Offset: 0x9AE348
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

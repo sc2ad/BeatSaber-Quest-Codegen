@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithPidList : public Oculus::Platform::Message_1<Oculus::Platform::Models::PidList*> {
     public:
     // protected Oculus.Platform.Models.PidList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xEA3078
+    // Offset: 0xE0233C
     Oculus::Platform::Models::PidList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE9B484
+    // Offset: 0xDFA748
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPidList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.PidList GetPidList()
-    // Offset: 0xEA3034
+    // Offset: 0xE022F8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PidList Message::GetPidList()
     Oculus::Platform::Models::PidList* GetPidList();

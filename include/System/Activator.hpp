@@ -33,22 +33,22 @@ namespace System {
   class Activator : public ::Il2CppObject {
     public:
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture)
-    // Offset: 0x10B689C
+    // Offset: 0x1018B60
     static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, System::Globalization::CultureInfo* culture);
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes)
-    // Offset: 0x10B68A4
+    // Offset: 0x1018B68
     static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, System::Globalization::CultureInfo* culture, ::Array<::Il2CppObject*>* activationAttributes);
     // static public System.Object CreateInstance(System.Type type, System.Object[] args)
-    // Offset: 0x10B6B08
+    // Offset: 0x1018DCC
     static ::Il2CppObject* CreateInstance(System::Type* type, ::Array<::Il2CppObject*>* args);
     // static public System.Object CreateInstance(System.Type type)
-    // Offset: 0x10B6B20
+    // Offset: 0x1018DE4
     static ::Il2CppObject* CreateInstance(System::Type* type);
     // static public System.Object CreateInstance(System.Type type, System.Boolean nonPublic)
-    // Offset: 0x10B6B28
+    // Offset: 0x1018DEC
     static ::Il2CppObject* CreateInstance(System::Type* type, bool nonPublic);
     // static public T CreateInstance()
-    // Offset: 0xC60CD8
+    // Offset: 0xFFFFFFFF
     template<class T>
     static T CreateInstance() {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("System", "Activator", "CreateInstance", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));

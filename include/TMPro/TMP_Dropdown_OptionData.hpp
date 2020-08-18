@@ -27,28 +27,28 @@ namespace TMPro {
     // Offset: 0x18
     UnityEngine::Sprite* m_Image;
     // public System.String get_text()
-    // Offset: 0xB6C89C
+    // Offset: 0xB59470
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0xB6C8A4
+    // Offset: 0xB59478
     void set_text(::Il2CppString* value);
     // public UnityEngine.Sprite get_image()
-    // Offset: 0xB6C8AC
+    // Offset: 0xB59480
     UnityEngine::Sprite* get_image();
     // public System.Void set_image(UnityEngine.Sprite value)
-    // Offset: 0xB6C8B4
+    // Offset: 0xB59488
     void set_image(UnityEngine::Sprite* value);
     // public System.Void .ctor(System.String text)
-    // Offset: 0xB6A4E0
+    // Offset: 0xB570B4
     static TMP_Dropdown::OptionData* New_ctor(::Il2CppString* text);
     // public System.Void .ctor(UnityEngine.Sprite image)
-    // Offset: 0xB6A60C
+    // Offset: 0xB571E0
     static TMP_Dropdown::OptionData* New_ctor(UnityEngine::Sprite* image);
     // public System.Void .ctor(System.String text, UnityEngine.Sprite image)
-    // Offset: 0xB6C8BC
+    // Offset: 0xB59490
     static TMP_Dropdown::OptionData* New_ctor(::Il2CppString* text, UnityEngine::Sprite* image);
     // public System.Void .ctor()
-    // Offset: 0xB69880
+    // Offset: 0xB56454
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_Dropdown::OptionData* New_ctor();

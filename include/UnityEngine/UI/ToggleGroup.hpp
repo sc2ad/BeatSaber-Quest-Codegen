@@ -38,37 +38,37 @@ namespace UnityEngine::UI {
     // Offset: 0x20
     System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* m_Toggles;
     // public System.Boolean get_allowSwitchOff()
-    // Offset: 0x192D05C
+    // Offset: 0x188A3A8
     bool get_allowSwitchOff();
     // public System.Void set_allowSwitchOff(System.Boolean value)
-    // Offset: 0x192D064
+    // Offset: 0x188A3B0
     void set_allowSwitchOff(bool value);
     // private System.Void ValidateToggleIsInGroup(UnityEngine.UI.Toggle toggle)
-    // Offset: 0x192D114
+    // Offset: 0x188A460
     void ValidateToggleIsInGroup(UnityEngine::UI::Toggle* toggle);
     // public System.Void NotifyToggleOn(UnityEngine.UI.Toggle toggle, System.Boolean sendCallback)
-    // Offset: 0x192CD40
+    // Offset: 0x188A08C
     void NotifyToggleOn(UnityEngine::UI::Toggle* toggle, bool sendCallback);
     // public System.Void UnregisterToggle(UnityEngine.UI.Toggle toggle)
-    // Offset: 0x192CC10
+    // Offset: 0x1889F5C
     void UnregisterToggle(UnityEngine::UI::Toggle* toggle);
     // public System.Void RegisterToggle(UnityEngine.UI.Toggle toggle)
-    // Offset: 0x192CCA8
+    // Offset: 0x1889FF4
     void RegisterToggle(UnityEngine::UI::Toggle* toggle);
     // public System.Void EnsureValidState()
-    // Offset: 0x192C880
+    // Offset: 0x1889BCC
     void EnsureValidState();
     // public System.Boolean AnyTogglesOn()
-    // Offset: 0x192CE8C
+    // Offset: 0x188A1D8
     bool AnyTogglesOn();
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.UI.Toggle> ActiveToggles()
-    // Offset: 0x192D268
+    // Offset: 0x188A5B4
     System::Collections::Generic::IEnumerable_1<UnityEngine::UI::Toggle*>* ActiveToggles();
     // public System.Void SetAllTogglesOff(System.Boolean sendCallback)
-    // Offset: 0x192D360
+    // Offset: 0x188A6AC
     void SetAllTogglesOff(bool sendCallback);
     // protected System.Void .ctor()
-    // Offset: 0x192D070
+    // Offset: 0x188A3BC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -78,7 +78,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static ToggleGroup* New_ctor();
     // protected override System.Void Start()
-    // Offset: 0x192D0EC
+    // Offset: 0x188A438
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();

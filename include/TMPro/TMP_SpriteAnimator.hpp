@@ -42,25 +42,25 @@ namespace TMPro {
     // Offset: 0x20
     TMPro::TMP_Text* m_TextComponent;
     // private System.Void Awake()
-    // Offset: 0xBAF91C
+    // Offset: 0xB7406C
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0xBAF97C
+    // Offset: 0xB740CC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xBAF980
+    // Offset: 0xB740D0
     void OnDisable();
     // public System.Void StopAllAnimations()
-    // Offset: 0xBAF984
+    // Offset: 0xB740D4
     void StopAllAnimations();
     // public System.Void DoSpriteAnimation(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0xBAF9E8
+    // Offset: 0xB74138
     void DoSpriteAnimation(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // private System.Collections.IEnumerator DoSpriteAnimationInternal(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0xBAFACC
+    // Offset: 0xB7421C
     System::Collections::IEnumerator* DoSpriteAnimationInternal(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // public System.Void .ctor()
-    // Offset: 0xBAFBBC
+    // Offset: 0xB7430C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

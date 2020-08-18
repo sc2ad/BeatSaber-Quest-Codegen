@@ -17,10 +17,10 @@ namespace UnityEngine::Bindings {
     // Offset: 0x10
     bool WritableSelf;
     // public System.Void set_WritableSelf(System.Boolean value)
-    // Offset: 0x196AE28
+    // Offset: 0x18C716C
     void set_WritableSelf(bool value);
     // public System.Void .ctor()
-    // Offset: 0x196AE34
+    // Offset: 0x18C7178
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

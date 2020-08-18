@@ -21,24 +21,24 @@ namespace Zenject {
   class MemoryPool_3 : public Zenject::IMemoryPool_3<TParam1, TParam2, TValue>, public Zenject::IFactory_3<TParam1, TParam2, TValue>, public Zenject::MemoryPoolBase_1<TValue> {
     public:
     // public TValue Spawn(TParam1 param1, TParam2 param2)
-    // Offset: 0x15DAAA4
+    // Offset: 0xFFFFFFFF
     TValue Spawn(TParam1 param1, TParam2 param2) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Spawn", param1, param2));
     }
     // protected System.Void Reinitialize(TParam1 p1, TParam2 p2, TValue item)
-    // Offset: 0x15DAB3C
+    // Offset: 0xFFFFFFFF
     void Reinitialize(TParam1 p1, TParam2 p2, TValue item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Reinitialize", p1, p2, item));
     }
     // private TValue Zenject.IFactory<TParam1,TParam2,TValue>.Create(TParam1 p1, TParam2 p2)
-    // Offset: 0x15DAB40
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`3
     // Base method: TValue IFactory`3::Create(TParam1 p1, TParam2 p2)
     TValue Zenject_IFactory_3_Create(TParam1 p1, TParam2 p2) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<TValue>(this, "Zenject.IFactory<TParam1,TParam2,TValue>.Create", p1, p2)));
     }
     // public System.Void .ctor()
-    // Offset: 0x15DAB64
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase`1::.ctor()
     // Base method: System.Void Object::.ctor()

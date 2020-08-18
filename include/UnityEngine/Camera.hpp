@@ -69,259 +69,259 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.Camera/CameraCallback onPostRender
     static void _set_onPostRender(UnityEngine::Camera::CameraCallback* value);
     // public System.Single get_nearClipPlane()
-    // Offset: 0x12FE6F0
+    // Offset: 0x12619B4
     float get_nearClipPlane();
     // public System.Void set_nearClipPlane(System.Single value)
-    // Offset: 0x12FE730
+    // Offset: 0x12619F4
     void set_nearClipPlane(float value);
     // public System.Single get_farClipPlane()
-    // Offset: 0x12FE780
+    // Offset: 0x1261A44
     float get_farClipPlane();
     // public System.Void set_farClipPlane(System.Single value)
-    // Offset: 0x12FE7C0
+    // Offset: 0x1261A84
     void set_farClipPlane(float value);
     // public System.Single get_fieldOfView()
-    // Offset: 0x12FE810
+    // Offset: 0x1261AD4
     float get_fieldOfView();
     // public System.Void set_fieldOfView(System.Single value)
-    // Offset: 0x12FE850
+    // Offset: 0x1261B14
     void set_fieldOfView(float value);
     // public System.Void set_renderingPath(UnityEngine.RenderingPath value)
-    // Offset: 0x12FE8A0
+    // Offset: 0x1261B64
     void set_renderingPath(UnityEngine::RenderingPath value);
     // public System.Void set_allowHDR(System.Boolean value)
-    // Offset: 0x12FE8F0
+    // Offset: 0x1261BB4
     void set_allowHDR(bool value);
     // public System.Void set_allowMSAA(System.Boolean value)
-    // Offset: 0x12FE940
+    // Offset: 0x1261C04
     void set_allowMSAA(bool value);
     // public System.Void set_forceIntoRenderTexture(System.Boolean value)
-    // Offset: 0x12FE990
+    // Offset: 0x1261C54
     void set_forceIntoRenderTexture(bool value);
     // public System.Void set_orthographicSize(System.Single value)
-    // Offset: 0x12FE9E0
+    // Offset: 0x1261CA4
     void set_orthographicSize(float value);
     // public System.Boolean get_orthographic()
-    // Offset: 0x12FEA30
+    // Offset: 0x1261CF4
     bool get_orthographic();
     // public System.Void set_orthographic(System.Boolean value)
-    // Offset: 0x12FEA70
+    // Offset: 0x1261D34
     void set_orthographic(bool value);
     // public System.Single get_depth()
-    // Offset: 0x12FEAC0
+    // Offset: 0x1261D84
     float get_depth();
     // public System.Void set_depth(System.Single value)
-    // Offset: 0x12FEB00
+    // Offset: 0x1261DC4
     void set_depth(float value);
     // public System.Single get_aspect()
-    // Offset: 0x12FEB50
+    // Offset: 0x1261E14
     float get_aspect();
     // public System.Void set_aspect(System.Single value)
-    // Offset: 0x12FEB90
+    // Offset: 0x1261E54
     void set_aspect(float value);
     // public System.Int32 get_cullingMask()
-    // Offset: 0x12FEBE0
+    // Offset: 0x1261EA4
     int get_cullingMask();
     // public System.Void set_cullingMask(System.Int32 value)
-    // Offset: 0x12FEC20
+    // Offset: 0x1261EE4
     void set_cullingMask(int value);
     // public System.Int32 get_eventMask()
-    // Offset: 0x12FEC70
+    // Offset: 0x1261F34
     int get_eventMask();
     // public System.Void set_useOcclusionCulling(System.Boolean value)
-    // Offset: 0x12FECB0
+    // Offset: 0x1261F74
     void set_useOcclusionCulling(bool value);
     // public UnityEngine.Color get_backgroundColor()
-    // Offset: 0x12FED00
+    // Offset: 0x1261FC4
     UnityEngine::Color get_backgroundColor();
     // public System.Void set_backgroundColor(UnityEngine.Color value)
-    // Offset: 0x12FEDAC
+    // Offset: 0x1262070
     void set_backgroundColor(UnityEngine::Color value);
     // public UnityEngine.CameraClearFlags get_clearFlags()
-    // Offset: 0x12FEE54
+    // Offset: 0x1262118
     UnityEngine::CameraClearFlags get_clearFlags();
     // public System.Void set_clearFlags(UnityEngine.CameraClearFlags value)
-    // Offset: 0x12FEE94
+    // Offset: 0x1262158
     void set_clearFlags(UnityEngine::CameraClearFlags value);
     // public UnityEngine.DepthTextureMode get_depthTextureMode()
-    // Offset: 0x12FEEE4
+    // Offset: 0x12621A8
     UnityEngine::DepthTextureMode get_depthTextureMode();
     // public System.Void set_depthTextureMode(UnityEngine.DepthTextureMode value)
-    // Offset: 0x12FEF24
+    // Offset: 0x12621E8
     void set_depthTextureMode(UnityEngine::DepthTextureMode value);
     // public UnityEngine.Rect get_rect()
-    // Offset: 0x12FEF74
+    // Offset: 0x1262238
     UnityEngine::Rect get_rect();
     // public System.Void set_rect(UnityEngine.Rect value)
-    // Offset: 0x12FF020
+    // Offset: 0x12622E4
     void set_rect(UnityEngine::Rect value);
     // public UnityEngine.Rect get_pixelRect()
-    // Offset: 0x12FF0C8
+    // Offset: 0x126238C
     UnityEngine::Rect get_pixelRect();
     // public System.Int32 get_pixelWidth()
-    // Offset: 0x12FF174
+    // Offset: 0x1262438
     int get_pixelWidth();
     // public System.Int32 get_pixelHeight()
-    // Offset: 0x12FF1B4
+    // Offset: 0x1262478
     int get_pixelHeight();
     // public UnityEngine.RenderTexture get_targetTexture()
-    // Offset: 0x12FF1F4
+    // Offset: 0x12624B8
     UnityEngine::RenderTexture* get_targetTexture();
     // public System.Void set_targetTexture(UnityEngine.RenderTexture value)
-    // Offset: 0x12FF234
+    // Offset: 0x12624F8
     void set_targetTexture(UnityEngine::RenderTexture* value);
     // public System.Int32 get_targetDisplay()
-    // Offset: 0x12FF284
+    // Offset: 0x1262548
     int get_targetDisplay();
     // public System.Void set_targetDisplay(System.Int32 value)
-    // Offset: 0x12FF2C4
+    // Offset: 0x1262588
     void set_targetDisplay(int value);
     // public UnityEngine.Matrix4x4 get_worldToCameraMatrix()
-    // Offset: 0x12FF314
+    // Offset: 0x12625D8
     UnityEngine::Matrix4x4 get_worldToCameraMatrix();
     // public System.Void set_worldToCameraMatrix(UnityEngine.Matrix4x4 value)
-    // Offset: 0x12FF3DC
+    // Offset: 0x12626A0
     void set_worldToCameraMatrix(UnityEngine::Matrix4x4 value);
     // public UnityEngine.Matrix4x4 get_projectionMatrix()
-    // Offset: 0x12FF47C
+    // Offset: 0x1262740
     UnityEngine::Matrix4x4 get_projectionMatrix();
     // public System.Void set_projectionMatrix(UnityEngine.Matrix4x4 value)
-    // Offset: 0x12FF544
+    // Offset: 0x1262808
     void set_projectionMatrix(UnityEngine::Matrix4x4 value);
     // public System.Void ResetWorldToCameraMatrix()
-    // Offset: 0x12FF5E4
+    // Offset: 0x12628A8
     void ResetWorldToCameraMatrix();
     // public UnityEngine.Matrix4x4 CalculateObliqueMatrix(UnityEngine.Vector4 clipPlane)
-    // Offset: 0x12FF624
+    // Offset: 0x12628E8
     UnityEngine::Matrix4x4 CalculateObliqueMatrix(UnityEngine::Vector4 clipPlane);
     // public UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 position, UnityEngine.Camera/MonoOrStereoscopicEye eye)
-    // Offset: 0x12FF700
+    // Offset: 0x12629C4
     UnityEngine::Vector3 WorldToScreenPoint(UnityEngine::Vector3 position, UnityEngine::Camera::MonoOrStereoscopicEye eye);
     // public UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 position, UnityEngine.Camera/MonoOrStereoscopicEye eye)
-    // Offset: 0x12FF7E4
+    // Offset: 0x1262AA8
     UnityEngine::Vector3 ViewportToWorldPoint(UnityEngine::Vector3 position, UnityEngine::Camera::MonoOrStereoscopicEye eye);
     // public UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 position)
-    // Offset: 0x12FF8C8
+    // Offset: 0x1262B8C
     UnityEngine::Vector3 WorldToScreenPoint(UnityEngine::Vector3 position);
     // public UnityEngine.Vector3 ScreenToViewportPoint(UnityEngine.Vector3 position)
-    // Offset: 0x12FF8D0
+    // Offset: 0x1262B94
     UnityEngine::Vector3 ScreenToViewportPoint(UnityEngine::Vector3 position);
     // private UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2 pos, UnityEngine.Camera/MonoOrStereoscopicEye eye)
-    // Offset: 0x12FF994
+    // Offset: 0x1262C58
     UnityEngine::Ray ScreenPointToRay(UnityEngine::Vector2 pos, UnityEngine::Camera::MonoOrStereoscopicEye eye);
     // public UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 pos, UnityEngine.Camera/MonoOrStereoscopicEye eye)
-    // Offset: 0x12FFA80
+    // Offset: 0x1262D44
     UnityEngine::Ray ScreenPointToRay(UnityEngine::Vector3 pos, UnityEngine::Camera::MonoOrStereoscopicEye eye);
     // public UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 pos)
-    // Offset: 0x12FFB50
+    // Offset: 0x1262E14
     UnityEngine::Ray ScreenPointToRay(UnityEngine::Vector3 pos);
     // static public UnityEngine.Camera get_main()
-    // Offset: 0x12FFB94
+    // Offset: 0x1262E58
     static UnityEngine::Camera* get_main();
     // static public UnityEngine.Camera get_current()
-    // Offset: 0x12FFBC8
+    // Offset: 0x1262E8C
     static UnityEngine::Camera* get_current();
     // public System.Boolean get_stereoEnabled()
-    // Offset: 0x12FFBFC
+    // Offset: 0x1262EC0
     bool get_stereoEnabled();
     // public UnityEngine.StereoTargetEyeMask get_stereoTargetEye()
-    // Offset: 0x12FFC3C
+    // Offset: 0x1262F00
     UnityEngine::StereoTargetEyeMask get_stereoTargetEye();
     // public System.Void set_stereoTargetEye(UnityEngine.StereoTargetEyeMask value)
-    // Offset: 0x12FFC7C
+    // Offset: 0x1262F40
     void set_stereoTargetEye(UnityEngine::StereoTargetEyeMask value);
     // public UnityEngine.Matrix4x4 GetStereoProjectionMatrix(UnityEngine.Camera/StereoscopicEye eye)
-    // Offset: 0x12FFCCC
+    // Offset: 0x1262F90
     UnityEngine::Matrix4x4 GetStereoProjectionMatrix(UnityEngine::Camera::StereoscopicEye eye);
     // static private System.Int32 GetAllCamerasCount()
-    // Offset: 0x12FFDA4
+    // Offset: 0x1263068
     static int GetAllCamerasCount();
     // static private System.Int32 GetAllCamerasImpl(UnityEngine.Camera[] cam)
-    // Offset: 0x12FFDD8
+    // Offset: 0x126309C
     static int GetAllCamerasImpl(::Array<UnityEngine::Camera*>*& cam);
     // static public System.Int32 get_allCamerasCount()
-    // Offset: 0x12FFE18
+    // Offset: 0x12630DC
     static int get_allCamerasCount();
     // static public System.Int32 GetAllCameras(UnityEngine.Camera[] cameras)
-    // Offset: 0x12FFE4C
+    // Offset: 0x1263110
     static int GetAllCameras(::Array<UnityEngine::Camera*>* cameras);
     // public System.Void Render()
-    // Offset: 0x12FFF40
+    // Offset: 0x1263204
     void Render();
     // public System.Void RenderWithShader(UnityEngine.Shader shader, System.String replacementTag)
-    // Offset: 0x12FFF80
+    // Offset: 0x1263244
     void RenderWithShader(UnityEngine::Shader* shader, ::Il2CppString* replacementTag);
     // public System.Void CopyFrom(UnityEngine.Camera other)
-    // Offset: 0x12FFFD8
+    // Offset: 0x126329C
     void CopyFrom(UnityEngine::Camera* other);
     // private System.Void AddCommandBufferImpl(UnityEngine.Rendering.CameraEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
-    // Offset: 0x1300028
+    // Offset: 0x12632EC
     void AddCommandBufferImpl(UnityEngine::Rendering::CameraEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
     // private System.Void RemoveCommandBufferImpl(UnityEngine.Rendering.CameraEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
-    // Offset: 0x1300080
+    // Offset: 0x1263344
     void RemoveCommandBufferImpl(UnityEngine::Rendering::CameraEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
     // public System.Void AddCommandBuffer(UnityEngine.Rendering.CameraEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
-    // Offset: 0x13000D8
+    // Offset: 0x126339C
     void AddCommandBuffer(UnityEngine::Rendering::CameraEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
     // public System.Void RemoveCommandBuffer(UnityEngine.Rendering.CameraEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
-    // Offset: 0x1300228
+    // Offset: 0x12634EC
     void RemoveCommandBuffer(UnityEngine::Rendering::CameraEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
     // static private System.Void FireOnPreCull(UnityEngine.Camera cam)
-    // Offset: 0x1300378
+    // Offset: 0x126363C
     static void FireOnPreCull(UnityEngine::Camera* cam);
     // static private System.Void FireOnPreRender(UnityEngine.Camera cam)
-    // Offset: 0x1300798
+    // Offset: 0x1263A5C
     static void FireOnPreRender(UnityEngine::Camera* cam);
     // static private System.Void FireOnPostRender(UnityEngine.Camera cam)
-    // Offset: 0x1300800
+    // Offset: 0x1263AC4
     static void FireOnPostRender(UnityEngine::Camera* cam);
     // private System.Void get_backgroundColor_Injected(UnityEngine.Color ret)
-    // Offset: 0x12FED5C
+    // Offset: 0x1262020
     void get_backgroundColor_Injected(UnityEngine::Color& ret);
     // private System.Void set_backgroundColor_Injected(UnityEngine.Color value)
-    // Offset: 0x12FEE04
+    // Offset: 0x12620C8
     void set_backgroundColor_Injected(UnityEngine::Color& value);
     // private System.Void get_rect_Injected(UnityEngine.Rect ret)
-    // Offset: 0x12FEFD0
+    // Offset: 0x1262294
     void get_rect_Injected(UnityEngine::Rect& ret);
     // private System.Void set_rect_Injected(UnityEngine.Rect value)
-    // Offset: 0x12FF078
+    // Offset: 0x126233C
     void set_rect_Injected(UnityEngine::Rect& value);
     // private System.Void get_pixelRect_Injected(UnityEngine.Rect ret)
-    // Offset: 0x12FF124
+    // Offset: 0x12623E8
     void get_pixelRect_Injected(UnityEngine::Rect& ret);
     // private System.Void get_worldToCameraMatrix_Injected(UnityEngine.Matrix4x4 ret)
-    // Offset: 0x12FF38C
+    // Offset: 0x1262650
     void get_worldToCameraMatrix_Injected(UnityEngine::Matrix4x4& ret);
     // private System.Void set_worldToCameraMatrix_Injected(UnityEngine.Matrix4x4 value)
-    // Offset: 0x12FF42C
+    // Offset: 0x12626F0
     void set_worldToCameraMatrix_Injected(UnityEngine::Matrix4x4& value);
     // private System.Void get_projectionMatrix_Injected(UnityEngine.Matrix4x4 ret)
-    // Offset: 0x12FF4F4
+    // Offset: 0x12627B8
     void get_projectionMatrix_Injected(UnityEngine::Matrix4x4& ret);
     // private System.Void set_projectionMatrix_Injected(UnityEngine.Matrix4x4 value)
-    // Offset: 0x12FF594
+    // Offset: 0x1262858
     void set_projectionMatrix_Injected(UnityEngine::Matrix4x4& value);
     // private System.Void CalculateObliqueMatrix_Injected(UnityEngine.Vector4 clipPlane, UnityEngine.Matrix4x4 ret)
-    // Offset: 0x12FF6A8
+    // Offset: 0x126296C
     void CalculateObliqueMatrix_Injected(UnityEngine::Vector4& clipPlane, UnityEngine::Matrix4x4& ret);
     // private System.Void WorldToScreenPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Camera/MonoOrStereoscopicEye eye, UnityEngine.Vector3 ret)
-    // Offset: 0x12FF77C
+    // Offset: 0x1262A40
     void WorldToScreenPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Camera::MonoOrStereoscopicEye eye, UnityEngine::Vector3& ret);
     // private System.Void ViewportToWorldPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Camera/MonoOrStereoscopicEye eye, UnityEngine.Vector3 ret)
-    // Offset: 0x12FF860
+    // Offset: 0x1262B24
     void ViewportToWorldPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Camera::MonoOrStereoscopicEye eye, UnityEngine::Vector3& ret);
     // private System.Void ScreenToViewportPoint_Injected(UnityEngine.Vector3 position, UnityEngine.Vector3 ret)
-    // Offset: 0x12FF93C
+    // Offset: 0x1262C00
     void ScreenToViewportPoint_Injected(UnityEngine::Vector3& position, UnityEngine::Vector3& ret);
     // private System.Void ScreenPointToRay_Injected(UnityEngine.Vector2 pos, UnityEngine.Camera/MonoOrStereoscopicEye eye, UnityEngine.Ray ret)
-    // Offset: 0x12FFA18
+    // Offset: 0x1262CDC
     void ScreenPointToRay_Injected(UnityEngine::Vector2& pos, UnityEngine::Camera::MonoOrStereoscopicEye eye, UnityEngine::Ray& ret);
     // private System.Void GetStereoProjectionMatrix_Injected(UnityEngine.Camera/StereoscopicEye eye, UnityEngine.Matrix4x4 ret)
-    // Offset: 0x12FFD4C
+    // Offset: 0x1263010
     void GetStereoProjectionMatrix_Injected(UnityEngine::Camera::StereoscopicEye eye, UnityEngine::Matrix4x4& ret);
     // public System.Void .ctor()
-    // Offset: 0x1300868
+    // Offset: 0x1263B2C
     // Implemented from: UnityEngine.Behaviour
     // Base method: System.Void Behaviour::.ctor()
     // Base method: System.Void Component::.ctor()

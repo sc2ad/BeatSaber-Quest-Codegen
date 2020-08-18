@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_SetDisplayVisibility : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CEB5C
+    // Offset: 0x1630E94
     static IVRSystem::_SetDisplayVisibility* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Boolean bIsVisibleOnDesktop)
-    // Offset: 0x16CEB70
+    // Offset: 0x1630EA8
     bool Invoke(bool bIsVisibleOnDesktop);
     // public System.IAsyncResult BeginInvoke(System.Boolean bIsVisibleOnDesktop, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CEDF8
+    // Offset: 0x1631130
     System::IAsyncResult* BeginInvoke(bool bIsVisibleOnDesktop, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16CEE88
+    // Offset: 0x16311C0
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_SetDisplayVisibility
 }

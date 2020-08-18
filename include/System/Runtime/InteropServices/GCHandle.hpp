@@ -33,69 +33,69 @@ namespace System::Runtime::InteropServices {
     // Creating value type constructor for type: GCHandle
     GCHandle(int handle_ = {}) : handle{handle_} {}
     // private System.Void .ctor(System.IntPtr h)
-    // Offset: 0xA3EA00
+    // Offset: 0x9A7ECC
     static GCHandle* New_ctor(System::IntPtr h);
     // private System.Void .ctor(System.Object obj)
-    // Offset: 0xA3EA2C
+    // Offset: 0x9A7EF8
     static GCHandle* New_ctor(::Il2CppObject* obj);
     // System.Void .ctor(System.Object value, System.Runtime.InteropServices.GCHandleType type)
-    // Offset: 0xA3EA5C
+    // Offset: 0x9A7F28
     static GCHandle* New_ctor(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type);
     // public System.Boolean get_IsAllocated()
-    // Offset: 0xA3EA94
+    // Offset: 0x9A7F60
     bool get_IsAllocated();
     // public System.Object get_Target()
-    // Offset: 0xA3EAA4
+    // Offset: 0x9A7F70
     ::Il2CppObject* get_Target();
     // public System.Void set_Target(System.Object value)
-    // Offset: 0xA3EAAC
+    // Offset: 0x9A7F78
     void set_Target(::Il2CppObject* value);
     // public System.IntPtr AddrOfPinnedObject()
-    // Offset: 0xA3EAE0
+    // Offset: 0x9A7FAC
     System::IntPtr AddrOfPinnedObject();
     // static public System.Runtime.InteropServices.GCHandle Alloc(System.Object value)
-    // Offset: 0x1162F34
+    // Offset: 0x10C61F8
     static System::Runtime::InteropServices::GCHandle Alloc(::Il2CppObject* value);
     // static public System.Runtime.InteropServices.GCHandle Alloc(System.Object value, System.Runtime.InteropServices.GCHandleType type)
-    // Offset: 0x1162F54
+    // Offset: 0x10C6218
     static System::Runtime::InteropServices::GCHandle Alloc(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type);
     // public System.Void Free()
-    // Offset: 0xA3EAE8
+    // Offset: 0x9A7FB4
     void Free();
     // static private System.Boolean CheckCurrentDomain(System.Int32 handle)
-    // Offset: 0x116310C
+    // Offset: 0x10C63D0
     static bool CheckCurrentDomain(int handle);
     // static private System.Object GetTarget(System.Int32 handle)
-    // Offset: 0x1162DF8
+    // Offset: 0x10C60BC
     static ::Il2CppObject* GetTarget(int handle);
     // static private System.Int32 GetTargetHandle(System.Object obj, System.Int32 handle, System.Runtime.InteropServices.GCHandleType type)
-    // Offset: 0x1162D4C
+    // Offset: 0x10C6010
     static int GetTargetHandle(::Il2CppObject* obj, int handle, System::Runtime::InteropServices::GCHandleType type);
     // static private System.Void FreeHandle(System.Int32 handle)
-    // Offset: 0x1163020
+    // Offset: 0x10C62E4
     static void FreeHandle(int handle);
     // static private System.IntPtr GetAddrOfPinnedObject(System.Int32 handle)
-    // Offset: 0x1162F30
+    // Offset: 0x10C61F4
     static System::IntPtr GetAddrOfPinnedObject(int handle);
     // static public System.Runtime.InteropServices.GCHandle FromIntPtr(System.IntPtr value)
-    // Offset: 0x11631AC
+    // Offset: 0x10C6470
     static System::Runtime::InteropServices::GCHandle FromIntPtr(System::IntPtr value);
     // static public System.IntPtr ToIntPtr(System.Runtime.InteropServices.GCHandle value)
-    // Offset: 0x11631C4
+    // Offset: 0x10C6488
     static System::IntPtr ToIntPtr(System::Runtime::InteropServices::GCHandle value);
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0xA3EAF0
+    // Offset: 0x9A7FBC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA3EAF8
+    // Offset: 0x9A7FC4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Runtime.InteropServices.GCHandle
   // static public System.Boolean op_Equality(System.Runtime.InteropServices.GCHandle a, System.Runtime.InteropServices.GCHandle b)
-  // Offset: 0x1163110
+  // Offset: 0x10C63D4
   bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

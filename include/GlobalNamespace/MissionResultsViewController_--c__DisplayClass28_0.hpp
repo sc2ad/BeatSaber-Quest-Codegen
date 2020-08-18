@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults;
     // System.Void <SetDataToUI>b__0(System.Int32 idx, ResultObjectiveListItem objectiveListItem)
-    // Offset: 0xC09BC8
+    // Offset: 0x19526F8
     void $SetDataToUI$b__0(int idx, GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
     // public System.Void .ctor()
-    // Offset: 0xC09AF0
+    // Offset: 0x1952620
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionResultsViewController::$$c__DisplayClass28_0* New_ctor();

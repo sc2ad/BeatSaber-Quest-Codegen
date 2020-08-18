@@ -33,25 +33,25 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::TrackLaneRing*>* rings;
     // public System.Single get_ringPositionStep()
-    // Offset: 0xC434C4
+    // Offset: 0x1960AF8
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
-    // Offset: 0xC434CC
+    // Offset: 0x1960B00
     ::Array<GlobalNamespace::TrackLaneRing*>* get_Rings();
     // protected System.Void Awake()
-    // Offset: 0xC434D4
+    // Offset: 0x1960B08
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0xC436F0
+    // Offset: 0x1960D24
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0xC4379C
+    // Offset: 0x1960DD0
     void LateUpdate();
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0xC43848
+    // Offset: 0x1960E7C
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0xC43B98
+    // Offset: 0x19611CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

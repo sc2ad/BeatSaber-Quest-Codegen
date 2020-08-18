@@ -37,32 +37,32 @@ namespace System {
     // Creating value type constructor for type: ListBuilder_1
     ListBuilder_1(::Array<T>* items_ = {}, T item_ = {}, int count_ = {}, int capacity_ = {}) : items{items_}, item{item_}, count{count_}, capacity{capacity_} {}
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0xA46CE0
+    // Offset: 0xFFFFFFFF
     static RuntimeType::ListBuilder_1<T>* New_ctor(int capacity) {
       return (RuntimeType::ListBuilder_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RuntimeType::ListBuilder_1<T>>::get(), capacity));
     }
     // public T get_Item(System.Int32 index)
-    // Offset: 0xA46D18
+    // Offset: 0xFFFFFFFF
     T get_Item(int index) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_Item", index));
     }
     // public T[] ToArray()
-    // Offset: 0xA46D20
+    // Offset: 0xFFFFFFFF
     ::Array<T>* ToArray() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(*this, "ToArray"));
     }
     // public System.Void CopyTo(System.Object[] array, System.Int32 index)
-    // Offset: 0xA46D28
+    // Offset: 0xFFFFFFFF
     void CopyTo(::Array<::Il2CppObject*>* array, int index) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "CopyTo", array, index));
     }
     // public System.Int32 get_Count()
-    // Offset: 0xA46D30
+    // Offset: 0xFFFFFFFF
     int get_Count() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "get_Count"));
     }
     // public System.Void Add(T item)
-    // Offset: 0xA46D38
+    // Offset: 0xFFFFFFFF
     void Add(T item) {
       THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Add", item));
     }

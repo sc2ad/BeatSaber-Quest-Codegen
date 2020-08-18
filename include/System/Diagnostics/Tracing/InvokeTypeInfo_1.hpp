@@ -41,33 +41,33 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x0
     ::Array<System::Diagnostics::Tracing::PropertyAccessor_1<ContainerType>*>* accessors;
     // public System.Void .ctor(System.Diagnostics.Tracing.TypeAnalysis typeAnalysis)
-    // Offset: 0x155A5F0
+    // Offset: 0xFFFFFFFF
     static InvokeTypeInfo_1<ContainerType>* New_ctor(System::Diagnostics::Tracing::TypeAnalysis* typeAnalysis) {
       return (InvokeTypeInfo_1<ContainerType>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<InvokeTypeInfo_1<ContainerType>*>::get(), typeAnalysis));
     }
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0x155A75C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteMetadata", collector, name, format));
     }
     // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType value)
-    // Offset: 0x155A820
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo`1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ContainerType value)
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ContainerType& value) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
     }
     // public override System.Object GetData(System.Object value)
-    // Offset: 0x155A8B0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Object TraceLoggingTypeInfo::GetData(System.Object value)
     ::Il2CppObject* GetData(::Il2CppObject* value) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "GetData", value));
     }
     // public override System.Void WriteObjectData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Object valueObj)
-    // Offset: 0x155AAD4
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo`1::WriteObjectData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Object valueObj)
     void WriteObjectData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Il2CppObject* valueObj) {

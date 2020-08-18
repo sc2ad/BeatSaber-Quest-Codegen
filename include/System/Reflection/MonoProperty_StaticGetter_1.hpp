@@ -28,22 +28,22 @@ namespace System::Reflection {
   class MonoProperty::StaticGetter_1 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1470F68
+    // Offset: 0xFFFFFFFF
     static MonoProperty::StaticGetter_1<R>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       return (MonoProperty::StaticGetter_1<R>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoProperty::StaticGetter_1<R>*>::get(), object, method));
     }
     // public R Invoke()
-    // Offset: 0x1470F7C
+    // Offset: 0xFFFFFFFF
     R Invoke() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<R>(this, "Invoke"));
     }
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1471190
+    // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", callback, object));
     }
     // public R EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14711BC
+    // Offset: 0xFFFFFFFF
     R EndInvoke(System::IAsyncResult* result) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<R>(this, "EndInvoke", result));
     }

@@ -45,16 +45,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x70
     bool initiated;
     // private System.Void LateUpdate()
-    // Offset: 0x13A7BBC
+    // Offset: 0x1309E80
     void LateUpdate();
     // private System.Void OnPostFBBIK()
-    // Offset: 0x13A8138
+    // Offset: 0x130A3FC
     void OnPostFBBIK();
     // private System.Void OnDestroy()
-    // Offset: 0x13A82F8
+    // Offset: 0x130A5BC
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x13A8414
+    // Offset: 0x130A6D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

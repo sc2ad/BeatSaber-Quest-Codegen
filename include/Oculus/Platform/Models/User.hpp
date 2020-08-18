@@ -48,7 +48,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x50
     ::Il2CppString* SmallImageUrl;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA50CC
+    // Offset: 0xE04390
     static User* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.User
 }

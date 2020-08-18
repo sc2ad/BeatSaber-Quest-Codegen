@@ -91,42 +91,42 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     bool isInitialized;
     // public PlayerSpecificSettings get_playerSettings()
-    // Offset: 0xB3DFAC
+    // Offset: 0xB40C78
     GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xB3DFD4
+    // Offset: 0xB40CA0
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public OverrideEnvironmentSettings get_environmentOverrideSettings()
-    // Offset: 0xB3DFFC
+    // Offset: 0xB40CC8
     GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0xB3E024
+    // Offset: 0xB40CF0
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void Setup(System.Boolean showModifiers, System.Boolean showEnvironmentOverrideSettings, System.Boolean showColorSchemesSettings)
-    // Offset: 0xB3E04C
+    // Offset: 0xB40D18
     void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings);
     // private System.Void Init()
-    // Offset: 0xB3E0C0
+    // Offset: 0xB40D8C
     void Init();
     // private System.Void HandleSelectionSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0xB3E718
+    // Offset: 0xB413E4
     void HandleSelectionSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private System.Void SetActivePanel(System.Int32 panelIdx)
-    // Offset: 0xB3E660
+    // Offset: 0xB4132C
     void SetActivePanel(int panelIdx);
     // private System.Void RefreshContent()
-    // Offset: 0xB3E174
+    // Offset: 0xB40E40
     void RefreshContent();
     // private System.Void RefreshActivePanel()
-    // Offset: 0xB3E720
+    // Offset: 0xB413EC
     void RefreshActivePanel();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB3E58C
+    // Offset: 0xB41258
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB3E870
+    // Offset: 0xB4153C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -35,19 +35,19 @@ namespace Mono {
     // Creating value type constructor for type: RuntimeGenericParamInfoHandle
     RuntimeGenericParamInfoHandle(Mono::RuntimeStructs::GenericParamInfo* value_ = {}) : value{value_} {}
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0xA3CD64
+    // Offset: 0x9A6230
     static RuntimeGenericParamInfoHandle* New_ctor(System::IntPtr ptr);
     // System.Type[] get_Constraints()
-    // Offset: 0xA3CD90
+    // Offset: 0x9A625C
     ::Array<System::Type*>* get_Constraints();
     // System.Reflection.GenericParameterAttributes get_Attributes()
-    // Offset: 0xA3CD98
+    // Offset: 0x9A6264
     System::Reflection::GenericParameterAttributes get_Attributes();
     // private System.Type[] GetConstraints()
-    // Offset: 0xA3CDB4
+    // Offset: 0x9A6280
     ::Array<System::Type*>* GetConstraints();
     // private System.Int32 GetConstraintsCount()
-    // Offset: 0xA3CDBC
+    // Offset: 0x9A6288
     int GetConstraintsCount();
   }; // Mono.RuntimeGenericParamInfoHandle
 }

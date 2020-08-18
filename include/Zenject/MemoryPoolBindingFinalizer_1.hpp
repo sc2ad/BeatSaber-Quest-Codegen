@@ -36,12 +36,12 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::FactoryBindInfo* factoryBindInfo;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
-    // Offset: 0x13C252C
+    // Offset: 0xFFFFFFFF
     static MemoryPoolBindingFinalizer_1<TContract>* New_ctor(Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, Zenject::MemoryPoolBindInfo* poolBindInfo) {
       return (MemoryPoolBindingFinalizer_1<TContract>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MemoryPoolBindingFinalizer_1<TContract>*>::get(), bindInfo, factoryBindInfo, poolBindInfo));
     }
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x13C2604
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container) {

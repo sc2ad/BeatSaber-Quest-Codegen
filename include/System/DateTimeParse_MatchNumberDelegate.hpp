@@ -28,16 +28,16 @@ namespace System {
   class DateTimeParse::MatchNumberDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xC87D54
+    // Offset: 0xBE8018
     static DateTimeParse::MatchNumberDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.__DTString str, System.Int32 digitLen, System.Int32 result)
-    // Offset: 0xC87D68
+    // Offset: 0xBE802C
     bool Invoke(System::__DTString& str, int digitLen, int& result);
     // public System.IAsyncResult BeginInvoke(System.__DTString str, System.Int32 digitLen, System.Int32 result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xC87FF8
+    // Offset: 0xBE82BC
     System::IAsyncResult* BeginInvoke(System::__DTString& str, int digitLen, int& result, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.__DTString str, System.Int32 result, System.IAsyncResult __result)
-    // Offset: 0xC880C4
+    // Offset: 0xBE8388
     bool EndInvoke(System::__DTString& str, int& result, System::IAsyncResult* __result);
   }; // System.DateTimeParse/MatchNumberDelegate
 }

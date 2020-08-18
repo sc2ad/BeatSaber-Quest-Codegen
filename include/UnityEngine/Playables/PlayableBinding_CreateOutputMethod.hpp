@@ -33,16 +33,16 @@ namespace UnityEngine::Playables {
   class PlayableBinding::CreateOutputMethod : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1411A98
+    // Offset: 0x1373DD0
     static PlayableBinding::CreateOutputMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public UnityEngine.Playables.PlayableOutput Invoke(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x1411678
+    // Offset: 0x13739B0
     UnityEngine::Playables::PlayableOutput Invoke(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Playables.PlayableGraph graph, System.String name, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1411AAC
+    // Offset: 0x1373DE4
     System::IAsyncResult* BeginInvoke(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.Playables.PlayableOutput EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1411B44
+    // Offset: 0x1373E7C
     UnityEngine::Playables::PlayableOutput EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Playables.PlayableBinding/CreateOutputMethod
 }

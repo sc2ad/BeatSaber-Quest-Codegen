@@ -12,7 +12,7 @@ namespace GlobalNamespace {
   class OVRSandwichComposition : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF47E48
+    // Offset: 0xEA910C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRSandwichComposition* New_ctor();

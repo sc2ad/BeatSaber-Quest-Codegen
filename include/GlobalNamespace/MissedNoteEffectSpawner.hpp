@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     float spawnPosZ;
     // protected System.Void Start()
-    // Offset: 0xC00048
+    // Offset: 0x1948B5C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC000FC
+    // Offset: 0x1948C10
     void OnDestroy();
     // private System.Void HandleNoteWasMissed(INoteController noteController)
-    // Offset: 0xC001D4
+    // Offset: 0x1948CE8
     void HandleNoteWasMissed(GlobalNamespace::INoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0xC005B8
+    // Offset: 0x19490CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

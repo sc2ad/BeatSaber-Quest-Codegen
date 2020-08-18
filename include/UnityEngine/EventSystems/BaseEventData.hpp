@@ -31,16 +31,16 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18
     UnityEngine::EventSystems::EventSystem* m_EventSystem;
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0xDF52FC
+    // Offset: 0xD555C0
     static BaseEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem);
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()
-    // Offset: 0xDF5330
+    // Offset: 0xD555F4
     UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
     // public UnityEngine.GameObject get_selectedObject()
-    // Offset: 0xDF534C
+    // Offset: 0xD55610
     UnityEngine::GameObject* get_selectedObject();
     // public System.Void set_selectedObject(UnityEngine.GameObject value)
-    // Offset: 0xDF5368
+    // Offset: 0xD5562C
     void set_selectedObject(UnityEngine::GameObject* value);
   }; // UnityEngine.EventSystems.BaseEventData
 }

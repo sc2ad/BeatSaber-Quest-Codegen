@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x24
     float jumpOffsetY;
     // public System.Void .ctor(System.Single beatsPerMinute, System.Int32 noteLinesCount, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, System.Boolean disappearingArrows, System.Boolean ghostNotes, System.Single jumpOffsetY)
-    // Offset: 0xB59DF4
+    // Offset: 0x18E1324
     static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, bool disappearingArrows, bool ghostNotes, float jumpOffsetY);
   }; // BeatmapObjectSpawnController/InitData
 }

@@ -30,32 +30,32 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float linesWidth;
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0x181E164
+    // Offset: 0x177C49C
     // Implemented from: IBloomPrePassParams
     // Base method: TextureEffectSO IBloomPrePassParams::get_textureEffect()
     GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
-    // Offset: 0x181E168
+    // Offset: 0x177C4A0
     // Implemented from: IBloomPrePassParams
     // Base method: System.Int32 IBloomPrePassParams::get_textureWidth()
     int get_textureWidth();
     // public System.Int32 get_textureHeight()
-    // Offset: 0x181E170
+    // Offset: 0x177C4A8
     // Implemented from: IBloomPrePassParams
     // Base method: System.Int32 IBloomPrePassParams::get_textureHeight()
     int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0x181E178
+    // Offset: 0x177C4B0
     // Implemented from: IBloomPrePassParams
     // Base method: UnityEngine.Vector2 IBloomPrePassParams::get_fov()
     UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
-    // Offset: 0x181E180
+    // Offset: 0x177C4B8
     // Implemented from: IBloomPrePassParams
     // Base method: System.Single IBloomPrePassParams::get_linesWidth()
     float get_linesWidth();
     // public System.Void .ctor()
-    // Offset: 0x181E188
+    // Offset: 0x177C4C0
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

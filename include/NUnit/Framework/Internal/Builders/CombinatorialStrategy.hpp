@@ -32,12 +32,12 @@ namespace NUnit::Framework::Internal::Builders {
   class CombinatorialStrategy : public NUnit::Framework::Interfaces::ICombiningStrategy, public ::Il2CppObject {
     public:
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
-    // Offset: 0x107C36C
+    // Offset: 0xFDE630
     // Implemented from: NUnit.Framework.Interfaces.ICombiningStrategy
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> ICombiningStrategy::GetTestCases(System.Collections.IEnumerable[] sources)
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::Array<System::Collections::IEnumerable*>* sources);
     // public System.Void .ctor()
-    // Offset: 0x106DAF4
+    // Offset: 0xFCFDB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CombinatorialStrategy* New_ctor();

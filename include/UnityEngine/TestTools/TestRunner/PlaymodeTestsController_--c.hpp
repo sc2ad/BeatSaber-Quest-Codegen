@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::TestTools::Utils
@@ -40,13 +40,13 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.Utils.IAssemblyWrapper,System.Reflection.Assembly> <>9__16_0
     static void _set_$$9__16_0(System::Func_2<UnityEngine::TestTools::Utils::IAssemblyWrapper*, System::Reflection::Assembly*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE43C90
+    // Offset: 0xDA3F54
     static void _cctor();
     // System.Reflection.Assembly <Run>b__16_0(UnityEngine.TestTools.Utils.IAssemblyWrapper a)
-    // Offset: 0xE43D00
+    // Offset: 0xDA3FC4
     System::Reflection::Assembly* $Run$b__16_0(UnityEngine::TestTools::Utils::IAssemblyWrapper* a);
     // public System.Void .ctor()
-    // Offset: 0xE43CF8
+    // Offset: 0xDA3FBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlaymodeTestsController::$$c* New_ctor();

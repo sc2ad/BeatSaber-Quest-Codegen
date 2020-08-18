@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x28
     System::DateTime SentTime;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xEA3F54
+    // Offset: 0xE03218
     static RoomInviteNotification* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.RoomInviteNotification
 }

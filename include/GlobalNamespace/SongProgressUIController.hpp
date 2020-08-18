@@ -68,13 +68,13 @@ namespace GlobalNamespace {
     // Offset: 0x58
     System::Text::StringBuilder* stringBuilder;
     // protected System.Void Start()
-    // Offset: 0xB99150
+    // Offset: 0x19027FC
     void Start();
     // protected System.Void Update()
-    // Offset: 0xB99260
+    // Offset: 0x190290C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB99424
+    // Offset: 0x1902AD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

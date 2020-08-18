@@ -38,10 +38,10 @@ namespace System::Runtime::Remoting::Proxies {
   class ProxyAttribute : public System::Attribute {
     public:
     // public System.MarshalByRefObject CreateInstance(System.Type serverType)
-    // Offset: 0xE11D18
+    // Offset: 0xD71FDC
     System::MarshalByRefObject* CreateInstance(System::Type* serverType);
     // public System.Runtime.Remoting.Proxies.RealProxy CreateProxy(System.Runtime.Remoting.ObjRef objRef, System.Type serverType, System.Object serverObject, System.Runtime.Remoting.Contexts.Context serverContext)
-    // Offset: 0xE11E5C
+    // Offset: 0xD72120
     System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(System::Runtime::Remoting::ObjRef* objRef, System::Type* serverType, ::Il2CppObject* serverObject, System::Runtime::Remoting::Contexts::Context* serverContext);
   }; // System.Runtime.Remoting.Proxies.ProxyAttribute
 }

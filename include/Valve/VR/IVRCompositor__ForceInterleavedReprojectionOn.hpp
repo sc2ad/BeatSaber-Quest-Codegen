@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_ForceInterleavedReprojectionOn : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15F6704
+    // Offset: 0x1557A3C
     static IVRCompositor::_ForceInterleavedReprojectionOn* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean bOverride)
-    // Offset: 0x15F6718
+    // Offset: 0x1557A50
     void Invoke(bool bOverride);
     // public System.IAsyncResult BeginInvoke(System.Boolean bOverride, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15F6994
+    // Offset: 0x1557CCC
     System::IAsyncResult* BeginInvoke(bool bOverride, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15F6A24
+    // Offset: 0x1557D5C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_ForceInterleavedReprojectionOn
 }

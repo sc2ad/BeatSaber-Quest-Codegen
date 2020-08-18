@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfColliders
     static void _set_kMaxNumberOfColliders(int value);
     // public System.Void Cut(Saber saber, UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, UnityEngine.Vector3 prevTopPos, UnityEngine.Vector3 prevBottomPos)
-    // Offset: 0xBE2884
+    // Offset: 0x1929E64
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, UnityEngine::Vector3 prevTopPos, UnityEngine::Vector3 prevBottomPos);
     // public System.Void .ctor()
-    // Offset: 0xBE2710
+    // Offset: 0x1929CF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Cutter* New_ctor();

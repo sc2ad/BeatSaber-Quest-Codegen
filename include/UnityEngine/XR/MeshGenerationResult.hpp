@@ -48,32 +48,32 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: MeshGenerationResult
     MeshGenerationResult(UnityEngine::XR::MeshId MeshId_ = {}, UnityEngine::Mesh* Mesh_ = {}, UnityEngine::MeshCollider* MeshCollider_ = {}, UnityEngine::XR::MeshGenerationStatus Status_ = {}, UnityEngine::XR::MeshVertexAttributes Attributes_ = {}) : MeshId{MeshId_}, Mesh{Mesh_}, MeshCollider{MeshCollider_}, Status{Status_}, Attributes{Attributes_} {}
     // public UnityEngine.XR.MeshId get_MeshId()
-    // Offset: 0xA5B4D0
+    // Offset: 0x9C599C
     UnityEngine::XR::MeshId get_MeshId();
     // public UnityEngine.Mesh get_Mesh()
-    // Offset: 0xA5B4DC
+    // Offset: 0x9C59A8
     UnityEngine::Mesh* get_Mesh();
     // public UnityEngine.MeshCollider get_MeshCollider()
-    // Offset: 0xA5B4E4
+    // Offset: 0x9C59B0
     UnityEngine::MeshCollider* get_MeshCollider();
     // public UnityEngine.XR.MeshGenerationStatus get_Status()
-    // Offset: 0xA5B4EC
+    // Offset: 0x9C59B8
     UnityEngine::XR::MeshGenerationStatus get_Status();
     // public UnityEngine.XR.MeshVertexAttributes get_Attributes()
-    // Offset: 0xA5B4F4
+    // Offset: 0x9C59C0
     UnityEngine::XR::MeshVertexAttributes get_Attributes();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xA5B4FC
+    // Offset: 0x9C59C8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshGenerationResult other)
-    // Offset: 0xA5B504
+    // Offset: 0x9C59D0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.MeshGenerationResult other)
     bool Equals(UnityEngine::XR::MeshGenerationResult other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA5B53C
+    // Offset: 0x9C5A08
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Array<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>* keyframes;
     // public System.Void .ctor()
-    // Offset: 0xC4E024
+    // Offset: 0x196B670
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorder::SavedData* New_ctor();

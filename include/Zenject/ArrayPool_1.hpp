@@ -38,32 +38,32 @@ namespace Zenject {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayPool_1<T>*>::get(), "_pools", value));
     }
     // public System.Void .ctor(System.Int32 length)
-    // Offset: 0x118CC28
+    // Offset: 0xFFFFFFFF
     static ArrayPool_1<T>* New_ctor(int length) {
       return (ArrayPool_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayPool_1<T>*>::get(), length));
     }
     // static private System.Void OnDespawned(T[] arr)
-    // Offset: 0x118CCC0
+    // Offset: 0xFFFFFFFF
     static void OnDespawned(::Array<T>* arr) {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayPool_1<T>*>::get(), "OnDespawned", arr));
     }
     // public T[] Spawn()
-    // Offset: 0x118CD3C
+    // Offset: 0xFFFFFFFF
     ::Array<T>* Spawn() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(this, "Spawn"));
     }
     // protected T[] Alloc()
-    // Offset: 0x118CD60
+    // Offset: 0xFFFFFFFF
     ::Array<T>* Alloc() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(this, "Alloc"));
     }
     // static public Zenject.ArrayPool`1<T> GetPool(System.Int32 length)
-    // Offset: 0x118CDA0
+    // Offset: 0xFFFFFFFF
     static Zenject::ArrayPool_1<T>* GetPool(int length) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::ArrayPool_1<T>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayPool_1<T>*>::get(), "GetPool", length));
     }
     // static private System.Void .cctor()
-    // Offset: 0x118D0BC
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayPool_1<T>*>::get(), ".cctor"));
     }

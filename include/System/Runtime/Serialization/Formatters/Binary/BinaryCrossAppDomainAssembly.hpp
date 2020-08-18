@@ -25,13 +25,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x14
     int assemblyIndex;
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xE21ABC
+    // Offset: 0xD81D80
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xE21B04
+    // Offset: 0xD81DC8
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xE21AB4
+    // Offset: 0xD81D78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryCrossAppDomainAssembly* New_ctor();

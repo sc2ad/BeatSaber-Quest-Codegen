@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRSystem::_GetProjectionMatrix : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16CA644
+    // Offset: 0x162C97C
     static IVRSystem::_GetProjectionMatrix* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.HmdMatrix44_t Invoke(Valve.VR.EVREye eEye, System.Single fNearZ, System.Single fFarZ)
-    // Offset: 0x16CA658
+    // Offset: 0x162C990
     Valve::VR::HmdMatrix44_t Invoke(Valve::VR::EVREye eEye, float fNearZ, float fFarZ);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, System.Single fNearZ, System.Single fFarZ, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16CA940
+    // Offset: 0x162CC78
     System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, float fNearZ, float fFarZ, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.HmdMatrix44_t EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16CAA00
+    // Offset: 0x162CD38
     Valve::VR::HmdMatrix44_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetProjectionMatrix
 }

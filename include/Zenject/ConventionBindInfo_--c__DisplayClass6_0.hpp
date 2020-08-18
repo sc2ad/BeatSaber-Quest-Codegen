@@ -16,8 +16,8 @@ namespace System::Reflection {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -30,10 +30,10 @@ namespace Zenject {
     // Offset: 0x10
     System::Reflection::Assembly* assembly;
     // System.Boolean <ShouldIncludeAssembly>b__0(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0xD6B238
+    // Offset: 0xCCB4FC
     bool $ShouldIncludeAssembly$b__0(System::Func_2<System::Reflection::Assembly*, bool>* predicate);
     // public System.Void .ctor()
-    // Offset: 0xD6AFE0
+    // Offset: 0xCCB2A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionBindInfo::$$c__DisplayClass6_0* New_ctor();

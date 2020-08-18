@@ -48,7 +48,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x48
     ::Il2CppString* Metadata;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE9D530
+    // Offset: 0xDFC7F4
     static AssetDetails* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AssetDetails
 }

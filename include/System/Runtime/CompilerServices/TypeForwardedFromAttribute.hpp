@@ -17,10 +17,10 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     ::Il2CppString* assemblyFullName;
     // public System.Void .ctor(System.String assemblyFullName)
-    // Offset: 0x1161EAC
+    // Offset: 0x10C5170
     static TypeForwardedFromAttribute* New_ctor(::Il2CppString* assemblyFullName);
     // public System.String get_AssemblyFullName()
-    // Offset: 0x1161F5C
+    // Offset: 0x10C5220
     ::Il2CppString* get_AssemblyFullName();
   }; // System.Runtime.CompilerServices.TypeForwardedFromAttribute
 }

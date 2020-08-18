@@ -38,30 +38,30 @@ namespace RootMotion::FinalIK {
     // Offset: 0x70
     ::Array<UnityEngine::Quaternion>* defaultLocalRotations;
     // protected System.Void StoreDefaultState()
-    // Offset: 0x1375B70
+    // Offset: 0x12D6E34
     void StoreDefaultState();
     // public override System.Void AutoMapping()
-    // Offset: 0x1375A40
+    // Offset: 0x12D6D04
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x1375B08
+    // Offset: 0x12D6DCC
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1375CEC
+    // Offset: 0x12D6FB0
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x1375DE8
+    // Offset: 0x12D70AC
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
     // public System.Void .ctor()
-    // Offset: 0x1376198
+    // Offset: 0x12D745C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()

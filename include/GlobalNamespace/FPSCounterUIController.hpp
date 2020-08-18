@@ -56,16 +56,16 @@ namespace GlobalNamespace {
     // Offset: 0x48
     float timeToUpdateUI;
     // protected System.Void Awake()
-    // Offset: 0xBE9968
+    // Offset: 0x1930F78
     void Awake();
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xBE99E0
+    // Offset: 0x1930FF0
     System::Collections::IEnumerator* Start();
     // protected System.Void LateUpdate()
-    // Offset: 0xBE9A88
+    // Offset: 0x1931098
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xBE9B74
+    // Offset: 0x1931184
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

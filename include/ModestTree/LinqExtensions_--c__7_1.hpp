@@ -13,14 +13,14 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Linq
@@ -77,27 +77,27 @@ namespace ModestTree {
       THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinqExtensions::$$c__7_1<T>*>::get(), "<>9__7_2", value)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x12916F0
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LinqExtensions::$$c__7_1<T>*>::get(), ".cctor"));
     }
     // T <GetDuplicates>b__7_0(T x)
-    // Offset: 0x12917E4
+    // Offset: 0xFFFFFFFF
     T $GetDuplicates$b__7_0(T x) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<T>(this, "<GetDuplicates>b__7_0", x)));
     }
     // System.Boolean <GetDuplicates>b__7_1(System.Linq.IGrouping`2<T,T> x)
-    // Offset: 0x12917EC
+    // Offset: 0xFFFFFFFF
     bool $GetDuplicates$b__7_1(System::Linq::IGrouping_2<T, T>* x) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<GetDuplicates>b__7_1", x)));
     }
     // T <GetDuplicates>b__7_2(System.Linq.IGrouping`2<T,T> x)
-    // Offset: 0x1291834
+    // Offset: 0xFFFFFFFF
     T $GetDuplicates$b__7_2(System::Linq::IGrouping_2<T, T>* x) {
       return THROW_UNLESS((il2cpp_utils::RunMethod<T>(this, "<GetDuplicates>b__7_2", x)));
     }
     // public System.Void .ctor()
-    // Offset: 0x12917CC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LinqExtensions::$$c__7_1<T>* New_ctor() {

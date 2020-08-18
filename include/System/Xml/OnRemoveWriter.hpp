@@ -29,16 +29,16 @@ namespace System::Xml {
   class OnRemoveWriter : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x119977C
+    // Offset: 0x10FCA40
     static OnRemoveWriter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Xml.XmlRawWriter writer)
-    // Offset: 0x1199790
+    // Offset: 0x10FCA54
     void Invoke(System::Xml::XmlRawWriter* writer);
     // public System.IAsyncResult BeginInvoke(System.Xml.XmlRawWriter writer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1199B48
+    // Offset: 0x10FCE0C
     System::IAsyncResult* BeginInvoke(System::Xml::XmlRawWriter* writer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1199B6C
+    // Offset: 0x10FCE30
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Xml.OnRemoveWriter
 }

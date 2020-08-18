@@ -54,16 +54,16 @@ namespace System::Threading {
     // Offset: 0x4D
     bool unregistered;
     // System.Void .ctor(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callback, System.Object state, System.TimeSpan timeout, System.Boolean executeOnlyOnce)
-    // Offset: 0xCD5E68
+    // Offset: 0xC3612C
     static RegisteredWaitHandle* New_ctor(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callback, ::Il2CppObject* state, System::TimeSpan timeout, bool executeOnlyOnce);
     // System.Void Wait(System.Object state)
-    // Offset: 0xCD5F64
+    // Offset: 0xC36228
     void Wait(::Il2CppObject* state);
     // private System.Void DoCallBack(System.Object timedOut)
-    // Offset: 0xCD671C
+    // Offset: 0xC369E0
     void DoCallBack(::Il2CppObject* timedOut);
     // public System.Boolean Unregister(System.Threading.WaitHandle waitObject)
-    // Offset: 0xCD6D14
+    // Offset: 0xC36FD8
     bool Unregister(System::Threading::WaitHandle* waitObject);
   }; // System.Threading.RegisteredWaitHandle
 }

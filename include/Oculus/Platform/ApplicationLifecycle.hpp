@@ -21,10 +21,10 @@ namespace Oculus::Platform {
   class ApplicationLifecycle : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Models.LaunchDetails GetLaunchDetails()
-    // Offset: 0x158CDB8
+    // Offset: 0x14EF0F0
     static Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
     // static public System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1/Callback<System.String> callback)
-    // Offset: 0x158CEB8
+    // Offset: 0x14EF1F0
     static void SetLaunchIntentChangedNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
   }; // Oculus.Platform.ApplicationLifecycle
 }

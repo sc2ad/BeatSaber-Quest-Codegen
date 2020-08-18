@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_MoveGamepadFocusToNeighbor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1608AD0
+    // Offset: 0x1569E08
     static IVROverlay::_MoveGamepadFocusToNeighbor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(Valve.VR.EOverlayDirection eDirection, System.UInt64 ulFrom)
-    // Offset: 0x1608AE4
+    // Offset: 0x1569E1C
     Valve::VR::EVROverlayError Invoke(Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1608D74
+    // Offset: 0x156A0AC
     System::IAsyncResult* BeginInvoke(Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1608E20
+    // Offset: 0x156A158
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_MoveGamepadFocusToNeighbor
 }

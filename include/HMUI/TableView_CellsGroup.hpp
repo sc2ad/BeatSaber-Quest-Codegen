@@ -33,7 +33,7 @@ namespace HMUI {
     // Offset: 0x18
     System::Collections::Generic::List_1<HMUI::TableCell*>* cells;
     // public System.Void .ctor()
-    // Offset: 0x10E4130
+    // Offset: 0x10463F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TableView::CellsGroup* New_ctor();

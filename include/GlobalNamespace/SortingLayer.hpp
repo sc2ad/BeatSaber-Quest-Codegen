@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Renderer* renderer;
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0xCBA610
+    // Offset: 0xC1A8D4
     UnityEngine::Renderer* get_renderer();
     // private System.Void Reset()
-    // Offset: 0xCBA618
+    // Offset: 0xC1A8DC
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0xCBA678
+    // Offset: 0xC1A93C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

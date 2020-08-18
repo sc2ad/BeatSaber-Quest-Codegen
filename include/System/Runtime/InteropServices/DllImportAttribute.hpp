@@ -52,19 +52,19 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x2D
     bool ThrowOnUnmappableChar;
     // static System.Attribute GetCustomAttribute(System.Reflection.RuntimeMethodInfo method)
-    // Offset: 0x114EA18
+    // Offset: 0x10B1CDC
     static System::Attribute* GetCustomAttribute(System::Reflection::RuntimeMethodInfo* method);
     // static System.Boolean IsDefined(System.Reflection.RuntimeMethodInfo method)
-    // Offset: 0x1162A00
+    // Offset: 0x10C5CC4
     static bool IsDefined(System::Reflection::RuntimeMethodInfo* method);
     // System.Void .ctor(System.String dllName, System.String entryPoint, System.Runtime.InteropServices.CharSet charSet, System.Boolean exactSpelling, System.Boolean setLastError, System.Boolean preserveSig, System.Runtime.InteropServices.CallingConvention callingConvention, System.Boolean bestFitMapping, System.Boolean throwOnUnmappableChar)
-    // Offset: 0x1162948
+    // Offset: 0x10C5C0C
     static DllImportAttribute* New_ctor(::Il2CppString* dllName, ::Il2CppString* entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
     // public System.Void .ctor(System.String dllName)
-    // Offset: 0x1162A2C
+    // Offset: 0x10C5CF0
     static DllImportAttribute* New_ctor(::Il2CppString* dllName);
     // public System.String get_Value()
-    // Offset: 0x1162A60
+    // Offset: 0x10C5D24
     ::Il2CppString* get_Value();
   }; // System.Runtime.InteropServices.DllImportAttribute
 }

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::CampaignProgressModel* missionProgressModel;
     // public System.Void .ctor()
-    // Offset: 0xC05824
+    // Offset: 0x194E354
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRInput::_GetOriginTrackedDeviceInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1513F3C
+    // Offset: 0x1475274
     static IVRInput::_GetOriginTrackedDeviceInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 origin, OVR.OpenVR.InputOriginInfo_t pOriginInfo, System.UInt32 unOriginInfoSize)
-    // Offset: 0x1513F50
+    // Offset: 0x1475288
     OVR::OpenVR::EVRInputError Invoke(uint64_t origin, OVR::OpenVR::InputOriginInfo_t& pOriginInfo, uint unOriginInfoSize);
     // public System.IAsyncResult BeginInvoke(System.UInt64 origin, OVR.OpenVR.InputOriginInfo_t pOriginInfo, System.UInt32 unOriginInfoSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15141E8
+    // Offset: 0x1475520
     System::IAsyncResult* BeginInvoke(uint64_t origin, OVR::OpenVR::InputOriginInfo_t& pOriginInfo, uint unOriginInfoSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(OVR.OpenVR.InputOriginInfo_t pOriginInfo, System.IAsyncResult result)
-    // Offset: 0x15142BC
+    // Offset: 0x14755F4
     OVR::OpenVR::EVRInputError EndInvoke(OVR::OpenVR::InputOriginInfo_t& pOriginInfo, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetOriginTrackedDeviceInfo
 }

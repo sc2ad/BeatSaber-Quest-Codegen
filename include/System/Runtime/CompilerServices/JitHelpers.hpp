@@ -21,13 +21,13 @@ namespace System::Runtime::CompilerServices {
   class JitHelpers : public ::Il2CppObject {
     public:
     // static T UnsafeCast(System.Object o)
-    // Offset: 0xD4CBD8
+    // Offset: 0xFFFFFFFF
     template<class T>
     static T UnsafeCast(::Il2CppObject* o) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("System.Runtime.CompilerServices", "JitHelpers", "UnsafeCast", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, o)));
     }
     // static System.Int32 UnsafeEnumCast(T val)
-    // Offset: 0x11DCC80
+    // Offset: 0xFFFFFFFF
     template<class T>
     static int UnsafeEnumCast(T val) {
       static_assert(is_value_type_v<T>);

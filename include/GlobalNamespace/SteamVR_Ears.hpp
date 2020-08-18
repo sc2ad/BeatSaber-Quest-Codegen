@@ -30,16 +30,16 @@ namespace GlobalNamespace {
     // Offset: 0x24
     UnityEngine::Quaternion offset;
     // private System.Void OnNewPosesApplied()
-    // Offset: 0xD7EEBC
+    // Offset: 0xCDF180
     void OnNewPosesApplied();
     // private System.Void OnEnable()
-    // Offset: 0xD7F030
+    // Offset: 0xCDF2F4
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xD7F1D4
+    // Offset: 0xCDF498
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0xD7F2A8
+    // Offset: 0xCDF56C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

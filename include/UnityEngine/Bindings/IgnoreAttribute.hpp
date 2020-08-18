@@ -17,10 +17,10 @@ namespace UnityEngine::Bindings {
     // Offset: 0x10
     bool DoesNotContributeToSize;
     // public System.Void set_DoesNotContributeToSize(System.Boolean value)
-    // Offset: 0x196A85C
+    // Offset: 0x18C6BA0
     void set_DoesNotContributeToSize(bool value);
     // public System.Void .ctor()
-    // Offset: 0x196A868
+    // Offset: 0x18C6BAC
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

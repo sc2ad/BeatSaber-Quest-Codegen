@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float intensity;
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0xBFE6B0
+    // Offset: 0x19471C4
     UnityEngine::Color get_lightColor();
     // public System.Void .ctor()
-    // Offset: 0xBFEA00
+    // Offset: 0x1947514
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuLightsPresetSO::LightIdColorPair* New_ctor();

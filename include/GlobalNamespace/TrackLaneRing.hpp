@@ -51,31 +51,31 @@ namespace GlobalNamespace {
     // Offset: 0x48
     UnityEngine::Transform* transform;
     // public System.Single get_destRotZ()
-    // Offset: 0xC43220
+    // Offset: 0x1960854
     float get_destRotZ();
     // public System.Void Init(UnityEngine.Vector3 position, UnityEngine.Vector3 positionOffset)
-    // Offset: 0xC43228
+    // Offset: 0x196085C
     void Init(UnityEngine::Vector3 position, UnityEngine::Vector3 positionOffset);
     // public System.Void FixedUpdateRing(System.Single fixedDeltaTime)
-    // Offset: 0xC4331C
+    // Offset: 0x1960950
     void FixedUpdateRing(float fixedDeltaTime);
     // public System.Void LateUpdateRing(System.Single interpolationFactor)
-    // Offset: 0xC433DC
+    // Offset: 0x1960A10
     void LateUpdateRing(float interpolationFactor);
     // public System.Void SetDestRotation(System.Single destRotZ, System.Single rotateSpeed)
-    // Offset: 0xC4349C
+    // Offset: 0x1960AD0
     void SetDestRotation(float destRotZ, float rotateSpeed);
     // public System.Single GetRotation()
-    // Offset: 0xC434A4
+    // Offset: 0x1960AD8
     float GetRotation();
     // public System.Single GetDestinationRotation()
-    // Offset: 0xC434AC
+    // Offset: 0x1960AE0
     float GetDestinationRotation();
     // public System.Void SetPosition(System.Single destPosZ, System.Single moveSpeed)
-    // Offset: 0xC434B4
+    // Offset: 0x1960AE8
     void SetPosition(float destPosZ, float moveSpeed);
     // public System.Void .ctor()
-    // Offset: 0xC434BC
+    // Offset: 0x1960AF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

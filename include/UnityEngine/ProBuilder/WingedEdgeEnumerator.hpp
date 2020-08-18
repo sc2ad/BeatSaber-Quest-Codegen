@@ -27,15 +27,15 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     UnityEngine::ProBuilder::WingedEdge* m_Current;
     // public System.Void .ctor(UnityEngine.ProBuilder.WingedEdge start)
-    // Offset: 0x18C66EC
+    // Offset: 0x1824A38
     static WingedEdgeEnumerator* New_ctor(UnityEngine::ProBuilder::WingedEdge* start);
     // public System.Boolean MoveNext()
-    // Offset: 0x18C6A10
+    // Offset: 0x1824D5C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x18D2C08
+    // Offset: 0x1830F54
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -43,7 +43,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public UnityEngine.ProBuilder.WingedEdge get_Current()
-    // Offset: 0x18C6730
+    // Offset: 0x1824A7C
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     UnityEngine::ProBuilder::WingedEdge* get_Current();
@@ -51,12 +51,12 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: get_Current
     UnityEngine::ProBuilder::WingedEdge* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18D2C14
+    // Offset: 0x1830F60
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Dispose()
-    // Offset: 0x18D2C58
+    // Offset: 0x1830FA4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

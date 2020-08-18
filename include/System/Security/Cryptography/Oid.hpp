@@ -23,22 +23,22 @@ namespace System::Security::Cryptography {
     // Offset: 0x20
     System::Security::Cryptography::OidGroup m_group;
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x1216064
+    // Offset: 0x1178328
     static Oid* New_ctor(::Il2CppString* oid);
     // System.Void .ctor(System.String oid, System.Security.Cryptography.OidGroup group, System.Boolean lookupFriendlyName)
-    // Offset: 0x1216070
+    // Offset: 0x1178334
     static Oid* New_ctor(::Il2CppString* oid, System::Security::Cryptography::OidGroup group, bool lookupFriendlyName);
     // public System.Void .ctor(System.String value, System.String friendlyName)
-    // Offset: 0x121613C
+    // Offset: 0x1178400
     static Oid* New_ctor(::Il2CppString* value, ::Il2CppString* friendlyName);
     // public System.Void .ctor(System.Security.Cryptography.Oid oid)
-    // Offset: 0x1213CBC
+    // Offset: 0x1175F80
     static Oid* New_ctor(System::Security::Cryptography::Oid* oid);
     // public System.String get_Value()
-    // Offset: 0x121618C
+    // Offset: 0x1178450
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x1216194
+    // Offset: 0x1178458
     void set_Value(::Il2CppString* value);
   }; // System.Security.Cryptography.Oid
 }

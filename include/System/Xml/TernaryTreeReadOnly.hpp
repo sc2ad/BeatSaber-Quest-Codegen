@@ -15,10 +15,10 @@ namespace System::Xml {
     // Offset: 0x10
     ::Array<uint8_t>* nodeBuffer;
     // public System.Void .ctor(System.Byte[] nodeBuffer)
-    // Offset: 0x119590C
+    // Offset: 0x10F8BD0
     static TernaryTreeReadOnly* New_ctor(::Array<uint8_t>* nodeBuffer);
     // public System.Byte FindCaseInsensitiveString(System.String stringToFind)
-    // Offset: 0x1193FCC
+    // Offset: 0x10F7290
     uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
 }

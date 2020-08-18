@@ -49,22 +49,22 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class VertexEditing : public ::Il2CppObject {
     public:
     // static public System.Int32 MergeVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, System.Boolean collapseToFirst)
-    // Offset: 0x1024370
+    // Offset: 0xF86634
     static int MergeVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes, bool collapseToFirst);
     // static public System.Void SplitVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x1024680
+    // Offset: 0xF86944
     static void SplitVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
     // static public System.Void SplitVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x1024718
+    // Offset: 0xF869DC
     static void SplitVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* vertices);
     // static public System.Int32[] WeldVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes, System.Single neighborRadius)
-    // Offset: 0x1024A70
+    // Offset: 0xF86D34
     static ::Array<int>* WeldVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes, float neighborRadius);
     // static UnityEngine.ProBuilder.FaceRebuildData ExplodeVertex(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.WingedEdge,System.Int32>> edgeAndCommonIndex, System.Single distance, System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> appendedVertices)
-    // Offset: 0x10256BC
+    // Offset: 0xF87980
     static UnityEngine::ProBuilder::FaceRebuildData* ExplodeVertex(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>* edgeAndCommonIndex, float distance, System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*& appendedVertices);
     // static private UnityEngine.ProBuilder.Edge AlignEdgeWithDirection(UnityEngine.ProBuilder.EdgeLookup edge, System.Int32 commonIndex)
-    // Offset: 0x10260D0
+    // Offset: 0xF88394
     static UnityEngine::ProBuilder::Edge AlignEdgeWithDirection(UnityEngine::ProBuilder::EdgeLookup edge, int commonIndex);
   }; // UnityEngine.ProBuilder.MeshOperations.VertexEditing
 }

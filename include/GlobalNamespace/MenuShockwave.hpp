@@ -45,22 +45,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams;
     // protected System.Void Awake()
-    // Offset: 0xBFEDB0
+    // Offset: 0x19478C4
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xBFEDC0
+    // Offset: 0x19478D4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xBFEE94
+    // Offset: 0x19479A8
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0xBFEF68
+    // Offset: 0x1947A7C
     void HandleButtonClickEvent();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0xBFEF9C
+    // Offset: 0x1947AB0
     void SpawnShockwave(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0xBFF04C
+    // Offset: 0x1947B60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

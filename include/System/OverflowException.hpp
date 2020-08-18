@@ -27,7 +27,7 @@ namespace System {
   class OverflowException : public System::ArithmeticException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x135A9D0
+    // Offset: 0x12BBC94
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -35,21 +35,21 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static OverflowException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x135AA44
+    // Offset: 0x12BBD08
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static OverflowException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x135AA78
+    // Offset: 0x12BBD3C
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static OverflowException* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x135AAAC
+    // Offset: 0x12BBD70
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

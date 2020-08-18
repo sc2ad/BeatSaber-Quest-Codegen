@@ -22,16 +22,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<UnityEngine::ParticleSystem::EmissionModule>* emmisionModules;
     // protected System.Void Awake()
-    // Offset: 0xCACB50
+    // Offset: 0xC0CE14
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0xCACC70
+    // Offset: 0xC0CF34
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0xCACCF8
+    // Offset: 0xC0CFBC
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0xCACD80
+    // Offset: 0xC0D044
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

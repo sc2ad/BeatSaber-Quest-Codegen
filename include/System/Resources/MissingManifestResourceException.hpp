@@ -23,20 +23,20 @@ namespace System::Resources {
   class MissingManifestResourceException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x115782C
+    // Offset: 0x10BAAF0
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static MissingManifestResourceException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1154F1C
+    // Offset: 0x10B81E0
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static MissingManifestResourceException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x11578A0
+    // Offset: 0x10BAB64
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

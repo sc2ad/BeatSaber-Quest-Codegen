@@ -41,25 +41,25 @@ namespace NUnit::Framework::Internal::Builders {
     // Set static field: static private readonly System.String NO_TYPE_ARGS_MSG
     static void _set_NO_TYPE_ARGS_MSG(::Il2CppString* value);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x107D728
+    // Offset: 0xFDF9EC
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo, NUnit.Framework.Interfaces.ITestFixtureData testFixtureData)
-    // Offset: 0x107F89C
+    // Offset: 0xFE1B60
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo, NUnit::Framework::Interfaces::ITestFixtureData* testFixtureData);
     // private System.Void AddTestCasesToFixture(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x107F600
+    // Offset: 0xFE18C4
     void AddTestCasesToFixture(NUnit::Framework::Internal::TestFixture* fixture);
     // private NUnit.Framework.Internal.Test BuildTestCase(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.TestSuite suite)
-    // Offset: 0x10807F0
+    // Offset: 0xFE2AB4
     NUnit::Framework::Internal::Test* BuildTestCase(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::TestSuite* suite);
     // static private System.Void CheckTestFixtureIsValid(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x107F274
+    // Offset: 0xFE1538
     static void CheckTestFixtureIsValid(NUnit::Framework::Internal::TestFixture* fixture);
     // static private System.Void .cctor()
-    // Offset: 0x1080950
+    // Offset: 0xFE2C14
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x107D924
+    // Offset: 0xFDFBE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NUnitTestFixtureBuilder* New_ctor();

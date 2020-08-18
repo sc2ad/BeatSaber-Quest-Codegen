@@ -48,12 +48,12 @@ namespace Zenject {
     // Offset: 0x0
     Zenject::InjectContext* injectContext;
     // private System.Void Construct(Zenject.IProvider provider, Zenject.InjectContext injectContext)
-    // Offset: 0x15E2E08
+    // Offset: 0xFFFFFFFF
     void Construct(Zenject::IProvider* provider, Zenject::InjectContext* injectContext) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Construct", provider, injectContext));
     }
     // protected TValue CreateInternal(System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x15E2E68
+    // Offset: 0xFFFFFFFF
     TValue CreateInternal(System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "CreateInternal", extraArgs));
     }
@@ -63,7 +63,7 @@ namespace Zenject {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<System::Type*>*>(this, "get_ParamTypes"));
     }
     // public System.Void Validate()
-    // Offset: 0x15E3170
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IValidatable
     // Base method: System.Void IValidatable::Validate()
     void Validate() {
@@ -75,7 +75,7 @@ namespace Zenject {
       Validate();
     }
     // protected System.Void .ctor()
-    // Offset: 0x15E3224
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlaceholderFactoryBase_1<TValue>* New_ctor() {

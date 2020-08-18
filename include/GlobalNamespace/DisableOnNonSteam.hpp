@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class DisableOnNonSteam : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void Awake()
-    // Offset: 0xBE54BC
+    // Offset: 0x192CA9C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xBE54E4
+    // Offset: 0x192CAC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

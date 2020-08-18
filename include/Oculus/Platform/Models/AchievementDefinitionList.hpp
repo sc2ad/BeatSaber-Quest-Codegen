@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class AchievementDefinitionList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AchievementDefinition*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xE9CC00
+    // Offset: 0xDFBEC4
     static AchievementDefinitionList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.AchievementDefinitionList
 }

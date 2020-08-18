@@ -29,8 +29,8 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -60,7 +60,7 @@ namespace Zenject {
       // Offset: 0x0
       bool IsRemoved;
       // public System.Void .ctor(TTask task, System.Int32 priority)
-      // Offset: 0x1947764
+      // Offset: 0xFFFFFFFF
       static typename TaskUpdater_1<TTask>::TaskInfo* New_ctor(TTask task, int priority) {
         return (typename TaskUpdater_1<TTask>::TaskInfo*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::TaskInfo*>::get(), task, priority));
       }
@@ -90,17 +90,17 @@ namespace Zenject {
         THROW_UNLESS((il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::$$c*>::get(), "<>9__7_0", value)));
       }
       // static private System.Void .cctor()
-      // Offset: 0x194761C
+      // Offset: 0xFFFFFFFF
       static void _cctor() {
         THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::$$c*>::get(), ".cctor"));
       }
       // TTask <AddTaskInternal>b__7_0(Zenject.TaskUpdater`1/TaskInfo<TTask> x)
-      // Offset: 0x1947710
+      // Offset: 0xFFFFFFFF
       TTask $AddTaskInternal$b__7_0(typename Zenject::TaskUpdater_1<TTask>::TaskInfo* x) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<TTask>(this, "<AddTaskInternal>b__7_0", x)));
       }
       // public System.Void .ctor()
-      // Offset: 0x19476F8
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename TaskUpdater_1<TTask>::$$c* New_ctor() {
@@ -115,12 +115,12 @@ namespace Zenject {
       // Offset: 0x0
       TTask task;
       // System.Boolean <RemoveTask>b__0(Zenject.TaskUpdater`1/TaskInfo<TTask> x)
-      // Offset: 0x1947740
+      // Offset: 0xFFFFFFFF
       bool $RemoveTask$b__0(typename Zenject::TaskUpdater_1<TTask>::TaskInfo* x) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<RemoveTask>b__0", x)));
       }
       // public System.Void .ctor()
-      // Offset: 0x1947728
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename TaskUpdater_1<TTask>::$$c__DisplayClass8_0* New_ctor() {
@@ -134,57 +134,57 @@ namespace Zenject {
     // Offset: 0x0
     System::Collections::Generic::List_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>* queuedTasks;
     // private System.Collections.Generic.IEnumerable`1<Zenject.TaskUpdater`1/TaskInfo<TTask>> get_AllTasks()
-    // Offset: 0x19477B4
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>* get_AllTasks() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>*>(this, "get_AllTasks"));
     }
     // private System.Collections.Generic.IEnumerable`1<Zenject.TaskUpdater`1/TaskInfo<TTask>> get_ActiveTasks()
-    // Offset: 0x1947804
+    // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>* get_ActiveTasks() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>*>(this, "get_ActiveTasks"));
     }
     // public System.Void AddTask(TTask task, System.Int32 priority)
-    // Offset: 0x194780C
+    // Offset: 0xFFFFFFFF
     void AddTask(TTask task, int priority) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddTask", task, priority));
     }
     // private System.Void AddTaskInternal(TTask task, System.Int32 priority)
-    // Offset: 0x1947830
+    // Offset: 0xFFFFFFFF
     void AddTaskInternal(TTask task, int priority) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddTaskInternal", task, priority));
     }
     // public System.Void RemoveTask(TTask task)
-    // Offset: 0x1947B48
+    // Offset: 0xFFFFFFFF
     void RemoveTask(TTask task) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "RemoveTask", task));
     }
     // public System.Void OnFrameStart()
-    // Offset: 0x1947D44
+    // Offset: 0xFFFFFFFF
     void OnFrameStart() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnFrameStart"));
     }
     // public System.Void UpdateAll()
-    // Offset: 0x1947D68
+    // Offset: 0xFFFFFFFF
     void UpdateAll() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "UpdateAll"));
     }
     // public System.Void UpdateRange(System.Int32 minPriority, System.Int32 maxPriority)
-    // Offset: 0x1947D94
+    // Offset: 0xFFFFFFFF
     void UpdateRange(int minPriority, int maxPriority) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "UpdateRange", minPriority, maxPriority));
     }
     // private System.Void ClearRemovedTasks(System.Collections.Generic.LinkedList`1<Zenject.TaskUpdater`1/TaskInfo<TTask>> tasks)
-    // Offset: 0x1947E9C
+    // Offset: 0xFFFFFFFF
     void ClearRemovedTasks(System::Collections::Generic::LinkedList_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>* tasks) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "ClearRemovedTasks", tasks));
     }
     // private System.Void AddQueuedTasks()
-    // Offset: 0x1947F50
+    // Offset: 0xFFFFFFFF
     void AddQueuedTasks() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddQueuedTasks"));
     }
     // private System.Void InsertTaskSorted(Zenject.TaskUpdater`1/TaskInfo<TTask> task)
-    // Offset: 0x1948008
+    // Offset: 0xFFFFFFFF
     void InsertTaskSorted(typename Zenject::TaskUpdater_1<TTask>::TaskInfo* task) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "InsertTaskSorted", task));
     }
@@ -194,7 +194,7 @@ namespace Zenject {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "UpdateItem", task));
     }
     // protected System.Void .ctor()
-    // Offset: 0x19480F8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskUpdater_1<TTask>* New_ctor() {

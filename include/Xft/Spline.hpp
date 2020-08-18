@@ -36,58 +36,58 @@ namespace Xft {
     // Offset: 0x18
     System::Collections::Generic::List_1<Xft::SplineControlPoint*>* mSegments;
     // public Xft.SplineControlPoint get_Item(System.Int32 index)
-    // Offset: 0xC53428
+    // Offset: 0x1970A74
     Xft::SplineControlPoint* get_Item(int index);
     // public System.Collections.Generic.List`1<Xft.SplineControlPoint> get_Segments()
-    // Offset: 0xC534B0
+    // Offset: 0x1970AFC
     System::Collections::Generic::List_1<Xft::SplineControlPoint*>* get_Segments();
     // public System.Collections.Generic.List`1<Xft.SplineControlPoint> get_ControlPoints()
-    // Offset: 0xC534B8
+    // Offset: 0x1970B04
     System::Collections::Generic::List_1<Xft::SplineControlPoint*>* get_ControlPoints();
     // public Xft.SplineControlPoint NextControlPoint(Xft.SplineControlPoint controlpoint)
-    // Offset: 0xC534C0
+    // Offset: 0x1970B0C
     Xft::SplineControlPoint* NextControlPoint(Xft::SplineControlPoint* controlpoint);
     // public Xft.SplineControlPoint PreviousControlPoint(Xft.SplineControlPoint controlpoint)
-    // Offset: 0xC53558
+    // Offset: 0x1970BA4
     Xft::SplineControlPoint* PreviousControlPoint(Xft::SplineControlPoint* controlpoint);
     // public UnityEngine.Vector3 NextPosition(Xft.SplineControlPoint controlpoint)
-    // Offset: 0xC535EC
+    // Offset: 0x1970C38
     UnityEngine::Vector3 NextPosition(Xft::SplineControlPoint* controlpoint);
     // public UnityEngine.Vector3 PreviousPosition(Xft.SplineControlPoint controlpoint)
-    // Offset: 0xC53624
+    // Offset: 0x1970C70
     UnityEngine::Vector3 PreviousPosition(Xft::SplineControlPoint* controlpoint);
     // public UnityEngine.Vector3 PreviousNormal(Xft.SplineControlPoint controlpoint)
-    // Offset: 0xC5365C
+    // Offset: 0x1970CA8
     UnityEngine::Vector3 PreviousNormal(Xft::SplineControlPoint* controlpoint);
     // public UnityEngine.Vector3 NextNormal(Xft.SplineControlPoint controlpoint)
-    // Offset: 0xC53694
+    // Offset: 0x1970CE0
     UnityEngine::Vector3 NextNormal(Xft::SplineControlPoint* controlpoint);
     // public Xft.SplineControlPoint LenToSegment(System.Single t, System.Single localF)
-    // Offset: 0xC536CC
+    // Offset: 0x1970D18
     Xft::SplineControlPoint* LenToSegment(float t, float& localF);
     // static public UnityEngine.Vector3 CatmulRom(UnityEngine.Vector3 T0, UnityEngine.Vector3 P0, UnityEngine.Vector3 P1, UnityEngine.Vector3 T1, System.Single f)
-    // Offset: 0xC53878
+    // Offset: 0x1970EC4
     static UnityEngine::Vector3 CatmulRom(UnityEngine::Vector3 T0, UnityEngine::Vector3 P0, UnityEngine::Vector3 P1, UnityEngine::Vector3 T1, float f);
     // public UnityEngine.Vector3 InterpolateByLen(System.Single tl)
-    // Offset: 0xC539C0
+    // Offset: 0x197100C
     UnityEngine::Vector3 InterpolateByLen(float tl);
     // public UnityEngine.Vector3 InterpolateNormalByLen(System.Single tl)
-    // Offset: 0xC53AF0
+    // Offset: 0x197113C
     UnityEngine::Vector3 InterpolateNormalByLen(float tl);
     // public Xft.SplineControlPoint AddControlPoint(UnityEngine.Vector3 pos, UnityEngine.Vector3 up)
-    // Offset: 0xC53C20
+    // Offset: 0x197126C
     Xft::SplineControlPoint* AddControlPoint(UnityEngine::Vector3 pos, UnityEngine::Vector3 up);
     // public System.Void Clear()
-    // Offset: 0xC53D60
+    // Offset: 0x19713AC
     void Clear();
     // private System.Void RefreshDistance()
-    // Offset: 0xC53DB8
+    // Offset: 0x1971404
     void RefreshDistance();
     // public System.Void RefreshSpline()
-    // Offset: 0xC53FB0
+    // Offset: 0x19715FC
     void RefreshSpline();
     // public System.Void .ctor()
-    // Offset: 0xC54104
+    // Offset: 0x1971750
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Spline* New_ctor();

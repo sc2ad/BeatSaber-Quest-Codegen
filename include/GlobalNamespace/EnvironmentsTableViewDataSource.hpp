@@ -47,26 +47,26 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos;
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> get_environmentInfos()
-    // Offset: 0xBE8C20
+    // Offset: 0x1930230
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public System.Void .ctor(EnvironmentsTableViewDataSource environmentsTableViewDataSource)
-    // Offset: 0xBE7A78
+    // Offset: 0x192F068
     static EnvironmentsTableViewDataSource* New_ctor(GlobalNamespace::EnvironmentsTableViewDataSource* environmentsTableViewDataSource);
     // public System.Void SetData(System.Collections.Generic.List`1<EnvironmentInfoSO> environmentInfos)
-    // Offset: 0xBE8C28
+    // Offset: 0x1930238
     void SetData(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos);
     // public System.Single CellSize()
-    // Offset: 0xBE8C30
+    // Offset: 0x1930240
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0xBE8C38
+    // Offset: 0x1930248
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0xBE8C8C
+    // Offset: 0x193029C
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 row)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);

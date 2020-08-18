@@ -29,56 +29,56 @@ namespace System {
     // Creating value type constructor for type: Nullable_1
     Nullable_1(T value_ = {}, bool has_value_ = {}) : value{value_}, has_value{has_value_} {}
     // public System.Void .ctor(T value)
-    // Offset: 0xA400EC
+    // Offset: 0xFFFFFFFF
     static Nullable_1<T>* New_ctor(T value) {
       return (Nullable_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), value));
     }
     // public System.Boolean get_HasValue()
-    // Offset: 0xA40108
+    // Offset: 0xFFFFFFFF
     bool get_HasValue() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "get_HasValue"));
     }
     // public T get_Value()
-    // Offset: 0xA40164
+    // Offset: 0xFFFFFFFF
     T get_Value() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_Value"));
     }
     // private System.Boolean Equals(System.Nullable`1<T> other)
-    // Offset: 0xA40258
+    // Offset: 0xFFFFFFFF
     bool Equals(System::Nullable_1<T> other) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", other));
     }
     // public T GetValueOrDefault()
-    // Offset: 0xA405E8
+    // Offset: 0xFFFFFFFF
     T GetValueOrDefault() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "GetValueOrDefault"));
     }
     // static private System.Object Box(System.Nullable`1<T> o)
-    // Offset: 0x12DAA3C
+    // Offset: 0xFFFFFFFF
     static ::Il2CppObject* Box(System::Nullable_1<T> o) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Box", o));
     }
     // static private System.Nullable`1<T> Unbox(System.Object o)
-    // Offset: 0x12DAAB4
+    // Offset: 0xFFFFFFFF
     static System::Nullable_1<T> Unbox(::Il2CppObject* o) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Nullable_1<T>>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Unbox", o));
     }
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA401DC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", other));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA402E0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "GetHashCode"));
     }
     // public override System.String ToString()
-    // Offset: 0xA403B0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString() {

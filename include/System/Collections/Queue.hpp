@@ -50,36 +50,36 @@ namespace System::Collections {
     // Offset: 0x28
     int version;
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x1339AD4
+    // Offset: 0x129AD98
     static Queue* New_ctor(int capacity);
     // public System.Void .ctor(System.Int32 capacity, System.Single growFactor)
-    // Offset: 0x13398EC
+    // Offset: 0x129ABB0
     static Queue* New_ctor(int capacity, float growFactor);
     // public System.Void .ctor(System.Collections.ICollection col)
-    // Offset: 0x1339ADC
+    // Offset: 0x129ADA0
     static Queue* New_ctor(System::Collections::ICollection* col);
     // public System.Void Enqueue(System.Object obj)
-    // Offset: 0x133A030
+    // Offset: 0x129B2F4
     void Enqueue(::Il2CppObject* obj);
     // public System.Object Dequeue()
-    // Offset: 0x133A2A4
+    // Offset: 0x129B568
     ::Il2CppObject* Dequeue();
     // public System.Object Peek()
-    // Offset: 0x133A3C0
+    // Offset: 0x129B684
     ::Il2CppObject* Peek();
     // System.Object GetElement(System.Int32 i)
-    // Offset: 0x133A494
+    // Offset: 0x129B758
     ::Il2CppObject* GetElement(int i);
     // private System.Void SetCapacity(System.Int32 capacity)
-    // Offset: 0x133A140
+    // Offset: 0x129B404
     void SetCapacity(int capacity);
     // public System.Void .ctor()
-    // Offset: 0x13398E0
+    // Offset: 0x129ABA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Queue* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x1339D64
+    // Offset: 0x129B028
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -87,12 +87,12 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Object Clone()
-    // Offset: 0x1339D6C
+    // Offset: 0x129B030
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1339E50
+    // Offset: 0x129B114
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -100,7 +100,7 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x133A240
+    // Offset: 0x129B504
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

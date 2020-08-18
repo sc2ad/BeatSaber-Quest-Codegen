@@ -17,10 +17,10 @@ namespace UnityEngine {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // static private UnityEngine.BootConfigData WrapBootConfigData(System.IntPtr nativeHandle)
-    // Offset: 0x12FDAA0
+    // Offset: 0x1260D64
     static UnityEngine::BootConfigData* WrapBootConfigData(System::IntPtr nativeHandle);
     // private System.Void .ctor(System.IntPtr nativeHandle)
-    // Offset: 0x12FDB00
+    // Offset: 0x1260DC4
     static BootConfigData* New_ctor(System::IntPtr nativeHandle);
   }; // UnityEngine.BootConfigData
 }

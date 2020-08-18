@@ -59,40 +59,40 @@ namespace TMPro {
       // Offset: 0x0
       float $elapsedTime$5__2;
       // public System.Void .ctor(System.Int32 $$1__state)
-      // Offset: 0x13F8C28
+      // Offset: 0xFFFFFFFF
       static typename TweenRunner_1<T>::$Start$d__2* New_ctor(int $$1__state) {
         return (typename TweenRunner_1<T>::$Start$d__2*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TweenRunner_1<T>::$Start$d__2*>::get(), $$1__state));
       }
       // private System.Void System.IDisposable.Dispose()
-      // Offset: 0x13F8C5C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.IDisposable.Dispose"));
       }
       // private System.Boolean MoveNext()
-      // Offset: 0x13F8C60
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
         return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
       }
       // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-      // Offset: 0x13F8D8C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator`1::get_Current()
       ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current() {
         return THROW_UNLESS((il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.Generic.IEnumerator<System.Object>.get_Current")));
       }
       // private System.Void System.Collections.IEnumerator.Reset()
-      // Offset: 0x13F8D94
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
         THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
-      // Offset: 0x13F8DF4
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
@@ -106,27 +106,27 @@ namespace TMPro {
     // Offset: 0x0
     System::Collections::IEnumerator* m_Tween;
     // static private System.Collections.IEnumerator Start(T tweenInfo)
-    // Offset: 0x13F8DFC
+    // Offset: 0xFFFFFFFF
     static System::Collections::IEnumerator* Start(T tweenInfo) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TweenRunner_1<T>*>::get(), "Start", tweenInfo));
     }
     // public System.Void Init(UnityEngine.MonoBehaviour coroutineContainer)
-    // Offset: 0x13F8EF0
+    // Offset: 0xFFFFFFFF
     void Init(UnityEngine::MonoBehaviour* coroutineContainer) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Init", coroutineContainer));
     }
     // public System.Void StartTween(T info)
-    // Offset: 0x13F8EF8
+    // Offset: 0xFFFFFFFF
     void StartTween(T info) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "StartTween", info));
     }
     // public System.Void StopTween()
-    // Offset: 0x13F9088
+    // Offset: 0xFFFFFFFF
     void StopTween() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "StopTween"));
     }
     // public System.Void .ctor()
-    // Offset: 0x13F90D8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TweenRunner_1<T>* New_ctor() {

@@ -14,7 +14,7 @@ namespace UnityEngine {
   class UnityEngineModuleAssembly : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x196B0D4
+    // Offset: 0x18C7418
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

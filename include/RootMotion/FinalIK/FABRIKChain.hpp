@@ -36,22 +36,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0x20
     ::Array<int>* children;
     // public System.Boolean IsValid(System.String message)
-    // Offset: 0x13A73E0
+    // Offset: 0x13096A4
     bool IsValid(::Il2CppString*& message);
     // public System.Void Initiate()
-    // Offset: 0x13A74B4
+    // Offset: 0x1309778
     void Initiate();
     // public System.Void Stage1(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x13A74D4
+    // Offset: 0x1309798
     void Stage1(::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
     // public System.Void Stage2(UnityEngine.Vector3 rootPosition, RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x13A78A4
+    // Offset: 0x1309B68
     void Stage2(UnityEngine::Vector3 rootPosition, ::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
     // private UnityEngine.Vector3 GetCentroid(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x13A75A8
+    // Offset: 0x130986C
     UnityEngine::Vector3 GetCentroid(::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
     // public System.Void .ctor()
-    // Offset: 0x13A799C
+    // Offset: 0x1309C60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FABRIKChain* New_ctor();

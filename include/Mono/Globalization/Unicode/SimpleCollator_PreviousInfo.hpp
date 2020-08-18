@@ -24,7 +24,7 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: PreviousInfo
     PreviousInfo(int Code_ = {}, uint8_t* SortKey_ = {}) : Code{Code_}, SortKey{SortKey_} {}
     // public System.Void .ctor(System.Boolean dummy)
-    // Offset: 0xA3CC58
+    // Offset: 0x9A6124
     static SimpleCollator::PreviousInfo* New_ctor(bool dummy);
   }; // Mono.Globalization.Unicode.SimpleCollator/PreviousInfo
 }

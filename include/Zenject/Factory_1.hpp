@@ -17,7 +17,7 @@ namespace Zenject {
   class Factory_1 : public Zenject::PlaceholderFactory_1<TValue> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13B8FD0
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.PlaceholderFactory`1
     // Base method: System.Void PlaceholderFactory`1::.ctor()
     // Base method: System.Void PlaceholderFactoryBase`1::.ctor()

@@ -49,18 +49,18 @@ namespace System::IO {
     // Offset: 0x38
     System::AsyncCallback* realcb;
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1133538
+    // Offset: 0x10967FC
     static FileStreamAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state);
     // static private System.Void CBWrapper(System.IAsyncResult ares)
-    // Offset: 0x11349C4
+    // Offset: 0x1097C88
     static void CBWrapper(System::IAsyncResult* ares);
     // public System.Object get_AsyncState()
-    // Offset: 0x1134A60
+    // Offset: 0x1097D24
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1134A68
+    // Offset: 0x1097D2C
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();

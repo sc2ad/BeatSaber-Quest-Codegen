@@ -26,16 +26,16 @@ namespace System {
   class EventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xDA4500
+    // Offset: 0xD047C4
     static EventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.EventArgs e)
-    // Offset: 0xDA4514
+    // Offset: 0xD047D8
     void Invoke(::Il2CppObject* sender, System::EventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.EventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xDA4918
+    // Offset: 0xD04BDC
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::EventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xDA4948
+    // Offset: 0xD04C0C
     void EndInvoke(System::IAsyncResult* result);
   }; // System.EventHandler
 }

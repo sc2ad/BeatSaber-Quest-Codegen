@@ -29,7 +29,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     ::Array<RootMotion::FinalIK::FullBodyBipedEffector>* effectors;
     // public System.Void .ctor()
-    // Offset: 0x122A7A4
+    // Offset: 0x118DA68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionTrigger::Range::Interaction* New_ctor();

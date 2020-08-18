@@ -17,18 +17,18 @@ namespace HMUI {
     // Offset: 0x48
     bool userInteractionEnabled;
     // public System.Boolean get_userInteractionEnabled()
-    // Offset: 0xED2708
+    // Offset: 0xE329CC
     bool get_userInteractionEnabled();
     // public System.Void set_userInteractionEnabled(System.Boolean value)
-    // Offset: 0xED2710
+    // Offset: 0xE329D4
     void set_userInteractionEnabled(bool value);
     // protected override System.Void Awake()
-    // Offset: 0xED271C
+    // Offset: 0xE329E0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Awake()
     void Awake();
     // protected System.Void .ctor()
-    // Offset: 0xED2748
+    // Offset: 0xE32A0C
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()

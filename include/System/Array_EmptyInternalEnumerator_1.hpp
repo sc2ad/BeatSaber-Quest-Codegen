@@ -29,12 +29,12 @@ namespace System {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Array::EmptyInternalEnumerator_1<T>*>::get(), "Value", value));
     }
     // static private System.Void .cctor()
-    // Offset: 0x11E1A94
+    // Offset: 0xFFFFFFFF
     static void _cctor() {
       THROW_UNLESS(il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Array::EmptyInternalEnumerator_1<T>*>::get(), ".cctor"));
     }
     // public System.Void Dispose()
-    // Offset: 0x11E1984
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose() {
@@ -46,14 +46,14 @@ namespace System {
       Dispose();
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x11E1988
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
     }
     // public T get_Current()
-    // Offset: 0x11E1990
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     T get_Current() {
@@ -65,21 +65,21 @@ namespace System {
       return get_Current();
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x11E19FC
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IEnumerator.get_Current"));
     }
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x11E1A78
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
     }
     // public System.Void .ctor()
-    // Offset: 0x11E1A7C
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Array::EmptyInternalEnumerator_1<T>* New_ctor() {

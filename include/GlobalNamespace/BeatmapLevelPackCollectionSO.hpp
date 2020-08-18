@@ -36,15 +36,15 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::IBeatmapLevelPack*>* allBeatmapLevelPacks;
     // public System.Void LoadAllBeatmapLevelPacksAsync()
-    // Offset: 0xB51138
+    // Offset: 0x18D8668
     void LoadAllBeatmapLevelPacksAsync();
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0xB51108
+    // Offset: 0x18D8638
     // Implemented from: IBeatmapLevelPackCollection
     // Base method: IBeatmapLevelPack[] IBeatmapLevelPackCollection::get_beatmapLevelPacks()
     ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0xB512B8
+    // Offset: 0x18D87E8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

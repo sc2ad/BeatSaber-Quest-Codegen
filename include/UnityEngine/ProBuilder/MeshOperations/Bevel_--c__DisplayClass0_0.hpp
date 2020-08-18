@@ -27,8 +27,8 @@ namespace UnityEngine::ProBuilder {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -50,13 +50,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x28
     System::Func_2<int, int>* $$9__8;
     // System.Int32 <BevelEdges>b__7(System.Int32 x)
-    // Offset: 0xF030AC
+    // Offset: 0xE63370
     int $BevelEdges$b__7(int x);
     // System.Int32 <BevelEdges>b__8(System.Int32 x)
-    // Offset: 0xF030F4
+    // Offset: 0xE633B8
     int $BevelEdges$b__8(int x);
     // public System.Void .ctor()
-    // Offset: 0xF0232C
+    // Offset: 0xE625F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Bevel::$$c__DisplayClass0_0* New_ctor();

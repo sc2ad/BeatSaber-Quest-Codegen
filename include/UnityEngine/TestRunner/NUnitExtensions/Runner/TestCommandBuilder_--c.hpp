@@ -11,14 +11,14 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -57,19 +57,19 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static public System.Func`2<System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>> <>9__1_2
     static void _set_$$9__1_2(System::Func_2<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE326E0
+    // Offset: 0xD929A4
     static void _cctor();
     // System.String <GetTestBuilderName>b__1_0(NUnit.Framework.Interfaces.ITestBuilder attribute)
-    // Offset: 0xE32750
+    // Offset: 0xD92A14
     ::Il2CppString* $GetTestBuilderName$b__1_0(NUnit::Framework::Interfaces::ITestBuilder* attribute);
     // System.String <GetTestBuilderName>b__1_1(NUnit.Framework.Interfaces.ISimpleTestBuilder attribute)
-    // Offset: 0xE32780
+    // Offset: 0xD92A44
     ::Il2CppString* $GetTestBuilderName$b__1_1(NUnit::Framework::Interfaces::ISimpleTestBuilder* attribute);
     // System.Collections.Generic.IEnumerable`1<System.String> <GetTestBuilderName>b__1_2(System.Collections.Generic.IEnumerable`1<System.String> v)
-    // Offset: 0xE327B0
+    // Offset: 0xD92A74
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* $GetTestBuilderName$b__1_2(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* v);
     // public System.Void .ctor()
-    // Offset: 0xE32748
+    // Offset: 0xD92A0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestCommandBuilder::$$c* New_ctor();

@@ -47,19 +47,19 @@ namespace GlobalNamespace {
     // Offset: 0x48
     float positionSmooth;
     // public System.Void Init(System.Single fieldOfView, System.Single positionSmooth, System.Single rotationSmooth, System.Boolean thirdPersonEnabled, UnityEngine.Vector3 thirdPersonPosition, UnityEngine.Vector3 thirdPersonEulerAngles)
-    // Offset: 0xB972D4
+    // Offset: 0x1900980
     void Init(float fieldOfView, float positionSmooth, float rotationSmooth, bool thirdPersonEnabled, UnityEngine::Vector3 thirdPersonPosition, UnityEngine::Vector3 thirdPersonEulerAngles);
     // protected System.Void OnEnable()
-    // Offset: 0xB97480
+    // Offset: 0x1900B2C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xB974A0
+    // Offset: 0x1900B4C
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0xB974C0
+    // Offset: 0x1900B6C
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xB976FC
+    // Offset: 0x1900DA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

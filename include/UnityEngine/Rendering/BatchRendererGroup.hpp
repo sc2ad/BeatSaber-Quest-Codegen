@@ -31,7 +31,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x18
     UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling* m_PerformCulling;
     // static private System.Void InvokeOnPerformCulling(UnityEngine.Rendering.BatchRendererGroup group, UnityEngine.Rendering.BatchRendererCullingOutput context, UnityEngine.Rendering.LODParameters lodParameters)
-    // Offset: 0x1383408
+    // Offset: 0x12E46CC
     static void InvokeOnPerformCulling(UnityEngine::Rendering::BatchRendererGroup* group, UnityEngine::Rendering::BatchRendererCullingOutput& context, UnityEngine::Rendering::LODParameters& lodParameters);
   }; // UnityEngine.Rendering.BatchRendererGroup
 }

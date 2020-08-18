@@ -37,16 +37,16 @@ namespace Valve::VR {
   class IVRNotifications::_CreateNotification : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15FE184
+    // Offset: 0x155F4BC
     static IVRNotifications::_CreateNotification* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRNotificationError Invoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, Valve.VR.NotificationBitmap_t pImage, System.UInt32 pNotificationId)
-    // Offset: 0x15FE198
+    // Offset: 0x155F4D0
     Valve::VR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, Valve.VR.NotificationBitmap_t pImage, System.UInt32 pNotificationId, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15FE47C
+    // Offset: 0x155F7B4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRNotificationError EndInvoke(Valve.VR.NotificationBitmap_t pImage, System.UInt32 pNotificationId, System.IAsyncResult result)
-    // Offset: 0x15FE5AC
+    // Offset: 0x155F8E4
     Valve::VR::EVRNotificationError EndInvoke(Valve::VR::NotificationBitmap_t& pImage, uint& pNotificationId, System::IAsyncResult* result);
   }; // Valve.VR.IVRNotifications/_CreateNotification
 }

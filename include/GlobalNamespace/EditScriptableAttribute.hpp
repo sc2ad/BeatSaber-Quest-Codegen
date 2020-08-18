@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class EditScriptableAttribute : public UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCAC8C4
+    // Offset: 0xC0CB88
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

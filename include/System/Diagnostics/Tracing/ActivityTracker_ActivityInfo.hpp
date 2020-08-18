@@ -48,34 +48,34 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x58
     System::Guid m_activityIdToRestore;
     // public System.Void .ctor(System.String name, System.Int64 uniqueId, System.Diagnostics.Tracing.ActivityTracker/ActivityInfo creator, System.Guid activityIDToRestore, System.Diagnostics.Tracing.EventActivityOptions options)
-    // Offset: 0xC955EC
+    // Offset: 0xBF58B0
     static ActivityTracker::ActivityInfo* New_ctor(::Il2CppString* name, int64_t uniqueId, System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* creator, System::Guid activityIDToRestore, System::Diagnostics::Tracing::EventActivityOptions options);
     // public System.Guid get_ActivityId()
-    // Offset: 0xC95B08
+    // Offset: 0xBF5DCC
     System::Guid get_ActivityId();
     // static public System.String Path(System.Diagnostics.Tracing.ActivityTracker/ActivityInfo activityInfo)
-    // Offset: 0xC95B14
+    // Offset: 0xBF5DD8
     static ::Il2CppString* Path(System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* activityInfo);
     // static public System.String LiveActivities(System.Diagnostics.Tracing.ActivityTracker/ActivityInfo list)
-    // Offset: 0xC9520C
+    // Offset: 0xBF54D0
     static ::Il2CppString* LiveActivities(System::Diagnostics::Tracing::ActivityTracker::ActivityInfo* list);
     // public System.Boolean CanBeOrphan()
-    // Offset: 0xC95694
+    // Offset: 0xBF5958
     bool CanBeOrphan();
     // private System.Void CreateActivityPathGuid(System.Guid idRet, System.Int32 activityPathGuidOffset)
-    // Offset: 0xC95A70
+    // Offset: 0xBF5D34
     void CreateActivityPathGuid(System::Guid& idRet, int& activityPathGuidOffset);
     // private System.Void CreateOverflowGuid(System.Guid* outPtr)
-    // Offset: 0xC95ED8
+    // Offset: 0xBF619C
     void CreateOverflowGuid(System::Guid* outPtr);
     // static private System.Int32 AddIdToGuid(System.Guid* outPtr, System.Int32 whereToAddId, System.UInt32 id, System.Boolean overflow)
-    // Offset: 0xC95D8C
+    // Offset: 0xBF6050
     static int AddIdToGuid(System::Guid* outPtr, int whereToAddId, uint id, bool overflow);
     // static private System.Void WriteNibble(System.Byte* ptr, System.Byte* endPtr, System.UInt32 value)
-    // Offset: 0xC95F40
+    // Offset: 0xBF6204
     static void WriteNibble(uint8_t*& ptr, uint8_t* endPtr, uint value);
     // public override System.String ToString()
-    // Offset: 0xC95BB4
+    // Offset: 0xBF5E78
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

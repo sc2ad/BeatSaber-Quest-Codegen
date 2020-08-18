@@ -27,22 +27,22 @@ namespace System::Net {
     // Creating value type constructor for type: IPv6AddressFormatter
     IPv6AddressFormatter(::Array<uint16_t>* address_ = {}, int64_t scopeId_ = {}) : address{address_}, scopeId{scopeId_} {}
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
-    // Offset: 0xA38700
+    // Offset: 0x9A1BCC
     static IPv6AddressFormatter* New_ctor(::Array<uint16_t>* addr, int64_t scopeId);
     // static private System.UInt16 SwapUShort(System.UInt16 number)
-    // Offset: 0xF698F8
+    // Offset: 0xECABBC
     static uint16_t SwapUShort(uint16_t number);
     // private System.UInt32 AsIPv4Int()
-    // Offset: 0xA38730
+    // Offset: 0x9A1BFC
     uint AsIPv4Int();
     // private System.Boolean IsIPv4Compatible()
-    // Offset: 0xA38738
+    // Offset: 0x9A1C04
     bool IsIPv4Compatible();
     // private System.Boolean IsIPv4Mapped()
-    // Offset: 0xA38740
+    // Offset: 0x9A1C0C
     bool IsIPv4Mapped();
     // public override System.String ToString()
-    // Offset: 0xA38748
+    // Offset: 0x9A1C14
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

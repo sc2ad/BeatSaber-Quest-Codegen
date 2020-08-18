@@ -126,44 +126,44 @@ namespace RootMotion::FinalIK {
     // Offset: 0xE4
     UnityEngine::Vector3 aimIKAxis;
     // public System.Boolean get_isFinished()
-    // Offset: 0x122F258
+    // Offset: 0x119251C
     bool get_isFinished();
     // public System.Void SetHandRotations(UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation)
-    // Offset: 0x122F288
+    // Offset: 0x119254C
     void SetHandRotations(UnityEngine::Quaternion leftHandRotation, UnityEngine::Quaternion rightHandRotation);
     // public System.Void Fire(System.Single magnitude)
-    // Offset: 0x122F2B4
+    // Offset: 0x1192578
     void Fire(float magnitude);
     // private System.Void AfterFBBIK()
-    // Offset: 0x1230368
+    // Offset: 0x119362C
     void AfterFBBIK();
     // private System.Void AfterAimIK()
-    // Offset: 0x12304C0
+    // Offset: 0x1193784
     void AfterAimIK();
     // private RootMotion.FinalIK.IKEffector get_primaryHandEffector()
-    // Offset: 0x12302E8
+    // Offset: 0x11935AC
     RootMotion::FinalIK::IKEffector* get_primaryHandEffector();
     // private RootMotion.FinalIK.IKEffector get_secondaryHandEffector()
-    // Offset: 0x1230328
+    // Offset: 0x11935EC
     RootMotion::FinalIK::IKEffector* get_secondaryHandEffector();
     // private UnityEngine.Transform get_primaryHand()
-    // Offset: 0x12302A8
+    // Offset: 0x119356C
     UnityEngine::Transform* get_primaryHand();
     // private UnityEngine.Transform get_secondaryHand()
-    // Offset: 0x12302C8
+    // Offset: 0x119358C
     UnityEngine::Transform* get_secondaryHand();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x122F530
+    // Offset: 0x11927F4
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // protected override System.Void OnDestroy()
-    // Offset: 0x12304FC
+    // Offset: 0x11937C0
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x12306C8
+    // Offset: 0x119398C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

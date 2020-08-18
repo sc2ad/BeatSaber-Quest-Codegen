@@ -29,22 +29,22 @@ namespace System::Collections::Generic {
       THROW_UNLESS(il2cpp_utils::SetFieldValue(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EqualityComparer_1<T>*>::get(), "defaultComparer", value));
     }
     // static public System.Collections.Generic.EqualityComparer`1<T> get_Default()
-    // Offset: 0x16ED6C4
+    // Offset: 0xFFFFFFFF
     static System::Collections::Generic::EqualityComparer_1<T>* get_Default() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::EqualityComparer_1<T>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EqualityComparer_1<T>*>::get(), "get_Default"));
     }
     // static private System.Collections.Generic.EqualityComparer`1<T> CreateComparer()
-    // Offset: 0x16ED7B0
+    // Offset: 0xFFFFFFFF
     static System::Collections::Generic::EqualityComparer_1<T>* CreateComparer() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::EqualityComparer_1<T>*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EqualityComparer_1<T>*>::get(), "CreateComparer"));
     }
     // System.Int32 IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x16EDDE8
+    // Offset: 0xFFFFFFFF
     int IndexOf(::Array<T>* array, T value, int startIndex, int count) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "IndexOf", array, value, startIndex, count));
     }
     // System.Int32 LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x16EDEE0
+    // Offset: 0xFFFFFFFF
     int LastIndexOf(::Array<T>* array, T value, int startIndex, int count) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "LastIndexOf", array, value, startIndex, count));
     }
@@ -63,21 +63,21 @@ namespace System::Collections::Generic {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode", obj));
     }
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x16EDFD0
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object obj)
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "System.Collections.IEqualityComparer.GetHashCode", obj));
     }
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
-    // Offset: 0x16EE0C8
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object x, System.Object y)
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "System.Collections.IEqualityComparer.Equals", x, y));
     }
     // protected System.Void .ctor()
-    // Offset: 0x16EE278
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EqualityComparer_1<T>* New_ctor() {

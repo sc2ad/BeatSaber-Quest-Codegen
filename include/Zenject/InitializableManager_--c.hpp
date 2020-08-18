@@ -11,13 +11,13 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: ModestTree::Util
@@ -45,16 +45,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.InitializableManager/InitializableInfo,System.Int32> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<Zenject::InitializableManager::InitializableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF361AC
+    // Offset: 0xE97470
     static void _cctor();
     // System.Int32 <.ctor>b__2_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xF3621C
+    // Offset: 0xE974E0
     int $_ctor$b__2_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <Initialize>b__5_0(Zenject.InitializableManager/InitializableInfo x)
-    // Offset: 0xF36234
+    // Offset: 0xE974F8
     int $Initialize$b__5_0(Zenject::InitializableManager::InitializableInfo* x);
     // public System.Void .ctor()
-    // Offset: 0xF36214
+    // Offset: 0xE974D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InitializableManager::$$c* New_ctor();

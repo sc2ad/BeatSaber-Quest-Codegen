@@ -11,8 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Func`2<TResult, T>
-  template<typename TResult, typename T>
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MissionStage,System.Int32> <>9__6_0
     static void _set_$$9__6_0(System::Func_2<GlobalNamespace::MissionStage*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xC0AFE4
+    // Offset: 0x1953B14
     static void _cctor();
     // System.Int32 <InitStages>b__6_0(MissionStage stage)
-    // Offset: 0xC0B054
+    // Offset: 0x1953B84
     int $InitStages$b__6_0(GlobalNamespace::MissionStage* stage);
     // public System.Void .ctor()
-    // Offset: 0xC0B04C
+    // Offset: 0x1953B7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionStagesManager::$$c* New_ctor();

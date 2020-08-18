@@ -40,112 +40,112 @@ namespace UnityEngine {
     // Creating value type constructor for type: Color
     Color(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) : r{r_}, g{g_}, b{b_}, a{a_} {}
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b, System.Single a)
-    // Offset: 0xA41D10
+    // Offset: 0x9AB1DC
     static Color* New_ctor(float r, float g, float b, float a);
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b)
-    // Offset: 0xA41D1C
+    // Offset: 0x9AB1E8
     static Color* New_ctor(float r, float g, float b);
     // public System.String ToString(System.String format)
-    // Offset: 0xA41D38
+    // Offset: 0x9AB204
     ::Il2CppString* ToString(::Il2CppString* format);
     // static public UnityEngine.Color Lerp(UnityEngine.Color a, UnityEngine.Color b, System.Single t)
-    // Offset: 0x1301020
+    // Offset: 0x12642E4
     static UnityEngine::Color Lerp(UnityEngine::Color a, UnityEngine::Color b, float t);
     // UnityEngine.Color RGBMultiplied(System.Single multiplier)
-    // Offset: 0xA41D58
+    // Offset: 0x9AB224
     UnityEngine::Color RGBMultiplied(float multiplier);
     // static public UnityEngine.Color get_red()
-    // Offset: 0x130111C
+    // Offset: 0x12643E0
     static UnityEngine::Color get_red();
     // static public UnityEngine.Color get_green()
-    // Offset: 0x1301130
+    // Offset: 0x12643F4
     static UnityEngine::Color get_green();
     // static public UnityEngine.Color get_blue()
-    // Offset: 0x1301144
+    // Offset: 0x1264408
     static UnityEngine::Color get_blue();
     // static public UnityEngine.Color get_white()
-    // Offset: 0x1301158
+    // Offset: 0x126441C
     static UnityEngine::Color get_white();
     // static public UnityEngine.Color get_black()
-    // Offset: 0x130116C
+    // Offset: 0x1264430
     static UnityEngine::Color get_black();
     // static public UnityEngine.Color get_yellow()
-    // Offset: 0x1301180
+    // Offset: 0x1264444
     static UnityEngine::Color get_yellow();
     // static public UnityEngine.Color get_cyan()
-    // Offset: 0x130119C
+    // Offset: 0x1264460
     static UnityEngine::Color get_cyan();
     // static public UnityEngine.Color get_magenta()
-    // Offset: 0x13011B0
+    // Offset: 0x1264474
     static UnityEngine::Color get_magenta();
     // static public UnityEngine.Color get_gray()
-    // Offset: 0x13011C4
+    // Offset: 0x1264488
     static UnityEngine::Color get_gray();
     // static public UnityEngine.Color get_clear()
-    // Offset: 0x13011D8
+    // Offset: 0x126449C
     static UnityEngine::Color get_clear();
     // public System.Single get_grayscale()
-    // Offset: 0xA41D74
+    // Offset: 0x9AB240
     float get_grayscale();
     // public UnityEngine.Color get_linear()
-    // Offset: 0xA41DAC
+    // Offset: 0x9AB278
     UnityEngine::Color get_linear();
     // public System.Single get_maxColorComponent()
-    // Offset: 0xA41DB4
+    // Offset: 0x9AB280
     float get_maxColorComponent();
     // static public System.Void RGBToHSV(UnityEngine.Color rgbColor, System.Single H, System.Single S, System.Single V)
-    // Offset: 0x130135C
+    // Offset: 0x1264620
     static void RGBToHSV(UnityEngine::Color rgbColor, float& H, float& S, float& V);
     // static private System.Void RGBToHSVHelper(System.Single offset, System.Single dominantcolor, System.Single colorone, System.Single colortwo, System.Single H, System.Single S, System.Single V)
-    // Offset: 0x1301474
+    // Offset: 0x1264738
     static void RGBToHSVHelper(float offset, float dominantcolor, float colorone, float colortwo, float& H, float& S, float& V);
     // static public UnityEngine.Color HSVToRGB(System.Single H, System.Single S, System.Single V)
-    // Offset: 0x13014E4
+    // Offset: 0x12647A8
     static UnityEngine::Color HSVToRGB(float H, float S, float V);
     // static public UnityEngine.Color HSVToRGB(System.Single H, System.Single S, System.Single V, System.Boolean hdr)
-    // Offset: 0x13014EC
+    // Offset: 0x12647B0
     static UnityEngine::Color HSVToRGB(float H, float S, float V, bool hdr);
     // public override System.String ToString()
-    // Offset: 0xA41D30
+    // Offset: 0x9AB1FC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xA41D40
+    // Offset: 0x9AB20C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xA41D48
+    // Offset: 0x9AB214
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.Color other)
-    // Offset: 0xA41D50
+    // Offset: 0x9AB21C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Color other)
     bool Equals(UnityEngine::Color other);
   }; // UnityEngine.Color
   // static public UnityEngine.Color op_Addition(UnityEngine.Color a, UnityEngine.Color b)
-  // Offset: 0x1300E98
+  // Offset: 0x126415C
   UnityEngine::Color operator+(const UnityEngine::Color& a, const UnityEngine::Color& b);
   // static public UnityEngine.Color op_Subtraction(UnityEngine.Color a, UnityEngine.Color b)
-  // Offset: 0x1300EAC
+  // Offset: 0x1264170
   UnityEngine::Color operator-(const UnityEngine::Color& a, const UnityEngine::Color& b);
   // static public UnityEngine.Color op_Multiply(UnityEngine.Color a, UnityEngine.Color b)
-  // Offset: 0x1300EC0
+  // Offset: 0x1264184
   UnityEngine::Color operator*(const UnityEngine::Color& a, const UnityEngine::Color& b);
   // static public UnityEngine.Color op_Multiply(UnityEngine.Color a, System.Single b)
-  // Offset: 0x1300ED4
+  // Offset: 0x1264198
   UnityEngine::Color operator*(const UnityEngine::Color& a, const float& b);
   // static public UnityEngine.Color op_Division(UnityEngine.Color a, System.Single b)
-  // Offset: 0x1300EE8
+  // Offset: 0x12641AC
   UnityEngine::Color operator/(const UnityEngine::Color& a, const float& b);
   // static public System.Boolean op_Equality(UnityEngine.Color lhs, UnityEngine.Color rhs)
-  // Offset: 0x1300EFC
+  // Offset: 0x12641C0
   bool operator ==(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Color lhs, UnityEngine.Color rhs)
-  // Offset: 0x1301004
+  // Offset: 0x12642C8
   bool operator !=(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

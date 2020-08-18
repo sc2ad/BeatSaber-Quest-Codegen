@@ -93,40 +93,40 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     GlobalNamespace::MovementHistoryRecorder* handMovementHistoryRecorder;
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xC209C4
+    // Offset: 0xB98A00
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xC20A68
+    // Offset: 0xB98AA4
     void remove_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0xC20B0C
+    // Offset: 0xB98B48
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0xC20B14
+    // Offset: 0xB98B50
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0xC20B1C
+    // Offset: 0xB98B58
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0xC20B24
+    // Offset: 0xB98B60
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0xC19E84
+    // Offset: 0xB91EC0
     GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0xC19EA0
+    // Offset: 0xB91EDC
     GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // protected System.Void Awake()
-    // Offset: 0xC20B2C
+    // Offset: 0xB98B68
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xC20C00
+    // Offset: 0xB98C3C
     void Start();
     // protected System.Void Update()
-    // Offset: 0xC20C50
+    // Offset: 0xB98C8C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC21054
+    // Offset: 0xB99090
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

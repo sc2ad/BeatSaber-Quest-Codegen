@@ -23,20 +23,20 @@ namespace System {
   class InvalidProgramException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x100DD14
+    // Offset: 0xF6FFD8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidProgramException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x100DD88
+    // Offset: 0xF7004C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static InvalidProgramException* New_ctor(::Il2CppString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x100DDBC
+    // Offset: 0xF70080
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

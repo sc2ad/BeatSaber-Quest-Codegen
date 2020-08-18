@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     ::Array<GlobalNamespace::InstancingValuesTester::PropertyNameColorValuePair*>* colors;
     // protected System.Void Start()
-    // Offset: 0x1821280
+    // Offset: 0x177F5B8
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x18214F0
+    // Offset: 0x177F828
     void OnValidate();
     // private System.Void ApplyParams()
-    // Offset: 0x1821284
+    // Offset: 0x177F5BC
     void ApplyParams();
     // public System.Void .ctor()
-    // Offset: 0x18215DC
+    // Offset: 0x177F914
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

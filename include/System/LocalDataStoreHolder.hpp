@@ -22,13 +22,13 @@ namespace System {
     // Offset: 0x10
     System::LocalDataStore* m_Store;
     // public System.Void .ctor(System.LocalDataStore store)
-    // Offset: 0x100E93C
+    // Offset: 0xF70C00
     static LocalDataStoreHolder* New_ctor(System::LocalDataStore* store);
     // public System.LocalDataStore get_Store()
-    // Offset: 0x100E9E0
+    // Offset: 0xF70CA4
     System::LocalDataStore* get_Store();
     // protected override System.Void Finalize()
-    // Offset: 0x100E970
+    // Offset: 0xF70C34
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

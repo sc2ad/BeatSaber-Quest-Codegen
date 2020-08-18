@@ -42,68 +42,95 @@ namespace GlobalNamespace {
     // private ColorSO _highlightColor1
     // Offset: 0x30
     GlobalNamespace::ColorSO* highlightColor1;
-    // private System.Single _offColorIntensity
+    // private ColorSO _lightColor0Boost
     // Offset: 0x38
+    GlobalNamespace::ColorSO* lightColor0Boost;
+    // private ColorSO _lightColor1Boost
+    // Offset: 0x40
+    GlobalNamespace::ColorSO* lightColor1Boost;
+    // private ColorSO _highlightColor0Boost
+    // Offset: 0x48
+    GlobalNamespace::ColorSO* highlightColor0Boost;
+    // private ColorSO _highlightColor1Boost
+    // Offset: 0x50
+    GlobalNamespace::ColorSO* highlightColor1Boost;
+    // private System.Single _offColorIntensity
+    // Offset: 0x58
     float offColorIntensity;
     // private System.Boolean _lightOnStart
-    // Offset: 0x3C
+    // Offset: 0x5C
     bool lightOnStart;
     // private System.Int32 _lightsID
-    // Offset: 0x40
+    // Offset: 0x60
     int lightsID;
     // private BeatmapEventType _event
-    // Offset: 0x44
+    // Offset: 0x64
     GlobalNamespace::BeatmapEventType event;
+    // private BeatmapEventType _colorBoostEvent
+    // Offset: 0x68
+    GlobalNamespace::BeatmapEventType colorBoostEvent;
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
-    // Offset: 0x48
+    // Offset: 0x70
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // private LightWithIdManager _lightManager
-    // Offset: 0x50
+    // Offset: 0x78
     GlobalNamespace::LightWithIdManager* lightManager;
     // private System.Boolean _lightIsOn
-    // Offset: 0x58
+    // Offset: 0x80
     bool lightIsOn;
     // private UnityEngine.Color _offColor
-    // Offset: 0x5C
+    // Offset: 0x84
     UnityEngine::Color offColor;
     // private System.Single _highlightValue
-    // Offset: 0x6C
+    // Offset: 0x94
     float highlightValue;
     // private UnityEngine.Color _afterHighlightColor
-    // Offset: 0x70
+    // Offset: 0x98
     UnityEngine::Color afterHighlightColor;
     // private UnityEngine.Color _highlightColor
-    // Offset: 0x80
+    // Offset: 0xA8
     UnityEngine::Color highlightColor;
     // private System.Single kFadeSpeed
-    // Offset: 0x90
+    // Offset: 0xB8
     float kFadeSpeed;
-    // private System.Boolean _didProcessFirstEvent
-    // Offset: 0x94
-    bool didProcessFirstEvent;
     // private System.Boolean _initialized
-    // Offset: 0x95
+    // Offset: 0xBC
     bool initialized;
+    // private System.Boolean _colorBoost
+    // Offset: 0xBD
+    bool colorBoost;
+    // private System.Int32 _prevLightSwitchBeatmapEventDataValue
+    // Offset: 0xC0
+    int prevLightSwitchBeatmapEventDataValue;
     // public System.Int32 get_LightsID()
-    // Offset: 0xBF732C
+    // Offset: 0x193FE18
     int get_LightsID();
     // protected System.Void Start()
-    // Offset: 0xBF7334
+    // Offset: 0x193FE20
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0xBF73C8
+    // Offset: 0x193FEB4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBF74A0
+    // Offset: 0x193FF8C
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0xBF7648
+    // Offset: 0x1940134
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
+    // private System.Void ProcessLightSwitchEvent(System.Int32 beatmapEventDataValue, System.Boolean updateColorsOnly)
+    // Offset: 0x19401BC
+    void ProcessLightSwitchEvent(int beatmapEventDataValue, bool updateColorsOnly);
+    // private UnityEngine.Color GetNormalColor(System.Int32 beatmapEventValue)
+    // Offset: 0x1940388
+    UnityEngine::Color GetNormalColor(int beatmapEventValue);
+    // private UnityEngine.Color GetHighlightColor(System.Int32 beatmapEventValue)
+    // Offset: 0x19403E4
+    UnityEngine::Color GetHighlightColor(int beatmapEventValue);
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0xBF7624
+    // Offset: 0x1940110
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0xBF792C
+    // Offset: 0x1940440
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

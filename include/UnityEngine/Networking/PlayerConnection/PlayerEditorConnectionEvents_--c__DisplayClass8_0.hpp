@@ -19,10 +19,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Offset: 0x10
     System::Guid messageId;
     // System.Boolean <UnregisterManagedCallback>b__0(UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers x)
-    // Offset: 0x140F31C
+    // Offset: 0x1371654
     bool $UnregisterManagedCallback$b__0(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers* x);
     // public System.Void .ctor()
-    // Offset: 0x140F15C
+    // Offset: 0x1371494
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerEditorConnectionEvents::$$c__DisplayClass8_0* New_ctor();

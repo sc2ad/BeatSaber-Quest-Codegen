@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::MainCamera* mainCamera;
     // private System.Void Start()
-    // Offset: 0xC29C68
+    // Offset: 0xBA1CA4
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xC29C94
+    // Offset: 0xBA1CD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -31,19 +31,19 @@ namespace System::Net {
     // Offset: 0x28
     bool isTrustedHost;
     // public System.Void set_HostName(System.String value)
-    // Offset: 0xF698D8
+    // Offset: 0xECAB9C
     void set_HostName(::Il2CppString* value);
     // public System.Void set_Aliases(System.String[] value)
-    // Offset: 0xF698E0
+    // Offset: 0xECABA4
     void set_Aliases(::Array<::Il2CppString*>* value);
     // public System.Net.IPAddress[] get_AddressList()
-    // Offset: 0xF698E8
+    // Offset: 0xECABAC
     ::Array<System::Net::IPAddress*>* get_AddressList();
     // public System.Void set_AddressList(System.Net.IPAddress[] value)
-    // Offset: 0xF698F0
+    // Offset: 0xECABB4
     void set_AddressList(::Array<System::Net::IPAddress*>* value);
     // public System.Void .ctor()
-    // Offset: 0xF67340
+    // Offset: 0xEC8604
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IPHostEntry* New_ctor();

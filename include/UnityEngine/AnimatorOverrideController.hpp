@@ -24,7 +24,7 @@ namespace UnityEngine {
     // Offset: 0x18
     UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
     // static System.Void OnInvalidateOverrideController(UnityEngine.AnimatorOverrideController controller)
-    // Offset: 0x193826C
+    // Offset: 0x18955B8
     static void OnInvalidateOverrideController(UnityEngine::AnimatorOverrideController* controller);
   }; // UnityEngine.AnimatorOverrideController
 }

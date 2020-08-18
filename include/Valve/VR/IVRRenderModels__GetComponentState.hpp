@@ -35,16 +35,16 @@ namespace Valve::VR {
   class IVRRenderModels::_GetComponentState : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16BCC88
+    // Offset: 0x161EFC0
     static IVRRenderModels::_GetComponentState* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchRenderModelName, System.String pchComponentName, Valve.VR.VRControllerState_t pControllerState, Valve.VR.RenderModel_ControllerMode_State_t pState, Valve.VR.RenderModel_ComponentState_t pComponentState)
-    // Offset: 0x16BCC9C
+    // Offset: 0x161EFD4
     bool Invoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, Valve::VR::VRControllerState_t& pControllerState, Valve::VR::RenderModel_ControllerMode_State_t& pState, Valve::VR::RenderModel_ComponentState_t& pComponentState);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.String pchComponentName, Valve.VR.VRControllerState_t pControllerState, Valve.VR.RenderModel_ControllerMode_State_t pState, Valve.VR.RenderModel_ComponentState_t pComponentState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16BD114
+    // Offset: 0x161F44C
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, Valve::VR::VRControllerState_t& pControllerState, Valve::VR::RenderModel_ControllerMode_State_t& pState, Valve::VR::RenderModel_ComponentState_t& pComponentState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(Valve.VR.VRControllerState_t pControllerState, Valve.VR.RenderModel_ControllerMode_State_t pState, Valve.VR.RenderModel_ComponentState_t pComponentState, System.IAsyncResult result)
-    // Offset: 0x16BD204
+    // Offset: 0x161F53C
     bool EndInvoke(Valve::VR::VRControllerState_t& pControllerState, Valve::VR::RenderModel_ControllerMode_State_t& pState, Valve::VR::RenderModel_ComponentState_t& pComponentState, System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_GetComponentState
 }

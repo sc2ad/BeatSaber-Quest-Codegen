@@ -24,10 +24,10 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x10
     System::Diagnostics::Tracing::ActivityFilter* filterList;
     // System.Void <GetActivityDyingDelegate>b__0(System.Guid oldActivity)
-    // Offset: 0xC948E4
+    // Offset: 0xBF4BA8
     void $GetActivityDyingDelegate$b__0(System::Guid oldActivity);
     // public System.Void .ctor()
-    // Offset: 0xC948D4
+    // Offset: 0xBF4B98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ActivityFilter::$$c__DisplayClass11_0* New_ctor();

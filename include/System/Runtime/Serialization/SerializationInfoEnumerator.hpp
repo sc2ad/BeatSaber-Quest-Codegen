@@ -44,32 +44,32 @@ namespace System::Runtime::Serialization {
     // Offset: 0x30
     bool m_current;
     // System.Void .ctor(System.String[] members, System.Object[] info, System.Type[] types, System.Int32 numItems)
-    // Offset: 0xFFA974
+    // Offset: 0xF5BC38
     static SerializationInfoEnumerator* New_ctor(::Array<::Il2CppString*>* members, ::Array<::Il2CppObject*>* info, ::Array<System::Type*>* types, int numItems);
     // public System.Runtime.Serialization.SerializationEntry get_Current()
-    // Offset: 0xFFBF00
+    // Offset: 0xF5D1C4
     System::Runtime::Serialization::SerializationEntry get_Current();
     // public System.String get_Name()
-    // Offset: 0xFEDD44
+    // Offset: 0xF4F008
     ::Il2CppString* get_Name();
     // public System.Object get_Value()
-    // Offset: 0xFEDED4
+    // Offset: 0xF4F198
     ::Il2CppObject* get_Value();
     // public System.Type get_ObjectType()
-    // Offset: 0xFEDE0C
+    // Offset: 0xF4F0D0
     System::Type* get_ObjectType();
     // public System.Boolean MoveNext()
-    // Offset: 0xFEDF9C
+    // Offset: 0xF4F260
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xFFBDC4
+    // Offset: 0xF5D088
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
-    // Offset: 0xFFC018
+    // Offset: 0xF5D2DC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

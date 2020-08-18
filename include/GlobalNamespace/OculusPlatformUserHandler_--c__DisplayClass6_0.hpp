@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenCompletionHandler* completionHandler;
     // System.Void <GetUserAuthToken>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserProof> message)
-    // Offset: 0xC3AB74
+    // Offset: 0xBB1BB0
     void $GetUserAuthToken$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserProof*>* message);
     // public System.Void .ctor()
-    // Offset: 0xC3A65C
+    // Offset: 0xBB1698
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformUserHandler::$$c__DisplayClass6_0* New_ctor();

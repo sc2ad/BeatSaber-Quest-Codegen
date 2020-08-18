@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Enable(bool enabled);
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0xD7E588
+    // Offset: 0xCDE84C
     void set_enabled(bool value);
     // protected System.Void .ctor()
-    // Offset: 0xD7FED0
+    // Offset: 0xCE0194
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SteamVR_Events::Action* New_ctor();

@@ -67,22 +67,22 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> beatmapLevelIds)
-    // Offset: 0xB50274
+    // Offset: 0x18D77A4
     static BeatmapLevelFilterModel::LevelFilterParams* New_ctor(System::Collections::Generic::HashSet_1<::Il2CppString*>* beatmapLevelIds);
     // System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xB502C0
+    // Offset: 0x18D77F0
     static BeatmapLevelFilterModel::LevelFilterParams* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // static public BeatmapLevelFilterModel/LevelFilterParams NoFilter()
-    // Offset: 0xB5030C
+    // Offset: 0x18D783C
     static GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams* NoFilter();
     // static public BeatmapLevelFilterModel/LevelFilterParams ByBeatmapLevelIds(System.Collections.Generic.HashSet`1<System.String> beatmapLevelIds)
-    // Offset: 0xB50364
+    // Offset: 0x18D7894
     static GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams* ByBeatmapLevelIds(System::Collections::Generic::HashSet_1<::Il2CppString*>* beatmapLevelIds);
     // static public BeatmapLevelFilterModel/LevelFilterParams ByBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0xB503C4
+    // Offset: 0x18D78F4
     static GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams* ByBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // System.Void .ctor()
-    // Offset: 0xB50230
+    // Offset: 0x18D7760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelFilterModel::LevelFilterParams* New_ctor();

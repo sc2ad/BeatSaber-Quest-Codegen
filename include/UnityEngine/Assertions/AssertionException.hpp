@@ -17,10 +17,10 @@ namespace UnityEngine::Assertions {
     // Offset: 0x88
     ::Il2CppString* m_UserMessage;
     // public System.Void .ctor(System.String message, System.String userMessage)
-    // Offset: 0x12FBFFC
+    // Offset: 0x125F2C0
     static AssertionException* New_ctor(::Il2CppString* message, ::Il2CppString* userMessage);
     // public override System.String get_Message()
-    // Offset: 0x12FC440
+    // Offset: 0x125F704
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();

@@ -44,13 +44,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x2C
     bool fixYAxis;
     // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x1229ABC
+    // Offset: 0x118CD80
     UnityEngine::Quaternion GetRotation();
     // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, System.Single error)
-    // Offset: 0x1229C64
+    // Offset: 0x118CF28
     bool IsInRange(UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit hit, UnityEngine::Transform* trigger, float& error);
     // public System.Void .ctor()
-    // Offset: 0x1229F44
+    // Offset: 0x118D208
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionTrigger::CameraPosition* New_ctor();

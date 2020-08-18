@@ -50,15 +50,15 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static private System.Runtime.Remoting.Messaging.RemotingSurrogate _objRemotingSurrogate
     static void _set__objRemotingSurrogate(System::Runtime::Remoting::Messaging::RemotingSurrogate* value);
     // static private System.Void .cctor()
-    // Offset: 0xE0D518
+    // Offset: 0xD6D7DC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xE0D334
+    // Offset: 0xD6D5F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RemotingSurrogateSelector* New_ctor();
     // public System.Runtime.Serialization.ISerializationSurrogate GetSurrogate(System.Type type, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ISurrogateSelector ssout)
-    // Offset: 0xE0D33C
+    // Offset: 0xD6D600
     // Implemented from: System.Runtime.Serialization.ISurrogateSelector
     // Base method: System.Runtime.Serialization.ISerializationSurrogate ISurrogateSelector::GetSurrogate(System.Type type, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ISurrogateSelector ssout)
     System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(System::Type* type, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector*& ssout);

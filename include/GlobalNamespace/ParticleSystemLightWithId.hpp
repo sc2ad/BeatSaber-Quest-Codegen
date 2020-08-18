@@ -41,18 +41,18 @@ namespace GlobalNamespace {
     // Offset: 0x50
     ::Array<UnityEngine::ParticleSystem::Particle>* particles;
     // public UnityEngine.Color get_color()
-    // Offset: 0x1826A14
+    // Offset: 0x1784D4C
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1826A74
+    // Offset: 0x1784DAC
     void Awake();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1826B30
+    // Offset: 0x1784E68
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1826D18
+    // Offset: 0x1785050
     // Implemented from: LightWithId
     // Base method: System.Void LightWithId::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

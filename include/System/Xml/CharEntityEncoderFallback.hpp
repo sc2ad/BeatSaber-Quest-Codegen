@@ -41,27 +41,27 @@ namespace System::Xml {
     // Offset: 0x30
     int startOffset;
     // System.Void set_StartOffset(System.Int32 value)
-    // Offset: 0x1192F60
+    // Offset: 0x10F6224
     void set_StartOffset(int value);
     // System.Void Reset(System.Int32[] textContentMarks, System.Int32 endMarkPos)
-    // Offset: 0x1192F68
+    // Offset: 0x10F622C
     void Reset(::Array<int>* textContentMarks, int endMarkPos);
     // System.Boolean CanReplaceAt(System.Int32 index)
-    // Offset: 0x1192F98
+    // Offset: 0x10F625C
     bool CanReplaceAt(int index);
     // System.Void .ctor()
-    // Offset: 0x1192E40
+    // Offset: 0x10F6104
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Void EncoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
     static CharEntityEncoderFallback* New_ctor();
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1192E48
+    // Offset: 0x10F610C
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1192F58
+    // Offset: 0x10F621C
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();

@@ -37,22 +37,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     bool skip;
     // private System.Void Start()
-    // Offset: 0x1234068
+    // Offset: 0x119732C
     void Start();
     // private System.Void RotateShoulders()
-    // Offset: 0x123415C
+    // Offset: 0x1197420
     void RotateShoulders();
     // private System.Void RotateShoulder(RootMotion.FinalIK.FullBodyBipedChain chain, System.Single weight, System.Single offset)
-    // Offset: 0x1234248
+    // Offset: 0x119750C
     void RotateShoulder(RootMotion::FinalIK::FullBodyBipedChain chain, float weight, float offset);
     // private RootMotion.FinalIK.IKMapping/BoneMap GetParentBoneMap(RootMotion.FinalIK.FullBodyBipedChain chain)
-    // Offset: 0x1234690
+    // Offset: 0x1197954
     RootMotion::FinalIK::IKMapping::BoneMap* GetParentBoneMap(RootMotion::FinalIK::FullBodyBipedChain chain);
     // private System.Void OnDestroy()
-    // Offset: 0x12346C8
+    // Offset: 0x119798C
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x12347E4
+    // Offset: 0x1197AA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

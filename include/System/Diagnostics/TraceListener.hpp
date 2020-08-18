@@ -28,46 +28,46 @@ namespace System::Diagnostics {
     // Offset: 0x28
     ::Il2CppString* listenerName;
     // protected System.Void .ctor(System.String name)
-    // Offset: 0xF59D20
+    // Offset: 0xEBAFE4
     static TraceListener* New_ctor(::Il2CppString* name);
     // public System.Boolean get_IsThreadSafe()
-    // Offset: 0xF5D2AC
+    // Offset: 0xEBE570
     bool get_IsThreadSafe();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xF5D330
+    // Offset: 0xEBE5F4
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0xF5D334
+    // Offset: 0xEBE5F8
     void Flush();
     // public System.Void set_IndentLevel(System.Int32 value)
-    // Offset: 0xF5C69C
+    // Offset: 0xEBD960
     void set_IndentLevel(int value);
     // public System.Void set_IndentSize(System.Int32 value)
-    // Offset: 0xF5C6B8
+    // Offset: 0xEBD97C
     void set_IndentSize(int value);
     // protected System.Boolean get_NeedIndent()
-    // Offset: 0xF5D338
+    // Offset: 0xEBE5FC
     bool get_NeedIndent();
     // protected System.Void set_NeedIndent(System.Boolean value)
-    // Offset: 0xF5D340
+    // Offset: 0xEBE604
     void set_NeedIndent(bool value);
     // public System.Void Fail(System.String message)
-    // Offset: 0xF59D7C
+    // Offset: 0xEBB040
     void Fail(::Il2CppString* message);
     // public System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0xF59E34
+    // Offset: 0xEBB0F8
     void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFF
     void Write(::Il2CppString* message);
     // protected System.Void WriteIndent()
-    // Offset: 0xF5D34C
+    // Offset: 0xEBE610
     void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFF
     void WriteLine(::Il2CppString* message);
     // public System.Void Dispose()
-    // Offset: 0xF5D2B4
+    // Offset: 0xEBE578
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

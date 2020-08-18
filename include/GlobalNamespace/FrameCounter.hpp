@@ -17,13 +17,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int numberOfFrames;
     // private System.Void Update()
-    // Offset: 0xCAF328
+    // Offset: 0xC0F5EC
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0xCAF338
+    // Offset: 0xC0F5FC
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xCAF3EC
+    // Offset: 0xC0F6B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

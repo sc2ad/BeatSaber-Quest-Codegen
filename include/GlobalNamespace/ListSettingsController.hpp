@@ -29,28 +29,28 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* TextForValue(int idx);
     // private System.Void RefreshUI()
-    // Offset: 0xBF79F0
+    // Offset: 0x1940504
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0xBF7A5C
+    // Offset: 0x1940570
     void Refresh(bool applyValue);
     // protected override System.Void OnEnable()
-    // Offset: 0xBF798C
+    // Offset: 0x19404A0
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::OnEnable()
     void OnEnable();
     // public override System.Void IncButtonPressed()
-    // Offset: 0xBF7ABC
+    // Offset: 0x19405D0
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::IncButtonPressed()
     void IncButtonPressed();
     // public override System.Void DecButtonPressed()
-    // Offset: 0xBF7B08
+    // Offset: 0x194061C
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::DecButtonPressed()
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0xBF7B4C
+    // Offset: 0x1940660
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

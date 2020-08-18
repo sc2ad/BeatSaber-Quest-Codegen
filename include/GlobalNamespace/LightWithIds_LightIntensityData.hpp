@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Offset: 0x14
     float intensity;
     // public System.Int32 get_lightId()
-    // Offset: 0x18246AC
+    // Offset: 0x17829E4
     int get_lightId();
     // public System.Single get_intensity()
-    // Offset: 0x18246B4
+    // Offset: 0x17829EC
     float get_intensity();
     // public System.Void .ctor()
-    // Offset: 0x18246BC
+    // Offset: 0x17829F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LightWithIds::LightIntensityData* New_ctor();

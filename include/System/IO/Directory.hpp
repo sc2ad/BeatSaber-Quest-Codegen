@@ -23,61 +23,61 @@ namespace System::IO {
     // Nested type: System::IO::Directory::SearchData
     class SearchData;
     // static public System.String[] GetFiles(System.String path)
-    // Offset: 0x112AA54
+    // Offset: 0x108DD18
     static ::Array<::Il2CppString*>* GetFiles(::Il2CppString* path);
     // static public System.String[] GetFiles(System.String path, System.String searchPattern)
-    // Offset: 0x112AB14
+    // Offset: 0x108DDD8
     static ::Array<::Il2CppString*>* GetFiles(::Il2CppString* path, ::Il2CppString* searchPattern);
     // static private System.String[] InternalGetFiles(System.String path, System.String searchPattern, System.IO.SearchOption searchOption)
-    // Offset: 0x112AAF8
+    // Offset: 0x108DDBC
     static ::Array<::Il2CppString*>* InternalGetFiles(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
     // static public System.String[] GetDirectories(System.String path)
-    // Offset: 0x112ACB4
+    // Offset: 0x108DF78
     static ::Array<::Il2CppString*>* GetDirectories(::Il2CppString* path);
     // static public System.String[] GetDirectories(System.String path, System.String searchPattern)
-    // Offset: 0x112AD74
+    // Offset: 0x108E038
     static ::Array<::Il2CppString*>* GetDirectories(::Il2CppString* path, ::Il2CppString* searchPattern);
     // static private System.String[] InternalGetDirectories(System.String path, System.String searchPattern, System.IO.SearchOption searchOption)
-    // Offset: 0x112AD58
+    // Offset: 0x108E01C
     static ::Array<::Il2CppString*>* InternalGetDirectories(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
     // static public System.String[] GetFileSystemEntries(System.String path, System.String searchPattern)
-    // Offset: 0x112AE3C
+    // Offset: 0x108E100
     static ::Array<::Il2CppString*>* GetFileSystemEntries(::Il2CppString* path, ::Il2CppString* searchPattern);
     // static private System.String[] InternalGetFileSystemEntries(System.String path, System.String searchPattern, System.IO.SearchOption searchOption)
-    // Offset: 0x112AF04
+    // Offset: 0x108E1C8
     static ::Array<::Il2CppString*>* InternalGetFileSystemEntries(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
     // static System.String[] InternalGetFileDirectoryNames(System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost)
-    // Offset: 0x112ABDC
+    // Offset: 0x108DEA0
     static ::Array<::Il2CppString*>* InternalGetFileDirectoryNames(::Il2CppString* path, ::Il2CppString* userPathOriginal, ::Il2CppString* searchPattern, bool includeFiles, bool includeDirs, System::IO::SearchOption searchOption, bool checkHost);
     // static public System.IO.DirectoryInfo CreateDirectory(System.String path)
-    // Offset: 0x112AFF4
+    // Offset: 0x108E2B8
     static System::IO::DirectoryInfo* CreateDirectory(::Il2CppString* path);
     // static private System.IO.DirectoryInfo CreateDirectoriesInternal(System.String path)
-    // Offset: 0x112B2E0
+    // Offset: 0x108E5A4
     static System::IO::DirectoryInfo* CreateDirectoriesInternal(::Il2CppString* path);
     // static public System.Void Delete(System.String path)
-    // Offset: 0x112BD44
+    // Offset: 0x108F008
     static void Delete(::Il2CppString* path);
     // static private System.Void RecursiveDelete(System.String path)
-    // Offset: 0x112C124
+    // Offset: 0x108F3E8
     static void RecursiveDelete(::Il2CppString* path);
     // static public System.Void Delete(System.String path, System.Boolean recursive)
-    // Offset: 0x112C4DC
+    // Offset: 0x108F7A0
     static void Delete(::Il2CppString* path, bool recursive);
     // static public System.Boolean Exists(System.String path)
-    // Offset: 0x112C574
+    // Offset: 0x108F838
     static bool Exists(::Il2CppString* path);
     // static public System.String GetCurrentDirectory()
-    // Offset: 0x112C748
+    // Offset: 0x108FA0C
     static ::Il2CppString* GetCurrentDirectory();
     // static System.String InsecureGetCurrentDirectory()
-    // Offset: 0x112C760
+    // Offset: 0x108FA24
     static ::Il2CppString* InsecureGetCurrentDirectory();
     // static public System.String[] GetLogicalDrives()
-    // Offset: 0x112C90C
+    // Offset: 0x108FBD0
     static ::Array<::Il2CppString*>* GetLogicalDrives();
     // static System.String GetDemandDir(System.String fullPath, System.Boolean thisDirOnly)
-    // Offset: 0x112C914
+    // Offset: 0x108FBD8
     static ::Il2CppString* GetDemandDir(::Il2CppString* fullPath, bool thisDirOnly);
   }; // System.IO.Directory
 }

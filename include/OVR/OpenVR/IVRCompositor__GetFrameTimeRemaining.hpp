@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_GetFrameTimeRemaining : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1509C14
+    // Offset: 0x146AF4C
     static IVRCompositor::_GetFrameTimeRemaining* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Single Invoke()
-    // Offset: 0x1509C28
+    // Offset: 0x146AF60
     float Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1509E3C
+    // Offset: 0x146B174
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Single EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1509E68
+    // Offset: 0x146B1A0
     float EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetFrameTimeRemaining
 }

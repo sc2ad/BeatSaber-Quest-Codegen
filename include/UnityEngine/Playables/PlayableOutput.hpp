@@ -30,28 +30,28 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: PlayableOutput
     PlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Playables.PlayableOutput get_Null()
-    // Offset: 0x1411918
+    // Offset: 0x1373C50
     static UnityEngine::Playables::PlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0xA4538C
+    // Offset: 0x9AE858
     static PlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
     // public System.Boolean IsPlayableOutputOfType()
-    // Offset: 0xA2E490
+    // Offset: 0xFFFFFFFF
     template<class T>
     bool IsPlayableOutputOfType() {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<T>> && is_value_type_v<T>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOutputOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1413B10
+    // Offset: 0x1375E48
     static void _cctor();
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xA45394
+    // Offset: 0x9AE860
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Playables.PlayableOutput other)
-    // Offset: 0xA453A0
+    // Offset: 0x9AE86C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Playables.PlayableOutput other)
     bool Equals(UnityEngine::Playables::PlayableOutput other);

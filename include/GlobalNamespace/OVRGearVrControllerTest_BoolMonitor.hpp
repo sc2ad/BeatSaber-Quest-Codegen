@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float m_displayTimer;
     // public System.Void .ctor(System.String name, OVRGearVrControllerTest/BoolMonitor/BoolGenerator generator, System.Single displayTimeout)
-    // Offset: 0xE62F64
+    // Offset: 0xDC3228
     static OVRGearVrControllerTest::BoolMonitor* New_ctor(::Il2CppString* name, GlobalNamespace::OVRGearVrControllerTest::BoolMonitor::BoolGenerator* generator, float displayTimeout);
     // public System.Void Update()
-    // Offset: 0xE6300C
+    // Offset: 0xDC32D0
     void Update();
     // public System.Void AppendToStringBuilder(System.Text.StringBuilder sb)
-    // Offset: 0xE632C8
+    // Offset: 0xDC358C
     void AppendToStringBuilder(System::Text::StringBuilder*& sb);
   }; // OVRGearVrControllerTest/BoolMonitor
 }

@@ -53,41 +53,47 @@ namespace GlobalNamespace {
     // private SimpleColorSO _environmentColor1
     // Offset: 0x38
     GlobalNamespace::SimpleColorSO* environmentColor1;
-    // private SimpleColorSO _obstaclesColor
+    // private SimpleColorSO _environmentColor0Boost
     // Offset: 0x40
+    GlobalNamespace::SimpleColorSO* environmentColor0Boost;
+    // private SimpleColorSO _environmentColor1Boost
+    // Offset: 0x48
+    GlobalNamespace::SimpleColorSO* environmentColor1Boost;
+    // private SimpleColorSO _obstaclesColor
+    // Offset: 0x50
     GlobalNamespace::SimpleColorSO* obstaclesColor;
     // private ColorScheme _colorScheme
-    // Offset: 0x48
+    // Offset: 0x58
     GlobalNamespace::ColorScheme* colorScheme;
     // private System.Action colorsDidChangeEvent
-    // Offset: 0x50
+    // Offset: 0x60
     System::Action* colorsDidChangeEvent;
     // public System.Void add_colorsDidChangeEvent(System.Action value)
-    // Offset: 0xB5F7F4
+    // Offset: 0x18E6D24
     void add_colorsDidChangeEvent(System::Action* value);
     // public System.Void remove_colorsDidChangeEvent(System.Action value)
-    // Offset: 0xB5F898
+    // Offset: 0x18E6DC8
     void remove_colorsDidChangeEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0xB5F93C
+    // Offset: 0x18E6E6C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xB5F96C
+    // Offset: 0x18E6E9C
     void Start();
     // public UnityEngine.Color ColorForNoteType(NoteType type)
-    // Offset: 0xB5FA0C
+    // Offset: 0x18E6FB8
     UnityEngine::Color ColorForNoteType(GlobalNamespace::NoteType type);
     // public UnityEngine.Color ColorForSaberType(SaberType type)
-    // Offset: 0xB5FA60
+    // Offset: 0x18E700C
     UnityEngine::Color ColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
-    // Offset: 0xB5FAB4
+    // Offset: 0x18E7060
     UnityEngine::Color EffectsColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color GetObstacleEffectColor()
-    // Offset: 0xB5FB4C
+    // Offset: 0x18E70F8
     UnityEngine::Color GetObstacleEffectColor();
     // public System.Void .ctor()
-    // Offset: 0xB5FBB0
+    // Offset: 0x18E715C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

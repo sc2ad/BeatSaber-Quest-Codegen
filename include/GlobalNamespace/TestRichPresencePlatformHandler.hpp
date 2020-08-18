@@ -21,17 +21,17 @@ namespace GlobalNamespace {
   class TestRichPresencePlatformHandler : public GlobalNamespace::IRichPresencePlatformHandler, public ::Il2CppObject {
     public:
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0xC42CF8
+    // Offset: 0x196032C
     // Implemented from: IRichPresencePlatformHandler
     // Base method: System.Void IRichPresencePlatformHandler::SetPresence(IRichPresenceData richPresenceData)
     void SetPresence(GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
-    // Offset: 0xC42DDC
+    // Offset: 0x1960410
     // Implemented from: IRichPresencePlatformHandler
     // Base method: System.Void IRichPresencePlatformHandler::Clear()
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0xC42E48
+    // Offset: 0x196047C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestRichPresencePlatformHandler* New_ctor();

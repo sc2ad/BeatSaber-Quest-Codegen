@@ -37,16 +37,16 @@ namespace TMPro {
     // Offset: 0x18
     System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* lookup;
     // public System.Void Add(System.Action rhs)
-    // Offset: 0xB6290C
+    // Offset: 0xB4F4E0
     void Add(System::Action* rhs);
     // public System.Void Remove(System.Action rhs)
-    // Offset: 0xB629C8
+    // Offset: 0xB4F59C
     void Remove(System::Action* rhs);
     // public System.Void Call()
-    // Offset: 0xB62A78
+    // Offset: 0xB4F64C
     void Call();
     // public System.Void .ctor()
-    // Offset: 0xB62AF8
+    // Offset: 0xB4F6CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FastAction* New_ctor();

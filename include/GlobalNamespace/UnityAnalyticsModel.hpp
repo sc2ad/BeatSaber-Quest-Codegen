@@ -21,22 +21,22 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::UnityAnalyticsModel::$$c
     class $$c;
     // public System.Boolean get_supportsOpenDataPrivacyPage()
-    // Offset: 0xC4A424
+    // Offset: 0x1967A70
     // Implemented from: IAnalyticsModel
     // Base method: System.Boolean IAnalyticsModel::get_supportsOpenDataPrivacyPage()
     bool get_supportsOpenDataPrivacyPage();
     // public System.Void OpenDataPrivacyPage()
-    // Offset: 0xC4A42C
+    // Offset: 0x1967A78
     // Implemented from: IAnalyticsModel
     // Base method: System.Void IAnalyticsModel::OpenDataPrivacyPage()
     void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventCategory, System.String eventAction, System.String eventLabel, System.Int64 value)
-    // Offset: 0xC4A514
+    // Offset: 0x1967B60
     // Implemented from: IAnalyticsModel
     // Base method: System.Void IAnalyticsModel::LogEvent(System.String eventCategory, System.String eventAction, System.String eventLabel, System.Int64 value)
     void LogEvent(::Il2CppString* eventCategory, ::Il2CppString* eventAction, ::Il2CppString* eventLabel, int64_t value);
     // public System.Void .ctor()
-    // Offset: 0xC4A628
+    // Offset: 0x1967C74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnityAnalyticsModel* New_ctor();

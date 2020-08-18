@@ -49,32 +49,32 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x0
     System::Action_1<T>* destructor;
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 desiredSize, System.Func`1<T> constructor, System.Action`1<T> destructor, System.Boolean lazyInitialization)
-    // Offset: 0x118519C
+    // Offset: 0xFFFFFFFF
     static ObjectPool_1<T>* New_ctor(int initialSize, int desiredSize, System::Func_1<T>* constructor, System::Action_1<T>* destructor, bool lazyInitialization) {
       return (ObjectPool_1<T>*)THROW_UNLESS(il2cpp_utils::New(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ObjectPool_1<T>*>::get(), initialSize, desiredSize, constructor, destructor, lazyInitialization));
     }
     // public T Get()
-    // Offset: 0x1185364
+    // Offset: 0xFFFFFFFF
     T Get() {
       return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Get"));
     }
     // public System.Void Put(T obj)
-    // Offset: 0x11853DC
+    // Offset: 0xFFFFFFFF
     void Put(T obj) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Put", obj));
     }
     // public System.Void Empty()
-    // Offset: 0x1185468
+    // Offset: 0xFFFFFFFF
     void Empty() {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Empty"));
     }
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x118553C
+    // Offset: 0xFFFFFFFF
     void Dispose(bool disposing) {
       THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose", disposing));
     }
     // public System.Void Dispose()
-    // Offset: 0x1185514
+    // Offset: 0xFFFFFFFF
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose() {

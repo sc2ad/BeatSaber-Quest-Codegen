@@ -43,54 +43,54 @@ namespace RootMotion::FinalIK {
     // Offset: 0x50
     ::Array<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>* reachCones;
     // private System.Void OpenUserManual()
-    // Offset: 0x1231A3C
+    // Offset: 0x1194D00
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x1231A88
+    // Offset: 0x1194D4C
     void OpenScriptReference();
     // private System.Void SupportGroup()
-    // Offset: 0x1231AD4
+    // Offset: 0x1194D98
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1231B20
+    // Offset: 0x1194DE4
     void ASThread();
     // public System.Void SetLimitPoints(RootMotion.FinalIK.RotationLimitPolygonal/LimitPoint[] points)
-    // Offset: 0x1231B6C
+    // Offset: 0x1194E30
     void SetLimitPoints(::Array<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>* points);
     // private System.Void Start()
-    // Offset: 0x12321A4
+    // Offset: 0x1195468
     void Start();
     // public System.Void ResetToDefault()
-    // Offset: 0x12327A4
+    // Offset: 0x1195A68
     void ResetToDefault();
     // public System.Void BuildReachCones()
-    // Offset: 0x1231C14
+    // Offset: 0x1194ED8
     void BuildReachCones();
     // private UnityEngine.Vector3[] SmoothPoints()
-    // Offset: 0x1232C18
+    // Offset: 0x1195EDC
     ::Array<UnityEngine::Vector3>* SmoothPoints();
     // private System.Single GetScalar(System.Int32 k)
-    // Offset: 0x1233504
+    // Offset: 0x11967C8
     float GetScalar(int k);
     // private UnityEngine.Vector3 PointToTangentPlane(UnityEngine.Vector3 p, System.Single r)
-    // Offset: 0x1233548
+    // Offset: 0x119680C
     UnityEngine::Vector3 PointToTangentPlane(UnityEngine::Vector3 p, float r);
     // private UnityEngine.Vector3 TangentPointToSphere(UnityEngine.Vector3 q, System.Single r)
-    // Offset: 0x1233690
+    // Offset: 0x1196954
     UnityEngine::Vector3 TangentPointToSphere(UnityEngine::Vector3 q, float r);
     // private UnityEngine.Quaternion LimitSwing(UnityEngine.Quaternion rotation)
-    // Offset: 0x123246C
+    // Offset: 0x1195730
     UnityEngine::Quaternion LimitSwing(UnityEngine::Quaternion rotation);
     // private System.Int32 GetReachCone(UnityEngine.Vector3 L)
-    // Offset: 0x1233820
+    // Offset: 0x1196AE4
     int GetReachCone(UnityEngine::Vector3 L);
     // protected override UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x12320AC
+    // Offset: 0x1195370
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: UnityEngine.Quaternion RotationLimit::LimitRotation(UnityEngine.Quaternion rotation)
     UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x12339D0
+    // Offset: 0x1196C94
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: System.Void RotationLimit::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

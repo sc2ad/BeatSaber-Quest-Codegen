@@ -77,12 +77,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod;
       // Zenject.IProvider <ByMethod>b__0(Zenject.DiContainer container)
-      // Offset: 0x13B3F1C
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $ByMethod$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<ByMethod>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x13B3F04
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactorySubContainerBinder_2<TParam1, TContract>::$$c__DisplayClass1_0* New_ctor() {
@@ -103,12 +103,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod;
       // Zenject.IProvider <ByNewGameObjectMethod>b__0(Zenject.DiContainer container)
-      // Offset: 0x13B4058
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $ByNewGameObjectMethod$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<ByNewGameObjectMethod>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x13B4040
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactorySubContainerBinder_2<TParam1, TContract>::$$c__DisplayClass2_0* New_ctor() {
@@ -132,12 +132,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod;
       // Zenject.IProvider <ByNewPrefabMethod>b__0(Zenject.DiContainer container)
-      // Offset: 0x13B4194
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $ByNewPrefabMethod$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<ByNewPrefabMethod>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x13B417C
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactorySubContainerBinder_2<TParam1, TContract>::$$c__DisplayClass3_0* New_ctor() {
@@ -161,12 +161,12 @@ namespace Zenject {
       // Offset: 0x0
       System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod;
       // Zenject.IProvider <ByNewPrefabResourceMethod>b__0(Zenject.DiContainer container)
-      // Offset: 0x13B42FC
+      // Offset: 0xFFFFFFFF
       Zenject::IProvider* $ByNewPrefabResourceMethod$b__0(Zenject::DiContainer* container) {
         return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<ByNewPrefabResourceMethod>b__0", container)));
       }
       // public System.Void .ctor()
-      // Offset: 0x13B42E4
+      // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename FactorySubContainerBinder_2<TParam1, TContract>::$$c__DisplayClass4_0* New_ctor() {
@@ -174,27 +174,27 @@ namespace Zenject {
       }
     }; // Zenject.FactorySubContainerBinder`2/<>c__DisplayClass4_0
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder ByMethod(System.Action`2<Zenject.DiContainer,TParam1> installerMethod)
-    // Offset: 0x13B4470
+    // Offset: 0xFFFFFFFF
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByMethod(System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByMethod", installerMethod));
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewGameObjectMethod(System.Action`2<Zenject.DiContainer,TParam1> installerMethod)
-    // Offset: 0x13B45E8
+    // Offset: 0xFFFFFFFF
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectMethod(System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByNewGameObjectMethod", installerMethod));
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabMethod(UnityEngine.Object prefab, System.Action`2<Zenject.DiContainer,TParam1> installerMethod)
-    // Offset: 0x13B4774
+    // Offset: 0xFFFFFFFF
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabMethod(UnityEngine::Object* prefab, System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByNewPrefabMethod", prefab, installerMethod));
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResourceMethod(System.String resourcePath, System.Action`2<Zenject.DiContainer,TParam1> installerMethod)
-    // Offset: 0x13B4924
+    // Offset: 0xFFFFFFFF
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceMethod(::Il2CppString* resourcePath, System::Action_2<Zenject::DiContainer*, TParam1>* installerMethod) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "ByNewPrefabResourceMethod", resourcePath, installerMethod));
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, System.Object subIdentifier)
-    // Offset: 0x13B444C
+    // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.FactorySubContainerBinderWithParams`1
     // Base method: System.Void FactorySubContainerBinderWithParams`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, System.Object subIdentifier)
     // Base method: System.Void FactorySubContainerBinderBase`1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, System.Object subIdentifier)

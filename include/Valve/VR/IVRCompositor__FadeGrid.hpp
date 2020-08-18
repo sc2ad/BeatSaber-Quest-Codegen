@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_FadeGrid : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15F5F84
+    // Offset: 0x15572BC
     static IVRCompositor::_FadeGrid* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Single fSeconds, System.Boolean bFadeIn)
-    // Offset: 0x15F5F98
+    // Offset: 0x15572D0
     void Invoke(float fSeconds, bool bFadeIn);
     // public System.IAsyncResult BeginInvoke(System.Single fSeconds, System.Boolean bFadeIn, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15F6224
+    // Offset: 0x155755C
     System::IAsyncResult* BeginInvoke(float fSeconds, bool bFadeIn, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15F62D4
+    // Offset: 0x155760C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_FadeGrid
 }

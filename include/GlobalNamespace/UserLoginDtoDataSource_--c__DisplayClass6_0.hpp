@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Threading::Tasks::TaskCompletionSource_1<::Array<::Il2CppString*>*>* tcs;
     // System.Void <GetUserFriendsUserIds>b__0(PlatformUserModelSO/GetUserFriendsUserIdsResult result, System.String[] friendsUserIds)
-    // Offset: 0xC4AE7C
+    // Offset: 0x19684C8
     void $GetUserFriendsUserIds$b__0(GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsResult result, ::Array<::Il2CppString*>* friendsUserIds);
     // public System.Void .ctor()
-    // Offset: 0xC4AE74
+    // Offset: 0x19684C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserLoginDtoDataSource::$$c__DisplayClass6_0* New_ctor();

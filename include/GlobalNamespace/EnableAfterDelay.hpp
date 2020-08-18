@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::MonoBehaviour* component;
     // private System.Collections.IEnumerator Start()
-    // Offset: 0xCAC8CC
+    // Offset: 0xC0CB90
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xCAC974
+    // Offset: 0xC0CC38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

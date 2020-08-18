@@ -30,19 +30,19 @@ namespace VRUIControls {
     // Offset: 0x10
     System::Collections::Generic::List_1<VRUIControls::ButtonState*>* trackedButtons;
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0x192E888
+    // Offset: 0x188CBD4
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0x192E93C
+    // Offset: 0x188CC88
     bool AnyReleasesThisFrame();
     // public VRUIControls.ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button)
-    // Offset: 0x192E9F0
+    // Offset: 0x188CD3C
     VRUIControls::ButtonState* GetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button, UnityEngine.EventSystems.PointerEventData/FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x192EB38
+    // Offset: 0x188CE84
     void SetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button, UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
-    // Offset: 0x192EB80
+    // Offset: 0x188CECC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MouseState* New_ctor();

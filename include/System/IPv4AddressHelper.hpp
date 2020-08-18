@@ -12,25 +12,25 @@ namespace System {
   class IPv4AddressHelper : public ::Il2CppObject {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, System.Boolean isLoopback)
-    // Offset: 0xF63FC0
+    // Offset: 0xEC5284
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, bool& isLoopback);
     // static System.Int32 ParseHostNumber(System.String str, System.Int32 start, System.Int32 end)
-    // Offset: 0xF64320
+    // Offset: 0xEC55E4
     static int ParseHostNumber(::Il2CppString* str, int start, int end);
     // static System.Boolean IsValid(System.Char* name, System.Int32 start, System.Int32 end, System.Boolean allowIPv6, System.Boolean notImplicitFile, System.Boolean unknownScheme)
-    // Offset: 0xF64410
+    // Offset: 0xEC56D4
     static bool IsValid(::Il2CppChar* name, int start, int& end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
     // static System.Boolean IsValidCanonical(System.Char* name, System.Int32 start, System.Int32 end, System.Boolean allowIPv6, System.Boolean notImplicitFile)
-    // Offset: 0xF64444
+    // Offset: 0xEC5708
     static bool IsValidCanonical(::Il2CppChar* name, int start, int& end, bool allowIPv6, bool notImplicitFile);
     // static System.Int64 ParseNonCanonical(System.Char* name, System.Int32 start, System.Int32 end, System.Boolean notImplicitFile)
-    // Offset: 0xF64584
+    // Offset: 0xEC5848
     static int64_t ParseNonCanonical(::Il2CppChar* name, int start, int& end, bool notImplicitFile);
     // static private System.Boolean Parse(System.String name, System.Byte* numbers, System.Int32 start, System.Int32 end)
-    // Offset: 0xF64290
+    // Offset: 0xEC5554
     static bool Parse(::Il2CppString* name, uint8_t* numbers, int start, int end);
     // static private System.Boolean ParseCanonical(System.String name, System.Byte* numbers, System.Int32 start, System.Int32 end)
-    // Offset: 0xF64354
+    // Offset: 0xEC5618
     static bool ParseCanonical(::Il2CppString* name, uint8_t* numbers, int start, int end);
   }; // System.IPv4AddressHelper
 }

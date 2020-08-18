@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class CreateSOAttribute : public UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCAC3A8
+    // Offset: 0xC0C66C
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

@@ -19,28 +19,28 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: SessionMask
     SessionMask(uint m_mask_ = {}) : m_mask{m_mask_} {}
     // public System.Void .ctor(System.UInt32 mask)
-    // Offset: 0xA2B580
+    // Offset: 0x995A4C
     static SessionMask* New_ctor(uint mask);
     // public System.Boolean IsEqualOrSupersetOf(System.Diagnostics.Tracing.SessionMask m)
-    // Offset: 0xA2B58C
+    // Offset: 0x995A58
     bool IsEqualOrSupersetOf(System::Diagnostics::Tracing::SessionMask m);
     // static public System.Diagnostics.Tracing.SessionMask get_All()
-    // Offset: 0xD99CF4
+    // Offset: 0xCF9FB8
     static System::Diagnostics::Tracing::SessionMask get_All();
     // static public System.Diagnostics.Tracing.SessionMask FromId(System.Int32 perEventSourceSessionId)
-    // Offset: 0xD99CFC
+    // Offset: 0xCF9FC0
     static System::Diagnostics::Tracing::SessionMask FromId(int perEventSourceSessionId);
     // public System.UInt64 ToEventKeywords()
-    // Offset: 0xA2B5A0
+    // Offset: 0x995A6C
     uint64_t ToEventKeywords();
     // static public System.Diagnostics.Tracing.SessionMask FromEventKeywords(System.UInt64 m)
-    // Offset: 0xD99D18
+    // Offset: 0xCF9FDC
     static System::Diagnostics::Tracing::SessionMask FromEventKeywords(uint64_t m);
     // public System.Boolean get_Item(System.Int32 perEventSourceSessionId)
-    // Offset: 0xA2B5AC
+    // Offset: 0x995A78
     bool get_Item(int perEventSourceSessionId);
     // public System.Void set_Item(System.Int32 perEventSourceSessionId, System.Boolean value)
-    // Offset: 0xA2B5C8
+    // Offset: 0x995A94
     void set_Item(int perEventSourceSessionId, bool value);
   }; // System.Diagnostics.Tracing.SessionMask
 }

@@ -28,53 +28,53 @@ namespace UnityEngine {
   class Resources : public ::Il2CppObject {
     public:
     // static T[] ConvertObjects(UnityEngine.Object[] rawObjects)
-    // Offset: 0xD5A5F4
+    // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* ConvertObjects(::Array<UnityEngine::Object*>* rawObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "Resources", "ConvertObjects", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, rawObjects)));
     }
     // static public UnityEngine.Object[] FindObjectsOfTypeAll(System.Type type)
-    // Offset: 0x1387C74
+    // Offset: 0x12E8F38
     static ::Array<UnityEngine::Object*>* FindObjectsOfTypeAll(System::Type* type);
     // static public T[] FindObjectsOfTypeAll()
-    // Offset: 0xD5A714
+    // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* FindObjectsOfTypeAll() {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "Resources", "FindObjectsOfTypeAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public UnityEngine.Object Load(System.String path)
-    // Offset: 0x1387CB4
+    // Offset: 0x12E8F78
     static UnityEngine::Object* Load(::Il2CppString* path);
     // static public T Load(System.String path)
-    // Offset: 0xD4EE0C
+    // Offset: 0xFFFFFFFF
     template<class T>
     static T Load(::Il2CppString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Resources", "Load", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, path)));
     }
     // static public UnityEngine.Object Load(System.String path, System.Type systemTypeInstance)
-    // Offset: 0x1387D60
+    // Offset: 0x12E9024
     static UnityEngine::Object* Load(::Il2CppString* path, System::Type* systemTypeInstance);
     // static public UnityEngine.Object[] LoadAll(System.String path, System.Type systemTypeInstance)
-    // Offset: 0x1387DB0
+    // Offset: 0x12E9074
     static ::Array<UnityEngine::Object*>* LoadAll(::Il2CppString* path, System::Type* systemTypeInstance);
     // static public UnityEngine.Object[] LoadAll(System.String path)
-    // Offset: 0x1387E00
+    // Offset: 0x12E90C4
     static ::Array<UnityEngine::Object*>* LoadAll(::Il2CppString* path);
     // static public UnityEngine.Object GetBuiltinResource(System.Type type, System.String path)
-    // Offset: 0x1387EAC
+    // Offset: 0x12E9170
     static UnityEngine::Object* GetBuiltinResource(System::Type* type, ::Il2CppString* path);
     // static public T GetBuiltinResource(System.String path)
-    // Offset: 0xD4ED40
+    // Offset: 0xFFFFFFFF
     template<class T>
     static T GetBuiltinResource(::Il2CppString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Resources", "GetBuiltinResource", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, path)));
     }
     // static public UnityEngine.AsyncOperation UnloadUnusedAssets()
-    // Offset: 0x1387EFC
+    // Offset: 0x12E91C0
     static UnityEngine::AsyncOperation* UnloadUnusedAssets();
   }; // UnityEngine.Resources
 }
