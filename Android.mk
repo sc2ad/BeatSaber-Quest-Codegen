@@ -41,6 +41,6 @@ LOCAL_SRC_FILES := $(call rwildcard,./src,*.cpp)
 LOCAL_SHARED_LIBRARIES += beatsaber-hook_0_4_4
 LOCAL_SHARED_LIBRARIES += modloader
 LOCAL_LDLIBS += -llog
-LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.1.4"' -Wall -Wextra -Wno-unused-function -Wformat -Werror=format-security -Wno-unused-private-field -DNEED_UNSAFE_CSHARP -isystem'extern/libil2cpp/il2cpp/libil2cpp' -DNO_CODEGEN_USE -isystem'extern'
+LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.1.4"' -Wall -Wextra -Werror -Wno-unused-function -DNEED_UNSAFE_CSHARP -DNO_CODEGEN_USE -isystem'extern/libil2cpp/il2cpp/libil2cpp' -isystem'extern'
 LOCAL_C_INCLUDES += ./include
 include $(BUILD_SHARED_LIBRARY)
