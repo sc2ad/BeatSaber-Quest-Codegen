@@ -7,14 +7,14 @@
 #include "UnityEngine/ProBuilder/SharedVertex.hpp"
 // Including type: UnityEngine.ProBuilder.SharedVertex/<>c
 #include "UnityEngine/ProBuilder/SharedVertex_--c.hpp"
+// Including type: System.Collections.Generic.IEnumerable`1
+#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 // Including type: System.Collections.Generic.IList`1
 #include "System/Collections/Generic/IList_1.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
 #include "System/Collections/Generic/Dictionary_2.hpp"
-// Including type: System.Collections.Generic.IEnumerable`1
-#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Collections.IEnumerator

@@ -37,37 +37,37 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.Single k_MaxPointDistanceFromControl
     static void _set_k_MaxPointDistanceFromControl(float value);
     // static field const value: static System.Char DEGREE_SYMBOL
-    static constexpr const ::Il2CppChar DEGREE_SYMBOL = u'\u°';
+    static constexpr const ::Il2CppChar DEGREE_SYMBOL = u'\u00b0';
     // Get static field: static System.Char DEGREE_SYMBOL
     static ::Il2CppChar _get_DEGREE_SYMBOL();
     // Set static field: static System.Char DEGREE_SYMBOL
     static void _set_DEGREE_SYMBOL(::Il2CppChar value);
     // static field const value: static System.Char CMD_SUPER
-    static constexpr const ::Il2CppChar CMD_SUPER = u'\u⌘';
+    static constexpr const ::Il2CppChar CMD_SUPER = u'\u2318';
     // Get static field: static System.Char CMD_SUPER
     static ::Il2CppChar _get_CMD_SUPER();
     // Set static field: static System.Char CMD_SUPER
     static void _set_CMD_SUPER(::Il2CppChar value);
     // static field const value: static System.Char CMD_SHIFT
-    static constexpr const ::Il2CppChar CMD_SHIFT = u'\u⇧';
+    static constexpr const ::Il2CppChar CMD_SHIFT = u'\u21e7';
     // Get static field: static System.Char CMD_SHIFT
     static ::Il2CppChar _get_CMD_SHIFT();
     // Set static field: static System.Char CMD_SHIFT
     static void _set_CMD_SHIFT(::Il2CppChar value);
     // static field const value: static System.Char CMD_OPTION
-    static constexpr const ::Il2CppChar CMD_OPTION = u'\u⌥';
+    static constexpr const ::Il2CppChar CMD_OPTION = u'\u2325';
     // Get static field: static System.Char CMD_OPTION
     static ::Il2CppChar _get_CMD_OPTION();
     // Set static field: static System.Char CMD_OPTION
     static void _set_CMD_OPTION(::Il2CppChar value);
     // static field const value: static System.Char CMD_ALT
-    static constexpr const ::Il2CppChar CMD_ALT = u'\u⎇';
+    static constexpr const ::Il2CppChar CMD_ALT = u'\u2387';
     // Get static field: static System.Char CMD_ALT
     static ::Il2CppChar _get_CMD_ALT();
     // Set static field: static System.Char CMD_ALT
     static void _set_CMD_ALT(::Il2CppChar value);
     // static field const value: static System.Char CMD_DELETE
-    static constexpr const ::Il2CppChar CMD_DELETE = u'\u⌫';
+    static constexpr const ::Il2CppChar CMD_DELETE = u'\u232b';
     // Get static field: static System.Char CMD_DELETE
     static ::Il2CppChar _get_CMD_DELETE();
     // Set static field: static System.Char CMD_DELETE
