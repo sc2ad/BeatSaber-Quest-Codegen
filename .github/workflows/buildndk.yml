@@ -19,16 +19,16 @@ jobs:
     - name: Install Powershell
       run: sudo apt-get install -y powershell
     
-    - name: Cache Android NDK
-      id: cache-ndk
-      uses: actions/cache@v2
-      env:
-        cache-name: cache-ndk
-      with:
-        path: ndk
-        key: ${{ runner.os }}-${{ env.cache-name }}-1
-        restore-keys: |
-          ${{ runner.os }}-${{ env.cache-name }}-1
+#     - name: Cache Android NDK
+#       id: cache-ndk
+#       uses: actions/cache@v2
+#       env:
+#         cache-name: cache-ndk
+#       with:
+#         path: ndk
+#         key: ${{ runner.os }}-${{ env.cache-name }}-1
+#         restore-keys: |
+#           ${{ runner.os }}-${{ env.cache-name }}-1
       
     - name: Install Android NDK
       if: steps.cache-ndk.outputs.cache-hit != 'true'
