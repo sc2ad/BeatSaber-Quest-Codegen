@@ -19,6 +19,14 @@ LOCAL_PATH := $(call my-dir)
 TARGET_ARCH_ABI := $(APP_ABI)
 rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
+# Writing prebuilt shared library: beatsaber-hook	
+include $(CLEAR_VARS)	
+LOCAL_MODULE := beatsaber-hook
+LOCAL_EXPORT_C_INCLUDES := ./extern/beatsaber-hook/shared/
+LOCAL_SRC_FILES := ./extern/libbeatsaber-hook.so
+LOCAL_CPP_FEATURES += rtti exceptions
+include $(PREBUILT_SHARED_LIBRARY)
+
 # Creating prebuilt for dependency: modloader - version: 0.1.1
 include $(CLEAR_VARS)
 LOCAL_MODULE := modloader
