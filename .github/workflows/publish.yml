@@ -43,16 +43,16 @@ jobs:
         cd ndk
         pwd > ${GITHUB_WORKSPACE}/ndkpath.txt
         
-    - name: Cache QPM
-      id: cache-qpm
-      uses: actions/cache@v2
-      env:
-        cache-name: cache-qpm
-      with:
-        path: QPM
-        key: ${{ runner.os }}-${{ env.cache-name }}-1
-        restore-keys: |
-          ${{ runner.os }}-${{ env.cache-name }}-1
+#     - name: Cache QPM
+#       id: cache-qpm
+#       uses: actions/cache@v2
+#       env:
+#         cache-name: cache-qpm
+#       with:
+#         path: QPM
+#         key: ${{ runner.os }}-${{ env.cache-name }}-1
+#         restore-keys: |
+#           ${{ runner.os }}-${{ env.cache-name }}-1
 
     - name: Get QPM
       if: steps.cache-qpm.outputs.cache-hit != 'true'
