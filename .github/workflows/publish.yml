@@ -64,6 +64,23 @@ jobs:
         path: QPM
         repo: sc2ad/QuestPackageManager
         
+#     - name: QPM Dependencies Cache
+#       id: cache-qpm-deps
+#       uses: actions/cache@v2
+#       env:
+#         cache-name: cache-qpm-deps
+#       with:
+#         path: ~/.config/QPM
+#         key: ${{ runner.os }}-${{ env.cache-name }}
+#         restore-keys: |
+#           ${{ runner.os }}-${{ env.cache-name }}
+      
+    - name: QPM Restore
+#       if: steps.cache-qpm-deps.outputs.cache-hit != 'true'
+      run: |
+        chmod +x ./QPM/QPM
+        ./QPM/QPM restore
+    
     - name: Get Tag Version
       id: get_tag_version
       run: |
