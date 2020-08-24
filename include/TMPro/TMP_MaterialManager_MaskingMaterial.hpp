@@ -33,7 +33,7 @@ namespace TMPro {
     // Offset: 0x24
     int stencilID;
     // public System.Void .ctor()
-    // Offset: 0xB6E40C
+    // Offset: 0xBAD8E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_MaterialManager::MaskingMaterial* New_ctor();

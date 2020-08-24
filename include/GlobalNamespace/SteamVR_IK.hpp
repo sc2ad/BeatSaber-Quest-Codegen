@@ -52,13 +52,13 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Transform* endXform;
     // private System.Void LateUpdate()
-    // Offset: 0xCE350C
+    // Offset: 0xD87654
     void LateUpdate();
     // static public System.Boolean Solve(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Vector3 poleVector, System.Single jointDist, System.Single targetDist, UnityEngine.Vector3 result, UnityEngine.Vector3 forward, UnityEngine.Vector3 up)
-    // Offset: 0xCE3EF4
+    // Offset: 0xD8803C
     static bool Solve(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Vector3 poleVector, float jointDist, float targetDist, UnityEngine::Vector3& result, UnityEngine::Vector3& forward, UnityEngine::Vector3& up);
     // public System.Void .ctor()
-    // Offset: 0xCE440C
+    // Offset: 0xD88554
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

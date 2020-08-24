@@ -44,7 +44,7 @@ namespace System::Reflection {
     // Offset: 0x10
     System::Reflection::EventInfo::AddEventAdapter* cached_add_event;
     // public System.Type get_EventHandlerType()
-    // Offset: 0x12C6A4C
+    // Offset: 0x136EB94
     System::Type* get_EventHandlerType();
     // public System.Reflection.MethodInfo GetAddMethod(System.Boolean nonPublic)
     // Offset: 0xFFFFFFFF
@@ -56,38 +56,38 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     System::Reflection::MethodInfo* GetRemoveMethod(bool nonPublic);
     // static private System.Reflection.EventInfo internal_from_handle_type(System.IntPtr event_handle, System.IntPtr type_handle)
-    // Offset: 0x12C6B8C
+    // Offset: 0x136ECD4
     static System::Reflection::EventInfo* internal_from_handle_type(System::IntPtr event_handle, System::IntPtr type_handle);
     // static System.Reflection.EventInfo GetEventFromHandle(Mono.RuntimeEventHandle handle, System.RuntimeTypeHandle reflectedType)
-    // Offset: 0x12C6B90
+    // Offset: 0x136ECD8
     static System::Reflection::EventInfo* GetEventFromHandle(Mono::RuntimeEventHandle handle, System::RuntimeTypeHandle reflectedType);
     // public override System.Reflection.MemberTypes get_MemberType()
-    // Offset: 0x12C6AC0
+    // Offset: 0x136EC08
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.MemberTypes MemberInfo::get_MemberType()
     System::Reflection::MemberTypes get_MemberType();
     // protected System.Void .ctor()
-    // Offset: 0x12C6AC8
+    // Offset: 0x136EC10
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Void MemberInfo::.ctor()
     // Base method: System.Void Object::.ctor()
     static EventInfo* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x12C6AD0
+    // Offset: 0x136EC18
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12C6ADC
+    // Offset: 0x136EC24
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Int32 MemberInfo::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.EventInfo
   // static public System.Boolean op_Equality(System.Reflection.EventInfo left, System.Reflection.EventInfo right)
-  // Offset: 0x12C6AE4
+  // Offset: 0x136EC2C
   bool operator ==(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.EventInfo left, System.Reflection.EventInfo right)
-  // Offset: 0x12C6B30
+  // Offset: 0x136EC78
   bool operator !=(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

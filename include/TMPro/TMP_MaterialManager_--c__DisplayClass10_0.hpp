@@ -24,10 +24,10 @@ namespace TMPro {
     // Offset: 0x10
     UnityEngine::Material* stencilMaterial;
     // System.Boolean <GetBaseMaterial>b__0(TMPro.TMP_MaterialManager/MaskingMaterial item)
-    // Offset: 0xB7065C
+    // Offset: 0xBAFB34
     bool $GetBaseMaterial$b__0(TMPro::TMP_MaterialManager::MaskingMaterial* item);
     // public System.Void .ctor()
-    // Offset: 0xB6E7D4
+    // Offset: 0xBADCAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_MaterialManager::$$c__DisplayClass10_0* New_ctor();

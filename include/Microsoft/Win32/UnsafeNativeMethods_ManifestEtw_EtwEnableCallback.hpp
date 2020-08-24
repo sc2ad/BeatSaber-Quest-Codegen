@@ -28,16 +28,16 @@ namespace Microsoft::Win32 {
   class UnsafeNativeMethods::ManifestEtw::EtwEnableCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x100AF08
+    // Offset: 0x10AF050
     static UnsafeNativeMethods::ManifestEtw::EtwEnableCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Guid sourceId, System.Int32 isEnabled, System.Byte level, System.Int64 matchAnyKeywords, System.Int64 matchAllKeywords, Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR* filterData, System.Void* callbackContext)
-    // Offset: 0x100AF1C
+    // Offset: 0x10AF064
     void Invoke(System::Guid& sourceId, int& isEnabled, uint8_t& level, int64_t& matchAnyKeywords, int64_t& matchAllKeywords, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR*& filterData, void*& callbackContext);
     // public System.IAsyncResult BeginInvoke(System.Guid sourceId, System.Int32 isEnabled, System.Byte level, System.Int64 matchAnyKeywords, System.Int64 matchAllKeywords, Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR* filterData, System.Void* callbackContext, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x100B1E8
+    // Offset: 0x10AF330
     System::IAsyncResult* BeginInvoke(System::Guid& sourceId, int& isEnabled, uint8_t& level, int64_t& matchAnyKeywords, int64_t& matchAllKeywords, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR*& filterData, void*& callbackContext, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.Guid sourceId, System.IAsyncResult result)
-    // Offset: 0x100B300
+    // Offset: 0x10AF448
     void EndInvoke(System::Guid& sourceId, System::IAsyncResult* result);
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EtwEnableCallback
 }

@@ -19,7 +19,7 @@ namespace UnityEngine {
     // Nested type: UnityEngine::UnhandledExceptionHandler::$$c
     class $$c;
     // static private System.Void RegisterUECatcher()
-    // Offset: 0x12F3300
+    // Offset: 0x139A448
     static void RegisterUECatcher();
   }; // UnityEngine.UnhandledExceptionHandler
 }

@@ -97,82 +97,82 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean _pauseRendering
     static void _set__pauseRendering(bool value);
     // static public Valve.VR.EVREye get_eye()
-    // Offset: 0xCEA810
+    // Offset: 0xD8E958
     static Valve::VR::EVREye get_eye();
     // static private System.Void set_eye(Valve.VR.EVREye value)
-    // Offset: 0xCEA860
+    // Offset: 0xD8E9A8
     static void set_eye(Valve::VR::EVREye value);
     // static public SteamVR_Render get_instance()
-    // Offset: 0xCDD560
+    // Offset: 0xD816A8
     static GlobalNamespace::SteamVR_Render* get_instance();
     // private System.Void OnDestroy()
-    // Offset: 0xCEA8B4
+    // Offset: 0xD8E9FC
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0xCEA908
+    // Offset: 0xD8EA50
     void OnApplicationQuit();
     // static public System.Void Add(SteamVR_Camera vrcam)
-    // Offset: 0xCDBE78
+    // Offset: 0xD7FFC0
     static void Add(GlobalNamespace::SteamVR_Camera* vrcam);
     // static public System.Void Remove(SteamVR_Camera vrcam)
-    // Offset: 0xCDB2D4
+    // Offset: 0xD7F41C
     static void Remove(GlobalNamespace::SteamVR_Camera* vrcam);
     // static public SteamVR_Camera Top()
-    // Offset: 0xCE52DC
+    // Offset: 0xD89424
     static GlobalNamespace::SteamVR_Camera* Top();
     // private System.Void AddInternal(SteamVR_Camera vrcam)
-    // Offset: 0xCEA97C
+    // Offset: 0xD8EAC4
     void AddInternal(GlobalNamespace::SteamVR_Camera* vrcam);
     // private System.Void RemoveInternal(SteamVR_Camera vrcam)
-    // Offset: 0xCEABA4
+    // Offset: 0xD8ECEC
     void RemoveInternal(GlobalNamespace::SteamVR_Camera* vrcam);
     // private SteamVR_Camera TopInternal()
-    // Offset: 0xCEAD90
+    // Offset: 0xD8EED8
     GlobalNamespace::SteamVR_Camera* TopInternal();
     // static public System.Boolean get_pauseRendering()
-    // Offset: 0xCEADDC
+    // Offset: 0xD8EF24
     static bool get_pauseRendering();
     // static public System.Void set_pauseRendering(System.Boolean value)
-    // Offset: 0xCE6604
+    // Offset: 0xD8A74C
     static void set_pauseRendering(bool value);
     // private System.Collections.IEnumerator RenderLoop()
-    // Offset: 0xCEAE2C
+    // Offset: 0xD8EF74
     System::Collections::IEnumerator* RenderLoop();
     // private System.Void RenderExternalCamera()
-    // Offset: 0xCEAED4
+    // Offset: 0xD8F01C
     void RenderExternalCamera();
     // private System.Void OnInputFocus(System.Boolean hasFocus)
-    // Offset: 0xCEB010
+    // Offset: 0xD8F158
     void OnInputFocus(bool hasFocus);
     // private System.Void OnQuit(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0xCEB080
+    // Offset: 0xD8F1C8
     void OnQuit(Valve::VR::VREvent_t vrEvent);
     // private System.String GetScreenshotFilename(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotPropertyFilenames screenshotPropertyFilename)
-    // Offset: 0xCEB088
+    // Offset: 0xD8F1D0
     ::Il2CppString* GetScreenshotFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
     // private System.Void OnRequestScreenshot(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0xCEB1D4
+    // Offset: 0xD8F31C
     void OnRequestScreenshot(Valve::VR::VREvent_t vrEvent);
     // private System.Void OnEnable()
-    // Offset: 0xCEB3B4
+    // Offset: 0xD8F4FC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xCEB630
+    // Offset: 0xD8F778
     void OnDisable();
     // private System.Void Awake()
-    // Offset: 0xCEB7E8
+    // Offset: 0xD8F930
     void Awake();
     // public System.Void UpdatePoses()
-    // Offset: 0xCEB964
+    // Offset: 0xD8FAAC
     void UpdatePoses();
     // private System.Void OnBeforeRender()
-    // Offset: 0xCEBA44
+    // Offset: 0xD8FB8C
     void OnBeforeRender();
     // private System.Void Update()
-    // Offset: 0xCEBA48
+    // Offset: 0xD8FB90
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xCEBE4C
+    // Offset: 0xD8FF94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

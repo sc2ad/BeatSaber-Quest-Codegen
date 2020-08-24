@@ -54,16 +54,16 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::RenderTexture* captureRenderTexture;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1868D80
+    // Offset: 0x1914EC8
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1868E28
+    // Offset: 0x1914F70
     void OnDestroy();
     // private System.Void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x1868F0C
+    // Offset: 0x1915054
     void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x1869204
+    // Offset: 0x191534C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

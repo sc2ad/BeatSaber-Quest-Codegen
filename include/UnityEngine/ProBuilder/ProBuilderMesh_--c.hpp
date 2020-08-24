@@ -57,25 +57,25 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__140_0
     static void _set_$$9__140_0(System::Func_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF97A64
+    // Offset: 0x103BBAC
     static void _cctor();
     // UnityEngine.Vector2 <SetUVs>b__100_0(UnityEngine.Vector4 x)
-    // Offset: 0xF97AD4
+    // Offset: 0x103BC1C
     UnityEngine::Vector2 $SetUVs$b__100_0(UnityEngine::Vector4 x);
     // UnityEngine.Vector2 <SetUVs>b__100_1(UnityEngine.Vector4 x)
-    // Offset: 0xF97B64
+    // Offset: 0x103BCAC
     UnityEngine::Vector2 $SetUVs$b__100_1(UnityEngine::Vector4 x);
     // System.Int32 <get_indexCount>b__108_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0xF97BF4
+    // Offset: 0x103BD3C
     int $get_indexCount$b__108_0(UnityEngine::ProBuilder::Face* x);
     // System.Int32 <get_triangleCount>b__110_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0xF97C18
+    // Offset: 0x103BD60
     int $get_triangleCount$b__110_0(UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.Face <CopyFrom>b__140_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0xF97C3C
+    // Offset: 0x103BD84
     UnityEngine::ProBuilder::Face* $CopyFrom$b__140_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0xF97ACC
+    // Offset: 0x103BC14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProBuilderMesh::$$c* New_ctor();

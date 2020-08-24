@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::BeatmapLevelSO*>* alwaysOwnedBeatmapLevels;
     // public BeatmapLevelPackSO[] get_alwaysOwnedPacks()
-    // Offset: 0x18EC084
+    // Offset: 0xB855E4
     ::Array<GlobalNamespace::BeatmapLevelPackSO*>* get_alwaysOwnedPacks();
     // public BeatmapLevelSO[] get_alwaysOwnedBeatmapLevels()
-    // Offset: 0x18EC08C
+    // Offset: 0xB855EC
     ::Array<GlobalNamespace::BeatmapLevelSO*>* get_alwaysOwnedBeatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x18EC094
+    // Offset: 0xB855F4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

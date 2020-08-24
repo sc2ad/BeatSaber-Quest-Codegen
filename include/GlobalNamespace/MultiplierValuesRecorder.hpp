@@ -42,19 +42,19 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: MultiplierValue
       MultiplierValue(int multiplier_ = {}, float time_ = {}) : multiplier{multiplier_}, time{time_} {}
       // public System.Int32 get_multiplier()
-      // Offset: 0xADB020
+      // Offset: 0xA2C5DC
       int get_multiplier();
       // private System.Void set_multiplier(System.Int32 value)
-      // Offset: 0xADB028
+      // Offset: 0xA2C5E4
       void set_multiplier(int value);
       // public System.Single get_time()
-      // Offset: 0xADB030
+      // Offset: 0xA2C5EC
       float get_time();
       // private System.Void set_time(System.Single value)
-      // Offset: 0xADB038
+      // Offset: 0xA2C5F4
       void set_time(float value);
       // public System.Void .ctor(System.Int32 multiplier, System.Single time)
-      // Offset: 0xADB040
+      // Offset: 0xA2C5FC
       static MultiplierValuesRecorder::MultiplierValue* New_ctor(int multiplier, float time);
     }; // MultiplierValuesRecorder/MultiplierValue
     // private ScoreController _scoreController
@@ -67,19 +67,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* multiplierValues;
     // public System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> get_multiplierValues()
-    // Offset: 0x19549E4
+    // Offset: 0xC102A8
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* get_multiplierValues();
     // protected System.Void Start()
-    // Offset: 0x19549EC
+    // Offset: 0xC102B0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1954A80
+    // Offset: 0xC10344
     void OnDestroy();
     // private System.Void HandleScoreControllerMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x1954B14
+    // Offset: 0xC103D8
     void HandleScoreControllerMultiplierDidChange(int multiplier, float multiplierProgress);
     // public System.Void .ctor()
-    // Offset: 0x1954BC8
+    // Offset: 0xC1048C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

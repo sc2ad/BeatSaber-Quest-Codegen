@@ -24,12 +24,12 @@ namespace UnityEngine::Experimental::Playables {
     // Creating value type constructor for type: CameraPlayable
     CameraPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0x9AB7D4
+    // Offset: 0xA45E4C
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Experimental.Playables.CameraPlayable other)
-    // Offset: 0x9AB7E0
+    // Offset: 0xA45E58
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Experimental.Playables.CameraPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::CameraPlayable other);

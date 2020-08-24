@@ -12,12 +12,12 @@ namespace System::Runtime::ConstrainedExecution {
   class CriticalFinalizerObject : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x10C56AC
+    // Offset: 0x11677F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CriticalFinalizerObject* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x10C56B4
+    // Offset: 0x11677FC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class ResultObjectiveListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::ResultObjectiveListItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB94C84
+    // Offset: 0xC2103C
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList`1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

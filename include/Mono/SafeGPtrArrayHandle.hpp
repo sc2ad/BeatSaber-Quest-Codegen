@@ -30,16 +30,16 @@ namespace Mono {
     // Creating value type constructor for type: SafeGPtrArrayHandle
     SafeGPtrArrayHandle(Mono::RuntimeGPtrArrayHandle handle_ = {}) : handle{handle_} {}
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0x9A62D0
+    // Offset: 0xA40948
     static SafeGPtrArrayHandle* New_ctor(System::IntPtr ptr);
     // System.Int32 get_Length()
-    // Offset: 0x9A6324
+    // Offset: 0xA4099C
     int get_Length();
     // System.IntPtr get_Item(System.Int32 i)
-    // Offset: 0x9A6340
+    // Offset: 0xA409B8
     System::IntPtr get_Item(int i);
     // public System.Void Dispose()
-    // Offset: 0x9A62FC
+    // Offset: 0xA40974
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

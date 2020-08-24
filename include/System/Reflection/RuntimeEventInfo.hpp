@@ -39,24 +39,24 @@ namespace System::Reflection {
   class RuntimeEventInfo : public System::Reflection::EventInfo, public System::Runtime::Serialization::ISerializable {
     public:
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x10B5BD8
+    // Offset: 0x1157D20
     System::Reflection::BindingFlags get_BindingFlags();
     // System.RuntimeType GetDeclaringTypeInternal()
-    // Offset: 0x10B5C04
+    // Offset: 0x1157D4C
     System::RuntimeType* GetDeclaringTypeInternal();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x10B5C90
+    // Offset: 0x1157DD8
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x10B5BE4
+    // Offset: 0x1157D2C
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x10B5BE0
+    // Offset: 0x1157D28
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10B5D1C
+    // Offset: 0x1157E64
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -64,7 +64,7 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // protected System.Void .ctor()
-    // Offset: 0x10B0D04
+    // Offset: 0x1152E4C
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Void EventInfo::.ctor()
     // Base method: System.Void MemberInfo::.ctor()

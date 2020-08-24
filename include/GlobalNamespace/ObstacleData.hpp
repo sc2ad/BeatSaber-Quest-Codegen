@@ -25,36 +25,36 @@ namespace GlobalNamespace {
     // Offset: 0x28
     int width;
     // public ObstacleType get_obstacleType()
-    // Offset: 0xBA7D74
+    // Offset: 0xC3412C
     GlobalNamespace::ObstacleType get_obstacleType();
     // private System.Void set_obstacleType(ObstacleType value)
-    // Offset: 0xBA7D7C
+    // Offset: 0xC34134
     void set_obstacleType(GlobalNamespace::ObstacleType value);
     // public System.Single get_duration()
-    // Offset: 0xBA7D84
+    // Offset: 0xC3413C
     float get_duration();
     // private System.Void set_duration(System.Single value)
-    // Offset: 0xBA7D8C
+    // Offset: 0xC34144
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0xBA7D94
+    // Offset: 0xC3414C
     int get_width();
     // private System.Void set_width(System.Int32 value)
-    // Offset: 0xBA7D9C
+    // Offset: 0xC34154
     void set_width(int value);
     // public System.Void .ctor(System.Int32 id, System.Single time, System.Int32 lineIndex, ObstacleType obstacleType, System.Single duration, System.Int32 width)
-    // Offset: 0xBA7DA4
+    // Offset: 0xC3415C
     static ObstacleData* New_ctor(int id, float time, int lineIndex, GlobalNamespace::ObstacleType obstacleType, float duration, int width);
     // public System.Void UpdateDuration(System.Single duration)
-    // Offset: 0xBA7DFC
+    // Offset: 0xC341B4
     void UpdateDuration(float duration);
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0xBA7E04
+    // Offset: 0xC341BC
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
     // public override System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0xBA7EA4
+    // Offset: 0xC3425C
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);

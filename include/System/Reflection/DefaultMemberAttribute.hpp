@@ -17,10 +17,10 @@ namespace System::Reflection {
     // Offset: 0x10
     ::Il2CppString* m_memberName;
     // public System.Void .ctor(System.String memberName)
-    // Offset: 0x12C3D94
+    // Offset: 0x136BEDC
     static DefaultMemberAttribute* New_ctor(::Il2CppString* memberName);
     // public System.String get_MemberName()
-    // Offset: 0x12C3DC8
+    // Offset: 0x136BF10
     ::Il2CppString* get_MemberName();
   }; // System.Reflection.DefaultMemberAttribute
 }

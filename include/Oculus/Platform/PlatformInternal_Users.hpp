@@ -29,7 +29,7 @@ namespace Oculus::Platform {
   class PlatformInternal::Users : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LinkedAccountList> GetLinkedAccounts(Oculus.Platform.ServiceProvider[] providers)
-    // Offset: 0xE07EC0
+    // Offset: 0xEAD008
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* GetLinkedAccounts(::Array<Oculus::Platform::ServiceProvider>* providers);
   }; // Oculus.Platform.PlatformInternal/Users
 }

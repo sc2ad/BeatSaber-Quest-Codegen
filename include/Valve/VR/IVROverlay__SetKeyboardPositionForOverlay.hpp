@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_SetKeyboardPositionForOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x156B284
+    // Offset: 0x16183CC
     static IVROverlay::_SetKeyboardPositionForOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.UInt64 ulOverlayHandle, Valve.VR.HmdRect2_t avoidRect)
-    // Offset: 0x156B298
+    // Offset: 0x16183E0
     void Invoke(uint64_t ulOverlayHandle, Valve::VR::HmdRect2_t avoidRect);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.HmdRect2_t avoidRect, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x156B558
+    // Offset: 0x16186A0
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::HmdRect2_t avoidRect, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x156B608
+    // Offset: 0x1618750
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetKeyboardPositionForOverlay
 }

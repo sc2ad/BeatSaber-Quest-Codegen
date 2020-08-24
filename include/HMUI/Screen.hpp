@@ -43,19 +43,19 @@ namespace HMUI {
     // Offset: 0x34
     bool initialized;
     // public HMUI.ViewController get_rootViewController()
-    // Offset: 0x103D670
+    // Offset: 0x10E07B8
     HMUI::ViewController* get_rootViewController();
     // private System.Void Init()
-    // Offset: 0x103D678
+    // Offset: 0x10E07C0
     void Init();
     // public System.Void SetRootViewController(HMUI.ViewController newRootViewController, System.Boolean immediately)
-    // Offset: 0x103D6F4
+    // Offset: 0x10E083C
     void SetRootViewController(HMUI::ViewController* newRootViewController, bool immediately);
     // private System.Collections.IEnumerator AnimationCoroutine()
-    // Offset: 0x103DCBC
+    // Offset: 0x10E0E04
     System::Collections::IEnumerator* AnimationCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x103DD64
+    // Offset: 0x10E0EAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

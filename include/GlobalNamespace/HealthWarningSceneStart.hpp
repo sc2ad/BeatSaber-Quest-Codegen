@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     HMUI::HierarchyManager* hierarchyManager;
     // public System.Collections.IEnumerator Start()
-    // Offset: 0xB447C8
+    // Offset: 0xB447DC
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xB44870
+    // Offset: 0xB44884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

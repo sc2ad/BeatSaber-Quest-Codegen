@@ -35,34 +35,34 @@ namespace Zenject {
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>* map;
     // public System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> get_SceneContexts()
-    // Offset: 0xF24D94
+    // Offset: 0xFC9EDC
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* get_SceneContexts();
     // public System.Void Add(Zenject.SceneContext context)
-    // Offset: 0xF2863C
+    // Offset: 0xFCD784
     void Add(Zenject::SceneContext* context);
     // public Zenject.SceneContext GetSceneContextForScene(System.String name)
-    // Offset: 0xF28710
+    // Offset: 0xFCD858
     Zenject::SceneContext* GetSceneContextForScene(::Il2CppString* name);
     // public Zenject.SceneContext GetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0xF287A0
+    // Offset: 0xFCD8E8
     Zenject::SceneContext* GetSceneContextForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.SceneContext TryGetSceneContextForScene(System.String name)
-    // Offset: 0xF28808
+    // Offset: 0xFCD950
     Zenject::SceneContext* TryGetSceneContextForScene(::Il2CppString* name);
     // public Zenject.SceneContext TryGetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0xF28898
+    // Offset: 0xFCD9E0
     Zenject::SceneContext* TryGetSceneContextForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer GetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0xF28918
+    // Offset: 0xFCDA60
     Zenject::DiContainer* GetContainerForScene(UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer TryGetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0xF289EC
+    // Offset: 0xFCDB34
     Zenject::DiContainer* TryGetContainerForScene(UnityEngine::SceneManagement::Scene scene);
     // public System.Void Remove(Zenject.SceneContext context)
-    // Offset: 0xF28AEC
+    // Offset: 0xFCDC34
     void Remove(Zenject::SceneContext* context);
     // public System.Void .ctor()
-    // Offset: 0xF28C28
+    // Offset: 0xFCDD70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SceneContextRegistry* New_ctor();

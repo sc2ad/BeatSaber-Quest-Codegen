@@ -24,15 +24,15 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x10
     System::Security::Principal::IPrincipal* principal;
     // System.Boolean get_HasInfo()
-    // Offset: 0xFC3080
+    // Offset: 0x10671C8
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0xFC3090
+    // Offset: 0x10671D8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0xFC3108
+    // Offset: 0x1067250
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CallContextSecurityData* New_ctor();

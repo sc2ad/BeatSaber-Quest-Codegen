@@ -83,30 +83,30 @@ namespace GlobalNamespace {
     // Offset: 0xB8
     GlobalNamespace::MissionNode* missionNode;
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0x194A220
+    // Offset: 0xC04AE4
     void add_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0x194A2C4
+    // Offset: 0xC04B88
     void remove_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public MissionNode get_missionNode()
-    // Offset: 0x194A368
+    // Offset: 0xC04C2C
     GlobalNamespace::MissionNode* get_missionNode();
     // public System.Void Setup(MissionNode missionNode)
-    // Offset: 0x194A370
+    // Offset: 0xC04C34
     void Setup(GlobalNamespace::MissionNode* missionNode);
     // public System.Void RefreshContent()
-    // Offset: 0x194A3B4
+    // Offset: 0xC04C78
     void RefreshContent();
     // private System.Void PlayButtonPressed()
-    // Offset: 0x194A750
+    // Offset: 0xC05014
     void PlayButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0x194A6A4
+    // Offset: 0xC04F68
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0x194A7B4
+    // Offset: 0xC05078
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

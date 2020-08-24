@@ -30,13 +30,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Object,Zenject.TypeValuePair> <>9__0_0
     static void _set_$$9__0_0(System::Func_2<::Il2CppObject*, Zenject::TypeValuePair>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE99234
+    // Offset: 0xF3E37C
     static void _cctor();
     // Zenject.TypeValuePair <CreateArgList>b__0_0(System.Object x)
-    // Offset: 0xE992A4
+    // Offset: 0xF3E3EC
     Zenject::TypeValuePair $CreateArgList$b__0_0(::Il2CppObject* x);
     // public System.Void .ctor()
-    // Offset: 0xE9929C
+    // Offset: 0xF3E3E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InjectUtil::$$c* New_ctor();

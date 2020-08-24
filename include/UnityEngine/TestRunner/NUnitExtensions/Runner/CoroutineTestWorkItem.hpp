@@ -53,16 +53,16 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static private UnityEngine.MonoBehaviour m_MonoBehaviourCoroutineRunner
     static void _set_m_MonoBehaviourCoroutineRunner(UnityEngine::MonoBehaviour* value);
     // static public UnityEngine.MonoBehaviour get_monoBehaviourCoroutineRunner()
-    // Offset: 0xD8F46C
+    // Offset: 0xE345B4
     static UnityEngine::MonoBehaviour* get_monoBehaviourCoroutineRunner();
     // static public System.Void set_monoBehaviourCoroutineRunner(UnityEngine.MonoBehaviour value)
-    // Offset: 0xD8F538
+    // Offset: 0xE34680
     static void set_monoBehaviourCoroutineRunner(UnityEngine::MonoBehaviour* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0xD8F590
+    // Offset: 0xE346D8
     static CoroutineTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter);
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0xD8FE4C
+    // Offset: 0xE34F94
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();

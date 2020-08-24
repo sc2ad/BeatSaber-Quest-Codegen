@@ -35,35 +35,35 @@ namespace UnityEngine::TextCore {
     // Creating value type constructor for type: GlyphMetrics
     GlyphMetrics(float m_Width_ = {}, float m_Height_ = {}, float m_HorizontalBearingX_ = {}, float m_HorizontalBearingY_ = {}, float m_HorizontalAdvance_ = {}) : m_Width{m_Width_}, m_Height{m_Height_}, m_HorizontalBearingX{m_HorizontalBearingX_}, m_HorizontalBearingY{m_HorizontalBearingY_}, m_HorizontalAdvance{m_HorizontalAdvance_} {}
     // public System.Single get_width()
-    // Offset: 0x9C530C
+    // Offset: 0xA5E984
     float get_width();
     // public System.Single get_height()
-    // Offset: 0x9C5314
+    // Offset: 0xA5E98C
     float get_height();
     // public System.Single get_horizontalBearingX()
-    // Offset: 0x9C531C
+    // Offset: 0xA5E994
     float get_horizontalBearingX();
     // public System.Single get_horizontalBearingY()
-    // Offset: 0x9C5324
+    // Offset: 0xA5E99C
     float get_horizontalBearingY();
     // public System.Single get_horizontalAdvance()
-    // Offset: 0x9C532C
+    // Offset: 0xA5E9A4
     float get_horizontalAdvance();
     // public System.Void .ctor(System.Single width, System.Single height, System.Single bearingX, System.Single bearingY, System.Single advance)
-    // Offset: 0x9C5334
+    // Offset: 0xA5E9AC
     static GlyphMetrics* New_ctor(float width, float height, float bearingX, float bearingY, float advance);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x9C5344
+    // Offset: 0xA5E9BC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x9C534C
+    // Offset: 0xA5E9C4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.TextCore.GlyphMetrics other)
-    // Offset: 0x9C5354
+    // Offset: 0xA5E9CC
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.TextCore.GlyphMetrics other)
     bool Equals(UnityEngine::TextCore::GlyphMetrics other);

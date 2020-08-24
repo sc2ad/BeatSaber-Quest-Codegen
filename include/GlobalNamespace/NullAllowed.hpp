@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::NullAllowed::Context context;
     // public NullAllowed/Context get_context()
-    // Offset: 0xC15C60
+    // Offset: 0xCB8DA8
     GlobalNamespace::NullAllowed::Context get_context();
     // public System.Void .ctor(NullAllowed/Context context)
-    // Offset: 0xC15C90
+    // Offset: 0xCB8DD8
     static NullAllowed* New_ctor(GlobalNamespace::NullAllowed::Context context);
     // public System.Void .ctor()
-    // Offset: 0xC15C68
+    // Offset: 0xCB8DB0
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

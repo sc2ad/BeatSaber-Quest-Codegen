@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Offset: 0x54
     float speed;
     // protected System.Void Start()
-    // Offset: 0xB9D1F0
+    // Offset: 0xC295A8
     void Start();
     // protected System.Void Update()
-    // Offset: 0xB9D228
+    // Offset: 0xC295E0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB9D450
+    // Offset: 0xC29808
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

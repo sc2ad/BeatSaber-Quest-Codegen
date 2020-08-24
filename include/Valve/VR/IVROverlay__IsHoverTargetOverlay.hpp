@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVROverlay::_IsHoverTargetOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1569798
+    // Offset: 0x16168E0
     static IVROverlay::_IsHoverTargetOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle)
-    // Offset: 0x15697AC
+    // Offset: 0x16168F4
     bool Invoke(uint64_t ulOverlayHandle);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1569A18
+    // Offset: 0x1616B60
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1569AA4
+    // Offset: 0x1616BEC
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_IsHoverTargetOverlay
 }

@@ -21,7 +21,7 @@ namespace System::Configuration {
   class ConfigurationCollectionAttribute : public System::Attribute {
     public:
     // public System.Void .ctor(System.Type itemType)
-    // Offset: 0x18D1C24
+    // Offset: 0x1981234
     static ConfigurationCollectionAttribute* New_ctor(System::Type* itemType);
   }; // System.Configuration.ConfigurationCollectionAttribute
 }

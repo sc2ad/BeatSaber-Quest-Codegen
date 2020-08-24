@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Button* button;
     // public TMPro.TextMeshProUGUI get_text()
-    // Offset: 0x196083C
+    // Offset: 0xC465FC
     TMPro::TextMeshProUGUI* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x1960844
+    // Offset: 0xC46604
     UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0x196084C
+    // Offset: 0xC4660C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -19,25 +19,25 @@ namespace ModestTree {
   class Log : public ::Il2CppObject {
     public:
     // static public System.Void Debug(System.String message, System.Object[] args)
-    // Offset: 0xCBDF20
+    // Offset: 0xD62068
     static void Debug(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // static public System.Void Info(System.String message, System.Object[] args)
-    // Offset: 0xCBDF24
+    // Offset: 0xD6206C
     static void Info(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // static public System.Void Warn(System.String message, System.Object[] args)
-    // Offset: 0xCBD7C0
+    // Offset: 0xD61908
     static void Warn(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // static public System.Void Trace(System.String message, System.Object[] args)
-    // Offset: 0xCBDFAC
+    // Offset: 0xD620F4
     static void Trace(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // static public System.Void ErrorException(System.Exception e)
-    // Offset: 0xCBE034
+    // Offset: 0xD6217C
     static void ErrorException(System::Exception* e);
     // static public System.Void ErrorException(System.String message, System.Exception e)
-    // Offset: 0xCBE09C
+    // Offset: 0xD621E4
     static void ErrorException(::Il2CppString* message, System::Exception* e);
     // static public System.Void Error(System.String message, System.Object[] args)
-    // Offset: 0xCBE11C
+    // Offset: 0xD62264
     static void Error(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
   }; // ModestTree.Log
 }

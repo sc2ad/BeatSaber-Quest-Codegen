@@ -27,19 +27,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x14
     int mapId;
     // System.Void Set(System.Int32 objectId, System.Int32 mapId)
-    // Offset: 0xD82F98
+    // Offset: 0xE280E0
     void Set(int objectId, int mapId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xD82FA0
+    // Offset: 0xE280E8
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xD82FF4
+    // Offset: 0xE2813C
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xD8303C
+    // Offset: 0xE28184
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xD82F90
+    // Offset: 0xE280D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryObject* New_ctor();

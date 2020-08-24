@@ -33,31 +33,31 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVRChaperone FnTable;
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0xF3DE6C
+    // Offset: 0xFE2FB4
     static CVRChaperone* New_ctor(System::IntPtr pInterface);
     // public Valve.VR.ChaperoneCalibrationState GetCalibrationState()
-    // Offset: 0xF3DF80
+    // Offset: 0xFE30C8
     Valve::VR::ChaperoneCalibrationState GetCalibrationState();
     // public System.Boolean GetPlayAreaSize(System.Single pSizeX, System.Single pSizeZ)
-    // Offset: 0xF3E1AC
+    // Offset: 0xFE32F4
     bool GetPlayAreaSize(float& pSizeX, float& pSizeZ);
     // public System.Boolean GetPlayAreaRect(Valve.VR.HmdQuad_t rect)
-    // Offset: 0xF3E444
+    // Offset: 0xFE358C
     bool GetPlayAreaRect(Valve::VR::HmdQuad_t& rect);
     // public System.Void ReloadInfo()
-    // Offset: 0xF3E6B8
+    // Offset: 0xFE3800
     void ReloadInfo();
     // public System.Void SetSceneColor(Valve.VR.HmdColor_t color)
-    // Offset: 0xF3E8DC
+    // Offset: 0xFE3A24
     void SetSceneColor(Valve::VR::HmdColor_t color);
     // public System.Void GetBoundsColor(Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, Valve.VR.HmdColor_t pOutputCameraColor)
-    // Offset: 0xF3EBA0
+    // Offset: 0xFE3CE8
     void GetBoundsColor(Valve::VR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, Valve::VR::HmdColor_t& pOutputCameraColor);
     // public System.Boolean AreBoundsVisible()
-    // Offset: 0xF3EE58
+    // Offset: 0xFE3FA0
     bool AreBoundsVisible();
     // public System.Void ForceBoundsVisible(System.Boolean bForce)
-    // Offset: 0xF3F088
+    // Offset: 0xFE41D0
     void ForceBoundsVisible(bool bForce);
   }; // Valve.VR.CVRChaperone
 }

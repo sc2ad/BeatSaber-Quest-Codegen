@@ -32,7 +32,7 @@ namespace Zenject::Internal {
     // Offset: 0x18
     Zenject::InjectableInfo* InjectableInfo;
     // public System.Void .ctor(System.Reflection.ParameterInfo parameterInfo, Zenject.InjectableInfo injectableInfo)
-    // Offset: 0xE9BA88
+    // Offset: 0xF40BD0
     static ReflectionTypeInfo::InjectParameterInfo* New_ctor(System::Reflection::ParameterInfo* parameterInfo, Zenject::InjectableInfo* injectableInfo);
   }; // Zenject.Internal.ReflectionTypeInfo/InjectParameterInfo
 }

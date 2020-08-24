@@ -29,31 +29,31 @@ namespace GlobalNamespace {
     // Offset: 0x28
     int frameCounter;
     // public System.Int32 get_currentFPS()
-    // Offset: 0x1930E4C
+    // Offset: 0xBEC710
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0x1930E54
+    // Offset: 0xBEC718
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0x1930E5C
+    // Offset: 0xBEC720
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0x1930E64
+    // Offset: 0xBEC728
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0x1930E6C
+    // Offset: 0xBEC730
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0x1930E74
+    // Offset: 0xBEC738
     void set_highestFPS(int value);
     // protected System.Void Awake()
-    // Offset: 0x1930E7C
+    // Offset: 0xBEC740
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1930E8C
+    // Offset: 0xBEC750
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1930F70
+    // Offset: 0xBEC834
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

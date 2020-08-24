@@ -41,27 +41,27 @@ namespace System {
     // Offset: 0x20
     ::Il2CppString* servicePack;
     // public System.Void .ctor(System.PlatformID platform, System.Version version)
-    // Offset: 0x12BB1E0
+    // Offset: 0x1363328
     static OperatingSystem* New_ctor(System::PlatformID platform, System::Version* version);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12BB340
+    // Offset: 0x1363488
     static OperatingSystem* New_ctor(System::Runtime::Serialization::SerializationInfo* information, System::Runtime::Serialization::StreamingContext context);
     // public System.PlatformID get_Platform()
-    // Offset: 0x12BB4CC
+    // Offset: 0x1363614
     System::PlatformID get_Platform();
     // public System.Version get_Version()
-    // Offset: 0x12BB4D4
+    // Offset: 0x136361C
     System::Version* get_Version();
     // public System.String get_ServicePack()
-    // Offset: 0x12BB4DC
+    // Offset: 0x1363624
     ::Il2CppString* get_ServicePack();
     // public System.Object Clone()
-    // Offset: 0x12BB4E4
+    // Offset: 0x136362C
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12BB558
+    // Offset: 0x13636A0
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -69,7 +69,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x12BB61C
+    // Offset: 0x1363764
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

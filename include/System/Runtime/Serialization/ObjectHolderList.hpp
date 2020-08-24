@@ -27,25 +27,25 @@ namespace System::Runtime::Serialization {
     // Offset: 0x18
     int m_count;
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0xF55B34
+    // Offset: 0xFFBC7C
     static ObjectHolderList* New_ctor(int startingSize);
     // System.Void Add(System.Runtime.Serialization.ObjectHolder value)
-    // Offset: 0xF55BB0
+    // Offset: 0xFFBCF8
     void Add(System::Runtime::Serialization::ObjectHolder* value);
     // System.Runtime.Serialization.ObjectHolderListEnumerator GetFixupEnumerator()
-    // Offset: 0xF55D0C
+    // Offset: 0xFFBE54
     System::Runtime::Serialization::ObjectHolderListEnumerator* GetFixupEnumerator();
     // private System.Void EnlargeArray()
-    // Offset: 0xF55C68
+    // Offset: 0xFFBDB0
     void EnlargeArray();
     // System.Int32 get_Version()
-    // Offset: 0xF55DD8
+    // Offset: 0xFFBF20
     int get_Version();
     // System.Int32 get_Count()
-    // Offset: 0xF55DE0
+    // Offset: 0xFFBF28
     int get_Count();
     // System.Void .ctor()
-    // Offset: 0xF55B2C
+    // Offset: 0xFFBC74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjectHolderList* New_ctor();

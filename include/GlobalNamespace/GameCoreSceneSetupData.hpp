@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ColorScheme* colorScheme;
     // public ColorScheme get_colorScheme()
-    // Offset: 0x1937D90
+    // Offset: 0xBF3654
     GlobalNamespace::ColorScheme* get_colorScheme();
     // private System.Void set_colorScheme(ColorScheme value)
-    // Offset: 0x1937D98
+    // Offset: 0xBF365C
     void set_colorScheme(GlobalNamespace::ColorScheme* value);
     // public System.Void .ctor(ColorScheme colorScheme)
-    // Offset: 0x1937DA0
+    // Offset: 0xBF3664
     static GameCoreSceneSetupData* New_ctor(GlobalNamespace::ColorScheme* colorScheme);
   }; // GameCoreSceneSetupData
 }

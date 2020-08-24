@@ -90,42 +90,42 @@ namespace GlobalNamespace {
     // Offset: 0x70
     HMUI::ButtonBinder* buttonBinder;
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x1925554
+    // Offset: 0xBE0E18
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void SetData(ColorSchemesSettings colorSchemesSettings)
-    // Offset: 0x192555C
+    // Offset: 0xBE0E20
     void SetData(GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x19258BC
+    // Offset: 0xBE1180
     void OnDestroy();
     // protected System.Void OnDisable()
-    // Offset: 0x1925BF4
+    // Offset: 0xBE14B8
     void OnDisable();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1925DE4
+    // Offset: 0xBE16A8
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideColorsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1925E58
+    // Offset: 0xBE171C
     void HandleOverrideColorsToggleValueChanged(bool isOn);
     // private System.Void HandleEditColorSchemeButtonWasPressed()
-    // Offset: 0x1925F6C
+    // Offset: 0xBE1830
     void HandleEditColorSchemeButtonWasPressed();
     // private System.Void HandleEditColorSchemeControllerDidFinish()
-    // Offset: 0x1926008
+    // Offset: 0xBE18CC
     void HandleEditColorSchemeControllerDidFinish();
     // private System.Void HandleEditColorSchemeControllerDidChangeColorScheme(ColorScheme colorScheme)
-    // Offset: 0x1926064
+    // Offset: 0xBE1928
     void HandleEditColorSchemeControllerDidChangeColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // private System.Void <HandleOverrideColorsToggleValueChanged>b__19_0()
-    // Offset: 0x1926084
+    // Offset: 0xBE1948
     void $HandleOverrideColorsToggleValueChanged$b__19_0();
     // public System.Void Refresh()
-    // Offset: 0x1925C18
+    // Offset: 0xBE14DC
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x192607C
+    // Offset: 0xBE1940
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

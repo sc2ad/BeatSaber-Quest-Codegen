@@ -14,19 +14,19 @@ namespace System::IO {
   class TextReader::NullTextReader : public System::IO::TextReader {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF69638
+    // Offset: 0x100F780
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextReader::NullTextReader* New_ctor();
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xF69864
+    // Offset: 0x100F9AC
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0xF6986C
+    // Offset: 0x100F9B4
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();

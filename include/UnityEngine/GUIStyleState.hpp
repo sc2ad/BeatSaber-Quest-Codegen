@@ -29,30 +29,30 @@ namespace UnityEngine {
     // Offset: 0x18
     UnityEngine::GUIStyle* m_SourceStyle;
     // public System.Void set_textColor(UnityEngine.Color value)
-    // Offset: 0x11D1370
+    // Offset: 0x12754B8
     void set_textColor(UnityEngine::Color value);
     // static private System.IntPtr Init()
-    // Offset: 0x11D368C
+    // Offset: 0x12777D4
     static System::IntPtr Init();
     // private System.Void Cleanup()
-    // Offset: 0x11D36C0
+    // Offset: 0x1277808
     void Cleanup();
     // private System.Void .ctor(UnityEngine.GUIStyle sourceStyle, System.IntPtr source)
-    // Offset: 0x11D374C
+    // Offset: 0x1277894
     static GUIStyleState* New_ctor(UnityEngine::GUIStyle* sourceStyle, System::IntPtr source);
     // static UnityEngine.GUIStyleState GetGUIStyleState(UnityEngine.GUIStyle sourceStyle, System.IntPtr source)
-    // Offset: 0x11D2AD8
+    // Offset: 0x1276C20
     static UnityEngine::GUIStyleState* GetGUIStyleState(UnityEngine::GUIStyle* sourceStyle, System::IntPtr source);
     // private System.Void set_textColor_Injected(UnityEngine.Color value)
-    // Offset: 0x11D363C
+    // Offset: 0x1277784
     void set_textColor_Injected(UnityEngine::Color& value);
     // public System.Void .ctor()
-    // Offset: 0x11D3700
+    // Offset: 0x1277848
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GUIStyleState* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x11D3794
+    // Offset: 0x12778DC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

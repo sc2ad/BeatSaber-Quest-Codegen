@@ -51,22 +51,22 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Vector3 targetPos;
     // public System.Void set_TargetPos(UnityEngine.Vector3 value)
-    // Offset: 0xC1B634
+    // Offset: 0xCBE77C
     void set_TargetPos(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_TargetPos()
-    // Offset: 0xC1B7C4
+    // Offset: 0xCBE90C
     UnityEngine::Vector3 get_TargetPos();
     // protected System.Void Awake()
-    // Offset: 0xC1B7D0
+    // Offset: 0xCBE918
     void Awake();
     // private System.Void AnimateToNewPos(UnityEngine.Vector3 pos)
-    // Offset: 0xC1B714
+    // Offset: 0xCBE85C
     void AnimateToNewPos(UnityEngine::Vector3 pos);
     // private System.Collections.IEnumerator AnimateToNewPosCoroutine(UnityEngine.Vector3 pos)
-    // Offset: 0xC1B800
+    // Offset: 0xCBE948
     System::Collections::IEnumerator* AnimateToNewPosCoroutine(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0xC1B8A8
+    // Offset: 0xCBE9F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -45,13 +45,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x3C
     UnityEngine::Vector3 lastOffset;
     // public System.Void Start()
-    // Offset: 0x1192744
+    // Offset: 0x123688C
     void Start();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion rotation, System.Single masterWeight, System.Single length, System.Single timeLeft)
-    // Offset: 0x11932F8
+    // Offset: 0x1237440
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
     // public System.Void .ctor()
-    // Offset: 0x1193A40
+    // Offset: 0x1237B88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Recoil::RecoilOffset* New_ctor();

@@ -23,12 +23,12 @@ namespace GlobalNamespace {
   class VRControllersRecorder::TypeSerializationBinder : public System::Runtime::Serialization::SerializationBinder {
     public:
     // public override System.Type BindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x196C298
+    // Offset: 0xC52058
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
     System::Type* BindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
     // public System.Void .ctor()
-    // Offset: 0x196B668
+    // Offset: 0xC51428
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Void SerializationBinder::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_PostPresentHandoff : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x155BBD8
+    // Offset: 0x1608D20
     static IVRCompositor::_PostPresentHandoff* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x155BBEC
+    // Offset: 0x1608D34
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x155BDF8
+    // Offset: 0x1608F40
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x155BE24
+    // Offset: 0x1608F6C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_PostPresentHandoff
 }

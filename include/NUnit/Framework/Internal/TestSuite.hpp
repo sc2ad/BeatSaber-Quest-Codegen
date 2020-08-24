@@ -52,68 +52,68 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x88
     bool MaintainTestOrder;
     // public System.Void Sort()
-    // Offset: 0x184BCD4
+    // Offset: 0x18F8E1C
     void Sort();
     // public System.Void Add(NUnit.Framework.Internal.Test test)
-    // Offset: 0x184BFE0
+    // Offset: 0x18F9128
     void Add(NUnit::Framework::Internal::Test* test);
     // public System.Object[] get_Arguments()
-    // Offset: 0x184C340
+    // Offset: 0x18F9488
     ::Array<::Il2CppObject*>* get_Arguments();
     // System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x184C348
+    // Offset: 0x18F9490
     void set_Arguments(::Array<::Il2CppObject*>* value);
     // protected System.Boolean get_MaintainTestOrder()
-    // Offset: 0x184BFD8
+    // Offset: 0x18F9120
     bool get_MaintainTestOrder();
     // protected System.Void set_MaintainTestOrder(System.Boolean value)
-    // Offset: 0x184C350
+    // Offset: 0x18F9498
     void set_MaintainTestOrder(bool value);
     // protected System.Void CheckSetUpTearDownMethods(System.Type attrType)
-    // Offset: 0x1847C90
+    // Offset: 0x18F4DD8
     void CheckSetUpTearDownMethods(System::Type* attrType);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x184680C
+    // Offset: 0x18F3954
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(System.String name)
     static TestSuite* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String parentSuiteName, System.String name)
-    // Offset: 0x1843634
+    // Offset: 0x18F077C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(System.String parentSuiteName, System.String name)
     static TestSuite* New_ctor(::Il2CppString* parentSuiteName, ::Il2CppString* name);
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
-    // Offset: 0x1847BC4
+    // Offset: 0x18F4D0C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     static TestSuite* New_ctor(NUnit::Framework::Interfaces::ITypeInfo* fixtureType);
     // public override System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> get_Tests()
-    // Offset: 0x184C05C
+    // Offset: 0x18F91A4
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> Test::get_Tests()
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* get_Tests();
     // public override System.Int32 get_TestCaseCount()
-    // Offset: 0x184C064
+    // Offset: 0x18F91AC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Int32 Test::get_TestCaseCount()
     int get_TestCaseCount();
     // public override NUnit.Framework.Internal.TestResult MakeTestResult()
-    // Offset: 0x184C35C
+    // Offset: 0x18F94A4
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: NUnit.Framework.Internal.TestResult Test::MakeTestResult()
     NUnit::Framework::Internal::TestResult* MakeTestResult();
     // public override System.Boolean get_HasChildren()
-    // Offset: 0x184C468
+    // Offset: 0x18F95B0
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Boolean Test::get_HasChildren()
     bool get_HasChildren();
     // public override System.String get_XmlElementName()
-    // Offset: 0x184C4C0
+    // Offset: 0x18F9608
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_XmlElementName()
     ::Il2CppString* get_XmlElementName();
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x184C508
+    // Offset: 0x18F9650
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: NUnit.Framework.Interfaces.TNode Test::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

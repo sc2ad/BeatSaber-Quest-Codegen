@@ -62,31 +62,31 @@ namespace System::Threading {
     // Set static field: static private System.Int64 MaxValue
     static void _set_MaxValue(int64_t value);
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.Int32 dueTime, System.Int32 period)
-    // Offset: 0xC42860
+    // Offset: 0xCE69A8
     static Timer* New_ctor(System::Threading::TimerCallback* callback, ::Il2CppObject* state, int dueTime, int period);
     // public System.Void .ctor(System.Threading.TimerCallback callback, System.Object state, System.TimeSpan dueTime, System.TimeSpan period)
-    // Offset: 0xC497C8
+    // Offset: 0xCED910
     static Timer* New_ctor(System::Threading::TimerCallback* callback, ::Il2CppObject* state, System::TimeSpan dueTime, System::TimeSpan period);
     // private System.Void Init(System.Threading.TimerCallback callback, System.Object state, System.Int64 dueTime, System.Int64 period)
-    // Offset: 0xC496F8
+    // Offset: 0xCED840
     void Init(System::Threading::TimerCallback* callback, ::Il2CppObject* state, int64_t dueTime, int64_t period);
     // public System.Boolean Change(System.TimeSpan dueTime, System.TimeSpan period)
-    // Offset: 0xC49A84
+    // Offset: 0xCEDBCC
     bool Change(System::TimeSpan dueTime, System::TimeSpan period);
     // private System.Boolean Change(System.Int64 dueTime, System.Int64 period, System.Boolean first)
-    // Offset: 0xC49860
+    // Offset: 0xCED9A8
     bool Change(int64_t dueTime, int64_t period, bool first);
     // System.Void KeepRootedWhileScheduled()
-    // Offset: 0xC428B8
+    // Offset: 0xCE6A00
     void KeepRootedWhileScheduled();
     // static private System.Int64 GetTimeMonotonic()
-    // Offset: 0xC49BA4
+    // Offset: 0xCEDCEC
     static int64_t GetTimeMonotonic();
     // static private System.Void .cctor()
-    // Offset: 0xC49D30
+    // Offset: 0xCEDE78
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0xC43444
+    // Offset: 0xCE758C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

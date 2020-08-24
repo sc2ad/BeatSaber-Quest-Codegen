@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _texturePropertyID
     static void _set__texturePropertyID(int value);
     // protected System.Void Update()
-    // Offset: 0x18660C8
+    // Offset: 0x1912210
     void Update();
     // protected System.Void OnWillRenderObject()
-    // Offset: 0x18661F8
+    // Offset: 0x1912340
     void OnWillRenderObject();
     // public System.Void .ctor()
-    // Offset: 0x1866CC8
+    // Offset: 0x1912E10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Mirror* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1866CD0
+    // Offset: 0x1912E18
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

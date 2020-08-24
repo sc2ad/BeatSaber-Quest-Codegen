@@ -50,62 +50,62 @@ namespace NetEase::Docker {
     // Offset: 0x28
     System::Action_1<NetEase::Docker::ReceivedHighscoreData>* OnHighscoreReceived;
     // public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
-    // Offset: 0x18CA330
+    // Offset: 0x1978478
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
     void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);
     // public System.Void Initialize()
-    // Offset: 0x18CA338
+    // Offset: 0x1978480
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::Initialize()
     void Initialize();
     // public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callbackAction)
-    // Offset: 0x18CA39C
+    // Offset: 0x19784E4
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callbackAction)
     void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callbackAction);
     // public System.Void Login()
-    // Offset: 0x18CA3A4
+    // Offset: 0x19784EC
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::Login()
     void Login();
     // public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callbackAction)
-    // Offset: 0x18CA434
+    // Offset: 0x197857C
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callbackAction)
     void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callbackAction);
     // public System.Void Logout()
-    // Offset: 0x18CA43C
+    // Offset: 0x1978584
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::Logout()
     void Logout();
     // public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
-    // Offset: 0x18CA4A0
+    // Offset: 0x19785E8
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::UploadScore(NetEase.Docker.UploadScoreData scoreData)
     void UploadScore(NetEase::Docker::UploadScoreData scoreData);
     // public System.Boolean WillProvideHighscore()
-    // Offset: 0x18CA4A4
+    // Offset: 0x19785EC
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Boolean IDock::WillProvideHighscore()
     bool WillProvideHighscore();
     // public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
-    // Offset: 0x18CA4AC
+    // Offset: 0x19785F4
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
     void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
-    // Offset: 0x18CA4B4
+    // Offset: 0x19785FC
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
     void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
     // public System.Void UpdateLoop()
-    // Offset: 0x18CA72C
+    // Offset: 0x1978874
     // Implemented from: NetEase.Docker.IDock
     // Base method: System.Void IDock::UpdateLoop()
     void UpdateLoop();
     // public System.Void .ctor()
-    // Offset: 0x18CA730
+    // Offset: 0x1978878
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseDock* New_ctor();

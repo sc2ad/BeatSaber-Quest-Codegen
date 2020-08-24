@@ -44,22 +44,22 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0xCCC86C
+    // Offset: 0xD709B4
     static void _cctor();
     // System.Boolean <AllClasses>b__4_0(System.Type t)
-    // Offset: 0xCCC8DC
+    // Offset: 0xD70A24
     bool $AllClasses$b__4_0(System::Type* t);
     // System.Boolean <AllNonAbstractClasses>b__5_0(System.Type t)
-    // Offset: 0xCCC8F8
+    // Offset: 0xD70A40
     bool $AllNonAbstractClasses$b__5_0(System::Type* t);
     // System.Boolean <AllAbstractClasses>b__6_0(System.Type t)
-    // Offset: 0xCCC948
+    // Offset: 0xD70A90
     bool $AllAbstractClasses$b__6_0(System::Type* t);
     // System.Boolean <AllInterfaces>b__7_0(System.Type t)
-    // Offset: 0xCCC994
+    // Offset: 0xD70ADC
     bool $AllInterfaces$b__7_0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0xCCC8D4
+    // Offset: 0xD70A1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionSelectTypesBinder::$$c* New_ctor();

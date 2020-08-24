@@ -31,16 +31,16 @@ namespace GlobalNamespace {
   class SteamVR_Utils::SystemFn : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF36BE0
+    // Offset: 0xFDBD28
     static SteamVR_Utils::SystemFn* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Object Invoke(Valve.VR.CVRSystem system, System.Object[] args)
-    // Offset: 0xF33ED0
+    // Offset: 0xFD9018
     ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args);
     // public System.IAsyncResult BeginInvoke(Valve.VR.CVRSystem system, System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF36BF4
+    // Offset: 0xFDBD3C
     System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF36C24
+    // Offset: 0xFDBD6C
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // SteamVR_Utils/SystemFn
 }

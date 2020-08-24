@@ -12,7 +12,7 @@ namespace GlobalNamespace {
   class ManualUpdateManager : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC15780
+    // Offset: 0xCB88C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ManualUpdateManager* New_ctor();

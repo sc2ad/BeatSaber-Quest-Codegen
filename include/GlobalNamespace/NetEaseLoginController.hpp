@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::NetEaseManager* netEaseManager;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1957454
+    // Offset: 0xC12D18
     System::Collections::IEnumerator* Start();
     // private System.Void LoginAsync()
-    // Offset: 0x19574FC
+    // Offset: 0xC12DC0
     void LoginAsync();
     // public System.Void .ctor()
-    // Offset: 0x19575D8
+    // Offset: 0xC12E9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

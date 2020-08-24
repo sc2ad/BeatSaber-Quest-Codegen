@@ -35,10 +35,10 @@ namespace OnlineServices {
     // Creating value type constructor for type: GetLeaderboardEntriesResult
     GetLeaderboardEntriesResult(bool isError_ = {}, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0x9924C0
+    // Offset: 0xA2CA74
     static GetLeaderboardEntriesResult* New_ctor(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex);
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0xBB722C
+    // Offset: 0xC435E4
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
   }; // OnlineServices.GetLeaderboardEntriesResult
 }

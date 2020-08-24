@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::UI::Image* image;
     // public System.Void Awake()
-    // Offset: 0x1926714
+    // Offset: 0xBE1FD8
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x192679C
+    // Offset: 0xBE2060
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

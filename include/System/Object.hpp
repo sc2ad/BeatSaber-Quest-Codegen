@@ -22,40 +22,40 @@ namespace System {
   class Object {
     public:
     // public System.Boolean Equals(System.Object obj)
-    // Offset: 0x12BAC64
+    // Offset: 0x1362DAC
     bool Equals(::Il2CppObject* obj);
     // static public System.Boolean Equals(System.Object objA, System.Object objB)
-    // Offset: 0x12BAC70
+    // Offset: 0x1362DB8
     static bool Equals(::Il2CppObject* objA, ::Il2CppObject* objB);
     // public System.Void .ctor()
-    // Offset: 0x12B6180
+    // Offset: 0x135E2C8
     static ::Il2CppObject* New_ctor();
     // protected System.Void Finalize()
-    // Offset: 0x12BAC9C
+    // Offset: 0x1362DE4
     void Finalize();
     // public System.Int32 GetHashCode()
-    // Offset: 0x12BACA0
+    // Offset: 0x1362DE8
     int GetHashCode();
     // public System.Type GetType()
-    // Offset: 0x12BACA8
+    // Offset: 0x1362DF0
     System::Type* GetType();
     // protected System.Object MemberwiseClone()
-    // Offset: 0x12BAC4C
+    // Offset: 0x1362D94
     ::Il2CppObject* MemberwiseClone();
     // public System.String ToString()
-    // Offset: 0x12BACAC
+    // Offset: 0x1362DF4
     ::Il2CppString* ToString();
     // static public System.Boolean ReferenceEquals(System.Object objA, System.Object objB)
-    // Offset: 0x12BACD0
+    // Offset: 0x1362E18
     static bool ReferenceEquals(::Il2CppObject* objA, ::Il2CppObject* objB);
     // static System.Int32 InternalGetHashCode(System.Object o)
-    // Offset: 0x12BACA4
+    // Offset: 0x1362DEC
     static int InternalGetHashCode(::Il2CppObject* o);
     // private System.Void FieldGetter(System.String typeName, System.String fieldName, System.Object val)
-    // Offset: 0x12BACDC
+    // Offset: 0x1362E24
     void FieldGetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ::Il2CppObject*& val);
     // private System.Void FieldSetter(System.String typeName, System.String fieldName, System.Object val)
-    // Offset: 0x12BACE0
+    // Offset: 0x1362E28
     void FieldSetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ::Il2CppObject* val);
   }; // System.Object
 }

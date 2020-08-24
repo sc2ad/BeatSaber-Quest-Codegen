@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class SteamVR_CameraMask : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void Awake()
-    // Offset: 0xCDCB44
+    // Offset: 0xD80C8C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xCDCBE0
+    // Offset: 0xD80D28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -33,31 +33,31 @@ namespace OVR::OpenVR {
     // Offset: 0x10
     OVR::OpenVR::IVRChaperone FnTable;
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0xE25854
+    // Offset: 0xEC999C
     static CVRChaperone* New_ctor(System::IntPtr pInterface);
     // public OVR.OpenVR.ChaperoneCalibrationState GetCalibrationState()
-    // Offset: 0xE25968
+    // Offset: 0xEC9AB0
     OVR::OpenVR::ChaperoneCalibrationState GetCalibrationState();
     // public System.Boolean GetPlayAreaSize(System.Single pSizeX, System.Single pSizeZ)
-    // Offset: 0xE25B94
+    // Offset: 0xEC9CDC
     bool GetPlayAreaSize(float& pSizeX, float& pSizeZ);
     // public System.Boolean GetPlayAreaRect(OVR.OpenVR.HmdQuad_t rect)
-    // Offset: 0xE25E2C
+    // Offset: 0xEC9F74
     bool GetPlayAreaRect(OVR::OpenVR::HmdQuad_t& rect);
     // public System.Void ReloadInfo()
-    // Offset: 0xE260A0
+    // Offset: 0xECA1E8
     void ReloadInfo();
     // public System.Void SetSceneColor(OVR.OpenVR.HmdColor_t color)
-    // Offset: 0xE262C4
+    // Offset: 0xECA40C
     void SetSceneColor(OVR::OpenVR::HmdColor_t color);
     // public System.Void GetBoundsColor(OVR.OpenVR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, OVR.OpenVR.HmdColor_t pOutputCameraColor)
-    // Offset: 0xE26588
+    // Offset: 0xECA6D0
     void GetBoundsColor(OVR::OpenVR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, OVR::OpenVR::HmdColor_t& pOutputCameraColor);
     // public System.Boolean AreBoundsVisible()
-    // Offset: 0xE26840
+    // Offset: 0xECA988
     bool AreBoundsVisible();
     // public System.Void ForceBoundsVisible(System.Boolean bForce)
-    // Offset: 0xE26A70
+    // Offset: 0xECABB8
     void ForceBoundsVisible(bool bForce);
   }; // OVR.OpenVR.CVRChaperone
 }

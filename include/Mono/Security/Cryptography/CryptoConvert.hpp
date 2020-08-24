@@ -12,7 +12,7 @@ namespace Mono::Security::Cryptography {
   class CryptoConvert : public ::Il2CppObject {
     public:
     // static public System.String ToHex(System.Byte[] input)
-    // Offset: 0x18CE50C
+    // Offset: 0x197C654
     static ::Il2CppString* ToHex(::Array<uint8_t>* input);
   }; // Mono.Security.Cryptography.CryptoConvert
 }

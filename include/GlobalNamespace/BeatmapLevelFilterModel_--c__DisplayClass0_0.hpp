@@ -24,13 +24,13 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams* levelFilterParams;
     // System.Boolean <FilerBeatmapLevelPackCollection>b__0(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x18D75A0
+    // Offset: 0xB70AFC
     bool $FilerBeatmapLevelPackCollection$b__0(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // System.Boolean <FilerBeatmapLevelPackCollection>b__1(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x18D7680
+    // Offset: 0xB70BDC
     bool $FilerBeatmapLevelPackCollection$b__1(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x18D7018
+    // Offset: 0xB70574
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelFilterModel::$$c__DisplayClass0_0* New_ctor();

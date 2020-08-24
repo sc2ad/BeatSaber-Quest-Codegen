@@ -28,10 +28,10 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // UnityEngine.ProBuilder.CSG_Vertex <.ctor>b__0(UnityEngine.ProBuilder.CSG_Vertex x)
-    // Offset: 0xEF0A9C
+    // Offset: 0xF94BE4
     UnityEngine::ProBuilder::CSG_Vertex $_ctor$b__0(UnityEngine::ProBuilder::CSG_Vertex x);
     // public System.Void .ctor()
-    // Offset: 0xEF0168
+    // Offset: 0xF942B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CSG_Model::$$c__DisplayClass3_0* New_ctor();

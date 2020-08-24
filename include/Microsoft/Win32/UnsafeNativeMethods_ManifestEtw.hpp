@@ -45,27 +45,27 @@ namespace Microsoft::Win32 {
     // Nested type: Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_ENABLE_INFO
     struct TRACE_ENABLE_INFO;
     // static System.UInt32 EventRegister(System.Guid providerId, Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EtwEnableCallback enableCallback, System.Void* callbackContext, System.Int64 registrationHandle)
-    // Offset: 0x100AA18
+    // Offset: 0x10AEB60
     static uint EventRegister(System::Guid& providerId, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EtwEnableCallback*& enableCallback, void*& callbackContext, int64_t& registrationHandle);
     // static System.UInt32 EventUnregister(System.Int64 registrationHandle)
-    // Offset: 0x100AACC
+    // Offset: 0x10AEC14
     static uint EventUnregister(int64_t& registrationHandle);
     // static System.Int32 EventWriteTransferWrapper(System.Int64 registrationHandle, System.Diagnostics.Tracing.EventDescriptor eventDescriptor, System.Guid* activityId, System.Guid* relatedActivityId, System.Int32 userDataCount, System.Diagnostics.Tracing.EventProvider/EventData* userData)
-    // Offset: 0x100AB50
+    // Offset: 0x10AEC98
     template<class T5>
     static int EventWriteTransferWrapper(int64_t registrationHandle, System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, System::Guid* activityId, System::Guid* relatedActivityId, int userDataCount, T5 userData);
     // static private System.Int32 EventWriteTransfer(System.Int64 registrationHandle, System.Diagnostics.Tracing.EventDescriptor eventDescriptor, System.Guid* activityId, System.Guid* relatedActivityId, System.Int32 userDataCount, System.Diagnostics.Tracing.EventProvider/EventData* userData)
-    // Offset: 0x100AC44
+    // Offset: 0x10AED8C
     template<class T5>
     static int EventWriteTransfer(int64_t& registrationHandle, System::Diagnostics::Tracing::EventDescriptor& eventDescriptor, System::Guid*& activityId, System::Guid*& relatedActivityId, int& userDataCount, T5& userData);
     // static System.Int32 EventActivityIdControl(Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/ActivityControl ControlCode, System.Guid ActivityId)
-    // Offset: 0x100AD08
+    // Offset: 0x10AEE50
     static int EventActivityIdControl(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::ActivityControl& ControlCode, System::Guid& ActivityId);
     // static System.Int32 EventSetInformation(System.Int64 registrationHandle, Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS informationClass, System.Void* eventInformation, System.Int32 informationLength)
-    // Offset: 0x100AD98
+    // Offset: 0x10AEEE0
     static int EventSetInformation(int64_t& registrationHandle, Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_INFO_CLASS& informationClass, void*& eventInformation, int& informationLength);
     // static System.Int32 EnumerateTraceGuidsEx(Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_QUERY_INFO_CLASS TraceQueryInfoClass, System.Void* InBuffer, System.Int32 InBufferSize, System.Void* OutBuffer, System.Int32 OutBufferSize, System.Int32 ReturnLength)
-    // Offset: 0x100AE44
+    // Offset: 0x10AEF8C
     static int EnumerateTraceGuidsEx(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_QUERY_INFO_CLASS TraceQueryInfoClass, void* InBuffer, int InBufferSize, void* OutBuffer, int OutBufferSize, int& ReturnLength);
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw
 }

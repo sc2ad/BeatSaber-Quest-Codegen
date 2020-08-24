@@ -20,31 +20,31 @@ namespace UnityEngine {
   class CapsuleCollider : public UnityEngine::Collider {
     public:
     // public UnityEngine.Vector3 get_center()
-    // Offset: 0x18B5B88
+    // Offset: 0x1962CD0
     UnityEngine::Vector3 get_center();
     // public System.Void set_center(UnityEngine.Vector3 value)
-    // Offset: 0x18B5C38
+    // Offset: 0x1962D80
     void set_center(UnityEngine::Vector3 value);
     // public System.Single get_radius()
-    // Offset: 0x18B5CE0
+    // Offset: 0x1962E28
     float get_radius();
     // public System.Void set_radius(System.Single value)
-    // Offset: 0x18B5D20
+    // Offset: 0x1962E68
     void set_radius(float value);
     // public System.Single get_height()
-    // Offset: 0x18B5D70
+    // Offset: 0x1962EB8
     float get_height();
     // public System.Void set_height(System.Single value)
-    // Offset: 0x18B5DB0
+    // Offset: 0x1962EF8
     void set_height(float value);
     // public System.Void set_direction(System.Int32 value)
-    // Offset: 0x18B5E00
+    // Offset: 0x1962F48
     void set_direction(int value);
     // private System.Void get_center_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x18B5BE8
+    // Offset: 0x1962D30
     void get_center_Injected(UnityEngine::Vector3& ret);
     // private System.Void set_center_Injected(UnityEngine.Vector3 value)
-    // Offset: 0x18B5C90
+    // Offset: 0x1962DD8
     void set_center_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.CapsuleCollider
 }

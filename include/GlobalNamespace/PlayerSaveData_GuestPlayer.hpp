@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Il2CppString* playerName;
     // public System.Void .ctor()
-    // Offset: 0x1920CFC
+    // Offset: 0xBDC5BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::GuestPlayer* New_ctor();

@@ -69,21 +69,21 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxPlayerHeight
     static void _set_kMaxPlayerHeight(float value);
     // protected System.Void Update()
-    // Offset: 0x1933FA4
+    // Offset: 0xBEF868
     void Update();
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x1934160
+    // Offset: 0xBEFA24
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x19341D8
+    // Offset: 0xBEFA9C
     void $DidActivate$b__9_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0x1933EA8
+    // Offset: 0xBEF76C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0x1934158
+    // Offset: 0xBEFA1C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

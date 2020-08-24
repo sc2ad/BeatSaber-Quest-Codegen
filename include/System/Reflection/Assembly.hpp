@@ -105,147 +105,147 @@ namespace System::Reflection {
     // Offset: 0x58
     ::Il2CppString* assemblyName;
     // private System.String get_code_base(System.Boolean escaped)
-    // Offset: 0x12BEDE8
+    // Offset: 0x1366F30
     ::Il2CppString* get_code_base(bool escaped);
     // private System.String get_fullname()
-    // Offset: 0x12BEDF0
+    // Offset: 0x1366F38
     ::Il2CppString* get_fullname();
     // private System.String get_location()
-    // Offset: 0x12BEDF4
+    // Offset: 0x1366F3C
     ::Il2CppString* get_location();
     // static System.String GetAotId()
-    // Offset: 0x12BEDF8
+    // Offset: 0x1366F40
     static ::Il2CppString* GetAotId();
     // private System.String GetCodeBase(System.Boolean escaped)
-    // Offset: 0x12BEDFC
+    // Offset: 0x1366F44
     ::Il2CppString* GetCodeBase(bool escaped);
     // public System.String get_CodeBase()
-    // Offset: 0x12BEE04
+    // Offset: 0x1366F4C
     ::Il2CppString* get_CodeBase();
     // public System.String get_FullName()
-    // Offset: 0x12BEE0C
+    // Offset: 0x1366F54
     ::Il2CppString* get_FullName();
     // public System.String get_Location()
-    // Offset: 0x12BEE18
+    // Offset: 0x1366F60
     ::Il2CppString* get_Location();
     // System.IntPtr GetManifestResourceInternal(System.String name, System.Int32 size, System.Reflection.Module module)
-    // Offset: 0x12BEFE0
+    // Offset: 0x1367128
     System::IntPtr GetManifestResourceInternal(::Il2CppString* name, int& size, System::Reflection::Module*& module);
     // public System.IO.Stream GetManifestResourceStream(System.String name)
-    // Offset: 0x12BEFE4
+    // Offset: 0x136712C
     System::IO::Stream* GetManifestResourceStream(::Il2CppString* name);
     // System.IO.Stream GetManifestResourceStream(System.Type type, System.String name, System.Boolean skipSecurityCheck, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x12BF3BC
+    // Offset: 0x1367504
     System::IO::Stream* GetManifestResourceStream(System::Type* type, ::Il2CppString* name, bool skipSecurityCheck, System::Threading::StackCrawlMark& stackMark);
     // System.IO.Stream GetManifestResourceStream(System.String name, System.Threading.StackCrawlMark stackMark, System.Boolean skipSecurityCheck)
-    // Offset: 0x12BF550
+    // Offset: 0x1367698
     System::IO::Stream* GetManifestResourceStream(::Il2CppString* name, System::Threading::StackCrawlMark& stackMark, bool skipSecurityCheck);
     // System.String GetSimpleName()
-    // Offset: 0x12BF560
+    // Offset: 0x13676A8
     ::Il2CppString* GetSimpleName();
     // System.Byte[] GetPublicKey()
-    // Offset: 0x12BF590
+    // Offset: 0x13676D8
     ::Array<uint8_t>* GetPublicKey();
     // System.Version GetVersion()
-    // Offset: 0x12BF5C0
+    // Offset: 0x1367708
     System::Version* GetVersion();
     // private System.Reflection.AssemblyNameFlags GetFlags()
-    // Offset: 0x12BF5F0
+    // Offset: 0x1367738
     System::Reflection::AssemblyNameFlags GetFlags();
     // System.Type[] GetTypes(System.Boolean exportedOnly)
-    // Offset: 0x12BF620
+    // Offset: 0x1367768
     ::Array<System::Type*>* GetTypes(bool exportedOnly);
     // public System.Type[] GetTypes()
-    // Offset: 0x12BF628
+    // Offset: 0x1367770
     ::Array<System::Type*>* GetTypes();
     // public System.Type GetType(System.String name)
-    // Offset: 0x12BF63C
+    // Offset: 0x1367784
     System::Type* GetType(::Il2CppString* name);
     // System.Type InternalGetType(System.Reflection.Module module, System.String name, System.Boolean throwOnError, System.Boolean ignoreCase)
-    // Offset: 0x12BF654
+    // Offset: 0x136779C
     System::Type* InternalGetType(System::Reflection::Module* module, ::Il2CppString* name, bool throwOnError, bool ignoreCase);
     // public System.Reflection.AssemblyName GetName(System.Boolean copiedName)
-    // Offset: 0x12BF660
+    // Offset: 0x13677A8
     System::Reflection::AssemblyName* GetName(bool copiedName);
     // public System.Reflection.AssemblyName GetName()
-    // Offset: 0x12BF6C0
+    // Offset: 0x1367808
     System::Reflection::AssemblyName* GetName();
     // static public System.Reflection.Assembly GetAssembly(System.Type type)
-    // Offset: 0x12BF718
+    // Offset: 0x1367860
     static System::Reflection::Assembly* GetAssembly(System::Type* type);
     // System.Reflection.RuntimeAssembly InternalGetSatelliteAssembly(System.String name, System.Globalization.CultureInfo culture, System.Version version, System.Boolean throwOnFileNotFound, System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x12BF7E0
+    // Offset: 0x1367928
     System::Reflection::RuntimeAssembly* InternalGetSatelliteAssembly(::Il2CppString* name, System::Globalization::CultureInfo* culture, System::Version* version, bool throwOnFileNotFound, System::Threading::StackCrawlMark& stackMark);
     // static private System.Reflection.Assembly LoadFrom(System.String assemblyFile, System.Boolean refonly)
-    // Offset: 0x12BFCE0
+    // Offset: 0x1367E28
     static System::Reflection::Assembly* LoadFrom(::Il2CppString* assemblyFile, bool refonly);
     // static public System.Reflection.Assembly LoadFrom(System.String assemblyFile)
-    // Offset: 0x12BFCD8
+    // Offset: 0x1367E20
     static System::Reflection::Assembly* LoadFrom(::Il2CppString* assemblyFile);
     // static public System.Reflection.Assembly Load(System.String assemblyString)
-    // Offset: 0x12BFCE8
+    // Offset: 0x1367E30
     static System::Reflection::Assembly* Load(::Il2CppString* assemblyString);
     // static private System.Reflection.Assembly load_with_partial_name(System.String name, System.Security.Policy.Evidence e)
-    // Offset: 0x12BFD1C
+    // Offset: 0x1367E64
     static System::Reflection::Assembly* load_with_partial_name(::Il2CppString* name, System::Security::Policy::Evidence* e);
     // static public System.Reflection.Assembly LoadWithPartialName(System.String partialName, System.Security.Policy.Evidence securityEvidence)
-    // Offset: 0x12BFD20
+    // Offset: 0x1367E68
     static System::Reflection::Assembly* LoadWithPartialName(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence);
     // static System.Reflection.Assembly LoadWithPartialName(System.String partialName, System.Security.Policy.Evidence securityEvidence, System.Boolean oldBehavior)
-    // Offset: 0x12BFD28
+    // Offset: 0x1367E70
     static System::Reflection::Assembly* LoadWithPartialName(::Il2CppString* partialName, System::Security::Policy::Evidence* securityEvidence, bool oldBehavior);
     // System.Reflection.Module[] GetModulesInternal()
-    // Offset: 0x12BFDD8
+    // Offset: 0x1367F20
     ::Array<System::Reflection::Module*>* GetModulesInternal();
     // public System.String[] GetManifestResourceNames()
-    // Offset: 0x12BFDDC
+    // Offset: 0x1367F24
     ::Array<::Il2CppString*>* GetManifestResourceNames();
     // static public System.Reflection.Assembly GetExecutingAssembly()
-    // Offset: 0x12BFDE0
+    // Offset: 0x1367F28
     static System::Reflection::Assembly* GetExecutingAssembly();
     // static public System.Reflection.Assembly GetCallingAssembly()
-    // Offset: 0x12BFE28
+    // Offset: 0x1367F70
     static System::Reflection::Assembly* GetCallingAssembly();
     // static System.IntPtr InternalGetReferencedAssemblies(System.Reflection.Assembly module)
-    // Offset: 0x12BFE2C
+    // Offset: 0x1367F74
     static System::IntPtr InternalGetReferencedAssemblies(System::Reflection::Assembly* module);
     // static System.Reflection.AssemblyName[] GetReferencedAssemblies(System.Reflection.Assembly module)
-    // Offset: 0x12BFE30
+    // Offset: 0x1367F78
     static ::Array<System::Reflection::AssemblyName*>* GetReferencedAssemblies(System::Reflection::Assembly* module);
     // private System.Boolean GetManifestResourceInfoInternal(System.String name, System.Reflection.ManifestResourceInfo info)
-    // Offset: 0x12C0394
+    // Offset: 0x13684DC
     bool GetManifestResourceInfoInternal(::Il2CppString* name, System::Reflection::ManifestResourceInfo* info);
     // public System.Reflection.ManifestResourceInfo GetManifestResourceInfo(System.String resourceName)
-    // Offset: 0x12C0398
+    // Offset: 0x13684E0
     System::Reflection::ManifestResourceInfo* GetManifestResourceInfo(::Il2CppString* resourceName);
     // public System.Boolean get_ReflectionOnly()
-    // Offset: 0x12C04EC
+    // Offset: 0x1368634
     bool get_ReflectionOnly();
     // static private System.Exception CreateNIE()
-    // Offset: 0x12C05B0
+    // Offset: 0x13686F8
     static System::Exception* CreateNIE();
     // public System.Boolean get_IsFullyTrusted()
-    // Offset: 0x12C0618
+    // Offset: 0x1368760
     bool get_IsFullyTrusted();
     // public System.Type GetType(System.String name, System.Boolean throwOnError, System.Boolean ignoreCase)
-    // Offset: 0x12C0620
+    // Offset: 0x1368768
     System::Type* GetType(::Il2CppString* name, bool throwOnError, bool ignoreCase);
     // public System.Reflection.Module GetModule(System.String name)
-    // Offset: 0x12C0664
+    // Offset: 0x13687AC
     System::Reflection::Module* GetModule(::Il2CppString* name);
     // public System.Reflection.AssemblyName[] GetReferencedAssemblies()
-    // Offset: 0x12C06A8
+    // Offset: 0x13687F0
     ::Array<System::Reflection::AssemblyName*>* GetReferencedAssemblies();
     // public System.Reflection.Module[] GetModules(System.Boolean getResourceModules)
-    // Offset: 0x12C06EC
+    // Offset: 0x1368834
     ::Array<System::Reflection::Module*>* GetModules(bool getResourceModules);
     // protected System.Void .ctor()
-    // Offset: 0x12BED88
+    // Offset: 0x1366ED0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Assembly* New_ctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12BEE80
+    // Offset: 0x1366FC8
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -253,36 +253,36 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x12BEEE0
+    // Offset: 0x1367028
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Boolean ICustomAttributeProvider::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x12BEF60
+    // Offset: 0x13670A8
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Object[] ICustomAttributeProvider::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.String ToString()
-    // Offset: 0x12BF6D4
+    // Offset: 0x136781C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12C04F0
+    // Offset: 0x1368638
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x12C04F4
+    // Offset: 0x136863C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
   }; // System.Reflection.Assembly
   // static public System.Boolean op_Equality(System.Reflection.Assembly left, System.Reflection.Assembly right)
-  // Offset: 0x12C0730
+  // Offset: 0x1368878
   bool operator ==(System::Reflection::Assembly* left, System::Reflection::Assembly& right);
   // static public System.Boolean op_Inequality(System.Reflection.Assembly left, System.Reflection.Assembly right)
-  // Offset: 0x12BF32C
+  // Offset: 0x1367474
   bool operator !=(System::Reflection::Assembly* left, System::Reflection::Assembly& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

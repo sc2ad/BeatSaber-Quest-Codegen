@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores;
     // public System.Void .ctor()
-    // Offset: 0x1941F58
+    // Offset: 0xBFC81C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalLeaderboardsModel::LeaderboardData* New_ctor();

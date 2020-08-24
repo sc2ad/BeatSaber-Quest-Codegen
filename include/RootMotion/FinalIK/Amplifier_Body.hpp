@@ -55,13 +55,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x4C
     bool firstUpdate;
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single w, System.Single deltaTime)
-    // Offset: 0x1306BA0
+    // Offset: 0x13ACCE8
     void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float w, float deltaTime);
     // static private UnityEngine.Vector3 Multiply(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2)
-    // Offset: 0x130700C
+    // Offset: 0x13AD154
     static UnityEngine::Vector3 Multiply(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2);
     // public System.Void .ctor()
-    // Offset: 0x130701C
+    // Offset: 0x13AD164
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Amplifier::Body* New_ctor();

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MissionNodesManager* missionNodesManager;
     // public System.Void .ctor()
-    // Offset: 0x194E35C
+    // Offset: 0xC09C20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

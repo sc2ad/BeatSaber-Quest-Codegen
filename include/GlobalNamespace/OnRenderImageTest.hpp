@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Material* stereoCopyMaterial;
     // private System.Void Start()
-    // Offset: 0xBB1D98
+    // Offset: 0xC3E150
     void Start();
     // private System.Void OnRenderImage(UnityEngine.RenderTexture source, UnityEngine.RenderTexture destination)
-    // Offset: 0xBB1E7C
+    // Offset: 0xC3E234
     void OnRenderImage(UnityEngine::RenderTexture* source, UnityEngine::RenderTexture* destination);
     // public System.Void .ctor()
-    // Offset: 0xBB1F18
+    // Offset: 0xC3E2D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

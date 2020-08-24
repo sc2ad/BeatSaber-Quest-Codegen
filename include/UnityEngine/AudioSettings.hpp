@@ -27,31 +27,31 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.AudioSettings/AudioConfigurationChangeHandler OnAudioConfigurationChanged
     static void _set_OnAudioConfigurationChanged(UnityEngine::AudioSettings::AudioConfigurationChangeHandler* value);
     // static private System.Int32 GetSampleRate()
-    // Offset: 0x18B23AC
+    // Offset: 0x195E4F4
     static int GetSampleRate();
     // static public System.Double get_dspTime()
-    // Offset: 0x18B23E0
+    // Offset: 0x195E528
     static double get_dspTime();
     // static public System.Int32 get_outputSampleRate()
-    // Offset: 0x18B2414
+    // Offset: 0x195E55C
     static int get_outputSampleRate();
     // static public System.String GetSpatializerPluginName()
-    // Offset: 0x18B2448
+    // Offset: 0x195E590
     static ::Il2CppString* GetSpatializerPluginName();
     // static public UnityEngine.AudioConfiguration GetConfiguration()
-    // Offset: 0x18B247C
+    // Offset: 0x195E5C4
     static UnityEngine::AudioConfiguration GetConfiguration();
     // static System.Void InvokeOnAudioConfigurationChanged(System.Boolean deviceWasChanged)
-    // Offset: 0x18B2520
+    // Offset: 0x195E668
     static void InvokeOnAudioConfigurationChanged(bool deviceWasChanged);
     // static System.Boolean StartAudioOutput()
-    // Offset: 0x18B2804
+    // Offset: 0x195E94C
     static bool StartAudioOutput();
     // static System.Boolean StopAudioOutput()
-    // Offset: 0x18B2838
+    // Offset: 0x195E980
     static bool StopAudioOutput();
     // static private System.Void GetConfiguration_Injected(UnityEngine.AudioConfiguration ret)
-    // Offset: 0x18B24E0
+    // Offset: 0x195E628
     static void GetConfiguration_Injected(UnityEngine::AudioConfiguration& ret);
   }; // UnityEngine.AudioSettings
 }

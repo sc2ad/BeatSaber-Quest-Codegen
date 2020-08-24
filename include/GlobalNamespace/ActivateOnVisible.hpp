@@ -24,16 +24,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<UnityEngine::GameObject*>* gameObjects;
     // protected System.Void Awake()
-    // Offset: 0xC0A5FC
+    // Offset: 0xCAD744
     void Awake();
     // private System.Void OnBecameVisible()
-    // Offset: 0xC0A66C
+    // Offset: 0xCAD7B4
     void OnBecameVisible();
     // private System.Void OnBecameInvisible()
-    // Offset: 0xC0A6DC
+    // Offset: 0xCAD824
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0xC0A74C
+    // Offset: 0xCAD894
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

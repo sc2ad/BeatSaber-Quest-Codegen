@@ -53,22 +53,22 @@ namespace GlobalNamespace {
     // Offset: 0x40
     int activeBatteryLifeSegmentsCount;
     // protected System.Void Start()
-    // Offset: 0xB3C118
+    // Offset: 0xB3C12C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB3C790
+    // Offset: 0xB3C7A4
     void OnDestroy();
     // private System.Void Cleanup()
-    // Offset: 0xB3C240
+    // Offset: 0xB3C254
     void Cleanup();
     // private System.Void HandleGameEnergyDidChange(System.Single energy)
-    // Offset: 0xB3C61C
+    // Offset: 0xB3C630
     void HandleGameEnergyDidChange(float energy);
     // public System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
-    // Offset: 0xB3C31C
+    // Offset: 0xB3C330
     void CreateUIForBatteryEnergyType(int batteryLives);
     // public System.Void .ctor()
-    // Offset: 0xB3C794
+    // Offset: 0xB3C7A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

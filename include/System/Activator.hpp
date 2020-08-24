@@ -33,19 +33,19 @@ namespace System {
   class Activator : public ::Il2CppObject {
     public:
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture)
-    // Offset: 0x1018B60
+    // Offset: 0x10BCCA8
     static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, System::Globalization::CultureInfo* culture);
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes)
-    // Offset: 0x1018B68
+    // Offset: 0x10BCCB0
     static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, System::Globalization::CultureInfo* culture, ::Array<::Il2CppObject*>* activationAttributes);
     // static public System.Object CreateInstance(System.Type type, System.Object[] args)
-    // Offset: 0x1018DCC
+    // Offset: 0x10BCF14
     static ::Il2CppObject* CreateInstance(System::Type* type, ::Array<::Il2CppObject*>* args);
     // static public System.Object CreateInstance(System.Type type)
-    // Offset: 0x1018DE4
+    // Offset: 0x10BCF2C
     static ::Il2CppObject* CreateInstance(System::Type* type);
     // static public System.Object CreateInstance(System.Type type, System.Boolean nonPublic)
-    // Offset: 0x1018DEC
+    // Offset: 0x10BCF34
     static ::Il2CppObject* CreateInstance(System::Type* type, bool nonPublic);
     // static public T CreateInstance()
     // Offset: 0xFFFFFFFF

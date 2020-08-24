@@ -35,28 +35,28 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float feverTextRectWidth;
     // protected System.Void Start()
-    // Offset: 0x1931460
+    // Offset: 0xBECD24
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x19315F8
+    // Offset: 0xBECEBC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1931750
+    // Offset: 0xBED014
     void Update();
     // private System.Void SetProgress(System.Single progress)
-    // Offset: 0x1931594
+    // Offset: 0xBECE58
     void SetProgress(float progress);
     // private System.Void HandleFeverModeDidStart()
-    // Offset: 0x19317A0
+    // Offset: 0xBED064
     void HandleFeverModeDidStart();
     // private System.Void HandleFeverModeDidFinish()
-    // Offset: 0x19317A8
+    // Offset: 0xBED06C
     void HandleFeverModeDidFinish();
     // private System.Void HandleFeverModeChargeProgressDidChange(System.Single progress)
-    // Offset: 0x19317B0
+    // Offset: 0xBED074
     void HandleFeverModeChargeProgressDidChange(float progress);
     // public System.Void .ctor()
-    // Offset: 0x19317B4
+    // Offset: 0xBED078
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

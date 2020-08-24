@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* platformEnvironmentInfo;
     // public System.Void .ctor(System.String platformToken, PlatformTokenInfo/PlatformEnvironmentInfo platformEnvironmentInfo)
-    // Offset: 0x191C96C
+    // Offset: 0xBD822C
     static PlatformTokenInfo* New_ctor(::Il2CppString* platformToken, GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* platformEnvironmentInfo);
   }; // PlatformTokenInfo
 }

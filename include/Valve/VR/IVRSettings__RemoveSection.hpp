@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSettings::_RemoveSection : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1625EE0
+    // Offset: 0x16D1028
     static IVRSettings::_RemoveSection* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchSection, Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1625EF4
+    // Offset: 0x16D103C
     void Invoke(::Il2CppString* pchSection, Valve::VR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, Valve.VR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16262F8
+    // Offset: 0x16D1440
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, Valve::VR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(Valve.VR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x1626394
+    // Offset: 0x16D14DC
     void EndInvoke(Valve::VR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSettings/_RemoveSection
 }

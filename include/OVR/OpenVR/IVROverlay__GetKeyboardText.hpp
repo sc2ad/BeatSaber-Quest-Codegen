@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetKeyboardText : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x147A5F8
+    // Offset: 0x1525740
     static IVROverlay::_GetKeyboardText* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.Text.StringBuilder pchText, System.UInt32 cchText)
-    // Offset: 0x147A60C
+    // Offset: 0x1525754
     uint Invoke(System::Text::StringBuilder* pchText, uint cchText);
     // public System.IAsyncResult BeginInvoke(System.Text.StringBuilder pchText, System.UInt32 cchText, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x147AA40
+    // Offset: 0x1525B88
     System::IAsyncResult* BeginInvoke(System::Text::StringBuilder* pchText, uint cchText, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x147AADC
+    // Offset: 0x1525C24
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetKeyboardText
 }

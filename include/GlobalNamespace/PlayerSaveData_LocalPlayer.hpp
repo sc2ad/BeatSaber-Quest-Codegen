@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Offset: 0x78
     System::Collections::Generic::List_1<::Il2CppString*>* favoritesLevelIds;
     // public System.Void .ctor()
-    // Offset: 0x1920C1C
+    // Offset: 0xBDC4DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::LocalPlayer* New_ctor();

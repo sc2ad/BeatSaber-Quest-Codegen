@@ -41,17 +41,17 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::RenderTexture* bloomPrePassRenderTexture;
     // public System.Void OnCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x1785DBC
+    // Offset: 0x182FF04
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPreRender(UnityEngine.Camera camera)
     void OnCameraPreRender(UnityEngine::Camera* camera);
     // public System.Void OnCameraPostRender(UnityEngine.Camera camera)
-    // Offset: 0x1785DC0
+    // Offset: 0x182FF08
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPostRender(UnityEngine.Camera camera)
     void OnCameraPostRender(UnityEngine::Camera* camera);
     // public System.Void .ctor()
-    // Offset: 0x1785DC4
+    // Offset: 0x182FF0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

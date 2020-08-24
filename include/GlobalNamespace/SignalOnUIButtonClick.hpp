@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Button* button;
     // private System.Void OnReset()
-    // Offset: 0xC19C4C
+    // Offset: 0xCBCD94
     void OnReset();
     // protected System.Void Start()
-    // Offset: 0xC19CAC
+    // Offset: 0xCBCDF4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xC19D44
+    // Offset: 0xCBCE8C
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0xC19E20
+    // Offset: 0xCBCF68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

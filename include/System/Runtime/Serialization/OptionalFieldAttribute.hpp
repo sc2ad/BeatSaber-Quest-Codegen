@@ -17,10 +17,10 @@ namespace System::Runtime::Serialization {
     // Offset: 0x10
     int versionAdded;
     // public System.Void set_VersionAdded(System.Int32 value)
-    // Offset: 0xF59AF4
+    // Offset: 0xFFFC3C
     void set_VersionAdded(int value);
     // public System.Void .ctor()
-    // Offset: 0xF59AE4
+    // Offset: 0xFFFC2C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

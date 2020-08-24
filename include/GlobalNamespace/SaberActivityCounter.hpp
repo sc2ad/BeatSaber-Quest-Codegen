@@ -93,40 +93,40 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     GlobalNamespace::MovementHistoryRecorder* handMovementHistoryRecorder;
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xB98A00
+    // Offset: 0xC24DB8
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0xB98AA4
+    // Offset: 0xC24E5C
     void remove_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0xB98B48
+    // Offset: 0xC24F00
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0xB98B50
+    // Offset: 0xC24F08
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0xB98B58
+    // Offset: 0xC24F10
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0xB98B60
+    // Offset: 0xC24F18
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0xB91EC0
+    // Offset: 0xC1E278
     GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0xB91EDC
+    // Offset: 0xC1E294
     GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // protected System.Void Awake()
-    // Offset: 0xB98B68
+    // Offset: 0xC24F20
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xB98C3C
+    // Offset: 0xC24FF4
     void Start();
     // protected System.Void Update()
-    // Offset: 0xB98C8C
+    // Offset: 0xC25044
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB99090
+    // Offset: 0xC25448
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

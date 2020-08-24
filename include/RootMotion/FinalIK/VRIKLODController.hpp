@@ -38,16 +38,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     RootMotion::FinalIK::VRIK* ik;
     // private System.Void Start()
-    // Offset: 0x119CFA4
+    // Offset: 0x12410EC
     void Start();
     // private System.Void Update()
-    // Offset: 0x119D004
+    // Offset: 0x124114C
     void Update();
     // private System.Int32 GetLODLevel()
-    // Offset: 0x119D038
+    // Offset: 0x1241180
     int GetLODLevel();
     // public System.Void .ctor()
-    // Offset: 0x119D1C0
+    // Offset: 0x1241308
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

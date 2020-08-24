@@ -34,16 +34,16 @@ namespace UnityEngine::Analytics {
     // Nested type: UnityEngine::Analytics::DataPrivacy::$$c__DisplayClass9_0
     class $$c__DisplayClass9_0;
     // static UnityEngine.Analytics.DataPrivacy/UserPostData GetUserData()
-    // Offset: 0x18CE650
+    // Offset: 0x197C798
     static UnityEngine::Analytics::DataPrivacy::UserPostData GetUserData();
     // static private System.String GetUserAgent()
-    // Offset: 0x18CE7E8
+    // Offset: 0x197C930
     static ::Il2CppString* GetUserAgent();
     // static private System.String getErrorString(UnityEngine.Networking.UnityWebRequest www)
-    // Offset: 0x18CEA58
+    // Offset: 0x197CBA0
     static ::Il2CppString* getErrorString(UnityEngine::Networking::UnityWebRequest* www);
     // static public System.Void FetchPrivacyUrl(System.Action`1<System.String> success, System.Action`1<System.String> failure)
-    // Offset: 0x18CEB20
+    // Offset: 0x197CC68
     static void FetchPrivacyUrl(System::Action_1<::Il2CppString*>* success, System::Action_1<::Il2CppString*>* failure);
   }; // UnityEngine.Analytics.DataPrivacy
 }

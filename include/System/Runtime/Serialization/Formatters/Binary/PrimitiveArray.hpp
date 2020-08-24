@@ -57,13 +57,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x68
     ::Array<uint64_t>* uint64A;
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0xF4A980
+    // Offset: 0xFF0AC8
     static PrimitiveArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array);
     // System.Void Init(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
-    // Offset: 0xF4A9C0
+    // Offset: 0xFF0B08
     void Init(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array);
     // System.Void SetValue(System.String value, System.Int32 index)
-    // Offset: 0xF4AC88
+    // Offset: 0xFF0DD0
     void SetValue(::Il2CppString* value, int index);
   }; // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
 }

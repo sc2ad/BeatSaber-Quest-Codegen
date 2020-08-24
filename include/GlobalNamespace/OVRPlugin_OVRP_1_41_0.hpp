@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0xEA4060
+    // Offset: 0xF491A8
     static void _cctor();
   }; // OVRPlugin/OVRP_1_41_0
 }

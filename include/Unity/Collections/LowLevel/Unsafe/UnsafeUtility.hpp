@@ -21,7 +21,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class UnsafeUtility : public ::Il2CppObject {
     public:
     // static public System.Void Free(System.Void* memory, Unity.Collections.Allocator allocator)
-    // Offset: 0x125C9A8
+    // Offset: 0x1302AF0
     static void Free(void* memory, Unity::Collections::Allocator allocator);
     // static public T ReadArrayElement(System.Void* source, System.Int32 index)
     // Offset: 0xFFFFFFFF

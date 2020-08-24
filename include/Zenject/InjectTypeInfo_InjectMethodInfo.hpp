@@ -32,7 +32,7 @@ namespace Zenject {
     // Offset: 0x20
     ::Array<Zenject::InjectableInfo*>* Parameters;
     // public System.Void .ctor(Zenject.ZenInjectMethod action, Zenject.InjectableInfo[] parameters, System.String name)
-    // Offset: 0x18B4BC8
+    // Offset: 0x1961D10
     static InjectTypeInfo::InjectMethodInfo* New_ctor(Zenject::ZenInjectMethod* action, ::Array<Zenject::InjectableInfo*>* parameters, ::Il2CppString* name);
   }; // Zenject.InjectTypeInfo/InjectMethodInfo
 }

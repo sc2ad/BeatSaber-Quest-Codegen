@@ -46,34 +46,34 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Color color;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xB9374C
+    // Offset: 0xC1FB04
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0xB937F0
+    // Offset: 0xC1FBA8
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xB93894
+    // Offset: 0xC1FC4C
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xB938A0
+    // Offset: 0xC1FC58
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0xB93AA0
+    // Offset: 0xC1FE58
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB93BA4
+    // Offset: 0xC1FF5C
     void OnDestroy();
     // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0xB93D78
+    // Offset: 0xC20130
     void HandleSliderColorDidChange(HMUI::ColorGradientSlider* slider, UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0xB93A48
+    // Offset: 0xC1FE00
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0xB938CC
+    // Offset: 0xC1FC84
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0xB93E1C
+    // Offset: 0xC201D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

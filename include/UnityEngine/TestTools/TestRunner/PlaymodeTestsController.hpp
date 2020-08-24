@@ -88,34 +88,34 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set static field: static System.String kPlaymodeTestControllerName
     static void _set_kPlaymodeTestControllerName(::Il2CppString* value);
     // public System.Collections.Generic.List`1<System.String> get_AssembliesWithTests()
-    // Offset: 0xDA38A0
+    // Offset: 0xE489E8
     System::Collections::Generic::List_1<::Il2CppString*>* get_AssembliesWithTests();
     // public System.Void set_AssembliesWithTests(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0xDA38A8
+    // Offset: 0xE489F0
     void set_AssembliesWithTests(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public System.Collections.IEnumerator Start()
-    // Offset: 0xDA38B0
+    // Offset: 0xE489F8
     System::Collections::IEnumerator* Start();
     // static System.Boolean IsControllerOnScene()
-    // Offset: 0xDA3958
+    // Offset: 0xE48AA0
     static bool IsControllerOnScene();
     // static UnityEngine.TestTools.TestRunner.PlaymodeTestsController GetController()
-    // Offset: 0xDA39DC
+    // Offset: 0xE48B24
     static UnityEngine::TestTools::TestRunner::PlaymodeTestsController* GetController();
     // public System.Collections.IEnumerator TestRunnerCoroutine()
-    // Offset: 0xDA3A40
+    // Offset: 0xE48B88
     System::Collections::IEnumerator* TestRunnerCoroutine();
     // public System.Collections.IEnumerator Run()
-    // Offset: 0xDA3AE8
+    // Offset: 0xE48C30
     System::Collections::IEnumerator* Run();
     // public System.Void Cleanup()
-    // Offset: 0xDA3B90
+    // Offset: 0xE48CD8
     void Cleanup();
     // static public System.Void TryCleanup()
-    // Offset: 0xDA3C64
+    // Offset: 0xE48DAC
     static void TryCleanup();
     // public System.Void .ctor()
-    // Offset: 0xDA3CF8
+    // Offset: 0xE48E40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

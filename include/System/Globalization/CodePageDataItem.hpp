@@ -28,16 +28,16 @@ namespace System::Globalization {
     // Set static field: static private readonly System.Char[] sep
     static void _set_sep(::Array<::Il2CppChar>* value);
     // System.Void .ctor(System.Int32 dataIndex)
-    // Offset: 0xD093EC
+    // Offset: 0xDAD534
     static CodePageDataItem* New_ctor(int dataIndex);
     // static System.String CreateString(System.String pStrings, System.UInt32 index)
-    // Offset: 0xD094C8
+    // Offset: 0xDAD610
     static ::Il2CppString* CreateString(::Il2CppString* pStrings, uint index);
     // public System.String get_WebName()
-    // Offset: 0xD0959C
+    // Offset: 0xDAD6E4
     ::Il2CppString* get_WebName();
     // static private System.Void .cctor()
-    // Offset: 0xD09688
+    // Offset: 0xDAD7D0
     static void _cctor();
   }; // System.Globalization.CodePageDataItem
 }

@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::BeatmapDataLoader::NotesInTimeRowProcessor* notesInTimeRowProcessor;
     // private System.Single GetRealTimeFromBPMTime(System.Single bmpTime, System.Single bpm, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x18FA168
+    // Offset: 0xB936C8
     float GetRealTimeFromBPMTime(float bmpTime, float bpm, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromBeatmapSaveData(System.Collections.Generic.List`1<BeatmapSaveData/NoteData> notesSaveData, System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> obstaclesSaveData, System.Collections.Generic.List`1<BeatmapSaveData/EventData> eventsSaveData, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x18FA1BC
+    // Offset: 0xB9371C
     GlobalNamespace::BeatmapData* GetBeatmapDataFromBeatmapSaveData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstaclesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* eventsSaveData, float startBPM, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromBinary(System.Byte[] data, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x18FB3D8
+    // Offset: 0xB94938
     GlobalNamespace::BeatmapData* GetBeatmapDataFromBinary(::Array<uint8_t>* data, float startBPM, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromJson(System.String json, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
-    // Offset: 0x18FB44C
+    // Offset: 0xB949AC
     GlobalNamespace::BeatmapData* GetBeatmapDataFromJson(::Il2CppString* json, float startBPM, float shuffle, float shufflePeriod);
     // public System.Void .ctor()
-    // Offset: 0x18FB4C0
+    // Offset: 0xB94A20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataLoader* New_ctor();

@@ -32,30 +32,30 @@ namespace UnityEngine::Networking {
   class DownloadHandlerAudioClip : public UnityEngine::Networking::DownloadHandler {
     public:
     // static private System.IntPtr Create(UnityEngine.Networking.DownloadHandlerAudioClip obj, System.String url, UnityEngine.AudioType audioType)
-    // Offset: 0x18D18D8
+    // Offset: 0x1980EE8
     static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::Il2CppString* url, UnityEngine::AudioType audioType);
     // private System.Void InternalCreateAudioClip(System.String url, UnityEngine.AudioType audioType)
-    // Offset: 0x18D1930
+    // Offset: 0x1980F40
     void InternalCreateAudioClip(::Il2CppString* url, UnityEngine::AudioType audioType);
     // public System.Void .ctor(System.String url, UnityEngine.AudioType audioType)
-    // Offset: 0x18D1990
+    // Offset: 0x1980FA0
     static DownloadHandlerAudioClip* New_ctor(::Il2CppString* url, UnityEngine::AudioType audioType);
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x18D1A6C
+    // Offset: 0x198107C
     UnityEngine::AudioClip* get_audioClip();
     // public System.Void set_streamAudio(System.Boolean value)
-    // Offset: 0x18D1AAC
+    // Offset: 0x19810BC
     void set_streamAudio(bool value);
     // static public UnityEngine.AudioClip GetContent(UnityEngine.Networking.UnityWebRequest www)
-    // Offset: 0x18D1AFC
+    // Offset: 0x198110C
     static UnityEngine::AudioClip* GetContent(UnityEngine::Networking::UnityWebRequest* www);
     // protected override System.Byte[] GetData()
-    // Offset: 0x18D19F8
+    // Offset: 0x1981008
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Byte[] DownloadHandler::GetData()
     ::Array<uint8_t>* GetData();
     // protected override System.String GetText()
-    // Offset: 0x18D1A00
+    // Offset: 0x1981010
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.String DownloadHandler::GetText()
     ::Il2CppString* GetText();

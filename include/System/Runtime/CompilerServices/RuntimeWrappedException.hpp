@@ -26,10 +26,10 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x88
     ::Il2CppObject* m_wrappedException;
     // private System.Void .ctor(System.Object thrownObject)
-    // Offset: 0x10C4ABC
+    // Offset: 0x1166C04
     static RuntimeWrappedException* New_ctor(::Il2CppObject* thrownObject);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10C4B74
+    // Offset: 0x1166CBC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -37,12 +37,12 @@ namespace System::Runtime::CompilerServices {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10C4C80
+    // Offset: 0x1166DC8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static RuntimeWrappedException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor()
-    // Offset: 0x10C4D7C
+    // Offset: 0x1166EC4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()

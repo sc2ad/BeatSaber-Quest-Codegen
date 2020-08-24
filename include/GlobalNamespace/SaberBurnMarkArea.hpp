@@ -105,22 +105,22 @@ namespace GlobalNamespace {
     // Offset: 0x130
     UnityEngine::Material* fadeOutMaterial;
     // protected System.Void Start()
-    // Offset: 0xB9984C
+    // Offset: 0xC25C04
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB9A124
+    // Offset: 0xC264DC
     void OnDestroy();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0xB9A398
+    // Offset: 0xC26750
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // private UnityEngine.Vector3 WorldToCameraBurnMarkPos(UnityEngine.Vector3 pos)
-    // Offset: 0xB9A628
+    // Offset: 0xC269E0
     UnityEngine::Vector3 WorldToCameraBurnMarkPos(UnityEngine::Vector3 pos);
     // protected System.Void LateUpdate()
-    // Offset: 0xB9A750
+    // Offset: 0xC26B08
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0xB9AEB8
+    // Offset: 0xC27270
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

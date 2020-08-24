@@ -23,7 +23,7 @@ namespace System {
   class DivideByZeroException : public System::ArithmeticException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xCFDB44
+    // Offset: 0xDA1C8C
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,7 +31,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static DivideByZeroException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xCFDBB0
+    // Offset: 0xDA1CF8
     // Implemented from: System.ArithmeticException
     // Base method: System.Void ArithmeticException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

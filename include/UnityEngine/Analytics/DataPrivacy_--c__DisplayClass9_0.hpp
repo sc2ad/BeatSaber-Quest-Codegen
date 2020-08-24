@@ -41,10 +41,10 @@ namespace UnityEngine::Analytics {
     // Offset: 0x20
     System::Action_1<::Il2CppString*>* success;
     // System.Void <FetchPrivacyUrl>b__0(UnityEngine.AsyncOperation async2)
-    // Offset: 0x18CED2C
+    // Offset: 0x197CE74
     void $FetchPrivacyUrl$b__0(UnityEngine::AsyncOperation* async2);
     // public System.Void .ctor()
-    // Offset: 0x18CED24
+    // Offset: 0x197CE6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DataPrivacy::$$c__DisplayClass9_0* New_ctor();

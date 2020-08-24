@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x20
     Oculus::Platform::Models::User* User;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE058C8
+    // Offset: 0xEAAA10
     static MatchmakingEnqueuedUser* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingEnqueuedUser
 }

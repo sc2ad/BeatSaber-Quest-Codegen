@@ -19,36 +19,36 @@ namespace UnityEngine {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // static private System.IntPtr Init()
-    // Offset: 0x126E104
+    // Offset: 0x131424C
     static System::IntPtr Init();
     // private System.Void Cleanup()
-    // Offset: 0x126E138
+    // Offset: 0x1314280
     void Cleanup();
     // private System.Boolean Internal_Equals(System.IntPtr other)
-    // Offset: 0x126E178
+    // Offset: 0x13142C0
     bool Internal_Equals(System::IntPtr other);
     // public System.Void .ctor()
-    // Offset: 0x126E1C8
+    // Offset: 0x1314310
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Gradient* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x126E214
+    // Offset: 0x131435C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x126E2A0
+    // Offset: 0x13143E8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public System.Boolean Equals(UnityEngine.Gradient other)
-    // Offset: 0x126E37C
+    // Offset: 0x13144C4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Gradient other)
     bool Equals(UnityEngine::Gradient* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x126E44C
+    // Offset: 0x1314594
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

@@ -39,43 +39,43 @@ namespace Zenject {
     // Offset: 0x30
     System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* $$7__wrap1;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xE97A48
+    // Offset: 0xF3CB90
     static InjectContext::$get_ParentContextsAndSelf$d__54* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xE98B00
+    // Offset: 0xF3DC48
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xE98AE4
+    // Offset: 0xF3DC2C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xE98BC0
+    // Offset: 0xF3DD08
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private Zenject.InjectContext System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current()
-    // Offset: 0xE98E84
+    // Offset: 0xF3DFCC
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     Zenject::InjectContext* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xE98E8C
+    // Offset: 0xF3DFD4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xE98EEC
+    // Offset: 0xF3E034
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator()
-    // Offset: 0xE98EF4
+    // Offset: 0xF3E03C
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xE98FA8
+    // Offset: 0xF3E0F0
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

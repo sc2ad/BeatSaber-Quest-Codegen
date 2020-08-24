@@ -39,22 +39,22 @@ namespace System::Threading {
     // Set static field: static System.Threading.ContextCallback _ccb
     static void _set__ccb(System::Threading::ContextCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0xC468F8
+    // Offset: 0xCEAA40
     static void _cctor();
     // System.Void .ctor(System.Delegate start)
-    // Offset: 0xC45FA8
+    // Offset: 0xCEA0F0
     static ThreadHelper* New_ctor(System::Delegate* start);
     // System.Void SetExecutionContextHelper(System.Threading.ExecutionContext ec)
-    // Offset: 0xC46978
+    // Offset: 0xCEAAC0
     void SetExecutionContextHelper(System::Threading::ExecutionContext* ec);
     // static private System.Void ThreadStart_Context(System.Object state)
-    // Offset: 0xC46980
+    // Offset: 0xCEAAC8
     static void ThreadStart_Context(::Il2CppObject* state);
     // System.Void ThreadStart(System.Object obj)
-    // Offset: 0xC46C70
+    // Offset: 0xCEADB8
     void ThreadStart(::Il2CppObject* obj);
     // System.Void ThreadStart()
-    // Offset: 0xC46D78
+    // Offset: 0xCEAEC0
     void ThreadStart();
   }; // System.Threading.ThreadHelper
 }

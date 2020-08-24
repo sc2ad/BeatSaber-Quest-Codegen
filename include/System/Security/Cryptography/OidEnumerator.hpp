@@ -27,20 +27,20 @@ namespace System::Security::Cryptography {
     // Offset: 0x18
     int m_current;
     // System.Void .ctor(System.Security.Cryptography.OidCollection oids)
-    // Offset: 0x117861C
+    // Offset: 0x121C764
     static OidEnumerator* New_ctor(System::Security::Cryptography::OidCollection* oids);
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1178854
+    // Offset: 0x121C99C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x1178874
+    // Offset: 0x121C9BC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x11788DC
+    // Offset: 0x121CA24
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

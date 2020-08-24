@@ -35,19 +35,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single RescaleFactor
     static void _set_RescaleFactor(float value);
     // static public System.Void Save(System.String filepath, UnityEngine.AudioClip clip, System.Single start, System.Single duration)
-    // Offset: 0xB9E85C
+    // Offset: 0xC2AC14
     static void Save(::Il2CppString* filepath, UnityEngine::AudioClip* clip, float start, float duration);
     // static public System.Byte[] GetWav(UnityEngine.AudioClip clip, System.UInt32 length, System.Single start, System.Single duration)
-    // Offset: 0xB9EB1C
+    // Offset: 0xC2AED4
     static ::Array<uint8_t>* GetWav(UnityEngine::AudioClip* clip, uint& length, float start, float duration);
     // static private System.Byte[] ConvertAndWrite(UnityEngine.AudioClip clip, System.UInt32 length, System.UInt32 samplesAfterTrimming, System.Single start, System.Single duration)
-    // Offset: 0xB9EB68
+    // Offset: 0xC2AF20
     static ::Array<uint8_t>* ConvertAndWrite(UnityEngine::AudioClip* clip, uint& length, uint& samplesAfterTrimming, float start, float duration);
     // static private System.Void AddDataToBuffer(System.Byte[] buffer, System.UInt32 offset, System.Byte[] addBytes)
-    // Offset: 0xB9F01C
+    // Offset: 0xC2B3D4
     static void AddDataToBuffer(::Array<uint8_t>* buffer, uint& offset, ::Array<uint8_t>* addBytes);
     // static private System.Void WriteHeader(System.Byte[] stream, UnityEngine.AudioClip clip, System.UInt32 length, System.UInt32 samples)
-    // Offset: 0xB9ED8C
+    // Offset: 0xC2B144
     static void WriteHeader(::Array<uint8_t>* stream, UnityEngine::AudioClip* clip, uint length, uint samples);
   }; // SavWav
 }

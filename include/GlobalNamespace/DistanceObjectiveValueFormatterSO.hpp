@@ -14,12 +14,12 @@ namespace GlobalNamespace {
   class DistanceObjectiveValueFormatterSO : public GlobalNamespace::ObjectiveValueFormatterSO {
     public:
     // public override System.String FormatValue(System.Int32 value)
-    // Offset: 0x192D26C
+    // Offset: 0xBE8B30
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
     ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x192D2E8
+    // Offset: 0xBE8BAC
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.Void ObjectiveValueFormatterSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

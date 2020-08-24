@@ -51,26 +51,26 @@ namespace GlobalNamespace {
     // Offset: 0x80
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // public System.Void set_text(System.String value)
-    // Offset: 0x1916CB4
+    // Offset: 0xBD2574
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x1916CD0
+    // Offset: 0xBD2590
     ::Il2CppString* get_text();
     // private System.Void RefreshVisuals()
-    // Offset: 0x1916CF0
+    // Offset: 0xBD25B0
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x1916CEC
+    // Offset: 0xBD25AC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x1916D80
+    // Offset: 0xBD2640
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x1916D84
+    // Offset: 0xBD2644
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()

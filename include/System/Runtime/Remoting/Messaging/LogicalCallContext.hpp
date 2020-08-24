@@ -79,39 +79,39 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static private System.String s_CorrelationMgrSlotName
     static void _set_s_CorrelationMgrSlotName(::Il2CppString* value);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFC647C
+    // Offset: 0x106A5C4
     static LogicalCallContext* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void Merge(System.Runtime.Remoting.Messaging.LogicalCallContext lc)
-    // Offset: 0xFC7148
+    // Offset: 0x106B290
     void Merge(System::Runtime::Remoting::Messaging::LogicalCallContext* lc);
     // public System.Boolean get_HasInfo()
-    // Offset: 0xFC2050
+    // Offset: 0x1066198
     bool get_HasInfo();
     // private System.Boolean get_HasUserData()
-    // Offset: 0xFC6B14
+    // Offset: 0x106AC5C
     bool get_HasUserData();
     // private System.Collections.Hashtable get_Datastore()
-    // Offset: 0xFC6784
+    // Offset: 0x106A8CC
     System::Collections::Hashtable* get_Datastore();
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0xFC2E90
+    // Offset: 0x1066FD8
     void FreeNamedDataSlot(::Il2CppString* name);
     // public System.Object GetData(System.String name)
-    // Offset: 0xFC7388
+    // Offset: 0x106B4D0
     ::Il2CppObject* GetData(::Il2CppString* name);
     // public System.Void SetData(System.String name, System.Object data)
-    // Offset: 0xFC2F40
+    // Offset: 0x1067088
     void SetData(::Il2CppString* name, ::Il2CppObject* data);
     // static private System.Void .cctor()
-    // Offset: 0xFC73C0
+    // Offset: 0x106B508
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0xFC6474
+    // Offset: 0x106A5BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LogicalCallContext* New_ctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFC67FC
+    // Offset: 0x106A944
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -119,7 +119,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object Clone()
-    // Offset: 0xFC6B44
+    // Offset: 0x106AC8C
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();

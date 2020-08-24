@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     bool spawnMisses;
     // public System.Void .ctor(System.Boolean spawnMisses)
-    // Offset: 0x19490D4
+    // Offset: 0xC03998
     static MissedNoteEffectSpawner::InitData* New_ctor(bool spawnMisses);
   }; // MissedNoteEffectSpawner/InitData
 }

@@ -16,7 +16,7 @@ namespace TMPro {
   class TMP_InputField::TextSelectionEvent : public UnityEngine::Events::UnityEvent_3<::Il2CppString*, int, int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB6D7F8
+    // Offset: 0xBACCD0
     // Implemented from: UnityEngine.Events.UnityEvent`3
     // Base method: System.Void UnityEvent`3::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

@@ -27,23 +27,23 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: Hand
     Hand(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
     // System.UInt64 get_deviceId()
-    // Offset: 0x9C5744
+    // Offset: 0xA5EDBC
     uint64_t get_deviceId();
     // System.UInt32 get_featureIndex()
-    // Offset: 0x9C574C
+    // Offset: 0xA5EDC4
     uint get_featureIndex();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x9C5754
+    // Offset: 0xA5EDCC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.Hand other)
-    // Offset: 0x9C575C
+    // Offset: 0xA5EDD4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.Hand other)
     bool Equals(UnityEngine::XR::Hand other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x9C5780
+    // Offset: 0xA5EDF8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

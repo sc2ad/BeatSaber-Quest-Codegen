@@ -29,16 +29,16 @@ namespace System::IO {
     // Offset: 0x98
     ::Il2CppString* fusionLog;
     // private System.Void SetMessageField()
-    // Offset: 0x1092B0C
+    // Offset: 0x1134C54
     void SetMessageField();
     // public System.String get_FusionLog()
-    // Offset: 0x1092FF4
+    // Offset: 0x113513C
     ::Il2CppString* get_FusionLog();
     // static System.String FormatFileLoadExceptionMessage(System.String fileName, System.Int32 hResult)
-    // Offset: 0x1092B54
+    // Offset: 0x1134C9C
     static ::Il2CppString* FormatFileLoadExceptionMessage(::Il2CppString* fileName, int hResult);
     // public System.Void .ctor()
-    // Offset: 0x1092A10
+    // Offset: 0x1134B58
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -46,31 +46,31 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     static FileLoadException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1092A9C
+    // Offset: 0x1134BE4
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static FileLoadException* New_ctor(::Il2CppString* message);
     // public override System.String get_Message()
-    // Offset: 0x1092AE8
+    // Offset: 0x1134C30
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
     // public override System.String ToString()
-    // Offset: 0x1092BD0
+    // Offset: 0x1134D18
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1092E9C
+    // Offset: 0x1134FE4
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static FileLoadException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1092FFC
+    // Offset: 0x1135144
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

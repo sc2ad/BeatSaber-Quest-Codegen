@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class NoteCutSoundEffect::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::NoteCutSoundEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x195CD48
+    // Offset: 0xC1860C
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()

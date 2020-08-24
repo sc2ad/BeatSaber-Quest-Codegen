@@ -19,7 +19,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x10
     System::DateTime date;
     // public override System.Object get_Value()
-    // Offset: 0x10C47E0
+    // Offset: 0x1166928
     // Implemented from: System.Runtime.CompilerServices.CustomConstantAttribute
     // Base method: System.Object CustomConstantAttribute::get_Value()
     ::Il2CppObject* get_Value();

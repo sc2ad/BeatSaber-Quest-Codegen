@@ -38,51 +38,51 @@ namespace UnityEngine::Audio {
     // Creating value type constructor for type: AudioClipPlayable
     AudioClipPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Audio.AudioClipPlayable Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AudioClip clip, System.Boolean looping)
-    // Offset: 0x18AFCCC
+    // Offset: 0x195BE14
     static UnityEngine::Audio::AudioClipPlayable Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AudioClip* clip, bool looping);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AudioClip clip, System.Boolean looping)
-    // Offset: 0x18AFDF4
+    // Offset: 0x195BF3C
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AudioClip* clip, bool looping);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x9C5434
+    // Offset: 0xA5EAAC
     static AudioClipPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // System.Void SetVolume(System.Single value)
-    // Offset: 0x9C5450
+    // Offset: 0xA5EAC8
     void SetVolume(float value);
     // System.Void SetStereoPan(System.Single value)
-    // Offset: 0x9C5458
+    // Offset: 0xA5EAD0
     void SetStereoPan(float value);
     // System.Void SetSpatialBlend(System.Single value)
-    // Offset: 0x9C5460
+    // Offset: 0xA5EAD8
     void SetSpatialBlend(float value);
     // public System.Void Seek(System.Double startTime, System.Double startDelay, System.Double duration)
-    // Offset: 0x9C5468
+    // Offset: 0xA5EAE0
     void Seek(double startTime, double startDelay, double duration);
     // static private System.Void SetVolumeInternal(UnityEngine.Playables.PlayableHandle hdl, System.Single volume)
-    // Offset: 0x18B0244
+    // Offset: 0x195C38C
     static void SetVolumeInternal(UnityEngine::Playables::PlayableHandle& hdl, float volume);
     // static private System.Void SetStereoPanInternal(UnityEngine.Playables.PlayableHandle hdl, System.Single stereoPan)
-    // Offset: 0x18B0390
+    // Offset: 0x195C4D8
     static void SetStereoPanInternal(UnityEngine::Playables::PlayableHandle& hdl, float stereoPan);
     // static private System.Void SetSpatialBlendInternal(UnityEngine.Playables.PlayableHandle hdl, System.Single spatialBlend)
-    // Offset: 0x18B04D8
+    // Offset: 0x195C620
     static void SetSpatialBlendInternal(UnityEngine::Playables::PlayableHandle& hdl, float spatialBlend);
     // static private System.Void SetStartDelayInternal(UnityEngine.Playables.PlayableHandle hdl, System.Double delay)
-    // Offset: 0x18B062C
+    // Offset: 0x195C774
     static void SetStartDelayInternal(UnityEngine::Playables::PlayableHandle& hdl, double delay);
     // static private System.Void SetPauseDelayInternal(UnityEngine.Playables.PlayableHandle hdl, System.Double delay)
-    // Offset: 0x18B067C
+    // Offset: 0x195C7C4
     static void SetPauseDelayInternal(UnityEngine::Playables::PlayableHandle& hdl, double delay);
     // static private System.Boolean InternalCreateAudioClipPlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AudioClip clip, System.Boolean looping, UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x18AFFD4
+    // Offset: 0x195C11C
     static bool InternalCreateAudioClipPlayable(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::AudioClip* clip, bool looping, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0x9C543C
+    // Offset: 0xA5EAB4
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Audio.AudioClipPlayable other)
-    // Offset: 0x9C5448
+    // Offset: 0xA5EAC0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Audio.AudioClipPlayable other)
     bool Equals(UnityEngine::Audio::AudioClipPlayable other);

@@ -24,13 +24,13 @@ namespace System::Runtime::Remoting {
     // Offset: 0x20
     System::Type* obj_type;
     // public System.Void .ctor(System.String typeName, System.String assemblyName)
-    // Offset: 0xFAE300
+    // Offset: 0x1052448
     static ActivatedServiceTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName);
     // public System.Type get_ObjectType()
-    // Offset: 0xFAE450
+    // Offset: 0x1052598
     System::Type* get_ObjectType();
     // public override System.String ToString()
-    // Offset: 0xFAE458
+    // Offset: 0x10525A0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

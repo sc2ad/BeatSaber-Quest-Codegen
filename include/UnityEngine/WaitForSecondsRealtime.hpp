@@ -20,16 +20,16 @@ namespace UnityEngine {
     // Offset: 0x14
     float m_WaitUntilTime;
     // public System.Single get_waitTime()
-    // Offset: 0x12F7EA4
+    // Offset: 0x139EFEC
     float get_waitTime();
     // public System.Void set_waitTime(System.Single value)
-    // Offset: 0x12F7EAC
+    // Offset: 0x139EFF4
     void set_waitTime(float value);
     // public System.Void .ctor(System.Single time)
-    // Offset: 0x12F7F44
+    // Offset: 0x139F08C
     static WaitForSecondsRealtime* New_ctor(float time);
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x12F7EB4
+    // Offset: 0x139EFFC
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();

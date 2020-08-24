@@ -56,25 +56,25 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::Coroutine* coroutine;
     // public System.Void FadeOutInstant()
-    // Offset: 0xC0D954
+    // Offset: 0xCB0A9C
     void FadeOutInstant();
     // public System.Void FadeIn()
-    // Offset: 0xC0DA2C
+    // Offset: 0xCB0B74
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0xC0DB0C
+    // Offset: 0xCB0C54
     void FadeOut();
     // public System.Void FadeIn(System.Single duration)
-    // Offset: 0xC0DA34
+    // Offset: 0xCB0B7C
     void FadeIn(float duration);
     // public System.Void FadeOut(System.Single duration)
-    // Offset: 0xC0D95C
+    // Offset: 0xCB0AA4
     void FadeOut(float duration);
     // private System.Collections.IEnumerator Fade(System.Single fromValue, System.Single toValue, System.Single duration, System.Single startDelay, UnityEngine.AnimationCurve curve)
-    // Offset: 0xC0DB14
+    // Offset: 0xCB0C5C
     System::Collections::IEnumerator* Fade(float fromValue, float toValue, float duration, float startDelay, UnityEngine::AnimationCurve* curve);
     // public System.Void .ctor()
-    // Offset: 0xC0DC04
+    // Offset: 0xCB0D4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

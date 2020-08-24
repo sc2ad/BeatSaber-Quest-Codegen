@@ -14,7 +14,7 @@ namespace System::Runtime::InteropServices {
   class OutAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFADAD0
+    // Offset: 0x1051C18
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

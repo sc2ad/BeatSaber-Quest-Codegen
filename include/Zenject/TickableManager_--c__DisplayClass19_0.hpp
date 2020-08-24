@@ -35,10 +35,10 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::ILateTickable* tickable;
     // System.Boolean <InitLateTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xF30830
+    // Offset: 0xFD5978
     bool $InitLateTickables$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0xF302F4
+    // Offset: 0xFD543C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TickableManager::$$c__DisplayClass19_0* New_ctor();

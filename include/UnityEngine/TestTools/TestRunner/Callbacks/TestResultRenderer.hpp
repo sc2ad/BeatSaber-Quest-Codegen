@@ -51,16 +51,16 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static private System.Int32 k_MaxStringLength
     static void _set_k_MaxStringLength(int value);
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xDA03EC
+    // Offset: 0xE45534
     static TestResultRenderer* New_ctor(NUnit::Framework::Interfaces::ITestResult* testResults);
     // private System.Void GetFailedTests(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0xDA1A74
+    // Offset: 0xE46BBC
     void GetFailedTests(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void ShowResults()
-    // Offset: 0xDA0480
+    // Offset: 0xE455C8
     void ShowResults();
     // public System.Void Draw()
-    // Offset: 0xDA04AC
+    // Offset: 0xE455F4
     void Draw();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
 }

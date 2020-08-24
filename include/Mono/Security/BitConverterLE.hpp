@@ -12,10 +12,10 @@ namespace Mono::Security {
   class BitConverterLE : public ::Il2CppObject {
     public:
     // static private System.Byte[] GetUIntBytes(System.Byte* bytes)
-    // Offset: 0x18CE3F0
+    // Offset: 0x197C538
     static ::Array<uint8_t>* GetUIntBytes(uint8_t* bytes);
     // static System.Byte[] GetBytes(System.Int32 value)
-    // Offset: 0x18CE018
+    // Offset: 0x197C160
     static ::Array<uint8_t>* GetBytes(int value);
   }; // Mono.Security.BitConverterLE
 }

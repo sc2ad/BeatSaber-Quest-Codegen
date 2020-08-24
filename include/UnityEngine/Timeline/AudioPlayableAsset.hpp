@@ -59,45 +59,45 @@ namespace UnityEngine::Timeline {
     // Offset: 0x28
     UnityEngine::Timeline::AudioClipProperties* m_ClipProperties;
     // System.Single get_bufferingTime()
-    // Offset: 0xFF09D8
+    // Offset: 0x1094B20
     float get_bufferingTime();
     // System.Void set_bufferingTime(System.Single value)
-    // Offset: 0xFF09E0
+    // Offset: 0x1094B28
     void set_bufferingTime(float value);
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0xFF09E8
+    // Offset: 0x1094B30
     UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0xFF09F0
+    // Offset: 0x1094B38
     void set_clip(UnityEngine::AudioClip* value);
     // public System.Boolean get_loop()
-    // Offset: 0xFF09F8
+    // Offset: 0x1094B40
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0xFF0A00
+    // Offset: 0x1094B48
     void set_loop(bool value);
     // public override System.Double get_duration()
-    // Offset: 0xFF0A0C
+    // Offset: 0x1094B54
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Double PlayableAsset::get_duration()
     double get_duration();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0xFF0AD0
+    // Offset: 0x1094C18
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> PlayableAsset::get_outputs()
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0xFF0B94
+    // Offset: 0x1094CDC
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0xFF0CC0
+    // Offset: 0x1094E08
     // Implemented from: UnityEngine.Timeline.ITimelineClipAsset
     // Base method: UnityEngine.Timeline.ClipCaps ITimelineClipAsset::get_clipCaps()
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0xFF0CCC
+    // Offset: 0x1094E14
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

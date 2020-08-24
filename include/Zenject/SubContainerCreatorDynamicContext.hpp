@@ -39,10 +39,10 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::DiContainer* container;
     // public System.Void .ctor(Zenject.DiContainer container)
-    // Offset: 0xF2D114
+    // Offset: 0xFD225C
     static SubContainerCreatorDynamicContext* New_ctor(Zenject::DiContainer* container);
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0xF2E38C
+    // Offset: 0xFD34D4
     Zenject::DiContainer* get_Container();
     // protected System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     // Offset: 0xFFFFFFFF
@@ -51,7 +51,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     UnityEngine::GameObject* CreateGameObject(bool& shouldMakeActive);
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)
-    // Offset: 0xF2E394
+    // Offset: 0xFD34DC
     // Implemented from: Zenject.ISubContainerCreator
     // Base method: Zenject.DiContainer ISubContainerCreator::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext parentContext)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* parentContext);

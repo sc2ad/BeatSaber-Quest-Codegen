@@ -152,64 +152,64 @@ namespace RootMotion::FinalIK {
     // Offset: 0xC8
     bool started;
     // public RootMotion.FinalIK.FullBodyBipedEffector get_effectorType()
-    // Offset: 0x13A3FB0
+    // Offset: 0x144B0F8
     RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
     // private System.Void set_effectorType(RootMotion.FinalIK.FullBodyBipedEffector value)
-    // Offset: 0x13A3FB8
+    // Offset: 0x144B100
     void set_effectorType(RootMotion::FinalIK::FullBodyBipedEffector value);
     // public System.Boolean get_isPaused()
-    // Offset: 0x13A3FC0
+    // Offset: 0x144B108
     bool get_isPaused();
     // private System.Void set_isPaused(System.Boolean value)
-    // Offset: 0x13A3FC8
+    // Offset: 0x144B110
     void set_isPaused(bool value);
     // public RootMotion.FinalIK.InteractionObject get_interactionObject()
-    // Offset: 0x13A3FD4
+    // Offset: 0x144B11C
     RootMotion::FinalIK::InteractionObject* get_interactionObject();
     // private System.Void set_interactionObject(RootMotion.FinalIK.InteractionObject value)
-    // Offset: 0x13A3FDC
+    // Offset: 0x144B124
     void set_interactionObject(RootMotion::FinalIK::InteractionObject* value);
     // public System.Boolean get_inInteraction()
-    // Offset: 0x13A3FE4
+    // Offset: 0x144B12C
     bool get_inInteraction();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x13A4054
+    // Offset: 0x144B19C
     static InteractionEffector* New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Void Initiate(RootMotion.FinalIK.InteractionSystem interactionSystem)
-    // Offset: 0x13A40E4
+    // Offset: 0x144B22C
     void Initiate(RootMotion::FinalIK::InteractionSystem* interactionSystem);
     // private System.Void StoreDefaults()
-    // Offset: 0x13A41B4
+    // Offset: 0x144B2FC
     void StoreDefaults();
     // public System.Boolean ResetToDefaults(System.Single speed)
-    // Offset: 0x13A432C
+    // Offset: 0x144B474
     bool ResetToDefaults(float speed);
     // public System.Boolean Pause()
-    // Offset: 0x13A47DC
+    // Offset: 0x144B924
     bool Pause();
     // public System.Boolean Resume()
-    // Offset: 0x13A4B94
+    // Offset: 0x144BCDC
     bool Resume();
     // public System.Boolean Start(RootMotion.FinalIK.InteractionObject interactionObject, System.String tag, System.Single fadeInTime, System.Boolean interrupt)
-    // Offset: 0x13A4BE8
+    // Offset: 0x144BD30
     bool Start(RootMotion::FinalIK::InteractionObject* interactionObject, ::Il2CppString* tag, float fadeInTime, bool interrupt);
     // public System.Void Update(UnityEngine.Transform root, System.Single speed)
-    // Offset: 0x13A5798
+    // Offset: 0x144C8E0
     void Update(UnityEngine::Transform* root, float speed);
     // public System.Single get_progress()
-    // Offset: 0x13A6A94
+    // Offset: 0x144DBDC
     float get_progress();
     // private System.Void TriggerUntriggeredEvents(System.Boolean checkTime, System.Boolean pickUp, System.Boolean pause)
-    // Offset: 0x13A62C0
+    // Offset: 0x144D408
     void TriggerUntriggeredEvents(bool checkTime, bool& pickUp, bool& pause);
     // private System.Void PickUp(UnityEngine.Transform root)
-    // Offset: 0x13A64E8
+    // Offset: 0x144D630
     void PickUp(UnityEngine::Transform* root);
     // public System.Boolean Stop()
-    // Offset: 0x13A6924
+    // Offset: 0x144DA6C
     bool Stop();
     // public System.Void OnPostFBBIK()
-    // Offset: 0x13A6F70
+    // Offset: 0x144E0B8
     void OnPostFBBIK();
   }; // RootMotion.FinalIK.InteractionEffector
 }

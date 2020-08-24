@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::RectTransform* rectTransform;
     // public System.Int32 get_minimumMissionsToUnlock()
-    // Offset: 0x1953790
+    // Offset: 0xC0F054
     int get_minimumMissionsToUnlock();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x194FE84
+    // Offset: 0xC0B748
     UnityEngine::Vector2 get_position();
     // public System.Void .ctor()
-    // Offset: 0x1953798
+    // Offset: 0xC0F05C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

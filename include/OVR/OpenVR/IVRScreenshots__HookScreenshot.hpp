@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRScreenshots::_HookScreenshot : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x160987C
+    // Offset: 0x16B49C4
     static IVRScreenshots::_HookScreenshot* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRScreenshotError Invoke(OVR.OpenVR.EVRScreenshotType[] pSupportedTypes, System.Int32 numTypes)
-    // Offset: 0x1609890
+    // Offset: 0x16B49D8
     OVR::OpenVR::EVRScreenshotError Invoke(::Array<OVR::OpenVR::EVRScreenshotType>*& pSupportedTypes, int numTypes);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRScreenshotType[] pSupportedTypes, System.Int32 numTypes, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1609B04
+    // Offset: 0x16B4C4C
     System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::EVRScreenshotType>*& pSupportedTypes, int numTypes, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRScreenshotError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1609BA0
+    // Offset: 0x16B4CE8
     OVR::OpenVR::EVRScreenshotError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRScreenshots/_HookScreenshot
 }

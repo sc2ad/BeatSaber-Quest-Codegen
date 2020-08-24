@@ -24,18 +24,18 @@ namespace Oculus::Platform {
     // Offset: 0x10
     System::IntPtr Handle;
     // public System.Void SetPreventPeopleChooser(System.Boolean value)
-    // Offset: 0x14ED5C4
+    // Offset: 0x159870C
     void SetPreventPeopleChooser(bool value);
     // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
-    // Offset: 0x14ED6CC
+    // Offset: 0x1598814
     void SetReportType(Oculus::Platform::AbuseReportType value);
     // public System.Void .ctor()
-    // Offset: 0x14ED4DC
+    // Offset: 0x1598624
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AbuseReportOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x14ED824
+    // Offset: 0x159896C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

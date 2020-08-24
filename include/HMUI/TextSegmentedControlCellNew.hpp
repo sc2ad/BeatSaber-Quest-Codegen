@@ -50,20 +50,20 @@ namespace HMUI {
     // Offset: 0xB8
     UnityEngine::Color selectedHighlightBGColor;
     // private System.Void RefreshVisuals()
-    // Offset: 0x1047428
+    // Offset: 0x10EA570
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x1047424
+    // Offset: 0x10EA56C
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::SelectionDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
-    // Offset: 0x1047534
+    // Offset: 0x10EA67C
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::HighlightDidChange(HMUI.SegmentedControlCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SegmentedControlCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x1047538
+    // Offset: 0x10EA680
     // Implemented from: HMUI.TextSegmentedControlCellBase
     // Base method: System.Void TextSegmentedControlCellBase::.ctor()
     // Base method: System.Void SegmentedControlCell::.ctor()

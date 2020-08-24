@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class HMAsyncRequest::CancelHander : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xC1350C
+    // Offset: 0xCB6654
     static HMAsyncRequest::CancelHander* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(HMAsyncRequest request)
-    // Offset: 0xC13064
+    // Offset: 0xCB61AC
     void Invoke(GlobalNamespace::HMAsyncRequest* request);
     // public System.IAsyncResult BeginInvoke(HMAsyncRequest request, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xC13520
+    // Offset: 0xCB6668
     System::IAsyncResult* BeginInvoke(GlobalNamespace::HMAsyncRequest* request, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xC13544
+    // Offset: 0xCB668C
     void EndInvoke(System::IAsyncResult* result);
   }; // HMAsyncRequest/CancelHander
 }

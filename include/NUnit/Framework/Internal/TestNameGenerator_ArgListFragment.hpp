@@ -26,10 +26,10 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x10
     int maxStringLength;
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x1848CF0
+    // Offset: 0x18F5E38
     static TestNameGenerator::ArgListFragment* New_ctor(int maxStringLength);
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
-    // Offset: 0x1848DB8
+    // Offset: 0x18F5F00
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* arglist);

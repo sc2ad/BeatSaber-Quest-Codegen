@@ -15,13 +15,13 @@ namespace Microsoft::Win32 {
     // Offset: 0x10
     ::Il2CppString* value;
     // public System.Void .ctor(System.String s)
-    // Offset: 0x1004774
+    // Offset: 0x10A88BC
     static ExpandString* New_ctor(::Il2CppString* s);
     // public System.String Expand()
-    // Offset: 0x10047B0
+    // Offset: 0x10A88F8
     ::Il2CppString* Expand();
     // public override System.String ToString()
-    // Offset: 0x10047A8
+    // Offset: 0x10A88F0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

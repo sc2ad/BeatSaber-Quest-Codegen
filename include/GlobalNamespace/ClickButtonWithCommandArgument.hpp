@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Button* button;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xC0B6D0
+    // Offset: 0xCAE818
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xC0B778
+    // Offset: 0xCAE8C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

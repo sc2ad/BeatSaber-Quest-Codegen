@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     ::Array<GlobalNamespace::OVRPlugin::Vector4f>* BlendWeights;
     // public System.Void .ctor()
-    // Offset: 0xE46660
+    // Offset: 0xEEB7A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRPlugin::Mesh* New_ctor();

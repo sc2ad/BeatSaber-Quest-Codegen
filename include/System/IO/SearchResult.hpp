@@ -23,13 +23,13 @@ namespace System::IO {
     // Offset: 0x20
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData;
     // System.Void .ctor(System.String fullPath, System.String userPath, Microsoft.Win32.Win32Native/WIN32_FIND_DATA findData)
-    // Offset: 0xF63138
+    // Offset: 0x1009280
     static SearchResult* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData);
     // System.String get_UserPath()
-    // Offset: 0xF6319C
+    // Offset: 0x10092E4
     ::Il2CppString* get_UserPath();
     // Microsoft.Win32.Win32Native/WIN32_FIND_DATA get_FindData()
-    // Offset: 0xF631A4
+    // Offset: 0x10092EC
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* get_FindData();
   }; // System.IO.SearchResult
 }

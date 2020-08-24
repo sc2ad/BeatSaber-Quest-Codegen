@@ -58,22 +58,22 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.DisposableManager/DisposableInfo,System.Int32> <>9__11_0
     static void _set_$$9__11_0(System::Func_2<Zenject::DisposableManager::DisposableInfo, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE8B610
+    // Offset: 0xF30758
     static void _cctor();
     // System.Nullable`1<System.Int32> <.ctor>b__4_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xE8B680
+    // Offset: 0xF307C8
     System::Nullable_1<int> $_ctor$b__4_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Nullable`1<System.Int32> <.ctor>b__4_3(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xE8B6F0
+    // Offset: 0xF30838
     System::Nullable_1<int> $_ctor$b__4_3(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <LateDispose>b__10_0(Zenject.DisposableManager/LateDisposableInfo x)
-    // Offset: 0xE8B760
+    // Offset: 0xF308A8
     int $LateDispose$b__10_0(Zenject::DisposableManager::LateDisposableInfo* x);
     // System.Int32 <Dispose>b__11_0(Zenject.DisposableManager/DisposableInfo x)
-    // Offset: 0xE8B778
+    // Offset: 0xF308C0
     int $Dispose$b__11_0(Zenject::DisposableManager::DisposableInfo x);
     // public System.Void .ctor()
-    // Offset: 0xE8B678
+    // Offset: 0xF307C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DisposableManager::$$c* New_ctor();

@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::Transform* cameraTransform;
     // protected System.Void Start()
-    // Offset: 0x1933434
+    // Offset: 0xBEECF8
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x193365C
+    // Offset: 0xBEEF20
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1933690
+    // Offset: 0xBEEF54
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x19336C0
+    // Offset: 0xBEEF84
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1933A8C
+    // Offset: 0xBEF350
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

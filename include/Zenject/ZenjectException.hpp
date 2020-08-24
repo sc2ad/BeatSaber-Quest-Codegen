@@ -14,12 +14,12 @@ namespace Zenject {
   class ZenjectException : public System::Exception {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1897900
+    // Offset: 0x1943A48
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static ZenjectException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1897978
+    // Offset: 0x1943AC0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static ZenjectException* New_ctor(::Il2CppString* message, System::Exception* innerException);

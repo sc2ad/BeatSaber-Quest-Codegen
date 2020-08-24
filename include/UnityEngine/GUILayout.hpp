@@ -29,103 +29,103 @@ namespace UnityEngine {
   class GUILayout : public ::Il2CppObject {
     public:
     // static public System.Void Label(System.String text, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C8114
+    // Offset: 0x126C25C
     static void Label(::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void Label(System.String text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C82A8
+    // Offset: 0x126C3F0
     static void Label(::Il2CppString* text, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static private System.Void DoLabel(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C81D0
+    // Offset: 0x126C318
     static void DoLabel(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void Box(UnityEngine.Texture image, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C83A4
+    // Offset: 0x126C4EC
     static void Box(UnityEngine::Texture* image, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static private System.Void DoBox(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C8460
+    // Offset: 0x126C5A8
     static void DoBox(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Boolean Button(System.String text, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C8538
+    // Offset: 0x126C680
     static bool Button(::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static private System.Boolean DoButton(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C85F4
+    // Offset: 0x126C73C
     static bool DoButton(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.String TextField(System.String text, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C86CC
+    // Offset: 0x126C814
     static ::Il2CppString* TextField(::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.String TextArea(System.String text, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C89B4
+    // Offset: 0x126CAFC
     static ::Il2CppString* TextArea(::Il2CppString* text, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static private System.String DoTextField(System.String text, System.Int32 maxLength, System.Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C8760
+    // Offset: 0x126C8A8
     static ::Il2CppString* DoTextField(::Il2CppString* text, int maxLength, bool multiline, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Boolean Toggle(System.Boolean value, System.String text, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C89D4
+    // Offset: 0x126CB1C
     static bool Toggle(bool value, ::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static private System.Boolean DoToggle(System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C8A98
+    // Offset: 0x126CBE0
     static bool DoToggle(bool value, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Single HorizontalSlider(System.Single value, System.Single leftValue, System.Single rightValue, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C8B80
+    // Offset: 0x126CCC8
     static float HorizontalSlider(float value, float leftValue, float rightValue, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static private System.Single DoHorizontalSlider(System.Single value, System.Single leftValue, System.Single rightValue, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C8C3C
+    // Offset: 0x126CD84
     static float DoHorizontalSlider(float value, float leftValue, float rightValue, UnityEngine::GUIStyle* slider, UnityEngine::GUIStyle* thumb, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void Space(System.Single pixels)
-    // Offset: 0x11C8D74
+    // Offset: 0x126CEBC
     static void Space(float pixels);
     // static public System.Void FlexibleSpace()
-    // Offset: 0x11C91AC
+    // Offset: 0x126D2F4
     static void FlexibleSpace();
     // static public System.Void BeginHorizontal(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C9534
+    // Offset: 0x126D67C
     static void BeginHorizontal(::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void BeginHorizontal(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C95D4
+    // Offset: 0x126D71C
     static void BeginHorizontal(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void EndHorizontal()
-    // Offset: 0x11C9A50
+    // Offset: 0x126DB98
     static void EndHorizontal();
     // static public System.Void BeginVertical(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C9CBC
+    // Offset: 0x126DE04
     static void BeginVertical(::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void BeginVertical(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C9D5C
+    // Offset: 0x126DEA4
     static void BeginVertical(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void EndVertical()
-    // Offset: 0x11C9EF8
+    // Offset: 0x126E040
     static void EndVertical();
     // static public System.Void BeginArea(UnityEngine.Rect screenRect)
-    // Offset: 0x11C9F54
+    // Offset: 0x126E09C
     static void BeginArea(UnityEngine::Rect screenRect);
     // static public System.Void BeginArea(UnityEngine.Rect screenRect, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11CA01C
+    // Offset: 0x126E164
     static void BeginArea(UnityEngine::Rect screenRect, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static public System.Void EndArea()
-    // Offset: 0x11CA4F8
+    // Offset: 0x126E640
     static void EndArea();
     // static public UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11CA698
+    // Offset: 0x126E7E0
     static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, System.Boolean alwaysShowHorizontal, System.Boolean alwaysShowVertical, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUIStyle background, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11CA76C
+    // Offset: 0x126E8B4
     static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine::GUIStyle* horizontalScrollbar, UnityEngine::GUIStyle* verticalScrollbar, UnityEngine::GUIStyle* background, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public System.Void EndScrollView()
-    // Offset: 0x11CAA04
+    // Offset: 0x126EB4C
     static void EndScrollView();
     // static System.Void EndScrollView(System.Boolean handleScrollWheel)
-    // Offset: 0x11CAA0C
+    // Offset: 0x126EB54
     static void EndScrollView(bool handleScrollWheel);
     // static public UnityEngine.GUILayoutOption Width(System.Single width)
-    // Offset: 0x11C7024
+    // Offset: 0x126B16C
     static UnityEngine::GUILayoutOption* Width(float width);
     // static public UnityEngine.GUILayoutOption Height(System.Single height)
-    // Offset: 0x11C70C0
+    // Offset: 0x126B208
     static UnityEngine::GUILayoutOption* Height(float height);
     // static public UnityEngine.GUILayoutOption ExpandWidth(System.Boolean expand)
-    // Offset: 0x11C9490
+    // Offset: 0x126D5D8
     static UnityEngine::GUILayoutOption* ExpandWidth(bool expand);
     // static public UnityEngine.GUILayoutOption ExpandHeight(System.Boolean expand)
-    // Offset: 0x11C93EC
+    // Offset: 0x126D534
     static UnityEngine::GUILayoutOption* ExpandHeight(bool expand);
   }; // UnityEngine.GUILayout
 }

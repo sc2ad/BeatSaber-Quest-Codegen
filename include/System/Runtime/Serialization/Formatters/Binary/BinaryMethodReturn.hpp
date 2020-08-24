@@ -51,16 +51,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static private System.Object instanceOfVoid
     static void _set_instanceOfVoid(::Il2CppObject* value);
     // static private System.Void .cctor()
-    // Offset: 0xD82D8C
+    // Offset: 0xE27ED4
     static void _cctor();
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xD82E4C
+    // Offset: 0xE27F94
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Dump()
-    // Offset: 0xD82F8C
+    // Offset: 0xE280D4
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xD82E3C
+    // Offset: 0xE27F84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BinaryMethodReturn* New_ctor();

@@ -43,49 +43,49 @@ namespace RootMotion {
     // Offset: 0x32
     bool skipSolverUpdate;
     // public System.Void Disable()
-    // Offset: 0x11A1F98
+    // Offset: 0x12460E0
     void Disable();
     // protected System.Void InitiateSolver()
-    // Offset: 0x11A2030
+    // Offset: 0x1246178
     void InitiateSolver();
     // protected System.Void UpdateSolver()
-    // Offset: 0x11A2034
+    // Offset: 0x124617C
     void UpdateSolver();
     // protected System.Void FixTransforms()
-    // Offset: 0x11A2038
+    // Offset: 0x1246180
     void FixTransforms();
     // private System.Void OnDisable()
-    // Offset: 0x11A203C
+    // Offset: 0x1246184
     void OnDisable();
     // private System.Void Start()
-    // Offset: 0x11A20CC
+    // Offset: 0x1246214
     void Start();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x11A20D0
+    // Offset: 0x1246218
     bool get_animatePhysics();
     // private System.Void Initiate()
-    // Offset: 0x11A2074
+    // Offset: 0x12461BC
     void Initiate();
     // private System.Void Update()
-    // Offset: 0x11A23B8
+    // Offset: 0x1246500
     void Update();
     // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
-    // Offset: 0x11A21C0
+    // Offset: 0x1246308
     void FindAnimatorRecursive(UnityEngine::Transform* t, bool findInChildren);
     // private System.Boolean get_isAnimated()
-    // Offset: 0x11A2404
+    // Offset: 0x124654C
     bool get_isAnimated();
     // private System.Void FixedUpdate()
-    // Offset: 0x11A24C0
+    // Offset: 0x1246608
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x11A251C
+    // Offset: 0x1246664
     void LateUpdate();
     // public System.Void UpdateSolverExternal()
-    // Offset: 0x11A2578
+    // Offset: 0x12466C0
     void UpdateSolverExternal();
     // public System.Void .ctor()
-    // Offset: 0x11908B8
+    // Offset: 0x1234A00
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

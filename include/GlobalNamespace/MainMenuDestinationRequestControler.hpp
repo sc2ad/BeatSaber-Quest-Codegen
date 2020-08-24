@@ -55,21 +55,21 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // private System.Void HandleGameScenesManagerInstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x1944904
+    // Offset: 0xBFF1C8
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleDestinationRequestManagerDidSendMenuDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x1944B94
+    // Offset: 0xBFF458
     void HandleDestinationRequestManagerDidSendMenuDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // private System.Void ProcessDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x1944690
+    // Offset: 0xBFEF54
     void ProcessDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // public System.Void Initialize()
-    // Offset: 0x19444AC
+    // Offset: 0xBFED70
     // Implemented from: Zenject.IInitializable
     // Base method: System.Void IInitializable::Initialize()
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x194476C
+    // Offset: 0xBFF030
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0x1944B98
+    // Offset: 0xBFF45C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MainMenuDestinationRequestControler* New_ctor();

@@ -29,18 +29,18 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x18
     int curindex;
     // System.Void .ctor(System.Text.RegularExpressions.GroupCollection rgc)
-    // Offset: 0x117C3D0
+    // Offset: 0x1220518
     static GroupEnumerator* New_ctor(System::Text::RegularExpressions::GroupCollection* rgc);
     // public System.Text.RegularExpressions.Capture get_Capture()
-    // Offset: 0x117C4A0
+    // Offset: 0x12205E8
     System::Text::RegularExpressions::Capture* get_Capture();
     // public System.Boolean MoveNext()
-    // Offset: 0x117C44C
+    // Offset: 0x1220594
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x117C49C
+    // Offset: 0x12205E4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -48,7 +48,7 @@ namespace System::Text::RegularExpressions {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
-    // Offset: 0x117C55C
+    // Offset: 0x12206A4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

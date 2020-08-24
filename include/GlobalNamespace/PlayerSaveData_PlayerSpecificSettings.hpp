@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x24
     float saberTrailIntensity;
     // public System.Void .ctor()
-    // Offset: 0xB8F0EC
+    // Offset: 0xC1B4A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::PlayerSpecificSettings* New_ctor();

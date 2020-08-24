@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     GlobalNamespace::BeatmapLevelData* beatmapLevelData;
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip, UnityEngine.Texture2D coverImageTexture2D)
-    // Offset: 0x1927C00
+    // Offset: 0xBE34C4
     static CustomBeatmapLevel* New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel, UnityEngine::AudioClip* previewAudioClip, UnityEngine::Texture2D* coverImageTexture2D);
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0x1927DF4
+    // Offset: 0xBE36B8
     void SetBeatmapLevelData(GlobalNamespace::BeatmapLevelData* beatmapLevelData);
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x1927BF8
+    // Offset: 0xBE34BC
     // Implemented from: IBeatmapLevel
     // Base method: IBeatmapLevelData IBeatmapLevel::get_beatmapLevelData()
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();

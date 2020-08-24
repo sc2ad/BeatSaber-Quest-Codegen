@@ -45,16 +45,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.InitializableManager/InitializableInfo,System.Int32> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<Zenject::InitializableManager::InitializableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE97470
+    // Offset: 0xF3C5B8
     static void _cctor();
     // System.Int32 <.ctor>b__2_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xE974E0
+    // Offset: 0xF3C628
     int $_ctor$b__2_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <Initialize>b__5_0(Zenject.InitializableManager/InitializableInfo x)
-    // Offset: 0xE974F8
+    // Offset: 0xF3C640
     int $Initialize$b__5_0(Zenject::InitializableManager::InitializableInfo* x);
     // public System.Void .ctor()
-    // Offset: 0xE974D8
+    // Offset: 0xF3C620
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InitializableManager::$$c* New_ctor();

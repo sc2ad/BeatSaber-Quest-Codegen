@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass9_0* CS$$$8__locals1;
     // System.Void <DidActivate>b__1()
-    // Offset: 0x192EAA8
+    // Offset: 0xBEA36C
     void $DidActivate$b__1();
     // public System.Void .ctor()
-    // Offset: 0x192EAA0
+    // Offset: 0xBEA364
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnterPlayerGuestNameViewController::$$c__DisplayClass9_1* New_ctor();

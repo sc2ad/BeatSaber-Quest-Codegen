@@ -36,58 +36,58 @@ namespace System::Xml {
     // Set static field: static public readonly System.Xml.XmlQualifiedName Empty
     static void _set_Empty(System::Xml::XmlQualifiedName* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1105D60
+    // Offset: 0x11A8EA8
     static XmlQualifiedName* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.String ns)
-    // Offset: 0x1105CB0
+    // Offset: 0x11A8DF8
     static XmlQualifiedName* New_ctor(::Il2CppString* name, ::Il2CppString* ns);
     // public System.String get_Namespace()
-    // Offset: 0x1105DC8
+    // Offset: 0x11A8F10
     ::Il2CppString* get_Namespace();
     // public System.String get_Name()
-    // Offset: 0x1105DD0
+    // Offset: 0x11A8F18
     ::Il2CppString* get_Name();
     // static private System.Xml.XmlQualifiedName/HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x1105EC4
+    // Offset: 0x11A900C
     static System::Xml::XmlQualifiedName::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // static private System.Boolean IsRandomizedHashingDisabled()
-    // Offset: 0x11066E4
+    // Offset: 0x11A982C
     static bool IsRandomizedHashingDisabled();
     // static private System.Int32 GetHashCodeOfString(System.String s, System.Int32 length, System.Int64 additionalEntropy)
-    // Offset: 0x1106700
+    // Offset: 0x11A9848
     static int GetHashCodeOfString(::Il2CppString* s, int length, int64_t additionalEntropy);
     // System.Void Init(System.String name, System.String ns)
-    // Offset: 0x10FD48C
+    // Offset: 0x11A05D4
     void Init(::Il2CppString* name, ::Il2CppString* ns);
     // static private System.Void .cctor()
-    // Offset: 0x110671C
+    // Offset: 0x11A9864
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x10FD0C4
+    // Offset: 0x11A020C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static XmlQualifiedName* New_ctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1105DD8
+    // Offset: 0x11A8F20
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1106484
+    // Offset: 0x11A95CC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x11064FC
+    // Offset: 0x11A9644
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
   }; // System.Xml.XmlQualifiedName
   // static public System.Boolean op_Equality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
-  // Offset: 0x1106678
+  // Offset: 0x11A97C0
   bool operator ==(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b);
   // static public System.Boolean op_Inequality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
-  // Offset: 0x11065F8
+  // Offset: 0x11A9740
   bool operator !=(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

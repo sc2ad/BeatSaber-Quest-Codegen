@@ -34,22 +34,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::Mesh* mesh;
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x19707B8
+    // Offset: 0xC56578
     UnityEngine::Mesh* get_mesh();
     // protected System.Void OnDestroy()
-    // Offset: 0x1970884
+    // Offset: 0xC56644
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0x1970890
+    // Offset: 0xC56650
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0x19709B8
+    // Offset: 0xC56778
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x19709D8
+    // Offset: 0xC56798
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1970A6C
+    // Offset: 0xC5682C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

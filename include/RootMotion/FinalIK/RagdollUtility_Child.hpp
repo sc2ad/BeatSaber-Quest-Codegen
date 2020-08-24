@@ -34,13 +34,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x24
     UnityEngine::Quaternion localRotation;
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1191098
+    // Offset: 0x12351E0
     static RagdollUtility::Child* New_ctor(UnityEngine::Transform* transform);
     // public System.Void FixTransform(System.Single weight)
-    // Offset: 0x1191CF8
+    // Offset: 0x1235E40
     void FixTransform(float weight);
     // public System.Void StoreLocalState()
-    // Offset: 0x1191CA8
+    // Offset: 0x1235DF0
     void StoreLocalState();
   }; // RootMotion.FinalIK.RagdollUtility/Child
 }

@@ -46,28 +46,28 @@ namespace GlobalNamespace {
     // Offset: 0x34
     bool comboLost;
     // protected System.Void Start()
-    // Offset: 0x19262C4
+    // Offset: 0xBE1B88
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x19264D4
+    // Offset: 0xBE1D98
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x19264D8
+    // Offset: 0xBE1D9C
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x1926340
+    // Offset: 0xBE1C04
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x19264DC
+    // Offset: 0xBE1DA0
     void UnregisterFromEvents();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x19265FC
+    // Offset: 0xBE1EC0
     void HandleComboDidChange(int combo);
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x1926640
+    // Offset: 0xBE1F04
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0x1926678
+    // Offset: 0xBE1F3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<UnityEngine::Object*>* objects;
     // public UnityEngine.Object[] get_objects()
-    // Offset: 0x18EFF04
+    // Offset: 0xB89464
     ::Array<UnityEngine::Object*>* get_objects();
     // public System.Void .ctor()
-    // Offset: 0x18EFF0C
+    // Offset: 0xB8946C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

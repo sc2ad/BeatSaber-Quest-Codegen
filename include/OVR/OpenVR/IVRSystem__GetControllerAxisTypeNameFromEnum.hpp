@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetControllerAxisTypeNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1611110
+    // Offset: 0x16BC258
     static IVRSystem::_GetControllerAxisTypeNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(OVR.OpenVR.EVRControllerAxisType eAxisType)
-    // Offset: 0x1611124
+    // Offset: 0x16BC26C
     System::IntPtr Invoke(OVR::OpenVR::EVRControllerAxisType eAxisType);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRControllerAxisType eAxisType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1611398
+    // Offset: 0x16BC4E0
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVRControllerAxisType eAxisType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1611424
+    // Offset: 0x16BC56C
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetControllerAxisTypeNameFromEnum
 }

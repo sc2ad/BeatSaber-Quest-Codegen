@@ -27,10 +27,10 @@ namespace NUnit::Framework {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("NUnit.Framework", "Assert", "That", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}, actual, expression, message, args));
     }
     // static public System.Void AreEqual(System.Object expected, System.Object actual)
-    // Offset: 0xFCFB68
+    // Offset: 0x1073CB0
     static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // static private System.Void IncrementAssertCount()
-    // Offset: 0xFCFBDC
+    // Offset: 0x1073D24
     static void IncrementAssertCount();
   }; // NUnit.Framework.Assert
 }

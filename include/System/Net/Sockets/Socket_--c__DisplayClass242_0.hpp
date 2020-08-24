@@ -24,10 +24,10 @@ namespace System::Net::Sockets {
     // Offset: 0x10
     int sent_so_far;
     // System.Void <BeginSendCallback>b__0(System.IOAsyncResult s)
-    // Offset: 0x11749EC
+    // Offset: 0x1218B34
     void $BeginSendCallback$b__0(System::IOAsyncResult* s);
     // public System.Void .ctor()
-    // Offset: 0x11749E4
+    // Offset: 0x1218B2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Socket::$$c__DisplayClass242_0* New_ctor();

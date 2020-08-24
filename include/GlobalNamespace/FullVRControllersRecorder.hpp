@@ -95,31 +95,31 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::VRControllersRecorderData* data;
     // public System.Void add_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x1936CEC
+    // Offset: 0xBF25B0
     void add_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // public System.Void remove_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x1936D90
+    // Offset: 0xBF2654
     void remove_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // protected System.Void Start()
-    // Offset: 0x1936E34
+    // Offset: 0xBF26F8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x193724C
+    // Offset: 0xBF2B10
     void OnDestroy();
     // private System.Void PlaybackTick()
-    // Offset: 0x19372F8
+    // Offset: 0xBF2BBC
     void PlaybackTick();
     // private System.Void RecordTick()
-    // Offset: 0x19376D8
+    // Offset: 0xBF2F9C
     void RecordTick();
     // protected System.Void Update()
-    // Offset: 0x1937880
+    // Offset: 0xBF3144
     void Update();
     // protected System.Void LateUpdate()
-    // Offset: 0x19378D0
+    // Offset: 0xBF3194
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x19378E0
+    // Offset: 0xBF31A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

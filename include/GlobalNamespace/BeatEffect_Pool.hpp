@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class BeatEffect::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::BeatEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18F4E70
+    // Offset: 0xB8E3D0
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()

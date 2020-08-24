@@ -73,28 +73,28 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.ConstructorInfo,System.Int32> <>9__11_2
     static void _set_$$9__11_2(System::Func_2<System::Reflection::ConstructorInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE9BCCC
+    // Offset: 0xF40E14
     static void _cctor();
     // System.Boolean <GetPropertyInfos>b__5_0(System.Reflection.PropertyInfo x)
-    // Offset: 0xE9BD3C
+    // Offset: 0xF40E84
     bool $GetPropertyInfos$b__5_0(System::Reflection::PropertyInfo* x);
     // System.Boolean <GetFieldInfos>b__6_0(System.Reflection.FieldInfo x)
-    // Offset: 0xE9BE34
+    // Offset: 0xF40F7C
     bool $GetFieldInfos$b__6_0(System::Reflection::FieldInfo* x);
     // System.Boolean <GetMethodInfos>b__7_0(System.Reflection.MethodInfo x)
-    // Offset: 0xE9BF2C
+    // Offset: 0xF41074
     bool $GetMethodInfos$b__7_0(System::Reflection::MethodInfo* x);
     // System.Boolean <TryGetInjectConstructor>b__11_0(System.Reflection.ConstructorInfo c)
-    // Offset: 0xE9C024
+    // Offset: 0xF4116C
     bool $TryGetInjectConstructor$b__11_0(System::Reflection::ConstructorInfo* c);
     // System.Boolean <TryGetInjectConstructor>b__11_1(System.Reflection.ConstructorInfo x)
-    // Offset: 0xE9C11C
+    // Offset: 0xF41264
     bool $TryGetInjectConstructor$b__11_1(System::Reflection::ConstructorInfo* x);
     // System.Int32 <TryGetInjectConstructor>b__11_2(System.Reflection.ConstructorInfo x)
-    // Offset: 0xE9C138
+    // Offset: 0xF41280
     int $TryGetInjectConstructor$b__11_2(System::Reflection::ConstructorInfo* x);
     // public System.Void .ctor()
-    // Offset: 0xE9BD34
+    // Offset: 0xF40E7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionTypeAnalyzer::$$c* New_ctor();

@@ -30,55 +30,55 @@ namespace UnityEngine {
   class AnimationClip : public UnityEngine::Motion {
     public:
     // static private System.Void Internal_CreateAnimationClip(UnityEngine.AnimationClip self)
-    // Offset: 0x189162C
+    // Offset: 0x193D774
     static void Internal_CreateAnimationClip(UnityEngine::AnimationClip* self);
     // public System.Void SampleAnimation(UnityEngine.GameObject go, System.Single time)
-    // Offset: 0x189166C
+    // Offset: 0x193D7B4
     void SampleAnimation(UnityEngine::GameObject* go, float time);
     // static System.Void SampleAnimation(UnityEngine.GameObject go, UnityEngine.AnimationClip clip, System.Single inTime, UnityEngine.WrapMode wrapMode)
-    // Offset: 0x189173C
+    // Offset: 0x193D884
     static void SampleAnimation(UnityEngine::GameObject* go, UnityEngine::AnimationClip* clip, float inTime, UnityEngine::WrapMode wrapMode);
     // public System.Single get_length()
-    // Offset: 0x18917A4
+    // Offset: 0x193D8EC
     float get_length();
     // public System.Single get_frameRate()
-    // Offset: 0x18917E4
+    // Offset: 0x193D92C
     float get_frameRate();
     // public System.Void set_frameRate(System.Single value)
-    // Offset: 0x1891824
+    // Offset: 0x193D96C
     void set_frameRate(float value);
     // public System.Void SetCurve(System.String relativePath, System.Type type, System.String propertyName, UnityEngine.AnimationCurve curve)
-    // Offset: 0x1891874
+    // Offset: 0x193D9BC
     void SetCurve(::Il2CppString* relativePath, System::Type* type, ::Il2CppString* propertyName, UnityEngine::AnimationCurve* curve);
     // public System.Void EnsureQuaternionContinuity()
-    // Offset: 0x18918E4
+    // Offset: 0x193DA2C
     void EnsureQuaternionContinuity();
     // public UnityEngine.WrapMode get_wrapMode()
-    // Offset: 0x18916FC
+    // Offset: 0x193D844
     UnityEngine::WrapMode get_wrapMode();
     // public System.Boolean get_legacy()
-    // Offset: 0x1891924
+    // Offset: 0x193DA6C
     bool get_legacy();
     // public System.Void set_legacy(System.Boolean value)
-    // Offset: 0x1891964
+    // Offset: 0x193DAAC
     void set_legacy(bool value);
     // public System.Boolean get_empty()
-    // Offset: 0x18919B4
+    // Offset: 0x193DAFC
     bool get_empty();
     // public System.Boolean get_hasGenericRootTransform()
-    // Offset: 0x18919F4
+    // Offset: 0x193DB3C
     bool get_hasGenericRootTransform();
     // public System.Boolean get_hasMotionCurves()
-    // Offset: 0x1891A34
+    // Offset: 0x193DB7C
     bool get_hasMotionCurves();
     // public System.Boolean get_hasRootCurves()
-    // Offset: 0x1891A74
+    // Offset: 0x193DBBC
     bool get_hasRootCurves();
     // System.Boolean get_hasRootMotion()
-    // Offset: 0x1891AB4
+    // Offset: 0x193DBFC
     bool get_hasRootMotion();
     // public System.Void .ctor()
-    // Offset: 0x1891580
+    // Offset: 0x193D6C8
     // Implemented from: UnityEngine.Motion
     // Base method: System.Void Motion::.ctor()
     // Base method: System.Void Object::.ctor()

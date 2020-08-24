@@ -53,16 +53,16 @@ namespace Zenject {
     // Offset: 0x18
     bool isSpawned;
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IPoolable> poolables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0xF1FE30
+    // Offset: 0xFC4F78
     static PoolableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IPoolable*>* poolables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities);
     // private Zenject.PoolableManager/PoolableInfo CreatePoolableInfo(Zenject.IPoolable poolable, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0xF200BC
+    // Offset: 0xFC5204
     Zenject::PoolableManager::PoolableInfo CreatePoolableInfo(Zenject::IPoolable* poolable, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities);
     // public System.Void TriggerOnSpawned()
-    // Offset: 0xF202E4
+    // Offset: 0xFC542C
     void TriggerOnSpawned();
     // public System.Void TriggerOnDespawned()
-    // Offset: 0xF203FC
+    // Offset: 0xFC5544
     void TriggerOnDespawned();
   }; // Zenject.PoolableManager
 }

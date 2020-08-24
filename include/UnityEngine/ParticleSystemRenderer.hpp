@@ -21,7 +21,7 @@ namespace UnityEngine {
   class ParticleSystemRenderer : public UnityEngine::Renderer {
     public:
     // public System.Int32 GetMeshes(UnityEngine.Mesh[] meshes)
-    // Offset: 0x18C2494
+    // Offset: 0x196F5DC
     int GetMeshes(::Array<UnityEngine::Mesh*>*& meshes);
   }; // UnityEngine.ParticleSystemRenderer
 }

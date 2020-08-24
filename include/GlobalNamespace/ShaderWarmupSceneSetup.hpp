@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0xBA2EC8
+    // Offset: 0xC2F280
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0xBA2F70
+    // Offset: 0xC2F328
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

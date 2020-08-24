@@ -24,10 +24,10 @@ namespace Zenject {
     // Offset: 0x10
     System::Type* t;
     // System.Boolean <InNamespaces>b__1(System.String n)
-    // Offset: 0xCCC050
+    // Offset: 0xD70198
     bool $InNamespaces$b__1(::Il2CppString* n);
     // public System.Void .ctor()
-    // Offset: 0xCCC048
+    // Offset: 0xD70190
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionFilterTypesBinder::$$c__DisplayClass13_1* New_ctor();

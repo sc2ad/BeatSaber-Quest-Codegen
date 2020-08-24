@@ -36,16 +36,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // protected System.Void Start()
-    // Offset: 0x195A228
+    // Offset: 0xC15AEC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x195A2BC
+    // Offset: 0xC15B80
     void OnDestroy();
     // private System.Void HandleNoteWasCut(INoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x195A350
+    // Offset: 0xC15C14
     void HandleNoteWasCut(GlobalNamespace::INoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x195A3A0
+    // Offset: 0xC15C64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

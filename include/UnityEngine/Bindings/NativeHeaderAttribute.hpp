@@ -17,10 +17,10 @@ namespace UnityEngine::Bindings {
     // Offset: 0x10
     ::Il2CppString* Header;
     // public System.Void set_Header(System.String value)
-    // Offset: 0x18C6C08
+    // Offset: 0x1974D50
     void set_Header(::Il2CppString* value);
     // public System.Void .ctor(System.String header)
-    // Offset: 0x18C6C10
+    // Offset: 0x1974D58
     static NativeHeaderAttribute* New_ctor(::Il2CppString* header);
   }; // UnityEngine.Bindings.NativeHeaderAttribute
 }

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class CVRSystem::_GetControllerStatePacked : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xE2ECCC
+    // Offset: 0xED2E14
     static CVRSystem::_GetControllerStatePacked* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt32 unControllerDeviceIndex, OVR.OpenVR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize)
-    // Offset: 0xE2E33C
+    // Offset: 0xED2484
     bool Invoke(uint unControllerDeviceIndex, OVR::OpenVR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unControllerDeviceIndex, OVR.OpenVR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xE2ECE0
+    // Offset: 0xED2E28
     System::IAsyncResult* BeginInvoke(uint unControllerDeviceIndex, OVR::OpenVR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(OVR.OpenVR.VRControllerState_t_Packed pControllerState, System.IAsyncResult result)
-    // Offset: 0xE2EDAC
+    // Offset: 0xED2EF4
     bool EndInvoke(OVR::OpenVR::VRControllerState_t_Packed& pControllerState, System::IAsyncResult* result);
   }; // OVR.OpenVR.CVRSystem/_GetControllerStatePacked
 }

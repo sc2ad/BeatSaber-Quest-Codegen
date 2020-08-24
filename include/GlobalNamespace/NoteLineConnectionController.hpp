@@ -81,22 +81,22 @@ namespace GlobalNamespace {
     // Offset: 0x7C
     bool didFinish;
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0xBA4FF4
+    // Offset: 0xC313AC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0xBA5098
+    // Offset: 0xC31450
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void Setup(NoteController noteController0, NoteController noteController1, System.Single fadeOutStartDistance, System.Single fadeOutEndDistance, System.Single noteTime)
-    // Offset: 0xBA513C
+    // Offset: 0xC314F4
     void Setup(GlobalNamespace::NoteController* noteController0, GlobalNamespace::NoteController* noteController1, float fadeOutStartDistance, float fadeOutEndDistance, float noteTime);
     // protected System.Void Update()
-    // Offset: 0xBA53FC
+    // Offset: 0xC317B4
     void Update();
     // private System.Void UpdatePositionsAndColors()
-    // Offset: 0xBA5210
+    // Offset: 0xC315C8
     void UpdatePositionsAndColors();
     // public System.Void .ctor()
-    // Offset: 0xBA5494
+    // Offset: 0xC3184C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

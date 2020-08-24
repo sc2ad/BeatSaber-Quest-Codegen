@@ -31,22 +31,22 @@ namespace System::Globalization {
     // Offset: 0x98
     System::Nullable_1<int> m_invalidCultureId;
     // public System.Void .ctor(System.String paramName, System.String invalidCultureName, System.String message)
-    // Offset: 0x12167DC
+    // Offset: 0x12BB924
     static CultureNotFoundException* New_ctor(::Il2CppString* paramName, ::Il2CppString* invalidCultureName, ::Il2CppString* message);
     // public System.Nullable`1<System.Int32> get_InvalidCultureId()
-    // Offset: 0x1216AFC
+    // Offset: 0x12BBC44
     System::Nullable_1<int> get_InvalidCultureId();
     // public System.String get_InvalidCultureName()
-    // Offset: 0x1216B04
+    // Offset: 0x12BBC4C
     ::Il2CppString* get_InvalidCultureName();
     // static private System.String get_DefaultMessage()
-    // Offset: 0x1216790
+    // Offset: 0x12BB8D8
     static ::Il2CppString* get_DefaultMessage();
     // private System.String get_FormatedInvalidCultureId()
-    // Offset: 0x1216B0C
+    // Offset: 0x12BBC54
     ::Il2CppString* get_FormatedInvalidCultureId();
     // public System.Void .ctor()
-    // Offset: 0x1216764
+    // Offset: 0x12BB8AC
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -54,19 +54,19 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     static CultureNotFoundException* New_ctor();
     // public System.Void .ctor(System.String paramName, System.String message)
-    // Offset: 0x12135F8
+    // Offset: 0x12B8740
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     static CultureNotFoundException* New_ctor(::Il2CppString* paramName, ::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1216818
+    // Offset: 0x12BB960
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static CultureNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1216994
+    // Offset: 0x12BBADC
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -74,7 +74,7 @@ namespace System::Globalization {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String get_Message()
-    // Offset: 0x1216C14
+    // Offset: 0x12BBD5C
     // Implemented from: System.ArgumentException
     // Base method: System.String ArgumentException::get_Message()
     ::Il2CppString* get_Message();

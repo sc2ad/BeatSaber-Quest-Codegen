@@ -28,25 +28,25 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     int value;
     // public MissionObjective get_missionObjective()
-    // Offset: 0x19518E4
+    // Offset: 0xC0D1A8
     GlobalNamespace::MissionObjective* get_missionObjective();
     // private System.Void set_missionObjective(MissionObjective value)
-    // Offset: 0x19518EC
+    // Offset: 0xC0D1B0
     void set_missionObjective(GlobalNamespace::MissionObjective* value);
     // public System.Boolean get_cleared()
-    // Offset: 0x19518F4
+    // Offset: 0xC0D1B8
     bool get_cleared();
     // private System.Void set_cleared(System.Boolean value)
-    // Offset: 0x19518FC
+    // Offset: 0xC0D1C0
     void set_cleared(bool value);
     // public System.Int32 get_value()
-    // Offset: 0x1951908
+    // Offset: 0xC0D1CC
     int get_value();
     // private System.Void set_value(System.Int32 value)
-    // Offset: 0x1951910
+    // Offset: 0xC0D1D4
     void set_value(int value);
     // public System.Void .ctor(MissionObjective missionObjective, System.Boolean cleared, System.Int32 value)
-    // Offset: 0x1951314
+    // Offset: 0xC0CBD8
     static MissionObjectiveResult* New_ctor(GlobalNamespace::MissionObjective* missionObjective, bool cleared, int value);
   }; // MissionObjectiveResult
 }

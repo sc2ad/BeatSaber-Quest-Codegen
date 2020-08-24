@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Offset: 0x30
     float yAngle;
     // protected System.Void Start()
-    // Offset: 0x1934490
+    // Offset: 0xBEFD54
     void Start();
     // protected System.Void Update()
-    // Offset: 0x193450C
+    // Offset: 0xBEFDD0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x19346F8
+    // Offset: 0xBEFFBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

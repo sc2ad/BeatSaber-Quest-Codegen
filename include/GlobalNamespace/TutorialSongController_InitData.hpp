@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     float songBPM;
     // public System.Void .ctor(System.Single songBPM)
-    // Offset: 0x1964944
+    // Offset: 0xC4A704
     static TutorialSongController::InitData* New_ctor(float songBPM);
   }; // TutorialSongController/InitData
 }

@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRChaperone::_GetPlayAreaSize : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xE30B94
+    // Offset: 0xED4CDC
     static IVRChaperone::_GetPlayAreaSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Single pSizeX, System.Single pSizeZ)
-    // Offset: 0xE25BB4
+    // Offset: 0xEC9CFC
     bool Invoke(float& pSizeX, float& pSizeZ);
     // public System.IAsyncResult BeginInvoke(System.Single pSizeX, System.Single pSizeZ, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xE30BA8
+    // Offset: 0xED4CF0
     System::IAsyncResult* BeginInvoke(float& pSizeX, float& pSizeZ, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.Single pSizeX, System.Single pSizeZ, System.IAsyncResult result)
-    // Offset: 0xE30C54
+    // Offset: 0xED4D9C
     bool EndInvoke(float& pSizeX, float& pSizeZ, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperone/_GetPlayAreaSize
 }

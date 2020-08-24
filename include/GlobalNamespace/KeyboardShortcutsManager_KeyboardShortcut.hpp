@@ -23,15 +23,15 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::KeyCode combinationKey2;
     // public System.Void .ctor(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2)
-    // Offset: 0xC15224
+    // Offset: 0xCB836C
     static KeyboardShortcutsManager::KeyboardShortcut* New_ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC1568C
+    // Offset: 0xCB87D4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC156A0
+    // Offset: 0xCB87E8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

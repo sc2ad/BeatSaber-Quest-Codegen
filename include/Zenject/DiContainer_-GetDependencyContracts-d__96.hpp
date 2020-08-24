@@ -59,43 +59,43 @@ namespace Zenject {
     // Offset: 0x40
     System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo*>* $$7__wrap1;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xE89FB8
+    // Offset: 0xF2F100
     static DiContainer::$GetDependencyContracts$d__96* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0xE8A00C
+    // Offset: 0xF2F154
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xE89FF0
+    // Offset: 0xF2F138
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xE8A0CC
+    // Offset: 0xF2F214
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Type System.Collections.Generic.IEnumerator<System.Type>.get_Current()
-    // Offset: 0xE8A3B0
+    // Offset: 0xF2F4F8
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     System::Type* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xE8A3B8
+    // Offset: 0xF2F500
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xE8A418
+    // Offset: 0xF2F560
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<System.Type> System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator()
-    // Offset: 0xE8A420
+    // Offset: 0xF2F568
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable`1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<System::Type*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xE8A4E4
+    // Offset: 0xF2F62C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

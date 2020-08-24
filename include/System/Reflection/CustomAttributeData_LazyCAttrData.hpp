@@ -32,7 +32,7 @@ namespace System::Reflection {
     // Offset: 0x20
     uint data_length;
     // public System.Void .ctor()
-    // Offset: 0x12C1E80
+    // Offset: 0x1369FC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CustomAttributeData::LazyCAttrData* New_ctor();

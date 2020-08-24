@@ -20,16 +20,16 @@ namespace System {
     // Offset: 0x18
     bool error;
     // public System.Void .ctor(System.String message)
-    // Offset: 0x12BB150
+    // Offset: 0x1363298
     static ObsoleteAttribute* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Boolean error)
-    // Offset: 0x12BB18C
+    // Offset: 0x13632D4
     static ObsoleteAttribute* New_ctor(::Il2CppString* message, bool error);
     // public System.String get_Message()
-    // Offset: 0x12BB1D8
+    // Offset: 0x1363320
     ::Il2CppString* get_Message();
     // public System.Void .ctor()
-    // Offset: 0x12BB118
+    // Offset: 0x1363260
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

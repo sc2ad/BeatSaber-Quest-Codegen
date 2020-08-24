@@ -95,22 +95,22 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Vector3[] _meshVertices
     static void _set__meshVertices(::Array<UnityEngine::Vector3>* value);
     // public System.Void add_didFinishEvent(System.Action`1<NoteDebris> value)
-    // Offset: 0x195DDE0
+    // Offset: 0xC196A4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteDebris*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteDebris> value)
-    // Offset: 0x195DE84
+    // Offset: 0xC19748
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteDebris*>* value);
     // protected System.Void Awake()
-    // Offset: 0x195DF28
+    // Offset: 0xC197EC
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x195DFE8
+    // Offset: 0xC198AC
     void Update();
     // public System.Void Init(NoteType noteType, UnityEngine.Transform initTransform, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 force, UnityEngine.Vector3 torque, System.Single lifeTime)
-    // Offset: 0x195E10C
+    // Offset: 0xC199D0
     void Init(GlobalNamespace::NoteType noteType, UnityEngine::Transform* initTransform, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 force, UnityEngine::Vector3 torque, float lifeTime);
     // public System.Void .ctor()
-    // Offset: 0x195E8F0
+    // Offset: 0xC1A1B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteDebris* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x195E948
+    // Offset: 0xC1A20C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

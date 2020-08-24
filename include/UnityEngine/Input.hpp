@@ -27,100 +27,100 @@ namespace UnityEngine {
   class Input : public ::Il2CppObject {
     public:
     // static private System.Boolean GetKeyInt(UnityEngine.KeyCode key)
-    // Offset: 0x18CB3E8
+    // Offset: 0x1979530
     static bool GetKeyInt(UnityEngine::KeyCode key);
     // static private System.Boolean GetKeyUpInt(UnityEngine.KeyCode key)
-    // Offset: 0x18CB428
+    // Offset: 0x1979570
     static bool GetKeyUpInt(UnityEngine::KeyCode key);
     // static private System.Boolean GetKeyDownInt(UnityEngine.KeyCode key)
-    // Offset: 0x18CB468
+    // Offset: 0x19795B0
     static bool GetKeyDownInt(UnityEngine::KeyCode key);
     // static private System.Boolean GetKeyDownString(System.String name)
-    // Offset: 0x18CB4A8
+    // Offset: 0x19795F0
     static bool GetKeyDownString(::Il2CppString* name);
     // static public System.Single GetAxis(System.String axisName)
-    // Offset: 0x18CB4E8
+    // Offset: 0x1979630
     static float GetAxis(::Il2CppString* axisName);
     // static public System.Single GetAxisRaw(System.String axisName)
-    // Offset: 0x18CB528
+    // Offset: 0x1979670
     static float GetAxisRaw(::Il2CppString* axisName);
     // static public System.Boolean GetButton(System.String buttonName)
-    // Offset: 0x18CB568
+    // Offset: 0x19796B0
     static bool GetButton(::Il2CppString* buttonName);
     // static public System.Boolean GetButtonDown(System.String buttonName)
-    // Offset: 0x18CB5A8
+    // Offset: 0x19796F0
     static bool GetButtonDown(::Il2CppString* buttonName);
     // static public System.Boolean GetMouseButton(System.Int32 button)
-    // Offset: 0x18CB5E8
+    // Offset: 0x1979730
     static bool GetMouseButton(int button);
     // static public System.Boolean GetMouseButtonDown(System.Int32 button)
-    // Offset: 0x18CB628
+    // Offset: 0x1979770
     static bool GetMouseButtonDown(int button);
     // static public System.Boolean GetMouseButtonUp(System.Int32 button)
-    // Offset: 0x18CB668
+    // Offset: 0x19797B0
     static bool GetMouseButtonUp(int button);
     // static public UnityEngine.Touch GetTouch(System.Int32 index)
-    // Offset: 0x18CB6A8
+    // Offset: 0x19797F0
     static UnityEngine::Touch GetTouch(int index);
     // static public System.Boolean GetKey(UnityEngine.KeyCode key)
-    // Offset: 0x18CB774
+    // Offset: 0x19798BC
     static bool GetKey(UnityEngine::KeyCode key);
     // static public System.Boolean GetKeyUp(UnityEngine.KeyCode key)
-    // Offset: 0x18CB7B4
+    // Offset: 0x19798FC
     static bool GetKeyUp(UnityEngine::KeyCode key);
     // static public System.Boolean GetKeyDown(UnityEngine.KeyCode key)
-    // Offset: 0x18CB7F4
+    // Offset: 0x197993C
     static bool GetKeyDown(UnityEngine::KeyCode key);
     // static public System.Boolean GetKeyDown(System.String name)
-    // Offset: 0x18CB834
+    // Offset: 0x197997C
     static bool GetKeyDown(::Il2CppString* name);
     // static public System.Boolean get_anyKeyDown()
-    // Offset: 0x18CB874
+    // Offset: 0x19799BC
     static bool get_anyKeyDown();
     // static public UnityEngine.Vector3 get_mousePosition()
-    // Offset: 0x18CB8A8
+    // Offset: 0x19799F0
     static UnityEngine::Vector3 get_mousePosition();
     // static public UnityEngine.Vector2 get_mouseScrollDelta()
-    // Offset: 0x18CB940
+    // Offset: 0x1979A88
     static UnityEngine::Vector2 get_mouseScrollDelta();
     // static public UnityEngine.IMECompositionMode get_imeCompositionMode()
-    // Offset: 0x18CB9C8
+    // Offset: 0x1979B10
     static UnityEngine::IMECompositionMode get_imeCompositionMode();
     // static public System.Void set_imeCompositionMode(UnityEngine.IMECompositionMode value)
-    // Offset: 0x18CB9FC
+    // Offset: 0x1979B44
     static void set_imeCompositionMode(UnityEngine::IMECompositionMode value);
     // static public System.String get_compositionString()
-    // Offset: 0x18CBA3C
+    // Offset: 0x1979B84
     static ::Il2CppString* get_compositionString();
     // static public UnityEngine.Vector2 get_compositionCursorPos()
-    // Offset: 0x18CBA70
+    // Offset: 0x1979BB8
     static UnityEngine::Vector2 get_compositionCursorPos();
     // static public System.Void set_compositionCursorPos(UnityEngine.Vector2 value)
-    // Offset: 0x18CBAF8
+    // Offset: 0x1979C40
     static void set_compositionCursorPos(UnityEngine::Vector2 value);
     // static public System.Boolean get_mousePresent()
-    // Offset: 0x18CBB7C
+    // Offset: 0x1979CC4
     static bool get_mousePresent();
     // static public System.Int32 get_touchCount()
-    // Offset: 0x18CBBB0
+    // Offset: 0x1979CF8
     static int get_touchCount();
     // static public System.Boolean get_touchSupported()
-    // Offset: 0x18CBBE4
+    // Offset: 0x1979D2C
     static bool get_touchSupported();
     // static private System.Void GetTouch_Injected(System.Int32 index, UnityEngine.Touch ret)
-    // Offset: 0x18CB724
+    // Offset: 0x197986C
     static void GetTouch_Injected(int index, UnityEngine::Touch& ret);
     // static private System.Void get_mousePosition_Injected(UnityEngine.Vector3 ret)
-    // Offset: 0x18CB900
+    // Offset: 0x1979A48
     static void get_mousePosition_Injected(UnityEngine::Vector3& ret);
     // static private System.Void get_mouseScrollDelta_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x18CB988
+    // Offset: 0x1979AD0
     static void get_mouseScrollDelta_Injected(UnityEngine::Vector2& ret);
     // static private System.Void get_compositionCursorPos_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x18CBAB8
+    // Offset: 0x1979C00
     static void get_compositionCursorPos_Injected(UnityEngine::Vector2& ret);
     // static private System.Void set_compositionCursorPos_Injected(UnityEngine.Vector2 value)
-    // Offset: 0x18CBB3C
+    // Offset: 0x1979C84
     static void set_compositionCursorPos_Injected(UnityEngine::Vector2& value);
   }; // UnityEngine.Input
 }

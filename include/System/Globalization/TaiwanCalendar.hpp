@@ -45,89 +45,89 @@ namespace System::Globalization {
     // Set static field: static readonly System.DateTime calendarMinValue
     static void _set_calendarMinValue(System::DateTime value);
     // static System.Globalization.Calendar GetDefaultInstance()
-    // Offset: 0x1083184
+    // Offset: 0x11252CC
     static System::Globalization::Calendar* GetDefaultInstance();
     // static private System.Void .cctor()
-    // Offset: 0x10837C4
+    // Offset: 0x112590C
     static void _cctor();
     // public override System.DateTime get_MinSupportedDateTime()
-    // Offset: 0x1083408
+    // Offset: 0x1125550
     // Implemented from: System.Globalization.Calendar
     // Base method: System.DateTime Calendar::get_MinSupportedDateTime()
     System::DateTime get_MinSupportedDateTime();
     // public override System.DateTime get_MaxSupportedDateTime()
-    // Offset: 0x1083470
+    // Offset: 0x11255B8
     // Implemented from: System.Globalization.Calendar
     // Base method: System.DateTime Calendar::get_MaxSupportedDateTime()
     System::DateTime get_MaxSupportedDateTime();
     // public System.Void .ctor()
-    // Offset: 0x1083260
+    // Offset: 0x11253A8
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Void Calendar::.ctor()
     // Base method: System.Void Object::.ctor()
     static TaiwanCalendar* New_ctor();
     // override System.Int32 get_ID()
-    // Offset: 0x10834D8
+    // Offset: 0x1125620
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32 Calendar::get_ID()
     int get_ID();
     // public override System.Int32 GetDaysInMonth(System.Int32 year, System.Int32 month, System.Int32 era)
-    // Offset: 0x10834E0
+    // Offset: 0x1125628
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32 Calendar::GetDaysInMonth(System.Int32 year, System.Int32 month, System.Int32 era)
     int GetDaysInMonth(int year, int month, int era);
     // public override System.Int32 GetDayOfMonth(System.DateTime time)
-    // Offset: 0x10834FC
+    // Offset: 0x1125644
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32 Calendar::GetDayOfMonth(System.DateTime time)
     int GetDayOfMonth(System::DateTime time);
     // public override System.DayOfWeek GetDayOfWeek(System.DateTime time)
-    // Offset: 0x1083518
+    // Offset: 0x1125660
     // Implemented from: System.Globalization.Calendar
     // Base method: System.DayOfWeek Calendar::GetDayOfWeek(System.DateTime time)
     System::DayOfWeek GetDayOfWeek(System::DateTime time);
     // public override System.Int32 GetMonthsInYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x1083534
+    // Offset: 0x112567C
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32 Calendar::GetMonthsInYear(System.Int32 year, System.Int32 era)
     int GetMonthsInYear(int year, int era);
     // public override System.Int32 GetEra(System.DateTime time)
-    // Offset: 0x1083550
+    // Offset: 0x1125698
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32 Calendar::GetEra(System.DateTime time)
     int GetEra(System::DateTime time);
     // public override System.Int32 GetMonth(System.DateTime time)
-    // Offset: 0x108356C
+    // Offset: 0x11256B4
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32 Calendar::GetMonth(System.DateTime time)
     int GetMonth(System::DateTime time);
     // public override System.Int32 GetYear(System.DateTime time)
-    // Offset: 0x1083588
+    // Offset: 0x11256D0
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32 Calendar::GetYear(System.DateTime time)
     int GetYear(System::DateTime time);
     // public override System.Boolean IsLeapYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x10835A4
+    // Offset: 0x11256EC
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Boolean Calendar::IsLeapYear(System.Int32 year, System.Int32 era)
     bool IsLeapYear(int year, int era);
     // public override System.DateTime ToDateTime(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.Int32 era)
-    // Offset: 0x10835C0
+    // Offset: 0x1125708
     // Implemented from: System.Globalization.Calendar
     // Base method: System.DateTime Calendar::ToDateTime(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.Int32 era)
     System::DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
     // public override System.Int32[] get_Eras()
-    // Offset: 0x10835E8
+    // Offset: 0x1125730
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32[] Calendar::get_Eras()
     ::Array<int>* get_Eras();
     // public override System.Int32 get_TwoDigitYearMax()
-    // Offset: 0x1083604
+    // Offset: 0x112574C
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32 Calendar::get_TwoDigitYearMax()
     int get_TwoDigitYearMax();
     // public override System.Int32 ToFourDigitYear(System.Int32 year)
-    // Offset: 0x108364C
+    // Offset: 0x1125794
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32 Calendar::ToFourDigitYear(System.Int32 year)
     int ToFourDigitYear(int year);

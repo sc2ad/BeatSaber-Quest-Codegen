@@ -69,31 +69,31 @@ namespace GlobalNamespace {
     // Offset: 0x60
     System::Action* colorsDidChangeEvent;
     // public System.Void add_colorsDidChangeEvent(System.Action value)
-    // Offset: 0x18E6D24
+    // Offset: 0xB80280
     void add_colorsDidChangeEvent(System::Action* value);
     // public System.Void remove_colorsDidChangeEvent(System.Action value)
-    // Offset: 0x18E6DC8
+    // Offset: 0xB80324
     void remove_colorsDidChangeEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x18E6E6C
+    // Offset: 0xB803C8
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x18E6E9C
+    // Offset: 0xB803F8
     void Start();
     // public UnityEngine.Color ColorForNoteType(NoteType type)
-    // Offset: 0x18E6FB8
+    // Offset: 0xB80514
     UnityEngine::Color ColorForNoteType(GlobalNamespace::NoteType type);
     // public UnityEngine.Color ColorForSaberType(SaberType type)
-    // Offset: 0x18E700C
+    // Offset: 0xB80568
     UnityEngine::Color ColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
-    // Offset: 0x18E7060
+    // Offset: 0xB805BC
     UnityEngine::Color EffectsColorForSaberType(GlobalNamespace::SaberType type);
     // public UnityEngine.Color GetObstacleEffectColor()
-    // Offset: 0x18E70F8
+    // Offset: 0xB80654
     UnityEngine::Color GetObstacleEffectColor();
     // public System.Void .ctor()
-    // Offset: 0x18E715C
+    // Offset: 0xB806B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

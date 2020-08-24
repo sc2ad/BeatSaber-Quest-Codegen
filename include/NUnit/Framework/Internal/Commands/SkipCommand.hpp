@@ -25,18 +25,18 @@ namespace NUnit::Framework::Internal::Commands {
   class SkipCommand : public NUnit::Framework::Internal::Commands::TestCommand {
     public:
     // private System.String GetSkipReason()
-    // Offset: 0xFE5508
+    // Offset: 0x1089650
     ::Il2CppString* GetSkipReason();
     // private System.String GetProviderStackTrace()
-    // Offset: 0xFE5600
+    // Offset: 0x1089748
     ::Il2CppString* GetProviderStackTrace();
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
-    // Offset: 0xFE52F4
+    // Offset: 0x108943C
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: System.Void TestCommand::.ctor(NUnit.Framework.Internal.Test test)
     static SkipCommand* New_ctor(NUnit::Framework::Internal::Test* test);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0xFE5328
+    // Offset: 0x1089470
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

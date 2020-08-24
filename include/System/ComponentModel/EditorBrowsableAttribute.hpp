@@ -19,15 +19,15 @@ namespace System::ComponentModel {
     // Offset: 0x10
     System::ComponentModel::EditorBrowsableState browsableState;
     // public System.Void .ctor(System.ComponentModel.EditorBrowsableState state)
-    // Offset: 0xEB924C
+    // Offset: 0xF5E394
     static EditorBrowsableAttribute* New_ctor(System::ComponentModel::EditorBrowsableState state);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEB9278
+    // Offset: 0xF5E3C0
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEB9314
+    // Offset: 0xF5E45C
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

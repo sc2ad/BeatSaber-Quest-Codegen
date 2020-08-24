@@ -14,16 +14,16 @@ namespace System::Collections::Generic {
   class InternalStringComparer : public System::Collections::Generic::EqualityComparer_1<::Il2CppString*> {
     public:
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1294D28
+    // Offset: 0x133BE70
     int GetHashCode(::Il2CppString* obj);
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1294D48
+    // Offset: 0x133BE90
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // System.Int32 IndexOf(System.String[] array, System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1294D78
+    // Offset: 0x133BEC0
     int IndexOf(::Array<::Il2CppString*>* array, ::Il2CppString* value, int startIndex, int count);
     // public System.Void .ctor()
-    // Offset: 0x1294DE0
+    // Offset: 0x133BF28
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer`1::.ctor()
     // Base method: System.Void Object::.ctor()

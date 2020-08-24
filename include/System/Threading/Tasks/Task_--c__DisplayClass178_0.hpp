@@ -41,10 +41,10 @@ namespace System::Threading::Tasks {
     // Offset: 0x2C
     System::Threading::Tasks::InternalTaskOptions internalOptionsForReplicas;
     // System.Void <ExecuteSelfReplicating>b__0(System.Object $p0$)
-    // Offset: 0xC43080
+    // Offset: 0xCE71C8
     void $ExecuteSelfReplicating$b__0(::Il2CppObject* $p0$);
     // public System.Void .ctor()
-    // Offset: 0xC40588
+    // Offset: 0xCE46D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Task::$$c__DisplayClass178_0* New_ctor();

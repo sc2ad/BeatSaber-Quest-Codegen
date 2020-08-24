@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* userName;
     // public System.Void .ctor()
-    // Offset: 0x191DB90
+    // Offset: 0xBD9450
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlatformUserModelSO::UserInfo* New_ctor();

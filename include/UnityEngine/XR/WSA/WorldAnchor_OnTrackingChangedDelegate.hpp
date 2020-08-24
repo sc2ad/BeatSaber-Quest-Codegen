@@ -26,16 +26,16 @@ namespace UnityEngine::XR::WSA {
   class WorldAnchor::OnTrackingChangedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x18D0468
+    // Offset: 0x197E5B0
     static WorldAnchor::OnTrackingChangedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located)
-    // Offset: 0x18D0020
+    // Offset: 0x197E168
     void Invoke(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located);
     // public System.IAsyncResult BeginInvoke(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x18D047C
+    // Offset: 0x197E5C4
     System::IAsyncResult* BeginInvoke(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x18D051C
+    // Offset: 0x197E664
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.XR.WSA.WorldAnchor/OnTrackingChangedDelegate
 }

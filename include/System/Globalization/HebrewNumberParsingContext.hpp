@@ -24,7 +24,7 @@ namespace System::Globalization {
     // Creating value type constructor for type: HebrewNumberParsingContext
     HebrewNumberParsingContext(System::Globalization::HebrewNumber::HS state_ = {}, int result_ = {}) : state{state_}, result{result_} {}
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0x9A9464
+    // Offset: 0xA43ADC
     static HebrewNumberParsingContext* New_ctor(int result);
   }; // System.Globalization.HebrewNumberParsingContext
 }

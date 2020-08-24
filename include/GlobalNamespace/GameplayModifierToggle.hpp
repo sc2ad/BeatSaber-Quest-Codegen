@@ -53,16 +53,16 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::UI::Toggle* toggle;
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0xB3F12C
+    // Offset: 0xB3F140
     UnityEngine::UI::Toggle* get_toggle();
     // public GameplayModifierParamsSO get_gameplayModifier()
-    // Offset: 0xB3F134
+    // Offset: 0xB3F148
     GlobalNamespace::GameplayModifierParamsSO* get_gameplayModifier();
     // protected System.Void Start()
-    // Offset: 0xB3F13C
+    // Offset: 0xB3F150
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xB3F27C
+    // Offset: 0xB3F290
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

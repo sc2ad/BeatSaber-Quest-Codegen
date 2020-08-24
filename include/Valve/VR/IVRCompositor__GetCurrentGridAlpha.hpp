@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetCurrentGridAlpha : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1558680
+    // Offset: 0x16057C8
     static IVRCompositor::_GetCurrentGridAlpha* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Single Invoke()
-    // Offset: 0x1558694
+    // Offset: 0x16057DC
     float Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15588A8
+    // Offset: 0x16059F0
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Single EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15588D4
+    // Offset: 0x1605A1C
     float EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetCurrentGridAlpha
 }

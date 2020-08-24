@@ -49,28 +49,28 @@ namespace System::Runtime::Serialization {
     // Offset: 0x28
     System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnDeserializedMethods;
     // private System.Collections.Generic.List`1<System.Reflection.MethodInfo> GetMethodsWithAttribute(System.Type attribute, System.Type t)
-    // Offset: 0xF5AE0C
+    // Offset: 0x1000F54
     System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* GetMethodsWithAttribute(System::Type* attribute, System::Type* t);
     // System.Void .ctor(System.Type t)
-    // Offset: 0xF5AFEC
+    // Offset: 0x1001134
     static SerializationEvents* New_ctor(System::Type* t);
     // System.Boolean get_HasOnSerializingEvents()
-    // Offset: 0xF5B124
+    // Offset: 0x100126C
     bool get_HasOnSerializingEvents();
     // System.Void InvokeOnSerializing(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xF5B144
+    // Offset: 0x100128C
     void InvokeOnSerializing(::Il2CppObject* obj, System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserializing(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xF5989C
+    // Offset: 0xFFF9E4
     void InvokeOnDeserializing(::Il2CppObject* obj, System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserialized(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xF595D0
+    // Offset: 0xFFF718
     void InvokeOnDeserialized(::Il2CppObject* obj, System::Runtime::Serialization::StreamingContext context);
     // System.Runtime.Serialization.SerializationEventHandler AddOnSerialized(System.Object obj, System.Runtime.Serialization.SerializationEventHandler handler)
-    // Offset: 0xF5B374
+    // Offset: 0x10014BC
     System::Runtime::Serialization::SerializationEventHandler* AddOnSerialized(::Il2CppObject* obj, System::Runtime::Serialization::SerializationEventHandler* handler);
     // System.Runtime.Serialization.SerializationEventHandler AddOnDeserialized(System.Object obj, System.Runtime.Serialization.SerializationEventHandler handler)
-    // Offset: 0xF5932C
+    // Offset: 0xFFF474
     System::Runtime::Serialization::SerializationEventHandler* AddOnDeserialized(::Il2CppObject* obj, System::Runtime::Serialization::SerializationEventHandler* handler);
   }; // System.Runtime.Serialization.SerializationEvents
 }

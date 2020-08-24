@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::ParticleSystem* particleSystem;
     // public System.Void Emit(System.Int32 count)
-    // Offset: 0x192DD38
+    // Offset: 0xBE95FC
     void Emit(int count);
     // public System.Void .ctor()
-    // Offset: 0x192DD54
+    // Offset: 0xBE9618
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

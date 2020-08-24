@@ -31,10 +31,10 @@ namespace System::Threading::Tasks {
     // Offset: 0x90
     System::Threading::Tasks::Task* m_canceledTask;
     // public System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0xC3EF08
+    // Offset: 0xCE3050
     static TaskCanceledException* New_ctor(System::Threading::Tasks::Task* task);
     // public System.Void .ctor()
-    // Offset: 0xC434E0
+    // Offset: 0xCE7628
     // Implemented from: System.OperationCanceledException
     // Base method: System.Void OperationCanceledException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -42,7 +42,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     static TaskCanceledException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xC43540
+    // Offset: 0xCE7688
     // Implemented from: System.OperationCanceledException
     // Base method: System.Void OperationCanceledException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

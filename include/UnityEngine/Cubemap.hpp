@@ -38,58 +38,58 @@ namespace UnityEngine {
   class Cubemap : public UnityEngine::Texture {
     public:
     // public UnityEngine.TextureFormat get_format()
-    // Offset: 0x1265B08
+    // Offset: 0x130BC50
     UnityEngine::TextureFormat get_format();
     // static private System.Boolean Internal_CreateImpl(UnityEngine.Cubemap mono, System.Int32 ext, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.IntPtr nativeTex)
-    // Offset: 0x1265B48
+    // Offset: 0x130BC90
     static bool Internal_CreateImpl(UnityEngine::Cubemap* mono, int ext, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, System::IntPtr nativeTex);
     // static private System.Void Internal_Create(UnityEngine.Cubemap mono, System.Int32 ext, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.IntPtr nativeTex)
-    // Offset: 0x1265BC8
+    // Offset: 0x130BD10
     static void Internal_Create(UnityEngine::Cubemap* mono, int ext, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, System::IntPtr nativeTex);
     // public System.Void SmoothEdges(System.Int32 smoothRegionWidthInPixels)
-    // Offset: 0x1265CF0
+    // Offset: 0x130BE38
     void SmoothEdges(int smoothRegionWidthInPixels);
     // public System.Void SmoothEdges()
-    // Offset: 0x1265D40
+    // Offset: 0x130BE88
     void SmoothEdges();
     // public UnityEngine.Color[] GetPixels(UnityEngine.CubemapFace face, System.Int32 miplevel)
-    // Offset: 0x1265D84
+    // Offset: 0x130BECC
     ::Array<UnityEngine::Color>* GetPixels(UnityEngine::CubemapFace face, int miplevel);
     // public UnityEngine.Color[] GetPixels(UnityEngine.CubemapFace face)
-    // Offset: 0x1265DDC
+    // Offset: 0x130BF24
     ::Array<UnityEngine::Color>* GetPixels(UnityEngine::CubemapFace face);
     // public System.Void SetPixels(UnityEngine.Color[] colors, UnityEngine.CubemapFace face, System.Int32 miplevel)
-    // Offset: 0x1265E30
+    // Offset: 0x130BF78
     void SetPixels(::Array<UnityEngine::Color>* colors, UnityEngine::CubemapFace face, int miplevel);
     // public System.Void SetPixels(UnityEngine.Color[] colors, UnityEngine.CubemapFace face)
-    // Offset: 0x1265E98
+    // Offset: 0x130BFE0
     void SetPixels(::Array<UnityEngine::Color>* colors, UnityEngine::CubemapFace face);
     // public System.Void .ctor(System.Int32 width, UnityEngine.Experimental.Rendering.DefaultFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x1265EF4
+    // Offset: 0x130C03C
     static Cubemap* New_ctor(int width, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
-    // Offset: 0x1265F3C
+    // Offset: 0x130C084
     static Cubemap* New_ctor(int width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // public System.Void .ctor(System.Int32 width, UnityEngine.TextureFormat format, System.Int32 mipCount)
-    // Offset: 0x1266028
+    // Offset: 0x130C170
     static Cubemap* New_ctor(int width, UnityEngine::TextureFormat format, int mipCount);
     // public System.Void .ctor(System.Int32 width, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.Int32 mipCount)
-    // Offset: 0x12661AC
+    // Offset: 0x130C2F4
     static Cubemap* New_ctor(int width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount);
     // System.Void .ctor(System.Int32 width, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount, System.IntPtr nativeTex)
-    // Offset: 0x1266098
+    // Offset: 0x130C1E0
     static Cubemap* New_ctor(int width, UnityEngine::TextureFormat textureFormat, int mipCount, System::IntPtr nativeTex);
     // System.Void .ctor(System.Int32 width, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain, System.IntPtr nativeTex)
-    // Offset: 0x12662F0
+    // Offset: 0x130C438
     static Cubemap* New_ctor(int width, UnityEngine::TextureFormat textureFormat, bool mipChain, System::IntPtr nativeTex);
     // public System.Void .ctor(System.Int32 width, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
-    // Offset: 0x1266310
+    // Offset: 0x130C458
     static Cubemap* New_ctor(int width, UnityEngine::TextureFormat textureFormat, bool mipChain);
     // static public UnityEngine.Cubemap CreateExternalTexture(System.Int32 width, UnityEngine.TextureFormat format, System.Boolean mipmap, System.IntPtr nativeTex)
-    // Offset: 0x1266390
+    // Offset: 0x130C4D8
     static UnityEngine::Cubemap* CreateExternalTexture(int width, UnityEngine::TextureFormat format, bool mipmap, System::IntPtr nativeTex);
     // public override System.Boolean get_isReadable()
-    // Offset: 0x1265CB0
+    // Offset: 0x130BDF8
     // Implemented from: UnityEngine.Texture
     // Base method: System.Boolean Texture::get_isReadable()
     bool get_isReadable();

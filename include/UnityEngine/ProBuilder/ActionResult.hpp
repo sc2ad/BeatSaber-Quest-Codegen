@@ -61,34 +61,34 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     ::Il2CppString* notification;
     // public UnityEngine.ProBuilder.ActionResult/Status get_status()
-    // Offset: 0x14837AC
+    // Offset: 0x152E8F4
     UnityEngine::ProBuilder::ActionResult::Status get_status();
     // private System.Void set_status(UnityEngine.ProBuilder.ActionResult/Status value)
-    // Offset: 0x14837B4
+    // Offset: 0x152E8FC
     void set_status(UnityEngine::ProBuilder::ActionResult::Status value);
     // public System.String get_notification()
-    // Offset: 0x14837BC
+    // Offset: 0x152E904
     ::Il2CppString* get_notification();
     // private System.Void set_notification(System.String value)
-    // Offset: 0x14837C4
+    // Offset: 0x152E90C
     void set_notification(::Il2CppString* value);
     // public System.Void .ctor(UnityEngine.ProBuilder.ActionResult/Status status, System.String notification)
-    // Offset: 0x14837CC
+    // Offset: 0x152E914
     static ActionResult* New_ctor(UnityEngine::ProBuilder::ActionResult::Status status, ::Il2CppString* notification);
     // public System.Boolean ToBool()
-    // Offset: 0x1483824
+    // Offset: 0x152E96C
     bool ToBool();
     // static public System.Boolean FromBool(System.Boolean success)
-    // Offset: 0x1483834
+    // Offset: 0x152E97C
     static bool FromBool(bool success);
     // static public UnityEngine.ProBuilder.ActionResult get_Success()
-    // Offset: 0x14838DC
+    // Offset: 0x152EA24
     static UnityEngine::ProBuilder::ActionResult* get_Success();
     // static public UnityEngine.ProBuilder.ActionResult get_NoSelection()
-    // Offset: 0x1483958
+    // Offset: 0x152EAA0
     static UnityEngine::ProBuilder::ActionResult* get_NoSelection();
     // static public UnityEngine.ProBuilder.ActionResult get_UserCanceled()
-    // Offset: 0x14839D8
+    // Offset: 0x152EB20
     static UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
   }; // UnityEngine.ProBuilder.ActionResult
 }

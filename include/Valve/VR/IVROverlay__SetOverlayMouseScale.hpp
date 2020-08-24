@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlayMouseScale : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1618514
+    // Offset: 0x16C365C
     static IVROverlay::_SetOverlayMouseScale* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.HmdVector2_t pvecMouseScale)
-    // Offset: 0x1618528
+    // Offset: 0x16C3670
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::HmdVector2_t& pvecMouseScale);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.HmdVector2_t pvecMouseScale, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16187AC
+    // Offset: 0x16C38F4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::HmdVector2_t& pvecMouseScale, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(Valve.VR.HmdVector2_t pvecMouseScale, System.IAsyncResult result)
-    // Offset: 0x161885C
+    // Offset: 0x16C39A4
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::HmdVector2_t& pvecMouseScale, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayMouseScale
 }

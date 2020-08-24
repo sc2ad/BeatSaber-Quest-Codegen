@@ -35,25 +35,25 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     bool fixedFrame;
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x12DCB64
+    // Offset: 0x1384CAC
     bool get_animatePhysics();
     // private System.Void Start()
-    // Offset: 0x12DCC00
+    // Offset: 0x1384D48
     void Start();
     // private System.Void Update()
-    // Offset: 0x12DCC70
+    // Offset: 0x1384DB8
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0x12DCD2C
+    // Offset: 0x1384E74
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x12DCD68
+    // Offset: 0x1384EB0
     void LateUpdate();
     // private System.Void FixTransforms()
-    // Offset: 0x12DCCA4
+    // Offset: 0x1384DEC
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x12DCDF4
+    // Offset: 0x1384F3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

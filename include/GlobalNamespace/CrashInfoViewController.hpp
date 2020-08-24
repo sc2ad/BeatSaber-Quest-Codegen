@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     TMPro::TextMeshProUGUI* text;
     // protected System.Void Start()
-    // Offset: 0x192742C
+    // Offset: 0xBE2CF0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x19274A4
+    // Offset: 0xBE2D68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

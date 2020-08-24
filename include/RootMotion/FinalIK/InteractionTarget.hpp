@@ -60,40 +60,40 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     UnityEngine::Transform* lastPivot;
     // private System.Void OpenUserManual()
-    // Offset: 0x13AC6F0
+    // Offset: 0x1453838
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x13AC73C
+    // Offset: 0x1453884
     void OpenScriptReference();
     // private System.Void OpenTutorial1()
-    // Offset: 0x13AC788
+    // Offset: 0x14538D0
     void OpenTutorial1();
     // private System.Void OpenTutorial2()
-    // Offset: 0x13AC7D4
+    // Offset: 0x145391C
     void OpenTutorial2();
     // private System.Void OpenTutorial3()
-    // Offset: 0x13AC820
+    // Offset: 0x1453968
     void OpenTutorial3();
     // private System.Void OpenTutorial4()
-    // Offset: 0x13AC86C
+    // Offset: 0x14539B4
     void OpenTutorial4();
     // private System.Void SupportGroup()
-    // Offset: 0x13AC8B8
+    // Offset: 0x1453A00
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x13AC904
+    // Offset: 0x1453A4C
     void ASThread();
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/WeightCurve/Type curveType)
-    // Offset: 0x13A7F54
+    // Offset: 0x144F09C
     float GetValue(RootMotion::FinalIK::InteractionObject::WeightCurve::Type curveType);
     // public System.Void ResetRotation()
-    // Offset: 0x13A6ED4
+    // Offset: 0x144E01C
     void ResetRotation();
     // public System.Void RotateTo(UnityEngine.Vector3 position)
-    // Offset: 0x13A526C
+    // Offset: 0x144C3B4
     void RotateTo(UnityEngine::Vector3 position);
     // public System.Void .ctor()
-    // Offset: 0x13AC950
+    // Offset: 0x1453A98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

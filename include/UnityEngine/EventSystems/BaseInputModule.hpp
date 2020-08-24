@@ -62,71 +62,71 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x40
     UnityEngine::EventSystems::BaseInput* m_DefaultInput;
     // public UnityEngine.EventSystems.BaseInput get_input()
-    // Offset: 0xD55908
+    // Offset: 0xDFAA50
     UnityEngine::EventSystems::BaseInput* get_input();
     // public UnityEngine.EventSystems.BaseInput get_inputOverride()
-    // Offset: 0xD55B40
+    // Offset: 0xDFAC88
     UnityEngine::EventSystems::BaseInput* get_inputOverride();
     // public System.Void set_inputOverride(UnityEngine.EventSystems.BaseInput value)
-    // Offset: 0xD55B48
+    // Offset: 0xDFAC90
     void set_inputOverride(UnityEngine::EventSystems::BaseInput* value);
     // protected UnityEngine.EventSystems.EventSystem get_eventSystem()
-    // Offset: 0xD55B50
+    // Offset: 0xDFAC98
     UnityEngine::EventSystems::EventSystem* get_eventSystem();
     // public System.Void Process()
     // Offset: 0xFFFFFFFF
     void Process();
     // static protected UnityEngine.EventSystems.RaycastResult FindFirstRaycast(System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> candidates)
-    // Offset: 0xD55D34
+    // Offset: 0xDFAE7C
     static UnityEngine::EventSystems::RaycastResult FindFirstRaycast(System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* candidates);
     // static protected UnityEngine.EventSystems.MoveDirection DetermineMoveDirection(System.Single x, System.Single y)
-    // Offset: 0xD55E4C
+    // Offset: 0xDFAF94
     static UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float x, float y);
     // static protected UnityEngine.EventSystems.MoveDirection DetermineMoveDirection(System.Single x, System.Single y, System.Single deadZone)
-    // Offset: 0xD55E58
+    // Offset: 0xDFAFA0
     static UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float x, float y, float deadZone);
     // static protected UnityEngine.GameObject FindCommonRoot(UnityEngine.GameObject g1, UnityEngine.GameObject g2)
-    // Offset: 0xD55F44
+    // Offset: 0xDFB08C
     static UnityEngine::GameObject* FindCommonRoot(UnityEngine::GameObject* g1, UnityEngine::GameObject* g2);
     // protected System.Void HandlePointerExitAndEnter(UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget)
-    // Offset: 0xD560EC
+    // Offset: 0xDFB234
     void HandlePointerExitAndEnter(UnityEngine::EventSystems::PointerEventData* currentPointerData, UnityEngine::GameObject* newEnterTarget);
     // protected UnityEngine.EventSystems.AxisEventData GetAxisEventData(System.Single x, System.Single y, System.Single moveDeadZone)
-    // Offset: 0xD566D4
+    // Offset: 0xDFB81C
     UnityEngine::EventSystems::AxisEventData* GetAxisEventData(float x, float y, float moveDeadZone);
     // protected UnityEngine.EventSystems.BaseEventData GetBaseEventData()
-    // Offset: 0xD567D4
+    // Offset: 0xDFB91C
     UnityEngine::EventSystems::BaseEventData* GetBaseEventData();
     // public System.Boolean IsPointerOverGameObject(System.Int32 pointerId)
-    // Offset: 0xD56884
+    // Offset: 0xDFB9CC
     bool IsPointerOverGameObject(int pointerId);
     // public System.Boolean ShouldActivateModule()
-    // Offset: 0xD5688C
+    // Offset: 0xDFB9D4
     bool ShouldActivateModule();
     // public System.Void DeactivateModule()
-    // Offset: 0xD568DC
+    // Offset: 0xDFBA24
     void DeactivateModule();
     // public System.Void ActivateModule()
-    // Offset: 0xD568E0
+    // Offset: 0xDFBA28
     void ActivateModule();
     // public System.Void UpdateModule()
-    // Offset: 0xD568E4
+    // Offset: 0xDFBA2C
     void UpdateModule();
     // public System.Boolean IsModuleSupported()
-    // Offset: 0xD568E8
+    // Offset: 0xDFBA30
     bool IsModuleSupported();
     // protected override System.Void OnEnable()
-    // Offset: 0xD55B58
+    // Offset: 0xDFACA0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xD55D18
+    // Offset: 0xDFAE60
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected System.Void .ctor()
-    // Offset: 0xD568F0
+    // Offset: 0xDFBA38
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

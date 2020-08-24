@@ -19,13 +19,13 @@ namespace NUnit::Framework::Internal {
   class AssemblyHelper : public ::Il2CppObject {
     public:
     // static public System.String GetAssemblyPath(System.Reflection.Assembly assembly)
-    // Offset: 0xFCE074
+    // Offset: 0x10721BC
     static ::Il2CppString* GetAssemblyPath(System::Reflection::Assembly* assembly);
     // static private System.Boolean IsFileUri(System.String uri)
-    // Offset: 0xFDE4AC
+    // Offset: 0x10825F4
     static bool IsFileUri(::Il2CppString* uri);
     // static public System.String GetAssemblyPathFromCodeBase(System.String codeBase)
-    // Offset: 0xFDE540
+    // Offset: 0x1082688
     static ::Il2CppString* GetAssemblyPathFromCodeBase(::Il2CppString* codeBase);
   }; // NUnit.Framework.Internal.AssemblyHelper
 }

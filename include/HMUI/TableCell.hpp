@@ -64,75 +64,75 @@ namespace HMUI {
     // Offset: 0x49
     bool highlighted;
     // public System.String get_reuseIdentifier()
-    // Offset: 0x1043700
+    // Offset: 0x10E6848
     ::Il2CppString* get_reuseIdentifier();
     // public System.Void set_reuseIdentifier(System.String value)
-    // Offset: 0x1043708
+    // Offset: 0x10E6850
     void set_reuseIdentifier(::Il2CppString* value);
     // public System.Int32 get_idx()
-    // Offset: 0x1043710
+    // Offset: 0x10E6858
     int get_idx();
     // protected System.Void Start()
-    // Offset: 0x1043718
+    // Offset: 0x10E6860
     void Start();
     // public System.Void TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
-    // Offset: 0x1043754
+    // Offset: 0x10E689C
     void TableViewSetup(HMUI::ITableCellOwner* tableCellOwner, int idx);
     // public System.Void MoveIdx(System.Int32 offset)
-    // Offset: 0x1043784
+    // Offset: 0x10E68CC
     void MoveIdx(int offset);
     // public System.Boolean get_selected()
-    // Offset: 0x1043794
+    // Offset: 0x10E68DC
     bool get_selected();
     // public System.Void set_selected(System.Boolean value)
-    // Offset: 0x104379C
+    // Offset: 0x10E68E4
     void set_selected(bool value);
     // public System.Boolean get_highlighted()
-    // Offset: 0x10438D8
+    // Offset: 0x10E6A20
     bool get_highlighted();
     // public System.Void ChangeSelection(System.Boolean value, HMUI.TableCell/TransitionType transitionType, System.Boolean callbackTable, System.Boolean ignoreCurrentValue)
-    // Offset: 0x10437B0
+    // Offset: 0x10E68F8
     void ChangeSelection(bool value, HMUI::TableCell::TransitionType transitionType, bool callbackTable, bool ignoreCurrentValue);
     // public System.Void ChangeHighlight(System.Boolean value, HMUI.TableCell/TransitionType transitionType, System.Boolean ignoreCurrentValue)
-    // Offset: 0x10438E0
+    // Offset: 0x10E6A28
     void ChangeHighlight(bool value, HMUI::TableCell::TransitionType transitionType, bool ignoreCurrentValue);
     // private System.Void InternalToggle()
-    // Offset: 0x1043918
+    // Offset: 0x10E6A60
     void InternalToggle();
     // protected System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x1043AA4
+    // Offset: 0x10E6BEC
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x1043AA8
+    // Offset: 0x10E6BF0
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void __WasPreparedForReuse()
-    // Offset: 0x1043AAC
+    // Offset: 0x10E6BF4
     void __WasPreparedForReuse();
     // protected System.Void WasPreparedForReuse()
-    // Offset: 0x1043AB8
+    // Offset: 0x10E6C00
     void WasPreparedForReuse();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1043ABC
+    // Offset: 0x10E6C04
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1043BB8
+    // Offset: 0x10E6D00
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1043C8C
+    // Offset: 0x10E6DD4
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1043CB0
+    // Offset: 0x10E6DF8
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x1043CD0
+    // Offset: 0x10E6E18
     // Implemented from: HMUI.Interactable
     // Base method: System.Void Interactable::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

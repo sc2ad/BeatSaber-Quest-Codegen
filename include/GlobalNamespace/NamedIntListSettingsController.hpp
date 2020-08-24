@@ -29,22 +29,22 @@ namespace GlobalNamespace {
     // Offset: 0x40
     ::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>* textValuePairs;
     // protected override System.Boolean GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
-    // Offset: 0x1954C68
+    // Offset: 0xC1052C
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1954D50
+    // Offset: 0xC10614
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x1954DE4
+    // Offset: 0xC106A8
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x1954E38
+    // Offset: 0xC106FC
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

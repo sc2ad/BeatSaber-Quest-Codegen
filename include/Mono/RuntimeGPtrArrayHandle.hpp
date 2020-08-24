@@ -28,22 +28,22 @@ namespace Mono {
     // Creating value type constructor for type: RuntimeGPtrArrayHandle
     RuntimeGPtrArrayHandle(Mono::RuntimeStructs::GPtrArray* value_ = {}) : value{value_} {}
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0x9A61D8
+    // Offset: 0xA40850
     static RuntimeGPtrArrayHandle* New_ctor(System::IntPtr ptr);
     // System.Int32 get_Length()
-    // Offset: 0x9A6204
+    // Offset: 0xA4087C
     int get_Length();
     // System.IntPtr get_Item(System.Int32 i)
-    // Offset: 0x9A6220
+    // Offset: 0xA40898
     System::IntPtr get_Item(int i);
     // System.IntPtr Lookup(System.Int32 i)
-    // Offset: 0x9A6228
+    // Offset: 0xA408A0
     System::IntPtr Lookup(int i);
     // static private System.Void GPtrArrayFree(Mono.RuntimeStructs/GPtrArray* value)
-    // Offset: 0x1015584
+    // Offset: 0x10B96CC
     static void GPtrArrayFree(Mono::RuntimeStructs::GPtrArray* value);
     // static System.Void DestroyAndFree(Mono.RuntimeGPtrArrayHandle h)
-    // Offset: 0x1015588
+    // Offset: 0x10B96D0
     static void DestroyAndFree(Mono::RuntimeGPtrArrayHandle& h);
   }; // Mono.RuntimeGPtrArrayHandle
 }

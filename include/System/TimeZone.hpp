@@ -16,10 +16,10 @@ namespace System {
     // Set static field: static private System.Object tz_lock
     static void _set_tz_lock(::Il2CppObject* value);
     // static private System.Void .cctor()
-    // Offset: 0xC4D70C
+    // Offset: 0xCF1854
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0xC4D704
+    // Offset: 0xCF184C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimeZone* New_ctor();

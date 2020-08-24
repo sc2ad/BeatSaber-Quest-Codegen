@@ -24,7 +24,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Creating value type constructor for type: SpriteSize
     SpriteSize(float w_ = {}, float h_ = {}) : w{w_}, h{h_} {}
     // public override System.String ToString()
-    // Offset: 0x991DD4
+    // Offset: 0xA2B944
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

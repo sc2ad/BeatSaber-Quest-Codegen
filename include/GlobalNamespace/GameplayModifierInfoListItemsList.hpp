@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class GameplayModifierInfoListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::GameplayModifierInfoListItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xB3F0AC
+    // Offset: 0xB3F0C0
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList`1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

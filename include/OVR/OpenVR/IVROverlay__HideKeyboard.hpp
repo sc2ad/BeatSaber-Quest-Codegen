@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_HideKeyboard : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1481178
+    // Offset: 0x152C2C0
     static IVROverlay::_HideKeyboard* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x148118C
+    // Offset: 0x152C2D4
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1481398
+    // Offset: 0x152C4E0
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14813C4
+    // Offset: 0x152C50C
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_HideKeyboard
 }

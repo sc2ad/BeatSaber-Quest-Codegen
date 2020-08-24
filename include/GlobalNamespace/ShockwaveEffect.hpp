@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Offset: 0xB8
     float prevShockwaveParticleSpawnTime;
     // protected System.Void Start()
-    // Offset: 0xBA30E4
+    // Offset: 0xC2F49C
     void Start();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0xBA31F8
+    // Offset: 0xC2F5B0
     void SpawnShockwave(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0xBA32D0
+    // Offset: 0xC2F688
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

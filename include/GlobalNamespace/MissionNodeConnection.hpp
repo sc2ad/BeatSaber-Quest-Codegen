@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool isActive;
     // public MissionNodeVisualController get_parentMissionNode()
-    // Offset: 0x194DFDC
+    // Offset: 0xC098A0
     GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();
     // public MissionNodeVisualController get_childMissionNode()
-    // Offset: 0x194DFE4
+    // Offset: 0xC098A8
     GlobalNamespace::MissionNodeVisualController* get_childMissionNode();
     // public System.Boolean get_isActive()
-    // Offset: 0x194DFEC
+    // Offset: 0xC098B0
     bool get_isActive();
     // public System.Void Setup(MissionNodeVisualController parentMissionNode, MissionNodeVisualController childMissionNode)
-    // Offset: 0x194DFF4
+    // Offset: 0xC098B8
     void Setup(GlobalNamespace::MissionNodeVisualController* parentMissionNode, GlobalNamespace::MissionNodeVisualController* childMissionNode);
     // public System.Void UpdateConnectionRectTransform()
-    // Offset: 0x194E030
+    // Offset: 0xC098F4
     void UpdateConnectionRectTransform();
     // public System.Void SetActive(System.Boolean animated)
-    // Offset: 0x194DA58
+    // Offset: 0xC0931C
     void SetActive(bool animated);
     // public System.Void MissionConnectionEnabledDidFinish()
-    // Offset: 0x194E320
+    // Offset: 0xC09BE4
     void MissionConnectionEnabledDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x194E340
+    // Offset: 0xC09C04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

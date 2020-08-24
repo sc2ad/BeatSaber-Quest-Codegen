@@ -40,60 +40,60 @@ namespace System::Threading {
     // Creating value type constructor for type: CancellationToken
     CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) : m_source{m_source_} {}
     // static public System.Threading.CancellationToken get_None()
-    // Offset: 0x13344FC
+    // Offset: 0x13DA644
     static System::Threading::CancellationToken get_None();
     // public System.Boolean get_IsCancellationRequested()
-    // Offset: 0x9AD49C
+    // Offset: 0xA47B14
     bool get_IsCancellationRequested();
     // public System.Boolean get_CanBeCanceled()
-    // Offset: 0x9AD4D4
+    // Offset: 0xA47B4C
     bool get_CanBeCanceled();
     // System.Void .ctor(System.Threading.CancellationTokenSource source)
-    // Offset: 0x9AD50C
+    // Offset: 0xA47B84
     static CancellationToken* New_ctor(System::Threading::CancellationTokenSource* source);
     // static private System.Void ActionToActionObjShunt(System.Object obj)
-    // Offset: 0x13345CC
+    // Offset: 0x13DA714
     static void ActionToActionObjShunt(::Il2CppObject* obj);
     // System.Threading.CancellationTokenRegistration InternalRegisterWithoutEC(System.Action`1<System.Object> callback, System.Object state)
-    // Offset: 0x9AD514
+    // Offset: 0xA47B8C
     System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state);
     // private System.Threading.CancellationTokenRegistration Register(System.Action`1<System.Object> callback, System.Object state, System.Boolean useSynchronizationContext, System.Boolean useExecutionContext)
-    // Offset: 0x9AD524
+    // Offset: 0xA47B9C
     System::Threading::CancellationTokenRegistration Register(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state, bool useSynchronizationContext, bool useExecutionContext);
     // public System.Boolean Equals(System.Threading.CancellationToken other)
-    // Offset: 0x9AD534
+    // Offset: 0xA47BAC
     bool Equals(System::Threading::CancellationToken other);
     // public System.Void ThrowIfCancellationRequested()
-    // Offset: 0x9AD54C
+    // Offset: 0xA47BC4
     void ThrowIfCancellationRequested();
     // System.Void ThrowIfSourceDisposed()
-    // Offset: 0x9AD554
+    // Offset: 0xA47BCC
     void ThrowIfSourceDisposed();
     // private System.Void ThrowOperationCanceledException()
-    // Offset: 0x9AD55C
+    // Offset: 0xA47BD4
     void ThrowOperationCanceledException();
     // static private System.Void ThrowObjectDisposedException()
-    // Offset: 0x1335060
+    // Offset: 0x13DB1A8
     static void ThrowObjectDisposedException();
     // static private System.Void .cctor()
-    // Offset: 0x13350E4
+    // Offset: 0x13DB22C
     static void _cctor();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x9AD53C
+    // Offset: 0xA47BB4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x9AD544
+    // Offset: 0xA47BBC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Threading.CancellationToken
   // static public System.Boolean op_Equality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
-  // Offset: 0x1334ECC
+  // Offset: 0x13DB014
   bool operator ==(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
   // static public System.Boolean op_Inequality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
-  // Offset: 0x1334EF4
+  // Offset: 0x13DB03C
   bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

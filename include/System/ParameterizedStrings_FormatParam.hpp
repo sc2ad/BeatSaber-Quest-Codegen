@@ -24,19 +24,19 @@ namespace System {
     // Creating value type constructor for type: FormatParam
     FormatParam(int int32_ = {}, ::Il2CppString* string_ = {}) : int32{int32_}, string{string_} {}
     // public System.Void .ctor(System.Int32 value)
-    // Offset: 0x9AC524
+    // Offset: 0xA46B9C
     static ParameterizedStrings::FormatParam* New_ctor(int value);
     // private System.Void .ctor(System.Int32 intValue, System.String stringValue)
-    // Offset: 0x9AC534
+    // Offset: 0xA46BAC
     static ParameterizedStrings::FormatParam* New_ctor(int intValue, ::Il2CppString* stringValue);
     // public System.Int32 get_Int32()
-    // Offset: 0x9AC544
+    // Offset: 0xA46BBC
     int get_Int32();
     // public System.String get_String()
-    // Offset: 0x9AC54C
+    // Offset: 0xA46BC4
     ::Il2CppString* get_String();
     // public System.Object get_Object()
-    // Offset: 0x9AC5A8
+    // Offset: 0xA46C20
     ::Il2CppObject* get_Object();
   }; // System.ParameterizedStrings/FormatParam
 }

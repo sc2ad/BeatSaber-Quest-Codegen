@@ -29,13 +29,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Button* button;
     // public UnityEngine.UI.Text get_text()
-    // Offset: 0x1960484
+    // Offset: 0xC46244
     UnityEngine::UI::Text* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x196048C
+    // Offset: 0xC4624C
     UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0x1960494
+    // Offset: 0xC46254
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

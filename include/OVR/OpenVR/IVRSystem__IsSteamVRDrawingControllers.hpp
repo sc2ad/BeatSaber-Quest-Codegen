@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_IsSteamVRDrawingControllers : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16174B0
+    // Offset: 0x16C25F8
     static IVRSystem::_IsSteamVRDrawingControllers* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x16174C4
+    // Offset: 0x16C260C
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16176DC
+    // Offset: 0x16C2824
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1617708
+    // Offset: 0x16C2850
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_IsSteamVRDrawingControllers
 }

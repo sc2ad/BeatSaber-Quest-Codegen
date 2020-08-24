@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_SetExplicitTimingMode : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x146E888
+    // Offset: 0x15199D0
     static IVRCompositor::_SetExplicitTimingMode* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.EVRCompositorTimingMode eTimingMode)
-    // Offset: 0x146E89C
+    // Offset: 0x15199E4
     void Invoke(OVR::OpenVR::EVRCompositorTimingMode eTimingMode);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRCompositorTimingMode eTimingMode, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x146EB08
+    // Offset: 0x1519C50
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVRCompositorTimingMode eTimingMode, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x146EB94
+    // Offset: 0x1519CDC
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_SetExplicitTimingMode
 }

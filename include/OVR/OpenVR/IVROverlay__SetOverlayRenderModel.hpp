@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetOverlayRenderModel : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15FF680
+    // Offset: 0x16AA7C8
     static IVROverlay::_SetOverlayRenderModel* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.String pchRenderModel, OVR.OpenVR.HmdColor_t pColor)
-    // Offset: 0x15FF694
+    // Offset: 0x16AA7DC
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::Il2CppString* pchRenderModel, OVR::OpenVR::HmdColor_t& pColor);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.String pchRenderModel, OVR.OpenVR.HmdColor_t pColor, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15FF92C
+    // Offset: 0x16AAA74
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::Il2CppString* pchRenderModel, OVR::OpenVR::HmdColor_t& pColor, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(OVR.OpenVR.HmdColor_t pColor, System.IAsyncResult result)
-    // Offset: 0x15FF9E4
+    // Offset: 0x16AAB2C
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::HmdColor_t& pColor, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayRenderModel
 }

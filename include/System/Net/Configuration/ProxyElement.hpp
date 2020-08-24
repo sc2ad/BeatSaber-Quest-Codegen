@@ -21,12 +21,12 @@ namespace System::Net::Configuration {
   class ProxyElement : public System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0xEC7E20
+    // Offset: 0xF6CF68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProxyElement* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0xEC7E60
+    // Offset: 0xF6CFA8
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

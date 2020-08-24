@@ -40,19 +40,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::FireworkItemController::Pool* fireworkItemPool;
     // protected System.Void OnEnable()
-    // Offset: 0x1932F50
+    // Offset: 0xBEE814
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0x1932F7C
+    // Offset: 0xBEE840
     System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0x1933024
+    // Offset: 0xBEE8E8
     void HandleFireworkItemControllerDidFinish(GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x19330D0
+    // Offset: 0xBEE994
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x1933154
+    // Offset: 0xBEEA18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

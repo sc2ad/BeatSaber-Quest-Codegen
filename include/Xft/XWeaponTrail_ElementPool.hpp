@@ -28,25 +28,25 @@ namespace Xft {
     // Offset: 0x18
     int CountAll;
     // public System.Int32 get_CountAll()
-    // Offset: 0x197381C
+    // Offset: 0xC595DC
     int get_CountAll();
     // private System.Void set_CountAll(System.Int32 value)
-    // Offset: 0x1973824
+    // Offset: 0xC595E4
     void set_CountAll(int value);
     // public System.Int32 get_CountActive()
-    // Offset: 0x197382C
+    // Offset: 0xC595EC
     int get_CountActive();
     // public System.Int32 get_CountInactive()
-    // Offset: 0x1973850
+    // Offset: 0xC59610
     int get_CountInactive();
     // public System.Void .ctor(System.Int32 preCount)
-    // Offset: 0x19722F8
+    // Offset: 0xC580B8
     static XWeaponTrail::ElementPool* New_ctor(int preCount);
     // public Xft.XWeaponTrail/Element Get()
-    // Offset: 0x19735E8
+    // Offset: 0xC593A8
     Xft::XWeaponTrail::Element* Get();
     // public System.Void Release(Xft.XWeaponTrail/Element element)
-    // Offset: 0x1973680
+    // Offset: 0xC59440
     void Release(Xft::XWeaponTrail::Element* element);
   }; // Xft.XWeaponTrail/ElementPool
 }

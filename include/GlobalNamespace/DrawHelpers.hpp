@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class DrawHelpers : public ::Il2CppObject {
     public:
     // static public System.Void DrawTexture(UnityEngine.Texture texture, System.Single x, System.Single y, System.Single w, System.Single h, UnityEngine.Material mat, System.Single sx, System.Single sy, System.Single sw, System.Single sh)
-    // Offset: 0xC0C73C
+    // Offset: 0xCAF884
     static void DrawTexture(UnityEngine::Texture* texture, float x, float y, float w, float h, UnityEngine::Material* mat, float sx, float sy, float sw, float sh);
     // public System.Void .ctor()
-    // Offset: 0xC0C8E8
+    // Offset: 0xCAFA30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DrawHelpers* New_ctor();

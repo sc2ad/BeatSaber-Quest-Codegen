@@ -29,22 +29,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     ::Il2CppObject* value;
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation, System.Object value)
-    // Offset: 0xD85C7C
+    // Offset: 0xE2ADC4
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::Il2CppObject* value);
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation)
-    // Offset: 0xD85C8C
+    // Offset: 0xE2ADD4
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xD85C94
+    // Offset: 0xE2ADDC
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xD85CBC
+    // Offset: 0xE2AE04
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xD85D00
+    // Offset: 0xE2AE48
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xD85C74
+    // Offset: 0xE2ADBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemberPrimitiveUnTyped* New_ctor();

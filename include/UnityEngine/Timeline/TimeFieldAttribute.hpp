@@ -48,10 +48,10 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode;
     // public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode get_useEditMode()
-    // Offset: 0xFFC500
+    // Offset: 0x10A0648
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode get_useEditMode();
     // public System.Void .ctor(UnityEngine.Timeline.TimeFieldAttribute/UseEditMode useEditMode)
-    // Offset: 0xFFC508
+    // Offset: 0x10A0650
     static TimeFieldAttribute* New_ctor(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode);
   }; // UnityEngine.Timeline.TimeFieldAttribute
 }

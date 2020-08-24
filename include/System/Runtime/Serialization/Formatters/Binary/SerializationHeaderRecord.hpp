@@ -44,22 +44,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x28
     int minorVersion;
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum, System.Int32 topId, System.Int32 headerId, System.Int32 majorVersion, System.Int32 minorVersion)
-    // Offset: 0xF4CB08
+    // Offset: 0xFF2C50
     static SerializationHeaderRecord* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int topId, int headerId, int majorVersion, int minorVersion);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0xF4CB64
+    // Offset: 0xFF2CAC
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static private System.Int32 GetInt32(System.Byte[] buffer, System.Int32 index)
-    // Offset: 0xF4CC5C
+    // Offset: 0xFF2DA4
     static int GetInt32(::Array<uint8_t>* buffer, int index);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0xF4CCDC
+    // Offset: 0xFF2E24
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0xF4CEB4
+    // Offset: 0xFF2FFC
     void Dump();
     // System.Void .ctor()
-    // Offset: 0xF4CAF8
+    // Offset: 0xFF2C40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SerializationHeaderRecord* New_ctor();

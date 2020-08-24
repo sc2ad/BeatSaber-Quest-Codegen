@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Image* image;
     // public System.Void set_fillAmount(System.Single value)
-    // Offset: 0x192BBB4
+    // Offset: 0xBE7478
     void set_fillAmount(float value);
     // public System.Single get_fillAmount()
-    // Offset: 0x1932614
+    // Offset: 0xBEDED8
     float get_fillAmount();
     // public System.Void .ctor()
-    // Offset: 0x1932630
+    // Offset: 0xBEDEF4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

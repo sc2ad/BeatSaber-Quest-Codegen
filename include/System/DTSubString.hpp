@@ -33,7 +33,7 @@ namespace System {
     // Creating value type constructor for type: DTSubString
     DTSubString(::Il2CppString* s_ = {}, int index_ = {}, int length_ = {}, System::DTSubStringType type_ = {}, int value_ = {}) : s{s_}, index{index_}, length{length_}, type{type_}, value{value_} {}
     // System.Char get_Item(System.Int32 relativeIndex)
-    // Offset: 0x9A6644
+    // Offset: 0xA40CBC
     ::Il2CppChar get_Item(int relativeIndex);
   }; // System.DTSubString
 }

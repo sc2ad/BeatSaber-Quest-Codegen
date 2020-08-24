@@ -14,13 +14,13 @@ namespace UnityEngine {
   class TextAsset : public UnityEngine::Object {
     public:
     // public System.String get_text()
-    // Offset: 0x12ED674
+    // Offset: 0x13947BC
     ::Il2CppString* get_text();
     // public System.Byte[] get_bytes()
-    // Offset: 0x12ED6B4
+    // Offset: 0x13947FC
     ::Array<uint8_t>* get_bytes();
     // public override System.String ToString()
-    // Offset: 0x12ED6F4
+    // Offset: 0x139483C
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

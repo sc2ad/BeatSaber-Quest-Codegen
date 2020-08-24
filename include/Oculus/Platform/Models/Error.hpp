@@ -21,7 +21,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     ::Il2CppString* Message;
     // public System.Void .ctor(System.Int32 code, System.String message, System.Int32 httpCode)
-    // Offset: 0xDF8360
+    // Offset: 0xE9D4A8
     static Error* New_ctor(int code, ::Il2CppString* message, int httpCode);
   }; // Oculus.Platform.Models.Error
 }

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings;
     // public System.Void .ctor()
-    // Offset: 0xB8F13C
+    // Offset: 0xC1B4F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::GuestPlayer* New_ctor();

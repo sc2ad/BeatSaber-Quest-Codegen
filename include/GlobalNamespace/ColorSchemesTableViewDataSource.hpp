@@ -47,26 +47,26 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::List_1<GlobalNamespace::ColorScheme*>* colorSchemes;
     // public System.Collections.Generic.List`1<ColorScheme> get_colorSchemes()
-    // Offset: 0x1925250
+    // Offset: 0xBE0B14
     System::Collections::Generic::List_1<GlobalNamespace::ColorScheme*>* get_colorSchemes();
     // public System.Void .ctor(ColorSchemesTableViewDataSource dataSource)
-    // Offset: 0x1925258
+    // Offset: 0xBE0B1C
     static ColorSchemesTableViewDataSource* New_ctor(GlobalNamespace::ColorSchemesTableViewDataSource* dataSource);
     // public System.Void SetData(System.Collections.Generic.List`1<ColorScheme> colorSchemes)
-    // Offset: 0x1925310
+    // Offset: 0xBE0BD4
     void SetData(System::Collections::Generic::List_1<GlobalNamespace::ColorScheme*>* colorSchemes);
     // public System.Single CellSize()
-    // Offset: 0x1925318
+    // Offset: 0xBE0BDC
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1925320
+    // Offset: 0xBE0BE4
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x1925374
+    // Offset: 0xBE0C38
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);

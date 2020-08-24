@@ -96,10 +96,10 @@ namespace HMUI {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AddStringBindings", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, bindingData));
     }
     // public System.Void ClearBindings()
-    // Offset: 0xE4544C
+    // Offset: 0xEE9594
     void ClearBindings();
     // public System.Void .ctor()
-    // Offset: 0xE453D0
+    // Offset: 0xEE9518
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InputFieldDataBinder* New_ctor();

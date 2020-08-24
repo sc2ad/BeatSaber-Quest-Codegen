@@ -33,24 +33,24 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.DesignerCategoryAttribute Generic
     static void _set_Generic(System::ComponentModel::DesignerCategoryAttribute* value);
     // public System.Void .ctor(System.String category)
-    // Offset: 0xEB8E58
+    // Offset: 0xF5DFA0
     static DesignerCategoryAttribute* New_ctor(::Il2CppString* category);
     // static private System.Void .cctor()
-    // Offset: 0xEB8F50
+    // Offset: 0xF5E098
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xEB8DF0
+    // Offset: 0xF5DF38
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()
     static DesignerCategoryAttribute* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEB8E8C
+    // Offset: 0xF5DFD4
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEB8F30
+    // Offset: 0xF5E078
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

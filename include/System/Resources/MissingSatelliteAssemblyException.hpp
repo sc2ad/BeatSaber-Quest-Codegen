@@ -26,17 +26,17 @@ namespace System::Resources {
     // Offset: 0x88
     ::Il2CppString* cultureName;
     // public System.Void .ctor(System.String message, System.String cultureName)
-    // Offset: 0x10BAA88
+    // Offset: 0x115CBD0
     static MissingSatelliteAssemblyException* New_ctor(::Il2CppString* message, ::Il2CppString* cultureName);
     // public System.Void .ctor()
-    // Offset: 0x10BAB6C
+    // Offset: 0x115CCB4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static MissingSatelliteAssemblyException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10BABE0
+    // Offset: 0x115CD28
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

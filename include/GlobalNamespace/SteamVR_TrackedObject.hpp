@@ -153,25 +153,25 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::SteamVR_Events::Action* newPosesAction;
     // public System.Boolean get_isValid()
-    // Offset: 0xF32FB4
+    // Offset: 0xFD80FC
     bool get_isValid();
     // private System.Void set_isValid(System.Boolean value)
-    // Offset: 0xF32FBC
+    // Offset: 0xFD8104
     void set_isValid(bool value);
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0xF32FC8
+    // Offset: 0xFD8110
     void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
     // private System.Void OnEnable()
-    // Offset: 0xF332DC
+    // Offset: 0xFD8424
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xF3338C
+    // Offset: 0xFD84D4
     void OnDisable();
     // public System.Void SetDeviceIndex(System.Int32 index)
-    // Offset: 0xF333C4
+    // Offset: 0xFD850C
     void SetDeviceIndex(int index);
     // private System.Void .ctor()
-    // Offset: 0xF33224
+    // Offset: 0xFD836C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

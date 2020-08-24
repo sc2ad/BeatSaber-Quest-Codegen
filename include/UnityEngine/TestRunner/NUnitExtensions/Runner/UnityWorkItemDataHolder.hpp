@@ -28,7 +28,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static public System.Collections.Generic.List`1<System.String> alreadyExecutedTests
     static void _set_alreadyExecutedTests(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xD95150
+    // Offset: 0xE3A298
     static void _cctor();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItemDataHolder
 }

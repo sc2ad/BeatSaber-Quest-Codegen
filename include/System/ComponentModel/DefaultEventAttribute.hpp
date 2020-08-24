@@ -21,21 +21,21 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.DefaultEventAttribute Default
     static void _set_Default(System::ComponentModel::DefaultEventAttribute* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0xEB83DC
+    // Offset: 0xF5D524
     static DefaultEventAttribute* New_ctor(::Il2CppString* name);
     // public System.String get_Name()
-    // Offset: 0xEB8410
+    // Offset: 0xF5D558
     ::Il2CppString* get_Name();
     // static private System.Void .cctor()
-    // Offset: 0xEB84B4
+    // Offset: 0xF5D5FC
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEB8418
+    // Offset: 0xF5D560
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEB84AC
+    // Offset: 0xF5D5F4
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

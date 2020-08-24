@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlatformUserModelSO::UserInfo*>* tcs;
     // System.Void <GetUserInfo>b__0(PlatformUserModelSO/GetUserInfoResult result, PlatformUserModelSO/UserInfo userInfo)
-    // Offset: 0x196840C
+    // Offset: 0xC4E1CC
     void $GetUserInfo$b__0(GlobalNamespace::PlatformUserModelSO::GetUserInfoResult result, GlobalNamespace::PlatformUserModelSO::UserInfo* userInfo);
     // public System.Void .ctor()
-    // Offset: 0x1968404
+    // Offset: 0xC4E1C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserLoginDtoDataSource::$$c__DisplayClass5_0* New_ctor();

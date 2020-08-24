@@ -33,7 +33,7 @@ namespace Zenject::Internal {
     // Offset: 0x18
     System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* Parameters;
     // public System.Void .ctor(System.Reflection.ConstructorInfo constructorInfo, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/InjectParameterInfo> parameters)
-    // Offset: 0xE9B858
+    // Offset: 0xF409A0
     static ReflectionTypeInfo::InjectConstructorInfo* New_ctor(System::Reflection::ConstructorInfo* constructorInfo, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* parameters);
   }; // Zenject.Internal.ReflectionTypeInfo/InjectConstructorInfo
 }

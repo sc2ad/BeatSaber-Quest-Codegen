@@ -46,27 +46,27 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::IPlatformUserHandler* platformUserHandler;
     // public PlatformInfo get_platformInfo()
-    // Offset: 0x191CBFC
+    // Offset: 0xBD84BC
     GlobalNamespace::PlatformInfo* get_platformInfo();
     // public HMAsyncRequest GetUserInfo(PlatformUserModelSO/GetUserInfoCompletionHandler completionHandler)
-    // Offset: 0x191BA84
+    // Offset: 0xBD7344
     GlobalNamespace::HMAsyncRequest* GetUserInfo(GlobalNamespace::PlatformUserModelSO::GetUserInfoCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserFriendsUserIds(System.Boolean cached, PlatformUserModelSO/GetUserFriendsUserIdsCompletionHandler completionHandler)
-    // Offset: 0x191CD20
+    // Offset: 0xBD85E0
     GlobalNamespace::HMAsyncRequest* GetUserFriendsUserIds(bool cached, GlobalNamespace::PlatformUserModelSO::GetUserFriendsUserIdsCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserAuthToken(PlatformUserModelSO/GetUserAuthTokenCompletionHandler completionHandler)
-    // Offset: 0x191CDEC
+    // Offset: 0xBD86AC
     GlobalNamespace::HMAsyncRequest* GetUserAuthToken(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUserNamesForUserIds(System.String[] userIds, PlatformUserModelSO/GetUserNamesForUserIdsCompletionHandler completionHandler)
-    // Offset: 0x1913870
+    // Offset: 0xBCF130
     GlobalNamespace::HMAsyncRequest* GetUserNamesForUserIds(::Array<::Il2CppString*>* userIds, GlobalNamespace::PlatformUserModelSO::GetUserNamesForUserIdsCompletionHandler* completionHandler);
     // protected override System.Void OnEnable()
-    // Offset: 0x191CCAC
+    // Offset: 0xBD856C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x191CEB0
+    // Offset: 0xBD8770
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

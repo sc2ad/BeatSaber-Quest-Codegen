@@ -52,19 +52,19 @@ namespace GlobalNamespace {
     // Offset: 0x38
     System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* missionObjectiveGameUIViews;
     // protected System.Void Start()
-    // Offset: 0x1951938
+    // Offset: 0xC0D1FC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1951D30
+    // Offset: 0xC0D5F4
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
-    // Offset: 0x1951E00
+    // Offset: 0xC0D6C4
     void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
     // private System.Void CreateUIElements()
-    // Offset: 0x19519C8
+    // Offset: 0xC0D28C
     void CreateUIElements();
     // public System.Void .ctor()
-    // Offset: 0x1951E04
+    // Offset: 0xC0D6C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

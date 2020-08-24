@@ -70,10 +70,10 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::NoteDebris* noteDebrisLWPrefab;
     // public System.Void ManualInstallBindings(Zenject.DiContainer container, System.Boolean shortBeatEffect)
-    // Offset: 0x192DAF8
+    // Offset: 0xBE93BC
     void ManualInstallBindings(Zenject::DiContainer* container, bool shortBeatEffect);
     // public System.Void .ctor()
-    // Offset: 0x192DD30
+    // Offset: 0xBE95F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

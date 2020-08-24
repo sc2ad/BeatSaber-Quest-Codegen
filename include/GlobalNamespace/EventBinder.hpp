@@ -28,13 +28,13 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Action*>* unsubscribes;
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
-    // Offset: 0xC0D554
+    // Offset: 0xCB069C
     void Bind(System::Action* subscribe, System::Action* unsubscribe);
     // public System.Void ClearAllBindings()
-    // Offset: 0xC0D5D0
+    // Offset: 0xCB0718
     void ClearAllBindings();
     // public System.Void .ctor()
-    // Offset: 0xC0D6E0
+    // Offset: 0xCB0828
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EventBinder* New_ctor();

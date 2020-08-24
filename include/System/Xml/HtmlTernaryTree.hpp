@@ -20,7 +20,7 @@ namespace System::Xml {
     // Set static field: static System.Byte[] htmlAttributes
     static void _set_htmlAttributes(::Array<uint8_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10F9CF0
+    // Offset: 0x119CE38
     static void _cctor();
   }; // System.Xml.HtmlTernaryTree
 }

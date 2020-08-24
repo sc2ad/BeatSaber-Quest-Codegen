@@ -27,28 +27,28 @@ namespace NUnit::Framework::Internal::Execution {
     // Offset: 0x30
     ::Il2CppString* streamName;
     // public System.Void .ctor(System.String streamName, System.IO.TextWriter defaultWriter)
-    // Offset: 0xFE73C8
+    // Offset: 0x108B510
     static EventListenerTextWriter* New_ctor(::Il2CppString* streamName, System::IO::TextWriter* defaultWriter);
     // private System.Boolean TrySendToListener(System.String text)
-    // Offset: 0xFE74B8
+    // Offset: 0x108B600
     bool TrySendToListener(::Il2CppString* text);
     // public override System.Void Write(System.Char aChar)
-    // Offset: 0xFE7460
+    // Offset: 0x108B5A8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char aChar)
     void Write(::Il2CppChar aChar);
     // public override System.Void Write(System.String aString)
-    // Offset: 0xFE7634
+    // Offset: 0x108B77C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String aString)
     void Write(::Il2CppString* aString);
     // public override System.Void WriteLine(System.String aString)
-    // Offset: 0xFE7684
+    // Offset: 0x108B7CC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String aString)
     void WriteLine(::Il2CppString* aString);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0xFE76F4
+    // Offset: 0x108B83C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();

@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::AnimationCurve* gainCurve;
     // private System.Collections.IEnumerator StartEffectCoroutine(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x18F1100
+    // Offset: 0xB8A660
     System::Collections::IEnumerator* StartEffectCoroutine(float volumeScale, System::Action* finishCallback);
     // public System.Void StartEffect(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x18F11D4
+    // Offset: 0xB8A734
     void StartEffect(float volumeScale, System::Action* finishCallback);
     // public System.Void .ctor()
-    // Offset: 0x18F1200
+    // Offset: 0xB8A760
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

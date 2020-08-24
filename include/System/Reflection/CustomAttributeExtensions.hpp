@@ -39,7 +39,7 @@ namespace System::Reflection {
   class CustomAttributeExtensions : public ::Il2CppObject {
     public:
     // static public System.Attribute GetCustomAttribute(System.Reflection.Assembly element, System.Type attributeType)
-    // Offset: 0x12C35E8
+    // Offset: 0x136B730
     static System::Attribute* GetCustomAttribute(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public T GetCustomAttribute(System.Reflection.Assembly element)
     // Offset: 0xFFFFFFFF
@@ -49,7 +49,7 @@ namespace System::Reflection {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("System.Reflection", "CustomAttributeExtensions", "GetCustomAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, element)));
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> GetCustomAttributes(System.Reflection.Assembly element, System.Type attributeType)
-    // Offset: 0x12C35F0
+    // Offset: 0x136B738
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* GetCustomAttributes(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public System.Collections.Generic.IEnumerable`1<T> GetCustomAttributes(System.Reflection.Assembly element)
     // Offset: 0xFFFFFFFF
@@ -59,7 +59,7 @@ namespace System::Reflection {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<T>*>("System.Reflection", "CustomAttributeExtensions", "GetCustomAttributes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, element)));
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> GetCustomAttributes(System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x12C35F8
+    // Offset: 0x136B740
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* GetCustomAttributes(System::Reflection::MemberInfo* element, System::Type* attributeType, bool inherit);
     // static public System.Collections.Generic.IEnumerable`1<T> GetCustomAttributes(System.Reflection.MemberInfo element, System.Boolean inherit)
     // Offset: 0xFFFFFFFF

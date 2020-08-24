@@ -71,10 +71,10 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::VRPlatformHelper* vrPlatformHelper;
     // protected System.Void OnEnable()
-    // Offset: 0x1869B84
+    // Offset: 0x1915CCC
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1869CC8
+    // Offset: 0x1915E10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_FindOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1479884
+    // Offset: 0x15249CC
     static IVROverlay::_FindOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.String pchOverlayKey, System.UInt64 pOverlayHandle)
-    // Offset: 0x1479898
+    // Offset: 0x15249E0
     OVR::OpenVR::EVROverlayError Invoke(::Il2CppString* pchOverlayKey, uint64_t& pOverlayHandle);
     // public System.IAsyncResult BeginInvoke(System.String pchOverlayKey, System.UInt64 pOverlayHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1479CA4
+    // Offset: 0x1524DEC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchOverlayKey, uint64_t& pOverlayHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.UInt64 pOverlayHandle, System.IAsyncResult result)
-    // Offset: 0x1479D40
+    // Offset: 0x1524E88
     OVR::OpenVR::EVROverlayError EndInvoke(uint64_t& pOverlayHandle, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_FindOverlay
 }

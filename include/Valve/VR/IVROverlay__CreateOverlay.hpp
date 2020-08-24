@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_CreateOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1560B04
+    // Offset: 0x160DC4C
     static IVROverlay::_CreateOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.String pchOverlayKey, System.String pchOverlayName, System.UInt64 pOverlayHandle)
-    // Offset: 0x1560B18
+    // Offset: 0x160DC60
     Valve::VR::EVROverlayError Invoke(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayName, uint64_t& pOverlayHandle);
     // public System.IAsyncResult BeginInvoke(System.String pchOverlayKey, System.String pchOverlayName, System.UInt64 pOverlayHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1560F48
+    // Offset: 0x160E090
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayName, uint64_t& pOverlayHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.UInt64 pOverlayHandle, System.IAsyncResult result)
-    // Offset: 0x1560FF0
+    // Offset: 0x160E138
     Valve::VR::EVROverlayError EndInvoke(uint64_t& pOverlayHandle, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_CreateOverlay
 }

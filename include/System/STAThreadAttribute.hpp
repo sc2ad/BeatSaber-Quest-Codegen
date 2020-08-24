@@ -14,7 +14,7 @@ namespace System {
   class STAThreadAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xD41B04
+    // Offset: 0xDE6C4C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

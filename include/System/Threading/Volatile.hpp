@@ -14,7 +14,7 @@ namespace System::Threading {
   class Volatile : public ::Il2CppObject {
     public:
     // static public System.Boolean Read(System.Boolean location)
-    // Offset: 0xC4AE2C
+    // Offset: 0xCEEF74
     static bool Read(bool& location);
     // static public T Read(T location)
     // Offset: 0xFFFFFFFF

@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<GlobalNamespace::FileBrowserItem*>* bookmarksFolders;
     // public FileBrowserItem[] get_bookmarksFolders()
-    // Offset: 0x18E364C
+    // Offset: 0xB7CBA8
     ::Array<GlobalNamespace::FileBrowserItem*>* get_bookmarksFolders();
     // public System.Void .ctor()
-    // Offset: 0x18E3A40
+    // Offset: 0xB7CF9C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

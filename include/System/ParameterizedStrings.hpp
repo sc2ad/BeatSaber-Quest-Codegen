@@ -27,31 +27,31 @@ namespace System {
     // Set static field: static private System.ParameterizedStrings/LowLevelStack _cachedStack
     static void _set__cachedStack(System::ParameterizedStrings::LowLevelStack* value);
     // static public System.String Evaluate(System.String format, System.ParameterizedStrings/FormatParam[] args)
-    // Offset: 0x12BBD80
+    // Offset: 0x1363EC8
     static ::Il2CppString* Evaluate(::Il2CppString* format, ::Array<System::ParameterizedStrings::FormatParam>* args);
     // static private System.String EvaluateInternal(System.String format, System.Int32 pos, System.ParameterizedStrings/FormatParam[] args, System.ParameterizedStrings/LowLevelStack stack, System.ParameterizedStrings/FormatParam[] dynamicVars, System.ParameterizedStrings/FormatParam[] staticVars)
-    // Offset: 0x12BBF54
+    // Offset: 0x136409C
     static ::Il2CppString* EvaluateInternal(::Il2CppString* format, int& pos, ::Array<System::ParameterizedStrings::FormatParam>* args, System::ParameterizedStrings::LowLevelStack* stack, ::Array<System::ParameterizedStrings::FormatParam>*& dynamicVars, ::Array<System::ParameterizedStrings::FormatParam>*& staticVars);
     // static private System.Boolean AsBool(System.Int32 i)
-    // Offset: 0x12BCEFC
+    // Offset: 0x1365044
     static bool AsBool(int i);
     // static private System.Int32 AsInt(System.Boolean b)
-    // Offset: 0x12BCEF4
+    // Offset: 0x136503C
     static int AsInt(bool b);
     // static private System.String StringFromAsciiBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x12BCF08
+    // Offset: 0x1365050
     static ::Il2CppString* StringFromAsciiBytes(::Array<uint8_t>* buffer, int offset, int length);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.String arg1)
-    // Offset: 0x12BD004
+    // Offset: 0x136514C
     static int snprintf(uint8_t* str, System::IntPtr size, ::Il2CppString* format, ::Il2CppString* arg1);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.Int32 arg1)
-    // Offset: 0x12BD0DC
+    // Offset: 0x1365224
     static int snprintf(uint8_t* str, System::IntPtr size, ::Il2CppString* format, int arg1);
     // static private System.String FormatPrintF(System.String format, System.Object arg)
-    // Offset: 0x12BCA74
+    // Offset: 0x1364BBC
     static ::Il2CppString* FormatPrintF(::Il2CppString* format, ::Il2CppObject* arg);
     // static private System.ParameterizedStrings/FormatParam[] GetDynamicOrStaticVariables(System.Char c, System.ParameterizedStrings/FormatParam[] dynamicVars, System.ParameterizedStrings/FormatParam[] staticVars, System.Int32 index)
-    // Offset: 0x12BCDC8
+    // Offset: 0x1364F10
     static ::Array<System::ParameterizedStrings::FormatParam>* GetDynamicOrStaticVariables(::Il2CppChar c, ::Array<System::ParameterizedStrings::FormatParam>*& dynamicVars, ::Array<System::ParameterizedStrings::FormatParam>*& staticVars, int& index);
   }; // System.ParameterizedStrings
 }

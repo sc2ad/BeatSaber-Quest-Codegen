@@ -41,13 +41,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__20_0
     static void _set_$$9__20_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xFA2100
+    // Offset: 0x1046248
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <GenerateFacePickingObjects>b__20_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0xFA2170
+    // Offset: 0x10462B8
     System::Collections::Generic::IEnumerable_1<int>* $GenerateFacePickingObjects$b__20_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0xFA2168
+    // Offset: 0x10462B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectionPickerRenderer::$$c* New_ctor();

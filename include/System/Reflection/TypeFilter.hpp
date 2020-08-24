@@ -26,16 +26,16 @@ namespace System::Reflection {
   class TypeFilter : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10AF798
+    // Offset: 0x11518E0
     static TypeFilter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Type m, System.Object filterCriteria)
-    // Offset: 0x10B6C7C
+    // Offset: 0x1158DC4
     bool Invoke(System::Type* m, ::Il2CppObject* filterCriteria);
     // public System.IAsyncResult BeginInvoke(System.Type m, System.Object filterCriteria, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10B708C
+    // Offset: 0x11591D4
     System::IAsyncResult* BeginInvoke(System::Type* m, ::Il2CppObject* filterCriteria, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10B70BC
+    // Offset: 0x1159204
     bool EndInvoke(System::IAsyncResult* result);
   }; // System.Reflection.TypeFilter
 }

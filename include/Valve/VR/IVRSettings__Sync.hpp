@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSettings::_Sync : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16278F0
+    // Offset: 0x16D2A38
     static IVRSettings::_Sync* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Boolean bForce, Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1627904
+    // Offset: 0x16D2A4C
     bool Invoke(bool bForce, Valve::VR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.Boolean bForce, Valve.VR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1627BA8
+    // Offset: 0x16D2CF0
     System::IAsyncResult* BeginInvoke(bool bForce, Valve::VR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(Valve.VR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x1627C60
+    // Offset: 0x16D2DA8
     bool EndInvoke(Valve::VR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSettings/_Sync
 }

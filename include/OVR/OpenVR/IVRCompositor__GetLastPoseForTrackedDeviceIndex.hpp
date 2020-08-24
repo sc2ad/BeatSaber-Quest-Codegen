@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_GetLastPoseForTrackedDeviceIndex : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x146BB38
+    // Offset: 0x1516C80
     static IVRCompositor::_GetLastPoseForTrackedDeviceIndex* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRCompositorError Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.TrackedDevicePose_t pOutputPose, OVR.OpenVR.TrackedDevicePose_t pOutputGamePose)
-    // Offset: 0x146BB4C
+    // Offset: 0x1516C94
     OVR::OpenVR::EVRCompositorError Invoke(uint unDeviceIndex, OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pOutputGamePose);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, OVR.OpenVR.TrackedDevicePose_t pOutputPose, OVR.OpenVR.TrackedDevicePose_t pOutputGamePose, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x146BDF8
+    // Offset: 0x1516F40
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pOutputGamePose, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRCompositorError EndInvoke(OVR.OpenVR.TrackedDevicePose_t pOutputPose, OVR.OpenVR.TrackedDevicePose_t pOutputGamePose, System.IAsyncResult result)
-    // Offset: 0x146BEC4
+    // Offset: 0x151700C
     OVR::OpenVR::EVRCompositorError EndInvoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pOutputGamePose, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetLastPoseForTrackedDeviceIndex
 }

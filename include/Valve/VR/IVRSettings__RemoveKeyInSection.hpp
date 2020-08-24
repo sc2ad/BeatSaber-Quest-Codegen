@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSettings::_RemoveKeyInSection : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16259D4
+    // Offset: 0x16D0B1C
     static IVRSettings::_RemoveKeyInSection* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchSection, System.String pchSettingsKey, Valve.VR.EVRSettingsError peError)
-    // Offset: 0x16259E8
+    // Offset: 0x16D0B30
     void Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, Valve.VR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1625E10
+    // Offset: 0x16D0F58
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(Valve.VR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x1625EB8
+    // Offset: 0x16D1000
     void EndInvoke(Valve::VR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSettings/_RemoveKeyInSection
 }

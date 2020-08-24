@@ -44,22 +44,22 @@ namespace HMUI {
     // Offset: 0x28
     HMUI::FlowCoordinator* rootFlowCoordinator;
     // protected System.Void Start()
-    // Offset: 0xE3E160
+    // Offset: 0xEE22A8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xE3E31C
+    // Offset: 0xEE2464
     void OnDestroy();
     // private System.Void HandleSceneTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0xE3E260
+    // Offset: 0xEE23A8
     void HandleSceneTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0xE3E3F4
+    // Offset: 0xEE253C
     void HandleBeforeDismissingScenes();
     // public System.Void StartWithFlowCoordinator(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0xE3E4B0
+    // Offset: 0xEE25F8
     void StartWithFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator);
     // public System.Void .ctor()
-    // Offset: 0xE3E4E8
+    // Offset: 0xEE2630
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

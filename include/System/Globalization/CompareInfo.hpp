@@ -171,114 +171,114 @@ namespace System::Globalization {
     // Set static field: static private System.Boolean managedCollationChecked
     static void _set_managedCollationChecked(bool value);
     // System.Void .ctor(System.Globalization.CultureInfo culture)
-    // Offset: 0xD09714
+    // Offset: 0xDAD85C
     static CompareInfo* New_ctor(System::Globalization::CultureInfo* culture);
     // static public System.Globalization.CompareInfo GetCompareInfo(System.String name)
-    // Offset: 0xD09760
+    // Offset: 0xDAD8A8
     static System::Globalization::CompareInfo* GetCompareInfo(::Il2CppString* name);
     // private System.Void OnDeserializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0xD0981C
+    // Offset: 0xDAD964
     void OnDeserializing(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnDeserialized()
-    // Offset: 0xD09828
+    // Offset: 0xDAD970
     void OnDeserialized();
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0xD0990C
+    // Offset: 0xDADA54
     void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0xD09910
+    // Offset: 0xDADA58
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // public System.String get_Name()
-    // Offset: 0xD099B0
+    // Offset: 0xDADAF8
     ::Il2CppString* get_Name();
     // public System.Int32 Compare(System.String string1, System.String string2)
-    // Offset: 0xD09A38
+    // Offset: 0xDADB80
     int Compare(::Il2CppString* string1, ::Il2CppString* string2);
     // public System.Int32 Compare(System.String string1, System.String string2, System.Globalization.CompareOptions options)
-    // Offset: 0xD09A48
+    // Offset: 0xDADB90
     int Compare(::Il2CppString* string1, ::Il2CppString* string2, System::Globalization::CompareOptions options);
     // public System.Int32 Compare(System.String string1, System.Int32 offset1, System.Int32 length1, System.String string2, System.Int32 offset2, System.Int32 length2, System.Globalization.CompareOptions options)
-    // Offset: 0xD09C6C
+    // Offset: 0xDADDB4
     int Compare(::Il2CppString* string1, int offset1, int length1, ::Il2CppString* string2, int offset2, int length2, System::Globalization::CompareOptions options);
     // static private System.Int32 CompareOrdinal(System.String string1, System.Int32 offset1, System.Int32 length1, System.String string2, System.Int32 offset2, System.Int32 length2)
-    // Offset: 0xD09F54
+    // Offset: 0xDAE09C
     static int CompareOrdinal(::Il2CppString* string1, int offset1, int length1, ::Il2CppString* string2, int offset2, int length2);
     // public System.Boolean IsPrefix(System.String source, System.String prefix, System.Globalization.CompareOptions options)
-    // Offset: 0xD09FA8
+    // Offset: 0xDAE0F0
     bool IsPrefix(::Il2CppString* source, ::Il2CppString* prefix, System::Globalization::CompareOptions options);
     // public System.Boolean IsSuffix(System.String source, System.String suffix, System.Globalization.CompareOptions options)
-    // Offset: 0xD0A540
+    // Offset: 0xDAE688
     bool IsSuffix(::Il2CppString* source, ::Il2CppString* suffix, System::Globalization::CompareOptions options);
     // public System.Int32 IndexOf(System.String source, System.String value, System.Int32 startIndex, System.Int32 count, System.Globalization.CompareOptions options)
-    // Offset: 0xD0A74C
+    // Offset: 0xDAE894
     int IndexOf(::Il2CppString* source, ::Il2CppString* value, int startIndex, int count, System::Globalization::CompareOptions options);
     // public System.Int32 LastIndexOf(System.String source, System.String value, System.Int32 startIndex, System.Int32 count, System.Globalization.CompareOptions options)
-    // Offset: 0xD0AA60
+    // Offset: 0xDAEBA8
     int LastIndexOf(::Il2CppString* source, ::Il2CppString* value, int startIndex, int count, System::Globalization::CompareOptions options);
     // public System.Globalization.SortKey GetSortKey(System.String source, System.Globalization.CompareOptions options)
-    // Offset: 0xD0ACDC
+    // Offset: 0xDAEE24
     System::Globalization::SortKey* GetSortKey(::Il2CppString* source, System::Globalization::CompareOptions options);
     // private System.Globalization.SortKey CreateSortKey(System.String source, System.Globalization.CompareOptions options)
-    // Offset: 0xD0ACE0
+    // Offset: 0xDAEE28
     System::Globalization::SortKey* CreateSortKey(::Il2CppString* source, System::Globalization::CompareOptions options);
     // System.Int32 GetHashCodeOfString(System.String source, System.Globalization.CompareOptions options)
-    // Offset: 0xD0AFC8
+    // Offset: 0xDAF110
     int GetHashCodeOfString(::Il2CppString* source, System::Globalization::CompareOptions options);
     // System.Int32 GetHashCodeOfString(System.String source, System.Globalization.CompareOptions options, System.Boolean forceRandomizedHashing, System.Int64 additionalEntropy)
-    // Offset: 0xD0AFD0
+    // Offset: 0xDAF118
     int GetHashCodeOfString(::Il2CppString* source, System::Globalization::CompareOptions options, bool forceRandomizedHashing, int64_t additionalEntropy);
     // static private System.Boolean get_UseManagedCollation()
-    // Offset: 0xD0A1B8
+    // Offset: 0xDAE300
     static bool get_UseManagedCollation();
     // private Mono.Globalization.Unicode.SimpleCollator GetCollator()
-    // Offset: 0xD0A2CC
+    // Offset: 0xDAE414
     Mono::Globalization::Unicode::SimpleCollator* GetCollator();
     // private System.Globalization.SortKey CreateSortKeyCore(System.String source, System.Globalization.CompareOptions options)
-    // Offset: 0xD0ADF4
+    // Offset: 0xDAEF3C
     System::Globalization::SortKey* CreateSortKeyCore(::Il2CppString* source, System::Globalization::CompareOptions options);
     // private System.Int32 internal_index_switch(System.String s1, System.Int32 sindex, System.Int32 count, System.String s2, System.Globalization.CompareOptions opt, System.Boolean first)
-    // Offset: 0xD0A97C
+    // Offset: 0xDAEAC4
     int internal_index_switch(::Il2CppString* s1, int sindex, int count, ::Il2CppString* s2, System::Globalization::CompareOptions opt, bool first);
     // private System.Int32 internal_compare_switch(System.String str1, System.Int32 offset1, System.Int32 length1, System.String str2, System.Int32 offset2, System.Int32 length2, System.Globalization.CompareOptions options)
-    // Offset: 0xD09BBC
+    // Offset: 0xDADD04
     int internal_compare_switch(::Il2CppString* str1, int offset1, int length1, ::Il2CppString* str2, int offset2, int length2, System::Globalization::CompareOptions options);
     // private System.Int32 internal_compare_managed(System.String str1, System.Int32 offset1, System.Int32 length1, System.String str2, System.Int32 offset2, System.Int32 length2, System.Globalization.CompareOptions options)
-    // Offset: 0xD0B1F0
+    // Offset: 0xDAF338
     int internal_compare_managed(::Il2CppString* str1, int offset1, int length1, ::Il2CppString* str2, int offset2, int length2, System::Globalization::CompareOptions options);
     // private System.Int32 internal_index_managed(System.String s1, System.Int32 sindex, System.Int32 count, System.String s2, System.Globalization.CompareOptions opt, System.Boolean first)
-    // Offset: 0xD0B170
+    // Offset: 0xDAF2B8
     int internal_index_managed(::Il2CppString* s1, int sindex, int count, ::Il2CppString* s2, System::Globalization::CompareOptions opt, bool first);
     // private System.Void assign_sortkey(System.Object key, System.String source, System.Globalization.CompareOptions options)
-    // Offset: 0xD0B164
+    // Offset: 0xDAF2AC
     void assign_sortkey(::Il2CppObject* key, ::Il2CppString* source, System::Globalization::CompareOptions options);
     // private System.Int32 internal_compare(System.String str1, System.Int32 offset1, System.Int32 length1, System.String str2, System.Int32 offset2, System.Int32 length2, System.Globalization.CompareOptions options)
-    // Offset: 0xD0B1EC
+    // Offset: 0xDAF334
     int internal_compare(::Il2CppString* str1, int offset1, int length1, ::Il2CppString* str2, int offset2, int length2, System::Globalization::CompareOptions options);
     // private System.Int32 internal_index(System.String source, System.Int32 sindex, System.Int32 count, System.String value, System.Globalization.CompareOptions options, System.Boolean first)
-    // Offset: 0xD0B168
+    // Offset: 0xDAF2B0
     int internal_index(::Il2CppString* source, int sindex, int count, ::Il2CppString* value, System::Globalization::CompareOptions options, bool first);
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0xD099AC
+    // Offset: 0xDADAF4
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0xD0AEC8
+    // Offset: 0xDAF010
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xD0AF9C
+    // Offset: 0xDAF0E4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xD0B0FC
+    // Offset: 0xDAF244
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // System.Void .ctor()
-    // Offset: 0xD0B268
+    // Offset: 0xDAF3B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CompareInfo* New_ctor();

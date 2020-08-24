@@ -62,19 +62,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x44
     bool NIsealedStatusChecked;
     // System.Void Init()
-    // Offset: 0xD85F98
+    // Offset: 0xE2B0E0
     void Init();
     // public System.Boolean get_IsSealed()
-    // Offset: 0xD85FE8
+    // Offset: 0xE2B130
     bool get_IsSealed();
     // public System.String get_NIname()
-    // Offset: 0xD86040
+    // Offset: 0xE2B188
     ::Il2CppString* get_NIname();
     // public System.Void set_NIname(System.String value)
-    // Offset: 0xD86098
+    // Offset: 0xE2B1E0
     void set_NIname(::Il2CppString* value);
     // System.Void .ctor()
-    // Offset: 0xD85F90
+    // Offset: 0xE2B0D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NameInfo* New_ctor();

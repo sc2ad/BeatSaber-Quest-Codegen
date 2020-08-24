@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x30
     ::Il2CppString* TraceId;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE057F4
+    // Offset: 0xEAA93C
     static MatchmakingAdminSnapshotCandidate* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingAdminSnapshotCandidate
 }

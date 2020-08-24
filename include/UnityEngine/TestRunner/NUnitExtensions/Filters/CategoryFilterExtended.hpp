@@ -25,18 +25,18 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Set static field: static public System.String k_DefaultCategory
     static void _set_k_DefaultCategory(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0xD8B1B8
+    // Offset: 0xE30300
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter
     // Base method: System.Void CategoryFilter::.ctor(System.String name)
     // Base method: System.Void ValueMatchFilter::.ctor(System.String name)
     static CategoryFilterExtended* New_ctor(::Il2CppString* name);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xD8B1C0
+    // Offset: 0xE30308
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter
     // Base method: System.Boolean CategoryFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // static private System.Void .cctor()
-    // Offset: 0xD8B664
+    // Offset: 0xE307AC
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.cctor()
     static void _cctor();

@@ -37,36 +37,36 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationMotionXToDeltaPlayable
     AnimationMotionXToDeltaPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationMotionXToDeltaPlayable Create(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0x1892DBC
+    // Offset: 0x193EF04
     static UnityEngine::Animations::AnimationMotionXToDeltaPlayable Create(UnityEngine::Playables::PlayableGraph graph);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0x1892E5C
+    // Offset: 0x193EFA4
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph);
     // private System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x9C4504
+    // Offset: 0xA5DB7C
     static AnimationMotionXToDeltaPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetAbsoluteMotion(System.Boolean value)
-    // Offset: 0x9C4520
+    // Offset: 0xA5DB98
     void SetAbsoluteMotion(bool value);
     // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1893008
+    // Offset: 0x193F150
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::PlayableHandle& handle);
     // static private System.Void SetAbsoluteMotionInternal(UnityEngine.Playables.PlayableHandle handle, System.Boolean value)
-    // Offset: 0x1893200
+    // Offset: 0x193F348
     static void SetAbsoluteMotionInternal(UnityEngine::Playables::PlayableHandle& handle, bool value);
     // static private System.Void .cctor()
-    // Offset: 0x18932A0
+    // Offset: 0x193F3E8
     static void _cctor();
     // static private System.Boolean CreateHandleInternal_Injected(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1893250
+    // Offset: 0x193F398
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0x9C450C
+    // Offset: 0xA5DB84
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationMotionXToDeltaPlayable other)
-    // Offset: 0x9C4518
+    // Offset: 0xA5DB90
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimationMotionXToDeltaPlayable other)
     bool Equals(UnityEngine::Animations::AnimationMotionXToDeltaPlayable other);

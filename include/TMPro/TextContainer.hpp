@@ -75,114 +75,114 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Vector2 k_defaultSize
     static void _set_k_defaultSize(UnityEngine::Vector2 value);
     // public System.Boolean get_hasChanged()
-    // Offset: 0xD25D94
+    // Offset: 0xDC9EDC
     bool get_hasChanged();
     // public System.Void set_hasChanged(System.Boolean value)
-    // Offset: 0xD25D9C
+    // Offset: 0xDC9EE4
     void set_hasChanged(bool value);
     // public UnityEngine.Vector2 get_pivot()
-    // Offset: 0xD25DA8
+    // Offset: 0xDC9EF0
     UnityEngine::Vector2 get_pivot();
     // public System.Void set_pivot(UnityEngine.Vector2 value)
-    // Offset: 0xD25DB0
+    // Offset: 0xDC9EF8
     void set_pivot(UnityEngine::Vector2 value);
     // public TMPro.TextContainerAnchors get_anchorPosition()
-    // Offset: 0xD262DC
+    // Offset: 0xDCA424
     TMPro::TextContainerAnchors get_anchorPosition();
     // public System.Void set_anchorPosition(TMPro.TextContainerAnchors value)
-    // Offset: 0xD262E4
+    // Offset: 0xDCA42C
     void set_anchorPosition(TMPro::TextContainerAnchors value);
     // public UnityEngine.Rect get_rect()
-    // Offset: 0xD26438
+    // Offset: 0xDCA580
     UnityEngine::Rect get_rect();
     // public System.Void set_rect(UnityEngine.Rect value)
-    // Offset: 0xD26444
+    // Offset: 0xDCA58C
     void set_rect(UnityEngine::Rect value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0xD264D0
+    // Offset: 0xDCA618
     UnityEngine::Vector2 get_size();
     // public System.Void set_size(UnityEngine.Vector2 value)
-    // Offset: 0xD26534
+    // Offset: 0xDCA67C
     void set_size(UnityEngine::Vector2 value);
     // public System.Single get_width()
-    // Offset: 0xD266A4
+    // Offset: 0xDCA7EC
     float get_width();
     // public System.Void set_width(System.Single value)
-    // Offset: 0xD266B0
+    // Offset: 0xDCA7F8
     void set_width(float value);
     // public System.Single get_height()
-    // Offset: 0xD26724
+    // Offset: 0xDCA86C
     float get_height();
     // public System.Void set_height(System.Single value)
-    // Offset: 0xD26730
+    // Offset: 0xDCA878
     void set_height(float value);
     // public System.Boolean get_isDefaultWidth()
-    // Offset: 0xD267A0
+    // Offset: 0xDCA8E8
     bool get_isDefaultWidth();
     // public System.Boolean get_isDefaultHeight()
-    // Offset: 0xD267A8
+    // Offset: 0xDCA8F0
     bool get_isDefaultHeight();
     // public System.Boolean get_isAutoFitting()
-    // Offset: 0xD267B0
+    // Offset: 0xDCA8F8
     bool get_isAutoFitting();
     // public System.Void set_isAutoFitting(System.Boolean value)
-    // Offset: 0xD267B8
+    // Offset: 0xDCA900
     void set_isAutoFitting(bool value);
     // public UnityEngine.Vector3[] get_corners()
-    // Offset: 0xD267C4
+    // Offset: 0xDCA90C
     ::Array<UnityEngine::Vector3>* get_corners();
     // public UnityEngine.Vector3[] get_worldCorners()
-    // Offset: 0xD267CC
+    // Offset: 0xDCA914
     ::Array<UnityEngine::Vector3>* get_worldCorners();
     // public UnityEngine.Vector4 get_margins()
-    // Offset: 0xD267D4
+    // Offset: 0xDCA91C
     UnityEngine::Vector4 get_margins();
     // public System.Void set_margins(UnityEngine.Vector4 value)
-    // Offset: 0xD267E0
+    // Offset: 0xDCA928
     void set_margins(UnityEngine::Vector4 value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0xD268D4
+    // Offset: 0xDCAA1C
     UnityEngine::RectTransform* get_rectTransform();
     // public TMPro.TextMeshPro get_textMeshPro()
-    // Offset: 0xD26980
+    // Offset: 0xDCAAC8
     TMPro::TextMeshPro* get_textMeshPro();
     // private System.Void OnContainerChanged()
-    // Offset: 0xD261A0
+    // Offset: 0xDCA2E8
     void OnContainerChanged();
     // private System.Void SetRect(UnityEngine.Vector2 size)
-    // Offset: 0xD26620
+    // Offset: 0xDCA768
     void SetRect(UnityEngine::Vector2 size);
     // private System.Void UpdateCorners()
-    // Offset: 0xD26AEC
+    // Offset: 0xDCAC34
     void UpdateCorners();
     // private UnityEngine.Vector2 GetPivot(TMPro.TextContainerAnchors anchor)
-    // Offset: 0xD26328
+    // Offset: 0xDCA470
     UnityEngine::Vector2 GetPivot(TMPro::TextContainerAnchors anchor);
     // private TMPro.TextContainerAnchors GetAnchorPosition(UnityEngine.Vector2 pivot)
-    // Offset: 0xD25E7C
+    // Offset: 0xDC9FC4
     TMPro::TextContainerAnchors GetAnchorPosition(UnityEngine::Vector2 pivot);
     // protected override System.Void Awake()
-    // Offset: 0xD26A2C
+    // Offset: 0xDCAB74
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Awake()
     void Awake();
     // protected override System.Void OnEnable()
-    // Offset: 0xD26AE4
+    // Offset: 0xDCAC2C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xD26AE8
+    // Offset: 0xDCAC30
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0xD26D5C
+    // Offset: 0xDCAEA4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public System.Void .ctor()
-    // Offset: 0xD26EF8
+    // Offset: 0xDCB040
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -192,7 +192,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TextContainer* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xD26F88
+    // Offset: 0xDCB0D0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

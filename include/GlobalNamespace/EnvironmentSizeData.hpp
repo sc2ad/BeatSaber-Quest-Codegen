@@ -106,16 +106,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::EnvironmentSizeData::CeilingType ceilingType;
     // public EnvironmentSizeData/Width get_width()
-    // Offset: 0x192F8CC
+    // Offset: 0xBEB190
     GlobalNamespace::EnvironmentSizeData::Width get_width();
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0x192F8D4
+    // Offset: 0xBEB198
     GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0x192F8DC
+    // Offset: 0xBEB1A0
     GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public System.Void .ctor()
-    // Offset: 0x192F8E4
+    // Offset: 0xBEB1A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnvironmentSizeData* New_ctor();

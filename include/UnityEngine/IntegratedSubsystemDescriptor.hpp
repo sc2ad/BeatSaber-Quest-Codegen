@@ -19,12 +19,12 @@ namespace UnityEngine {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // private System.Void UnityEngine.ISubsystemDescriptorImpl.set_ptr(System.IntPtr value)
-    // Offset: 0x18CEF44
+    // Offset: 0x197D08C
     // Implemented from: UnityEngine.ISubsystemDescriptorImpl
     // Base method: System.Void ISubsystemDescriptorImpl::set_ptr(System.IntPtr value)
     void UnityEngine_ISubsystemDescriptorImpl_set_ptr(System::IntPtr value);
     // protected System.Void .ctor()
-    // Offset: 0x18CEF4C
+    // Offset: 0x197D094
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IntegratedSubsystemDescriptor* New_ctor();

@@ -30,10 +30,10 @@ namespace Zenject {
     // Offset: 0x18
     System::Action_1<Zenject::DiContainer*>* installMethod;
     // public System.Void .ctor(System.Action`1<Zenject.DiContainer> installMethod)
-    // Offset: 0xCC2F30
+    // Offset: 0xD67078
     static ActionInstaller* New_ctor(System::Action_1<Zenject::DiContainer*>* installMethod);
     // public override System.Void InstallBindings()
-    // Offset: 0xCC2F9C
+    // Offset: 0xD670E4
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

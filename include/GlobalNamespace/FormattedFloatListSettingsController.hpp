@@ -77,34 +77,34 @@ namespace GlobalNamespace {
     // Offset: 0x64
     bool hasValue;
     // public System.Void add_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x1936364
+    // Offset: 0xBF1C28
     void add_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x1936408
+    // Offset: 0xBF1CCC
     void remove_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Single get_value()
-    // Offset: 0x19364AC
+    // Offset: 0xBF1D70
     float get_value();
     // public System.Void SetValue(System.Single value, System.Boolean callCallback)
-    // Offset: 0x19364B4
+    // Offset: 0xBF1D78
     void SetValue(float value, bool callCallback);
     // protected override System.Boolean GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
-    // Offset: 0x19364CC
+    // Offset: 0xBF1D90
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(System.Int32 idx, System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1936624
+    // Offset: 0xBF1EE8
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x19366C8
+    // Offset: 0xBF1F8C
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x19367B4
+    // Offset: 0xBF2078
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

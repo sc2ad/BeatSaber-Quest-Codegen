@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int value;
     // public System.Void .ctor(System.Single time, BeatmapEventType type, System.Int32 value)
-    // Offset: 0x18F3C0C
+    // Offset: 0xB8D16C
     static BeatmapEventData* New_ctor(float time, GlobalNamespace::BeatmapEventType type, int value);
   }; // BeatmapEventData
 }

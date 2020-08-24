@@ -25,7 +25,7 @@ namespace System {
     // Offset: 0x18
     System::Reflection::MonoCMethod* default_ctor;
     // public System.Void .ctor()
-    // Offset: 0xF74DAC
+    // Offset: 0x101AEF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MonoTypeInfo* New_ctor();

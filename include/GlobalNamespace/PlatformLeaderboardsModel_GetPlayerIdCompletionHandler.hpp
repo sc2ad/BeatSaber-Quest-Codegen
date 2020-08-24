@@ -31,16 +31,16 @@ namespace GlobalNamespace {
   class PlatformLeaderboardsModel::GetPlayerIdCompletionHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x191C3F4
+    // Offset: 0xBD7CB4
     static PlatformLeaderboardsModel::GetPlayerIdCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformLeaderboardsModel/GetPlayerIdResult result, LeaderboardPlayerInfo playerInfo)
-    // Offset: 0x191C408
+    // Offset: 0xBD7CC8
     void Invoke(GlobalNamespace::PlatformLeaderboardsModel::GetPlayerIdResult result, GlobalNamespace::LeaderboardPlayerInfo* playerInfo);
     // public System.IAsyncResult BeginInvoke(PlatformLeaderboardsModel/GetPlayerIdResult result, LeaderboardPlayerInfo playerInfo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x191C690
+    // Offset: 0xBD7F50
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformLeaderboardsModel::GetPlayerIdResult result, GlobalNamespace::LeaderboardPlayerInfo* playerInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x191C728
+    // Offset: 0xBD7FE8
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformLeaderboardsModel/GetPlayerIdCompletionHandler
 }

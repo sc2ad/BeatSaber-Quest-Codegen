@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_SetGamepadFocusOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x156AC1C
+    // Offset: 0x1617D64
     static IVROverlay::_SetGamepadFocusOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulNewFocusOverlay)
-    // Offset: 0x156AC30
+    // Offset: 0x1617D78
     Valve::VR::EVROverlayError Invoke(uint64_t ulNewFocusOverlay);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulNewFocusOverlay, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x156AE98
+    // Offset: 0x1617FE0
     System::IAsyncResult* BeginInvoke(uint64_t ulNewFocusOverlay, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x156AF24
+    // Offset: 0x161806C
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetGamepadFocusOverlay
 }

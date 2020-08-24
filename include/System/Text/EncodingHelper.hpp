@@ -40,19 +40,19 @@ namespace System::Text {
     // Set static field: static private System.Boolean i18nDisabled
     static void _set_i18nDisabled(bool value);
     // static System.Text.Encoding get_UTF8Unmarked()
-    // Offset: 0x1253950
+    // Offset: 0x12F9A98
     static System::Text::Encoding* get_UTF8Unmarked();
     // static System.String InternalCodePage(System.Int32 code_page)
-    // Offset: 0x1253B44
+    // Offset: 0x12F9C8C
     static ::Il2CppString* InternalCodePage(int& code_page);
     // static System.Text.Encoding GetDefaultEncoding()
-    // Offset: 0x12520D0
+    // Offset: 0x12F8218
     static System::Text::Encoding* GetDefaultEncoding();
     // static System.Object InvokeI18N(System.String name, System.Object[] args)
-    // Offset: 0x1250778
+    // Offset: 0x12F68C0
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
     // static private System.Void .cctor()
-    // Offset: 0x1253B48
+    // Offset: 0x12F9C90
     static void _cctor();
   }; // System.Text.EncodingHelper
 }

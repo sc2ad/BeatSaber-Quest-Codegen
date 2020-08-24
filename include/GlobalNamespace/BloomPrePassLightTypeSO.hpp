@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Material* material;
     // public System.Int32 get_renderingPriority()
-    // Offset: 0x177CAE4
+    // Offset: 0x1826C2C
     int get_renderingPriority();
     // public UnityEngine.Material get_material()
-    // Offset: 0x177CAEC
+    // Offset: 0x1826C34
     UnityEngine::Material* get_material();
     // public System.Void .ctor()
-    // Offset: 0x177CAF4
+    // Offset: 0x1826C3C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

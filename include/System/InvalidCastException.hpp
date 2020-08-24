@@ -23,20 +23,20 @@ namespace System {
   class InvalidCastException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF6FEAC
+    // Offset: 0x1015FF4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidCastException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xF6E1C8
+    // Offset: 0x1014310
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static InvalidCastException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xF6FF20
+    // Offset: 0x1016068
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

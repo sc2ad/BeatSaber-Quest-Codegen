@@ -24,10 +24,10 @@ namespace Zenject {
     // Offset: 0x18
     ::Il2CppString* name;
     // public System.Void .ctor(System.String name)
-    // Offset: 0xCCCC04
+    // Offset: 0xD70D4C
     static DefaultGameObjectParentInstaller* New_ctor(::Il2CppString* name);
     // public override System.Void InstallBindings()
-    // Offset: 0xCCCC70
+    // Offset: 0xD70DB8
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

@@ -26,16 +26,16 @@ namespace UnityEngine::AI {
   class NavMesh::OnNavMeshPreUpdate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x18D15A4
+    // Offset: 0x19806EC
     static NavMesh::OnNavMeshPreUpdate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x18D1104
+    // Offset: 0x198024C
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x18D15B8
+    // Offset: 0x1980700
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x18D15E4
+    // Offset: 0x198072C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AI.NavMesh/OnNavMeshPreUpdate
 }

@@ -27,10 +27,10 @@ namespace System {
     // Offset: 0x18
     System::Reflection::Assembly* m_Requesting;
     // public System.Void .ctor(System.String name)
-    // Offset: 0x10B7238
+    // Offset: 0x1159380
     static ResolveEventArgs* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.Reflection.Assembly requestingAssembly)
-    // Offset: 0x10B72BC
+    // Offset: 0x1159404
     static ResolveEventArgs* New_ctor(::Il2CppString* name, System::Reflection::Assembly* requestingAssembly);
   }; // System.ResolveEventArgs
 }

@@ -29,22 +29,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     int defaultAgeRestriction;
     // public System.String get_skuName()
-    // Offset: 0x1916C84
+    // Offset: 0xBD2544
     ::Il2CppString* get_skuName();
     // public System.String get_contentId()
-    // Offset: 0x1916C8C
+    // Offset: 0xBD254C
     ::Il2CppString* get_contentId();
     // public System.Int32 get_parentalLockLevel()
-    // Offset: 0x1916C94
+    // Offset: 0xBD2554
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
-    // Offset: 0x1916C9C
+    // Offset: 0xBD255C
     ::Il2CppString* get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
-    // Offset: 0x1916CA4
+    // Offset: 0xBD2564
     int get_defaultAgeRestriction();
     // public System.Void .ctor()
-    // Offset: 0x1916CAC
+    // Offset: 0xBD256C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -21,7 +21,7 @@ namespace UnityEngine::U2D {
   class SpriteAtlas : public UnityEngine::Object {
     public:
     // public System.Boolean CanBindTo(UnityEngine.Sprite sprite)
-    // Offset: 0x12F2EA0
+    // Offset: 0x1399FE8
     bool CanBindTo(UnityEngine::Sprite* sprite);
   }; // UnityEngine.U2D.SpriteAtlas
 }

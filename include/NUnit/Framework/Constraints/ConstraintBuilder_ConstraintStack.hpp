@@ -30,7 +30,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x10
     System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::IConstraint*>* stack;
     // public NUnit.Framework.Constraints.IConstraint Pop()
-    // Offset: 0xFD2658
+    // Offset: 0x10767A0
     NUnit::Framework::Constraints::IConstraint* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/ConstraintStack
 }

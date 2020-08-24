@@ -39,7 +39,7 @@ namespace UnityEngine {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine", "NoAllocHelpers", "EnsureListElemCount", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, count));
     }
     // static public System.Int32 SafeLength(System.Array values)
-    // Offset: 0x136DC8C
+    // Offset: 0x1414DD4
     static int SafeLength(System::Array* values);
     // static public System.Int32 SafeLength(System.Collections.Generic.List`1<T> values)
     // Offset: 0xFFFFFFFF
@@ -54,10 +54,10 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "NoAllocHelpers", "ExtractArrayFromListT", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list)));
     }
     // static System.Void Internal_ResizeList(System.Object list, System.Int32 size)
-    // Offset: 0x1371708
+    // Offset: 0x1418850
     static void Internal_ResizeList(::Il2CppObject* list, int size);
     // static public System.Array ExtractArrayFromList(System.Object list)
-    // Offset: 0x136E3FC
+    // Offset: 0x1415544
     static System::Array* ExtractArrayFromList(::Il2CppObject* list);
   }; // UnityEngine.NoAllocHelpers
 }

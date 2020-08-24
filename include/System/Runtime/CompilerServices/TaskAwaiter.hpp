@@ -32,28 +32,28 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: TaskAwaiter
     TaskAwaiter(System::Threading::Tasks::Task* m_task_ = {}) : m_task{m_task_} {}
     // System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0x9A7E74
+    // Offset: 0xA424EC
     static TaskAwaiter* New_ctor(System::Threading::Tasks::Task* task);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x9A7E7C
+    // Offset: 0xA424F4
     bool get_IsCompleted();
     // public System.Void GetResult()
-    // Offset: 0x9A7EA8
+    // Offset: 0xA42520
     void GetResult();
     // static System.Void ValidateEnd(System.Threading.Tasks.Task task)
-    // Offset: 0x10C4ED4
+    // Offset: 0x116701C
     static void ValidateEnd(System::Threading::Tasks::Task* task);
     // static private System.Void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task task)
-    // Offset: 0x10C4F24
+    // Offset: 0x116706C
     static void HandleNonSuccessAndDebuggerNotification(System::Threading::Tasks::Task* task);
     // static private System.Void ThrowForNonSuccess(System.Threading.Tasks.Task task)
-    // Offset: 0x10C4F94
+    // Offset: 0x11670DC
     static void ThrowForNonSuccess(System::Threading::Tasks::Task* task);
     // static System.Void OnCompletedInternal(System.Threading.Tasks.Task task, System.Action continuation, System.Boolean continueOnCapturedContext, System.Boolean flowExecutionContext)
-    // Offset: 0x10C4E00
+    // Offset: 0x1166F48
     static void OnCompletedInternal(System::Threading::Tasks::Task* task, System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0x9A7E98
+    // Offset: 0xA42510
     // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
     // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
     void UnsafeOnCompleted(System::Action* continuation);

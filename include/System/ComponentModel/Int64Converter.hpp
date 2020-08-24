@@ -14,7 +14,7 @@ namespace System::ComponentModel {
   class Int64Converter : public System::ComponentModel::BaseNumberConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0xEB9378
+    // Offset: 0xF5E4C0
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRApplications::_IdentifyApplication : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF455E0
+    // Offset: 0xFEA728
     static IVRApplications::_IdentifyApplication* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationError Invoke(System.UInt32 unProcessId, System.String pchAppKey)
-    // Offset: 0xF39558
+    // Offset: 0xFDE6A0
     Valve::VR::EVRApplicationError Invoke(uint unProcessId, ::Il2CppString* pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unProcessId, System.String pchAppKey, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF455F4
+    // Offset: 0xFEA73C
     System::IAsyncResult* BeginInvoke(uint unProcessId, ::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF4568C
+    // Offset: 0xFEA7D4
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_IdentifyApplication
 }

@@ -21,17 +21,17 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   class AssemblyNameFilter : public NUnit::Framework::Internal::Filters::ValueMatchFilter {
     public:
     // public System.Void .ctor(System.String assemblyName)
-    // Offset: 0xD8AC70
+    // Offset: 0xE2FDB8
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.Void ValueMatchFilter::.ctor(System.String assemblyName)
     static AssemblyNameFilter* New_ctor(::Il2CppString* assemblyName);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xD8AC78
+    // Offset: 0xE2FDC0
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // protected override System.String get_ElementName()
-    // Offset: 0xD8B170
+    // Offset: 0xE302B8
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.String ValueMatchFilter::get_ElementName()
     ::Il2CppString* get_ElementName();

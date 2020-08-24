@@ -28,16 +28,16 @@ namespace System::Runtime::Remoting::Services {
     // Set static field: static private System.Collections.ArrayList _handlers
     static void _set__handlers(System::Collections::ArrayList* value);
     // static System.Void NotifyMarshaledObject(System.Object obj, System.Runtime.Remoting.ObjRef or)
-    // Offset: 0xD78D44
+    // Offset: 0xE1DE8C
     static void NotifyMarshaledObject(::Il2CppObject* obj, System::Runtime::Remoting::ObjRef* _or);
     // static System.Void NotifyUnmarshaledObject(System.Object obj, System.Runtime.Remoting.ObjRef or)
-    // Offset: 0xD78238
+    // Offset: 0xE1D380
     static void NotifyUnmarshaledObject(::Il2CppObject* obj, System::Runtime::Remoting::ObjRef* _or);
     // static System.Void NotifyDisconnectedObject(System.Object obj)
-    // Offset: 0xD7AD14
+    // Offset: 0xE1FE5C
     static void NotifyDisconnectedObject(::Il2CppObject* obj);
     // static private System.Void .cctor()
-    // Offset: 0xD7B018
+    // Offset: 0xE20160
     static void _cctor();
   }; // System.Runtime.Remoting.Services.TrackingServices
 }

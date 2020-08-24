@@ -56,22 +56,22 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     float startAnimationTime;
     // public System.Void add_didFinishEvent(System.Action`1<MissedNoteEffect> value)
-    // Offset: 0x1948850
+    // Offset: 0xC03114
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MissedNoteEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MissedNoteEffect> value)
-    // Offset: 0x19488F4
+    // Offset: 0xC031B8
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::MissedNoteEffect*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1948998
+    // Offset: 0xC0325C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x194899C
+    // Offset: 0xC03260
     void Update();
     // public System.Void Init(NoteData noteData, System.Single animationDuration, System.Single startAnimationTime)
-    // Offset: 0x1948AC4
+    // Offset: 0xC03388
     void Init(GlobalNamespace::NoteData* noteData, float animationDuration, float startAnimationTime);
     // public System.Void .ctor()
-    // Offset: 0x1948B04
+    // Offset: 0xC033C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

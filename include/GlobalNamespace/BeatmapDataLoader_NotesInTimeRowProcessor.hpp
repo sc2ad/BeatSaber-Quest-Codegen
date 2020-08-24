@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<int, int>* numberOfNotesInLines;
     // public System.Void ProcessBasicNotesInTimeRow(System.Collections.Generic.List`1<NoteData> basicNotes, System.Single nextBasicNoteTimeSlice)
-    // Offset: 0x18FB144
+    // Offset: 0xB946A4
     void ProcessBasicNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* basicNotes, float nextBasicNoteTimeSlice);
     // public System.Void ProcessNotesInTimeRow(System.Collections.Generic.List`1<NoteData> notes)
-    // Offset: 0x18FB268
+    // Offset: 0xB947C8
     void ProcessNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notes);
     // public System.Void .ctor()
-    // Offset: 0x18FB530
+    // Offset: 0xB94A90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataLoader::NotesInTimeRowProcessor* New_ctor();

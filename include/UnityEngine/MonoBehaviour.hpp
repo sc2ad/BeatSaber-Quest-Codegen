@@ -27,91 +27,91 @@ namespace UnityEngine {
   class MonoBehaviour : public UnityEngine::Behaviour {
     public:
     // public System.Boolean IsInvoking()
-    // Offset: 0x136EBFC
+    // Offset: 0x1415D44
     bool IsInvoking();
     // public System.Void CancelInvoke()
-    // Offset: 0x136EC7C
+    // Offset: 0x1415DC4
     void CancelInvoke();
     // public System.Void Invoke(System.String methodName, System.Single time)
-    // Offset: 0x136ECFC
+    // Offset: 0x1415E44
     void Invoke(::Il2CppString* methodName, float time);
     // public System.Void InvokeRepeating(System.String methodName, System.Single time, System.Single repeatRate)
-    // Offset: 0x136EDC8
+    // Offset: 0x1415F10
     void InvokeRepeating(::Il2CppString* methodName, float time, float repeatRate);
     // public System.Void CancelInvoke(System.String methodName)
-    // Offset: 0x136EEA8
+    // Offset: 0x1415FF0
     void CancelInvoke(::Il2CppString* methodName);
     // public System.Boolean IsInvoking(System.String methodName)
-    // Offset: 0x136EF48
+    // Offset: 0x1416090
     bool IsInvoking(::Il2CppString* methodName);
     // public UnityEngine.Coroutine StartCoroutine(System.String methodName)
-    // Offset: 0x136EFE8
+    // Offset: 0x1416130
     UnityEngine::Coroutine* StartCoroutine(::Il2CppString* methodName);
     // public UnityEngine.Coroutine StartCoroutine(System.String methodName, System.Object value)
-    // Offset: 0x136EFF0
+    // Offset: 0x1416138
     UnityEngine::Coroutine* StartCoroutine(::Il2CppString* methodName, ::Il2CppObject* value);
     // public UnityEngine.Coroutine StartCoroutine(System.Collections.IEnumerator routine)
-    // Offset: 0x136F1A8
+    // Offset: 0x14162F0
     UnityEngine::Coroutine* StartCoroutine(System::Collections::IEnumerator* routine);
     // public UnityEngine.Coroutine StartCoroutine_Auto(System.Collections.IEnumerator routine)
-    // Offset: 0x136F304
+    // Offset: 0x141644C
     UnityEngine::Coroutine* StartCoroutine_Auto(System::Collections::IEnumerator* routine);
     // public System.Void StopCoroutine(System.Collections.IEnumerator routine)
-    // Offset: 0x136F308
+    // Offset: 0x1416450
     void StopCoroutine(System::Collections::IEnumerator* routine);
     // public System.Void StopCoroutine(UnityEngine.Coroutine routine)
-    // Offset: 0x136F464
+    // Offset: 0x14165AC
     void StopCoroutine(UnityEngine::Coroutine* routine);
     // public System.Void StopCoroutine(System.String methodName)
-    // Offset: 0x136F5C0
+    // Offset: 0x1416708
     void StopCoroutine(::Il2CppString* methodName);
     // public System.Void StopAllCoroutines()
-    // Offset: 0x136F610
+    // Offset: 0x1416758
     void StopAllCoroutines();
     // public System.Boolean get_useGUILayout()
-    // Offset: 0x136F650
+    // Offset: 0x1416798
     bool get_useGUILayout();
     // public System.Void set_useGUILayout(System.Boolean value)
-    // Offset: 0x136F690
+    // Offset: 0x14167D8
     void set_useGUILayout(bool value);
     // static public System.Void print(System.Object message)
-    // Offset: 0x136F6E0
+    // Offset: 0x1416828
     static void print(::Il2CppObject* message);
     // static private System.Void Internal_CancelInvokeAll(UnityEngine.MonoBehaviour self)
-    // Offset: 0x136ECBC
+    // Offset: 0x1415E04
     static void Internal_CancelInvokeAll(UnityEngine::MonoBehaviour* self);
     // static private System.Boolean Internal_IsInvokingAll(UnityEngine.MonoBehaviour self)
-    // Offset: 0x136EC3C
+    // Offset: 0x1415D84
     static bool Internal_IsInvokingAll(UnityEngine::MonoBehaviour* self);
     // static private System.Void InvokeDelayed(UnityEngine.MonoBehaviour self, System.String methodName, System.Single time, System.Single repeatRate)
-    // Offset: 0x136ED60
+    // Offset: 0x1415EA8
     static void InvokeDelayed(UnityEngine::MonoBehaviour* self, ::Il2CppString* methodName, float time, float repeatRate);
     // static private System.Void CancelInvoke(UnityEngine.MonoBehaviour self, System.String methodName)
-    // Offset: 0x136EEF8
+    // Offset: 0x1416040
     static void CancelInvoke(UnityEngine::MonoBehaviour* self, ::Il2CppString* methodName);
     // static private System.Boolean IsInvoking(UnityEngine.MonoBehaviour self, System.String methodName)
-    // Offset: 0x136EF98
+    // Offset: 0x14160E0
     static bool IsInvoking(UnityEngine::MonoBehaviour* self, ::Il2CppString* methodName);
     // static private System.Boolean IsObjectMonoBehaviour(UnityEngine.Object obj)
-    // Offset: 0x136F110
+    // Offset: 0x1416258
     static bool IsObjectMonoBehaviour(UnityEngine::Object* obj);
     // private UnityEngine.Coroutine StartCoroutineManaged(System.String methodName, System.Object value)
-    // Offset: 0x136F150
+    // Offset: 0x1416298
     UnityEngine::Coroutine* StartCoroutineManaged(::Il2CppString* methodName, ::Il2CppObject* value);
     // private UnityEngine.Coroutine StartCoroutineManaged2(System.Collections.IEnumerator enumerator)
-    // Offset: 0x136F2B4
+    // Offset: 0x14163FC
     UnityEngine::Coroutine* StartCoroutineManaged2(System::Collections::IEnumerator* enumerator);
     // private System.Void StopCoroutineManaged(UnityEngine.Coroutine routine)
-    // Offset: 0x136F570
+    // Offset: 0x14166B8
     void StopCoroutineManaged(UnityEngine::Coroutine* routine);
     // private System.Void StopCoroutineFromEnumeratorManaged(System.Collections.IEnumerator routine)
-    // Offset: 0x136F414
+    // Offset: 0x141655C
     void StopCoroutineFromEnumeratorManaged(System::Collections::IEnumerator* routine);
     // System.String GetScriptClassName()
-    // Offset: 0x136F748
+    // Offset: 0x1416890
     ::Il2CppString* GetScriptClassName();
     // public System.Void .ctor()
-    // Offset: 0x136F788
+    // Offset: 0x14168D0
     // Implemented from: UnityEngine.Behaviour
     // Base method: System.Void Behaviour::.ctor()
     // Base method: System.Void Component::.ctor()

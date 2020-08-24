@@ -27,7 +27,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     int levels;
     // public System.Void .ctor(System.Type childType, System.Int32 levels)
-    // Offset: 0xFFC22C
+    // Offset: 0x10A0374
     static SupportsChildTracksAttribute* New_ctor(System::Type* childType, int levels);
   }; // UnityEngine.Timeline.SupportsChildTracksAttribute
 }

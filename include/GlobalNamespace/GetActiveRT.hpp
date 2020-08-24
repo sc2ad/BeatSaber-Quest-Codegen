@@ -22,16 +22,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     UnityEngine::RenderBuffer depthBuffer;
     // public UnityEngine.RenderBuffer get_ColorBuffer()
-    // Offset: 0xB41544
+    // Offset: 0xB41558
     UnityEngine::RenderBuffer get_ColorBuffer();
     // public UnityEngine.RenderBuffer get_DepthBuffer()
-    // Offset: 0xB41550
+    // Offset: 0xB41564
     UnityEngine::RenderBuffer get_DepthBuffer();
     // private System.Void OnPreRender()
-    // Offset: 0xB4155C
+    // Offset: 0xB41570
     void OnPreRender();
     // public System.Void .ctor()
-    // Offset: 0xB415D4
+    // Offset: 0xB415E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

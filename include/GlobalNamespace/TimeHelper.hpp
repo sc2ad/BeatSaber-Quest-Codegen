@@ -29,34 +29,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single <interpolationFactor>k__BackingField
     static void _set_$interpolationFactor$k__BackingField(float value);
     // static public System.Single get_deltaTime()
-    // Offset: 0xC1B178
+    // Offset: 0xCBE2C0
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0xC1B1C8
+    // Offset: 0xCBE310
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0xC1B224
+    // Offset: 0xCBE36C
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0xC1B274
+    // Offset: 0xCBE3BC
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0xC1B2D0
+    // Offset: 0xCBE418
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0xC1B320
+    // Offset: 0xCBE468
     static void set_interpolationFactor(float value);
     // protected System.Void Awake()
-    // Offset: 0xC1B37C
+    // Offset: 0xCBE4C4
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0xC1B428
+    // Offset: 0xCBE570
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0xC1B4D4
+    // Offset: 0xCBE61C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC1B5E8
+    // Offset: 0xCBE730
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -40,19 +40,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Action* buttonPressed;
     // public System.Void set_nameText(System.String value)
-    // Offset: 0xB41900
+    // Offset: 0xB41914
     void set_nameText(::Il2CppString* value);
     // public System.Void set_buttonPressed(System.Action value)
-    // Offset: 0xB4191C
+    // Offset: 0xB41930
     void set_buttonPressed(System::Action* value);
     // private System.Void Awake()
-    // Offset: 0xB41924
+    // Offset: 0xB41938
     void Awake();
     // private System.Void <Awake>b__7_0()
-    // Offset: 0xB419C0
+    // Offset: 0xB419D4
     void $Awake$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0xB419B8
+    // Offset: 0xB419CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

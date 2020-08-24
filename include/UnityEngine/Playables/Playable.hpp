@@ -42,13 +42,13 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: Playable
     Playable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Playables.Playable get_Null()
-    // Offset: 0x1373300
+    // Offset: 0x141A448
     static UnityEngine::Playables::Playable get_Null();
     // static public UnityEngine.Playables.Playable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x1373368
+    // Offset: 0x141A4B0
     static UnityEngine::Playables::Playable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x9AE3CC
+    // Offset: 0xA48A44
     static Playable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // public System.Boolean IsPlayableOfType()
     // Offset: 0xFFFFFFFF
@@ -58,18 +58,18 @@ namespace UnityEngine::Playables {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public System.Type GetPlayableType()
-    // Offset: 0x9AE3E0
+    // Offset: 0xA48A58
     System::Type* GetPlayableType();
     // static private System.Void .cctor()
-    // Offset: 0x137361C
+    // Offset: 0x141A764
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0x9AE3D4
+    // Offset: 0xA48A4C
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Playables.Playable other)
-    // Offset: 0x9AE408
+    // Offset: 0xA48A80
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Playables.Playable other)
     bool Equals(UnityEngine::Playables::Playable other);

@@ -95,13 +95,13 @@ namespace GlobalNamespace {
     // Offset: 0x78
     int deviceGpuClockLevel;
     // public System.String ToJSON()
-    // Offset: 0x18532D4
+    // Offset: 0x18FF41C
     ::Il2CppString* ToJSON();
     // public System.Boolean LoadFromJSON(System.String json)
-    // Offset: 0x185380C
+    // Offset: 0x18FF954
     bool LoadFromJSON(::Il2CppString* json);
     // public System.Void .ctor()
-    // Offset: 0x1853784
+    // Offset: 0x18FF8CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRSystemPerfMetrics::PerfMetrics* New_ctor();

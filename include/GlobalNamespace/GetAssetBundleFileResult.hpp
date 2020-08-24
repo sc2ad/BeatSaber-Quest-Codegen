@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetAssetBundleFileResult
     GetAssetBundleFileResult(bool isError_ = {}, ::Il2CppString* assetBundlePath_ = {}) : isError{isError_}, assetBundlePath{assetBundlePath_} {}
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
-    // Offset: 0x99166C
+    // Offset: 0xA2B1DC
     static GetAssetBundleFileResult* New_ctor(bool isError, ::Il2CppString* assetBundlePath);
   }; // GetAssetBundleFileResult
 }

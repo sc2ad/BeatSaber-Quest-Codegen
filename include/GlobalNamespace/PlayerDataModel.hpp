@@ -29,28 +29,28 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PlayerData* playerData;
     // public PlayerData get_playerData()
-    // Offset: 0x19227D8
+    // Offset: 0xBDE09C
     GlobalNamespace::PlayerData* get_playerData();
     // protected System.Void OnEnable()
-    // Offset: 0x19227E0
+    // Offset: 0xBDE0A4
     void OnEnable();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x192281C
+    // Offset: 0xBDE0E0
     void OnApplicationPause(bool pauseStatus);
     // protected System.Void OnDisable()
-    // Offset: 0x1922828
+    // Offset: 0xBDE0EC
     void OnDisable();
     // public System.Void ResetData()
-    // Offset: 0x192282C
+    // Offset: 0xBDE0F0
     void ResetData();
     // public System.Void Save()
-    // Offset: 0x1916A34
+    // Offset: 0xBD22F4
     void Save();
     // public System.Void Load()
-    // Offset: 0x19227E4
+    // Offset: 0xBDE0A8
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x1922864
+    // Offset: 0xBDE128
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -47,34 +47,34 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::MenuLightsPresetSO* preset;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1946E08
+    // Offset: 0xC016CC
     System::Collections::IEnumerator* Start();
     // protected System.Void Update()
-    // Offset: 0x1946EB0
+    // Offset: 0xC01774
     void Update();
     // private System.Boolean IsColorVeryCloseToColor(UnityEngine.Color color0, UnityEngine.Color color1)
-    // Offset: 0x1947064
+    // Offset: 0xC01928
     bool IsColorVeryCloseToColor(UnityEngine::Color color0, UnityEngine::Color color1);
     // private System.Void SetColor(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x194718C
+    // Offset: 0xC01A50
     void SetColor(int lightId, UnityEngine::Color color);
     // private UnityEngine.Color CurrentColorForID(System.Int32 lightId)
-    // Offset: 0x19471A8
+    // Offset: 0xC01A6C
     UnityEngine::Color CurrentColorForID(int lightId);
     // private System.Boolean SetColorsFromPreset(MenuLightsPresetSO preset, System.Single interpolationFactor)
-    // Offset: 0x1946F00
+    // Offset: 0xC017C4
     bool SetColorsFromPreset(GlobalNamespace::MenuLightsPresetSO* preset, float interpolationFactor);
     // private System.Void RefreshLightsDictForPreset(MenuLightsPresetSO preset)
-    // Offset: 0x1947200
+    // Offset: 0xC01AC4
     void RefreshLightsDictForPreset(GlobalNamespace::MenuLightsPresetSO* preset);
     // public System.Void SetColorPreset(MenuLightsPresetSO preset, System.Boolean animated)
-    // Offset: 0x1942C9C
+    // Offset: 0xBFD560
     void SetColorPreset(GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
     // public System.Void RefreshColors()
-    // Offset: 0x19472D8
+    // Offset: 0xC01B9C
     void RefreshColors();
     // public System.Void .ctor()
-    // Offset: 0x1947380
+    // Offset: 0xC01C44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

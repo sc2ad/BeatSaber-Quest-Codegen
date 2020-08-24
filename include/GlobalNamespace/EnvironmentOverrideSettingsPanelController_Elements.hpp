@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::EnvironmentTypeSO* environmentType;
     // public System.Void .ctor()
-    // Offset: 0x192F8C4
+    // Offset: 0xBEB188
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnvironmentOverrideSettingsPanelController::Elements* New_ctor();

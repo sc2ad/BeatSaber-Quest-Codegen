@@ -68,70 +68,70 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x98
     System::Runtime::Remoting::Proxies::RemotingProxy* sourceProxy;
     // System.Void .ctor(System.Type type)
-    // Offset: 0xFAF500
+    // Offset: 0x1053648
     static ConstructionCall* New_ctor(System::Type* type);
     // System.Boolean get_IsContextOk()
-    // Offset: 0xFC3914
+    // Offset: 0x1067A5C
     bool get_IsContextOk();
     // System.Void set_IsContextOk(System.Boolean value)
-    // Offset: 0xFC391C
+    // Offset: 0x1067A64
     void set_IsContextOk(bool value);
     // System.Void SetActivationAttributes(System.Object[] attributes)
-    // Offset: 0xFC3A20
+    // Offset: 0x1067B68
     void SetActivationAttributes(::Array<::Il2CppObject*>* attributes);
     // System.Runtime.Remoting.Proxies.RemotingProxy get_SourceProxy()
-    // Offset: 0xFC45C0
+    // Offset: 0x1068708
     System::Runtime::Remoting::Proxies::RemotingProxy* get_SourceProxy();
     // System.Void set_SourceProxy(System.Runtime.Remoting.Proxies.RemotingProxy value)
-    // Offset: 0xFC45C8
+    // Offset: 0x1068710
     void set_SourceProxy(System::Runtime::Remoting::Proxies::RemotingProxy* value);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFC3704
+    // Offset: 0x106784C
     // Implemented from: System.Runtime.Remoting.Messaging.MethodCall
     // Base method: System.Void MethodCall::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ConstructionCall* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // override System.Void InitDictionary()
-    // Offset: 0xFC37A4
+    // Offset: 0x10678EC
     // Implemented from: System.Runtime.Remoting.Messaging.MethodCall
     // Base method: System.Void MethodCall::InitDictionary()
     void InitDictionary();
     // public System.Type get_ActivationType()
-    // Offset: 0xFC3928
+    // Offset: 0x1067A70
     // Implemented from: System.Runtime.Remoting.Activation.IConstructionCallMessage
     // Base method: System.Type IConstructionCallMessage::get_ActivationType()
     System::Type* get_ActivationType();
     // public System.String get_ActivationTypeName()
-    // Offset: 0xFC3A00
+    // Offset: 0x1067B48
     // Implemented from: System.Runtime.Remoting.Activation.IConstructionCallMessage
     // Base method: System.String IConstructionCallMessage::get_ActivationTypeName()
     ::Il2CppString* get_ActivationTypeName();
     // public System.Runtime.Remoting.Activation.IActivator get_Activator()
-    // Offset: 0xFC3A08
+    // Offset: 0x1067B50
     // Implemented from: System.Runtime.Remoting.Activation.IConstructionCallMessage
     // Base method: System.Runtime.Remoting.Activation.IActivator IConstructionCallMessage::get_Activator()
     System::Runtime::Remoting::Activation::IActivator* get_Activator();
     // public System.Void set_Activator(System.Runtime.Remoting.Activation.IActivator value)
-    // Offset: 0xFC3A10
+    // Offset: 0x1067B58
     // Implemented from: System.Runtime.Remoting.Activation.IConstructionCallMessage
     // Base method: System.Void IConstructionCallMessage::set_Activator(System.Runtime.Remoting.Activation.IActivator value)
     void set_Activator(System::Runtime::Remoting::Activation::IActivator* value);
     // public System.Object[] get_CallSiteActivationAttributes()
-    // Offset: 0xFC3A18
+    // Offset: 0x1067B60
     // Implemented from: System.Runtime.Remoting.Activation.IConstructionCallMessage
     // Base method: System.Object[] IConstructionCallMessage::get_CallSiteActivationAttributes()
     ::Array<::Il2CppObject*>* get_CallSiteActivationAttributes();
     // public System.Collections.IList get_ContextProperties()
-    // Offset: 0xFC3A28
+    // Offset: 0x1067B70
     // Implemented from: System.Runtime.Remoting.Activation.IConstructionCallMessage
     // Base method: System.Collections.IList IConstructionCallMessage::get_ContextProperties()
     System::Collections::IList* get_ContextProperties();
     // override System.Void InitMethodProperty(System.String key, System.Object value)
-    // Offset: 0xFC3AA0
+    // Offset: 0x1067BE8
     // Implemented from: System.Runtime.Remoting.Messaging.MethodCall
     // Base method: System.Void MethodCall::InitMethodProperty(System.String key, System.Object value)
     void InitMethodProperty(::Il2CppString* key, ::Il2CppObject* value);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xFC4038
+    // Offset: 0x1068180
     // Implemented from: System.Runtime.Remoting.Messaging.MethodCall
     // Base method: System.Void MethodCall::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -139,7 +139,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Collections.IDictionary get_Properties()
-    // Offset: 0xFC4548
+    // Offset: 0x1068690
     // Implemented from: System.Runtime.Remoting.Messaging.MethodCall
     // Base method: System.Collections.IDictionary MethodCall::get_Properties()
     System::Collections::IDictionary* get_Properties();

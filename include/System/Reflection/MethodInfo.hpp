@@ -28,53 +28,53 @@ namespace System::Reflection {
   class MethodInfo : public System::Reflection::MethodBase, public System::Runtime::InteropServices::_MethodInfo {
     public:
     // public System.Type get_ReturnType()
-    // Offset: 0x12C9C44
+    // Offset: 0x1371D8C
     System::Type* get_ReturnType();
     // public System.Reflection.MethodInfo GetBaseDefinition()
     // Offset: 0xFFFFFFFF
     System::Reflection::MethodInfo* GetBaseDefinition();
     // public System.Reflection.MethodInfo GetGenericMethodDefinition()
-    // Offset: 0x12C9D24
+    // Offset: 0x1371E6C
     System::Reflection::MethodInfo* GetGenericMethodDefinition();
     // public System.Reflection.MethodInfo MakeGenericMethod(System.Type[] typeArguments)
-    // Offset: 0x12C9DA4
+    // Offset: 0x1371EEC
     System::Reflection::MethodInfo* MakeGenericMethod(::Array<System::Type*>* typeArguments);
     // System.Reflection.MethodInfo GetBaseMethod()
-    // Offset: 0x12C9E24
+    // Offset: 0x1371F6C
     System::Reflection::MethodInfo* GetBaseMethod();
     // protected System.Void .ctor()
-    // Offset: 0x12C9C28
+    // Offset: 0x1371D70
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Void MethodBase::.ctor()
     // Base method: System.Void MemberInfo::.ctor()
     // Base method: System.Void Object::.ctor()
     static MethodInfo* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x12C9C2C
+    // Offset: 0x1371D74
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12C9C38
+    // Offset: 0x1371D80
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Int32 MethodBase::GetHashCode()
     int GetHashCode();
     // public override System.Reflection.MemberTypes get_MemberType()
-    // Offset: 0x12C9C3C
+    // Offset: 0x1371D84
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.MemberTypes MemberInfo::get_MemberType()
     System::Reflection::MemberTypes get_MemberType();
     // public override System.Type[] GetGenericArguments()
-    // Offset: 0x12C9CA4
+    // Offset: 0x1371DEC
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Type[] MethodBase::GetGenericArguments()
     ::Array<System::Type*>* GetGenericArguments();
   }; // System.Reflection.MethodInfo
   // static public System.Boolean op_Equality(System.Reflection.MethodInfo left, System.Reflection.MethodInfo right)
-  // Offset: 0x12C9128
+  // Offset: 0x1371270
   bool operator ==(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.MethodInfo left, System.Reflection.MethodInfo right)
-  // Offset: 0x12C9428
+  // Offset: 0x1371570
   bool operator !=(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

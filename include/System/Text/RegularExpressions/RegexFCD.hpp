@@ -46,49 +46,49 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x2E
     bool failed;
     // static System.Text.RegularExpressions.RegexPrefix FirstChars(System.Text.RegularExpressions.RegexTree t)
-    // Offset: 0x118730C
+    // Offset: 0x122B454
     static System::Text::RegularExpressions::RegexPrefix* FirstChars(System::Text::RegularExpressions::RegexTree* t);
     // static System.Text.RegularExpressions.RegexPrefix Prefix(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x1187624
+    // Offset: 0x122B76C
     static System::Text::RegularExpressions::RegexPrefix* Prefix(System::Text::RegularExpressions::RegexTree* tree);
     // static System.Int32 Anchors(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x118795C
+    // Offset: 0x122BAA4
     static int Anchors(System::Text::RegularExpressions::RegexTree* tree);
     // static private System.Int32 AnchorFromType(System.Int32 type)
-    // Offset: 0x1187A90
+    // Offset: 0x122BBD8
     static int AnchorFromType(int type);
     // private System.Void PushInt(System.Int32 I)
-    // Offset: 0x1187AFC
+    // Offset: 0x122BC44
     void PushInt(int I);
     // private System.Boolean IntIsEmpty()
-    // Offset: 0x1187BF0
+    // Offset: 0x122BD38
     bool IntIsEmpty();
     // private System.Int32 PopInt()
-    // Offset: 0x1187C00
+    // Offset: 0x122BD48
     int PopInt();
     // private System.Void PushFC(System.Text.RegularExpressions.RegexFC fc)
-    // Offset: 0x1187C48
+    // Offset: 0x122BD90
     void PushFC(System::Text::RegularExpressions::RegexFC* fc);
     // private System.Boolean FCIsEmpty()
-    // Offset: 0x1187D70
+    // Offset: 0x122BEB8
     bool FCIsEmpty();
     // private System.Text.RegularExpressions.RegexFC PopFC()
-    // Offset: 0x1187D80
+    // Offset: 0x122BEC8
     System::Text::RegularExpressions::RegexFC* PopFC();
     // private System.Text.RegularExpressions.RegexFC TopFC()
-    // Offset: 0x1187DC8
+    // Offset: 0x122BF10
     System::Text::RegularExpressions::RegexFC* TopFC();
     // private System.Text.RegularExpressions.RegexFC RegexFCFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x11874B8
+    // Offset: 0x122B600
     System::Text::RegularExpressions::RegexFC* RegexFCFromRegexTree(System::Text::RegularExpressions::RegexTree* tree);
     // private System.Void SkipChild()
-    // Offset: 0x1188278
+    // Offset: 0x122C3C0
     void SkipChild();
     // private System.Void CalculateFC(System.Int32 NodeType, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
-    // Offset: 0x1187E0C
+    // Offset: 0x122BF54
     void CalculateFC(int NodeType, System::Text::RegularExpressions::RegexNode* node, int CurIndex);
     // private System.Void .ctor()
-    // Offset: 0x1187428
+    // Offset: 0x122B570
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RegexFCD* New_ctor();

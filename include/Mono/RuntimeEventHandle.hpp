@@ -23,18 +23,18 @@ namespace Mono {
     // Creating value type constructor for type: RuntimeEventHandle
     RuntimeEventHandle(System::IntPtr value_ = {}) : value{value_} {}
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0x9A61B4
+    // Offset: 0xA4082C
     static RuntimeEventHandle* New_ctor(System::IntPtr v);
     // public System.IntPtr get_Value()
-    // Offset: 0x9A61BC
+    // Offset: 0xA40834
     System::IntPtr get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x9A61C4
+    // Offset: 0xA4083C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x9A61CC
+    // Offset: 0xA40844
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

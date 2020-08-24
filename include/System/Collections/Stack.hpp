@@ -41,27 +41,27 @@ namespace System::Collections {
     // Offset: 0x1C
     int version;
     // public System.Void .ctor(System.Int32 initialCapacity)
-    // Offset: 0x101F764
+    // Offset: 0x10C28AC
     static Stack* New_ctor(int initialCapacity);
     // public System.Void Clear()
-    // Offset: 0x101F854
+    // Offset: 0x10C299C
     void Clear();
     // public System.Object Peek()
-    // Offset: 0x101FCB8
+    // Offset: 0x10C2E00
     ::Il2CppObject* Peek();
     // public System.Object Pop()
-    // Offset: 0x101FD80
+    // Offset: 0x10C2EC8
     ::Il2CppObject* Pop();
     // public System.Void Push(System.Object obj)
-    // Offset: 0x101FE64
+    // Offset: 0x10C2FAC
     void Push(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x101F6F0
+    // Offset: 0x10C2838
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Stack* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x101F84C
+    // Offset: 0x10C2994
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -69,12 +69,12 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Object Clone()
-    // Offset: 0x101F890
+    // Offset: 0x10C29D8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x101F930
+    // Offset: 0x10C2A78
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -82,7 +82,7 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x101FBF0
+    // Offset: 0x10C2D38
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

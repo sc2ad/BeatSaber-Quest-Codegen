@@ -14,7 +14,7 @@ namespace System::Reflection {
   class Assembly::ResolveEventHolder : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12BEDE4
+    // Offset: 0x1366F2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Assembly::ResolveEventHolder* New_ctor();

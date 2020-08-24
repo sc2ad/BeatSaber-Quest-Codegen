@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Offset: 0x48
     HMUI::ButtonBinder* buttonBinder;
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x19234C0
+    // Offset: 0xBDED84
     void set_interactable(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1923558
+    // Offset: 0xBDEE1C
     void Awake();
     // public System.Void Init(PlayerSpecificSettings playerSettings)
-    // Offset: 0x192361C
+    // Offset: 0xBDEEE0
     void Init(GlobalNamespace::PlayerSpecificSettings* playerSettings);
     // private System.Void AutoSetHeight()
-    // Offset: 0x19236E8
+    // Offset: 0xBDEFAC
     void AutoSetHeight();
     // private System.Void RefreshUI()
-    // Offset: 0x1923644
+    // Offset: 0xBDEF08
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0x1923794
+    // Offset: 0xBDF058
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

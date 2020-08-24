@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_ShouldApplicationPause : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16311EC
+    // Offset: 0x16DC334
     static IVRSystem::_ShouldApplicationPause* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1631200
+    // Offset: 0x16DC348
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1631418
+    // Offset: 0x16DC560
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1631444
+    // Offset: 0x16DC58C
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_ShouldApplicationPause
 }

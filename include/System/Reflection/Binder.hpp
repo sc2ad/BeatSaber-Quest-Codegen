@@ -55,7 +55,7 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     void ReorderArgumentArray(::Array<::Il2CppObject*>*& args, ::Il2CppObject* state);
     // protected System.Void .ctor()
-    // Offset: 0x12C1BC4
+    // Offset: 0x1369D0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Binder* New_ctor();

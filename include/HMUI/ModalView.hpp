@@ -69,34 +69,34 @@ namespace HMUI {
     // Set static field: static private System.Int32 kSortingLayer
     static void _set_kSortingLayer(int value);
     // public System.Void add__blockerClickedEvent(System.Action value)
-    // Offset: 0xE361F8
+    // Offset: 0xEDA340
     void add__blockerClickedEvent(System::Action* value);
     // public System.Void remove__blockerClickedEvent(System.Action value)
-    // Offset: 0xE364B0
+    // Offset: 0xEDA5F8
     void remove__blockerClickedEvent(System::Action* value);
     // protected System.Void OnDisable()
-    // Offset: 0xE456C4
+    // Offset: 0xEE980C
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xE456D0
+    // Offset: 0xEE9818
     void OnDestroy();
     // private System.Void SetupView()
-    // Offset: 0xE45780
+    // Offset: 0xEE98C8
     void SetupView();
     // public System.Void Hide(System.Boolean animated, System.Action finishedCallback)
-    // Offset: 0xE36658
+    // Offset: 0xEDA7A0
     void Hide(bool animated, System::Action* finishedCallback);
     // public System.Void Show(System.Boolean animated, System.Boolean moveToCenter, System.Action finishedCallback)
-    // Offset: 0xE367AC
+    // Offset: 0xEDA8F4
     void Show(bool animated, bool moveToCenter, System::Action* finishedCallback);
     // private UnityEngine.GameObject CreateBlocker(UnityEngine.Canvas rootCanvas)
-    // Offset: 0xE45AF4
+    // Offset: 0xEE9C3C
     UnityEngine::GameObject* CreateBlocker(UnityEngine::Canvas* rootCanvas);
     // private System.Void HandleBlockerButtonClicked()
-    // Offset: 0xE45F04
+    // Offset: 0xEEA04C
     void HandleBlockerButtonClicked();
     // public System.Void .ctor()
-    // Offset: 0xE45F18
+    // Offset: 0xEEA060
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

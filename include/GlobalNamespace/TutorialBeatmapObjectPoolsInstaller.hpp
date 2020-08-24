@@ -39,12 +39,12 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0x19621D8
+    // Offset: 0xC47F98
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x19623E4
+    // Offset: 0xC481A4
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

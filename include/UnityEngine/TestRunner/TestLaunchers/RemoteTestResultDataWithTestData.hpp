@@ -27,7 +27,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Offset: 0x18
     ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* tests;
     // public System.Void .ctor()
-    // Offset: 0xD992A0
+    // Offset: 0xE3E3E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RemoteTestResultDataWithTestData* New_ctor();

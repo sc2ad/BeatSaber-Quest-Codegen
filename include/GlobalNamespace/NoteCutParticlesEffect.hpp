@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Offset: 0x170
     UnityEngine::ParticleSystem::MinMaxCurve sparklesLifetimeMinMaxCurve;
     // protected System.Void Awake()
-    // Offset: 0x195BFB0
+    // Offset: 0xC17874
     void Awake();
     // public System.Void SpawnParticles(UnityEngine.Vector3 pos, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 moveVec, UnityEngine.Color32 color, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount, System.Single lifetimeMultiplier, SaberType saberType)
-    // Offset: 0x195B0EC
+    // Offset: 0xC169B0
     void SpawnParticles(UnityEngine::Vector3 pos, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 moveVec, UnityEngine::Color32 color, int sparkleParticlesCount, int explosionParticlesCount, float lifetimeMultiplier, GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0x195C1A0
+    // Offset: 0xC17A64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

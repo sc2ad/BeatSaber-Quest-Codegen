@@ -32,28 +32,28 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Action* resumeFromPauseAnimationDidFinishEvent;
     // public System.Void add_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0x1917F84
+    // Offset: 0xBD3844
     void add_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // public System.Void remove_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0x1918028
+    // Offset: 0xBD38E8
     void remove_resumeFromPauseAnimationDidFinishEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x19180CC
+    // Offset: 0xBD398C
     void Awake();
     // public System.Void StartEnterPauseAnimation()
-    // Offset: 0x1918108
+    // Offset: 0xBD39C8
     void StartEnterPauseAnimation();
     // public System.Void StartResumeFromPauseAnimation()
-    // Offset: 0x1918188
+    // Offset: 0xBD3A48
     void StartResumeFromPauseAnimation();
     // public System.Void EnterPauseAnimationDidFinish()
-    // Offset: 0x1918208
+    // Offset: 0xBD3AC8
     void EnterPauseAnimationDidFinish();
     // public System.Void ResumeFromPauseAnimationDidFinish()
-    // Offset: 0x1918244
+    // Offset: 0xBD3B04
     void ResumeFromPauseAnimationDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x191829C
+    // Offset: 0xBD3B5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

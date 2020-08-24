@@ -77,19 +77,19 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool didFinish;
     // protected System.Void Start()
-    // Offset: 0x192764C
+    // Offset: 0xBE2F10
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x19277C4
+    // Offset: 0xBE3088
     void OnDestroy();
     // private System.Void Finish()
-    // Offset: 0x19277D8
+    // Offset: 0xBE309C
     void Finish();
     // private System.Collections.IEnumerator ScrollCoroutine()
-    // Offset: 0x1927748
+    // Offset: 0xBE300C
     System::Collections::IEnumerator* ScrollCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x1927898
+    // Offset: 0xBE315C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

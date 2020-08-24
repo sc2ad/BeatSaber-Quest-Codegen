@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* lightIdColorPairs;
     // public ColorSO get_playersPlaceNeonsColor()
-    // Offset: 0x19474EC
+    // Offset: 0xC01DB0
     GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();
     // public System.Single get_playersPlaceNeonsIntensity()
-    // Offset: 0x19474F4
+    // Offset: 0xC01DB8
     float get_playersPlaceNeonsIntensity();
     // public MenuLightsPresetSO/LightIdColorPair[] get_lightIdColorPairs()
-    // Offset: 0x19474FC
+    // Offset: 0xC01DC0
     ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* get_lightIdColorPairs();
     // public System.Void .ctor()
-    // Offset: 0x1947504
+    // Offset: 0xC01DC8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

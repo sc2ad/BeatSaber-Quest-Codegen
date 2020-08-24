@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSettings::_GetInt32 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1624BF8
+    // Offset: 0x16CFD40
     static IVRSettings::_GetInt32* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.String pchSection, System.String pchSettingsKey, Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1624C0C
+    // Offset: 0x16CFD54
     int Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, Valve.VR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x162503C
+    // Offset: 0x16D0184
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(Valve.VR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x16250E4
+    // Offset: 0x16D022C
     int EndInvoke(Valve::VR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSettings/_GetInt32
 }

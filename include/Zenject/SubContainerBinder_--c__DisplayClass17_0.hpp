@@ -47,10 +47,10 @@ namespace Zenject {
     // Offset: 0x28
     Zenject::SubContainerBinder* $$4__this;
     // Zenject.ISubContainerCreator <ByNewPrefabInstaller>b__0(Zenject.DiContainer container)
-    // Offset: 0xF2BA90
+    // Offset: 0xFD0BD8
     Zenject::ISubContainerCreator* $ByNewPrefabInstaller$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0xF2AEE4
+    // Offset: 0xFD002C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SubContainerBinder::$$c__DisplayClass17_0* New_ctor();

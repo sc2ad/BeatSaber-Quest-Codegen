@@ -47,19 +47,19 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::MediaAsyncLoader::$LoadImageAsync$d__2
     struct $LoadImageAsync$d__2;
     // static public System.Threading.Tasks.Task`1<System.String> LoadWebpage(System.String uri, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x18A823C
+    // Offset: 0x1954384
     static System::Threading::Tasks::Task_1<::Il2CppString*>* LoadWebpage(::Il2CppString* uri, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x18A8374
+    // Offset: 0x19544BC
     static System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadImageAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x18A84AC
+    // Offset: 0x19545F4
     static System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadImageAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // static public System.Void Log(System.String message)
-    // Offset: 0x18A85E4
+    // Offset: 0x195472C
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x18A864C
+    // Offset: 0x1954794
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MediaAsyncLoader* New_ctor();

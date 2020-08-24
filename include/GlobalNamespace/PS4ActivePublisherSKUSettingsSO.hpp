@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PS4PublisherSKUSettingsSO* activePublisherSKUSettings;
     // public System.Void .ctor()
-    // Offset: 0x191544C
+    // Offset: 0xBD0D0C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -39,25 +39,25 @@ namespace GlobalNamespace {
     // Offset: 0x40
     TMPro::TextMeshProUGUI* bombsCountText;
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x193BA84
+    // Offset: 0xBF6348
     void set_duration(float value);
     // public System.Void set_notesPerSecond(System.Single value)
-    // Offset: 0x193BABC
+    // Offset: 0xBF6380
     void set_notesPerSecond(float value);
     // public System.Void set_bpm(System.Single value)
-    // Offset: 0x193BB3C
+    // Offset: 0xBF6400
     void set_bpm(float value);
     // public System.Void set_notesCount(System.Int32 value)
-    // Offset: 0x193BB80
+    // Offset: 0xBF6444
     void set_notesCount(int value);
     // public System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0x193BBC4
+    // Offset: 0xBF6488
     void set_obstaclesCount(int value);
     // public System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0x193BC08
+    // Offset: 0xBF64CC
     void set_bombsCount(int value);
     // public System.Void .ctor()
-    // Offset: 0x193BC4C
+    // Offset: 0xBF6510
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

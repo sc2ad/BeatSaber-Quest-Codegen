@@ -35,22 +35,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::NoteTrailParticleSystem* noteTrailParticleSystem;
     // protected System.Void Awake()
-    // Offset: 0xBA6428
+    // Offset: 0xC327E0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xBA6508
+    // Offset: 0xC328C0
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0xBA6610
+    // Offset: 0xC329C8
     void Update();
     // private System.Void HandleNoteMovementDidInit()
-    // Offset: 0xBA67CC
+    // Offset: 0xC32B84
     void HandleNoteMovementDidInit();
     // private System.Void HandleNoteDidStartJump()
-    // Offset: 0xBA67D8
+    // Offset: 0xC32B90
     void HandleNoteDidStartJump();
     // public System.Void .ctor()
-    // Offset: 0xBA67E4
+    // Offset: 0xC32B9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

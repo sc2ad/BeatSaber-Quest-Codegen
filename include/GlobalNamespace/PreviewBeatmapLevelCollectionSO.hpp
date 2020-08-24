@@ -28,12 +28,12 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::PreviewBeatmapLevelSO*>* beatmapLevels;
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0xB920C8
+    // Offset: 0xC1E480
     // Implemented from: IBeatmapLevelCollection
     // Base method: IPreviewBeatmapLevel[] IBeatmapLevelCollection::get_beatmapLevels()
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0xB920D0
+    // Offset: 0xC1E488
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

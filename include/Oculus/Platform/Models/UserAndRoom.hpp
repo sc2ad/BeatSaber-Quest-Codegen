@@ -35,7 +35,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x20
     Oculus::Platform::Models::User* User;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE0623C
+    // Offset: 0xEAB384
     static UserAndRoom* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.UserAndRoom
 }

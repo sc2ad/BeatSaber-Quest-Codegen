@@ -31,13 +31,13 @@ namespace Zenject::Internal {
     // Offset: 0x18
     System::Collections::Generic::HashSet_1<System::Type*>* boundNonSingletons;
     // public System.Void MarkNonSingleton(System.Type type)
-    // Offset: 0xE9C7A4
+    // Offset: 0xF418EC
     void MarkNonSingleton(System::Type* type);
     // public System.Void MarkSingleton(System.Type type)
-    // Offset: 0xE9C848
+    // Offset: 0xF41990
     void MarkSingleton(System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0xE9C908
+    // Offset: 0xF41A50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SingletonMarkRegistry* New_ctor();

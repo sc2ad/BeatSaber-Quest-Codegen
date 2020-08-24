@@ -92,79 +92,79 @@ namespace System::Threading {
     // Set static field: static System.Int32 MaxWaitHandles
     static void _set_MaxWaitHandles(int value);
     // private System.Void Init()
-    // Offset: 0xC4AEA8
+    // Offset: 0xCEEFF0
     void Init();
     // public System.Void set_Handle(System.IntPtr value)
-    // Offset: 0xC4AF30
+    // Offset: 0xCEF078
     void set_Handle(System::IntPtr value);
     // public Microsoft.Win32.SafeHandles.SafeWaitHandle get_SafeWaitHandle()
-    // Offset: 0xC367C0
+    // Offset: 0xCDA908
     Microsoft::Win32::SafeHandles::SafeWaitHandle* get_SafeWaitHandle();
     // public System.Void set_SafeWaitHandle(Microsoft.Win32.SafeHandles.SafeWaitHandle value)
-    // Offset: 0xC4B034
+    // Offset: 0xCEF17C
     void set_SafeWaitHandle(Microsoft::Win32::SafeHandles::SafeWaitHandle* value);
     // System.Void SetHandleInternal(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
-    // Offset: 0xC4B0FC
+    // Offset: 0xCEF244
     void SetHandleInternal(Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
     // public System.Boolean WaitOne(System.Int32 millisecondsTimeout, System.Boolean exitContext)
-    // Offset: 0xC4B140
+    // Offset: 0xCEF288
     bool WaitOne(int millisecondsTimeout, bool exitContext);
     // public System.Boolean WaitOne(System.TimeSpan timeout, System.Boolean exitContext)
-    // Offset: 0xC4B290
+    // Offset: 0xCEF3D8
     bool WaitOne(System::TimeSpan timeout, bool exitContext);
     // public System.Boolean WaitOne()
-    // Offset: 0xC4B384
+    // Offset: 0xCEF4CC
     bool WaitOne();
     // public System.Boolean WaitOne(System.Int32 millisecondsTimeout)
-    // Offset: 0xC4B398
+    // Offset: 0xCEF4E0
     bool WaitOne(int millisecondsTimeout);
     // public System.Boolean WaitOne(System.TimeSpan timeout)
-    // Offset: 0xC4B3A8
+    // Offset: 0xCEF4F0
     bool WaitOne(System::TimeSpan timeout);
     // private System.Boolean WaitOne(System.Int64 timeout, System.Boolean exitContext)
-    // Offset: 0xC4B200
+    // Offset: 0xCEF348
     bool WaitOne(int64_t timeout, bool exitContext);
     // static System.Boolean InternalWaitOne(System.Runtime.InteropServices.SafeHandle waitableSafeHandle, System.Int64 millisecondsTimeout, System.Boolean hasThreadAffinity, System.Boolean exitContext)
-    // Offset: 0xC4B3B8
+    // Offset: 0xCEF500
     static bool InternalWaitOne(System::Runtime::InteropServices::SafeHandle* waitableSafeHandle, int64_t millisecondsTimeout, bool hasThreadAffinity, bool exitContext);
     // static public System.Int32 WaitAny(System.Threading.WaitHandle[] waitHandles, System.Int32 millisecondsTimeout, System.Boolean exitContext)
-    // Offset: 0xC4B64C
+    // Offset: 0xCEF794
     static int WaitAny(::Array<System::Threading::WaitHandle*>* waitHandles, int millisecondsTimeout, bool exitContext);
     // static public System.Int32 WaitAny(System.Threading.WaitHandle[] waitHandles, System.TimeSpan timeout, System.Boolean exitContext)
-    // Offset: 0xC36884
+    // Offset: 0xCDA9CC
     static int WaitAny(::Array<System::Threading::WaitHandle*>* waitHandles, System::TimeSpan timeout, bool exitContext);
     // static private System.Void ThrowAbandonedMutexException()
-    // Offset: 0xC4B5EC
+    // Offset: 0xCEF734
     static void ThrowAbandonedMutexException();
     // static private System.Void ThrowAbandonedMutexException(System.Int32 location, System.Threading.WaitHandle handle)
-    // Offset: 0xC4BC50
+    // Offset: 0xCEFD98
     static void ThrowAbandonedMutexException(int location, System::Threading::WaitHandle* handle);
     // public System.Void Close()
-    // Offset: 0xC4BCC4
+    // Offset: 0xCEFE0C
     void Close();
     // protected System.Void Dispose(System.Boolean explicitDisposing)
-    // Offset: 0xC4BD44
+    // Offset: 0xCEFE8C
     void Dispose(bool explicitDisposing);
     // static private System.Int32 WaitMultiple(System.Threading.WaitHandle[] waitHandles, System.Int32 millisecondsTimeout, System.Boolean exitContext, System.Boolean WaitAll)
-    // Offset: 0xC4B96C
+    // Offset: 0xCEFAB4
     static int WaitMultiple(::Array<System::Threading::WaitHandle*>* waitHandles, int millisecondsTimeout, bool exitContext, bool WaitAll);
     // static private System.Int32 WaitOneNative(System.Runtime.InteropServices.SafeHandle waitableSafeHandle, System.UInt32 millisecondsTimeout, System.Boolean hasThreadAffinity, System.Boolean exitContext)
-    // Offset: 0xC4B4CC
+    // Offset: 0xCEF614
     static int WaitOneNative(System::Runtime::InteropServices::SafeHandle* waitableSafeHandle, uint millisecondsTimeout, bool hasThreadAffinity, bool exitContext);
     // static private System.Int32 Wait_internal(System.IntPtr* handles, System.Int32 numHandles, System.Boolean waitAll, System.Int32 ms)
-    // Offset: 0xC4BE10
+    // Offset: 0xCEFF58
     static int Wait_internal(System::IntPtr* handles, int numHandles, bool waitAll, int ms);
     // static private System.Void .cctor()
-    // Offset: 0xC4BE18
+    // Offset: 0xCEFF60
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0xC4AE80
+    // Offset: 0xCEEFC8
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static WaitHandle* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0xC4BD90
+    // Offset: 0xCEFED8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

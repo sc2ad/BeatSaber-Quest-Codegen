@@ -25,7 +25,7 @@ namespace System::IO {
     // Offset: 0x20
     ::Il2CppString* name;
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name)
-    // Offset: 0xEC2F8C
+    // Offset: 0xF680D4
     static FileSystemEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name);
   }; // System.IO.FileSystemEventArgs
 }

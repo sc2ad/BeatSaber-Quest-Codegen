@@ -26,13 +26,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::SceneInfo* sceneInfo;
     // public SceneInfo get_sceneInfo()
-    // Offset: 0xC1A534
+    // Offset: 0xCBD67C
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // protected System.Void Init(SceneSetupData sceneSetupData)
-    // Offset: 0xC15B30
+    // Offset: 0xCB8C78
     void Init(GlobalNamespace::SceneSetupData* sceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0xC15C58
+    // Offset: 0xCB8DA0
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

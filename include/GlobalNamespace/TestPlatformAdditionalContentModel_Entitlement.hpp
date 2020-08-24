@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::AdditionalContentModel::EntitlementStatus status;
     // public System.Void .ctor()
-    // Offset: 0x195F448
+    // Offset: 0xC45208
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestPlatformAdditionalContentModel::Entitlement* New_ctor();

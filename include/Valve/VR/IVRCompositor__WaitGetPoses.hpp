@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRCompositor::_WaitGetPoses : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x155DFD4
+    // Offset: 0x160B11C
     static IVRCompositor::_WaitGetPoses* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRCompositorError Invoke(Valve.VR.TrackedDevicePose_t[] pRenderPoseArray, System.UInt32 unRenderPoseArrayCount, Valve.VR.TrackedDevicePose_t[] pGamePoseArray, System.UInt32 unGamePoseArrayCount)
-    // Offset: 0x155DFE8
+    // Offset: 0x160B130
     Valve::VR::EVRCompositorError Invoke(::Array<Valve::VR::TrackedDevicePose_t>*& pRenderPoseArray, uint unRenderPoseArrayCount, ::Array<Valve::VR::TrackedDevicePose_t>*& pGamePoseArray, uint unGamePoseArrayCount);
     // public System.IAsyncResult BeginInvoke(Valve.VR.TrackedDevicePose_t[] pRenderPoseArray, System.UInt32 unRenderPoseArrayCount, Valve.VR.TrackedDevicePose_t[] pGamePoseArray, System.UInt32 unGamePoseArrayCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x155E288
+    // Offset: 0x160B3D0
     System::IAsyncResult* BeginInvoke(::Array<Valve::VR::TrackedDevicePose_t>*& pRenderPoseArray, uint unRenderPoseArrayCount, ::Array<Valve::VR::TrackedDevicePose_t>*& pGamePoseArray, uint unGamePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRCompositorError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x155E33C
+    // Offset: 0x160B484
     Valve::VR::EVRCompositorError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_WaitGetPoses
 }

@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_GetDXGIOutputInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x162A918
+    // Offset: 0x16D5A60
     static IVRSystem::_GetDXGIOutputInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Int32 pnAdapterIndex)
-    // Offset: 0x162A92C
+    // Offset: 0x16D5A74
     void Invoke(int& pnAdapterIndex);
     // public System.IAsyncResult BeginInvoke(System.Int32 pnAdapterIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x162AB7C
+    // Offset: 0x16D5CC4
     System::IAsyncResult* BeginInvoke(int& pnAdapterIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.Int32 pnAdapterIndex, System.IAsyncResult result)
-    // Offset: 0x162AC10
+    // Offset: 0x16D5D58
     void EndInvoke(int& pnAdapterIndex, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetDXGIOutputInfo
 }

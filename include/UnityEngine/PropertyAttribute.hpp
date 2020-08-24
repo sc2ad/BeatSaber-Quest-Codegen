@@ -14,7 +14,7 @@ namespace UnityEngine {
   class PropertyAttribute : public System::Attribute {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x136F7BC
+    // Offset: 0x1416904
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

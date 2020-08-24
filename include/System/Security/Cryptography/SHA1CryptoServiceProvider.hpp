@@ -24,34 +24,34 @@ namespace System::Security::Cryptography {
     // Offset: 0x28
     System::Security::Cryptography::SHA1Internal* sha;
     // public System.Void .ctor()
-    // Offset: 0xD47894
+    // Offset: 0xDEC9DC
     // Implemented from: System.Security.Cryptography.SHA1
     // Base method: System.Void SHA1::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static SHA1CryptoServiceProvider* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0xD479C0
+    // Offset: 0xDECB08
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xD47A34
+    // Offset: 0xDECB7C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected override System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0xD47A3C
+    // Offset: 0xDECB84
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0xD47B64
+    // Offset: 0xDECCAC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();
     // public override System.Void Initialize()
-    // Offset: 0xD47C78
+    // Offset: 0xDECDC0
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();

@@ -27,10 +27,10 @@ namespace TMPro {
     // Offset: 0x14
     uint second;
     // System.Boolean <AddKerningPair>b__0(TMPro.KerningPair item)
-    // Offset: 0xB505BC
+    // Offset: 0xB515D0
     bool $AddKerningPair$b__0(TMPro::KerningPair* item);
     // public System.Void .ctor()
-    // Offset: 0xB5002C
+    // Offset: 0xB51040
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static KerningTable::$$c__DisplayClass3_0* New_ctor();

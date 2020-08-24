@@ -86,13 +86,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>* animationHashes;
     // protected System.Void Awake()
-    // Offset: 0x104B428
+    // Offset: 0x10EE570
     void Awake();
     // public System.Void StartAnimation(ScreenBackButtonAnimationController/AnimationType animationType)
-    // Offset: 0x103E2CC
+    // Offset: 0x10E1414
     void StartAnimation(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType animationType);
     // public System.Void .ctor()
-    // Offset: 0x104B448
+    // Offset: 0x10EE590
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -58,22 +58,22 @@ namespace System::IO {
     // Set static field: static public System.Action`2<System.Threading.Tasks.Task,System.Object> <>9__47_0
     static void _set_$$9__47_0(System::Action_2<System::Threading::Tasks::Task*, ::Il2CppObject*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF64824
+    // Offset: 0x100A96C
     static void _cctor();
     // System.Threading.SemaphoreSlim <EnsureAsyncActiveSemaphoreInitialized>b__4_0()
-    // Offset: 0xF64894
+    // Offset: 0x100A9DC
     System::Threading::SemaphoreSlim* $EnsureAsyncActiveSemaphoreInitialized$b__4_0();
     // System.Int32 <BeginReadInternal>b__39_0(System.Object $p0$)
-    // Offset: 0xF648F8
+    // Offset: 0x100AA40
     int $BeginReadInternal$b__39_0(::Il2CppObject* $p0$);
     // System.Int32 <BeginWriteInternal>b__46_0(System.Object $p0$)
-    // Offset: 0xF64A48
+    // Offset: 0x100AB90
     int $BeginWriteInternal$b__46_0(::Il2CppObject* $p0$);
     // System.Void <RunReadWriteTaskWhenReady>b__47_0(System.Threading.Tasks.Task t, System.Object state)
-    // Offset: 0xF64B60
+    // Offset: 0x100ACA8
     void $RunReadWriteTaskWhenReady$b__47_0(System::Threading::Tasks::Task* t, ::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0xF6488C
+    // Offset: 0x100A9D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Stream::$$c* New_ctor();

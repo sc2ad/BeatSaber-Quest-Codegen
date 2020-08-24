@@ -53,16 +53,16 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::BindInfo* BindInfo;
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0xF2072C
+    // Offset: 0xFC5874
     static ProviderBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo);
     // protected Zenject.BindInfo get_BindInfo()
-    // Offset: 0xF24E98
+    // Offset: 0xFC9FE0
     Zenject::BindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.BindInfo value)
-    // Offset: 0xF24EA0
+    // Offset: 0xFC9FE8
     void set_BindInfo(Zenject::BindInfo* value);
     // protected Zenject.ScopeTypes GetScope()
-    // Offset: 0xF20DEC
+    // Offset: 0xFC5F34
     Zenject::ScopeTypes GetScope();
     // protected System.Void OnFinalizeBinding(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
@@ -74,30 +74,30 @@ namespace Zenject {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "RegisterProvider", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, container, provider));
     }
     // protected System.Void RegisterProvider(Zenject.DiContainer container, System.Type contractType, Zenject.IProvider provider)
-    // Offset: 0xF25204
+    // Offset: 0xFCA34C
     void RegisterProvider(Zenject::DiContainer* container, System::Type* contractType, Zenject::IProvider* provider);
     // protected System.Void RegisterProviderPerContract(Zenject.DiContainer container, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFunc)
-    // Offset: 0xF21734
+    // Offset: 0xFC687C
     void RegisterProviderPerContract(Zenject::DiContainer* container, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFunc);
     // protected System.Void RegisterProviderForAllContracts(Zenject.DiContainer container, Zenject.IProvider provider)
-    // Offset: 0xF254A8
+    // Offset: 0xFCA5F0
     void RegisterProviderForAllContracts(Zenject::DiContainer* container, Zenject::IProvider* provider);
     // protected System.Void RegisterProvidersPerContractAndConcreteType(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes, System.Func`3<System.Type,System.Type,Zenject.IProvider> providerFunc)
-    // Offset: 0xF2564C
+    // Offset: 0xFCA794
     void RegisterProvidersPerContractAndConcreteType(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes, System::Func_3<System::Type*, System::Type*, Zenject::IProvider*>* providerFunc);
     // private System.Boolean ValidateBindTypes(System.Type concreteType, System.Type contractType)
-    // Offset: 0xF2591C
+    // Offset: 0xFCAA64
     bool ValidateBindTypes(System::Type* concreteType, System::Type* contractType);
     // protected System.Void RegisterProvidersForAllContractsPerConcreteType(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFunc)
-    // Offset: 0xF21018
+    // Offset: 0xFC6160
     void RegisterProvidersForAllContractsPerConcreteType(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFunc);
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0xF24E7C
+    // Offset: 0xFC9FC4
     // Implemented from: Zenject.IBindingFinalizer
     // Base method: Zenject.BindingInheritanceMethods IBindingFinalizer::get_BindingInheritanceMethod()
     Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0xF24EA8
+    // Offset: 0xFC9FF0
     // Implemented from: Zenject.IBindingFinalizer
     // Base method: System.Void IBindingFinalizer::FinalizeBinding(Zenject.DiContainer container)
     void FinalizeBinding(Zenject::DiContainer* container);

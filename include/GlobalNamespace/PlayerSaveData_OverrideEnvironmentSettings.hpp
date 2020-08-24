@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppString* override360EnvironmentName;
     // public System.Void .ctor()
-    // Offset: 0x1920E30
+    // Offset: 0xBDC6F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::OverrideEnvironmentSettings* New_ctor();

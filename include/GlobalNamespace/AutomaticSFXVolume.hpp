@@ -55,25 +55,25 @@ namespace GlobalNamespace {
     // Offset: 0x48
     float releaseCoef;
     // protected System.Void Start()
-    // Offset: 0x18F1CC4
+    // Offset: 0xB8B224
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x18F1DA4
+    // Offset: 0xB8B304
     void OnDisable();
     // protected System.Void OnValidate()
-    // Offset: 0x18F1E38
+    // Offset: 0xB8B398
     void OnValidate();
     // private System.Void RecalculateParams()
-    // Offset: 0x18F1CC8
+    // Offset: 0xB8B228
     void RecalculateParams();
     // protected System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x18F1E3C
+    // Offset: 0xB8B39C
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // protected System.Void Update()
-    // Offset: 0x18F203C
+    // Offset: 0xB8B59C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x18F2070
+    // Offset: 0xB8B5D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

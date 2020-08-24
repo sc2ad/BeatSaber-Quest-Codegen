@@ -24,13 +24,13 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x89
     bool genericFixture;
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1843490
+    // Offset: 0x18F05D8
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     static ParameterizedFixtureSuite* New_ctor(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public override System.String get_TestType()
-    // Offset: 0x1843708
+    // Offset: 0x18F0850
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();

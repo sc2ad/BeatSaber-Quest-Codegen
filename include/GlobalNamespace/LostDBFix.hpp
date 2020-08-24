@@ -14,13 +14,13 @@ namespace GlobalNamespace {
   class LostDBFix : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void OnPreRender()
-    // Offset: 0x19425D0
+    // Offset: 0xBFCE94
     void OnPreRender();
     // private System.Void OnPostRender()
-    // Offset: 0x19425D4
+    // Offset: 0xBFCE98
     void OnPostRender();
     // public System.Void .ctor()
-    // Offset: 0x19425D8
+    // Offset: 0xBFCE9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -96,68 +96,68 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static System.Threading.ContextCallback ccb
     static void _set_ccb(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Threading.WaitCallback cb, System.Object state, System.Boolean capture_context)
-    // Offset: 0xFBF7B4
+    // Offset: 0x10638FC
     static AsyncResult* New_ctor(System::Threading::WaitCallback* cb, ::Il2CppObject* state, bool capture_context);
     // static private System.Void WaitCallback_Context(System.Object state)
-    // Offset: 0xFBF8C4
+    // Offset: 0x1063A0C
     static void WaitCallback_Context(::Il2CppObject* state);
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0xFBFA6C
+    // Offset: 0x1063BB4
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xFBFA74
+    // Offset: 0x1063BBC
     bool get_IsCompleted();
     // public System.Boolean get_EndInvokeCalled()
-    // Offset: 0xFBFA7C
+    // Offset: 0x1063BC4
     bool get_EndInvokeCalled();
     // public System.Void set_EndInvokeCalled(System.Boolean value)
-    // Offset: 0xFBFA84
+    // Offset: 0x1063BCC
     void set_EndInvokeCalled(bool value);
     // public System.Object get_AsyncDelegate()
-    // Offset: 0xFBFA90
+    // Offset: 0x1063BD8
     ::Il2CppObject* get_AsyncDelegate();
     // public System.Runtime.Remoting.Messaging.IMessageSink get_NextSink()
-    // Offset: 0xFBFA98
+    // Offset: 0x1063BE0
     System::Runtime::Remoting::Messaging::IMessageSink* get_NextSink();
     // public System.Runtime.Remoting.Messaging.IMessage GetReplyMessage()
-    // Offset: 0xFBFB00
+    // Offset: 0x1063C48
     System::Runtime::Remoting::Messaging::IMessage* GetReplyMessage();
     // public System.Void SetMessageCtrl(System.Runtime.Remoting.Messaging.IMessageCtrl mc)
-    // Offset: 0xFBFB08
+    // Offset: 0x1063C50
     void SetMessageCtrl(System::Runtime::Remoting::Messaging::IMessageCtrl* mc);
     // System.Void SetCompletedSynchronously(System.Boolean completed)
-    // Offset: 0xFBFB10
+    // Offset: 0x1063C58
     void SetCompletedSynchronously(bool completed);
     // System.Runtime.Remoting.Messaging.IMessage EndInvoke()
-    // Offset: 0xFBFB1C
+    // Offset: 0x1063C64
     System::Runtime::Remoting::Messaging::IMessage* EndInvoke();
     // System.Runtime.Remoting.Messaging.MonoMethodMessage get_CallMessage()
-    // Offset: 0xFBFD68
+    // Offset: 0x1063EB0
     System::Runtime::Remoting::Messaging::MonoMethodMessage* get_CallMessage();
     // System.Void set_CallMessage(System.Runtime.Remoting.Messaging.MonoMethodMessage value)
-    // Offset: 0xFBFD70
+    // Offset: 0x1063EB8
     void set_CallMessage(System::Runtime::Remoting::Messaging::MonoMethodMessage* value);
     // System.Object Invoke()
-    // Offset: 0xFBFD7C
+    // Offset: 0x1063EC4
     ::Il2CppObject* Invoke();
     // static private System.Void .cctor()
-    // Offset: 0xFBFD84
+    // Offset: 0x1063ECC
     static void _cctor();
     // private System.Void <.ctor>b__17_0(System.Object $p0$)
-    // Offset: 0xFBFE04
+    // Offset: 0x1063F4C
     void $_ctor$b__17_0(::Il2CppObject* $p0$);
     // System.Void .ctor()
-    // Offset: 0xFBF7AC
+    // Offset: 0x10638F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsyncResult* New_ctor();
     // public System.Object get_AsyncState()
-    // Offset: 0xFBF958
+    // Offset: 0x1063AA0
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0xFBF960
+    // Offset: 0x1063AA8
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -165,22 +165,22 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0xFBFAA0
+    // Offset: 0x1063BE8
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0xFBFC20
+    // Offset: 0x1063D68
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessage IMessageSink::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0xFBFD78
+    // Offset: 0x1063EC0
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0xFBFD80
+    // Offset: 0x1063EC8
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

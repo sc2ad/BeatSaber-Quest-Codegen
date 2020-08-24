@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithCloudStorageUpdateResponse : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageUpdateResponse*> {
     public:
     // protected Oculus.Platform.Models.CloudStorageUpdateResponse GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xDFE1B0
+    // Offset: 0xEA32F8
     Oculus::Platform::Models::CloudStorageUpdateResponse* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xDFA148
+    // Offset: 0xE9F290
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithCloudStorageUpdateResponse* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.CloudStorageUpdateResponse GetCloudStorageUpdateResponse()
-    // Offset: 0xDFE16C
+    // Offset: 0xEA32B4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageUpdateResponse Message::GetCloudStorageUpdateResponse()
     Oculus::Platform::Models::CloudStorageUpdateResponse* GetCloudStorageUpdateResponse();

@@ -62,30 +62,30 @@ namespace GlobalNamespace {
     // Offset: 0x48
     bool changingGameplayModifierToggles;
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xB40758
+    // Offset: 0xB4076C
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void SetData(GameplayModifiers gameplayModifiers)
-    // Offset: 0xB40760
+    // Offset: 0xB40774
     void SetData(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // protected System.Void Awake()
-    // Offset: 0xB40768
+    // Offset: 0xB4077C
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0xB4090C
+    // Offset: 0xB40920
     void OnDestroy();
     // private System.Void DisableTogglesWithGameplayModifier(GameplayModifierParamsSO gameplayModifier)
-    // Offset: 0xB40920
+    // Offset: 0xB40934
     void DisableTogglesWithGameplayModifier(GlobalNamespace::GameplayModifierParamsSO* gameplayModifier);
     // private System.Void RefreshTotalMultiplierAndRankUI()
-    // Offset: 0xB40AAC
+    // Offset: 0xB40AC0
     void RefreshTotalMultiplierAndRankUI();
     // public System.Void Refresh()
-    // Offset: 0xB40A0C
+    // Offset: 0xB40A20
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0xB40B84
+    // Offset: 0xB40B98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -36,13 +36,13 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0
     class $$c__DisplayClass0_0;
     // static public IBeatmapLevelCollection FilerBeatmapLevelPackCollection(IBeatmapLevelPackCollection beatmapLevelPackCollection, BeatmapLevelFilterModel/LevelFilterParams levelFilterParams)
-    // Offset: 0x18D6EC0
+    // Offset: 0xB7041C
     static GlobalNamespace::IBeatmapLevelCollection* FilerBeatmapLevelPackCollection(GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection, GlobalNamespace::BeatmapLevelFilterModel::LevelFilterParams* levelFilterParams);
     // static private System.Collections.Generic.IEnumerable`1<IPreviewBeatmapLevel> GetAllBeatmapLevels(IBeatmapLevelPackCollection beatmapLevelPackCollection)
-    // Offset: 0x18D7020
+    // Offset: 0xB7057C
     static System::Collections::Generic::IEnumerable_1<GlobalNamespace::IPreviewBeatmapLevel*>* GetAllBeatmapLevels(GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection);
     // static private IPreviewBeatmapLevel[] FilterByLevelIds(IBeatmapLevelPackCollection beatmapLevelPackCollection, System.Collections.Generic.HashSet`1<System.String> beatmapLevelIds)
-    // Offset: 0x18D7290
+    // Offset: 0xB707EC
     static ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* FilterByLevelIds(GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection, System::Collections::Generic::HashSet_1<::Il2CppString*>* beatmapLevelIds);
   }; // BeatmapLevelFilterModel
 }

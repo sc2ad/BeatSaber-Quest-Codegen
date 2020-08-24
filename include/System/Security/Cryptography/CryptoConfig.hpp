@@ -12,10 +12,10 @@ namespace System::Security::Cryptography {
   class CryptoConfig : public ::Il2CppObject {
     public:
     // static public System.Byte[] EncodeOID(System.String str)
-    // Offset: 0xD469E8
+    // Offset: 0xDEBB30
     static ::Array<uint8_t>* EncodeOID(::Il2CppString* str);
     // static private System.Byte[] EncodeLongNumber(System.Int64 x)
-    // Offset: 0xD46E40
+    // Offset: 0xDEBF88
     static ::Array<uint8_t>* EncodeLongNumber(int64_t x);
   }; // System.Security.Cryptography.CryptoConfig
 }

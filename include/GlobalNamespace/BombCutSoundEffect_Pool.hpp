@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class BombCutSoundEffect::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::BombCutSoundEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18E2B90
+    // Offset: 0xB7C0EC
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     float velocity;
     // public System.Void .ctor()
-    // Offset: 0x18E20D8
+    // Offset: 0xB7B634
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BlocksBlade::Element* New_ctor();

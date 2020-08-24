@@ -29,10 +29,10 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x10
     ::Array<System::Type*>* argTypes;
     // public System.Boolean <GetConstructor>b__0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x184F9FC
+    // Offset: 0x18FCB44
     bool $GetConstructor$b__0(System::Reflection::ConstructorInfo* c);
     // public System.Void .ctor()
-    // Offset: 0x184F940
+    // Offset: 0x18FCA88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeWrapper::$$c__DisplayClass1* New_ctor();

@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this;
     // System.Void <ReloadAssetDetailsForAllLevelsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0xBAA900
+    // Offset: 0xC36CB8
     void $ReloadAssetDetailsForAllLevelsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // public System.Void .ctor()
-    // Offset: 0xBAA8F8
+    // Offset: 0xC36CB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0* New_ctor();

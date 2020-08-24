@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MissionStage,System.Int32> <>9__6_0
     static void _set_$$9__6_0(System::Func_2<GlobalNamespace::MissionStage*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1953B14
+    // Offset: 0xC0F3D8
     static void _cctor();
     // System.Int32 <InitStages>b__6_0(MissionStage stage)
-    // Offset: 0x1953B84
+    // Offset: 0xC0F448
     int $InitStages$b__6_0(GlobalNamespace::MissionStage* stage);
     // public System.Void .ctor()
-    // Offset: 0x1953B7C
+    // Offset: 0xC0F440
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionStagesManager::$$c* New_ctor();

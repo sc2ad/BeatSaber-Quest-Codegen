@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class AspMvcMasterAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18B3E1C
+    // Offset: 0x1960F64
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -45,10 +45,10 @@ namespace Zenject {
     // Offset: 0x18
     System::Func_2<UnityEngine::Component*, bool>* predicate;
     // Zenject.IProvider <FromComponentsInChildrenBase>b__0(Zenject.DiContainer container, System.Type concreteType)
-    // Offset: 0xE92808
+    // Offset: 0xF37950
     Zenject::IProvider* $FromComponentsInChildrenBase$b__0(Zenject::DiContainer* container, System::Type* concreteType);
     // public System.Void .ctor()
-    // Offset: 0xE90CA8
+    // Offset: 0xF35DF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass60_0* New_ctor();

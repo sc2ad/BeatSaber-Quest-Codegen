@@ -17,10 +17,10 @@ namespace System {
     // Offset: 0x10
     ::Il2CppString* comment;
     // public System.Void .ctor(System.String comment)
-    // Offset: 0xF74D78
+    // Offset: 0x101AEC0
     static MonoTODOAttribute* New_ctor(::Il2CppString* comment);
     // public System.Void .ctor()
-    // Offset: 0xF74D70
+    // Offset: 0x101AEB8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

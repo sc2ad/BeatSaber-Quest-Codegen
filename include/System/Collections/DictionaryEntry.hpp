@@ -24,13 +24,13 @@ namespace System::Collections {
     // Creating value type constructor for type: DictionaryEntry
     DictionaryEntry(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) : key{key_}, value{value_} {}
     // public System.Void .ctor(System.Object key, System.Object value)
-    // Offset: 0x9AC154
+    // Offset: 0xA467CC
     static DictionaryEntry* New_ctor(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Object get_Key()
-    // Offset: 0x9AC188
+    // Offset: 0xA46800
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x9AC190
+    // Offset: 0xA46808
     ::Il2CppObject* get_Value();
   }; // System.Collections.DictionaryEntry
 }

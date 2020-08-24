@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* missionHelpId;
     // public System.String get_missionHelpId()
-    // Offset: 0x1949E7C
+    // Offset: 0xC04740
     ::Il2CppString* get_missionHelpId();
     // public System.Void .ctor()
-    // Offset: 0x1949E84
+    // Offset: 0xC04748
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

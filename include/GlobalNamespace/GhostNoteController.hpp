@@ -24,12 +24,12 @@ namespace GlobalNamespace {
     // Offset: 0x78
     UnityEngine::GameObject* wrapperGO;
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0xB415F0
+    // Offset: 0xB41604
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public System.Void .ctor()
-    // Offset: 0xB41614
+    // Offset: 0xB41628
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

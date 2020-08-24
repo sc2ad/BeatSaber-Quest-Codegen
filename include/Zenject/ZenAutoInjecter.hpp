@@ -59,25 +59,25 @@ namespace Zenject {
     // Offset: 0x1C
     bool hasInjected;
     // public Zenject.ZenAutoInjecter/ContainerSources get_ContainerSource()
-    // Offset: 0x189754C
+    // Offset: 0x1943694
     Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();
     // public System.Void set_ContainerSource(Zenject.ZenAutoInjecter/ContainerSources value)
-    // Offset: 0x1897554
+    // Offset: 0x194369C
     void set_ContainerSource(Zenject::ZenAutoInjecter::ContainerSources value);
     // public System.Void Construct()
-    // Offset: 0x189755C
+    // Offset: 0x19436A4
     void Construct();
     // public System.Void Awake()
-    // Offset: 0x18975C8
+    // Offset: 0x1943710
     void Awake();
     // private Zenject.DiContainer LookupContainer()
-    // Offset: 0x1897614
+    // Offset: 0x194375C
     Zenject::DiContainer* LookupContainer();
     // private Zenject.DiContainer GetContainerForCurrentScene()
-    // Offset: 0x1897764
+    // Offset: 0x19438AC
     Zenject::DiContainer* GetContainerForCurrentScene();
     // public System.Void .ctor()
-    // Offset: 0x1897800
+    // Offset: 0x1943948
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

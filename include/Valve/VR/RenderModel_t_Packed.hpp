@@ -39,10 +39,10 @@ namespace Valve::VR {
     // Creating value type constructor for type: RenderModel_t_Packed
     RenderModel_t_Packed(System::IntPtr rVertexData_ = {}, uint unVertexCount_ = {}, System::IntPtr rIndexData_ = {}, uint unTriangleCount_ = {}, int diffuseTextureId_ = {}) : rVertexData{rVertexData_}, unVertexCount{unVertexCount_}, rIndexData{rIndexData_}, unTriangleCount{unTriangleCount_}, diffuseTextureId{diffuseTextureId_} {}
     // public System.Void .ctor(Valve.VR.RenderModel_t unpacked)
-    // Offset: 0x9C40B8
+    // Offset: 0xA5D730
     static RenderModel_t_Packed* New_ctor(Valve::VR::RenderModel_t unpacked);
     // public System.Void Unpack(Valve.VR.RenderModel_t unpacked)
-    // Offset: 0x9C40D8
+    // Offset: 0xA5D750
     void Unpack(Valve::VR::RenderModel_t& unpacked);
   }; // Valve.VR.RenderModel_t_Packed
 }

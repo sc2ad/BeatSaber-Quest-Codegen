@@ -64,37 +64,37 @@ namespace UnityEngine::UI {
     // Set static field: static private System.String kDefaultDisabledAnimName
     static void _set_kDefaultDisabledAnimName(::Il2CppString* value);
     // public System.String get_normalTrigger()
-    // Offset: 0xD60CE4
+    // Offset: 0xE05E2C
     ::Il2CppString* get_normalTrigger();
     // public System.Void set_normalTrigger(System.String value)
-    // Offset: 0xD60CEC
+    // Offset: 0xE05E34
     void set_normalTrigger(::Il2CppString* value);
     // public System.String get_highlightedTrigger()
-    // Offset: 0xD60CF4
+    // Offset: 0xE05E3C
     ::Il2CppString* get_highlightedTrigger();
     // public System.Void set_highlightedTrigger(System.String value)
-    // Offset: 0xD60CFC
+    // Offset: 0xE05E44
     void set_highlightedTrigger(::Il2CppString* value);
     // public System.String get_pressedTrigger()
-    // Offset: 0xD60D04
+    // Offset: 0xE05E4C
     ::Il2CppString* get_pressedTrigger();
     // public System.Void set_pressedTrigger(System.String value)
-    // Offset: 0xD60D0C
+    // Offset: 0xE05E54
     void set_pressedTrigger(::Il2CppString* value);
     // public System.String get_selectedTrigger()
-    // Offset: 0xD60D14
+    // Offset: 0xE05E5C
     ::Il2CppString* get_selectedTrigger();
     // public System.Void set_selectedTrigger(System.String value)
-    // Offset: 0xD60D1C
+    // Offset: 0xE05E64
     void set_selectedTrigger(::Il2CppString* value);
     // public System.String get_disabledTrigger()
-    // Offset: 0xD60D24
+    // Offset: 0xE05E6C
     ::Il2CppString* get_disabledTrigger();
     // public System.Void set_disabledTrigger(System.String value)
-    // Offset: 0xD60D2C
+    // Offset: 0xE05E74
     void set_disabledTrigger(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0xD60D34
+    // Offset: 0xE05E7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AnimationTriggers* New_ctor();

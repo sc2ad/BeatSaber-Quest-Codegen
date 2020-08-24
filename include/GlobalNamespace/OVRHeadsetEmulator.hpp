@@ -120,19 +120,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single MAX_ROLL
     static void _set_MAX_ROLL(float value);
     // private System.Void Start()
-    // Offset: 0xDCB2FC
+    // Offset: 0xE70444
     void Start();
     // private System.Void Update()
-    // Offset: 0xDCB300
+    // Offset: 0xE70448
     void Update();
     // private System.Boolean IsEmulationActivated()
-    // Offset: 0xDCB6E0
+    // Offset: 0xE70828
     bool IsEmulationActivated();
     // private System.Boolean IsTweakingPitch()
-    // Offset: 0xDCB9FC
+    // Offset: 0xE70B44
     bool IsTweakingPitch();
     // public System.Void .ctor()
-    // Offset: 0xDCBA8C
+    // Offset: 0xE70BD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -22,7 +22,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x10
     System::WeakReference* ref;
     // public System.Void .ctor()
-    // Offset: 0x145A320
+    // Offset: 0x1504468
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SharedReference* New_ctor();

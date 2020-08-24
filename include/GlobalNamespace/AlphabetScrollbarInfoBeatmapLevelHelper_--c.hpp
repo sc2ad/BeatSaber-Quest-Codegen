@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IPreviewBeatmapLevel,System.String> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18EBC5C
+    // Offset: 0xB851BC
     static void _cctor();
     // System.String <CreateData>b__3_0(IPreviewBeatmapLevel x)
-    // Offset: 0x18EBCCC
+    // Offset: 0xB8522C
     ::Il2CppString* $CreateData$b__3_0(GlobalNamespace::IPreviewBeatmapLevel* x);
     // public System.Void .ctor()
-    // Offset: 0x18EBCC4
+    // Offset: 0xB85224
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AlphabetScrollbarInfoBeatmapLevelHelper::$$c* New_ctor();

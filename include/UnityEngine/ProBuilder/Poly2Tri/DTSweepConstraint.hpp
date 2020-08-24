@@ -21,7 +21,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class DTSweepConstraint : public UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint {
     public:
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2)
-    // Offset: 0x1884774
+    // Offset: 0x19318BC
     static DTSweepConstraint* New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint
 }

@@ -47,19 +47,19 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // protected System.Void Awake()
-    // Offset: 0x196F020
+    // Offset: 0xC54DE0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x196F108
+    // Offset: 0xC54EC8
     void OnDestroy();
     // private System.Void HandleGameScenesManagerInstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x196F1F0
+    // Offset: 0xC54FB0
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandlePlayerNameWasEntered(System.String playerName)
-    // Offset: 0x196F348
+    // Offset: 0xC55108
     void HandlePlayerNameWasEntered(::Il2CppString* playerName);
     // public System.Void .ctor()
-    // Offset: 0x196F3D0
+    // Offset: 0xC55190
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

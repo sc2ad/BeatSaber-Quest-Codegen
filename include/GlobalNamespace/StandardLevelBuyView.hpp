@@ -76,25 +76,25 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
     // public UnityEngine.UI.Button get_buyButton()
-    // Offset: 0x19038E4
+    // Offset: 0xB9DE44
     UnityEngine::UI::Button* get_buyButton();
     // public System.Void SetContent(IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x19038EC
+    // Offset: 0xB9DE4C
     void SetContent(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     // protected System.Void OnEnable()
-    // Offset: 0x1903A34
+    // Offset: 0xB9DF94
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1903A3C
+    // Offset: 0xB9DF9C
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1903A74
+    // Offset: 0xB9DFD4
     void OnDestroy();
     // public System.Void LoadDataAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x1903948
+    // Offset: 0xB9DEA8
     void LoadDataAsync(GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void .ctor()
-    // Offset: 0x1903B5C
+    // Offset: 0xB9E0BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

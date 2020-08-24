@@ -62,73 +62,73 @@ namespace Microsoft::Win32 {
     // Set static field: static private readonly Microsoft.Win32.IRegistryApi RegistryApi
     static void _set_RegistryApi(Microsoft::Win32::IRegistryApi* value);
     // static private System.Void .cctor()
-    // Offset: 0x100916C
+    // Offset: 0x10AD2B4
     static void _cctor();
     // System.Void .ctor(Microsoft.Win32.RegistryHive hiveId)
-    // Offset: 0x1009120
+    // Offset: 0x10AD268
     static RegistryKey* New_ctor(Microsoft::Win32::RegistryHive hiveId);
     // System.Void .ctor(Microsoft.Win32.RegistryHive hiveId, System.IntPtr keyHandle, System.Boolean remoteRoot)
-    // Offset: 0x10092AC
+    // Offset: 0x10AD3F4
     static RegistryKey* New_ctor(Microsoft::Win32::RegistryHive hiveId, System::IntPtr keyHandle, bool remoteRoot);
     // System.Void .ctor(System.Object data, System.String keyName, System.Boolean writable)
-    // Offset: 0x1005FF0
+    // Offset: 0x10AA138
     static RegistryKey* New_ctor(::Il2CppObject* data, ::Il2CppString* keyName, bool writable);
     // static System.Boolean IsEquals(Microsoft.Win32.RegistryKey a, Microsoft.Win32.RegistryKey b)
-    // Offset: 0x10094B4
+    // Offset: 0x10AD5FC
     static bool IsEquals(Microsoft::Win32::RegistryKey* a, Microsoft::Win32::RegistryKey* b);
     // public System.String get_Name()
-    // Offset: 0x10096EC
+    // Offset: 0x10AD834
     ::Il2CppString* get_Name();
     // public System.Void Flush()
-    // Offset: 0x10096F4
+    // Offset: 0x10AD83C
     void Flush();
     // public System.Void Close()
-    // Offset: 0x10095C8
+    // Offset: 0x10AD710
     void Close();
     // public Microsoft.Win32.SafeHandles.SafeRegistryHandle get_Handle()
-    // Offset: 0x10097D4
+    // Offset: 0x10AD91C
     Microsoft::Win32::SafeHandles::SafeRegistryHandle* get_Handle();
     // public Microsoft.Win32.RegistryKey OpenSubKey(System.String name)
-    // Offset: 0x10099C0
+    // Offset: 0x10ADB08
     Microsoft::Win32::RegistryKey* OpenSubKey(::Il2CppString* name);
     // public Microsoft.Win32.RegistryKey OpenSubKey(System.String name, System.Boolean writable)
-    // Offset: 0x10099C8
+    // Offset: 0x10ADB10
     Microsoft::Win32::RegistryKey* OpenSubKey(::Il2CppString* name, bool writable);
     // public System.Object GetValue(System.String name)
-    // Offset: 0x1009C14
+    // Offset: 0x10ADD5C
     ::Il2CppObject* GetValue(::Il2CppString* name);
     // public System.Object GetValue(System.String name, System.Object defaultValue)
-    // Offset: 0x1009C1C
+    // Offset: 0x10ADD64
     ::Il2CppObject* GetValue(::Il2CppString* name, ::Il2CppObject* defaultValue);
     // public System.String[] GetSubKeyNames()
-    // Offset: 0x1009D20
+    // Offset: 0x10ADE68
     ::Array<::Il2CppString*>* GetSubKeyNames();
     // System.Boolean get_IsRoot()
-    // Offset: 0x1007670
+    // Offset: 0x10AB7B8
     bool get_IsRoot();
     // Microsoft.Win32.RegistryHive get_Hive()
-    // Offset: 0x1007680
+    // Offset: 0x10AB7C8
     Microsoft::Win32::RegistryHive get_Hive();
     // System.Object get_InternalHandle()
-    // Offset: 0x1009EF0
+    // Offset: 0x10AE038
     ::Il2CppObject* get_InternalHandle();
     // private System.Void AssertKeyStillValid()
-    // Offset: 0x1009910
+    // Offset: 0x10ADA58
     void AssertKeyStillValid();
     // private System.Void AssertKeyNameLength(System.String name)
-    // Offset: 0x1009B88
+    // Offset: 0x10ADCD0
     void AssertKeyNameLength(::Il2CppString* name);
     // static System.String DecodeString(System.Byte[] data)
-    // Offset: 0x1009F2C
+    // Offset: 0x10AE074
     static ::Il2CppString* DecodeString(::Array<uint8_t>* data);
     // static System.IO.IOException CreateMarkedForDeletionException()
-    // Offset: 0x1009FDC
+    // Offset: 0x10AE124
     static System::IO::IOException* CreateMarkedForDeletionException();
     // static private System.String GetHiveName(Microsoft.Win32.RegistryHive hive)
-    // Offset: 0x10093B4
+    // Offset: 0x10AD4FC
     static ::Il2CppString* GetHiveName(Microsoft::Win32::RegistryHive hive);
     // public System.Void Dispose()
-    // Offset: 0x1009558
+    // Offset: 0x10AD6A0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -136,7 +136,7 @@ namespace Microsoft::Win32 {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public override System.String ToString()
-    // Offset: 0x1009E08
+    // Offset: 0x10ADF50
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

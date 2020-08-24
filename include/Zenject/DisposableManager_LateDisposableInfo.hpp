@@ -27,7 +27,7 @@ namespace Zenject {
     // Offset: 0x18
     int Priority;
     // public System.Void .ctor(Zenject.ILateDisposable lateDisposable, System.Int32 priority)
-    // Offset: 0xE8ABD4
+    // Offset: 0xF2FD1C
     static DisposableManager::LateDisposableInfo* New_ctor(Zenject::ILateDisposable* lateDisposable, int priority);
   }; // Zenject.DisposableManager/LateDisposableInfo
 }

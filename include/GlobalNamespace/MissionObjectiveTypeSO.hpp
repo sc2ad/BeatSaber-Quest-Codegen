@@ -30,19 +30,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ObjectiveValueFormatterSO* objectiveValueFormater;
     // public System.String get_objectiveName()
-    // Offset: 0x1951918
+    // Offset: 0xC0D1DC
     ::Il2CppString* get_objectiveName();
     // public System.String get_objectiveNameLocalized()
-    // Offset: 0x1951750
+    // Offset: 0xC0D014
     ::Il2CppString* get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
-    // Offset: 0x1951920
+    // Offset: 0xC0D1E4
     bool get_noConditionValue();
     // public ObjectiveValueFormatterSO get_objectiveValueFormater()
-    // Offset: 0x1951928
+    // Offset: 0xC0D1EC
     GlobalNamespace::ObjectiveValueFormatterSO* get_objectiveValueFormater();
     // public System.Void .ctor()
-    // Offset: 0x1951930
+    // Offset: 0xC0D1F4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

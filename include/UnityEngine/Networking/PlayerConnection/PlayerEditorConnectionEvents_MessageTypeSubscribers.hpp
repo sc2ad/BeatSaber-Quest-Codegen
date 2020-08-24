@@ -30,13 +30,13 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Offset: 0x20
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent* messageCallback;
     // public System.Guid get_MessageTypeId()
-    // Offset: 0x137128C
+    // Offset: 0x14183D4
     System::Guid get_MessageTypeId();
     // public System.Void set_MessageTypeId(System.Guid value)
-    // Offset: 0x1371400
+    // Offset: 0x1418548
     void set_MessageTypeId(System::Guid value);
     // public System.Void .ctor()
-    // Offset: 0x137138C
+    // Offset: 0x14184D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerEditorConnectionEvents::MessageTypeSubscribers* New_ctor();

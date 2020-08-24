@@ -26,66 +26,66 @@ namespace UnityEngine {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
-    // Offset: 0x125CB0C
+    // Offset: 0x1302C54
     static void Internal_Destroy(System::IntPtr ptr);
     // static private System.IntPtr Internal_Create(UnityEngine.Keyframe[] keys)
-    // Offset: 0x125CB4C
+    // Offset: 0x1302C94
     static System::IntPtr Internal_Create(::Array<UnityEngine::Keyframe>* keys);
     // private System.Boolean Internal_Equals(System.IntPtr other)
-    // Offset: 0x125CB8C
+    // Offset: 0x1302CD4
     bool Internal_Equals(System::IntPtr other);
     // public System.Single Evaluate(System.Single time)
-    // Offset: 0x125CC78
+    // Offset: 0x1302DC0
     float Evaluate(float time);
     // public UnityEngine.Keyframe[] get_keys()
-    // Offset: 0x125CCC8
+    // Offset: 0x1302E10
     ::Array<UnityEngine::Keyframe>* get_keys();
     // public System.Void set_keys(UnityEngine.Keyframe[] value)
-    // Offset: 0x125CD48
+    // Offset: 0x1302E90
     void set_keys(::Array<UnityEngine::Keyframe>* value);
     // public System.Int32 AddKey(System.Single time, System.Single value)
-    // Offset: 0x125CDE8
+    // Offset: 0x1302F30
     int AddKey(float time, float value);
     // public System.Int32 get_length()
-    // Offset: 0x125CE40
+    // Offset: 0x1302F88
     int get_length();
     // private System.Void SetKeys(UnityEngine.Keyframe[] keys)
-    // Offset: 0x125CD98
+    // Offset: 0x1302EE0
     void SetKeys(::Array<UnityEngine::Keyframe>* keys);
     // private UnityEngine.Keyframe[] GetKeys()
-    // Offset: 0x125CD08
+    // Offset: 0x1302E50
     ::Array<UnityEngine::Keyframe>* GetKeys();
     // static public UnityEngine.AnimationCurve Linear(System.Single timeStart, System.Single valueStart, System.Single timeEnd, System.Single valueEnd)
-    // Offset: 0x125CE80
+    // Offset: 0x1302FC8
     static UnityEngine::AnimationCurve* Linear(float timeStart, float valueStart, float timeEnd, float valueEnd);
     // static public UnityEngine.AnimationCurve EaseInOut(System.Single timeStart, System.Single valueStart, System.Single timeEnd, System.Single valueEnd)
-    // Offset: 0x125D040
+    // Offset: 0x1303188
     static UnityEngine::AnimationCurve* EaseInOut(float timeStart, float valueStart, float timeEnd, float valueEnd);
     // public System.Void .ctor(UnityEngine.Keyframe[] keys)
-    // Offset: 0x125CFD0
+    // Offset: 0x1303118
     static AnimationCurve* New_ctor(::Array<UnityEngine::Keyframe>* keys);
     // protected override System.Void Finalize()
-    // Offset: 0x125CBDC
+    // Offset: 0x1302D24
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void .ctor()
-    // Offset: 0x125D174
+    // Offset: 0x13032BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AnimationCurve* New_ctor();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x125D1C4
+    // Offset: 0x130330C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public System.Boolean Equals(UnityEngine.AnimationCurve other)
-    // Offset: 0x125D2A0
+    // Offset: 0x13033E8
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.AnimationCurve other)
     bool Equals(UnityEngine::AnimationCurve* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x125D370
+    // Offset: 0x13034B8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

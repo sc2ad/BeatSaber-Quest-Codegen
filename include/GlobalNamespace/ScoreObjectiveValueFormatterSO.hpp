@@ -14,12 +14,12 @@ namespace GlobalNamespace {
   class ScoreObjectiveValueFormatterSO : public GlobalNamespace::ObjectiveValueFormatterSO {
     public:
     // public override System.String FormatValue(System.Int32 value)
-    // Offset: 0xBA149C
+    // Offset: 0xC2D854
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
     ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0xBA1500
+    // Offset: 0xC2D8B8
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.Void ObjectiveValueFormatterSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

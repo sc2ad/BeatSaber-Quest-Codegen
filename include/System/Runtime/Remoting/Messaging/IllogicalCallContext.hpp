@@ -30,31 +30,31 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x18
     ::Il2CppObject* m_HostContext;
     // private System.Collections.Hashtable get_Datastore()
-    // Offset: 0xFC6104
+    // Offset: 0x106A24C
     System::Collections::Hashtable* get_Datastore();
     // System.Object get_HostContext()
-    // Offset: 0xFC617C
+    // Offset: 0x106A2C4
     ::Il2CppObject* get_HostContext();
     // System.Void set_HostContext(System.Object value)
-    // Offset: 0xFC6184
+    // Offset: 0x106A2CC
     void set_HostContext(::Il2CppObject* value);
     // System.Boolean get_HasUserData()
-    // Offset: 0xFC618C
+    // Offset: 0x106A2D4
     bool get_HasUserData();
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0xFC2F08
+    // Offset: 0x1067050
     void FreeNamedDataSlot(::Il2CppString* name);
     // public System.Object GetData(System.String name)
-    // Offset: 0xFC61BC
+    // Offset: 0x106A304
     ::Il2CppObject* GetData(::Il2CppString* name);
     // public System.Void SetData(System.String name, System.Object data)
-    // Offset: 0xFC2EC8
+    // Offset: 0x1067010
     void SetData(::Il2CppString* name, ::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext CreateCopy()
-    // Offset: 0xFC61F4
+    // Offset: 0x106A33C
     System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0xFC6454
+    // Offset: 0x106A59C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IllogicalCallContext* New_ctor();

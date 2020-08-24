@@ -45,16 +45,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles;
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0x1922C4C
+    // Offset: 0xBDE510
     UnityEngine::Vector3 get_headPos();
     // public System.Collections.Generic.List`1<ObstacleController> get_intersectingObstacles()
-    // Offset: 0x1922C6C
+    // Offset: 0xBDE530
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_intersectingObstacles();
     // public System.Void GetObstaclesCointainingPoint(UnityEngine.Vector3 worldPos, System.Collections.Generic.List`1<ObstacleController> obstacleControllers)
-    // Offset: 0x1922CDC
+    // Offset: 0xBDE5A0
     void GetObstaclesCointainingPoint(UnityEngine::Vector3 worldPos, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* obstacleControllers);
     // public System.Void .ctor()
-    // Offset: 0x1922E94
+    // Offset: 0xBDE758
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -69,43 +69,43 @@ namespace System::Runtime::Remoting::Channels {
     // Set static field: static private System.Collections.IList oldStartModeTypes
     static void _set_oldStartModeTypes(System::Collections::IList* value);
     // static System.Runtime.Remoting.Contexts.CrossContextChannel get_CrossContextChannel()
-    // Offset: 0xFB218C
+    // Offset: 0x10562D4
     static System::Runtime::Remoting::Contexts::CrossContextChannel* get_CrossContextChannel();
     // static System.Runtime.Remoting.Messaging.IMessageSink CreateClientChannelSinkChain(System.String url, System.Object remoteChannelData, System.String objectUri)
-    // Offset: 0xFB21F4
+    // Offset: 0x105633C
     static System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(::Il2CppString* url, ::Il2CppObject* remoteChannelData, ::Il2CppString*& objectUri);
     // static System.Runtime.Remoting.Messaging.IMessageSink CreateClientChannelSinkChain(System.Runtime.Remoting.Channels.IChannelSender sender, System.String url, System.Object[] channelDataArray, System.String objectUri)
-    // Offset: 0xFB2A28
+    // Offset: 0x1056B70
     static System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(System::Runtime::Remoting::Channels::IChannelSender* sender, ::Il2CppString* url, ::Array<::Il2CppObject*>* channelDataArray, ::Il2CppString*& objectUri);
     // static public System.Void RegisterChannel(System.Runtime.Remoting.Channels.IChannel chnl)
-    // Offset: 0xFB2C60
+    // Offset: 0x1056DA8
     static void RegisterChannel(System::Runtime::Remoting::Channels::IChannel* chnl);
     // static public System.Void RegisterChannel(System.Runtime.Remoting.Channels.IChannel chnl, System.Boolean ensureSecurity)
-    // Offset: 0xFB2CC8
+    // Offset: 0x1056E10
     static void RegisterChannel(System::Runtime::Remoting::Channels::IChannel* chnl, bool ensureSecurity);
     // static System.Void RegisterChannelConfig(System.Runtime.Remoting.ChannelData channel)
-    // Offset: 0xFB350C
+    // Offset: 0x1057654
     static void RegisterChannelConfig(System::Runtime::Remoting::ChannelData* channel);
     // static private System.Object CreateProvider(System.Runtime.Remoting.ProviderData prov)
-    // Offset: 0xFB4128
+    // Offset: 0x1058270
     static ::Il2CppObject* CreateProvider(System::Runtime::Remoting::ProviderData* prov);
     // static public System.Runtime.Remoting.Messaging.IMessage SyncDispatchMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0xFB445C
+    // Offset: 0x10585A4
     static System::Runtime::Remoting::Messaging::IMessage* SyncDispatchMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // static private System.Runtime.Remoting.Messaging.ReturnMessage CheckIncomingMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0xFB4534
+    // Offset: 0x105867C
     static System::Runtime::Remoting::Messaging::ReturnMessage* CheckIncomingMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // static System.Runtime.Remoting.Messaging.IMessage CheckReturnMessage(System.Runtime.Remoting.Messaging.IMessage callMsg, System.Runtime.Remoting.Messaging.IMessage retMsg)
-    // Offset: 0xFB47C0
+    // Offset: 0x1058908
     static System::Runtime::Remoting::Messaging::IMessage* CheckReturnMessage(System::Runtime::Remoting::Messaging::IMessage* callMsg, System::Runtime::Remoting::Messaging::IMessage* retMsg);
     // static private System.Boolean IsLocalCall(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0xFB4D68
+    // Offset: 0x1058EB0
     static bool IsLocalCall(System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // static System.Object[] GetCurrentChannelInfo()
-    // Offset: 0xFB1938
+    // Offset: 0x1055A80
     static ::Array<::Il2CppObject*>* GetCurrentChannelInfo();
     // static private System.Void .cctor()
-    // Offset: 0xFB4EB4
+    // Offset: 0x1058FFC
     static void _cctor();
   }; // System.Runtime.Remoting.Channels.ChannelServices
 }

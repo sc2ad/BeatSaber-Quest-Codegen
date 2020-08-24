@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithLaunchUnblockFlowResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LaunchUnblockFlowResult*> {
     public:
     // protected Oculus.Platform.Models.LaunchUnblockFlowResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xDFF150
+    // Offset: 0xEA4298
     Oculus::Platform::Models::LaunchUnblockFlowResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xDFF0AC
+    // Offset: 0xEA41F4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithLaunchUnblockFlowResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.LaunchUnblockFlowResult GetLaunchUnblockFlowResult()
-    // Offset: 0xDFF10C
+    // Offset: 0xEA4254
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LaunchUnblockFlowResult Message::GetLaunchUnblockFlowResult()
     Oculus::Platform::Models::LaunchUnblockFlowResult* GetLaunchUnblockFlowResult();

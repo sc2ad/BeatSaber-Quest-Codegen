@@ -14,7 +14,7 @@ namespace NUnit::Framework {
   class CombinatorialAttribute : public NUnit::Framework::CombiningStrategyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFCFD2C
+    // Offset: 0x1073E74
     // Implemented from: NUnit.Framework.NUnitAttribute
     // Base method: System.Void NUnitAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

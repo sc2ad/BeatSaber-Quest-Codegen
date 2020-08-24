@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     bool enableOculusMRC;
     // public System.Void .ctor(System.Boolean enableOculusMRC)
-    // Offset: 0x1864D94
+    // Offset: 0x1910EDC
     static ExternalCamerasManager::InitData* New_ctor(bool enableOculusMRC);
   }; // ExternalCamerasManager/InitData
 }

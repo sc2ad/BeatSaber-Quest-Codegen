@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0
     class $Start$d__0;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x192A644
+    // Offset: 0xBE5F08
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x192A6EC
+    // Offset: 0xBE5FB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

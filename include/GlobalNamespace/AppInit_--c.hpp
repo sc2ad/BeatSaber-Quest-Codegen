@@ -30,13 +30,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`1<System.Boolean> <>9__7_0
     static void _set_$$9__7_0(System::Func_1<bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18EEFA4
+    // Offset: 0xB88504
     static void _cctor();
     // System.Boolean <StartCoroutine>b__7_0()
-    // Offset: 0x18EF014
+    // Offset: 0xB88574
     bool $StartCoroutine$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0x18EF00C
+    // Offset: 0xB8856C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AppInit::$$c* New_ctor();

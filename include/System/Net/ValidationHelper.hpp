@@ -24,10 +24,10 @@ namespace System::Net {
     // Set static field: static readonly System.Char[] InvalidParamChars
     static void _set_InvalidParamChars(::Array<::Il2CppChar>* value);
     // static public System.Boolean ValidateTcpPort(System.Int32 port)
-    // Offset: 0x1175954
+    // Offset: 0x1219A9C
     static bool ValidateTcpPort(int port);
     // static private System.Void .cctor()
-    // Offset: 0x1175E04
+    // Offset: 0x1219F4C
     static void _cctor();
   }; // System.Net.ValidationHelper
 }

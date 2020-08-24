@@ -26,10 +26,10 @@ namespace UnityEngine {
     // Creating value type constructor for type: DrivenRectTransformTracker
     DrivenRectTransformTracker() {}
     // public System.Void Add(UnityEngine.Object driver, UnityEngine.RectTransform rectTransform, UnityEngine.DrivenTransformProperties drivenProperties)
-    // Offset: 0x9AB384
+    // Offset: 0xA459FC
     void Add(UnityEngine::Object* driver, UnityEngine::RectTransform* rectTransform, UnityEngine::DrivenTransformProperties drivenProperties);
     // public System.Void Clear()
-    // Offset: 0x9AB388
+    // Offset: 0xA45A00
     void Clear();
   }; // UnityEngine.DrivenRectTransformTracker
 }

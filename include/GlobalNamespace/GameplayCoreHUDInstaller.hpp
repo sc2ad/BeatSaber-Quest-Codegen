@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::CoreGameHUDController* flyingHUDPrefab;
     // public System.Void ManualInstallBindings(Zenject.DiContainer container, GameplayCoreHUDInstaller/HudType hudType)
-    // Offset: 0xB3DDBC
+    // Offset: 0xB3DDD0
     void ManualInstallBindings(Zenject::DiContainer* container, GlobalNamespace::GameplayCoreHUDInstaller::HudType hudType);
     // public System.Void .ctor()
-    // Offset: 0xB3DE7C
+    // Offset: 0xB3DE90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

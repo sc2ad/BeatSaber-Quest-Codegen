@@ -23,40 +23,40 @@ namespace System::IO {
     // Offset: 0x24
     int length;
     // public System.Void .ctor(System.String s)
-    // Offset: 0xF68368
+    // Offset: 0x100E4B0
     static StringReader* New_ctor(::Il2CppString* s);
     // public override System.Void Close()
-    // Offset: 0xF68440
+    // Offset: 0x100E588
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xF68450
+    // Offset: 0x100E598
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0xF68480
+    // Offset: 0x100E5C8
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0xF684C0
+    // Offset: 0x100E608
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0xF68508
+    // Offset: 0x100E650
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public override System.String ReadToEnd()
-    // Offset: 0xF686E8
+    // Offset: 0x100E830
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
     // public override System.String ReadLine()
-    // Offset: 0xF68730
+    // Offset: 0x100E878
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();

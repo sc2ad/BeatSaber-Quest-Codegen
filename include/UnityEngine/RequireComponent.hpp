@@ -30,10 +30,10 @@ namespace UnityEngine {
     // Offset: 0x20
     System::Type* m_Type2;
     // public System.Void .ctor(System.Type requiredComponent)
-    // Offset: 0x12E8D1C
+    // Offset: 0x138FE64
     static RequireComponent* New_ctor(System::Type* requiredComponent);
     // public System.Void .ctor(System.Type requiredComponent, System.Type requiredComponent2)
-    // Offset: 0x12E8D50
+    // Offset: 0x138FE98
     static RequireComponent* New_ctor(System::Type* requiredComponent, System::Type* requiredComponent2);
   }; // UnityEngine.RequireComponent
 }

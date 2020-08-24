@@ -14,46 +14,46 @@ namespace UnityEngine::EventSystems {
   class UIBehaviour : public UnityEngine::MonoBehaviour {
     public:
     // protected System.Void Awake()
-    // Offset: 0xD60C54
+    // Offset: 0xE05D9C
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xD55BC8
+    // Offset: 0xDFAD10
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0xD60C58
+    // Offset: 0xE05DA0
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0xD55D30
+    // Offset: 0xDFAE78
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0xD60C5C
+    // Offset: 0xE05DA4
     void OnDestroy();
     // public System.Boolean IsActive()
-    // Offset: 0xD60C60
+    // Offset: 0xE05DA8
     bool IsActive();
     // protected System.Void OnRectTransformDimensionsChange()
-    // Offset: 0xD60C68
+    // Offset: 0xE05DB0
     void OnRectTransformDimensionsChange();
     // protected System.Void OnBeforeTransformParentChanged()
-    // Offset: 0xD60C6C
+    // Offset: 0xE05DB4
     void OnBeforeTransformParentChanged();
     // protected System.Void OnTransformParentChanged()
-    // Offset: 0xD56FD8
+    // Offset: 0xDFC120
     void OnTransformParentChanged();
     // protected System.Void OnDidApplyAnimationProperties()
-    // Offset: 0xD60C70
+    // Offset: 0xE05DB8
     void OnDidApplyAnimationProperties();
     // protected System.Void OnCanvasGroupChanged()
-    // Offset: 0xD60C74
+    // Offset: 0xE05DBC
     void OnCanvasGroupChanged();
     // protected System.Void OnCanvasHierarchyChanged()
-    // Offset: 0xD56FC8
+    // Offset: 0xDFC110
     void OnCanvasHierarchyChanged();
     // public System.Boolean IsDestroyed()
-    // Offset: 0xD60C78
+    // Offset: 0xE05DC0
     bool IsDestroyed();
     // protected System.Void .ctor()
-    // Offset: 0xD55900
+    // Offset: 0xDFAA48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

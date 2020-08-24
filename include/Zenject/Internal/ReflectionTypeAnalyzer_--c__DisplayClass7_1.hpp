@@ -29,10 +29,10 @@ namespace Zenject::Internal {
     // Offset: 0x10
     System::Reflection::MethodInfo* x;
     // System.Boolean <GetMethodInfos>b__1(System.Type a)
-    // Offset: 0xE9C6B4
+    // Offset: 0xF417FC
     bool $GetMethodInfos$b__1(System::Type* a);
     // public System.Void .ctor()
-    // Offset: 0xE9C01C
+    // Offset: 0xF41164
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionTypeAnalyzer::$$c__DisplayClass7_1* New_ctor();

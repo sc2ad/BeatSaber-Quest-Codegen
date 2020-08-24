@@ -20,19 +20,19 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     Oculus::Platform::PeerConnectionState State;
     // public System.Void .ctor(System.UInt64 id, Oculus.Platform.PeerConnectionState state)
-    // Offset: 0xE018E8
+    // Offset: 0xEA6A30
     static NetworkingPeer* New_ctor(uint64_t id, Oculus::Platform::PeerConnectionState state);
     // public System.UInt64 get_ID()
-    // Offset: 0xE05C84
+    // Offset: 0xEAADCC
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0xE05C8C
+    // Offset: 0xEAADD4
     void set_ID(uint64_t value);
     // public Oculus.Platform.PeerConnectionState get_State()
-    // Offset: 0xE05C94
+    // Offset: 0xEAADDC
     Oculus::Platform::PeerConnectionState get_State();
     // private System.Void set_State(Oculus.Platform.PeerConnectionState value)
-    // Offset: 0xE05C9C
+    // Offset: 0xEAADE4
     void set_State(Oculus::Platform::PeerConnectionState value);
   }; // Oculus.Platform.Models.NetworkingPeer
 }

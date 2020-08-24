@@ -50,30 +50,30 @@ namespace GlobalNamespace {
     // Offset: 0x80
     System::Action* didPressTutorialButtonEvent;
     // public System.Void add_didPressTutorialButtonEvent(System.Action value)
-    // Offset: 0xB44D10
+    // Offset: 0xB44D24
     void add_didPressTutorialButtonEvent(System::Action* value);
     // public System.Void remove_didPressTutorialButtonEvent(System.Action value)
-    // Offset: 0xB44DB4
+    // Offset: 0xB44DC8
     void remove_didPressTutorialButtonEvent(System::Action* value);
     // public System.Void Setup(System.Boolean showTutorialButton)
-    // Offset: 0xB44E58
+    // Offset: 0xB44E6C
     void Setup(bool showTutorialButton);
     // private System.Void HandleSelectionSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0xB45100
+    // Offset: 0xB45114
     void HandleSelectionSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private System.Void SetActivePanel(System.Int32 panelIdx)
-    // Offset: 0xB45080
+    // Offset: 0xB45094
     void SetActivePanel(int panelIdx);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0xB45110
+    // Offset: 0xB45124
     void $DidActivate$b__7_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB44E94
+    // Offset: 0xB44EA8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB45108
+    // Offset: 0xB4511C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

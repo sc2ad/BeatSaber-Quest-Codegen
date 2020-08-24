@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class SourceTemplateAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18B46A4
+    // Offset: 0x19617EC
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

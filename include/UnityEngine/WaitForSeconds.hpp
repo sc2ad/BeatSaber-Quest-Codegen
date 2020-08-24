@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x10
     float m_Seconds;
     // public System.Void .ctor(System.Single seconds)
-    // Offset: 0x12F7E70
+    // Offset: 0x139EFB8
     static WaitForSeconds* New_ctor(float seconds);
   }; // UnityEngine.WaitForSeconds
 }

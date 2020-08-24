@@ -63,28 +63,28 @@ namespace UnityEngine::EventSystems {
     // Set static field: static protected System.Int32 kNoEventMaskSet
     static void _set_kNoEventMaskSet(int value);
     // public System.Int32 get_depth()
-    // Offset: 0xD5ADE0
+    // Offset: 0xDFFF28
     int get_depth();
     // public System.Int32 get_finalEventMask()
-    // Offset: 0xD5AC4C
+    // Offset: 0xDFFD94
     int get_finalEventMask();
     // public UnityEngine.LayerMask get_eventMask()
-    // Offset: 0xD5AEA0
+    // Offset: 0xDFFFE8
     UnityEngine::LayerMask get_eventMask();
     // public System.Void set_eventMask(UnityEngine.LayerMask value)
-    // Offset: 0xD5AEA8
+    // Offset: 0xDFFFF0
     void set_eventMask(UnityEngine::LayerMask value);
     // public System.Int32 get_maxRayIntersections()
-    // Offset: 0xD5AEB0
+    // Offset: 0xDFFFF8
     int get_maxRayIntersections();
     // public System.Void set_maxRayIntersections(System.Int32 value)
-    // Offset: 0xD5AEB8
+    // Offset: 0xE00000
     void set_maxRayIntersections(int value);
     // protected System.Boolean ComputeRayAndDistance(UnityEngine.EventSystems.PointerEventData eventData, UnityEngine.Ray ray, System.Int32 eventDisplayIndex, System.Single distanceToClipPlane)
-    // Offset: 0xD5A8F0
+    // Offset: 0xDFFA38
     bool ComputeRayAndDistance(UnityEngine::EventSystems::PointerEventData* eventData, UnityEngine::Ray& ray, int& eventDisplayIndex, float& distanceToClipPlane);
     // protected System.Void .ctor()
-    // Offset: 0xD5A350
+    // Offset: 0xDFF498
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -95,12 +95,12 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static PhysicsRaycaster* New_ctor();
     // public override UnityEngine.Camera get_eventCamera()
-    // Offset: 0xD5AD20
+    // Offset: 0xDFFE68
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: UnityEngine.Camera BaseRaycaster::get_eventCamera()
     UnityEngine::Camera* get_eventCamera();
     // public override System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
-    // Offset: 0xD5AEC0
+    // Offset: 0xE00008
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);

@@ -25,7 +25,7 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: AxisDirection
     AxisDirection(UnityEngine::Vector3 direction_ = {}, UnityEngine::Vector3 axis_ = {}, float dot_ = {}) : direction{direction_}, axis{axis_}, dot{dot_} {}
     // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
-    // Offset: 0x9AC3F0
+    // Offset: 0xA46A68
     static IKSolverLimb::AxisDirection* New_ctor(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis);
   }; // RootMotion.FinalIK.IKSolverLimb/AxisDirection
 }

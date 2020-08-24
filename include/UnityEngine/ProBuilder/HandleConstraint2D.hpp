@@ -29,41 +29,41 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public readonly UnityEngine.ProBuilder.HandleConstraint2D None
     static void _set_None(UnityEngine::ProBuilder::HandleConstraint2D* value);
     // public System.Void .ctor(System.Int32 x, System.Int32 y)
-    // Offset: 0xEF541C
+    // Offset: 0xF99564
     static HandleConstraint2D* New_ctor(int x, int y);
     // public UnityEngine.ProBuilder.HandleConstraint2D Inverse()
-    // Offset: 0xEF5454
+    // Offset: 0xF9959C
     UnityEngine::ProBuilder::HandleConstraint2D* Inverse();
     // public UnityEngine.Vector2 Mask(UnityEngine.Vector2 v)
-    // Offset: 0xEF54D4
+    // Offset: 0xF9961C
     UnityEngine::Vector2 Mask(UnityEngine::Vector2 v);
     // public UnityEngine.Vector2 InverseMask(UnityEngine.Vector2 v)
-    // Offset: 0xEF54EC
+    // Offset: 0xF99634
     UnityEngine::Vector2 InverseMask(UnityEngine::Vector2 v);
     // static private System.Void .cctor()
-    // Offset: 0xEF5830
+    // Offset: 0xF99978
     static void _cctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEF559C
+    // Offset: 0xF996E4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0xEF55A4
+    // Offset: 0xF996EC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.String ToString()
-    // Offset: 0xEF5634
+    // Offset: 0xF9977C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.HandleConstraint2D
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.HandleConstraint2D a, UnityEngine.ProBuilder.HandleConstraint2D b)
-  // Offset: 0xEF5514
+  // Offset: 0xF9965C
   bool operator ==(UnityEngine::ProBuilder::HandleConstraint2D* a, UnityEngine::ProBuilder::HandleConstraint2D& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.HandleConstraint2D a, UnityEngine.ProBuilder.HandleConstraint2D b)
-  // Offset: 0xEF5558
+  // Offset: 0xF996A0
   bool operator !=(UnityEngine::ProBuilder::HandleConstraint2D* a, UnityEngine::ProBuilder::HandleConstraint2D& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

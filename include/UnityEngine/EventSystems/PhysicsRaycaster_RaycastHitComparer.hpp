@@ -22,15 +22,15 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.PhysicsRaycaster/RaycastHitComparer instance
     static void _set_instance(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0xD5B324
+    // Offset: 0xE0046C
     static void _cctor();
     // public System.Int32 Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
-    // Offset: 0xD5B2D8
+    // Offset: 0xE00420
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
     int Compare(UnityEngine::RaycastHit x, UnityEngine::RaycastHit y);
     // public System.Void .ctor()
-    // Offset: 0xD5B31C
+    // Offset: 0xE00464
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PhysicsRaycaster::RaycastHitComparer* New_ctor();

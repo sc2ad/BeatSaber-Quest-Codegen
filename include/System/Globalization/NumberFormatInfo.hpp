@@ -147,140 +147,140 @@ namespace System::Globalization {
     // Set static field: static private System.Globalization.NumberStyles InvalidNumberStyles
     static void _set_InvalidNumberStyles(System::Globalization::NumberStyles value);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x10816D8
+    // Offset: 0x1123820
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnDeserializing(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x1081768
+    // Offset: 0x11238B0
     void OnDeserializing(System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x108176C
+    // Offset: 0x11238B4
     void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx);
     // static private System.Void VerifyGroupSeparator(System.String groupSep, System.String propertyName)
-    // Offset: 0x1081770
+    // Offset: 0x11238B8
     static void VerifyGroupSeparator(::Il2CppString* groupSep, ::Il2CppString* propertyName);
     // System.Void .ctor(System.Globalization.CultureData cultureData)
-    // Offset: 0x1081170
+    // Offset: 0x11232B8
     static NumberFormatInfo* New_ctor(System::Globalization::CultureData* cultureData);
     // private System.Void VerifyWritable()
-    // Offset: 0x1081814
+    // Offset: 0x112395C
     void VerifyWritable();
     // static public System.Globalization.NumberFormatInfo get_InvariantInfo()
-    // Offset: 0x10818AC
+    // Offset: 0x11239F4
     static System::Globalization::NumberFormatInfo* get_InvariantInfo();
     // static public System.Globalization.NumberFormatInfo GetInstance(System.IFormatProvider formatProvider)
-    // Offset: 0x1081A2C
+    // Offset: 0x1123B74
     static System::Globalization::NumberFormatInfo* GetInstance(System::IFormatProvider* formatProvider);
     // public System.Int32 get_CurrencyDecimalDigits()
-    // Offset: 0x1081D30
+    // Offset: 0x1123E78
     int get_CurrencyDecimalDigits();
     // public System.String get_CurrencyDecimalSeparator()
-    // Offset: 0x1081D38
+    // Offset: 0x1123E80
     ::Il2CppString* get_CurrencyDecimalSeparator();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x1081D40
+    // Offset: 0x1123E88
     bool get_IsReadOnly();
     // public System.Int32[] get_CurrencyGroupSizes()
-    // Offset: 0x1081D48
+    // Offset: 0x1123E90
     ::Array<int>* get_CurrencyGroupSizes();
     // public System.Int32[] get_NumberGroupSizes()
-    // Offset: 0x1081DC8
+    // Offset: 0x1123F10
     ::Array<int>* get_NumberGroupSizes();
     // public System.Int32[] get_PercentGroupSizes()
-    // Offset: 0x1081E48
+    // Offset: 0x1123F90
     ::Array<int>* get_PercentGroupSizes();
     // public System.String get_CurrencyGroupSeparator()
-    // Offset: 0x1081EC8
+    // Offset: 0x1124010
     ::Il2CppString* get_CurrencyGroupSeparator();
     // public System.Void set_CurrencyGroupSeparator(System.String value)
-    // Offset: 0x1081ED0
+    // Offset: 0x1124018
     void set_CurrencyGroupSeparator(::Il2CppString* value);
     // public System.String get_CurrencySymbol()
-    // Offset: 0x1081F44
+    // Offset: 0x112408C
     ::Il2CppString* get_CurrencySymbol();
     // static public System.Globalization.NumberFormatInfo get_CurrentInfo()
-    // Offset: 0x1081BD0
+    // Offset: 0x1123D18
     static System::Globalization::NumberFormatInfo* get_CurrentInfo();
     // public System.String get_NaNSymbol()
-    // Offset: 0x1081F4C
+    // Offset: 0x1124094
     ::Il2CppString* get_NaNSymbol();
     // public System.Int32 get_CurrencyNegativePattern()
-    // Offset: 0x1081F54
+    // Offset: 0x112409C
     int get_CurrencyNegativePattern();
     // public System.Int32 get_NumberNegativePattern()
-    // Offset: 0x1081F5C
+    // Offset: 0x11240A4
     int get_NumberNegativePattern();
     // public System.Int32 get_PercentPositivePattern()
-    // Offset: 0x1081F64
+    // Offset: 0x11240AC
     int get_PercentPositivePattern();
     // public System.Int32 get_PercentNegativePattern()
-    // Offset: 0x1081F6C
+    // Offset: 0x11240B4
     int get_PercentNegativePattern();
     // public System.String get_NegativeInfinitySymbol()
-    // Offset: 0x1081F74
+    // Offset: 0x11240BC
     ::Il2CppString* get_NegativeInfinitySymbol();
     // public System.String get_NegativeSign()
-    // Offset: 0x1081F7C
+    // Offset: 0x11240C4
     ::Il2CppString* get_NegativeSign();
     // public System.Int32 get_NumberDecimalDigits()
-    // Offset: 0x1081F84
+    // Offset: 0x11240CC
     int get_NumberDecimalDigits();
     // public System.String get_NumberDecimalSeparator()
-    // Offset: 0x1081F8C
+    // Offset: 0x11240D4
     ::Il2CppString* get_NumberDecimalSeparator();
     // public System.String get_NumberGroupSeparator()
-    // Offset: 0x1081F94
+    // Offset: 0x11240DC
     ::Il2CppString* get_NumberGroupSeparator();
     // public System.Void set_NumberGroupSeparator(System.String value)
-    // Offset: 0x1081F9C
+    // Offset: 0x11240E4
     void set_NumberGroupSeparator(::Il2CppString* value);
     // public System.Int32 get_CurrencyPositivePattern()
-    // Offset: 0x1082010
+    // Offset: 0x1124158
     int get_CurrencyPositivePattern();
     // public System.String get_PositiveInfinitySymbol()
-    // Offset: 0x1082018
+    // Offset: 0x1124160
     ::Il2CppString* get_PositiveInfinitySymbol();
     // public System.String get_PositiveSign()
-    // Offset: 0x1082020
+    // Offset: 0x1124168
     ::Il2CppString* get_PositiveSign();
     // public System.Int32 get_PercentDecimalDigits()
-    // Offset: 0x1082028
+    // Offset: 0x1124170
     int get_PercentDecimalDigits();
     // public System.String get_PercentDecimalSeparator()
-    // Offset: 0x1082030
+    // Offset: 0x1124178
     ::Il2CppString* get_PercentDecimalSeparator();
     // public System.String get_PercentGroupSeparator()
-    // Offset: 0x1082038
+    // Offset: 0x1124180
     ::Il2CppString* get_PercentGroupSeparator();
     // public System.Void set_PercentGroupSeparator(System.String value)
-    // Offset: 0x1082040
+    // Offset: 0x1124188
     void set_PercentGroupSeparator(::Il2CppString* value);
     // public System.String get_PercentSymbol()
-    // Offset: 0x10820B4
+    // Offset: 0x11241FC
     ::Il2CppString* get_PercentSymbol();
     // public System.String get_PerMilleSymbol()
-    // Offset: 0x10820BC
+    // Offset: 0x1124204
     ::Il2CppString* get_PerMilleSymbol();
     // static public System.Globalization.NumberFormatInfo ReadOnly(System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1081960
+    // Offset: 0x1123AA8
     static System::Globalization::NumberFormatInfo* ReadOnly(System::Globalization::NumberFormatInfo* nfi);
     // static System.Void ValidateParseStyleInteger(System.Globalization.NumberStyles style)
-    // Offset: 0x1082160
+    // Offset: 0x11242A8
     static void ValidateParseStyleInteger(System::Globalization::NumberStyles style);
     // static System.Void ValidateParseStyleFloatingPoint(System.Globalization.NumberStyles style)
-    // Offset: 0x1082254
+    // Offset: 0x112439C
     static void ValidateParseStyleFloatingPoint(System::Globalization::NumberStyles style);
     // public System.Void .ctor()
-    // Offset: 0x1081168
+    // Offset: 0x11232B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NumberFormatInfo* New_ctor();
     // public System.Object Clone()
-    // Offset: 0x1081CBC
+    // Offset: 0x1123E04
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
     // public System.Object GetFormat(System.Type formatType)
-    // Offset: 0x10820C4
+    // Offset: 0x112420C
     // Implemented from: System.IFormatProvider
     // Base method: System.Object IFormatProvider::GetFormat(System.Type formatType)
     ::Il2CppObject* GetFormat(System::Type* formatType);

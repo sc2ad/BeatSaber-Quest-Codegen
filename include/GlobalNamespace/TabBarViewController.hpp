@@ -48,38 +48,38 @@ namespace GlobalNamespace {
     // Offset: 0x88
     bool shouldReloadData;
     // public System.Void set_sizeToFit(System.Boolean value)
-    // Offset: 0x190EFD0
+    // Offset: 0xBA9530
     void set_sizeToFit(bool value);
     // public System.Boolean get_sizeToFit()
-    // Offset: 0x190EFF0
+    // Offset: 0xBA9550
     bool get_sizeToFit();
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x190F00C
+    // Offset: 0xBA956C
     int get_selectedCellNumber();
     // public System.Void Setup(TabBarViewController/TabBarItem[] items)
-    // Offset: 0x18FD5AC
+    // Offset: 0xB97B0C
     void Setup(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items);
     // public System.Void SelectItem(System.Int32 index)
-    // Offset: 0x190F028
+    // Offset: 0xBA9588
     void SelectItem(int index);
     // public System.Void Clear()
-    // Offset: 0x18FD8F8
+    // Offset: 0xB97E58
     void Clear();
     // private System.Void HandleDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x190F1F8
+    // Offset: 0xBA9758
     void HandleDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0x190F044
+    // Offset: 0xBA95A4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // protected override System.Void OnDestroy()
-    // Offset: 0x190F114
+    // Offset: 0xBA9674
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x190F24C
+    // Offset: 0xBA97AC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -17,16 +17,16 @@ namespace UnityEngine::Networking {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // private System.Void Release()
-    // Offset: 0x189BCE0
+    // Offset: 0x1947E28
     void Release();
     // protected System.Boolean ValidateCertificate(System.Byte[] certificateData)
-    // Offset: 0x189BD20
+    // Offset: 0x1947E68
     bool ValidateCertificate(::Array<uint8_t>* certificateData);
     // System.Boolean ValidateCertificateNative(System.Byte[] certificateData)
-    // Offset: 0x189BD28
+    // Offset: 0x1947E70
     bool ValidateCertificateNative(::Array<uint8_t>* certificateData);
     // public System.Void Dispose()
-    // Offset: 0x189BD34
+    // Offset: 0x1947E7C
     void Dispose();
   }; // UnityEngine.Networking.CertificateHandler
 }

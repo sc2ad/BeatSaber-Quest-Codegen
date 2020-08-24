@@ -30,36 +30,36 @@ namespace UnityEngine {
     // Offset: 0x18
     System::Action_1<UnityEngine::AsyncOperation*>* m_completeCallback;
     // static private System.Void InternalDestroy(System.IntPtr ptr)
-    // Offset: 0x125FA00
+    // Offset: 0x1305B48
     static void InternalDestroy(System::IntPtr ptr);
     // public System.Boolean get_isDone()
-    // Offset: 0x125FA40
+    // Offset: 0x1305B88
     bool get_isDone();
     // public System.Single get_progress()
-    // Offset: 0x125FA80
+    // Offset: 0x1305BC8
     float get_progress();
     // public System.Void set_priority(System.Int32 value)
-    // Offset: 0x125FAC0
+    // Offset: 0x1305C08
     void set_priority(int value);
     // public System.Void set_allowSceneActivation(System.Boolean value)
-    // Offset: 0x125FB10
+    // Offset: 0x1305C58
     void set_allowSceneActivation(bool value);
     // System.Void InvokeCompletionEvent()
-    // Offset: 0x125FBFC
+    // Offset: 0x1305D44
     void InvokeCompletionEvent();
     // public System.Void add_completed(System.Action`1<UnityEngine.AsyncOperation> value)
-    // Offset: 0x125FC74
+    // Offset: 0x1305DBC
     void add_completed(System::Action_1<UnityEngine::AsyncOperation*>* value);
     // public System.Void remove_completed(System.Action`1<UnityEngine.AsyncOperation> value)
-    // Offset: 0x125FD5C
+    // Offset: 0x1305EA4
     void remove_completed(System::Action_1<UnityEngine::AsyncOperation*>* value);
     // protected override System.Void Finalize()
-    // Offset: 0x125FB60
+    // Offset: 0x1305CA8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void .ctor()
-    // Offset: 0x125FDEC
+    // Offset: 0x1305F34
     // Implemented from: UnityEngine.YieldInstruction
     // Base method: System.Void YieldInstruction::.ctor()
     // Base method: System.Void Object::.ctor()

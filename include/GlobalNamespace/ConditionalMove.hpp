@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Offset: 0x30
     bool activateOnFalse;
     // protected System.Void Awake()
-    // Offset: 0x1926828
+    // Offset: 0xBE20EC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x192694C
+    // Offset: 0xBE2210
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

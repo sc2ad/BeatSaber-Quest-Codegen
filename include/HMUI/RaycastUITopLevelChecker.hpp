@@ -35,13 +35,13 @@ namespace HMUI {
     // Offset: 0x20
     UnityEngine::Canvas* canvas;
     // protected System.Void Awake()
-    // Offset: 0x103D34C
+    // Offset: 0x10E0494
     void Awake();
     // public System.Boolean get_isOnTop()
-    // Offset: 0x103D3D4
+    // Offset: 0x10E051C
     bool get_isOnTop();
     // public System.Void .ctor()
-    // Offset: 0x103D5F4
+    // Offset: 0x10E073C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

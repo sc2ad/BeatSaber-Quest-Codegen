@@ -15,10 +15,10 @@ namespace System::Runtime::Serialization {
     // Offset: 0x10
     ::Il2CppString* m_typeName;
     // System.Void .ctor(System.String typeName)
-    // Offset: 0xF5D488
+    // Offset: 0x10035D0
     static TypeLoadExceptionHolder* New_ctor(::Il2CppString* typeName);
     // System.String get_TypeName()
-    // Offset: 0xF5D4BC
+    // Offset: 0x1003604
     ::Il2CppString* get_TypeName();
   }; // System.Runtime.Serialization.TypeLoadExceptionHolder
 }

@@ -23,19 +23,19 @@ namespace UnityEngine {
   class SpriteRenderer : public UnityEngine::Renderer {
     public:
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x12EC1FC
+    // Offset: 0x1393344
     void set_sprite(UnityEngine::Sprite* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x12EC24C
+    // Offset: 0x1393394
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x12EC2F8
+    // Offset: 0x1393440
     void set_color(UnityEngine::Color value);
     // private System.Void get_color_Injected(UnityEngine.Color ret)
-    // Offset: 0x12EC2A8
+    // Offset: 0x13933F0
     void get_color_Injected(UnityEngine::Color& ret);
     // private System.Void set_color_Injected(UnityEngine.Color value)
-    // Offset: 0x12EC350
+    // Offset: 0x1393498
     void set_color_Injected(UnityEngine::Color& value);
   }; // UnityEngine.SpriteRenderer
 }

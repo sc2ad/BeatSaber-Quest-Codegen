@@ -42,62 +42,62 @@ namespace UnityEngine::Timeline {
   class BasicPlayableBehaviour : public UnityEngine::ScriptableObject, public UnityEngine::Playables::IPlayableAsset, public UnityEngine::Playables::IPlayableBehaviour {
     public:
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0xFF1DF0
+    // Offset: 0x1095F38
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
-    // Offset: 0xFF1D80
+    // Offset: 0x1095EC8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static BasicPlayableBehaviour* New_ctor();
     // public System.Double get_duration()
-    // Offset: 0xFF1D88
+    // Offset: 0x1095ED0
     // Implemented from: UnityEngine.Playables.IPlayableAsset
     // Base method: System.Double IPlayableAsset::get_duration()
     double get_duration();
     // public System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0xFF1E58
+    // Offset: 0x1095FA0
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(UnityEngine::Playables::Playable playable);
     // public System.Void OnGraphStop(UnityEngine.Playables.Playable playable)
-    // Offset: 0xFF1E5C
+    // Offset: 0x1095FA4
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnGraphStop(UnityEngine.Playables.Playable playable)
     void OnGraphStop(UnityEngine::Playables::Playable playable);
     // public System.Void OnPlayableCreate(UnityEngine.Playables.Playable playable)
-    // Offset: 0xFF1E60
+    // Offset: 0x1095FA8
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnPlayableCreate(UnityEngine.Playables.Playable playable)
     void OnPlayableCreate(UnityEngine::Playables::Playable playable);
     // public System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0xFF1E64
+    // Offset: 0x1095FAC
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0xFF1E68
+    // Offset: 0x1095FB0
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0xFF1E6C
+    // Offset: 0x1095FB4
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0xFF1E70
+    // Offset: 0x1095FB8
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0xFF1E74
+    // Offset: 0x1095FBC
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
-    // Offset: 0xFF1E78
+    // Offset: 0x1095FC0
     // Implemented from: UnityEngine.Playables.IPlayableAsset
     // Base method: UnityEngine.Playables.Playable IPlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* owner);

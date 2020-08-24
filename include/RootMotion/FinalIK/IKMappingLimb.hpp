@@ -65,42 +65,42 @@ namespace RootMotion::FinalIK {
     // Offset: 0x58
     RootMotion::FinalIK::IKMapping::BoneMap* boneMap3;
     // public RootMotion.FinalIK.IKMapping/BoneMap GetBoneMap(RootMotion.FinalIK.IKMappingLimb/BoneMapType boneMap)
-    // Offset: 0x12DEC40
+    // Offset: 0x1386D88
     RootMotion::FinalIK::IKMapping::BoneMap* GetBoneMap(RootMotion::FinalIK::IKMappingLimb::BoneMapType boneMap);
     // public System.Void SetLimbOrientation(UnityEngine.Vector3 upper, UnityEngine.Vector3 lower)
-    // Offset: 0x12DED14
+    // Offset: 0x1386E5C
     void SetLimbOrientation(UnityEngine::Vector3 upper, UnityEngine::Vector3 lower);
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform parentBone)
-    // Offset: 0x12DF1A0
+    // Offset: 0x13872E8
     static IKMappingLimb* New_ctor(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, UnityEngine::Transform* parentBone);
     // public System.Void SetBones(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform parentBone)
-    // Offset: 0x12DF310
+    // Offset: 0x1387458
     void SetBones(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, UnityEngine::Transform* parentBone);
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x12DF374
+    // Offset: 0x13874BC
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x12DF41C
+    // Offset: 0x1387564
     void FixTransforms();
     // public System.Void ReadPose()
-    // Offset: 0x12DF79C
+    // Offset: 0x13878E4
     void ReadPose();
     // public System.Void WritePose(RootMotion.FinalIK.IKSolverFullBody solver, System.Boolean fullBody)
-    // Offset: 0x12DF854
+    // Offset: 0x138799C
     void WritePose(RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
     // public override System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, System.String message)
-    // Offset: 0x12DEBBC
+    // Offset: 0x1386D04
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Boolean IKMapping::IsValid(RootMotion.FinalIK.IKSolver solver, System.String message)
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void .ctor()
-    // Offset: 0x12DF068
+    // Offset: 0x13871B0
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::.ctor()
     // Base method: System.Void Object::.ctor()
     static IKMappingLimb* New_ctor();
     // public override System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x12DF4D4
+    // Offset: 0x138761C
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);

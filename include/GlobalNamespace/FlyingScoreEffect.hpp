@@ -59,24 +59,24 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     GlobalNamespace::NoteCutInfo* noteCutInfo;
     // public System.Void InitAndPresent(NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
-    // Offset: 0x1934C80
+    // Offset: 0xBF0544
     void InitAndPresent(GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
     // protected System.Void OnDisable()
-    // Offset: 0x1934E58
+    // Offset: 0xBF071C
     void OnDisable();
     // private System.Void HandleSaberSwingRatingCounterDidChangeEvent(SaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0x1934FA4
+    // Offset: 0xBF0868
     void HandleSaberSwingRatingCounterDidChangeEvent(GlobalNamespace::SaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
-    // Offset: 0x1934E30
+    // Offset: 0xBF06F4
     ::Il2CppString* GetScoreText(int score);
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x1934EF8
+    // Offset: 0xBF07BC
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0x1935040
+    // Offset: 0xBF0904
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

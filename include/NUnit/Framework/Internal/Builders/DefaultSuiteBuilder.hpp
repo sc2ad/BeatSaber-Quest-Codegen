@@ -42,26 +42,26 @@ namespace NUnit::Framework::Internal::Builders {
     // Offset: 0x10
     NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder* defaultBuilder;
     // private NUnit.Framework.Internal.TestSuite BuildMultipleFixtures(NUnit.Framework.Interfaces.ITypeInfo typeInfo, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> fixtures)
-    // Offset: 0xFDF750
+    // Offset: 0x1083898
     NUnit::Framework::Internal::TestSuite* BuildMultipleFixtures(NUnit::Framework::Interfaces::ITypeInfo* typeInfo, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* fixtures);
     // private NUnit.Framework.Interfaces.IFixtureBuilder[] GetFixtureBuilderAttributes(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0xFDF3BC
+    // Offset: 0x1083504
     ::Array<NUnit::Framework::Interfaces::IFixtureBuilder*>* GetFixtureBuilderAttributes(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private System.Boolean HasArguments(NUnit.Framework.Interfaces.IFixtureBuilder attr)
-    // Offset: 0xFDFB24
+    // Offset: 0x1083C6C
     bool HasArguments(NUnit::Framework::Interfaces::IFixtureBuilder* attr);
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0xFDEA08
+    // Offset: 0x1082B50
     // Implemented from: NUnit.Framework.Interfaces.ISuiteBuilder
     // Base method: System.Boolean ISuiteBuilder::CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     bool CanBuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0xFDECDC
+    // Offset: 0x1082E24
     // Implemented from: NUnit.Framework.Interfaces.ISuiteBuilder
     // Base method: NUnit.Framework.Internal.TestSuite ISuiteBuilder::BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public System.Void .ctor()
-    // Offset: 0xFCDE7C
+    // Offset: 0x1071FC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DefaultSuiteBuilder* New_ctor();

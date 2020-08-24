@@ -34,34 +34,34 @@ namespace System {
     // Creating value type constructor for type: SorterGenericArray
     SorterGenericArray(System::Array* keys_ = {}, System::Array* items_ = {}, System::Collections::IComparer* comparer_ = {}) : keys{keys_}, items{items_}, comparer{comparer_} {}
     // System.Void .ctor(System.Array keys, System.Array items, System.Collections.IComparer comparer)
-    // Offset: 0x9ABA40
+    // Offset: 0xA460B8
     static Array::SorterGenericArray* New_ctor(System::Array* keys, System::Array* items, System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
-    // Offset: 0x9ABA48
+    // Offset: 0xA460C0
     void SwapIfGreaterWithItems(int a, int b);
     // private System.Void Swap(System.Int32 i, System.Int32 j)
-    // Offset: 0x9ABA50
+    // Offset: 0xA460C8
     void Swap(int i, int j);
     // System.Void Sort(System.Int32 left, System.Int32 length)
-    // Offset: 0x9ABA58
+    // Offset: 0xA460D0
     void Sort(int left, int length);
     // private System.Void IntrospectiveSort(System.Int32 left, System.Int32 length)
-    // Offset: 0x9ABA60
+    // Offset: 0xA460D8
     void IntrospectiveSort(int left, int length);
     // private System.Void IntroSort(System.Int32 lo, System.Int32 hi, System.Int32 depthLimit)
-    // Offset: 0x9ABA68
+    // Offset: 0xA460E0
     void IntroSort(int lo, int hi, int depthLimit);
     // private System.Int32 PickPivotAndPartition(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x9ABA70
+    // Offset: 0xA460E8
     int PickPivotAndPartition(int lo, int hi);
     // private System.Void Heapsort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x9ABA78
+    // Offset: 0xA460F0
     void Heapsort(int lo, int hi);
     // private System.Void DownHeap(System.Int32 i, System.Int32 n, System.Int32 lo)
-    // Offset: 0x9ABA80
+    // Offset: 0xA460F8
     void DownHeap(int i, int n, int lo);
     // private System.Void InsertionSort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x9ABA88
+    // Offset: 0xA46100
     void InsertionSort(int lo, int hi);
   }; // System.Array/SorterGenericArray
 }

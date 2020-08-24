@@ -21,17 +21,17 @@ namespace GlobalNamespace {
   class OculusRichPresencePlatformHandler : public ::Il2CppObject, public GlobalNamespace::IRichPresencePlatformHandler {
     public:
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0xBB1CA0
+    // Offset: 0xC3E058
     // Implemented from: IRichPresencePlatformHandler
     // Base method: System.Void IRichPresencePlatformHandler::SetPresence(IRichPresenceData richPresenceData)
     void SetPresence(GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
-    // Offset: 0xBB1D88
+    // Offset: 0xC3E140
     // Implemented from: IRichPresencePlatformHandler
     // Base method: System.Void IRichPresencePlatformHandler::Clear()
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0xBB1D90
+    // Offset: 0xC3E148
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusRichPresencePlatformHandler* New_ctor();

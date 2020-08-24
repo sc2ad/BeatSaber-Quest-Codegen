@@ -31,7 +31,7 @@ namespace System::Threading {
     // Creating value type constructor for type: CancellationCallbackCoreWorkArguments
     CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* m_currArrayFragment_ = {}, int m_currArrayIndex_ = {}) : m_currArrayFragment{m_currArrayFragment_}, m_currArrayIndex{m_currArrayIndex_} {}
     // public System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> currArrayFragment, System.Int32 currArrayIndex)
-    // Offset: 0x9AD430
+    // Offset: 0xA47AA8
     static CancellationCallbackCoreWorkArguments* New_ctor(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex);
   }; // System.Threading.CancellationCallbackCoreWorkArguments
 }

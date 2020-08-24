@@ -34,16 +34,16 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: ScriptPlayableOutput
     ScriptPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Playables.ScriptPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name)
-    // Offset: 0x1376AC8
+    // Offset: 0x141DC10
     static UnityEngine::Playables::ScriptPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0x9AE910
+    // Offset: 0xA48F88
     static ScriptPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Playables.ScriptPlayableOutput get_Null()
-    // Offset: 0x1376B48
+    // Offset: 0x141DC90
     static UnityEngine::Playables::ScriptPlayableOutput get_Null();
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0x9AE918
+    // Offset: 0xA48F90
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();

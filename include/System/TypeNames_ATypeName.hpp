@@ -21,22 +21,22 @@ namespace System {
     // Base method: System.String TypeName::get_DisplayName()
     ::Il2CppString* get_DisplayName();
     // public System.Boolean Equals(System.TypeName other)
-    // Offset: 0x16EFFF8
+    // Offset: 0x179B140
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(System.TypeName other)
     bool Equals(System::TypeName* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16F00E4
+    // Offset: 0x179B22C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x16F0110
+    // Offset: 0x179B258
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // protected System.Void .ctor()
-    // Offset: 0x16EECFC
+    // Offset: 0x1799E44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeNames::ATypeName* New_ctor();

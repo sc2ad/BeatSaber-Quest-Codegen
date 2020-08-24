@@ -54,16 +54,16 @@ namespace Zenject {
     // Offset: 0x18
     bool hasInitialized;
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IInitializable> initializables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0xE96CAC
+    // Offset: 0xF3BDF4
     static InitializableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IInitializable*>* initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities);
     // public System.Void Add(Zenject.IInitializable initializable)
-    // Offset: 0xE96FD4
+    // Offset: 0xF3C11C
     void Add(Zenject::IInitializable* initializable);
     // public System.Void Add(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0xE96FDC
+    // Offset: 0xF3C124
     void Add(Zenject::IInitializable* initializable, int priority);
     // public System.Void Initialize()
-    // Offset: 0xE97090
+    // Offset: 0xF3C1D8
     void Initialize();
   }; // Zenject.InitializableManager
 }

@@ -17,7 +17,7 @@ namespace UnityEngine {
     // Offset: 0x10
     int lines;
     // public System.Void .ctor()
-    // Offset: 0x136F790
+    // Offset: 0x14168D8
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

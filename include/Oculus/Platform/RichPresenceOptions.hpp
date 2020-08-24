@@ -29,48 +29,48 @@ namespace Oculus::Platform {
     // Offset: 0x10
     System::IntPtr Handle;
     // public System.Void SetApiName(System.String value)
-    // Offset: 0xE08B0C
+    // Offset: 0xEADC54
     void SetApiName(::Il2CppString* value);
     // public System.Void SetArgs(System.String key, System.String value)
-    // Offset: 0xE08B88
+    // Offset: 0xEADCD0
     void SetArgs(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void ClearArgs()
-    // Offset: 0xE08C0C
+    // Offset: 0xEADD54
     void ClearArgs();
     // public System.Void SetCurrentCapacity(System.UInt32 value)
-    // Offset: 0xE08C78
+    // Offset: 0xEADDC0
     void SetCurrentCapacity(uint value);
     // public System.Void SetDeeplinkMessageOverride(System.String value)
-    // Offset: 0xE08CF4
+    // Offset: 0xEADE3C
     void SetDeeplinkMessageOverride(::Il2CppString* value);
     // public System.Void SetEndTime(System.DateTime value)
-    // Offset: 0xE08D70
+    // Offset: 0xEADEB8
     void SetEndTime(System::DateTime value);
     // public System.Void SetExtraContext(Oculus.Platform.RichPresenceExtraContext value)
-    // Offset: 0xE08DEC
+    // Offset: 0xEADF34
     void SetExtraContext(Oculus::Platform::RichPresenceExtraContext value);
     // public System.Void SetIsIdle(System.Boolean value)
-    // Offset: 0xE08E68
+    // Offset: 0xEADFB0
     void SetIsIdle(bool value);
     // public System.Void SetIsJoinable(System.Boolean value)
-    // Offset: 0xE08EE4
+    // Offset: 0xEAE02C
     void SetIsJoinable(bool value);
     // public System.Void SetJoinableId(System.String value)
-    // Offset: 0xE08F60
+    // Offset: 0xEAE0A8
     void SetJoinableId(::Il2CppString* value);
     // public System.Void SetMaxCapacity(System.UInt32 value)
-    // Offset: 0xE08FDC
+    // Offset: 0xEAE124
     void SetMaxCapacity(uint value);
     // public System.Void SetStartTime(System.DateTime value)
-    // Offset: 0xE09058
+    // Offset: 0xEAE1A0
     void SetStartTime(System::DateTime value);
     // public System.Void .ctor()
-    // Offset: 0xE08A94
+    // Offset: 0xEADBDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RichPresenceOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0xE090D4
+    // Offset: 0xEAE21C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

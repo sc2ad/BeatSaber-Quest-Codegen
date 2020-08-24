@@ -34,22 +34,22 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Action* pauseTriggeredEvent;
     // public System.Void add_pauseTriggeredEvent(System.Action value)
-    // Offset: 0xB45618
+    // Offset: 0xB4562C
     // Implemented from: IPauseTrigger
     // Base method: System.Void IPauseTrigger::add_pauseTriggeredEvent(System.Action value)
     void add_pauseTriggeredEvent(System::Action* value);
     // public System.Void remove_pauseTriggeredEvent(System.Action value)
-    // Offset: 0xB456BC
+    // Offset: 0xB456D0
     // Implemented from: IPauseTrigger
     // Base method: System.Void IPauseTrigger::remove_pauseTriggeredEvent(System.Action value)
     void remove_pauseTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0xB45760
+    // Offset: 0xB45774
     // Implemented from: Zenject.ITickable
     // Base method: System.Void ITickable::Tick()
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0xB457AC
+    // Offset: 0xB457C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InstantPauseTrigger* New_ctor();

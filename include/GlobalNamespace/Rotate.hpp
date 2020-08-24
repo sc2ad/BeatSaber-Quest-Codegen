@@ -33,19 +33,19 @@ namespace GlobalNamespace {
     // Offset: 0x30
     UnityEngine::Vector3 startRotationAngles;
     // protected System.Void Awake()
-    // Offset: 0xC18824
+    // Offset: 0xCBB96C
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0xC18900
+    // Offset: 0xCBBA48
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0xC1890C
+    // Offset: 0xCBBA54
     void OnBecameInvisible();
     // protected System.Void Update()
-    // Offset: 0xC18918
+    // Offset: 0xCBBA60
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xC18A20
+    // Offset: 0xCBBB68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -23,7 +23,7 @@ namespace System {
   class ArgumentNullException : public System::ArgumentException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x101BD80
+    // Offset: 0x10BFEC8
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,19 +31,19 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ArgumentNullException* New_ctor();
     // public System.Void .ctor(System.String paramName)
-    // Offset: 0x1009B08
+    // Offset: 0x10ADC50
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName)
     // Base method: System.Void SystemException::.ctor(System.String paramName)
     // Base method: System.Void Exception::.ctor(System.String paramName)
     static ArgumentNullException* New_ctor(::Il2CppString* paramName);
     // public System.Void .ctor(System.String paramName, System.String message)
-    // Offset: 0x101BE08
+    // Offset: 0x10BFF50
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     static ArgumentNullException* New_ctor(::Il2CppString* paramName, ::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x101BE44
+    // Offset: 0x10BFF8C
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

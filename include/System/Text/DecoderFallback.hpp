@@ -34,13 +34,13 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x124ABF0
+    // Offset: 0x12F0D38
     static ::Il2CppObject* get_InternalSyncObject();
     // static public System.Text.DecoderFallback get_ReplacementFallback()
-    // Offset: 0x1247BB0
+    // Offset: 0x12EDCF8
     static System::Text::DecoderFallback* get_ReplacementFallback();
     // static public System.Text.DecoderFallback get_ExceptionFallback()
-    // Offset: 0x124ACD4
+    // Offset: 0x12F0E1C
     static System::Text::DecoderFallback* get_ExceptionFallback();
     // public System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
     // Offset: 0xFFFFFFFF
@@ -49,7 +49,7 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     int get_MaxCharCount();
     // protected System.Void .ctor()
-    // Offset: 0x124A718
+    // Offset: 0x12F0860
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DecoderFallback* New_ctor();

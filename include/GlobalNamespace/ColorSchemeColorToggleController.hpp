@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::UI::Toggle* toggle;
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x18E7D50
+    // Offset: 0xB812AC
     UnityEngine::UI::Toggle* get_toggle();
     // public UnityEngine.Color get_color()
-    // Offset: 0x18E7D58
+    // Offset: 0xB812B4
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x18E7D9C
+    // Offset: 0xB812F8
     void set_color(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x18E7E40
+    // Offset: 0xB8139C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -22,34 +22,34 @@ namespace NUnit::Framework::Internal::Filters {
   class AndFilter : public NUnit::Framework::Internal::Filters::CompositeFilter {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFE76FC
+    // Offset: 0x108B844
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor()
     // Base method: System.Void TestFilter::.ctor()
     // Base method: System.Void Object::.ctor()
     static AndFilter* New_ctor();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestFilter[] filters)
-    // Offset: 0xFE779C
+    // Offset: 0x108B8E4
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor(NUnit.Framework.Interfaces.ITestFilter[] filters)
     static AndFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters);
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFE784C
+    // Offset: 0x108B994
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFE7B88
+    // Offset: 0x108BCD0
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xFE7E8C
+    // Offset: 0x108BFD4
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // protected override System.String get_ElementName()
-    // Offset: 0xFE8190
+    // Offset: 0x108C2D8
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.String CompositeFilter::get_ElementName()
     ::Il2CppString* get_ElementName();

@@ -45,32 +45,32 @@ namespace HMUI {
     // Offset: 0x28
     HMUI::HoverHintController* hoverHintController;
     // public System.String get_text()
-    // Offset: 0xE3E4F0
+    // Offset: 0xEE2638
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0xE3E4F8
+    // Offset: 0xEE2640
     void set_text(::Il2CppString* value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0xE3E500
+    // Offset: 0xEE2648
     UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0xE3E598
+    // Offset: 0xEE26E0
     UnityEngine::Vector3 get_worldCenter();
     // private System.Void OnDisable()
-    // Offset: 0xE3E838
+    // Offset: 0xEE2980
     void OnDisable();
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xE3E720
+    // Offset: 0xEE2868
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xE3E7D4
+    // Offset: 0xEE291C
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0xE3E86C
+    // Offset: 0xEE29B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

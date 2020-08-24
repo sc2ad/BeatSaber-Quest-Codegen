@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_GetOverlayErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15634E8
+    // Offset: 0x1610630
     static IVROverlay::_GetOverlayErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVROverlayError error)
-    // Offset: 0x15634FC
+    // Offset: 0x1610644
     System::IntPtr Invoke(Valve::VR::EVROverlayError error);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVROverlayError error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1563770
+    // Offset: 0x16108B8
     System::IAsyncResult* BeginInvoke(Valve::VR::EVROverlayError error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15637FC
+    // Offset: 0x1610944
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayErrorNameFromEnum
 }

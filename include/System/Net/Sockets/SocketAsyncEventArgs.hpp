@@ -55,22 +55,22 @@ namespace System::Net::Sockets {
     // Offset: 0x38
     System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* Completed;
     // public System.Net.Sockets.Socket get_AcceptSocket()
-    // Offset: 0x1174AF0
+    // Offset: 0x1218C38
     System::Net::Sockets::Socket* get_AcceptSocket();
     // public System.Void set_AcceptSocket(System.Net.Sockets.Socket value)
-    // Offset: 0x1174AF8
+    // Offset: 0x1218C40
     void set_AcceptSocket(System::Net::Sockets::Socket* value);
     // System.Void set_BytesTransferred(System.Int32 value)
-    // Offset: 0x1174B00
+    // Offset: 0x1218C48
     void set_BytesTransferred(int value);
     // public System.Void set_SocketError(System.Net.Sockets.SocketError value)
-    // Offset: 0x1174B08
+    // Offset: 0x1218C50
     void set_SocketError(System::Net::Sockets::SocketError value);
     // System.Void Complete()
-    // Offset: 0x1172960
+    // Offset: 0x1216AA8
     void Complete();
     // protected System.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x1174B10
+    // Offset: 0x1218C58
     void OnCompleted(System::Net::Sockets::SocketAsyncEventArgs* e);
   }; // System.Net.Sockets.SocketAsyncEventArgs
 }

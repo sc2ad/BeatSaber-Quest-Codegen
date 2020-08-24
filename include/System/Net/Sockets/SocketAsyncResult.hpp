@@ -105,40 +105,40 @@ namespace System::Net::Sockets {
     // Offset: 0xA0
     int EndCalled;
     // public System.IntPtr get_Handle()
-    // Offset: 0x1174B7C
+    // Offset: 0x1218CC4
     System::IntPtr get_Handle();
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x1174BD4
+    // Offset: 0x1218D1C
     static SocketAsyncResult* New_ctor(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::Il2CppObject* state, System::Net::Sockets::SocketOperation operation);
     // public System.Net.Sockets.SocketError get_ErrorCode()
-    // Offset: 0x1174C24
+    // Offset: 0x1218D6C
     System::Net::Sockets::SocketError get_ErrorCode();
     // public System.Void CheckIfThrowDelayedException()
-    // Offset: 0x1174CAC
+    // Offset: 0x1218DF4
     void CheckIfThrowDelayedException();
     // public System.Void Complete()
-    // Offset: 0x1173380
+    // Offset: 0x12174C8
     void Complete();
     // public System.Void Complete(System.Boolean synch)
-    // Offset: 0x1174D68
+    // Offset: 0x1218EB0
     void Complete(bool synch);
     // public System.Void Complete(System.Int32 total)
-    // Offset: 0x1173DA4
+    // Offset: 0x1217EEC
     void Complete(int total);
     // public System.Void Complete(System.Exception e, System.Boolean synch)
-    // Offset: 0x1174D74
+    // Offset: 0x1218EBC
     void Complete(System::Exception* e, bool synch);
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1172AB8
+    // Offset: 0x1216C00
     void Complete(System::Exception* e);
     // public System.Void Complete(System.Net.Sockets.Socket s)
-    // Offset: 0x1172AE0
+    // Offset: 0x1216C28
     void Complete(System::Net::Sockets::Socket* s);
     // public System.Void Complete(System.Net.Sockets.Socket s, System.Int32 total)
-    // Offset: 0x1172DE0
+    // Offset: 0x1216F28
     void Complete(System::Net::Sockets::Socket* s, int total);
     // override System.Void CompleteDisposed()
-    // Offset: 0x1174D64
+    // Offset: 0x1218EAC
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::CompleteDisposed()
     void CompleteDisposed();

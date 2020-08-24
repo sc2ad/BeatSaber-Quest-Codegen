@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MainEffectSO* mainEffect;
     // public System.Void .ctor()
-    // Offset: 0x19428D4
+    // Offset: 0xBFD198
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     // Base method: System.Void Object::.ctor()

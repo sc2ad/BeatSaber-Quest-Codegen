@@ -17,10 +17,10 @@ namespace HMUI {
     // Offset: 0x10
     float threshold;
     // System.Boolean <PageUpButtonPressed>b__0(System.Single posy)
-    // Offset: 0x103F340
+    // Offset: 0x10E2488
     bool $PageUpButtonPressed$b__0(float posy);
     // public System.Void .ctor()
-    // Offset: 0x103F124
+    // Offset: 0x10E226C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScrollView::$$c__DisplayClass25_0* New_ctor();

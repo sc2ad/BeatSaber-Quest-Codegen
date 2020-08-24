@@ -33,13 +33,13 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Predicate`1<System.WeakReference`1<System.Diagnostics.Tracing.EtwSession>> <>9__2_0
     static void _set_$$9__2_0(System::Predicate_1<System::WeakReference_1<System::Diagnostics::Tracing::EtwSession*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xBF7F44
+    // Offset: 0xC9B08C
     static void _cctor();
     // System.Boolean <TrimGlobalList>b__2_0(System.WeakReference`1<System.Diagnostics.Tracing.EtwSession> wrEtwSession)
-    // Offset: 0xBF7FB4
+    // Offset: 0xC9B0FC
     bool $TrimGlobalList$b__2_0(System::WeakReference_1<System::Diagnostics::Tracing::EtwSession*>* wrEtwSession);
     // public System.Void .ctor()
-    // Offset: 0xBF7FAC
+    // Offset: 0xC9B0F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EtwSession::$$c* New_ctor();

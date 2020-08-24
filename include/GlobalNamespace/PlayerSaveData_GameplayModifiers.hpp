@@ -130,7 +130,7 @@ namespace GlobalNamespace {
     // Offset: 0x24
     GlobalNamespace::PlayerSaveData::GameplayModifiers::SongSpeed songSpeed;
     // public System.Void .ctor()
-    // Offset: 0x1920C34
+    // Offset: 0xBDC4F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::GameplayModifiers* New_ctor();

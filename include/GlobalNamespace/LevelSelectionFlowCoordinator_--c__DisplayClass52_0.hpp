@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Action* $$9__1;
     // System.Void <StartLevelOrShow360Warning>b__0(System.Int32 buttonNumber)
-    // Offset: 0x193DC6C
+    // Offset: 0xBF8530
     void $StartLevelOrShow360Warning$b__0(int buttonNumber);
     // System.Void <StartLevelOrShow360Warning>b__1()
-    // Offset: 0x193DD3C
+    // Offset: 0xBF8600
     void $StartLevelOrShow360Warning$b__1();
     // public System.Void .ctor()
-    // Offset: 0x193DAA8
+    // Offset: 0xBF836C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelSelectionFlowCoordinator::$$c__DisplayClass52_0* New_ctor();

@@ -29,18 +29,18 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x88
     UnityEngine::TestTools::Logging::LogMatch* LogEvent;
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogMatch log)
-    // Offset: 0xD936D0
+    // Offset: 0xE38818
     static UnexpectedLogMessageException* New_ctor(UnityEngine::TestTools::Logging::LogMatch* log);
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogMatch log)
-    // Offset: 0xDA4EC0
+    // Offset: 0xE4A008
     static ::Il2CppString* BuildMessage(UnityEngine::TestTools::Logging::LogMatch* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0xDA4F14
+    // Offset: 0xE4A05C
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public override System.String get_StackTrace()
-    // Offset: 0xDA4F7C
+    // Offset: 0xE4A0C4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();

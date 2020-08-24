@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x28
     ::Il2CppString* VersionHandle;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xDFE24C
+    // Offset: 0xEA3394
     static CloudStorageUpdateResponse* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.CloudStorageUpdateResponse
 }

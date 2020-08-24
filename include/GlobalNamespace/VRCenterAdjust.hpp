@@ -34,31 +34,31 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // protected System.Void Awake()
-    // Offset: 0x1969688
+    // Offset: 0xC4F448
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x19696EC
+    // Offset: 0xC4F4AC
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x19698BC
+    // Offset: 0xC4F67C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1969994
+    // Offset: 0xC4F754
     void OnDisable();
     // private System.Void HandleRoomCenterDidChange()
-    // Offset: 0x1969A6C
+    // Offset: 0xC4F82C
     void HandleRoomCenterDidChange();
     // private System.Void HandleRoomRotationDidChange()
-    // Offset: 0x1969AE4
+    // Offset: 0xC4F8A4
     void HandleRoomRotationDidChange();
     // protected System.Void Update()
-    // Offset: 0x1969B90
+    // Offset: 0xC4F950
     void Update();
     // public System.Void ResetRoom()
-    // Offset: 0x1969810
+    // Offset: 0xC4F5D0
     void ResetRoom();
     // public System.Void .ctor()
-    // Offset: 0x1969BCC
+    // Offset: 0xC4F98C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

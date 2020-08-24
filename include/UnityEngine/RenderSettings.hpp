@@ -21,10 +21,10 @@ namespace UnityEngine {
   class RenderSettings : public UnityEngine::Object {
     public:
     // static public System.Void set_ambientLight(UnityEngine.Color value)
-    // Offset: 0x137C874
+    // Offset: 0x14239BC
     static void set_ambientLight(UnityEngine::Color value);
     // static private System.Void set_ambientLight_Injected(UnityEngine.Color value)
-    // Offset: 0x137C8C4
+    // Offset: 0x1423A0C
     static void set_ambientLight_Injected(UnityEngine::Color& value);
   }; // UnityEngine.RenderSettings
 }

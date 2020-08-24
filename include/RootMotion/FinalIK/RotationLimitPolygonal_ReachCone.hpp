@@ -26,25 +26,25 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     UnityEngine::Vector3 B;
     // public UnityEngine.Vector3 get_o()
-    // Offset: 0x1196D04
+    // Offset: 0x123AE4C
     UnityEngine::Vector3 get_o();
     // public UnityEngine.Vector3 get_a()
-    // Offset: 0x1196D3C
+    // Offset: 0x123AE84
     UnityEngine::Vector3 get_a();
     // public UnityEngine.Vector3 get_b()
-    // Offset: 0x1196D78
+    // Offset: 0x123AEC0
     UnityEngine::Vector3 get_b();
     // public UnityEngine.Vector3 get_c()
-    // Offset: 0x1196DB4
+    // Offset: 0x123AEFC
     UnityEngine::Vector3 get_c();
     // public System.Void .ctor(UnityEngine.Vector3 _o, UnityEngine.Vector3 _a, UnityEngine.Vector3 _b, UnityEngine.Vector3 _c)
-    // Offset: 0x1196494
+    // Offset: 0x123A5DC
     static RotationLimitPolygonal::ReachCone* New_ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c);
     // public System.Boolean get_isValid()
-    // Offset: 0x1195E48
+    // Offset: 0x1239F90
     bool get_isValid();
     // public System.Void Calculate()
-    // Offset: 0x1196608
+    // Offset: 0x123A750
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/ReachCone
 }

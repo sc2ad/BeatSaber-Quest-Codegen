@@ -75,25 +75,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfCells
     static void _set_kMaxNumberOfCells(int value);
     // public System.Void add_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x192B3B4
+    // Offset: 0xBE6C78
     void add_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // public System.Void remove_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x192B458
+    // Offset: 0xBE6D1C
     void remove_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // protected System.Void Start()
-    // Offset: 0x192B4FC
+    // Offset: 0xBE6DC0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x192B5A4
+    // Offset: 0xBE6E68
     void OnDestroy();
     // public System.Void Init(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x192B5B8
+    // Offset: 0xBE6E7C
     void Init(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void PlayButtonWasPressed()
-    // Offset: 0x192B7F4
+    // Offset: 0xBE70B8
     void PlayButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x192B858
+    // Offset: 0xBE711C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

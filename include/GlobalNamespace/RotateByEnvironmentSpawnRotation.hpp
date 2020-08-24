@@ -28,16 +28,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation;
     // protected System.Void Start()
-    // Offset: 0xB969D8
+    // Offset: 0xC22D90
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xB96A6C
+    // Offset: 0xC22E24
     void OnDestroy();
     // private System.Void HandleEnvironmentSpawnRotationDidRotate(UnityEngine.Quaternion rotation)
-    // Offset: 0xB96B00
+    // Offset: 0xC22EB8
     void HandleEnvironmentSpawnRotationDidRotate(UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0xB96B54
+    // Offset: 0xC22F0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

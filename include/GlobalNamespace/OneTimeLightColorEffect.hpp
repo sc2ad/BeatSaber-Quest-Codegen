@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::LightWithIdManager* lightWithIdManager;
     // protected System.Void Update()
-    // Offset: 0xBB1F20
+    // Offset: 0xC3E2D8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xBB1F90
+    // Offset: 0xC3E348
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayFlag : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x147BD50
+    // Offset: 0x1526E98
     static IVROverlay::_GetOverlayFlag* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayFlags eOverlayFlag, System.Boolean pbEnabled)
-    // Offset: 0x147BD64
+    // Offset: 0x1526EAC
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayFlags eOverlayFlag, bool& pbEnabled);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayFlags eOverlayFlag, System.Boolean pbEnabled, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x147BFFC
+    // Offset: 0x1527144
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayFlags eOverlayFlag, bool& pbEnabled, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.Boolean pbEnabled, System.IAsyncResult result)
-    // Offset: 0x147C0D0
+    // Offset: 0x1527218
     OVR::OpenVR::EVROverlayError EndInvoke(bool& pbEnabled, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayFlag
 }

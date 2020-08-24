@@ -28,7 +28,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x20
     ::Array<uint8_t>* TypeInfo;
     // public System.Void .ctor(System.Runtime.Remoting.ObjRef o, System.Int32 sourceDomain)
-    // Offset: 0xFC15F8
+    // Offset: 0x1065740
     static CADObjRef* New_ctor(System::Runtime::Remoting::ObjRef* o, int sourceDomain);
   }; // System.Runtime.Remoting.Messaging.CADObjRef
 }

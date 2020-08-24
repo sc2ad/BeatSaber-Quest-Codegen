@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::OVRExternalComposition* composition;
     // private System.Void Start()
-    // Offset: 0xDD5590
+    // Offset: 0xE7A6D8
     void Start();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0xDD559C
+    // Offset: 0xE7A6E4
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0xDD55B8
+    // Offset: 0xE7A700
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

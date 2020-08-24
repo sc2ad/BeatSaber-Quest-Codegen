@@ -30,25 +30,25 @@ namespace RootMotion {
     // Offset: 0x20
     ::Il2CppString* propertyName;
     // public System.Void .ctor(System.Int32 muscleIndex)
-    // Offset: 0x12FBA94
+    // Offset: 0x13A1BDC
     static BakerMuscle* New_ctor(int muscleIndex);
     // private System.String MuscleNameToPropertyName(System.String n)
-    // Offset: 0x12FBB10
+    // Offset: 0x13A1C58
     ::Il2CppString* MuscleNameToPropertyName(::Il2CppString* n);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
-    // Offset: 0x12FC200
+    // Offset: 0x13A2348
     void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
-    // Offset: 0x12FC2B4
+    // Offset: 0x13A23FC
     void SetCurves(UnityEngine::AnimationClip*& clip, float maxError, float lengthMlp);
     // public System.Void Reset()
-    // Offset: 0x12FC198
+    // Offset: 0x13A22E0
     void Reset();
     // public System.Void SetKeyframe(System.Single time, System.Single[] muscles)
-    // Offset: 0x12FC398
+    // Offset: 0x13A24E0
     void SetKeyframe(float time, ::Array<float>* muscles);
     // public System.Void SetLoopFrame(System.Single time)
-    // Offset: 0x12FC3E0
+    // Offset: 0x13A2528
     void SetLoopFrame(float time);
   }; // RootMotion.BakerMuscle
 }

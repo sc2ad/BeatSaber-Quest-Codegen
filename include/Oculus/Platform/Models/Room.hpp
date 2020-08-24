@@ -105,7 +105,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0xA8
     uint Version;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE009B8
+    // Offset: 0xEA5B00
     static Room* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Room
 }

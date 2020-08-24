@@ -19,10 +19,10 @@ namespace System::Net {
   class ExceptionHelper : public ::Il2CppObject {
     public:
     // static System.NotImplementedException get_MethodNotImplementedException()
-    // Offset: 0xEC8F28
+    // Offset: 0xF6E070
     static System::NotImplementedException* get_MethodNotImplementedException();
     // static System.NotImplementedException get_PropertyNotImplementedException()
-    // Offset: 0xEC8E78
+    // Offset: 0xF6DFC0
     static System::NotImplementedException* get_PropertyNotImplementedException();
   }; // System.Net.ExceptionHelper
 }

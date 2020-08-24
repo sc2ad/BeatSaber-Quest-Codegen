@@ -17,7 +17,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     float volumeOffset;
     // public System.Void .ctor(System.Single volumeOffset)
-    // Offset: 0x18F2084
+    // Offset: 0xB8B5E4
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset);
   }; // AutomaticSFXVolume/InitData
 }

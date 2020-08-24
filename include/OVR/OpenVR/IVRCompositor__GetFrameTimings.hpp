@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_GetFrameTimings : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x146B544
+    // Offset: 0x151668C
     static IVRCompositor::_GetFrameTimings* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 nFrames)
-    // Offset: 0x146B558
+    // Offset: 0x15166A0
     uint Invoke(OVR::OpenVR::Compositor_FrameTiming& pTiming, uint nFrames);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 nFrames, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x146B7CC
+    // Offset: 0x1516914
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::Compositor_FrameTiming& pTiming, uint nFrames, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(OVR.OpenVR.Compositor_FrameTiming pTiming, System.IAsyncResult result)
-    // Offset: 0x146B880
+    // Offset: 0x15169C8
     uint EndInvoke(OVR::OpenVR::Compositor_FrameTiming& pTiming, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetFrameTimings
 }

@@ -36,21 +36,21 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedPacksIds;
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
-    // Offset: 0x18EB488
+    // Offset: 0xB849E8
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedBeatmapLevelIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedPacksIds()
-    // Offset: 0x18EB744
+    // Offset: 0xB84CA4
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedPacksIds();
     // private System.Void InitAlwaysOwnedItems()
-    // Offset: 0x18EBD88
+    // Offset: 0xB852E8
     void InitAlwaysOwnedItems();
     // protected override System.Void OnEnable()
-    // Offset: 0x18EC054
+    // Offset: 0xB855B4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x18EC07C
+    // Offset: 0xB855DC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

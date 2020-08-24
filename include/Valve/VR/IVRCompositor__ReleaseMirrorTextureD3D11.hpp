@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_ReleaseMirrorTextureD3D11 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x155BE30
+    // Offset: 0x1608F78
     static IVRCompositor::_ReleaseMirrorTextureD3D11* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr pD3D11ShaderResourceView)
-    // Offset: 0x155BE44
+    // Offset: 0x1608F8C
     void Invoke(System::IntPtr pD3D11ShaderResourceView);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pD3D11ShaderResourceView, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x155C0A4
+    // Offset: 0x16091EC
     System::IAsyncResult* BeginInvoke(System::IntPtr pD3D11ShaderResourceView, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x155C130
+    // Offset: 0x1609278
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_ReleaseMirrorTextureD3D11
 }

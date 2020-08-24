@@ -26,7 +26,7 @@ namespace HMUI {
   class SetPropertyUtility : public ::Il2CppObject {
     public:
     // static public System.Boolean SetColor(UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0x1042478
+    // Offset: 0x10E55C0
     static bool SetColor(UnityEngine::Color& currentValue, UnityEngine::Color newValue);
     // static public System.Boolean SetStruct(T currentValue, T newValue)
     // Offset: 0xFFFFFFFF

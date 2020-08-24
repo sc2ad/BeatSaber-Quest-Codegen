@@ -22,13 +22,13 @@ namespace System {
     // Offset: 0x14
     bool cancel;
     // System.Void .ctor(System.ConsoleSpecialKey type)
-    // Offset: 0x1021438
+    // Offset: 0x10C4580
     static ConsoleCancelEventArgs* New_ctor(System::ConsoleSpecialKey type);
     // public System.Boolean get_Cancel()
-    // Offset: 0x1022038
+    // Offset: 0x10C5180
     bool get_Cancel();
     // System.Void .ctor()
-    // Offset: 0x1022040
+    // Offset: 0x10C5188
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()

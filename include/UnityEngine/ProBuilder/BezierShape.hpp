@@ -53,25 +53,25 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x38
     UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
     // public System.Boolean get_isEditing()
-    // Offset: 0x1485470
+    // Offset: 0x15305B8
     bool get_isEditing();
     // public System.Void set_isEditing(System.Boolean value)
-    // Offset: 0x1485478
+    // Offset: 0x15305C0
     void set_isEditing(bool value);
     // public UnityEngine.ProBuilder.ProBuilderMesh get_mesh()
-    // Offset: 0x1485484
+    // Offset: 0x15305CC
     UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.ProBuilder.ProBuilderMesh value)
-    // Offset: 0x1485530
+    // Offset: 0x1530678
     void set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // public System.Void Init()
-    // Offset: 0x1485538
+    // Offset: 0x1530680
     void Init();
     // public System.Void Refresh()
-    // Offset: 0x148576C
+    // Offset: 0x15308B4
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x148583C
+    // Offset: 0x1530984
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

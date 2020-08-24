@@ -48,19 +48,19 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x18
     System::Collections::Generic::List_1<int>* indexes;
     // public System.Void .ctor(UnityEngine.GameObject go)
-    // Offset: 0xEEF278
+    // Offset: 0xF933C0
     static CSG_Model* New_ctor(UnityEngine::GameObject* go);
     // public System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> list)
-    // Offset: 0xEEF8CC
+    // Offset: 0xF93A14
     static CSG_Model* New_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* list);
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Experimental.CSG.CSG_Polygon> ToPolygons()
-    // Offset: 0xEEF410
+    // Offset: 0xF93558
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Experimental::CSG::CSG_Polygon*>* ToPolygons();
     // public UnityEngine.Mesh ToMesh()
-    // Offset: 0xEEFBA4
+    // Offset: 0xF93CEC
     UnityEngine::Mesh* ToMesh();
     // public System.Void .ctor()
-    // Offset: 0xEF00B8
+    // Offset: 0xF94200
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CSG_Model* New_ctor();

@@ -21,7 +21,7 @@ namespace UnityEngine::XR {
   class XRDisplaySubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRDisplaySubsystem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18BAF34
+    // Offset: 0x196807C
     // Implemented from: UnityEngine.IntegratedSubsystemDescriptor`1
     // Base method: System.Void IntegratedSubsystemDescriptor`1::.ctor()
     // Base method: System.Void IntegratedSubsystemDescriptor::.ctor()

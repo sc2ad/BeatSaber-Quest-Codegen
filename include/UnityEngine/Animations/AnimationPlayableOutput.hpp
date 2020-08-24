@@ -39,28 +39,28 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationPlayableOutput
     AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // static public UnityEngine.Animations.AnimationPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.Animator target)
-    // Offset: 0x1893A68
+    // Offset: 0x193FBB0
     static UnityEngine::Animations::AnimationPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::Animator* target);
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0x9C4548
+    // Offset: 0xA5DBC0
     static AnimationPlayableOutput* New_ctor(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Animations.AnimationPlayableOutput get_Null()
-    // Offset: 0x1893BF8
+    // Offset: 0x193FD40
     static UnityEngine::Animations::AnimationPlayableOutput get_Null();
     // public UnityEngine.Animator GetTarget()
-    // Offset: 0x9C455C
+    // Offset: 0xA5DBD4
     UnityEngine::Animator* GetTarget();
     // public System.Void SetTarget(UnityEngine.Animator value)
-    // Offset: 0x9C459C
+    // Offset: 0xA5DC14
     void SetTarget(UnityEngine::Animator* value);
     // static private UnityEngine.Animator InternalGetTarget(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0x1893E20
+    // Offset: 0x193FF68
     static UnityEngine::Animator* InternalGetTarget(UnityEngine::Playables::PlayableOutputHandle& handle);
     // static private System.Void InternalSetTarget(UnityEngine.Playables.PlayableOutputHandle handle, UnityEngine.Animator target)
-    // Offset: 0x1893E60
+    // Offset: 0x193FFA8
     static void InternalSetTarget(UnityEngine::Playables::PlayableOutputHandle& handle, UnityEngine::Animator* target);
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0x9C4550
+    // Offset: 0xA5DBC8
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();

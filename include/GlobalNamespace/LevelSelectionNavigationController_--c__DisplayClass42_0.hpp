@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     HMUI::ViewController* viewController;
     // System.Void <PresentDetailViewController>b__0()
-    // Offset: 0x193EE70
+    // Offset: 0xBF9734
     void $PresentDetailViewController$b__0();
     // public System.Void .ctor()
-    // Offset: 0x193EC00
+    // Offset: 0xBF94C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelSelectionNavigationController::$$c__DisplayClass42_0* New_ctor();

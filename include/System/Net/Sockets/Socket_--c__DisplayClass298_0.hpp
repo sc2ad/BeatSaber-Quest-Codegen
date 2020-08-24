@@ -37,10 +37,10 @@ namespace System::Net::Sockets {
     // Offset: 0x20
     System::IntPtr handle;
     // System.Void <QueueIOSelectorJob>b__0(System.Threading.Tasks.Task t)
-    // Offset: 0x1174A9C
+    // Offset: 0x1218BE4
     void $QueueIOSelectorJob$b__0(System::Threading::Tasks::Task* t);
     // public System.Void .ctor()
-    // Offset: 0x1174A94
+    // Offset: 0x1218BDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Socket::$$c__DisplayClass298_0* New_ctor();

@@ -38,12 +38,12 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::TabBarViewController* tabBarViewControllerPrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0x1945B8C
+    // Offset: 0xC00450
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1945C30
+    // Offset: 0xC004F4
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

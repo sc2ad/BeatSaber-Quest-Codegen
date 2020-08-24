@@ -103,34 +103,34 @@ namespace GlobalNamespace {
     // Offset: 0xC0
     int prevLightSwitchBeatmapEventDataValue;
     // public System.Int32 get_LightsID()
-    // Offset: 0x193FE18
+    // Offset: 0xBFA6DC
     int get_LightsID();
     // protected System.Void Start()
-    // Offset: 0x193FE20
+    // Offset: 0xBFA6E4
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x193FEB4
+    // Offset: 0xBFA778
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x193FF8C
+    // Offset: 0xBFA850
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1940134
+    // Offset: 0xBFA9F8
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void ProcessLightSwitchEvent(System.Int32 beatmapEventDataValue, System.Boolean updateColorsOnly)
-    // Offset: 0x19401BC
+    // Offset: 0xBFAA80
     void ProcessLightSwitchEvent(int beatmapEventDataValue, bool updateColorsOnly);
     // private UnityEngine.Color GetNormalColor(System.Int32 beatmapEventValue)
-    // Offset: 0x1940388
+    // Offset: 0xBFAC4C
     UnityEngine::Color GetNormalColor(int beatmapEventValue);
     // private UnityEngine.Color GetHighlightColor(System.Int32 beatmapEventValue)
-    // Offset: 0x19403E4
+    // Offset: 0xBFACA8
     UnityEngine::Color GetHighlightColor(int beatmapEventValue);
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1940110
+    // Offset: 0xBFA9D4
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1940440
+    // Offset: 0xBFAD04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

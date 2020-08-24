@@ -78,64 +78,64 @@ namespace GlobalNamespace {
     // Offset: 0x64
     int selectedColumn;
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x18ED0B0
+    // Offset: 0xB86610
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`2<AnnotatedBeatmapLevelCollectionsTableView,IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x18ED154
+    // Offset: 0xB866B4
     void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_2<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // private System.Void Init()
-    // Offset: 0x18ED1F8
+    // Offset: 0xB86758
     void Init();
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection[] annotatedBeatmapLevelCollections)
-    // Offset: 0x18ED364
+    // Offset: 0xB868C4
     void SetData(::Array<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections);
     // protected System.Void OnEnable()
-    // Offset: 0x18ED3D4
+    // Offset: 0xB86934
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x18ED45C
+    // Offset: 0xB869BC
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x18ED4E4
+    // Offset: 0xB86A44
     void OnDestroy();
     // public System.Void Hide()
-    // Offset: 0x18ED578
+    // Offset: 0xB86AD8
     void Hide();
     // public System.Void Show()
-    // Offset: 0x18ED594
+    // Offset: 0xB86AF4
     void Show();
     // private System.Void HandleDidSelectColumnEvent(HMUI.TableView tableView, System.Int32 column)
-    // Offset: 0x18ED818
+    // Offset: 0xB86D78
     void HandleDidSelectColumnEvent(HMUI::TableView* tableView, int column);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x18ED8BC
+    // Offset: 0xB86E1C
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x18ED984
+    // Offset: 0xB86EE4
     void CancelAsyncOperations();
     // public System.Void RefreshAvailability()
-    // Offset: 0x18EDC38
+    // Offset: 0xB87198
     void RefreshAvailability();
     // public System.Void SelectAndScrollToCellWithIdx(System.Int32 idx)
-    // Offset: 0x18EDEF8
+    // Offset: 0xB87458
     void SelectAndScrollToCellWithIdx(int idx);
     // public System.Single CellSize()
-    // Offset: 0x18ED5B0
+    // Offset: 0xB86B10
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x18ED5B8
+    // Offset: 0xB86B18
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x18ED5D0
+    // Offset: 0xB86B30
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x18EDF4C
+    // Offset: 0xB874AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

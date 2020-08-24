@@ -17,22 +17,22 @@ namespace Oculus::Platform {
     // Offset: 0x18
     bool IsPersistantBetweenSceneLoads;
     // static private System.Void ovr_UnityResetTestPlatform()
-    // Offset: 0xDF2F58
+    // Offset: 0xE980A0
     static void ovr_UnityResetTestPlatform();
     // private System.Void Awake()
-    // Offset: 0xDF2FC8
+    // Offset: 0xE98110
     void Awake();
     // private System.Void Update()
-    // Offset: 0xDF30C4
+    // Offset: 0xE9820C
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0xDF3150
+    // Offset: 0xE98298
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0xDF3154
+    // Offset: 0xE9829C
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0xDF31B0
+    // Offset: 0xE982F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

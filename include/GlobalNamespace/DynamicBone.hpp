@@ -204,76 +204,76 @@ namespace GlobalNamespace {
     // Offset: 0x100
     System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>* m_Particles;
     // private System.Void Start()
-    // Offset: 0x18A350C
+    // Offset: 0x194F654
     void Start();
     // private System.Void FixedUpdate()
-    // Offset: 0x18A368C
+    // Offset: 0x194F7D4
     void FixedUpdate();
     // private System.Void Update()
-    // Offset: 0x18A36E0
+    // Offset: 0x194F828
     void Update();
     // private System.Void LateUpdate()
-    // Offset: 0x18A3710
+    // Offset: 0x194F858
     void LateUpdate();
     // private System.Void PreUpdate()
-    // Offset: 0x18A36BC
+    // Offset: 0x194F804
     void PreUpdate();
     // private System.Void CheckDistance()
-    // Offset: 0x18A3770
+    // Offset: 0x194F8B8
     void CheckDistance();
     // private System.Void OnEnable()
-    // Offset: 0x18A3E14
+    // Offset: 0x194FF5C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18A3E18
+    // Offset: 0x194FF60
     void OnDisable();
     // private System.Void OnValidate()
-    // Offset: 0x18A3E1C
+    // Offset: 0x194FF64
     void OnValidate();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x18A3F38
+    // Offset: 0x1950080
     void OnDrawGizmosSelected();
     // public System.Void SetWeight(System.Single w)
-    // Offset: 0x18A40DC
+    // Offset: 0x1950224
     void SetWeight(float w);
     // public System.Single GetWeight()
-    // Offset: 0x18A4138
+    // Offset: 0x1950280
     float GetWeight();
     // private System.Void UpdateDynamicBones(System.Single t)
-    // Offset: 0x18A3974
+    // Offset: 0x194FABC
     void UpdateDynamicBones(float t);
     // private System.Void SetupParticles()
-    // Offset: 0x18A3510
+    // Offset: 0x194F658
     void SetupParticles();
     // private System.Void AppendParticles(UnityEngine.Transform b, System.Int32 parentIndex, System.Single boneLength)
-    // Offset: 0x18A54E8
+    // Offset: 0x1951630
     void AppendParticles(UnityEngine::Transform* b, int parentIndex, float boneLength);
     // public System.Void UpdateParameters()
-    // Offset: 0x18A5B70
+    // Offset: 0x1951CB8
     void UpdateParameters();
     // private System.Void InitTransforms()
-    // Offset: 0x18A3BB8
+    // Offset: 0x194FD00
     void InitTransforms();
     // private System.Void ResetParticlesPosition()
-    // Offset: 0x18A3CB8
+    // Offset: 0x194FE00
     void ResetParticlesPosition();
     // private System.Void UpdateParticles1()
-    // Offset: 0x18A4140
+    // Offset: 0x1950288
     void UpdateParticles1();
     // private System.Void UpdateParticles2()
-    // Offset: 0x18A4450
+    // Offset: 0x1950598
     void UpdateParticles2();
     // private System.Void SkipUpdateParticles()
-    // Offset: 0x18A4BDC
+    // Offset: 0x1950D24
     void SkipUpdateParticles();
     // static private UnityEngine.Vector3 MirrorVector(UnityEngine.Vector3 v, UnityEngine.Vector3 axis)
-    // Offset: 0x18A5F30
+    // Offset: 0x1952078
     static UnityEngine::Vector3 MirrorVector(UnityEngine::Vector3 v, UnityEngine::Vector3 axis);
     // private System.Void ApplyParticlesToTransforms()
-    // Offset: 0x18A520C
+    // Offset: 0x1951354
     void ApplyParticlesToTransforms();
     // public System.Void .ctor()
-    // Offset: 0x18A6010
+    // Offset: 0x1952158
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

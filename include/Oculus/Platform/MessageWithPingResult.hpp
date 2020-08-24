@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithPingResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*> {
     public:
     // protected Oculus.Platform.Models.PingResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE025F4
+    // Offset: 0xEA773C
     Oculus::Platform::Models::PingResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xDFAE68
+    // Offset: 0xE9FFB0
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPingResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.PingResult GetPingResult()
-    // Offset: 0xE025B0
+    // Offset: 0xEA76F8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PingResult Message::GetPingResult()
     Oculus::Platform::Models::PingResult* GetPingResult();

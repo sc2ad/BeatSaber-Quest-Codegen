@@ -68,16 +68,16 @@ namespace System {
     // Offset: 0x44
     int Permilles;
     // static public System.Void GetActiveSection(System.String format, System.Boolean positive, System.Boolean zero, System.Int32 offset, System.Int32 length)
-    // Offset: 0x12B978C
+    // Offset: 0x13618D4
     static void GetActiveSection(::Il2CppString* format, bool& positive, bool zero, int& offset, int& length);
     // static public System.NumberFormatter/CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x12B9A78
+    // Offset: 0x1361BC0
     static System::NumberFormatter::CustomInfo* Parse(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
-    // Offset: 0x12BA294
+    // Offset: 0x13623DC
     ::Il2CppString* Format(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi, bool positive, System::Text::StringBuilder* sb_int, System::Text::StringBuilder* sb_dec, System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
-    // Offset: 0x12BAC50
+    // Offset: 0x1362D98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NumberFormatter::CustomInfo* New_ctor();

@@ -45,22 +45,22 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::Vector3 initColliderSize;
     // protected System.Void Awake()
-    // Offset: 0xB3C7A4
+    // Offset: 0xB3C7B8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB3C894
+    // Offset: 0xB3C8A8
     void OnDestroy();
     // private System.Void HandleGameNoteControllerDidInit(NoteController noteController)
-    // Offset: 0xB3C9B8
+    // Offset: 0xB3C9CC
     void HandleGameNoteControllerDidInit(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleGameNoteControllerNoteDidStartJump(NoteController noteController)
-    // Offset: 0xB3C9C8
+    // Offset: 0xB3C9DC
     void HandleGameNoteControllerNoteDidStartJump(GlobalNamespace::NoteController* noteController);
     // protected System.Void Update()
-    // Offset: 0xB3C9D8
+    // Offset: 0xB3C9EC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB3CAD4
+    // Offset: 0xB3CAE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

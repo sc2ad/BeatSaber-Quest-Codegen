@@ -27,7 +27,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Offset: 0x10
     System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* frames;
     // public System.Void .ctor()
-    // Offset: 0xB53EEC
+    // Offset: 0xB54F00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TexturePacker::SpriteDataObject* New_ctor();

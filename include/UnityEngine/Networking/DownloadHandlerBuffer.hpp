@@ -20,22 +20,22 @@ namespace UnityEngine::Networking {
   class DownloadHandlerBuffer : public UnityEngine::Networking::DownloadHandler {
     public:
     // static private System.IntPtr Create(UnityEngine.Networking.DownloadHandlerBuffer obj)
-    // Offset: 0x189C284
+    // Offset: 0x19483CC
     static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerBuffer* obj);
     // private System.Void InternalCreateBuffer()
-    // Offset: 0x189C2C4
+    // Offset: 0x194840C
     void InternalCreateBuffer();
     // private System.Byte[] InternalGetData()
-    // Offset: 0x189C39C
+    // Offset: 0x19484E4
     ::Array<uint8_t>* InternalGetData();
     // public System.Void .ctor()
-    // Offset: 0x189C30C
+    // Offset: 0x1948454
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Void DownloadHandler::.ctor()
     // Base method: System.Void Object::.ctor()
     static DownloadHandlerBuffer* New_ctor();
     // protected override System.Byte[] GetData()
-    // Offset: 0x189C35C
+    // Offset: 0x19484A4
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Byte[] DownloadHandler::GetData()
     ::Array<uint8_t>* GetData();

@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // protected System.Void Awake()
-    // Offset: 0x1949104
+    // Offset: 0xC039C8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1949190
+    // Offset: 0xC03A54
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveWasCleared()
-    // Offset: 0x194921C
+    // Offset: 0xC03AE0
     void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
     // public System.Void .ctor()
-    // Offset: 0x1949298
+    // Offset: 0xC03B5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

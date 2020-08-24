@@ -113,67 +113,67 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static public readonly System.Boolean isReady
     static void _set_isReady(bool value);
     // static public Mono.Globalization.Unicode.TailoringInfo GetTailoringInfo(System.Int32 lcid)
-    // Offset: 0x100CAD0
+    // Offset: 0x10B0C18
     static Mono::Globalization::Unicode::TailoringInfo* GetTailoringInfo(int lcid);
     // static public System.Void BuildTailoringTables(System.Globalization.CultureInfo culture, Mono.Globalization.Unicode.TailoringInfo t, Mono.Globalization.Unicode.Contraction[] contractions, Mono.Globalization.Unicode.Level2Map[] diacriticals)
-    // Offset: 0x100CBFC
+    // Offset: 0x10B0D44
     static void BuildTailoringTables(System::Globalization::CultureInfo* culture, Mono::Globalization::Unicode::TailoringInfo* t, ::Array<Mono::Globalization::Unicode::Contraction*>*& contractions, ::Array<Mono::Globalization::Unicode::Level2Map*>*& diacriticals);
     // static private System.Void SetCJKReferences(System.String name, Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, System.Byte* catTable, System.Byte* lv1Table, Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, System.Byte* lv2Table)
-    // Offset: 0x100D1DC
+    // Offset: 0x10B1324
     static void SetCJKReferences(::Il2CppString* name, Mono::Globalization::Unicode::CodePointIndexer*& cjkIndexer, uint8_t*& catTable, uint8_t*& lv1Table, Mono::Globalization::Unicode::CodePointIndexer*& lv2Indexer, uint8_t*& lv2Table);
     // static public System.Byte Category(System.Int32 cp)
-    // Offset: 0x100D494
+    // Offset: 0x10B15DC
     static uint8_t Category(int cp);
     // static public System.Byte Level1(System.Int32 cp)
-    // Offset: 0x100D54C
+    // Offset: 0x10B1694
     static uint8_t Level1(int cp);
     // static public System.Byte Level2(System.Int32 cp)
-    // Offset: 0x100D604
+    // Offset: 0x10B174C
     static uint8_t Level2(int cp);
     // static public System.Byte Level3(System.Int32 cp)
-    // Offset: 0x100D6BC
+    // Offset: 0x10B1804
     static uint8_t Level3(int cp);
     // static public System.Boolean IsIgnorable(System.Int32 cp, System.Byte flag)
-    // Offset: 0x100D774
+    // Offset: 0x10B18BC
     static bool IsIgnorable(int cp, uint8_t flag);
     // static public System.Boolean IsIgnorableNonSpacing(System.Int32 cp)
-    // Offset: 0x100D89C
+    // Offset: 0x10B19E4
     static bool IsIgnorableNonSpacing(int cp);
     // static public System.Int32 ToKanaTypeInsensitive(System.Int32 i)
-    // Offset: 0x100D904
+    // Offset: 0x10B1A4C
     static int ToKanaTypeInsensitive(int i);
     // static public System.Int32 ToWidthCompat(System.Int32 i)
-    // Offset: 0x100D924
+    // Offset: 0x10B1A6C
     static int ToWidthCompat(int i);
     // static public System.Boolean HasSpecialWeight(System.Char c)
-    // Offset: 0x100DABC
+    // Offset: 0x10B1C04
     static bool HasSpecialWeight(::Il2CppChar c);
     // static public System.Boolean IsHalfWidthKana(System.Char c)
-    // Offset: 0x100DB50
+    // Offset: 0x10B1C98
     static bool IsHalfWidthKana(::Il2CppChar c);
     // static public System.Boolean IsHiragana(System.Char c)
-    // Offset: 0x100DB64
+    // Offset: 0x10B1CAC
     static bool IsHiragana(::Il2CppChar c);
     // static public System.Boolean IsJapaneseSmallLetter(System.Char c)
-    // Offset: 0x100DB7C
+    // Offset: 0x10B1CC4
     static bool IsJapaneseSmallLetter(::Il2CppChar c);
     // static public System.Boolean get_IsReady()
-    // Offset: 0x100DC68
+    // Offset: 0x10B1DB0
     static bool get_IsReady();
     // static private System.IntPtr GetResource(System.String name)
-    // Offset: 0x100DCD0
+    // Offset: 0x10B1E18
     static System::IntPtr GetResource(::Il2CppString* name);
     // static private System.UInt32 UInt32FromBytePtr(System.Byte* raw, System.UInt32 idx)
-    // Offset: 0x100DD4C
+    // Offset: 0x10B1E94
     static uint UInt32FromBytePtr(uint8_t* raw, uint idx);
     // static private System.Void .cctor()
-    // Offset: 0x100DD7C
+    // Offset: 0x10B1EC4
     static void _cctor();
     // static public System.Void FillCJK(System.String culture, Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, System.Byte* catTable, System.Byte* lv1Table, Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, System.Byte* lv2Table)
-    // Offset: 0x100E224
+    // Offset: 0x10B236C
     static void FillCJK(::Il2CppString* culture, Mono::Globalization::Unicode::CodePointIndexer*& cjkIndexer, uint8_t*& catTable, uint8_t*& lv1Table, Mono::Globalization::Unicode::CodePointIndexer*& lv2Indexer, uint8_t*& lv2Table);
     // static private System.Void FillCJKCore(System.String culture, Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, System.Byte* catTable, System.Byte* lv1Table, Mono.Globalization.Unicode.CodePointIndexer cjkLv2Indexer, System.Byte* lv2Table)
-    // Offset: 0x100E380
+    // Offset: 0x10B24C8
     static void FillCJKCore(::Il2CppString* culture, Mono::Globalization::Unicode::CodePointIndexer*& cjkIndexer, uint8_t*& catTable, uint8_t*& lv1Table, Mono::Globalization::Unicode::CodePointIndexer*& cjkLv2Indexer, uint8_t*& lv2Table);
   }; // Mono.Globalization.Unicode.MSCompatUnicodeTable
 }

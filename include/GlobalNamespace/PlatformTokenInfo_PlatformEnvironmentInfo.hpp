@@ -63,19 +63,19 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* serializedName;
     // private System.Void .ctor(PlatformTokenInfo/PlatformEnvironmentInfo/PlatformEnvironment platformEnvironment, System.String serializedName)
-    // Offset: 0x191C9BC
+    // Offset: 0xBD827C
     static PlatformTokenInfo::PlatformEnvironmentInfo* New_ctor(GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo::PlatformEnvironment platformEnvironment, ::Il2CppString* serializedName);
     // static public PlatformTokenInfo/PlatformEnvironmentInfo TestPlatformEnvironmentInfo()
-    // Offset: 0x191CA00
+    // Offset: 0xBD82C0
     static GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* TestPlatformEnvironmentInfo();
     // static public PlatformTokenInfo/PlatformEnvironmentInfo DevelopmentPlatformEnvironmentInfo()
-    // Offset: 0x191CA7C
+    // Offset: 0xBD833C
     static GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* DevelopmentPlatformEnvironmentInfo();
     // static public PlatformTokenInfo/PlatformEnvironmentInfo CertificationPlatformEnvironmentInfo()
-    // Offset: 0x191CAFC
+    // Offset: 0xBD83BC
     static GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* CertificationPlatformEnvironmentInfo();
     // static public PlatformTokenInfo/PlatformEnvironmentInfo LivePlatformEnvironmentInfo()
-    // Offset: 0x191CB7C
+    // Offset: 0xBD843C
     static GlobalNamespace::PlatformTokenInfo::PlatformEnvironmentInfo* LivePlatformEnvironmentInfo();
   }; // PlatformTokenInfo/PlatformEnvironmentInfo
 }

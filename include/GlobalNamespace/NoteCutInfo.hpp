@@ -62,94 +62,94 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter;
     // public System.Boolean get_speedOK()
-    // Offset: 0x195BCF4
+    // Offset: 0xC175B8
     bool get_speedOK();
     // private System.Void set_speedOK(System.Boolean value)
-    // Offset: 0x195BCFC
+    // Offset: 0xC175C0
     void set_speedOK(bool value);
     // public System.Boolean get_directionOK()
-    // Offset: 0x195BD08
+    // Offset: 0xC175CC
     bool get_directionOK();
     // private System.Void set_directionOK(System.Boolean value)
-    // Offset: 0x195BD10
+    // Offset: 0xC175D4
     void set_directionOK(bool value);
     // public System.Boolean get_saberTypeOK()
-    // Offset: 0x195BD1C
+    // Offset: 0xC175E0
     bool get_saberTypeOK();
     // private System.Void set_saberTypeOK(System.Boolean value)
-    // Offset: 0x195BD24
+    // Offset: 0xC175E8
     void set_saberTypeOK(bool value);
     // public System.Boolean get_wasCutTooSoon()
-    // Offset: 0x195BD30
+    // Offset: 0xC175F4
     bool get_wasCutTooSoon();
     // private System.Void set_wasCutTooSoon(System.Boolean value)
-    // Offset: 0x195BD38
+    // Offset: 0xC175FC
     void set_wasCutTooSoon(bool value);
     // public System.Single get_saberSpeed()
-    // Offset: 0x195BD44
+    // Offset: 0xC17608
     float get_saberSpeed();
     // private System.Void set_saberSpeed(System.Single value)
-    // Offset: 0x195BD4C
+    // Offset: 0xC17610
     void set_saberSpeed(float value);
     // public UnityEngine.Vector3 get_saberDir()
-    // Offset: 0x195BD54
+    // Offset: 0xC17618
     UnityEngine::Vector3 get_saberDir();
     // private System.Void set_saberDir(UnityEngine.Vector3 value)
-    // Offset: 0x195BD60
+    // Offset: 0xC17624
     void set_saberDir(UnityEngine::Vector3 value);
     // public SaberType get_saberType()
-    // Offset: 0x195BD6C
+    // Offset: 0xC17630
     GlobalNamespace::SaberType get_saberType();
     // private System.Void set_saberType(SaberType value)
-    // Offset: 0x195BD74
+    // Offset: 0xC17638
     void set_saberType(GlobalNamespace::SaberType value);
     // public System.Single get_timeDeviation()
-    // Offset: 0x195BD7C
+    // Offset: 0xC17640
     float get_timeDeviation();
     // private System.Void set_timeDeviation(System.Single value)
-    // Offset: 0x195BD84
+    // Offset: 0xC17648
     void set_timeDeviation(float value);
     // public System.Single get_cutDirDeviation()
-    // Offset: 0x195BD8C
+    // Offset: 0xC17650
     float get_cutDirDeviation();
     // private System.Void set_cutDirDeviation(System.Single value)
-    // Offset: 0x195BD94
+    // Offset: 0xC17658
     void set_cutDirDeviation(float value);
     // public UnityEngine.Vector3 get_cutPoint()
-    // Offset: 0x195BD9C
+    // Offset: 0xC17660
     UnityEngine::Vector3 get_cutPoint();
     // private System.Void set_cutPoint(UnityEngine.Vector3 value)
-    // Offset: 0x195BDA8
+    // Offset: 0xC1766C
     void set_cutPoint(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_cutNormal()
-    // Offset: 0x195BDB4
+    // Offset: 0xC17678
     UnityEngine::Vector3 get_cutNormal();
     // private System.Void set_cutNormal(UnityEngine.Vector3 value)
-    // Offset: 0x195BDC0
+    // Offset: 0xC17684
     void set_cutNormal(UnityEngine::Vector3 value);
     // public System.Single get_cutDistanceToCenter()
-    // Offset: 0x195BDCC
+    // Offset: 0xC17690
     float get_cutDistanceToCenter();
     // private System.Void set_cutDistanceToCenter(System.Single value)
-    // Offset: 0x195BDD4
+    // Offset: 0xC17698
     void set_cutDistanceToCenter(float value);
     // public SaberSwingRatingCounter get_swingRatingCounter()
-    // Offset: 0x195BDDC
+    // Offset: 0xC176A0
     GlobalNamespace::SaberSwingRatingCounter* get_swingRatingCounter();
     // private System.Void set_swingRatingCounter(SaberSwingRatingCounter value)
-    // Offset: 0x195BDE4
+    // Offset: 0xC176A8
     void set_swingRatingCounter(GlobalNamespace::SaberSwingRatingCounter* value);
     // public System.Boolean get_allIsOK()
-    // Offset: 0x195B0BC
+    // Offset: 0xC16980
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0x195BDEC
+    // Offset: 0xC176B0
     bool get_allExceptSaberTypeIsOK();
     // public System.String get_FailText()
-    // Offset: 0x195BE14
+    // Offset: 0xC176D8
     ::Il2CppString* get_FailText();
     // public System.Void .ctor(System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutCenter, UnityEngine.Vector3 cutNormal, SaberSwingRatingCounter swingRatingCounter, System.Single cutDistanceToCenter)
-    // Offset: 0x195BEB0
+    // Offset: 0xC17774
     static NoteCutInfo* New_ctor(bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, UnityEngine::Vector3 saberDir, GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, UnityEngine::Vector3 cutCenter, UnityEngine::Vector3 cutNormal, GlobalNamespace::SaberSwingRatingCounter* swingRatingCounter, float cutDistanceToCenter);
   }; // NoteCutInfo
 }

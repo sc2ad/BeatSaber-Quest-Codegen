@@ -82,31 +82,31 @@ namespace GlobalNamespace {
     // Offset: 0x60
     System::Action_1<GlobalNamespace::FireworkItemController*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x19327F0
+    // Offset: 0xBEE0B4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x1932894
+    // Offset: 0xBEE158
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // protected System.Void Awake()
-    // Offset: 0x1932938
+    // Offset: 0xBEE1FC
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x19329C0
+    // Offset: 0xBEE284
     void OnDisable();
     // public System.Void Fire()
-    // Offset: 0x1932AFC
+    // Offset: 0xBEE3C0
     void Fire();
     // private System.Collections.IEnumerator FireCoroutine()
-    // Offset: 0x1932B28
+    // Offset: 0xBEE3EC
     System::Collections::IEnumerator* FireCoroutine();
     // private System.Void SetLightsColor(System.Single intensity)
-    // Offset: 0x1932A44
+    // Offset: 0xBEE308
     void SetLightsColor(float intensity);
     // private System.Void PlayExplosionSound()
-    // Offset: 0x1932BD0
+    // Offset: 0xBEE494
     void PlayExplosionSound();
     // public System.Void .ctor()
-    // Offset: 0x1932CBC
+    // Offset: 0xBEE580
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

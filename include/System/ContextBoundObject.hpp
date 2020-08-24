@@ -14,7 +14,7 @@ namespace System {
   class ContextBoundObject : public System::MarshalByRefObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x10224CC
+    // Offset: 0x10C5614
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

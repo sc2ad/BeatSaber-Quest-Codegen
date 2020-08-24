@@ -23,16 +23,16 @@ namespace System::Threading::Tasks {
   class TaskSchedulerException : public System::Exception {
     public:
     // public System.Void .ctor(System.Exception innerException)
-    // Offset: 0xC3EA44
+    // Offset: 0xCE2B8C
     static TaskSchedulerException* New_ctor(System::Exception* innerException);
     // public System.Void .ctor()
-    // Offset: 0xC45314
+    // Offset: 0xCE945C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TaskSchedulerException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xC4539C
+    // Offset: 0xCE94E4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static TaskSchedulerException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

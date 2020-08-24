@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<LeaderboardsDTO.LeaderboardEntryDTO,System.String> <>9__12_0
     static void _set_$$9__12_0(System::Func_2<LeaderboardsDTO::LeaderboardEntryDTO*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xB4288C
+    // Offset: 0xB428A0
     static void _cctor();
     // System.String <GetLeaderboardEntriesAsync>b__12_0(LeaderboardsDTO.LeaderboardEntryDTO x)
-    // Offset: 0xB428FC
+    // Offset: 0xB42910
     ::Il2CppString* $GetLeaderboardEntriesAsync$b__12_0(LeaderboardsDTO::LeaderboardEntryDTO* x);
     // public System.Void .ctor()
-    // Offset: 0xB428F4
+    // Offset: 0xB42908
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HTTPLeaderboardsModel::$$c* New_ctor();

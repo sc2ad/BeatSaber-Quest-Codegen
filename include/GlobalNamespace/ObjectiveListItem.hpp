@@ -27,16 +27,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     TMPro::TextMeshProUGUI* conditionText;
     // public System.Void set_title(System.String value)
-    // Offset: 0xBA6B18
+    // Offset: 0xC32ED0
     void set_title(::Il2CppString* value);
     // public System.Void set_conditionText(System.String value)
-    // Offset: 0xBA6B34
+    // Offset: 0xC32EEC
     void set_conditionText(::Il2CppString* value);
     // public System.Void set_hideCondition(System.Boolean value)
-    // Offset: 0xBA6B50
+    // Offset: 0xC32F08
     void set_hideCondition(bool value);
     // public System.Void .ctor()
-    // Offset: 0xBA6B90
+    // Offset: 0xC32F48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

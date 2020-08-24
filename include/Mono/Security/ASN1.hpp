@@ -28,43 +28,43 @@ namespace Mono::Security {
     // Offset: 0x20
     System::Collections::ArrayList* elist;
     // public System.Void .ctor(System.Byte tag)
-    // Offset: 0x18CCE08
+    // Offset: 0x197AF50
     static ASN1* New_ctor(uint8_t tag);
     // public System.Void .ctor(System.Byte tag, System.Byte[] data)
-    // Offset: 0x18CCE40
+    // Offset: 0x197AF88
     static ASN1* New_ctor(uint8_t tag, ::Array<uint8_t>* data);
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x18CCE84
+    // Offset: 0x197AFCC
     static ASN1* New_ctor(::Array<uint8_t>* data);
     // public System.Int32 get_Count()
-    // Offset: 0x18CD14C
+    // Offset: 0x197B294
     int get_Count();
     // public System.Byte get_Tag()
-    // Offset: 0x18CD168
+    // Offset: 0x197B2B0
     uint8_t get_Tag();
     // public System.Byte[] get_Value()
-    // Offset: 0x18CD170
+    // Offset: 0x197B2B8
     ::Array<uint8_t>* get_Value();
     // public System.Void set_Value(System.Byte[] value)
-    // Offset: 0x18CD208
+    // Offset: 0x197B350
     void set_Value(::Array<uint8_t>* value);
     // public Mono.Security.ASN1 Add(Mono.Security.ASN1 asn1)
-    // Offset: 0x18CD2B0
+    // Offset: 0x197B3F8
     Mono::Security::ASN1* Add(Mono::Security::ASN1* asn1);
     // public System.Byte[] GetBytes()
-    // Offset: 0x18CD358
+    // Offset: 0x197B4A0
     ::Array<uint8_t>* GetBytes();
     // protected System.Void Decode(System.Byte[] asn1, System.Int32 anPos, System.Int32 anLength)
-    // Offset: 0x18CD014
+    // Offset: 0x197B15C
     void Decode(::Array<uint8_t>* asn1, int& anPos, int anLength);
     // protected System.Void DecodeTLV(System.Byte[] asn1, System.Int32 pos, System.Byte tag, System.Int32 length, System.Byte[] content)
-    // Offset: 0x18CD980
+    // Offset: 0x197BAC8
     void DecodeTLV(::Array<uint8_t>* asn1, int& pos, uint8_t& tag, int& length, ::Array<uint8_t>*& content);
     // public Mono.Security.ASN1 get_Item(System.Int32 index)
-    // Offset: 0x18CDACC
+    // Offset: 0x197BC14
     Mono::Security::ASN1* get_Item(int index);
     // public override System.String ToString()
-    // Offset: 0x18CDC0C
+    // Offset: 0x197BD54
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

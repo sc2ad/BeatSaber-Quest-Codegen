@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRIOBuffer::_Close : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1471CAC
+    // Offset: 0x151CDF4
     static IVRIOBuffer::_Close* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EIOBufferError Invoke(System.UInt64 ulBuffer)
-    // Offset: 0x1471CC0
+    // Offset: 0x151CE08
     OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulBuffer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1471F28
+    // Offset: 0x151D070
     System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EIOBufferError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1471FB4
+    // Offset: 0x151D0FC
     OVR::OpenVR::EIOBufferError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRIOBuffer/_Close
 }

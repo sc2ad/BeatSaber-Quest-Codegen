@@ -27,16 +27,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::List_1<::Il2CppString*>* lines;
     // protected System.Void OnDestroy()
-    // Offset: 0xC1A464
+    // Offset: 0xCBD5AC
     void OnDestroy();
     // public System.Void Log(System.String text)
-    // Offset: 0xC1A198
+    // Offset: 0xCBD2E0
     void Log(::Il2CppString* text);
     // public System.Void Clear()
-    // Offset: 0xC1A3F0
+    // Offset: 0xCBD538
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0xC1A4B8
+    // Offset: 0xCBD600
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

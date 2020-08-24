@@ -170,46 +170,46 @@ namespace RootMotion::FinalIK {
     // Offset: 0x16C
     int chestBonesCount;
     // private System.Void Start()
-    // Offset: 0x130A6E0
+    // Offset: 0x13B0828
     void Start();
     // private System.Void OnStoreDefaultLocalState()
-    // Offset: 0x130AA64
+    // Offset: 0x13B0BAC
     void OnStoreDefaultLocalState();
     // private System.Void OnFixTransforms()
-    // Offset: 0x130AF60
+    // Offset: 0x13B10A8
     void OnFixTransforms();
     // private System.Void OnPreRead()
-    // Offset: 0x130B354
+    // Offset: 0x13B149C
     void OnPreRead();
     // private System.Void SpineBend()
-    // Offset: 0x130BCCC
+    // Offset: 0x13B1E14
     void SpineBend();
     // private System.Void CCDPass()
-    // Offset: 0x130C018
+    // Offset: 0x13B2160
     void CCDPass();
     // private System.Void Iterate(System.Int32 iteration)
-    // Offset: 0x130C3B4
+    // Offset: 0x13B24FC
     void Iterate(int iteration);
     // private System.Void OnPostUpdate()
-    // Offset: 0x130CE20
+    // Offset: 0x13B2F68
     void OnPostUpdate();
     // private System.Void ChestDirection()
-    // Offset: 0x130B9F8
+    // Offset: 0x13B1B40
     void ChestDirection();
     // private System.Void PostStretching()
-    // Offset: 0x130D030
+    // Offset: 0x13B3178
     void PostStretching();
     // private System.Void LerpSolverPosition(RootMotion.FinalIK.IKEffector effector, UnityEngine.Vector3 position, System.Single weight, UnityEngine.Vector3 offset)
-    // Offset: 0x130CCDC
+    // Offset: 0x13B2E24
     void LerpSolverPosition(RootMotion::FinalIK::IKEffector* effector, UnityEngine::Vector3 position, float weight, UnityEngine::Vector3 offset);
     // private System.Void Solve(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single nominalDistance)
-    // Offset: 0x130CB40
+    // Offset: 0x13B2C88
     void Solve(UnityEngine::Vector3& pos1, UnityEngine::Vector3& pos2, float nominalDistance);
     // private System.Void OnDestroy()
-    // Offset: 0x130D39C
+    // Offset: 0x13B34E4
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x130D680
+    // Offset: 0x13B37C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

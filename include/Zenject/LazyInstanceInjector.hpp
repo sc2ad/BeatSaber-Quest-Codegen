@@ -34,22 +34,22 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::HashSet_1<::Il2CppObject*>* instancesToInject;
     // public System.Void .ctor(Zenject.DiContainer container)
-    // Offset: 0xF1E820
+    // Offset: 0xFC3968
     static LazyInstanceInjector* New_ctor(Zenject::DiContainer* container);
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Instances()
-    // Offset: 0xF1E8B8
+    // Offset: 0xFC3A00
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Instances();
     // public System.Void AddInstance(System.Object instance)
-    // Offset: 0xF1E8C0
+    // Offset: 0xFC3A08
     void AddInstance(::Il2CppObject* instance);
     // public System.Void AddInstances(System.Collections.Generic.IEnumerable`1<System.Object> instances)
-    // Offset: 0xF1E928
+    // Offset: 0xFC3A70
     void AddInstances(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* instances);
     // public System.Void LazyInject(System.Object instance)
-    // Offset: 0xF1E990
+    // Offset: 0xFC3AD8
     void LazyInject(::Il2CppObject* instance);
     // public System.Void LazyInjectAll()
-    // Offset: 0xF1EA20
+    // Offset: 0xFC3B68
     void LazyInjectAll();
   }; // Zenject.LazyInstanceInjector
 }

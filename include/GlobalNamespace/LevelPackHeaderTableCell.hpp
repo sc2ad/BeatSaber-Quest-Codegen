@@ -53,26 +53,26 @@ namespace GlobalNamespace {
     // Offset: 0x78
     UnityEngine::UI::Image* coverImage;
     // public System.Void SetDataFromPack(IBeatmapLevelPack pack)
-    // Offset: 0x193B734
+    // Offset: 0xBF5FF8
     void SetDataFromPack(GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void SetData(System.String headerText, UnityEngine.Sprite headerSprite)
-    // Offset: 0x193B88C
+    // Offset: 0xBF6150
     void SetData(::Il2CppString* headerText, UnityEngine::Sprite* headerSprite);
     // private System.Void RefreshVisuals()
-    // Offset: 0x193B8D4
+    // Offset: 0xBF6198
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x193B8D0
+    // Offset: 0xBF6194
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x193BA24
+    // Offset: 0xBF62E8
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x193BA28
+    // Offset: 0xBF62EC
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()

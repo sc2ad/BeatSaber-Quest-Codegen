@@ -42,84 +42,84 @@ namespace UnityEngine::UI {
     // Offset: 0x34
     int m_LayoutPriority;
     // public System.Void set_ignoreLayout(System.Boolean value)
-    // Offset: 0x115B86C
+    // Offset: 0x11FF9B4
     void set_ignoreLayout(bool value);
     // public System.Void set_minWidth(System.Single value)
-    // Offset: 0x115B9B4
+    // Offset: 0x11FFAFC
     void set_minWidth(float value);
     // public System.Void set_minHeight(System.Single value)
-    // Offset: 0x115BA38
+    // Offset: 0x11FFB80
     void set_minHeight(float value);
     // public System.Void set_preferredWidth(System.Single value)
-    // Offset: 0x115BABC
+    // Offset: 0x11FFC04
     void set_preferredWidth(float value);
     // public System.Void set_preferredHeight(System.Single value)
-    // Offset: 0x115BB40
+    // Offset: 0x11FFC88
     void set_preferredHeight(float value);
     // public System.Void set_flexibleWidth(System.Single value)
-    // Offset: 0x115BBC4
+    // Offset: 0x11FFD0C
     void set_flexibleWidth(float value);
     // public System.Void set_flexibleHeight(System.Single value)
-    // Offset: 0x115BC48
+    // Offset: 0x11FFD90
     void set_flexibleHeight(float value);
     // public System.Void set_layoutPriority(System.Int32 value)
-    // Offset: 0x115BCCC
+    // Offset: 0x11FFE14
     void set_layoutPriority(int value);
     // protected System.Void SetDirty()
-    // Offset: 0x115B8E8
+    // Offset: 0x11FFA30
     void SetDirty();
     // public System.Boolean get_ignoreLayout()
-    // Offset: 0x115B864
+    // Offset: 0x11FF9AC
     // Implemented from: UnityEngine.UI.ILayoutIgnorer
     // Base method: System.Boolean ILayoutIgnorer::get_ignoreLayout()
     bool get_ignoreLayout();
     // public System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x115B9A4
+    // Offset: 0x11FFAEC
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public System.Void CalculateLayoutInputVertical()
-    // Offset: 0x115B9A8
+    // Offset: 0x11FFAF0
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public System.Single get_minWidth()
-    // Offset: 0x115B9AC
+    // Offset: 0x11FFAF4
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minWidth()
     float get_minWidth();
     // public System.Single get_minHeight()
-    // Offset: 0x115BA30
+    // Offset: 0x11FFB78
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minHeight()
     float get_minHeight();
     // public System.Single get_preferredWidth()
-    // Offset: 0x115BAB4
+    // Offset: 0x11FFBFC
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredWidth()
     float get_preferredWidth();
     // public System.Single get_preferredHeight()
-    // Offset: 0x115BB38
+    // Offset: 0x11FFC80
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredHeight()
     float get_preferredHeight();
     // public System.Single get_flexibleWidth()
-    // Offset: 0x115BBBC
+    // Offset: 0x11FFD04
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleWidth()
     float get_flexibleWidth();
     // public System.Single get_flexibleHeight()
-    // Offset: 0x115BC40
+    // Offset: 0x11FFD88
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleHeight()
     float get_flexibleHeight();
     // public System.Int32 get_layoutPriority()
-    // Offset: 0x115BCC4
+    // Offset: 0x11FFE0C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Int32 ILayoutElement::get_layoutPriority()
     int get_layoutPriority();
     // protected System.Void .ctor()
-    // Offset: 0x115BD48
+    // Offset: 0x11FFE90
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -129,27 +129,27 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static LayoutElement* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0x115BD6C
+    // Offset: 0x11FFEB4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x115BD94
+    // Offset: 0x11FFEDC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnTransformParentChanged()
     void OnTransformParentChanged();
     // protected override System.Void OnDisable()
-    // Offset: 0x115BD98
+    // Offset: 0x11FFEE0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x115BDC0
+    // Offset: 0x11FFF08
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // protected override System.Void OnBeforeTransformParentChanged()
-    // Offset: 0x115BDC4
+    // Offset: 0x11FFF0C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnBeforeTransformParentChanged()
     void OnBeforeTransformParentChanged();

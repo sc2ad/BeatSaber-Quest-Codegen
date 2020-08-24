@@ -93,19 +93,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Int32 opRecordIdCount
     static void _set_opRecordIdCount(int value);
     // System.Void Init()
-    // Offset: 0xD86BFC
+    // Offset: 0xE2BD44
     void Init();
     // System.Void ArrayCountIncrement(System.Int32 value)
-    // Offset: 0xD86CC8
+    // Offset: 0xE2BE10
     void ArrayCountIncrement(int value);
     // System.Boolean GetNext(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, System.Object outTypeInformation)
-    // Offset: 0xD86CD8
+    // Offset: 0xE2BE20
     bool GetNext(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& outBinaryTypeEnum, ::Il2CppObject*& outTypeInformation);
     // static private System.Void .cctor()
-    // Offset: 0xD86E50
+    // Offset: 0xE2BF98
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0xD86B80
+    // Offset: 0xE2BCC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjectProgress* New_ctor();

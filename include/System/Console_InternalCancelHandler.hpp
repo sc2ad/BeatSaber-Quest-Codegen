@@ -26,16 +26,16 @@ namespace System {
   class Console::InternalCancelHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x102048C
+    // Offset: 0x10C35D4
     static Console::InternalCancelHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x10218BC
+    // Offset: 0x10C4A04
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1021AC8
+    // Offset: 0x10C4C10
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1021AF4
+    // Offset: 0x10C4C3C
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Console/InternalCancelHandler
 }

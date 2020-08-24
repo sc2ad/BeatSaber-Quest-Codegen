@@ -29,22 +29,22 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect;
     // protected System.Void Awake()
-    // Offset: 0x18F2788
+    // Offset: 0xB8BCE8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x18F2868
+    // Offset: 0xB8BDC8
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInitEvent(NoteController noteController)
-    // Offset: 0x18F298C
+    // Offset: 0xB8BEEC
     void HandleNoteControllerDidInitEvent(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteDidStartDissolvingEvent(NoteController noteController, System.Single duration)
-    // Offset: 0x18F29B8
+    // Offset: 0xB8BF18
     void HandleNoteDidStartDissolvingEvent(GlobalNamespace::NoteController* noteController, float duration);
     // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x18F29C8
+    // Offset: 0xB8BF28
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x18F29F0
+    // Offset: 0xB8BF50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

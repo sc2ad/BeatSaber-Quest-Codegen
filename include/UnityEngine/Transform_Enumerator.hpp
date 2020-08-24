@@ -22,10 +22,10 @@ namespace UnityEngine {
     // Offset: 0x18
     int currentIndex;
     // System.Void .ctor(UnityEngine.Transform outer)
-    // Offset: 0x12F2D44
+    // Offset: 0x1399E8C
     static Transform::Enumerator* New_ctor(UnityEngine::Transform* outer);
     // public System.Object get_Current()
-    // Offset: 0x12F2DD0
+    // Offset: 0x1399F18
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -33,12 +33,12 @@ namespace UnityEngine {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x12F2E28
+    // Offset: 0x1399F70
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x12F2E94
+    // Offset: 0x1399FDC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

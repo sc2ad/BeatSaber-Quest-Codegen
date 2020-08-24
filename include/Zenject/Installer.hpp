@@ -14,7 +14,7 @@ namespace Zenject {
   class Installer : public Zenject::InstallerBase {
     public:
     // protected System.Void .ctor()
-    // Offset: 0xE992F8
+    // Offset: 0xF3E440
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::.ctor()
     // Base method: System.Void Object::.ctor()

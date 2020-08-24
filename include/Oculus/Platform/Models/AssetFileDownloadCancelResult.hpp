@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x28
     bool Success;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xDFCED8
+    // Offset: 0xEA2020
     static AssetFileDownloadCancelResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AssetFileDownloadCancelResult
 }

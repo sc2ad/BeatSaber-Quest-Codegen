@@ -70,16 +70,16 @@ namespace GlobalNamespace {
     // Offset: 0x60
     GlobalNamespace::PlayingTutorialPresenceData* playingTutorialPresenceData;
     // protected System.Void Awake()
-    // Offset: 0xB95B44
+    // Offset: 0xC21EFC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xB95C54
+    // Offset: 0xC2200C
     void OnDestroy();
     // private System.Void HandleGameScenesManagerTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer diContainer)
-    // Offset: 0xB95D30
+    // Offset: 0xC220E8
     void HandleGameScenesManagerTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* diContainer);
     // public System.Void .ctor()
-    // Offset: 0xB96164
+    // Offset: 0xC2251C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

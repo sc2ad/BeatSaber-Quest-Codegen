@@ -27,19 +27,19 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::HMAsyncRequest::CancelHander* cancelHander;
     // public HMAsyncRequest/CancelHander get_CancelHandler()
-    // Offset: 0xC13030
+    // Offset: 0xCB6178
     GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();
     // public System.Void set_CancelHandler(HMAsyncRequest/CancelHander value)
-    // Offset: 0xC13038
+    // Offset: 0xCB6180
     void set_CancelHandler(GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public System.Boolean get_cancelled()
-    // Offset: 0xC13040
+    // Offset: 0xCB6188
     bool get_cancelled();
     // public System.Void Cancel()
-    // Offset: 0xC13048
+    // Offset: 0xCB6190
     void Cancel();
     // public System.Void .ctor()
-    // Offset: 0xC1341C
+    // Offset: 0xCB6564
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()

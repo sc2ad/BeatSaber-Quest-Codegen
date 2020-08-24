@@ -50,31 +50,31 @@ namespace Zenject {
     // Offset: 0x18
     System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>* providerMap;
     // public System.Void .ctor(Zenject.IProvider creator)
-    // Offset: 0xCC7AD4
+    // Offset: 0xD6BC1C
     static CachedOpenTypeProvider* New_ctor(Zenject::IProvider* creator);
     // public System.Int32 get_NumInstances()
-    // Offset: 0xCC7C64
+    // Offset: 0xD6BDAC
     int get_NumInstances();
     // public System.Void ClearCache()
-    // Offset: 0xCC7D88
+    // Offset: 0xD6BED0
     void ClearCache();
     // public System.Boolean get_IsCached()
-    // Offset: 0xCC7C18
+    // Offset: 0xD6BD60
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0xCC7C20
+    // Offset: 0xD6BD68
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0xCC7DE0
+    // Offset: 0xD6BF28
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0xCC7EA4
+    // Offset: 0xD6BFEC
     // Implemented from: Zenject.IProvider
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);

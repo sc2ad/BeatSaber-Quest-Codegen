@@ -46,13 +46,13 @@ namespace System {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Tuple_4<T1, T2, T3, T4>*>("System", "Tuple", "Create", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get()}, item1, item2, item3, item4)));
     }
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x16EAE4C
+    // Offset: 0x1795F94
     static int CombineHashCodes(int h1, int h2);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3)
-    // Offset: 0x16EAE58
+    // Offset: 0x1795FA0
     static int CombineHashCodes(int h1, int h2, int h3);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4)
-    // Offset: 0x16EAE6C
+    // Offset: 0x1795FB4
     static int CombineHashCodes(int h1, int h2, int h3, int h4);
   }; // System.Tuple
 }

@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType;
     // public System.Void .ctor(ScoreUIController/ScoreDisplayType scoreDisplayType)
-    // Offset: 0xBA1AB8
+    // Offset: 0xC2DE70
     static ScoreUIController::InitData* New_ctor(GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType);
   }; // ScoreUIController/InitData
 }

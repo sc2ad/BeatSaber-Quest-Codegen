@@ -33,13 +33,13 @@ namespace Zenject::Internal {
     // Offset: 0x18
     System::Collections::Generic::List_1<System::Reflection::FieldInfo*>* writeableFields;
     // System.Boolean <GetOnlyPropertySetter>b__0(System.Reflection.FieldInfo f)
-    // Offset: 0xE9A534
+    // Offset: 0xF3F67C
     bool $GetOnlyPropertySetter$b__0(System::Reflection::FieldInfo* f);
     // System.Void <GetOnlyPropertySetter>b__2(System.Object injectable, System.Object value)
-    // Offset: 0xE9A5DC
+    // Offset: 0xF3F724
     void $GetOnlyPropertySetter$b__2(::Il2CppObject* injectable, ::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0xE9A3B4
+    // Offset: 0xF3F4FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_0* New_ctor();

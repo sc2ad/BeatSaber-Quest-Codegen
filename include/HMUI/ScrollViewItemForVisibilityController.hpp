@@ -20,10 +20,10 @@ namespace HMUI {
   class ScrollViewItemForVisibilityController : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void GetWorldCorners(UnityEngine.Vector3[] fourCornersArray)
-    // Offset: 0x103F360
+    // Offset: 0x10E24A8
     void GetWorldCorners(::Array<UnityEngine::Vector3>* fourCornersArray);
     // public System.Void .ctor()
-    // Offset: 0x103F3D0
+    // Offset: 0x10E2518
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

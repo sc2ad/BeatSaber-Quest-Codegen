@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Offset: 0x38
     bool rotatingLasers;
     // protected System.Void Awake()
-    // Offset: 0x1930798
+    // Offset: 0xBEC05C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x19309C8
+    // Offset: 0xBEC28C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1930C58
+    // Offset: 0xBEC51C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

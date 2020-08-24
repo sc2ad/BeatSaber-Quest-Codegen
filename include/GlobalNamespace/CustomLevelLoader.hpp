@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     UnityEngine::Texture2D* defaultPackCoverTexture2D;
     // public System.Void .ctor()
-    // Offset: 0x1928014
+    // Offset: 0xBE38D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

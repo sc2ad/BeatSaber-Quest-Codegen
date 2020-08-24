@@ -28,21 +28,21 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimatorControllerPlayable
     AnimatorControllerPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x9C4640
+    // Offset: 0xA5DCB8
     static AnimatorControllerPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetHandle(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x9C4654
+    // Offset: 0xA5DCCC
     void SetHandle(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
-    // Offset: 0x18949B4
+    // Offset: 0x1940AFC
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0x9C4648
+    // Offset: 0xA5DCC0
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimatorControllerPlayable other)
-    // Offset: 0x9C465C
+    // Offset: 0xA5DCD4
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimatorControllerPlayable other)
     bool Equals(UnityEngine::Animations::AnimatorControllerPlayable other);

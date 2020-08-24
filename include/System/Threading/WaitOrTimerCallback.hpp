@@ -24,16 +24,16 @@ namespace System::Threading {
   class WaitOrTimerCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xC4BF24
+    // Offset: 0xCF006C
     static WaitOrTimerCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object state, System.Boolean timedOut)
-    // Offset: 0xC36B90
+    // Offset: 0xCDACD8
     void Invoke(::Il2CppObject* state, bool timedOut);
     // public System.IAsyncResult BeginInvoke(System.Object state, System.Boolean timedOut, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xC4BF38
+    // Offset: 0xCF0080
     System::IAsyncResult* BeginInvoke(::Il2CppObject* state, bool timedOut, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xC4BFD8
+    // Offset: 0xCF0120
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.WaitOrTimerCallback
 }

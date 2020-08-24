@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     ::Il2CppString* ussStyle;
     // public System.Void .ctor(System.String ussStyle)
-    // Offset: 0xFF581C
+    // Offset: 0x1099964
     static CustomStyleAttribute* New_ctor(::Il2CppString* ussStyle);
   }; // UnityEngine.Timeline.CustomStyleAttribute
 }

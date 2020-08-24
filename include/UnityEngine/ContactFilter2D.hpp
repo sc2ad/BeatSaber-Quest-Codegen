@@ -50,16 +50,16 @@ namespace UnityEngine {
     // Creating value type constructor for type: ContactFilter2D
     ContactFilter2D(bool useTriggers_ = {}, bool useLayerMask_ = {}, bool useDepth_ = {}, bool useOutsideDepth_ = {}, bool useNormalAngle_ = {}, bool useOutsideNormalAngle_ = {}, UnityEngine::LayerMask layerMask_ = {}, float minDepth_ = {}, float maxDepth_ = {}, float minNormalAngle_ = {}, float maxNormalAngle_ = {}) : useTriggers{useTriggers_}, useLayerMask{useLayerMask_}, useDepth{useDepth_}, useOutsideDepth{useOutsideDepth_}, useNormalAngle{useNormalAngle_}, useOutsideNormalAngle{useOutsideNormalAngle_}, layerMask{layerMask_}, minDepth{minDepth_}, maxDepth{maxDepth_}, minNormalAngle{minNormalAngle_}, maxNormalAngle{maxNormalAngle_} {}
     // private System.Void CheckConsistency()
-    // Offset: 0x9C6C14
+    // Offset: 0xA6028C
     void CheckConsistency();
     // public System.Void SetLayerMask(UnityEngine.LayerMask layerMask)
-    // Offset: 0x9C6C1C
+    // Offset: 0xA60294
     void SetLayerMask(UnityEngine::LayerMask layerMask);
     // public System.Void SetDepth(System.Single minDepth, System.Single maxDepth)
-    // Offset: 0x9C6C2C
+    // Offset: 0xA602A4
     void SetDepth(float minDepth, float maxDepth);
     // static UnityEngine.ContactFilter2D CreateLegacyFilter(System.Int32 layerMask, System.Single minDepth, System.Single maxDepth)
-    // Offset: 0x18C5044
+    // Offset: 0x197218C
     static UnityEngine::ContactFilter2D CreateLegacyFilter(int layerMask, float minDepth, float maxDepth);
   }; // UnityEngine.ContactFilter2D
 }

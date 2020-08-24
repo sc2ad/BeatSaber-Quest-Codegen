@@ -19,10 +19,10 @@ namespace GlobalNamespace {
   class BeatmapDataNoArrowsTransform : public ::Il2CppObject {
     public:
     // static public BeatmapData CreateTransformedData(BeatmapData beatmapData, System.Boolean randomColors)
-    // Offset: 0x18F44D4
+    // Offset: 0xB8DA34
     static GlobalNamespace::BeatmapData* CreateTransformedData(GlobalNamespace::BeatmapData* beatmapData, bool randomColors);
     // public System.Void .ctor()
-    // Offset: 0x18FB65C
+    // Offset: 0xB94BBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataNoArrowsTransform* New_ctor();

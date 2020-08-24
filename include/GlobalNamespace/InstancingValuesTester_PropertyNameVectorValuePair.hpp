@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Vector4 vector;
     // public System.Void .ctor()
-    // Offset: 0x177F92C
+    // Offset: 0x1829A74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InstancingValuesTester::PropertyNameVectorValuePair* New_ctor();

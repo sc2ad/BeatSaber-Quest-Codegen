@@ -29,18 +29,18 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BoolSO* postProcessEnabled;
     // public MainEffectSO get_mainEffect()
-    // Offset: 0x1865968
+    // Offset: 0x1911AB0
     GlobalNamespace::MainEffectSO* get_mainEffect();
     // public System.Void Init(MainEffectSO mainEffect)
-    // Offset: 0x18659F0
+    // Offset: 0x1911B38
     void Init(GlobalNamespace::MainEffectSO* mainEffect);
     // protected override System.Void OnEnable()
-    // Offset: 0x1865970
+    // Offset: 0x1911AB8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1865A80
+    // Offset: 0x1911BC8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

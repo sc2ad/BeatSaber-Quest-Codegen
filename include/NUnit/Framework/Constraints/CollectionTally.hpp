@@ -36,19 +36,19 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x18
     NUnit::Framework::Constraints::NUnitEqualityComparer* comparer;
     // public System.Void .ctor(NUnit.Framework.Constraints.NUnitEqualityComparer comparer, System.Collections.IEnumerable c)
-    // Offset: 0xFD0AD4
+    // Offset: 0x1074C1C
     static CollectionTally* New_ctor(NUnit::Framework::Constraints::NUnitEqualityComparer* comparer, System::Collections::IEnumerable* c);
     // public System.Int32 get_Count()
-    // Offset: 0xFD0DBC
+    // Offset: 0x1074F04
     int get_Count();
     // private System.Boolean ItemsEqual(System.Object expected, System.Object actual)
-    // Offset: 0xFD0E0C
+    // Offset: 0x1074F54
     bool ItemsEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // public System.Boolean TryRemove(System.Object o)
-    // Offset: 0xFD1B3C
+    // Offset: 0x1075C84
     bool TryRemove(::Il2CppObject* o);
     // public System.Boolean TryRemove(System.Collections.IEnumerable c)
-    // Offset: 0xFD1C08
+    // Offset: 0x1075D50
     bool TryRemove(System::Collections::IEnumerable* c);
   }; // NUnit.Framework.Constraints.CollectionTally
 }

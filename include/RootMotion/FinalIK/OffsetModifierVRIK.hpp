@@ -37,25 +37,25 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     float lastTime;
     // protected System.Single get_deltaTime()
-    // Offset: 0x118F708
+    // Offset: 0x1233850
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
     // Offset: 0xFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x118F734
+    // Offset: 0x123387C
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x118F760
+    // Offset: 0x12338A8
     System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x118F808
+    // Offset: 0x1233950
     void ModifyOffset();
     // protected System.Void OnDestroy()
-    // Offset: 0x118F914
+    // Offset: 0x1233A5C
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x118FA30
+    // Offset: 0x1233B78
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

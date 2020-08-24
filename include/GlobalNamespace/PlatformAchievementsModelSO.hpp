@@ -44,22 +44,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::PlatformAchievementsHandler* platformAchievementsHandler;
     // private PlatformAchievementsHandler get_platformAchievementsHandler()
-    // Offset: 0x1919B64
+    // Offset: 0xBD5424
     GlobalNamespace::PlatformAchievementsHandler* get_platformAchievementsHandler();
     // public System.Void Initialize()
-    // Offset: 0x1919C28
+    // Offset: 0xBD54E8
     void Initialize();
     // private System.Void CreatePlatformAchievementsHandler()
-    // Offset: 0x1919B94
+    // Offset: 0xBD5454
     void CreatePlatformAchievementsHandler();
     // public HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0x1919C2C
+    // Offset: 0xBD54EC
     GlobalNamespace::HMAsyncRequest* UnlockAchievement(::Il2CppString* achievementId, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0x1919F10
+    // Offset: 0xBD57D0
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
     // public System.Void .ctor()
-    // Offset: 0x191A200
+    // Offset: 0xBD5AC0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class AchievementProgressList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AchievementProgress*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xDFC1C4
+    // Offset: 0xEA130C
     static AchievementProgressList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.AchievementProgressList
 }

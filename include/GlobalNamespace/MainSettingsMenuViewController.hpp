@@ -44,30 +44,30 @@ namespace GlobalNamespace {
     // Offset: 0x88
     int selectedSubMenuInfoIdx;
     // public System.Void add_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x194567C
+    // Offset: 0xBFFF40
     void add_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void remove_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x1945720
+    // Offset: 0xBFFFE4
     void remove_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Int32 get_numberOfSubMenus()
-    // Offset: 0x19457C4
+    // Offset: 0xC00088
     int get_numberOfSubMenus();
     // public SettingsSubMenuInfo get_selectedSubMenuInfo()
-    // Offset: 0x19457E0
+    // Offset: 0xC000A4
     GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
     // public System.Void Init(System.Int32 selectedSubMenuInfoIdx)
-    // Offset: 0x19457E8
+    // Offset: 0xC000AC
     void Init(int selectedSubMenuInfoIdx);
     // private System.Void HandleMainSettingsTableViewDidSelectRow(MainSettingsTableView tableView, System.Int32 row)
-    // Offset: 0x1945AD0
+    // Offset: 0xC00394
     void HandleMainSettingsTableViewDidSelectRow(GlobalNamespace::MainSettingsTableView* tableView, int row);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0x194582C
+    // Offset: 0xC000F0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0x1945B84
+    // Offset: 0xC00448
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

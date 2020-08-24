@@ -44,12 +44,12 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::BeatLine* beatLinePrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0xB3DB68
+    // Offset: 0xB3DB7C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xB3DDB4
+    // Offset: 0xB3DDC8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

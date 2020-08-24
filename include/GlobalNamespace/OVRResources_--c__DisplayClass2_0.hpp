@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Il2CppString* path;
     // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0xEA90CC
+    // Offset: 0xF4E214
     bool $Load$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0xEA8FF0
+    // Offset: 0xF4E138
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRResources::$$c__DisplayClass2_0* New_ctor();

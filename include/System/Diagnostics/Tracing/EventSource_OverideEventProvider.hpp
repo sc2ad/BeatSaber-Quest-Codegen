@@ -32,10 +32,10 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x60
     System::Diagnostics::Tracing::EventSource* m_eventSource;
     // public System.Void .ctor(System.Diagnostics.Tracing.EventSource eventSource)
-    // Offset: 0xCF2360
+    // Offset: 0xD964A8
     static EventSource::OverideEventProvider* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource);
     // protected override System.Void OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId)
-    // Offset: 0xCF23E4
+    // Offset: 0xD9652C
     // Implemented from: System.Diagnostics.Tracing.EventProvider
     // Base method: System.Void EventProvider::OnControllerCommand(System.Diagnostics.Tracing.ControllerCommand command, System.Collections.Generic.IDictionary`2<System.String,System.String> arguments, System.Int32 perEventSourceSessionId, System.Int32 etwSessionId)
     void OnControllerCommand(System::Diagnostics::Tracing::ControllerCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, int perEventSourceSessionId, int etwSessionId);

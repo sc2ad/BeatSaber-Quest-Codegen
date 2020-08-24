@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_ReleaseSharedGLTexture : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x146E508
+    // Offset: 0x1519650
     static IVRCompositor::_ReleaseSharedGLTexture* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt32 glTextureId, System.IntPtr glSharedTextureHandle)
-    // Offset: 0x146E51C
+    // Offset: 0x1519664
     bool Invoke(uint glTextureId, System::IntPtr glSharedTextureHandle);
     // public System.IAsyncResult BeginInvoke(System.UInt32 glTextureId, System.IntPtr glSharedTextureHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x146E7B0
+    // Offset: 0x15198F8
     System::IAsyncResult* BeginInvoke(uint glTextureId, System::IntPtr glSharedTextureHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x146E85C
+    // Offset: 0x15199A4
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_ReleaseSharedGLTexture
 }

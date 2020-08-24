@@ -121,7 +121,7 @@ namespace UnityEngine {
     // Offset: 0x18
     ::Il2CppObject* value;
     // System.Void .ctor(UnityEngine.GUILayoutOption/Type type, System.Object value)
-    // Offset: 0x11CAA94
+    // Offset: 0x126EBDC
     static GUILayoutOption* New_ctor(UnityEngine::GUILayoutOption::Type type, ::Il2CppObject* value);
   }; // UnityEngine.GUILayoutOption
 }

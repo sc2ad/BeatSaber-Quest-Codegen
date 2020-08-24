@@ -44,19 +44,19 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::SongController* songController;
     // protected System.Void Start()
-    // Offset: 0x18F4EC0
+    // Offset: 0xB8E420
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x18F4F54
+    // Offset: 0xB8E4B4
     void OnDestroy();
     // private System.Void HandleNoteDidStartJumpEvent(NoteController noteController)
-    // Offset: 0x18F502C
+    // Offset: 0xB8E58C
     void HandleNoteDidStartJumpEvent(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleBeatEffectDidFinish(BeatEffect beatEffect)
-    // Offset: 0x18F5278
+    // Offset: 0xB8E7D8
     void HandleBeatEffectDidFinish(GlobalNamespace::BeatEffect* beatEffect);
     // public System.Void .ctor()
-    // Offset: 0x18F5324
+    // Offset: 0xB8E884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

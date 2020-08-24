@@ -28,13 +28,13 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x18
     UnityEngine::EventSystems::PointerEventData* buttonData;
     // public System.Boolean PressedThisFrame()
-    // Offset: 0xD5D608
+    // Offset: 0xE02750
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0xD5D61C
+    // Offset: 0xE02764
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0xD5D630
+    // Offset: 0xE02778
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PointerInputModule::MouseButtonEventData* New_ctor();

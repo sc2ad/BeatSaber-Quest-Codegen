@@ -145,118 +145,118 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool noArrows;
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0xB3F284
+    // Offset: 0xB3F298
     GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // public System.Void set_energyType(GameplayModifiers/EnergyType value)
-    // Offset: 0xB3F28C
+    // Offset: 0xB3F2A0
     void set_energyType(GlobalNamespace::GameplayModifiers::EnergyType value);
     // public System.Boolean get_batteryEnergy()
-    // Offset: 0xB3F294
+    // Offset: 0xB3F2A8
     bool get_batteryEnergy();
     // public System.Void set_batteryEnergy(System.Boolean value)
-    // Offset: 0xB3F2A4
+    // Offset: 0xB3F2B8
     void set_batteryEnergy(bool value);
     // public System.Boolean get_noFail()
-    // Offset: 0xB3F2D0
+    // Offset: 0xB3F2E4
     bool get_noFail();
     // public System.Void set_noFail(System.Boolean value)
-    // Offset: 0xB3F2D8
+    // Offset: 0xB3F2EC
     void set_noFail(bool value);
     // public System.Boolean get_demoNoFail()
-    // Offset: 0xB3F2E4
+    // Offset: 0xB3F2F8
     bool get_demoNoFail();
     // public System.Void set_demoNoFail(System.Boolean value)
-    // Offset: 0xB3F2EC
+    // Offset: 0xB3F300
     void set_demoNoFail(bool value);
     // public System.Boolean get_instaFail()
-    // Offset: 0xB3F2F8
+    // Offset: 0xB3F30C
     bool get_instaFail();
     // public System.Void set_instaFail(System.Boolean value)
-    // Offset: 0xB3F300
+    // Offset: 0xB3F314
     void set_instaFail(bool value);
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0xB3F30C
+    // Offset: 0xB3F320
     bool get_failOnSaberClash();
     // public System.Void set_failOnSaberClash(System.Boolean value)
-    // Offset: 0xB3F314
+    // Offset: 0xB3F328
     void set_failOnSaberClash(bool value);
     // public GameplayModifiers/EnabledObstacleType get_enabledObstacleType()
-    // Offset: 0xB3F320
+    // Offset: 0xB3F334
     GlobalNamespace::GameplayModifiers::EnabledObstacleType get_enabledObstacleType();
     // public System.Void set_enabledObstacleType(GameplayModifiers/EnabledObstacleType value)
-    // Offset: 0xB3F328
+    // Offset: 0xB3F33C
     void set_enabledObstacleType(GlobalNamespace::GameplayModifiers::EnabledObstacleType value);
     // public System.Boolean get_noObstacles()
-    // Offset: 0xB3F330
+    // Offset: 0xB3F344
     bool get_noObstacles();
     // public System.Void set_noObstacles(System.Boolean value)
-    // Offset: 0xB3F340
+    // Offset: 0xB3F354
     void set_noObstacles(bool value);
     // public System.Boolean get_demoNoObstacles()
-    // Offset: 0xB3F364
+    // Offset: 0xB3F378
     bool get_demoNoObstacles();
     // public System.Void set_demoNoObstacles(System.Boolean value)
-    // Offset: 0xB3F36C
+    // Offset: 0xB3F380
     void set_demoNoObstacles(bool value);
     // public System.Boolean get_fastNotes()
-    // Offset: 0xB3F378
+    // Offset: 0xB3F38C
     bool get_fastNotes();
     // public System.Void set_fastNotes(System.Boolean value)
-    // Offset: 0xB3F380
+    // Offset: 0xB3F394
     void set_fastNotes(bool value);
     // public System.Boolean get_strictAngles()
-    // Offset: 0xB3F38C
+    // Offset: 0xB3F3A0
     bool get_strictAngles();
     // public System.Void set_strictAngles(System.Boolean value)
-    // Offset: 0xB3F394
+    // Offset: 0xB3F3A8
     void set_strictAngles(bool value);
     // public System.Boolean get_disappearingArrows()
-    // Offset: 0xB3F3A0
+    // Offset: 0xB3F3B4
     bool get_disappearingArrows();
     // public System.Void set_disappearingArrows(System.Boolean value)
-    // Offset: 0xB3F3A8
+    // Offset: 0xB3F3BC
     void set_disappearingArrows(bool value);
     // public System.Boolean get_ghostNotes()
-    // Offset: 0xB3F3B4
+    // Offset: 0xB3F3C8
     bool get_ghostNotes();
     // public System.Void set_ghostNotes(System.Boolean value)
-    // Offset: 0xB3F3BC
+    // Offset: 0xB3F3D0
     void set_ghostNotes(bool value);
     // public System.Boolean get_noBombs()
-    // Offset: 0xB3F3C8
+    // Offset: 0xB3F3DC
     bool get_noBombs();
     // public System.Void set_noBombs(System.Boolean value)
-    // Offset: 0xB3F3D0
+    // Offset: 0xB3F3E4
     void set_noBombs(bool value);
     // public GameplayModifiers/SongSpeed get_songSpeed()
-    // Offset: 0xB3F3DC
+    // Offset: 0xB3F3F0
     GlobalNamespace::GameplayModifiers::SongSpeed get_songSpeed();
     // public System.Void set_songSpeed(GameplayModifiers/SongSpeed value)
-    // Offset: 0xB3F3E4
+    // Offset: 0xB3F3F8
     void set_songSpeed(GlobalNamespace::GameplayModifiers::SongSpeed value);
     // public System.Single get_songSpeedMul()
-    // Offset: 0xB3EE20
+    // Offset: 0xB3EE34
     float get_songSpeedMul();
     // public System.Boolean get_noArrows()
-    // Offset: 0xB3F3EC
+    // Offset: 0xB3F400
     bool get_noArrows();
     // public System.Void set_noArrows(System.Boolean value)
-    // Offset: 0xB3F3F4
+    // Offset: 0xB3F408
     void set_noArrows(bool value);
     // static public GameplayModifiers get_defaultModifiers()
-    // Offset: 0xB3F400
+    // Offset: 0xB3F414
     static GlobalNamespace::GameplayModifiers* get_defaultModifiers();
     // public System.Void .ctor(GameplayModifiers gameplayModifiers)
-    // Offset: 0xB3F4F4
+    // Offset: 0xB3F508
     static GameplayModifiers* New_ctor(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void ResetToDefault()
-    // Offset: 0xB3F4D8
+    // Offset: 0xB3F4EC
     void ResetToDefault();
     // public System.Boolean IsWithoutModifiers()
-    // Offset: 0xB3F590
+    // Offset: 0xB3F5A4
     bool IsWithoutModifiers();
     // public System.Void .ctor()
-    // Offset: 0xB3F49C
+    // Offset: 0xB3F4B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameplayModifiers* New_ctor();

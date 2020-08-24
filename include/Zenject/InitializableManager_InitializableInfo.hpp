@@ -27,7 +27,7 @@ namespace Zenject {
     // Offset: 0x18
     int Priority;
     // public System.Void .ctor(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0xE96F8C
+    // Offset: 0xF3C0D4
     static InitializableManager::InitializableInfo* New_ctor(Zenject::IInitializable* initializable, int priority);
   }; // Zenject.InitializableManager/InitializableInfo
 }

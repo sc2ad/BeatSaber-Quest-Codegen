@@ -12,7 +12,7 @@ namespace System {
   class CLRConfig : public ::Il2CppObject {
     public:
     // static System.Boolean CheckThrowUnobservedTaskExceptions()
-    // Offset: 0x128F274
+    // Offset: 0x13363BC
     static bool CheckThrowUnobservedTaskExceptions();
   }; // System.CLRConfig
 }

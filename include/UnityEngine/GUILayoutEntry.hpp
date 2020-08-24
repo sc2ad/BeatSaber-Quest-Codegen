@@ -58,58 +58,58 @@ namespace UnityEngine {
     // Set static field: static protected System.Int32 indent
     static void _set_indent(int value);
     // public UnityEngine.GUIStyle get_style()
-    // Offset: 0x11CAAD8
+    // Offset: 0x126EC20
     UnityEngine::GUIStyle* get_style();
     // public System.Void set_style(UnityEngine.GUIStyle value)
-    // Offset: 0x11CAAE0
+    // Offset: 0x126EC28
     void set_style(UnityEngine::GUIStyle* value);
     // public System.Int32 get_marginLeft()
-    // Offset: 0x11CAB18
+    // Offset: 0x126EC60
     int get_marginLeft();
     // public System.Int32 get_marginRight()
-    // Offset: 0x11CAB40
+    // Offset: 0x126EC88
     int get_marginRight();
     // public System.Int32 get_marginTop()
-    // Offset: 0x11CAB68
+    // Offset: 0x126ECB0
     int get_marginTop();
     // public System.Int32 get_marginBottom()
-    // Offset: 0x11CAB90
+    // Offset: 0x126ECD8
     int get_marginBottom();
     // public System.Int32 get_marginHorizontal()
-    // Offset: 0x11CABB8
+    // Offset: 0x126ED00
     int get_marginHorizontal();
     // public System.Int32 get_marginVertical()
-    // Offset: 0x11CABF8
+    // Offset: 0x126ED40
     int get_marginVertical();
     // public System.Void .ctor(System.Single _minWidth, System.Single _maxWidth, System.Single _minHeight, System.Single _maxHeight, UnityEngine.GUIStyle _style)
-    // Offset: 0x11CAC38
+    // Offset: 0x126ED80
     static GUILayoutEntry* New_ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, UnityEngine::GUIStyle* _style);
     // public System.Void .ctor(System.Single _minWidth, System.Single _maxWidth, System.Single _minHeight, System.Single _maxHeight, UnityEngine.GUIStyle _style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11CAD70
+    // Offset: 0x126EEB8
     static GUILayoutEntry* New_ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, UnityEngine::GUIStyle* _style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // public System.Void CalcWidth()
-    // Offset: 0x11CAEA0
+    // Offset: 0x126EFE8
     void CalcWidth();
     // public System.Void CalcHeight()
-    // Offset: 0x11CAEA4
+    // Offset: 0x126EFEC
     void CalcHeight();
     // public System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x11CAEA8
+    // Offset: 0x126EFF0
     void SetHorizontal(float x, float width);
     // public System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x11CAEE8
+    // Offset: 0x126F030
     void SetVertical(float y, float height);
     // protected System.Void ApplyStyleSettings(UnityEngine.GUIStyle style)
-    // Offset: 0x11CAF28
+    // Offset: 0x126F070
     void ApplyStyleSettings(UnityEngine::GUIStyle* style);
     // public System.Void ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11CB0B8
+    // Offset: 0x126F200
     void ApplyOptions(::Array<UnityEngine::GUILayoutOption*>* options);
     // static private System.Void .cctor()
-    // Offset: 0x11CB9F4
+    // Offset: 0x126FB3C
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x11CB394
+    // Offset: 0x126F4DC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

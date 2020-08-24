@@ -51,10 +51,10 @@ namespace System::Reflection {
   class MethodBase : public System::Reflection::MemberInfo, public System::Runtime::InteropServices::_MethodBase {
     public:
     // static public System.Reflection.MethodBase GetMethodFromHandle(System.RuntimeMethodHandle handle)
-    // Offset: 0x12C9208
+    // Offset: 0x1371350
     static System::Reflection::MethodBase* GetMethodFromHandle(System::RuntimeMethodHandle handle);
     // System.Reflection.ParameterInfo[] GetParametersNoCopy()
-    // Offset: 0x12C9450
+    // Offset: 0x1371598
     ::Array<System::Reflection::ParameterInfo*>* GetParametersNoCopy();
     // public System.Reflection.ParameterInfo[] GetParameters()
     // Offset: 0xFFFFFFFF
@@ -72,102 +72,102 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public System.Reflection.CallingConventions get_CallingConvention()
-    // Offset: 0x12C9460
+    // Offset: 0x13715A8
     System::Reflection::CallingConventions get_CallingConvention();
     // public System.Type[] GetGenericArguments()
-    // Offset: 0x12C9468
+    // Offset: 0x13715B0
     ::Array<System::Type*>* GetGenericArguments();
     // public System.Boolean get_IsGenericMethodDefinition()
-    // Offset: 0x12C94E8
+    // Offset: 0x1371630
     bool get_IsGenericMethodDefinition();
     // public System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x12C94F0
+    // Offset: 0x1371638
     bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericMethod()
-    // Offset: 0x12C94F8
+    // Offset: 0x1371640
     bool get_IsGenericMethod();
     // public System.Boolean get_IsSecurityCritical()
-    // Offset: 0x12C9500
+    // Offset: 0x1371648
     bool get_IsSecurityCritical();
     // public System.Object Invoke(System.Object obj, System.Object[] parameters)
-    // Offset: 0x12C9560
+    // Offset: 0x13716A8
     ::Il2CppObject* Invoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters);
     // public System.Boolean get_IsPublic()
-    // Offset: 0x12C9580
+    // Offset: 0x13716C8
     bool get_IsPublic();
     // public System.Boolean get_IsFamily()
-    // Offset: 0x12C95AC
+    // Offset: 0x13716F4
     bool get_IsFamily();
     // public System.Boolean get_IsStatic()
-    // Offset: 0x12C95D8
+    // Offset: 0x1371720
     bool get_IsStatic();
     // public System.Boolean get_IsVirtual()
-    // Offset: 0x12C95FC
+    // Offset: 0x1371744
     bool get_IsVirtual();
     // public System.Boolean get_IsAbstract()
-    // Offset: 0x12C9620
+    // Offset: 0x1371768
     bool get_IsAbstract();
     // public System.Boolean get_IsConstructor()
-    // Offset: 0x12C9644
+    // Offset: 0x137178C
     bool get_IsConstructor();
     // public System.Reflection.MethodBody GetMethodBody()
-    // Offset: 0x12C96F0
+    // Offset: 0x1371838
     System::Reflection::MethodBody* GetMethodBody();
     // static System.String ConstructParameters(System.Type[] parameterTypes, System.Reflection.CallingConventions callingConvention, System.Boolean serialization)
-    // Offset: 0x12C9750
+    // Offset: 0x1371898
     static ::Il2CppString* ConstructParameters(::Array<System::Type*>* parameterTypes, System::Reflection::CallingConventions callingConvention, bool serialization);
     // System.String FormatNameAndSig(System.Boolean serialization)
-    // Offset: 0x12C9934
+    // Offset: 0x1371A7C
     ::Il2CppString* FormatNameAndSig(bool serialization);
     // System.Type[] GetParameterTypes()
-    // Offset: 0x12C9A48
+    // Offset: 0x1371B90
     ::Array<System::Type*>* GetParameterTypes();
     // System.Reflection.ParameterInfo[] GetParametersInternal()
-    // Offset: 0x12C9B7C
+    // Offset: 0x1371CC4
     ::Array<System::Reflection::ParameterInfo*>* GetParametersInternal();
     // System.Int32 GetParametersCount()
-    // Offset: 0x12C9B8C
+    // Offset: 0x1371CD4
     int GetParametersCount();
     // static System.Reflection.MethodBase GetMethodFromHandleNoGenericCheck(System.RuntimeMethodHandle handle)
-    // Offset: 0x12C9BB8
+    // Offset: 0x1371D00
     static System::Reflection::MethodBase* GetMethodFromHandleNoGenericCheck(System::RuntimeMethodHandle handle);
     // static System.Reflection.MethodBase GetMethodFromHandleNoGenericCheck(System.RuntimeMethodHandle handle, System.RuntimeTypeHandle reflectedType)
-    // Offset: 0x12C9C0C
+    // Offset: 0x1371D54
     static System::Reflection::MethodBase* GetMethodFromHandleNoGenericCheck(System::RuntimeMethodHandle handle, System::RuntimeTypeHandle reflectedType);
     // static System.Reflection.MethodBody GetMethodBodyInternal(System.IntPtr handle)
-    // Offset: 0x12C9C14
+    // Offset: 0x1371D5C
     static System::Reflection::MethodBody* GetMethodBodyInternal(System::IntPtr handle);
     // static System.Reflection.MethodBody GetMethodBody(System.IntPtr handle)
-    // Offset: 0x12C9C18
+    // Offset: 0x1371D60
     static System::Reflection::MethodBody* GetMethodBody(System::IntPtr handle);
     // static private System.Reflection.MethodBase GetMethodFromHandleInternalType(System.IntPtr method_handle, System.IntPtr type_handle)
-    // Offset: 0x12C9420
+    // Offset: 0x1371568
     static System::Reflection::MethodBase* GetMethodFromHandleInternalType(System::IntPtr method_handle, System::IntPtr type_handle);
     // static System.Reflection.MethodBase GetMethodFromHandleInternalType_native(System.IntPtr method_handle, System.IntPtr type_handle, System.Boolean genericCheck)
-    // Offset: 0x12C9C04
+    // Offset: 0x1371D4C
     static System::Reflection::MethodBase* GetMethodFromHandleInternalType_native(System::IntPtr method_handle, System::IntPtr type_handle, bool genericCheck);
     // protected System.Void .ctor()
-    // Offset: 0x12C1BCC
+    // Offset: 0x1369D14
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Void MemberInfo::.ctor()
     // Base method: System.Void Object::.ctor()
     static MethodBase* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x12C9444
+    // Offset: 0x137158C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12C1C94
+    // Offset: 0x1369DDC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Int32 MemberInfo::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.MethodBase
   // static public System.Boolean op_Equality(System.Reflection.MethodBase left, System.Reflection.MethodBase right)
-  // Offset: 0x12C815C
+  // Offset: 0x13702A4
   bool operator ==(System::Reflection::MethodBase* left, System::Reflection::MethodBase& right);
   // static public System.Boolean op_Inequality(System.Reflection.MethodBase left, System.Reflection.MethodBase right)
-  // Offset: 0x12C8140
+  // Offset: 0x1370288
   bool operator !=(System::Reflection::MethodBase* left, System::Reflection::MethodBase& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

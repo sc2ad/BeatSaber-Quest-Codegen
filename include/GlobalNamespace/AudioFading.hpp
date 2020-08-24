@@ -33,19 +33,19 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float targetVolume;
     // protected System.Void Start()
-    // Offset: 0x18F0708
+    // Offset: 0xB89C68
     void Start();
     // protected System.Void Update()
-    // Offset: 0x18F07A4
+    // Offset: 0xB89D04
     void Update();
     // public System.Void FadeOut()
-    // Offset: 0x18F08E4
+    // Offset: 0xB89E44
     void FadeOut();
     // public System.Void FadeIn()
-    // Offset: 0x18F0774
+    // Offset: 0xB89CD4
     void FadeIn();
     // public System.Void .ctor()
-    // Offset: 0x18F0910
+    // Offset: 0xB89E70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

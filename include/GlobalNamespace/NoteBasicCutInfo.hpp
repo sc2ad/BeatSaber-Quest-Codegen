@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinBladeSpeedForCut
     static void _set_kMinBladeSpeedForCut(float value);
     // static public System.Void GetBasicCutInfo(UnityEngine.Transform noteTransform, NoteType noteType, NoteCutDirection cutDirection, SaberType saberType, System.Single saberBladeSpeed, UnityEngine.Vector3 cutDirVec, System.Boolean directionOK, System.Boolean speedOK, System.Boolean saberTypeOK, System.Single cutDirDeviation)
-    // Offset: 0x1958B44
+    // Offset: 0xC14408
     static void GetBasicCutInfo(UnityEngine::Transform* noteTransform, GlobalNamespace::NoteType noteType, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::SaberType saberType, float saberBladeSpeed, UnityEngine::Vector3 cutDirVec, bool& directionOK, bool& speedOK, bool& saberTypeOK, float& cutDirDeviation);
     // public System.Void .ctor()
-    // Offset: 0x1958D50
+    // Offset: 0xC14614
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NoteBasicCutInfo* New_ctor();

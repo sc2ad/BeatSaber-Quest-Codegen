@@ -38,47 +38,47 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>* inner;
     // public System.Void Add(System.String key, System.Object value)
-    // Offset: 0x1843AEC
+    // Offset: 0x18F0C34
     // Implemented from: NUnit.Framework.Interfaces.IPropertyBag
     // Base method: System.Void IPropertyBag::Add(System.String key, System.Object value)
     void Add(::Il2CppString* key, ::Il2CppObject* value);
     // public System.Void Set(System.String key, System.Object value)
-    // Offset: 0x1843C30
+    // Offset: 0x18F0D78
     // Implemented from: NUnit.Framework.Interfaces.IPropertyBag
     // Base method: System.Void IPropertyBag::Set(System.String key, System.Object value)
     void Set(::Il2CppString* key, ::Il2CppObject* value);
     // public System.Object Get(System.String key)
-    // Offset: 0x1843D68
+    // Offset: 0x18F0EB0
     // Implemented from: NUnit.Framework.Interfaces.IPropertyBag
     // Base method: System.Object IPropertyBag::Get(System.String key)
     ::Il2CppObject* Get(::Il2CppString* key);
     // public System.Boolean ContainsKey(System.String key)
-    // Offset: 0x1843ED8
+    // Offset: 0x18F1020
     // Implemented from: NUnit.Framework.Interfaces.IPropertyBag
     // Base method: System.Boolean IPropertyBag::ContainsKey(System.String key)
     bool ContainsKey(::Il2CppString* key);
     // public System.Collections.Generic.ICollection`1<System.String> get_Keys()
-    // Offset: 0x1843F40
+    // Offset: 0x18F1088
     // Implemented from: NUnit.Framework.Interfaces.IPropertyBag
     // Base method: System.Collections.Generic.ICollection`1<System.String> IPropertyBag::get_Keys()
     System::Collections::Generic::ICollection_1<::Il2CppString*>* get_Keys();
     // public System.Collections.IList get_Item(System.String key)
-    // Offset: 0x1843F98
+    // Offset: 0x18F10E0
     // Implemented from: NUnit.Framework.Interfaces.IPropertyBag
     // Base method: System.Collections.IList IPropertyBag::get_Item(System.String key)
     System::Collections::IList* get_Item(::Il2CppString* key);
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x184405C
+    // Offset: 0x18F11A4
     // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::ToXml(System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x18440D0
+    // Offset: 0x18F1218
     // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Void .ctor()
-    // Offset: 0x184471C
+    // Offset: 0x18F1864
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PropertyBag* New_ctor();

@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_SetKeyboardTransformAbsolute : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x156B614
+    // Offset: 0x161875C
     static IVROverlay::_SetKeyboardTransformAbsolute* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform)
-    // Offset: 0x156B628
+    // Offset: 0x1618770
     void Invoke(Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x156B8B0
+    // Offset: 0x16189F8
     System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(Valve.VR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform, System.IAsyncResult result)
-    // Offset: 0x156B964
+    // Offset: 0x1618AAC
     void EndInvoke(Valve::VR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetKeyboardTransformAbsolute
 }

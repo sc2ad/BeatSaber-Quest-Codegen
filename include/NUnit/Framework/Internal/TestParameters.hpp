@@ -45,51 +45,51 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x30
     ::Array<::Il2CppObject*>* OriginalArguments;
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x1846A40
+    // Offset: 0x18F3B88
     static TestParameters* New_ctor(::Array<::Il2CppObject*>* args);
     // private System.Void InitializeAguments(System.Object[] args)
-    // Offset: 0x184A014
+    // Offset: 0x18F715C
     void InitializeAguments(::Array<::Il2CppObject*>* args);
     // public System.Void set_RunState(NUnit.Framework.Interfaces.RunState value)
-    // Offset: 0x184A0B8
+    // Offset: 0x18F7200
     void set_RunState(NUnit::Framework::Interfaces::RunState value);
     // System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x184A0C0
+    // Offset: 0x18F7208
     void set_Arguments(::Array<::Il2CppObject*>* value);
     // public System.String get_TestName()
-    // Offset: 0x184A0C8
+    // Offset: 0x18F7210
     ::Il2CppString* get_TestName();
     // private System.Void set_Properties(NUnit.Framework.Interfaces.IPropertyBag value)
-    // Offset: 0x184A0D8
+    // Offset: 0x18F7220
     void set_Properties(NUnit::Framework::Interfaces::IPropertyBag* value);
     // public System.Object[] get_OriginalArguments()
-    // Offset: 0x184A7A8
+    // Offset: 0x18F78F0
     ::Array<::Il2CppObject*>* get_OriginalArguments();
     // private System.Void set_OriginalArguments(System.Object[] value)
-    // Offset: 0x184A7B0
+    // Offset: 0x18F78F8
     void set_OriginalArguments(::Array<::Il2CppObject*>* value);
     // public System.Void .ctor()
-    // Offset: 0x18469C4
+    // Offset: 0x18F3B0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestParameters* New_ctor();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0x184A0B0
+    // Offset: 0x18F71F8
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: NUnit.Framework.Interfaces.RunState ITestData::get_RunState()
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Object[] get_Arguments()
-    // Offset: 0x1848084
+    // Offset: 0x18F51CC
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: System.Object[] ITestData::get_Arguments()
     ::Array<::Il2CppObject*>* get_Arguments();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0x184A0D0
+    // Offset: 0x18F7218
     // Implemented from: NUnit.Framework.Interfaces.ITestData
     // Base method: NUnit.Framework.Interfaces.IPropertyBag ITestData::get_Properties()
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // public System.Void ApplyToTest(NUnit.Framework.Internal.Test test)
-    // Offset: 0x184A0E0
+    // Offset: 0x18F7228
     // Implemented from: NUnit.Framework.Interfaces.IApplyToTest
     // Base method: System.Void IApplyToTest::ApplyToTest(NUnit.Framework.Internal.Test test)
     void ApplyToTest(NUnit::Framework::Internal::Test* test);

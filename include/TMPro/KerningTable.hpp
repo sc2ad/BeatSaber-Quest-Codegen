@@ -38,25 +38,25 @@ namespace TMPro {
     // Offset: 0x10
     System::Collections::Generic::List_1<TMPro::KerningPair*>* kerningPairs;
     // public System.Void AddKerningPair()
-    // Offset: 0xB4FDCC
+    // Offset: 0xB50DE0
     void AddKerningPair();
     // public System.Int32 AddKerningPair(System.UInt32 first, System.UInt32 second, System.Single offset)
-    // Offset: 0xB4FEF4
+    // Offset: 0xB50F08
     int AddKerningPair(uint first, uint second, float offset);
     // public System.Int32 AddGlyphPairAdjustmentRecord(System.UInt32 first, TMPro.GlyphValueRecord_Legacy firstAdjustments, System.UInt32 second, TMPro.GlyphValueRecord_Legacy secondAdjustments)
-    // Offset: 0xB50034
+    // Offset: 0xB51048
     int AddGlyphPairAdjustmentRecord(uint first, TMPro::GlyphValueRecord_Legacy firstAdjustments, uint second, TMPro::GlyphValueRecord_Legacy secondAdjustments);
     // public System.Void RemoveKerningPair(System.Int32 left, System.Int32 right)
-    // Offset: 0xB501B4
+    // Offset: 0xB511C8
     void RemoveKerningPair(int left, int right);
     // public System.Void RemoveKerningPair(System.Int32 index)
-    // Offset: 0xB502B8
+    // Offset: 0xB512CC
     void RemoveKerningPair(int index);
     // public System.Void SortKerningPairs()
-    // Offset: 0xB50320
+    // Offset: 0xB51334
     void SortKerningPairs();
     // public System.Void .ctor()
-    // Offset: 0xB4FD50
+    // Offset: 0xB50D64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static KerningTable* New_ctor();

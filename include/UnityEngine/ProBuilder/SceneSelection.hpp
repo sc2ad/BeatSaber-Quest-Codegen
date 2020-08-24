@@ -45,49 +45,49 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x30
     UnityEngine::ProBuilder::Face* face;
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0xF9BCA0
+    // Offset: 0x103FDE8
     static SceneSelection* New_ctor(UnityEngine::GameObject* gameObject);
     // public System.Void .ctor(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 vertex)
-    // Offset: 0xF9BCD4
+    // Offset: 0x103FE1C
     static SceneSelection* New_ctor(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int vertex);
     // public System.Void .ctor(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0xF9BDE8
+    // Offset: 0x103FF30
     static SceneSelection* New_ctor(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
     // public System.Void .ctor(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0xF9BED0
+    // Offset: 0x1040018
     static SceneSelection* New_ctor(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // public System.Void Clear()
-    // Offset: 0xF9BFE8
+    // Offset: 0x1040130
     void Clear();
     // public System.Void CopyTo(UnityEngine.ProBuilder.SceneSelection dst)
-    // Offset: 0xF9C090
+    // Offset: 0x10401D8
     void CopyTo(UnityEngine::ProBuilder::SceneSelection* dst);
     // public override System.String ToString()
-    // Offset: 0xF9C0F8
+    // Offset: 0x1040240
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Boolean Equals(UnityEngine.ProBuilder.SceneSelection other)
-    // Offset: 0xF9C32C
+    // Offset: 0x1040474
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.ProBuilder.SceneSelection other)
     bool Equals(UnityEngine::ProBuilder::SceneSelection* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF9C3C8
+    // Offset: 0x1040510
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF9C4D8
+    // Offset: 0x1040620
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.SceneSelection
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.SceneSelection left, UnityEngine.ProBuilder.SceneSelection right)
-  // Offset: 0xF9C618
+  // Offset: 0x1040760
   bool operator ==(UnityEngine::ProBuilder::SceneSelection* left, UnityEngine::ProBuilder::SceneSelection& right);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.SceneSelection left, UnityEngine.ProBuilder.SceneSelection right)
-  // Offset: 0xF9C620
+  // Offset: 0x1040768
   bool operator !=(UnityEngine::ProBuilder::SceneSelection* left, UnityEngine::ProBuilder::SceneSelection& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

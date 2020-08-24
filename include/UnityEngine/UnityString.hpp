@@ -12,7 +12,7 @@ namespace UnityEngine {
   class UnityString : public ::Il2CppObject {
     public:
     // static public System.String Format(System.String fmt, System.Object[] args)
-    // Offset: 0x18C7420
+    // Offset: 0x1975568
     static ::Il2CppString* Format(::Il2CppString* fmt, ::Array<::Il2CppObject*>* args);
   }; // UnityEngine.UnityString
 }

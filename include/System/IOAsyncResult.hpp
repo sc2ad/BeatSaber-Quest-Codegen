@@ -43,30 +43,30 @@ namespace System {
     // Offset: 0x29
     bool completed;
     // protected System.Void .ctor(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0xEC4FB8
+    // Offset: 0xF6A100
     static IOAsyncResult* New_ctor(System::AsyncCallback* async_callback, ::Il2CppObject* async_state);
     // public System.AsyncCallback get_AsyncCallback()
-    // Offset: 0xEC5008
+    // Offset: 0xF6A150
     System::AsyncCallback* get_AsyncCallback();
     // protected System.Void set_CompletedSynchronously(System.Boolean value)
-    // Offset: 0xEC5124
+    // Offset: 0xF6A26C
     void set_CompletedSynchronously(bool value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xEC5130
+    // Offset: 0xF6A278
     bool get_IsCompleted();
     // protected System.Void set_IsCompleted(System.Boolean value)
-    // Offset: 0xEC5138
+    // Offset: 0xF6A280
     void set_IsCompleted(bool value);
     // System.Void CompleteDisposed()
     // Offset: 0xFFFFFFFF
     void CompleteDisposed();
     // public System.Object get_AsyncState()
-    // Offset: 0xEC5010
+    // Offset: 0xF6A158
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0xEC5018
+    // Offset: 0xF6A160
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();

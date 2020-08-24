@@ -118,43 +118,43 @@ namespace GlobalNamespace {
     // Offset: 0x53
     bool ShouldUseSystemGestureMaterial;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0xE4686C
+    // Offset: 0xEEB9B4
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0xE46874
+    // Offset: 0xEEB9BC
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0xE46880
+    // Offset: 0xEEB9C8
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0xE46888
+    // Offset: 0xEEB9D0
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0xE46894
+    // Offset: 0xEEB9DC
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0xE4689C
+    // Offset: 0xEEB9E4
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0xE468A8
+    // Offset: 0xEEB9F0
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0xE468B0
+    // Offset: 0xEEB9F8
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0xE468BC
+    // Offset: 0xEEBA04
     void Awake();
     // private System.Void Start()
-    // Offset: 0xE469F8
+    // Offset: 0xEEBB40
     void Start();
     // private System.Void Initialize()
-    // Offset: 0xE46A8C
+    // Offset: 0xEEBBD4
     void Initialize();
     // private System.Void Update()
-    // Offset: 0xE46F58
+    // Offset: 0xEEC0A0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xE47234
+    // Offset: 0xEEC37C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

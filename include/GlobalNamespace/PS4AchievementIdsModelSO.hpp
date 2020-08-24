@@ -42,21 +42,21 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* trophyIdToAchievementId;
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
-    // Offset: 0x1915090
+    // Offset: 0xBD0950
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();
     // public System.Boolean GetTrophyId(System.String achievementId, System.Int32 trophyId)
-    // Offset: 0x1915258
+    // Offset: 0xBD0B18
     bool GetTrophyId(::Il2CppString* achievementId, int& trophyId);
     // public System.Boolean GetAchievementId(System.Int32 trophyId, System.String achievementId)
-    // Offset: 0x19152CC
+    // Offset: 0xBD0B8C
     bool GetAchievementId(int trophyId, ::Il2CppString*& achievementId);
     // protected override System.Void OnEnable()
-    // Offset: 0x1915098
+    // Offset: 0xBD0958
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1915358
+    // Offset: 0xBD0C18
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

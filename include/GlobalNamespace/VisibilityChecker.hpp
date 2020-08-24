@@ -27,25 +27,25 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Action* OnBecameInvisibleEvent;
     // public System.Void add_OnBecameVisibleEvent(System.Action value)
-    // Offset: 0xC1D79C
+    // Offset: 0xCC08E4
     void add_OnBecameVisibleEvent(System::Action* value);
     // public System.Void remove_OnBecameVisibleEvent(System.Action value)
-    // Offset: 0xC1D840
+    // Offset: 0xCC0988
     void remove_OnBecameVisibleEvent(System::Action* value);
     // public System.Void add_OnBecameInvisibleEvent(System.Action value)
-    // Offset: 0xC1D8E4
+    // Offset: 0xCC0A2C
     void add_OnBecameInvisibleEvent(System::Action* value);
     // public System.Void remove_OnBecameInvisibleEvent(System.Action value)
-    // Offset: 0xC1D988
+    // Offset: 0xCC0AD0
     void remove_OnBecameInvisibleEvent(System::Action* value);
     // private System.Void OnBecameVisible()
-    // Offset: 0xC1DA2C
+    // Offset: 0xCC0B74
     void OnBecameVisible();
     // private System.Void OnBecameInvisible()
-    // Offset: 0xC1DA40
+    // Offset: 0xCC0B88
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0xC1DA54
+    // Offset: 0xCC0B9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

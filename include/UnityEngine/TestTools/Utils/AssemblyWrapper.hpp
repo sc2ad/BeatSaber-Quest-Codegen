@@ -24,10 +24,10 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x10
     System::Reflection::Assembly* Assembly;
     // public System.Void .ctor(System.Reflection.Assembly assembly)
-    // Offset: 0xDA50CC
+    // Offset: 0xE4A214
     static AssemblyWrapper* New_ctor(System::Reflection::Assembly* assembly);
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0xDA5100
+    // Offset: 0xE4A248
     // Implemented from: UnityEngine.TestTools.Utils.IAssemblyWrapper
     // Base method: System.Reflection.Assembly IAssemblyWrapper::get_Assembly()
     System::Reflection::Assembly* get_Assembly();

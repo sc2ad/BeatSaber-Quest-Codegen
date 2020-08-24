@@ -38,43 +38,43 @@ namespace System {
     // Creating value type constructor for type: UIntPtr
     UIntPtr(void* pointer_ = {}) : pointer{pointer_} {}
     // public System.Void .ctor(System.UInt64 value)
-    // Offset: 0x9BDF8C
+    // Offset: 0xA57604
     static UIntPtr* New_ctor(uint64_t value);
     // public System.Void .ctor(System.UInt32 value)
-    // Offset: 0x9BDF94
+    // Offset: 0xA5760C
     static UIntPtr* New_ctor(uint value);
     // public System.Void .ctor(System.Void* value)
-    // Offset: 0x9BDFA0
+    // Offset: 0xA57618
     static UIntPtr* New_ctor(void* value);
     // static public System.Int32 get_Size()
-    // Offset: 0x16F3B00
+    // Offset: 0x179EC48
     static int get_Size();
     // static private System.Void .cctor()
-    // Offset: 0x16F3D10
+    // Offset: 0x179EE58
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x9BDFA8
+    // Offset: 0xA57620
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x9BDFB0
+    // Offset: 0xA57628
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x9BDFB8
+    // Offset: 0xA57630
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x9BDFC0
+    // Offset: 0xA57638
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.UIntPtr
   // static public System.Boolean op_Equality(System.UIntPtr value1, System.UIntPtr value2)
-  // Offset: 0x16F3CCC
+  // Offset: 0x179EE14
   bool operator ==(const System::UIntPtr& value1, const System::UIntPtr& value2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

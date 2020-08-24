@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::ColorManager* colorManager;
     // protected System.Void Start()
-    // Offset: 0xBA1D74
+    // Offset: 0xC2E12C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xBA1E80
+    // Offset: 0xC2E238
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

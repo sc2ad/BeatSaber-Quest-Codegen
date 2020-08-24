@@ -65,18 +65,18 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // private GameplayCoreHUDInstaller/HudType GetGameplayCoreHUDTypeForEnvironmentSize(EnvironmentSizeData/Width environmentWidth)
-    // Offset: 0xB3EF08
+    // Offset: 0xB3EF1C
     GlobalNamespace::GameplayCoreHUDInstaller::HudType GetGameplayCoreHUDTypeForEnvironmentSize(GlobalNamespace::EnvironmentSizeData::Width environmentWidth);
     // private System.Boolean UseOneSaberOnly(BeatmapCharacteristicSO beatmapCharacteristic, PlayerSpecificSettings playerSpecificSettings, SaberType saberType)
-    // Offset: 0xB3EE50
+    // Offset: 0xB3EE64
     bool UseOneSaberOnly(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::SaberType& saberType);
     // public override System.Void InstallBindings()
-    // Offset: 0xB3DE84
+    // Offset: 0xB3DE98
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0xB3EF1C
+    // Offset: 0xB3EF30
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

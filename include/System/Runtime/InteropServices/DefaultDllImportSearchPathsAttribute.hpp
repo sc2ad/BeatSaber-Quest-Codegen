@@ -19,7 +19,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Runtime::InteropServices::DllImportSearchPath paths;
     // public System.Void .ctor(System.Runtime.InteropServices.DllImportSearchPath paths)
-    // Offset: 0x10C5BB4
+    // Offset: 0x1167CFC
     static DefaultDllImportSearchPathsAttribute* New_ctor(System::Runtime::InteropServices::DllImportSearchPath paths);
   }; // System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute
 }

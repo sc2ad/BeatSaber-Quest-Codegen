@@ -23,20 +23,20 @@ namespace System::Security::Cryptography {
   class CryptographicException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xD46FE8
+    // Offset: 0xDEC130
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static CryptographicException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xD4705C
+    // Offset: 0xDEC1A4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static CryptographicException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD47090
+    // Offset: 0xDEC1D8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

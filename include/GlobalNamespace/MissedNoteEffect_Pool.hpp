@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class MissedNoteEffect::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::MissedNoteEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1948B0C
+    // Offset: 0xC033D0
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()

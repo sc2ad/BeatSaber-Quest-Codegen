@@ -26,10 +26,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     int delCount;
     // UnityEngine.ProBuilder.Edge <AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0xE60378
+    // Offset: 0xF054C0
     UnityEngine::ProBuilder::Edge $AppendVerticesToEdge$b__0(UnityEngine::ProBuilder::EdgeLookup x);
     // public System.Void .ctor()
-    // Offset: 0xE60370
+    // Offset: 0xF054B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AppendElements::$$c__DisplayClass14_0* New_ctor();

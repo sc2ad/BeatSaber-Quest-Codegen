@@ -81,7 +81,7 @@ namespace System {
     // Offset: 0xA8
     ::Il2CppString* TargetFrameworkName;
     // public System.Void .ctor()
-    // Offset: 0x101B73C
+    // Offset: 0x10BF884
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AppDomainSetup* New_ctor();

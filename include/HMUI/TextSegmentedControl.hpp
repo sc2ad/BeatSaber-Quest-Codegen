@@ -58,23 +58,23 @@ namespace HMUI {
     // Offset: 0x80
     ::Array<::Il2CppString*>* texts;
     // public System.Void SetTexts(System.String[] texts)
-    // Offset: 0x1046F7C
+    // Offset: 0x10EA0C4
     void SetTexts(::Array<::Il2CppString*>* texts);
     // private HMUI.TextSegmentedControlCellBase InstantiateCell(UnityEngine.Object prefab)
-    // Offset: 0x1047144
+    // Offset: 0x10EA28C
     HMUI::TextSegmentedControlCellBase* InstantiateCell(UnityEngine::Object* prefab);
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1046FBC
+    // Offset: 0x10EA104
     // Implemented from: HMUI.SegmentedControl/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
-    // Offset: 0x1046FD4
+    // Offset: 0x10EA11C
     // Implemented from: HMUI.SegmentedControl/IDataSource
     // Base method: HMUI.SegmentedControlCell IDataSource::CellForCellNumber(System.Int32 cellNumber)
     HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
     // public System.Void .ctor()
-    // Offset: 0x10472FC
+    // Offset: 0x10EA444
     // Implemented from: HMUI.SegmentedControl
     // Base method: System.Void SegmentedControl::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

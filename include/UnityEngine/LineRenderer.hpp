@@ -22,37 +22,37 @@ namespace UnityEngine {
   class LineRenderer : public UnityEngine::Renderer {
     public:
     // public System.Void set_startWidth(System.Single value)
-    // Offset: 0x12705E0
+    // Offset: 0x1316728
     void set_startWidth(float value);
     // public System.Void set_endWidth(System.Single value)
-    // Offset: 0x1270630
+    // Offset: 0x1316778
     void set_endWidth(float value);
     // public System.Void set_useWorldSpace(System.Boolean value)
-    // Offset: 0x1270680
+    // Offset: 0x13167C8
     void set_useWorldSpace(bool value);
     // public System.Void set_startColor(UnityEngine.Color value)
-    // Offset: 0x12706D0
+    // Offset: 0x1316818
     void set_startColor(UnityEngine::Color value);
     // public System.Void set_endColor(UnityEngine.Color value)
-    // Offset: 0x1270778
+    // Offset: 0x13168C0
     void set_endColor(UnityEngine::Color value);
     // public System.Void set_positionCount(System.Int32 value)
-    // Offset: 0x1270820
+    // Offset: 0x1316968
     void set_positionCount(int value);
     // public System.Void SetPosition(System.Int32 index, UnityEngine.Vector3 position)
-    // Offset: 0x1270870
+    // Offset: 0x13169B8
     void SetPosition(int index, UnityEngine::Vector3 position);
     // public System.Void SetPositions(UnityEngine.Vector3[] positions)
-    // Offset: 0x1270930
+    // Offset: 0x1316A78
     void SetPositions(::Array<UnityEngine::Vector3>* positions);
     // private System.Void set_startColor_Injected(UnityEngine.Color value)
-    // Offset: 0x1270728
+    // Offset: 0x1316870
     void set_startColor_Injected(UnityEngine::Color& value);
     // private System.Void set_endColor_Injected(UnityEngine.Color value)
-    // Offset: 0x12707D0
+    // Offset: 0x1316918
     void set_endColor_Injected(UnityEngine::Color& value);
     // private System.Void SetPosition_Injected(System.Int32 index, UnityEngine.Vector3 position)
-    // Offset: 0x12708D8
+    // Offset: 0x1316A20
     void SetPosition_Injected(int index, UnityEngine::Vector3& position);
   }; // UnityEngine.LineRenderer
 }

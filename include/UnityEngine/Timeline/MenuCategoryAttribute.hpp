@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x10
     ::Il2CppString* category;
     // public System.Void .ctor(System.String category)
-    // Offset: 0xFF89A0
+    // Offset: 0x109CAE8
     static MenuCategoryAttribute* New_ctor(::Il2CppString* category);
   }; // UnityEngine.Timeline.MenuCategoryAttribute
 }

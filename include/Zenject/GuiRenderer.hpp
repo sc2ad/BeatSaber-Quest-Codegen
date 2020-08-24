@@ -24,13 +24,13 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::GuiRenderableManager* renderableManager;
     // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
-    // Offset: 0xE9640C
+    // Offset: 0xF3B554
     void Construct(Zenject::GuiRenderableManager* renderableManager);
     // public System.Void OnGUI()
-    // Offset: 0xE96414
+    // Offset: 0xF3B55C
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0xE9642C
+    // Offset: 0xF3B574
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

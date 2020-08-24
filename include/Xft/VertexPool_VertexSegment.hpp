@@ -29,10 +29,10 @@ namespace Xft {
     // Offset: 0x20
     Xft::VertexPool* Pool;
     // public System.Void .ctor(System.Int32 start, System.Int32 count, System.Int32 istart, System.Int32 icount, Xft.VertexPool pool)
-    // Offset: 0x1971D14
+    // Offset: 0xC57AD4
     static VertexPool::VertexSegment* New_ctor(int start, int count, int istart, int icount, Xft::VertexPool* pool);
     // public System.Void ClearIndices()
-    // Offset: 0x1971F0C
+    // Offset: 0xC57CCC
     void ClearIndices();
   }; // Xft.VertexPool/VertexSegment
 }

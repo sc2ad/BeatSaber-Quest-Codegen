@@ -25,10 +25,10 @@ namespace UnityEngine {
     // Offset: 0x10
     System::Func_1<bool>* m_Predicate;
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)
-    // Offset: 0x12F7FE4
+    // Offset: 0x139F12C
     static WaitUntil* New_ctor(System::Func_1<bool>* predicate);
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x12F7F80
+    // Offset: 0x139F0C8
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();

@@ -24,7 +24,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x10
     Oculus::Platform::ShareMediaStatus Status;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE03E28
+    // Offset: 0xEA8F70
     static ShareMediaResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.ShareMediaResult
 }

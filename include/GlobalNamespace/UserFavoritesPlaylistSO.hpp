@@ -45,25 +45,25 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
     // public System.Void SetupFromLevelPackCollection(System.Collections.Generic.HashSet`1<System.String> userFavoritesBeatmapLevelIds, IBeatmapLevelPackCollection beatmapLevelPackCollection)
-    // Offset: 0x1967D14
+    // Offset: 0xC4DAD4
     void SetupFromLevelPackCollection(System::Collections::Generic::HashSet_1<::Il2CppString*>* userFavoritesBeatmapLevelIds, GlobalNamespace::IBeatmapLevelPackCollection* beatmapLevelPackCollection);
     // public System.String get_collectionName()
-    // Offset: 0x1967CF8
+    // Offset: 0xC4DAB8
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1967D04
+    // Offset: 0xC4DAC4
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1967D0C
+    // Offset: 0xC4DACC
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x1967D5C
+    // Offset: 0xC4DB1C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

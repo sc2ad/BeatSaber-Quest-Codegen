@@ -27,10 +27,10 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x10
     int tickNow;
     // System.Int32 <TrimActiveActivityStore>b__0(System.Collections.Generic.KeyValuePair`2<System.Guid,System.Int32> x, System.Collections.Generic.KeyValuePair`2<System.Guid,System.Int32> y)
-    // Offset: 0xBF4C64
+    // Offset: 0xC97DAC
     int $TrimActiveActivityStore$b__0(System::Collections::Generic::KeyValuePair_2<System::Guid, int> x, System::Collections::Generic::KeyValuePair_2<System::Guid, int> y);
     // public System.Void .ctor()
-    // Offset: 0xBF4BA0
+    // Offset: 0xC97CE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ActivityFilter::$$c__DisplayClass13_0* New_ctor();

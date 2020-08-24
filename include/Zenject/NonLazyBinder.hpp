@@ -21,13 +21,13 @@ namespace Zenject {
   class NonLazyBinder : public Zenject::IfNotBoundBinder {
     public:
     // public Zenject.IfNotBoundBinder NonLazy()
-    // Offset: 0xF1F7D4
+    // Offset: 0xFC491C
     Zenject::IfNotBoundBinder* NonLazy();
     // public Zenject.IfNotBoundBinder Lazy()
-    // Offset: 0xF1F7F4
+    // Offset: 0xFC493C
     Zenject::IfNotBoundBinder* Lazy();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0xF1F7CC
+    // Offset: 0xFC4914
     // Implemented from: Zenject.IfNotBoundBinder
     // Base method: System.Void IfNotBoundBinder::.ctor(Zenject.BindInfo bindInfo)
     static NonLazyBinder* New_ctor(Zenject::BindInfo* bindInfo);

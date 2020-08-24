@@ -16,10 +16,10 @@ namespace System {
     // Set static field: static public readonly System.EventArgs Empty
     static void _set_Empty(System::EventArgs* value);
     // static private System.Void .cctor()
-    // Offset: 0xD0475C
+    // Offset: 0xDA88A4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xCF2B84
+    // Offset: 0xD96CCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EventArgs* New_ctor();

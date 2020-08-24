@@ -29,10 +29,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x18
     UnityEngine::ProBuilder::Face* f2;
     // System.Boolean <AutoStitch>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0xF863F4
+    // Offset: 0x102B53C
     bool $AutoStitch$b__0(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0xF8307C
+    // Offset: 0x10281C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UVEditing::$$c__DisplayClass9_0* New_ctor();

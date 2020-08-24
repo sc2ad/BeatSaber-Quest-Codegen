@@ -23,7 +23,7 @@ namespace System::ComponentModel::Design::Serialization {
     // Offset: 0x20
     ::Il2CppString* serializerBaseTypeName;
     // public System.Void .ctor(System.String serializerTypeName, System.String baseSerializerTypeName, System.Boolean reloadable)
-    // Offset: 0xEB8AB4
+    // Offset: 0xF5DBFC
     static RootDesignerSerializerAttribute* New_ctor(::Il2CppString* serializerTypeName, ::Il2CppString* baseSerializerTypeName, bool reloadable);
   }; // System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute
 }

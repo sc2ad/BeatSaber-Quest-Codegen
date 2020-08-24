@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppString* stateName;
     // protected System.Void Start()
-    // Offset: 0xC184E0
+    // Offset: 0xCBB628
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xC18524
+    // Offset: 0xCBB66C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

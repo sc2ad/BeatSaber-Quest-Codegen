@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     ::Il2CppString* difficultyName;
     // public System.Void .ctor(System.String backButtonText, System.String songName, System.String songSubName, System.String difficultyName)
-    // Offset: 0x1919ADC
+    // Offset: 0xBD539C
     static PauseMenuManager::InitData* New_ctor(::Il2CppString* backButtonText, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* difficultyName);
   }; // PauseMenuManager/InitData
 }

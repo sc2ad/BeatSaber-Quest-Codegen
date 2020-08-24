@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int preallocateCount;
     // public System.Void .ctor()
-    // Offset: 0x177DCA8
+    // Offset: 0x1827DF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BloomPrePassRendererSO::PreallocationData* New_ctor();

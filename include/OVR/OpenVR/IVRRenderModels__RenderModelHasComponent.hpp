@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_RenderModelHasComponent : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16081FC
+    // Offset: 0x16B3344
     static IVRRenderModels::_RenderModelHasComponent* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pchRenderModelName, System.String pchComponentName)
-    // Offset: 0x1608210
+    // Offset: 0x16B3358
     bool Invoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.String pchComponentName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1608620
+    // Offset: 0x16B3768
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1608650
+    // Offset: 0x16B3798
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_RenderModelHasComponent
 }

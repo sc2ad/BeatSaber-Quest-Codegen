@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_SuspendRendering : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x155D99C
+    // Offset: 0x160AAE4
     static IVRCompositor::_SuspendRendering* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean bSuspend)
-    // Offset: 0x155D9B0
+    // Offset: 0x160AAF8
     void Invoke(bool bSuspend);
     // public System.IAsyncResult BeginInvoke(System.Boolean bSuspend, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x155DC2C
+    // Offset: 0x160AD74
     System::IAsyncResult* BeginInvoke(bool bSuspend, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x155DCBC
+    // Offset: 0x160AE04
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_SuspendRendering
 }

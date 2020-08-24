@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRTrackedCamera::_GetCameraErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xC20108
+    // Offset: 0xCC3250
     static IVRTrackedCamera::_GetCameraErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(OVR.OpenVR.EVRTrackedCameraError eCameraError)
-    // Offset: 0xC2011C
+    // Offset: 0xCC3264
     System::IntPtr Invoke(OVR::OpenVR::EVRTrackedCameraError eCameraError);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRTrackedCameraError eCameraError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xC20390
+    // Offset: 0xCC34D8
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVRTrackedCameraError eCameraError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0xC2041C
+    // Offset: 0xCC3564
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRTrackedCamera/_GetCameraErrorNameFromEnum
 }

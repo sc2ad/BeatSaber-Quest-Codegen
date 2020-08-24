@@ -28,30 +28,30 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::ShowHideAnimationController* $$4__this;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0xC197F8
+    // Offset: 0xCBC940
     static ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xC19834
+    // Offset: 0xCBC97C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xC19838
+    // Offset: 0xCBC980
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0xC19908
+    // Offset: 0xCBCA50
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xC19910
+    // Offset: 0xCBCA58
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xC19970
+    // Offset: 0xCBCAB8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

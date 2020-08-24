@@ -42,37 +42,37 @@ namespace System::Threading {
     // Set static field: static private System.Threading.Timer/Scheduler instance
     static void _set_instance(System::Threading::Timer::Scheduler* value);
     // static private System.Void .cctor()
-    // Offset: 0xC49DE8
+    // Offset: 0xCEDF30
     static void _cctor();
     // static public System.Threading.Timer/Scheduler get_Instance()
-    // Offset: 0xC49F8C
+    // Offset: 0xCEE0D4
     static System::Threading::Timer::Scheduler* get_Instance();
     // public System.Void Remove(System.Threading.Timer timer)
-    // Offset: 0xC49AE8
+    // Offset: 0xCEDC30
     void Remove(System::Threading::Timer* timer);
     // public System.Void Change(System.Threading.Timer timer, System.Int64 new_next_run)
-    // Offset: 0xC49BA8
+    // Offset: 0xCEDCF0
     void Change(System::Threading::Timer* timer, int64_t new_next_run);
     // private System.Int32 FindByDueTime(System.Int64 nr)
-    // Offset: 0xC4A18C
+    // Offset: 0xCEE2D4
     int FindByDueTime(int64_t nr);
     // private System.Void Add(System.Threading.Timer timer)
-    // Offset: 0xC4A05C
+    // Offset: 0xCEE1A4
     void Add(System::Threading::Timer* timer);
     // private System.Int32 InternalRemove(System.Threading.Timer timer)
-    // Offset: 0xC49FFC
+    // Offset: 0xCEE144
     int InternalRemove(System::Threading::Timer* timer);
     // static private System.Void TimerCB(System.Object o)
-    // Offset: 0xC4A2E8
+    // Offset: 0xCEE430
     static void TimerCB(::Il2CppObject* o);
     // private System.Void SchedulerThread()
-    // Offset: 0xC4A714
+    // Offset: 0xCEE85C
     void SchedulerThread();
     // private System.Void ShrinkIfNeeded(System.Collections.Generic.List`1<System.Threading.Timer> list, System.Int32 initial)
-    // Offset: 0xC4AC8C
+    // Offset: 0xCEEDD4
     void ShrinkIfNeeded(System::Collections::Generic::List_1<System::Threading::Timer*>* list, int initial);
     // private System.Void .ctor()
-    // Offset: 0xC49E4C
+    // Offset: 0xCEDF94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Timer::Scheduler* New_ctor();

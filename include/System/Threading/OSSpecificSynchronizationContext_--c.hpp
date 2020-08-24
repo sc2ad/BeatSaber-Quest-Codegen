@@ -24,13 +24,13 @@ namespace System::Threading {
     // Set static field: static public System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.Threading.OSSpecificSynchronizationContext> <>9__3_0
     static void _set_$$9__3_0(typename System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Threading::OSSpecificSynchronizationContext*>::CreateValueCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x133A5F0
+    // Offset: 0x13E0738
     static void _cctor();
     // System.Threading.OSSpecificSynchronizationContext <Get>b__3_0(System.Object _osContext)
-    // Offset: 0x133A660
+    // Offset: 0x13E07A8
     System::Threading::OSSpecificSynchronizationContext* $Get$b__3_0(::Il2CppObject* _osContext);
     // public System.Void .ctor()
-    // Offset: 0x133A658
+    // Offset: 0x13E07A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OSSpecificSynchronizationContext::$$c* New_ctor();

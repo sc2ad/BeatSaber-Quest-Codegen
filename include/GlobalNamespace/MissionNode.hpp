@@ -48,34 +48,34 @@ namespace GlobalNamespace {
     // Offset: 0x40
     ::Array<GlobalNamespace::MissionNode*>* childNodes;
     // public MissionDataSO get_missionData()
-    // Offset: 0x194DEB4
+    // Offset: 0xC09778
     GlobalNamespace::MissionDataSO* get_missionData();
     // public MissionNode[] get_childNodes()
-    // Offset: 0x194DEBC
+    // Offset: 0xC09780
     ::Array<GlobalNamespace::MissionNode*>* get_childNodes();
     // public MissionNodeVisualController get_missionNodeVisualController()
-    // Offset: 0x194DEC4
+    // Offset: 0xC09788
     GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
     // public System.String get_letterPartName()
-    // Offset: 0x194DECC
+    // Offset: 0xC09790
     ::Il2CppString* get_letterPartName();
     // public System.Int32 get_numberPartName()
-    // Offset: 0x194DED4
+    // Offset: 0xC09798
     int get_numberPartName();
     // public System.String get_missionId()
-    // Offset: 0x194DEDC
+    // Offset: 0xC097A0
     ::Il2CppString* get_missionId();
     // public System.String get_formattedMissionNodeName()
-    // Offset: 0x194DF0C
+    // Offset: 0xC097D0
     ::Il2CppString* get_formattedMissionNodeName();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x194D0C4
+    // Offset: 0xC08988
     UnityEngine::Vector2 get_position();
     // public System.Single get_radius()
-    // Offset: 0x194DF90
+    // Offset: 0xC09854
     float get_radius();
     // public System.Void .ctor()
-    // Offset: 0x194DFD4
+    // Offset: 0xC09898
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

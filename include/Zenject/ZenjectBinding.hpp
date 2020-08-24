@@ -81,31 +81,31 @@ namespace Zenject {
     // Offset: 0x38
     Zenject::ZenjectBinding::BindTypes bindType;
     // public System.Boolean get_UseSceneContext()
-    // Offset: 0x189785C
+    // Offset: 0x19439A4
     bool get_UseSceneContext();
     // public System.Boolean get_IfNotBound()
-    // Offset: 0x1897864
+    // Offset: 0x19439AC
     bool get_IfNotBound();
     // public Zenject.Context get_Context()
-    // Offset: 0x189786C
+    // Offset: 0x19439B4
     Zenject::Context* get_Context();
     // public System.Void set_Context(Zenject.Context value)
-    // Offset: 0x1897874
+    // Offset: 0x19439BC
     void set_Context(Zenject::Context* value);
     // public UnityEngine.Component[] get_Components()
-    // Offset: 0x189787C
+    // Offset: 0x19439C4
     ::Array<UnityEngine::Component*>* get_Components();
     // public System.String get_Identifier()
-    // Offset: 0x1897884
+    // Offset: 0x19439CC
     ::Il2CppString* get_Identifier();
     // public Zenject.ZenjectBinding/BindTypes get_BindType()
-    // Offset: 0x189788C
+    // Offset: 0x19439D4
     Zenject::ZenjectBinding::BindTypes get_BindType();
     // public System.Void Start()
-    // Offset: 0x1897894
+    // Offset: 0x19439DC
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1897898
+    // Offset: 0x19439E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

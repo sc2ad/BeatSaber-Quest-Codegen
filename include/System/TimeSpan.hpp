@@ -58,88 +58,88 @@ namespace System {
     // Creating value type constructor for type: TimeSpan
     TimeSpan(int64_t ticks_ = {}) : ticks{ticks_} {}
     // public System.Void .ctor(System.Int64 ticks)
-    // Offset: 0x993874
+    // Offset: 0xA2DEEC
     static TimeSpan* New_ctor(int64_t ticks);
     // public System.Void .ctor(System.Int32 hours, System.Int32 minutes, System.Int32 seconds)
-    // Offset: 0x99387C
+    // Offset: 0xA2DEF4
     static TimeSpan* New_ctor(int hours, int minutes, int seconds);
     // public System.Void .ctor(System.Int32 days, System.Int32 hours, System.Int32 minutes, System.Int32 seconds, System.Int32 milliseconds)
-    // Offset: 0x993884
+    // Offset: 0xA2DEFC
     static TimeSpan* New_ctor(int days, int hours, int minutes, int seconds, int milliseconds);
     // public System.Int64 get_Ticks()
-    // Offset: 0x99388C
+    // Offset: 0xA2DF04
     int64_t get_Ticks();
     // public System.Int32 get_Hours()
-    // Offset: 0x993894
+    // Offset: 0xA2DF0C
     int get_Hours();
     // public System.Int32 get_Minutes()
-    // Offset: 0x9938DC
+    // Offset: 0xA2DF54
     int get_Minutes();
     // public System.Int32 get_Seconds()
-    // Offset: 0x993924
+    // Offset: 0xA2DF9C
     int get_Seconds();
     // public System.Double get_TotalHours()
-    // Offset: 0x993970
+    // Offset: 0xA2DFE8
     double get_TotalHours();
     // public System.Double get_TotalMilliseconds()
-    // Offset: 0x993988
+    // Offset: 0xA2E000
     double get_TotalMilliseconds();
     // public System.Double get_TotalMinutes()
-    // Offset: 0x9939BC
+    // Offset: 0xA2E034
     double get_TotalMinutes();
     // public System.Double get_TotalSeconds()
-    // Offset: 0x9939D4
+    // Offset: 0xA2E04C
     double get_TotalSeconds();
     // public System.TimeSpan Add(System.TimeSpan ts)
-    // Offset: 0x9939EC
+    // Offset: 0xA2E064
     System::TimeSpan Add(System::TimeSpan ts);
     // static public System.TimeSpan FromDays(System.Double value)
-    // Offset: 0xC4C9C8
+    // Offset: 0xCF0B10
     static System::TimeSpan FromDays(double value);
     // public System.TimeSpan Duration()
-    // Offset: 0x993A10
+    // Offset: 0xA2E088
     System::TimeSpan Duration();
     // static public System.TimeSpan FromHours(System.Double value)
-    // Offset: 0xC4CD10
+    // Offset: 0xCF0E58
     static System::TimeSpan FromHours(double value);
     // static private System.TimeSpan Interval(System.Double value, System.Int32 scale)
-    // Offset: 0xC4CA3C
+    // Offset: 0xCF0B84
     static System::TimeSpan Interval(double value, int scale);
     // static public System.TimeSpan FromMilliseconds(System.Double value)
-    // Offset: 0xC4CD84
+    // Offset: 0xCF0ECC
     static System::TimeSpan FromMilliseconds(double value);
     // static public System.TimeSpan FromMinutes(System.Double value)
-    // Offset: 0xC4CDF4
+    // Offset: 0xCF0F3C
     static System::TimeSpan FromMinutes(double value);
     // public System.TimeSpan Negate()
-    // Offset: 0x993A3C
+    // Offset: 0xA2E0B4
     System::TimeSpan Negate();
     // static public System.TimeSpan FromSeconds(System.Double value)
-    // Offset: 0xC4CF3C
+    // Offset: 0xCF1084
     static System::TimeSpan FromSeconds(double value);
     // public System.TimeSpan Subtract(System.TimeSpan ts)
-    // Offset: 0x993A44
+    // Offset: 0xA2E0BC
     System::TimeSpan Subtract(System::TimeSpan ts);
     // static public System.TimeSpan FromTicks(System.Int64 value)
-    // Offset: 0xC4D060
+    // Offset: 0xCF11A8
     static System::TimeSpan FromTicks(int64_t value);
     // static System.Int64 TimeToTicks(System.Int32 hour, System.Int32 minute, System.Int32 second)
-    // Offset: 0xC4C608
+    // Offset: 0xCF0750
     static int64_t TimeToTicks(int hour, int minute, int second);
     // public System.String ToString(System.String format)
-    // Offset: 0x993A54
+    // Offset: 0xA2E0CC
     ::Il2CppString* ToString(::Il2CppString* format);
     // static private System.Boolean GetLegacyFormatMode()
-    // Offset: 0xC4D3C8
+    // Offset: 0xCF1510
     static bool GetLegacyFormatMode();
     // static private System.Boolean get_LegacyMode()
-    // Offset: 0xC4D22C
+    // Offset: 0xCF1374
     static bool get_LegacyMode();
     // static private System.Void .cctor()
-    // Offset: 0xC4D418
+    // Offset: 0xCF1560
     static void _cctor();
     // public System.Int32 CompareTo(System.Object value)
-    // Offset: 0x9939F4
+    // Offset: 0xA2E06C
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
     int CompareTo(::Il2CppObject* value);
@@ -147,59 +147,59 @@ namespace System {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.TimeSpan value)
-    // Offset: 0x9939FC
+    // Offset: 0xA2E074
     // Implemented from: System.IComparable`1
     // Base method: System.Int32 IComparable`1::CompareTo(System.TimeSpan value)
     int CompareTo(System::TimeSpan value);
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x993A18
+    // Offset: 0xA2E090
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public System.Boolean Equals(System.TimeSpan obj)
-    // Offset: 0x993A20
+    // Offset: 0xA2E098
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(System.TimeSpan obj)
     bool Equals(System::TimeSpan obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x993A30
+    // Offset: 0xA2E0A8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x993A4C
+    // Offset: 0xA2E0C4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public System.String ToString(System.String format, System.IFormatProvider formatProvider)
-    // Offset: 0x993A5C
+    // Offset: 0xA2E0D4
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider formatProvider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);
   }; // System.TimeSpan
   // static public System.TimeSpan op_Subtraction(System.TimeSpan t1, System.TimeSpan t2)
-  // Offset: 0xC4D338
+  // Offset: 0xCF1480
   System::TimeSpan operator-(const System::TimeSpan& t1, const System::TimeSpan& t2);
   // static public System.TimeSpan op_Addition(System.TimeSpan t1, System.TimeSpan t2)
-  // Offset: 0xC4D35C
+  // Offset: 0xCF14A4
   System::TimeSpan operator+(const System::TimeSpan& t1, const System::TimeSpan& t2);
   // static public System.Boolean op_Equality(System.TimeSpan t1, System.TimeSpan t2)
-  // Offset: 0xC4D380
+  // Offset: 0xCF14C8
   bool operator ==(const System::TimeSpan& t1, const System::TimeSpan& t2);
   // static public System.Boolean op_Inequality(System.TimeSpan t1, System.TimeSpan t2)
-  // Offset: 0xC4D38C
+  // Offset: 0xCF14D4
   bool operator !=(const System::TimeSpan& t1, const System::TimeSpan& t2);
   // static public System.Boolean op_LessThan(System.TimeSpan t1, System.TimeSpan t2)
-  // Offset: 0xC4D398
+  // Offset: 0xCF14E0
   bool operator <(const System::TimeSpan& t1, const System::TimeSpan& t2);
   // static public System.Boolean op_LessThanOrEqual(System.TimeSpan t1, System.TimeSpan t2)
-  // Offset: 0xC4D3A4
+  // Offset: 0xCF14EC
   bool operator <=(const System::TimeSpan& t1, const System::TimeSpan& t2);
   // static public System.Boolean op_GreaterThan(System.TimeSpan t1, System.TimeSpan t2)
-  // Offset: 0xC4D3B0
+  // Offset: 0xCF14F8
   bool operator >(const System::TimeSpan& t1, const System::TimeSpan& t2);
   // static public System.Boolean op_GreaterThanOrEqual(System.TimeSpan t1, System.TimeSpan t2)
-  // Offset: 0xC4D3BC
+  // Offset: 0xCF1504
   bool operator >=(const System::TimeSpan& t1, const System::TimeSpan& t2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

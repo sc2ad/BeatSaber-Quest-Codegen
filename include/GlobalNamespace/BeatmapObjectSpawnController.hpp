@@ -91,52 +91,52 @@ namespace GlobalNamespace {
     // Offset: 0x70
     GlobalNamespace::VariableBPMProcessor* variableBPMProcessor;
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x18DFFE8
+    // Offset: 0xB79544
     float get_jumpOffsetY();
     // public System.Void set_jumpOffsetY(System.Single value)
-    // Offset: 0x18DFFF0
+    // Offset: 0xB7954C
     void set_jumpOffsetY(float value);
     // public System.Single get_currentBPM()
-    // Offset: 0x18DFFF8
+    // Offset: 0xB79554
     float get_currentBPM();
     // protected System.Void Start()
-    // Offset: 0x18E0014
+    // Offset: 0xB79570
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x18E0458
+    // Offset: 0xB799B4
     void OnDestroy();
     // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x18E0544
+    // Offset: 0xB79AA0
     UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // private System.Void SpawnObstacle(ObstacleData obstacleData)
-    // Offset: 0x18E065C
+    // Offset: 0xB79BB8
     void SpawnObstacle(GlobalNamespace::ObstacleData* obstacleData);
     // private System.Void SpawnNote(NoteData noteData, System.Single cutDirectionAngleOffset)
-    // Offset: 0x18E0984
+    // Offset: 0xB79EE0
     void SpawnNote(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
     // private System.Void ProcessEarlyBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x18E0EA0
+    // Offset: 0xB7A3FC
     void ProcessEarlyBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void EarlyEventsWereProcessed()
-    // Offset: 0x18E0EE4
+    // Offset: 0xB7A440
     void EarlyEventsWereProcessed();
     // private System.Void ProcessLateBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x18E1160
+    // Offset: 0xB7A6BC
     void ProcessLateBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void HandleBeatmapObjectCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x18E117C
+    // Offset: 0xB7A6D8
     void HandleBeatmapObjectCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // private System.Void HandleBeatmapEventCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0x18E1198
+    // Offset: 0xB7A6F4
     void HandleBeatmapEventCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void HandleCallbacksForThisFrameWereProcessed()
-    // Offset: 0x18E11EC
+    // Offset: 0xB7A748
     void HandleCallbacksForThisFrameWereProcessed();
     // public System.Void StopSpawning()
-    // Offset: 0x18E1208
+    // Offset: 0xB7A764
     void StopSpawning();
     // public System.Void .ctor()
-    // Offset: 0x18E1214
+    // Offset: 0xB7A770
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15FCE58
+    // Offset: 0x16A7FA0
     static IVROverlay::_SetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.Single fMinDistanceInMeters, System.Single fMaxDistanceInMeters)
-    // Offset: 0x15FCE6C
+    // Offset: 0x16A7FB4
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.Single fMinDistanceInMeters, System.Single fMaxDistanceInMeters, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15FD104
+    // Offset: 0x16A824C
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15FD1C4
+    // Offset: 0x16A830C
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayAutoCurveDistanceRangeInMeters
 }

@@ -106,193 +106,193 @@ namespace UnityEngine {
     // Set static field: static private UnityEngineInternal.GenericStack <scrollViewStates>k__BackingField
     static void _set_$scrollViewStates$k__BackingField(UnityEngineInternal::GenericStack* value);
     // static public UnityEngine.Color get_color()
-    // Offset: 0x11BE76C
+    // Offset: 0x12628B4
     static UnityEngine::Color get_color();
     // static public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x11BE844
+    // Offset: 0x126298C
     static void set_color(UnityEngine::Color value);
     // static public System.Void set_changed(System.Boolean value)
-    // Offset: 0x11BE918
+    // Offset: 0x1262A60
     static void set_changed(bool value);
     // static System.Boolean get_usePageScrollbars()
-    // Offset: 0x11BE958
+    // Offset: 0x1262AA0
     static bool get_usePageScrollbars();
     // static UnityEngine.Material get_blendMaterial()
-    // Offset: 0x11BE98C
+    // Offset: 0x1262AD4
     static UnityEngine::Material* get_blendMaterial();
     // static UnityEngine.Material get_blitMaterial()
-    // Offset: 0x11BE9C0
+    // Offset: 0x1262B08
     static UnityEngine::Material* get_blitMaterial();
     // static UnityEngine.Material get_roundedRectMaterial()
-    // Offset: 0x11BE9F4
+    // Offset: 0x1262B3C
     static UnityEngine::Material* get_roundedRectMaterial();
     // static UnityEngine.Material get_roundedRectWithColorPerBorderMaterial()
-    // Offset: 0x11BEA28
+    // Offset: 0x1262B70
     static UnityEngine::Material* get_roundedRectWithColorPerBorderMaterial();
     // static System.Void GrabMouseControl(System.Int32 id)
-    // Offset: 0x11BEA5C
+    // Offset: 0x1262BA4
     static void GrabMouseControl(int id);
     // static System.Boolean HasMouseControl(System.Int32 id)
-    // Offset: 0x11BEA9C
+    // Offset: 0x1262BE4
     static bool HasMouseControl(int id);
     // static System.Void ReleaseMouseControl()
-    // Offset: 0x11BEADC
+    // Offset: 0x1262C24
     static void ReleaseMouseControl();
     // static System.Void InternalRepaintEditorWindow()
-    // Offset: 0x11BEB10
+    // Offset: 0x1262C58
     static void InternalRepaintEditorWindow();
     // static private System.Void .cctor()
-    // Offset: 0x11BEB44
+    // Offset: 0x1262C8C
     static void _cctor();
     // static System.Int32 get_scrollTroughSide()
-    // Offset: 0x11BED88
+    // Offset: 0x1262ED0
     static int get_scrollTroughSide();
     // static System.Void set_scrollTroughSide(System.Int32 value)
-    // Offset: 0x11BEDF0
+    // Offset: 0x1262F38
     static void set_scrollTroughSide(int value);
     // static System.DateTime get_nextScrollStepTime()
-    // Offset: 0x11BEE5C
+    // Offset: 0x1262FA4
     static System::DateTime get_nextScrollStepTime();
     // static System.Void set_nextScrollStepTime(System.DateTime value)
-    // Offset: 0x11BEEC4
+    // Offset: 0x126300C
     static void set_nextScrollStepTime(System::DateTime value);
     // static public System.Void set_skin(UnityEngine.GUISkin value)
-    // Offset: 0x11BEF30
+    // Offset: 0x1263078
     static void set_skin(UnityEngine::GUISkin* value);
     // static public UnityEngine.GUISkin get_skin()
-    // Offset: 0x11BF0F4
+    // Offset: 0x126323C
     static UnityEngine::GUISkin* get_skin();
     // static System.Void DoSetSkin(UnityEngine.GUISkin newSkin)
-    // Offset: 0x11BF03C
+    // Offset: 0x1263184
     static void DoSetSkin(UnityEngine::GUISkin* newSkin);
     // static public System.Void Label(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11BF2C4
+    // Offset: 0x126340C
     static void Label(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static public System.Void DrawTexture(UnityEngine.Rect position, UnityEngine.Texture image)
-    // Offset: 0x11BF520
+    // Offset: 0x1263668
     static void DrawTexture(UnityEngine::Rect position, UnityEngine::Texture* image);
     // static public System.Void DrawTexture(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode)
-    // Offset: 0x11BF5B8
+    // Offset: 0x1263700
     static void DrawTexture(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::ScaleMode scaleMode);
     // static public System.Void DrawTexture(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode, System.Boolean alphaBlend)
-    // Offset: 0x11BF660
+    // Offset: 0x12637A8
     static void DrawTexture(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::ScaleMode scaleMode, bool alphaBlend);
     // static public System.Void DrawTexture(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode, System.Boolean alphaBlend, System.Single imageAspect)
-    // Offset: 0x11BF710
+    // Offset: 0x1263858
     static void DrawTexture(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::ScaleMode scaleMode, bool alphaBlend, float imageAspect);
     // static public System.Void DrawTexture(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode, System.Boolean alphaBlend, System.Single imageAspect, UnityEngine.Color color, System.Single borderWidth, System.Single borderRadius)
-    // Offset: 0x11BF7EC
+    // Offset: 0x1263934
     static void DrawTexture(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::ScaleMode scaleMode, bool alphaBlend, float imageAspect, UnityEngine::Color color, float borderWidth, float borderRadius);
     // static public System.Void DrawTexture(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode, System.Boolean alphaBlend, System.Single imageAspect, UnityEngine.Color color, UnityEngine.Vector4 borderWidths, System.Single borderRadius)
-    // Offset: 0x11BF920
+    // Offset: 0x1263A68
     static void DrawTexture(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::ScaleMode scaleMode, bool alphaBlend, float imageAspect, UnityEngine::Color color, UnityEngine::Vector4 borderWidths, float borderRadius);
     // static public System.Void DrawTexture(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode, System.Boolean alphaBlend, System.Single imageAspect, UnityEngine.Color color, UnityEngine.Vector4 borderWidths, UnityEngine.Vector4 borderRadiuses)
-    // Offset: 0x11BFA80
+    // Offset: 0x1263BC8
     static void DrawTexture(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::ScaleMode scaleMode, bool alphaBlend, float imageAspect, UnityEngine::Color color, UnityEngine::Vector4 borderWidths, UnityEngine::Vector4 borderRadiuses);
     // static System.Void DrawTexture(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode, System.Boolean alphaBlend, System.Single imageAspect, UnityEngine.Color color, UnityEngine.Vector4 borderWidths, UnityEngine.Vector4 borderRadiuses, System.Boolean drawSmoothCorners)
-    // Offset: 0x11BFBE8
+    // Offset: 0x1263D30
     static void DrawTexture(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::ScaleMode scaleMode, bool alphaBlend, float imageAspect, UnityEngine::Color color, UnityEngine::Vector4 borderWidths, UnityEngine::Vector4 borderRadiuses, bool drawSmoothCorners);
     // static System.Void DrawTexture(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode, System.Boolean alphaBlend, System.Single imageAspect, UnityEngine.Color leftColor, UnityEngine.Color topColor, UnityEngine.Color rightColor, UnityEngine.Color bottomColor, UnityEngine.Vector4 borderWidths, UnityEngine.Vector4 borderRadiuses, System.Boolean drawSmoothCorners)
-    // Offset: 0x11BFD38
+    // Offset: 0x1263E80
     static void DrawTexture(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::ScaleMode scaleMode, bool alphaBlend, float imageAspect, UnityEngine::Color leftColor, UnityEngine::Color topColor, UnityEngine::Color rightColor, UnityEngine::Color bottomColor, UnityEngine::Vector4 borderWidths, UnityEngine::Vector4 borderRadiuses, bool drawSmoothCorners);
     // static System.Boolean CalculateScaledTextureRects(UnityEngine.Rect position, UnityEngine.ScaleMode scaleMode, System.Single imageAspect, UnityEngine.Rect outScreenRect, UnityEngine.Rect outSourceRect)
-    // Offset: 0x11C0404
+    // Offset: 0x126454C
     static bool CalculateScaledTextureRects(UnityEngine::Rect position, UnityEngine::ScaleMode scaleMode, float imageAspect, UnityEngine::Rect& outScreenRect, UnityEngine::Rect& outSourceRect);
     // static public System.Void DrawTextureWithTexCoords(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.Rect texCoords)
-    // Offset: 0x11C0668
+    // Offset: 0x12647B0
     static void DrawTextureWithTexCoords(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::Rect texCoords);
     // static public System.Void DrawTextureWithTexCoords(UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.Rect texCoords, System.Boolean alphaBlend)
-    // Offset: 0x11C0730
+    // Offset: 0x1264878
     static void DrawTextureWithTexCoords(UnityEngine::Rect position, UnityEngine::Texture* image, UnityEngine::Rect texCoords, bool alphaBlend);
     // static public System.Void Box(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11C099C
+    // Offset: 0x1264AE4
     static void Box(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static public System.Boolean Button(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11C0C2C
+    // Offset: 0x1264D74
     static bool Button(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static System.Boolean Button(UnityEngine.Rect position, System.Int32 id, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11C0D5C
+    // Offset: 0x1264EA4
     static bool Button(UnityEngine::Rect position, int id, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static private System.Boolean DoRepeatButton(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.FocusType focusType)
-    // Offset: 0x11C0F30
+    // Offset: 0x1265078
     static bool DoRepeatButton(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, UnityEngine::FocusType focusType);
     // static System.String PasswordFieldGetStrToShow(System.String password, System.Char maskChar)
-    // Offset: 0x11C1314
+    // Offset: 0x126545C
     static ::Il2CppString* PasswordFieldGetStrToShow(::Il2CppString* password, ::Il2CppChar maskChar);
     // static System.Void DoTextField(UnityEngine.Rect position, System.Int32 id, UnityEngine.GUIContent content, System.Boolean multiline, System.Int32 maxLength, UnityEngine.GUIStyle style)
-    // Offset: 0x11C1468
+    // Offset: 0x12655B0
     static void DoTextField(UnityEngine::Rect position, int id, UnityEngine::GUIContent* content, bool multiline, int maxLength, UnityEngine::GUIStyle* style);
     // static System.Void DoTextField(UnityEngine.Rect position, System.Int32 id, UnityEngine.GUIContent content, System.Boolean multiline, System.Int32 maxLength, UnityEngine.GUIStyle style, System.String secureText)
-    // Offset: 0x11C1530
+    // Offset: 0x1265678
     static void DoTextField(UnityEngine::Rect position, int id, UnityEngine::GUIContent* content, bool multiline, int maxLength, UnityEngine::GUIStyle* style, ::Il2CppString* secureText);
     // static System.Void DoTextField(UnityEngine.Rect position, System.Int32 id, UnityEngine.GUIContent content, System.Boolean multiline, System.Int32 maxLength, UnityEngine.GUIStyle style, System.String secureText, System.Char maskChar)
-    // Offset: 0x11C1608
+    // Offset: 0x1265750
     static void DoTextField(UnityEngine::Rect position, int id, UnityEngine::GUIContent* content, bool multiline, int maxLength, UnityEngine::GUIStyle* style, ::Il2CppString* secureText, ::Il2CppChar maskChar);
     // static private System.Void HandleTextFieldEventForTouchscreen(UnityEngine.Rect position, System.Int32 id, UnityEngine.GUIContent content, System.Boolean multiline, System.Int32 maxLength, UnityEngine.GUIStyle style, System.String secureText, System.Char maskChar, UnityEngine.TextEditor editor)
-    // Offset: 0x11C1B04
+    // Offset: 0x1265C4C
     static void HandleTextFieldEventForTouchscreen(UnityEngine::Rect position, int id, UnityEngine::GUIContent* content, bool multiline, int maxLength, UnityEngine::GUIStyle* style, ::Il2CppString* secureText, ::Il2CppChar maskChar, UnityEngine::TextEditor* editor);
     // static private System.Void HandleTextFieldEventForDesktop(UnityEngine.Rect position, System.Int32 id, UnityEngine.GUIContent content, System.Boolean multiline, System.Int32 maxLength, UnityEngine.GUIStyle style, UnityEngine.TextEditor editor)
-    // Offset: 0x11C1FBC
+    // Offset: 0x1266104
     static void HandleTextFieldEventForDesktop(UnityEngine::Rect position, int id, UnityEngine::GUIContent* content, bool multiline, int maxLength, UnityEngine::GUIStyle* style, UnityEngine::TextEditor* editor);
     // static public System.Boolean Toggle(UnityEngine.Rect position, System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11C34B4
+    // Offset: 0x12675FC
     static bool Toggle(UnityEngine::Rect position, bool value, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static private System.Boolean DoControl(UnityEngine.Rect position, System.Int32 id, System.Boolean on, System.Boolean hover, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11C36B8
+    // Offset: 0x1267800
     static bool DoControl(UnityEngine::Rect position, int id, bool on, bool hover, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static private System.Void DoLabel(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11BF36C
+    // Offset: 0x12634B4
     static void DoLabel(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static System.Boolean DoToggle(UnityEngine.Rect position, System.Int32 id, System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11C3588
+    // Offset: 0x12676D0
     static bool DoToggle(UnityEngine::Rect position, int id, bool value, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static System.Boolean DoButton(UnityEngine.Rect position, System.Int32 id, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11C0E0C
+    // Offset: 0x1264F54
     static bool DoButton(UnityEngine::Rect position, int id, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static public System.Single HorizontalSlider(UnityEngine.Rect position, System.Single value, System.Single leftValue, System.Single rightValue, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb)
-    // Offset: 0x11C3CC0
+    // Offset: 0x1267E08
     static float HorizontalSlider(UnityEngine::Rect position, float value, float leftValue, float rightValue, UnityEngine::GUIStyle* slider, UnityEngine::GUIStyle* thumb);
     // static public System.Single Slider(UnityEngine.Rect position, System.Single value, System.Single size, System.Single start, System.Single end, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, System.Boolean horiz, System.Int32 id, UnityEngine.GUIStyle thumbExtent)
-    // Offset: 0x11C3D9C
+    // Offset: 0x1267EE4
     static float Slider(UnityEngine::Rect position, float value, float size, float start, float end, UnityEngine::GUIStyle* slider, UnityEngine::GUIStyle* thumb, bool horiz, int id, UnityEngine::GUIStyle* thumbExtent);
     // static public System.Single HorizontalScrollbar(UnityEngine.Rect position, System.Single value, System.Single size, System.Single leftValue, System.Single rightValue, UnityEngine.GUIStyle style)
-    // Offset: 0x11C4024
+    // Offset: 0x126816C
     static float HorizontalScrollbar(UnityEngine::Rect position, float value, float size, float leftValue, float rightValue, UnityEngine::GUIStyle* style);
     // static System.Boolean ScrollerRepeatButton(System.Int32 scrollerID, UnityEngine.Rect rect, UnityEngine.GUIStyle style)
-    // Offset: 0x11C4C34
+    // Offset: 0x1268D7C
     static bool ScrollerRepeatButton(int scrollerID, UnityEngine::Rect rect, UnityEngine::GUIStyle* style);
     // static public System.Single VerticalScrollbar(UnityEngine.Rect position, System.Single value, System.Single size, System.Single topValue, System.Single bottomValue, UnityEngine.GUIStyle style)
-    // Offset: 0x11C4F78
+    // Offset: 0x12690C0
     static float VerticalScrollbar(UnityEngine::Rect position, float value, float size, float topValue, float bottomValue, UnityEngine::GUIStyle* style);
     // static System.Single Scroller(UnityEngine.Rect position, System.Single value, System.Single size, System.Single leftValue, System.Single rightValue, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, UnityEngine.GUIStyle leftButton, UnityEngine.GUIStyle rightButton, System.Boolean horiz)
-    // Offset: 0x11C4530
+    // Offset: 0x1268678
     static float Scroller(UnityEngine::Rect position, float value, float size, float leftValue, float rightValue, UnityEngine::GUIStyle* slider, UnityEngine::GUIStyle* thumb, UnityEngine::GUIStyle* leftButton, UnityEngine::GUIStyle* rightButton, bool horiz);
     // static public System.Void BeginGroup(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x11C5180
+    // Offset: 0x12692C8
     static void BeginGroup(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static System.Void BeginGroup(UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.Vector2 scrollOffset)
-    // Offset: 0x11C5264
+    // Offset: 0x12693AC
     static void BeginGroup(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, UnityEngine::Vector2 scrollOffset);
     // static public System.Void EndGroup()
-    // Offset: 0x11C5610
+    // Offset: 0x1269758
     static void EndGroup();
     // static UnityEngineInternal.GenericStack get_scrollViewStates()
-    // Offset: 0x11C567C
+    // Offset: 0x12697C4
     static UnityEngineInternal::GenericStack* get_scrollViewStates();
     // static UnityEngine.Vector2 BeginScrollView(UnityEngine.Rect position, UnityEngine.Vector2 scrollPosition, UnityEngine.Rect viewRect, System.Boolean alwaysShowHorizontal, System.Boolean alwaysShowVertical, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUIStyle background)
-    // Offset: 0x11C56E4
+    // Offset: 0x126982C
     static UnityEngine::Vector2 BeginScrollView(UnityEngine::Rect position, UnityEngine::Vector2 scrollPosition, UnityEngine::Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine::GUIStyle* horizontalScrollbar, UnityEngine::GUIStyle* verticalScrollbar, UnityEngine::GUIStyle* background);
     // static public System.Void EndScrollView(System.Boolean handleScrollWheel)
-    // Offset: 0x11C6684
+    // Offset: 0x126A7CC
     static void EndScrollView(bool handleScrollWheel);
     // static System.Void CallWindowDelegate(UnityEngine.GUI/WindowFunction func, System.Int32 id, System.Int32 instanceID, UnityEngine.GUISkin _skin, System.Int32 forceRect, System.Single width, System.Single height, UnityEngine.GUIStyle style)
-    // Offset: 0x11C6B18
+    // Offset: 0x126AC60
     static void CallWindowDelegate(UnityEngine::GUI::WindowFunction* func, int id, int instanceID, UnityEngine::GUISkin* _skin, int forceRect, float width, float height, UnityEngine::GUIStyle* style);
     // static private System.Void get_color_Injected(UnityEngine.Color ret)
-    // Offset: 0x11BE804
+    // Offset: 0x126294C
     static void get_color_Injected(UnityEngine::Color& ret);
     // static private System.Void set_color_Injected(UnityEngine.Color value)
-    // Offset: 0x11BE8D8
+    // Offset: 0x1262A20
     static void set_color_Injected(UnityEngine::Color& value);
   }; // UnityEngine.GUI
 }

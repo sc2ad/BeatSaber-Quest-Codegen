@@ -24,10 +24,10 @@ namespace Zenject {
     // Offset: 0x10
     UnityEngine::Object* prefab;
     // public System.Void .ctor(UnityEngine.Object prefab)
-    // Offset: 0xF2159C
+    // Offset: 0xFC66E4
     static PrefabProvider* New_ctor(UnityEngine::Object* prefab);
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0xF2298C
+    // Offset: 0xFC7AD4
     // Implemented from: Zenject.IPrefabProvider
     // Base method: UnityEngine.Object IPrefabProvider::GetPrefab()
     UnityEngine::Object* GetPrefab();

@@ -73,30 +73,30 @@ namespace GlobalNamespace {
     // Offset: 0x58
     bool initialized;
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0x192EE84
+    // Offset: 0xBEA748
     GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0x192EE8C
+    // Offset: 0xBEA750
     void SetData(GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x192F244
+    // Offset: 0xBEAB08
     void OnDestroy();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x192F5C0
+    // Offset: 0xBEAE84
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x192F788
+    // Offset: 0xBEB04C
     void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
     // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__16_0()
-    // Offset: 0x192F8A4
+    // Offset: 0xBEB168
     void $HandleOverrideEnvironmentsToggleValueChanged$b__16_0();
     // public System.Void Refresh()
-    // Offset: 0x192F3CC
+    // Offset: 0xBEAC90
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x192F89C
+    // Offset: 0xBEB160
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

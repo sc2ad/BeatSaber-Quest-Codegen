@@ -25,25 +25,25 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Result ovrp_GetCurrentTrackingTransformPose(OVRPlugin/Posef trackingTransformPose)
-    // Offset: 0xEA25AC
+    // Offset: 0xF476F4
     static GlobalNamespace::OVRPlugin::Result ovrp_GetCurrentTrackingTransformPose(GlobalNamespace::OVRPlugin::Posef& trackingTransformPose);
     // static public OVRPlugin/Result ovrp_GetTrackingTransformRawPose(OVRPlugin/Posef trackingTransformRawPose)
-    // Offset: 0xEA262C
+    // Offset: 0xF47774
     static GlobalNamespace::OVRPlugin::Result ovrp_GetTrackingTransformRawPose(GlobalNamespace::OVRPlugin::Posef& trackingTransformRawPose);
     // static public OVRPlugin/Result ovrp_SendEvent2(System.String name, System.String param, System.String source)
-    // Offset: 0xEA26AC
+    // Offset: 0xF477F4
     static GlobalNamespace::OVRPlugin::Result ovrp_SendEvent2(::Il2CppString* name, ::Il2CppString* param, ::Il2CppString* source);
     // static public OVRPlugin/Result ovrp_IsPerfMetricsSupported(OVRPlugin/PerfMetrics perfMetrics, OVRPlugin/Bool isSupported)
-    // Offset: 0xEA2788
+    // Offset: 0xF478D0
     static GlobalNamespace::OVRPlugin::Result ovrp_IsPerfMetricsSupported(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, GlobalNamespace::OVRPlugin::Bool& isSupported);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsFloat(OVRPlugin/PerfMetrics perfMetrics, System.Single value)
-    // Offset: 0xEA2818
+    // Offset: 0xF47960
     static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsFloat(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, float& value);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsInt(OVRPlugin/PerfMetrics perfMetrics, System.Int32 value)
-    // Offset: 0xEA28A8
+    // Offset: 0xF479F0
     static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsInt(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, int& value);
     // static private System.Void .cctor()
-    // Offset: 0xEA2938
+    // Offset: 0xF47A80
     static void _cctor();
   }; // OVRPlugin/OVRP_1_30_0
 }

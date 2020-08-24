@@ -39,7 +39,7 @@ namespace TMPro {
     // Offset: 0x30
     float scale;
     // public System.Void .ctor()
-    // Offset: 0xD1EB00
+    // Offset: 0xDC2C48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextElement_Legacy* New_ctor();

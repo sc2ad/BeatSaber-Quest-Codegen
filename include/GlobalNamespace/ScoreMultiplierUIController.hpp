@@ -57,28 +57,28 @@ namespace GlobalNamespace {
     // Offset: 0x40
     float progressTarget;
     // protected System.Void Start()
-    // Offset: 0xBA0FD4
+    // Offset: 0xC2D38C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0xBA11C8
+    // Offset: 0xC2D580
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xBA11CC
+    // Offset: 0xC2D584
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0xBA10B4
+    // Offset: 0xC2D46C
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0xBA11D0
+    // Offset: 0xC2D588
     void UnregisterFromEvents();
     // protected System.Void Update()
-    // Offset: 0xBA12A8
+    // Offset: 0xC2D660
     void Update();
     // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single progress)
-    // Offset: 0xBA13B4
+    // Offset: 0xC2D76C
     void HandleMultiplierDidChange(int multiplier, float progress);
     // public System.Void .ctor()
-    // Offset: 0xBA1494
+    // Offset: 0xC2D84C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

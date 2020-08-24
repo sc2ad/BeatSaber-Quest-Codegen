@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     ::Il2CppString* Characteristic;
     // public System.Void .ctor()
-    // Offset: 0x192A818
+    // Offset: 0xBE60DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Deeplink* New_ctor();

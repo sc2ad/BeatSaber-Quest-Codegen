@@ -22,13 +22,13 @@ namespace UnityEngine {
   class Joint : public UnityEngine::Component {
     public:
     // public UnityEngine.Rigidbody get_connectedBody()
-    // Offset: 0x18B6420
+    // Offset: 0x1963568
     UnityEngine::Rigidbody* get_connectedBody();
     // public System.Void set_connectedAnchor(UnityEngine.Vector3 value)
-    // Offset: 0x18B6460
+    // Offset: 0x19635A8
     void set_connectedAnchor(UnityEngine::Vector3 value);
     // private System.Void set_connectedAnchor_Injected(UnityEngine.Vector3 value)
-    // Offset: 0x18B64B8
+    // Offset: 0x1963600
     void set_connectedAnchor_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.Joint
 }

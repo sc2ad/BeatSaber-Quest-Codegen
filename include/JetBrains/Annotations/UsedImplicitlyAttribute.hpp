@@ -24,16 +24,16 @@ namespace JetBrains::Annotations {
     // Offset: 0x14
     JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
     // public System.Void .ctor(JetBrains.Annotations.ImplicitUseKindFlags useKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags targetFlags)
-    // Offset: 0x125C938
+    // Offset: 0x1302A80
     static UsedImplicitlyAttribute* New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
     // private System.Void set_UseKindFlags(JetBrains.Annotations.ImplicitUseKindFlags value)
-    // Offset: 0x125C970
+    // Offset: 0x1302AB8
     void set_UseKindFlags(JetBrains::Annotations::ImplicitUseKindFlags value);
     // private System.Void set_TargetFlags(JetBrains.Annotations.ImplicitUseTargetFlags value)
-    // Offset: 0x125C978
+    // Offset: 0x1302AC0
     void set_TargetFlags(JetBrains::Annotations::ImplicitUseTargetFlags value);
     // public System.Void .ctor()
-    // Offset: 0x125C908
+    // Offset: 0x1302A50
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

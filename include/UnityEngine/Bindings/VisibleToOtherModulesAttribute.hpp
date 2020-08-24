@@ -14,10 +14,10 @@ namespace UnityEngine::Bindings {
   class VisibleToOtherModulesAttribute : public System::Attribute {
     public:
     // public System.Void .ctor(System.String[] modules)
-    // Offset: 0x18C7274
+    // Offset: 0x19753BC
     static VisibleToOtherModulesAttribute* New_ctor(::Array<::Il2CppString*>* modules);
     // public System.Void .ctor()
-    // Offset: 0x18C726C
+    // Offset: 0x19753B4
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

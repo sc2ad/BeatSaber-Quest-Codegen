@@ -40,12 +40,12 @@ namespace HMUI {
     // Offset: 0x160
     HMUI::TimeSlider::TimeType timeType;
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x10486C0
+    // Offset: 0x10EB808
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x1048878
+    // Offset: 0x10EB9C0
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()

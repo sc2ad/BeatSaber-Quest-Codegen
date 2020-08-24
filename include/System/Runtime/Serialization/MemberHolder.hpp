@@ -27,15 +27,15 @@ namespace System::Runtime::Serialization {
     // Offset: 0x18
     System::Runtime::Serialization::StreamingContext context;
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0xF545E0
+    // Offset: 0xFFA728
     static MemberHolder* New_ctor(System::Type* type, System::Runtime::Serialization::StreamingContext ctx);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF54638
+    // Offset: 0xFFA780
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF54658
+    // Offset: 0xFFA7A0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

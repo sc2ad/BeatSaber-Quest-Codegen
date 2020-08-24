@@ -55,13 +55,13 @@ namespace System::Diagnostics {
     // Offset: 0x48
     ::Il2CppObject* syncObject;
     // public System.Void Close()
-    // Offset: 0xEBAB40
+    // Offset: 0xF5FC88
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xEBAB50
+    // Offset: 0xF5FC98
     void Dispose(bool disposing);
     // System.Void CancelOperation()
-    // Offset: 0xEBAC98
+    // Offset: 0xF5FDE0
     void CancelOperation();
   }; // System.Diagnostics.AsyncStreamReader
 }

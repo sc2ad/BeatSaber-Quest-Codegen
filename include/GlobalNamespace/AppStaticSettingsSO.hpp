@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x19
     bool enable360DegreeLevels;
     // public System.Void .ctor()
-    // Offset: 0x18EF3B4
+    // Offset: 0xB88914
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

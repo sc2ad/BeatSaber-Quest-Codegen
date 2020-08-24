@@ -29,27 +29,27 @@ namespace Oculus::Platform {
     // Offset: 0x18
     System::IntPtr packetHandle;
     // public System.Void .ctor(System.IntPtr packetHandle)
-    // Offset: 0xE06494
+    // Offset: 0xEAB5DC
     static Packet* New_ctor(System::IntPtr packetHandle);
     // public System.UInt64 ReadBytes(System.Byte[] destination)
-    // Offset: 0xE07744
+    // Offset: 0xEAC88C
     uint64_t ReadBytes(::Array<uint8_t>* destination);
     // public System.UInt64 get_SenderID()
-    // Offset: 0xE07898
+    // Offset: 0xEAC9E0
     uint64_t get_SenderID();
     // public System.UInt64 get_Size()
-    // Offset: 0xE07904
+    // Offset: 0xEACA4C
     uint64_t get_Size();
     // public Oculus.Platform.SendPolicy get_Policy()
-    // Offset: 0xE0790C
+    // Offset: 0xEACA54
     Oculus::Platform::SendPolicy get_Policy();
     // protected override System.Void Finalize()
-    // Offset: 0xE07978
+    // Offset: 0xEACAC0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0xE079E0
+    // Offset: 0xEACB28
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

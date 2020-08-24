@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::MonoBehaviour* component;
     // private System.Void Awake()
-    // Offset: 0x192CA6C
+    // Offset: 0xBE8330
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x192CA8C
+    // Offset: 0xBE8350
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

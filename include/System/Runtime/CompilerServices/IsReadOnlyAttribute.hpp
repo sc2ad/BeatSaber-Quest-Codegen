@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices {
   class IsReadOnlyAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x10C49BC
+    // Offset: 0x1166B04
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

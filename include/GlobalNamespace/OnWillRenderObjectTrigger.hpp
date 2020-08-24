@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Offset: 0x40
     UnityEngine::MeshRenderer* meshRenderer;
     // protected System.Void OnEnable()
-    // Offset: 0x1783268
+    // Offset: 0x182D3B0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x17836B4
+    // Offset: 0x182D7FC
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1783708
+    // Offset: 0x182D850
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

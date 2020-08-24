@@ -82,38 +82,38 @@ namespace RootMotion {
     // Offset: 0x108
     UnityEngine::Quaternion lastBodyRotation;
     // private System.Void Awake()
-    // Offset: 0x119EE6C
+    // Offset: 0x1242FB4
     void Awake();
     // private System.Void UpdateHumanPose()
-    // Offset: 0x119FA60
+    // Offset: 0x1243BA8
     void UpdateHumanPose();
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x119F350
+    // Offset: 0x1243498
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x119F36C
+    // Offset: 0x12434B4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x119F48C
+    // Offset: 0x12435D4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(UnityEngine.AnimationClip clip)
-    // Offset: 0x119F568
+    // Offset: 0x12436B0
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(UnityEngine.AnimationClip clip)
     void OnSetCurves(UnityEngine::AnimationClip*& clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x119F738
+    // Offset: 0x1243880
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);
     // public System.Void .ctor()
-    // Offset: 0x119FB3C
+    // Offset: 0x1243C84
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -42,16 +42,16 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x2B
     uint8_t outType;
     // public System.Void .ctor(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType type, System.Diagnostics.Tracing.EventFieldTags tags, System.Boolean variableCount)
-    // Offset: 0xCF33D0
+    // Offset: 0xD97518
     static FieldMetadata* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingDataType type, System::Diagnostics::Tracing::EventFieldTags tags, bool variableCount);
     // private System.Void .ctor(System.String name, System.Diagnostics.Tracing.TraceLoggingDataType dataType, System.Diagnostics.Tracing.EventFieldTags tags, System.Byte countFlags, System.UInt16 fixedCount, System.Byte[] custom)
-    // Offset: 0xCF33F8
+    // Offset: 0xD97540
     static FieldMetadata* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::TraceLoggingDataType dataType, System::Diagnostics::Tracing::EventFieldTags tags, uint8_t countFlags, uint16_t fixedCount, ::Array<uint8_t>* custom);
     // public System.Void IncrementStructFieldCount()
-    // Offset: 0xCF3680
+    // Offset: 0xD977C8
     void IncrementStructFieldCount();
     // public System.Void Encode(System.Int32 pos, System.Byte[] metadata)
-    // Offset: 0xCF3720
+    // Offset: 0xD97868
     void Encode(int& pos, ::Array<uint8_t>* metadata);
   }; // System.Diagnostics.Tracing.FieldMetadata
 }

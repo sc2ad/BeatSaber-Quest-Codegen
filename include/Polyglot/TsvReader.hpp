@@ -23,10 +23,10 @@ namespace Polyglot {
   class TsvReader : public ::Il2CppObject {
     public:
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
-    // Offset: 0x186CBF8
+    // Offset: 0x1919D40
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppString*>*>* Parse(::Il2CppString* src);
     // public System.Void .ctor()
-    // Offset: 0x186DDE4
+    // Offset: 0x191AF2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TsvReader* New_ctor();

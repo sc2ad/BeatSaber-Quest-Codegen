@@ -31,10 +31,10 @@ namespace System::Collections {
     // Offset: 0x10
     System::Collections::Hashtable* hashtable;
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x12971F4
+    // Offset: 0x133E33C
     static Hashtable::ValueCollection* New_ctor(System::Collections::Hashtable* hashtable);
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x12995A8
+    // Offset: 0x13406F0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 arrayIndex)
     void CopyTo(System::Array* array, int arrayIndex);
@@ -42,7 +42,7 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1299724
+    // Offset: 0x134086C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -50,7 +50,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Int32 get_Count()
-    // Offset: 0x129978C
+    // Offset: 0x13408D4
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Sizef
     Sizef(float w_ = {}, float h_ = {}) : w{w_}, h{h_} {}
     // static private System.Void .cctor()
-    // Offset: 0xEA6090
+    // Offset: 0xF4B1D8
     static void _cctor();
   }; // OVRPlugin/Sizef
 }

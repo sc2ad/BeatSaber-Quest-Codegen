@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class FloatSO : public GlobalNamespace::ObservableVariableSO_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC0F2DC
+    // Offset: 0xCB2424
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO`1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

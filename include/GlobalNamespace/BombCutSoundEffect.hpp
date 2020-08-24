@@ -45,22 +45,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::Saber* saber;
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x18E2888
+    // Offset: 0xB7BDE4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x18E292C
+    // Offset: 0xB7BE88
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void Init(UnityEngine.AudioClip audioClip, Saber saber, System.Single volume)
-    // Offset: 0x18E29D0
+    // Offset: 0xB7BF2C
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::Saber* saber, float volume);
     // protected System.Void LateUpdate()
-    // Offset: 0x18E2A60
+    // Offset: 0xB7BFBC
     void LateUpdate();
     // private System.Void StopPlayingAndFinish()
-    // Offset: 0x18E2B00
+    // Offset: 0xB7C05C
     void StopPlayingAndFinish();
     // public System.Void .ctor()
-    // Offset: 0x18E2B88
+    // Offset: 0xB7C0E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

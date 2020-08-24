@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FrameHeader
     FrameHeader(uint protocolIdentifier_ = {}, int payloadType_ = {}, int payloadLength_ = {}) : protocolIdentifier{protocolIdentifier_}, payloadType{payloadType_}, payloadLength{payloadLength_} {}
     // public System.Byte[] ToBytes()
-    // Offset: 0x99F394
+    // Offset: 0xA39A0C
     ::Array<uint8_t>* ToBytes();
     // static public OVRNetwork/FrameHeader FromBytes(System.Byte[] arr)
-    // Offset: 0xE4A338
+    // Offset: 0xEEF480
     static GlobalNamespace::OVRNetwork::FrameHeader FromBytes(::Array<uint8_t>* arr);
   }; // OVRNetwork/FrameHeader
 }

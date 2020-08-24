@@ -26,24 +26,24 @@ namespace Oculus::Platform {
     // Offset: 0x10
     System::IntPtr Handle;
     // public System.Void SetMaxUsers(System.UInt32 value)
-    // Offset: 0xE0B580
+    // Offset: 0xEB06C8
     void SetMaxUsers(uint value);
     // public System.Void AddServiceProvider(Oculus.Platform.ServiceProvider value)
-    // Offset: 0xE080F4
+    // Offset: 0xEAD23C
     void AddServiceProvider(Oculus::Platform::ServiceProvider value);
     // public System.Void ClearServiceProviders()
-    // Offset: 0xE0B5FC
+    // Offset: 0xEB0744
     void ClearServiceProviders();
     // public System.Void SetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0xE0B668
+    // Offset: 0xEB07B0
     void SetTimeWindow(Oculus::Platform::TimeWindow value);
     // public System.Void .ctor()
-    // Offset: 0xE0807C
+    // Offset: 0xEAD1C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0xE0B6E4
+    // Offset: 0xEB082C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

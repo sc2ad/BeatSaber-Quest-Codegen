@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* levelAssetPath;
     // public System.String get_levelDirPath()
-    // Offset: 0x18FC2E0
+    // Offset: 0xB95840
     ::Il2CppString* get_levelDirPath();
     // public System.String get_levelAssetPath()
-    // Offset: 0x18FC2E8
+    // Offset: 0xB95848
     ::Il2CppString* get_levelAssetPath();
     // public System.Void .ctor(System.String levelDirPath, System.String levelAssetPath)
-    // Offset: 0x18FC2F0
+    // Offset: 0xB95850
     static BeatmapEditorSceneSetupData* New_ctor(::Il2CppString* levelDirPath, ::Il2CppString* levelAssetPath);
   }; // BeatmapEditorSceneSetupData
 }

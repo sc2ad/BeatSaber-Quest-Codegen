@@ -33,13 +33,13 @@ namespace UnityEngine::ProBuilder::Experimental::CSG {
     // Offset: 0x18
     UnityEngine::ProBuilder::Experimental::CSG::CSG_Plane* plane;
     // public System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.ProBuilder.CSG_Vertex> list)
-    // Offset: 0xEF0678
+    // Offset: 0xF947C0
     static CSG_Polygon* New_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::CSG_Vertex>* list);
     // public System.Void Flip()
-    // Offset: 0xEF1440
+    // Offset: 0xF95588
     void Flip();
     // public override System.String ToString()
-    // Offset: 0xEF25D4
+    // Offset: 0xF9671C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

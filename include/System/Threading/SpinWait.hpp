@@ -18,10 +18,10 @@ namespace System::Threading {
     // Creating value type constructor for type: SpinWait
     SpinWait(int m_count_ = {}) : m_count{m_count_} {}
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0x9936E8
+    // Offset: 0xA2DD60
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0x993718
+    // Offset: 0xA2DD90
     void SpinOnce();
   }; // System.Threading.SpinWait
 }

@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRChaperone::_AreBoundsVisible : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xE30804
+    // Offset: 0xED494C
     static IVRChaperone::_AreBoundsVisible* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0xE26858
+    // Offset: 0xECA9A0
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xE30818
+    // Offset: 0xED4960
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0xE30844
+    // Offset: 0xED498C
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperone/_AreBoundsVisible
 }

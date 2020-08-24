@@ -24,10 +24,10 @@ namespace UnityEngine {
     // Offset: 0x20
     UnityEngine::AndroidJavaRunnable* mRunnable;
     // public System.Void .ctor(UnityEngine.AndroidJavaRunnable runnable)
-    // Offset: 0x187B34C
+    // Offset: 0x1928494
     static AndroidJavaRunnableProxy* New_ctor(UnityEngine::AndroidJavaRunnable* runnable);
     // public System.Void run()
-    // Offset: 0x187B3D8
+    // Offset: 0x1928520
     void run();
   }; // UnityEngine.AndroidJavaRunnableProxy
 }

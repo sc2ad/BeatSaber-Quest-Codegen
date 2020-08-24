@@ -54,16 +54,16 @@ namespace UnityEngine::Timeline {
     // Offset: 0x30
     System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>* m_Mixers;
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0xFEB74C
+    // Offset: 0x108F894
     static AnimationOutputWeightProcessor* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output);
     // private System.Void FindMixers()
-    // Offset: 0xFEB800
+    // Offset: 0x108F948
     void FindMixers();
     // private System.Void FindMixers(UnityEngine.Playables.Playable parent, System.Int32 port, UnityEngine.Playables.Playable node)
-    // Offset: 0xFEB8D4
+    // Offset: 0x108FA1C
     void FindMixers(UnityEngine::Playables::Playable parent, int port, UnityEngine::Playables::Playable node);
     // public System.Void Evaluate()
-    // Offset: 0xFEBB18
+    // Offset: 0x108FC60
     // Implemented from: UnityEngine.Timeline.ITimelineEvaluateCallback
     // Base method: System.Void ITimelineEvaluateCallback::Evaluate()
     void Evaluate();

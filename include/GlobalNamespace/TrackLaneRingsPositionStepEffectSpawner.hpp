@@ -48,16 +48,16 @@ namespace GlobalNamespace {
     // Offset: 0x38
     bool prevWasMinStep;
     // protected System.Void Start()
-    // Offset: 0x19611E0
+    // Offset: 0xC46FA0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1961274
+    // Offset: 0xC47034
     void OnDestroy();
     // public System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x196134C
+    // Offset: 0xC4710C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x19613F8
+    // Offset: 0xC471B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

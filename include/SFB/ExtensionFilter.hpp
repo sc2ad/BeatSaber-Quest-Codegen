@@ -26,7 +26,7 @@ namespace SFB {
     // Creating value type constructor for type: ExtensionFilter
     ExtensionFilter(::Il2CppString* name_ = {}, ::Array<::Il2CppString*>* extensions_ = {}) : name{name_}, extensions{extensions_} {}
     // public System.Void .ctor(System.String filterName, System.String[] filterExtensions)
-    // Offset: 0x992268
+    // Offset: 0xA2C81C
     static ExtensionFilter* New_ctor(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions);
   }; // SFB.ExtensionFilter
 }

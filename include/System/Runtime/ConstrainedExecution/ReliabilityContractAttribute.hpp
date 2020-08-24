@@ -24,7 +24,7 @@ namespace System::Runtime::ConstrainedExecution {
     // Offset: 0x14
     System::Runtime::ConstrainedExecution::Cer cer;
     // public System.Void .ctor(System.Runtime.ConstrainedExecution.Consistency consistencyGuarantee, System.Runtime.ConstrainedExecution.Cer cer)
-    // Offset: 0x10C56BC
+    // Offset: 0x1167804
     static ReliabilityContractAttribute* New_ctor(System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, System::Runtime::ConstrainedExecution::Cer cer);
   }; // System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
 }

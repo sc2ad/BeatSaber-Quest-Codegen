@@ -27,22 +27,22 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppString* stackTrace;
     // public System.String get_logString()
-    // Offset: 0x19274AC
+    // Offset: 0xBE2D70
     ::Il2CppString* get_logString();
     // public System.String get_stackTrace()
-    // Offset: 0x19274B4
+    // Offset: 0xBE2D78
     ::Il2CppString* get_stackTrace();
     // public System.Void StartCatchingExceptions()
-    // Offset: 0x19274BC
+    // Offset: 0xBE2D80
     void StartCatchingExceptions();
     // protected System.Void OnDisable()
-    // Offset: 0x1927530
+    // Offset: 0xBE2DF4
     void OnDisable();
     // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x19275A4
+    // Offset: 0xBE2E68
     void HandleLog(::Il2CppString* logString, ::Il2CppString* stackTrace, UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0x1927644
+    // Offset: 0xBE2F08
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

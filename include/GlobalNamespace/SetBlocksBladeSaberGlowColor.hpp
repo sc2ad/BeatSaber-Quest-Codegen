@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::BlocksBlade* blocksBlade;
     // protected System.Void Start()
-    // Offset: 0xBA1C50
+    // Offset: 0xC2E008
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xBA1C9C
+    // Offset: 0xC2E054
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

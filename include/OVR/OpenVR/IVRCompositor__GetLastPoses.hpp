@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_GetLastPoses : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x146BEFC
+    // Offset: 0x1517044
     static IVRCompositor::_GetLastPoses* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRCompositorError Invoke(OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, System.UInt32 unRenderPoseArrayCount, OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray, System.UInt32 unGamePoseArrayCount)
-    // Offset: 0x146BF10
+    // Offset: 0x1517058
     OVR::OpenVR::EVRCompositorError Invoke(::Array<OVR::OpenVR::TrackedDevicePose_t>*& pRenderPoseArray, uint unRenderPoseArrayCount, ::Array<OVR::OpenVR::TrackedDevicePose_t>*& pGamePoseArray, uint unGamePoseArrayCount);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, System.UInt32 unRenderPoseArrayCount, OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray, System.UInt32 unGamePoseArrayCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x146C1B0
+    // Offset: 0x15172F8
     System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::TrackedDevicePose_t>*& pRenderPoseArray, uint unRenderPoseArrayCount, ::Array<OVR::OpenVR::TrackedDevicePose_t>*& pGamePoseArray, uint unGamePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRCompositorError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x146C264
+    // Offset: 0x15173AC
     OVR::OpenVR::EVRCompositorError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetLastPoses
 }

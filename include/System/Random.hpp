@@ -41,22 +41,22 @@ namespace System {
     // Set static field: static private System.Int32 MZ
     static void _set_MZ(int value);
     // public System.Void .ctor(System.Int32 Seed)
-    // Offset: 0x12BE7FC
+    // Offset: 0x1366944
     static Random* New_ctor(int Seed);
     // protected System.Double Sample()
-    // Offset: 0x12BEA60
+    // Offset: 0x1366BA8
     double Sample();
     // private System.Int32 InternalSample()
-    // Offset: 0x12BEA84
+    // Offset: 0x1366BCC
     int InternalSample();
     // public System.Int32 Next()
-    // Offset: 0x12BEB20
+    // Offset: 0x1366C68
     int Next();
     // public System.Int32 Next(System.Int32 maxValue)
-    // Offset: 0x12BEB24
+    // Offset: 0x1366C6C
     int Next(int maxValue);
     // public System.Void .ctor()
-    // Offset: 0x12BE7D0
+    // Offset: 0x1366918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Random* New_ctor();

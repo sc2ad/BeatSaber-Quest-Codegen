@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::BloomPrePassRenderDataSO::Data* renderData;
     // protected System.Void Awake()
-    // Offset: 0x177AF80
+    // Offset: 0x18250C8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x177B1CC
+    // Offset: 0x1825314
     void OnDestroy();
     // protected System.Void OnPreRender()
-    // Offset: 0x177B298
+    // Offset: 0x18253E0
     void OnPreRender();
     // protected System.Void OnPostRender()
-    // Offset: 0x177C080
+    // Offset: 0x18261C8
     void OnPostRender();
     // public System.Void SetMode(BloomPrePass/Mode mode)
-    // Offset: 0x177C0DC
+    // Offset: 0x1826224
     void SetMode(GlobalNamespace::BloomPrePass::Mode mode);
     // public System.Void .ctor()
-    // Offset: 0x177C0E4
+    // Offset: 0x182622C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

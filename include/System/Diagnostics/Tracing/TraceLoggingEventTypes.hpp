@@ -72,28 +72,28 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x48
     System::Diagnostics::Tracing::ConcurrentSet_2<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Diagnostics::Tracing::EventTags>, System::Diagnostics::Tracing::NameInfo*> nameInfos;
     // System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Type[] types)
-    // Offset: 0xCFB91C
+    // Offset: 0xD9FA64
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Type*>* types);
     // System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Reflection.ParameterInfo[] paramInfos)
-    // Offset: 0xCFBD08
+    // Offset: 0xD9FE50
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Reflection::ParameterInfo*>* paramInfos);
     // private System.Void .ctor(System.Diagnostics.Tracing.EventTags tags, System.String defaultName, System.Diagnostics.Tracing.TraceLoggingTypeInfo[] typeInfos)
-    // Offset: 0xCFBB08
+    // Offset: 0xD9FC50
     static TraceLoggingEventTypes* New_ctor(System::Diagnostics::Tracing::EventTags tags, ::Il2CppString* defaultName, ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* typeInfos);
     // System.String get_Name()
-    // Offset: 0xCFC260
+    // Offset: 0xDA03A8
     ::Il2CppString* get_Name();
     // System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0xCFC268
+    // Offset: 0xDA03B0
     System::Diagnostics::Tracing::EventTags get_Tags();
     // System.Diagnostics.Tracing.NameInfo GetNameInfo(System.String name, System.Diagnostics.Tracing.EventTags tags)
-    // Offset: 0xCFC270
+    // Offset: 0xDA03B8
     System::Diagnostics::Tracing::NameInfo* GetNameInfo(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags);
     // private System.Diagnostics.Tracing.TraceLoggingTypeInfo[] MakeArray(System.Reflection.ParameterInfo[] paramInfos)
-    // Offset: 0xCFBF50
+    // Offset: 0xDA0098
     ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* MakeArray(::Array<System::Reflection::ParameterInfo*>* paramInfos);
     // static private System.Diagnostics.Tracing.TraceLoggingTypeInfo[] MakeArray(System.Type[] types)
-    // Offset: 0xCFB960
+    // Offset: 0xD9FAA8
     static ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* MakeArray(::Array<System::Type*>* types);
   }; // System.Diagnostics.Tracing.TraceLoggingEventTypes
 }

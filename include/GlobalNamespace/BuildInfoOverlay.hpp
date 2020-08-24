@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::GameObject* canvas;
     // protected System.Void Start()
-    // Offset: 0x18E3EAC
+    // Offset: 0xB7D408
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x18E3ED4
+    // Offset: 0xB7D430
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

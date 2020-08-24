@@ -29,31 +29,31 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1B
     bool HasExplicitThis;
     // public System.Void set_Name(System.String value)
-    // Offset: 0x18C6D08
+    // Offset: 0x1974E50
     void set_Name(::Il2CppString* value);
     // public System.Void set_IsThreadSafe(System.Boolean value)
-    // Offset: 0x18C6D10
+    // Offset: 0x1974E58
     void set_IsThreadSafe(bool value);
     // public System.Void set_IsFreeFunction(System.Boolean value)
-    // Offset: 0x18C6D1C
+    // Offset: 0x1974E64
     void set_IsFreeFunction(bool value);
     // public System.Void set_ThrowsException(System.Boolean value)
-    // Offset: 0x18C6D28
+    // Offset: 0x1974E70
     void set_ThrowsException(bool value);
     // public System.Void set_HasExplicitThis(System.Boolean value)
-    // Offset: 0x18C6D34
+    // Offset: 0x1974E7C
     void set_HasExplicitThis(bool value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x18C6D40
+    // Offset: 0x1974E88
     static NativeMethodAttribute* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.Boolean isFreeFunction)
-    // Offset: 0x18C6B00
+    // Offset: 0x1974C48
     static NativeMethodAttribute* New_ctor(::Il2CppString* name, bool isFreeFunction);
     // public System.Void .ctor(System.String name, System.Boolean isFreeFunction, System.Boolean isThreadSafe)
-    // Offset: 0x18C6B60
+    // Offset: 0x1974CA8
     static NativeMethodAttribute* New_ctor(::Il2CppString* name, bool isFreeFunction, bool isThreadSafe);
     // public System.Void .ctor()
-    // Offset: 0x18C6AD0
+    // Offset: 0x1974C18
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

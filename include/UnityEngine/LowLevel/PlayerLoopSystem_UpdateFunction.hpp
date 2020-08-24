@@ -26,16 +26,16 @@ namespace UnityEngine::LowLevel {
   class PlayerLoopSystem::UpdateFunction : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1271140
+    // Offset: 0x1317288
     static PlayerLoopSystem::UpdateFunction* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1271154
+    // Offset: 0x131729C
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1271360
+    // Offset: 0x13174A8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x127138C
+    // Offset: 0x13174D4
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction
 }

@@ -28,20 +28,20 @@ namespace System::Collections {
     // Offset: 0x20
     ::Il2CppObject* currentElement;
     // System.Void .ctor(System.Collections.Queue q)
-    // Offset: 0x101D2D4
+    // Offset: 0x10C041C
     static Queue::QueueEnumerator* New_ctor(System::Collections::Queue* q);
     // public System.Object Clone()
-    // Offset: 0x101D354
+    // Offset: 0x10C049C
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x101D35C
+    // Offset: 0x10C04A4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x101D470
+    // Offset: 0x10C05B8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -49,7 +49,7 @@ namespace System::Collections {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void Reset()
-    // Offset: 0x101D530
+    // Offset: 0x10C0678
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

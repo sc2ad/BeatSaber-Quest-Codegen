@@ -27,23 +27,23 @@ namespace System::Reflection {
   class TargetInvocationException : public System::ApplicationException {
     public:
     // public System.Void .ctor(System.Exception inner)
-    // Offset: 0x10B0300
+    // Offset: 0x1152448
     static TargetInvocationException* New_ctor(System::Exception* inner);
     // private System.Void .ctor()
-    // Offset: 0x10B6B90
+    // Offset: 0x1158CD8
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TargetInvocationException* New_ctor();
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x10B6C04
+    // Offset: 0x1158D4C
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     static TargetInvocationException* New_ctor(::Il2CppString* message, System::Exception* inner);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10B6C38
+    // Offset: 0x1158D80
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

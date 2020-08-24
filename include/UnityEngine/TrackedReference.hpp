@@ -17,23 +17,23 @@ namespace UnityEngine {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // protected System.Void .ctor()
-    // Offset: 0x12F0B64
+    // Offset: 0x1397CAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TrackedReference* New_ctor();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x12F0C04
+    // Offset: 0x1397D4C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12F0C94
+    // Offset: 0x1397DDC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.TrackedReference
   // static public System.Boolean op_Equality(UnityEngine.TrackedReference x, UnityEngine.TrackedReference y)
-  // Offset: 0x12F0B6C
+  // Offset: 0x1397CB4
   bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

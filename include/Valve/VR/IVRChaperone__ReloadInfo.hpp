@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRChaperone::_ReloadInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF460C0
+    // Offset: 0xFEB208
     static IVRChaperone::_ReloadInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0xF3E6D0
+    // Offset: 0xFE3818
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF460D4
+    // Offset: 0xFEB21C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF46100
+    // Offset: 0xFEB248
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_ReloadInfo
 }

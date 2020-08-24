@@ -19,13 +19,13 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     JetBrains::Annotations::AssertionConditionType ConditionType;
     // public System.Void .ctor(JetBrains.Annotations.AssertionConditionType conditionType)
-    // Offset: 0x18B3FB0
+    // Offset: 0x19610F8
     static AssertionConditionAttribute* New_ctor(JetBrains::Annotations::AssertionConditionType conditionType);
     // public JetBrains.Annotations.AssertionConditionType get_ConditionType()
-    // Offset: 0x18B3FDC
+    // Offset: 0x1961124
     JetBrains::Annotations::AssertionConditionType get_ConditionType();
     // private System.Void set_ConditionType(JetBrains.Annotations.AssertionConditionType value)
-    // Offset: 0x18B3FE4
+    // Offset: 0x196112C
     void set_ConditionType(JetBrains::Annotations::AssertionConditionType value);
   }; // JetBrains.Annotations.AssertionConditionAttribute
 }

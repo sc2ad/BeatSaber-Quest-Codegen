@@ -177,106 +177,106 @@ namespace System {
     // Set static field: static private readonly System.Int32[] _consoleColorToAnsiCode
     static void _set__consoleColorToAnsiCode(::Array<int>* value);
     // static private System.String TryTermInfoDir(System.String dir, System.String term)
-    // Offset: 0x12425AC
+    // Offset: 0x12E86F4
     static ::Il2CppString* TryTermInfoDir(::Il2CppString* dir, ::Il2CppString* term);
     // static private System.String SearchTerminfo(System.String term)
-    // Offset: 0x12426D0
+    // Offset: 0x12E8818
     static ::Il2CppString* SearchTerminfo(::Il2CppString* term);
     // private System.Void WriteConsole(System.String str)
-    // Offset: 0x1242858
+    // Offset: 0x12E89A0
     void WriteConsole(::Il2CppString* str);
     // public System.Void .ctor(System.String term)
-    // Offset: 0x124287C
+    // Offset: 0x12E89C4
     static TermInfoDriver* New_ctor(::Il2CppString* term);
     // public System.Boolean get_Initialized()
-    // Offset: 0x1242F50
+    // Offset: 0x12E9098
     bool get_Initialized();
     // public System.Void Init()
-    // Offset: 0x1242F58
+    // Offset: 0x12E90A0
     void Init();
     // private System.Void IncrementX()
-    // Offset: 0x1243ADC
+    // Offset: 0x12E9C24
     void IncrementX();
     // public System.Void WriteSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x1243BBC
+    // Offset: 0x12E9D04
     void WriteSpecialKey(System::ConsoleKeyInfo key);
     // public System.Void WriteSpecialKey(System.Char c)
-    // Offset: 0x1243EB8
+    // Offset: 0x12EA000
     void WriteSpecialKey(::Il2CppChar c);
     // public System.Boolean IsSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x1244070
+    // Offset: 0x12EA1B8
     bool IsSpecialKey(System::ConsoleKeyInfo key);
     // public System.Boolean IsSpecialKey(System.Char c)
-    // Offset: 0x12440F8
+    // Offset: 0x12EA240
     bool IsSpecialKey(::Il2CppChar c);
     // private System.Void GetCursorPosition()
-    // Offset: 0x124382C
+    // Offset: 0x12E9974
     void GetCursorPosition();
     // private System.Void CheckWindowDimensions()
-    // Offset: 0x1244244
+    // Offset: 0x12EA38C
     void CheckWindowDimensions();
     // public System.Int32 get_WindowHeight()
-    // Offset: 0x1243B84
+    // Offset: 0x12E9CCC
     int get_WindowHeight();
     // public System.Int32 get_WindowWidth()
-    // Offset: 0x1243B4C
+    // Offset: 0x12E9C94
     int get_WindowWidth();
     // private System.Void AddToBuffer(System.Int32 b)
-    // Offset: 0x124412C
+    // Offset: 0x12EA274
     void AddToBuffer(int b);
     // private System.Void AdjustBuffer()
-    // Offset: 0x12443A4
+    // Offset: 0x12EA4EC
     void AdjustBuffer();
     // private System.ConsoleKeyInfo CreateKeyInfoFromInt(System.Int32 n, System.Boolean alt)
-    // Offset: 0x1243EEC
+    // Offset: 0x12EA034
     System::ConsoleKeyInfo CreateKeyInfoFromInt(int n, bool alt);
     // private System.Object GetKeyFromBuffer(System.Boolean cooked)
-    // Offset: 0x12443B8
+    // Offset: 0x12EA500
     ::Il2CppObject* GetKeyFromBuffer(bool cooked);
     // private System.ConsoleKeyInfo ReadKeyInternal(System.Boolean fresh)
-    // Offset: 0x12446A4
+    // Offset: 0x12EA7EC
     System::ConsoleKeyInfo ReadKeyInternal(bool& fresh);
     // private System.Boolean InputPending()
-    // Offset: 0x12449F4
+    // Offset: 0x12EAB3C
     bool InputPending();
     // private System.Void QueueEcho(System.Char c)
-    // Offset: 0x1244A24
+    // Offset: 0x12EAB6C
     void QueueEcho(::Il2CppChar c);
     // private System.Void Echo(System.ConsoleKeyInfo key)
-    // Offset: 0x1244B30
+    // Offset: 0x12EAC78
     void Echo(System::ConsoleKeyInfo key);
     // private System.Void EchoFlush()
-    // Offset: 0x1244B94
+    // Offset: 0x12EACDC
     void EchoFlush();
     // public System.Int32 Read(System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x1244BD4
+    // Offset: 0x12EAD1C
     int Read(::Array<::Il2CppChar>*& dest, int index, int count);
     // public System.String ReadLine()
-    // Offset: 0x1245258
+    // Offset: 0x12EB3A0
     ::Il2CppString* ReadLine();
     // public System.String ReadToEnd()
-    // Offset: 0x124542C
+    // Offset: 0x12EB574
     ::Il2CppString* ReadToEnd();
     // private System.String ReadUntilConditionInternal(System.Boolean haltOnNewLine)
-    // Offset: 0x1245260
+    // Offset: 0x12EB3A8
     ::Il2CppString* ReadUntilConditionInternal(bool haltOnNewLine);
     // public System.Void SetCursorPosition(System.Int32 left, System.Int32 top)
-    // Offset: 0x1243CE4
+    // Offset: 0x12E9E2C
     void SetCursorPosition(int left, int top);
     // private System.Void CreateKeyMap()
-    // Offset: 0x1245434
+    // Offset: 0x12EB57C
     void CreateKeyMap();
     // private System.Void InitKeys()
-    // Offset: 0x1244878
+    // Offset: 0x12EA9C0
     void InitKeys();
     // private System.Void AddStringMapping(System.TermInfoStrings s)
-    // Offset: 0x12472CC
+    // Offset: 0x12ED414
     void AddStringMapping(System::TermInfoStrings s);
     // static private System.Void .cctor()
-    // Offset: 0x12473B8
+    // Offset: 0x12ED500
     static void _cctor();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x12451F0
+    // Offset: 0x12EB338
     // Implemented from: System.IConsoleDriver
     // Base method: System.ConsoleKeyInfo IConsoleDriver::ReadKey(System.Boolean intercept)
     System::ConsoleKeyInfo ReadKey(bool intercept);

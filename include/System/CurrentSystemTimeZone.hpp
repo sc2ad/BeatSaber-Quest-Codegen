@@ -24,10 +24,10 @@ namespace System {
     // Offset: 0x10
     System::TimeZoneInfo* LocalTimeZone;
     // static public System.Boolean GetTimeZoneData(System.Int32 year, System.Int64[] data, System.String[] names, System.Boolean daylight_inverted)
-    // Offset: 0x102C364
+    // Offset: 0x10CF4AC
     static bool GetTimeZoneData(int year, ::Array<int64_t>*& data, ::Array<::Il2CppString*>*& names, bool& daylight_inverted);
     // System.Void .ctor()
-    // Offset: 0x102C2E4
+    // Offset: 0x10CF42C
     // Implemented from: System.TimeZone
     // Base method: System.Void TimeZone::.ctor()
     // Base method: System.Void Object::.ctor()

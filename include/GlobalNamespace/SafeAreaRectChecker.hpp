@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::SafeAreaRectChecker::InitData* initData;
     // public System.Void Start()
-    // Offset: 0xB9E510
+    // Offset: 0xC2A8C8
     void Start();
     // protected System.Void Update()
-    // Offset: 0xB9E584
+    // Offset: 0xC2A93C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xB9E7B4
+    // Offset: 0xC2AB6C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

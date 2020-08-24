@@ -53,7 +53,7 @@ namespace System::IO {
     // Offset: 0x40
     System::Collections::Hashtable* Files;
     // public System.Void .ctor()
-    // Offset: 0xEC0708
+    // Offset: 0xF65850
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DefaultWatcherData* New_ctor();

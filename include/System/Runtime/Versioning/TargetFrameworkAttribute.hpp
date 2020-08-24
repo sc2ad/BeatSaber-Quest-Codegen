@@ -20,10 +20,10 @@ namespace System::Runtime::Versioning {
     // Offset: 0x18
     ::Il2CppString* frameworkDisplayName;
     // public System.Void .ctor(System.String frameworkName)
-    // Offset: 0xF5D53C
+    // Offset: 0x1003684
     static TargetFrameworkAttribute* New_ctor(::Il2CppString* frameworkName);
     // public System.Void set_FrameworkDisplayName(System.String value)
-    // Offset: 0xF5D5E0
+    // Offset: 0x1003728
     void set_FrameworkDisplayName(::Il2CppString* value);
   }; // System.Runtime.Versioning.TargetFrameworkAttribute
 }

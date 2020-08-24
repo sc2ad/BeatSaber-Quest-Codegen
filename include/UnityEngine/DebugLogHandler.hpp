@@ -30,23 +30,23 @@ namespace UnityEngine {
   class DebugLogHandler : public ::Il2CppObject, public UnityEngine::ILogHandler {
     public:
     // static System.Void Internal_Log(UnityEngine.LogType level, UnityEngine.LogOption options, System.String msg, UnityEngine.Object obj)
-    // Offset: 0x1267E44
+    // Offset: 0x130DF8C
     static void Internal_Log(UnityEngine::LogType level, UnityEngine::LogOption options, ::Il2CppString* msg, UnityEngine::Object* obj);
     // static System.Void Internal_LogException(System.Exception exception, UnityEngine.Object obj)
-    // Offset: 0x1267EAC
+    // Offset: 0x130DFF4
     static void Internal_LogException(System::Exception* exception, UnityEngine::Object* obj);
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, System.Object[] args)
-    // Offset: 0x1267EFC
+    // Offset: 0x130E044
     // Implemented from: UnityEngine.ILogHandler
     // Base method: System.Void ILogHandler::LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, System.Object[] args)
     void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
-    // Offset: 0x1267F68
+    // Offset: 0x130E0B0
     // Implemented from: UnityEngine.ILogHandler
     // Base method: System.Void ILogHandler::LogException(System.Exception exception, UnityEngine.Object context)
     void LogException(System::Exception* exception, UnityEngine::Object* context);
     // public System.Void .ctor()
-    // Offset: 0x1267DF4
+    // Offset: 0x130DF3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DebugLogHandler* New_ctor();

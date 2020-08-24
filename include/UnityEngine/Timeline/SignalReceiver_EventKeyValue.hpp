@@ -41,25 +41,25 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* m_Events;
     // public System.Boolean TryGetValue(UnityEngine.Timeline.SignalAsset key, UnityEngine.Events.UnityEvent value)
-    // Offset: 0xFFB628
+    // Offset: 0x109F770
     bool TryGetValue(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent*& value);
     // public System.Void Append(UnityEngine.Timeline.SignalAsset key, UnityEngine.Events.UnityEvent value)
-    // Offset: 0xFFB81C
+    // Offset: 0x109F964
     void Append(UnityEngine::Timeline::SignalAsset* key, UnityEngine::Events::UnityEvent* value);
     // public System.Void Remove(System.Int32 idx)
-    // Offset: 0xFFBE1C
+    // Offset: 0x109FF64
     void Remove(int idx);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0xFFB9E0
+    // Offset: 0x109FB28
     void Remove(UnityEngine::Timeline::SignalAsset* key);
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> get_signals()
-    // Offset: 0xFFC218
+    // Offset: 0x10A0360
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* get_signals();
     // public System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> get_events()
-    // Offset: 0xFFC220
+    // Offset: 0x10A0368
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* get_events();
     // public System.Void .ctor()
-    // Offset: 0xFFC168
+    // Offset: 0x10A02B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SignalReceiver::EventKeyValue* New_ctor();

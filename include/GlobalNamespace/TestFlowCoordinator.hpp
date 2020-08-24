@@ -35,12 +35,12 @@ namespace GlobalNamespace {
     // Offset: 0xC8
     HMUI::ViewController* topScreenViewController;
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0x19103C4
+    // Offset: 0xBAA924
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0x19103E0
+    // Offset: 0xBAA940
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

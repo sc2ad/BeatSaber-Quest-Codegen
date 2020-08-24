@@ -27,16 +27,16 @@ namespace UnityEngine::Analytics {
   class Analytics : public ::Il2CppObject {
     public:
     // static System.Boolean IsInitialized()
-    // Offset: 0x18C74C0
+    // Offset: 0x1975608
     static bool IsInitialized();
     // static private UnityEngine.Analytics.AnalyticsResult SendCustomEventName(System.String customEventName)
-    // Offset: 0x18C74F4
+    // Offset: 0x197563C
     static UnityEngine::Analytics::AnalyticsResult SendCustomEventName(::Il2CppString* customEventName);
     // static private UnityEngine.Analytics.AnalyticsResult SendCustomEvent(UnityEngine.Analytics.CustomEventData eventData)
-    // Offset: 0x18C7534
+    // Offset: 0x197567C
     static UnityEngine::Analytics::AnalyticsResult SendCustomEvent(UnityEngine::Analytics::CustomEventData* eventData);
     // static public UnityEngine.Analytics.AnalyticsResult CustomEvent(System.String customEventName, System.Collections.Generic.IDictionary`2<System.String,System.Object> eventData)
-    // Offset: 0x18C7574
+    // Offset: 0x19756BC
     static UnityEngine::Analytics::AnalyticsResult CustomEvent(::Il2CppString* customEventName, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* eventData);
   }; // UnityEngine.Analytics.Analytics
 }

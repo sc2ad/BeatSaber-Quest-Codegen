@@ -46,19 +46,19 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _cutoutTexOffsetPropertyID
     static void _set__cutoutTexOffsetPropertyID(int value);
     // public System.Boolean get_useRandomCutoutOffset()
-    // Offset: 0x1929214
+    // Offset: 0xBE4AD8
     bool get_useRandomCutoutOffset();
     // protected System.Void Start()
-    // Offset: 0x1929264
+    // Offset: 0xBE4B28
     void Start();
     // public System.Void SetCutout(System.Single cutout)
-    // Offset: 0x1928EB0
+    // Offset: 0xBE4774
     void SetCutout(float cutout);
     // public System.Void SetCutout(System.Single cutout, UnityEngine.Vector3 cutoutOffset)
-    // Offset: 0x1929314
+    // Offset: 0xBE4BD8
     void SetCutout(float cutout, UnityEngine::Vector3 cutoutOffset);
     // public System.Void .ctor()
-    // Offset: 0x1929438
+    // Offset: 0xBE4CFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CutoutEffect* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1929440
+    // Offset: 0xBE4D04
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

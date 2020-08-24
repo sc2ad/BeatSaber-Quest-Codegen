@@ -187,69 +187,69 @@ namespace System::Diagnostics {
     // Offset: 0xD8
     ::Il2CppString* process_name;
     // private System.Void .ctor(System.String machineName, System.Boolean isRemoteMachine, System.Int32 processId, System.Diagnostics.ProcessInfo processInfo)
-    // Offset: 0xEBB998
+    // Offset: 0xF60AE0
     static Process* New_ctor(::Il2CppString* machineName, bool isRemoteMachine, int processId, System::Diagnostics::ProcessInfo* processInfo);
     // private System.Boolean get_Associated()
-    // Offset: 0xEBBA54
+    // Offset: 0xF60B9C
     bool get_Associated();
     // public System.Boolean get_HasExited()
-    // Offset: 0xEBBA74
+    // Offset: 0xF60BBC
     bool get_HasExited();
     // public System.Int32 get_Id()
-    // Offset: 0xEBC540
+    // Offset: 0xF61688
     int get_Id();
     // public System.ComponentModel.ISynchronizeInvoke get_SynchronizingObject()
-    // Offset: 0xEBC568
+    // Offset: 0xF616B0
     System::ComponentModel::ISynchronizeInvoke* get_SynchronizingObject();
     // private System.Void ReleaseProcessHandle(Microsoft.Win32.SafeHandles.SafeProcessHandle handle)
-    // Offset: 0xEBC45C
+    // Offset: 0xF615A4
     void ReleaseProcessHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
     // public System.Void Close()
-    // Offset: 0xEBC744
+    // Offset: 0xF6188C
     void Close();
     // private System.Void EnsureState(System.Diagnostics.Process/State state)
-    // Offset: 0xEBBD80
+    // Offset: 0xF60EC8
     void EnsureState(System::Diagnostics::Process::State state);
     // static public System.Diagnostics.Process GetCurrentProcess()
-    // Offset: 0xEBCA74
+    // Offset: 0xF61BBC
     static System::Diagnostics::Process* GetCurrentProcess();
     // protected System.Void OnExited()
-    // Offset: 0xEBCAEC
+    // Offset: 0xF61C34
     void OnExited();
     // private Microsoft.Win32.SafeHandles.SafeProcessHandle GetProcessHandle(System.Int32 access, System.Boolean throwIfExited)
-    // Offset: 0xEBBEC0
+    // Offset: 0xF61008
     Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int access, bool throwIfExited);
     // private Microsoft.Win32.SafeHandles.SafeProcessHandle GetProcessHandle(System.Int32 access)
-    // Offset: 0xEBCD70
+    // Offset: 0xF61EB8
     Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int access);
     // public System.Void Refresh()
-    // Offset: 0xEBCA30
+    // Offset: 0xF61B78
     void Refresh();
     // public System.Void Kill()
-    // Offset: 0xEBCD78
+    // Offset: 0xF61EC0
     void Kill();
     // private System.Void StopWatchingForExit()
-    // Offset: 0xEBC92C
+    // Offset: 0xF61A74
     void StopWatchingForExit();
     // static private System.String ProcessName_internal(System.IntPtr handle)
-    // Offset: 0xEBD1C8
+    // Offset: 0xF62310
     static ::Il2CppString* ProcessName_internal(System::IntPtr handle);
     // static private System.String ProcessName_internal(Microsoft.Win32.SafeHandles.SafeProcessHandle handle)
-    // Offset: 0xEBD1CC
+    // Offset: 0xF62314
     static ::Il2CppString* ProcessName_internal(Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
     // public System.String get_ProcessName()
-    // Offset: 0xEBCFDC
+    // Offset: 0xF62124
     ::Il2CppString* get_ProcessName();
     // private System.Void RaiseOnExited()
-    // Offset: 0xEBC484
+    // Offset: 0xF615CC
     void RaiseOnExited();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0xEBC6FC
+    // Offset: 0xF61844
     // Implemented from: System.ComponentModel.Component
     // Base method: System.Void Component::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.String ToString()
-    // Offset: 0xEBCE80
+    // Offset: 0xF61FC8
     // Implemented from: System.ComponentModel.Component
     // Base method: System.String Component::ToString()
     ::Il2CppString* ToString();

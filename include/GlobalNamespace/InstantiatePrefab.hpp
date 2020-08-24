@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::GameObject* prefab;
     // protected System.Void Awake()
-    // Offset: 0xC14900
+    // Offset: 0xCB7A48
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xC14A00
+    // Offset: 0xCB7B48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

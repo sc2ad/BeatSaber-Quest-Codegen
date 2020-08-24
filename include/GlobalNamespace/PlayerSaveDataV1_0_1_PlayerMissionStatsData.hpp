@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     bool cleared;
     // public System.Void .ctor()
-    // Offset: 0xB8F28C
+    // Offset: 0xC1B644
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::PlayerMissionStatsData* New_ctor();

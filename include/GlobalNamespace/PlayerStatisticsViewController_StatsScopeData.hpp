@@ -30,19 +30,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StatsScopeData
     StatsScopeData(::Il2CppString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
     // public System.String get_text()
-    // Offset: 0x9921B8
+    // Offset: 0xA2C76C
     ::Il2CppString* get_text();
     // private System.Void set_text(System.String value)
-    // Offset: 0x9921C0
+    // Offset: 0xA2C774
     void set_text(::Il2CppString* value);
     // public System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> get_playerOverallStatsDataFunc()
-    // Offset: 0x9921C8
+    // Offset: 0xA2C77C
     System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
     // private System.Void set_playerOverallStatsDataFunc(System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> value)
-    // Offset: 0x9921D0
+    // Offset: 0xA2C784
     void set_playerOverallStatsDataFunc(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* value);
     // public System.Void .ctor(System.String text, System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> playerOverallStatsDataFunc)
-    // Offset: 0x9921D8
+    // Offset: 0xA2C78C
     static PlayerStatisticsViewController::StatsScopeData* New_ctor(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
   }; // PlayerStatisticsViewController/StatsScopeData
 }

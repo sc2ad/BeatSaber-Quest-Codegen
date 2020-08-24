@@ -17,13 +17,13 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     ::Il2CppString* Format;
     // public System.Void .ctor(System.String format)
-    // Offset: 0x18B3D38
+    // Offset: 0x1960E80
     static AspMvcAreaPartialViewLocationFormatAttribute* New_ctor(::Il2CppString* format);
     // public System.String get_Format()
-    // Offset: 0x18B3D6C
+    // Offset: 0x1960EB4
     ::Il2CppString* get_Format();
     // private System.Void set_Format(System.String value)
-    // Offset: 0x18B3D74
+    // Offset: 0x1960EBC
     void set_Format(::Il2CppString* value);
   }; // JetBrains.Annotations.AspMvcAreaPartialViewLocationFormatAttribute
 }

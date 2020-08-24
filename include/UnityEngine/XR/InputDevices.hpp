@@ -39,7 +39,7 @@ namespace UnityEngine::XR {
     // Set static field: static private System.Action`1<UnityEngine.XR.InputDevice> deviceConfigChanged
     static void _set_deviceConfigChanged(System::Action_1<UnityEngine::XR::InputDevice>* value);
     // static private System.Void InvokeConnectionEvent(System.UInt64 deviceId, UnityEngine.XR.ConnectionChangeType change)
-    // Offset: 0x18BA350
+    // Offset: 0x1967498
     static void InvokeConnectionEvent(uint64_t deviceId, UnityEngine::XR::ConnectionChangeType change);
   }; // UnityEngine.XR.InputDevices
 }

@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class IntSO : public GlobalNamespace::ObservableVariableSO_1<int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xC14A08
+    // Offset: 0xCB7B50
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO`1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

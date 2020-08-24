@@ -33,13 +33,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x18
     UnityEngine::ProBuilder::ProBuilderMesh* mesh;
     // System.Int32 <Connect>b__0(System.Int32 x)
-    // Offset: 0xE6A8B8
+    // Offset: 0xF0FA00
     int $Connect$b__0(int x);
     // System.Int32 <Connect>b__3(System.Int32 x)
-    // Offset: 0xE6A920
+    // Offset: 0xF0FA68
     int $Connect$b__3(int x);
     // public System.Void .ctor()
-    // Offset: 0xE68488
+    // Offset: 0xF0D5D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectElements::$$c__DisplayClass2_0* New_ctor();

@@ -29,154 +29,154 @@ namespace UnityEngine {
   class Material : public UnityEngine::Object {
     public:
     // static private System.Void CreateWithShader(UnityEngine.Material self, UnityEngine.Shader shader)
-    // Offset: 0x1271778
+    // Offset: 0x13178C0
     static void CreateWithShader(UnityEngine::Material* self, UnityEngine::Shader* shader);
     // static private System.Void CreateWithMaterial(UnityEngine.Material self, UnityEngine.Material source)
-    // Offset: 0x12717C8
+    // Offset: 0x1317910
     static void CreateWithMaterial(UnityEngine::Material* self, UnityEngine::Material* source);
     // static private System.Void CreateWithString(UnityEngine.Material self)
-    // Offset: 0x1271818
+    // Offset: 0x1317960
     static void CreateWithString(UnityEngine::Material* self);
     // public System.Void .ctor(UnityEngine.Shader shader)
-    // Offset: 0x1271858
+    // Offset: 0x13179A0
     static Material* New_ctor(UnityEngine::Shader* shader);
     // public System.Void .ctor(UnityEngine.Material source)
-    // Offset: 0x12718F8
+    // Offset: 0x1317A40
     static Material* New_ctor(UnityEngine::Material* source);
     // public System.Void .ctor(System.String contents)
-    // Offset: 0x1271998
+    // Offset: 0x1317AE0
     static Material* New_ctor(::Il2CppString* contents);
     // public UnityEngine.Shader get_shader()
-    // Offset: 0x1271A28
+    // Offset: 0x1317B70
     UnityEngine::Shader* get_shader();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1271A68
+    // Offset: 0x1317BB0
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1271AF4
+    // Offset: 0x1317C3C
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Texture get_mainTexture()
-    // Offset: 0x1271BE0
+    // Offset: 0x1317D28
     UnityEngine::Texture* get_mainTexture();
     // public System.Void set_mainTexture(UnityEngine.Texture value)
-    // Offset: 0x1271C8C
+    // Offset: 0x1317DD4
     void set_mainTexture(UnityEngine::Texture* value);
     // public System.Boolean HasProperty(System.Int32 nameID)
-    // Offset: 0x1271D50
+    // Offset: 0x1317E98
     bool HasProperty(int nameID);
     // public System.Boolean HasProperty(System.String name)
-    // Offset: 0x1271DA0
+    // Offset: 0x1317EE8
     bool HasProperty(::Il2CppString* name);
     // public System.Void set_renderQueue(System.Int32 value)
-    // Offset: 0x1271DFC
+    // Offset: 0x1317F44
     void set_renderQueue(int value);
     // public System.Void EnableKeyword(System.String keyword)
-    // Offset: 0x1271E4C
+    // Offset: 0x1317F94
     void EnableKeyword(::Il2CppString* keyword);
     // public System.Void DisableKeyword(System.String keyword)
-    // Offset: 0x1271E9C
+    // Offset: 0x1317FE4
     void DisableKeyword(::Il2CppString* keyword);
     // public System.Boolean get_enableInstancing()
-    // Offset: 0x126FB40
+    // Offset: 0x1315C88
     bool get_enableInstancing();
     // public System.Int32 get_passCount()
-    // Offset: 0x1271EEC
+    // Offset: 0x1318034
     int get_passCount();
     // public System.Boolean SetPass(System.Int32 pass)
-    // Offset: 0x1271F2C
+    // Offset: 0x1318074
     bool SetPass(int pass);
     // public System.Void CopyPropertiesFromMaterial(UnityEngine.Material mat)
-    // Offset: 0x1271F7C
+    // Offset: 0x13180C4
     void CopyPropertiesFromMaterial(UnityEngine::Material* mat);
     // private System.String[] GetShaderKeywords()
-    // Offset: 0x1271FCC
+    // Offset: 0x1318114
     ::Array<::Il2CppString*>* GetShaderKeywords();
     // private System.Void SetShaderKeywords(System.String[] names)
-    // Offset: 0x127200C
+    // Offset: 0x1318154
     void SetShaderKeywords(::Array<::Il2CppString*>* names);
     // public System.String[] get_shaderKeywords()
-    // Offset: 0x127205C
+    // Offset: 0x13181A4
     ::Array<::Il2CppString*>* get_shaderKeywords();
     // public System.Void set_shaderKeywords(System.String[] value)
-    // Offset: 0x127209C
+    // Offset: 0x13181E4
     void set_shaderKeywords(::Array<::Il2CppString*>* value);
     // private System.Void SetFloatImpl(System.Int32 name, System.Single value)
-    // Offset: 0x12720EC
+    // Offset: 0x1318234
     void SetFloatImpl(int name, float value);
     // private System.Void SetColorImpl(System.Int32 name, UnityEngine.Color value)
-    // Offset: 0x127214C
+    // Offset: 0x1318294
     void SetColorImpl(int name, UnityEngine::Color value);
     // private System.Void SetMatrixImpl(System.Int32 name, UnityEngine.Matrix4x4 value)
-    // Offset: 0x127220C
+    // Offset: 0x1318354
     void SetMatrixImpl(int name, UnityEngine::Matrix4x4 value);
     // private System.Void SetTextureImpl(System.Int32 name, UnityEngine.Texture value)
-    // Offset: 0x12722BC
+    // Offset: 0x1318404
     void SetTextureImpl(int name, UnityEngine::Texture* value);
     // private System.Single GetFloatImpl(System.Int32 name)
-    // Offset: 0x1272314
+    // Offset: 0x131845C
     float GetFloatImpl(int name);
     // private UnityEngine.Color GetColorImpl(System.Int32 name)
-    // Offset: 0x1272364
+    // Offset: 0x13184AC
     UnityEngine::Color GetColorImpl(int name);
     // private UnityEngine.Texture GetTextureImpl(System.Int32 name)
-    // Offset: 0x1272428
+    // Offset: 0x1318570
     UnityEngine::Texture* GetTextureImpl(int name);
     // public System.Void SetFloat(System.String name, System.Single value)
-    // Offset: 0x1272478
+    // Offset: 0x13185C0
     void SetFloat(::Il2CppString* name, float value);
     // public System.Void SetFloat(System.Int32 nameID, System.Single value)
-    // Offset: 0x12724E4
+    // Offset: 0x131862C
     void SetFloat(int nameID, float value);
     // public System.Void SetInt(System.String name, System.Int32 value)
-    // Offset: 0x1272544
+    // Offset: 0x131868C
     void SetInt(::Il2CppString* name, int value);
     // public System.Void SetColor(System.String name, UnityEngine.Color value)
-    // Offset: 0x1271B80
+    // Offset: 0x1317CC8
     void SetColor(::Il2CppString* name, UnityEngine::Color value);
     // public System.Void SetColor(System.Int32 nameID, UnityEngine.Color value)
-    // Offset: 0x12725B4
+    // Offset: 0x13186FC
     void SetColor(int nameID, UnityEngine::Color value);
     // public System.Void SetVector(System.String name, UnityEngine.Vector4 value)
-    // Offset: 0x12725B8
+    // Offset: 0x1318700
     void SetVector(::Il2CppString* name, UnityEngine::Vector4 value);
     // public System.Void SetVector(System.Int32 nameID, UnityEngine.Vector4 value)
-    // Offset: 0x1272618
+    // Offset: 0x1318760
     void SetVector(int nameID, UnityEngine::Vector4 value);
     // public System.Void SetMatrix(System.Int32 nameID, UnityEngine.Matrix4x4 value)
-    // Offset: 0x127261C
+    // Offset: 0x1318764
     void SetMatrix(int nameID, UnityEngine::Matrix4x4 value);
     // public System.Void SetTexture(System.String name, UnityEngine.Texture value)
-    // Offset: 0x1271CEC
+    // Offset: 0x1317E34
     void SetTexture(::Il2CppString* name, UnityEngine::Texture* value);
     // public System.Void SetTexture(System.Int32 nameID, UnityEngine.Texture value)
-    // Offset: 0x127268C
+    // Offset: 0x13187D4
     void SetTexture(int nameID, UnityEngine::Texture* value);
     // public System.Single GetFloat(System.Int32 nameID)
-    // Offset: 0x12726E4
+    // Offset: 0x131882C
     float GetFloat(int nameID);
     // public UnityEngine.Color GetColor(System.String name)
-    // Offset: 0x1271AC4
+    // Offset: 0x1317C0C
     UnityEngine::Color GetColor(::Il2CppString* name);
     // public UnityEngine.Color GetColor(System.Int32 nameID)
-    // Offset: 0x1272734
+    // Offset: 0x131887C
     UnityEngine::Color GetColor(int nameID);
     // public UnityEngine.Vector4 GetVector(System.Int32 nameID)
-    // Offset: 0x1272738
+    // Offset: 0x1318880
     UnityEngine::Vector4 GetVector(int nameID);
     // public UnityEngine.Texture GetTexture(System.String name)
-    // Offset: 0x1271C30
+    // Offset: 0x1317D78
     UnityEngine::Texture* GetTexture(::Il2CppString* name);
     // public UnityEngine.Texture GetTexture(System.Int32 nameID)
-    // Offset: 0x127274C
+    // Offset: 0x1318894
     UnityEngine::Texture* GetTexture(int nameID);
     // private System.Void SetColorImpl_Injected(System.Int32 name, UnityEngine.Color value)
-    // Offset: 0x12721B4
+    // Offset: 0x13182FC
     void SetColorImpl_Injected(int name, UnityEngine::Color& value);
     // private System.Void SetMatrixImpl_Injected(System.Int32 name, UnityEngine.Matrix4x4 value)
-    // Offset: 0x1272264
+    // Offset: 0x13183AC
     void SetMatrixImpl_Injected(int name, UnityEngine::Matrix4x4& value);
     // private System.Void GetColorImpl_Injected(System.Int32 name, UnityEngine.Color ret)
-    // Offset: 0x12723D0
+    // Offset: 0x1318518
     void GetColorImpl_Injected(int name, UnityEngine::Color& ret);
   }; // UnityEngine.Material
 }

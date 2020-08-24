@@ -29,13 +29,13 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVRDriverManager FnTable;
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0xF407E0
+    // Offset: 0xFE5928
     static CVRDriverManager* New_ctor(System::IntPtr pInterface);
     // public System.UInt32 GetDriverCount()
-    // Offset: 0xF408E8
+    // Offset: 0xFE5A30
     uint GetDriverCount();
     // public System.UInt32 GetDriverName(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0xF40904
+    // Offset: 0xFE5A4C
     uint GetDriverName(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
   }; // Valve.VR.CVRDriverManager
 }

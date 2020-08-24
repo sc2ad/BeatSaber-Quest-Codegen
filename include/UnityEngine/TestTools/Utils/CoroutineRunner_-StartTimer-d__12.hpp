@@ -45,30 +45,30 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x38
     System::Action* onTimeout;
     // public System.Void .ctor(System.Int32 $$1__state)
-    // Offset: 0x18C9980
+    // Offset: 0x1977AC8
     static CoroutineRunner::$StartTimer$d__12* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x18C99AC
+    // Offset: 0x1977AF4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x18C99B0
+    // Offset: 0x1977AF8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x18C9A98
+    // Offset: 0x1977BE0
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator`1::get_Current()
     ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x18C9AA0
+    // Offset: 0x1977BE8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18C9B00
+    // Offset: 0x1977C48
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

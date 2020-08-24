@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class NoteDebris::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::NoteDebris*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x195EA0C
+    // Offset: 0xC1A2D0
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()

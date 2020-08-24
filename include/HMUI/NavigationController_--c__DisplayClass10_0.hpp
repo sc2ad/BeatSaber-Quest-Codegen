@@ -39,10 +39,10 @@ namespace HMUI {
     // Offset: 0x28
     float moveOffset;
     // System.Void <PopViewControllers>b__0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
-    // Offset: 0x103B8AC
+    // Offset: 0x10DE9F4
     void $PopViewControllers$b__0(float t, ::Array<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* removingViewControllers);
     // public System.Void .ctor()
-    // Offset: 0x103B7E8
+    // Offset: 0x10DE930
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NavigationController::$$c__DisplayClass10_0* New_ctor();

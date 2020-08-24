@@ -16,17 +16,17 @@ namespace GlobalNamespace {
   class StartMiddleEndButtonsGroup : public UnityEngine::MonoBehaviour, public UnityEngine::UI::ILayoutController {
     public:
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0x190B854
+    // Offset: 0xBA5DB4
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0x190B958
+    // Offset: 0xBA5EB8
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();
     // public System.Void .ctor()
-    // Offset: 0x190B95C
+    // Offset: 0xBA5EBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection;
     // public IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection()
-    // Offset: 0xB93324
+    // Offset: 0xC1F6DC
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0xB93404
+    // Offset: 0xC1F7BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PromoViewController::ButtonPromoTypePair* New_ctor();

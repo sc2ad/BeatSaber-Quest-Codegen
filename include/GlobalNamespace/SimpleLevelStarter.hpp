@@ -91,28 +91,28 @@ namespace GlobalNamespace {
     // Offset: 0x60
     HMUI::ButtonBinder* buttonBinder;
     // protected System.Void Awake()
-    // Offset: 0x18FE380
+    // Offset: 0xB988E0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x18FE444
+    // Offset: 0xB989A4
     void OnDestroy();
     // private System.Void StartLevel()
-    // Offset: 0x18FE460
+    // Offset: 0xB989C0
     void StartLevel();
     // private System.Void InstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x18FE644
+    // Offset: 0xB98BA4
     void InstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void ButtonPressed()
-    // Offset: 0x18FE790
+    // Offset: 0xB98CF0
     void ButtonPressed();
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x18FE794
+    // Offset: 0xB98CF4
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <StartLevel>b__13_0()
-    // Offset: 0x18FE7C0
+    // Offset: 0xB98D20
     void $StartLevel$b__13_0();
     // public System.Void .ctor()
-    // Offset: 0x18FE7B8
+    // Offset: 0xB98D18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

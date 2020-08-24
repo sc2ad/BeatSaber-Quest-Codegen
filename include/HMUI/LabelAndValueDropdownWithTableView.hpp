@@ -27,13 +27,13 @@ namespace HMUI {
     // Offset: 0x48
     TMPro::TextMeshProUGUI* labelText;
     // public System.Void SetValueText(System.String text)
-    // Offset: 0xE45684
+    // Offset: 0xEE97CC
     void SetValueText(::Il2CppString* text);
     // public System.Void SetLabelText(System.String text)
-    // Offset: 0xE456A0
+    // Offset: 0xEE97E8
     void SetLabelText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0xE456BC
+    // Offset: 0xEE9804
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

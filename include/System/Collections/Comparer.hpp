@@ -43,21 +43,21 @@ namespace System::Collections {
     // Set static field: static public readonly System.Collections.Comparer DefaultInvariant
     static void _set_DefaultInvariant(System::Collections::Comparer* value);
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
-    // Offset: 0x1293950
+    // Offset: 0x133AA98
     static Comparer* New_ctor(System::Globalization::CultureInfo* culture);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1293A04
+    // Offset: 0x133AB4C
     static Comparer* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Void .cctor()
-    // Offset: 0x1293C30
+    // Offset: 0x133AD78
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1293920
+    // Offset: 0x133AA68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Comparer* New_ctor();
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1293460
+    // Offset: 0x133A5A8
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object a, System.Object b)
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
@@ -65,7 +65,7 @@ namespace System::Collections {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1293B78
+    // Offset: 0x133ACC0
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

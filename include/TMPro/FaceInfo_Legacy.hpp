@@ -75,7 +75,7 @@ namespace TMPro {
     // Offset: 0x64
     float AtlasHeight;
     // public System.Void .ctor()
-    // Offset: 0xB4F4D8
+    // Offset: 0xB504EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FaceInfo_Legacy* New_ctor();

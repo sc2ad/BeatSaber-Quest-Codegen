@@ -17,7 +17,7 @@ namespace System {
     // Offset: 0x10
     bool m_compliant;
     // public System.Void .ctor(System.Boolean isCompliant)
-    // Offset: 0x128F278
+    // Offset: 0x13363C0
     static CLSCompliantAttribute* New_ctor(bool isCompliant);
   }; // System.CLSCompliantAttribute
 }

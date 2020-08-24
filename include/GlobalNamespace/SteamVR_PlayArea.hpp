@@ -96,28 +96,28 @@ namespace GlobalNamespace {
     // Offset: 0x38
     ::Array<UnityEngine::Vector3>* vertices;
     // static public System.Boolean GetBounds(SteamVR_PlayArea/Size size, Valve.VR.HmdQuad_t pRect)
-    // Offset: 0xCE9654
+    // Offset: 0xD8D79C
     static bool GetBounds(GlobalNamespace::SteamVR_PlayArea::Size size, Valve::VR::HmdQuad_t& pRect);
     // public System.Void BuildMesh()
-    // Offset: 0xCE99D8
+    // Offset: 0xD8DB20
     void BuildMesh();
     // private System.Void OnDrawGizmos()
-    // Offset: 0xCEA230
+    // Offset: 0xD8E378
     void OnDrawGizmos();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0xCEA4C4
+    // Offset: 0xD8E60C
     void OnDrawGizmosSelected();
     // public System.Void DrawWireframe()
-    // Offset: 0xCEA240
+    // Offset: 0xD8E388
     void DrawWireframe();
     // public System.Void OnEnable()
-    // Offset: 0xCEA4D4
+    // Offset: 0xD8E61C
     void OnEnable();
     // private System.Collections.IEnumerator UpdateBounds()
-    // Offset: 0xCEA588
+    // Offset: 0xD8E6D0
     System::Collections::IEnumerator* UpdateBounds();
     // public System.Void .ctor()
-    // Offset: 0xCEA630
+    // Offset: 0xD8E778
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

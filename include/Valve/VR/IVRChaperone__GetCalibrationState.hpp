@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperone::_GetCalibrationState : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF45E7C
+    // Offset: 0xFEAFC4
     static IVRChaperone::_GetCalibrationState* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.ChaperoneCalibrationState Invoke()
-    // Offset: 0xF3DF98
+    // Offset: 0xFE30E0
     Valve::VR::ChaperoneCalibrationState Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF45E90
+    // Offset: 0xFEAFD8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.ChaperoneCalibrationState EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF45EBC
+    // Offset: 0xFEB004
     Valve::VR::ChaperoneCalibrationState EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_GetCalibrationState
 }

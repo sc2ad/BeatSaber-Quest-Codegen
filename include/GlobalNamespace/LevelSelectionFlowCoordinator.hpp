@@ -117,31 +117,31 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void LevelSelectionFlowCoordinatorDidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
     // protected System.Boolean get_isInPracticeView()
-    // Offset: 0x193BC54
+    // Offset: 0xBF6518
     bool get_isInPracticeView();
     // protected MenuTransitionsHelper get_menuTransitionsHelper()
-    // Offset: 0x193BCD8
+    // Offset: 0xBF659C
     GlobalNamespace::MenuTransitionsHelper* get_menuTransitionsHelper();
     // protected GameplaySetupViewController get_gameplaySetupViewController()
-    // Offset: 0x193BCE0
+    // Offset: 0xBF65A4
     GlobalNamespace::GameplaySetupViewController* get_gameplaySetupViewController();
     // protected LevelSelectionNavigationController get_levelSelectionNavigationController()
-    // Offset: 0x193BCE8
+    // Offset: 0xBF65AC
     GlobalNamespace::LevelSelectionNavigationController* get_levelSelectionNavigationController();
     // protected HMUI.ViewController get_topScreenViewController()
-    // Offset: 0x193BCF0
+    // Offset: 0xBF65B4
     HMUI::ViewController* get_topScreenViewController();
     // protected System.Boolean get_hidePacksIfOneOrNone()
-    // Offset: 0x193BCF8
+    // Offset: 0xBF65BC
     bool get_hidePacksIfOneOrNone();
     // protected System.Boolean get_hideGameplaySetup()
-    // Offset: 0x193BD00
+    // Offset: 0xBF65C4
     bool get_hideGameplaySetup();
     // protected System.Boolean get_hidePracticeButton()
-    // Offset: 0x193BD08
+    // Offset: 0xBF65CC
     bool get_hidePracticeButton();
     // protected System.Boolean get_showBackButtonForMainViewController()
-    // Offset: 0x193BD10
+    // Offset: 0xBF65D4
     bool get_showBackButtonForMainViewController();
     // protected LeaderboardViewController get_leaderboardViewController()
     // Offset: 0xFFFFFFFF
@@ -150,78 +150,78 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     bool get_showPlayerStatsInDetailView();
     // public System.Void Setup(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollectionToBeSelectedAfterPresent, IPreviewBeatmapLevel beatmapLevelToBeSelectedAfterPresent)
-    // Offset: 0x193BD18
+    // Offset: 0xBF65DC
     void Setup(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollectionToBeSelectedAfterPresent, GlobalNamespace::IPreviewBeatmapLevel* beatmapLevelToBeSelectedAfterPresent);
     // private System.Void ResetSetupParameters()
-    // Offset: 0x193BD50
+    // Offset: 0xBF6614
     void ResetSetupParameters();
     // protected System.Void DismissPracticeViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x193CCBC
+    // Offset: 0xBF7580
     void DismissPracticeViewController(System::Action* finishedCallback, bool immediately);
     // private System.Void HandleLevelFilteringNavigationControllerDidStartLoading(LevelFilteringNavigationController controller)
-    // Offset: 0x193CFD4
+    // Offset: 0xBF7898
     void HandleLevelFilteringNavigationControllerDidStartLoading(GlobalNamespace::LevelFilteringNavigationController* controller);
     // private System.Void HandleLevelFilteringNavigationControllerDidSelectAnnotatedBeatmapLevelCollection(LevelFilteringNavigationController controller, IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection, UnityEngine.GameObject noDataInfoPrefab, BeatmapCharacteristicSO preferedBeatmapCharacteristic)
-    // Offset: 0x193D168
+    // Offset: 0xBF7A2C
     void HandleLevelFilteringNavigationControllerDidSelectAnnotatedBeatmapLevelCollection(GlobalNamespace::LevelFilteringNavigationController* controller, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection, UnityEngine::GameObject* noDataInfoPrefab, GlobalNamespace::BeatmapCharacteristicSO* preferedBeatmapCharacteristic);
     // private System.Void HandleLevelSelectionNavigationControllerDidSelectPack(LevelSelectionNavigationController viewController, IBeatmapLevelPack pack)
-    // Offset: 0x193D3F8
+    // Offset: 0xBF7CBC
     void HandleLevelSelectionNavigationControllerDidSelectPack(GlobalNamespace::LevelSelectionNavigationController* viewController, GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Void HandleLevelSelectionNavigationControllerDidPressPlayButton(LevelSelectionNavigationController viewController)
-    // Offset: 0x193D408
+    // Offset: 0xBF7CCC
     void HandleLevelSelectionNavigationControllerDidPressPlayButton(GlobalNamespace::LevelSelectionNavigationController* viewController);
     // private System.Void HandleLevelSelectionNavigationControllerDidPressPracticeButton(LevelSelectionNavigationController viewController, IBeatmapLevel level)
-    // Offset: 0x193D760
+    // Offset: 0xBF8024
     void HandleLevelSelectionNavigationControllerDidPressPracticeButton(GlobalNamespace::LevelSelectionNavigationController* viewController, GlobalNamespace::IBeatmapLevel* level);
     // private System.Void HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap(LevelSelectionNavigationController viewController, IDifficultyBeatmap beatmap)
-    // Offset: 0x193D7A8
+    // Offset: 0xBF806C
     void HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap(GlobalNamespace::LevelSelectionNavigationController* viewController, GlobalNamespace::IDifficultyBeatmap* beatmap);
     // private System.Void HandleLevelSelectionNavigationControllerDidPresentDetailContent(LevelSelectionNavigationController viewController, StandardLevelDetailViewController/ContentType contentType)
-    // Offset: 0x193D7E8
+    // Offset: 0xBF80AC
     void HandleLevelSelectionNavigationControllerDidPresentDetailContent(GlobalNamespace::LevelSelectionNavigationController* viewController, GlobalNamespace::StandardLevelDetailViewController::ContentType contentType);
     // private System.Void HandleLevelSelectionNavigationControllerDidPressOpenPackButton(LevelSelectionNavigationController viewController, IBeatmapLevelPack levelPack)
-    // Offset: 0x193D890
+    // Offset: 0xBF8154
     void HandleLevelSelectionNavigationControllerDidPressOpenPackButton(GlobalNamespace::LevelSelectionNavigationController* viewController, GlobalNamespace::IBeatmapLevelPack* levelPack);
     // private System.Void HandlePracticeViewControllerDidPressPlayButton()
-    // Offset: 0x193D8B0
+    // Offset: 0xBF8174
     void HandlePracticeViewControllerDidPressPlayButton();
     // private System.Void StartLevel(IDifficultyBeatmap difficultyBeatmap, System.Action beforeSceneSwitchCallback, System.Boolean practice)
-    // Offset: 0x193D8BC
+    // Offset: 0xBF8180
     void StartLevel(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, System::Action* beforeSceneSwitchCallback, bool practice);
     // protected System.Void StartLevelOrShow360Warning(System.Action beforeSceneSwitchCallback, System.Boolean practice)
-    // Offset: 0x193D414
+    // Offset: 0xBF7CD8
     void StartLevelOrShow360Warning(System::Action* beforeSceneSwitchCallback, bool practice);
     // private System.Void HandleStandardLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x193DAB0
+    // Offset: 0xBF8374
     void HandleStandardLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // protected System.Boolean HandleBasicLevelCompletionResults(LevelCompletionResults levelCompletionResults, System.Boolean practice)
-    // Offset: 0x193DB78
+    // Offset: 0xBF843C
     bool HandleBasicLevelCompletionResults(GlobalNamespace::LevelCompletionResults* levelCompletionResults, bool practice);
     // protected System.Void ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
     // Offset: 0xFFFFFFFF
     void ProcessLevelCompletionResultsAfterLevelDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
-    // Offset: 0x193BD88
+    // Offset: 0xBF664C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, HMUI.FlowCoordinator/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::FlowCoordinator::ActivationType activationType);
     // protected override System.Void DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
-    // Offset: 0x193C5BC
+    // Offset: 0xBF6E80
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(HMUI.FlowCoordinator/DeactivationType deactivationType)
     void DidDeactivate(HMUI::FlowCoordinator::DeactivationType deactivationType);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
-    // Offset: 0x193CD88
+    // Offset: 0xBF764C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, System.Boolean immediately)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, bool immediately);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x193DBC4
+    // Offset: 0xBF8488
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // protected System.Void .ctor()
-    // Offset: 0x193DC64
+    // Offset: 0xBF8528
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

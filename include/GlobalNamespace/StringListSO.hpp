@@ -17,10 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<::Il2CppString*>* strings;
     // public System.String[] get_strings()
-    // Offset: 0xC1ACF0
+    // Offset: 0xCBDE38
     ::Array<::Il2CppString*>* get_strings();
     // public System.Void .ctor()
-    // Offset: 0xC1ACF8
+    // Offset: 0xCBDE40
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

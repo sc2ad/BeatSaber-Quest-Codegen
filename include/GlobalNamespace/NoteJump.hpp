@@ -134,52 +134,52 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kMissedTimeOffset
     static void _set_kMissedTimeOffset(float value);
     // public System.Void add_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0xBA3BF4
+    // Offset: 0xC2FFAC
     void add_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void remove_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0xBA3C98
+    // Offset: 0xC30050
     void remove_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0xBA3D3C
+    // Offset: 0xC300F4
     void add_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0xBA3DE0
+    // Offset: 0xC30198
     void remove_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0xBA3E84
+    // Offset: 0xC3023C
     void add_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void remove_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0xBA3F28
+    // Offset: 0xC302E0
     void remove_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void add_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0xBA3FCC
+    // Offset: 0xC30384
     void add_noteJumpDidPassHalfEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0xBA4070
+    // Offset: 0xC30428
     void remove_noteJumpDidPassHalfEvent(System::Action* value);
     // public System.Single get_distanceToPlayer()
-    // Offset: 0xBA4114
+    // Offset: 0xC304CC
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0xBA4204
+    // Offset: 0xC305BC
     UnityEngine::Vector3 get_beatPos();
     // public System.Single get_jumpDuration()
-    // Offset: 0xBA42B0
+    // Offset: 0xC30668
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_moveVec()
-    // Offset: 0xBA42B8
+    // Offset: 0xC30670
     UnityEngine::Vector3 get_moveVec();
     // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single jumpDuration, System.Single gravity, System.Single flipYSide, NoteCutDirection cutDirection, System.Single cutDirectionAngleOffset)
-    // Offset: 0xBA42C4
+    // Offset: 0xC3067C
     void Init(float beatTime, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float jumpDuration, float gravity, float flipYSide, GlobalNamespace::NoteCutDirection cutDirection, float cutDirectionAngleOffset);
     // private System.Single EaseInOutQuad(System.Single t)
-    // Offset: 0xBA460C
+    // Offset: 0xC309C4
     float EaseInOutQuad(float t);
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0xBA463C
+    // Offset: 0xC309F4
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0xBA4C84
+    // Offset: 0xC3103C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

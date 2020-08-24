@@ -24,16 +24,16 @@ namespace System::Threading {
   class WaitCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xC3699C
+    // Offset: 0xCDAAE4
     static WaitCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object state)
-    // Offset: 0xC35CFC
+    // Offset: 0xCD9E44
     void Invoke(::Il2CppObject* state);
     // public System.IAsyncResult BeginInvoke(System.Object state, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xC4AE50
+    // Offset: 0xCEEF98
     System::IAsyncResult* BeginInvoke(::Il2CppObject* state, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xC4AE74
+    // Offset: 0xCEEFBC
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.WaitCallback
 }

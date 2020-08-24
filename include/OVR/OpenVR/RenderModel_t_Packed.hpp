@@ -39,10 +39,10 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: RenderModel_t_Packed
     RenderModel_t_Packed(System::IntPtr rVertexData_ = {}, uint unVertexCount_ = {}, System::IntPtr rIndexData_ = {}, uint unTriangleCount_ = {}, int diffuseTextureId_ = {}) : rVertexData{rVertexData_}, unVertexCount{unVertexCount_}, rIndexData{rIndexData_}, unTriangleCount{unTriangleCount_}, diffuseTextureId{diffuseTextureId_} {}
     // public System.Void .ctor(OVR.OpenVR.RenderModel_t unpacked)
-    // Offset: 0x9934D0
+    // Offset: 0xA2DB48
     static RenderModel_t_Packed* New_ctor(OVR::OpenVR::RenderModel_t unpacked);
     // public System.Void Unpack(OVR.OpenVR.RenderModel_t unpacked)
-    // Offset: 0x9934F0
+    // Offset: 0xA2DB68
     void Unpack(OVR::OpenVR::RenderModel_t& unpacked);
   }; // OVR.OpenVR.RenderModel_t_Packed
 }

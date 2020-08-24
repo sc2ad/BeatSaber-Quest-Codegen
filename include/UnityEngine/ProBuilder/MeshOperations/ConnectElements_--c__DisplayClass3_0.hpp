@@ -30,10 +30,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<int>* appended;
     // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0xE6A970
+    // Offset: 0xF0FAB8
     bool $Connect$b__3(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0xE6A51C
+    // Offset: 0xF0F664
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectElements::$$c__DisplayClass3_0* New_ctor();

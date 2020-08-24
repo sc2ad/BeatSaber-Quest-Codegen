@@ -84,52 +84,52 @@ namespace OVR::OpenVR {
     // Offset: 0x70
     OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors;
     // public System.Void Clear()
-    // Offset: 0xC24D4C
+    // Offset: 0xCC7E94
     void Clear();
     // private System.Void CheckClear()
-    // Offset: 0xC24E98
+    // Offset: 0xCC7FE0
     void CheckClear();
     // public OVR.OpenVR.CVRSystem VRSystem()
-    // Offset: 0xC23C1C
+    // Offset: 0xCC6D64
     OVR::OpenVR::CVRSystem* VRSystem();
     // public OVR.OpenVR.CVRChaperone VRChaperone()
-    // Offset: 0xC23D48
+    // Offset: 0xCC6E90
     OVR::OpenVR::CVRChaperone* VRChaperone();
     // public OVR.OpenVR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0xC23E74
+    // Offset: 0xCC6FBC
     OVR::OpenVR::CVRChaperoneSetup* VRChaperoneSetup();
     // public OVR.OpenVR.CVRCompositor VRCompositor()
-    // Offset: 0xC23FA0
+    // Offset: 0xCC70E8
     OVR::OpenVR::CVRCompositor* VRCompositor();
     // public OVR.OpenVR.CVROverlay VROverlay()
-    // Offset: 0xC240CC
+    // Offset: 0xCC7214
     OVR::OpenVR::CVROverlay* VROverlay();
     // public OVR.OpenVR.CVRRenderModels VRRenderModels()
-    // Offset: 0xC241F8
+    // Offset: 0xCC7340
     OVR::OpenVR::CVRRenderModels* VRRenderModels();
     // public OVR.OpenVR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0xC24324
+    // Offset: 0xCC746C
     OVR::OpenVR::CVRExtendedDisplay* VRExtendedDisplay();
     // public OVR.OpenVR.CVRSettings VRSettings()
-    // Offset: 0xC24450
+    // Offset: 0xCC7598
     OVR::OpenVR::CVRSettings* VRSettings();
     // public OVR.OpenVR.CVRApplications VRApplications()
-    // Offset: 0xC2457C
+    // Offset: 0xCC76C4
     OVR::OpenVR::CVRApplications* VRApplications();
     // public OVR.OpenVR.CVRScreenshots VRScreenshots()
-    // Offset: 0xC246A8
+    // Offset: 0xCC77F0
     OVR::OpenVR::CVRScreenshots* VRScreenshots();
     // public OVR.OpenVR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0xC247D4
+    // Offset: 0xCC791C
     OVR::OpenVR::CVRTrackedCamera* VRTrackedCamera();
     // public OVR.OpenVR.CVRInput VRInput()
-    // Offset: 0xC24900
+    // Offset: 0xCC7A48
     OVR::OpenVR::CVRInput* VRInput();
     // public OVR.OpenVR.CVRSpatialAnchors VRSpatialAnchors()
-    // Offset: 0xC24A2C
+    // Offset: 0xCC7B74
     OVR::OpenVR::CVRSpatialAnchors* VRSpatialAnchors();
     // public System.Void .ctor()
-    // Offset: 0xC23B8C
+    // Offset: 0xCC6CD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OpenVR::COpenVRContext* New_ctor();

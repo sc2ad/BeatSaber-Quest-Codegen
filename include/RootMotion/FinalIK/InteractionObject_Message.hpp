@@ -40,10 +40,10 @@ namespace RootMotion::FinalIK {
     // Set static field: static private System.String empty
     static void _set_empty(::Il2CppString* value);
     // public System.Void Send(UnityEngine.Transform t)
-    // Offset: 0x13A8A58
+    // Offset: 0x144FBA0
     void Send(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x13A8B50
+    // Offset: 0x144FC98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionObject::Message* New_ctor();

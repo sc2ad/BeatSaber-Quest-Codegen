@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int value;
     // public System.String get_localizedText()
-    // Offset: 0x1954E2C
+    // Offset: 0xC106F0
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x1954E40
+    // Offset: 0xC10704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NamedIntListSettingsController::TextValuePair* New_ctor();

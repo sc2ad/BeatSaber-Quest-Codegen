@@ -49,19 +49,19 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker;
     // protected System.Void Start()
-    // Offset: 0x18F3200
+    // Offset: 0xB8C760
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x18F3288
+    // Offset: 0xB8C7E8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x18F335C
+    // Offset: 0xB8C8BC
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x18F3430
+    // Offset: 0xB8C990
     void HandleButtonClickEvent();
     // public System.Void .ctor()
-    // Offset: 0x18F3510
+    // Offset: 0xB8CA70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

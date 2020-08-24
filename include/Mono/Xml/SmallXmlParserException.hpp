@@ -20,7 +20,7 @@ namespace Mono::Xml {
     // Offset: 0x8C
     int column;
     // public System.Void .ctor(System.String msg, System.Int32 line, System.Int32 column)
-    // Offset: 0x1016C44
+    // Offset: 0x10BAD8C
     static SmallXmlParserException* New_ctor(::Il2CppString* msg, int line, int column);
   }; // Mono.Xml.SmallXmlParserException
 }

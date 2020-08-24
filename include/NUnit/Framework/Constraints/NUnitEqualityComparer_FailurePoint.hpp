@@ -29,7 +29,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x29
     bool ActualHasData;
     // public System.Void .ctor()
-    // Offset: 0xFDA720
+    // Offset: 0x107E868
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NUnitEqualityComparer::FailurePoint* New_ctor();

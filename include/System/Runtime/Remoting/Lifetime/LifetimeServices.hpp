@@ -46,34 +46,34 @@ namespace System::Runtime::Remoting::Lifetime {
     // Set static field: static private System.Runtime.Remoting.Lifetime.LeaseManager _leaseManager
     static void _set__leaseManager(System::Runtime::Remoting::Lifetime::LeaseManager* value);
     // static private System.Void .cctor()
-    // Offset: 0xFBF044
+    // Offset: 0x106318C
     static void _cctor();
     // static public System.TimeSpan get_LeaseManagerPollTime()
-    // Offset: 0xFBF140
+    // Offset: 0x1063288
     static System::TimeSpan get_LeaseManagerPollTime();
     // static public System.Void set_LeaseManagerPollTime(System.TimeSpan value)
-    // Offset: 0xFB9F24
+    // Offset: 0x105E06C
     static void set_LeaseManagerPollTime(System::TimeSpan value);
     // static public System.TimeSpan get_LeaseTime()
-    // Offset: 0xFBF1A8
+    // Offset: 0x10632F0
     static System::TimeSpan get_LeaseTime();
     // static public System.Void set_LeaseTime(System.TimeSpan value)
-    // Offset: 0xFBF210
+    // Offset: 0x1063358
     static void set_LeaseTime(System::TimeSpan value);
     // static public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0xFBF27C
+    // Offset: 0x10633C4
     static System::TimeSpan get_RenewOnCallTime();
     // static public System.Void set_RenewOnCallTime(System.TimeSpan value)
-    // Offset: 0xFBF2E4
+    // Offset: 0x106342C
     static void set_RenewOnCallTime(System::TimeSpan value);
     // static public System.TimeSpan get_SponsorshipTimeout()
-    // Offset: 0xFBF350
+    // Offset: 0x1063498
     static System::TimeSpan get_SponsorshipTimeout();
     // static public System.Void set_SponsorshipTimeout(System.TimeSpan value)
-    // Offset: 0xFBF3B8
+    // Offset: 0x1063500
     static void set_SponsorshipTimeout(System::TimeSpan value);
     // static System.Void TrackLifetime(System.Runtime.Remoting.ServerIdentity identity)
-    // Offset: 0xFBF424
+    // Offset: 0x106356C
     static void TrackLifetime(System::Runtime::Remoting::ServerIdentity* identity);
   }; // System.Runtime.Remoting.Lifetime.LifetimeServices
 }

@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Vector3 positionOffset;
     // protected System.Void Start()
-    // Offset: 0x18EC09C
+    // Offset: 0xB855FC
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x18EC1B0
+    // Offset: 0xB85710
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

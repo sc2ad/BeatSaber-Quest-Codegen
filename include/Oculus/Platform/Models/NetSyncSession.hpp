@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x30
     ::Il2CppString* VoipGroup;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE05BB0
+    // Offset: 0xEAACF8
     static NetSyncSession* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.NetSyncSession
 }

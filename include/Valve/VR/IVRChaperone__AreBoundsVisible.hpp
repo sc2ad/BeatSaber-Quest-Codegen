@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRChaperone::_AreBoundsVisible : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF45C38
+    // Offset: 0xFEAD80
     static IVRChaperone::_AreBoundsVisible* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0xF3EE70
+    // Offset: 0xFE3FB8
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF45C4C
+    // Offset: 0xFEAD94
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF45C78
+    // Offset: 0xFEADC0
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_AreBoundsVisible
 }

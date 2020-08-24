@@ -20,22 +20,22 @@ namespace JetBrains::Annotations {
     // Offset: 0x18
     bool ForceFullStates;
     // public System.Void .ctor(System.String contract)
-    // Offset: 0x18B4084
+    // Offset: 0x19611CC
     static ContractAnnotationAttribute* New_ctor(::Il2CppString* contract);
     // public System.Void .ctor(System.String contract, System.Boolean forceFullStates)
-    // Offset: 0x18B40C0
+    // Offset: 0x1961208
     static ContractAnnotationAttribute* New_ctor(::Il2CppString* contract, bool forceFullStates);
     // public System.String get_Contract()
-    // Offset: 0x18B410C
+    // Offset: 0x1961254
     ::Il2CppString* get_Contract();
     // private System.Void set_Contract(System.String value)
-    // Offset: 0x18B4114
+    // Offset: 0x196125C
     void set_Contract(::Il2CppString* value);
     // public System.Boolean get_ForceFullStates()
-    // Offset: 0x18B411C
+    // Offset: 0x1961264
     bool get_ForceFullStates();
     // private System.Void set_ForceFullStates(System.Boolean value)
-    // Offset: 0x18B4124
+    // Offset: 0x196126C
     void set_ForceFullStates(bool value);
   }; // JetBrains.Annotations.ContractAnnotationAttribute
 }

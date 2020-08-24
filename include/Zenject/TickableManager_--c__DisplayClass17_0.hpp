@@ -35,10 +35,10 @@ namespace Zenject {
     // Offset: 0x10
     Zenject::IFixedTickable* tickable;
     // System.Boolean <InitFixedTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0xF30700
+    // Offset: 0xFD5848
     bool $InitFixedTickables$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0xF302E4
+    // Offset: 0xFD542C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TickableManager::$$c__DisplayClass17_0* New_ctor();

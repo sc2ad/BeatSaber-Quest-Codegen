@@ -17,7 +17,7 @@ namespace System::Diagnostics {
     // Offset: 0x10
     ::Il2CppString* m_conditionString;
     // public System.Void .ctor(System.String conditionString)
-    // Offset: 0xBF2000
+    // Offset: 0xC95148
     static ConditionalAttribute* New_ctor(::Il2CppString* conditionString);
   }; // System.Diagnostics.ConditionalAttribute
 }

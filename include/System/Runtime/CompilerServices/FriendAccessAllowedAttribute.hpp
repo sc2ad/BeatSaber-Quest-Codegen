@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices {
   class FriendAccessAllowedAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x10C495C
+    // Offset: 0x1166AA4
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

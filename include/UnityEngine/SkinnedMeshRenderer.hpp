@@ -23,13 +23,13 @@ namespace UnityEngine {
   class SkinnedMeshRenderer : public UnityEngine::Renderer {
     public:
     // public System.Void set_updateWhenOffscreen(System.Boolean value)
-    // Offset: 0x12EB26C
+    // Offset: 0x13923B4
     void set_updateWhenOffscreen(bool value);
     // public System.Void set_bones(UnityEngine.Transform[] value)
-    // Offset: 0x12EB2BC
+    // Offset: 0x1392404
     void set_bones(::Array<UnityEngine::Transform*>* value);
     // public System.Void set_sharedMesh(UnityEngine.Mesh value)
-    // Offset: 0x12EB30C
+    // Offset: 0x1392454
     void set_sharedMesh(UnityEngine::Mesh* value);
   }; // UnityEngine.SkinnedMeshRenderer
 }

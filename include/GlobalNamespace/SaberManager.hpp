@@ -35,22 +35,22 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     GlobalNamespace::SaberType oneSaberType;
     // protected System.Void Update()
-    // Offset: 0xB9C648
+    // Offset: 0xC28A00
     void Update();
     // protected System.Void OnDisable()
-    // Offset: 0xB9C6C4
+    // Offset: 0xC28A7C
     void OnDisable();
     // protected System.Void OnEnable()
-    // Offset: 0xB9C7DC
+    // Offset: 0xC28B94
     void OnEnable();
     // public System.Void AllowOnlyOneSaber(SaberType saberType)
-    // Offset: 0xB9C7E0
+    // Offset: 0xC28B98
     void AllowOnlyOneSaber(GlobalNamespace::SaberType saberType);
     // private System.Void RefreshSabers()
-    // Offset: 0xB9C6C8
+    // Offset: 0xC28A80
     void RefreshSabers();
     // public System.Void .ctor()
-    // Offset: 0xB9C7F0
+    // Offset: 0xC28BA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

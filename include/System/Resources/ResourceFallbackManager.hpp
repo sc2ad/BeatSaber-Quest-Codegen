@@ -46,13 +46,13 @@ namespace System::Resources {
     // Offset: 0x20
     bool m_useParents;
     // System.Void .ctor(System.Globalization.CultureInfo startingCulture, System.Globalization.CultureInfo neutralResourcesCulture, System.Boolean useParents)
-    // Offset: 0x10BACA4
+    // Offset: 0x115CDEC
     static ResourceFallbackManager* New_ctor(System::Globalization::CultureInfo* startingCulture, System::Globalization::CultureInfo* neutralResourcesCulture, bool useParents);
     // public System.Collections.Generic.IEnumerator`1<System.Globalization.CultureInfo> GetEnumerator()
-    // Offset: 0x10BAD74
+    // Offset: 0x115CEBC
     System::Collections::Generic::IEnumerator_1<System::Globalization::CultureInfo*>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x10BAD70
+    // Offset: 0x115CEB8
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

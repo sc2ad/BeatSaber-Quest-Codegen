@@ -34,22 +34,22 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Int32 lastIdentity
     static void _set_lastIdentity(int value);
     // static System.Void ReserveEventIDsBelow(System.Int32 eventId)
-    // Offset: 0xCF966C
+    // Offset: 0xD9D7B4
     static void ReserveEventIDsBelow(int eventId);
     // public System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Int32 typeMetadataSize)
-    // Offset: 0xCF9744
+    // Offset: 0xD9D88C
     static NameInfo* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, int typeMetadataSize);
     // public System.Int32 Compare(System.Diagnostics.Tracing.NameInfo other)
-    // Offset: 0xCF99D8
+    // Offset: 0xD9DB20
     int Compare(System::Diagnostics::Tracing::NameInfo* other);
     // public System.Int32 Compare(System.Collections.Generic.KeyValuePair`2<System.String,System.Diagnostics.Tracing.EventTags> key)
-    // Offset: 0xCF9AEC
+    // Offset: 0xD9DC34
     int Compare(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Diagnostics::Tracing::EventTags> key);
     // private System.Int32 Compare(System.String otherName, System.Diagnostics.Tracing.EventTags otherTags)
-    // Offset: 0xCF99F8
+    // Offset: 0xD9DB40
     int Compare(::Il2CppString* otherName, System::Diagnostics::Tracing::EventTags otherTags);
     // static private System.Void .cctor()
-    // Offset: 0xCF9B48
+    // Offset: 0xD9DC90
     static void _cctor();
   }; // System.Diagnostics.Tracing.NameInfo
 }

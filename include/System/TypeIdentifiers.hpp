@@ -21,7 +21,7 @@ namespace System {
     // Nested type: System::TypeIdentifiers::Display
     class Display;
     // static System.TypeIdentifier FromDisplay(System.String displayName)
-    // Offset: 0x16EEC58
+    // Offset: 0x1799DA0
     static System::TypeIdentifier* FromDisplay(::Il2CppString* displayName);
   }; // System.TypeIdentifiers
 }

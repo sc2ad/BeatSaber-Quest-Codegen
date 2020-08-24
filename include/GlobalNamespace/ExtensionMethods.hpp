@@ -41,10 +41,10 @@ namespace GlobalNamespace {
   class ExtensionMethods : public ::Il2CppObject {
     public:
     // static public System.Boolean ContainsLayer(UnityEngine.LayerMask layerMask, System.Int32 layer)
-    // Offset: 0xC0D75C
+    // Offset: 0xCB08A4
     static bool ContainsLayer(UnityEngine::LayerMask layerMask, int layer);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0xC0D798
+    // Offset: 0xCB08E0
     static UnityEngine::Coroutine* StartUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func, T value)
     // Offset: 0xFFFFFFFF
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::Coroutine*>("", "ExtensionMethods", "StartUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, m, func, value)));
     }
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0xC0D818
+    // Offset: 0xCB0960
     static void StopUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_1<System::Collections::IEnumerator*>* func);
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func)
     // Offset: 0xFFFFFFFF
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "ExtensionMethods", "StopUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, m, func));
     }
     // static public System.Boolean IsDescendantOf(UnityEngine.Transform transform, UnityEngine.Transform parent)
-    // Offset: 0xC0D868
+    // Offset: 0xCB09B0
     static bool IsDescendantOf(UnityEngine::Transform* transform, UnityEngine::Transform* parent);
   }; // ExtensionMethods
 }

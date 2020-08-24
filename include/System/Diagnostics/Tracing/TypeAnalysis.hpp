@@ -58,7 +58,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x30
     System::Diagnostics::Tracing::EventTags tags;
     // public System.Void .ctor(System.Type dataType, System.Diagnostics.Tracing.EventDataAttribute eventAttrib, System.Collections.Generic.List`1<System.Type> recursionCheck)
-    // Offset: 0xCFCC38
+    // Offset: 0xDA0D80
     static TypeAnalysis* New_ctor(System::Type* dataType, System::Diagnostics::Tracing::EventDataAttribute* eventAttrib, System::Collections::Generic::List_1<System::Type*>* recursionCheck);
   }; // System.Diagnostics.Tracing.TypeAnalysis
 }

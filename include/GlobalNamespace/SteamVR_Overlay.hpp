@@ -78,31 +78,31 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_Overlay <instance>k__BackingField
     static void _set_$instance$k__BackingField(GlobalNamespace::SteamVR_Overlay* value);
     // static public SteamVR_Overlay get_instance()
-    // Offset: 0xCE8BCC
+    // Offset: 0xD8CD14
     static GlobalNamespace::SteamVR_Overlay* get_instance();
     // static private System.Void set_instance(SteamVR_Overlay value)
-    // Offset: 0xCE8C1C
+    // Offset: 0xD8CD64
     static void set_instance(GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
-    // Offset: 0xCE5264
+    // Offset: 0xD893AC
     static ::Il2CppString* get_key();
     // private System.Void OnEnable()
-    // Offset: 0xCE8C74
+    // Offset: 0xD8CDBC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xCE8DC8
+    // Offset: 0xD8CF10
     void OnDisable();
     // public System.Void UpdateOverlay()
-    // Offset: 0xCE8E88
+    // Offset: 0xD8CFD0
     void UpdateOverlay();
     // public System.Boolean PollNextEvent(Valve.VR.VREvent_t pEvent)
-    // Offset: 0xCE92C4
+    // Offset: 0xD8D40C
     bool PollNextEvent(Valve::VR::VREvent_t& pEvent);
     // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, SteamVR_Overlay/IntersectionResults results)
-    // Offset: 0xCE93D0
+    // Offset: 0xD8D518
     bool ComputeIntersection(UnityEngine::Vector3 source, UnityEngine::Vector3 direction, GlobalNamespace::SteamVR_Overlay::IntersectionResults& results);
     // public System.Void .ctor()
-    // Offset: 0xCE958C
+    // Offset: 0xD8D6D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -45,19 +45,19 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Collections.Generic.List`1<System.WeakReference`1<System.Diagnostics.Tracing.EtwSession>> s_etwSessions
     static void _set_s_etwSessions(System::Collections::Generic::List_1<System::WeakReference_1<System::Diagnostics::Tracing::EtwSession*>*>* value);
     // static public System.Diagnostics.Tracing.EtwSession GetEtwSession(System.Int32 etwSessionId, System.Boolean bCreateIfNeeded)
-    // Offset: 0xBF7904
+    // Offset: 0xC9AA4C
     static System::Diagnostics::Tracing::EtwSession* GetEtwSession(int etwSessionId, bool bCreateIfNeeded);
     // static public System.Void RemoveEtwSession(System.Diagnostics.Tracing.EtwSession etwSession)
-    // Offset: 0xBF7D5C
+    // Offset: 0xC9AEA4
     static void RemoveEtwSession(System::Diagnostics::Tracing::EtwSession* etwSession);
     // static private System.Void TrimGlobalList()
-    // Offset: 0xBF7C04
+    // Offset: 0xC9AD4C
     static void TrimGlobalList();
     // private System.Void .ctor(System.Int32 etwSessionId)
-    // Offset: 0xBF7BD8
+    // Offset: 0xC9AD20
     static EtwSession* New_ctor(int etwSessionId);
     // static private System.Void .cctor()
-    // Offset: 0xBF7ECC
+    // Offset: 0xC9B014
     static void _cctor();
   }; // System.Diagnostics.Tracing.EtwSession
 }

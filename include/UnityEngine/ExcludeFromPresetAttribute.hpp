@@ -14,7 +14,7 @@ namespace UnityEngine {
   class ExcludeFromPresetAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x126AC0C
+    // Offset: 0x1310D54
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

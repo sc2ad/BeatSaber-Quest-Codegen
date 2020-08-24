@@ -44,24 +44,24 @@ namespace UnityEngine::TestTools::Logging {
     // Offset: 0x28
     ::Il2CppString* m_LogType;
     // public System.String get_Message()
-    // Offset: 0xD9D7D8
+    // Offset: 0xE42920
     ::Il2CppString* get_Message();
     // public System.Text.RegularExpressions.Regex get_MessageRegex()
-    // Offset: 0xD9D7E0
+    // Offset: 0xE42928
     System::Text::RegularExpressions::Regex* get_MessageRegex();
     // public System.Nullable`1<UnityEngine.LogType> get_LogType()
-    // Offset: 0xD9D858
+    // Offset: 0xE429A0
     System::Nullable_1<UnityEngine::LogType> get_LogType();
     // public System.Boolean Matches(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0xD9D974
+    // Offset: 0xE42ABC
     bool Matches(UnityEngine::TestTools::Logging::LogEvent* log);
     // public override System.String ToString()
-    // Offset: 0xD9DA4C
+    // Offset: 0xE42B94
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0xD9DB14
+    // Offset: 0xE42C5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LogMatch* New_ctor();

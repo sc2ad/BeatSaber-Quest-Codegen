@@ -29,13 +29,13 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Threading.WaitCallback <>9__27_0
     static void _set_$$9__27_0(System::Threading::WaitCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1174DA8
+    // Offset: 0x1218EF0
     static void _cctor();
     // System.Void <Complete>b__27_0(System.Object state)
-    // Offset: 0x1174E18
+    // Offset: 0x1218F60
     void $Complete$b__27_0(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0x1174E10
+    // Offset: 0x1218F58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SocketAsyncResult::$$c* New_ctor();

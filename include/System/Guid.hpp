@@ -93,108 +93,108 @@ namespace System {
     // Creating value type constructor for type: Guid
     Guid(int a_ = {}, int16_t b_ = {}, int16_t c_ = {}, uint8_t d_ = {}, uint8_t e_ = {}, uint8_t f_ = {}, uint8_t g_ = {}, uint8_t h_ = {}, uint8_t i_ = {}, uint8_t j_ = {}, uint8_t k_ = {}) : a{a_}, b{b_}, c{c_}, d{d_}, e{e_}, f{f_}, g{g_}, h{h_}, i{i_}, j{j_}, k{k_} {}
     // public System.Void .ctor(System.Byte[] b)
-    // Offset: 0x9A7160
+    // Offset: 0xA417D8
     static Guid* New_ctor(::Array<uint8_t>* b);
     // public System.Void .ctor(System.UInt32 a, System.UInt16 b, System.UInt16 c, System.Byte d, System.Byte e, System.Byte f, System.Byte g, System.Byte h, System.Byte i, System.Byte j, System.Byte k)
-    // Offset: 0x9A7168
+    // Offset: 0xA417E0
     static Guid* New_ctor(uint a, uint16_t b, uint16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte d, System.Byte e, System.Byte f, System.Byte g, System.Byte h, System.Byte i, System.Byte j, System.Byte k)
-    // Offset: 0x9A71A8
+    // Offset: 0xA41820
     static Guid* New_ctor(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
     // public System.Void .ctor(System.String g)
-    // Offset: 0x9A71E8
+    // Offset: 0xA41860
     static Guid* New_ctor(::Il2CppString* g);
     // static public System.Guid Parse(System.String input)
-    // Offset: 0x10877D8
+    // Offset: 0x1129920
     static System::Guid Parse(::Il2CppString* input);
     // static public System.Boolean TryParse(System.String input, System.Guid result)
-    // Offset: 0x10878E0
+    // Offset: 0x1129A28
     static bool TryParse(::Il2CppString* input, System::Guid& result);
     // static private System.Boolean TryParseGuid(System.String g, System.Guid/GuidStyles flags, System.Guid/GuidResult result)
-    // Offset: 0x10873B0
+    // Offset: 0x11294F8
     static bool TryParseGuid(::Il2CppString* g, System::Guid::GuidStyles flags, System::Guid::GuidResult& result);
     // static private System.Boolean TryParseGuidWithHexPrefix(System.String guidString, System.Guid/GuidResult result)
-    // Offset: 0x1087D54
+    // Offset: 0x1129E9C
     static bool TryParseGuidWithHexPrefix(::Il2CppString* guidString, System::Guid::GuidResult& result);
     // static private System.Boolean TryParseGuidWithNoStyle(System.String guidString, System.Guid/GuidResult result)
-    // Offset: 0x10882D8
+    // Offset: 0x112A420
     static bool TryParseGuidWithNoStyle(::Il2CppString* guidString, System::Guid::GuidResult& result);
     // static private System.Boolean TryParseGuidWithDashes(System.String guidString, System.Guid/GuidResult result)
-    // Offset: 0x10879E0
+    // Offset: 0x1129B28
     static bool TryParseGuidWithDashes(::Il2CppString* guidString, System::Guid::GuidResult& result);
     // static private System.Boolean StringToShort(System.String str, System.Int32 requiredLength, System.Int32 flags, System.Int16 result, System.Guid/GuidResult parseResult)
-    // Offset: 0x10889B0
+    // Offset: 0x112AAF8
     static bool StringToShort(::Il2CppString* str, int requiredLength, int flags, int16_t& result, System::Guid::GuidResult& parseResult);
     // static private System.Boolean StringToShort(System.String str, System.Int32* parsePos, System.Int32 requiredLength, System.Int32 flags, System.Int16 result, System.Guid/GuidResult parseResult)
-    // Offset: 0x1088B80
+    // Offset: 0x112ACC8
     static bool StringToShort(::Il2CppString* str, int* parsePos, int requiredLength, int flags, int16_t& result, System::Guid::GuidResult& parseResult);
     // static private System.Boolean StringToInt(System.String str, System.Int32 requiredLength, System.Int32 flags, System.Int32 result, System.Guid/GuidResult parseResult)
-    // Offset: 0x1088918
+    // Offset: 0x112AA60
     static bool StringToInt(::Il2CppString* str, int requiredLength, int flags, int& result, System::Guid::GuidResult& parseResult);
     // static private System.Boolean StringToInt(System.String str, System.Int32 parsePos, System.Int32 requiredLength, System.Int32 flags, System.Int32 result, System.Guid/GuidResult parseResult)
-    // Offset: 0x1088ADC
+    // Offset: 0x112AC24
     static bool StringToInt(::Il2CppString* str, int& parsePos, int requiredLength, int flags, int& result, System::Guid::GuidResult& parseResult);
     // static private System.Boolean StringToInt(System.String str, System.Int32* parsePos, System.Int32 requiredLength, System.Int32 flags, System.Int32 result, System.Guid/GuidResult parseResult)
-    // Offset: 0x1088C3C
+    // Offset: 0x112AD84
     static bool StringToInt(::Il2CppString* str, int* parsePos, int requiredLength, int flags, int& result, System::Guid::GuidResult& parseResult);
     // static private System.Boolean StringToLong(System.String str, System.Int32 parsePos, System.Int32 flags, System.Int64 result, System.Guid/GuidResult parseResult)
-    // Offset: 0x1088A48
+    // Offset: 0x112AB90
     static bool StringToLong(::Il2CppString* str, int& parsePos, int flags, int64_t& result, System::Guid::GuidResult& parseResult);
     // static private System.Boolean StringToLong(System.String str, System.Int32* parsePos, System.Int32 flags, System.Int64 result, System.Guid/GuidResult parseResult)
-    // Offset: 0x1088E64
+    // Offset: 0x112AFAC
     static bool StringToLong(::Il2CppString* str, int* parsePos, int flags, int64_t& result, System::Guid::GuidResult& parseResult);
     // static private System.String EatAllWhitespace(System.String str)
-    // Offset: 0x10886E4
+    // Offset: 0x112A82C
     static ::Il2CppString* EatAllWhitespace(::Il2CppString* str);
     // static private System.Boolean IsHexPrefix(System.String str, System.Int32 i)
-    // Offset: 0x10887FC
+    // Offset: 0x112A944
     static bool IsHexPrefix(::Il2CppString* str, int i);
     // public System.Byte[] ToByteArray()
-    // Offset: 0x9A71F0
+    // Offset: 0xA41868
     ::Array<uint8_t>* ToByteArray();
     // private System.Int32 GetResult(System.UInt32 me, System.UInt32 them)
-    // Offset: 0x9A7238
+    // Offset: 0xA418B0
     int GetResult(uint me, uint them);
     // public System.String ToString(System.String format)
-    // Offset: 0x9A7258
+    // Offset: 0xA418D0
     ::Il2CppString* ToString(::Il2CppString* format);
     // static private System.Char HexToChar(System.Int32 a)
-    // Offset: 0x1089D24
+    // Offset: 0x112BE6C
     static ::Il2CppChar HexToChar(int a);
     // static private System.Int32 HexsToChars(System.Char* guidChars, System.Int32 offset, System.Int32 a, System.Int32 b)
-    // Offset: 0x1089D40
+    // Offset: 0x112BE88
     static int HexsToChars(::Il2CppChar* guidChars, int offset, int a, int b);
     // static private System.Int32 HexsToChars(System.Char* guidChars, System.Int32 offset, System.Int32 a, System.Int32 b, System.Boolean hex)
-    // Offset: 0x1089DD0
+    // Offset: 0x112BF18
     static int HexsToChars(::Il2CppChar* guidChars, int offset, int a, int b, bool hex);
     // static public System.Guid NewGuid()
-    // Offset: 0x1089F34
+    // Offset: 0x112C07C
     static System::Guid NewGuid();
     // static private System.Void .cctor()
-    // Offset: 0x108A110
+    // Offset: 0x112C258
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x9A71F8
+    // Offset: 0xA41870
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x9A7200
+    // Offset: 0xA41878
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x9A7228
+    // Offset: 0xA418A0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public System.Boolean Equals(System.Guid g)
-    // Offset: 0x9A7230
+    // Offset: 0xA418A8
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(System.Guid g)
     bool Equals(System::Guid g);
     // public System.Int32 CompareTo(System.Object value)
-    // Offset: 0x9A7248
+    // Offset: 0xA418C0
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object value)
     int CompareTo(::Il2CppObject* value);
@@ -202,21 +202,21 @@ namespace System {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.Guid value)
-    // Offset: 0x9A7250
+    // Offset: 0xA418C8
     // Implemented from: System.IComparable`1
     // Base method: System.Int32 IComparable`1::CompareTo(System.Guid value)
     int CompareTo(System::Guid value);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
-    // Offset: 0x9A7260
+    // Offset: 0xA418D8
     // Implemented from: System.IFormattable
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
   }; // System.Guid
   // static public System.Boolean op_Equality(System.Guid a, System.Guid b)
-  // Offset: 0x1089BDC
+  // Offset: 0x112BD24
   bool operator ==(const System::Guid& a, const System::Guid& b);
   // static public System.Boolean op_Inequality(System.Guid a, System.Guid b)
-  // Offset: 0x1089C88
+  // Offset: 0x112BDD0
   bool operator !=(const System::Guid& a, const System::Guid& b);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

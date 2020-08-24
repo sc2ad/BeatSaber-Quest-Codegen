@@ -89,37 +89,37 @@ namespace UnityEngine::UI {
     // Offset: 0x29
     UnityEngine::DrivenRectTransformTracker m_Tracker;
     // public UnityEngine.UI.AspectRatioFitter/AspectMode get_aspectMode()
-    // Offset: 0xD60DF4
+    // Offset: 0xE05F3C
     UnityEngine::UI::AspectRatioFitter::AspectMode get_aspectMode();
     // public System.Void set_aspectMode(UnityEngine.UI.AspectRatioFitter/AspectMode value)
-    // Offset: 0xD60DFC
+    // Offset: 0xE05F44
     void set_aspectMode(UnityEngine::UI::AspectRatioFitter::AspectMode value);
     // public System.Single get_aspectRatio()
-    // Offset: 0xD60E7C
+    // Offset: 0xE05FC4
     float get_aspectRatio();
     // public System.Void set_aspectRatio(System.Single value)
-    // Offset: 0xD60E84
+    // Offset: 0xE05FCC
     void set_aspectRatio(float value);
     // private UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0xD60F00
+    // Offset: 0xE06048
     UnityEngine::RectTransform* get_rectTransform();
     // protected System.Void Update()
-    // Offset: 0xD61044
+    // Offset: 0xE0618C
     void Update();
     // private System.Void UpdateRect()
-    // Offset: 0xD6105C
+    // Offset: 0xE061A4
     void UpdateRect();
     // private System.Single GetSizeDeltaToProduceSize(System.Single size, System.Int32 axis)
-    // Offset: 0xD61414
+    // Offset: 0xE0655C
     float GetSizeDeltaToProduceSize(float size, int axis);
     // private UnityEngine.Vector2 GetParentSize()
-    // Offset: 0xD6130C
+    // Offset: 0xE06454
     UnityEngine::Vector2 GetParentSize();
     // protected System.Void SetDirty()
-    // Offset: 0xD60E78
+    // Offset: 0xE05FC0
     void SetDirty();
     // protected System.Void .ctor()
-    // Offset: 0xD60FAC
+    // Offset: 0xE060F4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -129,27 +129,27 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static AspectRatioFitter* New_ctor();
     // protected override System.Void OnEnable()
-    // Offset: 0xD60FBC
+    // Offset: 0xE06104
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xD60FC0
+    // Offset: 0xE06108
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0xD61058
+    // Offset: 0xE061A0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0xD614C8
+    // Offset: 0xE06610
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0xD614CC
+    // Offset: 0xE06614
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();

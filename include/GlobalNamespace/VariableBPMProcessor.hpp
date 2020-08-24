@@ -22,16 +22,16 @@ namespace GlobalNamespace {
     // Offset: 0x10
     float currentBPM;
     // public System.Single get_currentBPM()
-    // Offset: 0x196FDC0
+    // Offset: 0xC55B80
     float get_currentBPM();
     // public System.Void SetBPM(System.Single newBPM)
-    // Offset: 0x196FDC8
+    // Offset: 0xC55B88
     void SetBPM(float newBPM);
     // public System.Boolean ProcessBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x196FDD0
+    // Offset: 0xC55B90
     bool ProcessBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x196FE20
+    // Offset: 0xC55BE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VariableBPMProcessor* New_ctor();

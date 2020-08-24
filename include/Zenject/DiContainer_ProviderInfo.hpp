@@ -35,7 +35,7 @@ namespace Zenject {
     // Offset: 0x28
     Zenject::BindingCondition* Condition;
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingCondition condition, System.Boolean nonLazy, Zenject.DiContainer container)
-    // Offset: 0xE8A4E8
+    // Offset: 0xF2F630
     static DiContainer::ProviderInfo* New_ctor(Zenject::IProvider* provider, Zenject::BindingCondition* condition, bool nonLazy, Zenject::DiContainer* container);
   }; // Zenject.DiContainer/ProviderInfo
 }

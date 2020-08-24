@@ -36,25 +36,25 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::IO::FileStream* fileStream;
     // protected System.Void Awake()
-    // Offset: 0xC0AF2C
+    // Offset: 0xCAE074
     void Awake();
     // protected System.Void Update()
-    // Offset: 0xC0AF64
+    // Offset: 0xCAE0AC
     void Update();
     // private System.Void StartWriting(System.String name)
-    // Offset: 0xC0B014
+    // Offset: 0xCAE15C
     void StartWriting(::Il2CppString* name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0xC0B4BC
+    // Offset: 0xCAE604
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // private System.Void ConvertAndWrite(System.Single[] dataSource)
-    // Offset: 0xC0B4CC
+    // Offset: 0xCAE614
     void ConvertAndWrite(::Array<float>* dataSource);
     // private System.Void WriteHeader()
-    // Offset: 0xC0B0D8
+    // Offset: 0xCAE220
     void WriteHeader();
     // public System.Void .ctor()
-    // Offset: 0xC0B668
+    // Offset: 0xCAE7B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,24 +29,24 @@ namespace System {
     // Creating value type constructor for type: ConsoleKeyInfo
     ConsoleKeyInfo(::Il2CppChar keyChar_ = {}, System::ConsoleKey key_ = {}, System::ConsoleModifiers mods_ = {}) : keyChar{keyChar_}, key{key_}, mods{mods_} {}
     // public System.Void .ctor(System.Char keyChar, System.ConsoleKey key, System.Boolean shift, System.Boolean alt, System.Boolean control)
-    // Offset: 0x9A6508
+    // Offset: 0xA40B80
     static ConsoleKeyInfo* New_ctor(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control);
     // public System.Char get_KeyChar()
-    // Offset: 0x9A651C
+    // Offset: 0xA40B94
     ::Il2CppChar get_KeyChar();
     // public System.ConsoleKey get_Key()
-    // Offset: 0x9A6524
+    // Offset: 0xA40B9C
     System::ConsoleKey get_Key();
     // public System.Boolean Equals(System.ConsoleKeyInfo obj)
-    // Offset: 0x9A6534
+    // Offset: 0xA40BAC
     bool Equals(System::ConsoleKeyInfo obj);
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x9A652C
+    // Offset: 0xA40BA4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x9A6568
+    // Offset: 0xA40BE0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

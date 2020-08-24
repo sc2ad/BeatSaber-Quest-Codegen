@@ -47,43 +47,43 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::EnvironmentInfoSO* environmentInfo;
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0xB3EF24
+    // Offset: 0xB3EF38
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0xB3EF2C
+    // Offset: 0xB3EF40
     void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0xB3EF34
+    // Offset: 0xB3EF48
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0xB3EF3C
+    // Offset: 0xB3EF50
     void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0xB3EF44
+    // Offset: 0xB3EF58
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // private System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
-    // Offset: 0xB3EF4C
+    // Offset: 0xB3EF60
     void set_playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0xB3EF54
+    // Offset: 0xB3EF68
     GlobalNamespace::PracticeSettings* get_practiceSettings();
     // private System.Void set_practiceSettings(PracticeSettings value)
-    // Offset: 0xB3EF5C
+    // Offset: 0xB3EF70
     void set_practiceSettings(GlobalNamespace::PracticeSettings* value);
     // public System.Boolean get_useTestNoteCutSoundEffects()
-    // Offset: 0xB3EF64
+    // Offset: 0xB3EF78
     bool get_useTestNoteCutSoundEffects();
     // private System.Void set_useTestNoteCutSoundEffects(System.Boolean value)
-    // Offset: 0xB3EF6C
+    // Offset: 0xB3EF80
     void set_useTestNoteCutSoundEffects(bool value);
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0xB3EF78
+    // Offset: 0xB3EF8C
     GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // private System.Void set_environmentInfo(EnvironmentInfoSO value)
-    // Offset: 0xB3EF80
+    // Offset: 0xB3EF94
     void set_environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects, EnvironmentInfoSO environmentInfo)
-    // Offset: 0xB3EF88
+    // Offset: 0xB3EF9C
     static GameplayCoreSceneSetupData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO* environmentInfo);
   }; // GameplayCoreSceneSetupData
 }

@@ -71,19 +71,19 @@ namespace GlobalNamespace {
     // Offset: 0x58
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // protected System.Void Start()
-    // Offset: 0x194AAC8
+    // Offset: 0xC0538C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x194ABB0
+    // Offset: 0xC05474
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x194ACA8
+    // Offset: 0xC0556C
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0x194ACD4
+    // Offset: 0xC05598
     System::Collections::IEnumerator* LevelFailedCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x194AD7C
+    // Offset: 0xC05640
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

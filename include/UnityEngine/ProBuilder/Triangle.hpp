@@ -42,38 +42,38 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: Triangle
     Triangle(int m_A_ = {}, int m_B_ = {}, int m_C_ = {}) : m_A{m_A_}, m_B{m_B_}, m_C{m_C_} {}
     // public System.Int32 get_a()
-    // Offset: 0x9BE1B8
+    // Offset: 0xA57830
     int get_a();
     // public System.Int32 get_b()
-    // Offset: 0x9BE1C0
+    // Offset: 0xA57838
     int get_b();
     // public System.Int32 get_c()
-    // Offset: 0x9BE1C8
+    // Offset: 0xA57840
     int get_c();
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indices()
-    // Offset: 0x9BE1D0
+    // Offset: 0xA57848
     System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0x9BE1D8
+    // Offset: 0xA57850
     static Triangle* New_ctor(int a, int b, int c);
     // public System.Boolean IsAdjacent(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0x9BE240
+    // Offset: 0xA578B8
     bool IsAdjacent(UnityEngine::ProBuilder::Triangle other);
     // private System.Boolean ContainsEdge(UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x9BE24C
+    // Offset: 0xA578C4
     bool ContainsEdge(UnityEngine::ProBuilder::Edge edge);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0x9BE1E4
+    // Offset: 0xA5785C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.ProBuilder.Triangle other)
     bool Equals(UnityEngine::ProBuilder::Triangle other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x9BE218
+    // Offset: 0xA57890
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x9BE220
+    // Offset: 0xA57898
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

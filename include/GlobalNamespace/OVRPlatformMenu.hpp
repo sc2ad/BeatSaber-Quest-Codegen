@@ -71,22 +71,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
     static void _set_sceneStack(System::Collections::Generic::Stack_1<::Il2CppString*>* value);
     // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
-    // Offset: 0xE52818
+    // Offset: 0xEF7960
     GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();
     // private System.Void Awake()
-    // Offset: 0xE52890
+    // Offset: 0xEF79D8
     void Awake();
     // private System.Void ShowConfirmQuitMenu()
-    // Offset: 0xE529DC
+    // Offset: 0xEF7B24
     void ShowConfirmQuitMenu();
     // static private System.Boolean RetreatOneLevel()
-    // Offset: 0xE52AB0
+    // Offset: 0xEF7BF8
     static bool RetreatOneLevel();
     // private System.Void Update()
-    // Offset: 0xE52B78
+    // Offset: 0xEF7CC0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0xE52BF0
+    // Offset: 0xEF7D38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRPlatformMenu* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xE52C00
+    // Offset: 0xEF7D48
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

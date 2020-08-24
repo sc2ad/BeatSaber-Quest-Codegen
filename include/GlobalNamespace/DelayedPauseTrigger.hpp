@@ -43,22 +43,22 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // public System.Void add_pauseTriggeredEvent(System.Action value)
-    // Offset: 0x192B1C8
+    // Offset: 0xBE6A8C
     // Implemented from: IPauseTrigger
     // Base method: System.Void IPauseTrigger::add_pauseTriggeredEvent(System.Action value)
     void add_pauseTriggeredEvent(System::Action* value);
     // public System.Void remove_pauseTriggeredEvent(System.Action value)
-    // Offset: 0x192B26C
+    // Offset: 0xBE6B30
     // Implemented from: IPauseTrigger
     // Base method: System.Void IPauseTrigger::remove_pauseTriggeredEvent(System.Action value)
     void remove_pauseTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0x192B310
+    // Offset: 0xBE6BD4
     // Implemented from: Zenject.ITickable
     // Base method: System.Void ITickable::Tick()
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x192B3A0
+    // Offset: 0xBE6C64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DelayedPauseTrigger* New_ctor();

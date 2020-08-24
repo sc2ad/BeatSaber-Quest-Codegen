@@ -81,27 +81,27 @@ namespace GlobalNamespace {
     // Offset: 0x64
     float maxDistance;
     // protected System.Void Awake()
-    // Offset: 0x192CAD4
+    // Offset: 0xBE8398
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x192CC4C
+    // Offset: 0xBE8510
     void OnDestroy();
     // private System.Void HandleNoteMovementDidInit()
-    // Offset: 0x192CFD8
+    // Offset: 0xBE889C
     void HandleNoteMovementDidInit();
     // private System.Void HandleColorNoteVisualsDidInitEvent(ColorNoteVisuals colorNoteVisuals, NoteController noteController)
-    // Offset: 0x192D0E8
+    // Offset: 0xBE89AC
     void HandleColorNoteVisualsDidInitEvent(GlobalNamespace::ColorNoteVisuals* colorNoteVisuals, GlobalNamespace::NoteController* noteController);
     // private System.Void SetArrowTransparency(System.Single arrowTransparency)
-    // Offset: 0x192CE40
+    // Offset: 0xBE8704
     void SetArrowTransparency(float arrowTransparency);
     // public System.Void ManualUpdate()
-    // Offset: 0x192CD9C
+    // Offset: 0xBE8660
     // Implemented from: IManualUpdate
     // Base method: System.Void IManualUpdate::ManualUpdate()
     void ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x192D258
+    // Offset: 0xBE8B1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

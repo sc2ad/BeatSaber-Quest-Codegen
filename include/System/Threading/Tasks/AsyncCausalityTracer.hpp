@@ -25,22 +25,22 @@ namespace System::Threading::Tasks {
   class AsyncCausalityTracer : public ::Il2CppObject {
     public:
     // static System.Boolean get_LoggingOn()
-    // Offset: 0xC3A824
+    // Offset: 0xCDE96C
     static bool get_LoggingOn();
     // static System.Void TraceOperationCreation(System.Threading.Tasks.CausalityTraceLevel traceLevel, System.Int32 taskId, System.String operationName, System.UInt64 relatedContext)
-    // Offset: 0xC3A82C
+    // Offset: 0xCDE974
     static void TraceOperationCreation(System::Threading::Tasks::CausalityTraceLevel traceLevel, int taskId, ::Il2CppString* operationName, uint64_t relatedContext);
     // static System.Void TraceOperationCompletion(System.Threading.Tasks.CausalityTraceLevel traceLevel, System.Int32 taskId, System.Threading.Tasks.AsyncCausalityStatus status)
-    // Offset: 0xC3A830
+    // Offset: 0xCDE978
     static void TraceOperationCompletion(System::Threading::Tasks::CausalityTraceLevel traceLevel, int taskId, System::Threading::Tasks::AsyncCausalityStatus status);
     // static System.Void TraceOperationRelation(System.Threading.Tasks.CausalityTraceLevel traceLevel, System.Int32 taskId, System.Threading.Tasks.CausalityRelation relation)
-    // Offset: 0xC3A834
+    // Offset: 0xCDE97C
     static void TraceOperationRelation(System::Threading::Tasks::CausalityTraceLevel traceLevel, int taskId, System::Threading::Tasks::CausalityRelation relation);
     // static System.Void TraceSynchronousWorkStart(System.Threading.Tasks.CausalityTraceLevel traceLevel, System.Int32 taskId, System.Threading.Tasks.CausalitySynchronousWork work)
-    // Offset: 0xC3A838
+    // Offset: 0xCDE980
     static void TraceSynchronousWorkStart(System::Threading::Tasks::CausalityTraceLevel traceLevel, int taskId, System::Threading::Tasks::CausalitySynchronousWork work);
     // static System.Void TraceSynchronousWorkCompletion(System.Threading.Tasks.CausalityTraceLevel traceLevel, System.Threading.Tasks.CausalitySynchronousWork work)
-    // Offset: 0xC3A83C
+    // Offset: 0xCDE984
     static void TraceSynchronousWorkCompletion(System::Threading::Tasks::CausalityTraceLevel traceLevel, System::Threading::Tasks::CausalitySynchronousWork work);
   }; // System.Threading.Tasks.AsyncCausalityTracer
 }

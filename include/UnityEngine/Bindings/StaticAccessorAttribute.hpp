@@ -22,16 +22,16 @@ namespace UnityEngine::Bindings {
     // Offset: 0x18
     UnityEngine::Bindings::StaticAccessorType Type;
     // public System.Void set_Name(System.String value)
-    // Offset: 0x18C71AC
+    // Offset: 0x19752F4
     void set_Name(::Il2CppString* value);
     // public System.Void set_Type(UnityEngine.Bindings.StaticAccessorType value)
-    // Offset: 0x18C71B4
+    // Offset: 0x19752FC
     void set_Type(UnityEngine::Bindings::StaticAccessorType value);
     // System.Void .ctor(System.String name)
-    // Offset: 0x18C71BC
+    // Offset: 0x1975304
     static StaticAccessorAttribute* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, UnityEngine.Bindings.StaticAccessorType type)
-    // Offset: 0x18C71F0
+    // Offset: 0x1975338
     static StaticAccessorAttribute* New_ctor(::Il2CppString* name, UnityEngine::Bindings::StaticAccessorType type);
   }; // UnityEngine.Bindings.StaticAccessorAttribute
 }

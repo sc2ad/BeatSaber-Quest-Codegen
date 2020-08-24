@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_ForceReconnectProcess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x146A134
+    // Offset: 0x151527C
     static IVRCompositor::_ForceReconnectProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x146A148
+    // Offset: 0x1515290
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x146A354
+    // Offset: 0x151549C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x146A380
+    // Offset: 0x15154C8
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_ForceReconnectProcess
 }

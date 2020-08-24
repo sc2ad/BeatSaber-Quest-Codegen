@@ -21,12 +21,12 @@ namespace System::Net::Configuration {
   class ConnectionManagementSection : public System::Configuration::ConfigurationSection {
     public:
     // public System.Void .ctor()
-    // Offset: 0xEC7B20
+    // Offset: 0xF6CC68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectionManagementSection* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0xEC7B60
+    // Offset: 0xF6CCA8
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

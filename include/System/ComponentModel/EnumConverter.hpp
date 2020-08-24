@@ -27,7 +27,7 @@ namespace System::ComponentModel {
     // Offset: 0x18
     System::Type* type;
     // public System.Void .ctor(System.Type type)
-    // Offset: 0xEB931C
+    // Offset: 0xF5E464
     static EnumConverter* New_ctor(System::Type* type);
   }; // System.ComponentModel.EnumConverter
 }

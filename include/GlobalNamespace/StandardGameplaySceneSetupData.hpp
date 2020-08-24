@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     ::Il2CppString* backButtonText;
     // public System.Void .ctor(System.Boolean autoRestart, System.String songName, System.String songSubName, System.String difficultyName, System.String backButtonText)
-    // Offset: 0x19032B8
+    // Offset: 0xB9D818
     static StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* difficultyName, ::Il2CppString* backButtonText);
   }; // StandardGameplaySceneSetupData
 }

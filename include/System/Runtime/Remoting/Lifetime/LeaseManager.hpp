@@ -40,22 +40,22 @@ namespace System::Runtime::Remoting::Lifetime {
     // Offset: 0x18
     System::Threading::Timer* timer;
     // public System.Void SetPollTime(System.TimeSpan timeSpan)
-    // Offset: 0xFBE5DC
+    // Offset: 0x1062724
     void SetPollTime(System::TimeSpan timeSpan);
     // public System.Void TrackLifetime(System.Runtime.Remoting.ServerIdentity identity)
-    // Offset: 0xFBE6A8
+    // Offset: 0x10627F0
     void TrackLifetime(System::Runtime::Remoting::ServerIdentity* identity);
     // public System.Void StartManager()
-    // Offset: 0xFBE7B4
+    // Offset: 0x10628FC
     void StartManager();
     // public System.Void StopManager()
-    // Offset: 0xFBE920
+    // Offset: 0x1062A68
     void StopManager();
     // public System.Void ManageLeases(System.Object state)
-    // Offset: 0xFBE960
+    // Offset: 0x1062AA8
     void ManageLeases(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0xFBEB90
+    // Offset: 0x1062CD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaseManager* New_ctor();

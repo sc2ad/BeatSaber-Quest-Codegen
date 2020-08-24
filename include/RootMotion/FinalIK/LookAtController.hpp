@@ -86,22 +86,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0x94
     bool lastSmoothTowardsTarget;
     // private System.Void Start()
-    // Offset: 0x118DDC8
+    // Offset: 0x1231F10
     void Start();
     // private System.Void LateUpdate()
-    // Offset: 0x118DFFC
+    // Offset: 0x1232144
     void LateUpdate();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x118DEB0
+    // Offset: 0x1231FF8
     UnityEngine::Vector3 get_pivot();
     // private System.Void ApplyMinDistance()
-    // Offset: 0x118E6BC
+    // Offset: 0x1232804
     void ApplyMinDistance();
     // private System.Void RootRotation()
-    // Offset: 0x118E858
+    // Offset: 0x12329A0
     void RootRotation();
     // public System.Void .ctor()
-    // Offset: 0x118EB74
+    // Offset: 0x1232CBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

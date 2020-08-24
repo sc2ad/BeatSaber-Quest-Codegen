@@ -21,7 +21,7 @@ namespace UnityEngine::Audio {
   class AudioPlayableGraphExtensions : public ::Il2CppObject {
     public:
     // static System.Boolean InternalCreateAudioOutput(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0x18B0D2C
+    // Offset: 0x195CE74
     static bool InternalCreateAudioOutput(UnityEngine::Playables::PlayableGraph& graph, ::Il2CppString* name, UnityEngine::Playables::PlayableOutputHandle& handle);
   }; // UnityEngine.Audio.AudioPlayableGraphExtensions
 }

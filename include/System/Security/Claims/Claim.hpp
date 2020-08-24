@@ -60,37 +60,37 @@ namespace System::Security::Claims {
     // Offset: 0x50
     System::Security::Claims::ClaimsIdentity* m_subject;
     // public System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0xD41B0C
+    // Offset: 0xDE6C54
     static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject);
     // System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject, System.String propertyKey, System.String propertyValue)
-    // Offset: 0xD41B30
+    // Offset: 0xDE6C78
     static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject, ::Il2CppString* propertyKey, ::Il2CppString* propertyValue);
     // protected System.Void .ctor(System.Security.Claims.Claim other, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0xD41EDC
+    // Offset: 0xDE7024
     static Claim* New_ctor(System::Security::Claims::Claim* other, System::Security::Claims::ClaimsIdentity* subject);
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xD42190
+    // Offset: 0xDE72D8
     void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context);
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Properties()
-    // Offset: 0xD41DCC
+    // Offset: 0xDE6F14
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* get_Properties();
     // public System.Security.Claims.ClaimsIdentity get_Subject()
-    // Offset: 0xD421F8
+    // Offset: 0xDE7340
     System::Security::Claims::ClaimsIdentity* get_Subject();
     // System.Void set_Subject(System.Security.Claims.ClaimsIdentity value)
-    // Offset: 0xD42200
+    // Offset: 0xDE7348
     void set_Subject(System::Security::Claims::ClaimsIdentity* value);
     // public System.String get_Type()
-    // Offset: 0xD42208
+    // Offset: 0xDE7350
     ::Il2CppString* get_Type();
     // public System.String get_Value()
-    // Offset: 0xD42210
+    // Offset: 0xDE7358
     ::Il2CppString* get_Value();
     // public System.Security.Claims.Claim Clone(System.Security.Claims.ClaimsIdentity identity)
-    // Offset: 0xD42218
+    // Offset: 0xDE7360
     System::Security::Claims::Claim* Clone(System::Security::Claims::ClaimsIdentity* identity);
     // public override System.String ToString()
-    // Offset: 0xD42288
+    // Offset: 0xDE73D0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

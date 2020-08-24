@@ -22,10 +22,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::LeaderboardScoreUploader* $$4__this;
     // System.Void <UploadScoresCoroutine>b__0(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0xB4719C
+    // Offset: 0xB471B0
     void $UploadScoresCoroutine$b__0(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
     // public System.Void .ctor()
-    // Offset: 0xB47194
+    // Offset: 0xB471A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardScoreUploader::$$c__DisplayClass14_0* New_ctor();

@@ -26,13 +26,13 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* levels;
     // public System.Void .ctor(IPreviewBeatmapLevel[] levels)
-    // Offset: 0x18FC7DC
+    // Offset: 0xB95D3C
     static BeatmapLevelCollection* New_ctor(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* levels);
     // static public BeatmapLevelCollection CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering(IBeatmapLevelCollection beatmapLevelCollection, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x18FC810
+    // Offset: 0xB95D70
     static GlobalNamespace::BeatmapLevelCollection* CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x18FC7D4
+    // Offset: 0xB95D34
     // Implemented from: IBeatmapLevelCollection
     // Base method: IPreviewBeatmapLevel[] IBeatmapLevelCollection::get_beatmapLevels()
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();

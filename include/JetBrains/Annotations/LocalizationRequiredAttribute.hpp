@@ -17,16 +17,16 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     bool Required;
     // public System.Void .ctor(System.Boolean required)
-    // Offset: 0x18B4214
+    // Offset: 0x196135C
     static LocalizationRequiredAttribute* New_ctor(bool required);
     // public System.Boolean get_Required()
-    // Offset: 0x18B4244
+    // Offset: 0x196138C
     bool get_Required();
     // private System.Void set_Required(System.Boolean value)
-    // Offset: 0x18B424C
+    // Offset: 0x1961394
     void set_Required(bool value);
     // public System.Void .ctor()
-    // Offset: 0x18B41E8
+    // Offset: 0x1961330
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

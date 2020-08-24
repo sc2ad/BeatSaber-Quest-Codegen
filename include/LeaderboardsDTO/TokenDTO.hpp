@@ -18,7 +18,7 @@ namespace LeaderboardsDTO {
     // Offset: 0x18
     int expireIn;
     // public System.Void .ctor()
-    // Offset: 0xB48244
+    // Offset: 0xB48258
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TokenDTO* New_ctor();

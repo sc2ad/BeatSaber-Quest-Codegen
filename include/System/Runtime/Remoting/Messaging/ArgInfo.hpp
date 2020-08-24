@@ -33,10 +33,10 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x20
     System::Reflection::MethodBase* method;
     // public System.Void .ctor(System.Reflection.MethodBase method, System.Runtime.Remoting.Messaging.ArgInfoType type)
-    // Offset: 0xFBF49C
+    // Offset: 0x10635E4
     static ArgInfo* New_ctor(System::Reflection::MethodBase* method, System::Runtime::Remoting::Messaging::ArgInfoType type);
     // public System.Object[] GetInOutArgs(System.Object[] args)
-    // Offset: 0xFBF680
+    // Offset: 0x10637C8
     ::Array<::Il2CppObject*>* GetInOutArgs(::Array<::Il2CppObject*>* args);
   }; // System.Runtime.Remoting.Messaging.ArgInfo
 }

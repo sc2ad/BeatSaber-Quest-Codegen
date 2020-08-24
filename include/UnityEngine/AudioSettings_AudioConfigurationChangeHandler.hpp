@@ -26,16 +26,16 @@ namespace UnityEngine {
   class AudioSettings::AudioConfigurationChangeHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x18B286C
+    // Offset: 0x195E9B4
     static AudioSettings::AudioConfigurationChangeHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean deviceWasChanged)
-    // Offset: 0x18B2588
+    // Offset: 0x195E6D0
     void Invoke(bool deviceWasChanged);
     // public System.IAsyncResult BeginInvoke(System.Boolean deviceWasChanged, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x18B2880
+    // Offset: 0x195E9C8
     System::IAsyncResult* BeginInvoke(bool deviceWasChanged, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x18B2910
+    // Offset: 0x195EA58
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioSettings/AudioConfigurationChangeHandler
 }

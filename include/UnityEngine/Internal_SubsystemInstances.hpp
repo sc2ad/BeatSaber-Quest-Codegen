@@ -40,19 +40,19 @@ namespace UnityEngine {
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystem> s_StandaloneSubsystemInstances
     static void _set_s_StandaloneSubsystemInstances(System::Collections::Generic::List_1<UnityEngine::ISubsystem*>* value);
     // static System.Void Internal_InitializeManagedInstance(System.IntPtr ptr, UnityEngine.IntegratedSubsystem inst)
-    // Offset: 0x18CF4C4
+    // Offset: 0x197D60C
     static void Internal_InitializeManagedInstance(System::IntPtr ptr, UnityEngine::IntegratedSubsystem* inst);
     // static System.Void Internal_ClearManagedInstances()
-    // Offset: 0x18CF588
+    // Offset: 0x197D6D0
     static void Internal_ClearManagedInstances();
     // static System.Void Internal_RemoveInstanceByPtr(System.IntPtr ptr)
-    // Offset: 0x18CF73C
+    // Offset: 0x197D884
     static void Internal_RemoveInstanceByPtr(System::IntPtr ptr);
     // static UnityEngine.IntegratedSubsystem Internal_GetInstanceByPtr(System.IntPtr ptr)
-    // Offset: 0x18CF924
+    // Offset: 0x197DA6C
     static UnityEngine::IntegratedSubsystem* Internal_GetInstanceByPtr(System::IntPtr ptr);
     // static private System.Void .cctor()
-    // Offset: 0x18CFAA8
+    // Offset: 0x197DBF0
     static void _cctor();
   }; // UnityEngine.Internal_SubsystemInstances
 }

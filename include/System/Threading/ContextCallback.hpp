@@ -24,16 +24,16 @@ namespace System::Threading {
   class ContextCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1334364
+    // Offset: 0x13DA4AC
     static ContextCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object state)
-    // Offset: 0x1336614
+    // Offset: 0x13DC75C
     void Invoke(::Il2CppObject* state);
     // public System.IAsyncResult BeginInvoke(System.Object state, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13369CC
+    // Offset: 0x13DCB14
     System::IAsyncResult* BeginInvoke(::Il2CppObject* state, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x13369F0
+    // Offset: 0x13DCB38
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.ContextCallback
 }

@@ -85,43 +85,43 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x48
     System::Action_1<System::Guid>* m_myActivityDelegate;
     // static public System.Void DisableFilter(System.Diagnostics.Tracing.ActivityFilter filterList, System.Diagnostics.Tracing.EventSource source)
-    // Offset: 0xBF3610
+    // Offset: 0xC96758
     static void DisableFilter(System::Diagnostics::Tracing::ActivityFilter*& filterList, System::Diagnostics::Tracing::EventSource* source);
     // static public System.Void UpdateFilter(System.Diagnostics.Tracing.ActivityFilter filterList, System.Diagnostics.Tracing.EventSource source, System.Int32 perEventSourceSessionId, System.String startEvents)
-    // Offset: 0xBF3A18
+    // Offset: 0xC96B60
     static void UpdateFilter(System::Diagnostics::Tracing::ActivityFilter*& filterList, System::Diagnostics::Tracing::EventSource* source, int perEventSourceSessionId, ::Il2CppString* startEvents);
     // static public System.Boolean PassesActivityFilter(System.Diagnostics.Tracing.ActivityFilter filterList, System.Guid* childActivityID, System.Boolean triggeringEvent, System.Diagnostics.Tracing.EventSource source, System.Int32 eventId)
-    // Offset: 0xBF3F74
+    // Offset: 0xC970BC
     static bool PassesActivityFilter(System::Diagnostics::Tracing::ActivityFilter* filterList, System::Guid* childActivityID, bool triggeringEvent, System::Diagnostics::Tracing::EventSource* source, int eventId);
     // static public System.Void FlowActivityIfNeeded(System.Diagnostics.Tracing.ActivityFilter filterList, System.Guid* currentActivityId, System.Guid* childActivityID)
-    // Offset: 0xBF4430
+    // Offset: 0xC97578
     static void FlowActivityIfNeeded(System::Diagnostics::Tracing::ActivityFilter* filterList, System::Guid* currentActivityId, System::Guid* childActivityID);
     // static public System.Void UpdateKwdTriggers(System.Diagnostics.Tracing.ActivityFilter activityFilter, System.Guid sourceGuid, System.Diagnostics.Tracing.EventSource source, System.Diagnostics.Tracing.EventKeywords sessKeywords)
-    // Offset: 0xBF46FC
+    // Offset: 0xC97844
     static void UpdateKwdTriggers(System::Diagnostics::Tracing::ActivityFilter* activityFilter, System::Guid sourceGuid, System::Diagnostics::Tracing::EventSource* source, System::Diagnostics::Tracing::EventKeywords sessKeywords);
     // public System.Collections.Generic.IEnumerable`1<System.Tuple`2<System.Int32,System.Int32>> GetFilterAsTuple(System.Guid sourceGuid)
-    // Offset: 0xBF484C
+    // Offset: 0xC97994
     System::Collections::Generic::IEnumerable_1<System::Tuple_2<int, int>*>* GetFilterAsTuple(System::Guid sourceGuid);
     // private System.Void .ctor(System.Diagnostics.Tracing.EventSource source, System.Int32 perEventSourceSessionId, System.Int32 eventId, System.Int32 samplingFreq, System.Diagnostics.Tracing.ActivityFilter existingFilter)
-    // Offset: 0xBF4924
+    // Offset: 0xC97A6C
     static ActivityFilter* New_ctor(System::Diagnostics::Tracing::EventSource* source, int perEventSourceSessionId, int eventId, int samplingFreq, System::Diagnostics::Tracing::ActivityFilter* existingFilter);
     // static private System.Void EnsureActivityCleanupDelegate(System.Diagnostics.Tracing.ActivityFilter filterList)
-    // Offset: 0xBF3928
+    // Offset: 0xC96A70
     static void EnsureActivityCleanupDelegate(System::Diagnostics::Tracing::ActivityFilter* filterList);
     // static private System.Action`1<System.Guid> GetActivityDyingDelegate(System.Diagnostics.Tracing.ActivityFilter filterList)
-    // Offset: 0xBF4AEC
+    // Offset: 0xC97C34
     static System::Action_1<System::Guid>* GetActivityDyingDelegate(System::Diagnostics::Tracing::ActivityFilter* filterList);
     // static private System.Boolean EnableFilter(System.Diagnostics.Tracing.ActivityFilter filterList, System.Diagnostics.Tracing.EventSource source, System.Int32 perEventSourceSessionId, System.Int32 eventId, System.Int32 samplingFreq)
-    // Offset: 0xBF3E6C
+    // Offset: 0xC96FB4
     static bool EnableFilter(System::Diagnostics::Tracing::ActivityFilter*& filterList, System::Diagnostics::Tracing::EventSource* source, int perEventSourceSessionId, int eventId, int samplingFreq);
     // static private System.Void TrimActiveActivityStore(System.Collections.Concurrent.ConcurrentDictionary`2<System.Guid,System.Int32> activities)
-    // Offset: 0xBF457C
+    // Offset: 0xC976C4
     static void TrimActiveActivityStore(System::Collections::Concurrent::ConcurrentDictionary_2<System::Guid, int>* activities);
     // static private System.Collections.Concurrent.ConcurrentDictionary`2<System.Guid,System.Int32> GetActiveActivities(System.Diagnostics.Tracing.ActivityFilter filterList)
-    // Offset: 0xBF4410
+    // Offset: 0xC97558
     static System::Collections::Concurrent::ConcurrentDictionary_2<System::Guid, int>* GetActiveActivities(System::Diagnostics::Tracing::ActivityFilter* filterList);
     // public System.Void Dispose()
-    // Offset: 0xBF3854
+    // Offset: 0xC9699C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

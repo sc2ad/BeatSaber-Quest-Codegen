@@ -26,10 +26,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x10
     UnityEngine::ProBuilder::ProBuilderMesh* mesh;
     // System.Int32 <DeleteFaces>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0xE6B880
+    // Offset: 0xF109C8
     int $DeleteFaces$b__0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0xE6AF30
+    // Offset: 0xF10078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DeleteElements::$$c__DisplayClass2_0* New_ctor();

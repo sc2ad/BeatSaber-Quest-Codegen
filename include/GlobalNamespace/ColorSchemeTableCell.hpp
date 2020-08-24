@@ -51,32 +51,32 @@ namespace GlobalNamespace {
     // Offset: 0x80
     UnityEngine::UI::Image* editIcon;
     // public System.Void set_text(System.String value)
-    // Offset: 0x19248F4
+    // Offset: 0xBE01B8
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x1924910
+    // Offset: 0xBE01D4
     ::Il2CppString* get_text();
     // public System.Void set_showEditIcon(System.Boolean value)
-    // Offset: 0x192492C
+    // Offset: 0xBE01F0
     void set_showEditIcon(bool value);
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0x192494C
+    // Offset: 0xBE0210
     void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1924AE0
+    // Offset: 0xBE03A4
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x1924ADC
+    // Offset: 0xBE03A0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::SelectionDidChange(HMUI.TableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::TableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
-    // Offset: 0x1924BEC
+    // Offset: 0xBE04B0
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::HighlightDidChange(HMUI.TableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::TableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x1924BF0
+    // Offset: 0xBE04B4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()

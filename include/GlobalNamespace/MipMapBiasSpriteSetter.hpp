@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float mipMapBias;
     // protected System.Void Start()
-    // Offset: 0xC1588C
+    // Offset: 0xCB89D4
     void Start();
     // public System.Void .ctor()
-    // Offset: 0xC15914
+    // Offset: 0xCB8A5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

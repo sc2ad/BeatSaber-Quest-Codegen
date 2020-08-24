@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetFrameTimings : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1559178
+    // Offset: 0x16062C0
     static IVRCompositor::_GetFrameTimings* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 nFrames)
-    // Offset: 0x155918C
+    // Offset: 0x16062D4
     uint Invoke(Valve::VR::Compositor_FrameTiming& pTiming, uint nFrames);
     // public System.IAsyncResult BeginInvoke(Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 nFrames, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1559400
+    // Offset: 0x1606548
     System::IAsyncResult* BeginInvoke(Valve::VR::Compositor_FrameTiming& pTiming, uint nFrames, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(Valve.VR.Compositor_FrameTiming pTiming, System.IAsyncResult result)
-    // Offset: 0x15594B4
+    // Offset: 0x16065FC
     uint EndInvoke(Valve::VR::Compositor_FrameTiming& pTiming, System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetFrameTimings
 }

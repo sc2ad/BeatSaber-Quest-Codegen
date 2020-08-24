@@ -56,22 +56,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     UnityEngine::Vector3 axisRelativeToChildDefault;
     // public System.Void Relax()
-    // Offset: 0x1197C68
+    // Offset: 0x123BDB0
     void Relax();
     // private System.Void Start()
-    // Offset: 0x1198048
+    // Offset: 0x123C190
     void Start();
     // private System.Void OnPostUpdate()
-    // Offset: 0x11984F4
+    // Offset: 0x123C63C
     void OnPostUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x119857C
+    // Offset: 0x123C6C4
     void LateUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x1198604
+    // Offset: 0x123C74C
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x119872C
+    // Offset: 0x123C874
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

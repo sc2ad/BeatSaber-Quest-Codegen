@@ -35,25 +35,25 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool isRegistered;
     // public System.Int32 get_id()
-    // Offset: 0x1781ED8
+    // Offset: 0x182C020
     int get_id();
     // public System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1781EE0
+    // Offset: 0x182C028
     void ColorWasSet(UnityEngine::Color color);
     // protected System.Void OnEnable()
-    // Offset: 0x1781EE4
+    // Offset: 0x182C02C
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x1781F8C
+    // Offset: 0x182C0D4
     void Start();
     // private System.Void RegisterLight()
-    // Offset: 0x1781EE8
+    // Offset: 0x182C030
     void RegisterLight();
     // protected System.Void OnDisable()
-    // Offset: 0x1782120
+    // Offset: 0x182C268
     void OnDisable();
     // protected System.Void .ctor()
-    // Offset: 0x177C474
+    // Offset: 0x18265BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

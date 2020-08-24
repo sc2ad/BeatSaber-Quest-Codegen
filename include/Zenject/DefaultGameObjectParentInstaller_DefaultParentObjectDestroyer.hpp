@@ -26,10 +26,10 @@ namespace Zenject {
     // Offset: 0x10
     UnityEngine::GameObject* gameObject;
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0xCCCDD0
+    // Offset: 0xD70F18
     static DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer* New_ctor(UnityEngine::GameObject* gameObject);
     // public System.Void Dispose()
-    // Offset: 0xCCCE04
+    // Offset: 0xD70F4C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

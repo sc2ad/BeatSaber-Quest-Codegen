@@ -17,10 +17,10 @@ namespace UnityEngine {
     // Offset: 0x18
     bool isAnimatorMotion;
     // public System.Boolean get_isLooping()
-    // Offset: 0x1896134
+    // Offset: 0x194227C
     bool get_isLooping();
     // protected System.Void .ctor()
-    // Offset: 0x18915C4
+    // Offset: 0x193D70C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

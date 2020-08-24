@@ -66,43 +66,43 @@ namespace GlobalNamespace {
     // Offset: 0x78
     UnityEngine::Vector3 localPosition;
     // public System.Void add_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0xBA35D0
+    // Offset: 0xC2F988
     void add_floorMovementDidFinishEvent(System::Action* value);
     // public System.Void remove_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0xBA3674
+    // Offset: 0xC2FA2C
     void remove_floorMovementDidFinishEvent(System::Action* value);
     // public System.Single get_distanceToPlayer()
-    // Offset: 0xBA3718
+    // Offset: 0xC2FAD0
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_startPos()
-    // Offset: 0xBA3804
+    // Offset: 0xC2FBBC
     UnityEngine::Vector3 get_startPos();
     // public UnityEngine.Vector3 get_endPos()
-    // Offset: 0xBA3810
+    // Offset: 0xC2FBC8
     UnityEngine::Vector3 get_endPos();
     // public System.Single get_startTime()
-    // Offset: 0xBA381C
+    // Offset: 0xC2FBD4
     float get_startTime();
     // public System.Single get_moveDuration()
-    // Offset: 0xBA3824
+    // Offset: 0xC2FBDC
     float get_moveDuration();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0xBA382C
+    // Offset: 0xC2FBE4
     UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0xBA3838
+    // Offset: 0xC2FBF0
     UnityEngine::Quaternion get_inverseWorldRotation();
     // public System.Void Init(System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single moveDuration, System.Single startTime)
-    // Offset: 0xBA3844
+    // Offset: 0xC2FBFC
     void Init(float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float moveDuration, float startTime);
     // public UnityEngine.Vector3 SetToStart()
-    // Offset: 0xBA393C
+    // Offset: 0xC2FCF4
     UnityEngine::Vector3 SetToStart();
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0xBA3A6C
+    // Offset: 0xC2FE24
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0xBA3BEC
+    // Offset: 0xC2FFA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

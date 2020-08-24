@@ -38,41 +38,41 @@ namespace System::Net {
     // Offset: 0x24
     int m_hash;
     // public System.Net.Sockets.AddressFamily get_Family()
-    // Offset: 0xECA8A4
+    // Offset: 0xF6F9EC
     System::Net::Sockets::AddressFamily get_Family();
     // public System.Int32 get_Size()
-    // Offset: 0xECAD04
+    // Offset: 0xF6FE4C
     int get_Size();
     // public System.Byte get_Item(System.Int32 offset)
-    // Offset: 0xECAD0C
+    // Offset: 0xF6FE54
     uint8_t get_Item(int offset);
     // public System.Void .ctor(System.Net.Sockets.AddressFamily family, System.Int32 size)
-    // Offset: 0xECADC4
+    // Offset: 0xF6FF0C
     static SocketAddress* New_ctor(System::Net::Sockets::AddressFamily family, int size);
     // System.Void .ctor(System.Net.IPAddress ipAddress)
-    // Offset: 0xECAEF8
+    // Offset: 0xF70040
     static SocketAddress* New_ctor(System::Net::IPAddress* ipAddress);
     // System.Void .ctor(System.Net.IPAddress ipaddress, System.Int32 port)
-    // Offset: 0xECA51C
+    // Offset: 0xF6F664
     static SocketAddress* New_ctor(System::Net::IPAddress* ipaddress, int port);
     // System.Net.IPAddress GetIPAddress()
-    // Offset: 0xECB144
+    // Offset: 0xF7028C
     System::Net::IPAddress* GetIPAddress();
     // System.Net.IPEndPoint GetIPEndPoint()
-    // Offset: 0xECA8E8
+    // Offset: 0xF6FA30
     System::Net::IPEndPoint* GetIPEndPoint();
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0xECB32C
+    // Offset: 0xF70474
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xECB420
+    // Offset: 0xF70568
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xECB56C
+    // Offset: 0xF706B4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

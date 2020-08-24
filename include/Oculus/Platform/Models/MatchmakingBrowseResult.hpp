@@ -32,7 +32,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     Oculus::Platform::Models::RoomList* Rooms;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0xE003B0
+    // Offset: 0xEA54F8
     static MatchmakingBrowseResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingBrowseResult
 }

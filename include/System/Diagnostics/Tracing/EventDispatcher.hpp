@@ -31,7 +31,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x28
     System::Diagnostics::Tracing::EventDispatcher* m_Next;
     // System.Void .ctor(System.Diagnostics.Tracing.EventDispatcher next, System.Boolean[] eventEnabled, System.Diagnostics.Tracing.EventListener listener)
-    // Offset: 0xBF8708
+    // Offset: 0xC9B850
     static EventDispatcher* New_ctor(System::Diagnostics::Tracing::EventDispatcher* next, ::Array<bool>* eventEnabled, System::Diagnostics::Tracing::EventListener* listener);
   }; // System.Diagnostics.Tracing.EventDispatcher
 }

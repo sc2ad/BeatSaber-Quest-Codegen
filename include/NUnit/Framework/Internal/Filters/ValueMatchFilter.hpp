@@ -27,28 +27,28 @@ namespace NUnit::Framework::Internal::Filters {
     // Offset: 0x18
     bool IsRegex;
     // public System.String get_ExpectedValue()
-    // Offset: 0xFE9570
+    // Offset: 0x108D6B8
     ::Il2CppString* get_ExpectedValue();
     // private System.Void set_ExpectedValue(System.String value)
-    // Offset: 0xFE9578
+    // Offset: 0x108D6C0
     void set_ExpectedValue(::Il2CppString* value);
     // public System.Boolean get_IsRegex()
-    // Offset: 0xFE9580
+    // Offset: 0x108D6C8
     bool get_IsRegex();
     // public System.Void set_IsRegex(System.Boolean value)
-    // Offset: 0xFE9588
+    // Offset: 0x108D6D0
     void set_IsRegex(bool value);
     // public System.Void .ctor(System.String expectedValue)
-    // Offset: 0xFE81DC
+    // Offset: 0x108C324
     static ValueMatchFilter* New_ctor(::Il2CppString* expectedValue);
     // protected System.Boolean Match(System.String input)
-    // Offset: 0xFE8658
+    // Offset: 0x108C7A0
     bool Match(::Il2CppString* input);
     // protected System.String get_ElementName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_ElementName();
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0xFE9594
+    // Offset: 0x108D6DC
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

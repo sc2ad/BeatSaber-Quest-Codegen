@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::BloomFogEnvironmentParams* fog1Params;
     // protected System.Void Awake()
-    // Offset: 0x177AA98
+    // Offset: 0x1824BE0
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x177AB10
+    // Offset: 0x1824C58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

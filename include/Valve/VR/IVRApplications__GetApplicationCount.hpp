@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRApplications::_GetApplicationCount : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF44910
+    // Offset: 0xFE9A58
     static IVRApplications::_GetApplicationCount* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke()
-    // Offset: 0xF3797C
+    // Offset: 0xFDCAC4
     uint Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF44924
+    // Offset: 0xFE9A6C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF44950
+    // Offset: 0xFE9A98
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationCount
 }

@@ -19,29 +19,29 @@ namespace UnityEngine::Networking {
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // private System.Void Release()
-    // Offset: 0x189E2A8
+    // Offset: 0x194A3F0
     void Release();
     // public System.Void set_contentType(System.String value)
-    // Offset: 0x189E0FC
+    // Offset: 0x194A244
     void set_contentType(::Il2CppString* value);
     // System.Void SetContentType(System.String newContentType)
-    // Offset: 0x189E358
+    // Offset: 0x194A4A0
     void SetContentType(::Il2CppString* newContentType);
     // private System.Void InternalSetContentType(System.String newContentType)
-    // Offset: 0x189E3A8
+    // Offset: 0x194A4F0
     void InternalSetContentType(::Il2CppString* newContentType);
     // System.Void .ctor()
-    // Offset: 0x189E2E8
+    // Offset: 0x194A430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UploadHandler* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x189E2F0
+    // Offset: 0x194A438
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x189CCD8
+    // Offset: 0x1948E20
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

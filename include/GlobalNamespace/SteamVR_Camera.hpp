@@ -75,55 +75,55 @@ namespace GlobalNamespace {
     // Set static field: static private System.String originSuffix
     static void _set_originSuffix(::Il2CppString* value);
     // public UnityEngine.Transform get_head()
-    // Offset: 0xCDB1F4
+    // Offset: 0xD7F33C
     UnityEngine::Transform* get_head();
     // public UnityEngine.Transform get_offset()
-    // Offset: 0xCDB1FC
+    // Offset: 0xD7F344
     UnityEngine::Transform* get_offset();
     // public UnityEngine.Transform get_origin()
-    // Offset: 0xCDB204
+    // Offset: 0xD7F34C
     UnityEngine::Transform* get_origin();
     // public UnityEngine.Camera get_camera()
-    // Offset: 0xCDB220
+    // Offset: 0xD7F368
     UnityEngine::Camera* get_camera();
     // private System.Void set_camera(UnityEngine.Camera value)
-    // Offset: 0xCDB228
+    // Offset: 0xD7F370
     void set_camera(UnityEngine::Camera* value);
     // public UnityEngine.Transform get_ears()
-    // Offset: 0xCDB230
+    // Offset: 0xD7F378
     UnityEngine::Transform* get_ears();
     // public UnityEngine.Ray GetRay()
-    // Offset: 0xCDB238
+    // Offset: 0xD7F380
     UnityEngine::Ray GetRay();
     // static public System.Single get_sceneResolutionScale()
-    // Offset: 0xCDB2C0
+    // Offset: 0xD7F408
     static float get_sceneResolutionScale();
     // static public System.Void set_sceneResolutionScale(System.Single value)
-    // Offset: 0xCDB2C8
+    // Offset: 0xD7F410
     static void set_sceneResolutionScale(float value);
     // private System.Void OnDisable()
-    // Offset: 0xCDB2D0
+    // Offset: 0xD7F418
     void OnDisable();
     // private System.Void OnEnable()
-    // Offset: 0xCDB380
+    // Offset: 0xD7F4C8
     void OnEnable();
     // private System.Void Awake()
-    // Offset: 0xCDBEEC
+    // Offset: 0xD80034
     void Awake();
     // public System.Void ForceLast()
-    // Offset: 0xCDBF54
+    // Offset: 0xD8009C
     void ForceLast();
     // public System.String get_baseName()
-    // Offset: 0xCDC58C
+    // Offset: 0xD806D4
     ::Il2CppString* get_baseName();
     // public System.Void Expand()
-    // Offset: 0xCDB70C
+    // Offset: 0xD7F854
     void Expand();
     // public System.Void Collapse()
-    // Offset: 0xCDC65C
+    // Offset: 0xD807A4
     void Collapse();
     // public System.Void .ctor()
-    // Offset: 0xCDCA98
+    // Offset: 0xD80BE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

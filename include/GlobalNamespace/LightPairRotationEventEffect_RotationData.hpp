@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x34
     float rotationAngle;
     // public System.Void .ctor()
-    // Offset: 0x193F168
+    // Offset: 0xBF9A2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LightPairRotationEventEffect::RotationData* New_ctor();

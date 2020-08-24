@@ -89,31 +89,31 @@ namespace OnlineServices::API {
     // Set static field: static private System.String kLogoutPath
     static void _set_kLogoutPath(::Il2CppString* value);
     // public System.Void .ctor(OnlineServices.API.IUserLoginDtoDataSource userLoginDataSource, System.UriBuilder uriBuilder)
-    // Offset: 0xBB3A14
+    // Offset: 0xC3FDCC
     static HTTPLeaderboardsOathHelper* New_ctor(OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource, System::UriBuilder* uriBuilder);
     // public System.Threading.Tasks.Task`1<System.String> SendWebRequestWithOathAsync(System.String path, System.String method, System.Object objectToSendAsJson, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xBB40D4
+    // Offset: 0xC4048C
     System::Threading::Tasks::Task_1<::Il2CppString*>* SendWebRequestWithOathAsync(::Il2CppString* path, ::Il2CppString* method, ::Il2CppObject* objectToSendAsJson, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task LogOut()
-    // Offset: 0xBB445C
+    // Offset: 0xC40814
     System::Threading::Tasks::Task* LogOut();
     // private System.Threading.Tasks.Task LoginIfNeededAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xBB4854
+    // Offset: 0xC40C0C
     System::Threading::Tasks::Task* LoginIfNeededAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Boolean IsUserLoggedIn()
-    // Offset: 0xBB4994
+    // Offset: 0xC40D4C
     bool IsUserLoggedIn();
     // private System.Threading.Tasks.Task`1<LeaderboardsDTO.TokenDTO> GetJwtTokenAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xBB49A4
+    // Offset: 0xC40D5C
     System::Threading::Tasks::Task_1<LeaderboardsDTO::TokenDTO*>* GetJwtTokenAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.String> SendWebRequestAsync(System.String uri, System.String method, System.String bodyData, System.String bearerToken)
-    // Offset: 0xBB4ADC
+    // Offset: 0xC40E94
     System::Threading::Tasks::Task_1<::Il2CppString*>* SendWebRequestAsync(::Il2CppString* uri, ::Il2CppString* method, ::Il2CppString* bodyData, ::Il2CppString* bearerToken);
     // private System.Threading.Tasks.Task SendAndWaitAsync(UnityEngine.Networking.UnityWebRequest webRequest, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0xBB4C60
+    // Offset: 0xC41018
     System::Threading::Tasks::Task* SendAndWaitAsync(UnityEngine::Networking::UnityWebRequest* webRequest, System::Threading::CancellationToken cancellationToken);
     // static public System.Void Log(System.String message)
-    // Offset: 0xBB4D90
+    // Offset: 0xC41148
     static void Log(::Il2CppString* message);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper
 }

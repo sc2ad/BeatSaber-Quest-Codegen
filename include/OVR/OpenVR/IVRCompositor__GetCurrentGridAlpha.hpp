@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_GetCurrentGridAlpha : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x146AA4C
+    // Offset: 0x1515B94
     static IVRCompositor::_GetCurrentGridAlpha* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Single Invoke()
-    // Offset: 0x146AA60
+    // Offset: 0x1515BA8
     float Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x146AC74
+    // Offset: 0x1515DBC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Single EndInvoke(System.IAsyncResult result)
-    // Offset: 0x146ACA0
+    // Offset: 0x1515DE8
     float EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetCurrentGridAlpha
 }

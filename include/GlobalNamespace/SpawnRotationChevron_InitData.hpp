@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x11
     bool enableSideLines;
     // public System.Void .ctor(System.Boolean enableChevron, System.Boolean enableSideLines)
-    // Offset: 0x1902C44
+    // Offset: 0xB9D1A4
     static SpawnRotationChevron::InitData* New_ctor(bool enableChevron, bool enableSideLines);
   }; // SpawnRotationChevron/InitData
 }

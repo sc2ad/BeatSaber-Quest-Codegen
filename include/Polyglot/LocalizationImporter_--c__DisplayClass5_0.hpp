@@ -24,10 +24,10 @@ namespace Polyglot {
     // Offset: 0x10
     Polyglot::Localization* settings;
     // System.Void <ImportFromGoogle>b__0(System.String s)
-    // Offset: 0x186D328
+    // Offset: 0x191A470
     void $ImportFromGoogle$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x186C518
+    // Offset: 0x1919660
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalizationImporter::$$c__DisplayClass5_0* New_ctor();

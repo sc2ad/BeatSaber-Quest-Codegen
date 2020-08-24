@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_ClearSkyboxOverride : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1556704
+    // Offset: 0x160384C
     static IVRCompositor::_ClearSkyboxOverride* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1556718
+    // Offset: 0x1603860
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1556924
+    // Offset: 0x1603A6C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1556950
+    // Offset: 0x1603A98
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_ClearSkyboxOverride
 }

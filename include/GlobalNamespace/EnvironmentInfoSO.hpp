@@ -45,25 +45,25 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::EnvironmentSizeData* environmentSizeData;
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x192EE18
+    // Offset: 0xBEA6DC
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x192EE20
+    // Offset: 0xBEA6E4
     ::Il2CppString* get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x192EE28
+    // Offset: 0xBEA6EC
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x192EE30
+    // Offset: 0xBEA6F4
     ::Il2CppString* get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x192EE38
+    // Offset: 0xBEA6FC
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x192EE40
+    // Offset: 0xBEA704
     GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public System.Void .ctor()
-    // Offset: 0x192EE48
+    // Offset: 0xBEA70C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

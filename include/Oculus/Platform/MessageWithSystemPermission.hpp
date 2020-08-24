@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithSystemPermission : public Oculus::Platform::Message_1<Oculus::Platform::Models::SystemPermission*> {
     public:
     // protected Oculus.Platform.Models.SystemPermission GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0xE04000
+    // Offset: 0xEA9148
     Oculus::Platform::Models::SystemPermission* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0xE03F5C
+    // Offset: 0xEA90A4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message`1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithSystemPermission* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.SystemPermission GetSystemPermission()
-    // Offset: 0xE03FBC
+    // Offset: 0xEA9104
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.SystemPermission Message::GetSystemPermission()
     Oculus::Platform::Models::SystemPermission* GetSystemPermission();

@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class ObstacleController::Pool : public GlobalNamespace::MemoryPoolWithActiveItems_1<GlobalNamespace::ObstacleController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xBA7D24
+    // Offset: 0xC340DC
     // Implemented from: MemoryPoolWithActiveItems`1
     // Base method: System.Void MemoryPoolWithActiveItems`1::.ctor()
     // Base method: System.Void MonoMemoryPool`1::.ctor()

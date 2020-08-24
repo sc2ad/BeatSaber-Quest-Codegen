@@ -24,7 +24,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x28
     System::IO::TextWriter* writer;
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x1842408
+    // Offset: 0x18EF550
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();

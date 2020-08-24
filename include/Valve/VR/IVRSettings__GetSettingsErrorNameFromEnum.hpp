@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSettings::_GetSettingsErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x162511C
+    // Offset: 0x16D0264
     static IVRSettings::_GetSettingsErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRSettingsError eError)
-    // Offset: 0x1625130
+    // Offset: 0x16D0278
     System::IntPtr Invoke(Valve::VR::EVRSettingsError eError);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRSettingsError eError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16253A4
+    // Offset: 0x16D04EC
     System::IAsyncResult* BeginInvoke(Valve::VR::EVRSettingsError eError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1625430
+    // Offset: 0x16D0578
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSettings/_GetSettingsErrorNameFromEnum
 }

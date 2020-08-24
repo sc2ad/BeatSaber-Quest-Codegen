@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class AmbientLightWithIds : public GlobalNamespace::LightWithIds {
     public:
     // protected System.Void LateUpdate()
-    // Offset: 0x177AA08
+    // Offset: 0x1824B50
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x177AA68
+    // Offset: 0x1824BB0
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

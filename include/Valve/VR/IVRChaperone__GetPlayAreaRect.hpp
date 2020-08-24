@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperone::_GetPlayAreaRect : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF45EE8
+    // Offset: 0xFEB030
     static IVRChaperone::_GetPlayAreaRect* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(Valve.VR.HmdQuad_t rect)
-    // Offset: 0xF3E45C
+    // Offset: 0xFE35A4
     bool Invoke(Valve::VR::HmdQuad_t& rect);
     // public System.IAsyncResult BeginInvoke(Valve.VR.HmdQuad_t rect, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF45EFC
+    // Offset: 0xFEB044
     System::IAsyncResult* BeginInvoke(Valve::VR::HmdQuad_t& rect, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(Valve.VR.HmdQuad_t rect, System.IAsyncResult result)
-    // Offset: 0xF45F90
+    // Offset: 0xFEB0D8
     bool EndInvoke(Valve::VR::HmdQuad_t& rect, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_GetPlayAreaRect
 }

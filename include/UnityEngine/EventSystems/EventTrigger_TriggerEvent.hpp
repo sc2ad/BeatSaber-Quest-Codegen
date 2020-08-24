@@ -23,7 +23,7 @@ namespace UnityEngine::EventSystems {
   class EventTrigger::TriggerEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::EventSystems::BaseEventData*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0xD58464
+    // Offset: 0xDFD5AC
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent`1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

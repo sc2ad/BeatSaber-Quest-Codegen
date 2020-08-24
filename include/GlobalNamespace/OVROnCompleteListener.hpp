@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void onFailure();
     // public System.Void .ctor()
-    // Offset: 0xE4DD98
+    // Offset: 0xEF2EE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVROnCompleteListener* New_ctor();

@@ -32,13 +32,13 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::NoTransitionInstaller* noScenesTransitionInstaller;
     // public System.Action`1<Zenject.DiContainer> get_installMethod()
-    // Offset: 0xF1F6B8
+    // Offset: 0xFC4800
     System::Action_1<Zenject::DiContainer*>* get_installMethod();
     // protected System.Void Awake()
-    // Offset: 0xF1F738
+    // Offset: 0xFC4880
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xF1F7B8
+    // Offset: 0xFC4900
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

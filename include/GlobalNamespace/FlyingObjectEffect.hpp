@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Offset: 0x7C
     bool shake;
     // public System.Void add_didFinishEvent(System.Action`1<FlyingObjectEffect> value)
-    // Offset: 0x1934708
+    // Offset: 0xBEFFCC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FlyingObjectEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FlyingObjectEffect> value)
-    // Offset: 0x19347AC
+    // Offset: 0xBF0070
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::FlyingObjectEffect*>* value);
     // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, System.Boolean shake)
-    // Offset: 0x1934850
+    // Offset: 0xBF0114
     void InitAndPresent(float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, bool shake);
     // protected System.Void Update()
-    // Offset: 0x193493C
+    // Offset: 0xBF0200
     void Update();
     // protected System.Void ManualUpdate(System.Single t)
     // Offset: 0xFFFFFFFF
     void ManualUpdate(float t);
     // protected System.Void .ctor()
-    // Offset: 0x1934BF4
+    // Offset: 0xBF04B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -14,10 +14,10 @@ namespace NUnit::Framework::Interfaces {
   class AttributeDictionary : public System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*> {
     public:
     // public System.String get_Item(System.String key)
-    // Offset: 0xFDC73C
+    // Offset: 0x1080884
     ::Il2CppString* get_Item(::Il2CppString* key);
     // public System.Void .ctor()
-    // Offset: 0xFDC7B4
+    // Offset: 0x10808FC
     // Implemented from: System.Collections.Generic.Dictionary`2
     // Base method: System.Void Dictionary`2::.ctor()
     // Base method: System.Void Object::.ctor()

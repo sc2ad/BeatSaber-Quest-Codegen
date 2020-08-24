@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<CentralLeaderboardViewController/ScoreScopeInfo,HMUI.IconSegmentedControl/DataItem> <>9__18_1
     static void _set_$$9__18_1(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, HMUI::IconSegmentedControl::DataItem*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18E6144
+    // Offset: 0xB7F6A0
     static void _cctor();
     // System.String <DidActivate>b__18_0(CentralLeaderboardViewController/LeaderboardPanel x)
-    // Offset: 0x18E61B4
+    // Offset: 0xB7F710
     ::Il2CppString* $DidActivate$b__18_0(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
     // HMUI.IconSegmentedControl/DataItem <DidActivate>b__18_1(CentralLeaderboardViewController/ScoreScopeInfo x)
-    // Offset: 0x18E61CC
+    // Offset: 0xB7F728
     HMUI::IconSegmentedControl::DataItem* $DidActivate$b__18_1(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x18E61AC
+    // Offset: 0xB7F708
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CentralLeaderboardViewController::$$c* New_ctor();

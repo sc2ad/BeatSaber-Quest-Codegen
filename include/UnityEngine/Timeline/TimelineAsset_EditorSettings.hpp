@@ -29,16 +29,16 @@ namespace UnityEngine::Timeline {
     // Set static field: static readonly System.Single kDefaultFps
     static void _set_kDefaultFps(float value);
     // public System.Single get_fps()
-    // Offset: 0x1001C28
+    // Offset: 0x10A5D70
     float get_fps();
     // public System.Void set_fps(System.Single value)
-    // Offset: 0xFFF70C
+    // Offset: 0x10A3854
     void set_fps(float value);
     // static private System.Void .cctor()
-    // Offset: 0x1001C30
+    // Offset: 0x10A5D78
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x10013C0
+    // Offset: 0x10A5508
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimelineAsset::EditorSettings* New_ctor();

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     int pixelsHeight;
     // public System.Void .ctor(ScreenCaptureCache/ScreenshotType screenshotType, System.Single screenCaptureTime, System.Int32 pixelsWidth, System.Int32 pixelsHeight)
-    // Offset: 0x1869450
+    // Offset: 0x1915598
     static ScreenCaptureAfterDelay::InitData* New_ctor(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, float screenCaptureTime, int pixelsWidth, int pixelsHeight);
   }; // ScreenCaptureAfterDelay/InitData
 }

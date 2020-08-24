@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRCompositor::_GetTrackingSpace : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x155A64C
+    // Offset: 0x1607794
     static IVRCompositor::_GetTrackingSpace* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.ETrackingUniverseOrigin Invoke()
-    // Offset: 0x155A660
+    // Offset: 0x16077A8
     Valve::VR::ETrackingUniverseOrigin Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x155A874
+    // Offset: 0x16079BC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.ETrackingUniverseOrigin EndInvoke(System.IAsyncResult result)
-    // Offset: 0x155A8A0
+    // Offset: 0x16079E8
     Valve::VR::ETrackingUniverseOrigin EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_GetTrackingSpace
 }

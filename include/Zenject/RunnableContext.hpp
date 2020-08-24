@@ -33,16 +33,16 @@ namespace Zenject {
     // Set static field: static private System.Boolean _staticAutoRun
     static void _set__staticAutoRun(bool value);
     // public System.Boolean get_Initialized()
-    // Offset: 0xF26158
+    // Offset: 0xFCB2A0
     bool get_Initialized();
     // private System.Void set_Initialized(System.Boolean value)
-    // Offset: 0xF26160
+    // Offset: 0xFCB2A8
     void set_Initialized(bool value);
     // protected System.Void Initialize()
-    // Offset: 0xF2616C
+    // Offset: 0xFCB2B4
     void Initialize();
     // public System.Void Run()
-    // Offset: 0xF26218
+    // Offset: 0xFCB360
     void Run();
     // protected System.Void RunInternal()
     // Offset: 0xFFFFFFFF
@@ -55,7 +55,7 @@ namespace Zenject {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("Zenject", "RunnableContext", "CreateComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, gameObject)));
     }
     // protected System.Void .ctor()
-    // Offset: 0xF26290
+    // Offset: 0xFCB3D8
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -65,7 +65,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static RunnableContext* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xF262A0
+    // Offset: 0xFCB3E8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

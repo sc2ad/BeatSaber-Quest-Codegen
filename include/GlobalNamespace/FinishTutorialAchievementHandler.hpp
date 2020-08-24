@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::AchievementSO* finishTutorialAchievement;
     // protected System.Void Start()
-    // Offset: 0x19326AC
+    // Offset: 0xBEDF70
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1932738
+    // Offset: 0xBEDFFC
     void OnDestroy();
     // private System.Void HandleTutorialFinished()
-    // Offset: 0x19327C4
+    // Offset: 0xBEE088
     void HandleTutorialFinished();
     // public System.Void .ctor()
-    // Offset: 0x19327E8
+    // Offset: 0xBEE0AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

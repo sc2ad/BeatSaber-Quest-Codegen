@@ -33,10 +33,10 @@ namespace UnityEngine {
     // Creating value type constructor for type: HitInfo
     HitInfo(UnityEngine::GameObject* target_ = {}, UnityEngine::Camera* camera_ = {}) : target{target_}, camera{camera_} {}
     // public System.Void SendMessage(System.String name)
-    // Offset: 0x9C73B4
+    // Offset: 0xA60A2C
     void SendMessage(::Il2CppString* name);
     // static public System.Boolean Compare(UnityEngine.SendMouseEvents/HitInfo lhs, UnityEngine.SendMouseEvents/HitInfo rhs)
-    // Offset: 0x18CCC5C
+    // Offset: 0x197ADA4
     static bool Compare(UnityEngine::SendMouseEvents::HitInfo lhs, UnityEngine::SendMouseEvents::HitInfo rhs);
   }; // UnityEngine.SendMouseEvents/HitInfo
 }

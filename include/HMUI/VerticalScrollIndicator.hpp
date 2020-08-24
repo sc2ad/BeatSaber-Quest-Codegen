@@ -30,25 +30,25 @@ namespace HMUI {
     // Offset: 0x24
     float normalizedPageHeight;
     // public System.Void set_progress(System.Single value)
-    // Offset: 0x103EF70
+    // Offset: 0x10E20B8
     void set_progress(float value);
     // public System.Single get_progress()
-    // Offset: 0x104919C
+    // Offset: 0x10EC2E4
     float get_progress();
     // public System.Void set_normalizedPageHeight(System.Single value)
-    // Offset: 0x103EB34
+    // Offset: 0x10E1C7C
     void set_normalizedPageHeight(float value);
     // public System.Single get_normalizedPageHeight()
-    // Offset: 0x10491A4
+    // Offset: 0x10EC2EC
     float get_normalizedPageHeight();
     // protected System.Void Awake()
-    // Offset: 0x10491AC
+    // Offset: 0x10EC2F4
     void Awake();
     // private System.Void RefreshHandle()
-    // Offset: 0x1049088
+    // Offset: 0x10EC1D0
     void RefreshHandle();
     // public System.Void .ctor()
-    // Offset: 0x10491B0
+    // Offset: 0x10EC2F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

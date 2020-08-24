@@ -100,51 +100,51 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void Move(UnityEngine.Vector3 move)
-    // Offset: 0xB965B4
+    // Offset: 0xC2296C
     void Move(UnityEngine::Vector3 move);
     // private System.Void Rotate(System.Single rotation)
-    // Offset: 0xB96684
+    // Offset: 0xC22A3C
     void Rotate(float rotation);
     // private System.Void ResetRoom()
-    // Offset: 0xB966F8
+    // Offset: 0xC22AB0
     void ResetRoom();
     // private System.Void RefreshTexts()
-    // Offset: 0xB96438
+    // Offset: 0xC227F0
     void RefreshTexts();
     // private System.Void <DidActivate>b__18_0()
-    // Offset: 0xB967B4
+    // Offset: 0xC22B6C
     void $DidActivate$b__18_0();
     // private System.Void <DidActivate>b__18_1()
-    // Offset: 0xB9680C
+    // Offset: 0xC22BC4
     void $DidActivate$b__18_1();
     // private System.Void <DidActivate>b__18_2()
-    // Offset: 0xB96864
+    // Offset: 0xC22C1C
     void $DidActivate$b__18_2();
     // private System.Void <DidActivate>b__18_3()
-    // Offset: 0xB968BC
+    // Offset: 0xC22C74
     void $DidActivate$b__18_3();
     // private System.Void <DidActivate>b__18_4()
-    // Offset: 0xB96914
+    // Offset: 0xC22CCC
     void $DidActivate$b__18_4();
     // private System.Void <DidActivate>b__18_5()
-    // Offset: 0xB9696C
+    // Offset: 0xC22D24
     void $DidActivate$b__18_5();
     // private System.Void <DidActivate>b__18_6()
-    // Offset: 0xB969C4
+    // Offset: 0xC22D7C
     void $DidActivate$b__18_6();
     // private System.Void <DidActivate>b__18_7()
-    // Offset: 0xB969CC
+    // Offset: 0xC22D84
     void $DidActivate$b__18_7();
     // private System.Void <DidActivate>b__18_8()
-    // Offset: 0xB969D4
+    // Offset: 0xC22D8C
     void $DidActivate$b__18_8();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB9616C
+    // Offset: 0xC22524
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB967AC
+    // Offset: 0xC22B64
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

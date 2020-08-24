@@ -32,23 +32,23 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   class RemoteTestResultDataFactory : public ::Il2CppObject, public UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory {
     public:
     // private UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] CreateTestDataList(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xD99108
+    // Offset: 0xE3E250
     ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* CreateTestDataList(NUnit::Framework::Interfaces::ITest* test);
     // static private UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] CreateTestResultDataList(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xD992A8
+    // Offset: 0xE3E3F0
     static ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* CreateTestResultDataList(NUnit::Framework::Interfaces::ITestResult* result);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0xD98F90
+    // Offset: 0xE3E0D8
     // Implemented from: UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
     // Base method: UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData IRemoteTestResultDataFactory::CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult(NUnit::Framework::Interfaces::ITestResult* result);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0xD9943C
+    // Offset: 0xE3E584
     // Implemented from: UnityEngine.TestRunner.TestLaunchers.IRemoteTestResultDataFactory
     // Base method: UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData IRemoteTestResultDataFactory::CreateFromTest(NUnit.Framework.Interfaces.ITest test)
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void .ctor()
-    // Offset: 0xD99560
+    // Offset: 0xE3E6A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RemoteTestResultDataFactory* New_ctor();

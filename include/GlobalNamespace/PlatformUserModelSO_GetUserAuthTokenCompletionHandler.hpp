@@ -31,16 +31,16 @@ namespace GlobalNamespace {
   class PlatformUserModelSO::GetUserAuthTokenCompletionHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x191CEB8
+    // Offset: 0xBD8778
     static PlatformUserModelSO::GetUserAuthTokenCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformUserModelSO/GetUserAuthTokenResult result, PlatformTokenInfo platformTokenInfo)
-    // Offset: 0x191CECC
+    // Offset: 0xBD878C
     void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenResult result, GlobalNamespace::PlatformTokenInfo* platformTokenInfo);
     // public System.IAsyncResult BeginInvoke(PlatformUserModelSO/GetUserAuthTokenResult result, PlatformTokenInfo platformTokenInfo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x191D154
+    // Offset: 0xBD8A14
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserAuthTokenResult result, GlobalNamespace::PlatformTokenInfo* platformTokenInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x191D1EC
+    // Offset: 0xBD8AAC
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformUserModelSO/GetUserAuthTokenCompletionHandler
 }

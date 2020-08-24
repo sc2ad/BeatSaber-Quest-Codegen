@@ -35,13 +35,13 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static public System.Comparison`1<Mono.Globalization.Unicode.Level2Map> <>9__17_0
     static void _set_$$9__17_0(System::Comparison_1<Mono::Globalization::Unicode::Level2Map*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x100E864
+    // Offset: 0x10B29AC
     static void _cctor();
     // System.Int32 <BuildTailoringTables>b__17_0(Mono.Globalization.Unicode.Level2Map a, Mono.Globalization.Unicode.Level2Map b)
-    // Offset: 0x100E8D4
+    // Offset: 0x10B2A1C
     int $BuildTailoringTables$b__17_0(Mono::Globalization::Unicode::Level2Map* a, Mono::Globalization::Unicode::Level2Map* b);
     // public System.Void .ctor()
-    // Offset: 0x100E8CC
+    // Offset: 0x10B2A14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MSCompatUnicodeTable::$$c* New_ctor();

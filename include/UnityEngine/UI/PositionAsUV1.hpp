@@ -21,7 +21,7 @@ namespace UnityEngine::UI {
   class PositionAsUV1 : public UnityEngine::UI::BaseMeshEffect {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1162E28
+    // Offset: 0x1206F70
     // Implemented from: UnityEngine.UI.BaseMeshEffect
     // Base method: System.Void BaseMeshEffect::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -32,7 +32,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static PositionAsUV1* New_ctor();
     // public override System.Void ModifyMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x1162E30
+    // Offset: 0x1206F78
     // Implemented from: UnityEngine.UI.BaseMeshEffect
     // Base method: System.Void BaseMeshEffect::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);

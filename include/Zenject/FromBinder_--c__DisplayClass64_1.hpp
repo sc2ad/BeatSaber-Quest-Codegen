@@ -26,10 +26,10 @@ namespace Zenject {
     // Offset: 0x10
     UnityEngine::MonoBehaviour* monoBehaviour;
     // System.Boolean <FromComponentsSibling>b__2(UnityEngine.Component x)
-    // Offset: 0xE93974
+    // Offset: 0xF38ABC
     bool $FromComponentsSibling$b__2(UnityEngine::Component* x);
     // public System.Void .ctor()
-    // Offset: 0xE9396C
+    // Offset: 0xF38AB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass64_1* New_ctor();

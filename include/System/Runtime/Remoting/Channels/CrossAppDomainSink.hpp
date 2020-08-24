@@ -51,33 +51,33 @@ namespace System::Runtime::Remoting::Channels {
     // Set static field: static private System.Reflection.MethodInfo processMessageMethod
     static void _set_processMessageMethod(System::Reflection::MethodInfo* value);
     // System.Void .ctor(System.Int32 domainID)
-    // Offset: 0xFB57BC
+    // Offset: 0x1059904
     static CrossAppDomainSink* New_ctor(int domainID);
     // static System.Runtime.Remoting.Channels.CrossAppDomainSink GetSink(System.Int32 domainID)
-    // Offset: 0xFB5488
+    // Offset: 0x10595D0
     static System::Runtime::Remoting::Channels::CrossAppDomainSink* GetSink(int domainID);
     // System.Int32 get_TargetDomainId()
-    // Offset: 0xFB57E8
+    // Offset: 0x1059930
     int get_TargetDomainId();
     // static private System.Runtime.Remoting.Channels.CrossAppDomainSink/ProcessMessageRes ProcessMessageInDomain(System.Byte[] arrRequest, System.Runtime.Remoting.Messaging.CADMethodCallMessage cadMsg)
-    // Offset: 0xFB57F0
+    // Offset: 0x1059938
     static System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes ProcessMessageInDomain(::Array<uint8_t>* arrRequest, System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg);
     // public System.Void SendAsyncMessage(System.Object data)
-    // Offset: 0xFB61EC
+    // Offset: 0x105A334
     void SendAsyncMessage(::Il2CppObject* data);
     // static private System.Void .cctor()
-    // Offset: 0xFB6304
+    // Offset: 0x105A44C
     static void _cctor();
     // private System.Void <AsyncProcessMessage>b__10_0(System.Object data)
-    // Offset: 0xFB63E4
+    // Offset: 0x105A52C
     void $AsyncProcessMessage$b__10_0(::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msgRequest)
-    // Offset: 0xFB59C4
+    // Offset: 0x1059B0C
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessage IMessageSink::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msgRequest)
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msgRequest);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage reqMsg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0xFB613C
+    // Offset: 0x105A284
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage reqMsg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* reqMsg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);

@@ -79,31 +79,31 @@ namespace GlobalNamespace {
     // Offset: 0x58
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*>* unusedCutScoreHandlers;
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0x18DCFCC
+    // Offset: 0xB76528
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // protected System.Void Start()
-    // Offset: 0x18DCFD4
+    // Offset: 0xB76530
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x18DD3C0
+    // Offset: 0xB7691C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x18DD604
+    // Offset: 0xB76B60
     void Update();
     // private System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0x18DD804
+    // Offset: 0xB76D60
     void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* cutScoreHandler);
     // private System.Void HandleScoreControllerNoteWasCut(NoteData noteData, NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x18DD888
+    // Offset: 0xB76DE4
     void HandleScoreControllerNoteWasCut(GlobalNamespace::NoteData* noteData, GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier);
     // private System.Void HandleScoreControllerNoteWasMissed(NoteData noteData, System.Int32 multiplier)
-    // Offset: 0x18DDBBC
+    // Offset: 0xB77118
     void HandleScoreControllerNoteWasMissed(GlobalNamespace::NoteData* noteData, int multiplier);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0x18DDCBC
+    // Offset: 0xB77218
     void HandleObstacleDidPassAvoidedMark(GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0x18DDDC0
+    // Offset: 0xB7731C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

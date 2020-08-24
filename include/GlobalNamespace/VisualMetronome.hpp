@@ -80,34 +80,34 @@ namespace GlobalNamespace {
     // Offset: 0x74
     bool dontTickThisFrame;
     // public System.Void set_tickerColor(UnityEngine.Color value)
-    // Offset: 0x196FE30
+    // Offset: 0xC55BF0
     void set_tickerColor(UnityEngine::Color value);
     // public System.Void set_movingTickerColor(UnityEngine.Color value)
-    // Offset: 0x196FE54
+    // Offset: 0xC55C14
     void set_movingTickerColor(UnityEngine::Color value);
     // public System.Void set_zeroOffset(System.Single value)
-    // Offset: 0x196FE78
+    // Offset: 0xC55C38
     void set_zeroOffset(float value);
     // public System.Single get_zeroOffset()
-    // Offset: 0x196FE88
+    // Offset: 0xC55C48
     float get_zeroOffset();
     // protected System.Void Awake()
-    // Offset: 0x196FE90
+    // Offset: 0xC55C50
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x196FFA0
+    // Offset: 0xC55D60
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x196FFF4
+    // Offset: 0xC55DB4
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x1970048
+    // Offset: 0xC55E08
     void Update();
     // private System.Void SetMovingTickerNormalizedPosition(System.Single t)
-    // Offset: 0x197020C
+    // Offset: 0xC55FCC
     void SetMovingTickerNormalizedPosition(float t);
     // public System.Void .ctor()
-    // Offset: 0x19702D0
+    // Offset: 0xC56090
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

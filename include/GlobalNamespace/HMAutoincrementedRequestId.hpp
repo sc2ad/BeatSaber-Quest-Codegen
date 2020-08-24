@@ -21,31 +21,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.UInt64 _nextRequestId
     static void _set__nextRequestId(uint64_t value);
     // public System.UInt64 get_RequestId()
-    // Offset: 0xC13550
+    // Offset: 0xCB6698
     uint64_t get_RequestId();
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0xC13558
+    // Offset: 0xCB66A0
     static void NoDomainReloadInit();
     // static private System.Void .cctor()
-    // Offset: 0xC136D0
+    // Offset: 0xCB6818
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xC13480
+    // Offset: 0xCB65C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HMAutoincrementedRequestId* New_ctor();
     // public System.Boolean Equals(HMAutoincrementedRequestId obj)
-    // Offset: 0xC135C0
+    // Offset: 0xCB6708
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(HMAutoincrementedRequestId obj)
     bool Equals(GlobalNamespace::HMAutoincrementedRequestId* obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC135E0
+    // Offset: 0xCB6728
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC136A8
+    // Offset: 0xCB67F0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

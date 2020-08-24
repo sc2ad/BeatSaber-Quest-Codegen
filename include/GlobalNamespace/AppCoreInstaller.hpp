@@ -142,21 +142,21 @@ namespace GlobalNamespace {
     // Offset: 0xD8
     GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel;
     // private System.Void InstallRichPresence()
-    // Offset: 0x18EE9CC
+    // Offset: 0xB87F2C
     void InstallRichPresence();
     // private System.Void InstallOculusDestinationBindings()
-    // Offset: 0x18EE8E8
+    // Offset: 0xB87E48
     void InstallOculusDestinationBindings();
     // private System.Void InstallOldPlatformLeaderboardsModel()
-    // Offset: 0x18EEA84
+    // Offset: 0xB87FE4
     void InstallOldPlatformLeaderboardsModel();
     // public override System.Void InstallBindings()
-    // Offset: 0x18EE53C
+    // Offset: 0xB87A9C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x18EEBA8
+    // Offset: 0xB88108
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

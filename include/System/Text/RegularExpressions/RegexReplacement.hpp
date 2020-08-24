@@ -21,7 +21,7 @@ namespace System::Text::RegularExpressions {
   class RegexReplacement : public ::Il2CppObject {
     public:
     // static System.String Replace(System.Text.RegularExpressions.MatchEvaluator evaluator, System.Text.RegularExpressions.Regex regex, System.String input, System.Int32 count, System.Int32 startat)
-    // Offset: 0x1457DF8
+    // Offset: 0x1501F40
     static ::Il2CppString* Replace(System::Text::RegularExpressions::MatchEvaluator* evaluator, System::Text::RegularExpressions::Regex* regex, ::Il2CppString* input, int count, int startat);
   }; // System.Text.RegularExpressions.RegexReplacement
 }

@@ -20,13 +20,13 @@ namespace Oculus::Platform {
     // Offset: 0x20
     ::Array<float>* scratchBuffer;
     // private System.Void Awake()
-    // Offset: 0x18BFA38
+    // Offset: 0x196CB80
     void Awake();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x18BFAF8
+    // Offset: 0x196CC40
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0x18BFFF0
+    // Offset: 0x196D138
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

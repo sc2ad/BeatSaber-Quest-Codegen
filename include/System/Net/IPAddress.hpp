@@ -88,56 +88,56 @@ namespace System::Net {
     // Set static field: static System.Int32 NumberOfLabels
     static void _set_NumberOfLabels(int value);
     // public System.Void .ctor(System.Int64 newAddress)
-    // Offset: 0xEC8FE0
+    // Offset: 0xF6E128
     static IPAddress* New_ctor(int64_t newAddress);
     // public System.Void .ctor(System.Byte[] address, System.Int64 scopeid)
-    // Offset: 0xEC90AC
+    // Offset: 0xF6E1F4
     static IPAddress* New_ctor(::Array<uint8_t>* address, int64_t scopeid);
     // private System.Void .ctor(System.UInt16[] address, System.UInt32 scopeid)
-    // Offset: 0xEC9284
+    // Offset: 0xF6E3CC
     static IPAddress* New_ctor(::Array<uint16_t>* address, uint scopeid);
     // System.Void .ctor(System.Int32 newAddress)
-    // Offset: 0xEC9330
+    // Offset: 0xF6E478
     static IPAddress* New_ctor(int newAddress);
     // static public System.Boolean TryParse(System.String ipString, System.Net.IPAddress address)
-    // Offset: 0xEC8A68
+    // Offset: 0xF6DBB0
     static bool TryParse(::Il2CppString* ipString, System::Net::IPAddress*& address);
     // static public System.Net.IPAddress Parse(System.String ipString)
-    // Offset: 0xEC8614
+    // Offset: 0xF6D75C
     static System::Net::IPAddress* Parse(::Il2CppString* ipString);
     // static private System.Net.IPAddress InternalParse(System.String ipString, System.Boolean tryParse)
-    // Offset: 0xEC93BC
+    // Offset: 0xF6E504
     static System::Net::IPAddress* InternalParse(::Il2CppString* ipString, bool tryParse);
     // public System.Byte[] GetAddressBytes()
-    // Offset: 0xEC96E8
+    // Offset: 0xF6E830
     ::Array<uint8_t>* GetAddressBytes();
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0xEC9830
+    // Offset: 0xF6E978
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public System.Int64 get_ScopeId()
-    // Offset: 0xEC9838
+    // Offset: 0xF6E980
     int64_t get_ScopeId();
     // System.Boolean Equals(System.Object comparandObj, System.Boolean compareScopeId)
-    // Offset: 0xEC9DC8
+    // Offset: 0xF6EF10
     bool Equals(::Il2CppObject* comparandObj, bool compareScopeId);
     // public System.Net.IPAddress MapToIPv6()
-    // Offset: 0xECA00C
+    // Offset: 0xF6F154
     System::Net::IPAddress* MapToIPv6();
     // static private System.Void .cctor()
-    // Offset: 0xECA0F0
+    // Offset: 0xF6F238
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xEC98BC
+    // Offset: 0xF6EA04
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0xEC9F08
+    // Offset: 0xF6F050
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEC9F10
+    // Offset: 0xF6F058
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

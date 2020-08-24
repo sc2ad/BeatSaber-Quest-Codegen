@@ -17,13 +17,13 @@ namespace JetBrains::Annotations {
     // Offset: 0x10
     ::Il2CppString* Attribute;
     // public System.Void .ctor(System.String attribute)
-    // Offset: 0x18B3F28
+    // Offset: 0x1961070
     static AspRequiredAttributeAttribute* New_ctor(::Il2CppString* attribute);
     // public System.String get_Attribute()
-    // Offset: 0x18B3F5C
+    // Offset: 0x19610A4
     ::Il2CppString* get_Attribute();
     // private System.Void set_Attribute(System.String value)
-    // Offset: 0x18B3F64
+    // Offset: 0x19610AC
     void set_Attribute(::Il2CppString* value);
   }; // JetBrains.Annotations.AspRequiredAttributeAttribute
 }

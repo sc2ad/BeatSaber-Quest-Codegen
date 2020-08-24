@@ -71,28 +71,28 @@ namespace HMUI {
     // Offset: 0x60
     float contentHeight;
     // protected System.Void Start()
-    // Offset: 0x1046808
+    // Offset: 0x10E9950
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1046928
+    // Offset: 0x10E9A70
     void OnDestroy();
     // public System.Void SetText(System.String text)
-    // Offset: 0x104693C
+    // Offset: 0x10E9A84
     void SetText(::Il2CppString* text);
     // protected System.Void Update()
-    // Offset: 0x1046C68
+    // Offset: 0x10E9DB0
     void Update();
     // private System.Void PageUpButtonPressed()
-    // Offset: 0x1046DFC
+    // Offset: 0x10E9F44
     void PageUpButtonPressed();
     // private System.Void PageDownButtonPressed()
-    // Offset: 0x1046E90
+    // Offset: 0x10E9FD8
     void PageDownButtonPressed();
     // private System.Void RefreshButtonsInteractibility()
-    // Offset: 0x1046BCC
+    // Offset: 0x10E9D14
     void RefreshButtonsInteractibility();
     // public System.Void .ctor()
-    // Offset: 0x1046F6C
+    // Offset: 0x10EA0B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

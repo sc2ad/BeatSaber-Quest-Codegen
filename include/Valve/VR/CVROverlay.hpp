@@ -76,253 +76,253 @@ namespace Valve::VR {
     // Offset: 0x10
     Valve::VR::IVROverlay FnTable;
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0xF40BF4
+    // Offset: 0xFE5D3C
     static CVROverlay* New_ctor(System::IntPtr pInterface);
     // public Valve.VR.EVROverlayError FindOverlay(System.String pchOverlayKey, System.UInt64 pOverlayHandle)
-    // Offset: 0xF40D08
+    // Offset: 0xFE5E50
     Valve::VR::EVROverlayError FindOverlay(::Il2CppString* pchOverlayKey, uint64_t& pOverlayHandle);
     // public Valve.VR.EVROverlayError CreateOverlay(System.String pchOverlayKey, System.String pchOverlayName, System.UInt64 pOverlayHandle)
-    // Offset: 0xF40D28
+    // Offset: 0xFE5E70
     Valve::VR::EVROverlayError CreateOverlay(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayName, uint64_t& pOverlayHandle);
     // public Valve.VR.EVROverlayError DestroyOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0xF40D48
+    // Offset: 0xFE5E90
     Valve::VR::EVROverlayError DestroyOverlay(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError SetHighQualityOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0xF40D64
+    // Offset: 0xFE5EAC
     Valve::VR::EVROverlayError SetHighQualityOverlay(uint64_t ulOverlayHandle);
     // public System.UInt64 GetHighQualityOverlay()
-    // Offset: 0xF40D80
+    // Offset: 0xFE5EC8
     uint64_t GetHighQualityOverlay();
     // public System.UInt32 GetOverlayKey(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, Valve.VR.EVROverlayError pError)
-    // Offset: 0xF40D9C
+    // Offset: 0xFE5EE4
     uint GetOverlayKey(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, Valve::VR::EVROverlayError& pError);
     // public System.UInt32 GetOverlayName(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, Valve.VR.EVROverlayError pError)
-    // Offset: 0xF40DB8
+    // Offset: 0xFE5F00
     uint GetOverlayName(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, Valve::VR::EVROverlayError& pError);
     // public Valve.VR.EVROverlayError SetOverlayName(System.UInt64 ulOverlayHandle, System.String pchName)
-    // Offset: 0xF40DD4
+    // Offset: 0xFE5F1C
     Valve::VR::EVROverlayError SetOverlayName(uint64_t ulOverlayHandle, ::Il2CppString* pchName);
     // public Valve.VR.EVROverlayError GetOverlayImageData(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unBufferSize, System.UInt32 punWidth, System.UInt32 punHeight)
-    // Offset: 0xF40DF0
+    // Offset: 0xFE5F38
     Valve::VR::EVROverlayError GetOverlayImageData(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unBufferSize, uint& punWidth, uint& punHeight);
     // public System.String GetOverlayErrorNameFromEnum(Valve.VR.EVROverlayError error)
-    // Offset: 0xF40E14
+    // Offset: 0xFE5F5C
     ::Il2CppString* GetOverlayErrorNameFromEnum(Valve::VR::EVROverlayError error);
     // public Valve.VR.EVROverlayError SetOverlayRenderingPid(System.UInt64 ulOverlayHandle, System.UInt32 unPID)
-    // Offset: 0xF40EA8
+    // Offset: 0xFE5FF0
     Valve::VR::EVROverlayError SetOverlayRenderingPid(uint64_t ulOverlayHandle, uint unPID);
     // public System.UInt32 GetOverlayRenderingPid(System.UInt64 ulOverlayHandle)
-    // Offset: 0xF40EC4
+    // Offset: 0xFE600C
     uint GetOverlayRenderingPid(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError SetOverlayFlag(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayFlags eOverlayFlag, System.Boolean bEnabled)
-    // Offset: 0xF40EE0
+    // Offset: 0xFE6028
     Valve::VR::EVROverlayError SetOverlayFlag(uint64_t ulOverlayHandle, Valve::VR::VROverlayFlags eOverlayFlag, bool bEnabled);
     // public Valve.VR.EVROverlayError GetOverlayFlag(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayFlags eOverlayFlag, System.Boolean pbEnabled)
-    // Offset: 0xF40F00
+    // Offset: 0xFE6048
     Valve::VR::EVROverlayError GetOverlayFlag(uint64_t ulOverlayHandle, Valve::VR::VROverlayFlags eOverlayFlag, bool& pbEnabled);
     // public Valve.VR.EVROverlayError SetOverlayColor(System.UInt64 ulOverlayHandle, System.Single fRed, System.Single fGreen, System.Single fBlue)
-    // Offset: 0xF40F20
+    // Offset: 0xFE6068
     Valve::VR::EVROverlayError SetOverlayColor(uint64_t ulOverlayHandle, float fRed, float fGreen, float fBlue);
     // public Valve.VR.EVROverlayError GetOverlayColor(System.UInt64 ulOverlayHandle, System.Single pfRed, System.Single pfGreen, System.Single pfBlue)
-    // Offset: 0xF40F3C
+    // Offset: 0xFE6084
     Valve::VR::EVROverlayError GetOverlayColor(uint64_t ulOverlayHandle, float& pfRed, float& pfGreen, float& pfBlue);
     // public Valve.VR.EVROverlayError SetOverlayAlpha(System.UInt64 ulOverlayHandle, System.Single fAlpha)
-    // Offset: 0xF40F64
+    // Offset: 0xFE60AC
     Valve::VR::EVROverlayError SetOverlayAlpha(uint64_t ulOverlayHandle, float fAlpha);
     // public Valve.VR.EVROverlayError GetOverlayAlpha(System.UInt64 ulOverlayHandle, System.Single pfAlpha)
-    // Offset: 0xF40F80
+    // Offset: 0xFE60C8
     Valve::VR::EVROverlayError GetOverlayAlpha(uint64_t ulOverlayHandle, float& pfAlpha);
     // public Valve.VR.EVROverlayError SetOverlayTexelAspect(System.UInt64 ulOverlayHandle, System.Single fTexelAspect)
-    // Offset: 0xF40FA0
+    // Offset: 0xFE60E8
     Valve::VR::EVROverlayError SetOverlayTexelAspect(uint64_t ulOverlayHandle, float fTexelAspect);
     // public Valve.VR.EVROverlayError GetOverlayTexelAspect(System.UInt64 ulOverlayHandle, System.Single pfTexelAspect)
-    // Offset: 0xF40FBC
+    // Offset: 0xFE6104
     Valve::VR::EVROverlayError GetOverlayTexelAspect(uint64_t ulOverlayHandle, float& pfTexelAspect);
     // public Valve.VR.EVROverlayError SetOverlaySortOrder(System.UInt64 ulOverlayHandle, System.UInt32 unSortOrder)
-    // Offset: 0xF40FDC
+    // Offset: 0xFE6124
     Valve::VR::EVROverlayError SetOverlaySortOrder(uint64_t ulOverlayHandle, uint unSortOrder);
     // public Valve.VR.EVROverlayError GetOverlaySortOrder(System.UInt64 ulOverlayHandle, System.UInt32 punSortOrder)
-    // Offset: 0xF40FF8
+    // Offset: 0xFE6140
     Valve::VR::EVROverlayError GetOverlaySortOrder(uint64_t ulOverlayHandle, uint& punSortOrder);
     // public Valve.VR.EVROverlayError SetOverlayWidthInMeters(System.UInt64 ulOverlayHandle, System.Single fWidthInMeters)
-    // Offset: 0xF41018
+    // Offset: 0xFE6160
     Valve::VR::EVROverlayError SetOverlayWidthInMeters(uint64_t ulOverlayHandle, float fWidthInMeters);
     // public Valve.VR.EVROverlayError GetOverlayWidthInMeters(System.UInt64 ulOverlayHandle, System.Single pfWidthInMeters)
-    // Offset: 0xF41034
+    // Offset: 0xFE617C
     Valve::VR::EVROverlayError GetOverlayWidthInMeters(uint64_t ulOverlayHandle, float& pfWidthInMeters);
     // public Valve.VR.EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(System.UInt64 ulOverlayHandle, System.Single fMinDistanceInMeters, System.Single fMaxDistanceInMeters)
-    // Offset: 0xF41054
+    // Offset: 0xFE619C
     Valve::VR::EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters);
     // public Valve.VR.EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(System.UInt64 ulOverlayHandle, System.Single pfMinDistanceInMeters, System.Single pfMaxDistanceInMeters)
-    // Offset: 0xF41070
+    // Offset: 0xFE61B8
     Valve::VR::EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, float& pfMinDistanceInMeters, float& pfMaxDistanceInMeters);
     // public Valve.VR.EVROverlayError SetOverlayTextureColorSpace(System.UInt64 ulOverlayHandle, Valve.VR.EColorSpace eTextureColorSpace)
-    // Offset: 0xF41094
+    // Offset: 0xFE61DC
     Valve::VR::EVROverlayError SetOverlayTextureColorSpace(uint64_t ulOverlayHandle, Valve::VR::EColorSpace eTextureColorSpace);
     // public Valve.VR.EVROverlayError GetOverlayTextureColorSpace(System.UInt64 ulOverlayHandle, Valve.VR.EColorSpace peTextureColorSpace)
-    // Offset: 0xF410B0
+    // Offset: 0xFE61F8
     Valve::VR::EVROverlayError GetOverlayTextureColorSpace(uint64_t ulOverlayHandle, Valve::VR::EColorSpace& peTextureColorSpace);
     // public Valve.VR.EVROverlayError SetOverlayTextureBounds(System.UInt64 ulOverlayHandle, Valve.VR.VRTextureBounds_t pOverlayTextureBounds)
-    // Offset: 0xF410CC
+    // Offset: 0xFE6214
     Valve::VR::EVROverlayError SetOverlayTextureBounds(uint64_t ulOverlayHandle, Valve::VR::VRTextureBounds_t& pOverlayTextureBounds);
     // public Valve.VR.EVROverlayError GetOverlayTextureBounds(System.UInt64 ulOverlayHandle, Valve.VR.VRTextureBounds_t pOverlayTextureBounds)
-    // Offset: 0xF410E8
+    // Offset: 0xFE6230
     Valve::VR::EVROverlayError GetOverlayTextureBounds(uint64_t ulOverlayHandle, Valve::VR::VRTextureBounds_t& pOverlayTextureBounds);
     // public System.UInt32 GetOverlayRenderModel(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, Valve.VR.HmdColor_t pColor, Valve.VR.EVROverlayError pError)
-    // Offset: 0xF41104
+    // Offset: 0xFE624C
     uint GetOverlayRenderModel(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, Valve::VR::HmdColor_t& pColor, Valve::VR::EVROverlayError& pError);
     // public Valve.VR.EVROverlayError SetOverlayRenderModel(System.UInt64 ulOverlayHandle, System.String pchRenderModel, Valve.VR.HmdColor_t pColor)
-    // Offset: 0xF41120
+    // Offset: 0xFE6268
     Valve::VR::EVROverlayError SetOverlayRenderModel(uint64_t ulOverlayHandle, ::Il2CppString* pchRenderModel, Valve::VR::HmdColor_t& pColor);
     // public Valve.VR.EVROverlayError GetOverlayTransformType(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayTransformType peTransformType)
-    // Offset: 0xF4113C
+    // Offset: 0xFE6284
     Valve::VR::EVROverlayError GetOverlayTransformType(uint64_t ulOverlayHandle, Valve::VR::VROverlayTransformType& peTransformType);
     // public Valve.VR.EVROverlayError SetOverlayTransformAbsolute(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
-    // Offset: 0xF41158
+    // Offset: 0xFE62A0
     Valve::VR::EVROverlayError SetOverlayTransformAbsolute(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform);
     // public Valve.VR.EVROverlayError GetOverlayTransformAbsolute(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin peTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
-    // Offset: 0xF41174
+    // Offset: 0xFE62BC
     Valve::VR::EVROverlayError GetOverlayTransformAbsolute(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin& peTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform);
     // public Valve.VR.EVROverlayError SetOverlayTransformTrackedDeviceRelative(System.UInt64 ulOverlayHandle, System.UInt32 unTrackedDevice, Valve.VR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
-    // Offset: 0xF41190
+    // Offset: 0xFE62D8
     Valve::VR::EVROverlayError SetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, uint unTrackedDevice, Valve::VR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform);
     // public Valve.VR.EVROverlayError GetOverlayTransformTrackedDeviceRelative(System.UInt64 ulOverlayHandle, System.UInt32 punTrackedDevice, Valve.VR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
-    // Offset: 0xF411AC
+    // Offset: 0xFE62F4
     Valve::VR::EVROverlayError GetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, uint& punTrackedDevice, Valve::VR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform);
     // public Valve.VR.EVROverlayError SetOverlayTransformTrackedDeviceComponent(System.UInt64 ulOverlayHandle, System.UInt32 unDeviceIndex, System.String pchComponentName)
-    // Offset: 0xF411CC
+    // Offset: 0xFE6314
     Valve::VR::EVROverlayError SetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, uint unDeviceIndex, ::Il2CppString* pchComponentName);
     // public Valve.VR.EVROverlayError GetOverlayTransformTrackedDeviceComponent(System.UInt64 ulOverlayHandle, System.UInt32 punDeviceIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameSize)
-    // Offset: 0xF411E8
+    // Offset: 0xFE6330
     Valve::VR::EVROverlayError GetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, uint& punDeviceIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameSize);
     // public Valve.VR.EVROverlayError GetOverlayTransformOverlayRelative(System.UInt64 ulOverlayHandle, System.UInt64 ulOverlayHandleParent, Valve.VR.HmdMatrix34_t pmatParentOverlayToOverlayTransform)
-    // Offset: 0xF41208
+    // Offset: 0xFE6350
     Valve::VR::EVROverlayError GetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, uint64_t& ulOverlayHandleParent, Valve::VR::HmdMatrix34_t& pmatParentOverlayToOverlayTransform);
     // public Valve.VR.EVROverlayError SetOverlayTransformOverlayRelative(System.UInt64 ulOverlayHandle, System.UInt64 ulOverlayHandleParent, Valve.VR.HmdMatrix34_t pmatParentOverlayToOverlayTransform)
-    // Offset: 0xF41228
+    // Offset: 0xFE6370
     Valve::VR::EVROverlayError SetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, Valve::VR::HmdMatrix34_t& pmatParentOverlayToOverlayTransform);
     // public Valve.VR.EVROverlayError ShowOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0xF41244
+    // Offset: 0xFE638C
     Valve::VR::EVROverlayError ShowOverlay(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError HideOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0xF41260
+    // Offset: 0xFE63A8
     Valve::VR::EVROverlayError HideOverlay(uint64_t ulOverlayHandle);
     // public System.Boolean IsOverlayVisible(System.UInt64 ulOverlayHandle)
-    // Offset: 0xF4127C
+    // Offset: 0xFE63C4
     bool IsOverlayVisible(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError GetTransformForOverlayCoordinates(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdVector2_t coordinatesInOverlay, Valve.VR.HmdMatrix34_t pmatTransform)
-    // Offset: 0xF41298
+    // Offset: 0xFE63E0
     Valve::VR::EVROverlayError GetTransformForOverlayCoordinates(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdVector2_t coordinatesInOverlay, Valve::VR::HmdMatrix34_t& pmatTransform);
     // public System.Boolean PollNextOverlayEvent(System.UInt64 ulOverlayHandle, Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent)
-    // Offset: 0xF412B4
+    // Offset: 0xFE63FC
     bool PollNextOverlayEvent(uint64_t ulOverlayHandle, Valve::VR::VREvent_t& pEvent, uint uncbVREvent);
     // public Valve.VR.EVROverlayError GetOverlayInputMethod(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayInputMethod peInputMethod)
-    // Offset: 0xF416F0
+    // Offset: 0xFE6838
     Valve::VR::EVROverlayError GetOverlayInputMethod(uint64_t ulOverlayHandle, Valve::VR::VROverlayInputMethod& peInputMethod);
     // public Valve.VR.EVROverlayError SetOverlayInputMethod(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayInputMethod eInputMethod)
-    // Offset: 0xF4170C
+    // Offset: 0xFE6854
     Valve::VR::EVROverlayError SetOverlayInputMethod(uint64_t ulOverlayHandle, Valve::VR::VROverlayInputMethod eInputMethod);
     // public Valve.VR.EVROverlayError GetOverlayMouseScale(System.UInt64 ulOverlayHandle, Valve.VR.HmdVector2_t pvecMouseScale)
-    // Offset: 0xF41728
+    // Offset: 0xFE6870
     Valve::VR::EVROverlayError GetOverlayMouseScale(uint64_t ulOverlayHandle, Valve::VR::HmdVector2_t& pvecMouseScale);
     // public Valve.VR.EVROverlayError SetOverlayMouseScale(System.UInt64 ulOverlayHandle, Valve.VR.HmdVector2_t pvecMouseScale)
-    // Offset: 0xF41744
+    // Offset: 0xFE688C
     Valve::VR::EVROverlayError SetOverlayMouseScale(uint64_t ulOverlayHandle, Valve::VR::HmdVector2_t& pvecMouseScale);
     // public System.Boolean ComputeOverlayIntersection(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayIntersectionParams_t pParams, Valve.VR.VROverlayIntersectionResults_t pResults)
-    // Offset: 0xF41760
+    // Offset: 0xFE68A8
     bool ComputeOverlayIntersection(uint64_t ulOverlayHandle, Valve::VR::VROverlayIntersectionParams_t& pParams, Valve::VR::VROverlayIntersectionResults_t& pResults);
     // public System.Boolean IsHoverTargetOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0xF4177C
+    // Offset: 0xFE68C4
     bool IsHoverTargetOverlay(uint64_t ulOverlayHandle);
     // public System.UInt64 GetGamepadFocusOverlay()
-    // Offset: 0xF41798
+    // Offset: 0xFE68E0
     uint64_t GetGamepadFocusOverlay();
     // public Valve.VR.EVROverlayError SetGamepadFocusOverlay(System.UInt64 ulNewFocusOverlay)
-    // Offset: 0xF417B4
+    // Offset: 0xFE68FC
     Valve::VR::EVROverlayError SetGamepadFocusOverlay(uint64_t ulNewFocusOverlay);
     // public Valve.VR.EVROverlayError SetOverlayNeighbor(Valve.VR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.UInt64 ulTo)
-    // Offset: 0xF417D0
+    // Offset: 0xFE6918
     Valve::VR::EVROverlayError SetOverlayNeighbor(Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
     // public Valve.VR.EVROverlayError MoveGamepadFocusToNeighbor(Valve.VR.EOverlayDirection eDirection, System.UInt64 ulFrom)
-    // Offset: 0xF417EC
+    // Offset: 0xFE6934
     Valve::VR::EVROverlayError MoveGamepadFocusToNeighbor(Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom);
     // public Valve.VR.EVROverlayError SetOverlayDualAnalogTransform(System.UInt64 ulOverlay, Valve.VR.EDualAnalogWhich eWhich, System.IntPtr vCenter, System.Single fRadius)
-    // Offset: 0xF41808
+    // Offset: 0xFE6950
     Valve::VR::EVROverlayError SetOverlayDualAnalogTransform(uint64_t ulOverlay, Valve::VR::EDualAnalogWhich eWhich, System::IntPtr vCenter, float fRadius);
     // public Valve.VR.EVROverlayError GetOverlayDualAnalogTransform(System.UInt64 ulOverlay, Valve.VR.EDualAnalogWhich eWhich, Valve.VR.HmdVector2_t pvCenter, System.Single pfRadius)
-    // Offset: 0xF41824
+    // Offset: 0xFE696C
     Valve::VR::EVROverlayError GetOverlayDualAnalogTransform(uint64_t ulOverlay, Valve::VR::EDualAnalogWhich eWhich, Valve::VR::HmdVector2_t& pvCenter, float& pfRadius);
     // public Valve.VR.EVROverlayError SetOverlayTexture(System.UInt64 ulOverlayHandle, Valve.VR.Texture_t pTexture)
-    // Offset: 0xF41844
+    // Offset: 0xFE698C
     Valve::VR::EVROverlayError SetOverlayTexture(uint64_t ulOverlayHandle, Valve::VR::Texture_t& pTexture);
     // public Valve.VR.EVROverlayError ClearOverlayTexture(System.UInt64 ulOverlayHandle)
-    // Offset: 0xF41860
+    // Offset: 0xFE69A8
     Valve::VR::EVROverlayError ClearOverlayTexture(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError SetOverlayRaw(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unWidth, System.UInt32 unHeight, System.UInt32 unDepth)
-    // Offset: 0xF4187C
+    // Offset: 0xFE69C4
     Valve::VR::EVROverlayError SetOverlayRaw(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unWidth, uint unHeight, uint unDepth);
     // public Valve.VR.EVROverlayError SetOverlayFromFile(System.UInt64 ulOverlayHandle, System.String pchFilePath)
-    // Offset: 0xF41898
+    // Offset: 0xFE69E0
     Valve::VR::EVROverlayError SetOverlayFromFile(uint64_t ulOverlayHandle, ::Il2CppString* pchFilePath);
     // public Valve.VR.EVROverlayError GetOverlayTexture(System.UInt64 ulOverlayHandle, System.IntPtr pNativeTextureHandle, System.IntPtr pNativeTextureRef, System.UInt32 pWidth, System.UInt32 pHeight, System.UInt32 pNativeFormat, Valve.VR.ETextureType pAPIType, Valve.VR.EColorSpace pColorSpace, Valve.VR.VRTextureBounds_t pTextureBounds)
-    // Offset: 0xF418B4
+    // Offset: 0xFE69FC
     Valve::VR::EVROverlayError GetOverlayTexture(uint64_t ulOverlayHandle, System::IntPtr& pNativeTextureHandle, System::IntPtr pNativeTextureRef, uint& pWidth, uint& pHeight, uint& pNativeFormat, Valve::VR::ETextureType& pAPIType, Valve::VR::EColorSpace& pColorSpace, Valve::VR::VRTextureBounds_t& pTextureBounds);
     // public Valve.VR.EVROverlayError ReleaseNativeOverlayHandle(System.UInt64 ulOverlayHandle, System.IntPtr pNativeTextureHandle)
-    // Offset: 0xF418E8
+    // Offset: 0xFE6A30
     Valve::VR::EVROverlayError ReleaseNativeOverlayHandle(uint64_t ulOverlayHandle, System::IntPtr pNativeTextureHandle);
     // public Valve.VR.EVROverlayError GetOverlayTextureSize(System.UInt64 ulOverlayHandle, System.UInt32 pWidth, System.UInt32 pHeight)
-    // Offset: 0xF41904
+    // Offset: 0xFE6A4C
     Valve::VR::EVROverlayError GetOverlayTextureSize(uint64_t ulOverlayHandle, uint& pWidth, uint& pHeight);
     // public Valve.VR.EVROverlayError CreateDashboardOverlay(System.String pchOverlayKey, System.String pchOverlayFriendlyName, System.UInt64 pMainHandle, System.UInt64 pThumbnailHandle)
-    // Offset: 0xF41928
+    // Offset: 0xFE6A70
     Valve::VR::EVROverlayError CreateDashboardOverlay(::Il2CppString* pchOverlayKey, ::Il2CppString* pchOverlayFriendlyName, uint64_t& pMainHandle, uint64_t& pThumbnailHandle);
     // public System.Boolean IsDashboardVisible()
-    // Offset: 0xF4194C
+    // Offset: 0xFE6A94
     bool IsDashboardVisible();
     // public System.Boolean IsActiveDashboardOverlay(System.UInt64 ulOverlayHandle)
-    // Offset: 0xF41968
+    // Offset: 0xFE6AB0
     bool IsActiveDashboardOverlay(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError SetDashboardOverlaySceneProcess(System.UInt64 ulOverlayHandle, System.UInt32 unProcessId)
-    // Offset: 0xF41984
+    // Offset: 0xFE6ACC
     Valve::VR::EVROverlayError SetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, uint unProcessId);
     // public Valve.VR.EVROverlayError GetDashboardOverlaySceneProcess(System.UInt64 ulOverlayHandle, System.UInt32 punProcessId)
-    // Offset: 0xF419A0
+    // Offset: 0xFE6AE8
     Valve::VR::EVROverlayError GetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, uint& punProcessId);
     // public System.Void ShowDashboard(System.String pchOverlayToShow)
-    // Offset: 0xF419C0
+    // Offset: 0xFE6B08
     void ShowDashboard(::Il2CppString* pchOverlayToShow);
     // public System.UInt32 GetPrimaryDashboardDevice()
-    // Offset: 0xF419DC
+    // Offset: 0xFE6B24
     uint GetPrimaryDashboardDevice();
     // public Valve.VR.EVROverlayError ShowKeyboard(System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)
-    // Offset: 0xF419F8
+    // Offset: 0xFE6B40
     Valve::VR::EVROverlayError ShowKeyboard(int eInputMode, int eLineInputMode, ::Il2CppString* pchDescription, uint unCharMax, ::Il2CppString* pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
     // public Valve.VR.EVROverlayError ShowKeyboardForOverlay(System.UInt64 ulOverlayHandle, System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)
-    // Offset: 0xF41A1C
+    // Offset: 0xFE6B64
     Valve::VR::EVROverlayError ShowKeyboardForOverlay(uint64_t ulOverlayHandle, int eInputMode, int eLineInputMode, ::Il2CppString* pchDescription, uint unCharMax, ::Il2CppString* pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
     // public System.UInt32 GetKeyboardText(System.Text.StringBuilder pchText, System.UInt32 cchText)
-    // Offset: 0xF41A44
+    // Offset: 0xFE6B8C
     uint GetKeyboardText(System::Text::StringBuilder* pchText, uint cchText);
     // public System.Void HideKeyboard()
-    // Offset: 0xF41A60
+    // Offset: 0xFE6BA8
     void HideKeyboard();
     // public System.Void SetKeyboardTransformAbsolute(Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform)
-    // Offset: 0xF41A7C
+    // Offset: 0xFE6BC4
     void SetKeyboardTransformAbsolute(Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdMatrix34_t& pmatTrackingOriginToKeyboardTransform);
     // public System.Void SetKeyboardPositionForOverlay(System.UInt64 ulOverlayHandle, Valve.VR.HmdRect2_t avoidRect)
-    // Offset: 0xF41A98
+    // Offset: 0xFE6BE0
     void SetKeyboardPositionForOverlay(uint64_t ulOverlayHandle, Valve::VR::HmdRect2_t avoidRect);
     // public Valve.VR.EVROverlayError SetOverlayIntersectionMask(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayIntersectionMaskPrimitive_t pMaskPrimitives, System.UInt32 unNumMaskPrimitives, System.UInt32 unPrimitiveSize)
-    // Offset: 0xF41AB4
+    // Offset: 0xFE6BFC
     Valve::VR::EVROverlayError SetOverlayIntersectionMask(uint64_t ulOverlayHandle, Valve::VR::VROverlayIntersectionMaskPrimitive_t& pMaskPrimitives, uint unNumMaskPrimitives, uint unPrimitiveSize);
     // public Valve.VR.EVROverlayError GetOverlayFlags(System.UInt64 ulOverlayHandle, System.UInt32 pFlags)
-    // Offset: 0xF41AD0
+    // Offset: 0xFE6C18
     Valve::VR::EVROverlayError GetOverlayFlags(uint64_t ulOverlayHandle, uint& pFlags);
     // public Valve.VR.VRMessageOverlayResponse ShowMessageOverlay(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text)
-    // Offset: 0xF41AF0
+    // Offset: 0xFE6C38
     Valve::VR::VRMessageOverlayResponse ShowMessageOverlay(::Il2CppString* pchText, ::Il2CppString* pchCaption, ::Il2CppString* pchButton0Text, ::Il2CppString* pchButton1Text, ::Il2CppString* pchButton2Text, ::Il2CppString* pchButton3Text);
     // public System.Void CloseMessageOverlay()
-    // Offset: 0xF41B0C
+    // Offset: 0xFE6C54
     void CloseMessageOverlay();
   }; // Valve.VR.CVROverlay
 }

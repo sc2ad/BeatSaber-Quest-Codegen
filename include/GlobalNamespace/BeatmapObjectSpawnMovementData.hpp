@@ -123,46 +123,46 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     UnityEngine::Vector3 centerPos;
     // public System.Single get_spawnAheadTime()
-    // Offset: 0x18E15F0
+    // Offset: 0xB7AB4C
     float get_spawnAheadTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x18E15F8
+    // Offset: 0xB7AB54
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x18E1600
+    // Offset: 0xB7AB5C
     float get_jumpDuration();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x18E1608
+    // Offset: 0xB7AB64
     float get_noteLinesDistance();
     // public System.Void Init(System.Int32 noteLinesCount, System.Single startNoteJumpMovementSpeed, System.Single startBPM, System.Single noteJumpStartBeatOffset, System.Single jumpOffsetY, UnityEngine.Vector3 centerPos, UnityEngine.Vector3 rightVec, UnityEngine.Vector3 forwardVec)
-    // Offset: 0x18E040C
+    // Offset: 0xB79968
     void Init(int noteLinesCount, float startNoteJumpMovementSpeed, float startBPM, float noteJumpStartBeatOffset, float jumpOffsetY, UnityEngine::Vector3 centerPos, UnityEngine::Vector3 rightVec, UnityEngine::Vector3 forwardVec);
     // public System.Void Update(System.Single bpm, System.Single jumpOffsetY)
-    // Offset: 0x18E0F50
+    // Offset: 0xB7A4AC
     void Update(float bpm, float jumpOffsetY);
     // public System.Void GetObstacleSpawnMovementData(ObstacleData obstacleData, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight)
-    // Offset: 0x18E0818
+    // Offset: 0xB79D74
     void GetObstacleSpawnMovementData(GlobalNamespace::ObstacleData* obstacleData, UnityEngine::Vector3& moveStartPos, UnityEngine::Vector3& moveEndPos, UnityEngine::Vector3& jumpEndPos, float& obstacleHeight);
     // public System.Void GetNoteSpawnMovementData(NoteData noteData, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity)
-    // Offset: 0x18E0CD4
+    // Offset: 0xB7A230
     void GetNoteSpawnMovementData(GlobalNamespace::NoteData* noteData, UnityEngine::Vector3& moveStartPos, UnityEngine::Vector3& moveEndPos, UnityEngine::Vector3& jumpEndPos, float& jumpGravity);
     // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x18E1610
+    // Offset: 0xB7AB6C
     UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x18E05E8
+    // Offset: 0xB79B44
     UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // private System.Single HighestJumpPosYForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x18E185C
+    // Offset: 0xB7ADB8
     float HighestJumpPosYForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single LineYPosForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x18E1834
+    // Offset: 0xB7AD90
     float LineYPosForLineLayer(GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer startLineLayer)
-    // Offset: 0x18E1744
+    // Offset: 0xB7ACA0
     float NoteJumpGravityForLineLayer(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer startLineLayer);
     // public System.Void .ctor()
-    // Offset: 0x18E12DC
+    // Offset: 0xB7A838
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectSpawnMovementData* New_ctor();

@@ -33,13 +33,13 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     System::Text::Encoding* GetEncoding(int codepage);
     // static System.Text.Encoding GetEncodingFromProvider(System.Int32 codepage)
-    // Offset: 0x125020C
+    // Offset: 0x12F6354
     static System::Text::Encoding* GetEncodingFromProvider(int codepage);
     // static System.Text.Encoding GetEncodingFromProvider(System.String encodingName)
-    // Offset: 0x1250E90
+    // Offset: 0x12F6FD8
     static System::Text::Encoding* GetEncodingFromProvider(::Il2CppString* encodingName);
     // static private System.Void .cctor()
-    // Offset: 0x1254F5C
+    // Offset: 0x12FB0A4
     static void _cctor();
   }; // System.Text.EncodingProvider
 }

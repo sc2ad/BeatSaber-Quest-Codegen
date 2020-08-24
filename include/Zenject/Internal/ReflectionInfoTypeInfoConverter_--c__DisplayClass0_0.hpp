@@ -24,10 +24,10 @@ namespace Zenject::Internal {
     // Offset: 0x10
     System::Reflection::MethodInfo* methodInfo;
     // System.Void <ConvertMethod>b__0(System.Object obj, System.Object[] args)
-    // Offset: 0xE9A48C
+    // Offset: 0xF3F5D4
     void $ConvertMethod$b__0(::Il2CppObject* obj, ::Array<::Il2CppObject*>* args);
     // public System.Void .ctor()
-    // Offset: 0xE99904
+    // Offset: 0xF3EA4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0* New_ctor();

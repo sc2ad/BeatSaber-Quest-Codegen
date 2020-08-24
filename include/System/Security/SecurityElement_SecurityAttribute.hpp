@@ -20,13 +20,13 @@ namespace System::Security {
     // Offset: 0x18
     ::Il2CppString* value;
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0xD4B06C
+    // Offset: 0xDF01B4
     static SecurityElement::SecurityAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* value);
     // public System.String get_Name()
-    // Offset: 0xD4BEFC
+    // Offset: 0xDF1044
     ::Il2CppString* get_Name();
     // public System.String get_Value()
-    // Offset: 0xD4BF04
+    // Offset: 0xDF104C
     ::Il2CppString* get_Value();
   }; // System.Security.SecurityElement/SecurityAttribute
 }

@@ -104,31 +104,31 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: FrameData
     FrameData(uint64_t m_FrameID_ = {}, double m_DeltaTime_ = {}, float m_Weight_ = {}, float m_EffectiveWeight_ = {}, double m_EffectiveParentDelay_ = {}, float m_EffectiveParentSpeed_ = {}, float m_EffectiveSpeed_ = {}, UnityEngine::Playables::FrameData::Flags m_Flags_ = {}, UnityEngine::Playables::PlayableOutput m_Output_ = {}) : m_FrameID{m_FrameID_}, m_DeltaTime{m_DeltaTime_}, m_Weight{m_Weight_}, m_EffectiveWeight{m_EffectiveWeight_}, m_EffectiveParentDelay{m_EffectiveParentDelay_}, m_EffectiveParentSpeed{m_EffectiveParentSpeed_}, m_EffectiveSpeed{m_EffectiveSpeed_}, m_Flags{m_Flags_}, m_Output{m_Output_} {}
     // private System.Boolean HasFlags(UnityEngine.Playables.FrameData/Flags flag)
-    // Offset: 0x9AE350
+    // Offset: 0xA489C8
     bool HasFlags(UnityEngine::Playables::FrameData::Flags flag);
     // public System.Single get_deltaTime()
-    // Offset: 0x9AE360
+    // Offset: 0xA489D8
     float get_deltaTime();
     // public System.Single get_effectiveSpeed()
-    // Offset: 0x9AE36C
+    // Offset: 0xA489E4
     float get_effectiveSpeed();
     // public UnityEngine.Playables.FrameData/EvaluationType get_evaluationType()
-    // Offset: 0x9AE374
+    // Offset: 0xA489EC
     UnityEngine::Playables::FrameData::EvaluationType get_evaluationType();
     // public System.Boolean get_seekOccurred()
-    // Offset: 0x9AE384
+    // Offset: 0xA489FC
     bool get_seekOccurred();
     // public System.Boolean get_timeLooped()
-    // Offset: 0x9AE390
+    // Offset: 0xA48A08
     bool get_timeLooped();
     // public System.Boolean get_timeHeld()
-    // Offset: 0x9AE39C
+    // Offset: 0xA48A14
     bool get_timeHeld();
     // public UnityEngine.Playables.PlayableOutput get_output()
-    // Offset: 0x9AE3A8
+    // Offset: 0xA48A20
     UnityEngine::Playables::PlayableOutput get_output();
     // public UnityEngine.Playables.PlayState get_effectivePlayState()
-    // Offset: 0x9AE3B4
+    // Offset: 0xA48A2C
     UnityEngine::Playables::PlayState get_effectivePlayState();
   }; // UnityEngine.Playables.FrameData
 }

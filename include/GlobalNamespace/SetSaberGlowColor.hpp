@@ -52,22 +52,22 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::SaberType saberType;
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0xBA20E0
+    // Offset: 0xC2E498
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0xBA2268
+    // Offset: 0xC2E620
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0xBA2344
+    // Offset: 0xC2E6FC
     void OnDestroy();
     // private System.Void HandleColorManagerColorsDidChange()
-    // Offset: 0xBA2418
+    // Offset: 0xC2E7D0
     void HandleColorManagerColorsDidChange();
     // private System.Void SetColors()
-    // Offset: 0xBA2114
+    // Offset: 0xC2E4CC
     void SetColors();
     // public System.Void .ctor()
-    // Offset: 0xBA241C
+    // Offset: 0xC2E7D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

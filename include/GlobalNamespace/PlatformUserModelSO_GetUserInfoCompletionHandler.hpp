@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class PlatformUserModelSO::GetUserInfoCompletionHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x191BA70
+    // Offset: 0xBD7330
     static PlatformUserModelSO::GetUserInfoCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformUserModelSO/GetUserInfoResult result, PlatformUserModelSO/UserInfo userInfo)
-    // Offset: 0x191D538
+    // Offset: 0xBD8DF8
     void Invoke(GlobalNamespace::PlatformUserModelSO::GetUserInfoResult result, GlobalNamespace::PlatformUserModelSO::UserInfo* userInfo);
     // public System.IAsyncResult BeginInvoke(PlatformUserModelSO/GetUserInfoResult result, PlatformUserModelSO/UserInfo userInfo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x191D7C0
+    // Offset: 0xBD9080
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformUserModelSO::GetUserInfoResult result, GlobalNamespace::PlatformUserModelSO::UserInfo* userInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x191D858
+    // Offset: 0xBD9118
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformUserModelSO/GetUserInfoCompletionHandler
 }

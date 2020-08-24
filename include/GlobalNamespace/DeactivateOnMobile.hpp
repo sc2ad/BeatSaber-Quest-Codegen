@@ -14,10 +14,10 @@ namespace GlobalNamespace {
   class DeactivateOnMobile : public UnityEngine::MonoBehaviour {
     public:
     // protected System.Void Awake()
-    // Offset: 0x192A7E8
+    // Offset: 0xBE60AC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x192A810
+    // Offset: 0xBE60D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

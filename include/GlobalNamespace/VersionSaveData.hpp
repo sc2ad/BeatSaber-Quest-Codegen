@@ -15,7 +15,7 @@ namespace GlobalNamespace {
     // Offset: 0x10
     ::Il2CppString* version;
     // public System.Void .ctor()
-    // Offset: 0x196FE28
+    // Offset: 0xC55BE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VersionSaveData* New_ctor();

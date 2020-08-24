@@ -17,7 +17,7 @@ namespace TMPro {
     // Offset: 0xFFFFFFFF
     ::Il2CppChar Validate(::Il2CppString*& text, int& pos, ::Il2CppChar ch);
     // protected System.Void .ctor()
-    // Offset: 0xB6D898
+    // Offset: 0xBACD70
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

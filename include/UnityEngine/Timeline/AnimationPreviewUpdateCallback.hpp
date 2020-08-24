@@ -40,13 +40,13 @@ namespace UnityEngine::Timeline {
     // Offset: 0x30
     System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>* m_PreviewComponents;
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0xFECF78
+    // Offset: 0x10910C0
     static AnimationPreviewUpdateCallback* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output);
     // private System.Void FetchPreviewComponents()
-    // Offset: 0xFED1B4
+    // Offset: 0x10912FC
     void FetchPreviewComponents();
     // public System.Void Evaluate()
-    // Offset: 0xFED028
+    // Offset: 0x1091170
     // Implemented from: UnityEngine.Timeline.ITimelineEvaluateCallback
     // Base method: System.Void ITimelineEvaluateCallback::Evaluate()
     void Evaluate();

@@ -20,19 +20,19 @@ namespace UnityEngine {
     // Creating value type constructor for type: EmissionModule
     EmissionModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) : m_ParticleSystem{m_ParticleSystem_} {}
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0x9C5D70
+    // Offset: 0xA5F3E8
     static ParticleSystem::EmissionModule* New_ctor(UnityEngine::ParticleSystem* particleSystem);
     // public System.Boolean get_enabled()
-    // Offset: 0x9C5D78
+    // Offset: 0xA5F3F0
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x9C5DB8
+    // Offset: 0xA5F430
     void set_enabled(bool value);
     // static private System.Boolean get_enabled_Injected(UnityEngine.ParticleSystem/EmissionModule _unity_self)
-    // Offset: 0x18C156C
+    // Offset: 0x196E6B4
     static bool get_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self);
     // static private System.Void set_enabled_Injected(UnityEngine.ParticleSystem/EmissionModule _unity_self, System.Boolean value)
-    // Offset: 0x18C15FC
+    // Offset: 0x196E744
     static void set_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/EmissionModule
 }

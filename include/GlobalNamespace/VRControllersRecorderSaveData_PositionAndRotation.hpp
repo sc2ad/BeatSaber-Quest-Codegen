@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float rotW;
     // public System.Void .ctor()
-    // Offset: 0x196D250
+    // Offset: 0xC53010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorderSaveData::PositionAndRotation* New_ctor();

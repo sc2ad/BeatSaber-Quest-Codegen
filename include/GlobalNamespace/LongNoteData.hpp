@@ -27,31 +27,31 @@ namespace GlobalNamespace {
     // Offset: 0x28
     float duration;
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x19424A4
+    // Offset: 0xBFCD68
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x19424AC
+    // Offset: 0xBFCD70
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public NoteType get_noteType()
-    // Offset: 0x19424B4
+    // Offset: 0xBFCD78
     GlobalNamespace::NoteType get_noteType();
     // private System.Void set_noteType(NoteType value)
-    // Offset: 0x19424BC
+    // Offset: 0xBFCD80
     void set_noteType(GlobalNamespace::NoteType value);
     // public System.Single get_duration()
-    // Offset: 0x19424C4
+    // Offset: 0xBFCD88
     float get_duration();
     // private System.Void set_duration(System.Single value)
-    // Offset: 0x19424CC
+    // Offset: 0xBFCD90
     void set_duration(float value);
     // public System.Void .ctor(System.Int32 id, System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteType noteType, System.Single duration)
-    // Offset: 0x19424D4
+    // Offset: 0xBFCD98
     static LongNoteData* New_ctor(int id, float time, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteType noteType, float duration);
     // public System.Void UpdateDuration(System.Single duration)
-    // Offset: 0x1942528
+    // Offset: 0xBFCDEC
     void UpdateDuration(float duration);
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0x1942530
+    // Offset: 0xBFCDF4
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();

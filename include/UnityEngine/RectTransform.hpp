@@ -32,103 +32,103 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.RectTransform/ReapplyDrivenProperties reapplyDrivenProperties
     static void _set_reapplyDrivenProperties(UnityEngine::RectTransform::ReapplyDrivenProperties* value);
     // static public System.Void add_reapplyDrivenProperties(UnityEngine.RectTransform/ReapplyDrivenProperties value)
-    // Offset: 0x137B13C
+    // Offset: 0x1422284
     static void add_reapplyDrivenProperties(UnityEngine::RectTransform::ReapplyDrivenProperties* value);
     // static public System.Void remove_reapplyDrivenProperties(UnityEngine.RectTransform/ReapplyDrivenProperties value)
-    // Offset: 0x137B1F0
+    // Offset: 0x1422338
     static void remove_reapplyDrivenProperties(UnityEngine::RectTransform::ReapplyDrivenProperties* value);
     // public UnityEngine.Rect get_rect()
-    // Offset: 0x137B2A4
+    // Offset: 0x14223EC
     UnityEngine::Rect get_rect();
     // public UnityEngine.Vector2 get_anchorMin()
-    // Offset: 0x137B350
+    // Offset: 0x1422498
     UnityEngine::Vector2 get_anchorMin();
     // public System.Void set_anchorMin(UnityEngine.Vector2 value)
-    // Offset: 0x137B3F8
+    // Offset: 0x1422540
     void set_anchorMin(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_anchorMax()
-    // Offset: 0x137B49C
+    // Offset: 0x14225E4
     UnityEngine::Vector2 get_anchorMax();
     // public System.Void set_anchorMax(UnityEngine.Vector2 value)
-    // Offset: 0x137B544
+    // Offset: 0x142268C
     void set_anchorMax(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_anchoredPosition()
-    // Offset: 0x137B5E8
+    // Offset: 0x1422730
     UnityEngine::Vector2 get_anchoredPosition();
     // public System.Void set_anchoredPosition(UnityEngine.Vector2 value)
-    // Offset: 0x137B690
+    // Offset: 0x14227D8
     void set_anchoredPosition(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_sizeDelta()
-    // Offset: 0x137B734
+    // Offset: 0x142287C
     UnityEngine::Vector2 get_sizeDelta();
     // public System.Void set_sizeDelta(UnityEngine.Vector2 value)
-    // Offset: 0x137B7DC
+    // Offset: 0x1422924
     void set_sizeDelta(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_pivot()
-    // Offset: 0x137B880
+    // Offset: 0x14229C8
     UnityEngine::Vector2 get_pivot();
     // public System.Void set_pivot(UnityEngine.Vector2 value)
-    // Offset: 0x137B928
+    // Offset: 0x1422A70
     void set_pivot(UnityEngine::Vector2 value);
     // public System.Void set_anchoredPosition3D(UnityEngine.Vector3 value)
-    // Offset: 0x137B9CC
+    // Offset: 0x1422B14
     void set_anchoredPosition3D(UnityEngine::Vector3 value);
     // public System.Void set_offsetMin(UnityEngine.Vector2 value)
-    // Offset: 0x137BA34
+    // Offset: 0x1422B7C
     void set_offsetMin(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_offsetMax()
-    // Offset: 0x137BBD0
+    // Offset: 0x1422D18
     UnityEngine::Vector2 get_offsetMax();
     // public System.Void set_offsetMax(UnityEngine.Vector2 value)
-    // Offset: 0x137BCC4
+    // Offset: 0x1422E0C
     void set_offsetMax(UnityEngine::Vector2 value);
     // public System.Void GetLocalCorners(UnityEngine.Vector3[] fourCornersArray)
-    // Offset: 0x137BE58
+    // Offset: 0x1422FA0
     void GetLocalCorners(::Array<UnityEngine::Vector3>* fourCornersArray);
     // public System.Void GetWorldCorners(UnityEngine.Vector3[] fourCornersArray)
-    // Offset: 0x137C028
+    // Offset: 0x1423170
     void GetWorldCorners(::Array<UnityEngine::Vector3>* fourCornersArray);
     // public System.Void SetSizeWithCurrentAnchors(UnityEngine.RectTransform/Axis axis, System.Single size)
-    // Offset: 0x137C150
+    // Offset: 0x1423298
     void SetSizeWithCurrentAnchors(UnityEngine::RectTransform::Axis axis, float size);
     // static System.Void SendReapplyDrivenProperties(UnityEngine.RectTransform driven)
-    // Offset: 0x137C314
+    // Offset: 0x142345C
     static void SendReapplyDrivenProperties(UnityEngine::RectTransform* driven);
     // private UnityEngine.Vector2 GetParentSize()
-    // Offset: 0x137C218
+    // Offset: 0x1423360
     UnityEngine::Vector2 GetParentSize();
     // private System.Void get_rect_Injected(UnityEngine.Rect ret)
-    // Offset: 0x137B300
+    // Offset: 0x1422448
     void get_rect_Injected(UnityEngine::Rect& ret);
     // private System.Void get_anchorMin_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x137B3A8
+    // Offset: 0x14224F0
     void get_anchorMin_Injected(UnityEngine::Vector2& ret);
     // private System.Void set_anchorMin_Injected(UnityEngine.Vector2 value)
-    // Offset: 0x137B44C
+    // Offset: 0x1422594
     void set_anchorMin_Injected(UnityEngine::Vector2& value);
     // private System.Void get_anchorMax_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x137B4F4
+    // Offset: 0x142263C
     void get_anchorMax_Injected(UnityEngine::Vector2& ret);
     // private System.Void set_anchorMax_Injected(UnityEngine.Vector2 value)
-    // Offset: 0x137B598
+    // Offset: 0x14226E0
     void set_anchorMax_Injected(UnityEngine::Vector2& value);
     // private System.Void get_anchoredPosition_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x137B640
+    // Offset: 0x1422788
     void get_anchoredPosition_Injected(UnityEngine::Vector2& ret);
     // private System.Void set_anchoredPosition_Injected(UnityEngine.Vector2 value)
-    // Offset: 0x137B6E4
+    // Offset: 0x142282C
     void set_anchoredPosition_Injected(UnityEngine::Vector2& value);
     // private System.Void get_sizeDelta_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x137B78C
+    // Offset: 0x14228D4
     void get_sizeDelta_Injected(UnityEngine::Vector2& ret);
     // private System.Void set_sizeDelta_Injected(UnityEngine.Vector2 value)
-    // Offset: 0x137B830
+    // Offset: 0x1422978
     void set_sizeDelta_Injected(UnityEngine::Vector2& value);
     // private System.Void get_pivot_Injected(UnityEngine.Vector2 ret)
-    // Offset: 0x137B8D8
+    // Offset: 0x1422A20
     void get_pivot_Injected(UnityEngine::Vector2& ret);
     // private System.Void set_pivot_Injected(UnityEngine.Vector2 value)
-    // Offset: 0x137B97C
+    // Offset: 0x1422AC4
     void set_pivot_Injected(UnityEngine::Vector2& value);
   }; // UnityEngine.RectTransform
 }

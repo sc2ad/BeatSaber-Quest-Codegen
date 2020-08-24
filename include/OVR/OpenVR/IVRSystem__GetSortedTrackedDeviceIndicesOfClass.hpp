@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetSortedTrackedDeviceIndicesOfClass : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16156B4
+    // Offset: 0x16C07FC
     static IVRSystem::_GetSortedTrackedDeviceIndicesOfClass* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(OVR.OpenVR.ETrackedDeviceClass eTrackedDeviceClass, System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unTrackedDeviceIndexArrayCount, System.UInt32 unRelativeToTrackedDeviceIndex)
-    // Offset: 0x16156C8
+    // Offset: 0x16C0810
     uint Invoke(OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::Array<uint>*& punTrackedDeviceIndexArray, uint unTrackedDeviceIndexArrayCount, uint unRelativeToTrackedDeviceIndex);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.ETrackedDeviceClass eTrackedDeviceClass, System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unTrackedDeviceIndexArrayCount, System.UInt32 unRelativeToTrackedDeviceIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1615990
+    // Offset: 0x16C0AD8
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::Array<uint>*& punTrackedDeviceIndexArray, uint unTrackedDeviceIndexArrayCount, uint unRelativeToTrackedDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1615A5C
+    // Offset: 0x16C0BA4
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetSortedTrackedDeviceIndicesOfClass
 }

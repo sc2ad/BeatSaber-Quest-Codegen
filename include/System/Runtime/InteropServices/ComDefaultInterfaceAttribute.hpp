@@ -24,7 +24,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x10
     System::Type* val;
     // public System.Void .ctor(System.Type defaultInterface)
-    // Offset: 0x10C5B48
+    // Offset: 0x1167C90
     static ComDefaultInterfaceAttribute* New_ctor(System::Type* defaultInterface);
   }; // System.Runtime.InteropServices.ComDefaultInterfaceAttribute
 }

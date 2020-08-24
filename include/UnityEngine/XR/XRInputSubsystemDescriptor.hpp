@@ -21,7 +21,7 @@ namespace UnityEngine::XR {
   class XRInputSubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRInputSubsystem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18BB164
+    // Offset: 0x19682AC
     // Implemented from: UnityEngine.IntegratedSubsystemDescriptor`1
     // Base method: System.Void IntegratedSubsystemDescriptor`1::.ctor()
     // Base method: System.Void IntegratedSubsystemDescriptor::.ctor()

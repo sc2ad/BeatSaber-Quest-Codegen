@@ -26,16 +26,16 @@ namespace Oculus::Platform {
   class Message::Callback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xDFB880
+    // Offset: 0xEA09C8
     static Message::Callback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Oculus.Platform.Message message)
-    // Offset: 0xDF2BA0
+    // Offset: 0xE97CE8
     void Invoke(Oculus::Platform::Message* message);
     // public System.IAsyncResult BeginInvoke(Oculus.Platform.Message message, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xDFB894
+    // Offset: 0xEA09DC
     System::IAsyncResult* BeginInvoke(Oculus::Platform::Message* message, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xDFB8B8
+    // Offset: 0xEA0A00
     void EndInvoke(System::IAsyncResult* result);
   }; // Oculus.Platform.Message/Callback
 }

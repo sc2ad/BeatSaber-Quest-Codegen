@@ -53,19 +53,19 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.String> <>9__8_1
     static void _set_$$9__8_1(System::Func_2<System::Reflection::FieldInfo*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xE9A3CC
+    // Offset: 0xF3F514
     static void _cctor();
     // Zenject.InjectableInfo <ConvertMethod>b__0_1(Zenject.Internal.ReflectionTypeInfo/InjectParameterInfo x)
-    // Offset: 0xE9A43C
+    // Offset: 0xF3F584
     Zenject::InjectableInfo* $ConvertMethod$b__0_1(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // Zenject.InjectableInfo <ConvertConstructor>b__1_0(Zenject.Internal.ReflectionTypeInfo/InjectParameterInfo x)
-    // Offset: 0xE9A454
+    // Offset: 0xF3F59C
     Zenject::InjectableInfo* $ConvertConstructor$b__1_0(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // System.String <GetOnlyPropertySetter>b__8_1(System.Reflection.FieldInfo f)
-    // Offset: 0xE9A46C
+    // Offset: 0xF3F5B4
     ::Il2CppString* $GetOnlyPropertySetter$b__8_1(System::Reflection::FieldInfo* f);
     // public System.Void .ctor()
-    // Offset: 0xE9A434
+    // Offset: 0xF3F57C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionInfoTypeInfoConverter::$$c* New_ctor();

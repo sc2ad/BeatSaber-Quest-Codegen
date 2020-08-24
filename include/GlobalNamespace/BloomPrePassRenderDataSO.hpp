@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BloomPrePassRenderDataSO::Data* data;
     // public System.Void .ctor()
-    // Offset: 0x177CAFC
+    // Offset: 0x1826C44
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

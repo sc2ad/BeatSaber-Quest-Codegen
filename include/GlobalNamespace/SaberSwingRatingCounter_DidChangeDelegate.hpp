@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class SaberSwingRatingCounter::DidChangeDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xB9E400
+    // Offset: 0xC2A7B8
     static SaberSwingRatingCounter::DidChangeDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(SaberSwingRatingCounter afterCutRating, System.Single rating)
-    // Offset: 0xB9DFE0
+    // Offset: 0xC2A398
     void Invoke(GlobalNamespace::SaberSwingRatingCounter* afterCutRating, float rating);
     // public System.IAsyncResult BeginInvoke(SaberSwingRatingCounter afterCutRating, System.Single rating, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xB9E414
+    // Offset: 0xC2A7CC
     System::IAsyncResult* BeginInvoke(GlobalNamespace::SaberSwingRatingCounter* afterCutRating, float rating, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0xB9E4B0
+    // Offset: 0xC2A868
     void EndInvoke(System::IAsyncResult* result);
   }; // SaberSwingRatingCounter/DidChangeDelegate
 }

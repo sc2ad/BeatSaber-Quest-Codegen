@@ -22,13 +22,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* keywords;
     // public UnityEngine.Rendering.PassType get_passType()
-    // Offset: 0x1869628
+    // Offset: 0x1915770
     UnityEngine::Rendering::PassType get_passType();
     // public System.String get_keywords()
-    // Offset: 0x1869630
+    // Offset: 0x1915778
     ::Il2CppString* get_keywords();
     // public System.Void .ctor(UnityEngine.Rendering.PassType passType, System.String keywords)
-    // Offset: 0x1869638
+    // Offset: 0x1915780
     static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(UnityEngine::Rendering::PassType passType, ::Il2CppString* keywords);
   }; // ShaderVariantsSO/ShaderVariant/Variant
 }

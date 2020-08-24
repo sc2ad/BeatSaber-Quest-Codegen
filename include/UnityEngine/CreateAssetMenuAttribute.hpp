@@ -20,13 +20,13 @@ namespace UnityEngine {
     // Offset: 0x18
     ::Il2CppString* fileName;
     // public System.Void set_menuName(System.String value)
-    // Offset: 0x1265AF0
+    // Offset: 0x130BC38
     void set_menuName(::Il2CppString* value);
     // public System.Void set_fileName(System.String value)
-    // Offset: 0x1265AF8
+    // Offset: 0x130BC40
     void set_fileName(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1265B00
+    // Offset: 0x130BC48
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

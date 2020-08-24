@@ -49,45 +49,45 @@ namespace GlobalNamespace {
     // Offset: 0x38
     bool songDidFinish;
     // public System.Single get_songLength()
-    // Offset: 0xB3D738
+    // Offset: 0xB3D74C
     float get_songLength();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0xB3D754
+    // Offset: 0xB3D768
     UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // protected System.Void LateUpdate()
-    // Offset: 0xB3D770
+    // Offset: 0xB3D784
     void LateUpdate();
     // private System.Collections.IEnumerator StartSongCoroutine()
-    // Offset: 0xB3D818
+    // Offset: 0xB3D82C
     System::Collections::IEnumerator* StartSongCoroutine();
     // public System.Void FailStopSong()
-    // Offset: 0xB3D944
+    // Offset: 0xB3D958
     void FailStopSong();
     // private System.Void <FailStopSong>b__14_0()
-    // Offset: 0xB3DA4C
+    // Offset: 0xB3DA60
     void $FailStopSong$b__14_0();
     // public override System.Void StartSong()
-    // Offset: 0xB3D7E8
+    // Offset: 0xB3D7FC
     // Implemented from: SongController
     // Base method: System.Void SongController::StartSong()
     void StartSong();
     // public override System.Void StopSong()
-    // Offset: 0xB3D8C0
+    // Offset: 0xB3D8D4
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0xB3D8F4
+    // Offset: 0xB3D908
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0xB3D928
+    // Offset: 0xB3D93C
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0xB3DA44
+    // Offset: 0xB3DA58
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

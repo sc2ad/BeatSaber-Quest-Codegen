@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::SaberType saberType;
     // public SaberType get_saberType()
-    // Offset: 0xB9E500
+    // Offset: 0xC2A8B8
     GlobalNamespace::SaberType get_saberType();
     // public System.Void .ctor()
-    // Offset: 0xB9E508
+    // Offset: 0xC2A8C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

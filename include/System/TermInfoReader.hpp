@@ -36,34 +36,34 @@ namespace System {
     // Offset: 0x20
     int booleansOffset;
     // public System.Void .ctor(System.String term, System.String filename)
-    // Offset: 0x1242C2C
+    // Offset: 0x12E8D74
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Il2CppString* filename);
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
-    // Offset: 0x1242E88
+    // Offset: 0x12E8FD0
     static TermInfoReader* New_ctor(::Il2CppString* term, ::Array<uint8_t>* buffer);
     // private System.Void ReadHeader(System.Byte[] buffer, System.Int32 position)
-    // Offset: 0x1247590
+    // Offset: 0x12ED6D8
     void ReadHeader(::Array<uint8_t>* buffer, int& position);
     // private System.Void ReadNames(System.Byte[] buffer, System.Int32 position)
-    // Offset: 0x12476F0
+    // Offset: 0x12ED838
     void ReadNames(::Array<uint8_t>* buffer, int& position);
     // public System.Int32 Get(System.TermInfoNumbers number)
-    // Offset: 0x12437C8
+    // Offset: 0x12E9910
     int Get(System::TermInfoNumbers number);
     // public System.String Get(System.TermInfoStrings tstr)
-    // Offset: 0x1243730
+    // Offset: 0x12E9878
     ::Il2CppString* Get(System::TermInfoStrings tstr);
     // public System.Byte[] GetStringBytes(System.TermInfoStrings tstr)
-    // Offset: 0x1247320
+    // Offset: 0x12ED468
     ::Array<uint8_t>* GetStringBytes(System::TermInfoStrings tstr);
     // private System.Int16 GetInt16(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1247730
+    // Offset: 0x12ED878
     int16_t GetInt16(::Array<uint8_t>* buffer, int offset);
     // private System.String GetString(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x124778C
+    // Offset: 0x12ED8D4
     ::Il2CppString* GetString(::Array<uint8_t>* buffer, int offset);
     // private System.Byte[] GetStringBytes(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1247818
+    // Offset: 0x12ED960
     ::Array<uint8_t>* GetStringBytes(::Array<uint8_t>* buffer, int offset);
   }; // System.TermInfoReader
 }

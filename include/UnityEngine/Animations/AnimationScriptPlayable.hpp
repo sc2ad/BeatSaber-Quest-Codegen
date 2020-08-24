@@ -28,18 +28,18 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationScriptPlayable
     AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) : m_Handle{m_Handle_} {}
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x9C4624
+    // Offset: 0xA5DC9C
     static AnimationScriptPlayable* New_ctor(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
-    // Offset: 0x1894704
+    // Offset: 0x194084C
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0x9C462C
+    // Offset: 0xA5DCA4
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationScriptPlayable other)
-    // Offset: 0x9C4638
+    // Offset: 0xA5DCB0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.Animations.AnimationScriptPlayable other)
     bool Equals(UnityEngine::Animations::AnimationScriptPlayable other);

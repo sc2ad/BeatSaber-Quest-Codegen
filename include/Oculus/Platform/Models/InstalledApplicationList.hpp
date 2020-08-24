@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class InstalledApplicationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::InstalledApplication*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0xDFE998
+    // Offset: 0xEA3AE0
     static InstalledApplicationList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.InstalledApplicationList
 }

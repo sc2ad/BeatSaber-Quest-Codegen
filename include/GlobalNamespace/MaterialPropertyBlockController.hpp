@@ -29,16 +29,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x1783258
+    // Offset: 0x182D3A0
     ::Array<UnityEngine::Renderer*>* get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x177F82C
+    // Offset: 0x1829974
     UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void ApplyChanges()
-    // Offset: 0x177F8A4
+    // Offset: 0x18299EC
     void ApplyChanges();
     // public System.Void .ctor()
-    // Offset: 0x1783260
+    // Offset: 0x182D3A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

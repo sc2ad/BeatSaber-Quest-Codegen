@@ -56,16 +56,16 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Reflection.MemberInfo,NUnit.Framework.Internal.Randomizer> Randomizers
     static void _set_Randomizers(System::Collections::Generic::Dictionary_2<System::Reflection::MemberInfo*, NUnit::Framework::Internal::Randomizer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1844798
+    // Offset: 0x18F18E0
     static void _cctor();
     // static public System.Void set_InitialSeed(System.Int32 value)
-    // Offset: 0x1844848
+    // Offset: 0x18F1990
     static void set_InitialSeed(int value);
     // static public NUnit.Framework.Internal.Randomizer CreateRandomizer()
-    // Offset: 0x18448F4
+    // Offset: 0x18F1A3C
     static NUnit::Framework::Internal::Randomizer* CreateRandomizer();
     // public System.Void .ctor(System.Int32 seed)
-    // Offset: 0x1844994
+    // Offset: 0x18F1ADC
     // Implemented from: System.Random
     // Base method: System.Void Random::.ctor(System.Int32 seed)
     static Randomizer* New_ctor(int seed);

@@ -29,10 +29,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<int, int>* lookup;
     // UnityEngine.ProBuilder.EdgeLookup <GetEdgeLookup>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0xEEE588
+    // Offset: 0xF926D0
     UnityEngine::ProBuilder::EdgeLookup $GetEdgeLookup$b__0(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0xEEE27C
+    // Offset: 0xF923C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EdgeLookup::$$c__DisplayClass16_0* New_ctor();

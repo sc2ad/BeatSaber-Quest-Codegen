@@ -31,16 +31,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float accum;
     // public AveragingValueRecorder get_averagingValueRecorer()
-    // Offset: 0x195485C
+    // Offset: 0xC10120
     GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyValuesPerSecond, System.Single increaseSpeed, System.Single decreaseSpeed)
-    // Offset: 0x1954864
+    // Offset: 0xC10128
     static MovementHistoryRecorder* New_ctor(float averageWindowDuration, float historyValuesPerSecond, float increaseSpeed, float decreaseSpeed);
     // public System.Void AddMovement(System.Single distance)
-    // Offset: 0x195490C
+    // Offset: 0xC101D0
     void AddMovement(float distance);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x19549A8
+    // Offset: 0xC1026C
     void ManualUpdate(float deltaTime);
   }; // MovementHistoryRecorder
 }

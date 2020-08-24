@@ -24,21 +24,21 @@ namespace Oculus::Platform {
     // Offset: 0x10
     System::IntPtr Handle;
     // public System.Void SetVoipGroup(System.String value)
-    // Offset: 0xE0712C
+    // Offset: 0xEAC274
     void SetVoipGroup(::Il2CppString* value);
     // public System.Void SetVoipStreamDefault(Oculus.Platform.NetSyncVoipStreamMode value)
-    // Offset: 0xE071A8
+    // Offset: 0xEAC2F0
     void SetVoipStreamDefault(Oculus::Platform::NetSyncVoipStreamMode value);
     // public System.Void SetZoneId(System.String value)
-    // Offset: 0xE07224
+    // Offset: 0xEAC36C
     void SetZoneId(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0xE070B4
+    // Offset: 0xEAC1FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetSyncOptions* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0xE072F0
+    // Offset: 0xEAC438
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

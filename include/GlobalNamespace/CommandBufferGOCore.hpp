@@ -53,13 +53,13 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(UnityEngine::Material* value);
     // protected System.Void OnEnable()
-    // Offset: 0x1863D50
+    // Offset: 0x190FE98
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x18641A0
+    // Offset: 0x19102E8
     void OnDisable();
     // protected System.Void OnWillRenderObject()
-    // Offset: 0x1864520
+    // Offset: 0x1910668
     void OnWillRenderObject();
     // protected UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
     // Offset: 0xFFFFFFFF
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected System.Void .ctor()
-    // Offset: 0x1863CD0
+    // Offset: 0x190FE18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

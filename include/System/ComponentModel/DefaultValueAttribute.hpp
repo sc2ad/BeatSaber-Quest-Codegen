@@ -17,24 +17,24 @@ namespace System::ComponentModel {
     // Offset: 0x10
     ::Il2CppObject* value;
     // public System.Void .ctor(System.Boolean value)
-    // Offset: 0xEB867C
+    // Offset: 0xF5D7C4
     static DefaultValueAttribute* New_ctor(bool value);
     // public System.Void .ctor(System.String value)
-    // Offset: 0xEB86FC
+    // Offset: 0xF5D844
     static DefaultValueAttribute* New_ctor(::Il2CppString* value);
     // public System.Void .ctor(System.Object value)
-    // Offset: 0xEB8730
+    // Offset: 0xF5D878
     static DefaultValueAttribute* New_ctor(::Il2CppObject* value);
     // public System.Object get_Value()
-    // Offset: 0xEB8764
+    // Offset: 0xF5D8AC
     ::Il2CppObject* get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEB876C
+    // Offset: 0xF5D8B4
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEB888C
+    // Offset: 0xF5D9D4
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

@@ -25,10 +25,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<int>* common;
     // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1830EBC
+    // Offset: 0x18DC004
     bool $SortCommonIndexesByAdjacency$b__0(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x1830CB8
+    // Offset: 0x18DBE00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WingedEdge::$$c__DisplayClass32_0* New_ctor();

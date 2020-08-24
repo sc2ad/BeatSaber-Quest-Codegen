@@ -56,30 +56,30 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _customFogOffsetID
     static void _set__customFogOffsetID(int value);
     // public System.Void set_transition(System.Single value)
-    // Offset: 0x177AAF8
+    // Offset: 0x1824C40
     void set_transition(float value);
     // public System.Single get_transition()
-    // Offset: 0x177ACDC
+    // Offset: 0x1824E24
     float get_transition();
     // public System.Void set_bloomFogEnabled(System.Boolean value)
-    // Offset: 0x177ACE4
+    // Offset: 0x1824E2C
     void set_bloomFogEnabled(bool value);
     // public System.Boolean get_bloomFogEnabled()
-    // Offset: 0x177AD6C
+    // Offset: 0x1824EB4
     bool get_bloomFogEnabled();
     // public System.Void UpdateShaderParams()
-    // Offset: 0x177AB2C
+    // Offset: 0x1824C74
     void UpdateShaderParams();
     // private System.Void SetParams(System.Single attenuation, System.Single offset)
-    // Offset: 0x177AE34
+    // Offset: 0x1824F7C
     void SetParams(float attenuation, float offset);
     // protected override System.Void OnEnable()
-    // Offset: 0x177AD74
+    // Offset: 0x1824EBC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x177AECC
+    // Offset: 0x1825014
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomFogSO* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x177AEDC
+    // Offset: 0x1825024
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

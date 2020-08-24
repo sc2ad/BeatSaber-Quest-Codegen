@@ -26,16 +26,16 @@ namespace HMUI {
   class ViewController::DidDeactivateDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x104B37C
+    // Offset: 0x10EE4C4
     static ViewController::DidDeactivateDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(HMUI.ViewController/DeactivationType deactivationType)
-    // Offset: 0x1049ED4
+    // Offset: 0x10ED01C
     void Invoke(HMUI::ViewController::DeactivationType deactivationType);
     // public System.IAsyncResult BeginInvoke(HMUI.ViewController/DeactivationType deactivationType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x104B390
+    // Offset: 0x10EE4D8
     System::IAsyncResult* BeginInvoke(HMUI::ViewController::DeactivationType deactivationType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x104B41C
+    // Offset: 0x10EE564
     void EndInvoke(System::IAsyncResult* result);
   }; // HMUI.ViewController/DidDeactivateDelegate
 }

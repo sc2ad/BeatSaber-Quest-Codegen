@@ -29,25 +29,25 @@ namespace UnityEngine {
     // Offset: 0x28
     UnityEngine::Color m_SelectionColor;
     // static private System.Single Internal_GetCursorFlashSpeed()
-    // Offset: 0x11CFE98
+    // Offset: 0x1273FE0
     static float Internal_GetCursorFlashSpeed();
     // public System.Boolean get_doubleClickSelectsWord()
-    // Offset: 0x11C29E4
+    // Offset: 0x1266B2C
     bool get_doubleClickSelectsWord();
     // public System.Boolean get_tripleClickSelectsLine()
-    // Offset: 0x11C2AA8
+    // Offset: 0x1266BF0
     bool get_tripleClickSelectsLine();
     // public UnityEngine.Color get_cursorColor()
-    // Offset: 0x11CFECC
+    // Offset: 0x1274014
     UnityEngine::Color get_cursorColor();
     // public System.Single get_cursorFlashSpeed()
-    // Offset: 0x11CFED8
+    // Offset: 0x1274020
     float get_cursorFlashSpeed();
     // public UnityEngine.Color get_selectionColor()
-    // Offset: 0x11CFF1C
+    // Offset: 0x1274064
     UnityEngine::Color get_selectionColor();
     // public System.Void .ctor()
-    // Offset: 0x11CFF28
+    // Offset: 0x1274070
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GUISettings* New_ctor();

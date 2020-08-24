@@ -23,20 +23,20 @@ namespace System {
   class MulticastNotSupportedException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF757A4
+    // Offset: 0x101B8EC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static MulticastNotSupportedException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xF75818
+    // Offset: 0x101B960
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static MulticastNotSupportedException* New_ctor(::Il2CppString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xF7584C
+    // Offset: 0x101B994
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

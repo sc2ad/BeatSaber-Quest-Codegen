@@ -68,19 +68,19 @@ namespace HMUI {
     // Offset: 0x5C
     float contentMinY;
     // protected System.Void Start()
-    // Offset: 0x103F3D8
+    // Offset: 0x10E2520
     void Start();
     // protected System.Void Update()
-    // Offset: 0x103FAE8
+    // Offset: 0x10E2C30
     void Update();
     // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x103F930
+    // Offset: 0x10E2A78
     void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
     // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x103FBD8
+    // Offset: 0x10E2D20
     void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
     // public System.Void .ctor()
-    // Offset: 0x103FD7C
+    // Offset: 0x10E2EC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

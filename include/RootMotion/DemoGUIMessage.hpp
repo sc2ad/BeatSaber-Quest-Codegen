@@ -22,10 +22,10 @@ namespace RootMotion {
     // Offset: 0x20
     UnityEngine::Color color;
     // private System.Void OnGUI()
-    // Offset: 0x130466C
+    // Offset: 0x13AA7B4
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0x13047AC
+    // Offset: 0x13AA8F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -76,40 +76,40 @@ namespace GlobalNamespace {
     // Offset: 0x78
     UnityEngine::Transform* transform;
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1785F44
+    // Offset: 0x183008C
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x17860C0
+    // Offset: 0x1830208
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1786128
+    // Offset: 0x1830270
     void Awake();
     // private System.Void Refresh()
-    // Offset: 0x178617C
+    // Offset: 0x18302C4
     void Refresh();
     // private System.Void ClipPoints(UnityEngine.Vector4 fromPointClipPos, UnityEngine.Vector4 toPointClipPos, UnityEngine.Vector3 fromPointViewPos, UnityEngine.Vector3 toPointViewPos, System.Boolean fromPointInside, System.Single t)
-    // Offset: 0x1787098
+    // Offset: 0x18311E0
     void ClipPoints(UnityEngine::Vector4& fromPointClipPos, UnityEngine::Vector4& toPointClipPos, UnityEngine::Vector3& fromPointViewPos, UnityEngine::Vector3& toPointViewPos, bool fromPointInside, float t);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x1787314
+    // Offset: 0x183145C
     void OnDrawGizmos();
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0x17860CC
+    // Offset: 0x1830214
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::NoDomainReloadInit()
     static void NoDomainReloadInit();
     // protected override System.Void OnEnable()
-    // Offset: 0x1786158
+    // Offset: 0x18302A0
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::OnEnable()
     void OnEnable();
     // public override System.Void FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
-    // Offset: 0x17863CC
+    // Offset: 0x1830514
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
     void FillMeshData(int lightNum, ::Array<UnityEngine::Vector3>* vertices, ::Array<UnityEngine::Color>* colors, ::Array<UnityEngine::Vector4>* viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
     // public System.Void .ctor()
-    // Offset: 0x17874E8
+    // Offset: 0x1831630
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

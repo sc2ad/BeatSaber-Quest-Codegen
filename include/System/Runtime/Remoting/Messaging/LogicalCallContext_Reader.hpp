@@ -21,19 +21,19 @@ namespace System::Runtime::Remoting::Messaging {
     // Creating value type constructor for type: Reader
     Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx_ = {}) : m_ctx{m_ctx_} {}
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
-    // Offset: 0x9A5CD0
+    // Offset: 0xA40348
     static LogicalCallContext::Reader* New_ctor(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
     // public System.Boolean get_IsNull()
-    // Offset: 0x9A5CD8
+    // Offset: 0xA40350
     bool get_IsNull();
     // public System.Boolean get_HasInfo()
-    // Offset: 0x9A5CE8
+    // Offset: 0xA40360
     bool get_HasInfo();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext Clone()
-    // Offset: 0x9A5CF8
+    // Offset: 0xA40370
     System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
     // public System.Object GetData(System.String name)
-    // Offset: 0x9A5D00
+    // Offset: 0xA40378
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext/Reader
 }

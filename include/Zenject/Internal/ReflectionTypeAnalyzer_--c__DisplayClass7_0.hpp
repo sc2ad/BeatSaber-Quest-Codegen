@@ -37,10 +37,10 @@ namespace Zenject::Internal {
     // Offset: 0x18
     System::Func_2<System::Reflection::ParameterInfo*, Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* $$9__2;
     // Zenject.Internal.ReflectionTypeInfo/InjectParameterInfo <GetMethodInfos>b__2(System.Reflection.ParameterInfo x)
-    // Offset: 0xE9C63C
+    // Offset: 0xF41784
     Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* $GetMethodInfos$b__2(System::Reflection::ParameterInfo* x);
     // public System.Void .ctor()
-    // Offset: 0xE9B41C
+    // Offset: 0xF40564
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionTypeAnalyzer::$$c__DisplayClass7_0* New_ctor();

@@ -29,7 +29,7 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::InjectableInfo* Info;
     // public System.Void .ctor(Zenject.ZenMemberSetterMethod setter, Zenject.InjectableInfo info)
-    // Offset: 0x18B4B78
+    // Offset: 0x1961CC0
     static InjectTypeInfo::InjectMemberInfo* New_ctor(Zenject::ZenMemberSetterMethod* setter, Zenject::InjectableInfo* info);
   }; // Zenject.InjectTypeInfo/InjectMemberInfo
 }

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Sizei
     Sizei(int w_ = {}, int h_ = {}) : w{w_}, h{h_} {}
     // static private System.Void .cctor()
-    // Offset: 0xEA60E0
+    // Offset: 0xF4B228
     static void _cctor();
   }; // OVRPlugin/Sizei
 }

@@ -12,10 +12,10 @@ namespace System::Security {
   class SecurityManager : public ::Il2CppObject {
     public:
     // static System.Boolean CheckElevatedPermissions()
-    // Offset: 0xD4C218
+    // Offset: 0xDF1360
     static bool CheckElevatedPermissions();
     // static System.Void EnsureElevatedPermissions()
-    // Offset: 0xD4C220
+    // Offset: 0xDF1368
     static void EnsureElevatedPermissions();
   }; // System.Security.SecurityManager
 }

@@ -30,7 +30,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Creating value type constructor for type: SpriteFrame
     SpriteFrame(float x_ = {}, float y_ = {}, float w_ = {}, float h_ = {}) : x{x_}, y{y_}, w{w_}, h{h_} {}
     // public override System.String ToString()
-    // Offset: 0x991DCC
+    // Offset: 0xA2B93C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

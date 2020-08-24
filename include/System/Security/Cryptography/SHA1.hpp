@@ -14,10 +14,10 @@ namespace System::Security::Cryptography {
   class SHA1 : public System::Security::Cryptography::HashAlgorithm {
     public:
     // static public System.Security.Cryptography.SHA1 Create()
-    // Offset: 0xD4783C
+    // Offset: 0xDEC984
     static System::Security::Cryptography::SHA1* Create();
     // protected System.Void .ctor()
-    // Offset: 0xD47810
+    // Offset: 0xDEC958
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

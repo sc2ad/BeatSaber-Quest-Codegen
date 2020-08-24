@@ -38,16 +38,16 @@ namespace Valve::VR {
   class IVRApplications::_GetApplicationPropertyString : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF44DB8
+    // Offset: 0xFE9F00
     static IVRApplications::_GetApplicationPropertyString* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, System.Text.StringBuilder pchPropertyValueBuffer, System.UInt32 unPropertyValueBufferLen, Valve.VR.EVRApplicationError peError)
-    // Offset: 0xF39EDC
+    // Offset: 0xFDF024
     uint Invoke(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, System::Text::StringBuilder* pchPropertyValueBuffer, uint unPropertyValueBufferLen, Valve::VR::EVRApplicationError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, System.Text.StringBuilder pchPropertyValueBuffer, System.UInt32 unPropertyValueBufferLen, Valve.VR.EVRApplicationError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF44DCC
+    // Offset: 0xFE9F14
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, System::Text::StringBuilder* pchPropertyValueBuffer, uint unPropertyValueBufferLen, Valve::VR::EVRApplicationError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(Valve.VR.EVRApplicationError peError, System.IAsyncResult result)
-    // Offset: 0xF44EB4
+    // Offset: 0xFE9FFC
     uint EndInvoke(Valve::VR::EVRApplicationError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationPropertyString
 }

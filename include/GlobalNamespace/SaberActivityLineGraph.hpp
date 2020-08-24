@@ -70,16 +70,16 @@ namespace GlobalNamespace {
     // Offset: 0x50
     System::Collections::Generic::Queue_1<float>* pointsValues2;
     // protected System.Void Awake()
-    // Offset: 0xB990B0
+    // Offset: 0xC25468
     void Awake();
     // protected System.Void Start()
-    // Offset: 0xB992AC
+    // Offset: 0xC25664
     void Start();
     // private System.Collections.IEnumerator UpdateGraphCoroutine()
-    // Offset: 0xB992D8
+    // Offset: 0xC25690
     System::Collections::IEnumerator* UpdateGraphCoroutine();
     // public System.Void .ctor()
-    // Offset: 0xB99380
+    // Offset: 0xC25738
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::ISaberModelController* saberModelController;
     // protected System.Void Awake()
-    // Offset: 0xB9C7F8
+    // Offset: 0xC28BB0
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0xB9C8D4
+    // Offset: 0xC28C8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

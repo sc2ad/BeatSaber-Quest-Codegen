@@ -29,19 +29,19 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::PlayerHeightDetector* playerHeightDetector;
     // protected System.Void Start()
-    // Offset: 0x18E139C
+    // Offset: 0xB7A8F8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x18E147C
+    // Offset: 0xB7A9D8
     void OnDestroy();
     // private System.Void HandlePlayerHeightDidChange(System.Single playerHeight)
-    // Offset: 0x18E1450
+    // Offset: 0xB7A9AC
     void HandlePlayerHeightDidChange(float playerHeight);
     // static public System.Single JumpOffsetYForPlayerHeight(System.Single playerHeight)
-    // Offset: 0x18E1558
+    // Offset: 0xB7AAB4
     static float JumpOffsetYForPlayerHeight(float playerHeight);
     // public System.Void .ctor()
-    // Offset: 0x18E15E8
+    // Offset: 0xB7AB44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

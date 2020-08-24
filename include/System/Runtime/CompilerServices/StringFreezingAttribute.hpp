@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices {
   class StringFreezingAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x10C4DC4
+    // Offset: 0x1166F0C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

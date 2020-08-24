@@ -27,23 +27,23 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: InputDevice
     InputDevice(uint64_t m_DeviceId_ = {}, bool m_Initialized_ = {}) : m_DeviceId{m_DeviceId_}, m_Initialized{m_Initialized_} {}
     // System.Void .ctor(System.UInt64 deviceId)
-    // Offset: 0x9C57BC
+    // Offset: 0xA5EE34
     static InputDevice* New_ctor(uint64_t deviceId);
     // private System.UInt64 get_deviceId()
-    // Offset: 0x9C57CC
+    // Offset: 0xA5EE44
     uint64_t get_deviceId();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x9C57E4
+    // Offset: 0xA5EE5C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.InputDevice other)
-    // Offset: 0x9C57EC
+    // Offset: 0xA5EE64
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable`1::Equals(UnityEngine.XR.InputDevice other)
     bool Equals(UnityEngine::XR::InputDevice other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x9C5814
+    // Offset: 0xA5EE8C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

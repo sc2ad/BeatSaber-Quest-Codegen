@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::Animator* animator;
     // public System.Void ShowEffect()
-    // Offset: 0xB4BFC8
+    // Offset: 0xB4BFDC
     void ShowEffect();
     // public System.Void .ctor()
-    // Offset: 0xB4C010
+    // Offset: 0xB4C024
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

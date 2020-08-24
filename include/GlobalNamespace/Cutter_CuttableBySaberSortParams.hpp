@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     UnityEngine::Vector3 pos;
     // public System.Void .ctor()
-    // Offset: 0x1929E5C
+    // Offset: 0xBE5720
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Cutter::CuttableBySaberSortParams* New_ctor();

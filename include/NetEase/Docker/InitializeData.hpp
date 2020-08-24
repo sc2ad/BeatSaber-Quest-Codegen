@@ -21,13 +21,13 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: InitializeData
     InitializeData(bool InitializeSuccessful_ = {}, int InitializeCode_ = {}) : InitializeSuccessful{InitializeSuccessful_}, InitializeCode{InitializeCode_} {}
     // public System.Boolean get_InitializeSuccessful()
-    // Offset: 0x9C6F34
+    // Offset: 0xA605AC
     bool get_InitializeSuccessful();
     // public System.Void set_InitializeSuccessful(System.Boolean value)
-    // Offset: 0x9C6F3C
+    // Offset: 0xA605B4
     void set_InitializeSuccessful(bool value);
     // public System.Void set_InitializeCode(System.Int32 value)
-    // Offset: 0x9C6F48
+    // Offset: 0xA605C0
     void set_InitializeCode(int value);
   }; // NetEase.Docker.InitializeData
 }

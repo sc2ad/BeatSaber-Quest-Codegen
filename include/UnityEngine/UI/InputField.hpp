@@ -446,391 +446,391 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Int32 k_MaxTextLength
     static void _set_k_MaxTextLength(int value);
     // private UnityEngine.EventSystems.BaseInput get_input()
-    // Offset: 0x10D522C
+    // Offset: 0x1177374
     UnityEngine::EventSystems::BaseInput* get_input();
     // private System.String get_compositionString()
-    // Offset: 0x10D536C
+    // Offset: 0x11774B4
     ::Il2CppString* get_compositionString();
     // protected UnityEngine.Mesh get_mesh()
-    // Offset: 0x10D5680
+    // Offset: 0x11777C8
     UnityEngine::Mesh* get_mesh();
     // protected UnityEngine.TextGenerator get_cachedInputTextGenerator()
-    // Offset: 0x10D572C
+    // Offset: 0x1177874
     UnityEngine::TextGenerator* get_cachedInputTextGenerator();
     // public System.Void set_shouldHideMobileInput(System.Boolean value)
-    // Offset: 0x10D57A8
+    // Offset: 0x11778F0
     void set_shouldHideMobileInput(bool value);
     // public System.Boolean get_shouldHideMobileInput()
-    // Offset: 0x10D5808
+    // Offset: 0x1177950
     bool get_shouldHideMobileInput();
     // private System.Boolean get_shouldActivateOnSelect()
-    // Offset: 0x10D585C
+    // Offset: 0x11779A4
     bool get_shouldActivateOnSelect();
     // public System.String get_text()
-    // Offset: 0x10D587C
+    // Offset: 0x11779C4
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x10D5884
+    // Offset: 0x11779CC
     void set_text(::Il2CppString* value);
     // public System.Void SetTextWithoutNotify(System.String input)
-    // Offset: 0x10D5B78
+    // Offset: 0x1177CC0
     void SetTextWithoutNotify(::Il2CppString* input);
     // private System.Void SetText(System.String value, System.Boolean sendCallback)
-    // Offset: 0x10D588C
+    // Offset: 0x11779D4
     void SetText(::Il2CppString* value, bool sendCallback);
     // public System.Boolean get_isFocused()
-    // Offset: 0x10D6084
+    // Offset: 0x11781CC
     bool get_isFocused();
     // public System.Single get_caretBlinkRate()
-    // Offset: 0x10D608C
+    // Offset: 0x11781D4
     float get_caretBlinkRate();
     // public System.Void set_caretBlinkRate(System.Single value)
-    // Offset: 0x10D6094
+    // Offset: 0x11781DC
     void set_caretBlinkRate(float value);
     // public System.Int32 get_caretWidth()
-    // Offset: 0x10D618C
+    // Offset: 0x11782D4
     int get_caretWidth();
     // public System.Void set_caretWidth(System.Int32 value)
-    // Offset: 0x10D6194
+    // Offset: 0x11782DC
     void set_caretWidth(int value);
     // public UnityEngine.UI.Text get_textComponent()
-    // Offset: 0x10D6278
+    // Offset: 0x11783C0
     UnityEngine::UI::Text* get_textComponent();
     // public System.Void set_textComponent(UnityEngine.UI.Text value)
-    // Offset: 0x10D6280
+    // Offset: 0x11783C8
     void set_textComponent(UnityEngine::UI::Text* value);
     // public UnityEngine.UI.Graphic get_placeholder()
-    // Offset: 0x10D64E4
+    // Offset: 0x117862C
     UnityEngine::UI::Graphic* get_placeholder();
     // public System.Void set_placeholder(UnityEngine.UI.Graphic value)
-    // Offset: 0x10D64EC
+    // Offset: 0x1178634
     void set_placeholder(UnityEngine::UI::Graphic* value);
     // public UnityEngine.Color get_caretColor()
-    // Offset: 0x10D654C
+    // Offset: 0x1178694
     UnityEngine::Color get_caretColor();
     // public System.Void set_caretColor(UnityEngine.Color value)
-    // Offset: 0x10D6594
+    // Offset: 0x11786DC
     void set_caretColor(UnityEngine::Color value);
     // public System.Boolean get_customCaretColor()
-    // Offset: 0x10D65D0
+    // Offset: 0x1178718
     bool get_customCaretColor();
     // public System.Void set_customCaretColor(System.Boolean value)
-    // Offset: 0x10D65D8
+    // Offset: 0x1178720
     void set_customCaretColor(bool value);
     // public UnityEngine.Color get_selectionColor()
-    // Offset: 0x10D65FC
+    // Offset: 0x1178744
     UnityEngine::Color get_selectionColor();
     // public System.Void set_selectionColor(UnityEngine.Color value)
-    // Offset: 0x10D6610
+    // Offset: 0x1178758
     void set_selectionColor(UnityEngine::Color value);
     // public UnityEngine.UI.InputField/SubmitEvent get_onEndEdit()
-    // Offset: 0x10D664C
+    // Offset: 0x1178794
     UnityEngine::UI::InputField::SubmitEvent* get_onEndEdit();
     // public System.Void set_onEndEdit(UnityEngine.UI.InputField/SubmitEvent value)
-    // Offset: 0x10D6654
+    // Offset: 0x117879C
     void set_onEndEdit(UnityEngine::UI::InputField::SubmitEvent* value);
     // public UnityEngine.UI.InputField/OnChangeEvent get_onValueChange()
-    // Offset: 0x10D66B4
+    // Offset: 0x11787FC
     UnityEngine::UI::InputField::OnChangeEvent* get_onValueChange();
     // public System.Void set_onValueChange(UnityEngine.UI.InputField/OnChangeEvent value)
-    // Offset: 0x10D66BC
+    // Offset: 0x1178804
     void set_onValueChange(UnityEngine::UI::InputField::OnChangeEvent* value);
     // public UnityEngine.UI.InputField/OnChangeEvent get_onValueChanged()
-    // Offset: 0x10D6720
+    // Offset: 0x1178868
     UnityEngine::UI::InputField::OnChangeEvent* get_onValueChanged();
     // public System.Void set_onValueChanged(UnityEngine.UI.InputField/OnChangeEvent value)
-    // Offset: 0x10D66C0
+    // Offset: 0x1178808
     void set_onValueChanged(UnityEngine::UI::InputField::OnChangeEvent* value);
     // public UnityEngine.UI.InputField/OnValidateInput get_onValidateInput()
-    // Offset: 0x10D6728
+    // Offset: 0x1178870
     UnityEngine::UI::InputField::OnValidateInput* get_onValidateInput();
     // public System.Void set_onValidateInput(UnityEngine.UI.InputField/OnValidateInput value)
-    // Offset: 0x10D6730
+    // Offset: 0x1178878
     void set_onValidateInput(UnityEngine::UI::InputField::OnValidateInput* value);
     // public System.Int32 get_characterLimit()
-    // Offset: 0x10D6790
+    // Offset: 0x11788D8
     int get_characterLimit();
     // public System.Void set_characterLimit(System.Int32 value)
-    // Offset: 0x10D6798
+    // Offset: 0x11788E0
     void set_characterLimit(int value);
     // public UnityEngine.UI.InputField/ContentType get_contentType()
-    // Offset: 0x10D685C
+    // Offset: 0x11789A4
     UnityEngine::UI::InputField::ContentType get_contentType();
     // public System.Void set_contentType(UnityEngine.UI.InputField/ContentType value)
-    // Offset: 0x10D6864
+    // Offset: 0x11789AC
     void set_contentType(UnityEngine::UI::InputField::ContentType value);
     // public UnityEngine.UI.InputField/LineType get_lineType()
-    // Offset: 0x10D6998
+    // Offset: 0x1178AE0
     UnityEngine::UI::InputField::LineType get_lineType();
     // public System.Void set_lineType(UnityEngine.UI.InputField/LineType value)
-    // Offset: 0x10D69A0
+    // Offset: 0x1178AE8
     void set_lineType(UnityEngine::UI::InputField::LineType value);
     // public UnityEngine.UI.InputField/InputType get_inputType()
-    // Offset: 0x10D6AD4
+    // Offset: 0x1178C1C
     UnityEngine::UI::InputField::InputType get_inputType();
     // public System.Void set_inputType(UnityEngine.UI.InputField/InputType value)
-    // Offset: 0x10D6ADC
+    // Offset: 0x1178C24
     void set_inputType(UnityEngine::UI::InputField::InputType value);
     // public UnityEngine.TouchScreenKeyboard get_touchScreenKeyboard()
-    // Offset: 0x10D6B80
+    // Offset: 0x1178CC8
     UnityEngine::TouchScreenKeyboard* get_touchScreenKeyboard();
     // public UnityEngine.TouchScreenKeyboardType get_keyboardType()
-    // Offset: 0x10D6B88
+    // Offset: 0x1178CD0
     UnityEngine::TouchScreenKeyboardType get_keyboardType();
     // public System.Void set_keyboardType(UnityEngine.TouchScreenKeyboardType value)
-    // Offset: 0x10D6B90
+    // Offset: 0x1178CD8
     void set_keyboardType(UnityEngine::TouchScreenKeyboardType value);
     // public UnityEngine.UI.InputField/CharacterValidation get_characterValidation()
-    // Offset: 0x10D6C1C
+    // Offset: 0x1178D64
     UnityEngine::UI::InputField::CharacterValidation get_characterValidation();
     // public System.Void set_characterValidation(UnityEngine.UI.InputField/CharacterValidation value)
-    // Offset: 0x10D6C24
+    // Offset: 0x1178D6C
     void set_characterValidation(UnityEngine::UI::InputField::CharacterValidation value);
     // public System.Boolean get_readOnly()
-    // Offset: 0x10D6CB0
+    // Offset: 0x1178DF8
     bool get_readOnly();
     // public System.Void set_readOnly(System.Boolean value)
-    // Offset: 0x10D6CB8
+    // Offset: 0x1178E00
     void set_readOnly(bool value);
     // public System.Boolean get_multiLine()
-    // Offset: 0x10D6CC4
+    // Offset: 0x1178E0C
     bool get_multiLine();
     // public System.Char get_asteriskChar()
-    // Offset: 0x10D6CD8
+    // Offset: 0x1178E20
     ::Il2CppChar get_asteriskChar();
     // public System.Void set_asteriskChar(System.Char value)
-    // Offset: 0x10D6CE0
+    // Offset: 0x1178E28
     void set_asteriskChar(::Il2CppChar value);
     // public System.Boolean get_wasCanceled()
-    // Offset: 0x10D6D5C
+    // Offset: 0x1178EA4
     bool get_wasCanceled();
     // protected System.Void ClampPos(System.Int32 pos)
-    // Offset: 0x10D6D64
+    // Offset: 0x1178EAC
     void ClampPos(int& pos);
     // protected System.Int32 get_caretPositionInternal()
-    // Offset: 0x10D6D9C
+    // Offset: 0x1178EE4
     int get_caretPositionInternal();
     // protected System.Void set_caretPositionInternal(System.Int32 value)
-    // Offset: 0x10D6DCC
+    // Offset: 0x1178F14
     void set_caretPositionInternal(int value);
     // protected System.Int32 get_caretSelectPositionInternal()
-    // Offset: 0x10D6E04
+    // Offset: 0x1178F4C
     int get_caretSelectPositionInternal();
     // protected System.Void set_caretSelectPositionInternal(System.Int32 value)
-    // Offset: 0x10D6E34
+    // Offset: 0x1178F7C
     void set_caretSelectPositionInternal(int value);
     // public System.Int32 get_caretPosition()
-    // Offset: 0x10D6EA0
+    // Offset: 0x1178FE8
     int get_caretPosition();
     // public System.Void set_caretPosition(System.Int32 value)
-    // Offset: 0x10D6ED0
+    // Offset: 0x1179018
     void set_caretPosition(int value);
     // public System.Int32 get_selectionAnchorPosition()
-    // Offset: 0x10D6FBC
+    // Offset: 0x1179104
     int get_selectionAnchorPosition();
     // public System.Void set_selectionAnchorPosition(System.Int32 value)
-    // Offset: 0x10D6EFC
+    // Offset: 0x1179044
     void set_selectionAnchorPosition(int value);
     // public System.Int32 get_selectionFocusPosition()
-    // Offset: 0x10D6FEC
+    // Offset: 0x1179134
     int get_selectionFocusPosition();
     // public System.Void set_selectionFocusPosition(System.Int32 value)
-    // Offset: 0x10D6F5C
+    // Offset: 0x11790A4
     void set_selectionFocusPosition(int value);
     // private System.Collections.IEnumerator CaretBlink()
-    // Offset: 0x10D7654
+    // Offset: 0x117979C
     System::Collections::IEnumerator* CaretBlink();
     // private System.Void SetCaretVisible()
-    // Offset: 0x10D76D0
+    // Offset: 0x1179818
     void SetCaretVisible();
     // private System.Void SetCaretActive()
-    // Offset: 0x10D6118
+    // Offset: 0x1178260
     void SetCaretActive();
     // private System.Void UpdateCaretMaterial()
-    // Offset: 0x10D7710
+    // Offset: 0x1179858
     void UpdateCaretMaterial();
     // protected System.Void OnFocus()
-    // Offset: 0x10D783C
+    // Offset: 0x1179984
     void OnFocus();
     // protected System.Void SelectAll()
-    // Offset: 0x10D7840
+    // Offset: 0x1179988
     void SelectAll();
     // public System.Void MoveTextEnd(System.Boolean shift)
-    // Offset: 0x10D788C
+    // Offset: 0x11799D4
     void MoveTextEnd(bool shift);
     // public System.Void MoveTextStart(System.Boolean shift)
-    // Offset: 0x10D7928
+    // Offset: 0x1179A70
     void MoveTextStart(bool shift);
     // static private System.String get_clipboard()
-    // Offset: 0x10D79B0
+    // Offset: 0x1179AF8
     static ::Il2CppString* get_clipboard();
     // static private System.Void set_clipboard(System.String value)
-    // Offset: 0x10D79B8
+    // Offset: 0x1179B00
     static void set_clipboard(::Il2CppString* value);
     // private System.Boolean InPlaceEditing()
-    // Offset: 0x10D79C0
+    // Offset: 0x1179B08
     bool InPlaceEditing();
     // private System.Void UpdateCaretFromKeyboard()
-    // Offset: 0x10D79FC
+    // Offset: 0x1179B44
     void UpdateCaretFromKeyboard();
     // protected System.Void LateUpdate()
-    // Offset: 0x10D7AE8
+    // Offset: 0x1179C30
     void LateUpdate();
     // public UnityEngine.Vector2 ScreenToLocal(UnityEngine.Vector2 screen)
-    // Offset: 0x10D8F00
+    // Offset: 0x117B048
     UnityEngine::Vector2 ScreenToLocal(UnityEngine::Vector2 screen);
     // private System.Int32 GetUnclampedCharacterLineFromPosition(UnityEngine.Vector2 pos, UnityEngine.TextGenerator generator)
-    // Offset: 0x10D91F4
+    // Offset: 0x117B33C
     int GetUnclampedCharacterLineFromPosition(UnityEngine::Vector2 pos, UnityEngine::TextGenerator* generator);
     // protected System.Int32 GetCharacterIndexFromPosition(UnityEngine.Vector2 pos)
-    // Offset: 0x10D9428
+    // Offset: 0x117B570
     int GetCharacterIndexFromPosition(UnityEngine::Vector2 pos);
     // private System.Boolean MayDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10D98C4
+    // Offset: 0x117BA0C
     bool MayDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Collections.IEnumerator MouseDragOutsideRect(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10D9BD0
+    // Offset: 0x117BD18
     System::Collections::IEnumerator* MouseDragOutsideRect(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected UnityEngine.UI.InputField/EditState KeyPressed(UnityEngine.Event evt)
-    // Offset: 0x10D9E90
+    // Offset: 0x117BFD8
     UnityEngine::UI::InputField::EditState KeyPressed(UnityEngine::Event* evt);
     // private System.Boolean IsValidChar(System.Char c)
-    // Offset: 0x10DAA5C
+    // Offset: 0x117CBA4
     bool IsValidChar(::Il2CppChar c);
     // public System.Void ProcessEvent(UnityEngine.Event e)
-    // Offset: 0x10DAACC
+    // Offset: 0x117CC14
     void ProcessEvent(UnityEngine::Event* e);
     // private System.String GetSelectedString()
-    // Offset: 0x10DA454
+    // Offset: 0x117C59C
     ::Il2CppString* GetSelectedString();
     // private System.Int32 FindtNextWordBegin()
-    // Offset: 0x10DAC04
+    // Offset: 0x117CD4C
     int FindtNextWordBegin();
     // private System.Void MoveRight(System.Boolean shift, System.Boolean ctrl)
-    // Offset: 0x10DA8BC
+    // Offset: 0x117CA04
     void MoveRight(bool shift, bool ctrl);
     // private System.Int32 FindtPrevWordBegin()
-    // Offset: 0x10DACD8
+    // Offset: 0x117CE20
     int FindtPrevWordBegin();
     // private System.Void MoveLeft(System.Boolean shift, System.Boolean ctrl)
-    // Offset: 0x10DA734
+    // Offset: 0x117C87C
     void MoveLeft(bool shift, bool ctrl);
     // private System.Int32 DetermineCharacterLine(System.Int32 charPos, UnityEngine.TextGenerator generator)
-    // Offset: 0x10DAD90
+    // Offset: 0x117CED8
     int DetermineCharacterLine(int charPos, UnityEngine::TextGenerator* generator);
     // private System.Int32 LineUpCharacterPosition(System.Int32 originalPos, System.Boolean goToFirstChar)
-    // Offset: 0x10DAEB0
+    // Offset: 0x117CFF8
     int LineUpCharacterPosition(int originalPos, bool goToFirstChar);
     // private System.Int32 LineDownCharacterPosition(System.Int32 originalPos, System.Boolean goToLastChar)
-    // Offset: 0x10DB220
+    // Offset: 0x117D368
     int LineDownCharacterPosition(int originalPos, bool goToLastChar);
     // private System.Void MoveDown(System.Boolean shift)
-    // Offset: 0x10DAA50
+    // Offset: 0x117CB98
     void MoveDown(bool shift);
     // private System.Void MoveDown(System.Boolean shift, System.Boolean goToLastChar)
-    // Offset: 0x10DB4EC
+    // Offset: 0x117D634
     void MoveDown(bool shift, bool goToLastChar);
     // private System.Void MoveUp(System.Boolean shift)
-    // Offset: 0x10DAA44
+    // Offset: 0x117CB8C
     void MoveUp(bool shift);
     // private System.Void MoveUp(System.Boolean shift, System.Boolean goToFirstChar)
-    // Offset: 0x10DB684
+    // Offset: 0x117D7CC
     void MoveUp(bool shift, bool goToFirstChar);
     // private System.Void Delete()
-    // Offset: 0x10DA504
+    // Offset: 0x117C64C
     void Delete();
     // private System.Void ForwardSpace()
-    // Offset: 0x10DA390
+    // Offset: 0x117C4D8
     void ForwardSpace();
     // private System.Void Backspace()
-    // Offset: 0x10DA284
+    // Offset: 0x117C3CC
     void Backspace();
     // private System.Void Insert(System.Char c)
-    // Offset: 0x10DB828
+    // Offset: 0x117D970
     void Insert(::Il2CppChar c);
     // private System.Void UpdateTouchKeyboardFromEditChanges()
-    // Offset: 0x10DA6DC
+    // Offset: 0x117C824
     void UpdateTouchKeyboardFromEditChanges();
     // private System.Void SendOnValueChangedAndUpdateLabel()
-    // Offset: 0x10D8EDC
+    // Offset: 0x117B024
     void SendOnValueChangedAndUpdateLabel();
     // private System.Void SendOnValueChanged()
-    // Offset: 0x10D5B80
+    // Offset: 0x1177CC8
     void SendOnValueChanged();
     // protected System.Void SendOnSubmit()
-    // Offset: 0x10DB924
+    // Offset: 0x117DA6C
     void SendOnSubmit();
     // protected System.Void Append(System.String input)
-    // Offset: 0x10DB9A0
+    // Offset: 0x117DAE8
     void Append(::Il2CppString* input);
     // protected System.Void Append(System.Char input)
-    // Offset: 0x10DBA60
+    // Offset: 0x117DBA8
     void Append(::Il2CppChar input);
     // protected System.Void UpdateLabel()
-    // Offset: 0x10D5BFC
+    // Offset: 0x1177D44
     void UpdateLabel();
     // private System.Boolean IsSelectionVisible()
-    // Offset: 0x10DC7C4
+    // Offset: 0x117E90C
     bool IsSelectionVisible();
     // static private System.Int32 GetLineStartPosition(UnityEngine.TextGenerator gen, System.Int32 line)
-    // Offset: 0x10DC834
+    // Offset: 0x117E97C
     static int GetLineStartPosition(UnityEngine::TextGenerator* gen, int line);
     // static private System.Int32 GetLineEndPosition(UnityEngine.TextGenerator gen, System.Int32 line)
-    // Offset: 0x10D9718
+    // Offset: 0x117B860
     static int GetLineEndPosition(UnityEngine::TextGenerator* gen, int line);
     // private System.Void SetDrawRangeToContainCaretPosition(System.Int32 caretPos)
-    // Offset: 0x10DBBC0
+    // Offset: 0x117DD08
     void SetDrawRangeToContainCaretPosition(int caretPos);
     // public System.Void ForceLabelUpdate()
-    // Offset: 0x10DC9C4
+    // Offset: 0x117EB0C
     void ForceLabelUpdate();
     // private System.Void MarkGeometryAsDirty()
-    // Offset: 0x10D6210
+    // Offset: 0x1178358
     void MarkGeometryAsDirty();
     // private System.Void UpdateGeometry()
-    // Offset: 0x10DC9D8
+    // Offset: 0x117EB20
     void UpdateGeometry();
     // private System.Void AssignPositioningIfNeeded()
-    // Offset: 0x10D825C
+    // Offset: 0x117A3A4
     void AssignPositioningIfNeeded();
     // private System.Void OnFillVBO(UnityEngine.Mesh vbo)
-    // Offset: 0x10DCE0C
+    // Offset: 0x117EF54
     void OnFillVBO(UnityEngine::Mesh* vbo);
     // private System.Void GenerateCaret(UnityEngine.UI.VertexHelper vbo, UnityEngine.Vector2 roundingOffset)
-    // Offset: 0x10DD038
+    // Offset: 0x117F180
     void GenerateCaret(UnityEngine::UI::VertexHelper* vbo, UnityEngine::Vector2 roundingOffset);
     // private System.Void CreateCursorVerts()
-    // Offset: 0x10DE09C
+    // Offset: 0x11801E4
     void CreateCursorVerts();
     // private System.Void GenerateHighlight(UnityEngine.UI.VertexHelper vbo, UnityEngine.Vector2 roundingOffset)
-    // Offset: 0x10DD750
+    // Offset: 0x117F898
     void GenerateHighlight(UnityEngine::UI::VertexHelper* vbo, UnityEngine::Vector2 roundingOffset);
     // protected System.Char Validate(System.String text, System.Int32 pos, System.Char ch)
-    // Offset: 0x10D8864
+    // Offset: 0x117A9AC
     ::Il2CppChar Validate(::Il2CppString* text, int pos, ::Il2CppChar ch);
     // public System.Void ActivateInputField()
-    // Offset: 0x10DE1FC
+    // Offset: 0x1180344
     void ActivateInputField();
     // private System.Void ActivateInputFieldInternal()
-    // Offset: 0x10D7EFC
+    // Offset: 0x117A044
     void ActivateInputFieldInternal();
     // public System.Void DeactivateInputField()
-    // Offset: 0x10D749C
+    // Offset: 0x11795E4
     void DeactivateInputField();
     // private System.Void EnforceContentType()
-    // Offset: 0x10D68E0
+    // Offset: 0x1178A28
     void EnforceContentType();
     // private System.Void EnforceTextHOverflow()
-    // Offset: 0x10D55D0
+    // Offset: 0x1177718
     void EnforceTextHOverflow();
     // private System.Void SetToCustomIfContentTypeIsNot(UnityEngine.UI.InputField/ContentType[] allowedContentTypes)
-    // Offset: 0x10D6A64
+    // Offset: 0x1178BAC
     void SetToCustomIfContentTypeIsNot(::Array<UnityEngine::UI::InputField::ContentType>* allowedContentTypes);
     // private System.Void SetToCustom()
-    // Offset: 0x10D6B68
+    // Offset: 0x1178CB0
     void SetToCustom();
     // protected System.Void .ctor()
-    // Offset: 0x10D5410
+    // Offset: 0x1177558
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -841,138 +841,138 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static InputField* New_ctor();
     // private System.Boolean get_hasSelection()
-    // Offset: 0x10D6E6C
+    // Offset: 0x1178FB4
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Boolean Selectable::get_hasSelection()
     bool get_hasSelection();
     // protected override System.Void OnEnable()
-    // Offset: 0x10D701C
+    // Offset: 0x1179164
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x10D7268
+    // Offset: 0x11793B0
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDisable()
     void OnDisable();
     // public System.Void OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10D99B4
+    // Offset: 0x117BAFC
     // Implemented from: UnityEngine.EventSystems.IBeginDragHandler
     // Base method: System.Void IBeginDragHandler::OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnBeginDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10D99E0
+    // Offset: 0x117BB28
     // Implemented from: UnityEngine.EventSystems.IDragHandler
     // Base method: System.Void IDragHandler::OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnEndDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10D9C68
+    // Offset: 0x117BDB0
     // Implemented from: UnityEngine.EventSystems.IEndDragHandler
     // Base method: System.Void IEndDragHandler::OnEndDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnEndDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public override System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10D9C90
+    // Offset: 0x117BDD8
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnUpdateSelected(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x10DAAD0
+    // Offset: 0x117CC18
     // Implemented from: UnityEngine.EventSystems.IUpdateSelectedHandler
     // Base method: System.Void IUpdateSelectedHandler::OnUpdateSelected(UnityEngine.EventSystems.BaseEventData eventData)
     void OnUpdateSelected(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate update)
-    // Offset: 0x10DC9C8
+    // Offset: 0x117EB10
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::Rebuild(UnityEngine.UI.CanvasUpdate update)
     void Rebuild(UnityEngine::UI::CanvasUpdate update);
     // public System.Void LayoutComplete()
-    // Offset: 0x10DCE04
+    // Offset: 0x117EF4C
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::LayoutComplete()
     void LayoutComplete();
     // public System.Void GraphicUpdateComplete()
-    // Offset: 0x10DCE08
+    // Offset: 0x117EF50
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::GraphicUpdateComplete()
     void GraphicUpdateComplete();
     // public override System.Void OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x10DE33C
+    // Offset: 0x1180484
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSelect(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10DE380
+    // Offset: 0x11804C8
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public override System.Void OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x10DE3A0
+    // Offset: 0x11804E8
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
     void OnDeselect(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x10DE3D0
+    // Offset: 0x1180518
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x10DE424
+    // Offset: 0x118056C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x10DE450
+    // Offset: 0x1180598
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public System.Void CalculateLayoutInputVertical()
-    // Offset: 0x10DE454
+    // Offset: 0x118059C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public System.Single get_minWidth()
-    // Offset: 0x10DE458
+    // Offset: 0x11805A0
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minWidth()
     float get_minWidth();
     // public System.Single get_preferredWidth()
-    // Offset: 0x10DE460
+    // Offset: 0x11805A8
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredWidth()
     float get_preferredWidth();
     // public System.Single get_flexibleWidth()
-    // Offset: 0x10DE5C0
+    // Offset: 0x1180708
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleWidth()
     float get_flexibleWidth();
     // public System.Single get_minHeight()
-    // Offset: 0x10DE5C8
+    // Offset: 0x1180710
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_minHeight()
     float get_minHeight();
     // public System.Single get_preferredHeight()
-    // Offset: 0x10DE5D0
+    // Offset: 0x1180718
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_preferredHeight()
     float get_preferredHeight();
     // public System.Single get_flexibleHeight()
-    // Offset: 0x10DE74C
+    // Offset: 0x1180894
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Single ILayoutElement::get_flexibleHeight()
     float get_flexibleHeight();
     // public System.Int32 get_layoutPriority()
-    // Offset: 0x10DE754
+    // Offset: 0x118089C
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Int32 ILayoutElement::get_layoutPriority()
     int get_layoutPriority();
     // static private System.Void .cctor()
-    // Offset: 0x10DE75C
+    // Offset: 0x11808A4
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // private UnityEngine.Transform UnityEngine.UI.ICanvasElement.get_transform()
-    // Offset: 0x10DE7DC
+    // Offset: 0x1180924
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();

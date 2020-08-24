@@ -60,67 +60,67 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.GUIStyle s_SpaceStyle
     static void _set_s_SpaceStyle(UnityEngine::GUIStyle* value);
     // static private UnityEngine.Rect Internal_GetWindowRect(System.Int32 windowID)
-    // Offset: 0x11CE490
+    // Offset: 0x12725D8
     static UnityEngine::Rect Internal_GetWindowRect(int windowID);
     // static private System.Void Internal_MoveWindow(System.Int32 windowID, UnityEngine.Rect r)
-    // Offset: 0x11CE580
+    // Offset: 0x12726C8
     static void Internal_MoveWindow(int windowID, UnityEngine::Rect r);
     // static UnityEngine.GUILayoutUtility/LayoutCache SelectIDList(System.Int32 instanceID, System.Boolean isWindow)
-    // Offset: 0x11C6E94
+    // Offset: 0x126AFDC
     static UnityEngine::GUILayoutUtility::LayoutCache* SelectIDList(int instanceID, bool isWindow);
     // static System.Void Begin(System.Int32 instanceID)
-    // Offset: 0x11CE754
+    // Offset: 0x127289C
     static void Begin(int instanceID);
     // static System.Void BeginWindow(System.Int32 windowID, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C7160
+    // Offset: 0x126B2A8
     static void BeginWindow(int windowID, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static System.Void Layout()
-    // Offset: 0x11C76E8
+    // Offset: 0x126B830
     static void Layout();
     // static System.Void LayoutFromEditorWindow()
-    // Offset: 0x11CED90
+    // Offset: 0x1272ED8
     static void LayoutFromEditorWindow();
     // static System.Void LayoutFreeGroup(UnityEngine.GUILayoutGroup toplevel)
-    // Offset: 0x11CE9D8
+    // Offset: 0x1272B20
     static void LayoutFreeGroup(UnityEngine::GUILayoutGroup* toplevel);
     // static private System.Void LayoutSingleGroup(UnityEngine.GUILayoutGroup i)
-    // Offset: 0x11CEB40
+    // Offset: 0x1272C88
     static void LayoutSingleGroup(UnityEngine::GUILayoutGroup* i);
     // static private UnityEngine.GUILayoutGroup CreateGUILayoutGroupInstanceOfType(System.Type LayoutType)
-    // Offset: 0x11CEF84
+    // Offset: 0x12730CC
     static UnityEngine::GUILayoutGroup* CreateGUILayoutGroupInstanceOfType(System::Type* LayoutType);
     // static UnityEngine.GUILayoutGroup BeginLayoutGroup(UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type layoutType)
-    // Offset: 0x11C976C
+    // Offset: 0x126D8B4
     static UnityEngine::GUILayoutGroup* BeginLayoutGroup(UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options, System::Type* layoutType);
     // static System.Void EndLayoutGroup()
-    // Offset: 0x11C9AAC
+    // Offset: 0x126DBF4
     static void EndLayoutGroup();
     // static UnityEngine.GUILayoutGroup BeginLayoutArea(UnityEngine.GUIStyle style, System.Type layoutType)
-    // Offset: 0x11CA24C
+    // Offset: 0x126E394
     static UnityEngine::GUILayoutGroup* BeginLayoutArea(UnityEngine::GUIStyle* style, System::Type* layoutType);
     // static public UnityEngine.Rect GetRect(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C8328
+    // Offset: 0x126C470
     static UnityEngine::Rect GetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static private UnityEngine.Rect DoGetRect(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11CF0A0
+    // Offset: 0x12731E8
     static UnityEngine::Rect DoGetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static public UnityEngine.Rect GetRect(System.Single width, System.Single height, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11C9118
+    // Offset: 0x126D260
     static UnityEngine::Rect GetRect(float width, float height, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static private UnityEngine.Rect DoGetRect(System.Single minWidth, System.Single maxWidth, System.Single minHeight, System.Single maxHeight, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x11CF5BC
+    // Offset: 0x1273704
     static UnityEngine::Rect DoGetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
     // static UnityEngine.GUIStyle get_spaceStyle()
-    // Offset: 0x11C8FFC
+    // Offset: 0x126D144
     static UnityEngine::GUIStyle* get_spaceStyle();
     // static private System.Void .cctor()
-    // Offset: 0x11CF8AC
+    // Offset: 0x12739F4
     static void _cctor();
     // static private System.Void Internal_GetWindowRect_Injected(System.Int32 windowID, UnityEngine.Rect ret)
-    // Offset: 0x11CE530
+    // Offset: 0x1272678
     static void Internal_GetWindowRect_Injected(int windowID, UnityEngine::Rect& ret);
     // static private System.Void Internal_MoveWindow_Injected(System.Int32 windowID, UnityEngine.Rect r)
-    // Offset: 0x11CE61C
+    // Offset: 0x1272764
     static void Internal_MoveWindow_Injected(int windowID, UnityEngine::Rect& r);
   }; // UnityEngine.GUILayoutUtility
 }

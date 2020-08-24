@@ -24,22 +24,22 @@ namespace System::Resources {
     // Set static field: static readonly System.Resources.FastResourceComparer Default
     static void _set_Default(System::Resources::FastResourceComparer* value);
     // static System.Int32 HashFunction(System.String key)
-    // Offset: 0x10B7840
+    // Offset: 0x1159988
     static int HashFunction(::Il2CppString* key);
     // static public System.Int32 CompareOrdinal(System.String a, System.Byte[] bytes, System.Int32 bCharLength)
-    // Offset: 0x10B7A9C
+    // Offset: 0x1159BE4
     static int CompareOrdinal(::Il2CppString* a, ::Array<uint8_t>* bytes, int bCharLength);
     // static public System.Int32 CompareOrdinal(System.Byte[] bytes, System.Int32 aCharLength, System.String b)
-    // Offset: 0x10B7B5C
+    // Offset: 0x1159CA4
     static int CompareOrdinal(::Array<uint8_t>* bytes, int aCharLength, ::Il2CppString* b);
     // static System.Int32 CompareOrdinal(System.Byte* a, System.Int32 byteLen, System.String b)
-    // Offset: 0x10B7BE0
+    // Offset: 0x1159D28
     static int CompareOrdinal(uint8_t* a, int byteLen, ::Il2CppString* b);
     // static private System.Void .cctor()
-    // Offset: 0x10B7C88
+    // Offset: 0x1159DD0
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object key)
-    // Offset: 0x10B77B0
+    // Offset: 0x11598F8
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object key)
     int GetHashCode(::Il2CppObject* key);
@@ -47,12 +47,12 @@ namespace System::Resources {
     // Maps to method: GetHashCode
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* key);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x10B78B8
+    // Offset: 0x1159A00
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
     // Base method: System.Int32 IEqualityComparer`1::GetHashCode(System.String key)
     int GetHashCode(::Il2CppString* key);
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x10B791C
+    // Offset: 0x1159A64
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object a, System.Object b)
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
@@ -60,17 +60,17 @@ namespace System::Resources {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 Compare(System.String a, System.String b)
-    // Offset: 0x10B79CC
+    // Offset: 0x1159B14
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer`1::Compare(System.String a, System.String b)
     int Compare(::Il2CppString* a, ::Il2CppString* b);
     // public System.Boolean Equals(System.String a, System.String b)
-    // Offset: 0x10B79DC
+    // Offset: 0x1159B24
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
     // Base method: System.Boolean IEqualityComparer`1::Equals(System.String a, System.String b)
     bool Equals(::Il2CppString* a, ::Il2CppString* b);
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x10B79EC
+    // Offset: 0x1159B34
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object a, System.Object b)
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object a, System.Object b)
@@ -79,7 +79,7 @@ namespace System::Resources {
     // Maps to method: Equals
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Void .ctor()
-    // Offset: 0x10B7C80
+    // Offset: 0x1159DC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FastResourceComparer* New_ctor();

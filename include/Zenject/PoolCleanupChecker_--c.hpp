@@ -32,13 +32,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__2_0
     static void _set_$$9__2_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0xF1FCD8
+    // Offset: 0xFC4E20
     static void _cctor();
     // System.Boolean <.ctor>b__2_0(System.Type x)
-    // Offset: 0xF1FD48
+    // Offset: 0xFC4E90
     bool $_ctor$b__2_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0xF1FD40
+    // Offset: 0xFC4E88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PoolCleanupChecker::$$c* New_ctor();

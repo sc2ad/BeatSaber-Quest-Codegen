@@ -57,24 +57,24 @@ namespace GlobalNamespace {
     // Offset: 0x90
     System::Action_1<GlobalNamespace::PlayerSettingsViewController*>* didFinishEvent;
     // public System.Void set_hideBackButton(System.Boolean value)
-    // Offset: 0xB8FA50
+    // Offset: 0xC1BE08
     void set_hideBackButton(bool value);
     // public System.Void add_didFinishEvent(System.Action`1<PlayerSettingsViewController> value)
-    // Offset: 0xB8FA80
+    // Offset: 0xC1BE38
     void add_didFinishEvent(System::Action_1<GlobalNamespace::PlayerSettingsViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<PlayerSettingsViewController> value)
-    // Offset: 0xB8FB24
+    // Offset: 0xC1BEDC
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::PlayerSettingsViewController*>* value);
     // private System.Void <DidActivate>b__10_0()
-    // Offset: 0xB8FC98
+    // Offset: 0xC1C050
     void $DidActivate$b__10_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
-    // Offset: 0xB8FBC8
+    // Offset: 0xC1BF80
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, HMUI.ViewController/ActivationType activationType)
     void DidActivate(bool firstActivation, HMUI::ViewController::ActivationType activationType);
     // public System.Void .ctor()
-    // Offset: 0xB8FC90
+    // Offset: 0xC1C048
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

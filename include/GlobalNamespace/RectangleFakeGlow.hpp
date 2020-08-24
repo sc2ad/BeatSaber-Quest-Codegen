@@ -45,25 +45,25 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _sizeParamsID
     static void _set__sizeParamsID(int value);
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0xB9400C
+    // Offset: 0xC203C4
     void set_color(UnityEngine::Color value);
     // public UnityEngine.Color get_color()
-    // Offset: 0xB940E8
+    // Offset: 0xC204A0
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0xB940F4
+    // Offset: 0xC204AC
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0xB9416C
+    // Offset: 0xC20524
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0xB9436C
+    // Offset: 0xC20724
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0xB941EC
+    // Offset: 0xC205A4
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0xB943E4
+    // Offset: 0xC2079C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RectangleFakeGlow* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0xB94448
+    // Offset: 0xC20800
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

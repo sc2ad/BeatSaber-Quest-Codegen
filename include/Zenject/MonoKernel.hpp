@@ -40,28 +40,28 @@ namespace Zenject {
     // Offset: 0x31
     bool isDestroyed;
     // protected System.Boolean get_IsDestroyed()
-    // Offset: 0xF1F538
+    // Offset: 0xFC4680
     bool get_IsDestroyed();
     // public System.Void Start()
-    // Offset: 0xF1F540
+    // Offset: 0xFC4688
     void Start();
     // public System.Void Initialize()
-    // Offset: 0xF1F544
+    // Offset: 0xFC468C
     void Initialize();
     // public System.Void Update()
-    // Offset: 0xF1F578
+    // Offset: 0xFC46C0
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0xF1F588
+    // Offset: 0xFC46D0
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0xF1F598
+    // Offset: 0xFC46E0
     void LateUpdate();
     // public System.Void OnDestroy()
-    // Offset: 0xF1F5A8
+    // Offset: 0xFC46F0
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0xF1F614
+    // Offset: 0xFC475C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

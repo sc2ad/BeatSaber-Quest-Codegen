@@ -21,12 +21,12 @@ namespace UnityEngine::TestTools::Utils {
   class AssemblyLoadProxy : public ::Il2CppObject, public UnityEngine::TestTools::Utils::IAssemblyLoadProxy {
     public:
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
-    // Offset: 0xDA5048
+    // Offset: 0xE4A190
     // Implemented from: UnityEngine.TestTools.Utils.IAssemblyLoadProxy
     // Base method: UnityEngine.TestTools.Utils.IAssemblyWrapper IAssemblyLoadProxy::Load(System.String assemblyString)
     UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::Il2CppString* assemblyString);
     // public System.Void .ctor()
-    // Offset: 0xDA4494
+    // Offset: 0xE495DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AssemblyLoadProxy* New_ctor();

@@ -29,19 +29,19 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect;
     // protected System.Void Awake()
-    // Offset: 0xBA7EBC
+    // Offset: 0xC34274
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0xBA7F94
+    // Offset: 0xC3434C
     void OnDestroy();
     // private System.Void HandleObstacleDidInitEvent(ObstacleController obstacleController)
-    // Offset: 0xBA80B0
+    // Offset: 0xC34468
     void HandleObstacleDidInitEvent(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObcstacleDidStartDissolvingEvent(ObstacleController obstacleController, System.Single duration)
-    // Offset: 0xBA80CC
+    // Offset: 0xC34484
     void HandleObcstacleDidStartDissolvingEvent(GlobalNamespace::ObstacleController* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0xBA80F4
+    // Offset: 0xC344AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

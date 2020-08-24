@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppString* property;
     // public System.Void .ctor()
-    // Offset: 0xBA2424
+    // Offset: 0xC2E7DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SetSaberGlowColor::PropertyTintColorPair* New_ctor();

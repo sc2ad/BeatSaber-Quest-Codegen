@@ -41,10 +41,10 @@ namespace System::Xml {
     // Creating value type constructor for type: Namespace
     Namespace(::Il2CppString* prefix_ = {}, ::Il2CppString* namespaceUri_ = {}, System::Xml::XmlWellFormedWriter::NamespaceKind kind_ = {}, int prevNsIndex_ = {}) : prefix{prefix_}, namespaceUri{namespaceUri_}, kind{kind_}, prevNsIndex{prevNsIndex_} {}
     // System.Void Set(System.String prefix, System.String namespaceUri, System.Xml.XmlWellFormedWriter/NamespaceKind kind)
-    // Offset: 0x9C4DA8
+    // Offset: 0xA5E420
     void Set(::Il2CppString* prefix, ::Il2CppString* namespaceUri, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
     // System.Void WriteDecl(System.Xml.XmlWriter writer, System.Xml.XmlRawWriter rawWriter)
-    // Offset: 0x9C4DF4
+    // Offset: 0xA5E46C
     void WriteDecl(System::Xml::XmlWriter* writer, System::Xml::XmlRawWriter* rawWriter);
   }; // System.Xml.XmlWellFormedWriter/Namespace
 }

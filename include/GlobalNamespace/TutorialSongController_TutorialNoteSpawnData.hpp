@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x2C
     GlobalNamespace::NoteType noteType;
     // public System.Void .ctor(Signal gameEvent, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 line, NoteLineLayer noteLineLayer, NoteCutDirection cutDirection, NoteType noteType)
-    // Offset: 0x1965238
+    // Offset: 0xC4AFF8
     static TutorialSongController::TutorialNoteSpawnData* New_ctor(GlobalNamespace::Signal* gameEvent, int firstTimeBeatOffset, int beatOffset, int line, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::NoteType noteType);
   }; // TutorialSongController/TutorialNoteSpawnData
 }

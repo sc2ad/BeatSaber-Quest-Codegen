@@ -138,82 +138,82 @@ namespace UnityEngine::UI {
     // Set static field: static private UnityEngine.UI.Dropdown/OptionData s_NoOptionData
     static void _set_s_NoOptionData(UnityEngine::UI::Dropdown::OptionData* value);
     // public UnityEngine.RectTransform get_template()
-    // Offset: 0xD695E0
+    // Offset: 0xE0E728
     UnityEngine::RectTransform* get_template();
     // public System.Void set_template(UnityEngine.RectTransform value)
-    // Offset: 0xD68974
+    // Offset: 0xE0DABC
     void set_template(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Text get_captionText()
-    // Offset: 0xD695E8
+    // Offset: 0xE0E730
     UnityEngine::UI::Text* get_captionText();
     // public System.Void set_captionText(UnityEngine.UI.Text value)
-    // Offset: 0xD6899C
+    // Offset: 0xE0DAE4
     void set_captionText(UnityEngine::UI::Text* value);
     // public UnityEngine.UI.Image get_captionImage()
-    // Offset: 0xD695F0
+    // Offset: 0xE0E738
     UnityEngine::UI::Image* get_captionImage();
     // public System.Void set_captionImage(UnityEngine.UI.Image value)
-    // Offset: 0xD695F8
+    // Offset: 0xE0E740
     void set_captionImage(UnityEngine::UI::Image* value);
     // public UnityEngine.UI.Text get_itemText()
-    // Offset: 0xD69624
+    // Offset: 0xE0E76C
     UnityEngine::UI::Text* get_itemText();
     // public System.Void set_itemText(UnityEngine.UI.Text value)
-    // Offset: 0xD689C4
+    // Offset: 0xE0DB0C
     void set_itemText(UnityEngine::UI::Text* value);
     // public UnityEngine.UI.Image get_itemImage()
-    // Offset: 0xD6962C
+    // Offset: 0xE0E774
     UnityEngine::UI::Image* get_itemImage();
     // public System.Void set_itemImage(UnityEngine.UI.Image value)
-    // Offset: 0xD69634
+    // Offset: 0xE0E77C
     void set_itemImage(UnityEngine::UI::Image* value);
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> get_options()
-    // Offset: 0xD689F0
+    // Offset: 0xE0DB38
     System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> value)
-    // Offset: 0xD69660
+    // Offset: 0xE0E7A8
     void set_options(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* value);
     // public UnityEngine.UI.Dropdown/DropdownEvent get_onValueChanged()
-    // Offset: 0xD69694
+    // Offset: 0xE0E7DC
     UnityEngine::UI::Dropdown::DropdownEvent* get_onValueChanged();
     // public System.Void set_onValueChanged(UnityEngine.UI.Dropdown/DropdownEvent value)
-    // Offset: 0xD6969C
+    // Offset: 0xE0E7E4
     void set_onValueChanged(UnityEngine::UI::Dropdown::DropdownEvent* value);
     // public System.Single get_alphaFadeSpeed()
-    // Offset: 0xD696AC
+    // Offset: 0xE0E7F4
     float get_alphaFadeSpeed();
     // public System.Void set_alphaFadeSpeed(System.Single value)
-    // Offset: 0xD696B4
+    // Offset: 0xE0E7FC
     void set_alphaFadeSpeed(float value);
     // public System.Int32 get_value()
-    // Offset: 0xD696BC
+    // Offset: 0xE0E804
     int get_value();
     // public System.Void set_value(System.Int32 value)
-    // Offset: 0xD696C4
+    // Offset: 0xE0E80C
     void set_value(int value);
     // public System.Void SetValueWithoutNotify(System.Int32 input)
-    // Offset: 0xD697EC
+    // Offset: 0xE0E934
     void SetValueWithoutNotify(int input);
     // private System.Void Set(System.Int32 value, System.Boolean sendCallback)
-    // Offset: 0xD696CC
+    // Offset: 0xE0E814
     void Set(int value, bool sendCallback);
     // public System.Void RefreshShownValue()
-    // Offset: 0xD68A0C
+    // Offset: 0xE0DB54
     void RefreshShownValue();
     // public System.Void AddOptions(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> options)
-    // Offset: 0xD69C88
+    // Offset: 0xE0EDD0
     void AddOptions(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<System.String> options)
-    // Offset: 0xD69D00
+    // Offset: 0xE0EE48
     void AddOptions(System::Collections::Generic::List_1<::Il2CppString*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<UnityEngine.Sprite> options)
-    // Offset: 0xD69DEC
+    // Offset: 0xE0EF34
     void AddOptions(System::Collections::Generic::List_1<UnityEngine::Sprite*>* options);
     // public System.Void ClearOptions()
-    // Offset: 0xD69ED8
+    // Offset: 0xE0F020
     void ClearOptions();
     // private System.Void SetupTemplate()
-    // Offset: 0xD69F44
+    // Offset: 0xE0F08C
     void SetupTemplate();
     // static private T GetOrAddComponent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
@@ -223,52 +223,52 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.UI", "Dropdown", "GetOrAddComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, go)));
     }
     // public System.Void Show()
-    // Offset: 0xD6A5DC
+    // Offset: 0xE0F724
     void Show();
     // protected UnityEngine.GameObject CreateBlocker(UnityEngine.Canvas rootCanvas)
-    // Offset: 0xD6B820
+    // Offset: 0xE10968
     UnityEngine::GameObject* CreateBlocker(UnityEngine::Canvas* rootCanvas);
     // protected System.Void DestroyBlocker(UnityEngine.GameObject blocker)
-    // Offset: 0xD6BC78
+    // Offset: 0xE10DC0
     void DestroyBlocker(UnityEngine::GameObject* blocker);
     // protected UnityEngine.GameObject CreateDropdownList(UnityEngine.GameObject template)
-    // Offset: 0xD6BCE0
+    // Offset: 0xE10E28
     UnityEngine::GameObject* CreateDropdownList(UnityEngine::GameObject* _template);
     // protected System.Void DestroyDropdownList(UnityEngine.GameObject dropdownList)
-    // Offset: 0xD6BD50
+    // Offset: 0xE10E98
     void DestroyDropdownList(UnityEngine::GameObject* dropdownList);
     // protected UnityEngine.UI.Dropdown/DropdownItem CreateItem(UnityEngine.UI.Dropdown/DropdownItem itemTemplate)
-    // Offset: 0xD6BDB8
+    // Offset: 0xE10F00
     UnityEngine::UI::Dropdown::DropdownItem* CreateItem(UnityEngine::UI::Dropdown::DropdownItem* itemTemplate);
     // protected System.Void DestroyItem(UnityEngine.UI.Dropdown/DropdownItem item)
-    // Offset: 0xD6BE28
+    // Offset: 0xE10F70
     void DestroyItem(UnityEngine::UI::Dropdown::DropdownItem* item);
     // private UnityEngine.UI.Dropdown/DropdownItem AddItem(UnityEngine.UI.Dropdown/OptionData data, System.Boolean selected, UnityEngine.UI.Dropdown/DropdownItem itemTemplate, System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem> items)
-    // Offset: 0xD6B468
+    // Offset: 0xE105B0
     UnityEngine::UI::Dropdown::DropdownItem* AddItem(UnityEngine::UI::Dropdown::OptionData* data, bool selected, UnityEngine::UI::Dropdown::DropdownItem* itemTemplate, System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::DropdownItem*>* items);
     // private System.Void AlphaFadeList(System.Single duration, System.Single alpha)
-    // Offset: 0xD6BE2C
+    // Offset: 0xE10F74
     void AlphaFadeList(float duration, float alpha);
     // private System.Void AlphaFadeList(System.Single duration, System.Single start, System.Single end)
-    // Offset: 0xD6B708
+    // Offset: 0xE10850
     void AlphaFadeList(float duration, float start, float end);
     // private System.Void SetAlpha(System.Single alpha)
-    // Offset: 0xD6BEB4
+    // Offset: 0xE10FFC
     void SetAlpha(float alpha);
     // public System.Void Hide()
-    // Offset: 0xD6B33C
+    // Offset: 0xE10484
     void Hide();
     // private System.Collections.IEnumerator DelayedDestroyDropdownList(System.Single delay)
-    // Offset: 0xD6BF6C
+    // Offset: 0xE110B4
     System::Collections::IEnumerator* DelayedDestroyDropdownList(float delay);
     // private System.Void ImmediateDestroyDropdownList()
-    // Offset: 0xD69B18
+    // Offset: 0xE0EC60
     void ImmediateDestroyDropdownList();
     // private System.Void OnSelectItem(UnityEngine.UI.Toggle toggle)
-    // Offset: 0xD6BFF8
+    // Offset: 0xE11140
     void OnSelectItem(UnityEngine::UI::Toggle* toggle);
     // protected System.Void .ctor()
-    // Offset: 0xD697F4
+    // Offset: 0xE0E93C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -279,37 +279,37 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Dropdown* New_ctor();
     // protected override System.Void Awake()
-    // Offset: 0xD698F4
+    // Offset: 0xE0EA3C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void Start()
-    // Offset: 0xD69A58
+    // Offset: 0xE0EBA0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();
     // protected override System.Void OnDisable()
-    // Offset: 0xD69A5C
+    // Offset: 0xE0EBA4
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDisable()
     void OnDisable();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0xD6A5D8
+    // Offset: 0xE0F720
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xD6B334
+    // Offset: 0xE1047C
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0xD6B338
+    // Offset: 0xE10480
     // Implemented from: UnityEngine.EventSystems.ICancelHandler
     // Base method: System.Void ICancelHandler::OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void .cctor()
-    // Offset: 0xD6C13C
+    // Offset: 0xE11284
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.cctor()
     // Base method: System.Void Object::.cctor()

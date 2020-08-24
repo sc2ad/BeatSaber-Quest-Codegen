@@ -33,25 +33,25 @@ namespace UnityEngine::UI {
     // Offset: 0x18
     UnityEngine::UI::Graphic* m_Graphic;
     // protected UnityEngine.UI.Graphic get_graphic()
-    // Offset: 0xD614D0
+    // Offset: 0xE06618
     UnityEngine::UI::Graphic* get_graphic();
     // protected override System.Void OnEnable()
-    // Offset: 0xD6157C
+    // Offset: 0xE066C4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0xD61628
+    // Offset: 0xE06770
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0xD616D4
+    // Offset: 0xE0681C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // public System.Void ModifyMesh(UnityEngine.Mesh mesh)
-    // Offset: 0xD61780
+    // Offset: 0xE068C8
     // Implemented from: UnityEngine.UI.IMeshModifier
     // Base method: System.Void IMeshModifier::ModifyMesh(UnityEngine.Mesh mesh)
     void ModifyMesh(UnityEngine::Mesh* mesh);
@@ -61,7 +61,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void IMeshModifier::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
     // protected System.Void .ctor()
-    // Offset: 0xD618CC
+    // Offset: 0xE06A14
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
