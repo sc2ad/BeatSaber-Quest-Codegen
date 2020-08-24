@@ -25,9 +25,9 @@ jobs:
         cache-name: cache-ndk
       with:
         path: ndk
-        key: ${{ runner.os }}-${{ env.cache-name }}
+        key: ${{ runner.os }}-${{ env.cache-name }}-1
         restore-keys: |
-          ${{ runner.os }}-${{ env.cache-name }}
+          ${{ runner.os }}-${{ env.cache-name }}-1
       
     - name: Install Android NDK
       if: steps.cache-ndk.outputs.cache-hit != 'true'
