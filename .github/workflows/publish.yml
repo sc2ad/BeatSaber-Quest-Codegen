@@ -64,15 +64,6 @@ jobs:
         path: QPM
         repo: sc2ad/QuestPackageManager
         
-    - name: Use already built .so
-      uses: dawidd6/action-download-artifact@v2
-      with:
-        github_token: ${{secrets.GITHUB_TOKEN}}
-        workflow: buildndk.yml
-        name: libil2cpp_codegen.so
-        path: libil2cpp_codegen.so
-        repo: sc2ad/BeatSaber-Quest-Codegen
-        
     - name: Get Tag Version
       id: get_tag_version
       run: |
@@ -83,6 +74,20 @@ jobs:
     - name: QPM Edit Version
       run: |
         ./QPM/QPM package edit version "${{ steps.get_tag_version.outputs.VERSION }}"
+        
+    - name: Build
+      run: |
+        cd ${GITHUB_WORKSPACE}
+        pwsh -Command ./build.ps1
+    
+#     - name: Use already built .so
+#       uses: dawidd6/action-download-artifact@v2
+#       with:
+#         github_token: ${{secrets.GITHUB_TOKEN}}
+#         workflow: buildndk.yml
+#         name: libil2cpp_codegen.so
+#         path: libil2cpp_codegen.so
+#         repo: sc2ad/BeatSaber-Quest-Codegen
         
     # Commit the change to the package, .vscode/c_cpp_properties.json, and Android.mk
     - name: Configure commit
