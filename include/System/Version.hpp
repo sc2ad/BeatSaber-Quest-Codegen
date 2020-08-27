@@ -15,6 +15,8 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -145,23 +147,34 @@ namespace System {
   }; // System.Version
   // static public System.Boolean op_Equality(System.Version v1, System.Version v2)
   // Offset: 0x17A120C
-  bool operator ==(System::Version* v1, System::Version& v2);
+  bool operator ==(System::Version* v1, System::Version& v2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_Equality", v1, &v2));
+  }
   // static public System.Boolean op_Inequality(System.Version v1, System.Version v2)
   // Offset: 0x17A1FD4
-  bool operator !=(System::Version* v1, System::Version& v2);
+  bool operator !=(System::Version* v1, System::Version& v2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_Inequality", v1, &v2));
+  }
   // static public System.Boolean op_LessThan(System.Version v1, System.Version v2)
   // Offset: 0x17A2068
-  bool operator <(System::Version* v1, System::Version& v2);
+  bool operator <(System::Version* v1, System::Version& v2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_LessThan", v1, &v2));
+  }
   // static public System.Boolean op_LessThanOrEqual(System.Version v1, System.Version v2)
   // Offset: 0x17A2104
-  bool operator <=(System::Version* v1, System::Version& v2);
+  bool operator <=(System::Version* v1, System::Version& v2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_LessThanOrEqual", v1, &v2));
+  }
   // static public System.Boolean op_GreaterThan(System.Version v1, System.Version v2)
   // Offset: 0x17A21A4
-  bool operator >(System::Version* v1, System::Version& v2);
+  bool operator >(System::Version* v1, System::Version& v2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_GreaterThan", v1, &v2));
+  }
   // static public System.Boolean op_GreaterThanOrEqual(System.Version v1, System.Version v2)
   // Offset: 0x17A2218
-  bool operator >=(System::Version* v1, System::Version& v2);
+  bool operator >=(System::Version* v1, System::Version& v2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_GreaterThanOrEqual", v1, &v2));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Version*, "System", "Version");
 #pragma pack(pop)

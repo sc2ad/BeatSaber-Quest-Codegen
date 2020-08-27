@@ -9,8 +9,6 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatLine
 #include "GlobalNamespace/BeatLine.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace

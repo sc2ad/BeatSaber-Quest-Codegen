@@ -27,6 +27,10 @@
 #include "System/Double.hpp"
 // Including type: System.UInt64
 #include "System/UInt64.hpp"
+// Including type: System.TimeSpan
+#include "System/TimeSpan.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -35,14 +39,12 @@ namespace System {
   class String;
   // Forward declaring type: DateTimeKind
   struct DateTimeKind;
-  // Forward declaring type: TimeSpan
-  struct TimeSpan;
+  // Forward declaring type: TypeCode
+  struct TypeCode;
   // Forward declaring type: DayOfWeek
   struct DayOfWeek;
   // Forward declaring type: IFormatProvider
   class IFormatProvider;
-  // Forward declaring type: TypeCode
-  struct TypeCode;
   // Forward declaring type: Decimal
   struct Decimal;
   // Forward declaring type: Type
@@ -612,32 +614,49 @@ namespace System {
   }; // System.DateTime
   // static public System.DateTime op_Addition(System.DateTime d, System.TimeSpan t)
   // Offset: 0x10D2700
-  System::DateTime operator+(const System::DateTime& d, const System::TimeSpan& t);
+  System::DateTime operator+(const System::DateTime& d, const System::TimeSpan& t) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<System::DateTime>("System", "DateTime", "op_Addition", d, t));
+  }
   // static public System.DateTime op_Subtraction(System.DateTime d, System.TimeSpan t)
   // Offset: 0x10D27E0
-  System::DateTime operator-(const System::DateTime& d, const System::TimeSpan& t);
+  System::DateTime operator-(const System::DateTime& d, const System::TimeSpan& t) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<System::DateTime>("System", "DateTime", "op_Subtraction", d, t));
+  }
   // static public System.TimeSpan op_Subtraction(System.DateTime d1, System.DateTime d2)
   // Offset: 0x10D28B8
-  System::TimeSpan operator-(const System::DateTime& d1, const System::DateTime& d2);
+  System::TimeSpan operator-(const System::DateTime& d1, const System::DateTime& d2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<System::TimeSpan>("System", "DateTime", "op_Subtraction", d1, d2));
+  }
   // static public System.Boolean op_Equality(System.DateTime d1, System.DateTime d2)
   // Offset: 0x10D28C8
-  bool operator ==(const System::DateTime& d1, const System::DateTime& d2);
+  bool operator ==(const System::DateTime& d1, const System::DateTime& d2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "DateTime", "op_Equality", d1, d2));
+  }
   // static public System.Boolean op_Inequality(System.DateTime d1, System.DateTime d2)
   // Offset: 0x10D28D8
-  bool operator !=(const System::DateTime& d1, const System::DateTime& d2);
+  bool operator !=(const System::DateTime& d1, const System::DateTime& d2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "DateTime", "op_Inequality", d1, d2));
+  }
   // static public System.Boolean op_LessThan(System.DateTime t1, System.DateTime t2)
   // Offset: 0x10D28E8
-  bool operator <(const System::DateTime& t1, const System::DateTime& t2);
+  bool operator <(const System::DateTime& t1, const System::DateTime& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "DateTime", "op_LessThan", t1, t2));
+  }
   // static public System.Boolean op_LessThanOrEqual(System.DateTime t1, System.DateTime t2)
   // Offset: 0x10D28FC
-  bool operator <=(const System::DateTime& t1, const System::DateTime& t2);
+  bool operator <=(const System::DateTime& t1, const System::DateTime& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "DateTime", "op_LessThanOrEqual", t1, t2));
+  }
   // static public System.Boolean op_GreaterThan(System.DateTime t1, System.DateTime t2)
   // Offset: 0x10D2910
-  bool operator >(const System::DateTime& t1, const System::DateTime& t2);
+  bool operator >(const System::DateTime& t1, const System::DateTime& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "DateTime", "op_GreaterThan", t1, t2));
+  }
   // static public System.Boolean op_GreaterThanOrEqual(System.DateTime t1, System.DateTime t2)
   // Offset: 0x10D2924
-  bool operator >=(const System::DateTime& t1, const System::DateTime& t2);
+  bool operator >=(const System::DateTime& t1, const System::DateTime& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "DateTime", "op_GreaterThanOrEqual", t1, t2));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTime, "System", "DateTime");
 #pragma pack(pop)

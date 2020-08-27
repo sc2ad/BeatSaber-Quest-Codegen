@@ -11,12 +11,10 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.MeshArrays
 #include "UnityEngine/ProBuilder/MeshArrays.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -245,23 +243,34 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.Vertex
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
   // Offset: 0x18D691C
-  bool operator ==(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b);
+  bool operator ==(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "Vertex", "op_Equality", a, &b));
+  }
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
   // Offset: 0x18D6948
-  bool operator !=(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b);
+  bool operator !=(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "Vertex", "op_Inequality", a, &b));
+  }
   // static public UnityEngine.ProBuilder.Vertex op_Addition(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
   // Offset: 0x18D6980
-  UnityEngine::ProBuilder::Vertex* operator+(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b);
+  UnityEngine::ProBuilder::Vertex* operator+(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vertex*>("UnityEngine.ProBuilder", "Vertex", "op_Addition", a, &b));
+  }
   // static public UnityEngine.ProBuilder.Vertex op_Subtraction(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
   // Offset: 0x18D6C40
-  UnityEngine::ProBuilder::Vertex* operator-(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b);
+  UnityEngine::ProBuilder::Vertex* operator-(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vertex*>("UnityEngine.ProBuilder", "Vertex", "op_Subtraction", a, &b));
+  }
   // static public UnityEngine.ProBuilder.Vertex op_Multiply(UnityEngine.ProBuilder.Vertex a, System.Single value)
   // Offset: 0x18D6F00
-  UnityEngine::ProBuilder::Vertex* operator*(UnityEngine::ProBuilder::Vertex& a, const float& value);
+  UnityEngine::ProBuilder::Vertex* operator*(UnityEngine::ProBuilder::Vertex& a, const float& value) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vertex*>("UnityEngine.ProBuilder", "Vertex", "op_Multiply", &a, value));
+  }
   // static public UnityEngine.ProBuilder.Vertex op_Division(UnityEngine.ProBuilder.Vertex a, System.Single value)
   // Offset: 0x18D716C
-  UnityEngine::ProBuilder::Vertex* operator/(UnityEngine::ProBuilder::Vertex& a, const float& value);
+  UnityEngine::ProBuilder::Vertex* operator/(UnityEngine::ProBuilder::Vertex& a, const float& value) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vertex*>("UnityEngine.ProBuilder", "Vertex", "op_Division", &a, value));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vertex*, "UnityEngine.ProBuilder", "Vertex");
 #pragma pack(pop)

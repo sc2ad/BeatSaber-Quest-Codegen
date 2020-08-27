@@ -28,8 +28,7 @@ namespace System {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector2
-  struct Vector2;
+  // Skipping declaration: Vector2 because it is already included!
 }
 // Completed forward declares
 // Type namespace: 

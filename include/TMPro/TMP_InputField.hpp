@@ -27,8 +27,6 @@
 #include "UnityEngine/EventSystems/IScrollHandler.hpp"
 // Including type: UnityEngine.TouchScreenKeyboardType
 #include "UnityEngine/TouchScreenKeyboardType.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

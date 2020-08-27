@@ -15,8 +15,6 @@
 #include "UnityEngine/Ray.hpp"
 // Including type: UnityEngine.ContactFilter2D
 #include "UnityEngine/ContactFilter2D.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

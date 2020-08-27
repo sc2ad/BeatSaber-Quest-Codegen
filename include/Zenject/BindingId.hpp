@@ -8,6 +8,8 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -71,11 +73,14 @@ namespace Zenject {
   }; // Zenject.BindingId
   // static public System.Boolean op_Equality(Zenject.BindingId left, Zenject.BindingId right)
   // Offset: 0xD69750
-  bool operator ==(const Zenject::BindingId& left, const Zenject::BindingId& right);
+  bool operator ==(const Zenject::BindingId& left, const Zenject::BindingId& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("Zenject", "BindingId", "op_Equality", left, right));
+  }
   // static public System.Boolean op_Inequality(Zenject.BindingId left, Zenject.BindingId right)
   // Offset: 0xD6981C
-  bool operator !=(const Zenject::BindingId& left, const Zenject::BindingId& right);
+  bool operator !=(const Zenject::BindingId& left, const Zenject::BindingId& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("Zenject", "BindingId", "op_Inequality", left, right));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingId, "Zenject", "BindingId");
 #pragma pack(pop)

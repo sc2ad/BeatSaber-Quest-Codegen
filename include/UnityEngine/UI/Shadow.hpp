@@ -9,8 +9,6 @@
 #include "UnityEngine/UI/BaseMeshEffect.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.UIVertex
 #include "UnityEngine/UIVertex.hpp"
 // Completed includes

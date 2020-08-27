@@ -13,8 +13,6 @@
 #include "UnityEngine/EventSystems/IInitializePotentialDragHandler.hpp"
 // Including type: UnityEngine.UI.ICanvasElement
 #include "UnityEngine/UI/ICanvasElement.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine/DrivenRectTransformTracker.hpp"
 // Completed includes

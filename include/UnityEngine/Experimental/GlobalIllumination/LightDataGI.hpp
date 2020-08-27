@@ -11,8 +11,6 @@
 #include "UnityEngine/Experimental/GlobalIllumination/LinearColor.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightType
 #include "UnityEngine/Experimental/GlobalIllumination/LightType.hpp"
 // Including type: UnityEngine.Experimental.GlobalIllumination.LightMode

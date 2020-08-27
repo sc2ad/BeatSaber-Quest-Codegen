@@ -20,14 +20,12 @@ namespace UnityEngine {
   class Mesh;
   // Forward declaring type: Material
   class Material;
-  // Forward declaring type: Vector4
-  struct Vector4;
+  // Skipping declaration: Vector4 because it is already included!
   // Forward declaring type: Matrix4x4
   struct Matrix4x4;
   // Forward declaring type: MaterialPropertyBlock
   class MaterialPropertyBlock;
-  // Forward declaring type: Vector2
-  struct Vector2;
+  // Skipping declaration: Vector2 because it is already included!
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

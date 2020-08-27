@@ -11,6 +11,8 @@
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -184,8 +186,9 @@ namespace System {
   }; // System.Delegate
   // static public System.Boolean op_Equality(System.Delegate d1, System.Delegate d2)
   // Offset: 0xC94A98
-  bool operator ==(System::Delegate* d1, System::Delegate& d2);
+  bool operator ==(System::Delegate* d1, System::Delegate& d2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Delegate", "op_Equality", d1, &d2));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Delegate*, "System", "Delegate");
 #pragma pack(pop)

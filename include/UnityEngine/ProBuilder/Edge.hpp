@@ -8,6 +8,8 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -97,23 +99,34 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.Edge
   // static public UnityEngine.ProBuilder.Edge op_Addition(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
   // Offset: 0xF9173C
-  UnityEngine::ProBuilder::Edge operator+(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
+  UnityEngine::ProBuilder::Edge operator+(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Edge>("UnityEngine.ProBuilder", "Edge", "op_Addition", a, b));
+  }
   // static public UnityEngine.ProBuilder.Edge op_Subtraction(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
   // Offset: 0xF91754
-  UnityEngine::ProBuilder::Edge operator-(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
+  UnityEngine::ProBuilder::Edge operator-(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Edge>("UnityEngine.ProBuilder", "Edge", "op_Subtraction", a, b));
+  }
   // static public UnityEngine.ProBuilder.Edge op_Addition(UnityEngine.ProBuilder.Edge a, System.Int32 b)
   // Offset: 0xF9176C
-  UnityEngine::ProBuilder::Edge operator+(const UnityEngine::ProBuilder::Edge& a, const int& b);
+  UnityEngine::ProBuilder::Edge operator+(const UnityEngine::ProBuilder::Edge& a, const int& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Edge>("UnityEngine.ProBuilder", "Edge", "op_Addition", a, b));
+  }
   // static public UnityEngine.ProBuilder.Edge op_Subtraction(UnityEngine.ProBuilder.Edge a, System.Int32 b)
   // Offset: 0xF91780
-  UnityEngine::ProBuilder::Edge operator-(const UnityEngine::ProBuilder::Edge& a, const int& b);
+  UnityEngine::ProBuilder::Edge operator-(const UnityEngine::ProBuilder::Edge& a, const int& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Edge>("UnityEngine.ProBuilder", "Edge", "op_Subtraction", a, b));
+  }
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
   // Offset: 0xF91794
-  bool operator ==(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
+  bool operator ==(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "Edge", "op_Equality", a, b));
+  }
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
   // Offset: 0xF917CC
-  bool operator !=(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
+  bool operator !=(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "Edge", "op_Inequality", a, b));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Edge, "UnityEngine.ProBuilder", "Edge");
 #pragma pack(pop)

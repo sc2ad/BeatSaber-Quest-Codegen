@@ -15,6 +15,8 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.IFormattable
 #include "System/IFormattable.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -179,29 +181,44 @@ namespace System {
   }; // System.TimeSpan
   // static public System.TimeSpan op_Subtraction(System.TimeSpan t1, System.TimeSpan t2)
   // Offset: 0xCF1480
-  System::TimeSpan operator-(const System::TimeSpan& t1, const System::TimeSpan& t2);
+  System::TimeSpan operator-(const System::TimeSpan& t1, const System::TimeSpan& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<System::TimeSpan>("System", "TimeSpan", "op_Subtraction", t1, t2));
+  }
   // static public System.TimeSpan op_Addition(System.TimeSpan t1, System.TimeSpan t2)
   // Offset: 0xCF14A4
-  System::TimeSpan operator+(const System::TimeSpan& t1, const System::TimeSpan& t2);
+  System::TimeSpan operator+(const System::TimeSpan& t1, const System::TimeSpan& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<System::TimeSpan>("System", "TimeSpan", "op_Addition", t1, t2));
+  }
   // static public System.Boolean op_Equality(System.TimeSpan t1, System.TimeSpan t2)
   // Offset: 0xCF14C8
-  bool operator ==(const System::TimeSpan& t1, const System::TimeSpan& t2);
+  bool operator ==(const System::TimeSpan& t1, const System::TimeSpan& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "TimeSpan", "op_Equality", t1, t2));
+  }
   // static public System.Boolean op_Inequality(System.TimeSpan t1, System.TimeSpan t2)
   // Offset: 0xCF14D4
-  bool operator !=(const System::TimeSpan& t1, const System::TimeSpan& t2);
+  bool operator !=(const System::TimeSpan& t1, const System::TimeSpan& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "TimeSpan", "op_Inequality", t1, t2));
+  }
   // static public System.Boolean op_LessThan(System.TimeSpan t1, System.TimeSpan t2)
   // Offset: 0xCF14E0
-  bool operator <(const System::TimeSpan& t1, const System::TimeSpan& t2);
+  bool operator <(const System::TimeSpan& t1, const System::TimeSpan& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "TimeSpan", "op_LessThan", t1, t2));
+  }
   // static public System.Boolean op_LessThanOrEqual(System.TimeSpan t1, System.TimeSpan t2)
   // Offset: 0xCF14EC
-  bool operator <=(const System::TimeSpan& t1, const System::TimeSpan& t2);
+  bool operator <=(const System::TimeSpan& t1, const System::TimeSpan& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "TimeSpan", "op_LessThanOrEqual", t1, t2));
+  }
   // static public System.Boolean op_GreaterThan(System.TimeSpan t1, System.TimeSpan t2)
   // Offset: 0xCF14F8
-  bool operator >(const System::TimeSpan& t1, const System::TimeSpan& t2);
+  bool operator >(const System::TimeSpan& t1, const System::TimeSpan& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "TimeSpan", "op_GreaterThan", t1, t2));
+  }
   // static public System.Boolean op_GreaterThanOrEqual(System.TimeSpan t1, System.TimeSpan t2)
   // Offset: 0xCF1504
-  bool operator >=(const System::TimeSpan& t1, const System::TimeSpan& t2);
+  bool operator >=(const System::TimeSpan& t1, const System::TimeSpan& t2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "TimeSpan", "op_GreaterThanOrEqual", t1, t2));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
 #pragma pack(pop)

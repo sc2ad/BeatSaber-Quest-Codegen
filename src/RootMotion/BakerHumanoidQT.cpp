@@ -11,8 +11,6 @@
 #include "UnityEngine/AnimationCurve.hpp"
 // Including type: UnityEngine.Avatar
 #include "UnityEngine/Avatar.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.AnimationClip
 #include "UnityEngine/AnimationClip.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

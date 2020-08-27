@@ -5,6 +5,8 @@
 #pragma pack(push, 8)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -85,11 +87,14 @@ namespace System::Xml {
   }; // System.Xml.XmlQualifiedName
   // static public System.Boolean op_Equality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
   // Offset: 0x11A97C0
-  bool operator ==(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b);
+  bool operator ==(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Xml", "XmlQualifiedName", "op_Equality", a, &b));
+  }
   // static public System.Boolean op_Inequality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
   // Offset: 0x11A9740
-  bool operator !=(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b);
+  bool operator !=(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Xml", "XmlQualifiedName", "op_Inequality", a, &b));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlQualifiedName*, "System.Xml", "XmlQualifiedName");
 #pragma pack(pop)

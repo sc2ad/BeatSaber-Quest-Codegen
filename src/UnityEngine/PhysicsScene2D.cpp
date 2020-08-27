@@ -11,8 +11,6 @@
 #include "UnityEngine/ContactFilter2D.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

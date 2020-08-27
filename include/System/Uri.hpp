@@ -9,6 +9,8 @@
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.UriIdnScope
 #include "System/UriIdnScope.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -839,12 +841,15 @@ namespace System {
   }; // System.Uri
   // static public System.Boolean op_Equality(System.Uri uri1, System.Uri uri2)
   // Offset: 0x1509B4C
-  bool operator ==(System::Uri* uri1, System::Uri& uri2);
+  bool operator ==(System::Uri* uri1, System::Uri& uri2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Uri", "op_Equality", uri1, &uri2));
+  }
   // static public System.Boolean op_Inequality(System.Uri uri1, System.Uri uri2)
   // Offset: 0x1506CC4
-  bool operator !=(System::Uri* uri1, System::Uri& uri2);
+  bool operator !=(System::Uri* uri1, System::Uri& uri2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Uri", "op_Inequality", uri1, &uri2));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Uri*, "System", "Uri");
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::Flags, "System", "Uri/Flags");
 #pragma pack(pop)

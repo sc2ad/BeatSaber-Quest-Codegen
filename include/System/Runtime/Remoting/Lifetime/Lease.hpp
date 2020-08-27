@@ -13,8 +13,6 @@
 #include "System/DateTime.hpp"
 // Including type: System.Runtime.Remoting.Lifetime.LeaseState
 #include "System/Runtime/Remoting/Lifetime/LeaseState.hpp"
-// Including type: System.TimeSpan
-#include "System/TimeSpan.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Lifetime

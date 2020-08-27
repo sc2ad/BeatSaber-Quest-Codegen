@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Color32
 #include "UnityEngine/Color32.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

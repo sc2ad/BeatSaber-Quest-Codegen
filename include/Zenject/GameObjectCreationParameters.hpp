@@ -11,6 +11,8 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -117,11 +119,14 @@ namespace Zenject {
   }; // Zenject.GameObjectCreationParameters
   // static public System.Boolean op_Equality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
   // Offset: 0xF3A508
-  bool operator ==(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right);
+  bool operator ==(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("Zenject", "GameObjectCreationParameters", "op_Equality", left, &right));
+  }
   // static public System.Boolean op_Inequality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
   // Offset: 0xF3A5D8
-  bool operator !=(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right);
+  bool operator !=(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("Zenject", "GameObjectCreationParameters", "op_Inequality", left, &right));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectCreationParameters*, "Zenject", "GameObjectCreationParameters");
 #pragma pack(pop)

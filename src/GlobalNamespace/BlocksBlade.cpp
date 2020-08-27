@@ -13,14 +13,10 @@
 #include "UnityEngine/Material.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Matrix4x4
 #include "UnityEngine/Matrix4x4.hpp"
 // Including type: UnityEngine.MaterialPropertyBlock
 #include "UnityEngine/MaterialPropertyBlock.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

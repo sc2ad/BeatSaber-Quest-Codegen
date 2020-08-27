@@ -19,6 +19,8 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -697,11 +699,14 @@ namespace System {
   }; // System.String
   // static public System.Boolean op_Equality(System.String a, System.String b)
   // Offset: 0xDE9F1C
-  bool operator ==(::Il2CppString* a, ::Il2CppString& b);
+  bool operator ==(::Il2CppString* a, ::Il2CppString& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "String", "op_Equality", a, &b));
+  }
   // static public System.Boolean op_Inequality(System.String a, System.String b)
   // Offset: 0xDDD3B0
-  bool operator !=(::Il2CppString* a, ::Il2CppString& b);
+  bool operator !=(::Il2CppString* a, ::Il2CppString& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "String", "op_Inequality", a, &b));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::String*, "System", "String");
 #pragma pack(pop)

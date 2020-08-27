@@ -260,7 +260,9 @@ namespace UnityEngine::Playables {
   }; // UnityEngine.Playables.PlayableHandle
   // static public System.Boolean op_Equality(UnityEngine.Playables.PlayableHandle x, UnityEngine.Playables.PlayableHandle y)
   // Offset: 0x141A6CC
-  bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y);
+  bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.Playables", "PlayableHandle", "op_Equality", x, y));
+  }
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");
 #pragma pack(pop)

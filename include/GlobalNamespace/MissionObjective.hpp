@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -92,12 +94,15 @@ namespace GlobalNamespace {
   }; // MissionObjective
   // static public System.Boolean op_Equality(MissionObjective obj1, MissionObjective obj2)
   // Offset: 0xC0B808
-  bool operator ==(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
+  bool operator ==(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "MissionObjective", "op_Equality", obj1, &obj2));
+  }
   // static public System.Boolean op_Inequality(MissionObjective obj1, MissionObjective obj2)
   // Offset: 0xC0B8D4
-  bool operator !=(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);
+  bool operator !=(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "MissionObjective", "op_Inequality", obj1, &obj2));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective*, "", "MissionObjective");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective::ReferenceValueComparisonType, "", "MissionObjective/ReferenceValueComparisonType");
 #pragma pack(pop)

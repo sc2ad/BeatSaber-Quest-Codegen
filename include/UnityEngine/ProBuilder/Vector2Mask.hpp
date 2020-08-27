@@ -9,14 +9,15 @@
 #include "System/ValueType.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
-  // Forward declaring type: Vector2
-  struct Vector2;
+  // Skipping declaration: Vector3 because it is already included!
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
@@ -63,17 +64,24 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.Vector2Mask
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
   // Offset: 0x18D5620
-  UnityEngine::ProBuilder::Vector2Mask operator|(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
+  UnityEngine::ProBuilder::Vector2Mask operator|(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vector2Mask>("UnityEngine.ProBuilder", "Vector2Mask", "op_BitwiseOr", left, right));
+  }
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseAnd(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
   // Offset: 0x18D562C
-  UnityEngine::ProBuilder::Vector2Mask operator&(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
+  UnityEngine::ProBuilder::Vector2Mask operator&(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vector2Mask>("UnityEngine.ProBuilder", "Vector2Mask", "op_BitwiseAnd", left, right));
+  }
   // static public UnityEngine.ProBuilder.Vector2Mask op_ExclusiveOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
   // Offset: 0x18D5638
-  UnityEngine::ProBuilder::Vector2Mask operator^(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);
+  UnityEngine::ProBuilder::Vector2Mask operator^(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vector2Mask>("UnityEngine.ProBuilder", "Vector2Mask", "op_ExclusiveOr", left, right));
+  }
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.ProBuilder.Vector2Mask mask, System.Single value)
   // Offset: 0x18D5644
-  UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value);
+  UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine.ProBuilder", "Vector2Mask", "op_Multiply", mask, value));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");
 #pragma pack(pop)

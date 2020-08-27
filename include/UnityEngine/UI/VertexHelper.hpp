@@ -11,10 +11,6 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Color32
 #include "UnityEngine/Color32.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.UIVertex
 #include "UnityEngine/UIVertex.hpp"
 // Completed includes

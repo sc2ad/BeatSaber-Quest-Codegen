@@ -9,6 +9,8 @@
 #include "System/Reflection/MethodBase.hpp"
 // Including type: System.Runtime.InteropServices._ConstructorInfo
 #include "System/Runtime/InteropServices/_ConstructorInfo.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -73,11 +75,14 @@ namespace System::Reflection {
   }; // System.Reflection.ConstructorInfo
   // static public System.Boolean op_Equality(System.Reflection.ConstructorInfo left, System.Reflection.ConstructorInfo right)
   // Offset: 0x1369DE0
-  bool operator ==(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right);
+  bool operator ==(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "ConstructorInfo", "op_Equality", left, &right));
+  }
   // static public System.Boolean op_Inequality(System.Reflection.ConstructorInfo left, System.Reflection.ConstructorInfo right)
   // Offset: 0x1369E2C
-  bool operator !=(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right);
+  bool operator !=(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "ConstructorInfo", "op_Inequality", left, &right));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ConstructorInfo*, "System.Reflection", "ConstructorInfo");
 #pragma pack(pop)

@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -34,8 +36,9 @@ namespace UnityEngine {
   }; // UnityEngine.TrackedReference
   // static public System.Boolean op_Equality(UnityEngine.TrackedReference x, UnityEngine.TrackedReference y)
   // Offset: 0x1397CB4
-  bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y);
+  bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "TrackedReference", "op_Equality", x, &y));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TrackedReference*, "UnityEngine", "TrackedReference");
 #pragma pack(pop)

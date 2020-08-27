@@ -24,8 +24,7 @@ namespace GlobalNamespace {
 namespace UnityEngine {
   // Forward declaring type: Transform
   class Transform;
-  // Forward declaring type: Vector4
-  struct Vector4;
+  // Skipping declaration: Vector4 because it is already included!
   // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: Matrix4x4
   struct Matrix4x4;

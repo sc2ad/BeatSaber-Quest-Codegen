@@ -17,8 +17,6 @@
 #include "UnityEngine/VerticalWrapMode.hpp"
 // Including type: UnityEngine.HorizontalWrapMode
 #include "UnityEngine/HorizontalWrapMode.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

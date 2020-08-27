@@ -9,6 +9,8 @@
 #include "System/Reflection/MemberInfo.hpp"
 // Including type: System.Runtime.InteropServices._MethodBase
 #include "System/Runtime/InteropServices/_MethodBase.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -165,11 +167,14 @@ namespace System::Reflection {
   }; // System.Reflection.MethodBase
   // static public System.Boolean op_Equality(System.Reflection.MethodBase left, System.Reflection.MethodBase right)
   // Offset: 0x13702A4
-  bool operator ==(System::Reflection::MethodBase* left, System::Reflection::MethodBase& right);
+  bool operator ==(System::Reflection::MethodBase* left, System::Reflection::MethodBase& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "MethodBase", "op_Equality", left, &right));
+  }
   // static public System.Boolean op_Inequality(System.Reflection.MethodBase left, System.Reflection.MethodBase right)
   // Offset: 0x1370288
-  bool operator !=(System::Reflection::MethodBase* left, System::Reflection::MethodBase& right);
+  bool operator !=(System::Reflection::MethodBase* left, System::Reflection::MethodBase& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "MethodBase", "op_Inequality", left, &right));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBase*, "System.Reflection", "MethodBase");
 #pragma pack(pop)

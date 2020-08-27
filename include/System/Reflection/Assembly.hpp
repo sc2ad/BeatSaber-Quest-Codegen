@@ -13,6 +13,8 @@
 #include "System/Runtime/InteropServices/_Assembly.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -280,11 +282,14 @@ namespace System::Reflection {
   }; // System.Reflection.Assembly
   // static public System.Boolean op_Equality(System.Reflection.Assembly left, System.Reflection.Assembly right)
   // Offset: 0x1368878
-  bool operator ==(System::Reflection::Assembly* left, System::Reflection::Assembly& right);
+  bool operator ==(System::Reflection::Assembly* left, System::Reflection::Assembly& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "Assembly", "op_Equality", left, &right));
+  }
   // static public System.Boolean op_Inequality(System.Reflection.Assembly left, System.Reflection.Assembly right)
   // Offset: 0x1367474
-  bool operator !=(System::Reflection::Assembly* left, System::Reflection::Assembly& right);
+  bool operator !=(System::Reflection::Assembly* left, System::Reflection::Assembly& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "Assembly", "op_Inequality", left, &right));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly*, "System.Reflection", "Assembly");
 #pragma pack(pop)

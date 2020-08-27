@@ -11,8 +11,6 @@
 #include "UnityEngine/Rect.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

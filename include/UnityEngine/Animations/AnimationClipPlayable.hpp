@@ -12,14 +12,16 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Playables.PlayableHandle
 #include "UnityEngine/Playables/PlayableHandle.hpp"
+// Including type: UnityEngine.Playables.Playable
+#include "UnityEngine/Playables/Playable.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
 namespace UnityEngine::Playables {
   // Forward declaring type: PlayableGraph
   struct PlayableGraph;
-  // Forward declaring type: Playable
-  struct Playable;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -88,6 +90,5 @@ namespace UnityEngine::Animations {
     bool Equals(UnityEngine::Animations::AnimationClipPlayable other);
   }; // UnityEngine.Animations.AnimationClipPlayable
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationClipPlayable, "UnityEngine.Animations", "AnimationClipPlayable");
 #pragma pack(pop)

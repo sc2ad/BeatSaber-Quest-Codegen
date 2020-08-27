@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Color32
 #include "UnityEngine/Color32.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Bounds
 #include "UnityEngine/Bounds.hpp"
 // Completed includes
@@ -21,8 +17,7 @@
 namespace UnityEngine {
   // Forward declaring type: Mesh
   class Mesh;
-  // Forward declaring type: Vector2
-  struct Vector2;
+  // Skipping declaration: Vector2 because it is already included!
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

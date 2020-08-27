@@ -49,8 +49,7 @@ namespace UnityEngine {
   class WaitForSecondsRealtime;
   // Forward declaring type: Event
   class Event;
-  // Forward declaring type: Vector2
-  struct Vector2;
+  // Skipping declaration: Vector2 because it is already included!
   // Forward declaring type: Transform
   class Transform;
 }

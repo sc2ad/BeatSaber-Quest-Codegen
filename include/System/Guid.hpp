@@ -15,6 +15,8 @@
 #include "System/IComparable_1.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -214,11 +216,14 @@ namespace System {
   }; // System.Guid
   // static public System.Boolean op_Equality(System.Guid a, System.Guid b)
   // Offset: 0x112BD24
-  bool operator ==(const System::Guid& a, const System::Guid& b);
+  bool operator ==(const System::Guid& a, const System::Guid& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Guid", "op_Equality", a, b));
+  }
   // static public System.Boolean op_Inequality(System.Guid a, System.Guid b)
   // Offset: 0x112BDD0
-  bool operator !=(const System::Guid& a, const System::Guid& b);
+  bool operator !=(const System::Guid& a, const System::Guid& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Guid", "op_Inequality", a, b));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
 #pragma pack(pop)

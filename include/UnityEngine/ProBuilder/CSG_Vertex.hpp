@@ -11,12 +11,10 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.MeshArrays
 #include "UnityEngine/ProBuilder/MeshArrays.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -163,6 +161,5 @@ namespace UnityEngine::ProBuilder {
     void Flip();
   }; // UnityEngine.ProBuilder.CSG_Vertex
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::CSG_Vertex, "UnityEngine.ProBuilder", "CSG_Vertex");
 #pragma pack(pop)

@@ -170,10 +170,14 @@ namespace OVRSimpleJSON {
   }; // OVRSimpleJSON.JSONLazyCreator
   // static public System.Boolean op_Equality(OVRSimpleJSON.JSONLazyCreator a, System.Object b)
   // Offset: 0xF52B38
-  bool operator ==(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b);
+  bool operator ==(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("OVRSimpleJSON", "JSONLazyCreator", "op_Equality", a, &b));
+  }
   // static public System.Boolean op_Inequality(OVRSimpleJSON.JSONLazyCreator a, System.Object b)
   // Offset: 0xF52B50
-  bool operator !=(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b);
+  bool operator !=(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("OVRSimpleJSON", "JSONLazyCreator", "op_Inequality", a, &b));
+  }
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONLazyCreator*, "OVRSimpleJSON", "JSONLazyCreator");
 #pragma pack(pop)

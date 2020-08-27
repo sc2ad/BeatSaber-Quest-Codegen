@@ -11,8 +11,6 @@
 #include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Including type: UnityEngine.ProBuilder.Face
 #include "UnityEngine/ProBuilder/Face.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: System.Collections.Generic.IList`1
 #include "System/Collections/Generic/IList_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -9,6 +9,8 @@
 #include "System/Reflection/MethodBase.hpp"
 // Including type: System.Runtime.InteropServices._MethodInfo
 #include "System/Runtime/InteropServices/_MethodInfo.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -72,11 +74,14 @@ namespace System::Reflection {
   }; // System.Reflection.MethodInfo
   // static public System.Boolean op_Equality(System.Reflection.MethodInfo left, System.Reflection.MethodInfo right)
   // Offset: 0x1371270
-  bool operator ==(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right);
+  bool operator ==(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "MethodInfo", "op_Equality", left, &right));
+  }
   // static public System.Boolean op_Inequality(System.Reflection.MethodInfo left, System.Reflection.MethodInfo right)
   // Offset: 0x1371570
-  bool operator !=(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right);
+  bool operator !=(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "MethodInfo", "op_Inequality", left, &right));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodInfo*, "System.Reflection", "MethodInfo");
 #pragma pack(pop)

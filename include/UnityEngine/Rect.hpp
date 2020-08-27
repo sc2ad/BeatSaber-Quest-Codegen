@@ -8,6 +8,8 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -166,11 +168,14 @@ namespace UnityEngine {
   }; // UnityEngine.Rect
   // static public System.Boolean op_Inequality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
   // Offset: 0x142155C
-  bool operator !=(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
+  bool operator !=(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Rect", "op_Inequality", lhs, rhs));
+  }
   // static public System.Boolean op_Equality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
   // Offset: 0x1421590
-  bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
+  bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Rect", "op_Equality", lhs, rhs));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rect, "UnityEngine", "Rect");
 #pragma pack(pop)

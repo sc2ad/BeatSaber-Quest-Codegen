@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PlayerAllOverallStatsData
 #include "GlobalNamespace/PlayerAllOverallStatsData.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -136,8 +138,9 @@ namespace GlobalNamespace {
   }; // PlayerAllOverallStatsData/PlayerOverallStatsData
   // static public PlayerAllOverallStatsData/PlayerOverallStatsData op_Addition(PlayerAllOverallStatsData/PlayerOverallStatsData a, PlayerAllOverallStatsData/PlayerOverallStatsData b)
   // Offset: 0xBD97EC
-  GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);
+  GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>("", "PlayerAllOverallStatsData/PlayerOverallStatsData", "op_Addition", a, &b));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*, "", "PlayerAllOverallStatsData/PlayerOverallStatsData");
 #pragma pack(pop)

@@ -9,6 +9,16 @@
 #include "OVRSimpleJSON/JSONContainerType.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
 #include "System/Collections/Generic/KeyValuePair_2.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
+// Including type: UnityEngine.Quaternion
+#include "UnityEngine/Quaternion.hpp"
+// Including type: UnityEngine.Rect
+#include "UnityEngine/Rect.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVRSimpleJSON
@@ -38,16 +48,6 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector2
-  struct Vector2;
-  // Forward declaring type: Vector3
-  struct Vector3;
-  // Forward declaring type: Vector4
-  struct Vector4;
-  // Forward declaring type: Quaternion
-  struct Quaternion;
-  // Forward declaring type: Rect
-  struct Rect;
   // Forward declaring type: RectOffset
   class RectOffset;
   // Forward declaring type: Matrix4x4
@@ -325,11 +325,14 @@ namespace OVRSimpleJSON {
   }; // OVRSimpleJSON.JSONNode
   // static public System.Boolean op_Equality(OVRSimpleJSON.JSONNode a, System.Object b)
   // Offset: 0xF51858
-  bool operator ==(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b);
+  bool operator ==(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("OVRSimpleJSON", "JSONNode", "op_Equality", a, &b));
+  }
   // static public System.Boolean op_Inequality(OVRSimpleJSON.JSONNode a, System.Object b)
   // Offset: 0xF54464
-  bool operator !=(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b);
+  bool operator !=(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("OVRSimpleJSON", "JSONNode", "op_Inequality", a, &b));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode*, "OVRSimpleJSON", "JSONNode");
 #pragma pack(pop)

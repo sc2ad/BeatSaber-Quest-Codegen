@@ -7,8 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ColorSO
 #include "GlobalNamespace/ColorSO.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

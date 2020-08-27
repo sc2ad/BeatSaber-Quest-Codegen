@@ -13,8 +13,7 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Color
-  struct Color;
+  // Skipping declaration: Color because it is already included!
   // Forward declaring type: Rect
   struct Rect;
   // Forward declaring type: Material

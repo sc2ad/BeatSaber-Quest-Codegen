@@ -13,6 +13,8 @@
 #include "System/RuntimeTypeHandle.hpp"
 // Including type: System.Reflection.BindingFlags
 #include "System/Reflection/BindingFlags.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -532,11 +534,14 @@ namespace System {
   }; // System.Type
   // static public System.Boolean op_Equality(System.Type left, System.Type right)
   // Offset: 0x1796258
-  bool operator ==(System::Type* left, System::Type& right);
+  bool operator ==(System::Type* left, System::Type& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Type", "op_Equality", left, &right));
+  }
   // static public System.Boolean op_Inequality(System.Type left, System.Type right)
   // Offset: 0x1796378
-  bool operator !=(System::Type* left, System::Type& right);
+  bool operator !=(System::Type* left, System::Type& right) {
+    return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Type", "op_Inequality", left, &right));
+  }
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Type*, "System", "Type");
 #pragma pack(pop)

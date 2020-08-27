@@ -49,8 +49,7 @@ namespace System {
   // Forward declaring type: Action`2<T1, T2>
   template<typename T1, typename T2>
   class Action_2;
-  // Forward declaring type: IntPtr
-  struct IntPtr;
+  // Skipping declaration: IntPtr because it is already included!
 }
 // Completed forward declares
 // Type namespace: System.Diagnostics.Tracing

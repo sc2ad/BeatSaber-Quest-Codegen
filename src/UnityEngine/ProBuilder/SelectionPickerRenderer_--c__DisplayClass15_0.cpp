@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.SelectionPickerRenderer/<>c__DisplayClass15_0
 #include "UnityEngine/ProBuilder/SelectionPickerRenderer_--c__DisplayClass15_0.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ProBuilder.SharedVertex
 #include "UnityEngine/ProBuilder/SharedVertex.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
