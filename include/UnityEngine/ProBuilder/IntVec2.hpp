@@ -62,12 +62,12 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.IntVec2
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec2 a, UnityEngine.ProBuilder.IntVec2 b)
   // Offset: 0xF9D9E8
-  bool operator ==(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b) {
+  inline bool operator ==(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "IntVec2", "op_Equality", a, b));
   }
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec2 a, UnityEngine.ProBuilder.IntVec2 b)
   // Offset: 0xF9DA88
-  bool operator !=(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b) {
+  inline bool operator !=(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "IntVec2", "op_Inequality", a, b));
   }
 }

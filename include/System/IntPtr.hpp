@@ -89,12 +89,12 @@ namespace System {
   }; // System.IntPtr
   // static public System.Boolean op_Equality(System.IntPtr value1, System.IntPtr value2)
   // Offset: 0x1015FB0
-  bool operator ==(const System::IntPtr& value1, const System::IntPtr& value2) {
+  inline bool operator ==(const System::IntPtr& value1, const System::IntPtr& value2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "IntPtr", "op_Equality", value1, value2));
   }
   // static public System.Boolean op_Inequality(System.IntPtr value1, System.IntPtr value2)
   // Offset: 0x1015FBC
-  bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2) {
+  inline bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "IntPtr", "op_Inequality", value1, value2));
   }
 }

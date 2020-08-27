@@ -139,32 +139,32 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.SemVer
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
   // Offset: 0x1047230
-  bool operator ==(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
+  inline bool operator ==(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "SemVer", "op_Equality", left, &right));
   }
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
   // Offset: 0x1047244
-  bool operator !=(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
+  inline bool operator !=(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "SemVer", "op_Inequality", left, &right));
   }
   // static public System.Boolean op_LessThan(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
   // Offset: 0x1047270
-  bool operator <(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
+  inline bool operator <(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "SemVer", "op_LessThan", left, &right));
   }
   // static public System.Boolean op_GreaterThan(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
   // Offset: 0x1047298
-  bool operator >(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
+  inline bool operator >(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "SemVer", "op_GreaterThan", left, &right));
   }
   // static public System.Boolean op_LessThanOrEqual(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
   // Offset: 0x10472B8
-  bool operator <=(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
+  inline bool operator <=(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "SemVer", "op_LessThanOrEqual", left, &right));
   }
   // static public System.Boolean op_GreaterThanOrEqual(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
   // Offset: 0x10472FC
-  bool operator >=(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
+  inline bool operator >=(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "SemVer", "op_GreaterThanOrEqual", left, &right));
   }
 }

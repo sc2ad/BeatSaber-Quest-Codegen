@@ -325,12 +325,12 @@ namespace OVRSimpleJSON {
   }; // OVRSimpleJSON.JSONNode
   // static public System.Boolean op_Equality(OVRSimpleJSON.JSONNode a, System.Object b)
   // Offset: 0xF51858
-  bool operator ==(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b) {
+  inline bool operator ==(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("OVRSimpleJSON", "JSONNode", "op_Equality", a, &b));
   }
   // static public System.Boolean op_Inequality(OVRSimpleJSON.JSONNode a, System.Object b)
   // Offset: 0xF54464
-  bool operator !=(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b) {
+  inline bool operator !=(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("OVRSimpleJSON", "JSONNode", "op_Inequality", a, &b));
   }
 }

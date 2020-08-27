@@ -147,7 +147,7 @@ namespace UnityEngine::Playables {
   }; // UnityEngine.Playables.PlayableOutputHandle
   // static public System.Boolean op_Equality(UnityEngine.Playables.PlayableOutputHandle lhs, UnityEngine.Playables.PlayableOutputHandle rhs)
   // Offset: 0x141CEF8
-  bool operator ==(const UnityEngine::Playables::PlayableOutputHandle& lhs, const UnityEngine::Playables::PlayableOutputHandle& rhs) {
+  inline bool operator ==(const UnityEngine::Playables::PlayableOutputHandle& lhs, const UnityEngine::Playables::PlayableOutputHandle& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.Playables", "PlayableOutputHandle", "op_Equality", lhs, rhs));
   }
 }

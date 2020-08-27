@@ -105,12 +105,12 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.ColorBlock
   // static public System.Boolean op_Equality(UnityEngine.UI.ColorBlock point1, UnityEngine.UI.ColorBlock point2)
   // Offset: 0xE097E8
-  bool operator ==(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2) {
+  inline bool operator ==(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.UI", "ColorBlock", "op_Equality", point1, point2));
   }
   // static public System.Boolean op_Inequality(UnityEngine.UI.ColorBlock point1, UnityEngine.UI.ColorBlock point2)
   // Offset: 0xE09828
-  bool operator !=(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2) {
+  inline bool operator !=(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.UI", "ColorBlock", "op_Inequality", point1, point2));
   }
 }

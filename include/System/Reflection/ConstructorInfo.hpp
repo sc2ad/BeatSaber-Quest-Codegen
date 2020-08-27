@@ -75,12 +75,12 @@ namespace System::Reflection {
   }; // System.Reflection.ConstructorInfo
   // static public System.Boolean op_Equality(System.Reflection.ConstructorInfo left, System.Reflection.ConstructorInfo right)
   // Offset: 0x1369DE0
-  bool operator ==(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right) {
+  inline bool operator ==(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "ConstructorInfo", "op_Equality", left, &right));
   }
   // static public System.Boolean op_Inequality(System.Reflection.ConstructorInfo left, System.Reflection.ConstructorInfo right)
   // Offset: 0x1369E2C
-  bool operator !=(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right) {
+  inline bool operator !=(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "ConstructorInfo", "op_Inequality", left, &right));
   }
 }

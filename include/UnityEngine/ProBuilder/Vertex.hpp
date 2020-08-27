@@ -243,32 +243,32 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.Vertex
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
   // Offset: 0x18D691C
-  bool operator ==(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
+  inline bool operator ==(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "Vertex", "op_Equality", a, &b));
   }
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
   // Offset: 0x18D6948
-  bool operator !=(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
+  inline bool operator !=(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "Vertex", "op_Inequality", a, &b));
   }
   // static public UnityEngine.ProBuilder.Vertex op_Addition(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
   // Offset: 0x18D6980
-  UnityEngine::ProBuilder::Vertex* operator+(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
+  inline UnityEngine::ProBuilder::Vertex* operator+(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vertex*>("UnityEngine.ProBuilder", "Vertex", "op_Addition", a, &b));
   }
   // static public UnityEngine.ProBuilder.Vertex op_Subtraction(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
   // Offset: 0x18D6C40
-  UnityEngine::ProBuilder::Vertex* operator-(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
+  inline UnityEngine::ProBuilder::Vertex* operator-(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vertex*>("UnityEngine.ProBuilder", "Vertex", "op_Subtraction", a, &b));
   }
   // static public UnityEngine.ProBuilder.Vertex op_Multiply(UnityEngine.ProBuilder.Vertex a, System.Single value)
   // Offset: 0x18D6F00
-  UnityEngine::ProBuilder::Vertex* operator*(UnityEngine::ProBuilder::Vertex& a, const float& value) {
+  inline UnityEngine::ProBuilder::Vertex* operator*(UnityEngine::ProBuilder::Vertex& a, const float& value) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vertex*>("UnityEngine.ProBuilder", "Vertex", "op_Multiply", &a, value));
   }
   // static public UnityEngine.ProBuilder.Vertex op_Division(UnityEngine.ProBuilder.Vertex a, System.Single value)
   // Offset: 0x18D716C
-  UnityEngine::ProBuilder::Vertex* operator/(UnityEngine::ProBuilder::Vertex& a, const float& value) {
+  inline UnityEngine::ProBuilder::Vertex* operator/(UnityEngine::ProBuilder::Vertex& a, const float& value) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vertex*>("UnityEngine.ProBuilder", "Vertex", "op_Division", &a, value));
   }
 }

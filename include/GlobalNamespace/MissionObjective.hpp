@@ -94,12 +94,12 @@ namespace GlobalNamespace {
   }; // MissionObjective
   // static public System.Boolean op_Equality(MissionObjective obj1, MissionObjective obj2)
   // Offset: 0xC0B808
-  bool operator ==(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2) {
+  inline bool operator ==(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "MissionObjective", "op_Equality", obj1, &obj2));
   }
   // static public System.Boolean op_Inequality(MissionObjective obj1, MissionObjective obj2)
   // Offset: 0xC0B8D4
-  bool operator !=(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2) {
+  inline bool operator !=(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "MissionObjective", "op_Inequality", obj1, &obj2));
   }
 }

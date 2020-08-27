@@ -765,12 +765,12 @@ namespace System {
   }; // System.RuntimeType
   // static public System.Boolean op_Equality(System.RuntimeType left, System.RuntimeType right)
   // Offset: 0xDDB6BC
-  bool operator ==(System::RuntimeType* left, System::RuntimeType& right) {
+  inline bool operator ==(System::RuntimeType* left, System::RuntimeType& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "RuntimeType", "op_Equality", left, &right));
   }
   // static public System.Boolean op_Inequality(System.RuntimeType left, System.RuntimeType right)
   // Offset: 0xDDCC74
-  bool operator !=(System::RuntimeType* left, System::RuntimeType& right) {
+  inline bool operator !=(System::RuntimeType* left, System::RuntimeType& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "RuntimeType", "op_Inequality", left, &right));
   }
 }

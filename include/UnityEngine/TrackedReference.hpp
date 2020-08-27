@@ -36,7 +36,7 @@ namespace UnityEngine {
   }; // UnityEngine.TrackedReference
   // static public System.Boolean op_Equality(UnityEngine.TrackedReference x, UnityEngine.TrackedReference y)
   // Offset: 0x1397CB4
-  bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y) {
+  inline bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "TrackedReference", "op_Equality", x, &y));
   }
 }

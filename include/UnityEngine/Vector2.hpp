@@ -159,52 +159,52 @@ namespace UnityEngine {
   }; // UnityEngine.Vector2
   // static public UnityEngine.Vector2 op_Addition(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
   // Offset: 0x139C020
-  UnityEngine::Vector2 operator+(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b) {
+  inline UnityEngine::Vector2 operator+(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine", "Vector2", "op_Addition", a, b));
   }
   // static public UnityEngine.Vector2 op_Subtraction(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
   // Offset: 0x139C02C
-  UnityEngine::Vector2 operator-(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b) {
+  inline UnityEngine::Vector2 operator-(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine", "Vector2", "op_Subtraction", a, b));
   }
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
   // Offset: 0x139C038
-  UnityEngine::Vector2 operator*(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b) {
+  inline UnityEngine::Vector2 operator*(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine", "Vector2", "op_Multiply", a, b));
   }
   // static public UnityEngine.Vector2 op_Division(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
   // Offset: 0x139C044
-  UnityEngine::Vector2 operator/(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b) {
+  inline UnityEngine::Vector2 operator/(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine", "Vector2", "op_Division", a, b));
   }
   // static public UnityEngine.Vector2 op_UnaryNegation(UnityEngine.Vector2 a)
   // Offset: 0x139C050
-  UnityEngine::Vector2 operator-(const UnityEngine::Vector2& a) {
+  inline UnityEngine::Vector2 operator-(const UnityEngine::Vector2& a) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine", "Vector2", "op_UnaryNegation", a));
   }
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.Vector2 a, System.Single d)
   // Offset: 0x139C05C
-  UnityEngine::Vector2 operator*(const UnityEngine::Vector2& a, const float& d) {
+  inline UnityEngine::Vector2 operator*(const UnityEngine::Vector2& a, const float& d) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine", "Vector2", "op_Multiply", a, d));
   }
   // static public UnityEngine.Vector2 op_Multiply(System.Single d, UnityEngine.Vector2 a)
   // Offset: 0x139C068
-  UnityEngine::Vector2 operator*(const float& d, const UnityEngine::Vector2& a) {
+  inline UnityEngine::Vector2 operator*(const float& d, const UnityEngine::Vector2& a) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine", "Vector2", "op_Multiply", d, a));
   }
   // static public UnityEngine.Vector2 op_Division(UnityEngine.Vector2 a, System.Single d)
   // Offset: 0x139B8A8
-  UnityEngine::Vector2 operator/(const UnityEngine::Vector2& a, const float& d) {
+  inline UnityEngine::Vector2 operator/(const UnityEngine::Vector2& a, const float& d) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine", "Vector2", "op_Division", a, d));
   }
   // static public System.Boolean op_Equality(UnityEngine.Vector2 lhs, UnityEngine.Vector2 rhs)
   // Offset: 0x139C078
-  bool operator ==(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs) {
+  inline bool operator ==(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Vector2", "op_Equality", lhs, rhs));
   }
   // static public System.Boolean op_Inequality(UnityEngine.Vector2 lhs, UnityEngine.Vector2 rhs)
   // Offset: 0x139C0A0
-  bool operator !=(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs) {
+  inline bool operator !=(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Vector2", "op_Inequality", lhs, rhs));
   }
 }

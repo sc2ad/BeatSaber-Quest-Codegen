@@ -91,12 +91,12 @@ namespace System::Reflection {
   }; // System.Reflection.MemberInfo
   // static public System.Boolean op_Equality(System.Reflection.MemberInfo left, System.Reflection.MemberInfo right)
   // Offset: 0x136B874
-  bool operator ==(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right) {
+  inline bool operator ==(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "MemberInfo", "op_Equality", left, &right));
   }
   // static public System.Boolean op_Inequality(System.Reflection.MemberInfo left, System.Reflection.MemberInfo right)
   // Offset: 0x13704B4
-  bool operator !=(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right) {
+  inline bool operator !=(System::Reflection::MemberInfo* left, System::Reflection::MemberInfo& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "MemberInfo", "op_Inequality", left, &right));
   }
 }

@@ -168,12 +168,12 @@ namespace UnityEngine {
   }; // UnityEngine.Rect
   // static public System.Boolean op_Inequality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
   // Offset: 0x142155C
-  bool operator !=(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs) {
+  inline bool operator !=(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Rect", "op_Inequality", lhs, rhs));
   }
   // static public System.Boolean op_Equality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
   // Offset: 0x1421590
-  bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs) {
+  inline bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Rect", "op_Equality", lhs, rhs));
   }
 }

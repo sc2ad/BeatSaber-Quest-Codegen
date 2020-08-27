@@ -186,7 +186,7 @@ namespace System {
   }; // System.Delegate
   // static public System.Boolean op_Equality(System.Delegate d1, System.Delegate d2)
   // Offset: 0xC94A98
-  bool operator ==(System::Delegate* d1, System::Delegate& d2) {
+  inline bool operator ==(System::Delegate* d1, System::Delegate& d2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Delegate", "op_Equality", d1, &d2));
   }
 }

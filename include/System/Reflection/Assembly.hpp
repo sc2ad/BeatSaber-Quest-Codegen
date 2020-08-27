@@ -282,12 +282,12 @@ namespace System::Reflection {
   }; // System.Reflection.Assembly
   // static public System.Boolean op_Equality(System.Reflection.Assembly left, System.Reflection.Assembly right)
   // Offset: 0x1368878
-  bool operator ==(System::Reflection::Assembly* left, System::Reflection::Assembly& right) {
+  inline bool operator ==(System::Reflection::Assembly* left, System::Reflection::Assembly& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "Assembly", "op_Equality", left, &right));
   }
   // static public System.Boolean op_Inequality(System.Reflection.Assembly left, System.Reflection.Assembly right)
   // Offset: 0x1367474
-  bool operator !=(System::Reflection::Assembly* left, System::Reflection::Assembly& right) {
+  inline bool operator !=(System::Reflection::Assembly* left, System::Reflection::Assembly& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "Assembly", "op_Inequality", left, &right));
   }
 }

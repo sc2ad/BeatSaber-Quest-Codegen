@@ -168,12 +168,12 @@ namespace UnityEngine {
   }; // UnityEngine.Matrix4x4
   // static public UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4 lhs, UnityEngine.Matrix4x4 rhs)
   // Offset: 0x14125C4
-  UnityEngine::Matrix4x4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Matrix4x4& rhs) {
+  inline UnityEngine::Matrix4x4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Matrix4x4& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Matrix4x4>("UnityEngine", "Matrix4x4", "op_Multiply", lhs, rhs));
   }
   // static public UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4 lhs, UnityEngine.Vector4 vector)
   // Offset: 0x1412670
-  UnityEngine::Vector4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Vector4& vector) {
+  inline UnityEngine::Vector4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Vector4& vector) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector4>("UnityEngine", "Matrix4x4", "op_Multiply", lhs, vector));
   }
 }

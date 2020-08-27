@@ -87,12 +87,12 @@ namespace System::Xml {
   }; // System.Xml.XmlQualifiedName
   // static public System.Boolean op_Equality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
   // Offset: 0x11A97C0
-  bool operator ==(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b) {
+  inline bool operator ==(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Xml", "XmlQualifiedName", "op_Equality", a, &b));
   }
   // static public System.Boolean op_Inequality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
   // Offset: 0x11A9740
-  bool operator !=(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b) {
+  inline bool operator !=(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Xml", "XmlQualifiedName", "op_Inequality", a, &b));
   }
 }

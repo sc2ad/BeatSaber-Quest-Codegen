@@ -93,12 +93,12 @@ namespace System::Threading {
   }; // System.Threading.CancellationToken
   // static public System.Boolean op_Equality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
   // Offset: 0x13DB014
-  bool operator ==(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right) {
+  inline bool operator ==(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Threading", "CancellationToken", "op_Equality", left, right));
   }
   // static public System.Boolean op_Inequality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
   // Offset: 0x13DB03C
-  bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right) {
+  inline bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Threading", "CancellationToken", "op_Inequality", left, right));
   }
 }

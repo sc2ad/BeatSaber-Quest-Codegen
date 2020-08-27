@@ -841,12 +841,12 @@ namespace System {
   }; // System.Uri
   // static public System.Boolean op_Equality(System.Uri uri1, System.Uri uri2)
   // Offset: 0x1509B4C
-  bool operator ==(System::Uri* uri1, System::Uri& uri2) {
+  inline bool operator ==(System::Uri* uri1, System::Uri& uri2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Uri", "op_Equality", uri1, &uri2));
   }
   // static public System.Boolean op_Inequality(System.Uri uri1, System.Uri uri2)
   // Offset: 0x1506CC4
-  bool operator !=(System::Uri* uri1, System::Uri& uri2) {
+  inline bool operator !=(System::Uri* uri1, System::Uri& uri2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Uri", "op_Inequality", uri1, &uri2));
   }
 }

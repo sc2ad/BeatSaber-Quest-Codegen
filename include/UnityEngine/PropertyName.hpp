@@ -54,7 +54,7 @@ namespace UnityEngine {
   }; // UnityEngine.PropertyName
   // static public System.Boolean op_Equality(UnityEngine.PropertyName lhs, UnityEngine.PropertyName rhs)
   // Offset: 0x141ED5C
-  bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs) {
+  inline bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "PropertyName", "op_Equality", lhs, rhs));
   }
 }

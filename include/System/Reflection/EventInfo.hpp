@@ -87,12 +87,12 @@ namespace System::Reflection {
   }; // System.Reflection.EventInfo
   // static public System.Boolean op_Equality(System.Reflection.EventInfo left, System.Reflection.EventInfo right)
   // Offset: 0x136EC2C
-  bool operator ==(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right) {
+  inline bool operator ==(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "EventInfo", "op_Equality", left, &right));
   }
   // static public System.Boolean op_Inequality(System.Reflection.EventInfo left, System.Reflection.EventInfo right)
   // Offset: 0x136EC78
-  bool operator !=(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right) {
+  inline bool operator !=(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "EventInfo", "op_Inequality", left, &right));
   }
 }

@@ -100,37 +100,37 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.Vector3Mask
   // static public UnityEngine.ProBuilder.Vector3Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
   // Offset: 0x18D59BC
-  UnityEngine::ProBuilder::Vector3Mask operator|(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
+  inline UnityEngine::ProBuilder::Vector3Mask operator|(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vector3Mask>("UnityEngine.ProBuilder", "Vector3Mask", "op_BitwiseOr", left, right));
   }
   // static public UnityEngine.ProBuilder.Vector3Mask op_BitwiseAnd(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
   // Offset: 0x18D59C8
-  UnityEngine::ProBuilder::Vector3Mask operator&(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
+  inline UnityEngine::ProBuilder::Vector3Mask operator&(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vector3Mask>("UnityEngine.ProBuilder", "Vector3Mask", "op_BitwiseAnd", left, right));
   }
   // static public UnityEngine.ProBuilder.Vector3Mask op_ExclusiveOr(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
   // Offset: 0x18D59D4
-  UnityEngine::ProBuilder::Vector3Mask operator^(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
+  inline UnityEngine::ProBuilder::Vector3Mask operator^(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vector3Mask>("UnityEngine.ProBuilder", "Vector3Mask", "op_ExclusiveOr", left, right));
   }
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.ProBuilder.Vector3Mask mask, System.Single value)
   // Offset: 0x18D59E0
-  UnityEngine::Vector3 operator*(const UnityEngine::ProBuilder::Vector3Mask& mask, const float& value) {
+  inline UnityEngine::Vector3 operator*(const UnityEngine::ProBuilder::Vector3Mask& mask, const float& value) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine.ProBuilder", "Vector3Mask", "op_Multiply", mask, value));
   }
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion rotation, UnityEngine.ProBuilder.Vector3Mask mask)
   // Offset: 0x18D5A44
-  UnityEngine::Vector3 operator*(const UnityEngine::Quaternion& rotation, const UnityEngine::ProBuilder::Vector3Mask& mask) {
+  inline UnityEngine::Vector3 operator*(const UnityEngine::Quaternion& rotation, const UnityEngine::ProBuilder::Vector3Mask& mask) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine.ProBuilder", "Vector3Mask", "op_Multiply", rotation, mask));
   }
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
   // Offset: 0x18D5C08
-  bool operator ==(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
+  inline bool operator ==(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "Vector3Mask", "op_Equality", left, right));
   }
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
   // Offset: 0x18D5C18
-  bool operator !=(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
+  inline bool operator !=(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.ProBuilder", "Vector3Mask", "op_Inequality", left, right));
   }
 }

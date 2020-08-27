@@ -231,42 +231,42 @@ namespace UnityEngine {
   }; // UnityEngine.Vector3
   // static public UnityEngine.Vector3 op_Addition(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
   // Offset: 0x1399004
-  UnityEngine::Vector3 operator+(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b) {
+  inline UnityEngine::Vector3 operator+(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Addition", a, b));
   }
   // static public UnityEngine.Vector3 op_Subtraction(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
   // Offset: 0x139DD4C
-  UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b) {
+  inline UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Subtraction", a, b));
   }
   // static public UnityEngine.Vector3 op_UnaryNegation(UnityEngine.Vector3 a)
   // Offset: 0x139DD5C
-  UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a) {
+  inline UnityEngine::Vector3 operator-(const UnityEngine::Vector3& a) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_UnaryNegation", a));
   }
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.Vector3 a, System.Single d)
   // Offset: 0x139DD6C
-  UnityEngine::Vector3 operator*(const UnityEngine::Vector3& a, const float& d) {
+  inline UnityEngine::Vector3 operator*(const UnityEngine::Vector3& a, const float& d) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Multiply", a, d));
   }
   // static public UnityEngine.Vector3 op_Multiply(System.Single d, UnityEngine.Vector3 a)
   // Offset: 0x139DD7C
-  UnityEngine::Vector3 operator*(const float& d, const UnityEngine::Vector3& a) {
+  inline UnityEngine::Vector3 operator*(const float& d, const UnityEngine::Vector3& a) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Multiply", d, a));
   }
   // static public UnityEngine.Vector3 op_Division(UnityEngine.Vector3 a, System.Single d)
   // Offset: 0x139D234
-  UnityEngine::Vector3 operator/(const UnityEngine::Vector3& a, const float& d) {
+  inline UnityEngine::Vector3 operator/(const UnityEngine::Vector3& a, const float& d) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Vector3", "op_Division", a, d));
   }
   // static public System.Boolean op_Equality(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
   // Offset: 0x139DD90
-  bool operator ==(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs) {
+  inline bool operator ==(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Vector3", "op_Equality", lhs, rhs));
   }
   // static public System.Boolean op_Inequality(UnityEngine.Vector3 lhs, UnityEngine.Vector3 rhs)
   // Offset: 0x139DDC4
-  bool operator !=(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs) {
+  inline bool operator !=(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Vector3", "op_Inequality", lhs, rhs));
   }
 }

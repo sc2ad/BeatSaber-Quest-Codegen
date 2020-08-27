@@ -41,7 +41,7 @@ namespace TMPro {
   }; // TMPro.GlyphValueRecord_Legacy
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
   // Offset: 0xB50B70
-  TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b) {
+  inline TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<TMPro::GlyphValueRecord_Legacy>("TMPro", "GlyphValueRecord_Legacy", "op_Addition", a, b));
   }
 }

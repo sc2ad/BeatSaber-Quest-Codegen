@@ -87,7 +87,7 @@ namespace UnityEngine::SceneManagement {
   }; // UnityEngine.SceneManagement.Scene
   // static public System.Boolean op_Equality(UnityEngine.SceneManagement.Scene lhs, UnityEngine.SceneManagement.Scene rhs)
   // Offset: 0x13908F4
-  bool operator ==(const UnityEngine::SceneManagement::Scene& lhs, const UnityEngine::SceneManagement::Scene& rhs) {
+  inline bool operator ==(const UnityEngine::SceneManagement::Scene& lhs, const UnityEngine::SceneManagement::Scene& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine.SceneManagement", "Scene", "op_Equality", lhs, rhs));
   }
 }

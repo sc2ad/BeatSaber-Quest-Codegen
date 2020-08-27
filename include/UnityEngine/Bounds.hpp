@@ -105,12 +105,12 @@ namespace UnityEngine {
   }; // UnityEngine.Bounds
   // static public System.Boolean op_Equality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
   // Offset: 0x130748C
-  bool operator ==(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs) {
+  inline bool operator ==(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Bounds", "op_Equality", lhs, rhs));
   }
   // static public System.Boolean op_Inequality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
   // Offset: 0x13075A8
-  bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs) {
+  inline bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Bounds", "op_Inequality", lhs, rhs));
   }
 }

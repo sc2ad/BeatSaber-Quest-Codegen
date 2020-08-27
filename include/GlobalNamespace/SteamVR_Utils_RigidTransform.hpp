@@ -104,22 +104,22 @@ namespace GlobalNamespace {
   }; // SteamVR_Utils/RigidTransform
   // static public System.Boolean op_Equality(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
   // Offset: 0xFDB2BC
-  bool operator ==(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b) {
+  inline bool operator ==(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "SteamVR_Utils/RigidTransform", "op_Equality", a, b));
   }
   // static public System.Boolean op_Inequality(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
   // Offset: 0xFDB3F4
-  bool operator !=(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b) {
+  inline bool operator !=(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "SteamVR_Utils/RigidTransform", "op_Inequality", a, b));
   }
   // static public SteamVR_Utils/RigidTransform op_Multiply(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
   // Offset: 0xFDB52C
-  GlobalNamespace::SteamVR_Utils::RigidTransform operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b) {
+  inline GlobalNamespace::SteamVR_Utils::RigidTransform operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::SteamVR_Utils::RigidTransform>("", "SteamVR_Utils/RigidTransform", "op_Multiply", a, b));
   }
   // static public UnityEngine.Vector3 op_Multiply(SteamVR_Utils/RigidTransform t, UnityEngine.Vector3 v)
   // Offset: 0xFDBB50
-  UnityEngine::Vector3 operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& t, const UnityEngine::Vector3& v) {
+  inline UnityEngine::Vector3 operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& t, const UnityEngine::Vector3& v) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("", "SteamVR_Utils/RigidTransform", "op_Multiply", t, v));
   }
 }

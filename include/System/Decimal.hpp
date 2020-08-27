@@ -366,27 +366,27 @@ namespace System {
   }; // System.Decimal
   // static public System.Decimal op_Subtraction(System.Decimal d1, System.Decimal d2)
   // Offset: 0xC8CFCC
-  System::Decimal operator-(const System::Decimal& d1, const System::Decimal& d2) {
+  inline System::Decimal operator-(const System::Decimal& d1, const System::Decimal& d2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<System::Decimal>("System", "Decimal", "op_Subtraction", d1, d2));
   }
   // static public System.Boolean op_Equality(System.Decimal d1, System.Decimal d2)
   // Offset: 0xC8D04C
-  bool operator ==(const System::Decimal& d1, const System::Decimal& d2) {
+  inline bool operator ==(const System::Decimal& d1, const System::Decimal& d2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Decimal", "op_Equality", d1, d2));
   }
   // static public System.Boolean op_Inequality(System.Decimal d1, System.Decimal d2)
   // Offset: 0xC8D0CC
-  bool operator !=(const System::Decimal& d1, const System::Decimal& d2) {
+  inline bool operator !=(const System::Decimal& d1, const System::Decimal& d2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Decimal", "op_Inequality", d1, d2));
   }
   // static public System.Boolean op_LessThanOrEqual(System.Decimal d1, System.Decimal d2)
   // Offset: 0xC8D14C
-  bool operator <=(const System::Decimal& d1, const System::Decimal& d2) {
+  inline bool operator <=(const System::Decimal& d1, const System::Decimal& d2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Decimal", "op_LessThanOrEqual", d1, d2));
   }
   // static public System.Boolean op_GreaterThan(System.Decimal d1, System.Decimal d2)
   // Offset: 0xC8D1CC
-  bool operator >(const System::Decimal& d1, const System::Decimal& d2) {
+  inline bool operator >(const System::Decimal& d1, const System::Decimal& d2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Decimal", "op_GreaterThan", d1, d2));
   }
 }

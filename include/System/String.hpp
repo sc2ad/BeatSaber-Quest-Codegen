@@ -699,12 +699,12 @@ namespace System {
   }; // System.String
   // static public System.Boolean op_Equality(System.String a, System.String b)
   // Offset: 0xDE9F1C
-  bool operator ==(::Il2CppString* a, ::Il2CppString& b) {
+  inline bool operator ==(::Il2CppString* a, ::Il2CppString& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "String", "op_Equality", a, &b));
   }
   // static public System.Boolean op_Inequality(System.String a, System.String b)
   // Offset: 0xDDD3B0
-  bool operator !=(::Il2CppString* a, ::Il2CppString& b) {
+  inline bool operator !=(::Il2CppString* a, ::Il2CppString& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "String", "op_Inequality", a, &b));
   }
 }

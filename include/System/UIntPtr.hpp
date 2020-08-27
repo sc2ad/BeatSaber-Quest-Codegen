@@ -77,7 +77,7 @@ namespace System {
   }; // System.UIntPtr
   // static public System.Boolean op_Equality(System.UIntPtr value1, System.UIntPtr value2)
   // Offset: 0x179EE14
-  bool operator ==(const System::UIntPtr& value1, const System::UIntPtr& value2) {
+  inline bool operator ==(const System::UIntPtr& value1, const System::UIntPtr& value2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "UIntPtr", "op_Equality", value1, value2));
   }
 }

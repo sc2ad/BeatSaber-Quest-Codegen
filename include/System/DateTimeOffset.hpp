@@ -134,12 +134,12 @@ namespace System {
   }; // System.DateTimeOffset
   // static public System.TimeSpan op_Subtraction(System.DateTimeOffset left, System.DateTimeOffset right)
   // Offset: 0x10D6BDC
-  System::TimeSpan operator-(const System::DateTimeOffset& left, const System::DateTimeOffset& right) {
+  inline System::TimeSpan operator-(const System::DateTimeOffset& left, const System::DateTimeOffset& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<System::TimeSpan>("System", "DateTimeOffset", "op_Subtraction", left, right));
   }
   // static public System.Boolean op_Equality(System.DateTimeOffset left, System.DateTimeOffset right)
   // Offset: 0x10D6C70
-  bool operator ==(const System::DateTimeOffset& left, const System::DateTimeOffset& right) {
+  inline bool operator ==(const System::DateTimeOffset& left, const System::DateTimeOffset& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "DateTimeOffset", "op_Equality", left, right));
   }
 }

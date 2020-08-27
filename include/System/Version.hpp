@@ -147,32 +147,32 @@ namespace System {
   }; // System.Version
   // static public System.Boolean op_Equality(System.Version v1, System.Version v2)
   // Offset: 0x17A120C
-  bool operator ==(System::Version* v1, System::Version& v2) {
+  inline bool operator ==(System::Version* v1, System::Version& v2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_Equality", v1, &v2));
   }
   // static public System.Boolean op_Inequality(System.Version v1, System.Version v2)
   // Offset: 0x17A1FD4
-  bool operator !=(System::Version* v1, System::Version& v2) {
+  inline bool operator !=(System::Version* v1, System::Version& v2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_Inequality", v1, &v2));
   }
   // static public System.Boolean op_LessThan(System.Version v1, System.Version v2)
   // Offset: 0x17A2068
-  bool operator <(System::Version* v1, System::Version& v2) {
+  inline bool operator <(System::Version* v1, System::Version& v2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_LessThan", v1, &v2));
   }
   // static public System.Boolean op_LessThanOrEqual(System.Version v1, System.Version v2)
   // Offset: 0x17A2104
-  bool operator <=(System::Version* v1, System::Version& v2) {
+  inline bool operator <=(System::Version* v1, System::Version& v2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_LessThanOrEqual", v1, &v2));
   }
   // static public System.Boolean op_GreaterThan(System.Version v1, System.Version v2)
   // Offset: 0x17A21A4
-  bool operator >(System::Version* v1, System::Version& v2) {
+  inline bool operator >(System::Version* v1, System::Version& v2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_GreaterThan", v1, &v2));
   }
   // static public System.Boolean op_GreaterThanOrEqual(System.Version v1, System.Version v2)
   // Offset: 0x17A2218
-  bool operator >=(System::Version* v1, System::Version& v2) {
+  inline bool operator >=(System::Version* v1, System::Version& v2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Version", "op_GreaterThanOrEqual", v1, &v2));
   }
 }

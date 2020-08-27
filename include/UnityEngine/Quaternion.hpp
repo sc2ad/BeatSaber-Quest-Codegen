@@ -179,22 +179,22 @@ namespace UnityEngine {
   }; // UnityEngine.Quaternion
   // static public UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
   // Offset: 0x141FBC4
-  UnityEngine::Quaternion operator*(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs) {
+  inline UnityEngine::Quaternion operator*(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Quaternion>("UnityEngine", "Quaternion", "op_Multiply", lhs, rhs));
   }
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion rotation, UnityEngine.Vector3 point)
   // Offset: 0x141FC38
-  UnityEngine::Vector3 operator*(const UnityEngine::Quaternion& rotation, const UnityEngine::Vector3& point) {
+  inline UnityEngine::Vector3 operator*(const UnityEngine::Quaternion& rotation, const UnityEngine::Vector3& point) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector3>("UnityEngine", "Quaternion", "op_Multiply", rotation, point));
   }
   // static public System.Boolean op_Equality(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
   // Offset: 0x141FCF0
-  bool operator ==(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs) {
+  inline bool operator ==(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Quaternion", "op_Equality", lhs, rhs));
   }
   // static public System.Boolean op_Inequality(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
   // Offset: 0x141FDD8
-  bool operator !=(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs) {
+  inline bool operator !=(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Quaternion", "op_Inequality", lhs, rhs));
   }
 }

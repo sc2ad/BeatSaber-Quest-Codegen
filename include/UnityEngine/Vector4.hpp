@@ -118,32 +118,32 @@ namespace UnityEngine {
   }; // UnityEngine.Vector4
   // static public UnityEngine.Vector4 op_Addition(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
   // Offset: 0x139E984
-  UnityEngine::Vector4 operator+(const UnityEngine::Vector4& a, const UnityEngine::Vector4& b) {
+  inline UnityEngine::Vector4 operator+(const UnityEngine::Vector4& a, const UnityEngine::Vector4& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector4>("UnityEngine", "Vector4", "op_Addition", a, b));
   }
   // static public UnityEngine.Vector4 op_Subtraction(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
   // Offset: 0x139E998
-  UnityEngine::Vector4 operator-(const UnityEngine::Vector4& a, const UnityEngine::Vector4& b) {
+  inline UnityEngine::Vector4 operator-(const UnityEngine::Vector4& a, const UnityEngine::Vector4& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector4>("UnityEngine", "Vector4", "op_Subtraction", a, b));
   }
   // static public UnityEngine.Vector4 op_Multiply(UnityEngine.Vector4 a, System.Single d)
   // Offset: 0x139E9AC
-  UnityEngine::Vector4 operator*(const UnityEngine::Vector4& a, const float& d) {
+  inline UnityEngine::Vector4 operator*(const UnityEngine::Vector4& a, const float& d) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector4>("UnityEngine", "Vector4", "op_Multiply", a, d));
   }
   // static public UnityEngine.Vector4 op_Division(UnityEngine.Vector4 a, System.Single d)
   // Offset: 0x139E7E4
-  UnityEngine::Vector4 operator/(const UnityEngine::Vector4& a, const float& d) {
+  inline UnityEngine::Vector4 operator/(const UnityEngine::Vector4& a, const float& d) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector4>("UnityEngine", "Vector4", "op_Division", a, d));
   }
   // static public System.Boolean op_Equality(UnityEngine.Vector4 lhs, UnityEngine.Vector4 rhs)
   // Offset: 0x139E9C0
-  bool operator ==(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs) {
+  inline bool operator ==(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Vector4", "op_Equality", lhs, rhs));
   }
   // static public System.Boolean op_Inequality(UnityEngine.Vector4 lhs, UnityEngine.Vector4 rhs)
   // Offset: 0x139EA00
-  bool operator !=(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs) {
+  inline bool operator !=(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Vector4", "op_Inequality", lhs, rhs));
   }
 }

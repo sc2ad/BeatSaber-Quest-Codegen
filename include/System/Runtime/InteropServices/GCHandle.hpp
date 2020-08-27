@@ -95,7 +95,7 @@ namespace System::Runtime::InteropServices {
   }; // System.Runtime.InteropServices.GCHandle
   // static public System.Boolean op_Equality(System.Runtime.InteropServices.GCHandle a, System.Runtime.InteropServices.GCHandle b)
   // Offset: 0x116851C
-  bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b) {
+  inline bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Runtime.InteropServices", "GCHandle", "op_Equality", a, b));
   }
 }

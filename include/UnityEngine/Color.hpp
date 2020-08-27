@@ -122,37 +122,37 @@ namespace UnityEngine {
   }; // UnityEngine.Color
   // static public UnityEngine.Color op_Addition(UnityEngine.Color a, UnityEngine.Color b)
   // Offset: 0x130A2A4
-  UnityEngine::Color operator+(const UnityEngine::Color& a, const UnityEngine::Color& b) {
+  inline UnityEngine::Color operator+(const UnityEngine::Color& a, const UnityEngine::Color& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Color>("UnityEngine", "Color", "op_Addition", a, b));
   }
   // static public UnityEngine.Color op_Subtraction(UnityEngine.Color a, UnityEngine.Color b)
   // Offset: 0x130A2B8
-  UnityEngine::Color operator-(const UnityEngine::Color& a, const UnityEngine::Color& b) {
+  inline UnityEngine::Color operator-(const UnityEngine::Color& a, const UnityEngine::Color& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Color>("UnityEngine", "Color", "op_Subtraction", a, b));
   }
   // static public UnityEngine.Color op_Multiply(UnityEngine.Color a, UnityEngine.Color b)
   // Offset: 0x130A2CC
-  UnityEngine::Color operator*(const UnityEngine::Color& a, const UnityEngine::Color& b) {
+  inline UnityEngine::Color operator*(const UnityEngine::Color& a, const UnityEngine::Color& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Color>("UnityEngine", "Color", "op_Multiply", a, b));
   }
   // static public UnityEngine.Color op_Multiply(UnityEngine.Color a, System.Single b)
   // Offset: 0x130A2E0
-  UnityEngine::Color operator*(const UnityEngine::Color& a, const float& b) {
+  inline UnityEngine::Color operator*(const UnityEngine::Color& a, const float& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Color>("UnityEngine", "Color", "op_Multiply", a, b));
   }
   // static public UnityEngine.Color op_Division(UnityEngine.Color a, System.Single b)
   // Offset: 0x130A2F4
-  UnityEngine::Color operator/(const UnityEngine::Color& a, const float& b) {
+  inline UnityEngine::Color operator/(const UnityEngine::Color& a, const float& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Color>("UnityEngine", "Color", "op_Division", a, b));
   }
   // static public System.Boolean op_Equality(UnityEngine.Color lhs, UnityEngine.Color rhs)
   // Offset: 0x130A308
-  bool operator ==(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs) {
+  inline bool operator ==(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Color", "op_Equality", lhs, rhs));
   }
   // static public System.Boolean op_Inequality(UnityEngine.Color lhs, UnityEngine.Color rhs)
   // Offset: 0x130A410
-  bool operator !=(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs) {
+  inline bool operator !=(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("UnityEngine", "Color", "op_Inequality", lhs, rhs));
   }
 }

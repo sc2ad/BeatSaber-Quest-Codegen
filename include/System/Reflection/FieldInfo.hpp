@@ -134,12 +134,12 @@ namespace System::Reflection {
   }; // System.Reflection.FieldInfo
   // static public System.Boolean op_Equality(System.Reflection.FieldInfo left, System.Reflection.FieldInfo right)
   // Offset: 0x136F730
-  bool operator ==(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right) {
+  inline bool operator ==(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "FieldInfo", "op_Equality", left, &right));
   }
   // static public System.Boolean op_Inequality(System.Reflection.FieldInfo left, System.Reflection.FieldInfo right)
   // Offset: 0x136FB14
-  bool operator !=(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right) {
+  inline bool operator !=(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "FieldInfo", "op_Inequality", left, &right));
   }
 }

@@ -64,22 +64,22 @@ namespace UnityEngine::ProBuilder {
   }; // UnityEngine.ProBuilder.Vector2Mask
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
   // Offset: 0x18D5620
-  UnityEngine::ProBuilder::Vector2Mask operator|(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right) {
+  inline UnityEngine::ProBuilder::Vector2Mask operator|(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vector2Mask>("UnityEngine.ProBuilder", "Vector2Mask", "op_BitwiseOr", left, right));
   }
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseAnd(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
   // Offset: 0x18D562C
-  UnityEngine::ProBuilder::Vector2Mask operator&(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right) {
+  inline UnityEngine::ProBuilder::Vector2Mask operator&(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vector2Mask>("UnityEngine.ProBuilder", "Vector2Mask", "op_BitwiseAnd", left, right));
   }
   // static public UnityEngine.ProBuilder.Vector2Mask op_ExclusiveOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
   // Offset: 0x18D5638
-  UnityEngine::ProBuilder::Vector2Mask operator^(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right) {
+  inline UnityEngine::ProBuilder::Vector2Mask operator^(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::Vector2Mask>("UnityEngine.ProBuilder", "Vector2Mask", "op_ExclusiveOr", left, right));
   }
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.ProBuilder.Vector2Mask mask, System.Single value)
   // Offset: 0x18D5644
-  UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value) {
+  inline UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Vector2>("UnityEngine.ProBuilder", "Vector2Mask", "op_Multiply", mask, value));
   }
 }

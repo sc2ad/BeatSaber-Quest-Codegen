@@ -117,7 +117,7 @@ namespace System {
   }; // System.TimeZoneInfo/TransitionTime
   // static public System.Boolean op_Inequality(System.TimeZoneInfo/TransitionTime t1, System.TimeZoneInfo/TransitionTime t2)
   // Offset: 0x1795428
-  bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2) {
+  inline bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "TimeZoneInfo/TransitionTime", "op_Inequality", t1, t2));
   }
 }

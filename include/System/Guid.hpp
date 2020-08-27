@@ -216,12 +216,12 @@ namespace System {
   }; // System.Guid
   // static public System.Boolean op_Equality(System.Guid a, System.Guid b)
   // Offset: 0x112BD24
-  bool operator ==(const System::Guid& a, const System::Guid& b) {
+  inline bool operator ==(const System::Guid& a, const System::Guid& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Guid", "op_Equality", a, b));
   }
   // static public System.Boolean op_Inequality(System.Guid a, System.Guid b)
   // Offset: 0x112BDD0
-  bool operator !=(const System::Guid& a, const System::Guid& b) {
+  inline bool operator !=(const System::Guid& a, const System::Guid& b) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System", "Guid", "op_Inequality", a, b));
   }
 }

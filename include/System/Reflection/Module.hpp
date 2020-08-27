@@ -154,7 +154,7 @@ namespace System::Reflection {
   }; // System.Reflection.Module
   // static public System.Boolean op_Equality(System.Reflection.Module left, System.Reflection.Module right)
   // Offset: 0x11514FC
-  bool operator ==(System::Reflection::Module* left, System::Reflection::Module& right) {
+  inline bool operator ==(System::Reflection::Module* left, System::Reflection::Module& right) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("System.Reflection", "Module", "op_Equality", left, &right));
   }
 }

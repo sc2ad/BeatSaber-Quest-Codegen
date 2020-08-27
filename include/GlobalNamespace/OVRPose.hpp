@@ -57,17 +57,17 @@ namespace GlobalNamespace {
   }; // OVRPose
   // static public System.Boolean op_Equality(OVRPose x, OVRPose y)
   // Offset: 0xF4BC2C
-  bool operator ==(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y) {
+  inline bool operator ==(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "OVRPose", "op_Equality", x, y));
   }
   // static public System.Boolean op_Inequality(OVRPose x, OVRPose y)
   // Offset: 0xF4BD9C
-  bool operator !=(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y) {
+  inline bool operator !=(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<bool>("", "OVRPose", "op_Inequality", x, y));
   }
   // static public OVRPose op_Multiply(OVRPose lhs, OVRPose rhs)
   // Offset: 0xF4BDE8
-  GlobalNamespace::OVRPose operator*(const GlobalNamespace::OVRPose& lhs, const GlobalNamespace::OVRPose& rhs) {
+  inline GlobalNamespace::OVRPose operator*(const GlobalNamespace::OVRPose& lhs, const GlobalNamespace::OVRPose& rhs) {
     return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::OVRPose>("", "OVRPose", "op_Multiply", lhs, rhs));
   }
 }
